@@ -1,6 +1,5 @@
 import abc
 
-
 class Ner(abc.ABC):
 
     @abc.abstractmethod
