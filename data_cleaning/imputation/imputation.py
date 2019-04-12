@@ -113,3 +113,21 @@ class Imputation(abc.ABC):
             performance_metric: rmse
         """
         pass
+
+    @abc.abstractmethod
+    def save_model(self, file):
+        """
+
+        :param file: Where to save the model - Optional function
+        :return:
+        """
+        pass
+
+    @abc.abstractmethod
+    def load_model(self, file):
+        """
+
+        :param file: From where to load the model - Optional function
+        :return:
+        """
+        pass

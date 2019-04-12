@@ -7,7 +7,7 @@ class EntityNormalization(abc.ABC):
 
     @classmethod
     @abc.abstractmethod
-    def read_dataset(cls, dataset_name: string, split_ratio: tuple, *args) -> tuple:
+    def read_dataset(cls, dataset_name: str, split_ratio: tuple, *args) -> tuple:
         '''
         :param dataset_name: name of dataset
         :param split_ratio: (train_ratio, validation_ration, test_ratio)
@@ -18,7 +18,7 @@ class EntityNormalization(abc.ABC):
 
     @classmethod
     @abc.abstractmethod
-    def train(cls, train_set: list) -> Model:
+    def train(cls, train_set: list):
         '''
         :param train_set: a list of training data
         :return: trained model
@@ -27,7 +27,7 @@ class EntityNormalization(abc.ABC):
 
     @classmethod
     @abc.abstractmethod
-    def predict(cls, model: Model, test_set: list) -> list:
+    def predict(cls, model, test_set: list) -> list:
         '''
         :param model: a trained model
         :param test_set: a list of test data
@@ -38,7 +38,7 @@ class EntityNormalization(abc.ABC):
 
     @classmethod
     @abc.abstractmethod
-    def evaluate(cls, model: Model, eval_set: list) -> tuple:
+    def evaluate(cls, model, eval_set: list) -> tuple:
         '''
         :param model: a trained model
         :param eval_set: a list of validation data
@@ -46,7 +46,23 @@ class EntityNormalization(abc.ABC):
         '''
         pass
 
+    @abc.abstractmethod
+    def save_model(self, file):
+        """
 
+        :param file: Where to save the model - Optional function
+        :return:
+        """
+        pass
+
+    @abc.abstractmethod
+    def load_model(self, file):
+        """
+
+        :param file: From where to load the model - Optional function
+        :return:
+        """
+        pass
 
 
 
