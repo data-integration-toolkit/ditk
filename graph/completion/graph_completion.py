@@ -1,6 +1,7 @@
 import abc
 
 class graph_completion(abc.ABC):		
+
 	@abc.abstractmethod
 	def read_dataset(self, fileName, options={}):
 		"""
@@ -73,5 +74,25 @@ class graph_completion(abc.ABC):
 						"f1": 0.5,
 						"MRR": 0.8
 					}
+		"""
+		pass
+
+
+	@abc.abstractmethod
+	def save_model(self, file):
+		"""
+
+		:param file: Where to save the model - Optional function
+		:return:
+		"""
+		pass
+
+
+	@abc.abstractmethod
+	def load_model(self, file):
+		"""
+
+		:param file: From where to load the model - Optional function
+		:return:
 		"""
 		pass
