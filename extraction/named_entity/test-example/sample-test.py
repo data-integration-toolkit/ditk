@@ -5,7 +5,7 @@ from named_entity import ner
 class TestNERMethods(unittest.TestCase):
 
     def setUp(self):
-        self.ner = Ner()
+        self.ner = Ner() #Your implementation of NER
         self.input_file = 'path_to_sample_input.txt'
         self.output_file = ner.main(input_file)
 
