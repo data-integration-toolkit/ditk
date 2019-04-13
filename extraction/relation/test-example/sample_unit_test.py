@@ -1,5 +1,6 @@
 import unittest
 import relation
+import linecache
 
 class TestRelationExtraction(unittest.TestCase):
 
