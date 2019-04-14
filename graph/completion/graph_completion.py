@@ -1,6 +1,6 @@
 import abc
 
-class graph_completion(abc.ABC):		
+class GraphCompletion(abc.ABC):
 
 	@abc.abstractmethod
 	def read_dataset(self, fileName, options={}):
