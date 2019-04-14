@@ -6,7 +6,7 @@ class TestGraphSimilarity(unittest.TestCase):
     def setUp(self):
         #instantiate the implemented class
         self.graph_similarity = GraphSimilarity()
-        self.input_file = 'sample_input.txt'
+        self.input_file = 'sample_input.csv.txt'
     
 
     @unittest.expectedFailure

@@ -7,7 +7,7 @@ class TestRelationExtraction(unittest.TestCase):
     def setUp(self):
         #instantiate the implemented class
         self.relation_extraction = RelationExtraction()
-        self.input_file = 'sample_input.txt'
+        self.input_file = 'sample_input.csv.txt'
         self.output_file = relation_extraction.tokenize(input_file, 1)
 
 
