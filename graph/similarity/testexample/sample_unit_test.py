@@ -11,7 +11,7 @@ class TestGraphSimilarity(unittest.TestCase):
 
     @unittest.expectedFailure
     def test_load_model(self):
-        #test if it succesfully loads the saved model 
+        #test if it successfully loads the saved model
         self.assertRaises(graph_similarity.load_model(input_file), IOError)
 
 
