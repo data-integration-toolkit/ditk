@@ -1,12 +1,23 @@
-from Imputation_3 import Imputation
-import argparse
 import os
 from os.path import isfile, join
-from modules.misgan_modules import preprocess
-from modules.misgan_modules import train
-from modules.misgan_modules import test
-from modules.misgan_modules import evaluate
-from modules.misgan_modules import impute
+import sys
+from tqdm import tqdm
+
+
+# change current folder to parent folder
+parent = sys.path[0].rfind('/')
+parent2 = sys.path[0].rfind('\\')
+
+sys.path[0] = sys.path[0][:max(parent, parent2)]
+
+from imputation import Imputation
+
+import argparse
+from misgan.modules import preprocess
+from misgan.modules import train
+from misgan.modules import test
+from misgan.modules import evaluate
+from misgan.modules import impute
 
 
 class MisGAN(Imputation):
@@ -17,11 +28,11 @@ class MisGAN(Imputation):
     def preprocess(self, *args, **kwargs):
         data = []
         fpaths = []
-        for file in os.listdir("data"):
-            fpath = join("data", file)
+        for file in tqdm(os.listdir(join(os.pardir, "data"))):
+            fpath = join(os.pardir, "data", file)
             if isfile(fpath):
                 fpaths.append(file)
-                data.append(super(MisGAN, self).preprocess(fpath, *args, **kwargs)[0])
+                data.append(super(MisGAN, self).preprocess(fpath, *args, **kwargs))
         preprocess.preprocess(self.args, data, fpaths)
 
     def train(self, *args, **kwargs):
@@ -29,20 +40,23 @@ class MisGAN(Imputation):
         train.train(self.args.fname)
 
     def test(self, *args, **kwargs):
-        self.model, self.test_data = super(MisGAN, self).test(self.args.model, self.args.fname, *args, **kwargs)
-        if self.args.misgan:
-            test.test(self.args, self.model, self.test_data)
-        if self.args.imputer:
-            test.test(self.args, self.model, self.test_data)
+        super(MisGAN, self).test(self.args.model, self.args.fname, *args, **kwargs)
+        test.test(self.args.model, self.args.fname)
 
     def impute(self, *args, **kwargs):
-        self.model, self.impute_data = super(MisGAN, self).impute(self.args.model, self.args.fname, *args, **kwargs)
-        impute.impute(self.args, self.model, self.impute_data)
+        _, self.impute_data = super(MisGAN, self).impute(self.args.model, join(os.pardir, self.args.fname), *args, **kwargs)
+        impute.impute(self.args, self.args.model, self.impute_data)
 
     def evaluate(self, *args, **kwargs):
-        self.model, self.eval_data = super(MisGAN, self).evaluate(self.args.model, self.args.fname, *args, **kwargs)
+        _, self.eval_data = super(MisGAN, self).evaluate(self.args.model, join(os.pardir, self.args.fname), *args, **kwargs)
         self.model = 'wdbc_imputer.pth'
-        evaluate.evaluate(self.args, self.model, self.eval_data)
+        evaluate.evaluate(self.args, self.args.model, self.eval_data)
+
+    def load_model(self, *args, **kwargs):
+        pass
+
+    def save_model(self, *args, **kwargs):
+        pass
 
 
 def main():
@@ -75,6 +89,18 @@ def main():
     args = parser.parse_args()
 
     misgan = MisGAN(args)
+
+    print("Structure initialized")
+
+    # creating path
+    if not os.path.exists('data'):
+        os.mkdir('data')
+
+    if not os.path.exists('checkpoint'):
+        os.mkdir('checkpoint')
+
+    if not os.path.exists('result'):
+        os.mkdir('result')
 
     if args.preprocess:
         misgan.preprocess(args)

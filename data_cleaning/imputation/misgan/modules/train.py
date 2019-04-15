@@ -5,22 +5,23 @@ from torch.autograd import grad
 from torch.utils.data import DataLoader
 from torch.utils.data import Dataset
 from torchvision import datasets, transforms
-from modules.misgan_modules.misgan_nn import *
+from misgan.modules.misgan_nn import *
 import os
 from os.path import join
 import numpy as np
 import pickle
+from time import gmtime, strftime
 
-DATALOADER_PATH = 'data/data_misgan/*_train.data_loader'
+DATALOADER_PATH = 'data/*.data_loader'
 
 def train(fname):
     use_cuda = torch.cuda.is_available()
     device = torch.device('cuda' if use_cuda else 'cpu')
 
+    t = strftime("%d_%b_%Y_%H_%M_%S_", gmtime())
+
     K, D = 16, 16
 
-    if not os.path.exists('result/misgan_result'):
-        os.mkdir('result/misgan_result')
     '''
     load data
     '''
@@ -42,7 +43,7 @@ def train(fname):
     '''
 
     nz = 128  # dimensionality of the latent code
-    n_critic = 5
+    n_critic = 1
     alpha = .2
 
     data_gen = ConvDataGenerator(K, D).to(device)
@@ -73,14 +74,15 @@ def train(fname):
     '''
     MisGAN Training
     '''
+    num_epoch = 1
+    max_update_interval = 1
 
-    update_interval = 5
+    update_interval = max_update_interval
     critic_updates = 0
 
-    data_losses = []
-    mask_losses = []
+    losses = []
 
-    for epoch in range(1):
+    for epoch in range(num_epoch):
 
         print("epoch" + str(epoch))
 
@@ -143,22 +145,22 @@ def train(fname):
             data_gen.eval()
             mask_gen.eval()
 
-            data_losses.append(data_loss)
-            mask_losses.append(mask_loss)
+            losses.append(("Epoch {0}: data_loss: {1} mask_loss: {2}".format(epoch, data_loss.item(), mask_loss.item())))
 
-            print("MisGAN data loss = {0}".format(data_loss))
-            print("MisGAN mask loss = {0}".format(mask_loss))
+            print("MisGAN data loss = {0}".format(data_loss.item()))
+            print("MisGAN mask loss = {0}".format(mask_loss.item()))
 
             data_gen.train()
             mask_gen.train()
 
-    torch.save(data_gen.state_dict(), join('checkpoint', 'misgan_checkpoint', fname + '_data_gen.pth'))
-    torch.save(mask_gen.state_dict(), join('checkpoint', 'misgan_checkpoint', fname + '_mask_gen.pth'))
-    torch.save(data_critic.state_dict(), join('checkpoint', 'misgan_checkpoint', fname + '_data_critic.pth'))
-    torch.save(mask_critic.state_dict(), join('checkpoint', 'misgan_checkpoint', fname + '_mask_critic.pth'))
+    torch.save(data_gen.state_dict(), join('checkpoint', fname + '_data_gen.pth'))
+    torch.save(mask_gen.state_dict(), join('checkpoint', fname + '_mask_gen.pth'))
+    torch.save(data_critic.state_dict(), join('checkpoint', fname + '_data_critic.pth'))
+    torch.save(mask_critic.state_dict(), join('checkpoint', fname + '_mask_critic.pth'))
 
-    with open('result/misgan_result/training_misgan_loss.txt', 'wb') as f:
-        f.write(str(zip(data_losses, mask_losses)))
+    with open('result/{0}training_misgan_loss.txt'.format(t), 'w') as f:
+        for l in losses:
+            f.writelines(l)
 
     '''
     Imputer initialization
@@ -181,13 +183,11 @@ def train(fname):
     '''
 
     beta = .1
-    update_interval = 1
+    update_interval = max_update_interval
     critic_updates = 0
-    data_losses = []
-    mask_losses = []
-    imputer_losses = []
+    losses = []
 
-    for epoch in range(1):
+    for epoch in range(num_epoch):
 
         print("epoch" + str(epoch))
 
@@ -270,16 +270,15 @@ def train(fname):
                 ##
                 # run inference mode
 
-                data_losses.append(data_loss)
-                mask_losses.append(mask_loss)
-                imputer_losses.append(impu_loss)
-                print("MisGAN data loss = {0}".format(data_loss))
-                print("MisGAN mask loss = {0}".format(mask_loss))
-                print("MisGAN imputer loss = {0}".format(imputer_loss))
+                losses.append("Epoch: {0} data_loss: {1} mask_loss: {2} impute_loss: {3}".format(epoch, data_loss.item(), mask_loss.item(), impu_loss.item()))
+                print("MisGAN data loss = {0}".format(data_loss.item()))
+                print("MisGAN mask loss = {0}".format(mask_loss.item()))
+                print("MisGAN imputer loss = {0}".format(impu_loss.item()))
 
                 imputer.train()
 
-    torch.save(imputer.state_dict(), join('checkpoint', 'misgan_checkpoint', fname + '_imputer.pth'))
-    torch.save(impu_critic.state_dict(), join('checkpoint', 'misgan_checkpoint', fname + '_impute_critic.pth'))
-    with open('result/misgan_result/training_imputer_loss.txt', 'wb') as f:
-        f.write(str(zip(data_losses, mask_losses, imputer_losses)))
+    torch.save(imputer.state_dict(), join('checkpoint', fname + '_imputer.pth'))
+    torch.save(impu_critic.state_dict(), join('checkpoint', fname + '_impute_critic.pth'))
+    with open('result/{0}training_imputer_loss.txt'.format(t), 'w') as f:
+        for l in losses:
+            f.writelines(l)

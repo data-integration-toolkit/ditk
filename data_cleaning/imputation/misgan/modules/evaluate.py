@@ -7,14 +7,16 @@ from torch.utils.data import Dataset
 import os
 from os.path import join
 import numpy as np
-from modules.misgan_modules import preprocess
+from misgan.modules import preprocess
 import pickle
 from tqdm import tqdm
 from time import gmtime, strftime
+import csv
 
-from misgan_modules.misgan_nn import *
+from misgan.modules.misgan_nn import *
 
-BASE_PATH = 'checkpoint/misgan_checkpoint'
+BASE_PATH = 'checkpoint/{0}_imputer.pth'
+OUT_BASE = 'result'
 
 
 def getrmse(table, original_data, mask):
@@ -75,7 +77,7 @@ def evaluate(args, model, eval_data):
     use_cuda = torch.cuda.is_available()
     device = torch.device('cuda' if use_cuda else 'cpu')
 
-    data_loader = preprocess.preprocess(args, [(eval_data, '', None)], ['eval_data'], save=False)
+    data_loader = preprocess.preprocess(args, [[(eval_data, '', None)]], [['eval_data']], save=False)
     # data is incomplete
     row_size = data_loader[0].dataset.row_size
     col_size = data_loader[0].dataset.col_size
@@ -88,7 +90,7 @@ def evaluate(args, model, eval_data):
     '''
     K, D = 16, 16
     imputer = Imputer(K, D).to(device)
-    imputer.load_state_dict(torch.load(join(BASE_PATH, model)))
+    imputer.load_state_dict(torch.load(BASE_PATH.format(model)))
     imputer.eval()
 
     result = []
@@ -104,12 +106,10 @@ def evaluate(args, model, eval_data):
     rmse = getrmse(table, data_loader[0].dataset.original_data, data_loader[0].dataset.original_datamask == 0)
 
     # write to file
-    outfile = join(OUT_BASE, strftime("%d_%b_%Y %H:%M:%S", gmtime()) + 'eval_data.csv')
-    with open(outfile, 'rb') as csvfile:
-        csvwriter = csv.writer(csvfile, delimiter=' ',
-                            quotechar='|', quoting=csv.QUOTE_MINIMAL)
-        for row in table:
-            csvwriter.writerow(row)
+    outfile = join(OUT_BASE, strftime("%d_%b_%Y_%H_%M_%S_", gmtime()) + 'eval_data.csv')
+    with open(outfile, 'w', newline='') as csvfile:
+        csvwriter = csv.writer(csvfile, delimiter=',')
+        csvwriter.writerows(list(table))
 
     print("CSV Saved")
     print("Evaluateion RMSE: {0}".format(rmse))
