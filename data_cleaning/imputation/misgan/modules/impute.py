@@ -7,15 +7,16 @@ from torch.utils.data import Dataset
 import os
 from os.path import join
 import numpy as np
-from modules.misgan_modules import preprocess
+from misgan.modules import preprocess
 import pickle
 from tqdm import tqdm
 from time import gmtime, strftime
+import csv
 
-from misgan_modules.misgan_nn import *
+from misgan.modules.misgan_nn import *
 
-BASE_PATH = 'checkpoint/misgan_checkpoint'
-OUT_BASE = 'result/misgan_result'
+BASE_PATH = 'checkpoint/{0}_imputer.pth'
+OUT_BASE = 'result'
 
 
 def getrmse(table, original_data, mask):
@@ -31,7 +32,8 @@ def construct_full_table(result, original_data, K, D, row_size, col_size):
 
     # 1 is used as default stride
     # create the imputed table
-    table = np.zeros(((row_size - 1) * 1 + K, (col_size - 1) * 1 + D))
+    n, d = (row_size - 1) * 1 + K, (col_size - 1) * 1 + D
+    table = np.zeros((n, d))
 
     # set the new table to have same value of the original table
     for i in range(n):
@@ -75,14 +77,16 @@ def impute(args, model, impute_data):
     use_cuda = torch.cuda.is_available()
     device = torch.device('cuda' if use_cuda else 'cpu')
 
-    data_loader = preprocess.preprocess(args, [(impute_data, '', None)], ['impute_data'], save=False)
+    data_loader = preprocess.preprocess(args, [[(impute_data, '', None)]], [['impute_data']], save=False)
+    row_size = data_loader[0].dataset.row_size
+    col_size = data_loader[0].dataset.col_size
 
     '''
     Imputer initialization
     '''
     K, D = 16, 16
     imputer = Imputer(K, D).to(device)
-    imputer.load_state_dict(torch.load(join(BASE_PATH, model)))
+    imputer.load_state_dict(torch.load(BASE_PATH.format(model)))
     imputer.eval()
 
     result = []
@@ -96,19 +100,11 @@ def impute(args, model, impute_data):
 
     table = construct_full_table(result, data_loader[0].dataset.original_data, K, D, row_size, col_size)
 
-    # create path if it does not exist
-    if not os.path.exists('result'):
-        os.mkdir('result')
-    if not os.path.exists('result/misgan_result'):
-        os.mkdir('result/misgan_result')
-
     # write to file
-    outfile = join(OUT_BASE, strftime("%d_%b_%Y %H:%M:%S", gmtime()) + 'impute_data.csv')
-    with open(outfile, 'rb') as csvfile:
-        csvwriter = csv.writer(csvfile, delimiter=' ',
-                                quotechar='|', quoting=csv.QUOTE_MINIMAL)
-        for row in table:
-            csvwriter.writerow(row)
+    outfile = join(OUT_BASE, strftime("%d_%b_%Y_%H_%M_%S_", gmtime()) + 'impute_data.csv')
+    with open(outfile, 'w', newline='') as csvfile:
+        csvwriter = csv.writer(csvfile, delimiter=',')
+        csvwriter.writerows(list(table))
 
     print("CSV Saved")
 

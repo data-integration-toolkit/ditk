@@ -102,8 +102,6 @@ class ArbitaryMasked(Dataset):
 
 # preprocesses data with manual introducing missing value in k x k blocks
 def preprocess(args, full_data, fnames, save=True):
-    if not os.path.exists('checkpoint/misgan_checkpoint'):
-        os.mkdir('checkpoint/misgan_checkpoint')
 
     data_loaders = []
 
@@ -135,11 +133,11 @@ def preprocess(args, full_data, fnames, save=True):
                                      drop_last=True)
             data_loaders.append(data_loader)
 
-            if not os.path.exists("data/data_misgan"):
-                os.mkdir("data/data_misgan")
+            if not os.path.exists("data"):
+                os.mkdir("data")
 
             if save:
-                dt_loader_path = join("data/data_misgan/", "{0}_{1}.data_loader".format(fname, prefix))
+                dt_loader_path = join("data", "{0}_{1}.data_loader".format(fname, prefix))
                 with open(dt_loader_path, 'wb') as pickle_file:
                     pickle.dump(data_loader, pickle_file)
 

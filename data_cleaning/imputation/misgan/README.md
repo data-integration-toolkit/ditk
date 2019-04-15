@@ -1,38 +1,42 @@
-# Template module for Python version 3.x
+# Code for Python3
 
 # MisGAN
+Data should exist in "imputation/data"
+MisGAN is compatible with all three datasets
 
-## loading the data
-Data should exist in "/data"
-MisGAN will be compatible with all three datasets
-python misgan_main.py --preprocess
+## Preprocessing:
+For preprocessing training data without split run:
+python main.py --preprocess
+
+For preprocessing training data with split run:
+python main.py --preprocess --split=<ratio>, where ratio is a float
 
 ## Training
-For training misgan 
-python misgan_main.py --fname=<fname> --train --misgan
-
-For training misgan imputer
-python misgan_main.py --fname=<fname> --train --imputer
-
-Fmputer is trained after misgan finishes training, for simplicity hyper parameter for training are predefined
+For training misgan, run
+python main.py --train --fname=<file>, where file name is the file name of the data loader
 
 ## Testing
-For testing misgan 
-python misgan_main.py --model=<model_name> --fname=<fname> --test --misgan
+For testing misgan, run
+python --test --fname=<fname> --model=<model>, where file name is the file name of the data loader, and model is
+the name of the model before .csv
+eg.
 
-For testing misgan imputer
-python misgan_main.py  --model=<model_name> --fname=<fname> --test --imputer
+python main.py --test --fname=wdbc.csv_test --model=wdbc
 
 ## Evaluation
-Evaluation of MisGAN uses RMSE score
-python misgan_main.py --model=<model_name> <fname>
+python main.py --evaluate --fname=<file> --model=<model>, where file is input data name and model is imputer 
+model name.
+eg.
+python main.py --evaluate --fname="data/wdbc.csv" --model="wdbc.csv_train"
 
+To introduce missing value manually, use:
+python main.py --evaluate --fname="data/wdbc.csv" --model="wdbc.csv_train" --ims --ratio=<ratio>, ratio is float
 
+## Imputation
+python main.py --impute --fname=<file> --model=<model>, where file is input data name and model is imputer 
+model name.
+eg.
+python main.py --impute --fname="data/wdbc.csv" --model="wdbc.csv_train"
 
-# new commands
-Preprocess:
-python misgan_main.py --preprocess --split=0.8
-
-Evaluation
-
-python misgan_main.py --evaluate --fname="data/wdbc.csv" --model="wdbc_imputer.pth"
+To introduce missing value manually, use:
+python main.py --evaluate --fname="data/wdbc.csv" --model="wdbc.csv_train" --ims --ratio=<ratio>, ratio is float

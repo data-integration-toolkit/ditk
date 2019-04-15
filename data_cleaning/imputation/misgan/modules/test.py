@@ -5,22 +5,28 @@ from torch.autograd import grad
 from torch.utils.data import DataLoader
 from torch.utils.data import Dataset
 from torchvision import datasets, transforms
-from modules.misgan_modules.misgan_nn import *
+from misgan.modules.misgan_nn import *
 import os
 from os.path import join
 import numpy as np
 import pickle
+from time import gmtime, strftime
 
-DATALOADER_PATH = 'data/data_misgan/*_test.data_loader'
+DATALOADER_PATH = 'data/*.data_loader'
+DATA_CRITIC_CHECKPOINT_PATH = 'checkpoint/{0}.csv_train_data_critic.pth'
+DATA_GEN_CHECKPOINT_PATH = 'checkpoint/{0}.csv_train_data_gen.pth'
+IMPUTER_CRITIC_CHECKPOINT_PATH = 'checkpoint/{0}.csv_train_impute_critic.pth'
+IMPUTER_CHECKPOINT_PATH = 'checkpoint/{0}.csv_train_imputer.pth'
+MASK_CRITIC_CHECKPOINT_PATH = 'checkpoint/{0}.csv_train_mask_critic.pth'
+MASK_GEN_CHECKPOINT_PATH = 'checkpoint/{0}.csv_train_mask_gen.pth'
 
-def test(fname):
+def test(model, fname):
     use_cuda = torch.cuda.is_available()
     device = torch.device('cuda' if use_cuda else 'cpu')
+    t = strftime("%d_%b_%Y_%H_%M_%S_", gmtime())
 
     K, D = 16, 16
 
-    if not os.path.exists('result/misgan_result'):
-        os.mkdir('result/misgan_result')
     '''
     load data
     '''
@@ -40,9 +46,17 @@ def test(fname):
 
     data_gen = ConvDataGenerator(K, D).to(device)
     mask_gen = ConvMaskGenerator(K, D).to(device)
+    data_gen.load_state_dict(torch.load(DATA_GEN_CHECKPOINT_PATH.format(model)))
+    mask_gen.load_state_dict(torch.load(MASK_GEN_CHECKPOINT_PATH.format(model)))
+    data_gen.eval()
+    mask_gen.eval()
 
     data_critic = ConvCritic(K, D).to(device)
     mask_critic = ConvCritic(K, D).to(device)
+    data_critic.load_state_dict(torch.load(DATA_CRITIC_CHECKPOINT_PATH.format(model)))
+    mask_critic.load_state_dict(torch.load(MASK_CRITIC_CHECKPOINT_PATH.format(model)))
+    data_critic.eval()
+    mask_critic.eval()
 
     data_noise = torch.empty(batch_size, nz, device=device)
     mask_noise = torch.empty(batch_size, nz, device=device)
@@ -59,20 +73,23 @@ def test(fname):
         fake_mask = mask_gen(mask_noise)
 
         masked_fake_data = mask_data(fake_data, fake_mask)
-        masked_real_data = mask_data(real_data, real_mask)
-
-        update_data_critic(masked_real_data, masked_fake_data)
-        update_mask_critic(real_mask, fake_mask)
 
     data_loss = -data_critic(masked_fake_data).mean()
     mask_loss = -mask_critic(fake_mask).mean()
 
+    print("MisGAN data loss = {0}".format(data_loss.item()))
+    print("MisGAN mask loss = {0}".format(mask_loss.item()))
 
-    print("MisGAN data loss = {0}".format(data_loss))
-    print("MisGAN mask loss = {0}".format(mask_loss))
+    with open('result/{0}test_misgan_loss.txt'.format(t), 'w') as f:
+        f.writelines("Data_loss: {0} mask_loss: {1}".format(data_loss.item(), mask_loss.item()))
 
-    with open('result/misgan_result/test_misgan_loss.txt', 'wb') as f:
-        f.write(str(data_loss, mask_loss))
+    imputer = Imputer(K, D).to(device)
+    imputer.load_state_dict(torch.load(IMPUTER_CHECKPOINT_PATH.format(model)))
+    imputer.eval()
+
+    impu_critic = ConvCritic(K, D).to(device)
+    impu_critic.load_state_dict(torch.load(IMPUTER_CRITIC_CHECKPOINT_PATH.format(model)))
+    impu_critic.eval()
 
     for real_data, real_mask, index in data_loader:
         # find out if input of any size works too
@@ -89,15 +106,10 @@ def test(fname):
         fake_mask = mask_gen(mask_noise)
         masked_fake_data = mask_data(fake_data, fake_mask)
 
-        impu_noise.uniform_()
-        imputed_data = imputer(real_data, real_mask, impu_noise)
-
-        update_data_critic(masked_real_data, masked_fake_data)
-        update_mask_critic(real_mask, fake_mask)
-        update_impu_critic(fake_data, imputed_data)
+        imputed_data = imputer.inference(real_data, real_mask)
 
     data_loss = -data_critic(masked_fake_data).mean()
     mask_loss = -mask_critic(fake_mask).mean()
     impu_loss = -impu_critic(imputed_data).mean()
-    with open('result/misgan_result/test_imputer_loss.txt', 'wb') as f:
-        f.write(str(data_loss, mask_loss, impu_loss))
+    with open('result/{0}test_imputer_loss.txt'.format(t), 'w') as f:
+        f.writelines("Data_loss: {0} mask_loss: {1} impute_loss: {2}".format(data_loss.item(), mask_loss.item(), impu_loss.item()))

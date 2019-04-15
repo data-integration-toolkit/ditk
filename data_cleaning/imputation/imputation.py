@@ -36,15 +36,8 @@ class Imputation(abc.ABC):
             dataframe or numpy array or other data format
         """
 
-        # creating path
-
-        if not os.path.exist('checkpoint'):
-            os.mkdir('checkpoint')
-
-        if not os.path.exist('result'):
-            os.mkdir('result')
-
         # loading csv data
+        data = []
 
         with open(inputData, 'r') as f:
             rows = csv.reader(f, delimiter=',', quotechar='|')
@@ -147,7 +140,16 @@ class Imputation(abc.ABC):
         :return:
             imputed_data: imputed table
         """
-    pass
+        with open(input, 'r') as f:
+            rows = csv.reader(f, delimiter=',', quotechar='|')
+            data = [x for x in rows]
+            data = np.asarray(data[1:], dtype='float')
+
+        # check if we introduce missing value here
+        if not args[0].ims:
+            return None, data
+
+        return None, data
 
 
     @classmethod
