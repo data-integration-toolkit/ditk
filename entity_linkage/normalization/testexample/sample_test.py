@@ -1,7 +1,7 @@
 import unittest
 import normalization
 
-class TestGraphSimilarity(unittest.TestCase):
+class TestEntityNormalization(unittest.TestCase):
 
     def setUp(self):
         #instantiate the implemented class
@@ -15,7 +15,7 @@ class TestGraphSimilarity(unittest.TestCase):
     
 
     def test_predict(self):
-        #test if predicts returns at least list with two elements 
+        #test if predicts returns at least a list with two elements 
         results = predict(model, test_list)
         assertTrue(len(results)>=2)
 
