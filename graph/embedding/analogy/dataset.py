@@ -37,7 +37,8 @@ class TripletDataset(Dataset):
         samples = []
         with open(data_path) as f:
             for line in f:
-                sub, rel, obj = line.strip().split('\t')
+                # sub, rel, obj = line.strip().split('\t') OLD
+                sub, obj, rel = line.strip().split('\t')
                 samples.append((ent_vocab[sub], rel_vocab[rel], ent_vocab[obj]))
         return TripletDataset(samples)
 
@@ -60,8 +61,17 @@ class Vocab(object):
 
     @classmethod
     def load(cls, vocab_path):
-        v = Vocab()
+        tl = []
         with open(vocab_path) as f:
-            for word in f:
-                v.add(word.strip())
+            for line in f.readlines():
+                w, c = line.split('\t')
+                tl.append(w.strip())
+        tl.sort()
+        v = Vocab()
+        # with open(vocab_path) as f:
+        #    for word in f:
+        #        v.add(word.strip())
+        for word in tl:
+            v.add(word.strip())
+
         return v

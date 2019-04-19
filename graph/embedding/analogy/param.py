@@ -2,7 +2,7 @@
 from collections import defaultdict
 import numpy as np
 
-from utils.math_utils import random_xavier
+from graph.embedding.analogy.math_utils import random_xavier
 
 
 # TODO: Abstract class
