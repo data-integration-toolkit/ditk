@@ -17,7 +17,7 @@ python main.py --train --fname=<file>, where file name is the file name of the d
 
 ## Testing
 For testing misgan, run
-python --test --fname=<fname> --model=<model>, where file name is the file name of the data loader, and model is
+python main.py --test --fname=<fname> --model=<model>, where file name is the file name of the data loader, and model is
 the name of the model before .csv
 eg.
 
