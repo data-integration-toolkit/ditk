@@ -1,20 +1,20 @@
 import numpy as np
 import os
 import copy
-from .. import ner
+from ner import Ner
 os.environ['TF_CPP_MIN_LOG_LEVEL'] = '3'
 
 import sklearn
-from keras.models import load_model
+from keras import models
 from nltk import word_tokenize
 from validation import addCharInformationPrediction, padSentence
 from keras.models import Model
 from keras.layers import TimeDistributed,Conv1D,Dense,Embedding,Input,Dropout,LSTM,Bidirectional,MaxPooling1D,Flatten,concatenate
-from prepro import readfile,createBatches,createMatrices, createMatricesPrediction, iterate_minibatches,addCharInformation,padding, getCasing
+from prepro import processData,createBatches,createMatrices, createMatricesPrediction, iterate_minibatches,addCharInformation,padding, getCasing
 from keras.utils import Progbar
 from keras.initializers import RandomUniform
 
-class ner_blstm_cnn(ner.Ner):
+class ner_blstm_cnn(Ner):
 
     def __init__(self, epoch=70):
         """
@@ -60,7 +60,7 @@ class ner_blstm_cnn(ner.Ner):
         char = TimeDistributed(Flatten())(maxpool_out)
         char = Dropout(0.5)(char)
         output = concatenate([words, casing, char])
-        output = Bidirectional(LSTM(250, return_sequences=True, dropout=0.50, recurrent_dropout=0.25))(output)
+        output = Bidirectional(LSTM(200, return_sequences=True, dropout=0.50, recurrent_dropout=0.25))(output)
         output = TimeDistributed(Dense(len(self.label2Idx), activation='softmax'))(output)
         self.model = Model(inputs=[words_input, casing_input, character_input], outputs=[output])
         self.model.compile(loss='sparse_categorical_crossentropy', optimizer='nadam')
@@ -108,7 +108,7 @@ class ner_blstm_cnn(ner.Ner):
         self.idx2Label = {v: k for k, v in self.label2Idx.items()}
 
 
-    def load_models(self, modelpath=None):
+    def load_model(self, modelpath=None):
         """
         Load custom model
 
@@ -121,11 +121,22 @@ class ner_blstm_cnn(ner.Ner):
         """
         if not modelpath:
             modelpath = os.path.join(os.path.expanduser('~'), '.ner_model')
-        self.model = load_model(os.path.join(modelpath, "model.h5"))
+        self.model = models.load_model(os.path.join(modelpath, "model.h5"))
         # loading word2Idx
         self.word2Idx = np.load(os.path.join(modelpath, "word2Idx.npy")).item()
         # loading idx2Label
         self.idx2Label = np.load(os.path.join(modelpath, "idx2Label.npy")).item()
+
+
+    def save_model(self, file=None):
+        """
+        :param file: Where to save the model - Optional function
+        :return:
+        """
+        
+        self.model.save("models/model.h5")
+        np.save("models/idx2Label.npy", self.idx2Label)
+        np.save("models/word2Idx.npy", self.word2Idx)
 
     def createTensor(self, sentence, word2Idx, case2Idx, char2Idx):
         """
@@ -169,22 +180,22 @@ class ner_blstm_cnn(ner.Ner):
 
     def predict_text(self, text):
         """
-        Predicts on the given input text
+        Predicts on the given input data. Assumes model has been trained with train()
         Args:
-            text (str): string of text on which to make prediction
+            data:
         Returns:
             predictions: [tuple,...], i.e. list of tuples.
-                Each tuple is (start index, span, mention text, mention type)
+                Each tuple is (mention text, true type, mention type)
                 Where:
-                 - start index: int, the index of the first character of the mention span. None if not applicable.
-                 - span: int, the length of the mention. None if not applicable.
                  - mention text: str, the actual text that was identified as a named entity. Required.
+                 - true type: str, the groud truth of the token
                  - mention type: str, the entity/mention type. None if not applicable.
                  NOTE: len(predictions) should equal len(data) AND the ordering should not change [important for
                      evalutation. See note in evaluate() about parallel arrays.]
         Raises:
             None
         """
+
         Sentence = words = word_tokenize(text)
         Sentence = addCharInformationPrediction(Sentence)
         Sentence = padSentence(self.createTensor(Sentence, self.word2Idx, self.case2Idx, self.char2Idx))
@@ -196,25 +207,23 @@ class ner_blstm_cnn(ner.Ner):
         pred = pred.argmax(axis=-1)
         pred = [self.idx2Label[x].strip() for x in pred]
 
-        start = [None]*len(pred)
-        span = [len(word) for word in words]
-        predictions = list(map(list, zip(start, span, words, pred)))
+        ground = [None]*len(pred)
+        predictions = list(map(list, zip(words, ground, pred)))
         predictions = [tuple(preds) for preds in predictions]
         return predictions
 
 
     def predict_dataset(self, dataset):
         """
-        Predicts on the given dataset
+        Predicts on the given input data. Assumes model has been trained with train()
         Args:
-            dataset: data in arbitrary format as required for testing
+            data:
         Returns:
             predictions: [tuple,...], i.e. list of tuples.
-                Each tuple is (start index, span, mention text, mention type)
+                Each tuple is (mention text, true type, mention type)
                 Where:
-                 - start index: int, the index of the first character of the mention span. None if not applicable.
-                 - span: int, the length of the mention. None if not applicable.
                  - mention text: str, the actual text that was identified as a named entity. Required.
+                 - true type: str, the groud truth of the token
                  - mention type: str, the entity/mention type. None if not applicable.
                  NOTE: len(predictions) should equal len(data) AND the ordering should not change [important for
                      evalutation. See note in evaluate() about parallel arrays.]
@@ -222,12 +231,14 @@ class ner_blstm_cnn(ner.Ner):
             None
         """
 
+        dataset = processData(dataset)
         dataset = addCharInformation(dataset, self.char2Idx)
         batch = padding(createMatricesPrediction(dataset, self.word2Idx, self.label2Idx, self.case2Idx, self.char2Idx))
 
         tokens = []
         span = []
         predLabels = []
+        groundLabels = []
 
         b = Progbar(len(batch))
         for i, data in enumerate(batch):
@@ -243,12 +254,13 @@ class ner_blstm_cnn(ner.Ner):
                 span.append(len(sentence))
 
             preds = [self.idx2Label[element] for element in pred]
+            ground = [self.idx2Label[element] for element in labels]
             predLabels.extend(preds)
+            groundLabels.extend(ground)
             b.update(i)
         b.update(i + 1)
 
-        start = [None] * len(tokens)
-        predictions = list(map(list, zip(start, span, tokens, predLabels)))
+        predictions = list(map(list, zip(tokens, groundLabels, predLabels)))
         predictions = [tuple(pred) for pred in predictions]
         return predictions
 
@@ -278,6 +290,9 @@ class ner_blstm_cnn(ner.Ner):
 
         # return ground_truth
 
+        pass
+
+        '''
         tokens = []
         labels = []
         span = []
@@ -293,9 +308,10 @@ class ner_blstm_cnn(ner.Ner):
         ground_truth = [tuple(ground) for ground in ground_truth]
 
         return ground_truth
+        '''
 
     #@NER.overrides
-    def read_dataset(self, fileNames, *args, **kwargs):
+    def read_dataset(self, file_dict, dataset_name=None, *args, **kwargs):
         """
         Reads a dataset in preparation for train or test. Returns data in proper format for train or test.
         Args:
@@ -309,11 +325,39 @@ class ner_blstm_cnn(ner.Ner):
         # IMPLEMENT READING
         # pass
 
-        trainSentences = readfile(fileNames['train'])
-        devSentences = readfile(fileNames['valid'])
-        testSentences = readfile(fileNames['test'])
+        standard_split = ["train", "test", "dev"]
 
-        data = {'train':copy.deepcopy(trainSentences), 'valid':copy.deepcopy(devSentences), 'test':copy.deepcopy(testSentences)}
+        data = {}
+        try:
+            for split in standard_split:
+                file = file_dict[split]
+                with open(file, mode='r', encoding='utf-8') as f:
+                    raw_data = f.read().splitlines()
+                data[split] = [lines.split() for lines in raw_data]
+        except KeyError:
+            raise ValueError("Invalid file_dict. Standard keys (train, test, dev)")
+        except Exception as e:
+            print('Something went wrong.', e)
+        return data
+
+
+    #@NER.overrides
+    def train(self, data, *args, **kwargs):
+        """
+        Trains a model on the given input data
+        Args:
+            data: iterable of arbitrary format. represents the data instances and features and labels you use to train your model.
+        Returns:
+            ret: None. Trained model stored internally to class instance state.
+        Raises:
+            None
+        """
+        # IMPLEMENT TRAINING.
+        # pass
+
+        trainSentences = processData(data['train'])
+        devSentences = processData(data['dev'])
+        testSentences = processData(data['test'])
 
         labelSet = set()
         self.words = {}
@@ -333,27 +377,10 @@ class ner_blstm_cnn(ner.Ner):
         for label in labelSet:
             self.label2Idx[label] = len(self.label2Idx)
 
-        return data
-
-    #@NER.overrides
-    def train(self, data, *args, **kwargs):
-        """
-        Trains a model on the given input data
-        Args:
-            data: iterable of arbitrary format. represents the data instances and features and labels you use to train your model.
-        Returns:
-            ret: None. Trained model stored internally to class instance state.
-        Raises:
-            None
-        """
-        # IMPLEMENT TRAINING.
-        # pass
-
         # Load the word embeddings
         self.load_embeddings()
 
         # Prepare the model for training
-        trainSentences = addCharInformation(copy.deepcopy(data['train']), self.char2Idx)
         train_set = padding(createMatrices(trainSentences, self.word2Idx, self.label2Idx, self.case2Idx, self.char2Idx))
 
         # Create mini-batches for training
@@ -365,8 +392,6 @@ class ner_blstm_cnn(ner.Ner):
         self.build_model()
         #self.model = load_model("./models/model.h5")
 
-        ground = self.convert_ground_truth(data['valid'])
-
         # Train the model
         for epoch in range(self.epochs):
             print("Epoch %d/%d" % (epoch, self.epochs))
@@ -375,8 +400,8 @@ class ner_blstm_cnn(ner.Ner):
                 labels, tokens, casing, char = batch
                 self.model.train_on_batch([tokens, casing, char], labels)
                 a.update(i)
-            predictions = self.predict_dataset(copy.deepcopy(data['valid']))
-            P, R, F = self.evaluate(predictions, ground)
+            predictions = self.predict_dataset(copy.deepcopy(data['dev']))
+            P, R, F = self.evaluate(predictions)
             print('Precision: %s, Recall: %s, F1: %s' % (P, R, F))
             a.update(i + 1)
             print(' ')
@@ -390,16 +415,13 @@ class ner_blstm_cnn(ner.Ner):
         """
         Predicts on the given input data. Assumes model has been trained with train()
         Args:
-            data: iterable of arbitrary format. represents the data instances and features you use to make predictions
-                Note that prediction requires trained model. Precondition that class instance already stores trained model
-                information.
+            data:
         Returns:
             predictions: [tuple,...], i.e. list of tuples.
-                Each tuple is (start index, span, mention text, mention type)
+                Each tuple is (mention text, true type, mention type)
                 Where:
-                 - start index: int, the index of the first character of the mention span. None if not applicable.
-                 - span: int, the length of the mention. None if not applicable.
                  - mention text: str, the actual text that was identified as a named entity. Required.
+                 - true type: str, the groud truth of the token
                  - mention type: str, the entity/mention type. None if not applicable.
                  NOTE: len(predictions) should equal len(data) AND the ordering should not change [important for
                      evalutation. See note in evaluate() about parallel arrays.]
@@ -415,12 +437,11 @@ class ner_blstm_cnn(ner.Ner):
             return self.predict_dataset(copy.deepcopy(data))
 
     #@NER.overrides
-    def evaluate(self, predictions, groundTruths, *args, **kwargs):
+    def evaluate(self, predictions, *args, **kwargs):
         """
         Calculates evaluation metrics on chosen benchmark dataset [Precision,Recall,F1, or others...]
         Args:
             predictions: [tuple,...], list of tuples [same format as output from predict]
-            groundTruths: [tuple,...], list of tuples representing ground truth.
         Returns:
             metrics: tuple with (p,r,f1). Each element is float.
         Raises:
@@ -435,8 +456,8 @@ class ner_blstm_cnn(ner.Ner):
 
         # return (precision, recall, f1)
 
-        predicted_labels = [predicted[3] for predicted in predictions]
-        ground_labels = [true_labels[3] for true_labels in groundTruths]
+        predicted_labels = [predicted[2] for predicted in predictions]
+        ground_labels = [true_labels[1] for true_labels in predictions]
 
         label_encoder = sklearn.preprocessing.LabelEncoder()
         label_set = list(self.label2Idx.keys())
