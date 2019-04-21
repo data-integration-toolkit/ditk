@@ -21,7 +21,7 @@ class Dataset(object):
         self.verbose = verbose
         self.debug = debug
 
-    def _parse_dataset(self, dataset_filepath):
+    def _parse_dataset(self, data, dataset_filepath):
         token_count = collections.defaultdict(lambda: 0)
         label_count = collections.defaultdict(lambda: 0)
         character_count = collections.defaultdict(lambda: 0)
@@ -31,11 +31,15 @@ class Dataset(object):
         labels = []
         new_token_sequence = []
         new_label_sequence = []
+        flag = False
         if dataset_filepath:
-            f = codecs.open(dataset_filepath, 'r', 'UTF-8')
-            for line in f:
+            if data==None:
+                data = codecs.open(dataset_filepath, 'r', 'UTF-8')
+                flag = True
+            for line in data:
                 line_count += 1
-                line = line.strip().split(' ')
+                if flag:
+                    line = line.strip().split(' ')
                 if len(line) == 0 or len(line[0]) == 0 or '-DOCSTART-' in line[0]:
                     if len(new_token_sequence) > 0:
                         labels.append(new_label_sequence)
@@ -44,7 +48,7 @@ class Dataset(object):
                         new_label_sequence = []
                     continue
                 token = str(line[0])
-                label = str(line[-1])
+                label = str(line[-1]) if flag else str(line[3])
                 token_count[token] += 1
                 label_count[label] += 1
 
@@ -59,7 +63,6 @@ class Dataset(object):
             if len(new_token_sequence) > 0:
                 labels.append(new_label_sequence)
                 tokens.append(new_token_sequence)
-            f.close()
         return labels, tokens, token_count, label_count, character_count
 
 
@@ -146,12 +149,12 @@ class Dataset(object):
         self.characters.update(characters)
         self.label_vector_indices.update(label_vector_indices)
 
-    def load_dataset(self, dataset_filepaths, parameters, token_to_vector=None):
+    def load_dataset(self, data, dataset_filepaths, parameters, token_to_vector=None):
         '''
         dataset_filepaths : dictionary with keys 'train', 'valid', 'test', 'deploy'
         '''
         start_time = time.time()
-        print('Load dataset... ', end='', flush=True)
+        print('Preprocessing dataset... ', end='', flush=True)
         if parameters['token_pretrained_embedding_filepath'] != '':
             if token_to_vector==None:
                 token_to_vector = utils_nlp.load_pretrained_token_embeddings(parameters)
@@ -186,8 +189,13 @@ class Dataset(object):
         token_count = {}
         character_count = {}
         for dataset_type in ['train', 'valid', 'test', 'deploy']:
-            labels[dataset_type], tokens[dataset_type], token_count[dataset_type], label_count[dataset_type], character_count[dataset_type] \
-                = self._parse_dataset(dataset_filepaths.get(dataset_type, None))
+            type = 'dev' if dataset_type=='valid' else dataset_type
+            if data!=None:
+                labels[dataset_type], tokens[dataset_type], token_count[dataset_type], label_count[dataset_type], character_count[dataset_type] \
+                    = self._parse_dataset(data.get(type, None), dataset_filepaths.get(dataset_type, None))
+            else:
+                labels[dataset_type], tokens[dataset_type], token_count[dataset_type], label_count[dataset_type], character_count[dataset_type] \
+                    = self._parse_dataset(None, dataset_filepaths.get(dataset_type, None))
 
             if self.verbose: 
                 print("dataset_type: {0}".format(dataset_type))

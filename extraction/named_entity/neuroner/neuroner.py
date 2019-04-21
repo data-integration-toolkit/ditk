@@ -1,5 +1,5 @@
 
-from .. import ner
+from ner import Ner
 import codecs
 import copy
 import glob
@@ -26,7 +26,7 @@ import evaluate
 import brat_to_conll
 import utils_nlp
 
-class neuroner(ner.Ner):
+class neuroner(Ner):
 
     prediction_count = 0
 
@@ -234,17 +234,17 @@ class neuroner(ner.Ner):
         pred_tuple = prediction_output[0]
 
         for i, token in enumerate(tokens):
-            pred = (token.idx, len(token), token, self.modeldata.index_to_label[pred_tuple[i]])
+            pred = (token, None, self.modeldata.index_to_label[pred_tuple[i]])
             predictions.append(pred)
 
         assert (text == text2)
         return predictions
 
-    def predict_dataset(self, dataset, dataset_type='test'):
+    def predict_dataset(self, data, dataset_type='test'):
         """
         Makes predictions on a given dataset and returns the predictions in the specified format
         Args:
-            dataset: data in arbitrary format as required for testing
+            data: data in arbitrary format as required for testing
         Returns:
             predictions: [tuple,...], i.e. list of tuples.
                 Each tuple is (start index, span, mention text, mention type)
@@ -259,6 +259,11 @@ class neuroner(ner.Ner):
             None
         """
         # IMPLEMENT PREDICTION.
+
+        # Load dataset
+        self.dataset_filepaths, self.dataset_brat_folders = self._get_valid_dataset_filepaths(self.parameters)
+        self.modeldata = dataset.Dataset(verbose=self.parameters['verbose'], debug=self.parameters['debug'])
+        token_to_vector = self.modeldata.load_dataset(data, self.dataset_filepaths, self.parameters, dataset_type)
 
         parameters = self.parameters
         dataset_filepaths = self.dataset_filepaths
@@ -277,12 +282,14 @@ class neuroner(ner.Ner):
         output_file = codecs.open(output_filepath, 'w', 'UTF-8')
         original_conll_file = codecs.open(dataset_filepaths[dataset_type], 'r', 'UTF-8')
 
-        for i in range(len(dataset.token_indices[dataset_type])):
+        modeldata = self.modeldata
+
+        for i in range(len(modeldata.token_indices[dataset_type])):
             feed_dict = {
-                model.input_token_indices: dataset.token_indices[dataset_type][i],
-                model.input_token_character_indices: dataset.character_indices_padded[dataset_type][i],
-                model.input_token_lengths: dataset.token_lengths[dataset_type][i],
-                model.input_label_indices_vector: dataset.label_vector_indices[dataset_type][i],
+                model.input_token_indices: modeldata.token_indices[dataset_type][i],
+                model.input_token_character_indices: modeldata.character_indices_padded[dataset_type][i],
+                model.input_token_lengths: modeldata.token_lengths[dataset_type][i],
+                model.input_label_indices_vector: modeldata.label_vector_indices[dataset_type][i],
                 model.dropout_keep_prob: 1.
             }
 
@@ -296,20 +303,20 @@ class neuroner(ner.Ner):
             else:
                 predictions = predictions.tolist()
 
-            assert (len(predictions) == len(dataset.tokens[dataset_type][i]))
+            assert (len(predictions) == len(modeldata.tokens[dataset_type][i]))
 
             output_string = ''
-            prediction_labels = [dataset.index_to_label[prediction] for prediction in predictions]
+            prediction_labels = [modeldata.index_to_label[prediction] for prediction in predictions]
             unary_score_list = unary_scores.tolist()[1:-1]
 
-            gold_labels = dataset.labels[dataset_type][i]
+            gold_labels = modeldata.labels[dataset_type][i]
 
             if parameters['tagging_format'] == 'bioes':
                 prediction_labels = utils_nlp.bioes_to_bio(prediction_labels)
                 gold_labels = utils_nlp.bioes_to_bio(gold_labels)
 
             for prediction, token, gold_label, scores in zip(prediction_labels,
-                                                             dataset.tokens[dataset_type][i], gold_labels,
+                                                             modeldata.tokens[dataset_type][i], gold_labels,
                                                              unary_score_list):
 
                 while True:
@@ -339,16 +346,14 @@ class neuroner(ner.Ner):
 
             output_file.write(output_string + '\n')
 
-            predicted_labels = [dataset.index_to_label[preds] for preds in predictions]
+            predicted_labels = [modeldata.index_to_label[preds] for preds in predictions]
 
             all_predictions.extend(predicted_labels)
-            true_labels.extend(dataset.labels[dataset_type][i])
-            tokens.extend(dataset.tokens[dataset_type][i])
-            span.extend(dataset.token_lengths[dataset_type][i])
+            true_labels.extend(modeldata.labels[dataset_type][i])
+            tokens.extend(modeldata.tokens[dataset_type][i])
+            span.extend(modeldata.token_lengths[dataset_type][i])
 
-        start_index = [None] * len(true_labels)
-
-        all_predictions = list(map(list, zip(start_index, span, tokens, all_predictions)))
+        all_predictions = list(map(list, zip(tokens, true_labels, all_predictions)))
         all_predictions = [tuple(pred) for pred in all_predictions]
 
         return all_predictions
@@ -399,30 +404,28 @@ class neuroner(ner.Ner):
 
         return all_y_true
 
-    #@overrides(DITKModel_NER)
-    def read_dataset(self, fileNames, dataset_name, *args, **kwargs):  # <--- implemented PER class
+    def save_model(self, file):
         """
-        Reads a dataset in preparation for train or test. Returns data in proper format for train or test.
-        Args:
-            fileNames: list-like. List of files representing the dataset to read. Each element is str, representing
-                filename [possibly with filepath]
-        Returns:
-            data: data in arbitrary format for train or test.
-        Raises:
-            None
+        :param file: Where to save the model - Optional function
+        :return:
         """
-        # IMPLEMENT READING
-        # pass
+        pass
 
-        dataset_root = os.path.dirname(fileNames['train'])
-        self.parameters['dataset_text_folder'] = dataset_root
+    def load_model(self, file=None):
+        """
+        :param file: From where to load the model - Optional function
+        :return:
+        """
 
+        self.parameters['use_pretrained_model'] = True
+        self.parameters['pretrained_model_folder'] = file if file!=None else self.parameters['pretrained_model_folder']
+
+        # Load dataset
         self.dataset_filepaths, self.dataset_brat_folders = self._get_valid_dataset_filepaths(self.parameters)
         self._check_param_compatibility(self.parameters, self.dataset_filepaths)
 
-        # Load dataset
         self.modeldata = dataset.Dataset(verbose=self.parameters['verbose'], debug=self.parameters['debug'])
-        token_to_vector = self.modeldata.load_dataset(self.dataset_filepaths, self.parameters)
+        token_to_vector = self.modeldata.load_dataset(None, self.dataset_filepaths, self.parameters)
 
         # Launch session. Automatically choose a device
         # if the specified one doesn't exist
@@ -450,7 +453,41 @@ class neuroner(ner.Ner):
                 self.transition_params_trained = np.random.rand(len(self.modeldata.unique_labels) + 2,
                                                                 len(self.modeldata.unique_labels) + 2)
 
-        return copy.deepcopy(self.modeldata)
+    #@overrides(DITKModel_NER)
+    def read_dataset(self, file_dict, dataset_name, *args, **kwargs):  # <--- implemented PER class
+        """
+        Reads a dataset in preparation for train or test. Returns data in proper format for train or test.
+        Args:
+            fileNames: list-like. List of files representing the dataset to read. Each element is str, representing
+                filename [possibly with filepath]
+        Returns:
+            data: data in arbitrary format for train or test.
+        Raises:
+            None
+        """
+        # IMPLEMENT READING
+        # pass
+        standard_split = ["train", "test", "dev"]
+        dataset_root = os.path.dirname(file_dict['train'])
+        self.parameters['dataset_text_folder'] = dataset_root
+        data = {}
+
+        try:
+            for split in standard_split:
+                file = file_dict[split]
+                with open(file, mode='r', encoding='utf-8') as f:
+                    raw_data = f.read().splitlines()
+                for i, line in enumerate(raw_data):
+                    if len(line.strip()) > 0:
+                        raw_data[i] = line.strip().split()
+                    else:
+                        raw_data[i] = list(line)
+                data[split] = raw_data
+        except KeyError:
+            raise ValueError("Invalid file_dict. Standard keys (train, test, dev)")
+        except Exception as e:
+            print('Something went wrong.', e)
+        return data
 
     #@overrides(DITKModel_NER)
     def train(self, data, *args, **kwargs):
@@ -465,6 +502,40 @@ class neuroner(ner.Ner):
         """
         # IMPLEMENT TRAINING.
         # pass
+
+        self.dataset_filepaths, self.dataset_brat_folders = self._get_valid_dataset_filepaths(self.parameters)
+        self._check_param_compatibility(self.parameters, self.dataset_filepaths)
+
+        # Load dataset
+        self.modeldata = dataset.Dataset(verbose=self.parameters['verbose'], debug=self.parameters['debug'])
+        token_to_vector = self.modeldata.load_dataset(data, self.dataset_filepaths, self.parameters)
+
+        # Launch session. Automatically choose a device
+        # if the specified one doesn't exist
+        session_conf = tf.ConfigProto(
+            intra_op_parallelism_threads=self.parameters['number_of_cpu_threads'],
+            inter_op_parallelism_threads=self.parameters['number_of_cpu_threads'],
+            device_count={'CPU': 1, 'GPU': self.parameters['number_of_gpus']},
+            allow_soft_placement=True,
+            log_device_placement=False)
+
+        self.sess = tf.Session(config=session_conf)
+        with self.sess.as_default():
+
+            # Initialize or load pretrained model
+            self.model = EntityLSTM(self.modeldata, self.parameters)
+            self.sess.run(tf.global_variables_initializer())
+
+            if self.parameters['use_pretrained_model']:
+                self.transition_params_trained = self.model.restore_from_pretrained_model(self.parameters,
+                                                                                          self.modeldata, self.sess,
+                                                                                          token_to_vector=token_to_vector)
+            else:
+                self.model.load_pretrained_token_embeddings(self.sess, self.modeldata,
+                                                            self.parameters, token_to_vector)
+                self.transition_params_trained = np.random.rand(len(self.modeldata.unique_labels) + 2,
+                                                                len(self.modeldata.unique_labels) + 2)
+
         parameters = self.parameters
         conf_parameters = self.conf_parameters
         dataset_filepaths = self.dataset_filepaths
@@ -575,10 +646,6 @@ class neuroner(ner.Ner):
                 evaluate.evaluate_model(results, modeldata, y_pred, y_true, stats_graph_folder,
                                         epoch_number, epoch_start_time, output_filepaths, parameters)
 
-                if parameters['use_pretrained_model'] and not parameters['train_model']:
-                    conll_to_brat.output_brat(output_filepaths, dataset_brat_folders, stats_graph_folder)
-                    break
-
                 # Save model
                 model.saver.save(sess, os.path.join(model_folder, 'model_{0:05d}.ckpt'.format(epoch_number)))
 
@@ -654,7 +721,7 @@ class neuroner(ner.Ner):
                 return self.predict_dataset(data, args[0])
 
     #@overrides(DITKModel_NER)
-    def evaluate(self, predictions, groundTruths, *args, **kwargs):
+    def evaluate(self, predictions, *args, **kwargs):
         """
         Calculates evaluation metrics on chosen benchmark dataset [Precision,Recall,F1, or others...]
         Args:
@@ -673,8 +740,8 @@ class neuroner(ner.Ner):
         # calculate F1 using precision and recall
 
         # return (precision, recall, f1)
-        predicted_labels = [predicted[3] for predicted in predictions]
-        ground_labels = [true_labels[3] for true_labels in groundTruths]
+        predicted_labels = [predicted[2] for predicted in predictions]
+        ground_labels = [true_labels[1] for true_labels in predictions]
 
         label_encoder = sklearn.preprocessing.LabelEncoder()
         label_set = list(self.modeldata.label_to_index.keys())

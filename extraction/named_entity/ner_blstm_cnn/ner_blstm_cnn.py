@@ -133,7 +133,7 @@ class ner_blstm_cnn(Ner):
         :param file: Where to save the model - Optional function
         :return:
         """
-        
+
         self.model.save("models/model.h5")
         np.save("models/idx2Label.npy", self.idx2Label)
         np.save("models/word2Idx.npy", self.word2Idx)
@@ -326,14 +326,18 @@ class ner_blstm_cnn(Ner):
         # pass
 
         standard_split = ["train", "test", "dev"]
-
         data = {}
         try:
             for split in standard_split:
                 file = file_dict[split]
                 with open(file, mode='r', encoding='utf-8') as f:
                     raw_data = f.read().splitlines()
-                data[split] = [lines.split() for lines in raw_data]
+                for i, line in enumerate(raw_data):
+                    if len(line.strip()) > 0:
+                        raw_data[i] = line.strip().split()
+                    else:
+                        raw_data[i] = list(line)
+                data[split] = raw_data
         except KeyError:
             raise ValueError("Invalid file_dict. Standard keys (train, test, dev)")
         except Exception as e:
