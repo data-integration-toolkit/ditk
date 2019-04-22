@@ -39,10 +39,10 @@ class Imputation(abc.ABC):
         # loading csv data
         data = []
 
-        with open(inputData, 'r') as f:
-            rows = csv.reader(f, delimiter=',', quotechar='|')
+        with open(inputData, 'r', encoding='utf-8-sig') as f:
+            rows = csv.reader(f, delimiter=',')
             data = [x for x in rows]
-            data = np.asarray(data[1:], dtype='float')
+            data = np.asarray(data, dtype='float')
 
         if args[0].split:
             test_index = sample(range(len(data)), int((1.0 - float(args[0].split))*len(data)))
@@ -140,10 +140,10 @@ class Imputation(abc.ABC):
         :return:
             imputed_data: imputed table
         """
-        with open(input, 'r') as f:
+        with open(input, 'r', encoding='utf-8-sig') as f:
             rows = csv.reader(f, delimiter=',', quotechar='|')
             data = [x for x in rows]
-            data = np.asarray(data[1:], dtype='float')
+            data = np.asarray(data, dtype='float')
 
         # check if we introduce missing value here
         if not args[0].ims:
@@ -165,10 +165,10 @@ class Imputation(abc.ABC):
         :return:
             performance_metric: rmse
         """
-        with open(input, 'r') as f:
+        with open(input, 'r', encoding='utf-8-sig') as f:
             rows = csv.reader(f, delimiter=',', quotechar='|')
             data = [x for x in rows]
-            data = np.asarray(data[1:], dtype='float')
+            data = np.asarray(data, dtype='float')
 
         # check if we introduce missing value here
         if not args[0].ims:

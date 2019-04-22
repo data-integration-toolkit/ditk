@@ -14,6 +14,8 @@ python main.py --preprocess --split=<ratio>, where ratio is a float
 ## Training
 For training misgan, run
 python main.py --train --fname=<file>, where file name is the file name of the data loader
+eg
+python main.py --train --fname=wdbc.csv_train
 
 ## Testing
 For testing misgan, run
