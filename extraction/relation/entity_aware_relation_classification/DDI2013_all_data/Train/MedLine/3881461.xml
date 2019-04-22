@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="DDI-MedLine.d12">
+    <sentence id="DDI-MedLine.d12.s0" text="Dexamethasone and retinyl acetate similarly inhibit and stimulate EGF- or insulin-induced proliferation of prostatic epithelium.">
+        <entity id="DDI-MedLine.d12.s0.e0" charOffset="0-12" type="drug" text="Dexamethasone"/>
+        <entity id="DDI-MedLine.d12.s0.e1" charOffset="18-32"
+            type="drug" text="retinyl acetate"/>
+        <entity id="DDI-MedLine.d12.s0.e2" charOffset="66-68"
+            type="drug_n" text="EGF"/>
+        <entity id="DDI-MedLine.d12.s0.e3" charOffset="74-80"
+            type="drug" text="insulin"/>
+        <pair id="DDI-MedLine.d12.s0.p0" e1="DDI-MedLine.d12.s0.e0"
+            e2="DDI-MedLine.d12.s0.e1" ddi="false"/>
+        <pair id="DDI-MedLine.d12.s0.p1" e1="DDI-MedLine.d12.s0.e0"
+            e2="DDI-MedLine.d12.s0.e2" ddi="true" type="effect"/>
+        <pair id="DDI-MedLine.d12.s0.p2" e1="DDI-MedLine.d12.s0.e0"
+            e2="DDI-MedLine.d12.s0.e3" ddi="true" type="effect"/>
+        <pair id="DDI-MedLine.d12.s0.p3" e1="DDI-MedLine.d12.s0.e1"
+            e2="DDI-MedLine.d12.s0.e2" ddi="true" type="effect"/>
+        <pair id="DDI-MedLine.d12.s0.p4" e1="DDI-MedLine.d12.s0.e1"
+            e2="DDI-MedLine.d12.s0.e3" ddi="true" type="effect"/>
+        <pair id="DDI-MedLine.d12.s0.p5" e1="DDI-MedLine.d12.s0.e2"
+            e2="DDI-MedLine.d12.s0.e3" ddi="false"/>
+    </sentence>
+    <sentence id="DDI-MedLine.d12.s1" text="Prostatic epithelium proliferates in a defined medium consisting of basal medium RPMI1640 containing transferrin (1 microgram/ml), EGF (10 ng/ml), and insulin (3.7 micrograms/ml or 0.1 IU/ml). ">
+        <entity id="DDI-MedLine.d12.s1.e0" charOffset="101-111"
+            type="drug_n" text="transferrin"/>
+        <entity id="DDI-MedLine.d12.s1.e1" charOffset="131-133"
+            type="drug_n" text="EGF"/>
+        <entity id="DDI-MedLine.d12.s1.e2" charOffset="151-157"
+            type="drug" text="insulin"/>
+        <pair id="DDI-MedLine.d12.s1.p0" e1="DDI-MedLine.d12.s1.e0"
+            e2="DDI-MedLine.d12.s1.e1" ddi="false"/>
+        <pair id="DDI-MedLine.d12.s1.p1" e1="DDI-MedLine.d12.s1.e0"
+            e2="DDI-MedLine.d12.s1.e2" ddi="false"/>
+        <pair id="DDI-MedLine.d12.s1.p2" e1="DDI-MedLine.d12.s1.e1"
+            e2="DDI-MedLine.d12.s1.e2" ddi="false"/>
+    </sentence>
+    <sentence id="DDI-MedLine.d12.s2" text="Although neither dexamethasone nor retinyl acetate affected the proliferation of prostatic epithelium in RPMI1640 containing transferrin alone, they modify the mitogenic effect of EGF and insulin. ">
+        <entity id="DDI-MedLine.d12.s2.e0" charOffset="17-29"
+            type="drug" text="dexamethasone"/>
+        <entity id="DDI-MedLine.d12.s2.e1" charOffset="35-49"
+            type="drug" text="retinyl acetate"/>
+        <entity id="DDI-MedLine.d12.s2.e2" charOffset="125-135"
+            type="drug_n" text="transferrin"/>
+        <entity id="DDI-MedLine.d12.s2.e3" charOffset="180-182"
+            type="drug_n" text="EGF"/>
+        <entity id="DDI-MedLine.d12.s2.e4" charOffset="188-194"
+            type="drug" text="insulin"/>
+        <pair id="DDI-MedLine.d12.s2.p0" e1="DDI-MedLine.d12.s2.e0"
+            e2="DDI-MedLine.d12.s2.e1" ddi="false"/>
+        <pair id="DDI-MedLine.d12.s2.p1" e1="DDI-MedLine.d12.s2.e0"
+            e2="DDI-MedLine.d12.s2.e2" ddi="false"/>
+        <pair id="DDI-MedLine.d12.s2.p2" e1="DDI-MedLine.d12.s2.e0"
+            e2="DDI-MedLine.d12.s2.e3" ddi="true" type="effect"/>
+        <pair id="DDI-MedLine.d12.s2.p3" e1="DDI-MedLine.d12.s2.e0"
+            e2="DDI-MedLine.d12.s2.e4" ddi="true" type="effect"/>
+        <pair id="DDI-MedLine.d12.s2.p4" e1="DDI-MedLine.d12.s2.e1"
+            e2="DDI-MedLine.d12.s2.e2" ddi="false"/>
+        <pair id="DDI-MedLine.d12.s2.p5" e1="DDI-MedLine.d12.s2.e1"
+            e2="DDI-MedLine.d12.s2.e3" ddi="true" type="effect"/>
+        <pair id="DDI-MedLine.d12.s2.p6" e1="DDI-MedLine.d12.s2.e1"
+            e2="DDI-MedLine.d12.s2.e4" ddi="true" type="effect"/>
+        <pair id="DDI-MedLine.d12.s2.p7" e1="DDI-MedLine.d12.s2.e2"
+            e2="DDI-MedLine.d12.s2.e3" ddi="false"/>
+        <pair id="DDI-MedLine.d12.s2.p8" e1="DDI-MedLine.d12.s2.e2"
+            e2="DDI-MedLine.d12.s2.e4" ddi="false"/>
+        <pair id="DDI-MedLine.d12.s2.p9" e1="DDI-MedLine.d12.s2.e3"
+            e2="DDI-MedLine.d12.s2.e4" ddi="false"/>
+    </sentence>
+    <sentence id="DDI-MedLine.d12.s3" text="Dexamethasone at 10(-10) M or retinyl acetate at about 3 X 10(-9) M inhibits proliferation stimulated by EGF. ">
+        <entity id="DDI-MedLine.d12.s3.e0" charOffset="0-12" type="drug" text="Dexamethasone"/>
+        <entity id="DDI-MedLine.d12.s3.e1" charOffset="30-44"
+            type="drug" text="retinyl acetate"/>
+        <entity id="DDI-MedLine.d12.s3.e2" charOffset="105-107"
+            type="drug_n" text="EGF"/>
+        <pair id="DDI-MedLine.d12.s3.p0" e1="DDI-MedLine.d12.s3.e0"
+            e2="DDI-MedLine.d12.s3.e1" ddi="false"/>
+        <pair id="DDI-MedLine.d12.s3.p1" e1="DDI-MedLine.d12.s3.e0"
+            e2="DDI-MedLine.d12.s3.e2" ddi="true" type="effect"/>
+        <pair id="DDI-MedLine.d12.s3.p2" e1="DDI-MedLine.d12.s3.e1"
+            e2="DDI-MedLine.d12.s3.e2" ddi="true" type="effect"/>
+    </sentence>
+    <sentence id="DDI-MedLine.d12.s4" text="Higher concentrations of dexamethasone (10(-8) - 10(-6) M) or retinyl acetate (3 X 10(-8) - 10(-7) M) enhance the mitogenic activity of EGF. ">
+        <entity id="DDI-MedLine.d12.s4.e0" charOffset="25-37"
+            type="drug" text="dexamethasone"/>
+        <entity id="DDI-MedLine.d12.s4.e1" charOffset="62-76"
+            type="drug" text="retinyl acetate"/>
+        <entity id="DDI-MedLine.d12.s4.e2" charOffset="136-138"
+            type="drug_n" text="EGF"/>
+        <pair id="DDI-MedLine.d12.s4.p0" e1="DDI-MedLine.d12.s4.e0"
+            e2="DDI-MedLine.d12.s4.e1" ddi="false"/>
+        <pair id="DDI-MedLine.d12.s4.p1" e1="DDI-MedLine.d12.s4.e0"
+            e2="DDI-MedLine.d12.s4.e2" ddi="true" type="effect"/>
+        <pair id="DDI-MedLine.d12.s4.p2" e1="DDI-MedLine.d12.s4.e1"
+            e2="DDI-MedLine.d12.s4.e2" ddi="true" type="effect"/>
+    </sentence>
+    <sentence id="DDI-MedLine.d12.s5" text="Dexamethasone had a similar effect in the presence of insulin. ">
+        <entity id="DDI-MedLine.d12.s5.e0" charOffset="0-12" type="drug" text="Dexamethasone"/>
+        <entity id="DDI-MedLine.d12.s5.e1" charOffset="54-60"
+            type="drug" text="insulin"/>
+        <pair id="DDI-MedLine.d12.s5.p0" e1="DDI-MedLine.d12.s5.e0"
+            e2="DDI-MedLine.d12.s5.e1" ddi="false"/>
+    </sentence>
+    <sentence id="DDI-MedLine.d12.s6" text="However, retinyl acetate stimulated, but did not significantly inhibit, proliferation in the presence of insulin. ">
+        <entity id="DDI-MedLine.d12.s6.e0" charOffset="9-23" type="drug" text="retinyl acetate"/>
+        <entity id="DDI-MedLine.d12.s6.e1" charOffset="105-111"
+            type="drug" text="insulin"/>
+        <pair id="DDI-MedLine.d12.s6.p0" e1="DDI-MedLine.d12.s6.e0"
+            e2="DDI-MedLine.d12.s6.e1" ddi="true" type="effect"/>
+    </sentence>
+    <sentence id="DDI-MedLine.d12.s7" text="These results suggest that both dexamethasone and retinyl acetate, and possibly other glucocorticoids and retinoids, may regulate the proliferation of prostate epithelium by a dose-dependent modification of the activity of insulin and EGF.">
+        <entity id="DDI-MedLine.d12.s7.e0" charOffset="32-44"
+            type="drug" text="dexamethasone"/>
+        <entity id="DDI-MedLine.d12.s7.e1" charOffset="50-64"
+            type="drug" text="retinyl acetate"/>
+        <entity id="DDI-MedLine.d12.s7.e2" charOffset="86-100"
+            type="group" text="glucocorticoids"/>
+        <entity id="DDI-MedLine.d12.s7.e3" charOffset="106-114"
+            type="group" text="retinoids"/>
+        <entity id="DDI-MedLine.d12.s7.e4" charOffset="223-229"
+            type="drug" text="insulin"/>
+        <entity id="DDI-MedLine.d12.s7.e5" charOffset="235-237"
+            type="drug_n" text="EGF"/>
+        <pair id="DDI-MedLine.d12.s7.p0" e1="DDI-MedLine.d12.s7.e0"
+            e2="DDI-MedLine.d12.s7.e1" ddi="false"/>
+        <pair id="DDI-MedLine.d12.s7.p1" e1="DDI-MedLine.d12.s7.e0"
+            e2="DDI-MedLine.d12.s7.e2" ddi="false"/>
+        <pair id="DDI-MedLine.d12.s7.p2" e1="DDI-MedLine.d12.s7.e0"
+            e2="DDI-MedLine.d12.s7.e3" ddi="false"/>
+        <pair id="DDI-MedLine.d12.s7.p3" e1="DDI-MedLine.d12.s7.e0"
+            e2="DDI-MedLine.d12.s7.e4" ddi="true" type="effect"/>
+        <pair id="DDI-MedLine.d12.s7.p4" e1="DDI-MedLine.d12.s7.e0"
+            e2="DDI-MedLine.d12.s7.e5" ddi="true" type="effect"/>
+        <pair id="DDI-MedLine.d12.s7.p5" e1="DDI-MedLine.d12.s7.e1"
+            e2="DDI-MedLine.d12.s7.e2" ddi="false"/>
+        <pair id="DDI-MedLine.d12.s7.p6" e1="DDI-MedLine.d12.s7.e1"
+            e2="DDI-MedLine.d12.s7.e3" ddi="false"/>
+        <pair id="DDI-MedLine.d12.s7.p7" e1="DDI-MedLine.d12.s7.e1"
+            e2="DDI-MedLine.d12.s7.e4" ddi="true" type="effect"/>
+        <pair id="DDI-MedLine.d12.s7.p8" e1="DDI-MedLine.d12.s7.e1"
+            e2="DDI-MedLine.d12.s7.e5" ddi="true" type="effect"/>
+        <pair id="DDI-MedLine.d12.s7.p9" e1="DDI-MedLine.d12.s7.e2"
+            e2="DDI-MedLine.d12.s7.e3" ddi="false"/>
+        <pair id="DDI-MedLine.d12.s7.p10" e1="DDI-MedLine.d12.s7.e2"
+            e2="DDI-MedLine.d12.s7.e4" ddi="true" type="effect"/>
+        <pair id="DDI-MedLine.d12.s7.p11" e1="DDI-MedLine.d12.s7.e2"
+            e2="DDI-MedLine.d12.s7.e5" ddi="true" type="effect"/>
+        <pair id="DDI-MedLine.d12.s7.p12" e1="DDI-MedLine.d12.s7.e3"
+            e2="DDI-MedLine.d12.s7.e4" ddi="true" type="effect"/>
+        <pair id="DDI-MedLine.d12.s7.p13" e1="DDI-MedLine.d12.s7.e3"
+            e2="DDI-MedLine.d12.s7.e5" ddi="true" type="effect"/>
+        <pair id="DDI-MedLine.d12.s7.p14" e1="DDI-MedLine.d12.s7.e4"
+            e2="DDI-MedLine.d12.s7.e5" ddi="false"/>
+    </sentence>
+</document>

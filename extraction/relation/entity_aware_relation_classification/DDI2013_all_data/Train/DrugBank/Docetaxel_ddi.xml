@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="DDI-DrugBank.d371">
+    <sentence id="DDI-DrugBank.d371.s0" text="There have been no formal clinical studies to evaluate the drug interactions of TAXOTERE with other medications.">
+        <entity id="DDI-DrugBank.d371.s0.e0" charOffset="80-87"
+            type="brand" text="TAXOTERE"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d371.s1" text="In vitro studies have shown that the metabolism of docetaxel may be modified by the concomitant administration of compounds that induce, inhibit, or are metabolized by cytochrome P450 3A4, such as cyclosporine, terfenadine, ketoconazole, erythromycin, and troleandomycin.">
+        <entity id="DDI-DrugBank.d371.s1.e0" charOffset="51-59"
+            type="drug" text="docetaxel"/>
+        <entity id="DDI-DrugBank.d371.s1.e1" charOffset="197-208"
+            type="drug" text="cyclosporine"/>
+        <entity id="DDI-DrugBank.d371.s1.e2" charOffset="211-221"
+            type="drug" text="terfenadine"/>
+        <entity id="DDI-DrugBank.d371.s1.e3" charOffset="224-235"
+            type="drug" text="ketoconazole"/>
+        <entity id="DDI-DrugBank.d371.s1.e4" charOffset="238-249"
+            type="drug" text="erythromycin"/>
+        <entity id="DDI-DrugBank.d371.s1.e5" charOffset="256-269"
+            type="drug" text="troleandomycin"/>
+        <pair id="DDI-DrugBank.d371.s1.p0" e1="DDI-DrugBank.d371.s1.e0"
+            e2="DDI-DrugBank.d371.s1.e1" ddi="true" type="mechanism"/>
+        <pair id="DDI-DrugBank.d371.s1.p1" e1="DDI-DrugBank.d371.s1.e0"
+            e2="DDI-DrugBank.d371.s1.e2" ddi="true" type="mechanism"/>
+        <pair id="DDI-DrugBank.d371.s1.p2" e1="DDI-DrugBank.d371.s1.e0"
+            e2="DDI-DrugBank.d371.s1.e3" ddi="true" type="mechanism"/>
+        <pair id="DDI-DrugBank.d371.s1.p3" e1="DDI-DrugBank.d371.s1.e0"
+            e2="DDI-DrugBank.d371.s1.e4" ddi="true" type="mechanism"/>
+        <pair id="DDI-DrugBank.d371.s1.p4" e1="DDI-DrugBank.d371.s1.e0"
+            e2="DDI-DrugBank.d371.s1.e5" ddi="true" type="mechanism"/>
+        <pair id="DDI-DrugBank.d371.s1.p5" e1="DDI-DrugBank.d371.s1.e1"
+            e2="DDI-DrugBank.d371.s1.e2" ddi="false"/>
+        <pair id="DDI-DrugBank.d371.s1.p6" e1="DDI-DrugBank.d371.s1.e1"
+            e2="DDI-DrugBank.d371.s1.e3" ddi="false"/>
+        <pair id="DDI-DrugBank.d371.s1.p7" e1="DDI-DrugBank.d371.s1.e1"
+            e2="DDI-DrugBank.d371.s1.e4" ddi="false"/>
+        <pair id="DDI-DrugBank.d371.s1.p8" e1="DDI-DrugBank.d371.s1.e1"
+            e2="DDI-DrugBank.d371.s1.e5" ddi="false"/>
+        <pair id="DDI-DrugBank.d371.s1.p9" e1="DDI-DrugBank.d371.s1.e2"
+            e2="DDI-DrugBank.d371.s1.e3" ddi="false"/>
+        <pair id="DDI-DrugBank.d371.s1.p10" e1="DDI-DrugBank.d371.s1.e2"
+            e2="DDI-DrugBank.d371.s1.e4" ddi="false"/>
+        <pair id="DDI-DrugBank.d371.s1.p11" e1="DDI-DrugBank.d371.s1.e2"
+            e2="DDI-DrugBank.d371.s1.e5" ddi="false"/>
+        <pair id="DDI-DrugBank.d371.s1.p12" e1="DDI-DrugBank.d371.s1.e3"
+            e2="DDI-DrugBank.d371.s1.e4" ddi="false"/>
+        <pair id="DDI-DrugBank.d371.s1.p13" e1="DDI-DrugBank.d371.s1.e3"
+            e2="DDI-DrugBank.d371.s1.e5" ddi="false"/>
+        <pair id="DDI-DrugBank.d371.s1.p14" e1="DDI-DrugBank.d371.s1.e4"
+            e2="DDI-DrugBank.d371.s1.e5" ddi="false"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d371.s2" text="Caution should be exercised with these drugs when treating patients receiving TAXOTERE as there is a potential for a significant interaction.">
+        <entity id="DDI-DrugBank.d371.s2.e0" charOffset="78-85"
+            type="brand" text="TAXOTERE"/>
+    </sentence>
+</document>

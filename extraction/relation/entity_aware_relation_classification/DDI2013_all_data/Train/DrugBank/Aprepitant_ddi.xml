@@ -1,0 +1,821 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="DDI-DrugBank.d382">
+    <sentence id="DDI-DrugBank.d382.s0" text="Aprepitant is a substrate, a moderate inhibitor, and an inducer of CYP3A4.">
+        <entity id="DDI-DrugBank.d382.s0.e0" charOffset="0-9"
+            type="drug" text="Aprepitant"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d382.s1" text="Aprepitant is also an inducer of CYP2C9.">
+        <entity id="DDI-DrugBank.d382.s1.e0" charOffset="0-9"
+            type="drug" text="Aprepitant"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d382.s2" text="Effect of aprepitant on the pharmacokinetics of other agents">
+        <entity id="DDI-DrugBank.d382.s2.e0" charOffset="10-19"
+            type="drug" text="aprepitant"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d382.s3" text="As a moderate inhibitor of CYP3A4, aprepitant can increase plasma concentrations of coadministered medicinal products that are metabolized through CYP3A4.">
+        <entity id="DDI-DrugBank.d382.s3.e0" charOffset="35-44"
+            type="drug" text="aprepitant"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d382.s4" text="Aprepitant has been shown to induce the metabolism of S(-) warfarin and tolbutamide, which are metabolized through CYP2C9.">
+        <entity id="DDI-DrugBank.d382.s4.e0" charOffset="0-9"
+            type="drug" text="Aprepitant"/>
+        <entity id="DDI-DrugBank.d382.s4.e1" charOffset="54-66"
+            type="drug" text="S(-) warfarin"/>
+        <entity id="DDI-DrugBank.d382.s4.e2" charOffset="72-82"
+            type="drug" text="tolbutamide"/>
+        <pair id="DDI-DrugBank.d382.s4.p0" e1="DDI-DrugBank.d382.s4.e0"
+            e2="DDI-DrugBank.d382.s4.e1" ddi="true" type="mechanism"/>
+        <pair id="DDI-DrugBank.d382.s4.p1" e1="DDI-DrugBank.d382.s4.e0"
+            e2="DDI-DrugBank.d382.s4.e2" ddi="true" type="mechanism"/>
+        <pair id="DDI-DrugBank.d382.s4.p2" e1="DDI-DrugBank.d382.s4.e1"
+            e2="DDI-DrugBank.d382.s4.e2" ddi="false"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d382.s5" text="Coadministration of Aprepitant with these drugs or other drugs that are known to be metabolized by CYP2C9, such as phenytoin, may result in lower plasma concentrations of these drugs.">
+        <entity id="DDI-DrugBank.d382.s5.e0" charOffset="20-29"
+            type="drug" text="Aprepitant"/>
+        <entity id="DDI-DrugBank.d382.s5.e1" charOffset="115-123"
+            type="drug" text="phenytoin"/>
+        <pair id="DDI-DrugBank.d382.s5.p0" e1="DDI-DrugBank.d382.s5.e0"
+            e2="DDI-DrugBank.d382.s5.e1" ddi="true" type="mechanism"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d382.s6" text="Aprepitant is unlikely to interact with drugs that are substrates for the P-glycoprotein transporter, as demonstrated by the lack of interaction of Aprepitant with digoxin in a clinical drug interaction study.">
+        <entity id="DDI-DrugBank.d382.s6.e0" charOffset="0-9"
+            type="drug" text="Aprepitant"/>
+        <entity id="DDI-DrugBank.d382.s6.e1" charOffset="148-157"
+            type="drug" text="Aprepitant"/>
+        <entity id="DDI-DrugBank.d382.s6.e2" charOffset="164-170"
+            type="drug" text="digoxin"/>
+        <pair id="DDI-DrugBank.d382.s6.p0" e1="DDI-DrugBank.d382.s6.e0"
+            e2="DDI-DrugBank.d382.s6.e1" ddi="false"/>
+        <pair id="DDI-DrugBank.d382.s6.p1" e1="DDI-DrugBank.d382.s6.e0"
+            e2="DDI-DrugBank.d382.s6.e2" ddi="false"/>
+        <pair id="DDI-DrugBank.d382.s6.p2" e1="DDI-DrugBank.d382.s6.e1"
+            e2="DDI-DrugBank.d382.s6.e2" ddi="false"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d382.s7" text="5-HT3 antagonists: In clinical drug interaction studies, aprepitant did not have clinically important effects on the pharmacokinetics of ondansetron or granisetron.">
+        <entity id="DDI-DrugBank.d382.s7.e0" charOffset="0-16"
+            type="group" text="5-HT3 antagonists"/>
+        <entity id="DDI-DrugBank.d382.s7.e1" charOffset="57-66"
+            type="drug" text="aprepitant"/>
+        <entity id="DDI-DrugBank.d382.s7.e2" charOffset="137-147"
+            type="drug" text="ondansetron"/>
+        <entity id="DDI-DrugBank.d382.s7.e3" charOffset="152-162"
+            type="drug" text="granisetron"/>
+        <pair id="DDI-DrugBank.d382.s7.p0" e1="DDI-DrugBank.d382.s7.e0"
+            e2="DDI-DrugBank.d382.s7.e1" ddi="false"/>
+        <pair id="DDI-DrugBank.d382.s7.p1" e1="DDI-DrugBank.d382.s7.e0"
+            e2="DDI-DrugBank.d382.s7.e2" ddi="false"/>
+        <pair id="DDI-DrugBank.d382.s7.p2" e1="DDI-DrugBank.d382.s7.e0"
+            e2="DDI-DrugBank.d382.s7.e3" ddi="false"/>
+        <pair id="DDI-DrugBank.d382.s7.p3" e1="DDI-DrugBank.d382.s7.e1"
+            e2="DDI-DrugBank.d382.s7.e2" ddi="false"/>
+        <pair id="DDI-DrugBank.d382.s7.p4" e1="DDI-DrugBank.d382.s7.e1"
+            e2="DDI-DrugBank.d382.s7.e3" ddi="false"/>
+        <pair id="DDI-DrugBank.d382.s7.p5" e1="DDI-DrugBank.d382.s7.e2"
+            e2="DDI-DrugBank.d382.s7.e3" ddi="false"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d382.s8" text="No clinical or drug interaction study was conducted with dolasetron.">
+        <entity id="DDI-DrugBank.d382.s8.e0" charOffset="57-66"
+            type="drug" text="dolasetron"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d382.s9" text="Corticosteroids: Dexamethasone: Aprepitant, when given as a regimen of 125mg with dexamethasone coadministered orally as 20 mg on Day 1, and Aprepitant when given as 80 mg/day with dexamethasone coadministered orally as 8 mg on Days 2 through 5, increased the AUC of dexamethasone, a CYP3A4 substrate by 2.2-fold, on Days 1 and 5.">
+        <entity id="DDI-DrugBank.d382.s9.e0" charOffset="0-14"
+            type="group" text="Corticosteroids"/>
+        <entity id="DDI-DrugBank.d382.s9.e1" charOffset="17-29"
+            type="drug" text="Dexamethasone"/>
+        <entity id="DDI-DrugBank.d382.s9.e2" charOffset="32-41"
+            type="drug" text="Aprepitant"/>
+        <entity id="DDI-DrugBank.d382.s9.e3" charOffset="82-94"
+            type="drug" text="dexamethasone"/>
+        <entity id="DDI-DrugBank.d382.s9.e4" charOffset="141-150"
+            type="drug" text="Aprepitant"/>
+        <entity id="DDI-DrugBank.d382.s9.e5" charOffset="181-193"
+            type="drug" text="dexamethasone"/>
+        <entity id="DDI-DrugBank.d382.s9.e6" charOffset="267-279"
+            type="drug" text="dexamethasone"/>
+        <pair id="DDI-DrugBank.d382.s9.p0" e1="DDI-DrugBank.d382.s9.e0"
+            e2="DDI-DrugBank.d382.s9.e1" ddi="false"/>
+        <pair id="DDI-DrugBank.d382.s9.p1" e1="DDI-DrugBank.d382.s9.e0"
+            e2="DDI-DrugBank.d382.s9.e2" ddi="false"/>
+        <pair id="DDI-DrugBank.d382.s9.p2" e1="DDI-DrugBank.d382.s9.e0"
+            e2="DDI-DrugBank.d382.s9.e3" ddi="false"/>
+        <pair id="DDI-DrugBank.d382.s9.p3" e1="DDI-DrugBank.d382.s9.e0"
+            e2="DDI-DrugBank.d382.s9.e4" ddi="false"/>
+        <pair id="DDI-DrugBank.d382.s9.p4" e1="DDI-DrugBank.d382.s9.e0"
+            e2="DDI-DrugBank.d382.s9.e5" ddi="false"/>
+        <pair id="DDI-DrugBank.d382.s9.p5" e1="DDI-DrugBank.d382.s9.e0"
+            e2="DDI-DrugBank.d382.s9.e6" ddi="false"/>
+        <pair id="DDI-DrugBank.d382.s9.p6" e1="DDI-DrugBank.d382.s9.e1"
+            e2="DDI-DrugBank.d382.s9.e2" ddi="false"/>
+        <pair id="DDI-DrugBank.d382.s9.p7" e1="DDI-DrugBank.d382.s9.e1"
+            e2="DDI-DrugBank.d382.s9.e3" ddi="false"/>
+        <pair id="DDI-DrugBank.d382.s9.p8" e1="DDI-DrugBank.d382.s9.e1"
+            e2="DDI-DrugBank.d382.s9.e4" ddi="false"/>
+        <pair id="DDI-DrugBank.d382.s9.p9" e1="DDI-DrugBank.d382.s9.e1"
+            e2="DDI-DrugBank.d382.s9.e5" ddi="false"/>
+        <pair id="DDI-DrugBank.d382.s9.p10" e1="DDI-DrugBank.d382.s9.e1"
+            e2="DDI-DrugBank.d382.s9.e6" ddi="false"/>
+        <pair id="DDI-DrugBank.d382.s9.p11" e1="DDI-DrugBank.d382.s9.e2"
+            e2="DDI-DrugBank.d382.s9.e3" ddi="true" type="mechanism"/>
+        <pair id="DDI-DrugBank.d382.s9.p12" e1="DDI-DrugBank.d382.s9.e2"
+            e2="DDI-DrugBank.d382.s9.e4" ddi="false"/>
+        <pair id="DDI-DrugBank.d382.s9.p13" e1="DDI-DrugBank.d382.s9.e2"
+            e2="DDI-DrugBank.d382.s9.e5" ddi="false"/>
+        <pair id="DDI-DrugBank.d382.s9.p14" e1="DDI-DrugBank.d382.s9.e2"
+            e2="DDI-DrugBank.d382.s9.e6" ddi="false"/>
+        <pair id="DDI-DrugBank.d382.s9.p15" e1="DDI-DrugBank.d382.s9.e3"
+            e2="DDI-DrugBank.d382.s9.e4" ddi="false"/>
+        <pair id="DDI-DrugBank.d382.s9.p16" e1="DDI-DrugBank.d382.s9.e3"
+            e2="DDI-DrugBank.d382.s9.e5" ddi="false"/>
+        <pair id="DDI-DrugBank.d382.s9.p17" e1="DDI-DrugBank.d382.s9.e3"
+            e2="DDI-DrugBank.d382.s9.e6" ddi="false"/>
+        <pair id="DDI-DrugBank.d382.s9.p18" e1="DDI-DrugBank.d382.s9.e4"
+            e2="DDI-DrugBank.d382.s9.e5" ddi="true" type="mechanism"/>
+        <pair id="DDI-DrugBank.d382.s9.p19" e1="DDI-DrugBank.d382.s9.e4"
+            e2="DDI-DrugBank.d382.s9.e6" ddi="false"/>
+        <pair id="DDI-DrugBank.d382.s9.p20" e1="DDI-DrugBank.d382.s9.e5"
+            e2="DDI-DrugBank.d382.s9.e6" ddi="false"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d382.s10" text="The oral dexamethasone doses should be reduced by approximately 50% when coadministered with Aprepitant, to achieve exposures of dexamethasone similar to those obtained when it is given without Aprepitant.">
+        <entity id="DDI-DrugBank.d382.s10.e0" charOffset="9-21"
+            type="drug" text="dexamethasone"/>
+        <entity id="DDI-DrugBank.d382.s10.e1" charOffset="93-102"
+            type="drug" text="Aprepitant"/>
+        <entity id="DDI-DrugBank.d382.s10.e2" charOffset="129-141"
+            type="drug" text="dexamethasone"/>
+        <entity id="DDI-DrugBank.d382.s10.e3" charOffset="194-203"
+            type="drug" text="Aprepitant"/>
+        <pair id="DDI-DrugBank.d382.s10.p0"
+            e1="DDI-DrugBank.d382.s10.e0" e2="DDI-DrugBank.d382.s10.e1"
+            ddi="true" type="advise"/>
+        <pair id="DDI-DrugBank.d382.s10.p1"
+            e1="DDI-DrugBank.d382.s10.e0" e2="DDI-DrugBank.d382.s10.e2" ddi="false"/>
+        <pair id="DDI-DrugBank.d382.s10.p2"
+            e1="DDI-DrugBank.d382.s10.e0" e2="DDI-DrugBank.d382.s10.e3" ddi="false"/>
+        <pair id="DDI-DrugBank.d382.s10.p3"
+            e1="DDI-DrugBank.d382.s10.e1" e2="DDI-DrugBank.d382.s10.e2" ddi="false"/>
+        <pair id="DDI-DrugBank.d382.s10.p4"
+            e1="DDI-DrugBank.d382.s10.e1" e2="DDI-DrugBank.d382.s10.e3" ddi="false"/>
+        <pair id="DDI-DrugBank.d382.s10.p5"
+            e1="DDI-DrugBank.d382.s10.e2" e2="DDI-DrugBank.d382.s10.e3" ddi="false"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d382.s11" text="The daily dose of dexamethasone administered in clinical studies with Aprepitant reflects an approximate 50% reduction of the dose of dexamethasone.">
+        <entity id="DDI-DrugBank.d382.s11.e0" charOffset="18-30"
+            type="drug" text="dexamethasone"/>
+        <entity id="DDI-DrugBank.d382.s11.e1" charOffset="70-79"
+            type="drug" text="Aprepitant"/>
+        <entity id="DDI-DrugBank.d382.s11.e2" charOffset="134-146"
+            type="drug" text="dexamethasone"/>
+        <pair id="DDI-DrugBank.d382.s11.p0"
+            e1="DDI-DrugBank.d382.s11.e0" e2="DDI-DrugBank.d382.s11.e1"
+            ddi="true" type="mechanism"/>
+        <pair id="DDI-DrugBank.d382.s11.p1"
+            e1="DDI-DrugBank.d382.s11.e0" e2="DDI-DrugBank.d382.s11.e2" ddi="false"/>
+        <pair id="DDI-DrugBank.d382.s11.p2"
+            e1="DDI-DrugBank.d382.s11.e1" e2="DDI-DrugBank.d382.s11.e2" ddi="false"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d382.s12" text="Methylprednisolone">
+        <entity id="DDI-DrugBank.d382.s12.e0" charOffset="0-17"
+            type="drug" text="Methylprednisolone"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d382.s13" text="Aprepitant, when given as a regimen of 125 mg on Day 1 and 80 mg/day on Days 2 and 3, increased the AUC of methylprednisolone, a CYP3A4 substrate, by 1.34-fold on Day 1 and by 2.5-fold on Day 3, when methylprednisolone was coadministered intravenously as 125 mg on Day 1 and orally as 40 mg on Days 2 and 3.">
+        <entity id="DDI-DrugBank.d382.s13.e0" charOffset="0-9"
+            type="drug" text="Aprepitant"/>
+        <entity id="DDI-DrugBank.d382.s13.e1" charOffset="107-124"
+            type="drug" text="methylprednisolone"/>
+        <entity id="DDI-DrugBank.d382.s13.e2" charOffset="200-217"
+            type="drug" text="methylprednisolone"/>
+        <pair id="DDI-DrugBank.d382.s13.p0"
+            e1="DDI-DrugBank.d382.s13.e0" e2="DDI-DrugBank.d382.s13.e1"
+            ddi="true" type="mechanism"/>
+        <pair id="DDI-DrugBank.d382.s13.p1"
+            e1="DDI-DrugBank.d382.s13.e0" e2="DDI-DrugBank.d382.s13.e2" ddi="false"/>
+        <pair id="DDI-DrugBank.d382.s13.p2"
+            e1="DDI-DrugBank.d382.s13.e1" e2="DDI-DrugBank.d382.s13.e2" ddi="false"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d382.s14" text="The IV methylprednisolone dose should be reduced by approximately 25%, and the oral methylprednisolone dose should be reduced by approximately 50% when coadministered with Aprepitant to achieve exposures of methylprednisolone similar to those obtained when it is given without Aprepitant.">
+        <entity id="DDI-DrugBank.d382.s14.e0" charOffset="7-24"
+            type="drug" text="methylprednisolone"/>
+        <entity id="DDI-DrugBank.d382.s14.e1" charOffset="84-101"
+            type="drug" text="methylprednisolone"/>
+        <entity id="DDI-DrugBank.d382.s14.e2" charOffset="172-181"
+            type="drug" text="Aprepitant"/>
+        <entity id="DDI-DrugBank.d382.s14.e3" charOffset="207-224"
+            type="drug" text="methylprednisolone"/>
+        <entity id="DDI-DrugBank.d382.s14.e4" charOffset="277-286"
+            type="drug" text="Aprepitant"/>
+        <pair id="DDI-DrugBank.d382.s14.p0"
+            e1="DDI-DrugBank.d382.s14.e0" e2="DDI-DrugBank.d382.s14.e1" ddi="false"/>
+        <pair id="DDI-DrugBank.d382.s14.p1"
+            e1="DDI-DrugBank.d382.s14.e0" e2="DDI-DrugBank.d382.s14.e2"
+            ddi="true" type="advise"/>
+        <pair id="DDI-DrugBank.d382.s14.p2"
+            e1="DDI-DrugBank.d382.s14.e0" e2="DDI-DrugBank.d382.s14.e3" ddi="false"/>
+        <pair id="DDI-DrugBank.d382.s14.p3"
+            e1="DDI-DrugBank.d382.s14.e0" e2="DDI-DrugBank.d382.s14.e4" ddi="false"/>
+        <pair id="DDI-DrugBank.d382.s14.p4"
+            e1="DDI-DrugBank.d382.s14.e1" e2="DDI-DrugBank.d382.s14.e2"
+            ddi="true" type="advise"/>
+        <pair id="DDI-DrugBank.d382.s14.p5"
+            e1="DDI-DrugBank.d382.s14.e1" e2="DDI-DrugBank.d382.s14.e3" ddi="false"/>
+        <pair id="DDI-DrugBank.d382.s14.p6"
+            e1="DDI-DrugBank.d382.s14.e1" e2="DDI-DrugBank.d382.s14.e4" ddi="false"/>
+        <pair id="DDI-DrugBank.d382.s14.p7"
+            e1="DDI-DrugBank.d382.s14.e2" e2="DDI-DrugBank.d382.s14.e3" ddi="false"/>
+        <pair id="DDI-DrugBank.d382.s14.p8"
+            e1="DDI-DrugBank.d382.s14.e2" e2="DDI-DrugBank.d382.s14.e4" ddi="false"/>
+        <pair id="DDI-DrugBank.d382.s14.p9"
+            e1="DDI-DrugBank.d382.s14.e3" e2="DDI-DrugBank.d382.s14.e4" ddi="false"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d382.s15" text="Warfarin: A single 125-mg dose of Aprepitant was administered on Day 1 and 80 mg/day on Days 2 and 3 to healthy subjects who were stabilized on chronic warfarin therapy.">
+        <entity id="DDI-DrugBank.d382.s15.e0" charOffset="0-7"
+            type="drug" text="Warfarin"/>
+        <entity id="DDI-DrugBank.d382.s15.e1" charOffset="34-43"
+            type="drug" text="Aprepitant"/>
+        <entity id="DDI-DrugBank.d382.s15.e2" charOffset="152-159"
+            type="drug" text="warfarin"/>
+        <pair id="DDI-DrugBank.d382.s15.p0"
+            e1="DDI-DrugBank.d382.s15.e0" e2="DDI-DrugBank.d382.s15.e1" ddi="false"/>
+        <pair id="DDI-DrugBank.d382.s15.p1"
+            e1="DDI-DrugBank.d382.s15.e0" e2="DDI-DrugBank.d382.s15.e2" ddi="false"/>
+        <pair id="DDI-DrugBank.d382.s15.p2"
+            e1="DDI-DrugBank.d382.s15.e1" e2="DDI-DrugBank.d382.s15.e2" ddi="false"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d382.s16" text="Although there was no effect of Aprepitant on the plasma AUC of R(+) or S(-) warfarin determined on Day 3, there was a 34% decrease in S(-)warfarin (a CYP2C9 substrate) trough concentration accompanied by a 14% decrease in the prothrombin time (reported as International Normalized Ratio or INR) 5 days after completion of dosing with Aprepitant.">
+        <entity id="DDI-DrugBank.d382.s16.e0" charOffset="32-41"
+            type="drug" text="Aprepitant"/>
+        <entity id="DDI-DrugBank.d382.s16.e1" charOffset="64-67;77-84"
+            type="drug" text="R(+) warfarin"/>
+        <entity id="DDI-DrugBank.d382.s16.e2" charOffset="72-84"
+            type="drug" text="S(-) warfarin"/>
+        <entity id="DDI-DrugBank.d382.s16.e3" charOffset="135-146"
+            type="drug" text="S(-)warfarin"/>
+        <entity id="DDI-DrugBank.d382.s16.e4" charOffset="335-344"
+            type="drug" text="Aprepitant"/>
+        <pair id="DDI-DrugBank.d382.s16.p0"
+            e1="DDI-DrugBank.d382.s16.e0" e2="DDI-DrugBank.d382.s16.e1" ddi="false"/>
+        <pair id="DDI-DrugBank.d382.s16.p1"
+            e1="DDI-DrugBank.d382.s16.e0" e2="DDI-DrugBank.d382.s16.e2" ddi="false"/>
+        <pair id="DDI-DrugBank.d382.s16.p2"
+            e1="DDI-DrugBank.d382.s16.e0" e2="DDI-DrugBank.d382.s16.e3" ddi="false"/>
+        <pair id="DDI-DrugBank.d382.s16.p3"
+            e1="DDI-DrugBank.d382.s16.e0" e2="DDI-DrugBank.d382.s16.e4" ddi="false"/>
+        <pair id="DDI-DrugBank.d382.s16.p4"
+            e1="DDI-DrugBank.d382.s16.e1" e2="DDI-DrugBank.d382.s16.e2" ddi="false"/>
+        <pair id="DDI-DrugBank.d382.s16.p5"
+            e1="DDI-DrugBank.d382.s16.e1" e2="DDI-DrugBank.d382.s16.e3" ddi="false"/>
+        <pair id="DDI-DrugBank.d382.s16.p6"
+            e1="DDI-DrugBank.d382.s16.e1" e2="DDI-DrugBank.d382.s16.e4" ddi="false"/>
+        <pair id="DDI-DrugBank.d382.s16.p7"
+            e1="DDI-DrugBank.d382.s16.e2" e2="DDI-DrugBank.d382.s16.e3" ddi="false"/>
+        <pair id="DDI-DrugBank.d382.s16.p8"
+            e1="DDI-DrugBank.d382.s16.e2" e2="DDI-DrugBank.d382.s16.e4" ddi="false"/>
+        <pair id="DDI-DrugBank.d382.s16.p9"
+            e1="DDI-DrugBank.d382.s16.e3" e2="DDI-DrugBank.d382.s16.e4"
+            ddi="true" type="mechanism"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d382.s17" text="In patients on chronic warfarin therapy, the prothrombin time (INR) should be closely monitored in the 2-week period, particularly at 7 to 10 days, following initiation of the 3-day regimen of Aprepitant with each chemotherapy cycle.">
+        <entity id="DDI-DrugBank.d382.s17.e0" charOffset="23-30"
+            type="drug" text="warfarin"/>
+        <entity id="DDI-DrugBank.d382.s17.e1" charOffset="193-202"
+            type="drug" text="Aprepitant"/>
+        <pair id="DDI-DrugBank.d382.s17.p0"
+            e1="DDI-DrugBank.d382.s17.e0" e2="DDI-DrugBank.d382.s17.e1"
+            ddi="true" type="advise"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d382.s18" text="Tolbutamide: Aprepitant, when given as 125 mg on Day 1 and 80 mg/day on Days 2 and 3, decreased the AUC of tolbutamide (a CYP2C9 substrate) by 23% on Day 4, 28% on Day 8, and 15% on Day 15, when a single dose of tolbutamide 500 mg was admini,stered orally prior to the administration of the 3-day regimen of Aprepitant and on Days 4,8, and 15.">
+        <entity id="DDI-DrugBank.d382.s18.e0" charOffset="0-10"
+            type="drug" text="Tolbutamide"/>
+        <entity id="DDI-DrugBank.d382.s18.e1" charOffset="13-22"
+            type="drug" text="Aprepitant"/>
+        <entity id="DDI-DrugBank.d382.s18.e2" charOffset="107-117"
+            type="drug" text="tolbutamide"/>
+        <entity id="DDI-DrugBank.d382.s18.e3" charOffset="212-222"
+            type="drug" text="tolbutamide"/>
+        <entity id="DDI-DrugBank.d382.s18.e4" charOffset="308-317"
+            type="drug" text="Aprepitant"/>
+        <pair id="DDI-DrugBank.d382.s18.p0"
+            e1="DDI-DrugBank.d382.s18.e0" e2="DDI-DrugBank.d382.s18.e1" ddi="false"/>
+        <pair id="DDI-DrugBank.d382.s18.p1"
+            e1="DDI-DrugBank.d382.s18.e0" e2="DDI-DrugBank.d382.s18.e2" ddi="false"/>
+        <pair id="DDI-DrugBank.d382.s18.p2"
+            e1="DDI-DrugBank.d382.s18.e0" e2="DDI-DrugBank.d382.s18.e3" ddi="false"/>
+        <pair id="DDI-DrugBank.d382.s18.p3"
+            e1="DDI-DrugBank.d382.s18.e0" e2="DDI-DrugBank.d382.s18.e4" ddi="false"/>
+        <pair id="DDI-DrugBank.d382.s18.p4"
+            e1="DDI-DrugBank.d382.s18.e1" e2="DDI-DrugBank.d382.s18.e2" ddi="false"/>
+        <pair id="DDI-DrugBank.d382.s18.p5"
+            e1="DDI-DrugBank.d382.s18.e1" e2="DDI-DrugBank.d382.s18.e3" ddi="false"/>
+        <pair id="DDI-DrugBank.d382.s18.p6"
+            e1="DDI-DrugBank.d382.s18.e1" e2="DDI-DrugBank.d382.s18.e4" ddi="false"/>
+        <pair id="DDI-DrugBank.d382.s18.p7"
+            e1="DDI-DrugBank.d382.s18.e2" e2="DDI-DrugBank.d382.s18.e3" ddi="false"/>
+        <pair id="DDI-DrugBank.d382.s18.p8"
+            e1="DDI-DrugBank.d382.s18.e2" e2="DDI-DrugBank.d382.s18.e4" ddi="false"/>
+        <pair id="DDI-DrugBank.d382.s18.p9"
+            e1="DDI-DrugBank.d382.s18.e3" e2="DDI-DrugBank.d382.s18.e4"
+            ddi="true" type="mechanism"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d382.s19" text="Oral contraceptives: Aprepitant, when given once daily for 14 days as a 100-mg capsule with an oral contraceptive containing 35 mcg of ethinyl estradiol and 1 mg of norethindrone, decreased the AUC of ethinyl estradiol by 43%, and decreased the AUC of norethindrone by 8%;">
+        <entity id="DDI-DrugBank.d382.s19.e0" charOffset="5-18"
+            type="group" text="contraceptives"/>
+        <entity id="DDI-DrugBank.d382.s19.e1" charOffset="21-30"
+            type="drug" text="Aprepitant"/>
+        <entity id="DDI-DrugBank.d382.s19.e2" charOffset="100-112"
+            type="group" text="contraceptive"/>
+        <entity id="DDI-DrugBank.d382.s19.e3" charOffset="135-151"
+            type="drug" text="ethinyl estradiol"/>
+        <entity id="DDI-DrugBank.d382.s19.e4" charOffset="165-177"
+            type="drug" text="norethindrone"/>
+        <entity id="DDI-DrugBank.d382.s19.e5" charOffset="201-217"
+            type="drug" text="ethinyl estradiol"/>
+        <entity id="DDI-DrugBank.d382.s19.e6" charOffset="252-264"
+            type="drug" text="norethindrone"/>
+        <pair id="DDI-DrugBank.d382.s19.p0"
+            e1="DDI-DrugBank.d382.s19.e0" e2="DDI-DrugBank.d382.s19.e1" ddi="false"/>
+        <pair id="DDI-DrugBank.d382.s19.p1"
+            e1="DDI-DrugBank.d382.s19.e0" e2="DDI-DrugBank.d382.s19.e2" ddi="false"/>
+        <pair id="DDI-DrugBank.d382.s19.p2"
+            e1="DDI-DrugBank.d382.s19.e0" e2="DDI-DrugBank.d382.s19.e3" ddi="false"/>
+        <pair id="DDI-DrugBank.d382.s19.p3"
+            e1="DDI-DrugBank.d382.s19.e0" e2="DDI-DrugBank.d382.s19.e4" ddi="false"/>
+        <pair id="DDI-DrugBank.d382.s19.p4"
+            e1="DDI-DrugBank.d382.s19.e0" e2="DDI-DrugBank.d382.s19.e5" ddi="false"/>
+        <pair id="DDI-DrugBank.d382.s19.p5"
+            e1="DDI-DrugBank.d382.s19.e0" e2="DDI-DrugBank.d382.s19.e6" ddi="false"/>
+        <pair id="DDI-DrugBank.d382.s19.p6"
+            e1="DDI-DrugBank.d382.s19.e1" e2="DDI-DrugBank.d382.s19.e2" ddi="false"/>
+        <pair id="DDI-DrugBank.d382.s19.p7"
+            e1="DDI-DrugBank.d382.s19.e1" e2="DDI-DrugBank.d382.s19.e3"
+            ddi="true" type="mechanism"/>
+        <pair id="DDI-DrugBank.d382.s19.p8"
+            e1="DDI-DrugBank.d382.s19.e1" e2="DDI-DrugBank.d382.s19.e4"
+            ddi="true" type="mechanism"/>
+        <pair id="DDI-DrugBank.d382.s19.p9"
+            e1="DDI-DrugBank.d382.s19.e1" e2="DDI-DrugBank.d382.s19.e5" ddi="false"/>
+        <pair id="DDI-DrugBank.d382.s19.p10"
+            e1="DDI-DrugBank.d382.s19.e1" e2="DDI-DrugBank.d382.s19.e6" ddi="false"/>
+        <pair id="DDI-DrugBank.d382.s19.p11"
+            e1="DDI-DrugBank.d382.s19.e2" e2="DDI-DrugBank.d382.s19.e3" ddi="false"/>
+        <pair id="DDI-DrugBank.d382.s19.p12"
+            e1="DDI-DrugBank.d382.s19.e2" e2="DDI-DrugBank.d382.s19.e4" ddi="false"/>
+        <pair id="DDI-DrugBank.d382.s19.p13"
+            e1="DDI-DrugBank.d382.s19.e2" e2="DDI-DrugBank.d382.s19.e5" ddi="false"/>
+        <pair id="DDI-DrugBank.d382.s19.p14"
+            e1="DDI-DrugBank.d382.s19.e2" e2="DDI-DrugBank.d382.s19.e6" ddi="false"/>
+        <pair id="DDI-DrugBank.d382.s19.p15"
+            e1="DDI-DrugBank.d382.s19.e3" e2="DDI-DrugBank.d382.s19.e4" ddi="false"/>
+        <pair id="DDI-DrugBank.d382.s19.p16"
+            e1="DDI-DrugBank.d382.s19.e3" e2="DDI-DrugBank.d382.s19.e5" ddi="false"/>
+        <pair id="DDI-DrugBank.d382.s19.p17"
+            e1="DDI-DrugBank.d382.s19.e3" e2="DDI-DrugBank.d382.s19.e6" ddi="false"/>
+        <pair id="DDI-DrugBank.d382.s19.p18"
+            e1="DDI-DrugBank.d382.s19.e4" e2="DDI-DrugBank.d382.s19.e5" ddi="false"/>
+        <pair id="DDI-DrugBank.d382.s19.p19"
+            e1="DDI-DrugBank.d382.s19.e4" e2="DDI-DrugBank.d382.s19.e6" ddi="false"/>
+        <pair id="DDI-DrugBank.d382.s19.p20"
+            e1="DDI-DrugBank.d382.s19.e5" e2="DDI-DrugBank.d382.s19.e6" ddi="false"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d382.s20" text="therefore, the efficacy of oral contraceptives during administration of Aprepitant may be reduced.">
+        <entity id="DDI-DrugBank.d382.s20.e0" charOffset="32-45"
+            type="group" text="contraceptives"/>
+        <entity id="DDI-DrugBank.d382.s20.e1" charOffset="72-81"
+            type="drug" text="Aprepitant"/>
+        <pair id="DDI-DrugBank.d382.s20.p0"
+            e1="DDI-DrugBank.d382.s20.e0" e2="DDI-DrugBank.d382.s20.e1"
+            ddi="true" type="effect"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d382.s21" text="Although a 3-day regimen of Aprepitant given concomitantly with oral contraceptives has not been studied, alternative or back-up methods of contraception should be used.">
+        <entity id="DDI-DrugBank.d382.s21.e0" charOffset="28-37"
+            type="drug" text="Aprepitant"/>
+        <entity id="DDI-DrugBank.d382.s21.e1" charOffset="69-82"
+            type="group" text="contraceptives"/>
+        <pair id="DDI-DrugBank.d382.s21.p0"
+            e1="DDI-DrugBank.d382.s21.e0" e2="DDI-DrugBank.d382.s21.e1"
+            ddi="true" type="advise"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d382.s22" text="Midazolam: Aprepitant increased the AUC of midazolam, a sensitive CYP3A4 substrate, by 2.3-fold on Day 1 and 3.3-fold on Day 5, when a single oral dose of midazolam 2 mg was coadministered on Day 1 and Day 5 of a regimen of Aprepitant 125 mg on Day 1 and 80 mg/day on Days 2 through 5.">
+        <entity id="DDI-DrugBank.d382.s22.e0" charOffset="0-8"
+            type="drug" text="Midazolam"/>
+        <entity id="DDI-DrugBank.d382.s22.e1" charOffset="11-20"
+            type="drug" text="Aprepitant"/>
+        <entity id="DDI-DrugBank.d382.s22.e2" charOffset="43-51"
+            type="drug" text="midazolam"/>
+        <entity id="DDI-DrugBank.d382.s22.e3" charOffset="155-163"
+            type="drug" text="midazolam"/>
+        <entity id="DDI-DrugBank.d382.s22.e4" charOffset="224-233"
+            type="drug" text="Aprepitant"/>
+        <pair id="DDI-DrugBank.d382.s22.p0"
+            e1="DDI-DrugBank.d382.s22.e0" e2="DDI-DrugBank.d382.s22.e1" ddi="false"/>
+        <pair id="DDI-DrugBank.d382.s22.p1"
+            e1="DDI-DrugBank.d382.s22.e0" e2="DDI-DrugBank.d382.s22.e2" ddi="false"/>
+        <pair id="DDI-DrugBank.d382.s22.p2"
+            e1="DDI-DrugBank.d382.s22.e0" e2="DDI-DrugBank.d382.s22.e3" ddi="false"/>
+        <pair id="DDI-DrugBank.d382.s22.p3"
+            e1="DDI-DrugBank.d382.s22.e0" e2="DDI-DrugBank.d382.s22.e4" ddi="false"/>
+        <pair id="DDI-DrugBank.d382.s22.p4"
+            e1="DDI-DrugBank.d382.s22.e1" e2="DDI-DrugBank.d382.s22.e2"
+            ddi="true" type="mechanism"/>
+        <pair id="DDI-DrugBank.d382.s22.p5"
+            e1="DDI-DrugBank.d382.s22.e1" e2="DDI-DrugBank.d382.s22.e3" ddi="false"/>
+        <pair id="DDI-DrugBank.d382.s22.p6"
+            e1="DDI-DrugBank.d382.s22.e1" e2="DDI-DrugBank.d382.s22.e4" ddi="false"/>
+        <pair id="DDI-DrugBank.d382.s22.p7"
+            e1="DDI-DrugBank.d382.s22.e2" e2="DDI-DrugBank.d382.s22.e3" ddi="false"/>
+        <pair id="DDI-DrugBank.d382.s22.p8"
+            e1="DDI-DrugBank.d382.s22.e2" e2="DDI-DrugBank.d382.s22.e4" ddi="false"/>
+        <pair id="DDI-DrugBank.d382.s22.p9"
+            e1="DDI-DrugBank.d382.s22.e3" e2="DDI-DrugBank.d382.s22.e4" ddi="false"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d382.s23" text="The potential effects of increased plasma concentrations of midazolam or other benzodiazepines metabolized via CYP3A4 (alprazolam, triazolam) should be considered when coadministering these agents with Aprepitant.">
+        <entity id="DDI-DrugBank.d382.s23.e0" charOffset="60-68"
+            type="drug" text="midazolam"/>
+        <entity id="DDI-DrugBank.d382.s23.e1" charOffset="79-93"
+            type="group" text="benzodiazepines"/>
+        <entity id="DDI-DrugBank.d382.s23.e2" charOffset="119-128"
+            type="drug" text="alprazolam"/>
+        <entity id="DDI-DrugBank.d382.s23.e3" charOffset="131-139"
+            type="drug" text="triazolam"/>
+        <entity id="DDI-DrugBank.d382.s23.e4" charOffset="202-211"
+            type="drug" text="Aprepitant"/>
+        <pair id="DDI-DrugBank.d382.s23.p0"
+            e1="DDI-DrugBank.d382.s23.e0" e2="DDI-DrugBank.d382.s23.e1" ddi="false"/>
+        <pair id="DDI-DrugBank.d382.s23.p1"
+            e1="DDI-DrugBank.d382.s23.e0" e2="DDI-DrugBank.d382.s23.e2" ddi="false"/>
+        <pair id="DDI-DrugBank.d382.s23.p2"
+            e1="DDI-DrugBank.d382.s23.e0" e2="DDI-DrugBank.d382.s23.e3" ddi="false"/>
+        <pair id="DDI-DrugBank.d382.s23.p3"
+            e1="DDI-DrugBank.d382.s23.e0" e2="DDI-DrugBank.d382.s23.e4"
+            ddi="true" type="advise"/>
+        <pair id="DDI-DrugBank.d382.s23.p4"
+            e1="DDI-DrugBank.d382.s23.e1" e2="DDI-DrugBank.d382.s23.e2" ddi="false"/>
+        <pair id="DDI-DrugBank.d382.s23.p5"
+            e1="DDI-DrugBank.d382.s23.e1" e2="DDI-DrugBank.d382.s23.e3" ddi="false"/>
+        <pair id="DDI-DrugBank.d382.s23.p6"
+            e1="DDI-DrugBank.d382.s23.e1" e2="DDI-DrugBank.d382.s23.e4"
+            ddi="true" type="advise"/>
+        <pair id="DDI-DrugBank.d382.s23.p7"
+            e1="DDI-DrugBank.d382.s23.e2" e2="DDI-DrugBank.d382.s23.e3" ddi="false"/>
+        <pair id="DDI-DrugBank.d382.s23.p8"
+            e1="DDI-DrugBank.d382.s23.e2" e2="DDI-DrugBank.d382.s23.e4"
+            ddi="true" type="advise"/>
+        <pair id="DDI-DrugBank.d382.s23.p9"
+            e1="DDI-DrugBank.d382.s23.e3" e2="DDI-DrugBank.d382.s23.e4"
+            ddi="true" type="advise"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d382.s24" text="In another study with intravenous administration of midazolam, Aprepitant was given as 125 mg on Day 1 and 80 mg/day on Days 2 and 3, and midazolam 2 mg IV was given prior to the administration of the 3-day regimen of Aprepitant and on Days 4, 8, and 15.">
+        <entity id="DDI-DrugBank.d382.s24.e0" charOffset="52-60"
+            type="drug" text="midazolam"/>
+        <entity id="DDI-DrugBank.d382.s24.e1" charOffset="63-72"
+            type="drug" text="Aprepitant"/>
+        <entity id="DDI-DrugBank.d382.s24.e2" charOffset="138-146"
+            type="drug" text="midazolam"/>
+        <entity id="DDI-DrugBank.d382.s24.e3" charOffset="218-227"
+            type="drug" text="Aprepitant"/>
+        <pair id="DDI-DrugBank.d382.s24.p0"
+            e1="DDI-DrugBank.d382.s24.e0" e2="DDI-DrugBank.d382.s24.e1" ddi="false"/>
+        <pair id="DDI-DrugBank.d382.s24.p1"
+            e1="DDI-DrugBank.d382.s24.e0" e2="DDI-DrugBank.d382.s24.e2" ddi="false"/>
+        <pair id="DDI-DrugBank.d382.s24.p2"
+            e1="DDI-DrugBank.d382.s24.e0" e2="DDI-DrugBank.d382.s24.e3" ddi="false"/>
+        <pair id="DDI-DrugBank.d382.s24.p3"
+            e1="DDI-DrugBank.d382.s24.e1" e2="DDI-DrugBank.d382.s24.e2" ddi="false"/>
+        <pair id="DDI-DrugBank.d382.s24.p4"
+            e1="DDI-DrugBank.d382.s24.e1" e2="DDI-DrugBank.d382.s24.e3" ddi="false"/>
+        <pair id="DDI-DrugBank.d382.s24.p5"
+            e1="DDI-DrugBank.d382.s24.e2" e2="DDI-DrugBank.d382.s24.e3" ddi="false"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d382.s25" text="Aprepitant increased the AUC of midazolam by 25% on Day 4 and decreased the AUC of midazolam by 19% on Day 8 relative to the dosing of Aprepitant on Days 1 through 3.">
+        <entity id="DDI-DrugBank.d382.s25.e0" charOffset="0-9"
+            type="drug" text="Aprepitant"/>
+        <entity id="DDI-DrugBank.d382.s25.e1" charOffset="32-40"
+            type="drug" text="midazolam"/>
+        <entity id="DDI-DrugBank.d382.s25.e2" charOffset="83-91"
+            type="drug" text="midazolam"/>
+        <entity id="DDI-DrugBank.d382.s25.e3" charOffset="135-144"
+            type="drug" text="Aprepitant"/>
+        <pair id="DDI-DrugBank.d382.s25.p0"
+            e1="DDI-DrugBank.d382.s25.e0" e2="DDI-DrugBank.d382.s25.e1"
+            ddi="true" type="mechanism"/>
+        <pair id="DDI-DrugBank.d382.s25.p1"
+            e1="DDI-DrugBank.d382.s25.e0" e2="DDI-DrugBank.d382.s25.e2"
+            ddi="true" type="mechanism"/>
+        <pair id="DDI-DrugBank.d382.s25.p2"
+            e1="DDI-DrugBank.d382.s25.e0" e2="DDI-DrugBank.d382.s25.e3" ddi="false"/>
+        <pair id="DDI-DrugBank.d382.s25.p3"
+            e1="DDI-DrugBank.d382.s25.e1" e2="DDI-DrugBank.d382.s25.e2" ddi="false"/>
+        <pair id="DDI-DrugBank.d382.s25.p4"
+            e1="DDI-DrugBank.d382.s25.e1" e2="DDI-DrugBank.d382.s25.e3" ddi="false"/>
+        <pair id="DDI-DrugBank.d382.s25.p5"
+            e1="DDI-DrugBank.d382.s25.e2" e2="DDI-DrugBank.d382.s25.e3" ddi="false"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d382.s26" text="These effects were not considered clinically important."/>
+    <sentence id="DDI-DrugBank.d382.s27" text="The AUC of midazolam on Day 15 was similar to that observed at baseline.">
+        <entity id="DDI-DrugBank.d382.s27.e0" charOffset="11-19"
+            type="drug" text="midazolam"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d382.s28" text="Effect of other agents on the pharmacokinefics of aprepitant">
+        <entity id="DDI-DrugBank.d382.s28.e0" charOffset="50-59"
+            type="drug" text="aprepitant"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d382.s29" text="Aprepitant is a substrate for CYP3A4;">
+        <entity id="DDI-DrugBank.d382.s29.e0" charOffset="0-9"
+            type="drug" text="Aprepitant"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d382.s30" text="therefore, coadministration of Aprepitant with drugs that inhibit CYP3A4 activity may result in increased plasma concentrations of aprepitant.">
+        <entity id="DDI-DrugBank.d382.s30.e0" charOffset="31-40"
+            type="drug" text="Aprepitant"/>
+        <entity id="DDI-DrugBank.d382.s30.e1" charOffset="131-140"
+            type="drug" text="aprepitant"/>
+        <pair id="DDI-DrugBank.d382.s30.p0"
+            e1="DDI-DrugBank.d382.s30.e0" e2="DDI-DrugBank.d382.s30.e1" ddi="false"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d382.s31" text="Consequently, concomitant administration of Aprepitant with strong CYP3A4 inhibitors (e.g., ketoconazole, itraconazole, nefazodone, troleandomycin, clarithromycin, ritonavir, nelfinavir) should be approached with caution.">
+        <entity id="DDI-DrugBank.d382.s31.e0" charOffset="44-53"
+            type="drug" text="Aprepitant"/>
+        <entity id="DDI-DrugBank.d382.s31.e1" charOffset="92-103"
+            type="drug" text="ketoconazole"/>
+        <entity id="DDI-DrugBank.d382.s31.e2" charOffset="106-117"
+            type="drug" text="itraconazole"/>
+        <entity id="DDI-DrugBank.d382.s31.e3" charOffset="120-129"
+            type="drug" text="nefazodone"/>
+        <entity id="DDI-DrugBank.d382.s31.e4" charOffset="132-145"
+            type="drug" text="troleandomycin"/>
+        <entity id="DDI-DrugBank.d382.s31.e5" charOffset="148-161"
+            type="drug" text="clarithromycin"/>
+        <entity id="DDI-DrugBank.d382.s31.e6" charOffset="164-172"
+            type="drug" text="ritonavir"/>
+        <entity id="DDI-DrugBank.d382.s31.e7" charOffset="175-184"
+            type="drug" text="nelfinavir"/>
+        <pair id="DDI-DrugBank.d382.s31.p0"
+            e1="DDI-DrugBank.d382.s31.e0" e2="DDI-DrugBank.d382.s31.e1"
+            ddi="true" type="advise"/>
+        <pair id="DDI-DrugBank.d382.s31.p1"
+            e1="DDI-DrugBank.d382.s31.e0" e2="DDI-DrugBank.d382.s31.e2"
+            ddi="true" type="advise"/>
+        <pair id="DDI-DrugBank.d382.s31.p2"
+            e1="DDI-DrugBank.d382.s31.e0" e2="DDI-DrugBank.d382.s31.e3"
+            ddi="true" type="advise"/>
+        <pair id="DDI-DrugBank.d382.s31.p3"
+            e1="DDI-DrugBank.d382.s31.e0" e2="DDI-DrugBank.d382.s31.e4"
+            ddi="true" type="advise"/>
+        <pair id="DDI-DrugBank.d382.s31.p4"
+            e1="DDI-DrugBank.d382.s31.e0" e2="DDI-DrugBank.d382.s31.e5"
+            ddi="true" type="advise"/>
+        <pair id="DDI-DrugBank.d382.s31.p5"
+            e1="DDI-DrugBank.d382.s31.e0" e2="DDI-DrugBank.d382.s31.e6"
+            ddi="true" type="advise"/>
+        <pair id="DDI-DrugBank.d382.s31.p6"
+            e1="DDI-DrugBank.d382.s31.e0" e2="DDI-DrugBank.d382.s31.e7"
+            ddi="true" type="advise"/>
+        <pair id="DDI-DrugBank.d382.s31.p7"
+            e1="DDI-DrugBank.d382.s31.e1" e2="DDI-DrugBank.d382.s31.e2" ddi="false"/>
+        <pair id="DDI-DrugBank.d382.s31.p8"
+            e1="DDI-DrugBank.d382.s31.e1" e2="DDI-DrugBank.d382.s31.e3" ddi="false"/>
+        <pair id="DDI-DrugBank.d382.s31.p9"
+            e1="DDI-DrugBank.d382.s31.e1" e2="DDI-DrugBank.d382.s31.e4" ddi="false"/>
+        <pair id="DDI-DrugBank.d382.s31.p10"
+            e1="DDI-DrugBank.d382.s31.e1" e2="DDI-DrugBank.d382.s31.e5" ddi="false"/>
+        <pair id="DDI-DrugBank.d382.s31.p11"
+            e1="DDI-DrugBank.d382.s31.e1" e2="DDI-DrugBank.d382.s31.e6" ddi="false"/>
+        <pair id="DDI-DrugBank.d382.s31.p12"
+            e1="DDI-DrugBank.d382.s31.e1" e2="DDI-DrugBank.d382.s31.e7" ddi="false"/>
+        <pair id="DDI-DrugBank.d382.s31.p13"
+            e1="DDI-DrugBank.d382.s31.e2" e2="DDI-DrugBank.d382.s31.e3" ddi="false"/>
+        <pair id="DDI-DrugBank.d382.s31.p14"
+            e1="DDI-DrugBank.d382.s31.e2" e2="DDI-DrugBank.d382.s31.e4" ddi="false"/>
+        <pair id="DDI-DrugBank.d382.s31.p15"
+            e1="DDI-DrugBank.d382.s31.e2" e2="DDI-DrugBank.d382.s31.e5" ddi="false"/>
+        <pair id="DDI-DrugBank.d382.s31.p16"
+            e1="DDI-DrugBank.d382.s31.e2" e2="DDI-DrugBank.d382.s31.e6" ddi="false"/>
+        <pair id="DDI-DrugBank.d382.s31.p17"
+            e1="DDI-DrugBank.d382.s31.e2" e2="DDI-DrugBank.d382.s31.e7" ddi="false"/>
+        <pair id="DDI-DrugBank.d382.s31.p18"
+            e1="DDI-DrugBank.d382.s31.e3" e2="DDI-DrugBank.d382.s31.e4" ddi="false"/>
+        <pair id="DDI-DrugBank.d382.s31.p19"
+            e1="DDI-DrugBank.d382.s31.e3" e2="DDI-DrugBank.d382.s31.e5" ddi="false"/>
+        <pair id="DDI-DrugBank.d382.s31.p20"
+            e1="DDI-DrugBank.d382.s31.e3" e2="DDI-DrugBank.d382.s31.e6" ddi="false"/>
+        <pair id="DDI-DrugBank.d382.s31.p21"
+            e1="DDI-DrugBank.d382.s31.e3" e2="DDI-DrugBank.d382.s31.e7" ddi="false"/>
+        <pair id="DDI-DrugBank.d382.s31.p22"
+            e1="DDI-DrugBank.d382.s31.e4" e2="DDI-DrugBank.d382.s31.e5" ddi="false"/>
+        <pair id="DDI-DrugBank.d382.s31.p23"
+            e1="DDI-DrugBank.d382.s31.e4" e2="DDI-DrugBank.d382.s31.e6" ddi="false"/>
+        <pair id="DDI-DrugBank.d382.s31.p24"
+            e1="DDI-DrugBank.d382.s31.e4" e2="DDI-DrugBank.d382.s31.e7" ddi="false"/>
+        <pair id="DDI-DrugBank.d382.s31.p25"
+            e1="DDI-DrugBank.d382.s31.e5" e2="DDI-DrugBank.d382.s31.e6" ddi="false"/>
+        <pair id="DDI-DrugBank.d382.s31.p26"
+            e1="DDI-DrugBank.d382.s31.e5" e2="DDI-DrugBank.d382.s31.e7" ddi="false"/>
+        <pair id="DDI-DrugBank.d382.s31.p27"
+            e1="DDI-DrugBank.d382.s31.e6" e2="DDI-DrugBank.d382.s31.e7" ddi="false"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d382.s32" text="Because moderate CYP3A4 inhibitors (e.g., diltiazem) result in 2-fold increase in plasma concentrations of aprepitant, concomitant administration should also be approached with caution.">
+        <entity id="DDI-DrugBank.d382.s32.e0" charOffset="42-50"
+            type="drug" text="diltiazem"/>
+        <entity id="DDI-DrugBank.d382.s32.e1" charOffset="107-116"
+            type="drug" text="aprepitant"/>
+        <pair id="DDI-DrugBank.d382.s32.p0"
+            e1="DDI-DrugBank.d382.s32.e0" e2="DDI-DrugBank.d382.s32.e1"
+            ddi="true" type="advise"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d382.s33" text="Aprepitant is a substrate for CYP3A4;">
+        <entity id="DDI-DrugBank.d382.s33.e0" charOffset="0-9"
+            type="drug" text="Aprepitant"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d382.s34" text="therefore, coadministration of Aprepitant with drugs that strongly induce CYP3A4 activity (e.g., rifampin, carbamazepine, phenytoin) may result in reduced plasma concentrations of aprepitant that may result in decreased efficacy of Aprepitant.">
+        <entity id="DDI-DrugBank.d382.s34.e0" charOffset="31-40"
+            type="drug" text="Aprepitant"/>
+        <entity id="DDI-DrugBank.d382.s34.e1" charOffset="97-104"
+            type="drug" text="rifampin"/>
+        <entity id="DDI-DrugBank.d382.s34.e2" charOffset="107-119"
+            type="drug" text="carbamazepine"/>
+        <entity id="DDI-DrugBank.d382.s34.e3" charOffset="122-130"
+            type="drug" text="phenytoin"/>
+        <entity id="DDI-DrugBank.d382.s34.e4" charOffset="180-189"
+            type="drug" text="aprepitant"/>
+        <entity id="DDI-DrugBank.d382.s34.e5" charOffset="232-241"
+            type="drug" text="Aprepitant"/>
+        <pair id="DDI-DrugBank.d382.s34.p0"
+            e1="DDI-DrugBank.d382.s34.e0" e2="DDI-DrugBank.d382.s34.e1"
+            ddi="true" type="mechanism"/>
+        <pair id="DDI-DrugBank.d382.s34.p1"
+            e1="DDI-DrugBank.d382.s34.e0" e2="DDI-DrugBank.d382.s34.e2" ddi="false"/>
+        <pair id="DDI-DrugBank.d382.s34.p2"
+            e1="DDI-DrugBank.d382.s34.e0" e2="DDI-DrugBank.d382.s34.e3"
+            ddi="true" type="mechanism"/>
+        <pair id="DDI-DrugBank.d382.s34.p3"
+            e1="DDI-DrugBank.d382.s34.e0" e2="DDI-DrugBank.d382.s34.e4"
+            ddi="true" type="mechanism"/>
+        <pair id="DDI-DrugBank.d382.s34.p4"
+            e1="DDI-DrugBank.d382.s34.e0" e2="DDI-DrugBank.d382.s34.e5" ddi="false"/>
+        <pair id="DDI-DrugBank.d382.s34.p5"
+            e1="DDI-DrugBank.d382.s34.e1" e2="DDI-DrugBank.d382.s34.e2" ddi="false"/>
+        <pair id="DDI-DrugBank.d382.s34.p6"
+            e1="DDI-DrugBank.d382.s34.e1" e2="DDI-DrugBank.d382.s34.e3" ddi="false"/>
+        <pair id="DDI-DrugBank.d382.s34.p7"
+            e1="DDI-DrugBank.d382.s34.e1" e2="DDI-DrugBank.d382.s34.e4" ddi="false"/>
+        <pair id="DDI-DrugBank.d382.s34.p8"
+            e1="DDI-DrugBank.d382.s34.e1" e2="DDI-DrugBank.d382.s34.e5" ddi="false"/>
+        <pair id="DDI-DrugBank.d382.s34.p9"
+            e1="DDI-DrugBank.d382.s34.e2" e2="DDI-DrugBank.d382.s34.e3" ddi="false"/>
+        <pair id="DDI-DrugBank.d382.s34.p10"
+            e1="DDI-DrugBank.d382.s34.e2" e2="DDI-DrugBank.d382.s34.e4" ddi="false"/>
+        <pair id="DDI-DrugBank.d382.s34.p11"
+            e1="DDI-DrugBank.d382.s34.e2" e2="DDI-DrugBank.d382.s34.e5" ddi="false"/>
+        <pair id="DDI-DrugBank.d382.s34.p12"
+            e1="DDI-DrugBank.d382.s34.e3" e2="DDI-DrugBank.d382.s34.e4" ddi="false"/>
+        <pair id="DDI-DrugBank.d382.s34.p13"
+            e1="DDI-DrugBank.d382.s34.e3" e2="DDI-DrugBank.d382.s34.e5" ddi="false"/>
+        <pair id="DDI-DrugBank.d382.s34.p14"
+            e1="DDI-DrugBank.d382.s34.e4" e2="DDI-DrugBank.d382.s34.e5" ddi="false"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d382.s35" text="Ketoconazole: When a single 125-mg dose of Aprepitant was administered on Day5 of a">
+        <entity id="DDI-DrugBank.d382.s35.e0" charOffset="0-11"
+            type="drug" text="Ketoconazole"/>
+        <entity id="DDI-DrugBank.d382.s35.e1" charOffset="43-52"
+            type="drug" text="Aprepitant"/>
+        <pair id="DDI-DrugBank.d382.s35.p0"
+            e1="DDI-DrugBank.d382.s35.e0" e2="DDI-DrugBank.d382.s35.e1" ddi="false"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d382.s36" text="Ketoconazole: When a single 125-mg dose of Aprepitant was administered on Day5 of a 10-day regimen of 400 mg/day of ketoconazole, a strong CYP3A4 inhibitor, the AUC of aprepitant increased approximately 5-fold and the mean terminal half-life of aprepitant increased approximately 3-fold.">
+        <entity id="DDI-DrugBank.d382.s36.e0" charOffset="0-11"
+            type="drug" text="Ketoconazole"/>
+        <entity id="DDI-DrugBank.d382.s36.e1" charOffset="43-52"
+            type="drug" text="Aprepitant"/>
+        <entity id="DDI-DrugBank.d382.s36.e2" charOffset="116-127"
+            type="drug" text="ketoconazole"/>
+        <entity id="DDI-DrugBank.d382.s36.e3" charOffset="168-177"
+            type="drug" text="aprepitant"/>
+        <entity id="DDI-DrugBank.d382.s36.e4" charOffset="245-254"
+            type="drug" text="aprepitant"/>
+        <pair id="DDI-DrugBank.d382.s36.p0"
+            e1="DDI-DrugBank.d382.s36.e0" e2="DDI-DrugBank.d382.s36.e1" ddi="false"/>
+        <pair id="DDI-DrugBank.d382.s36.p1"
+            e1="DDI-DrugBank.d382.s36.e0" e2="DDI-DrugBank.d382.s36.e2" ddi="false"/>
+        <pair id="DDI-DrugBank.d382.s36.p2"
+            e1="DDI-DrugBank.d382.s36.e0" e2="DDI-DrugBank.d382.s36.e3" ddi="false"/>
+        <pair id="DDI-DrugBank.d382.s36.p3"
+            e1="DDI-DrugBank.d382.s36.e0" e2="DDI-DrugBank.d382.s36.e4" ddi="false"/>
+        <pair id="DDI-DrugBank.d382.s36.p4"
+            e1="DDI-DrugBank.d382.s36.e1" e2="DDI-DrugBank.d382.s36.e2"
+            ddi="true" type="mechanism"/>
+        <pair id="DDI-DrugBank.d382.s36.p5"
+            e1="DDI-DrugBank.d382.s36.e1" e2="DDI-DrugBank.d382.s36.e3" ddi="false"/>
+        <pair id="DDI-DrugBank.d382.s36.p6"
+            e1="DDI-DrugBank.d382.s36.e1" e2="DDI-DrugBank.d382.s36.e4" ddi="false"/>
+        <pair id="DDI-DrugBank.d382.s36.p7"
+            e1="DDI-DrugBank.d382.s36.e2" e2="DDI-DrugBank.d382.s36.e3" ddi="false"/>
+        <pair id="DDI-DrugBank.d382.s36.p8"
+            e1="DDI-DrugBank.d382.s36.e2" e2="DDI-DrugBank.d382.s36.e4" ddi="false"/>
+        <pair id="DDI-DrugBank.d382.s36.p9"
+            e1="DDI-DrugBank.d382.s36.e3" e2="DDI-DrugBank.d382.s36.e4" ddi="false"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d382.s37" text="Concomitant administration of Aprepitant with strong CYP3A4 inhibitors should be approached cautiously.">
+        <entity id="DDI-DrugBank.d382.s37.e0" charOffset="30-39"
+            type="drug" text="Aprepitant"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d382.s38" text="Rifampin: When a single 375-mg dose of Aprepitant was administered on Day9 of a 14-day regimen of 600 mg/day of rifampin, a strong CYP3A4 inducer, the AUC of aprepitant decreased approximately 11-fold and the mean terminal half-life decreased approximately 3-fold.">
+        <entity id="DDI-DrugBank.d382.s38.e0" charOffset="0-7"
+            type="drug" text="Rifampin"/>
+        <entity id="DDI-DrugBank.d382.s38.e1" charOffset="39-48"
+            type="drug" text="Aprepitant"/>
+        <entity id="DDI-DrugBank.d382.s38.e2" charOffset="112-119"
+            type="drug" text="rifampin"/>
+        <entity id="DDI-DrugBank.d382.s38.e3" charOffset="158-167"
+            type="drug" text="aprepitant"/>
+        <pair id="DDI-DrugBank.d382.s38.p0"
+            e1="DDI-DrugBank.d382.s38.e0" e2="DDI-DrugBank.d382.s38.e1" ddi="false"/>
+        <pair id="DDI-DrugBank.d382.s38.p1"
+            e1="DDI-DrugBank.d382.s38.e0" e2="DDI-DrugBank.d382.s38.e2" ddi="false"/>
+        <pair id="DDI-DrugBank.d382.s38.p2"
+            e1="DDI-DrugBank.d382.s38.e0" e2="DDI-DrugBank.d382.s38.e3" ddi="false"/>
+        <pair id="DDI-DrugBank.d382.s38.p3"
+            e1="DDI-DrugBank.d382.s38.e1" e2="DDI-DrugBank.d382.s38.e2"
+            ddi="true" type="mechanism"/>
+        <pair id="DDI-DrugBank.d382.s38.p4"
+            e1="DDI-DrugBank.d382.s38.e1" e2="DDI-DrugBank.d382.s38.e3" ddi="false"/>
+        <pair id="DDI-DrugBank.d382.s38.p5"
+            e1="DDI-DrugBank.d382.s38.e2" e2="DDI-DrugBank.d382.s38.e3" ddi="false"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d382.s39" text="Coadministration of Aprepitant with drugs that induce CYP3A4 activity may result in reduced plasma concentrations and decreased efficacy of Aprepitant.">
+        <entity id="DDI-DrugBank.d382.s39.e0" charOffset="20-29"
+            type="drug" text="Aprepitant"/>
+        <entity id="DDI-DrugBank.d382.s39.e1" charOffset="140-149"
+            type="drug" text="Aprepitant"/>
+        <pair id="DDI-DrugBank.d382.s39.p0"
+            e1="DDI-DrugBank.d382.s39.e0" e2="DDI-DrugBank.d382.s39.e1" ddi="false"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d382.s40" text="Additional interactions"/>
+    <sentence id="DDI-DrugBank.d382.s41" text="Diltiazem: In patients with mild to moderate hypertension, administration of aprepitant once daily, as a tablet formulation comparable to 230 mg of the capsule formulation, with diltiazem 120 mg 3 times daily for 5 days, resulted in a 2-fold increase of aprepitant AUC and a simultaneous 1.7-fold increase of diltiazem AUC.">
+        <entity id="DDI-DrugBank.d382.s41.e0" charOffset="0-8"
+            type="drug" text="Diltiazem"/>
+        <entity id="DDI-DrugBank.d382.s41.e1" charOffset="77-86"
+            type="drug" text="aprepitant"/>
+        <entity id="DDI-DrugBank.d382.s41.e2" charOffset="178-186"
+            type="drug" text="diltiazem"/>
+        <entity id="DDI-DrugBank.d382.s41.e3" charOffset="254-263"
+            type="drug" text="aprepitant"/>
+        <entity id="DDI-DrugBank.d382.s41.e4" charOffset="309-317"
+            type="drug" text="diltiazem"/>
+        <pair id="DDI-DrugBank.d382.s41.p0"
+            e1="DDI-DrugBank.d382.s41.e0" e2="DDI-DrugBank.d382.s41.e1" ddi="false"/>
+        <pair id="DDI-DrugBank.d382.s41.p1"
+            e1="DDI-DrugBank.d382.s41.e0" e2="DDI-DrugBank.d382.s41.e2" ddi="false"/>
+        <pair id="DDI-DrugBank.d382.s41.p2"
+            e1="DDI-DrugBank.d382.s41.e0" e2="DDI-DrugBank.d382.s41.e3" ddi="false"/>
+        <pair id="DDI-DrugBank.d382.s41.p3"
+            e1="DDI-DrugBank.d382.s41.e0" e2="DDI-DrugBank.d382.s41.e4" ddi="false"/>
+        <pair id="DDI-DrugBank.d382.s41.p4"
+            e1="DDI-DrugBank.d382.s41.e1" e2="DDI-DrugBank.d382.s41.e2"
+            ddi="true" type="mechanism"/>
+        <pair id="DDI-DrugBank.d382.s41.p5"
+            e1="DDI-DrugBank.d382.s41.e1" e2="DDI-DrugBank.d382.s41.e3" ddi="false"/>
+        <pair id="DDI-DrugBank.d382.s41.p6"
+            e1="DDI-DrugBank.d382.s41.e1" e2="DDI-DrugBank.d382.s41.e4" ddi="false"/>
+        <pair id="DDI-DrugBank.d382.s41.p7"
+            e1="DDI-DrugBank.d382.s41.e2" e2="DDI-DrugBank.d382.s41.e3" ddi="false"/>
+        <pair id="DDI-DrugBank.d382.s41.p8"
+            e1="DDI-DrugBank.d382.s41.e2" e2="DDI-DrugBank.d382.s41.e4" ddi="false"/>
+        <pair id="DDI-DrugBank.d382.s41.p9"
+            e1="DDI-DrugBank.d382.s41.e3" e2="DDI-DrugBank.d382.s41.e4" ddi="false"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d382.s42" text="These pharmacokinetic effects did not result in clinically meaningful changes in ECG, heart rate or blood pressure beyond those changes induced by diltiazem alone.">
+        <entity id="DDI-DrugBank.d382.s42.e0" charOffset="147-155"
+            type="drug" text="diltiazem"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d382.s43" text="Paroxetine: Coadministration of once daily doses of aprepitant, as a tablet formulation comparable to 85 mg or 170 mg of the capsule formulation, with paroxetine 20 mg once daily, resulted in a decrease in AUC by approximately 25% and Cmax, by approximately 20% of both aprepitant and paroxetine.">
+        <entity id="DDI-DrugBank.d382.s43.e0" charOffset="0-9"
+            type="drug" text="Paroxetine"/>
+        <entity id="DDI-DrugBank.d382.s43.e1" charOffset="52-61"
+            type="drug" text="aprepitant"/>
+        <entity id="DDI-DrugBank.d382.s43.e2" charOffset="151-160"
+            type="drug" text="paroxetine"/>
+        <entity id="DDI-DrugBank.d382.s43.e3" charOffset="270-279"
+            type="drug" text="aprepitant"/>
+        <entity id="DDI-DrugBank.d382.s43.e4" charOffset="285-294"
+            type="drug" text="paroxetine"/>
+        <pair id="DDI-DrugBank.d382.s43.p0"
+            e1="DDI-DrugBank.d382.s43.e0" e2="DDI-DrugBank.d382.s43.e1" ddi="false"/>
+        <pair id="DDI-DrugBank.d382.s43.p1"
+            e1="DDI-DrugBank.d382.s43.e0" e2="DDI-DrugBank.d382.s43.e2" ddi="false"/>
+        <pair id="DDI-DrugBank.d382.s43.p2"
+            e1="DDI-DrugBank.d382.s43.e0" e2="DDI-DrugBank.d382.s43.e3" ddi="false"/>
+        <pair id="DDI-DrugBank.d382.s43.p3"
+            e1="DDI-DrugBank.d382.s43.e0" e2="DDI-DrugBank.d382.s43.e4" ddi="false"/>
+        <pair id="DDI-DrugBank.d382.s43.p4"
+            e1="DDI-DrugBank.d382.s43.e1" e2="DDI-DrugBank.d382.s43.e2"
+            ddi="true" type="mechanism"/>
+        <pair id="DDI-DrugBank.d382.s43.p5"
+            e1="DDI-DrugBank.d382.s43.e1" e2="DDI-DrugBank.d382.s43.e3" ddi="false"/>
+        <pair id="DDI-DrugBank.d382.s43.p6"
+            e1="DDI-DrugBank.d382.s43.e1" e2="DDI-DrugBank.d382.s43.e4" ddi="false"/>
+        <pair id="DDI-DrugBank.d382.s43.p7"
+            e1="DDI-DrugBank.d382.s43.e2" e2="DDI-DrugBank.d382.s43.e3" ddi="false"/>
+        <pair id="DDI-DrugBank.d382.s43.p8"
+            e1="DDI-DrugBank.d382.s43.e2" e2="DDI-DrugBank.d382.s43.e4" ddi="false"/>
+        <pair id="DDI-DrugBank.d382.s43.p9"
+            e1="DDI-DrugBank.d382.s43.e3" e2="DDI-DrugBank.d382.s43.e4" ddi="false"/>
+    </sentence>
+</document>

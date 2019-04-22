@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="DDI-MedLine.d154">
+    <sentence id="DDI-MedLine.d154.s0" text="Enhancement of humoral immune responses to inactivated Newcastle disease and avian influenza vaccines by oral administration of ginseng stem-and-leaf saponins in chickens.&#xd;&#xa;">
+        <entity id="DDI-MedLine.d154.s0.e0" charOffset="77-100"
+            type="group" text="avian influenza vaccines"/>
+        <entity id="DDI-MedLine.d154.s0.e1" charOffset="128-157"
+            type="drug_n" text="ginseng stem-and-leaf saponins"/>
+        <pair id="DDI-MedLine.d154.s0.p0" e1="DDI-MedLine.d154.s0.e0"
+            e2="DDI-MedLine.d154.s0.e1" ddi="false"/>
+    </sentence>
+    <sentence id="DDI-MedLine.d154.s1" text="Newcastle disease (ND) and avian influenza (AI) are common in the poultry industry. "/>
+    <sentence id="DDI-MedLine.d154.s2" text="The objective of this study was to evaluate the effect of oral administration of ginseng stem-and-leaf saponins (GSLS) on the humoral immune responses of chickens to inactivated ND and AI vaccines. ">
+        <entity id="DDI-MedLine.d154.s2.e0" charOffset="81-110"
+            type="drug_n" text="ginseng stem-and-leaf saponins"/>
+        <entity id="DDI-MedLine.d154.s2.e1" charOffset="113-116"
+            type="drug_n" text="GSLS"/>
+        <entity id="DDI-MedLine.d154.s2.e2" charOffset="166-179;188-195"
+            type="drug" text="inactivated ND vaccines"/>
+        <entity id="DDI-MedLine.d154.s2.e3"
+            charOffset="166-176;185-186;188-195" type="drug" text="inactivated AI vaccines"/>
+        <pair id="DDI-MedLine.d154.s2.p0" e1="DDI-MedLine.d154.s2.e0"
+            e2="DDI-MedLine.d154.s2.e1" ddi="false"/>
+        <pair id="DDI-MedLine.d154.s2.p1" e1="DDI-MedLine.d154.s2.e0"
+            e2="DDI-MedLine.d154.s2.e2" ddi="false"/>
+        <pair id="DDI-MedLine.d154.s2.p2" e1="DDI-MedLine.d154.s2.e0"
+            e2="DDI-MedLine.d154.s2.e3" ddi="false"/>
+        <pair id="DDI-MedLine.d154.s2.p3" e1="DDI-MedLine.d154.s2.e1"
+            e2="DDI-MedLine.d154.s2.e2" ddi="false"/>
+        <pair id="DDI-MedLine.d154.s2.p4" e1="DDI-MedLine.d154.s2.e1"
+            e2="DDI-MedLine.d154.s2.e3" ddi="false"/>
+        <pair id="DDI-MedLine.d154.s2.p5" e1="DDI-MedLine.d154.s2.e2"
+            e2="DDI-MedLine.d154.s2.e3" ddi="false"/>
+    </sentence>
+    <sentence id="DDI-MedLine.d154.s3" text="In experiment 1, oral administration of GSLS at a dose of 5 mg/kg of BW for 7 d on the immune response in chickens intramuscularly injected with inactivated ND vaccine was evaluated. ">
+        <entity id="DDI-MedLine.d154.s3.e0" charOffset="40-43"
+            type="drug_n" text="GSLS"/>
+        <entity id="DDI-MedLine.d154.s3.e1" charOffset="145-166"
+            type="drug" text="inactivated ND vaccine"/>
+        <pair id="DDI-MedLine.d154.s3.p0" e1="DDI-MedLine.d154.s3.e0"
+            e2="DDI-MedLine.d154.s3.e1" ddi="false"/>
+    </sentence>
+    <sentence id="DDI-MedLine.d154.s4" text="Results showed that GSLS significantly increased the antibody level against ND in the serum of chickens. ">
+        <entity id="DDI-MedLine.d154.s4.e0" charOffset="20-23"
+            type="drug_n" text="GSLS"/>
+    </sentence>
+    <sentence id="DDI-MedLine.d154.s5" text="In experiment 2, the same regimen of GSLS was administered to chickens inoculated with inactivated AI vaccines, and an enhanced serum antibody response to AI vaccination was also observed. ">
+        <entity id="DDI-MedLine.d154.s5.e0" charOffset="37-40"
+            type="drug_n" text="GSLS"/>
+        <entity id="DDI-MedLine.d154.s5.e1" charOffset="87-109"
+            type="drug" text="inactivated AI vaccines"/>
+        <pair id="DDI-MedLine.d154.s5.p0" e1="DDI-MedLine.d154.s5.e0"
+            e2="DDI-MedLine.d154.s5.e1" ddi="true" type="effect"/>
+    </sentence>
+    <sentence id="DDI-MedLine.d154.s6" text="Considering the safety of GSLS, because no adverse effect was found throughout the experiments, GSLS may be a promising oral adjuvant to improve immunization in poultry.">
+        <entity id="DDI-MedLine.d154.s6.e0" charOffset="26-29"
+            type="drug_n" text="GSLS"/>
+        <entity id="DDI-MedLine.d154.s6.e1" charOffset="96-99"
+            type="drug_n" text="GSLS"/>
+        <pair id="DDI-MedLine.d154.s6.p0" e1="DDI-MedLine.d154.s6.e0"
+            e2="DDI-MedLine.d154.s6.e1" ddi="false"/>
+    </sentence>
+</document>

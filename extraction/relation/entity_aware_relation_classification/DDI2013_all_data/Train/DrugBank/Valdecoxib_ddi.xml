@@ -1,0 +1,668 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="DDI-DrugBank.d328">
+    <sentence id="DDI-DrugBank.d328.s0" text="The drug interaction studies with valdecoxib were performed both with valdecoxib and a rapidly hydrolyzed intravenous prodrug form.">
+        <entity id="DDI-DrugBank.d328.s0.e0" charOffset="34-43"
+            type="drug" text="valdecoxib"/>
+        <entity id="DDI-DrugBank.d328.s0.e1" charOffset="70-79"
+            type="drug" text="valdecoxib"/>
+        <pair id="DDI-DrugBank.d328.s0.p0" e1="DDI-DrugBank.d328.s0.e0"
+            e2="DDI-DrugBank.d328.s0.e1" ddi="false"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d328.s1" text="The results from trials using the intravenous prodrug are reported in this section as they relate to the role of valdecoxib in drug interactions.">
+        <entity id="DDI-DrugBank.d328.s1.e0" charOffset="113-122"
+            type="drug" text="valdecoxib"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d328.s2" text="General: In humans, valdecoxib metabolism is predominantly mediated via CYP 3A4 and 2C9 with glucuronidation being a further (20%) route of metabolism.">
+        <entity id="DDI-DrugBank.d328.s2.e0" charOffset="20-29"
+            type="drug" text="valdecoxib"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d328.s3" text="In vitro studies indicate that valdecoxib is a moderate inhibitor of CYP 2C19 (IC50 = 6  g/mL or 19  M) and 2C9 (IC50 = 13  g/mL or 41  M), and a weak inhibitor of CYP 2D6 (IC50 = 31  g/mL or 100  M) and 3A4 (IC50 = 44  g/mL or 141  M )..">
+        <entity id="DDI-DrugBank.d328.s3.e0" charOffset="31-40"
+            type="drug" text="valdecoxib"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d328.s4" text="Aspirin: Concomitant administration of aspirin with valdecoxib may result in an increased risk of GI ulceration and complications compared to valdecoxib alone.">
+        <entity id="DDI-DrugBank.d328.s4.e0" charOffset="0-6"
+            type="brand" text="Aspirin"/>
+        <entity id="DDI-DrugBank.d328.s4.e1" charOffset="39-45"
+            type="brand" text="aspirin"/>
+        <entity id="DDI-DrugBank.d328.s4.e2" charOffset="52-61"
+            type="drug" text="valdecoxib"/>
+        <entity id="DDI-DrugBank.d328.s4.e3" charOffset="142-151"
+            type="drug" text="valdecoxib"/>
+        <pair id="DDI-DrugBank.d328.s4.p0" e1="DDI-DrugBank.d328.s4.e0"
+            e2="DDI-DrugBank.d328.s4.e1" ddi="false"/>
+        <pair id="DDI-DrugBank.d328.s4.p1" e1="DDI-DrugBank.d328.s4.e0"
+            e2="DDI-DrugBank.d328.s4.e2" ddi="false"/>
+        <pair id="DDI-DrugBank.d328.s4.p2" e1="DDI-DrugBank.d328.s4.e0"
+            e2="DDI-DrugBank.d328.s4.e3" ddi="false"/>
+        <pair id="DDI-DrugBank.d328.s4.p3" e1="DDI-DrugBank.d328.s4.e1"
+            e2="DDI-DrugBank.d328.s4.e2" ddi="true" type="effect"/>
+        <pair id="DDI-DrugBank.d328.s4.p4" e1="DDI-DrugBank.d328.s4.e1"
+            e2="DDI-DrugBank.d328.s4.e3" ddi="false"/>
+        <pair id="DDI-DrugBank.d328.s4.p5" e1="DDI-DrugBank.d328.s4.e2"
+            e2="DDI-DrugBank.d328.s4.e3" ddi="false"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d328.s5" text="Because of its lack of anti-platelet effect valdecoxib is not a substitute for aspirin for cardiovascular prophylaxis.">
+        <entity id="DDI-DrugBank.d328.s5.e0" charOffset="44-53"
+            type="drug" text="valdecoxib"/>
+        <entity id="DDI-DrugBank.d328.s5.e1" charOffset="79-85"
+            type="brand" text="aspirin"/>
+        <pair id="DDI-DrugBank.d328.s5.p0" e1="DDI-DrugBank.d328.s5.e0"
+            e2="DDI-DrugBank.d328.s5.e1" ddi="false"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d328.s6" text="In a parallel group drug interaction study comparing the intravenous prodrug form of valdecoxib at 40 mg BID (n=10) vs placebo (n=9), valdecoxib had no effect on in vitro aspirin-mediated inhibition of arachidonate- or collagen-stimulated platelet aggregation.">
+        <entity id="DDI-DrugBank.d328.s6.e0" charOffset="85-94"
+            type="drug" text="valdecoxib"/>
+        <entity id="DDI-DrugBank.d328.s6.e1" charOffset="134-143"
+            type="drug" text="valdecoxib"/>
+        <entity id="DDI-DrugBank.d328.s6.e2" charOffset="171-177"
+            type="brand" text="aspirin"/>
+        <pair id="DDI-DrugBank.d328.s6.p0" e1="DDI-DrugBank.d328.s6.e0"
+            e2="DDI-DrugBank.d328.s6.e1" ddi="false"/>
+        <pair id="DDI-DrugBank.d328.s6.p1" e1="DDI-DrugBank.d328.s6.e0"
+            e2="DDI-DrugBank.d328.s6.e2" ddi="false"/>
+        <pair id="DDI-DrugBank.d328.s6.p2" e1="DDI-DrugBank.d328.s6.e1"
+            e2="DDI-DrugBank.d328.s6.e2" ddi="false"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d328.s7" text="Methotrexate: Valdecoxib 10 mg BID did not show a significant effect on the plasma exposure or renal clearance of methotrexate.">
+        <entity id="DDI-DrugBank.d328.s7.e0" charOffset="0-11"
+            type="drug" text="Methotrexate"/>
+        <entity id="DDI-DrugBank.d328.s7.e1" charOffset="14-29"
+            type="drug" text="Valdecoxib 10 mg"/>
+        <entity id="DDI-DrugBank.d328.s7.e2" charOffset="114-125"
+            type="drug" text="methotrexate"/>
+        <pair id="DDI-DrugBank.d328.s7.p0" e1="DDI-DrugBank.d328.s7.e0"
+            e2="DDI-DrugBank.d328.s7.e1" ddi="false"/>
+        <pair id="DDI-DrugBank.d328.s7.p1" e1="DDI-DrugBank.d328.s7.e0"
+            e2="DDI-DrugBank.d328.s7.e2" ddi="false"/>
+        <pair id="DDI-DrugBank.d328.s7.p2" e1="DDI-DrugBank.d328.s7.e1"
+            e2="DDI-DrugBank.d328.s7.e2" ddi="false"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d328.s8" text="ACE-inhibitors:Reports suggest that NSAIDs may diminish the antihypertensive effect of ACE-inhibitors.">
+        <entity id="DDI-DrugBank.d328.s8.e0" charOffset="0-13"
+            type="group" text="ACE-inhibitors"/>
+        <entity id="DDI-DrugBank.d328.s8.e1" charOffset="36-41"
+            type="group" text="NSAIDs"/>
+        <entity id="DDI-DrugBank.d328.s8.e2" charOffset="87-100"
+            type="group" text="ACE-inhibitors"/>
+        <pair id="DDI-DrugBank.d328.s8.p0" e1="DDI-DrugBank.d328.s8.e0"
+            e2="DDI-DrugBank.d328.s8.e1" ddi="false"/>
+        <pair id="DDI-DrugBank.d328.s8.p1" e1="DDI-DrugBank.d328.s8.e0"
+            e2="DDI-DrugBank.d328.s8.e2" ddi="false"/>
+        <pair id="DDI-DrugBank.d328.s8.p2" e1="DDI-DrugBank.d328.s8.e1"
+            e2="DDI-DrugBank.d328.s8.e2" ddi="true" type="effect"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d328.s9" text="This interaction should be given consideration in patients taking BEXTRA concomitantly with ACE-inhibitors.">
+        <entity id="DDI-DrugBank.d328.s9.e0" charOffset="66-71"
+            type="brand" text="BEXTRA"/>
+        <entity id="DDI-DrugBank.d328.s9.e1" charOffset="92-105"
+            type="group" text="ACE-inhibitors"/>
+        <pair id="DDI-DrugBank.d328.s9.p0" e1="DDI-DrugBank.d328.s9.e0"
+            e2="DDI-DrugBank.d328.s9.e1" ddi="true" type="advise"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d328.s10" text="Furosemide: Clinical studies, as well as post-marketing observations, have shown that NSAIDs can reduce the natriuretic effect of furosemide and thiazides in some patients.">
+        <entity id="DDI-DrugBank.d328.s10.e0" charOffset="0-9"
+            type="drug" text="Furosemide"/>
+        <entity id="DDI-DrugBank.d328.s10.e1" charOffset="86-91"
+            type="group" text="NSAIDs"/>
+        <entity id="DDI-DrugBank.d328.s10.e2" charOffset="130-139"
+            type="drug" text="furosemide"/>
+        <entity id="DDI-DrugBank.d328.s10.e3" charOffset="145-153"
+            type="group" text="thiazides"/>
+        <pair id="DDI-DrugBank.d328.s10.p0"
+            e1="DDI-DrugBank.d328.s10.e0" e2="DDI-DrugBank.d328.s10.e1" ddi="false"/>
+        <pair id="DDI-DrugBank.d328.s10.p1"
+            e1="DDI-DrugBank.d328.s10.e0" e2="DDI-DrugBank.d328.s10.e2" ddi="false"/>
+        <pair id="DDI-DrugBank.d328.s10.p2"
+            e1="DDI-DrugBank.d328.s10.e0" e2="DDI-DrugBank.d328.s10.e3" ddi="false"/>
+        <pair id="DDI-DrugBank.d328.s10.p3"
+            e1="DDI-DrugBank.d328.s10.e1" e2="DDI-DrugBank.d328.s10.e2"
+            ddi="true" type="effect"/>
+        <pair id="DDI-DrugBank.d328.s10.p4"
+            e1="DDI-DrugBank.d328.s10.e1" e2="DDI-DrugBank.d328.s10.e3"
+            ddi="true" type="effect"/>
+        <pair id="DDI-DrugBank.d328.s10.p5"
+            e1="DDI-DrugBank.d328.s10.e2" e2="DDI-DrugBank.d328.s10.e3" ddi="false"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d328.s11" text="This response has been attributed to inhibition of renal prostaglandin synthesis."/>
+    <sentence id="DDI-DrugBank.d328.s12" text="Anticonvulsants (Phenytoin): Steady state plasma exposure (AUC) of valdecoxib (40 mg BID for 12 days) was decreased by 27% when co-administered with multiple doses (300 mg QD for 12 days) of phenytoin (a CYP 3A4 inducer).">
+        <entity id="DDI-DrugBank.d328.s12.e0" charOffset="0-14"
+            type="group" text="Anticonvulsants"/>
+        <entity id="DDI-DrugBank.d328.s12.e1" charOffset="17-25"
+            type="drug" text="Phenytoin"/>
+        <entity id="DDI-DrugBank.d328.s12.e2" charOffset="67-76"
+            type="drug" text="valdecoxib"/>
+        <entity id="DDI-DrugBank.d328.s12.e3" charOffset="191-199"
+            type="drug" text="phenytoin"/>
+        <pair id="DDI-DrugBank.d328.s12.p0"
+            e1="DDI-DrugBank.d328.s12.e0" e2="DDI-DrugBank.d328.s12.e1" ddi="false"/>
+        <pair id="DDI-DrugBank.d328.s12.p1"
+            e1="DDI-DrugBank.d328.s12.e0" e2="DDI-DrugBank.d328.s12.e2" ddi="false"/>
+        <pair id="DDI-DrugBank.d328.s12.p2"
+            e1="DDI-DrugBank.d328.s12.e0" e2="DDI-DrugBank.d328.s12.e3" ddi="false"/>
+        <pair id="DDI-DrugBank.d328.s12.p3"
+            e1="DDI-DrugBank.d328.s12.e1" e2="DDI-DrugBank.d328.s12.e2" ddi="false"/>
+        <pair id="DDI-DrugBank.d328.s12.p4"
+            e1="DDI-DrugBank.d328.s12.e1" e2="DDI-DrugBank.d328.s12.e3" ddi="false"/>
+        <pair id="DDI-DrugBank.d328.s12.p5"
+            e1="DDI-DrugBank.d328.s12.e2" e2="DDI-DrugBank.d328.s12.e3"
+            ddi="true" type="mechanism"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d328.s13" text="Patients already stabilized on valdecoxib should be closely monitored for loss of symptom control with phenytoin coadministration.">
+        <entity id="DDI-DrugBank.d328.s13.e0" charOffset="31-40"
+            type="drug" text="valdecoxib"/>
+        <entity id="DDI-DrugBank.d328.s13.e1" charOffset="103-111"
+            type="drug" text="phenytoin"/>
+        <pair id="DDI-DrugBank.d328.s13.p0"
+            e1="DDI-DrugBank.d328.s13.e0" e2="DDI-DrugBank.d328.s13.e1"
+            ddi="true" type="advise"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d328.s14" text="Valdecoxib did not have a statistically significant effect on the pharmacokinetics of phenytoin (a CYP 2C9 and CYP 2C19 substrate).">
+        <entity id="DDI-DrugBank.d328.s14.e0" charOffset="0-9"
+            type="drug" text="Valdecoxib"/>
+        <entity id="DDI-DrugBank.d328.s14.e1" charOffset="86-94"
+            type="drug" text="phenytoin"/>
+        <pair id="DDI-DrugBank.d328.s14.p0"
+            e1="DDI-DrugBank.d328.s14.e0" e2="DDI-DrugBank.d328.s14.e1" ddi="false"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d328.s15" text="Drug interaction studies with other anticonvulsants have not been conducted.">
+        <entity id="DDI-DrugBank.d328.s15.e0" charOffset="36-50"
+            type="group" text="anticonvulsants"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d328.s16" text="Routine monitoring should be performed when therapy with BEXTRA is either initiated or discontinued in patients on anticonvulsant therapy.">
+        <entity id="DDI-DrugBank.d328.s16.e0" charOffset="57-62"
+            type="brand" text="BEXTRA"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d328.s17" text="Dextromethorphan: Dextromethorphan is primarily metabolized by CYP 2D6 and to a lesser extent by 3A4.">
+        <entity id="DDI-DrugBank.d328.s17.e0" charOffset="0-15"
+            type="drug" text="Dextromethorphan"/>
+        <entity id="DDI-DrugBank.d328.s17.e1" charOffset="18-33"
+            type="drug" text="Dextromethorphan"/>
+        <pair id="DDI-DrugBank.d328.s17.p0"
+            e1="DDI-DrugBank.d328.s17.e0" e2="DDI-DrugBank.d328.s17.e1" ddi="false"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d328.s18" text="Coadministration with valdecoxib (40 mg BID for 7 days) resulted in a significant increase in dextromethorphan plasma levels suggesting that, at these doses, valdecoxib is a weak inhibitor of 2D6.">
+        <entity id="DDI-DrugBank.d328.s18.e0" charOffset="22-31"
+            type="drug" text="valdecoxib"/>
+        <entity id="DDI-DrugBank.d328.s18.e1" charOffset="94-109"
+            type="drug" text="dextromethorphan"/>
+        <entity id="DDI-DrugBank.d328.s18.e2" charOffset="158-167"
+            type="drug" text="valdecoxib"/>
+        <pair id="DDI-DrugBank.d328.s18.p0"
+            e1="DDI-DrugBank.d328.s18.e0" e2="DDI-DrugBank.d328.s18.e1"
+            ddi="true" type="mechanism"/>
+        <pair id="DDI-DrugBank.d328.s18.p1"
+            e1="DDI-DrugBank.d328.s18.e0" e2="DDI-DrugBank.d328.s18.e2" ddi="false"/>
+        <pair id="DDI-DrugBank.d328.s18.p2"
+            e1="DDI-DrugBank.d328.s18.e1" e2="DDI-DrugBank.d328.s18.e2" ddi="false"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d328.s19" text="Even so dextromethorphan plasma concentrations in the presence of high doses of valdecoxib were almost 5-fold lower than those seen in CYP 2D6 poor metabolizers suggesting that dose adjustment is not necessary.">
+        <entity id="DDI-DrugBank.d328.s19.e0" charOffset="8-23"
+            type="drug" text="dextromethorphan"/>
+        <entity id="DDI-DrugBank.d328.s19.e1" charOffset="80-89"
+            type="drug" text="valdecoxib"/>
+        <pair id="DDI-DrugBank.d328.s19.p0"
+            e1="DDI-DrugBank.d328.s19.e0" e2="DDI-DrugBank.d328.s19.e1"
+            ddi="true" type="mechanism"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d328.s20" text="Lithium: Valdecoxib 40 mg BID for 7 days produced significant decreases in lithium serum clearance (25%) and renal clearance (30%) with a 34% higher serum exposure compared to lithium alone.">
+        <entity id="DDI-DrugBank.d328.s20.e0" charOffset="0-6"
+            type="drug" text="Lithium"/>
+        <entity id="DDI-DrugBank.d328.s20.e1" charOffset="9-18"
+            type="drug" text="Valdecoxib"/>
+        <entity id="DDI-DrugBank.d328.s20.e2" charOffset="75-81"
+            type="drug" text="lithium"/>
+        <entity id="DDI-DrugBank.d328.s20.e3" charOffset="176-182"
+            type="drug" text="lithium"/>
+        <pair id="DDI-DrugBank.d328.s20.p0"
+            e1="DDI-DrugBank.d328.s20.e0" e2="DDI-DrugBank.d328.s20.e1" ddi="false"/>
+        <pair id="DDI-DrugBank.d328.s20.p1"
+            e1="DDI-DrugBank.d328.s20.e0" e2="DDI-DrugBank.d328.s20.e2" ddi="false"/>
+        <pair id="DDI-DrugBank.d328.s20.p2"
+            e1="DDI-DrugBank.d328.s20.e0" e2="DDI-DrugBank.d328.s20.e3" ddi="false"/>
+        <pair id="DDI-DrugBank.d328.s20.p3"
+            e1="DDI-DrugBank.d328.s20.e1" e2="DDI-DrugBank.d328.s20.e2"
+            ddi="true" type="mechanism"/>
+        <pair id="DDI-DrugBank.d328.s20.p4"
+            e1="DDI-DrugBank.d328.s20.e1" e2="DDI-DrugBank.d328.s20.e3" ddi="false"/>
+        <pair id="DDI-DrugBank.d328.s20.p5"
+            e1="DDI-DrugBank.d328.s20.e2" e2="DDI-DrugBank.d328.s20.e3" ddi="false"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d328.s21" text="Lithium serum concentrations should be monitored closely when initiating or changing therapy with BEXTRA in patients receiving lithium.">
+        <entity id="DDI-DrugBank.d328.s21.e0" charOffset="0-6"
+            type="drug" text="Lithium"/>
+        <entity id="DDI-DrugBank.d328.s21.e1" charOffset="98-103"
+            type="brand" text="BEXTRA"/>
+        <entity id="DDI-DrugBank.d328.s21.e2" charOffset="127-133"
+            type="drug" text="lithium"/>
+        <pair id="DDI-DrugBank.d328.s21.p0"
+            e1="DDI-DrugBank.d328.s21.e0" e2="DDI-DrugBank.d328.s21.e1" ddi="false"/>
+        <pair id="DDI-DrugBank.d328.s21.p1"
+            e1="DDI-DrugBank.d328.s21.e0" e2="DDI-DrugBank.d328.s21.e2" ddi="false"/>
+        <pair id="DDI-DrugBank.d328.s21.p2"
+            e1="DDI-DrugBank.d328.s21.e1" e2="DDI-DrugBank.d328.s21.e2"
+            ddi="true" type="advise"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d328.s22" text="Lithium carbonate (450 mg BID for 7 days) had no effect on valdecoxib pharmacokinetics.">
+        <entity id="DDI-DrugBank.d328.s22.e0" charOffset="0-16"
+            type="drug" text="Lithium carbonate"/>
+        <entity id="DDI-DrugBank.d328.s22.e1" charOffset="59-68"
+            type="drug" text="valdecoxib"/>
+        <pair id="DDI-DrugBank.d328.s22.p0"
+            e1="DDI-DrugBank.d328.s22.e0" e2="DDI-DrugBank.d328.s22.e1" ddi="false"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d328.s23" text="Warfarin: The effect of valdecoxib on the anticoagulant effect of warfarin (1 - 8 mg/day) was studied in healthy subjects by coadministration of BEXTRA 40 mg BID for 7 days.">
+        <entity id="DDI-DrugBank.d328.s23.e0" charOffset="0-7"
+            type="drug" text="Warfarin"/>
+        <entity id="DDI-DrugBank.d328.s23.e1" charOffset="24-33"
+            type="drug" text="valdecoxib"/>
+        <entity id="DDI-DrugBank.d328.s23.e2" charOffset="66-73"
+            type="drug" text="warfarin"/>
+        <entity id="DDI-DrugBank.d328.s23.e3" charOffset="145-150"
+            type="brand" text="BEXTRA"/>
+        <pair id="DDI-DrugBank.d328.s23.p0"
+            e1="DDI-DrugBank.d328.s23.e0" e2="DDI-DrugBank.d328.s23.e1" ddi="false"/>
+        <pair id="DDI-DrugBank.d328.s23.p1"
+            e1="DDI-DrugBank.d328.s23.e0" e2="DDI-DrugBank.d328.s23.e2" ddi="false"/>
+        <pair id="DDI-DrugBank.d328.s23.p2"
+            e1="DDI-DrugBank.d328.s23.e0" e2="DDI-DrugBank.d328.s23.e3" ddi="false"/>
+        <pair id="DDI-DrugBank.d328.s23.p3"
+            e1="DDI-DrugBank.d328.s23.e1" e2="DDI-DrugBank.d328.s23.e2" ddi="false"/>
+        <pair id="DDI-DrugBank.d328.s23.p4"
+            e1="DDI-DrugBank.d328.s23.e1" e2="DDI-DrugBank.d328.s23.e3" ddi="false"/>
+        <pair id="DDI-DrugBank.d328.s23.p5"
+            e1="DDI-DrugBank.d328.s23.e2" e2="DDI-DrugBank.d328.s23.e3" ddi="false"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d328.s24" text="Valdecoxib caused a statistically significant increase in plasma exposures of R-warfarin and S-warfarin (12% and 15%, respectively), and in the pharmacodynamic effects (prothrombin time, measured as INR) of warfarin.">
+        <entity id="DDI-DrugBank.d328.s24.e0" charOffset="0-9"
+            type="drug" text="Valdecoxib"/>
+        <entity id="DDI-DrugBank.d328.s24.e1" charOffset="78-87"
+            type="drug" text="R-warfarin"/>
+        <entity id="DDI-DrugBank.d328.s24.e2" charOffset="93-102"
+            type="drug" text="S-warfarin"/>
+        <entity id="DDI-DrugBank.d328.s24.e3" charOffset="207-214"
+            type="drug" text="warfarin"/>
+        <pair id="DDI-DrugBank.d328.s24.p0"
+            e1="DDI-DrugBank.d328.s24.e0" e2="DDI-DrugBank.d328.s24.e1"
+            ddi="true" type="mechanism"/>
+        <pair id="DDI-DrugBank.d328.s24.p1"
+            e1="DDI-DrugBank.d328.s24.e0" e2="DDI-DrugBank.d328.s24.e2"
+            ddi="true" type="mechanism"/>
+        <pair id="DDI-DrugBank.d328.s24.p2"
+            e1="DDI-DrugBank.d328.s24.e0" e2="DDI-DrugBank.d328.s24.e3"
+            ddi="true" type="effect"/>
+        <pair id="DDI-DrugBank.d328.s24.p3"
+            e1="DDI-DrugBank.d328.s24.e1" e2="DDI-DrugBank.d328.s24.e2" ddi="false"/>
+        <pair id="DDI-DrugBank.d328.s24.p4"
+            e1="DDI-DrugBank.d328.s24.e1" e2="DDI-DrugBank.d328.s24.e3" ddi="false"/>
+        <pair id="DDI-DrugBank.d328.s24.p5"
+            e1="DDI-DrugBank.d328.s24.e2" e2="DDI-DrugBank.d328.s24.e3" ddi="false"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d328.s25" text="While mean INR values were only slightly increased with coadministration of valdecoxib, the day-to-day variability in individual INR values was increased.">
+        <entity id="DDI-DrugBank.d328.s25.e0" charOffset="76-85"
+            type="drug" text="valdecoxib"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d328.s26" text="Anticoagulant therapy should be monitored, particularly during the first few weeks, after initiating therapy with BEXTRA in patients receiving warfarin or similar agents.">
+        <entity id="DDI-DrugBank.d328.s26.e0" charOffset="0-12"
+            type="brand" text="Anticoagulant"/>
+        <entity id="DDI-DrugBank.d328.s26.e1" charOffset="114-119"
+            type="brand" text="BEXTRA"/>
+        <entity id="DDI-DrugBank.d328.s26.e2" charOffset="143-150"
+            type="drug" text="warfarin"/>
+        <pair id="DDI-DrugBank.d328.s26.p0"
+            e1="DDI-DrugBank.d328.s26.e0" e2="DDI-DrugBank.d328.s26.e1" ddi="false"/>
+        <pair id="DDI-DrugBank.d328.s26.p1"
+            e1="DDI-DrugBank.d328.s26.e0" e2="DDI-DrugBank.d328.s26.e2" ddi="false"/>
+        <pair id="DDI-DrugBank.d328.s26.p2"
+            e1="DDI-DrugBank.d328.s26.e1" e2="DDI-DrugBank.d328.s26.e2"
+            ddi="true" type="advise"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d328.s27" text="Fluconazole and Ketoconazole: Ketoconazole and fluconazole are predominantly CYP 3A4 and 2C9 inhibitors, respectively.">
+        <entity id="DDI-DrugBank.d328.s27.e0" charOffset="0-10"
+            type="drug" text="Fluconazole"/>
+        <entity id="DDI-DrugBank.d328.s27.e1" charOffset="16-27"
+            type="drug" text="Ketoconazole"/>
+        <entity id="DDI-DrugBank.d328.s27.e2" charOffset="30-41"
+            type="drug" text="Ketoconazole"/>
+        <entity id="DDI-DrugBank.d328.s27.e3" charOffset="47-57"
+            type="drug" text="fluconazole"/>
+        <pair id="DDI-DrugBank.d328.s27.p0"
+            e1="DDI-DrugBank.d328.s27.e0" e2="DDI-DrugBank.d328.s27.e1" ddi="false"/>
+        <pair id="DDI-DrugBank.d328.s27.p1"
+            e1="DDI-DrugBank.d328.s27.e0" e2="DDI-DrugBank.d328.s27.e2" ddi="false"/>
+        <pair id="DDI-DrugBank.d328.s27.p2"
+            e1="DDI-DrugBank.d328.s27.e0" e2="DDI-DrugBank.d328.s27.e3" ddi="false"/>
+        <pair id="DDI-DrugBank.d328.s27.p3"
+            e1="DDI-DrugBank.d328.s27.e1" e2="DDI-DrugBank.d328.s27.e2" ddi="false"/>
+        <pair id="DDI-DrugBank.d328.s27.p4"
+            e1="DDI-DrugBank.d328.s27.e1" e2="DDI-DrugBank.d328.s27.e3" ddi="false"/>
+        <pair id="DDI-DrugBank.d328.s27.p5"
+            e1="DDI-DrugBank.d328.s27.e2" e2="DDI-DrugBank.d328.s27.e3" ddi="false"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d328.s28" text="Concomitant single dose administration of valdecoxib 20 mg with multiple doses of ketoconazole and fluconazole produced a significant increase in exposure of valdecoxib.">
+        <entity id="DDI-DrugBank.d328.s28.e0" charOffset="42-51"
+            type="drug" text="valdecoxib"/>
+        <entity id="DDI-DrugBank.d328.s28.e1" charOffset="82-93"
+            type="drug" text="ketoconazole"/>
+        <entity id="DDI-DrugBank.d328.s28.e2" charOffset="99-109"
+            type="drug" text="fluconazole"/>
+        <entity id="DDI-DrugBank.d328.s28.e3" charOffset="158-167"
+            type="drug" text="valdecoxib"/>
+        <pair id="DDI-DrugBank.d328.s28.p0"
+            e1="DDI-DrugBank.d328.s28.e0" e2="DDI-DrugBank.d328.s28.e1"
+            ddi="true" type="mechanism"/>
+        <pair id="DDI-DrugBank.d328.s28.p1"
+            e1="DDI-DrugBank.d328.s28.e0" e2="DDI-DrugBank.d328.s28.e2"
+            ddi="true" type="mechanism"/>
+        <pair id="DDI-DrugBank.d328.s28.p2"
+            e1="DDI-DrugBank.d328.s28.e0" e2="DDI-DrugBank.d328.s28.e3" ddi="false"/>
+        <pair id="DDI-DrugBank.d328.s28.p3"
+            e1="DDI-DrugBank.d328.s28.e1" e2="DDI-DrugBank.d328.s28.e2" ddi="false"/>
+        <pair id="DDI-DrugBank.d328.s28.p4"
+            e1="DDI-DrugBank.d328.s28.e1" e2="DDI-DrugBank.d328.s28.e3" ddi="false"/>
+        <pair id="DDI-DrugBank.d328.s28.p5"
+            e1="DDI-DrugBank.d328.s28.e2" e2="DDI-DrugBank.d328.s28.e3" ddi="false"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d328.s29" text="Plasma exposure (AUC) to valdecoxib was increased 62% when coadministered with fluconazole and 38% when coadministered with ketoconazole.">
+        <entity id="DDI-DrugBank.d328.s29.e0" charOffset="25-34"
+            type="drug" text="valdecoxib"/>
+        <entity id="DDI-DrugBank.d328.s29.e1" charOffset="79-89"
+            type="drug" text="fluconazole"/>
+        <entity id="DDI-DrugBank.d328.s29.e2" charOffset="124-135"
+            type="drug" text="ketoconazole"/>
+        <pair id="DDI-DrugBank.d328.s29.p0"
+            e1="DDI-DrugBank.d328.s29.e0" e2="DDI-DrugBank.d328.s29.e1"
+            ddi="true" type="mechanism"/>
+        <pair id="DDI-DrugBank.d328.s29.p1"
+            e1="DDI-DrugBank.d328.s29.e0" e2="DDI-DrugBank.d328.s29.e2"
+            ddi="true" type="mechanism"/>
+        <pair id="DDI-DrugBank.d328.s29.p2"
+            e1="DDI-DrugBank.d328.s29.e1" e2="DDI-DrugBank.d328.s29.e2" ddi="false"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d328.s30" text="Glyburide: Glyburide is a CYP 2C9 substrate.">
+        <entity id="DDI-DrugBank.d328.s30.e0" charOffset="0-8"
+            type="drug" text="Glyburide"/>
+        <entity id="DDI-DrugBank.d328.s30.e1" charOffset="11-19"
+            type="drug" text="Glyburide"/>
+        <pair id="DDI-DrugBank.d328.s30.p0"
+            e1="DDI-DrugBank.d328.s30.e0" e2="DDI-DrugBank.d328.s30.e1" ddi="false"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d328.s31" text="Coadministration of valdecoxib (10 mg BID for 7 days) with glyburide (5 mg QD or 10 mg BID) did not affect the pharmacokinetics (exposure) of glyburide.">
+        <entity id="DDI-DrugBank.d328.s31.e0" charOffset="20-29"
+            type="drug" text="valdecoxib"/>
+        <entity id="DDI-DrugBank.d328.s31.e1" charOffset="59-67"
+            type="drug" text="glyburide"/>
+        <entity id="DDI-DrugBank.d328.s31.e2" charOffset="142-150"
+            type="drug" text="glyburide"/>
+        <pair id="DDI-DrugBank.d328.s31.p0"
+            e1="DDI-DrugBank.d328.s31.e0" e2="DDI-DrugBank.d328.s31.e1" ddi="false"/>
+        <pair id="DDI-DrugBank.d328.s31.p1"
+            e1="DDI-DrugBank.d328.s31.e0" e2="DDI-DrugBank.d328.s31.e2" ddi="false"/>
+        <pair id="DDI-DrugBank.d328.s31.p2"
+            e1="DDI-DrugBank.d328.s31.e1" e2="DDI-DrugBank.d328.s31.e2" ddi="false"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d328.s32" text="Coadministration of valdecoxib (40 mg BID (day 1) and 40 mg QD (days 2-7)) with glyburide (5 mg QD) did not affect either the pharmacokinetics (exposure) or the pharmacodynamics (blood glucose and insulin levels) of glyburide.">
+        <entity id="DDI-DrugBank.d328.s32.e0" charOffset="20-29"
+            type="drug" text="valdecoxib"/>
+        <entity id="DDI-DrugBank.d328.s32.e1" charOffset="80-88"
+            type="drug" text="glyburide"/>
+        <entity id="DDI-DrugBank.d328.s32.e2" charOffset="216-224"
+            type="drug" text="glyburide"/>
+        <pair id="DDI-DrugBank.d328.s32.p0"
+            e1="DDI-DrugBank.d328.s32.e0" e2="DDI-DrugBank.d328.s32.e1" ddi="false"/>
+        <pair id="DDI-DrugBank.d328.s32.p1"
+            e1="DDI-DrugBank.d328.s32.e0" e2="DDI-DrugBank.d328.s32.e2" ddi="false"/>
+        <pair id="DDI-DrugBank.d328.s32.p2"
+            e1="DDI-DrugBank.d328.s32.e1" e2="DDI-DrugBank.d328.s32.e2" ddi="false"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d328.s33" text="Coadministration of valdecoxib (40 mg BID (day 1) and 40 mg QD (days 2-7)) with glyburide (10 mg glyburide BID) resulted in 21% increase in glyburide AUC0-12 and a 16% increase in glyburide Cmax leading to a 16% decrease in glucose AUC0-24.">
+        <entity id="DDI-DrugBank.d328.s33.e0" charOffset="20-29"
+            type="drug" text="valdecoxib"/>
+        <entity id="DDI-DrugBank.d328.s33.e1" charOffset="80-88"
+            type="drug" text="glyburide"/>
+        <entity id="DDI-DrugBank.d328.s33.e2" charOffset="97-105"
+            type="drug" text="glyburide"/>
+        <entity id="DDI-DrugBank.d328.s33.e3" charOffset="140-148"
+            type="drug" text="glyburide"/>
+        <entity id="DDI-DrugBank.d328.s33.e4" charOffset="180-188"
+            type="drug" text="glyburide"/>
+        <pair id="DDI-DrugBank.d328.s33.p0"
+            e1="DDI-DrugBank.d328.s33.e0" e2="DDI-DrugBank.d328.s33.e1"
+            ddi="true" type="mechanism"/>
+        <pair id="DDI-DrugBank.d328.s33.p1"
+            e1="DDI-DrugBank.d328.s33.e0" e2="DDI-DrugBank.d328.s33.e2" ddi="false"/>
+        <pair id="DDI-DrugBank.d328.s33.p2"
+            e1="DDI-DrugBank.d328.s33.e0" e2="DDI-DrugBank.d328.s33.e3" ddi="false"/>
+        <pair id="DDI-DrugBank.d328.s33.p3"
+            e1="DDI-DrugBank.d328.s33.e0" e2="DDI-DrugBank.d328.s33.e4" ddi="false"/>
+        <pair id="DDI-DrugBank.d328.s33.p4"
+            e1="DDI-DrugBank.d328.s33.e1" e2="DDI-DrugBank.d328.s33.e2" ddi="false"/>
+        <pair id="DDI-DrugBank.d328.s33.p5"
+            e1="DDI-DrugBank.d328.s33.e1" e2="DDI-DrugBank.d328.s33.e3" ddi="false"/>
+        <pair id="DDI-DrugBank.d328.s33.p6"
+            e1="DDI-DrugBank.d328.s33.e1" e2="DDI-DrugBank.d328.s33.e4" ddi="false"/>
+        <pair id="DDI-DrugBank.d328.s33.p7"
+            e1="DDI-DrugBank.d328.s33.e2" e2="DDI-DrugBank.d328.s33.e3" ddi="false"/>
+        <pair id="DDI-DrugBank.d328.s33.p8"
+            e1="DDI-DrugBank.d328.s33.e2" e2="DDI-DrugBank.d328.s33.e4" ddi="false"/>
+        <pair id="DDI-DrugBank.d328.s33.p9"
+            e1="DDI-DrugBank.d328.s33.e3" e2="DDI-DrugBank.d328.s33.e4" ddi="false"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d328.s34" text="Insulin parameters were not affected."/>
+    <sentence id="DDI-DrugBank.d328.s35" text="Because changes in glucose concentrations with valdecoxib coadministration were within the normal variability and individual glucose concentrations were above or near 70 mg/dL, dose adjustment for glyburide (5 mg QD and 10 mg BID) with valdecoxib coadministration (up to 40 mg QD) is not indicated.">
+        <entity id="DDI-DrugBank.d328.s35.e0" charOffset="47-56"
+            type="drug" text="valdecoxib"/>
+        <entity id="DDI-DrugBank.d328.s35.e1" charOffset="197-205"
+            type="drug" text="glyburide"/>
+        <entity id="DDI-DrugBank.d328.s35.e2" charOffset="236-245"
+            type="drug" text="valdecoxib"/>
+        <pair id="DDI-DrugBank.d328.s35.p0"
+            e1="DDI-DrugBank.d328.s35.e0" e2="DDI-DrugBank.d328.s35.e1" ddi="false"/>
+        <pair id="DDI-DrugBank.d328.s35.p1"
+            e1="DDI-DrugBank.d328.s35.e0" e2="DDI-DrugBank.d328.s35.e2" ddi="false"/>
+        <pair id="DDI-DrugBank.d328.s35.p2"
+            e1="DDI-DrugBank.d328.s35.e1" e2="DDI-DrugBank.d328.s35.e2"
+            ddi="true" type="advise"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d328.s36" text="Coadministration of glyburide with doses higher than 40 mg valdecoxib (e.g., 40 mg BID) have not been studied.">
+        <entity id="DDI-DrugBank.d328.s36.e0" charOffset="20-28"
+            type="drug" text="glyburide"/>
+        <entity id="DDI-DrugBank.d328.s36.e1" charOffset="59-68"
+            type="drug" text="valdecoxib"/>
+        <pair id="DDI-DrugBank.d328.s36.p0"
+            e1="DDI-DrugBank.d328.s36.e0" e2="DDI-DrugBank.d328.s36.e1" ddi="false"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d328.s37" text="Omeprazole: Omeprazole is a CYP 3A4 substrate and CYP 2C19 substrate and inhibitor.">
+        <entity id="DDI-DrugBank.d328.s37.e0" charOffset="0-9"
+            type="drug" text="Omeprazole"/>
+        <entity id="DDI-DrugBank.d328.s37.e1" charOffset="12-21"
+            type="drug" text="Omeprazole"/>
+        <pair id="DDI-DrugBank.d328.s37.p0"
+            e1="DDI-DrugBank.d328.s37.e0" e2="DDI-DrugBank.d328.s37.e1" ddi="false"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d328.s38" text="Valdecoxib steady state plasma concentrations (40 mg BID) were not affected significantly with multiple doses of omeprazole (40 mg QD).">
+        <entity id="DDI-DrugBank.d328.s38.e0" charOffset="0-9"
+            type="drug" text="Valdecoxib"/>
+        <entity id="DDI-DrugBank.d328.s38.e1" charOffset="113-122"
+            type="drug" text="omeprazole"/>
+        <pair id="DDI-DrugBank.d328.s38.p0"
+            e1="DDI-DrugBank.d328.s38.e0" e2="DDI-DrugBank.d328.s38.e1" ddi="false"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d328.s39" text="Coadministration with valdecoxib increased exposure of omeprazole (AUC) by 46%.">
+        <entity id="DDI-DrugBank.d328.s39.e0" charOffset="22-31"
+            type="drug" text="valdecoxib"/>
+        <entity id="DDI-DrugBank.d328.s39.e1" charOffset="55-64"
+            type="drug" text="omeprazole"/>
+        <pair id="DDI-DrugBank.d328.s39.p0"
+            e1="DDI-DrugBank.d328.s39.e0" e2="DDI-DrugBank.d328.s39.e1"
+            ddi="true" type="mechanism"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d328.s40" text="Drugs whose absorption is sensitive to pH may be negatively impacted by concomitant administration of omeprazole and valdecoxib.">
+        <entity id="DDI-DrugBank.d328.s40.e0" charOffset="102-111"
+            type="drug" text="omeprazole"/>
+        <entity id="DDI-DrugBank.d328.s40.e1" charOffset="117-126"
+            type="drug" text="valdecoxib"/>
+        <pair id="DDI-DrugBank.d328.s40.p0"
+            e1="DDI-DrugBank.d328.s40.e0" e2="DDI-DrugBank.d328.s40.e1" ddi="false"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d328.s41" text="However, because higher doses (up to 360 mg QD) of omeprazole are tolerated in Zollinger-Ellison (ZE) patients, no dose adjustment for omeprazole is recommended at current doses.">
+        <entity id="DDI-DrugBank.d328.s41.e0" charOffset="51-60"
+            type="drug" text="omeprazole"/>
+        <entity id="DDI-DrugBank.d328.s41.e1" charOffset="135-144"
+            type="drug" text="omeprazole"/>
+        <pair id="DDI-DrugBank.d328.s41.p0"
+            e1="DDI-DrugBank.d328.s41.e0" e2="DDI-DrugBank.d328.s41.e1" ddi="false"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d328.s42" text="Coadministration of valdecoxib with doses higher than 40 mg QD omeprazole has not been studied.">
+        <entity id="DDI-DrugBank.d328.s42.e0" charOffset="20-29"
+            type="drug" text="valdecoxib"/>
+        <entity id="DDI-DrugBank.d328.s42.e1" charOffset="63-72"
+            type="drug" text="omeprazole"/>
+        <pair id="DDI-DrugBank.d328.s42.p0"
+            e1="DDI-DrugBank.d328.s42.e0" e2="DDI-DrugBank.d328.s42.e1" ddi="false"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d328.s43" text="Oral Contraceptives: Valdecoxib (40 mg BID) did not induce the metabolism of the combination oral contraceptive norethindrone/ethinyl estradiol (1 mg /35 mcg combination, Ortho-Novum 1/35 ).">
+        <entity id="DDI-DrugBank.d328.s43.e0" charOffset="5-18"
+            type="group" text="Contraceptives"/>
+        <entity id="DDI-DrugBank.d328.s43.e1" charOffset="21-30"
+            type="drug" text="Valdecoxib"/>
+        <entity id="DDI-DrugBank.d328.s43.e2" charOffset="98-110"
+            type="group" text="contraceptive"/>
+        <entity id="DDI-DrugBank.d328.s43.e3" charOffset="112-124"
+            type="drug" text="norethindrone"/>
+        <entity id="DDI-DrugBank.d328.s43.e4" charOffset="126-142"
+            type="drug" text="ethinyl estradiol"/>
+        <entity id="DDI-DrugBank.d328.s43.e5" charOffset="171-181"
+            type="brand" text="Ortho-Novum"/>
+        <pair id="DDI-DrugBank.d328.s43.p0"
+            e1="DDI-DrugBank.d328.s43.e0" e2="DDI-DrugBank.d328.s43.e1" ddi="false"/>
+        <pair id="DDI-DrugBank.d328.s43.p1"
+            e1="DDI-DrugBank.d328.s43.e0" e2="DDI-DrugBank.d328.s43.e2" ddi="false"/>
+        <pair id="DDI-DrugBank.d328.s43.p2"
+            e1="DDI-DrugBank.d328.s43.e0" e2="DDI-DrugBank.d328.s43.e3" ddi="false"/>
+        <pair id="DDI-DrugBank.d328.s43.p3"
+            e1="DDI-DrugBank.d328.s43.e0" e2="DDI-DrugBank.d328.s43.e4" ddi="false"/>
+        <pair id="DDI-DrugBank.d328.s43.p4"
+            e1="DDI-DrugBank.d328.s43.e0" e2="DDI-DrugBank.d328.s43.e5" ddi="false"/>
+        <pair id="DDI-DrugBank.d328.s43.p5"
+            e1="DDI-DrugBank.d328.s43.e1" e2="DDI-DrugBank.d328.s43.e2" ddi="false"/>
+        <pair id="DDI-DrugBank.d328.s43.p6"
+            e1="DDI-DrugBank.d328.s43.e1" e2="DDI-DrugBank.d328.s43.e3" ddi="false"/>
+        <pair id="DDI-DrugBank.d328.s43.p7"
+            e1="DDI-DrugBank.d328.s43.e1" e2="DDI-DrugBank.d328.s43.e4" ddi="false"/>
+        <pair id="DDI-DrugBank.d328.s43.p8"
+            e1="DDI-DrugBank.d328.s43.e1" e2="DDI-DrugBank.d328.s43.e5" ddi="false"/>
+        <pair id="DDI-DrugBank.d328.s43.p9"
+            e1="DDI-DrugBank.d328.s43.e2" e2="DDI-DrugBank.d328.s43.e3" ddi="false"/>
+        <pair id="DDI-DrugBank.d328.s43.p10"
+            e1="DDI-DrugBank.d328.s43.e2" e2="DDI-DrugBank.d328.s43.e4" ddi="false"/>
+        <pair id="DDI-DrugBank.d328.s43.p11"
+            e1="DDI-DrugBank.d328.s43.e2" e2="DDI-DrugBank.d328.s43.e5" ddi="false"/>
+        <pair id="DDI-DrugBank.d328.s43.p12"
+            e1="DDI-DrugBank.d328.s43.e3" e2="DDI-DrugBank.d328.s43.e4" ddi="false"/>
+        <pair id="DDI-DrugBank.d328.s43.p13"
+            e1="DDI-DrugBank.d328.s43.e3" e2="DDI-DrugBank.d328.s43.e5" ddi="false"/>
+        <pair id="DDI-DrugBank.d328.s43.p14"
+            e1="DDI-DrugBank.d328.s43.e4" e2="DDI-DrugBank.d328.s43.e5" ddi="false"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d328.s44" text="Coadministration of valdecoxib and Ortho-Novum 1/35  increased the exposure of norethindrone and ethinyl estradiol by 20% and 34%, respectively.">
+        <entity id="DDI-DrugBank.d328.s44.e0" charOffset="20-29"
+            type="drug" text="valdecoxib"/>
+        <entity id="DDI-DrugBank.d328.s44.e1" charOffset="35-45"
+            type="brand" text="Ortho-Novum"/>
+        <entity id="DDI-DrugBank.d328.s44.e2" charOffset="79-91"
+            type="drug" text="norethindrone"/>
+        <entity id="DDI-DrugBank.d328.s44.e3" charOffset="97-113"
+            type="drug" text="ethinyl estradiol"/>
+        <pair id="DDI-DrugBank.d328.s44.p0"
+            e1="DDI-DrugBank.d328.s44.e0" e2="DDI-DrugBank.d328.s44.e1"
+            ddi="true" type="mechanism"/>
+        <pair id="DDI-DrugBank.d328.s44.p1"
+            e1="DDI-DrugBank.d328.s44.e0" e2="DDI-DrugBank.d328.s44.e2" ddi="false"/>
+        <pair id="DDI-DrugBank.d328.s44.p2"
+            e1="DDI-DrugBank.d328.s44.e0" e2="DDI-DrugBank.d328.s44.e3" ddi="false"/>
+        <pair id="DDI-DrugBank.d328.s44.p3"
+            e1="DDI-DrugBank.d328.s44.e1" e2="DDI-DrugBank.d328.s44.e2" ddi="false"/>
+        <pair id="DDI-DrugBank.d328.s44.p4"
+            e1="DDI-DrugBank.d328.s44.e1" e2="DDI-DrugBank.d328.s44.e3" ddi="false"/>
+        <pair id="DDI-DrugBank.d328.s44.p5"
+            e1="DDI-DrugBank.d328.s44.e2" e2="DDI-DrugBank.d328.s44.e3" ddi="false"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d328.s45" text="Although there is little risk for loss of contraceptive efficacy, the clinical significance of these increased exposures in terms of safety is not known."/>
+    <sentence id="DDI-DrugBank.d328.s46" text="These increased exposures of norethindrone and ethinyl estradiol should be taken into consideration when selecting an oral contraceptive for women taking valdecoxib.">
+        <entity id="DDI-DrugBank.d328.s46.e0" charOffset="29-41"
+            type="drug" text="norethindrone"/>
+        <entity id="DDI-DrugBank.d328.s46.e1" charOffset="47-63"
+            type="drug" text="ethinyl estradiol"/>
+        <entity id="DDI-DrugBank.d328.s46.e2" charOffset="123-135"
+            type="group" text="contraceptive"/>
+        <entity id="DDI-DrugBank.d328.s46.e3" charOffset="154-163"
+            type="drug" text="valdecoxib"/>
+        <pair id="DDI-DrugBank.d328.s46.p0"
+            e1="DDI-DrugBank.d328.s46.e0" e2="DDI-DrugBank.d328.s46.e1" ddi="false"/>
+        <pair id="DDI-DrugBank.d328.s46.p1"
+            e1="DDI-DrugBank.d328.s46.e0" e2="DDI-DrugBank.d328.s46.e2" ddi="false"/>
+        <pair id="DDI-DrugBank.d328.s46.p2"
+            e1="DDI-DrugBank.d328.s46.e0" e2="DDI-DrugBank.d328.s46.e3" ddi="false"/>
+        <pair id="DDI-DrugBank.d328.s46.p3"
+            e1="DDI-DrugBank.d328.s46.e1" e2="DDI-DrugBank.d328.s46.e2" ddi="false"/>
+        <pair id="DDI-DrugBank.d328.s46.p4"
+            e1="DDI-DrugBank.d328.s46.e1" e2="DDI-DrugBank.d328.s46.e3" ddi="false"/>
+        <pair id="DDI-DrugBank.d328.s46.p5"
+            e1="DDI-DrugBank.d328.s46.e2" e2="DDI-DrugBank.d328.s46.e3"
+            ddi="true" type="advise"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d328.s47" text="Diazepam: Diazepam (Valium) is a CYP 3A4 and CYP 2C19 substrate.">
+        <entity id="DDI-DrugBank.d328.s47.e0" charOffset="0-7"
+            type="drug" text="Diazepam"/>
+        <entity id="DDI-DrugBank.d328.s47.e1" charOffset="10-17"
+            type="drug" text="Diazepam"/>
+        <entity id="DDI-DrugBank.d328.s47.e2" charOffset="20-25"
+            type="brand" text="Valium"/>
+        <pair id="DDI-DrugBank.d328.s47.p0"
+            e1="DDI-DrugBank.d328.s47.e0" e2="DDI-DrugBank.d328.s47.e1" ddi="false"/>
+        <pair id="DDI-DrugBank.d328.s47.p1"
+            e1="DDI-DrugBank.d328.s47.e0" e2="DDI-DrugBank.d328.s47.e2" ddi="false"/>
+        <pair id="DDI-DrugBank.d328.s47.p2"
+            e1="DDI-DrugBank.d328.s47.e1" e2="DDI-DrugBank.d328.s47.e2" ddi="false"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d328.s48" text="Plasma exposure of diazepam (10 mg BID) was increased by 28% following administration of valdecoxib (40 mg BID) for 12 days, while plasma exposure of valdecoxib (40 mg BID) was not substantially increased following administration of diazepam (10 mg BID) for 12 days.">
+        <entity id="DDI-DrugBank.d328.s48.e0" charOffset="19-26"
+            type="drug" text="diazepam"/>
+        <entity id="DDI-DrugBank.d328.s48.e1" charOffset="89-98"
+            type="drug" text="valdecoxib"/>
+        <entity id="DDI-DrugBank.d328.s48.e2" charOffset="150-159"
+            type="drug" text="valdecoxib"/>
+        <entity id="DDI-DrugBank.d328.s48.e3" charOffset="233-240"
+            type="drug" text="diazepam"/>
+        <pair id="DDI-DrugBank.d328.s48.p0"
+            e1="DDI-DrugBank.d328.s48.e0" e2="DDI-DrugBank.d328.s48.e1"
+            ddi="true" type="mechanism"/>
+        <pair id="DDI-DrugBank.d328.s48.p1"
+            e1="DDI-DrugBank.d328.s48.e0" e2="DDI-DrugBank.d328.s48.e2" ddi="false"/>
+        <pair id="DDI-DrugBank.d328.s48.p2"
+            e1="DDI-DrugBank.d328.s48.e0" e2="DDI-DrugBank.d328.s48.e3" ddi="false"/>
+        <pair id="DDI-DrugBank.d328.s48.p3"
+            e1="DDI-DrugBank.d328.s48.e1" e2="DDI-DrugBank.d328.s48.e2" ddi="false"/>
+        <pair id="DDI-DrugBank.d328.s48.p4"
+            e1="DDI-DrugBank.d328.s48.e1" e2="DDI-DrugBank.d328.s48.e3" ddi="false"/>
+        <pair id="DDI-DrugBank.d328.s48.p5"
+            e1="DDI-DrugBank.d328.s48.e2" e2="DDI-DrugBank.d328.s48.e3" ddi="false"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d328.s49" text="Although the magnitude of changes in diazepam plasma exposure when coadministered with valdecoxib were not sufficient to warrant dosage adjustments, patients may experience enhanced sedative side effects caused by increased exposure of diazepam under this circumstance.">
+        <entity id="DDI-DrugBank.d328.s49.e0" charOffset="37-44"
+            type="drug" text="diazepam"/>
+        <entity id="DDI-DrugBank.d328.s49.e1" charOffset="87-96"
+            type="drug" text="valdecoxib"/>
+        <entity id="DDI-DrugBank.d328.s49.e2" charOffset="236-243"
+            type="drug" text="diazepam"/>
+        <pair id="DDI-DrugBank.d328.s49.p0"
+            e1="DDI-DrugBank.d328.s49.e0" e2="DDI-DrugBank.d328.s49.e1" ddi="false"/>
+        <pair id="DDI-DrugBank.d328.s49.p1"
+            e1="DDI-DrugBank.d328.s49.e0" e2="DDI-DrugBank.d328.s49.e2" ddi="false"/>
+        <pair id="DDI-DrugBank.d328.s49.p2"
+            e1="DDI-DrugBank.d328.s49.e1" e2="DDI-DrugBank.d328.s49.e2"
+            ddi="true" type="effect"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d328.s50" text="Patients should be cautioned against engaging in hazardous activities requiring complete mental alertness such as operating machinery or driving a motor vehicle."/>
+</document>

@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="DDI-MedLine.d200">
+    <sentence id="DDI-MedLine.d200.s0" text="[Efficacy of fixed combination amlodipine/valsartan in hospitalized patients with hypertensive disease]">
+        <entity id="DDI-MedLine.d200.s0.e0" charOffset="31-40"
+            type="drug" text="amlodipine"/>
+        <entity id="DDI-MedLine.d200.s0.e1" charOffset="42-50"
+            type="drug" text="valsartan"/>
+        <pair id="DDI-MedLine.d200.s0.p0" e1="DDI-MedLine.d200.s0.e0"
+            e2="DDI-MedLine.d200.s0.e1" ddi="false"/>
+    </sentence>
+    <sentence id="DDI-MedLine.d200.s1" text="Efficacy and tolerability of fixed amlodipine/valsartan combination was studied in 86 patients with hypertensive disease hospitalized in departments of general internal medicine or cardiology. ">
+        <entity id="DDI-MedLine.d200.s1.e0" charOffset="35-44"
+            type="drug" text="amlodipine"/>
+        <entity id="DDI-MedLine.d200.s1.e1" charOffset="46-54"
+            type="drug" text="valsartan"/>
+        <pair id="DDI-MedLine.d200.s1.p0" e1="DDI-MedLine.d200.s1.e0"
+            e2="DDI-MedLine.d200.s1.e1" ddi="false"/>
+    </sentence>
+    <sentence id="DDI-MedLine.d200.s2" text="All patients had indications for antihypertensive therapy and were randomized either to fixed combination amlodipine/valsartan (n=43) or to therapy which corresponded to the hospital formulary (n=43). ">
+        <entity id="DDI-MedLine.d200.s2.e0" charOffset="106-115"
+            type="drug" text="amlodipine"/>
+        <entity id="DDI-MedLine.d200.s2.e1" charOffset="117-125"
+            type="drug" text="valsartan"/>
+        <pair id="DDI-MedLine.d200.s2.p0" e1="DDI-MedLine.d200.s2.e0"
+            e2="DDI-MedLine.d200.s2.e1" ddi="false"/>
+    </sentence>
+    <sentence id="DDI-MedLine.d200.s3" text="Correction of antihypertensive therapy was performed by treating physician at daily rounds. ">
+        <entity id="DDI-MedLine.d200.s3.e0" charOffset="14-29"
+            type="group" text="antihypertensive"/>
+    </sentence>
+    <sentence id="DDI-MedLine.d200.s4" text="Self-control of blood pressure (BP) was performed by patients with the use of UA767PC apparatus. "/>
+    <sentence id="DDI-MedLine.d200.s5" text="Results of BP self-control were compared with clinical measurements in order to detect concealed inefficacy of treatment. "/>
+    <sentence id="DDI-MedLine.d200.s6" text="Results. "/>
+    <sentence id="DDI-MedLine.d200.s7" text="Rate of achievement of target BP with fixed combination amlodipine/valsartan (93%) was comparable with that on traditional therapy (90%). ">
+        <entity id="DDI-MedLine.d200.s7.e0" charOffset="56-65"
+            type="drug" text="amlodipine"/>
+        <entity id="DDI-MedLine.d200.s7.e1" charOffset="67-75"
+            type="drug" text="valsartan"/>
+        <pair id="DDI-MedLine.d200.s7.p0" e1="DDI-MedLine.d200.s7.e0"
+            e2="DDI-MedLine.d200.s7.e1" ddi="false"/>
+    </sentence>
+    <sentence id="DDI-MedLine.d200.s8" text="But the use of fixed combination amlodipine/valsartan compared with traditional therapy was associated with lower clinical and self measured BP, quicker achievement of target BP (5.8+/-2.3 and 9.2+/-1.8 days, respectively, 0.05), lesser number of antihypertensive drugs (2.5+/-0.6 and 3.0+/-0.9 days, respectively), lower rate of concealed inefficacy of treatment (12 and 31%, respectively, 0.05). ">
+        <entity id="DDI-MedLine.d200.s8.e0" charOffset="33-42"
+            type="drug" text="amlodipine"/>
+        <entity id="DDI-MedLine.d200.s8.e1" charOffset="44-52"
+            type="drug" text="valsartan"/>
+        <entity id="DDI-MedLine.d200.s8.e2" charOffset="247-268"
+            type="group" text="antihypertensive drugs"/>
+        <pair id="DDI-MedLine.d200.s8.p0" e1="DDI-MedLine.d200.s8.e0"
+            e2="DDI-MedLine.d200.s8.e1" ddi="true" type="effect"/>
+        <pair id="DDI-MedLine.d200.s8.p1" e1="DDI-MedLine.d200.s8.e0"
+            e2="DDI-MedLine.d200.s8.e2" ddi="false"/>
+        <pair id="DDI-MedLine.d200.s8.p2" e1="DDI-MedLine.d200.s8.e1"
+            e2="DDI-MedLine.d200.s8.e2" ddi="false"/>
+    </sentence>
+    <sentence id="DDI-MedLine.d200.s9" text="Conclusions. "/>
+    <sentence id="DDI-MedLine.d200.s10" text="We have demonstrated appropriateness of inhospital administration of fixed amlodipine/valsartan combination as an approach allowing to achieve target BP in shorter time, with the use of fewer antihypertensive drugs, and diminishing concealed inefficacy of treatment.">
+        <entity id="DDI-MedLine.d200.s10.e0" charOffset="75-84"
+            type="drug" text="amlodipine"/>
+        <entity id="DDI-MedLine.d200.s10.e1" charOffset="86-94"
+            type="drug" text="valsartan"/>
+        <entity id="DDI-MedLine.d200.s10.e2" charOffset="192-213"
+            type="group" text="antihypertensive drugs"/>
+        <pair id="DDI-MedLine.d200.s10.p0" e1="DDI-MedLine.d200.s10.e0"
+            e2="DDI-MedLine.d200.s10.e1" ddi="true" type="effect"/>
+        <pair id="DDI-MedLine.d200.s10.p1" e1="DDI-MedLine.d200.s10.e0"
+            e2="DDI-MedLine.d200.s10.e2" ddi="false"/>
+        <pair id="DDI-MedLine.d200.s10.p2" e1="DDI-MedLine.d200.s10.e1"
+            e2="DDI-MedLine.d200.s10.e2" ddi="false"/>
+    </sentence>
+</document>

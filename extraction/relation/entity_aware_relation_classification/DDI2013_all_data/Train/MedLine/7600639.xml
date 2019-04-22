@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="DDI-MedLine.d39">
+    <sentence id="DDI-MedLine.d39.s0" text="Effect of estradiol on endotoxin-induced changes in steroid hormone levels and lethality in male rats.">
+        <entity id="DDI-MedLine.d39.s0.e0" charOffset="10-18"
+            type="drug" text="estradiol"/>
+        <entity id="DDI-MedLine.d39.s0.e1" charOffset="23-31"
+            type="drug_n" text="endotoxin"/>
+        <pair id="DDI-MedLine.d39.s0.p0" e1="DDI-MedLine.d39.s0.e0"
+            e2="DDI-MedLine.d39.s0.e1" ddi="false"/>
+    </sentence>
+    <sentence id="DDI-MedLine.d39.s1" text="We examined the effect of exogenous estradiol on the changes in serum steroid hormone levels induced by a nonlethal dose of Escherichia coli endotoxin in male rats and the deaths due to nonlethal and lethal doses of endotoxin. ">
+        <entity id="DDI-MedLine.d39.s1.e0" charOffset="36-44"
+            type="drug" text="estradiol"/>
+        <entity id="DDI-MedLine.d39.s1.e1" charOffset="141-149"
+            type="drug_n" text="endotoxin"/>
+        <entity id="DDI-MedLine.d39.s1.e2" charOffset="216-224"
+            type="drug_n" text="endotoxin"/>
+        <pair id="DDI-MedLine.d39.s1.p0" e1="DDI-MedLine.d39.s1.e0"
+            e2="DDI-MedLine.d39.s1.e1" ddi="false"/>
+        <pair id="DDI-MedLine.d39.s1.p1" e1="DDI-MedLine.d39.s1.e0"
+            e2="DDI-MedLine.d39.s1.e2" ddi="false"/>
+        <pair id="DDI-MedLine.d39.s1.p2" e1="DDI-MedLine.d39.s1.e1"
+            e2="DDI-MedLine.d39.s1.e2" ddi="false"/>
+    </sentence>
+    <sentence id="DDI-MedLine.d39.s2" text="Injection of estradiol 5 min before a nonlethal dose of endotoxin changed the serum sex steroid hormone response of male rats to endotoxin. ">
+        <entity id="DDI-MedLine.d39.s2.e0" charOffset="13-21"
+            type="drug" text="estradiol"/>
+        <entity id="DDI-MedLine.d39.s2.e1" charOffset="56-64"
+            type="drug_n" text="endotoxin"/>
+        <entity id="DDI-MedLine.d39.s2.e2" charOffset="129-137"
+            type="drug_n" text="endotoxin"/>
+        <pair id="DDI-MedLine.d39.s2.p0" e1="DDI-MedLine.d39.s2.e0"
+            e2="DDI-MedLine.d39.s2.e1" ddi="true" type="effect"/>
+        <pair id="DDI-MedLine.d39.s2.p1" e1="DDI-MedLine.d39.s2.e0"
+            e2="DDI-MedLine.d39.s2.e2" ddi="false"/>
+        <pair id="DDI-MedLine.d39.s2.p2" e1="DDI-MedLine.d39.s2.e1"
+            e2="DDI-MedLine.d39.s2.e2" ddi="false"/>
+    </sentence>
+    <sentence id="DDI-MedLine.d39.s3" text="The serum estrogen concentrations of estradiol + endotoxin-treated rats decreased by 50%, while those of the endotoxin-treated rats increased (2- to 5-fold). ">
+        <entity id="DDI-MedLine.d39.s3.e0" charOffset="37-45"
+            type="drug" text="estradiol"/>
+        <entity id="DDI-MedLine.d39.s3.e1" charOffset="49-57"
+            type="drug_n" text="endotoxin"/>
+        <entity id="DDI-MedLine.d39.s3.e2" charOffset="109-117"
+            type="drug_n" text="endotoxin"/>
+        <pair id="DDI-MedLine.d39.s3.p0" e1="DDI-MedLine.d39.s3.e0"
+            e2="DDI-MedLine.d39.s3.e1" ddi="true" type="mechanism"/>
+        <pair id="DDI-MedLine.d39.s3.p1" e1="DDI-MedLine.d39.s3.e0"
+            e2="DDI-MedLine.d39.s3.e2" ddi="false"/>
+        <pair id="DDI-MedLine.d39.s3.p2" e1="DDI-MedLine.d39.s3.e1"
+            e2="DDI-MedLine.d39.s3.e2" ddi="false"/>
+    </sentence>
+    <sentence id="DDI-MedLine.d39.s4" text="The serum androgen concentrations of estradiol + endotoxin-treated rats did not change significantly, while those of endotoxin-treated rats dropped to 30-40%">
+        <entity id="DDI-MedLine.d39.s4.e0" charOffset="37-45"
+            type="drug" text="estradiol"/>
+        <entity id="DDI-MedLine.d39.s4.e1" charOffset="49-57"
+            type="drug_n" text="endotoxin"/>
+        <entity id="DDI-MedLine.d39.s4.e2" charOffset="117-125"
+            type="drug_n" text="endotoxin"/>
+        <pair id="DDI-MedLine.d39.s4.p0" e1="DDI-MedLine.d39.s4.e0"
+            e2="DDI-MedLine.d39.s4.e1" ddi="false"/>
+        <pair id="DDI-MedLine.d39.s4.p1" e1="DDI-MedLine.d39.s4.e0"
+            e2="DDI-MedLine.d39.s4.e2" ddi="false"/>
+        <pair id="DDI-MedLine.d39.s4.p2" e1="DDI-MedLine.d39.s4.e1"
+            e2="DDI-MedLine.d39.s4.e2" ddi="false"/>
+    </sentence>
+    <sentence id="DDI-MedLine.d39.s5" text="0.001. "/>
+    <sentence id="DDI-MedLine.d39.s6" text="Exogenous estradiol also appeared to influence the percentage of endotoxin-induced deaths in a dose-dependent manner. ">
+        <entity id="DDI-MedLine.d39.s6.e0" charOffset="10-18"
+            type="drug" text="estradiol"/>
+        <entity id="DDI-MedLine.d39.s6.e1" charOffset="65-73"
+            type="drug_n" text="endotoxin"/>
+        <pair id="DDI-MedLine.d39.s6.p0" e1="DDI-MedLine.d39.s6.e0"
+            e2="DDI-MedLine.d39.s6.e1" ddi="true" type="effect"/>
+    </sentence>
+    <sentence id="DDI-MedLine.d39.s7" text="It reduced the number of deaths induced by nonlethal (2 mg/kg) dose of endotoxin but increased the number of deaths induced by a highly lethal dose (8 mg/kg). ">
+        <entity id="DDI-MedLine.d39.s7.e0" charOffset="71-79"
+            type="drug_n" text="endotoxin"/>
+    </sentence>
+    <sentence id="DDI-MedLine.d39.s8" text="These results, together with the known relationships between estrogen and the immune response, suggest that estrogens affect the course of septic shock in a complex fashion and may have either protective or deleterious effect.">
+        <entity id="DDI-MedLine.d39.s8.e0" charOffset="61-68"
+            type="group" text="estrogen"/>
+        <entity id="DDI-MedLine.d39.s8.e1" charOffset="108-116"
+            type="group" text="estrogens"/>
+        <pair id="DDI-MedLine.d39.s8.p0" e1="DDI-MedLine.d39.s8.e0"
+            e2="DDI-MedLine.d39.s8.e1" ddi="false"/>
+    </sentence>
+</document>

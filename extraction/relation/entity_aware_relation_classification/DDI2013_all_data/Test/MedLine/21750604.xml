@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="DDI-MedLine.d190">
+    <sentence id="DDI-MedLine.d190.s0" text="Glycosidic enzymes enhance retinal transduction following intravitreal delivery of AAV2.&#xd;&#xa;">
+        <entity id="DDI-MedLine.d190.s0.e0" charOffset="83-86"
+            type="drug_n" text="AAV2"/>
+    </sentence>
+    <sentence id="DDI-MedLine.d190.s1" text="To determine whether the co-injection of extracellular matrix degrading enzymes improves retinal transduction following intravitreal delivery of adeno-associated virus-2 (AAV2).">
+        <entity id="DDI-MedLine.d190.s1.e0" charOffset="145-168"
+            type="drug_n" text="adeno-associated virus-2"/>
+        <entity id="DDI-MedLine.d190.s1.e1" charOffset="171-174"
+            type="drug_n" text="AAV2"/>
+        <pair id="DDI-MedLine.d190.s1.p0" e1="DDI-MedLine.d190.s1.e0"
+            e2="DDI-MedLine.d190.s1.e1" ddi="false"/>
+    </sentence>
+    <sentence id="DDI-MedLine.d190.s2" text="AAV2 containing cDNA encoding enhanced green fluorescent protein (GFP), under the control of a chicken   -actin promoter, was delivered by intravitreal injection to adult mice in conjunction with enzymes including collagenase, hyaluronan lyase, heparinase III, or chondroitin ABC lyase. ">
+        <entity id="DDI-MedLine.d190.s2.e0" charOffset="0-3"
+            type="drug_n" text="AAV2"/>
+        <entity id="DDI-MedLine.d190.s2.e1" charOffset="214-224"
+            type="drug_n" text="collagenase"/>
+        <entity id="DDI-MedLine.d190.s2.e2" charOffset="227-242"
+            type="drug_n" text="hyaluronan lyase"/>
+        <entity id="DDI-MedLine.d190.s2.e3" charOffset="245-258"
+            type="drug_n" text="heparinase III"/>
+        <entity id="DDI-MedLine.d190.s2.e4" charOffset="264-284"
+            type="drug_n" text="chondroitin ABC lyase"/>
+        <pair id="DDI-MedLine.d190.s2.p0" e1="DDI-MedLine.d190.s2.e0"
+            e2="DDI-MedLine.d190.s2.e1" ddi="false"/>
+        <pair id="DDI-MedLine.d190.s2.p1" e1="DDI-MedLine.d190.s2.e0"
+            e2="DDI-MedLine.d190.s2.e2" ddi="false"/>
+        <pair id="DDI-MedLine.d190.s2.p2" e1="DDI-MedLine.d190.s2.e0"
+            e2="DDI-MedLine.d190.s2.e3" ddi="false"/>
+        <pair id="DDI-MedLine.d190.s2.p3" e1="DDI-MedLine.d190.s2.e0"
+            e2="DDI-MedLine.d190.s2.e4" ddi="false"/>
+        <pair id="DDI-MedLine.d190.s2.p4" e1="DDI-MedLine.d190.s2.e1"
+            e2="DDI-MedLine.d190.s2.e2" ddi="false"/>
+        <pair id="DDI-MedLine.d190.s2.p5" e1="DDI-MedLine.d190.s2.e1"
+            e2="DDI-MedLine.d190.s2.e3" ddi="false"/>
+        <pair id="DDI-MedLine.d190.s2.p6" e1="DDI-MedLine.d190.s2.e1"
+            e2="DDI-MedLine.d190.s2.e4" ddi="false"/>
+        <pair id="DDI-MedLine.d190.s2.p7" e1="DDI-MedLine.d190.s2.e2"
+            e2="DDI-MedLine.d190.s2.e3" ddi="false"/>
+        <pair id="DDI-MedLine.d190.s2.p8" e1="DDI-MedLine.d190.s2.e2"
+            e2="DDI-MedLine.d190.s2.e4" ddi="false"/>
+        <pair id="DDI-MedLine.d190.s2.p9" e1="DDI-MedLine.d190.s2.e3"
+            e2="DDI-MedLine.d190.s2.e4" ddi="false"/>
+    </sentence>
+    <sentence id="DDI-MedLine.d190.s3" text="Two weeks later, retinal flatmounts were examined for GFP expression using confocal microscopy. "/>
+    <sentence id="DDI-MedLine.d190.s4" text="Without the addition of enzymes, transduction was limited to occasional cells in the retinal ganglion cell layer. "/>
+    <sentence id="DDI-MedLine.d190.s5" text="The addition of heparinase III or chondroitin ABC lyase greatly enhanced transduction of the retinal ganglion cell layer and increased the depth of transduction into the outer retina. ">
+        <entity id="DDI-MedLine.d190.s5.e0" charOffset="16-29"
+            type="drug_n" text="heparinase III"/>
+        <entity id="DDI-MedLine.d190.s5.e1" charOffset="34-54"
+            type="drug_n" text="chondroitin ABC lyase"/>
+        <pair id="DDI-MedLine.d190.s5.p0" e1="DDI-MedLine.d190.s5.e0"
+            e2="DDI-MedLine.d190.s5.e1" ddi="false"/>
+    </sentence>
+    <sentence id="DDI-MedLine.d190.s6" text="Hyaluronan lyase had a limited effect and collagenase was ineffective. ">
+        <entity id="DDI-MedLine.d190.s6.e0" charOffset="0-15"
+            type="drug_n" text="Hyaluronan lyase"/>
+        <entity id="DDI-MedLine.d190.s6.e1" charOffset="42-52"
+            type="drug_n" text="collagenase"/>
+        <pair id="DDI-MedLine.d190.s6.p0" e1="DDI-MedLine.d190.s6.e0"
+            e2="DDI-MedLine.d190.s6.e1" ddi="false"/>
+    </sentence>
+    <sentence id="DDI-MedLine.d190.s7" text="Electroretinograms survived with higher concentrations of heparinase III and chondroitin ABC lyase than were required for optimal retinal transduction. ">
+        <entity id="DDI-MedLine.d190.s7.e0" charOffset="58-71"
+            type="drug_n" text="heparinase III"/>
+        <entity id="DDI-MedLine.d190.s7.e1" charOffset="77-97"
+            type="drug_n" text="chondroitin ABC lyase"/>
+        <pair id="DDI-MedLine.d190.s7.p0" e1="DDI-MedLine.d190.s7.e0"
+            e2="DDI-MedLine.d190.s7.e1" ddi="false"/>
+    </sentence>
+    <sentence id="DDI-MedLine.d190.s8" text="AAV2-mediated retinal transduction is improved by co-injection of heparinase III or chondroitin ABC lyase. ">
+        <entity id="DDI-MedLine.d190.s8.e0" charOffset="0-3"
+            type="drug_n" text="AAV2"/>
+        <entity id="DDI-MedLine.d190.s8.e1" charOffset="66-79"
+            type="drug_n" text="heparinase III"/>
+        <entity id="DDI-MedLine.d190.s8.e2" charOffset="84-104"
+            type="drug_n" text="chondroitin ABC lyase"/>
+        <pair id="DDI-MedLine.d190.s8.p0" e1="DDI-MedLine.d190.s8.e0"
+            e2="DDI-MedLine.d190.s8.e1" ddi="true" type="effect"/>
+        <pair id="DDI-MedLine.d190.s8.p1" e1="DDI-MedLine.d190.s8.e0"
+            e2="DDI-MedLine.d190.s8.e2" ddi="true" type="effect"/>
+        <pair id="DDI-MedLine.d190.s8.p2" e1="DDI-MedLine.d190.s8.e1"
+            e2="DDI-MedLine.d190.s8.e2" ddi="false"/>
+    </sentence>
+    <sentence id="DDI-MedLine.d190.s9" text="Improved transduction efficiency may allow intravitreal injection to become the preferred route for delivering gene therapy to both the inner and outer retina."/>
+</document>

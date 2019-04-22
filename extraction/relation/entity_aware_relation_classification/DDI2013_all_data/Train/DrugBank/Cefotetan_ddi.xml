@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="DDI-DrugBank.d483">
+    <sentence id="DDI-DrugBank.d483.s0" text="Increases in serum creatinine have occurred when CEFOTAN was given alone.">
+        <entity id="DDI-DrugBank.d483.s0.e0" charOffset="49-55"
+            type="brand" text="CEFOTAN"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d483.s1" text="If CEFOTAN and an aminoglycoside are used concomitantly, renal function should be carefully monitored, because nephrotoxicity may be potentiated.">
+        <entity id="DDI-DrugBank.d483.s1.e0" charOffset="3-9"
+            type="brand" text="CEFOTAN"/>
+        <entity id="DDI-DrugBank.d483.s1.e1" charOffset="18-31"
+            type="group" text="aminoglycoside"/>
+        <pair id="DDI-DrugBank.d483.s1.p0" e1="DDI-DrugBank.d483.s1.e0"
+            e2="DDI-DrugBank.d483.s1.e1" ddi="true" type="effect"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d483.s2" text="Drug/Laboratory Test Interactions: The administration of CEFOTAN may result in a false positive reaction for glucose in the urine using Clinitest  , Benedicts solution, or Fehlings solution.">
+        <entity id="DDI-DrugBank.d483.s2.e0" charOffset="57-63"
+            type="brand" text="CEFOTAN"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d483.s3" text="It is recommended that glucose tests based on enzymatic glucose oxidase be used."/>
+    <sentence id="DDI-DrugBank.d483.s4" text="As with other cephalosporins, high concentrations of cefotetan may interfere with measurement of serum and urine creatinine levels by Jaffe  reaction and produce false increases in the levels of creatinine reported.">
+        <entity id="DDI-DrugBank.d483.s4.e0" charOffset="14-27"
+            type="group" text="cephalosporins"/>
+        <entity id="DDI-DrugBank.d483.s4.e1" charOffset="53-61"
+            type="drug" text="cefotetan"/>
+        <pair id="DDI-DrugBank.d483.s4.p0" e1="DDI-DrugBank.d483.s4.e0"
+            e2="DDI-DrugBank.d483.s4.e1" ddi="false"/>
+    </sentence>
+</document>

@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="DDI-MedLine.d179">
+    <sentence id="DDI-MedLine.d179.s0" text="Synergistic interaction between sunitinib and docetaxel is sequence dependent in human non-small lung cancer with EGFR TKIs-resistant mutation.">
+        <entity id="DDI-MedLine.d179.s0.e0" charOffset="32-40"
+            type="drug" text="sunitinib"/>
+        <entity id="DDI-MedLine.d179.s0.e1" charOffset="46-54"
+            type="drug" text="docetaxel"/>
+        <pair id="DDI-MedLine.d179.s0.p0" e1="DDI-MedLine.d179.s0.e0"
+            e2="DDI-MedLine.d179.s0.e1" ddi="true" type="int"/>
+    </sentence>
+    <sentence id="DDI-MedLine.d179.s1" text="Previous studies have demonstrated that sunitinib has the anti-tumor activity in human non-small cell lung cancer (NSCLC). ">
+        <entity id="DDI-MedLine.d179.s1.e0" charOffset="40-48"
+            type="drug" text="sunitinib"/>
+    </sentence>
+    <sentence id="DDI-MedLine.d179.s2" text="This study was aimed to investigate the efficacy of single use of sunitinib and that of concurrent or sequential administration of sunitinib and docetaxel in NSCLC cell lines that are resistant to EGFR TKIs.">
+        <entity id="DDI-MedLine.d179.s2.e0" charOffset="66-74"
+            type="drug" text="sunitinib"/>
+        <entity id="DDI-MedLine.d179.s2.e1" charOffset="131-139"
+            type="drug" text="sunitinib"/>
+        <entity id="DDI-MedLine.d179.s2.e2" charOffset="145-153"
+            type="drug" text="docetaxel"/>
+        <pair id="DDI-MedLine.d179.s2.p0" e1="DDI-MedLine.d179.s2.e0"
+            e2="DDI-MedLine.d179.s2.e1" ddi="false"/>
+        <pair id="DDI-MedLine.d179.s2.p1" e1="DDI-MedLine.d179.s2.e0"
+            e2="DDI-MedLine.d179.s2.e2" ddi="false"/>
+        <pair id="DDI-MedLine.d179.s2.p2" e1="DDI-MedLine.d179.s2.e1"
+            e2="DDI-MedLine.d179.s2.e2" ddi="false"/>
+    </sentence>
+    <sentence id="DDI-MedLine.d179.s3" text="NSCLC cell lines with EGFR T790M mutation and K-ras mutation were exposed to either sunitinib or docetaxel or both based on various sequential administrations. ">
+        <entity id="DDI-MedLine.d179.s3.e0" charOffset="84-92"
+            type="drug" text="sunitinib"/>
+        <entity id="DDI-MedLine.d179.s3.e1" charOffset="97-105"
+            type="drug" text="docetaxel"/>
+        <pair id="DDI-MedLine.d179.s3.p0" e1="DDI-MedLine.d179.s3.e0"
+            e2="DDI-MedLine.d179.s3.e1" ddi="false"/>
+    </sentence>
+    <sentence id="DDI-MedLine.d179.s4" text="After exposure, the cell viability was measured by MTT assay, cell cycle distribution was analyzed by flow cytometry, and alterations in signaling pathway were determined by immunoblotting. "/>
+    <sentence id="DDI-MedLine.d179.s5" text="Sunitinib exhibited dose-dependent growth inhibition in NSCLC cell lines and arrested cell cycle at G1 phase, whereas docetaxel arrested at S phase. ">
+        <entity id="DDI-MedLine.d179.s5.e0" charOffset="0-8" type="drug" text="Sunitinib"/>
+        <entity id="DDI-MedLine.d179.s5.e1" charOffset="118-126"
+            type="drug" text="docetaxel"/>
+        <pair id="DDI-MedLine.d179.s5.p0" e1="DDI-MedLine.d179.s5.e0"
+            e2="DDI-MedLine.d179.s5.e1" ddi="false"/>
+    </sentence>
+    <sentence id="DDI-MedLine.d179.s6" text="Although single or concurrent use of sunitinib and docetaxel has some anti-proliferative effects, the sequential administrations of both drugs remarkably enhanced anti-tumor activity. ">
+        <entity id="DDI-MedLine.d179.s6.e0" charOffset="37-45"
+            type="drug" text="sunitinib"/>
+        <entity id="DDI-MedLine.d179.s6.e1" charOffset="51-59"
+            type="drug" text="docetaxel"/>
+        <pair id="DDI-MedLine.d179.s6.p0" e1="DDI-MedLine.d179.s6.e0"
+            e2="DDI-MedLine.d179.s6.e1" ddi="true" type="effect"/>
+    </sentence>
+    <sentence id="DDI-MedLine.d179.s7" text="When cells were exposed to docetaxel followed by sunitinib, synergism was observed. ">
+        <entity id="DDI-MedLine.d179.s7.e0" charOffset="27-35"
+            type="drug" text="docetaxel"/>
+        <entity id="DDI-MedLine.d179.s7.e1" charOffset="49-57"
+            type="drug" text="sunitinib"/>
+        <pair id="DDI-MedLine.d179.s7.p0" e1="DDI-MedLine.d179.s7.e0"
+            e2="DDI-MedLine.d179.s7.e1" ddi="true" type="effect"/>
+    </sentence>
+    <sentence id="DDI-MedLine.d179.s8" text="The molecular basis of this synergism is that the signaling pathways that were initially activated by docetaxel exposure were efficiently suppressed by the subsequent exposure to sunitinib. ">
+        <entity id="DDI-MedLine.d179.s8.e0" charOffset="102-110"
+            type="drug" text="docetaxel"/>
+        <entity id="DDI-MedLine.d179.s8.e1" charOffset="179-187"
+            type="drug" text="sunitinib"/>
+        <pair id="DDI-MedLine.d179.s8.p0" e1="DDI-MedLine.d179.s8.e0"
+            e2="DDI-MedLine.d179.s8.e1" ddi="true" type="effect"/>
+    </sentence>
+    <sentence id="DDI-MedLine.d179.s9" text="In contrast, the reverse of this sequential administration resulted in antagonism, which may be due to differential effects on cell cycle arrest. "/>
+    <sentence id="DDI-MedLine.d179.s10" text="Sunitinib as a single agent exhibits anti-proliferative effects in vitro in NSCLC cell lines with EGFR T790M and K-ras mutations but the sequential administration of docetaxel followed by sunitinib is superior to sunitinib followed by docetaxel and concurrent administration.">
+        <entity id="DDI-MedLine.d179.s10.e0" charOffset="0-8"
+            type="drug" text="Sunitinib"/>
+        <entity id="DDI-MedLine.d179.s10.e1" charOffset="166-174"
+            type="drug" text="docetaxel"/>
+        <entity id="DDI-MedLine.d179.s10.e2" charOffset="188-196"
+            type="drug" text="sunitinib"/>
+        <entity id="DDI-MedLine.d179.s10.e3" charOffset="213-221"
+            type="drug" text="sunitinib"/>
+        <entity id="DDI-MedLine.d179.s10.e4" charOffset="235-243"
+            type="drug" text="docetaxel"/>
+        <pair id="DDI-MedLine.d179.s10.p0" e1="DDI-MedLine.d179.s10.e0"
+            e2="DDI-MedLine.d179.s10.e1" ddi="false"/>
+        <pair id="DDI-MedLine.d179.s10.p1" e1="DDI-MedLine.d179.s10.e0"
+            e2="DDI-MedLine.d179.s10.e2" ddi="false"/>
+        <pair id="DDI-MedLine.d179.s10.p2" e1="DDI-MedLine.d179.s10.e0"
+            e2="DDI-MedLine.d179.s10.e3" ddi="false"/>
+        <pair id="DDI-MedLine.d179.s10.p3" e1="DDI-MedLine.d179.s10.e0"
+            e2="DDI-MedLine.d179.s10.e4" ddi="false"/>
+        <pair id="DDI-MedLine.d179.s10.p4" e1="DDI-MedLine.d179.s10.e1"
+            e2="DDI-MedLine.d179.s10.e2" ddi="true" type="effect"/>
+        <pair id="DDI-MedLine.d179.s10.p5" e1="DDI-MedLine.d179.s10.e1"
+            e2="DDI-MedLine.d179.s10.e3" ddi="false"/>
+        <pair id="DDI-MedLine.d179.s10.p6" e1="DDI-MedLine.d179.s10.e1"
+            e2="DDI-MedLine.d179.s10.e4" ddi="false"/>
+        <pair id="DDI-MedLine.d179.s10.p7" e1="DDI-MedLine.d179.s10.e2"
+            e2="DDI-MedLine.d179.s10.e3" ddi="false"/>
+        <pair id="DDI-MedLine.d179.s10.p8" e1="DDI-MedLine.d179.s10.e2"
+            e2="DDI-MedLine.d179.s10.e4" ddi="false"/>
+        <pair id="DDI-MedLine.d179.s10.p9" e1="DDI-MedLine.d179.s10.e3"
+            e2="DDI-MedLine.d179.s10.e4" ddi="false"/>
+    </sentence>
+</document>

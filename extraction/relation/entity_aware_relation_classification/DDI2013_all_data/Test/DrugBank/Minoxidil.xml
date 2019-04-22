@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="DDI-DrugBank.d573">
+    <sentence id="DDI-DrugBank.d573.s0" text="Interaction with Guanethidine: Although minoxidil does not itself cause orthostatic hypotension, its administration to patients already receiving guanethidine can result in profound orthostatic effects. ">
+        <entity id="DDI-DrugBank.d573.s0.e0" charOffset="17-28"
+            type="drug" text="Guanethidine"/>
+        <entity id="DDI-DrugBank.d573.s0.e1" charOffset="40-48"
+            type="drug" text="minoxidil"/>
+        <entity id="DDI-DrugBank.d573.s0.e2" charOffset="146-157"
+            type="drug" text="guanethidine"/>
+        <pair id="DDI-DrugBank.d573.s0.p0" e1="DDI-DrugBank.d573.s0.e0"
+            e2="DDI-DrugBank.d573.s0.e1" ddi="false"/>
+        <pair id="DDI-DrugBank.d573.s0.p1" e1="DDI-DrugBank.d573.s0.e0"
+            e2="DDI-DrugBank.d573.s0.e2" ddi="false"/>
+        <pair id="DDI-DrugBank.d573.s0.p2" e1="DDI-DrugBank.d573.s0.e1"
+            e2="DDI-DrugBank.d573.s0.e2" ddi="true" type="effect"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d573.s1" text="If at all possible guanethidine should be discontinued well before minoxidil is begun. ">
+        <entity id="DDI-DrugBank.d573.s1.e0" charOffset="19-30"
+            type="drug" text="guanethidine"/>
+        <entity id="DDI-DrugBank.d573.s1.e1" charOffset="67-75"
+            type="drug" text="minoxidil"/>
+        <pair id="DDI-DrugBank.d573.s1.p0" e1="DDI-DrugBank.d573.s1.e0"
+            e2="DDI-DrugBank.d573.s1.e1" ddi="true" type="advise"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d573.s2" text="Where this is not possible, minoxidil therapy should be started in the hospital and the patient should remain institutionalized until severe orthostatic effects are no longer present or the patient has learned to avoid activities that provoke them.">
+        <entity id="DDI-DrugBank.d573.s2.e0" charOffset="28-36"
+            type="drug" text="minoxidil"/>
+    </sentence>
+</document>

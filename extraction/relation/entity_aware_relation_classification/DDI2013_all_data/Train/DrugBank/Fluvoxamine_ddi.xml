@@ -1,0 +1,453 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="DDI-DrugBank.d76">
+    <sentence id="DDI-DrugBank.d76.s0" text="Potential for Interaction with Monoamine Oxidase Inhibitors">
+        <entity id="DDI-DrugBank.d76.s0.e0" charOffset="31-58"
+            type="group" text="Monoamine Oxidase Inhibitors"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d76.s1" text="In patients receiving another serotonin reuptake inhibitor drug in combination with monoamine oxidase inhibitors (MAOI), there have been reports of serious, sometimes fatal, reactions including hyperthermia, rigidity, myoclonus, autonomic instability with possible rapid fluctuations of vital signs, and mental status changes that include extreme agitation progressing to delirium and coma.">
+        <entity id="DDI-DrugBank.d76.s1.e0" charOffset="30-62"
+            type="group" text="serotonin reuptake inhibitor drug"/>
+        <entity id="DDI-DrugBank.d76.s1.e1" charOffset="84-111"
+            type="group" text="monoamine oxidase inhibitors"/>
+        <entity id="DDI-DrugBank.d76.s1.e2" charOffset="114-117"
+            type="group" text="MAOI"/>
+        <pair id="DDI-DrugBank.d76.s1.p0" e1="DDI-DrugBank.d76.s1.e0"
+            e2="DDI-DrugBank.d76.s1.e1" ddi="true" type="effect"/>
+        <pair id="DDI-DrugBank.d76.s1.p1" e1="DDI-DrugBank.d76.s1.e0"
+            e2="DDI-DrugBank.d76.s1.e2" ddi="true" type="effect"/>
+        <pair id="DDI-DrugBank.d76.s1.p2" e1="DDI-DrugBank.d76.s1.e1"
+            e2="DDI-DrugBank.d76.s1.e2" ddi="false"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d76.s2" text="These reactions have also been reported in patients who have discontinued that drug and have been started on a MAOI.">
+        <entity id="DDI-DrugBank.d76.s2.e0" charOffset="111-114"
+            type="group" text="MAOI"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d76.s3" text="Some cases presented with features resembling neuroleptic malignant syndrome."/>
+    <sentence id="DDI-DrugBank.d76.s4" text="Therefore, it is recommended that Fluvoxamine Tablets not be used in combination with MAOIs, or within 14 days of discontinuing treatment with a MAOI.">
+        <entity id="DDI-DrugBank.d76.s4.e0" charOffset="34-44"
+            type="drug" text="Fluvoxamine"/>
+        <entity id="DDI-DrugBank.d76.s4.e1" charOffset="86-90"
+            type="group" text="MAOIs"/>
+        <entity id="DDI-DrugBank.d76.s4.e2" charOffset="145-148"
+            type="group" text="MAOI"/>
+        <pair id="DDI-DrugBank.d76.s4.p0" e1="DDI-DrugBank.d76.s4.e0"
+            e2="DDI-DrugBank.d76.s4.e1" ddi="true" type="advise"/>
+        <pair id="DDI-DrugBank.d76.s4.p1" e1="DDI-DrugBank.d76.s4.e0"
+            e2="DDI-DrugBank.d76.s4.e2" ddi="true" type="advise"/>
+        <pair id="DDI-DrugBank.d76.s4.p2" e1="DDI-DrugBank.d76.s4.e1"
+            e2="DDI-DrugBank.d76.s4.e2" ddi="false"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d76.s5" text="After stopping Fluvoxamine Tablets, at least 2 weeks should be allowed before starting a MAOI.">
+        <entity id="DDI-DrugBank.d76.s5.e0" charOffset="15-25"
+            type="drug" text="Fluvoxamine"/>
+        <entity id="DDI-DrugBank.d76.s5.e1" charOffset="89-92"
+            type="group" text="MAOI"/>
+        <pair id="DDI-DrugBank.d76.s5.p0" e1="DDI-DrugBank.d76.s5.e0"
+            e2="DDI-DrugBank.d76.s5.e1" ddi="true" type="advise"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d76.s6" text="Potential Terfenadine, Astemizole, and Cisapride Interactions">
+        <entity id="DDI-DrugBank.d76.s6.e0" charOffset="10-20"
+            type="drug" text="Terfenadine"/>
+        <entity id="DDI-DrugBank.d76.s6.e1" charOffset="23-32"
+            type="drug" text="Astemizole"/>
+        <entity id="DDI-DrugBank.d76.s6.e2" charOffset="39-47"
+            type="drug" text="Cisapride"/>
+        <pair id="DDI-DrugBank.d76.s6.p0" e1="DDI-DrugBank.d76.s6.e0"
+            e2="DDI-DrugBank.d76.s6.e1" ddi="false"/>
+        <pair id="DDI-DrugBank.d76.s6.p1" e1="DDI-DrugBank.d76.s6.e0"
+            e2="DDI-DrugBank.d76.s6.e2" ddi="false"/>
+        <pair id="DDI-DrugBank.d76.s6.p2" e1="DDI-DrugBank.d76.s6.e1"
+            e2="DDI-DrugBank.d76.s6.e2" ddi="false"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d76.s7" text="Terfenadine, astemizole and cisapride are all metabolized by the cytochrome P450IIIA4 isozyme, and it has been demonstrated that ketoconazole, a potent inhibitor of IIIA4, blocks the metabolism of these drugs, resulting in increased plasma concentrations of parent drug.">
+        <entity id="DDI-DrugBank.d76.s7.e0" charOffset="0-10"
+            type="drug" text="Terfenadine"/>
+        <entity id="DDI-DrugBank.d76.s7.e1" charOffset="13-22"
+            type="drug" text="astemizole"/>
+        <entity id="DDI-DrugBank.d76.s7.e2" charOffset="28-36"
+            type="drug" text="cisapride"/>
+        <entity id="DDI-DrugBank.d76.s7.e3" charOffset="129-140"
+            type="drug" text="ketoconazole"/>
+        <pair id="DDI-DrugBank.d76.s7.p0" e1="DDI-DrugBank.d76.s7.e0"
+            e2="DDI-DrugBank.d76.s7.e1" ddi="false"/>
+        <pair id="DDI-DrugBank.d76.s7.p1" e1="DDI-DrugBank.d76.s7.e0"
+            e2="DDI-DrugBank.d76.s7.e2" ddi="false"/>
+        <pair id="DDI-DrugBank.d76.s7.p2" e1="DDI-DrugBank.d76.s7.e0"
+            e2="DDI-DrugBank.d76.s7.e3" ddi="true" type="mechanism"/>
+        <pair id="DDI-DrugBank.d76.s7.p3" e1="DDI-DrugBank.d76.s7.e1"
+            e2="DDI-DrugBank.d76.s7.e2" ddi="false"/>
+        <pair id="DDI-DrugBank.d76.s7.p4" e1="DDI-DrugBank.d76.s7.e1"
+            e2="DDI-DrugBank.d76.s7.e3" ddi="true" type="mechanism"/>
+        <pair id="DDI-DrugBank.d76.s7.p5" e1="DDI-DrugBank.d76.s7.e2"
+            e2="DDI-DrugBank.d76.s7.e3" ddi="true" type="mechanism"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d76.s8" text="Increased plasma concentrations of terfenadine, astemizole, and cisapride cause QT prolongation and have been associated with torsades de pointes-type ventricular tachycardia, sometimes fatal.">
+        <entity id="DDI-DrugBank.d76.s8.e0" charOffset="35-45"
+            type="drug" text="terfenadine"/>
+        <entity id="DDI-DrugBank.d76.s8.e1" charOffset="48-57"
+            type="drug" text="astemizole"/>
+        <entity id="DDI-DrugBank.d76.s8.e2" charOffset="64-72"
+            type="drug" text="cisapride"/>
+        <pair id="DDI-DrugBank.d76.s8.p0" e1="DDI-DrugBank.d76.s8.e0"
+            e2="DDI-DrugBank.d76.s8.e1" ddi="false"/>
+        <pair id="DDI-DrugBank.d76.s8.p1" e1="DDI-DrugBank.d76.s8.e0"
+            e2="DDI-DrugBank.d76.s8.e2" ddi="false"/>
+        <pair id="DDI-DrugBank.d76.s8.p2" e1="DDI-DrugBank.d76.s8.e1"
+            e2="DDI-DrugBank.d76.s8.e2" ddi="false"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d76.s9" text="As noted below, a sub- for fluvoxamine in combination with alprazolam, a drug that is known to be metabolized by the IIIA4 isozyme.">
+        <entity id="DDI-DrugBank.d76.s9.e0" charOffset="27-37"
+            type="drug" text="fluvoxamine"/>
+        <entity id="DDI-DrugBank.d76.s9.e1" charOffset="59-68"
+            type="drug" text="alprazolam"/>
+        <pair id="DDI-DrugBank.d76.s9.p0" e1="DDI-DrugBank.d76.s9.e0"
+            e2="DDI-DrugBank.d76.s9.e1" ddi="false"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d76.s10" text="Although it has not been definitively demonstrated that fluvoxamine is a potent IIIA4 inhibitor, it is likely to be, given the substantial interaction of fluvoxamine with alprazolam.">
+        <entity id="DDI-DrugBank.d76.s10.e0" charOffset="56-66"
+            type="drug" text="fluvoxamine"/>
+        <entity id="DDI-DrugBank.d76.s10.e1" charOffset="154-164"
+            type="drug" text="fluvoxamine"/>
+        <entity id="DDI-DrugBank.d76.s10.e2" charOffset="171-180"
+            type="drug" text="alprazolam"/>
+        <pair id="DDI-DrugBank.d76.s10.p0" e1="DDI-DrugBank.d76.s10.e0"
+            e2="DDI-DrugBank.d76.s10.e1" ddi="false"/>
+        <pair id="DDI-DrugBank.d76.s10.p1" e1="DDI-DrugBank.d76.s10.e0"
+            e2="DDI-DrugBank.d76.s10.e2" ddi="false"/>
+        <pair id="DDI-DrugBank.d76.s10.p2" e1="DDI-DrugBank.d76.s10.e1"
+            e2="DDI-DrugBank.d76.s10.e2" ddi="true" type="int"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d76.s11" text="Consequently, it is recommended that fluvoxamine not be used in combination with either terbinafine, astemizole, or cisapride.">
+        <entity id="DDI-DrugBank.d76.s11.e0" charOffset="37-47"
+            type="drug" text="fluvoxamine"/>
+        <entity id="DDI-DrugBank.d76.s11.e1" charOffset="88-98"
+            type="drug" text="terbinafine"/>
+        <entity id="DDI-DrugBank.d76.s11.e2" charOffset="101-110"
+            type="drug" text="astemizole"/>
+        <entity id="DDI-DrugBank.d76.s11.e3" charOffset="116-124"
+            type="drug" text="cisapride"/>
+        <pair id="DDI-DrugBank.d76.s11.p0" e1="DDI-DrugBank.d76.s11.e0"
+            e2="DDI-DrugBank.d76.s11.e1" ddi="true" type="advise"/>
+        <pair id="DDI-DrugBank.d76.s11.p1" e1="DDI-DrugBank.d76.s11.e0"
+            e2="DDI-DrugBank.d76.s11.e2" ddi="true" type="advise"/>
+        <pair id="DDI-DrugBank.d76.s11.p2" e1="DDI-DrugBank.d76.s11.e0"
+            e2="DDI-DrugBank.d76.s11.e3" ddi="true" type="advise"/>
+        <pair id="DDI-DrugBank.d76.s11.p3" e1="DDI-DrugBank.d76.s11.e1"
+            e2="DDI-DrugBank.d76.s11.e2" ddi="false"/>
+        <pair id="DDI-DrugBank.d76.s11.p4" e1="DDI-DrugBank.d76.s11.e1"
+            e2="DDI-DrugBank.d76.s11.e3" ddi="false"/>
+        <pair id="DDI-DrugBank.d76.s11.p5" e1="DDI-DrugBank.d76.s11.e2"
+            e2="DDI-DrugBank.d76.s11.e3" ddi="false"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d76.s12" text="Other Potentially Important Drug Interactions: Benzodiazepines: Benzodiazepines metabolized by hepatic oxidation (e.g., alprazolam, midazolam, triazolam elc.) should be used with caution because the clearance of these drugs is likely to be reduced by fluvoxamine.">
+        <entity id="DDI-DrugBank.d76.s12.e0" charOffset="47-61"
+            type="group" text="Benzodiazepines"/>
+        <entity id="DDI-DrugBank.d76.s12.e1" charOffset="64-78"
+            type="group" text="Benzodiazepines"/>
+        <entity id="DDI-DrugBank.d76.s12.e2" charOffset="120-129"
+            type="drug" text="alprazolam"/>
+        <entity id="DDI-DrugBank.d76.s12.e3" charOffset="132-140"
+            type="drug" text="midazolam"/>
+        <entity id="DDI-DrugBank.d76.s12.e4" charOffset="143-151"
+            type="drug" text="triazolam"/>
+        <entity id="DDI-DrugBank.d76.s12.e5" charOffset="251-261"
+            type="drug" text="fluvoxamine"/>
+        <pair id="DDI-DrugBank.d76.s12.p0" e1="DDI-DrugBank.d76.s12.e0"
+            e2="DDI-DrugBank.d76.s12.e1" ddi="false"/>
+        <pair id="DDI-DrugBank.d76.s12.p1" e1="DDI-DrugBank.d76.s12.e0"
+            e2="DDI-DrugBank.d76.s12.e2" ddi="false"/>
+        <pair id="DDI-DrugBank.d76.s12.p2" e1="DDI-DrugBank.d76.s12.e0"
+            e2="DDI-DrugBank.d76.s12.e3" ddi="false"/>
+        <pair id="DDI-DrugBank.d76.s12.p3" e1="DDI-DrugBank.d76.s12.e0"
+            e2="DDI-DrugBank.d76.s12.e4" ddi="false"/>
+        <pair id="DDI-DrugBank.d76.s12.p4" e1="DDI-DrugBank.d76.s12.e0"
+            e2="DDI-DrugBank.d76.s12.e5" ddi="false"/>
+        <pair id="DDI-DrugBank.d76.s12.p5" e1="DDI-DrugBank.d76.s12.e1"
+            e2="DDI-DrugBank.d76.s12.e2" ddi="false"/>
+        <pair id="DDI-DrugBank.d76.s12.p6" e1="DDI-DrugBank.d76.s12.e1"
+            e2="DDI-DrugBank.d76.s12.e3" ddi="false"/>
+        <pair id="DDI-DrugBank.d76.s12.p7" e1="DDI-DrugBank.d76.s12.e1"
+            e2="DDI-DrugBank.d76.s12.e4" ddi="false"/>
+        <pair id="DDI-DrugBank.d76.s12.p8" e1="DDI-DrugBank.d76.s12.e1"
+            e2="DDI-DrugBank.d76.s12.e5" ddi="true" type="mechanism"/>
+        <pair id="DDI-DrugBank.d76.s12.p9" e1="DDI-DrugBank.d76.s12.e2"
+            e2="DDI-DrugBank.d76.s12.e3" ddi="false"/>
+        <pair id="DDI-DrugBank.d76.s12.p10" e1="DDI-DrugBank.d76.s12.e2"
+            e2="DDI-DrugBank.d76.s12.e4" ddi="false"/>
+        <pair id="DDI-DrugBank.d76.s12.p11" e1="DDI-DrugBank.d76.s12.e2"
+            e2="DDI-DrugBank.d76.s12.e5" ddi="true" type="mechanism"/>
+        <pair id="DDI-DrugBank.d76.s12.p12" e1="DDI-DrugBank.d76.s12.e3"
+            e2="DDI-DrugBank.d76.s12.e4" ddi="false"/>
+        <pair id="DDI-DrugBank.d76.s12.p13" e1="DDI-DrugBank.d76.s12.e3"
+            e2="DDI-DrugBank.d76.s12.e5" ddi="true" type="mechanism"/>
+        <pair id="DDI-DrugBank.d76.s12.p14" e1="DDI-DrugBank.d76.s12.e4"
+            e2="DDI-DrugBank.d76.s12.e5" ddi="true" type="mechanism"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d76.s13" text="The clearance of benzodiazepines metabolized by glucuronidation (e. g., lorazepam, oxazepam, temazepam) is unlikely to be affected by fluvoxamine.">
+        <entity id="DDI-DrugBank.d76.s13.e0" charOffset="17-31"
+            type="group" text="benzodiazepines"/>
+        <entity id="DDI-DrugBank.d76.s13.e1" charOffset="72-80"
+            type="drug" text="lorazepam"/>
+        <entity id="DDI-DrugBank.d76.s13.e2" charOffset="83-90"
+            type="drug" text="oxazepam"/>
+        <entity id="DDI-DrugBank.d76.s13.e3" charOffset="93-101"
+            type="drug" text="temazepam"/>
+        <entity id="DDI-DrugBank.d76.s13.e4" charOffset="134-144"
+            type="drug" text="fluvoxamine"/>
+        <pair id="DDI-DrugBank.d76.s13.p0" e1="DDI-DrugBank.d76.s13.e0"
+            e2="DDI-DrugBank.d76.s13.e1" ddi="false"/>
+        <pair id="DDI-DrugBank.d76.s13.p1" e1="DDI-DrugBank.d76.s13.e0"
+            e2="DDI-DrugBank.d76.s13.e2" ddi="false"/>
+        <pair id="DDI-DrugBank.d76.s13.p2" e1="DDI-DrugBank.d76.s13.e0"
+            e2="DDI-DrugBank.d76.s13.e3" ddi="false"/>
+        <pair id="DDI-DrugBank.d76.s13.p3" e1="DDI-DrugBank.d76.s13.e0"
+            e2="DDI-DrugBank.d76.s13.e4" ddi="false"/>
+        <pair id="DDI-DrugBank.d76.s13.p4" e1="DDI-DrugBank.d76.s13.e1"
+            e2="DDI-DrugBank.d76.s13.e2" ddi="false"/>
+        <pair id="DDI-DrugBank.d76.s13.p5" e1="DDI-DrugBank.d76.s13.e1"
+            e2="DDI-DrugBank.d76.s13.e3" ddi="false"/>
+        <pair id="DDI-DrugBank.d76.s13.p6" e1="DDI-DrugBank.d76.s13.e1"
+            e2="DDI-DrugBank.d76.s13.e4" ddi="false"/>
+        <pair id="DDI-DrugBank.d76.s13.p7" e1="DDI-DrugBank.d76.s13.e2"
+            e2="DDI-DrugBank.d76.s13.e3" ddi="false"/>
+        <pair id="DDI-DrugBank.d76.s13.p8" e1="DDI-DrugBank.d76.s13.e2"
+            e2="DDI-DrugBank.d76.s13.e4" ddi="false"/>
+        <pair id="DDI-DrugBank.d76.s13.p9" e1="DDI-DrugBank.d76.s13.e3"
+            e2="DDI-DrugBank.d76.s13.e4" ddi="false"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d76.s14" text="Alprazolam: When fluvoxamine maleate (100 mg qd) and alprazolam (1 mg q.d. were co-administered to steady state, plasma concentration and other pharmacokinetics parameters (AUC, Cmax, T1/2,) of alprazolam were approximately twice those observed when alprazolam was administered alone;">
+        <entity id="DDI-DrugBank.d76.s14.e0" charOffset="0-9"
+            type="drug" text="Alprazolam"/>
+        <entity id="DDI-DrugBank.d76.s14.e1" charOffset="17-35"
+            type="drug" text="fluvoxamine maleate"/>
+        <entity id="DDI-DrugBank.d76.s14.e2" charOffset="53-62"
+            type="drug" text="alprazolam"/>
+        <entity id="DDI-DrugBank.d76.s14.e3" charOffset="194-203"
+            type="drug" text="alprazolam"/>
+        <entity id="DDI-DrugBank.d76.s14.e4" charOffset="250-259"
+            type="drug" text="alprazolam"/>
+        <pair id="DDI-DrugBank.d76.s14.p0" e1="DDI-DrugBank.d76.s14.e0"
+            e2="DDI-DrugBank.d76.s14.e1" ddi="false"/>
+        <pair id="DDI-DrugBank.d76.s14.p1" e1="DDI-DrugBank.d76.s14.e0"
+            e2="DDI-DrugBank.d76.s14.e2" ddi="false"/>
+        <pair id="DDI-DrugBank.d76.s14.p2" e1="DDI-DrugBank.d76.s14.e0"
+            e2="DDI-DrugBank.d76.s14.e3" ddi="false"/>
+        <pair id="DDI-DrugBank.d76.s14.p3" e1="DDI-DrugBank.d76.s14.e0"
+            e2="DDI-DrugBank.d76.s14.e4" ddi="false"/>
+        <pair id="DDI-DrugBank.d76.s14.p4" e1="DDI-DrugBank.d76.s14.e1"
+            e2="DDI-DrugBank.d76.s14.e2" ddi="true" type="mechanism"/>
+        <pair id="DDI-DrugBank.d76.s14.p5" e1="DDI-DrugBank.d76.s14.e1"
+            e2="DDI-DrugBank.d76.s14.e3" ddi="false"/>
+        <pair id="DDI-DrugBank.d76.s14.p6" e1="DDI-DrugBank.d76.s14.e1"
+            e2="DDI-DrugBank.d76.s14.e4" ddi="false"/>
+        <pair id="DDI-DrugBank.d76.s14.p7" e1="DDI-DrugBank.d76.s14.e2"
+            e2="DDI-DrugBank.d76.s14.e3" ddi="false"/>
+        <pair id="DDI-DrugBank.d76.s14.p8" e1="DDI-DrugBank.d76.s14.e2"
+            e2="DDI-DrugBank.d76.s14.e4" ddi="false"/>
+        <pair id="DDI-DrugBank.d76.s14.p9" e1="DDI-DrugBank.d76.s14.e3"
+            e2="DDI-DrugBank.d76.s14.e4" ddi="false"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d76.s15" text="oral clearance was reduced by about 50%."/>
+    <sentence id="DDI-DrugBank.d76.s16" text="The elevated plasma alprazolam concentrations resulted in decreased psychomotor performance and memory.">
+        <entity id="DDI-DrugBank.d76.s16.e0" charOffset="20-29"
+            type="drug" text="alprazolam"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d76.s17" text="This interaction, which has not been investigated using higher doses of fluvoxamine, may be more pronounced if a 300 mg daily dose is co-administered, particularly since fluvoxamine exhibits non-linear pharmacokinetics over the dosage range 100-300 mg. If alprazolam is co-administered with Fluvoxamine Tablets, the initial alprazolam dosage should be at least halved and titration to the lowest effective dose is recommended.">
+        <entity id="DDI-DrugBank.d76.s17.e0" charOffset="72-82"
+            type="drug" text="fluvoxamine"/>
+        <entity id="DDI-DrugBank.d76.s17.e1" charOffset="170-180"
+            type="drug" text="fluvoxamine"/>
+        <entity id="DDI-DrugBank.d76.s17.e2" charOffset="256-265"
+            type="drug" text="alprazolam"/>
+        <entity id="DDI-DrugBank.d76.s17.e3" charOffset="291-301"
+            type="drug" text="Fluvoxamine"/>
+        <entity id="DDI-DrugBank.d76.s17.e4" charOffset="324-333"
+            type="drug" text="alprazolam"/>
+        <pair id="DDI-DrugBank.d76.s17.p0" e1="DDI-DrugBank.d76.s17.e0"
+            e2="DDI-DrugBank.d76.s17.e1" ddi="false"/>
+        <pair id="DDI-DrugBank.d76.s17.p1" e1="DDI-DrugBank.d76.s17.e0"
+            e2="DDI-DrugBank.d76.s17.e2" ddi="false"/>
+        <pair id="DDI-DrugBank.d76.s17.p2" e1="DDI-DrugBank.d76.s17.e0"
+            e2="DDI-DrugBank.d76.s17.e3" ddi="false"/>
+        <pair id="DDI-DrugBank.d76.s17.p3" e1="DDI-DrugBank.d76.s17.e0"
+            e2="DDI-DrugBank.d76.s17.e4" ddi="false"/>
+        <pair id="DDI-DrugBank.d76.s17.p4" e1="DDI-DrugBank.d76.s17.e1"
+            e2="DDI-DrugBank.d76.s17.e2" ddi="false"/>
+        <pair id="DDI-DrugBank.d76.s17.p5" e1="DDI-DrugBank.d76.s17.e1"
+            e2="DDI-DrugBank.d76.s17.e3" ddi="false"/>
+        <pair id="DDI-DrugBank.d76.s17.p6" e1="DDI-DrugBank.d76.s17.e1"
+            e2="DDI-DrugBank.d76.s17.e4" ddi="false"/>
+        <pair id="DDI-DrugBank.d76.s17.p7" e1="DDI-DrugBank.d76.s17.e2"
+            e2="DDI-DrugBank.d76.s17.e3" ddi="true" type="advise"/>
+        <pair id="DDI-DrugBank.d76.s17.p8" e1="DDI-DrugBank.d76.s17.e2"
+            e2="DDI-DrugBank.d76.s17.e4" ddi="false"/>
+        <pair id="DDI-DrugBank.d76.s17.p9" e1="DDI-DrugBank.d76.s17.e3"
+            e2="DDI-DrugBank.d76.s17.e4" ddi="false"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d76.s18" text="No dosage adjustment is required for Fluvoxamine Tablets.">
+        <entity id="DDI-DrugBank.d76.s18.e0" charOffset="37-47"
+            type="drug" text="Fluvoxamine"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d76.s19" text="Diazepam: The co-administration of Fluvoxamine Tablets and diazepam is generally not advisable.">
+        <entity id="DDI-DrugBank.d76.s19.e0" charOffset="0-7"
+            type="drug" text="Diazepam"/>
+        <entity id="DDI-DrugBank.d76.s19.e1" charOffset="35-45"
+            type="drug" text="Fluvoxamine"/>
+        <entity id="DDI-DrugBank.d76.s19.e2" charOffset="59-66"
+            type="drug" text="diazepam"/>
+        <pair id="DDI-DrugBank.d76.s19.p0" e1="DDI-DrugBank.d76.s19.e0"
+            e2="DDI-DrugBank.d76.s19.e1" ddi="false"/>
+        <pair id="DDI-DrugBank.d76.s19.p1" e1="DDI-DrugBank.d76.s19.e0"
+            e2="DDI-DrugBank.d76.s19.e2" ddi="false"/>
+        <pair id="DDI-DrugBank.d76.s19.p2" e1="DDI-DrugBank.d76.s19.e1"
+            e2="DDI-DrugBank.d76.s19.e2" ddi="true" type="advise"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d76.s20" text="Because fluvoxamine reduces the clearance of both diazepam and its active metabolite, N-desmethyldiazepam, there is a strong likelihood of substantial accumulation of both species during chronic co-administration.">
+        <entity id="DDI-DrugBank.d76.s20.e0" charOffset="8-18"
+            type="drug" text="fluvoxamine"/>
+        <entity id="DDI-DrugBank.d76.s20.e1" charOffset="50-57"
+            type="drug" text="diazepam"/>
+        <entity id="DDI-DrugBank.d76.s20.e2" charOffset="86-104"
+            type="drug_n" text="N-desmethyldiazepam"/>
+        <pair id="DDI-DrugBank.d76.s20.p0" e1="DDI-DrugBank.d76.s20.e0"
+            e2="DDI-DrugBank.d76.s20.e1" ddi="true" type="mechanism"/>
+        <pair id="DDI-DrugBank.d76.s20.p1" e1="DDI-DrugBank.d76.s20.e0"
+            e2="DDI-DrugBank.d76.s20.e2" ddi="true" type="mechanism"/>
+        <pair id="DDI-DrugBank.d76.s20.p2" e1="DDI-DrugBank.d76.s20.e1"
+            e2="DDI-DrugBank.d76.s20.e2" ddi="false"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d76.s21" text="Evidence supporting the conclusion that it is inadvisable to co-administer fluvoxamine and diazepam is derived from a study in which healthy volunteers taking 150 mg/day of fluvoxamine were administered a single oral dose of 10 mg of diazepam.">
+        <entity id="DDI-DrugBank.d76.s21.e0" charOffset="75-85"
+            type="drug" text="fluvoxamine"/>
+        <entity id="DDI-DrugBank.d76.s21.e1" charOffset="91-98"
+            type="drug" text="diazepam"/>
+        <entity id="DDI-DrugBank.d76.s21.e2" charOffset="173-183"
+            type="drug" text="fluvoxamine"/>
+        <entity id="DDI-DrugBank.d76.s21.e3" charOffset="234-241"
+            type="drug" text="diazepam"/>
+        <pair id="DDI-DrugBank.d76.s21.p0" e1="DDI-DrugBank.d76.s21.e0"
+            e2="DDI-DrugBank.d76.s21.e1" ddi="true" type="advise"/>
+        <pair id="DDI-DrugBank.d76.s21.p1" e1="DDI-DrugBank.d76.s21.e0"
+            e2="DDI-DrugBank.d76.s21.e2" ddi="false"/>
+        <pair id="DDI-DrugBank.d76.s21.p2" e1="DDI-DrugBank.d76.s21.e0"
+            e2="DDI-DrugBank.d76.s21.e3" ddi="false"/>
+        <pair id="DDI-DrugBank.d76.s21.p3" e1="DDI-DrugBank.d76.s21.e1"
+            e2="DDI-DrugBank.d76.s21.e2" ddi="false"/>
+        <pair id="DDI-DrugBank.d76.s21.p4" e1="DDI-DrugBank.d76.s21.e1"
+            e2="DDI-DrugBank.d76.s21.e3" ddi="false"/>
+        <pair id="DDI-DrugBank.d76.s21.p5" e1="DDI-DrugBank.d76.s21.e2"
+            e2="DDI-DrugBank.d76.s21.e3" ddi="false"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d76.s22" text="In these subjects (R= B), the clearance of diazepam was reduced by 65% and that of N-desmethyldiazepam to a level that was too low to measure over the course of the 2 week long study.">
+        <entity id="DDI-DrugBank.d76.s22.e0" charOffset="43-50"
+            type="drug" text="diazepam"/>
+        <entity id="DDI-DrugBank.d76.s22.e1" charOffset="83-101"
+            type="drug_n" text="N-desmethyldiazepam"/>
+        <pair id="DDI-DrugBank.d76.s22.p0" e1="DDI-DrugBank.d76.s22.e0"
+            e2="DDI-DrugBank.d76.s22.e1" ddi="false"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d76.s23" text="It is likely that experience significantly underestimates the degree of accumulation that might occur with repealed diazepam administration.">
+        <entity id="DDI-DrugBank.d76.s23.e0" charOffset="116-123"
+            type="drug" text="diazepam"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d76.s24" text="Moreover, as noted with alprazolam, the effect of fluvoxamine may even be more pronounced when it is administered at higher doses.">
+        <entity id="DDI-DrugBank.d76.s24.e0" charOffset="24-33"
+            type="drug" text="alprazolam"/>
+        <entity id="DDI-DrugBank.d76.s24.e1" charOffset="50-60"
+            type="drug" text="fluvoxamine"/>
+        <pair id="DDI-DrugBank.d76.s24.p0" e1="DDI-DrugBank.d76.s24.e0"
+            e2="DDI-DrugBank.d76.s24.e1" ddi="true" type="effect"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d76.s25" text="Accordingly, diazepam and fluvoxamine should not ordinarily be co-administered.">
+        <entity id="DDI-DrugBank.d76.s25.e0" charOffset="13-20"
+            type="drug" text="diazepam"/>
+        <entity id="DDI-DrugBank.d76.s25.e1" charOffset="26-36"
+            type="drug" text="fluvoxamine"/>
+        <pair id="DDI-DrugBank.d76.s25.p0" e1="DDI-DrugBank.d76.s25.e0"
+            e2="DDI-DrugBank.d76.s25.e1" ddi="true" type="advise"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d76.s26" text="Theophylline: The effect of steady-state fluvoxamine l50 mg bid on the pharmacokinetics of a single dose of Theophylline (375 mg) as 442 mg aminophylline was evaluated in 12 healthy non-smoking, male volunteers.">
+        <entity id="DDI-DrugBank.d76.s26.e0" charOffset="0-11"
+            type="drug" text="Theophylline"/>
+        <entity id="DDI-DrugBank.d76.s26.e1" charOffset="41-51"
+            type="drug" text="fluvoxamine"/>
+        <entity id="DDI-DrugBank.d76.s26.e2" charOffset="108-119"
+            type="drug" text="Theophylline"/>
+        <entity id="DDI-DrugBank.d76.s26.e3" charOffset="140-152"
+            type="drug" text="aminophylline"/>
+        <pair id="DDI-DrugBank.d76.s26.p0" e1="DDI-DrugBank.d76.s26.e0"
+            e2="DDI-DrugBank.d76.s26.e1" ddi="false"/>
+        <pair id="DDI-DrugBank.d76.s26.p1" e1="DDI-DrugBank.d76.s26.e0"
+            e2="DDI-DrugBank.d76.s26.e2" ddi="false"/>
+        <pair id="DDI-DrugBank.d76.s26.p2" e1="DDI-DrugBank.d76.s26.e0"
+            e2="DDI-DrugBank.d76.s26.e3" ddi="false"/>
+        <pair id="DDI-DrugBank.d76.s26.p3" e1="DDI-DrugBank.d76.s26.e1"
+            e2="DDI-DrugBank.d76.s26.e2" ddi="false"/>
+        <pair id="DDI-DrugBank.d76.s26.p4" e1="DDI-DrugBank.d76.s26.e1"
+            e2="DDI-DrugBank.d76.s26.e3" ddi="false"/>
+        <pair id="DDI-DrugBank.d76.s26.p5" e1="DDI-DrugBank.d76.s26.e2"
+            e2="DDI-DrugBank.d76.s26.e3" ddi="false"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d76.s27" text="The clearance of theophylline was decreased approximately 3-fold.">
+        <entity id="DDI-DrugBank.d76.s27.e0" charOffset="17-28"
+            type="drug" text="theophylline"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d76.s28" text="Therefore, if theophylline is co-administered with fluvoxamine maleate, its dose should be reduced to one third of the usual daily maintenance dose and plasma concentrations of theophylline should to monitored.">
+        <entity id="DDI-DrugBank.d76.s28.e0" charOffset="14-25"
+            type="drug" text="theophylline"/>
+        <entity id="DDI-DrugBank.d76.s28.e1" charOffset="51-69"
+            type="drug" text="fluvoxamine maleate"/>
+        <entity id="DDI-DrugBank.d76.s28.e2" charOffset="177-188"
+            type="drug" text="theophylline"/>
+        <pair id="DDI-DrugBank.d76.s28.p0" e1="DDI-DrugBank.d76.s28.e0"
+            e2="DDI-DrugBank.d76.s28.e1" ddi="true" type="advise"/>
+        <pair id="DDI-DrugBank.d76.s28.p1" e1="DDI-DrugBank.d76.s28.e0"
+            e2="DDI-DrugBank.d76.s28.e2" ddi="false"/>
+        <pair id="DDI-DrugBank.d76.s28.p2" e1="DDI-DrugBank.d76.s28.e1"
+            e2="DDI-DrugBank.d76.s28.e2" ddi="false"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d76.s29" text="No dosage adjustment is required for Fluvoxamine Tablets.">
+        <entity id="DDI-DrugBank.d76.s29.e0" charOffset="37-47"
+            type="drug" text="Fluvoxamine"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d76.s30" text="Warfarin: When fluvoxamine maleate (50 mg tid) was administered concomitantly with warfarin for two weeks, warfarin plasma concentrations increased by 98% and prothrombin times were prolonged.">
+        <entity id="DDI-DrugBank.d76.s30.e0" charOffset="0-7"
+            type="drug" text="Warfarin"/>
+        <entity id="DDI-DrugBank.d76.s30.e1" charOffset="15-33"
+            type="drug" text="fluvoxamine maleate"/>
+        <entity id="DDI-DrugBank.d76.s30.e2" charOffset="83-90"
+            type="drug" text="warfarin"/>
+        <entity id="DDI-DrugBank.d76.s30.e3" charOffset="107-114"
+            type="drug" text="warfarin"/>
+        <pair id="DDI-DrugBank.d76.s30.p0" e1="DDI-DrugBank.d76.s30.e0"
+            e2="DDI-DrugBank.d76.s30.e1" ddi="false"/>
+        <pair id="DDI-DrugBank.d76.s30.p1" e1="DDI-DrugBank.d76.s30.e0"
+            e2="DDI-DrugBank.d76.s30.e2" ddi="false"/>
+        <pair id="DDI-DrugBank.d76.s30.p2" e1="DDI-DrugBank.d76.s30.e0"
+            e2="DDI-DrugBank.d76.s30.e3" ddi="false"/>
+        <pair id="DDI-DrugBank.d76.s30.p3" e1="DDI-DrugBank.d76.s30.e1"
+            e2="DDI-DrugBank.d76.s30.e2" ddi="true" type="mechanism"/>
+        <pair id="DDI-DrugBank.d76.s30.p4" e1="DDI-DrugBank.d76.s30.e1"
+            e2="DDI-DrugBank.d76.s30.e3" ddi="false"/>
+        <pair id="DDI-DrugBank.d76.s30.p5" e1="DDI-DrugBank.d76.s30.e2"
+            e2="DDI-DrugBank.d76.s30.e3" ddi="false"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d76.s31" text="Thus patients receiving oral anticoagulants and Fluvoxamine Tablets should have their prothrombin time monitored and their anticoagulant dose adjusted accordingly.">
+        <entity id="DDI-DrugBank.d76.s31.e0" charOffset="29-42"
+            type="group" text="anticoagulants"/>
+        <entity id="DDI-DrugBank.d76.s31.e1" charOffset="48-58"
+            type="drug" text="Fluvoxamine"/>
+        <entity id="DDI-DrugBank.d76.s31.e2" charOffset="123-135"
+            type="group" text="anticoagulant"/>
+        <pair id="DDI-DrugBank.d76.s31.p0" e1="DDI-DrugBank.d76.s31.e0"
+            e2="DDI-DrugBank.d76.s31.e1" ddi="true" type="advise"/>
+        <pair id="DDI-DrugBank.d76.s31.p1" e1="DDI-DrugBank.d76.s31.e0"
+            e2="DDI-DrugBank.d76.s31.e2" ddi="false"/>
+        <pair id="DDI-DrugBank.d76.s31.p2" e1="DDI-DrugBank.d76.s31.e1"
+            e2="DDI-DrugBank.d76.s31.e2" ddi="false"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d76.s32" text="No dosage adjustment is required for Fluvoxamine Tablets.">
+        <entity id="DDI-DrugBank.d76.s32.e0" charOffset="37-47"
+            type="drug" text="Fluvoxamine"/>
+    </sentence>
+</document>

@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="DDI-DrugBank.d467">
+    <sentence id="DDI-DrugBank.d467.s0" text="No formal studies to evaluate drug interactions with bexarotene have been conducted.">
+        <entity id="DDI-DrugBank.d467.s0.e0" charOffset="53-62"
+            type="drug" text="bexarotene"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d467.s1" text="Bexarotene oxidative metabolites appear to be formed by cytochrome P450 3A4.">
+        <entity id="DDI-DrugBank.d467.s1.e0" charOffset="0-9"
+            type="drug" text="Bexarotene"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d467.s2" text="On the basis of the metabolism of bexarotene by cytochrome P450 3A4, ketoconazole, itraconazole, erythromycin, gemfibrozil, grapefruit juice, and other inhibitors of cytochrome P450 3A4 would be expected to lead to an increase in plasma bexarotene concentrations.">
+        <entity id="DDI-DrugBank.d467.s2.e0" charOffset="34-43"
+            type="drug" text="bexarotene"/>
+        <entity id="DDI-DrugBank.d467.s2.e1" charOffset="69-80"
+            type="drug" text="ketoconazole"/>
+        <entity id="DDI-DrugBank.d467.s2.e2" charOffset="83-94"
+            type="drug" text="itraconazole"/>
+        <entity id="DDI-DrugBank.d467.s2.e3" charOffset="97-108"
+            type="drug" text="erythromycin"/>
+        <entity id="DDI-DrugBank.d467.s2.e4" charOffset="111-121"
+            type="drug" text="gemfibrozil"/>
+        <entity id="DDI-DrugBank.d467.s2.e5" charOffset="237-246"
+            type="drug" text="bexarotene"/>
+        <pair id="DDI-DrugBank.d467.s2.p0" e1="DDI-DrugBank.d467.s2.e0"
+            e2="DDI-DrugBank.d467.s2.e1" ddi="false"/>
+        <pair id="DDI-DrugBank.d467.s2.p1" e1="DDI-DrugBank.d467.s2.e0"
+            e2="DDI-DrugBank.d467.s2.e2" ddi="false"/>
+        <pair id="DDI-DrugBank.d467.s2.p2" e1="DDI-DrugBank.d467.s2.e0"
+            e2="DDI-DrugBank.d467.s2.e3" ddi="false"/>
+        <pair id="DDI-DrugBank.d467.s2.p3" e1="DDI-DrugBank.d467.s2.e0"
+            e2="DDI-DrugBank.d467.s2.e4" ddi="false"/>
+        <pair id="DDI-DrugBank.d467.s2.p4" e1="DDI-DrugBank.d467.s2.e0"
+            e2="DDI-DrugBank.d467.s2.e5" ddi="false"/>
+        <pair id="DDI-DrugBank.d467.s2.p5" e1="DDI-DrugBank.d467.s2.e1"
+            e2="DDI-DrugBank.d467.s2.e2" ddi="false"/>
+        <pair id="DDI-DrugBank.d467.s2.p6" e1="DDI-DrugBank.d467.s2.e1"
+            e2="DDI-DrugBank.d467.s2.e3" ddi="false"/>
+        <pair id="DDI-DrugBank.d467.s2.p7" e1="DDI-DrugBank.d467.s2.e1"
+            e2="DDI-DrugBank.d467.s2.e4" ddi="false"/>
+        <pair id="DDI-DrugBank.d467.s2.p8" e1="DDI-DrugBank.d467.s2.e1"
+            e2="DDI-DrugBank.d467.s2.e5" ddi="true" type="mechanism"/>
+        <pair id="DDI-DrugBank.d467.s2.p9" e1="DDI-DrugBank.d467.s2.e2"
+            e2="DDI-DrugBank.d467.s2.e3" ddi="false"/>
+        <pair id="DDI-DrugBank.d467.s2.p10" e1="DDI-DrugBank.d467.s2.e2"
+            e2="DDI-DrugBank.d467.s2.e4" ddi="false"/>
+        <pair id="DDI-DrugBank.d467.s2.p11" e1="DDI-DrugBank.d467.s2.e2"
+            e2="DDI-DrugBank.d467.s2.e5" ddi="true" type="mechanism"/>
+        <pair id="DDI-DrugBank.d467.s2.p12" e1="DDI-DrugBank.d467.s2.e3"
+            e2="DDI-DrugBank.d467.s2.e4" ddi="false"/>
+        <pair id="DDI-DrugBank.d467.s2.p13" e1="DDI-DrugBank.d467.s2.e3"
+            e2="DDI-DrugBank.d467.s2.e5" ddi="true" type="mechanism"/>
+        <pair id="DDI-DrugBank.d467.s2.p14" e1="DDI-DrugBank.d467.s2.e4"
+            e2="DDI-DrugBank.d467.s2.e5" ddi="true" type="mechanism"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d467.s3" text="Furthermore, rifampin, phenytoin, phenobarbital, and other inducers of cytochrome P450 3A4 may cause a reduction in plasma bexarotene concentrations.">
+        <entity id="DDI-DrugBank.d467.s3.e0" charOffset="13-20"
+            type="drug" text="rifampin"/>
+        <entity id="DDI-DrugBank.d467.s3.e1" charOffset="23-31"
+            type="drug" text="phenytoin"/>
+        <entity id="DDI-DrugBank.d467.s3.e2" charOffset="34-46"
+            type="drug" text="phenobarbital"/>
+        <entity id="DDI-DrugBank.d467.s3.e3" charOffset="123-132"
+            type="drug" text="bexarotene"/>
+        <pair id="DDI-DrugBank.d467.s3.p0" e1="DDI-DrugBank.d467.s3.e0"
+            e2="DDI-DrugBank.d467.s3.e1" ddi="false"/>
+        <pair id="DDI-DrugBank.d467.s3.p1" e1="DDI-DrugBank.d467.s3.e0"
+            e2="DDI-DrugBank.d467.s3.e2" ddi="false"/>
+        <pair id="DDI-DrugBank.d467.s3.p2" e1="DDI-DrugBank.d467.s3.e0"
+            e2="DDI-DrugBank.d467.s3.e3" ddi="true" type="mechanism"/>
+        <pair id="DDI-DrugBank.d467.s3.p3" e1="DDI-DrugBank.d467.s3.e1"
+            e2="DDI-DrugBank.d467.s3.e2" ddi="false"/>
+        <pair id="DDI-DrugBank.d467.s3.p4" e1="DDI-DrugBank.d467.s3.e1"
+            e2="DDI-DrugBank.d467.s3.e3" ddi="true" type="mechanism"/>
+        <pair id="DDI-DrugBank.d467.s3.p5" e1="DDI-DrugBank.d467.s3.e2"
+            e2="DDI-DrugBank.d467.s3.e3" ddi="true" type="mechanism"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d467.s4" text="Concomitant administration of Targretin capsules and gemfibrozil resulted in substantial increases in plasma concentrations of bexarotene, probably at least partially related to cytochrome P450 3A4 inhibition by gemfibrozil.">
+        <entity id="DDI-DrugBank.d467.s4.e0" charOffset="30-38"
+            type="brand" text="Targretin"/>
+        <entity id="DDI-DrugBank.d467.s4.e1" charOffset="53-63"
+            type="drug" text="gemfibrozil"/>
+        <entity id="DDI-DrugBank.d467.s4.e2" charOffset="127-136"
+            type="drug" text="bexarotene"/>
+        <entity id="DDI-DrugBank.d467.s4.e3" charOffset="212-222"
+            type="drug" text="gemfibrozil"/>
+        <pair id="DDI-DrugBank.d467.s4.p0" e1="DDI-DrugBank.d467.s4.e0"
+            e2="DDI-DrugBank.d467.s4.e1" ddi="true" type="mechanism"/>
+        <pair id="DDI-DrugBank.d467.s4.p1" e1="DDI-DrugBank.d467.s4.e0"
+            e2="DDI-DrugBank.d467.s4.e2" ddi="false"/>
+        <pair id="DDI-DrugBank.d467.s4.p2" e1="DDI-DrugBank.d467.s4.e0"
+            e2="DDI-DrugBank.d467.s4.e3" ddi="false"/>
+        <pair id="DDI-DrugBank.d467.s4.p3" e1="DDI-DrugBank.d467.s4.e1"
+            e2="DDI-DrugBank.d467.s4.e2" ddi="false"/>
+        <pair id="DDI-DrugBank.d467.s4.p4" e1="DDI-DrugBank.d467.s4.e1"
+            e2="DDI-DrugBank.d467.s4.e3" ddi="false"/>
+        <pair id="DDI-DrugBank.d467.s4.p5" e1="DDI-DrugBank.d467.s4.e2"
+            e2="DDI-DrugBank.d467.s4.e3" ddi="false"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d467.s5" text="Under similar conditions, bexarotene concentrations were not affected by concomitant atorvastatin administration.">
+        <entity id="DDI-DrugBank.d467.s5.e0" charOffset="26-35"
+            type="drug" text="bexarotene"/>
+        <entity id="DDI-DrugBank.d467.s5.e1" charOffset="85-96"
+            type="drug" text="atorvastatin"/>
+        <pair id="DDI-DrugBank.d467.s5.p0" e1="DDI-DrugBank.d467.s5.e0"
+            e2="DDI-DrugBank.d467.s5.e1" ddi="false"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d467.s6" text="Concomitant administration of gemfibrozil with Targretin capsules is not recommended.">
+        <entity id="DDI-DrugBank.d467.s6.e0" charOffset="30-40"
+            type="drug" text="gemfibrozil"/>
+        <entity id="DDI-DrugBank.d467.s6.e1" charOffset="47-55"
+            type="brand" text="Targretin"/>
+        <pair id="DDI-DrugBank.d467.s6.p0" e1="DDI-DrugBank.d467.s6.e0"
+            e2="DDI-DrugBank.d467.s6.e1" ddi="true" type="advise"/>
+    </sentence>
+</document>

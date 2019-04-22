@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="DDI-MedLine.d231">
+    <sentence id="DDI-MedLine.d231.s0" text="Interaction study of moxifloxacin and lomefloxacin with co-administered drugs.&#xa;">
+        <entity id="DDI-MedLine.d231.s0.e0" charOffset="21-32"
+            type="drug" text="moxifloxacin"/>
+        <entity id="DDI-MedLine.d231.s0.e1" charOffset="38-49"
+            type="drug" text="lomefloxacin"/>
+        <pair id="DDI-MedLine.d231.s0.p0" e1="DDI-MedLine.d231.s0.e0"
+            e2="DDI-MedLine.d231.s0.e1" ddi="false"/>
+    </sentence>
+    <sentence id="DDI-MedLine.d231.s1" text="Moxifloxacin and lomefloxacin are fluoroquinolone antibiotics used in treating urinary and respiratory tract infections. ">
+        <entity id="DDI-MedLine.d231.s1.e0" charOffset="0-11"
+            type="drug" text="Moxifloxacin"/>
+        <entity id="DDI-MedLine.d231.s1.e1" charOffset="17-28"
+            type="drug" text="lomefloxacin"/>
+        <entity id="DDI-MedLine.d231.s1.e2" charOffset="34-60"
+            type="group" text="fluoroquinolone antibiotics"/>
+        <pair id="DDI-MedLine.d231.s1.p0" e1="DDI-MedLine.d231.s1.e0"
+            e2="DDI-MedLine.d231.s1.e1" ddi="false"/>
+        <pair id="DDI-MedLine.d231.s1.p1" e1="DDI-MedLine.d231.s1.e0"
+            e2="DDI-MedLine.d231.s1.e2" ddi="false"/>
+        <pair id="DDI-MedLine.d231.s1.p2" e1="DDI-MedLine.d231.s1.e1"
+            e2="DDI-MedLine.d231.s1.e2" ddi="false"/>
+    </sentence>
+    <sentence id="DDI-MedLine.d231.s2" text="Fluoroquinolones are known to have interactions with drugs that are active in gastro intestinal tract. ">
+        <entity id="DDI-MedLine.d231.s2.e0" charOffset="0-15"
+            type="group" text="Fluoroquinolones"/>
+    </sentence>
+    <sentence id="DDI-MedLine.d231.s3" text="Being moxifloxacin and lomefloxacin fluoroquinolones the interaction study of was carried out with sucralfate, gelusil, erythromycin and multi minerals. ">
+        <entity id="DDI-MedLine.d231.s3.e0" charOffset="6-17"
+            type="drug" text="moxifloxacin"/>
+        <entity id="DDI-MedLine.d231.s3.e1" charOffset="36-51"
+            type="group" text="fluoroquinolones"/>
+        <entity id="DDI-MedLine.d231.s3.e2" charOffset="99-108"
+            type="drug" text="sucralfate"/>
+        <entity id="DDI-MedLine.d231.s3.e3" charOffset="111-117"
+            type="brand" text="gelusil"/>
+        <entity id="DDI-MedLine.d231.s3.e4" charOffset="120-131"
+            type="drug" text="erythromycin"/>
+        <entity id="DDI-MedLine.d231.s3.e5" charOffset="137-150"
+            type="group" text="multi minerals"/>
+        <pair id="DDI-MedLine.d231.s3.p0" e1="DDI-MedLine.d231.s3.e0"
+            e2="DDI-MedLine.d231.s3.e1" ddi="false"/>
+        <pair id="DDI-MedLine.d231.s3.p1" e1="DDI-MedLine.d231.s3.e0"
+            e2="DDI-MedLine.d231.s3.e2" ddi="false"/>
+        <pair id="DDI-MedLine.d231.s3.p2" e1="DDI-MedLine.d231.s3.e0"
+            e2="DDI-MedLine.d231.s3.e3" ddi="false"/>
+        <pair id="DDI-MedLine.d231.s3.p3" e1="DDI-MedLine.d231.s3.e0"
+            e2="DDI-MedLine.d231.s3.e4" ddi="false"/>
+        <pair id="DDI-MedLine.d231.s3.p4" e1="DDI-MedLine.d231.s3.e0"
+            e2="DDI-MedLine.d231.s3.e5" ddi="false"/>
+        <pair id="DDI-MedLine.d231.s3.p5" e1="DDI-MedLine.d231.s3.e1"
+            e2="DDI-MedLine.d231.s3.e2" ddi="false"/>
+        <pair id="DDI-MedLine.d231.s3.p6" e1="DDI-MedLine.d231.s3.e1"
+            e2="DDI-MedLine.d231.s3.e3" ddi="false"/>
+        <pair id="DDI-MedLine.d231.s3.p7" e1="DDI-MedLine.d231.s3.e1"
+            e2="DDI-MedLine.d231.s3.e4" ddi="false"/>
+        <pair id="DDI-MedLine.d231.s3.p8" e1="DDI-MedLine.d231.s3.e1"
+            e2="DDI-MedLine.d231.s3.e5" ddi="false"/>
+        <pair id="DDI-MedLine.d231.s3.p9" e1="DDI-MedLine.d231.s3.e2"
+            e2="DDI-MedLine.d231.s3.e3" ddi="false"/>
+        <pair id="DDI-MedLine.d231.s3.p10" e1="DDI-MedLine.d231.s3.e2"
+            e2="DDI-MedLine.d231.s3.e4" ddi="false"/>
+        <pair id="DDI-MedLine.d231.s3.p11" e1="DDI-MedLine.d231.s3.e2"
+            e2="DDI-MedLine.d231.s3.e5" ddi="false"/>
+        <pair id="DDI-MedLine.d231.s3.p12" e1="DDI-MedLine.d231.s3.e3"
+            e2="DDI-MedLine.d231.s3.e4" ddi="false"/>
+        <pair id="DDI-MedLine.d231.s3.p13" e1="DDI-MedLine.d231.s3.e3"
+            e2="DDI-MedLine.d231.s3.e5" ddi="false"/>
+        <pair id="DDI-MedLine.d231.s3.p14" e1="DDI-MedLine.d231.s3.e4"
+            e2="DDI-MedLine.d231.s3.e5" ddi="false"/>
+    </sentence>
+    <sentence id="DDI-MedLine.d231.s4" text="The interaction was studied at neutral, acidic and basic conditions both at room temperature and 37  C. "/>
+    <sentence id="DDI-MedLine.d231.s5" text="The effect of dissolution medium simulating various body environments with response to pH has been examined in order to elucidate the interactions. "/>
+    <sentence id="DDI-MedLine.d231.s6" text="The response of moxifloxacin and lomefloxacin after interaction with co-administered drugs at different conditions and temperature were noted using a Shimadzu HPLC system with PDA detector. ">
+        <entity id="DDI-MedLine.d231.s6.e0" charOffset="16-27"
+            type="drug" text="moxifloxacin"/>
+        <entity id="DDI-MedLine.d231.s6.e1" charOffset="33-44"
+            type="drug" text="lomefloxacin"/>
+        <pair id="DDI-MedLine.d231.s6.p0" e1="DDI-MedLine.d231.s6.e0"
+            e2="DDI-MedLine.d231.s6.e1" ddi="false"/>
+    </sentence>
+    <sentence id="DDI-MedLine.d231.s7" text="It was seen that interaction of these fluoroquinolones was more at 37  C than at room temperature. ">
+        <entity id="DDI-MedLine.d231.s7.e0" charOffset="38-53"
+            type="group" text="fluoroquinolones"/>
+    </sentence>
+    <sentence id="DDI-MedLine.d231.s8" text="Moxifloxacin and Lomefloxacin reacts faster with sucralfate and gelusil in acidic media whereas with erythromycin in basic media and multi-minerals in neutral media. ">
+        <entity id="DDI-MedLine.d231.s8.e0" charOffset="0-11"
+            type="drug" text="Moxifloxacin"/>
+        <entity id="DDI-MedLine.d231.s8.e1" charOffset="17-28"
+            type="drug" text="Lomefloxacin"/>
+        <entity id="DDI-MedLine.d231.s8.e2" charOffset="49-58"
+            type="drug" text="sucralfate"/>
+        <entity id="DDI-MedLine.d231.s8.e3" charOffset="64-70"
+            type="brand" text="gelusil"/>
+        <entity id="DDI-MedLine.d231.s8.e4" charOffset="101-112"
+            type="drug" text="erythromycin"/>
+        <entity id="DDI-MedLine.d231.s8.e5" charOffset="133-146"
+            type="group" text="multi-minerals"/>
+        <pair id="DDI-MedLine.d231.s8.p0" e1="DDI-MedLine.d231.s8.e0"
+            e2="DDI-MedLine.d231.s8.e1" ddi="false"/>
+        <pair id="DDI-MedLine.d231.s8.p1" e1="DDI-MedLine.d231.s8.e0"
+            e2="DDI-MedLine.d231.s8.e2" ddi="true" type="mechanism"/>
+        <pair id="DDI-MedLine.d231.s8.p2" e1="DDI-MedLine.d231.s8.e0"
+            e2="DDI-MedLine.d231.s8.e3" ddi="true" type="mechanism"/>
+        <pair id="DDI-MedLine.d231.s8.p3" e1="DDI-MedLine.d231.s8.e0"
+            e2="DDI-MedLine.d231.s8.e4" ddi="true" type="mechanism"/>
+        <pair id="DDI-MedLine.d231.s8.p4" e1="DDI-MedLine.d231.s8.e0"
+            e2="DDI-MedLine.d231.s8.e5" ddi="true" type="mechanism"/>
+        <pair id="DDI-MedLine.d231.s8.p5" e1="DDI-MedLine.d231.s8.e1"
+            e2="DDI-MedLine.d231.s8.e2" ddi="true" type="mechanism"/>
+        <pair id="DDI-MedLine.d231.s8.p6" e1="DDI-MedLine.d231.s8.e1"
+            e2="DDI-MedLine.d231.s8.e3" ddi="true" type="mechanism"/>
+        <pair id="DDI-MedLine.d231.s8.p7" e1="DDI-MedLine.d231.s8.e1"
+            e2="DDI-MedLine.d231.s8.e4" ddi="true" type="mechanism"/>
+        <pair id="DDI-MedLine.d231.s8.p8" e1="DDI-MedLine.d231.s8.e1"
+            e2="DDI-MedLine.d231.s8.e5" ddi="true" type="mechanism"/>
+        <pair id="DDI-MedLine.d231.s8.p9" e1="DDI-MedLine.d231.s8.e2"
+            e2="DDI-MedLine.d231.s8.e3" ddi="false"/>
+        <pair id="DDI-MedLine.d231.s8.p10" e1="DDI-MedLine.d231.s8.e2"
+            e2="DDI-MedLine.d231.s8.e4" ddi="false"/>
+        <pair id="DDI-MedLine.d231.s8.p11" e1="DDI-MedLine.d231.s8.e2"
+            e2="DDI-MedLine.d231.s8.e5" ddi="false"/>
+        <pair id="DDI-MedLine.d231.s8.p12" e1="DDI-MedLine.d231.s8.e3"
+            e2="DDI-MedLine.d231.s8.e4" ddi="false"/>
+        <pair id="DDI-MedLine.d231.s8.p13" e1="DDI-MedLine.d231.s8.e3"
+            e2="DDI-MedLine.d231.s8.e5" ddi="false"/>
+        <pair id="DDI-MedLine.d231.s8.p14" e1="DDI-MedLine.d231.s8.e4"
+            e2="DDI-MedLine.d231.s8.e5" ddi="false"/>
+    </sentence>
+    <sentence id="DDI-MedLine.d231.s9" text="The study ensures the interaction of fluoroquinolones with selected class of drugs. ">
+        <entity id="DDI-MedLine.d231.s9.e0" charOffset="37-52"
+            type="group" text="fluoroquinolones"/>
+    </sentence>
+    <sentence id="DDI-MedLine.d231.s10" text="In order to achieve the effective therapeutic effect appropriate time intervals between administrations of drugs is essential."/>
+</document>

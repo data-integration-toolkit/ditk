@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="DDI-DrugBank.d642">
+    <sentence id="DDI-DrugBank.d642.s0" text="Prothrombin time or other suitable anticoagulation test should be monitored if tigecycline is administered with warfarin.   ">
+        <entity id="DDI-DrugBank.d642.s0.e0" charOffset="79-89"
+            type="drug" text="tigecycline"/>
+        <entity id="DDI-DrugBank.d642.s0.e1" charOffset="112-119"
+            type="drug" text="warfarin"/>
+        <pair id="DDI-DrugBank.d642.s0.p0" e1="DDI-DrugBank.d642.s0.e0"
+            e2="DDI-DrugBank.d642.s0.e1" ddi="true" type="advise"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d642.s1" text="Concurrent use of antibacterial drugs with oral contraceptives may render oral contraceptives less effective.  ">
+        <entity id="DDI-DrugBank.d642.s1.e0" charOffset="18-36"
+            type="group" text="antibacterial drugs"/>
+        <entity id="DDI-DrugBank.d642.s1.e1" charOffset="48-61"
+            type="group" text="contraceptives"/>
+        <entity id="DDI-DrugBank.d642.s1.e2" charOffset="79-92"
+            type="group" text="contraceptives"/>
+        <pair id="DDI-DrugBank.d642.s1.p0" e1="DDI-DrugBank.d642.s1.e0"
+            e2="DDI-DrugBank.d642.s1.e1" ddi="true" type="effect"/>
+        <pair id="DDI-DrugBank.d642.s1.p1" e1="DDI-DrugBank.d642.s1.e0"
+            e2="DDI-DrugBank.d642.s1.e2" ddi="false"/>
+        <pair id="DDI-DrugBank.d642.s1.p2" e1="DDI-DrugBank.d642.s1.e1"
+            e2="DDI-DrugBank.d642.s1.e2" ddi="false"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d642.s2" text="Drug/Laboratory Test Interactions  There are no reported drug-laboratory test interactions."/>
+</document>

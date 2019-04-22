@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="DDI-DrugBank.d709">
+    <sentence id="DDI-DrugBank.d709.s0" text="Concomitant administration contra-indicated:  - Vasoconstrictive ergot alkaloids.  ">
+        <entity id="DDI-DrugBank.d709.s0.e0" charOffset="65-79"
+            type="group" text="ergot alkaloids"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d709.s1" text="Concomitant administrations not recommended:  - Terfenadine and astemizole: Certain macrolides interact with terfenadine and astemizole leading to increased serum concentrations of the latter. ">
+        <entity id="DDI-DrugBank.d709.s1.e0" charOffset="48-58"
+            type="drug" text="Terfenadine"/>
+        <entity id="DDI-DrugBank.d709.s1.e1" charOffset="64-73"
+            type="drug" text="astemizole"/>
+        <entity id="DDI-DrugBank.d709.s1.e2" charOffset="84-93"
+            type="group" text="macrolides"/>
+        <entity id="DDI-DrugBank.d709.s1.e3" charOffset="109-119"
+            type="drug" text="terfenadine"/>
+        <entity id="DDI-DrugBank.d709.s1.e4" charOffset="125-134"
+            type="drug" text="astemizole"/>
+        <pair id="DDI-DrugBank.d709.s1.p0" e1="DDI-DrugBank.d709.s1.e0"
+            e2="DDI-DrugBank.d709.s1.e1" ddi="false"/>
+        <pair id="DDI-DrugBank.d709.s1.p1" e1="DDI-DrugBank.d709.s1.e0"
+            e2="DDI-DrugBank.d709.s1.e2" ddi="false"/>
+        <pair id="DDI-DrugBank.d709.s1.p2" e1="DDI-DrugBank.d709.s1.e0"
+            e2="DDI-DrugBank.d709.s1.e3" ddi="false"/>
+        <pair id="DDI-DrugBank.d709.s1.p3" e1="DDI-DrugBank.d709.s1.e0"
+            e2="DDI-DrugBank.d709.s1.e4" ddi="false"/>
+        <pair id="DDI-DrugBank.d709.s1.p4" e1="DDI-DrugBank.d709.s1.e1"
+            e2="DDI-DrugBank.d709.s1.e2" ddi="false"/>
+        <pair id="DDI-DrugBank.d709.s1.p5" e1="DDI-DrugBank.d709.s1.e1"
+            e2="DDI-DrugBank.d709.s1.e3" ddi="false"/>
+        <pair id="DDI-DrugBank.d709.s1.p6" e1="DDI-DrugBank.d709.s1.e1"
+            e2="DDI-DrugBank.d709.s1.e4" ddi="false"/>
+        <pair id="DDI-DrugBank.d709.s1.p7" e1="DDI-DrugBank.d709.s1.e2"
+            e2="DDI-DrugBank.d709.s1.e3" ddi="true" type="int"/>
+        <pair id="DDI-DrugBank.d709.s1.p8" e1="DDI-DrugBank.d709.s1.e2"
+            e2="DDI-DrugBank.d709.s1.e4" ddi="true" type="int"/>
+        <pair id="DDI-DrugBank.d709.s1.p9" e1="DDI-DrugBank.d709.s1.e3"
+            e2="DDI-DrugBank.d709.s1.e4" ddi="false"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d709.s2" text="This may result in severe ventricular arrhythmia, typically torsades de pointe. "/>
+    <sentence id="DDI-DrugBank.d709.s3" text="Although such a reaction has not been demonstrated with roxithromycin, concomitant administration of roxithromycin with terfenadine or astemizole is not recommended. ">
+        <entity id="DDI-DrugBank.d709.s3.e0" charOffset="56-68"
+            type="drug" text="roxithromycin"/>
+        <entity id="DDI-DrugBank.d709.s3.e1" charOffset="101-113"
+            type="drug" text="roxithromycin"/>
+        <entity id="DDI-DrugBank.d709.s3.e2" charOffset="120-130"
+            type="drug" text="terfenadine"/>
+        <entity id="DDI-DrugBank.d709.s3.e3" charOffset="135-144"
+            type="drug" text="astemizole"/>
+        <pair id="DDI-DrugBank.d709.s3.p0" e1="DDI-DrugBank.d709.s3.e0"
+            e2="DDI-DrugBank.d709.s3.e1" ddi="false"/>
+        <pair id="DDI-DrugBank.d709.s3.p1" e1="DDI-DrugBank.d709.s3.e0"
+            e2="DDI-DrugBank.d709.s3.e2" ddi="false"/>
+        <pair id="DDI-DrugBank.d709.s3.p2" e1="DDI-DrugBank.d709.s3.e0"
+            e2="DDI-DrugBank.d709.s3.e3" ddi="false"/>
+        <pair id="DDI-DrugBank.d709.s3.p3" e1="DDI-DrugBank.d709.s3.e1"
+            e2="DDI-DrugBank.d709.s3.e2" ddi="true" type="advise"/>
+        <pair id="DDI-DrugBank.d709.s3.p4" e1="DDI-DrugBank.d709.s3.e1"
+            e2="DDI-DrugBank.d709.s3.e3" ddi="true" type="advise"/>
+        <pair id="DDI-DrugBank.d709.s3.p5" e1="DDI-DrugBank.d709.s3.e2"
+            e2="DDI-DrugBank.d709.s3.e3" ddi="false"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d709.s4" text="- Cisapride, pimozide: Other drugs such as cisapride or pimozide, which are metabolised by hepatic CYP3A isozymes have been associated with QT interval prolongation and/or cardiac arrythmias (typically torsades de pointe) as a result of increase in their serum level subsequent to interaction with significant inhibitors of the isozyme, including some macrolide antibacterials. ">
+        <entity id="DDI-DrugBank.d709.s4.e0" charOffset="2-10"
+            type="drug" text="Cisapride"/>
+        <entity id="DDI-DrugBank.d709.s4.e1" charOffset="13-20"
+            type="drug" text="pimozide"/>
+        <entity id="DDI-DrugBank.d709.s4.e2" charOffset="43-51"
+            type="drug" text="cisapride"/>
+        <entity id="DDI-DrugBank.d709.s4.e3" charOffset="56-63"
+            type="drug" text="pimozide"/>
+        <entity id="DDI-DrugBank.d709.s4.e4" charOffset="352-375"
+            type="group" text="macrolide antibacterials"/>
+        <pair id="DDI-DrugBank.d709.s4.p0" e1="DDI-DrugBank.d709.s4.e0"
+            e2="DDI-DrugBank.d709.s4.e1" ddi="false"/>
+        <pair id="DDI-DrugBank.d709.s4.p1" e1="DDI-DrugBank.d709.s4.e0"
+            e2="DDI-DrugBank.d709.s4.e2" ddi="false"/>
+        <pair id="DDI-DrugBank.d709.s4.p2" e1="DDI-DrugBank.d709.s4.e0"
+            e2="DDI-DrugBank.d709.s4.e3" ddi="false"/>
+        <pair id="DDI-DrugBank.d709.s4.p3" e1="DDI-DrugBank.d709.s4.e0"
+            e2="DDI-DrugBank.d709.s4.e4" ddi="false"/>
+        <pair id="DDI-DrugBank.d709.s4.p4" e1="DDI-DrugBank.d709.s4.e1"
+            e2="DDI-DrugBank.d709.s4.e2" ddi="false"/>
+        <pair id="DDI-DrugBank.d709.s4.p5" e1="DDI-DrugBank.d709.s4.e1"
+            e2="DDI-DrugBank.d709.s4.e3" ddi="false"/>
+        <pair id="DDI-DrugBank.d709.s4.p6" e1="DDI-DrugBank.d709.s4.e1"
+            e2="DDI-DrugBank.d709.s4.e4" ddi="true" type="mechanism"/>
+        <pair id="DDI-DrugBank.d709.s4.p7" e1="DDI-DrugBank.d709.s4.e2"
+            e2="DDI-DrugBank.d709.s4.e3" ddi="false"/>
+        <pair id="DDI-DrugBank.d709.s4.p8" e1="DDI-DrugBank.d709.s4.e2"
+            e2="DDI-DrugBank.d709.s4.e4" ddi="true" type="mechanism"/>
+        <pair id="DDI-DrugBank.d709.s4.p9" e1="DDI-DrugBank.d709.s4.e3"
+            e2="DDI-DrugBank.d709.s4.e4" ddi="false"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d709.s5" text="Although such a risk is not verified for roxithromycin, combination of roxithromycin with such drugs is not recommended.">
+        <entity id="DDI-DrugBank.d709.s5.e0" charOffset="41-53"
+            type="drug" text="roxithromycin"/>
+        <entity id="DDI-DrugBank.d709.s5.e1" charOffset="71-83"
+            type="drug" text="roxithromycin"/>
+        <pair id="DDI-DrugBank.d709.s5.p0" e1="DDI-DrugBank.d709.s5.e0"
+            e2="DDI-DrugBank.d709.s5.e1" ddi="false"/>
+    </sentence>
+</document>

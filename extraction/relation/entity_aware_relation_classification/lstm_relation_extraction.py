@@ -162,7 +162,7 @@ class LSTM_relation_extraction(RelationExtraction):
                 log_device_placement=FLAGS.log_device_placement)
             session_conf.gpu_options.allow_growth = FLAGS.gpu_allow_growth
             sess = tf.Session(config=session_conf)
-            cls.sess = sess
+            self.sess = sess
             with sess.as_default():
                 model = EntityAttentionLSTM(
                     sequence_length=train_x.shape[1],
@@ -367,8 +367,8 @@ class LSTM_relation_extraction(RelationExtraction):
             sentence = sentence.replace("e11 ", "").replace("e12 ", "").replace("e21 ", "").replace(" e22", "")
             e1 = tokens[self.test_data["e1"][i]]
             e2 = tokens[self.test_data["e2"][i]]
-            truth = utils.label2class[self.test_data["relation"][i]]
-            prediction = utils.label2class[predictions[i]]
+            truth = utils.label2class[FLAGS.data_type][self.test_data["relation"][i]]
+            prediction = utils.label2class[FLAGS.data_type][predictions[i]]
 
             res.append([sentence, e1, e2, predictions[i], self.test_data["relation"][i]])
             # res.append([sentence, e1, e2, prediction, truth])

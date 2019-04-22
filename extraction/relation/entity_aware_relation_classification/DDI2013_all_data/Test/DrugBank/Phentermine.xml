@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="DDI-DrugBank.d750">
+    <sentence id="DDI-DrugBank.d750.s0" text="Concomitant use of alcohol with phentermine hydrochloride may result in an adverse drug interaction.">
+        <entity id="DDI-DrugBank.d750.s0.e0" charOffset="19-25"
+            type="drug" text="alcohol"/>
+        <entity id="DDI-DrugBank.d750.s0.e1" charOffset="32-56"
+            type="drug" text="phentermine hydrochloride"/>
+        <pair id="DDI-DrugBank.d750.s0.p0" e1="DDI-DrugBank.d750.s0.e0"
+            e2="DDI-DrugBank.d750.s0.e1" ddi="true" type="int"/>
+    </sentence>
+</document>

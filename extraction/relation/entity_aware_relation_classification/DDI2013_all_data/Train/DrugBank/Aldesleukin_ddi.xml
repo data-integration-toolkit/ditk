@@ -1,0 +1,273 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="DDI-DrugBank.d114">
+    <sentence id="DDI-DrugBank.d114.s0" text="PROLEUKIN may affect central nervous function.">
+        <entity id="DDI-DrugBank.d114.s0.e0" charOffset="0-8"
+            type="brand" text="PROLEUKIN"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d114.s1" text="Therefore, interactions could occur following concomitant administration of psychotropic drugs (e.g., narcotics, analgesics, antiemetics, sedatives, tranquilizers).">
+        <entity id="DDI-DrugBank.d114.s1.e0" charOffset="76-93"
+            type="group" text="psychotropic drugs"/>
+        <entity id="DDI-DrugBank.d114.s1.e1" charOffset="102-110"
+            type="group" text="narcotics"/>
+        <entity id="DDI-DrugBank.d114.s1.e2" charOffset="113-122"
+            type="group" text="analgesics"/>
+        <entity id="DDI-DrugBank.d114.s1.e3" charOffset="125-135"
+            type="group" text="antiemetics"/>
+        <entity id="DDI-DrugBank.d114.s1.e4" charOffset="138-146"
+            type="group" text="sedatives"/>
+        <entity id="DDI-DrugBank.d114.s1.e5" charOffset="149-161"
+            type="group" text="tranquilizers"/>
+        <pair id="DDI-DrugBank.d114.s1.p0" e1="DDI-DrugBank.d114.s1.e0"
+            e2="DDI-DrugBank.d114.s1.e1" ddi="false"/>
+        <pair id="DDI-DrugBank.d114.s1.p1" e1="DDI-DrugBank.d114.s1.e0"
+            e2="DDI-DrugBank.d114.s1.e2" ddi="false"/>
+        <pair id="DDI-DrugBank.d114.s1.p2" e1="DDI-DrugBank.d114.s1.e0"
+            e2="DDI-DrugBank.d114.s1.e3" ddi="false"/>
+        <pair id="DDI-DrugBank.d114.s1.p3" e1="DDI-DrugBank.d114.s1.e0"
+            e2="DDI-DrugBank.d114.s1.e4" ddi="false"/>
+        <pair id="DDI-DrugBank.d114.s1.p4" e1="DDI-DrugBank.d114.s1.e0"
+            e2="DDI-DrugBank.d114.s1.e5" ddi="false"/>
+        <pair id="DDI-DrugBank.d114.s1.p5" e1="DDI-DrugBank.d114.s1.e1"
+            e2="DDI-DrugBank.d114.s1.e2" ddi="false"/>
+        <pair id="DDI-DrugBank.d114.s1.p6" e1="DDI-DrugBank.d114.s1.e1"
+            e2="DDI-DrugBank.d114.s1.e3" ddi="false"/>
+        <pair id="DDI-DrugBank.d114.s1.p7" e1="DDI-DrugBank.d114.s1.e1"
+            e2="DDI-DrugBank.d114.s1.e4" ddi="false"/>
+        <pair id="DDI-DrugBank.d114.s1.p8" e1="DDI-DrugBank.d114.s1.e1"
+            e2="DDI-DrugBank.d114.s1.e5" ddi="false"/>
+        <pair id="DDI-DrugBank.d114.s1.p9" e1="DDI-DrugBank.d114.s1.e2"
+            e2="DDI-DrugBank.d114.s1.e3" ddi="false"/>
+        <pair id="DDI-DrugBank.d114.s1.p10" e1="DDI-DrugBank.d114.s1.e2"
+            e2="DDI-DrugBank.d114.s1.e4" ddi="false"/>
+        <pair id="DDI-DrugBank.d114.s1.p11" e1="DDI-DrugBank.d114.s1.e2"
+            e2="DDI-DrugBank.d114.s1.e5" ddi="false"/>
+        <pair id="DDI-DrugBank.d114.s1.p12" e1="DDI-DrugBank.d114.s1.e3"
+            e2="DDI-DrugBank.d114.s1.e4" ddi="false"/>
+        <pair id="DDI-DrugBank.d114.s1.p13" e1="DDI-DrugBank.d114.s1.e3"
+            e2="DDI-DrugBank.d114.s1.e5" ddi="false"/>
+        <pair id="DDI-DrugBank.d114.s1.p14" e1="DDI-DrugBank.d114.s1.e4"
+            e2="DDI-DrugBank.d114.s1.e5" ddi="false"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d114.s2" text="Concurrent administration of drugs possessing nephrotoxic (e.g., aminoglycosides, indomethacin), myelotoxic (e.g., cytotoxic chemotherapy), cardiotoxic (e.g., doxorubicin) or hepatotoxic (e.g., methotrexate, asparaginase) effects with PROLEUKIN may increase toxicity in these organ systems.">
+        <entity id="DDI-DrugBank.d114.s2.e0" charOffset="65-79"
+            type="group" text="aminoglycosides"/>
+        <entity id="DDI-DrugBank.d114.s2.e1" charOffset="82-93"
+            type="drug" text="indomethacin"/>
+        <entity id="DDI-DrugBank.d114.s2.e2" charOffset="115-123"
+            type="group" text="cytotoxic"/>
+        <entity id="DDI-DrugBank.d114.s2.e3" charOffset="159-169"
+            type="drug" text="doxorubicin"/>
+        <entity id="DDI-DrugBank.d114.s2.e4" charOffset="194-205"
+            type="drug" text="methotrexate"/>
+        <entity id="DDI-DrugBank.d114.s2.e5" charOffset="208-219"
+            type="drug" text="asparaginase"/>
+        <entity id="DDI-DrugBank.d114.s2.e6" charOffset="235-243"
+            type="brand" text="PROLEUKIN"/>
+        <pair id="DDI-DrugBank.d114.s2.p0" e1="DDI-DrugBank.d114.s2.e0"
+            e2="DDI-DrugBank.d114.s2.e1" ddi="false"/>
+        <pair id="DDI-DrugBank.d114.s2.p1" e1="DDI-DrugBank.d114.s2.e0"
+            e2="DDI-DrugBank.d114.s2.e2" ddi="false"/>
+        <pair id="DDI-DrugBank.d114.s2.p2" e1="DDI-DrugBank.d114.s2.e0"
+            e2="DDI-DrugBank.d114.s2.e3" ddi="false"/>
+        <pair id="DDI-DrugBank.d114.s2.p3" e1="DDI-DrugBank.d114.s2.e0"
+            e2="DDI-DrugBank.d114.s2.e4" ddi="false"/>
+        <pair id="DDI-DrugBank.d114.s2.p4" e1="DDI-DrugBank.d114.s2.e0"
+            e2="DDI-DrugBank.d114.s2.e5" ddi="false"/>
+        <pair id="DDI-DrugBank.d114.s2.p5" e1="DDI-DrugBank.d114.s2.e0"
+            e2="DDI-DrugBank.d114.s2.e6" ddi="true" type="effect"/>
+        <pair id="DDI-DrugBank.d114.s2.p6" e1="DDI-DrugBank.d114.s2.e1"
+            e2="DDI-DrugBank.d114.s2.e2" ddi="false"/>
+        <pair id="DDI-DrugBank.d114.s2.p7" e1="DDI-DrugBank.d114.s2.e1"
+            e2="DDI-DrugBank.d114.s2.e3" ddi="false"/>
+        <pair id="DDI-DrugBank.d114.s2.p8" e1="DDI-DrugBank.d114.s2.e1"
+            e2="DDI-DrugBank.d114.s2.e4" ddi="false"/>
+        <pair id="DDI-DrugBank.d114.s2.p9" e1="DDI-DrugBank.d114.s2.e1"
+            e2="DDI-DrugBank.d114.s2.e5" ddi="false"/>
+        <pair id="DDI-DrugBank.d114.s2.p10" e1="DDI-DrugBank.d114.s2.e1"
+            e2="DDI-DrugBank.d114.s2.e6" ddi="true" type="effect"/>
+        <pair id="DDI-DrugBank.d114.s2.p11" e1="DDI-DrugBank.d114.s2.e2"
+            e2="DDI-DrugBank.d114.s2.e3" ddi="false"/>
+        <pair id="DDI-DrugBank.d114.s2.p12" e1="DDI-DrugBank.d114.s2.e2"
+            e2="DDI-DrugBank.d114.s2.e4" ddi="false"/>
+        <pair id="DDI-DrugBank.d114.s2.p13" e1="DDI-DrugBank.d114.s2.e2"
+            e2="DDI-DrugBank.d114.s2.e5" ddi="false"/>
+        <pair id="DDI-DrugBank.d114.s2.p14" e1="DDI-DrugBank.d114.s2.e2"
+            e2="DDI-DrugBank.d114.s2.e6" ddi="true" type="effect"/>
+        <pair id="DDI-DrugBank.d114.s2.p15" e1="DDI-DrugBank.d114.s2.e3"
+            e2="DDI-DrugBank.d114.s2.e4" ddi="false"/>
+        <pair id="DDI-DrugBank.d114.s2.p16" e1="DDI-DrugBank.d114.s2.e3"
+            e2="DDI-DrugBank.d114.s2.e5" ddi="false"/>
+        <pair id="DDI-DrugBank.d114.s2.p17" e1="DDI-DrugBank.d114.s2.e3"
+            e2="DDI-DrugBank.d114.s2.e6" ddi="true" type="effect"/>
+        <pair id="DDI-DrugBank.d114.s2.p18" e1="DDI-DrugBank.d114.s2.e4"
+            e2="DDI-DrugBank.d114.s2.e5" ddi="false"/>
+        <pair id="DDI-DrugBank.d114.s2.p19" e1="DDI-DrugBank.d114.s2.e4"
+            e2="DDI-DrugBank.d114.s2.e6" ddi="true" type="effect"/>
+        <pair id="DDI-DrugBank.d114.s2.p20" e1="DDI-DrugBank.d114.s2.e5"
+            e2="DDI-DrugBank.d114.s2.e6" ddi="true" type="effect"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d114.s3" text="The safety and efficacy of PROLEUKIN in combination with any antineoplastic agents have not been established.">
+        <entity id="DDI-DrugBank.d114.s3.e0" charOffset="27-35"
+            type="brand" text="PROLEUKIN"/>
+        <entity id="DDI-DrugBank.d114.s3.e1" charOffset="61-81"
+            type="group" text="antineoplastic agents"/>
+        <pair id="DDI-DrugBank.d114.s3.p0" e1="DDI-DrugBank.d114.s3.e0"
+            e2="DDI-DrugBank.d114.s3.e1" ddi="false"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d114.s4" text="In addition, reduced kidney and liver function secondary to PROLEUKIN treatment may delay elimination of concomitant medications and increase the risk of adverse events from those drugs.">
+        <entity id="DDI-DrugBank.d114.s4.e0" charOffset="60-68"
+            type="brand" text="PROLEUKIN"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d114.s5" text="Hypersensitivity reactions have been reported in patients receiving combination regimens containing sequential high dose PROLEUKIN and antineoplastic agents, specifically, dacarbazine, cis-platinum, tamoxifen and interferon-alfa.">
+        <entity id="DDI-DrugBank.d114.s5.e0" charOffset="121-129"
+            type="brand" text="PROLEUKIN"/>
+        <entity id="DDI-DrugBank.d114.s5.e1" charOffset="135-155"
+            type="group" text="antineoplastic agents"/>
+        <entity id="DDI-DrugBank.d114.s5.e2" charOffset="172-182"
+            type="drug" text="dacarbazine"/>
+        <entity id="DDI-DrugBank.d114.s5.e3" charOffset="185-196"
+            type="drug" text="cis-platinum"/>
+        <entity id="DDI-DrugBank.d114.s5.e4" charOffset="199-207"
+            type="drug" text="tamoxifen"/>
+        <entity id="DDI-DrugBank.d114.s5.e5" charOffset="213-227"
+            type="drug" text="interferon-alfa"/>
+        <pair id="DDI-DrugBank.d114.s5.p0" e1="DDI-DrugBank.d114.s5.e0"
+            e2="DDI-DrugBank.d114.s5.e1" ddi="true" type="effect"/>
+        <pair id="DDI-DrugBank.d114.s5.p1" e1="DDI-DrugBank.d114.s5.e0"
+            e2="DDI-DrugBank.d114.s5.e2" ddi="true" type="effect"/>
+        <pair id="DDI-DrugBank.d114.s5.p2" e1="DDI-DrugBank.d114.s5.e0"
+            e2="DDI-DrugBank.d114.s5.e3" ddi="true" type="effect"/>
+        <pair id="DDI-DrugBank.d114.s5.p3" e1="DDI-DrugBank.d114.s5.e0"
+            e2="DDI-DrugBank.d114.s5.e4" ddi="true" type="effect"/>
+        <pair id="DDI-DrugBank.d114.s5.p4" e1="DDI-DrugBank.d114.s5.e0"
+            e2="DDI-DrugBank.d114.s5.e5" ddi="true" type="effect"/>
+        <pair id="DDI-DrugBank.d114.s5.p5" e1="DDI-DrugBank.d114.s5.e1"
+            e2="DDI-DrugBank.d114.s5.e2" ddi="false"/>
+        <pair id="DDI-DrugBank.d114.s5.p6" e1="DDI-DrugBank.d114.s5.e1"
+            e2="DDI-DrugBank.d114.s5.e3" ddi="false"/>
+        <pair id="DDI-DrugBank.d114.s5.p7" e1="DDI-DrugBank.d114.s5.e1"
+            e2="DDI-DrugBank.d114.s5.e4" ddi="false"/>
+        <pair id="DDI-DrugBank.d114.s5.p8" e1="DDI-DrugBank.d114.s5.e1"
+            e2="DDI-DrugBank.d114.s5.e5" ddi="false"/>
+        <pair id="DDI-DrugBank.d114.s5.p9" e1="DDI-DrugBank.d114.s5.e2"
+            e2="DDI-DrugBank.d114.s5.e3" ddi="false"/>
+        <pair id="DDI-DrugBank.d114.s5.p10" e1="DDI-DrugBank.d114.s5.e2"
+            e2="DDI-DrugBank.d114.s5.e4" ddi="false"/>
+        <pair id="DDI-DrugBank.d114.s5.p11" e1="DDI-DrugBank.d114.s5.e2"
+            e2="DDI-DrugBank.d114.s5.e5" ddi="false"/>
+        <pair id="DDI-DrugBank.d114.s5.p12" e1="DDI-DrugBank.d114.s5.e3"
+            e2="DDI-DrugBank.d114.s5.e4" ddi="false"/>
+        <pair id="DDI-DrugBank.d114.s5.p13" e1="DDI-DrugBank.d114.s5.e3"
+            e2="DDI-DrugBank.d114.s5.e5" ddi="false"/>
+        <pair id="DDI-DrugBank.d114.s5.p14" e1="DDI-DrugBank.d114.s5.e4"
+            e2="DDI-DrugBank.d114.s5.e5" ddi="false"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d114.s6" text="These reactions consisted of erythema, pruritus, and hypotension and occurred within hours of administration of chemotherapy."/>
+    <sentence id="DDI-DrugBank.d114.s7" text="These events required medical intervention in some patients."/>
+    <sentence id="DDI-DrugBank.d114.s8" text="Myocardial injury, including myocardial infarction, myocarditis, ventricular hypokinesia, and severe rhabdomyolysis appear to be increased in patients receiving PROLEUKIN and interferon-alfa concurrently.">
+        <entity id="DDI-DrugBank.d114.s8.e0" charOffset="161-169"
+            type="brand" text="PROLEUKIN"/>
+        <entity id="DDI-DrugBank.d114.s8.e1" charOffset="175-189"
+            type="drug" text="interferon-alfa"/>
+        <pair id="DDI-DrugBank.d114.s8.p0" e1="DDI-DrugBank.d114.s8.e0"
+            e2="DDI-DrugBank.d114.s8.e1" ddi="true" type="effect"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d114.s9" text="Exacerbation or the initial presentation of a number of autoimmune and inflammatory disorders has been observed following concurrent use of interferon-alfa and PROLEUKIN, including crescentic IgA glomerulonephritis, oculo-bulbar myasthenia gravis, inflammatory arthritis, thyroiditis, bullous pemphigoid, and Stevens-Johnson syndrome.">
+        <entity id="DDI-DrugBank.d114.s9.e0" charOffset="140-154"
+            type="drug" text="interferon-alfa"/>
+        <entity id="DDI-DrugBank.d114.s9.e1" charOffset="160-168"
+            type="brand" text="PROLEUKIN"/>
+        <pair id="DDI-DrugBank.d114.s9.p0" e1="DDI-DrugBank.d114.s9.e0"
+            e2="DDI-DrugBank.d114.s9.e1" ddi="true" type="effect"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d114.s10" text="Although glucocorticoids have been shown to reduce PROLEUKIN-induced side effects including fever, renal insufficiency, hyperbilirubinemia, confusion, and dyspnea, concomitant administration of these agents with PROLEUKIN may reduce the antitumor effectiveness of PROLEUKIN and thus should be avoided. 12 Beta-blockers and other antihypertensives may potentiate the hypotension seen with PROLEUKIN.">
+        <entity id="DDI-DrugBank.d114.s10.e0" charOffset="9-23"
+            type="group" text="glucocorticoids"/>
+        <entity id="DDI-DrugBank.d114.s10.e1" charOffset="51-59"
+            type="brand" text="PROLEUKIN"/>
+        <entity id="DDI-DrugBank.d114.s10.e2" charOffset="212-220"
+            type="brand" text="PROLEUKIN"/>
+        <entity id="DDI-DrugBank.d114.s10.e3" charOffset="264-272"
+            type="brand" text="PROLEUKIN"/>
+        <entity id="DDI-DrugBank.d114.s10.e4" charOffset="305-317"
+            type="group" text="Beta-blockers"/>
+        <entity id="DDI-DrugBank.d114.s10.e5" charOffset="329-345"
+            type="group" text="antihypertensives"/>
+        <entity id="DDI-DrugBank.d114.s10.e6" charOffset="388-396"
+            type="brand" text="PROLEUKIN"/>
+        <pair id="DDI-DrugBank.d114.s10.p0"
+            e1="DDI-DrugBank.d114.s10.e0" e2="DDI-DrugBank.d114.s10.e1"
+            ddi="true" type="effect"/>
+        <pair id="DDI-DrugBank.d114.s10.p1"
+            e1="DDI-DrugBank.d114.s10.e0" e2="DDI-DrugBank.d114.s10.e2" ddi="false"/>
+        <pair id="DDI-DrugBank.d114.s10.p2"
+            e1="DDI-DrugBank.d114.s10.e0" e2="DDI-DrugBank.d114.s10.e3" ddi="false"/>
+        <pair id="DDI-DrugBank.d114.s10.p3"
+            e1="DDI-DrugBank.d114.s10.e0" e2="DDI-DrugBank.d114.s10.e4" ddi="false"/>
+        <pair id="DDI-DrugBank.d114.s10.p4"
+            e1="DDI-DrugBank.d114.s10.e0" e2="DDI-DrugBank.d114.s10.e5" ddi="false"/>
+        <pair id="DDI-DrugBank.d114.s10.p5"
+            e1="DDI-DrugBank.d114.s10.e0" e2="DDI-DrugBank.d114.s10.e6" ddi="false"/>
+        <pair id="DDI-DrugBank.d114.s10.p6"
+            e1="DDI-DrugBank.d114.s10.e1" e2="DDI-DrugBank.d114.s10.e2" ddi="false"/>
+        <pair id="DDI-DrugBank.d114.s10.p7"
+            e1="DDI-DrugBank.d114.s10.e1" e2="DDI-DrugBank.d114.s10.e3" ddi="false"/>
+        <pair id="DDI-DrugBank.d114.s10.p8"
+            e1="DDI-DrugBank.d114.s10.e1" e2="DDI-DrugBank.d114.s10.e4" ddi="false"/>
+        <pair id="DDI-DrugBank.d114.s10.p9"
+            e1="DDI-DrugBank.d114.s10.e1" e2="DDI-DrugBank.d114.s10.e5" ddi="false"/>
+        <pair id="DDI-DrugBank.d114.s10.p10"
+            e1="DDI-DrugBank.d114.s10.e1" e2="DDI-DrugBank.d114.s10.e6" ddi="false"/>
+        <pair id="DDI-DrugBank.d114.s10.p11"
+            e1="DDI-DrugBank.d114.s10.e2" e2="DDI-DrugBank.d114.s10.e3" ddi="false"/>
+        <pair id="DDI-DrugBank.d114.s10.p12"
+            e1="DDI-DrugBank.d114.s10.e2" e2="DDI-DrugBank.d114.s10.e4" ddi="false"/>
+        <pair id="DDI-DrugBank.d114.s10.p13"
+            e1="DDI-DrugBank.d114.s10.e2" e2="DDI-DrugBank.d114.s10.e5" ddi="false"/>
+        <pair id="DDI-DrugBank.d114.s10.p14"
+            e1="DDI-DrugBank.d114.s10.e2" e2="DDI-DrugBank.d114.s10.e6" ddi="false"/>
+        <pair id="DDI-DrugBank.d114.s10.p15"
+            e1="DDI-DrugBank.d114.s10.e3" e2="DDI-DrugBank.d114.s10.e4" ddi="false"/>
+        <pair id="DDI-DrugBank.d114.s10.p16"
+            e1="DDI-DrugBank.d114.s10.e3" e2="DDI-DrugBank.d114.s10.e5" ddi="false"/>
+        <pair id="DDI-DrugBank.d114.s10.p17"
+            e1="DDI-DrugBank.d114.s10.e3" e2="DDI-DrugBank.d114.s10.e6" ddi="false"/>
+        <pair id="DDI-DrugBank.d114.s10.p18"
+            e1="DDI-DrugBank.d114.s10.e4" e2="DDI-DrugBank.d114.s10.e5" ddi="false"/>
+        <pair id="DDI-DrugBank.d114.s10.p19"
+            e1="DDI-DrugBank.d114.s10.e4" e2="DDI-DrugBank.d114.s10.e6"
+            ddi="true" type="effect"/>
+        <pair id="DDI-DrugBank.d114.s10.p20"
+            e1="DDI-DrugBank.d114.s10.e5" e2="DDI-DrugBank.d114.s10.e6"
+            ddi="true" type="effect"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d114.s11" text="Delayed Adverse Reactions to Iodinated Contrast Media: A review of the literature revealed that 12.6% (range 11-28%) of 501 patients treated with various interleukin-2 containing regimens who were subsequently administered radiographic iodinated contrast media experienced acute, atypical adverse reactions.">
+        <entity id="DDI-DrugBank.d114.s11.e0" charOffset="29-52"
+            type="group" text="Iodinated Contrast Media"/>
+        <entity id="DDI-DrugBank.d114.s11.e1" charOffset="154-166"
+            type="drug" text="interleukin-2"/>
+        <entity id="DDI-DrugBank.d114.s11.e2" charOffset="223-259"
+            type="group" text="radiographic iodinated contrast media"/>
+        <pair id="DDI-DrugBank.d114.s11.p0"
+            e1="DDI-DrugBank.d114.s11.e0" e2="DDI-DrugBank.d114.s11.e1" ddi="false"/>
+        <pair id="DDI-DrugBank.d114.s11.p1"
+            e1="DDI-DrugBank.d114.s11.e0" e2="DDI-DrugBank.d114.s11.e2" ddi="false"/>
+        <pair id="DDI-DrugBank.d114.s11.p2"
+            e1="DDI-DrugBank.d114.s11.e1" e2="DDI-DrugBank.d114.s11.e2"
+            ddi="true" type="effect"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d114.s12" text="The onset of symptoms usually occurred within hours (most commonly 1 to 4 hours) following the administration of contrast media."/>
+    <sentence id="DDI-DrugBank.d114.s13" text="These reactions include fever, chills, nausea, vomiting, pruritus, rash, diarrhea, hypotension, edema, and oliguria."/>
+    <sentence id="DDI-DrugBank.d114.s14" text="Some clinicians have noted that these reactions resemble the immediate side effects caused by interleukin-2 administration, however the cause of contrast reactions after interleukin-2 therapy is unknown.">
+        <entity id="DDI-DrugBank.d114.s14.e0" charOffset="94-106"
+            type="drug" text="interleukin-2"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d114.s15" text="Most events were reported to occur when contrast media was given within 4 weeks after the last dose of interleukin-2.">
+        <entity id="DDI-DrugBank.d114.s15.e0" charOffset="103-115"
+            type="drug" text="interleukin-2"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d114.s16" text="These events were also reported to occur when contrast media was given several months after interleukin-2 treatment.">
+        <entity id="DDI-DrugBank.d114.s16.e0" charOffset="92-104"
+            type="drug" text="interleukin-2"/>
+    </sentence>
+</document>

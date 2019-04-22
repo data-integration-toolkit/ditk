@@ -1,0 +1,761 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="DDI-DrugBank.d531">
+    <sentence id="DDI-DrugBank.d531.s0" text="Efavirenz has been shown in vivo to induce CYP3A4.">
+        <entity id="DDI-DrugBank.d531.s0.e0" charOffset="0-8"
+            type="drug" text="Efavirenz"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d531.s1" text="Other compounds that are substrates of CYP3A4 may have decreased plasma concentrations when coadministered with SUSTIVA (efavirenz).">
+        <entity id="DDI-DrugBank.d531.s1.e0" charOffset="112-118"
+            type="brand" text="SUSTIVA"/>
+        <entity id="DDI-DrugBank.d531.s1.e1" charOffset="121-129"
+            type="drug" text="efavirenz"/>
+        <pair id="DDI-DrugBank.d531.s1.p0" e1="DDI-DrugBank.d531.s1.e0"
+            e2="DDI-DrugBank.d531.s1.e1" ddi="false"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d531.s2" text="In vitro studies have demonstrated that efavirenz inhibits 2C9, 2C19, and 3A4 isozymes in the range of observed efavirenz plasma concentrations.">
+        <entity id="DDI-DrugBank.d531.s2.e0" charOffset="40-48"
+            type="drug" text="efavirenz"/>
+        <entity id="DDI-DrugBank.d531.s2.e1" charOffset="112-120"
+            type="drug" text="efavirenz"/>
+        <pair id="DDI-DrugBank.d531.s2.p0" e1="DDI-DrugBank.d531.s2.e0"
+            e2="DDI-DrugBank.d531.s2.e1" ddi="false"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d531.s3" text="Coadministration of efavirenz with drugs primarily metabolized by these isozymes may result in altered plasma concentrations of the coadministered drug.">
+        <entity id="DDI-DrugBank.d531.s3.e0" charOffset="20-28"
+            type="drug" text="efavirenz"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d531.s4" text="Therefore, appropriate dose adjustments may be necessary for these drugs."/>
+    <sentence id="DDI-DrugBank.d531.s5" text="Drugs which induce CYP3A4 activity (eg, phenobarbital, rifampin, rifabutin) would be expected to increase the clearance of efavirenz resulting in lowered plasma concentrations.">
+        <entity id="DDI-DrugBank.d531.s5.e0" charOffset="40-52"
+            type="drug" text="phenobarbital"/>
+        <entity id="DDI-DrugBank.d531.s5.e1" charOffset="55-62"
+            type="drug" text="rifampin"/>
+        <entity id="DDI-DrugBank.d531.s5.e2" charOffset="65-73"
+            type="drug" text="rifabutin"/>
+        <entity id="DDI-DrugBank.d531.s5.e3" charOffset="123-131"
+            type="drug" text="efavirenz"/>
+        <pair id="DDI-DrugBank.d531.s5.p0" e1="DDI-DrugBank.d531.s5.e0"
+            e2="DDI-DrugBank.d531.s5.e1" ddi="false"/>
+        <pair id="DDI-DrugBank.d531.s5.p1" e1="DDI-DrugBank.d531.s5.e0"
+            e2="DDI-DrugBank.d531.s5.e2" ddi="false"/>
+        <pair id="DDI-DrugBank.d531.s5.p2" e1="DDI-DrugBank.d531.s5.e0"
+            e2="DDI-DrugBank.d531.s5.e3" ddi="true" type="mechanism"/>
+        <pair id="DDI-DrugBank.d531.s5.p3" e1="DDI-DrugBank.d531.s5.e1"
+            e2="DDI-DrugBank.d531.s5.e2" ddi="false"/>
+        <pair id="DDI-DrugBank.d531.s5.p4" e1="DDI-DrugBank.d531.s5.e1"
+            e2="DDI-DrugBank.d531.s5.e3" ddi="true" type="mechanism"/>
+        <pair id="DDI-DrugBank.d531.s5.p5" e1="DDI-DrugBank.d531.s5.e2"
+            e2="DDI-DrugBank.d531.s5.e3" ddi="true" type="mechanism"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d531.s6" text="Drug interactions with SUSTIVA are summarized in Table 5.">
+        <entity id="DDI-DrugBank.d531.s6.e0" charOffset="23-29"
+            type="brand" text="SUSTIVA"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d531.s7" text="Table 5a: Drugs That Should Not Be Coadministered With SUSTIVA">
+        <entity id="DDI-DrugBank.d531.s7.e0" charOffset="55-61"
+            type="brand" text="SUSTIVA"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d531.s8" text="Drug Class"/>
+    <sentence id="DDI-DrugBank.d531.s9" text="Drugs Within Class Not To Be Coadministered With SUSTIVA">
+        <entity id="DDI-DrugBank.d531.s9.e0" charOffset="49-55"
+            type="brand" text="SUSTIVA"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d531.s10" text="Antihistamines: Benzodiazepines GI Motility Agents Anti-Migraine Antifungal">
+        <entity id="DDI-DrugBank.d531.s10.e0" charOffset="0-13"
+            type="group" text="Antihistamines"/>
+        <entity id="DDI-DrugBank.d531.s10.e1" charOffset="16-30"
+            type="group" text="Benzodiazepines"/>
+        <entity id="DDI-DrugBank.d531.s10.e2" charOffset="51-63"
+            type="group" text="Anti-Migraine"/>
+        <entity id="DDI-DrugBank.d531.s10.e3" charOffset="65-74"
+            type="group" text="Antifungal"/>
+        <pair id="DDI-DrugBank.d531.s10.p0"
+            e1="DDI-DrugBank.d531.s10.e0" e2="DDI-DrugBank.d531.s10.e1" ddi="false"/>
+        <pair id="DDI-DrugBank.d531.s10.p1"
+            e1="DDI-DrugBank.d531.s10.e0" e2="DDI-DrugBank.d531.s10.e2" ddi="false"/>
+        <pair id="DDI-DrugBank.d531.s10.p2"
+            e1="DDI-DrugBank.d531.s10.e0" e2="DDI-DrugBank.d531.s10.e3" ddi="false"/>
+        <pair id="DDI-DrugBank.d531.s10.p3"
+            e1="DDI-DrugBank.d531.s10.e1" e2="DDI-DrugBank.d531.s10.e2" ddi="false"/>
+        <pair id="DDI-DrugBank.d531.s10.p4"
+            e1="DDI-DrugBank.d531.s10.e1" e2="DDI-DrugBank.d531.s10.e3" ddi="false"/>
+        <pair id="DDI-DrugBank.d531.s10.p5"
+            e1="DDI-DrugBank.d531.s10.e2" e2="DDI-DrugBank.d531.s10.e3" ddi="false"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d531.s11" text="astemizole midazolam, triazolam cisapride ergot derivatives voriconazole">
+        <entity id="DDI-DrugBank.d531.s11.e0" charOffset="0-9"
+            type="drug" text="astemizole"/>
+        <entity id="DDI-DrugBank.d531.s11.e1" charOffset="11-19"
+            type="drug" text="midazolam"/>
+        <entity id="DDI-DrugBank.d531.s11.e2" charOffset="22-30"
+            type="drug" text="triazolam"/>
+        <entity id="DDI-DrugBank.d531.s11.e3" charOffset="32-40"
+            type="drug" text="cisapride"/>
+        <entity id="DDI-DrugBank.d531.s11.e4" charOffset="60-71"
+            type="drug" text="voriconazole"/>
+        <pair id="DDI-DrugBank.d531.s11.p0"
+            e1="DDI-DrugBank.d531.s11.e0" e2="DDI-DrugBank.d531.s11.e1" ddi="false"/>
+        <pair id="DDI-DrugBank.d531.s11.p1"
+            e1="DDI-DrugBank.d531.s11.e0" e2="DDI-DrugBank.d531.s11.e2" ddi="false"/>
+        <pair id="DDI-DrugBank.d531.s11.p2"
+            e1="DDI-DrugBank.d531.s11.e0" e2="DDI-DrugBank.d531.s11.e3" ddi="false"/>
+        <pair id="DDI-DrugBank.d531.s11.p3"
+            e1="DDI-DrugBank.d531.s11.e0" e2="DDI-DrugBank.d531.s11.e4" ddi="false"/>
+        <pair id="DDI-DrugBank.d531.s11.p4"
+            e1="DDI-DrugBank.d531.s11.e1" e2="DDI-DrugBank.d531.s11.e2" ddi="false"/>
+        <pair id="DDI-DrugBank.d531.s11.p5"
+            e1="DDI-DrugBank.d531.s11.e1" e2="DDI-DrugBank.d531.s11.e3" ddi="false"/>
+        <pair id="DDI-DrugBank.d531.s11.p6"
+            e1="DDI-DrugBank.d531.s11.e1" e2="DDI-DrugBank.d531.s11.e4" ddi="false"/>
+        <pair id="DDI-DrugBank.d531.s11.p7"
+            e1="DDI-DrugBank.d531.s11.e2" e2="DDI-DrugBank.d531.s11.e3" ddi="false"/>
+        <pair id="DDI-DrugBank.d531.s11.p8"
+            e1="DDI-DrugBank.d531.s11.e2" e2="DDI-DrugBank.d531.s11.e4" ddi="false"/>
+        <pair id="DDI-DrugBank.d531.s11.p9"
+            e1="DDI-DrugBank.d531.s11.e3" e2="DDI-DrugBank.d531.s11.e4" ddi="false"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d531.s12" text="Established Drug Interactions"/>
+    <sentence id="DDI-DrugBank.d531.s13" text=""/>
+    <sentence id="DDI-DrugBank.d531.s14" text="Drug Name"/>
+    <sentence id="DDI-DrugBank.d531.s15" text="Effect"/>
+    <sentence id="DDI-DrugBank.d531.s16" text="Clinical Comment"/>
+    <sentence id="DDI-DrugBank.d531.s17" text="Atazanavir">
+        <entity id="DDI-DrugBank.d531.s17.e0" charOffset="0-9"
+            type="drug" text="Atazanavir"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d531.s18" text="atazanavir">
+        <entity id="DDI-DrugBank.d531.s18.e0" charOffset="0-9"
+            type="drug" text="atazanavir"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d531.s19" text="When coadministered with SUSTIVA in treatment-naive patients, the recommended dose of atazanavir is 300 mg with ritonavir 100 mg and SUSTIVA 600 mg (all once daily).">
+        <entity id="DDI-DrugBank.d531.s19.e0" charOffset="25-31"
+            type="brand" text="SUSTIVA"/>
+        <entity id="DDI-DrugBank.d531.s19.e1" charOffset="86-95"
+            type="drug" text="atazanavir"/>
+        <entity id="DDI-DrugBank.d531.s19.e2" charOffset="112-120"
+            type="drug" text="ritonavir"/>
+        <entity id="DDI-DrugBank.d531.s19.e3" charOffset="133-139"
+            type="brand" text="SUSTIVA"/>
+        <pair id="DDI-DrugBank.d531.s19.p0"
+            e1="DDI-DrugBank.d531.s19.e0" e2="DDI-DrugBank.d531.s19.e1" ddi="false"/>
+        <pair id="DDI-DrugBank.d531.s19.p1"
+            e1="DDI-DrugBank.d531.s19.e0" e2="DDI-DrugBank.d531.s19.e2" ddi="false"/>
+        <pair id="DDI-DrugBank.d531.s19.p2"
+            e1="DDI-DrugBank.d531.s19.e0" e2="DDI-DrugBank.d531.s19.e3" ddi="false"/>
+        <pair id="DDI-DrugBank.d531.s19.p3"
+            e1="DDI-DrugBank.d531.s19.e1" e2="DDI-DrugBank.d531.s19.e2" ddi="false"/>
+        <pair id="DDI-DrugBank.d531.s19.p4"
+            e1="DDI-DrugBank.d531.s19.e1" e2="DDI-DrugBank.d531.s19.e3" ddi="false"/>
+        <pair id="DDI-DrugBank.d531.s19.p5"
+            e1="DDI-DrugBank.d531.s19.e2" e2="DDI-DrugBank.d531.s19.e3" ddi="false"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d531.s20" text="Dosing recommendations for SUSTIVA and atazanavir in treatment-experienced patients have not been established.">
+        <entity id="DDI-DrugBank.d531.s20.e0" charOffset="27-33"
+            type="brand" text="SUSTIVA"/>
+        <entity id="DDI-DrugBank.d531.s20.e1" charOffset="39-48"
+            type="drug" text="atazanavir"/>
+        <pair id="DDI-DrugBank.d531.s20.p0"
+            e1="DDI-DrugBank.d531.s20.e0" e2="DDI-DrugBank.d531.s20.e1" ddi="false"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d531.s21" text="Established Drug Interactions (continued)"/>
+    <sentence id="DDI-DrugBank.d531.s22" text="Drug Name"/>
+    <sentence id="DDI-DrugBank.d531.s23" text="Effect"/>
+    <sentence id="DDI-DrugBank.d531.s24" text="Clinical Comment"/>
+    <sentence id="DDI-DrugBank.d531.s25" text="Clarithromycin">
+        <entity id="DDI-DrugBank.d531.s25.e0" charOffset="0-13"
+            type="drug" text="Clarithromycin"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d531.s26" text="clarithromycin concentration">
+        <entity id="DDI-DrugBank.d531.s26.e0" charOffset="0-13"
+            type="drug" text="clarithromycin"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d531.s27" text="Plasma concentrations decreased by SUSTIVA;">
+        <entity id="DDI-DrugBank.d531.s27.e0" charOffset="35-41"
+            type="brand" text="SUSTIVA"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d531.s28" text="clinical significance unknown."/>
+    <sentence id="DDI-DrugBank.d531.s29" text="In uninfected volunteers, 46% developed rash while receiving SUSTIVA and clarithromycin.">
+        <entity id="DDI-DrugBank.d531.s29.e0" charOffset="61-67"
+            type="brand" text="SUSTIVA"/>
+        <entity id="DDI-DrugBank.d531.s29.e1" charOffset="73-86"
+            type="drug" text="clarithromycin"/>
+        <pair id="DDI-DrugBank.d531.s29.p0"
+            e1="DDI-DrugBank.d531.s29.e0" e2="DDI-DrugBank.d531.s29.e1"
+            ddi="true" type="effect"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d531.s30" text="No dose adjustment of SUSTIVA is recommended when given with clarithromycin.">
+        <entity id="DDI-DrugBank.d531.s30.e0" charOffset="22-28"
+            type="brand" text="SUSTIVA"/>
+        <entity id="DDI-DrugBank.d531.s30.e1" charOffset="61-74"
+            type="drug" text="clarithromycin"/>
+        <pair id="DDI-DrugBank.d531.s30.p0"
+            e1="DDI-DrugBank.d531.s30.e0" e2="DDI-DrugBank.d531.s30.e1" ddi="false"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d531.s31" text="Alternatives to clarithromycin, such as azithromycin, should be considered.">
+        <entity id="DDI-DrugBank.d531.s31.e0" charOffset="16-29"
+            type="drug" text="clarithromycin"/>
+        <entity id="DDI-DrugBank.d531.s31.e1" charOffset="40-51"
+            type="drug" text="azithromycin"/>
+        <pair id="DDI-DrugBank.d531.s31.p0"
+            e1="DDI-DrugBank.d531.s31.e0" e2="DDI-DrugBank.d531.s31.e1" ddi="false"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d531.s32" text="Other macrolide antibiotics, such as erythromycin, have not been studied in combination with SUSTIVA.">
+        <entity id="DDI-DrugBank.d531.s32.e0" charOffset="6-26"
+            type="group" text="macrolide antibiotics"/>
+        <entity id="DDI-DrugBank.d531.s32.e1" charOffset="37-48"
+            type="drug" text="erythromycin"/>
+        <entity id="DDI-DrugBank.d531.s32.e2" charOffset="93-99"
+            type="brand" text="SUSTIVA"/>
+        <pair id="DDI-DrugBank.d531.s32.p0"
+            e1="DDI-DrugBank.d531.s32.e0" e2="DDI-DrugBank.d531.s32.e1" ddi="false"/>
+        <pair id="DDI-DrugBank.d531.s32.p1"
+            e1="DDI-DrugBank.d531.s32.e0" e2="DDI-DrugBank.d531.s32.e2" ddi="false"/>
+        <pair id="DDI-DrugBank.d531.s32.p2"
+            e1="DDI-DrugBank.d531.s32.e1" e2="DDI-DrugBank.d531.s32.e2" ddi="false"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d531.s33" text=""/>
+    <sentence id="DDI-DrugBank.d531.s34" text="14-OH metabolite concentration"/>
+    <sentence id="DDI-DrugBank.d531.s35" text="Indinavir">
+        <entity id="DDI-DrugBank.d531.s35.e0" charOffset="0-8"
+            type="drug" text="Indinavir"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d531.s36" text="indinavir concentration">
+        <entity id="DDI-DrugBank.d531.s36.e0" charOffset="0-8"
+            type="drug" text="indinavir"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d531.s37" text="The optimal dose of indinavir, when given in combination with SUSTIVA, is not known.">
+        <entity id="DDI-DrugBank.d531.s37.e0" charOffset="20-28"
+            type="drug" text="indinavir"/>
+        <entity id="DDI-DrugBank.d531.s37.e1" charOffset="62-68"
+            type="brand" text="SUSTIVA"/>
+        <pair id="DDI-DrugBank.d531.s37.p0"
+            e1="DDI-DrugBank.d531.s37.e0" e2="DDI-DrugBank.d531.s37.e1" ddi="false"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d531.s38" text="Increasing the indinavir dose to 1000 mg every 8 hours does not compensate for the increased indinavir metabolism due to SUSTIVA.">
+        <entity id="DDI-DrugBank.d531.s38.e0" charOffset="15-23"
+            type="drug" text="indinavir"/>
+        <entity id="DDI-DrugBank.d531.s38.e1" charOffset="93-101"
+            type="drug" text="indinavir"/>
+        <entity id="DDI-DrugBank.d531.s38.e2" charOffset="121-127"
+            type="brand" text="SUSTIVA"/>
+        <pair id="DDI-DrugBank.d531.s38.p0"
+            e1="DDI-DrugBank.d531.s38.e0" e2="DDI-DrugBank.d531.s38.e1" ddi="false"/>
+        <pair id="DDI-DrugBank.d531.s38.p1"
+            e1="DDI-DrugBank.d531.s38.e0" e2="DDI-DrugBank.d531.s38.e2" ddi="false"/>
+        <pair id="DDI-DrugBank.d531.s38.p2"
+            e1="DDI-DrugBank.d531.s38.e1" e2="DDI-DrugBank.d531.s38.e2"
+            ddi="true" type="mechanism"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d531.s39" text="When indinavir at an increased dose (1000 mg every 8 hours) was given with SUSTIVA (600 mg once daily), the indinavir AUC and Cmin were decreased on average by 33-46% and 39-57%, respectively, compared to when indinavir (800 mg every 8 hours) was given alone.">
+        <entity id="DDI-DrugBank.d531.s39.e0" charOffset="5-13"
+            type="drug" text="indinavir"/>
+        <entity id="DDI-DrugBank.d531.s39.e1" charOffset="75-81"
+            type="brand" text="SUSTIVA"/>
+        <entity id="DDI-DrugBank.d531.s39.e2" charOffset="108-116"
+            type="drug" text="indinavir"/>
+        <entity id="DDI-DrugBank.d531.s39.e3" charOffset="210-218"
+            type="drug" text="indinavir"/>
+        <pair id="DDI-DrugBank.d531.s39.p0"
+            e1="DDI-DrugBank.d531.s39.e0" e2="DDI-DrugBank.d531.s39.e1"
+            ddi="true" type="mechanism"/>
+        <pair id="DDI-DrugBank.d531.s39.p1"
+            e1="DDI-DrugBank.d531.s39.e0" e2="DDI-DrugBank.d531.s39.e2" ddi="false"/>
+        <pair id="DDI-DrugBank.d531.s39.p2"
+            e1="DDI-DrugBank.d531.s39.e0" e2="DDI-DrugBank.d531.s39.e3" ddi="false"/>
+        <pair id="DDI-DrugBank.d531.s39.p3"
+            e1="DDI-DrugBank.d531.s39.e1" e2="DDI-DrugBank.d531.s39.e2" ddi="false"/>
+        <pair id="DDI-DrugBank.d531.s39.p4"
+            e1="DDI-DrugBank.d531.s39.e1" e2="DDI-DrugBank.d531.s39.e3" ddi="false"/>
+        <pair id="DDI-DrugBank.d531.s39.p5"
+            e1="DDI-DrugBank.d531.s39.e2" e2="DDI-DrugBank.d531.s39.e3" ddi="false"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d531.s40" text="Lopinavir/ritonavir">
+        <entity id="DDI-DrugBank.d531.s40.e0" charOffset="0-8"
+            type="drug" text="Lopinavir"/>
+        <entity id="DDI-DrugBank.d531.s40.e1" charOffset="10-18"
+            type="drug" text="ritonavir"/>
+        <pair id="DDI-DrugBank.d531.s40.p0"
+            e1="DDI-DrugBank.d531.s40.e0" e2="DDI-DrugBank.d531.s40.e1" ddi="false"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d531.s41" text="lopinavir concentration">
+        <entity id="DDI-DrugBank.d531.s41.e0" charOffset="0-8"
+            type="drug" text="lopinavir"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d531.s42" text="A dose increase of lopinavir/ritonavir to 533/133 mg (4 capsules or 6.5 mL) twice daily taken with food is recommended when used in combination with SUSTIVA.">
+        <entity id="DDI-DrugBank.d531.s42.e0" charOffset="19-27"
+            type="drug" text="lopinavir"/>
+        <entity id="DDI-DrugBank.d531.s42.e1" charOffset="29-37"
+            type="drug" text="ritonavir"/>
+        <entity id="DDI-DrugBank.d531.s42.e2" charOffset="149-155"
+            type="brand" text="SUSTIVA"/>
+        <pair id="DDI-DrugBank.d531.s42.p0"
+            e1="DDI-DrugBank.d531.s42.e0" e2="DDI-DrugBank.d531.s42.e1" ddi="false"/>
+        <pair id="DDI-DrugBank.d531.s42.p1"
+            e1="DDI-DrugBank.d531.s42.e0" e2="DDI-DrugBank.d531.s42.e2"
+            ddi="true" type="advise"/>
+        <pair id="DDI-DrugBank.d531.s42.p2"
+            e1="DDI-DrugBank.d531.s42.e1" e2="DDI-DrugBank.d531.s42.e2"
+            ddi="true" type="advise"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d531.s43" text="Methadone">
+        <entity id="DDI-DrugBank.d531.s43.e0" charOffset="0-8"
+            type="drug" text="Methadone"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d531.s44" text="methadone concentration">
+        <entity id="DDI-DrugBank.d531.s44.e0" charOffset="0-8"
+            type="drug" text="methadone"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d531.s45" text="Coadministration in HIV-infected individuals with a history of injection drug use resulted in decreased plasma levels of methadone and signs of opiate withdrawal.">
+        <entity id="DDI-DrugBank.d531.s45.e0" charOffset="121-129"
+            type="drug" text="methadone"/>
+        <entity id="DDI-DrugBank.d531.s45.e1" charOffset="144-149"
+            type="group" text="opiate"/>
+        <pair id="DDI-DrugBank.d531.s45.p0"
+            e1="DDI-DrugBank.d531.s45.e0" e2="DDI-DrugBank.d531.s45.e1" ddi="false"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d531.s46" text="Methadone dose was increased by a mean of 22% to alleviate withdrawal symptoms.">
+        <entity id="DDI-DrugBank.d531.s46.e0" charOffset="0-8"
+            type="drug" text="Methadone"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d531.s47" text="Patients should be monitored for signs of withdrawal and their methadone dose increased as required to alleviate withdrawal symptoms.">
+        <entity id="DDI-DrugBank.d531.s47.e0" charOffset="63-71"
+            type="drug" text="methadone"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d531.s48" text="Ethinyl estradiol">
+        <entity id="DDI-DrugBank.d531.s48.e0" charOffset="0-16"
+            type="drug" text="Ethinyl estradiol"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d531.s49" text="ethinyl estradiol concentration">
+        <entity id="DDI-DrugBank.d531.s49.e0" charOffset="0-16"
+            type="drug" text="ethinyl estradiol"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d531.s50" text="Plasma concentrations increased by SUSTIVA (efavirenz);">
+        <entity id="DDI-DrugBank.d531.s50.e0" charOffset="35-41"
+            type="brand" text="SUSTIVA"/>
+        <entity id="DDI-DrugBank.d531.s50.e1" charOffset="44-52"
+            type="drug" text="efavirenz"/>
+        <pair id="DDI-DrugBank.d531.s50.p0"
+            e1="DDI-DrugBank.d531.s50.e0" e2="DDI-DrugBank.d531.s50.e1" ddi="false"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d531.s51" text="clinical significance unknown."/>
+    <sentence id="DDI-DrugBank.d531.s52" text="Because the potential interaction of efavirenz with oral contraceptives has not been fully characterized, a reliable method of barrier contraception should be used in addition to oral contraceptives.">
+        <entity id="DDI-DrugBank.d531.s52.e0" charOffset="37-45"
+            type="drug" text="efavirenz"/>
+        <entity id="DDI-DrugBank.d531.s52.e1" charOffset="57-70"
+            type="group" text="contraceptives"/>
+        <entity id="DDI-DrugBank.d531.s52.e2" charOffset="184-197"
+            type="group" text="contraceptives"/>
+        <pair id="DDI-DrugBank.d531.s52.p0"
+            e1="DDI-DrugBank.d531.s52.e0" e2="DDI-DrugBank.d531.s52.e1"
+            ddi="true" type="advise"/>
+        <pair id="DDI-DrugBank.d531.s52.p1"
+            e1="DDI-DrugBank.d531.s52.e0" e2="DDI-DrugBank.d531.s52.e2" ddi="false"/>
+        <pair id="DDI-DrugBank.d531.s52.p2"
+            e1="DDI-DrugBank.d531.s52.e1" e2="DDI-DrugBank.d531.s52.e2" ddi="false"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d531.s53" text="Rifabutin">
+        <entity id="DDI-DrugBank.d531.s53.e0" charOffset="0-8"
+            type="drug" text="Rifabutin"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d531.s54" text="rifabutin concentration">
+        <entity id="DDI-DrugBank.d531.s54.e0" charOffset="0-8"
+            type="drug" text="rifabutin"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d531.s55" text="Increase daily dose of rifabutin by 50%.">
+        <entity id="DDI-DrugBank.d531.s55.e0" charOffset="23-31"
+            type="drug" text="rifabutin"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d531.s56" text="Consider doubling the rifabutin dose in regimens where rifabutin is given 2 or 3 times a week.">
+        <entity id="DDI-DrugBank.d531.s56.e0" charOffset="22-30"
+            type="drug" text="rifabutin"/>
+        <entity id="DDI-DrugBank.d531.s56.e1" charOffset="55-63"
+            type="drug" text="rifabutin"/>
+        <pair id="DDI-DrugBank.d531.s56.p0"
+            e1="DDI-DrugBank.d531.s56.e0" e2="DDI-DrugBank.d531.s56.e1" ddi="false"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d531.s57" text="Rifampin">
+        <entity id="DDI-DrugBank.d531.s57.e0" charOffset="0-7"
+            type="drug" text="Rifampin"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d531.s58" text="efavirenz concentration">
+        <entity id="DDI-DrugBank.d531.s58.e0" charOffset="0-8"
+            type="drug" text="efavirenz"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d531.s59" text="Clinical significance of reduced efavirenz concentrations unknown.">
+        <entity id="DDI-DrugBank.d531.s59.e0" charOffset="33-41"
+            type="drug" text="efavirenz"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d531.s60" text="Ritonavir">
+        <entity id="DDI-DrugBank.d531.s60.e0" charOffset="0-8"
+            type="drug" text="Ritonavir"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d531.s61" text="ritonavir concentration">
+        <entity id="DDI-DrugBank.d531.s61.e0" charOffset="0-8"
+            type="drug" text="ritonavir"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d531.s62" text="Combination was associated with a higher frequency of adverse clinical experiences (eg, dizziness, nausea, paresthesia) and laboratory abnormalities (elevated liver enzymes)."/>
+    <sentence id="DDI-DrugBank.d531.s63" text="Monitoring of liver enzymes is recommended when SUSTIVA is used in combination with ritonavir.">
+        <entity id="DDI-DrugBank.d531.s63.e0" charOffset="48-54"
+            type="brand" text="SUSTIVA"/>
+        <entity id="DDI-DrugBank.d531.s63.e1" charOffset="84-92"
+            type="drug" text="ritonavir"/>
+        <pair id="DDI-DrugBank.d531.s63.p0"
+            e1="DDI-DrugBank.d531.s63.e0" e2="DDI-DrugBank.d531.s63.e1"
+            ddi="true" type="advise"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d531.s64" text="efavirenz concentration">
+        <entity id="DDI-DrugBank.d531.s64.e0" charOffset="0-8"
+            type="drug" text="efavirenz"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d531.s65" text="Saquinavir">
+        <entity id="DDI-DrugBank.d531.s65.e0" charOffset="0-9"
+            type="drug" text="Saquinavir"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d531.s66" text="saquinavir concentration">
+        <entity id="DDI-DrugBank.d531.s66.e0" charOffset="0-9"
+            type="drug" text="saquinavir"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d531.s67" text="Should not be used as sole protease inhibitor in combination with SUSTIVA.">
+        <entity id="DDI-DrugBank.d531.s67.e0" charOffset="27-44"
+            type="group" text="protease inhibitor"/>
+        <entity id="DDI-DrugBank.d531.s67.e1" charOffset="66-72"
+            type="brand" text="SUSTIVA"/>
+        <pair id="DDI-DrugBank.d531.s67.p0"
+            e1="DDI-DrugBank.d531.s67.e0" e2="DDI-DrugBank.d531.s67.e1" ddi="false"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d531.s68" text="Sertraline">
+        <entity id="DDI-DrugBank.d531.s68.e0" charOffset="0-9"
+            type="drug" text="Sertraline"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d531.s69" text="sertraline concentration">
+        <entity id="DDI-DrugBank.d531.s69.e0" charOffset="0-9"
+            type="drug" text="sertraline"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d531.s70" text="Increases in sertraline dose should be guided by clinical response.">
+        <entity id="DDI-DrugBank.d531.s70.e0" charOffset="13-22"
+            type="drug" text="sertraline"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d531.s71" text="Other Potentially Clinically Significant Drug or Herbal Product Interactions With SUSTIVAb"/>
+    <sentence id="DDI-DrugBank.d531.s72" text="Anticoagulants: Warfarin">
+        <entity id="DDI-DrugBank.d531.s72.e0" charOffset="0-13"
+            type="group" text="Anticoagulants"/>
+        <entity id="DDI-DrugBank.d531.s72.e1" charOffset="16-23"
+            type="drug" text="Warfarin"/>
+        <pair id="DDI-DrugBank.d531.s72.p0"
+            e1="DDI-DrugBank.d531.s72.e0" e2="DDI-DrugBank.d531.s72.e1" ddi="false"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d531.s73" text="Plasma concentrations and effects potentially increased or decreased by SUSTIVA.">
+        <entity id="DDI-DrugBank.d531.s73.e0" charOffset="72-78"
+            type="brand" text="SUSTIVA"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d531.s74" text="Anticonvulsants: Phenytoin Phenobarbital Carbamazepine">
+        <entity id="DDI-DrugBank.d531.s74.e0" charOffset="0-14"
+            type="group" text="Anticonvulsants"/>
+        <entity id="DDI-DrugBank.d531.s74.e1" charOffset="17-25"
+            type="drug" text="Phenytoin"/>
+        <entity id="DDI-DrugBank.d531.s74.e2" charOffset="27-39"
+            type="drug" text="Phenobarbital"/>
+        <entity id="DDI-DrugBank.d531.s74.e3" charOffset="41-53"
+            type="drug" text="Carbamazepine"/>
+        <pair id="DDI-DrugBank.d531.s74.p0"
+            e1="DDI-DrugBank.d531.s74.e0" e2="DDI-DrugBank.d531.s74.e1" ddi="false"/>
+        <pair id="DDI-DrugBank.d531.s74.p1"
+            e1="DDI-DrugBank.d531.s74.e0" e2="DDI-DrugBank.d531.s74.e2" ddi="false"/>
+        <pair id="DDI-DrugBank.d531.s74.p2"
+            e1="DDI-DrugBank.d531.s74.e0" e2="DDI-DrugBank.d531.s74.e3" ddi="false"/>
+        <pair id="DDI-DrugBank.d531.s74.p3"
+            e1="DDI-DrugBank.d531.s74.e1" e2="DDI-DrugBank.d531.s74.e2" ddi="false"/>
+        <pair id="DDI-DrugBank.d531.s74.p4"
+            e1="DDI-DrugBank.d531.s74.e1" e2="DDI-DrugBank.d531.s74.e3" ddi="false"/>
+        <pair id="DDI-DrugBank.d531.s74.p5"
+            e1="DDI-DrugBank.d531.s74.e2" e2="DDI-DrugBank.d531.s74.e3" ddi="false"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d531.s75" text="Potential for reduction in anticonvulsant and/or efavirenz plasma levels;">
+        <entity id="DDI-DrugBank.d531.s75.e0" charOffset="27-40"
+            type="group" text="anticonvulsant"/>
+        <entity id="DDI-DrugBank.d531.s75.e1" charOffset="49-57"
+            type="drug" text="efavirenz"/>
+        <pair id="DDI-DrugBank.d531.s75.p0"
+            e1="DDI-DrugBank.d531.s75.e0" e2="DDI-DrugBank.d531.s75.e1"
+            ddi="true" type="mechanism"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d531.s76" text="periodic monitoring of anticonvulsant plasma levels should be conducted.">
+        <entity id="DDI-DrugBank.d531.s76.e0" charOffset="23-36"
+            type="group" text="anticonvulsant"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d531.s77" text="Antifungals: Itraconazole Ketoconazole">
+        <entity id="DDI-DrugBank.d531.s77.e0" charOffset="0-10"
+            type="group" text="Antifungals"/>
+        <entity id="DDI-DrugBank.d531.s77.e1" charOffset="13-24"
+            type="drug" text="Itraconazole"/>
+        <entity id="DDI-DrugBank.d531.s77.e2" charOffset="26-37"
+            type="drug" text="Ketoconazole"/>
+        <pair id="DDI-DrugBank.d531.s77.p0"
+            e1="DDI-DrugBank.d531.s77.e0" e2="DDI-DrugBank.d531.s77.e1" ddi="false"/>
+        <pair id="DDI-DrugBank.d531.s77.p1"
+            e1="DDI-DrugBank.d531.s77.e0" e2="DDI-DrugBank.d531.s77.e2" ddi="false"/>
+        <pair id="DDI-DrugBank.d531.s77.p2"
+            e1="DDI-DrugBank.d531.s77.e1" e2="DDI-DrugBank.d531.s77.e2" ddi="false"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d531.s78" text="Drug interaction studies with SUSTIVA and these imidazole and triazole antifungals have not been conducted.">
+        <entity id="DDI-DrugBank.d531.s78.e0" charOffset="30-36"
+            type="brand" text="SUSTIVA"/>
+        <entity id="DDI-DrugBank.d531.s78.e1" charOffset="48-56;71-81"
+            type="group" text="imidazole antifungals"/>
+        <entity id="DDI-DrugBank.d531.s78.e2" charOffset="62-81"
+            type="group" text="triazole antifungals"/>
+        <pair id="DDI-DrugBank.d531.s78.p0"
+            e1="DDI-DrugBank.d531.s78.e0" e2="DDI-DrugBank.d531.s78.e1" ddi="false"/>
+        <pair id="DDI-DrugBank.d531.s78.p1"
+            e1="DDI-DrugBank.d531.s78.e0" e2="DDI-DrugBank.d531.s78.e2" ddi="false"/>
+        <pair id="DDI-DrugBank.d531.s78.p2"
+            e1="DDI-DrugBank.d531.s78.e1" e2="DDI-DrugBank.d531.s78.e2" ddi="false"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d531.s79" text="SUSTIVA has the potential to decrease plasma concentrations of itraconazole and ketoconazole.">
+        <entity id="DDI-DrugBank.d531.s79.e0" charOffset="0-6"
+            type="brand" text="SUSTIVA"/>
+        <entity id="DDI-DrugBank.d531.s79.e1" charOffset="63-74"
+            type="drug" text="itraconazole"/>
+        <entity id="DDI-DrugBank.d531.s79.e2" charOffset="80-91"
+            type="drug" text="ketoconazole"/>
+        <pair id="DDI-DrugBank.d531.s79.p0"
+            e1="DDI-DrugBank.d531.s79.e0" e2="DDI-DrugBank.d531.s79.e1"
+            ddi="true" type="mechanism"/>
+        <pair id="DDI-DrugBank.d531.s79.p1"
+            e1="DDI-DrugBank.d531.s79.e0" e2="DDI-DrugBank.d531.s79.e2"
+            ddi="true" type="mechanism"/>
+        <pair id="DDI-DrugBank.d531.s79.p2"
+            e1="DDI-DrugBank.d531.s79.e1" e2="DDI-DrugBank.d531.s79.e2" ddi="false"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d531.s80" text="Anti-HIV protease inhibitors: Saquinavir/ritonavir combination">
+        <entity id="DDI-DrugBank.d531.s80.e0" charOffset="0-27"
+            type="group" text="Anti-HIV protease inhibitors"/>
+        <entity id="DDI-DrugBank.d531.s80.e1" charOffset="30-39"
+            type="drug" text="Saquinavir"/>
+        <entity id="DDI-DrugBank.d531.s80.e2" charOffset="41-49"
+            type="drug" text="ritonavir"/>
+        <pair id="DDI-DrugBank.d531.s80.p0"
+            e1="DDI-DrugBank.d531.s80.e0" e2="DDI-DrugBank.d531.s80.e1" ddi="false"/>
+        <pair id="DDI-DrugBank.d531.s80.p1"
+            e1="DDI-DrugBank.d531.s80.e0" e2="DDI-DrugBank.d531.s80.e2" ddi="false"/>
+        <pair id="DDI-DrugBank.d531.s80.p2"
+            e1="DDI-DrugBank.d531.s80.e1" e2="DDI-DrugBank.d531.s80.e2" ddi="false"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d531.s81" text="No pharmacokinetic data are available."/>
+    <sentence id="DDI-DrugBank.d531.s82" text="Amprenavir">
+        <entity id="DDI-DrugBank.d531.s82.e0" charOffset="0-9"
+            type="drug" text="Amprenavir"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d531.s83" text="SUSTIVAhas the potential to decrease serum concentrations of amprenavir.">
+        <entity id="DDI-DrugBank.d531.s83.e0" charOffset="61-70"
+            type="drug" text="amprenavir"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d531.s84" text="Non-nucleoside reverse transcriptase inhibitors">
+        <entity id="DDI-DrugBank.d531.s84.e0" charOffset="0-46"
+            type="group" text="Non-nucleoside reverse transcriptase inhibitors"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d531.s85" text="No studies have been performed with other NNRTIs.">
+        <entity id="DDI-DrugBank.d531.s85.e0" charOffset="42-47"
+            type="group" text="NNRTIs"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d531.s86" text="St. John s wort (Hypericum perforatum)"/>
+    <sentence id="DDI-DrugBank.d531.s87" text="Expected to substantially decrease plasma levels of efavirenz;has not been studied in combination with SUSTIVA.">
+        <entity id="DDI-DrugBank.d531.s87.e0" charOffset="52-60"
+            type="drug" text="efavirenz"/>
+        <entity id="DDI-DrugBank.d531.s87.e1" charOffset="103-109"
+            type="brand" text="SUSTIVA"/>
+        <pair id="DDI-DrugBank.d531.s87.p0"
+            e1="DDI-DrugBank.d531.s87.e0" e2="DDI-DrugBank.d531.s87.e1" ddi="false"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d531.s88" text="a See Tables 1 and 2."/>
+    <sentence id="DDI-DrugBank.d531.s89" text="b This table is not all-inclusive."/>
+    <sentence id="DDI-DrugBank.d531.s90" text="Other Drugs: Based on the results of drug interaction studies, no dosage adjustment is recommended when SUSTIVA (efavirenz) is given with the following: aluminum/magnesium hydroxide antacids, azithromycin, cetirizine, famotidine, fluconazole, lamivudine, lorazepam, nelfinavir, paroxetine, and zidovudine.">
+        <entity id="DDI-DrugBank.d531.s90.e0" charOffset="104-110"
+            type="brand" text="SUSTIVA"/>
+        <entity id="DDI-DrugBank.d531.s90.e1" charOffset="113-121"
+            type="drug" text="efavirenz"/>
+        <entity id="DDI-DrugBank.d531.s90.e2" charOffset="153-189"
+            type="group" text="aluminum/magnesium hydroxide antacids"/>
+        <entity id="DDI-DrugBank.d531.s90.e3" charOffset="192-203"
+            type="drug" text="azithromycin"/>
+        <entity id="DDI-DrugBank.d531.s90.e4" charOffset="206-215"
+            type="drug" text="cetirizine"/>
+        <entity id="DDI-DrugBank.d531.s90.e5" charOffset="218-227"
+            type="drug" text="famotidine"/>
+        <entity id="DDI-DrugBank.d531.s90.e6" charOffset="230-240"
+            type="drug" text="fluconazole"/>
+        <entity id="DDI-DrugBank.d531.s90.e7" charOffset="243-252"
+            type="drug" text="lamivudine"/>
+        <entity id="DDI-DrugBank.d531.s90.e8" charOffset="255-263"
+            type="drug" text="lorazepam"/>
+        <entity id="DDI-DrugBank.d531.s90.e9" charOffset="266-275"
+            type="drug" text="nelfinavir"/>
+        <entity id="DDI-DrugBank.d531.s90.e10" charOffset="278-287"
+            type="drug" text="paroxetine"/>
+        <entity id="DDI-DrugBank.d531.s90.e11" charOffset="294-303"
+            type="drug" text="zidovudine"/>
+        <pair id="DDI-DrugBank.d531.s90.p0"
+            e1="DDI-DrugBank.d531.s90.e0" e2="DDI-DrugBank.d531.s90.e1" ddi="false"/>
+        <pair id="DDI-DrugBank.d531.s90.p1"
+            e1="DDI-DrugBank.d531.s90.e0" e2="DDI-DrugBank.d531.s90.e2" ddi="false"/>
+        <pair id="DDI-DrugBank.d531.s90.p2"
+            e1="DDI-DrugBank.d531.s90.e0" e2="DDI-DrugBank.d531.s90.e3" ddi="false"/>
+        <pair id="DDI-DrugBank.d531.s90.p3"
+            e1="DDI-DrugBank.d531.s90.e0" e2="DDI-DrugBank.d531.s90.e4" ddi="false"/>
+        <pair id="DDI-DrugBank.d531.s90.p4"
+            e1="DDI-DrugBank.d531.s90.e0" e2="DDI-DrugBank.d531.s90.e5" ddi="false"/>
+        <pair id="DDI-DrugBank.d531.s90.p5"
+            e1="DDI-DrugBank.d531.s90.e0" e2="DDI-DrugBank.d531.s90.e6" ddi="false"/>
+        <pair id="DDI-DrugBank.d531.s90.p6"
+            e1="DDI-DrugBank.d531.s90.e0" e2="DDI-DrugBank.d531.s90.e7" ddi="false"/>
+        <pair id="DDI-DrugBank.d531.s90.p7"
+            e1="DDI-DrugBank.d531.s90.e0" e2="DDI-DrugBank.d531.s90.e8" ddi="false"/>
+        <pair id="DDI-DrugBank.d531.s90.p8"
+            e1="DDI-DrugBank.d531.s90.e0" e2="DDI-DrugBank.d531.s90.e9" ddi="false"/>
+        <pair id="DDI-DrugBank.d531.s90.p9"
+            e1="DDI-DrugBank.d531.s90.e0" e2="DDI-DrugBank.d531.s90.e10" ddi="false"/>
+        <pair id="DDI-DrugBank.d531.s90.p10"
+            e1="DDI-DrugBank.d531.s90.e0" e2="DDI-DrugBank.d531.s90.e11" ddi="false"/>
+        <pair id="DDI-DrugBank.d531.s90.p11"
+            e1="DDI-DrugBank.d531.s90.e1" e2="DDI-DrugBank.d531.s90.e2" ddi="false"/>
+        <pair id="DDI-DrugBank.d531.s90.p12"
+            e1="DDI-DrugBank.d531.s90.e1" e2="DDI-DrugBank.d531.s90.e3" ddi="false"/>
+        <pair id="DDI-DrugBank.d531.s90.p13"
+            e1="DDI-DrugBank.d531.s90.e1" e2="DDI-DrugBank.d531.s90.e4" ddi="false"/>
+        <pair id="DDI-DrugBank.d531.s90.p14"
+            e1="DDI-DrugBank.d531.s90.e1" e2="DDI-DrugBank.d531.s90.e5" ddi="false"/>
+        <pair id="DDI-DrugBank.d531.s90.p15"
+            e1="DDI-DrugBank.d531.s90.e1" e2="DDI-DrugBank.d531.s90.e6" ddi="false"/>
+        <pair id="DDI-DrugBank.d531.s90.p16"
+            e1="DDI-DrugBank.d531.s90.e1" e2="DDI-DrugBank.d531.s90.e7" ddi="false"/>
+        <pair id="DDI-DrugBank.d531.s90.p17"
+            e1="DDI-DrugBank.d531.s90.e1" e2="DDI-DrugBank.d531.s90.e8" ddi="false"/>
+        <pair id="DDI-DrugBank.d531.s90.p18"
+            e1="DDI-DrugBank.d531.s90.e1" e2="DDI-DrugBank.d531.s90.e9" ddi="false"/>
+        <pair id="DDI-DrugBank.d531.s90.p19"
+            e1="DDI-DrugBank.d531.s90.e1" e2="DDI-DrugBank.d531.s90.e10" ddi="false"/>
+        <pair id="DDI-DrugBank.d531.s90.p20"
+            e1="DDI-DrugBank.d531.s90.e1" e2="DDI-DrugBank.d531.s90.e11" ddi="false"/>
+        <pair id="DDI-DrugBank.d531.s90.p21"
+            e1="DDI-DrugBank.d531.s90.e2" e2="DDI-DrugBank.d531.s90.e3" ddi="false"/>
+        <pair id="DDI-DrugBank.d531.s90.p22"
+            e1="DDI-DrugBank.d531.s90.e2" e2="DDI-DrugBank.d531.s90.e4" ddi="false"/>
+        <pair id="DDI-DrugBank.d531.s90.p23"
+            e1="DDI-DrugBank.d531.s90.e2" e2="DDI-DrugBank.d531.s90.e5" ddi="false"/>
+        <pair id="DDI-DrugBank.d531.s90.p24"
+            e1="DDI-DrugBank.d531.s90.e2" e2="DDI-DrugBank.d531.s90.e6" ddi="false"/>
+        <pair id="DDI-DrugBank.d531.s90.p25"
+            e1="DDI-DrugBank.d531.s90.e2" e2="DDI-DrugBank.d531.s90.e7" ddi="false"/>
+        <pair id="DDI-DrugBank.d531.s90.p26"
+            e1="DDI-DrugBank.d531.s90.e2" e2="DDI-DrugBank.d531.s90.e8" ddi="false"/>
+        <pair id="DDI-DrugBank.d531.s90.p27"
+            e1="DDI-DrugBank.d531.s90.e2" e2="DDI-DrugBank.d531.s90.e9" ddi="false"/>
+        <pair id="DDI-DrugBank.d531.s90.p28"
+            e1="DDI-DrugBank.d531.s90.e2" e2="DDI-DrugBank.d531.s90.e10" ddi="false"/>
+        <pair id="DDI-DrugBank.d531.s90.p29"
+            e1="DDI-DrugBank.d531.s90.e2" e2="DDI-DrugBank.d531.s90.e11" ddi="false"/>
+        <pair id="DDI-DrugBank.d531.s90.p30"
+            e1="DDI-DrugBank.d531.s90.e3" e2="DDI-DrugBank.d531.s90.e4" ddi="false"/>
+        <pair id="DDI-DrugBank.d531.s90.p31"
+            e1="DDI-DrugBank.d531.s90.e3" e2="DDI-DrugBank.d531.s90.e5" ddi="false"/>
+        <pair id="DDI-DrugBank.d531.s90.p32"
+            e1="DDI-DrugBank.d531.s90.e3" e2="DDI-DrugBank.d531.s90.e6" ddi="false"/>
+        <pair id="DDI-DrugBank.d531.s90.p33"
+            e1="DDI-DrugBank.d531.s90.e3" e2="DDI-DrugBank.d531.s90.e7" ddi="false"/>
+        <pair id="DDI-DrugBank.d531.s90.p34"
+            e1="DDI-DrugBank.d531.s90.e3" e2="DDI-DrugBank.d531.s90.e8" ddi="false"/>
+        <pair id="DDI-DrugBank.d531.s90.p35"
+            e1="DDI-DrugBank.d531.s90.e3" e2="DDI-DrugBank.d531.s90.e9" ddi="false"/>
+        <pair id="DDI-DrugBank.d531.s90.p36"
+            e1="DDI-DrugBank.d531.s90.e3" e2="DDI-DrugBank.d531.s90.e10" ddi="false"/>
+        <pair id="DDI-DrugBank.d531.s90.p37"
+            e1="DDI-DrugBank.d531.s90.e3" e2="DDI-DrugBank.d531.s90.e11" ddi="false"/>
+        <pair id="DDI-DrugBank.d531.s90.p38"
+            e1="DDI-DrugBank.d531.s90.e4" e2="DDI-DrugBank.d531.s90.e5" ddi="false"/>
+        <pair id="DDI-DrugBank.d531.s90.p39"
+            e1="DDI-DrugBank.d531.s90.e4" e2="DDI-DrugBank.d531.s90.e6" ddi="false"/>
+        <pair id="DDI-DrugBank.d531.s90.p40"
+            e1="DDI-DrugBank.d531.s90.e4" e2="DDI-DrugBank.d531.s90.e7" ddi="false"/>
+        <pair id="DDI-DrugBank.d531.s90.p41"
+            e1="DDI-DrugBank.d531.s90.e4" e2="DDI-DrugBank.d531.s90.e8" ddi="false"/>
+        <pair id="DDI-DrugBank.d531.s90.p42"
+            e1="DDI-DrugBank.d531.s90.e4" e2="DDI-DrugBank.d531.s90.e9" ddi="false"/>
+        <pair id="DDI-DrugBank.d531.s90.p43"
+            e1="DDI-DrugBank.d531.s90.e4" e2="DDI-DrugBank.d531.s90.e10" ddi="false"/>
+        <pair id="DDI-DrugBank.d531.s90.p44"
+            e1="DDI-DrugBank.d531.s90.e4" e2="DDI-DrugBank.d531.s90.e11" ddi="false"/>
+        <pair id="DDI-DrugBank.d531.s90.p45"
+            e1="DDI-DrugBank.d531.s90.e5" e2="DDI-DrugBank.d531.s90.e6" ddi="false"/>
+        <pair id="DDI-DrugBank.d531.s90.p46"
+            e1="DDI-DrugBank.d531.s90.e5" e2="DDI-DrugBank.d531.s90.e7" ddi="false"/>
+        <pair id="DDI-DrugBank.d531.s90.p47"
+            e1="DDI-DrugBank.d531.s90.e5" e2="DDI-DrugBank.d531.s90.e8" ddi="false"/>
+        <pair id="DDI-DrugBank.d531.s90.p48"
+            e1="DDI-DrugBank.d531.s90.e5" e2="DDI-DrugBank.d531.s90.e9" ddi="false"/>
+        <pair id="DDI-DrugBank.d531.s90.p49"
+            e1="DDI-DrugBank.d531.s90.e5" e2="DDI-DrugBank.d531.s90.e10" ddi="false"/>
+        <pair id="DDI-DrugBank.d531.s90.p50"
+            e1="DDI-DrugBank.d531.s90.e5" e2="DDI-DrugBank.d531.s90.e11" ddi="false"/>
+        <pair id="DDI-DrugBank.d531.s90.p51"
+            e1="DDI-DrugBank.d531.s90.e6" e2="DDI-DrugBank.d531.s90.e7" ddi="false"/>
+        <pair id="DDI-DrugBank.d531.s90.p52"
+            e1="DDI-DrugBank.d531.s90.e6" e2="DDI-DrugBank.d531.s90.e8" ddi="false"/>
+        <pair id="DDI-DrugBank.d531.s90.p53"
+            e1="DDI-DrugBank.d531.s90.e6" e2="DDI-DrugBank.d531.s90.e9" ddi="false"/>
+        <pair id="DDI-DrugBank.d531.s90.p54"
+            e1="DDI-DrugBank.d531.s90.e6" e2="DDI-DrugBank.d531.s90.e10" ddi="false"/>
+        <pair id="DDI-DrugBank.d531.s90.p55"
+            e1="DDI-DrugBank.d531.s90.e6" e2="DDI-DrugBank.d531.s90.e11" ddi="false"/>
+        <pair id="DDI-DrugBank.d531.s90.p56"
+            e1="DDI-DrugBank.d531.s90.e7" e2="DDI-DrugBank.d531.s90.e8" ddi="false"/>
+        <pair id="DDI-DrugBank.d531.s90.p57"
+            e1="DDI-DrugBank.d531.s90.e7" e2="DDI-DrugBank.d531.s90.e9" ddi="false"/>
+        <pair id="DDI-DrugBank.d531.s90.p58"
+            e1="DDI-DrugBank.d531.s90.e7" e2="DDI-DrugBank.d531.s90.e10" ddi="false"/>
+        <pair id="DDI-DrugBank.d531.s90.p59"
+            e1="DDI-DrugBank.d531.s90.e7" e2="DDI-DrugBank.d531.s90.e11" ddi="false"/>
+        <pair id="DDI-DrugBank.d531.s90.p60"
+            e1="DDI-DrugBank.d531.s90.e8" e2="DDI-DrugBank.d531.s90.e9" ddi="false"/>
+        <pair id="DDI-DrugBank.d531.s90.p61"
+            e1="DDI-DrugBank.d531.s90.e8" e2="DDI-DrugBank.d531.s90.e10" ddi="false"/>
+        <pair id="DDI-DrugBank.d531.s90.p62"
+            e1="DDI-DrugBank.d531.s90.e8" e2="DDI-DrugBank.d531.s90.e11" ddi="false"/>
+        <pair id="DDI-DrugBank.d531.s90.p63"
+            e1="DDI-DrugBank.d531.s90.e9" e2="DDI-DrugBank.d531.s90.e10" ddi="false"/>
+        <pair id="DDI-DrugBank.d531.s90.p64"
+            e1="DDI-DrugBank.d531.s90.e9" e2="DDI-DrugBank.d531.s90.e11" ddi="false"/>
+        <pair id="DDI-DrugBank.d531.s90.p65"
+            e1="DDI-DrugBank.d531.s90.e10"
+            e2="DDI-DrugBank.d531.s90.e11" ddi="false"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d531.s91" text="Specific drug interaction studies have not been performed with SUSTIVA and NRTIs other than lamivudine and zidovudine.">
+        <entity id="DDI-DrugBank.d531.s91.e0" charOffset="63-69"
+            type="brand" text="SUSTIVA"/>
+        <entity id="DDI-DrugBank.d531.s91.e1" charOffset="75-79"
+            type="group" text="NRTIs"/>
+        <entity id="DDI-DrugBank.d531.s91.e2" charOffset="92-101"
+            type="drug" text="lamivudine"/>
+        <entity id="DDI-DrugBank.d531.s91.e3" charOffset="107-116"
+            type="drug" text="zidovudine"/>
+        <pair id="DDI-DrugBank.d531.s91.p0"
+            e1="DDI-DrugBank.d531.s91.e0" e2="DDI-DrugBank.d531.s91.e1" ddi="false"/>
+        <pair id="DDI-DrugBank.d531.s91.p1"
+            e1="DDI-DrugBank.d531.s91.e0" e2="DDI-DrugBank.d531.s91.e2" ddi="false"/>
+        <pair id="DDI-DrugBank.d531.s91.p2"
+            e1="DDI-DrugBank.d531.s91.e0" e2="DDI-DrugBank.d531.s91.e3" ddi="false"/>
+        <pair id="DDI-DrugBank.d531.s91.p3"
+            e1="DDI-DrugBank.d531.s91.e1" e2="DDI-DrugBank.d531.s91.e2" ddi="false"/>
+        <pair id="DDI-DrugBank.d531.s91.p4"
+            e1="DDI-DrugBank.d531.s91.e1" e2="DDI-DrugBank.d531.s91.e3" ddi="false"/>
+        <pair id="DDI-DrugBank.d531.s91.p5"
+            e1="DDI-DrugBank.d531.s91.e2" e2="DDI-DrugBank.d531.s91.e3" ddi="false"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d531.s92" text="Clinically significant interactions would not be expected since the NRTIs are metabolized via a different route than efavirenz and would be unlikely to compete for the same metabolic enzymes and elimination pathways.">
+        <entity id="DDI-DrugBank.d531.s92.e0" charOffset="68-72"
+            type="group" text="NRTIs"/>
+        <entity id="DDI-DrugBank.d531.s92.e1" charOffset="117-125"
+            type="drug" text="efavirenz"/>
+        <pair id="DDI-DrugBank.d531.s92.p0"
+            e1="DDI-DrugBank.d531.s92.e0" e2="DDI-DrugBank.d531.s92.e1" ddi="false"/>
+    </sentence>
+</document>

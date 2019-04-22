@@ -1,0 +1,259 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="DDI-DrugBank.d466">
+    <sentence id="DDI-DrugBank.d466.s0" text="Drug Interaction with Erythromycin and Ketoconazole Fexofenadine has been shown to exhibit minimal (ca. 5%) metabolism.">
+        <entity id="DDI-DrugBank.d466.s0.e0" charOffset="22-33"
+            type="drug" text="Erythromycin"/>
+        <entity id="DDI-DrugBank.d466.s0.e1" charOffset="39-50"
+            type="drug" text="Ketoconazole"/>
+        <entity id="DDI-DrugBank.d466.s0.e2" charOffset="52-63"
+            type="drug" text="Fexofenadine"/>
+        <pair id="DDI-DrugBank.d466.s0.p0" e1="DDI-DrugBank.d466.s0.e0"
+            e2="DDI-DrugBank.d466.s0.e1" ddi="false"/>
+        <pair id="DDI-DrugBank.d466.s0.p1" e1="DDI-DrugBank.d466.s0.e0"
+            e2="DDI-DrugBank.d466.s0.e2" ddi="false"/>
+        <pair id="DDI-DrugBank.d466.s0.p2" e1="DDI-DrugBank.d466.s0.e1"
+            e2="DDI-DrugBank.d466.s0.e2" ddi="false"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d466.s1" text="However, co  administration of fexofenadine hydrochloride with either ketoconazole or erythromycin led to increased plasma concentrations of fexofenadine.">
+        <entity id="DDI-DrugBank.d466.s1.e0" charOffset="31-56"
+            type="drug" text="fexofenadine hydrochloride"/>
+        <entity id="DDI-DrugBank.d466.s1.e1" charOffset="70-81"
+            type="drug" text="ketoconazole"/>
+        <entity id="DDI-DrugBank.d466.s1.e2" charOffset="86-97"
+            type="drug" text="erythromycin"/>
+        <entity id="DDI-DrugBank.d466.s1.e3" charOffset="141-152"
+            type="drug" text="fexofenadine"/>
+        <pair id="DDI-DrugBank.d466.s1.p0" e1="DDI-DrugBank.d466.s1.e0"
+            e2="DDI-DrugBank.d466.s1.e1" ddi="true" type="mechanism"/>
+        <pair id="DDI-DrugBank.d466.s1.p1" e1="DDI-DrugBank.d466.s1.e0"
+            e2="DDI-DrugBank.d466.s1.e2" ddi="true" type="mechanism"/>
+        <pair id="DDI-DrugBank.d466.s1.p2" e1="DDI-DrugBank.d466.s1.e0"
+            e2="DDI-DrugBank.d466.s1.e3" ddi="false"/>
+        <pair id="DDI-DrugBank.d466.s1.p3" e1="DDI-DrugBank.d466.s1.e1"
+            e2="DDI-DrugBank.d466.s1.e2" ddi="false"/>
+        <pair id="DDI-DrugBank.d466.s1.p4" e1="DDI-DrugBank.d466.s1.e1"
+            e2="DDI-DrugBank.d466.s1.e3" ddi="false"/>
+        <pair id="DDI-DrugBank.d466.s1.p5" e1="DDI-DrugBank.d466.s1.e2"
+            e2="DDI-DrugBank.d466.s1.e3" ddi="false"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d466.s2" text="Fexofenadine had no effect on the pharmacokinetics of either erythromycin or ketoconazole.">
+        <entity id="DDI-DrugBank.d466.s2.e0" charOffset="0-11"
+            type="drug" text="Fexofenadine"/>
+        <entity id="DDI-DrugBank.d466.s2.e1" charOffset="61-72"
+            type="drug" text="erythromycin"/>
+        <entity id="DDI-DrugBank.d466.s2.e2" charOffset="77-88"
+            type="drug" text="ketoconazole"/>
+        <pair id="DDI-DrugBank.d466.s2.p0" e1="DDI-DrugBank.d466.s2.e0"
+            e2="DDI-DrugBank.d466.s2.e1" ddi="false"/>
+        <pair id="DDI-DrugBank.d466.s2.p1" e1="DDI-DrugBank.d466.s2.e0"
+            e2="DDI-DrugBank.d466.s2.e2" ddi="false"/>
+        <pair id="DDI-DrugBank.d466.s2.p2" e1="DDI-DrugBank.d466.s2.e1"
+            e2="DDI-DrugBank.d466.s2.e2" ddi="false"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d466.s3" text="In 2 separate studies, fexofenadine hydrochloride 120 mg twice daily (240 mg total daily dose) was co-administered with either erythromycin 500 mg every 8 hours or ketoconazole 400 mg once daily under steady-state conditions to healthy volunteers (n=24, each study).">
+        <entity id="DDI-DrugBank.d466.s3.e0" charOffset="23-48"
+            type="drug" text="fexofenadine hydrochloride"/>
+        <entity id="DDI-DrugBank.d466.s3.e1" charOffset="127-138"
+            type="drug" text="erythromycin"/>
+        <entity id="DDI-DrugBank.d466.s3.e2" charOffset="164-175"
+            type="drug" text="ketoconazole"/>
+        <pair id="DDI-DrugBank.d466.s3.p0" e1="DDI-DrugBank.d466.s3.e0"
+            e2="DDI-DrugBank.d466.s3.e1" ddi="false"/>
+        <pair id="DDI-DrugBank.d466.s3.p1" e1="DDI-DrugBank.d466.s3.e0"
+            e2="DDI-DrugBank.d466.s3.e2" ddi="false"/>
+        <pair id="DDI-DrugBank.d466.s3.p2" e1="DDI-DrugBank.d466.s3.e1"
+            e2="DDI-DrugBank.d466.s3.e2" ddi="false"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d466.s4" text="No differences in adverse events or QTc interval were observed when subjects were administered fexofenadine hydrochloride alone or in combination with either erythromycin or ketoconazole.">
+        <entity id="DDI-DrugBank.d466.s4.e0" charOffset="95-120"
+            type="drug" text="fexofenadine hydrochloride"/>
+        <entity id="DDI-DrugBank.d466.s4.e1" charOffset="158-169"
+            type="drug" text="erythromycin"/>
+        <entity id="DDI-DrugBank.d466.s4.e2" charOffset="174-185"
+            type="drug" text="ketoconazole"/>
+        <pair id="DDI-DrugBank.d466.s4.p0" e1="DDI-DrugBank.d466.s4.e0"
+            e2="DDI-DrugBank.d466.s4.e1" ddi="false"/>
+        <pair id="DDI-DrugBank.d466.s4.p1" e1="DDI-DrugBank.d466.s4.e0"
+            e2="DDI-DrugBank.d466.s4.e2" ddi="false"/>
+        <pair id="DDI-DrugBank.d466.s4.p2" e1="DDI-DrugBank.d466.s4.e1"
+            e2="DDI-DrugBank.d466.s4.e2" ddi="false"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d466.s5" text="The findings of these studies are summarized in the following table: Effects on steady-state fexofenadine pharmacokinetics after 7 days of co-administration with fexofenadine hydrochloride 120 mg every 12 hours (two times the recommended twice daily dose) in healthy volunteers (n=24)">
+        <entity id="DDI-DrugBank.d466.s5.e0" charOffset="93-104"
+            type="drug" text="fexofenadine"/>
+        <entity id="DDI-DrugBank.d466.s5.e1" charOffset="162-187"
+            type="drug" text="fexofenadine hydrochloride"/>
+        <pair id="DDI-DrugBank.d466.s5.p0" e1="DDI-DrugBank.d466.s5.e0"
+            e2="DDI-DrugBank.d466.s5.e1" ddi="false"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d466.s6" text="Concomitant Drug"/>
+    <sentence id="DDI-DrugBank.d466.s7" text="cmaxSS (Peak plasma concentration)"/>
+    <sentence id="DDI-DrugBank.d466.s8" text="AUCss(0-12h) (Extent of systemic exposure)"/>
+    <sentence id="DDI-DrugBank.d466.s9" text="Erythromycin (500 mg every 8 hrs)">
+        <entity id="DDI-DrugBank.d466.s9.e0" charOffset="0-11"
+            type="drug" text="Erythromycin"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d466.s10" text="+82%"/>
+    <sentence id="DDI-DrugBank.d466.s11" text="+109%"/>
+    <sentence id="DDI-DrugBank.d466.s12" text="Ketoconazole (400 mg once daily)">
+        <entity id="DDI-DrugBank.d466.s12.e0" charOffset="0-11"
+            type="drug" text="Ketoconazole"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d466.s13" text="+135%"/>
+    <sentence id="DDI-DrugBank.d466.s14" text="+164%"/>
+    <sentence id="DDI-DrugBank.d466.s15" text="The changes in plasma levels were within the range of plasma levels achieved in adequate and well-controlled clinical trials."/>
+    <sentence id="DDI-DrugBank.d466.s16" text="The mechanism of these interactions has been evaluated in in vitro, in situ, and in vivo animal models."/>
+    <sentence id="DDI-DrugBank.d466.s17" text="These studies indicate that ketoconazole or erythromycin co-administration enhances fexofenadine gastrointestinal absorption.">
+        <entity id="DDI-DrugBank.d466.s17.e0" charOffset="28-39"
+            type="drug" text="ketoconazole"/>
+        <entity id="DDI-DrugBank.d466.s17.e1" charOffset="44-55"
+            type="drug" text="erythromycin"/>
+        <entity id="DDI-DrugBank.d466.s17.e2" charOffset="84-95"
+            type="drug" text="fexofenadine"/>
+        <pair id="DDI-DrugBank.d466.s17.p0"
+            e1="DDI-DrugBank.d466.s17.e0" e2="DDI-DrugBank.d466.s17.e1" ddi="false"/>
+        <pair id="DDI-DrugBank.d466.s17.p1"
+            e1="DDI-DrugBank.d466.s17.e0" e2="DDI-DrugBank.d466.s17.e2"
+            ddi="true" type="mechanism"/>
+        <pair id="DDI-DrugBank.d466.s17.p2"
+            e1="DDI-DrugBank.d466.s17.e1" e2="DDI-DrugBank.d466.s17.e2"
+            ddi="true" type="mechanism"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d466.s18" text="This observed increase in the bioavailability of fexofenadine may be due to transport-related effects, such as p-glycoprotein. in vivo animal studies also suggest that in addition to enhancing absorption, ketoconazole decreases fexofenadine gastrointestinal secretion, while erythromycin may also decrease biliary excretion.">
+        <entity id="DDI-DrugBank.d466.s18.e0" charOffset="49-60"
+            type="drug" text="fexofenadine"/>
+        <entity id="DDI-DrugBank.d466.s18.e1" charOffset="205-216"
+            type="drug" text="ketoconazole"/>
+        <entity id="DDI-DrugBank.d466.s18.e2" charOffset="228-239"
+            type="drug" text="fexofenadine"/>
+        <entity id="DDI-DrugBank.d466.s18.e3" charOffset="275-286"
+            type="drug" text="erythromycin"/>
+        <pair id="DDI-DrugBank.d466.s18.p0"
+            e1="DDI-DrugBank.d466.s18.e0" e2="DDI-DrugBank.d466.s18.e1" ddi="false"/>
+        <pair id="DDI-DrugBank.d466.s18.p1"
+            e1="DDI-DrugBank.d466.s18.e0" e2="DDI-DrugBank.d466.s18.e2" ddi="false"/>
+        <pair id="DDI-DrugBank.d466.s18.p2"
+            e1="DDI-DrugBank.d466.s18.e0" e2="DDI-DrugBank.d466.s18.e3" ddi="false"/>
+        <pair id="DDI-DrugBank.d466.s18.p3"
+            e1="DDI-DrugBank.d466.s18.e1" e2="DDI-DrugBank.d466.s18.e2"
+            ddi="true" type="mechanism"/>
+        <pair id="DDI-DrugBank.d466.s18.p4"
+            e1="DDI-DrugBank.d466.s18.e1" e2="DDI-DrugBank.d466.s18.e3" ddi="false"/>
+        <pair id="DDI-DrugBank.d466.s18.p5"
+            e1="DDI-DrugBank.d466.s18.e2" e2="DDI-DrugBank.d466.s18.e3" ddi="false"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d466.s19" text="Drug Interactions with Antacids Administration of 120 mg of fexofenadine hydrochloride (2 x 60 mg capsule) within 15 minutes of an aluminum and magnesium containing antacid (Maalox ) decreased fexofenadine AUC by 41% and cmax by 43%.">
+        <entity id="DDI-DrugBank.d466.s19.e0" charOffset="23-30"
+            type="group" text="Antacids"/>
+        <entity id="DDI-DrugBank.d466.s19.e1" charOffset="60-85"
+            type="drug" text="fexofenadine hydrochloride"/>
+        <entity id="DDI-DrugBank.d466.s19.e2" charOffset="131-138"
+            type="drug" text="aluminum"/>
+        <entity id="DDI-DrugBank.d466.s19.e3" charOffset="144-152"
+            type="drug" text="magnesium"/>
+        <entity id="DDI-DrugBank.d466.s19.e4" charOffset="165-171"
+            type="group" text="antacid"/>
+        <entity id="DDI-DrugBank.d466.s19.e5" charOffset="174-179"
+            type="brand" text="Maalox"/>
+        <entity id="DDI-DrugBank.d466.s19.e6" charOffset="193-204"
+            type="drug" text="fexofenadine"/>
+        <pair id="DDI-DrugBank.d466.s19.p0"
+            e1="DDI-DrugBank.d466.s19.e0" e2="DDI-DrugBank.d466.s19.e1" ddi="false"/>
+        <pair id="DDI-DrugBank.d466.s19.p1"
+            e1="DDI-DrugBank.d466.s19.e0" e2="DDI-DrugBank.d466.s19.e2" ddi="false"/>
+        <pair id="DDI-DrugBank.d466.s19.p2"
+            e1="DDI-DrugBank.d466.s19.e0" e2="DDI-DrugBank.d466.s19.e3" ddi="false"/>
+        <pair id="DDI-DrugBank.d466.s19.p3"
+            e1="DDI-DrugBank.d466.s19.e0" e2="DDI-DrugBank.d466.s19.e4" ddi="false"/>
+        <pair id="DDI-DrugBank.d466.s19.p4"
+            e1="DDI-DrugBank.d466.s19.e0" e2="DDI-DrugBank.d466.s19.e5" ddi="false"/>
+        <pair id="DDI-DrugBank.d466.s19.p5"
+            e1="DDI-DrugBank.d466.s19.e0" e2="DDI-DrugBank.d466.s19.e6" ddi="false"/>
+        <pair id="DDI-DrugBank.d466.s19.p6"
+            e1="DDI-DrugBank.d466.s19.e1" e2="DDI-DrugBank.d466.s19.e2"
+            ddi="true" type="mechanism"/>
+        <pair id="DDI-DrugBank.d466.s19.p7"
+            e1="DDI-DrugBank.d466.s19.e1" e2="DDI-DrugBank.d466.s19.e3"
+            ddi="true" type="mechanism"/>
+        <pair id="DDI-DrugBank.d466.s19.p8"
+            e1="DDI-DrugBank.d466.s19.e1" e2="DDI-DrugBank.d466.s19.e4"
+            ddi="true" type="mechanism"/>
+        <pair id="DDI-DrugBank.d466.s19.p9"
+            e1="DDI-DrugBank.d466.s19.e1" e2="DDI-DrugBank.d466.s19.e5"
+            ddi="true" type="mechanism"/>
+        <pair id="DDI-DrugBank.d466.s19.p10"
+            e1="DDI-DrugBank.d466.s19.e1" e2="DDI-DrugBank.d466.s19.e6" ddi="false"/>
+        <pair id="DDI-DrugBank.d466.s19.p11"
+            e1="DDI-DrugBank.d466.s19.e2" e2="DDI-DrugBank.d466.s19.e3" ddi="false"/>
+        <pair id="DDI-DrugBank.d466.s19.p12"
+            e1="DDI-DrugBank.d466.s19.e2" e2="DDI-DrugBank.d466.s19.e4" ddi="false"/>
+        <pair id="DDI-DrugBank.d466.s19.p13"
+            e1="DDI-DrugBank.d466.s19.e2" e2="DDI-DrugBank.d466.s19.e5" ddi="false"/>
+        <pair id="DDI-DrugBank.d466.s19.p14"
+            e1="DDI-DrugBank.d466.s19.e2" e2="DDI-DrugBank.d466.s19.e6" ddi="false"/>
+        <pair id="DDI-DrugBank.d466.s19.p15"
+            e1="DDI-DrugBank.d466.s19.e3" e2="DDI-DrugBank.d466.s19.e4" ddi="false"/>
+        <pair id="DDI-DrugBank.d466.s19.p16"
+            e1="DDI-DrugBank.d466.s19.e3" e2="DDI-DrugBank.d466.s19.e5" ddi="false"/>
+        <pair id="DDI-DrugBank.d466.s19.p17"
+            e1="DDI-DrugBank.d466.s19.e3" e2="DDI-DrugBank.d466.s19.e6" ddi="false"/>
+        <pair id="DDI-DrugBank.d466.s19.p18"
+            e1="DDI-DrugBank.d466.s19.e4" e2="DDI-DrugBank.d466.s19.e5" ddi="false"/>
+        <pair id="DDI-DrugBank.d466.s19.p19"
+            e1="DDI-DrugBank.d466.s19.e4" e2="DDI-DrugBank.d466.s19.e6" ddi="false"/>
+        <pair id="DDI-DrugBank.d466.s19.p20"
+            e1="DDI-DrugBank.d466.s19.e5" e2="DDI-DrugBank.d466.s19.e6" ddi="false"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d466.s20" text="ALLEGRA should not be taken closely in time with aluminum and magnesium containing antacids.">
+        <entity id="DDI-DrugBank.d466.s20.e0" charOffset="0-6"
+            type="brand" text="ALLEGRA"/>
+        <entity id="DDI-DrugBank.d466.s20.e1" charOffset="49-56"
+            type="drug" text="aluminum"/>
+        <entity id="DDI-DrugBank.d466.s20.e2" charOffset="62-70"
+            type="drug" text="magnesium"/>
+        <entity id="DDI-DrugBank.d466.s20.e3" charOffset="83-90"
+            type="group" text="antacids"/>
+        <pair id="DDI-DrugBank.d466.s20.p0"
+            e1="DDI-DrugBank.d466.s20.e0" e2="DDI-DrugBank.d466.s20.e1"
+            ddi="true" type="advise"/>
+        <pair id="DDI-DrugBank.d466.s20.p1"
+            e1="DDI-DrugBank.d466.s20.e0" e2="DDI-DrugBank.d466.s20.e2"
+            ddi="true" type="advise"/>
+        <pair id="DDI-DrugBank.d466.s20.p2"
+            e1="DDI-DrugBank.d466.s20.e0" e2="DDI-DrugBank.d466.s20.e3" ddi="false"/>
+        <pair id="DDI-DrugBank.d466.s20.p3"
+            e1="DDI-DrugBank.d466.s20.e1" e2="DDI-DrugBank.d466.s20.e2" ddi="false"/>
+        <pair id="DDI-DrugBank.d466.s20.p4"
+            e1="DDI-DrugBank.d466.s20.e1" e2="DDI-DrugBank.d466.s20.e3" ddi="false"/>
+        <pair id="DDI-DrugBank.d466.s20.p5"
+            e1="DDI-DrugBank.d466.s20.e2" e2="DDI-DrugBank.d466.s20.e3" ddi="false"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d466.s21" text="Interactions with Fruit Juices Fruit juices such as grapefruit, orange and apple may reduce the bioavailability and exposure of fexofenadine.">
+        <entity id="DDI-DrugBank.d466.s21.e0" charOffset="128-139"
+            type="drug" text="fexofenadine"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d466.s22" text="This is based on the results from 3 clinical studies using histamine induced skin wheals and flares coupled with population pharmacokinetic analysis.">
+        <entity id="DDI-DrugBank.d466.s22.e0" charOffset="59-67"
+            type="drug" text="histamine"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d466.s23" text="The size of wheal and flare were significantly larger when fexofenadine hydrochloride was administered with either grapefruit or orange juices compared to water.">
+        <entity id="DDI-DrugBank.d466.s23.e0" charOffset="59-84"
+            type="drug" text="fexofenadine hydrochloride"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d466.s24" text="Based on the literature reports, the same effects may be extrapolated to other fruit juices such as apple juice."/>
+    <sentence id="DDI-DrugBank.d466.s25" text="The clinical significance of these observations is unknown."/>
+    <sentence id="DDI-DrugBank.d466.s26" text="In addition, based on the population pharmacokinetics analysis of the combined data from grapefruit and orange juices studies with the data from a bioequivalence study, the bioavailability of fexofenadine was reduced by 36%.">
+        <entity id="DDI-DrugBank.d466.s26.e0" charOffset="192-203"
+            type="drug" text="fexofenadine"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d466.s27" text="Therefore, to maximize the effects of fexofenadine, it is recommended that ALLEGRA should be taken with water">
+        <entity id="DDI-DrugBank.d466.s27.e0" charOffset="38-49"
+            type="drug" text="fexofenadine"/>
+        <entity id="DDI-DrugBank.d466.s27.e1" charOffset="75-81"
+            type="brand" text="ALLEGRA"/>
+        <pair id="DDI-DrugBank.d466.s27.p0"
+            e1="DDI-DrugBank.d466.s27.e0" e2="DDI-DrugBank.d466.s27.e1" ddi="false"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d466.s28" text="."/>
+    <sentence id="DDI-DrugBank.d466.s29" text=""/>
+</document>

@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="DDI-DrugBank.d352">
+    <sentence id="DDI-DrugBank.d352.s0" text="Antidiabetic drug requirements (i.e., insulin) may be altered.">
+        <entity id="DDI-DrugBank.d352.s0.e0" charOffset="0-16"
+            type="group" text="Antidiabetic drug"/>
+        <entity id="DDI-DrugBank.d352.s0.e1" charOffset="38-44"
+            type="drug" text="insulin"/>
+        <pair id="DDI-DrugBank.d352.s0.p0" e1="DDI-DrugBank.d352.s0.e0"
+            e2="DDI-DrugBank.d352.s0.e1" ddi="false"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d352.s1" text="Concurrent use with general anesthetics may result in arrhythmias.">
+        <entity id="DDI-DrugBank.d352.s1.e0" charOffset="28-38"
+            type="group" text="anesthetics"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d352.s2" text="The pressor effects of diethylpropion and those of other drugs may be additive when the drugs are used concomitantly;">
+        <entity id="DDI-DrugBank.d352.s2.e0" charOffset="23-36"
+            type="drug" text="diethylpropion"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d352.s3" text="conversely, diethylpropion may interfere with antihypertensive drugs (i.e., guanethidine, a-methyldopa).">
+        <entity id="DDI-DrugBank.d352.s3.e0" charOffset="12-25"
+            type="drug" text="diethylpropion"/>
+        <entity id="DDI-DrugBank.d352.s3.e1" charOffset="46-67"
+            type="group" text="antihypertensive drugs"/>
+        <entity id="DDI-DrugBank.d352.s3.e2" charOffset="76-87"
+            type="drug" text="guanethidine"/>
+        <entity id="DDI-DrugBank.d352.s3.e3" charOffset="90-101"
+            type="drug" text="a-methyldopa"/>
+        <pair id="DDI-DrugBank.d352.s3.p0" e1="DDI-DrugBank.d352.s3.e0"
+            e2="DDI-DrugBank.d352.s3.e1" ddi="true" type="int"/>
+        <pair id="DDI-DrugBank.d352.s3.p1" e1="DDI-DrugBank.d352.s3.e0"
+            e2="DDI-DrugBank.d352.s3.e2" ddi="true" type="int"/>
+        <pair id="DDI-DrugBank.d352.s3.p2" e1="DDI-DrugBank.d352.s3.e0"
+            e2="DDI-DrugBank.d352.s3.e3" ddi="true" type="int"/>
+        <pair id="DDI-DrugBank.d352.s3.p3" e1="DDI-DrugBank.d352.s3.e1"
+            e2="DDI-DrugBank.d352.s3.e2" ddi="false"/>
+        <pair id="DDI-DrugBank.d352.s3.p4" e1="DDI-DrugBank.d352.s3.e1"
+            e2="DDI-DrugBank.d352.s3.e3" ddi="false"/>
+        <pair id="DDI-DrugBank.d352.s3.p5" e1="DDI-DrugBank.d352.s3.e2"
+            e2="DDI-DrugBank.d352.s3.e3" ddi="false"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d352.s4" text="Concurrent use of phenothiazines may antagonize the anorectic effect of diethylpropion.">
+        <entity id="DDI-DrugBank.d352.s4.e0" charOffset="18-31"
+            type="group" text="phenothiazines"/>
+        <entity id="DDI-DrugBank.d352.s4.e1" charOffset="72-85"
+            type="drug" text="diethylpropion"/>
+        <pair id="DDI-DrugBank.d352.s4.p0" e1="DDI-DrugBank.d352.s4.e0"
+            e2="DDI-DrugBank.d352.s4.e1" ddi="true" type="effect"/>
+    </sentence>
+</document>

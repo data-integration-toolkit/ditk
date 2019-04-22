@@ -1,0 +1,298 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="DDI-DrugBank.d572">
+    <sentence id="DDI-DrugBank.d572.s0" text="Cholestyramine: Concomitant cholestyramine administration decreased the mean AUC of total ezetimibe approximately 55%. ">
+        <entity id="DDI-DrugBank.d572.s0.e0" charOffset="0-13"
+            type="drug" text="Cholestyramine"/>
+        <entity id="DDI-DrugBank.d572.s0.e1" charOffset="28-41"
+            type="drug" text="cholestyramine"/>
+        <entity id="DDI-DrugBank.d572.s0.e2" charOffset="90-98"
+            type="drug" text="ezetimibe"/>
+        <pair id="DDI-DrugBank.d572.s0.p0" e1="DDI-DrugBank.d572.s0.e0"
+            e2="DDI-DrugBank.d572.s0.e1" ddi="false"/>
+        <pair id="DDI-DrugBank.d572.s0.p1" e1="DDI-DrugBank.d572.s0.e0"
+            e2="DDI-DrugBank.d572.s0.e2" ddi="false"/>
+        <pair id="DDI-DrugBank.d572.s0.p2" e1="DDI-DrugBank.d572.s0.e1"
+            e2="DDI-DrugBank.d572.s0.e2" ddi="true" type="mechanism"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d572.s1" text="The incremental LDL-C reduction due to adding ezetimibe to cholestyramine may be reduced by this interaction. ">
+        <entity id="DDI-DrugBank.d572.s1.e0" charOffset="46-54"
+            type="drug" text="ezetimibe"/>
+        <entity id="DDI-DrugBank.d572.s1.e1" charOffset="59-72"
+            type="drug" text="cholestyramine"/>
+        <pair id="DDI-DrugBank.d572.s1.p0" e1="DDI-DrugBank.d572.s1.e0"
+            e2="DDI-DrugBank.d572.s1.e1" ddi="true" type="effect"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d572.s2" text="Fibrates: The safety and effectiveness of ezetimibe administered with fibrates have not been established. ">
+        <entity id="DDI-DrugBank.d572.s2.e0" charOffset="0-7"
+            type="group" text="Fibrates"/>
+        <entity id="DDI-DrugBank.d572.s2.e1" charOffset="42-50"
+            type="drug" text="ezetimibe"/>
+        <entity id="DDI-DrugBank.d572.s2.e2" charOffset="70-77"
+            type="group" text="fibrates"/>
+        <pair id="DDI-DrugBank.d572.s2.p0" e1="DDI-DrugBank.d572.s2.e0"
+            e2="DDI-DrugBank.d572.s2.e1" ddi="false"/>
+        <pair id="DDI-DrugBank.d572.s2.p1" e1="DDI-DrugBank.d572.s2.e0"
+            e2="DDI-DrugBank.d572.s2.e2" ddi="false"/>
+        <pair id="DDI-DrugBank.d572.s2.p2" e1="DDI-DrugBank.d572.s2.e1"
+            e2="DDI-DrugBank.d572.s2.e2" ddi="false"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d572.s3" text="Fibrates may increase cholesterol excretion into the bile, leading to cholelithiasis. ">
+        <entity id="DDI-DrugBank.d572.s3.e0" charOffset="0-7"
+            type="group" text="Fibrates"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d572.s4" text="In a preclinical study in dogs, ezetimibe increased cholesterol in the gallbladder bile. ">
+        <entity id="DDI-DrugBank.d572.s4.e0" charOffset="32-40"
+            type="drug" text="ezetimibe"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d572.s5" text="Co-administration of ZETIA with fibrates is not recommended until use in patients is studied. ">
+        <entity id="DDI-DrugBank.d572.s5.e0" charOffset="21-25"
+            type="brand" text="ZETIA"/>
+        <entity id="DDI-DrugBank.d572.s5.e1" charOffset="32-39"
+            type="group" text="fibrates"/>
+        <pair id="DDI-DrugBank.d572.s5.p0" e1="DDI-DrugBank.d572.s5.e0"
+            e2="DDI-DrugBank.d572.s5.e1" ddi="true" type="advise"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d572.s6" text="Fenofibrate: In a pharmacokinetic study, concomitant fenofibrate administration increased total ezetimibe concentrations approximately 1.5-fold. ">
+        <entity id="DDI-DrugBank.d572.s6.e0" charOffset="0-10"
+            type="drug" text="Fenofibrate"/>
+        <entity id="DDI-DrugBank.d572.s6.e1" charOffset="53-63"
+            type="drug" text="fenofibrate"/>
+        <entity id="DDI-DrugBank.d572.s6.e2" charOffset="96-104"
+            type="drug" text="ezetimibe"/>
+        <pair id="DDI-DrugBank.d572.s6.p0" e1="DDI-DrugBank.d572.s6.e0"
+            e2="DDI-DrugBank.d572.s6.e1" ddi="false"/>
+        <pair id="DDI-DrugBank.d572.s6.p1" e1="DDI-DrugBank.d572.s6.e0"
+            e2="DDI-DrugBank.d572.s6.e2" ddi="false"/>
+        <pair id="DDI-DrugBank.d572.s6.p2" e1="DDI-DrugBank.d572.s6.e1"
+            e2="DDI-DrugBank.d572.s6.e2" ddi="true" type="mechanism"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d572.s7" text="Gemfibrozil: In a pharmacokinetic study, concomitant gemfibrozil administration increased total ezetimibe concentrations approximately 1.7-fold. ">
+        <entity id="DDI-DrugBank.d572.s7.e0" charOffset="0-10"
+            type="drug" text="Gemfibrozil"/>
+        <entity id="DDI-DrugBank.d572.s7.e1" charOffset="53-63"
+            type="drug" text="gemfibrozil"/>
+        <entity id="DDI-DrugBank.d572.s7.e2" charOffset="96-104"
+            type="drug" text="ezetimibe"/>
+        <pair id="DDI-DrugBank.d572.s7.p0" e1="DDI-DrugBank.d572.s7.e0"
+            e2="DDI-DrugBank.d572.s7.e1" ddi="false"/>
+        <pair id="DDI-DrugBank.d572.s7.p1" e1="DDI-DrugBank.d572.s7.e0"
+            e2="DDI-DrugBank.d572.s7.e2" ddi="false"/>
+        <pair id="DDI-DrugBank.d572.s7.p2" e1="DDI-DrugBank.d572.s7.e1"
+            e2="DDI-DrugBank.d572.s7.e2" ddi="false"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d572.s8" text="HMG-CoA reductase inhibitors: No clinically significant pharmacokinetic interactions were seen when ezetimibe was co-administered with atorvastatin, simvastatin, pravastatin, lovastatin, or fluvastatin. ">
+        <entity id="DDI-DrugBank.d572.s8.e0" charOffset="0-27"
+            type="group" text="HMG-CoA reductase inhibitors"/>
+        <entity id="DDI-DrugBank.d572.s8.e1" charOffset="100-108"
+            type="drug" text="ezetimibe"/>
+        <entity id="DDI-DrugBank.d572.s8.e2" charOffset="135-146"
+            type="drug" text="atorvastatin"/>
+        <entity id="DDI-DrugBank.d572.s8.e3" charOffset="149-159"
+            type="drug" text="simvastatin"/>
+        <entity id="DDI-DrugBank.d572.s8.e4" charOffset="162-172"
+            type="drug" text="pravastatin"/>
+        <entity id="DDI-DrugBank.d572.s8.e5" charOffset="175-184"
+            type="drug" text="lovastatin"/>
+        <entity id="DDI-DrugBank.d572.s8.e6" charOffset="190-200"
+            type="drug" text="fluvastatin"/>
+        <pair id="DDI-DrugBank.d572.s8.p0" e1="DDI-DrugBank.d572.s8.e0"
+            e2="DDI-DrugBank.d572.s8.e1" ddi="false"/>
+        <pair id="DDI-DrugBank.d572.s8.p1" e1="DDI-DrugBank.d572.s8.e0"
+            e2="DDI-DrugBank.d572.s8.e2" ddi="false"/>
+        <pair id="DDI-DrugBank.d572.s8.p2" e1="DDI-DrugBank.d572.s8.e0"
+            e2="DDI-DrugBank.d572.s8.e3" ddi="false"/>
+        <pair id="DDI-DrugBank.d572.s8.p3" e1="DDI-DrugBank.d572.s8.e0"
+            e2="DDI-DrugBank.d572.s8.e4" ddi="false"/>
+        <pair id="DDI-DrugBank.d572.s8.p4" e1="DDI-DrugBank.d572.s8.e0"
+            e2="DDI-DrugBank.d572.s8.e5" ddi="false"/>
+        <pair id="DDI-DrugBank.d572.s8.p5" e1="DDI-DrugBank.d572.s8.e0"
+            e2="DDI-DrugBank.d572.s8.e6" ddi="false"/>
+        <pair id="DDI-DrugBank.d572.s8.p6" e1="DDI-DrugBank.d572.s8.e1"
+            e2="DDI-DrugBank.d572.s8.e2" ddi="false"/>
+        <pair id="DDI-DrugBank.d572.s8.p7" e1="DDI-DrugBank.d572.s8.e1"
+            e2="DDI-DrugBank.d572.s8.e3" ddi="false"/>
+        <pair id="DDI-DrugBank.d572.s8.p8" e1="DDI-DrugBank.d572.s8.e1"
+            e2="DDI-DrugBank.d572.s8.e4" ddi="false"/>
+        <pair id="DDI-DrugBank.d572.s8.p9" e1="DDI-DrugBank.d572.s8.e1"
+            e2="DDI-DrugBank.d572.s8.e5" ddi="false"/>
+        <pair id="DDI-DrugBank.d572.s8.p10" e1="DDI-DrugBank.d572.s8.e1"
+            e2="DDI-DrugBank.d572.s8.e6" ddi="false"/>
+        <pair id="DDI-DrugBank.d572.s8.p11" e1="DDI-DrugBank.d572.s8.e2"
+            e2="DDI-DrugBank.d572.s8.e3" ddi="false"/>
+        <pair id="DDI-DrugBank.d572.s8.p12" e1="DDI-DrugBank.d572.s8.e2"
+            e2="DDI-DrugBank.d572.s8.e4" ddi="false"/>
+        <pair id="DDI-DrugBank.d572.s8.p13" e1="DDI-DrugBank.d572.s8.e2"
+            e2="DDI-DrugBank.d572.s8.e5" ddi="false"/>
+        <pair id="DDI-DrugBank.d572.s8.p14" e1="DDI-DrugBank.d572.s8.e2"
+            e2="DDI-DrugBank.d572.s8.e6" ddi="false"/>
+        <pair id="DDI-DrugBank.d572.s8.p15" e1="DDI-DrugBank.d572.s8.e3"
+            e2="DDI-DrugBank.d572.s8.e4" ddi="false"/>
+        <pair id="DDI-DrugBank.d572.s8.p16" e1="DDI-DrugBank.d572.s8.e3"
+            e2="DDI-DrugBank.d572.s8.e5" ddi="false"/>
+        <pair id="DDI-DrugBank.d572.s8.p17" e1="DDI-DrugBank.d572.s8.e3"
+            e2="DDI-DrugBank.d572.s8.e6" ddi="false"/>
+        <pair id="DDI-DrugBank.d572.s8.p18" e1="DDI-DrugBank.d572.s8.e4"
+            e2="DDI-DrugBank.d572.s8.e5" ddi="false"/>
+        <pair id="DDI-DrugBank.d572.s8.p19" e1="DDI-DrugBank.d572.s8.e4"
+            e2="DDI-DrugBank.d572.s8.e6" ddi="false"/>
+        <pair id="DDI-DrugBank.d572.s8.p20" e1="DDI-DrugBank.d572.s8.e5"
+            e2="DDI-DrugBank.d572.s8.e6" ddi="false"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d572.s9" text="Cyclosporine: The total ezetimibe level increased 12-fold in one renal transplant patient receiving multiple medications, including cyclosporine. ">
+        <entity id="DDI-DrugBank.d572.s9.e0" charOffset="0-11"
+            type="drug" text="Cyclosporine"/>
+        <entity id="DDI-DrugBank.d572.s9.e1" charOffset="24-32"
+            type="drug" text="ezetimibe"/>
+        <entity id="DDI-DrugBank.d572.s9.e2" charOffset="132-143"
+            type="drug" text="cyclosporine"/>
+        <pair id="DDI-DrugBank.d572.s9.p0" e1="DDI-DrugBank.d572.s9.e0"
+            e2="DDI-DrugBank.d572.s9.e1" ddi="false"/>
+        <pair id="DDI-DrugBank.d572.s9.p1" e1="DDI-DrugBank.d572.s9.e0"
+            e2="DDI-DrugBank.d572.s9.e2" ddi="false"/>
+        <pair id="DDI-DrugBank.d572.s9.p2" e1="DDI-DrugBank.d572.s9.e1"
+            e2="DDI-DrugBank.d572.s9.e2" ddi="true" type="mechanism"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d572.s10" text="Patients who take both ezetimibe and cyclosporine should be carefully monitored. ">
+        <entity id="DDI-DrugBank.d572.s10.e0" charOffset="23-31"
+            type="drug" text="ezetimibe"/>
+        <entity id="DDI-DrugBank.d572.s10.e1" charOffset="37-48"
+            type="drug" text="cyclosporine"/>
+        <pair id="DDI-DrugBank.d572.s10.p0"
+            e1="DDI-DrugBank.d572.s10.e0" e2="DDI-DrugBank.d572.s10.e1"
+            ddi="true" type="advise"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d572.s11" text="Carcinogenesis, Mutagenesis, Impairment of Fertility A 104-week dietary carcinogenicity study with ezetimibe was conducted in rats at doses up to 1500 mg/kg/day (males) and 500 mg/kg/day (females) (~20 times the human exposure at 10 mg daily based on AUC0-24hr for total ezetimibe). ">
+        <entity id="DDI-DrugBank.d572.s11.e0" charOffset="99-107"
+            type="drug" text="ezetimibe"/>
+        <entity id="DDI-DrugBank.d572.s11.e1" charOffset="271-279"
+            type="drug" text="ezetimibe"/>
+        <pair id="DDI-DrugBank.d572.s11.p0"
+            e1="DDI-DrugBank.d572.s11.e0" e2="DDI-DrugBank.d572.s11.e1" ddi="false"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d572.s12" text="A 104-week dietary carcinogenicity study with ezetimibe was also conducted in mice at doses up to 500 mg/kg/day (>150 times the human exposure at 10 mg daily based on AUC0-24hr for total ezetimibe). ">
+        <entity id="DDI-DrugBank.d572.s12.e0" charOffset="46-54"
+            type="drug" text="ezetimibe"/>
+        <entity id="DDI-DrugBank.d572.s12.e1" charOffset="187-195"
+            type="drug" text="ezetimibe"/>
+        <pair id="DDI-DrugBank.d572.s12.p0"
+            e1="DDI-DrugBank.d572.s12.e0" e2="DDI-DrugBank.d572.s12.e1" ddi="false"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d572.s13" text="There were no statistically significant increases in tumor incidences in drug-treated rats or mice. "/>
+    <sentence id="DDI-DrugBank.d572.s14" text="No evidence of mutagenicity was observed in vitro in a microbial mutagenicity (Ames) test with Salmonella typhimurium and Escherichia coli with or without metabolic activation. "/>
+    <sentence id="DDI-DrugBank.d572.s15" text="No evidence of clastogenicity was observed in vitro in a chromosomal aberration assay in human peripheral blood lymphocytes with or without metabolic activation. "/>
+    <sentence id="DDI-DrugBank.d572.s16" text="In addition, there was no evidence of genotoxicity in the in vivo mouse micronucleus test. "/>
+    <sentence id="DDI-DrugBank.d572.s17" text="In oral (gavage) fertility studies of ezetimibe conducted in rats, there was no evidence of reproductive toxicity at doses up to 1000 mg/kg/day in male or female rats (~7 times the human exposure at 10 mg daily based on AUC0-24hr for total ezetimibe). ">
+        <entity id="DDI-DrugBank.d572.s17.e0" charOffset="38-46"
+            type="drug" text="ezetimibe"/>
+        <entity id="DDI-DrugBank.d572.s17.e1" charOffset="240-248"
+            type="drug" text="ezetimibe"/>
+        <pair id="DDI-DrugBank.d572.s17.p0"
+            e1="DDI-DrugBank.d572.s17.e0" e2="DDI-DrugBank.d572.s17.e1" ddi="false"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d572.s18" text="Pregnancy Pregnancy Category: C There are no adequate and well-controlled studies of ezetimibe in pregnant women. ">
+        <entity id="DDI-DrugBank.d572.s18.e0" charOffset="85-93"
+            type="drug" text="ezetimibe"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d572.s19" text="Ezetimibe should be used during pregnancy only if the potential benefit justifies the risk to the fetus. ">
+        <entity id="DDI-DrugBank.d572.s19.e0" charOffset="0-8"
+            type="drug" text="Ezetimibe"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d572.s20" text="In oral (gavage) embryo-fetal development studies of ezetimibe conducted in rats and rabbits during organogenesis, there was no evidence of embryolethal effects at the doses tested (250, 500, 1000 mg/kg/day). ">
+        <entity id="DDI-DrugBank.d572.s20.e0" charOffset="53-61"
+            type="drug" text="ezetimibe"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d572.s21" text="In rats, increased incidences of common fetal skeletal findings (extra pair of thoracic ribs, unossified cervical vertebral centra, shortened ribs) were observed at 1000 mg/kg/day (~10 times the human exposure at 10 mg daily based on AUC0-24hr for total ezetimibe). ">
+        <entity id="DDI-DrugBank.d572.s21.e0" charOffset="254-262"
+            type="drug" text="ezetimibe"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d572.s22" text="In rabbits treated with ezetimibe, an increased incidence of extra thoracic ribs was observed at 1000 mg/kg/day (150 times the human exposure at 10 mg daily based on AUC0-24hr for total ezetimibe). ">
+        <entity id="DDI-DrugBank.d572.s22.e0" charOffset="24-32"
+            type="drug" text="ezetimibe"/>
+        <entity id="DDI-DrugBank.d572.s22.e1" charOffset="186-194"
+            type="drug" text="ezetimibe"/>
+        <pair id="DDI-DrugBank.d572.s22.p0"
+            e1="DDI-DrugBank.d572.s22.e0" e2="DDI-DrugBank.d572.s22.e1" ddi="false"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d572.s23" text="Ezetimibe crossed the placenta when pregnant rats and rabbits were given multiple oral doses. ">
+        <entity id="DDI-DrugBank.d572.s23.e0" charOffset="0-8"
+            type="drug" text="Ezetimibe"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d572.s24" text="Multiple dose studies of ezetimibe given in combination with HMG-CoA reductase inhibitors (statins) in rats and rabbits during organogenesis result in higher ezetimibe and statin exposures. ">
+        <entity id="DDI-DrugBank.d572.s24.e0" charOffset="25-33"
+            type="drug" text="ezetimibe"/>
+        <entity id="DDI-DrugBank.d572.s24.e1" charOffset="61-88"
+            type="group" text="HMG-CoA reductase inhibitors"/>
+        <entity id="DDI-DrugBank.d572.s24.e2" charOffset="91-97"
+            type="group" text="statins"/>
+        <entity id="DDI-DrugBank.d572.s24.e3" charOffset="158-166"
+            type="drug" text="ezetimibe"/>
+        <pair id="DDI-DrugBank.d572.s24.p0"
+            e1="DDI-DrugBank.d572.s24.e0" e2="DDI-DrugBank.d572.s24.e1" ddi="false"/>
+        <pair id="DDI-DrugBank.d572.s24.p1"
+            e1="DDI-DrugBank.d572.s24.e0" e2="DDI-DrugBank.d572.s24.e2" ddi="false"/>
+        <pair id="DDI-DrugBank.d572.s24.p2"
+            e1="DDI-DrugBank.d572.s24.e0" e2="DDI-DrugBank.d572.s24.e3" ddi="false"/>
+        <pair id="DDI-DrugBank.d572.s24.p3"
+            e1="DDI-DrugBank.d572.s24.e1" e2="DDI-DrugBank.d572.s24.e2" ddi="false"/>
+        <pair id="DDI-DrugBank.d572.s24.p4"
+            e1="DDI-DrugBank.d572.s24.e1" e2="DDI-DrugBank.d572.s24.e3" ddi="false"/>
+        <pair id="DDI-DrugBank.d572.s24.p5"
+            e1="DDI-DrugBank.d572.s24.e2" e2="DDI-DrugBank.d572.s24.e3" ddi="false"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d572.s25" text="Reproductive findings occur at lower doses in combination therapy compared to monotherapy. "/>
+    <sentence id="DDI-DrugBank.d572.s26" text="All HMG-CoA reductase inhibitors are contraindicated in pregnant and nursing women. ">
+        <entity id="DDI-DrugBank.d572.s26.e0" charOffset="4-31"
+            type="group" text="HMG-CoA reductase inhibitors"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d572.s27" text="When ZETIA is administered with an HMG-CoA reductase inhibitor in a woman of childbearing potential, refer to the pregnancy category and package labeling for the HMG-CoA reductase inhibitor. ">
+        <entity id="DDI-DrugBank.d572.s27.e0" charOffset="5-9"
+            type="brand" text="ZETIA"/>
+        <entity id="DDI-DrugBank.d572.s27.e1" charOffset="35-61"
+            type="group" text="HMG-CoA reductase inhibitor"/>
+        <entity id="DDI-DrugBank.d572.s27.e2" charOffset="162-188"
+            type="drug" text="HMG-CoA reductase inhibitor"/>
+        <pair id="DDI-DrugBank.d572.s27.p0"
+            e1="DDI-DrugBank.d572.s27.e0" e2="DDI-DrugBank.d572.s27.e1" ddi="false"/>
+        <pair id="DDI-DrugBank.d572.s27.p1"
+            e1="DDI-DrugBank.d572.s27.e0" e2="DDI-DrugBank.d572.s27.e2" ddi="false"/>
+        <pair id="DDI-DrugBank.d572.s27.p2"
+            e1="DDI-DrugBank.d572.s27.e1" e2="DDI-DrugBank.d572.s27.e2" ddi="false"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d572.s28" text="Labor and Delivery The effects of ZETIA on labor and delivery in pregnant women are unknown. ">
+        <entity id="DDI-DrugBank.d572.s28.e0" charOffset="34-38"
+            type="brand" text="ZETIA"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d572.s29" text="Nursing Mothers In rat studies, exposure to total ezetimibe in nursing pups was up to half of that observed in maternal plasma. ">
+        <entity id="DDI-DrugBank.d572.s29.e0" charOffset="50-58"
+            type="drug" text="ezetimibe"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d572.s30" text="It is not known whether ezetimibe is excreted into human breast milk; ">
+        <entity id="DDI-DrugBank.d572.s30.e0" charOffset="24-32"
+            type="drug" text="ezetimibe"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d572.s31" text="therefore, ZETIA should not be used in nursing mothers unless the potential benefit justifies the potential risk to the infant. ">
+        <entity id="DDI-DrugBank.d572.s31.e0" charOffset="11-15"
+            type="brand" text="ZETIA"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d572.s32" text="Pediatric Use The pharmacokinetics of ZETIA in adolescents (10 to 18 years) have been shown to be similar to that in adults. ">
+        <entity id="DDI-DrugBank.d572.s32.e0" charOffset="38-42"
+            type="brand" text="ZETIA"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d572.s33" text="Treatment experience with ZETIA in the pediatric population is limited to 4 patients (9 to 17 years) in the sitosterolemia study and 5 patients (11 to 17 years) in the HoFH study. ">
+        <entity id="DDI-DrugBank.d572.s33.e0" charOffset="26-30"
+            type="brand" text="ZETIA"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d572.s34" text="Treatment with ZETIA in children (&lt;10 years) is not recommended. ">
+        <entity id="DDI-DrugBank.d572.s34.e0" charOffset="15-19"
+            type="brand" text="ZETIA"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d572.s35" text="Geriatric Use Of the patients who received ZETIA in clinical studies, 948 were 65 and older (this included 206 who were 75 and older). ">
+        <entity id="DDI-DrugBank.d572.s35.e0" charOffset="43-47"
+            type="brand" text="ZETIA"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d572.s36" text="The effectiveness and safety of ZETIA were similar between these patients and younger subjects. ">
+        <entity id="DDI-DrugBank.d572.s36.e0" charOffset="32-36"
+            type="brand" text="ZETIA"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d572.s37" text="Greater sensitivity of some older individuals cannot be ruled out."/>
+</document>

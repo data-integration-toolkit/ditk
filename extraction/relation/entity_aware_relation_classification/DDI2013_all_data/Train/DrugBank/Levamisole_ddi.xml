@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="DDI-DrugBank.d381">
+    <sentence id="DDI-DrugBank.d381.s0" text="ERGAMISOL  (levamisole hydrochloride) has been reported to produce ANTABUSE-like side effects when given concomitantly with alcohol.">
+        <entity id="DDI-DrugBank.d381.s0.e0" charOffset="0-8"
+            type="brand" text="ERGAMISOL"/>
+        <entity id="DDI-DrugBank.d381.s0.e1" charOffset="12-35"
+            type="drug" text="levamisole hydrochloride"/>
+        <entity id="DDI-DrugBank.d381.s0.e2" charOffset="124-130"
+            type="drug" text="alcohol"/>
+        <pair id="DDI-DrugBank.d381.s0.p0" e1="DDI-DrugBank.d381.s0.e0"
+            e2="DDI-DrugBank.d381.s0.e1" ddi="false"/>
+        <pair id="DDI-DrugBank.d381.s0.p1" e1="DDI-DrugBank.d381.s0.e0"
+            e2="DDI-DrugBank.d381.s0.e2" ddi="true" type="effect"/>
+        <pair id="DDI-DrugBank.d381.s0.p2" e1="DDI-DrugBank.d381.s0.e1"
+            e2="DDI-DrugBank.d381.s0.e2" ddi="true" type="effect"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d381.s1" text="The physician is advised to monitor plasma levels of phenytoin and to decrease the dose if necessary.">
+        <entity id="DDI-DrugBank.d381.s1.e0" charOffset="53-61"
+            type="drug" text="phenytoin"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d381.s2" text="Because of reports of prolongation of the prothrombin time beyond the therapeutic range in patients taking concurrent levamisole and warfarin sodium, it is suggested that the prothrombin time be monitored carefully, and the dose of warfarin sodium or other coumarin-like drugs should be adjusted accordingly, in patients taking both drugs.">
+        <entity id="DDI-DrugBank.d381.s2.e0" charOffset="118-127"
+            type="drug" text="levamisole"/>
+        <entity id="DDI-DrugBank.d381.s2.e1" charOffset="133-147"
+            type="drug" text="warfarin sodium"/>
+        <entity id="DDI-DrugBank.d381.s2.e2" charOffset="232-246"
+            type="drug" text="warfarin sodium"/>
+        <entity id="DDI-DrugBank.d381.s2.e3" charOffset="257-264"
+            type="group" text="coumarin"/>
+        <pair id="DDI-DrugBank.d381.s2.p0" e1="DDI-DrugBank.d381.s2.e0"
+            e2="DDI-DrugBank.d381.s2.e1" ddi="true" type="advise"/>
+        <pair id="DDI-DrugBank.d381.s2.p1" e1="DDI-DrugBank.d381.s2.e0"
+            e2="DDI-DrugBank.d381.s2.e2" ddi="false"/>
+        <pair id="DDI-DrugBank.d381.s2.p2" e1="DDI-DrugBank.d381.s2.e0"
+            e2="DDI-DrugBank.d381.s2.e3" ddi="false"/>
+        <pair id="DDI-DrugBank.d381.s2.p3" e1="DDI-DrugBank.d381.s2.e1"
+            e2="DDI-DrugBank.d381.s2.e2" ddi="false"/>
+        <pair id="DDI-DrugBank.d381.s2.p4" e1="DDI-DrugBank.d381.s2.e1"
+            e2="DDI-DrugBank.d381.s2.e3" ddi="false"/>
+        <pair id="DDI-DrugBank.d381.s2.p5" e1="DDI-DrugBank.d381.s2.e2"
+            e2="DDI-DrugBank.d381.s2.e3" ddi="false"/>
+    </sentence>
+</document>

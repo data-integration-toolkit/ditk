@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="DDI-DrugBank.d211">
+    <sentence id="DDI-DrugBank.d211.s0" text="When administered concurrently, the following drugs may interact with ampicillin.">
+        <entity id="DDI-DrugBank.d211.s0.e0" charOffset="70-79"
+            type="drug" text="ampicillin"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d211.s1" text="Allopurinol: Increased possibility of skin rash, particularly in hyperuricemic patients may occur.">
+        <entity id="DDI-DrugBank.d211.s1.e0" charOffset="0-10"
+            type="drug" text="Allopurinol"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d211.s2" text="Bacteriostatic Antibiotics: Chloramphenicol, erythromycins, sulfonamides, or tetracyclines may interfere with the bactericidal effect of penicillins.">
+        <entity id="DDI-DrugBank.d211.s2.e0" charOffset="0-25"
+            type="group" text="Bacteriostatic Antibiotics"/>
+        <entity id="DDI-DrugBank.d211.s2.e1" charOffset="28-42"
+            type="drug" text="Chloramphenicol"/>
+        <entity id="DDI-DrugBank.d211.s2.e2" charOffset="45-57"
+            type="drug" text="erythromycins"/>
+        <entity id="DDI-DrugBank.d211.s2.e3" charOffset="60-71"
+            type="group" text="sulfonamides"/>
+        <entity id="DDI-DrugBank.d211.s2.e4" charOffset="77-89"
+            type="group" text="tetracyclines"/>
+        <entity id="DDI-DrugBank.d211.s2.e5" charOffset="137-147"
+            type="group" text="penicillins"/>
+        <pair id="DDI-DrugBank.d211.s2.p0" e1="DDI-DrugBank.d211.s2.e0"
+            e2="DDI-DrugBank.d211.s2.e1" ddi="false"/>
+        <pair id="DDI-DrugBank.d211.s2.p1" e1="DDI-DrugBank.d211.s2.e0"
+            e2="DDI-DrugBank.d211.s2.e2" ddi="false"/>
+        <pair id="DDI-DrugBank.d211.s2.p2" e1="DDI-DrugBank.d211.s2.e0"
+            e2="DDI-DrugBank.d211.s2.e3" ddi="false"/>
+        <pair id="DDI-DrugBank.d211.s2.p3" e1="DDI-DrugBank.d211.s2.e0"
+            e2="DDI-DrugBank.d211.s2.e4" ddi="false"/>
+        <pair id="DDI-DrugBank.d211.s2.p4" e1="DDI-DrugBank.d211.s2.e0"
+            e2="DDI-DrugBank.d211.s2.e5" ddi="false"/>
+        <pair id="DDI-DrugBank.d211.s2.p5" e1="DDI-DrugBank.d211.s2.e1"
+            e2="DDI-DrugBank.d211.s2.e2" ddi="false"/>
+        <pair id="DDI-DrugBank.d211.s2.p6" e1="DDI-DrugBank.d211.s2.e1"
+            e2="DDI-DrugBank.d211.s2.e3" ddi="false"/>
+        <pair id="DDI-DrugBank.d211.s2.p7" e1="DDI-DrugBank.d211.s2.e1"
+            e2="DDI-DrugBank.d211.s2.e4" ddi="false"/>
+        <pair id="DDI-DrugBank.d211.s2.p8" e1="DDI-DrugBank.d211.s2.e1"
+            e2="DDI-DrugBank.d211.s2.e5" ddi="true" type="effect"/>
+        <pair id="DDI-DrugBank.d211.s2.p9" e1="DDI-DrugBank.d211.s2.e2"
+            e2="DDI-DrugBank.d211.s2.e3" ddi="false"/>
+        <pair id="DDI-DrugBank.d211.s2.p10" e1="DDI-DrugBank.d211.s2.e2"
+            e2="DDI-DrugBank.d211.s2.e4" ddi="false"/>
+        <pair id="DDI-DrugBank.d211.s2.p11" e1="DDI-DrugBank.d211.s2.e2"
+            e2="DDI-DrugBank.d211.s2.e5" ddi="true" type="effect"/>
+        <pair id="DDI-DrugBank.d211.s2.p12" e1="DDI-DrugBank.d211.s2.e3"
+            e2="DDI-DrugBank.d211.s2.e4" ddi="false"/>
+        <pair id="DDI-DrugBank.d211.s2.p13" e1="DDI-DrugBank.d211.s2.e3"
+            e2="DDI-DrugBank.d211.s2.e5" ddi="true" type="effect"/>
+        <pair id="DDI-DrugBank.d211.s2.p14" e1="DDI-DrugBank.d211.s2.e4"
+            e2="DDI-DrugBank.d211.s2.e5" ddi="true" type="effect"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d211.s3" text="This has been demonstrated in view, however, the clinical significance of this interaction is not well documented."/>
+    <sentence id="DDI-DrugBank.d211.s4" text="Oral Contraceptives: May be less effective and increased breakthrough bleeding may occur.">
+        <entity id="DDI-DrugBank.d211.s4.e0" charOffset="5-18"
+            type="group" text="Contraceptives"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d211.s5" text="Probenecid: May decrease renal tubular secretion of ampicillin resulting in increased blood levels and/or ampicillin toxicity.">
+        <entity id="DDI-DrugBank.d211.s5.e0" charOffset="0-9"
+            type="drug" text="Probenecid"/>
+        <entity id="DDI-DrugBank.d211.s5.e1" charOffset="52-61"
+            type="drug" text="ampicillin"/>
+        <entity id="DDI-DrugBank.d211.s5.e2" charOffset="106-115"
+            type="drug" text="ampicillin"/>
+        <pair id="DDI-DrugBank.d211.s5.p0" e1="DDI-DrugBank.d211.s5.e0"
+            e2="DDI-DrugBank.d211.s5.e1" ddi="true" type="mechanism"/>
+        <pair id="DDI-DrugBank.d211.s5.p1" e1="DDI-DrugBank.d211.s5.e0"
+            e2="DDI-DrugBank.d211.s5.e2" ddi="false"/>
+        <pair id="DDI-DrugBank.d211.s5.p2" e1="DDI-DrugBank.d211.s5.e1"
+            e2="DDI-DrugBank.d211.s5.e2" ddi="false"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d211.s6" text="Drug/Laboratory Test Interaction After treatment with ampicillin, a false-positive reaction for glucose in the urine may occur with copper sulfate tests (Benedicts solution, Fehlings solution, or Clinitest tablets) but not with enzyme based tests such as Clinistix and Glucose Enzymatic Test Strip USP.">
+        <entity id="DDI-DrugBank.d211.s6.e0" charOffset="54-63"
+            type="drug" text="ampicillin"/>
+        <entity id="DDI-DrugBank.d211.s6.e1" charOffset="132-145"
+            type="drug_n" text="copper sulfate"/>
+        <pair id="DDI-DrugBank.d211.s6.p0" e1="DDI-DrugBank.d211.s6.e0"
+            e2="DDI-DrugBank.d211.s6.e1" ddi="false"/>
+    </sentence>
+</document>

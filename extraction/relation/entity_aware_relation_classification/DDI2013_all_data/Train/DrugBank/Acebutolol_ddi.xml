@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="DDI-DrugBank.d388">
+    <sentence id="DDI-DrugBank.d388.s0" text="Catecholamine-depleting drugs, such as reserpine, may have an additive effect when given with beta-blocking agents.">
+        <entity id="DDI-DrugBank.d388.s0.e0" charOffset="0-28"
+            type="group" text="Catecholamine-depleting drugs"/>
+        <entity id="DDI-DrugBank.d388.s0.e1" charOffset="39-47"
+            type="drug" text="reserpine"/>
+        <entity id="DDI-DrugBank.d388.s0.e2" charOffset="94-113"
+            type="group" text="beta-blocking agents"/>
+        <pair id="DDI-DrugBank.d388.s0.p0" e1="DDI-DrugBank.d388.s0.e0"
+            e2="DDI-DrugBank.d388.s0.e1" ddi="false"/>
+        <pair id="DDI-DrugBank.d388.s0.p1" e1="DDI-DrugBank.d388.s0.e0"
+            e2="DDI-DrugBank.d388.s0.e2" ddi="true" type="effect"/>
+        <pair id="DDI-DrugBank.d388.s0.p2" e1="DDI-DrugBank.d388.s0.e1"
+            e2="DDI-DrugBank.d388.s0.e2" ddi="true" type="effect"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d388.s1" text="Patients treated with acebutolol plus catecholamine depletors should, therefore, be observed closely for evidence of marked bradycardia or hypotension which may present as vertigo, syncope/presyncope, or orthostatic changes in blood pressure without compensatory tachycardia.">
+        <entity id="DDI-DrugBank.d388.s1.e0" charOffset="22-31"
+            type="drug" text="acebutolol"/>
+        <entity id="DDI-DrugBank.d388.s1.e1" charOffset="38-60"
+            type="group" text="catecholamine depletors"/>
+        <pair id="DDI-DrugBank.d388.s1.p0" e1="DDI-DrugBank.d388.s1.e0"
+            e2="DDI-DrugBank.d388.s1.e1" ddi="true" type="advise"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d388.s2" text="Exaggerated hypertensive responses have been reported from the combined use of beta-adrenergic antagonists and alpha-adrenergic stimulants, including those contained in proprietary cold remedies and vasoconstrictive nasal drops.">
+        <entity id="DDI-DrugBank.d388.s2.e0" charOffset="79-105"
+            type="group" text="beta-adrenergic antagonists"/>
+        <entity id="DDI-DrugBank.d388.s2.e1" charOffset="111-137"
+            type="group" text="alpha-adrenergic stimulants"/>
+        <pair id="DDI-DrugBank.d388.s2.p0" e1="DDI-DrugBank.d388.s2.e0"
+            e2="DDI-DrugBank.d388.s2.e1" ddi="true" type="effect"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d388.s3" text="Patients receiving beta-blockers should be warned of this potential hazard.">
+        <entity id="DDI-DrugBank.d388.s3.e0" charOffset="19-31"
+            type="group" text="beta-blockers"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d388.s4" text="Blunting of the antihypertensive effect of beta-adrenoceptor blocking agents by nonsteroidal anti-inflammatory drugs has been reported.">
+        <entity id="DDI-DrugBank.d388.s4.e0" charOffset="43-75"
+            type="group" text="beta-adrenoceptor blocking agents"/>
+        <entity id="DDI-DrugBank.d388.s4.e1" charOffset="80-115"
+            type="group" text="nonsteroidal anti-inflammatory drugs"/>
+        <pair id="DDI-DrugBank.d388.s4.p0" e1="DDI-DrugBank.d388.s4.e0"
+            e2="DDI-DrugBank.d388.s4.e1" ddi="true" type="effect"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d388.s5" text="No significant interactions with digoxin, hydrochlorothiazide, hydralazine, sulfinpyrazone, oral contraceptives, tolbutamide, or warfarin have been observed.">
+        <entity id="DDI-DrugBank.d388.s5.e0" charOffset="33-39"
+            type="drug" text="digoxin"/>
+        <entity id="DDI-DrugBank.d388.s5.e1" charOffset="42-60"
+            type="drug" text="hydrochlorothiazide"/>
+        <entity id="DDI-DrugBank.d388.s5.e2" charOffset="63-73"
+            type="drug" text="hydralazine"/>
+        <entity id="DDI-DrugBank.d388.s5.e3" charOffset="76-89"
+            type="drug" text="sulfinpyrazone"/>
+        <entity id="DDI-DrugBank.d388.s5.e4" charOffset="97-110"
+            type="group" text="contraceptives"/>
+        <entity id="DDI-DrugBank.d388.s5.e5" charOffset="113-123"
+            type="drug" text="tolbutamide"/>
+        <entity id="DDI-DrugBank.d388.s5.e6" charOffset="129-136"
+            type="drug" text="warfarin"/>
+        <pair id="DDI-DrugBank.d388.s5.p0" e1="DDI-DrugBank.d388.s5.e0"
+            e2="DDI-DrugBank.d388.s5.e1" ddi="false"/>
+        <pair id="DDI-DrugBank.d388.s5.p1" e1="DDI-DrugBank.d388.s5.e0"
+            e2="DDI-DrugBank.d388.s5.e2" ddi="false"/>
+        <pair id="DDI-DrugBank.d388.s5.p2" e1="DDI-DrugBank.d388.s5.e0"
+            e2="DDI-DrugBank.d388.s5.e3" ddi="false"/>
+        <pair id="DDI-DrugBank.d388.s5.p3" e1="DDI-DrugBank.d388.s5.e0"
+            e2="DDI-DrugBank.d388.s5.e4" ddi="false"/>
+        <pair id="DDI-DrugBank.d388.s5.p4" e1="DDI-DrugBank.d388.s5.e0"
+            e2="DDI-DrugBank.d388.s5.e5" ddi="false"/>
+        <pair id="DDI-DrugBank.d388.s5.p5" e1="DDI-DrugBank.d388.s5.e0"
+            e2="DDI-DrugBank.d388.s5.e6" ddi="false"/>
+        <pair id="DDI-DrugBank.d388.s5.p6" e1="DDI-DrugBank.d388.s5.e1"
+            e2="DDI-DrugBank.d388.s5.e2" ddi="false"/>
+        <pair id="DDI-DrugBank.d388.s5.p7" e1="DDI-DrugBank.d388.s5.e1"
+            e2="DDI-DrugBank.d388.s5.e3" ddi="false"/>
+        <pair id="DDI-DrugBank.d388.s5.p8" e1="DDI-DrugBank.d388.s5.e1"
+            e2="DDI-DrugBank.d388.s5.e4" ddi="false"/>
+        <pair id="DDI-DrugBank.d388.s5.p9" e1="DDI-DrugBank.d388.s5.e1"
+            e2="DDI-DrugBank.d388.s5.e5" ddi="false"/>
+        <pair id="DDI-DrugBank.d388.s5.p10" e1="DDI-DrugBank.d388.s5.e1"
+            e2="DDI-DrugBank.d388.s5.e6" ddi="false"/>
+        <pair id="DDI-DrugBank.d388.s5.p11" e1="DDI-DrugBank.d388.s5.e2"
+            e2="DDI-DrugBank.d388.s5.e3" ddi="false"/>
+        <pair id="DDI-DrugBank.d388.s5.p12" e1="DDI-DrugBank.d388.s5.e2"
+            e2="DDI-DrugBank.d388.s5.e4" ddi="false"/>
+        <pair id="DDI-DrugBank.d388.s5.p13" e1="DDI-DrugBank.d388.s5.e2"
+            e2="DDI-DrugBank.d388.s5.e5" ddi="false"/>
+        <pair id="DDI-DrugBank.d388.s5.p14" e1="DDI-DrugBank.d388.s5.e2"
+            e2="DDI-DrugBank.d388.s5.e6" ddi="false"/>
+        <pair id="DDI-DrugBank.d388.s5.p15" e1="DDI-DrugBank.d388.s5.e3"
+            e2="DDI-DrugBank.d388.s5.e4" ddi="false"/>
+        <pair id="DDI-DrugBank.d388.s5.p16" e1="DDI-DrugBank.d388.s5.e3"
+            e2="DDI-DrugBank.d388.s5.e5" ddi="false"/>
+        <pair id="DDI-DrugBank.d388.s5.p17" e1="DDI-DrugBank.d388.s5.e3"
+            e2="DDI-DrugBank.d388.s5.e6" ddi="false"/>
+        <pair id="DDI-DrugBank.d388.s5.p18" e1="DDI-DrugBank.d388.s5.e4"
+            e2="DDI-DrugBank.d388.s5.e5" ddi="false"/>
+        <pair id="DDI-DrugBank.d388.s5.p19" e1="DDI-DrugBank.d388.s5.e4"
+            e2="DDI-DrugBank.d388.s5.e6" ddi="false"/>
+        <pair id="DDI-DrugBank.d388.s5.p20" e1="DDI-DrugBank.d388.s5.e5"
+            e2="DDI-DrugBank.d388.s5.e6" ddi="false"/>
+    </sentence>
+</document>

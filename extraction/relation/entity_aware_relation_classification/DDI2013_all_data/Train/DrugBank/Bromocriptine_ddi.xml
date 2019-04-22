@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="DDI-DrugBank.d272">
+    <sentence id="DDI-DrugBank.d272.s0" text="The risk of using bromocriptine mesylate in combination with other drugs has not been systematically evaluated, but alcohol may potentiate the side effects of bromocriptine mesylate.">
+        <entity id="DDI-DrugBank.d272.s0.e0" charOffset="18-39"
+            type="drug" text="bromocriptine mesylate"/>
+        <entity id="DDI-DrugBank.d272.s0.e1" charOffset="116-122"
+            type="drug" text="alcohol"/>
+        <entity id="DDI-DrugBank.d272.s0.e2" charOffset="159-180"
+            type="drug" text="bromocriptine mesylate"/>
+        <pair id="DDI-DrugBank.d272.s0.p0" e1="DDI-DrugBank.d272.s0.e0"
+            e2="DDI-DrugBank.d272.s0.e1" ddi="false"/>
+        <pair id="DDI-DrugBank.d272.s0.p1" e1="DDI-DrugBank.d272.s0.e0"
+            e2="DDI-DrugBank.d272.s0.e2" ddi="false"/>
+        <pair id="DDI-DrugBank.d272.s0.p2" e1="DDI-DrugBank.d272.s0.e1"
+            e2="DDI-DrugBank.d272.s0.e2" ddi="true" type="effect"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d272.s1" text="Bromocriptine mesylate may interact with dopamine antagonists, butyrophenones, and certain other agents.">
+        <entity id="DDI-DrugBank.d272.s1.e0" charOffset="0-21"
+            type="drug" text="Bromocriptine mesylate"/>
+        <entity id="DDI-DrugBank.d272.s1.e1" charOffset="41-60"
+            type="group" text="dopamine antagonists"/>
+        <entity id="DDI-DrugBank.d272.s1.e2" charOffset="63-76"
+            type="group" text="butyrophenones"/>
+        <pair id="DDI-DrugBank.d272.s1.p0" e1="DDI-DrugBank.d272.s1.e0"
+            e2="DDI-DrugBank.d272.s1.e1" ddi="true" type="int"/>
+        <pair id="DDI-DrugBank.d272.s1.p1" e1="DDI-DrugBank.d272.s1.e0"
+            e2="DDI-DrugBank.d272.s1.e2" ddi="true" type="int"/>
+        <pair id="DDI-DrugBank.d272.s1.p2" e1="DDI-DrugBank.d272.s1.e1"
+            e2="DDI-DrugBank.d272.s1.e2" ddi="false"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d272.s2" text="Compounds in these categories result in a decreased efficacy of bromocriptine mesylate: phenothiazines, haloperidol, metoclopramide, pimozide.">
+        <entity id="DDI-DrugBank.d272.s2.e0" charOffset="64-85"
+            type="drug" text="bromocriptine mesylate"/>
+        <entity id="DDI-DrugBank.d272.s2.e1" charOffset="88-101"
+            type="group" text="phenothiazines"/>
+        <entity id="DDI-DrugBank.d272.s2.e2" charOffset="104-114"
+            type="drug" text="haloperidol"/>
+        <entity id="DDI-DrugBank.d272.s2.e3" charOffset="117-130"
+            type="drug" text="metoclopramide"/>
+        <entity id="DDI-DrugBank.d272.s2.e4" charOffset="133-140"
+            type="drug" text="pimozide"/>
+        <pair id="DDI-DrugBank.d272.s2.p0" e1="DDI-DrugBank.d272.s2.e0"
+            e2="DDI-DrugBank.d272.s2.e1" ddi="true" type="effect"/>
+        <pair id="DDI-DrugBank.d272.s2.p1" e1="DDI-DrugBank.d272.s2.e0"
+            e2="DDI-DrugBank.d272.s2.e2" ddi="true" type="effect"/>
+        <pair id="DDI-DrugBank.d272.s2.p2" e1="DDI-DrugBank.d272.s2.e0"
+            e2="DDI-DrugBank.d272.s2.e3" ddi="true" type="effect"/>
+        <pair id="DDI-DrugBank.d272.s2.p3" e1="DDI-DrugBank.d272.s2.e0"
+            e2="DDI-DrugBank.d272.s2.e4" ddi="true" type="effect"/>
+        <pair id="DDI-DrugBank.d272.s2.p4" e1="DDI-DrugBank.d272.s2.e1"
+            e2="DDI-DrugBank.d272.s2.e2" ddi="false"/>
+        <pair id="DDI-DrugBank.d272.s2.p5" e1="DDI-DrugBank.d272.s2.e1"
+            e2="DDI-DrugBank.d272.s2.e3" ddi="false"/>
+        <pair id="DDI-DrugBank.d272.s2.p6" e1="DDI-DrugBank.d272.s2.e1"
+            e2="DDI-DrugBank.d272.s2.e4" ddi="false"/>
+        <pair id="DDI-DrugBank.d272.s2.p7" e1="DDI-DrugBank.d272.s2.e2"
+            e2="DDI-DrugBank.d272.s2.e3" ddi="false"/>
+        <pair id="DDI-DrugBank.d272.s2.p8" e1="DDI-DrugBank.d272.s2.e2"
+            e2="DDI-DrugBank.d272.s2.e4" ddi="false"/>
+        <pair id="DDI-DrugBank.d272.s2.p9" e1="DDI-DrugBank.d272.s2.e3"
+            e2="DDI-DrugBank.d272.s2.e4" ddi="false"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d272.s3" text="Concomitant use of bromocriptine mesylate with other ergot alkaloids is not recommended.">
+        <entity id="DDI-DrugBank.d272.s3.e0" charOffset="19-40"
+            type="drug" text="bromocriptine mesylate"/>
+        <entity id="DDI-DrugBank.d272.s3.e1" charOffset="53-67"
+            type="group" text="ergot alkaloids"/>
+        <pair id="DDI-DrugBank.d272.s3.p0" e1="DDI-DrugBank.d272.s3.e0"
+            e2="DDI-DrugBank.d272.s3.e1" ddi="true" type="advise"/>
+    </sentence>
+</document>

@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="DDI-DrugBank.d240">
+    <sentence id="DDI-DrugBank.d240.s0" text="Ethopropazine may interact with alcohol or other CNS depressants, causing increased sedative effects.">
+        <entity id="DDI-DrugBank.d240.s0.e0" charOffset="0-12"
+            type="drug" text="Ethopropazine"/>
+        <entity id="DDI-DrugBank.d240.s0.e1" charOffset="32-38"
+            type="drug" text="alcohol"/>
+        <entity id="DDI-DrugBank.d240.s0.e2" charOffset="49-63"
+            type="group" text="CNS depressants"/>
+        <pair id="DDI-DrugBank.d240.s0.p0" e1="DDI-DrugBank.d240.s0.e0"
+            e2="DDI-DrugBank.d240.s0.e1" ddi="true" type="effect"/>
+        <pair id="DDI-DrugBank.d240.s0.p1" e1="DDI-DrugBank.d240.s0.e0"
+            e2="DDI-DrugBank.d240.s0.e2" ddi="true" type="effect"/>
+        <pair id="DDI-DrugBank.d240.s0.p2" e1="DDI-DrugBank.d240.s0.e1"
+            e2="DDI-DrugBank.d240.s0.e2" ddi="false"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d240.s1" text="It may also interact with amantadine or other anticholinergic drugs or MAOIs, which may intensify the anticholinergic action.">
+        <entity id="DDI-DrugBank.d240.s1.e0" charOffset="26-35"
+            type="drug" text="amantadine"/>
+        <entity id="DDI-DrugBank.d240.s1.e1" charOffset="46-66"
+            type="group" text="anticholinergic drugs"/>
+        <entity id="DDI-DrugBank.d240.s1.e2" charOffset="71-75"
+            type="group" text="MAOIs"/>
+        <pair id="DDI-DrugBank.d240.s1.p0" e1="DDI-DrugBank.d240.s1.e0"
+            e2="DDI-DrugBank.d240.s1.e1" ddi="false"/>
+        <pair id="DDI-DrugBank.d240.s1.p1" e1="DDI-DrugBank.d240.s1.e0"
+            e2="DDI-DrugBank.d240.s1.e2" ddi="false"/>
+        <pair id="DDI-DrugBank.d240.s1.p2" e1="DDI-DrugBank.d240.s1.e1"
+            e2="DDI-DrugBank.d240.s1.e2" ddi="false"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d240.s2" text="Ethopropazine can interact with chlorpromazine, increasing the metabolism of chlorpromazine.">
+        <entity id="DDI-DrugBank.d240.s2.e0" charOffset="0-12"
+            type="drug" text="Ethopropazine"/>
+        <entity id="DDI-DrugBank.d240.s2.e1" charOffset="32-45"
+            type="drug" text="chlorpromazine"/>
+        <entity id="DDI-DrugBank.d240.s2.e2" charOffset="77-90"
+            type="drug" text="chlorpromazine"/>
+        <pair id="DDI-DrugBank.d240.s2.p0" e1="DDI-DrugBank.d240.s2.e0"
+            e2="DDI-DrugBank.d240.s2.e1" ddi="true" type="mechanism"/>
+        <pair id="DDI-DrugBank.d240.s2.p1" e1="DDI-DrugBank.d240.s2.e0"
+            e2="DDI-DrugBank.d240.s2.e2" ddi="false"/>
+        <pair id="DDI-DrugBank.d240.s2.p2" e1="DDI-DrugBank.d240.s2.e1"
+            e2="DDI-DrugBank.d240.s2.e2" ddi="false"/>
+    </sentence>
+</document>

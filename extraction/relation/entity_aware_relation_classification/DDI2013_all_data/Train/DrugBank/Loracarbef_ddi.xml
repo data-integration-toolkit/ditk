@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="DDI-DrugBank.d351">
+    <sentence id="DDI-DrugBank.d351.s0" text="Probenecid: As with other b-lactam antibiotics, renal excretion of loracarbef is inhibited by probenecid and resulted in an approximate 80% increase in the AUC for loracarbef.">
+        <entity id="DDI-DrugBank.d351.s0.e0" charOffset="0-9"
+            type="drug" text="Probenecid"/>
+        <entity id="DDI-DrugBank.d351.s0.e1" charOffset="26-45"
+            type="group" text="b-lactam antibiotics"/>
+        <entity id="DDI-DrugBank.d351.s0.e2" charOffset="67-76"
+            type="drug" text="loracarbef"/>
+        <entity id="DDI-DrugBank.d351.s0.e3" charOffset="94-103"
+            type="drug" text="probenecid"/>
+        <entity id="DDI-DrugBank.d351.s0.e4" charOffset="164-173"
+            type="drug" text="loracarbef"/>
+        <pair id="DDI-DrugBank.d351.s0.p0" e1="DDI-DrugBank.d351.s0.e0"
+            e2="DDI-DrugBank.d351.s0.e1" ddi="false"/>
+        <pair id="DDI-DrugBank.d351.s0.p1" e1="DDI-DrugBank.d351.s0.e0"
+            e2="DDI-DrugBank.d351.s0.e2" ddi="false"/>
+        <pair id="DDI-DrugBank.d351.s0.p2" e1="DDI-DrugBank.d351.s0.e0"
+            e2="DDI-DrugBank.d351.s0.e3" ddi="false"/>
+        <pair id="DDI-DrugBank.d351.s0.p3" e1="DDI-DrugBank.d351.s0.e0"
+            e2="DDI-DrugBank.d351.s0.e4" ddi="false"/>
+        <pair id="DDI-DrugBank.d351.s0.p4" e1="DDI-DrugBank.d351.s0.e1"
+            e2="DDI-DrugBank.d351.s0.e2" ddi="false"/>
+        <pair id="DDI-DrugBank.d351.s0.p5" e1="DDI-DrugBank.d351.s0.e1"
+            e2="DDI-DrugBank.d351.s0.e3" ddi="true" type="mechanism"/>
+        <pair id="DDI-DrugBank.d351.s0.p6" e1="DDI-DrugBank.d351.s0.e1"
+            e2="DDI-DrugBank.d351.s0.e4" ddi="false"/>
+        <pair id="DDI-DrugBank.d351.s0.p7" e1="DDI-DrugBank.d351.s0.e2"
+            e2="DDI-DrugBank.d351.s0.e3" ddi="true" type="mechanism"/>
+        <pair id="DDI-DrugBank.d351.s0.p8" e1="DDI-DrugBank.d351.s0.e2"
+            e2="DDI-DrugBank.d351.s0.e4" ddi="false"/>
+        <pair id="DDI-DrugBank.d351.s0.p9" e1="DDI-DrugBank.d351.s0.e3"
+            e2="DDI-DrugBank.d351.s0.e4" ddi="false"/>
+    </sentence>
+</document>

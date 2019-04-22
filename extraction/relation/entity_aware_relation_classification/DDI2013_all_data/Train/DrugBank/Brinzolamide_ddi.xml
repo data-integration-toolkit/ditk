@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="DDI-DrugBank.d497">
+    <sentence id="DDI-DrugBank.d497.s0" text="AZOPT (brinzolamide ophthalmic suspension) 1% contains a carbonic anhydrase inhibitor.">
+        <entity id="DDI-DrugBank.d497.s0.e0" charOffset="0-4"
+            type="brand" text="AZOPT"/>
+        <entity id="DDI-DrugBank.d497.s0.e1" charOffset="7-18"
+            type="drug" text="brinzolamide"/>
+        <entity id="DDI-DrugBank.d497.s0.e2" charOffset="57-84"
+            type="group" text="carbonic anhydrase inhibitor"/>
+        <pair id="DDI-DrugBank.d497.s0.p0" e1="DDI-DrugBank.d497.s0.e0"
+            e2="DDI-DrugBank.d497.s0.e1" ddi="false"/>
+        <pair id="DDI-DrugBank.d497.s0.p1" e1="DDI-DrugBank.d497.s0.e0"
+            e2="DDI-DrugBank.d497.s0.e2" ddi="false"/>
+        <pair id="DDI-DrugBank.d497.s0.p2" e1="DDI-DrugBank.d497.s0.e1"
+            e2="DDI-DrugBank.d497.s0.e2" ddi="false"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d497.s1" text="Acid-base and electrolyte alterations were not reported in the clinical trials with brinzolamide.">
+        <entity id="DDI-DrugBank.d497.s1.e0" charOffset="84-95"
+            type="drug" text="brinzolamide"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d497.s2" text="However, in patients treated with oral carbonic anhydrase inhibitors, rare instances of drug interactions have occurred with high-dose salicylate therapy.">
+        <entity id="DDI-DrugBank.d497.s2.e0" charOffset="39-67"
+            type="group" text="carbonic anhydrase inhibitors"/>
+        <entity id="DDI-DrugBank.d497.s2.e1" charOffset="135-144"
+            type="drug" text="salicylate"/>
+        <pair id="DDI-DrugBank.d497.s2.p0" e1="DDI-DrugBank.d497.s2.e0"
+            e2="DDI-DrugBank.d497.s2.e1" ddi="true" type="int"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d497.s3" text="Therefore, the potential for such drug interaction should be considered in patients receiving AZOPT (brinzolamide ophthalmic suspension) 1%.">
+        <entity id="DDI-DrugBank.d497.s3.e0" charOffset="94-98"
+            type="brand" text="AZOPT"/>
+        <entity id="DDI-DrugBank.d497.s3.e1" charOffset="101-112"
+            type="drug" text="brinzolamide"/>
+        <pair id="DDI-DrugBank.d497.s3.p0" e1="DDI-DrugBank.d497.s3.e0"
+            e2="DDI-DrugBank.d497.s3.e1" ddi="false"/>
+    </sentence>
+</document>

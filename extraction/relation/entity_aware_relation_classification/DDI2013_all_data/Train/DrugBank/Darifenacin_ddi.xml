@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="DDI-DrugBank.d459">
+    <sentence id="DDI-DrugBank.d459.s0" text="The daily dose of ENABLEX should not exceed 7.5 mg when coadministered with potent CYP3A4 inhibitors (e.g., ketoconazole, itraconazole, ritonavir, nelfinavir, clarithromycin and nefazadone) .">
+        <entity id="DDI-DrugBank.d459.s0.e0" charOffset="18-24"
+            type="brand" text="ENABLEX"/>
+        <entity id="DDI-DrugBank.d459.s0.e1" charOffset="108-119"
+            type="drug" text="ketoconazole"/>
+        <entity id="DDI-DrugBank.d459.s0.e2" charOffset="122-133"
+            type="drug" text="itraconazole"/>
+        <entity id="DDI-DrugBank.d459.s0.e3" charOffset="136-144"
+            type="drug" text="ritonavir"/>
+        <entity id="DDI-DrugBank.d459.s0.e4" charOffset="147-156"
+            type="drug" text="nelfinavir"/>
+        <entity id="DDI-DrugBank.d459.s0.e5" charOffset="159-172"
+            type="drug" text="clarithromycin"/>
+        <pair id="DDI-DrugBank.d459.s0.p0" e1="DDI-DrugBank.d459.s0.e0"
+            e2="DDI-DrugBank.d459.s0.e1" ddi="true" type="advise"/>
+        <pair id="DDI-DrugBank.d459.s0.p1" e1="DDI-DrugBank.d459.s0.e0"
+            e2="DDI-DrugBank.d459.s0.e2" ddi="true" type="advise"/>
+        <pair id="DDI-DrugBank.d459.s0.p2" e1="DDI-DrugBank.d459.s0.e0"
+            e2="DDI-DrugBank.d459.s0.e3" ddi="true" type="advise"/>
+        <pair id="DDI-DrugBank.d459.s0.p3" e1="DDI-DrugBank.d459.s0.e0"
+            e2="DDI-DrugBank.d459.s0.e4" ddi="true" type="advise"/>
+        <pair id="DDI-DrugBank.d459.s0.p4" e1="DDI-DrugBank.d459.s0.e0"
+            e2="DDI-DrugBank.d459.s0.e5" ddi="true" type="advise"/>
+        <pair id="DDI-DrugBank.d459.s0.p5" e1="DDI-DrugBank.d459.s0.e1"
+            e2="DDI-DrugBank.d459.s0.e2" ddi="false"/>
+        <pair id="DDI-DrugBank.d459.s0.p6" e1="DDI-DrugBank.d459.s0.e1"
+            e2="DDI-DrugBank.d459.s0.e3" ddi="false"/>
+        <pair id="DDI-DrugBank.d459.s0.p7" e1="DDI-DrugBank.d459.s0.e1"
+            e2="DDI-DrugBank.d459.s0.e4" ddi="false"/>
+        <pair id="DDI-DrugBank.d459.s0.p8" e1="DDI-DrugBank.d459.s0.e1"
+            e2="DDI-DrugBank.d459.s0.e5" ddi="false"/>
+        <pair id="DDI-DrugBank.d459.s0.p9" e1="DDI-DrugBank.d459.s0.e2"
+            e2="DDI-DrugBank.d459.s0.e3" ddi="false"/>
+        <pair id="DDI-DrugBank.d459.s0.p10" e1="DDI-DrugBank.d459.s0.e2"
+            e2="DDI-DrugBank.d459.s0.e4" ddi="false"/>
+        <pair id="DDI-DrugBank.d459.s0.p11" e1="DDI-DrugBank.d459.s0.e2"
+            e2="DDI-DrugBank.d459.s0.e5" ddi="false"/>
+        <pair id="DDI-DrugBank.d459.s0.p12" e1="DDI-DrugBank.d459.s0.e3"
+            e2="DDI-DrugBank.d459.s0.e4" ddi="false"/>
+        <pair id="DDI-DrugBank.d459.s0.p13" e1="DDI-DrugBank.d459.s0.e3"
+            e2="DDI-DrugBank.d459.s0.e5" ddi="false"/>
+        <pair id="DDI-DrugBank.d459.s0.p14" e1="DDI-DrugBank.d459.s0.e4"
+            e2="DDI-DrugBank.d459.s0.e5" ddi="false"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d459.s1" text="Caution should be taken when ENABLEX is used concomitantly with medications that are predominantly metabolized by CYP2D6 and which have a narrow therapeutic window, such as flecainide, thioridazine and tricyclic antidepressants (see CLINICAL PHARMACOLOGY).">
+        <entity id="DDI-DrugBank.d459.s1.e0" charOffset="29-35"
+            type="brand" text="ENABLEX"/>
+        <entity id="DDI-DrugBank.d459.s1.e1" charOffset="173-182"
+            type="drug" text="flecainide"/>
+        <entity id="DDI-DrugBank.d459.s1.e2" charOffset="185-196"
+            type="drug" text="thioridazine"/>
+        <entity id="DDI-DrugBank.d459.s1.e3" charOffset="202-226"
+            type="group" text="tricyclic antidepressants"/>
+        <pair id="DDI-DrugBank.d459.s1.p0" e1="DDI-DrugBank.d459.s1.e0"
+            e2="DDI-DrugBank.d459.s1.e1" ddi="true" type="advise"/>
+        <pair id="DDI-DrugBank.d459.s1.p1" e1="DDI-DrugBank.d459.s1.e0"
+            e2="DDI-DrugBank.d459.s1.e2" ddi="true" type="advise"/>
+        <pair id="DDI-DrugBank.d459.s1.p2" e1="DDI-DrugBank.d459.s1.e0"
+            e2="DDI-DrugBank.d459.s1.e3" ddi="true" type="advise"/>
+        <pair id="DDI-DrugBank.d459.s1.p3" e1="DDI-DrugBank.d459.s1.e1"
+            e2="DDI-DrugBank.d459.s1.e2" ddi="false"/>
+        <pair id="DDI-DrugBank.d459.s1.p4" e1="DDI-DrugBank.d459.s1.e1"
+            e2="DDI-DrugBank.d459.s1.e3" ddi="false"/>
+        <pair id="DDI-DrugBank.d459.s1.p5" e1="DDI-DrugBank.d459.s1.e2"
+            e2="DDI-DrugBank.d459.s1.e3" ddi="false"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d459.s2" text="The concomitant use of ENABLEX with other anticholinergic agents may increase the frequency and/or severity of dry mouth, constipation, blurred vision and other anticholinergic pharmacological effects.">
+        <entity id="DDI-DrugBank.d459.s2.e0" charOffset="23-29"
+            type="brand" text="ENABLEX"/>
+        <entity id="DDI-DrugBank.d459.s2.e1" charOffset="42-63"
+            type="group" text="anticholinergic agents"/>
+        <pair id="DDI-DrugBank.d459.s2.p0" e1="DDI-DrugBank.d459.s2.e0"
+            e2="DDI-DrugBank.d459.s2.e1" ddi="true" type="effect"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d459.s3" text="Anticholinergic agents may potentially alter the absorption of some concomitantly administered drugs due to effects on gastrointestinal motility.">
+        <entity id="DDI-DrugBank.d459.s3.e0" charOffset="0-21"
+            type="group" text="Anticholinergic agents"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d459.s4" text="Drug Laboratory Test Interactions Interactions between darifenacin and laboratory tests have not been studied.">
+        <entity id="DDI-DrugBank.d459.s4.e0" charOffset="55-65"
+            type="drug" text="darifenacin"/>
+    </sentence>
+</document>

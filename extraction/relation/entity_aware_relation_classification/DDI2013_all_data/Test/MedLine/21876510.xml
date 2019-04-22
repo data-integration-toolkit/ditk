@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="DDI-MedLine.d227">
+    <sentence id="DDI-MedLine.d227.s0" text="Ephedrine enhances the antinociceptive effect of dexmedetomidine in mice.&#xd;&#xa;">
+        <entity id="DDI-MedLine.d227.s0.e0" charOffset="0-8" type="drug" text="Ephedrine"/>
+        <entity id="DDI-MedLine.d227.s0.e1" charOffset="49-63"
+            type="drug" text="dexmedetomidine"/>
+        <pair id="DDI-MedLine.d227.s0.p0" e1="DDI-MedLine.d227.s0.e0"
+            e2="DDI-MedLine.d227.s0.e1" ddi="true" type="effect"/>
+    </sentence>
+    <sentence id="DDI-MedLine.d227.s1" text="Dexmedetomidine, a highly selective alpha-2-adrenoceptor agonist, was recently introduced into clinical practice for its sedative and analgesic properties. ">
+        <entity id="DDI-MedLine.d227.s1.e0" charOffset="0-14"
+            type="drug" text="Dexmedetomidine"/>
+    </sentence>
+    <sentence id="DDI-MedLine.d227.s2" text="The purpose of this study was to evaluate whether the psychostimulant drug ephedrine has any effect on dexmedetomidine-induced antinociception and locomotor inhibitor activity in mice in acute application.">
+        <entity id="DDI-MedLine.d227.s2.e0" charOffset="75-83"
+            type="drug" text="ephedrine"/>
+        <entity id="DDI-MedLine.d227.s2.e1" charOffset="103-117"
+            type="drug" text="dexmedetomidine"/>
+        <pair id="DDI-MedLine.d227.s2.p0" e1="DDI-MedLine.d227.s2.e0"
+            e2="DDI-MedLine.d227.s2.e1" ddi="false"/>
+    </sentence>
+    <sentence id="DDI-MedLine.d227.s3" text="In both sexes of swiss albino mice; "/>
+    <sentence id="DDI-MedLine.d227.s4" text="antinociception was assessed with hot-plate test and the locomotor, exploratory activities were assessed with holed open field test. "/>
+    <sentence id="DDI-MedLine.d227.s5" text="The animals were received; "/>
+    <sentence id="DDI-MedLine.d227.s6" text="saline + saline, ephedrine (10   mg/kg) + saline, saline + dexmedetomidine (15     g/kg) and ephedrine (10   mg/kg) + dexmedetomidine (15     g/kg), intraperitoneally, 30 min before hot plate or holed open field tests. ">
+        <entity id="DDI-MedLine.d227.s6.e0" charOffset="17-25"
+            type="drug" text="ephedrine"/>
+        <entity id="DDI-MedLine.d227.s6.e1" charOffset="59-73"
+            type="drug" text="dexmedetomidine"/>
+        <entity id="DDI-MedLine.d227.s6.e2" charOffset="93-101"
+            type="drug" text="ephedrine"/>
+        <entity id="DDI-MedLine.d227.s6.e3" charOffset="118-132"
+            type="drug" text="dexmedetomidine"/>
+        <pair id="DDI-MedLine.d227.s6.p0" e1="DDI-MedLine.d227.s6.e0"
+            e2="DDI-MedLine.d227.s6.e1" ddi="false"/>
+        <pair id="DDI-MedLine.d227.s6.p1" e1="DDI-MedLine.d227.s6.e0"
+            e2="DDI-MedLine.d227.s6.e2" ddi="false"/>
+        <pair id="DDI-MedLine.d227.s6.p2" e1="DDI-MedLine.d227.s6.e0"
+            e2="DDI-MedLine.d227.s6.e3" ddi="false"/>
+        <pair id="DDI-MedLine.d227.s6.p3" e1="DDI-MedLine.d227.s6.e1"
+            e2="DDI-MedLine.d227.s6.e2" ddi="false"/>
+        <pair id="DDI-MedLine.d227.s6.p4" e1="DDI-MedLine.d227.s6.e1"
+            e2="DDI-MedLine.d227.s6.e3" ddi="false"/>
+        <pair id="DDI-MedLine.d227.s6.p5" e1="DDI-MedLine.d227.s6.e2"
+            e2="DDI-MedLine.d227.s6.e3" ddi="false"/>
+    </sentence>
+    <sentence id="DDI-MedLine.d227.s7" text="In the hot plate test in mice, co-administration of 15     g/kg dexmedetomidine with 10   mg/kg ephedrine intraperitoneally not only enhanced, but also prolonged the duration of antinociception induced by dexmedetomidine. ">
+        <entity id="DDI-MedLine.d227.s7.e0" charOffset="64-78"
+            type="drug" text="dexmedetomidine"/>
+        <entity id="DDI-MedLine.d227.s7.e1" charOffset="96-104"
+            type="drug" text="ephedrine"/>
+        <entity id="DDI-MedLine.d227.s7.e2" charOffset="205-219"
+            type="drug" text="dexmedetomidine"/>
+        <pair id="DDI-MedLine.d227.s7.p0" e1="DDI-MedLine.d227.s7.e0"
+            e2="DDI-MedLine.d227.s7.e1" ddi="true" type="effect"/>
+        <pair id="DDI-MedLine.d227.s7.p1" e1="DDI-MedLine.d227.s7.e0"
+            e2="DDI-MedLine.d227.s7.e2" ddi="false"/>
+        <pair id="DDI-MedLine.d227.s7.p2" e1="DDI-MedLine.d227.s7.e1"
+            e2="DDI-MedLine.d227.s7.e2" ddi="false"/>
+    </sentence>
+    <sentence id="DDI-MedLine.d227.s8" text="At the same time, the locomotor inhibitory effect of dexmedetomidine was counteracted by ephedrine. ">
+        <entity id="DDI-MedLine.d227.s8.e0" charOffset="53-67"
+            type="drug" text="dexmedetomidine"/>
+        <entity id="DDI-MedLine.d227.s8.e1" charOffset="89-97"
+            type="drug" text="ephedrine"/>
+        <pair id="DDI-MedLine.d227.s8.p0" e1="DDI-MedLine.d227.s8.e0"
+            e2="DDI-MedLine.d227.s8.e1" ddi="true" type="effect"/>
+    </sentence>
+    <sentence id="DDI-MedLine.d227.s9" text="We concluded that the combined administration of dexmedetomidine with ephedrine may have beneficial effects in the treatment of pain without causing sedation, which limits the use of dexmedetomidine as an analgesic in humans.">
+        <entity id="DDI-MedLine.d227.s9.e0" charOffset="49-63"
+            type="drug" text="dexmedetomidine"/>
+        <entity id="DDI-MedLine.d227.s9.e1" charOffset="70-78"
+            type="drug" text="ephedrine"/>
+        <entity id="DDI-MedLine.d227.s9.e2" charOffset="183-197"
+            type="drug" text="dexmedetomidine"/>
+        <entity id="DDI-MedLine.d227.s9.e3" charOffset="205-213"
+            type="group" text="analgesic"/>
+        <pair id="DDI-MedLine.d227.s9.p0" e1="DDI-MedLine.d227.s9.e0"
+            e2="DDI-MedLine.d227.s9.e1" ddi="true" type="effect"/>
+        <pair id="DDI-MedLine.d227.s9.p1" e1="DDI-MedLine.d227.s9.e0"
+            e2="DDI-MedLine.d227.s9.e2" ddi="false"/>
+        <pair id="DDI-MedLine.d227.s9.p2" e1="DDI-MedLine.d227.s9.e0"
+            e2="DDI-MedLine.d227.s9.e3" ddi="false"/>
+        <pair id="DDI-MedLine.d227.s9.p3" e1="DDI-MedLine.d227.s9.e1"
+            e2="DDI-MedLine.d227.s9.e2" ddi="false"/>
+        <pair id="DDI-MedLine.d227.s9.p4" e1="DDI-MedLine.d227.s9.e1"
+            e2="DDI-MedLine.d227.s9.e3" ddi="false"/>
+        <pair id="DDI-MedLine.d227.s9.p5" e1="DDI-MedLine.d227.s9.e2"
+            e2="DDI-MedLine.d227.s9.e3" ddi="false"/>
+    </sentence>
+</document>

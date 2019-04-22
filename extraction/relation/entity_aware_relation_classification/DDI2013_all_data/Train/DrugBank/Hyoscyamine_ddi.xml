@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="DDI-DrugBank.d142">
+    <sentence id="DDI-DrugBank.d142.s0" text="Additive adverse effects resulting from cholinergic blockade may occur when LEVSIN is administered concomitantly with other antimuscarinics, amantadine, haloperidol, phenothiazines, monoamine oxidase (MAO) inhibitors, tricyclic antidepressants or some antihistamines.">
+        <entity id="DDI-DrugBank.d142.s0.e0" charOffset="76-81"
+            type="brand" text="LEVSIN"/>
+        <entity id="DDI-DrugBank.d142.s0.e1" charOffset="124-138"
+            type="group" text="antimuscarinics"/>
+        <entity id="DDI-DrugBank.d142.s0.e2" charOffset="141-150"
+            type="drug" text="amantadine"/>
+        <entity id="DDI-DrugBank.d142.s0.e3" charOffset="153-163"
+            type="drug" text="haloperidol"/>
+        <entity id="DDI-DrugBank.d142.s0.e4" charOffset="166-179"
+            type="group" text="phenothiazines"/>
+        <entity id="DDI-DrugBank.d142.s0.e5" charOffset="182-215"
+            type="group" text="monoamine oxidase (MAO) inhibitors"/>
+        <entity id="DDI-DrugBank.d142.s0.e6" charOffset="218-242"
+            type="group" text="tricyclic antidepressants"/>
+        <entity id="DDI-DrugBank.d142.s0.e7" charOffset="252-265"
+            type="group" text="antihistamines"/>
+        <pair id="DDI-DrugBank.d142.s0.p0" e1="DDI-DrugBank.d142.s0.e0"
+            e2="DDI-DrugBank.d142.s0.e1" ddi="true" type="effect"/>
+        <pair id="DDI-DrugBank.d142.s0.p1" e1="DDI-DrugBank.d142.s0.e0"
+            e2="DDI-DrugBank.d142.s0.e2" ddi="true" type="effect"/>
+        <pair id="DDI-DrugBank.d142.s0.p2" e1="DDI-DrugBank.d142.s0.e0"
+            e2="DDI-DrugBank.d142.s0.e3" ddi="true" type="effect"/>
+        <pair id="DDI-DrugBank.d142.s0.p3" e1="DDI-DrugBank.d142.s0.e0"
+            e2="DDI-DrugBank.d142.s0.e4" ddi="true" type="effect"/>
+        <pair id="DDI-DrugBank.d142.s0.p4" e1="DDI-DrugBank.d142.s0.e0"
+            e2="DDI-DrugBank.d142.s0.e5" ddi="true" type="effect"/>
+        <pair id="DDI-DrugBank.d142.s0.p5" e1="DDI-DrugBank.d142.s0.e0"
+            e2="DDI-DrugBank.d142.s0.e6" ddi="true" type="effect"/>
+        <pair id="DDI-DrugBank.d142.s0.p6" e1="DDI-DrugBank.d142.s0.e0"
+            e2="DDI-DrugBank.d142.s0.e7" ddi="true" type="effect"/>
+        <pair id="DDI-DrugBank.d142.s0.p7" e1="DDI-DrugBank.d142.s0.e1"
+            e2="DDI-DrugBank.d142.s0.e2" ddi="false"/>
+        <pair id="DDI-DrugBank.d142.s0.p8" e1="DDI-DrugBank.d142.s0.e1"
+            e2="DDI-DrugBank.d142.s0.e3" ddi="false"/>
+        <pair id="DDI-DrugBank.d142.s0.p9" e1="DDI-DrugBank.d142.s0.e1"
+            e2="DDI-DrugBank.d142.s0.e4" ddi="false"/>
+        <pair id="DDI-DrugBank.d142.s0.p10" e1="DDI-DrugBank.d142.s0.e1"
+            e2="DDI-DrugBank.d142.s0.e5" ddi="false"/>
+        <pair id="DDI-DrugBank.d142.s0.p11" e1="DDI-DrugBank.d142.s0.e1"
+            e2="DDI-DrugBank.d142.s0.e6" ddi="false"/>
+        <pair id="DDI-DrugBank.d142.s0.p12" e1="DDI-DrugBank.d142.s0.e1"
+            e2="DDI-DrugBank.d142.s0.e7" ddi="false"/>
+        <pair id="DDI-DrugBank.d142.s0.p13" e1="DDI-DrugBank.d142.s0.e2"
+            e2="DDI-DrugBank.d142.s0.e3" ddi="false"/>
+        <pair id="DDI-DrugBank.d142.s0.p14" e1="DDI-DrugBank.d142.s0.e2"
+            e2="DDI-DrugBank.d142.s0.e4" ddi="false"/>
+        <pair id="DDI-DrugBank.d142.s0.p15" e1="DDI-DrugBank.d142.s0.e2"
+            e2="DDI-DrugBank.d142.s0.e5" ddi="false"/>
+        <pair id="DDI-DrugBank.d142.s0.p16" e1="DDI-DrugBank.d142.s0.e2"
+            e2="DDI-DrugBank.d142.s0.e6" ddi="false"/>
+        <pair id="DDI-DrugBank.d142.s0.p17" e1="DDI-DrugBank.d142.s0.e2"
+            e2="DDI-DrugBank.d142.s0.e7" ddi="false"/>
+        <pair id="DDI-DrugBank.d142.s0.p18" e1="DDI-DrugBank.d142.s0.e3"
+            e2="DDI-DrugBank.d142.s0.e4" ddi="false"/>
+        <pair id="DDI-DrugBank.d142.s0.p19" e1="DDI-DrugBank.d142.s0.e3"
+            e2="DDI-DrugBank.d142.s0.e5" ddi="false"/>
+        <pair id="DDI-DrugBank.d142.s0.p20" e1="DDI-DrugBank.d142.s0.e3"
+            e2="DDI-DrugBank.d142.s0.e6" ddi="false"/>
+        <pair id="DDI-DrugBank.d142.s0.p21" e1="DDI-DrugBank.d142.s0.e3"
+            e2="DDI-DrugBank.d142.s0.e7" ddi="false"/>
+        <pair id="DDI-DrugBank.d142.s0.p22" e1="DDI-DrugBank.d142.s0.e4"
+            e2="DDI-DrugBank.d142.s0.e5" ddi="false"/>
+        <pair id="DDI-DrugBank.d142.s0.p23" e1="DDI-DrugBank.d142.s0.e4"
+            e2="DDI-DrugBank.d142.s0.e6" ddi="false"/>
+        <pair id="DDI-DrugBank.d142.s0.p24" e1="DDI-DrugBank.d142.s0.e4"
+            e2="DDI-DrugBank.d142.s0.e7" ddi="false"/>
+        <pair id="DDI-DrugBank.d142.s0.p25" e1="DDI-DrugBank.d142.s0.e5"
+            e2="DDI-DrugBank.d142.s0.e6" ddi="false"/>
+        <pair id="DDI-DrugBank.d142.s0.p26" e1="DDI-DrugBank.d142.s0.e5"
+            e2="DDI-DrugBank.d142.s0.e7" ddi="false"/>
+        <pair id="DDI-DrugBank.d142.s0.p27" e1="DDI-DrugBank.d142.s0.e6"
+            e2="DDI-DrugBank.d142.s0.e7" ddi="false"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d142.s1" text="Antacids may interfere with the absorption of LEVSIN.">
+        <entity id="DDI-DrugBank.d142.s1.e0" charOffset="0-7"
+            type="group" text="Antacids"/>
+        <entity id="DDI-DrugBank.d142.s1.e1" charOffset="46-51"
+            type="brand" text="LEVSIN"/>
+        <pair id="DDI-DrugBank.d142.s1.p0" e1="DDI-DrugBank.d142.s1.e0"
+            e2="DDI-DrugBank.d142.s1.e1" ddi="true" type="mechanism"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d142.s2" text="Administer LEVSIN before meals;">
+        <entity id="DDI-DrugBank.d142.s2.e0" charOffset="11-16"
+            type="brand" text="LEVSIN"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d142.s3" text="antacids after meals.">
+        <entity id="DDI-DrugBank.d142.s3.e0" charOffset="0-7"
+            type="group" text="antacids"/>
+    </sentence>
+</document>

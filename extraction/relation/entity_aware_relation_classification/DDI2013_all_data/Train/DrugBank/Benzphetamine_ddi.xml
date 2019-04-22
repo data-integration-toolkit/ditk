@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="DDI-DrugBank.d477">
+    <sentence id="DDI-DrugBank.d477.s0" text="Hypertensive crises have resulted when sympathomimetic amines have been used concomitantly within14 days following use of monoamine oxidase inhibitors.">
+        <entity id="DDI-DrugBank.d477.s0.e0" charOffset="39-60"
+            type="group" text="sympathomimetic amines"/>
+        <entity id="DDI-DrugBank.d477.s0.e1" charOffset="122-149"
+            type="group" text="monoamine oxidase inhibitors"/>
+        <pair id="DDI-DrugBank.d477.s0.p0" e1="DDI-DrugBank.d477.s0.e0"
+            e2="DDI-DrugBank.d477.s0.e1" ddi="true" type="effect"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d477.s1" text="DIDREX should not be used concomitantly with other CNS stimulants.">
+        <entity id="DDI-DrugBank.d477.s1.e0" charOffset="0-5"
+            type="brand" text="DIDREX"/>
+        <entity id="DDI-DrugBank.d477.s1.e1" charOffset="51-64"
+            type="group" text="CNS stimulants"/>
+        <pair id="DDI-DrugBank.d477.s1.p0" e1="DDI-DrugBank.d477.s1.e0"
+            e2="DDI-DrugBank.d477.s1.e1" ddi="true" type="advise"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d477.s2" text="Amphetamines may decrease the hypotensive effect of antihypertensives.">
+        <entity id="DDI-DrugBank.d477.s2.e0" charOffset="0-11"
+            type="group" text="Amphetamines"/>
+        <entity id="DDI-DrugBank.d477.s2.e1" charOffset="52-68"
+            type="group" text="antihypertensives"/>
+        <pair id="DDI-DrugBank.d477.s2.p0" e1="DDI-DrugBank.d477.s2.e0"
+            e2="DDI-DrugBank.d477.s2.e1" ddi="true" type="effect"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d477.s3" text="Amphetamines may enhance the effects of tricyclic antidepressants.">
+        <entity id="DDI-DrugBank.d477.s3.e0" charOffset="0-11"
+            type="group" text="Amphetamines"/>
+        <entity id="DDI-DrugBank.d477.s3.e1" charOffset="40-64"
+            type="group" text="tricyclic antidepressants"/>
+        <pair id="DDI-DrugBank.d477.s3.p0" e1="DDI-DrugBank.d477.s3.e0"
+            e2="DDI-DrugBank.d477.s3.e1" ddi="true" type="effect"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d477.s4" text="Urinary alkalinizing agents increase blood levels and decrease excretion of amphetamines.">
+        <entity id="DDI-DrugBank.d477.s4.e0" charOffset="76-87"
+            type="group" text="amphetamines"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d477.s5" text="Urinary acidifying agents decrease blood levels and increase excretion of amphetamines.">
+        <entity id="DDI-DrugBank.d477.s5.e0" charOffset="0-17"
+            type="drug" text="Urinary acidifying"/>
+        <entity id="DDI-DrugBank.d477.s5.e1" charOffset="74-85"
+            type="group" text="amphetamines"/>
+        <pair id="DDI-DrugBank.d477.s5.p0" e1="DDI-DrugBank.d477.s5.e0"
+            e2="DDI-DrugBank.d477.s5.e1" ddi="true" type="mechanism"/>
+    </sentence>
+</document>

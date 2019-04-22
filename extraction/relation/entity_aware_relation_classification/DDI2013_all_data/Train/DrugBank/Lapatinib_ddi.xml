@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="DDI-DrugBank.d135">
+    <sentence id="DDI-DrugBank.d135.s0" text="Effects of Lapatinib on Drug Metabolizing Enzymes and Drug Transport Systems Lapatinib inhibits CYP3A4 and CYP2C8 in vitro at clinically relevant concentrations.">
+        <entity id="DDI-DrugBank.d135.s0.e0" charOffset="11-19"
+            type="drug" text="Lapatinib"/>
+        <entity id="DDI-DrugBank.d135.s0.e1" charOffset="77-85"
+            type="drug" text="Lapatinib"/>
+        <pair id="DDI-DrugBank.d135.s0.p0" e1="DDI-DrugBank.d135.s0.e0"
+            e2="DDI-DrugBank.d135.s0.e1" ddi="false"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d135.s1" text="Caution should be exercised and dose reduction of the concomitant substrate drug should be considered when dosing lapatinib concurrently with medications with narrow therapeutic windows that are substrates of CYP3A4 or CYP2C8.">
+        <entity id="DDI-DrugBank.d135.s1.e0" charOffset="114-122"
+            type="drug" text="lapatinib"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d135.s2" text="Lapatinib did not significantly inhibit the following enzymes in human liver microsomes: CYP1A2, CYP2C9, CYP2C19, and CYP2D6 or UGT enzymes in vitro, however, the clinical significance is unknown.">
+        <entity id="DDI-DrugBank.d135.s2.e0" charOffset="0-8"
+            type="drug" text="Lapatinib"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d135.s3" text="Lapatinib inhibits human P-glycoprotein.">
+        <entity id="DDI-DrugBank.d135.s3.e0" charOffset="0-8"
+            type="drug" text="Lapatinib"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d135.s4" text="If TYKERB is administered with drugs that are substrates of Pgp, increased concentrations of the substrate drug are likely, and caution should be exercised.">
+        <entity id="DDI-DrugBank.d135.s4.e0" charOffset="3-8"
+            type="brand" text="TYKERB"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d135.s5" text="Drugs that Inhibit or Induce Cytochrome P450 3A4 Enzymes Lapatinib undergoes extensive metabolism by CYP3A4, and concomitant administration of strong inhibitors or inducers of CYP3A4 alter lapatinib concentrations significantly.">
+        <entity id="DDI-DrugBank.d135.s5.e0" charOffset="57-65"
+            type="drug" text="Lapatinib"/>
+        <entity id="DDI-DrugBank.d135.s5.e1" charOffset="189-197"
+            type="drug" text="lapatinib"/>
+        <pair id="DDI-DrugBank.d135.s5.p0" e1="DDI-DrugBank.d135.s5.e0"
+            e2="DDI-DrugBank.d135.s5.e1" ddi="false"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d135.s6" text="Dose adjustment of lapatinib should be considered for patients who must receive concomitant strong inhibitors or concomitant strong inducers of CYP3A4 enzymes.">
+        <entity id="DDI-DrugBank.d135.s6.e0" charOffset="19-27"
+            type="drug" text="lapatinib"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d135.s7" text="Ketoconazole: In healthy subjects receiving ketoconazole, a CYP3A4 inhibitor, at 200 mg twice daily for 7 days, systemic exposure (AUC) to lapatinib was increased to approximately 3.6-fold of control and half-life increased to 1.7-fold of control.">
+        <entity id="DDI-DrugBank.d135.s7.e0" charOffset="0-11"
+            type="drug" text="Ketoconazole"/>
+        <entity id="DDI-DrugBank.d135.s7.e1" charOffset="44-55"
+            type="drug" text="ketoconazole"/>
+        <entity id="DDI-DrugBank.d135.s7.e2" charOffset="139-147"
+            type="drug" text="lapatinib"/>
+        <pair id="DDI-DrugBank.d135.s7.p0" e1="DDI-DrugBank.d135.s7.e0"
+            e2="DDI-DrugBank.d135.s7.e1" ddi="false"/>
+        <pair id="DDI-DrugBank.d135.s7.p1" e1="DDI-DrugBank.d135.s7.e0"
+            e2="DDI-DrugBank.d135.s7.e2" ddi="false"/>
+        <pair id="DDI-DrugBank.d135.s7.p2" e1="DDI-DrugBank.d135.s7.e1"
+            e2="DDI-DrugBank.d135.s7.e2" ddi="true" type="mechanism"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d135.s8" text="Carbamazepine: In healthy subjects receiving the CYP3A4 inducer, carbamazepine, at 100 mg twice daily for 3 days and 200 mg twice daily for 17 days, systemic exposure (AUC) to lapatinib was decreased approximately 72%.">
+        <entity id="DDI-DrugBank.d135.s8.e0" charOffset="0-12"
+            type="drug" text="Carbamazepine"/>
+        <entity id="DDI-DrugBank.d135.s8.e1" charOffset="65-77"
+            type="drug" text="carbamazepine"/>
+        <entity id="DDI-DrugBank.d135.s8.e2" charOffset="176-184"
+            type="drug" text="lapatinib"/>
+        <pair id="DDI-DrugBank.d135.s8.p0" e1="DDI-DrugBank.d135.s8.e0"
+            e2="DDI-DrugBank.d135.s8.e1" ddi="false"/>
+        <pair id="DDI-DrugBank.d135.s8.p1" e1="DDI-DrugBank.d135.s8.e0"
+            e2="DDI-DrugBank.d135.s8.e2" ddi="false"/>
+        <pair id="DDI-DrugBank.d135.s8.p2" e1="DDI-DrugBank.d135.s8.e1"
+            e2="DDI-DrugBank.d135.s8.e2" ddi="true" type="mechanism"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d135.s9" text="Drugs that Inhibit Drug Transport Systems Lapatinib is a substrate of the efflux transporter P-glycoprotein (Pgp, ABCB1).">
+        <entity id="DDI-DrugBank.d135.s9.e0" charOffset="42-50"
+            type="drug" text="Lapatinib"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d135.s10" text="If TYKERB is administered with drugs that inhibit Pgp, increased concentrations of lapatinib are likely, and caution should be exercised.">
+        <entity id="DDI-DrugBank.d135.s10.e0" charOffset="3-8"
+            type="brand" text="TYKERB"/>
+        <entity id="DDI-DrugBank.d135.s10.e1" charOffset="83-91"
+            type="drug" text="lapatinib"/>
+        <pair id="DDI-DrugBank.d135.s10.p0"
+            e1="DDI-DrugBank.d135.s10.e0" e2="DDI-DrugBank.d135.s10.e1" ddi="false"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d135.s11" text="Other Chemotherapy Agents In a separate study, concomitant administration of lapatinib with capecitabine did not meaningfully alter the pharmacokinetics of either agent (or the metabolites of capecitabine).">
+        <entity id="DDI-DrugBank.d135.s11.e0" charOffset="77-85"
+            type="drug" text="lapatinib"/>
+        <entity id="DDI-DrugBank.d135.s11.e1" charOffset="92-103"
+            type="drug" text="capecitabine"/>
+        <entity id="DDI-DrugBank.d135.s11.e2" charOffset="192-203"
+            type="drug" text="capecitabine"/>
+        <pair id="DDI-DrugBank.d135.s11.p0"
+            e1="DDI-DrugBank.d135.s11.e0" e2="DDI-DrugBank.d135.s11.e1" ddi="false"/>
+        <pair id="DDI-DrugBank.d135.s11.p1"
+            e1="DDI-DrugBank.d135.s11.e0" e2="DDI-DrugBank.d135.s11.e2" ddi="false"/>
+        <pair id="DDI-DrugBank.d135.s11.p2"
+            e1="DDI-DrugBank.d135.s11.e1" e2="DDI-DrugBank.d135.s11.e2" ddi="false"/>
+    </sentence>
+</document>

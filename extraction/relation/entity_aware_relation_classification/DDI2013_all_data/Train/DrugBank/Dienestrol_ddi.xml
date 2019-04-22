@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="DDI-DrugBank.d570">
+    <sentence id="DDI-DrugBank.d570.s0" text="Drug/ Laboratory Test Interactions Certain endocrine and liver function tests may be affected by estrogen-containing oral contraceptives.">
+        <entity id="DDI-DrugBank.d570.s0.e0" charOffset="97-104"
+            type="group" text="estrogen"/>
+        <entity id="DDI-DrugBank.d570.s0.e1" charOffset="122-135"
+            type="group" text="contraceptives"/>
+        <pair id="DDI-DrugBank.d570.s0.p0" e1="DDI-DrugBank.d570.s0.e0"
+            e2="DDI-DrugBank.d570.s0.e1" ddi="false"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d570.s1" text="The following similar changes may be expected with larger doses of estrogen: - Increased sulfobromophthalein retention">
+        <entity id="DDI-DrugBank.d570.s1.e0" charOffset="67-74"
+            type="group" text="estrogen"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d570.s2" text="."/>
+    <sentence id="DDI-DrugBank.d570.s3" text="- Increased prothrombin and factors VII, VIII, IX, and X;"/>
+    <sentence id="DDI-DrugBank.d570.s4" text="decreased antithrombin 3;">
+        <entity id="DDI-DrugBank.d570.s4.e0" charOffset="10-23"
+            type="drug" text="antithrombin 3"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d570.s5" text="increased norepinephrine-induced platelet aggregability"/>
+    <sentence id="DDI-DrugBank.d570.s6" text="."/>
+    <sentence id="DDI-DrugBank.d570.s7" text="- Increased thyroid-binding globulin (TBG) leading to in-creased circulating total thyroid hormone;"/>
+    <sentence id="DDI-DrugBank.d570.s8" text="as measured by PBI, T4 by column, or T4 by radioimmunoassay."/>
+    <sentence id="DDI-DrugBank.d570.s9" text="Free T3 resin uptake is decreased, reflecting the elevated TBG;"/>
+    <sentence id="DDI-DrugBank.d570.s10" text="free T4 concentration is unaltered"/>
+    <sentence id="DDI-DrugBank.d570.s11" text="."/>
+    <sentence id="DDI-DrugBank.d570.s12" text="- Impaired glucose tolerance"/>
+    <sentence id="DDI-DrugBank.d570.s13" text="."/>
+    <sentence id="DDI-DrugBank.d570.s14" text="- Decreased pregnanediol excretion"/>
+    <sentence id="DDI-DrugBank.d570.s15" text="."/>
+    <sentence id="DDI-DrugBank.d570.s16" text="- Reduced response to metyrapone test"/>
+    <sentence id="DDI-DrugBank.d570.s17" text="."/>
+    <sentence id="DDI-DrugBank.d570.s18" text="- Reduced serum folate concentration"/>
+    <sentence id="DDI-DrugBank.d570.s19" text="."/>
+    <sentence id="DDI-DrugBank.d570.s20" text="- Increased serum triglyceride and phospholipid concentration."/>
+</document>

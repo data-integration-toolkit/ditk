@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="DDI-DrugBank.d609">
+    <sentence id="DDI-DrugBank.d609.s0" text="An inhibitor of CYP2C8 (such as gemfibrozil) may increase the AUC of rosiglitazone and an inducer of CYP2C8 (such as rifampin) may decrease the AUC of rosiglitazone. ">
+        <entity id="DDI-DrugBank.d609.s0.e0" charOffset="32-42"
+            type="drug" text="gemfibrozil"/>
+        <entity id="DDI-DrugBank.d609.s0.e1" charOffset="69-81"
+            type="drug" text="rosiglitazone"/>
+        <entity id="DDI-DrugBank.d609.s0.e2" charOffset="117-124"
+            type="drug" text="rifampin"/>
+        <entity id="DDI-DrugBank.d609.s0.e3" charOffset="151-163"
+            type="drug" text="rosiglitazone"/>
+        <pair id="DDI-DrugBank.d609.s0.p0" e1="DDI-DrugBank.d609.s0.e0"
+            e2="DDI-DrugBank.d609.s0.e1" ddi="true" type="mechanism"/>
+        <pair id="DDI-DrugBank.d609.s0.p1" e1="DDI-DrugBank.d609.s0.e0"
+            e2="DDI-DrugBank.d609.s0.e2" ddi="false"/>
+        <pair id="DDI-DrugBank.d609.s0.p2" e1="DDI-DrugBank.d609.s0.e0"
+            e2="DDI-DrugBank.d609.s0.e3" ddi="false"/>
+        <pair id="DDI-DrugBank.d609.s0.p3" e1="DDI-DrugBank.d609.s0.e1"
+            e2="DDI-DrugBank.d609.s0.e2" ddi="false"/>
+        <pair id="DDI-DrugBank.d609.s0.p4" e1="DDI-DrugBank.d609.s0.e1"
+            e2="DDI-DrugBank.d609.s0.e3" ddi="false"/>
+        <pair id="DDI-DrugBank.d609.s0.p5" e1="DDI-DrugBank.d609.s0.e2"
+            e2="DDI-DrugBank.d609.s0.e3" ddi="true" type="mechanism"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d609.s1" text="Therefore, if an inhibitor or an inducer of CYP2C8 is started or stopped during treatment with rosiglitazone, changes in diabetes treatment may be needed based upon clinical response.">
+        <entity id="DDI-DrugBank.d609.s1.e0" charOffset="95-107"
+            type="drug" text="rosiglitazone"/>
+    </sentence>
+</document>

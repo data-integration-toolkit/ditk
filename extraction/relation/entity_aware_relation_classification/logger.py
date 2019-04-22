@@ -48,7 +48,7 @@ class Logger:
         prediction_path = os.path.abspath(os.path.join(self.log_dir, "predictions.txt"))
         prediction_file = open(prediction_path, 'w')
         for i in range(len(predictions)):
-            prediction_file.write("{}\t{}\n".format(i, utils.label2class[predictions[i]]))
+            prediction_file.write("{}\t{}\n".format(i, utils.label2class[FLAGS.data_type][predictions[i]]))
         prediction_file.close()
         perl_path = os.path.join(os.path.curdir,
                                  "SemEval2010_task8_all_data",

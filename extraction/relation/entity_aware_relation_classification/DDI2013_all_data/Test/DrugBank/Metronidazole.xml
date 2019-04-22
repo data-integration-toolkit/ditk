@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="DDI-DrugBank.d629">
+    <sentence id="DDI-DrugBank.d629.s0" text="Oral metronidazole has been reported to potentiate the anticoagulant effect of coumarin and warfarin, resulting in a prolongation of prothrombin time. ">
+        <entity id="DDI-DrugBank.d629.s0.e0" charOffset="5-17"
+            type="drug" text="metronidazole"/>
+        <entity id="DDI-DrugBank.d629.s0.e1" charOffset="79-86"
+            type="group" text="coumarin"/>
+        <entity id="DDI-DrugBank.d629.s0.e2" charOffset="92-99"
+            type="drug" text="warfarin"/>
+        <pair id="DDI-DrugBank.d629.s0.p0" e1="DDI-DrugBank.d629.s0.e0"
+            e2="DDI-DrugBank.d629.s0.e1" ddi="true" type="effect"/>
+        <pair id="DDI-DrugBank.d629.s0.p1" e1="DDI-DrugBank.d629.s0.e0"
+            e2="DDI-DrugBank.d629.s0.e2" ddi="true" type="effect"/>
+        <pair id="DDI-DrugBank.d629.s0.p2" e1="DDI-DrugBank.d629.s0.e1"
+            e2="DDI-DrugBank.d629.s0.e2" ddi="false"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d629.s1" text="Drug interactions should be kept in mind when METROGEL (metronidazole gel), 1% is prescribed for patients who are receiving anticoagulant treatment, although they are less likely to occur with topical metronidazole administration because of low absorption.    ">
+        <entity id="DDI-DrugBank.d629.s1.e0" charOffset="46-53"
+            type="brand" text="METROGEL"/>
+        <entity id="DDI-DrugBank.d629.s1.e1" charOffset="56-68"
+            type="drug" text="metronidazole"/>
+        <entity id="DDI-DrugBank.d629.s1.e2" charOffset="201-213"
+            type="drug" text="metronidazole"/>
+        <pair id="DDI-DrugBank.d629.s1.p0" e1="DDI-DrugBank.d629.s1.e0"
+            e2="DDI-DrugBank.d629.s1.e1" ddi="false"/>
+        <pair id="DDI-DrugBank.d629.s1.p1" e1="DDI-DrugBank.d629.s1.e0"
+            e2="DDI-DrugBank.d629.s1.e2" ddi="false"/>
+        <pair id="DDI-DrugBank.d629.s1.p2" e1="DDI-DrugBank.d629.s1.e1"
+            e2="DDI-DrugBank.d629.s1.e2" ddi="false"/>
+    </sentence>
+</document>

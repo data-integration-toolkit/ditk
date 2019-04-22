@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="DDI-DrugBank.d358">
+    <sentence id="DDI-DrugBank.d358.s0" text="Since PLETAL is extensively metabolized by cytochrome P-450 isoenzymes, caution should be exercised when PLETAL is coadministered with inhibitors of C.P.A. such as ketoconazole and erythromycin or inhibitors of CYP2C19 such as omeprazole.">
+        <entity id="DDI-DrugBank.d358.s0.e0" charOffset="6-11"
+            type="brand" text="PLETAL"/>
+        <entity id="DDI-DrugBank.d358.s0.e1" charOffset="105-110"
+            type="brand" text="PLETAL"/>
+        <entity id="DDI-DrugBank.d358.s0.e2" charOffset="164-175"
+            type="drug" text="ketoconazole"/>
+        <entity id="DDI-DrugBank.d358.s0.e3" charOffset="181-192"
+            type="drug" text="erythromycin"/>
+        <entity id="DDI-DrugBank.d358.s0.e4" charOffset="227-236"
+            type="drug" text="omeprazole"/>
+        <pair id="DDI-DrugBank.d358.s0.p0" e1="DDI-DrugBank.d358.s0.e0"
+            e2="DDI-DrugBank.d358.s0.e1" ddi="false"/>
+        <pair id="DDI-DrugBank.d358.s0.p1" e1="DDI-DrugBank.d358.s0.e0"
+            e2="DDI-DrugBank.d358.s0.e2" ddi="false"/>
+        <pair id="DDI-DrugBank.d358.s0.p2" e1="DDI-DrugBank.d358.s0.e0"
+            e2="DDI-DrugBank.d358.s0.e3" ddi="false"/>
+        <pair id="DDI-DrugBank.d358.s0.p3" e1="DDI-DrugBank.d358.s0.e0"
+            e2="DDI-DrugBank.d358.s0.e4" ddi="false"/>
+        <pair id="DDI-DrugBank.d358.s0.p4" e1="DDI-DrugBank.d358.s0.e1"
+            e2="DDI-DrugBank.d358.s0.e2" ddi="true" type="advise"/>
+        <pair id="DDI-DrugBank.d358.s0.p5" e1="DDI-DrugBank.d358.s0.e1"
+            e2="DDI-DrugBank.d358.s0.e3" ddi="true" type="advise"/>
+        <pair id="DDI-DrugBank.d358.s0.p6" e1="DDI-DrugBank.d358.s0.e1"
+            e2="DDI-DrugBank.d358.s0.e4" ddi="true" type="advise"/>
+        <pair id="DDI-DrugBank.d358.s0.p7" e1="DDI-DrugBank.d358.s0.e2"
+            e2="DDI-DrugBank.d358.s0.e3" ddi="false"/>
+        <pair id="DDI-DrugBank.d358.s0.p8" e1="DDI-DrugBank.d358.s0.e2"
+            e2="DDI-DrugBank.d358.s0.e4" ddi="false"/>
+        <pair id="DDI-DrugBank.d358.s0.p9" e1="DDI-DrugBank.d358.s0.e3"
+            e2="DDI-DrugBank.d358.s0.e4" ddi="false"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d358.s1" text="Pharmacokinetic studies have demonstrated that omeprazole and erythromycin significantly increased the systemic exposure of cilostazol and/or its major metabolites.">
+        <entity id="DDI-DrugBank.d358.s1.e0" charOffset="47-56"
+            type="drug" text="omeprazole"/>
+        <entity id="DDI-DrugBank.d358.s1.e1" charOffset="62-73"
+            type="drug" text="erythromycin"/>
+        <entity id="DDI-DrugBank.d358.s1.e2" charOffset="124-133"
+            type="drug" text="cilostazol"/>
+        <pair id="DDI-DrugBank.d358.s1.p0" e1="DDI-DrugBank.d358.s1.e0"
+            e2="DDI-DrugBank.d358.s1.e1" ddi="false"/>
+        <pair id="DDI-DrugBank.d358.s1.p1" e1="DDI-DrugBank.d358.s1.e0"
+            e2="DDI-DrugBank.d358.s1.e2" ddi="true" type="mechanism"/>
+        <pair id="DDI-DrugBank.d358.s1.p2" e1="DDI-DrugBank.d358.s1.e1"
+            e2="DDI-DrugBank.d358.s1.e2" ddi="true" type="mechanism"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d358.s2" text="Population pharmacokinetic studies showed higher concentrations of cilostazol among patients concurrently treated with diltiazem, an inhibitor of C.P.A..">
+        <entity id="DDI-DrugBank.d358.s2.e0" charOffset="67-76"
+            type="drug" text="cilostazol"/>
+        <entity id="DDI-DrugBank.d358.s2.e1" charOffset="119-127"
+            type="drug" text="diltiazem"/>
+        <pair id="DDI-DrugBank.d358.s2.p0" e1="DDI-DrugBank.d358.s2.e0"
+            e2="DDI-DrugBank.d358.s2.e1" ddi="true" type="mechanism"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d358.s3" text="Pletal does not, however, appear to cause increased blood levels of drugs metabolized by CYP3A4, as it had no effect on lovastatin, a drug with metabolism very sensitive to C.P.A. inhibition.">
+        <entity id="DDI-DrugBank.d358.s3.e0" charOffset="0-5"
+            type="brand" text="Pletal"/>
+        <entity id="DDI-DrugBank.d358.s3.e1" charOffset="120-129"
+            type="drug" text="lovastatin"/>
+        <pair id="DDI-DrugBank.d358.s3.p0" e1="DDI-DrugBank.d358.s3.e0"
+            e2="DDI-DrugBank.d358.s3.e1" ddi="false"/>
+    </sentence>
+</document>

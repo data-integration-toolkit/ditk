@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="DDI-DrugBank.d309">
+    <sentence id="DDI-DrugBank.d309.s0" text="Additive CNS depression may occur when antihistamines are administered concomitantly with other CNS depressants including barbiturates, tranquilizers, and alcohol.">
+        <entity id="DDI-DrugBank.d309.s0.e0" charOffset="39-52"
+            type="group" text="antihistamines"/>
+        <entity id="DDI-DrugBank.d309.s0.e1" charOffset="96-110"
+            type="group" text="CNS depressants"/>
+        <entity id="DDI-DrugBank.d309.s0.e2" charOffset="122-133"
+            type="group" text="barbiturates"/>
+        <entity id="DDI-DrugBank.d309.s0.e3" charOffset="136-148"
+            type="group" text="tranquilizers"/>
+        <entity id="DDI-DrugBank.d309.s0.e4" charOffset="155-161"
+            type="drug" text="alcohol"/>
+        <pair id="DDI-DrugBank.d309.s0.p0" e1="DDI-DrugBank.d309.s0.e0"
+            e2="DDI-DrugBank.d309.s0.e1" ddi="true" type="effect"/>
+        <pair id="DDI-DrugBank.d309.s0.p1" e1="DDI-DrugBank.d309.s0.e0"
+            e2="DDI-DrugBank.d309.s0.e2" ddi="true" type="effect"/>
+        <pair id="DDI-DrugBank.d309.s0.p2" e1="DDI-DrugBank.d309.s0.e0"
+            e2="DDI-DrugBank.d309.s0.e3" ddi="true" type="effect"/>
+        <pair id="DDI-DrugBank.d309.s0.p3" e1="DDI-DrugBank.d309.s0.e0"
+            e2="DDI-DrugBank.d309.s0.e4" ddi="true" type="effect"/>
+        <pair id="DDI-DrugBank.d309.s0.p4" e1="DDI-DrugBank.d309.s0.e1"
+            e2="DDI-DrugBank.d309.s0.e2" ddi="false"/>
+        <pair id="DDI-DrugBank.d309.s0.p5" e1="DDI-DrugBank.d309.s0.e1"
+            e2="DDI-DrugBank.d309.s0.e3" ddi="false"/>
+        <pair id="DDI-DrugBank.d309.s0.p6" e1="DDI-DrugBank.d309.s0.e1"
+            e2="DDI-DrugBank.d309.s0.e4" ddi="false"/>
+        <pair id="DDI-DrugBank.d309.s0.p7" e1="DDI-DrugBank.d309.s0.e2"
+            e2="DDI-DrugBank.d309.s0.e3" ddi="false"/>
+        <pair id="DDI-DrugBank.d309.s0.p8" e1="DDI-DrugBank.d309.s0.e2"
+            e2="DDI-DrugBank.d309.s0.e4" ddi="false"/>
+        <pair id="DDI-DrugBank.d309.s0.p9" e1="DDI-DrugBank.d309.s0.e3"
+            e2="DDI-DrugBank.d309.s0.e4" ddi="false"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d309.s1" text="Patients receiving antihistamines should be advised against the concurrent use of other CNS depressant drugs.">
+        <entity id="DDI-DrugBank.d309.s1.e0" charOffset="19-32"
+            type="group" text="antihistamines"/>
+        <entity id="DDI-DrugBank.d309.s1.e1" charOffset="88-107"
+            type="group" text="CNS depressant drugs"/>
+        <pair id="DDI-DrugBank.d309.s1.p0" e1="DDI-DrugBank.d309.s1.e0"
+            e2="DDI-DrugBank.d309.s1.e1" ddi="true" type="advise"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d309.s2" text="Monoamine oxidase (MAO) inhibitors prolong and intensify the anticholinergic effects of antihistamines.">
+        <entity id="DDI-DrugBank.d309.s2.e0" charOffset="0-33"
+            type="group" text="Monoamine oxidase (MAO) inhibitors"/>
+        <entity id="DDI-DrugBank.d309.s2.e1" charOffset="88-101"
+            type="group" text="antihistamines"/>
+        <pair id="DDI-DrugBank.d309.s2.p0" e1="DDI-DrugBank.d309.s2.e0"
+            e2="DDI-DrugBank.d309.s2.e1" ddi="true" type="effect"/>
+    </sentence>
+</document>

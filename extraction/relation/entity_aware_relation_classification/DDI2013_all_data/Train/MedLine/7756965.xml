@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="DDI-MedLine.d68">
+    <sentence id="DDI-MedLine.d68.s0" text="[The effect of cimetidine on the renal excretion of verografin and iodamide in dogs] The intravenous injection of cimetidine in a dose of 20 mg/kg enhanced verografine and iodamide excretion in chronic canine experiments. ">
+        <entity id="DDI-MedLine.d68.s0.e0" charOffset="15-24"
+            type="drug" text="cimetidine"/>
+        <entity id="DDI-MedLine.d68.s0.e1" charOffset="52-61"
+            type="drug" text="verografin"/>
+        <entity id="DDI-MedLine.d68.s0.e2" charOffset="67-74"
+            type="drug" text="iodamide"/>
+        <entity id="DDI-MedLine.d68.s0.e3" charOffset="114-123"
+            type="drug" text="cimetidine"/>
+        <entity id="DDI-MedLine.d68.s0.e4" charOffset="156-166"
+            type="drug" text="verografine"/>
+        <entity id="DDI-MedLine.d68.s0.e5" charOffset="172-179"
+            type="drug" text="iodamide"/>
+        <pair id="DDI-MedLine.d68.s0.p0" e1="DDI-MedLine.d68.s0.e0"
+            e2="DDI-MedLine.d68.s0.e1" ddi="false"/>
+        <pair id="DDI-MedLine.d68.s0.p1" e1="DDI-MedLine.d68.s0.e0"
+            e2="DDI-MedLine.d68.s0.e2" ddi="false"/>
+        <pair id="DDI-MedLine.d68.s0.p2" e1="DDI-MedLine.d68.s0.e0"
+            e2="DDI-MedLine.d68.s0.e3" ddi="false"/>
+        <pair id="DDI-MedLine.d68.s0.p3" e1="DDI-MedLine.d68.s0.e0"
+            e2="DDI-MedLine.d68.s0.e4" ddi="false"/>
+        <pair id="DDI-MedLine.d68.s0.p4" e1="DDI-MedLine.d68.s0.e0"
+            e2="DDI-MedLine.d68.s0.e5" ddi="false"/>
+        <pair id="DDI-MedLine.d68.s0.p5" e1="DDI-MedLine.d68.s0.e1"
+            e2="DDI-MedLine.d68.s0.e2" ddi="false"/>
+        <pair id="DDI-MedLine.d68.s0.p6" e1="DDI-MedLine.d68.s0.e1"
+            e2="DDI-MedLine.d68.s0.e3" ddi="false"/>
+        <pair id="DDI-MedLine.d68.s0.p7" e1="DDI-MedLine.d68.s0.e1"
+            e2="DDI-MedLine.d68.s0.e4" ddi="false"/>
+        <pair id="DDI-MedLine.d68.s0.p8" e1="DDI-MedLine.d68.s0.e1"
+            e2="DDI-MedLine.d68.s0.e5" ddi="false"/>
+        <pair id="DDI-MedLine.d68.s0.p9" e1="DDI-MedLine.d68.s0.e2"
+            e2="DDI-MedLine.d68.s0.e3" ddi="false"/>
+        <pair id="DDI-MedLine.d68.s0.p10" e1="DDI-MedLine.d68.s0.e2"
+            e2="DDI-MedLine.d68.s0.e4" ddi="false"/>
+        <pair id="DDI-MedLine.d68.s0.p11" e1="DDI-MedLine.d68.s0.e2"
+            e2="DDI-MedLine.d68.s0.e5" ddi="false"/>
+        <pair id="DDI-MedLine.d68.s0.p12" e1="DDI-MedLine.d68.s0.e3"
+            e2="DDI-MedLine.d68.s0.e4" ddi="true" type="mechanism"/>
+        <pair id="DDI-MedLine.d68.s0.p13" e1="DDI-MedLine.d68.s0.e3"
+            e2="DDI-MedLine.d68.s0.e5" ddi="true" type="mechanism"/>
+        <pair id="DDI-MedLine.d68.s0.p14" e1="DDI-MedLine.d68.s0.e4"
+            e2="DDI-MedLine.d68.s0.e5" ddi="false"/>
+    </sentence>
+    <sentence id="DDI-MedLine.d68.s1" text="The higher verografine and iodamide excretion was due to their increased renal tubular secretion. ">
+        <entity id="DDI-MedLine.d68.s1.e0" charOffset="11-21"
+            type="drug" text="verografine"/>
+        <entity id="DDI-MedLine.d68.s1.e1" charOffset="27-34"
+            type="drug" text="iodamide"/>
+        <pair id="DDI-MedLine.d68.s1.p0" e1="DDI-MedLine.d68.s1.e0"
+            e2="DDI-MedLine.d68.s1.e1" ddi="false"/>
+    </sentence>
+    <sentence id="DDI-MedLine.d68.s2" text="In dogs, cimetidine unchanged the secretion of cardiotrast, a test agent for anionic transport. ">
+        <entity id="DDI-MedLine.d68.s2.e0" charOffset="9-18" type="drug" text="cimetidine"/>
+        <entity id="DDI-MedLine.d68.s2.e1" charOffset="47-57"
+            type="drug" text="cardiotrast"/>
+        <pair id="DDI-MedLine.d68.s2.p0" e1="DDI-MedLine.d68.s2.e0"
+            e2="DDI-MedLine.d68.s2.e1" ddi="false"/>
+    </sentence>
+    <sentence id="DDI-MedLine.d68.s3" text="Possible extrarenal mechanisms of action of cimetidine on verografine and iodamide transport were also examined.">
+        <entity id="DDI-MedLine.d68.s3.e0" charOffset="44-53"
+            type="drug" text="cimetidine"/>
+        <entity id="DDI-MedLine.d68.s3.e1" charOffset="58-68"
+            type="drug" text="verografine"/>
+        <entity id="DDI-MedLine.d68.s3.e2" charOffset="74-81"
+            type="drug" text="iodamide"/>
+        <pair id="DDI-MedLine.d68.s3.p0" e1="DDI-MedLine.d68.s3.e0"
+            e2="DDI-MedLine.d68.s3.e1" ddi="false"/>
+        <pair id="DDI-MedLine.d68.s3.p1" e1="DDI-MedLine.d68.s3.e0"
+            e2="DDI-MedLine.d68.s3.e2" ddi="false"/>
+        <pair id="DDI-MedLine.d68.s3.p2" e1="DDI-MedLine.d68.s3.e1"
+            e2="DDI-MedLine.d68.s3.e2" ddi="false"/>
+    </sentence>
+</document>

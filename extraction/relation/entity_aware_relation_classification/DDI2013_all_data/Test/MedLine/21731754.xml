@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="DDI-MedLine.d218">
+    <sentence id="DDI-MedLine.d218.s0" text="Antidepressant-warfarin interaction and associated gastrointestinal bleeding risk in a case-control study.&#xd;&#xa;">
+        <entity id="DDI-MedLine.d218.s0.e0" charOffset="0-13"
+            type="group" text="Antidepressant"/>
+        <entity id="DDI-MedLine.d218.s0.e1" charOffset="15-22"
+            type="drug" text="warfarin"/>
+        <pair id="DDI-MedLine.d218.s0.p0" e1="DDI-MedLine.d218.s0.e0"
+            e2="DDI-MedLine.d218.s0.e1" ddi="false"/>
+    </sentence>
+    <sentence id="DDI-MedLine.d218.s1" text="Bleeding is the most common and worrisome adverse effect of warfarin therapy. ">
+        <entity id="DDI-MedLine.d218.s1.e0" charOffset="60-67"
+            type="drug" text="warfarin"/>
+    </sentence>
+    <sentence id="DDI-MedLine.d218.s2" text="One of the factors that might increase bleeding risk is initiation of interacting drugs that potentiate warfarin. ">
+        <entity id="DDI-MedLine.d218.s2.e0" charOffset="104-111"
+            type="drug" text="warfarin"/>
+    </sentence>
+    <sentence id="DDI-MedLine.d218.s3" text="We sought to evaluate whether initiation of an antidepressant increases the risk of hospitalization for gastrointestinal bleeding in warfarin users.">
+        <entity id="DDI-MedLine.d218.s3.e0" charOffset="47-60"
+            type="group" text="antidepressant"/>
+        <entity id="DDI-MedLine.d218.s3.e1" charOffset="133-140"
+            type="drug" text="warfarin"/>
+        <pair id="DDI-MedLine.d218.s3.p0" e1="DDI-MedLine.d218.s3.e0"
+            e2="DDI-MedLine.d218.s3.e1" ddi="false"/>
+    </sentence>
+    <sentence id="DDI-MedLine.d218.s4" text="Medicaid claims data (1999-2005) were used to perform an observational case-control study nested within person-time exposed to warfarin in those   18 years.">
+        <entity id="DDI-MedLine.d218.s4.e0" charOffset="127-134"
+            type="drug" text="warfarin"/>
+    </sentence>
+    <sentence id="DDI-MedLine.d218.s5" text="In total, 430,455 warfarin users contributed 407,370 person-years of warfarin use. ">
+        <entity id="DDI-MedLine.d218.s5.e0" charOffset="18-25"
+            type="drug" text="warfarin"/>
+        <entity id="DDI-MedLine.d218.s5.e1" charOffset="69-76"
+            type="drug" text="warfarin"/>
+        <pair id="DDI-MedLine.d218.s5.p0" e1="DDI-MedLine.d218.s5.e0"
+            e2="DDI-MedLine.d218.s5.e1" ddi="false"/>
+    </sentence>
+    <sentence id="DDI-MedLine.d218.s6" text="The incidence rate of hospitalization for GI bleeding among warfarin users was 4.48 per 100 person-years (95% CI, 4.42-4.55). ">
+        <entity id="DDI-MedLine.d218.s6.e0" charOffset="60-67"
+            type="drug" text="warfarin"/>
+    </sentence>
+    <sentence id="DDI-MedLine.d218.s7" text="Each gastrointestinal bleeding cases was matched to 50 controls based on index date and state. "/>
+    <sentence id="DDI-MedLine.d218.s8" text="Warfarin users had an increased odds ratio of gastrointestinal bleeding upon initiation of citalopram (OR   =   1.73 [95% CI, 1.25-2.38]), fluoxetine (OR   =   1.63 [95% CI, 1.11-2.38]), paroxetine (OR   =   1.64 [95% CI, 1.27-2.12]), amitriptyline (OR   =   1.47 [95% CI, 1.02-2.11]). ">
+        <entity id="DDI-MedLine.d218.s8.e0" charOffset="0-7" type="drug" text="Warfarin"/>
+        <entity id="DDI-MedLine.d218.s8.e1" charOffset="91-100"
+            type="drug" text="citalopram"/>
+        <entity id="DDI-MedLine.d218.s8.e2" charOffset="139-148"
+            type="drug" text="fluoxetine"/>
+        <entity id="DDI-MedLine.d218.s8.e3" charOffset="187-196"
+            type="drug" text="paroxetine"/>
+        <entity id="DDI-MedLine.d218.s8.e4" charOffset="235-247"
+            type="drug" text="amitriptyline"/>
+        <pair id="DDI-MedLine.d218.s8.p0" e1="DDI-MedLine.d218.s8.e0"
+            e2="DDI-MedLine.d218.s8.e1" ddi="true" type="effect"/>
+        <pair id="DDI-MedLine.d218.s8.p1" e1="DDI-MedLine.d218.s8.e0"
+            e2="DDI-MedLine.d218.s8.e2" ddi="true" type="effect"/>
+        <pair id="DDI-MedLine.d218.s8.p2" e1="DDI-MedLine.d218.s8.e0"
+            e2="DDI-MedLine.d218.s8.e3" ddi="true" type="effect"/>
+        <pair id="DDI-MedLine.d218.s8.p3" e1="DDI-MedLine.d218.s8.e0"
+            e2="DDI-MedLine.d218.s8.e4" ddi="true" type="effect"/>
+        <pair id="DDI-MedLine.d218.s8.p4" e1="DDI-MedLine.d218.s8.e1"
+            e2="DDI-MedLine.d218.s8.e2" ddi="false"/>
+        <pair id="DDI-MedLine.d218.s8.p5" e1="DDI-MedLine.d218.s8.e1"
+            e2="DDI-MedLine.d218.s8.e3" ddi="false"/>
+        <pair id="DDI-MedLine.d218.s8.p6" e1="DDI-MedLine.d218.s8.e1"
+            e2="DDI-MedLine.d218.s8.e4" ddi="false"/>
+        <pair id="DDI-MedLine.d218.s8.p7" e1="DDI-MedLine.d218.s8.e2"
+            e2="DDI-MedLine.d218.s8.e3" ddi="false"/>
+        <pair id="DDI-MedLine.d218.s8.p8" e1="DDI-MedLine.d218.s8.e2"
+            e2="DDI-MedLine.d218.s8.e4" ddi="false"/>
+        <pair id="DDI-MedLine.d218.s8.p9" e1="DDI-MedLine.d218.s8.e3"
+            e2="DDI-MedLine.d218.s8.e4" ddi="false"/>
+    </sentence>
+    <sentence id="DDI-MedLine.d218.s9" text="Also mirtazapine, which is not believed to interact with warfarin, increased the risk of GI bleeding (OR   =   1.75 [95% CI, 1.30-2.35]). ">
+        <entity id="DDI-MedLine.d218.s9.e0" charOffset="5-15"
+            type="drug" text="mirtazapine"/>
+        <entity id="DDI-MedLine.d218.s9.e1" charOffset="57-64"
+            type="drug" text="warfarin"/>
+        <pair id="DDI-MedLine.d218.s9.p0" e1="DDI-MedLine.d218.s9.e0"
+            e2="DDI-MedLine.d218.s9.e1" ddi="true" type="effect"/>
+    </sentence>
+    <sentence id="DDI-MedLine.d218.s10" text="Warfarin users who initiated citalopram, fluoxetine, paroxetine, amitriptyline, or mirtazapine had an increased risk of hospitalization for gastrointestinal bleeding. ">
+        <entity id="DDI-MedLine.d218.s10.e0" charOffset="0-7"
+            type="drug" text="Warfarin"/>
+        <entity id="DDI-MedLine.d218.s10.e1" charOffset="29-38"
+            type="drug" text="citalopram"/>
+        <entity id="DDI-MedLine.d218.s10.e2" charOffset="41-50"
+            type="drug" text="fluoxetine"/>
+        <entity id="DDI-MedLine.d218.s10.e3" charOffset="53-62"
+            type="drug" text="paroxetine"/>
+        <entity id="DDI-MedLine.d218.s10.e4" charOffset="65-77"
+            type="drug" text="amitriptyline"/>
+        <entity id="DDI-MedLine.d218.s10.e5" charOffset="83-93"
+            type="drug" text="mirtazapine"/>
+        <pair id="DDI-MedLine.d218.s10.p0" e1="DDI-MedLine.d218.s10.e0"
+            e2="DDI-MedLine.d218.s10.e1" ddi="true" type="effect"/>
+        <pair id="DDI-MedLine.d218.s10.p1" e1="DDI-MedLine.d218.s10.e0"
+            e2="DDI-MedLine.d218.s10.e2" ddi="true" type="effect"/>
+        <pair id="DDI-MedLine.d218.s10.p2" e1="DDI-MedLine.d218.s10.e0"
+            e2="DDI-MedLine.d218.s10.e3" ddi="true" type="effect"/>
+        <pair id="DDI-MedLine.d218.s10.p3" e1="DDI-MedLine.d218.s10.e0"
+            e2="DDI-MedLine.d218.s10.e4" ddi="true" type="effect"/>
+        <pair id="DDI-MedLine.d218.s10.p4" e1="DDI-MedLine.d218.s10.e0"
+            e2="DDI-MedLine.d218.s10.e5" ddi="true" type="effect"/>
+        <pair id="DDI-MedLine.d218.s10.p5" e1="DDI-MedLine.d218.s10.e1"
+            e2="DDI-MedLine.d218.s10.e2" ddi="false"/>
+        <pair id="DDI-MedLine.d218.s10.p6" e1="DDI-MedLine.d218.s10.e1"
+            e2="DDI-MedLine.d218.s10.e3" ddi="false"/>
+        <pair id="DDI-MedLine.d218.s10.p7" e1="DDI-MedLine.d218.s10.e1"
+            e2="DDI-MedLine.d218.s10.e4" ddi="false"/>
+        <pair id="DDI-MedLine.d218.s10.p8" e1="DDI-MedLine.d218.s10.e1"
+            e2="DDI-MedLine.d218.s10.e5" ddi="false"/>
+        <pair id="DDI-MedLine.d218.s10.p9" e1="DDI-MedLine.d218.s10.e2"
+            e2="DDI-MedLine.d218.s10.e3" ddi="false"/>
+        <pair id="DDI-MedLine.d218.s10.p10" e1="DDI-MedLine.d218.s10.e2"
+            e2="DDI-MedLine.d218.s10.e4" ddi="false"/>
+        <pair id="DDI-MedLine.d218.s10.p11" e1="DDI-MedLine.d218.s10.e2"
+            e2="DDI-MedLine.d218.s10.e5" ddi="false"/>
+        <pair id="DDI-MedLine.d218.s10.p12" e1="DDI-MedLine.d218.s10.e3"
+            e2="DDI-MedLine.d218.s10.e4" ddi="false"/>
+        <pair id="DDI-MedLine.d218.s10.p13" e1="DDI-MedLine.d218.s10.e3"
+            e2="DDI-MedLine.d218.s10.e5" ddi="false"/>
+        <pair id="DDI-MedLine.d218.s10.p14" e1="DDI-MedLine.d218.s10.e4"
+            e2="DDI-MedLine.d218.s10.e5" ddi="false"/>
+    </sentence>
+    <sentence id="DDI-MedLine.d218.s11" text="However, the elevated risk with mirtazapine suggests that a drug-drug interaction may not have been responsible for all of the observed increased risk.">
+        <entity id="DDI-MedLine.d218.s11.e0" charOffset="32-42"
+            type="drug" text="mirtazapine"/>
+    </sentence>
+</document>

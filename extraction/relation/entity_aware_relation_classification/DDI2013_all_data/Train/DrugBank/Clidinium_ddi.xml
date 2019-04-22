@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="DDI-DrugBank.d322">
+    <sentence id="DDI-DrugBank.d322.s0" text="Amantadine, tricyclic antidepressants, and MAOIs may increase anticholinergic effect of clidinium.">
+        <entity id="DDI-DrugBank.d322.s0.e0" charOffset="0-9"
+            type="drug" text="Amantadine"/>
+        <entity id="DDI-DrugBank.d322.s0.e1" charOffset="12-36"
+            type="group" text="tricyclic antidepressants"/>
+        <entity id="DDI-DrugBank.d322.s0.e2" charOffset="43-47"
+            type="group" text="MAOIs"/>
+        <entity id="DDI-DrugBank.d322.s0.e3" charOffset="88-96"
+            type="drug" text="clidinium"/>
+        <pair id="DDI-DrugBank.d322.s0.p0" e1="DDI-DrugBank.d322.s0.e0"
+            e2="DDI-DrugBank.d322.s0.e1" ddi="false"/>
+        <pair id="DDI-DrugBank.d322.s0.p1" e1="DDI-DrugBank.d322.s0.e0"
+            e2="DDI-DrugBank.d322.s0.e2" ddi="false"/>
+        <pair id="DDI-DrugBank.d322.s0.p2" e1="DDI-DrugBank.d322.s0.e0"
+            e2="DDI-DrugBank.d322.s0.e3" ddi="true" type="effect"/>
+        <pair id="DDI-DrugBank.d322.s0.p3" e1="DDI-DrugBank.d322.s0.e1"
+            e2="DDI-DrugBank.d322.s0.e2" ddi="false"/>
+        <pair id="DDI-DrugBank.d322.s0.p4" e1="DDI-DrugBank.d322.s0.e1"
+            e2="DDI-DrugBank.d322.s0.e3" ddi="true" type="effect"/>
+        <pair id="DDI-DrugBank.d322.s0.p5" e1="DDI-DrugBank.d322.s0.e2"
+            e2="DDI-DrugBank.d322.s0.e3" ddi="true" type="effect"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d322.s1" text="Clidinium may decrease the effect of phenothiazines, levodopa, and ketoconazole.">
+        <entity id="DDI-DrugBank.d322.s1.e0" charOffset="0-8"
+            type="drug" text="Clidinium"/>
+        <entity id="DDI-DrugBank.d322.s1.e1" charOffset="37-50"
+            type="group" text="phenothiazines"/>
+        <entity id="DDI-DrugBank.d322.s1.e2" charOffset="53-60"
+            type="drug" text="levodopa"/>
+        <entity id="DDI-DrugBank.d322.s1.e3" charOffset="67-78"
+            type="drug" text="ketoconazole"/>
+        <pair id="DDI-DrugBank.d322.s1.p0" e1="DDI-DrugBank.d322.s1.e0"
+            e2="DDI-DrugBank.d322.s1.e1" ddi="true" type="effect"/>
+        <pair id="DDI-DrugBank.d322.s1.p1" e1="DDI-DrugBank.d322.s1.e0"
+            e2="DDI-DrugBank.d322.s1.e2" ddi="true" type="effect"/>
+        <pair id="DDI-DrugBank.d322.s1.p2" e1="DDI-DrugBank.d322.s1.e0"
+            e2="DDI-DrugBank.d322.s1.e3" ddi="true" type="effect"/>
+        <pair id="DDI-DrugBank.d322.s1.p3" e1="DDI-DrugBank.d322.s1.e1"
+            e2="DDI-DrugBank.d322.s1.e2" ddi="false"/>
+        <pair id="DDI-DrugBank.d322.s1.p4" e1="DDI-DrugBank.d322.s1.e1"
+            e2="DDI-DrugBank.d322.s1.e3" ddi="false"/>
+        <pair id="DDI-DrugBank.d322.s1.p5" e1="DDI-DrugBank.d322.s1.e2"
+            e2="DDI-DrugBank.d322.s1.e3" ddi="false"/>
+    </sentence>
+</document>

@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="DDI-DrugBank.d688">
+    <sentence id="DDI-DrugBank.d688.s0" text="Pharmacokinetic studies show that there are no significant alterations in pharmacokinetic parameters of zidovudine or rifabutin to warrant dosage adjustment when megestrol acetate is administered with these drugs. ">
+        <entity id="DDI-DrugBank.d688.s0.e0" charOffset="104-113"
+            type="drug" text="zidovudine"/>
+        <entity id="DDI-DrugBank.d688.s0.e1" charOffset="118-126"
+            type="drug" text="rifabutin"/>
+        <entity id="DDI-DrugBank.d688.s0.e2" charOffset="162-178"
+            type="drug" text="megestrol acetate"/>
+        <pair id="DDI-DrugBank.d688.s0.p0" e1="DDI-DrugBank.d688.s0.e0"
+            e2="DDI-DrugBank.d688.s0.e1" ddi="false"/>
+        <pair id="DDI-DrugBank.d688.s0.p1" e1="DDI-DrugBank.d688.s0.e0"
+            e2="DDI-DrugBank.d688.s0.e2" ddi="false"/>
+        <pair id="DDI-DrugBank.d688.s0.p2" e1="DDI-DrugBank.d688.s0.e1"
+            e2="DDI-DrugBank.d688.s0.e2" ddi="false"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d688.s1" text="A pharmacokinetic study demonstrated that coadministration of megestrol acetate and indinavir results in a significant decrease in the pharmacokinetic parameters (~36% for Cmax and ~28% for AUC) of indinavir. ">
+        <entity id="DDI-DrugBank.d688.s1.e0" charOffset="62-78"
+            type="drug" text="megestrol acetate"/>
+        <entity id="DDI-DrugBank.d688.s1.e1" charOffset="84-92"
+            type="drug" text="indinavir"/>
+        <entity id="DDI-DrugBank.d688.s1.e2" charOffset="198-206"
+            type="drug" text="indinavir"/>
+        <pair id="DDI-DrugBank.d688.s1.p0" e1="DDI-DrugBank.d688.s1.e0"
+            e2="DDI-DrugBank.d688.s1.e1" ddi="true" type="mechanism"/>
+        <pair id="DDI-DrugBank.d688.s1.p1" e1="DDI-DrugBank.d688.s1.e0"
+            e2="DDI-DrugBank.d688.s1.e2" ddi="false"/>
+        <pair id="DDI-DrugBank.d688.s1.p2" e1="DDI-DrugBank.d688.s1.e1"
+            e2="DDI-DrugBank.d688.s1.e2" ddi="false"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d688.s2" text="Administration of a higher dose of indinavir should be considered when coadministering with megestrol acetate. ">
+        <entity id="DDI-DrugBank.d688.s2.e0" charOffset="35-43"
+            type="drug" text="indinavir"/>
+        <entity id="DDI-DrugBank.d688.s2.e1" charOffset="92-108"
+            type="drug" text="megestrol acetate"/>
+        <pair id="DDI-DrugBank.d688.s2.p0" e1="DDI-DrugBank.d688.s2.e0"
+            e2="DDI-DrugBank.d688.s2.e1" ddi="true" type="advise"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d688.s3" text="The effects of indinavir, zidovudine or rifabutin on the pharmacokinetics of megestrol acetate were not studied.">
+        <entity id="DDI-DrugBank.d688.s3.e0" charOffset="15-23"
+            type="drug" text="indinavir"/>
+        <entity id="DDI-DrugBank.d688.s3.e1" charOffset="26-35"
+            type="drug" text="zidovudine"/>
+        <entity id="DDI-DrugBank.d688.s3.e2" charOffset="40-48"
+            type="drug" text="rifabutin"/>
+        <entity id="DDI-DrugBank.d688.s3.e3" charOffset="77-93"
+            type="drug" text="megestrol acetate"/>
+        <pair id="DDI-DrugBank.d688.s3.p0" e1="DDI-DrugBank.d688.s3.e0"
+            e2="DDI-DrugBank.d688.s3.e1" ddi="false"/>
+        <pair id="DDI-DrugBank.d688.s3.p1" e1="DDI-DrugBank.d688.s3.e0"
+            e2="DDI-DrugBank.d688.s3.e2" ddi="false"/>
+        <pair id="DDI-DrugBank.d688.s3.p2" e1="DDI-DrugBank.d688.s3.e0"
+            e2="DDI-DrugBank.d688.s3.e3" ddi="false"/>
+        <pair id="DDI-DrugBank.d688.s3.p3" e1="DDI-DrugBank.d688.s3.e1"
+            e2="DDI-DrugBank.d688.s3.e2" ddi="false"/>
+        <pair id="DDI-DrugBank.d688.s3.p4" e1="DDI-DrugBank.d688.s3.e1"
+            e2="DDI-DrugBank.d688.s3.e3" ddi="false"/>
+        <pair id="DDI-DrugBank.d688.s3.p5" e1="DDI-DrugBank.d688.s3.e2"
+            e2="DDI-DrugBank.d688.s3.e3" ddi="false"/>
+    </sentence>
+</document>

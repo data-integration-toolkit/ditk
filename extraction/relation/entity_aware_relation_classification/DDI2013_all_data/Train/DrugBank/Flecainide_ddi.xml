@@ -1,0 +1,223 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="DDI-DrugBank.d87">
+    <sentence id="DDI-DrugBank.d87.s0" text="Drug Interactions."/>
+    <sentence id="DDI-DrugBank.d87.s1" text="TAMBOCOR has been administered to patients receiving digitalis preparations or beta-adrenergic blocking agents without adverse effects.">
+        <entity id="DDI-DrugBank.d87.s1.e0" charOffset="0-7"
+            type="brand" text="TAMBOCOR"/>
+        <entity id="DDI-DrugBank.d87.s1.e1" charOffset="53-74"
+            type="group" text="digitalis preparations"/>
+        <entity id="DDI-DrugBank.d87.s1.e2" charOffset="79-109"
+            type="group" text="beta-adrenergic blocking agents"/>
+        <pair id="DDI-DrugBank.d87.s1.p0" e1="DDI-DrugBank.d87.s1.e0"
+            e2="DDI-DrugBank.d87.s1.e1" ddi="false"/>
+        <pair id="DDI-DrugBank.d87.s1.p1" e1="DDI-DrugBank.d87.s1.e0"
+            e2="DDI-DrugBank.d87.s1.e2" ddi="false"/>
+        <pair id="DDI-DrugBank.d87.s1.p2" e1="DDI-DrugBank.d87.s1.e1"
+            e2="DDI-DrugBank.d87.s1.e2" ddi="false"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d87.s2" text="During administration of multiple oral doses of TAMBOCOR to healthy subjects stabilized on a maintenance dose of digoxin, a 13%-19% increase in plasma digoxin levels occurred at six hours postdose.">
+        <entity id="DDI-DrugBank.d87.s2.e0" charOffset="48-55"
+            type="brand" text="TAMBOCOR"/>
+        <entity id="DDI-DrugBank.d87.s2.e1" charOffset="113-119"
+            type="drug" text="digoxin"/>
+        <entity id="DDI-DrugBank.d87.s2.e2" charOffset="151-157"
+            type="drug" text="digoxin"/>
+        <pair id="DDI-DrugBank.d87.s2.p0" e1="DDI-DrugBank.d87.s2.e0"
+            e2="DDI-DrugBank.d87.s2.e1" ddi="true" type="mechanism"/>
+        <pair id="DDI-DrugBank.d87.s2.p1" e1="DDI-DrugBank.d87.s2.e0"
+            e2="DDI-DrugBank.d87.s2.e2" ddi="false"/>
+        <pair id="DDI-DrugBank.d87.s2.p2" e1="DDI-DrugBank.d87.s2.e1"
+            e2="DDI-DrugBank.d87.s2.e2" ddi="false"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d87.s3" text="In a study involving healthy subjects receiving TAMBOCOR and propranolol concurrently, plasma flecainide levels were increased about 20% and propranolol levels were increased about 30% compared to control values.">
+        <entity id="DDI-DrugBank.d87.s3.e0" charOffset="48-55"
+            type="brand" text="TAMBOCOR"/>
+        <entity id="DDI-DrugBank.d87.s3.e1" charOffset="61-71"
+            type="drug" text="propranolol"/>
+        <entity id="DDI-DrugBank.d87.s3.e2" charOffset="94-103"
+            type="drug" text="flecainide"/>
+        <entity id="DDI-DrugBank.d87.s3.e3" charOffset="141-151"
+            type="drug" text="propranolol"/>
+        <pair id="DDI-DrugBank.d87.s3.p0" e1="DDI-DrugBank.d87.s3.e0"
+            e2="DDI-DrugBank.d87.s3.e1" ddi="true" type="mechanism"/>
+        <pair id="DDI-DrugBank.d87.s3.p1" e1="DDI-DrugBank.d87.s3.e0"
+            e2="DDI-DrugBank.d87.s3.e2" ddi="false"/>
+        <pair id="DDI-DrugBank.d87.s3.p2" e1="DDI-DrugBank.d87.s3.e0"
+            e2="DDI-DrugBank.d87.s3.e3" ddi="false"/>
+        <pair id="DDI-DrugBank.d87.s3.p3" e1="DDI-DrugBank.d87.s3.e1"
+            e2="DDI-DrugBank.d87.s3.e2" ddi="false"/>
+        <pair id="DDI-DrugBank.d87.s3.p4" e1="DDI-DrugBank.d87.s3.e1"
+            e2="DDI-DrugBank.d87.s3.e3" ddi="false"/>
+        <pair id="DDI-DrugBank.d87.s3.p5" e1="DDI-DrugBank.d87.s3.e2"
+            e2="DDI-DrugBank.d87.s3.e3" ddi="false"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d87.s4" text="In this formal interaction study, TAMBOCOR and propranolol were each found to have negative inotropic effects;">
+        <entity id="DDI-DrugBank.d87.s4.e0" charOffset="34-41"
+            type="brand" text="TAMBOCOR"/>
+        <entity id="DDI-DrugBank.d87.s4.e1" charOffset="47-57"
+            type="drug" text="propranolol"/>
+        <pair id="DDI-DrugBank.d87.s4.p0" e1="DDI-DrugBank.d87.s4.e0"
+            e2="DDI-DrugBank.d87.s4.e1" ddi="false"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d87.s5" text="when the drugs were administered together, the effects were additive."/>
+    <sentence id="DDI-DrugBank.d87.s6" text="The effects of concomitant administration of TAMBOCOR and propranolol on the PR interval were less than additive.">
+        <entity id="DDI-DrugBank.d87.s6.e0" charOffset="45-52"
+            type="brand" text="TAMBOCOR"/>
+        <entity id="DDI-DrugBank.d87.s6.e1" charOffset="58-68"
+            type="drug" text="propranolol"/>
+        <pair id="DDI-DrugBank.d87.s6.p0" e1="DDI-DrugBank.d87.s6.e0"
+            e2="DDI-DrugBank.d87.s6.e1" ddi="true" type="effect"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d87.s7" text="In TAMBOCOR clinical trials, patients who were receiving beta blockers concurrently did not experience an increased incidence of side effects.">
+        <entity id="DDI-DrugBank.d87.s7.e0" charOffset="3-10"
+            type="brand" text="TAMBOCOR"/>
+        <entity id="DDI-DrugBank.d87.s7.e1" charOffset="57-69"
+            type="group" text="beta blockers"/>
+        <pair id="DDI-DrugBank.d87.s7.p0" e1="DDI-DrugBank.d87.s7.e0"
+            e2="DDI-DrugBank.d87.s7.e1" ddi="false"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d87.s8" text="Nevertheless, the possibility of additive negative inotropic effects of beta blockers and flecainide should be recognized.">
+        <entity id="DDI-DrugBank.d87.s8.e0" charOffset="72-84"
+            type="group" text="beta blockers"/>
+        <entity id="DDI-DrugBank.d87.s8.e1" charOffset="90-99"
+            type="drug" text="flecainide"/>
+        <pair id="DDI-DrugBank.d87.s8.p0" e1="DDI-DrugBank.d87.s8.e0"
+            e2="DDI-DrugBank.d87.s8.e1" ddi="true" type="effect"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d87.s9" text="Flecainide is not extensively bound to plasma proteins.">
+        <entity id="DDI-DrugBank.d87.s9.e0" charOffset="0-9" type="drug" text="Flecainide"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d87.s10" text="In vitro studies with several drugs which may be administered concomitantly showed that the extent of flecainide binding to human plasma proteins is either unchanged or only slightly less.">
+        <entity id="DDI-DrugBank.d87.s10.e0" charOffset="102-111"
+            type="drug" text="flecainide"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d87.s11" text="Consequently, interactions with other drugs which are highly protein bound (e.g., anticoagulants ) would not be expected.">
+        <entity id="DDI-DrugBank.d87.s11.e0" charOffset="82-95"
+            type="group" text="anticoagulants"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d87.s12" text="TAMBOCOR has been used in a large number of patients receiving diuretics without apparent interaction.">
+        <entity id="DDI-DrugBank.d87.s12.e0" charOffset="0-7"
+            type="brand" text="TAMBOCOR"/>
+        <entity id="DDI-DrugBank.d87.s12.e1" charOffset="63-71"
+            type="group" text="diuretics"/>
+        <pair id="DDI-DrugBank.d87.s12.p0" e1="DDI-DrugBank.d87.s12.e0"
+            e2="DDI-DrugBank.d87.s12.e1" ddi="false"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d87.s13" text="Limited data in patients receiving known enzyme inducers ( phenytoin, phenobarbital, carbamazepine ) indicate only a 30% increase in the rate of flecainide elimination.">
+        <entity id="DDI-DrugBank.d87.s13.e0" charOffset="59-67"
+            type="drug" text="phenytoin"/>
+        <entity id="DDI-DrugBank.d87.s13.e1" charOffset="70-82"
+            type="drug" text="phenobarbital"/>
+        <entity id="DDI-DrugBank.d87.s13.e2" charOffset="85-97"
+            type="drug" text="carbamazepine"/>
+        <entity id="DDI-DrugBank.d87.s13.e3" charOffset="145-154"
+            type="drug" text="flecainide"/>
+        <pair id="DDI-DrugBank.d87.s13.p0" e1="DDI-DrugBank.d87.s13.e0"
+            e2="DDI-DrugBank.d87.s13.e1" ddi="false"/>
+        <pair id="DDI-DrugBank.d87.s13.p1" e1="DDI-DrugBank.d87.s13.e0"
+            e2="DDI-DrugBank.d87.s13.e2" ddi="false"/>
+        <pair id="DDI-DrugBank.d87.s13.p2" e1="DDI-DrugBank.d87.s13.e0"
+            e2="DDI-DrugBank.d87.s13.e3" ddi="true" type="mechanism"/>
+        <pair id="DDI-DrugBank.d87.s13.p3" e1="DDI-DrugBank.d87.s13.e1"
+            e2="DDI-DrugBank.d87.s13.e2" ddi="false"/>
+        <pair id="DDI-DrugBank.d87.s13.p4" e1="DDI-DrugBank.d87.s13.e1"
+            e2="DDI-DrugBank.d87.s13.e3" ddi="true" type="mechanism"/>
+        <pair id="DDI-DrugBank.d87.s13.p5" e1="DDI-DrugBank.d87.s13.e2"
+            e2="DDI-DrugBank.d87.s13.e3" ddi="true" type="mechanism"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d87.s14" text="In healthy subjects receiving cimetidine (1 gm daily) for one week, plasma flecainide levels increased by about 30% and half-life increased by about 10%.">
+        <entity id="DDI-DrugBank.d87.s14.e0" charOffset="30-39"
+            type="drug" text="cimetidine"/>
+        <entity id="DDI-DrugBank.d87.s14.e1" charOffset="75-84"
+            type="drug" text="flecainide"/>
+        <pair id="DDI-DrugBank.d87.s14.p0" e1="DDI-DrugBank.d87.s14.e0"
+            e2="DDI-DrugBank.d87.s14.e1" ddi="true" type="mechanism"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d87.s15" text="When amiodarone is added to flecainide therapy, plasma flecainide levels may increase two-fold or more in some patients, if flecainide dosage is not reduced.">
+        <entity id="DDI-DrugBank.d87.s15.e0" charOffset="5-14"
+            type="drug" text="amiodarone"/>
+        <entity id="DDI-DrugBank.d87.s15.e1" charOffset="28-37"
+            type="drug" text="flecainide"/>
+        <entity id="DDI-DrugBank.d87.s15.e2" charOffset="55-64"
+            type="drug" text="flecainide"/>
+        <entity id="DDI-DrugBank.d87.s15.e3" charOffset="124-133"
+            type="drug" text="flecainide"/>
+        <pair id="DDI-DrugBank.d87.s15.p0" e1="DDI-DrugBank.d87.s15.e0"
+            e2="DDI-DrugBank.d87.s15.e1" ddi="true" type="mechanism"/>
+        <pair id="DDI-DrugBank.d87.s15.p1" e1="DDI-DrugBank.d87.s15.e0"
+            e2="DDI-DrugBank.d87.s15.e2" ddi="false"/>
+        <pair id="DDI-DrugBank.d87.s15.p2" e1="DDI-DrugBank.d87.s15.e0"
+            e2="DDI-DrugBank.d87.s15.e3" ddi="false"/>
+        <pair id="DDI-DrugBank.d87.s15.p3" e1="DDI-DrugBank.d87.s15.e1"
+            e2="DDI-DrugBank.d87.s15.e2" ddi="false"/>
+        <pair id="DDI-DrugBank.d87.s15.p4" e1="DDI-DrugBank.d87.s15.e1"
+            e2="DDI-DrugBank.d87.s15.e3" ddi="false"/>
+        <pair id="DDI-DrugBank.d87.s15.p5" e1="DDI-DrugBank.d87.s15.e2"
+            e2="DDI-DrugBank.d87.s15.e3" ddi="false"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d87.s16" text="Drugs that inhibit cytochrome P450IID6, such as quinidine , might increase the plasma concentrations of flecainide in patients that are on chronic flecainide therapy;">
+        <entity id="DDI-DrugBank.d87.s16.e0" charOffset="48-56"
+            type="drug" text="quinidine"/>
+        <entity id="DDI-DrugBank.d87.s16.e1" charOffset="104-113"
+            type="drug" text="flecainide"/>
+        <entity id="DDI-DrugBank.d87.s16.e2" charOffset="147-156"
+            type="drug" text="flecainide"/>
+        <pair id="DDI-DrugBank.d87.s16.p0" e1="DDI-DrugBank.d87.s16.e0"
+            e2="DDI-DrugBank.d87.s16.e1" ddi="true" type="mechanism"/>
+        <pair id="DDI-DrugBank.d87.s16.p1" e1="DDI-DrugBank.d87.s16.e0"
+            e2="DDI-DrugBank.d87.s16.e2" ddi="false"/>
+        <pair id="DDI-DrugBank.d87.s16.p2" e1="DDI-DrugBank.d87.s16.e1"
+            e2="DDI-DrugBank.d87.s16.e2" ddi="false"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d87.s17" text="especially if these patients are extensive metabolizers."/>
+    <sentence id="DDI-DrugBank.d87.s18" text="There has been little experience with the coadministration of TAMBOCOR and either disopyramide or verapamil.">
+        <entity id="DDI-DrugBank.d87.s18.e0" charOffset="62-69"
+            type="brand" text="TAMBOCOR"/>
+        <entity id="DDI-DrugBank.d87.s18.e1" charOffset="82-93"
+            type="drug" text="disopyramide"/>
+        <entity id="DDI-DrugBank.d87.s18.e2" charOffset="98-106"
+            type="drug" text="verapamil"/>
+        <pair id="DDI-DrugBank.d87.s18.p0" e1="DDI-DrugBank.d87.s18.e0"
+            e2="DDI-DrugBank.d87.s18.e1" ddi="false"/>
+        <pair id="DDI-DrugBank.d87.s18.p1" e1="DDI-DrugBank.d87.s18.e0"
+            e2="DDI-DrugBank.d87.s18.e2" ddi="false"/>
+        <pair id="DDI-DrugBank.d87.s18.p2" e1="DDI-DrugBank.d87.s18.e1"
+            e2="DDI-DrugBank.d87.s18.e2" ddi="false"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d87.s19" text="Because both of these drugs have negative inotropic properties and the effects of coadministration with TAMBOCOR are unknown, neither disopyramide nor verapamil should be administered concurrently with TAMBOCOR unless, in the judgment of the physician, the benefits of this combination outweigh the risks.">
+        <entity id="DDI-DrugBank.d87.s19.e0" charOffset="104-111"
+            type="brand" text="TAMBOCOR"/>
+        <entity id="DDI-DrugBank.d87.s19.e1" charOffset="134-145"
+            type="drug" text="disopyramide"/>
+        <entity id="DDI-DrugBank.d87.s19.e2" charOffset="151-159"
+            type="drug" text="verapamil"/>
+        <entity id="DDI-DrugBank.d87.s19.e3" charOffset="202-209"
+            type="brand" text="TAMBOCOR"/>
+        <pair id="DDI-DrugBank.d87.s19.p0" e1="DDI-DrugBank.d87.s19.e0"
+            e2="DDI-DrugBank.d87.s19.e1" ddi="false"/>
+        <pair id="DDI-DrugBank.d87.s19.p1" e1="DDI-DrugBank.d87.s19.e0"
+            e2="DDI-DrugBank.d87.s19.e2" ddi="false"/>
+        <pair id="DDI-DrugBank.d87.s19.p2" e1="DDI-DrugBank.d87.s19.e0"
+            e2="DDI-DrugBank.d87.s19.e3" ddi="false"/>
+        <pair id="DDI-DrugBank.d87.s19.p3" e1="DDI-DrugBank.d87.s19.e1"
+            e2="DDI-DrugBank.d87.s19.e2" ddi="false"/>
+        <pair id="DDI-DrugBank.d87.s19.p4" e1="DDI-DrugBank.d87.s19.e1"
+            e2="DDI-DrugBank.d87.s19.e3" ddi="true" type="advise"/>
+        <pair id="DDI-DrugBank.d87.s19.p5" e1="DDI-DrugBank.d87.s19.e2"
+            e2="DDI-DrugBank.d87.s19.e3" ddi="true" type="advise"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d87.s20" text="There has been too little experience with the coadministration of TAMBOCOR with nifedipine or diltiazem to recommend concomitant use.">
+        <entity id="DDI-DrugBank.d87.s20.e0" charOffset="66-73"
+            type="brand" text="TAMBOCOR"/>
+        <entity id="DDI-DrugBank.d87.s20.e1" charOffset="80-89"
+            type="drug" text="nifedipine"/>
+        <entity id="DDI-DrugBank.d87.s20.e2" charOffset="94-102"
+            type="drug" text="diltiazem"/>
+        <pair id="DDI-DrugBank.d87.s20.p0" e1="DDI-DrugBank.d87.s20.e0"
+            e2="DDI-DrugBank.d87.s20.e1" ddi="false"/>
+        <pair id="DDI-DrugBank.d87.s20.p1" e1="DDI-DrugBank.d87.s20.e0"
+            e2="DDI-DrugBank.d87.s20.e2" ddi="false"/>
+        <pair id="DDI-DrugBank.d87.s20.p2" e1="DDI-DrugBank.d87.s20.e1"
+            e2="DDI-DrugBank.d87.s20.e2" ddi="false"/>
+    </sentence>
+</document>

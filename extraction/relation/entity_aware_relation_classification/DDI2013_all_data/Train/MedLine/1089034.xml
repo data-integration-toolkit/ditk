@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="DDI-MedLine.d13">
+    <sentence id="DDI-MedLine.d13.s0" text="Death in amphetamine users: causes and rates.&#xd;&#xa;">
+        <entity id="DDI-MedLine.d13.s0.e0" charOffset="9-19" type="drug" text="amphetamine"/>
+    </sentence>
+    <sentence id="DDI-MedLine.d13.s1" text="The world medical literature contains 43 reports of deaths associated with amphetamines in a 35-year period. ">
+        <entity id="DDI-MedLine.d13.s1.e0" charOffset="75-86"
+            type="drug" text="amphetamines"/>
+    </sentence>
+    <sentence id="DDI-MedLine.d13.s2" text="These included seven cerebrovascular accidents, six sudden cardiac deaths, three cases of hyperpyrexia, eight poisonings of uncertain mechanism and seven cases of medical complications of intravenous injection; "/>
+    <sentence id="DDI-MedLine.d13.s3" text="the remainder were of uncertain cause. "/>
+    <sentence id="DDI-MedLine.d13.s4" text="In contrast, in Ontario alone, in 1972 and 1973 there were 26 deaths in amphetamine users, of which 16 were due to accident suicide or homicide. ">
+        <entity id="DDI-MedLine.d13.s4.e0" charOffset="72-82"
+            type="drug" text="amphetamine"/>
+    </sentence>
+    <sentence id="DDI-MedLine.d13.s5" text="Of the remaining cases, two were cardiac, two hepatic and the rest were mixed drug overdose. "/>
+    <sentence id="DDI-MedLine.d13.s6" text="Pulmonary granulomata, subacute hepatitis and other lesions resulting from intravenous drug use were common findings at autopsy. "/>
+    <sentence id="DDI-MedLine.d13.s7" text="On the basis of the estimated number of regular users of intravenous amphetamine in Ontario, the mortality rate in such users is at least four times as high as in the general population of the same age, and is comparable to that in alcoholics and heroin addicts. ">
+        <entity id="DDI-MedLine.d13.s7.e0" charOffset="69-79"
+            type="drug" text="amphetamine"/>
+        <entity id="DDI-MedLine.d13.s7.e1" charOffset="247-252"
+            type="drug_n" text="heroin"/>
+        <pair id="DDI-MedLine.d13.s7.p0" e1="DDI-MedLine.d13.s7.e0"
+            e2="DDI-MedLine.d13.s7.e1" ddi="false"/>
+    </sentence>
+    <sentence id="DDI-MedLine.d13.s8" text="However, the absolute number of alcohol-related deaths is far greater than the number of deaths in amphetamine or heroin users.">
+        <entity id="DDI-MedLine.d13.s8.e0" charOffset="32-38"
+            type="drug" text="alcohol"/>
+        <entity id="DDI-MedLine.d13.s8.e1" charOffset="99-109"
+            type="drug" text="amphetamine"/>
+        <entity id="DDI-MedLine.d13.s8.e2" charOffset="114-119"
+            type="drug_n" text="heroin"/>
+        <pair id="DDI-MedLine.d13.s8.p0" e1="DDI-MedLine.d13.s8.e0"
+            e2="DDI-MedLine.d13.s8.e1" ddi="false"/>
+        <pair id="DDI-MedLine.d13.s8.p1" e1="DDI-MedLine.d13.s8.e0"
+            e2="DDI-MedLine.d13.s8.e2" ddi="false"/>
+        <pair id="DDI-MedLine.d13.s8.p2" e1="DDI-MedLine.d13.s8.e1"
+            e2="DDI-MedLine.d13.s8.e2" ddi="false"/>
+    </sentence>
+</document>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="DDI-DrugBank.d616">
+    <sentence id="DDI-DrugBank.d616.s0" text="Interactions between ZADAXIN and other drugs have not been fully evaluated. ">
+        <entity id="DDI-DrugBank.d616.s0.e0" charOffset="21-27"
+            type="brand" text="ZADAXIN"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d616.s1" text="Caution should be exercised when administering ZADAXIN therapy in combination with other immunomodulating drugs. ">
+        <entity id="DDI-DrugBank.d616.s1.e0" charOffset="47-53"
+            type="brand" text="ZADAXIN"/>
+        <entity id="DDI-DrugBank.d616.s1.e1" charOffset="89-110"
+            type="group" text="immunomodulating drugs"/>
+        <pair id="DDI-DrugBank.d616.s1.p0" e1="DDI-DrugBank.d616.s1.e0"
+            e2="DDI-DrugBank.d616.s1.e1" ddi="true" type="advise"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d616.s2" text="ZADAXIN should not be mixed with any other drug.">
+        <entity id="DDI-DrugBank.d616.s2.e0" charOffset="0-6"
+            type="brand" text="ZADAXIN"/>
+    </sentence>
+</document>

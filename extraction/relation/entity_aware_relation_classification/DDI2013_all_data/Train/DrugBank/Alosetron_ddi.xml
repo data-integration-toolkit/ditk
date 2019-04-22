@@ -1,0 +1,229 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="DDI-DrugBank.d364">
+    <sentence id="DDI-DrugBank.d364.s0" text="Because alosetron is metabolized by a variety of hepatic CYP drug-metabolizing enzymes, inducers or inhibitors of these enzymes may change the clearance of alosetron.">
+        <entity id="DDI-DrugBank.d364.s0.e0" charOffset="8-16"
+            type="drug" text="alosetron"/>
+        <entity id="DDI-DrugBank.d364.s0.e1" charOffset="156-164"
+            type="drug" text="alosetron"/>
+        <pair id="DDI-DrugBank.d364.s0.p0" e1="DDI-DrugBank.d364.s0.e0"
+            e2="DDI-DrugBank.d364.s0.e1" ddi="false"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d364.s1" text="Fluvoxamine is a known strong inhibitor of CYP1A2 and also inhibits CYP3A4, CYP2C9, and CYP2C19.">
+        <entity id="DDI-DrugBank.d364.s1.e0" charOffset="0-10"
+            type="drug" text="Fluvoxamine"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d364.s2" text="In a pharmacokinetic study, 40 healthy female subjects received fluvoxamine in escalating doses from 50 to 200 mg per day for 16 days, with coadministration of alosetron 1 mg on the last day.">
+        <entity id="DDI-DrugBank.d364.s2.e0" charOffset="64-74"
+            type="drug" text="fluvoxamine"/>
+        <entity id="DDI-DrugBank.d364.s2.e1" charOffset="160-168"
+            type="drug" text="alosetron"/>
+        <pair id="DDI-DrugBank.d364.s2.p0" e1="DDI-DrugBank.d364.s2.e0"
+            e2="DDI-DrugBank.d364.s2.e1" ddi="false"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d364.s3" text="Fluvoxamine increased mean alosetron plasma concentrations (AUC) approximately 6-fold and prolonged the half-life by approximately 3-fold.">
+        <entity id="DDI-DrugBank.d364.s3.e0" charOffset="0-10"
+            type="drug" text="Fluvoxamine"/>
+        <entity id="DDI-DrugBank.d364.s3.e1" charOffset="27-35"
+            type="drug" text="alosetron"/>
+        <pair id="DDI-DrugBank.d364.s3.p0" e1="DDI-DrugBank.d364.s3.e0"
+            e2="DDI-DrugBank.d364.s3.e1" ddi="true" type="mechanism"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d364.s4" text="Concomitant administration of alosetron and fluvoxamine is contraindicated.">
+        <entity id="DDI-DrugBank.d364.s4.e0" charOffset="30-38"
+            type="drug" text="alosetron"/>
+        <entity id="DDI-DrugBank.d364.s4.e1" charOffset="44-54"
+            type="drug" text="fluvoxamine"/>
+        <pair id="DDI-DrugBank.d364.s4.p0" e1="DDI-DrugBank.d364.s4.e0"
+            e2="DDI-DrugBank.d364.s4.e1" ddi="true" type="advise"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d364.s5" text="Concomitant administration of alosetron and moderate CYP1A2 inhibitors, including quinolone antibiotics and cimetidine, has not been evaluated, but should be avoided unless clinically necessary because of similar potential drug interactions.">
+        <entity id="DDI-DrugBank.d364.s5.e0" charOffset="30-38"
+            type="drug" text="alosetron"/>
+        <entity id="DDI-DrugBank.d364.s5.e1" charOffset="82-102"
+            type="group" text="quinolone antibiotics"/>
+        <entity id="DDI-DrugBank.d364.s5.e2" charOffset="108-117"
+            type="drug" text="cimetidine"/>
+        <pair id="DDI-DrugBank.d364.s5.p0" e1="DDI-DrugBank.d364.s5.e0"
+            e2="DDI-DrugBank.d364.s5.e1" ddi="true" type="advise"/>
+        <pair id="DDI-DrugBank.d364.s5.p1" e1="DDI-DrugBank.d364.s5.e0"
+            e2="DDI-DrugBank.d364.s5.e2" ddi="true" type="advise"/>
+        <pair id="DDI-DrugBank.d364.s5.p2" e1="DDI-DrugBank.d364.s5.e1"
+            e2="DDI-DrugBank.d364.s5.e2" ddi="false"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d364.s6" text="Ketoconazole is a known strong inhibitor of CYP3A4.">
+        <entity id="DDI-DrugBank.d364.s6.e0" charOffset="0-11"
+            type="drug" text="Ketoconazole"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d364.s7" text="In a pharmacokinetic study, 38 healthy female subjects received ketoconazole 200 mg twice daily for 7 days, with coadministration of alosetron 1 mg on the last day.">
+        <entity id="DDI-DrugBank.d364.s7.e0" charOffset="64-75"
+            type="drug" text="ketoconazole"/>
+        <entity id="DDI-DrugBank.d364.s7.e1" charOffset="133-141"
+            type="drug" text="alosetron"/>
+        <pair id="DDI-DrugBank.d364.s7.p0" e1="DDI-DrugBank.d364.s7.e0"
+            e2="DDI-DrugBank.d364.s7.e1" ddi="false"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d364.s8" text="Ketoconazole increased mean alosetron plasma concentrations (AUC) by 29%.">
+        <entity id="DDI-DrugBank.d364.s8.e0" charOffset="0-11"
+            type="drug" text="Ketoconazole"/>
+        <entity id="DDI-DrugBank.d364.s8.e1" charOffset="28-36"
+            type="drug" text="alosetron"/>
+        <pair id="DDI-DrugBank.d364.s8.p0" e1="DDI-DrugBank.d364.s8.e0"
+            e2="DDI-DrugBank.d364.s8.e1" ddi="true" type="mechanism"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d364.s9" text="Caution should be used when alosetron and ketoconazole are administered concomitantly.">
+        <entity id="DDI-DrugBank.d364.s9.e0" charOffset="28-36"
+            type="drug" text="alosetron"/>
+        <entity id="DDI-DrugBank.d364.s9.e1" charOffset="42-53"
+            type="drug" text="ketoconazole"/>
+        <pair id="DDI-DrugBank.d364.s9.p0" e1="DDI-DrugBank.d364.s9.e0"
+            e2="DDI-DrugBank.d364.s9.e1" ddi="true" type="advise"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d364.s10" text="Coadministration of alosetron and strong CYP3A4 inhibitors, such as clarithromycin, telithromycin, protease inhibitors, voriconazole, and itraconazole has not been evaluated but should be undertaken with caution because of similar potential drug interactions.">
+        <entity id="DDI-DrugBank.d364.s10.e0" charOffset="20-28"
+            type="drug" text="alosetron"/>
+        <entity id="DDI-DrugBank.d364.s10.e1" charOffset="68-81"
+            type="drug" text="clarithromycin"/>
+        <entity id="DDI-DrugBank.d364.s10.e2" charOffset="84-96"
+            type="drug" text="telithromycin"/>
+        <entity id="DDI-DrugBank.d364.s10.e3" charOffset="99-117"
+            type="group" text="protease inhibitors"/>
+        <entity id="DDI-DrugBank.d364.s10.e4" charOffset="120-131"
+            type="drug" text="voriconazole"/>
+        <entity id="DDI-DrugBank.d364.s10.e5" charOffset="138-149"
+            type="drug" text="itraconazole"/>
+        <pair id="DDI-DrugBank.d364.s10.p0"
+            e1="DDI-DrugBank.d364.s10.e0" e2="DDI-DrugBank.d364.s10.e1"
+            ddi="true" type="advise"/>
+        <pair id="DDI-DrugBank.d364.s10.p1"
+            e1="DDI-DrugBank.d364.s10.e0" e2="DDI-DrugBank.d364.s10.e2"
+            ddi="true" type="advise"/>
+        <pair id="DDI-DrugBank.d364.s10.p2"
+            e1="DDI-DrugBank.d364.s10.e0" e2="DDI-DrugBank.d364.s10.e3"
+            ddi="true" type="advise"/>
+        <pair id="DDI-DrugBank.d364.s10.p3"
+            e1="DDI-DrugBank.d364.s10.e0" e2="DDI-DrugBank.d364.s10.e4"
+            ddi="true" type="advise"/>
+        <pair id="DDI-DrugBank.d364.s10.p4"
+            e1="DDI-DrugBank.d364.s10.e0" e2="DDI-DrugBank.d364.s10.e5"
+            ddi="true" type="advise"/>
+        <pair id="DDI-DrugBank.d364.s10.p5"
+            e1="DDI-DrugBank.d364.s10.e1" e2="DDI-DrugBank.d364.s10.e2" ddi="false"/>
+        <pair id="DDI-DrugBank.d364.s10.p6"
+            e1="DDI-DrugBank.d364.s10.e1" e2="DDI-DrugBank.d364.s10.e3" ddi="false"/>
+        <pair id="DDI-DrugBank.d364.s10.p7"
+            e1="DDI-DrugBank.d364.s10.e1" e2="DDI-DrugBank.d364.s10.e4" ddi="false"/>
+        <pair id="DDI-DrugBank.d364.s10.p8"
+            e1="DDI-DrugBank.d364.s10.e1" e2="DDI-DrugBank.d364.s10.e5" ddi="false"/>
+        <pair id="DDI-DrugBank.d364.s10.p9"
+            e1="DDI-DrugBank.d364.s10.e2" e2="DDI-DrugBank.d364.s10.e3" ddi="false"/>
+        <pair id="DDI-DrugBank.d364.s10.p10"
+            e1="DDI-DrugBank.d364.s10.e2" e2="DDI-DrugBank.d364.s10.e4" ddi="false"/>
+        <pair id="DDI-DrugBank.d364.s10.p11"
+            e1="DDI-DrugBank.d364.s10.e2" e2="DDI-DrugBank.d364.s10.e5" ddi="false"/>
+        <pair id="DDI-DrugBank.d364.s10.p12"
+            e1="DDI-DrugBank.d364.s10.e3" e2="DDI-DrugBank.d364.s10.e4" ddi="false"/>
+        <pair id="DDI-DrugBank.d364.s10.p13"
+            e1="DDI-DrugBank.d364.s10.e3" e2="DDI-DrugBank.d364.s10.e5" ddi="false"/>
+        <pair id="DDI-DrugBank.d364.s10.p14"
+            e1="DDI-DrugBank.d364.s10.e4" e2="DDI-DrugBank.d364.s10.e5" ddi="false"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d364.s11" text="The effect of induction or inhibition of other pathways on exposure to alosetron and its metabolites is not known.">
+        <entity id="DDI-DrugBank.d364.s11.e0" charOffset="71-79"
+            type="drug" text="alosetron"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d364.s12" text="In vitro human liver microsome studies and an in vivo metabolic probe study demonstrated that alosetron did not inhibit CYP enzymes 2D6, 3A4, 2C9, or 2C19.">
+        <entity id="DDI-DrugBank.d364.s12.e0" charOffset="94-102"
+            type="drug" text="alosetron"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d364.s13" text="In vitro, at total drug concentrations 27-fold higher than peak plasma concentrations observed with the 1-mg dosage, alosetron inhibited CYP enzymes 1A2 (60%) and 2E1 (50%).">
+        <entity id="DDI-DrugBank.d364.s13.e0" charOffset="117-125"
+            type="drug" text="alosetron"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d364.s14" text="In an in vivo metabolic probe study, alosetron did not inhibit CYP2E1 but did produce 30% inhibition of both CYP1A2 and N-acetyltransferase.">
+        <entity id="DDI-DrugBank.d364.s14.e0" charOffset="37-45"
+            type="drug" text="alosetron"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d364.s15" text="Although not studied with alosetron, inhibition of N-acetyltransferase may have clinically relevant consequences for drugs such as isoniazid, procainamide, and hydralazine.">
+        <entity id="DDI-DrugBank.d364.s15.e0" charOffset="26-34"
+            type="drug" text="alosetron"/>
+        <entity id="DDI-DrugBank.d364.s15.e1" charOffset="131-139"
+            type="drug" text="isoniazid"/>
+        <entity id="DDI-DrugBank.d364.s15.e2" charOffset="142-153"
+            type="drug" text="procainamide"/>
+        <entity id="DDI-DrugBank.d364.s15.e3" charOffset="160-170"
+            type="drug" text="hydralazine"/>
+        <pair id="DDI-DrugBank.d364.s15.p0"
+            e1="DDI-DrugBank.d364.s15.e0" e2="DDI-DrugBank.d364.s15.e1"
+            ddi="true" type="effect"/>
+        <pair id="DDI-DrugBank.d364.s15.p1"
+            e1="DDI-DrugBank.d364.s15.e0" e2="DDI-DrugBank.d364.s15.e2"
+            ddi="true" type="effect"/>
+        <pair id="DDI-DrugBank.d364.s15.p2"
+            e1="DDI-DrugBank.d364.s15.e0" e2="DDI-DrugBank.d364.s15.e3"
+            ddi="true" type="effect"/>
+        <pair id="DDI-DrugBank.d364.s15.p3"
+            e1="DDI-DrugBank.d364.s15.e1" e2="DDI-DrugBank.d364.s15.e2" ddi="false"/>
+        <pair id="DDI-DrugBank.d364.s15.p4"
+            e1="DDI-DrugBank.d364.s15.e1" e2="DDI-DrugBank.d364.s15.e3" ddi="false"/>
+        <pair id="DDI-DrugBank.d364.s15.p5"
+            e1="DDI-DrugBank.d364.s15.e2" e2="DDI-DrugBank.d364.s15.e3" ddi="false"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d364.s16" text="The effect on CYP1A2 was explored further in a clinical interaction study with theophylline and no effect on metabolism was observed.">
+        <entity id="DDI-DrugBank.d364.s16.e0" charOffset="79-90"
+            type="drug" text="theophylline"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d364.s17" text="Another study showed that alosetron had no clinically significant effect on plasma concentrations of the oral contraceptive agents ethinyl estradiol and levonorgestrel (CYP3A4 substrates).">
+        <entity id="DDI-DrugBank.d364.s17.e0" charOffset="26-34"
+            type="drug" text="alosetron"/>
+        <entity id="DDI-DrugBank.d364.s17.e1" charOffset="110-129"
+            type="group" text="contraceptive agents"/>
+        <entity id="DDI-DrugBank.d364.s17.e2" charOffset="131-147"
+            type="drug" text="ethinyl estradiol"/>
+        <entity id="DDI-DrugBank.d364.s17.e3" charOffset="153-166"
+            type="drug" text="levonorgestrel"/>
+        <pair id="DDI-DrugBank.d364.s17.p0"
+            e1="DDI-DrugBank.d364.s17.e0" e2="DDI-DrugBank.d364.s17.e1" ddi="false"/>
+        <pair id="DDI-DrugBank.d364.s17.p1"
+            e1="DDI-DrugBank.d364.s17.e0" e2="DDI-DrugBank.d364.s17.e2" ddi="false"/>
+        <pair id="DDI-DrugBank.d364.s17.p2"
+            e1="DDI-DrugBank.d364.s17.e0" e2="DDI-DrugBank.d364.s17.e3" ddi="false"/>
+        <pair id="DDI-DrugBank.d364.s17.p3"
+            e1="DDI-DrugBank.d364.s17.e1" e2="DDI-DrugBank.d364.s17.e2" ddi="false"/>
+        <pair id="DDI-DrugBank.d364.s17.p4"
+            e1="DDI-DrugBank.d364.s17.e1" e2="DDI-DrugBank.d364.s17.e3" ddi="false"/>
+        <pair id="DDI-DrugBank.d364.s17.p5"
+            e1="DDI-DrugBank.d364.s17.e2" e2="DDI-DrugBank.d364.s17.e3" ddi="false"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d364.s18" text="A clinical interaction study was also conducted with alosetron and the CYP3A4 substrate cisapride.">
+        <entity id="DDI-DrugBank.d364.s18.e0" charOffset="53-61"
+            type="drug" text="alosetron"/>
+        <entity id="DDI-DrugBank.d364.s18.e1" charOffset="88-96"
+            type="drug" text="cisapride"/>
+        <pair id="DDI-DrugBank.d364.s18.p0"
+            e1="DDI-DrugBank.d364.s18.e0" e2="DDI-DrugBank.d364.s18.e1" ddi="false"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d364.s19" text="No significant effects on cisapride metabolism or QT interval were noted.">
+        <entity id="DDI-DrugBank.d364.s19.e0" charOffset="26-34"
+            type="drug" text="cisapride"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d364.s20" text="The effect of alosetron on monoamine oxidases and on intestinal first pass secondary to high intraluminal concentrations have not been examined.">
+        <entity id="DDI-DrugBank.d364.s20.e0" charOffset="14-22"
+            type="drug" text="alosetron"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d364.s21" text="Based on the above data from in vitro and in vivo studies, it is unlikely that alosetron will inhibit the hepatic metabolic clearance of drugs metabolized by the major CYP enzyme 3A4, as well as the CYP enzymes 2D6, 2C9, 2C19, 2E1, or 1A2.">
+        <entity id="DDI-DrugBank.d364.s21.e0" charOffset="79-87"
+            type="drug" text="alosetron"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d364.s22" text="Alosetron does not appear to induce the major cytochrome P450 (CYP) drug metabolizing enzyme 3A.">
+        <entity id="DDI-DrugBank.d364.s22.e0" charOffset="0-8"
+            type="drug" text="Alosetron"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d364.s23" text="Alosetron also does not appear to induce CYP enzymes 2E1 or 2C19.">
+        <entity id="DDI-DrugBank.d364.s23.e0" charOffset="0-8"
+            type="drug" text="Alosetron"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d364.s24" text="It is not known whether alosetron might induce other enzymes.">
+        <entity id="DDI-DrugBank.d364.s24.e0" charOffset="24-32"
+            type="drug" text="alosetron"/>
+    </sentence>
+</document>

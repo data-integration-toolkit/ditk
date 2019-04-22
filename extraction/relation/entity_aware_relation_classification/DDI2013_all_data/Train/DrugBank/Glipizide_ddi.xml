@@ -1,0 +1,354 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="DDI-DrugBank.d225">
+    <sentence id="DDI-DrugBank.d225.s0" text="Immediate and Extended Release Tablets The hypoglycemic action of sulfonylureas may be potentiated by certain drugs including nonsteroidal anti-inflammatory agents, some azoles and other drugs that are highly protein bound, salicylates, sulfonamides, chloramphenicol, probenecid, coumarins, monoamine oxidase inhibitors, and beta adrenergic blocking agents.">
+        <entity id="DDI-DrugBank.d225.s0.e0" charOffset="66-78"
+            type="group" text="sulfonylureas"/>
+        <entity id="DDI-DrugBank.d225.s0.e1" charOffset="126-162"
+            type="group" text="nonsteroidal anti-inflammatory agents"/>
+        <entity id="DDI-DrugBank.d225.s0.e2" charOffset="170-175"
+            type="group" text="azoles"/>
+        <entity id="DDI-DrugBank.d225.s0.e3" charOffset="224-234"
+            type="group" text="salicylates"/>
+        <entity id="DDI-DrugBank.d225.s0.e4" charOffset="237-248"
+            type="group" text="sulfonamides"/>
+        <entity id="DDI-DrugBank.d225.s0.e5" charOffset="251-265"
+            type="drug" text="chloramphenicol"/>
+        <entity id="DDI-DrugBank.d225.s0.e6" charOffset="268-277"
+            type="drug" text="probenecid"/>
+        <entity id="DDI-DrugBank.d225.s0.e7" charOffset="280-288"
+            type="group" text="coumarins"/>
+        <entity id="DDI-DrugBank.d225.s0.e8" charOffset="291-318"
+            type="group" text="monoamine oxidase inhibitors"/>
+        <entity id="DDI-DrugBank.d225.s0.e9" charOffset="325-355"
+            type="group" text="beta adrenergic blocking agents"/>
+        <pair id="DDI-DrugBank.d225.s0.p0" e1="DDI-DrugBank.d225.s0.e0"
+            e2="DDI-DrugBank.d225.s0.e1" ddi="true" type="effect"/>
+        <pair id="DDI-DrugBank.d225.s0.p1" e1="DDI-DrugBank.d225.s0.e0"
+            e2="DDI-DrugBank.d225.s0.e2" ddi="true" type="effect"/>
+        <pair id="DDI-DrugBank.d225.s0.p2" e1="DDI-DrugBank.d225.s0.e0"
+            e2="DDI-DrugBank.d225.s0.e3" ddi="true" type="effect"/>
+        <pair id="DDI-DrugBank.d225.s0.p3" e1="DDI-DrugBank.d225.s0.e0"
+            e2="DDI-DrugBank.d225.s0.e4" ddi="true" type="effect"/>
+        <pair id="DDI-DrugBank.d225.s0.p4" e1="DDI-DrugBank.d225.s0.e0"
+            e2="DDI-DrugBank.d225.s0.e5" ddi="true" type="effect"/>
+        <pair id="DDI-DrugBank.d225.s0.p5" e1="DDI-DrugBank.d225.s0.e0"
+            e2="DDI-DrugBank.d225.s0.e6" ddi="true" type="effect"/>
+        <pair id="DDI-DrugBank.d225.s0.p6" e1="DDI-DrugBank.d225.s0.e0"
+            e2="DDI-DrugBank.d225.s0.e7" ddi="true" type="effect"/>
+        <pair id="DDI-DrugBank.d225.s0.p7" e1="DDI-DrugBank.d225.s0.e0"
+            e2="DDI-DrugBank.d225.s0.e8" ddi="true" type="effect"/>
+        <pair id="DDI-DrugBank.d225.s0.p8" e1="DDI-DrugBank.d225.s0.e0"
+            e2="DDI-DrugBank.d225.s0.e9" ddi="true" type="effect"/>
+        <pair id="DDI-DrugBank.d225.s0.p9" e1="DDI-DrugBank.d225.s0.e1"
+            e2="DDI-DrugBank.d225.s0.e2" ddi="false"/>
+        <pair id="DDI-DrugBank.d225.s0.p10" e1="DDI-DrugBank.d225.s0.e1"
+            e2="DDI-DrugBank.d225.s0.e3" ddi="false"/>
+        <pair id="DDI-DrugBank.d225.s0.p11" e1="DDI-DrugBank.d225.s0.e1"
+            e2="DDI-DrugBank.d225.s0.e4" ddi="false"/>
+        <pair id="DDI-DrugBank.d225.s0.p12" e1="DDI-DrugBank.d225.s0.e1"
+            e2="DDI-DrugBank.d225.s0.e5" ddi="false"/>
+        <pair id="DDI-DrugBank.d225.s0.p13" e1="DDI-DrugBank.d225.s0.e1"
+            e2="DDI-DrugBank.d225.s0.e6" ddi="false"/>
+        <pair id="DDI-DrugBank.d225.s0.p14" e1="DDI-DrugBank.d225.s0.e1"
+            e2="DDI-DrugBank.d225.s0.e7" ddi="false"/>
+        <pair id="DDI-DrugBank.d225.s0.p15" e1="DDI-DrugBank.d225.s0.e1"
+            e2="DDI-DrugBank.d225.s0.e8" ddi="false"/>
+        <pair id="DDI-DrugBank.d225.s0.p16" e1="DDI-DrugBank.d225.s0.e1"
+            e2="DDI-DrugBank.d225.s0.e9" ddi="false"/>
+        <pair id="DDI-DrugBank.d225.s0.p17" e1="DDI-DrugBank.d225.s0.e2"
+            e2="DDI-DrugBank.d225.s0.e3" ddi="false"/>
+        <pair id="DDI-DrugBank.d225.s0.p18" e1="DDI-DrugBank.d225.s0.e2"
+            e2="DDI-DrugBank.d225.s0.e4" ddi="false"/>
+        <pair id="DDI-DrugBank.d225.s0.p19" e1="DDI-DrugBank.d225.s0.e2"
+            e2="DDI-DrugBank.d225.s0.e5" ddi="false"/>
+        <pair id="DDI-DrugBank.d225.s0.p20" e1="DDI-DrugBank.d225.s0.e2"
+            e2="DDI-DrugBank.d225.s0.e6" ddi="false"/>
+        <pair id="DDI-DrugBank.d225.s0.p21" e1="DDI-DrugBank.d225.s0.e2"
+            e2="DDI-DrugBank.d225.s0.e7" ddi="false"/>
+        <pair id="DDI-DrugBank.d225.s0.p22" e1="DDI-DrugBank.d225.s0.e2"
+            e2="DDI-DrugBank.d225.s0.e8" ddi="false"/>
+        <pair id="DDI-DrugBank.d225.s0.p23" e1="DDI-DrugBank.d225.s0.e2"
+            e2="DDI-DrugBank.d225.s0.e9" ddi="false"/>
+        <pair id="DDI-DrugBank.d225.s0.p24" e1="DDI-DrugBank.d225.s0.e3"
+            e2="DDI-DrugBank.d225.s0.e4" ddi="false"/>
+        <pair id="DDI-DrugBank.d225.s0.p25" e1="DDI-DrugBank.d225.s0.e3"
+            e2="DDI-DrugBank.d225.s0.e5" ddi="false"/>
+        <pair id="DDI-DrugBank.d225.s0.p26" e1="DDI-DrugBank.d225.s0.e3"
+            e2="DDI-DrugBank.d225.s0.e6" ddi="false"/>
+        <pair id="DDI-DrugBank.d225.s0.p27" e1="DDI-DrugBank.d225.s0.e3"
+            e2="DDI-DrugBank.d225.s0.e7" ddi="false"/>
+        <pair id="DDI-DrugBank.d225.s0.p28" e1="DDI-DrugBank.d225.s0.e3"
+            e2="DDI-DrugBank.d225.s0.e8" ddi="false"/>
+        <pair id="DDI-DrugBank.d225.s0.p29" e1="DDI-DrugBank.d225.s0.e3"
+            e2="DDI-DrugBank.d225.s0.e9" ddi="false"/>
+        <pair id="DDI-DrugBank.d225.s0.p30" e1="DDI-DrugBank.d225.s0.e4"
+            e2="DDI-DrugBank.d225.s0.e5" ddi="false"/>
+        <pair id="DDI-DrugBank.d225.s0.p31" e1="DDI-DrugBank.d225.s0.e4"
+            e2="DDI-DrugBank.d225.s0.e6" ddi="false"/>
+        <pair id="DDI-DrugBank.d225.s0.p32" e1="DDI-DrugBank.d225.s0.e4"
+            e2="DDI-DrugBank.d225.s0.e7" ddi="false"/>
+        <pair id="DDI-DrugBank.d225.s0.p33" e1="DDI-DrugBank.d225.s0.e4"
+            e2="DDI-DrugBank.d225.s0.e8" ddi="false"/>
+        <pair id="DDI-DrugBank.d225.s0.p34" e1="DDI-DrugBank.d225.s0.e4"
+            e2="DDI-DrugBank.d225.s0.e9" ddi="false"/>
+        <pair id="DDI-DrugBank.d225.s0.p35" e1="DDI-DrugBank.d225.s0.e5"
+            e2="DDI-DrugBank.d225.s0.e6" ddi="false"/>
+        <pair id="DDI-DrugBank.d225.s0.p36" e1="DDI-DrugBank.d225.s0.e5"
+            e2="DDI-DrugBank.d225.s0.e7" ddi="false"/>
+        <pair id="DDI-DrugBank.d225.s0.p37" e1="DDI-DrugBank.d225.s0.e5"
+            e2="DDI-DrugBank.d225.s0.e8" ddi="false"/>
+        <pair id="DDI-DrugBank.d225.s0.p38" e1="DDI-DrugBank.d225.s0.e5"
+            e2="DDI-DrugBank.d225.s0.e9" ddi="false"/>
+        <pair id="DDI-DrugBank.d225.s0.p39" e1="DDI-DrugBank.d225.s0.e6"
+            e2="DDI-DrugBank.d225.s0.e7" ddi="false"/>
+        <pair id="DDI-DrugBank.d225.s0.p40" e1="DDI-DrugBank.d225.s0.e6"
+            e2="DDI-DrugBank.d225.s0.e8" ddi="false"/>
+        <pair id="DDI-DrugBank.d225.s0.p41" e1="DDI-DrugBank.d225.s0.e6"
+            e2="DDI-DrugBank.d225.s0.e9" ddi="false"/>
+        <pair id="DDI-DrugBank.d225.s0.p42" e1="DDI-DrugBank.d225.s0.e7"
+            e2="DDI-DrugBank.d225.s0.e8" ddi="false"/>
+        <pair id="DDI-DrugBank.d225.s0.p43" e1="DDI-DrugBank.d225.s0.e7"
+            e2="DDI-DrugBank.d225.s0.e9" ddi="false"/>
+        <pair id="DDI-DrugBank.d225.s0.p44" e1="DDI-DrugBank.d225.s0.e8"
+            e2="DDI-DrugBank.d225.s0.e9" ddi="false"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d225.s1" text="When such drugs are administered to a patient receiving glipizide, the patient should be observed closely for hypoglycemia.">
+        <entity id="DDI-DrugBank.d225.s1.e0" charOffset="56-64"
+            type="drug" text="glipizide"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d225.s2" text="When such drugs are withdrawn from a patient receiving glipizide, the patient should be observed closely for loss of control.">
+        <entity id="DDI-DrugBank.d225.s2.e0" charOffset="55-63"
+            type="drug" text="glipizide"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d225.s3" text="In vitro binding studies with human serum proteins indicate that glipizide binds differently than tolbutamide and does not interact with salicylate or dicumarol.">
+        <entity id="DDI-DrugBank.d225.s3.e0" charOffset="65-73"
+            type="drug" text="glipizide"/>
+        <entity id="DDI-DrugBank.d225.s3.e1" charOffset="98-108"
+            type="drug" text="tolbutamide"/>
+        <entity id="DDI-DrugBank.d225.s3.e2" charOffset="137-146"
+            type="group" text="salicylate"/>
+        <entity id="DDI-DrugBank.d225.s3.e3" charOffset="151-159"
+            type="drug" text="dicumarol"/>
+        <pair id="DDI-DrugBank.d225.s3.p0" e1="DDI-DrugBank.d225.s3.e0"
+            e2="DDI-DrugBank.d225.s3.e1" ddi="false"/>
+        <pair id="DDI-DrugBank.d225.s3.p1" e1="DDI-DrugBank.d225.s3.e0"
+            e2="DDI-DrugBank.d225.s3.e2" ddi="false"/>
+        <pair id="DDI-DrugBank.d225.s3.p2" e1="DDI-DrugBank.d225.s3.e0"
+            e2="DDI-DrugBank.d225.s3.e3" ddi="false"/>
+        <pair id="DDI-DrugBank.d225.s3.p3" e1="DDI-DrugBank.d225.s3.e1"
+            e2="DDI-DrugBank.d225.s3.e2" ddi="false"/>
+        <pair id="DDI-DrugBank.d225.s3.p4" e1="DDI-DrugBank.d225.s3.e1"
+            e2="DDI-DrugBank.d225.s3.e3" ddi="false"/>
+        <pair id="DDI-DrugBank.d225.s3.p5" e1="DDI-DrugBank.d225.s3.e2"
+            e2="DDI-DrugBank.d225.s3.e3" ddi="false"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d225.s4" text="However, caution must be exercised in extrapolating these findings to the clinical situation and in the use of glipizide with these drugs.">
+        <entity id="DDI-DrugBank.d225.s4.e0" charOffset="111-119"
+            type="drug" text="glipizide"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d225.s5" text="Certain drugs tend to produce hyperglycemia and may lead to loss of control."/>
+    <sentence id="DDI-DrugBank.d225.s6" text="These drugs include the thiazides and other diuretics, corticosteroids, phenothiazines, thyroid products, estrogens, oral contraceptives, phenytoin, nicotinic acid, sympathomimetics, calcium channel blocking drugs, and isoniazid.">
+        <entity id="DDI-DrugBank.d225.s6.e0" charOffset="24-32"
+            type="group" text="thiazides"/>
+        <entity id="DDI-DrugBank.d225.s6.e1" charOffset="44-52"
+            type="group" text="diuretics"/>
+        <entity id="DDI-DrugBank.d225.s6.e2" charOffset="55-69"
+            type="group" text="corticosteroids"/>
+        <entity id="DDI-DrugBank.d225.s6.e3" charOffset="72-85"
+            type="group" text="phenothiazines"/>
+        <entity id="DDI-DrugBank.d225.s6.e4" charOffset="88-103"
+            type="group" text="thyroid products"/>
+        <entity id="DDI-DrugBank.d225.s6.e5" charOffset="106-114"
+            type="group" text="estrogens"/>
+        <entity id="DDI-DrugBank.d225.s6.e6" charOffset="122-135"
+            type="group" text="contraceptives"/>
+        <entity id="DDI-DrugBank.d225.s6.e7" charOffset="138-146"
+            type="drug" text="phenytoin"/>
+        <entity id="DDI-DrugBank.d225.s6.e8" charOffset="149-162"
+            type="drug" text="nicotinic acid"/>
+        <entity id="DDI-DrugBank.d225.s6.e9" charOffset="165-180"
+            type="group" text="sympathomimetics"/>
+        <entity id="DDI-DrugBank.d225.s6.e10" charOffset="183-212"
+            type="group" text="calcium channel blocking drugs"/>
+        <entity id="DDI-DrugBank.d225.s6.e11" charOffset="219-227"
+            type="drug" text="isoniazid"/>
+        <pair id="DDI-DrugBank.d225.s6.p0" e1="DDI-DrugBank.d225.s6.e0"
+            e2="DDI-DrugBank.d225.s6.e1" ddi="false"/>
+        <pair id="DDI-DrugBank.d225.s6.p1" e1="DDI-DrugBank.d225.s6.e0"
+            e2="DDI-DrugBank.d225.s6.e2" ddi="false"/>
+        <pair id="DDI-DrugBank.d225.s6.p2" e1="DDI-DrugBank.d225.s6.e0"
+            e2="DDI-DrugBank.d225.s6.e3" ddi="false"/>
+        <pair id="DDI-DrugBank.d225.s6.p3" e1="DDI-DrugBank.d225.s6.e0"
+            e2="DDI-DrugBank.d225.s6.e4" ddi="false"/>
+        <pair id="DDI-DrugBank.d225.s6.p4" e1="DDI-DrugBank.d225.s6.e0"
+            e2="DDI-DrugBank.d225.s6.e5" ddi="false"/>
+        <pair id="DDI-DrugBank.d225.s6.p5" e1="DDI-DrugBank.d225.s6.e0"
+            e2="DDI-DrugBank.d225.s6.e6" ddi="false"/>
+        <pair id="DDI-DrugBank.d225.s6.p6" e1="DDI-DrugBank.d225.s6.e0"
+            e2="DDI-DrugBank.d225.s6.e7" ddi="false"/>
+        <pair id="DDI-DrugBank.d225.s6.p7" e1="DDI-DrugBank.d225.s6.e0"
+            e2="DDI-DrugBank.d225.s6.e8" ddi="false"/>
+        <pair id="DDI-DrugBank.d225.s6.p8" e1="DDI-DrugBank.d225.s6.e0"
+            e2="DDI-DrugBank.d225.s6.e9" ddi="false"/>
+        <pair id="DDI-DrugBank.d225.s6.p9" e1="DDI-DrugBank.d225.s6.e0"
+            e2="DDI-DrugBank.d225.s6.e10" ddi="false"/>
+        <pair id="DDI-DrugBank.d225.s6.p10" e1="DDI-DrugBank.d225.s6.e0"
+            e2="DDI-DrugBank.d225.s6.e11" ddi="false"/>
+        <pair id="DDI-DrugBank.d225.s6.p11" e1="DDI-DrugBank.d225.s6.e1"
+            e2="DDI-DrugBank.d225.s6.e2" ddi="false"/>
+        <pair id="DDI-DrugBank.d225.s6.p12" e1="DDI-DrugBank.d225.s6.e1"
+            e2="DDI-DrugBank.d225.s6.e3" ddi="false"/>
+        <pair id="DDI-DrugBank.d225.s6.p13" e1="DDI-DrugBank.d225.s6.e1"
+            e2="DDI-DrugBank.d225.s6.e4" ddi="false"/>
+        <pair id="DDI-DrugBank.d225.s6.p14" e1="DDI-DrugBank.d225.s6.e1"
+            e2="DDI-DrugBank.d225.s6.e5" ddi="false"/>
+        <pair id="DDI-DrugBank.d225.s6.p15" e1="DDI-DrugBank.d225.s6.e1"
+            e2="DDI-DrugBank.d225.s6.e6" ddi="false"/>
+        <pair id="DDI-DrugBank.d225.s6.p16" e1="DDI-DrugBank.d225.s6.e1"
+            e2="DDI-DrugBank.d225.s6.e7" ddi="false"/>
+        <pair id="DDI-DrugBank.d225.s6.p17" e1="DDI-DrugBank.d225.s6.e1"
+            e2="DDI-DrugBank.d225.s6.e8" ddi="false"/>
+        <pair id="DDI-DrugBank.d225.s6.p18" e1="DDI-DrugBank.d225.s6.e1"
+            e2="DDI-DrugBank.d225.s6.e9" ddi="false"/>
+        <pair id="DDI-DrugBank.d225.s6.p19" e1="DDI-DrugBank.d225.s6.e1"
+            e2="DDI-DrugBank.d225.s6.e10" ddi="false"/>
+        <pair id="DDI-DrugBank.d225.s6.p20" e1="DDI-DrugBank.d225.s6.e1"
+            e2="DDI-DrugBank.d225.s6.e11" ddi="false"/>
+        <pair id="DDI-DrugBank.d225.s6.p21" e1="DDI-DrugBank.d225.s6.e2"
+            e2="DDI-DrugBank.d225.s6.e3" ddi="false"/>
+        <pair id="DDI-DrugBank.d225.s6.p22" e1="DDI-DrugBank.d225.s6.e2"
+            e2="DDI-DrugBank.d225.s6.e4" ddi="false"/>
+        <pair id="DDI-DrugBank.d225.s6.p23" e1="DDI-DrugBank.d225.s6.e2"
+            e2="DDI-DrugBank.d225.s6.e5" ddi="false"/>
+        <pair id="DDI-DrugBank.d225.s6.p24" e1="DDI-DrugBank.d225.s6.e2"
+            e2="DDI-DrugBank.d225.s6.e6" ddi="false"/>
+        <pair id="DDI-DrugBank.d225.s6.p25" e1="DDI-DrugBank.d225.s6.e2"
+            e2="DDI-DrugBank.d225.s6.e7" ddi="false"/>
+        <pair id="DDI-DrugBank.d225.s6.p26" e1="DDI-DrugBank.d225.s6.e2"
+            e2="DDI-DrugBank.d225.s6.e8" ddi="false"/>
+        <pair id="DDI-DrugBank.d225.s6.p27" e1="DDI-DrugBank.d225.s6.e2"
+            e2="DDI-DrugBank.d225.s6.e9" ddi="false"/>
+        <pair id="DDI-DrugBank.d225.s6.p28" e1="DDI-DrugBank.d225.s6.e2"
+            e2="DDI-DrugBank.d225.s6.e10" ddi="false"/>
+        <pair id="DDI-DrugBank.d225.s6.p29" e1="DDI-DrugBank.d225.s6.e2"
+            e2="DDI-DrugBank.d225.s6.e11" ddi="false"/>
+        <pair id="DDI-DrugBank.d225.s6.p30" e1="DDI-DrugBank.d225.s6.e3"
+            e2="DDI-DrugBank.d225.s6.e4" ddi="false"/>
+        <pair id="DDI-DrugBank.d225.s6.p31" e1="DDI-DrugBank.d225.s6.e3"
+            e2="DDI-DrugBank.d225.s6.e5" ddi="false"/>
+        <pair id="DDI-DrugBank.d225.s6.p32" e1="DDI-DrugBank.d225.s6.e3"
+            e2="DDI-DrugBank.d225.s6.e6" ddi="false"/>
+        <pair id="DDI-DrugBank.d225.s6.p33" e1="DDI-DrugBank.d225.s6.e3"
+            e2="DDI-DrugBank.d225.s6.e7" ddi="false"/>
+        <pair id="DDI-DrugBank.d225.s6.p34" e1="DDI-DrugBank.d225.s6.e3"
+            e2="DDI-DrugBank.d225.s6.e8" ddi="false"/>
+        <pair id="DDI-DrugBank.d225.s6.p35" e1="DDI-DrugBank.d225.s6.e3"
+            e2="DDI-DrugBank.d225.s6.e9" ddi="false"/>
+        <pair id="DDI-DrugBank.d225.s6.p36" e1="DDI-DrugBank.d225.s6.e3"
+            e2="DDI-DrugBank.d225.s6.e10" ddi="false"/>
+        <pair id="DDI-DrugBank.d225.s6.p37" e1="DDI-DrugBank.d225.s6.e3"
+            e2="DDI-DrugBank.d225.s6.e11" ddi="false"/>
+        <pair id="DDI-DrugBank.d225.s6.p38" e1="DDI-DrugBank.d225.s6.e4"
+            e2="DDI-DrugBank.d225.s6.e5" ddi="false"/>
+        <pair id="DDI-DrugBank.d225.s6.p39" e1="DDI-DrugBank.d225.s6.e4"
+            e2="DDI-DrugBank.d225.s6.e6" ddi="false"/>
+        <pair id="DDI-DrugBank.d225.s6.p40" e1="DDI-DrugBank.d225.s6.e4"
+            e2="DDI-DrugBank.d225.s6.e7" ddi="false"/>
+        <pair id="DDI-DrugBank.d225.s6.p41" e1="DDI-DrugBank.d225.s6.e4"
+            e2="DDI-DrugBank.d225.s6.e8" ddi="false"/>
+        <pair id="DDI-DrugBank.d225.s6.p42" e1="DDI-DrugBank.d225.s6.e4"
+            e2="DDI-DrugBank.d225.s6.e9" ddi="false"/>
+        <pair id="DDI-DrugBank.d225.s6.p43" e1="DDI-DrugBank.d225.s6.e4"
+            e2="DDI-DrugBank.d225.s6.e10" ddi="false"/>
+        <pair id="DDI-DrugBank.d225.s6.p44" e1="DDI-DrugBank.d225.s6.e4"
+            e2="DDI-DrugBank.d225.s6.e11" ddi="false"/>
+        <pair id="DDI-DrugBank.d225.s6.p45" e1="DDI-DrugBank.d225.s6.e5"
+            e2="DDI-DrugBank.d225.s6.e6" ddi="false"/>
+        <pair id="DDI-DrugBank.d225.s6.p46" e1="DDI-DrugBank.d225.s6.e5"
+            e2="DDI-DrugBank.d225.s6.e7" ddi="false"/>
+        <pair id="DDI-DrugBank.d225.s6.p47" e1="DDI-DrugBank.d225.s6.e5"
+            e2="DDI-DrugBank.d225.s6.e8" ddi="false"/>
+        <pair id="DDI-DrugBank.d225.s6.p48" e1="DDI-DrugBank.d225.s6.e5"
+            e2="DDI-DrugBank.d225.s6.e9" ddi="false"/>
+        <pair id="DDI-DrugBank.d225.s6.p49" e1="DDI-DrugBank.d225.s6.e5"
+            e2="DDI-DrugBank.d225.s6.e10" ddi="false"/>
+        <pair id="DDI-DrugBank.d225.s6.p50" e1="DDI-DrugBank.d225.s6.e5"
+            e2="DDI-DrugBank.d225.s6.e11" ddi="false"/>
+        <pair id="DDI-DrugBank.d225.s6.p51" e1="DDI-DrugBank.d225.s6.e6"
+            e2="DDI-DrugBank.d225.s6.e7" ddi="false"/>
+        <pair id="DDI-DrugBank.d225.s6.p52" e1="DDI-DrugBank.d225.s6.e6"
+            e2="DDI-DrugBank.d225.s6.e8" ddi="false"/>
+        <pair id="DDI-DrugBank.d225.s6.p53" e1="DDI-DrugBank.d225.s6.e6"
+            e2="DDI-DrugBank.d225.s6.e9" ddi="false"/>
+        <pair id="DDI-DrugBank.d225.s6.p54" e1="DDI-DrugBank.d225.s6.e6"
+            e2="DDI-DrugBank.d225.s6.e10" ddi="false"/>
+        <pair id="DDI-DrugBank.d225.s6.p55" e1="DDI-DrugBank.d225.s6.e6"
+            e2="DDI-DrugBank.d225.s6.e11" ddi="false"/>
+        <pair id="DDI-DrugBank.d225.s6.p56" e1="DDI-DrugBank.d225.s6.e7"
+            e2="DDI-DrugBank.d225.s6.e8" ddi="false"/>
+        <pair id="DDI-DrugBank.d225.s6.p57" e1="DDI-DrugBank.d225.s6.e7"
+            e2="DDI-DrugBank.d225.s6.e9" ddi="false"/>
+        <pair id="DDI-DrugBank.d225.s6.p58" e1="DDI-DrugBank.d225.s6.e7"
+            e2="DDI-DrugBank.d225.s6.e10" ddi="false"/>
+        <pair id="DDI-DrugBank.d225.s6.p59" e1="DDI-DrugBank.d225.s6.e7"
+            e2="DDI-DrugBank.d225.s6.e11" ddi="false"/>
+        <pair id="DDI-DrugBank.d225.s6.p60" e1="DDI-DrugBank.d225.s6.e8"
+            e2="DDI-DrugBank.d225.s6.e9" ddi="false"/>
+        <pair id="DDI-DrugBank.d225.s6.p61" e1="DDI-DrugBank.d225.s6.e8"
+            e2="DDI-DrugBank.d225.s6.e10" ddi="false"/>
+        <pair id="DDI-DrugBank.d225.s6.p62" e1="DDI-DrugBank.d225.s6.e8"
+            e2="DDI-DrugBank.d225.s6.e11" ddi="false"/>
+        <pair id="DDI-DrugBank.d225.s6.p63" e1="DDI-DrugBank.d225.s6.e9"
+            e2="DDI-DrugBank.d225.s6.e10" ddi="false"/>
+        <pair id="DDI-DrugBank.d225.s6.p64" e1="DDI-DrugBank.d225.s6.e9"
+            e2="DDI-DrugBank.d225.s6.e11" ddi="false"/>
+        <pair id="DDI-DrugBank.d225.s6.p65"
+            e1="DDI-DrugBank.d225.s6.e10" e2="DDI-DrugBank.d225.s6.e11" ddi="false"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d225.s7" text="When such drugs are administered to a patient receiving glipizide, the patient should be closely observed for loss of control.">
+        <entity id="DDI-DrugBank.d225.s7.e0" charOffset="56-64"
+            type="drug" text="glipizide"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d225.s8" text="When such drugs are withdrawn from a patient receiving glipizide, the patient should be observed closely for hypoglycemia.">
+        <entity id="DDI-DrugBank.d225.s8.e0" charOffset="55-63"
+            type="drug" text="glipizide"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d225.s9" text="A potential interaction between oral miconazole and oral hypoglycemic agents leading to severe hypoglycemia has been reported.">
+        <entity id="DDI-DrugBank.d225.s9.e0" charOffset="37-46"
+            type="drug" text="miconazole"/>
+        <entity id="DDI-DrugBank.d225.s9.e1" charOffset="57-75"
+            type="group" text="hypoglycemic agents"/>
+        <pair id="DDI-DrugBank.d225.s9.p0" e1="DDI-DrugBank.d225.s9.e0"
+            e2="DDI-DrugBank.d225.s9.e1" ddi="true" type="int"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d225.s10" text="Whether this interaction also occurs with the intravenous, topical, or vaginal preparations of miconazole is not known.">
+        <entity id="DDI-DrugBank.d225.s10.e0" charOffset="95-104"
+            type="drug" text="miconazole"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d225.s11" text="The effect of concomitant administration of fluconazole and glipizide has been demonstrated in a placebo-controlled crossover study in normal volunteers.">
+        <entity id="DDI-DrugBank.d225.s11.e0" charOffset="44-54"
+            type="drug" text="fluconazole"/>
+        <entity id="DDI-DrugBank.d225.s11.e1" charOffset="60-68"
+            type="drug" text="glipizide"/>
+        <pair id="DDI-DrugBank.d225.s11.p0"
+            e1="DDI-DrugBank.d225.s11.e0" e2="DDI-DrugBank.d225.s11.e1"
+            ddi="true" type="int"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d225.s12" text="All subjects received glipizide alone and following treatment with 100 mg of fluconazole as a single daily oral dose for seven days.">
+        <entity id="DDI-DrugBank.d225.s12.e0" charOffset="22-30"
+            type="drug" text="glipizide"/>
+        <entity id="DDI-DrugBank.d225.s12.e1" charOffset="77-87"
+            type="drug" text="fluconazole"/>
+        <pair id="DDI-DrugBank.d225.s12.p0"
+            e1="DDI-DrugBank.d225.s12.e0" e2="DDI-DrugBank.d225.s12.e1" ddi="false"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d225.s13" text="The mean percentage increase in the glipizide AUC after fluconazole administration was 56.9% (range: 35 to 81).">
+        <entity id="DDI-DrugBank.d225.s13.e0" charOffset="36-44"
+            type="drug" text="glipizide"/>
+        <entity id="DDI-DrugBank.d225.s13.e1" charOffset="56-66"
+            type="drug" text="fluconazole"/>
+        <pair id="DDI-DrugBank.d225.s13.p0"
+            e1="DDI-DrugBank.d225.s13.e0" e2="DDI-DrugBank.d225.s13.e1"
+            ddi="true" type="mechanism"/>
+    </sentence>
+</document>

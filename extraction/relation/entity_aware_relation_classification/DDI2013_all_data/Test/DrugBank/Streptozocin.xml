@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="DDI-DrugBank.d647">
+    <sentence id="DDI-DrugBank.d647.s0" text="ZANOSAR may demonstrate additive toxicity when used in combination with other cytotoxic drugs. ">
+        <entity id="DDI-DrugBank.d647.s0.e0" charOffset="0-6"
+            type="brand" text="ZANOSAR"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d647.s1" text="Streptozocin has been reported to prolong the elimination half-life of doxorubicin and may lead to severe bone marrow suppression; ">
+        <entity id="DDI-DrugBank.d647.s1.e0" charOffset="0-11"
+            type="drug" text="Streptozocin"/>
+        <entity id="DDI-DrugBank.d647.s1.e1" charOffset="71-81"
+            type="drug" text="doxorubicin"/>
+        <pair id="DDI-DrugBank.d647.s1.p0" e1="DDI-DrugBank.d647.s1.e0"
+            e2="DDI-DrugBank.d647.s1.e1" ddi="true" type="mechanism"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d647.s2" text="a reduction of the doxorubicin dosage should be considered in patients receiving ZANOSAR concurrently. ">
+        <entity id="DDI-DrugBank.d647.s2.e0" charOffset="19-29"
+            type="drug" text="doxorubicin"/>
+        <entity id="DDI-DrugBank.d647.s2.e1" charOffset="81-87"
+            type="brand" text="ZANOSAR"/>
+        <pair id="DDI-DrugBank.d647.s2.p0" e1="DDI-DrugBank.d647.s2.e0"
+            e2="DDI-DrugBank.d647.s2.e1" ddi="true" type="advise"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d647.s3" text="The concurrent use of streptozocin and phenytoin has been reported in one case to result in reduced streptozocin cytotoxicity.    ">
+        <entity id="DDI-DrugBank.d647.s3.e0" charOffset="22-33"
+            type="drug" text="streptozocin"/>
+        <entity id="DDI-DrugBank.d647.s3.e1" charOffset="39-47"
+            type="drug" text="phenytoin"/>
+        <entity id="DDI-DrugBank.d647.s3.e2" charOffset="100-111"
+            type="drug" text="streptozocin"/>
+        <pair id="DDI-DrugBank.d647.s3.p0" e1="DDI-DrugBank.d647.s3.e0"
+            e2="DDI-DrugBank.d647.s3.e1" ddi="true" type="effect"/>
+        <pair id="DDI-DrugBank.d647.s3.p1" e1="DDI-DrugBank.d647.s3.e0"
+            e2="DDI-DrugBank.d647.s3.e2" ddi="false"/>
+        <pair id="DDI-DrugBank.d647.s3.p2" e1="DDI-DrugBank.d647.s3.e1"
+            e2="DDI-DrugBank.d647.s3.e2" ddi="false"/>
+    </sentence>
+</document>

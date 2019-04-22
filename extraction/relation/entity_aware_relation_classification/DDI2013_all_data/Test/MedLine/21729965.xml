@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="DDI-MedLine.d208">
+    <sentence id="DDI-MedLine.d208.s0" text="Implanon   failure in an HIV-positive woman on antiretroviral therapy resulting in two ectopic pregnancies.">
+        <entity id="DDI-MedLine.d208.s0.e0" charOffset="0-7"
+            type="brand" text="Implanon"/>
+        <entity id="DDI-MedLine.d208.s0.e1" charOffset="47-60"
+            type="group" text="antiretroviral"/>
+        <pair id="DDI-MedLine.d208.s0.p0" e1="DDI-MedLine.d208.s0.e0"
+            e2="DDI-MedLine.d208.s0.e1" ddi="true" type="effect"/>
+    </sentence>
+    <sentence id="DDI-MedLine.d208.s1" text="Since its introduction in 1999, Implanon   remains one of the preferred contraceptive choices for many women as it offers a highly effective means of long-term contraception for three years that does not rely on adherence. ">
+        <entity id="DDI-MedLine.d208.s1.e0" charOffset="32-39"
+            type="brand" text="Implanon"/>
+    </sentence>
+    <sentence id="DDI-MedLine.d208.s2" text="Like all hormonal contraceptives, certain hepatic enzyme-inducing drugs may reduce its efficacy. ">
+        <entity id="DDI-MedLine.d208.s2.e0" charOffset="9-31"
+            type="group" text="hormonal contraceptives"/>
+    </sentence>
+    <sentence id="DDI-MedLine.d208.s3" text="We present an interesting case of an HIV-positive woman on antiretroviral therapy having tubal pregnancies on two separate occasions with Implanon in place.">
+        <entity id="DDI-MedLine.d208.s3.e0" charOffset="59-72"
+            type="group" text="antiretroviral"/>
+        <entity id="DDI-MedLine.d208.s3.e1" charOffset="138-145"
+            type="brand" text="Implanon"/>
+        <pair id="DDI-MedLine.d208.s3.p0" e1="DDI-MedLine.d208.s3.e0"
+            e2="DDI-MedLine.d208.s3.e1" ddi="true" type="effect"/>
+    </sentence>
+</document>

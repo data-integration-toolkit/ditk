@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="DDI-DrugBank.d697">
+    <sentence id="DDI-DrugBank.d697.s0" text="Interactions for Vitamin B1 (Thiamine):  Loop Diuretics, Oral Contraceptives, Stavudine, Tricyclic Antidepressants">
+        <entity id="DDI-DrugBank.d697.s0.e0" charOffset="17-26"
+            type="drug" text="Vitamin B1"/>
+        <entity id="DDI-DrugBank.d697.s0.e1" charOffset="29-36"
+            type="drug" text="Thiamine"/>
+        <entity id="DDI-DrugBank.d697.s0.e2" charOffset="41-54"
+            type="group" text="Loop Diuretics"/>
+        <entity id="DDI-DrugBank.d697.s0.e3" charOffset="62-75"
+            type="group" text="Contraceptives"/>
+        <entity id="DDI-DrugBank.d697.s0.e4" charOffset="78-86"
+            type="drug" text="Stavudine"/>
+        <entity id="DDI-DrugBank.d697.s0.e5" charOffset="89-113"
+            type="group" text="Tricyclic Antidepressants"/>
+        <pair id="DDI-DrugBank.d697.s0.p0" e1="DDI-DrugBank.d697.s0.e0"
+            e2="DDI-DrugBank.d697.s0.e1" ddi="false"/>
+        <pair id="DDI-DrugBank.d697.s0.p1" e1="DDI-DrugBank.d697.s0.e0"
+            e2="DDI-DrugBank.d697.s0.e2" ddi="true" type="int"/>
+        <pair id="DDI-DrugBank.d697.s0.p2" e1="DDI-DrugBank.d697.s0.e0"
+            e2="DDI-DrugBank.d697.s0.e3" ddi="true" type="int"/>
+        <pair id="DDI-DrugBank.d697.s0.p3" e1="DDI-DrugBank.d697.s0.e0"
+            e2="DDI-DrugBank.d697.s0.e4" ddi="true" type="int"/>
+        <pair id="DDI-DrugBank.d697.s0.p4" e1="DDI-DrugBank.d697.s0.e0"
+            e2="DDI-DrugBank.d697.s0.e5" ddi="true" type="int"/>
+        <pair id="DDI-DrugBank.d697.s0.p5" e1="DDI-DrugBank.d697.s0.e1"
+            e2="DDI-DrugBank.d697.s0.e2" ddi="true" type="int"/>
+        <pair id="DDI-DrugBank.d697.s0.p6" e1="DDI-DrugBank.d697.s0.e1"
+            e2="DDI-DrugBank.d697.s0.e3" ddi="true" type="int"/>
+        <pair id="DDI-DrugBank.d697.s0.p7" e1="DDI-DrugBank.d697.s0.e1"
+            e2="DDI-DrugBank.d697.s0.e4" ddi="true" type="int"/>
+        <pair id="DDI-DrugBank.d697.s0.p8" e1="DDI-DrugBank.d697.s0.e1"
+            e2="DDI-DrugBank.d697.s0.e5" ddi="true" type="int"/>
+        <pair id="DDI-DrugBank.d697.s0.p9" e1="DDI-DrugBank.d697.s0.e2"
+            e2="DDI-DrugBank.d697.s0.e3" ddi="false"/>
+        <pair id="DDI-DrugBank.d697.s0.p10" e1="DDI-DrugBank.d697.s0.e2"
+            e2="DDI-DrugBank.d697.s0.e4" ddi="false"/>
+        <pair id="DDI-DrugBank.d697.s0.p11" e1="DDI-DrugBank.d697.s0.e2"
+            e2="DDI-DrugBank.d697.s0.e5" ddi="false"/>
+        <pair id="DDI-DrugBank.d697.s0.p12" e1="DDI-DrugBank.d697.s0.e3"
+            e2="DDI-DrugBank.d697.s0.e4" ddi="false"/>
+        <pair id="DDI-DrugBank.d697.s0.p13" e1="DDI-DrugBank.d697.s0.e3"
+            e2="DDI-DrugBank.d697.s0.e5" ddi="false"/>
+        <pair id="DDI-DrugBank.d697.s0.p14" e1="DDI-DrugBank.d697.s0.e4"
+            e2="DDI-DrugBank.d697.s0.e5" ddi="false"/>
+    </sentence>
+</document>

@@ -1,0 +1,278 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="DDI-DrugBank.d567">
+    <sentence id="DDI-DrugBank.d567.s0" text="CYP3A4 Interactions"/>
+    <sentence id="DDI-DrugBank.d567.s1" text="Lovastatin is metabolized by CYP3A4 but has no CYP3A4 inhibitory activity;">
+        <entity id="DDI-DrugBank.d567.s1.e0" charOffset="0-9"
+            type="drug" text="Lovastatin"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d567.s2" text="therefore it is not expected to affect the plasma concentrations of other drugs metabolized by CYP3A4."/>
+    <sentence id="DDI-DrugBank.d567.s3" text="Potent inhibitors of CYP3A4 (below) increase the risk of myopathy by reducing the elimination of lovastatin.">
+        <entity id="DDI-DrugBank.d567.s3.e0" charOffset="97-106"
+            type="drug" text="lovastatin"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d567.s4" text="Pharmacokinetics."/>
+    <sentence id="DDI-DrugBank.d567.s5" text="Itraconazole Ketoconazole Erythromycin Clarithromycin Telithromycin HIV protease inhibitors Nefazodone Cyclosporine Large quantities of grapefruit juice ( 1 quart daily)">
+        <entity id="DDI-DrugBank.d567.s5.e0" charOffset="0-11"
+            type="drug" text="Itraconazole"/>
+        <entity id="DDI-DrugBank.d567.s5.e1" charOffset="13-24"
+            type="drug" text="Ketoconazole"/>
+        <entity id="DDI-DrugBank.d567.s5.e2" charOffset="26-37"
+            type="drug" text="Erythromycin"/>
+        <entity id="DDI-DrugBank.d567.s5.e3" charOffset="39-52"
+            type="drug" text="Clarithromycin"/>
+        <entity id="DDI-DrugBank.d567.s5.e4" charOffset="54-66"
+            type="drug" text="Telithromycin"/>
+        <entity id="DDI-DrugBank.d567.s5.e5" charOffset="68-90"
+            type="group" text="HIV protease inhibitors"/>
+        <entity id="DDI-DrugBank.d567.s5.e6" charOffset="92-101"
+            type="drug" text="Nefazodone"/>
+        <entity id="DDI-DrugBank.d567.s5.e7" charOffset="103-114"
+            type="drug" text="Cyclosporine"/>
+        <pair id="DDI-DrugBank.d567.s5.p0" e1="DDI-DrugBank.d567.s5.e0"
+            e2="DDI-DrugBank.d567.s5.e1" ddi="false"/>
+        <pair id="DDI-DrugBank.d567.s5.p1" e1="DDI-DrugBank.d567.s5.e0"
+            e2="DDI-DrugBank.d567.s5.e2" ddi="false"/>
+        <pair id="DDI-DrugBank.d567.s5.p2" e1="DDI-DrugBank.d567.s5.e0"
+            e2="DDI-DrugBank.d567.s5.e3" ddi="false"/>
+        <pair id="DDI-DrugBank.d567.s5.p3" e1="DDI-DrugBank.d567.s5.e0"
+            e2="DDI-DrugBank.d567.s5.e4" ddi="false"/>
+        <pair id="DDI-DrugBank.d567.s5.p4" e1="DDI-DrugBank.d567.s5.e0"
+            e2="DDI-DrugBank.d567.s5.e5" ddi="false"/>
+        <pair id="DDI-DrugBank.d567.s5.p5" e1="DDI-DrugBank.d567.s5.e0"
+            e2="DDI-DrugBank.d567.s5.e6" ddi="false"/>
+        <pair id="DDI-DrugBank.d567.s5.p6" e1="DDI-DrugBank.d567.s5.e0"
+            e2="DDI-DrugBank.d567.s5.e7" ddi="false"/>
+        <pair id="DDI-DrugBank.d567.s5.p7" e1="DDI-DrugBank.d567.s5.e1"
+            e2="DDI-DrugBank.d567.s5.e2" ddi="false"/>
+        <pair id="DDI-DrugBank.d567.s5.p8" e1="DDI-DrugBank.d567.s5.e1"
+            e2="DDI-DrugBank.d567.s5.e3" ddi="false"/>
+        <pair id="DDI-DrugBank.d567.s5.p9" e1="DDI-DrugBank.d567.s5.e1"
+            e2="DDI-DrugBank.d567.s5.e4" ddi="false"/>
+        <pair id="DDI-DrugBank.d567.s5.p10" e1="DDI-DrugBank.d567.s5.e1"
+            e2="DDI-DrugBank.d567.s5.e5" ddi="false"/>
+        <pair id="DDI-DrugBank.d567.s5.p11" e1="DDI-DrugBank.d567.s5.e1"
+            e2="DDI-DrugBank.d567.s5.e6" ddi="false"/>
+        <pair id="DDI-DrugBank.d567.s5.p12" e1="DDI-DrugBank.d567.s5.e1"
+            e2="DDI-DrugBank.d567.s5.e7" ddi="false"/>
+        <pair id="DDI-DrugBank.d567.s5.p13" e1="DDI-DrugBank.d567.s5.e2"
+            e2="DDI-DrugBank.d567.s5.e3" ddi="false"/>
+        <pair id="DDI-DrugBank.d567.s5.p14" e1="DDI-DrugBank.d567.s5.e2"
+            e2="DDI-DrugBank.d567.s5.e4" ddi="false"/>
+        <pair id="DDI-DrugBank.d567.s5.p15" e1="DDI-DrugBank.d567.s5.e2"
+            e2="DDI-DrugBank.d567.s5.e5" ddi="false"/>
+        <pair id="DDI-DrugBank.d567.s5.p16" e1="DDI-DrugBank.d567.s5.e2"
+            e2="DDI-DrugBank.d567.s5.e6" ddi="false"/>
+        <pair id="DDI-DrugBank.d567.s5.p17" e1="DDI-DrugBank.d567.s5.e2"
+            e2="DDI-DrugBank.d567.s5.e7" ddi="false"/>
+        <pair id="DDI-DrugBank.d567.s5.p18" e1="DDI-DrugBank.d567.s5.e3"
+            e2="DDI-DrugBank.d567.s5.e4" ddi="false"/>
+        <pair id="DDI-DrugBank.d567.s5.p19" e1="DDI-DrugBank.d567.s5.e3"
+            e2="DDI-DrugBank.d567.s5.e5" ddi="false"/>
+        <pair id="DDI-DrugBank.d567.s5.p20" e1="DDI-DrugBank.d567.s5.e3"
+            e2="DDI-DrugBank.d567.s5.e6" ddi="false"/>
+        <pair id="DDI-DrugBank.d567.s5.p21" e1="DDI-DrugBank.d567.s5.e3"
+            e2="DDI-DrugBank.d567.s5.e7" ddi="false"/>
+        <pair id="DDI-DrugBank.d567.s5.p22" e1="DDI-DrugBank.d567.s5.e4"
+            e2="DDI-DrugBank.d567.s5.e5" ddi="false"/>
+        <pair id="DDI-DrugBank.d567.s5.p23" e1="DDI-DrugBank.d567.s5.e4"
+            e2="DDI-DrugBank.d567.s5.e6" ddi="false"/>
+        <pair id="DDI-DrugBank.d567.s5.p24" e1="DDI-DrugBank.d567.s5.e4"
+            e2="DDI-DrugBank.d567.s5.e7" ddi="false"/>
+        <pair id="DDI-DrugBank.d567.s5.p25" e1="DDI-DrugBank.d567.s5.e5"
+            e2="DDI-DrugBank.d567.s5.e6" ddi="false"/>
+        <pair id="DDI-DrugBank.d567.s5.p26" e1="DDI-DrugBank.d567.s5.e5"
+            e2="DDI-DrugBank.d567.s5.e7" ddi="false"/>
+        <pair id="DDI-DrugBank.d567.s5.p27" e1="DDI-DrugBank.d567.s5.e6"
+            e2="DDI-DrugBank.d567.s5.e7" ddi="false"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d567.s6" text="Interactions with lipid-lowering drugs that can cause myopathy when given alone."/>
+    <sentence id="DDI-DrugBank.d567.s7" text="The risk of myopathy is also increased by the following lipid-lowering drugs that are not potent CYP3A4 inhibitors, but which can cause myopathy when given alone."/>
+    <sentence id="DDI-DrugBank.d567.s8" text="See WARNINGS, Myopathy/Rhabdomyolysis."/>
+    <sentence id="DDI-DrugBank.d567.s9" text="Gemfibrozil Other fibrates Niacin (nicotinic acid) (=1 g/day)">
+        <entity id="DDI-DrugBank.d567.s9.e0" charOffset="0-10"
+            type="drug" text="Gemfibrozil"/>
+        <entity id="DDI-DrugBank.d567.s9.e1" charOffset="18-25"
+            type="group" text="fibrates"/>
+        <entity id="DDI-DrugBank.d567.s9.e2" charOffset="27-32"
+            type="drug" text="Niacin"/>
+        <entity id="DDI-DrugBank.d567.s9.e3" charOffset="35-48"
+            type="drug" text="nicotinic acid"/>
+        <pair id="DDI-DrugBank.d567.s9.p0" e1="DDI-DrugBank.d567.s9.e0"
+            e2="DDI-DrugBank.d567.s9.e1" ddi="false"/>
+        <pair id="DDI-DrugBank.d567.s9.p1" e1="DDI-DrugBank.d567.s9.e0"
+            e2="DDI-DrugBank.d567.s9.e2" ddi="false"/>
+        <pair id="DDI-DrugBank.d567.s9.p2" e1="DDI-DrugBank.d567.s9.e0"
+            e2="DDI-DrugBank.d567.s9.e3" ddi="false"/>
+        <pair id="DDI-DrugBank.d567.s9.p3" e1="DDI-DrugBank.d567.s9.e1"
+            e2="DDI-DrugBank.d567.s9.e2" ddi="false"/>
+        <pair id="DDI-DrugBank.d567.s9.p4" e1="DDI-DrugBank.d567.s9.e1"
+            e2="DDI-DrugBank.d567.s9.e3" ddi="false"/>
+        <pair id="DDI-DrugBank.d567.s9.p5" e1="DDI-DrugBank.d567.s9.e2"
+            e2="DDI-DrugBank.d567.s9.e3" ddi="false"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d567.s10" text="Other drug interactions"/>
+    <sentence id="DDI-DrugBank.d567.s11" text="Danazol: The risk of myopathy/rhabdomyolysis is increased by concomitant administration of danazol particularly with higher doses of lovastatin (see WARNINGS, Myopathy/Rhabdomyolysis).">
+        <entity id="DDI-DrugBank.d567.s11.e0" charOffset="0-6"
+            type="drug" text="Danazol"/>
+        <entity id="DDI-DrugBank.d567.s11.e1" charOffset="91-97"
+            type="drug" text="danazol"/>
+        <entity id="DDI-DrugBank.d567.s11.e2" charOffset="133-142"
+            type="drug" text="lovastatin"/>
+        <pair id="DDI-DrugBank.d567.s11.p0"
+            e1="DDI-DrugBank.d567.s11.e0" e2="DDI-DrugBank.d567.s11.e1" ddi="false"/>
+        <pair id="DDI-DrugBank.d567.s11.p1"
+            e1="DDI-DrugBank.d567.s11.e0" e2="DDI-DrugBank.d567.s11.e2" ddi="false"/>
+        <pair id="DDI-DrugBank.d567.s11.p2"
+            e1="DDI-DrugBank.d567.s11.e1" e2="DDI-DrugBank.d567.s11.e2"
+            ddi="true" type="effect"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d567.s12" text="Amiodarone or Verapamil: The risk of myopathy/rhabdomyolysis is increased when either amiodarone or verapamil is used concomitantly with a closely related member of the HMG-CoA reductase inhibitor class (see WARNINGS, Myopathy/Rhabdomyolysis).">
+        <entity id="DDI-DrugBank.d567.s12.e0" charOffset="0-9"
+            type="drug" text="Amiodarone"/>
+        <entity id="DDI-DrugBank.d567.s12.e1" charOffset="14-22"
+            type="drug" text="Verapamil"/>
+        <entity id="DDI-DrugBank.d567.s12.e2" charOffset="86-95"
+            type="drug" text="amiodarone"/>
+        <entity id="DDI-DrugBank.d567.s12.e3" charOffset="100-108"
+            type="drug" text="verapamil"/>
+        <entity id="DDI-DrugBank.d567.s12.e4" charOffset="169-201"
+            type="group" text="HMG-CoA reductase inhibitor class"/>
+        <pair id="DDI-DrugBank.d567.s12.p0"
+            e1="DDI-DrugBank.d567.s12.e0" e2="DDI-DrugBank.d567.s12.e1" ddi="false"/>
+        <pair id="DDI-DrugBank.d567.s12.p1"
+            e1="DDI-DrugBank.d567.s12.e0" e2="DDI-DrugBank.d567.s12.e2" ddi="false"/>
+        <pair id="DDI-DrugBank.d567.s12.p2"
+            e1="DDI-DrugBank.d567.s12.e0" e2="DDI-DrugBank.d567.s12.e3" ddi="false"/>
+        <pair id="DDI-DrugBank.d567.s12.p3"
+            e1="DDI-DrugBank.d567.s12.e0" e2="DDI-DrugBank.d567.s12.e4" ddi="false"/>
+        <pair id="DDI-DrugBank.d567.s12.p4"
+            e1="DDI-DrugBank.d567.s12.e1" e2="DDI-DrugBank.d567.s12.e2" ddi="false"/>
+        <pair id="DDI-DrugBank.d567.s12.p5"
+            e1="DDI-DrugBank.d567.s12.e1" e2="DDI-DrugBank.d567.s12.e3" ddi="false"/>
+        <pair id="DDI-DrugBank.d567.s12.p6"
+            e1="DDI-DrugBank.d567.s12.e1" e2="DDI-DrugBank.d567.s12.e4" ddi="false"/>
+        <pair id="DDI-DrugBank.d567.s12.p7"
+            e1="DDI-DrugBank.d567.s12.e2" e2="DDI-DrugBank.d567.s12.e3" ddi="false"/>
+        <pair id="DDI-DrugBank.d567.s12.p8"
+            e1="DDI-DrugBank.d567.s12.e2" e2="DDI-DrugBank.d567.s12.e4"
+            ddi="true" type="effect"/>
+        <pair id="DDI-DrugBank.d567.s12.p9"
+            e1="DDI-DrugBank.d567.s12.e3" e2="DDI-DrugBank.d567.s12.e4"
+            ddi="true" type="effect"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d567.s13" text="Coumarin Anticoagulants: In a small clinical trial in which lovastatin was administered to warfarin treated patients, no effect on prothrombin time was detected.">
+        <entity id="DDI-DrugBank.d567.s13.e0" charOffset="0-21"
+            type="group" text="Coumarin Anticoagulant"/>
+        <entity id="DDI-DrugBank.d567.s13.e1" charOffset="60-69"
+            type="drug" text="lovastatin"/>
+        <entity id="DDI-DrugBank.d567.s13.e2" charOffset="91-98"
+            type="drug" text="warfarin"/>
+        <pair id="DDI-DrugBank.d567.s13.p0"
+            e1="DDI-DrugBank.d567.s13.e0" e2="DDI-DrugBank.d567.s13.e1" ddi="false"/>
+        <pair id="DDI-DrugBank.d567.s13.p1"
+            e1="DDI-DrugBank.d567.s13.e0" e2="DDI-DrugBank.d567.s13.e2" ddi="false"/>
+        <pair id="DDI-DrugBank.d567.s13.p2"
+            e1="DDI-DrugBank.d567.s13.e1" e2="DDI-DrugBank.d567.s13.e2" ddi="false"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d567.s14" text="However, another HMG-CoA reductase inhibitor has been found to produce a less than two-second increase in prothrombin time in healthy volunteers receiving low doses of warfarin.">
+        <entity id="DDI-DrugBank.d567.s14.e0" charOffset="17-43"
+            type="group" text="HMG-CoA reductase inhibitor"/>
+        <entity id="DDI-DrugBank.d567.s14.e1" charOffset="168-175"
+            type="drug" text="warfarin"/>
+        <pair id="DDI-DrugBank.d567.s14.p0"
+            e1="DDI-DrugBank.d567.s14.e0" e2="DDI-DrugBank.d567.s14.e1"
+            ddi="true" type="effect"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d567.s15" text="Also, bleeding and/or increased prothrombin time have been reported in a few patients taking coumarin anticoagulants concomitantly with lovastatin.">
+        <entity id="DDI-DrugBank.d567.s15.e0" charOffset="93-114"
+            type="group" text="coumarin anticoagulant"/>
+        <entity id="DDI-DrugBank.d567.s15.e1" charOffset="136-145"
+            type="drug" text="lovastatin"/>
+        <pair id="DDI-DrugBank.d567.s15.p0"
+            e1="DDI-DrugBank.d567.s15.e0" e2="DDI-DrugBank.d567.s15.e1"
+            ddi="true" type="effect"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d567.s16" text="It is recommended that in patients taking anticoagulants, prothrombin time be determined before starting lovastatin and frequently enough during early therapy to insure that no significant alteration of prothrombin time occurs.">
+        <entity id="DDI-DrugBank.d567.s16.e0" charOffset="42-55"
+            type="group" text="anticoagulants"/>
+        <entity id="DDI-DrugBank.d567.s16.e1" charOffset="105-114"
+            type="drug" text="lovastatin"/>
+        <pair id="DDI-DrugBank.d567.s16.p0"
+            e1="DDI-DrugBank.d567.s16.e0" e2="DDI-DrugBank.d567.s16.e1"
+            ddi="true" type="advise"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d567.s17" text="Once a stable prothrombin time has been documented, prothrombin times can be monitored at the intervals usually recommended for patients on coumarin anticoagulants.">
+        <entity id="DDI-DrugBank.d567.s17.e0" charOffset="140-162"
+            type="group" text="coumarin anticoagulants"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d567.s18" text="If the dose of lovastatin is changed, the same procedure should be repeated.">
+        <entity id="DDI-DrugBank.d567.s18.e0" charOffset="15-24"
+            type="drug" text="lovastatin"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d567.s19" text="Lovastatin therapy has not been associated with bleeding or with changes in prothrombin time in patients not taking anticoagulants.">
+        <entity id="DDI-DrugBank.d567.s19.e0" charOffset="0-9"
+            type="drug" text="Lovastatin"/>
+        <entity id="DDI-DrugBank.d567.s19.e1" charOffset="116-129"
+            type="group" text="anticoagulants"/>
+        <pair id="DDI-DrugBank.d567.s19.p0"
+            e1="DDI-DrugBank.d567.s19.e0" e2="DDI-DrugBank.d567.s19.e1" ddi="false"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d567.s20" text="Propranolol: In normal volunteers, there was no clinically significant pharmacokinetic or pharmacodynamic interaction with concomitant administration of single doses of lovastatin and propranolol.">
+        <entity id="DDI-DrugBank.d567.s20.e0" charOffset="0-10"
+            type="drug" text="Propranolol"/>
+        <entity id="DDI-DrugBank.d567.s20.e1" charOffset="169-178"
+            type="drug" text="lovastatin"/>
+        <entity id="DDI-DrugBank.d567.s20.e2" charOffset="184-194"
+            type="drug" text="propranolol"/>
+        <pair id="DDI-DrugBank.d567.s20.p0"
+            e1="DDI-DrugBank.d567.s20.e0" e2="DDI-DrugBank.d567.s20.e1" ddi="false"/>
+        <pair id="DDI-DrugBank.d567.s20.p1"
+            e1="DDI-DrugBank.d567.s20.e0" e2="DDI-DrugBank.d567.s20.e2" ddi="false"/>
+        <pair id="DDI-DrugBank.d567.s20.p2"
+            e1="DDI-DrugBank.d567.s20.e1" e2="DDI-DrugBank.d567.s20.e2" ddi="false"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d567.s21" text="Digoxin: In patients with hypercholesterolemia, concomitant administration of lovastatin and digoxin resulted in no effect on digoxin plasma concentrations.">
+        <entity id="DDI-DrugBank.d567.s21.e0" charOffset="0-6"
+            type="drug" text="Digoxin"/>
+        <entity id="DDI-DrugBank.d567.s21.e1" charOffset="78-87"
+            type="drug" text="lovastatin"/>
+        <entity id="DDI-DrugBank.d567.s21.e2" charOffset="93-99"
+            type="drug" text="digoxin"/>
+        <entity id="DDI-DrugBank.d567.s21.e3" charOffset="126-132"
+            type="drug" text="digoxin"/>
+        <pair id="DDI-DrugBank.d567.s21.p0"
+            e1="DDI-DrugBank.d567.s21.e0" e2="DDI-DrugBank.d567.s21.e1" ddi="false"/>
+        <pair id="DDI-DrugBank.d567.s21.p1"
+            e1="DDI-DrugBank.d567.s21.e0" e2="DDI-DrugBank.d567.s21.e2" ddi="false"/>
+        <pair id="DDI-DrugBank.d567.s21.p2"
+            e1="DDI-DrugBank.d567.s21.e0" e2="DDI-DrugBank.d567.s21.e3" ddi="false"/>
+        <pair id="DDI-DrugBank.d567.s21.p3"
+            e1="DDI-DrugBank.d567.s21.e1" e2="DDI-DrugBank.d567.s21.e2" ddi="false"/>
+        <pair id="DDI-DrugBank.d567.s21.p4"
+            e1="DDI-DrugBank.d567.s21.e1" e2="DDI-DrugBank.d567.s21.e3" ddi="false"/>
+        <pair id="DDI-DrugBank.d567.s21.p5"
+            e1="DDI-DrugBank.d567.s21.e2" e2="DDI-DrugBank.d567.s21.e3" ddi="false"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d567.s22" text="Oral Hypoglycemic Agents: In pharmacokinetic studies of MEVACOR in hypercholesterolemic noninsulin dependent diabetic patients, there was no drug interaction with glipizide or with chlorpropamide">
+        <entity id="DDI-DrugBank.d567.s22.e0" charOffset="5-23"
+            type="group" text="Hypoglycemic Agents"/>
+        <entity id="DDI-DrugBank.d567.s22.e1" charOffset="56-62"
+            type="brand" text="MEVACOR"/>
+        <entity id="DDI-DrugBank.d567.s22.e2" charOffset="163-171"
+            type="drug" text="glipizide"/>
+        <entity id="DDI-DrugBank.d567.s22.e3" charOffset="181-194"
+            type="drug" text="chlorpropamide"/>
+        <pair id="DDI-DrugBank.d567.s22.p0"
+            e1="DDI-DrugBank.d567.s22.e0" e2="DDI-DrugBank.d567.s22.e1" ddi="false"/>
+        <pair id="DDI-DrugBank.d567.s22.p1"
+            e1="DDI-DrugBank.d567.s22.e0" e2="DDI-DrugBank.d567.s22.e2" ddi="false"/>
+        <pair id="DDI-DrugBank.d567.s22.p2"
+            e1="DDI-DrugBank.d567.s22.e0" e2="DDI-DrugBank.d567.s22.e3" ddi="false"/>
+        <pair id="DDI-DrugBank.d567.s22.p3"
+            e1="DDI-DrugBank.d567.s22.e1" e2="DDI-DrugBank.d567.s22.e2" ddi="false"/>
+        <pair id="DDI-DrugBank.d567.s22.p4"
+            e1="DDI-DrugBank.d567.s22.e1" e2="DDI-DrugBank.d567.s22.e3" ddi="false"/>
+        <pair id="DDI-DrugBank.d567.s22.p5"
+            e1="DDI-DrugBank.d567.s22.e2" e2="DDI-DrugBank.d567.s22.e3" ddi="false"/>
+    </sentence>
+</document>

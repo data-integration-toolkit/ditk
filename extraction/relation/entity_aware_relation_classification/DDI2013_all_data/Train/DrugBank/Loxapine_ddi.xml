@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="DDI-DrugBank.d504">
+    <sentence id="DDI-DrugBank.d504.s0" text="There have been rare reports of significant respiratory depression, stupor and/or hypotension with the concomitant use of loxapine and lorazepam.">
+        <entity id="DDI-DrugBank.d504.s0.e0" charOffset="122-129"
+            type="drug" text="loxapine"/>
+        <entity id="DDI-DrugBank.d504.s0.e1" charOffset="135-143"
+            type="drug" text="lorazepam"/>
+        <pair id="DDI-DrugBank.d504.s0.p0" e1="DDI-DrugBank.d504.s0.e0"
+            e2="DDI-DrugBank.d504.s0.e1" ddi="true" type="effect"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d504.s1" text="The risk of using loxapine in combination with CNS-active drugs has not been systematically evaluated.">
+        <entity id="DDI-DrugBank.d504.s1.e0" charOffset="18-25"
+            type="drug" text="loxapine"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d504.s2" text="Therefore, caution is advised if the concomitant administration of loxapine and CNS-active drugs is required.">
+        <entity id="DDI-DrugBank.d504.s2.e0" charOffset="67-74"
+            type="drug" text="loxapine"/>
+    </sentence>
+</document>

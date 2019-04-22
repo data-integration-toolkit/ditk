@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="DDI-MedLine.d102">
+    <sentence id="DDI-MedLine.d102.s0" text="Influence of estradiol and progesterone on the sensitivity of rat thoracic aorta to noradrenaline.&#xd;&#xa;">
+        <entity id="DDI-MedLine.d102.s0.e0" charOffset="13-21"
+            type="drug" text="estradiol"/>
+        <entity id="DDI-MedLine.d102.s0.e1" charOffset="27-38"
+            type="drug" text="progesterone"/>
+        <entity id="DDI-MedLine.d102.s0.e2" charOffset="84-96"
+            type="drug" text="noradrenaline"/>
+        <pair id="DDI-MedLine.d102.s0.p0" e1="DDI-MedLine.d102.s0.e0"
+            e2="DDI-MedLine.d102.s0.e1" ddi="false"/>
+        <pair id="DDI-MedLine.d102.s0.p1" e1="DDI-MedLine.d102.s0.e0"
+            e2="DDI-MedLine.d102.s0.e2" ddi="false"/>
+        <pair id="DDI-MedLine.d102.s0.p2" e1="DDI-MedLine.d102.s0.e1"
+            e2="DDI-MedLine.d102.s0.e2" ddi="false"/>
+    </sentence>
+    <sentence id="DDI-MedLine.d102.s1" text="The aim of this study was to investigate the effects of low and high doses of estradiol, and of progesterone on the response to noradrenaline in rat thoracic aorta. ">
+        <entity id="DDI-MedLine.d102.s1.e0" charOffset="78-86"
+            type="drug" text="estradiol"/>
+        <entity id="DDI-MedLine.d102.s1.e1" charOffset="96-107"
+            type="drug" text="progesterone"/>
+        <entity id="DDI-MedLine.d102.s1.e2" charOffset="128-140"
+            type="drug" text="noradrenaline"/>
+        <pair id="DDI-MedLine.d102.s1.p0" e1="DDI-MedLine.d102.s1.e0"
+            e2="DDI-MedLine.d102.s1.e1" ddi="false"/>
+        <pair id="DDI-MedLine.d102.s1.p1" e1="DDI-MedLine.d102.s1.e0"
+            e2="DDI-MedLine.d102.s1.e2" ddi="false"/>
+        <pair id="DDI-MedLine.d102.s1.p2" e1="DDI-MedLine.d102.s1.e1"
+            e2="DDI-MedLine.d102.s1.e2" ddi="false"/>
+    </sentence>
+    <sentence id="DDI-MedLine.d102.s2" text="Two weeks after bilateral ovariectomy, female rats received a s.c. "/>
+    <sentence id="DDI-MedLine.d102.s3" text="injection of vehicle (corn oil, 0.1 mL/day), estradiol (10 microg/kg/day or 4 mg/kg/day) and/or progesterone (20 mg/kg/day), for eight days. ">
+        <entity id="DDI-MedLine.d102.s3.e0" charOffset="45-53"
+            type="drug" text="estradiol"/>
+        <entity id="DDI-MedLine.d102.s3.e1" charOffset="96-107"
+            type="drug" text="progesterone"/>
+        <pair id="DDI-MedLine.d102.s3.p0" e1="DDI-MedLine.d102.s3.e0"
+            e2="DDI-MedLine.d102.s3.e1" ddi="false"/>
+    </sentence>
+    <sentence id="DDI-MedLine.d102.s4" text="On the ninth day, the rats were sacrificed and aortic rings, with or without endothelium, were used to generate concentration-response curves to noradrenaline. ">
+        <entity id="DDI-MedLine.d102.s4.e0" charOffset="145-157"
+            type="drug" text="noradrenaline"/>
+    </sentence>
+    <sentence id="DDI-MedLine.d102.s5" text="Aortic rings with intact endothelium from the high-dose (4 mg/kg/day) estradiol group were supersensitive to noradrenaline compared to the vehicle or low-dose (10 microg/kg/day) estradiol groups (pD2 values = 7.86+/-0.09, 7.30+/-0.11 and 7.35+/-0.04, respectively). ">
+        <entity id="DDI-MedLine.d102.s5.e0" charOffset="70-78"
+            type="drug" text="estradiol"/>
+        <entity id="DDI-MedLine.d102.s5.e1" charOffset="109-121"
+            type="drug" text="noradrenaline"/>
+        <pair id="DDI-MedLine.d102.s5.p0" e1="DDI-MedLine.d102.s5.e0"
+            e2="DDI-MedLine.d102.s5.e1" ddi="true" type="effect"/>
+    </sentence>
+    <sentence id="DDI-MedLine.d102.s6" text="Endothelium-intact aortic rings from high-estradiol rats were supersensitive to noradrenaline when compared to vehicle-, progesterone- and progesterone + high-estradiol-treated rats (pD2 values = 7.77+/-0.12, 7.21+/-0.13, 6.93+/-0.04 and 7.22+/-0.18, respectively). ">
+        <entity id="DDI-MedLine.d102.s6.e0" charOffset="42-50"
+            type="drug" text="estradiol"/>
+        <entity id="DDI-MedLine.d102.s6.e1" charOffset="80-92"
+            type="drug" text="noradrenaline"/>
+        <entity id="DDI-MedLine.d102.s6.e2" charOffset="121-132"
+            type="drug" text="progesterone"/>
+        <entity id="DDI-MedLine.d102.s6.e3" charOffset="139-150"
+            type="drug" text="progesterone"/>
+        <entity id="DDI-MedLine.d102.s6.e4" charOffset="159-167"
+            type="drug" text="estradiol"/>
+        <pair id="DDI-MedLine.d102.s6.p0" e1="DDI-MedLine.d102.s6.e0"
+            e2="DDI-MedLine.d102.s6.e1" ddi="true" type="effect"/>
+        <pair id="DDI-MedLine.d102.s6.p1" e1="DDI-MedLine.d102.s6.e0"
+            e2="DDI-MedLine.d102.s6.e2" ddi="false"/>
+        <pair id="DDI-MedLine.d102.s6.p2" e1="DDI-MedLine.d102.s6.e0"
+            e2="DDI-MedLine.d102.s6.e3" ddi="false"/>
+        <pair id="DDI-MedLine.d102.s6.p3" e1="DDI-MedLine.d102.s6.e0"
+            e2="DDI-MedLine.d102.s6.e4" ddi="false"/>
+        <pair id="DDI-MedLine.d102.s6.p4" e1="DDI-MedLine.d102.s6.e1"
+            e2="DDI-MedLine.d102.s6.e2" ddi="false"/>
+        <pair id="DDI-MedLine.d102.s6.p5" e1="DDI-MedLine.d102.s6.e1"
+            e2="DDI-MedLine.d102.s6.e3" ddi="false"/>
+        <pair id="DDI-MedLine.d102.s6.p6" e1="DDI-MedLine.d102.s6.e1"
+            e2="DDI-MedLine.d102.s6.e4" ddi="false"/>
+        <pair id="DDI-MedLine.d102.s6.p7" e1="DDI-MedLine.d102.s6.e2"
+            e2="DDI-MedLine.d102.s6.e3" ddi="false"/>
+        <pair id="DDI-MedLine.d102.s6.p8" e1="DDI-MedLine.d102.s6.e2"
+            e2="DDI-MedLine.d102.s6.e4" ddi="false"/>
+        <pair id="DDI-MedLine.d102.s6.p9" e1="DDI-MedLine.d102.s6.e3"
+            e2="DDI-MedLine.d102.s6.e4" ddi="false"/>
+    </sentence>
+    <sentence id="DDI-MedLine.d102.s7" text="There were no significant differences among the pD2 values for noradrenaline in aortic rings without endothelium. ">
+        <entity id="DDI-MedLine.d102.s7.e0" charOffset="63-75"
+            type="drug" text="noradrenaline"/>
+    </sentence>
+    <sentence id="DDI-MedLine.d102.s8" text="Both of these effects were endothelium-dependent."/>
+</document>
