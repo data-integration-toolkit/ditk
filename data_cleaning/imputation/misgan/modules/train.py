@@ -43,7 +43,7 @@ def train(fname):
     '''
 
     nz = 128  # dimensionality of the latent code
-    n_critic = 1
+    n_critic = 5
     alpha = .2
 
     data_gen = ConvDataGenerator(K, D).to(device)
@@ -74,8 +74,8 @@ def train(fname):
     '''
     MisGAN Training
     '''
-    num_epoch = 1
-    max_update_interval = 1
+    num_epoch = 50
+    max_update_interval = 5
 
     update_interval = max_update_interval
     critic_updates = 0
