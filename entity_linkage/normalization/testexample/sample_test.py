@@ -11,7 +11,7 @@ class TestEntityNormalization(unittest.TestCase):
         self.test_list = []
         with open(input_file, "r") as file:
         	for line in file:
-        		lines.append(line)
+        		test_list.append(line)
     
 
     def test_predict(self):
