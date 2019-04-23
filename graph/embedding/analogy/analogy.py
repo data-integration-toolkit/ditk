@@ -3,11 +3,13 @@ from datetime import datetime
 import logging
 import numpy as np
 import os
+import dill
 from graph.embedding.analogy.dataset import TripletDataset, Vocab
 from graph.embedding.analogy.optimizer import SGD, Adagrad
 from graph.embedding.analogy.analogy_model import ANALOGYModel
 from graph.embedding.analogy.evaluator import Evaluator
 from graph.embedding.analogy.graph_util import TensorTypeGraph
+from graph.embedding.analogy.trainer import PairwiseTrainer, SingleTrainer
 
 
 np.random.seed(46)
@@ -23,6 +25,8 @@ class ANALOGY(GraphEmbedding):
         # logger_path = kwargs.get("log_files_path", None)
         if logger_path is None:
             logger_path = DEFAULT_LOG_DIR
+        self.log_path = logger_path
+
         if not os.path.exists(logger_path):
             os.mkdir(logger_path)
         # if not os.path.exists(args.log): OLD
@@ -42,6 +46,8 @@ class ANALOGY(GraphEmbedding):
         self.valid_dat = None
         self.whole_graph = None
         self.model = None
+        self.ent_vocab = None
+        self.rel_vocab = None
 
     def read_dataset(self, file_names, *args, **kwargs):  # <--- implemented PER class
         """ Reads datasets and convert them to proper format for train or test.
@@ -62,22 +68,22 @@ class ANALOGY(GraphEmbedding):
         for arg, val in sorted(file_names.items()):
             self.logger.info('{:>10} -----> {}'.format(arg, val))
 
-        ent_vocab = Vocab.load(file_names["entities"])
-        rel_vocab = Vocab.load(file_names["relations"])
+        self.ent_vocab = Vocab.load(file_names["entities"])
+        self.rel_vocab = Vocab.load(file_names["relations"])
         # rel_vocab = Vocab.load(args.rel) OLD
-        self.n_entity, self.n_relation = len(ent_vocab), len(rel_vocab)
+        self.n_entity, self.n_relation = len(self.ent_vocab), len(self.rel_vocab)
 
         # preparing data
         self.logger.info('preparing data...')
         # train_dat = TripletDataset.load(args.train, ent_vocab, rel_vocab) OLD
         # valid_dat = TripletDataset.load(args.valid, ent_vocab, rel_vocab) if args.valid else None OLD
-        self.train_dat = TripletDataset.load(file_names["train"], ent_vocab, rel_vocab)
-        self.valid_dat = TripletDataset.load(file_names["valid"], ent_vocab, rel_vocab) \
+        self.train_dat = TripletDataset.load(file_names["train"], self.ent_vocab, self.rel_vocab)
+        self.valid_dat = TripletDataset.load(file_names["valid"], self.ent_vocab, self.rel_vocab) \
             if "valid" in file_names else None
 
         if "whole" in file_names:
             self.logger.info('loading whole graph...')
-            self.whole_graph = TensorTypeGraph.load_from_raw(file_names["whole"], ent_vocab, rel_vocab)
+            self.whole_graph = TensorTypeGraph.load_from_raw(file_names["whole"], self.ent_vocab, self.rel_vocab)
         else:
             self.whole_graph = None
 
@@ -128,7 +134,7 @@ class ANALOGY(GraphEmbedding):
 
         number_dimensions = data['dim'] if 'dim' in data else 200
         margin = data['margin'] if 'margin' in data else 1
-        cp_ratio = data['dim'] if 'dim' in data else .5
+        cp_ratio = data['cp_ratio'] if 'cp_ratio' in data else .5
 
         # CHECK MODE AND ERROR ############################################################################
         mode = data['mode'] if 'mode' in data else 'single'
@@ -161,20 +167,24 @@ class ANALOGY(GraphEmbedding):
 
         if filtered and self.valid_dat:
             evaluator.prepare_valid(self.valid_dat)
-        if args.mode == 'pairwise':
-            trainer = PairwiseTrainer(model=self.model, opt=opt, save_step=args.save_step,
-                                      batchsize=args.batch, logger=logger,
-                                      evaluator=evaluator, valid_dat=valid_dat,
-                                      n_negative=args.negative, epoch=args.epoch,
-                                      model_dir=args.log)
-        elif args.mode == 'single':
-            trainer = SingleTrainer(model=model, opt=opt, save_step=args.save_step,
-                                    batchsize=args.batch, logger=logger,
-                                    evaluator=evaluator, valid_dat=valid_dat,
-                                    n_negative=args.negative, epoch=args.epoch,
-                                    model_dir=args.log)
+        if mode == 'pairwise':
+            trainer = PairwiseTrainer(model=self.model, opt=opt, save_step=save_step,
+                                      batchsize=batch, logger=self.logger,
+                                      evaluator=evaluator, valid_dat=self.valid_dat,
+                                      n_negative=negative, epoch=epoch,
+                                      model_dir=self.log_path)
+        elif mode == 'single':
+            trainer = SingleTrainer(model=self.model, opt=opt, save_step=save_step,
+                                    batchsize=batch, logger=self.logger,
+                                    evaluator=evaluator, valid_dat=self.valid_dat,
+                                    n_negative=negative, epoch=epoch,
+                                    model_dir=self.log_path)
         else:
             raise NotImplementedError
+
+        trainer.fit(self.train_dat)
+
+        self.logger.info('done all')
 
     # <--- common ACROSS ALL classes. Requirement that INPUT format uses output from predict()!
     def evaluate(self, data, *args, **kwargs):
@@ -191,24 +201,44 @@ class ANALOGY(GraphEmbedding):
         Raises:
             None
         """
-
-        results = {}
-        return results
         print("evaluate")
+        ent_vocab = Vocab.load(data["entities"])
+        rel_vocab = Vocab.load(data["relations"])
+
+        # preparing data
+        test_dat = TripletDataset.load(data["test"], ent_vocab, rel_vocab)
+
+        filtered = True if 'filtered' in data else False
+
+        evaluator = Evaluator('all', None, filtered, data['filtered'])
+        if filtered:
+            evaluator.prepare_valid(test_dat)
+        # model = Model.load_model(args.model)
+
+        all_res = evaluator.run_all_matric(self.model, test_dat)
+        for metric in sorted(all_res.keys()):
+            print('{:20s}: {}'.format(metric, all_res[metric]))
+
+        return all_res
 
     def save_model(self, file):
         """ saves model to file
         :param file: Where to save the model - Optional function
         :return:
         """
-        print("save model")
+        print("save model:" + file)
+        with open(file, 'wb') as fw:
+            dill.dump(self, fw)
+
+        # self.model.save_model(file)
 
     def load_model(self, file):
         """ loads model from file
         :param file: From where to load the model - Optional function
         :return:
         """
-        print("load model")
+        print("load model: " + file)
+        self.model.load_model(file)
 
 """
 # Sample workflow:
