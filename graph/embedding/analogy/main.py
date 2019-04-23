@@ -3,6 +3,9 @@ from graph.embedding.analogy.analogy import ANALOGY
 
 INPUT_FILE_DIRECTORY = "D:\\USC\\CS548\\groupdat\\FB15k\\"
 
+# input_file_path = ""
+# output_file_path = main(input_file_path)
+
 
 def main(input_file_path):
     # output_file_path = ""
@@ -11,28 +14,20 @@ def main(input_file_path):
 
     algorithm = ANALOGY()
 
-    file_names = {"train": input_file_path + "train.txt",
-                  "valid": input_file_path + "valid.txt",
-                  "whole": input_file_path + "whole.txt",
-                  "relations": input_file_path + "relation2id.txt",
-                  "entities": input_file_path + "entity2id.txt"}
+    train_file_names = {"train": input_file_path + "train.txt",
+                        "valid": input_file_path + "valid.txt",
+                        "whole": input_file_path + "whole.txt",
+                        "relations": input_file_path + "relation2id.txt",
+                        "entities": input_file_path + "entity2id.txt"}
 
-    '''
-    file_names = {"train": "D:\\USC\\CS548\\projectcode\\dat\\FB15k\\freebase_mtr100_mte100-train.txt",
-                  "valid": "D:\\USC\\CS548\\projectcode\\dat\\FB15k\\freebase_mtr100_mte100-valid.txt",
-                  "whole": "D:\\USC\\CS548\\projectcode\\dat\\FB15k\\freebase_mtr100_mte100-valid.txt",
-                  "relations": "D:\\USC\\CS548\\projectcode\\dat\\FB15k\\train.rellist",
-                  "entities": "D:\\USC\\CS548\\projectcode\\dat\\FB15k\\train.entlist"}
-    '''
+    algorithm.read_dataset(train_file_names)
 
-    algorithm.read_dataset(file_names)
-
-    data = {"mode": 'single',
-            "epoch": 500,
+    parameters = {"mode": 'single',
+            "epoch": 3,
             "batch": 128,
             "lr": 0.05,
-            "dim": 200,
-            "negative": 5,
+            "dim": 50,             # reduced these from 200
+            "negative": 1,         # reduced from 5
             "opt": 'adagrad',
             "l2_reg": 0.001,
             "gradclip": 5,
@@ -44,7 +39,16 @@ def main(input_file_path):
 # batch
 # save_step
 
-    algorithm.learn_embeddings(data)
+    algorithm.learn_embeddings(parameters)
+
+    algorithm.save_model(input_file_path + "\\analogy.md")
+
+    evaluate_file_names = {"test": input_file_path + "test.txt",
+                           "whole": input_file_path + "whole.txt",
+                           "relations": input_file_path + "relation2id.txt",
+                           "entities": input_file_path + "entity2id.txt"}
+
+    algorithm.evaluate(evaluate_file_names)
 
     # return output_file_path
 
