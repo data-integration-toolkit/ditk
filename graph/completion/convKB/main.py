@@ -5,7 +5,7 @@ def main(file_name):
 
     options = {}
     options["split_ratio"] = (0.7, 0.25, 0.05)
-    options["embedding_dim"] = 100
+    options["embedding_dim"] = 50
     options["batch_size"] = 128
     train, dev, test = convkb.read_dataset(file_name, options=options)
 

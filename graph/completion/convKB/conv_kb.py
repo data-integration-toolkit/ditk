@@ -8,7 +8,6 @@ import numpy as np
 
 
 class ConvKB(GraphCompletion):
-# class convKB:
 
     def read_dataset(self, fileName, options={}):
         """
