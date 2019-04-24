@@ -14,12 +14,12 @@ class NFETC(entity_typing.entity_typing):
 	def __init__(self):
 		self.task = None
 
-	def initi_task(self, model_name, data_name) :
+	def initi_task(self, model_name, data_name, epoch_num) :
 		time_str = datetime.datetime.now().isoformat()
 		logname = "Final_[Model@%s]_[Data@%s]_%s.log" % (model_name, data_name, time_str)
 		logger = logging_utils._get_logger(config.LOG_DIR, logname)
 		params_dict = param_space_dict[model_name]
-		task = Task(model_name, data_name, 5, params_dict, logger) # default:cv_run=5
+		task = Task(model_name, data_name, epoch_num, params_dict, logger) # default:cv_run=5
 		return task
 
 	def preprocess_helper(self, data_name, extension):
@@ -30,12 +30,13 @@ class NFETC(entity_typing.entity_typing):
 
 	def read_dataset(self, file_path, options={}):
 
-		data_name = options.get("data_name", "wiki") # default = "others"
-		ratio = options.get("ratio", (0.7, 0.15, 0.15)) # default = "others"
-		model_name = options.get("model_name", "best_nfetc_wiki")
+		data_name = options.get("data_name", "others") # default = "others"
+		ratio = options.get("ratio", (0.7, 0.15, 0.15)) 
+		model_name = options.get("model_name", "best_nfetc_wiki") # default = "best_nfetc_wiki"
+		epoch_num = options.get("epoch_num", 5) # default = 5 epoch
 
 		print(">> Initiate Task")
-		self.task = self.initi_task(model_name, data_name)
+		self.task = self.initi_task(model_name, data_name, epoch_num)
 
 		return (self.task.train_set, self.task.full_test_set)
 
@@ -133,35 +134,18 @@ class NFETC(entity_typing.entity_typing):
 
 		print(">> Finished! ")
 
+	def save_model(self, file=None):
+
+		file = config.CHECKPOINT_DIR
+		print("save model to ", file)
+		self.task.save()
+		return
 
 
+	def load_model(self, file=None):
 
+		file = config.CHECKPOINT_DIR
+		print("load model from ", file)
+		self.task.load()
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+		return
