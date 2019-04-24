@@ -4,6 +4,10 @@
 - Python 3
 - Tensorflow >= 1.6
 
+## Input and Output for Prediction
+* input: [entity, relation, entity] triples
+* output: [entity, relation, entity] triples
+
 ## Usage
 
 ### read_data
@@ -56,8 +60,8 @@ MUST be called before any other functions
 * FB15 / FB15k-237
 
 ## Evaluation Metrics
-* MRR
-* HITS@10
+* MRR (WN18RR: 0.248 | FB15k-237: 0.396)
+* HITS@10 (WN18RR: 52.5 | FB15k-237: 51.7)
 
 ## Demo Video
 https://youtu.be/vD6bxcFRv_s
