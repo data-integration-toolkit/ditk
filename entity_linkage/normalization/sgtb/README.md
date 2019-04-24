@@ -60,17 +60,17 @@ MUST be called before any other functions
 * file_name: file name including path where from load
 
 
-### Benchmarks
+## Benchmarks
 * AIDA-CoNLL (currently available-refer the original author for full data)
 * AQUANT
 * ACE
 
-### Evaluation Metrics
+## Evaluation Metrics
 * Accuracy
 * F1 (in-progress)
 
 
-## Original Author
+# Original Author
 Author: Yi Yang
 
 Contact: yyang464@bloomberg.net
