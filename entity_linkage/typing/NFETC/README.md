@@ -90,12 +90,13 @@ The searching procedurce is recorded in one log file stored in folder `log`
 
 
 ## Sample data with Sample word embedding is on the current repo
-- There is Sample data() on `data/Other`
+Sample input data on Others folder; `data/Other/entity_typing_test_input.txt`
+Extracted downsized word embedding only for sample data is under data folder; `data/glove.840B.300d.txt`
 
 ## Demo Video on YouTube
 https://youtu.be/oNmLbJU-HHI
 Run Sample input with only 1 epoch training NFETC model on Jupyter
-Jupyter has same flow with main.py here.
+Jupyter has same flow with main.py here
 
 
 ### Cite
