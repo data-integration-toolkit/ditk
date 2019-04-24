@@ -2,7 +2,9 @@
 
 ## Requirements
 python3
+
 scikit-learn(0.19.1)
+
 numpy (1.15.0)
 
 ## Data
