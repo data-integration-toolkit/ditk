@@ -1,4 +1,3 @@
-# import entity_typing 
 import entity_typing
 import preprocess
 from task import Task
@@ -90,7 +89,7 @@ class NFETC(entity_typing.entity_typing):
 	def split_data_tsv(self, file_path, folder_path, split_ratio=(0.7, 0.15, 0.15)): # train.tsv, test.tsv
 
 		split_r = split_ratio[0]+split_ratio[1] # Since [train + dev]/[test]
-		print("> Split all.tsv to cleat_train, clean_test data with ratio", split_ratio_r, "under", folder_path)
+		print("> Split all.tsv to cleat_train, clean_test data with ratio (", split_r, ",",  split_ratio[2], ")under", folder_path)
 
 		docs = []
 		with open(file_path, 'r') as f:
