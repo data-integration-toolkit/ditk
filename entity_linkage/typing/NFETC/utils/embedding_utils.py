@@ -35,13 +35,11 @@ class Embedding:
 				if w in model:
 					wordSet.add(w)
 
-
 		# TODO: REMOVE
-		with open("./data/corpus/Wiki/tokens.txt", "w") as f:
-			for word in wordSet:
-				f.write(word+"\n")
+		# with open("./data/corpus/Wiki/tokens.txt", "w") as f:
+		# 	for word in wordSet:
+		# 		f.write(word+"\n")
 		# TODO: REMOVE
-
 
 		vocab_size = len(wordSet)
 		print("%d unique tokens have been found!" % vocab_size)
