@@ -21,6 +21,14 @@ on-the-fly. Here, we provide pre-computed entity-entity features (3 features
 per entity pair) for the AIDA-CoNLL dataset, which is available in the 
 [data](data) folder ('ent_ent_feats.txt.gz').
 
+## Input and Output for Prediction
+* input: (mentioned_entity, offset_pairs, highest_rank_candidate, set of (candidate_entity, label, features))
+* output: (entity_name, wikipedia_url(optional), geolocation_url(optional), geolocation_boundary(optional))
+
+## Input and Output for Training
+* input: (mentioned_entity, offset_pairs, highest_rank_candidate, set of (candidate_entity, label, features))
+* output: model object
+
 ## Usage
 
 ### read_data
@@ -66,7 +74,7 @@ MUST be called before any other functions
 * ACE
 
 ## Evaluation Metrics
-* Accuracy
+* Accuracy (95.9%)
 * F1 (in-progress)
 
 ## Demo Video
