@@ -24,21 +24,41 @@ per entity pair) for the AIDA-CoNLL dataset, which is available in the
 ## Usage
 
 ### read_data
-    #### required parameters:
-    * dataset: data file name
-    * split_ratio: ratio to split the dataset into (train, dev, test)
-    #### optional parameter:
-    * num_candidate: number of entity candidates for a mention
+MUST be called before any other functions
+#### required parameters:
+* dataset: data file name
+* split_ratio: ratio to split the dataset into (train, dev, test)
+#### optional parameter:
+* num_candidate: number of entity candidates for a mention
 
 ### train
 
+#### required parameters:
+* train_dev_set: dataset for training 
+
 ### predict
+
+#### required parameters:
+* model: model from training or loading
+* dataset: dataset for predicting
 
 ### evaluate
 
+#### required parameters:
+* model: model from training or loading
+* dataset: dataset for evaluation
+
 ### save_model
 
+#### required parameters:
+* model: saving model from training
+* file_name: file name including path where to save
+
 ### load_model
+
+#### required parameters:
+* file_name: file name including path where from load
+
 
 ### Benchmarks
 * AIDA-CoNLL
