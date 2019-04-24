@@ -6,7 +6,7 @@ from graph.completion.graph_completion import graph_completion
 class TestGraphEmbeddingMethods(unittest.TestCase):
 
 	def setUp(self, input_file):
-		self.graph_embedding = GraphEmbedding() # initialize your Blocking method
+		self.graph_embedding = GraphEmbedding() # initializes your Graph Embedding class
 		self.input_file = input_file
 
 	def test_read_dataset(self):
@@ -17,9 +17,11 @@ class TestGraphEmbeddingMethods(unittest.TestCase):
 		self.assertTrue(test, list) # assert non-empty list
 
 	def test_learn_embeddings(self):
-		# This fucntion could check on whether the embeddings were generated and if yes, then
-		# it can check on whether the file exists
-		pass
+		#Check output of the learned embedding
+		output_vec = graph_embedding.main(self.input_file)
+		embedding_vector = np.array(output_vec)
+    	assertEquals(embedding_vector.shape[0],3)
+    	assertEquals(embedding_vector.shape[1],300) #Example: output vec should be 3 x 300
 
 	def test_evaluate(self):
 		evaluations = self.graph_embedding.evaluate()
