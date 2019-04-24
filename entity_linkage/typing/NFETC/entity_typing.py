@@ -2,6 +2,9 @@
 Group5. Entity Typing 
 '''
 
+#GitHub Link - https://github.com/easy1one/Entity_Type_api
+#Parent class - https://github.com/easy1one/Entity_Type_api/blob/master/entity_typing.py
+
 import abc
 
 class entity_typing(abc.ABC):
@@ -39,4 +42,22 @@ class entity_typing(abc.ABC):
 		output: list contatining all output data including (f1 score, and MRR if present); set default value if the code is not applicable
 		'''
 
+		pass
+
+	@abc.abstractmethod
+	def save_model(self, file):
+		"""
+
+		:param file: Where to save the model - Optional function
+		:return:
+		"""
+		pass
+
+	@abc.abstractmethod
+	def load_model(self, file):
+		"""
+
+		:param file: From where to load the model - Optional function
+		:return:
+		"""
 		pass
