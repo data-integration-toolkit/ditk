@@ -61,7 +61,7 @@ MUST be called before any other functions
 
 
 ### Benchmarks
-* AIDA-CoNLL
+* AIDA-CoNLL (currently available-refer the original author for full data)
 * AQUANT
 * ACE
 
