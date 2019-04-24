@@ -1,11 +1,9 @@
 # Structured Gradient Tree Boosting
 
 ## Requirements
-python3
-
-scikit-learn(0.19.1)
-
-numpy (1.15.0)
+* python3
+* scikit-learn(0.19.1)
+* numpy (1.15.0)
 
 ## Data
 
@@ -14,8 +12,10 @@ data ('AIDA-PPR-processed-sample.json') is available in the [data](data) folder:
 * The entity candidates are generated based on the [PPRforNED](https://github.com/masha-p/PPRforNED) candidate
 generation system.
 * The system uses 19 local features, including 3 prior features, 4 NER features,
+* file format is:(mentioned_entity, offset_pairs, highest_rank_candidate, set of (candidate_entity, label, features))
 2 entity popularity features, 4 entity type features, and 6 context features. 
 Please look into the paper for details.
+
 
 The system also uses entity-entity features, which can be quickly computed
 on-the-fly. Here, we provide pre-computed entity-entity features (3 features
