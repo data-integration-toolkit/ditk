@@ -1,42 +1,52 @@
 # ConvKB: A Novel Embedding Model for Knowledge Base Completion Based on Convolutional Neural Network
 
-## Usage
-
-### Requirements
+## Requirements
 - Python 3
 - Tensorflow >= 1.6
 
-### Training
-To run the program:
+## Usage
 
-        python train.py --embedding_dim <int> --num_filters <int> --learning_rate <float> --name <dataset_name> [--useConstantInit] --model_name <name_of_saved_model>
+### read_data
+MUST be called before any other functions
 
-**Required parameters:** 
+#### required parameters:
+* data_name: data file name
 
-`--embedding_dim`: Dimensionality of entity and relation embeddings.  
+#### optional parameter:
+* split_ratio: ratio to split the dataset into (train, dev, test)
+* embedding_dim: dimensionality of entity and relation embeddings (default=50)
+* batch_size: batch size (default=50)
 
-`--num_filters`: Number of filters.
+### train
 
-`--learning_rate`: Initial learning rate.
+#### required parameters:
+* data: dataset for training 
 
-`--name`: Dataset name (WN18RR or FB15k-237).
+#### optional parameter:
+* num_epochs: number of training epochs (default=201)
+* save_step: saving step for later loading(default=200)
+* dropout_keep_prob: dropout keep probability (default: 1.0).
+* l2_reg_lambda: L2 regularizaion lambda (default: 0.001)
 
-`--useConstantInit`: Initialize filters by [0.1, 0.1, -0.1]. Otherwise, initialize filters by a truncated normal distribution.
+### predict
 
-`--model_name`: Name of saved models.
+#### required parameters:
+* data: dataset for predicting
 
-**Optional parameters:** 
+#### optional parameter:
+* model_index: index of loading model (default=200)
+* dropout_keep_prob: dropout keep probability (default: 1.0).
+* l2_reg_lambda: L2 regularizaion lambda (default: 0.001)
 
-`--l2_reg_lambda`: L2 regularizaion lambda (Default: 0.001).
-  
-`--dropout_keep_prob`: Dropout keep probability (Default: 1.0).
-  
-`--num_epochs`: Number of training epochs (Default: 200).
+### evaluate
 
-`--run_folder`: Specify directory path to save trained models.
+#### required parameters:
+* data: dataset for predicting
 
-`--batch_size`: Batch size.
-
+#### optional parameter:
+* model_index: index of loading model (default=200)
+* dropout_keep_prob: dropout keep probability (default: 1.0).
+* l2_reg_lambda: L2 regularizaion lambda (default: 0.001)
 
 ## Benchmarks
 * WN18 / WN18RR
