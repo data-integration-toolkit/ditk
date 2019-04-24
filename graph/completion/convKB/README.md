@@ -17,6 +17,7 @@ MUST be called before any other functions
 * embedding_dim: dimensionality of entity and relation embeddings (default=50)
 * batch_size: batch size (default=50)
 
+
 ### train
 
 #### required parameters:
@@ -28,6 +29,7 @@ MUST be called before any other functions
 * dropout_keep_prob: dropout keep probability (default: 1.0).
 * l2_reg_lambda: L2 regularizaion lambda (default: 0.001)
 
+
 ### predict
 
 #### required parameters:
@@ -37,6 +39,7 @@ MUST be called before any other functions
 * model_index: index of loading model (default=200)
 * dropout_keep_prob: dropout keep probability (default: 1.0).
 * l2_reg_lambda: L2 regularizaion lambda (default: 0.001)
+
 
 ### evaluate
 
