@@ -62,7 +62,6 @@ class Task:
         mentions_train = np.array([self.embedding.text_transform2(x) for x in mentions_train])
         positions_train = np.array([self.embedding.position_transform(x) for x in positions_train])
 
-        # print("len:", len(mentions), ":", mentions)
         textlen = np.array([self.embedding.len_transform1(x) for x in words])
         words = np.array([self.embedding.text_transform1(x) for x in words])
         mentionlen = np.array([self.embedding.len_transform2(x) for x in mentions])
@@ -246,22 +245,38 @@ class Task:
         self.logger.info("Final Evaluation")
         self.logger.info("\t\tRun\t\tAcc\t\tMacro\t\tMicro")
 
-        for i in range(self.cv_runs):
-            sess = self.create_session()
+        # for i in range(self.cv_runs):
+        sess = self.create_session()
 
-            if os.access(config.CHECKPOINT_DIR + "/checkpoint", os.R_OK): 
-                # Restored pre-trained model
-                print(">>> Restored prev-trained model...")
-                self.saver.restore(sess, self.checkpoint_prefix)
+        if os.access(config.CHECKPOINT_DIR + "/checkpoint", os.R_OK): 
+            # Restored pre-trained model
+            print(">>> Restored prev-trained model...")
+            self.saver.restore(sess, self.checkpoint_prefix)
 
-            else : 
-                print(">>> Create new Model model...")
-                sess.run(tf.global_variables_initializer())
+        else : 
+            print(">>> Create new Model model...")
+            sess.run(tf.global_variables_initializer())
 
-            preds = self.model.predict(sess, test_data) # test_data == self.full_test_set
-            sess.close()
+        preds = self.model.predict(sess, test_data) # test_data == self.full_test_set
+        sess.close()
 
         return preds
+
+    def load(self):
+        # for i in range(self.cv_runs):
+        sess = self.create_session()
+
+        if os.access(config.CHECKPOINT_DIR + "/checkpoint", os.R_OK): 
+            # Restored pre-trained model
+            print(">>> Restored prev-trained model...")
+            self.saver.restore(sess, self.checkpoint_prefix)
+
+        else : 
+            print(">>> There is NO pre-trained model...")
+            sess.run(tf.global_variables_initializer())
+
+        sess.close()
+
 
     def evaluate(self, full=False):
         self.logger.info("Params")
@@ -271,8 +286,6 @@ class Task:
         accs = []
         macros = []
         micros = []
-
-        tmp_pred = [] #ADDed
 
         for i in range(self.cv_runs):
             sess = self.create_session()
@@ -285,7 +298,6 @@ class Task:
                 preds = self.model.predict(sess, self.test_set)
                 acc, macro, micro = self.get_scores(preds)
 
-            tmp_pred.append(preds) #ADDed
             accs.append(acc)
             macros.append(macro)
             micros.append(micro)
@@ -303,12 +315,15 @@ class Task:
         self.logger.info("Avg Acc %.3f(+-%.3f) Macro %.3f(+-%.3f) Micro %.3f(+-%.3f)" %
                 (avg_acc, std_acc, avg_macro, std_macro, avg_micro, std_micro))
 
-        return tmp_pred #ADDed
-
     def add_save(self, train_data):
         sess = self.create_session()
         sess.run(tf.global_variables_initializer())
-        self.model.fit(sess, train_data)
+
+
+        for i in range(self.cv_runs):
+            print(">>> Training", i, "epoch")
+            self.model.fit(sess, train_data)
+
         path = self.saver.save(sess, self.checkpoint_prefix)
         self.embedding.save(self.checkpoint_prefix)
         print("Saved model to {}".format(path))
@@ -321,6 +336,7 @@ class Task:
         path = self.saver.save(sess, self.checkpoint_prefix)
         self.embedding.save(self.checkpoint_prefix)
         print("Saved model to {}".format(path))
+
 
 class TaskOptimizer:
     def __init__(self, model_name, data_name, cv_runs, max_evals, logger):
