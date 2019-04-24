@@ -95,7 +95,7 @@ Extracted downsized word embedding only for sample data is under data folder; `d
 *Therefore, you can directly run main.py to call ALL functions with sample data and word embedding dataset that I uploaded!*<br>
 
 ## Demo Video on YouTube
-https://youtu.be/oNmLbJU-HHI <br>
+https://youtu.be/u5q_VIAOy90 <br>
 Run Sample input with only 1 epoch training NFETC model on Jupyter<br>
 Jupyter has same flow with main.py here<br>
 
