@@ -1,6 +1,9 @@
 # Structured Gradient Tree Boosting
 
-
+## Requirements
+python3
+scikit-learn(0.19.1)
+numpy (1.15.0)
 
 ## Data
 
@@ -21,16 +24,11 @@ per entity pair) for the AIDA-CoNLL dataset, which is available in the
 
 
 
-# Original Author
+## Original Author
 Author: Yi Yang
 
 Contact: yyang464@bloomberg.net
 
-
-## Basic description
-
-This is the Python implementation of the structured gradient tree boosting model 
-for collective named entity disambiguation, described in
 
     Yi Yang, Ozan Irsoy, and Kazi Shefaet Rahman 
     "Collective Entity Disambiguation with Structured Gradient Tree Boosting"
