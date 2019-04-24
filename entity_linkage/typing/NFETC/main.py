@@ -58,8 +58,8 @@ def main(input_file_path):
 
 if __name__ == "__main__":
 
-	# input_file_path = "./data/corpus/Wiki/entity_typing_test_input.tsv" # filtered data
-	input_file_path = "./data/corpus/Others/entity_typing_test_input.txt" # raw data
+	input_file_path = "./data/corpus/Others/entity_typing_test_input.tsv" # filtered data
+	# input_file_path = "./data/corpus/Others/entity_typing_test_input.txt" # raw data
 
 	output_file_path = main(input_file_path)
 
