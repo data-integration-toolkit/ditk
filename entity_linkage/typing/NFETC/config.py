@@ -13,7 +13,7 @@ OUTPUT_DIR = "%s/output" % ROOT_PATH
 
 # -------------------- DATA ----------------------
 
-WIKI_ALL = "%s/all.txt" % WIKI_DATA_PATH
+WIKI_ALL = "%s/entity_typing_test_input.txt" % WIKI_DATA_PATH
 WIKI_TRAIN = "%s/train.txt" % WIKI_DATA_PATH
 WIKI_VALID = "%s/dev.txt" % WIKI_DATA_PATH
 WIKI_TEST = "%s/test.txt" % WIKI_DATA_PATH
@@ -22,7 +22,7 @@ WIKI_TYPE = "%s/type.pkl" % WIKI_DATA_PATH
 WIKI_TRAIN_CLEAN = "%s/train_clean.tsv" % WIKI_DATA_PATH
 WIKI_TEST_CLEAN = "%s/test_clean.tsv" % WIKI_DATA_PATH
 
-ONTONOTES_ALL = "%s/all.txt" % ONTONOTES_DATA_PATH
+ONTONOTES_ALL = "%s/entity_typing_test_input.txt" % ONTONOTES_DATA_PATH
 ONTONOTES_TRAIN = "%s/train.txt" % ONTONOTES_DATA_PATH
 ONTONOTES_VALID = "%s/dev.txt" % ONTONOTES_DATA_PATH
 ONTONOTES_TEST = "%s/test.txt" % ONTONOTES_DATA_PATH
@@ -31,7 +31,7 @@ ONTONOTES_TYPE = "%s/type.pkl" % ONTONOTES_DATA_PATH
 ONTONOTES_TRAIN_CLEAN = "%s/train_clean.tsv" % ONTONOTES_DATA_PATH
 ONTONOTES_TEST_CLEAN = "%s/test_clean.tsv" % ONTONOTES_DATA_PATH
 
-WIKIM_ALL = "%s/all.txt" % WIKIM_DATA_PATH
+WIKIM_ALL = "%s/entity_typing_test_input.txt" % WIKIM_DATA_PATH
 WIKIM_TRAIN = "%s/train.txt" % WIKIM_DATA_PATH
 WIKIM_VALID = "%s/dev.txt" % WIKIM_DATA_PATH
 WIKIM_TEST = "%s/test.txt" % WIKIM_DATA_PATH
@@ -47,7 +47,7 @@ EMBEDDING_DATA = "%s/glove.840B.300d.txt" % DATA_PATH
 # --------------------- DATA extra -----------------------
 OTHERS_DATA_PATH = "%s/corpus/Others" % DATA_PATH
 
-OTHERS_ALL = "%s/all.txt" % OTHERS_DATA_PATH
+OTHERS_ALL = "%s/entity_typing_test_input.txt" % OTHERS_DATA_PATH
 OTHERS_TRAIN = "%s/train.txt" % OTHERS_DATA_PATH
 OTHERS_VALID = "%s/dev.txt" % OTHERS_DATA_PATH
 OTHERS_TEST = "%s/test.txt" % OTHERS_DATA_PATH
