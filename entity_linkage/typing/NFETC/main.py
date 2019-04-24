@@ -10,15 +10,16 @@ def main(input_file_path):
 	# data_name = "wiki"
 	# model_name = "best_nfetc_wiki"
 	data_name = "others"
-	model_name = "nfetc"
-	# ratio = (0.90, 0.05, 0.05)
+	model_name = "best_nfetc_wiki"
 	ratio = (0.7, 0.15, 0.15)
+	epoch_num = 5
 
 	# Mandatory options for my Model
 	options = {}
 	options["data_name"] = data_name
 	options["ratio"] = ratio
 	options["model_name"] = model_name
+	options["epoch_num"] = epoch_num
 	# model_names = {
 	#	 "nfetc": param_space_nfetc,
 	#	 "best_nfetc_wiki": param_space_best_nfetc_wiki,
@@ -40,12 +41,16 @@ def main(input_file_path):
 	myModel.train(train_data, options) # saved trained model
 	
 	print("> Predicting ...")
-	# predict_data = None
 	predict_data = myModel.predict(test_data, None, options) 
 
 	print("> Evaluating ...")
 	acc, macro, micro = myModel.evaluate(test_data, predict_data, options)
-	# print(acc, macro, micro)
+
+	print("> Save model ... ")
+	myModel.save_model()
+
+	print(">Load Model ... ")
+	myModel.load_model()
 
 	output_file_path = "./output/" + model_name + ".tsv"
 	return output_file_path
@@ -53,24 +58,9 @@ def main(input_file_path):
 
 if __name__ == "__main__":
 
-	# input_file_path = "./data/corpus/Wiki/all.tsv" # cleaned data
-	input_file_path = "./data/corpus/Others/all.txt" # raw data
-	# input_file_path = "./data/corpus/Wiki/imputation_test_input.tsv" # raw data
-	# input_file_path = "./data/corpus/Wiki/imputation_test_input.txt" # raw data
+	# input_file_path = "./data/corpus/Wiki/entity_typing_test_input.tsv" # filtered data
+	input_file_path = "./data/corpus/Others/entity_typing_test_input.txt" # raw data
 
 	output_file_path = main(input_file_path)
 
 	print(output_file_path)
-
-
-
-
-
-
-
-
-
-
-
-
-	
