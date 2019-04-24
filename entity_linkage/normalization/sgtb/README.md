@@ -10,7 +10,7 @@ numpy (1.15.0)
 ## Data
 
 The preprocessed [AIDA-CoNLL](https://www.mpi-inf.mpg.de/departments/databases-and-information-systems/research/yago-naga/aida/downloads/)
-data ('AIDA-PPR-processed.json') is available in the [data](data) folder:
+data ('AIDA-PPR-processed-sample.json') is available in the [data](data) folder:
 * The entity candidates are generated based on the [PPRforNED](https://github.com/masha-p/PPRforNED) candidate
 generation system.
 * The system uses 19 local features, including 3 prior features, 4 NER features,
