@@ -1,5 +1,27 @@
 # Structured Gradient Tree Boosting
 
+
+
+## Data
+
+The preprocessed [AIDA-CoNLL](https://www.mpi-inf.mpg.de/departments/databases-and-information-systems/research/yago-naga/aida/downloads/)
+data ('AIDA-PPR-processed.json') is available in the [data](data) folder:
+* The entity candidates are generated based on the [PPRforNED](https://github.com/masha-p/PPRforNED) candidate
+generation system.
+* The system uses 19 local features, including 3 prior features, 4 NER features,
+2 entity popularity features, 4 entity type features, and 6 context features. 
+Please look into the paper for details.
+
+The system also uses entity-entity features, which can be quickly computed
+on-the-fly. Here, we provide pre-computed entity-entity features (3 features
+per entity pair) for the AIDA-CoNLL dataset, which is available in the 
+[data](data) folder ('ent_ent_feats.txt.gz').
+
+
+
+
+
+# Original Author
 Author: Yi Yang
 
 Contact: yyang464@bloomberg.net
@@ -26,29 +48,3 @@ BibTeX
       pages={777--786},
       year={2018}
     }
-
-
-
-## Data
-
-The preprocessed [AIDA-CoNLL](https://www.mpi-inf.mpg.de/departments/databases-and-information-systems/research/yago-naga/aida/downloads/)
-data ('AIDA-PPR-processed.json') is available in the [data](data) folder:
-* The entity candidates are generated based on the [PPRforNED](https://github.com/masha-p/PPRforNED) candidate
-generation system.
-* The system uses 19 local features, including 3 prior features, 4 NER features,
-2 entity popularity features, 4 entity type features, and 6 context features. 
-Please look into the paper for details.
-
-The system also uses entity-entity features, which can be quickly computed
-on-the-fly. Here, we provide pre-computed entity-entity features (3 features
-per entity pair) for the AIDA-CoNLL dataset, which is available in the 
-[data](data) folder ('ent_ent_feats.txt.gz').
-
-
-## Reproduce results
-
-You can reproduce the SGTB-BSG results by running:
-```
-python structured_learner.py --num-thread=16 --num-epoch=250
-```
-I got 95.32 accuracy on the test dataset. Training took 35 min on 16 threads.
