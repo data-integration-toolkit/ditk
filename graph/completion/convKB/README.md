@@ -59,6 +59,8 @@ MUST be called before any other functions
 * MRR
 * HITS@10
 
+## Demo Video
+
 # Original Author 
 This program provides the implementation of the CNN-based model ConvKB for the knowledge base completion task. ConvKB obtains new state-of-the-art results on two standard datasets: WN18RR and FB15k-237 as described in [the paper](http://www.aclweb.org/anthology/N18-2053):
 
