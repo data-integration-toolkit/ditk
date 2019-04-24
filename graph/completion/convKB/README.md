@@ -61,24 +61,16 @@ To run the program:
 
 `--batch_size`: Batch size.
 
-### Reproduce the ConvKB results 
 
-To reproduce the ConvKB results published in the paper:      
-                
-        $ python train.py --embedding_dim 100 --num_filters 50 --learning_rate 0.000005 --name FB15k-237 --useConstantInit --model_name fb15k237
-        
-        $ python train.py --embedding_dim 50 --num_filters 500 --learning_rate 0.0001 --name WN18RR --model_name wn18rr --saveStep 50
-                
-### Evaluation metrics
+## Benchmarks
+* WN18 / WN18RR
+* FB15 / FB15k-237
 
-File `eval.py` provides ranking-based scores as evaluation metrics, including the mean rank, the mean reciprocal rank and Hits@10 in a setting protocol "Filtered".
+## Evaluation Metrics
+* MRR
+* HITS@10
 
-Files `evalFB15k-237.sh` and `evalWN18RR.sh` contain evaluation commands. Depending on the memory resources, you should change the value of `--num_splits` to a suitable value to get a faster process. To get the results (supposing `num_splits = 8`):
-        
-        $ python eval.py --embedding_dim 100 --num_filters 50 --name FB15k-237 --useConstantInit --model_name fb15k237 --num_splits 8 --decode
-        
-        $ python eval.py --embedding_dim 50 --num_filters 500 --name WN18RR --model_name wn18rr --num_splits 8 --decode
-         
+
 ## Acknowledgments     
 
 I would like to thank Denny Britz for implementing a CNN for text classification in TensorFlow.
