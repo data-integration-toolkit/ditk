@@ -18,8 +18,6 @@ np.random.seed(46)
 DEFAULT_LOG_DIR = os.path.join(os.path.abspath(os.path.dirname(__file__)),
                                '{}'.format(datetime.now().strftime('%Y%m%d_%H%M')))
 
-INPUT_FILE_DIRECTORY = "D:\\USC\\CS548\\groupdat\\FB15k"
-
 
 class ANALOGY(GraphEmbedding):
     def __init__(self):
@@ -98,6 +96,13 @@ class ANALOGY(GraphEmbedding):
 
         # <--- implemented PER class
 
+    def input_var_utility(self, data_dict, argument, default_value):
+        if argument in data_dict:
+            ret = data_dict[argument]
+        else:
+            ret = data_dict[argument] = default_value
+        return ret
+
 # ##############################################################################################################
 # #### ERROR CHECK THAT FILES ARE LOADED ####
     def learn_embeddings(self, data, *args, **kwargs):
@@ -119,17 +124,50 @@ class ANALOGY(GraphEmbedding):
             return
 
         self.logger.info('Learning Embeddings...')
+
+        # if 'optimizer' in data:
+        #     opt_method = data['optimizer']
+        # else:
+        #     opt_method = data['optimizer'] = 'adagrad'
+
+        # opt_method = data['optimizer'] if 'optimizer' in data else 'adagrad'
+        # learning_rate = data['lr'] if 'lr' in data else 0.05
+        # l2_regularization = data['l2_reg'] if 'l2_reg' in data else 0.001
+        # gradient_clipping = data['gradclip'] if 'gradclip' in data else 0.05
+        # number_dimensions = data['dim'] if 'dim' in data else 200
+        # margin = data['margin'] if 'margin' in data else 1
+        # cp_ratio = data['cp_ratio'] if 'cp_ratio' in data else .5
+        # mode = data['mode'] if 'mode' in data else 'single'
+        # nbest = data['nbest'] if 'nbest' in data else 10 # only for hits@ metric
+        # filtered = data['filtered'] if 'filtered' in data else False
+        # batch = data['batch'] if 'batch' in data else 128
+        # save_step = data['save_step'] if 'save_step' in data else 30
+        # epoch = data['epoch'] if 'epoch' in data else 500
+        # negative = data['negative'] if 'negative' in data else 5
+
+        # set up arguments and defaults
+        opt_method = self.input_var_utility(data, 'opt', 'adagrad')
+        learning_rate = self.input_var_utility(data, 'lr', 0.05)
+        l2_regularization = self.input_var_utility(data, 'l2_reg', 0.001)
+        gradient_clipping = self.input_var_utility(data, 'gradclip', 0.05)
+        number_dimensions = self.input_var_utility(data, 'dim', 200)
+        margin = self.input_var_utility(data, 'margin', 1)
+        cp_ratio = self.input_var_utility(data, 'cp_ratio', 0.5)
+        # CHECK MODE AND ERROR ############################################################################
+        mode = self.input_var_utility(data, 'mode', 'single')
+        metric = data['metric'] if 'metric' in data else 'mrr'
+        # CHECK MODE AND ERROR ############################################################################
+        nbest = self.input_var_utility(data, 'nbest', 10)
+        filtered = self.input_var_utility(data, 'filtered', False)
+        batch = self.input_var_utility(data, 'batch', 128)
+        save_step = self.input_var_utility(data, 'save_step', 30)
+        epoch = self.input_var_utility(data, 'epoch', 500)
+        negative = self.input_var_utility(data, 'negative', 5)
+
         self.logger.info('Arguments...')
         for arg, val in sorted(data.items()):
             self.logger.info('{:>10} -----> {}'.format(arg, val))
 
-        if 'optimizer' in data:
-            opt_method = data['optimizer']
-        else:
-            opt_method = data['optimizer'] = 'adagrad'
-
-        # opt_method = data['optimizer'] if 'optimizer' in data else 'adagrad'
-        learning_rate = data['lr'] if 'lr' in data else 0.05
         if opt_method == 'sgd':
             opt = SGD(learning_rate)
         elif opt_method == 'adagrad':
@@ -137,20 +175,11 @@ class ANALOGY(GraphEmbedding):
         else:
             raise NotImplementedError
 
-        l2_regularization = data['l2_reg'] if 'l2_reg' in data else 0.001
         if l2_regularization > 0:
             opt.set_l2_reg(l2_regularization)
 
-        gradient_clipping = data['gradclip'] if 'gradclip' in data else 0.05
         if gradient_clipping > 0:
             opt.set_gradclip(gradient_clipping)
-
-        number_dimensions = data['dim'] if 'dim' in data else 200
-        margin = data['margin'] if 'margin' in data else 1
-        cp_ratio = data['cp_ratio'] if 'cp_ratio' in data else .5
-
-        # CHECK MODE AND ERROR ############################################################################
-        mode = data['mode'] if 'mode' in data else 'single'
 
         self.model = ANALOGYModel(n_entity=self.n_entity,
                                   n_relation=self.n_relation,
@@ -164,24 +193,8 @@ class ANALOGY(GraphEmbedding):
         self.model.rels_to_save = self.rel_vocab
         self.model.ents_to_save = self.ent_vocab
 
-        metric = data['metric'] if 'metric' in data else 'mrr'
-
-        # CHECK MODE AND ERROR ############################################################################
-        nbest = data['nbest'] if 'nbest' in data else 10 # only for hits@ metric
-
-        filtered = data['filtered'] if 'filtered' in data else False
-
         evaluator = Evaluator(metric, nbest, filtered, self.whole_graph) \
             if self.valid_dat else None
-
-        batch = data['batch'] if 'batch' in data else 128
-        # batch
-        save_step = data['save_step'] if 'save_step' in data else 30
-        # save_step
-        epoch = data['epoch'] if 'epoch' in data else 500
-        # epoch
-        negative = data['negative'] if 'negative' in data else 5
-        # negative
 
         if filtered and self.valid_dat:
             evaluator.prepare_valid(self.valid_dat)
@@ -221,6 +234,8 @@ class ANALOGY(GraphEmbedding):
         """
         # ################################################## CHECK IF HAVE MODEL
 
+        suppress_output = kwargs.get("suppress_output", True)
+
         print("Running model evaluation")
         # ent_vocab = Vocab.load(data["entities"])
         # rel_vocab = Vocab.load(data["relations"])
@@ -246,8 +261,9 @@ class ANALOGY(GraphEmbedding):
         # model = Model.load_model(args.model)
 
         all_res = evaluator.run_all_matric(self.model, test_dat)
-        for metric in sorted(all_res.keys()):
-            print('{:20s}: {}'.format(metric, all_res[metric]))
+        if not suppress_output:
+            for metric in sorted(all_res.keys()):
+                print('{:20s}: {}'.format(metric, all_res[metric]))
 
         return all_res
 
@@ -303,6 +319,7 @@ class ANALOGY(GraphEmbedding):
         return rel_re_emb, rel_im_emb, rel_emb
 
     def retrieve_scoring_matrix(self, sub_words, rels_words):
+        # ################################################## CHECK IF HAVE MODEL
         subs = []
         rels = []
         for sw in sub_words:
