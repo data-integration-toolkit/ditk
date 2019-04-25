@@ -46,6 +46,7 @@ def main(input_file_path):
             "l2_reg": 0.001,
             "gradclip": 5,
             'filtered': True}
+
 # margin
 # cp_ratio
 # metric
@@ -64,7 +65,7 @@ def main(input_file_path):
                            # "relations": input_file_path + "relation2id.txt",
                            # "entities": input_file_path + "entity2id.txt"}
 
-    algorithm.evaluate(evaluate_file_names)
+    algorithm.evaluate(evaluate_file_names, suppress_output=False)
 
     #    ents = ['/m/08mbj32', '/m/08mbj5d', '/m/08mg_b']
     test_subs = ['/m/07z1m', '/m/03gqgt3', '/m/01c9f2']
