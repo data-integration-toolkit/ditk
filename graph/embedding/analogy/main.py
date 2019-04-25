@@ -56,9 +56,9 @@ def main(input_file_path):
 
     algorithm.learn_embeddings(parameters)
 
-    # algorithm.save_model(input_file_path + "analogy.mod")
+    algorithm.save_model(input_file_path + "analogy.mod")
 
-    # algorithm.load_model(input_file_path + "analogy.mod")
+    algorithm.load_model(input_file_path + "analogy.mod")
 
     evaluate_file_names = {"test": input_file_path + "test.txt",
                            "whole": input_file_path + "whole.txt"}
