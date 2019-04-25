@@ -2,12 +2,12 @@
 ### Graph Embedding Project for CSCI548@USC
 This code base implements the following paper:
 ##### Hanxiao Liu, Yuexin Wu, Yiming Yang. Analogical Inference for Multi-relational Embeddings. Proceedings of the 34th International Conference on Machine Learning, Sydney, Australia, PMLR 70, 2017. Paper: https://arxiv.org/pdf/1705.02426.pdf
-##### This code base simplifies/refactors this GitHub repo: https://github.com/mana-ysh/knowledge-graph-embeddings 
+##### This code base simplifies/refactors this GitHub repo: https://github.com/mana-ysh/knowledge-graph-embeddings to conform to a class project
  
 #### Datasets:
 This code has been tested on the FB15k and WN18 datasets. 
 
-Note: To conform to standards for the class project I modified the relations and entities input files, different from original code. If you wish to conform to original codes relation and entity files (suggested), substitute commented code in dataset.py with uncommented (line 65 with line 71) to not try to read the entity and relation number
+Note: To conform to standards for the class project I modified the relations and entities input files, different from original code. If you wish to conform to original codes relation and entity files (suggested), substitute commented code in dataset.py with uncommented (line 65 with line 71) to not read the entity and relation number
 
 Entities Example:
 ```text
@@ -16,7 +16,6 @@ Entities Example:
 /m/016ywr	2
 /m/01yjl	3
 ```
-
 Relations Example:
 ```text
 /sports/sports_team/roster./soccer/football_roster_position/player	8
@@ -24,7 +23,6 @@ Relations Example:
 /tv/tv_program/regular_cast./tv/regular_tv_appearance/character	10
 /architecture/structure/address./location/mailing_address/citytown	11
 ```
-
 Train/Validate/Test Example:
 ```text
 /m/017dcd	/m/06v8s0	/tv/tv_program/regular_cast./tv/regular_tv_appearance/actor
@@ -32,9 +30,7 @@ Train/Validate/Test Example:
 /m/01sl1q	/m/044mz_	/award/award_winner/awards_won./award/award_honor/award_winner
 /m/0cnk2q	/m/02nzb8	/soccer/football_team/current_roster./sports/sports_team_roster/position
 ```
-
-####Running the code (please load the Jupyter Notebook sample *analogy_notebook.ipynb* to aid you in running the code for the first time):
-
+#### Running the code (please load the Jupyter Notebook sample *analogy_notebook.ipynb* to aid you in running the code for the first time):
 1. Initialize a model
 ```python
 algorithm = ANALOGY()
@@ -61,6 +57,14 @@ parameters = {"mode": 'single',
               "l2_reg": 0.001,
               "gradclip": 5,
               'filtered': True}
+              
+# Other parameters not listed:
+# margin
+# cp_ratio
+# metric
+# nbest
+# batch
+# save_step
 
 algorithm.learn_embeddings(parameters)
 ```
@@ -75,6 +79,11 @@ algorithm.load_model(input_file_path + "analogy.mod")
 6. Retrieve embeddings.
 ```python
 test_subs = ['/m/07z1m', '/m/03gqgt3', '/m/01c9f2']
-
-
+print(algorithm.retrieve_entity_embeddings(test_subs))
 ```
+##### Results on WN18
+| Source        | MRR (filtered) | MRR (raw) | Hits@1 (Filtered) | Hits@3 (Filtered)
+| ------------- |:--------:|:------:|:------:|:------:| 
+| Paper      | 94.2 | 65.7 | 93.9 | 94.4
+| Code      | 94.2 | 58.5 | 93.8 | 94.5
+
