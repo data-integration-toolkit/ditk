@@ -32,19 +32,19 @@ Train/Validate/Test Example:
 /m/0cnk2q	/m/02nzb8	/soccer/football_team/current_roster./sports/sports_team_roster/position
 ```
 ---
-#### Running the code 
-#####(please load the Jupyter Notebook sample *analogy_notebook.ipynb* to aid you in running the code for the first time):
+### Running the code 
+##### (please load the Jupyter Notebook sample *analogy_notebook.ipynb* to aid you in running the code for the first time):
 1. Initialize a model
 ```python
 algorithm = ANALOGY()
 ```
 2. Load the Data Set
 ```python
-train_file_names = {"train": input_file_path + "train.txt",
-# Optional              "valid": input_file_path + "valid.txt",
-# Optional              "whole": input_file_path + "whole.txt",
-                        "relations": input_file_path + "relation2id.txt",
-                        "entities": input_file_path + "entity2id.txt"}
+train_file_names = {"train": "train.txt",
+# Optional          "valid": "valid.txt",
+# Optional          "whole": "whole.txt",
+                    "relations": "relation2id.txt",
+                    "entities": "entity2id.txt"}
 
 algorithm.read_dataset(train_file_names)
 ```
@@ -73,11 +73,11 @@ algorithm.learn_embeddings(parameters)
 ```
 4. Save the model (Use if you want to save training model for use later). Some models will take days to train!
 ```python
-algorithm.save_model(input_file_path + "analogy.mod")
+algorithm.save_model("analogy.mod")
 ```
 5. Load a model (Use if you saved a model above, allows you to have to not rerun training of model)
 ```python
-algorithm.load_model(input_file_path + "analogy.mod")
+algorithm.load_model("analogy.mod")
 ```
 6. Retrieve embeddings.
 ```python
@@ -91,7 +91,7 @@ print(algorithm.retrieve_entity_embeddings(test_subs))
 ```
 ---
 #### Evaluation Results
-#####WN18
+##### WN18
 | Source        | MRR (filtered) | MRR (raw) | Hits@1 (Filtered) | Hits@3 (Filtered)
 | ------------- |:--------:|:------:|:------:|:------:| 
 | Paper      | 94.2 | 65.7 | 93.9 | 94.4
