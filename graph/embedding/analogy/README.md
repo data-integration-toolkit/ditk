@@ -119,7 +119,7 @@ print(algorithm.retrieve_entity_embeddings(test_subs))
 
 ---
 
-###References:
+### References:
 1. Maximilian Nickel, Volker Tresp, and Hans-Peter Kriegel. A three-way model for collective learning on multi-relational data. Proceedings of the 28th international conference on machine learning (ICML-11), pp. 809–816, 2011.
 
 2. Maximilian Nickel, Lorenzo Rosasco, and Tomaso A Poggio. Holographic embeddings of knowledge graphs. In Proceedings of the Thirtieth AAAI Conference on Artificial Intelligence, February 12-17, 2016, Phoenix, Arizona, USA., pp. 1955–1961, 2016. URL http://www.aaai.org/ocs/index.php/AAAI/AAAI16/paper/view/12484.
