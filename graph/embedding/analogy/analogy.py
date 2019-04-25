@@ -1,4 +1,5 @@
 from graph.embedding.graph_embedding import GraphEmbedding
+
 from datetime import datetime
 import logging
 import numpy as np
@@ -21,7 +22,19 @@ INPUT_FILE_DIRECTORY = "D:\\USC\\CS548\\groupdat\\FB15k"
 
 
 class ANALOGY(GraphEmbedding):
-    def __init__(self, logger_path=None):
+    def __init__(self):
+        self.n_entity = 0
+        self.n_relation = 0
+        self.train_dat = None
+        self.valid_dat = None
+        self.whole_graph = None
+        self.model = None
+        self.ent_vocab = None
+        self.rel_vocab = None
+        self.logger = None
+        self.log_path = None
+
+    def prepare_logger(self, logger_path):
         # logger_path = kwargs.get("log_files_path", None)
         if logger_path is None:
             logger_path = DEFAULT_LOG_DIR
@@ -38,16 +51,7 @@ class ANALOGY(GraphEmbedding):
         fmt = logging.Formatter('%(asctime)s %(levelname)s %(message)s')
         file_handler.setFormatter(fmt)
         self.logger.addHandler(file_handler)
-        self.logger.info(" Initializing ANALOGY ... ")
-
-        self.n_entity = 0
-        self.n_relation = 0
-        self.train_dat = None
-        self.valid_dat = None
-        self.whole_graph = None
-        self.model = None
-        self.ent_vocab = None
-        self.rel_vocab = None
+        # self.logger.info(" Initializing ANALOGY ... ")
 
     def read_dataset(self, file_names, *args, **kwargs):  # <--- implemented PER class
         """ Reads datasets and convert them to proper format for train or test.
@@ -63,6 +67,8 @@ class ANALOGY(GraphEmbedding):
         Raises:
             None
         """
+        logger_path = kwargs.get("logger_path", None)
+        self.prepare_logger(logger_path)
 
         self.logger.info('Input Files ...')
         for arg, val in sorted(file_names.items()):
@@ -70,11 +76,12 @@ class ANALOGY(GraphEmbedding):
 
         self.ent_vocab = Vocab.load(file_names["entities"])
         self.rel_vocab = Vocab.load(file_names["relations"])
+
         # rel_vocab = Vocab.load(args.rel) OLD
         self.n_entity, self.n_relation = len(self.ent_vocab), len(self.rel_vocab)
 
         # preparing data
-        self.logger.info('preparing data...')
+        self.logger.info('Preparing data...')
         # train_dat = TripletDataset.load(args.train, ent_vocab, rel_vocab) OLD
         # valid_dat = TripletDataset.load(args.valid, ent_vocab, rel_vocab) if args.valid else None OLD
         self.train_dat = TripletDataset.load(file_names["train"], self.ent_vocab, self.rel_vocab)
@@ -82,10 +89,12 @@ class ANALOGY(GraphEmbedding):
             if "valid" in file_names else None
 
         if "whole" in file_names:
-            self.logger.info('loading whole graph...')
+            self.logger.info('   Loading whole graph...')
             self.whole_graph = TensorTypeGraph.load_from_raw(file_names["whole"], self.ent_vocab, self.rel_vocab)
         else:
             self.whole_graph = None
+
+        self.logger.info('   Done loading data...')
 
         # <--- implemented PER class
 
@@ -105,7 +114,11 @@ class ANALOGY(GraphEmbedding):
         Raises:
             None
         """
+        if self.train_dat is None:
+            print("No Data Loaded - Use read_dataset method before attempting to train")
+            return
 
+        self.logger.info('Learning Embeddings...')
         self.logger.info('Arguments...')
         for arg, val in sorted(data.items()):
             self.logger.info('{:>10} -----> {}'.format(arg, val))
@@ -146,6 +159,11 @@ class ANALOGY(GraphEmbedding):
                                   cp_ratio=cp_ratio,
                                   mode=mode)
         # CHECK MODE AND ERROR ############################################################################
+
+        # My Add - Also store in model so can be pickled
+        self.model.rels_to_save = self.rel_vocab
+        self.model.ents_to_save = self.ent_vocab
+
         metric = data['metric'] if 'metric' in data else 'mrr'
 
         # CHECK MODE AND ERROR ############################################################################
@@ -201,16 +219,28 @@ class ANALOGY(GraphEmbedding):
         Raises:
             None
         """
-        print("evaluate")
-        ent_vocab = Vocab.load(data["entities"])
-        rel_vocab = Vocab.load(data["relations"])
+        # ################################################## CHECK IF HAVE MODEL
+
+        print("Running model evaluation")
+        # ent_vocab = Vocab.load(data["entities"])
+        # rel_vocab = Vocab.load(data["relations"])
+        ent_vocab = self.model.ents_to_save
+        rel_vocab = self.model.rels_to_save
 
         # preparing data
         test_dat = TripletDataset.load(data["test"], ent_vocab, rel_vocab)
 
-        filtered = True if 'filtered' in data else False
+        filtered = True if 'whole' in data else False
 
-        evaluator = Evaluator('all', None, filtered, data['filtered'])
+        if filtered:
+            print('loading whole graph...')
+            # from utils.graph import TensorTypeGraph
+            self.whole_graph = TensorTypeGraph.load_from_raw(data['whole'], ent_vocab, rel_vocab)
+        else:
+            self.whole_graph = None
+
+        evaluator = Evaluator('all', None, filtered, self.whole_graph)
+
         if filtered:
             evaluator.prepare_valid(test_dat)
         # model = Model.load_model(args.model)
@@ -226,9 +256,11 @@ class ANALOGY(GraphEmbedding):
         :param file: Where to save the model - Optional function
         :return:
         """
-        print("save model:" + file)
+        # ################################################# CHECK IF MODEL PRESENT
+        print("Saving model: " + file)
         with open(file, 'wb') as fw:
-            dill.dump(self, fw)
+            dill.dump(self.model, fw)
+        print("  Model saved:")
 
         # self.model.save_model(file)
 
@@ -237,23 +269,46 @@ class ANALOGY(GraphEmbedding):
         :param file: From where to load the model - Optional function
         :return:
         """
-        print("load model: " + file)
-        self.model.load_model(file)
+        print("Loading model: " + file)
+        # self.model = ANALOGY()
+        with open(file, 'rb') as f:
+            self.model = dill.load(f)
 
-"""
-# Sample workflow:
+        # self.model = self.model.load_model(file)
+        print("   Model loaded")
 
-inputFiles = ['thisDir/file1.txt','thatDir/file2.txt','./file1.txt']
+    def retrieve_entity_embeddings(self, words):
+        # ################################################## CHECK IF HAVE MODEL
+        entities = []
+        for word in words:
+            entities.append(self.model.ents_to_save.word2id[word])
+        # entities = self.model.ents_to_save.word2id(words)
+        # print(words)
+        # print(entities)
+        sub_re_emb, sub_im_emb, sub_emb = self.model.pick_ent(entities)
+        return sub_re_emb, sub_im_emb, sub_emb
+        # print(sub_emb)
+        # print(sub_re_emb)
+        # print(sub_im_emb)
+        # for word in words:
+        #     id = self.ent_vocab.word2id[word]
+        # sub_re_emb, sub_im_emb, sub_emb = self.pick_ent(entities)
 
-myModel = myClass(ditk.Graph_Embedding)  # instatiate the class
+    def retrieve_relations_embeddings(self, words):
+        # ################################################## CHECK IF HAVE MODEL
+        relations = []
+        for word in words:
+            relations.append(self.model.rels_to_save.word2id[word])
+        rel_re_emb, rel_im_emb, rel_emb = self.model.pick_ent(relations)
+        return rel_re_emb, rel_im_emb, rel_emb
 
-data = myModel.read_dataset(inputFiles)  # read in a dataset for training
-
-myModel.learn_embeddings(data)  # builds and trains the model and stores model state in object properties or similar
-
-results = myModel.evaluate(data)  # calculate evaluation results
-
-print(results)
-
-"""
-
+    def retrieve_scoring_matrix(self, sub_words, rels_words):
+        subs = []
+        rels = []
+        for sw in sub_words:
+            subs.append(self.model.ents_to_save.word2id[sw])
+        for rw in rels_words:
+            rels.append(self.model.rels_to_save.word2id[rw])
+        sm = self.model.cal_scores(subs, rels)
+        # return score matrix
+        return sm

@@ -1,9 +1,7 @@
 
 from graph.embedding.analogy.base_model import BaseModel
 from graph.embedding.analogy.param import LookupParameter
-# from math_utils import *
 from graph.embedding.analogy.math_utils import *
-from graph.embedding.analogy.graph_util import *
 from graph.embedding.analogy.dataset import *
 
 
@@ -25,6 +23,10 @@ class ANALOGYModel(BaseModel):
             raise NotImplementedError
         comp_dim = int(self.dim * self.complex_ratio)
         dist_dim = self.dim - comp_dim
+
+        # I added so could save in pickle
+        self.ents_to_save = None  # Vocab()
+        self.rels_to_save = None  # Vocab()
 
         self.params = {'e_re': LookupParameter(name='e_re', shape=(self.n_entity, comp_dim)),
                        'e_im': LookupParameter(name='e_im', shape=(self.n_entity, comp_dim)),
