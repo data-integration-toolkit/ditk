@@ -1,9 +1,10 @@
 # ANALOGY
+
 ### Graph Embedding Project for CSCI548@USC
 This code base implements the following paper:
 ##### Hanxiao Liu, Yuexin Wu, Yiming Yang. Analogical Inference for Multi-relational Embeddings. Proceedings of the 34th International Conference on Machine Learning, Sydney, Australia, PMLR 70, 2017. Paper: https://arxiv.org/pdf/1705.02426.pdf
 ##### This code base simplifies/refactors this GitHub repo: https://github.com/mana-ysh/knowledge-graph-embeddings to conform to a class project
- 
+---
 #### Datasets:
 This code has been tested on the FB15k and WN18 datasets. 
 
@@ -30,7 +31,9 @@ Train/Validate/Test Example:
 /m/01sl1q	/m/044mz_	/award/award_winner/awards_won./award/award_honor/award_winner
 /m/0cnk2q	/m/02nzb8	/soccer/football_team/current_roster./sports/sports_team_roster/position
 ```
-#### Running the code (please load the Jupyter Notebook sample *analogy_notebook.ipynb* to aid you in running the code for the first time):
+---
+#### Running the code 
+#####(please load the Jupyter Notebook sample *analogy_notebook.ipynb* to aid you in running the code for the first time):
 1. Initialize a model
 ```python
 algorithm = ANALOGY()
@@ -81,9 +84,21 @@ algorithm.load_model(input_file_path + "analogy.mod")
 test_subs = ['/m/07z1m', '/m/03gqgt3', '/m/01c9f2']
 print(algorithm.retrieve_entity_embeddings(test_subs))
 ```
-##### Results on WN18
+7. Retrieve scoring matrix (each row is the s,r scored against each other entity)
+```python
+    sm = algorithm.retrieve_scoring_matrix(test_subs, test_rels)
+    print(sm)
+```
+---
+#### Evaluation Results
+#####WN18
 | Source        | MRR (filtered) | MRR (raw) | Hits@1 (Filtered) | Hits@3 (Filtered)
 | ------------- |:--------:|:------:|:------:|:------:| 
 | Paper      | 94.2 | 65.7 | 93.9 | 94.4
 | Code      | 94.2 | 58.5 | 93.8 | 94.5
+##### FB15k
+| Source        | MRR (filtered) | MRR (raw) | Hits@1 (Filtered) | Hits@3 (Filtered)
+| ------------- |:--------:|:------:|:------:|:------:| 
+| Paper      | 94.1 | 58.7 | 93.6 | 94.5
+| Code      | 94.3 | 58.2 | 94.0 | 94.6
 
