@@ -1,0 +1,18 @@
+Main file:
+ditk/text/similarity/semantic_neural_network/main.py
+
+Modules: 
+Config File: ditk/text/similarity/semantic_neural_network/modules/config.py
+Read Dataset: ditk/text/similarity/semantic_neural_network/modules/input_data.py
+Preprocess: ditk/text/similarity/semantic_neural_network/modules/embedding.py
+Train: ditk/text/similarity/semantic_neural_network/modules/model.py
+Evaluate: ditk/text/similarity/semantic_neural_network/modules/result_data.py
+
+Input Stored:
+Datasets- ditk/text/similarity/semantic_neural_network/datasets/dataset-name/
+word2vec- Model output- ditk/text/similarity/semantic_neural_network/word2vec/
+
+Results stored:
+Tokenizers- ditk/text/similarity/semantic_neural_network/tokenizers/
+Model output- ditk/text/similarity/semantic_neural_network/results/
+Predicted output- ditk/text/similarity/semantic_neural_network/results/output/
