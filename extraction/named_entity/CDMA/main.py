@@ -25,11 +25,12 @@ def main(input_file_path):
     #plt.show()
     """
     p, f1, r = model.evaluate(None, None)
-    output_path = model.predict(input_file_path+"/test")
+    #output_path = model.predict(input_file_path+"/test")
+    output_path = model.predict("ner_test_input.txt") # G6 NER test input_sample
     return output_path
 
 
 if __name__ == "__main__":
-    path = "datasets/ontonotes-nw"
+    path = "datasets/ritter2011" # input training path
     out_path = main(path)
     print("Predict_output_path: ", out_path)
