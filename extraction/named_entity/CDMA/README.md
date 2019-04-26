@@ -29,7 +29,7 @@ The proposed method pretrained model with the source domain dataset, then applie
 - Precision: 84.46%
 
 ## Links:
-- Jupyter Notebook: 
+- Jupyter Notebook: https://github.com/hsia947/ditk/blob/develop/extraction/named_entity/CDMA/cdma_main.ipynb
 - Youtube: 
 
 
