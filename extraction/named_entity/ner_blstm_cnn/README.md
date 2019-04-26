@@ -1,50 +1,57 @@
-#### Better NER [BERT Named-Entity-Recognition](https://github.com/kamalkraj/BERT-NER)
+# NER_BLSTM_CNN
+- Named-Entity-Recognition-with-Bidirectional-LSTM-CNNs
+- Jason Chiu and Eric Nichols, Named entity recognition with bidirectional LSTM-CNNs, Transactions of the Association for Computational Linguistics, Volume 4, p.357-370, 2016. [original paper](https://aclweb.org/anthology/Q16-1026)
 
 
-# Named-Entity-Recognition-with-Bidirectional-LSTM-CNNs
-  A keras implementation of Bidirectional-LSTM_CNNs for Named-Entity-Recoganition. The original paper can be found at https://arxiv.org/abs/1511.08308
+## Original Code
+https://github.com/kamalkraj/Named-Entity-Recognition-with-Bidirectional-LSTM-CNNs
 
+## Description
+- The `NER_BLSTM_CNN` class implements named entity reognition using bi-directional LSTM's and CNN's. The paper combines three type of features as listed below.
+    - Character level features like character capitalization (allUpper, lowercase, noCaps, noInfo)
+    - Additional character level features by passing through generic CNN
+    - Word embeddings
+- The combined features are pass through a BLSTM to generate predictions for each token
 
-The implementation differs from the original paper in the following ways :
-  1) lexicons are not considered
-  2) Bucketing is used to speed up the training
-  3) nadam optimizer used instead of SGD
-# Result 
-  The model produces a test F1_score of 90.9 % with ~70 epochs. The results produced in the paper for the given architecture is 91.14
-  Architecture(BILSTM-CNN with emb + caps)
-# Dataset
-###  conll-2003 
- # Network Model in paper
- <img src="https://raw.githubusercontent.com/kamalkraj/Named-Entity-Recognition-with-Bidirectional-LSTM-CNNs/master/model_on_paper.png"/> <img src="https://raw.githubusercontent.com/kamalkraj/Named-Entity-Recognition-with-Bidirectional-LSTM-CNNs/master/char_embeddings.png"/> 
-
- 
- # Network Model Constructed Using Keras
+- Network Model Constructed Using Keras
  ![alt text](https://raw.githubusercontent.com/kamalkraj/Named-Entity-Recognition-with-Bidirectional-LSTM-CNNs/master/model.png)
- 
- ## To run the script
- ```bash
-    python3 nn.py
- ```
- ## Requirements
-    0) nltk
-    1) numpy 
-    2) Keras==2.1.2
-    3) Tensorflow==1.4.1
- 
 
-## Inference on trained model
+## Input and Output
+- Prediction
+    -  Input format: Sentence (un-tokenized) - `Steve went to Paris`
+    -  Output format: `[start, span, token, token, type]` - `[(None, 5, Steve, B-PER),(None, went, 4, O),(None, 2, to, O), (None, 5, Paris, B-LOC)]`
+- Training
+    - Input format (trainig data): `{word, POS, chunk tag, entity type}`
+    - Sample data
+        ```
+        EU NNP B-NP B-ORG
+        rejects VBZ B-VP O
+        German JJ B-NP B-MISC
+        call NN I-NP O
+        to TO B-VP O
+        boycott VB I-VP O
+        British JJ B-NP B-MISC
+        lamb NN I-NP O
+        . . O O
+        ```
 
-```python
-from ner import Parser
+## Evalution
+- Benchmark Datasets
+    - CoNLL-2003
+    - Ontonotes 5.0
+    - CHEMDNER
+- Evaluation metrics
+    - Precision
+    - Recall
+    - F-1 score
+- Results (Test set)
 
-p = Parser()
+| Dataset | Precision | Recall | F-1 score | 
+| :--- | :---: | :---: | :---: | 
+| CoNLL-2003-en | 0.8927 | 0.9118 | 0.9021 |  
+| Ontonotes 5.0 | 0.7713 | 0.8385 | 0.8035 | 
+| CHEMDNER | 0.512 | 0.497 | 0.504 | 
 
-p.load_models("models/")
-
-p.predict("Steve Went to Paris")
-##Output [('Steve', 'B-PER'), ('went', 'O'), ('to', 'O'), ('Paris', 'B-LOC')]
-```
- 
- 
- 
- 
+## Demo
+- Link to the Jupyter Notebook 
+- Link to the video on Youtube
