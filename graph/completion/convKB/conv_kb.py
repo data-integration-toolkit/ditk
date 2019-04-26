@@ -1,4 +1,4 @@
-from graph_completion import GraphCompletion
+from graph.completion.graph_completion import GraphCompletion
 import read_data
 import train
 import batching
