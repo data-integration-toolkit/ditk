@@ -133,7 +133,7 @@ class Ner(abc.ABC):
 file_dict = {
                 "train": {"data" : "/home/sample_train.txt"},
                 "dev": {"data" : "/home/sample_dev.txt"},
-                "test": {"data" : "/home/sample_test.txt"},
+                "test": {"data" : "/home/testexample.txt"},
              }
 dataset_name = 'CONLL2003'
 # instatiate the class
