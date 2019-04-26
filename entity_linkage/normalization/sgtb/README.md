@@ -23,7 +23,7 @@ per entity pair) for the AIDA-CoNLL dataset, which is available in the
 
 ## Input and Output for Prediction
 * input: (mentioned_entity, offset_pairs, highest_rank_candidate, set of (candidate_entity, label, features))
-* output: (entity_name, wikipedia_url(optional), geolocation_url(optional), geolocation_boundary(optional))
+* output: (entity_wiki_ID, predicted_wiki_ID, geolocation_url(optional), geolocation_boundary(optional))
 
 ## Input and Output for Training
 * input: (mentioned_entity, offset_pairs, highest_rank_candidate, set of (candidate_entity, label, features))
