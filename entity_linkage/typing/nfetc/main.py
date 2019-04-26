@@ -1,3 +1,15 @@
+import os
+import sys
+
+if os.name == 'nt':
+	module_path = os.path.abspath(os.path.join('..\..\..'))
+else:
+	module_path = os.path.abspath(os.path.join('../../..'))
+
+if module_path not in sys.path:
+	sys.path.append(module_path)
+	
+
 from entity_tpying_subclass import NFETC
 
 def main(input_file_path):
@@ -6,9 +18,7 @@ def main(input_file_path):
 	myModel = NFETC()
 
 	file_path = input_file_path
-	folder_path = "/".join(file_path.split("/")[:-1])
-	# data_name = "wiki"
-	# model_name = "best_nfetc_wiki"
+	# folder_path = "/".join(file_path.split("/")[:-1])
 	data_name = "others"
 	model_name = "best_nfetc_wiki"
 	ratio = (0.7, 0.15, 0.15)
@@ -31,10 +41,11 @@ def main(input_file_path):
 	print("> Reading dataset ...")
 	extension = file_path.split(".")[-1]
 	if extension == "txt":
-		myModel.split_data_txt(file_path, folder_path, ratio)
+		myModel.split_data_txt(file_path, data_name, ratio)
 	elif extension == "tsv":
-		myModel.split_data_tsv(file_path, folder_path, ratio)
-	myModel.preprocess_helper(data_name, extension)
+		myModel.split_data_tsv(file_path, data_name, ratio)
+
+	myModel.preprocess_helper(data_name, extension, input_file_path)
 	train_data, test_data = myModel.read_dataset(file_path, options)
 
 	print("> Training ...") 
@@ -58,7 +69,8 @@ def main(input_file_path):
 
 if __name__ == "__main__":
 
-	input_file_path = "./data/corpus/Others/entity_typing_test_input.tsv" # filtered data
+	input_file_path = "./data/sample.tsv" # sample filtered data
+	# input_file_path = "./data/corpus/Others/entity_typing_test_input.tsv" # filtered data
 	# input_file_path = "./data/corpus/Others/entity_typing_test_input.txt" # raw data
 
 	output_file_path = main(input_file_path)

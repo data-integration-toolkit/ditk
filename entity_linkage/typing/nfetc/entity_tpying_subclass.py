@@ -1,4 +1,4 @@
-import entity_typing
+from entity_linkage.typing.entity_typing import entity_typing
 import preprocess
 from task import Task
 import logging
@@ -8,7 +8,7 @@ import datetime
 import config
 
 
-class NFETC(entity_typing.entity_typing):
+class NFETC(entity_typing):
 
 	def __init__(self):
 		self.task = None
@@ -21,11 +21,11 @@ class NFETC(entity_typing.entity_typing):
 		task = Task(model_name, data_name, epoch_num, params_dict, logger) # default:cv_run=5
 		return task
 
-	def preprocess_helper(self, data_name, extension):
+	def preprocess_helper(self, data_name, extension, input_file_path):
 		if extension == "txt":
-			preprocess.preprocess(data_name)
+			preprocess.preprocess(data_name, input_file_path)
 		elif extension == "tsv":
-			preprocess.tsv_preprocess(data_name)
+			preprocess.tsv_preprocess(data_name, input_file_path)
 
 	def read_dataset(self, file_path, options={}):
 
@@ -86,10 +86,10 @@ class NFETC(entity_typing.entity_typing):
 
 		return scores
 
-	def split_data_tsv(self, file_path, folder_path, split_ratio=(0.7, 0.15, 0.15)): # train.tsv, test.tsv
+	def split_data_tsv(self, file_path, data_name, split_ratio=(0.7, 0.15, 0.15)): # train.tsv, test.tsv
 
 		split_r = split_ratio[0]+split_ratio[1] # Since [train + dev]/[test]
-		print("> Split all.tsv to cleat_train, clean_test data with ratio (", split_r, ",",  split_ratio[2], ")under", folder_path)
+		print("> Split all.tsv to cleat_train, clean_test data with ratio (", split_r, ",",  split_ratio[2], ")")
 
 		docs = []
 		with open(file_path, 'r') as f:
@@ -101,6 +101,17 @@ class NFETC(entity_typing.entity_typing):
 		data = {}
 		data["train"] = docs[:train_dev_split_idx]
 		data["test"] = docs[train_dev_split_idx:]
+
+		folder_path = "others"
+		if data_name == "wiki":
+			folder_path = config.WIKI_DATA_PATH
+		elif data_name == "wikim":
+			folder_path = config.WIKIM_DATA_PATH
+		elif data_name == "ontonotes":
+			folder_path = config.ONTONOTES_DATA_PATH
+		else:
+			folder_path = config.OTHERS_DATA_PATH
+
 		
 		for key in data:
 			with open(folder_path+"/"+key+"_clean.tsv", 'w') as f:
