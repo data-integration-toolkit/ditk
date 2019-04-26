@@ -1,20 +1,22 @@
-# ANALOGY - Analogical Inference for Multi-relational Embeddings
+# ComplEx - Complex Embeddings for Simple Link Prediction
+
 
 ### Graph Embedding Project for CSCI548@USC
 This code base implements the following paper:
 
-##### Hanxiao Liu, Yuexin Wu, Yiming Yang. Analogical Inference for Multi-relational Embeddings. Proceedings of the 34th International Conference on Machine Learning, Sydney, Australia, PMLR 70, 2017. Paper: https://arxiv.org/pdf/1705.02426.pdf
+##### Theo Trouillon, Johannes Welbl, Sebastian Riedel, Eric Gaussier and Guillaume Bouchard. Complex Embeddings for Simple Link Prediction. Proceedings of the 33rd International Conference on Machine Learning, New York, NY,  2016. https://arxiv.org/pdf/1606.06357.pdf
+
 
 ##### This code base simplifies/refactors this GitHub repo: https://github.com/mana-ysh/knowledge-graph-embeddings to conform to a class project
 
-##### Youtube Video Link: https://youtu.be/3hzwEb262HY
+##### Youtube Video Link: https://youtu.be/zGdGrcPvwAk
 
 ---
-### Overview of ANALOGY
+### Overview of ComplEx
 
 Typical bi-linear KG embedding models learn embeddings to optimize a score function, i.e. RESCAL (Nickel et al., 2011). Each entity is represented by vector embedding of *m* dimensions, each relation embedding represented by *m x m* matrix, which can de diagonalized to reduce a dimension, i.e. DistMult (Yang et al., 2015). Models utilize varying score and loss functions, as wells as different training methods. Negative training samples need to be Introduced. 
 
-Building on previous models ANALOGY provides a framework for **analogical inference** in KG embedding models (i.e. *man* is to *king* as *woman* is to *queen*). ANALOGY unifies several embedding models: DistMult, ComplEx (Trouillon et al, 2016) and HolE (Nickel et al., 2016 ). Each is a restricted version under the ANALOGY framework. ANALOGY uses the same bilinear score function as RESCAL, difference being that ANALOGY adds normality and commutativity constraints to objective function.
+Building on previous models such as RESCAL and DistMult, ComplEx introduces a complex number for the embeddings. By doing so this captures some the asymmetry of knowledge graphs thus boosting performance (e.g. *dog* is an *animal* but an *animal* is not a *dog*). Earlier models would assign similar scores to both *dog* is an *animal* and *animal* is a *dog*.
 
 ---
 
@@ -50,10 +52,10 @@ Train/Validate/Test Example:
 
 ### Running the code 
 
-##### (please load the Jupyter Notebook sample *analogy_notebook.ipynb* to aid you in running the code for the first time):
+##### (please load the Jupyter Notebook sample *complex_notebook.ipynb* from the code repository to aid you in running the code for the first time):
 1. Initialize a model
 ```python
-algorithm = ANALOGY()
+algorithm = ComplEx()
 ```
 2. Load the Data Set
 ```python
@@ -90,11 +92,11 @@ algorithm.learn_embeddings(parameters)
 ```
 4. Save the model (Use if you want to save training model for use later). Some models will take days to train!
 ```python
-algorithm.save_model("analogy.mod")
+algorithm.save_model("complex.mod")
 ```
 5. Load a model (Use if you saved a model above, allows you to have to not rerun training of model)
 ```python
-algorithm.load_model("analogy.mod")
+algorithm.load_model("complex.mod")
 ```
 6. Retrieve embeddings.
 ```python
@@ -111,13 +113,13 @@ print(algorithm.retrieve_entity_embeddings(test_subs))
 ##### WN18
 | Source        | MRR (filtered) | MRR (raw) | Hits@1 (Filtered) | Hits@3 (Filtered)
 | ------------- |:--------:|:------:|:------:|:------:| 
-| Paper      | 94.2 | 65.7 | 93.9 | 94.4
-| Code      | 94.2 | 58.5 | 93.8 | 94.5
+| Paper      | 94.1 | 58.7 | 93.6 | 94.5
+| Code      | 94.3 | 58.2 | 94.0 | 94.5
 ##### FB15k
 | Source        | MRR (filtered) | MRR (raw) | Hits@1 (Filtered) | Hits@3 (Filtered)
 | ------------- |:--------:|:------:|:------:|:------:| 
-| Paper      | 94.1 | 58.7 | 93.6 | 94.5
-| Code      | 94.3 | 58.2 | 94.0 | 94.6
+| Paper      | 69.2 | 58.7 | 59.9 | 75.9
+| Code      | 69.0 | 58.6 | 59.5 | 76.1
 
 ---
 
