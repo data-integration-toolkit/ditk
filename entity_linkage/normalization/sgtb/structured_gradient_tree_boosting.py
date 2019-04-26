@@ -1,4 +1,4 @@
-from entity_normalization import EntityNormalization
+from entity_linkage.normalization.entity_normalization import EntityNormalization
 import read_data
 from structured_gradient_boosting import StructuredGradientBoosting
 import gzip, time, os
@@ -70,8 +70,8 @@ class StructuredGradientTreeBoosting(EntityNormalization):
         test_pred = clf.predict(test_X, test_indices, test_ent_ids)
 
         output = []
-        for pred in test_pred:
-            output.append((pred, "", "", ""))
+        for label, pred in zip(test_indices[0][1], test_pred):
+            output.append((label, pred, "", ""))
 
         output_file = "./data/output.txt"
         with open(output_file, "w") as f:
