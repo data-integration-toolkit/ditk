@@ -11,7 +11,7 @@ https://github.com/Franck-Dernoncourt/NeuroNER
     - The output of BLSTM is combined with word embeddings to get character enhanced token embeddings
 - The character enhanced token embeddings are passed through another BLSTM to generate predictions for each token
 
-- Network Model Constructed Using Keras
+- Network Model
  ![alt text](http://neuroner.com/NeuroNERengine_with_caption_no_figure.png)
 
 ## Input and Output
