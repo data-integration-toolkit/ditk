@@ -1,8 +1,10 @@
 # Objective: Data Integration Took Kit for CSIC548 Final Project
 
-## Title of the Paper: Neural Adaptation Layers for Cross-domain Named Entity Recognition
+## Title of the Paper: 
+- Neural Adaptation Layers for Cross-domain Named Entity Recognition
 
-## Full Citation: Lin, Bill Yuchen and Wei Lu. “Neural Adaptation Layers for Cross-domain Named Entity Recognition.” EMNLP (2018). 
+## Full Citation: 
+- Lin, Bill Yuchen and Wei Lu. “Neural Adaptation Layers for Cross-domain Named Entity Recognition.” EMNLP (2018). 
 
 ## Overview: 
 The proposed method pretrained model with the source domain dataset, then applied its training weights to the target model for training target domain dataset. The result shows that the model with pretrained weights has better performance than the model without pretrained parameters.    
