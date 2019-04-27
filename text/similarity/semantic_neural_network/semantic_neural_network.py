@@ -13,13 +13,12 @@ from modules.datasets import *
 from modules.model import init_model
 from modules.embedding import load_embedding_matrix
 from modules.result_data import create_output
-import scipy.stats as stats
-from text_similarity import TextSimilarity
+sys.path.append(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
+from text_similarity import TextSemanticSimilarity
 import pickle
 from keras.models import Model, load_model
-import numpy
 
-class Semantic_Neural_Network(TextSimilarity):
+class Semantic_Neural_Network(TextSemanticSimilarity):
 
     def __init__(self):
         self.embedding_matrix = []
@@ -30,16 +29,13 @@ class Semantic_Neural_Network(TextSimilarity):
     @classmethod
     def read_dataset(self, fileNames, databaseName, *args, **kwargs):
         """
-        Reads a dataset that is a CSV/Excel File.
+        Reads a dataset that is a CSV/Text File.
 
         Args:
             fileName : With it's absolute path
-
+            databaseName : Supports SICK, SemEval2014 and SemEval2017 datafile format along with a Generic format(s1,s2,relatedness_score)
         Returns:
-            training_data_list : List of Lists that containes 2 sentences and it's similarity score
-            Note :
-                Format of the output : [[S1,S2,Sim_score],[T1,T2,Sim_score]....]
-
+            training_data_list : Data in the format to be used by train() module.
         Raises:
             None
         """
@@ -136,7 +132,7 @@ class Semantic_Neural_Network(TextSimilarity):
     def predict(self, data_X, data_Y, database_name ='Generic', *args, **kwargs):
         """
         Predicts the similarity score on the given input data(2 sentences). Assumes model has been trained with train()
-
+        Reads the tokenizer and model created in the train module().
         Args:
             data_X: Sentence 1(Non Tokenized).
             data_Y: Sentence 2(Non Tokenized)
@@ -178,9 +174,6 @@ class Semantic_Neural_Network(TextSimilarity):
         # =========================
         model_file = 'model_%s.h5' % self.database_name
         LOG.info('Creating result file')
-
-
-
         self.pearson_metric_score = create_output(self.database_name, self.test_dataframe, predicted_values, actual_values, self.total_duration, model_file,
                                                   self.timestamp, obs=str(sys.argv))
         return self.pearson_metric_score
