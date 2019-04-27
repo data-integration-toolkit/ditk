@@ -14,7 +14,7 @@ https://github.com/kamalkraj/Named-Entity-Recognition-with-Bidirectional-LSTM-CN
 - The combined features are pass through a BLSTM to generate predictions for each token
 
 - Network Model Constructed Using Keras
- ![alt text](https://raw.githubusercontent.com/kamalkraj/Named-Entity-Recognition-with-Bidirectional-LSTM-CNNs/master/model.png)
+ ![alt text](./model.png)
 
 ## Instructions
 
@@ -63,5 +63,5 @@ https://github.com/kamalkraj/Named-Entity-Recognition-with-Bidirectional-LSTM-CN
 | CHEMDNER | 0.512 | 0.497 | 0.504 | 
 
 ## Demo
-- [Sample notebook](https://github.com/Lakshya-Kejriwal/ditk/blob/develop/extraction/named_entity/ner_blstm_cnn/demo.ipynb)
+- [Sample notebook](./demo.ipynb)
 - [Demo video](https://www.youtube.com/watch?v=ZCc42iMT6I8)
