@@ -22,7 +22,7 @@ class TestEntityTypingMethods(unittest.TestCase):
         output_col_count = self.row_col_count(self.output_file)[1]
 
         self.assertEqual(input_row_count, output_row_count)
-        self.assertEqual(input_col_count, output_col_count + 1)
+        self.assertTrue(input_col_count > output_col_count)
 
 
 if __name__ == '__main__':

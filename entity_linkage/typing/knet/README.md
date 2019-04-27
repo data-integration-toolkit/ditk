@@ -24,9 +24,9 @@ This repo is based on the following paper and Github implementation:
   - Sample Input
   
     ```
-    2	3	California Los Angeles beautiful city	Location
-    5	8	He received the 1921 Nobel Prize in Physics for his services to theoretical physics	misc
-    2	3	Is New York a beautiful city	Location
+    1	3	California Los Angeles beautiful city	Location
+    4	8	He received the 1921 Nobel Prize in Physics for his services to theoretical physics	misc
+    1	3	Is New York a beautiful city	Location
     ```
 
 **Output**:
@@ -86,6 +86,8 @@ It consists of 2 parts:
 
 ## Evaluation metrics and results
 
+### Testing reuslts on Paper Dataset
+
 <table>
     <thead>
         <tr>
@@ -128,6 +130,16 @@ It consists of 2 parts:
         </tr>
     </tbody>
 </table>
+
+
+
+### Testing Results on other dataset
+
+|           | Precision | Recall |   F1   |
+| :-------: | :-------: | :----: | :----: |
+|   FIGER   |  0.45825  | 0.4582 | 0.4582 |
+| OntoNotes |  0.0431   | 0.0431 | 0.0431 |
+
 
 ## Jupyter Notebook
 
