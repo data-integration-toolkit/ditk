@@ -7,19 +7,38 @@ Link to paper - https://arxiv.org/pdf/1705.02737.pdf
 Github URL of the original code - https://github.com/Oracen/MIDAS/
 
 ## Description
-- Missing data is an important issue, even small proportions of missing data can adversely impact the quality of learning process, leading   to biased inference. This paper brings in the concept of **Multiple Imputation**. All previous standalone methods shared a common           drawback, imputing a single value for one missing observation, which is then treated as the gold standard, same as the observed data in     any  subsequent analysis. This implicitly assumes that imputation model is perfect and fails to account for error/uncertainty in the       imputation process. This is overcome by replacing each missing value with several slightly different imputed values, refecting our uncer-
-  tainty about the imputation process. This approach is called * multiple imputation.*
-  
+- Missing data is an important issue, even small proportions of missing data can adversely impact the quality of learning process, leading   to biased inference. This paper brings in the concept of **Multiple Imputation**. All previous standalone methods shared a common drawback, imputing a single value for one missing observation, which is then treated as the gold standard, same as the observed data in any  subsequent analysis. This implicitly assumes that imputation model is perfect and fails to account for error/uncertainty in the imputation process. This is overcome by replacing each missing value with several slightly different imputed values, refecting our uncertainty about the imputation process. This approach is called * *multiple imputation.
+
+# Architecture: 
+- We start with an initial n dimensional input ([0,1]) and feed it into the encoder. Stochastic corruption is induced by keeping the input  dropout ratio as 0.5. Then at each successive hidden layer, we add theta nodes, increasing the dimensionality to n+theta. This mapping of our input data to a higher dimensional subspace creates representations capable of adding lateral connections, aiding in data recovery. Decoder symmetrically scales it back to original dimensions and tries to reconstruct the input. In this process, the algorithm is tuned to predict the missing values.
+- This technique can work with pre-existing missing values, without the need to replace those values with mean or other similar metric.
+
+# Working of Code
+- We **input** gold numeric dataset in csv format. The code then, introduces missingness in the dataset(20%) and the algorithm is run on this missing data.
+- We get **output** as complete dataset in a newly created csv file.
+- We provide gold dataset in order to evaluate the **performance of this algorithm by rmse value.**
+
 - A paragraph describing the overall task, the method and model
 - A figure describing the model if possible
 
-## Input and Output
-- Input and output for prediction
-- Input and output for Training
+## Input and Output for prediction and training
+- Input  : path to csv file having gold numeric relation.
+- Output : newly created csv file with predicted values in the relation.
 
 ## Evalution
-- Benchmark datasets
-- Evaluation metrics and results
+- Benchmark datasets :
+UCI Repository Datasets
+(complete, numerical) 
+- Letter Recognition - http://archive.ics.uci.edu/ml/datasets/Letter+Recognition
+- Breast Cancer (Diagnostic) - http://archive.ics.uci.edu/ml/datasets/breast+cancer
+- Spam-base - http://archive.ics.uci.edu/ml/datasets/spambase
+
+- Evaluation metrics:
+  Root Mean Square Error (RMSE) 
+  
+ - Evaluation results
+ 
+
 
 ## Demo
 - Link to the Jupyter Notebook 
