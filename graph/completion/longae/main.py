@@ -19,13 +19,13 @@ metrics = {
 # construct main program
 graph_completion = longae()
 
-data_dir = os.path.join(ditk_path, 'graph/completion/longae/test/')
+data_dir = os.path.join(ditk_path, 'graph/completion/longae/data/')
 files_citeseer = list(map(lambda x: os.path.join(data_dir, x), ['citeseer_x.txt', 'citeseer_y.txt', 'citeseer_graph.txt']))
 files_cora = list(map(lambda x: os.path.join(data_dir, x), ['cora_x.txt', 'cora_y.txt', 'cora_graph.txt']))
 
 # set hparam file paths
 hp.checkpoint_dir = os.path.join(ditk_path, 'graph/completion/longae/checkpoint/')
-hp.index_file = os.path.join(ditk_path, 'graph/completion/longae/test/ind.cora.test.index')
+hp.index_file = os.path.join(ditk_path, 'graph/completion/longae/data/ind.cora.test.index')
 
 train_data, validation_data, test_data = graph_completion.read_dataset(files_cora)
 # graph_completion.load_model("./longae/checkpoint/checkpoint_100.h5")

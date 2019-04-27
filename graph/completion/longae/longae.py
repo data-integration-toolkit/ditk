@@ -153,7 +153,7 @@ class longae(GraphCompletion):
 				"feats": feats
 			})
 			
-			auc, ap, acc = self.evaluate({
+			vals = self.evaluate({
 				"y_true": y_val,
 				"mask_true": mask_val,
 				"labels": labels,
@@ -162,9 +162,9 @@ class longae(GraphCompletion):
 			}, metrics, prediction_data)
 			
 			scores[0].append(train_loss)
-			scores[1].append(auc)
-			scores[2].append(ap)
-			scores[3].append(acc)
+			scores[1].append(vals["AUC"])
+			scores[2].append(vals["AP"])
+			scores[3].append(vals["ACC"])
 
 			if e % 50 == 0:
 				self.save_model(hparams.checkpoint_dir + "checkpoint_{}.h5".format(e))
@@ -204,8 +204,8 @@ class longae(GraphCompletion):
 		lp_scores = np.vstack(lp_scores)
 		nc_scores = np.vstack(nc_scores)
 		return {
-			"lp_scores": lp_scores, 
-			"nc_scores": nc_scores
+			"lp_scores": lp_scores.tolist(), 
+			"nc_scores": nc_scores.tolist()
 		}
 
 	def evaluate(self, benchmark_data, metrics={}, options={}):
@@ -221,8 +221,8 @@ class longae(GraphCompletion):
 		Returns:
 			evaluations: dictionary of scores with respect to chosen metrics
 		"""
-		lp_scores = options["lp_scores"]
-		nc_scores = options["nc_scores"]
+		lp_scores = np.array(options["lp_scores"])
+		nc_scores = np.array(options["nc_scores"])
 
 		test_r = benchmark_data["test_r"]
 		test_c = benchmark_data["test_c"]
@@ -245,8 +245,12 @@ class longae(GraphCompletion):
 		print('Val AUC: {:6f}'.format(auc))
 		print('Val AP: {:6f}'.format(ap))
 		print('Node Val Acc {:f}'.format(node_val_acc))
-
-		return auc, ap, node_val_acc
+		
+		return {
+			"AUC": auc,
+			"AP": ap,
+			"ACC": node_val_acc
+		}
 
 	def save_model(self, file):
 		"""

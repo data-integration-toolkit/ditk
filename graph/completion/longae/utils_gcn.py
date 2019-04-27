@@ -54,8 +54,13 @@ def load_citation_data_from_file(files):
             line = line.rstrip().split(" ")
             graph[line[0]].append(line[1])
 
-    test_idx_reorder = parse_index_file(hparams.index_file)
-    test_idx_range = np.sort(test_idx_reorder)
+    if hparams.index_file == "":
+        l = len(features) // 5
+        test_idx_range = np.arange(l)
+        test_idx_reorder = np.random.permutation(test_idx_range)
+    else:
+        test_idx_reorder = parse_index_file(hparams.index_file)
+        test_idx_range = np.sort(test_idx_reorder)
 
     features[test_idx_reorder, :] = features[test_idx_range, :]
 
@@ -65,7 +70,7 @@ def load_citation_data_from_file(files):
 
     idx_test = test_idx_range.tolist()
     idx_train = range(hparams.training_size)
-    idx_val = range(hparams.training_size, hparams.training_size+500)
+    idx_val = range(hparams.training_size, hparams.training_size + hparams.dev_size)
 
     train_mask = sample_mask(idx_train, labels.shape[0])
     val_mask = sample_mask(idx_val, labels.shape[0])
@@ -109,6 +114,10 @@ def split_citation_data(adj):
     edges_all = sparse_to_tuple(adj)[0]
     num_test = int(np.floor(edges.shape[0] / 10.))
     num_val = int(np.floor(edges.shape[0] / 20.))
+    if num_test == 0:
+        num_test = 1
+    if num_val == 0:
+        num_val = 1
 
     all_edge_idx = list(range(edges.shape[0]))
     np.random.shuffle(all_edge_idx)
@@ -158,12 +167,6 @@ def split_citation_data(adj):
             if ismember([idx_i, idx_j], np.array(val_edges_false)):
                 continue
         val_edges_false.append([idx_i, idx_j])
-
-    assert ~ismember(test_edges_false, edges_all)
-    assert ~ismember(val_edges_false, edges_all)
-    assert ~ismember(val_edges, train_edges)
-    assert ~ismember(test_edges, train_edges)
-    assert ~ismember(val_edges, test_edges)
 
     data = np.ones(train_edges.shape[0])
 

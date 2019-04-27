@@ -4,3 +4,6 @@ class hparams:
     train_batch_size = 64
     val_batch_size = 256
     training_size = 140
+    dev_size = 500
+    index_file = ""
+    checkpoint_dir = ""
