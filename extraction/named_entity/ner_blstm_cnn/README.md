@@ -21,8 +21,36 @@ https://github.com/kamalkraj/Named-Entity-Recognition-with-Bidirectional-LSTM-CN
 - Clone the repository
 - Install the dependencies using `pip3 install -r requirements.txt`
 - Download the word embeddings and place it inside the `embeddings` folder. The link is given inside the folder.
-- Edit the `main.py` inside the `ner_blstm_cnn` folder to add paths to `train`, `dev` and `test` files.
-- Run the `main.py` file using `python3 main.py`
+- Initialize a model
+```python
+ner = ner_blstm_cnn(num) # where num is the number of epochs
+```
+- Load the Data Set
+```python
+inputFiles = {"train": "train.txt",
+              "dev": "valid.txt",
+              "test": "test.txt"}
+
+data = ner.read_dataset(train_file_names)
+```
+- Train the model
+```python
+ner.train(data)
+```
+- Extract the ground truth from test data for evaluation
+```python
+ground = ner.convert_ground_truth(data)
+```
+- Generate predictions on the test data
+```python
+predictions = ner.predict(data)
+```
+- Evaluate model
+```python
+P,R,F1 = ner.evaluate(predictions, ground)
+
+print('Precision: %s, Recall: %s, F1: %s'%(P,R,F1))
+```
 - Running the unit tests
     - From inside the `ner_blstm_cnn` directory run `python3 -m unittest tests.runtest`
 
