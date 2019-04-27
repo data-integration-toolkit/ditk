@@ -128,6 +128,7 @@ It consists of 2 parts:
         </tr>
     </tbody>
 </table>
+
 ## Jupyter Notebook
 
 [demo.ipynb](./demo.ipynb)
