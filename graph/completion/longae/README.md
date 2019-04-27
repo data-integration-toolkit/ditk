@@ -28,6 +28,8 @@ we set a subset of links as unknown to perform training and prediction. We augme
 for each node given a specific classification of the node as a one hot vector as well to do node classification. We combine these tasks 
 together using the autoencoder model.
 
+![FCN_schematic](figure1.png?raw=true)
+
 ### Benchmark datasets
 This uses Cora and Citeseer datasets taken from https://github.com/tkipf/gcn
 
@@ -37,3 +39,6 @@ This uses Cora and Citeseer datasets taken from https://github.com/tkipf/gcn
 |AUC|0.947|0.867|
 |AP |0.944|0.892|
 |ACC|0.721|0.610|
+
+### Links
+Notebook: https://github.com/twiet/ditk/blob/develop/graph/completion/longae/longae.ipynb
