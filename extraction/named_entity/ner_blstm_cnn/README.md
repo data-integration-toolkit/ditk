@@ -53,5 +53,5 @@ https://github.com/kamalkraj/Named-Entity-Recognition-with-Bidirectional-LSTM-CN
 | CHEMDNER | 0.512 | 0.497 | 0.504 | 
 
 ## Demo
-- Link to the Jupyter Notebook 
+- [Sample notebook](https://github.com/Lakshya-Kejriwal/ditk/blob/develop/extraction/named_entity/ner_blstm_cnn/demo.ipynb)
 - Link to the video on Youtube
