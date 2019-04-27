@@ -13,6 +13,15 @@ https://github.com/Franck-Dernoncourt/NeuroNER
 
 - Network Model
  ![alt text](http://neuroner.com/NeuroNERengine_with_caption_no_figure.png)
+ 
+## Instructions
+
+- Clone the repository
+- Install the dependencies using `pip3 install -r requirements.txt`
+- Edit the `parameters.ini` file. Give the path to the word embeddings file for `token_pretrained_embedding_filepath` variable. Also, set whether you want to train model or use a pretrained model by setting `train_model` and `use_pretrained_model`
+- Edit the `main.py` inside the ner_blstm_cnn folder to add paths to `train`, `dev` and `test` files
+- Running the unit tests
+    - From inside the `neuroner` directory run `python3 -m unittest tests.runtest`
 
 ## Input and Output
 - Prediction
