@@ -1,4 +1,4 @@
-from Ner import Ner
+from ner import Ner
 from src.model.data_utils import NERDataset
 from src.model.sal_blstm_oal_crf_model import SAL_BLSTM_OAL_CRF_Model
 from src.model.config import Config
