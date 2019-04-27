@@ -1,3 +1,6 @@
+import sys
+import os
+sys.path.append(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
 from relation_extraction_2 import RelationExtractionModel
 from createDataStream_setup1 import DataStream_Setup1
 from createDataStream_setup2 import DataStream_Setup2
@@ -8,7 +11,9 @@ class Global_Normalization(RelationExtractionModel):
         """
 
         1. Reads the dataset from input_file location
-        2. It uses H5PYDataset library to split the data for train, test and dev and create a fuel dataset for each of them.
+        2. Reads the database_name to get config parameter as per the database name.
+        3. Two setup option available for this model.
+        4. It uses H5PYDataset library to split the data for train, test and dev and create a fuel dataset for each of them.
 
         Args:
             input_file: Filepath with list of files to be read
@@ -52,19 +57,15 @@ class Global_Normalization(RelationExtractionModel):
 
         Returns:
             Trained model.
+            Evaluation result.
+            Predicted relation results.
         """
         return TrainModel().train(train_data,database_name, configfile,test_id2sent, test_id2arg2rel)
 
     def predict(self, test_data, entity_1=None, entity_2=None, trained_model=None, *args, **kwargs):
         """
 
-        Predict the relation between entity_1 and entity_2 from the input sentence using the trained_model
-        Args:
-            test_data: Sentence (non-tokenize).
-            entity_1, entity_2 : Two entities
-            trained_model: the trained model from the method - def train().
-        Returns:
-            relation: entity type and relation between them
+        train() module selects the best epoch and predicts the relation for test file.
 
         """
         pass
@@ -72,12 +73,7 @@ class Global_Normalization(RelationExtractionModel):
     def evaluate(self, input_data, trained_model=None, *args, **kwargs):
         """
 
-        Evaluates the result based on the test dataset and the evauation metrics  [Precision,Recall,F1, or others...]
-         Args:
-             input_data: Test dataset
-             trained_model: trained model created using the method: train(train_data)
-        Returns:
-            performance metrics: tuple with (precision,recall,f1)
+        train() module selects the best epoch and returns the evaluation result for the test data as well.
 
         """
         pass
