@@ -1,18 +1,39 @@
 # ANALOGY - Analogical Inference for Multi-relational Embeddings
 
-### Graph Embedding Project for CSCI548@USC
+### Knowledge Graph Embedding Project for CSCI548@USC
 This code base implements the following paper:
 
 ##### Hanxiao Liu, Yuexin Wu, Yiming Yang. Analogical Inference for Multi-relational Embeddings. Proceedings of the 34th International Conference on Machine Learning, Sydney, Australia, PMLR 70, 2017. Paper: https://arxiv.org/pdf/1705.02426.pdf
 
 ##### This code base simplifies/refactors this GitHub repo: https://github.com/mana-ysh/knowledge-graph-embeddings to conform to a class project
 
-##### Youtube Video Link: https://youtu.be/3hzwEb262HY
+##### Youtube Video Link: https://youtu.be/3hzwEb262HY *also shows how to run Jupyter notebook*
 
 ---
-### Overview of ANALOGY
+### Knowledge Graph Embedding Task
+Knowledge Graphs (KG) typically contain only a small subset of all possible facts. This necessitates filling in the missing information. This process is known as *link prediction* or *knowledge graph completion*. KG models accomplish this by learning the embeddings of the entities and relations which can be used later for link prediction or KG completion.
 
-Typical bi-linear KG embedding models learn embeddings to optimize a score function, i.e. RESCAL (Nickel et al., 2011). Each entity is represented by vector embedding of *m* dimensions, each relation embedding represented by *m x m* matrix, which can de diagonalized to reduce a dimension, i.e. DistMult (Yang et al., 2015). Models utilize varying score and loss functions, as wells as different training methods. Negative training samples need to be Introduced. 
+Example (subject, relation, object) (s, r, o) triples 
+```text
+Man isTypeOf Animal
+Dog isTypeOf Animal
+Texas isStateIn America
+Trump isEmployedBy Unites States Government
+Obama bornIn Hawaii
+```
+Entities and Relations From Above:
+
+| Entities        | Relations |
+|:-------------:|:-----------:| 
+| Man | isTypeOf |
+| Dog | isStateIn | 
+| Texas | isEmployedBy |
+| Trump | bornIn |
+| Obama | |
+
+Typical bi-linear KG embedding models learn embeddings to optimize a score function, i.e. RESCAL (Nickel et al., 2011). Each entity is represented by vector embedding of *m* dimensions, each relation embedding represented by *m x m* matrix, which can de diagonalized to reduce a dimension, i.e. DistMult (Yang et al., 2015). Models utilize varying score and loss functions, as well as different training methods. Negative training samples need to be Introduced. 
+
+### Overview of ANALOGY
 
 Building on previous models ANALOGY provides a framework for **analogical inference** in KG embedding models (i.e. *man* is to *king* as *woman* is to *queen*). ANALOGY unifies several embedding models: DistMult, ComplEx (Trouillon et al, 2016) and HolE (Nickel et al., 2016 ). Each is a restricted version under the ANALOGY framework. ANALOGY uses the same bilinear score function as RESCAL, difference being that ANALOGY adds normality and commutativity constraints to objective function.
 
@@ -103,8 +124,16 @@ print(algorithm.retrieve_entity_embeddings(test_subs))
 ```
 7. Retrieve scoring matrix (each row is the s,r scored against each other entity)
 ```python
-    sm = algorithm.retrieve_scoring_matrix(test_subs, test_rels)
-    print(sm)
+sm = algorithm.retrieve_scoring_matrix(test_subs, test_rels)
+print(sm)
+```
+8. Evaluate model
+```python
+evaluate_file_names = {"test": input_file_path + "test.txt",
+                       "whole": input_file_path + "whole.txt"}  # Optional
+all_res = algorithm.evaluate(evaluate_file_names)
+for metric in sorted(all_res.keys()):
+    print('{:20s}: {}'.format(metric, all_res[metric]))
 ```
 ---
 ### Evaluation Results

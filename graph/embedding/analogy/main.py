@@ -16,15 +16,11 @@ from analogy import ANALOGY
 
 INPUT_FILE_DIRECTORY = "D:\\USC\\CS548\\groupdat\\FB15k\\"
 
-# input_file_path = ""
-# output_file_path = main(input_file_path)
-
-
 
 def main(input_file_path):
     # output_file_path = ""
 
-    print("Main Script")
+    print("Main Analogy Script")
 
     algorithm = ANALOGY()
 
@@ -61,11 +57,16 @@ def main(input_file_path):
     algorithm.load_model(input_file_path + "analogy.mod")
 
     evaluate_file_names = {"test": input_file_path + "test.txt",
-                           "whole": input_file_path + "whole.txt"}
+                           "whole": input_file_path + "whole.txt"}  # Optional
+
                            # "relations": input_file_path + "relation2id.txt",
                            # "entities": input_file_path + "entity2id.txt"}
 
-    algorithm.evaluate(evaluate_file_names, suppress_output=False)
+    # algorithm.evaluate(evaluate_file_names, suppress_output=False)
+
+    all_res = algorithm.evaluate(evaluate_file_names)
+    for metric in sorted(all_res.keys()):
+        print('{:20s}: {}'.format(metric, all_res[metric]))
 
     #    ents = ['/m/08mbj32', '/m/08mbj5d', '/m/08mg_b']
     test_subs = ['/m/07z1m', '/m/03gqgt3', '/m/01c9f2']

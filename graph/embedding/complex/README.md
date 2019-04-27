@@ -1,7 +1,7 @@
 # ComplEx - Complex Embeddings for Simple Link Prediction
 
 
-### Graph Embedding Project for CSCI548@USC
+### Knowledge Graph Embedding Project for CSCI548@USC
 This code base implements the following paper:
 
 ##### Theo Trouillon, Johannes Welbl, Sebastian Riedel, Eric Gaussier and Guillaume Bouchard. Complex Embeddings for Simple Link Prediction. Proceedings of the 33rd International Conference on Machine Learning, New York, NY,  2016. https://arxiv.org/pdf/1606.06357.pdf
@@ -9,12 +9,33 @@ This code base implements the following paper:
 
 ##### This code base simplifies/refactors this GitHub repo: https://github.com/mana-ysh/knowledge-graph-embeddings to conform to a class project
 
-##### Youtube Video Link: https://youtu.be/zGdGrcPvwAk
+##### Youtube Video Link: https://youtu.be/zGdGrcPvwAk *also shows how to run Jupyter notebook*
 
 ---
-### Overview of ComplEx
+### Knowledge Graph Embedding Task
+Knowledge Graphs (KG) typically contain only a small subset of all possible facts. This necessitates filling in the missing information. This process is known as *link prediction* or *knowledge graph completion*. KG models accomplish this by learning the embeddings of the entities and relations which can be used later for link prediction or KG completion.
 
-Typical bi-linear KG embedding models learn embeddings to optimize a score function, i.e. RESCAL (Nickel et al., 2011). Each entity is represented by vector embedding of *m* dimensions, each relation embedding represented by *m x m* matrix, which can de diagonalized to reduce a dimension, i.e. DistMult (Yang et al., 2015). Models utilize varying score and loss functions, as wells as different training methods. Negative training samples need to be Introduced. 
+Example (subject, relation, object) (s, r, o) triples 
+```text
+Man isTypeOf Animal
+Dog isTypeOf Animal
+Texas isStateIn America
+Trump isEmployedBy Unites States Government
+Obama bornIn Hawaii
+```
+Entities and Relations From Above:
+
+| Entities        | Relations |
+|:-------------:|:-----------:| 
+| Man | isTypeOf |
+| Dog | isStateIn | 
+| Texas | isEmployedBy |
+| Trump | bornIn |
+| Obama | |
+
+Typical bi-linear KG embedding models learn embeddings to optimize a score function, i.e. RESCAL (Nickel et al., 2011). Each entity is represented by vector embedding of *m* dimensions, each relation embedding represented by *m x m* matrix, which can de diagonalized to reduce a dimension, i.e. DistMult (Yang et al., 2015). Models utilize varying score and loss functions, as well as different training methods. Negative training samples need to be Introduced. 
+
+### Overview of ComplEx
 
 Building on previous models such as RESCAL and DistMult, ComplEx introduces a complex number for the embeddings. By doing so this captures some the asymmetry of knowledge graphs thus boosting performance (e.g. *dog* is an *animal* but an *animal* is not a *dog*). Earlier models would assign similar scores to both *dog* is an *animal* and *animal* is a *dog*.
 
@@ -98,15 +119,23 @@ algorithm.save_model("complex.mod")
 ```python
 algorithm.load_model("complex.mod")
 ```
-6. Retrieve embeddings.
+6. Retrieve embeddings
 ```python
 test_subs = ['/m/07z1m', '/m/03gqgt3', '/m/01c9f2']
 print(algorithm.retrieve_entity_embeddings(test_subs))
 ```
 7. Retrieve scoring matrix (each row is the s,r scored against each other entity)
 ```python
-    sm = algorithm.retrieve_scoring_matrix(test_subs, test_rels)
-    print(sm)
+sm = algorithm.retrieve_scoring_matrix(test_subs, test_rels)
+print(sm)
+```
+8. Evaluate model
+```python
+evaluate_file_names = {"test": input_file_path + "test.txt",
+                       "whole": input_file_path + "whole.txt"}  # Optional
+all_res = algorithm.evaluate(evaluate_file_names)
+for metric in sorted(all_res.keys()):
+    print('{:20s}: {}'.format(metric, all_res[metric]))
 ```
 ---
 ### Evaluation Results
