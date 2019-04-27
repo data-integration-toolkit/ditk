@@ -66,6 +66,9 @@ class StructuredGradientTreeBoosting(EntityNormalization):
         :return (list): a list of prediction, each item with the format
         (entity_name, wikipedia_url(optional), geolocation_url(optional), geolocation_boundary(optional))
         '''
+        if clf is None:
+            raise Exception("model is neither trained nor loaded")
+
         test_X, _, test_indices, test_ent_ids = test_set
         test_pred = clf.predict(test_X, test_indices, test_ent_ids)
 
@@ -91,6 +94,9 @@ class StructuredGradientTreeBoosting(EntityNormalization):
         :param eval_set (list): a list of validation data
         :return (tuple): (precision, recall, f1 score)
         '''        
+        if clf is None:
+            raise Exception("model is neither trained nor loaded")
+
         eval_X, eval_y, eval_indices, eval_ent_ids = eval_set
         eval_acc = clf.get_acc(eval_X, eval_y, eval_indices, eval_ent_ids)
         print ("Test acc %.2f" %(eval_acc))
@@ -102,11 +108,15 @@ class StructuredGradientTreeBoosting(EntityNormalization):
         print("start saving model...")
         if not os.path.exists(os.path.dirname(file_name)):
             os.makedirs(os.path.dirname(file_name), exist_ok=True)
+
         joblib.dump(clf, file_name)
         print("Finished saving model!")
 
 
     def load_model(cls, file_name):
+        if not os.path.exists(file_name):
+            raise Exception("model does not exist")
+
         print("start loading model...")
         clf = joblib.load(file_name)
         print("Finished loading model!")
