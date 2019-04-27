@@ -25,7 +25,7 @@ class ner_blstm_cnn(Ner):
 
         # ::Hard coded char lookup ::
         self.char2Idx = {"PADDING": 0, "UNKNOWN": 1}
-        for c in " 0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ.,-_()[]{}!?:;#'\"/\\%$`&=*+@^~|": #ÌöÛ’ò˙<>・【】●■□，▲（一）·の→￥：在＊à
+        for c in " 0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ.,-_()[]{}!?:;#'\"/\\%$`&=*+@^~|":
             self.char2Idx[c] = len(self.char2Idx)
         # :: Hard coded case lookup ::
         self.case2Idx = {'numeric': 0, 'allLower': 1, 'allUpper': 2, 'initialUpper': 3, 'other': 4, 'mainly_numeric': 5,
@@ -180,15 +180,16 @@ class ner_blstm_cnn(Ner):
 
     def predict_text(self, text):
         """
-        Predicts on the given input data. Assumes model has been trained with train()
+        Predicts on the given input text
         Args:
-            data:
+            text (str): string of text on which to make prediction
         Returns:
             predictions: [tuple,...], i.e. list of tuples.
-                Each tuple is (mention text, true type, mention type)
+                Each tuple is (start index, span, mention text, mention type)
                 Where:
+                 - start index: int, the index of the first character of the mention span. None if not applicable.
+                 - span: int, the length of the mention. None if not applicable.
                  - mention text: str, the actual text that was identified as a named entity. Required.
-                 - true type: str, the groud truth of the token
                  - mention type: str, the entity/mention type. None if not applicable.
                  NOTE: len(predictions) should equal len(data) AND the ordering should not change [important for
                      evalutation. See note in evaluate() about parallel arrays.]
@@ -207,29 +208,33 @@ class ner_blstm_cnn(Ner):
         pred = pred.argmax(axis=-1)
         pred = [self.idx2Label[x].strip() for x in pred]
 
-        ground = [None]*len(pred)
-        predictions = list(map(list, zip(words, ground, pred)))
+        start = [None]*len(pred)
+        span = [len(word) for word in words]
+        predictions = list(map(list, zip(start, span, words, pred)))
         predictions = [tuple(preds) for preds in predictions]
         return predictions
 
 
     def predict_dataset(self, dataset):
         """
-        Predicts on the given input data. Assumes model has been trained with train()
+        Predicts on the given dataset
         Args:
-            data:
+            dataset: data in arbitrary format as required for testing
         Returns:
             predictions: [tuple,...], i.e. list of tuples.
-                Each tuple is (mention text, true type, mention type)
+                Each tuple is (start index, span, mention text, mention type)
                 Where:
+                 - start index: int, the index of the first character of the mention span. None if not applicable.
+                 - span: int, the length of the mention. None if not applicable.
                  - mention text: str, the actual text that was identified as a named entity. Required.
-                 - true type: str, the groud truth of the token
                  - mention type: str, the entity/mention type. None if not applicable.
                  NOTE: len(predictions) should equal len(data) AND the ordering should not change [important for
                      evalutation. See note in evaluate() about parallel arrays.]
         Raises:
             None
         """
+
+        self.label2Idx = {v: k for k, v in self.idx2Label.items()}
 
         dataset = processData(dataset)
         dataset = addCharInformation(dataset, self.char2Idx)
@@ -253,14 +258,22 @@ class ner_blstm_cnn(Ner):
                 tokens.append(sentence)
                 span.append(len(sentence))
 
+            tokens.append('')
+            span.append('')
+
             preds = [self.idx2Label[element] for element in pred]
+            preds.append('')
+
             ground = [self.idx2Label[element] for element in labels]
+            ground.append('')
+
             predLabels.extend(preds)
             groundLabels.extend(ground)
             b.update(i)
         b.update(i + 1)
 
-        predictions = list(map(list, zip(tokens, groundLabels, predLabels)))
+        start = [None] * len(tokens)
+        predictions = list(map(list, zip(start, span, tokens, predLabels)))
         predictions = [tuple(pred) for pred in predictions]
         return predictions
 
@@ -290,25 +303,25 @@ class ner_blstm_cnn(Ner):
 
         # return ground_truth
 
-        pass
-
-        '''
         tokens = []
         labels = []
         span = []
 
-        for lines in data:
-            for tuples in lines:
-                tokens.append(tuples[0])
-                labels.append(tuples[1])
-                span.append(len(tuples[0]))
+        for lines in data['test']:
+            if len(lines)>0 and lines[0]!='-DOCSTART-' and lines[0]!='WORD':
+                tokens.append(lines[0])
+                labels.append(lines[3])
+                span.append(len(lines[0]))
+            else:
+                tokens.append('')
+                labels.append('')
+                span.append('')
 
         start = [None] * len(tokens)
         ground_truth = list(map(list, zip(start, span, tokens, labels)))
         ground_truth = [tuple(ground) for ground in ground_truth]
 
         return ground_truth
-        '''
 
     #@NER.overrides
     def read_dataset(self, file_dict, dataset_name=None, *args, **kwargs):
@@ -404,9 +417,6 @@ class ner_blstm_cnn(Ner):
                 labels, tokens, casing, char = batch
                 self.model.train_on_batch([tokens, casing, char], labels)
                 a.update(i)
-            predictions = self.predict_dataset(copy.deepcopy(data['dev']))
-            P, R, F = self.evaluate(predictions)
-            print('Precision: %s, Recall: %s, F1: %s' % (P, R, F))
             a.update(i + 1)
             print(' ')
 
@@ -438,14 +448,15 @@ class ner_blstm_cnn(Ner):
         if isinstance(data, str):
             return self.predict_text(data)
         else:
-            return self.predict_dataset(copy.deepcopy(data))
+            return self.predict_dataset(copy.deepcopy(data['test']))
 
     #@NER.overrides
-    def evaluate(self, predictions, *args, **kwargs):
+    def evaluate(self, predictions, groundTruths, *args, **kwargs):
         """
         Calculates evaluation metrics on chosen benchmark dataset [Precision,Recall,F1, or others...]
         Args:
             predictions: [tuple,...], list of tuples [same format as output from predict]
+            groundTruths: [tuple,...], list of tuples representing ground truth.
         Returns:
             metrics: tuple with (p,r,f1). Each element is float.
         Raises:
@@ -460,8 +471,8 @@ class ner_blstm_cnn(Ner):
 
         # return (precision, recall, f1)
 
-        predicted_labels = [predicted[2] for predicted in predictions]
-        ground_labels = [true_labels[1] for true_labels in predictions]
+        predicted_labels = [predicted[3] for predicted in predictions if predicted[3]!='']
+        ground_labels = [true_labels[3] for true_labels in groundTruths if true_labels[3]!='']
 
         label_encoder = sklearn.preprocessing.LabelEncoder()
         label_set = list(self.label2Idx.keys())
