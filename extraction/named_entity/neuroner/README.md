@@ -51,5 +51,5 @@ https://github.com/Franck-Dernoncourt/NeuroNER
 | CHEMDNER | 0.552 | 0.597 | 0.573 | 
 
 ## Demo
-- Link to the Jupyter Notebook 
-- Link to the video on Youtube
+- [Sample notebook](https://github.com/Lakshya-Kejriwal/ditk/blob/develop/extraction/named_entity/neuroner/demo.ipynb)
+- [Demo video](https://www.youtube.com/watch?v=MO2LNQ4eP1U)
