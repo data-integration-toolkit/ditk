@@ -141,15 +141,15 @@ https://youtu.be/X7xcpG0SLv8
 
  1. Import the Module from main.py
 
-    - ```python
+      ```python
       from main import knet
       ```
     
  2. Create Instanse of the module
 
-    - ```python
-     knet_instance = knet()
-     ```
+      ```python
+      knet_instance = knet()
+      ```
 
  3. First call read_dataset() and give all the files required to train in the given order
    - types
@@ -165,7 +165,7 @@ https://youtu.be/X7xcpG0SLv8
    - Fbid to validate
    - Label to validate
 
-   - ```python
+   ```python
         knet_instance.read_dataset([
           "data/types",
           "data/disamb_file",
@@ -180,7 +180,7 @@ https://youtu.be/X7xcpG0SLv8
           "data/valid_fbid.npy",
         "data/valid_label.npy"
       ])
-      ```
+   ```
 
  4. Dataset information
 
@@ -194,7 +194,7 @@ https://youtu.be/X7xcpG0SLv8
 
  5. To train run the following commands. If already trained you can skip this.
 
-    - ```python
+      ```python
       knet_instance.train(None)
       ```
 
@@ -219,10 +219,10 @@ https://youtu.be/X7xcpG0SLv8
       ```
       
     - If ground truth was not given in predict give location of new file in the list
-    - ```python
+     ```python
     precision, recall, f1_score = knet_instance.evaluate(["data/new_file.txt"])
-      print("precision: {}\trecall: {}\tf1: {}".format(precision, recall, f1_score))
-      ```
+    print("precision: {}\trecall: {}\tf1: {}".format(precision, recall, f1_score))
+     ```
 
 ## To Test
 
