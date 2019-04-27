@@ -1,6 +1,15 @@
 import numpy as np
 import os
 import copy
+import sys
+
+if os.name == 'nt':
+    module_path = os.path.abspath(os.path.join('..\..\..'))
+else:
+    module_path = os.path.abspath(os.path.join('../../..'))
+
+if module_path not in sys.path:
+    sys.path.append(module_path)
 from ner import Ner
 os.environ['TF_CPP_MIN_LOG_LEVEL'] = '3'
 

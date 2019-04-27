@@ -1,4 +1,3 @@
-from ner import Ner
 import codecs
 import copy
 import glob
@@ -9,7 +8,17 @@ import shutil
 import time
 import sklearn
 import spacy
+import sys
 
+if os.name == 'nt':
+    module_path = os.path.abspath(os.path.join('..\..\..'))
+else:
+    module_path = os.path.abspath(os.path.join('../../..'))
+
+if module_path not in sys.path:
+    sys.path.append(module_path)
+
+from ner import Ner
 import numpy as np
 import matplotlib
 matplotlib.use('Agg')
