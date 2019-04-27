@@ -16,6 +16,16 @@ https://github.com/kamalkraj/Named-Entity-Recognition-with-Bidirectional-LSTM-CN
 - Network Model Constructed Using Keras
  ![alt text](https://raw.githubusercontent.com/kamalkraj/Named-Entity-Recognition-with-Bidirectional-LSTM-CNNs/master/model.png)
 
+## Instructions
+
+- Clone the repository
+- Install the dependencies using `pip3 install -r requirements.txt`
+- Edit the `main.py` inside the `ner_blstm_cnn` folder to add paths to `train`, `dev` and `test` files.
+- Run the `main.py` file using `python3 main.py`
+
+- Running the unit tests
+    - From inside the `ner_blstm_cnn` directory run `python3 -m unittest tests.runtest`
+
 ## Input and Output
 - Prediction
     -  Input format: Sentence (un-tokenized) - `Steve went to Paris`
