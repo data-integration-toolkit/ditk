@@ -64,4 +64,4 @@ https://github.com/kamalkraj/Named-Entity-Recognition-with-Bidirectional-LSTM-CN
 
 ## Demo
 - [Sample notebook](https://github.com/Lakshya-Kejriwal/ditk/blob/develop/extraction/named_entity/ner_blstm_cnn/demo.ipynb)
-- Link to the video on Youtube
+- [Demo video](https://www.youtube.com/watch?v=ZCc42iMT6I8)
