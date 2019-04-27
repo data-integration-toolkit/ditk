@@ -12,7 +12,7 @@ https://github.com/Franck-Dernoncourt/NeuroNER
 - The character enhanced token embeddings are passed through another BLSTM to generate predictions for each token
 
 - Network Model
- ![alt text](http://neuroner.com/NeuroNERengine_with_caption_no_figure.png)
+ ![alt text](./model.png)
  
 ## Instructions
 
