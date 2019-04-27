@@ -17,7 +17,7 @@ import itertools
 import json
 
 class MultiBio(Ner):
-    def __init__(self, parser):
+    def __init__(self, args):
         self.file_num = 0
         self.lines = []
         self.dev_lines = []
@@ -38,7 +38,7 @@ class MultiBio(Ner):
         self.test_word = []
         self.test_word_tag = []
         self.track_list = list()
-        self.args = parser.parse_args()
+        self.args = args
         if self.args.gpu >= 0:
             torch.cuda.set_device(self.args.gpu)
         print('setting:')
@@ -56,18 +56,18 @@ class MultiBio(Ner):
         for i in range(self.file_num):
             with codecs.open(self.args.train_file[i], 'r', 'utf-8') as f:
                 lines0 = f.readlines()
-                #lines0 = lines0[0:2000]
+                lines0 = lines0[0:2000]
                 # print (len(lines0))
             self.lines.append(lines0)
         for i in range(self.file_num):
             with codecs.open(self.args.dev_file[i], 'r', 'utf-8') as f:
                 dev_lines0 = f.readlines()
-                #dev_lines0 = dev_lines0[0:2000]
+                dev_lines0 = dev_lines0[0:2000]
             self.dev_lines.append(dev_lines0)
         for i in range(self.file_num):
             with codecs.open(self.args.test_file[i], 'r', 'utf-8') as f:
                 test_lines0 = f.readlines()
-                #test_lines0 = test_lines0[0:2000]
+                test_lines0 = test_lines0[0:2000]
             self.test_lines.append(test_lines0)
 
         for i in range(self.file_num):
@@ -293,22 +293,10 @@ class MultiBio(Ner):
             'args': vars(self.args)
             }, self.args.checkpoint + 'cwlm_lstm_crf')
 
-    def load_model(self, file_path):
+    def load_model(self, args):
         print("CSCI548 model loading")
-        parser = argparse.ArgumentParser(description='Evaluating LM-BLSTM-CRF')
-        parser.add_argument('--load_arg', default='./checkpoint/cwlm_lstm_crf.json', help='path to arg json')
-        parser.add_argument('--load_check_point', default='./checkpoint/cwlm_lstm_crf.model',
-                            help='path to model checkpoint file')
-        parser.add_argument('--gpu', type=int, default=0, help='gpu id')
-        parser.add_argument('--decode_type', choices=['label', 'string'], default='label',
-                            help='type of decode function, set `label` to couple label with text, or set `string` to insert label into test')
-        parser.add_argument('--batch_size', type=int, default=50, help='size of batch')
-        parser.add_argument('--eva_matrix', choices=['a', 'fa'], default='fa',
-                            help='use f1 and accuracy or accuracy alone')
-        parser.add_argument('--input_file', default=file_path + "/test.tsv", help='path to input un-annotated corpus')
-        parser.add_argument('--output_file', default='annotate/output', help='path to output file')
-        parser.add_argument('--dataset_no', type=int, default=1, help='number of the datasets')
-        self.args = parser.parse_args()
+
+        self.args = args
         print('loading dictionary')
         with open(self.args.load_arg, 'r') as f:
             jd = json.load(f)
@@ -319,8 +307,6 @@ class MultiBio(Ner):
         l_map = checkpoint_file['l_map']
         c_map = checkpoint_file['c_map']
         in_doc_words = checkpoint_file['in_doc_words']
-        if self.args.gpu >= 0:
-            torch.cuda.set_device(self.args.gpu)
 
         # build model
         print('loading model')
@@ -355,15 +341,15 @@ class MultiBio(Ner):
             for i, line in enumerate(f):
                 #if i == 2000:
                    #break
-                if line == '\n':
+                if line == '\r\n':
                     features.append(utils.read_features2(lines))
                     feature_tags.append(tags)
                     tags = []
                     lines = []
                     continue
-                tmp = line.split()
+                tmp = line.split(" ")
                 lines.append(tmp[0])
-                tags.append((tmp[1]))
+                tags.append((tmp[3]))
         #print(len(feature_tags),len(features))
         for idx in range(self.args.dataset_no):
             print('annotating the entity type', idx)
