@@ -40,6 +40,16 @@ def sample_mask(idx, l):
     mask[idx] = 1
     return np.array(mask, dtype=np.bool)
 
+def load_graph(file):
+    graph = dd(list)
+    with open(file, 'r') as f:
+        for line in f:
+            line = line.rstrip().split(" ")
+            graph[line[0]].append(line[1])
+
+    adj = nx.adjacency_matrix(nx.from_dict_of_lists(graph)).toarray()
+    return adj
+    
 def load_citation_data_from_file(files):
     """Load citation data."""
     with open(files[0], 'rb') as f:

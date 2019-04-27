@@ -150,7 +150,9 @@ class longae(GraphCompletion):
 
 			prediction_data = self.predict({
 				"adj": adj,
-				"feats": feats
+				"feats": feats,
+				"test_r": test_r,
+				"test_c": test_c
 			})
 			
 			vals = self.evaluate({
@@ -172,20 +174,21 @@ class longae(GraphCompletion):
 		print('\nAll done.')
 		return scores
 	
-	def predict(self, data, options={}):
+	def predict(self, data, options={"actual_values": False}):
 		"""
 		Predicts links on the given input data (e.g. knowledge graph). Assumes model has been trained with train()
 
 		Args:
 			data: sparse matrix with features containing missing links 
-			options: object to store any extra or implementation specific data
+			options: actual_values flag to return full graph and label instead of probabilities
 
 		Returns:
-			predictions: [tuple,...], i.e. list of predicted tuples. 
-				Each tuple likely will follow format: (subject_entity, relation, object_entity), but isn't required.
+			predictions: dictionary with adj matrix and node classification label
 		"""
 		adj = data["adj"]
 		feats = data["feats"]
+		test_r = data["test_r"]
+		test_c = data["test_c"]
 
 		print('\nEvaluating validation set...')
 		lp_scores, nc_scores = [], []
@@ -203,6 +206,15 @@ class longae(GraphCompletion):
 			nc_scores.append(decoded_nc)
 		lp_scores = np.vstack(lp_scores)
 		nc_scores = np.vstack(nc_scores)
+		if options["actual_values"]:
+			for i in range(nc_scores.shape[0]):
+				nc_scores[i] = np.array([1 if k == max(nc_scores[i]) else 0 for k in nc_scores[i]])
+
+		if options["actual_values"]:
+			adj[test_r, test_c] = self.__probability_to_prediction(lp_scores[test_r, test_c])
+			adj[test_c, test_r] = self.__probability_to_prediction(lp_scores[test_c, test_r])
+			lp_scores = adj.toarray()
+			lp_scores = np.delete(lp_scores, np.s_[lp_scores.shape[0]:], axis=1)
 		return {
 			"lp_scores": lp_scores.tolist(), 
 			"nc_scores": nc_scores.tolist()
@@ -270,6 +282,13 @@ class longae(GraphCompletion):
 			return
 		
 		self.ae.load_weights(file)
+
+	def __probability_to_prediction(self, predictions):
+		predictions_label = []
+		for p in predictions:
+			label = sum(p > np.random.choice(predictions, size=hparams.prediction_sample, replace=True)) > (len(predictions) // 2)
+			predictions_label.append(int(label))
+		return np.array(predictions_label)
 
 	def __save_fig(self, file, scores):
 		import matplotlib.pyplot as plt

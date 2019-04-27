@@ -15,7 +15,9 @@ hp.training_size = 5
 hp.dev_size = 2
 import unittest
 import pandas as pd
+import numpy as np 
 
+from graph.completion.longae.utils_gcn import load_graph
 from graph.completion.longae.longae import longae
 
 class TestGraphCompletionMethods(unittest.TestCase):
@@ -23,6 +25,7 @@ class TestGraphCompletionMethods(unittest.TestCase):
     def setUp(self):
         self.graph_completion = longae() # initialize your Graph Completion class
         self.input_files = input_files
+        self.output_files = output_files
 
     def test_read_dataset(self):
         train, test, dev = self.graph_completion.read_dataset(self.input_files)
@@ -58,6 +61,23 @@ class TestGraphCompletionMethods(unittest.TestCase):
         self.assertIn("AUC", evaluations)
         self.assertIn("AP", evaluations)
         self.assertIn("ACC", evaluations)
+
+    def test_output(self):
+        _, _, test = self.graph_completion.read_dataset(self.input_files)
+        predictions = self.graph_completion.predict(test, {"actual_values": True})
+        graph = np.array(predictions["lp_scores"]) 
+        labels = np.array(predictions["nc_scores"])
+
+        # load output files
+        with open(self.output_files[0], 'rb') as f:
+            out_labels = np.loadtxt(f)
+
+        out_graph = load_graph(self.output_files[1])
+        
+        # Make sure shape of output graph and labels are same
+        self.assertEqual(out_graph.shape, graph.shape)
+        self.assertEqual(out_labels.shape, labels.shape)
+
 
 if __name__ == '__main__':
     unittest.main()

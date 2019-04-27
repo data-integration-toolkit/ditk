@@ -28,7 +28,7 @@ hp.checkpoint_dir = os.path.join(ditk_path, 'graph/completion/longae/checkpoint/
 hp.index_file = os.path.join(ditk_path, 'graph/completion/longae/data/ind.cora.test.index')
 
 train_data, validation_data, test_data = graph_completion.read_dataset(files_cora)
-# graph_completion.load_model("./longae/checkpoint/checkpoint_100.h5")
+# graph_completion.load_model(hp.checkpoint_dir + "checkpoint_50.h5")
 
 graph_completion.train(train_data, validation_data)
 print("Running test set")
