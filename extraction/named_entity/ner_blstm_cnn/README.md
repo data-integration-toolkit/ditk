@@ -57,7 +57,12 @@ print('Precision: %s, Recall: %s, F1: %s'%(P,R,F1))
 ## Input and Output
 - Prediction
     -  Input format: Sentence (un-tokenized) - `Steve went to Paris`
-    -  Output format: `[start, span, token, token, type]` - `[(None, 5, Steve, B-PER),(None, went, 4, O),(None, 2, to, O), (None, 5, Paris, B-LOC)]`
+    -  Output format: `[start, span, token, token, type]` - 
+        - start index: int, the index of the first character of the mention span. None if not applicable.
+        - span: int, the length of the mention. None if not applicable.
+        - mention text: str, the actual text that was identified as a named entity. Required.
+        - mention type: str, the entity/mention type. None if not applicable.<br>
+`[(None, 5, Steve, B-PER),(None, went, 4, O),(None, 2, to, O), (None, 5, Paris, B-LOC)]`
 - Training
     - Input format (trainig data): `{word, POS, chunk tag, entity type}`
     - Sample data
