@@ -135,10 +135,9 @@ It consists of 2 parts:
 
 ### Testing Results on other dataset
 
-|           | Precision | Recall |   F1   |
-| :-------: | :-------: | :----: | :----: |
-|   FIGER   |  0.45825  | 0.4582 | 0.4582 |
-| OntoNotes |  0.0431   | 0.0431 | 0.0431 |
+|       | Precision | Recall |   F1   |
+| :---: | :-------: | :----: | :----: |
+| FIGER |  0.45825  | 0.4582 | 0.4582 |
 
 
 ## Jupyter Notebook
