@@ -31,6 +31,6 @@ def main(input_file_path):
 
 
 if __name__ == "__main__":
-    path = "datasets/ritter2011" # input training path
+    path = "datasets/ontonotes-nw" # input training path
     out_path = main(path)
     print("Predict_output_path: ", out_path)
