@@ -23,7 +23,6 @@ https://github.com/kamalkraj/Named-Entity-Recognition-with-Bidirectional-LSTM-CN
 - Download the word embeddings and place it inside the `embeddings` folder. The link is given inside the folder.
 - Edit the `main.py` inside the `ner_blstm_cnn` folder to add paths to `train`, `dev` and `test` files.
 - Run the `main.py` file using `python3 main.py`
-
 - Running the unit tests
     - From inside the `ner_blstm_cnn` directory run `python3 -m unittest tests.runtest`
 
