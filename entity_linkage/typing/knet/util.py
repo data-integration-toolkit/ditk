@@ -230,14 +230,14 @@ def calculate_precision_recall(predict_types, final_result):
             true_neg += 1.0
             false_pos += 1.0
 
-    if false_pos == 0.0:
-        precision = 1.0
+    if (false_pos + true_pos) == 0.0:
+        precision = 0.0
     else:
-        precision = true_pos / false_pos
-    if true_neg == 0.0:
+        precision = true_pos / (false_pos + true_pos)
+    if (true_neg + true_pos) == 0.0:
         recall = 1.0
     else:
-        recall = true_pos / true_neg
+        recall = true_pos / (true_neg + true_pos)
 
     if precision == 0.0 and recall == 0.0:
         f1_score = 0.0

@@ -6,12 +6,12 @@ import util
 import model as models
 
 sys.path.append(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
+from entity_typing import entity_typing
 
 
-# from entity_typing import entity_typing
-
-class knet():
+class knet(entity_typing):
     def __init__(self):
+        super(knet, self).__init__()
         self.type_file = None
         self.disamb_file = None
         self.embedding = None
@@ -25,11 +25,13 @@ class knet():
         self.valid_fbid = None
         self.valid_labels = None
         self.model_dir = "./model"
+        self.model_name = os.path.join(self.model_dir, "model_final")
         self.test_file = None
         self.predict_types = None
         self.final_result = None
 
     def read_dataset(self, file_names, options={}):
+        super(knet, self).read_dataset(file_names, options)
         assert len(file_names) >= 12, "Check README and get all the files"
         if os.path.exists(file_names[0]):
             self.type_file = file_names[0]
@@ -108,6 +110,7 @@ class knet():
             assert False, "valid labels file is not present at the given location"
 
     def train(self, train_data=None, options={}):
+        super(knet, self).train(train_data, options)
         if not os.path.exists(self.model_dir):
             os.makedirs(self.model_dir)
 
@@ -124,10 +127,10 @@ class knet():
         valid_fbid = np.load(self.valid_fbid)
 
         train_size = len(train_entity)
-        if train_size < 100: 
-            batch_size = train_size / 10
+        if train_size < 500:
+            batch_size = train_size
             iter_num = train_size
-            check_freq = train_size / 10
+            check_freq = train_size
         elif train_size < 10000:
             batch_size = train_size / 100
             iter_num = train_size / 10
@@ -161,15 +164,18 @@ class knet():
             fd[model.kprob] = 0.5
             sess.run(model.train, feed_dict=fd)
 
-            if i % int(train_size / batch_size / 10) == 0:
+            if batch_size != train_size and i % int(train_size / batch_size / 10) == 0:
                 util.printlog("Epoch {}, Batch {}".format(int((i * batch_size) / train_size), int((i * batch_size) % train_size / batch_size)))
+        model.saver.save(sess, self.model_name)
 
     def predict(self, test_data, model_details=None, options={}):
+        super(knet, self).predict(test_data, model_details, options)
         assert len(test_data) != 0, "test_data list shouldn't be empty"
         self.test_file = test_data[0]
         if not os.path.exists(self.test_file):
             assert False, "File doesn't exists"
 
+        print("Start Predicting")
         direct_entity, direct_context, self.predict_types = util.raw2npy(self.test_file)
 
         embedding = np.load(self.embedding)
@@ -178,76 +184,28 @@ class knet():
         sess = tf.Session()
         w2v = util.build_vocab(self.glove, model.word_size)
         sess.run(model.initializer)
+        model.saver.restore(sess, self.model_name)
         util.printlog("Begin computing direct outputs")
         self.final_result = util.direct(w2v, sess, model, direct_entity, direct_context, embedding, self.type_file)
 
         dir_name = os.path.dirname(test_data[0])
-        output_file = os.path.join(dir_name, "output_knet.txt")
+        output_file = os.path.join(dir_name, "entity_typing_test_output.txt")
         final_str = ""
-        for i in self.final_result:
-            final_str = "{}\n{}".format(final_str, i)
+        for i in range(len(self.final_result)):
+            final_str = "{}\n{}\t{}\t{}".format(final_str, " ".join(direct_entity[i]), self.predict_types[i], self.final_result[i].lower())
         with open(output_file, 'w') as fin:
             fin.write(final_str.strip())
-        print("Result has been output to following file: {}".format(output_file))
-        return self.final_result
+
+        return output_file
 
     def evaluate(self, test_data, prediction_data=None, options={}):
-        if options.get("paper", None) is not None:
-            assert len(test_data) >= 8, "All files are not given"
-            
-            embedding = np.load(self.embedding)
-            test_context = np.load(test_data[0])
-            test_entity = np.load(test_data[1])
-            test_fbid = np.load(test_data[2])
-            test_label = np.load(test_data[3])
-
-            manual_context = np.load(test_data[4])
-            manual_entity = np.load(test_data[5])
-            manual_fbid = np.load(test_data[6])
-            manual_label = np.load(test_data[7])
-
-            model = models.KA_D("KA+D", self.disamb_file)
-
-            sess = tf.Session()
-            w2v = util.build_vocab(self.glove, model.word_size)
-            sess.run(model.initializer)
-
-            batch_size = 1000
-
-            util.printlog("Test on the wiki-auto test set")
-            util.test(w2v, model, test_entity, test_context, test_label, test_fbid,
-                embedding, batch_size, sess, "all")
-            util.test(w2v, model, test_entity, test_context, test_label, test_fbid,
-                embedding, batch_size, sess, "succ")
-            util.test(w2v, model, test_entity, test_context, test_label, test_fbid,
-                embedding, batch_size, sess, "miss")
-            util.test(w2v, model, test_entity, test_context, test_label, test_fbid,
-                embedding, batch_size, sess, "person")
-            util.test(w2v, model, test_entity, test_context, test_label, test_fbid,
-                embedding, batch_size, sess, "organization")
-            util.test(w2v, model, test_entity, test_context, test_label, test_fbid,
-                embedding, batch_size, sess, "location")
-
-            util.printlog("Test on the wiki-man test set")
-            util.test(w2v, model, manual_entity, manual_context, manual_label, manual_fbid,
-                embedding, batch_manual, sess, "all")
-            util.test(w2v, model, manual_entity, manual_context, manual_label, manual_fbid,
-                embedding, batch_manual, sess, "succ")
-            util.test(w2v, model, manual_entity, manual_context, manual_label, manual_fbid,
-                embedding, batch_manual, sess, "miss")
-            util.test(w2v, model, manual_entity, manual_context, manual_label, manual_fbid,
-                embedding, batch_manual, sess, "person")
-            util.test(w2v, model, manual_entity, manual_context, manual_label, manual_fbid,
-                embedding, batch_manual, sess, "organization")
-            util.test(w2v, model, manual_entity, manual_context, manual_label, manual_fbid,
-                embedding, batch_manual, sess, "location")
-            return
+        super(knet, self).evaluate(test_data, prediction_data, options)
         if len(test_data) > 0 and os.path.exists(self.test_file):
-            _ = self.predict(test_data)
+            self.predict(test_data)
 
         precision, recall, f1_score = util.calculate_precision_recall(self.predict_types, self.final_result)
-        return (precision, recall, f1_score)
 
+        return (precision, recall, f1_score)
 
     def save_model(self, file):
         """
@@ -266,7 +224,7 @@ class knet():
         pass
 
 
-if '__main__' == __name__:
+def main(input_file):
     knet_instance = knet()
     knet_instance.read_dataset([
         "data/types",
@@ -284,15 +242,11 @@ if '__main__' == __name__:
     ])
 
     knet_instance.train(None)
-    knet_instance.predict(["data/entity_typing_test_input.txt"])
-    knet_instance.evaluate([])
-    knet_instance.evaluate([
-        "data/test_context",
-        "data/test_entity",
-        "data/test_fbid.npy",
-        "data/test_label.txt",
-        "data/manual_context.npy",
-        "data/manual_entity.npy",
-        "data/manual_fbid.npy",
-        "data/manual_label.npy"
-    ], options={"paper": True})
+    output_file = knet_instance.predict([input_file])
+    precision, recall, f1_score = knet_instance.evaluate([])
+    print("precision: {}\trecall: {}\tf1: {}".format(precision, recall, f1_score))
+    return output_file
+
+
+if '__main__' == __name__:
+    main("data/entity_typing_test_input.txt")
