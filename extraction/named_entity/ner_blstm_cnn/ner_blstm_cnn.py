@@ -25,7 +25,7 @@ class ner_blstm_cnn(Ner):
 
         # ::Hard coded char lookup ::
         self.char2Idx = {"PADDING": 0, "UNKNOWN": 1}
-        for c in " 0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ.,-_()[]{}!?:;#'\"/\\%$`&=*+@^~|":
+        for c in " 0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ.,-_()[]{}!?:;#'\"/\\%$`&=*+@^~|": #ÌöÛ’ò˙<>・【】●■□，▲（一）·の→￥：在＊à
             self.char2Idx[c] = len(self.char2Idx)
         # :: Hard coded case lookup ::
         self.case2Idx = {'numeric': 0, 'allLower': 1, 'allUpper': 2, 'initialUpper': 3, 'other': 4, 'mainly_numeric': 5,
@@ -82,7 +82,7 @@ class ner_blstm_cnn(Ner):
         self.word2Idx = {}
         wordEmbeddings = []
 
-        fEmbeddings = open("embeddings/glove.6B.100d.txt", encoding="utf-8")
+        fEmbeddings = open("./embeddings/glove.6B.100d.txt", encoding="utf-8")
 
         for line in fEmbeddings:
             split = line.strip().split(" ")
@@ -494,21 +494,53 @@ class ner_blstm_cnn(Ner):
         return precision, recall, f1
 
 
-"""
-# Sample workflow:
+def main(train_file, dev_file=None, test_file=None):
 
-inputFiles = ['thisDir/file1.txt','thatDir/file2.txt','./file1.txt']
+    if dev_file==None and test_file==None:
+        inputFiles = {'train': train_file,
+                      'dev': train_file,
+                      'test': train_file}
+    else:
+        inputFiles = {'train': train_file,
+                      'dev': dev_file if dev_file!=None else train_file,
+                      'test': test_file if test_file!=None else train_file}
 
-myModel = module_ner_lstm_cnn(DITKModel_NER)  # instatiate the class
-data = myModel.read_dataset(inputFiles)  # read in a dataset for training
+    # instatiate the class
+    ner = ner_blstm_cnn(5)
 
-myModel.train(train_data)  # trains the model and stores model state in object properties or similar
+    # read in a dataset for training
+    data = ner.read_dataset(inputFiles)
 
-predictions = myModel.predict(test_data)  # generate predictions! output format will be same for everyone
+    # trains the model and stores model state in object properties or similar
+    ner.train(data)
 
-test_labels = myModel.convert_ground_truth(test_data)  <-- need ground truth labels need to be in same format as predictions!
+    # get ground truth from data for test set
+    ground = ner.convert_ground_truth(data)
 
-P,R,F1 = myModel.evaluate(predictions, test_labels)  # calculate Precision, Recall, F1
+    # generate predictions on test
+    predictions = ner.predict(data)
 
-print('Precision: %s, Recall: %s, F1: %s'%(P,R,F1))
-"""
+    # calculate Precision, Recall, F1
+    P,R,F1 = ner.evaluate(predictions, ground)
+
+    print('Precision: %s, Recall: %s, F1: %s'%(P,R,F1))
+
+    output_file = os.path.dirname(train_file)
+    output_file_path = os.path.join(output_file, "output.txt")
+
+    with open(output_file_path, 'w') as f:
+        for index, (g, p) in enumerate(zip(ground, predictions)):
+            if len(g[3])==0:
+                f.write("\n")
+            else:
+                f.write(g[2] + " " + g[3] + " " + p[3] + "\n")
+
+    return output_file_path
+
+
+
+if __name__ == "__main__":
+    train_file = "/Users/lakshya/Desktop/CSCI-548/Named-Entity-Recognition-with-Bidirectional-LSTM-CNNs-master/conll/train.txt"
+    dev_file = "/Users/lakshya/Desktop/CSCI-548/Named-Entity-Recognition-with-Bidirectional-LSTM-CNNs-master/conll/valid.txt"
+    test_file = "/Users/lakshya/Desktop/CSCI-548/Named-Entity-Recognition-with-Bidirectional-LSTM-CNNs-master/conll/test.txt"
+    main(train_file, dev_file, test_file)
