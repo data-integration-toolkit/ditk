@@ -1,4 +1,4 @@
-# Objective: Data Integration Took Kit for CSIC548 Final Project
+# Data Integration Took Kit for CSIC548 Final Project
 
 ## Title of the Paper: 
 - Cross-type biomedical named entity recognition with deep multi-task learning
