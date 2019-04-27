@@ -1,4 +1,3 @@
-
 from ner import Ner
 import codecs
 import copy
@@ -25,6 +24,7 @@ import conll_to_brat
 import evaluate
 import brat_to_conll
 import utils_nlp
+import prepare_pretrained_model
 
 class neuroner(Ner):
 
@@ -36,6 +36,8 @@ class neuroner(Ner):
         """
         # Set parameters
         self.parameters, self.conf_parameters = utils.load_parameters(**kwargs)
+        self.loadmodel = False
+        self.training = False
 
     def _create_stats_graph_folder(self, parameters):
         """
@@ -77,6 +79,9 @@ class neuroner(Ner):
         for dataset_type in dataset_types:
             dataset_filepaths[dataset_type] = os.path.join(parameters['dataset_text_folder'],
                 '{0}.txt'.format(dataset_type))
+            if not os.path.isfile(dataset_filepaths[dataset_type]):
+                dataset_filepaths[dataset_type] = os.path.join(parameters['dataset_text_folder'],
+                                                               self.filename)
             dataset_brat_folders[dataset_type] = os.path.join(parameters['dataset_text_folder'],
                 dataset_type)
             dataset_compatible_with_brat_filepath = os.path.join(parameters['dataset_text_folder'],
@@ -169,7 +174,6 @@ class neuroner(Ner):
             None
         """
         # IMPLEMENT PREDICTION.
-
         self.prediction_count += 1
 
         if self.prediction_count == 1:
@@ -234,7 +238,7 @@ class neuroner(Ner):
         pred_tuple = prediction_output[0]
 
         for i, token in enumerate(tokens):
-            pred = (token, None, self.modeldata.index_to_label[pred_tuple[i]])
+            pred = (token.idx, len(token), token, self.modeldata.index_to_label[pred_tuple[i]])
             predictions.append(pred)
 
         assert (text == text2)
@@ -244,7 +248,7 @@ class neuroner(Ner):
         """
         Makes predictions on a given dataset and returns the predictions in the specified format
         Args:
-            data: data in arbitrary format as required for testing
+            dataset: data in arbitrary format as required for testing
         Returns:
             predictions: [tuple,...], i.e. list of tuples.
                 Each tuple is (start index, span, mention text, mention type)
@@ -260,17 +264,46 @@ class neuroner(Ner):
         """
         # IMPLEMENT PREDICTION.
 
-        # Load dataset
-        self.dataset_filepaths, self.dataset_brat_folders = self._get_valid_dataset_filepaths(self.parameters)
-        self.modeldata = dataset.Dataset(verbose=self.parameters['verbose'], debug=self.parameters['debug'])
-        token_to_vector = self.modeldata.load_dataset(data, self.dataset_filepaths, self.parameters, dataset_type)
+        # Load dataset only when directly loading the model
+
+        if self.training:
+            self.parameters['use_pretrained_model'] = True
+            self.parameters['pretrained_model_folder'] = os.path.join('.', 'output', os.path.basename(self.stats_graph_folder), 'output')
+            tf.reset_default_graph()
+
+        if self.loadmodel:
+            self.dataset_filepaths, self.dataset_brat_folders = self._get_valid_dataset_filepaths(self.parameters)
+            self.modeldata = dataset.Dataset(verbose=self.parameters['verbose'], debug=self.parameters['debug'])
+            self.token_to_vector = self.modeldata.load_dataset(data, self.dataset_filepaths, self.parameters)
+            self.loadmodel = False
+
+        # Launch session. Automatically choose a device
+        # if the specified one doesn't exist
+        if self.parameters['use_pretrained_model']:
+            session_conf = tf.ConfigProto(
+                intra_op_parallelism_threads=self.parameters['number_of_cpu_threads'],
+                inter_op_parallelism_threads=self.parameters['number_of_cpu_threads'],
+                device_count={'CPU': 1, 'GPU': self.parameters['number_of_gpus']},
+                allow_soft_placement=True,
+                log_device_placement=False)
+
+            self.sess = tf.Session(config=session_conf)
+            with self.sess.as_default():
+
+                # Initialize or load pretrained model
+                self.model = EntityLSTM(self.modeldata, self.parameters)
+                self.sess.run(tf.global_variables_initializer())
+
+                self.transition_params_trained = self.model.restore_from_pretrained_model(self.parameters,
+                                                                                              self.modeldata, self.sess,
+                                                                                              token_to_vector=self.token_to_vector)
 
         parameters = self.parameters
         dataset_filepaths = self.dataset_filepaths
         sess = self.sess
         model = self.model
         transition_params_trained = self.transition_params_trained
-        stats_graph_folder, experiment_timestamp = self._create_stats_graph_folder(parameters)
+        stats_graph_folder, experiment_timestamp = self._create_stats_graph_folder(self.parameters)
 
         all_predictions = []
         true_labels = []
@@ -332,7 +365,7 @@ class neuroner(Ner):
                         if parameters['tagging_format'] == 'bioes':
                             split_line.pop()
 
-                        gold_label_original = split_line[-1]
+                        gold_label_original = split_line[6]
 
                         assert (token == token_original and gold_label == gold_label_original)
                         break
@@ -348,12 +381,18 @@ class neuroner(Ner):
 
             predicted_labels = [modeldata.index_to_label[preds] for preds in predictions]
 
-            all_predictions.extend(predicted_labels)
+            all_predictions.extend(prediction_labels)
+            all_predictions.append('')
             true_labels.extend(modeldata.labels[dataset_type][i])
+            true_labels.append('')
             tokens.extend(modeldata.tokens[dataset_type][i])
+            tokens.append('')
             span.extend(modeldata.token_lengths[dataset_type][i])
+            span.append('')
 
-        all_predictions = list(map(list, zip(tokens, true_labels, all_predictions)))
+        start_index = [None] * len(true_labels)
+
+        all_predictions = list(map(list, zip(start_index, span, tokens, all_predictions)))
         all_predictions = [tuple(pred) for pred in all_predictions]
 
         return all_predictions
@@ -382,6 +421,16 @@ class neuroner(Ner):
         """
         # IMPLEMENT CONVERSION. STRICT OUTPUT FORMAT REQUIRED.
 
+
+        # Load dataset
+        if self.loadmodel:
+            self.dataset_filepaths, self.dataset_brat_folders = self._get_valid_dataset_filepaths(self.parameters)
+            self.modeldata = dataset.Dataset(verbose=self.parameters['verbose'], debug=self.parameters['debug'])
+            self.token_to_vector = self.modeldata.load_dataset(data, self.dataset_filepaths, self.parameters)
+            self.loadmodel = False
+
+        modeldata = self.modeldata
+
         # return ground_truth
         true_labels = []
         tokens = []
@@ -392,10 +441,13 @@ class neuroner(Ner):
         if len(args)==1:
             dataset_type = args[0]
 
-        for i in range(len(data.token_indices[dataset_type])):
-            true_labels.extend(data.labels[dataset_type][i])
-            tokens.extend(data.tokens[dataset_type][i])
-            span.extend(data.token_lengths[dataset_type][i])
+        for i in range(len(modeldata.token_indices[dataset_type])):
+            true_labels.extend(modeldata.labels[dataset_type][i])
+            true_labels.append('')
+            tokens.extend(modeldata.tokens[dataset_type][i])
+            tokens.append('')
+            span.extend(modeldata.token_lengths[dataset_type][i])
+            span.append('')
 
         start_index = [None] * len(true_labels)
 
@@ -404,12 +456,13 @@ class neuroner(Ner):
 
         return all_y_true
 
-    def save_model(self, file):
+    def save_model(self, file=None):
         """
         :param file: Where to save the model - Optional function
         :return:
         """
-        pass
+        utils.create_folder_if_not_exists(self.modelFolder)
+        self.model.saver.save(self.sess, os.path.join(self.modelFolder, 'model_{0:05d}.ckpt'.format(0)))
 
     def load_model(self, file=None):
         """
@@ -419,42 +472,11 @@ class neuroner(Ner):
 
         self.parameters['use_pretrained_model'] = True
         self.parameters['pretrained_model_folder'] = file if file!=None else self.parameters['pretrained_model_folder']
+        self.loadmodel = True
 
-        # Load dataset
-        self.dataset_filepaths, self.dataset_brat_folders = self._get_valid_dataset_filepaths(self.parameters)
-        self._check_param_compatibility(self.parameters, self.dataset_filepaths)
-
-        self.modeldata = dataset.Dataset(verbose=self.parameters['verbose'], debug=self.parameters['debug'])
-        token_to_vector = self.modeldata.load_dataset(None, self.dataset_filepaths, self.parameters)
-
-        # Launch session. Automatically choose a device
-        # if the specified one doesn't exist
-        session_conf = tf.ConfigProto(
-            intra_op_parallelism_threads=self.parameters['number_of_cpu_threads'],
-            inter_op_parallelism_threads=self.parameters['number_of_cpu_threads'],
-            device_count={'CPU': 1, 'GPU': self.parameters['number_of_gpus']},
-            allow_soft_placement=True,
-            log_device_placement=False)
-
-        self.sess = tf.Session(config=session_conf)
-        with self.sess.as_default():
-
-            # Initialize or load pretrained model
-            self.model = EntityLSTM(self.modeldata, self.parameters)
-            self.sess.run(tf.global_variables_initializer())
-
-            if self.parameters['use_pretrained_model']:
-                self.transition_params_trained = self.model.restore_from_pretrained_model(self.parameters,
-                                                                                          self.modeldata, self.sess,
-                                                                                          token_to_vector=token_to_vector)
-            else:
-                self.model.load_pretrained_token_embeddings(self.sess, self.modeldata,
-                                                            self.parameters, token_to_vector)
-                self.transition_params_trained = np.random.rand(len(self.modeldata.unique_labels) + 2,
-                                                                len(self.modeldata.unique_labels) + 2)
 
     #@overrides(DITKModel_NER)
-    def read_dataset(self, file_dict, dataset_name, *args, **kwargs):  # <--- implemented PER class
+    def read_dataset(self, file_dict, dataset_name=None, *args, **kwargs):  # <--- implemented PER class
         """
         Reads a dataset in preparation for train or test. Returns data in proper format for train or test.
         Args:
@@ -470,6 +492,7 @@ class neuroner(Ner):
         standard_split = ["train", "test", "dev"]
         dataset_root = os.path.dirname(file_dict['train'])
         self.parameters['dataset_text_folder'] = dataset_root
+        self.filename = os.path.basename(file_dict['train'])
         data = {}
 
         try:
@@ -508,7 +531,7 @@ class neuroner(Ner):
 
         # Load dataset
         self.modeldata = dataset.Dataset(verbose=self.parameters['verbose'], debug=self.parameters['debug'])
-        token_to_vector = self.modeldata.load_dataset(data, self.dataset_filepaths, self.parameters)
+        self.token_to_vector = self.modeldata.load_dataset(data, self.dataset_filepaths, self.parameters)
 
         # Launch session. Automatically choose a device
         # if the specified one doesn't exist
@@ -529,10 +552,10 @@ class neuroner(Ner):
             if self.parameters['use_pretrained_model']:
                 self.transition_params_trained = self.model.restore_from_pretrained_model(self.parameters,
                                                                                           self.modeldata, self.sess,
-                                                                                          token_to_vector=token_to_vector)
+                                                                                          token_to_vector=self.token_to_vector)
             else:
                 self.model.load_pretrained_token_embeddings(self.sess, self.modeldata,
-                                                            self.parameters, token_to_vector)
+                                                            self.parameters, self.token_to_vector)
                 self.transition_params_trained = np.random.rand(len(self.modeldata.unique_labels) + 2,
                                                                 len(self.modeldata.unique_labels) + 2)
 
@@ -545,6 +568,8 @@ class neuroner(Ner):
         model = self.model
         transition_params_trained = self.transition_params_trained
         stats_graph_folder, experiment_timestamp = self._create_stats_graph_folder(parameters)
+
+        self.stats_graph_folder = stats_graph_folder
 
         # Initialize and save execution details
         start_time = time.time()
@@ -559,6 +584,7 @@ class neuroner(Ner):
         results['model_options'] = copy.copy(parameters)
 
         model_folder = os.path.join(stats_graph_folder, 'model')
+        self.modelFolder = model_folder
         utils.create_folder_if_not_exists(model_folder)
         with open(os.path.join(model_folder, 'parameters.ini'), 'w') as parameters_file:
             conf_parameters.write(parameters_file)
@@ -643,8 +669,8 @@ class neuroner(Ner):
                                                                         stats_graph_folder, dataset_filepaths)
 
                 # Evaluate model: save and plot results
-                evaluate.evaluate_model(results, modeldata, y_pred, y_true, stats_graph_folder,
-                                        epoch_number, epoch_start_time, output_filepaths, parameters)
+                #evaluate.evaluate_model(results, modeldata, y_pred, y_true, stats_graph_folder,
+                #                        epoch_number, epoch_start_time, output_filepaths, parameters)
 
                 # Save model
                 model.saver.save(sess, os.path.join(model_folder, 'model_{0:05d}.ckpt'.format(epoch_number)))
@@ -656,6 +682,7 @@ class neuroner(Ner):
                 utils.copytree(writers['train'].get_logdir(), model_folder)
 
                 # Early stop
+                '''
                 valid_f1_score = results['epoch'][epoch_number][0]['valid']['f1_score']['micro']
                 if valid_f1_score > previous_best_valid_f1_score:
                     bad_counter = 0
@@ -666,6 +693,7 @@ class neuroner(Ner):
                 else:
                     bad_counter += 1
                 print("The last {0} epochs have not shown improvements on the validation set.".format(bad_counter))
+                '''
 
                 if bad_counter >= parameters['patience']:
                     print('Early Stop!')
@@ -684,6 +712,9 @@ class neuroner(Ner):
         results['execution_details']['train_duration'] = end_time - start_time
         results['execution_details']['train_end'] = end_time
         evaluate.save_results(results, stats_graph_folder)
+        self.training = True
+        main_folder = os.path.basename(stats_graph_folder)
+        prepare_pretrained_model.prepare_pretrained_model_for_restoring(main_folder, epoch_number, 'output', False)
         for dataset_type in dataset_filepaths.keys():
             writers[dataset_type].close()
 
@@ -721,7 +752,7 @@ class neuroner(Ner):
                 return self.predict_dataset(data, args[0])
 
     #@overrides(DITKModel_NER)
-    def evaluate(self, predictions, *args, **kwargs):
+    def evaluate(self, predictions, groundTruths, *args, **kwargs):
         """
         Calculates evaluation metrics on chosen benchmark dataset [Precision,Recall,F1, or others...]
         Args:
@@ -740,8 +771,8 @@ class neuroner(Ner):
         # calculate F1 using precision and recall
 
         # return (precision, recall, f1)
-        predicted_labels = [predicted[2] for predicted in predictions]
-        ground_labels = [true_labels[1] for true_labels in predictions]
+        predicted_labels = [predicted[3] for predicted in predictions if predicted[3]!='']
+        ground_labels = [true_labels[3] for true_labels in groundTruths if true_labels[3]!='']
 
         label_encoder = sklearn.preprocessing.LabelEncoder()
         label_set = list(self.modeldata.label_to_index.keys())
@@ -803,21 +834,55 @@ class neuroner(Ner):
         self.sess.close()
 
 
-"""
-# Sample workflow:
+def main(train_file, dev_file=None, test_file=None):
 
-inputFiles = ['thisDir/file1.txt','thatDir/file2.txt','./file1.txt']
+    if dev_file==None and test_file==None:
+        inputFiles = {'train': train_file,
+                      'dev': train_file,
+                      'test': train_file}
+    else:
+        inputFiles = {'train': train_file,
+                      'dev': dev_file if dev_file!=None else train_file,
+                      'test': test_file if test_file!=None else train_file}
 
-myModel = module_neuroner(DITKModel_NER)  # instatiate the class
-data = myModel.read_dataset(inputFiles)  # read in a dataset for training
+    # instatiate the class
+    ner = neuroner(parameters_filepath='./parameters.ini')
 
-myModel.train(train_data)  # trains the model and stores model state in object properties or similar
+    # read in a dataset for training
+    data = ner.read_dataset(inputFiles)
 
-predictions = myModel.predict(test_data)  # generate predictions! output format will be same for everyone
+    # trains the model and stores model state in object properties or similar
+    ner.train(data)
 
-test_labels = myModel.convert_ground_truth(test_data)  <-- need ground truth labels need to be in same format as predictions!
+    # get ground truth from data for test set
+    ground = ner.convert_ground_truth(data)
 
-P,R,F1 = myModel.evaluate(predictions, test_labels)  # calculate Precision, Recall, F1
+    # generate predictions on test
+    predictions = ner.predict(data)
 
-print('Precision: %s, Recall: %s, F1: %s'%(P,R,F1))
-"""
+    # calculate Precision, Recall, F1
+    P,R,F1 = ner.evaluate(predictions, ground)
+
+    print('Precision: %s, Recall: %s, F1: %s'%(P,R,F1))
+
+    output_file = os.path.dirname(train_file)
+    output_file_path = os.path.join(output_file, "output.txt")
+
+    with open(output_file_path, 'w') as f:
+        for index, (g, p) in enumerate(zip(ground, predictions)):
+            if index==len(predictions)-1:
+                continue
+            if len(g[3])==0:
+                f.write("\n")
+            else:
+                f.write(g[2] + " " + g[3] + " " + p[3] + "\n")
+
+    return output_file_path
+
+
+
+if __name__ == "__main__":
+    train_file = "/Users/lakshya/Desktop/CSCI-548/Named-Entity-Recognition-with-Bidirectional-LSTM-CNNs-master/conll/train.txt"
+    dev_file = "/Users/lakshya/Desktop/CSCI-548/Named-Entity-Recognition-with-Bidirectional-LSTM-CNNs-master/conll/valid.txt"
+    test_file = "/Users/lakshya/Desktop/CSCI-548/Named-Entity-Recognition-with-Bidirectional-LSTM-CNNs-master/conll/test.txt"
+    main(train_file, dev_file, test_file)

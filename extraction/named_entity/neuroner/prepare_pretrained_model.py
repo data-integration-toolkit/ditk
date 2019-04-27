@@ -26,7 +26,7 @@ def trim_dataset_pickle(input_dataset_filepath, output_dataset_filepath=None, de
             'dataset_trimmed.pickle')
     dataset = pickle.load(open(input_dataset_filepath, 'rb'))
     count = 0
-    print("Keys removed:")
+    #print("Keys removed:")
     keys_to_remove = ['character_indices', 'character_indices_padded', 'characters', 
         'label_indices', 'label_vector_indices', 'labels', 'token_indices', 
         'token_lengths', 'tokens', 'infrequent_token_indices', 'tokens_mapped_to_unk']
@@ -38,10 +38,10 @@ def trim_dataset_pickle(input_dataset_filepath, output_dataset_filepath=None, de
     if delete_token_mappings:
         dataset.__dict__['token_to_index'] = {dataset.__dict__['UNK']:dataset.__dict__['UNK_TOKEN_INDEX']}
         dataset.__dict__['index_to_token'] = {dataset.__dict__['UNK_TOKEN_INDEX']:dataset.__dict__['UNK']}
-    print("Number of keys removed: {0}".format(count))
-    pprint(dataset.__dict__)
+    #print("Number of keys removed: {0}".format(count))
+    #pprint(dataset.__dict__)
     pickle.dump(dataset, open(output_dataset_filepath, 'wb'))
-    print("Done!")
+    #print("Done!")
 
 
 def trim_model_checkpoint(parameters_filepath, dataset_filepath, input_checkpoint_filepath, 
@@ -103,7 +103,7 @@ def prepare_pretrained_model_for_restoring(output_folder_name, epoch_number,
     and setting freeze_token_embeddings = True in parameters.ini for training.
     '''
     input_model_folder = os.path.join('.', 'output', output_folder_name, 'model')
-    output_model_folder = os.path.join('.', 'trained_models', model_name)
+    output_model_folder = os.path.join('.', 'output', output_folder_name, model_name)
     utils.create_folder_if_not_exists(output_model_folder)
 
     # trim and copy dataset.pickle
@@ -150,9 +150,9 @@ def check_contents_of_dataset_and_model_checkpoint(model_folder):
 
 
 if __name__ == '__main__':
-    output_folder_name = 'en_2017-05-05_08-58-32-633799'
-    epoch_number = 30
-    model_name = 'conll_2003_en'
+    output_folder_name = 'conll_2019-04-27_01-28-54-840329'
+    epoch_number = 1
+    model_name = 'test'
     delete_token_mappings = False
     prepare_pretrained_model_for_restoring(output_folder_name, epoch_number, 
         model_name, delete_token_mappings)

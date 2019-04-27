@@ -102,7 +102,7 @@ def prediction_step(sess, dataset, dataset_type, model, transition_params_traine
                     if parameters['tagging_format'] == 'bioes':
                         split_line.pop()
 
-                    gold_label_original = split_line[-1]
+                    gold_label_original = split_line[6]
 
                     assert(token == token_original and gold_label == gold_label_original)
                     break
