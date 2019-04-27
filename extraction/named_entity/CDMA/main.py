@@ -5,7 +5,7 @@ def main(input_file_path):
 
     model = CDMAModel()
     model.load_model("target_model/model_weights", "target_model/") #pretrained model
-    model.read_dataset(None, input_file_path)
+    model.read_dataset(None, "datasets/ontonotes-nw")
     loss_hist, train_acc_hist = model.train(None)
     """
     plt.subplot(2, 1, 1)
@@ -25,12 +25,12 @@ def main(input_file_path):
     #plt.show()
     """
     p, f1, r = model.evaluate(None, None)
-    #output_path = model.predict(input_file_path+"/test")
-    output_path = model.predict("ner_test_input.txt") # G6 NER test input_sample
+    #output_path = model.predict("datasets/ontonotes-nw/test")
+    output_path = model.predict(input_file_path)
     return output_path
 
 
 if __name__ == "__main__":
-    path = "datasets/ontonotes-nw" # input training path
+    path = "ner_test_input.txt" # G6 NER test input_sample
     out_path = main(path)
     print("Predict_output_path: ", out_path)
