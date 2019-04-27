@@ -5,7 +5,7 @@ import os
 import sys
 import csv
 
-class TestProstLoad(unittest.TestCase):
+class TestProstQuery(unittest.TestCase):
 
     def setUp(self):
         bucket = 'dataproc-11983e44-dcde-4c2a-841f-52a8286e57f5-us-west1'
@@ -25,16 +25,20 @@ class TestProstLoad(unittest.TestCase):
         #Prost
         prost_jar_path = 'csci548-jars/prost/'
         p = Prost(bucket, region, cluster, project)
-        p.load_rdf("prost-workspace/small/", "small", prost_jar_path + 'loader-all.jar',)
+        dataset = 'small'
+        query = 'small_query.txt'
+        # p.query_executor(query, dataset, "prost-workspace/{}.{}.results".format(dataset,query[0:-4]),prost_jar_path + "query-all.jar")
+
     
-    def test_load_rdf(self):
-        self.assertTrue(os.path.exists('./prost_vp_stats.csv'))
-        with open('prost_vp_stats.csv', newline='') as csvfile:
+    def test_prost_query(self):
+        self.assertTrue(True)
+        self.assertTrue(os.path.exists('small.small_query.results.csv'))
+        with open('small.small_query.results.csv', newline='') as csvfile:
             reader = csv.reader(csvfile)
             num_rows = 0
             for r in reader:
                 num_rows = num_rows + 1
-            self.assertEquals(5,num_rows)
+            self.assertEquals(4,num_rows)
 
 if __name__ == '__main__':
     unittest.main()
