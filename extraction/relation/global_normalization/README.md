@@ -41,6 +41,23 @@ The experiment is carried out in two different setups:-
 * Setup 1:- Separate models for EC and RE on the ERR dataset. For RE, they only identify relations between named entity pairs. 
 * Setup 2:- Table Filling Task. Cell (i, j) contains the relation between word i and word j.
 
+## Steps to run the Model
+**main.py:** Entire model is triggered.
+*  Provide Train and Test datafile in .txt format.
+*  Returns the predicted relations for Test file in output directory.
+	
+**Global_Normalization.py:** Provide implementaion for text_similarity_2.py superclass.
+* read_dataset() - Read the dataset from the file location as well as the config parameters.
+* train()
+	* Train the model and selects the best epoch (Best average F1 score for named entity and relation extraction).
+	* Predicts the relation for Test file from the best epoch selected above and store the results in output directory.
+	* Calculates the F1 score from the best epoch.
+* No evaluate() and predict() module.
+	
+**configs/config.crf.setup1**
+**configs/config.crf.setup2**
+* Parameters changes as per the database name. Currently configured to handle CoNLL04, SemEval2010 and NYT dataset.
+	
 ## Benchmark Datasets
 * CoNLL04
 * SemEval 2010
