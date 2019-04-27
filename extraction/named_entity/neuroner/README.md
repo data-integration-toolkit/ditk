@@ -18,8 +18,37 @@ https://github.com/Franck-Dernoncourt/NeuroNER
 
 - Clone the repository
 - Install the dependencies using `pip3 install -r requirements.txt`
-- Edit the `parameters.ini` file. Give the path to the word embeddings file for `token_pretrained_embedding_filepath` variable. Also, set whether you want to train model or use a pretrained model by setting `train_model` and `use_pretrained_model`
-- Edit the `main.py` inside the `neuroner` folder to add paths to `train`, `dev` and `test` files
+- Edit the `parameters.ini` file. Give the path to the word embeddings file for `token_pretrained_embedding_filepath` variable. Also, set whether you want to train model or use a pretrained model by setting `train_model` and `use_pretrained_model` (there are default parameters for everything that can be changed)
+- Initialize a model
+```python
+ner = neuroner(parameters_filepath="./parameters.ini")
+```
+- Load the Data Set
+```python
+inputFiles = {"train": "train.txt",
+              "dev": "valid.txt",
+              "test": "test.txt"}
+
+data = ner.read_dataset(train_file_names)
+```
+- Train the model
+```python
+ner.train(data)
+```
+- Extract the ground truth from test data for evaluation
+```python
+ground = ner.convert_ground_truth(data)
+```
+- Generate predictions on the test data
+```python
+predictions = ner.predict(data)
+```
+- Evaluate model
+```python
+P,R,F1 = ner.evaluate(predictions, ground)
+
+print('Precision: %s, Recall: %s, F1: %s'%(P,R,F1))
+```
 - Running the unit tests
     - From inside the `neuroner` directory run `python3 -m unittest tests.runtest`
 
