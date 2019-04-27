@@ -20,7 +20,8 @@ For Input it need
 
 I have updated [sample_test.py](./sample_test.py) code also to match the current test case for columns and rows.
 
+To run the unittest, run from the current directory
 
+<code>python sample_test.py</code>
 
 **Note:** Before running main() function directly make sure all files described in [README](../README.md#Input%20format%20for%20training) are present in the **data** directory
-

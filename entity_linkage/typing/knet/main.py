@@ -2,10 +2,10 @@ import os
 import sys
 import numpy as np
 import tensorflow as tf
+sys.path.append(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
+sys.path.append(os.path.dirname(os.path.dirname(os.path.dirname(os.path.abspath(__file__)))))
 import util
 import model as models
-
-sys.path.append(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
 from entity_typing import entity_typing
 
 
@@ -24,7 +24,7 @@ class knet(entity_typing):
         self.valid_entity = None
         self.valid_fbid = None
         self.valid_labels = None
-        self.model_dir = "./model"
+        self.model_dir = "../model"
         self.model_name = os.path.join(self.model_dir, "model_final")
         self.test_file = None
         self.predict_types = None
@@ -227,18 +227,18 @@ class knet(entity_typing):
 def main(input_file):
     knet_instance = knet()
     knet_instance.read_dataset([
-        "data/types",
-        "data/disamb_file",
-        "data/embedding.npy",
-        "data/sample_glove.txt",
-        "data/sample_train_context.npy",
-        "data/sample_train_entity.npy",
-        "data/sample_train_fbid.npy",
-        "data/sample_train_label.npy",
-        "data/sample_valid_context.npy",
-        "data/sample_valid_entity.npy",
-        "data/sample_valid_fbid.npy",
-        "data/sample_valid_label.npy"
+        "../data/types",
+        "../data/disamb_file",
+        "../data/embedding.npy",
+        "../data/sample_glove.txt",
+        "../data/sample_train_context.npy",
+        "../data/sample_train_entity.npy",
+        "../data/sample_train_fbid.npy",
+        "../data/sample_train_label.npy",
+        "../data/sample_valid_context.npy",
+        "../data/sample_valid_entity.npy",
+        "../data/sample_valid_fbid.npy",
+        "../data/sample_valid_label.npy"
     ])
 
     knet_instance.train(None)
