@@ -38,6 +38,19 @@ This section describes in two steps the architecture of the neural network used 
     * Sentence representation: We make use of recurrent network architecture to process the word embedding sequences. It consists of two symmetric recurrent neural networks with shared weights to learn semantic differences between sentences.
     * Output layer: Learns a distance function- Manhattan Distance function, which results in a similarity metric between two encoded sentences.
 
+## Steps to run the Model
+**main.py: Entire model is triggered**
+   * Provide Train, Dev and Test datafile in .txt format (s1,s2,relatedness_score)
+   * Returns similarity_score for Test file in output directory.
+   
+**semantic_neural_network.py: Implementation for TextSemanticSimilarity abstract superclass**
+   * read_dataset() - Supports SICK, SemEval2014, SemEval2017 and Generic format(s1,s2,relatedness_Score).
+   * get_embedding_matrix() - Creates embedding matrix and tokenizers for input data.
+   * train() - Train the model and creates .h5 file in results directory.
+   * evaluate() - Predicts the similarity_scorre for Test file and store it in output directory. Computes the Pearson correlation co-efficient.
+   * predict () - Reads the model file and tokenizer created in train() function and outputs the similarity score for the two sentences as input.
+     
+   
 ## Benchmark Datasets
 1. The SICK dataset 
     * 10000 English sentence pairs extracted from the ImageFlick dataset2 and SemEval2012 semantic textual similarity video description data set.
