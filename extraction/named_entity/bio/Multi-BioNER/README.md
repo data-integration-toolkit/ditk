@@ -29,7 +29,7 @@ The proposed method used multi-task mechanism to build a general moodel for biom
 - Precision: 68.48%
 
 ## Links:
-- Jupyter Notebook: https://github.com/hsia947/ditk/blob/develop/extraction/named_entity/CDMA/cdma_main.ipynb
+- Jupyter Notebook: https://github.com/hsia947/ditk/blob/develop/extraction/named_entity/bio/Multi-BioNER/multibio_main.ipynb
 - Youtube: 
 
 
