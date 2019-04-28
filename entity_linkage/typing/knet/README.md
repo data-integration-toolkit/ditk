@@ -217,8 +217,8 @@ https://youtu.be/X7xcpG0SLv8
     - Sample file can be found via this link: https://drive.google.com/file/d/1UI_i4f5ueTN8-Inqg7FESGgSKNbN1ZFG/view?usp=sharing
 
       ```python
-       results = knet_instance.predict(["data/entity_typing_test_input.txt"])
-       print(results)
+      output_file = knet_instance.predict(["data/entity_typing_test_input.txt"])
+      print("Result has been output to following file: {}".format(output_file))
       ```
 
  7. Evaluate on provided dataset in the predict (step 6)
@@ -239,3 +239,4 @@ https://youtu.be/X7xcpG0SLv8
 ## To Test
 
 To use the input file, output file and test python file in folder [test](./test) to test 
+
