@@ -30,7 +30,7 @@ The proposed method pretrained model with the source domain dataset, then applie
 
 ## Links:
 - Jupyter Notebook: https://github.com/hsia947/ditk/blob/develop/extraction/named_entity/CDMA/cdma_main.ipynb
-- Youtube: 
+- Youtube: https://www.youtube.com/watch?v=_VXigJppefc
 
 
 
