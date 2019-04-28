@@ -10,6 +10,7 @@ class TestNERMethods(unittest.TestCase):
     def setUp(self):
         
         self.input_file = "./test/clean_data.tsv"
+        # self.input_file = "./test/raw_data.txt"
         self.output_file = main(self.input_file)
 
     def row_col_count(self, file_name):
@@ -30,13 +31,8 @@ class TestNERMethods(unittest.TestCase):
         print(output_row_count, ",", output_col_count)
 
         self.assertEqual(input_row_count, output_row_count)
-        self.assertEqual(output_col_count, 2) 
-
-        extension = self.input_file.split(".")[-1]
-        if extension == "tsv": # Clean data
-            self.assertEqual(input_col_count, 5)
-        else:
-            self.assertEqual(input_col_count, 6) 
+        self.assertEqual(output_col_count, 2)
+        self.assertEqual(input_col_count, 5)
 
 if __name__ == '__main__':
     unittest.main()

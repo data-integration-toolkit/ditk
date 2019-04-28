@@ -120,9 +120,7 @@ class NFETC(entity_typing):
 
 		print(">> Finished! ")
 
-	def split_data_txt(self, file_path, folder_path, split_ratio=(0.7, 0.15, 0.15)): # train.txt, dev.txt, test.txt
-
-		print(">> Split all.txt to train, dev, test data with ratio,", split_ratio, "under", folder_path)
+	def split_data_txt(self, file_path, data_name, split_ratio=(0.7, 0.15, 0.15)): # train.txt, dev.txt, test.txt
 
 		docs = []
 		with open(file_path, 'r') as f:
@@ -136,6 +134,16 @@ class NFETC(entity_typing):
 		data["train"] = docs[:train_dev_split_idx]
 		data["dev"] = docs[train_dev_split_idx:dev_test_split_idx]
 		data["test"] = docs[dev_test_split_idx:]
+
+		folder_path = "others"
+		if data_name == "wiki":
+			folder_path = config.WIKI_DATA_PATH
+		elif data_name == "wikim":
+			folder_path = config.WIKIM_DATA_PATH
+		elif data_name == "ontonotes":
+			folder_path = config.ONTONOTES_DATA_PATH
+		else:
+			folder_path = config.OTHERS_DATA_PATH
 		
 		for key in data:
 			with open(folder_path+"/"+key+".txt", 'w') as f:
