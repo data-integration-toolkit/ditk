@@ -34,7 +34,7 @@ main():
 
 ### Download pretrain model
 * Download pretrain bert model from [here](https://drive.google.com/open?id=1UBgb9OlLFvYGzpUufaj9Voe36muxW4Ga) and unzip the file in bert_ner directory.
-* Download pretrain model from [here]() and unzip the file in bert_ner directory.
+* Download pretrain model from [here](https://drive.google.com/open?id=1ZNj9uXPKv1jWtla0ur2JQg2Y5S-g9LgL) and unzip the file in bert_ner directory.
 
 
 
