@@ -21,7 +21,7 @@ class Test1(unittest.TestCase):
         logging.info('end read dataset')
 
     def train(self):
-        pass
+        self.dilated.train(data=None)
 
     def predict(self):
         pass
@@ -34,7 +34,7 @@ class Test1(unittest.TestCase):
 
     def test(self):
         self.read_dataset()
-        # self.train()
-        # self.predict()
+        self.train()
+        self.predict()
         # self.convert_ground_truth()
         # self.evaluation()

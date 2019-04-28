@@ -2,14 +2,14 @@ import codecs
 import json
 import os
 import re
+import sys
+import time
 from collections import defaultdict
 from glob import glob
 from os import listdir
 
 import numpy as np
-import sys
 import tensorflow as tf
-import time
 
 import extraction.named_entity.yiran.paper1.src.eval_f1 as evaluation
 import extraction.named_entity.yiran.paper1.src.tf_utils as tf_utils
@@ -26,6 +26,7 @@ class DilatedCNN(Ner):
     file_list_in = []
     embedding = ""
     vocabs = ''
+    model_path = None
 
     def del_all_flags(self):
         FLAGS = tf.app.flags.FLAGS
@@ -56,6 +57,7 @@ class DilatedCNN(Ner):
         self.file_list_in.append(input_files[1])
         self.file_list_in.append(input_files[2])
         path = '/'.join(input_files[0].split('/')[:-1])
+        self.model_path = path + '/models'
         lample_test = path + '/conll2003-w3-lample/test.txt'
         lample_valid = path + '/conll2003-w3-lample/valid.txt'
         lample_train = path + '/conll2003-w3-lample/train.txt'
@@ -86,11 +88,18 @@ class DilatedCNN(Ner):
         cut_off = {k for k, v in cut_off.items() if v >= 4}
         print(len(cut_off))
         with open(path + '/vocabs/conll2003_cutoff_4.txt', 'w+') as f:
-            self.vocabs = path[:-1] + '/vocabs/conll2003_cutoff_4.txt'
+            self.vocabs = path + '/vocabs/conll2003_cutoff_4.txt'
             for item in cut_off:
                 f.write("%s\n" % item)
 
     def train(self, data, *args, **kwargs):
+        """
+        This method is for training the model and the model will be stored in the model folder
+        :param data: it is not used since the traning data set will be stored when read dataset is invoked 
+        :param args: 
+        :param kwargs: 
+        :return: 
+        """
 
         def shape(string):
             if all(c.isupper() for c in string):
@@ -527,13 +536,13 @@ class DilatedCNN(Ner):
             print('infile' + file_in)
             tf.app.flags.DEFINE_string('in_file', file_in, 'tsv file containing string data')
 
-            tf.app.flags.DEFINE_string('vocab', self.embedding, 'file containing vocab (empty means make new vocab)')
+            tf.app.flags.DEFINE_string('vocab', self.vocabs, 'file containing vocab (empty means make new vocab)')
 
             tf.app.flags.DEFINE_string('labels', '', 'file containing labels (but always add new labels)')
             tf.app.flags.DEFINE_string('shapes', '', 'file containing shapes (add new shapes only when adding new vocab)')
             tf.app.flags.DEFINE_string('chars', '', 'file containing characters')
 
-            tf.app.flags.DEFINE_string('embeddings', '', 'pretrained embeddings')
+            tf.app.flags.DEFINE_string('embeddings', self.embedding, 'pretrained embeddings')
             print('out_dir' + file_lample)
             tf.app.flags.DEFINE_string('out_dir', file_lample, 'export tf protos')
 
@@ -577,91 +586,17 @@ class DilatedCNN(Ner):
 
             print('start preprocess')
             preprocess()
-            print('start train')
-            self.del_all_flags()
-            tf.app.flags.DEFINE_string('train_dir', '/home/ubuntu/dilated-cnn-ner/data/conll2003-w3-lample/eng.train', 'directory containing preprocessed training data')
-            # predict
-            tf.app.flags.DEFINE_string('dev_dir', '/home/ubuntu/dilated-cnn-ner/data/conll2003-w3-lample/eng.testa', 'directory containing preprocessed dev data')
-            tf.app.flags.DEFINE_string('test_dir', '', 'directory containing preprocessed test data')
-            tf.app.flags.DEFINE_string('maps_dir', '/home/ubuntu/dilated-cnn-ner/data/conll2003-w3-lample/eng.train', 'directory containing data intmaps')
-            # tf.app.flags.DEFINE_string('load_model', './models', '')
-            tf.app.flags.DEFINE_string('model_dir', '/home/ubuntu/dilated-cnn-ner/models/dilated-cnn', 'save model to this dir (if empty do not save)')
-            # predict
-            tf.app.flags.DEFINE_string('load_dir', '', 'load model from this dir (if empty do not load)')
-
-            tf.app.flags.DEFINE_string('optimizer', 'adam', 'optimizer to use')
-            tf.app.flags.DEFINE_string('master', '', 'use for Supervisor')
-            tf.app.flags.DEFINE_string('model', 'cnn', 'which model to use [cnn, seq2seq, lstm, bilstm]')
-            tf.app.flags.DEFINE_integer('filter_size', 3, "filter size")
-            #     tf.app.flags.DEFINE_string('initialization','identity','')
-            tf.app.flags.DEFINE_float('lr', 0.0005, 'learning rate')
-            tf.app.flags.DEFINE_float('l2', 0.0, 'l2 penalty')
-            tf.app.flags.DEFINE_float('beta1', 0.9, 'beta1')
-            tf.app.flags.DEFINE_float('beta2', 0.9, 'beta2')
-            tf.app.flags.DEFINE_float('epsilon', 1e-6, 'epsilon')
-
-            tf.app.flags.DEFINE_float('hidden_dropout', 0.85, 'hidden layer dropout rate')
-            tf.app.flags.DEFINE_float('input_dropout', 0.65, 'input layer (word embedding) dropout rate')
-            tf.app.flags.DEFINE_float('middle_dropout', 1.0, 'middle layer dropout rate')
-            tf.app.flags.DEFINE_float('word_dropout', 0.85, 'whole-word (-> oov) dropout rate')
-
-            tf.app.flags.DEFINE_float('clip_norm', 5, 'clip gradients to have norm <= this')
-            tf.app.flags.DEFINE_integer('batch_size', 128, 'batch size')
-            tf.app.flags.DEFINE_integer('lstm_dim', 300, 'lstm internal dimension')
-            tf.app.flags.DEFINE_integer('embed_dim', 100, 'word embedding dimension')
-            tf.app.flags.DEFINE_integer('shape_dim', 5, 'shape embedding dimension')
-            tf.app.flags.DEFINE_integer('char_dim', 0, 'character embedding dimension')
-            tf.app.flags.DEFINE_integer('char_tok_dim', 0, 'character token embedding dimension')
-            tf.app.flags.DEFINE_string('char_model', 'lstm', 'character embedding model (lstm, cnn)')
-
-            tf.app.flags.DEFINE_integer('max_finetune_epochs', 100, 'train for this many epochs')
-            tf.app.flags.DEFINE_integer('max_context_epochs', 100, 'train for this many epochs')
-
-            tf.app.flags.DEFINE_integer('max_epochs', 100, 'train for this many epochs')
-            #     tf.app.flags.DEFINE_integer('num_filters', 300, '')
-            tf.app.flags.DEFINE_integer('log_every', 2, 'log status every k steps')
-            tf.app.flags.DEFINE_string('embeddings', '/home/ubuntu/dilated-cnn-ner/data/embeddings/glove.6B.100d.txt', 'file of pretrained embeddings to use')
-            tf.app.flags.DEFINE_string('nonlinearity', 'relu', 'nonlinearity function to use (tanh, sigmoid, relu)')
-            tf.app.flags.DEFINE_boolean('until_convergence', False, 'whether to run until convergence')
-            #     for predict
-            tf.app.flags.DEFINE_boolean('evaluate_only', False, 'whether to only run evaluation')
-            tf.app.flags.DEFINE_string('layers', "{'conv1': {'dilation': 1, 'width': 3, 'filters': 300, 'initialization': 'identity', 'take': false}, 'conv2': {'dilation': 2, 'width': 3, 'filters': 300, 'initialization': 'identity', 'take': false}, 'conv3': {'dilation': 1, 'width': 3, 'filters': 300, 'initialization': 'identity', 'take': true}}",
-                                       'json definition of layers (dilation, filters, width)')
-            tf.app.flags.DEFINE_string('print_preds', 'labels.txt', 'print out predictions (for conll eval script) to given file (or do not if empty)')
-            tf.app.flags.DEFINE_boolean('viterbi', False, 'whether to use viberbi inference')
-            #     for predict
-            tf.app.flags.DEFINE_boolean('train_eval', True, 'whether to report train accuracy')
-            tf.app.flags.DEFINE_boolean('memmap_train', True, 'whether to load all training examples into memory')
-            tf.app.flags.DEFINE_boolean('projection', True, 'whether to do final halving projection (front end)')
-
-            tf.app.flags.DEFINE_integer('block_repeats', 1, 'number of times to repeat the stacked dilations block')
-            tf.app.flags.DEFINE_boolean('share_repeats', True, 'whether to share parameters between blocks')
-
-            tf.app.flags.DEFINE_string('loss', 'mean', '')
-            tf.app.flags.DEFINE_float('margin', 0.0, 'margin')
-
-            tf.app.flags.DEFINE_float('char_input_dropout', 1.0, 'dropout for character embeddings')
-
-            tf.app.flags.DEFINE_float('save_min', 0.0, 'min accuracy before saving')
-
-            tf.app.flags.DEFINE_boolean('start_end', False, 'whether using start/end or just pad between sentences')
-            tf.app.flags.DEFINE_float('regularize_drop_penalty', 1e-4, 'penalty for dropout regularization')
-
-            tf.app.flags.DEFINE_boolean('documents', False, 'whether each example is a document (default: sentence)')
-            tf.app.flags.DEFINE_boolean('ontonotes', False, 'evaluate each domain of ontonotes seperately')
-            self.cnn_predict()
-
-    def predict(self, data, *args, **kwargs):
+        print('start train')
         self.del_all_flags()
-        tf.app.flags.DEFINE_string('train_dir', '/home/ubuntu/dilated-cnn-ner/data/conll2003-w3-lample/eng.train', 'directory containing preprocessed training data')
+        tf.app.flags.DEFINE_string('train_dir', self.file_list_lample[0], 'directory containing preprocessed training data')
         # predict
-        tf.app.flags.DEFINE_string('dev_dir', '/home/ubuntu/dilated-cnn-ner/data/conll2003-w3-lample/eng.testa', 'directory containing preprocessed dev data')
+        tf.app.flags.DEFINE_string('dev_dir', self.file_list_lample[1], 'directory containing preprocessed dev data')
         tf.app.flags.DEFINE_string('test_dir', '', 'directory containing preprocessed test data')
-        tf.app.flags.DEFINE_string('maps_dir', '/home/ubuntu/dilated-cnn-ner/data/conll2003-w3-lample/eng.train', 'directory containing data intmaps')
+        tf.app.flags.DEFINE_string('maps_dir', self.file_list_lample[0], 'directory containing data intmaps')
         # tf.app.flags.DEFINE_string('load_model', './models', '')
-        tf.app.flags.DEFINE_string('model_dir', '/home/ubuntu/dilated-cnn-ner/models/dilated-cnn', 'save model to this dir (if empty do not save)')
+        tf.app.flags.DEFINE_string('model_dir', self.model_path, 'save model to this dir (if empty do not save)')
         # predict
-        tf.app.flags.DEFINE_string('load_dir', '/home/ubuntu/dilated-cnn-ner/models/dilated-cnn', 'load model from this dir (if empty do not load)')
+        tf.app.flags.DEFINE_string('load_dir', '', 'load model from this dir (if empty do not load)')
 
         tf.app.flags.DEFINE_string('optimizer', 'adam', 'optimizer to use')
         tf.app.flags.DEFINE_string('master', '', 'use for Supervisor')
@@ -694,7 +629,81 @@ class DilatedCNN(Ner):
         tf.app.flags.DEFINE_integer('max_epochs', 100, 'train for this many epochs')
         #     tf.app.flags.DEFINE_integer('num_filters', 300, '')
         tf.app.flags.DEFINE_integer('log_every', 2, 'log status every k steps')
-        tf.app.flags.DEFINE_string('embeddings', '/home/ubuntu/dilated-cnn-ner/data/embeddings/glove.6B.100d.txt', 'file of pretrained embeddings to use')
+        tf.app.flags.DEFINE_string('embeddings', self.embedding, 'file of pretrained embeddings to use')
+        tf.app.flags.DEFINE_string('nonlinearity', 'relu', 'nonlinearity function to use (tanh, sigmoid, relu)')
+        tf.app.flags.DEFINE_boolean('until_convergence', False, 'whether to run until convergence')
+        #     for predict
+        tf.app.flags.DEFINE_boolean('evaluate_only', False, 'whether to only run evaluation')
+        tf.app.flags.DEFINE_string('layers', "{'conv1': {'dilation': 1, 'width': 3, 'filters': 300, 'initialization': 'identity', 'take': false}, 'conv2': {'dilation': 2, 'width': 3, 'filters': 300, 'initialization': 'identity', 'take': false}, 'conv3': {'dilation': 1, 'width': 3, 'filters': 300, 'initialization': 'identity', 'take': true}}",
+                                   'json definition of layers (dilation, filters, width)')
+        tf.app.flags.DEFINE_string('print_preds', 'labels.txt', 'print out predictions (for conll eval script) to given file (or do not if empty)')
+        tf.app.flags.DEFINE_boolean('viterbi', False, 'whether to use viberbi inference')
+        #     for predict
+        tf.app.flags.DEFINE_boolean('train_eval', True, 'whether to report train accuracy')
+        tf.app.flags.DEFINE_boolean('memmap_train', True, 'whether to load all training examples into memory')
+        tf.app.flags.DEFINE_boolean('projection', True, 'whether to do final halving projection (front end)')
+
+        tf.app.flags.DEFINE_integer('block_repeats', 1, 'number of times to repeat the stacked dilations block')
+        tf.app.flags.DEFINE_boolean('share_repeats', True, 'whether to share parameters between blocks')
+
+        tf.app.flags.DEFINE_string('loss', 'mean', '')
+        tf.app.flags.DEFINE_float('margin', 0.0, 'margin')
+
+        tf.app.flags.DEFINE_float('char_input_dropout', 1.0, 'dropout for character embeddings')
+
+        tf.app.flags.DEFINE_float('save_min', 0.0, 'min accuracy before saving')
+
+        tf.app.flags.DEFINE_boolean('start_end', False, 'whether using start/end or just pad between sentences')
+        tf.app.flags.DEFINE_float('regularize_drop_penalty', 1e-4, 'penalty for dropout regularization')
+
+        tf.app.flags.DEFINE_boolean('documents', False, 'whether each example is a document (default: sentence)')
+        tf.app.flags.DEFINE_boolean('ontonotes', False, 'evaluate each domain of ontonotes seperately')
+        self.cnn_predict()
+
+    def predict(self, data, *args, **kwargs):
+        self.del_all_flags()
+        tf.app.flags.DEFINE_string('train_dir', self.file_list_lample[0], 'directory containing preprocessed training data')
+        # predict
+        tf.app.flags.DEFINE_string('dev_dir', self.file_list_lample[1], 'directory containing preprocessed dev data')
+        tf.app.flags.DEFINE_string('test_dir', '', 'directory containing preprocessed test data')
+        tf.app.flags.DEFINE_string('maps_dir', self.file_list_lample[0], 'directory containing data intmaps')
+        # tf.app.flags.DEFINE_string('load_model', './models', '')
+        tf.app.flags.DEFINE_string('model_dir', self.model_path, 'save model to this dir (if empty do not save)')
+        # predict
+        tf.app.flags.DEFINE_string('load_dir', self.model_path, 'load model from this dir (if empty do not load)')
+
+        tf.app.flags.DEFINE_string('optimizer', 'adam', 'optimizer to use')
+        tf.app.flags.DEFINE_string('master', '', 'use for Supervisor')
+        tf.app.flags.DEFINE_string('model', 'cnn', 'which model to use [cnn, seq2seq, lstm, bilstm]')
+        tf.app.flags.DEFINE_integer('filter_size', 3, "filter size")
+        #     tf.app.flags.DEFINE_string('initialization','identity','')
+        tf.app.flags.DEFINE_float('lr', 0.0005, 'learning rate')
+        tf.app.flags.DEFINE_float('l2', 0.0, 'l2 penalty')
+        tf.app.flags.DEFINE_float('beta1', 0.9, 'beta1')
+        tf.app.flags.DEFINE_float('beta2', 0.9, 'beta2')
+        tf.app.flags.DEFINE_float('epsilon', 1e-6, 'epsilon')
+
+        tf.app.flags.DEFINE_float('hidden_dropout', 0.85, 'hidden layer dropout rate')
+        tf.app.flags.DEFINE_float('input_dropout', 0.65, 'input layer (word embedding) dropout rate')
+        tf.app.flags.DEFINE_float('middle_dropout', 1.0, 'middle layer dropout rate')
+        tf.app.flags.DEFINE_float('word_dropout', 0.85, 'whole-word (-> oov) dropout rate')
+
+        tf.app.flags.DEFINE_float('clip_norm', 5, 'clip gradients to have norm <= this')
+        tf.app.flags.DEFINE_integer('batch_size', 128, 'batch size')
+        tf.app.flags.DEFINE_integer('lstm_dim', 300, 'lstm internal dimension')
+        tf.app.flags.DEFINE_integer('embed_dim', 100, 'word embedding dimension')
+        tf.app.flags.DEFINE_integer('shape_dim', 5, 'shape embedding dimension')
+        tf.app.flags.DEFINE_integer('char_dim', 0, 'character embedding dimension')
+        tf.app.flags.DEFINE_integer('char_tok_dim', 0, 'character token embedding dimension')
+        tf.app.flags.DEFINE_string('char_model', 'lstm', 'character embedding model (lstm, cnn)')
+
+        tf.app.flags.DEFINE_integer('max_finetune_epochs', 100, 'train for this many epochs')
+        tf.app.flags.DEFINE_integer('max_context_epochs', 100, 'train for this many epochs')
+
+        tf.app.flags.DEFINE_integer('max_epochs', 100, 'train for this many epochs')
+        #     tf.app.flags.DEFINE_integer('num_filters', 300, '')
+        tf.app.flags.DEFINE_integer('log_every', 2, 'log status every k steps')
+        tf.app.flags.DEFINE_string('embeddings', self.embedding, 'file of pretrained embeddings to use')
         tf.app.flags.DEFINE_string('nonlinearity', 'relu', 'nonlinearity function to use (tanh, sigmoid, relu)')
         tf.app.flags.DEFINE_boolean('until_convergence', False, 'whether to run until convergence')
         #     for predict
