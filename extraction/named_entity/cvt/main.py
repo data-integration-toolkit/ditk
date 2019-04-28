@@ -1,7 +1,6 @@
 from extraction.named_entity.cvt.cross_view import CrossViewTraining
 import signal
 from contextlib import contextmanager
-from os import getcwd
 
 
 @contextmanager
@@ -42,7 +41,6 @@ def main(input_file_path):
 
     pred_vals = my_model.predict(data=data['test'])
     my_model.evaluate(predictions=pred_vals, ground_truths=test_labels)
-    base_dir = getcwd()
-    output_file_path = base_dir+"/"+my_model.data_dir+"/output.txt"
+    output_file_path = my_model.data_dir+"/output.txt"
 
     return output_file_path
