@@ -16,6 +16,8 @@ class RESCALModel(TensorFactorization):
         TensorFactorization.__init__(self)
         self.T = None
         self.X = None
+        self.A = None
+        self.R = None
 
     def read_dataset(self, path_tensor, key_tensor):
         matrix = loadmat(path_tensor)
@@ -30,15 +32,25 @@ class RESCALModel(TensorFactorization):
         '''
             Run RESCAL algorithm to factorize tensor
         '''
-        A, R, _, _, _ = als(self.X, rank, init='nvecs', conv=1e-3, lambda_A=10, lambda_R=10)
-        
-        # Save matrices A and R to txt files
-        dir_path = os.path.dirname(os.path.realpath(__file__))
-        np.savetxt(dir_path+'\\rescal_output_A.txt', A, delimiter=',')
-        with open(dir_path+"\\rescal_output_R.txt", "wb") as wb:
-            pickle.dump(R, wb)
+        self.A, self.R, _, _, _ = als(self.X, rank, init='nvecs', conv=1e-3, lambda_A=10, lambda_R=10)
 
-        return (A, R)
+        return (self.A, self.R)
+
+    def save_model(self, dir):
+        '''
+            Save matrices A and R to txt files
+        '''
+        np.savetxt(dir+'\\rescal_output_A.txt', self.A, delimiter=',')
+        with open(dir+"\\rescal_output_R.txt", "wb") as wb:
+            pickle.dump(self.R, wb)
+    
+    def load_model(self, dir):
+        '''
+            Load matrices A and R from txt files
+        '''
+        self.A = np.loadtxt(dir+'\\rescal_output_A.txt', delimiter=',')
+        with open(dir+"\\rescal_output_R.txt", "rb") as rb:
+            self.R = pickle.load(rb)
 
     def evaluate(self):
         K = self.T

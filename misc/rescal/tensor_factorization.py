@@ -30,6 +30,16 @@ class TensorFactorization(abc.ABC):
 
 	@classmethod
 	@abc.abstractmethod
+	def save_model(self, dir):
+		pass
+
+	@classmethod
+	@abc.abstractmethod
+	def load_model(self, dir):
+		pass
+
+	@classmethod
+	@abc.abstractmethod
 	def evaluate(self):
 		'''
 			10-fold cross validation
