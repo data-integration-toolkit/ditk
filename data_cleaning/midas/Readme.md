@@ -1,4 +1,4 @@
-# Midas
+# Midas - - Multiple Imputation with Denoising Autoencoders
 Lovedeep Gondara and Ke Wang, **"MIDA: Multiple Imputation using Denoising Autoencoders,"** Pacific-Asia Conference on Knowledge Discovery and Data Mining, 2018.
 
 Link to paper - https://arxiv.org/pdf/1705.02737.pdf
