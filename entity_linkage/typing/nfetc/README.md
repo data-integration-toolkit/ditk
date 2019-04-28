@@ -1,7 +1,7 @@
 # NFETC
 Neural Fine-grained Entity Type Classification with Hierarchy-Aware Loss<br>
 Paper Published in NAACL 2018: [NFETC](https://arxiv.org/abs/1803.03378)<br>
-Original github for NFETC model: https://github.com/billy-inn/NFETC<br>
+Original github for [NFETC model](https://github.com/billy-inn/NFETC)<br>
 
 ### Prerequisites
 - tensorflow >= r1.2
@@ -24,7 +24,6 @@ Before preprocessing, you need to:<br>
 2. Run `python transform.py`<br>
 
 
-
 ## To Run main.py
 main.py call all functions for NFETC model; 5 things<br>
 **1. Create NFETC model**<br>
@@ -41,8 +40,8 @@ main.py import NFETC class from **entity_tpying_subclass.py** and it is a subcla
 You **MUST** run `read_dataset` function for any functions(train/predict/evaluate).<br>
 #### 1) Input file
 **(must be named imputation_test_input.tsv OR imputation_test_input.txt)**<br>
-Number of input for this model must be ONE;  raw data(.txt) or filtered data(.tsv)<br>
-raw data has ["p1", "p2", "Text", "Mention", "Types", "f"] format which is same as corpus format that dowloaded data by using  download.sh script in `data` folder.<br>
+Number of inputs for this model must be ONE of two;  raw data(.txt) or filtered data(.tsv)<br>
+raw data has ["p1", "p2", "Text", "Types", "f"] format which is same as corpus format that dowloaded data by using  download.sh script in `data` folder.<br>
 But filtered data has ["p1", "p2", "Context", "Mention", "Types"]<br>
 Both are fine to run main.py and NFETC.preprocess_helper() will deal with preprocess for each case. <br>
 One important thing is extension; one of filtered data should be .tsv abd one of raw data should be .txt<br>
@@ -94,10 +93,18 @@ Sample input data on Others folder; `data/Other/entity_typing_test_input.txt`<br
 Extracted downsized word embedding only for sample data is under data folder; `data/glove.840B.300d.txt`<br>
 *Therefore, you can directly run main.py to call ALL functions with sample data and word embedding dataset that I uploaded!*<br>
 
+## Benchmark datasets
+- FIGER(GOLD)
+- OntoNotes
+
+## Evaluation matrics and results
+- (Strict Acc, Macro F1, Micro F1)
+- (0.543, 0.717, 0.649) on OntoNotes benchmark
+
 ## Demo Video on YouTube
 https://youtu.be/u5q_VIAOy90 <br>
 Run Sample input with only 1 epoch training NFETC model on Jupyter<br>
-Jupyter has same flow with main.py here<br>
+**Jupyter Link** is [here](https://github.com/billy-inn/NFETC) <br>
 
 
 ### Cite
