@@ -20,8 +20,8 @@ It will have one more column, "f", at the end; ["start position", "end position"
 ```
 
 ## To run test.py with sample test data
-Initial setting is that model will run with sample clean data and it will check number of input/output rows and cols.  
-
+Initial setting is that model will run with sample clean data and it will check number of input/output rows and cols. 
+Run on the nfetc folder with following command line; ``` python test/test.py```
 
 
 <br><br>
