@@ -1,11 +1,11 @@
 from graph.completion.graph_completion import GraphCompletion
-import read_data
-import train
-import batching
-import evaluation
-import prediction
+from graph.completion.convKB import read_data
+from graph.completion.convKB import train
+from graph.completion.convKB import batching
+from graph.completion.convKB import evaluation
+from graph.completion.convKB import prediction
 import numpy as np
-
+import os, sys
 
 class ConvKB(GraphCompletion):
 
@@ -21,7 +21,7 @@ class ConvKB(GraphCompletion):
             Iterable data, optionally split into train, test, and possibly dev.
         """ 
         split_ratio = options.get("split_ratio", (0.7, 0.2, 0.1))
-        self.embedding_dim = options.get("embedding_dim", 50)
+        self.embedding_dim = options.get("embedding_dim", 100)
         batch_size = options.get("batch_size", 128)
 
         train, dev, test, words_indexes, self.indexes_words, headTailSelector, \
@@ -79,11 +79,19 @@ class ConvKB(GraphCompletion):
         for e1,r,e2 in result:
             output_result.append((self.indexes_words[e1], self.indexes_words[r], self.indexes_words[e2]))
 
-        wri = open('./data/output.txt', 'w')
-        for e1, r, e2 in output_result:
-            wri.write(str(e1) + "\t" + str(r) + "\t" + str(e2))
-            wri.write('\n')
-        wri.close()
+        ditk_path = ""
+        for path in sys.path:
+            if "ditk" in path and not "graph" in path:
+                ditk_path = path
+        
+        output_file = ditk_path + '/graph/completion/convKB/result/output.txt'  
+        if not os.path.exists(os.path.dirname(output_file)):
+            os.makedirs(os.path.dirname(output_file), exist_ok=True)
+
+        with open(output_file, 'w') as f:
+            for e1, r, e2 in output_result:
+                f.write(str(e1) + "\t" + str(r) + "\t" + str(e2))
+                f.write('\n')
 
         return output_result
 

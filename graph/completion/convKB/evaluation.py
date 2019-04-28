@@ -4,13 +4,18 @@ from scipy.stats import rankdata
 
 np.random.seed(1234)
 import os
-from builddata import *
-from model import ConvKB
+from graph.completion.convKB.builddata import *
+from graph.completion.convKB.model import ConvKB
 
 def evaluate(test, embedding, embedding_dim, entity_array, metrics, options):
     # Parameters
     # ==================================================
-    run_folder = "./"
+    ditk_path = ""
+    for path in sys.path:
+        if "ditk" in path and not "graph" in path:
+            ditk_path = path
+    run_folder = ditk_path + "/graph/completion/convKB/"
+
     if embedding_dim == 50:
         model_name = "wn18"
         num_filters = 500
@@ -32,7 +37,7 @@ def evaluate(test, embedding, embedding_dim, entity_array, metrics, options):
     num_classes = options.get("num_classes")
     num_splits = options.get("num_splits", 1)
     testIdx = options.get("testIdx", 0)
-    model_index = options.get("model_index", 200)
+    model_index = options.get("model_index", 20)
     len_words_indexes = options.get("len_words_indexes")
     len_entity2id = options.get("len_entity2id")
 

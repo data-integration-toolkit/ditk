@@ -1,5 +1,5 @@
 import numpy as np
-from builddata import *
+from graph.completion.convKB.builddata import *
 
 def read_data(data_name, split_ratio, embedding_dim):
     # Load data

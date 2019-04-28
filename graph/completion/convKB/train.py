@@ -2,14 +2,19 @@ import tensorflow as tf
 import numpy as np
 import os
 np.random.seed(1234)
-from builddata import *
-from model import ConvKB
+from graph.completion.convKB.builddata import *
+from graph.completion.convKB.model import ConvKB
 
 def train(train_batch, embedding, embedding_dim, options):
 
     # Parameters
     # ==================================================
-    run_folder = "./"
+    ditk_path = ""
+    for path in sys.path:
+        if "ditk" in path and not "graph" in path:
+            ditk_path = path
+    run_folder = ditk_path + "/graph/completion/convKB/"
+
     if embedding_dim == 50:
         model_name = "wn18"
         num_filters = 500
@@ -27,8 +32,8 @@ def train(train_batch, embedding, embedding_dim, options):
     is_trainable = options.get("is_trainable", True)
     batch_size = options.get("batch_size", 128)
     neg_ratio = options.get("neg_ratio", 1.0)
-    num_epochs = options.get("num_epochs", 201)
-    save_step = options.get("save_step", 200)
+    num_epochs = options.get("num_epochs", 21)
+    save_step = options.get("save_step", 20)
     allow_soft_placement = options.get("allow_soft_placement", True)
     log_device_placement = options.get("log_device_placement", False)
     data_size = options.get("data_size")

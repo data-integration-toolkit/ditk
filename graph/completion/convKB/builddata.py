@@ -2,7 +2,7 @@ import scipy
 import scipy.io
 import random
 
-from batching import *
+from graph.completion.convKB.batching import *
 
 
 def read_from_id(entity2ids):
