@@ -2,7 +2,7 @@ import numpy as np
 from numpy import dot, zeros
 from numpy.linalg import norm
 from sklearn.metrics import precision_recall_curve, auc
-from ditk.misc.rescal_wingwale.rescal import als
+from ditk.misc.rescal.rescal import als
 
 def predict_rescal_als(T):
     A, R, _, _, _ = als(T, 50, init='nvecs', conv=1e-3, lambda_A=10, lambda_R=10, maxIter=20)

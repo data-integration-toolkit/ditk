@@ -1,11 +1,11 @@
-from ditk.misc.rescal_wingwale.tensor_factorization import TensorFactorization
+from ditk.misc.rescal.tensor_factorization import TensorFactorization
 from scipy.io.matlab import loadmat
 import numpy as np
 from scipy.sparse import lil_matrix
-from ditk.misc.rescal_wingwale.rescal import als
+from ditk.misc.rescal.rescal import als
 import os
 import pickle
-from ditk.misc.rescal_wingwale.rescal_eval import innerfold
+from ditk.misc.rescal.rescal_eval import innerfold
 import logging
 logging.basicConfig(level=logging.INFO)
 _log = logging.getLogger('RESCAL')

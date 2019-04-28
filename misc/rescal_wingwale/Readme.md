@@ -1,1 +1,0 @@
-# RESCAL: a tensor factorization

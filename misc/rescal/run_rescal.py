@@ -1,5 +1,5 @@
 import os 
-from ditk.misc.rescal_wingwale.rescal_model import RESCALModel
+from ditk.misc.rescal.rescal_model import RESCALModel
 import sys
 
 if __name__ == '__main__':
