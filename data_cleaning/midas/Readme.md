@@ -28,8 +28,8 @@ Github URL of the original code - https://github.com/Oracen/MIDAS/
 ## Evalution
 - Benchmark datasets :
   
- UCI Repository Datasets
- (complete, numerical) 
+  UCI Repository Datasets
+  (complete, numerical) 
  
 1) Letter Recognition - http://archive.ics.uci.edu/ml/datasets/Letter+Recognition
 
