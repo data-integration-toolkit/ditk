@@ -1,11 +1,11 @@
-from ditk.misc.rescal.tensor_factorization import TensorFactorization
+from tensor_factorization import TensorFactorization
 from scipy.io.matlab import loadmat
 import numpy as np
 from scipy.sparse import lil_matrix
-from ditk.misc.rescal.rescal import als
+from rescal import als
 import os
 import pickle
-from ditk.misc.rescal.rescal_eval import innerfold
+from rescal_eval import innerfold
 import logging
 logging.basicConfig(level=logging.INFO)
 _log = logging.getLogger('RESCAL')
@@ -38,7 +38,7 @@ class RESCALModel(TensorFactorization):
 
     def save_model(self, dir):
         '''
-            Save matrices A and R to txt files
+            Save matrices A and R to txt files in directory dir
         '''
         np.savetxt(dir+'\\rescal_output_A.txt', self.A, delimiter=',')
         with open(dir+"\\rescal_output_R.txt", "wb") as wb:
@@ -46,11 +46,13 @@ class RESCALModel(TensorFactorization):
     
     def load_model(self, dir):
         '''
-            Load matrices A and R from txt files
+            Load matrices A and R from txt files in directory dir
         '''
         self.A = np.loadtxt(dir+'\\rescal_output_A.txt', delimiter=',')
         with open(dir+"\\rescal_output_R.txt", "rb") as rb:
             self.R = pickle.load(rb)
+        
+        return (self.A, self.R)
 
     def evaluate(self):
         K = self.T

@@ -1,5 +1,5 @@
 import os 
-from ditk.misc.rescal.rescal_model import RESCALModel
+from rescal_model import RESCALModel
 import sys
 
 if __name__ == '__main__':
@@ -18,7 +18,7 @@ if __name__ == '__main__':
     print("Benchmark 2: UMLS dataset")
     model2 = RESCALModel()
     model2.read_dataset(dir_path+'\\rescal_input_umls.mat', 'Rs')
-    A2, R2 = model2.factorize(50)
+    A2, R2 = model2.factorize(100)
 
     mean_train2, std_train2, mean_test2, std_test2 = model2.evaluate()
     print("PR AUC training/test mean: %.3f/%.3f" %(mean_train2, mean_test2))
