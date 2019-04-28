@@ -28,7 +28,7 @@ Github URL of the original code - https://github.com/Oracen/MIDAS/
 ## Evalution
 - Benchmark datasets :
   
-  UCI Repository Datasets
+ UCI Repository Datasets
  (complete, numerical) 
  
  Letter Recognition - http://archive.ics.uci.edu/ml/datasets/Letter+Recognition
@@ -45,5 +45,6 @@ Github URL of the original code - https://github.com/Oracen/MIDAS/
 ![Evaluation Results](https://github.com/karishma-chadha/ditk/blob/develop/data_cleaning/midas/readme-images/midas_eval_results.PNG) 
 
 ## Demo
-- Link to the Jupyter Notebook : https://github.com/karishma-chadha/ditk/blob/develop/data_cleaning/midas/midas_jupyter_notebook.ipynb
+- Link to the Jupyter Notebook : 
+https://github.com/karishma-chadha/ditk/blob/develop/data_cleaning/midas/midas_jupyter_notebook.ipynb
 - Link to the video on Youtube
