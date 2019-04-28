@@ -42,9 +42,11 @@ MIDAS employs a class of unsupervised neural networks known as denoising autoenc
 
 3) Spam-base - http://archive.ics.uci.edu/ml/datasets/spambase
 
+
 - Evaluation metrics:
   Root Mean Square Error (RMSE) 
-  
+
+
  - Evaluation results
  
 ![Evaluation Results](https://github.com/karishma-chadha/ditk/blob/develop/data_cleaning/midas/readme-images/midas_eval_results.PNG) 
