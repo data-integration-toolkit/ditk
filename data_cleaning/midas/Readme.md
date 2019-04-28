@@ -27,13 +27,15 @@ Github URL of the original code - https://github.com/Oracen/MIDAS/
 
 ## Evalution
 - Benchmark datasets :
+  
   UCI Repository Datasets
  (complete, numerical) 
-Letter Recognition - http://archive.ics.uci.edu/ml/datasets/Letter+Recognition
+ 
+ Letter Recognition - http://archive.ics.uci.edu/ml/datasets/Letter+Recognition
 
-Breast Cancer (Diagnostic) - http://archive.ics.uci.edu/ml/datasets/breast+cancer
+ Breast Cancer (Diagnostic) - http://archive.ics.uci.edu/ml/datasets/breast+cancer
 
-Spam-base - http://archive.ics.uci.edu/ml/datasets/spambase
+ Spam-base - http://archive.ics.uci.edu/ml/datasets/spambase
 
 - Evaluation metrics:
   Root Mean Square Error (RMSE) 
@@ -43,5 +45,5 @@ Spam-base - http://archive.ics.uci.edu/ml/datasets/spambase
 ![Evaluation Results](https://github.com/karishma-chadha/ditk/blob/develop/data_cleaning/midas/readme-images/midas_eval_results.PNG) 
 
 ## Demo
-- Link to the Jupyter Notebook 
+- Link to the Jupyter Notebook : https://github.com/karishma-chadha/ditk/blob/develop/data_cleaning/midas/midas_jupyter_notebook.ipynb
 - Link to the video on Youtube
