@@ -650,6 +650,7 @@ class BERT_Ner(Ner):
                 output_line = "\n".join(id2label[id] for id in prediction if id != 0) + "\n"
                 writer.write(output_line)
 
+        res = []
         tokens = [line.strip('\n') for line in open(os.path.join(FLAGS.model_dir, "token_test.txt"))]
         prediction = [line.strip('\n') for line in open(os.path.join(FLAGS.model_dir, "label_prediction.txt"))]
         labels = [line .strip('\n') for line in open(os.path.join(FLAGS.model_dir, "label_test.txt"))]
@@ -657,8 +658,14 @@ class BERT_Ner(Ner):
         with open(os.path.join(FLAGS.model_dir, "prediction.txt"), 'w') as f:
             for i in range(len(prediction)):
                 f.write('{} {} {}\n'.format(tokens[i], prediction[i], labels[i]))
+                res.append([(None, len(tokens[i]), tokens[i], prediction[i])])
 
-        return tokens, prediction, labels
+        return res
+
+    # - start index: int, the index of the first character of the mention span. None if not applicable.
+    # - span: int, the length of the mention. None if not applicable.
+    # - mention text: str, the actual text that was identified as a named entity. Required.
+    # - mention type: str, the entity/mention type. None if not applicable.
 
     def evaluate(self, test_data, predictions=None, groundTruths=None, *args, **kwargs):
         """
@@ -761,10 +768,10 @@ def main(input_file_path):
     train_data, test_data, dev_data = my_model.read_dataset(file_dict, 'ditk')
     my_model.train(train_data)
 
-    tokens, prediction, labels = my_model.predict(test_data)
-    print("prediction file path : {}".format(os.path.abspath(os.path.join(FLAGS.model_dir, "prediction.txt"))))
+    # predictions = my_model.predict(test_data)
+    # print("prediction file path : {}".format(os.path.abspath(os.path.join(FLAGS.model_dir, "prediction.txt"))))
 
-    my_model.evaluate(dev_data)
+    my_model.evaluate(test_data)
 
     return os.path.abspath(os.path.join(FLAGS.model_dir, "prediction.txt"))
 

@@ -75,10 +75,10 @@ class Ner(abc.ABC):
             predictions: [tuple,...], i.e. list of tuples.
                 Each tuple is (start index, span, mention text, mention type)
                 Where:
-                 - start index: int, the index of the first character of the mention span. None if not applicable.
-                 - span: int, the length of the mention. None if not applicable.
-                 - mention text: str, the actual text that was identified as a named entity. Required.
-                 - mention type: str, the entity/mention type. None if not applicable.
+                 # - start index: int, the index of the first character of the mention span. None if not applicable.
+                 # - span: int, the length of the mention. None if not applicable.
+                 # - mention text: str, the actual text that was identified as a named entity. Required.
+                 # - mention type: str, the entity/mention type. None if not applicable.
                  NOTE: len(predictions) should equal len(data) AND the ordering should not change [important for
                      evalutation. See note in evaluate() about parallel arrays.]
         Raises:
