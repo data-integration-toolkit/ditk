@@ -40,7 +40,7 @@ label = nyt_to_common('test.json', 1)
 
 ### Download pretrain model from [here](https://drive.google.com/open?id=1ZjmlWFsMS86ftdxrWdIuUAuG3Cmw9isq) and unzip the files in runs /pretrained_file_name/ directory.<br>
 
-### Download word embedding from [here]() and place ./resource directory.<br>
+### Download word embedding from [here](https://drive.google.com/file/d/1FZj0I7PE7eHbYxVBu95UdQA21-xLVeef/view?usp=sharing) and place ./resource directory.<br>
 
 
 ### main.py
