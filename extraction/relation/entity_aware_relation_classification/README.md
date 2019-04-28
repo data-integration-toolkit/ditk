@@ -11,6 +11,16 @@ This repository contains the source code for the Relation Extraction presented i
 * DDI2013
 * NYT
 
+### Input format for training/prediction
+* The input format is generalized for the whole Relation group
+```
+sentence e1 e1_type e1_start_pos e1_end_pos e2 e2_type e2_start_pos e2_end_pos relation (separated by tab)
+```
+* The output format is generalized for the whole Relation group
+```
+sentence e1 e2 predicted_relation grandtruth_relation
+```
+
 ### Data Preparation 
 * SemEval2010 - Run SemEval2010_to_common function in SamEval2010_util.py
 ```
@@ -22,12 +32,13 @@ main():
 inputfiles=["test/MedLine", "test/DrugBank"]
 readData(inputfiles)
 ```
+* Download data from [here](https://drive.google.com/open?id=1-t7gmA3cxrz3ybAfO5gPFYZxWEAzS4E7)
 * NYT - Run nyt_to_common function in ./NYT_data/nyt_util.py
 ```
 label = nyt_to_common('test.json', 1)
 ```
 
-### Download pretrain model from [here](https://drive.google.com/open?id=1Trl1GQLWZn19LvelL-6clATvATKOPH77) and unzip the files in data directory.<br>
+### Download pretrain model from [here](https://drive.google.com/open?id=1ZjmlWFsMS86ftdxrWdIuUAuG3Cmw9isq) and unzip the files in runs /pretrained_file_name/ directory.<br>
 
 
 ### main.py
@@ -75,8 +86,11 @@ my_model.evaluate(None, predictions)
 * Recall = 0.20
 * F1 = 32.18
 
+### jupyter file
+* lstm_relation_extraction_with_semeval2010_and_glove300.ipynb
+
 ### Demo video
-you can see jupyter file, [here](https://github.com/easy1one/ditk/blob/develop/extraction/named_entity/ner_with_ls/main_ver.ipynb)<br><br>
+*  [video]()<br>
 
 ### Citation
 ```
