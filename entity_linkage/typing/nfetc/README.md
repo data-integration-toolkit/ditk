@@ -104,7 +104,7 @@ Extracted downsized word embedding only for sample data is under data folder; `d
 ## Demo Video on YouTube
 https://youtu.be/u5q_VIAOy90 <br>
 Run Sample input with only 1 epoch training NFETC model on Jupyter<br>
-**Jupyter Link** is [here](https://github.com/billy-inn/NFETC) <br>
+**Jupyter Link** is [here](https://github.com/easy1one/ditk/blob/develop/entity_linkage/typing/nfetc/main_ver.ipynb) <br>
 
 
 ### Cite
