@@ -16,6 +16,7 @@ This repository contains the source code for the Relation Extraction presented i
 ```
 main():
   SemEval2010_to_common('./SemEval2010_task8_all_data/SemEval2010_task8_testing_keys/TEST_FILE_FULL.TXT')
+```
 * DDI2013 - Run readData function in ./DDI2013_all_data/DDI_util.py
 ```
 inputfiles=["test/MedLine", "test/DrugBank"]
@@ -26,7 +27,7 @@ readData(inputfiles)
 label = nyt_to_common('test.json', 1)
 ```
 
-### Download pretrain model from [here](https://drive.google.com/open?id=1Trl1GQLWZn19LvelL-6clATvATKOPH77) and unzip the files in data directory.<br><br>
+### Download pretrain model from [here](https://drive.google.com/open?id=1Trl1GQLWZn19LvelL-6clATvATKOPH77) and unzip the files in data directory.<br>
 
 
 ### main.py
