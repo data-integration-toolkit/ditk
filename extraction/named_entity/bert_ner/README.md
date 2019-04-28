@@ -12,12 +12,17 @@ This repository contains the source code for the NER system presented in the fol
 
 ### Input format for training/prediction
 * The input format is generalized for the whole NER group
-** It contains multiple columns got from CoNLL2003 and CoNLL 2012 (separated by space)
-** Sample
+* It contains multiple columns got from CoNLL2003 and CoNLL 2012 (separated by space)
+* Sample
+* ![Common Input](CommonInput.png)
 ```
 Yes UH (TOP(S(INTJ*) O bc/cnn/00/cnn_0003 0 0 - - - Linda_Hamilton * -
 they PRP (NP*) O bc/cnn/00/cnn_0003 0 1 - - - Linda_Hamilton * (15)
 did VBD (VP*) O bc/cnn/00/cnn_0003 0 2 do 01 - Linda_Hamilton (V*) -
+```
+* Common output
+```
+word entity predicted_entity
 ```
 
 ### Data Preparation 
