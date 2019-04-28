@@ -30,7 +30,9 @@ Github URL of the original code - https://github.com/Oracen/MIDAS/
   UCI Repository Datasets
  (complete, numerical) 
 Letter Recognition - http://archive.ics.uci.edu/ml/datasets/Letter+Recognition
+
 Breast Cancer (Diagnostic) - http://archive.ics.uci.edu/ml/datasets/breast+cancer
+
 Spam-base - http://archive.ics.uci.edu/ml/datasets/spambase
 
 - Evaluation metrics:
