@@ -19,12 +19,13 @@ BASE_PATH = 'checkpoint/{0}_imputer.pth'
 OUT_BASE = 'result'
 
 
-def getrmse(table, original_data, mask):
-    mask = mask == 0
-    imputed_val = table[mask]
-    original_data = original_data[mask]
+def getrmse(table, original_data):
+    return np.sqrt(np.mean((table - original_data)**2))
 
-    return np.sqrt(np.mean((imputed_val - original_data)**2))
+
+def nearone(val):
+    return False
+    #return val < 1.1 and val > 0.9
 
 
 def construct_full_table(result, original_data, K, D, row_size, col_size):
@@ -40,29 +41,35 @@ def construct_full_table(result, original_data, K, D, row_size, col_size):
         for j in range(d):
             table[i][j] = original_data[i][j]
 
+
     # apply imputation values
     for data in tqdm(result):
+        real_data = data[0].cpu().detach().numpy()
         real_mask = data[1].cpu().numpy()
         impute_data = data[2].cpu().detach().numpy()
         indices = data[3].cpu().detach().numpy()
 
         rows = [int(x / col_size) for x in indices]
-        cols = [int(x % y) for x, y in zip(indices, rows)]
+        cols = [int(x - y * col_size) for x, y in zip(indices, rows)]
 
         # map phase, not using spark
         for k in range(len(real_mask)):
             for r, c in zip(rows, cols):
                 for x in range(K):
                     for y in range(D):
-                        if real_mask[k][0][x][y] == 0:
+                        if real_mask[k][0][x][y] == 0 and impute_data[k][0][x][y] != 0 and not nearone(impute_data[k][0][x][y]):
                             key = str(x + r) + ',' + str(y + c)
-                            if key not in fragments:
-                                fragments[key] = [impute_data[k][0][x][y]]
-                            else:
-                                fragments[key].append(impute_data[k][0][x][y])
+                            mat_max = 1#np.max(real_data[k][0], axis=0)
+                            if mat_max != 0:
+                                if key not in fragments:
+                                    fragments[key] = [impute_data[k][0][x][y] * mat_max]
+                                else:
+                                    fragments[key].append(impute_data[k][0][x][y] * mat_max)
     # reduce
     for key, val in fragments.items():
         fragments[key] = np.sum(val) / float(len(val))
+
+    print("Imputed data length = {0}".format(len(fragments)))
 
     # create imputed table
     for key, val in fragments.items():
@@ -103,7 +110,7 @@ def evaluate(args, model, eval_data):
         result.append([real_data, real_mask, impute_data, index])
 
     table = construct_full_table(result, data_loader[0].dataset.original_data, K, D, row_size, col_size)
-    rmse = getrmse(table, data_loader[0].dataset.original_data, data_loader[0].dataset.original_datamask == 0)
+    rmse = getrmse(table, data_loader[0].dataset.original_data)
 
     # write to file
     outfile = join(OUT_BASE, strftime("%d_%b_%Y_%H_%M_%S_", gmtime()) + 'eval_data.csv')
