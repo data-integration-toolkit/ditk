@@ -10,6 +10,7 @@ Maximilian Nickel, Volker Tresp and Hans-Peter-Kriegel. A Three-Way Model for Co
 
 ## Overview
 * Rescal factorizes each slice of tensor X into 2 matrices A and R<sub>k</sub> using Alternating Least Square (ALS) approach
+* A tensor entry X<sub>ijk</sub> = 1 denotes that there exists a relation (i-th entity, k-th predicate, j-th entity)
 
 ![rescal](rescal.png)
 
