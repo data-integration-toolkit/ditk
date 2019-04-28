@@ -30,7 +30,7 @@ The proposed method used multi-task mechanism to build a general moodel for biom
 
 ## Links:
 - Jupyter Notebook: https://github.com/hsia947/ditk/blob/develop/extraction/named_entity/bio/Multi-BioNER/multibio_main.ipynb
-- Youtube: 
+- Youtube: https://youtu.be/fxD_JorwbGA
 
 
 
