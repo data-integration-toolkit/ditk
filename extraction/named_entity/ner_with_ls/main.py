@@ -14,8 +14,10 @@ import os, joblib, re, pyhocon, warnings, copy, sys
 def main(input_file_path):
 
 	# mandatory Inputs: (1)dataset_name, (2)ratio
-	dataset_name = "conll"
-	# dataset_name = "ontonotes"
+	if "ontonotes" in input_file_path:
+		dataset_name = "ontonotes"
+	else:
+		dataset_name = "conll"
 	# ratio = (0.70, 0.15, 0.15)
 	ratio = (0.0, 0.0, 1.0)
 
@@ -42,13 +44,13 @@ def main(input_file_path):
 	print("==Training myModel w/ training dataset...")
 	myModel.train(data)
 
-	# # 4-1. saved model
-	# print("==Saved model...")
-	# myModel.save_model()
+	# 4-1. saved model
+	print("==Saved model...")
+	myModel.save_model()
 
-	# # 4-2. restore model
-	# print("==Load model...")
-	# myModel.load_model()
+	# 4-2. restore model
+	print("==Load model...")
+	myModel.load_model()
 
 	# 5. Predict
 	print("==Predict Test data...")
