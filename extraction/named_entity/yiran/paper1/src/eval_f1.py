@@ -1,8 +1,9 @@
 from __future__ import division, print_function
 
-import numpy as np
 import sys
 import time
+
+import numpy as np
 
 
 def is_start(curr):
@@ -93,17 +94,16 @@ def segment_eval(batches, predictions, label_map, type_int_int_map, labels_id_st
     recalls = np.array([correct_counts[i] / gold_counts[i] if gold_counts[i] != 0 else 1.0 for i in gold_counts.keys()])
     f1s = [2 * precision * recall / (recall + precision) if recall + precision != 0 else 0.0 for precision, recall in
            zip(precisions, recalls)]
-
+    esp = 10e-6
     in_indices = np.where(np.array(gold_counts.values()) != 0)[0]
     precision_macro = np.mean(precisions[in_indices])
     recall_macro = np.mean(recalls[in_indices])
-    f1_macro = 2 * precision_macro * recall_macro / (precision_macro + recall_macro)
+    f1_macro = (2 * precision_macro * recall_macro + esp) / (precision_macro + recall_macro + esp)
 
-    precision_micro = all_correct / all_pred
-    recall_micro = all_correct / all_gold
-    f1_micro = 2 * precision_micro * recall_micro / (precision_micro + recall_micro)
+    precision_micro = (all_correct + esp) / (all_pred + esp)
+    recall_micro = (all_correct + esp) / (all_gold + esp )
+    f1_micro = (2 * precision_micro * recall_micro + esp) / (precision_micro + recall_micro + esp)
 
-    accuracy = all_correct / all_gold
 
     print("\t%10s\tPrec\tRecall" % ("F1"))
     print("%10s\t%2.2f\t%2.2f\t%2.2f" % ("Micro (Seg)", f1_micro * 100, precision_micro * 100, recall_micro * 100))

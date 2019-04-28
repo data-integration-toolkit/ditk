@@ -57,7 +57,7 @@ class DilatedCNN(Ner):
         self.file_list_in.append(input_files[1])
         self.file_list_in.append(input_files[2])
         path = '/'.join(input_files[0].split('/')[:-1])
-        self.model_path = path + '/models'
+        self.model_path = path + '/models/dilated-cnn'
         lample_test = path + '/conll2003-w3-lample/test.txt'
         lample_valid = path + '/conll2003-w3-lample/valid.txt'
         lample_train = path + '/conll2003-w3-lample/train.txt'
