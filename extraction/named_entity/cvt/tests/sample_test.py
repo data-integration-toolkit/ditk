@@ -23,7 +23,7 @@ class TestNERMethods(unittest.TestCase):
         self.__class__.output_file = main.main(self.__class__.input_file)
 
     def row_col_count(self, file_name):
-        df = pd.read_csv(file_name, delimiter=r'\s+')
+        df = pd.read_csv(file_name, delimiter=r'\s+', error_bad_lines=False)
         return df.shape
 
     def test_outputformat(self):
