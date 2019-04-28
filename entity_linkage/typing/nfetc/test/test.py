@@ -9,7 +9,7 @@ class TestNERMethods(unittest.TestCase):
 
     def setUp(self):
         
-        self.input_file = "./data/sample.tsv"
+        self.input_file = "./test/clean_data.tsv"
         self.output_file = main(self.input_file)
 
     def row_col_count(self, file_name):
