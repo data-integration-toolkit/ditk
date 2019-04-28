@@ -31,6 +31,6 @@ def main(input_file_path):
 
 
 if __name__ == "__main__":
-    path = "ner_test_input.txt" # G6 NER test input_sample
+    path = "tests/ner_test_input.txt" # G6 NER test input_sample
     out_path = main(path)
     print("Predict_output_path: ", out_path)
