@@ -11,7 +11,7 @@ This repository contains the source code for the NER system presented in the fol
 * OntoNotes2012
 
 ### Data Preparation 
-* CoNLL2003 - Run conll2003_to_ditk function in convert_to_2003.py
+* CoNLL2003 - Find data from ./conll2003_NERData and Run conll2003_to_ditk function in convert_to_2003.py
 ```
 main():
   lines = [line.strip() for line in open('./conll2003_NERdata/train.txt')]
@@ -20,9 +20,12 @@ main():
     for line in ret:
       f.writelines(' ".join(line)+'\n')
 ```
-* OntoNotes2012 - 
+* OntoNotes2012 - Download data from [here](https://drive.google.com/open?id=1OauoEoPONWgwV3vH759uoBdP7MQRkr9N) and unzip the file in NERdata directory.<br>
 
-### Download pretrain model from [here](https://drive.google.com/open?id=1Trl1GQLWZn19LvelL-6clATvATKOPH77) and unzip the files in data directory.<br><br>
+### Download pretrain model
+* Download pretrain bert model from [here](https://drive.google.com/open?id=1UBgb9OlLFvYGzpUufaj9Voe36muxW4Ga) and unzip the file in bert_ner directory.
+* Download pretrain model from [here]() and unzip the file in bert_ner directory.
+
 
 
 ### main.py
@@ -63,8 +66,11 @@ f1, precision, recall = my_model.evaluate(dev_data)
 * Recall = 0.92
 * F1 = 91.87
 
+### jupyter file
+* BERT_NER_with_Conll2003.ipynb
+
 ### Demo video
-you can see jupyter file, [here](https://github.com/easy1one/ditk/blob/develop/extraction/named_entity/ner_with_ls/main_ver.ipynb)<br><br>
+ [video]()<br>
 
 ### Citation
 ```
