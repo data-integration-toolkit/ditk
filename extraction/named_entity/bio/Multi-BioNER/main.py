@@ -97,6 +97,6 @@ def main(test_input):
 
 
 if __name__ == "__main__":
-    test_input_path = "ner_test_input.txt"
+    test_input_path = "tests/ner_test_input.txt"
     out_path = main(test_input_path)
     print(out_path)
