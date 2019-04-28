@@ -1,0 +1,8 @@
+Main file:
+ditk/extraction/named_entity/clutype/main.py
+
+Modules:
+preprocessing and candidate generation: ditk/extraction/named_entity/clutype/candidate_generation
+dbpedia and freebase linking: ditk/extraction/named_entity/clutype/entity_linking/EntityLinking.py
+graph construction: ditk/extraction/named_entity/clutype/src/GraphConstruction.py
+entity recognition: ditk/extraction/named_entity/clutype/src/EntityRecognition.py
