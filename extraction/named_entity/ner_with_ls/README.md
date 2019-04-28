@@ -1,50 +1,63 @@
 Robust Lexical Features for Improved Neural Network Named-Entity Recognition
 ================================================================
-
+Abbas Ghaddar and Philippe Langlais , **Robust Lexical Features for Improved Neural Network Named-Entity Recognition**, In Proceedings of the 27th International Conference on Computational Linguistics (COLING 2018) <br>
 This repository contains the source code for the NER system presented in the following research publication ([link](http://aclweb.org/anthology/C18-1161))
 
-    Abbas Ghaddar and Philippe Langlais 
-    Robust Lexical Features for Improved Neural Network Named-Entity Recognition
-    In Proceedings of the 27th International Conference on Computational Linguistics (COLING 2018)
-
 ## Requirements
-
 * python 3.6
 * tensorflow>=1.6
 * pyhocon (for parsing the configurations)
 
-## Prepare the Data
-1. Input must be "conll2003" or "ontonotes" to run main.py file because pre-trained "conll.joblib" and "ontonotes.joblib" are needed to run the model. This is not just for word-embedding. They applied 4 embeddings to get feature representation; Word-embedding, Character, Capitalized, and Lexcial Similarity features. I could not find the script to create pre-trained embedding for this paper. Therefore, main.py will work with subset of conll (with "conll" as dataset_name) or ontonotes (with "ontonotes" as dataset_name). 
+
+## Prepare the Input data
+    Input must be "conll2003" or "ontonotes" to run main.py file because pre-trained "conll.joblib" and "ontonotes.joblib" are needed to run the model. This is not just for word-embedding. They applied 4 embeddings to get feature representation; Word-embedding, Character, Capitalized, and Lexcial Similarity features. I could not find the script to create pre-trained embedding for this paper. Therefore, main.py will work with subset of conll (with "conll" as dataset_name) or ontonotes (with "ontonotes" as dataset_name). 
+    1)Input: [word, pos, chunk, entity_tag] format is needed to run the code. Since it needs pre-trained embeddings for input words, conll2003 and ontonotes5.0 are pre-trained respectively. (So I cannot train with any other words as inputs)
+    2) Output: [word, truth_lable, predict_label]
+    
+## To run main.py
+1. Create my model
+``` myModel = NER_with_LS(dataset_name)```
+After creating my model, I will split the input files to "train", "dev", "test" with the ratio that users can modify in ```main.py```. It is an optional part but if you want to get all outputs according to your input file, then you should change the ratio to (0.0, 0.0, 1.0) because the default ratio is (7.0, 0.15, 0.15).
+
+2. Read dataset
+```data = myModel.read_dataset(file_dict)```
+data var is dictionary to have {"train", "dev", "test"} data resepectively. 
+
+3. Train the model
+```myModel.train(data)```
+It will train with data["train"] and data["dev"] and then save trained model.
+
+4. Save/Load model
+```myModel.save_model()```
+```myModel.load_model()```
+
+5. Predict data 
+```pred_labels = myModel.predict(data["test"])```
+pred_labels are labels predicted by pre-trained model(or inital model) with data["test"]. So its size is equals to len(data["test"])
+
+6. Get ground truth lables
+```ground_truth_labels = myModel.convert_ground_truth(data["test"])```
+It will have same length with **pred_labels**
+
+7. Finally get Score 
+```scores = myModel.evaluate(pred_labels, ground_truth_labels)```
+Evaluateion matrics are "precision", "recall", "f1"
 
 
+#### Download pre-trained embedding data from [here](https://drive.google.com/open?id=1Trl1GQLWZn19LvelL-6clATvATKOPH77) and unzip the files in data directory.
 
+## Benchmark datasets
+- Conll 2003
+- Ontonotes 5.0
 
-
-
-
-
-1. Download the data from [here](https://drive.google.com/open?id=1Trl1GQLWZn19LvelL-6clATvATKOPH77) and unzip the files in data directory.
-
-2. Change the `raw_path` variables for [conll](http://www.cnts.ua.ac.be/conll2003/ner/) and [ontonotes](http://conll.cemantix.org/2012/data.html) datasets in `experiments.config` file to `path/to/conll-2003` and `path/to/conll-2012/v4/data` respectively. For conll dataset please rename eng.train eng.testa eng.testb files to conll.train.txt conll.dev.txt conll.test.txt respectively. 
-
-3. Run: 
- 
-```
-$ python preprocess.py dataset_name[conll|ontonotes]
-```
-
-## Training
-Once the data preprocessing is completed, you can train and test a model with:
-```
-$ python model.py dataset_name[conll|ontonotes]
-```
-## Generate LS embeddings
-The following [link](https://drive.google.com/open?id=1izVa6Wm-S9pWMqLMo0wXqLf9JJhak_vY) contains the model, entity type vocab and code to generate LS embeddings for any word.
-
+## Evaluation metrics and results
+- Precision, Recall, F1 Score
+- 0.9125	0.9219	0.9172	(conll 2003)
+- 0.4133	0.3974	0.4052  (ontonotes 5.0) with only trial test data (Not full dataset)
 
 ## Demo Video
-https://youtu.be/O2pOc4Yl4R4
-
+https://youtu.be/O2pOc4Yl4R4 <br>
+you can see jupyter file, [here]()
 
 ## Citation
 Please cite the following paper when using our code: 
