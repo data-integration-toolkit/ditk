@@ -29,9 +29,10 @@ Input for prediction: sentences_1,sentences_2
 Output for prediction: similarity scores
 (also a list,similarity scores[i] for sentence_1[i] and sentences_2[i])
 
-Evaluation metrics:
+Evaluation metrics:  
 ------------------
- Pearson Correlation Coefficient
+&emsp;Pearson Correlation Coefficient
+ 
 Evaluation dataset and result:
 ------------------------------
 
