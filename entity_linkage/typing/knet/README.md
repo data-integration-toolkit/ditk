@@ -238,5 +238,5 @@ https://youtu.be/X7xcpG0SLv8
 
 ## To Test
 
-To use the input file, output file and test python file in folder [test](./test) to test 
+To use the input file, output file and test python file in folder [test](./tests) to test 
 
