@@ -1,7 +1,8 @@
-import unittest
 import logging
+import unittest
 
 from extraction.named_entity.yiran.paper2 import Ner
+
 
 # import unittest
 # import pandas as pd
@@ -42,39 +43,54 @@ class Test2(unittest.TestCase):
     def setUpClass(cls):
         cls.uoi = Ner.UOI()
         logging.basicConfig(level=logging.INFO)
-        print("set up class")
+        logging.info("set up class")
 
     def read_dataset(self):
-        print("begin test read dataset")
-        train_sen, train_tag, val_sen, val_tag = self.uoi.read_dataset(inputFiles= ['/Users/liyiran/ditk/extraction/named_entity/yiran/CoNNL2003eng/train.txt', 
+        logging.info("begin test read dataset")
+        train_sen, train_tag, val_sen, val_tag = self.uoi.read_dataset(input_files=['/Users/liyiran/ditk/extraction/named_entity/yiran/CoNNL2003eng/train.txt',
                                                                                     '/Users/liyiran/ditk/extraction/named_entity/yiran/CoNNL2003eng/valid.txt'])
         logging.info('length of train sentences: ' + str(len(train_sen)))
         logging.info('length of train tag: ' + str(len(train_tag)))
         logging.info('length of validating sentences: ' + str(len(val_sen)))
         logging.info('length of validating tag: ' + str(len(val_tag)))
-        print("test read dataset")
+        logging.info("test read dataset")
 
     def train(self):
-        print("begin test train")
+        logging.info("begin test train")
         self.uoi.train(data=None)
-        print("test train")
+        logging.info("test train")
 
     def predict(self):
+        logging.info('test predict')
         predicts = self.uoi.predict('/Users/liyiran/csci548sp19projectner_my/paper2/CoNNL2003eng/test.txt')
-        print(predicts)
-        print("test predict")
+        logging.info(predicts)
+        logging.info("finish predict")
 
     def convert_ground_truth(self):
-        self.uoi.convert_ground_truth(data=['Nadim'])
-        print("test convert to ground truth")
+        # EU NNP B-NP B-ORG
+        # rejects VBZ B-VP O
+        # German JJ B-NP B-MISC
+        # call NN I-NP O
+        # to TO B-VP O
+        # boycott VB I-VP O
+        # British JJ B-NP B-MISC
+        # lamb NN I-NP O
+        # . . O O
+        result = self.uoi.convert_ground_truth(data=['EU', 'rejects', 'German', 'call'])
+        self.assertEqual(['B-ORG', 'O', 'B-MISC', 'O'], result)
+        logging.info("test convert to ground truth")
 
     def evaluation(self):
-        self.uoi.evaluate("")
-        print("test evaluation")
+        logging.info("test evaluation")
+        precision, recall, f1 = self.uoi.evaluate()
+        logging.info("precision: " + str(precision))
+        logging.info("recall: " + str(recall))
+        logging.info("f1: " + str(f1))
+        logging.info("finish evaluation")
 
     def test(self):
         self.read_dataset()
-        # self.train()
-        # self.predict()
-        # self.convert_ground_truth()
-        # self.evaluation()
+        self.train()
+        self.predict()
+        self.convert_ground_truth()
+        self.evaluation()

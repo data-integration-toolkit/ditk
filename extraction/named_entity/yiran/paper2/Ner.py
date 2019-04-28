@@ -1,5 +1,6 @@
 import codecs
 import os
+from collections import defaultdict
 
 import keras
 import numpy
@@ -39,12 +40,13 @@ class UOI(Ner):
     valid_taggings = []
     valid_steps = None
     model = None
+    tag_map = defaultdict()
     total_pred, total_true, matched_num = 0, 0, 0.0
     '''
     The paper is for using Parallel Recurrent Neural Networks to do the NER
     '''
 
-    def evaluate(self, predictions, ground_truths, *args, **kwargs):
+    def evaluate(self, predictions=None, ground_truths=None, *args, **kwargs):
         eps = 1e-6
         precision = (self.matched_num + eps) / (self.total_pred + eps)
         recall = (self.matched_num + eps) / (self.total_true + eps)
@@ -52,42 +54,33 @@ class UOI(Ner):
         return precision, recall, f1
 
     def convert_ground_truth(self, data, *args, **kwargs):
-        '''
-        This method will return the ground truth of the data. 
+        """
+        This method will return the ground truth of the words. 
         The data must be from training dataset e.g. connl2003/train.txt, 
         testing dataset e.g. connl2003/valid.txt or dev dataset e.g.connl2003/test.txt
-        For example:
-        data = 
-         [
-        [('EU','NNP','B-NP','B-ORG'),('rejects','VBZ','B-VP','O'),('German','JJ','B-NP','B-MISC'),('call','NN','I-NP','O'),('to','TO','B-VP','O'),('boycott','VB', 'I-VP','O'),('British','JJ', 'B-NP','B-MISC'),('lamb','NN, 'I-NP','O'),('.','.', 'O','O')],
-        [('Peter','NNP', 'B-NP','B-PER'),('Blackburn','NNP', 'I-NP','I-PER')]
-        ]
-        output = convert_ground_truth(data)
-        The output should be
-        [
-        ['B-ORG','O','B-MISC','O','O','O','B-MISC','O','O'],
-        ['B-PER','I-PER']
-        ]
-        :param data: The data is a list. Each element in the list should be a list that contains the tokens for a sentences 
-        :return: a list in which a element is another list that contains tags
+        :param data: a list of words
+        :return: a list of tags for the words
         :raise: if the data contains a token having no tag
-         '''
-        pass
+        """
+        result = []
+        for word in data:
+            result.append(self.tag_map[word])
+        return result
 
-    def read_dataset(self, inputFiles, *args, **kwargs):
+    def read_dataset(self, input_files, *args, **kwargs):
         """
         The method is for reading the data from files.
 
-        :param inputFiles: An array containing the pathes for training file and validation file. inputFiles[0] is training data set and inputFiles[1] is validating file
+        :param input_files: An array containing the pathes for training file and validation file. input_files[0] is training data set and input_files[1] is validating file
          For example 
         ["/Users/liyiran/csci548sp19projectner_my/paper2/CoNNL2003eng/train.txt",'/Users/liyiran/csci548sp19projectner_my/paper2/CoNNL2003eng/valid.txt']
         :return: training sentences/ tags and validating sentences/ tags
         :raise: if the input is not an array of length 2 or the files do not exists or 
         """
-        if not len(inputFiles) is 2:
+        if not len(input_files) is 2:
             raise NameError('input files should contains two elements: training file, validation')
-        training_file = inputFiles[0]
-        validate_file = inputFiles[1]
+        training_file = input_files[0]
+        validate_file = input_files[1]
         sentences, taggings = self.load_data(training_file)
         self.train_sentences.extend(sentences)
         self.train_taggings.extend(taggings)
@@ -108,6 +101,7 @@ class UOI(Ner):
                     continue
                 parts = line.split()
                 if parts[0] != '-DOCSTART-':
+                    self.tag_map[parts[0]] = parts[-1]
                     sentences[-1].append(parts[0])
                     taggings[-1].append(self.TAGS[parts[-1]])
         if not sentences[-1]:
@@ -117,18 +111,11 @@ class UOI(Ner):
 
     # @classmethod
     def train(self, data=None, *args, **kwargs):
-        '''
-       This method is for training the dilated cnn model. It will update the model weights. 
-        For example:
-        data = 
-       [
-        [('EU','NNP','B-NP','B-ORG'),('rejects','VBZ','B-VP','O'),('German','JJ','B-NP','B-MISC'),('call','NN','I-NP','O'),('to','TO','B-VP','O'),('boycott','VB', 'I-VP','O'),('British','JJ', 'B-NP','B-MISC'),('lamb','NN, 'I-NP','O'),('.','.', 'O','O')],
-        [('Peter','NNP', 'B-NP','B-PER'),('Blackburn','NNP', 'I-NP','I-PER')]
-        ]
-        train(data)
-        :param data: a list in which each element is a list containing token w/o tag. If a token is a tuple, the tag will be ignored for training.
-        :return: None 
-        '''
+        """
+        This method is for training the cnn model. After training procedure, the model will be saved in model.h5 file
+        :param data: is not used in this method since the training and validating files has been given in read_dataset() method
+        :return: None
+        """
         dicts_generator = get_dicts_generator(
             word_min_freq=2,
             char_min_freq=2,
@@ -197,29 +184,17 @@ class UOI(Ner):
 
     # @classmethod
     def predict(self, data, *args, **kwargs):
-        '''
-        This method is for predicting tags for tokens. The input data is a list in which each element is a list for tokens w/o tags
-        For example:
-         data = 
-        [
-        [('EU','NNP','B-NP','B-ORG'),('rejects','VBZ','B-VP','O'),('German','JJ','B-NP','B-MISC'),('call','NN','I-NP','O'),('to','TO','B-VP','O'),('boycott','VB', 'I-VP','O'),('British','JJ', 'B-NP','B-MISC'),('lamb','NN, 'I-NP','O'),('.','.', 'O','O')],
-        [('Peter','NNP', 'B-NP','B-PER'),('Blackburn','NNP', 'I-NP','I-PER')]
-        ]
-        OR
-        data = 
-              [
-        [('EU','NNP','B-NP'),('rejects','VBZ','B-VP'),('German','JJ','B-NP'),('call','NN','I-NP'),('to','TO','B-VP'),('boycott','VB', 'I-VP'),('British','JJ', 'B-NP'),('lamb','NN, 'I-NP'),('.','.', 'O')],
-        [('Peter','NNP', 'B-NP','B-PER'),('Blackburn','NNP', 'I-NP','I-PER')]
-        ]
-        The ouput is a list in which each element is a list of tags for each sentence.
+        """
+        This method is for predicting tags for tokens. The input is a file containing the samples
+        The output is a list in which each element is a list of tags for each sentence.
         For example:
          [
         ['B-ORG','O','B-MISC','O','O','O','B-MISC','O','O'],
         ['B-PER','I-PER']
         ]
-        :param data: a list in which each element is a list containing tokens w/o tags
+        :param data: the path of the file containing sentences
         :return: list of tags
-        '''
+        """
         test_sentences, test_taggings = self.load_data(data)
         test_steps = (len(test_sentences) + self.BATCH_SIZE - 1) // self.BATCH_SIZE
         # eps = 1e-6
