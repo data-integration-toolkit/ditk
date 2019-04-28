@@ -16,7 +16,7 @@ Github URL of the original code - https://github.com/Oracen/MIDAS/
 
 MIDAS employs a class of unsupervised neural networks known as denoising autoencoders, which are capable of producing complex yet robust reconstructions of partially corrupted inputs. To enhance their efficiency and accuracy while preserving their robustness, these networks are trained with the recently developed technique of Monte Carlo dropout, which is mathematically equivalent to approximate Bayesian inference in deep Gaussian processes.
 
-![Architecture](https://github.com/karishma-chadha/ditk/blob/develop/data_cleaning/midas/readme-images/midas_arch.png)
+![Architecture](https://github.com/karishma-chadha/ditk/blob/develop/data_cleaning/imputation/midas/readme-images/midas_arch.png)
 
 - Start with an initial n dimensional input ([0,1]) and feed it into the encoder. Stochastic corruption is induced by keeping the input  dropout ratio as 0.5. Then at each successive hidden layer, we add theta nodes, increasing the dimensionality to n+theta. This mapping of our input data to a higher dimensional subspace creates representations capable of adding lateral connections, aiding in data recovery. Decoder symmetrically scales it back to original dimensions and tries to reconstruct the input. In this process, the algorithm is tuned to predict the missing values.
 - This technique can work with pre-existing missing values, without the need to replace those values with mean or other similar metric.
@@ -49,7 +49,7 @@ MIDAS employs a class of unsupervised neural networks known as denoising autoenc
 
  - Evaluation results
  
-![Evaluation Results](https://github.com/karishma-chadha/ditk/blob/develop/data_cleaning/midas/readme-images/midas_eval_results.PNG) 
+![Evaluation Results](https://github.com/karishma-chadha/ditk/blob/develop/data_cleaning/imputation/midas/readme-images/midas_eval_results.PNG) 
 
 ## Demo
 - Link to the Jupyter Notebook : 
