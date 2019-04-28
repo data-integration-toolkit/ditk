@@ -6,8 +6,8 @@ import numpy as np
 import cPickle
 
 
-models_path = "../models"
-eval_path = "../evaluation"
+models_path = "./models"
+eval_path = "./evaluation"
 eval_temp = os.path.join(eval_path, "temp_result")
 eval_script = os.path.join(eval_path, "conlleval")
 
