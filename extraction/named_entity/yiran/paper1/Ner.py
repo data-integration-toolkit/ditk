@@ -37,30 +37,45 @@ class DilatedCNN(Ner):
     def convert_ground_truth(self, data, *args, **kwargs):
         pass
 
-    def read_dataset(self, train_dir=None, embedding='./data/embeddings/glove.6B.100d.txt', *args, **kwargs):
+    def read_dataset(self, input_files=None, embedding='./data/embeddings/glove.6B.100d.txt', *args, **kwargs):
+        """
+        This method is for reading the data set of training, validating and testing
+        :param input_files: an array containing all relative files, trainging, validating, and testing 
+        :param embedding: the embedding file path
+        for example:
+        /Users/liyiran/ditk/extraction/named_entity/yiran/embedding/glove.6B.100d.txt
+        :param args: 
+        :param kwargs: 
+        :return: 
+        :raise if the length of input files is not 3 or files do not exist
+        """
         self.embedding = embedding
-        print(train_dir)
-        print(embedding)
-        lample_testa = train_dir + '/conll2003-w3-lample/eng.testa'
-        lample_testb = train_dir + '/conll2003-w3-lample/eng.testb'
-        lample_testc = train_dir + '/conll2003-w3-lample/eng.train'
-        self.file_list_in.append(train_dir + '/conll2003/eng.testa')
-        self.file_list_in.append(train_dir + '/conll2003/eng.testb')
-        self.file_list_in.append(train_dir + '/conll2003/eng.train')
-        self.file_list_lample.append(lample_testa)
-        self.file_list_lample.append(lample_testb)
-        self.file_list_lample.append(lample_testc)
-        vocabs = train_dir + '/vocabs'
-        if not os.path.exists(lample_testa):
-            os.makedirs(lample_testa)
-        if not os.path.exists(lample_testb):
-            os.makedirs(lample_testb)
-        if not os.path.exists(lample_testc):
-            os.makedirs(lample_testc)
+        if input_files is None or not len(input_files) is 3:
+            raise NameError("input files should contain 3 files for training, valid and test ")
+        self.file_list_in.append(input_files[0])
+        self.file_list_in.append(input_files[1])
+        self.file_list_in.append(input_files[2])
+        path = '/'.join(input_files[0].split('/')[:-1])
+        lample_test = path + '/conll2003-w3-lample/test.txt'
+        lample_valid = path + '/conll2003-w3-lample/valid.txt'
+        lample_train = path + '/conll2003-w3-lample/train.txt'
+        # self.file_list_in.append(train_dir + '/conll2003/test.txt')
+        # self.file_list_in.append(train_dir + '/conll2003/valid.txt')
+        # self.file_list_in.append(train_dir + '/conll2003/train.txt')
+        self.file_list_lample.append(lample_train)
+        self.file_list_lample.append(lample_valid)
+        self.file_list_lample.append(lample_test)
+        vocabs = path + '/vocabs'
+        if not os.path.exists(lample_test):
+            os.makedirs(lample_test)
+        if not os.path.exists(lample_valid):
+            os.makedirs(lample_valid)
+        if not os.path.exists(lample_train):
+            os.makedirs(lample_train)
         if not os.path.exists(vocabs):
             os.makedirs(vocabs)
         cut_off = defaultdict(lambda: 0)
-        with codecs.open(train_dir + '/conll2003/eng.train', 'r', 'utf8') as reader:
+        with codecs.open(input_files[0], 'r', 'utf8') as reader:
             for line in reader:
                 line = line.strip()
                 if line:
@@ -70,8 +85,8 @@ class DilatedCNN(Ner):
                     cut_off[word] += 1
         cut_off = {k for k, v in cut_off.items() if v >= 4}
         print(len(cut_off))
-        with open(train_dir + '/vocabs/conll2003_cutoff_4.txt', 'w+') as f:
-            self.vocabs = train_dir + '/vocabs/conll2003_cutoff_4.txt'
+        with open(path + '/vocabs/conll2003_cutoff_4.txt', 'w+') as f:
+            self.vocabs = path[:-1] + '/vocabs/conll2003_cutoff_4.txt'
             for item in cut_off:
                 f.write("%s\n" % item)
 

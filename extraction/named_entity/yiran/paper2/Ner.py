@@ -17,7 +17,7 @@ class UOI(Ner):
     RNN_UNITS = 32
 
     BATCH_SIZE = 16
-    EPOCHS = 10
+    EPOCHS = 1
     TAGS = {
         'O': 0,
         'B-PER': 1,
@@ -67,18 +67,22 @@ class UOI(Ner):
             result.append(self.tag_map[word])
         return result
 
-    def read_dataset(self, input_files, *args, **kwargs):
+    def read_dataset(self, input_files, embedding, *args, **kwargs):
         """
         The method is for reading the data from files.
 
         :param input_files: An array containing the pathes for training file and validation file. input_files[0] is training data set and input_files[1] is validating file
          For example 
         ["/Users/liyiran/csci548sp19projectner_my/paper2/CoNNL2003eng/train.txt",'/Users/liyiran/csci548sp19projectner_my/paper2/CoNNL2003eng/valid.txt']
+        :param embedding the path of embedding file
+        for example:
+        /Users/liyiran/ditk/extraction/named_entity/yiran/embedding/glove.6B.100d.txt
         :return: training sentences/ tags and validating sentences/ tags
         :raise: if the input is not an array of length 2 or the files do not exists or 
         """
         if not len(input_files) is 2:
             raise NameError('input files should contains two elements: training file, validation')
+        self.WORD_EMBD_PATH = embedding
         training_file = input_files[0]
         validate_file = input_files[1]
         sentences, taggings = self.load_data(training_file)
@@ -149,6 +153,7 @@ class UOI(Ner):
             print('Embedding done')
         else:
             self.word_embd_weights = None
+            raise NameError('embedding file is not found')
         print('Embedding all done')
         train_steps = (len(self.train_sentences) + self.BATCH_SIZE - 1) // self.BATCH_SIZE
         valid_steps = (len(self.valid_sentences) + self.BATCH_SIZE - 1) // self.BATCH_SIZE
