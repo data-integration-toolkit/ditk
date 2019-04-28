@@ -31,11 +31,11 @@ Github URL of the original code - https://github.com/Oracen/MIDAS/
  UCI Repository Datasets
  (complete, numerical) 
  
- Letter Recognition - http://archive.ics.uci.edu/ml/datasets/Letter+Recognition
+1) Letter Recognition - http://archive.ics.uci.edu/ml/datasets/Letter+Recognition
 
- Breast Cancer (Diagnostic) - http://archive.ics.uci.edu/ml/datasets/breast+cancer
+2) Breast Cancer (Diagnostic) - http://archive.ics.uci.edu/ml/datasets/breast+cancer
 
- Spam-base - http://archive.ics.uci.edu/ml/datasets/spambase
+3) Spam-base - http://archive.ics.uci.edu/ml/datasets/spambase
 
 - Evaluation metrics:
   Root Mean Square Error (RMSE) 
@@ -46,5 +46,6 @@ Github URL of the original code - https://github.com/Oracen/MIDAS/
 
 ## Demo
 - Link to the Jupyter Notebook : 
+
 https://github.com/karishma-chadha/ditk/blob/develop/data_cleaning/midas/midas_jupyter_notebook.ipynb
 - Link to the video on Youtube
