@@ -1,4 +1,4 @@
-# Objective: Data Integration Took Kit for CSIC548 Final Project
+# Data Integration Took Kit for CSIC548 Final Project
 
 ## Title of the Paper: 
 - Neural Adaptation Layers for Cross-domain Named Entity Recognition
