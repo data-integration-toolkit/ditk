@@ -4,9 +4,4 @@ So you can put 2 types of input; **conll2003**, **ontonotes**. <br>
 
 ## To run test.py with sample test data
 Initial setting is that model will run withconll2003 data and you can change to sample ontonotes dataset in test.py file; I commented out for ontonotes file_path. Plue, Test script will check number of input/output rows and cols. 
-Run on the ```nfetc folder``` with following command line; ``` python test/test.py```
-
-<br><br>
-### Embedding (glove.840B.300d)<br>
-If you want to use other inputs, you must download word embedding file form http://nlp.stanford.edu/data/glove.840B.300d.zip and replace current golve file to full size of golve word embedding file.
-I uploaded downsized word embedding file due to the limitation of size (under data folder in develop branch)
+Run on the ```ner_with_ls folder``` with following command line; ``` python test/test.py```
