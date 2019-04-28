@@ -18,14 +18,14 @@ This is a toolkit to predict sentences pair's semantic similarity scores, the ma
 and then calculate two sentences embeddings' similarity by angular distance or cosine similarity. 
 
 sample work flow: read_dataset,load_module,prediction,evalution.
-(because the paper's author packed the transformer module in tensorflow hub, we can just download module and use it.So,there is no training details.)
-<div align = center>
-The architecture of transformer:  
-<img src="https://github.com/JoeyJoey/ditk/blob/develop/text/similarity/USE_Transformer/picture/transformer.jpg" width="450" height="600" alt="Transformer"/>
-</div>  
+(because the paper's author packed the transformer module in tensorflow hub, we can just download module and use it.So,there is no training details.)  
 
+The architecture of transformer:  
+<img src="https://github.com/JoeyJoey/ditk/blob/develop/text/similarity/USE_Transformer/picture/transformer.jpg" width="450" height="600" alt="Transformer"/>     
+<br>
 Input for prediction: sentences_1,sentences_2
-(sentences_1,sentences_2 should be a list, sentence_1[i],sentences_2[i] is a sentence pair)
+(sentences_1,sentences_2 should be a list, sentence_1[i],sentences_2[i] is a sentence pair)  
+
 Output for prediction: similarity scores
 (also a list,similarity scores[i] for sentence_1[i] and sentences_2[i])
 
