@@ -21,7 +21,8 @@ def main(input_file_path):
 	# folder_path = "/".join(file_path.split("/")[:-1])
 	data_name = "others"
 	model_name = "best_nfetc_wiki"
-	ratio = (0.7, 0.15, 0.15)
+	# ratio = (0.7, 0.15, 0.15)
+	ratio = (0.0, 0.0, 1.0)
 	epoch_num = 5
 
 	# Mandatory options for my Model
@@ -48,8 +49,14 @@ def main(input_file_path):
 	myModel.preprocess_helper(data_name, extension, input_file_path)
 	train_data, test_data = myModel.read_dataset(file_path, options)
 
-	print("> Training ...") 
-	myModel.train(train_data, options) # saved trained model
+	# print("> Training ...") 
+	# myModel.train(train_data, options) # saved trained model
+
+	# print("> Save model ... ")
+	# myModel.save_model()
+
+	print(">Load Model ... ")
+	myModel.load_model()
 	
 	print("> Predicting ...")
 	predict_data = myModel.predict(test_data, None, options) 
@@ -57,11 +64,7 @@ def main(input_file_path):
 	print("> Evaluating ...")
 	acc, macro, micro = myModel.evaluate(test_data, predict_data, options)
 
-	print("> Save model ... ")
-	myModel.save_model()
-
-	print(">Load Model ... ")
-	myModel.load_model()
+	
 
 	output_file_path = "./output/" + model_name + ".tsv"
 	return output_file_path
