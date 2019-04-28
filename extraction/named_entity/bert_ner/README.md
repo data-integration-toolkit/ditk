@@ -10,6 +10,16 @@ This repository contains the source code for the NER system presented in the fol
 * CoNLL2003
 * OntoNotes2012
 
+### Input format for training/prediction
+* The input format is generalized for the whole NER group
+** It contains multiple columns got from CoNLL2003 and CoNLL 2012 (separated by space)
+** Sample
+```
+Yes UH (TOP(S(INTJ*) O bc/cnn/00/cnn_0003 0 0 - - - Linda_Hamilton * -
+they PRP (NP*) O bc/cnn/00/cnn_0003 0 1 - - - Linda_Hamilton * (15)
+did VBD (VP*) O bc/cnn/00/cnn_0003 0 2 do 01 - Linda_Hamilton (V*) -
+```
+
 ### Data Preparation 
 * CoNLL2003 - Find data from ./conll2003_NERData and Run conll2003_to_ditk function in convert_to_2003.py
 ```
