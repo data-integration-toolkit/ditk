@@ -27,6 +27,7 @@ class DilatedCNN(Ner):
     embedding = ""
     vocabs = ''
     model_path = None
+    tag_map = defaultdict(lambda: 'O')
 
     def del_all_flags(self):
         FLAGS = tf.app.flags.FLAGS
@@ -36,7 +37,14 @@ class DilatedCNN(Ner):
             FLAGS.__delattr__(keys)
 
     def convert_ground_truth(self, data, *args, **kwargs):
-        pass
+        """
+        this method is for converting words into tags. This method should be invoked after using read dataset method
+        :param data: a list of words 
+        :param args: 
+        :param kwargs: 
+        :return: a list of tags 
+        """
+        return list(map(lambda x: self.tag_map[x], data))
 
     def read_dataset(self, input_files=None, embedding='./data/embeddings/glove.6B.100d.txt', *args, **kwargs):
         """
@@ -56,6 +64,13 @@ class DilatedCNN(Ner):
         self.file_list_in.append(input_files[0])
         self.file_list_in.append(input_files[1])
         self.file_list_in.append(input_files[2])
+        for i in range(0, 3):
+            with open(input_files[i], 'r') as f:
+                for line in f.readlines():
+                    line = line.strip()
+                    if line:
+                        parts = line.split()
+                        self.tag_map[parts[0]] = parts[-1]
         path = '/'.join(input_files[0].split('/')[:-1])
         self.model_path = path + '/models/dilated-cnn'
         lample_test = path + '/conll2003-w3-lample/test.txt'
@@ -661,11 +676,19 @@ class DilatedCNN(Ner):
         self.cnn_predict()
 
     def predict(self, data, *args, **kwargs):
+        """
+        this method is for predicting the sentences in the data folder. This method should be invoked after invoking
+        read dataset and train
+        :param data: the path of the test file
+        :param args: 
+        :param kwargs: 
+        :return: 
+        """
         self.del_all_flags()
         tf.app.flags.DEFINE_string('train_dir', self.file_list_lample[0], 'directory containing preprocessed training data')
         # predict
         tf.app.flags.DEFINE_string('dev_dir', self.file_list_lample[1], 'directory containing preprocessed dev data')
-        tf.app.flags.DEFINE_string('test_dir', '', 'directory containing preprocessed test data')
+        tf.app.flags.DEFINE_string('test_dir', data, 'directory containing preprocessed test data')
         tf.app.flags.DEFINE_string('maps_dir', self.file_list_lample[0], 'directory containing data intmaps')
         # tf.app.flags.DEFINE_string('load_model', './models', '')
         tf.app.flags.DEFINE_string('model_dir', self.model_path, 'save model to this dir (if empty do not save)')
@@ -732,11 +755,23 @@ class DilatedCNN(Ner):
         tf.app.flags.DEFINE_boolean('documents', False, 'whether each example is a document (default: sentence)')
         tf.app.flags.DEFINE_boolean('ontonotes', False, 'evaluate each domain of ontonotes seperately')
         self.cnn_predict()
+        with open('labels.txt', 'r') as f:
+            result = '\n'.join(f.readlines())
+        return result
 
-    def evaluate(self, predictions, ground_truths, *args, **kwargs):
-        f = open('./eval.txt', 'r')
-        x = f.readlines()
-        f.close()
+    def evaluate(self, predictions=None, ground_truths=None, *args, **kwargs):
+        """
+        this function will retrieve the evaluation result of last predict invocation
+        :param predictions: it is not used in this method 
+        :param ground_truths: it is not used in this method
+        :param args: 
+        :param kwargs: 
+        :return: 
+        """
+        if not os.path.exists('./eval.txt'):
+            raise NameError('please run predict() before evaluate method')
+        with open('./eval.txt', 'r') as f:
+            x = f.readlines()
         return "".join(x)
 
     def cnn_predict(self):
