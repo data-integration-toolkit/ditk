@@ -113,10 +113,10 @@ def load_data_and_labels(list, label_count, data_type):
 
     pos1, pos2 = get_relative_position(df, FLAGS.max_sentence_length)
 
-    if data_type == 'semeval2010':
+    if data_type == 'semeval2010' or data_type == 'ddi2013' or data_type == 'nyt':
         df['label'] = [utils.class2label[FLAGS.data_type][r] for r in df['relation']]
     else:
-        raise Exception('The {} data type is unavailable.'.format(data_type))
+        raise Exception('The {0} data type is unavailable.'.format(data_type))
 
     # Text Data
     x_text = df['sentence'].tolist()

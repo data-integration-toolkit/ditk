@@ -14,7 +14,20 @@ class2label = {
                     'Content-Container(e1,e2)': 17, 'Content-Container(e2,e1)': 18},
     'ddi2013': {'false': 0,
                 'advise': 1, 'effect': 2,
-                'int': 3, 'mechanism': 4}
+                'int': 3, 'mechanism': 4},
+    'nyt': {'None': 0,
+            '/business/company/advisors': 1, '/business/company/founders': 2,
+            '/business/company/industry': 3, '/business/company/major_shareholders': 4,
+            '/business/company/place_founded': 5, '/business/company_shareholder/major_shareholder_of': 6,
+            '/business/person/company': 7, '/location/administrative_division/country': 8,
+            '/location/country/administrative_divisions': 9, '/location/country/capital': 10,
+            '/location/location/contains': 11, '/location/neighborhood/neighborhood_of': 12,
+            '/people/deceased_person/place_of_death': 13, '/people/ethnicity/geographic_distribution': 14,
+            '/people/ethnicity/people': 15, '/people/person/children': 16,
+            '/people/person/ethnicity': 17, '/people/person/nationality': 18,
+            '/people/person/place_lived': 19, '/people/person/place_of_birth': 20,
+            '/people/person/profession': 21, '/people/person/religion': 22,
+            '/sports/sports_team/location': 23, '/sports/sports_team_location/teams': 24}
 }
 
 label2class = {
@@ -30,7 +43,20 @@ label2class = {
                     17: 'Content-Container(e1,e2)', 18: 'Content-Container(e2,e1)'},
     'ddi2013': {0: 'false',
                 1: 'advise', 2: 'effect',
-                3: 'int', 4: 'mechanism'}
+                3: 'int', 4: 'mechanism'},
+    'nyt': {0: 'None',
+            1: '/business/company/advisors', 2: '/business/company/founders',
+            3: '/business/company/industry', 4: '/business/company/major_shareholders',
+            5: '/business/company/place_founded', 6: '/business/company_shareholder/major_shareholder_of',
+            7: '/business/person/company', 8: '/location/administrative_division/country',
+            9: '/location/country/administrative_divisions', 10: '/location/country/capital',
+            11: '/location/location/contains', 12: '/location/neighborhood/neighborhood_of',
+            13: '/people/deceased_person/place_of_death', 14: '/people/ethnicity/geographic_distribution',
+            15: '/people/ethnicity/people', 16: '/people/person/children',
+            17: '/people/person/ethnicity', 18: '/people/person/nationality',
+            19: '/people/person/place_lived', 20: '/people/person/place_of_birth',
+            21: '/people/person/profession', 22: '/people/person/religion',
+            23: '/sports/sports_team/location', 24: '/sports/sports_team_location/teams'}
 }
 
 

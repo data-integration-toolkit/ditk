@@ -402,10 +402,10 @@ class LSTM_relation_extraction(RelationExtraction):
         prediction = df['prediction'].tolist()
         truth = df['truth'].tolist()
         for i in range(len(prediction)):
-            if truth[i] == 0 and prediction[i] == 1:
+            if truth[i] == 0 and prediction[i] != 0:
                 fn = fn + 1
-            elif truth[i] == 1:
-                if prediction[i] == 1:
+            elif truth[i] != 0:
+                if truth[i] == prediction[i]:
                     tp = tp + 1
                 else:
                     fp = fp + 1
@@ -436,23 +436,18 @@ class LSTM_relation_extraction(RelationExtraction):
         saver.restore(self.sess, tf.train.latest_checkpoint(model_path))
 
 
-def main(input_file_path):
+if __name__ == "__main__":
     FLAGS.embeddings = 'glove300'
-    FLAGS.data_type = 'semeval2010'
+    FLAGS.data_type = 'nyt'
 
     files_dict = {
-        "train": "data/semeval2010/trainfile.txt",
-        "test": input_file_path#"data/SemEval2010/testfile.txt"
+        "train": "data/" + FLAGS.data_type + "/trainfile.txt",
+        "test": "data/" + FLAGS.data_type + "/testfile.txt"
     }
 
     my_model = LSTM_relation_extraction()
     train_data, test_data = my_model.read_dataset(files_dict)
+    my_model.train(train_data)
     predictions, output_file_path = my_model.predict(test_data)
     my_model.evaluate(None, predictions)
-
-    return output_file_path
-
-
-if __name__ == "__main__":
-    print(main("data/semeval2010/testfile.txt"))
 
