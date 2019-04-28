@@ -20,8 +20,9 @@ and then calculate two sentences embeddings' similarity by angular distance or c
 sample work flow: read_dataset,load_module,prediction,evalution.
 (because the paper's author packed the transformer module in tensorflow hub, we can just download module and use it.So,there is no training details.)
 
-The architecture of transformer:
-![](https://github.com/JoeyJoey/ditk/tree/master/text/similarity/USE_Transformer/picture/transformer.jpg)  
+The architecture of transformer:  
+
+![](http://github.com/JoeyJoey/ditk/text/similarity/USE_Transformer/raw/develop/picture/transformer.jpg)
 
 Input for prediction: sentences_1,sentences_2
 (sentences_1,sentences_2 should be a list, sentence_1[i],sentences_2[i] is a sentence pair)
