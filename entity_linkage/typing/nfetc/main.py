@@ -72,10 +72,7 @@ def main(input_file_path):
 
 if __name__ == "__main__":
 
-	input_file_path = "./data/sample.tsv" # sample filtered data
-	# input_file_path = "./data/corpus/Others/entity_typing_test_input.tsv" # filtered data
-	# input_file_path = "./data/corpus/Others/entity_typing_test_input.txt" # raw data
-
+	input_file_path = "./test/clean_data.tsv" # sample filtered data
 	output_file_path = main(input_file_path)
 
 	print(output_file_path)
