@@ -1,6 +1,8 @@
-###Reference
+Reference
+========
 
-####Universal Sentence Encoder for English
+Universal Sentence Encoder for English
+-------------------
 
 D.Cer, Y.Yang, S.Kong, N.Hua, N.Limtiaco, R.S.John, N.Constant, M.G.Cespedes, S.Yuan, C.ar, Y.Sung, B.S
 trope, R.Kurzweil, “_Universal Sentence Encoder for English_”, In Proceedings of the 2018 Conference on
@@ -10,9 +12,13 @@ http://aclweb.org/anthology/D18-2029
 
 code by author: https://tfhub.dev/google/universal-sentence-encoder-large/3
 
-###Toolkit description
+Toolkit description
+==================
 This is a toolkit to predict sentences pair's semantic similarity scores, the main idea of the toolkit is first to use transformer encoder to encode two sentences into two embeddings, 
 and then calculate two sentences embeddings' similarity by angular distance or cosine similarity. 
+
+sample work flow: read_dataset,load_module,prediction,evalution.
+(because the paper's author packed the transformer module in tensorflow hub, we can just download module and use it.So,there is no training details.)
 
 The architecture of transformer:
 ![](https://github.com/JoeyJoey/ditk/tree/master/text/similarity/USE_Transformer/picture/transformer.jpg)  
@@ -23,9 +29,11 @@ Input for prediction: sentences_1,sentences_2
 Output for prediction: similarity scores
 (also a list,similarity scores[i] for sentence_1[i] and sentences_2[i])
 
-####Evaluation metrics:
+Evaluation metrics:
+------------------
  Pearson Correlation Coefficient
-####Evaluation dataset and result:
+Evaluation dataset and result:
+------------------------------
 
 | Dataset       | pearson (cosine) | pearson( angular) |
 | ------------- | -------------    | -------------     |
@@ -34,8 +42,8 @@ Output for prediction: similarity scores
 | SICK test Dataset         | 0.82 | 0.80              |
 | STS-benchmark test        | 0.76 | 0.77              |
 
-
-###How to run the code
+How to run the code
+==================
  the code' interpreter is python 3.6
   1. install packages  
   &emsp;pip3 install requirement.txt
@@ -46,7 +54,22 @@ $ mkdir /model/moduleA
 $ curl -L "https://tfhub.dev/google/universal-sentence-encoder-large/3?tf-hub-format=compressed" | tar -zxvC /model/moduleA
 ```   
 &emsp;3. main.py is a demo to predict sentence pairs similarity score   
-&emsp;4. use_transformer_demo.ipynb is a demo that contains prediction and evaluation
+&emsp;4. use_transformer_demo.ipynb is a demo that contains prediction and evaluation  
+
+video demo
+==========
+https://youtu.be/1v9nQXxPVNY
+
+Jupyter notebook
+================
+use_transformer_demo.ipynb
+
+
+
+
+
+
+
 
 
 
