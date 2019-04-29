@@ -21,7 +21,7 @@ from extraction.named_entity.lmlstmcrf.lmlstmcrf import Lmlstmcrf
 
 # set hparam files
 hp.checkpoint_dir = data_dir + "/checkpoint/"
-hp.checkpoint = data_dir + "/checkpoint/cwlm_lstm_crf_test.model"
+hp.checkpoint = data_dir + "/checkpoint/conll.model"
 hp.emb_file = emb_file
 # hp.gpu = -1
 
