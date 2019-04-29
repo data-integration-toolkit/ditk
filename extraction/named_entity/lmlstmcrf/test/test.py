@@ -9,8 +9,8 @@ if ditk_path not in sys.path:
     sys.path.append(main_path)
 
 data_dir = os.path.join(ditk_path, 'extraction/named_entity/lmlstmcrf/test/')
-input_file = os.path.join(data_dir, 'sample_input.txt')
-output_file = os.path.join(data_dir, 'sample_output.txt')
+input_file = os.path.join(data_dir, 'input.txt')
+output_file = os.path.join(data_dir, 'output.txt')
 
 from extraction.named_entity.lmlstmcrf.hparams import hparams as hp 
 hp.gpu = -1

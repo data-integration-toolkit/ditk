@@ -2,8 +2,11 @@ import sys, os
 
 # set path to ditk root
 ditk_path = os.path.abspath(os.getcwd())
+main_path = os.path.abspath(os.path.join(sys.path[0], '..'))
+
 if ditk_path not in sys.path:
     sys.path.append(ditk_path)
+    sys.path.append(main_path)
 
 data_dir = os.path.join(ditk_path, 'graph/completion/longae/test/')
 input_files = list(map(lambda x: os.path.join(data_dir, x), ['test_input_x.txt', 'test_input_y.txt', 'test_input_graph.txt']))
