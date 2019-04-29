@@ -1,23 +1,29 @@
-#Python 3.x
-
-import abc 
+import abc
+import csv
+import os
+import numpy as np
+from random import sample
 
 class Imputation(abc.ABC):
+    # Any shared data structures or methods should be defined as part of the parent class.
 
+    # A list of shared arguments should be defined for each of the following methods and replace (or precede) *args.
+
+    # The output of each of the following methods should be defined clearly and shared between all methods implemented by members of the group.
+
+    @classmethod
     @abc.abstractmethod
-    def preprocess(self, input_file, *args, **kwargs):
+    def preprocess(self, inputData, *args, **kwargs):
         """
-	   Reads a dataset (complete dataset without missing values) and introduces missingness in the dataset.
-        
-        May also perform one or more of the following - 
-	   Scaling, masking, converting categorical data into one hot representation etc.
+		-Read's a dataset (complete dataset without missing values) and introduces missingness in the dataset. May also perform one or more of the following - 
+		Scaling, masking, converting categorical data into one hot representation etc.
 		
         Uses argparse() to get dataset name, output filename, data masking ratio, seed, prediction column
         and introduces missing values accordingly
 		
-		
-        :param input_file:
+		:param inputData: 
 			FilePath to the (complete) dataset
+		
         :param args:
             args.train_data: name of the processed file split for training
             args.test_data: name of the processed file split for testing
@@ -29,8 +35,39 @@ class Imputation(abc.ABC):
         :return:
             dataframe or numpy array or other data format
         """
-        pass
 
+        # loading csv data
+        data = []
+
+        with open(inputData, 'r', encoding='utf-8-sig') as f:
+            rows = csv.reader(f, delimiter=',')
+            data = [x for x in rows]
+            data = np.asarray(data, dtype='float')
+
+        if args[0].split:
+            test_index = sample(range(len(data)), int((1.0 - float(args[0].split))*len(data)))
+            test_index.sort()
+            training_index = [x for x in range(len(data)) if x not in set(test_index)]
+            test_data = data[test_index]
+            training_data = data[training_index]
+
+            if not args[0].ims:
+                return [(training_data, 'train', None), (test_data, 'test', None)]
+            else:
+                # handle introducing missing data here for both train and test
+                pass
+
+        # check if we introduce missing value here
+        if not args[0].ims:
+            return data, None
+        else:
+            # handing introducing missing data here, introduce missing data only for train
+            pass
+
+        # TODO change None to the mask
+        return data, None
+
+    @classmethod
     @abc.abstractmethod
     def train(self, train_data, *args, **kwargs):
         """
@@ -42,10 +79,11 @@ class Imputation(abc.ABC):
         :param kwargs:
         :return:
             trained_data: trained model
-		   (optional: test data split)
+			(optional: test data splitted by the function)
         """
         pass
 
+    @classmethod
     @abc.abstractmethod
     def test(self, trained_model, test_data, *args, **kwargs):
         """
@@ -60,13 +98,12 @@ class Imputation(abc.ABC):
 			(optional : performance_metric- rmse calculated)
         """
         pass
-		
+
+
     """ 
-    Since the imputation group primarily aims to impute the table, we have not opted for
-    a predict function for classification, however, if classification needs to be done
-    in the future, this abstract function can be used to predict
-    
-    @abstractmethod
+    @classmethod
+    @abc.abstractmethod
+  
 	def predict(self, trained_model, test_data, prediction=None, *args, **kwargs):
         
         Run prediction on determined column, if model already loaded from test, simply return the model and test data
@@ -85,34 +122,59 @@ class Imputation(abc.ABC):
         pass
 	"""
 
-    @abc.abstractmethod
-    def impute(self, trained_model, model_input, *args, **kwargs):
-        """
-     Loads the trained_model and gives the imputed table
-    
-    	:param trained_model: trained model returned by train function
-    	:param model_input: input table which needs to be imputed
-    	:param args:
-    	:param kwargs:
-    	:return:
-    		imputed_data: imputed table
-        """
-        pass
-    
 
+    @classmethod
     @abc.abstractmethod
-    def evaluate(self, trained_model, model_input, *args, **kwargs):
+
+
+    def impute(self, trained_model, input, *args, **kwargs):
+
+
+        """
+        Loads the trained_model and gives the imputed table
+
+        :param trained_model: trained model returned by train function
+        :param input: input table which needs to be imputed
+        :param args:
+        :param kwargs:
+        :return:
+            imputed_data: imputed table
+        """
+        with open(input, 'r', encoding='utf-8-sig') as f:
+            rows = csv.reader(f, delimiter=',', quotechar='|')
+            data = [x for x in rows]
+            data = np.asarray(data, dtype='float')
+
+        # check if we introduce missing value here
+        if not args[0].ims:
+            return None, data
+
+        return None, data
+
+
+    @classmethod
+    @abc.abstractmethod
+    def evaluate(self, trained_model, input, *args, **kwargs):
         """
         Loads the trained_model and calculates the performance on the input through rmse.
 
         :param trained_model: trained model returned by train function
-        :param model_input: input table on which model needs to be evaluated
+        :param input: input table on which model needs to be evaluated
         :param args:
         :param kwargs:
         :return:
             performance_metric: rmse
         """
-        pass
+        with open(input, 'r', encoding='utf-8-sig') as f:
+            rows = csv.reader(f, delimiter=',', quotechar='|')
+            data = [x for x in rows]
+            data = np.asarray(data, dtype='float')
+
+        # check if we introduce missing value here
+        if not args[0].ims:
+            return None, data
+
+        return None, data
 
     @abc.abstractmethod
     def save_model(self, file):
