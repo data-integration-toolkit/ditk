@@ -84,16 +84,16 @@ def predfile(name=None, dirname=PREDDIR, suffix='tsv'):
     assert logfile.time is not None, 'predfile requires logging'
     return open(_logname(name, dirname, suffix, logfile.time), 'w')
         
-def save_token_predictions(dataset, model, writer, vmapper=None):
+def save_token_predictions(name, dataset, model, writer, vmapper=None):
     # TODO including "token" in the function spec is a bit inelegant.
     viterbi_str = '' if not vmapper else 'viterbi'
-    name = '{}--{}--{}'.format(main_name(), dataset.name, viterbi_str)
+    data_path = "./prediction/"+name+"tsv"
     if len(dataset.tokens) > 0:
         if vmapper:
             dataset.sentences.map_predictions(vmapper)
         else:
             dataset.tokens.set_predictions(model.predict(dataset.tokens.inputs))
-    with predfile(name) as out:
+    with open(data_path, 'w') as out:
         writer(dataset, out)
         
 def save_token_predictions_multi_output(dataset, writer, predictions=None, vmapper=None):

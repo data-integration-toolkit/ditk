@@ -105,7 +105,7 @@ model.fit(
 
 # In[49]:
 
-
-save_token_predictions(data.test, model, conlldata.write)
+name = "chemdner_output"
+save_token_predictions(name, data.test, model, conlldata.write)
 
 
