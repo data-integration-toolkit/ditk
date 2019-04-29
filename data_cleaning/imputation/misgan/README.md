@@ -40,9 +40,8 @@ data.
 
 
 ### Link to Jupyter notebook and Youtube videos
-Jupyter Notebook:
-Link1: 
-Link2: 
+Jupyter Notebook: <br/>
+[Zhilin's Github(https://github.com/uyuyuyjk/ditk/blob/develop/data_cleaning/imputation/misgan/misgan.ipynb)<br/>
 
 Youtube Video:
 https://www.youtube.com/watch?v=UGUKTw2Tb6k&feature=youtu.be
