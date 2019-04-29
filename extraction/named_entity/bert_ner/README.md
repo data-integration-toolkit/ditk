@@ -85,7 +85,7 @@ f1, precision, recall = my_model.evaluate(dev_data)
 * BERT_NER_with_Conll2003.ipynb
 
 ### Demo video
- [video]()<br>
+ [video](https://youtu.be/Zu9q4jn-pJs)<br>
 
 ### Citation
 ```
