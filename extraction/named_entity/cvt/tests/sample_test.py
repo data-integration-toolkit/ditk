@@ -27,14 +27,9 @@ class TestNERMethods(unittest.TestCase):
         return df.shape
 
     def test_outputformat(self):
-        input_row_count = self.row_col_count(self.__class__.input_file)[0]
-        input_col_count = self.row_col_count(self.__class__.input_file)[1]
-        output_row_count = self.row_col_count(self.__class__.output_file)[0]
         output_col_count = self.row_col_count(self.__class__.output_file)[1]
 
-        self.assertEqual(input_row_count, output_row_count)
         self.assertEqual(output_col_count, 3)
-        self.assertEqual(input_col_count, 17)
 
 
 if __name__ == '__main__':

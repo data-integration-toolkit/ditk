@@ -60,7 +60,7 @@ class CrossViewTraining(Ner):
                 file = file_dict[split]
                 with open(file, mode='r', encoding='utf-8') as f:
                     raw_data = f.read().splitlines()
-                data[split] = raw_data
+                data[split] = raw_data[2:]
         except KeyError:
             raise ValueError("Invalid file_dict. Standard keys (train, test, dev)")
         except Exception as e:
