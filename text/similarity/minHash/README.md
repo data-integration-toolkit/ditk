@@ -3,7 +3,7 @@ This project contains an implementation of the MinHash LSH Algorithm.
 
 [**MinHash LSH - Finding Similar Items**](http://infolab.stanford.edu/~ullman/mmds/ch3a.pdf), Jure Leskovec, Anand Rajaraman, Jeff Ullman, published - 'MINING OF MASSIVE DATASETS'. In that book, Chapter 3: Finding Similar Items : They've given alogorthims such as MinHash to represent items in an efficient way such that similar items are located closer to each other. I furthermore provide all datasets used (including the preprocessing scripts), and Python scripts for experiments.
 
-<img src="./images/minhash.png" width="65%"/> 
+<img src="./minhash.png" width="65%"/> 
 
 #### Original Code
 
