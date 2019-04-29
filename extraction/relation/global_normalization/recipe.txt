@@ -1,0 +1,17 @@
+Main file:
+ditk/extraction/relation/global_normalization/main.py
+
+Modules: 
+Config File: ditk/extraction/relation/global_normalization/configs/
+Read Dataset - Setup 1: ditk/extraction/relation/global_normalization/createDataStream_setup1.py
+Read Dataset - Setup 2: ditk/extraction/relation/global_normalization/createDataStream_setup2.py
+Train: ditk/extraction/relation/global_normalization/train.py
+Evaluate: ditk/extraction/relation/global_normalization/evaluation.py
+
+Input Stored:
+Datasets- ditk/extraction/relation/global_normalization/data/dataset-name
+
+Results stored:
+Model output setup1- ditk/extraction/relation/global_normalization/nets_setup1/
+Model output setup2- ditk/extraction/relation/global_normalization/nets_setup2/
+Predicted output- ditk/extraction/relation/global_normalization/results/
