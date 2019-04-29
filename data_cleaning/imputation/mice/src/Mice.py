@@ -578,7 +578,7 @@ class mice(Mids, Imputation):
         # if data.at[0,0].isalpha():
         #   data=data.drop([0], axis = 1)#kc
         '''introducing missingness'''
-        p_miss=0.002
+        p_miss=0.2
         Row = data.shape[0]
         Col = data.shape[1]
         p_miss_vec = p_miss * np.ones((Col,1)) 

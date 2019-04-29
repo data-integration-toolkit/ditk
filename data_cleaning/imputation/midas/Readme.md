@@ -27,7 +27,7 @@ MIDAS employs a class of unsupervised neural networks known as denoising autoenc
 - Gold dataset is used in order to evaluate the **performance of this algorithm by rmse value.**
 
 ## Input and Output for Prediction and Training
-- Input  : path to csv file having gold numeric relation.
+- Input  : path to csv file having **gold numeric** relation.
 - Output : newly created csv file with predicted values in the relation.
 
 ## Evalution
