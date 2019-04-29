@@ -1,6 +1,7 @@
 # MisGAN
 Data can be found in "imputation/data"
 MisGAN is compatible with all three datasets
+*Note: Moved to sample test location to main folder because path dependencies could not be resolved. I also modified sample test to suit MisGAN method since after preprocessing the code assume pytorch data loader are ready instead of searching for another csv file. This makes loading at evaluation time much faster.
 
 ### Title of the paper
 Learning from Incomplete Data with Generative Adversarial Networks
