@@ -82,7 +82,7 @@ f1, precision, recall = my_model.evaluate(dev_data)
 * F1 = 91.87
 
 ### jupyter file
-* BERT_NER_with_Conll2003.ipynb
+* bert_ner.ipynb
 
 ### Demo video
  [video](https://youtu.be/Zu9q4jn-pJs)<br>
