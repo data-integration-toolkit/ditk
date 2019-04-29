@@ -24,9 +24,9 @@ This repo is based on the following paper and Github implementation:
   - Sample Input
   
     ```
-    2	3	California Los Angeles beautiful city	Location
-    5	8	He received the 1921 Nobel Prize in Physics for his services to theoretical physics	misc
-    2	3	Is New York a beautiful city	Location
+    1	3	California Los Angeles beautiful city	Location
+    4	8	He received the 1921 Nobel Prize in Physics for his services to theoretical physics	misc
+    1	3	Is New York a beautiful city	Location
     ```
 
 **Output**:
@@ -86,6 +86,8 @@ It consists of 2 parts:
 
 ## Evaluation metrics and results
 
+### Testing reuslts on Paper Dataset
+
 <table>
     <thead>
         <tr>
@@ -128,6 +130,15 @@ It consists of 2 parts:
         </tr>
     </tbody>
 </table>
+
+
+
+### Testing Results on other dataset
+
+|       | Precision | Recall |   F1   |
+| :---: | :-------: | :----: | :----: |
+| FIGER |  0.45825  | 0.4582 | 0.4582 |
+
 
 ## Jupyter Notebook
 
@@ -206,8 +217,8 @@ https://youtu.be/X7xcpG0SLv8
     - Sample file can be found via this link: https://drive.google.com/file/d/1UI_i4f5ueTN8-Inqg7FESGgSKNbN1ZFG/view?usp=sharing
 
       ```python
-       results = knet_instance.predict(["data/entity_typing_test_input.txt"])
-       print(results)
+      output_file = knet_instance.predict(["data/entity_typing_test_input.txt"])
+      print("Result has been output to following file: {}".format(output_file))
       ```
 
  7. Evaluate on provided dataset in the predict (step 6)
@@ -227,4 +238,5 @@ https://youtu.be/X7xcpG0SLv8
 
 ## To Test
 
-To use the input file, output file and test python file in folder [test](./test) to test 
+To use the input file, output file and test python file in folder [test](./tests) to test 
+

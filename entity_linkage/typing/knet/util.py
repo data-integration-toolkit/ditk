@@ -202,9 +202,15 @@ def raw2npy(raw_location):
             a = line.strip().split("\t")
             if len(a) < 3:
                 continue
-            if len(a) == 4:
-                types.append(a[-1].lower())
-            start_pos = int(a[0]) - 1
+            if len(a) >= 4:
+                temp = a[3].strip().lower().split("/")
+                if len(temp) == 1:
+                    types.append(temp[0])
+                else:
+                    types.append(temp[1])
+            else:
+                types.append("")
+            start_pos = int(a[0])
             end_pos = int(a[1])
             sentence = a[2].split()
             entity.append(sentence[start_pos:end_pos])
@@ -235,7 +241,7 @@ def calculate_precision_recall(predict_types, final_result):
     else:
         precision = true_pos / (false_pos + true_pos)
     if (true_neg + true_pos) == 0.0:
-        recall = 1.0
+        recall = 0.0
     else:
         recall = true_pos / (true_neg + true_pos)
 

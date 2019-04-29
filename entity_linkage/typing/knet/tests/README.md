@@ -11,9 +11,9 @@ For Input it need
 - Sample Input
 
   ```
-  2	3	California Los Angeles beautiful city	Location
-  5	8	He received the 1921 Nobel Prize in Physics for his services to theoretical physics	misc
-  2	3	Is New York a beautiful city	Location
+  1	3	California Los Angeles beautiful city	Location
+  4	8	He received the 1921 Nobel Prize in Physics for his services to theoretical physics	misc
+  1	3	Is New York a beautiful city	Location
   ```
 
 
