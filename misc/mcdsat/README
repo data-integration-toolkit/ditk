@@ -6,21 +6,21 @@ Requirements
 Python 3 or newer and the following libraries:
 
 ---------------------------------------------------------------------------------------------
-|   PACKAGE NAME                                            |     INSTALLATION      		|
+|   PACKAGE NAME                                            |     INSTALLATION              |
 ---------------------------------------------------------------------------------------------
-|	TPG -> http://christophe.delord.free.fr/en/tpg/  		|   python3 setup.py install 	|
-|	(Included)												|								|
+|   TPG -> http://christophe.delord.free.fr/en/tpg/         |   python3 setup.py install    |
+|   (Included)                                              |                               |
 ---------------------------------------------------------------------------------------------
-|	c2d -> Darwiche's c2d compiler 							|	Set the right path while 	|
-|	http://reasoning.cs.ucla.edu/c2d/ (Included)			|	calling read_input in mcdsat|
+|   c2d -> Darwiche's c2d compiler                          |   Set the right path while    |
+|   http://reasoning.cs.ucla.edu/c2d/ (Included)            |   calling read_input in mcdsat|
 ---------------------------------------------------------------------------------------------
-|	dnnf-models -> for model enumeration (Included)			|	Uncompress the tar			|
-|	For more details on usage, check the README file 		|	cd nnf; make 				|
-|	in the dnnf-models folder								|	make						|
+|   dnnf-models -> for model enumeration (Included)         |   Uncompress the tar          |
+|   For more details on usage, check the README file        |   cd nnf; make                |
+|   in the dnnf-models folder                               |   make                        |
 ---------------------------------------------------------------------------------------------
-|	psyco -> http://psyco.sourceforge.net/					|								|
-|	(not included, only needed for improved performace)		|								|
-|	if used, must uncomment the psyco lines in Main.py 		|								|
+|   psyco -> http://psyco.sourceforge.net/                  |                               |
+|   (not included, only needed for improved performace)     |                               |
+|   if used, must uncomment the psyco lines in Main.py      |                               |
 ---------------------------------------------------------------------------------------------
 
 Installation
@@ -38,7 +38,7 @@ Proc. 21st National Conf. on Artificial Intelligence (AAAI). Boston, MA. 2006.
 AAAI Press. Pages 225-230.
 
 Objective - Given a query Q, retrieve all tuples obtainable from the data sources that satisfy Q
----------	A rewriting is a query-like expression that refers only to the views
+---------   A rewriting is a query-like expression that refers only to the views
 
 Data Sources are assumed to be - 
 1) Independent (i.e maintained in a distributed manner)
@@ -56,9 +56,9 @@ MCDSAT Algoritm
 - Build a Propositional Theory such that its models are in correspondence with the MCDs
 - Generating MCDs is now a problem of Model Enumeration
 - Model Enumeration can be done with modern SAT techniques that implement :
-	1) Non-chronological backtracking via clause learning
-	2) Caching of common subproblems
-	3) Heuristics
+    1) Non-chronological backtracking via clause learning
+    2) Caching of common subproblems
+    3) Heuristics
 - Extend the propositional theory such that its models are in correspondence with the rewritings
 - This approach is called McdSat
 
@@ -72,10 +72,10 @@ Deterministic and Decomposable NNFs (d-DNNFs)
 - NNF is decomposable if each variable appears at most once below each conjunct
 - NNF is deterministic if disjuncts are pairwise logically inconsistent
 - A d-DNNf supports a number of operations in linear time - 
-	1) Satisfiability
-	2) Clause entailment
-	3) Model Counting
-	4) Model Enumerationg (output linear time)
+    1) Satisfiability
+    2) Clause entailment
+    3) Model Counting
+    4) Model Enumerationg (output linear time)
 
 Implementation
 --------------
