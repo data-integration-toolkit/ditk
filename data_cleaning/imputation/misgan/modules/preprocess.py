@@ -73,7 +73,8 @@ class ArbitaryMasked(Dataset):
         self.original_data = original_data
         data = torch.from_numpy(data)
         self.data_size = len(data)
-        self.generate_dataholder(data, mask)
+        self.generate_dataholder(data)
+
 
     def __getitem__(self, index):
         # return index so we can retrieve the mask location from self.mask_loc
@@ -82,18 +83,17 @@ class ArbitaryMasked(Dataset):
     def __len__(self):
         return self.data_size
 
-    def generate_dataholder(self, data, mask):
+    def generate_dataholder(self, data):
         n_masks = self.data_size
         self.image = [None] * n_masks
         self.mask = [None] * n_masks
         self.mask_loc = [None] * n_masks
-        mask_loc = mask == 0
+        mask_loc = data == 0
         self.original_datamask = np.ones((self.original_data.shape))
         self.original_datamask[mask_loc] = 0
         for i in range(n_masks):
-            r, c = int(i / self.col_size), int(i % self.col_size)
             mask = np.zeros((self.K, self.D), dtype=np.uint8)
-            data_loc = mask[r: r+self.K, c: c+self.D] != 0
+            data_loc = data[i] != 0
             mask[data_loc] = 1
             mask = torch.from_numpy(mask)
             self.mask[i] = mask.unsqueeze(0)  # add an axis for channel
@@ -128,6 +128,7 @@ def preprocess(args, full_data, fnames, save=True):
                 data = ArbitaryMasked(np.asarray(holder, dtype='float32'), data, mask, K, D, sx, sy)
             else:
                 data = BlockMaskedMNIST(np.asarray(holder, dtype='float32'), data, K, D, sx, sy, block_len=8, ratio=args.ratio)
+
             batch_size = 10
             data_loader = DataLoader(data, batch_size=batch_size, shuffle=True,
                                      drop_last=True)
