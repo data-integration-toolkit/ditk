@@ -1,11 +1,11 @@
 import unittest
-import neuroner
+import main
 
 class TestNERMethods(unittest.TestCase):
 
     def setUp(self):
         self.input_file = './tests/ner_input.txt'
-        self.output_file = neuroner.main(self.input_file)
+        self.output_file = main.main(self.input_file)
 
     def row_col_count(self, file_name):
         with open(file_name, mode='r', encoding='utf-8') as f:
