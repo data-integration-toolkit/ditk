@@ -40,7 +40,7 @@ data.
 
 
 ### Link to Jupyter notebook and Youtube videos
-Jupyter Notebook: <br/>
+Jupyter Notebook:
 [Zhilin's Github](https://github.com/uyuyuyjk/ditk/blob/develop/data_cleaning/imputation/misgan/misgan.ipynb)<br/>
 
 Youtube Video:
@@ -50,39 +50,72 @@ https://www.youtube.com/watch?v=UGUKTw2Tb6k&feature=youtu.be
 
 ### Preprocessing:
 For preprocessing training data without split run:
+```bash
 python main.py --preprocess
+```
 
 For preprocessing training data with split run:
-python main.py --preprocess --split=<ratio>, where ratio is a float
+```bash
+python main.py --preprocess --split=<ratio>
+```
+, where ratio is a float
+
 
 ### Training
 For training misgan, run
-python main.py --train --fname=<file>, where file name is the file name of the data loader
+```bash
+python main.py --train --fname=<file>
+```
+, where file name is the file name of the data loader
+
 eg
+```bash
 python main.py --train --fname=wdbc.csv_train
+```
 
 ### Testing
 For testing misgan, run
-python main.py --test --fname=<fname> --model=<model>, where file name is the file name of the data loader, and model is
+```bash
+python main.py --test --fname=<fname> --model=<model>
+```
+, where file name is the file name of the data loader, and model is
+
 the name of the model before .csv
 eg.
-
+```bash
 python main.py --test --fname=wdbc.csv_test --model=wdbc
+```
 
 ### Evaluation
-python main.py --evaluate --fname=<file> --model=<model>, where file is input data name and model is imputer 
+```bash
+python main.py --evaluate --fname=<file> --model=<model>
+```
+, where file is input data name and model is imputer 
 model name.
 eg.
+```bash
 python main.py --evaluate --fname="data/wdbc.csv" --model="wdbc.csv_train"
+```
 
 To introduce missing value manually, use:
-python main.py --evaluate --fname="data/wdbc.csv" --model="wdbc.csv_train" --ims --ratio=<ratio>, ratio is float
+```bash
+python main.py --evaluate --fname="data/wdbc.csv" --model="wdbc.csv_train" --ims --ratio=<ratio>
+```
+, ratio is float
 
 ### Imputation
-python main.py --impute --fname=<file> --model=<model>, where file is input data name and model is imputer 
+```bash
+python main.py --impute --fname=<file> --model=<model>
+```
+, where file is input data name and model is imputer 
 model name.
 eg.
+```bash
 python main.py --impute --fname="data/wdbc.csv" --model="wdbc.csv_train"
+```
 
 To introduce missing value manually, use:
-python main.py --evaluate --fname="data/wdbc.csv" --model="wdbc.csv_train" --ims --ratio=<ratio>, ratio is float
+```bash
+python main.py --evaluate --fname="data/wdbc.csv" --model="wdbc.csv_train" --ims --ratio=<ratio>
+```
+, ratio is float
