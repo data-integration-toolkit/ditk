@@ -3397,3 +3397,29 @@ Use standard file APIs to check for files with this prefix.
 2019-04-27 22:46:46,758:DEBUG: update_title_pos
 2019-04-27 22:46:46,797:INFO: Testing model over test set
 2019-04-27 22:46:53,151:INFO: acc 97.17 - f1 62.88 - p 73.44 - r 54.97
+2019-04-28 13:27:26,051:INFO: WARNING: randomly initializing word vectors
+2019-04-28 13:27:26,068:WARNING: From C:\Users\User\PycharmProjects\CDMA-NER\lib\site-packages\tensorflow\python\framework\op_def_library.py:263: colocate_with (from tensorflow.python.framework.ops) is deprecated and will be removed in a future version.
+Instructions for updating:
+Colocations handled automatically by placer.
+2019-04-28 13:27:30,658:WARNING: From C:\Users\User\PycharmProjects\CDMA-NER\ditk\extraction\named_entity\CDMA\src\model\sal_blstm_oal_crf_model.py:99: LSTMCell.__init__ (from tensorflow.python.ops.rnn_cell_impl) is deprecated and will be removed in a future version.
+Instructions for updating:
+This class is equivalent as tf.keras.layers.LSTMCell, and will be replaced by that in Tensorflow 2.0.
+2019-04-28 13:27:30,660:WARNING: From C:\Users\User\PycharmProjects\CDMA-NER\ditk\extraction\named_entity\CDMA\src\model\sal_blstm_oal_crf_model.py:104: bidirectional_dynamic_rnn (from tensorflow.python.ops.rnn) is deprecated and will be removed in a future version.
+Instructions for updating:
+Please use `keras.layers.Bidirectional(keras.layers.RNN(cell))`, which is equivalent to this API
+2019-04-28 13:27:30,663:WARNING: From C:\Users\User\PycharmProjects\CDMA-NER\lib\site-packages\tensorflow\python\ops\rnn.py:443: dynamic_rnn (from tensorflow.python.ops.rnn) is deprecated and will be removed in a future version.
+Instructions for updating:
+Please use `keras.layers.RNN(cell)`, which is equivalent to this API
+2019-04-28 13:27:30,687:WARNING: From C:\Users\User\PycharmProjects\CDMA-NER\lib\site-packages\tensorflow\python\ops\rnn.py:626: to_int32 (from tensorflow.python.ops.math_ops) is deprecated and will be removed in a future version.
+Instructions for updating:
+Use tf.cast instead.
+2019-04-28 13:27:31,104:WARNING: From C:\Users\User\PycharmProjects\CDMA-NER\ditk\extraction\named_entity\CDMA\src\model\sal_blstm_oal_crf_model.py:141: calling dropout (from tensorflow.python.ops.nn_ops) with keep_prob is deprecated and will be removed in a future version.
+Instructions for updating:
+Please use `rate` instead of `keep_prob`. Rate should be set to `rate = 1 - keep_prob`.
+2019-04-28 13:27:36,046:INFO: Initializing tf session
+2019-04-28 13:27:37,063:INFO: Reloading the latest trained model...
+2019-04-28 13:27:37,080:WARNING: From C:\Users\User\PycharmProjects\CDMA-NER\lib\site-packages\tensorflow\python\training\saver.py:1266: checkpoint_exists (from tensorflow.python.training.checkpoint_management) is deprecated and will be removed in a future version.
+Instructions for updating:
+Use standard file APIs to check for files with this prefix.
+2019-04-28 13:27:37,085:INFO: Restoring parameters from target_model/model_weights
+2019-04-28 13:27:38,512:INFO: Epoch 1 out of 1
