@@ -27,7 +27,7 @@ target vector.
 	- Input is knowledge graph
 	- Output is embedding vectors stored in a .txt file with the format: <Entity - id> [vector]
 
-## Evalution
+## Evaluation
 - #### Benchmark Datasets
     - FreeBase (FB15k)
     - YAGO
