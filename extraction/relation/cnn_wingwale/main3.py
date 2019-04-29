@@ -7,7 +7,6 @@ def main(input_file_path):
     print("Benchmark 3: NYT dataset")
     model3 = cnn_model.CNNModel()
     model3.read_dataset(input_file_path+'/benchmark3')
-    # model3.train(input_file_path+'/benchmark3', input_file_path+'/model3')
     output_file_path = model3.predict(input_file_path+'/benchmark3', trained_model=input_file_path+'/model3')
     precision3, recall3, f13 = model3.evaluate(input_file_path+'/benchmark3')
     print("Precision: "+str(precision3))

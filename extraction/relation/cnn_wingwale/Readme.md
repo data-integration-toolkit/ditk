@@ -9,7 +9,14 @@
 Daojian Zeng, Kang Liu, Siwei Lai, Guangyou Zhou and Jun Zhao. Relation Classification via Convolutional Deep Neural Network.  The 25th International Conference on Computational Linguistics (COLING), Dublin, Ireland, 2014.
 
 ## Overview
+* A relation extraction model that uses Convolutional Neural Network (CNN)
+* Tensorflow implementation
+* Input sentence is first broken down into word tokens, and each word is transformed into a word embeddings vector
+* Lexical and sentence level features are extracted and concatenated to form the final feature vector
+    * Sentence level features are obtained through a max-pooled CNN
+* The final feature vector is fed into a softmax classifier to determine the relation type
 
+![model architecture](architecture.png)
 
 ## Input/Output format for the model
 ### Inputs
@@ -42,10 +49,17 @@ Marco-averaged
 * Recall
 * F1-score
 
-
 ### Evaluation results
 ![evaluation results](evaluation.png)
 
-## [Link to Jupyter notebook](cnn_notebook.ipynb)
+## Link to Jupyter notebook
+[Benchmark 1: training](cnn_notebook1_train.ipynb)
+[Benchmark 1: evaluation](cnn_notebook1_test.ipynb)
+
+[Benchmark 2: training](cnn_notebook2_train.ipynb)
+[Benchmark 2: evaluation](cnn_notebook2_test.ipynb)
+
+[Benchmark 3: training](cnn_notebook3_train.ipynb)
+[Benchmark 3: evaluation](cnn_notebook3_test.ipynb)
 
 ## [Link to Youtube video]()

@@ -186,8 +186,8 @@ it is better to avoid prescribing isoenzyme cyp 2d6 inhibitors to women treated 
 it is better to avoid prescribing isoenzyme cyp 2d6 inhibitors to women treated with tamoxifen for breast cancer, especially ssri antidepressants such as paroxetine and fluoxetine.	paroxetine	fluoxetine	false	false
 depression does not always require antidepressant drug therapy, and antidepressants have no proven preventive impact on hot flushes linked to the menopause.	antidepressant drug	antidepressants	false	false
 if in certain cases, an antidepressant is considered necessary, it may be advisable to replace tamoxifen with anastrozole.	antidepressant	tamoxifen	false	advise
-if in certain cases, an antidepressant is considered necessary, it may be advisable to replace tamoxifen with anastrozole.	antidepressant	anastrozole	false	false
-if in certain cases, an antidepressant is considered necessary, it may be advisable to replace tamoxifen with anastrozole.	tamoxifen	anastrozole	false	false
+if in certain cases, an antidepressant is considered necessary, it may be advisable to replace tamoxifen with anastrozole.	antidepressant	anastrozole	advise	false
+if in certain cases, an antidepressant is considered necessary, it may be advisable to replace tamoxifen with anastrozole.	tamoxifen	anastrozole	advise	false
 amphetamine locomotor sensitization and conditioned place preference in adolescent male and female rats neonatally treated with quinpirole.	amphetamine	quinpirole	false	false
 the objective was to analyze the effects of neonatal quinpirole treatment on effects of amphetamine in adolescent rats using locomotor sensitization and conditioned place preference procedures.	quinpirole	amphetamine	false	false
 in female rats, neonatal quinpirole treatment enhanced amphetamine locomotor sensitization compared with quinpirole-free controls sensitized to amphetamine.	quinpirole	amphetamine	false	effect
@@ -251,12 +251,12 @@ regulatory agencies state that the combination of clopidogrel and the cyp2c19 in
 regulatory agencies state that the combination of clopidogrel and the cyp2c19 inhibitors omeprazole and esomeprazole should be avoided.	clopidogrel	esomeprazole	false	advise
 regulatory agencies state that the combination of clopidogrel and the cyp2c19 inhibitors omeprazole and esomeprazole should be avoided.	omeprazole	esomeprazole	false	false
 to date, there is no conclusive evidence of a clinically-relevant interaction between any of the proton pump inhibitors and clopidogrel.	proton pump inhibitors	clopidogrel	false	false
-in vitro activity of minocycline combined with fosfomycin against clinical isolates of methicillin-resistant staphylococcus aureus.	minocycline	fosfomycin	false	false
-in vitro activity of minocycline combined with fosfomycin against clinical isolates of methicillin-resistant staphylococcus aureus.	minocycline	methicillin	false	false
-in vitro activity of minocycline combined with fosfomycin against clinical isolates of methicillin-resistant staphylococcus aureus.	fosfomycin	methicillin	false	false
+in vitro activity of minocycline combined with fosfomycin against clinical isolates of methicillin-resistant staphylococcus aureus.	minocycline	fosfomycin	effect	false
+in vitro activity of minocycline combined with fosfomycin against clinical isolates of methicillin-resistant staphylococcus aureus.	minocycline	methicillin	effect	false
+in vitro activity of minocycline combined with fosfomycin against clinical isolates of methicillin-resistant staphylococcus aureus.	fosfomycin	methicillin	effect	false
 this study aimed to evaluate the in vitro activity of minocycline combined with fosfomycin against isolates of methicillin-resistant staphylococcus aureus (mrsa).	minocycline	fosfomycin	false	false
-this study aimed to evaluate the in vitro activity of minocycline combined with fosfomycin against isolates of methicillin-resistant staphylococcus aureus (mrsa).	minocycline	methicillin	false	false
-this study aimed to evaluate the in vitro activity of minocycline combined with fosfomycin against isolates of methicillin-resistant staphylococcus aureus (mrsa).	fosfomycin	methicillin	false	false
+this study aimed to evaluate the in vitro activity of minocycline combined with fosfomycin against isolates of methicillin-resistant staphylococcus aureus (mrsa).	minocycline	methicillin	effect	false
+this study aimed to evaluate the in vitro activity of minocycline combined with fosfomycin against isolates of methicillin-resistant staphylococcus aureus (mrsa).	fosfomycin	methicillin	effect	false
 the susceptibility results for minocycline and fosfomycin were interpreted according to the most relevant criteria.	minocycline	fosfomycin	false	false
 the combination of minocycline and fosfomycin can be synergistic against mrsa.	minocycline	fosfomycin	false	effect
 the authors report the case of an infant with confirmed congenital hypothyroidism on levothyroxine who experienced a possible drug interaction with simeticone.	levothyroxine	simeticone	false	int
@@ -293,15 +293,15 @@ this study was aimed to investigate the efficacy of single use of sunitinib and 
 nsclc cell lines with egfr t790m mutation and k-ras mutation were exposed to either sunitinib or docetaxel or both based on various sequential administrations.	sunitinib	docetaxel	false	false
 sunitinib exhibited dose-dependent growth inhibition in nsclc cell lines and arrested cell cycle at g1 phase, whereas docetaxel arrested at s phase.	sunitinib	docetaxel	false	false
 although single or concurrent use of sunitinib and docetaxel has some anti-proliferative effects, the sequential administrations of both drugs remarkably enhanced anti-tumor activity.	sunitinib	docetaxel	false	effect
-when cells were exposed to docetaxel followed by sunitinib, synergism was observed.	docetaxel	sunitinib	false	effect
+when cells were exposed to docetaxel followed by sunitinib, synergism was observed.	docetaxel	sunitinib	advise	effect
 the molecular basis of this synergism is that the signaling pathways that were initially activated by docetaxel exposure were efficiently suppressed by the subsequent exposure to sunitinib.	docetaxel	sunitinib	false	effect
 sunitinib as a single agent exhibits anti-proliferative effects in vitro in nsclc cell lines with egfr t790m and k-ras mutations but the sequential administration of docetaxel followed by sunitinib is superior to sunitinib followed by docetaxel and concurrent administration.	sunitinib	docetaxel	false	false
 sunitinib as a single agent exhibits anti-proliferative effects in vitro in nsclc cell lines with egfr t790m and k-ras mutations but the sequential administration of docetaxel followed by sunitinib is superior to sunitinib followed by docetaxel and concurrent administration.	sunitinib	sunitinib	false	false
 sunitinib as a single agent exhibits anti-proliferative effects in vitro in nsclc cell lines with egfr t790m and k-ras mutations but the sequential administration of docetaxel followed by sunitinib is superior to sunitinib followed by docetaxel and concurrent administration.	sunitinib	sunitinib	false	false
 sunitinib as a single agent exhibits anti-proliferative effects in vitro in nsclc cell lines with egfr t790m and k-ras mutations but the sequential administration of docetaxel followed by sunitinib is superior to sunitinib followed by docetaxel and concurrent administration.	sunitinib	docetaxel	false	false
 sunitinib as a single agent exhibits anti-proliferative effects in vitro in nsclc cell lines with egfr t790m and k-ras mutations but the sequential administration of docetaxel followed by sunitinib is superior to sunitinib followed by docetaxel and concurrent administration.	docetaxel	sunitinib	false	effect
-sunitinib as a single agent exhibits anti-proliferative effects in vitro in nsclc cell lines with egfr t790m and k-ras mutations but the sequential administration of docetaxel followed by sunitinib is superior to sunitinib followed by docetaxel and concurrent administration.	docetaxel	sunitinib	false	false
-sunitinib as a single agent exhibits anti-proliferative effects in vitro in nsclc cell lines with egfr t790m and k-ras mutations but the sequential administration of docetaxel followed by sunitinib is superior to sunitinib followed by docetaxel and concurrent administration.	docetaxel	docetaxel	false	false
+sunitinib as a single agent exhibits anti-proliferative effects in vitro in nsclc cell lines with egfr t790m and k-ras mutations but the sequential administration of docetaxel followed by sunitinib is superior to sunitinib followed by docetaxel and concurrent administration.	docetaxel	sunitinib	effect	false
+sunitinib as a single agent exhibits anti-proliferative effects in vitro in nsclc cell lines with egfr t790m and k-ras mutations but the sequential administration of docetaxel followed by sunitinib is superior to sunitinib followed by docetaxel and concurrent administration.	docetaxel	docetaxel	effect	false
 sunitinib as a single agent exhibits anti-proliferative effects in vitro in nsclc cell lines with egfr t790m and k-ras mutations but the sequential administration of docetaxel followed by sunitinib is superior to sunitinib followed by docetaxel and concurrent administration.	sunitinib	sunitinib	false	false
 sunitinib as a single agent exhibits anti-proliferative effects in vitro in nsclc cell lines with egfr t790m and k-ras mutations but the sequential administration of docetaxel followed by sunitinib is superior to sunitinib followed by docetaxel and concurrent administration.	sunitinib	docetaxel	false	false
 sunitinib as a single agent exhibits anti-proliferative effects in vitro in nsclc cell lines with egfr t790m and k-ras mutations but the sequential administration of docetaxel followed by sunitinib is superior to sunitinib followed by docetaxel and concurrent administration.	sunitinib	docetaxel	false	false
@@ -313,13 +313,13 @@ results revealed that the strains were resistant to many drugs at high levels, o
 results revealed that the strains were resistant to many drugs at high levels, only piperacillin, carbenicillin, amikacin and ciprofloxacin showed resistances at comparatively lower levels.	carbenicillin	ciprofloxacin	false	false
 results revealed that the strains were resistant to many drugs at high levels, only piperacillin, carbenicillin, amikacin and ciprofloxacin showed resistances at comparatively lower levels.	amikacin	ciprofloxacin	false	false
 distinct and statistically significant synergism was observed between methylglyoxal and piperacillin by disc diffusion tests when compared with their individual effects.	methylglyoxal	piperacillin	false	effect
-synergism was also noted when methylglyoxal was combined with carbenicillin and amikacin.	methylglyoxal	carbenicillin	false	effect
+synergism was also noted when methylglyoxal was combined with carbenicillin and amikacin.	methylglyoxal	carbenicillin	advise	effect
 synergism was also noted when methylglyoxal was combined with carbenicillin and amikacin.	methylglyoxal	amikacin	false	effect
 synergism was also noted when methylglyoxal was combined with carbenicillin and amikacin.	carbenicillin	amikacin	false	false
 protective effect of acetyl-l-carnitine and  alpha lipoic acid against the acute toxicity of diepoxybutane to human lymphocytes.	acetyl-l-carnitine	alpha lipoic acid	false	false
 (ii) acetyl-l-carnitine elicits a significant protective effect on deb induced toxicity, which was potentiated by  alpha-lipoic acid.	acetyl-l-carnitine	alpha-lipoic acid	false	effect
 [influence of hemantane and doxycycline on mptp-evoked behavior violations in c57bl/6 mice].	hemantane	doxycycline	false	false
-the effects of anti-parkinsonian drug hemantane [(2-adamantyl)hexamethylenimine] (10 mg/kg, p. o.)	anti-parkinsonian drug	hemantane	false	false
+the effects of anti-parkinsonian drug hemantane [(2-adamantyl)hexamethylenimine] (10 mg/kg, p. o.)	anti-parkinsonian drug	hemantane	effect	false
 the effects of anti-parkinsonian drug hemantane [(2-adamantyl)hexamethylenimine] (10 mg/kg, p. o.)	anti-parkinsonian drug	(2-adamantyl)hexamethylenimine	false	false
 the effects of anti-parkinsonian drug hemantane [(2-adamantyl)hexamethylenimine] (10 mg/kg, p. o.)	hemantane	(2-adamantyl)hexamethylenimine	false	false
 and/or antibiotic drug doxycycline (100 mg/kg, p. o.), as well as that of neurotoxin 1-methyl-4-phenyl-1,2,3,4-tetrahydropyridine (mptp) (4 x 20 mg/kg, i. p.)	antibiotic drug	doxycycline	false	false
@@ -420,7 +420,7 @@ we have demonstrated appropriateness of inhospital administration of fixed amlod
 we have demonstrated appropriateness of inhospital administration of fixed amlodipine/valsartan combination as an approach allowing to achieve target bp in shorter time, with the use of fewer antihypertensive drugs, and diminishing concealed inefficacy of treatment.	amlodipine	antihypertensive drugs	false	false
 we have demonstrated appropriateness of inhospital administration of fixed amlodipine/valsartan combination as an approach allowing to achieve target bp in shorter time, with the use of fewer antihypertensive drugs, and diminishing concealed inefficacy of treatment.	valsartan	antihypertensive drugs	false	false
 ticagrelor (brilinta)--better than clopidogrel (plavix)	ticagrelor	brilinta	false	false
-ticagrelor (brilinta)--better than clopidogrel (plavix)	ticagrelor	clopidogrel	effect	false
+ticagrelor (brilinta)--better than clopidogrel (plavix)	ticagrelor	clopidogrel	false	false
 ticagrelor (brilinta)--better than clopidogrel (plavix)	ticagrelor	plavix	false	false
 ticagrelor (brilinta)--better than clopidogrel (plavix)	brilinta	clopidogrel	false	false
 ticagrelor (brilinta)--better than clopidogrel (plavix)	brilinta	plavix	false	false
@@ -445,10 +445,10 @@ in the present study piperine (10 mg/kg) significantly increased the dose-depend
 in the present study piperine (10 mg/kg) significantly increased the dose-dependent antinociceptive activity of ibuprofen evaluated by both acetic acid writhing and formalin test, when it was administered with ibuprofen.	ibuprofen	ibuprofen	false	false
 in the present study piperine (10 mg/kg) significantly increased the dose-dependent antinociceptive activity of ibuprofen evaluated by both acetic acid writhing and formalin test, when it was administered with ibuprofen.	acetic acid	ibuprofen	false	false
 ibuprofen plasma concentration was also increased when it was administered with piperine.	ibuprofen	piperine	false	mechanism
-the synergistic antinociception activity of ibuprofen when administered with piperine can be attributed to increased plasma concentration of ibuprofen.	ibuprofen	piperine	false	mechanism
-the synergistic antinociception activity of ibuprofen when administered with piperine can be attributed to increased plasma concentration of ibuprofen.	ibuprofen	ibuprofen	false	false
+the synergistic antinociception activity of ibuprofen when administered with piperine can be attributed to increased plasma concentration of ibuprofen.	ibuprofen	piperine	advise	mechanism
+the synergistic antinociception activity of ibuprofen when administered with piperine can be attributed to increased plasma concentration of ibuprofen.	ibuprofen	ibuprofen	effect	false
 the synergistic antinociception activity of ibuprofen when administered with piperine can be attributed to increased plasma concentration of ibuprofen.	piperine	ibuprofen	false	false
-from this study it can be concluded that piperine can be used as a bioenhancer along with ibuprofen.	piperine	ibuprofen	advise	effect
+from this study it can be concluded that piperine can be used as a bioenhancer along with ibuprofen.	piperine	ibuprofen	false	effect
 pharmacokinetic properties of abacavir were not altered by the addition of either lamivudine or zidovudine or the combination of lamivudine and zidovudine.	abacavir	lamivudine	false	false
 pharmacokinetic properties of abacavir were not altered by the addition of either lamivudine or zidovudine or the combination of lamivudine and zidovudine.	abacavir	zidovudine	false	false
 pharmacokinetic properties of abacavir were not altered by the addition of either lamivudine or zidovudine or the combination of lamivudine and zidovudine.	abacavir	lamivudine	false	false
@@ -475,11 +475,11 @@ in a study of 11 hiv-infected patients receiving methadone-maintenance therapy (
 cholestyramine: concomitant cholestyramine administration decreased the mean auc of total ezetimibe approximately 55%.	cholestyramine	cholestyramine	false	false
 cholestyramine: concomitant cholestyramine administration decreased the mean auc of total ezetimibe approximately 55%.	cholestyramine	ezetimibe	false	false
 cholestyramine: concomitant cholestyramine administration decreased the mean auc of total ezetimibe approximately 55%.	cholestyramine	ezetimibe	false	mechanism
-the incremental ldl-c reduction due to adding ezetimibe to cholestyramine may be reduced by this interaction.	ezetimibe	cholestyramine	false	effect
+the incremental ldl-c reduction due to adding ezetimibe to cholestyramine may be reduced by this interaction.	ezetimibe	cholestyramine	advise	effect
 fibrates: the safety and effectiveness of ezetimibe administered with fibrates have not been established.	fibrates	ezetimibe	false	false
 fibrates: the safety and effectiveness of ezetimibe administered with fibrates have not been established.	fibrates	fibrates	false	false
 fibrates: the safety and effectiveness of ezetimibe administered with fibrates have not been established.	ezetimibe	fibrates	false	false
-co-administration of zetia with fibrates is not recommended until use in patients is studied.	zetia	fibrates	false	advise
+co-administration of zetia with fibrates is not recommended until use in patients is studied.	zetia	fibrates	advise	advise
 fenofibrate: in a pharmacokinetic study, concomitant fenofibrate administration increased total ezetimibe concentrations approximately 1.5-fold.	fenofibrate	fenofibrate	false	false
 fenofibrate: in a pharmacokinetic study, concomitant fenofibrate administration increased total ezetimibe concentrations approximately 1.5-fold.	fenofibrate	ezetimibe	false	false
 fenofibrate: in a pharmacokinetic study, concomitant fenofibrate administration increased total ezetimibe concentrations approximately 1.5-fold.	fenofibrate	ezetimibe	false	mechanism
@@ -661,7 +661,7 @@ careful monitoring of cyclosporine concentrations and serum creatinine is recomm
 rifampin: rifampin enhances the metabolism of concurrently administered diflucan.	rifampin	rifampin	false	false
 rifampin: rifampin enhances the metabolism of concurrently administered diflucan.	rifampin	diflucan	false	false
 rifampin: rifampin enhances the metabolism of concurrently administered diflucan.	rifampin	diflucan	false	mechanism
-depending on clinical circumstances, consideration should be given to increasing the dose of diflucan when it is administered with rifampin.	diflucan	rifampin	false	advise
+depending on clinical circumstances, consideration should be given to increasing the dose of diflucan when it is administered with rifampin.	diflucan	rifampin	advise	advise
 theophylline: diflucan increases the serum concentrations of theophylline.	theophylline	diflucan	false	false
 theophylline: diflucan increases the serum concentrations of theophylline.	theophylline	theophylline	false	false
 theophylline: diflucan increases the serum concentrations of theophylline.	diflucan	theophylline	false	mechanism
@@ -682,18 +682,18 @@ cisapride: there have been reports of cardiac events, including torsade de point
 a controlled study found that concomitant fluconazole 200 mg once daily and cisapride 20 mg four times a day yielded a significant increase in cisapride plasma levels and prolongation of qtc interval.	fluconazole	cisapride	false	mechanism
 a controlled study found that concomitant fluconazole 200 mg once daily and cisapride 20 mg four times a day yielded a significant increase in cisapride plasma levels and prolongation of qtc interval.	fluconazole	cisapride	false	false
 a controlled study found that concomitant fluconazole 200 mg once daily and cisapride 20 mg four times a day yielded a significant increase in cisapride plasma levels and prolongation of qtc interval.	cisapride	cisapride	false	false
-the combined use of fluconazole with cisapride is contraindicated.	fluconazole	cisapride	false	advise
+the combined use of fluconazole with cisapride is contraindicated.	fluconazole	cisapride	advise	advise
 astemizole: the use of fluconazole in patients concurrently taking astemizole or other drugs metabolized by the cytochrome p450 system may be associated with elevations in serum levels of these drugs.	astemizole	fluconazole	false	false
 astemizole: the use of fluconazole in patients concurrently taking astemizole or other drugs metabolized by the cytochrome p450 system may be associated with elevations in serum levels of these drugs.	astemizole	astemizole	false	false
 astemizole: the use of fluconazole in patients concurrently taking astemizole or other drugs metabolized by the cytochrome p450 system may be associated with elevations in serum levels of these drugs.	fluconazole	astemizole	false	mechanism
 rifabutin: there have been reports of uveitis in patients to whom fluconazole and rifabutin were coadministered.	rifabutin	fluconazole	false	false
 rifabutin: there have been reports of uveitis in patients to whom fluconazole and rifabutin were coadministered.	rifabutin	rifabutin	false	false
 rifabutin: there have been reports of uveitis in patients to whom fluconazole and rifabutin were coadministered.	fluconazole	rifabutin	false	effect
-patients receiving rifabutin and fluconazole concomitantly should be carefully monitored.	rifabutin	fluconazole	false	advise
+patients receiving rifabutin and fluconazole concomitantly should be carefully monitored.	rifabutin	fluconazole	advise	advise
 tacrolimus: there have been reports of nephrotoxicity in patients to whom fluconazole and tacrolimus were coadministered.	tacrolimus	fluconazole	false	false
 tacrolimus: there have been reports of nephrotoxicity in patients to whom fluconazole and tacrolimus were coadministered.	tacrolimus	tacrolimus	false	false
 tacrolimus: there have been reports of nephrotoxicity in patients to whom fluconazole and tacrolimus were coadministered.	fluconazole	tacrolimus	false	effect
-patients receiving tacrolimus and fluconazole concomitantly should be carefully monitored.	tacrolimus	fluconazole	false	advise
+patients receiving tacrolimus and fluconazole concomitantly should be carefully monitored.	tacrolimus	fluconazole	advise	advise
 short-acting benzodiazepines: following oral administration of midazolam, fluconazole resulted in substantial increases in midazolam concentrations and psychomotor effects.	short-acting benzodiazepines	midazolam	false	false
 short-acting benzodiazepines: following oral administration of midazolam, fluconazole resulted in substantial increases in midazolam concentrations and psychomotor effects.	short-acting benzodiazepines	fluconazole	false	false
 short-acting benzodiazepines: following oral administration of midazolam, fluconazole resulted in substantial increases in midazolam concentrations and psychomotor effects.	short-acting benzodiazepines	midazolam	false	false
@@ -776,10 +776,10 @@ you cannot take mazindol if you have taken a monoamine oxidase inhibitor (maoi) 
 you cannot take mazindol if you have taken a monoamine oxidase inhibitor (maoi) such as isocarboxazid (marplan), tranylcypromine (parnate), or phenelzine (nardil) in the last 14 days.	parnate	phenelzine	false	false
 you cannot take mazindol if you have taken a monoamine oxidase inhibitor (maoi) such as isocarboxazid (marplan), tranylcypromine (parnate), or phenelzine (nardil) in the last 14 days.	parnate	nardil	false	false
 you cannot take mazindol if you have taken a monoamine oxidase inhibitor (maoi) such as isocarboxazid (marplan), tranylcypromine (parnate), or phenelzine (nardil) in the last 14 days.	phenelzine	nardil	false	false
-changes in insulin and other diabetes drug therapies may be necessary during treatment with mazindol.	insulin	mazindol	false	advise
+changes in insulin and other diabetes drug therapies may be necessary during treatment with mazindol.	insulin	mazindol	effect	advise
 mazindol may reduce the effects of guanethidine (ismelin).	mazindol	guanethidine	effect	effect
-mazindol may reduce the effects of guanethidine (ismelin).	mazindol	ismelin	effect	effect
-mazindol may reduce the effects of guanethidine (ismelin).	guanethidine	ismelin	false	false
+mazindol may reduce the effects of guanethidine (ismelin).	mazindol	ismelin	false	effect
+mazindol may reduce the effects of guanethidine (ismelin).	guanethidine	ismelin	effect	false
 before taking this medication, tell your doctor if you are taking a tricyclic antidepressant such as amitriptyline (elavil), amoxapine (asendin), doxepin (sinequan), nortriptyline (pamelor), imipramine (tofranil), clomipramine (anafranil), protriptyline (vivactil), or desipramine (norpramin).	tricyclic antidepressant	amitriptyline	false	false
 before taking this medication, tell your doctor if you are taking a tricyclic antidepressant such as amitriptyline (elavil), amoxapine (asendin), doxepin (sinequan), nortriptyline (pamelor), imipramine (tofranil), clomipramine (anafranil), protriptyline (vivactil), or desipramine (norpramin).	tricyclic antidepressant	elavil	false	false
 before taking this medication, tell your doctor if you are taking a tricyclic antidepressant such as amitriptyline (elavil), amoxapine (asendin), doxepin (sinequan), nortriptyline (pamelor), imipramine (tofranil), clomipramine (anafranil), protriptyline (vivactil), or desipramine (norpramin).	tricyclic antidepressant	amoxapine	false	false
@@ -920,9 +920,9 @@ preliminary evidence suggests that cimetidine inhibits mebendazole metabolism an
 preliminary evidence suggests that cimetidine inhibits mebendazole metabolism and may result in an increase in plasma concentrations of mebendazole.	cimetidine	mebendazole	false	false
 preliminary evidence suggests that cimetidine inhibits mebendazole metabolism and may result in an increase in plasma concentrations of mebendazole.	mebendazole	mebendazole	false	false
 patients receiving antibiotics and sulfonamides generally should not be treated with ganglion blockers.	antibiotics	sulfonamides	false	false
-patients receiving antibiotics and sulfonamides generally should not be treated with ganglion blockers.	antibiotics	ganglion blockers	false	advise
+patients receiving antibiotics and sulfonamides generally should not be treated with ganglion blockers.	antibiotics	ganglion blockers	advise	advise
 patients receiving antibiotics and sulfonamides generally should not be treated with ganglion blockers.	sulfonamides	ganglion blockers	false	advise
-the action of mecamylamine may be potentiated by anesthesia, other antihypertensive drugs and alcohol.	mecamylamine	antihypertensive drugs	false	effect
+the action of mecamylamine may be potentiated by anesthesia, other antihypertensive drugs and alcohol.	mecamylamine	antihypertensive drugs	effect	effect
 the action of mecamylamine may be potentiated by anesthesia, other antihypertensive drugs and alcohol.	mecamylamine	alcohol	false	effect
 the action of mecamylamine may be potentiated by anesthesia, other antihypertensive drugs and alcohol.	antihypertensive drugs	alcohol	false	false
 aminoglutethimide administered concomitantly with depo-subq provera 104 may significantly decrease the serum concentrations of mpa.	aminoglutethimide	depo-subq provera 104	false	mechanism
@@ -1078,9 +1078,9 @@ melatonin may interact with the following drugs: aspirin and other nsaids (may l
 melatonin may interact with the following drugs: aspirin and other nsaids (may lower melatonin levels), fluvoxamine (bioavailability of oral melatonin is increased with coadministration), beta blockers (may decrease melatonin levels), fluoxetine (reports of psychotic episodes when coadministered), progestin (coadministration of melatonin with progestin can inhibit ovarian function in women), benzodiazepenes and other sedating drugs (may result in additive sedation and an increased incidence of adverse effects), and corticosteroids (coadministration of melatonin and corticosteroids may interfere with the efficacy of the corticosteroids).	melatonin	corticosteroids	false	false
 melatonin may interact with the following drugs: aspirin and other nsaids (may lower melatonin levels), fluvoxamine (bioavailability of oral melatonin is increased with coadministration), beta blockers (may decrease melatonin levels), fluoxetine (reports of psychotic episodes when coadministered), progestin (coadministration of melatonin with progestin can inhibit ovarian function in women), benzodiazepenes and other sedating drugs (may result in additive sedation and an increased incidence of adverse effects), and corticosteroids (coadministration of melatonin and corticosteroids may interfere with the efficacy of the corticosteroids).	corticosteroids	corticosteroids	false	false
 ace inhibitors reports suggest that nsaids may diminish the antihypertensive effect of angiotensin-converting enzyme (ace) inhibitors.	ace inhibitors	nsaids	false	false
-ace inhibitors reports suggest that nsaids may diminish the antihypertensive effect of angiotensin-converting enzyme (ace) inhibitors.	ace inhibitors	angiotensin-converting enzyme (ace) inhibitors	false	false
-ace inhibitors reports suggest that nsaids may diminish the antihypertensive effect of angiotensin-converting enzyme (ace) inhibitors.	nsaids	angiotensin-converting enzyme (ace) inhibitors	false	effect
-this interaction should be given consideration in patients taking nsaids concomitantly with ace inhibitors.	nsaids	ace inhibitors	false	advise
+ace inhibitors reports suggest that nsaids may diminish the antihypertensive effect of angiotensin-converting enzyme (ace) inhibitors.	ace inhibitors	angiotensin-converting enzyme (ace) inhibitors	effect	false
+ace inhibitors reports suggest that nsaids may diminish the antihypertensive effect of angiotensin-converting enzyme (ace) inhibitors.	nsaids	angiotensin-converting enzyme (ace) inhibitors	effect	effect
+this interaction should be given consideration in patients taking nsaids concomitantly with ace inhibitors.	nsaids	ace inhibitors	advise	advise
 aspirin: concomitant administration of aspirin (1000 mg tid) to healthy volunteers tended to increase the auc (10%) and cmax (24%) of meloxicam.	aspirin	aspirin	false	false
 aspirin: concomitant administration of aspirin (1000 mg tid) to healthy volunteers tended to increase the auc (10%) and cmax (24%) of meloxicam.	aspirin	meloxicam	false	false
 aspirin: concomitant administration of aspirin (1000 mg tid) to healthy volunteers tended to increase the auc (10%) and cmax (24%) of meloxicam.	aspirin	meloxicam	false	mechanism
@@ -1252,11 +1252,11 @@ the following agents may increase certain actions or side effects of anticholine
 the following agents may increase certain actions or side effects of anticholinergic drugs: amantadine, antiarrhythmic agents of class i (e.g., quinidine), antihistamines, antipsychotic agents (e.g., phenothiazines), benzodiazepines, mao inhibitors, narcotic analgesics (e.g., meperidine), nitrates and nitrites, sympathomimetic agents, tricyclic antidepressants, and other drugs having anticholinergic activity.	nitrites	sympathomimetic agents	false	false
 the following agents may increase certain actions or side effects of anticholinergic drugs: amantadine, antiarrhythmic agents of class i (e.g., quinidine), antihistamines, antipsychotic agents (e.g., phenothiazines), benzodiazepines, mao inhibitors, narcotic analgesics (e.g., meperidine), nitrates and nitrites, sympathomimetic agents, tricyclic antidepressants, and other drugs having anticholinergic activity.	nitrites	tricyclic antidepressants	false	false
 the following agents may increase certain actions or side effects of anticholinergic drugs: amantadine, antiarrhythmic agents of class i (e.g., quinidine), antihistamines, antipsychotic agents (e.g., phenothiazines), benzodiazepines, mao inhibitors, narcotic analgesics (e.g., meperidine), nitrates and nitrites, sympathomimetic agents, tricyclic antidepressants, and other drugs having anticholinergic activity.	sympathomimetic agents	tricyclic antidepressants	false	false
-anticholinergics antagonize the effects of antiglaucoma agents.	anticholinergics	antiglaucoma agents	false	effect
+anticholinergics antagonize the effects of antiglaucoma agents.	anticholinergics	antiglaucoma agents	effect	effect
 anticholinergic drugs in the presence of increased intraocular pressure may be hazardous when taken concurrently with agents such as corticosteroids.	anticholinergic drugs	corticosteroids	false	effect
 anticholinergic agents may affect gastrointestinal absorption of various drugs, such as slowly dissolving dosage forms of digoxin;	anticholinergic agents	digoxin	false	mechanism
 anticholinergic drugs may antagonize the effects of drugs that alter gastrointestinal motility, such as metoclopramide.	anticholinergic drugs	metoclopramide	false	effect
-because antacids may interfere with the absorption of anticholinergic agents, simultaneous use of these drugs should be avoided.	antacids	anticholinergic agents	false	mechanism
+because antacids may interfere with the absorption of anticholinergic agents, simultaneous use of these drugs should be avoided.	antacids	anticholinergic agents	effect	mechanism
 interaction with other central nervous system depressants: meperidine should be used with great caution and in reduced dosage in patients who are concurrently receiving other narcotic analgesics, general anesthetics, phenothiazines, other tranquilizers, sedative-hypnotics (including barbiturates), tricyclic antidepressants and other cns depressants (including alcohol).	central nervous system depressants	meperidine	false	false
 interaction with other central nervous system depressants: meperidine should be used with great caution and in reduced dosage in patients who are concurrently receiving other narcotic analgesics, general anesthetics, phenothiazines, other tranquilizers, sedative-hypnotics (including barbiturates), tricyclic antidepressants and other cns depressants (including alcohol).	central nervous system depressants	narcotic analgesics	false	false
 interaction with other central nervous system depressants: meperidine should be used with great caution and in reduced dosage in patients who are concurrently receiving other narcotic analgesics, general anesthetics, phenothiazines, other tranquilizers, sedative-hypnotics (including barbiturates), tricyclic antidepressants and other cns depressants (including alcohol).	central nervous system depressants	anesthetics	false	false
@@ -1358,22 +1358,22 @@ mequitazine can interact with cns depressant, antichlolinergic, tca, maois, and 
 probenecid competes with meropenem for active tubular secretion and thus inhibits the renal excretion of meropenem.	probenecid	meropenem	false	mechanism
 probenecid competes with meropenem for active tubular secretion and thus inhibits the renal excretion of meropenem.	probenecid	meropenem	false	false
 probenecid competes with meropenem for active tubular secretion and thus inhibits the renal excretion of meropenem.	meropenem	meropenem	false	false
-therefore, the coadministration of probenecid with meropenem is not recommended.	probenecid	meropenem	false	advise
+therefore, the coadministration of probenecid with meropenem is not recommended.	probenecid	meropenem	advise	advise
 there is evidence that meropenem may reduce serum levels of valproic acid to subtherapeutic levels (therapeutic range considered to be 50 to 100    g/ml total valproate).	meropenem	valproic acid	false	mechanism
 there is evidence that meropenem may reduce serum levels of valproic acid to subtherapeutic levels (therapeutic range considered to be 50 to 100    g/ml total valproate).	meropenem	valproate	false	false
 there is evidence that meropenem may reduce serum levels of valproic acid to subtherapeutic levels (therapeutic range considered to be 50 to 100    g/ml total valproate).	valproic acid	valproate	false	false
 aramine should be used with caution in digitalized patients, since the combination of digitalis and sympathomimetic amines may cause ectopic arrhythmias.	aramine	digitalis	false	false
 aramine should be used with caution in digitalized patients, since the combination of digitalis and sympathomimetic amines may cause ectopic arrhythmias.	aramine	sympathomimetic amines	false	false
 aramine should be used with caution in digitalized patients, since the combination of digitalis and sympathomimetic amines may cause ectopic arrhythmias.	digitalis	sympathomimetic amines	false	effect
-monoamine oxidase inhibitors or tricyclic antidepressants may potentiate the action of sympathomimetic amines.	monoamine oxidase inhibitors	tricyclic antidepressants	false	false
-monoamine oxidase inhibitors or tricyclic antidepressants may potentiate the action of sympathomimetic amines.	monoamine oxidase inhibitors	sympathomimetic amines	false	effect
+monoamine oxidase inhibitors or tricyclic antidepressants may potentiate the action of sympathomimetic amines.	monoamine oxidase inhibitors	tricyclic antidepressants	effect	false
+monoamine oxidase inhibitors or tricyclic antidepressants may potentiate the action of sympathomimetic amines.	monoamine oxidase inhibitors	sympathomimetic amines	effect	effect
 monoamine oxidase inhibitors or tricyclic antidepressants may potentiate the action of sympathomimetic amines.	tricyclic antidepressants	sympathomimetic amines	false	effect
-skelaxin may enhance the effects of alcohol, barbiturates and other cns depressants.	skelaxin	alcohol	effect	effect
+skelaxin may enhance the effects of alcohol, barbiturates and other cns depressants.	skelaxin	alcohol	false	effect
 skelaxin may enhance the effects of alcohol, barbiturates and other cns depressants.	skelaxin	barbiturates	false	effect
 skelaxin may enhance the effects of alcohol, barbiturates and other cns depressants.	skelaxin	cns depressants	false	effect
 skelaxin may enhance the effects of alcohol, barbiturates and other cns depressants.	alcohol	barbiturates	false	false
 skelaxin may enhance the effects of alcohol, barbiturates and other cns depressants.	alcohol	cns depressants	false	false
-skelaxin may enhance the effects of alcohol, barbiturates and other cns depressants.	barbiturates	cns depressants	false	false
+skelaxin may enhance the effects of alcohol, barbiturates and other cns depressants.	barbiturates	cns depressants	effect	false
 caution is advised for patients receiving high-dose aspirin and methazolamide concomitantly, as anorexia, tachypnea, lethargy, coma and death have been reported with concomitant use of high-dose aspirin and carbonic anhydrase inhibitors.	aspirin	methazolamide	false	advise
 caution is advised for patients receiving high-dose aspirin and methazolamide concomitantly, as anorexia, tachypnea, lethargy, coma and death have been reported with concomitant use of high-dose aspirin and carbonic anhydrase inhibitors.	aspirin	aspirin	false	false
 caution is advised for patients receiving high-dose aspirin and methazolamide concomitantly, as anorexia, tachypnea, lethargy, coma and death have been reported with concomitant use of high-dose aspirin and carbonic anhydrase inhibitors.	aspirin	carbonic anhydrase inhibitors	false	false
@@ -1402,10 +1402,10 @@ exert particular caution in combining levomepromazine with other anticholinergic
 exert particular caution in combining levomepromazine with other anticholinergic drugs (tricyclic antidepressants and antiparkinsonian-agents): particularly the elderly may develop delirium, high fever, severe obstipation, even ileus and glaucoma.	tricyclic antidepressants	antiparkinsonian-agents	false	false
 caffeine and/or stimulantes of the ephedrine/amphetamine type may counteract the specific actions of levomepromazine.	caffeine	ephedrine	false	false
 caffeine and/or stimulantes of the ephedrine/amphetamine type may counteract the specific actions of levomepromazine.	caffeine	amphetamine	false	false
-caffeine and/or stimulantes of the ephedrine/amphetamine type may counteract the specific actions of levomepromazine.	caffeine	levomepromazine	false	effect
+caffeine and/or stimulantes of the ephedrine/amphetamine type may counteract the specific actions of levomepromazine.	caffeine	levomepromazine	effect	effect
 caffeine and/or stimulantes of the ephedrine/amphetamine type may counteract the specific actions of levomepromazine.	ephedrine	amphetamine	false	false
 caffeine and/or stimulantes of the ephedrine/amphetamine type may counteract the specific actions of levomepromazine.	ephedrine	levomepromazine	false	effect
-caffeine and/or stimulantes of the ephedrine/amphetamine type may counteract the specific actions of levomepromazine.	amphetamine	levomepromazine	false	effect
+caffeine and/or stimulantes of the ephedrine/amphetamine type may counteract the specific actions of levomepromazine.	amphetamine	levomepromazine	effect	effect
 since celontin (methsuximide) may interact with concurrently administered antiepileptic drugs, periodic serum level determinations of these drugs may be necessary (eg methsuximide may increase the plasma concentrations of phenytoin and phenobarbital).	celontin	methsuximide	false	false
 since celontin (methsuximide) may interact with concurrently administered antiepileptic drugs, periodic serum level determinations of these drugs may be necessary (eg methsuximide may increase the plasma concentrations of phenytoin and phenobarbital).	celontin	antiepileptic drugs	false	advise
 since celontin (methsuximide) may interact with concurrently administered antiepileptic drugs, periodic serum level determinations of these drugs may be necessary (eg methsuximide may increase the plasma concentrations of phenytoin and phenobarbital).	celontin	methsuximide	false	false
@@ -1422,22 +1422,22 @@ since celontin (methsuximide) may interact with concurrently administered antiep
 since celontin (methsuximide) may interact with concurrently administered antiepileptic drugs, periodic serum level determinations of these drugs may be necessary (eg methsuximide may increase the plasma concentrations of phenytoin and phenobarbital).	methsuximide	phenobarbital	false	mechanism
 since celontin (methsuximide) may interact with concurrently administered antiepileptic drugs, periodic serum level determinations of these drugs may be necessary (eg methsuximide may increase the plasma concentrations of phenytoin and phenobarbital).	phenytoin	phenobarbital	false	false
 hypokalemia may develop during concomitant use of steroids or acth.	steroids	acth	false	false
-thiazides may decrease arterial responsiveness to norepinephrine.	thiazides	norepinephrine	false	effect
-thiazide drugs may increase the responsiveness of tubocurarine.	thiazide drugs	tubocurarine	false	effect
+thiazides may decrease arterial responsiveness to norepinephrine.	thiazides	norepinephrine	effect	effect
+thiazide drugs may increase the responsiveness of tubocurarine.	thiazide drugs	tubocurarine	effect	effect
 lithium renal clearance is reduced by thiazides, increasing the risk of lithium toxicity.	lithium	thiazides	false	mechanism
-lithium renal clearance is reduced by thiazides, increasing the risk of lithium toxicity.	lithium	lithium	false	false
+lithium renal clearance is reduced by thiazides, increasing the risk of lithium toxicity.	lithium	lithium	mechanism	false
 lithium renal clearance is reduced by thiazides, increasing the risk of lithium toxicity.	thiazides	lithium	false	false
 thiazides may add to or potentiate the action of other antihypertensive drugs.	thiazides	antihypertensive drugs	false	effect
 potentiation occurs with ganglionic or peripheral adrenergic blocking drugs.	ganglionic adrenergic blocking drugs	peripheral adrenergic blocking drugs	false	false
 when methyldopa is used with other antihypertensive drugs, potentiation of antihypertensive effect may occur.	methyldopa	antihypertensive drugs	false	effect
-patients may require reduced doses of anesthetics when on methyldopa.	anesthetics	methyldopa	false	advise
+patients may require reduced doses of anesthetics when on methyldopa.	anesthetics	methyldopa	advise	advise
 when methyldopa and lithium are given concomitantly the patient should be carefully monitored for symptoms of lithium toxicity.	methyldopa	lithium	false	advise
 when methyldopa and lithium are given concomitantly the patient should be carefully monitored for symptoms of lithium toxicity.	methyldopa	lithium	false	false
 when methyldopa and lithium are given concomitantly the patient should be carefully monitored for symptoms of lithium toxicity.	lithium	lithium	false	false
 several studies demonstrate a decrease in the bioavailability of methyldopa when it is ingested with ferrous sulfate or ferrous gluconate.	methyldopa	ferrous sulfate	false	mechanism
 several studies demonstrate a decrease in the bioavailability of methyldopa when it is ingested with ferrous sulfate or ferrous gluconate.	methyldopa	ferrous gluconate	false	mechanism
 several studies demonstrate a decrease in the bioavailability of methyldopa when it is ingested with ferrous sulfate or ferrous gluconate.	ferrous sulfate	ferrous gluconate	false	false
-coadministration of methyldopa with ferrous sulfate or ferrous gluconate is not recommended.	methyldopa	ferrous sulfate	false	advise
+coadministration of methyldopa with ferrous sulfate or ferrous gluconate is not recommended.	methyldopa	ferrous sulfate	advise	advise
 coadministration of methyldopa with ferrous sulfate or ferrous gluconate is not recommended.	methyldopa	ferrous gluconate	false	advise
 coadministration of methyldopa with ferrous sulfate or ferrous gluconate is not recommended.	ferrous sulfate	ferrous gluconate	false	false
 methyldopa does not interfere with measurement of vma (vanillylmandelic acid), a test for pheochromocytoma, by those methods which convert vma to vanillin.	methyldopa	vma	false	false
@@ -1573,12 +1573,12 @@ less potent inhibitors include saquinavir, nefazodone, fluconazole, grapefruit j
 less potent inhibitors include saquinavir, nefazodone, fluconazole, grapefruit juice, fluoxetine, fluvoxamine, zileuton, and clotrimazole.	fluvoxamine	clotrimazole	false	false
 less potent inhibitors include saquinavir, nefazodone, fluconazole, grapefruit juice, fluoxetine, fluvoxamine, zileuton, and clotrimazole.	zileuton	clotrimazole	false	false
 caution should be exercised when methergine    (methylergonovine maleate) is used concurrently with other vasoconstrictors or ergot alkaloids.	methergine	methylergonovine maleate	false	false
-caution should be exercised when methergine    (methylergonovine maleate) is used concurrently with other vasoconstrictors or ergot alkaloids.	methergine	vasoconstrictors	false	advise
+caution should be exercised when methergine    (methylergonovine maleate) is used concurrently with other vasoconstrictors or ergot alkaloids.	methergine	vasoconstrictors	advise	advise
 caution should be exercised when methergine    (methylergonovine maleate) is used concurrently with other vasoconstrictors or ergot alkaloids.	methergine	ergot alkaloids	false	advise
 caution should be exercised when methergine    (methylergonovine maleate) is used concurrently with other vasoconstrictors or ergot alkaloids.	methylergonovine maleate	vasoconstrictors	advise	advise
 caution should be exercised when methergine    (methylergonovine maleate) is used concurrently with other vasoconstrictors or ergot alkaloids.	methylergonovine maleate	ergot alkaloids	advise	false
 caution should be exercised when methergine    (methylergonovine maleate) is used concurrently with other vasoconstrictors or ergot alkaloids.	vasoconstrictors	ergot alkaloids	false	false
-ritalin may decrease the hypotensive effect of guanethidine.	ritalin	guanethidine	false	effect
+ritalin may decrease the hypotensive effect of guanethidine.	ritalin	guanethidine	effect	effect
 human pharmacologic studies have shown that ritalin may inhibit the metabolism of coumarin anticoagulants, anticonvulsants (phenobarbital, diphenylhydantoin, primidone), phenylbutazone, and tricyclic drugs (imipramine, clomipramine, desipramine).	ritalin	coumarin anticoagulants	false	mechanism
 human pharmacologic studies have shown that ritalin may inhibit the metabolism of coumarin anticoagulants, anticonvulsants (phenobarbital, diphenylhydantoin, primidone), phenylbutazone, and tricyclic drugs (imipramine, clomipramine, desipramine).	ritalin	anticonvulsants	false	mechanism
 human pharmacologic studies have shown that ritalin may inhibit the metabolism of coumarin anticoagulants, anticonvulsants (phenobarbital, diphenylhydantoin, primidone), phenylbutazone, and tricyclic drugs (imipramine, clomipramine, desipramine).	ritalin	phenobarbital	false	mechanism
@@ -1656,9 +1656,9 @@ methylprednisolone may increase the clearance of chronic high dose aspirin.	meth
 this could lead to decreased salicylate serum levels or increase the risk of salicylate toxicity when methylprednisolone is withdrawn.	salicylate	salicylate	false	false
 this could lead to decreased salicylate serum levels or increase the risk of salicylate toxicity when methylprednisolone is withdrawn.	salicylate	methylprednisolone	false	false
 this could lead to decreased salicylate serum levels or increase the risk of salicylate toxicity when methylprednisolone is withdrawn.	salicylate	methylprednisolone	false	effect
-aspirin should be used cautiously in conjunction with corticosteroids in patients suffering from hypoprothrombinemia.	aspirin	corticosteroids	advise	advise
+aspirin should be used cautiously in conjunction with corticosteroids in patients suffering from hypoprothrombinemia.	aspirin	corticosteroids	false	advise
 the effect of methylprednisolone on oral anticoagulants is variable.	methylprednisolone	anticoagulants	false	false
-there are reports of enhanced as well as diminished effects of anticoagulant when given concurrently with corticosteroids.	anticoagulant	corticosteroids	false	effect
+there are reports of enhanced as well as diminished effects of anticoagulant when given concurrently with corticosteroids.	anticoagulant	corticosteroids	advise	effect
 methscopolamine may interact with antidepressants (tricyclic type), mao inhibitors (e.g., phenelzine, linezolid, tranylcypromine, isocarboxazid, selegiline, furazolidone), quinidine, amantadine, antihistamines (e.g., diphenhydramine), other anticholinergics, potassium chloride supplements, antacids, absorbent-type anti-diarrhea medicines (e.g., kaolin-pectin), phenothiazines (e.g., chlorpromazine, promethazine).	methscopolamine	antidepressants	false	false
 methscopolamine may interact with antidepressants (tricyclic type), mao inhibitors (e.g., phenelzine, linezolid, tranylcypromine, isocarboxazid, selegiline, furazolidone), quinidine, amantadine, antihistamines (e.g., diphenhydramine), other anticholinergics, potassium chloride supplements, antacids, absorbent-type anti-diarrhea medicines (e.g., kaolin-pectin), phenothiazines (e.g., chlorpromazine, promethazine).	methscopolamine	tricyclic	false	int
 methscopolamine may interact with antidepressants (tricyclic type), mao inhibitors (e.g., phenelzine, linezolid, tranylcypromine, isocarboxazid, selegiline, furazolidone), quinidine, amantadine, antihistamines (e.g., diphenhydramine), other anticholinergics, potassium chloride supplements, antacids, absorbent-type anti-diarrhea medicines (e.g., kaolin-pectin), phenothiazines (e.g., chlorpromazine, promethazine).	methscopolamine	mao inhibitors	false	int
@@ -1913,7 +1913,7 @@ methscopolamine may interact with antidepressants (tricyclic type), mao inhibito
 methscopolamine may interact with antidepressants (tricyclic type), mao inhibitors (e.g., phenelzine, linezolid, tranylcypromine, isocarboxazid, selegiline, furazolidone), quinidine, amantadine, antihistamines (e.g., diphenhydramine), other anticholinergics, potassium chloride supplements, antacids, absorbent-type anti-diarrhea medicines (e.g., kaolin-pectin), phenothiazines (e.g., chlorpromazine, promethazine).	phenothiazines	promethazine	false	false
 methscopolamine may interact with antidepressants (tricyclic type), mao inhibitors (e.g., phenelzine, linezolid, tranylcypromine, isocarboxazid, selegiline, furazolidone), quinidine, amantadine, antihistamines (e.g., diphenhydramine), other anticholinergics, potassium chloride supplements, antacids, absorbent-type anti-diarrhea medicines (e.g., kaolin-pectin), phenothiazines (e.g., chlorpromazine, promethazine).	chlorpromazine	promethazine	false	false
 concurrent use of alcohol and other cns depression-producing drugs may increase the cns depressant effects of methyprylon or these other medications.	alcohol	cns depression-producing drugs	false	false
-concurrent use of alcohol and other cns depression-producing drugs may increase the cns depressant effects of methyprylon or these other medications.	alcohol	methyprylon	false	effect
+concurrent use of alcohol and other cns depression-producing drugs may increase the cns depressant effects of methyprylon or these other medications.	alcohol	methyprylon	effect	effect
 concurrent use of alcohol and other cns depression-producing drugs may increase the cns depressant effects of methyprylon or these other medications.	cns depression-producing drugs	methyprylon	false	effect
 methysergide may reverse the analgesic activity of narcotic analgesics.	methysergide	narcotic analgesics	false	effect
 concurrent use with vasoconstrictor agents including ergot alkaloids, sumatriptan, and nicotine (e.g. smoking) may result in enhanced vasoconstriction.	vasoconstrictor agents	ergot alkaloids	false	false
@@ -1925,7 +1925,7 @@ concurrent use with vasoconstrictor agents including ergot alkaloids, sumatripta
 the effects of metoclopramide on gastrointestinal motility are antagonized by anticholinergic drugs and narcotic analgesics.	metoclopramide	anticholinergic drugs	false	effect
 the effects of metoclopramide on gastrointestinal motility are antagonized by anticholinergic drugs and narcotic analgesics.	metoclopramide	narcotic analgesics	false	effect
 the effects of metoclopramide on gastrointestinal motility are antagonized by anticholinergic drugs and narcotic analgesics.	anticholinergic drugs	narcotic analgesics	false	false
-additive sedative effects can occur when metoclopramide is given with alcohol, sedatives, hypnotics, narcotics, or tranquilizers.	metoclopramide	alcohol	false	effect
+additive sedative effects can occur when metoclopramide is given with alcohol, sedatives, hypnotics, narcotics, or tranquilizers.	metoclopramide	alcohol	advise	effect
 additive sedative effects can occur when metoclopramide is given with alcohol, sedatives, hypnotics, narcotics, or tranquilizers.	metoclopramide	sedatives	false	effect
 additive sedative effects can occur when metoclopramide is given with alcohol, sedatives, hypnotics, narcotics, or tranquilizers.	metoclopramide	hypnotics	false	effect
 additive sedative effects can occur when metoclopramide is given with alcohol, sedatives, hypnotics, narcotics, or tranquilizers.	metoclopramide	narcotics	false	effect
@@ -1990,12 +1990,12 @@ curariform drugs: diuretic-induced hypokalemia may enhance neuromuscular blockin
 curariform drugs: diuretic-induced hypokalemia may enhance neuromuscular blocking effects of curariform drugs (such as tubocurarine) the most serious effect would be respiratory depression which could proceed to apnea.	diuretic	tubocurarine	false	effect
 curariform drugs: diuretic-induced hypokalemia may enhance neuromuscular blocking effects of curariform drugs (such as tubocurarine) the most serious effect would be respiratory depression which could proceed to apnea.	curariform drugs	tubocurarine	false	false
 salicylates and other non-steroidal anti-inflammatory drugs: may decrease the antihypertensive effects of mykrox tablets.	salicylates	non-steroidal anti-inflammatory drugs	false	false
-salicylates and other non-steroidal anti-inflammatory drugs: may decrease the antihypertensive effects of mykrox tablets.	salicylates	mykrox	false	effect
-salicylates and other non-steroidal anti-inflammatory drugs: may decrease the antihypertensive effects of mykrox tablets.	non-steroidal anti-inflammatory drugs	mykrox	false	effect
+salicylates and other non-steroidal anti-inflammatory drugs: may decrease the antihypertensive effects of mykrox tablets.	salicylates	mykrox	effect	effect
+salicylates and other non-steroidal anti-inflammatory drugs: may decrease the antihypertensive effects of mykrox tablets.	non-steroidal anti-inflammatory drugs	mykrox	effect	effect
 sympathomimetics: metolazone may decrease arterial responsiveness to norepinephrine, but this diminution is not sufficient to preclude effectiveness of the pressor agent for therapeutic use.	sympathomimetics	metolazone	false	false
 sympathomimetics: metolazone may decrease arterial responsiveness to norepinephrine, but this diminution is not sufficient to preclude effectiveness of the pressor agent for therapeutic use.	sympathomimetics	norepinephrine	false	false
 sympathomimetics: metolazone may decrease arterial responsiveness to norepinephrine, but this diminution is not sufficient to preclude effectiveness of the pressor agent for therapeutic use.	metolazone	norepinephrine	false	effect
-methenamine: efficacy may be decreased due to urinary alkalizing effect of metolazone.	methenamine	metolazone	false	effect
+methenamine: efficacy may be decreased due to urinary alkalizing effect of metolazone.	methenamine	metolazone	effect	effect
 anticoagulants: metolazone, as well as other thiazide-like diuretics, may affect the hypoprothrombinemic response to anticoagulants;	anticoagulants	metolazone	false	false
 anticoagulants: metolazone, as well as other thiazide-like diuretics, may affect the hypoprothrombinemic response to anticoagulants;	anticoagulants	thiazide-like diuretics	false	false
 anticoagulants: metolazone, as well as other thiazide-like diuretics, may affect the hypoprothrombinemic response to anticoagulants;	anticoagulants	anticoagulants	false	false
@@ -2009,7 +2009,7 @@ oral metronidazole has been reported to potentiate the anticoagulant effect of c
 drug interactions should be kept in mind when metrogel (metronidazole gel), 1% is prescribed for patients who are receiving anticoagulant treatment, although they are less likely to occur with topical metronidazole administration because of low absorption.	metrogel	metronidazole	false	false
 drug interactions should be kept in mind when metrogel (metronidazole gel), 1% is prescribed for patients who are receiving anticoagulant treatment, although they are less likely to occur with topical metronidazole administration because of low absorption.	metrogel	metronidazole	false	false
 drug interactions should be kept in mind when metrogel (metronidazole gel), 1% is prescribed for patients who are receiving anticoagulant treatment, although they are less likely to occur with topical metronidazole administration because of low absorption.	metronidazole	metronidazole	false	false
-the metabolism of metopirone is accelerated by phenytoin;	metopirone	phenytoin	false	mechanism
+the metabolism of metopirone is accelerated by phenytoin;	metopirone	phenytoin	advise	mechanism
 metopirone inhibits the glucuronidation of acetaminophen and could possibly potentiate acetaminophen toxicity.	metopirone	acetaminophen	false	mechanism
 metopirone inhibits the glucuronidation of acetaminophen and could possibly potentiate acetaminophen toxicity.	metopirone	acetaminophen	false	effect
 metopirone inhibits the glucuronidation of acetaminophen and could possibly potentiate acetaminophen toxicity.	acetaminophen	acetaminophen	false	false
@@ -2020,13 +2020,13 @@ concurrent use of demser with alcohol or other cns depressants can increase thei
 concurrent use of demser with alcohol or other cns depressants can increase their sedative effects.	demser	cns depressants	false	effect
 concurrent use of demser with alcohol or other cns depressants can increase their sedative effects.	alcohol	cns depressants	false	false
 since mexitil is a substrate for the metabolic pathways involving cyp2d6 and cyp1a2 enzymes, inhibition or induction of either of these enzymes would be expected to alter mexiletine plasma concentrations.	mexitil	mexiletine	false	false
-in a formal, single-dose interaction study (n = 6 males) the clearance of mexiletine was decreased by 38% following the coadministration of fluvoxamine, an inhibitor of cyp1a2.	mexiletine	fluvoxamine	false	mechanism
+in a formal, single-dose interaction study (n = 6 males) the clearance of mexiletine was decreased by 38% following the coadministration of fluvoxamine, an inhibitor of cyp1a2.	mexiletine	fluvoxamine	mechanism	mechanism
 in another formal study (n = 8 extensive and n = 7 poor metabolizers of cyp2d6), coadministration of propafenone did not alter the kinetics of mexiletine in the poor cyp2d6 metabolizer group.	propafenone	mexiletine	false	false
 in this crossover steady state study, the pharmacokinetics of propafenone were unaffected in either phenotype by the coadministration of mexiletine.	propafenone	mexiletine	false	false
 addition of mexiletine to propafenone did not lead to further electrocardiographic parameters changes of qrs, qtc, rr, and pr intervals than propafenone alone.	mexiletine	propafenone	false	false
 addition of mexiletine to propafenone did not lead to further electrocardiographic parameters changes of qrs, qtc, rr, and pr intervals than propafenone alone.	mexiletine	propafenone	false	false
 addition of mexiletine to propafenone did not lead to further electrocardiographic parameters changes of qrs, qtc, rr, and pr intervals than propafenone alone.	propafenone	propafenone	false	false
-when concomitant administration of either of these two drugs with mexiletine is initiated, the dose of mexiletine should be slowly titrated to desired effect.	mexiletine	mexiletine	false	false
+when concomitant administration of either of these two drugs with mexiletine is initiated, the dose of mexiletine should be slowly titrated to desired effect.	mexiletine	mexiletine	advise	false
 in a large compassionate use program mexitil    has been used concurrently with commonly employed antianginal, antihypertensive, and anticoagulant drugs without observed interactions.	mexitil	antihypertensive	false	false
 in a large compassionate use program mexitil    has been used concurrently with commonly employed antianginal, antihypertensive, and anticoagulant drugs without observed interactions.	mexitil	anticoagulant drugs	false	false
 in a large compassionate use program mexitil    has been used concurrently with commonly employed antianginal, antihypertensive, and anticoagulant drugs without observed interactions.	antihypertensive	anticoagulant drugs	false	false
@@ -2177,23 +2177,23 @@ nifedipine auc and cmax were increased by 18% and 42%, respectively, in the pres
 nifedipine auc and cmax were increased by 18% and 42%, respectively, in the presence of steady-state mycamine compared with nifedipine alone.	nifedipine	nifedipine	false	false
 nifedipine auc and cmax were increased by 18% and 42%, respectively, in the presence of steady-state mycamine compared with nifedipine alone.	mycamine	nifedipine	false	false
 patients receiving sirolimus or nifedipine in combination with mycamine should be monitored for sirolimus or nifedipine toxicity and sirolimus or nifedipine dosage should be reduced if necessary.	sirolimus	nifedipine	false	false
-patients receiving sirolimus or nifedipine in combination with mycamine should be monitored for sirolimus or nifedipine toxicity and sirolimus or nifedipine dosage should be reduced if necessary.	sirolimus	mycamine	false	advise
-patients receiving sirolimus or nifedipine in combination with mycamine should be monitored for sirolimus or nifedipine toxicity and sirolimus or nifedipine dosage should be reduced if necessary.	sirolimus	sirolimus	false	false
+patients receiving sirolimus or nifedipine in combination with mycamine should be monitored for sirolimus or nifedipine toxicity and sirolimus or nifedipine dosage should be reduced if necessary.	sirolimus	mycamine	advise	advise
+patients receiving sirolimus or nifedipine in combination with mycamine should be monitored for sirolimus or nifedipine toxicity and sirolimus or nifedipine dosage should be reduced if necessary.	sirolimus	sirolimus	advise	false
 patients receiving sirolimus or nifedipine in combination with mycamine should be monitored for sirolimus or nifedipine toxicity and sirolimus or nifedipine dosage should be reduced if necessary.	sirolimus	nifedipine	false	false
 patients receiving sirolimus or nifedipine in combination with mycamine should be monitored for sirolimus or nifedipine toxicity and sirolimus or nifedipine dosage should be reduced if necessary.	sirolimus	sirolimus	false	false
-patients receiving sirolimus or nifedipine in combination with mycamine should be monitored for sirolimus or nifedipine toxicity and sirolimus or nifedipine dosage should be reduced if necessary.	sirolimus	nifedipine	false	false
-patients receiving sirolimus or nifedipine in combination with mycamine should be monitored for sirolimus or nifedipine toxicity and sirolimus or nifedipine dosage should be reduced if necessary.	nifedipine	mycamine	false	advise
-patients receiving sirolimus or nifedipine in combination with mycamine should be monitored for sirolimus or nifedipine toxicity and sirolimus or nifedipine dosage should be reduced if necessary.	nifedipine	sirolimus	false	false
+patients receiving sirolimus or nifedipine in combination with mycamine should be monitored for sirolimus or nifedipine toxicity and sirolimus or nifedipine dosage should be reduced if necessary.	sirolimus	nifedipine	advise	false
+patients receiving sirolimus or nifedipine in combination with mycamine should be monitored for sirolimus or nifedipine toxicity and sirolimus or nifedipine dosage should be reduced if necessary.	nifedipine	mycamine	advise	advise
+patients receiving sirolimus or nifedipine in combination with mycamine should be monitored for sirolimus or nifedipine toxicity and sirolimus or nifedipine dosage should be reduced if necessary.	nifedipine	sirolimus	advise	false
 patients receiving sirolimus or nifedipine in combination with mycamine should be monitored for sirolimus or nifedipine toxicity and sirolimus or nifedipine dosage should be reduced if necessary.	nifedipine	nifedipine	false	false
 patients receiving sirolimus or nifedipine in combination with mycamine should be monitored for sirolimus or nifedipine toxicity and sirolimus or nifedipine dosage should be reduced if necessary.	nifedipine	sirolimus	false	false
 patients receiving sirolimus or nifedipine in combination with mycamine should be monitored for sirolimus or nifedipine toxicity and sirolimus or nifedipine dosage should be reduced if necessary.	nifedipine	nifedipine	false	false
-patients receiving sirolimus or nifedipine in combination with mycamine should be monitored for sirolimus or nifedipine toxicity and sirolimus or nifedipine dosage should be reduced if necessary.	mycamine	sirolimus	false	false
+patients receiving sirolimus or nifedipine in combination with mycamine should be monitored for sirolimus or nifedipine toxicity and sirolimus or nifedipine dosage should be reduced if necessary.	mycamine	sirolimus	advise	false
 patients receiving sirolimus or nifedipine in combination with mycamine should be monitored for sirolimus or nifedipine toxicity and sirolimus or nifedipine dosage should be reduced if necessary.	mycamine	nifedipine	false	false
 patients receiving sirolimus or nifedipine in combination with mycamine should be monitored for sirolimus or nifedipine toxicity and sirolimus or nifedipine dosage should be reduced if necessary.	mycamine	sirolimus	false	false
 patients receiving sirolimus or nifedipine in combination with mycamine should be monitored for sirolimus or nifedipine toxicity and sirolimus or nifedipine dosage should be reduced if necessary.	mycamine	nifedipine	false	false
-patients receiving sirolimus or nifedipine in combination with mycamine should be monitored for sirolimus or nifedipine toxicity and sirolimus or nifedipine dosage should be reduced if necessary.	sirolimus	nifedipine	false	false
+patients receiving sirolimus or nifedipine in combination with mycamine should be monitored for sirolimus or nifedipine toxicity and sirolimus or nifedipine dosage should be reduced if necessary.	sirolimus	nifedipine	advise	false
 patients receiving sirolimus or nifedipine in combination with mycamine should be monitored for sirolimus or nifedipine toxicity and sirolimus or nifedipine dosage should be reduced if necessary.	sirolimus	sirolimus	false	false
-patients receiving sirolimus or nifedipine in combination with mycamine should be monitored for sirolimus or nifedipine toxicity and sirolimus or nifedipine dosage should be reduced if necessary.	sirolimus	nifedipine	false	false
+patients receiving sirolimus or nifedipine in combination with mycamine should be monitored for sirolimus or nifedipine toxicity and sirolimus or nifedipine dosage should be reduced if necessary.	sirolimus	nifedipine	advise	false
 patients receiving sirolimus or nifedipine in combination with mycamine should be monitored for sirolimus or nifedipine toxicity and sirolimus or nifedipine dosage should be reduced if necessary.	nifedipine	sirolimus	false	false
 patients receiving sirolimus or nifedipine in combination with mycamine should be monitored for sirolimus or nifedipine toxicity and sirolimus or nifedipine dosage should be reduced if necessary.	nifedipine	nifedipine	false	false
 patients receiving sirolimus or nifedipine in combination with mycamine should be monitored for sirolimus or nifedipine toxicity and sirolimus or nifedipine dosage should be reduced if necessary.	sirolimus	nifedipine	false	false
@@ -2442,7 +2442,7 @@ john   s wort, and certain anticonvulsants (phenytoin, phenobarbital, carbamazep
 john   s wort, and certain anticonvulsants (phenytoin, phenobarbital, carbamazepine) may induce mifepristone metabolism (lowering serum levels of mifepristone).	phenobarbital	mifepristone	false	mechanism
 john   s wort, and certain anticonvulsants (phenytoin, phenobarbital, carbamazepine) may induce mifepristone metabolism (lowering serum levels of mifepristone).	phenobarbital	mifepristone	false	false
 john   s wort, and certain anticonvulsants (phenytoin, phenobarbital, carbamazepine) may induce mifepristone metabolism (lowering serum levels of mifepristone).	carbamazepine	mifepristone	false	mechanism
-john   s wort, and certain anticonvulsants (phenytoin, phenobarbital, carbamazepine) may induce mifepristone metabolism (lowering serum levels of mifepristone).	carbamazepine	mifepristone	false	false
+john   s wort, and certain anticonvulsants (phenytoin, phenobarbital, carbamazepine) may induce mifepristone metabolism (lowering serum levels of mifepristone).	carbamazepine	mifepristone	effect	false
 john   s wort, and certain anticonvulsants (phenytoin, phenobarbital, carbamazepine) may induce mifepristone metabolism (lowering serum levels of mifepristone).	mifepristone	mifepristone	false	false
 while co-administration of zavesca    appeared to increase the clearance of cerezyme by 70%, these results are not conclusive because of the small number of subjects studied and because patients took variable doses of cerezyme.	zavesca	cerezyme	false	mechanism
 while co-administration of zavesca    appeared to increase the clearance of cerezyme by 70%, these results are not conclusive because of the small number of subjects studied and because patients took variable doses of cerezyme.	zavesca	cerezyme	false	false
@@ -2456,7 +2456,7 @@ because tetracyclines have been shown to depress plasma prothrombin activity, pa
 since bacteriostatic drugs may interfere with the bactericidal action of penicillin, it is advisable to avoid giving tetracycline class drugs in conjunction with penicillin.	penicillin	tetracycline class drugs	false	false
 since bacteriostatic drugs may interfere with the bactericidal action of penicillin, it is advisable to avoid giving tetracycline class drugs in conjunction with penicillin.	penicillin	penicillin	false	false
 since bacteriostatic drugs may interfere with the bactericidal action of penicillin, it is advisable to avoid giving tetracycline class drugs in conjunction with penicillin.	tetracycline class drugs	penicillin	false	advise
-absorption of tetracyclines is impaired by antacids containing aluminum, calcium or magnesium, and iron-containing preparations.	tetracyclines	antacids	false	false
+absorption of tetracyclines is impaired by antacids containing aluminum, calcium or magnesium, and iron-containing preparations.	tetracyclines	antacids	advise	false
 absorption of tetracyclines is impaired by antacids containing aluminum, calcium or magnesium, and iron-containing preparations.	tetracyclines	aluminum	false	mechanism
 absorption of tetracyclines is impaired by antacids containing aluminum, calcium or magnesium, and iron-containing preparations.	tetracyclines	calcium	false	mechanism
 absorption of tetracyclines is impaired by antacids containing aluminum, calcium or magnesium, and iron-containing preparations.	tetracyclines	magnesium	false	mechanism
@@ -2472,13 +2472,13 @@ absorption of tetracyclines is impaired by antacids containing aluminum, calcium
 absorption of tetracyclines is impaired by antacids containing aluminum, calcium or magnesium, and iron-containing preparations.	calcium	iron	false	false
 absorption of tetracyclines is impaired by antacids containing aluminum, calcium or magnesium, and iron-containing preparations.	magnesium	iron	false	false
 the concurrent use of tetracycline and methoxyflurane has been reported to result in fatal renal toxicity.	tetracycline	methoxyflurane	false	effect
-concurrent use of tetracyclines with oral contraceptives may render oral contraceptives less effective.	tetracyclines	contraceptives	false	effect
-concurrent use of tetracyclines with oral contraceptives may render oral contraceptives less effective.	tetracyclines	contraceptives	false	false
+concurrent use of tetracyclines with oral contraceptives may render oral contraceptives less effective.	tetracyclines	contraceptives	effect	effect
+concurrent use of tetracyclines with oral contraceptives may render oral contraceptives less effective.	tetracyclines	contraceptives	effect	false
 concurrent use of tetracyclines with oral contraceptives may render oral contraceptives less effective.	contraceptives	contraceptives	false	false
 interaction with guanethidine: although minoxidil does not itself cause orthostatic hypotension, its administration to patients already receiving guanethidine can result in profound orthostatic effects.	guanethidine	minoxidil	false	false
 interaction with guanethidine: although minoxidil does not itself cause orthostatic hypotension, its administration to patients already receiving guanethidine can result in profound orthostatic effects.	guanethidine	guanethidine	false	false
 interaction with guanethidine: although minoxidil does not itself cause orthostatic hypotension, its administration to patients already receiving guanethidine can result in profound orthostatic effects.	minoxidil	guanethidine	false	effect
-if at all possible guanethidine should be discontinued well before minoxidil is begun.	guanethidine	minoxidil	false	advise
+if at all possible guanethidine should be discontinued well before minoxidil is begun.	guanethidine	minoxidil	advise	advise
 drugs affecting hepatic metabolism the metabolism and pharmacokinetics of remeron soltab    (mirtazapine) orally disintegrating tablets may be affected by the induction or inhibition of drug-metab-olizing enzymes.	remeron soltab	mirtazapine	false	false
 while in vitro studies have shown that mirtazapine is not a potent inhibitor of any of these enzymes, an indication that mirtazapine is not likely to have a clinically significant inhibitory effect on the metabolism of other drugs that are substrates for these cytochrome p450 enzymes, the concomitant use of remeron soltab with most other drugs metabolized by these enzymes has not been formally studied.	mirtazapine	mirtazapine	false	false
 while in vitro studies have shown that mirtazapine is not a potent inhibitor of any of these enzymes, an indication that mirtazapine is not likely to have a clinically significant inhibitory effect on the metabolism of other drugs that are substrates for these cytochrome p450 enzymes, the concomitant use of remeron soltab with most other drugs metabolized by these enzymes has not been formally studied.	mirtazapine	remeron soltab	false	false
@@ -2508,7 +2508,7 @@ therefore, physicians should closely monitor patients for a change in anticoagul
 although mivacron (a mixture of three stereoisomers) has been administered safely following succinylcholine-facilitated tracheal intubation, the interaction between mivacron and succinylcholine has not been systematically studied.	mivacron	mivacron	false	false
 although mivacron (a mixture of three stereoisomers) has been administered safely following succinylcholine-facilitated tracheal intubation, the interaction between mivacron and succinylcholine has not been systematically studied.	mivacron	succinylcholine	false	false
 although mivacron (a mixture of three stereoisomers) has been administered safely following succinylcholine-facilitated tracheal intubation, the interaction between mivacron and succinylcholine has not been systematically studied.	mivacron	succinylcholine	false	false
-prior administration of succinylcholine can potentiate the neuromuscular blocking effects of nondepolarizing agents.	succinylcholine	nondepolarizing agents	false	effect
+prior administration of succinylcholine can potentiate the neuromuscular blocking effects of nondepolarizing agents.	succinylcholine	nondepolarizing agents	effect	effect
 evidence of spontaneous recovery from succinylcholine should be observed before the administration of mivacron.	succinylcholine	mivacron	false	advise
 the use of mivacron before succinylcholine to attenuate some of the side effects of succinylcholine has not been studied.	mivacron	succinylcholine	false	false
 the use of mivacron before succinylcholine to attenuate some of the side effects of succinylcholine has not been studied.	mivacron	succinylcholine	false	false
@@ -2520,13 +2520,13 @@ isoflurane and enflurane (administered with nitrous oxide/oxygen to achieve 1.25
 isoflurane and enflurane (administered with nitrous oxide/oxygen to achieve 1.25 m.c.	enflurane	nitrous oxide	false	false
 isoflurane and enflurane (administered with nitrous oxide/oxygen to achieve 1.25 m.c.	enflurane	oxygen	false	false
 isoflurane and enflurane (administered with nitrous oxide/oxygen to achieve 1.25 m.c.	nitrous oxide	oxygen	false	false
-a greater potentiation of the neuromuscular blocking effects of mivacron may be expected with higher concentrations of enflurane or isoflurane.	mivacron	enflurane	false	false
+a greater potentiation of the neuromuscular blocking effects of mivacron may be expected with higher concentrations of enflurane or isoflurane.	mivacron	enflurane	mechanism	false
 a greater potentiation of the neuromuscular blocking effects of mivacron may be expected with higher concentrations of enflurane or isoflurane.	mivacron	isoflurane	false	false
 a greater potentiation of the neuromuscular blocking effects of mivacron may be expected with higher concentrations of enflurane or isoflurane.	enflurane	isoflurane	false	false
-other drugs which may enhance the neuromuscular blocking action of nondepolarizing agents such as mivacron include certain antibiotics (e.g., aminoglycosides, tetracyclines, bacitracin, polymyxins, lincomycin, clindamycin, colistin, and sodium colistimethate), magnesium salts, lithium, local anesthetics, procainamide, and quinidine.	nondepolarizing agents	mivacron	false	false
-other drugs which may enhance the neuromuscular blocking action of nondepolarizing agents such as mivacron include certain antibiotics (e.g., aminoglycosides, tetracyclines, bacitracin, polymyxins, lincomycin, clindamycin, colistin, and sodium colistimethate), magnesium salts, lithium, local anesthetics, procainamide, and quinidine.	nondepolarizing agents	antibiotics	false	int
+other drugs which may enhance the neuromuscular blocking action of nondepolarizing agents such as mivacron include certain antibiotics (e.g., aminoglycosides, tetracyclines, bacitracin, polymyxins, lincomycin, clindamycin, colistin, and sodium colistimethate), magnesium salts, lithium, local anesthetics, procainamide, and quinidine.	nondepolarizing agents	mivacron	effect	false
+other drugs which may enhance the neuromuscular blocking action of nondepolarizing agents such as mivacron include certain antibiotics (e.g., aminoglycosides, tetracyclines, bacitracin, polymyxins, lincomycin, clindamycin, colistin, and sodium colistimethate), magnesium salts, lithium, local anesthetics, procainamide, and quinidine.	nondepolarizing agents	antibiotics	effect	int
 other drugs which may enhance the neuromuscular blocking action of nondepolarizing agents such as mivacron include certain antibiotics (e.g., aminoglycosides, tetracyclines, bacitracin, polymyxins, lincomycin, clindamycin, colistin, and sodium colistimethate), magnesium salts, lithium, local anesthetics, procainamide, and quinidine.	nondepolarizing agents	aminoglycosides	false	int
-other drugs which may enhance the neuromuscular blocking action of nondepolarizing agents such as mivacron include certain antibiotics (e.g., aminoglycosides, tetracyclines, bacitracin, polymyxins, lincomycin, clindamycin, colistin, and sodium colistimethate), magnesium salts, lithium, local anesthetics, procainamide, and quinidine.	nondepolarizing agents	tetracyclines	false	int
+other drugs which may enhance the neuromuscular blocking action of nondepolarizing agents such as mivacron include certain antibiotics (e.g., aminoglycosides, tetracyclines, bacitracin, polymyxins, lincomycin, clindamycin, colistin, and sodium colistimethate), magnesium salts, lithium, local anesthetics, procainamide, and quinidine.	nondepolarizing agents	tetracyclines	effect	int
 other drugs which may enhance the neuromuscular blocking action of nondepolarizing agents such as mivacron include certain antibiotics (e.g., aminoglycosides, tetracyclines, bacitracin, polymyxins, lincomycin, clindamycin, colistin, and sodium colistimethate), magnesium salts, lithium, local anesthetics, procainamide, and quinidine.	nondepolarizing agents	bacitracin	false	int
 other drugs which may enhance the neuromuscular blocking action of nondepolarizing agents such as mivacron include certain antibiotics (e.g., aminoglycosides, tetracyclines, bacitracin, polymyxins, lincomycin, clindamycin, colistin, and sodium colistimethate), magnesium salts, lithium, local anesthetics, procainamide, and quinidine.	nondepolarizing agents	polymyxins	false	int
 other drugs which may enhance the neuromuscular blocking action of nondepolarizing agents such as mivacron include certain antibiotics (e.g., aminoglycosides, tetracyclines, bacitracin, polymyxins, lincomycin, clindamycin, colistin, and sodium colistimethate), magnesium salts, lithium, local anesthetics, procainamide, and quinidine.	nondepolarizing agents	lincomycin	false	int
@@ -2534,8 +2534,8 @@ other drugs which may enhance the neuromuscular blocking action of nondepolarizi
 other drugs which may enhance the neuromuscular blocking action of nondepolarizing agents such as mivacron include certain antibiotics (e.g., aminoglycosides, tetracyclines, bacitracin, polymyxins, lincomycin, clindamycin, colistin, and sodium colistimethate), magnesium salts, lithium, local anesthetics, procainamide, and quinidine.	nondepolarizing agents	colistin	false	int
 other drugs which may enhance the neuromuscular blocking action of nondepolarizing agents such as mivacron include certain antibiotics (e.g., aminoglycosides, tetracyclines, bacitracin, polymyxins, lincomycin, clindamycin, colistin, and sodium colistimethate), magnesium salts, lithium, local anesthetics, procainamide, and quinidine.	nondepolarizing agents	sodium colistimethate	false	int
 other drugs which may enhance the neuromuscular blocking action of nondepolarizing agents such as mivacron include certain antibiotics (e.g., aminoglycosides, tetracyclines, bacitracin, polymyxins, lincomycin, clindamycin, colistin, and sodium colistimethate), magnesium salts, lithium, local anesthetics, procainamide, and quinidine.	nondepolarizing agents	magnesium	false	int
-other drugs which may enhance the neuromuscular blocking action of nondepolarizing agents such as mivacron include certain antibiotics (e.g., aminoglycosides, tetracyclines, bacitracin, polymyxins, lincomycin, clindamycin, colistin, and sodium colistimethate), magnesium salts, lithium, local anesthetics, procainamide, and quinidine.	nondepolarizing agents	lithium	false	int
-other drugs which may enhance the neuromuscular blocking action of nondepolarizing agents such as mivacron include certain antibiotics (e.g., aminoglycosides, tetracyclines, bacitracin, polymyxins, lincomycin, clindamycin, colistin, and sodium colistimethate), magnesium salts, lithium, local anesthetics, procainamide, and quinidine.	nondepolarizing agents	anesthetics	false	int
+other drugs which may enhance the neuromuscular blocking action of nondepolarizing agents such as mivacron include certain antibiotics (e.g., aminoglycosides, tetracyclines, bacitracin, polymyxins, lincomycin, clindamycin, colistin, and sodium colistimethate), magnesium salts, lithium, local anesthetics, procainamide, and quinidine.	nondepolarizing agents	lithium	effect	int
+other drugs which may enhance the neuromuscular blocking action of nondepolarizing agents such as mivacron include certain antibiotics (e.g., aminoglycosides, tetracyclines, bacitracin, polymyxins, lincomycin, clindamycin, colistin, and sodium colistimethate), magnesium salts, lithium, local anesthetics, procainamide, and quinidine.	nondepolarizing agents	anesthetics	effect	int
 other drugs which may enhance the neuromuscular blocking action of nondepolarizing agents such as mivacron include certain antibiotics (e.g., aminoglycosides, tetracyclines, bacitracin, polymyxins, lincomycin, clindamycin, colistin, and sodium colistimethate), magnesium salts, lithium, local anesthetics, procainamide, and quinidine.	nondepolarizing agents	procainamide	false	int
 other drugs which may enhance the neuromuscular blocking action of nondepolarizing agents such as mivacron include certain antibiotics (e.g., aminoglycosides, tetracyclines, bacitracin, polymyxins, lincomycin, clindamycin, colistin, and sodium colistimethate), magnesium salts, lithium, local anesthetics, procainamide, and quinidine.	nondepolarizing agents	quinidine	false	int
 other drugs which may enhance the neuromuscular blocking action of nondepolarizing agents such as mivacron include certain antibiotics (e.g., aminoglycosides, tetracyclines, bacitracin, polymyxins, lincomycin, clindamycin, colistin, and sodium colistimethate), magnesium salts, lithium, local anesthetics, procainamide, and quinidine.	mivacron	antibiotics	false	int
@@ -2907,7 +2907,7 @@ use with other central nervous system depressants: the depressant effects of mor
 use with other central nervous system depressants: the depressant effects of morphine are potentiated by the presence of other cns depressants such as alcohol, sedatives, antihistaminics, or psychotropic drugs.	central nervous system depressants	antihistaminics	false	false
 use with other central nervous system depressants: the depressant effects of morphine are potentiated by the presence of other cns depressants such as alcohol, sedatives, antihistaminics, or psychotropic drugs.	central nervous system depressants	psychotropic drugs	false	false
 use with other central nervous system depressants: the depressant effects of morphine are potentiated by the presence of other cns depressants such as alcohol, sedatives, antihistaminics, or psychotropic drugs.	morphine	cns depressants	false	effect
-use with other central nervous system depressants: the depressant effects of morphine are potentiated by the presence of other cns depressants such as alcohol, sedatives, antihistaminics, or psychotropic drugs.	morphine	alcohol	false	effect
+use with other central nervous system depressants: the depressant effects of morphine are potentiated by the presence of other cns depressants such as alcohol, sedatives, antihistaminics, or psychotropic drugs.	morphine	alcohol	effect	effect
 use with other central nervous system depressants: the depressant effects of morphine are potentiated by the presence of other cns depressants such as alcohol, sedatives, antihistaminics, or psychotropic drugs.	morphine	sedatives	false	effect
 use with other central nervous system depressants: the depressant effects of morphine are potentiated by the presence of other cns depressants such as alcohol, sedatives, antihistaminics, or psychotropic drugs.	morphine	antihistaminics	false	effect
 use with other central nervous system depressants: the depressant effects of morphine are potentiated by the presence of other cns depressants such as alcohol, sedatives, antihistaminics, or psychotropic drugs.	morphine	psychotropic drugs	false	effect
@@ -2962,7 +2962,7 @@ it is recommended that myfortic and antacids not be administered simultaneously.
 cyclosporine: when studied in stable renal transplant patients, cyclosporine, usp (modified) pharmacokinetics were unaffected by steady state dosing of myfortic.	cyclosporine	cyclosporine	false	false
 cyclosporine: when studied in stable renal transplant patients, cyclosporine, usp (modified) pharmacokinetics were unaffected by steady state dosing of myfortic.	cyclosporine	myfortic	false	false
 cyclosporine: when studied in stable renal transplant patients, cyclosporine, usp (modified) pharmacokinetics were unaffected by steady state dosing of myfortic.	cyclosporine	myfortic	false	false
-acyclovir/ganciclovir: may be taken with myfortic;	acyclovir	ganciclovir	false	false
+acyclovir/ganciclovir: may be taken with myfortic;	acyclovir	ganciclovir	advise	false
 acyclovir/ganciclovir: may be taken with myfortic;	acyclovir	myfortic	advise	false
 acyclovir/ganciclovir: may be taken with myfortic;	ganciclovir	myfortic	advise	false
 both acyclovir/ganciclovir and mpag concentrations are increased in the presence of renal impairment, their coexistence may compete for tubular secretion and further increase in the concentrations of the two.	acyclovir	ganciclovir	false	false
@@ -3002,7 +3002,7 @@ oral contraceptives: given the different metabolism of myfortic and oral contrac
 oral contraceptives: given the different metabolism of myfortic and oral contraceptives, no drug interaction between these two classes of drug is expected.	contraceptives	contraceptives	false	false
 oral contraceptives: given the different metabolism of myfortic and oral contraceptives, no drug interaction between these two classes of drug is expected.	myfortic	contraceptives	false	false
 however, in a drug-drug interaction study, mean levonorgesterol auc was decreased by 15% when coadministered with mycophenolate mofetil.	levonorgesterol	mycophenolate mofetil	false	mechanism
-therefore, it is recommended that oral contraceptives are co- administered with myfortic with caution and additional birth control methods be considered.	contraceptives	myfortic	effect	advise
+therefore, it is recommended that oral contraceptives are co- administered with myfortic with caution and additional birth control methods be considered.	contraceptives	myfortic	false	advise
 live vaccines: during treatment with myfortic, the use of live attenuated vaccines should be avoided and patients should be advised that vaccinations may be less effective.	live vaccines	myfortic	false	false
 live vaccines: during treatment with myfortic, the use of live attenuated vaccines should be avoided and patients should be advised that vaccinations may be less effective.	live vaccines	live attenuated vaccines	false	false
 live vaccines: during treatment with myfortic, the use of live attenuated vaccines should be avoided and patients should be advised that vaccinations may be less effective.	myfortic	live attenuated vaccines	false	advise
@@ -3179,8 +3179,8 @@ when oxandrolone therapy is initiated in a patient already receiving treatment w
 when oxandrolone therapy is initiated in a patient already receiving treatment with warfarin, the inr or prothrombin time (pt) should be monitored closely and the dose of warfarin adjusted as necessary until a stable target inr or pt has been achieved.	oxandrolone	warfarin	false	false
 when oxandrolone therapy is initiated in a patient already receiving treatment with warfarin, the inr or prothrombin time (pt) should be monitored closely and the dose of warfarin adjusted as necessary until a stable target inr or pt has been achieved.	warfarin	warfarin	false	false
 furthermore, in patients receiving both drugs, careful monitoring of the inr or pt, and adjustment of the warfarin dosage if indicated are recommended when the oxandrolone dose is changed or discontinued.	warfarin	oxandrolone	false	advise
-oral hypoglycemic agents oxandrolone may inhibit the metabolism of oral hypoglycemic agents.	hypoglycemic agents	oxandrolone	false	false
-oral hypoglycemic agents oxandrolone may inhibit the metabolism of oral hypoglycemic agents.	hypoglycemic agents	hypoglycemic agents	false	false
+oral hypoglycemic agents oxandrolone may inhibit the metabolism of oral hypoglycemic agents.	hypoglycemic agents	oxandrolone	effect	false
+oral hypoglycemic agents oxandrolone may inhibit the metabolism of oral hypoglycemic agents.	hypoglycemic agents	hypoglycemic agents	effect	false
 oral hypoglycemic agents oxandrolone may inhibit the metabolism of oral hypoglycemic agents.	oxandrolone	hypoglycemic agents	false	mechanism
 adrenal steroids or acth in patients with edema, concomitant administration with adrenal cortical steroids or acth may increase the edema.	adrenal steroids	acth	false	false
 adrenal steroids or acth in patients with edema, concomitant administration with adrenal cortical steroids or acth may increase the edema.	adrenal steroids	adrenal cortical steroids	false	false
@@ -3282,7 +3282,7 @@ the concomitant use of other cns depressants including sedatives, hypnotics, tra
 the concomitant use of other cns depressants including sedatives, hypnotics, tranquilizers, general anesthetics, phenothiazines, other opioids, tricyclic antidepressants, monoamine oxidase (mao) inhibitors, and alcohol may produce additive cns depressant effects.	monoamine oxidase (mao) inhibitors	alcohol	false	false
 anticholinergics or other medications with anticholinergic activity when used concurrently with opioid analgesics may result in increased risk of urinary retention and/or severe constipation, which may lead to paralytic ileus.	anticholinergics	opioid analgesics	false	effect
 it has been reported that the incidence of bradycardia was increased when oxymorphone was combined with propofol for induction of anesthesia.	oxymorphone	propofol	false	effect
-in addition, cns toxicity has been reported (confusion, disorientation, respiratory depression, apnea, seizures) following coadministration of cimetidine with opioid analgesics;	cimetidine	opioid analgesics	effect	effect
+in addition, cns toxicity has been reported (confusion, disorientation, respiratory depression, apnea, seizures) following coadministration of cimetidine with opioid analgesics;	cimetidine	opioid analgesics	false	effect
 potential for invega    to affect other drugs paliperidone is not expected to cause clinically important pharmacokinetic interactions with drugs that are metabolized by cytochrome p450 isozymes.	invega	paliperidone	false	false
 given the primary cns effects of paliperidone, invega    should be used with caution in combination with other centrally acting drugs and alcohol.	paliperidone	invega	false	false
 given the primary cns effects of paliperidone, invega    should be used with caution in combination with other centrally acting drugs and alcohol.	paliperidone	centrally acting drugs	false	advise
@@ -3290,9 +3290,9 @@ given the primary cns effects of paliperidone, invega    should be used with cau
 given the primary cns effects of paliperidone, invega    should be used with caution in combination with other centrally acting drugs and alcohol.	invega	centrally acting drugs	false	advise
 given the primary cns effects of paliperidone, invega    should be used with caution in combination with other centrally acting drugs and alcohol.	invega	alcohol	false	advise
 given the primary cns effects of paliperidone, invega    should be used with caution in combination with other centrally acting drugs and alcohol.	centrally acting drugs	alcohol	false	false
-paliperidone may antagonize the effect of levodopa and other dopamine agonists.	paliperidone	levodopa	false	effect
+paliperidone may antagonize the effect of levodopa and other dopamine agonists.	paliperidone	levodopa	effect	effect
 paliperidone may antagonize the effect of levodopa and other dopamine agonists.	paliperidone	dopamine agonists	false	effect
-paliperidone may antagonize the effect of levodopa and other dopamine agonists.	levodopa	dopamine agonists	false	false
+paliperidone may antagonize the effect of levodopa and other dopamine agonists.	levodopa	dopamine agonists	effect	false
 potential for other drugs to affect invega    paliperidone is not a substrate of cyp1a2, cyp2a6, cyp2c9, and cyp2c19, so that an interaction with inhibitors or inducers of these isozymes is unlikely.	invega	paliperidone	false	false
 based on studies evaluating possible interactions of pantoprazole with other drugs, no dosage adjustment is needed with concomitant use of the following: theophylline, cisapride, antipyrine, caffeine, carbamazepine, diazepam (and its active metabolite, desmethyldiazepam), diclofenac, naproxen, piroxicam, digoxin, ethanol, glyburide, an oral contraceptive (levonorgestrel/ethinyl estradiol), metoprolol, nifedipine, phenytoin, warfarin, midazolam, clarithromycin, metronidazole, or amoxicillin.	pantoprazole	theophylline	false	false
 based on studies evaluating possible interactions of pantoprazole with other drugs, no dosage adjustment is needed with concomitant use of the following: theophylline, cisapride, antipyrine, caffeine, carbamazepine, diazepam (and its active metabolite, desmethyldiazepam), diclofenac, naproxen, piroxicam, digoxin, ethanol, glyburide, an oral contraceptive (levonorgestrel/ethinyl estradiol), metoprolol, nifedipine, phenytoin, warfarin, midazolam, clarithromycin, metronidazole, or amoxicillin.	pantoprazole	cisapride	false	false
@@ -3734,7 +3734,7 @@ a multiple dose drug-drug interaction study demonstrated that ketoconazole appro
 dose adjustment of zemplar capsules may be required, and ipth and serum calcium concentrations should be closely monitored if a patient initiates or discontinues therapy with a strong cyp3a4 inhibitor such as ketoconazole.	zemplar	ketoconazole	false	advise
 drugs that impair intestinal absorption of fat-soluble vitamins, such as cholestyramine, may interfere with the absorption of zemplar capsules.	fat-soluble vitamins	cholestyramine	false	mechanism
 drugs that impair intestinal absorption of fat-soluble vitamins, such as cholestyramine, may interfere with the absorption of zemplar capsules.	fat-soluble vitamins	zemplar	false	false
-drugs that impair intestinal absorption of fat-soluble vitamins, such as cholestyramine, may interfere with the absorption of zemplar capsules.	cholestyramine	zemplar	false	mechanism
+drugs that impair intestinal absorption of fat-soluble vitamins, such as cholestyramine, may interfere with the absorption of zemplar capsules.	cholestyramine	zemplar	effect	mechanism
 patients receiving lithium and neulasta should have more frequent monitoring of neutrophil counts.	lithium	neulasta	false	advise
 in a pharmacokinetic study of 18 chronic hepatitis c patients concomitantly receiving methadone, treatment with peg-intron once weekly for 4 weeks was associated with a mean increase of 16% in methadone auc;	methadone	peg-intron	false	mechanism
 in a pharmacokinetic study of 18 chronic hepatitis c patients concomitantly receiving methadone, treatment with peg-intron once weekly for 4 weeks was associated with a mean increase of 16% in methadone auc;	methadone	methadone	false	false
@@ -3837,7 +3837,7 @@ diuretics: patients on diuretics, and especially those started recently, may occ
 diuretics: patients on diuretics, and especially those started recently, may occasionally experience an excessive reduction of blood pressure after initiation of aceon    tablets therapy.	diuretics	aceon	false	false
 diuretics: patients on diuretics, and especially those started recently, may occasionally experience an excessive reduction of blood pressure after initiation of aceon    tablets therapy.	diuretics	aceon	false	effect
 the possibility of hypotensive effects can be minimized by either discontinuing the diuretic or increasing the salt intake prior to initiation of treatment with perindopril.	diuretic	perindopril	false	effect
-if diuretics cannot be interrupted, close medical supervision should be provided with the first dose of aceon    tablets, for at least two hours and until blood pressure has stabilized for another hour.	diuretics	aceon	false	advise
+if diuretics cannot be interrupted, close medical supervision should be provided with the first dose of aceon    tablets, for at least two hours and until blood pressure has stabilized for another hour.	diuretics	aceon	effect	advise
 the rate and extent of perindopril absorption and elimination are not affected by concomitant diuretics.	perindopril	diuretics	false	false
 the bioavailability of perindoprilat was reduced by diuretics, however, and this was associated with a decrease in plasma ace inhibition.	perindoprilat	diuretics	false	false
 potassium supplements and potassium-sparing diuretics: aceon    tablets may increase serum potassium because of its potential to decrease aldosterone production.	potassium	potassium-sparing diuretics	false	false
@@ -3877,7 +3877,7 @@ lithium: increased serum lithium and symptoms of lithium toxicity have been repo
 lithium: increased serum lithium and symptoms of lithium toxicity have been reported in patients receiving concomitant lithium and ace inhibitor therapy.	lithium	lithium	false	false
 lithium: increased serum lithium and symptoms of lithium toxicity have been reported in patients receiving concomitant lithium and ace inhibitor therapy.	lithium	lithium	false	false
 lithium: increased serum lithium and symptoms of lithium toxicity have been reported in patients receiving concomitant lithium and ace inhibitor therapy.	lithium	lithium	false	false
-use of a diuretic may further increase the risk of lithium toxicity.	diuretic	lithium	false	false
+use of a diuretic may further increase the risk of lithium toxicity.	diuretic	lithium	effect	false
 digoxin: a controlled pharmacokinetic study has shown no effect on plasma digoxin concentrations when coadministered with aceon    tablets, but an effect of digoxin on the plasma concentration of perindopril/perindoprilat has not been excluded.	digoxin	digoxin	false	false
 digoxin: a controlled pharmacokinetic study has shown no effect on plasma digoxin concentrations when coadministered with aceon    tablets, but an effect of digoxin on the plasma concentration of perindopril/perindoprilat has not been excluded.	digoxin	aceon	false	false
 digoxin: a controlled pharmacokinetic study has shown no effect on plasma digoxin concentrations when coadministered with aceon    tablets, but an effect of digoxin on the plasma concentration of perindopril/perindoprilat has not been excluded.	digoxin	digoxin	false	false
@@ -3898,7 +3898,7 @@ gentamicin: animal data have suggested the possibility of interaction between pe
 gentamicin: animal data have suggested the possibility of interaction between perindopril and gentamicin.	perindopril	gentamicin	false	int
 food interaction: oral administration of aceon    tablets with food does not significantly lower the rate or extent of perindopril absorption relative to the fasted state.	aceon	perindopril	false	false
 however, the extent of biotransformation of perindopril to the active metabolite, perindoprilat, is reduced approximately 43%, resulting in a reduction in the plasma ace inhibition curve of approximately 20%, probably clinically insignificant.	perindopril	perindoprilat	false	false
-concomitant use of alcohol with phentermine hydrochloride may result in an adverse drug interaction.	alcohol	phentermine hydrochloride	false	int
+concomitant use of alcohol with phentermine hydrochloride may result in an adverse drug interaction.	alcohol	phentermine hydrochloride	advise	int
 vasopressors, particularly metaraminol, may cause serious cardiac arrhythmias during halothane anesthesia and therefore should be used only with great caution or not at all.	vasopressors	metaraminol	false	false
 vasopressors, particularly metaraminol, may cause serious cardiac arrhythmias during halothane anesthesia and therefore should be used only with great caution or not at all.	vasopressors	halothane	false	effect
 vasopressors, particularly metaraminol, may cause serious cardiac arrhythmias during halothane anesthesia and therefore should be used only with great caution or not at all.	metaraminol	halothane	false	effect
@@ -3908,17 +3908,17 @@ mao inhibitors: the pressor effect of sympathomimetic pressor amines is markedly
 mao inhibitors: the pressor effect of sympathomimetic pressor amines is markedly potentiated in patients receiving monoamine oxidase inhibitors (maoi).	sympathomimetic pressor amines	monoamine oxidase inhibitors	false	effect
 mao inhibitors: the pressor effect of sympathomimetic pressor amines is markedly potentiated in patients receiving monoamine oxidase inhibitors (maoi).	sympathomimetic pressor amines	maoi	false	effect
 mao inhibitors: the pressor effect of sympathomimetic pressor amines is markedly potentiated in patients receiving monoamine oxidase inhibitors (maoi).	monoamine oxidase inhibitors	maoi	false	false
-the pressor response of adrenergic agents may also be potentiated by tricyclic antidepressants.	adrenergic agents	tricyclic antidepressants	false	effect
+the pressor response of adrenergic agents may also be potentiated by tricyclic antidepressants.	adrenergic agents	tricyclic antidepressants	effect	effect
 vasopressors, particularly metaraminol, may cause serious cardiac arrhythmias during halothane anesthesia and therefore should be used only with great caution or not at all.	vasopressors	metaraminol	false	false
 vasopressors, particularly metaraminol, may cause serious cardiac arrhythmias during halothane anesthesia and therefore should be used only with great caution or not at all.	vasopressors	halothane	false	effect
 vasopressors, particularly metaraminol, may cause serious cardiac arrhythmias during halothane anesthesia and therefore should be used only with great caution or not at all.	metaraminol	halothane	false	effect
-mao inhibitors - the pressor effect of sympathomimetic pressor amines is markedly potentiated in patients receiving monoamine oxidase inhibitors (maoi).	mao inhibitors	sympathomimetic pressor amines	false	false
+mao inhibitors - the pressor effect of sympathomimetic pressor amines is markedly potentiated in patients receiving monoamine oxidase inhibitors (maoi).	mao inhibitors	sympathomimetic pressor amines	effect	false
 mao inhibitors - the pressor effect of sympathomimetic pressor amines is markedly potentiated in patients receiving monoamine oxidase inhibitors (maoi).	mao inhibitors	monoamine oxidase inhibitors	false	false
 mao inhibitors - the pressor effect of sympathomimetic pressor amines is markedly potentiated in patients receiving monoamine oxidase inhibitors (maoi).	mao inhibitors	maoi	false	false
 mao inhibitors - the pressor effect of sympathomimetic pressor amines is markedly potentiated in patients receiving monoamine oxidase inhibitors (maoi).	sympathomimetic pressor amines	monoamine oxidase inhibitors	false	effect
 mao inhibitors - the pressor effect of sympathomimetic pressor amines is markedly potentiated in patients receiving monoamine oxidase inhibitors (maoi).	sympathomimetic pressor amines	maoi	false	effect
 mao inhibitors - the pressor effect of sympathomimetic pressor amines is markedly potentiated in patients receiving monoamine oxidase inhibitors (maoi).	monoamine oxidase inhibitors	maoi	false	false
-the pressor response of adrenergic agents may also be potentiated by tricyclic antidepressants.	adrenergic agents	tricyclic antidepressants	false	effect
+the pressor response of adrenergic agents may also be potentiated by tricyclic antidepressants.	adrenergic agents	tricyclic antidepressants	effect	effect
 pilocarpine should be administered with caution to patients taking beta adrenergic antagonists because of the possibility of conduction disturbances.	pilocarpine	beta adrenergic antagonists	false	advise
 these effects should be considered when anticholinergic properties may be contributing to the therapeutic effect of concomitant medication (e.g., atropine, inhaled ipratropium).	atropine	ipratropium	false	false
 while no formal drug interaction studies have been performed, the following concomitant drugs were used in at least 10% of patients in either or both sj   grens efficacy studies: acetylsalicylic acid, artificial tears, calcium, conjugated estrogens, hydroxychloroquine sulfate, ibuprofen, levothyroxine sodium, medroxyprogesterone acetate, methotrexate, multivitamins, naproxen, omeprazole, paracetamol, and prednisone.	acetylsalicylic acid	calcium	false	false
@@ -4267,9 +4267,9 @@ corticosteroids may increase the clearance of chronic high dose aspirin.	cortico
 this could lead to decreased salicylate serum levels or increase the risk of salicylate toxicity when corticosteroid is withdrawn.	salicylate	salicylate	false	false
 this could lead to decreased salicylate serum levels or increase the risk of salicylate toxicity when corticosteroid is withdrawn.	salicylate	corticosteroid	false	false
 this could lead to decreased salicylate serum levels or increase the risk of salicylate toxicity when corticosteroid is withdrawn.	salicylate	corticosteroid	false	effect
-aspirin should be used cautiously in conjunction with corticosteroids in patients suffering from hypoprothrombinemia.	aspirin	corticosteroids	advise	advise
-the effect of corticosteroids on oral anticoagulants is variable.	corticosteroids	anticoagulants	false	effect
-there are reports of enhanced as well as diminished effects of anticoagulants when given concurrently with corticosteroids.	anticoagulants	corticosteroids	false	effect
+aspirin should be used cautiously in conjunction with corticosteroids in patients suffering from hypoprothrombinemia.	aspirin	corticosteroids	false	advise
+the effect of corticosteroids on oral anticoagulants is variable.	corticosteroids	anticoagulants	effect	effect
+there are reports of enhanced as well as diminished effects of anticoagulants when given concurrently with corticosteroids.	anticoagulants	corticosteroids	advise	effect
 anticholinesterases: concurrent use of procaine hydrochloride and anticholinesterase agents may result in increased systemic toxicity since anticholinesterases inhibit the breakdown of procaine hydrochloride.	anticholinesterases	procaine hydrochloride	false	false
 anticholinesterases: concurrent use of procaine hydrochloride and anticholinesterase agents may result in increased systemic toxicity since anticholinesterases inhibit the breakdown of procaine hydrochloride.	anticholinesterases	anticholinesterase agents	false	false
 anticholinesterases: concurrent use of procaine hydrochloride and anticholinesterase agents may result in increased systemic toxicity since anticholinesterases inhibit the breakdown of procaine hydrochloride.	anticholinesterases	anticholinesterases	false	false
@@ -4298,11 +4298,11 @@ sulfonamides: concurrent use of procaine hydrochloride and sulfonamides may resu
 sulfonamides: concurrent use of procaine hydrochloride and sulfonamides may result in a reduction of the antibacterial action of the sulfonamide.	procaine hydrochloride	sulfonamides	false	effect
 sulfonamides: concurrent use of procaine hydrochloride and sulfonamides may result in a reduction of the antibacterial action of the sulfonamide.	procaine hydrochloride	sulfonamide	false	false
 sulfonamides: concurrent use of procaine hydrochloride and sulfonamides may result in a reduction of the antibacterial action of the sulfonamide.	sulfonamides	sulfonamide	false	false
-acetazolamide: concurrent use of acetazolamide and procaine hydrochloride may extend the plasma half-life of procaine.	acetazolamide	acetazolamide	false	false
+acetazolamide: concurrent use of acetazolamide and procaine hydrochloride may extend the plasma half-life of procaine.	acetazolamide	acetazolamide	effect	false
 acetazolamide: concurrent use of acetazolamide and procaine hydrochloride may extend the plasma half-life of procaine.	acetazolamide	procaine hydrochloride	false	false
-acetazolamide: concurrent use of acetazolamide and procaine hydrochloride may extend the plasma half-life of procaine.	acetazolamide	procaine	false	false
+acetazolamide: concurrent use of acetazolamide and procaine hydrochloride may extend the plasma half-life of procaine.	acetazolamide	procaine	effect	false
 acetazolamide: concurrent use of acetazolamide and procaine hydrochloride may extend the plasma half-life of procaine.	acetazolamide	procaine hydrochloride	false	mechanism
-acetazolamide: concurrent use of acetazolamide and procaine hydrochloride may extend the plasma half-life of procaine.	acetazolamide	procaine	false	false
+acetazolamide: concurrent use of acetazolamide and procaine hydrochloride may extend the plasma half-life of procaine.	acetazolamide	procaine	effect	false
 acetazolamide: concurrent use of acetazolamide and procaine hydrochloride may extend the plasma half-life of procaine.	procaine hydrochloride	procaine	false	false
 to minimize cns depression and possible potentiation, barbiturates, antihistamines, narcotics, hypotensive agents or phenothiazines should be used with caution.	barbiturates	antihistamines	false	false
 to minimize cns depression and possible potentiation, barbiturates, antihistamines, narcotics, hypotensive agents or phenothiazines should be used with caution.	barbiturates	narcotics	false	false
@@ -4330,9 +4330,9 @@ because matulane exhibits some monoamine oxidase inhibitory activity, sympathomi
 because matulane exhibits some monoamine oxidase inhibitory activity, sympathomimetic drugs, tricyclic antidepressant drugs (e.g., amitriptyline hcl, imipramine hcl) and other drugs and foods with known high tyramine content, such as wine, yogurt, ripe cheese and bananas, should be avoided.	amitriptyline hcl	tyramine	false	false
 because matulane exhibits some monoamine oxidase inhibitory activity, sympathomimetic drugs, tricyclic antidepressant drugs (e.g., amitriptyline hcl, imipramine hcl) and other drugs and foods with known high tyramine content, such as wine, yogurt, ripe cheese and bananas, should be avoided.	imipramine hcl	tyramine	false	false
 no cross-resistance with other chemotherapeutic agents, radiotherapy or steroids has been demonstrated.	chemotherapeutic agents	steroids	false	false
-thiazide diuretics may accentuate the orthostatic hypotension that may occur with phenothiazines.	thiazide diuretics	phenothiazines	false	effect
+thiazide diuretics may accentuate the orthostatic hypotension that may occur with phenothiazines.	thiazide diuretics	phenothiazines	effect	effect
 antihypertensive effects of guanethidine and related compounds may be counteracted when phenothiazines are used concomitantly.	guanethidine	phenothiazines	false	effect
-concomitant administration of propranolol with phenothiazines results in increased plasma levels of both drugs.	propranolol	phenothiazines	false	mechanism
+concomitant administration of propranolol with phenothiazines results in increased plasma levels of both drugs.	propranolol	phenothiazines	mechanism	mechanism
 the induction dose requirements of diprivan injectable emulsion may be reduced in patients with intramuscular or intravenous premedication, particularly with narcotics (eg, morphine, meperidine, and fentanyl, etc.)	diprivan	narcotics	false	effect
 the induction dose requirements of diprivan injectable emulsion may be reduced in patients with intramuscular or intravenous premedication, particularly with narcotics (eg, morphine, meperidine, and fentanyl, etc.)	diprivan	morphine	false	effect
 the induction dose requirements of diprivan injectable emulsion may be reduced in patients with intramuscular or intravenous premedication, particularly with narcotics (eg, morphine, meperidine, and fentanyl, etc.)	diprivan	meperidine	false	effect
@@ -4344,10 +4344,10 @@ the induction dose requirements of diprivan injectable emulsion may be reduced i
 the induction dose requirements of diprivan injectable emulsion may be reduced in patients with intramuscular or intravenous premedication, particularly with narcotics (eg, morphine, meperidine, and fentanyl, etc.)	morphine	fentanyl	false	false
 the induction dose requirements of diprivan injectable emulsion may be reduced in patients with intramuscular or intravenous premedication, particularly with narcotics (eg, morphine, meperidine, and fentanyl, etc.)	meperidine	fentanyl	false	false
 and combinations of opioids and sedatives (eg, benzodiazepines, barbiturates, chloral hydrate, droperidol, etc.).	opioids	sedatives	false	false
-and combinations of opioids and sedatives (eg, benzodiazepines, barbiturates, chloral hydrate, droperidol, etc.).	opioids	benzodiazepines	false	false
+and combinations of opioids and sedatives (eg, benzodiazepines, barbiturates, chloral hydrate, droperidol, etc.).	opioids	benzodiazepines	effect	false
 and combinations of opioids and sedatives (eg, benzodiazepines, barbiturates, chloral hydrate, droperidol, etc.).	opioids	barbiturates	false	false
 and combinations of opioids and sedatives (eg, benzodiazepines, barbiturates, chloral hydrate, droperidol, etc.).	opioids	chloral hydrate	false	false
-and combinations of opioids and sedatives (eg, benzodiazepines, barbiturates, chloral hydrate, droperidol, etc.).	opioids	droperidol	false	false
+and combinations of opioids and sedatives (eg, benzodiazepines, barbiturates, chloral hydrate, droperidol, etc.).	opioids	droperidol	effect	false
 and combinations of opioids and sedatives (eg, benzodiazepines, barbiturates, chloral hydrate, droperidol, etc.).	sedatives	benzodiazepines	false	false
 and combinations of opioids and sedatives (eg, benzodiazepines, barbiturates, chloral hydrate, droperidol, etc.).	sedatives	barbiturates	false	false
 and combinations of opioids and sedatives (eg, benzodiazepines, barbiturates, chloral hydrate, droperidol, etc.).	sedatives	chloral hydrate	false	false
@@ -4389,19 +4389,19 @@ such occurrences have been reported when propoxyphene was administered to patien
 such occurrences have been reported when propoxyphene was administered to patients on antidepressants, anticonvulsants, or warfarin-like drugs.	antidepressants	warfarin	false	false
 such occurrences have been reported when propoxyphene was administered to patients on antidepressants, anticonvulsants, or warfarin-like drugs.	anticonvulsants	warfarin	false	false
 mao inhibitors and beta adrenergic blockers increase the effects of pseudoephedrine.	mao inhibitors	beta adrenergic blockers	false	false
-mao inhibitors and beta adrenergic blockers increase the effects of pseudoephedrine.	mao inhibitors	pseudoephedrine	false	effect
+mao inhibitors and beta adrenergic blockers increase the effects of pseudoephedrine.	mao inhibitors	pseudoephedrine	effect	effect
 mao inhibitors and beta adrenergic blockers increase the effects of pseudoephedrine.	beta adrenergic blockers	pseudoephedrine	false	effect
-sympathomimetics may reduce the antihypertensive effects of methyldopa, mecamylamine, reserpine and veratrum alkaloids.	sympathomimetics	methyldopa	false	effect
+sympathomimetics may reduce the antihypertensive effects of methyldopa, mecamylamine, reserpine and veratrum alkaloids.	sympathomimetics	methyldopa	effect	effect
 sympathomimetics may reduce the antihypertensive effects of methyldopa, mecamylamine, reserpine and veratrum alkaloids.	sympathomimetics	mecamylamine	false	effect
 sympathomimetics may reduce the antihypertensive effects of methyldopa, mecamylamine, reserpine and veratrum alkaloids.	sympathomimetics	reserpine	false	effect
 sympathomimetics may reduce the antihypertensive effects of methyldopa, mecamylamine, reserpine and veratrum alkaloids.	sympathomimetics	veratrum alkaloids	false	effect
-sympathomimetics may reduce the antihypertensive effects of methyldopa, mecamylamine, reserpine and veratrum alkaloids.	methyldopa	mecamylamine	false	false
-sympathomimetics may reduce the antihypertensive effects of methyldopa, mecamylamine, reserpine and veratrum alkaloids.	methyldopa	reserpine	false	false
-sympathomimetics may reduce the antihypertensive effects of methyldopa, mecamylamine, reserpine and veratrum alkaloids.	methyldopa	veratrum alkaloids	false	false
+sympathomimetics may reduce the antihypertensive effects of methyldopa, mecamylamine, reserpine and veratrum alkaloids.	methyldopa	mecamylamine	effect	false
+sympathomimetics may reduce the antihypertensive effects of methyldopa, mecamylamine, reserpine and veratrum alkaloids.	methyldopa	reserpine	effect	false
+sympathomimetics may reduce the antihypertensive effects of methyldopa, mecamylamine, reserpine and veratrum alkaloids.	methyldopa	veratrum alkaloids	effect	false
 sympathomimetics may reduce the antihypertensive effects of methyldopa, mecamylamine, reserpine and veratrum alkaloids.	mecamylamine	reserpine	false	false
 sympathomimetics may reduce the antihypertensive effects of methyldopa, mecamylamine, reserpine and veratrum alkaloids.	mecamylamine	veratrum alkaloids	false	false
 sympathomimetics may reduce the antihypertensive effects of methyldopa, mecamylamine, reserpine and veratrum alkaloids.	reserpine	veratrum alkaloids	false	false
-pyrimethamine may be used with sulfonamides, quinine and other antimalarials, and with other antibiotics.	pyrimethamine	sulfonamides	advise	false
+pyrimethamine may be used with sulfonamides, quinine and other antimalarials, and with other antibiotics.	pyrimethamine	sulfonamides	false	false
 pyrimethamine may be used with sulfonamides, quinine and other antimalarials, and with other antibiotics.	pyrimethamine	quinine	false	false
 pyrimethamine may be used with sulfonamides, quinine and other antimalarials, and with other antibiotics.	pyrimethamine	antimalarials	false	false
 pyrimethamine may be used with sulfonamides, quinine and other antimalarials, and with other antibiotics.	pyrimethamine	antibiotics	false	false
@@ -4422,7 +4422,7 @@ cholestyramine: cholestyramine causes a 60% reduction in the absorption and ente
 warfarin: the coadministration of evista and warfarin has not been assessed under chronic conditions.	warfarin	evista	false	false
 warfarin: the coadministration of evista and warfarin has not been assessed under chronic conditions.	warfarin	warfarin	false	false
 warfarin: the coadministration of evista and warfarin has not been assessed under chronic conditions.	evista	warfarin	false	false
-if evista is given concurrently with warfarin, prothrombin time should be monitored.	evista	warfarin	false	advise
+if evista is given concurrently with warfarin, prothrombin time should be monitored.	evista	warfarin	advise	advise
 in vitro, raloxifene did not affect the binding of warfarin, phenytoin, or tamoxifen.	raloxifene	warfarin	false	false
 in vitro, raloxifene did not affect the binding of warfarin, phenytoin, or tamoxifen.	raloxifene	phenytoin	false	false
 in vitro, raloxifene did not affect the binding of warfarin, phenytoin, or tamoxifen.	raloxifene	tamoxifen	false	false
@@ -4459,7 +4459,7 @@ coadministration of tritec with clarithromycin resulted in increased plasma rani
 coadministration with aspirin results in a slight decrease in the rate of salicylate absorption that is clinically unimportant.	aspirin	salicylate	false	false
 coadministration with a high dose of antacid (170 meq) results in a 28% decrease in plasma concentrations of ranitidine and may decrease plasma concentrations of bismuth from tritec.	antacid	ranitidine	false	mechanism
 coadministration with a high dose of antacid (170 meq) results in a 28% decrease in plasma concentrations of ranitidine and may decrease plasma concentrations of bismuth from tritec.	antacid	tritec	false	mechanism
-coadministration with a high dose of antacid (170 meq) results in a 28% decrease in plasma concentrations of ranitidine and may decrease plasma concentrations of bismuth from tritec.	ranitidine	tritec	false	false
+coadministration with a high dose of antacid (170 meq) results in a 28% decrease in plasma concentrations of ranitidine and may decrease plasma concentrations of bismuth from tritec.	ranitidine	tritec	mechanism	false
 for information on drug interactions associated with ranitidine, refer to the zantac     package insert.	ranitidine	zantac	false	false
 co-administration of oral ketoconazole 200 mg twice daily increased retapamulin geometric mean auc(0-24) and cmax by 81% after topical application of retapamulin ointment, 1% on the abraded skin of healthy adult males.	ketoconazole	retapamulin	false	false
 co-administration of oral ketoconazole 200 mg twice daily increased retapamulin geometric mean auc(0-24) and cmax by 81% after topical application of retapamulin ointment, 1% on the abraded skin of healthy adult males.	ketoconazole	retapamulin	false	mechanism
@@ -4616,11 +4616,11 @@ there are no controlled studies documenting the use of zemuron    before or afte
 ropivacaine should be used with caution in patients receiving other local anesthetics or agents structurally related to amide-type local anesthetics, since the toxic effects of these drugs are additive.	ropivacaine	anesthetics	false	advise
 ropivacaine should be used with caution in patients receiving other local anesthetics or agents structurally related to amide-type local anesthetics, since the toxic effects of these drugs are additive.	ropivacaine	amide-type local anesthetics	false	false
 ropivacaine should be used with caution in patients receiving other local anesthetics or agents structurally related to amide-type local anesthetics, since the toxic effects of these drugs are additive.	anesthetics	amide-type local anesthetics	false	false
-in vivo, the plasma clearance of ropivacaine was reduced by 70% during coadministration of fluvoxamine (25 mg bid for 2 days), a selective and potent cyp1a2 inhibitor.	ropivacaine	fluvoxamine	false	mechanism
-thus strong inhibitors of cytochrome p4501a2, such as fluvoxamine, given concomitantly during administration of ropivacaine, can interact with ropivacaine leading to increased ropivacaine plasma levels.	fluvoxamine	ropivacaine	false	int
-thus strong inhibitors of cytochrome p4501a2, such as fluvoxamine, given concomitantly during administration of ropivacaine, can interact with ropivacaine leading to increased ropivacaine plasma levels.	fluvoxamine	ropivacaine	false	false
-thus strong inhibitors of cytochrome p4501a2, such as fluvoxamine, given concomitantly during administration of ropivacaine, can interact with ropivacaine leading to increased ropivacaine plasma levels.	fluvoxamine	ropivacaine	false	false
-thus strong inhibitors of cytochrome p4501a2, such as fluvoxamine, given concomitantly during administration of ropivacaine, can interact with ropivacaine leading to increased ropivacaine plasma levels.	ropivacaine	ropivacaine	false	false
+in vivo, the plasma clearance of ropivacaine was reduced by 70% during coadministration of fluvoxamine (25 mg bid for 2 days), a selective and potent cyp1a2 inhibitor.	ropivacaine	fluvoxamine	mechanism	mechanism
+thus strong inhibitors of cytochrome p4501a2, such as fluvoxamine, given concomitantly during administration of ropivacaine, can interact with ropivacaine leading to increased ropivacaine plasma levels.	fluvoxamine	ropivacaine	advise	int
+thus strong inhibitors of cytochrome p4501a2, such as fluvoxamine, given concomitantly during administration of ropivacaine, can interact with ropivacaine leading to increased ropivacaine plasma levels.	fluvoxamine	ropivacaine	advise	false
+thus strong inhibitors of cytochrome p4501a2, such as fluvoxamine, given concomitantly during administration of ropivacaine, can interact with ropivacaine leading to increased ropivacaine plasma levels.	fluvoxamine	ropivacaine	advise	false
+thus strong inhibitors of cytochrome p4501a2, such as fluvoxamine, given concomitantly during administration of ropivacaine, can interact with ropivacaine leading to increased ropivacaine plasma levels.	ropivacaine	ropivacaine	advise	false
 thus strong inhibitors of cytochrome p4501a2, such as fluvoxamine, given concomitantly during administration of ropivacaine, can interact with ropivacaine leading to increased ropivacaine plasma levels.	ropivacaine	ropivacaine	false	false
 thus strong inhibitors of cytochrome p4501a2, such as fluvoxamine, given concomitantly during administration of ropivacaine, can interact with ropivacaine leading to increased ropivacaine plasma levels.	ropivacaine	ropivacaine	false	false
 possible interactions with drugs known to be metabolized by cyp1a2 via competitive inhibition such as theophylline and imipramine may also occur.	theophylline	imipramine	false	false
@@ -4814,9 +4814,9 @@ these data suggest that gh administration may alter the clearance of compounds k
 these data suggest that gh administration may alter the clearance of compounds known to be metabolized by cp450 liver enzymes (e.g., corticosteroids, sex steroids, anticonvulsants, cyclosporin).	anticonvulsants	cyclosporin	false	false
 caution is recommended when administering nexavar with compounds that are metabolized/eliminated predominantly by the ugt1a1 pathway (e.g. irinotecan).	nexavar	irinotecan	false	advise
 concomitant treatment with nexavar resulted in a 21% increase in the auc of doxorubicin.	nexavar	doxorubicin	false	mechanism
-caution is recommended when administering doxorubicin with nexavar.	doxorubicin	nexavar	false	advise
+caution is recommended when administering doxorubicin with nexavar.	doxorubicin	nexavar	advise	advise
 zidovudine competitively inhibits the intracellular phosphorylation of stavudine.	zidovudine	stavudine	false	effect
-therefore, use of zidovudine in combination with zerit should be avoided.	zidovudine	zerit	false	advise
+therefore, use of zidovudine in combination with zerit should be avoided.	zidovudine	zerit	advise	advise
 in vitro data indicate that the phosphorylation of stavudine is also inhibited at relevant concentrations by doxorubicin and ribavirin.	stavudine	doxorubicin	false	effect
 in vitro data indicate that the phosphorylation of stavudine is also inhibited at relevant concentrations by doxorubicin and ribavirin.	stavudine	ribavirin	false	effect
 in vitro data indicate that the phosphorylation of stavudine is also inhibited at relevant concentrations by doxorubicin and ribavirin.	doxorubicin	ribavirin	false	false
@@ -4846,7 +4846,7 @@ the concurrent use of streptozocin and phenytoin has been reported in one case t
 the concurrent use of streptozocin and phenytoin has been reported in one case to result in reduced streptozocin cytotoxicity.	phenytoin	streptozocin	false	false
 chemet is not known to interact with other drugs including iron supplements;	chemet	iron	false	false
 concomitant administration of chemet with other chelation therapy, such as cana 2 edta is not recommended.	chemet	cana 2 edta	false	advise
-sulfamethizole may increase the effects of barbiturates, tolbutamide, and uricosurics.	sulfamethizole	barbiturates	false	effect
+sulfamethizole may increase the effects of barbiturates, tolbutamide, and uricosurics.	sulfamethizole	barbiturates	effect	effect
 sulfamethizole may increase the effects of barbiturates, tolbutamide, and uricosurics.	sulfamethizole	tolbutamide	false	effect
 sulfamethizole may increase the effects of barbiturates, tolbutamide, and uricosurics.	sulfamethizole	uricosurics	false	effect
 sulfamethizole may increase the effects of barbiturates, tolbutamide, and uricosurics.	barbiturates	tolbutamide	false	false
@@ -4884,7 +4884,7 @@ in elderly patients concurrently receiving certain diuretics, primarily thiazide
 it has been reported that sulfamethoxazole may prolong the prothrombin time in patients who are receiving the anticoagulant warfarin.	sulfamethoxazole	anticoagulant	false	false
 it has been reported that sulfamethoxazole may prolong the prothrombin time in patients who are receiving the anticoagulant warfarin.	sulfamethoxazole	warfarin	false	effect
 it has been reported that sulfamethoxazole may prolong the prothrombin time in patients who are receiving the anticoagulant warfarin.	anticoagulant	warfarin	false	false
-sulfamethoxazole may inhibit the hepatic metabolism of phenytoin.	sulfamethoxazole	phenytoin	false	mechanism
+sulfamethoxazole may inhibit the hepatic metabolism of phenytoin.	sulfamethoxazole	phenytoin	effect	mechanism
 at a 1.6-g dose, sulfamethoxazole produced a slight but significant increase in the half-life of phenytoin but did not produce a corresponding decrease in the metabolic clearance rate.	sulfamethoxazole	phenytoin	false	mechanism
 sulfonamides can also displace methotrexate from plasma protein-binding sites, thus increasing free methotrexate concentrations.	sulfonamides	methotrexate	false	mechanism
 sulfonamides can also displace methotrexate from plasma protein-binding sites, thus increasing free methotrexate concentrations.	sulfonamides	methotrexate	false	false
@@ -4894,7 +4894,7 @@ reduced absorption of folic acid and digoxin have been reported when those agent
 reduced absorption of folic acid and digoxin have been reported when those agents were administered concomitantly with sulfasalazine.	digoxin	sulfasalazine	false	mechanism
 when daily doses of sulfasalazine 2 g and weekly doses of methotrexate 7.5 mg were coadministered to 15 rheumatoid arthritis patients in a drug-drug interaction study, the pharmacokinetic disposition of the drugs was not altered.	sulfasalazine	methotrexate	false	false
 daily doses of sulfasalazine 2 g (maximum 3 g) and weekly doses of methotrexate 7.5 mg (maximum 15 mg) were administered alone or in combination to 310 rheumatoid arthritis patients in two controlled 52-week clinical studies.	sulfasalazine	methotrexate	false	false
-sulfoxone may increase the effects of barbiturates, tolbutamide, and uricosurics.	sulfoxone	barbiturates	false	effect
+sulfoxone may increase the effects of barbiturates, tolbutamide, and uricosurics.	sulfoxone	barbiturates	effect	effect
 sulfoxone may increase the effects of barbiturates, tolbutamide, and uricosurics.	sulfoxone	tolbutamide	false	effect
 sulfoxone may increase the effects of barbiturates, tolbutamide, and uricosurics.	sulfoxone	uricosurics	false	effect
 sulfoxone may increase the effects of barbiturates, tolbutamide, and uricosurics.	barbiturates	tolbutamide	false	false
@@ -4986,7 +4986,7 @@ co-administration of sutent with strong inhibitors of the cyp3a4 family (e.g., k
 co-administration of sutent with strong inhibitors of the cyp3a4 family (e.g., ketoconazole, itraconazole, clarithromycin, atazanavir, indinavir, nefazodone, nelfinavir, ritonavir, saquinavir, telithromycin, voriconizole) may increases sunitinib concentrations.	sutent	ritonavir	false	mechanism
 co-administration of sutent with strong inhibitors of the cyp3a4 family (e.g., ketoconazole, itraconazole, clarithromycin, atazanavir, indinavir, nefazodone, nelfinavir, ritonavir, saquinavir, telithromycin, voriconizole) may increases sunitinib concentrations.	sutent	saquinavir	false	mechanism
 co-administration of sutent with strong inhibitors of the cyp3a4 family (e.g., ketoconazole, itraconazole, clarithromycin, atazanavir, indinavir, nefazodone, nelfinavir, ritonavir, saquinavir, telithromycin, voriconizole) may increases sunitinib concentrations.	sutent	telithromycin	false	mechanism
-co-administration of sutent with strong inhibitors of the cyp3a4 family (e.g., ketoconazole, itraconazole, clarithromycin, atazanavir, indinavir, nefazodone, nelfinavir, ritonavir, saquinavir, telithromycin, voriconizole) may increases sunitinib concentrations.	sutent	voriconizole	false	mechanism
+co-administration of sutent with strong inhibitors of the cyp3a4 family (e.g., ketoconazole, itraconazole, clarithromycin, atazanavir, indinavir, nefazodone, nelfinavir, ritonavir, saquinavir, telithromycin, voriconizole) may increases sunitinib concentrations.	sutent	voriconizole	effect	mechanism
 co-administration of sutent with strong inhibitors of the cyp3a4 family (e.g., ketoconazole, itraconazole, clarithromycin, atazanavir, indinavir, nefazodone, nelfinavir, ritonavir, saquinavir, telithromycin, voriconizole) may increases sunitinib concentrations.	sutent	sunitinib	false	false
 co-administration of sutent with strong inhibitors of the cyp3a4 family (e.g., ketoconazole, itraconazole, clarithromycin, atazanavir, indinavir, nefazodone, nelfinavir, ritonavir, saquinavir, telithromycin, voriconizole) may increases sunitinib concentrations.	ketoconazole	itraconazole	false	false
 co-administration of sutent with strong inhibitors of the cyp3a4 family (e.g., ketoconazole, itraconazole, clarithromycin, atazanavir, indinavir, nefazodone, nelfinavir, ritonavir, saquinavir, telithromycin, voriconizole) may increases sunitinib concentrations.	ketoconazole	clarithromycin	false	false
@@ -5059,7 +5059,7 @@ co-administration of sutent with inducers of the cyp3a4 family (e.g., dexamethas
 co-administration of sutent with inducers of the cyp3a4 family (e.g., dexamethasone, phenytoin, carbamazepine, rifampin, rifabutin, rifapentin, phenobarbital, st. johns wort) may decrease sunitinib concentrations.	sutent	carbamazepine	false	mechanism
 co-administration of sutent with inducers of the cyp3a4 family (e.g., dexamethasone, phenytoin, carbamazepine, rifampin, rifabutin, rifapentin, phenobarbital, st. johns wort) may decrease sunitinib concentrations.	sutent	rifampin	false	mechanism
 co-administration of sutent with inducers of the cyp3a4 family (e.g., dexamethasone, phenytoin, carbamazepine, rifampin, rifabutin, rifapentin, phenobarbital, st. johns wort) may decrease sunitinib concentrations.	sutent	rifabutin	false	mechanism
-co-administration of sutent with inducers of the cyp3a4 family (e.g., dexamethasone, phenytoin, carbamazepine, rifampin, rifabutin, rifapentin, phenobarbital, st. johns wort) may decrease sunitinib concentrations.	sutent	rifapentin	false	mechanism
+co-administration of sutent with inducers of the cyp3a4 family (e.g., dexamethasone, phenytoin, carbamazepine, rifampin, rifabutin, rifapentin, phenobarbital, st. johns wort) may decrease sunitinib concentrations.	sutent	rifapentin	effect	mechanism
 co-administration of sutent with inducers of the cyp3a4 family (e.g., dexamethasone, phenytoin, carbamazepine, rifampin, rifabutin, rifapentin, phenobarbital, st. johns wort) may decrease sunitinib concentrations.	sutent	phenobarbital	false	mechanism
 co-administration of sutent with inducers of the cyp3a4 family (e.g., dexamethasone, phenytoin, carbamazepine, rifampin, rifabutin, rifapentin, phenobarbital, st. johns wort) may decrease sunitinib concentrations.	sutent	sunitinib	false	false
 co-administration of sutent with inducers of the cyp3a4 family (e.g., dexamethasone, phenytoin, carbamazepine, rifampin, rifabutin, rifapentin, phenobarbital, st. johns wort) may decrease sunitinib concentrations.	dexamethasone	phenytoin	false	false
@@ -5094,7 +5094,7 @@ other eye drops or medications such as acetylcholine chloride (miochol) and carb
 other eye drops or medications such as acetylcholine chloride (miochol) and carbachol (carboptic, isopto carbachol) may decrease the effects of suprofen ophthalmic.	acetylcholine chloride	carbachol	false	false
 other eye drops or medications such as acetylcholine chloride (miochol) and carbachol (carboptic, isopto carbachol) may decrease the effects of suprofen ophthalmic.	acetylcholine chloride	carboptic	false	false
 other eye drops or medications such as acetylcholine chloride (miochol) and carbachol (carboptic, isopto carbachol) may decrease the effects of suprofen ophthalmic.	acetylcholine chloride	isopto carbachol	false	false
-other eye drops or medications such as acetylcholine chloride (miochol) and carbachol (carboptic, isopto carbachol) may decrease the effects of suprofen ophthalmic.	acetylcholine chloride	suprofen	false	effect
+other eye drops or medications such as acetylcholine chloride (miochol) and carbachol (carboptic, isopto carbachol) may decrease the effects of suprofen ophthalmic.	acetylcholine chloride	suprofen	effect	effect
 other eye drops or medications such as acetylcholine chloride (miochol) and carbachol (carboptic, isopto carbachol) may decrease the effects of suprofen ophthalmic.	miochol	carbachol	false	false
 other eye drops or medications such as acetylcholine chloride (miochol) and carbachol (carboptic, isopto carbachol) may decrease the effects of suprofen ophthalmic.	miochol	carboptic	false	false
 other eye drops or medications such as acetylcholine chloride (miochol) and carbachol (carboptic, isopto carbachol) may decrease the effects of suprofen ophthalmic.	miochol	isopto carbachol	false	false
@@ -5111,7 +5111,7 @@ the pharmacokinetic interaction between cimetidine and flomax capsules was inves
 therefore, flomax capsules should be used with caution in combination with cimetidine, particularly at doses higher than 0.4 mg.	flomax	cimetidine	false	advise
 results from limited in vitro and in vivo drug-drug interaction studies between tamsulosin hci and warfarin are inconclusive.	tamsulosin hci	warfarin	false	false
 therefore, caution should be exercised with concomitant administration of warfarin and flomax capsules.	warfarin	flomax	advise	advise
-administration of valproic acid decreases oral clearance of temozolomide by about 5%.	valproic acid	temozolomide	false	mechanism
+administration of valproic acid decreases oral clearance of temozolomide by about 5%.	valproic acid	temozolomide	mechanism	mechanism
 patients studied in clinical trials of tnkase were routinely treated with heparin and aspirin.	tnkase	heparin	false	false
 patients studied in clinical trials of tnkase were routinely treated with heparin and aspirin.	tnkase	aspirin	false	false
 patients studied in clinical trials of tnkase were routinely treated with heparin and aspirin.	heparin	aspirin	false	false
@@ -5158,15 +5158,15 @@ this may be of clinical relevance for compounds predominantly metabolized by thi
 in vivo drug-drug interaction studies conducted in normal volunteer subjects showed that terbinafine does not affect the clearance of antipyrine or digoxin.	terbinafine	antipyrine	false	false
 in vivo drug-drug interaction studies conducted in normal volunteer subjects showed that terbinafine does not affect the clearance of antipyrine or digoxin.	terbinafine	digoxin	false	false
 in vivo drug-drug interaction studies conducted in normal volunteer subjects showed that terbinafine does not affect the clearance of antipyrine or digoxin.	antipyrine	digoxin	false	false
-terbinafine decreases the clearance of caffeine by 19%.	terbinafine	caffeine	false	mechanism
-terbinafine increases the clearance of cyclosporine by 15%.	terbinafine	cyclosporine	false	mechanism
+terbinafine decreases the clearance of caffeine by 19%.	terbinafine	caffeine	mechanism	mechanism
+terbinafine increases the clearance of cyclosporine by 15%.	terbinafine	cyclosporine	mechanism	mechanism
 there have been spontaneous reports of increase or decrease in prothrombin times in patients concomitantly taking oral terbinafine and warfarin, however, a causal relationship between lamisil    tablets and these changes has not been established.	terbinafine	warfarin	false	effect
 there have been spontaneous reports of increase or decrease in prothrombin times in patients concomitantly taking oral terbinafine and warfarin, however, a causal relationship between lamisil    tablets and these changes has not been established.	terbinafine	lamisil	false	false
 there have been spontaneous reports of increase or decrease in prothrombin times in patients concomitantly taking oral terbinafine and warfarin, however, a causal relationship between lamisil    tablets and these changes has not been established.	warfarin	lamisil	false	false
-terbinafine clearance is increased 100% by rifampin, a cyp450 enzyme inducer, and decreased 33% by cimetidine, a cyp450 enzyme inhibitor.	terbinafine	rifampin	false	mechanism
-terbinafine clearance is increased 100% by rifampin, a cyp450 enzyme inducer, and decreased 33% by cimetidine, a cyp450 enzyme inhibitor.	terbinafine	cimetidine	false	mechanism
+terbinafine clearance is increased 100% by rifampin, a cyp450 enzyme inducer, and decreased 33% by cimetidine, a cyp450 enzyme inhibitor.	terbinafine	rifampin	advise	mechanism
+terbinafine clearance is increased 100% by rifampin, a cyp450 enzyme inducer, and decreased 33% by cimetidine, a cyp450 enzyme inhibitor.	terbinafine	cimetidine	advise	mechanism
 terbinafine clearance is increased 100% by rifampin, a cyp450 enzyme inducer, and decreased 33% by cimetidine, a cyp450 enzyme inhibitor.	rifampin	cimetidine	false	false
-terbinafine clearance is unaffected by cyclosporine.	terbinafine	cyclosporine	false	false
+terbinafine clearance is unaffected by cyclosporine.	terbinafine	cyclosporine	advise	false
 there is no information available from adequate drug-drug interaction studies with the following classes of drugs: oral contraceptives, hormone replacement therapies, hypoglycemics, theophyllines, phenytoins, thiazide diuretics, beta blockers, and calcium channel blockers.	contraceptives	hypoglycemics	false	false
 there is no information available from adequate drug-drug interaction studies with the following classes of drugs: oral contraceptives, hormone replacement therapies, hypoglycemics, theophyllines, phenytoins, thiazide diuretics, beta blockers, and calcium channel blockers.	contraceptives	theophyllines	false	false
 there is no information available from adequate drug-drug interaction studies with the following classes of drugs: oral contraceptives, hormone replacement therapies, hypoglycemics, theophyllines, phenytoins, thiazide diuretics, beta blockers, and calcium channel blockers.	contraceptives	phenytoins	false	false
@@ -5259,7 +5259,7 @@ concomitant administration of terfenadine with clarithromycin, erythromycin, or 
 concomitant administration of terfenadine with clarithromycin, erythromycin, or troleandomycin is contraindicated: pending full characterization of potential interactions, concomitant administration of terfenadine with other macrolide antibiotics, including azithromycin, is not recommended.	terfenadine	macrolide antibiotics	false	advise
 concomitant administration of terfenadine with clarithromycin, erythromycin, or troleandomycin is contraindicated: pending full characterization of potential interactions, concomitant administration of terfenadine with other macrolide antibiotics, including azithromycin, is not recommended.	terfenadine	azithromycin	false	advise
 concomitant administration of terfenadine with clarithromycin, erythromycin, or troleandomycin is contraindicated: pending full characterization of potential interactions, concomitant administration of terfenadine with other macrolide antibiotics, including azithromycin, is not recommended.	macrolide antibiotics	azithromycin	false	false
-studies to evaluate potential interactions of terfenadine with azithromycin are in progress.	terfenadine	azithromycin	false	false
+studies to evaluate potential interactions of terfenadine with azithromycin are in progress.	terfenadine	azithromycin	advise	false
 when administered concurrently, testolactone may increase the effects of oral anticoagulants;	testolactone	anticoagulants	false	effect
 thalidomide has been reported to enhance the sedative activity of barbiturates, alcohol, chlorpromazine, and reserpine.	thalidomide	barbiturates	false	effect
 thalidomide has been reported to enhance the sedative activity of barbiturates, alcohol, chlorpromazine, and reserpine.	thalidomide	alcohol	false	false
@@ -5378,8 +5378,8 @@ as there is in vitro evidence that aminosalicylate derivatives (e.g., olsalazine
 as there is in vitro evidence that aminosalicylate derivatives (e.g., olsalazine, mesalazine, or sulphasalazine) inhibit the tpmt enzyme, they should be administered with caution to patients receiving concurrent thioguanine therapy.	sulphasalazine	thioguanine	false	mechanism
 caution should be exercised when administering zadaxin therapy in combination with other immunomodulating drugs.	zadaxin	immunomodulating drugs	false	advise
 prothrombin time or other suitable anticoagulation test should be monitored if tigecycline is administered with warfarin.	tigecycline	warfarin	advise	advise
-concurrent use of antibacterial drugs with oral contraceptives may render oral contraceptives less effective.	antibacterial drugs	contraceptives	false	effect
-concurrent use of antibacterial drugs with oral contraceptives may render oral contraceptives less effective.	antibacterial drugs	contraceptives	false	false
+concurrent use of antibacterial drugs with oral contraceptives may render oral contraceptives less effective.	antibacterial drugs	contraceptives	effect	effect
+concurrent use of antibacterial drugs with oral contraceptives may render oral contraceptives less effective.	antibacterial drugs	contraceptives	effect	false
 concurrent use of antibacterial drugs with oral contraceptives may render oral contraceptives less effective.	contraceptives	contraceptives	false	false
 the bioavailability of skelid is decreased 80% by calcium, when calcium and skelid are administered at the same time, and 60% by some aluminum- or magnesium-containing antacids, when administered 1 hour before skelid.	skelid	calcium	false	mechanism
 the bioavailability of skelid is decreased 80% by calcium, when calcium and skelid are administered at the same time, and 60% by some aluminum- or magnesium-containing antacids, when administered 1 hour before skelid.	skelid	calcium	false	false
@@ -5411,11 +5411,11 @@ the bioavailability of skelid is decreased 80% by calcium, when calcium and skel
 the bioavailability of skelid is decreased 80% by calcium, when calcium and skelid are administered at the same time, and 60% by some aluminum- or magnesium-containing antacids, when administered 1 hour before skelid.	antacids	skelid	false	false
 aspirin may decrease bioavailability of skelid by up to 50% when taken 2 hours after skelid.	aspirin	skelid	false	mechanism
 aspirin may decrease bioavailability of skelid by up to 50% when taken 2 hours after skelid.	aspirin	skelid	false	false
-aspirin may decrease bioavailability of skelid by up to 50% when taken 2 hours after skelid.	skelid	skelid	false	false
+aspirin may decrease bioavailability of skelid by up to 50% when taken 2 hours after skelid.	skelid	skelid	advise	false
 the bioavailability of skelid is increased 2-4 fold by indomethacin but is not significantly altered by coadministration of diclofenac.	skelid	indomethacin	false	mechanism
 the bioavailability of skelid is increased 2-4 fold by indomethacin but is not significantly altered by coadministration of diclofenac.	skelid	diclofenac	false	false
 the bioavailability of skelid is increased 2-4 fold by indomethacin but is not significantly altered by coadministration of diclofenac.	indomethacin	diclofenac	false	false
-the pharmacokinetic parameters of digoxin are not significantly modified by skelid coadministration.	digoxin	skelid	false	false
+the pharmacokinetic parameters of digoxin are not significantly modified by skelid coadministration.	digoxin	skelid	advise	false
 in vitro studies show that tiludronate does not displace warfarin from its binding site on protein.	tiludronate	warfarin	false	false
 these include sympathomimetic bronchodilators, methylxanthines, and oral and inhaled steroids.	sympathomimetic bronchodilators	methylxanthines	false	false
 these include sympathomimetic bronchodilators, methylxanthines, and oral and inhaled steroids.	sympathomimetic bronchodilators	steroids	false	false
@@ -5469,8 +5469,8 @@ some diuretics can enhance aminoglycoside toxicity by altering antibiotic concen
 some diuretics can enhance aminoglycoside toxicity by altering antibiotic concentrations in serum and tissue.	aminoglycoside	antibiotic	false	false
 tobi should not be administered concomitantly with ethacrynic acid, furosemide, urea, or mannitol.	tobi	ethacrynic acid	advise	advise
 tobi should not be administered concomitantly with ethacrynic acid, furosemide, urea, or mannitol.	tobi	furosemide	false	advise
-tobi should not be administered concomitantly with ethacrynic acid, furosemide, urea, or mannitol.	tobi	urea	effect	advise
-tobi should not be administered concomitantly with ethacrynic acid, furosemide, urea, or mannitol.	tobi	mannitol	advise	advise
+tobi should not be administered concomitantly with ethacrynic acid, furosemide, urea, or mannitol.	tobi	urea	false	advise
+tobi should not be administered concomitantly with ethacrynic acid, furosemide, urea, or mannitol.	tobi	mannitol	false	advise
 tobi should not be administered concomitantly with ethacrynic acid, furosemide, urea, or mannitol.	ethacrynic acid	furosemide	false	false
 tobi should not be administered concomitantly with ethacrynic acid, furosemide, urea, or mannitol.	ethacrynic acid	urea	false	false
 tobi should not be administered concomitantly with ethacrynic acid, furosemide, urea, or mannitol.	ethacrynic acid	mannitol	false	false
@@ -5541,7 +5541,7 @@ for patients receiving ketoconazole or other potent cyp3a4 inhibitors such as ot
 for patients receiving ketoconazole or other potent cyp3a4 inhibitors such as other azole antifungals (eg, itraconazole, miconazole) or macrolide antibiotics (eg, erythromycin, clarithromycin) or cyclosporine or vinblastine, the recommended dose of detrol la is 2 mg daily.	cyclosporine	vinblastine	false	false
 for patients receiving ketoconazole or other potent cyp3a4 inhibitors such as other azole antifungals (eg, itraconazole, miconazole) or macrolide antibiotics (eg, erythromycin, clarithromycin) or cyclosporine or vinblastine, the recommended dose of detrol la is 2 mg daily.	cyclosporine	detrol la	false	advise
 for patients receiving ketoconazole or other potent cyp3a4 inhibitors such as other azole antifungals (eg, itraconazole, miconazole) or macrolide antibiotics (eg, erythromycin, clarithromycin) or cyclosporine or vinblastine, the recommended dose of detrol la is 2 mg daily.	vinblastine	detrol la	false	advise
-administration of paclitaxel in combination with herceptin resulted in a two-fold decrease in herceptin clearance in a non-human primate study and in a 1.5-fold increase in herceptin serum levels in clinical studies.	paclitaxel	herceptin	false	mechanism
+administration of paclitaxel in combination with herceptin resulted in a two-fold decrease in herceptin clearance in a non-human primate study and in a 1.5-fold increase in herceptin serum levels in clinical studies.	paclitaxel	herceptin	mechanism	mechanism
 administration of paclitaxel in combination with herceptin resulted in a two-fold decrease in herceptin clearance in a non-human primate study and in a 1.5-fold increase in herceptin serum levels in clinical studies.	paclitaxel	herceptin	false	false
 administration of paclitaxel in combination with herceptin resulted in a two-fold decrease in herceptin clearance in a non-human primate study and in a 1.5-fold increase in herceptin serum levels in clinical studies.	paclitaxel	herceptin	false	false
 administration of paclitaxel in combination with herceptin resulted in a two-fold decrease in herceptin clearance in a non-human primate study and in a 1.5-fold increase in herceptin serum levels in clinical studies.	herceptin	herceptin	false	false
@@ -5613,9 +5613,9 @@ triprolidine may enhance the sedative effects of central nervous system depressa
 triprolidine may enhance the sedative effects of central nervous system depressants including alcohol, barbiturates, hypnotics, narcotic analgesics, sedatives, and tranquillisers.	sedatives	tranquillisers	false	false
 the effects of anticholinergic drugs, such as atropine and tricyclic antidepressants may be enhanced by the concomitant administration of triprolidine.	anticholinergic drugs	atropine	false	false
 the effects of anticholinergic drugs, such as atropine and tricyclic antidepressants may be enhanced by the concomitant administration of triprolidine.	anticholinergic drugs	tricyclic antidepressants	false	false
-the effects of anticholinergic drugs, such as atropine and tricyclic antidepressants may be enhanced by the concomitant administration of triprolidine.	anticholinergic drugs	triprolidine	false	effect
+the effects of anticholinergic drugs, such as atropine and tricyclic antidepressants may be enhanced by the concomitant administration of triprolidine.	anticholinergic drugs	triprolidine	effect	effect
 the effects of anticholinergic drugs, such as atropine and tricyclic antidepressants may be enhanced by the concomitant administration of triprolidine.	atropine	tricyclic antidepressants	false	false
-the effects of anticholinergic drugs, such as atropine and tricyclic antidepressants may be enhanced by the concomitant administration of triprolidine.	atropine	triprolidine	false	effect
+the effects of anticholinergic drugs, such as atropine and tricyclic antidepressants may be enhanced by the concomitant administration of triprolidine.	atropine	triprolidine	effect	effect
 the effects of anticholinergic drugs, such as atropine and tricyclic antidepressants may be enhanced by the concomitant administration of triprolidine.	tricyclic antidepressants	triprolidine	false	effect
 the concomitant use of sanctura with other anticholinergic agents that produce dry mouth, constipation, and other anticholinergic pharmacological effects may increase the frequency and/or severity of such effects.	sanctura	anticholinergic agents	false	effect
 drugs eliminated by active tubular secretion: although studies to assess drug-drug interactions with sanctura have not been conducted, sanctura has the potential for pharmacokinetic interactions with other drugs that are eliminated by active tubular secretion (e.g. digoxin, procainamide, pancuronium, morphine, vancomycin, metformin and tenofovir).	sanctura	sanctura	false	false
