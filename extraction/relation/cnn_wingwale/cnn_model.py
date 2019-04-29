@@ -4,7 +4,6 @@ import shutil
 import re
 import src.train as src_train
 from sklearn.metrics import precision_score, recall_score, f1_score
-import sys
 import warnings
 warnings.filterwarnings("ignore")
 
