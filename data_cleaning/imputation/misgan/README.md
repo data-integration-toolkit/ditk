@@ -28,8 +28,8 @@ blocks of data segments in the hope to be able to regenerate complete missing da
 data. 
 
 ### A figure describing the model
-![alt text](https://raw.githubusercontent.com/username/ditk/develop/data_cleaning/imputation/img/misgan.png)
-![alt text](https://raw.githubusercontent.com/username/ditk/develop/data_cleaning/imputation/img/misgan-impute.png)
+![alt text](https://raw.githubusercontent.com/uyuyuyjk/ditk/develop/data_cleaning/imputation/img/misgan.png)
+![alt text](https://raw.githubusercontent.com/uyuyuyjk/ditk/develop/data_cleaning/imputation/img/misgan-impute.png)
 
 ### Benchmark datasets
 1. UCI Letter Recognition
