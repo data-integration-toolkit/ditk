@@ -121,10 +121,8 @@ class byteNER():
             single_text = []
             single_label = []
             for line in f:
-                raw_line = line.split("\t")
-                token = raw_line[0]
-                label = raw_line[3]
-                if token == "":
+                raw_line = line.strip().split("\t")
+                if len(raw_line)==0 or raw_line[0] == "":
                     texts.append(" ".join(single_text))
                     char_count = 0
                     start_span_tag = []
@@ -136,16 +134,17 @@ class byteNER():
                     single_text = []
                     single_label = []
                 else:
-                    single_text.append(token)
-                    single_label.append(label)
+                    single_text.append(raw_line[0])
+                    single_label.append(raw_line[3])
         byteNERpath = "examples/"
         byteNERsrc = byteNERpath + file_type +".src"
         byteNERtgt = byteNERpath + file_type +".tgt"
         with open(byteNERsrc,"w") as srcf:
             with open(byteNERtgt,"w") as tgtf:
                 for text, label in zip(texts, labels):
-                    srcf.write(text+"\n")
-                    tgtf.write(" ".join(label)+"\n") 
+                    if text != "":
+                        srcf.write(text+"\n")
+                        tgtf.write(" ".join(label)+"\n") 
 
     def read_dataset(self, file_dict, dataset_name):
         """
@@ -278,7 +277,7 @@ class byteNER():
         Raises:
             None
         """
-        args = ['--model_path', 'models/example.model', '--train_data_file', 'examples/train', '--dev_data_file', 'examples/dev', '--test_data_file', 'examples/test']
+        args = ['--model_path', 'models/example.model', '--train_data_file', 'examples/train', '--dev_data_file', 'examples/dev', '--test_data_file', 'examples/test', '--nb_epochs', '300', '--batch_size', '10']
 
         ####### Code from original byteNER #####
         parser = self.OptionParser()
@@ -868,9 +867,9 @@ class byteNER():
 if __name__ == '__main__':
 
     file_dict = {
-        "train": {"file 1":"/Users/lixiangci/Downloads/chemdner_corpus/training.tsv"},
-        "dev" : {"file 2":"/Users/lixiangci/Downloads/chemdner_corpus/development.tsv"},
-        "test" : {"file 3":"/Users/lixiangci/Downloads/chemdner_corpus/evaluation.tsv"},
+        "train": {"file 1":"examples/training.tsv"},
+        "dev" : {"file 2":"examples/development.tsv"},
+        "test" : {"file 3":"examples/evaluation.tsv"},
     }
     dataset_name = 'CONLL2003'
     # instatiate the class
@@ -878,12 +877,10 @@ if __name__ == '__main__':
     # read in a dataset for training
     data = myModel.read_dataset(file_dict, dataset_name)
 
-    myModel.train(data)  # trains the model and stores model state in object properties or similar
+    #myModel.train(data)  # trains the model and stores model state in object properties or similar
     
-    predictions = myModel.predict(data)  # generate predictions! output format will be same for everyone
-    test_labels = myModel.convert_ground_truth(data)  #<-- need ground truth labels need to be in same format as predictions!
+    #predictions = myModel.predict(data)  # generate predictions! output format will be same for everyone
+    #test_labels = myModel.convert_ground_truth(data)  #<-- need ground truth labels need to be in same format as predictions!
 
-    P,R,F1 = myModel.evaluate(predictions, test_labels)  # calculate Precision, Recall, F1
-    print('Precision: %s, Recall: %s, F1: %s'%(P,R,F1))
-
-
+    #P,R,F1 = myModel.evaluate(predictions, test_labels)  # calculate Precision, Recall, F1
+    #print('Precision: %s, Recall: %s, F1: %s'%(P,R,F1))
