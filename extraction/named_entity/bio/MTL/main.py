@@ -156,7 +156,7 @@ def main(input_path):
 
 
     output_file = MTL_instance.predict(read_data)
-    print "Output file has been created at: {}".format(output_file)
+    print("Output file has been created at: {}".format(output_file))
 
     f1_score = MTL_instance.evaluate(None, None)
     print("f1: {}".format(f1_score))
