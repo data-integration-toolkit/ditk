@@ -92,7 +92,7 @@ my_model.evaluate(None, predictions)
 * lstm_relation_extraction_with_semeval2010_and_glove300.ipynb
 
 ### Demo video
-*  [video]()<br>
+*  [video](https://youtu.be/1gjygkaM984)<br>
 
 ### Citation
 ```
