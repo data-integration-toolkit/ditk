@@ -21,8 +21,9 @@ import tensorflow as tf
 import csv
 from sklearn.metrics import mean_squared_error as mse
 from math import sqrt
-# rms = sqrt(mean_squared_error(y_actual, y_predicted))
-class Midas(object):
+from imputation import Imputation
+
+class Midas(Imputation):
   """
   Welcome, and thank you for downloading your new script! Thank you for choosing
   MIDAS, the missing-data solution of the present - today!
@@ -82,7 +83,7 @@ class Midas(object):
                vae_sample_var = 1.0,
                noise_type = 'bernoulli',
                kld_min = 0.01,
-               rmse=0.2
+               rmse=0.2123
                ):
     """
     Initialiser. Called separately to 'build_model' to allow for out-of-memory
@@ -1789,18 +1790,24 @@ class Midas(object):
       with tf.Session(graph= self.graph) as sess:
         saver.restore(sess, file)
 
-  def evaluate(self, trained_model=None, input=None):
-    """
-    Loads the trained_model and calculates the performance on the input through rmse.
-
-    :param trained_model: trained model returned by train function
-    :param input: input table on which model needs to be evaluated
-    :param args:
-    :param kwargs:
-    :return:
-        performance_metric: rmse
-    """
-    return self.rmse
+  def evaluate(self, data_old,data_new):
+      row=data_old.shape[0]
+      # print(1)
+      column=data_old.shape[1]
+      # print(2)
+      # print(row,column)
+      rmse=0
+      for i in range(row):
+          for j in range(column):
+              # print(data_old.at[i,j])
+              # print(data_new.at[i,j])
+              rmse+=(data_old.at[i,j] - data_new.at[i,j])**2
+              # print(rmse)
+      if (rmse>0):
+          rmse = rmse/(row*column)
+          rmse=sqrt(rmse)
+      # print(rmse)
+      return rmse
 
     
 
@@ -1845,7 +1852,6 @@ if __name__ == "__main__":
 
   rmse=rmse/count
   rmse = sqrt(rmse)
-  print(rmse)
+  print(rmse) #can be done by evaluate function as well - imputer.evaluate(old_dataframe,new_dataframe) -returns rmse
 
   data.to_csv("result.csv", index=False,header=False)
-
