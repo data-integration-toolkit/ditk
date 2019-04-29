@@ -62,4 +62,4 @@ Marco-averaged
 [Benchmark 3: training](cnn_notebook3_train.ipynb)
 [Benchmark 3: evaluation](cnn_notebook3_test.ipynb)
 
-## [Link to Youtube video]()
+## [Link to Youtube video](https://youtu.be/4IUzWw3d6To)
