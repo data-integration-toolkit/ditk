@@ -21,14 +21,12 @@ MIDAS employs a class of unsupervised neural networks known as denoising autoenc
 - Start with an initial n dimensional input ([0,1]) and feed it into the encoder. Stochastic corruption is induced by keeping the input  dropout ratio as 0.5. Then at each successive hidden layer, we add theta nodes, increasing the dimensionality to n+theta. This mapping of our input data to a higher dimensional subspace creates representations capable of adding lateral connections, aiding in data recovery. Decoder symmetrically scales it back to original dimensions and tries to reconstruct the input. In this process, the algorithm is tuned to predict the missing values.
 - This technique can work with pre-existing missing values, without the need to replace those values with mean or other similar metric.
 
-### - Flow of Code:
-- Takes **input** as gold numeric relation in csv format and introduces missingness in the dataset(20%). The algorithm is then run on this missing data.
-- **Output** is the complete relation with predicted values in a newly created csv file.
-- Gold dataset is used in order to evaluate the **performance of this algorithm by rmse value.**
+## - Input and Output for Prediction and Training:
+- Takes **input** as path to the gold numeric relation in csv format and introduces missingness in the dataset(20%). The algorithm is then run on this missing data.
 
-## Input and Output for Prediction and Training
-- Input  : path to csv file having **gold numeric** relation.
-- Output : newly created csv file with predicted values in the relation.
+- **Output** is the complete relation with predicted values in a newly created csv file.
+
+- Gold dataset is used in order to evaluate the **performance of this algorithm by rmse value.**
 
 ## Evalution
 - Benchmark datasets :

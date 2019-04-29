@@ -634,6 +634,10 @@ class mice(Mids, Imputation):
         # print(rmse)
         return rmse
 
+    def pool(self, data,method = "mean"):
+        data = np.round(np.mean(data, 0),2)
+        return data
+
     def save_model(self, file):
         """
         :param file: Where to save the model - Optional function
