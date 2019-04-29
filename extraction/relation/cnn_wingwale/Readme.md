@@ -53,13 +53,13 @@ Marco-averaged
 ![evaluation results](evaluation.png)
 
 ## Link to Jupyter notebook
-[Benchmark 1: training](cnn_notebook1_train.ipynb)
-[Benchmark 1: evaluation](cnn_notebook1_test.ipynb)
+* [Benchmark 1: training](cnn_notebook1_train.ipynb)
+* [Benchmark 1: evaluation](cnn_notebook1_test.ipynb)
 
-[Benchmark 2: training](cnn_notebook2_train.ipynb)
-[Benchmark 2: evaluation](cnn_notebook2_test.ipynb)
+* [Benchmark 2: training](cnn_notebook2_train.ipynb)
+* [Benchmark 2: evaluation](cnn_notebook2_test.ipynb)
 
-[Benchmark 3: training](cnn_notebook3_train.ipynb)
-[Benchmark 3: evaluation](cnn_notebook3_test.ipynb)
+* [Benchmark 3: training](cnn_notebook3_train.ipynb)
+* [Benchmark 3: evaluation](cnn_notebook3_test.ipynb)
 
 ## [Link to Youtube video](https://youtu.be/4IUzWw3d6To)
