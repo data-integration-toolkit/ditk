@@ -12,7 +12,7 @@ https://github.com/Franck-Dernoncourt/NeuroNER
 - The character enhanced token embeddings are passed through another BLSTM to generate predictions for each token
 
 - Network Model
- ![alt text](./model.png)
+ ![alt text](./resources/model.png)
  
 ## Instructions
 
@@ -62,18 +62,14 @@ print('Precision: %s, Recall: %s, F1: %s'%(P,R,F1))
         - mention type: str, the entity/mention type. None if not applicable.<br>
 `[(None, 5, Steve, B-PER),(None, went, 4, O),(None, 2, to, O), (None, 5, Paris, B-LOC)]`
 - Training
-    - Input format (trainig data): `{word, POS, chunk tag, entity type}`
+    - Input format (trainig data): `DITK.NER` format as defined below
+        ![alt text](./resources/ditk-format.png)
     - Sample data
         ```
-        EU NNP B-NP B-ORG
-        rejects VBZ B-VP O
-        German JJ B-NP B-MISC
-        call NN I-NP O
-        to TO B-VP O
-        boycott VB I-VP O
-        British JJ B-NP B-MISC
-        lamb NN I-NP O
-        . . O O
+        Yes UH (TOP(S(INTJ*) O bc/cnn/00/cnn_0003 0 0 - - - Linda_Hamilton * -
+        they PRP (NP*) O bc/cnn/00/cnn_0003 0 1 - - - Linda_Hamilton * (15)
+        did VBD (VP*) O bc/cnn/00/cnn_0003 0 2 do 01 - Linda_Hamilton (V*) -
+        /. . *)) O bc/cnn/00/cnn_0003 0 3 - - - Linda_Hamilton * -
         ```
 
 ## Evalution
