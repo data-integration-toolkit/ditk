@@ -10,8 +10,9 @@ Github URL of the original code: https://github.com/ContextScout/gcn_ner
 - Using GCNs and POS tagging to boost the entity recognition of a bidirectional LSTM.
 - Measure the impact of using dependency trees for entity classification.
 - The paper combines LSTMs, GCN for the NER task and provides the dependency tree and POS tags as input to improve the tagging task.
-- Architecture used:
-				![architecture](resources/architecture.png)
+- The model used is shown in the image below:
+
+![architecture](resources/architecture.png)
 
 
 ## Input and Output
