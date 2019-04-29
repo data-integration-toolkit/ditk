@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="DDI-DrugBank.d465">
+    <sentence id="DDI-DrugBank.d465.s0" text="The vasodilating effects of isosorbide dinitrate may be additive with those of other vasodilators.">
+        <entity id="DDI-DrugBank.d465.s0.e0" charOffset="28-47"
+            type="drug" text="isosorbide dinitrate"/>
+        <entity id="DDI-DrugBank.d465.s0.e1" charOffset="85-96"
+            type="group" text="vasodilators"/>
+        <pair id="DDI-DrugBank.d465.s0.p0" e1="DDI-DrugBank.d465.s0.e0"
+            e2="DDI-DrugBank.d465.s0.e1" ddi="true" type="effect"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d465.s1" text="Alcohol, in particular, has been found to exhibit additive effects of this variety.">
+        <entity id="DDI-DrugBank.d465.s1.e0" charOffset="0-6"
+            type="drug" text="Alcohol"/>
+    </sentence>
+</document>

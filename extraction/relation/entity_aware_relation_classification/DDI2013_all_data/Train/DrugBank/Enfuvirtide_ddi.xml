@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="DDI-DrugBank.d535">
+    <sentence id="DDI-DrugBank.d535.s0" text="CYP450 Metabolized Drugs Results from in vitro and in vivo studies suggest that enfuvirtide is unlikely to have significant drug interactions with concomitantly administered drugs metabolized by CYP450 enzymes.">
+        <entity id="DDI-DrugBank.d535.s0.e0" charOffset="80-90"
+            type="drug" text="enfuvirtide"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d535.s1" text="Antiretroviral Agents: No drug interactions with other antiretroviral medications have been identified that would warrant alteration of either the enfuvirtide dose or the dose of the other antiretroviral medication.">
+        <entity id="DDI-DrugBank.d535.s1.e0" charOffset="0-20"
+            type="group" text="Antiretroviral Agents"/>
+        <entity id="DDI-DrugBank.d535.s1.e1" charOffset="55-80"
+            type="group" text="antiretroviral medications"/>
+        <entity id="DDI-DrugBank.d535.s1.e2" charOffset="147-157"
+            type="drug" text="enfuvirtide"/>
+        <entity id="DDI-DrugBank.d535.s1.e3" charOffset="189-213"
+            type="group" text="antiretroviral medication"/>
+        <pair id="DDI-DrugBank.d535.s1.p0" e1="DDI-DrugBank.d535.s1.e0"
+            e2="DDI-DrugBank.d535.s1.e1" ddi="false"/>
+        <pair id="DDI-DrugBank.d535.s1.p1" e1="DDI-DrugBank.d535.s1.e0"
+            e2="DDI-DrugBank.d535.s1.e2" ddi="false"/>
+        <pair id="DDI-DrugBank.d535.s1.p2" e1="DDI-DrugBank.d535.s1.e0"
+            e2="DDI-DrugBank.d535.s1.e3" ddi="false"/>
+        <pair id="DDI-DrugBank.d535.s1.p3" e1="DDI-DrugBank.d535.s1.e1"
+            e2="DDI-DrugBank.d535.s1.e2" ddi="false"/>
+        <pair id="DDI-DrugBank.d535.s1.p4" e1="DDI-DrugBank.d535.s1.e1"
+            e2="DDI-DrugBank.d535.s1.e3" ddi="false"/>
+        <pair id="DDI-DrugBank.d535.s1.p5" e1="DDI-DrugBank.d535.s1.e2"
+            e2="DDI-DrugBank.d535.s1.e3" ddi="false"/>
+    </sentence>
+</document>

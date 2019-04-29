@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="DDI-DrugBank.d475">
+    <sentence id="DDI-DrugBank.d475.s0" text="No interactions have been observed between nizatidine and theophylline, chlordiazepoxide, lorazepam, lidocaine, phenytoin, and warfarin.">
+        <entity id="DDI-DrugBank.d475.s0.e0" charOffset="43-52"
+            type="drug" text="nizatidine"/>
+        <entity id="DDI-DrugBank.d475.s0.e1" charOffset="58-69"
+            type="drug" text="theophylline"/>
+        <entity id="DDI-DrugBank.d475.s0.e2" charOffset="72-87"
+            type="drug" text="chlordiazepoxide"/>
+        <entity id="DDI-DrugBank.d475.s0.e3" charOffset="90-98"
+            type="drug" text="lorazepam"/>
+        <entity id="DDI-DrugBank.d475.s0.e4" charOffset="101-109"
+            type="drug" text="lidocaine"/>
+        <entity id="DDI-DrugBank.d475.s0.e5" charOffset="112-120"
+            type="drug" text="phenytoin"/>
+        <entity id="DDI-DrugBank.d475.s0.e6" charOffset="127-134"
+            type="drug" text="warfarin"/>
+        <pair id="DDI-DrugBank.d475.s0.p0" e1="DDI-DrugBank.d475.s0.e0"
+            e2="DDI-DrugBank.d475.s0.e1" ddi="false"/>
+        <pair id="DDI-DrugBank.d475.s0.p1" e1="DDI-DrugBank.d475.s0.e0"
+            e2="DDI-DrugBank.d475.s0.e2" ddi="false"/>
+        <pair id="DDI-DrugBank.d475.s0.p2" e1="DDI-DrugBank.d475.s0.e0"
+            e2="DDI-DrugBank.d475.s0.e3" ddi="false"/>
+        <pair id="DDI-DrugBank.d475.s0.p3" e1="DDI-DrugBank.d475.s0.e0"
+            e2="DDI-DrugBank.d475.s0.e4" ddi="false"/>
+        <pair id="DDI-DrugBank.d475.s0.p4" e1="DDI-DrugBank.d475.s0.e0"
+            e2="DDI-DrugBank.d475.s0.e5" ddi="false"/>
+        <pair id="DDI-DrugBank.d475.s0.p5" e1="DDI-DrugBank.d475.s0.e0"
+            e2="DDI-DrugBank.d475.s0.e6" ddi="false"/>
+        <pair id="DDI-DrugBank.d475.s0.p6" e1="DDI-DrugBank.d475.s0.e1"
+            e2="DDI-DrugBank.d475.s0.e2" ddi="false"/>
+        <pair id="DDI-DrugBank.d475.s0.p7" e1="DDI-DrugBank.d475.s0.e1"
+            e2="DDI-DrugBank.d475.s0.e3" ddi="false"/>
+        <pair id="DDI-DrugBank.d475.s0.p8" e1="DDI-DrugBank.d475.s0.e1"
+            e2="DDI-DrugBank.d475.s0.e4" ddi="false"/>
+        <pair id="DDI-DrugBank.d475.s0.p9" e1="DDI-DrugBank.d475.s0.e1"
+            e2="DDI-DrugBank.d475.s0.e5" ddi="false"/>
+        <pair id="DDI-DrugBank.d475.s0.p10" e1="DDI-DrugBank.d475.s0.e1"
+            e2="DDI-DrugBank.d475.s0.e6" ddi="false"/>
+        <pair id="DDI-DrugBank.d475.s0.p11" e1="DDI-DrugBank.d475.s0.e2"
+            e2="DDI-DrugBank.d475.s0.e3" ddi="false"/>
+        <pair id="DDI-DrugBank.d475.s0.p12" e1="DDI-DrugBank.d475.s0.e2"
+            e2="DDI-DrugBank.d475.s0.e4" ddi="false"/>
+        <pair id="DDI-DrugBank.d475.s0.p13" e1="DDI-DrugBank.d475.s0.e2"
+            e2="DDI-DrugBank.d475.s0.e5" ddi="false"/>
+        <pair id="DDI-DrugBank.d475.s0.p14" e1="DDI-DrugBank.d475.s0.e2"
+            e2="DDI-DrugBank.d475.s0.e6" ddi="false"/>
+        <pair id="DDI-DrugBank.d475.s0.p15" e1="DDI-DrugBank.d475.s0.e3"
+            e2="DDI-DrugBank.d475.s0.e4" ddi="false"/>
+        <pair id="DDI-DrugBank.d475.s0.p16" e1="DDI-DrugBank.d475.s0.e3"
+            e2="DDI-DrugBank.d475.s0.e5" ddi="false"/>
+        <pair id="DDI-DrugBank.d475.s0.p17" e1="DDI-DrugBank.d475.s0.e3"
+            e2="DDI-DrugBank.d475.s0.e6" ddi="false"/>
+        <pair id="DDI-DrugBank.d475.s0.p18" e1="DDI-DrugBank.d475.s0.e4"
+            e2="DDI-DrugBank.d475.s0.e5" ddi="false"/>
+        <pair id="DDI-DrugBank.d475.s0.p19" e1="DDI-DrugBank.d475.s0.e4"
+            e2="DDI-DrugBank.d475.s0.e6" ddi="false"/>
+        <pair id="DDI-DrugBank.d475.s0.p20" e1="DDI-DrugBank.d475.s0.e5"
+            e2="DDI-DrugBank.d475.s0.e6" ddi="false"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d475.s1" text="Nizatidine does not inhibit the cytochrome P-450-linked drug-metabolizing enzyme system;">
+        <entity id="DDI-DrugBank.d475.s1.e0" charOffset="0-9"
+            type="drug" text="Nizatidine"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d475.s2" text="therefore, drug interactions mediated by inhibition of hepatic metabolism are not expected to occur."/>
+    <sentence id="DDI-DrugBank.d475.s3" text="In patients given very high doses (3900 mg) of aspirin daily, increases in serum salicylate levels were seen when nizatidine, 150 mg b.i.d., was administered concurrently.">
+        <entity id="DDI-DrugBank.d475.s3.e0" charOffset="47-53"
+            type="brand" text="aspirin"/>
+        <entity id="DDI-DrugBank.d475.s3.e1" charOffset="81-90"
+            type="group" text="salicylate"/>
+        <entity id="DDI-DrugBank.d475.s3.e2" charOffset="114-123"
+            type="drug" text="nizatidine"/>
+        <pair id="DDI-DrugBank.d475.s3.p0" e1="DDI-DrugBank.d475.s3.e0"
+            e2="DDI-DrugBank.d475.s3.e1" ddi="false"/>
+        <pair id="DDI-DrugBank.d475.s3.p1" e1="DDI-DrugBank.d475.s3.e0"
+            e2="DDI-DrugBank.d475.s3.e2" ddi="true" type="mechanism"/>
+        <pair id="DDI-DrugBank.d475.s3.p2" e1="DDI-DrugBank.d475.s3.e1"
+            e2="DDI-DrugBank.d475.s3.e2" ddi="false"/>
+    </sentence>
+</document>

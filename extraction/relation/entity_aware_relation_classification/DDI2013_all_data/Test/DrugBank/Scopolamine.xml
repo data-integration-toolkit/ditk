@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="DDI-DrugBank.d771">
+    <sentence id="DDI-DrugBank.d771.s0" text="The absorption of oral medications may be decreased during the concurrent use of scopolamine because of decreased gastric motility and delayed gastric emptying. ">
+        <entity id="DDI-DrugBank.d771.s0.e0" charOffset="81-91"
+            type="drug" text="scopolamine"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d771.s1" text="Scopolamine should be used with care in patients taking other drugs that are capable of causing CNS effects such as sedatives, tranquilizers, or alcohol. ">
+        <entity id="DDI-DrugBank.d771.s1.e0" charOffset="0-10"
+            type="drug" text="Scopolamine"/>
+        <entity id="DDI-DrugBank.d771.s1.e1" charOffset="116-124"
+            type="group" text="sedatives"/>
+        <entity id="DDI-DrugBank.d771.s1.e2" charOffset="127-139"
+            type="group" text="tranquilizers"/>
+        <entity id="DDI-DrugBank.d771.s1.e3" charOffset="145-151"
+            type="drug" text="alcohol"/>
+        <pair id="DDI-DrugBank.d771.s1.p0" e1="DDI-DrugBank.d771.s1.e0"
+            e2="DDI-DrugBank.d771.s1.e1" ddi="true" type="advise"/>
+        <pair id="DDI-DrugBank.d771.s1.p1" e1="DDI-DrugBank.d771.s1.e0"
+            e2="DDI-DrugBank.d771.s1.e2" ddi="true" type="advise"/>
+        <pair id="DDI-DrugBank.d771.s1.p2" e1="DDI-DrugBank.d771.s1.e0"
+            e2="DDI-DrugBank.d771.s1.e3" ddi="true" type="advise"/>
+        <pair id="DDI-DrugBank.d771.s1.p3" e1="DDI-DrugBank.d771.s1.e1"
+            e2="DDI-DrugBank.d771.s1.e2" ddi="false"/>
+        <pair id="DDI-DrugBank.d771.s1.p4" e1="DDI-DrugBank.d771.s1.e1"
+            e2="DDI-DrugBank.d771.s1.e3" ddi="false"/>
+        <pair id="DDI-DrugBank.d771.s1.p5" e1="DDI-DrugBank.d771.s1.e2"
+            e2="DDI-DrugBank.d771.s1.e3" ddi="false"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d771.s2" text="Special attention should be paid to potential interactions with drugs having anticholinergic properties; "/>
+    <sentence id="DDI-DrugBank.d771.s3" text="e.g., other belladonna alkaloids, antihistamines (including meclizine), tricyclic antidepressants, and muscle relaxants. ">
+        <entity id="DDI-DrugBank.d771.s3.e0" charOffset="12-31"
+            type="group" text="belladonna alkaloids"/>
+        <entity id="DDI-DrugBank.d771.s3.e1" charOffset="34-47"
+            type="group" text="antihistamines"/>
+        <entity id="DDI-DrugBank.d771.s3.e2" charOffset="60-68"
+            type="drug" text="meclizine"/>
+        <entity id="DDI-DrugBank.d771.s3.e3" charOffset="72-96"
+            type="group" text="tricyclic antidepressants"/>
+        <entity id="DDI-DrugBank.d771.s3.e4" charOffset="103-118"
+            type="group" text="muscle relaxants"/>
+        <pair id="DDI-DrugBank.d771.s3.p0" e1="DDI-DrugBank.d771.s3.e0"
+            e2="DDI-DrugBank.d771.s3.e1" ddi="false"/>
+        <pair id="DDI-DrugBank.d771.s3.p1" e1="DDI-DrugBank.d771.s3.e0"
+            e2="DDI-DrugBank.d771.s3.e2" ddi="false"/>
+        <pair id="DDI-DrugBank.d771.s3.p2" e1="DDI-DrugBank.d771.s3.e0"
+            e2="DDI-DrugBank.d771.s3.e3" ddi="false"/>
+        <pair id="DDI-DrugBank.d771.s3.p3" e1="DDI-DrugBank.d771.s3.e0"
+            e2="DDI-DrugBank.d771.s3.e4" ddi="false"/>
+        <pair id="DDI-DrugBank.d771.s3.p4" e1="DDI-DrugBank.d771.s3.e1"
+            e2="DDI-DrugBank.d771.s3.e2" ddi="false"/>
+        <pair id="DDI-DrugBank.d771.s3.p5" e1="DDI-DrugBank.d771.s3.e1"
+            e2="DDI-DrugBank.d771.s3.e3" ddi="false"/>
+        <pair id="DDI-DrugBank.d771.s3.p6" e1="DDI-DrugBank.d771.s3.e1"
+            e2="DDI-DrugBank.d771.s3.e4" ddi="false"/>
+        <pair id="DDI-DrugBank.d771.s3.p7" e1="DDI-DrugBank.d771.s3.e2"
+            e2="DDI-DrugBank.d771.s3.e3" ddi="false"/>
+        <pair id="DDI-DrugBank.d771.s3.p8" e1="DDI-DrugBank.d771.s3.e2"
+            e2="DDI-DrugBank.d771.s3.e4" ddi="false"/>
+        <pair id="DDI-DrugBank.d771.s3.p9" e1="DDI-DrugBank.d771.s3.e3"
+            e2="DDI-DrugBank.d771.s3.e4" ddi="false"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d771.s4" text="Laboratory Test Interactions Scopolamine will interfere with the gastric secretion test.">
+        <entity id="DDI-DrugBank.d771.s4.e0" charOffset="29-39"
+            type="drug" text="Scopolamine"/>
+    </sentence>
+</document>

@@ -1,0 +1,178 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="DDI-DrugBank.d423">
+    <sentence id="DDI-DrugBank.d423.s0" text="In patients receiving nonselective monoamine oxidase inhibitors (MAOIs) (e.g., selegiline hydrochloride) in combination with serotoninergic agents (e.g., fluoxetine, fluvoxamine, paroxetine, sertraline, venlafaxine), there have been reports of serious, sometimes fatal, reactions.">
+        <entity id="DDI-DrugBank.d423.s0.e0" charOffset="35-62"
+            type="group" text="monoamine oxidase inhibitors"/>
+        <entity id="DDI-DrugBank.d423.s0.e1" charOffset="65-69"
+            type="group" text="MAOIs"/>
+        <entity id="DDI-DrugBank.d423.s0.e2" charOffset="79-102"
+            type="drug" text="selegiline hydrochloride"/>
+        <entity id="DDI-DrugBank.d423.s0.e3" charOffset="125-145"
+            type="group" text="serotoninergic agents"/>
+        <entity id="DDI-DrugBank.d423.s0.e4" charOffset="154-163"
+            type="drug" text="fluoxetine"/>
+        <entity id="DDI-DrugBank.d423.s0.e5" charOffset="166-176"
+            type="drug" text="fluvoxamine"/>
+        <entity id="DDI-DrugBank.d423.s0.e6" charOffset="179-188"
+            type="drug" text="paroxetine"/>
+        <entity id="DDI-DrugBank.d423.s0.e7" charOffset="191-200"
+            type="drug" text="sertraline"/>
+        <entity id="DDI-DrugBank.d423.s0.e8" charOffset="203-213"
+            type="drug" text="venlafaxine"/>
+        <pair id="DDI-DrugBank.d423.s0.p0" e1="DDI-DrugBank.d423.s0.e0"
+            e2="DDI-DrugBank.d423.s0.e1" ddi="false"/>
+        <pair id="DDI-DrugBank.d423.s0.p1" e1="DDI-DrugBank.d423.s0.e0"
+            e2="DDI-DrugBank.d423.s0.e2" ddi="false"/>
+        <pair id="DDI-DrugBank.d423.s0.p2" e1="DDI-DrugBank.d423.s0.e0"
+            e2="DDI-DrugBank.d423.s0.e3" ddi="true" type="effect"/>
+        <pair id="DDI-DrugBank.d423.s0.p3" e1="DDI-DrugBank.d423.s0.e0"
+            e2="DDI-DrugBank.d423.s0.e4" ddi="true" type="effect"/>
+        <pair id="DDI-DrugBank.d423.s0.p4" e1="DDI-DrugBank.d423.s0.e0"
+            e2="DDI-DrugBank.d423.s0.e5" ddi="true" type="effect"/>
+        <pair id="DDI-DrugBank.d423.s0.p5" e1="DDI-DrugBank.d423.s0.e0"
+            e2="DDI-DrugBank.d423.s0.e6" ddi="true" type="effect"/>
+        <pair id="DDI-DrugBank.d423.s0.p6" e1="DDI-DrugBank.d423.s0.e0"
+            e2="DDI-DrugBank.d423.s0.e7" ddi="true" type="effect"/>
+        <pair id="DDI-DrugBank.d423.s0.p7" e1="DDI-DrugBank.d423.s0.e0"
+            e2="DDI-DrugBank.d423.s0.e8" ddi="true" type="effect"/>
+        <pair id="DDI-DrugBank.d423.s0.p8" e1="DDI-DrugBank.d423.s0.e1"
+            e2="DDI-DrugBank.d423.s0.e2" ddi="false"/>
+        <pair id="DDI-DrugBank.d423.s0.p9" e1="DDI-DrugBank.d423.s0.e1"
+            e2="DDI-DrugBank.d423.s0.e3" ddi="true" type="effect"/>
+        <pair id="DDI-DrugBank.d423.s0.p10" e1="DDI-DrugBank.d423.s0.e1"
+            e2="DDI-DrugBank.d423.s0.e4" ddi="true" type="effect"/>
+        <pair id="DDI-DrugBank.d423.s0.p11" e1="DDI-DrugBank.d423.s0.e1"
+            e2="DDI-DrugBank.d423.s0.e5" ddi="true" type="effect"/>
+        <pair id="DDI-DrugBank.d423.s0.p12" e1="DDI-DrugBank.d423.s0.e1"
+            e2="DDI-DrugBank.d423.s0.e6" ddi="true" type="effect"/>
+        <pair id="DDI-DrugBank.d423.s0.p13" e1="DDI-DrugBank.d423.s0.e1"
+            e2="DDI-DrugBank.d423.s0.e7" ddi="true" type="effect"/>
+        <pair id="DDI-DrugBank.d423.s0.p14" e1="DDI-DrugBank.d423.s0.e1"
+            e2="DDI-DrugBank.d423.s0.e8" ddi="true" type="effect"/>
+        <pair id="DDI-DrugBank.d423.s0.p15" e1="DDI-DrugBank.d423.s0.e2"
+            e2="DDI-DrugBank.d423.s0.e3" ddi="true" type="effect"/>
+        <pair id="DDI-DrugBank.d423.s0.p16" e1="DDI-DrugBank.d423.s0.e2"
+            e2="DDI-DrugBank.d423.s0.e4" ddi="true" type="effect"/>
+        <pair id="DDI-DrugBank.d423.s0.p17" e1="DDI-DrugBank.d423.s0.e2"
+            e2="DDI-DrugBank.d423.s0.e5" ddi="true" type="effect"/>
+        <pair id="DDI-DrugBank.d423.s0.p18" e1="DDI-DrugBank.d423.s0.e2"
+            e2="DDI-DrugBank.d423.s0.e6" ddi="true" type="effect"/>
+        <pair id="DDI-DrugBank.d423.s0.p19" e1="DDI-DrugBank.d423.s0.e2"
+            e2="DDI-DrugBank.d423.s0.e7" ddi="true" type="effect"/>
+        <pair id="DDI-DrugBank.d423.s0.p20" e1="DDI-DrugBank.d423.s0.e2"
+            e2="DDI-DrugBank.d423.s0.e8" ddi="true" type="effect"/>
+        <pair id="DDI-DrugBank.d423.s0.p21" e1="DDI-DrugBank.d423.s0.e3"
+            e2="DDI-DrugBank.d423.s0.e4" ddi="false"/>
+        <pair id="DDI-DrugBank.d423.s0.p22" e1="DDI-DrugBank.d423.s0.e3"
+            e2="DDI-DrugBank.d423.s0.e5" ddi="false"/>
+        <pair id="DDI-DrugBank.d423.s0.p23" e1="DDI-DrugBank.d423.s0.e3"
+            e2="DDI-DrugBank.d423.s0.e6" ddi="false"/>
+        <pair id="DDI-DrugBank.d423.s0.p24" e1="DDI-DrugBank.d423.s0.e3"
+            e2="DDI-DrugBank.d423.s0.e7" ddi="false"/>
+        <pair id="DDI-DrugBank.d423.s0.p25" e1="DDI-DrugBank.d423.s0.e3"
+            e2="DDI-DrugBank.d423.s0.e8" ddi="false"/>
+        <pair id="DDI-DrugBank.d423.s0.p26" e1="DDI-DrugBank.d423.s0.e4"
+            e2="DDI-DrugBank.d423.s0.e5" ddi="false"/>
+        <pair id="DDI-DrugBank.d423.s0.p27" e1="DDI-DrugBank.d423.s0.e4"
+            e2="DDI-DrugBank.d423.s0.e6" ddi="false"/>
+        <pair id="DDI-DrugBank.d423.s0.p28" e1="DDI-DrugBank.d423.s0.e4"
+            e2="DDI-DrugBank.d423.s0.e7" ddi="false"/>
+        <pair id="DDI-DrugBank.d423.s0.p29" e1="DDI-DrugBank.d423.s0.e4"
+            e2="DDI-DrugBank.d423.s0.e8" ddi="false"/>
+        <pair id="DDI-DrugBank.d423.s0.p30" e1="DDI-DrugBank.d423.s0.e5"
+            e2="DDI-DrugBank.d423.s0.e6" ddi="false"/>
+        <pair id="DDI-DrugBank.d423.s0.p31" e1="DDI-DrugBank.d423.s0.e5"
+            e2="DDI-DrugBank.d423.s0.e7" ddi="false"/>
+        <pair id="DDI-DrugBank.d423.s0.p32" e1="DDI-DrugBank.d423.s0.e5"
+            e2="DDI-DrugBank.d423.s0.e8" ddi="false"/>
+        <pair id="DDI-DrugBank.d423.s0.p33" e1="DDI-DrugBank.d423.s0.e6"
+            e2="DDI-DrugBank.d423.s0.e7" ddi="false"/>
+        <pair id="DDI-DrugBank.d423.s0.p34" e1="DDI-DrugBank.d423.s0.e6"
+            e2="DDI-DrugBank.d423.s0.e8" ddi="false"/>
+        <pair id="DDI-DrugBank.d423.s0.p35" e1="DDI-DrugBank.d423.s0.e7"
+            e2="DDI-DrugBank.d423.s0.e8" ddi="false"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d423.s1" text="Because dexfenfluramine is a serotonin releaser and reuptake inhibitor, dexfenfluramine should not be used concomitantly with a MAO inhibitor.">
+        <entity id="DDI-DrugBank.d423.s1.e0" charOffset="8-22"
+            type="drug" text="dexfenfluramine"/>
+        <entity id="DDI-DrugBank.d423.s1.e1" charOffset="72-86"
+            type="drug" text="dexfenfluramine"/>
+        <entity id="DDI-DrugBank.d423.s1.e2" charOffset="128-140"
+            type="group" text="MAO inhibitor"/>
+        <pair id="DDI-DrugBank.d423.s1.p0" e1="DDI-DrugBank.d423.s1.e0"
+            e2="DDI-DrugBank.d423.s1.e1" ddi="false"/>
+        <pair id="DDI-DrugBank.d423.s1.p1" e1="DDI-DrugBank.d423.s1.e0"
+            e2="DDI-DrugBank.d423.s1.e2" ddi="false"/>
+        <pair id="DDI-DrugBank.d423.s1.p2" e1="DDI-DrugBank.d423.s1.e1"
+            e2="DDI-DrugBank.d423.s1.e2" ddi="true" type="advise"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d423.s2" text="At least 14 days should elapse between discontinuation of a MAO inhibitor and initiation of treatment with dexfenfluramine.">
+        <entity id="DDI-DrugBank.d423.s2.e0" charOffset="60-72"
+            type="group" text="MAO inhibitor"/>
+        <entity id="DDI-DrugBank.d423.s2.e1" charOffset="107-121"
+            type="drug" text="dexfenfluramine"/>
+        <pair id="DDI-DrugBank.d423.s2.p0" e1="DDI-DrugBank.d423.s2.e0"
+            e2="DDI-DrugBank.d423.s2.e1" ddi="true" type="advise"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d423.s3" text="At least 3 weeks should elapse between discontinuation of dexfenfluramine and initiation of treatment with a MAO inhibitor.">
+        <entity id="DDI-DrugBank.d423.s3.e0" charOffset="58-72"
+            type="drug" text="dexfenfluramine"/>
+        <entity id="DDI-DrugBank.d423.s3.e1" charOffset="109-121"
+            type="group" text="MAO inhibitor"/>
+        <pair id="DDI-DrugBank.d423.s3.p0" e1="DDI-DrugBank.d423.s3.e0"
+            e2="DDI-DrugBank.d423.s3.e1" ddi="true" type="advise"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d423.s4" text="A rare, but serious, constellation of symptoms, termed serotonin syndrome, has been reported with the concomitant use of selective serotonin reuptake inhibitors (SSRIs) and agents for migraine therapy, such as Imitrex (sumatriptan succinate) and dihydroergotamine.">
+        <entity id="DDI-DrugBank.d423.s4.e0" charOffset="121-159"
+            type="group" text="selective serotonin reuptake inhibitors"/>
+        <entity id="DDI-DrugBank.d423.s4.e1" charOffset="162-166"
+            type="group" text="SSRIs"/>
+        <entity id="DDI-DrugBank.d423.s4.e2" charOffset="210-216"
+            type="brand" text="Imitrex"/>
+        <entity id="DDI-DrugBank.d423.s4.e3" charOffset="219-239"
+            type="drug" text="sumatriptan succinate"/>
+        <entity id="DDI-DrugBank.d423.s4.e4" charOffset="246-262"
+            type="drug" text="dihydroergotamine"/>
+        <pair id="DDI-DrugBank.d423.s4.p0" e1="DDI-DrugBank.d423.s4.e0"
+            e2="DDI-DrugBank.d423.s4.e1" ddi="false"/>
+        <pair id="DDI-DrugBank.d423.s4.p1" e1="DDI-DrugBank.d423.s4.e0"
+            e2="DDI-DrugBank.d423.s4.e2" ddi="true" type="effect"/>
+        <pair id="DDI-DrugBank.d423.s4.p2" e1="DDI-DrugBank.d423.s4.e0"
+            e2="DDI-DrugBank.d423.s4.e3" ddi="true" type="effect"/>
+        <pair id="DDI-DrugBank.d423.s4.p3" e1="DDI-DrugBank.d423.s4.e0"
+            e2="DDI-DrugBank.d423.s4.e4" ddi="true" type="effect"/>
+        <pair id="DDI-DrugBank.d423.s4.p4" e1="DDI-DrugBank.d423.s4.e1"
+            e2="DDI-DrugBank.d423.s4.e2" ddi="true" type="effect"/>
+        <pair id="DDI-DrugBank.d423.s4.p5" e1="DDI-DrugBank.d423.s4.e1"
+            e2="DDI-DrugBank.d423.s4.e3" ddi="true" type="effect"/>
+        <pair id="DDI-DrugBank.d423.s4.p6" e1="DDI-DrugBank.d423.s4.e1"
+            e2="DDI-DrugBank.d423.s4.e4" ddi="true" type="effect"/>
+        <pair id="DDI-DrugBank.d423.s4.p7" e1="DDI-DrugBank.d423.s4.e2"
+            e2="DDI-DrugBank.d423.s4.e3" ddi="false"/>
+        <pair id="DDI-DrugBank.d423.s4.p8" e1="DDI-DrugBank.d423.s4.e2"
+            e2="DDI-DrugBank.d423.s4.e4" ddi="false"/>
+        <pair id="DDI-DrugBank.d423.s4.p9" e1="DDI-DrugBank.d423.s4.e3"
+            e2="DDI-DrugBank.d423.s4.e4" ddi="false"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d423.s5" text="The syndrome requires immediate medical attention and may include one or more of the following symptoms: excitement, hypomania, restlessness, loss of consciousness, confusion, disorientation, anxiety, agitation, motor weakness, myoclonus, tremor, hemiballismus, hyperreflexia, ataxia, dysarthria, incoordination, hyperthermia, shivering, pupillary dilation, diaphoresis, emesis, and tachycardia."/>
+    <sentence id="DDI-DrugBank.d423.s6" text="Dexfenfluramine should not be administered with other serotoninergic agents.">
+        <entity id="DDI-DrugBank.d423.s6.e0" charOffset="0-14"
+            type="drug" text="Dexfenfluramine"/>
+        <entity id="DDI-DrugBank.d423.s6.e1" charOffset="54-74"
+            type="group" text="serotoninergic agents"/>
+        <pair id="DDI-DrugBank.d423.s6.p0" e1="DDI-DrugBank.d423.s6.e0"
+            e2="DDI-DrugBank.d423.s6.e1" ddi="true" type="advise"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d423.s7" text="The appropriate interval between administration of these agents and dexfenfluramine has not been established.">
+        <entity id="DDI-DrugBank.d423.s7.e0" charOffset="68-82"
+            type="drug" text="dexfenfluramine"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d423.s8" text="The use of dexfenfluramine with other CNS-active drugs has not been systematically evaluated;">
+        <entity id="DDI-DrugBank.d423.s8.e0" charOffset="11-25"
+            type="drug" text="dexfenfluramine"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d423.s9" text="consequently, caution is advised if dexfenfluramine and such drugs are prescribed concurrently.">
+        <entity id="DDI-DrugBank.d423.s9.e0" charOffset="36-50"
+            type="drug" text="dexfenfluramine"/>
+    </sentence>
+</document>

@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="DDI-DrugBank.d392">
+    <sentence id="DDI-DrugBank.d392.s0" text="Patients who are applying Panretin gel should not concurrently use products that contain DEET (N, N-diethyl-m-toluamide), a common component of insect repellent products.">
+        <entity id="DDI-DrugBank.d392.s0.e0" charOffset="26-33"
+            type="brand" text="Panretin"/>
+        <entity id="DDI-DrugBank.d392.s0.e1" charOffset="89-92"
+            type="drug" text="DEET"/>
+        <entity id="DDI-DrugBank.d392.s0.e2" charOffset="98-118"
+            type="drug" text="N-diethyl-m-toluamide"/>
+        <pair id="DDI-DrugBank.d392.s0.p0" e1="DDI-DrugBank.d392.s0.e0"
+            e2="DDI-DrugBank.d392.s0.e1" ddi="true" type="advise"/>
+        <pair id="DDI-DrugBank.d392.s0.p1" e1="DDI-DrugBank.d392.s0.e0"
+            e2="DDI-DrugBank.d392.s0.e2" ddi="true" type="advise"/>
+        <pair id="DDI-DrugBank.d392.s0.p2" e1="DDI-DrugBank.d392.s0.e1"
+            e2="DDI-DrugBank.d392.s0.e2" ddi="false"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d392.s1" text="Animal toxicology studies showed increased DEET toxicity when DEET was included as proof of the formulation.">
+        <entity id="DDI-DrugBank.d392.s1.e0" charOffset="43-46"
+            type="drug" text="DEET"/>
+        <entity id="DDI-DrugBank.d392.s1.e1" charOffset="62-65"
+            type="drug" text="DEET"/>
+        <pair id="DDI-DrugBank.d392.s1.p0" e1="DDI-DrugBank.d392.s1.e0"
+            e2="DDI-DrugBank.d392.s1.e1" ddi="false"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d392.s2" text="Although there was no clinical evidence in the vehicle-controlled studies of drug interactions with systemic antiretroviral agents, including protease inhibitors, macrolide antibiotics, and azole antifungals, the effect of Panretin gel on the steady-state concentrations of these drugs is not known.">
+        <entity id="DDI-DrugBank.d392.s2.e0" charOffset="109-129"
+            type="group" text="antiretroviral agents"/>
+        <entity id="DDI-DrugBank.d392.s2.e1" charOffset="142-160"
+            type="group" text="protease inhibitors"/>
+        <entity id="DDI-DrugBank.d392.s2.e2" charOffset="163-183"
+            type="group" text="macrolide antibiotics"/>
+        <entity id="DDI-DrugBank.d392.s2.e3" charOffset="190-206"
+            type="group" text="azole antifungals"/>
+        <entity id="DDI-DrugBank.d392.s2.e4" charOffset="223-230"
+            type="brand" text="Panretin"/>
+        <pair id="DDI-DrugBank.d392.s2.p0" e1="DDI-DrugBank.d392.s2.e0"
+            e2="DDI-DrugBank.d392.s2.e1" ddi="false"/>
+        <pair id="DDI-DrugBank.d392.s2.p1" e1="DDI-DrugBank.d392.s2.e0"
+            e2="DDI-DrugBank.d392.s2.e2" ddi="false"/>
+        <pair id="DDI-DrugBank.d392.s2.p2" e1="DDI-DrugBank.d392.s2.e0"
+            e2="DDI-DrugBank.d392.s2.e3" ddi="false"/>
+        <pair id="DDI-DrugBank.d392.s2.p3" e1="DDI-DrugBank.d392.s2.e0"
+            e2="DDI-DrugBank.d392.s2.e4" ddi="false"/>
+        <pair id="DDI-DrugBank.d392.s2.p4" e1="DDI-DrugBank.d392.s2.e1"
+            e2="DDI-DrugBank.d392.s2.e2" ddi="false"/>
+        <pair id="DDI-DrugBank.d392.s2.p5" e1="DDI-DrugBank.d392.s2.e1"
+            e2="DDI-DrugBank.d392.s2.e3" ddi="false"/>
+        <pair id="DDI-DrugBank.d392.s2.p6" e1="DDI-DrugBank.d392.s2.e1"
+            e2="DDI-DrugBank.d392.s2.e4" ddi="false"/>
+        <pair id="DDI-DrugBank.d392.s2.p7" e1="DDI-DrugBank.d392.s2.e2"
+            e2="DDI-DrugBank.d392.s2.e3" ddi="false"/>
+        <pair id="DDI-DrugBank.d392.s2.p8" e1="DDI-DrugBank.d392.s2.e2"
+            e2="DDI-DrugBank.d392.s2.e4" ddi="false"/>
+        <pair id="DDI-DrugBank.d392.s2.p9" e1="DDI-DrugBank.d392.s2.e3"
+            e2="DDI-DrugBank.d392.s2.e4" ddi="false"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d392.s3" text="No drug interaction data are available on concomitant administration of Panretin gel and systemic anti-KS agents.">
+        <entity id="DDI-DrugBank.d392.s3.e0" charOffset="72-79"
+            type="brand" text="Panretin"/>
+    </sentence>
+</document>

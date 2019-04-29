@@ -1,0 +1,186 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="DDI-DrugBank.d588">
+    <sentence id="DDI-DrugBank.d588.s0" text="Diuretics: Furosemide and probably other loop diuretics given concomitantly with metolazone can cause unusually large or prolonged losses of fluid and electrolytes. ">
+        <entity id="DDI-DrugBank.d588.s0.e0" charOffset="0-8"
+            type="group" text="Diuretics"/>
+        <entity id="DDI-DrugBank.d588.s0.e1" charOffset="11-20"
+            type="drug" text="Furosemide"/>
+        <entity id="DDI-DrugBank.d588.s0.e2" charOffset="41-54"
+            type="group" text="loop diuretics"/>
+        <entity id="DDI-DrugBank.d588.s0.e3" charOffset="81-90"
+            type="drug" text="metolazone"/>
+        <pair id="DDI-DrugBank.d588.s0.p0" e1="DDI-DrugBank.d588.s0.e0"
+            e2="DDI-DrugBank.d588.s0.e1" ddi="false"/>
+        <pair id="DDI-DrugBank.d588.s0.p1" e1="DDI-DrugBank.d588.s0.e0"
+            e2="DDI-DrugBank.d588.s0.e2" ddi="false"/>
+        <pair id="DDI-DrugBank.d588.s0.p2" e1="DDI-DrugBank.d588.s0.e0"
+            e2="DDI-DrugBank.d588.s0.e3" ddi="false"/>
+        <pair id="DDI-DrugBank.d588.s0.p3" e1="DDI-DrugBank.d588.s0.e1"
+            e2="DDI-DrugBank.d588.s0.e2" ddi="false"/>
+        <pair id="DDI-DrugBank.d588.s0.p4" e1="DDI-DrugBank.d588.s0.e1"
+            e2="DDI-DrugBank.d588.s0.e3" ddi="true" type="effect"/>
+        <pair id="DDI-DrugBank.d588.s0.p5" e1="DDI-DrugBank.d588.s0.e2"
+            e2="DDI-DrugBank.d588.s0.e3" ddi="true" type="effect"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d588.s1" text="Other Antihypertensives: When MYKROX Tablets are used with other antihypertensive drugs, care must be taken, especially during initial therapy. ">
+        <entity id="DDI-DrugBank.d588.s1.e0" charOffset="6-22"
+            type="group" text="Antihypertensives"/>
+        <entity id="DDI-DrugBank.d588.s1.e1" charOffset="30-35"
+            type="brand" text="MYKROX"/>
+        <entity id="DDI-DrugBank.d588.s1.e2" charOffset="65-86"
+            type="group" text="antihypertensive drugs"/>
+        <pair id="DDI-DrugBank.d588.s1.p0" e1="DDI-DrugBank.d588.s1.e0"
+            e2="DDI-DrugBank.d588.s1.e1" ddi="false"/>
+        <pair id="DDI-DrugBank.d588.s1.p1" e1="DDI-DrugBank.d588.s1.e0"
+            e2="DDI-DrugBank.d588.s1.e2" ddi="false"/>
+        <pair id="DDI-DrugBank.d588.s1.p2" e1="DDI-DrugBank.d588.s1.e1"
+            e2="DDI-DrugBank.d588.s1.e2" ddi="true" type="advise"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d588.s2" text="Dosage adjustments of other antihypertensives may be necessary. ">
+        <entity id="DDI-DrugBank.d588.s2.e0" charOffset="28-44"
+            type="group" text="antihypertensives"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d588.s3" text="Alcohol, Barbiturates, and Narcotics: The hypotensive effects of these drugs may be potentiated by the volume contraction that may be associated with metolazone therapy. ">
+        <entity id="DDI-DrugBank.d588.s3.e0" charOffset="0-6"
+            type="drug" text="Alcohol"/>
+        <entity id="DDI-DrugBank.d588.s3.e1" charOffset="9-20"
+            type="group" text="Barbiturates"/>
+        <entity id="DDI-DrugBank.d588.s3.e2" charOffset="27-35"
+            type="group" text="Narcotics"/>
+        <entity id="DDI-DrugBank.d588.s3.e3" charOffset="150-159"
+            type="drug" text="metolazone"/>
+        <pair id="DDI-DrugBank.d588.s3.p0" e1="DDI-DrugBank.d588.s3.e0"
+            e2="DDI-DrugBank.d588.s3.e1" ddi="false"/>
+        <pair id="DDI-DrugBank.d588.s3.p1" e1="DDI-DrugBank.d588.s3.e0"
+            e2="DDI-DrugBank.d588.s3.e2" ddi="false"/>
+        <pair id="DDI-DrugBank.d588.s3.p2" e1="DDI-DrugBank.d588.s3.e0"
+            e2="DDI-DrugBank.d588.s3.e3" ddi="false"/>
+        <pair id="DDI-DrugBank.d588.s3.p3" e1="DDI-DrugBank.d588.s3.e1"
+            e2="DDI-DrugBank.d588.s3.e2" ddi="false"/>
+        <pair id="DDI-DrugBank.d588.s3.p4" e1="DDI-DrugBank.d588.s3.e1"
+            e2="DDI-DrugBank.d588.s3.e3" ddi="false"/>
+        <pair id="DDI-DrugBank.d588.s3.p5" e1="DDI-DrugBank.d588.s3.e2"
+            e2="DDI-DrugBank.d588.s3.e3" ddi="false"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d588.s4" text="Digitalis Glycosides: Diuretic-induced hypokalemia can increase the sensitivity of the myocardium to digitalis. ">
+        <entity id="DDI-DrugBank.d588.s4.e0" charOffset="0-19"
+            type="group" text="Digitalis Glycosides"/>
+        <entity id="DDI-DrugBank.d588.s4.e1" charOffset="22-29"
+            type="group" text="Diuretic"/>
+        <entity id="DDI-DrugBank.d588.s4.e2" charOffset="101-109"
+            type="group" text="digitalis"/>
+        <pair id="DDI-DrugBank.d588.s4.p0" e1="DDI-DrugBank.d588.s4.e0"
+            e2="DDI-DrugBank.d588.s4.e1" ddi="false"/>
+        <pair id="DDI-DrugBank.d588.s4.p1" e1="DDI-DrugBank.d588.s4.e0"
+            e2="DDI-DrugBank.d588.s4.e2" ddi="false"/>
+        <pair id="DDI-DrugBank.d588.s4.p2" e1="DDI-DrugBank.d588.s4.e1"
+            e2="DDI-DrugBank.d588.s4.e2" ddi="true" type="effect"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d588.s5" text="Serious arrhythmias can result. "/>
+    <sentence id="DDI-DrugBank.d588.s6" text="Corticosteroids or ACTH: May increase the risk of hypokalemia and increase salt and water retention. ">
+        <entity id="DDI-DrugBank.d588.s6.e0" charOffset="0-14"
+            type="group" text="Corticosteroids"/>
+        <entity id="DDI-DrugBank.d588.s6.e1" charOffset="19-22"
+            type="drug" text="ACTH"/>
+        <pair id="DDI-DrugBank.d588.s6.p0" e1="DDI-DrugBank.d588.s6.e0"
+            e2="DDI-DrugBank.d588.s6.e1" ddi="false"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d588.s7" text="Lithium: Serum lithium levels may increase. ">
+        <entity id="DDI-DrugBank.d588.s7.e0" charOffset="0-6"
+            type="drug" text="Lithium"/>
+        <entity id="DDI-DrugBank.d588.s7.e1" charOffset="15-21"
+            type="drug" text="lithium"/>
+        <pair id="DDI-DrugBank.d588.s7.p0" e1="DDI-DrugBank.d588.s7.e0"
+            e2="DDI-DrugBank.d588.s7.e1" ddi="false"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d588.s8" text="Curariform Drugs: Diuretic-induced hypokalemia may enhance neuromuscular blocking effects of curariform drugs (such as tubocurarine) the most serious effect would be respiratory depression which could proceed to apnea. ">
+        <entity id="DDI-DrugBank.d588.s8.e0" charOffset="0-15"
+            type="group" text="Curariform Drugs"/>
+        <entity id="DDI-DrugBank.d588.s8.e1" charOffset="18-25"
+            type="group" text="Diuretic"/>
+        <entity id="DDI-DrugBank.d588.s8.e2" charOffset="93-108"
+            type="group" text="curariform drugs"/>
+        <entity id="DDI-DrugBank.d588.s8.e3" charOffset="119-130"
+            type="drug" text="tubocurarine"/>
+        <pair id="DDI-DrugBank.d588.s8.p0" e1="DDI-DrugBank.d588.s8.e0"
+            e2="DDI-DrugBank.d588.s8.e1" ddi="false"/>
+        <pair id="DDI-DrugBank.d588.s8.p1" e1="DDI-DrugBank.d588.s8.e0"
+            e2="DDI-DrugBank.d588.s8.e2" ddi="false"/>
+        <pair id="DDI-DrugBank.d588.s8.p2" e1="DDI-DrugBank.d588.s8.e0"
+            e2="DDI-DrugBank.d588.s8.e3" ddi="false"/>
+        <pair id="DDI-DrugBank.d588.s8.p3" e1="DDI-DrugBank.d588.s8.e1"
+            e2="DDI-DrugBank.d588.s8.e2" ddi="true" type="effect"/>
+        <pair id="DDI-DrugBank.d588.s8.p4" e1="DDI-DrugBank.d588.s8.e1"
+            e2="DDI-DrugBank.d588.s8.e3" ddi="true" type="effect"/>
+        <pair id="DDI-DrugBank.d588.s8.p5" e1="DDI-DrugBank.d588.s8.e2"
+            e2="DDI-DrugBank.d588.s8.e3" ddi="false"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d588.s9" text="Accordingly, it may be advisable to discontinue MYKROX Tablets three days before elective surgery. ">
+        <entity id="DDI-DrugBank.d588.s9.e0" charOffset="48-53"
+            type="brand" text="MYKROX"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d588.s10" text="Salicylates and Other Non-Steroidal Anti-Inflammatory Drugs: May decrease the antihypertensive effects of MYKROX Tablets. ">
+        <entity id="DDI-DrugBank.d588.s10.e0" charOffset="0-10"
+            type="group" text="Salicylates"/>
+        <entity id="DDI-DrugBank.d588.s10.e1" charOffset="22-58"
+            type="group" text="Non-Steroidal Anti-Inflammatory Drugs"/>
+        <entity id="DDI-DrugBank.d588.s10.e2" charOffset="106-111"
+            type="brand" text="MYKROX"/>
+        <pair id="DDI-DrugBank.d588.s10.p0"
+            e1="DDI-DrugBank.d588.s10.e0" e2="DDI-DrugBank.d588.s10.e1" ddi="false"/>
+        <pair id="DDI-DrugBank.d588.s10.p1"
+            e1="DDI-DrugBank.d588.s10.e0" e2="DDI-DrugBank.d588.s10.e2"
+            ddi="true" type="effect"/>
+        <pair id="DDI-DrugBank.d588.s10.p2"
+            e1="DDI-DrugBank.d588.s10.e1" e2="DDI-DrugBank.d588.s10.e2"
+            ddi="true" type="effect"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d588.s11" text="Sympathomimetics: Metolazone may decrease arterial responsiveness to norepinephrine, but this diminution is not sufficient to preclude effectiveness of the pressor agent for therapeutic use. ">
+        <entity id="DDI-DrugBank.d588.s11.e0" charOffset="0-15"
+            type="group" text="Sympathomimetics"/>
+        <entity id="DDI-DrugBank.d588.s11.e1" charOffset="18-27"
+            type="drug" text="Metolazone"/>
+        <entity id="DDI-DrugBank.d588.s11.e2" charOffset="69-82"
+            type="drug" text="norepinephrine"/>
+        <pair id="DDI-DrugBank.d588.s11.p0"
+            e1="DDI-DrugBank.d588.s11.e0" e2="DDI-DrugBank.d588.s11.e1" ddi="false"/>
+        <pair id="DDI-DrugBank.d588.s11.p1"
+            e1="DDI-DrugBank.d588.s11.e0" e2="DDI-DrugBank.d588.s11.e2" ddi="false"/>
+        <pair id="DDI-DrugBank.d588.s11.p2"
+            e1="DDI-DrugBank.d588.s11.e1" e2="DDI-DrugBank.d588.s11.e2"
+            ddi="true" type="effect"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d588.s12" text="Methenamine: Efficacy may be decreased due to urinary alkalizing effect of metolazone. ">
+        <entity id="DDI-DrugBank.d588.s12.e0" charOffset="0-10"
+            type="drug" text="Methenamine"/>
+        <entity id="DDI-DrugBank.d588.s12.e1" charOffset="75-84"
+            type="drug" text="metolazone"/>
+        <pair id="DDI-DrugBank.d588.s12.p0"
+            e1="DDI-DrugBank.d588.s12.e0" e2="DDI-DrugBank.d588.s12.e1"
+            ddi="true" type="effect"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d588.s13" text="Anticoagulants: Metolazone, as well as other thiazide-like diuretics, may affect the hypoprothrombinemic response to anticoagulants; ">
+        <entity id="DDI-DrugBank.d588.s13.e0" charOffset="0-13"
+            type="group" text="Anticoagulants"/>
+        <entity id="DDI-DrugBank.d588.s13.e1" charOffset="16-25"
+            type="drug" text="Metolazone"/>
+        <entity id="DDI-DrugBank.d588.s13.e2" charOffset="45-67"
+            type="group" text="thiazide-like diuretics"/>
+        <entity id="DDI-DrugBank.d588.s13.e3" charOffset="117-130"
+            type="group" text="anticoagulants"/>
+        <pair id="DDI-DrugBank.d588.s13.p0"
+            e1="DDI-DrugBank.d588.s13.e0" e2="DDI-DrugBank.d588.s13.e1" ddi="false"/>
+        <pair id="DDI-DrugBank.d588.s13.p1"
+            e1="DDI-DrugBank.d588.s13.e0" e2="DDI-DrugBank.d588.s13.e2" ddi="false"/>
+        <pair id="DDI-DrugBank.d588.s13.p2"
+            e1="DDI-DrugBank.d588.s13.e0" e2="DDI-DrugBank.d588.s13.e3" ddi="false"/>
+        <pair id="DDI-DrugBank.d588.s13.p3"
+            e1="DDI-DrugBank.d588.s13.e1" e2="DDI-DrugBank.d588.s13.e2" ddi="false"/>
+        <pair id="DDI-DrugBank.d588.s13.p4"
+            e1="DDI-DrugBank.d588.s13.e1" e2="DDI-DrugBank.d588.s13.e3"
+            ddi="true" type="effect"/>
+        <pair id="DDI-DrugBank.d588.s13.p5"
+            e1="DDI-DrugBank.d588.s13.e2" e2="DDI-DrugBank.d588.s13.e3" ddi="false"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d588.s14" text="dosage adjustments may be necessary."/>
+</document>

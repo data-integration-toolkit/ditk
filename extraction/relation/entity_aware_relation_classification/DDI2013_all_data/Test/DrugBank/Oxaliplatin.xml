@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="DDI-DrugBank.d728">
+    <sentence id="DDI-DrugBank.d728.s0" text="No specific cytochrome P450-based drug interaction studies have been conducted. "/>
+    <sentence id="DDI-DrugBank.d728.s1" text="No pharmacokinetic interaction between 85 mg/m2 ELOXATIN and infusional 5-FU has been observed in patients treated every 2 weeks. ">
+        <entity id="DDI-DrugBank.d728.s1.e0" charOffset="48-55"
+            type="brand" text="ELOXATIN"/>
+        <entity id="DDI-DrugBank.d728.s1.e1" charOffset="72-75"
+            type="drug" text="5-FU"/>
+        <pair id="DDI-DrugBank.d728.s1.p0" e1="DDI-DrugBank.d728.s1.e0"
+            e2="DDI-DrugBank.d728.s1.e1" ddi="false"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d728.s2" text="Increases of 5-FU plasma concentrations by approximately 20% have been observed with doses of 130 mg/m2 ELOXATIN dosed every 3 weeks. ">
+        <entity id="DDI-DrugBank.d728.s2.e0" charOffset="13-16"
+            type="drug" text="5-FU"/>
+        <entity id="DDI-DrugBank.d728.s2.e1" charOffset="104-111"
+            type="brand" text="ELOXATIN"/>
+        <pair id="DDI-DrugBank.d728.s2.p0" e1="DDI-DrugBank.d728.s2.e0"
+            e2="DDI-DrugBank.d728.s2.e1" ddi="true" type="mechanism"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d728.s3" text="Since platinum containing species are eliminated primarily through the kidney, clearance of these products may be decreased by coadministration of potentially nephrotoxic compounds; "/>
+    <sentence id="DDI-DrugBank.d728.s4" text="although, this has not been specifically studied."/>
+</document>

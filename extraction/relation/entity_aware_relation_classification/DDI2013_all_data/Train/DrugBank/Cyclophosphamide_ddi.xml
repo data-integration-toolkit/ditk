@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="DDI-DrugBank.d7">
+    <sentence id="DDI-DrugBank.d7.s0" text="The rate of metabolism and the leukopenic activity of cyclophosphamide reportedly are increased by chronic administration of high doses of phenobarbital.">
+        <entity id="DDI-DrugBank.d7.s0.e0" charOffset="54-69"
+            type="drug" text="cyclophosphamide"/>
+        <entity id="DDI-DrugBank.d7.s0.e1" charOffset="139-151"
+            type="drug" text="phenobarbital"/>
+        <pair id="DDI-DrugBank.d7.s0.p0" e1="DDI-DrugBank.d7.s0.e0"
+            e2="DDI-DrugBank.d7.s0.e1" ddi="true" type="mechanism"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d7.s1" text="The physician should be alert for possible combined drug actions, desirable or undesirable, involving cyclophosphamide even though cyclophosphamide has been used successfully concurrently with other drugs, including other cytotoxic drugs.">
+        <entity id="DDI-DrugBank.d7.s1.e0" charOffset="102-117"
+            type="drug" text="cyclophosphamide"/>
+        <entity id="DDI-DrugBank.d7.s1.e1" charOffset="131-146"
+            type="drug" text="cyclophosphamide"/>
+        <pair id="DDI-DrugBank.d7.s1.p0" e1="DDI-DrugBank.d7.s1.e0"
+            e2="DDI-DrugBank.d7.s1.e1" ddi="false"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d7.s2" text="Cyclophosphamide treatment, which causes a marked and persistent inhibition of cholinesterase activity, potentiates the effect of succinylcholine chloride.">
+        <entity id="DDI-DrugBank.d7.s2.e0" charOffset="0-15" type="drug" text="Cyclophosphamide"/>
+        <entity id="DDI-DrugBank.d7.s2.e1" charOffset="130-153"
+            type="drug" text="succinylcholine chloride"/>
+        <pair id="DDI-DrugBank.d7.s2.p0" e1="DDI-DrugBank.d7.s2.e0"
+            e2="DDI-DrugBank.d7.s2.e1" ddi="true" type="effect"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d7.s3" text="If a patient has been treated with cyclophosphamide within 10 days of general anesthesia, the anesthesiologist should be alerted.">
+        <entity id="DDI-DrugBank.d7.s3.e0" charOffset="35-50"
+            type="drug" text="cyclophosphamide"/>
+    </sentence>
+</document>

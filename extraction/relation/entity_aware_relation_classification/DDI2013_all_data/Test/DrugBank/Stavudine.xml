@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="DDI-DrugBank.d727">
+    <sentence id="DDI-DrugBank.d727.s0" text="Zidovudine competitively inhibits the intracellular phosphorylation of stavudine. ">
+        <entity id="DDI-DrugBank.d727.s0.e0" charOffset="0-9"
+            type="drug" text="Zidovudine"/>
+        <entity id="DDI-DrugBank.d727.s0.e1" charOffset="71-79"
+            type="drug" text="stavudine"/>
+        <pair id="DDI-DrugBank.d727.s0.p0" e1="DDI-DrugBank.d727.s0.e0"
+            e2="DDI-DrugBank.d727.s0.e1" ddi="true" type="effect"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d727.s1" text="Therefore, use of zidovudine in combination with ZERIT should be avoided. ">
+        <entity id="DDI-DrugBank.d727.s1.e0" charOffset="18-27"
+            type="drug" text="zidovudine"/>
+        <entity id="DDI-DrugBank.d727.s1.e1" charOffset="49-53"
+            type="brand" text="ZERIT"/>
+        <pair id="DDI-DrugBank.d727.s1.p0" e1="DDI-DrugBank.d727.s1.e0"
+            e2="DDI-DrugBank.d727.s1.e1" ddi="true" type="advise"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d727.s2" text="In vitro data indicate that the phosphorylation of stavudine is also inhibited at relevant concentrations by doxorubicin and ribavirin. ">
+        <entity id="DDI-DrugBank.d727.s2.e0" charOffset="51-59"
+            type="drug" text="stavudine"/>
+        <entity id="DDI-DrugBank.d727.s2.e1" charOffset="109-119"
+            type="drug" text="doxorubicin"/>
+        <entity id="DDI-DrugBank.d727.s2.e2" charOffset="125-133"
+            type="drug" text="ribavirin"/>
+        <pair id="DDI-DrugBank.d727.s2.p0" e1="DDI-DrugBank.d727.s2.e0"
+            e2="DDI-DrugBank.d727.s2.e1" ddi="true" type="effect"/>
+        <pair id="DDI-DrugBank.d727.s2.p1" e1="DDI-DrugBank.d727.s2.e0"
+            e2="DDI-DrugBank.d727.s2.e2" ddi="true" type="effect"/>
+        <pair id="DDI-DrugBank.d727.s2.p2" e1="DDI-DrugBank.d727.s2.e1"
+            e2="DDI-DrugBank.d727.s2.e2" ddi="false"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d727.s3" text="The clinical significance of these in vitro interactions is unknown; "/>
+    <sentence id="DDI-DrugBank.d727.s4" text="therefore, concomitant use of stavudine with either of these drugs should be undertaken with caution.">
+        <entity id="DDI-DrugBank.d727.s4.e0" charOffset="30-38"
+            type="drug" text="stavudine"/>
+    </sentence>
+</document>

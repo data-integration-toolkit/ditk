@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="DDI-MedLine.d134">
+    <sentence id="DDI-MedLine.d134.s0" text="[Dose-time effects of competitive displacement of radiopertechnetate by sodium perchlorate following oral and intravenous administration] The effect of various doses of sodium perchlorate in several dose fractions on the extent and the time scale of displacement of radiopertechnetate, in dependence on application mode, was studied. ">
+        <entity id="DDI-MedLine.d134.s0.e0" charOffset="50-67"
+            type="drug" text="radiopertechnetate"/>
+        <entity id="DDI-MedLine.d134.s0.e1" charOffset="72-89"
+            type="drug_n" text="sodium perchlorate"/>
+        <entity id="DDI-MedLine.d134.s0.e2" charOffset="169-186"
+            type="drug_n" text="sodium perchlorate"/>
+        <entity id="DDI-MedLine.d134.s0.e3" charOffset="266-283"
+            type="drug" text="radiopertechnetate"/>
+        <pair id="DDI-MedLine.d134.s0.p0" e1="DDI-MedLine.d134.s0.e0"
+            e2="DDI-MedLine.d134.s0.e1" ddi="false"/>
+        <pair id="DDI-MedLine.d134.s0.p1" e1="DDI-MedLine.d134.s0.e0"
+            e2="DDI-MedLine.d134.s0.e2" ddi="false"/>
+        <pair id="DDI-MedLine.d134.s0.p2" e1="DDI-MedLine.d134.s0.e0"
+            e2="DDI-MedLine.d134.s0.e3" ddi="false"/>
+        <pair id="DDI-MedLine.d134.s0.p3" e1="DDI-MedLine.d134.s0.e1"
+            e2="DDI-MedLine.d134.s0.e2" ddi="false"/>
+        <pair id="DDI-MedLine.d134.s0.p4" e1="DDI-MedLine.d134.s0.e1"
+            e2="DDI-MedLine.d134.s0.e3" ddi="false"/>
+        <pair id="DDI-MedLine.d134.s0.p5" e1="DDI-MedLine.d134.s0.e2"
+            e2="DDI-MedLine.d134.s0.e3" ddi="false"/>
+    </sentence>
+    <sentence id="DDI-MedLine.d134.s1" text="An intravenous dose of 50 mg perchlorate was in respect of competitive suppression of organs actively concentrating pertechnetate as effective as intravenous 1000 mg ClO-4- simultaneously or 1000 mg orally 30 min before the injection of radiopertechnetate. ">
+        <entity id="DDI-MedLine.d134.s1.e0" charOffset="29-39"
+            type="drug_n" text="perchlorate"/>
+        <entity id="DDI-MedLine.d134.s1.e1" charOffset="116-128"
+            type="drug" text="pertechnetate"/>
+        <entity id="DDI-MedLine.d134.s1.e2" charOffset="237-254"
+            type="drug" text="radiopertechnetate"/>
+        <pair id="DDI-MedLine.d134.s1.p0" e1="DDI-MedLine.d134.s1.e0"
+            e2="DDI-MedLine.d134.s1.e1" ddi="false"/>
+        <pair id="DDI-MedLine.d134.s1.p1" e1="DDI-MedLine.d134.s1.e0"
+            e2="DDI-MedLine.d134.s1.e2" ddi="false"/>
+        <pair id="DDI-MedLine.d134.s1.p2" e1="DDI-MedLine.d134.s1.e1"
+            e2="DDI-MedLine.d134.s1.e2" ddi="false"/>
+    </sentence>
+    <sentence id="DDI-MedLine.d134.s2" text="An intravenous injection of perchlorate given later also produces a complete and immediately beginning depletion of pertechnetate already accumulated in the thyroid, within a period of 195 min after 99m-TcO-4-injection with a corresponding increase in blood levels. ">
+        <entity id="DDI-MedLine.d134.s2.e0" charOffset="28-38"
+            type="drug_n" text="perchlorate"/>
+        <entity id="DDI-MedLine.d134.s2.e1" charOffset="116-128"
+            type="drug" text="pertechnetate"/>
+        <pair id="DDI-MedLine.d134.s2.p0" e1="DDI-MedLine.d134.s2.e0"
+            e2="DDI-MedLine.d134.s2.e1" ddi="true" type="mechanism"/>
+    </sentence>
+    <sentence id="DDI-MedLine.d134.s3" text="20 mg result in incomplete depletion which becomes complete after a second additional dose. "/>
+    <sentence id="DDI-MedLine.d134.s4" text="The intravenous application of perchlorate offers advantages in clinical use.">
+        <entity id="DDI-MedLine.d134.s4.e0" charOffset="31-41"
+            type="drug_n" text="perchlorate"/>
+    </sentence>
+</document>

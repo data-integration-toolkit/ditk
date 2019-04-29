@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="DDI-DrugBank.d736">
+    <sentence id="DDI-DrugBank.d736.s0" text="Hypokalemia can sensitize or exaggerate the response of the heart to the toxic effects of digitalis (e.g., increased ventricular irritability). ">
+        <entity id="DDI-DrugBank.d736.s0.e0" charOffset="90-98"
+            type="group" text="digitalis"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d736.s1" text="Hypokalemia may develop during concomitant use of steroids or ACTH. ">
+        <entity id="DDI-DrugBank.d736.s1.e0" charOffset="50-57"
+            type="group" text="steroids"/>
+        <entity id="DDI-DrugBank.d736.s1.e1" charOffset="62-65"
+            type="drug" text="ACTH"/>
+        <pair id="DDI-DrugBank.d736.s1.p0" e1="DDI-DrugBank.d736.s1.e0"
+            e2="DDI-DrugBank.d736.s1.e1" ddi="false"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d736.s2" text="Insulin requirements in diabetic patients may be increased, decreased, or unchanged. ">
+        <entity id="DDI-DrugBank.d736.s2.e0" charOffset="0-6"
+            type="drug" text="Insulin"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d736.s3" text="Thiazides may decrease arterial responsiveness to norepinephrine. ">
+        <entity id="DDI-DrugBank.d736.s3.e0" charOffset="0-8"
+            type="group" text="Thiazides"/>
+        <entity id="DDI-DrugBank.d736.s3.e1" charOffset="50-63"
+            type="drug" text="norepinephrine"/>
+        <pair id="DDI-DrugBank.d736.s3.p0" e1="DDI-DrugBank.d736.s3.e0"
+            e2="DDI-DrugBank.d736.s3.e1" ddi="true" type="effect"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d736.s4" text="This diminution is not sufficient to preclude effectiveness of the pressor agent for therapeutic use. "/>
+    <sentence id="DDI-DrugBank.d736.s5" text="Thiazide drugs may increase the responsiveness of tubocurarine. ">
+        <entity id="DDI-DrugBank.d736.s5.e0" charOffset="0-13"
+            type="group" text="Thiazide drugs"/>
+        <entity id="DDI-DrugBank.d736.s5.e1" charOffset="50-61"
+            type="drug" text="tubocurarine"/>
+        <pair id="DDI-DrugBank.d736.s5.p0" e1="DDI-DrugBank.d736.s5.e0"
+            e2="DDI-DrugBank.d736.s5.e1" ddi="true" type="effect"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d736.s6" text="Lithium renal clearance is reduced by thiazides, increasing the risk of lithium toxicity. ">
+        <entity id="DDI-DrugBank.d736.s6.e0" charOffset="0-6"
+            type="drug" text="Lithium"/>
+        <entity id="DDI-DrugBank.d736.s6.e1" charOffset="38-46"
+            type="group" text="thiazides"/>
+        <entity id="DDI-DrugBank.d736.s6.e2" charOffset="72-78"
+            type="drug" text="lithium"/>
+        <pair id="DDI-DrugBank.d736.s6.p0" e1="DDI-DrugBank.d736.s6.e0"
+            e2="DDI-DrugBank.d736.s6.e1" ddi="true" type="mechanism"/>
+        <pair id="DDI-DrugBank.d736.s6.p1" e1="DDI-DrugBank.d736.s6.e0"
+            e2="DDI-DrugBank.d736.s6.e2" ddi="false"/>
+        <pair id="DDI-DrugBank.d736.s6.p2" e1="DDI-DrugBank.d736.s6.e1"
+            e2="DDI-DrugBank.d736.s6.e2" ddi="false"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d736.s7" text="Thiazides may add to or potentiate the action of other antihypertensive drugs. ">
+        <entity id="DDI-DrugBank.d736.s7.e0" charOffset="0-8"
+            type="group" text="Thiazides"/>
+        <entity id="DDI-DrugBank.d736.s7.e1" charOffset="55-76"
+            type="group" text="antihypertensive drugs"/>
+        <pair id="DDI-DrugBank.d736.s7.p0" e1="DDI-DrugBank.d736.s7.e0"
+            e2="DDI-DrugBank.d736.s7.e1" ddi="true" type="effect"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d736.s8" text="Potentiation occurs with ganglionic or peripheral adrenergic blocking drugs.">
+        <entity id="DDI-DrugBank.d736.s8.e0" charOffset="25-34;50-74"
+            type="group" text="ganglionic adrenergic blocking drugs"/>
+        <entity id="DDI-DrugBank.d736.s8.e1" charOffset="39-74"
+            type="group" text="peripheral adrenergic blocking drugs"/>
+        <pair id="DDI-DrugBank.d736.s8.p0" e1="DDI-DrugBank.d736.s8.e0"
+            e2="DDI-DrugBank.d736.s8.e1" ddi="false"/>
+    </sentence>
+</document>

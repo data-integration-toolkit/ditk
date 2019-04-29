@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="DDI-DrugBank.d462">
+    <sentence id="DDI-DrugBank.d462.s0" text="Aminoglycosides: The mixing of piperacillin with an aminoglycoside in vitro can result in substantial inactivation of the aminoglycoside.">
+        <entity id="DDI-DrugBank.d462.s0.e0" charOffset="0-14"
+            type="group" text="Aminoglycosides"/>
+        <entity id="DDI-DrugBank.d462.s0.e1" charOffset="31-42"
+            type="drug" text="piperacillin"/>
+        <entity id="DDI-DrugBank.d462.s0.e2" charOffset="52-65"
+            type="group" text="aminoglycoside"/>
+        <entity id="DDI-DrugBank.d462.s0.e3" charOffset="122-135"
+            type="group" text="aminoglycoside"/>
+        <pair id="DDI-DrugBank.d462.s0.p0" e1="DDI-DrugBank.d462.s0.e0"
+            e2="DDI-DrugBank.d462.s0.e1" ddi="false"/>
+        <pair id="DDI-DrugBank.d462.s0.p1" e1="DDI-DrugBank.d462.s0.e0"
+            e2="DDI-DrugBank.d462.s0.e2" ddi="false"/>
+        <pair id="DDI-DrugBank.d462.s0.p2" e1="DDI-DrugBank.d462.s0.e0"
+            e2="DDI-DrugBank.d462.s0.e3" ddi="false"/>
+        <pair id="DDI-DrugBank.d462.s0.p3" e1="DDI-DrugBank.d462.s0.e1"
+            e2="DDI-DrugBank.d462.s0.e2" ddi="true" type="effect"/>
+        <pair id="DDI-DrugBank.d462.s0.p4" e1="DDI-DrugBank.d462.s0.e1"
+            e2="DDI-DrugBank.d462.s0.e3" ddi="false"/>
+        <pair id="DDI-DrugBank.d462.s0.p5" e1="DDI-DrugBank.d462.s0.e2"
+            e2="DDI-DrugBank.d462.s0.e3" ddi="false"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d462.s1" text="Vecuronium: When used in the perioperative period, piperacillin has been implicated in the prolongation of the neuromuscular blockade of vecuronium.">
+        <entity id="DDI-DrugBank.d462.s1.e0" charOffset="0-9"
+            type="drug" text="Vecuronium"/>
+        <entity id="DDI-DrugBank.d462.s1.e1" charOffset="51-62"
+            type="drug" text="piperacillin"/>
+        <entity id="DDI-DrugBank.d462.s1.e2" charOffset="137-146"
+            type="drug" text="vecuronium"/>
+        <pair id="DDI-DrugBank.d462.s1.p0" e1="DDI-DrugBank.d462.s1.e0"
+            e2="DDI-DrugBank.d462.s1.e1" ddi="false"/>
+        <pair id="DDI-DrugBank.d462.s1.p1" e1="DDI-DrugBank.d462.s1.e0"
+            e2="DDI-DrugBank.d462.s1.e2" ddi="false"/>
+        <pair id="DDI-DrugBank.d462.s1.p2" e1="DDI-DrugBank.d462.s1.e1"
+            e2="DDI-DrugBank.d462.s1.e2" ddi="true" type="effect"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d462.s2" text="Caution is indicated when piperacillin is used perioperatively.">
+        <entity id="DDI-DrugBank.d462.s2.e0" charOffset="26-37"
+            type="drug" text="piperacillin"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d462.s3" text="In one controlled clinical study, the ureidopenicillins, including piperacillin, were reported to prolong the action of vecuronium.">
+        <entity id="DDI-DrugBank.d462.s3.e0" charOffset="67-78"
+            type="drug" text="piperacillin"/>
+        <entity id="DDI-DrugBank.d462.s3.e1" charOffset="120-129"
+            type="drug" text="vecuronium"/>
+        <pair id="DDI-DrugBank.d462.s3.p0" e1="DDI-DrugBank.d462.s3.e0"
+            e2="DDI-DrugBank.d462.s3.e1" ddi="true" type="effect"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d462.s4" text="Due to their similar mechanism of action, it is expected that the neuromuscular blockade produced by any of the non-depolarizing muscle relaxants could be prolonged in the presence of piperacillin.">
+        <entity id="DDI-DrugBank.d462.s4.e0" charOffset="112-144"
+            type="group" text="non-depolarizing muscle relaxants"/>
+        <entity id="DDI-DrugBank.d462.s4.e1" charOffset="184-195"
+            type="drug" text="piperacillin"/>
+        <pair id="DDI-DrugBank.d462.s4.p0" e1="DDI-DrugBank.d462.s4.e0"
+            e2="DDI-DrugBank.d462.s4.e1" ddi="true" type="effect"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d462.s5" text="Probenecid: The oral combination of probenecid before intramuscular injection of PIPRACIL produces an increase in piperacillin peak serum level of about 30%.">
+        <entity id="DDI-DrugBank.d462.s5.e0" charOffset="0-9"
+            type="drug" text="Probenecid"/>
+        <entity id="DDI-DrugBank.d462.s5.e1" charOffset="36-45"
+            type="drug" text="probenecid"/>
+        <entity id="DDI-DrugBank.d462.s5.e2" charOffset="81-88"
+            type="brand" text="PIPRACIL"/>
+        <entity id="DDI-DrugBank.d462.s5.e3" charOffset="114-125"
+            type="drug" text="piperacillin"/>
+        <pair id="DDI-DrugBank.d462.s5.p0" e1="DDI-DrugBank.d462.s5.e0"
+            e2="DDI-DrugBank.d462.s5.e1" ddi="false"/>
+        <pair id="DDI-DrugBank.d462.s5.p1" e1="DDI-DrugBank.d462.s5.e0"
+            e2="DDI-DrugBank.d462.s5.e2" ddi="false"/>
+        <pair id="DDI-DrugBank.d462.s5.p2" e1="DDI-DrugBank.d462.s5.e0"
+            e2="DDI-DrugBank.d462.s5.e3" ddi="false"/>
+        <pair id="DDI-DrugBank.d462.s5.p3" e1="DDI-DrugBank.d462.s5.e1"
+            e2="DDI-DrugBank.d462.s5.e2" ddi="true" type="mechanism"/>
+        <pair id="DDI-DrugBank.d462.s5.p4" e1="DDI-DrugBank.d462.s5.e1"
+            e2="DDI-DrugBank.d462.s5.e3" ddi="false"/>
+        <pair id="DDI-DrugBank.d462.s5.p5" e1="DDI-DrugBank.d462.s5.e2"
+            e2="DDI-DrugBank.d462.s5.e3" ddi="false"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d462.s6" text="Anticoagulants: Coagulation parameters should be tested more frequently and monitored regularly during simultaneous administration of high doses of heparin, oral anticoagulants, or other drugs that may affect the blood coagulation system or the thrombocyte function.">
+        <entity id="DDI-DrugBank.d462.s6.e0" charOffset="0-13"
+            type="group" text="Anticoagulants"/>
+        <entity id="DDI-DrugBank.d462.s6.e1" charOffset="148-154"
+            type="drug" text="heparin"/>
+        <entity id="DDI-DrugBank.d462.s6.e2" charOffset="162-175"
+            type="group" text="anticoagulants"/>
+        <pair id="DDI-DrugBank.d462.s6.p0" e1="DDI-DrugBank.d462.s6.e0"
+            e2="DDI-DrugBank.d462.s6.e1" ddi="false"/>
+        <pair id="DDI-DrugBank.d462.s6.p1" e1="DDI-DrugBank.d462.s6.e0"
+            e2="DDI-DrugBank.d462.s6.e2" ddi="false"/>
+        <pair id="DDI-DrugBank.d462.s6.p2" e1="DDI-DrugBank.d462.s6.e1"
+            e2="DDI-DrugBank.d462.s6.e2" ddi="false"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d462.s7" text="Methotrexate: Piperacillin sodium may reduce the excretion of methotrexate.">
+        <entity id="DDI-DrugBank.d462.s7.e0" charOffset="0-11"
+            type="drug" text="Methotrexate"/>
+        <entity id="DDI-DrugBank.d462.s7.e1" charOffset="14-32"
+            type="drug" text="Piperacillin sodium"/>
+        <entity id="DDI-DrugBank.d462.s7.e2" charOffset="62-73"
+            type="drug" text="methotrexate"/>
+        <pair id="DDI-DrugBank.d462.s7.p0" e1="DDI-DrugBank.d462.s7.e0"
+            e2="DDI-DrugBank.d462.s7.e1" ddi="false"/>
+        <pair id="DDI-DrugBank.d462.s7.p1" e1="DDI-DrugBank.d462.s7.e0"
+            e2="DDI-DrugBank.d462.s7.e2" ddi="false"/>
+        <pair id="DDI-DrugBank.d462.s7.p2" e1="DDI-DrugBank.d462.s7.e1"
+            e2="DDI-DrugBank.d462.s7.e2" ddi="true" type="mechanism"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d462.s8" text="Therefore, serum levels of methotrexate should be monitored in patients to avoid drug toxicity.">
+        <entity id="DDI-DrugBank.d462.s8.e0" charOffset="27-38"
+            type="drug" text="methotrexate"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d462.s9" text="Drug/Laboratory Test Interactions As with other penicillins, the administration of PIPRACIL may result in a false-positive reaction for glucose in the urine using a copper-reduction method.">
+        <entity id="DDI-DrugBank.d462.s9.e0" charOffset="48-58"
+            type="drug" text="penicillins"/>
+        <entity id="DDI-DrugBank.d462.s9.e1" charOffset="83-90"
+            type="brand" text="PIPRACIL"/>
+        <pair id="DDI-DrugBank.d462.s9.p0" e1="DDI-DrugBank.d462.s9.e0"
+            e2="DDI-DrugBank.d462.s9.e1" ddi="false"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d462.s10" text="It is recommended that glucose tests based on enzymatic glucose oxidase reactions be used."/>
+    <sentence id="DDI-DrugBank.d462.s11" text="There have been reports of positive test results using the Bio-Rad Laboratories Platelia Aspergillus EIA test in patients receiving piperacillin/tazobactam injection who were subsequently found to be free of Aspergillus infection.">
+        <entity id="DDI-DrugBank.d462.s11.e0" charOffset="132-143"
+            type="drug" text="piperacillin"/>
+        <entity id="DDI-DrugBank.d462.s11.e1" charOffset="145-154"
+            type="drug" text="tazobactam"/>
+        <pair id="DDI-DrugBank.d462.s11.p0"
+            e1="DDI-DrugBank.d462.s11.e0" e2="DDI-DrugBank.d462.s11.e1" ddi="false"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d462.s12" text="Cross-reactions with non-Aspergillus polysaccharides and polyfuranoses with the Bio-Rad Laboratories Platelia Aspergillus EIA test have been reported."/>
+    <sentence id="DDI-DrugBank.d462.s13" text="Therefore, positive test results in patients receiving piperacillin should be interpreted cautiously and confirmed by other diagnostic methods.">
+        <entity id="DDI-DrugBank.d462.s13.e0" charOffset="55-66"
+            type="drug" text="piperacillin"/>
+    </sentence>
+</document>

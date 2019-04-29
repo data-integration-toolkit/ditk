@@ -1,0 +1,377 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="DDI-DrugBank.d165">
+    <sentence id="DDI-DrugBank.d165.s0" text="Both itraconazole and its major metabolite, hydroxyitraconazole, are inhibitors of the cytochrome P450 3A4 enzyme system.">
+        <entity id="DDI-DrugBank.d165.s0.e0" charOffset="5-16"
+            type="drug" text="itraconazole"/>
+        <entity id="DDI-DrugBank.d165.s0.e1" charOffset="44-62"
+            type="drug_n" text="hydroxyitraconazole"/>
+        <pair id="DDI-DrugBank.d165.s0.p0" e1="DDI-DrugBank.d165.s0.e0"
+            e2="DDI-DrugBank.d165.s0.e1" ddi="false"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d165.s1" text="Coadministration of Itraconazole and drugs primarily metabolized by the cytochrome P450 3A4 enzyme system may result in increased plasma concentrations of the drugs that could increase or prolong both therapeutic and adverse effects.">
+        <entity id="DDI-DrugBank.d165.s1.e0" charOffset="20-31"
+            type="drug" text="Itraconazole"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d165.s2" text="Therefore, unless otherwise specified, appropriate dosage adjustments may be necessary."/>
+    <sentence id="DDI-DrugBank.d165.s3" text="Coadministration of terfenadine with Itraconazole has led to elevated plasma concentrations of terfenadine, resulting in rare instances of life- threatening cardiac dysrhythmias and one death.">
+        <entity id="DDI-DrugBank.d165.s3.e0" charOffset="20-30"
+            type="drug" text="terfenadine"/>
+        <entity id="DDI-DrugBank.d165.s3.e1" charOffset="37-48"
+            type="drug" text="Itraconazole"/>
+        <entity id="DDI-DrugBank.d165.s3.e2" charOffset="95-105"
+            type="drug" text="terfenadine"/>
+        <pair id="DDI-DrugBank.d165.s3.p0" e1="DDI-DrugBank.d165.s3.e0"
+            e2="DDI-DrugBank.d165.s3.e1" ddi="true" type="mechanism"/>
+        <pair id="DDI-DrugBank.d165.s3.p1" e1="DDI-DrugBank.d165.s3.e0"
+            e2="DDI-DrugBank.d165.s3.e2" ddi="false"/>
+        <pair id="DDI-DrugBank.d165.s3.p2" e1="DDI-DrugBank.d165.s3.e1"
+            e2="DDI-DrugBank.d165.s3.e2" ddi="false"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d165.s4" text="Another oral azole antifungal, ketoconazole, inhibits the metabolism of astemizole, resulting in elevated plasma concentrations of astemizole and its active metabolite desmethylastermizole which may prolong QT intervals.">
+        <entity id="DDI-DrugBank.d165.s4.e0" charOffset="13-28"
+            type="group" text="azole antifungal"/>
+        <entity id="DDI-DrugBank.d165.s4.e1" charOffset="31-42"
+            type="drug" text="ketoconazole"/>
+        <entity id="DDI-DrugBank.d165.s4.e2" charOffset="72-81"
+            type="drug" text="astemizole"/>
+        <entity id="DDI-DrugBank.d165.s4.e3" charOffset="131-140"
+            type="drug" text="astemizole"/>
+        <entity id="DDI-DrugBank.d165.s4.e4" charOffset="168-187"
+            type="drug_n" text="desmethylastermizole"/>
+        <pair id="DDI-DrugBank.d165.s4.p0" e1="DDI-DrugBank.d165.s4.e0"
+            e2="DDI-DrugBank.d165.s4.e1" ddi="false"/>
+        <pair id="DDI-DrugBank.d165.s4.p1" e1="DDI-DrugBank.d165.s4.e0"
+            e2="DDI-DrugBank.d165.s4.e2" ddi="false"/>
+        <pair id="DDI-DrugBank.d165.s4.p2" e1="DDI-DrugBank.d165.s4.e0"
+            e2="DDI-DrugBank.d165.s4.e3" ddi="false"/>
+        <pair id="DDI-DrugBank.d165.s4.p3" e1="DDI-DrugBank.d165.s4.e0"
+            e2="DDI-DrugBank.d165.s4.e4" ddi="false"/>
+        <pair id="DDI-DrugBank.d165.s4.p4" e1="DDI-DrugBank.d165.s4.e1"
+            e2="DDI-DrugBank.d165.s4.e2" ddi="true" type="mechanism"/>
+        <pair id="DDI-DrugBank.d165.s4.p5" e1="DDI-DrugBank.d165.s4.e1"
+            e2="DDI-DrugBank.d165.s4.e3" ddi="false"/>
+        <pair id="DDI-DrugBank.d165.s4.p6" e1="DDI-DrugBank.d165.s4.e1"
+            e2="DDI-DrugBank.d165.s4.e4" ddi="false"/>
+        <pair id="DDI-DrugBank.d165.s4.p7" e1="DDI-DrugBank.d165.s4.e2"
+            e2="DDI-DrugBank.d165.s4.e3" ddi="false"/>
+        <pair id="DDI-DrugBank.d165.s4.p8" e1="DDI-DrugBank.d165.s4.e2"
+            e2="DDI-DrugBank.d165.s4.e4" ddi="false"/>
+        <pair id="DDI-DrugBank.d165.s4.p9" e1="DDI-DrugBank.d165.s4.e3"
+            e2="DDI-DrugBank.d165.s4.e4" ddi="false"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d165.s5" text="In vitro data suggest that itraconazole, when compared to ketoconazole, has a less pronounced effect on the biotransformation system responsible for the metabolism of astemizole.">
+        <entity id="DDI-DrugBank.d165.s5.e0" charOffset="27-38"
+            type="drug" text="itraconazole"/>
+        <entity id="DDI-DrugBank.d165.s5.e1" charOffset="58-69"
+            type="drug" text="ketoconazole"/>
+        <entity id="DDI-DrugBank.d165.s5.e2" charOffset="167-176"
+            type="drug" text="astemizole"/>
+        <pair id="DDI-DrugBank.d165.s5.p0" e1="DDI-DrugBank.d165.s5.e0"
+            e2="DDI-DrugBank.d165.s5.e1" ddi="false"/>
+        <pair id="DDI-DrugBank.d165.s5.p1" e1="DDI-DrugBank.d165.s5.e0"
+            e2="DDI-DrugBank.d165.s5.e2" ddi="true" type="mechanism"/>
+        <pair id="DDI-DrugBank.d165.s5.p2" e1="DDI-DrugBank.d165.s5.e1"
+            e2="DDI-DrugBank.d165.s5.e2" ddi="false"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d165.s6" text="Based on the chemical resemblance of itraconazole and ketoconazole, coadministration of astemizole with itraconazole is contraindicated.">
+        <entity id="DDI-DrugBank.d165.s6.e0" charOffset="37-48"
+            type="drug" text="itraconazole"/>
+        <entity id="DDI-DrugBank.d165.s6.e1" charOffset="54-65"
+            type="drug" text="ketoconazole"/>
+        <entity id="DDI-DrugBank.d165.s6.e2" charOffset="88-97"
+            type="drug" text="astemizole"/>
+        <entity id="DDI-DrugBank.d165.s6.e3" charOffset="104-115"
+            type="drug" text="itraconazole"/>
+        <pair id="DDI-DrugBank.d165.s6.p0" e1="DDI-DrugBank.d165.s6.e0"
+            e2="DDI-DrugBank.d165.s6.e1" ddi="false"/>
+        <pair id="DDI-DrugBank.d165.s6.p1" e1="DDI-DrugBank.d165.s6.e0"
+            e2="DDI-DrugBank.d165.s6.e2" ddi="false"/>
+        <pair id="DDI-DrugBank.d165.s6.p2" e1="DDI-DrugBank.d165.s6.e0"
+            e2="DDI-DrugBank.d165.s6.e3" ddi="false"/>
+        <pair id="DDI-DrugBank.d165.s6.p3" e1="DDI-DrugBank.d165.s6.e1"
+            e2="DDI-DrugBank.d165.s6.e2" ddi="false"/>
+        <pair id="DDI-DrugBank.d165.s6.p4" e1="DDI-DrugBank.d165.s6.e1"
+            e2="DDI-DrugBank.d165.s6.e3" ddi="false"/>
+        <pair id="DDI-DrugBank.d165.s6.p5" e1="DDI-DrugBank.d165.s6.e2"
+            e2="DDI-DrugBank.d165.s6.e3" ddi="true" type="advise"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d165.s7" text="Human pharmacokinetics data indicate that oral ketoconazole potently inhibits the metabolism of cisapride resulting in an eight-fold increase in the mean AUC of cisapride.">
+        <entity id="DDI-DrugBank.d165.s7.e0" charOffset="47-58"
+            type="drug" text="ketoconazole"/>
+        <entity id="DDI-DrugBank.d165.s7.e1" charOffset="96-104"
+            type="drug" text="cisapride"/>
+        <entity id="DDI-DrugBank.d165.s7.e2" charOffset="161-169"
+            type="drug" text="cisapride"/>
+        <pair id="DDI-DrugBank.d165.s7.p0" e1="DDI-DrugBank.d165.s7.e0"
+            e2="DDI-DrugBank.d165.s7.e1" ddi="true" type="mechanism"/>
+        <pair id="DDI-DrugBank.d165.s7.p1" e1="DDI-DrugBank.d165.s7.e0"
+            e2="DDI-DrugBank.d165.s7.e2" ddi="false"/>
+        <pair id="DDI-DrugBank.d165.s7.p2" e1="DDI-DrugBank.d165.s7.e1"
+            e2="DDI-DrugBank.d165.s7.e2" ddi="false"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d165.s8" text="Data suggest that coadministration of oral ketoconazole and cisapride can result in prolongation of the QT interval on the ECG.">
+        <entity id="DDI-DrugBank.d165.s8.e0" charOffset="43-54"
+            type="drug" text="ketoconazole"/>
+        <entity id="DDI-DrugBank.d165.s8.e1" charOffset="60-68"
+            type="drug" text="cisapride"/>
+        <pair id="DDI-DrugBank.d165.s8.p0" e1="DDI-DrugBank.d165.s8.e0"
+            e2="DDI-DrugBank.d165.s8.e1" ddi="true" type="effect"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d165.s9" text="In vitro data suggest that itraconazole also markedly inhibits the biotransformation system mainly responsible for the metabolism of cisapride;">
+        <entity id="DDI-DrugBank.d165.s9.e0" charOffset="27-38"
+            type="drug" text="itraconazole"/>
+        <entity id="DDI-DrugBank.d165.s9.e1" charOffset="133-141"
+            type="drug" text="cisapride"/>
+        <pair id="DDI-DrugBank.d165.s9.p0" e1="DDI-DrugBank.d165.s9.e0"
+            e2="DDI-DrugBank.d165.s9.e1" ddi="true" type="mechanism"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d165.s10" text="therefore concomitant administration of Itraconazole with cisapride is contraindicated.">
+        <entity id="DDI-DrugBank.d165.s10.e0" charOffset="40-51"
+            type="drug" text="Itraconazole"/>
+        <entity id="DDI-DrugBank.d165.s10.e1" charOffset="58-66"
+            type="drug" text="cisapride"/>
+        <pair id="DDI-DrugBank.d165.s10.p0"
+            e1="DDI-DrugBank.d165.s10.e0" e2="DDI-DrugBank.d165.s10.e1"
+            ddi="true" type="advise"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d165.s11" text="Coadministration of Itraconazole with oral midazolam or triazolam has resulted in elevated plasma concentrations of the latter two drugs.">
+        <entity id="DDI-DrugBank.d165.s11.e0" charOffset="20-31"
+            type="drug" text="Itraconazole"/>
+        <entity id="DDI-DrugBank.d165.s11.e1" charOffset="43-51"
+            type="drug" text="midazolam"/>
+        <entity id="DDI-DrugBank.d165.s11.e2" charOffset="56-64"
+            type="drug" text="triazolam"/>
+        <pair id="DDI-DrugBank.d165.s11.p0"
+            e1="DDI-DrugBank.d165.s11.e0" e2="DDI-DrugBank.d165.s11.e1"
+            ddi="true" type="mechanism"/>
+        <pair id="DDI-DrugBank.d165.s11.p1"
+            e1="DDI-DrugBank.d165.s11.e0" e2="DDI-DrugBank.d165.s11.e2"
+            ddi="true" type="mechanism"/>
+        <pair id="DDI-DrugBank.d165.s11.p2"
+            e1="DDI-DrugBank.d165.s11.e1" e2="DDI-DrugBank.d165.s11.e2" ddi="false"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d165.s12" text="This may potentiate and prolong hypnotic and sedative effects."/>
+    <sentence id="DDI-DrugBank.d165.s13" text="These agents should not be used in patients treated with Itraconazole.">
+        <entity id="DDI-DrugBank.d165.s13.e0" charOffset="57-68"
+            type="drug" text="Itraconazole"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d165.s14" text="If midazolam is administered parenterally, special precaution is required since the sedative effect may be prolonged.">
+        <entity id="DDI-DrugBank.d165.s14.e0" charOffset="3-11"
+            type="drug" text="midazolam"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d165.s15" text="Coadministration of Itraconazole and cyclosporine, tacrolimus or digoxin has led to increased plasma concentrations of the latter three drugs.">
+        <entity id="DDI-DrugBank.d165.s15.e0" charOffset="20-31"
+            type="drug" text="Itraconazole"/>
+        <entity id="DDI-DrugBank.d165.s15.e1" charOffset="37-48"
+            type="drug" text="cyclosporine"/>
+        <entity id="DDI-DrugBank.d165.s15.e2" charOffset="51-60"
+            type="drug" text="tacrolimus"/>
+        <entity id="DDI-DrugBank.d165.s15.e3" charOffset="65-71"
+            type="drug" text="digoxin"/>
+        <pair id="DDI-DrugBank.d165.s15.p0"
+            e1="DDI-DrugBank.d165.s15.e0" e2="DDI-DrugBank.d165.s15.e1"
+            ddi="true" type="mechanism"/>
+        <pair id="DDI-DrugBank.d165.s15.p1"
+            e1="DDI-DrugBank.d165.s15.e0" e2="DDI-DrugBank.d165.s15.e2"
+            ddi="true" type="mechanism"/>
+        <pair id="DDI-DrugBank.d165.s15.p2"
+            e1="DDI-DrugBank.d165.s15.e0" e2="DDI-DrugBank.d165.s15.e3"
+            ddi="true" type="mechanism"/>
+        <pair id="DDI-DrugBank.d165.s15.p3"
+            e1="DDI-DrugBank.d165.s15.e1" e2="DDI-DrugBank.d165.s15.e2" ddi="false"/>
+        <pair id="DDI-DrugBank.d165.s15.p4"
+            e1="DDI-DrugBank.d165.s15.e1" e2="DDI-DrugBank.d165.s15.e3" ddi="false"/>
+        <pair id="DDI-DrugBank.d165.s15.p5"
+            e1="DDI-DrugBank.d165.s15.e2" e2="DDI-DrugBank.d165.s15.e3" ddi="false"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d165.s16" text="Cyclosporine, tacrolimus and digoxin concentrations should be monitored at the initiation of Itraconazole therapy and frequently thereafter, and the dose of these three drug products adjusted appropriately.">
+        <entity id="DDI-DrugBank.d165.s16.e0" charOffset="0-11"
+            type="drug" text="Cyclosporine"/>
+        <entity id="DDI-DrugBank.d165.s16.e1" charOffset="14-23"
+            type="drug" text="tacrolimus"/>
+        <entity id="DDI-DrugBank.d165.s16.e2" charOffset="29-35"
+            type="drug" text="digoxin"/>
+        <entity id="DDI-DrugBank.d165.s16.e3" charOffset="93-104"
+            type="drug" text="Itraconazole"/>
+        <pair id="DDI-DrugBank.d165.s16.p0"
+            e1="DDI-DrugBank.d165.s16.e0" e2="DDI-DrugBank.d165.s16.e1" ddi="false"/>
+        <pair id="DDI-DrugBank.d165.s16.p1"
+            e1="DDI-DrugBank.d165.s16.e0" e2="DDI-DrugBank.d165.s16.e2" ddi="false"/>
+        <pair id="DDI-DrugBank.d165.s16.p2"
+            e1="DDI-DrugBank.d165.s16.e0" e2="DDI-DrugBank.d165.s16.e3"
+            ddi="true" type="advise"/>
+        <pair id="DDI-DrugBank.d165.s16.p3"
+            e1="DDI-DrugBank.d165.s16.e1" e2="DDI-DrugBank.d165.s16.e2" ddi="false"/>
+        <pair id="DDI-DrugBank.d165.s16.p4"
+            e1="DDI-DrugBank.d165.s16.e1" e2="DDI-DrugBank.d165.s16.e3"
+            ddi="true" type="advise"/>
+        <pair id="DDI-DrugBank.d165.s16.p5"
+            e1="DDI-DrugBank.d165.s16.e2" e2="DDI-DrugBank.d165.s16.e3"
+            ddi="true" type="advise"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d165.s17" text="Rhabdomyolysis has been observed in patients receiving HMG-CoA reductase inhibitors administered alone (at recommended dosages) or concomitantly with immunosuppressive drugs including cyclosporine.">
+        <entity id="DDI-DrugBank.d165.s17.e0" charOffset="55-82"
+            type="group" text="HMG-CoA reductase inhibitors"/>
+        <entity id="DDI-DrugBank.d165.s17.e1" charOffset="150-172"
+            type="group" text="immunosuppressive drugs"/>
+        <entity id="DDI-DrugBank.d165.s17.e2" charOffset="184-195"
+            type="drug" text="cyclosporine"/>
+        <pair id="DDI-DrugBank.d165.s17.p0"
+            e1="DDI-DrugBank.d165.s17.e0" e2="DDI-DrugBank.d165.s17.e1"
+            ddi="true" type="effect"/>
+        <pair id="DDI-DrugBank.d165.s17.p1"
+            e1="DDI-DrugBank.d165.s17.e0" e2="DDI-DrugBank.d165.s17.e2"
+            ddi="true" type="effect"/>
+        <pair id="DDI-DrugBank.d165.s17.p2"
+            e1="DDI-DrugBank.d165.s17.e1" e2="DDI-DrugBank.d165.s17.e2" ddi="false"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d165.s18" text="When Itraconazole was coadministered with phenytoin, rifampin, or H2antagonists, reduced plasma concentrations of itraconazole were reported.">
+        <entity id="DDI-DrugBank.d165.s18.e0" charOffset="5-16"
+            type="drug" text="Itraconazole"/>
+        <entity id="DDI-DrugBank.d165.s18.e1" charOffset="42-50"
+            type="drug" text="phenytoin"/>
+        <entity id="DDI-DrugBank.d165.s18.e2" charOffset="53-60"
+            type="drug" text="rifampin"/>
+        <entity id="DDI-DrugBank.d165.s18.e3" charOffset="114-125"
+            type="drug" text="itraconazole"/>
+        <pair id="DDI-DrugBank.d165.s18.p0"
+            e1="DDI-DrugBank.d165.s18.e0" e2="DDI-DrugBank.d165.s18.e1"
+            ddi="true" type="mechanism"/>
+        <pair id="DDI-DrugBank.d165.s18.p1"
+            e1="DDI-DrugBank.d165.s18.e0" e2="DDI-DrugBank.d165.s18.e2"
+            ddi="true" type="mechanism"/>
+        <pair id="DDI-DrugBank.d165.s18.p2"
+            e1="DDI-DrugBank.d165.s18.e0" e2="DDI-DrugBank.d165.s18.e3" ddi="false"/>
+        <pair id="DDI-DrugBank.d165.s18.p3"
+            e1="DDI-DrugBank.d165.s18.e1" e2="DDI-DrugBank.d165.s18.e2" ddi="false"/>
+        <pair id="DDI-DrugBank.d165.s18.p4"
+            e1="DDI-DrugBank.d165.s18.e1" e2="DDI-DrugBank.d165.s18.e3" ddi="false"/>
+        <pair id="DDI-DrugBank.d165.s18.p5"
+            e1="DDI-DrugBank.d165.s18.e2" e2="DDI-DrugBank.d165.s18.e3" ddi="false"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d165.s19" text="The physician is advised to monitor the plasma concentrations of itraconazole when any of these drugs is taken concurrently, and to increase the dose of Itraconazole if necessary.">
+        <entity id="DDI-DrugBank.d165.s19.e0" charOffset="65-76"
+            type="drug" text="itraconazole"/>
+        <entity id="DDI-DrugBank.d165.s19.e1" charOffset="153-164"
+            type="drug" text="Itraconazole"/>
+        <pair id="DDI-DrugBank.d165.s19.p0"
+            e1="DDI-DrugBank.d165.s19.e0" e2="DDI-DrugBank.d165.s19.e1" ddi="false"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d165.s20" text="Although no studies have been conducted, concomitant administration of Itraconazole and phenytoin may alter the metabolism of phenytoin;">
+        <entity id="DDI-DrugBank.d165.s20.e0" charOffset="71-82"
+            type="drug" text="Itraconazole"/>
+        <entity id="DDI-DrugBank.d165.s20.e1" charOffset="88-96"
+            type="drug" text="phenytoin"/>
+        <entity id="DDI-DrugBank.d165.s20.e2" charOffset="126-134"
+            type="drug" text="phenytoin"/>
+        <pair id="DDI-DrugBank.d165.s20.p0"
+            e1="DDI-DrugBank.d165.s20.e0" e2="DDI-DrugBank.d165.s20.e1"
+            ddi="true" type="mechanism"/>
+        <pair id="DDI-DrugBank.d165.s20.p1"
+            e1="DDI-DrugBank.d165.s20.e0" e2="DDI-DrugBank.d165.s20.e2" ddi="false"/>
+        <pair id="DDI-DrugBank.d165.s20.p2"
+            e1="DDI-DrugBank.d165.s20.e1" e2="DDI-DrugBank.d165.s20.e2" ddi="false"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d165.s21" text="therefore, plasma concentrations of phenytoin should also be monitored when it is given concurrently with Itraconazole.">
+        <entity id="DDI-DrugBank.d165.s21.e0" charOffset="36-44"
+            type="drug" text="phenytoin"/>
+        <entity id="DDI-DrugBank.d165.s21.e1" charOffset="106-117"
+            type="drug" text="Itraconazole"/>
+        <pair id="DDI-DrugBank.d165.s21.p0"
+            e1="DDI-DrugBank.d165.s21.e0" e2="DDI-DrugBank.d165.s21.e1"
+            ddi="true" type="advise"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d165.s22" text="It has been reported that Itraconazole enhances the anticoagulant effect of coumarin-like drugs.">
+        <entity id="DDI-DrugBank.d165.s22.e0" charOffset="26-37"
+            type="drug" text="Itraconazole"/>
+        <entity id="DDI-DrugBank.d165.s22.e1" charOffset="76-83"
+            type="group" text="coumarin"/>
+        <pair id="DDI-DrugBank.d165.s22.p0"
+            e1="DDI-DrugBank.d165.s22.e0" e2="DDI-DrugBank.d165.s22.e1"
+            ddi="true" type="effect"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d165.s23" text="Therefore, prothrombin time should be carefully monitored in patients receiving Itraconazole and coumarin-like drugs simultaneously.">
+        <entity id="DDI-DrugBank.d165.s23.e0" charOffset="80-91"
+            type="drug" text="Itraconazole"/>
+        <entity id="DDI-DrugBank.d165.s23.e1" charOffset="97-104"
+            type="group" text="coumarin"/>
+        <pair id="DDI-DrugBank.d165.s23.p0"
+            e1="DDI-DrugBank.d165.s23.e0" e2="DDI-DrugBank.d165.s23.e1"
+            ddi="true" type="advise"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d165.s24" text="Plasma concentrations of azole antifungal agents are reduced when given concurrently with isoniazid.">
+        <entity id="DDI-DrugBank.d165.s24.e0" charOffset="25-47"
+            type="group" text="azole antifungal agents"/>
+        <entity id="DDI-DrugBank.d165.s24.e1" charOffset="90-98"
+            type="drug" text="isoniazid"/>
+        <pair id="DDI-DrugBank.d165.s24.p0"
+            e1="DDI-DrugBank.d165.s24.e0" e2="DDI-DrugBank.d165.s24.e1"
+            ddi="true" type="mechanism"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d165.s25" text="Itraconazole plasma concentrations should be monitored when Itraconazole and isoniazid are coadministered.">
+        <entity id="DDI-DrugBank.d165.s25.e0" charOffset="0-11"
+            type="drug" text="Itraconazole"/>
+        <entity id="DDI-DrugBank.d165.s25.e1" charOffset="60-71"
+            type="drug" text="Itraconazole"/>
+        <entity id="DDI-DrugBank.d165.s25.e2" charOffset="77-85"
+            type="drug" text="isoniazid"/>
+        <pair id="DDI-DrugBank.d165.s25.p0"
+            e1="DDI-DrugBank.d165.s25.e0" e2="DDI-DrugBank.d165.s25.e1" ddi="false"/>
+        <pair id="DDI-DrugBank.d165.s25.p1"
+            e1="DDI-DrugBank.d165.s25.e0" e2="DDI-DrugBank.d165.s25.e2" ddi="false"/>
+        <pair id="DDI-DrugBank.d165.s25.p2"
+            e1="DDI-DrugBank.d165.s25.e1" e2="DDI-DrugBank.d165.s25.e2"
+            ddi="true" type="advise"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d165.s26" text="Severe hypoglycemia has been reported in patients concomitantly receiving azole antifungal agents and oral hypoglycemic agents.">
+        <entity id="DDI-DrugBank.d165.s26.e0" charOffset="74-96"
+            type="group" text="azole antifungal agents"/>
+        <entity id="DDI-DrugBank.d165.s26.e1" charOffset="107-125"
+            type="group" text="hypoglycemic agents"/>
+        <pair id="DDI-DrugBank.d165.s26.p0"
+            e1="DDI-DrugBank.d165.s26.e0" e2="DDI-DrugBank.d165.s26.e1"
+            ddi="true" type="effect"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d165.s27" text="Blood glucose concentrations should be carefully monitored when Itraconazole and oral hypoglycemic agents are coadministered.">
+        <entity id="DDI-DrugBank.d165.s27.e0" charOffset="64-75"
+            type="drug" text="Itraconazole"/>
+        <entity id="DDI-DrugBank.d165.s27.e1" charOffset="86-104"
+            type="group" text="hypoglycemic agents"/>
+        <pair id="DDI-DrugBank.d165.s27.p0"
+            e1="DDI-DrugBank.d165.s27.e0" e2="DDI-DrugBank.d165.s27.e1"
+            ddi="true" type="advise"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d165.s28" text="Tinnitus and decreased hearing have been reported in patients concomitantly receiving Itraconazole and quinidine.">
+        <entity id="DDI-DrugBank.d165.s28.e0" charOffset="86-97"
+            type="drug" text="Itraconazole"/>
+        <entity id="DDI-DrugBank.d165.s28.e1" charOffset="103-111"
+            type="drug" text="quinidine"/>
+        <pair id="DDI-DrugBank.d165.s28.p0"
+            e1="DDI-DrugBank.d165.s28.e0" e2="DDI-DrugBank.d165.s28.e1"
+            ddi="true" type="effect"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d165.s29" text="Edema has been reported in patients concomitantly receiving Itraconazole and dihydropyridine calcium channel blockers.">
+        <entity id="DDI-DrugBank.d165.s29.e0" charOffset="60-71"
+            type="drug" text="Itraconazole"/>
+        <entity id="DDI-DrugBank.d165.s29.e1" charOffset="77-116"
+            type="group" text="dihydropyridine calcium channel blockers"/>
+        <pair id="DDI-DrugBank.d165.s29.p0"
+            e1="DDI-DrugBank.d165.s29.e0" e2="DDI-DrugBank.d165.s29.e1"
+            ddi="true" type="effect"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d165.s30" text="Appropriate dosage adjustments may be necessary."/>
+    <sentence id="DDI-DrugBank.d165.s31" text="The results from a study in which eight HIV-infected individuals were treated with zidovudine, 8 +/- 0.4 mg/kg/day, showed that the pharmacokinetics of zidovudine were not affected during concomitant administration of Itraconazole, 100 mg b.i.d.">
+        <entity id="DDI-DrugBank.d165.s31.e0" charOffset="83-92"
+            type="drug" text="zidovudine"/>
+        <entity id="DDI-DrugBank.d165.s31.e1" charOffset="152-161"
+            type="drug" text="zidovudine"/>
+        <entity id="DDI-DrugBank.d165.s31.e2" charOffset="218-229"
+            type="drug" text="Itraconazole"/>
+        <pair id="DDI-DrugBank.d165.s31.p0"
+            e1="DDI-DrugBank.d165.s31.e0" e2="DDI-DrugBank.d165.s31.e1" ddi="false"/>
+        <pair id="DDI-DrugBank.d165.s31.p1"
+            e1="DDI-DrugBank.d165.s31.e0" e2="DDI-DrugBank.d165.s31.e2" ddi="false"/>
+        <pair id="DDI-DrugBank.d165.s31.p2"
+            e1="DDI-DrugBank.d165.s31.e1" e2="DDI-DrugBank.d165.s31.e2" ddi="false"/>
+    </sentence>
+</document>

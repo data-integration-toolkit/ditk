@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="DDI-MedLine.d9">
+    <sentence id="DDI-MedLine.d9.s0" text="Pharmacokinetics of calcium-entry blockers.&#xa;">
+        <entity id="DDI-MedLine.d9.s0.e0" charOffset="20-41"
+            type="group" text="calcium-entry blockers"/>
+    </sentence>
+    <sentence id="DDI-MedLine.d9.s1" text="Effective use of drugs in therapy depends not only on clinical acumen but also on the availability of relevant pharmacokinetic and pharmacodynamic data. "/>
+    <sentence id="DDI-MedLine.d9.s2" text="Such information assists in development of safe dosing regimens, prediction of abnormal handling of drugs in states of disease and disorder and anticipation of drug interactions. "/>
+    <sentence id="DDI-MedLine.d9.s3" text="For the calcium-entry blocking agents now available in the United States (verapamil, nifedipine and diltiazem), these data appeared well after clinical patterns of use evolved. ">
+        <entity id="DDI-MedLine.d9.s3.e0" charOffset="8-36" type="group" text="calcium-entry blocking agents"/>
+        <entity id="DDI-MedLine.d9.s3.e1" charOffset="74-82" type="drug" text="verapamil"/>
+        <entity id="DDI-MedLine.d9.s3.e2" charOffset="85-94" type="drug" text="nifedipine"/>
+        <entity id="DDI-MedLine.d9.s3.e3" charOffset="100-108"
+            type="drug" text="diltiazem"/>
+        <pair id="DDI-MedLine.d9.s3.p0" e1="DDI-MedLine.d9.s3.e0"
+            e2="DDI-MedLine.d9.s3.e1" ddi="false"/>
+        <pair id="DDI-MedLine.d9.s3.p1" e1="DDI-MedLine.d9.s3.e0"
+            e2="DDI-MedLine.d9.s3.e2" ddi="false"/>
+        <pair id="DDI-MedLine.d9.s3.p2" e1="DDI-MedLine.d9.s3.e0"
+            e2="DDI-MedLine.d9.s3.e3" ddi="false"/>
+        <pair id="DDI-MedLine.d9.s3.p3" e1="DDI-MedLine.d9.s3.e1"
+            e2="DDI-MedLine.d9.s3.e2" ddi="false"/>
+        <pair id="DDI-MedLine.d9.s3.p4" e1="DDI-MedLine.d9.s3.e1"
+            e2="DDI-MedLine.d9.s3.e3" ddi="false"/>
+        <pair id="DDI-MedLine.d9.s3.p5" e1="DDI-MedLine.d9.s3.e2"
+            e2="DDI-MedLine.d9.s3.e3" ddi="false"/>
+    </sentence>
+    <sentence id="DDI-MedLine.d9.s4" text="Nonetheless, their relevance continues to be demonstrated by the dependence of each agent on intact liver blood flow and function for normal rates of elimination; "/>
+    <sentence id="DDI-MedLine.d9.s5" text="by the nonlinear kinetic characteristics for verapamil and diltiazem (and probably for nifedipine, as well) and the derivative implications for decreased dosing frequency requirements; ">
+        <entity id="DDI-MedLine.d9.s5.e0" charOffset="45-53" type="drug" text="verapamil"/>
+        <entity id="DDI-MedLine.d9.s5.e1" charOffset="59-67" type="drug" text="diltiazem"/>
+        <entity id="DDI-MedLine.d9.s5.e2" charOffset="87-96" type="drug" text="nifedipine"/>
+        <pair id="DDI-MedLine.d9.s5.p0" e1="DDI-MedLine.d9.s5.e0"
+            e2="DDI-MedLine.d9.s5.e1" ddi="false"/>
+        <pair id="DDI-MedLine.d9.s5.p1" e1="DDI-MedLine.d9.s5.e0"
+            e2="DDI-MedLine.d9.s5.e2" ddi="false"/>
+        <pair id="DDI-MedLine.d9.s5.p2" e1="DDI-MedLine.d9.s5.e1"
+            e2="DDI-MedLine.d9.s5.e2" ddi="false"/>
+    </sentence>
+    <sentence id="DDI-MedLine.d9.s6" text="and by observations now appearing on the relation between plasma drug levels and drug effects, both therapeutic and toxic. "/>
+    <sentence id="DDI-MedLine.d9.s7" text="Such data are discussed herein, with emphasis on those aspects that impact on the clinical use of the calcium-entry antagonists.">
+        <entity id="DDI-MedLine.d9.s7.e0" charOffset="102-126"
+            type="group" text="calcium-entry antagonists"/>
+    </sentence>
+</document>

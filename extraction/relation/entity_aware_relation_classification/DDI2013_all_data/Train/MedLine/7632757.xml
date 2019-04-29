@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="DDI-MedLine.d89">
+    <sentence id="DDI-MedLine.d89.s0" text="Therapeutic drug monitoring can avoid iatrogenic alterations caused by 99mTc-methylene diphosphonate (MDP)-gentamicin interaction.&#xd;&#xa;">
+        <entity id="DDI-MedLine.d89.s0.e0" charOffset="71-99"
+            type="drug" text="99mTc-methylene diphosphonate"/>
+        <entity id="DDI-MedLine.d89.s0.e1" charOffset="107-116"
+            type="drug" text="gentamicin"/>
+        <pair id="DDI-MedLine.d89.s0.p0" e1="DDI-MedLine.d89.s0.e0"
+            e2="DDI-MedLine.d89.s0.e1" ddi="true" type="effect"/>
+    </sentence>
+    <sentence id="DDI-MedLine.d89.s1" text="Gentamicin is an aminoglycoside antibiotic used to treat a wide variety of infections caused by gram-negative organisms, but it is potentially toxic to the kidneys. ">
+        <entity id="DDI-MedLine.d89.s1.e0" charOffset="0-9" type="drug" text="Gentamicin"/>
+        <entity id="DDI-MedLine.d89.s1.e1" charOffset="17-41"
+            type="group" text="aminoglycoside antibiotic"/>
+        <pair id="DDI-MedLine.d89.s1.p0" e1="DDI-MedLine.d89.s1.e0"
+            e2="DDI-MedLine.d89.s1.e1" ddi="false"/>
+    </sentence>
+    <sentence id="DDI-MedLine.d89.s2" text="Due to its nephrotoxicity, gentamicin may cause abnormal renal uptake to be seen on 99mTc-MDP bone scintigraphy. ">
+        <entity id="DDI-MedLine.d89.s2.e0" charOffset="27-36"
+            type="drug" text="gentamicin"/>
+        <entity id="DDI-MedLine.d89.s2.e1" charOffset="84-92"
+            type="drug" text="99mTc-MDP"/>
+        <pair id="DDI-MedLine.d89.s2.p0" e1="DDI-MedLine.d89.s2.e0"
+            e2="DDI-MedLine.d89.s2.e1" ddi="true" type="mechanism"/>
+    </sentence>
+    <sentence id="DDI-MedLine.d89.s3" text="The presence of the radiopharmaceutical in the kidneys, along with an increase in renal retention, tend to produce scintigraphic results that falsely identify characteristics related to diseases such as renal vascular, or urinary tract obstruction, and even renal cancer. ">
+        <entity id="DDI-MedLine.d89.s3.e0" charOffset="20-38"
+            type="group" text="radiopharmaceutical"/>
+    </sentence>
+    <sentence id="DDI-MedLine.d89.s4" text="An altered biodistribution may provide misleading information that can either mask or mimic certain disease symptoms. "/>
+    <sentence id="DDI-MedLine.d89.s5" text="A method to maximize the therapeutic benefit of gentamicin while minimizing the risk of nephrotoxicity and the appearance of a hot kidney on scintigraphy is desirable. ">
+        <entity id="DDI-MedLine.d89.s5.e0" charOffset="48-57"
+            type="drug" text="gentamicin"/>
+    </sentence>
+    <sentence id="DDI-MedLine.d89.s6" text="Serial pharmacokinetic dosing has been proposed as a method to accomplish this goal. "/>
+    <sentence id="DDI-MedLine.d89.s7" text="Therapeutic drug monitoring (TDM) of gentamicin therapy, and bone scintigraphy employing 99mTc-MDP as the radiopharmaceutical was carried out in 22 patients. ">
+        <entity id="DDI-MedLine.d89.s7.e0" charOffset="37-46"
+            type="drug" text="gentamicin"/>
+        <entity id="DDI-MedLine.d89.s7.e1" charOffset="89-97"
+            type="drug" text="99mTc-MDP"/>
+        <entity id="DDI-MedLine.d89.s7.e2" charOffset="106-124"
+            type="group" text="radiopharmaceutical"/>
+        <pair id="DDI-MedLine.d89.s7.p0" e1="DDI-MedLine.d89.s7.e0"
+            e2="DDI-MedLine.d89.s7.e1" ddi="false"/>
+        <pair id="DDI-MedLine.d89.s7.p1" e1="DDI-MedLine.d89.s7.e0"
+            e2="DDI-MedLine.d89.s7.e2" ddi="false"/>
+        <pair id="DDI-MedLine.d89.s7.p2" e1="DDI-MedLine.d89.s7.e1"
+            e2="DDI-MedLine.d89.s7.e2" ddi="false"/>
+    </sentence>
+    <sentence id="DDI-MedLine.d89.s8" text="The data presented here demonstrate that with serial pharmacokinetic dosing of gentamicin, the iatrogenic alteration caused by gentamicin therapy can be avoided.">
+        <entity id="DDI-MedLine.d89.s8.e0" charOffset="79-88"
+            type="drug" text="gentamicin"/>
+        <entity id="DDI-MedLine.d89.s8.e1" charOffset="127-136"
+            type="drug" text="gentamicin"/>
+        <pair id="DDI-MedLine.d89.s8.p0" e1="DDI-MedLine.d89.s8.e0"
+            e2="DDI-MedLine.d89.s8.e1" ddi="false"/>
+    </sentence>
+</document>

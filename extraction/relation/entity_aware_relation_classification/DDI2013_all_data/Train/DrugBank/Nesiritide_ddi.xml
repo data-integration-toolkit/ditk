@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="DDI-DrugBank.d239">
+    <sentence id="DDI-DrugBank.d239.s0" text="No trials specifically examining potential drug interactions with Natrecor were conducted, although many concomitant drugs were used in clinical trials.">
+        <entity id="DDI-DrugBank.d239.s0.e0" charOffset="66-73"
+            type="brand" text="Natrecor"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d239.s1" text="No drug interactions were detected except for an increase in symptomatic hypotension in patients receiving oral ACE inhibitors.">
+        <entity id="DDI-DrugBank.d239.s1.e0" charOffset="112-125"
+            type="group" text="ACE inhibitors"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d239.s2" text="The co-administration of Natrecor with IV vasodilators such as nitroglycerin, nitroprusside, milrinone, or IV ACE inhibitors has not been evaluated (these drugs were not co-administered with Natrecor in clinical trials).">
+        <entity id="DDI-DrugBank.d239.s2.e0" charOffset="25-32"
+            type="brand" text="Natrecor"/>
+        <entity id="DDI-DrugBank.d239.s2.e1" charOffset="42-53"
+            type="group" text="vasodilators"/>
+        <entity id="DDI-DrugBank.d239.s2.e2" charOffset="63-75"
+            type="drug" text="nitroglycerin"/>
+        <entity id="DDI-DrugBank.d239.s2.e3" charOffset="78-90"
+            type="drug" text="nitroprusside"/>
+        <entity id="DDI-DrugBank.d239.s2.e4" charOffset="93-101"
+            type="drug" text="milrinone"/>
+        <entity id="DDI-DrugBank.d239.s2.e5" charOffset="110-123"
+            type="group" text="ACE inhibitors"/>
+        <entity id="DDI-DrugBank.d239.s2.e6" charOffset="191-198"
+            type="brand" text="Natrecor"/>
+        <pair id="DDI-DrugBank.d239.s2.p0" e1="DDI-DrugBank.d239.s2.e0"
+            e2="DDI-DrugBank.d239.s2.e1" ddi="false"/>
+        <pair id="DDI-DrugBank.d239.s2.p1" e1="DDI-DrugBank.d239.s2.e0"
+            e2="DDI-DrugBank.d239.s2.e2" ddi="false"/>
+        <pair id="DDI-DrugBank.d239.s2.p2" e1="DDI-DrugBank.d239.s2.e0"
+            e2="DDI-DrugBank.d239.s2.e3" ddi="false"/>
+        <pair id="DDI-DrugBank.d239.s2.p3" e1="DDI-DrugBank.d239.s2.e0"
+            e2="DDI-DrugBank.d239.s2.e4" ddi="false"/>
+        <pair id="DDI-DrugBank.d239.s2.p4" e1="DDI-DrugBank.d239.s2.e0"
+            e2="DDI-DrugBank.d239.s2.e5" ddi="false"/>
+        <pair id="DDI-DrugBank.d239.s2.p5" e1="DDI-DrugBank.d239.s2.e0"
+            e2="DDI-DrugBank.d239.s2.e6" ddi="false"/>
+        <pair id="DDI-DrugBank.d239.s2.p6" e1="DDI-DrugBank.d239.s2.e1"
+            e2="DDI-DrugBank.d239.s2.e2" ddi="false"/>
+        <pair id="DDI-DrugBank.d239.s2.p7" e1="DDI-DrugBank.d239.s2.e1"
+            e2="DDI-DrugBank.d239.s2.e3" ddi="false"/>
+        <pair id="DDI-DrugBank.d239.s2.p8" e1="DDI-DrugBank.d239.s2.e1"
+            e2="DDI-DrugBank.d239.s2.e4" ddi="false"/>
+        <pair id="DDI-DrugBank.d239.s2.p9" e1="DDI-DrugBank.d239.s2.e1"
+            e2="DDI-DrugBank.d239.s2.e5" ddi="false"/>
+        <pair id="DDI-DrugBank.d239.s2.p10" e1="DDI-DrugBank.d239.s2.e1"
+            e2="DDI-DrugBank.d239.s2.e6" ddi="false"/>
+        <pair id="DDI-DrugBank.d239.s2.p11" e1="DDI-DrugBank.d239.s2.e2"
+            e2="DDI-DrugBank.d239.s2.e3" ddi="false"/>
+        <pair id="DDI-DrugBank.d239.s2.p12" e1="DDI-DrugBank.d239.s2.e2"
+            e2="DDI-DrugBank.d239.s2.e4" ddi="false"/>
+        <pair id="DDI-DrugBank.d239.s2.p13" e1="DDI-DrugBank.d239.s2.e2"
+            e2="DDI-DrugBank.d239.s2.e5" ddi="false"/>
+        <pair id="DDI-DrugBank.d239.s2.p14" e1="DDI-DrugBank.d239.s2.e2"
+            e2="DDI-DrugBank.d239.s2.e6" ddi="false"/>
+        <pair id="DDI-DrugBank.d239.s2.p15" e1="DDI-DrugBank.d239.s2.e3"
+            e2="DDI-DrugBank.d239.s2.e4" ddi="false"/>
+        <pair id="DDI-DrugBank.d239.s2.p16" e1="DDI-DrugBank.d239.s2.e3"
+            e2="DDI-DrugBank.d239.s2.e5" ddi="false"/>
+        <pair id="DDI-DrugBank.d239.s2.p17" e1="DDI-DrugBank.d239.s2.e3"
+            e2="DDI-DrugBank.d239.s2.e6" ddi="false"/>
+        <pair id="DDI-DrugBank.d239.s2.p18" e1="DDI-DrugBank.d239.s2.e4"
+            e2="DDI-DrugBank.d239.s2.e5" ddi="false"/>
+        <pair id="DDI-DrugBank.d239.s2.p19" e1="DDI-DrugBank.d239.s2.e4"
+            e2="DDI-DrugBank.d239.s2.e6" ddi="false"/>
+        <pair id="DDI-DrugBank.d239.s2.p20" e1="DDI-DrugBank.d239.s2.e5"
+            e2="DDI-DrugBank.d239.s2.e6" ddi="false"/>
+    </sentence>
+</document>

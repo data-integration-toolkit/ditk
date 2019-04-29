@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="DDI-MedLine.d0">
+    <sentence id="DDI-MedLine.d0.s0" text="The effects of concomitant phenytoin administration on the steady-state pharmacokinetics of quetiapine.&#xd;&#xa;">
+        <entity id="DDI-MedLine.d0.s0.e0" charOffset="27-35" type="drug" text="phenytoin"/>
+        <entity id="DDI-MedLine.d0.s0.e1" charOffset="92-101"
+            type="drug" text="quetiapine"/>
+        <pair id="DDI-MedLine.d0.s0.p0" e1="DDI-MedLine.d0.s0.e0"
+            e2="DDI-MedLine.d0.s0.e1" ddi="false"/>
+    </sentence>
+    <sentence id="DDI-MedLine.d0.s1" text="Quetiapine fumarate ('Seroquel') is a newly introduced atypical antipsychotic with demonstrated efficacy in the treatment of positive and negative symptoms of schizophrenia. ">
+        <entity id="DDI-MedLine.d0.s1.e0" charOffset="0-18" type="drug" text="Quetiapine fumarate"/>
+        <entity id="DDI-MedLine.d0.s1.e1" charOffset="22-29"
+            type="brand" text="Seroquel"/>
+        <entity id="DDI-MedLine.d0.s1.e2" charOffset="55-76"
+            type="group" text="atypical antipsychotic"/>
+        <pair id="DDI-MedLine.d0.s1.p0" e1="DDI-MedLine.d0.s1.e0"
+            e2="DDI-MedLine.d0.s1.e1" ddi="false"/>
+        <pair id="DDI-MedLine.d0.s1.p1" e1="DDI-MedLine.d0.s1.e0"
+            e2="DDI-MedLine.d0.s1.e2" ddi="false"/>
+        <pair id="DDI-MedLine.d0.s1.p2" e1="DDI-MedLine.d0.s1.e1"
+            e2="DDI-MedLine.d0.s1.e2" ddi="false"/>
+    </sentence>
+    <sentence id="DDI-MedLine.d0.s2" text="It is extensively metabolized, predominantly by cytochrome P450 3A4. "/>
+    <sentence id="DDI-MedLine.d0.s3" text="Therefore, concurrent administration of drugs that induce or inhibit this enzyme may affect quetiapine pharmacokinetics. ">
+        <entity id="DDI-MedLine.d0.s3.e0" charOffset="92-101"
+            type="drug" text="quetiapine"/>
+    </sentence>
+    <sentence id="DDI-MedLine.d0.s4" text="This study demonstrated that the potent cytochrome P450 enzyme-inducer phenytoin did indeed have a marked effect on the metabolism of quetiapine, resulting in a 5-fold increase in clearance when administered concomitantly to patients with DSM-IV-diagnosed schizophrenia, schizoaffective disorder, or bipolar disorder. ">
+        <entity id="DDI-MedLine.d0.s4.e0" charOffset="71-79" type="drug" text="phenytoin"/>
+        <entity id="DDI-MedLine.d0.s4.e1" charOffset="134-143"
+            type="drug" text="quetiapine"/>
+        <pair id="DDI-MedLine.d0.s4.p0" e1="DDI-MedLine.d0.s4.e0"
+            e2="DDI-MedLine.d0.s4.e1" ddi="true" type="mechanism"/>
+    </sentence>
+    <sentence id="DDI-MedLine.d0.s5" text="These results indicate that dosage adjustment of quetiapine may be necessary when the two drugs are given concurrently and that caution may be required when administering other drugs that inhibit or induce cytochromes, particularly P450 3A4.">
+        <entity id="DDI-MedLine.d0.s5.e0" charOffset="49-58" type="drug" text="quetiapine"/>
+    </sentence>
+</document>

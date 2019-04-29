@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="DDI-MedLine.d53">
+    <sentence id="DDI-MedLine.d53.s0" text="Induction of apoptosis in breast cancer cells in response to vitamin D and antiestrogens.&#xd;&#xa;">
+        <entity id="DDI-MedLine.d53.s0.e0" charOffset="61-69"
+            type="group" text="vitamin D"/>
+        <entity id="DDI-MedLine.d53.s0.e1" charOffset="75-87"
+            type="group" text="antiestrogens"/>
+        <pair id="DDI-MedLine.d53.s0.p0" e1="DDI-MedLine.d53.s0.e0"
+            e2="DDI-MedLine.d53.s0.e1" ddi="false"/>
+    </sentence>
+    <sentence id="DDI-MedLine.d53.s1" text="1,25-Dihydroxycholecalciferol D3 (1,25(OH)2D3), the active metabolite of vitamin D, is a potent inhibitor of breast cancer cell growth both in vivo and in vitro. ">
+        <entity id="DDI-MedLine.d53.s1.e0" charOffset="2-31" type="drug" text="25-Dihydroxycholecalciferol D3"/>
+        <entity id="DDI-MedLine.d53.s1.e1" charOffset="34-44"
+            type="drug" text="1,25(OH)2D3"/>
+        <entity id="DDI-MedLine.d53.s1.e2" charOffset="73-81"
+            type="group" text="vitamin D"/>
+        <pair id="DDI-MedLine.d53.s1.p0" e1="DDI-MedLine.d53.s1.e0"
+            e2="DDI-MedLine.d53.s1.e1" ddi="false"/>
+        <pair id="DDI-MedLine.d53.s1.p1" e1="DDI-MedLine.d53.s1.e0"
+            e2="DDI-MedLine.d53.s1.e2" ddi="false"/>
+        <pair id="DDI-MedLine.d53.s1.p2" e1="DDI-MedLine.d53.s1.e1"
+            e2="DDI-MedLine.d53.s1.e2" ddi="false"/>
+    </sentence>
+    <sentence id="DDI-MedLine.d53.s2" text="We have shown that MCF-7 cells treated with 100 nM 1,25(OH)2D3 exhibit characteristic apoptotic morphology (pyknotic nuclei, chromatin and cytoplasmic condensation, nuclear matrix protein reorganization) within 48 h. ">
+        <entity id="DDI-MedLine.d53.s2.e0" charOffset="51-61"
+            type="drug" text="1,25(OH)2D3"/>
+    </sentence>
+    <sentence id="DDI-MedLine.d53.s3" text="In the experiments reported here, we examined the interactions between 1,25(OH)2D3 and the antiestrogen 4-hydroxytamoxifen (TAM), which also induces apoptosis in MCF-7 cells. ">
+        <entity id="DDI-MedLine.d53.s3.e0" charOffset="71-81"
+            type="drug" text="1,25(OH)2D3"/>
+        <entity id="DDI-MedLine.d53.s3.e1" charOffset="91-102"
+            type="group" text="antiestrogen"/>
+        <entity id="DDI-MedLine.d53.s3.e2" charOffset="104-121"
+            type="drug_n" text="4-hydroxytamoxifen"/>
+        <entity id="DDI-MedLine.d53.s3.e3" charOffset="124-126"
+            type="drug_n" text="TAM"/>
+        <pair id="DDI-MedLine.d53.s3.p0" e1="DDI-MedLine.d53.s3.e0"
+            e2="DDI-MedLine.d53.s3.e1" ddi="false"/>
+        <pair id="DDI-MedLine.d53.s3.p1" e1="DDI-MedLine.d53.s3.e0"
+            e2="DDI-MedLine.d53.s3.e2" ddi="false"/>
+        <pair id="DDI-MedLine.d53.s3.p2" e1="DDI-MedLine.d53.s3.e0"
+            e2="DDI-MedLine.d53.s3.e3" ddi="false"/>
+        <pair id="DDI-MedLine.d53.s3.p3" e1="DDI-MedLine.d53.s3.e1"
+            e2="DDI-MedLine.d53.s3.e2" ddi="false"/>
+        <pair id="DDI-MedLine.d53.s3.p4" e1="DDI-MedLine.d53.s3.e1"
+            e2="DDI-MedLine.d53.s3.e3" ddi="false"/>
+        <pair id="DDI-MedLine.d53.s3.p5" e1="DDI-MedLine.d53.s3.e2"
+            e2="DDI-MedLine.d53.s3.e3" ddi="false"/>
+    </sentence>
+    <sentence id="DDI-MedLine.d53.s4" text="Our data suggest that TAM significantly potentiates the reduction in cell number induced by 1,25(OH)2D3 alone. ">
+        <entity id="DDI-MedLine.d53.s4.e0" charOffset="22-24"
+            type="drug_n" text="TAM"/>
+        <entity id="DDI-MedLine.d53.s4.e1" charOffset="92-102"
+            type="drug" text="1,25(OH)2D3"/>
+        <pair id="DDI-MedLine.d53.s4.p0" e1="DDI-MedLine.d53.s4.e0"
+            e2="DDI-MedLine.d53.s4.e1" ddi="true" type="effect"/>
+    </sentence>
+    <sentence id="DDI-MedLine.d53.s5" text="Combined treatment with 1,25(OH)2D3 and TAM enhances the degree of apoptosis assessed using morphological markers that identify chromatin and nuclear matrix protein condensation. ">
+        <entity id="DDI-MedLine.d53.s5.e0" charOffset="24-34"
+            type="drug" text="1,25(OH)2D3"/>
+        <entity id="DDI-MedLine.d53.s5.e1" charOffset="40-42"
+            type="drug_n" text="TAM"/>
+        <pair id="DDI-MedLine.d53.s5.p0" e1="DDI-MedLine.d53.s5.e0"
+            e2="DDI-MedLine.d53.s5.e1" ddi="true" type="effect"/>
+    </sentence>
+    <sentence id="DDI-MedLine.d53.s6" text="We have selected a subclone of MCF-7 cells resistant to 1,25(OH)2D3 (MCF-7D3Res). ">
+        <entity id="DDI-MedLine.d53.s6.e0" charOffset="56-66"
+            type="drug" text="1,25(OH)2D3"/>
+    </sentence>
+    <sentence id="DDI-MedLine.d53.s7" text="These cells express the vitamin D receptor and exhibit doubling times comparable to the parental MCF-7 cells, even when grown in 100 mM 1,25(OH)2D3. ">
+        <entity id="DDI-MedLine.d53.s7.e0" charOffset="136-146"
+            type="drug" text="1,25(OH)2D3"/>
+    </sentence>
+    <sentence id="DDI-MedLine.d53.s8" text="Treatment of both parental and resistant MCF-7 cells with TAM induces apoptosis and clusterin. ">
+        <entity id="DDI-MedLine.d53.s8.e0" charOffset="58-60"
+            type="drug_n" text="TAM"/>
+    </sentence>
+    <sentence id="DDI-MedLine.d53.s9" text="These data emphasize that apoptosis can be induced in MCF-7 cells either by activation of vitamin-D-mediated signalling or disruption of estrogen-dependent signalling.">
+        <entity id="DDI-MedLine.d53.s9.e0" charOffset="90-98"
+            type="group" text="vitamin-D"/>
+        <entity id="DDI-MedLine.d53.s9.e1" charOffset="137-144"
+            type="group" text="estrogen"/>
+        <pair id="DDI-MedLine.d53.s9.p0" e1="DDI-MedLine.d53.s9.e0"
+            e2="DDI-MedLine.d53.s9.e1" ddi="false"/>
+    </sentence>
+</document>

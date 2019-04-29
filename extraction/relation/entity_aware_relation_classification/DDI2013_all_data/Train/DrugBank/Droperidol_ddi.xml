@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="DDI-DrugBank.d254">
+    <sentence id="DDI-DrugBank.d254.s0" text="Other CNS depressant drugs (e.g. barbiturates, tranquilizers, opioids and general anesthetics) have additive or potentiating effects with INAPSINE.">
+        <entity id="DDI-DrugBank.d254.s0.e0" charOffset="6-25"
+            type="group" text="CNS depressant drugs"/>
+        <entity id="DDI-DrugBank.d254.s0.e1" charOffset="33-44"
+            type="group" text="barbiturates"/>
+        <entity id="DDI-DrugBank.d254.s0.e2" charOffset="47-59"
+            type="group" text="tranquilizers"/>
+        <entity id="DDI-DrugBank.d254.s0.e3" charOffset="62-68"
+            type="group" text="opioids"/>
+        <entity id="DDI-DrugBank.d254.s0.e4" charOffset="82-92"
+            type="group" text="anesthetics"/>
+        <entity id="DDI-DrugBank.d254.s0.e5" charOffset="138-145"
+            type="brand" text="INAPSINE"/>
+        <pair id="DDI-DrugBank.d254.s0.p0" e1="DDI-DrugBank.d254.s0.e0"
+            e2="DDI-DrugBank.d254.s0.e1" ddi="false"/>
+        <pair id="DDI-DrugBank.d254.s0.p1" e1="DDI-DrugBank.d254.s0.e0"
+            e2="DDI-DrugBank.d254.s0.e2" ddi="false"/>
+        <pair id="DDI-DrugBank.d254.s0.p2" e1="DDI-DrugBank.d254.s0.e0"
+            e2="DDI-DrugBank.d254.s0.e3" ddi="false"/>
+        <pair id="DDI-DrugBank.d254.s0.p3" e1="DDI-DrugBank.d254.s0.e0"
+            e2="DDI-DrugBank.d254.s0.e4" ddi="false"/>
+        <pair id="DDI-DrugBank.d254.s0.p4" e1="DDI-DrugBank.d254.s0.e0"
+            e2="DDI-DrugBank.d254.s0.e5" ddi="true" type="effect"/>
+        <pair id="DDI-DrugBank.d254.s0.p5" e1="DDI-DrugBank.d254.s0.e1"
+            e2="DDI-DrugBank.d254.s0.e2" ddi="false"/>
+        <pair id="DDI-DrugBank.d254.s0.p6" e1="DDI-DrugBank.d254.s0.e1"
+            e2="DDI-DrugBank.d254.s0.e3" ddi="false"/>
+        <pair id="DDI-DrugBank.d254.s0.p7" e1="DDI-DrugBank.d254.s0.e1"
+            e2="DDI-DrugBank.d254.s0.e4" ddi="false"/>
+        <pair id="DDI-DrugBank.d254.s0.p8" e1="DDI-DrugBank.d254.s0.e1"
+            e2="DDI-DrugBank.d254.s0.e5" ddi="true" type="effect"/>
+        <pair id="DDI-DrugBank.d254.s0.p9" e1="DDI-DrugBank.d254.s0.e2"
+            e2="DDI-DrugBank.d254.s0.e3" ddi="false"/>
+        <pair id="DDI-DrugBank.d254.s0.p10" e1="DDI-DrugBank.d254.s0.e2"
+            e2="DDI-DrugBank.d254.s0.e4" ddi="false"/>
+        <pair id="DDI-DrugBank.d254.s0.p11" e1="DDI-DrugBank.d254.s0.e2"
+            e2="DDI-DrugBank.d254.s0.e5" ddi="true" type="effect"/>
+        <pair id="DDI-DrugBank.d254.s0.p12" e1="DDI-DrugBank.d254.s0.e3"
+            e2="DDI-DrugBank.d254.s0.e4" ddi="false"/>
+        <pair id="DDI-DrugBank.d254.s0.p13" e1="DDI-DrugBank.d254.s0.e3"
+            e2="DDI-DrugBank.d254.s0.e5" ddi="true" type="effect"/>
+        <pair id="DDI-DrugBank.d254.s0.p14" e1="DDI-DrugBank.d254.s0.e4"
+            e2="DDI-DrugBank.d254.s0.e5" ddi="true" type="effect"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d254.s1" text="When patients have received such drugs, the dose of INAPSINE required will be less than usual.">
+        <entity id="DDI-DrugBank.d254.s1.e0" charOffset="52-59"
+            type="brand" text="INAPSINE"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d254.s2" text="Following the administration of INAPSINE, the dose of other CNS depressant drugs should be reduced.">
+        <entity id="DDI-DrugBank.d254.s2.e0" charOffset="32-39"
+            type="brand" text="INAPSINE"/>
+        <entity id="DDI-DrugBank.d254.s2.e1" charOffset="60-79"
+            type="group" text="CNS depressant drugs"/>
+        <pair id="DDI-DrugBank.d254.s2.p0" e1="DDI-DrugBank.d254.s2.e0"
+            e2="DDI-DrugBank.d254.s2.e1" ddi="true" type="advise"/>
+    </sentence>
+</document>

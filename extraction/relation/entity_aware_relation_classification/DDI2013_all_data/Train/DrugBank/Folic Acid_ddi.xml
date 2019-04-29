@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="DDI-DrugBank.d425">
+    <sentence id="DDI-DrugBank.d425.s0" text="Medications that interfere with your bodys ability to use folate may also increase the need for this vitamin.">
+        <entity id="DDI-DrugBank.d425.s0.e0" charOffset="101-107"
+            type="group" text="vitamin"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d425.s1" text="Medications can interfere with folate utilization, including: anticonvulsant medications (such as phenytoin, and primidone) metformin (sometimes prescribed to control blood sugar in type 2 diabetes) sulfasalazine (used to control inflammation associated with Crohns disease and ulcerative colitis) triamterene (a diuretic) Methotrexate There has been concern about the interaction between vitamin B12 and folic acid.">
+        <entity id="DDI-DrugBank.d425.s1.e0" charOffset="62-87"
+            type="group" text="anticonvulsant medications"/>
+        <entity id="DDI-DrugBank.d425.s1.e1" charOffset="98-106"
+            type="drug" text="phenytoin"/>
+        <entity id="DDI-DrugBank.d425.s1.e2" charOffset="113-121"
+            type="drug" text="primidone"/>
+        <entity id="DDI-DrugBank.d425.s1.e3" charOffset="124-132"
+            type="drug" text="metformin"/>
+        <entity id="DDI-DrugBank.d425.s1.e4" charOffset="199-211"
+            type="drug" text="sulfasalazine"/>
+        <entity id="DDI-DrugBank.d425.s1.e5" charOffset="298-308"
+            type="drug" text="triamterene"/>
+        <entity id="DDI-DrugBank.d425.s1.e6" charOffset="313-320"
+            type="group" text="diuretic"/>
+        <entity id="DDI-DrugBank.d425.s1.e7" charOffset="323-334"
+            type="drug" text="Methotrexate"/>
+        <entity id="DDI-DrugBank.d425.s1.e8" charOffset="389-399"
+            type="drug" text="vitamin B12"/>
+        <entity id="DDI-DrugBank.d425.s1.e9" charOffset="405-414"
+            type="drug" text="folic acid"/>
+        <pair id="DDI-DrugBank.d425.s1.p0" e1="DDI-DrugBank.d425.s1.e0"
+            e2="DDI-DrugBank.d425.s1.e1" ddi="false"/>
+        <pair id="DDI-DrugBank.d425.s1.p1" e1="DDI-DrugBank.d425.s1.e0"
+            e2="DDI-DrugBank.d425.s1.e2" ddi="false"/>
+        <pair id="DDI-DrugBank.d425.s1.p2" e1="DDI-DrugBank.d425.s1.e0"
+            e2="DDI-DrugBank.d425.s1.e3" ddi="false"/>
+        <pair id="DDI-DrugBank.d425.s1.p3" e1="DDI-DrugBank.d425.s1.e0"
+            e2="DDI-DrugBank.d425.s1.e4" ddi="false"/>
+        <pair id="DDI-DrugBank.d425.s1.p4" e1="DDI-DrugBank.d425.s1.e0"
+            e2="DDI-DrugBank.d425.s1.e5" ddi="false"/>
+        <pair id="DDI-DrugBank.d425.s1.p5" e1="DDI-DrugBank.d425.s1.e0"
+            e2="DDI-DrugBank.d425.s1.e6" ddi="false"/>
+        <pair id="DDI-DrugBank.d425.s1.p6" e1="DDI-DrugBank.d425.s1.e0"
+            e2="DDI-DrugBank.d425.s1.e7" ddi="false"/>
+        <pair id="DDI-DrugBank.d425.s1.p7" e1="DDI-DrugBank.d425.s1.e0"
+            e2="DDI-DrugBank.d425.s1.e8" ddi="false"/>
+        <pair id="DDI-DrugBank.d425.s1.p8" e1="DDI-DrugBank.d425.s1.e0"
+            e2="DDI-DrugBank.d425.s1.e9" ddi="false"/>
+        <pair id="DDI-DrugBank.d425.s1.p9" e1="DDI-DrugBank.d425.s1.e1"
+            e2="DDI-DrugBank.d425.s1.e2" ddi="false"/>
+        <pair id="DDI-DrugBank.d425.s1.p10" e1="DDI-DrugBank.d425.s1.e1"
+            e2="DDI-DrugBank.d425.s1.e3" ddi="false"/>
+        <pair id="DDI-DrugBank.d425.s1.p11" e1="DDI-DrugBank.d425.s1.e1"
+            e2="DDI-DrugBank.d425.s1.e4" ddi="false"/>
+        <pair id="DDI-DrugBank.d425.s1.p12" e1="DDI-DrugBank.d425.s1.e1"
+            e2="DDI-DrugBank.d425.s1.e5" ddi="false"/>
+        <pair id="DDI-DrugBank.d425.s1.p13" e1="DDI-DrugBank.d425.s1.e1"
+            e2="DDI-DrugBank.d425.s1.e6" ddi="false"/>
+        <pair id="DDI-DrugBank.d425.s1.p14" e1="DDI-DrugBank.d425.s1.e1"
+            e2="DDI-DrugBank.d425.s1.e7" ddi="false"/>
+        <pair id="DDI-DrugBank.d425.s1.p15" e1="DDI-DrugBank.d425.s1.e1"
+            e2="DDI-DrugBank.d425.s1.e8" ddi="false"/>
+        <pair id="DDI-DrugBank.d425.s1.p16" e1="DDI-DrugBank.d425.s1.e1"
+            e2="DDI-DrugBank.d425.s1.e9" ddi="false"/>
+        <pair id="DDI-DrugBank.d425.s1.p17" e1="DDI-DrugBank.d425.s1.e2"
+            e2="DDI-DrugBank.d425.s1.e3" ddi="false"/>
+        <pair id="DDI-DrugBank.d425.s1.p18" e1="DDI-DrugBank.d425.s1.e2"
+            e2="DDI-DrugBank.d425.s1.e4" ddi="false"/>
+        <pair id="DDI-DrugBank.d425.s1.p19" e1="DDI-DrugBank.d425.s1.e2"
+            e2="DDI-DrugBank.d425.s1.e5" ddi="false"/>
+        <pair id="DDI-DrugBank.d425.s1.p20" e1="DDI-DrugBank.d425.s1.e2"
+            e2="DDI-DrugBank.d425.s1.e6" ddi="false"/>
+        <pair id="DDI-DrugBank.d425.s1.p21" e1="DDI-DrugBank.d425.s1.e2"
+            e2="DDI-DrugBank.d425.s1.e7" ddi="false"/>
+        <pair id="DDI-DrugBank.d425.s1.p22" e1="DDI-DrugBank.d425.s1.e2"
+            e2="DDI-DrugBank.d425.s1.e8" ddi="false"/>
+        <pair id="DDI-DrugBank.d425.s1.p23" e1="DDI-DrugBank.d425.s1.e2"
+            e2="DDI-DrugBank.d425.s1.e9" ddi="false"/>
+        <pair id="DDI-DrugBank.d425.s1.p24" e1="DDI-DrugBank.d425.s1.e3"
+            e2="DDI-DrugBank.d425.s1.e4" ddi="false"/>
+        <pair id="DDI-DrugBank.d425.s1.p25" e1="DDI-DrugBank.d425.s1.e3"
+            e2="DDI-DrugBank.d425.s1.e5" ddi="false"/>
+        <pair id="DDI-DrugBank.d425.s1.p26" e1="DDI-DrugBank.d425.s1.e3"
+            e2="DDI-DrugBank.d425.s1.e6" ddi="false"/>
+        <pair id="DDI-DrugBank.d425.s1.p27" e1="DDI-DrugBank.d425.s1.e3"
+            e2="DDI-DrugBank.d425.s1.e7" ddi="false"/>
+        <pair id="DDI-DrugBank.d425.s1.p28" e1="DDI-DrugBank.d425.s1.e3"
+            e2="DDI-DrugBank.d425.s1.e8" ddi="false"/>
+        <pair id="DDI-DrugBank.d425.s1.p29" e1="DDI-DrugBank.d425.s1.e3"
+            e2="DDI-DrugBank.d425.s1.e9" ddi="false"/>
+        <pair id="DDI-DrugBank.d425.s1.p30" e1="DDI-DrugBank.d425.s1.e4"
+            e2="DDI-DrugBank.d425.s1.e5" ddi="false"/>
+        <pair id="DDI-DrugBank.d425.s1.p31" e1="DDI-DrugBank.d425.s1.e4"
+            e2="DDI-DrugBank.d425.s1.e6" ddi="false"/>
+        <pair id="DDI-DrugBank.d425.s1.p32" e1="DDI-DrugBank.d425.s1.e4"
+            e2="DDI-DrugBank.d425.s1.e7" ddi="false"/>
+        <pair id="DDI-DrugBank.d425.s1.p33" e1="DDI-DrugBank.d425.s1.e4"
+            e2="DDI-DrugBank.d425.s1.e8" ddi="false"/>
+        <pair id="DDI-DrugBank.d425.s1.p34" e1="DDI-DrugBank.d425.s1.e4"
+            e2="DDI-DrugBank.d425.s1.e9" ddi="false"/>
+        <pair id="DDI-DrugBank.d425.s1.p35" e1="DDI-DrugBank.d425.s1.e5"
+            e2="DDI-DrugBank.d425.s1.e6" ddi="false"/>
+        <pair id="DDI-DrugBank.d425.s1.p36" e1="DDI-DrugBank.d425.s1.e5"
+            e2="DDI-DrugBank.d425.s1.e7" ddi="false"/>
+        <pair id="DDI-DrugBank.d425.s1.p37" e1="DDI-DrugBank.d425.s1.e5"
+            e2="DDI-DrugBank.d425.s1.e8" ddi="false"/>
+        <pair id="DDI-DrugBank.d425.s1.p38" e1="DDI-DrugBank.d425.s1.e5"
+            e2="DDI-DrugBank.d425.s1.e9" ddi="false"/>
+        <pair id="DDI-DrugBank.d425.s1.p39" e1="DDI-DrugBank.d425.s1.e6"
+            e2="DDI-DrugBank.d425.s1.e7" ddi="false"/>
+        <pair id="DDI-DrugBank.d425.s1.p40" e1="DDI-DrugBank.d425.s1.e6"
+            e2="DDI-DrugBank.d425.s1.e8" ddi="false"/>
+        <pair id="DDI-DrugBank.d425.s1.p41" e1="DDI-DrugBank.d425.s1.e6"
+            e2="DDI-DrugBank.d425.s1.e9" ddi="false"/>
+        <pair id="DDI-DrugBank.d425.s1.p42" e1="DDI-DrugBank.d425.s1.e7"
+            e2="DDI-DrugBank.d425.s1.e8" ddi="false"/>
+        <pair id="DDI-DrugBank.d425.s1.p43" e1="DDI-DrugBank.d425.s1.e7"
+            e2="DDI-DrugBank.d425.s1.e9" ddi="false"/>
+        <pair id="DDI-DrugBank.d425.s1.p44" e1="DDI-DrugBank.d425.s1.e8"
+            e2="DDI-DrugBank.d425.s1.e9" ddi="true" type="int"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d425.s2" text="Folic acid supplements can correct the anemia associated with vitamin B12 deficiency.">
+        <entity id="DDI-DrugBank.d425.s2.e0" charOffset="0-9"
+            type="drug" text="Folic acid"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d425.s3" text="Unfortunately, folic acid will not correct changes in the nervous system that result from vitamin B12 deficiency.">
+        <entity id="DDI-DrugBank.d425.s3.e0" charOffset="15-24"
+            type="drug" text="folic acid"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d425.s4" text="Permanent nerve damage could theoretically occur if vitamin B12 deficiency is not treated."/>
+    <sentence id="DDI-DrugBank.d425.s5" text="Therefore, intake of supplemental folic acid should not exceed 1000 micrograms ( g, sometimes mcg) per day to prevent folic acid from masking symptoms of vitamin B12 deficiency.">
+        <entity id="DDI-DrugBank.d425.s5.e0" charOffset="34-43"
+            type="drug" text="folic acid"/>
+        <entity id="DDI-DrugBank.d425.s5.e1" charOffset="118-127"
+            type="drug" text="folic acid"/>
+        <pair id="DDI-DrugBank.d425.s5.p0" e1="DDI-DrugBank.d425.s5.e0"
+            e2="DDI-DrugBank.d425.s5.e1" ddi="false"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d425.s6" text="It is important for older adults to be aware of the relationship between folic acid and vitamin B12 because they are at greater risk of having a vitamin B12 deficiency.">
+        <entity id="DDI-DrugBank.d425.s6.e0" charOffset="73-82"
+            type="drug" text="folic acid"/>
+        <entity id="DDI-DrugBank.d425.s6.e1" charOffset="88-98"
+            type="drug" text="vitamin B12"/>
+        <pair id="DDI-DrugBank.d425.s6.p0" e1="DDI-DrugBank.d425.s6.e0"
+            e2="DDI-DrugBank.d425.s6.e1" ddi="false"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d425.s7" text="If you are 50 years of age or older, ask your physician to check your B12 status before you take a supplement that contains folic acid.">
+        <entity id="DDI-DrugBank.d425.s7.e0" charOffset="124-133"
+            type="drug" text="folic acid"/>
+    </sentence>
+</document>

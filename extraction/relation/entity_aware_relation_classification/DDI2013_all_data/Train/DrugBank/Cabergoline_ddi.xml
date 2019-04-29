@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="DDI-DrugBank.d282">
+    <sentence id="DDI-DrugBank.d282.s0" text="DOSTINEX should not be administered concurrently with D2-antagonists, such as phenothiazines, butyrophenones, thioxanthines, or metoclopramide.">
+        <entity id="DDI-DrugBank.d282.s0.e0" charOffset="0-7"
+            type="brand" text="DOSTINEX"/>
+        <entity id="DDI-DrugBank.d282.s0.e1" charOffset="78-91"
+            type="group" text="phenothiazines"/>
+        <entity id="DDI-DrugBank.d282.s0.e2" charOffset="94-107"
+            type="group" text="butyrophenones"/>
+        <entity id="DDI-DrugBank.d282.s0.e3" charOffset="110-122"
+            type="group" text="thioxanthines"/>
+        <entity id="DDI-DrugBank.d282.s0.e4" charOffset="128-141"
+            type="drug" text="metoclopramide"/>
+        <pair id="DDI-DrugBank.d282.s0.p0" e1="DDI-DrugBank.d282.s0.e0"
+            e2="DDI-DrugBank.d282.s0.e1" ddi="true" type="advise"/>
+        <pair id="DDI-DrugBank.d282.s0.p1" e1="DDI-DrugBank.d282.s0.e0"
+            e2="DDI-DrugBank.d282.s0.e2" ddi="true" type="advise"/>
+        <pair id="DDI-DrugBank.d282.s0.p2" e1="DDI-DrugBank.d282.s0.e0"
+            e2="DDI-DrugBank.d282.s0.e3" ddi="true" type="advise"/>
+        <pair id="DDI-DrugBank.d282.s0.p3" e1="DDI-DrugBank.d282.s0.e0"
+            e2="DDI-DrugBank.d282.s0.e4" ddi="true" type="advise"/>
+        <pair id="DDI-DrugBank.d282.s0.p4" e1="DDI-DrugBank.d282.s0.e1"
+            e2="DDI-DrugBank.d282.s0.e2" ddi="false"/>
+        <pair id="DDI-DrugBank.d282.s0.p5" e1="DDI-DrugBank.d282.s0.e1"
+            e2="DDI-DrugBank.d282.s0.e3" ddi="false"/>
+        <pair id="DDI-DrugBank.d282.s0.p6" e1="DDI-DrugBank.d282.s0.e1"
+            e2="DDI-DrugBank.d282.s0.e4" ddi="false"/>
+        <pair id="DDI-DrugBank.d282.s0.p7" e1="DDI-DrugBank.d282.s0.e2"
+            e2="DDI-DrugBank.d282.s0.e3" ddi="false"/>
+        <pair id="DDI-DrugBank.d282.s0.p8" e1="DDI-DrugBank.d282.s0.e2"
+            e2="DDI-DrugBank.d282.s0.e4" ddi="false"/>
+        <pair id="DDI-DrugBank.d282.s0.p9" e1="DDI-DrugBank.d282.s0.e3"
+            e2="DDI-DrugBank.d282.s0.e4" ddi="false"/>
+    </sentence>
+</document>

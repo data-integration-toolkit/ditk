@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="DDI-DrugBank.d93">
+    <sentence id="DDI-DrugBank.d93.s0" text="Clinical trials have indicated that Pulmozyme can be effectively and safely used in conjunction with standard cystic fibrosis therapies including oral, inhaled and/or parenteral antibiotics, bronchodilators, enzyme supplements, vitamins, oral or inhaled corticosteroids, and analgesics.">
+        <entity id="DDI-DrugBank.d93.s0.e0" charOffset="36-44"
+            type="brand" text="Pulmozyme"/>
+        <entity id="DDI-DrugBank.d93.s0.e1" charOffset="178-188"
+            type="group" text="antibiotics"/>
+        <entity id="DDI-DrugBank.d93.s0.e2" charOffset="191-205"
+            type="group" text="bronchodilators"/>
+        <entity id="DDI-DrugBank.d93.s0.e3" charOffset="228-235"
+            type="group" text="vitamins"/>
+        <entity id="DDI-DrugBank.d93.s0.e4" charOffset="254-268"
+            type="group" text="corticosteroids"/>
+        <entity id="DDI-DrugBank.d93.s0.e5" charOffset="275-284"
+            type="group" text="analgesics"/>
+        <pair id="DDI-DrugBank.d93.s0.p0" e1="DDI-DrugBank.d93.s0.e0"
+            e2="DDI-DrugBank.d93.s0.e1" ddi="false"/>
+        <pair id="DDI-DrugBank.d93.s0.p1" e1="DDI-DrugBank.d93.s0.e0"
+            e2="DDI-DrugBank.d93.s0.e2" ddi="false"/>
+        <pair id="DDI-DrugBank.d93.s0.p2" e1="DDI-DrugBank.d93.s0.e0"
+            e2="DDI-DrugBank.d93.s0.e3" ddi="false"/>
+        <pair id="DDI-DrugBank.d93.s0.p3" e1="DDI-DrugBank.d93.s0.e0"
+            e2="DDI-DrugBank.d93.s0.e4" ddi="false"/>
+        <pair id="DDI-DrugBank.d93.s0.p4" e1="DDI-DrugBank.d93.s0.e0"
+            e2="DDI-DrugBank.d93.s0.e5" ddi="false"/>
+        <pair id="DDI-DrugBank.d93.s0.p5" e1="DDI-DrugBank.d93.s0.e1"
+            e2="DDI-DrugBank.d93.s0.e2" ddi="false"/>
+        <pair id="DDI-DrugBank.d93.s0.p6" e1="DDI-DrugBank.d93.s0.e1"
+            e2="DDI-DrugBank.d93.s0.e3" ddi="false"/>
+        <pair id="DDI-DrugBank.d93.s0.p7" e1="DDI-DrugBank.d93.s0.e1"
+            e2="DDI-DrugBank.d93.s0.e4" ddi="false"/>
+        <pair id="DDI-DrugBank.d93.s0.p8" e1="DDI-DrugBank.d93.s0.e1"
+            e2="DDI-DrugBank.d93.s0.e5" ddi="false"/>
+        <pair id="DDI-DrugBank.d93.s0.p9" e1="DDI-DrugBank.d93.s0.e2"
+            e2="DDI-DrugBank.d93.s0.e3" ddi="false"/>
+        <pair id="DDI-DrugBank.d93.s0.p10" e1="DDI-DrugBank.d93.s0.e2"
+            e2="DDI-DrugBank.d93.s0.e4" ddi="false"/>
+        <pair id="DDI-DrugBank.d93.s0.p11" e1="DDI-DrugBank.d93.s0.e2"
+            e2="DDI-DrugBank.d93.s0.e5" ddi="false"/>
+        <pair id="DDI-DrugBank.d93.s0.p12" e1="DDI-DrugBank.d93.s0.e3"
+            e2="DDI-DrugBank.d93.s0.e4" ddi="false"/>
+        <pair id="DDI-DrugBank.d93.s0.p13" e1="DDI-DrugBank.d93.s0.e3"
+            e2="DDI-DrugBank.d93.s0.e5" ddi="false"/>
+        <pair id="DDI-DrugBank.d93.s0.p14" e1="DDI-DrugBank.d93.s0.e4"
+            e2="DDI-DrugBank.d93.s0.e5" ddi="false"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d93.s1" text="No formal drug interaction studies have been performed."/>
+</document>

@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="DDI-MedLine.d42">
+    <sentence id="DDI-MedLine.d42.s0" text="Sildenafil citrate: a therapeutic update.&#xa;">
+        <entity id="DDI-MedLine.d42.s0.e0" charOffset="0-17" type="drug" text="Sildenafil citrate"/>
+    </sentence>
+    <sentence id="DDI-MedLine.d42.s1" text="BACKGROUND: Since its approval by the US Food and Drug Administration in March 1998, sildenafil citrate has been used by millions of men for the treatment of erectile dysfunction. ">
+        <entity id="DDI-MedLine.d42.s1.e0" charOffset="85-102"
+            type="drug" text="sildenafil citrate"/>
+    </sentence>
+    <sentence id="DDI-MedLine.d42.s2" text="Recent studies and consensus reports have expanded our understanding of its efficacy, safety, contraindications, and drug interactions. "/>
+    <sentence id="DDI-MedLine.d42.s3" text="OBJECTIVE: This paper reviews recent studies of the efficacy of sildenafil, its adverse effects and drug interactions, and socioeconomic factors involved in its use, with a focus on specific patient populations (prostate cancer, diabetes mellitus, ischemic heart disease, spinal cord injuries, neurologic disorders). ">
+        <entity id="DDI-MedLine.d42.s3.e0" charOffset="64-73"
+            type="drug" text="sildenafil"/>
+    </sentence>
+    <sentence id="DDI-MedLine.d42.s4" text="METHODS: Clinical studies, case reports, and commentaries and editorials concerning sildenafil published in the international literature between January 1999 and August 2000 were identified through searches of MEDLINE, PREMEDLINE, and International Pharmaceutical Abstracts, using the terms sildenafil, Viagra, and erectile dysfunction. ">
+        <entity id="DDI-MedLine.d42.s4.e0" charOffset="84-93"
+            type="drug" text="sildenafil"/>
+        <entity id="DDI-MedLine.d42.s4.e1" charOffset="291-300"
+            type="drug" text="sildenafil"/>
+        <entity id="DDI-MedLine.d42.s4.e2" charOffset="303-308"
+            type="brand" text="Viagra"/>
+        <pair id="DDI-MedLine.d42.s4.p0" e1="DDI-MedLine.d42.s4.e0"
+            e2="DDI-MedLine.d42.s4.e1" ddi="false"/>
+        <pair id="DDI-MedLine.d42.s4.p1" e1="DDI-MedLine.d42.s4.e0"
+            e2="DDI-MedLine.d42.s4.e2" ddi="false"/>
+        <pair id="DDI-MedLine.d42.s4.p2" e1="DDI-MedLine.d42.s4.e1"
+            e2="DDI-MedLine.d42.s4.e2" ddi="false"/>
+    </sentence>
+    <sentence id="DDI-MedLine.d42.s5" text="RESULTS: Sildenafil has demonstrated effectiveness in men with erectile dysfunction associated with prostatectomy, radiation therapy, diabetes mellitus, certain neurologic disorders, and drug therapy (eg, selective serotonin reuptake inhibitors [SSRIs]). ">
+        <entity id="DDI-MedLine.d42.s5.e0" charOffset="9-18" type="drug" text="Sildenafil"/>
+        <entity id="DDI-MedLine.d42.s5.e1" charOffset="205-243"
+            type="group" text="selective serotonin reuptake inhibitors"/>
+        <entity id="DDI-MedLine.d42.s5.e2" charOffset="246-250"
+            type="group" text="SSRIs"/>
+        <pair id="DDI-MedLine.d42.s5.p0" e1="DDI-MedLine.d42.s5.e0"
+            e2="DDI-MedLine.d42.s5.e1" ddi="false"/>
+        <pair id="DDI-MedLine.d42.s5.p1" e1="DDI-MedLine.d42.s5.e0"
+            e2="DDI-MedLine.d42.s5.e2" ddi="false"/>
+        <pair id="DDI-MedLine.d42.s5.p2" e1="DDI-MedLine.d42.s5.e1"
+            e2="DDI-MedLine.d42.s5.e2" ddi="false"/>
+    </sentence>
+    <sentence id="DDI-MedLine.d42.s6" text="It has not been as effective in women with sexual dysfunction, with the exception of SSRI-associated sexual dysfunction. ">
+        <entity id="DDI-MedLine.d42.s6.e0" charOffset="85-88"
+            type="group" text="SSRI"/>
+    </sentence>
+    <sentence id="DDI-MedLine.d42.s7" text="Some disorders unrelated to sexual dysfunction (eg, esophageal motility dysfunction) may also respond to sildenafil. ">
+        <entity id="DDI-MedLine.d42.s7.e0" charOffset="105-114"
+            type="drug" text="sildenafil"/>
+    </sentence>
+    <sentence id="DDI-MedLine.d42.s8" text="In the general population, sildenafil is considered to have an acceptable tolerability profile; ">
+        <entity id="DDI-MedLine.d42.s8.e0" charOffset="27-36"
+            type="drug" text="sildenafil"/>
+    </sentence>
+    <sentence id="DDI-MedLine.d42.s9" text="however, patients with moderate to severe cardiovascular disease or those taking nitrate therapy are at increased risk for potentially serious cardiovascular adverse effects with sildenafil therapy. ">
+        <entity id="DDI-MedLine.d42.s9.e0" charOffset="81-87"
+            type="group" text="nitrate"/>
+        <entity id="DDI-MedLine.d42.s9.e1" charOffset="179-188"
+            type="drug" text="sildenafil"/>
+        <pair id="DDI-MedLine.d42.s9.p0" e1="DDI-MedLine.d42.s9.e0"
+            e2="DDI-MedLine.d42.s9.e1" ddi="true" type="effect"/>
+    </sentence>
+    <sentence id="DDI-MedLine.d42.s10" text="In addition, patients taking drugs that inhibit the cytochrome P450 3A4 isozyme, which metabolizes sildenafil, may experience increased drug concentrations and possible toxicity from normal doses of sildenafil. ">
+        <entity id="DDI-MedLine.d42.s10.e0" charOffset="99-108"
+            type="drug" text="sildenafil"/>
+        <entity id="DDI-MedLine.d42.s10.e1" charOffset="199-208"
+            type="drug" text="sildenafil"/>
+        <pair id="DDI-MedLine.d42.s10.p0" e1="DDI-MedLine.d42.s10.e0"
+            e2="DDI-MedLine.d42.s10.e1" ddi="false"/>
+    </sentence>
+    <sentence id="DDI-MedLine.d42.s11" text="CONCLUSIONS: Sildenafil is an effective first-line therapy for erectile dysfunction in men. ">
+        <entity id="DDI-MedLine.d42.s11.e0" charOffset="13-22"
+            type="drug" text="Sildenafil"/>
+    </sentence>
+    <sentence id="DDI-MedLine.d42.s12" text="The decision to prescribe this agent should include such considerations as the cost-risk-benefit balance, patient access, drug distribution pathways, and prescription drug coverage."/>
+</document>

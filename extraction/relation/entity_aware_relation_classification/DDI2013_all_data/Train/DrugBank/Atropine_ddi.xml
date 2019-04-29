@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="DDI-DrugBank.d222">
+    <sentence id="DDI-DrugBank.d222.s0" text="When atropine and pralidoxime are used together, the signs of atropinization (flushing, mydriasis, tachycardia, dryness of the mouth and nose) may occur earlier than might be expected than when atropine is used alone because pralidoxime may potentiate the effect of atropine.">
+        <entity id="DDI-DrugBank.d222.s0.e0" charOffset="5-12"
+            type="drug" text="atropine"/>
+        <entity id="DDI-DrugBank.d222.s0.e1" charOffset="18-28"
+            type="drug" text="pralidoxime"/>
+        <entity id="DDI-DrugBank.d222.s0.e2" charOffset="194-201"
+            type="drug" text="atropine"/>
+        <entity id="DDI-DrugBank.d222.s0.e3" charOffset="225-235"
+            type="drug" text="pralidoxime"/>
+        <entity id="DDI-DrugBank.d222.s0.e4" charOffset="266-273"
+            type="drug" text="atropine"/>
+        <pair id="DDI-DrugBank.d222.s0.p0" e1="DDI-DrugBank.d222.s0.e0"
+            e2="DDI-DrugBank.d222.s0.e1" ddi="true" type="effect"/>
+        <pair id="DDI-DrugBank.d222.s0.p1" e1="DDI-DrugBank.d222.s0.e0"
+            e2="DDI-DrugBank.d222.s0.e2" ddi="false"/>
+        <pair id="DDI-DrugBank.d222.s0.p2" e1="DDI-DrugBank.d222.s0.e0"
+            e2="DDI-DrugBank.d222.s0.e3" ddi="false"/>
+        <pair id="DDI-DrugBank.d222.s0.p3" e1="DDI-DrugBank.d222.s0.e0"
+            e2="DDI-DrugBank.d222.s0.e4" ddi="false"/>
+        <pair id="DDI-DrugBank.d222.s0.p4" e1="DDI-DrugBank.d222.s0.e1"
+            e2="DDI-DrugBank.d222.s0.e2" ddi="false"/>
+        <pair id="DDI-DrugBank.d222.s0.p5" e1="DDI-DrugBank.d222.s0.e1"
+            e2="DDI-DrugBank.d222.s0.e3" ddi="false"/>
+        <pair id="DDI-DrugBank.d222.s0.p6" e1="DDI-DrugBank.d222.s0.e1"
+            e2="DDI-DrugBank.d222.s0.e4" ddi="false"/>
+        <pair id="DDI-DrugBank.d222.s0.p7" e1="DDI-DrugBank.d222.s0.e2"
+            e2="DDI-DrugBank.d222.s0.e3" ddi="false"/>
+        <pair id="DDI-DrugBank.d222.s0.p8" e1="DDI-DrugBank.d222.s0.e2"
+            e2="DDI-DrugBank.d222.s0.e4" ddi="false"/>
+        <pair id="DDI-DrugBank.d222.s0.p9" e1="DDI-DrugBank.d222.s0.e3"
+            e2="DDI-DrugBank.d222.s0.e4" ddi="true" type="effect"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d222.s1" text="The following precautions should be kept in mind in the treatment of anticholinesterase poisoning although they do not bear directly on the use of atropine and pralidoxime.">
+        <entity id="DDI-DrugBank.d222.s1.e0" charOffset="147-154"
+            type="drug" text="atropine"/>
+        <entity id="DDI-DrugBank.d222.s1.e1" charOffset="160-170"
+            type="drug" text="pralidoxime"/>
+        <pair id="DDI-DrugBank.d222.s1.p0" e1="DDI-DrugBank.d222.s1.e0"
+            e2="DDI-DrugBank.d222.s1.e1" ddi="true" type="advise"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d222.s2" text="Since barbiturates are potentiated by the anticholinesterases, they should be used cautiously in the treatment of convulsions.">
+        <entity id="DDI-DrugBank.d222.s2.e0" charOffset="6-17"
+            type="group" text="barbiturates"/>
+        <entity id="DDI-DrugBank.d222.s2.e1" charOffset="42-60"
+            type="group" text="anticholinesterases"/>
+        <pair id="DDI-DrugBank.d222.s2.p0" e1="DDI-DrugBank.d222.s2.e0"
+            e2="DDI-DrugBank.d222.s2.e1" ddi="true" type="advise"/>
+    </sentence>
+</document>

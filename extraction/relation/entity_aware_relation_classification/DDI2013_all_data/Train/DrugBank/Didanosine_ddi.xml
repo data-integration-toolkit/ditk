@@ -1,0 +1,339 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="DDI-DrugBank.d43">
+    <sentence id="DDI-DrugBank.d43.s0" text="Coadministration of VIDEX with drugs that are known to cause pancreatitis may increase the risk of this toxicity (see WARNINGS) and should be done with extreme caution, only if other alternatives are not available, and only if clearly indicated.">
+        <entity id="DDI-DrugBank.d43.s0.e0" charOffset="20-24"
+            type="brand" text="VIDEX"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d43.s1" text="Neuropathy has occurred more frequently in patients with a history of neuropathy or neurotoxic drug therapy, including stavudine, and these patients may be at increased risk of neuropathy during VIDEX therapy (see ADVERSE REACTIONS).">
+        <entity id="DDI-DrugBank.d43.s1.e0" charOffset="119-127"
+            type="drug" text="stavudine"/>
+        <entity id="DDI-DrugBank.d43.s1.e1" charOffset="195-199"
+            type="brand" text="VIDEX"/>
+        <pair id="DDI-DrugBank.d43.s1.p0" e1="DDI-DrugBank.d43.s1.e0"
+            e2="DDI-DrugBank.d43.s1.e1" ddi="false"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d43.s2" text="Allopurinol: The AUC of didanosine was increased about 4-fold when allopurinol at 300 mg/day was coadministered with a single 200-mg dose of VIDEX to two patients with renal impairment (CLcr=15 and 18 mL/min).">
+        <entity id="DDI-DrugBank.d43.s2.e0" charOffset="0-10"
+            type="drug" text="Allopurinol"/>
+        <entity id="DDI-DrugBank.d43.s2.e1" charOffset="24-33"
+            type="drug" text="didanosine"/>
+        <entity id="DDI-DrugBank.d43.s2.e2" charOffset="67-77"
+            type="drug" text="allopurinol"/>
+        <entity id="DDI-DrugBank.d43.s2.e3" charOffset="141-145"
+            type="brand" text="VIDEX"/>
+        <pair id="DDI-DrugBank.d43.s2.p0" e1="DDI-DrugBank.d43.s2.e0"
+            e2="DDI-DrugBank.d43.s2.e1" ddi="false"/>
+        <pair id="DDI-DrugBank.d43.s2.p1" e1="DDI-DrugBank.d43.s2.e0"
+            e2="DDI-DrugBank.d43.s2.e2" ddi="false"/>
+        <pair id="DDI-DrugBank.d43.s2.p2" e1="DDI-DrugBank.d43.s2.e0"
+            e2="DDI-DrugBank.d43.s2.e3" ddi="false"/>
+        <pair id="DDI-DrugBank.d43.s2.p3" e1="DDI-DrugBank.d43.s2.e1"
+            e2="DDI-DrugBank.d43.s2.e2" ddi="false"/>
+        <pair id="DDI-DrugBank.d43.s2.p4" e1="DDI-DrugBank.d43.s2.e1"
+            e2="DDI-DrugBank.d43.s2.e3" ddi="false"/>
+        <pair id="DDI-DrugBank.d43.s2.p5" e1="DDI-DrugBank.d43.s2.e2"
+            e2="DDI-DrugBank.d43.s2.e3" ddi="true" type="mechanism"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d43.s3" text="The effects of allopurinol on didanosine pharmacokinetics in subjects with normal renal function are not known.">
+        <entity id="DDI-DrugBank.d43.s3.e0" charOffset="15-25"
+            type="drug" text="allopurinol"/>
+        <entity id="DDI-DrugBank.d43.s3.e1" charOffset="30-39"
+            type="drug" text="didanosine"/>
+        <pair id="DDI-DrugBank.d43.s3.p0" e1="DDI-DrugBank.d43.s3.e0"
+            e2="DDI-DrugBank.d43.s3.e1" ddi="false"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d43.s4" text="Antacids: Concomitant administration of antacids containing magnesium or aluminum with VIDEX Chewable/Dispersible Buffered Tablets or Pediatric Powder for Oral Solution may potentiate adverse events associated with the antacid components.">
+        <entity id="DDI-DrugBank.d43.s4.e0" charOffset="0-7"
+            type="group" text="Antacids"/>
+        <entity id="DDI-DrugBank.d43.s4.e1" charOffset="40-47"
+            type="group" text="antacids"/>
+        <entity id="DDI-DrugBank.d43.s4.e2" charOffset="60-68"
+            type="drug" text="magnesium"/>
+        <entity id="DDI-DrugBank.d43.s4.e3" charOffset="73-80"
+            type="drug" text="aluminum"/>
+        <entity id="DDI-DrugBank.d43.s4.e4" charOffset="87-91"
+            type="brand" text="VIDEX"/>
+        <entity id="DDI-DrugBank.d43.s4.e5" charOffset="219-225"
+            type="group" text="antacid"/>
+        <pair id="DDI-DrugBank.d43.s4.p0" e1="DDI-DrugBank.d43.s4.e0"
+            e2="DDI-DrugBank.d43.s4.e1" ddi="false"/>
+        <pair id="DDI-DrugBank.d43.s4.p1" e1="DDI-DrugBank.d43.s4.e0"
+            e2="DDI-DrugBank.d43.s4.e2" ddi="false"/>
+        <pair id="DDI-DrugBank.d43.s4.p2" e1="DDI-DrugBank.d43.s4.e0"
+            e2="DDI-DrugBank.d43.s4.e3" ddi="false"/>
+        <pair id="DDI-DrugBank.d43.s4.p3" e1="DDI-DrugBank.d43.s4.e0"
+            e2="DDI-DrugBank.d43.s4.e4" ddi="false"/>
+        <pair id="DDI-DrugBank.d43.s4.p4" e1="DDI-DrugBank.d43.s4.e0"
+            e2="DDI-DrugBank.d43.s4.e5" ddi="false"/>
+        <pair id="DDI-DrugBank.d43.s4.p5" e1="DDI-DrugBank.d43.s4.e1"
+            e2="DDI-DrugBank.d43.s4.e2" ddi="false"/>
+        <pair id="DDI-DrugBank.d43.s4.p6" e1="DDI-DrugBank.d43.s4.e1"
+            e2="DDI-DrugBank.d43.s4.e3" ddi="false"/>
+        <pair id="DDI-DrugBank.d43.s4.p7" e1="DDI-DrugBank.d43.s4.e1"
+            e2="DDI-DrugBank.d43.s4.e4" ddi="true" type="effect"/>
+        <pair id="DDI-DrugBank.d43.s4.p8" e1="DDI-DrugBank.d43.s4.e1"
+            e2="DDI-DrugBank.d43.s4.e5" ddi="false"/>
+        <pair id="DDI-DrugBank.d43.s4.p9" e1="DDI-DrugBank.d43.s4.e2"
+            e2="DDI-DrugBank.d43.s4.e3" ddi="false"/>
+        <pair id="DDI-DrugBank.d43.s4.p10" e1="DDI-DrugBank.d43.s4.e2"
+            e2="DDI-DrugBank.d43.s4.e4" ddi="true" type="effect"/>
+        <pair id="DDI-DrugBank.d43.s4.p11" e1="DDI-DrugBank.d43.s4.e2"
+            e2="DDI-DrugBank.d43.s4.e5" ddi="false"/>
+        <pair id="DDI-DrugBank.d43.s4.p12" e1="DDI-DrugBank.d43.s4.e3"
+            e2="DDI-DrugBank.d43.s4.e4" ddi="true" type="effect"/>
+        <pair id="DDI-DrugBank.d43.s4.p13" e1="DDI-DrugBank.d43.s4.e3"
+            e2="DDI-DrugBank.d43.s4.e5" ddi="false"/>
+        <pair id="DDI-DrugBank.d43.s4.p14" e1="DDI-DrugBank.d43.s4.e4"
+            e2="DDI-DrugBank.d43.s4.e5" ddi="false"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d43.s5" text="Drugs Whose Absorption Can Be Affected by the Level of Acidity in the Stomach: Drugs such as ketoconazole and itraconazole should be administered at least 2 hours prior to dosing with VIDEX.">
+        <entity id="DDI-DrugBank.d43.s5.e0" charOffset="93-104"
+            type="drug" text="ketoconazole"/>
+        <entity id="DDI-DrugBank.d43.s5.e1" charOffset="110-121"
+            type="drug" text="itraconazole"/>
+        <entity id="DDI-DrugBank.d43.s5.e2" charOffset="184-188"
+            type="brand" text="VIDEX"/>
+        <pair id="DDI-DrugBank.d43.s5.p0" e1="DDI-DrugBank.d43.s5.e0"
+            e2="DDI-DrugBank.d43.s5.e1" ddi="false"/>
+        <pair id="DDI-DrugBank.d43.s5.p1" e1="DDI-DrugBank.d43.s5.e0"
+            e2="DDI-DrugBank.d43.s5.e2" ddi="true" type="advise"/>
+        <pair id="DDI-DrugBank.d43.s5.p2" e1="DDI-DrugBank.d43.s5.e1"
+            e2="DDI-DrugBank.d43.s5.e2" ddi="true" type="advise"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d43.s6" text="Ganciclovir: Administration of VIDEX 2 hours prior to or concurrent with oral ganciclovir was associated with a 111 (114)% increase in the steady-state AUC of didanosine (n = 12).">
+        <entity id="DDI-DrugBank.d43.s6.e0" charOffset="0-10"
+            type="drug" text="Ganciclovir"/>
+        <entity id="DDI-DrugBank.d43.s6.e1" charOffset="31-35"
+            type="brand" text="VIDEX"/>
+        <entity id="DDI-DrugBank.d43.s6.e2" charOffset="78-88"
+            type="drug" text="ganciclovir"/>
+        <entity id="DDI-DrugBank.d43.s6.e3" charOffset="159-168"
+            type="drug" text="didanosine"/>
+        <pair id="DDI-DrugBank.d43.s6.p0" e1="DDI-DrugBank.d43.s6.e0"
+            e2="DDI-DrugBank.d43.s6.e1" ddi="false"/>
+        <pair id="DDI-DrugBank.d43.s6.p1" e1="DDI-DrugBank.d43.s6.e0"
+            e2="DDI-DrugBank.d43.s6.e2" ddi="false"/>
+        <pair id="DDI-DrugBank.d43.s6.p2" e1="DDI-DrugBank.d43.s6.e0"
+            e2="DDI-DrugBank.d43.s6.e3" ddi="false"/>
+        <pair id="DDI-DrugBank.d43.s6.p3" e1="DDI-DrugBank.d43.s6.e1"
+            e2="DDI-DrugBank.d43.s6.e2" ddi="true" type="mechanism"/>
+        <pair id="DDI-DrugBank.d43.s6.p4" e1="DDI-DrugBank.d43.s6.e1"
+            e2="DDI-DrugBank.d43.s6.e3" ddi="false"/>
+        <pair id="DDI-DrugBank.d43.s6.p5" e1="DDI-DrugBank.d43.s6.e2"
+            e2="DDI-DrugBank.d43.s6.e3" ddi="false"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d43.s7" text="A 21 (17)% decrease in the steady-state AUC of ganciclovir was observed when VIDEX was administered 2 hours prior to ganciclovir, but not when the two drugs were administered simultaneously (n = 12).">
+        <entity id="DDI-DrugBank.d43.s7.e0" charOffset="47-57"
+            type="drug" text="ganciclovir"/>
+        <entity id="DDI-DrugBank.d43.s7.e1" charOffset="77-81"
+            type="brand" text="VIDEX"/>
+        <entity id="DDI-DrugBank.d43.s7.e2" charOffset="117-127"
+            type="drug" text="ganciclovir"/>
+        <pair id="DDI-DrugBank.d43.s7.p0" e1="DDI-DrugBank.d43.s7.e0"
+            e2="DDI-DrugBank.d43.s7.e1" ddi="false"/>
+        <pair id="DDI-DrugBank.d43.s7.p1" e1="DDI-DrugBank.d43.s7.e0"
+            e2="DDI-DrugBank.d43.s7.e2" ddi="false"/>
+        <pair id="DDI-DrugBank.d43.s7.p2" e1="DDI-DrugBank.d43.s7.e1"
+            e2="DDI-DrugBank.d43.s7.e2" ddi="true" type="mechanism"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d43.s8" text="Quinolone Antibiotics: VIDEX should be administered at least 2 hours after or 6 hours before dosing with ciprofloxacin because plasma concentrations of ciprofloxacin are decreased when administered with antacids containing magnesium, calcium, or aluminum.">
+        <entity id="DDI-DrugBank.d43.s8.e0" charOffset="0-19"
+            type="group" text="Quinolone Antibiotic"/>
+        <entity id="DDI-DrugBank.d43.s8.e1" charOffset="23-27"
+            type="brand" text="VIDEX"/>
+        <entity id="DDI-DrugBank.d43.s8.e2" charOffset="105-117"
+            type="drug" text="ciprofloxacin"/>
+        <entity id="DDI-DrugBank.d43.s8.e3" charOffset="152-164"
+            type="drug" text="ciprofloxacin"/>
+        <entity id="DDI-DrugBank.d43.s8.e4" charOffset="203-210"
+            type="group" text="antacids"/>
+        <entity id="DDI-DrugBank.d43.s8.e5" charOffset="223-231"
+            type="drug" text="magnesium"/>
+        <entity id="DDI-DrugBank.d43.s8.e6" charOffset="234-240"
+            type="drug" text="calcium"/>
+        <entity id="DDI-DrugBank.d43.s8.e7" charOffset="246-253"
+            type="drug" text="aluminum"/>
+        <pair id="DDI-DrugBank.d43.s8.p0" e1="DDI-DrugBank.d43.s8.e0"
+            e2="DDI-DrugBank.d43.s8.e1" ddi="false"/>
+        <pair id="DDI-DrugBank.d43.s8.p1" e1="DDI-DrugBank.d43.s8.e0"
+            e2="DDI-DrugBank.d43.s8.e2" ddi="false"/>
+        <pair id="DDI-DrugBank.d43.s8.p2" e1="DDI-DrugBank.d43.s8.e0"
+            e2="DDI-DrugBank.d43.s8.e3" ddi="false"/>
+        <pair id="DDI-DrugBank.d43.s8.p3" e1="DDI-DrugBank.d43.s8.e0"
+            e2="DDI-DrugBank.d43.s8.e4" ddi="false"/>
+        <pair id="DDI-DrugBank.d43.s8.p4" e1="DDI-DrugBank.d43.s8.e0"
+            e2="DDI-DrugBank.d43.s8.e5" ddi="false"/>
+        <pair id="DDI-DrugBank.d43.s8.p5" e1="DDI-DrugBank.d43.s8.e0"
+            e2="DDI-DrugBank.d43.s8.e6" ddi="false"/>
+        <pair id="DDI-DrugBank.d43.s8.p6" e1="DDI-DrugBank.d43.s8.e0"
+            e2="DDI-DrugBank.d43.s8.e7" ddi="false"/>
+        <pair id="DDI-DrugBank.d43.s8.p7" e1="DDI-DrugBank.d43.s8.e1"
+            e2="DDI-DrugBank.d43.s8.e2" ddi="true" type="advise"/>
+        <pair id="DDI-DrugBank.d43.s8.p8" e1="DDI-DrugBank.d43.s8.e1"
+            e2="DDI-DrugBank.d43.s8.e3" ddi="false"/>
+        <pair id="DDI-DrugBank.d43.s8.p9" e1="DDI-DrugBank.d43.s8.e1"
+            e2="DDI-DrugBank.d43.s8.e4" ddi="false"/>
+        <pair id="DDI-DrugBank.d43.s8.p10" e1="DDI-DrugBank.d43.s8.e1"
+            e2="DDI-DrugBank.d43.s8.e5" ddi="false"/>
+        <pair id="DDI-DrugBank.d43.s8.p11" e1="DDI-DrugBank.d43.s8.e1"
+            e2="DDI-DrugBank.d43.s8.e6" ddi="false"/>
+        <pair id="DDI-DrugBank.d43.s8.p12" e1="DDI-DrugBank.d43.s8.e1"
+            e2="DDI-DrugBank.d43.s8.e7" ddi="false"/>
+        <pair id="DDI-DrugBank.d43.s8.p13" e1="DDI-DrugBank.d43.s8.e2"
+            e2="DDI-DrugBank.d43.s8.e3" ddi="false"/>
+        <pair id="DDI-DrugBank.d43.s8.p14" e1="DDI-DrugBank.d43.s8.e2"
+            e2="DDI-DrugBank.d43.s8.e4" ddi="false"/>
+        <pair id="DDI-DrugBank.d43.s8.p15" e1="DDI-DrugBank.d43.s8.e2"
+            e2="DDI-DrugBank.d43.s8.e5" ddi="false"/>
+        <pair id="DDI-DrugBank.d43.s8.p16" e1="DDI-DrugBank.d43.s8.e2"
+            e2="DDI-DrugBank.d43.s8.e6" ddi="false"/>
+        <pair id="DDI-DrugBank.d43.s8.p17" e1="DDI-DrugBank.d43.s8.e2"
+            e2="DDI-DrugBank.d43.s8.e7" ddi="false"/>
+        <pair id="DDI-DrugBank.d43.s8.p18" e1="DDI-DrugBank.d43.s8.e3"
+            e2="DDI-DrugBank.d43.s8.e4" ddi="false"/>
+        <pair id="DDI-DrugBank.d43.s8.p19" e1="DDI-DrugBank.d43.s8.e3"
+            e2="DDI-DrugBank.d43.s8.e5" ddi="true" type="mechanism"/>
+        <pair id="DDI-DrugBank.d43.s8.p20" e1="DDI-DrugBank.d43.s8.e3"
+            e2="DDI-DrugBank.d43.s8.e6" ddi="true" type="mechanism"/>
+        <pair id="DDI-DrugBank.d43.s8.p21" e1="DDI-DrugBank.d43.s8.e3"
+            e2="DDI-DrugBank.d43.s8.e7" ddi="true" type="mechanism"/>
+        <pair id="DDI-DrugBank.d43.s8.p22" e1="DDI-DrugBank.d43.s8.e4"
+            e2="DDI-DrugBank.d43.s8.e5" ddi="false"/>
+        <pair id="DDI-DrugBank.d43.s8.p23" e1="DDI-DrugBank.d43.s8.e4"
+            e2="DDI-DrugBank.d43.s8.e6" ddi="false"/>
+        <pair id="DDI-DrugBank.d43.s8.p24" e1="DDI-DrugBank.d43.s8.e4"
+            e2="DDI-DrugBank.d43.s8.e7" ddi="false"/>
+        <pair id="DDI-DrugBank.d43.s8.p25" e1="DDI-DrugBank.d43.s8.e5"
+            e2="DDI-DrugBank.d43.s8.e6" ddi="false"/>
+        <pair id="DDI-DrugBank.d43.s8.p26" e1="DDI-DrugBank.d43.s8.e5"
+            e2="DDI-DrugBank.d43.s8.e7" ddi="false"/>
+        <pair id="DDI-DrugBank.d43.s8.p27" e1="DDI-DrugBank.d43.s8.e6"
+            e2="DDI-DrugBank.d43.s8.e7" ddi="false"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d43.s9" text="In eight HIV-infected patients, the steady-state AUC of ciprofloxacin was decreased an average of 26% (95% CI = 14%, 37%) when ciprofloxacin was administered 2 hours prior to a marketed chewable/dispersible tablet formulation of VIDEX.">
+        <entity id="DDI-DrugBank.d43.s9.e0" charOffset="56-68"
+            type="drug" text="ciprofloxacin"/>
+        <entity id="DDI-DrugBank.d43.s9.e1" charOffset="127-139"
+            type="drug" text="ciprofloxacin"/>
+        <entity id="DDI-DrugBank.d43.s9.e2" charOffset="229-233"
+            type="brand" text="VIDEX"/>
+        <pair id="DDI-DrugBank.d43.s9.p0" e1="DDI-DrugBank.d43.s9.e0"
+            e2="DDI-DrugBank.d43.s9.e1" ddi="false"/>
+        <pair id="DDI-DrugBank.d43.s9.p1" e1="DDI-DrugBank.d43.s9.e0"
+            e2="DDI-DrugBank.d43.s9.e2" ddi="false"/>
+        <pair id="DDI-DrugBank.d43.s9.p2" e1="DDI-DrugBank.d43.s9.e1"
+            e2="DDI-DrugBank.d43.s9.e2" ddi="true" type="mechanism"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d43.s10" text="The AUC of ciprofloxacin was decreased an average of 15-fold in 12 healthy subjects given ciprofloxacin and didanosine-placebo tablets concurrently.">
+        <entity id="DDI-DrugBank.d43.s10.e0" charOffset="11-23"
+            type="drug" text="ciprofloxacin"/>
+        <entity id="DDI-DrugBank.d43.s10.e1" charOffset="90-102"
+            type="drug" text="ciprofloxacin"/>
+        <entity id="DDI-DrugBank.d43.s10.e2" charOffset="108-117"
+            type="drug" text="didanosine"/>
+        <pair id="DDI-DrugBank.d43.s10.p0" e1="DDI-DrugBank.d43.s10.e0"
+            e2="DDI-DrugBank.d43.s10.e1" ddi="false"/>
+        <pair id="DDI-DrugBank.d43.s10.p1" e1="DDI-DrugBank.d43.s10.e0"
+            e2="DDI-DrugBank.d43.s10.e2" ddi="false"/>
+        <pair id="DDI-DrugBank.d43.s10.p2" e1="DDI-DrugBank.d43.s10.e1"
+            e2="DDI-DrugBank.d43.s10.e2" ddi="true" type="mechanism"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d43.s11" text="In a single subject given one dose of ciprofloxacin 2 hours after a dose of didanosine-placebo tablets, a greater than 50% reduction in the AUC of ciprofloxacin was observed.">
+        <entity id="DDI-DrugBank.d43.s11.e0" charOffset="38-50"
+            type="drug" text="ciprofloxacin"/>
+        <entity id="DDI-DrugBank.d43.s11.e1" charOffset="76-85"
+            type="drug" text="didanosine"/>
+        <entity id="DDI-DrugBank.d43.s11.e2" charOffset="147-159"
+            type="drug" text="ciprofloxacin"/>
+        <pair id="DDI-DrugBank.d43.s11.p0" e1="DDI-DrugBank.d43.s11.e0"
+            e2="DDI-DrugBank.d43.s11.e1" ddi="true" type="mechanism"/>
+        <pair id="DDI-DrugBank.d43.s11.p1" e1="DDI-DrugBank.d43.s11.e0"
+            e2="DDI-DrugBank.d43.s11.e2" ddi="false"/>
+        <pair id="DDI-DrugBank.d43.s11.p2" e1="DDI-DrugBank.d43.s11.e1"
+            e2="DDI-DrugBank.d43.s11.e2" ddi="false"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d43.s12" text="Plasma concentrations of quinolone antibiotics are decreased when administered with antacids containing magnesium, calcium, or aluminum.">
+        <entity id="DDI-DrugBank.d43.s12.e0" charOffset="25-45"
+            type="group" text="quinolone antibiotics"/>
+        <entity id="DDI-DrugBank.d43.s12.e1" charOffset="84-91"
+            type="group" text="antacids"/>
+        <entity id="DDI-DrugBank.d43.s12.e2" charOffset="104-112"
+            type="drug" text="magnesium"/>
+        <entity id="DDI-DrugBank.d43.s12.e3" charOffset="115-121"
+            type="drug" text="calcium"/>
+        <entity id="DDI-DrugBank.d43.s12.e4" charOffset="127-134"
+            type="drug" text="aluminum"/>
+        <pair id="DDI-DrugBank.d43.s12.p0" e1="DDI-DrugBank.d43.s12.e0"
+            e2="DDI-DrugBank.d43.s12.e1" ddi="false"/>
+        <pair id="DDI-DrugBank.d43.s12.p1" e1="DDI-DrugBank.d43.s12.e0"
+            e2="DDI-DrugBank.d43.s12.e2" ddi="true" type="mechanism"/>
+        <pair id="DDI-DrugBank.d43.s12.p2" e1="DDI-DrugBank.d43.s12.e0"
+            e2="DDI-DrugBank.d43.s12.e3" ddi="true" type="mechanism"/>
+        <pair id="DDI-DrugBank.d43.s12.p3" e1="DDI-DrugBank.d43.s12.e0"
+            e2="DDI-DrugBank.d43.s12.e4" ddi="true" type="mechanism"/>
+        <pair id="DDI-DrugBank.d43.s12.p4" e1="DDI-DrugBank.d43.s12.e1"
+            e2="DDI-DrugBank.d43.s12.e2" ddi="false"/>
+        <pair id="DDI-DrugBank.d43.s12.p5" e1="DDI-DrugBank.d43.s12.e1"
+            e2="DDI-DrugBank.d43.s12.e3" ddi="false"/>
+        <pair id="DDI-DrugBank.d43.s12.p6" e1="DDI-DrugBank.d43.s12.e1"
+            e2="DDI-DrugBank.d43.s12.e4" ddi="false"/>
+        <pair id="DDI-DrugBank.d43.s12.p7" e1="DDI-DrugBank.d43.s12.e2"
+            e2="DDI-DrugBank.d43.s12.e3" ddi="false"/>
+        <pair id="DDI-DrugBank.d43.s12.p8" e1="DDI-DrugBank.d43.s12.e2"
+            e2="DDI-DrugBank.d43.s12.e4" ddi="false"/>
+        <pair id="DDI-DrugBank.d43.s12.p9" e1="DDI-DrugBank.d43.s12.e3"
+            e2="DDI-DrugBank.d43.s12.e4" ddi="false"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d43.s13" text="The optimal dosing interval for coadministration with VIDEX should be determined by consulting the appropriate quinolone package insert.">
+        <entity id="DDI-DrugBank.d43.s13.e0" charOffset="54-58"
+            type="brand" text="VIDEX"/>
+        <entity id="DDI-DrugBank.d43.s13.e1" charOffset="111-119"
+            type="group" text="quinolone"/>
+        <pair id="DDI-DrugBank.d43.s13.p0" e1="DDI-DrugBank.d43.s13.e0"
+            e2="DDI-DrugBank.d43.s13.e1" ddi="false"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d43.s14" text="Interactions with Other Antiretroviral Drugs: Significant decreases in the AUC of delavirdine (20%) and indinavir (84%) occurred following simultaneous administration of these agents with VIDEX.">
+        <entity id="DDI-DrugBank.d43.s14.e0" charOffset="24-43"
+            type="group" text="Antiretroviral Drugs"/>
+        <entity id="DDI-DrugBank.d43.s14.e1" charOffset="82-92"
+            type="drug" text="delavirdine"/>
+        <entity id="DDI-DrugBank.d43.s14.e2" charOffset="104-112"
+            type="drug" text="indinavir"/>
+        <entity id="DDI-DrugBank.d43.s14.e3" charOffset="188-192"
+            type="brand" text="VIDEX"/>
+        <pair id="DDI-DrugBank.d43.s14.p0" e1="DDI-DrugBank.d43.s14.e0"
+            e2="DDI-DrugBank.d43.s14.e1" ddi="false"/>
+        <pair id="DDI-DrugBank.d43.s14.p1" e1="DDI-DrugBank.d43.s14.e0"
+            e2="DDI-DrugBank.d43.s14.e2" ddi="false"/>
+        <pair id="DDI-DrugBank.d43.s14.p2" e1="DDI-DrugBank.d43.s14.e0"
+            e2="DDI-DrugBank.d43.s14.e3" ddi="false"/>
+        <pair id="DDI-DrugBank.d43.s14.p3" e1="DDI-DrugBank.d43.s14.e1"
+            e2="DDI-DrugBank.d43.s14.e2" ddi="false"/>
+        <pair id="DDI-DrugBank.d43.s14.p4" e1="DDI-DrugBank.d43.s14.e1"
+            e2="DDI-DrugBank.d43.s14.e3" ddi="true" type="mechanism"/>
+        <pair id="DDI-DrugBank.d43.s14.p5" e1="DDI-DrugBank.d43.s14.e2"
+            e2="DDI-DrugBank.d43.s14.e3" ddi="true" type="mechanism"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d43.s15" text="To avoid this interaction, delavirdine or indinavir should be given 1 hour prior to dosing with VIDEX.">
+        <entity id="DDI-DrugBank.d43.s15.e0" charOffset="27-37"
+            type="drug" text="delavirdine"/>
+        <entity id="DDI-DrugBank.d43.s15.e1" charOffset="42-50"
+            type="drug" text="indinavir"/>
+        <entity id="DDI-DrugBank.d43.s15.e2" charOffset="96-100"
+            type="brand" text="VIDEX"/>
+        <pair id="DDI-DrugBank.d43.s15.p0" e1="DDI-DrugBank.d43.s15.e0"
+            e2="DDI-DrugBank.d43.s15.e1" ddi="false"/>
+        <pair id="DDI-DrugBank.d43.s15.p1" e1="DDI-DrugBank.d43.s15.e0"
+            e2="DDI-DrugBank.d43.s15.e2" ddi="true" type="advise"/>
+        <pair id="DDI-DrugBank.d43.s15.p2" e1="DDI-DrugBank.d43.s15.e1"
+            e2="DDI-DrugBank.d43.s15.e2" ddi="true" type="advise"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d43.s16" text="The pharmacokinetics of nelfinavir are not altered to a clinically significant degree when it is administered with a light meal 1 hour after VIDEX.">
+        <entity id="DDI-DrugBank.d43.s16.e0" charOffset="24-33"
+            type="drug" text="nelfinavir"/>
+        <entity id="DDI-DrugBank.d43.s16.e1" charOffset="141-145"
+            type="brand" text="VIDEX"/>
+        <pair id="DDI-DrugBank.d43.s16.p0" e1="DDI-DrugBank.d43.s16.e0"
+            e2="DDI-DrugBank.d43.s16.e1" ddi="false"/>
+    </sentence>
+</document>

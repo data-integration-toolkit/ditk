@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="DDI-MedLine.d47">
+    <sentence id="DDI-MedLine.d47.s0" text="Activity of buforin II alone and in combination with azithromycin and minocycline against Cryptosporidium parvum in cell culture.&#xd;&#xa;">
+        <entity id="DDI-MedLine.d47.s0.e0" charOffset="12-21"
+            type="drug_n" text="buforin II"/>
+        <entity id="DDI-MedLine.d47.s0.e1" charOffset="53-64"
+            type="drug" text="azithromycin"/>
+        <entity id="DDI-MedLine.d47.s0.e2" charOffset="70-80"
+            type="drug" text="minocycline"/>
+        <pair id="DDI-MedLine.d47.s0.p0" e1="DDI-MedLine.d47.s0.e0"
+            e2="DDI-MedLine.d47.s0.e1" ddi="false"/>
+        <pair id="DDI-MedLine.d47.s0.p1" e1="DDI-MedLine.d47.s0.e0"
+            e2="DDI-MedLine.d47.s0.e2" ddi="false"/>
+        <pair id="DDI-MedLine.d47.s0.p2" e1="DDI-MedLine.d47.s0.e1"
+            e2="DDI-MedLine.d47.s0.e2" ddi="false"/>
+    </sentence>
+    <sentence id="DDI-MedLine.d47.s1" text="The in vitro anti-cryptosporidial activity of buforin II alone and in combination with azithromycin and minocycline was investigated. ">
+        <entity id="DDI-MedLine.d47.s1.e0" charOffset="46-55"
+            type="drug_n" text="buforin II"/>
+        <entity id="DDI-MedLine.d47.s1.e1" charOffset="87-98"
+            type="drug" text="azithromycin"/>
+        <entity id="DDI-MedLine.d47.s1.e2" charOffset="104-114"
+            type="drug" text="minocycline"/>
+        <pair id="DDI-MedLine.d47.s1.p0" e1="DDI-MedLine.d47.s1.e0"
+            e2="DDI-MedLine.d47.s1.e1" ddi="false"/>
+        <pair id="DDI-MedLine.d47.s1.p1" e1="DDI-MedLine.d47.s1.e0"
+            e2="DDI-MedLine.d47.s1.e2" ddi="false"/>
+        <pair id="DDI-MedLine.d47.s1.p2" e1="DDI-MedLine.d47.s1.e1"
+            e2="DDI-MedLine.d47.s1.e2" ddi="false"/>
+    </sentence>
+    <sentence id="DDI-MedLine.d47.s2" text="Buforin II showed moderate activity, which increased with increasing concentration to 55.7% suppression of growth at 20 microM. ">
+        <entity id="DDI-MedLine.d47.s2.e0" charOffset="0-9"
+            type="drug_n" text="Buforin II"/>
+    </sentence>
+    <sentence id="DDI-MedLine.d47.s3" text="Moreover, its activity was enhanced when it was combined with either azithromycin or minocycline with 90% parasite reduction at the highest concentration tested. ">
+        <entity id="DDI-MedLine.d47.s3.e0" charOffset="69-80"
+            type="drug" text="azithromycin"/>
+        <entity id="DDI-MedLine.d47.s3.e1" charOffset="85-95"
+            type="drug" text="minocycline"/>
+        <pair id="DDI-MedLine.d47.s3.p0" e1="DDI-MedLine.d47.s3.e0"
+            e2="DDI-MedLine.d47.s3.e1" ddi="false"/>
+    </sentence>
+    <sentence id="DDI-MedLine.d47.s4" text="Buforin II may be active in inhibiting Cryptosporidium parvum growth in vitro upon combination with either azithromycin or minocycline.">
+        <entity id="DDI-MedLine.d47.s4.e0" charOffset="0-9"
+            type="drug_n" text="Buforin II"/>
+        <entity id="DDI-MedLine.d47.s4.e1" charOffset="107-118"
+            type="drug" text="azithromycin"/>
+        <entity id="DDI-MedLine.d47.s4.e2" charOffset="123-133"
+            type="drug" text="minocycline"/>
+        <pair id="DDI-MedLine.d47.s4.p0" e1="DDI-MedLine.d47.s4.e0"
+            e2="DDI-MedLine.d47.s4.e1" ddi="true" type="effect"/>
+        <pair id="DDI-MedLine.d47.s4.p1" e1="DDI-MedLine.d47.s4.e0"
+            e2="DDI-MedLine.d47.s4.e2" ddi="true" type="effect"/>
+        <pair id="DDI-MedLine.d47.s4.p2" e1="DDI-MedLine.d47.s4.e1"
+            e2="DDI-MedLine.d47.s4.e2" ddi="false"/>
+    </sentence>
+</document>

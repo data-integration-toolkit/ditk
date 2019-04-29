@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="DDI-MedLine.d51">
+    <sentence id="DDI-MedLine.d51.s0" text="Effects of xanthine derivatives in a light/dark test in mice and the contribution of adenosine receptors.&#xd;&#xa;">
+        <entity id="DDI-MedLine.d51.s0.e0" charOffset="11-30"
+            type="group" text="xanthine derivatives"/>
+    </sentence>
+    <sentence id="DDI-MedLine.d51.s1" text="We investigated the effects of adenosine receptor antagonists, caffeine, theophylline, 8-phenyltheophylline, and 8-cyclopentyl-1,3-dipropylxanthine (DPCPX), in a light/dark test in mice. ">
+        <entity id="DDI-MedLine.d51.s1.e0" charOffset="63-70"
+            type="drug" text="caffeine"/>
+        <entity id="DDI-MedLine.d51.s1.e1" charOffset="73-84"
+            type="drug" text="theophylline"/>
+        <entity id="DDI-MedLine.d51.s1.e2" charOffset="87-106"
+            type="drug_n" text="8-phenyltheophylline"/>
+        <entity id="DDI-MedLine.d51.s1.e3" charOffset="113-146"
+            type="drug_n" text="8-cyclopentyl-1,3-dipropylxanthine"/>
+        <entity id="DDI-MedLine.d51.s1.e4" charOffset="149-153"
+            type="drug_n" text="DPCPX"/>
+        <pair id="DDI-MedLine.d51.s1.p0" e1="DDI-MedLine.d51.s1.e0"
+            e2="DDI-MedLine.d51.s1.e1" ddi="false"/>
+        <pair id="DDI-MedLine.d51.s1.p1" e1="DDI-MedLine.d51.s1.e0"
+            e2="DDI-MedLine.d51.s1.e2" ddi="false"/>
+        <pair id="DDI-MedLine.d51.s1.p2" e1="DDI-MedLine.d51.s1.e0"
+            e2="DDI-MedLine.d51.s1.e3" ddi="false"/>
+        <pair id="DDI-MedLine.d51.s1.p3" e1="DDI-MedLine.d51.s1.e0"
+            e2="DDI-MedLine.d51.s1.e4" ddi="false"/>
+        <pair id="DDI-MedLine.d51.s1.p4" e1="DDI-MedLine.d51.s1.e1"
+            e2="DDI-MedLine.d51.s1.e2" ddi="false"/>
+        <pair id="DDI-MedLine.d51.s1.p5" e1="DDI-MedLine.d51.s1.e1"
+            e2="DDI-MedLine.d51.s1.e3" ddi="false"/>
+        <pair id="DDI-MedLine.d51.s1.p6" e1="DDI-MedLine.d51.s1.e1"
+            e2="DDI-MedLine.d51.s1.e4" ddi="false"/>
+        <pair id="DDI-MedLine.d51.s1.p7" e1="DDI-MedLine.d51.s1.e2"
+            e2="DDI-MedLine.d51.s1.e3" ddi="false"/>
+        <pair id="DDI-MedLine.d51.s1.p8" e1="DDI-MedLine.d51.s1.e2"
+            e2="DDI-MedLine.d51.s1.e4" ddi="false"/>
+        <pair id="DDI-MedLine.d51.s1.p9" e1="DDI-MedLine.d51.s1.e3"
+            e2="DDI-MedLine.d51.s1.e4" ddi="false"/>
+    </sentence>
+    <sentence id="DDI-MedLine.d51.s2" text="All antagonists decreased the time spent in the light zone in this test, which suggested that these compounds have anxiogenic effects. "/>
+    <sentence id="DDI-MedLine.d51.s3" text="The anxiogenic effects of theophylline were reduced by pretreatment with CGS 21680, an A2-selective agonist, but not by N6-cyclopentyladenosine (CPA), an A1-selective agonist. ">
+        <entity id="DDI-MedLine.d51.s3.e0" charOffset="26-37"
+            type="drug" text="theophylline"/>
+        <entity id="DDI-MedLine.d51.s3.e1" charOffset="73-81"
+            type="drug_n" text="CGS 21680"/>
+        <entity id="DDI-MedLine.d51.s3.e2" charOffset="120-142"
+            type="drug_n" text="N6-cyclopentyladenosine"/>
+        <entity id="DDI-MedLine.d51.s3.e3" charOffset="145-147"
+            type="drug_n" text="CPA"/>
+        <pair id="DDI-MedLine.d51.s3.p0" e1="DDI-MedLine.d51.s3.e0"
+            e2="DDI-MedLine.d51.s3.e1" ddi="true" type="effect"/>
+        <pair id="DDI-MedLine.d51.s3.p1" e1="DDI-MedLine.d51.s3.e0"
+            e2="DDI-MedLine.d51.s3.e2" ddi="false"/>
+        <pair id="DDI-MedLine.d51.s3.p2" e1="DDI-MedLine.d51.s3.e0"
+            e2="DDI-MedLine.d51.s3.e3" ddi="false"/>
+        <pair id="DDI-MedLine.d51.s3.p3" e1="DDI-MedLine.d51.s3.e1"
+            e2="DDI-MedLine.d51.s3.e2" ddi="false"/>
+        <pair id="DDI-MedLine.d51.s3.p4" e1="DDI-MedLine.d51.s3.e1"
+            e2="DDI-MedLine.d51.s3.e3" ddi="false"/>
+        <pair id="DDI-MedLine.d51.s3.p5" e1="DDI-MedLine.d51.s3.e2"
+            e2="DDI-MedLine.d51.s3.e3" ddi="false"/>
+    </sentence>
+    <sentence id="DDI-MedLine.d51.s4" text="However, the antagonism of the theophylline-induced anxiogenic effects by CGS21680 was only observed in the time spent in the light zone, and DPCPX-induced anxiogenic effects were neither reversed by CGS 21680 nor by CPA. ">
+        <entity id="DDI-MedLine.d51.s4.e0" charOffset="31-42"
+            type="drug" text="theophylline"/>
+        <entity id="DDI-MedLine.d51.s4.e1" charOffset="74-81"
+            type="drug_n" text="CGS21680"/>
+        <entity id="DDI-MedLine.d51.s4.e2" charOffset="142-146"
+            type="drug_n" text="DPCPX"/>
+        <entity id="DDI-MedLine.d51.s4.e3" charOffset="200-208"
+            type="drug" text="CGS 21680"/>
+        <entity id="DDI-MedLine.d51.s4.e4" charOffset="217-219"
+            type="drug_n" text="CPA"/>
+        <pair id="DDI-MedLine.d51.s4.p0" e1="DDI-MedLine.d51.s4.e0"
+            e2="DDI-MedLine.d51.s4.e1" ddi="true" type="effect"/>
+        <pair id="DDI-MedLine.d51.s4.p1" e1="DDI-MedLine.d51.s4.e0"
+            e2="DDI-MedLine.d51.s4.e2" ddi="false"/>
+        <pair id="DDI-MedLine.d51.s4.p2" e1="DDI-MedLine.d51.s4.e0"
+            e2="DDI-MedLine.d51.s4.e3" ddi="false"/>
+        <pair id="DDI-MedLine.d51.s4.p3" e1="DDI-MedLine.d51.s4.e0"
+            e2="DDI-MedLine.d51.s4.e4" ddi="false"/>
+        <pair id="DDI-MedLine.d51.s4.p4" e1="DDI-MedLine.d51.s4.e1"
+            e2="DDI-MedLine.d51.s4.e2" ddi="false"/>
+        <pair id="DDI-MedLine.d51.s4.p5" e1="DDI-MedLine.d51.s4.e1"
+            e2="DDI-MedLine.d51.s4.e3" ddi="false"/>
+        <pair id="DDI-MedLine.d51.s4.p6" e1="DDI-MedLine.d51.s4.e1"
+            e2="DDI-MedLine.d51.s4.e4" ddi="false"/>
+        <pair id="DDI-MedLine.d51.s4.p7" e1="DDI-MedLine.d51.s4.e2"
+            e2="DDI-MedLine.d51.s4.e3" ddi="false"/>
+        <pair id="DDI-MedLine.d51.s4.p8" e1="DDI-MedLine.d51.s4.e2"
+            e2="DDI-MedLine.d51.s4.e4" ddi="false"/>
+        <pair id="DDI-MedLine.d51.s4.p9" e1="DDI-MedLine.d51.s4.e3"
+            e2="DDI-MedLine.d51.s4.e4" ddi="false"/>
+    </sentence>
+    <sentence id="DDI-MedLine.d51.s5" text="Finally, it is notable that xanthine-derived adenosine antagonists tested here commonly showed anxiogenic effects in the light/dark test in mice. "/>
+    <sentence id="DDI-MedLine.d51.s6" text="It is suggested that there is a minor contribution of adenosine receptors to these effects, although theophylline-induced anxiogenic effects were antagonized by an A2 receptor agonist.">
+        <entity id="DDI-MedLine.d51.s6.e0" charOffset="101-112"
+            type="drug" text="theophylline"/>
+    </sentence>
+</document>

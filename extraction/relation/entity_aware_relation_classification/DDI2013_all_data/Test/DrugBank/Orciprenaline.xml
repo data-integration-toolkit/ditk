@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="DDI-DrugBank.d611">
+    <sentence id="DDI-DrugBank.d611.s0" text="Other beta adrenergic aerosol bronchodilators should not be used concomitantly with Alupent    (metaproterenol sulfate USP) because they may have additive effects. ">
+        <entity id="DDI-DrugBank.d611.s0.e0" charOffset="6-44"
+            type="group" text="beta adrenergic aerosol bronchodilators"/>
+        <entity id="DDI-DrugBank.d611.s0.e1" charOffset="84-90"
+            type="brand" text="Alupent"/>
+        <entity id="DDI-DrugBank.d611.s0.e2" charOffset="96-117"
+            type="drug" text="metaproterenol sulfate"/>
+        <pair id="DDI-DrugBank.d611.s0.p0" e1="DDI-DrugBank.d611.s0.e0"
+            e2="DDI-DrugBank.d611.s0.e1" ddi="true" type="advise"/>
+        <pair id="DDI-DrugBank.d611.s0.p1" e1="DDI-DrugBank.d611.s0.e0"
+            e2="DDI-DrugBank.d611.s0.e2" ddi="true" type="advise"/>
+        <pair id="DDI-DrugBank.d611.s0.p2" e1="DDI-DrugBank.d611.s0.e1"
+            e2="DDI-DrugBank.d611.s0.e2" ddi="false"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d611.s1" text="Beta adrenergic agonists should be administered with caution to patients being treated with monoamine oxidase inhibitors or tricyclic antidepressants, since the action of beta adrenergic agonists on the vascular system may be potentiated.">
+        <entity id="DDI-DrugBank.d611.s1.e0" charOffset="0-23"
+            type="group" text="Beta adrenergic agonists"/>
+        <entity id="DDI-DrugBank.d611.s1.e1" charOffset="92-119"
+            type="group" text="monoamine oxidase inhibitors"/>
+        <entity id="DDI-DrugBank.d611.s1.e2" charOffset="124-148"
+            type="group" text="tricyclic antidepressants"/>
+        <entity id="DDI-DrugBank.d611.s1.e3" charOffset="171-194"
+            type="group" text="beta adrenergic agonists"/>
+        <pair id="DDI-DrugBank.d611.s1.p0" e1="DDI-DrugBank.d611.s1.e0"
+            e2="DDI-DrugBank.d611.s1.e1" ddi="true" type="advise"/>
+        <pair id="DDI-DrugBank.d611.s1.p1" e1="DDI-DrugBank.d611.s1.e0"
+            e2="DDI-DrugBank.d611.s1.e2" ddi="true" type="advise"/>
+        <pair id="DDI-DrugBank.d611.s1.p2" e1="DDI-DrugBank.d611.s1.e0"
+            e2="DDI-DrugBank.d611.s1.e3" ddi="false"/>
+        <pair id="DDI-DrugBank.d611.s1.p3" e1="DDI-DrugBank.d611.s1.e1"
+            e2="DDI-DrugBank.d611.s1.e2" ddi="false"/>
+        <pair id="DDI-DrugBank.d611.s1.p4" e1="DDI-DrugBank.d611.s1.e1"
+            e2="DDI-DrugBank.d611.s1.e3" ddi="false"/>
+        <pair id="DDI-DrugBank.d611.s1.p5" e1="DDI-DrugBank.d611.s1.e2"
+            e2="DDI-DrugBank.d611.s1.e3" ddi="false"/>
+    </sentence>
+</document>

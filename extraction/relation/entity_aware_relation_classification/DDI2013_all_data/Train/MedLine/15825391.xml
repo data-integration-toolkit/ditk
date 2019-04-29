@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="DDI-MedLine.d120">
+    <sentence id="DDI-MedLine.d120.s0" text="Molecular basis for the selective toxicity of amphotericin B for yeast and filipin for animal cells.">
+        <entity id="DDI-MedLine.d120.s0.e0" charOffset="46-59"
+            type="drug" text="amphotericin B"/>
+        <entity id="DDI-MedLine.d120.s0.e1" charOffset="75-81"
+            type="drug_n" text="filipin"/>
+        <pair id="DDI-MedLine.d120.s0.p0" e1="DDI-MedLine.d120.s0.e0"
+            e2="DDI-MedLine.d120.s0.e1" ddi="false"/>
+    </sentence>
+    <sentence id="DDI-MedLine.d120.s1" text="Among the polyene antibiotics, many, like filipin, cannot be used clinically because they are toxic; ">
+        <entity id="DDI-MedLine.d120.s1.e0" charOffset="10-28"
+            type="group" text="polyene antibiotics"/>
+        <entity id="DDI-MedLine.d120.s1.e1" charOffset="42-48"
+            type="drug_n" text="filipin"/>
+        <pair id="DDI-MedLine.d120.s1.p0" e1="DDI-MedLine.d120.s1.e0"
+            e2="DDI-MedLine.d120.s1.e1" ddi="false"/>
+    </sentence>
+    <sentence id="DDI-MedLine.d120.s2" text="amphotericin B, however, is useful in therapy of human fungal infections because it is less toxic. ">
+        <entity id="DDI-MedLine.d120.s2.e0" charOffset="0-13"
+            type="drug" text="amphotericin B"/>
+    </sentence>
+    <sentence id="DDI-MedLine.d120.s3" text="Both the toxicity of filipin and the therapeutic value of amphotericin B can be rationalized at the cellular and molecular level by the following observations: (i) these polyene antibiotics showed differential effects on cells; ">
+        <entity id="DDI-MedLine.d120.s3.e0" charOffset="21-27"
+            type="drug_n" text="filipin"/>
+        <entity id="DDI-MedLine.d120.s3.e1" charOffset="58-71"
+            type="drug" text="amphotericin B"/>
+        <entity id="DDI-MedLine.d120.s3.e2" charOffset="170-188"
+            type="group" text="polyene antibiotics"/>
+        <pair id="DDI-MedLine.d120.s3.p0" e1="DDI-MedLine.d120.s3.e0"
+            e2="DDI-MedLine.d120.s3.e1" ddi="false"/>
+        <pair id="DDI-MedLine.d120.s3.p1" e1="DDI-MedLine.d120.s3.e0"
+            e2="DDI-MedLine.d120.s3.e2" ddi="false"/>
+        <pair id="DDI-MedLine.d120.s3.p2" e1="DDI-MedLine.d120.s3.e1"
+            e2="DDI-MedLine.d120.s3.e2" ddi="false"/>
+    </sentence>
+    <sentence id="DDI-MedLine.d120.s4" text="filipin was more potent in lysing human red blood cells, whereas amphotericin B was more potent in inhibiting yeast cell growth; ">
+        <entity id="DDI-MedLine.d120.s4.e0" charOffset="0-6"
+            type="drug_n" text="filipin"/>
+        <entity id="DDI-MedLine.d120.s4.e1" charOffset="65-78"
+            type="drug" text="amphotericin B"/>
+        <pair id="DDI-MedLine.d120.s4.p0" e1="DDI-MedLine.d120.s4.e0"
+            e2="DDI-MedLine.d120.s4.e1" ddi="false"/>
+    </sentence>
+    <sentence id="DDI-MedLine.d120.s5" text="and (ii) the effects of filipin were more efficiently inhibited by added cholesterol, the major membrane sterol in human cells, whereas the effects of amphotericin B were more efficiently inhibited by ergosterol, the major membrane sterol in yeast. ">
+        <entity id="DDI-MedLine.d120.s5.e0" charOffset="24-30"
+            type="drug_n" text="filipin"/>
+        <entity id="DDI-MedLine.d120.s5.e1" charOffset="151-164"
+            type="drug" text="amphotericin B"/>
+        <pair id="DDI-MedLine.d120.s5.p0" e1="DDI-MedLine.d120.s5.e0"
+            e2="DDI-MedLine.d120.s5.e1" ddi="false"/>
+    </sentence>
+    <sentence id="DDI-MedLine.d120.s6" text="The simplest inference is that the toxicity and effectiveness of polyenes are determined by their relative avidities for the predominant sterol in cell membranes."/>
+</document>

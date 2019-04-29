@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="DDI-DrugBank.d215">
+    <sentence id="DDI-DrugBank.d215.s0" text="Caution should be observed when anileridine is coadministered with other opioids, sedatives, phenothiazines, or anesthetics, as these agents may increase respiratory and circulatory depression.">
+        <entity id="DDI-DrugBank.d215.s0.e0" charOffset="32-42"
+            type="drug" text="anileridine"/>
+        <entity id="DDI-DrugBank.d215.s0.e1" charOffset="73-79"
+            type="group" text="opioids"/>
+        <entity id="DDI-DrugBank.d215.s0.e2" charOffset="82-90"
+            type="group" text="sedatives"/>
+        <entity id="DDI-DrugBank.d215.s0.e3" charOffset="93-106"
+            type="group" text="phenothiazines"/>
+        <entity id="DDI-DrugBank.d215.s0.e4" charOffset="112-122"
+            type="group" text="anesthetics"/>
+        <pair id="DDI-DrugBank.d215.s0.p0" e1="DDI-DrugBank.d215.s0.e0"
+            e2="DDI-DrugBank.d215.s0.e1" ddi="true" type="advise"/>
+        <pair id="DDI-DrugBank.d215.s0.p1" e1="DDI-DrugBank.d215.s0.e0"
+            e2="DDI-DrugBank.d215.s0.e2" ddi="true" type="advise"/>
+        <pair id="DDI-DrugBank.d215.s0.p2" e1="DDI-DrugBank.d215.s0.e0"
+            e2="DDI-DrugBank.d215.s0.e3" ddi="true" type="advise"/>
+        <pair id="DDI-DrugBank.d215.s0.p3" e1="DDI-DrugBank.d215.s0.e0"
+            e2="DDI-DrugBank.d215.s0.e4" ddi="true" type="advise"/>
+        <pair id="DDI-DrugBank.d215.s0.p4" e1="DDI-DrugBank.d215.s0.e1"
+            e2="DDI-DrugBank.d215.s0.e2" ddi="false"/>
+        <pair id="DDI-DrugBank.d215.s0.p5" e1="DDI-DrugBank.d215.s0.e1"
+            e2="DDI-DrugBank.d215.s0.e3" ddi="false"/>
+        <pair id="DDI-DrugBank.d215.s0.p6" e1="DDI-DrugBank.d215.s0.e1"
+            e2="DDI-DrugBank.d215.s0.e4" ddi="false"/>
+        <pair id="DDI-DrugBank.d215.s0.p7" e1="DDI-DrugBank.d215.s0.e2"
+            e2="DDI-DrugBank.d215.s0.e3" ddi="false"/>
+        <pair id="DDI-DrugBank.d215.s0.p8" e1="DDI-DrugBank.d215.s0.e2"
+            e2="DDI-DrugBank.d215.s0.e4" ddi="false"/>
+        <pair id="DDI-DrugBank.d215.s0.p9" e1="DDI-DrugBank.d215.s0.e3"
+            e2="DDI-DrugBank.d215.s0.e4" ddi="false"/>
+    </sentence>
+</document>

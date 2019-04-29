@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="DDI-DrugBank.d321">
+    <sentence id="DDI-DrugBank.d321.s0" text="Dexamethasone: Steady-state trough concentrations of albendazole sulfoxide were about 56% higher when 8 mg dexamethasone was coadministered with each dose of albendazole (15 mg/kg/day) in eight neurocysticercosis patients.">
+        <entity id="DDI-DrugBank.d321.s0.e0" charOffset="0-12"
+            type="drug" text="Dexamethasone"/>
+        <entity id="DDI-DrugBank.d321.s0.e1" charOffset="53-73"
+            type="drug" text="albendazole sulfoxide"/>
+        <entity id="DDI-DrugBank.d321.s0.e2" charOffset="107-119"
+            type="drug" text="dexamethasone"/>
+        <entity id="DDI-DrugBank.d321.s0.e3" charOffset="158-168"
+            type="drug" text="albendazole"/>
+        <pair id="DDI-DrugBank.d321.s0.p0" e1="DDI-DrugBank.d321.s0.e0"
+            e2="DDI-DrugBank.d321.s0.e1" ddi="false"/>
+        <pair id="DDI-DrugBank.d321.s0.p1" e1="DDI-DrugBank.d321.s0.e0"
+            e2="DDI-DrugBank.d321.s0.e2" ddi="false"/>
+        <pair id="DDI-DrugBank.d321.s0.p2" e1="DDI-DrugBank.d321.s0.e0"
+            e2="DDI-DrugBank.d321.s0.e3" ddi="false"/>
+        <pair id="DDI-DrugBank.d321.s0.p3" e1="DDI-DrugBank.d321.s0.e1"
+            e2="DDI-DrugBank.d321.s0.e2" ddi="false"/>
+        <pair id="DDI-DrugBank.d321.s0.p4" e1="DDI-DrugBank.d321.s0.e1"
+            e2="DDI-DrugBank.d321.s0.e3" ddi="false"/>
+        <pair id="DDI-DrugBank.d321.s0.p5" e1="DDI-DrugBank.d321.s0.e2"
+            e2="DDI-DrugBank.d321.s0.e3" ddi="true" type="mechanism"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d321.s1" text="Praziquantel: In the fed state, praziquantel (40 mg/kg) increased mean maximum plasma concentration and area under the curve of albendazole sulfoxide by about 50% in healthy subjects (n=10) compared with a separate group of subjects (n=6) given albendazole alone.">
+        <entity id="DDI-DrugBank.d321.s1.e0" charOffset="0-11"
+            type="drug" text="Praziquantel"/>
+        <entity id="DDI-DrugBank.d321.s1.e1" charOffset="32-43"
+            type="drug" text="praziquantel"/>
+        <entity id="DDI-DrugBank.d321.s1.e2" charOffset="128-148"
+            type="drug" text="albendazole sulfoxide"/>
+        <entity id="DDI-DrugBank.d321.s1.e3" charOffset="245-255"
+            type="drug" text="albendazole"/>
+        <pair id="DDI-DrugBank.d321.s1.p0" e1="DDI-DrugBank.d321.s1.e0"
+            e2="DDI-DrugBank.d321.s1.e1" ddi="false"/>
+        <pair id="DDI-DrugBank.d321.s1.p1" e1="DDI-DrugBank.d321.s1.e0"
+            e2="DDI-DrugBank.d321.s1.e2" ddi="false"/>
+        <pair id="DDI-DrugBank.d321.s1.p2" e1="DDI-DrugBank.d321.s1.e0"
+            e2="DDI-DrugBank.d321.s1.e3" ddi="false"/>
+        <pair id="DDI-DrugBank.d321.s1.p3" e1="DDI-DrugBank.d321.s1.e1"
+            e2="DDI-DrugBank.d321.s1.e2" ddi="true" type="mechanism"/>
+        <pair id="DDI-DrugBank.d321.s1.p4" e1="DDI-DrugBank.d321.s1.e1"
+            e2="DDI-DrugBank.d321.s1.e3" ddi="false"/>
+        <pair id="DDI-DrugBank.d321.s1.p5" e1="DDI-DrugBank.d321.s1.e2"
+            e2="DDI-DrugBank.d321.s1.e3" ddi="false"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d321.s2" text="Mean T max and mean plasma elimination half-life of albendazole sulfoxide were unchanged.">
+        <entity id="DDI-DrugBank.d321.s2.e0" charOffset="52-72"
+            type="drug" text="albendazole sulfoxide"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d321.s3" text="The pharmacokinetics of praziquantel were unchanged following coadministration with albendazole (400 mg).">
+        <entity id="DDI-DrugBank.d321.s3.e0" charOffset="24-35"
+            type="drug" text="praziquantel"/>
+        <entity id="DDI-DrugBank.d321.s3.e1" charOffset="84-94"
+            type="drug" text="albendazole"/>
+        <pair id="DDI-DrugBank.d321.s3.p0" e1="DDI-DrugBank.d321.s3.e0"
+            e2="DDI-DrugBank.d321.s3.e1" ddi="false"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d321.s4" text="Cimetidine: Albendazole sulfoxide concentrations in bile and cystic fluid were increased (about 2-fold) in hydatid cyst patients treated with cimetidine (10 mg/kg/day) (n=7) compared with albendazole (20 mg/kg/day) alone (n=12).">
+        <entity id="DDI-DrugBank.d321.s4.e0" charOffset="0-9"
+            type="drug" text="Cimetidine"/>
+        <entity id="DDI-DrugBank.d321.s4.e1" charOffset="12-32"
+            type="drug" text="Albendazole sulfoxide"/>
+        <entity id="DDI-DrugBank.d321.s4.e2" charOffset="142-151"
+            type="drug" text="cimetidine"/>
+        <entity id="DDI-DrugBank.d321.s4.e3" charOffset="188-198"
+            type="drug" text="albendazole"/>
+        <pair id="DDI-DrugBank.d321.s4.p0" e1="DDI-DrugBank.d321.s4.e0"
+            e2="DDI-DrugBank.d321.s4.e1" ddi="false"/>
+        <pair id="DDI-DrugBank.d321.s4.p1" e1="DDI-DrugBank.d321.s4.e0"
+            e2="DDI-DrugBank.d321.s4.e2" ddi="false"/>
+        <pair id="DDI-DrugBank.d321.s4.p2" e1="DDI-DrugBank.d321.s4.e0"
+            e2="DDI-DrugBank.d321.s4.e3" ddi="false"/>
+        <pair id="DDI-DrugBank.d321.s4.p3" e1="DDI-DrugBank.d321.s4.e1"
+            e2="DDI-DrugBank.d321.s4.e2" ddi="true" type="mechanism"/>
+        <pair id="DDI-DrugBank.d321.s4.p4" e1="DDI-DrugBank.d321.s4.e1"
+            e2="DDI-DrugBank.d321.s4.e3" ddi="false"/>
+        <pair id="DDI-DrugBank.d321.s4.p5" e1="DDI-DrugBank.d321.s4.e2"
+            e2="DDI-DrugBank.d321.s4.e3" ddi="false"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d321.s5" text="Albendazole sulfoxide plasma concentrations were unchanged 4 hours after dosing.">
+        <entity id="DDI-DrugBank.d321.s5.e0" charOffset="0-20"
+            type="drug" text="Albendazole sulfoxide"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d321.s6" text="Theophylline: The pharmacokinetics of theophylline (aminophylline 5.8 mg/kg infused over 20 minutes) were unchanged following a single oral dose of albendazole (400 mg) in 6 healthy subjects.">
+        <entity id="DDI-DrugBank.d321.s6.e0" charOffset="0-11"
+            type="drug" text="Theophylline"/>
+        <entity id="DDI-DrugBank.d321.s6.e1" charOffset="38-49"
+            type="drug" text="theophylline"/>
+        <entity id="DDI-DrugBank.d321.s6.e2" charOffset="52-64"
+            type="drug" text="aminophylline"/>
+        <entity id="DDI-DrugBank.d321.s6.e3" charOffset="148-158"
+            type="drug" text="albendazole"/>
+        <pair id="DDI-DrugBank.d321.s6.p0" e1="DDI-DrugBank.d321.s6.e0"
+            e2="DDI-DrugBank.d321.s6.e1" ddi="false"/>
+        <pair id="DDI-DrugBank.d321.s6.p1" e1="DDI-DrugBank.d321.s6.e0"
+            e2="DDI-DrugBank.d321.s6.e2" ddi="false"/>
+        <pair id="DDI-DrugBank.d321.s6.p2" e1="DDI-DrugBank.d321.s6.e0"
+            e2="DDI-DrugBank.d321.s6.e3" ddi="false"/>
+        <pair id="DDI-DrugBank.d321.s6.p3" e1="DDI-DrugBank.d321.s6.e1"
+            e2="DDI-DrugBank.d321.s6.e2" ddi="false"/>
+        <pair id="DDI-DrugBank.d321.s6.p4" e1="DDI-DrugBank.d321.s6.e1"
+            e2="DDI-DrugBank.d321.s6.e3" ddi="false"/>
+        <pair id="DDI-DrugBank.d321.s6.p5" e1="DDI-DrugBank.d321.s6.e2"
+            e2="DDI-DrugBank.d321.s6.e3" ddi="false"/>
+    </sentence>
+</document>

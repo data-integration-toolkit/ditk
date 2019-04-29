@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="DDI-DrugBank.d199">
+    <sentence id="DDI-DrugBank.d199.s0" text="Metoclopramide: When coadministered with MONUROL, metoclopramide, a drug which increases gastrointestinal motility, lowers the serum concentration and urinary excretion of fosfomycin.">
+        <entity id="DDI-DrugBank.d199.s0.e0" charOffset="0-13"
+            type="drug" text="Metoclopramide"/>
+        <entity id="DDI-DrugBank.d199.s0.e1" charOffset="41-47"
+            type="brand" text="MONUROL"/>
+        <entity id="DDI-DrugBank.d199.s0.e2" charOffset="50-63"
+            type="drug" text="metoclopramide"/>
+        <entity id="DDI-DrugBank.d199.s0.e3" charOffset="172-181"
+            type="drug" text="fosfomycin"/>
+        <pair id="DDI-DrugBank.d199.s0.p0" e1="DDI-DrugBank.d199.s0.e0"
+            e2="DDI-DrugBank.d199.s0.e1" ddi="false"/>
+        <pair id="DDI-DrugBank.d199.s0.p1" e1="DDI-DrugBank.d199.s0.e0"
+            e2="DDI-DrugBank.d199.s0.e2" ddi="false"/>
+        <pair id="DDI-DrugBank.d199.s0.p2" e1="DDI-DrugBank.d199.s0.e0"
+            e2="DDI-DrugBank.d199.s0.e3" ddi="false"/>
+        <pair id="DDI-DrugBank.d199.s0.p3" e1="DDI-DrugBank.d199.s0.e1"
+            e2="DDI-DrugBank.d199.s0.e2" ddi="true" type="mechanism"/>
+        <pair id="DDI-DrugBank.d199.s0.p4" e1="DDI-DrugBank.d199.s0.e1"
+            e2="DDI-DrugBank.d199.s0.e3" ddi="false"/>
+        <pair id="DDI-DrugBank.d199.s0.p5" e1="DDI-DrugBank.d199.s0.e2"
+            e2="DDI-DrugBank.d199.s0.e3" ddi="false"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d199.s1" text="Other drugs that increase gastrointestinal motility may produce similar effects."/>
+    <sentence id="DDI-DrugBank.d199.s2" text="Cimetidine: Cimetidine does not affect the pharmacokinetics of fosfomycin when coadministered with MONUROL.">
+        <entity id="DDI-DrugBank.d199.s2.e0" charOffset="0-9"
+            type="drug" text="Cimetidine"/>
+        <entity id="DDI-DrugBank.d199.s2.e1" charOffset="12-21"
+            type="drug" text="Cimetidine"/>
+        <entity id="DDI-DrugBank.d199.s2.e2" charOffset="63-72"
+            type="drug" text="fosfomycin"/>
+        <entity id="DDI-DrugBank.d199.s2.e3" charOffset="99-105"
+            type="brand" text="MONUROL"/>
+        <pair id="DDI-DrugBank.d199.s2.p0" e1="DDI-DrugBank.d199.s2.e0"
+            e2="DDI-DrugBank.d199.s2.e1" ddi="false"/>
+        <pair id="DDI-DrugBank.d199.s2.p1" e1="DDI-DrugBank.d199.s2.e0"
+            e2="DDI-DrugBank.d199.s2.e2" ddi="false"/>
+        <pair id="DDI-DrugBank.d199.s2.p2" e1="DDI-DrugBank.d199.s2.e0"
+            e2="DDI-DrugBank.d199.s2.e3" ddi="false"/>
+        <pair id="DDI-DrugBank.d199.s2.p3" e1="DDI-DrugBank.d199.s2.e1"
+            e2="DDI-DrugBank.d199.s2.e2" ddi="false"/>
+        <pair id="DDI-DrugBank.d199.s2.p4" e1="DDI-DrugBank.d199.s2.e1"
+            e2="DDI-DrugBank.d199.s2.e3" ddi="false"/>
+        <pair id="DDI-DrugBank.d199.s2.p5" e1="DDI-DrugBank.d199.s2.e2"
+            e2="DDI-DrugBank.d199.s2.e3" ddi="false"/>
+    </sentence>
+</document>

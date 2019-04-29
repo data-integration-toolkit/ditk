@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="DDI-DrugBank.d167">
+    <sentence id="DDI-DrugBank.d167.s0" text="Potentially fatal drug interactions may occur when coadministered with digoxin, as this may enhance cardiovascular depression and bradyarrhythmias may occur.">
+        <entity id="DDI-DrugBank.d167.s0.e0" charOffset="71-77"
+            type="drug" text="digoxin"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d167.s1" text="Anticholinesterases (neostgmine, physostigmine), lignocaine, quinine, procainamide can enhance toxicity and cause cardio respiratory depression.">
+        <entity id="DDI-DrugBank.d167.s1.e0" charOffset="0-18"
+            type="group" text="Anticholinesterases"/>
+        <entity id="DDI-DrugBank.d167.s1.e1" charOffset="33-45"
+            type="drug" text="physostigmine"/>
+        <entity id="DDI-DrugBank.d167.s1.e2" charOffset="49-58"
+            type="drug" text="lignocaine"/>
+        <entity id="DDI-DrugBank.d167.s1.e3" charOffset="61-67"
+            type="drug" text="quinine"/>
+        <entity id="DDI-DrugBank.d167.s1.e4" charOffset="70-81"
+            type="drug" text="procainamide"/>
+        <pair id="DDI-DrugBank.d167.s1.p0" e1="DDI-DrugBank.d167.s1.e0"
+            e2="DDI-DrugBank.d167.s1.e1" ddi="false"/>
+        <pair id="DDI-DrugBank.d167.s1.p1" e1="DDI-DrugBank.d167.s1.e0"
+            e2="DDI-DrugBank.d167.s1.e2" ddi="false"/>
+        <pair id="DDI-DrugBank.d167.s1.p2" e1="DDI-DrugBank.d167.s1.e0"
+            e2="DDI-DrugBank.d167.s1.e3" ddi="false"/>
+        <pair id="DDI-DrugBank.d167.s1.p3" e1="DDI-DrugBank.d167.s1.e0"
+            e2="DDI-DrugBank.d167.s1.e4" ddi="false"/>
+        <pair id="DDI-DrugBank.d167.s1.p4" e1="DDI-DrugBank.d167.s1.e1"
+            e2="DDI-DrugBank.d167.s1.e2" ddi="false"/>
+        <pair id="DDI-DrugBank.d167.s1.p5" e1="DDI-DrugBank.d167.s1.e1"
+            e2="DDI-DrugBank.d167.s1.e3" ddi="false"/>
+        <pair id="DDI-DrugBank.d167.s1.p6" e1="DDI-DrugBank.d167.s1.e1"
+            e2="DDI-DrugBank.d167.s1.e4" ddi="false"/>
+        <pair id="DDI-DrugBank.d167.s1.p7" e1="DDI-DrugBank.d167.s1.e2"
+            e2="DDI-DrugBank.d167.s1.e3" ddi="false"/>
+        <pair id="DDI-DrugBank.d167.s1.p8" e1="DDI-DrugBank.d167.s1.e2"
+            e2="DDI-DrugBank.d167.s1.e4" ddi="false"/>
+        <pair id="DDI-DrugBank.d167.s1.p9" e1="DDI-DrugBank.d167.s1.e3"
+            e2="DDI-DrugBank.d167.s1.e4" ddi="false"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d167.s2" text="In addition, neuromuscular blocking action is enhanced by general anesthetics, local anesthetics like lidocaine, procaine, beta-blockers, metaclopramide, lithium carbonate, and terbutaline.">
+        <entity id="DDI-DrugBank.d167.s2.e0" charOffset="66-76"
+            type="group" text="anesthetics"/>
+        <entity id="DDI-DrugBank.d167.s2.e1" charOffset="85-95"
+            type="group" text="anesthetics"/>
+        <entity id="DDI-DrugBank.d167.s2.e2" charOffset="102-110"
+            type="drug" text="lidocaine"/>
+        <entity id="DDI-DrugBank.d167.s2.e3" charOffset="113-120"
+            type="drug" text="procaine"/>
+        <entity id="DDI-DrugBank.d167.s2.e4" charOffset="123-135"
+            type="group" text="beta-blockers"/>
+        <entity id="DDI-DrugBank.d167.s2.e5" charOffset="138-151"
+            type="drug" text="metaclopramide"/>
+        <entity id="DDI-DrugBank.d167.s2.e6" charOffset="154-170"
+            type="drug" text="lithium carbonate"/>
+        <entity id="DDI-DrugBank.d167.s2.e7" charOffset="177-187"
+            type="drug" text="terbutaline"/>
+        <pair id="DDI-DrugBank.d167.s2.p0" e1="DDI-DrugBank.d167.s2.e0"
+            e2="DDI-DrugBank.d167.s2.e1" ddi="false"/>
+        <pair id="DDI-DrugBank.d167.s2.p1" e1="DDI-DrugBank.d167.s2.e0"
+            e2="DDI-DrugBank.d167.s2.e2" ddi="false"/>
+        <pair id="DDI-DrugBank.d167.s2.p2" e1="DDI-DrugBank.d167.s2.e0"
+            e2="DDI-DrugBank.d167.s2.e3" ddi="false"/>
+        <pair id="DDI-DrugBank.d167.s2.p3" e1="DDI-DrugBank.d167.s2.e0"
+            e2="DDI-DrugBank.d167.s2.e4" ddi="false"/>
+        <pair id="DDI-DrugBank.d167.s2.p4" e1="DDI-DrugBank.d167.s2.e0"
+            e2="DDI-DrugBank.d167.s2.e5" ddi="false"/>
+        <pair id="DDI-DrugBank.d167.s2.p5" e1="DDI-DrugBank.d167.s2.e0"
+            e2="DDI-DrugBank.d167.s2.e6" ddi="false"/>
+        <pair id="DDI-DrugBank.d167.s2.p6" e1="DDI-DrugBank.d167.s2.e0"
+            e2="DDI-DrugBank.d167.s2.e7" ddi="false"/>
+        <pair id="DDI-DrugBank.d167.s2.p7" e1="DDI-DrugBank.d167.s2.e1"
+            e2="DDI-DrugBank.d167.s2.e2" ddi="false"/>
+        <pair id="DDI-DrugBank.d167.s2.p8" e1="DDI-DrugBank.d167.s2.e1"
+            e2="DDI-DrugBank.d167.s2.e3" ddi="false"/>
+        <pair id="DDI-DrugBank.d167.s2.p9" e1="DDI-DrugBank.d167.s2.e1"
+            e2="DDI-DrugBank.d167.s2.e4" ddi="false"/>
+        <pair id="DDI-DrugBank.d167.s2.p10" e1="DDI-DrugBank.d167.s2.e1"
+            e2="DDI-DrugBank.d167.s2.e5" ddi="false"/>
+        <pair id="DDI-DrugBank.d167.s2.p11" e1="DDI-DrugBank.d167.s2.e1"
+            e2="DDI-DrugBank.d167.s2.e6" ddi="false"/>
+        <pair id="DDI-DrugBank.d167.s2.p12" e1="DDI-DrugBank.d167.s2.e1"
+            e2="DDI-DrugBank.d167.s2.e7" ddi="false"/>
+        <pair id="DDI-DrugBank.d167.s2.p13" e1="DDI-DrugBank.d167.s2.e2"
+            e2="DDI-DrugBank.d167.s2.e3" ddi="false"/>
+        <pair id="DDI-DrugBank.d167.s2.p14" e1="DDI-DrugBank.d167.s2.e2"
+            e2="DDI-DrugBank.d167.s2.e4" ddi="false"/>
+        <pair id="DDI-DrugBank.d167.s2.p15" e1="DDI-DrugBank.d167.s2.e2"
+            e2="DDI-DrugBank.d167.s2.e5" ddi="false"/>
+        <pair id="DDI-DrugBank.d167.s2.p16" e1="DDI-DrugBank.d167.s2.e2"
+            e2="DDI-DrugBank.d167.s2.e6" ddi="false"/>
+        <pair id="DDI-DrugBank.d167.s2.p17" e1="DDI-DrugBank.d167.s2.e2"
+            e2="DDI-DrugBank.d167.s2.e7" ddi="false"/>
+        <pair id="DDI-DrugBank.d167.s2.p18" e1="DDI-DrugBank.d167.s2.e3"
+            e2="DDI-DrugBank.d167.s2.e4" ddi="false"/>
+        <pair id="DDI-DrugBank.d167.s2.p19" e1="DDI-DrugBank.d167.s2.e3"
+            e2="DDI-DrugBank.d167.s2.e5" ddi="false"/>
+        <pair id="DDI-DrugBank.d167.s2.p20" e1="DDI-DrugBank.d167.s2.e3"
+            e2="DDI-DrugBank.d167.s2.e6" ddi="false"/>
+        <pair id="DDI-DrugBank.d167.s2.p21" e1="DDI-DrugBank.d167.s2.e3"
+            e2="DDI-DrugBank.d167.s2.e7" ddi="false"/>
+        <pair id="DDI-DrugBank.d167.s2.p22" e1="DDI-DrugBank.d167.s2.e4"
+            e2="DDI-DrugBank.d167.s2.e5" ddi="false"/>
+        <pair id="DDI-DrugBank.d167.s2.p23" e1="DDI-DrugBank.d167.s2.e4"
+            e2="DDI-DrugBank.d167.s2.e6" ddi="false"/>
+        <pair id="DDI-DrugBank.d167.s2.p24" e1="DDI-DrugBank.d167.s2.e4"
+            e2="DDI-DrugBank.d167.s2.e7" ddi="false"/>
+        <pair id="DDI-DrugBank.d167.s2.p25" e1="DDI-DrugBank.d167.s2.e5"
+            e2="DDI-DrugBank.d167.s2.e6" ddi="false"/>
+        <pair id="DDI-DrugBank.d167.s2.p26" e1="DDI-DrugBank.d167.s2.e5"
+            e2="DDI-DrugBank.d167.s2.e7" ddi="false"/>
+        <pair id="DDI-DrugBank.d167.s2.p27" e1="DDI-DrugBank.d167.s2.e6"
+            e2="DDI-DrugBank.d167.s2.e7" ddi="false"/>
+    </sentence>
+</document>

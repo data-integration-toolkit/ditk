@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="DDI-DrugBank.d407">
+    <sentence id="DDI-DrugBank.d407.s0" text="Drug/Laboratory Interactions No formal drug interaction studies have been performed with Campath.">
+        <entity id="DDI-DrugBank.d407.s0.e0" charOffset="89-95"
+            type="brand" text="Campath"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d407.s1" text="An immune response to Campath may interfere with subsequent diagnostic serum tests that utilize antibodies">
+        <entity id="DDI-DrugBank.d407.s1.e0" charOffset="22-28"
+            type="brand" text="Campath"/>
+        <entity id="DDI-DrugBank.d407.s1.e1" charOffset="96-105"
+            type="group" text="antibodies"/>
+        <pair id="DDI-DrugBank.d407.s1.p0" e1="DDI-DrugBank.d407.s1.e0"
+            e2="DDI-DrugBank.d407.s1.e1" ddi="false"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d407.s2" text="."/>
+    <sentence id="DDI-DrugBank.d407.s3" text=""/>
+</document>

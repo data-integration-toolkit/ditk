@@ -1,0 +1,189 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="DDI-DrugBank.d576">
+    <sentence id="DDI-DrugBank.d576.s0" text="Salicylates antagonize the uricosuric action of . drugs used to treat gout. ">
+        <entity id="DDI-DrugBank.d576.s0.e0" charOffset="0-10"
+            type="group" text="Salicylates"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d576.s1" text="ASPIRIN AND OTHER SALICYLATE DRUGS WILL BE ADDITIVE TO DISALCID AND MAY INCREASE PLASMA CONCENTRATIONS OF SALICYLIC ACID TO TOXIC LEVELS. ">
+        <entity id="DDI-DrugBank.d576.s1.e0" charOffset="0-6"
+            type="brand" text="ASPIRIN"/>
+        <entity id="DDI-DrugBank.d576.s1.e1" charOffset="18-33"
+            type="group" text="SALICYLATE DRUGS"/>
+        <entity id="DDI-DrugBank.d576.s1.e2" charOffset="55-62"
+            type="brand" text="DISALCID"/>
+        <entity id="DDI-DrugBank.d576.s1.e3" charOffset="106-119"
+            type="drug" text="SALICYLIC ACID"/>
+        <pair id="DDI-DrugBank.d576.s1.p0" e1="DDI-DrugBank.d576.s1.e0"
+            e2="DDI-DrugBank.d576.s1.e1" ddi="false"/>
+        <pair id="DDI-DrugBank.d576.s1.p1" e1="DDI-DrugBank.d576.s1.e0"
+            e2="DDI-DrugBank.d576.s1.e2" ddi="true" type="effect"/>
+        <pair id="DDI-DrugBank.d576.s1.p2" e1="DDI-DrugBank.d576.s1.e0"
+            e2="DDI-DrugBank.d576.s1.e3" ddi="false"/>
+        <pair id="DDI-DrugBank.d576.s1.p3" e1="DDI-DrugBank.d576.s1.e1"
+            e2="DDI-DrugBank.d576.s1.e2" ddi="true" type="effect"/>
+        <pair id="DDI-DrugBank.d576.s1.p4" e1="DDI-DrugBank.d576.s1.e1"
+            e2="DDI-DrugBank.d576.s1.e3" ddi="false"/>
+        <pair id="DDI-DrugBank.d576.s1.p5" e1="DDI-DrugBank.d576.s1.e2"
+            e2="DDI-DrugBank.d576.s1.e3" ddi="false"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d576.s2" text="Drugs and foods that raise urine pH will increase renal clearance and urinary excretion of salicylic acid, thus lowering plasma levels; ">
+        <entity id="DDI-DrugBank.d576.s2.e0" charOffset="91-104"
+            type="drug" text="salicylic acid"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d576.s3" text="acidifying drugs or foods will decrease urinary excretion and increase plasma levels. "/>
+    <sentence id="DDI-DrugBank.d576.s4" text="Salicylates given concomitantly with anticoagulant drugs may predispose to systemic bleeding. ">
+        <entity id="DDI-DrugBank.d576.s4.e0" charOffset="0-10"
+            type="group" text="Salicylates"/>
+        <entity id="DDI-DrugBank.d576.s4.e1" charOffset="37-55"
+            type="group" text="anticoagulant drugs"/>
+        <pair id="DDI-DrugBank.d576.s4.p0" e1="DDI-DrugBank.d576.s4.e0"
+            e2="DDI-DrugBank.d576.s4.e1" ddi="true" type="effect"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d576.s5" text="Salicylates may enhance the hypoglycemic effect of oral antidiabetic drugs of the sulfonylurea class. ">
+        <entity id="DDI-DrugBank.d576.s5.e0" charOffset="0-10"
+            type="group" text="Salicylates"/>
+        <entity id="DDI-DrugBank.d576.s5.e1" charOffset="56-73"
+            type="group" text="antidiabetic drugs"/>
+        <pair id="DDI-DrugBank.d576.s5.p0" e1="DDI-DrugBank.d576.s5.e0"
+            e2="DDI-DrugBank.d576.s5.e1" ddi="true" type="effect"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d576.s6" text="Salicylate competes with a number of drugs for protein binding sites, notably penicillin, thiopental, thyroxine, triiodothyronine, phenytoin, sulfinpyrazone, naproxen, warfarin, methotrexate, and possibly corticosteroids. ">
+        <entity id="DDI-DrugBank.d576.s6.e0" charOffset="0-9"
+            type="group" text="Salicylate"/>
+        <entity id="DDI-DrugBank.d576.s6.e1" charOffset="78-87"
+            type="drug" text="penicillin"/>
+        <entity id="DDI-DrugBank.d576.s6.e2" charOffset="90-99"
+            type="drug" text="thiopental"/>
+        <entity id="DDI-DrugBank.d576.s6.e3" charOffset="102-110"
+            type="drug" text="thyroxine"/>
+        <entity id="DDI-DrugBank.d576.s6.e4" charOffset="113-128"
+            type="drug" text="triiodothyronine"/>
+        <entity id="DDI-DrugBank.d576.s6.e5" charOffset="131-139"
+            type="drug" text="phenytoin"/>
+        <entity id="DDI-DrugBank.d576.s6.e6" charOffset="142-155"
+            type="drug" text="sulfinpyrazone"/>
+        <entity id="DDI-DrugBank.d576.s6.e7" charOffset="158-165"
+            type="drug" text="naproxen"/>
+        <entity id="DDI-DrugBank.d576.s6.e8" charOffset="168-175"
+            type="drug" text="warfarin"/>
+        <entity id="DDI-DrugBank.d576.s6.e9" charOffset="178-189"
+            type="drug" text="methotrexate"/>
+        <entity id="DDI-DrugBank.d576.s6.e10" charOffset="205-219"
+            type="group" text="corticosteroids"/>
+        <pair id="DDI-DrugBank.d576.s6.p0" e1="DDI-DrugBank.d576.s6.e0"
+            e2="DDI-DrugBank.d576.s6.e1" ddi="true" type="mechanism"/>
+        <pair id="DDI-DrugBank.d576.s6.p1" e1="DDI-DrugBank.d576.s6.e0"
+            e2="DDI-DrugBank.d576.s6.e2" ddi="true" type="mechanism"/>
+        <pair id="DDI-DrugBank.d576.s6.p2" e1="DDI-DrugBank.d576.s6.e0"
+            e2="DDI-DrugBank.d576.s6.e3" ddi="true" type="mechanism"/>
+        <pair id="DDI-DrugBank.d576.s6.p3" e1="DDI-DrugBank.d576.s6.e0"
+            e2="DDI-DrugBank.d576.s6.e4" ddi="true" type="mechanism"/>
+        <pair id="DDI-DrugBank.d576.s6.p4" e1="DDI-DrugBank.d576.s6.e0"
+            e2="DDI-DrugBank.d576.s6.e5" ddi="true" type="mechanism"/>
+        <pair id="DDI-DrugBank.d576.s6.p5" e1="DDI-DrugBank.d576.s6.e0"
+            e2="DDI-DrugBank.d576.s6.e6" ddi="true" type="mechanism"/>
+        <pair id="DDI-DrugBank.d576.s6.p6" e1="DDI-DrugBank.d576.s6.e0"
+            e2="DDI-DrugBank.d576.s6.e7" ddi="true" type="mechanism"/>
+        <pair id="DDI-DrugBank.d576.s6.p7" e1="DDI-DrugBank.d576.s6.e0"
+            e2="DDI-DrugBank.d576.s6.e8" ddi="true" type="mechanism"/>
+        <pair id="DDI-DrugBank.d576.s6.p8" e1="DDI-DrugBank.d576.s6.e0"
+            e2="DDI-DrugBank.d576.s6.e9" ddi="true" type="mechanism"/>
+        <pair id="DDI-DrugBank.d576.s6.p9" e1="DDI-DrugBank.d576.s6.e0"
+            e2="DDI-DrugBank.d576.s6.e10" ddi="true" type="mechanism"/>
+        <pair id="DDI-DrugBank.d576.s6.p10" e1="DDI-DrugBank.d576.s6.e1"
+            e2="DDI-DrugBank.d576.s6.e2" ddi="false"/>
+        <pair id="DDI-DrugBank.d576.s6.p11" e1="DDI-DrugBank.d576.s6.e1"
+            e2="DDI-DrugBank.d576.s6.e3" ddi="false"/>
+        <pair id="DDI-DrugBank.d576.s6.p12" e1="DDI-DrugBank.d576.s6.e1"
+            e2="DDI-DrugBank.d576.s6.e4" ddi="false"/>
+        <pair id="DDI-DrugBank.d576.s6.p13" e1="DDI-DrugBank.d576.s6.e1"
+            e2="DDI-DrugBank.d576.s6.e5" ddi="false"/>
+        <pair id="DDI-DrugBank.d576.s6.p14" e1="DDI-DrugBank.d576.s6.e1"
+            e2="DDI-DrugBank.d576.s6.e6" ddi="false"/>
+        <pair id="DDI-DrugBank.d576.s6.p15" e1="DDI-DrugBank.d576.s6.e1"
+            e2="DDI-DrugBank.d576.s6.e7" ddi="false"/>
+        <pair id="DDI-DrugBank.d576.s6.p16" e1="DDI-DrugBank.d576.s6.e1"
+            e2="DDI-DrugBank.d576.s6.e8" ddi="false"/>
+        <pair id="DDI-DrugBank.d576.s6.p17" e1="DDI-DrugBank.d576.s6.e1"
+            e2="DDI-DrugBank.d576.s6.e9" ddi="false"/>
+        <pair id="DDI-DrugBank.d576.s6.p18" e1="DDI-DrugBank.d576.s6.e1"
+            e2="DDI-DrugBank.d576.s6.e10" ddi="false"/>
+        <pair id="DDI-DrugBank.d576.s6.p19" e1="DDI-DrugBank.d576.s6.e2"
+            e2="DDI-DrugBank.d576.s6.e3" ddi="false"/>
+        <pair id="DDI-DrugBank.d576.s6.p20" e1="DDI-DrugBank.d576.s6.e2"
+            e2="DDI-DrugBank.d576.s6.e4" ddi="false"/>
+        <pair id="DDI-DrugBank.d576.s6.p21" e1="DDI-DrugBank.d576.s6.e2"
+            e2="DDI-DrugBank.d576.s6.e5" ddi="false"/>
+        <pair id="DDI-DrugBank.d576.s6.p22" e1="DDI-DrugBank.d576.s6.e2"
+            e2="DDI-DrugBank.d576.s6.e6" ddi="false"/>
+        <pair id="DDI-DrugBank.d576.s6.p23" e1="DDI-DrugBank.d576.s6.e2"
+            e2="DDI-DrugBank.d576.s6.e7" ddi="false"/>
+        <pair id="DDI-DrugBank.d576.s6.p24" e1="DDI-DrugBank.d576.s6.e2"
+            e2="DDI-DrugBank.d576.s6.e8" ddi="false"/>
+        <pair id="DDI-DrugBank.d576.s6.p25" e1="DDI-DrugBank.d576.s6.e2"
+            e2="DDI-DrugBank.d576.s6.e9" ddi="false"/>
+        <pair id="DDI-DrugBank.d576.s6.p26" e1="DDI-DrugBank.d576.s6.e2"
+            e2="DDI-DrugBank.d576.s6.e10" ddi="false"/>
+        <pair id="DDI-DrugBank.d576.s6.p27" e1="DDI-DrugBank.d576.s6.e3"
+            e2="DDI-DrugBank.d576.s6.e4" ddi="false"/>
+        <pair id="DDI-DrugBank.d576.s6.p28" e1="DDI-DrugBank.d576.s6.e3"
+            e2="DDI-DrugBank.d576.s6.e5" ddi="false"/>
+        <pair id="DDI-DrugBank.d576.s6.p29" e1="DDI-DrugBank.d576.s6.e3"
+            e2="DDI-DrugBank.d576.s6.e6" ddi="false"/>
+        <pair id="DDI-DrugBank.d576.s6.p30" e1="DDI-DrugBank.d576.s6.e3"
+            e2="DDI-DrugBank.d576.s6.e7" ddi="false"/>
+        <pair id="DDI-DrugBank.d576.s6.p31" e1="DDI-DrugBank.d576.s6.e3"
+            e2="DDI-DrugBank.d576.s6.e8" ddi="false"/>
+        <pair id="DDI-DrugBank.d576.s6.p32" e1="DDI-DrugBank.d576.s6.e3"
+            e2="DDI-DrugBank.d576.s6.e9" ddi="false"/>
+        <pair id="DDI-DrugBank.d576.s6.p33" e1="DDI-DrugBank.d576.s6.e3"
+            e2="DDI-DrugBank.d576.s6.e10" ddi="false"/>
+        <pair id="DDI-DrugBank.d576.s6.p34" e1="DDI-DrugBank.d576.s6.e4"
+            e2="DDI-DrugBank.d576.s6.e5" ddi="false"/>
+        <pair id="DDI-DrugBank.d576.s6.p35" e1="DDI-DrugBank.d576.s6.e4"
+            e2="DDI-DrugBank.d576.s6.e6" ddi="false"/>
+        <pair id="DDI-DrugBank.d576.s6.p36" e1="DDI-DrugBank.d576.s6.e4"
+            e2="DDI-DrugBank.d576.s6.e7" ddi="false"/>
+        <pair id="DDI-DrugBank.d576.s6.p37" e1="DDI-DrugBank.d576.s6.e4"
+            e2="DDI-DrugBank.d576.s6.e8" ddi="false"/>
+        <pair id="DDI-DrugBank.d576.s6.p38" e1="DDI-DrugBank.d576.s6.e4"
+            e2="DDI-DrugBank.d576.s6.e9" ddi="false"/>
+        <pair id="DDI-DrugBank.d576.s6.p39" e1="DDI-DrugBank.d576.s6.e4"
+            e2="DDI-DrugBank.d576.s6.e10" ddi="false"/>
+        <pair id="DDI-DrugBank.d576.s6.p40" e1="DDI-DrugBank.d576.s6.e5"
+            e2="DDI-DrugBank.d576.s6.e6" ddi="false"/>
+        <pair id="DDI-DrugBank.d576.s6.p41" e1="DDI-DrugBank.d576.s6.e5"
+            e2="DDI-DrugBank.d576.s6.e7" ddi="false"/>
+        <pair id="DDI-DrugBank.d576.s6.p42" e1="DDI-DrugBank.d576.s6.e5"
+            e2="DDI-DrugBank.d576.s6.e8" ddi="false"/>
+        <pair id="DDI-DrugBank.d576.s6.p43" e1="DDI-DrugBank.d576.s6.e5"
+            e2="DDI-DrugBank.d576.s6.e9" ddi="false"/>
+        <pair id="DDI-DrugBank.d576.s6.p44" e1="DDI-DrugBank.d576.s6.e5"
+            e2="DDI-DrugBank.d576.s6.e10" ddi="false"/>
+        <pair id="DDI-DrugBank.d576.s6.p45" e1="DDI-DrugBank.d576.s6.e6"
+            e2="DDI-DrugBank.d576.s6.e7" ddi="false"/>
+        <pair id="DDI-DrugBank.d576.s6.p46" e1="DDI-DrugBank.d576.s6.e6"
+            e2="DDI-DrugBank.d576.s6.e8" ddi="false"/>
+        <pair id="DDI-DrugBank.d576.s6.p47" e1="DDI-DrugBank.d576.s6.e6"
+            e2="DDI-DrugBank.d576.s6.e9" ddi="false"/>
+        <pair id="DDI-DrugBank.d576.s6.p48" e1="DDI-DrugBank.d576.s6.e6"
+            e2="DDI-DrugBank.d576.s6.e10" ddi="false"/>
+        <pair id="DDI-DrugBank.d576.s6.p49" e1="DDI-DrugBank.d576.s6.e7"
+            e2="DDI-DrugBank.d576.s6.e8" ddi="false"/>
+        <pair id="DDI-DrugBank.d576.s6.p50" e1="DDI-DrugBank.d576.s6.e7"
+            e2="DDI-DrugBank.d576.s6.e9" ddi="false"/>
+        <pair id="DDI-DrugBank.d576.s6.p51" e1="DDI-DrugBank.d576.s6.e7"
+            e2="DDI-DrugBank.d576.s6.e10" ddi="false"/>
+        <pair id="DDI-DrugBank.d576.s6.p52" e1="DDI-DrugBank.d576.s6.e8"
+            e2="DDI-DrugBank.d576.s6.e9" ddi="false"/>
+        <pair id="DDI-DrugBank.d576.s6.p53" e1="DDI-DrugBank.d576.s6.e8"
+            e2="DDI-DrugBank.d576.s6.e10" ddi="false"/>
+        <pair id="DDI-DrugBank.d576.s6.p54" e1="DDI-DrugBank.d576.s6.e9"
+            e2="DDI-DrugBank.d576.s6.e10" ddi="false"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d576.s7" text="Drug/ Laboratory Test Interactions Salicylate competes with thyroid hormone for binding to plasma proteins, which may be reflected in a depressed plasma T4 value in some patients; ">
+        <entity id="DDI-DrugBank.d576.s7.e0" charOffset="35-44"
+            type="group" text="Salicylate"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d576.s8" text="thyroid function and basal metabolism are unaffected."/>
+</document>

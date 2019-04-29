@@ -1,0 +1,305 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="DDI-DrugBank.d347">
+    <sentence id="DDI-DrugBank.d347.s0" text="Administration of repeat doses of FACTIVE had no effect on the repeat dose pharmacokinetics of theophylline, digoxin or an ethinylestradiol/levonorgestrol oral contraceptive product in healthy subjects.">
+        <entity id="DDI-DrugBank.d347.s0.e0" charOffset="34-40"
+            type="brand" text="FACTIVE"/>
+        <entity id="DDI-DrugBank.d347.s0.e1" charOffset="95-106"
+            type="drug" text="theophylline"/>
+        <entity id="DDI-DrugBank.d347.s0.e2" charOffset="109-115"
+            type="drug" text="digoxin"/>
+        <entity id="DDI-DrugBank.d347.s0.e3" charOffset="123-138"
+            type="drug" text="ethinylestradiol"/>
+        <entity id="DDI-DrugBank.d347.s0.e4" charOffset="160-180"
+            type="group" text="contraceptive product"/>
+        <pair id="DDI-DrugBank.d347.s0.p0" e1="DDI-DrugBank.d347.s0.e0"
+            e2="DDI-DrugBank.d347.s0.e1" ddi="false"/>
+        <pair id="DDI-DrugBank.d347.s0.p1" e1="DDI-DrugBank.d347.s0.e0"
+            e2="DDI-DrugBank.d347.s0.e2" ddi="false"/>
+        <pair id="DDI-DrugBank.d347.s0.p2" e1="DDI-DrugBank.d347.s0.e0"
+            e2="DDI-DrugBank.d347.s0.e3" ddi="false"/>
+        <pair id="DDI-DrugBank.d347.s0.p3" e1="DDI-DrugBank.d347.s0.e0"
+            e2="DDI-DrugBank.d347.s0.e4" ddi="false"/>
+        <pair id="DDI-DrugBank.d347.s0.p4" e1="DDI-DrugBank.d347.s0.e1"
+            e2="DDI-DrugBank.d347.s0.e2" ddi="false"/>
+        <pair id="DDI-DrugBank.d347.s0.p5" e1="DDI-DrugBank.d347.s0.e1"
+            e2="DDI-DrugBank.d347.s0.e3" ddi="false"/>
+        <pair id="DDI-DrugBank.d347.s0.p6" e1="DDI-DrugBank.d347.s0.e1"
+            e2="DDI-DrugBank.d347.s0.e4" ddi="false"/>
+        <pair id="DDI-DrugBank.d347.s0.p7" e1="DDI-DrugBank.d347.s0.e2"
+            e2="DDI-DrugBank.d347.s0.e3" ddi="false"/>
+        <pair id="DDI-DrugBank.d347.s0.p8" e1="DDI-DrugBank.d347.s0.e2"
+            e2="DDI-DrugBank.d347.s0.e4" ddi="false"/>
+        <pair id="DDI-DrugBank.d347.s0.p9" e1="DDI-DrugBank.d347.s0.e3"
+            e2="DDI-DrugBank.d347.s0.e4" ddi="false"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d347.s1" text="Concomitant administration of FACTIVE and calcium carbonate, cimetidine, omeprazole, or an estrogen/progesterone oral contraceptive produced minor changes in the pharmacokinetics of gemifloxacin, which were considered to be without clinical significance.">
+        <entity id="DDI-DrugBank.d347.s1.e0" charOffset="30-36"
+            type="brand" text="FACTIVE"/>
+        <entity id="DDI-DrugBank.d347.s1.e1" charOffset="42-58"
+            type="drug" text="calcium carbonate"/>
+        <entity id="DDI-DrugBank.d347.s1.e2" charOffset="61-70"
+            type="drug" text="cimetidine"/>
+        <entity id="DDI-DrugBank.d347.s1.e3" charOffset="73-82"
+            type="drug" text="omeprazole"/>
+        <entity id="DDI-DrugBank.d347.s1.e4" charOffset="91-98"
+            type="group" text="estrogen"/>
+        <entity id="DDI-DrugBank.d347.s1.e5" charOffset="100-111"
+            type="drug" text="progesterone"/>
+        <entity id="DDI-DrugBank.d347.s1.e6" charOffset="118-130"
+            type="group" text="contraceptive"/>
+        <entity id="DDI-DrugBank.d347.s1.e7" charOffset="182-193"
+            type="drug" text="gemifloxacin"/>
+        <pair id="DDI-DrugBank.d347.s1.p0" e1="DDI-DrugBank.d347.s1.e0"
+            e2="DDI-DrugBank.d347.s1.e1" ddi="true" type="mechanism"/>
+        <pair id="DDI-DrugBank.d347.s1.p1" e1="DDI-DrugBank.d347.s1.e0"
+            e2="DDI-DrugBank.d347.s1.e2" ddi="true" type="mechanism"/>
+        <pair id="DDI-DrugBank.d347.s1.p2" e1="DDI-DrugBank.d347.s1.e0"
+            e2="DDI-DrugBank.d347.s1.e3" ddi="true" type="mechanism"/>
+        <pair id="DDI-DrugBank.d347.s1.p3" e1="DDI-DrugBank.d347.s1.e0"
+            e2="DDI-DrugBank.d347.s1.e4" ddi="true" type="mechanism"/>
+        <pair id="DDI-DrugBank.d347.s1.p4" e1="DDI-DrugBank.d347.s1.e0"
+            e2="DDI-DrugBank.d347.s1.e5" ddi="true" type="mechanism"/>
+        <pair id="DDI-DrugBank.d347.s1.p5" e1="DDI-DrugBank.d347.s1.e0"
+            e2="DDI-DrugBank.d347.s1.e6" ddi="true" type="mechanism"/>
+        <pair id="DDI-DrugBank.d347.s1.p6" e1="DDI-DrugBank.d347.s1.e0"
+            e2="DDI-DrugBank.d347.s1.e7" ddi="false"/>
+        <pair id="DDI-DrugBank.d347.s1.p7" e1="DDI-DrugBank.d347.s1.e1"
+            e2="DDI-DrugBank.d347.s1.e2" ddi="false"/>
+        <pair id="DDI-DrugBank.d347.s1.p8" e1="DDI-DrugBank.d347.s1.e1"
+            e2="DDI-DrugBank.d347.s1.e3" ddi="false"/>
+        <pair id="DDI-DrugBank.d347.s1.p9" e1="DDI-DrugBank.d347.s1.e1"
+            e2="DDI-DrugBank.d347.s1.e4" ddi="false"/>
+        <pair id="DDI-DrugBank.d347.s1.p10" e1="DDI-DrugBank.d347.s1.e1"
+            e2="DDI-DrugBank.d347.s1.e5" ddi="false"/>
+        <pair id="DDI-DrugBank.d347.s1.p11" e1="DDI-DrugBank.d347.s1.e1"
+            e2="DDI-DrugBank.d347.s1.e6" ddi="false"/>
+        <pair id="DDI-DrugBank.d347.s1.p12" e1="DDI-DrugBank.d347.s1.e1"
+            e2="DDI-DrugBank.d347.s1.e7" ddi="false"/>
+        <pair id="DDI-DrugBank.d347.s1.p13" e1="DDI-DrugBank.d347.s1.e2"
+            e2="DDI-DrugBank.d347.s1.e3" ddi="false"/>
+        <pair id="DDI-DrugBank.d347.s1.p14" e1="DDI-DrugBank.d347.s1.e2"
+            e2="DDI-DrugBank.d347.s1.e4" ddi="false"/>
+        <pair id="DDI-DrugBank.d347.s1.p15" e1="DDI-DrugBank.d347.s1.e2"
+            e2="DDI-DrugBank.d347.s1.e5" ddi="false"/>
+        <pair id="DDI-DrugBank.d347.s1.p16" e1="DDI-DrugBank.d347.s1.e2"
+            e2="DDI-DrugBank.d347.s1.e6" ddi="false"/>
+        <pair id="DDI-DrugBank.d347.s1.p17" e1="DDI-DrugBank.d347.s1.e2"
+            e2="DDI-DrugBank.d347.s1.e7" ddi="false"/>
+        <pair id="DDI-DrugBank.d347.s1.p18" e1="DDI-DrugBank.d347.s1.e3"
+            e2="DDI-DrugBank.d347.s1.e4" ddi="false"/>
+        <pair id="DDI-DrugBank.d347.s1.p19" e1="DDI-DrugBank.d347.s1.e3"
+            e2="DDI-DrugBank.d347.s1.e5" ddi="false"/>
+        <pair id="DDI-DrugBank.d347.s1.p20" e1="DDI-DrugBank.d347.s1.e3"
+            e2="DDI-DrugBank.d347.s1.e6" ddi="false"/>
+        <pair id="DDI-DrugBank.d347.s1.p21" e1="DDI-DrugBank.d347.s1.e3"
+            e2="DDI-DrugBank.d347.s1.e7" ddi="false"/>
+        <pair id="DDI-DrugBank.d347.s1.p22" e1="DDI-DrugBank.d347.s1.e4"
+            e2="DDI-DrugBank.d347.s1.e5" ddi="false"/>
+        <pair id="DDI-DrugBank.d347.s1.p23" e1="DDI-DrugBank.d347.s1.e4"
+            e2="DDI-DrugBank.d347.s1.e6" ddi="false"/>
+        <pair id="DDI-DrugBank.d347.s1.p24" e1="DDI-DrugBank.d347.s1.e4"
+            e2="DDI-DrugBank.d347.s1.e7" ddi="false"/>
+        <pair id="DDI-DrugBank.d347.s1.p25" e1="DDI-DrugBank.d347.s1.e5"
+            e2="DDI-DrugBank.d347.s1.e6" ddi="false"/>
+        <pair id="DDI-DrugBank.d347.s1.p26" e1="DDI-DrugBank.d347.s1.e5"
+            e2="DDI-DrugBank.d347.s1.e7" ddi="false"/>
+        <pair id="DDI-DrugBank.d347.s1.p27" e1="DDI-DrugBank.d347.s1.e6"
+            e2="DDI-DrugBank.d347.s1.e7" ddi="false"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d347.s2" text="Concomitant administration of FACTIVE with probenecid resulted in a 45% increase in systemic exposure to gemifloxacin.">
+        <entity id="DDI-DrugBank.d347.s2.e0" charOffset="30-36"
+            type="brand" text="FACTIVE"/>
+        <entity id="DDI-DrugBank.d347.s2.e1" charOffset="43-52"
+            type="drug" text="probenecid"/>
+        <entity id="DDI-DrugBank.d347.s2.e2" charOffset="105-116"
+            type="drug" text="gemifloxacin"/>
+        <pair id="DDI-DrugBank.d347.s2.p0" e1="DDI-DrugBank.d347.s2.e0"
+            e2="DDI-DrugBank.d347.s2.e1" ddi="true" type="mechanism"/>
+        <pair id="DDI-DrugBank.d347.s2.p1" e1="DDI-DrugBank.d347.s2.e0"
+            e2="DDI-DrugBank.d347.s2.e2" ddi="false"/>
+        <pair id="DDI-DrugBank.d347.s2.p2" e1="DDI-DrugBank.d347.s2.e1"
+            e2="DDI-DrugBank.d347.s2.e2" ddi="false"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d347.s3" text="FACTIVE had no significant effect on the anticoagulant effect of warfarin in healthy subjects on stable warfarin therapy.">
+        <entity id="DDI-DrugBank.d347.s3.e0" charOffset="0-6"
+            type="brand" text="FACTIVE"/>
+        <entity id="DDI-DrugBank.d347.s3.e1" charOffset="65-72"
+            type="drug" text="warfarin"/>
+        <entity id="DDI-DrugBank.d347.s3.e2" charOffset="104-111"
+            type="drug" text="warfarin"/>
+        <pair id="DDI-DrugBank.d347.s3.p0" e1="DDI-DrugBank.d347.s3.e0"
+            e2="DDI-DrugBank.d347.s3.e1" ddi="false"/>
+        <pair id="DDI-DrugBank.d347.s3.p1" e1="DDI-DrugBank.d347.s3.e0"
+            e2="DDI-DrugBank.d347.s3.e2" ddi="false"/>
+        <pair id="DDI-DrugBank.d347.s3.p2" e1="DDI-DrugBank.d347.s3.e1"
+            e2="DDI-DrugBank.d347.s3.e2" ddi="false"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d347.s4" text="However, because some quinolones have been reported to enhance the anticoagulant effects of warfarin or its derivatives in patients, the prothrombin time or other suitable coagulation test should be closely monitored if a quinolone antimicrobial is administered concomitantly with warfarin or its derivatives.">
+        <entity id="DDI-DrugBank.d347.s4.e0" charOffset="22-31"
+            type="group" text="quinolones"/>
+        <entity id="DDI-DrugBank.d347.s4.e1" charOffset="92-99"
+            type="drug" text="warfarin"/>
+        <entity id="DDI-DrugBank.d347.s4.e2" charOffset="222-244"
+            type="group" text="quinolone antimicrobial"/>
+        <entity id="DDI-DrugBank.d347.s4.e3" charOffset="281-288"
+            type="drug" text="warfarin"/>
+        <pair id="DDI-DrugBank.d347.s4.p0" e1="DDI-DrugBank.d347.s4.e0"
+            e2="DDI-DrugBank.d347.s4.e1" ddi="true" type="effect"/>
+        <pair id="DDI-DrugBank.d347.s4.p1" e1="DDI-DrugBank.d347.s4.e0"
+            e2="DDI-DrugBank.d347.s4.e2" ddi="false"/>
+        <pair id="DDI-DrugBank.d347.s4.p2" e1="DDI-DrugBank.d347.s4.e0"
+            e2="DDI-DrugBank.d347.s4.e3" ddi="false"/>
+        <pair id="DDI-DrugBank.d347.s4.p3" e1="DDI-DrugBank.d347.s4.e1"
+            e2="DDI-DrugBank.d347.s4.e2" ddi="false"/>
+        <pair id="DDI-DrugBank.d347.s4.p4" e1="DDI-DrugBank.d347.s4.e1"
+            e2="DDI-DrugBank.d347.s4.e3" ddi="false"/>
+        <pair id="DDI-DrugBank.d347.s4.p5" e1="DDI-DrugBank.d347.s4.e2"
+            e2="DDI-DrugBank.d347.s4.e3" ddi="true" type="advise"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d347.s5" text="Quinolones form chelates with alkaline earth and transition metals.">
+        <entity id="DDI-DrugBank.d347.s5.e0" charOffset="0-9"
+            type="group" text="Quinolones"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d347.s6" text="The absorption of oral gemifloxacin is significantly reduced by the concomitant administration of an antacid containing aluminum and magnesium.">
+        <entity id="DDI-DrugBank.d347.s6.e0" charOffset="23-34"
+            type="drug" text="gemifloxacin"/>
+        <entity id="DDI-DrugBank.d347.s6.e1" charOffset="101-107"
+            type="group" text="antacid"/>
+        <entity id="DDI-DrugBank.d347.s6.e2" charOffset="120-127"
+            type="drug" text="aluminum"/>
+        <entity id="DDI-DrugBank.d347.s6.e3" charOffset="133-141"
+            type="drug" text="magnesium"/>
+        <pair id="DDI-DrugBank.d347.s6.p0" e1="DDI-DrugBank.d347.s6.e0"
+            e2="DDI-DrugBank.d347.s6.e1" ddi="false"/>
+        <pair id="DDI-DrugBank.d347.s6.p1" e1="DDI-DrugBank.d347.s6.e0"
+            e2="DDI-DrugBank.d347.s6.e2" ddi="true" type="mechanism"/>
+        <pair id="DDI-DrugBank.d347.s6.p2" e1="DDI-DrugBank.d347.s6.e0"
+            e2="DDI-DrugBank.d347.s6.e3" ddi="true" type="mechanism"/>
+        <pair id="DDI-DrugBank.d347.s6.p3" e1="DDI-DrugBank.d347.s6.e1"
+            e2="DDI-DrugBank.d347.s6.e2" ddi="false"/>
+        <pair id="DDI-DrugBank.d347.s6.p4" e1="DDI-DrugBank.d347.s6.e1"
+            e2="DDI-DrugBank.d347.s6.e3" ddi="false"/>
+        <pair id="DDI-DrugBank.d347.s6.p5" e1="DDI-DrugBank.d347.s6.e2"
+            e2="DDI-DrugBank.d347.s6.e3" ddi="false"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d347.s7" text="Magnesium- and/or aluminum-containing antacids, products containing ferrous sulfate (iron), multivitamin preparations containing zinc or other metal cations, or Videx (didanosine) chewable/buffered tablets or the pediatric powder for oral solution should not be taken within 3 hours before or 2 hours after FACTIVE.">
+        <entity id="DDI-DrugBank.d347.s7.e0" charOffset="0-8"
+            type="drug" text="Magnesium"/>
+        <entity id="DDI-DrugBank.d347.s7.e1" charOffset="18-25"
+            type="drug" text="aluminum"/>
+        <entity id="DDI-DrugBank.d347.s7.e2" charOffset="38-45"
+            type="group" text="antacids"/>
+        <entity id="DDI-DrugBank.d347.s7.e3" charOffset="68-82"
+            type="drug" text="ferrous sulfate"/>
+        <entity id="DDI-DrugBank.d347.s7.e4" charOffset="85-88"
+            type="drug" text="iron"/>
+        <entity id="DDI-DrugBank.d347.s7.e5" charOffset="92-116"
+            type="group" text="multivitamin preparations"/>
+        <entity id="DDI-DrugBank.d347.s7.e6" charOffset="129-132"
+            type="drug" text="zinc"/>
+        <entity id="DDI-DrugBank.d347.s7.e7" charOffset="161-165"
+            type="brand" text="Videx"/>
+        <entity id="DDI-DrugBank.d347.s7.e8" charOffset="168-177"
+            type="drug" text="didanosine"/>
+        <entity id="DDI-DrugBank.d347.s7.e9" charOffset="307-313"
+            type="brand" text="FACTIVE"/>
+        <pair id="DDI-DrugBank.d347.s7.p0" e1="DDI-DrugBank.d347.s7.e0"
+            e2="DDI-DrugBank.d347.s7.e1" ddi="false"/>
+        <pair id="DDI-DrugBank.d347.s7.p1" e1="DDI-DrugBank.d347.s7.e0"
+            e2="DDI-DrugBank.d347.s7.e2" ddi="false"/>
+        <pair id="DDI-DrugBank.d347.s7.p2" e1="DDI-DrugBank.d347.s7.e0"
+            e2="DDI-DrugBank.d347.s7.e3" ddi="false"/>
+        <pair id="DDI-DrugBank.d347.s7.p3" e1="DDI-DrugBank.d347.s7.e0"
+            e2="DDI-DrugBank.d347.s7.e4" ddi="false"/>
+        <pair id="DDI-DrugBank.d347.s7.p4" e1="DDI-DrugBank.d347.s7.e0"
+            e2="DDI-DrugBank.d347.s7.e5" ddi="false"/>
+        <pair id="DDI-DrugBank.d347.s7.p5" e1="DDI-DrugBank.d347.s7.e0"
+            e2="DDI-DrugBank.d347.s7.e6" ddi="false"/>
+        <pair id="DDI-DrugBank.d347.s7.p6" e1="DDI-DrugBank.d347.s7.e0"
+            e2="DDI-DrugBank.d347.s7.e7" ddi="false"/>
+        <pair id="DDI-DrugBank.d347.s7.p7" e1="DDI-DrugBank.d347.s7.e0"
+            e2="DDI-DrugBank.d347.s7.e8" ddi="false"/>
+        <pair id="DDI-DrugBank.d347.s7.p8" e1="DDI-DrugBank.d347.s7.e0"
+            e2="DDI-DrugBank.d347.s7.e9" ddi="true" type="advise"/>
+        <pair id="DDI-DrugBank.d347.s7.p9" e1="DDI-DrugBank.d347.s7.e1"
+            e2="DDI-DrugBank.d347.s7.e2" ddi="false"/>
+        <pair id="DDI-DrugBank.d347.s7.p10" e1="DDI-DrugBank.d347.s7.e1"
+            e2="DDI-DrugBank.d347.s7.e3" ddi="false"/>
+        <pair id="DDI-DrugBank.d347.s7.p11" e1="DDI-DrugBank.d347.s7.e1"
+            e2="DDI-DrugBank.d347.s7.e4" ddi="false"/>
+        <pair id="DDI-DrugBank.d347.s7.p12" e1="DDI-DrugBank.d347.s7.e1"
+            e2="DDI-DrugBank.d347.s7.e5" ddi="false"/>
+        <pair id="DDI-DrugBank.d347.s7.p13" e1="DDI-DrugBank.d347.s7.e1"
+            e2="DDI-DrugBank.d347.s7.e6" ddi="false"/>
+        <pair id="DDI-DrugBank.d347.s7.p14" e1="DDI-DrugBank.d347.s7.e1"
+            e2="DDI-DrugBank.d347.s7.e7" ddi="false"/>
+        <pair id="DDI-DrugBank.d347.s7.p15" e1="DDI-DrugBank.d347.s7.e1"
+            e2="DDI-DrugBank.d347.s7.e8" ddi="false"/>
+        <pair id="DDI-DrugBank.d347.s7.p16" e1="DDI-DrugBank.d347.s7.e1"
+            e2="DDI-DrugBank.d347.s7.e9" ddi="true" type="advise"/>
+        <pair id="DDI-DrugBank.d347.s7.p17" e1="DDI-DrugBank.d347.s7.e2"
+            e2="DDI-DrugBank.d347.s7.e3" ddi="false"/>
+        <pair id="DDI-DrugBank.d347.s7.p18" e1="DDI-DrugBank.d347.s7.e2"
+            e2="DDI-DrugBank.d347.s7.e4" ddi="false"/>
+        <pair id="DDI-DrugBank.d347.s7.p19" e1="DDI-DrugBank.d347.s7.e2"
+            e2="DDI-DrugBank.d347.s7.e5" ddi="false"/>
+        <pair id="DDI-DrugBank.d347.s7.p20" e1="DDI-DrugBank.d347.s7.e2"
+            e2="DDI-DrugBank.d347.s7.e6" ddi="false"/>
+        <pair id="DDI-DrugBank.d347.s7.p21" e1="DDI-DrugBank.d347.s7.e2"
+            e2="DDI-DrugBank.d347.s7.e7" ddi="false"/>
+        <pair id="DDI-DrugBank.d347.s7.p22" e1="DDI-DrugBank.d347.s7.e2"
+            e2="DDI-DrugBank.d347.s7.e8" ddi="false"/>
+        <pair id="DDI-DrugBank.d347.s7.p23" e1="DDI-DrugBank.d347.s7.e2"
+            e2="DDI-DrugBank.d347.s7.e9" ddi="false"/>
+        <pair id="DDI-DrugBank.d347.s7.p24" e1="DDI-DrugBank.d347.s7.e3"
+            e2="DDI-DrugBank.d347.s7.e4" ddi="false"/>
+        <pair id="DDI-DrugBank.d347.s7.p25" e1="DDI-DrugBank.d347.s7.e3"
+            e2="DDI-DrugBank.d347.s7.e5" ddi="false"/>
+        <pair id="DDI-DrugBank.d347.s7.p26" e1="DDI-DrugBank.d347.s7.e3"
+            e2="DDI-DrugBank.d347.s7.e6" ddi="false"/>
+        <pair id="DDI-DrugBank.d347.s7.p27" e1="DDI-DrugBank.d347.s7.e3"
+            e2="DDI-DrugBank.d347.s7.e7" ddi="false"/>
+        <pair id="DDI-DrugBank.d347.s7.p28" e1="DDI-DrugBank.d347.s7.e3"
+            e2="DDI-DrugBank.d347.s7.e8" ddi="false"/>
+        <pair id="DDI-DrugBank.d347.s7.p29" e1="DDI-DrugBank.d347.s7.e3"
+            e2="DDI-DrugBank.d347.s7.e9" ddi="true" type="advise"/>
+        <pair id="DDI-DrugBank.d347.s7.p30" e1="DDI-DrugBank.d347.s7.e4"
+            e2="DDI-DrugBank.d347.s7.e5" ddi="false"/>
+        <pair id="DDI-DrugBank.d347.s7.p31" e1="DDI-DrugBank.d347.s7.e4"
+            e2="DDI-DrugBank.d347.s7.e6" ddi="false"/>
+        <pair id="DDI-DrugBank.d347.s7.p32" e1="DDI-DrugBank.d347.s7.e4"
+            e2="DDI-DrugBank.d347.s7.e7" ddi="false"/>
+        <pair id="DDI-DrugBank.d347.s7.p33" e1="DDI-DrugBank.d347.s7.e4"
+            e2="DDI-DrugBank.d347.s7.e8" ddi="false"/>
+        <pair id="DDI-DrugBank.d347.s7.p34" e1="DDI-DrugBank.d347.s7.e4"
+            e2="DDI-DrugBank.d347.s7.e9" ddi="true" type="advise"/>
+        <pair id="DDI-DrugBank.d347.s7.p35" e1="DDI-DrugBank.d347.s7.e5"
+            e2="DDI-DrugBank.d347.s7.e6" ddi="false"/>
+        <pair id="DDI-DrugBank.d347.s7.p36" e1="DDI-DrugBank.d347.s7.e5"
+            e2="DDI-DrugBank.d347.s7.e7" ddi="false"/>
+        <pair id="DDI-DrugBank.d347.s7.p37" e1="DDI-DrugBank.d347.s7.e5"
+            e2="DDI-DrugBank.d347.s7.e8" ddi="false"/>
+        <pair id="DDI-DrugBank.d347.s7.p38" e1="DDI-DrugBank.d347.s7.e5"
+            e2="DDI-DrugBank.d347.s7.e9" ddi="true" type="advise"/>
+        <pair id="DDI-DrugBank.d347.s7.p39" e1="DDI-DrugBank.d347.s7.e6"
+            e2="DDI-DrugBank.d347.s7.e7" ddi="false"/>
+        <pair id="DDI-DrugBank.d347.s7.p40" e1="DDI-DrugBank.d347.s7.e6"
+            e2="DDI-DrugBank.d347.s7.e8" ddi="false"/>
+        <pair id="DDI-DrugBank.d347.s7.p41" e1="DDI-DrugBank.d347.s7.e6"
+            e2="DDI-DrugBank.d347.s7.e9" ddi="true" type="advise"/>
+        <pair id="DDI-DrugBank.d347.s7.p42" e1="DDI-DrugBank.d347.s7.e7"
+            e2="DDI-DrugBank.d347.s7.e8" ddi="false"/>
+        <pair id="DDI-DrugBank.d347.s7.p43" e1="DDI-DrugBank.d347.s7.e7"
+            e2="DDI-DrugBank.d347.s7.e9" ddi="true" type="advise"/>
+        <pair id="DDI-DrugBank.d347.s7.p44" e1="DDI-DrugBank.d347.s7.e8"
+            e2="DDI-DrugBank.d347.s7.e9" ddi="true" type="advise"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d347.s8" text="Sucralfate should not be taken within 2 hours of FACTIVE.">
+        <entity id="DDI-DrugBank.d347.s8.e0" charOffset="0-9"
+            type="drug" text="Sucralfate"/>
+        <entity id="DDI-DrugBank.d347.s8.e1" charOffset="49-55"
+            type="brand" text="FACTIVE"/>
+        <pair id="DDI-DrugBank.d347.s8.p0" e1="DDI-DrugBank.d347.s8.e0"
+            e2="DDI-DrugBank.d347.s8.e1" ddi="true" type="advise"/>
+    </sentence>
+</document>

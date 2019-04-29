@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="DDI-DrugBank.d474">
+    <sentence id="DDI-DrugBank.d474.s0" text="Unless really needed, agents which may enhance the risk of hemorrhage should be discontinued prior to initiation of Lovenox Injection therapy.">
+        <entity id="DDI-DrugBank.d474.s0.e0" charOffset="116-122"
+            type="brand" text="Lovenox"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d474.s1" text="These agents include medications such as: anticoagulants, platelet inhibitors including acetylsalicylic acid, sali-cylates, NSAIDs (including ketorolac tromethamine), dipyridamole, or sulfinpyrazone.">
+        <entity id="DDI-DrugBank.d474.s1.e0" charOffset="42-55"
+            type="group" text="anticoagulants"/>
+        <entity id="DDI-DrugBank.d474.s1.e1" charOffset="58-76"
+            type="group" text="platelet inhibitors"/>
+        <entity id="DDI-DrugBank.d474.s1.e2" charOffset="88-107"
+            type="drug" text="acetylsalicylic acid"/>
+        <entity id="DDI-DrugBank.d474.s1.e3" charOffset="124-129"
+            type="group" text="NSAIDs"/>
+        <entity id="DDI-DrugBank.d474.s1.e4" charOffset="142-163"
+            type="drug" text="ketorolac tromethamine"/>
+        <entity id="DDI-DrugBank.d474.s1.e5" charOffset="167-178"
+            type="drug" text="dipyridamole"/>
+        <entity id="DDI-DrugBank.d474.s1.e6" charOffset="184-197"
+            type="drug" text="sulfinpyrazone"/>
+        <pair id="DDI-DrugBank.d474.s1.p0" e1="DDI-DrugBank.d474.s1.e0"
+            e2="DDI-DrugBank.d474.s1.e1" ddi="false"/>
+        <pair id="DDI-DrugBank.d474.s1.p1" e1="DDI-DrugBank.d474.s1.e0"
+            e2="DDI-DrugBank.d474.s1.e2" ddi="false"/>
+        <pair id="DDI-DrugBank.d474.s1.p2" e1="DDI-DrugBank.d474.s1.e0"
+            e2="DDI-DrugBank.d474.s1.e3" ddi="false"/>
+        <pair id="DDI-DrugBank.d474.s1.p3" e1="DDI-DrugBank.d474.s1.e0"
+            e2="DDI-DrugBank.d474.s1.e4" ddi="false"/>
+        <pair id="DDI-DrugBank.d474.s1.p4" e1="DDI-DrugBank.d474.s1.e0"
+            e2="DDI-DrugBank.d474.s1.e5" ddi="false"/>
+        <pair id="DDI-DrugBank.d474.s1.p5" e1="DDI-DrugBank.d474.s1.e0"
+            e2="DDI-DrugBank.d474.s1.e6" ddi="false"/>
+        <pair id="DDI-DrugBank.d474.s1.p6" e1="DDI-DrugBank.d474.s1.e1"
+            e2="DDI-DrugBank.d474.s1.e2" ddi="false"/>
+        <pair id="DDI-DrugBank.d474.s1.p7" e1="DDI-DrugBank.d474.s1.e1"
+            e2="DDI-DrugBank.d474.s1.e3" ddi="false"/>
+        <pair id="DDI-DrugBank.d474.s1.p8" e1="DDI-DrugBank.d474.s1.e1"
+            e2="DDI-DrugBank.d474.s1.e4" ddi="false"/>
+        <pair id="DDI-DrugBank.d474.s1.p9" e1="DDI-DrugBank.d474.s1.e1"
+            e2="DDI-DrugBank.d474.s1.e5" ddi="false"/>
+        <pair id="DDI-DrugBank.d474.s1.p10" e1="DDI-DrugBank.d474.s1.e1"
+            e2="DDI-DrugBank.d474.s1.e6" ddi="false"/>
+        <pair id="DDI-DrugBank.d474.s1.p11" e1="DDI-DrugBank.d474.s1.e2"
+            e2="DDI-DrugBank.d474.s1.e3" ddi="false"/>
+        <pair id="DDI-DrugBank.d474.s1.p12" e1="DDI-DrugBank.d474.s1.e2"
+            e2="DDI-DrugBank.d474.s1.e4" ddi="false"/>
+        <pair id="DDI-DrugBank.d474.s1.p13" e1="DDI-DrugBank.d474.s1.e2"
+            e2="DDI-DrugBank.d474.s1.e5" ddi="false"/>
+        <pair id="DDI-DrugBank.d474.s1.p14" e1="DDI-DrugBank.d474.s1.e2"
+            e2="DDI-DrugBank.d474.s1.e6" ddi="false"/>
+        <pair id="DDI-DrugBank.d474.s1.p15" e1="DDI-DrugBank.d474.s1.e3"
+            e2="DDI-DrugBank.d474.s1.e4" ddi="false"/>
+        <pair id="DDI-DrugBank.d474.s1.p16" e1="DDI-DrugBank.d474.s1.e3"
+            e2="DDI-DrugBank.d474.s1.e5" ddi="false"/>
+        <pair id="DDI-DrugBank.d474.s1.p17" e1="DDI-DrugBank.d474.s1.e3"
+            e2="DDI-DrugBank.d474.s1.e6" ddi="false"/>
+        <pair id="DDI-DrugBank.d474.s1.p18" e1="DDI-DrugBank.d474.s1.e4"
+            e2="DDI-DrugBank.d474.s1.e5" ddi="false"/>
+        <pair id="DDI-DrugBank.d474.s1.p19" e1="DDI-DrugBank.d474.s1.e4"
+            e2="DDI-DrugBank.d474.s1.e6" ddi="false"/>
+        <pair id="DDI-DrugBank.d474.s1.p20" e1="DDI-DrugBank.d474.s1.e5"
+            e2="DDI-DrugBank.d474.s1.e6" ddi="false"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d474.s2" text="If co-administration is essential, conduct close clinical and laboratory monitoring"/>
+    <sentence id="DDI-DrugBank.d474.s3" text="."/>
+    <sentence id="DDI-DrugBank.d474.s4" text=""/>
+</document>

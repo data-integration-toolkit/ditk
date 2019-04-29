@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="DDI-DrugBank.d298">
+    <sentence id="DDI-DrugBank.d298.s0" text="Cyclopentolate may interfere with the anti-glaucoma action of carbachol or pilocarpine;">
+        <entity id="DDI-DrugBank.d298.s0.e0" charOffset="0-13"
+            type="drug" text="Cyclopentolate"/>
+        <entity id="DDI-DrugBank.d298.s0.e1" charOffset="62-70"
+            type="drug" text="carbachol"/>
+        <entity id="DDI-DrugBank.d298.s0.e2" charOffset="75-85"
+            type="drug" text="pilocarpine"/>
+        <pair id="DDI-DrugBank.d298.s0.p0" e1="DDI-DrugBank.d298.s0.e0"
+            e2="DDI-DrugBank.d298.s0.e1" ddi="true" type="effect"/>
+        <pair id="DDI-DrugBank.d298.s0.p1" e1="DDI-DrugBank.d298.s0.e0"
+            e2="DDI-DrugBank.d298.s0.e2" ddi="true" type="effect"/>
+        <pair id="DDI-DrugBank.d298.s0.p2" e1="DDI-DrugBank.d298.s0.e1"
+            e2="DDI-DrugBank.d298.s0.e2" ddi="false"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d298.s1" text="also, concurrent use of this medication may antagonise the anti-glaucoma and miotic actions of ophthalmic cholinesterase inhibitors.">
+        <entity id="DDI-DrugBank.d298.s1.e0" charOffset="106-130"
+            type="group" text="cholinesterase inhibitors"/>
+    </sentence>
+</document>

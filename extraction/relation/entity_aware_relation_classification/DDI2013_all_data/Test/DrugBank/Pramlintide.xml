@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="DDI-DrugBank.d632">
+    <sentence id="DDI-DrugBank.d632.s0" text="Due to its effects on gastric emptying, SYMLIN therapy should not be considered for patients taking drugs that alter gastrointestinal motility (e.g., anticholinergic agents such as atropine) and agents that slow the intestinal absorption of nutrients (e.g., alpha glucosidase inhibitors). ">
+        <entity id="DDI-DrugBank.d632.s0.e0" charOffset="40-45"
+            type="brand" text="SYMLIN"/>
+        <entity id="DDI-DrugBank.d632.s0.e1" charOffset="150-171"
+            type="group" text="anticholinergic agents"/>
+        <entity id="DDI-DrugBank.d632.s0.e2" charOffset="181-188"
+            type="drug" text="atropine"/>
+        <entity id="DDI-DrugBank.d632.s0.e3" charOffset="258-285"
+            type="group" text="alpha glucosidase inhibitors"/>
+        <pair id="DDI-DrugBank.d632.s0.p0" e1="DDI-DrugBank.d632.s0.e0"
+            e2="DDI-DrugBank.d632.s0.e1" ddi="true" type="advise"/>
+        <pair id="DDI-DrugBank.d632.s0.p1" e1="DDI-DrugBank.d632.s0.e0"
+            e2="DDI-DrugBank.d632.s0.e2" ddi="true" type="advise"/>
+        <pair id="DDI-DrugBank.d632.s0.p2" e1="DDI-DrugBank.d632.s0.e0"
+            e2="DDI-DrugBank.d632.s0.e3" ddi="true" type="advise"/>
+        <pair id="DDI-DrugBank.d632.s0.p3" e1="DDI-DrugBank.d632.s0.e1"
+            e2="DDI-DrugBank.d632.s0.e2" ddi="false"/>
+        <pair id="DDI-DrugBank.d632.s0.p4" e1="DDI-DrugBank.d632.s0.e1"
+            e2="DDI-DrugBank.d632.s0.e3" ddi="false"/>
+        <pair id="DDI-DrugBank.d632.s0.p5" e1="DDI-DrugBank.d632.s0.e2"
+            e2="DDI-DrugBank.d632.s0.e3" ddi="false"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d632.s1" text="Patients using these drugs have not been studied in clinical trials. "/>
+    <sentence id="DDI-DrugBank.d632.s2" text="SYMLIN has the potential to delay the absorption of concomitantly administered oral medications. ">
+        <entity id="DDI-DrugBank.d632.s2.e0" charOffset="0-5"
+            type="brand" text="SYMLIN"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d632.s3" text="When the rapid onset of a concomitant orally administered agent is a critical determinant of effectiveness (such as analgesics), the agent should be administered at least 1 hour prior to or 2 hours after SYMLIN injection. ">
+        <entity id="DDI-DrugBank.d632.s3.e0" charOffset="116-125"
+            type="group" text="analgesics"/>
+        <entity id="DDI-DrugBank.d632.s3.e1" charOffset="204-209"
+            type="brand" text="SYMLIN"/>
+        <pair id="DDI-DrugBank.d632.s3.p0" e1="DDI-DrugBank.d632.s3.e0"
+            e2="DDI-DrugBank.d632.s3.e1" ddi="true" type="advise"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d632.s4" text="In clinical trials, the concomitant use of sulfonylureas or biguanides did not alter the adverse event profile of SYMLIN. ">
+        <entity id="DDI-DrugBank.d632.s4.e0" charOffset="43-55"
+            type="group" text="sulfonylureas"/>
+        <entity id="DDI-DrugBank.d632.s4.e1" charOffset="60-69"
+            type="group" text="biguanides"/>
+        <entity id="DDI-DrugBank.d632.s4.e2" charOffset="114-119"
+            type="brand" text="SYMLIN"/>
+        <pair id="DDI-DrugBank.d632.s4.p0" e1="DDI-DrugBank.d632.s4.e0"
+            e2="DDI-DrugBank.d632.s4.e1" ddi="false"/>
+        <pair id="DDI-DrugBank.d632.s4.p1" e1="DDI-DrugBank.d632.s4.e0"
+            e2="DDI-DrugBank.d632.s4.e2" ddi="false"/>
+        <pair id="DDI-DrugBank.d632.s4.p2" e1="DDI-DrugBank.d632.s4.e1"
+            e2="DDI-DrugBank.d632.s4.e2" ddi="false"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d632.s5" text="No formal interaction studies have been performed to assess the effect of SYMLIN on the kinetics of oral antidiabetic agents. ">
+        <entity id="DDI-DrugBank.d632.s5.e0" charOffset="74-79"
+            type="brand" text="SYMLIN"/>
+        <entity id="DDI-DrugBank.d632.s5.e1" charOffset="105-123"
+            type="group" text="antidiabetic agents"/>
+        <pair id="DDI-DrugBank.d632.s5.p0" e1="DDI-DrugBank.d632.s5.e0"
+            e2="DDI-DrugBank.d632.s5.e1" ddi="false"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d632.s6" text="Mixing SYMLIN and Insulin The pharmacokinetic parameters of SYMLIN were altered when mixed with regular, NPH, and 70/30 premixed formulations of recombinant human insulin immediately prior to injection. ">
+        <entity id="DDI-DrugBank.d632.s6.e0" charOffset="7-12"
+            type="brand" text="SYMLIN"/>
+        <entity id="DDI-DrugBank.d632.s6.e1" charOffset="18-24"
+            type="drug" text="Insulin"/>
+        <entity id="DDI-DrugBank.d632.s6.e2" charOffset="60-65"
+            type="brand" text="SYMLIN"/>
+        <entity id="DDI-DrugBank.d632.s6.e3" charOffset="157-169"
+            type="drug" text="human insulin"/>
+        <pair id="DDI-DrugBank.d632.s6.p0" e1="DDI-DrugBank.d632.s6.e0"
+            e2="DDI-DrugBank.d632.s6.e1" ddi="false"/>
+        <pair id="DDI-DrugBank.d632.s6.p1" e1="DDI-DrugBank.d632.s6.e0"
+            e2="DDI-DrugBank.d632.s6.e2" ddi="false"/>
+        <pair id="DDI-DrugBank.d632.s6.p2" e1="DDI-DrugBank.d632.s6.e0"
+            e2="DDI-DrugBank.d632.s6.e3" ddi="false"/>
+        <pair id="DDI-DrugBank.d632.s6.p3" e1="DDI-DrugBank.d632.s6.e1"
+            e2="DDI-DrugBank.d632.s6.e2" ddi="false"/>
+        <pair id="DDI-DrugBank.d632.s6.p4" e1="DDI-DrugBank.d632.s6.e1"
+            e2="DDI-DrugBank.d632.s6.e3" ddi="false"/>
+        <pair id="DDI-DrugBank.d632.s6.p5" e1="DDI-DrugBank.d632.s6.e2"
+            e2="DDI-DrugBank.d632.s6.e3" ddi="true" type="mechanism"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d632.s7" text="Thus, SYMLIN and insulin should not be mixed and must be administered separately.">
+        <entity id="DDI-DrugBank.d632.s7.e0" charOffset="6-11"
+            type="brand" text="SYMLIN"/>
+        <entity id="DDI-DrugBank.d632.s7.e1" charOffset="17-23"
+            type="drug" text="insulin"/>
+        <pair id="DDI-DrugBank.d632.s7.p0" e1="DDI-DrugBank.d632.s7.e0"
+            e2="DDI-DrugBank.d632.s7.e1" ddi="false"/>
+    </sentence>
+</document>

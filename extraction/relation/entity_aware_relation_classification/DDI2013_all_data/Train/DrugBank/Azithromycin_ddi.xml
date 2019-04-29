@@ -1,0 +1,409 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="DDI-DrugBank.d53">
+    <sentence id="DDI-DrugBank.d53.s0" text="Co-administration of nelfinavir at steady-state with a single dose of azithromycin.">
+        <entity id="DDI-DrugBank.d53.s0.e0" charOffset="21-30"
+            type="drug" text="nelfinavir"/>
+        <entity id="DDI-DrugBank.d53.s0.e1" charOffset="70-81"
+            type="drug" text="azithromycin"/>
+        <pair id="DDI-DrugBank.d53.s0.p0" e1="DDI-DrugBank.d53.s0.e0"
+            e2="DDI-DrugBank.d53.s0.e1" ddi="false"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d53.s1" text="Co-administration of nelfinavir at steady-state with a single dose of azithromycin (2 x 600 mg tablets) results in increased azithromycin serum concentrations.">
+        <entity id="DDI-DrugBank.d53.s1.e0" charOffset="21-30"
+            type="drug" text="nelfinavir"/>
+        <entity id="DDI-DrugBank.d53.s1.e1" charOffset="70-81"
+            type="drug" text="azithromycin"/>
+        <entity id="DDI-DrugBank.d53.s1.e2" charOffset="125-136"
+            type="drug" text="azithromycin"/>
+        <pair id="DDI-DrugBank.d53.s1.p0" e1="DDI-DrugBank.d53.s1.e0"
+            e2="DDI-DrugBank.d53.s1.e1" ddi="true" type="effect"/>
+        <pair id="DDI-DrugBank.d53.s1.p1" e1="DDI-DrugBank.d53.s1.e0"
+            e2="DDI-DrugBank.d53.s1.e2" ddi="false"/>
+        <pair id="DDI-DrugBank.d53.s1.p2" e1="DDI-DrugBank.d53.s1.e1"
+            e2="DDI-DrugBank.d53.s1.e2" ddi="false"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d53.s2" text="Although a dose adjustment of azithromycin is not recommended when administered in combination with nelfinavir, close monitoring for known side effects of azithromycin, such as liver enzyme abnormalities and hearing impairment, is warranted.">
+        <entity id="DDI-DrugBank.d53.s2.e0" charOffset="30-41"
+            type="drug" text="azithromycin"/>
+        <entity id="DDI-DrugBank.d53.s2.e1" charOffset="100-109"
+            type="drug" text="nelfinavir"/>
+        <entity id="DDI-DrugBank.d53.s2.e2" charOffset="155-166"
+            type="drug" text="azithromycin"/>
+        <pair id="DDI-DrugBank.d53.s2.p0" e1="DDI-DrugBank.d53.s2.e0"
+            e2="DDI-DrugBank.d53.s2.e1" ddi="true" type="advise"/>
+        <pair id="DDI-DrugBank.d53.s2.p1" e1="DDI-DrugBank.d53.s2.e0"
+            e2="DDI-DrugBank.d53.s2.e2" ddi="false"/>
+        <pair id="DDI-DrugBank.d53.s2.p2" e1="DDI-DrugBank.d53.s2.e1"
+            e2="DDI-DrugBank.d53.s2.e2" ddi="false"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d53.s3" text="Azithromycin did not affect the prothrombin time response to a single dose of warfarin.">
+        <entity id="DDI-DrugBank.d53.s3.e0" charOffset="0-11"
+            type="drug" text="Azithromycin"/>
+        <entity id="DDI-DrugBank.d53.s3.e1" charOffset="78-85"
+            type="drug" text="warfarin"/>
+        <pair id="DDI-DrugBank.d53.s3.p0" e1="DDI-DrugBank.d53.s3.e0"
+            e2="DDI-DrugBank.d53.s3.e1" ddi="false"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d53.s4" text="However, prudent medical practice dictates careful monitoring of prothrombin time in all patients treated with azithromycin and warfarin concomitantly.">
+        <entity id="DDI-DrugBank.d53.s4.e0" charOffset="111-122"
+            type="drug" text="azithromycin"/>
+        <entity id="DDI-DrugBank.d53.s4.e1" charOffset="128-135"
+            type="drug" text="warfarin"/>
+        <pair id="DDI-DrugBank.d53.s4.p0" e1="DDI-DrugBank.d53.s4.e0"
+            e2="DDI-DrugBank.d53.s4.e1" ddi="true" type="advise"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d53.s5" text="Concurrent use of macrolides and warfarin in clinical practice has been associated with increased anticoagulant effects.">
+        <entity id="DDI-DrugBank.d53.s5.e0" charOffset="18-27"
+            type="group" text="macrolides"/>
+        <entity id="DDI-DrugBank.d53.s5.e1" charOffset="33-40"
+            type="drug" text="warfarin"/>
+        <pair id="DDI-DrugBank.d53.s5.p0" e1="DDI-DrugBank.d53.s5.e0"
+            e2="DDI-DrugBank.d53.s5.e1" ddi="true" type="effect"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d53.s6" text="Drug interaction studies were performed with azithromycin and other drugs likely to be co-administered.">
+        <entity id="DDI-DrugBank.d53.s6.e0" charOffset="45-56"
+            type="drug" text="azithromycin"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d53.s7" text="When used in therapeutic doses, azithromycin had a modest effect on the pharmacokinetics of atorvastatin, carbamazepine, cetirizine, didanosine, efavirenz, fluconazole, indinavir, midazolam, rifabutin, sildenafil, theophylline (intravenous and oral), triazolam, trimethoprim/sulfamethoxazole or zidovudine.">
+        <entity id="DDI-DrugBank.d53.s7.e0" charOffset="32-43"
+            type="drug" text="azithromycin"/>
+        <entity id="DDI-DrugBank.d53.s7.e1" charOffset="92-103"
+            type="drug" text="atorvastatin"/>
+        <entity id="DDI-DrugBank.d53.s7.e2" charOffset="106-118"
+            type="drug" text="carbamazepine"/>
+        <entity id="DDI-DrugBank.d53.s7.e3" charOffset="121-130"
+            type="drug" text="cetirizine"/>
+        <entity id="DDI-DrugBank.d53.s7.e4" charOffset="133-142"
+            type="drug" text="didanosine"/>
+        <entity id="DDI-DrugBank.d53.s7.e5" charOffset="145-153"
+            type="drug" text="efavirenz"/>
+        <entity id="DDI-DrugBank.d53.s7.e6" charOffset="156-166"
+            type="drug" text="fluconazole"/>
+        <entity id="DDI-DrugBank.d53.s7.e7" charOffset="169-177"
+            type="drug" text="indinavir"/>
+        <entity id="DDI-DrugBank.d53.s7.e8" charOffset="180-188"
+            type="drug" text="midazolam"/>
+        <entity id="DDI-DrugBank.d53.s7.e9" charOffset="191-199"
+            type="drug" text="rifabutin"/>
+        <entity id="DDI-DrugBank.d53.s7.e10" charOffset="202-211"
+            type="drug" text="sildenafil"/>
+        <entity id="DDI-DrugBank.d53.s7.e11" charOffset="214-225"
+            type="drug" text="theophylline"/>
+        <entity id="DDI-DrugBank.d53.s7.e12" charOffset="251-259"
+            type="drug" text="triazolam"/>
+        <entity id="DDI-DrugBank.d53.s7.e13" charOffset="262-273"
+            type="drug" text="trimethoprim"/>
+        <entity id="DDI-DrugBank.d53.s7.e14" charOffset="275-290"
+            type="drug" text="sulfamethoxazole"/>
+        <entity id="DDI-DrugBank.d53.s7.e15" charOffset="295-304"
+            type="drug" text="zidovudine"/>
+        <pair id="DDI-DrugBank.d53.s7.p0" e1="DDI-DrugBank.d53.s7.e0"
+            e2="DDI-DrugBank.d53.s7.e1" ddi="true" type="mechanism"/>
+        <pair id="DDI-DrugBank.d53.s7.p1" e1="DDI-DrugBank.d53.s7.e0"
+            e2="DDI-DrugBank.d53.s7.e2" ddi="true" type="mechanism"/>
+        <pair id="DDI-DrugBank.d53.s7.p2" e1="DDI-DrugBank.d53.s7.e0"
+            e2="DDI-DrugBank.d53.s7.e3" ddi="true" type="mechanism"/>
+        <pair id="DDI-DrugBank.d53.s7.p3" e1="DDI-DrugBank.d53.s7.e0"
+            e2="DDI-DrugBank.d53.s7.e4" ddi="true" type="mechanism"/>
+        <pair id="DDI-DrugBank.d53.s7.p4" e1="DDI-DrugBank.d53.s7.e0"
+            e2="DDI-DrugBank.d53.s7.e5" ddi="true" type="mechanism"/>
+        <pair id="DDI-DrugBank.d53.s7.p5" e1="DDI-DrugBank.d53.s7.e0"
+            e2="DDI-DrugBank.d53.s7.e6" ddi="true" type="mechanism"/>
+        <pair id="DDI-DrugBank.d53.s7.p6" e1="DDI-DrugBank.d53.s7.e0"
+            e2="DDI-DrugBank.d53.s7.e7" ddi="true" type="mechanism"/>
+        <pair id="DDI-DrugBank.d53.s7.p7" e1="DDI-DrugBank.d53.s7.e0"
+            e2="DDI-DrugBank.d53.s7.e8" ddi="true" type="mechanism"/>
+        <pair id="DDI-DrugBank.d53.s7.p8" e1="DDI-DrugBank.d53.s7.e0"
+            e2="DDI-DrugBank.d53.s7.e9" ddi="true" type="mechanism"/>
+        <pair id="DDI-DrugBank.d53.s7.p9" e1="DDI-DrugBank.d53.s7.e0"
+            e2="DDI-DrugBank.d53.s7.e10" ddi="true" type="mechanism"/>
+        <pair id="DDI-DrugBank.d53.s7.p10" e1="DDI-DrugBank.d53.s7.e0"
+            e2="DDI-DrugBank.d53.s7.e11" ddi="true" type="mechanism"/>
+        <pair id="DDI-DrugBank.d53.s7.p11" e1="DDI-DrugBank.d53.s7.e0"
+            e2="DDI-DrugBank.d53.s7.e12" ddi="true" type="mechanism"/>
+        <pair id="DDI-DrugBank.d53.s7.p12" e1="DDI-DrugBank.d53.s7.e0"
+            e2="DDI-DrugBank.d53.s7.e13" ddi="true" type="mechanism"/>
+        <pair id="DDI-DrugBank.d53.s7.p13" e1="DDI-DrugBank.d53.s7.e0"
+            e2="DDI-DrugBank.d53.s7.e14" ddi="true" type="mechanism"/>
+        <pair id="DDI-DrugBank.d53.s7.p14" e1="DDI-DrugBank.d53.s7.e0"
+            e2="DDI-DrugBank.d53.s7.e15" ddi="true" type="mechanism"/>
+        <pair id="DDI-DrugBank.d53.s7.p15" e1="DDI-DrugBank.d53.s7.e1"
+            e2="DDI-DrugBank.d53.s7.e2" ddi="false"/>
+        <pair id="DDI-DrugBank.d53.s7.p16" e1="DDI-DrugBank.d53.s7.e1"
+            e2="DDI-DrugBank.d53.s7.e3" ddi="false"/>
+        <pair id="DDI-DrugBank.d53.s7.p17" e1="DDI-DrugBank.d53.s7.e1"
+            e2="DDI-DrugBank.d53.s7.e4" ddi="false"/>
+        <pair id="DDI-DrugBank.d53.s7.p18" e1="DDI-DrugBank.d53.s7.e1"
+            e2="DDI-DrugBank.d53.s7.e5" ddi="false"/>
+        <pair id="DDI-DrugBank.d53.s7.p19" e1="DDI-DrugBank.d53.s7.e1"
+            e2="DDI-DrugBank.d53.s7.e6" ddi="false"/>
+        <pair id="DDI-DrugBank.d53.s7.p20" e1="DDI-DrugBank.d53.s7.e1"
+            e2="DDI-DrugBank.d53.s7.e7" ddi="false"/>
+        <pair id="DDI-DrugBank.d53.s7.p21" e1="DDI-DrugBank.d53.s7.e1"
+            e2="DDI-DrugBank.d53.s7.e8" ddi="false"/>
+        <pair id="DDI-DrugBank.d53.s7.p22" e1="DDI-DrugBank.d53.s7.e1"
+            e2="DDI-DrugBank.d53.s7.e9" ddi="false"/>
+        <pair id="DDI-DrugBank.d53.s7.p23" e1="DDI-DrugBank.d53.s7.e1"
+            e2="DDI-DrugBank.d53.s7.e10" ddi="false"/>
+        <pair id="DDI-DrugBank.d53.s7.p24" e1="DDI-DrugBank.d53.s7.e1"
+            e2="DDI-DrugBank.d53.s7.e11" ddi="false"/>
+        <pair id="DDI-DrugBank.d53.s7.p25" e1="DDI-DrugBank.d53.s7.e1"
+            e2="DDI-DrugBank.d53.s7.e12" ddi="false"/>
+        <pair id="DDI-DrugBank.d53.s7.p26" e1="DDI-DrugBank.d53.s7.e1"
+            e2="DDI-DrugBank.d53.s7.e13" ddi="false"/>
+        <pair id="DDI-DrugBank.d53.s7.p27" e1="DDI-DrugBank.d53.s7.e1"
+            e2="DDI-DrugBank.d53.s7.e14" ddi="false"/>
+        <pair id="DDI-DrugBank.d53.s7.p28" e1="DDI-DrugBank.d53.s7.e1"
+            e2="DDI-DrugBank.d53.s7.e15" ddi="false"/>
+        <pair id="DDI-DrugBank.d53.s7.p29" e1="DDI-DrugBank.d53.s7.e2"
+            e2="DDI-DrugBank.d53.s7.e3" ddi="false"/>
+        <pair id="DDI-DrugBank.d53.s7.p30" e1="DDI-DrugBank.d53.s7.e2"
+            e2="DDI-DrugBank.d53.s7.e4" ddi="false"/>
+        <pair id="DDI-DrugBank.d53.s7.p31" e1="DDI-DrugBank.d53.s7.e2"
+            e2="DDI-DrugBank.d53.s7.e5" ddi="false"/>
+        <pair id="DDI-DrugBank.d53.s7.p32" e1="DDI-DrugBank.d53.s7.e2"
+            e2="DDI-DrugBank.d53.s7.e6" ddi="false"/>
+        <pair id="DDI-DrugBank.d53.s7.p33" e1="DDI-DrugBank.d53.s7.e2"
+            e2="DDI-DrugBank.d53.s7.e7" ddi="false"/>
+        <pair id="DDI-DrugBank.d53.s7.p34" e1="DDI-DrugBank.d53.s7.e2"
+            e2="DDI-DrugBank.d53.s7.e8" ddi="false"/>
+        <pair id="DDI-DrugBank.d53.s7.p35" e1="DDI-DrugBank.d53.s7.e2"
+            e2="DDI-DrugBank.d53.s7.e9" ddi="false"/>
+        <pair id="DDI-DrugBank.d53.s7.p36" e1="DDI-DrugBank.d53.s7.e2"
+            e2="DDI-DrugBank.d53.s7.e10" ddi="false"/>
+        <pair id="DDI-DrugBank.d53.s7.p37" e1="DDI-DrugBank.d53.s7.e2"
+            e2="DDI-DrugBank.d53.s7.e11" ddi="false"/>
+        <pair id="DDI-DrugBank.d53.s7.p38" e1="DDI-DrugBank.d53.s7.e2"
+            e2="DDI-DrugBank.d53.s7.e12" ddi="false"/>
+        <pair id="DDI-DrugBank.d53.s7.p39" e1="DDI-DrugBank.d53.s7.e2"
+            e2="DDI-DrugBank.d53.s7.e13" ddi="false"/>
+        <pair id="DDI-DrugBank.d53.s7.p40" e1="DDI-DrugBank.d53.s7.e2"
+            e2="DDI-DrugBank.d53.s7.e14" ddi="false"/>
+        <pair id="DDI-DrugBank.d53.s7.p41" e1="DDI-DrugBank.d53.s7.e2"
+            e2="DDI-DrugBank.d53.s7.e15" ddi="false"/>
+        <pair id="DDI-DrugBank.d53.s7.p42" e1="DDI-DrugBank.d53.s7.e3"
+            e2="DDI-DrugBank.d53.s7.e4" ddi="false"/>
+        <pair id="DDI-DrugBank.d53.s7.p43" e1="DDI-DrugBank.d53.s7.e3"
+            e2="DDI-DrugBank.d53.s7.e5" ddi="false"/>
+        <pair id="DDI-DrugBank.d53.s7.p44" e1="DDI-DrugBank.d53.s7.e3"
+            e2="DDI-DrugBank.d53.s7.e6" ddi="false"/>
+        <pair id="DDI-DrugBank.d53.s7.p45" e1="DDI-DrugBank.d53.s7.e3"
+            e2="DDI-DrugBank.d53.s7.e7" ddi="false"/>
+        <pair id="DDI-DrugBank.d53.s7.p46" e1="DDI-DrugBank.d53.s7.e3"
+            e2="DDI-DrugBank.d53.s7.e8" ddi="false"/>
+        <pair id="DDI-DrugBank.d53.s7.p47" e1="DDI-DrugBank.d53.s7.e3"
+            e2="DDI-DrugBank.d53.s7.e9" ddi="false"/>
+        <pair id="DDI-DrugBank.d53.s7.p48" e1="DDI-DrugBank.d53.s7.e3"
+            e2="DDI-DrugBank.d53.s7.e10" ddi="false"/>
+        <pair id="DDI-DrugBank.d53.s7.p49" e1="DDI-DrugBank.d53.s7.e3"
+            e2="DDI-DrugBank.d53.s7.e11" ddi="false"/>
+        <pair id="DDI-DrugBank.d53.s7.p50" e1="DDI-DrugBank.d53.s7.e3"
+            e2="DDI-DrugBank.d53.s7.e12" ddi="false"/>
+        <pair id="DDI-DrugBank.d53.s7.p51" e1="DDI-DrugBank.d53.s7.e3"
+            e2="DDI-DrugBank.d53.s7.e13" ddi="false"/>
+        <pair id="DDI-DrugBank.d53.s7.p52" e1="DDI-DrugBank.d53.s7.e3"
+            e2="DDI-DrugBank.d53.s7.e14" ddi="false"/>
+        <pair id="DDI-DrugBank.d53.s7.p53" e1="DDI-DrugBank.d53.s7.e3"
+            e2="DDI-DrugBank.d53.s7.e15" ddi="false"/>
+        <pair id="DDI-DrugBank.d53.s7.p54" e1="DDI-DrugBank.d53.s7.e4"
+            e2="DDI-DrugBank.d53.s7.e5" ddi="false"/>
+        <pair id="DDI-DrugBank.d53.s7.p55" e1="DDI-DrugBank.d53.s7.e4"
+            e2="DDI-DrugBank.d53.s7.e6" ddi="false"/>
+        <pair id="DDI-DrugBank.d53.s7.p56" e1="DDI-DrugBank.d53.s7.e4"
+            e2="DDI-DrugBank.d53.s7.e7" ddi="false"/>
+        <pair id="DDI-DrugBank.d53.s7.p57" e1="DDI-DrugBank.d53.s7.e4"
+            e2="DDI-DrugBank.d53.s7.e8" ddi="false"/>
+        <pair id="DDI-DrugBank.d53.s7.p58" e1="DDI-DrugBank.d53.s7.e4"
+            e2="DDI-DrugBank.d53.s7.e9" ddi="false"/>
+        <pair id="DDI-DrugBank.d53.s7.p59" e1="DDI-DrugBank.d53.s7.e4"
+            e2="DDI-DrugBank.d53.s7.e10" ddi="false"/>
+        <pair id="DDI-DrugBank.d53.s7.p60" e1="DDI-DrugBank.d53.s7.e4"
+            e2="DDI-DrugBank.d53.s7.e11" ddi="false"/>
+        <pair id="DDI-DrugBank.d53.s7.p61" e1="DDI-DrugBank.d53.s7.e4"
+            e2="DDI-DrugBank.d53.s7.e12" ddi="false"/>
+        <pair id="DDI-DrugBank.d53.s7.p62" e1="DDI-DrugBank.d53.s7.e4"
+            e2="DDI-DrugBank.d53.s7.e13" ddi="false"/>
+        <pair id="DDI-DrugBank.d53.s7.p63" e1="DDI-DrugBank.d53.s7.e4"
+            e2="DDI-DrugBank.d53.s7.e14" ddi="false"/>
+        <pair id="DDI-DrugBank.d53.s7.p64" e1="DDI-DrugBank.d53.s7.e4"
+            e2="DDI-DrugBank.d53.s7.e15" ddi="false"/>
+        <pair id="DDI-DrugBank.d53.s7.p65" e1="DDI-DrugBank.d53.s7.e5"
+            e2="DDI-DrugBank.d53.s7.e6" ddi="false"/>
+        <pair id="DDI-DrugBank.d53.s7.p66" e1="DDI-DrugBank.d53.s7.e5"
+            e2="DDI-DrugBank.d53.s7.e7" ddi="false"/>
+        <pair id="DDI-DrugBank.d53.s7.p67" e1="DDI-DrugBank.d53.s7.e5"
+            e2="DDI-DrugBank.d53.s7.e8" ddi="false"/>
+        <pair id="DDI-DrugBank.d53.s7.p68" e1="DDI-DrugBank.d53.s7.e5"
+            e2="DDI-DrugBank.d53.s7.e9" ddi="false"/>
+        <pair id="DDI-DrugBank.d53.s7.p69" e1="DDI-DrugBank.d53.s7.e5"
+            e2="DDI-DrugBank.d53.s7.e10" ddi="false"/>
+        <pair id="DDI-DrugBank.d53.s7.p70" e1="DDI-DrugBank.d53.s7.e5"
+            e2="DDI-DrugBank.d53.s7.e11" ddi="false"/>
+        <pair id="DDI-DrugBank.d53.s7.p71" e1="DDI-DrugBank.d53.s7.e5"
+            e2="DDI-DrugBank.d53.s7.e12" ddi="false"/>
+        <pair id="DDI-DrugBank.d53.s7.p72" e1="DDI-DrugBank.d53.s7.e5"
+            e2="DDI-DrugBank.d53.s7.e13" ddi="false"/>
+        <pair id="DDI-DrugBank.d53.s7.p73" e1="DDI-DrugBank.d53.s7.e5"
+            e2="DDI-DrugBank.d53.s7.e14" ddi="false"/>
+        <pair id="DDI-DrugBank.d53.s7.p74" e1="DDI-DrugBank.d53.s7.e5"
+            e2="DDI-DrugBank.d53.s7.e15" ddi="false"/>
+        <pair id="DDI-DrugBank.d53.s7.p75" e1="DDI-DrugBank.d53.s7.e6"
+            e2="DDI-DrugBank.d53.s7.e7" ddi="false"/>
+        <pair id="DDI-DrugBank.d53.s7.p76" e1="DDI-DrugBank.d53.s7.e6"
+            e2="DDI-DrugBank.d53.s7.e8" ddi="false"/>
+        <pair id="DDI-DrugBank.d53.s7.p77" e1="DDI-DrugBank.d53.s7.e6"
+            e2="DDI-DrugBank.d53.s7.e9" ddi="false"/>
+        <pair id="DDI-DrugBank.d53.s7.p78" e1="DDI-DrugBank.d53.s7.e6"
+            e2="DDI-DrugBank.d53.s7.e10" ddi="false"/>
+        <pair id="DDI-DrugBank.d53.s7.p79" e1="DDI-DrugBank.d53.s7.e6"
+            e2="DDI-DrugBank.d53.s7.e11" ddi="false"/>
+        <pair id="DDI-DrugBank.d53.s7.p80" e1="DDI-DrugBank.d53.s7.e6"
+            e2="DDI-DrugBank.d53.s7.e12" ddi="false"/>
+        <pair id="DDI-DrugBank.d53.s7.p81" e1="DDI-DrugBank.d53.s7.e6"
+            e2="DDI-DrugBank.d53.s7.e13" ddi="false"/>
+        <pair id="DDI-DrugBank.d53.s7.p82" e1="DDI-DrugBank.d53.s7.e6"
+            e2="DDI-DrugBank.d53.s7.e14" ddi="false"/>
+        <pair id="DDI-DrugBank.d53.s7.p83" e1="DDI-DrugBank.d53.s7.e6"
+            e2="DDI-DrugBank.d53.s7.e15" ddi="false"/>
+        <pair id="DDI-DrugBank.d53.s7.p84" e1="DDI-DrugBank.d53.s7.e7"
+            e2="DDI-DrugBank.d53.s7.e8" ddi="false"/>
+        <pair id="DDI-DrugBank.d53.s7.p85" e1="DDI-DrugBank.d53.s7.e7"
+            e2="DDI-DrugBank.d53.s7.e9" ddi="false"/>
+        <pair id="DDI-DrugBank.d53.s7.p86" e1="DDI-DrugBank.d53.s7.e7"
+            e2="DDI-DrugBank.d53.s7.e10" ddi="false"/>
+        <pair id="DDI-DrugBank.d53.s7.p87" e1="DDI-DrugBank.d53.s7.e7"
+            e2="DDI-DrugBank.d53.s7.e11" ddi="false"/>
+        <pair id="DDI-DrugBank.d53.s7.p88" e1="DDI-DrugBank.d53.s7.e7"
+            e2="DDI-DrugBank.d53.s7.e12" ddi="false"/>
+        <pair id="DDI-DrugBank.d53.s7.p89" e1="DDI-DrugBank.d53.s7.e7"
+            e2="DDI-DrugBank.d53.s7.e13" ddi="false"/>
+        <pair id="DDI-DrugBank.d53.s7.p90" e1="DDI-DrugBank.d53.s7.e7"
+            e2="DDI-DrugBank.d53.s7.e14" ddi="false"/>
+        <pair id="DDI-DrugBank.d53.s7.p91" e1="DDI-DrugBank.d53.s7.e7"
+            e2="DDI-DrugBank.d53.s7.e15" ddi="false"/>
+        <pair id="DDI-DrugBank.d53.s7.p92" e1="DDI-DrugBank.d53.s7.e8"
+            e2="DDI-DrugBank.d53.s7.e9" ddi="false"/>
+        <pair id="DDI-DrugBank.d53.s7.p93" e1="DDI-DrugBank.d53.s7.e8"
+            e2="DDI-DrugBank.d53.s7.e10" ddi="false"/>
+        <pair id="DDI-DrugBank.d53.s7.p94" e1="DDI-DrugBank.d53.s7.e8"
+            e2="DDI-DrugBank.d53.s7.e11" ddi="false"/>
+        <pair id="DDI-DrugBank.d53.s7.p95" e1="DDI-DrugBank.d53.s7.e8"
+            e2="DDI-DrugBank.d53.s7.e12" ddi="false"/>
+        <pair id="DDI-DrugBank.d53.s7.p96" e1="DDI-DrugBank.d53.s7.e8"
+            e2="DDI-DrugBank.d53.s7.e13" ddi="false"/>
+        <pair id="DDI-DrugBank.d53.s7.p97" e1="DDI-DrugBank.d53.s7.e8"
+            e2="DDI-DrugBank.d53.s7.e14" ddi="false"/>
+        <pair id="DDI-DrugBank.d53.s7.p98" e1="DDI-DrugBank.d53.s7.e8"
+            e2="DDI-DrugBank.d53.s7.e15" ddi="false"/>
+        <pair id="DDI-DrugBank.d53.s7.p99" e1="DDI-DrugBank.d53.s7.e9"
+            e2="DDI-DrugBank.d53.s7.e10" ddi="false"/>
+        <pair id="DDI-DrugBank.d53.s7.p100" e1="DDI-DrugBank.d53.s7.e9"
+            e2="DDI-DrugBank.d53.s7.e11" ddi="false"/>
+        <pair id="DDI-DrugBank.d53.s7.p101" e1="DDI-DrugBank.d53.s7.e9"
+            e2="DDI-DrugBank.d53.s7.e12" ddi="false"/>
+        <pair id="DDI-DrugBank.d53.s7.p102" e1="DDI-DrugBank.d53.s7.e9"
+            e2="DDI-DrugBank.d53.s7.e13" ddi="false"/>
+        <pair id="DDI-DrugBank.d53.s7.p103" e1="DDI-DrugBank.d53.s7.e9"
+            e2="DDI-DrugBank.d53.s7.e14" ddi="false"/>
+        <pair id="DDI-DrugBank.d53.s7.p104" e1="DDI-DrugBank.d53.s7.e9"
+            e2="DDI-DrugBank.d53.s7.e15" ddi="false"/>
+        <pair id="DDI-DrugBank.d53.s7.p105" e1="DDI-DrugBank.d53.s7.e10"
+            e2="DDI-DrugBank.d53.s7.e11" ddi="false"/>
+        <pair id="DDI-DrugBank.d53.s7.p106" e1="DDI-DrugBank.d53.s7.e10"
+            e2="DDI-DrugBank.d53.s7.e12" ddi="false"/>
+        <pair id="DDI-DrugBank.d53.s7.p107" e1="DDI-DrugBank.d53.s7.e10"
+            e2="DDI-DrugBank.d53.s7.e13" ddi="false"/>
+        <pair id="DDI-DrugBank.d53.s7.p108" e1="DDI-DrugBank.d53.s7.e10"
+            e2="DDI-DrugBank.d53.s7.e14" ddi="false"/>
+        <pair id="DDI-DrugBank.d53.s7.p109" e1="DDI-DrugBank.d53.s7.e10"
+            e2="DDI-DrugBank.d53.s7.e15" ddi="false"/>
+        <pair id="DDI-DrugBank.d53.s7.p110" e1="DDI-DrugBank.d53.s7.e11"
+            e2="DDI-DrugBank.d53.s7.e12" ddi="false"/>
+        <pair id="DDI-DrugBank.d53.s7.p111" e1="DDI-DrugBank.d53.s7.e11"
+            e2="DDI-DrugBank.d53.s7.e13" ddi="false"/>
+        <pair id="DDI-DrugBank.d53.s7.p112" e1="DDI-DrugBank.d53.s7.e11"
+            e2="DDI-DrugBank.d53.s7.e14" ddi="false"/>
+        <pair id="DDI-DrugBank.d53.s7.p113" e1="DDI-DrugBank.d53.s7.e11"
+            e2="DDI-DrugBank.d53.s7.e15" ddi="false"/>
+        <pair id="DDI-DrugBank.d53.s7.p114" e1="DDI-DrugBank.d53.s7.e12"
+            e2="DDI-DrugBank.d53.s7.e13" ddi="false"/>
+        <pair id="DDI-DrugBank.d53.s7.p115" e1="DDI-DrugBank.d53.s7.e12"
+            e2="DDI-DrugBank.d53.s7.e14" ddi="false"/>
+        <pair id="DDI-DrugBank.d53.s7.p116" e1="DDI-DrugBank.d53.s7.e12"
+            e2="DDI-DrugBank.d53.s7.e15" ddi="false"/>
+        <pair id="DDI-DrugBank.d53.s7.p117" e1="DDI-DrugBank.d53.s7.e13"
+            e2="DDI-DrugBank.d53.s7.e14" ddi="false"/>
+        <pair id="DDI-DrugBank.d53.s7.p118" e1="DDI-DrugBank.d53.s7.e13"
+            e2="DDI-DrugBank.d53.s7.e15" ddi="false"/>
+        <pair id="DDI-DrugBank.d53.s7.p119" e1="DDI-DrugBank.d53.s7.e14"
+            e2="DDI-DrugBank.d53.s7.e15" ddi="false"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d53.s8" text="Co-administration with efavirenz or fluconazole had a modest effect on the pharmacokinetics of azithromycin.">
+        <entity id="DDI-DrugBank.d53.s8.e0" charOffset="23-31"
+            type="drug" text="efavirenz"/>
+        <entity id="DDI-DrugBank.d53.s8.e1" charOffset="36-46"
+            type="drug" text="fluconazole"/>
+        <entity id="DDI-DrugBank.d53.s8.e2" charOffset="95-106"
+            type="drug" text="azithromycin"/>
+        <pair id="DDI-DrugBank.d53.s8.p0" e1="DDI-DrugBank.d53.s8.e0"
+            e2="DDI-DrugBank.d53.s8.e1" ddi="false"/>
+        <pair id="DDI-DrugBank.d53.s8.p1" e1="DDI-DrugBank.d53.s8.e0"
+            e2="DDI-DrugBank.d53.s8.e2" ddi="true" type="mechanism"/>
+        <pair id="DDI-DrugBank.d53.s8.p2" e1="DDI-DrugBank.d53.s8.e1"
+            e2="DDI-DrugBank.d53.s8.e2" ddi="true" type="mechanism"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d53.s9" text="No dosage adjustment of either drug is recommended when azithromycin is co administered with any of the above agents.">
+        <entity id="DDI-DrugBank.d53.s9.e0" charOffset="56-67"
+            type="drug" text="azithromycin"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d53.s10" text="Interactions with the drugs listed below have not been reported in clinical trials with azithromycin;">
+        <entity id="DDI-DrugBank.d53.s10.e0" charOffset="88-99"
+            type="drug" text="azithromycin"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d53.s11" text="however, no specific drug interaction studies have been performed to evaluate potential drug-drug interaction."/>
+    <sentence id="DDI-DrugBank.d53.s12" text="Nonetheless, they have been observed with macrolide products.">
+        <entity id="DDI-DrugBank.d53.s12.e0" charOffset="42-59"
+            type="group" text="macrolide products"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d53.s13" text="Until further data are developed regarding drug interactions when azithromycin and these drugs are used concomitantly, careful monitoring of patients is advised: Digoxin elevated digoxin concentrations.">
+        <entity id="DDI-DrugBank.d53.s13.e0" charOffset="66-77"
+            type="drug" text="azithromycin"/>
+        <entity id="DDI-DrugBank.d53.s13.e1" charOffset="162-168"
+            type="drug" text="Digoxin"/>
+        <entity id="DDI-DrugBank.d53.s13.e2" charOffset="179-185"
+            type="drug" text="digoxin"/>
+        <pair id="DDI-DrugBank.d53.s13.p0" e1="DDI-DrugBank.d53.s13.e0"
+            e2="DDI-DrugBank.d53.s13.e1" ddi="false"/>
+        <pair id="DDI-DrugBank.d53.s13.p1" e1="DDI-DrugBank.d53.s13.e0"
+            e2="DDI-DrugBank.d53.s13.e2" ddi="false"/>
+        <pair id="DDI-DrugBank.d53.s13.p2" e1="DDI-DrugBank.d53.s13.e1"
+            e2="DDI-DrugBank.d53.s13.e2" ddi="false"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d53.s14" text="Ergotamine or dihydroergotamine acute ergot toxicity characterized by severe peripheral vasospasm and dysesthesia.">
+        <entity id="DDI-DrugBank.d53.s14.e0" charOffset="0-9"
+            type="drug" text="Ergotamine"/>
+        <entity id="DDI-DrugBank.d53.s14.e1" charOffset="14-30"
+            type="drug" text="dihydroergotamine"/>
+        <pair id="DDI-DrugBank.d53.s14.p0" e1="DDI-DrugBank.d53.s14.e0"
+            e2="DDI-DrugBank.d53.s14.e1" ddi="false"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d53.s15" text="Cyclosporine, hexobarbital and phenytoin concentrations.">
+        <entity id="DDI-DrugBank.d53.s15.e0" charOffset="0-11"
+            type="drug" text="Cyclosporine"/>
+        <entity id="DDI-DrugBank.d53.s15.e1" charOffset="14-25"
+            type="drug" text="hexobarbital"/>
+        <entity id="DDI-DrugBank.d53.s15.e2" charOffset="31-39"
+            type="drug" text="phenytoin"/>
+        <pair id="DDI-DrugBank.d53.s15.p0" e1="DDI-DrugBank.d53.s15.e0"
+            e2="DDI-DrugBank.d53.s15.e1" ddi="false"/>
+        <pair id="DDI-DrugBank.d53.s15.p1" e1="DDI-DrugBank.d53.s15.e0"
+            e2="DDI-DrugBank.d53.s15.e2" ddi="false"/>
+        <pair id="DDI-DrugBank.d53.s15.p2" e1="DDI-DrugBank.d53.s15.e1"
+            e2="DDI-DrugBank.d53.s15.e2" ddi="false"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d53.s16" text="Laboratory Test Interactions There are no reported laboratory test interactions."/>
+    <sentence id="DDI-DrugBank.d53.s17" text="Repeat Treatment Studies evaluating the use of repeated courses of Zmax have not been conducted.">
+        <entity id="DDI-DrugBank.d53.s17.e0" charOffset="67-70"
+            type="brand" text="Zmax"/>
+    </sentence>
+</document>

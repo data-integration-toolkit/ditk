@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="DDI-DrugBank.d320">
+    <sentence id="DDI-DrugBank.d320.s0" text="Chirocaine   should be used with caution in patients receiving other local anesthetics or agents structurally related to amide-type local anesthetics since the toxic effects of these drugs could be additive.">
+        <entity id="DDI-DrugBank.d320.s0.e0" charOffset="0-9"
+            type="brand" text="Chirocaine"/>
+        <entity id="DDI-DrugBank.d320.s0.e1" charOffset="75-85"
+            type="group" text="anesthetics"/>
+        <pair id="DDI-DrugBank.d320.s0.p0" e1="DDI-DrugBank.d320.s0.e0"
+            e2="DDI-DrugBank.d320.s0.e1" ddi="true" type="advise"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d320.s1" text="In vitro studies indicate CYP3A4 isoform and CYP1A2 isoform mediate the metabolism of levobupivacaine to desbutyl levobupivacaine and 3-hydroxy levobupivacaine, respectively.">
+        <entity id="DDI-DrugBank.d320.s1.e0" charOffset="86-100"
+            type="drug" text="levobupivacaine"/>
+        <entity id="DDI-DrugBank.d320.s1.e1" charOffset="105-128"
+            type="drug_n" text="desbutyl levobupivacaine"/>
+        <entity id="DDI-DrugBank.d320.s1.e2" charOffset="134-158"
+            type="drug_n" text="3-hydroxy levobupivacaine"/>
+        <pair id="DDI-DrugBank.d320.s1.p0" e1="DDI-DrugBank.d320.s1.e0"
+            e2="DDI-DrugBank.d320.s1.e1" ddi="false"/>
+        <pair id="DDI-DrugBank.d320.s1.p1" e1="DDI-DrugBank.d320.s1.e0"
+            e2="DDI-DrugBank.d320.s1.e2" ddi="false"/>
+        <pair id="DDI-DrugBank.d320.s1.p2" e1="DDI-DrugBank.d320.s1.e1"
+            e2="DDI-DrugBank.d320.s1.e2" ddi="false"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d320.s2" text="Thus agents likely to be concomitantly administered with Chirocaine that are metabolized by this isoenzyme family may potentially interact with Chirocaine.">
+        <entity id="DDI-DrugBank.d320.s2.e0" charOffset="57-66"
+            type="brand" text="Chirocaine"/>
+        <entity id="DDI-DrugBank.d320.s2.e1" charOffset="144-153"
+            type="brand" text="Chirocaine"/>
+        <pair id="DDI-DrugBank.d320.s2.p0" e1="DDI-DrugBank.d320.s2.e0"
+            e2="DDI-DrugBank.d320.s2.e1" ddi="false"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d320.s3" text="Although no clinical studies have been conducted, it is likely that the metabolism of levobupivacaine may be affected by the known CYP3A4 inducers (such as phenytoin, phenobarbital, rifampin), CYP3A4 inhibitors (azole antimycotics e.g., ketoconazole;">
+        <entity id="DDI-DrugBank.d320.s3.e0" charOffset="86-100"
+            type="drug" text="levobupivacaine"/>
+        <entity id="DDI-DrugBank.d320.s3.e1" charOffset="156-164"
+            type="drug" text="phenytoin"/>
+        <entity id="DDI-DrugBank.d320.s3.e2" charOffset="167-179"
+            type="drug" text="phenobarbital"/>
+        <entity id="DDI-DrugBank.d320.s3.e3" charOffset="182-189"
+            type="drug" text="rifampin"/>
+        <entity id="DDI-DrugBank.d320.s3.e4" charOffset="237-248"
+            type="drug" text="ketoconazole"/>
+        <pair id="DDI-DrugBank.d320.s3.p0" e1="DDI-DrugBank.d320.s3.e0"
+            e2="DDI-DrugBank.d320.s3.e1" ddi="true" type="mechanism"/>
+        <pair id="DDI-DrugBank.d320.s3.p1" e1="DDI-DrugBank.d320.s3.e0"
+            e2="DDI-DrugBank.d320.s3.e2" ddi="true" type="mechanism"/>
+        <pair id="DDI-DrugBank.d320.s3.p2" e1="DDI-DrugBank.d320.s3.e0"
+            e2="DDI-DrugBank.d320.s3.e3" ddi="true" type="mechanism"/>
+        <pair id="DDI-DrugBank.d320.s3.p3" e1="DDI-DrugBank.d320.s3.e0"
+            e2="DDI-DrugBank.d320.s3.e4" ddi="true" type="mechanism"/>
+        <pair id="DDI-DrugBank.d320.s3.p4" e1="DDI-DrugBank.d320.s3.e1"
+            e2="DDI-DrugBank.d320.s3.e2" ddi="false"/>
+        <pair id="DDI-DrugBank.d320.s3.p5" e1="DDI-DrugBank.d320.s3.e1"
+            e2="DDI-DrugBank.d320.s3.e3" ddi="false"/>
+        <pair id="DDI-DrugBank.d320.s3.p6" e1="DDI-DrugBank.d320.s3.e1"
+            e2="DDI-DrugBank.d320.s3.e4" ddi="false"/>
+        <pair id="DDI-DrugBank.d320.s3.p7" e1="DDI-DrugBank.d320.s3.e2"
+            e2="DDI-DrugBank.d320.s3.e3" ddi="false"/>
+        <pair id="DDI-DrugBank.d320.s3.p8" e1="DDI-DrugBank.d320.s3.e2"
+            e2="DDI-DrugBank.d320.s3.e4" ddi="false"/>
+        <pair id="DDI-DrugBank.d320.s3.p9" e1="DDI-DrugBank.d320.s3.e3"
+            e2="DDI-DrugBank.d320.s3.e4" ddi="false"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d320.s4" text="certain protease inhibitors e.g., ritanovir;">
+        <entity id="DDI-DrugBank.d320.s4.e0" charOffset="8-26"
+            type="group" text="protease inhibitors"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d320.s5" text="macrolide antibiotics e.g., erythromycin;">
+        <entity id="DDI-DrugBank.d320.s5.e0" charOffset="0-20"
+            type="group" text="macrolide antibiotics"/>
+        <entity id="DDI-DrugBank.d320.s5.e1" charOffset="28-39"
+            type="drug" text="erythromycin"/>
+        <pair id="DDI-DrugBank.d320.s5.p0" e1="DDI-DrugBank.d320.s5.e0"
+            e2="DDI-DrugBank.d320.s5.e1" ddi="false"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d320.s6" text="and calcium channel antagonists e.g., verapamil), CYP1A2 inducers (omeprazole) and CYP1A2 inhibitors (furafylline and clarithromycin).">
+        <entity id="DDI-DrugBank.d320.s6.e0" charOffset="4-30"
+            type="group" text="calcium channel antagonists"/>
+        <entity id="DDI-DrugBank.d320.s6.e1" charOffset="38-46"
+            type="drug" text="verapamil"/>
+        <entity id="DDI-DrugBank.d320.s6.e2" charOffset="67-76"
+            type="drug" text="omeprazole"/>
+        <entity id="DDI-DrugBank.d320.s6.e3" charOffset="102-112"
+            type="drug" text="furafylline"/>
+        <entity id="DDI-DrugBank.d320.s6.e4" charOffset="118-131"
+            type="drug" text="clarithromycin"/>
+        <pair id="DDI-DrugBank.d320.s6.p0" e1="DDI-DrugBank.d320.s6.e0"
+            e2="DDI-DrugBank.d320.s6.e1" ddi="false"/>
+        <pair id="DDI-DrugBank.d320.s6.p1" e1="DDI-DrugBank.d320.s6.e0"
+            e2="DDI-DrugBank.d320.s6.e2" ddi="false"/>
+        <pair id="DDI-DrugBank.d320.s6.p2" e1="DDI-DrugBank.d320.s6.e0"
+            e2="DDI-DrugBank.d320.s6.e3" ddi="false"/>
+        <pair id="DDI-DrugBank.d320.s6.p3" e1="DDI-DrugBank.d320.s6.e0"
+            e2="DDI-DrugBank.d320.s6.e4" ddi="false"/>
+        <pair id="DDI-DrugBank.d320.s6.p4" e1="DDI-DrugBank.d320.s6.e1"
+            e2="DDI-DrugBank.d320.s6.e2" ddi="false"/>
+        <pair id="DDI-DrugBank.d320.s6.p5" e1="DDI-DrugBank.d320.s6.e1"
+            e2="DDI-DrugBank.d320.s6.e3" ddi="false"/>
+        <pair id="DDI-DrugBank.d320.s6.p6" e1="DDI-DrugBank.d320.s6.e1"
+            e2="DDI-DrugBank.d320.s6.e4" ddi="false"/>
+        <pair id="DDI-DrugBank.d320.s6.p7" e1="DDI-DrugBank.d320.s6.e2"
+            e2="DDI-DrugBank.d320.s6.e3" ddi="false"/>
+        <pair id="DDI-DrugBank.d320.s6.p8" e1="DDI-DrugBank.d320.s6.e2"
+            e2="DDI-DrugBank.d320.s6.e4" ddi="false"/>
+        <pair id="DDI-DrugBank.d320.s6.p9" e1="DDI-DrugBank.d320.s6.e3"
+            e2="DDI-DrugBank.d320.s6.e4" ddi="false"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d320.s7" text="Dosage adjustment may be warranted when levobupivacaine is concurrently administered with CYP3A4 inhibitors and CYP1A2 inhibitors as systemic levobupivacaine levels may rise resulting in toxicity.">
+        <entity id="DDI-DrugBank.d320.s7.e0" charOffset="40-54"
+            type="drug" text="levobupivacaine"/>
+        <entity id="DDI-DrugBank.d320.s7.e1" charOffset="142-156"
+            type="drug" text="levobupivacaine"/>
+        <pair id="DDI-DrugBank.d320.s7.p0" e1="DDI-DrugBank.d320.s7.e0"
+            e2="DDI-DrugBank.d320.s7.e1" ddi="false"/>
+    </sentence>
+</document>

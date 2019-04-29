@@ -1,0 +1,168 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="DDI-DrugBank.d638">
+    <sentence id="DDI-DrugBank.d638.s0" text="Ritalin may decrease the hypotensive effect of guanethidine. ">
+        <entity id="DDI-DrugBank.d638.s0.e0" charOffset="0-6"
+            type="brand" text="Ritalin"/>
+        <entity id="DDI-DrugBank.d638.s0.e1" charOffset="47-58"
+            type="drug" text="guanethidine"/>
+        <pair id="DDI-DrugBank.d638.s0.p0" e1="DDI-DrugBank.d638.s0.e0"
+            e2="DDI-DrugBank.d638.s0.e1" ddi="true" type="effect"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d638.s1" text="Use cautiously with pressor agents. "/>
+    <sentence id="DDI-DrugBank.d638.s2" text="Human pharmacologic studies have shown that Ritalin may inhibit the metabolism of coumarin anticoagulants, anticonvulsants (phenobarbital, diphenylhydantoin, primidone), phenylbutazone, and tricyclic drugs (imipramine, clomipramine, desipramine). ">
+        <entity id="DDI-DrugBank.d638.s2.e0" charOffset="44-50"
+            type="brand" text="Ritalin"/>
+        <entity id="DDI-DrugBank.d638.s2.e1" charOffset="82-104"
+            type="group" text="coumarin anticoagulants"/>
+        <entity id="DDI-DrugBank.d638.s2.e2" charOffset="107-121"
+            type="group" text="anticonvulsants"/>
+        <entity id="DDI-DrugBank.d638.s2.e3" charOffset="124-136"
+            type="drug" text="phenobarbital"/>
+        <entity id="DDI-DrugBank.d638.s2.e4" charOffset="139-155"
+            type="drug" text="diphenylhydantoin"/>
+        <entity id="DDI-DrugBank.d638.s2.e5" charOffset="158-166"
+            type="drug" text="primidone"/>
+        <entity id="DDI-DrugBank.d638.s2.e6" charOffset="170-183"
+            type="drug" text="phenylbutazone"/>
+        <entity id="DDI-DrugBank.d638.s2.e7" charOffset="190-204"
+            type="group" text="tricyclic drugs"/>
+        <entity id="DDI-DrugBank.d638.s2.e8" charOffset="207-216"
+            type="drug" text="imipramine"/>
+        <entity id="DDI-DrugBank.d638.s2.e9" charOffset="219-230"
+            type="drug" text="clomipramine"/>
+        <entity id="DDI-DrugBank.d638.s2.e10" charOffset="233-243"
+            type="drug" text="desipramine"/>
+        <pair id="DDI-DrugBank.d638.s2.p0" e1="DDI-DrugBank.d638.s2.e0"
+            e2="DDI-DrugBank.d638.s2.e1" ddi="true" type="mechanism"/>
+        <pair id="DDI-DrugBank.d638.s2.p1" e1="DDI-DrugBank.d638.s2.e0"
+            e2="DDI-DrugBank.d638.s2.e2" ddi="true" type="mechanism"/>
+        <pair id="DDI-DrugBank.d638.s2.p2" e1="DDI-DrugBank.d638.s2.e0"
+            e2="DDI-DrugBank.d638.s2.e3" ddi="true" type="mechanism"/>
+        <pair id="DDI-DrugBank.d638.s2.p3" e1="DDI-DrugBank.d638.s2.e0"
+            e2="DDI-DrugBank.d638.s2.e4" ddi="true" type="mechanism"/>
+        <pair id="DDI-DrugBank.d638.s2.p4" e1="DDI-DrugBank.d638.s2.e0"
+            e2="DDI-DrugBank.d638.s2.e5" ddi="true" type="mechanism"/>
+        <pair id="DDI-DrugBank.d638.s2.p5" e1="DDI-DrugBank.d638.s2.e0"
+            e2="DDI-DrugBank.d638.s2.e6" ddi="true" type="mechanism"/>
+        <pair id="DDI-DrugBank.d638.s2.p6" e1="DDI-DrugBank.d638.s2.e0"
+            e2="DDI-DrugBank.d638.s2.e7" ddi="true" type="mechanism"/>
+        <pair id="DDI-DrugBank.d638.s2.p7" e1="DDI-DrugBank.d638.s2.e0"
+            e2="DDI-DrugBank.d638.s2.e8" ddi="true" type="mechanism"/>
+        <pair id="DDI-DrugBank.d638.s2.p8" e1="DDI-DrugBank.d638.s2.e0"
+            e2="DDI-DrugBank.d638.s2.e9" ddi="true" type="mechanism"/>
+        <pair id="DDI-DrugBank.d638.s2.p9" e1="DDI-DrugBank.d638.s2.e0"
+            e2="DDI-DrugBank.d638.s2.e10" ddi="true" type="mechanism"/>
+        <pair id="DDI-DrugBank.d638.s2.p10" e1="DDI-DrugBank.d638.s2.e1"
+            e2="DDI-DrugBank.d638.s2.e2" ddi="false"/>
+        <pair id="DDI-DrugBank.d638.s2.p11" e1="DDI-DrugBank.d638.s2.e1"
+            e2="DDI-DrugBank.d638.s2.e3" ddi="false"/>
+        <pair id="DDI-DrugBank.d638.s2.p12" e1="DDI-DrugBank.d638.s2.e1"
+            e2="DDI-DrugBank.d638.s2.e4" ddi="false"/>
+        <pair id="DDI-DrugBank.d638.s2.p13" e1="DDI-DrugBank.d638.s2.e1"
+            e2="DDI-DrugBank.d638.s2.e5" ddi="false"/>
+        <pair id="DDI-DrugBank.d638.s2.p14" e1="DDI-DrugBank.d638.s2.e1"
+            e2="DDI-DrugBank.d638.s2.e6" ddi="false"/>
+        <pair id="DDI-DrugBank.d638.s2.p15" e1="DDI-DrugBank.d638.s2.e1"
+            e2="DDI-DrugBank.d638.s2.e7" ddi="false"/>
+        <pair id="DDI-DrugBank.d638.s2.p16" e1="DDI-DrugBank.d638.s2.e1"
+            e2="DDI-DrugBank.d638.s2.e8" ddi="false"/>
+        <pair id="DDI-DrugBank.d638.s2.p17" e1="DDI-DrugBank.d638.s2.e1"
+            e2="DDI-DrugBank.d638.s2.e9" ddi="false"/>
+        <pair id="DDI-DrugBank.d638.s2.p18" e1="DDI-DrugBank.d638.s2.e1"
+            e2="DDI-DrugBank.d638.s2.e10" ddi="false"/>
+        <pair id="DDI-DrugBank.d638.s2.p19" e1="DDI-DrugBank.d638.s2.e2"
+            e2="DDI-DrugBank.d638.s2.e3" ddi="false"/>
+        <pair id="DDI-DrugBank.d638.s2.p20" e1="DDI-DrugBank.d638.s2.e2"
+            e2="DDI-DrugBank.d638.s2.e4" ddi="false"/>
+        <pair id="DDI-DrugBank.d638.s2.p21" e1="DDI-DrugBank.d638.s2.e2"
+            e2="DDI-DrugBank.d638.s2.e5" ddi="false"/>
+        <pair id="DDI-DrugBank.d638.s2.p22" e1="DDI-DrugBank.d638.s2.e2"
+            e2="DDI-DrugBank.d638.s2.e6" ddi="false"/>
+        <pair id="DDI-DrugBank.d638.s2.p23" e1="DDI-DrugBank.d638.s2.e2"
+            e2="DDI-DrugBank.d638.s2.e7" ddi="false"/>
+        <pair id="DDI-DrugBank.d638.s2.p24" e1="DDI-DrugBank.d638.s2.e2"
+            e2="DDI-DrugBank.d638.s2.e8" ddi="false"/>
+        <pair id="DDI-DrugBank.d638.s2.p25" e1="DDI-DrugBank.d638.s2.e2"
+            e2="DDI-DrugBank.d638.s2.e9" ddi="false"/>
+        <pair id="DDI-DrugBank.d638.s2.p26" e1="DDI-DrugBank.d638.s2.e2"
+            e2="DDI-DrugBank.d638.s2.e10" ddi="false"/>
+        <pair id="DDI-DrugBank.d638.s2.p27" e1="DDI-DrugBank.d638.s2.e3"
+            e2="DDI-DrugBank.d638.s2.e4" ddi="false"/>
+        <pair id="DDI-DrugBank.d638.s2.p28" e1="DDI-DrugBank.d638.s2.e3"
+            e2="DDI-DrugBank.d638.s2.e5" ddi="false"/>
+        <pair id="DDI-DrugBank.d638.s2.p29" e1="DDI-DrugBank.d638.s2.e3"
+            e2="DDI-DrugBank.d638.s2.e6" ddi="false"/>
+        <pair id="DDI-DrugBank.d638.s2.p30" e1="DDI-DrugBank.d638.s2.e3"
+            e2="DDI-DrugBank.d638.s2.e7" ddi="false"/>
+        <pair id="DDI-DrugBank.d638.s2.p31" e1="DDI-DrugBank.d638.s2.e3"
+            e2="DDI-DrugBank.d638.s2.e8" ddi="false"/>
+        <pair id="DDI-DrugBank.d638.s2.p32" e1="DDI-DrugBank.d638.s2.e3"
+            e2="DDI-DrugBank.d638.s2.e9" ddi="false"/>
+        <pair id="DDI-DrugBank.d638.s2.p33" e1="DDI-DrugBank.d638.s2.e3"
+            e2="DDI-DrugBank.d638.s2.e10" ddi="false"/>
+        <pair id="DDI-DrugBank.d638.s2.p34" e1="DDI-DrugBank.d638.s2.e4"
+            e2="DDI-DrugBank.d638.s2.e5" ddi="false"/>
+        <pair id="DDI-DrugBank.d638.s2.p35" e1="DDI-DrugBank.d638.s2.e4"
+            e2="DDI-DrugBank.d638.s2.e6" ddi="false"/>
+        <pair id="DDI-DrugBank.d638.s2.p36" e1="DDI-DrugBank.d638.s2.e4"
+            e2="DDI-DrugBank.d638.s2.e7" ddi="false"/>
+        <pair id="DDI-DrugBank.d638.s2.p37" e1="DDI-DrugBank.d638.s2.e4"
+            e2="DDI-DrugBank.d638.s2.e8" ddi="false"/>
+        <pair id="DDI-DrugBank.d638.s2.p38" e1="DDI-DrugBank.d638.s2.e4"
+            e2="DDI-DrugBank.d638.s2.e9" ddi="false"/>
+        <pair id="DDI-DrugBank.d638.s2.p39" e1="DDI-DrugBank.d638.s2.e4"
+            e2="DDI-DrugBank.d638.s2.e10" ddi="false"/>
+        <pair id="DDI-DrugBank.d638.s2.p40" e1="DDI-DrugBank.d638.s2.e5"
+            e2="DDI-DrugBank.d638.s2.e6" ddi="false"/>
+        <pair id="DDI-DrugBank.d638.s2.p41" e1="DDI-DrugBank.d638.s2.e5"
+            e2="DDI-DrugBank.d638.s2.e7" ddi="false"/>
+        <pair id="DDI-DrugBank.d638.s2.p42" e1="DDI-DrugBank.d638.s2.e5"
+            e2="DDI-DrugBank.d638.s2.e8" ddi="false"/>
+        <pair id="DDI-DrugBank.d638.s2.p43" e1="DDI-DrugBank.d638.s2.e5"
+            e2="DDI-DrugBank.d638.s2.e9" ddi="false"/>
+        <pair id="DDI-DrugBank.d638.s2.p44" e1="DDI-DrugBank.d638.s2.e5"
+            e2="DDI-DrugBank.d638.s2.e10" ddi="false"/>
+        <pair id="DDI-DrugBank.d638.s2.p45" e1="DDI-DrugBank.d638.s2.e6"
+            e2="DDI-DrugBank.d638.s2.e7" ddi="false"/>
+        <pair id="DDI-DrugBank.d638.s2.p46" e1="DDI-DrugBank.d638.s2.e6"
+            e2="DDI-DrugBank.d638.s2.e8" ddi="false"/>
+        <pair id="DDI-DrugBank.d638.s2.p47" e1="DDI-DrugBank.d638.s2.e6"
+            e2="DDI-DrugBank.d638.s2.e9" ddi="false"/>
+        <pair id="DDI-DrugBank.d638.s2.p48" e1="DDI-DrugBank.d638.s2.e6"
+            e2="DDI-DrugBank.d638.s2.e10" ddi="false"/>
+        <pair id="DDI-DrugBank.d638.s2.p49" e1="DDI-DrugBank.d638.s2.e7"
+            e2="DDI-DrugBank.d638.s2.e8" ddi="false"/>
+        <pair id="DDI-DrugBank.d638.s2.p50" e1="DDI-DrugBank.d638.s2.e7"
+            e2="DDI-DrugBank.d638.s2.e9" ddi="false"/>
+        <pair id="DDI-DrugBank.d638.s2.p51" e1="DDI-DrugBank.d638.s2.e7"
+            e2="DDI-DrugBank.d638.s2.e10" ddi="false"/>
+        <pair id="DDI-DrugBank.d638.s2.p52" e1="DDI-DrugBank.d638.s2.e8"
+            e2="DDI-DrugBank.d638.s2.e9" ddi="false"/>
+        <pair id="DDI-DrugBank.d638.s2.p53" e1="DDI-DrugBank.d638.s2.e8"
+            e2="DDI-DrugBank.d638.s2.e10" ddi="false"/>
+        <pair id="DDI-DrugBank.d638.s2.p54" e1="DDI-DrugBank.d638.s2.e9"
+            e2="DDI-DrugBank.d638.s2.e10" ddi="false"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d638.s3" text="Downward dosage adjustments of these drugs may be required when given concomitantly with Ritalin. ">
+        <entity id="DDI-DrugBank.d638.s3.e0" charOffset="89-95"
+            type="brand" text="Ritalin"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d638.s4" text="Serious adverse events have been reported in concomitant use with clonidine, although no causality for the combination has been established. ">
+        <entity id="DDI-DrugBank.d638.s4.e0" charOffset="66-74"
+            type="drug" text="clonidine"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d638.s5" text="The safety of using methylphenidate in combination with clonidine or other centrally acting alpha-2 agonists has not been systemically evaluated.    ">
+        <entity id="DDI-DrugBank.d638.s5.e0" charOffset="20-34"
+            type="drug" text="methylphenidate"/>
+        <entity id="DDI-DrugBank.d638.s5.e1" charOffset="56-64"
+            type="drug" text="clonidine"/>
+        <entity id="DDI-DrugBank.d638.s5.e2" charOffset="92-107"
+            type="group" text="alpha-2 agonists"/>
+        <pair id="DDI-DrugBank.d638.s5.p0" e1="DDI-DrugBank.d638.s5.e0"
+            e2="DDI-DrugBank.d638.s5.e1" ddi="false"/>
+        <pair id="DDI-DrugBank.d638.s5.p1" e1="DDI-DrugBank.d638.s5.e0"
+            e2="DDI-DrugBank.d638.s5.e2" ddi="false"/>
+        <pair id="DDI-DrugBank.d638.s5.p2" e1="DDI-DrugBank.d638.s5.e1"
+            e2="DDI-DrugBank.d638.s5.e2" ddi="false"/>
+    </sentence>
+</document>

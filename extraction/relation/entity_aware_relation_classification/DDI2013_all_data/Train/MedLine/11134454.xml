@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="DDI-MedLine.d36">
+    <sentence id="DDI-MedLine.d36.s0" text="Carbamazepine overdose recognized by a tricyclic antidepressant assay.&#xd;&#xa;">
+        <entity id="DDI-MedLine.d36.s0.e0" charOffset="0-12" type="drug" text="Carbamazepine"/>
+        <entity id="DDI-MedLine.d36.s0.e1" charOffset="39-62"
+            type="group" text="tricyclic antidepressant"/>
+        <pair id="DDI-MedLine.d36.s0.p0" e1="DDI-MedLine.d36.s0.e0"
+            e2="DDI-MedLine.d36.s0.e1" ddi="false"/>
+    </sentence>
+    <sentence id="DDI-MedLine.d36.s1" text="Altered mental status in an adolescent presents a diagnostic challenge, and the clinician depends on clinical evaluation and laboratory studies to determine therapy and prognosis. "/>
+    <sentence id="DDI-MedLine.d36.s2" text="We report the case of an adolescent with altered consciousness caused by carbamazepine overdose with a positive tricyclic antidepressant level to alert clinicians to the cross-reactivity of carbamazepine with a toxicology screen for tricyclic antidepressants.">
+        <entity id="DDI-MedLine.d36.s2.e0" charOffset="73-85"
+            type="drug" text="carbamazepine"/>
+        <entity id="DDI-MedLine.d36.s2.e1" charOffset="112-135"
+            type="group" text="tricyclic antidepressant"/>
+        <entity id="DDI-MedLine.d36.s2.e2" charOffset="190-202"
+            type="drug" text="carbamazepine"/>
+        <entity id="DDI-MedLine.d36.s2.e3" charOffset="233-257"
+            type="group" text="tricyclic antidepressants"/>
+        <pair id="DDI-MedLine.d36.s2.p0" e1="DDI-MedLine.d36.s2.e0"
+            e2="DDI-MedLine.d36.s2.e1" ddi="true" type="effect"/>
+        <pair id="DDI-MedLine.d36.s2.p1" e1="DDI-MedLine.d36.s2.e0"
+            e2="DDI-MedLine.d36.s2.e2" ddi="false"/>
+        <pair id="DDI-MedLine.d36.s2.p2" e1="DDI-MedLine.d36.s2.e0"
+            e2="DDI-MedLine.d36.s2.e3" ddi="false"/>
+        <pair id="DDI-MedLine.d36.s2.p3" e1="DDI-MedLine.d36.s2.e1"
+            e2="DDI-MedLine.d36.s2.e2" ddi="false"/>
+        <pair id="DDI-MedLine.d36.s2.p4" e1="DDI-MedLine.d36.s2.e1"
+            e2="DDI-MedLine.d36.s2.e3" ddi="false"/>
+        <pair id="DDI-MedLine.d36.s2.p5" e1="DDI-MedLine.d36.s2.e2"
+            e2="DDI-MedLine.d36.s2.e3" ddi="true" type="advise"/>
+    </sentence>
+</document>

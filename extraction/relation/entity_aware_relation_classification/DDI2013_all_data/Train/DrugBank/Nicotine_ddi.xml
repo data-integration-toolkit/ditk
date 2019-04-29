@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="DDI-DrugBank.d271">
+    <sentence id="DDI-DrugBank.d271.s0" text="Physiological changes resulting from smoking cessation, with or without nicotine replacement, may alter the pharmacokinetics of certain concomitant medications, such as tricyclic antidepressants and theophylline.">
+        <entity id="DDI-DrugBank.d271.s0.e0" charOffset="72-79"
+            type="drug" text="nicotine"/>
+        <entity id="DDI-DrugBank.d271.s0.e1" charOffset="169-193"
+            type="group" text="tricyclic antidepressants"/>
+        <entity id="DDI-DrugBank.d271.s0.e2" charOffset="199-210"
+            type="drug" text="theophylline"/>
+        <pair id="DDI-DrugBank.d271.s0.p0" e1="DDI-DrugBank.d271.s0.e0"
+            e2="DDI-DrugBank.d271.s0.e1" ddi="false"/>
+        <pair id="DDI-DrugBank.d271.s0.p1" e1="DDI-DrugBank.d271.s0.e0"
+            e2="DDI-DrugBank.d271.s0.e2" ddi="false"/>
+        <pair id="DDI-DrugBank.d271.s0.p2" e1="DDI-DrugBank.d271.s0.e1"
+            e2="DDI-DrugBank.d271.s0.e2" ddi="false"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d271.s1" text="Doses of these and perhaps other medications may need to be adjusted in patients who successfully quit smoking."/>
+</document>

@@ -1,0 +1,680 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="DDI-DrugBank.d124">
+    <sentence id="DDI-DrugBank.d124.s0" text="DRUG INTERACTIONS"/>
+    <sentence id="DDI-DrugBank.d124.s1" text="Several drug interaction studies have been completed with both INVIRASE and FORTOVASE.">
+        <entity id="DDI-DrugBank.d124.s1.e0" charOffset="63-70"
+            type="brand" text="INVIRASE"/>
+        <entity id="DDI-DrugBank.d124.s1.e1" charOffset="76-84"
+            type="brand" text="FORTOVASE"/>
+        <pair id="DDI-DrugBank.d124.s1.p0" e1="DDI-DrugBank.d124.s1.e0"
+            e2="DDI-DrugBank.d124.s1.e1" ddi="false"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d124.s2" text="Observations from drug interaction studies with FORTOVASE may not be predictive for INVIRASE.">
+        <entity id="DDI-DrugBank.d124.s2.e0" charOffset="48-56"
+            type="brand" text="FORTOVASE"/>
+        <entity id="DDI-DrugBank.d124.s2.e1" charOffset="84-91"
+            type="brand" text="INVIRASE"/>
+        <pair id="DDI-DrugBank.d124.s2.p0" e1="DDI-DrugBank.d124.s2.e0"
+            e2="DDI-DrugBank.d124.s2.e1" ddi="false"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d124.s3" text="Because ritonavir is coadministered, prescribers should also refer to the prescribing information for ritonavir regarding drug interactions associated with this agent.">
+        <entity id="DDI-DrugBank.d124.s3.e0" charOffset="8-16"
+            type="drug" text="ritonavir"/>
+        <entity id="DDI-DrugBank.d124.s3.e1" charOffset="102-110"
+            type="drug" text="ritonavir"/>
+        <pair id="DDI-DrugBank.d124.s3.p0" e1="DDI-DrugBank.d124.s3.e0"
+            e2="DDI-DrugBank.d124.s3.e1" ddi="false"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d124.s4" text="The metabolism of saquinavir is mediated by cytochrome P450, with the specific isoenzyme CYP3A4 responsible for 90% of the hepatic metabolism.">
+        <entity id="DDI-DrugBank.d124.s4.e0" charOffset="18-27"
+            type="drug" text="saquinavir"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d124.s5" text="Additionally, saquinavir is a substrate for P-Glycoprotein (Pgp).">
+        <entity id="DDI-DrugBank.d124.s5.e0" charOffset="14-23"
+            type="drug" text="saquinavir"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d124.s6" text="Therefore, drugs that affect CYP3A4 and/or Pgp, may modify the pharmacokinetics of saquinavir.">
+        <entity id="DDI-DrugBank.d124.s6.e0" charOffset="83-92"
+            type="drug" text="saquinavir"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d124.s7" text="Similarly, saquinavir might also modify the pharmacokinetics of other drugs that are substrates for CYP3A4 or Pgp.">
+        <entity id="DDI-DrugBank.d124.s7.e0" charOffset="11-20"
+            type="drug" text="saquinavir"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d124.s8" text="Drugs that are contraindicated specifically due to the expected magnitude of interaction and potential for serious adverse events are listed CONTRAINDICATIONS."/>
+    <sentence id="DDI-DrugBank.d124.s9" text="Additional drugs that are not recommended for coadministration with INVIRASE and ritonavir are included below.">
+        <entity id="DDI-DrugBank.d124.s9.e0" charOffset="68-75"
+            type="brand" text="INVIRASE"/>
+        <entity id="DDI-DrugBank.d124.s9.e1" charOffset="81-89"
+            type="drug" text="ritonavir"/>
+        <pair id="DDI-DrugBank.d124.s9.p0" e1="DDI-DrugBank.d124.s9.e0"
+            e2="DDI-DrugBank.d124.s9.e1" ddi="false"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d124.s10" text="These recommendations are based on either drug interaction studies or predicted interactions due to the expected magnitude of interaction and potential for serious events or loss of efficacy."/>
+    <sentence id="DDI-DrugBank.d124.s11" text="With some agents, the metabolism may be induced, resulting in decreased concentrations."/>
+    <sentence id="DDI-DrugBank.d124.s12" text="Drugs That Should Not Be Coadministered With INVIRASE/Ritonavir">
+        <entity id="DDI-DrugBank.d124.s12.e0" charOffset="45-52"
+            type="brand" text="INVIRASE"/>
+        <entity id="DDI-DrugBank.d124.s12.e1" charOffset="54-62"
+            type="drug" text="Ritonavir"/>
+        <pair id="DDI-DrugBank.d124.s12.p0"
+            e1="DDI-DrugBank.d124.s12.e0" e2="DDI-DrugBank.d124.s12.e1" ddi="false"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d124.s13" text="Drug Class: Drug Name Clinical Comment"/>
+    <sentence id="DDI-DrugBank.d124.s14" text="Antiarrhythmics: Amiodarone, bepridil, flecainide, propafenone, quinidine CONTRAINDICATED due to potential for serious and/or life-threatening reactions.">
+        <entity id="DDI-DrugBank.d124.s14.e0" charOffset="0-14"
+            type="group" text="Antiarrhythmics"/>
+        <entity id="DDI-DrugBank.d124.s14.e1" charOffset="17-26"
+            type="drug" text="Amiodarone"/>
+        <entity id="DDI-DrugBank.d124.s14.e2" charOffset="29-36"
+            type="drug" text="bepridil"/>
+        <entity id="DDI-DrugBank.d124.s14.e3" charOffset="39-48"
+            type="drug" text="flecainide"/>
+        <entity id="DDI-DrugBank.d124.s14.e4" charOffset="51-61"
+            type="drug" text="propafenone"/>
+        <entity id="DDI-DrugBank.d124.s14.e5" charOffset="64-72"
+            type="drug" text="quinidine"/>
+        <pair id="DDI-DrugBank.d124.s14.p0"
+            e1="DDI-DrugBank.d124.s14.e0" e2="DDI-DrugBank.d124.s14.e1" ddi="false"/>
+        <pair id="DDI-DrugBank.d124.s14.p1"
+            e1="DDI-DrugBank.d124.s14.e0" e2="DDI-DrugBank.d124.s14.e2" ddi="false"/>
+        <pair id="DDI-DrugBank.d124.s14.p2"
+            e1="DDI-DrugBank.d124.s14.e0" e2="DDI-DrugBank.d124.s14.e3" ddi="false"/>
+        <pair id="DDI-DrugBank.d124.s14.p3"
+            e1="DDI-DrugBank.d124.s14.e0" e2="DDI-DrugBank.d124.s14.e4" ddi="false"/>
+        <pair id="DDI-DrugBank.d124.s14.p4"
+            e1="DDI-DrugBank.d124.s14.e0" e2="DDI-DrugBank.d124.s14.e5" ddi="false"/>
+        <pair id="DDI-DrugBank.d124.s14.p5"
+            e1="DDI-DrugBank.d124.s14.e1" e2="DDI-DrugBank.d124.s14.e2" ddi="false"/>
+        <pair id="DDI-DrugBank.d124.s14.p6"
+            e1="DDI-DrugBank.d124.s14.e1" e2="DDI-DrugBank.d124.s14.e3" ddi="false"/>
+        <pair id="DDI-DrugBank.d124.s14.p7"
+            e1="DDI-DrugBank.d124.s14.e1" e2="DDI-DrugBank.d124.s14.e4" ddi="false"/>
+        <pair id="DDI-DrugBank.d124.s14.p8"
+            e1="DDI-DrugBank.d124.s14.e1" e2="DDI-DrugBank.d124.s14.e5" ddi="false"/>
+        <pair id="DDI-DrugBank.d124.s14.p9"
+            e1="DDI-DrugBank.d124.s14.e2" e2="DDI-DrugBank.d124.s14.e3" ddi="false"/>
+        <pair id="DDI-DrugBank.d124.s14.p10"
+            e1="DDI-DrugBank.d124.s14.e2" e2="DDI-DrugBank.d124.s14.e4" ddi="false"/>
+        <pair id="DDI-DrugBank.d124.s14.p11"
+            e1="DDI-DrugBank.d124.s14.e2" e2="DDI-DrugBank.d124.s14.e5" ddi="false"/>
+        <pair id="DDI-DrugBank.d124.s14.p12"
+            e1="DDI-DrugBank.d124.s14.e3" e2="DDI-DrugBank.d124.s14.e4" ddi="false"/>
+        <pair id="DDI-DrugBank.d124.s14.p13"
+            e1="DDI-DrugBank.d124.s14.e3" e2="DDI-DrugBank.d124.s14.e5" ddi="false"/>
+        <pair id="DDI-DrugBank.d124.s14.p14"
+            e1="DDI-DrugBank.d124.s14.e4" e2="DDI-DrugBank.d124.s14.e5" ddi="false"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d124.s15" text="Antihistamines: astemizole*, terfenadine* CONTRAINDICATED due to potential for serious and/or life-threatening cardiac arrhythmias.">
+        <entity id="DDI-DrugBank.d124.s15.e0" charOffset="0-13"
+            type="drug" text="Antihistamines"/>
+        <entity id="DDI-DrugBank.d124.s15.e1" charOffset="16-25"
+            type="drug" text="astemizole"/>
+        <entity id="DDI-DrugBank.d124.s15.e2" charOffset="29-39"
+            type="drug" text="terfenadine"/>
+        <pair id="DDI-DrugBank.d124.s15.p0"
+            e1="DDI-DrugBank.d124.s15.e0" e2="DDI-DrugBank.d124.s15.e1" ddi="false"/>
+        <pair id="DDI-DrugBank.d124.s15.p1"
+            e1="DDI-DrugBank.d124.s15.e0" e2="DDI-DrugBank.d124.s15.e2" ddi="false"/>
+        <pair id="DDI-DrugBank.d124.s15.p2"
+            e1="DDI-DrugBank.d124.s15.e1" e2="DDI-DrugBank.d124.s15.e2" ddi="false"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d124.s16" text="Ergot Derivatives: Dihydroergotamine, ergonovine, ergotamine, methylergonovine CONTRAINDICATED due to potential for serious and life-threatening reactions such as acute ergot toxicity characterized by peripheral vasospasm and ischemia of the extremities and other tissues.">
+        <entity id="DDI-DrugBank.d124.s16.e0" charOffset="0-16"
+            type="group" text="Ergot Derivatives"/>
+        <entity id="DDI-DrugBank.d124.s16.e1" charOffset="19-35"
+            type="drug" text="Dihydroergotamine"/>
+        <entity id="DDI-DrugBank.d124.s16.e2" charOffset="38-47"
+            type="drug" text="ergonovine"/>
+        <entity id="DDI-DrugBank.d124.s16.e3" charOffset="50-59"
+            type="drug" text="ergotamine"/>
+        <entity id="DDI-DrugBank.d124.s16.e4" charOffset="62-77"
+            type="drug" text="methylergonovine"/>
+        <entity id="DDI-DrugBank.d124.s16.e5" charOffset="169-173"
+            type="group" text="ergot"/>
+        <pair id="DDI-DrugBank.d124.s16.p0"
+            e1="DDI-DrugBank.d124.s16.e0" e2="DDI-DrugBank.d124.s16.e1" ddi="false"/>
+        <pair id="DDI-DrugBank.d124.s16.p1"
+            e1="DDI-DrugBank.d124.s16.e0" e2="DDI-DrugBank.d124.s16.e2" ddi="false"/>
+        <pair id="DDI-DrugBank.d124.s16.p2"
+            e1="DDI-DrugBank.d124.s16.e0" e2="DDI-DrugBank.d124.s16.e3" ddi="false"/>
+        <pair id="DDI-DrugBank.d124.s16.p3"
+            e1="DDI-DrugBank.d124.s16.e0" e2="DDI-DrugBank.d124.s16.e4" ddi="false"/>
+        <pair id="DDI-DrugBank.d124.s16.p4"
+            e1="DDI-DrugBank.d124.s16.e0" e2="DDI-DrugBank.d124.s16.e5" ddi="false"/>
+        <pair id="DDI-DrugBank.d124.s16.p5"
+            e1="DDI-DrugBank.d124.s16.e1" e2="DDI-DrugBank.d124.s16.e2" ddi="false"/>
+        <pair id="DDI-DrugBank.d124.s16.p6"
+            e1="DDI-DrugBank.d124.s16.e1" e2="DDI-DrugBank.d124.s16.e3" ddi="false"/>
+        <pair id="DDI-DrugBank.d124.s16.p7"
+            e1="DDI-DrugBank.d124.s16.e1" e2="DDI-DrugBank.d124.s16.e4" ddi="false"/>
+        <pair id="DDI-DrugBank.d124.s16.p8"
+            e1="DDI-DrugBank.d124.s16.e1" e2="DDI-DrugBank.d124.s16.e5" ddi="false"/>
+        <pair id="DDI-DrugBank.d124.s16.p9"
+            e1="DDI-DrugBank.d124.s16.e2" e2="DDI-DrugBank.d124.s16.e3" ddi="false"/>
+        <pair id="DDI-DrugBank.d124.s16.p10"
+            e1="DDI-DrugBank.d124.s16.e2" e2="DDI-DrugBank.d124.s16.e4" ddi="false"/>
+        <pair id="DDI-DrugBank.d124.s16.p11"
+            e1="DDI-DrugBank.d124.s16.e2" e2="DDI-DrugBank.d124.s16.e5" ddi="false"/>
+        <pair id="DDI-DrugBank.d124.s16.p12"
+            e1="DDI-DrugBank.d124.s16.e3" e2="DDI-DrugBank.d124.s16.e4" ddi="false"/>
+        <pair id="DDI-DrugBank.d124.s16.p13"
+            e1="DDI-DrugBank.d124.s16.e3" e2="DDI-DrugBank.d124.s16.e5" ddi="false"/>
+        <pair id="DDI-DrugBank.d124.s16.p14"
+            e1="DDI-DrugBank.d124.s16.e4" e2="DDI-DrugBank.d124.s16.e5" ddi="false"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d124.s17" text="Antimycobacterial Agents: rifampin CONTRAINDICATED since the coadministration of this product with saquinavir in an antiretroviral regimen reduces the plasma concentrations of saquinavir.">
+        <entity id="DDI-DrugBank.d124.s17.e0" charOffset="0-23"
+            type="group" text="Antimycobacterial Agents"/>
+        <entity id="DDI-DrugBank.d124.s17.e1" charOffset="26-33"
+            type="drug" text="rifampin"/>
+        <entity id="DDI-DrugBank.d124.s17.e2" charOffset="99-108"
+            type="drug" text="saquinavir"/>
+        <entity id="DDI-DrugBank.d124.s17.e3" charOffset="116-129"
+            type="group" text="antiretroviral"/>
+        <entity id="DDI-DrugBank.d124.s17.e4" charOffset="176-185"
+            type="drug" text="saquinavir"/>
+        <pair id="DDI-DrugBank.d124.s17.p0"
+            e1="DDI-DrugBank.d124.s17.e0" e2="DDI-DrugBank.d124.s17.e1" ddi="false"/>
+        <pair id="DDI-DrugBank.d124.s17.p1"
+            e1="DDI-DrugBank.d124.s17.e0" e2="DDI-DrugBank.d124.s17.e2" ddi="false"/>
+        <pair id="DDI-DrugBank.d124.s17.p2"
+            e1="DDI-DrugBank.d124.s17.e0" e2="DDI-DrugBank.d124.s17.e3" ddi="false"/>
+        <pair id="DDI-DrugBank.d124.s17.p3"
+            e1="DDI-DrugBank.d124.s17.e0" e2="DDI-DrugBank.d124.s17.e4" ddi="false"/>
+        <pair id="DDI-DrugBank.d124.s17.p4"
+            e1="DDI-DrugBank.d124.s17.e1" e2="DDI-DrugBank.d124.s17.e2" ddi="false"/>
+        <pair id="DDI-DrugBank.d124.s17.p5"
+            e1="DDI-DrugBank.d124.s17.e1" e2="DDI-DrugBank.d124.s17.e3" ddi="false"/>
+        <pair id="DDI-DrugBank.d124.s17.p6"
+            e1="DDI-DrugBank.d124.s17.e1" e2="DDI-DrugBank.d124.s17.e4" ddi="false"/>
+        <pair id="DDI-DrugBank.d124.s17.p7"
+            e1="DDI-DrugBank.d124.s17.e2" e2="DDI-DrugBank.d124.s17.e3" ddi="false"/>
+        <pair id="DDI-DrugBank.d124.s17.p8"
+            e1="DDI-DrugBank.d124.s17.e2" e2="DDI-DrugBank.d124.s17.e4" ddi="false"/>
+        <pair id="DDI-DrugBank.d124.s17.p9"
+            e1="DDI-DrugBank.d124.s17.e3" e2="DDI-DrugBank.d124.s17.e4" ddi="false"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d124.s18" text="Garlic Capsules Garlic capsules should not be used while taking saquinavir (FORTOVASE) as the sole protease inhibitor due to the risk of decreased saquinavir plasma concentrations.">
+        <entity id="DDI-DrugBank.d124.s18.e0" charOffset="64-73"
+            type="drug" text="saquinavir"/>
+        <entity id="DDI-DrugBank.d124.s18.e1" charOffset="76-84"
+            type="brand" text="FORTOVASE"/>
+        <entity id="DDI-DrugBank.d124.s18.e2" charOffset="99-116"
+            type="group" text="protease inhibitor"/>
+        <entity id="DDI-DrugBank.d124.s18.e3" charOffset="147-156"
+            type="drug" text="saquinavir"/>
+        <pair id="DDI-DrugBank.d124.s18.p0"
+            e1="DDI-DrugBank.d124.s18.e0" e2="DDI-DrugBank.d124.s18.e1" ddi="false"/>
+        <pair id="DDI-DrugBank.d124.s18.p1"
+            e1="DDI-DrugBank.d124.s18.e0" e2="DDI-DrugBank.d124.s18.e2" ddi="false"/>
+        <pair id="DDI-DrugBank.d124.s18.p2"
+            e1="DDI-DrugBank.d124.s18.e0" e2="DDI-DrugBank.d124.s18.e3" ddi="false"/>
+        <pair id="DDI-DrugBank.d124.s18.p3"
+            e1="DDI-DrugBank.d124.s18.e1" e2="DDI-DrugBank.d124.s18.e2" ddi="false"/>
+        <pair id="DDI-DrugBank.d124.s18.p4"
+            e1="DDI-DrugBank.d124.s18.e1" e2="DDI-DrugBank.d124.s18.e3" ddi="false"/>
+        <pair id="DDI-DrugBank.d124.s18.p5"
+            e1="DDI-DrugBank.d124.s18.e2" e2="DDI-DrugBank.d124.s18.e3" ddi="false"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d124.s19" text="No data are available for the coadministration of INVIRASE/ritonavir or FORTOVASE/ritonavir and garlic capsules.">
+        <entity id="DDI-DrugBank.d124.s19.e0" charOffset="50-57"
+            type="brand" text="INVIRASE"/>
+        <entity id="DDI-DrugBank.d124.s19.e1" charOffset="59-67"
+            type="drug" text="ritonavir"/>
+        <entity id="DDI-DrugBank.d124.s19.e2" charOffset="72-80"
+            type="brand" text="FORTOVASE"/>
+        <entity id="DDI-DrugBank.d124.s19.e3" charOffset="82-90"
+            type="drug" text="ritonavir"/>
+        <pair id="DDI-DrugBank.d124.s19.p0"
+            e1="DDI-DrugBank.d124.s19.e0" e2="DDI-DrugBank.d124.s19.e1" ddi="false"/>
+        <pair id="DDI-DrugBank.d124.s19.p1"
+            e1="DDI-DrugBank.d124.s19.e0" e2="DDI-DrugBank.d124.s19.e2" ddi="false"/>
+        <pair id="DDI-DrugBank.d124.s19.p2"
+            e1="DDI-DrugBank.d124.s19.e0" e2="DDI-DrugBank.d124.s19.e3" ddi="false"/>
+        <pair id="DDI-DrugBank.d124.s19.p3"
+            e1="DDI-DrugBank.d124.s19.e1" e2="DDI-DrugBank.d124.s19.e2" ddi="false"/>
+        <pair id="DDI-DrugBank.d124.s19.p4"
+            e1="DDI-DrugBank.d124.s19.e1" e2="DDI-DrugBank.d124.s19.e3" ddi="false"/>
+        <pair id="DDI-DrugBank.d124.s19.p5"
+            e1="DDI-DrugBank.d124.s19.e2" e2="DDI-DrugBank.d124.s19.e3" ddi="false"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d124.s20" text="GI Motility Agent: cisapride* CONTRAINDICATED due to potential for serious and/or life-threatening reactions such as cardiac arrhythmias.">
+        <entity id="DDI-DrugBank.d124.s20.e0" charOffset="19-27"
+            type="drug" text="cisapride"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d124.s21" text="Herbal Products: St. John s wort (hypericum perforatum) WARNING coadministration may lead to loss of virologic response and possible resistance to INVIRASE or to the class of protease inhibitors.">
+        <entity id="DDI-DrugBank.d124.s21.e0" charOffset="147-154"
+            type="brand" text="INVIRASE"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d124.s22" text="HMG-CoA Reductase Inhibitors: lovastatin, simvastatin WARNING potential for serious reactions such as risk of myopathy including rhabdomyolysis.">
+        <entity id="DDI-DrugBank.d124.s22.e0" charOffset="0-27"
+            type="group" text="HMG-CoA Reductase Inhibitors"/>
+        <entity id="DDI-DrugBank.d124.s22.e1" charOffset="30-39"
+            type="drug" text="lovastatin"/>
+        <entity id="DDI-DrugBank.d124.s22.e2" charOffset="42-52"
+            type="drug" text="simvastatin"/>
+        <pair id="DDI-DrugBank.d124.s22.p0"
+            e1="DDI-DrugBank.d124.s22.e0" e2="DDI-DrugBank.d124.s22.e1" ddi="false"/>
+        <pair id="DDI-DrugBank.d124.s22.p1"
+            e1="DDI-DrugBank.d124.s22.e0" e2="DDI-DrugBank.d124.s22.e2" ddi="false"/>
+        <pair id="DDI-DrugBank.d124.s22.p2"
+            e1="DDI-DrugBank.d124.s22.e1" e2="DDI-DrugBank.d124.s22.e2" ddi="false"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d124.s23" text="Sedatives/Hypnotics: triazolam, midazolam CONTRAINDICATED due to potential for serious and/or life-threatening reactions such as prolonged or increased sedation or respiratory depression.">
+        <entity id="DDI-DrugBank.d124.s23.e0" charOffset="0-8"
+            type="group" text="Sedatives"/>
+        <entity id="DDI-DrugBank.d124.s23.e1" charOffset="10-18"
+            type="group" text="Hypnotics"/>
+        <entity id="DDI-DrugBank.d124.s23.e2" charOffset="21-29"
+            type="drug" text="triazolam"/>
+        <entity id="DDI-DrugBank.d124.s23.e3" charOffset="32-40"
+            type="drug" text="midazolam"/>
+        <pair id="DDI-DrugBank.d124.s23.p0"
+            e1="DDI-DrugBank.d124.s23.e0" e2="DDI-DrugBank.d124.s23.e1" ddi="false"/>
+        <pair id="DDI-DrugBank.d124.s23.p1"
+            e1="DDI-DrugBank.d124.s23.e0" e2="DDI-DrugBank.d124.s23.e2" ddi="false"/>
+        <pair id="DDI-DrugBank.d124.s23.p2"
+            e1="DDI-DrugBank.d124.s23.e0" e2="DDI-DrugBank.d124.s23.e3" ddi="false"/>
+        <pair id="DDI-DrugBank.d124.s23.p3"
+            e1="DDI-DrugBank.d124.s23.e1" e2="DDI-DrugBank.d124.s23.e2" ddi="false"/>
+        <pair id="DDI-DrugBank.d124.s23.p4"
+            e1="DDI-DrugBank.d124.s23.e1" e2="DDI-DrugBank.d124.s23.e3" ddi="false"/>
+        <pair id="DDI-DrugBank.d124.s23.p5"
+            e1="DDI-DrugBank.d124.s23.e2" e2="DDI-DrugBank.d124.s23.e3" ddi="false"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d124.s24" text="* No longer marketed in the US."/>
+    <sentence id="DDI-DrugBank.d124.s25" text="Drugs That Are Mainly Metabolized by CYP3A4"/>
+    <sentence id="DDI-DrugBank.d124.s26" text="Although specific studies have not been performed, coadministration with drugs that are mainly metabolized by CYP3A4 (eg, calcium channel blockers, dapsone, disopyramide, quinine, amiodarone, quinidine, warfarin, tacrolimus, cyclosporine, ergot derivatives, pimozide, carbamazepine, fentanyl, alfentanyl, alprazolam, and triazolam) may have elevated plasma concentrations when coadministered with saquinavir;">
+        <entity id="DDI-DrugBank.d124.s26.e0" charOffset="122-145"
+            type="group" text="calcium channel blockers"/>
+        <entity id="DDI-DrugBank.d124.s26.e1" charOffset="148-154"
+            type="drug" text="dapsone"/>
+        <entity id="DDI-DrugBank.d124.s26.e2" charOffset="157-168"
+            type="drug" text="disopyramide"/>
+        <entity id="DDI-DrugBank.d124.s26.e3" charOffset="171-177"
+            type="drug" text="quinine"/>
+        <entity id="DDI-DrugBank.d124.s26.e4" charOffset="180-189"
+            type="drug" text="amiodarone"/>
+        <entity id="DDI-DrugBank.d124.s26.e5" charOffset="192-200"
+            type="drug" text="quinidine"/>
+        <entity id="DDI-DrugBank.d124.s26.e6" charOffset="203-210"
+            type="drug" text="warfarin"/>
+        <entity id="DDI-DrugBank.d124.s26.e7" charOffset="213-222"
+            type="drug" text="tacrolimus"/>
+        <entity id="DDI-DrugBank.d124.s26.e8" charOffset="225-236"
+            type="drug" text="cyclosporine"/>
+        <entity id="DDI-DrugBank.d124.s26.e9" charOffset="239-255"
+            type="group" text="ergot derivatives"/>
+        <entity id="DDI-DrugBank.d124.s26.e10" charOffset="258-265"
+            type="drug" text="pimozide"/>
+        <entity id="DDI-DrugBank.d124.s26.e11" charOffset="268-280"
+            type="drug" text="carbamazepine"/>
+        <entity id="DDI-DrugBank.d124.s26.e12" charOffset="283-290"
+            type="drug" text="fentanyl"/>
+        <entity id="DDI-DrugBank.d124.s26.e13" charOffset="293-302"
+            type="drug" text="alfentanyl"/>
+        <entity id="DDI-DrugBank.d124.s26.e14" charOffset="305-314"
+            type="drug" text="alprazolam"/>
+        <entity id="DDI-DrugBank.d124.s26.e15" charOffset="321-329"
+            type="drug" text="triazolam"/>
+        <entity id="DDI-DrugBank.d124.s26.e16" charOffset="397-406"
+            type="drug" text="saquinavir"/>
+        <pair id="DDI-DrugBank.d124.s26.p0"
+            e1="DDI-DrugBank.d124.s26.e0" e2="DDI-DrugBank.d124.s26.e1" ddi="false"/>
+        <pair id="DDI-DrugBank.d124.s26.p1"
+            e1="DDI-DrugBank.d124.s26.e0" e2="DDI-DrugBank.d124.s26.e2" ddi="false"/>
+        <pair id="DDI-DrugBank.d124.s26.p2"
+            e1="DDI-DrugBank.d124.s26.e0" e2="DDI-DrugBank.d124.s26.e3" ddi="false"/>
+        <pair id="DDI-DrugBank.d124.s26.p3"
+            e1="DDI-DrugBank.d124.s26.e0" e2="DDI-DrugBank.d124.s26.e4" ddi="false"/>
+        <pair id="DDI-DrugBank.d124.s26.p4"
+            e1="DDI-DrugBank.d124.s26.e0" e2="DDI-DrugBank.d124.s26.e5" ddi="false"/>
+        <pair id="DDI-DrugBank.d124.s26.p5"
+            e1="DDI-DrugBank.d124.s26.e0" e2="DDI-DrugBank.d124.s26.e6" ddi="false"/>
+        <pair id="DDI-DrugBank.d124.s26.p6"
+            e1="DDI-DrugBank.d124.s26.e0" e2="DDI-DrugBank.d124.s26.e7" ddi="false"/>
+        <pair id="DDI-DrugBank.d124.s26.p7"
+            e1="DDI-DrugBank.d124.s26.e0" e2="DDI-DrugBank.d124.s26.e8" ddi="false"/>
+        <pair id="DDI-DrugBank.d124.s26.p8"
+            e1="DDI-DrugBank.d124.s26.e0" e2="DDI-DrugBank.d124.s26.e9" ddi="false"/>
+        <pair id="DDI-DrugBank.d124.s26.p9"
+            e1="DDI-DrugBank.d124.s26.e0" e2="DDI-DrugBank.d124.s26.e10" ddi="false"/>
+        <pair id="DDI-DrugBank.d124.s26.p10"
+            e1="DDI-DrugBank.d124.s26.e0" e2="DDI-DrugBank.d124.s26.e11" ddi="false"/>
+        <pair id="DDI-DrugBank.d124.s26.p11"
+            e1="DDI-DrugBank.d124.s26.e0" e2="DDI-DrugBank.d124.s26.e12" ddi="false"/>
+        <pair id="DDI-DrugBank.d124.s26.p12"
+            e1="DDI-DrugBank.d124.s26.e0" e2="DDI-DrugBank.d124.s26.e13" ddi="false"/>
+        <pair id="DDI-DrugBank.d124.s26.p13"
+            e1="DDI-DrugBank.d124.s26.e0" e2="DDI-DrugBank.d124.s26.e14" ddi="false"/>
+        <pair id="DDI-DrugBank.d124.s26.p14"
+            e1="DDI-DrugBank.d124.s26.e0" e2="DDI-DrugBank.d124.s26.e15" ddi="false"/>
+        <pair id="DDI-DrugBank.d124.s26.p15"
+            e1="DDI-DrugBank.d124.s26.e0" e2="DDI-DrugBank.d124.s26.e16"
+            ddi="true" type="mechanism"/>
+        <pair id="DDI-DrugBank.d124.s26.p16"
+            e1="DDI-DrugBank.d124.s26.e1" e2="DDI-DrugBank.d124.s26.e2" ddi="false"/>
+        <pair id="DDI-DrugBank.d124.s26.p17"
+            e1="DDI-DrugBank.d124.s26.e1" e2="DDI-DrugBank.d124.s26.e3" ddi="false"/>
+        <pair id="DDI-DrugBank.d124.s26.p18"
+            e1="DDI-DrugBank.d124.s26.e1" e2="DDI-DrugBank.d124.s26.e4" ddi="false"/>
+        <pair id="DDI-DrugBank.d124.s26.p19"
+            e1="DDI-DrugBank.d124.s26.e1" e2="DDI-DrugBank.d124.s26.e5" ddi="false"/>
+        <pair id="DDI-DrugBank.d124.s26.p20"
+            e1="DDI-DrugBank.d124.s26.e1" e2="DDI-DrugBank.d124.s26.e6" ddi="false"/>
+        <pair id="DDI-DrugBank.d124.s26.p21"
+            e1="DDI-DrugBank.d124.s26.e1" e2="DDI-DrugBank.d124.s26.e7" ddi="false"/>
+        <pair id="DDI-DrugBank.d124.s26.p22"
+            e1="DDI-DrugBank.d124.s26.e1" e2="DDI-DrugBank.d124.s26.e8" ddi="false"/>
+        <pair id="DDI-DrugBank.d124.s26.p23"
+            e1="DDI-DrugBank.d124.s26.e1" e2="DDI-DrugBank.d124.s26.e9" ddi="false"/>
+        <pair id="DDI-DrugBank.d124.s26.p24"
+            e1="DDI-DrugBank.d124.s26.e1" e2="DDI-DrugBank.d124.s26.e10" ddi="false"/>
+        <pair id="DDI-DrugBank.d124.s26.p25"
+            e1="DDI-DrugBank.d124.s26.e1" e2="DDI-DrugBank.d124.s26.e11" ddi="false"/>
+        <pair id="DDI-DrugBank.d124.s26.p26"
+            e1="DDI-DrugBank.d124.s26.e1" e2="DDI-DrugBank.d124.s26.e12" ddi="false"/>
+        <pair id="DDI-DrugBank.d124.s26.p27"
+            e1="DDI-DrugBank.d124.s26.e1" e2="DDI-DrugBank.d124.s26.e13" ddi="false"/>
+        <pair id="DDI-DrugBank.d124.s26.p28"
+            e1="DDI-DrugBank.d124.s26.e1" e2="DDI-DrugBank.d124.s26.e14" ddi="false"/>
+        <pair id="DDI-DrugBank.d124.s26.p29"
+            e1="DDI-DrugBank.d124.s26.e1" e2="DDI-DrugBank.d124.s26.e15" ddi="false"/>
+        <pair id="DDI-DrugBank.d124.s26.p30"
+            e1="DDI-DrugBank.d124.s26.e1" e2="DDI-DrugBank.d124.s26.e16"
+            ddi="true" type="mechanism"/>
+        <pair id="DDI-DrugBank.d124.s26.p31"
+            e1="DDI-DrugBank.d124.s26.e2" e2="DDI-DrugBank.d124.s26.e3" ddi="false"/>
+        <pair id="DDI-DrugBank.d124.s26.p32"
+            e1="DDI-DrugBank.d124.s26.e2" e2="DDI-DrugBank.d124.s26.e4" ddi="false"/>
+        <pair id="DDI-DrugBank.d124.s26.p33"
+            e1="DDI-DrugBank.d124.s26.e2" e2="DDI-DrugBank.d124.s26.e5" ddi="false"/>
+        <pair id="DDI-DrugBank.d124.s26.p34"
+            e1="DDI-DrugBank.d124.s26.e2" e2="DDI-DrugBank.d124.s26.e6" ddi="false"/>
+        <pair id="DDI-DrugBank.d124.s26.p35"
+            e1="DDI-DrugBank.d124.s26.e2" e2="DDI-DrugBank.d124.s26.e7" ddi="false"/>
+        <pair id="DDI-DrugBank.d124.s26.p36"
+            e1="DDI-DrugBank.d124.s26.e2" e2="DDI-DrugBank.d124.s26.e8" ddi="false"/>
+        <pair id="DDI-DrugBank.d124.s26.p37"
+            e1="DDI-DrugBank.d124.s26.e2" e2="DDI-DrugBank.d124.s26.e9" ddi="false"/>
+        <pair id="DDI-DrugBank.d124.s26.p38"
+            e1="DDI-DrugBank.d124.s26.e2" e2="DDI-DrugBank.d124.s26.e10" ddi="false"/>
+        <pair id="DDI-DrugBank.d124.s26.p39"
+            e1="DDI-DrugBank.d124.s26.e2" e2="DDI-DrugBank.d124.s26.e11" ddi="false"/>
+        <pair id="DDI-DrugBank.d124.s26.p40"
+            e1="DDI-DrugBank.d124.s26.e2" e2="DDI-DrugBank.d124.s26.e12" ddi="false"/>
+        <pair id="DDI-DrugBank.d124.s26.p41"
+            e1="DDI-DrugBank.d124.s26.e2" e2="DDI-DrugBank.d124.s26.e13" ddi="false"/>
+        <pair id="DDI-DrugBank.d124.s26.p42"
+            e1="DDI-DrugBank.d124.s26.e2" e2="DDI-DrugBank.d124.s26.e14" ddi="false"/>
+        <pair id="DDI-DrugBank.d124.s26.p43"
+            e1="DDI-DrugBank.d124.s26.e2" e2="DDI-DrugBank.d124.s26.e15" ddi="false"/>
+        <pair id="DDI-DrugBank.d124.s26.p44"
+            e1="DDI-DrugBank.d124.s26.e2" e2="DDI-DrugBank.d124.s26.e16"
+            ddi="true" type="mechanism"/>
+        <pair id="DDI-DrugBank.d124.s26.p45"
+            e1="DDI-DrugBank.d124.s26.e3" e2="DDI-DrugBank.d124.s26.e4" ddi="false"/>
+        <pair id="DDI-DrugBank.d124.s26.p46"
+            e1="DDI-DrugBank.d124.s26.e3" e2="DDI-DrugBank.d124.s26.e5" ddi="false"/>
+        <pair id="DDI-DrugBank.d124.s26.p47"
+            e1="DDI-DrugBank.d124.s26.e3" e2="DDI-DrugBank.d124.s26.e6" ddi="false"/>
+        <pair id="DDI-DrugBank.d124.s26.p48"
+            e1="DDI-DrugBank.d124.s26.e3" e2="DDI-DrugBank.d124.s26.e7" ddi="false"/>
+        <pair id="DDI-DrugBank.d124.s26.p49"
+            e1="DDI-DrugBank.d124.s26.e3" e2="DDI-DrugBank.d124.s26.e8" ddi="false"/>
+        <pair id="DDI-DrugBank.d124.s26.p50"
+            e1="DDI-DrugBank.d124.s26.e3" e2="DDI-DrugBank.d124.s26.e9" ddi="false"/>
+        <pair id="DDI-DrugBank.d124.s26.p51"
+            e1="DDI-DrugBank.d124.s26.e3" e2="DDI-DrugBank.d124.s26.e10" ddi="false"/>
+        <pair id="DDI-DrugBank.d124.s26.p52"
+            e1="DDI-DrugBank.d124.s26.e3" e2="DDI-DrugBank.d124.s26.e11" ddi="false"/>
+        <pair id="DDI-DrugBank.d124.s26.p53"
+            e1="DDI-DrugBank.d124.s26.e3" e2="DDI-DrugBank.d124.s26.e12" ddi="false"/>
+        <pair id="DDI-DrugBank.d124.s26.p54"
+            e1="DDI-DrugBank.d124.s26.e3" e2="DDI-DrugBank.d124.s26.e13" ddi="false"/>
+        <pair id="DDI-DrugBank.d124.s26.p55"
+            e1="DDI-DrugBank.d124.s26.e3" e2="DDI-DrugBank.d124.s26.e14" ddi="false"/>
+        <pair id="DDI-DrugBank.d124.s26.p56"
+            e1="DDI-DrugBank.d124.s26.e3" e2="DDI-DrugBank.d124.s26.e15" ddi="false"/>
+        <pair id="DDI-DrugBank.d124.s26.p57"
+            e1="DDI-DrugBank.d124.s26.e3" e2="DDI-DrugBank.d124.s26.e16"
+            ddi="true" type="mechanism"/>
+        <pair id="DDI-DrugBank.d124.s26.p58"
+            e1="DDI-DrugBank.d124.s26.e4" e2="DDI-DrugBank.d124.s26.e5" ddi="false"/>
+        <pair id="DDI-DrugBank.d124.s26.p59"
+            e1="DDI-DrugBank.d124.s26.e4" e2="DDI-DrugBank.d124.s26.e6" ddi="false"/>
+        <pair id="DDI-DrugBank.d124.s26.p60"
+            e1="DDI-DrugBank.d124.s26.e4" e2="DDI-DrugBank.d124.s26.e7" ddi="false"/>
+        <pair id="DDI-DrugBank.d124.s26.p61"
+            e1="DDI-DrugBank.d124.s26.e4" e2="DDI-DrugBank.d124.s26.e8" ddi="false"/>
+        <pair id="DDI-DrugBank.d124.s26.p62"
+            e1="DDI-DrugBank.d124.s26.e4" e2="DDI-DrugBank.d124.s26.e9" ddi="false"/>
+        <pair id="DDI-DrugBank.d124.s26.p63"
+            e1="DDI-DrugBank.d124.s26.e4" e2="DDI-DrugBank.d124.s26.e10" ddi="false"/>
+        <pair id="DDI-DrugBank.d124.s26.p64"
+            e1="DDI-DrugBank.d124.s26.e4" e2="DDI-DrugBank.d124.s26.e11" ddi="false"/>
+        <pair id="DDI-DrugBank.d124.s26.p65"
+            e1="DDI-DrugBank.d124.s26.e4" e2="DDI-DrugBank.d124.s26.e12" ddi="false"/>
+        <pair id="DDI-DrugBank.d124.s26.p66"
+            e1="DDI-DrugBank.d124.s26.e4" e2="DDI-DrugBank.d124.s26.e13" ddi="false"/>
+        <pair id="DDI-DrugBank.d124.s26.p67"
+            e1="DDI-DrugBank.d124.s26.e4" e2="DDI-DrugBank.d124.s26.e14" ddi="false"/>
+        <pair id="DDI-DrugBank.d124.s26.p68"
+            e1="DDI-DrugBank.d124.s26.e4" e2="DDI-DrugBank.d124.s26.e15" ddi="false"/>
+        <pair id="DDI-DrugBank.d124.s26.p69"
+            e1="DDI-DrugBank.d124.s26.e4" e2="DDI-DrugBank.d124.s26.e16"
+            ddi="true" type="mechanism"/>
+        <pair id="DDI-DrugBank.d124.s26.p70"
+            e1="DDI-DrugBank.d124.s26.e5" e2="DDI-DrugBank.d124.s26.e6" ddi="false"/>
+        <pair id="DDI-DrugBank.d124.s26.p71"
+            e1="DDI-DrugBank.d124.s26.e5" e2="DDI-DrugBank.d124.s26.e7" ddi="false"/>
+        <pair id="DDI-DrugBank.d124.s26.p72"
+            e1="DDI-DrugBank.d124.s26.e5" e2="DDI-DrugBank.d124.s26.e8" ddi="false"/>
+        <pair id="DDI-DrugBank.d124.s26.p73"
+            e1="DDI-DrugBank.d124.s26.e5" e2="DDI-DrugBank.d124.s26.e9" ddi="false"/>
+        <pair id="DDI-DrugBank.d124.s26.p74"
+            e1="DDI-DrugBank.d124.s26.e5" e2="DDI-DrugBank.d124.s26.e10" ddi="false"/>
+        <pair id="DDI-DrugBank.d124.s26.p75"
+            e1="DDI-DrugBank.d124.s26.e5" e2="DDI-DrugBank.d124.s26.e11" ddi="false"/>
+        <pair id="DDI-DrugBank.d124.s26.p76"
+            e1="DDI-DrugBank.d124.s26.e5" e2="DDI-DrugBank.d124.s26.e12" ddi="false"/>
+        <pair id="DDI-DrugBank.d124.s26.p77"
+            e1="DDI-DrugBank.d124.s26.e5" e2="DDI-DrugBank.d124.s26.e13" ddi="false"/>
+        <pair id="DDI-DrugBank.d124.s26.p78"
+            e1="DDI-DrugBank.d124.s26.e5" e2="DDI-DrugBank.d124.s26.e14" ddi="false"/>
+        <pair id="DDI-DrugBank.d124.s26.p79"
+            e1="DDI-DrugBank.d124.s26.e5" e2="DDI-DrugBank.d124.s26.e15" ddi="false"/>
+        <pair id="DDI-DrugBank.d124.s26.p80"
+            e1="DDI-DrugBank.d124.s26.e5" e2="DDI-DrugBank.d124.s26.e16"
+            ddi="true" type="mechanism"/>
+        <pair id="DDI-DrugBank.d124.s26.p81"
+            e1="DDI-DrugBank.d124.s26.e6" e2="DDI-DrugBank.d124.s26.e7" ddi="false"/>
+        <pair id="DDI-DrugBank.d124.s26.p82"
+            e1="DDI-DrugBank.d124.s26.e6" e2="DDI-DrugBank.d124.s26.e8" ddi="false"/>
+        <pair id="DDI-DrugBank.d124.s26.p83"
+            e1="DDI-DrugBank.d124.s26.e6" e2="DDI-DrugBank.d124.s26.e9" ddi="false"/>
+        <pair id="DDI-DrugBank.d124.s26.p84"
+            e1="DDI-DrugBank.d124.s26.e6" e2="DDI-DrugBank.d124.s26.e10" ddi="false"/>
+        <pair id="DDI-DrugBank.d124.s26.p85"
+            e1="DDI-DrugBank.d124.s26.e6" e2="DDI-DrugBank.d124.s26.e11" ddi="false"/>
+        <pair id="DDI-DrugBank.d124.s26.p86"
+            e1="DDI-DrugBank.d124.s26.e6" e2="DDI-DrugBank.d124.s26.e12" ddi="false"/>
+        <pair id="DDI-DrugBank.d124.s26.p87"
+            e1="DDI-DrugBank.d124.s26.e6" e2="DDI-DrugBank.d124.s26.e13" ddi="false"/>
+        <pair id="DDI-DrugBank.d124.s26.p88"
+            e1="DDI-DrugBank.d124.s26.e6" e2="DDI-DrugBank.d124.s26.e14" ddi="false"/>
+        <pair id="DDI-DrugBank.d124.s26.p89"
+            e1="DDI-DrugBank.d124.s26.e6" e2="DDI-DrugBank.d124.s26.e15" ddi="false"/>
+        <pair id="DDI-DrugBank.d124.s26.p90"
+            e1="DDI-DrugBank.d124.s26.e6" e2="DDI-DrugBank.d124.s26.e16"
+            ddi="true" type="mechanism"/>
+        <pair id="DDI-DrugBank.d124.s26.p91"
+            e1="DDI-DrugBank.d124.s26.e7" e2="DDI-DrugBank.d124.s26.e8" ddi="false"/>
+        <pair id="DDI-DrugBank.d124.s26.p92"
+            e1="DDI-DrugBank.d124.s26.e7" e2="DDI-DrugBank.d124.s26.e9" ddi="false"/>
+        <pair id="DDI-DrugBank.d124.s26.p93"
+            e1="DDI-DrugBank.d124.s26.e7" e2="DDI-DrugBank.d124.s26.e10" ddi="false"/>
+        <pair id="DDI-DrugBank.d124.s26.p94"
+            e1="DDI-DrugBank.d124.s26.e7" e2="DDI-DrugBank.d124.s26.e11" ddi="false"/>
+        <pair id="DDI-DrugBank.d124.s26.p95"
+            e1="DDI-DrugBank.d124.s26.e7" e2="DDI-DrugBank.d124.s26.e12" ddi="false"/>
+        <pair id="DDI-DrugBank.d124.s26.p96"
+            e1="DDI-DrugBank.d124.s26.e7" e2="DDI-DrugBank.d124.s26.e13" ddi="false"/>
+        <pair id="DDI-DrugBank.d124.s26.p97"
+            e1="DDI-DrugBank.d124.s26.e7" e2="DDI-DrugBank.d124.s26.e14" ddi="false"/>
+        <pair id="DDI-DrugBank.d124.s26.p98"
+            e1="DDI-DrugBank.d124.s26.e7" e2="DDI-DrugBank.d124.s26.e15" ddi="false"/>
+        <pair id="DDI-DrugBank.d124.s26.p99"
+            e1="DDI-DrugBank.d124.s26.e7" e2="DDI-DrugBank.d124.s26.e16"
+            ddi="true" type="mechanism"/>
+        <pair id="DDI-DrugBank.d124.s26.p100"
+            e1="DDI-DrugBank.d124.s26.e8" e2="DDI-DrugBank.d124.s26.e9" ddi="false"/>
+        <pair id="DDI-DrugBank.d124.s26.p101"
+            e1="DDI-DrugBank.d124.s26.e8" e2="DDI-DrugBank.d124.s26.e10" ddi="false"/>
+        <pair id="DDI-DrugBank.d124.s26.p102"
+            e1="DDI-DrugBank.d124.s26.e8" e2="DDI-DrugBank.d124.s26.e11" ddi="false"/>
+        <pair id="DDI-DrugBank.d124.s26.p103"
+            e1="DDI-DrugBank.d124.s26.e8" e2="DDI-DrugBank.d124.s26.e12" ddi="false"/>
+        <pair id="DDI-DrugBank.d124.s26.p104"
+            e1="DDI-DrugBank.d124.s26.e8" e2="DDI-DrugBank.d124.s26.e13" ddi="false"/>
+        <pair id="DDI-DrugBank.d124.s26.p105"
+            e1="DDI-DrugBank.d124.s26.e8" e2="DDI-DrugBank.d124.s26.e14" ddi="false"/>
+        <pair id="DDI-DrugBank.d124.s26.p106"
+            e1="DDI-DrugBank.d124.s26.e8" e2="DDI-DrugBank.d124.s26.e15" ddi="false"/>
+        <pair id="DDI-DrugBank.d124.s26.p107"
+            e1="DDI-DrugBank.d124.s26.e8" e2="DDI-DrugBank.d124.s26.e16"
+            ddi="true" type="mechanism"/>
+        <pair id="DDI-DrugBank.d124.s26.p108"
+            e1="DDI-DrugBank.d124.s26.e9" e2="DDI-DrugBank.d124.s26.e10" ddi="false"/>
+        <pair id="DDI-DrugBank.d124.s26.p109"
+            e1="DDI-DrugBank.d124.s26.e9" e2="DDI-DrugBank.d124.s26.e11" ddi="false"/>
+        <pair id="DDI-DrugBank.d124.s26.p110"
+            e1="DDI-DrugBank.d124.s26.e9" e2="DDI-DrugBank.d124.s26.e12" ddi="false"/>
+        <pair id="DDI-DrugBank.d124.s26.p111"
+            e1="DDI-DrugBank.d124.s26.e9" e2="DDI-DrugBank.d124.s26.e13" ddi="false"/>
+        <pair id="DDI-DrugBank.d124.s26.p112"
+            e1="DDI-DrugBank.d124.s26.e9" e2="DDI-DrugBank.d124.s26.e14" ddi="false"/>
+        <pair id="DDI-DrugBank.d124.s26.p113"
+            e1="DDI-DrugBank.d124.s26.e9" e2="DDI-DrugBank.d124.s26.e15" ddi="false"/>
+        <pair id="DDI-DrugBank.d124.s26.p114"
+            e1="DDI-DrugBank.d124.s26.e9" e2="DDI-DrugBank.d124.s26.e16"
+            ddi="true" type="mechanism"/>
+        <pair id="DDI-DrugBank.d124.s26.p115"
+            e1="DDI-DrugBank.d124.s26.e10"
+            e2="DDI-DrugBank.d124.s26.e11" ddi="false"/>
+        <pair id="DDI-DrugBank.d124.s26.p116"
+            e1="DDI-DrugBank.d124.s26.e10"
+            e2="DDI-DrugBank.d124.s26.e12" ddi="false"/>
+        <pair id="DDI-DrugBank.d124.s26.p117"
+            e1="DDI-DrugBank.d124.s26.e10"
+            e2="DDI-DrugBank.d124.s26.e13" ddi="false"/>
+        <pair id="DDI-DrugBank.d124.s26.p118"
+            e1="DDI-DrugBank.d124.s26.e10"
+            e2="DDI-DrugBank.d124.s26.e14" ddi="false"/>
+        <pair id="DDI-DrugBank.d124.s26.p119"
+            e1="DDI-DrugBank.d124.s26.e10"
+            e2="DDI-DrugBank.d124.s26.e15" ddi="false"/>
+        <pair id="DDI-DrugBank.d124.s26.p120"
+            e1="DDI-DrugBank.d124.s26.e10"
+            e2="DDI-DrugBank.d124.s26.e16" ddi="true" type="mechanism"/>
+        <pair id="DDI-DrugBank.d124.s26.p121"
+            e1="DDI-DrugBank.d124.s26.e11"
+            e2="DDI-DrugBank.d124.s26.e12" ddi="false"/>
+        <pair id="DDI-DrugBank.d124.s26.p122"
+            e1="DDI-DrugBank.d124.s26.e11"
+            e2="DDI-DrugBank.d124.s26.e13" ddi="false"/>
+        <pair id="DDI-DrugBank.d124.s26.p123"
+            e1="DDI-DrugBank.d124.s26.e11"
+            e2="DDI-DrugBank.d124.s26.e14" ddi="false"/>
+        <pair id="DDI-DrugBank.d124.s26.p124"
+            e1="DDI-DrugBank.d124.s26.e11"
+            e2="DDI-DrugBank.d124.s26.e15" ddi="false"/>
+        <pair id="DDI-DrugBank.d124.s26.p125"
+            e1="DDI-DrugBank.d124.s26.e11"
+            e2="DDI-DrugBank.d124.s26.e16" ddi="true" type="mechanism"/>
+        <pair id="DDI-DrugBank.d124.s26.p126"
+            e1="DDI-DrugBank.d124.s26.e12"
+            e2="DDI-DrugBank.d124.s26.e13" ddi="false"/>
+        <pair id="DDI-DrugBank.d124.s26.p127"
+            e1="DDI-DrugBank.d124.s26.e12"
+            e2="DDI-DrugBank.d124.s26.e14" ddi="false"/>
+        <pair id="DDI-DrugBank.d124.s26.p128"
+            e1="DDI-DrugBank.d124.s26.e12"
+            e2="DDI-DrugBank.d124.s26.e15" ddi="false"/>
+        <pair id="DDI-DrugBank.d124.s26.p129"
+            e1="DDI-DrugBank.d124.s26.e12"
+            e2="DDI-DrugBank.d124.s26.e16" ddi="true" type="mechanism"/>
+        <pair id="DDI-DrugBank.d124.s26.p130"
+            e1="DDI-DrugBank.d124.s26.e13"
+            e2="DDI-DrugBank.d124.s26.e14" ddi="false"/>
+        <pair id="DDI-DrugBank.d124.s26.p131"
+            e1="DDI-DrugBank.d124.s26.e13"
+            e2="DDI-DrugBank.d124.s26.e15" ddi="false"/>
+        <pair id="DDI-DrugBank.d124.s26.p132"
+            e1="DDI-DrugBank.d124.s26.e13"
+            e2="DDI-DrugBank.d124.s26.e16" ddi="true" type="mechanism"/>
+        <pair id="DDI-DrugBank.d124.s26.p133"
+            e1="DDI-DrugBank.d124.s26.e14"
+            e2="DDI-DrugBank.d124.s26.e15" ddi="false"/>
+        <pair id="DDI-DrugBank.d124.s26.p134"
+            e1="DDI-DrugBank.d124.s26.e14"
+            e2="DDI-DrugBank.d124.s26.e16" ddi="true" type="mechanism"/>
+        <pair id="DDI-DrugBank.d124.s26.p135"
+            e1="DDI-DrugBank.d124.s26.e15"
+            e2="DDI-DrugBank.d124.s26.e16" ddi="true" type="mechanism"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d124.s27" text="therefore, these combinations should be used with caution."/>
+    <sentence id="DDI-DrugBank.d124.s28" text="Since INVIRASE is coadministered with ritonavir, the ritonavir label should be reviewed for additional drugs that should not be coadministered.">
+        <entity id="DDI-DrugBank.d124.s28.e0" charOffset="6-13"
+            type="brand" text="INVIRASE"/>
+        <entity id="DDI-DrugBank.d124.s28.e1" charOffset="38-46"
+            type="drug" text="ritonavir"/>
+        <entity id="DDI-DrugBank.d124.s28.e2" charOffset="53-61"
+            type="drug" text="ritonavir"/>
+        <pair id="DDI-DrugBank.d124.s28.p0"
+            e1="DDI-DrugBank.d124.s28.e0" e2="DDI-DrugBank.d124.s28.e1"
+            ddi="true" type="advise"/>
+        <pair id="DDI-DrugBank.d124.s28.p1"
+            e1="DDI-DrugBank.d124.s28.e0" e2="DDI-DrugBank.d124.s28.e2" ddi="false"/>
+        <pair id="DDI-DrugBank.d124.s28.p2"
+            e1="DDI-DrugBank.d124.s28.e1" e2="DDI-DrugBank.d124.s28.e2" ddi="false"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d124.s29" text="Inducers of CYP3A4"/>
+    <sentence id="DDI-DrugBank.d124.s30" text="Coadministration with compounds that are potent inducers of CYP3A4 (eg, phenobarbital, phenytoin, dexamethasone, carbamazepine) may result in decreased plasma levels of saquinavir.">
+        <entity id="DDI-DrugBank.d124.s30.e0" charOffset="72-84"
+            type="drug" text="phenobarbital"/>
+        <entity id="DDI-DrugBank.d124.s30.e1" charOffset="87-95"
+            type="drug" text="phenytoin"/>
+        <entity id="DDI-DrugBank.d124.s30.e2" charOffset="98-110"
+            type="drug" text="dexamethasone"/>
+        <entity id="DDI-DrugBank.d124.s30.e3" charOffset="113-125"
+            type="drug" text="carbamazepine"/>
+        <entity id="DDI-DrugBank.d124.s30.e4" charOffset="169-178"
+            type="drug" text="saquinavir"/>
+        <pair id="DDI-DrugBank.d124.s30.p0"
+            e1="DDI-DrugBank.d124.s30.e0" e2="DDI-DrugBank.d124.s30.e1" ddi="false"/>
+        <pair id="DDI-DrugBank.d124.s30.p1"
+            e1="DDI-DrugBank.d124.s30.e0" e2="DDI-DrugBank.d124.s30.e2" ddi="false"/>
+        <pair id="DDI-DrugBank.d124.s30.p2"
+            e1="DDI-DrugBank.d124.s30.e0" e2="DDI-DrugBank.d124.s30.e3" ddi="false"/>
+        <pair id="DDI-DrugBank.d124.s30.p3"
+            e1="DDI-DrugBank.d124.s30.e0" e2="DDI-DrugBank.d124.s30.e4"
+            ddi="true" type="mechanism"/>
+        <pair id="DDI-DrugBank.d124.s30.p4"
+            e1="DDI-DrugBank.d124.s30.e1" e2="DDI-DrugBank.d124.s30.e2" ddi="false"/>
+        <pair id="DDI-DrugBank.d124.s30.p5"
+            e1="DDI-DrugBank.d124.s30.e1" e2="DDI-DrugBank.d124.s30.e3" ddi="false"/>
+        <pair id="DDI-DrugBank.d124.s30.p6"
+            e1="DDI-DrugBank.d124.s30.e1" e2="DDI-DrugBank.d124.s30.e4"
+            ddi="true" type="mechanism"/>
+        <pair id="DDI-DrugBank.d124.s30.p7"
+            e1="DDI-DrugBank.d124.s30.e2" e2="DDI-DrugBank.d124.s30.e3" ddi="false"/>
+        <pair id="DDI-DrugBank.d124.s30.p8"
+            e1="DDI-DrugBank.d124.s30.e2" e2="DDI-DrugBank.d124.s30.e4"
+            ddi="true" type="mechanism"/>
+        <pair id="DDI-DrugBank.d124.s30.p9"
+            e1="DDI-DrugBank.d124.s30.e3" e2="DDI-DrugBank.d124.s30.e4"
+            ddi="true" type="mechanism"/>
+    </sentence>
+</document>

@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="DDI-MedLine.d14">
+    <sentence id="DDI-MedLine.d14.s0" text="[A pharmacological analysis of the effect of angiotensin on stimulated gastric secretion] Chronic experiments on dogs with gastric fistulas were carried out to study the influence of angiotensin 1 and angiotensin 2 on pentagastrin- and histamine-induced gastric acid secretion. ">
+        <entity id="DDI-MedLine.d14.s0.e0" charOffset="45-55"
+            type="drug_n" text="angiotensin"/>
+        <entity id="DDI-MedLine.d14.s0.e1" charOffset="183-195"
+            type="drug_n" text="angiotensin 1"/>
+        <entity id="DDI-MedLine.d14.s0.e2" charOffset="201-213"
+            type="drug_n" text="angiotensin 2"/>
+        <entity id="DDI-MedLine.d14.s0.e3" charOffset="218-229"
+            type="drug" text="pentagastrin"/>
+        <entity id="DDI-MedLine.d14.s0.e4" charOffset="236-244"
+            type="drug" text="histamine"/>
+        <pair id="DDI-MedLine.d14.s0.p0" e1="DDI-MedLine.d14.s0.e0"
+            e2="DDI-MedLine.d14.s0.e1" ddi="false"/>
+        <pair id="DDI-MedLine.d14.s0.p1" e1="DDI-MedLine.d14.s0.e0"
+            e2="DDI-MedLine.d14.s0.e2" ddi="false"/>
+        <pair id="DDI-MedLine.d14.s0.p2" e1="DDI-MedLine.d14.s0.e0"
+            e2="DDI-MedLine.d14.s0.e3" ddi="false"/>
+        <pair id="DDI-MedLine.d14.s0.p3" e1="DDI-MedLine.d14.s0.e0"
+            e2="DDI-MedLine.d14.s0.e4" ddi="false"/>
+        <pair id="DDI-MedLine.d14.s0.p4" e1="DDI-MedLine.d14.s0.e1"
+            e2="DDI-MedLine.d14.s0.e2" ddi="false"/>
+        <pair id="DDI-MedLine.d14.s0.p5" e1="DDI-MedLine.d14.s0.e1"
+            e2="DDI-MedLine.d14.s0.e3" ddi="false"/>
+        <pair id="DDI-MedLine.d14.s0.p6" e1="DDI-MedLine.d14.s0.e1"
+            e2="DDI-MedLine.d14.s0.e4" ddi="false"/>
+        <pair id="DDI-MedLine.d14.s0.p7" e1="DDI-MedLine.d14.s0.e2"
+            e2="DDI-MedLine.d14.s0.e3" ddi="false"/>
+        <pair id="DDI-MedLine.d14.s0.p8" e1="DDI-MedLine.d14.s0.e2"
+            e2="DDI-MedLine.d14.s0.e4" ddi="false"/>
+        <pair id="DDI-MedLine.d14.s0.p9" e1="DDI-MedLine.d14.s0.e3"
+            e2="DDI-MedLine.d14.s0.e4" ddi="false"/>
+    </sentence>
+    <sentence id="DDI-MedLine.d14.s1" text="It was established that both angiotensins inhibited gastric acid secretion stimulated by pentagastrin but not by histamine. ">
+        <entity id="DDI-MedLine.d14.s1.e0" charOffset="89-100"
+            type="drug" text="pentagastrin"/>
+        <entity id="DDI-MedLine.d14.s1.e1" charOffset="113-121"
+            type="drug" text="histamine"/>
+        <pair id="DDI-MedLine.d14.s1.p0" e1="DDI-MedLine.d14.s1.e0"
+            e2="DDI-MedLine.d14.s1.e1" ddi="false"/>
+    </sentence>
+    <sentence id="DDI-MedLine.d14.s2" text="Comparative analysis of the effects of stimulation and inhibition of cholino- and adrenoreceptors on this inhibitory action of angiotensins suggested the mediation of angiotensin influence through the modulation of cholinergic reactions of parietal cells in the stomach.">
+        <entity id="DDI-MedLine.d14.s2.e0" charOffset="127-138"
+            type="drug_n" text="angiotensins"/>
+        <entity id="DDI-MedLine.d14.s2.e1" charOffset="167-177"
+            type="drug_n" text="angiotensin"/>
+        <pair id="DDI-MedLine.d14.s2.p0" e1="DDI-MedLine.d14.s2.e0"
+            e2="DDI-MedLine.d14.s2.e1" ddi="false"/>
+    </sentence>
+</document>

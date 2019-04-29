@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="DDI-DrugBank.d200">
+    <sentence id="DDI-DrugBank.d200.s0" text="Co-administration of probenecid with acyclovir has been shown to increase the mean half-life and the area under the concentration-time curve.">
+        <entity id="DDI-DrugBank.d200.s0.e0" charOffset="21-30"
+            type="drug" text="probenecid"/>
+        <entity id="DDI-DrugBank.d200.s0.e1" charOffset="37-45"
+            type="drug" text="acyclovir"/>
+        <pair id="DDI-DrugBank.d200.s0.p0" e1="DDI-DrugBank.d200.s0.e0"
+            e2="DDI-DrugBank.d200.s0.e1" ddi="true" type="mechanism"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d200.s1" text="Urinary excretion and renal clearance were correspondingly reduced."/>
+    <sentence id="DDI-DrugBank.d200.s2" text="The clinical effects of this combination have not been studied."/>
+</document>

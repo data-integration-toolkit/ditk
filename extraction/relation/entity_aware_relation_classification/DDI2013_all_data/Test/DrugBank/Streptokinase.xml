@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="DDI-DrugBank.d777">
+    <sentence id="DDI-DrugBank.d777.s0" text="The interaction of Streptase, Streptokinase, with other drugs has not been well studied. ">
+        <entity id="DDI-DrugBank.d777.s0.e0" charOffset="19-27"
+            type="brand" text="Streptase"/>
+        <entity id="DDI-DrugBank.d777.s0.e1" charOffset="30-42"
+            type="drug" text="Streptokinase"/>
+        <pair id="DDI-DrugBank.d777.s0.p0" e1="DDI-DrugBank.d777.s0.e0"
+            e2="DDI-DrugBank.d777.s0.e1" ddi="false"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d777.s1" text="Use of Anticoagulants and Antiplatelet Agents -- Streptase, Streptokinase, alone or in combination with antiplatelet agents and anticoagulants, may cause bleeding complications. ">
+        <entity id="DDI-DrugBank.d777.s1.e0" charOffset="7-20"
+            type="group" text="Anticoagulants"/>
+        <entity id="DDI-DrugBank.d777.s1.e1" charOffset="26-44"
+            type="group" text="Antiplatelet Agents"/>
+        <entity id="DDI-DrugBank.d777.s1.e2" charOffset="49-57"
+            type="brand" text="Streptase"/>
+        <entity id="DDI-DrugBank.d777.s1.e3" charOffset="60-72"
+            type="drug" text="Streptokinase"/>
+        <entity id="DDI-DrugBank.d777.s1.e4" charOffset="104-122"
+            type="group" text="antiplatelet agents"/>
+        <entity id="DDI-DrugBank.d777.s1.e5" charOffset="128-141"
+            type="group" text="anticoagulants"/>
+        <pair id="DDI-DrugBank.d777.s1.p0" e1="DDI-DrugBank.d777.s1.e0"
+            e2="DDI-DrugBank.d777.s1.e1" ddi="false"/>
+        <pair id="DDI-DrugBank.d777.s1.p1" e1="DDI-DrugBank.d777.s1.e0"
+            e2="DDI-DrugBank.d777.s1.e2" ddi="false"/>
+        <pair id="DDI-DrugBank.d777.s1.p2" e1="DDI-DrugBank.d777.s1.e0"
+            e2="DDI-DrugBank.d777.s1.e3" ddi="false"/>
+        <pair id="DDI-DrugBank.d777.s1.p3" e1="DDI-DrugBank.d777.s1.e0"
+            e2="DDI-DrugBank.d777.s1.e4" ddi="false"/>
+        <pair id="DDI-DrugBank.d777.s1.p4" e1="DDI-DrugBank.d777.s1.e0"
+            e2="DDI-DrugBank.d777.s1.e5" ddi="false"/>
+        <pair id="DDI-DrugBank.d777.s1.p5" e1="DDI-DrugBank.d777.s1.e1"
+            e2="DDI-DrugBank.d777.s1.e2" ddi="false"/>
+        <pair id="DDI-DrugBank.d777.s1.p6" e1="DDI-DrugBank.d777.s1.e1"
+            e2="DDI-DrugBank.d777.s1.e3" ddi="false"/>
+        <pair id="DDI-DrugBank.d777.s1.p7" e1="DDI-DrugBank.d777.s1.e1"
+            e2="DDI-DrugBank.d777.s1.e4" ddi="false"/>
+        <pair id="DDI-DrugBank.d777.s1.p8" e1="DDI-DrugBank.d777.s1.e1"
+            e2="DDI-DrugBank.d777.s1.e5" ddi="false"/>
+        <pair id="DDI-DrugBank.d777.s1.p9" e1="DDI-DrugBank.d777.s1.e2"
+            e2="DDI-DrugBank.d777.s1.e3" ddi="false"/>
+        <pair id="DDI-DrugBank.d777.s1.p10" e1="DDI-DrugBank.d777.s1.e2"
+            e2="DDI-DrugBank.d777.s1.e4" ddi="true" type="effect"/>
+        <pair id="DDI-DrugBank.d777.s1.p11" e1="DDI-DrugBank.d777.s1.e2"
+            e2="DDI-DrugBank.d777.s1.e5" ddi="true" type="effect"/>
+        <pair id="DDI-DrugBank.d777.s1.p12" e1="DDI-DrugBank.d777.s1.e3"
+            e2="DDI-DrugBank.d777.s1.e4" ddi="true" type="effect"/>
+        <pair id="DDI-DrugBank.d777.s1.p13" e1="DDI-DrugBank.d777.s1.e3"
+            e2="DDI-DrugBank.d777.s1.e5" ddi="true" type="effect"/>
+        <pair id="DDI-DrugBank.d777.s1.p14" e1="DDI-DrugBank.d777.s1.e4"
+            e2="DDI-DrugBank.d777.s1.e5" ddi="false"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d777.s2" text="Therefore, careful monitoring is advised. "/>
+    <sentence id="DDI-DrugBank.d777.s3" text="In the treatment of acute MI, aspirin, when not otherwise contraindicated, should be administered with Streptokinase ( see below ). ">
+        <entity id="DDI-DrugBank.d777.s3.e0" charOffset="30-36"
+            type="brand" text="aspirin"/>
+        <entity id="DDI-DrugBank.d777.s3.e1" charOffset="103-115"
+            type="drug" text="Streptokinase"/>
+        <pair id="DDI-DrugBank.d777.s3.p0" e1="DDI-DrugBank.d777.s3.e0"
+            e2="DDI-DrugBank.d777.s3.e1" ddi="false"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d777.s4" text="Anticoagulation and Antiplatelets After Treatment for Myocardial Infarction -- In the treatment of acute myocardial infarction, the use of aspirin has been shown to reduce the incidence of reinfarction and stroke. ">
+        <entity id="DDI-DrugBank.d777.s4.e0" charOffset="20-32"
+            type="group" text="Antiplatelets"/>
+        <entity id="DDI-DrugBank.d777.s4.e1" charOffset="139-145"
+            type="brand" text="aspirin"/>
+        <pair id="DDI-DrugBank.d777.s4.p0" e1="DDI-DrugBank.d777.s4.e0"
+            e2="DDI-DrugBank.d777.s4.e1" ddi="false"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d777.s5" text="The addition of aspirin to Streptokinase causes a minimal increase in the risk of minor bleeding (3.9% vs. 3.1%), but does not appear to increase the incidence of major bleeding (see">
+        <entity id="DDI-DrugBank.d777.s5.e0" charOffset="16-22"
+            type="brand" text="aspirin"/>
+        <entity id="DDI-DrugBank.d777.s5.e1" charOffset="27-39"
+            type="drug" text="Streptokinase"/>
+        <pair id="DDI-DrugBank.d777.s5.p0" e1="DDI-DrugBank.d777.s5.e0"
+            e2="DDI-DrugBank.d777.s5.e1" ddi="true" type="effect"/>
+    </sentence>
+</document>

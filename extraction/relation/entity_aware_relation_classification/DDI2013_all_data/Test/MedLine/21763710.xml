@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="DDI-MedLine.d217">
+    <sentence id="DDI-MedLine.d217.s0" text="Interaction of celecoxib with different anti-cancer drugs is antagonistic in breast but not in other cancer cells.&#xd;&#xa;">
+        <entity id="DDI-MedLine.d217.s0.e0" charOffset="15-23"
+            type="drug" text="celecoxib"/>
+        <entity id="DDI-MedLine.d217.s0.e1" charOffset="40-56"
+            type="group" text="anti-cancer drugs"/>
+        <pair id="DDI-MedLine.d217.s0.p0" e1="DDI-MedLine.d217.s0.e0"
+            e2="DDI-MedLine.d217.s0.e1" ddi="true" type="effect"/>
+    </sentence>
+    <sentence id="DDI-MedLine.d217.s1" text="Celecoxib, an inhibitor of cyclooxygenase-2, is being investigated for enhancement of chemotherapy efficacy in cancer clinical trials. ">
+        <entity id="DDI-MedLine.d217.s1.e0" charOffset="0-8" type="drug" text="Celecoxib"/>
+    </sentence>
+    <sentence id="DDI-MedLine.d217.s2" text="This study investigates the ability of cyclooxygenase-2 inhibitors to sensitize cells from different origins to several chemotherapeutic agents. ">
+        <entity id="DDI-MedLine.d217.s2.e0" charOffset="39-65"
+            type="group" text="cyclooxygenase-2 inhibitors"/>
+        <entity id="DDI-MedLine.d217.s2.e1" charOffset="120-142"
+            type="group" text="chemotherapeutic agents"/>
+        <pair id="DDI-MedLine.d217.s2.p0" e1="DDI-MedLine.d217.s2.e0"
+            e2="DDI-MedLine.d217.s2.e1" ddi="false"/>
+    </sentence>
+    <sentence id="DDI-MedLine.d217.s3" text="The effect of the drug's mechanism of action and sequence of administration are also investigated. "/>
+    <sentence id="DDI-MedLine.d217.s4" text="The sensitivity, cell cycle, apoptosis and DNA damage of five different cancer cell lines (HeLa, HCT116, HepG2, MCF7 and U251) to 5-FU, cisplatin, doxorubicin and etoposide   celecoxib following different incubation schedules were analyzed.">
+        <entity id="DDI-MedLine.d217.s4.e0" charOffset="130-133"
+            type="drug" text="5-FU"/>
+        <entity id="DDI-MedLine.d217.s4.e1" charOffset="136-144"
+            type="drug" text="cisplatin"/>
+        <entity id="DDI-MedLine.d217.s4.e2" charOffset="147-157"
+            type="drug" text="doxorubicin"/>
+        <entity id="DDI-MedLine.d217.s4.e3" charOffset="163-171"
+            type="drug" text="etoposide"/>
+        <entity id="DDI-MedLine.d217.s4.e4" charOffset="175-183"
+            type="drug" text="celecoxib"/>
+        <pair id="DDI-MedLine.d217.s4.p0" e1="DDI-MedLine.d217.s4.e0"
+            e2="DDI-MedLine.d217.s4.e1" ddi="false"/>
+        <pair id="DDI-MedLine.d217.s4.p1" e1="DDI-MedLine.d217.s4.e0"
+            e2="DDI-MedLine.d217.s4.e2" ddi="false"/>
+        <pair id="DDI-MedLine.d217.s4.p2" e1="DDI-MedLine.d217.s4.e0"
+            e2="DDI-MedLine.d217.s4.e3" ddi="false"/>
+        <pair id="DDI-MedLine.d217.s4.p3" e1="DDI-MedLine.d217.s4.e0"
+            e2="DDI-MedLine.d217.s4.e4" ddi="false"/>
+        <pair id="DDI-MedLine.d217.s4.p4" e1="DDI-MedLine.d217.s4.e1"
+            e2="DDI-MedLine.d217.s4.e2" ddi="false"/>
+        <pair id="DDI-MedLine.d217.s4.p5" e1="DDI-MedLine.d217.s4.e1"
+            e2="DDI-MedLine.d217.s4.e3" ddi="false"/>
+        <pair id="DDI-MedLine.d217.s4.p6" e1="DDI-MedLine.d217.s4.e1"
+            e2="DDI-MedLine.d217.s4.e4" ddi="false"/>
+        <pair id="DDI-MedLine.d217.s4.p7" e1="DDI-MedLine.d217.s4.e2"
+            e2="DDI-MedLine.d217.s4.e3" ddi="false"/>
+        <pair id="DDI-MedLine.d217.s4.p8" e1="DDI-MedLine.d217.s4.e2"
+            e2="DDI-MedLine.d217.s4.e4" ddi="false"/>
+        <pair id="DDI-MedLine.d217.s4.p9" e1="DDI-MedLine.d217.s4.e3"
+            e2="DDI-MedLine.d217.s4.e4" ddi="false"/>
+    </sentence>
+    <sentence id="DDI-MedLine.d217.s5" text="We found antagonism between celecoxib and the four drugs in the breast cancer cells MCF7 following all incubation schedules and between celecoxib and doxorubicin in all cell lines except for two combinations in HCT116 cells. ">
+        <entity id="DDI-MedLine.d217.s5.e0" charOffset="28-36"
+            type="drug" text="celecoxib"/>
+        <entity id="DDI-MedLine.d217.s5.e1" charOffset="136-144"
+            type="drug" text="celecoxib"/>
+        <entity id="DDI-MedLine.d217.s5.e2" charOffset="150-160"
+            type="drug" text="doxorubicin"/>
+        <pair id="DDI-MedLine.d217.s5.p0" e1="DDI-MedLine.d217.s5.e0"
+            e2="DDI-MedLine.d217.s5.e1" ddi="false"/>
+        <pair id="DDI-MedLine.d217.s5.p1" e1="DDI-MedLine.d217.s5.e0"
+            e2="DDI-MedLine.d217.s5.e2" ddi="false"/>
+        <pair id="DDI-MedLine.d217.s5.p2" e1="DDI-MedLine.d217.s5.e1"
+            e2="DDI-MedLine.d217.s5.e2" ddi="true" type="effect"/>
+    </sentence>
+    <sentence id="DDI-MedLine.d217.s6" text="Celecoxib with the other three drugs in the remaining four cell lines resulted in variable interactions. ">
+        <entity id="DDI-MedLine.d217.s6.e0" charOffset="0-8" type="drug" text="Celecoxib"/>
+    </sentence>
+    <sentence id="DDI-MedLine.d217.s7" text="Mechanistic investigations revealed that celecoxib exerts different molecular effects in different cells. ">
+        <entity id="DDI-MedLine.d217.s7.e0" charOffset="41-49"
+            type="drug" text="celecoxib"/>
+    </sentence>
+    <sentence id="DDI-MedLine.d217.s8" text="In some lines, it abrogates the drug-induced G2/M arrest enhancing pre-mature entry into mitosis with damaged DNA thus increasing apoptosis and resulting in synergism. "/>
+    <sentence id="DDI-MedLine.d217.s9" text="In other cells, it enhances drug-induced G2/M arrest allowing time to repair drug-induced DNA damage before entry into mitosis and decreasing cell death resulting in antagonism. "/>
+    <sentence id="DDI-MedLine.d217.s10" text="In some synergistic combinations, celecoxib-induced abrogation of G2/M arrest was not associated with apoptosis but permanent arrest in G1 phase. "/>
+    <sentence id="DDI-MedLine.d217.s11" text="These results, if confirmed in-vivo, indicate that celecoxib is not a suitable chemosensitizer for breast cancer or with doxorubicin for other cancers. ">
+        <entity id="DDI-MedLine.d217.s11.e0" charOffset="51-59"
+            type="drug" text="celecoxib"/>
+        <entity id="DDI-MedLine.d217.s11.e1" charOffset="121-131"
+            type="drug" text="doxorubicin"/>
+        <pair id="DDI-MedLine.d217.s11.p0" e1="DDI-MedLine.d217.s11.e0"
+            e2="DDI-MedLine.d217.s11.e1" ddi="false"/>
+    </sentence>
+    <sentence id="DDI-MedLine.d217.s12" text="Moreover, combination of celecoxib with other drugs should be tailored to the tumor type, drug and administration schedule.">
+        <entity id="DDI-MedLine.d217.s12.e0" charOffset="25-33"
+            type="drug" text="celecoxib"/>
+    </sentence>
+</document>

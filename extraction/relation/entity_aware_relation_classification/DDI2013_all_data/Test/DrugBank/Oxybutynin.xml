@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="DDI-DrugBank.d784">
+    <sentence id="DDI-DrugBank.d784.s0" text="The concomitant use of oxybutynin with other anticholinergic drugs or with other agents which produce dry mouth, constipation, somnolence (drowsiness), and/or other anticholinergic-like effects may increase the frequency and/or severity of such effects. ">
+        <entity id="DDI-DrugBank.d784.s0.e0" charOffset="23-32"
+            type="drug" text="oxybutynin"/>
+        <entity id="DDI-DrugBank.d784.s0.e1" charOffset="45-65"
+            type="group" text="anticholinergic drugs"/>
+        <pair id="DDI-DrugBank.d784.s0.p0" e1="DDI-DrugBank.d784.s0.e0"
+            e2="DDI-DrugBank.d784.s0.e1" ddi="true" type="effect"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d784.s1" text="Anticholinergic agents may potentially alter the absorption of some concomitantly administered drugs due to anticholinergic effects on gastrointestinal motility. ">
+        <entity id="DDI-DrugBank.d784.s1.e0" charOffset="0-21"
+            type="group" text="Anticholinergic agents"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d784.s2" text="This may be of concern for drugs with a narrow therapeutic index. "/>
+    <sentence id="DDI-DrugBank.d784.s3" text="Mean oxybutynin chloride plasma concentrations were approximately 2 fold higher when DITROPAN XL was administered with ketoconazole, a potent CYP3A4 inhibitor. ">
+        <entity id="DDI-DrugBank.d784.s3.e0" charOffset="5-23"
+            type="drug" text="oxybutynin chloride"/>
+        <entity id="DDI-DrugBank.d784.s3.e1" charOffset="85-95"
+            type="brand" text="DITROPAN XL"/>
+        <entity id="DDI-DrugBank.d784.s3.e2" charOffset="119-130"
+            type="drug" text="ketoconazole"/>
+        <pair id="DDI-DrugBank.d784.s3.p0" e1="DDI-DrugBank.d784.s3.e0"
+            e2="DDI-DrugBank.d784.s3.e1" ddi="false"/>
+        <pair id="DDI-DrugBank.d784.s3.p1" e1="DDI-DrugBank.d784.s3.e0"
+            e2="DDI-DrugBank.d784.s3.e2" ddi="false"/>
+        <pair id="DDI-DrugBank.d784.s3.p2" e1="DDI-DrugBank.d784.s3.e1"
+            e2="DDI-DrugBank.d784.s3.e2" ddi="true" type="mechanism"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d784.s4" text="Other inhibitors of the cytochrome P450 3A4 enzyme system, such as antimycotic agents (e.g., itraconazole and miconazole) or macrolide antibiotics (e.g., erythromycin and clarithromycin), may alter oxybutynin mean pharmacokinetic parameters (i.e., Cmax and AUC). ">
+        <entity id="DDI-DrugBank.d784.s4.e0" charOffset="67-84"
+            type="group" text="antimycotic agents"/>
+        <entity id="DDI-DrugBank.d784.s4.e1" charOffset="93-104"
+            type="drug" text="itraconazole"/>
+        <entity id="DDI-DrugBank.d784.s4.e2" charOffset="110-119"
+            type="drug" text="miconazole"/>
+        <entity id="DDI-DrugBank.d784.s4.e3" charOffset="125-145"
+            type="group" text="macrolide antibiotics"/>
+        <entity id="DDI-DrugBank.d784.s4.e4" charOffset="154-165"
+            type="drug" text="erythromycin"/>
+        <entity id="DDI-DrugBank.d784.s4.e5" charOffset="171-184"
+            type="drug" text="clarithromycin"/>
+        <entity id="DDI-DrugBank.d784.s4.e6" charOffset="198-207"
+            type="drug" text="oxybutynin"/>
+        <pair id="DDI-DrugBank.d784.s4.p0" e1="DDI-DrugBank.d784.s4.e0"
+            e2="DDI-DrugBank.d784.s4.e1" ddi="false"/>
+        <pair id="DDI-DrugBank.d784.s4.p1" e1="DDI-DrugBank.d784.s4.e0"
+            e2="DDI-DrugBank.d784.s4.e2" ddi="false"/>
+        <pair id="DDI-DrugBank.d784.s4.p2" e1="DDI-DrugBank.d784.s4.e0"
+            e2="DDI-DrugBank.d784.s4.e3" ddi="false"/>
+        <pair id="DDI-DrugBank.d784.s4.p3" e1="DDI-DrugBank.d784.s4.e0"
+            e2="DDI-DrugBank.d784.s4.e4" ddi="false"/>
+        <pair id="DDI-DrugBank.d784.s4.p4" e1="DDI-DrugBank.d784.s4.e0"
+            e2="DDI-DrugBank.d784.s4.e5" ddi="false"/>
+        <pair id="DDI-DrugBank.d784.s4.p5" e1="DDI-DrugBank.d784.s4.e0"
+            e2="DDI-DrugBank.d784.s4.e6" ddi="true" type="mechanism"/>
+        <pair id="DDI-DrugBank.d784.s4.p6" e1="DDI-DrugBank.d784.s4.e1"
+            e2="DDI-DrugBank.d784.s4.e2" ddi="false"/>
+        <pair id="DDI-DrugBank.d784.s4.p7" e1="DDI-DrugBank.d784.s4.e1"
+            e2="DDI-DrugBank.d784.s4.e3" ddi="false"/>
+        <pair id="DDI-DrugBank.d784.s4.p8" e1="DDI-DrugBank.d784.s4.e1"
+            e2="DDI-DrugBank.d784.s4.e4" ddi="false"/>
+        <pair id="DDI-DrugBank.d784.s4.p9" e1="DDI-DrugBank.d784.s4.e1"
+            e2="DDI-DrugBank.d784.s4.e5" ddi="false"/>
+        <pair id="DDI-DrugBank.d784.s4.p10" e1="DDI-DrugBank.d784.s4.e1"
+            e2="DDI-DrugBank.d784.s4.e6" ddi="true" type="mechanism"/>
+        <pair id="DDI-DrugBank.d784.s4.p11" e1="DDI-DrugBank.d784.s4.e2"
+            e2="DDI-DrugBank.d784.s4.e3" ddi="false"/>
+        <pair id="DDI-DrugBank.d784.s4.p12" e1="DDI-DrugBank.d784.s4.e2"
+            e2="DDI-DrugBank.d784.s4.e4" ddi="false"/>
+        <pair id="DDI-DrugBank.d784.s4.p13" e1="DDI-DrugBank.d784.s4.e2"
+            e2="DDI-DrugBank.d784.s4.e5" ddi="false"/>
+        <pair id="DDI-DrugBank.d784.s4.p14" e1="DDI-DrugBank.d784.s4.e2"
+            e2="DDI-DrugBank.d784.s4.e6" ddi="true" type="mechanism"/>
+        <pair id="DDI-DrugBank.d784.s4.p15" e1="DDI-DrugBank.d784.s4.e3"
+            e2="DDI-DrugBank.d784.s4.e4" ddi="false"/>
+        <pair id="DDI-DrugBank.d784.s4.p16" e1="DDI-DrugBank.d784.s4.e3"
+            e2="DDI-DrugBank.d784.s4.e5" ddi="false"/>
+        <pair id="DDI-DrugBank.d784.s4.p17" e1="DDI-DrugBank.d784.s4.e3"
+            e2="DDI-DrugBank.d784.s4.e6" ddi="true" type="mechanism"/>
+        <pair id="DDI-DrugBank.d784.s4.p18" e1="DDI-DrugBank.d784.s4.e4"
+            e2="DDI-DrugBank.d784.s4.e5" ddi="false"/>
+        <pair id="DDI-DrugBank.d784.s4.p19" e1="DDI-DrugBank.d784.s4.e4"
+            e2="DDI-DrugBank.d784.s4.e6" ddi="true" type="mechanism"/>
+        <pair id="DDI-DrugBank.d784.s4.p20" e1="DDI-DrugBank.d784.s4.e5"
+            e2="DDI-DrugBank.d784.s4.e6" ddi="true" type="mechanism"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d784.s5" text="The clinical relevance of such potential interactions is not known. "/>
+    <sentence id="DDI-DrugBank.d784.s6" text="Caution should be used when such drugs are co-administered. "/>
+    <sentence id="DDI-DrugBank.d784.s7" text="Concurrent ingestion of antacid (20 mL of antacid containing aluminum hydroxide, magnesium hydroxide, and simethicone) did not significantly affect the exposure of oxybutynin or desethyloxybutynin.    ">
+        <entity id="DDI-DrugBank.d784.s7.e0" charOffset="24-30"
+            type="group" text="antacid"/>
+        <entity id="DDI-DrugBank.d784.s7.e1" charOffset="42-48"
+            type="group" text="antacid"/>
+        <entity id="DDI-DrugBank.d784.s7.e2" charOffset="61-78"
+            type="drug" text="aluminum hydroxide"/>
+        <entity id="DDI-DrugBank.d784.s7.e3" charOffset="81-99"
+            type="drug" text="magnesium hydroxide"/>
+        <entity id="DDI-DrugBank.d784.s7.e4" charOffset="106-116"
+            type="drug" text="simethicone"/>
+        <entity id="DDI-DrugBank.d784.s7.e5" charOffset="164-173"
+            type="drug" text="oxybutynin"/>
+        <entity id="DDI-DrugBank.d784.s7.e6" charOffset="178-195"
+            type="drug_n" text="desethyloxybutynin"/>
+        <pair id="DDI-DrugBank.d784.s7.p0" e1="DDI-DrugBank.d784.s7.e0"
+            e2="DDI-DrugBank.d784.s7.e1" ddi="false"/>
+        <pair id="DDI-DrugBank.d784.s7.p1" e1="DDI-DrugBank.d784.s7.e0"
+            e2="DDI-DrugBank.d784.s7.e2" ddi="false"/>
+        <pair id="DDI-DrugBank.d784.s7.p2" e1="DDI-DrugBank.d784.s7.e0"
+            e2="DDI-DrugBank.d784.s7.e3" ddi="false"/>
+        <pair id="DDI-DrugBank.d784.s7.p3" e1="DDI-DrugBank.d784.s7.e0"
+            e2="DDI-DrugBank.d784.s7.e4" ddi="false"/>
+        <pair id="DDI-DrugBank.d784.s7.p4" e1="DDI-DrugBank.d784.s7.e0"
+            e2="DDI-DrugBank.d784.s7.e5" ddi="false"/>
+        <pair id="DDI-DrugBank.d784.s7.p5" e1="DDI-DrugBank.d784.s7.e0"
+            e2="DDI-DrugBank.d784.s7.e6" ddi="false"/>
+        <pair id="DDI-DrugBank.d784.s7.p6" e1="DDI-DrugBank.d784.s7.e1"
+            e2="DDI-DrugBank.d784.s7.e2" ddi="false"/>
+        <pair id="DDI-DrugBank.d784.s7.p7" e1="DDI-DrugBank.d784.s7.e1"
+            e2="DDI-DrugBank.d784.s7.e3" ddi="false"/>
+        <pair id="DDI-DrugBank.d784.s7.p8" e1="DDI-DrugBank.d784.s7.e1"
+            e2="DDI-DrugBank.d784.s7.e4" ddi="false"/>
+        <pair id="DDI-DrugBank.d784.s7.p9" e1="DDI-DrugBank.d784.s7.e1"
+            e2="DDI-DrugBank.d784.s7.e5" ddi="false"/>
+        <pair id="DDI-DrugBank.d784.s7.p10" e1="DDI-DrugBank.d784.s7.e1"
+            e2="DDI-DrugBank.d784.s7.e6" ddi="false"/>
+        <pair id="DDI-DrugBank.d784.s7.p11" e1="DDI-DrugBank.d784.s7.e2"
+            e2="DDI-DrugBank.d784.s7.e3" ddi="false"/>
+        <pair id="DDI-DrugBank.d784.s7.p12" e1="DDI-DrugBank.d784.s7.e2"
+            e2="DDI-DrugBank.d784.s7.e4" ddi="false"/>
+        <pair id="DDI-DrugBank.d784.s7.p13" e1="DDI-DrugBank.d784.s7.e2"
+            e2="DDI-DrugBank.d784.s7.e5" ddi="false"/>
+        <pair id="DDI-DrugBank.d784.s7.p14" e1="DDI-DrugBank.d784.s7.e2"
+            e2="DDI-DrugBank.d784.s7.e6" ddi="false"/>
+        <pair id="DDI-DrugBank.d784.s7.p15" e1="DDI-DrugBank.d784.s7.e3"
+            e2="DDI-DrugBank.d784.s7.e4" ddi="false"/>
+        <pair id="DDI-DrugBank.d784.s7.p16" e1="DDI-DrugBank.d784.s7.e3"
+            e2="DDI-DrugBank.d784.s7.e5" ddi="false"/>
+        <pair id="DDI-DrugBank.d784.s7.p17" e1="DDI-DrugBank.d784.s7.e3"
+            e2="DDI-DrugBank.d784.s7.e6" ddi="false"/>
+        <pair id="DDI-DrugBank.d784.s7.p18" e1="DDI-DrugBank.d784.s7.e4"
+            e2="DDI-DrugBank.d784.s7.e5" ddi="false"/>
+        <pair id="DDI-DrugBank.d784.s7.p19" e1="DDI-DrugBank.d784.s7.e4"
+            e2="DDI-DrugBank.d784.s7.e6" ddi="false"/>
+        <pair id="DDI-DrugBank.d784.s7.p20" e1="DDI-DrugBank.d784.s7.e5"
+            e2="DDI-DrugBank.d784.s7.e6" ddi="false"/>
+    </sentence>
+</document>

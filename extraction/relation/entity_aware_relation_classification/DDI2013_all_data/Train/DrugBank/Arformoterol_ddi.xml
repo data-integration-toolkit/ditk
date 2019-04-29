@@ -1,0 +1,231 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="DDI-DrugBank.d284">
+    <sentence id="DDI-DrugBank.d284.s0" text="If additional adrenergic drugs are to be administered by any route, they should be used with caution because the pharmacologically predictable sympathetic effects of BROVANA may be potentiated.">
+        <entity id="DDI-DrugBank.d284.s0.e0" charOffset="14-29"
+            type="group" text="adrenergic drugs"/>
+        <entity id="DDI-DrugBank.d284.s0.e1" charOffset="166-172"
+            type="brand" text="BROVANA"/>
+        <pair id="DDI-DrugBank.d284.s0.p0" e1="DDI-DrugBank.d284.s0.e0"
+            e2="DDI-DrugBank.d284.s0.e1" ddi="true" type="advise"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d284.s1" text="When paroxetine, a potent inhibitor of CYP2D6, was co-administered with BROVANA at steady-state, exposure to either drug was not altered.">
+        <entity id="DDI-DrugBank.d284.s1.e0" charOffset="5-14"
+            type="drug" text="paroxetine"/>
+        <entity id="DDI-DrugBank.d284.s1.e1" charOffset="72-78"
+            type="brand" text="BROVANA"/>
+        <pair id="DDI-DrugBank.d284.s1.p0" e1="DDI-DrugBank.d284.s1.e0"
+            e2="DDI-DrugBank.d284.s1.e1" ddi="false"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d284.s2" text="Dosage adjustments of BROVANA are not necessary when the drug is given concomitantly with potent CYP2D6 inhibitors.">
+        <entity id="DDI-DrugBank.d284.s2.e0" charOffset="22-28"
+            type="brand" text="BROVANA"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d284.s3" text="Concomitant treatment with methylxanthines (aminophylline, theophylline), steroids, or diuretics may potentiate any hypokalemic effect of adrenergic agonists.">
+        <entity id="DDI-DrugBank.d284.s3.e0" charOffset="27-41"
+            type="group" text="methylxanthines"/>
+        <entity id="DDI-DrugBank.d284.s3.e1" charOffset="44-56"
+            type="drug" text="aminophylline"/>
+        <entity id="DDI-DrugBank.d284.s3.e2" charOffset="59-70"
+            type="drug" text="theophylline"/>
+        <entity id="DDI-DrugBank.d284.s3.e3" charOffset="74-81"
+            type="group" text="steroids"/>
+        <entity id="DDI-DrugBank.d284.s3.e4" charOffset="87-95"
+            type="group" text="diuretics"/>
+        <entity id="DDI-DrugBank.d284.s3.e5" charOffset="138-156"
+            type="group" text="adrenergic agonists"/>
+        <pair id="DDI-DrugBank.d284.s3.p0" e1="DDI-DrugBank.d284.s3.e0"
+            e2="DDI-DrugBank.d284.s3.e1" ddi="false"/>
+        <pair id="DDI-DrugBank.d284.s3.p1" e1="DDI-DrugBank.d284.s3.e0"
+            e2="DDI-DrugBank.d284.s3.e2" ddi="false"/>
+        <pair id="DDI-DrugBank.d284.s3.p2" e1="DDI-DrugBank.d284.s3.e0"
+            e2="DDI-DrugBank.d284.s3.e3" ddi="false"/>
+        <pair id="DDI-DrugBank.d284.s3.p3" e1="DDI-DrugBank.d284.s3.e0"
+            e2="DDI-DrugBank.d284.s3.e4" ddi="false"/>
+        <pair id="DDI-DrugBank.d284.s3.p4" e1="DDI-DrugBank.d284.s3.e0"
+            e2="DDI-DrugBank.d284.s3.e5" ddi="true" type="effect"/>
+        <pair id="DDI-DrugBank.d284.s3.p5" e1="DDI-DrugBank.d284.s3.e1"
+            e2="DDI-DrugBank.d284.s3.e2" ddi="false"/>
+        <pair id="DDI-DrugBank.d284.s3.p6" e1="DDI-DrugBank.d284.s3.e1"
+            e2="DDI-DrugBank.d284.s3.e3" ddi="false"/>
+        <pair id="DDI-DrugBank.d284.s3.p7" e1="DDI-DrugBank.d284.s3.e1"
+            e2="DDI-DrugBank.d284.s3.e4" ddi="false"/>
+        <pair id="DDI-DrugBank.d284.s3.p8" e1="DDI-DrugBank.d284.s3.e1"
+            e2="DDI-DrugBank.d284.s3.e5" ddi="true" type="effect"/>
+        <pair id="DDI-DrugBank.d284.s3.p9" e1="DDI-DrugBank.d284.s3.e2"
+            e2="DDI-DrugBank.d284.s3.e3" ddi="false"/>
+        <pair id="DDI-DrugBank.d284.s3.p10" e1="DDI-DrugBank.d284.s3.e2"
+            e2="DDI-DrugBank.d284.s3.e4" ddi="false"/>
+        <pair id="DDI-DrugBank.d284.s3.p11" e1="DDI-DrugBank.d284.s3.e2"
+            e2="DDI-DrugBank.d284.s3.e5" ddi="true" type="effect"/>
+        <pair id="DDI-DrugBank.d284.s3.p12" e1="DDI-DrugBank.d284.s3.e3"
+            e2="DDI-DrugBank.d284.s3.e4" ddi="false"/>
+        <pair id="DDI-DrugBank.d284.s3.p13" e1="DDI-DrugBank.d284.s3.e3"
+            e2="DDI-DrugBank.d284.s3.e5" ddi="true" type="effect"/>
+        <pair id="DDI-DrugBank.d284.s3.p14" e1="DDI-DrugBank.d284.s3.e4"
+            e2="DDI-DrugBank.d284.s3.e5" ddi="true" type="effect"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d284.s4" text="The ECG changes and/or hypokalemia that may result from the administration of non-potassium sparing diuretics (such as loop or thiazide diuretics) can be acutely worsened by beta-agonists, especially when the recommended dose of the beta-agonist is exceeded.">
+        <entity id="DDI-DrugBank.d284.s4.e0" charOffset="78-108"
+            type="group" text="non-potassium sparing diuretics"/>
+        <entity id="DDI-DrugBank.d284.s4.e1"
+            charOffset="119-122;136-144" type="group" text="loop diuretics"/>
+        <entity id="DDI-DrugBank.d284.s4.e2" charOffset="127-144"
+            type="group" text="thiazide diuretics"/>
+        <entity id="DDI-DrugBank.d284.s4.e3" charOffset="174-186"
+            type="group" text="beta-agonists"/>
+        <entity id="DDI-DrugBank.d284.s4.e4" charOffset="233-244"
+            type="group" text="beta-agonist"/>
+        <pair id="DDI-DrugBank.d284.s4.p0" e1="DDI-DrugBank.d284.s4.e0"
+            e2="DDI-DrugBank.d284.s4.e1" ddi="false"/>
+        <pair id="DDI-DrugBank.d284.s4.p1" e1="DDI-DrugBank.d284.s4.e0"
+            e2="DDI-DrugBank.d284.s4.e2" ddi="false"/>
+        <pair id="DDI-DrugBank.d284.s4.p2" e1="DDI-DrugBank.d284.s4.e0"
+            e2="DDI-DrugBank.d284.s4.e3" ddi="true" type="effect"/>
+        <pair id="DDI-DrugBank.d284.s4.p3" e1="DDI-DrugBank.d284.s4.e0"
+            e2="DDI-DrugBank.d284.s4.e4" ddi="false"/>
+        <pair id="DDI-DrugBank.d284.s4.p4" e1="DDI-DrugBank.d284.s4.e1"
+            e2="DDI-DrugBank.d284.s4.e2" ddi="false"/>
+        <pair id="DDI-DrugBank.d284.s4.p5" e1="DDI-DrugBank.d284.s4.e1"
+            e2="DDI-DrugBank.d284.s4.e3" ddi="true" type="effect"/>
+        <pair id="DDI-DrugBank.d284.s4.p6" e1="DDI-DrugBank.d284.s4.e1"
+            e2="DDI-DrugBank.d284.s4.e4" ddi="false"/>
+        <pair id="DDI-DrugBank.d284.s4.p7" e1="DDI-DrugBank.d284.s4.e2"
+            e2="DDI-DrugBank.d284.s4.e3" ddi="true" type="effect"/>
+        <pair id="DDI-DrugBank.d284.s4.p8" e1="DDI-DrugBank.d284.s4.e2"
+            e2="DDI-DrugBank.d284.s4.e4" ddi="false"/>
+        <pair id="DDI-DrugBank.d284.s4.p9" e1="DDI-DrugBank.d284.s4.e3"
+            e2="DDI-DrugBank.d284.s4.e4" ddi="false"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d284.s5" text="Although the clinical significance of these effects is not known, caution is advised in the co-administration of beta-agonists with non-potassium sparing diuretics.">
+        <entity id="DDI-DrugBank.d284.s5.e0" charOffset="113-125"
+            type="group" text="beta-agonists"/>
+        <entity id="DDI-DrugBank.d284.s5.e1" charOffset="132-162"
+            type="group" text="non-potassium sparing diuretics"/>
+        <pair id="DDI-DrugBank.d284.s5.p0" e1="DDI-DrugBank.d284.s5.e0"
+            e2="DDI-DrugBank.d284.s5.e1" ddi="true" type="advise"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d284.s6" text="BROVANA, as with other beta2-agonists, should be administered with extreme caution to patients being treated with monoamine oxidase inhibitors, tricyclic antidepressants, or drugs known to prolong the QTc interval because the action of adrenergic agonists on the cardiovascular system may be potentiated by these agents.">
+        <entity id="DDI-DrugBank.d284.s6.e0" charOffset="0-6"
+            type="brand" text="BROVANA"/>
+        <entity id="DDI-DrugBank.d284.s6.e1" charOffset="23-36"
+            type="group" text="beta2-agonists"/>
+        <entity id="DDI-DrugBank.d284.s6.e2" charOffset="114-141"
+            type="group" text="monoamine oxidase inhibitors"/>
+        <entity id="DDI-DrugBank.d284.s6.e3" charOffset="144-168"
+            type="group" text="tricyclic antidepressants"/>
+        <entity id="DDI-DrugBank.d284.s6.e4" charOffset="236-254"
+            type="group" text="adrenergic agonists"/>
+        <pair id="DDI-DrugBank.d284.s6.p0" e1="DDI-DrugBank.d284.s6.e0"
+            e2="DDI-DrugBank.d284.s6.e1" ddi="false"/>
+        <pair id="DDI-DrugBank.d284.s6.p1" e1="DDI-DrugBank.d284.s6.e0"
+            e2="DDI-DrugBank.d284.s6.e2" ddi="true" type="advise"/>
+        <pair id="DDI-DrugBank.d284.s6.p2" e1="DDI-DrugBank.d284.s6.e0"
+            e2="DDI-DrugBank.d284.s6.e3" ddi="true" type="advise"/>
+        <pair id="DDI-DrugBank.d284.s6.p3" e1="DDI-DrugBank.d284.s6.e0"
+            e2="DDI-DrugBank.d284.s6.e4" ddi="false"/>
+        <pair id="DDI-DrugBank.d284.s6.p4" e1="DDI-DrugBank.d284.s6.e1"
+            e2="DDI-DrugBank.d284.s6.e2" ddi="true" type="advise"/>
+        <pair id="DDI-DrugBank.d284.s6.p5" e1="DDI-DrugBank.d284.s6.e1"
+            e2="DDI-DrugBank.d284.s6.e3" ddi="true" type="advise"/>
+        <pair id="DDI-DrugBank.d284.s6.p6" e1="DDI-DrugBank.d284.s6.e1"
+            e2="DDI-DrugBank.d284.s6.e4" ddi="false"/>
+        <pair id="DDI-DrugBank.d284.s6.p7" e1="DDI-DrugBank.d284.s6.e2"
+            e2="DDI-DrugBank.d284.s6.e3" ddi="false"/>
+        <pair id="DDI-DrugBank.d284.s6.p8" e1="DDI-DrugBank.d284.s6.e2"
+            e2="DDI-DrugBank.d284.s6.e4" ddi="true" type="effect"/>
+        <pair id="DDI-DrugBank.d284.s6.p9" e1="DDI-DrugBank.d284.s6.e3"
+            e2="DDI-DrugBank.d284.s6.e4" ddi="true" type="effect"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d284.s7" text="Drugs that are known to prolong the QTc interval have an increased risk of ventricular arrhythmias."/>
+    <sentence id="DDI-DrugBank.d284.s8" text="The concurrent use of intravenously or orally administered methylxanthines (e.g., aminophylline, theophylline) by patients receiving BROVANA has not been completely evaluated.">
+        <entity id="DDI-DrugBank.d284.s8.e0" charOffset="59-73"
+            type="group" text="methylxanthines"/>
+        <entity id="DDI-DrugBank.d284.s8.e1" charOffset="82-94"
+            type="drug" text="aminophylline"/>
+        <entity id="DDI-DrugBank.d284.s8.e2" charOffset="97-108"
+            type="drug" text="theophylline"/>
+        <entity id="DDI-DrugBank.d284.s8.e3" charOffset="133-139"
+            type="brand" text="BROVANA"/>
+        <pair id="DDI-DrugBank.d284.s8.p0" e1="DDI-DrugBank.d284.s8.e0"
+            e2="DDI-DrugBank.d284.s8.e1" ddi="false"/>
+        <pair id="DDI-DrugBank.d284.s8.p1" e1="DDI-DrugBank.d284.s8.e0"
+            e2="DDI-DrugBank.d284.s8.e2" ddi="false"/>
+        <pair id="DDI-DrugBank.d284.s8.p2" e1="DDI-DrugBank.d284.s8.e0"
+            e2="DDI-DrugBank.d284.s8.e3" ddi="false"/>
+        <pair id="DDI-DrugBank.d284.s8.p3" e1="DDI-DrugBank.d284.s8.e1"
+            e2="DDI-DrugBank.d284.s8.e2" ddi="false"/>
+        <pair id="DDI-DrugBank.d284.s8.p4" e1="DDI-DrugBank.d284.s8.e1"
+            e2="DDI-DrugBank.d284.s8.e3" ddi="false"/>
+        <pair id="DDI-DrugBank.d284.s8.p5" e1="DDI-DrugBank.d284.s8.e2"
+            e2="DDI-DrugBank.d284.s8.e3" ddi="false"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d284.s9" text="In two combined 12-week placebo controlled trials that included BROVANA doses of 15 mcg twice daily, 25 mcg twice daily, and 50 mcg once daily, 54 of 873 BROVANA -treated subjects received concomitant theophylline at study entry.">
+        <entity id="DDI-DrugBank.d284.s9.e0" charOffset="64-70"
+            type="brand" text="BROVANA"/>
+        <entity id="DDI-DrugBank.d284.s9.e1" charOffset="154-160"
+            type="brand" text="BROVANA"/>
+        <entity id="DDI-DrugBank.d284.s9.e2" charOffset="201-212"
+            type="drug" text="theophylline"/>
+        <pair id="DDI-DrugBank.d284.s9.p0" e1="DDI-DrugBank.d284.s9.e0"
+            e2="DDI-DrugBank.d284.s9.e1" ddi="false"/>
+        <pair id="DDI-DrugBank.d284.s9.p1" e1="DDI-DrugBank.d284.s9.e0"
+            e2="DDI-DrugBank.d284.s9.e2" ddi="false"/>
+        <pair id="DDI-DrugBank.d284.s9.p2" e1="DDI-DrugBank.d284.s9.e1"
+            e2="DDI-DrugBank.d284.s9.e2" ddi="false"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d284.s10" text="In a 12-month controlled trial that included a 50 mcg once daily BROVANA dose, 30 of the 528 BROVANA -treated subjects received concomitant theophylline at study entry.">
+        <entity id="DDI-DrugBank.d284.s10.e0" charOffset="65-71"
+            type="brand" text="BROVANA"/>
+        <entity id="DDI-DrugBank.d284.s10.e1" charOffset="93-99"
+            type="brand" text="BROVANA"/>
+        <entity id="DDI-DrugBank.d284.s10.e2" charOffset="140-151"
+            type="drug" text="theophylline"/>
+        <pair id="DDI-DrugBank.d284.s10.p0"
+            e1="DDI-DrugBank.d284.s10.e0" e2="DDI-DrugBank.d284.s10.e1" ddi="false"/>
+        <pair id="DDI-DrugBank.d284.s10.p1"
+            e1="DDI-DrugBank.d284.s10.e0" e2="DDI-DrugBank.d284.s10.e2" ddi="false"/>
+        <pair id="DDI-DrugBank.d284.s10.p2"
+            e1="DDI-DrugBank.d284.s10.e1" e2="DDI-DrugBank.d284.s10.e2" ddi="false"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d284.s11" text="In these trials, heart rate and systolic blood pressure were approximately 2-3 bpm and 6-8 mm Hg higher, respectively, in subjects on concomitant theophylline compared with the overall population.">
+        <entity id="DDI-DrugBank.d284.s11.e0" charOffset="146-157"
+            type="drug" text="theophylline"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d284.s12" text="Beta-adrenergic receptor antagonists (beta-blockers) and BROVANA may interfere with the effect of each other when administered concurrently.">
+        <entity id="DDI-DrugBank.d284.s12.e0" charOffset="0-35"
+            type="group" text="Beta-adrenergic receptor antagonists"/>
+        <entity id="DDI-DrugBank.d284.s12.e1" charOffset="38-50"
+            type="group" text="beta-blockers"/>
+        <entity id="DDI-DrugBank.d284.s12.e2" charOffset="57-63"
+            type="brand" text="BROVANA"/>
+        <pair id="DDI-DrugBank.d284.s12.p0"
+            e1="DDI-DrugBank.d284.s12.e0" e2="DDI-DrugBank.d284.s12.e1" ddi="false"/>
+        <pair id="DDI-DrugBank.d284.s12.p1"
+            e1="DDI-DrugBank.d284.s12.e0" e2="DDI-DrugBank.d284.s12.e2"
+            ddi="true" type="effect"/>
+        <pair id="DDI-DrugBank.d284.s12.p2"
+            e1="DDI-DrugBank.d284.s12.e1" e2="DDI-DrugBank.d284.s12.e2"
+            ddi="true" type="effect"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d284.s13" text="Beta-blockers not only block the therapeutic effects of beta-agonists, but may produce severe bronchospasm in COPD patients.">
+        <entity id="DDI-DrugBank.d284.s13.e0" charOffset="0-12"
+            type="group" text="Beta-blockers"/>
+        <entity id="DDI-DrugBank.d284.s13.e1" charOffset="56-68"
+            type="group" text="beta-agonists"/>
+        <pair id="DDI-DrugBank.d284.s13.p0"
+            e1="DDI-DrugBank.d284.s13.e0" e2="DDI-DrugBank.d284.s13.e1"
+            ddi="true" type="effect"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d284.s14" text="Therefore, patients with COPD should not normally be treated with beta-blockers.">
+        <entity id="DDI-DrugBank.d284.s14.e0" charOffset="66-78"
+            type="group" text="beta-blockers"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d284.s15" text="However, under certain circumstances, e.g., as prophylaxis after myocardial infarction, there may be no acceptable alternatives to the use of beta-blockers in patients with COPD.">
+        <entity id="DDI-DrugBank.d284.s15.e0" charOffset="142-154"
+            type="group" text="beta-blockers"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d284.s16" text="In this setting, cardioselective beta-blockers could be considered, although they should be administered with caution.">
+        <entity id="DDI-DrugBank.d284.s16.e0" charOffset="17-45"
+            type="group" text="cardioselective beta-blockers"/>
+    </sentence>
+</document>

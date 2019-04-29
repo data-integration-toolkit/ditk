@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="DDI-DrugBank.d110">
+    <sentence id="DDI-DrugBank.d110.s0" text="The administration of local anesthetic solutions containing epinephrine or norepinephrine to patients receiving monoamine oxidase inhibitors, tricyclic antidepressants or phenothiazines may produce severe, prolonged hypotension or hypertension.">
+        <entity id="DDI-DrugBank.d110.s0.e0" charOffset="28-47"
+            type="group" text="anesthetic solutions"/>
+        <entity id="DDI-DrugBank.d110.s0.e1" charOffset="60-70"
+            type="drug" text="epinephrine"/>
+        <entity id="DDI-DrugBank.d110.s0.e2" charOffset="75-88"
+            type="drug" text="norepinephrine"/>
+        <entity id="DDI-DrugBank.d110.s0.e3" charOffset="112-139"
+            type="group" text="monoamine oxidase inhibitors"/>
+        <entity id="DDI-DrugBank.d110.s0.e4" charOffset="142-166"
+            type="group" text="tricyclic antidepressants"/>
+        <entity id="DDI-DrugBank.d110.s0.e5" charOffset="171-184"
+            type="group" text="phenothiazines"/>
+        <pair id="DDI-DrugBank.d110.s0.p0" e1="DDI-DrugBank.d110.s0.e0"
+            e2="DDI-DrugBank.d110.s0.e1" ddi="false"/>
+        <pair id="DDI-DrugBank.d110.s0.p1" e1="DDI-DrugBank.d110.s0.e0"
+            e2="DDI-DrugBank.d110.s0.e2" ddi="false"/>
+        <pair id="DDI-DrugBank.d110.s0.p2" e1="DDI-DrugBank.d110.s0.e0"
+            e2="DDI-DrugBank.d110.s0.e3" ddi="false"/>
+        <pair id="DDI-DrugBank.d110.s0.p3" e1="DDI-DrugBank.d110.s0.e0"
+            e2="DDI-DrugBank.d110.s0.e4" ddi="true" type="effect"/>
+        <pair id="DDI-DrugBank.d110.s0.p4" e1="DDI-DrugBank.d110.s0.e0"
+            e2="DDI-DrugBank.d110.s0.e5" ddi="true" type="effect"/>
+        <pair id="DDI-DrugBank.d110.s0.p5" e1="DDI-DrugBank.d110.s0.e1"
+            e2="DDI-DrugBank.d110.s0.e2" ddi="false"/>
+        <pair id="DDI-DrugBank.d110.s0.p6" e1="DDI-DrugBank.d110.s0.e1"
+            e2="DDI-DrugBank.d110.s0.e3" ddi="true" type="effect"/>
+        <pair id="DDI-DrugBank.d110.s0.p7" e1="DDI-DrugBank.d110.s0.e1"
+            e2="DDI-DrugBank.d110.s0.e4" ddi="true" type="effect"/>
+        <pair id="DDI-DrugBank.d110.s0.p8" e1="DDI-DrugBank.d110.s0.e1"
+            e2="DDI-DrugBank.d110.s0.e5" ddi="true" type="effect"/>
+        <pair id="DDI-DrugBank.d110.s0.p9" e1="DDI-DrugBank.d110.s0.e2"
+            e2="DDI-DrugBank.d110.s0.e3" ddi="true" type="effect"/>
+        <pair id="DDI-DrugBank.d110.s0.p10" e1="DDI-DrugBank.d110.s0.e2"
+            e2="DDI-DrugBank.d110.s0.e4" ddi="true" type="effect"/>
+        <pair id="DDI-DrugBank.d110.s0.p11" e1="DDI-DrugBank.d110.s0.e2"
+            e2="DDI-DrugBank.d110.s0.e5" ddi="true" type="effect"/>
+        <pair id="DDI-DrugBank.d110.s0.p12" e1="DDI-DrugBank.d110.s0.e3"
+            e2="DDI-DrugBank.d110.s0.e4" ddi="false"/>
+        <pair id="DDI-DrugBank.d110.s0.p13" e1="DDI-DrugBank.d110.s0.e3"
+            e2="DDI-DrugBank.d110.s0.e5" ddi="false"/>
+        <pair id="DDI-DrugBank.d110.s0.p14" e1="DDI-DrugBank.d110.s0.e4"
+            e2="DDI-DrugBank.d110.s0.e5" ddi="false"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d110.s1" text="Concurrent use of these agents should generally be avoided."/>
+    <sentence id="DDI-DrugBank.d110.s2" text="In situations when concurrent therapy is necessary, careful patient monitoring is essential."/>
+    <sentence id="DDI-DrugBank.d110.s3" text="Concurrent administration of vasopressor drugs (for the treatment of hypotension related to obstetric blocks) and ergot-type oxytocic drugs may cause severe, persistent hypertension or cerebrovascular accidents.">
+        <entity id="DDI-DrugBank.d110.s3.e0" charOffset="29-45"
+            type="group" text="vasopressor drugs"/>
+        <entity id="DDI-DrugBank.d110.s3.e1" charOffset="114-138"
+            type="group" text="ergot-type oxytocic drugs"/>
+        <pair id="DDI-DrugBank.d110.s3.p0" e1="DDI-DrugBank.d110.s3.e0"
+            e2="DDI-DrugBank.d110.s3.e1" ddi="true" type="effect"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d110.s4" text="The para-aminobenzoic acid metabolite of chloroprocaine inhibits the action of sulfonamides.">
+        <entity id="DDI-DrugBank.d110.s4.e0" charOffset="79-90"
+            type="group" text="sulfonamides"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d110.s5" text="Therefore, chloroprocaine should not be used in any condition in which a sulfonamide drug is being employed.">
+        <entity id="DDI-DrugBank.d110.s5.e0" charOffset="11-24"
+            type="drug" text="chloroprocaine"/>
+        <entity id="DDI-DrugBank.d110.s5.e1" charOffset="73-88"
+            type="group" text="sulfonamide drug"/>
+        <pair id="DDI-DrugBank.d110.s5.p0" e1="DDI-DrugBank.d110.s5.e0"
+            e2="DDI-DrugBank.d110.s5.e1" ddi="true" type="advise"/>
+    </sentence>
+</document>

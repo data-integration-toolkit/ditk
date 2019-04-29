@@ -1,0 +1,358 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="DDI-DrugBank.d54">
+    <sentence id="DDI-DrugBank.d54.s0" text="Oral Anticoagulants: Thyroid hormones appear to increase catabolism of vitamin K-dependent clotting factors.">
+        <entity id="DDI-DrugBank.d54.s0.e0" charOffset="5-18"
+            type="group" text="Anticoagulants"/>
+        <entity id="DDI-DrugBank.d54.s0.e1" charOffset="21-36"
+            type="group" text="Thyroid hormones"/>
+        <pair id="DDI-DrugBank.d54.s0.p0" e1="DDI-DrugBank.d54.s0.e0"
+            e2="DDI-DrugBank.d54.s0.e1" ddi="false"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d54.s1" text="If oral anticoagulants are also being given, compensatory increases in clotting factor synthesis are impaired.">
+        <entity id="DDI-DrugBank.d54.s1.e0" charOffset="8-21"
+            type="group" text="anticoagulants"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d54.s2" text="Patients stabilized on oral anticoagulants who are found to require thyroid replacement therapy should be watched very closely when thyroid is started.">
+        <entity id="DDI-DrugBank.d54.s2.e0" charOffset="28-41"
+            type="group" text="anticoagulants"/>
+        <entity id="DDI-DrugBank.d54.s2.e1" charOffset="68-74"
+            type="group" text="thyroid"/>
+        <pair id="DDI-DrugBank.d54.s2.p0" e1="DDI-DrugBank.d54.s2.e0"
+            e2="DDI-DrugBank.d54.s2.e1" ddi="true" type="advise"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d54.s3" text="If a patient is truly hypothyroid, it is likely that a reduction in anticoagulant dosage will be required.">
+        <entity id="DDI-DrugBank.d54.s3.e0" charOffset="68-80"
+            type="group" text="anticoagulant"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d54.s4" text="No special precautions appear to be necessary when oral anticoagulant therapy is begun in a patient already stabilized on maintenance thyroid replacement therapy."/>
+    <sentence id="DDI-DrugBank.d54.s5" text="Insulin or Oral Hypoglycemics: Initiating thyroid replacement therapy may cause increases in insulin or oral hypoglycemic requirements.">
+        <entity id="DDI-DrugBank.d54.s5.e0" charOffset="0-6" type="drug" text="Insulin"/>
+        <entity id="DDI-DrugBank.d54.s5.e1" charOffset="16-28"
+            type="group" text="Hypoglycemics"/>
+        <entity id="DDI-DrugBank.d54.s5.e2" charOffset="93-99"
+            type="drug" text="insulin"/>
+        <entity id="DDI-DrugBank.d54.s5.e3" charOffset="109-120"
+            type="group" text="hypoglycemic"/>
+        <pair id="DDI-DrugBank.d54.s5.p0" e1="DDI-DrugBank.d54.s5.e0"
+            e2="DDI-DrugBank.d54.s5.e1" ddi="false"/>
+        <pair id="DDI-DrugBank.d54.s5.p1" e1="DDI-DrugBank.d54.s5.e0"
+            e2="DDI-DrugBank.d54.s5.e2" ddi="false"/>
+        <pair id="DDI-DrugBank.d54.s5.p2" e1="DDI-DrugBank.d54.s5.e0"
+            e2="DDI-DrugBank.d54.s5.e3" ddi="false"/>
+        <pair id="DDI-DrugBank.d54.s5.p3" e1="DDI-DrugBank.d54.s5.e1"
+            e2="DDI-DrugBank.d54.s5.e2" ddi="false"/>
+        <pair id="DDI-DrugBank.d54.s5.p4" e1="DDI-DrugBank.d54.s5.e1"
+            e2="DDI-DrugBank.d54.s5.e3" ddi="false"/>
+        <pair id="DDI-DrugBank.d54.s5.p5" e1="DDI-DrugBank.d54.s5.e2"
+            e2="DDI-DrugBank.d54.s5.e3" ddi="false"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d54.s6" text="The effects seen are poorly understood and depend upon a variety of factors such as dose and type of thyroid preparations and endocrine status of the patient.">
+        <entity id="DDI-DrugBank.d54.s6.e0" charOffset="101-120"
+            type="group" text="thyroid preparations"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d54.s7" text="Patients receiving insulin or oral hypoglycemics should be closely watched during initiation of thyroid replacement therapy.">
+        <entity id="DDI-DrugBank.d54.s7.e0" charOffset="19-25"
+            type="drug" text="insulin"/>
+        <entity id="DDI-DrugBank.d54.s7.e1" charOffset="35-47"
+            type="group" text="hypoglycemics"/>
+        <pair id="DDI-DrugBank.d54.s7.p0" e1="DDI-DrugBank.d54.s7.e0"
+            e2="DDI-DrugBank.d54.s7.e1" ddi="false"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d54.s8" text="Cholestyramine: Cholestyramine binds both T4 and T3 in the intestine, thus impairing absorption of these thyroid hormones.">
+        <entity id="DDI-DrugBank.d54.s8.e0" charOffset="0-13"
+            type="drug" text="Cholestyramine"/>
+        <entity id="DDI-DrugBank.d54.s8.e1" charOffset="16-29"
+            type="drug" text="Cholestyramine"/>
+        <entity id="DDI-DrugBank.d54.s8.e2" charOffset="42-43"
+            type="drug" text="T4"/>
+        <entity id="DDI-DrugBank.d54.s8.e3" charOffset="49-50"
+            type="drug" text="T3"/>
+        <entity id="DDI-DrugBank.d54.s8.e4" charOffset="105-120"
+            type="group" text="thyroid hormones"/>
+        <pair id="DDI-DrugBank.d54.s8.p0" e1="DDI-DrugBank.d54.s8.e0"
+            e2="DDI-DrugBank.d54.s8.e1" ddi="false"/>
+        <pair id="DDI-DrugBank.d54.s8.p1" e1="DDI-DrugBank.d54.s8.e0"
+            e2="DDI-DrugBank.d54.s8.e2" ddi="false"/>
+        <pair id="DDI-DrugBank.d54.s8.p2" e1="DDI-DrugBank.d54.s8.e0"
+            e2="DDI-DrugBank.d54.s8.e3" ddi="false"/>
+        <pair id="DDI-DrugBank.d54.s8.p3" e1="DDI-DrugBank.d54.s8.e0"
+            e2="DDI-DrugBank.d54.s8.e4" ddi="false"/>
+        <pair id="DDI-DrugBank.d54.s8.p4" e1="DDI-DrugBank.d54.s8.e1"
+            e2="DDI-DrugBank.d54.s8.e2" ddi="true" type="mechanism"/>
+        <pair id="DDI-DrugBank.d54.s8.p5" e1="DDI-DrugBank.d54.s8.e1"
+            e2="DDI-DrugBank.d54.s8.e3" ddi="true" type="mechanism"/>
+        <pair id="DDI-DrugBank.d54.s8.p6" e1="DDI-DrugBank.d54.s8.e1"
+            e2="DDI-DrugBank.d54.s8.e4" ddi="false"/>
+        <pair id="DDI-DrugBank.d54.s8.p7" e1="DDI-DrugBank.d54.s8.e2"
+            e2="DDI-DrugBank.d54.s8.e3" ddi="false"/>
+        <pair id="DDI-DrugBank.d54.s8.p8" e1="DDI-DrugBank.d54.s8.e2"
+            e2="DDI-DrugBank.d54.s8.e4" ddi="false"/>
+        <pair id="DDI-DrugBank.d54.s8.p9" e1="DDI-DrugBank.d54.s8.e3"
+            e2="DDI-DrugBank.d54.s8.e4" ddi="false"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d54.s9" text="In vitro studies indicate that the binding is not easily removed."/>
+    <sentence id="DDI-DrugBank.d54.s10" text="Therefore, 4 to 5 hours should elapse between administration of cholestyramine and thyroid hormones.">
+        <entity id="DDI-DrugBank.d54.s10.e0" charOffset="64-77"
+            type="drug" text="cholestyramine"/>
+        <entity id="DDI-DrugBank.d54.s10.e1" charOffset="83-98"
+            type="group" text="thyroid hormones"/>
+        <pair id="DDI-DrugBank.d54.s10.p0" e1="DDI-DrugBank.d54.s10.e0"
+            e2="DDI-DrugBank.d54.s10.e1" ddi="true" type="advise"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d54.s11" text="Estrogen, Oral Contraceptives: Estrogens tend to increase serum thyroxine-binding globulin (TBg).">
+        <entity id="DDI-DrugBank.d54.s11.e0" charOffset="0-7"
+            type="group" text="Estrogen"/>
+        <entity id="DDI-DrugBank.d54.s11.e1" charOffset="15-28"
+            type="group" text="Contraceptives"/>
+        <entity id="DDI-DrugBank.d54.s11.e2" charOffset="31-39"
+            type="group" text="Estrogens"/>
+        <pair id="DDI-DrugBank.d54.s11.p0" e1="DDI-DrugBank.d54.s11.e0"
+            e2="DDI-DrugBank.d54.s11.e1" ddi="false"/>
+        <pair id="DDI-DrugBank.d54.s11.p1" e1="DDI-DrugBank.d54.s11.e0"
+            e2="DDI-DrugBank.d54.s11.e2" ddi="false"/>
+        <pair id="DDI-DrugBank.d54.s11.p2" e1="DDI-DrugBank.d54.s11.e1"
+            e2="DDI-DrugBank.d54.s11.e2" ddi="false"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d54.s12" text="In a patient with a nonfunctioning thyroid gland who is receiving thyroid replacement therapy, free levothyroxine may be decreased when estrogens are started thus increasing thyroid requirements.">
+        <entity id="DDI-DrugBank.d54.s12.e0" charOffset="100-112"
+            type="drug" text="levothyroxine"/>
+        <entity id="DDI-DrugBank.d54.s12.e1" charOffset="136-144"
+            type="group" text="estrogens"/>
+        <entity id="DDI-DrugBank.d54.s12.e2" charOffset="174-180"
+            type="group" text="thyroid"/>
+        <pair id="DDI-DrugBank.d54.s12.p0" e1="DDI-DrugBank.d54.s12.e0"
+            e2="DDI-DrugBank.d54.s12.e1" ddi="true" type="mechanism"/>
+        <pair id="DDI-DrugBank.d54.s12.p1" e1="DDI-DrugBank.d54.s12.e0"
+            e2="DDI-DrugBank.d54.s12.e2" ddi="false"/>
+        <pair id="DDI-DrugBank.d54.s12.p2" e1="DDI-DrugBank.d54.s12.e1"
+            e2="DDI-DrugBank.d54.s12.e2" ddi="false"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d54.s13" text="However, if the patients thyroid gland has sufficient function, the decreased free thyroxine will result in a compensatory increase in thyroxine output by the thyroid.">
+        <entity id="DDI-DrugBank.d54.s13.e0" charOffset="83-90"
+            type="drug" text="thyroxin"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d54.s14" text="Therefore, patients without a functioning thyroid gland who are on thyroid replacement therapy may need to increase their thyroid dose if estrogens or estrogen-containing oral contraceptives are given.">
+        <entity id="DDI-DrugBank.d54.s14.e0" charOffset="42-48"
+            type="group" text="thyroid"/>
+        <entity id="DDI-DrugBank.d54.s14.e1" charOffset="138-146"
+            type="group" text="estrogens"/>
+        <entity id="DDI-DrugBank.d54.s14.e2" charOffset="151-158"
+            type="group" text="estrogen"/>
+        <entity id="DDI-DrugBank.d54.s14.e3" charOffset="176-189"
+            type="group" text="contraceptives"/>
+        <pair id="DDI-DrugBank.d54.s14.p0" e1="DDI-DrugBank.d54.s14.e0"
+            e2="DDI-DrugBank.d54.s14.e1" ddi="true" type="advise"/>
+        <pair id="DDI-DrugBank.d54.s14.p1" e1="DDI-DrugBank.d54.s14.e0"
+            e2="DDI-DrugBank.d54.s14.e2" ddi="false"/>
+        <pair id="DDI-DrugBank.d54.s14.p2" e1="DDI-DrugBank.d54.s14.e0"
+            e2="DDI-DrugBank.d54.s14.e3" ddi="true" type="advise"/>
+        <pair id="DDI-DrugBank.d54.s14.p3" e1="DDI-DrugBank.d54.s14.e1"
+            e2="DDI-DrugBank.d54.s14.e2" ddi="false"/>
+        <pair id="DDI-DrugBank.d54.s14.p4" e1="DDI-DrugBank.d54.s14.e1"
+            e2="DDI-DrugBank.d54.s14.e3" ddi="false"/>
+        <pair id="DDI-DrugBank.d54.s14.p5" e1="DDI-DrugBank.d54.s14.e2"
+            e2="DDI-DrugBank.d54.s14.e3" ddi="false"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d54.s15" text="Tricyclic Antidepressants: Use of thyroid products with imipramine and other tricyclic antidepressants may increase receptor sensitivity and enhance antidepressant activity transient cardiac arrhythmias have been observed.">
+        <entity id="DDI-DrugBank.d54.s15.e0" charOffset="0-24"
+            type="group" text="Tricyclic Antidepressants"/>
+        <entity id="DDI-DrugBank.d54.s15.e1" charOffset="34-49"
+            type="group" text="thyroid products"/>
+        <entity id="DDI-DrugBank.d54.s15.e2" charOffset="56-65"
+            type="drug" text="imipramine"/>
+        <entity id="DDI-DrugBank.d54.s15.e3" charOffset="77-101"
+            type="group" text="tricyclic antidepressants"/>
+        <pair id="DDI-DrugBank.d54.s15.p0" e1="DDI-DrugBank.d54.s15.e0"
+            e2="DDI-DrugBank.d54.s15.e1" ddi="false"/>
+        <pair id="DDI-DrugBank.d54.s15.p1" e1="DDI-DrugBank.d54.s15.e0"
+            e2="DDI-DrugBank.d54.s15.e2" ddi="false"/>
+        <pair id="DDI-DrugBank.d54.s15.p2" e1="DDI-DrugBank.d54.s15.e0"
+            e2="DDI-DrugBank.d54.s15.e3" ddi="false"/>
+        <pair id="DDI-DrugBank.d54.s15.p3" e1="DDI-DrugBank.d54.s15.e1"
+            e2="DDI-DrugBank.d54.s15.e2" ddi="true" type="effect"/>
+        <pair id="DDI-DrugBank.d54.s15.p4" e1="DDI-DrugBank.d54.s15.e1"
+            e2="DDI-DrugBank.d54.s15.e3" ddi="true" type="effect"/>
+        <pair id="DDI-DrugBank.d54.s15.p5" e1="DDI-DrugBank.d54.s15.e2"
+            e2="DDI-DrugBank.d54.s15.e3" ddi="false"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d54.s16" text="Thyroid hormone activity may also be enhanced.">
+        <entity id="DDI-DrugBank.d54.s16.e0" charOffset="0-14"
+            type="group" text="Thyroid hormone"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d54.s17" text="Digitalis: Thyroid preparations may potentiate the toxic effects of digitalis.">
+        <entity id="DDI-DrugBank.d54.s17.e0" charOffset="0-8"
+            type="group" text="Digitalis"/>
+        <entity id="DDI-DrugBank.d54.s17.e1" charOffset="11-30"
+            type="group" text="Thyroid preparations"/>
+        <entity id="DDI-DrugBank.d54.s17.e2" charOffset="68-76"
+            type="group" text="digitalis"/>
+        <pair id="DDI-DrugBank.d54.s17.p0" e1="DDI-DrugBank.d54.s17.e0"
+            e2="DDI-DrugBank.d54.s17.e1" ddi="false"/>
+        <pair id="DDI-DrugBank.d54.s17.p1" e1="DDI-DrugBank.d54.s17.e0"
+            e2="DDI-DrugBank.d54.s17.e2" ddi="false"/>
+        <pair id="DDI-DrugBank.d54.s17.p2" e1="DDI-DrugBank.d54.s17.e1"
+            e2="DDI-DrugBank.d54.s17.e2" ddi="true" type="effect"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d54.s18" text="Thyroid hormonal replacement increases metabolic rate, which requires an increase in digitalis dosage.">
+        <entity id="DDI-DrugBank.d54.s18.e0" charOffset="85-93"
+            type="group" text="digitalis"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d54.s19" text="Ketamine: When administered to patients on a thyroid preparation, this parenteral anesthetic may cause hypertension and tachycardia.">
+        <entity id="DDI-DrugBank.d54.s19.e0" charOffset="0-7"
+            type="drug" text="Ketamine"/>
+        <entity id="DDI-DrugBank.d54.s19.e1" charOffset="45-63"
+            type="group" text="thyroid preparation"/>
+        <entity id="DDI-DrugBank.d54.s19.e2" charOffset="82-91"
+            type="group" text="anesthetic"/>
+        <pair id="DDI-DrugBank.d54.s19.p0" e1="DDI-DrugBank.d54.s19.e0"
+            e2="DDI-DrugBank.d54.s19.e1" ddi="false"/>
+        <pair id="DDI-DrugBank.d54.s19.p1" e1="DDI-DrugBank.d54.s19.e0"
+            e2="DDI-DrugBank.d54.s19.e2" ddi="false"/>
+        <pair id="DDI-DrugBank.d54.s19.p2" e1="DDI-DrugBank.d54.s19.e1"
+            e2="DDI-DrugBank.d54.s19.e2" ddi="true" type="effect"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d54.s20" text="Use with caution and be prepared to treat hypertension, if necessary."/>
+    <sentence id="DDI-DrugBank.d54.s21" text="Vasopressors: Thyroxine increases the adrenergic effect of catecholamines such as epinephrine and norepinephrine.">
+        <entity id="DDI-DrugBank.d54.s21.e0" charOffset="0-10"
+            type="group" text="Vasopressor"/>
+        <entity id="DDI-DrugBank.d54.s21.e1" charOffset="14-22"
+            type="drug" text="Thyroxine"/>
+        <entity id="DDI-DrugBank.d54.s21.e2" charOffset="82-92"
+            type="drug" text="epinephrine"/>
+        <entity id="DDI-DrugBank.d54.s21.e3" charOffset="98-111"
+            type="drug" text="norepinephrine"/>
+        <pair id="DDI-DrugBank.d54.s21.p0" e1="DDI-DrugBank.d54.s21.e0"
+            e2="DDI-DrugBank.d54.s21.e1" ddi="false"/>
+        <pair id="DDI-DrugBank.d54.s21.p1" e1="DDI-DrugBank.d54.s21.e0"
+            e2="DDI-DrugBank.d54.s21.e2" ddi="false"/>
+        <pair id="DDI-DrugBank.d54.s21.p2" e1="DDI-DrugBank.d54.s21.e0"
+            e2="DDI-DrugBank.d54.s21.e3" ddi="false"/>
+        <pair id="DDI-DrugBank.d54.s21.p3" e1="DDI-DrugBank.d54.s21.e1"
+            e2="DDI-DrugBank.d54.s21.e2" ddi="true" type="effect"/>
+        <pair id="DDI-DrugBank.d54.s21.p4" e1="DDI-DrugBank.d54.s21.e1"
+            e2="DDI-DrugBank.d54.s21.e3" ddi="true" type="effect"/>
+        <pair id="DDI-DrugBank.d54.s21.p5" e1="DDI-DrugBank.d54.s21.e2"
+            e2="DDI-DrugBank.d54.s21.e3" ddi="false"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d54.s22" text="Therefore, injection of these agents into patients receiving thyroid preparations increases the risk of precipitating coronary insufficiency especially in patients with coronary artery disease.">
+        <entity id="DDI-DrugBank.d54.s22.e0" charOffset="61-80"
+            type="group" text="thyroid preparations"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d54.s23" text="Careful observation is required."/>
+    <sentence id="DDI-DrugBank.d54.s24" text="Drug/Laboratory Test Interactions The following drugs or moieties are known to interfere with laboratory tests performed in patients on thyroid hormone therapy: androgens, corticosteroids, estrogens, oral contraceptives containing estrogens, iodine-containing preparations and the numerous preparations containing salicylates.">
+        <entity id="DDI-DrugBank.d54.s24.e0" charOffset="136-150"
+            type="group" text="thyroid hormone"/>
+        <entity id="DDI-DrugBank.d54.s24.e1" charOffset="161-169"
+            type="group" text="androgens"/>
+        <entity id="DDI-DrugBank.d54.s24.e2" charOffset="172-186"
+            type="group" text="corticosteroids"/>
+        <entity id="DDI-DrugBank.d54.s24.e3" charOffset="189-197"
+            type="group" text="estrogens"/>
+        <entity id="DDI-DrugBank.d54.s24.e4" charOffset="205-218"
+            type="group" text="contraceptives"/>
+        <entity id="DDI-DrugBank.d54.s24.e5" charOffset="231-239"
+            type="group" text="estrogens"/>
+        <entity id="DDI-DrugBank.d54.s24.e6" charOffset="242-247"
+            type="group" text="iodine"/>
+        <entity id="DDI-DrugBank.d54.s24.e7" charOffset="314-324"
+            type="group" text="salicylates"/>
+        <pair id="DDI-DrugBank.d54.s24.p0" e1="DDI-DrugBank.d54.s24.e0"
+            e2="DDI-DrugBank.d54.s24.e1" ddi="false"/>
+        <pair id="DDI-DrugBank.d54.s24.p1" e1="DDI-DrugBank.d54.s24.e0"
+            e2="DDI-DrugBank.d54.s24.e2" ddi="false"/>
+        <pair id="DDI-DrugBank.d54.s24.p2" e1="DDI-DrugBank.d54.s24.e0"
+            e2="DDI-DrugBank.d54.s24.e3" ddi="false"/>
+        <pair id="DDI-DrugBank.d54.s24.p3" e1="DDI-DrugBank.d54.s24.e0"
+            e2="DDI-DrugBank.d54.s24.e4" ddi="false"/>
+        <pair id="DDI-DrugBank.d54.s24.p4" e1="DDI-DrugBank.d54.s24.e0"
+            e2="DDI-DrugBank.d54.s24.e5" ddi="false"/>
+        <pair id="DDI-DrugBank.d54.s24.p5" e1="DDI-DrugBank.d54.s24.e0"
+            e2="DDI-DrugBank.d54.s24.e6" ddi="false"/>
+        <pair id="DDI-DrugBank.d54.s24.p6" e1="DDI-DrugBank.d54.s24.e0"
+            e2="DDI-DrugBank.d54.s24.e7" ddi="false"/>
+        <pair id="DDI-DrugBank.d54.s24.p7" e1="DDI-DrugBank.d54.s24.e1"
+            e2="DDI-DrugBank.d54.s24.e2" ddi="false"/>
+        <pair id="DDI-DrugBank.d54.s24.p8" e1="DDI-DrugBank.d54.s24.e1"
+            e2="DDI-DrugBank.d54.s24.e3" ddi="false"/>
+        <pair id="DDI-DrugBank.d54.s24.p9" e1="DDI-DrugBank.d54.s24.e1"
+            e2="DDI-DrugBank.d54.s24.e4" ddi="false"/>
+        <pair id="DDI-DrugBank.d54.s24.p10" e1="DDI-DrugBank.d54.s24.e1"
+            e2="DDI-DrugBank.d54.s24.e5" ddi="false"/>
+        <pair id="DDI-DrugBank.d54.s24.p11" e1="DDI-DrugBank.d54.s24.e1"
+            e2="DDI-DrugBank.d54.s24.e6" ddi="false"/>
+        <pair id="DDI-DrugBank.d54.s24.p12" e1="DDI-DrugBank.d54.s24.e1"
+            e2="DDI-DrugBank.d54.s24.e7" ddi="false"/>
+        <pair id="DDI-DrugBank.d54.s24.p13" e1="DDI-DrugBank.d54.s24.e2"
+            e2="DDI-DrugBank.d54.s24.e3" ddi="false"/>
+        <pair id="DDI-DrugBank.d54.s24.p14" e1="DDI-DrugBank.d54.s24.e2"
+            e2="DDI-DrugBank.d54.s24.e4" ddi="false"/>
+        <pair id="DDI-DrugBank.d54.s24.p15" e1="DDI-DrugBank.d54.s24.e2"
+            e2="DDI-DrugBank.d54.s24.e5" ddi="false"/>
+        <pair id="DDI-DrugBank.d54.s24.p16" e1="DDI-DrugBank.d54.s24.e2"
+            e2="DDI-DrugBank.d54.s24.e6" ddi="false"/>
+        <pair id="DDI-DrugBank.d54.s24.p17" e1="DDI-DrugBank.d54.s24.e2"
+            e2="DDI-DrugBank.d54.s24.e7" ddi="false"/>
+        <pair id="DDI-DrugBank.d54.s24.p18" e1="DDI-DrugBank.d54.s24.e3"
+            e2="DDI-DrugBank.d54.s24.e4" ddi="false"/>
+        <pair id="DDI-DrugBank.d54.s24.p19" e1="DDI-DrugBank.d54.s24.e3"
+            e2="DDI-DrugBank.d54.s24.e5" ddi="false"/>
+        <pair id="DDI-DrugBank.d54.s24.p20" e1="DDI-DrugBank.d54.s24.e3"
+            e2="DDI-DrugBank.d54.s24.e6" ddi="false"/>
+        <pair id="DDI-DrugBank.d54.s24.p21" e1="DDI-DrugBank.d54.s24.e3"
+            e2="DDI-DrugBank.d54.s24.e7" ddi="false"/>
+        <pair id="DDI-DrugBank.d54.s24.p22" e1="DDI-DrugBank.d54.s24.e4"
+            e2="DDI-DrugBank.d54.s24.e5" ddi="false"/>
+        <pair id="DDI-DrugBank.d54.s24.p23" e1="DDI-DrugBank.d54.s24.e4"
+            e2="DDI-DrugBank.d54.s24.e6" ddi="false"/>
+        <pair id="DDI-DrugBank.d54.s24.p24" e1="DDI-DrugBank.d54.s24.e4"
+            e2="DDI-DrugBank.d54.s24.e7" ddi="false"/>
+        <pair id="DDI-DrugBank.d54.s24.p25" e1="DDI-DrugBank.d54.s24.e5"
+            e2="DDI-DrugBank.d54.s24.e6" ddi="false"/>
+        <pair id="DDI-DrugBank.d54.s24.p26" e1="DDI-DrugBank.d54.s24.e5"
+            e2="DDI-DrugBank.d54.s24.e7" ddi="false"/>
+        <pair id="DDI-DrugBank.d54.s24.p27" e1="DDI-DrugBank.d54.s24.e6"
+            e2="DDI-DrugBank.d54.s24.e7" ddi="false"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d54.s25" text="- Changes in TBg concentration should be taken into consideration in the interpretation of T4 and T3 values."/>
+    <sentence id="DDI-DrugBank.d54.s26" text="In such cases, the unbound (free) hormone should be measured."/>
+    <sentence id="DDI-DrugBank.d54.s27" text="Pregnancy estrogens and estrogen-containing oral contraceptives increase TBg concentrations.">
+        <entity id="DDI-DrugBank.d54.s27.e0" charOffset="10-18"
+            type="group" text="estrogens"/>
+        <entity id="DDI-DrugBank.d54.s27.e1" charOffset="24-31"
+            type="group" text="estrogen"/>
+        <entity id="DDI-DrugBank.d54.s27.e2" charOffset="49-62"
+            type="group" text="contraceptives"/>
+        <pair id="DDI-DrugBank.d54.s27.p0" e1="DDI-DrugBank.d54.s27.e0"
+            e2="DDI-DrugBank.d54.s27.e1" ddi="false"/>
+        <pair id="DDI-DrugBank.d54.s27.p1" e1="DDI-DrugBank.d54.s27.e0"
+            e2="DDI-DrugBank.d54.s27.e2" ddi="false"/>
+        <pair id="DDI-DrugBank.d54.s27.p2" e1="DDI-DrugBank.d54.s27.e1"
+            e2="DDI-DrugBank.d54.s27.e2" ddi="false"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d54.s28" text="TBg may also be increased during infectious hepatitis."/>
+    <sentence id="DDI-DrugBank.d54.s29" text="Decreases in TBg concentrations are observed in nephrosis, acromegaly and after androgen or corticosteroid therapy.">
+        <entity id="DDI-DrugBank.d54.s29.e0" charOffset="80-87"
+            type="group" text="androgen"/>
+        <entity id="DDI-DrugBank.d54.s29.e1" charOffset="92-105"
+            type="group" text="corticosteroid"/>
+        <pair id="DDI-DrugBank.d54.s29.p0" e1="DDI-DrugBank.d54.s29.e0"
+            e2="DDI-DrugBank.d54.s29.e1" ddi="false"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d54.s30" text="Familial hyper- or hypo-thyroxine-binding-globulinemias have been described."/>
+    <sentence id="DDI-DrugBank.d54.s31" text="The incidence of TBg deficiency approximates 1 in 9000."/>
+    <sentence id="DDI-DrugBank.d54.s32" text="The binding of thyroxine by thyroxine-binding prealbumin (TBPA) is inhibited by salicylates">
+        <entity id="DDI-DrugBank.d54.s32.e0" charOffset="80-90"
+            type="group" text="salicylates"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d54.s33" text="."/>
+    <sentence id="DDI-DrugBank.d54.s34" text="- Medicinal or dietary iodine interferes with all in vivo tests of radio-iodine uptake producing low uptakes which may not be reflective of a true decrease in hormone synthesis">
+        <entity id="DDI-DrugBank.d54.s34.e0" charOffset="23-28"
+            type="group" text="iodine"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d54.s35" text="."/>
+    <sentence id="DDI-DrugBank.d54.s36" text="- The persistence of clinical and laboratory evidence of hypothyroidism in spite of adequate dosage replacement indicates either poor patient compliance, poor absorption, excessive fecal loss, or inactivity of the preparation."/>
+    <sentence id="DDI-DrugBank.d54.s37" text="Intracellular resistance to thyroid hormone is quite rare.">
+        <entity id="DDI-DrugBank.d54.s37.e0" charOffset="28-42"
+            type="group" text="thyroid hormone"/>
+    </sentence>
+</document>

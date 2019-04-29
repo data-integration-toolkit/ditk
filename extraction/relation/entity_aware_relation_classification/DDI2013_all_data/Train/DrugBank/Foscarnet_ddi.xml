@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="DDI-DrugBank.d511">
+    <sentence id="DDI-DrugBank.d511.s0" text="A possible drug interaction of FOSCAVIR and intravenous pentamidine has been described.">
+        <entity id="DDI-DrugBank.d511.s0.e0" charOffset="31-38"
+            type="brand" text="FOSCAVIR"/>
+        <entity id="DDI-DrugBank.d511.s0.e1" charOffset="56-66"
+            type="drug" text="pentamidine"/>
+        <pair id="DDI-DrugBank.d511.s0.p0" e1="DDI-DrugBank.d511.s0.e0"
+            e2="DDI-DrugBank.d511.s0.e1" ddi="true" type="int"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d511.s1" text="Concomitant treatment of four patients in the United Kingdom with FOSCAVIR and intravenous pentamidine may have caused hypocalcemia;">
+        <entity id="DDI-DrugBank.d511.s1.e0" charOffset="66-73"
+            type="brand" text="FOSCAVIR"/>
+        <entity id="DDI-DrugBank.d511.s1.e1" charOffset="91-101"
+            type="drug" text="pentamidine"/>
+        <pair id="DDI-DrugBank.d511.s1.p0" e1="DDI-DrugBank.d511.s1.e0"
+            e2="DDI-DrugBank.d511.s1.e1" ddi="true" type="effect"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d511.s2" text="one patient died with severe hypocalcemia."/>
+    <sentence id="DDI-DrugBank.d511.s3" text="Toxicity associated with concomitant use of aerosolized pentamidine has not been reported.">
+        <entity id="DDI-DrugBank.d511.s3.e0" charOffset="56-66"
+            type="drug" text="pentamidine"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d511.s4" text="Because of foscarnets tendency to cause renal impairment, the use of FOSCAVIR should be avoided in combination with potentially nephrotoxic drugs such as aminoglycosides, amphotericin B and intravenous pentamidine unless the potential benefits outweigh the risks to the patient.">
+        <entity id="DDI-DrugBank.d511.s4.e0" charOffset="11-19"
+            type="drug" text="foscarnet"/>
+        <entity id="DDI-DrugBank.d511.s4.e1" charOffset="69-76"
+            type="brand" text="FOSCAVIR"/>
+        <entity id="DDI-DrugBank.d511.s4.e2" charOffset="154-168"
+            type="group" text="aminoglycosides"/>
+        <entity id="DDI-DrugBank.d511.s4.e3" charOffset="171-184"
+            type="drug" text="amphotericin B"/>
+        <entity id="DDI-DrugBank.d511.s4.e4" charOffset="202-212"
+            type="drug" text="pentamidine"/>
+        <pair id="DDI-DrugBank.d511.s4.p0" e1="DDI-DrugBank.d511.s4.e0"
+            e2="DDI-DrugBank.d511.s4.e1" ddi="false"/>
+        <pair id="DDI-DrugBank.d511.s4.p1" e1="DDI-DrugBank.d511.s4.e0"
+            e2="DDI-DrugBank.d511.s4.e2" ddi="false"/>
+        <pair id="DDI-DrugBank.d511.s4.p2" e1="DDI-DrugBank.d511.s4.e0"
+            e2="DDI-DrugBank.d511.s4.e3" ddi="false"/>
+        <pair id="DDI-DrugBank.d511.s4.p3" e1="DDI-DrugBank.d511.s4.e0"
+            e2="DDI-DrugBank.d511.s4.e4" ddi="false"/>
+        <pair id="DDI-DrugBank.d511.s4.p4" e1="DDI-DrugBank.d511.s4.e1"
+            e2="DDI-DrugBank.d511.s4.e2" ddi="true" type="advise"/>
+        <pair id="DDI-DrugBank.d511.s4.p5" e1="DDI-DrugBank.d511.s4.e1"
+            e2="DDI-DrugBank.d511.s4.e3" ddi="true" type="advise"/>
+        <pair id="DDI-DrugBank.d511.s4.p6" e1="DDI-DrugBank.d511.s4.e1"
+            e2="DDI-DrugBank.d511.s4.e4" ddi="true" type="advise"/>
+        <pair id="DDI-DrugBank.d511.s4.p7" e1="DDI-DrugBank.d511.s4.e2"
+            e2="DDI-DrugBank.d511.s4.e3" ddi="false"/>
+        <pair id="DDI-DrugBank.d511.s4.p8" e1="DDI-DrugBank.d511.s4.e2"
+            e2="DDI-DrugBank.d511.s4.e4" ddi="false"/>
+        <pair id="DDI-DrugBank.d511.s4.p9" e1="DDI-DrugBank.d511.s4.e3"
+            e2="DDI-DrugBank.d511.s4.e4" ddi="false"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d511.s5" text="Since FOSCAVIR decreases serum concentrations of ionized calcium, concurrent treatment with other drugs known to influence serum calcium concentrations should be used with particular caution.">
+        <entity id="DDI-DrugBank.d511.s5.e0" charOffset="6-13"
+            type="brand" text="FOSCAVIR"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d511.s6" text="Ganciclovir: The pharmacokinetics of foscarnet and ganciclovir were not altered in 13 patients receiving either concomitant therapy or daily alternating therapy for maintenance of CMV disease.">
+        <entity id="DDI-DrugBank.d511.s6.e0" charOffset="0-10"
+            type="drug" text="Ganciclovir"/>
+        <entity id="DDI-DrugBank.d511.s6.e1" charOffset="37-45"
+            type="drug" text="foscarnet"/>
+        <entity id="DDI-DrugBank.d511.s6.e2" charOffset="51-61"
+            type="drug" text="ganciclovir"/>
+        <pair id="DDI-DrugBank.d511.s6.p0" e1="DDI-DrugBank.d511.s6.e0"
+            e2="DDI-DrugBank.d511.s6.e1" ddi="false"/>
+        <pair id="DDI-DrugBank.d511.s6.p1" e1="DDI-DrugBank.d511.s6.e0"
+            e2="DDI-DrugBank.d511.s6.e2" ddi="false"/>
+        <pair id="DDI-DrugBank.d511.s6.p2" e1="DDI-DrugBank.d511.s6.e1"
+            e2="DDI-DrugBank.d511.s6.e2" ddi="false"/>
+    </sentence>
+</document>

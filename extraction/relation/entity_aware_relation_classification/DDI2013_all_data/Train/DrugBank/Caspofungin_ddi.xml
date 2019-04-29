@@ -1,0 +1,287 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="DDI-DrugBank.d350">
+    <sentence id="DDI-DrugBank.d350.s0" text="Studies in vitro show that caspofungin acetate is not an inhibitor of any enzyme in the cytochrome P450 (CYP) system.">
+        <entity id="DDI-DrugBank.d350.s0.e0" charOffset="27-45"
+            type="drug" text="caspofungin acetate"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d350.s1" text="In clinical studies, caspofungin did not induce the CYP3A4 metabolism of other drugs.">
+        <entity id="DDI-DrugBank.d350.s1.e0" charOffset="21-31"
+            type="drug" text="caspofungin"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d350.s2" text="Caspofungin is not a substrate for P-glycoprotein and is a poor substrate for cytochrome P450 enzymes.">
+        <entity id="DDI-DrugBank.d350.s2.e0" charOffset="0-10"
+            type="drug" text="Caspofungin"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d350.s3" text="Clinical studies in healthy volunteers show that the pharmacokinetics of CANCIDAS are not altered by itraconazole, amphotericin B, mycophenolate, nelfinavir, or tacrolimus.">
+        <entity id="DDI-DrugBank.d350.s3.e0" charOffset="73-80"
+            type="brand" text="CANCIDAS"/>
+        <entity id="DDI-DrugBank.d350.s3.e1" charOffset="101-112"
+            type="drug" text="itraconazole"/>
+        <entity id="DDI-DrugBank.d350.s3.e2" charOffset="115-128"
+            type="drug" text="amphotericin B"/>
+        <entity id="DDI-DrugBank.d350.s3.e3" charOffset="131-143"
+            type="drug" text="mycophenolate"/>
+        <entity id="DDI-DrugBank.d350.s3.e4" charOffset="146-155"
+            type="drug" text="nelfinavir"/>
+        <entity id="DDI-DrugBank.d350.s3.e5" charOffset="161-170"
+            type="drug" text="tacrolimus"/>
+        <pair id="DDI-DrugBank.d350.s3.p0" e1="DDI-DrugBank.d350.s3.e0"
+            e2="DDI-DrugBank.d350.s3.e1" ddi="false"/>
+        <pair id="DDI-DrugBank.d350.s3.p1" e1="DDI-DrugBank.d350.s3.e0"
+            e2="DDI-DrugBank.d350.s3.e2" ddi="false"/>
+        <pair id="DDI-DrugBank.d350.s3.p2" e1="DDI-DrugBank.d350.s3.e0"
+            e2="DDI-DrugBank.d350.s3.e3" ddi="false"/>
+        <pair id="DDI-DrugBank.d350.s3.p3" e1="DDI-DrugBank.d350.s3.e0"
+            e2="DDI-DrugBank.d350.s3.e4" ddi="false"/>
+        <pair id="DDI-DrugBank.d350.s3.p4" e1="DDI-DrugBank.d350.s3.e0"
+            e2="DDI-DrugBank.d350.s3.e5" ddi="false"/>
+        <pair id="DDI-DrugBank.d350.s3.p5" e1="DDI-DrugBank.d350.s3.e1"
+            e2="DDI-DrugBank.d350.s3.e2" ddi="false"/>
+        <pair id="DDI-DrugBank.d350.s3.p6" e1="DDI-DrugBank.d350.s3.e1"
+            e2="DDI-DrugBank.d350.s3.e3" ddi="false"/>
+        <pair id="DDI-DrugBank.d350.s3.p7" e1="DDI-DrugBank.d350.s3.e1"
+            e2="DDI-DrugBank.d350.s3.e4" ddi="false"/>
+        <pair id="DDI-DrugBank.d350.s3.p8" e1="DDI-DrugBank.d350.s3.e1"
+            e2="DDI-DrugBank.d350.s3.e5" ddi="false"/>
+        <pair id="DDI-DrugBank.d350.s3.p9" e1="DDI-DrugBank.d350.s3.e2"
+            e2="DDI-DrugBank.d350.s3.e3" ddi="false"/>
+        <pair id="DDI-DrugBank.d350.s3.p10" e1="DDI-DrugBank.d350.s3.e2"
+            e2="DDI-DrugBank.d350.s3.e4" ddi="false"/>
+        <pair id="DDI-DrugBank.d350.s3.p11" e1="DDI-DrugBank.d350.s3.e2"
+            e2="DDI-DrugBank.d350.s3.e5" ddi="false"/>
+        <pair id="DDI-DrugBank.d350.s3.p12" e1="DDI-DrugBank.d350.s3.e3"
+            e2="DDI-DrugBank.d350.s3.e4" ddi="false"/>
+        <pair id="DDI-DrugBank.d350.s3.p13" e1="DDI-DrugBank.d350.s3.e3"
+            e2="DDI-DrugBank.d350.s3.e5" ddi="false"/>
+        <pair id="DDI-DrugBank.d350.s3.p14" e1="DDI-DrugBank.d350.s3.e4"
+            e2="DDI-DrugBank.d350.s3.e5" ddi="false"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d350.s4" text="CANCIDAS has no effect on the pharmacokinetics of itraconazole, amphotericin B, or the active metabolite of mycophenolate.">
+        <entity id="DDI-DrugBank.d350.s4.e0" charOffset="0-7"
+            type="brand" text="CANCIDAS"/>
+        <entity id="DDI-DrugBank.d350.s4.e1" charOffset="50-61"
+            type="drug" text="itraconazole"/>
+        <entity id="DDI-DrugBank.d350.s4.e2" charOffset="64-77"
+            type="drug" text="amphotericin B"/>
+        <pair id="DDI-DrugBank.d350.s4.p0" e1="DDI-DrugBank.d350.s4.e0"
+            e2="DDI-DrugBank.d350.s4.e1" ddi="false"/>
+        <pair id="DDI-DrugBank.d350.s4.p1" e1="DDI-DrugBank.d350.s4.e0"
+            e2="DDI-DrugBank.d350.s4.e2" ddi="false"/>
+        <pair id="DDI-DrugBank.d350.s4.p2" e1="DDI-DrugBank.d350.s4.e1"
+            e2="DDI-DrugBank.d350.s4.e2" ddi="false"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d350.s5" text="CANCIDAS reduced the blood AUC0-12 of tacrolimus by approximately 20%, peak blood concentration (Cmax) by 16%, and 12-hour blood concentration (C12hr) by 26% in healthy subjects when tacrolimus (2 doses of 0.1 mg/kg 12 hours apart) was administered on the 10th day of CANCIDAS 70 mg daily, as compared to results from a control period in which tacrolimus was administered alone.">
+        <entity id="DDI-DrugBank.d350.s5.e0" charOffset="0-7"
+            type="brand" text="CANCIDAS"/>
+        <entity id="DDI-DrugBank.d350.s5.e1" charOffset="38-47"
+            type="drug" text="tacrolimus"/>
+        <entity id="DDI-DrugBank.d350.s5.e2" charOffset="183-192"
+            type="drug" text="tacrolimus"/>
+        <entity id="DDI-DrugBank.d350.s5.e3" charOffset="268-275"
+            type="brand" text="CANCIDAS"/>
+        <entity id="DDI-DrugBank.d350.s5.e4" charOffset="344-353"
+            type="drug" text="tacrolimus"/>
+        <pair id="DDI-DrugBank.d350.s5.p0" e1="DDI-DrugBank.d350.s5.e0"
+            e2="DDI-DrugBank.d350.s5.e1" ddi="true" type="mechanism"/>
+        <pair id="DDI-DrugBank.d350.s5.p1" e1="DDI-DrugBank.d350.s5.e0"
+            e2="DDI-DrugBank.d350.s5.e2" ddi="false"/>
+        <pair id="DDI-DrugBank.d350.s5.p2" e1="DDI-DrugBank.d350.s5.e0"
+            e2="DDI-DrugBank.d350.s5.e3" ddi="false"/>
+        <pair id="DDI-DrugBank.d350.s5.p3" e1="DDI-DrugBank.d350.s5.e0"
+            e2="DDI-DrugBank.d350.s5.e4" ddi="false"/>
+        <pair id="DDI-DrugBank.d350.s5.p4" e1="DDI-DrugBank.d350.s5.e1"
+            e2="DDI-DrugBank.d350.s5.e2" ddi="false"/>
+        <pair id="DDI-DrugBank.d350.s5.p5" e1="DDI-DrugBank.d350.s5.e1"
+            e2="DDI-DrugBank.d350.s5.e3" ddi="false"/>
+        <pair id="DDI-DrugBank.d350.s5.p6" e1="DDI-DrugBank.d350.s5.e1"
+            e2="DDI-DrugBank.d350.s5.e4" ddi="false"/>
+        <pair id="DDI-DrugBank.d350.s5.p7" e1="DDI-DrugBank.d350.s5.e2"
+            e2="DDI-DrugBank.d350.s5.e3" ddi="false"/>
+        <pair id="DDI-DrugBank.d350.s5.p8" e1="DDI-DrugBank.d350.s5.e2"
+            e2="DDI-DrugBank.d350.s5.e4" ddi="false"/>
+        <pair id="DDI-DrugBank.d350.s5.p9" e1="DDI-DrugBank.d350.s5.e3"
+            e2="DDI-DrugBank.d350.s5.e4" ddi="false"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d350.s6" text="For patients receiving both therapies, standard monitoring of tacrolimus blood concentrations and appropriate tacrolimus dosage adjustments are recommended.">
+        <entity id="DDI-DrugBank.d350.s6.e0" charOffset="62-71"
+            type="drug" text="tacrolimus"/>
+        <entity id="DDI-DrugBank.d350.s6.e1" charOffset="110-119"
+            type="drug" text="tacrolimus"/>
+        <pair id="DDI-DrugBank.d350.s6.p0" e1="DDI-DrugBank.d350.s6.e0"
+            e2="DDI-DrugBank.d350.s6.e1" ddi="false"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d350.s7" text="In two clinical studies, cyclosporine (one 4 mg/kg dose or two 3 mg/kg doses) increased the AUC of caspofungin by approximately 35%.">
+        <entity id="DDI-DrugBank.d350.s7.e0" charOffset="25-36"
+            type="drug" text="cyclosporine"/>
+        <entity id="DDI-DrugBank.d350.s7.e1" charOffset="99-109"
+            type="drug" text="caspofungin"/>
+        <pair id="DDI-DrugBank.d350.s7.p0" e1="DDI-DrugBank.d350.s7.e0"
+            e2="DDI-DrugBank.d350.s7.e1" ddi="true" type="mechanism"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d350.s8" text="CANCIDAS did not increase the plasma levels of cyclosporine.">
+        <entity id="DDI-DrugBank.d350.s8.e0" charOffset="0-7"
+            type="brand" text="CANCIDAS"/>
+        <entity id="DDI-DrugBank.d350.s8.e1" charOffset="47-58"
+            type="drug" text="cyclosporine"/>
+        <pair id="DDI-DrugBank.d350.s8.p0" e1="DDI-DrugBank.d350.s8.e0"
+            e2="DDI-DrugBank.d350.s8.e1" ddi="false"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d350.s9" text="There were transient increases in liver ALT and AST when CANCIDAS and cyclosporine were co-administered.">
+        <entity id="DDI-DrugBank.d350.s9.e0" charOffset="57-64"
+            type="brand" text="CANCIDAS"/>
+        <entity id="DDI-DrugBank.d350.s9.e1" charOffset="70-81"
+            type="drug" text="cyclosporine"/>
+        <pair id="DDI-DrugBank.d350.s9.p0" e1="DDI-DrugBank.d350.s9.e0"
+            e2="DDI-DrugBank.d350.s9.e1" ddi="true" type="effect"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d350.s10" text="A drug-drug interaction study with rifampin in healthy volunteers has shown a 30% decrease in caspofungin trough concentrations.">
+        <entity id="DDI-DrugBank.d350.s10.e0" charOffset="35-42"
+            type="drug" text="rifampin"/>
+        <entity id="DDI-DrugBank.d350.s10.e1" charOffset="94-104"
+            type="drug" text="caspofungin"/>
+        <pair id="DDI-DrugBank.d350.s10.p0"
+            e1="DDI-DrugBank.d350.s10.e0" e2="DDI-DrugBank.d350.s10.e1"
+            ddi="true" type="mechanism"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d350.s11" text="Patients on rifampin should receive 70 mg of CANCIDAS daily.">
+        <entity id="DDI-DrugBank.d350.s11.e0" charOffset="12-19"
+            type="drug" text="rifampin"/>
+        <entity id="DDI-DrugBank.d350.s11.e1" charOffset="45-52"
+            type="brand" text="CANCIDAS"/>
+        <pair id="DDI-DrugBank.d350.s11.p0"
+            e1="DDI-DrugBank.d350.s11.e0" e2="DDI-DrugBank.d350.s11.e1"
+            ddi="true" type="advise"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d350.s12" text="In addition, results from regression analyses of patient pharmacokinetic data suggest that co-administration of other inducers of drug clearance (efavirenz, nevirapine, phenytoin, dexamethasone, or carbamazepine) with CANCIDAS may result in clinically meaningful reductions in caspofungin concentrations.">
+        <entity id="DDI-DrugBank.d350.s12.e0" charOffset="146-154"
+            type="drug" text="efavirenz"/>
+        <entity id="DDI-DrugBank.d350.s12.e1" charOffset="157-166"
+            type="drug" text="nevirapine"/>
+        <entity id="DDI-DrugBank.d350.s12.e2" charOffset="169-177"
+            type="drug" text="phenytoin"/>
+        <entity id="DDI-DrugBank.d350.s12.e3" charOffset="180-192"
+            type="drug" text="dexamethasone"/>
+        <entity id="DDI-DrugBank.d350.s12.e4" charOffset="198-210"
+            type="drug" text="carbamazepine"/>
+        <entity id="DDI-DrugBank.d350.s12.e5" charOffset="218-225"
+            type="brand" text="CANCIDAS"/>
+        <entity id="DDI-DrugBank.d350.s12.e6" charOffset="277-287"
+            type="drug" text="caspofungin"/>
+        <pair id="DDI-DrugBank.d350.s12.p0"
+            e1="DDI-DrugBank.d350.s12.e0" e2="DDI-DrugBank.d350.s12.e1" ddi="false"/>
+        <pair id="DDI-DrugBank.d350.s12.p1"
+            e1="DDI-DrugBank.d350.s12.e0" e2="DDI-DrugBank.d350.s12.e2" ddi="false"/>
+        <pair id="DDI-DrugBank.d350.s12.p2"
+            e1="DDI-DrugBank.d350.s12.e0" e2="DDI-DrugBank.d350.s12.e3" ddi="false"/>
+        <pair id="DDI-DrugBank.d350.s12.p3"
+            e1="DDI-DrugBank.d350.s12.e0" e2="DDI-DrugBank.d350.s12.e4" ddi="false"/>
+        <pair id="DDI-DrugBank.d350.s12.p4"
+            e1="DDI-DrugBank.d350.s12.e0" e2="DDI-DrugBank.d350.s12.e5"
+            ddi="true" type="mechanism"/>
+        <pair id="DDI-DrugBank.d350.s12.p5"
+            e1="DDI-DrugBank.d350.s12.e0" e2="DDI-DrugBank.d350.s12.e6" ddi="false"/>
+        <pair id="DDI-DrugBank.d350.s12.p6"
+            e1="DDI-DrugBank.d350.s12.e1" e2="DDI-DrugBank.d350.s12.e2" ddi="false"/>
+        <pair id="DDI-DrugBank.d350.s12.p7"
+            e1="DDI-DrugBank.d350.s12.e1" e2="DDI-DrugBank.d350.s12.e3" ddi="false"/>
+        <pair id="DDI-DrugBank.d350.s12.p8"
+            e1="DDI-DrugBank.d350.s12.e1" e2="DDI-DrugBank.d350.s12.e4" ddi="false"/>
+        <pair id="DDI-DrugBank.d350.s12.p9"
+            e1="DDI-DrugBank.d350.s12.e1" e2="DDI-DrugBank.d350.s12.e5"
+            ddi="true" type="mechanism"/>
+        <pair id="DDI-DrugBank.d350.s12.p10"
+            e1="DDI-DrugBank.d350.s12.e1" e2="DDI-DrugBank.d350.s12.e6" ddi="false"/>
+        <pair id="DDI-DrugBank.d350.s12.p11"
+            e1="DDI-DrugBank.d350.s12.e2" e2="DDI-DrugBank.d350.s12.e3" ddi="false"/>
+        <pair id="DDI-DrugBank.d350.s12.p12"
+            e1="DDI-DrugBank.d350.s12.e2" e2="DDI-DrugBank.d350.s12.e4" ddi="false"/>
+        <pair id="DDI-DrugBank.d350.s12.p13"
+            e1="DDI-DrugBank.d350.s12.e2" e2="DDI-DrugBank.d350.s12.e5"
+            ddi="true" type="mechanism"/>
+        <pair id="DDI-DrugBank.d350.s12.p14"
+            e1="DDI-DrugBank.d350.s12.e2" e2="DDI-DrugBank.d350.s12.e6" ddi="false"/>
+        <pair id="DDI-DrugBank.d350.s12.p15"
+            e1="DDI-DrugBank.d350.s12.e3" e2="DDI-DrugBank.d350.s12.e4" ddi="false"/>
+        <pair id="DDI-DrugBank.d350.s12.p16"
+            e1="DDI-DrugBank.d350.s12.e3" e2="DDI-DrugBank.d350.s12.e5"
+            ddi="true" type="mechanism"/>
+        <pair id="DDI-DrugBank.d350.s12.p17"
+            e1="DDI-DrugBank.d350.s12.e3" e2="DDI-DrugBank.d350.s12.e6" ddi="false"/>
+        <pair id="DDI-DrugBank.d350.s12.p18"
+            e1="DDI-DrugBank.d350.s12.e4" e2="DDI-DrugBank.d350.s12.e5"
+            ddi="true" type="mechanism"/>
+        <pair id="DDI-DrugBank.d350.s12.p19"
+            e1="DDI-DrugBank.d350.s12.e4" e2="DDI-DrugBank.d350.s12.e6" ddi="false"/>
+        <pair id="DDI-DrugBank.d350.s12.p20"
+            e1="DDI-DrugBank.d350.s12.e5" e2="DDI-DrugBank.d350.s12.e6" ddi="false"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d350.s13" text="It is not known which drug clearance mechanism involved in caspofungin disposition may be inducible.">
+        <entity id="DDI-DrugBank.d350.s13.e0" charOffset="59-69"
+            type="drug" text="caspofungin"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d350.s14" text="When CANCIDAS is co-administered with inducers of drug clearance, such as efavirenz, nevirapine, phenytoin, dexamethasone, or carbamazepine, use of a daily dose of 70 mg of CANCIDAS should be considered">
+        <entity id="DDI-DrugBank.d350.s14.e0" charOffset="5-12"
+            type="brand" text="CANCIDAS"/>
+        <entity id="DDI-DrugBank.d350.s14.e1" charOffset="74-82"
+            type="drug" text="efavirenz"/>
+        <entity id="DDI-DrugBank.d350.s14.e2" charOffset="85-94"
+            type="drug" text="nevirapine"/>
+        <entity id="DDI-DrugBank.d350.s14.e3" charOffset="97-105"
+            type="drug" text="phenytoin"/>
+        <entity id="DDI-DrugBank.d350.s14.e4" charOffset="108-120"
+            type="drug" text="dexamethasone"/>
+        <entity id="DDI-DrugBank.d350.s14.e5" charOffset="126-138"
+            type="drug" text="carbamazepine"/>
+        <entity id="DDI-DrugBank.d350.s14.e6" charOffset="173-180"
+            type="brand" text="CANCIDAS"/>
+        <pair id="DDI-DrugBank.d350.s14.p0"
+            e1="DDI-DrugBank.d350.s14.e0" e2="DDI-DrugBank.d350.s14.e1"
+            ddi="true" type="advise"/>
+        <pair id="DDI-DrugBank.d350.s14.p1"
+            e1="DDI-DrugBank.d350.s14.e0" e2="DDI-DrugBank.d350.s14.e2"
+            ddi="true" type="advise"/>
+        <pair id="DDI-DrugBank.d350.s14.p2"
+            e1="DDI-DrugBank.d350.s14.e0" e2="DDI-DrugBank.d350.s14.e3"
+            ddi="true" type="advise"/>
+        <pair id="DDI-DrugBank.d350.s14.p3"
+            e1="DDI-DrugBank.d350.s14.e0" e2="DDI-DrugBank.d350.s14.e4"
+            ddi="true" type="advise"/>
+        <pair id="DDI-DrugBank.d350.s14.p4"
+            e1="DDI-DrugBank.d350.s14.e0" e2="DDI-DrugBank.d350.s14.e5"
+            ddi="true" type="advise"/>
+        <pair id="DDI-DrugBank.d350.s14.p5"
+            e1="DDI-DrugBank.d350.s14.e0" e2="DDI-DrugBank.d350.s14.e6" ddi="false"/>
+        <pair id="DDI-DrugBank.d350.s14.p6"
+            e1="DDI-DrugBank.d350.s14.e1" e2="DDI-DrugBank.d350.s14.e2" ddi="false"/>
+        <pair id="DDI-DrugBank.d350.s14.p7"
+            e1="DDI-DrugBank.d350.s14.e1" e2="DDI-DrugBank.d350.s14.e3" ddi="false"/>
+        <pair id="DDI-DrugBank.d350.s14.p8"
+            e1="DDI-DrugBank.d350.s14.e1" e2="DDI-DrugBank.d350.s14.e4" ddi="false"/>
+        <pair id="DDI-DrugBank.d350.s14.p9"
+            e1="DDI-DrugBank.d350.s14.e1" e2="DDI-DrugBank.d350.s14.e5" ddi="false"/>
+        <pair id="DDI-DrugBank.d350.s14.p10"
+            e1="DDI-DrugBank.d350.s14.e1" e2="DDI-DrugBank.d350.s14.e6" ddi="false"/>
+        <pair id="DDI-DrugBank.d350.s14.p11"
+            e1="DDI-DrugBank.d350.s14.e2" e2="DDI-DrugBank.d350.s14.e3" ddi="false"/>
+        <pair id="DDI-DrugBank.d350.s14.p12"
+            e1="DDI-DrugBank.d350.s14.e2" e2="DDI-DrugBank.d350.s14.e4" ddi="false"/>
+        <pair id="DDI-DrugBank.d350.s14.p13"
+            e1="DDI-DrugBank.d350.s14.e2" e2="DDI-DrugBank.d350.s14.e5" ddi="false"/>
+        <pair id="DDI-DrugBank.d350.s14.p14"
+            e1="DDI-DrugBank.d350.s14.e2" e2="DDI-DrugBank.d350.s14.e6" ddi="false"/>
+        <pair id="DDI-DrugBank.d350.s14.p15"
+            e1="DDI-DrugBank.d350.s14.e3" e2="DDI-DrugBank.d350.s14.e4" ddi="false"/>
+        <pair id="DDI-DrugBank.d350.s14.p16"
+            e1="DDI-DrugBank.d350.s14.e3" e2="DDI-DrugBank.d350.s14.e5" ddi="false"/>
+        <pair id="DDI-DrugBank.d350.s14.p17"
+            e1="DDI-DrugBank.d350.s14.e3" e2="DDI-DrugBank.d350.s14.e6" ddi="false"/>
+        <pair id="DDI-DrugBank.d350.s14.p18"
+            e1="DDI-DrugBank.d350.s14.e4" e2="DDI-DrugBank.d350.s14.e5" ddi="false"/>
+        <pair id="DDI-DrugBank.d350.s14.p19"
+            e1="DDI-DrugBank.d350.s14.e4" e2="DDI-DrugBank.d350.s14.e6" ddi="false"/>
+        <pair id="DDI-DrugBank.d350.s14.p20"
+            e1="DDI-DrugBank.d350.s14.e5" e2="DDI-DrugBank.d350.s14.e6" ddi="false"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d350.s15" text="."/>
+    <sentence id="DDI-DrugBank.d350.s16" text=""/>
+</document>

@@ -1,0 +1,236 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="DDI-DrugBank.d488">
+    <sentence id="DDI-DrugBank.d488.s0" text="Drug Interactions: a. Drugs Enhancing Heparin Effect: Oral anticoagulants: Heparin sodium may prolong the one-stage prothrombin time.">
+        <entity id="DDI-DrugBank.d488.s0.e0" charOffset="38-44"
+            type="drug" text="Heparin"/>
+        <entity id="DDI-DrugBank.d488.s0.e1" charOffset="59-72"
+            type="group" text="anticoagulants"/>
+        <entity id="DDI-DrugBank.d488.s0.e2" charOffset="75-88"
+            type="drug" text="Heparin sodium"/>
+        <pair id="DDI-DrugBank.d488.s0.p0" e1="DDI-DrugBank.d488.s0.e0"
+            e2="DDI-DrugBank.d488.s0.e1" ddi="false"/>
+        <pair id="DDI-DrugBank.d488.s0.p1" e1="DDI-DrugBank.d488.s0.e0"
+            e2="DDI-DrugBank.d488.s0.e2" ddi="false"/>
+        <pair id="DDI-DrugBank.d488.s0.p2" e1="DDI-DrugBank.d488.s0.e1"
+            e2="DDI-DrugBank.d488.s0.e2" ddi="false"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d488.s1" text="Therefore, when heparin sodium is given with dicumarol or warfarin sodium, a period of at least 5 hours after the last intravenous dose or 24 hours after the last subcutaneous dose should elapse before blood is drawn if a valid prothrombin time is to be obtained.">
+        <entity id="DDI-DrugBank.d488.s1.e0" charOffset="16-29"
+            type="drug" text="heparin sodium"/>
+        <entity id="DDI-DrugBank.d488.s1.e1" charOffset="45-53"
+            type="drug" text="dicumarol"/>
+        <entity id="DDI-DrugBank.d488.s1.e2" charOffset="58-72"
+            type="drug" text="warfarin sodium"/>
+        <pair id="DDI-DrugBank.d488.s1.p0" e1="DDI-DrugBank.d488.s1.e0"
+            e2="DDI-DrugBank.d488.s1.e1" ddi="true" type="advise"/>
+        <pair id="DDI-DrugBank.d488.s1.p1" e1="DDI-DrugBank.d488.s1.e0"
+            e2="DDI-DrugBank.d488.s1.e2" ddi="true" type="advise"/>
+        <pair id="DDI-DrugBank.d488.s1.p2" e1="DDI-DrugBank.d488.s1.e1"
+            e2="DDI-DrugBank.d488.s1.e2" ddi="false"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d488.s2" text="Platelet inhibitors: Drugs such as acetylsalicylic acid, dextran, phenylbutazone, ibuprofen, indomethacin, dipyridamole, hydroxychloroquine and others that interfere with platelet-aggregation reactions (the main hemostatic defense of heparinized patients) may induce bleeding and should be used with caution in patients receiving heparin sodium.">
+        <entity id="DDI-DrugBank.d488.s2.e0" charOffset="0-18"
+            type="group" text="Platelet inhibitors"/>
+        <entity id="DDI-DrugBank.d488.s2.e1" charOffset="35-54"
+            type="drug" text="acetylsalicylic acid"/>
+        <entity id="DDI-DrugBank.d488.s2.e2" charOffset="57-63"
+            type="drug" text="dextran"/>
+        <entity id="DDI-DrugBank.d488.s2.e3" charOffset="66-79"
+            type="drug" text="phenylbutazone"/>
+        <entity id="DDI-DrugBank.d488.s2.e4" charOffset="82-90"
+            type="drug" text="ibuprofen"/>
+        <entity id="DDI-DrugBank.d488.s2.e5" charOffset="93-104"
+            type="drug" text="indomethacin"/>
+        <entity id="DDI-DrugBank.d488.s2.e6" charOffset="107-118"
+            type="drug" text="dipyridamole"/>
+        <entity id="DDI-DrugBank.d488.s2.e7" charOffset="121-138"
+            type="drug" text="hydroxychloroquine"/>
+        <entity id="DDI-DrugBank.d488.s2.e8" charOffset="330-343"
+            type="drug" text="heparin sodium"/>
+        <pair id="DDI-DrugBank.d488.s2.p0" e1="DDI-DrugBank.d488.s2.e0"
+            e2="DDI-DrugBank.d488.s2.e1" ddi="false"/>
+        <pair id="DDI-DrugBank.d488.s2.p1" e1="DDI-DrugBank.d488.s2.e0"
+            e2="DDI-DrugBank.d488.s2.e2" ddi="false"/>
+        <pair id="DDI-DrugBank.d488.s2.p2" e1="DDI-DrugBank.d488.s2.e0"
+            e2="DDI-DrugBank.d488.s2.e3" ddi="false"/>
+        <pair id="DDI-DrugBank.d488.s2.p3" e1="DDI-DrugBank.d488.s2.e0"
+            e2="DDI-DrugBank.d488.s2.e4" ddi="false"/>
+        <pair id="DDI-DrugBank.d488.s2.p4" e1="DDI-DrugBank.d488.s2.e0"
+            e2="DDI-DrugBank.d488.s2.e5" ddi="false"/>
+        <pair id="DDI-DrugBank.d488.s2.p5" e1="DDI-DrugBank.d488.s2.e0"
+            e2="DDI-DrugBank.d488.s2.e6" ddi="false"/>
+        <pair id="DDI-DrugBank.d488.s2.p6" e1="DDI-DrugBank.d488.s2.e0"
+            e2="DDI-DrugBank.d488.s2.e7" ddi="false"/>
+        <pair id="DDI-DrugBank.d488.s2.p7" e1="DDI-DrugBank.d488.s2.e0"
+            e2="DDI-DrugBank.d488.s2.e8" ddi="false"/>
+        <pair id="DDI-DrugBank.d488.s2.p8" e1="DDI-DrugBank.d488.s2.e1"
+            e2="DDI-DrugBank.d488.s2.e2" ddi="false"/>
+        <pair id="DDI-DrugBank.d488.s2.p9" e1="DDI-DrugBank.d488.s2.e1"
+            e2="DDI-DrugBank.d488.s2.e3" ddi="false"/>
+        <pair id="DDI-DrugBank.d488.s2.p10" e1="DDI-DrugBank.d488.s2.e1"
+            e2="DDI-DrugBank.d488.s2.e4" ddi="false"/>
+        <pair id="DDI-DrugBank.d488.s2.p11" e1="DDI-DrugBank.d488.s2.e1"
+            e2="DDI-DrugBank.d488.s2.e5" ddi="false"/>
+        <pair id="DDI-DrugBank.d488.s2.p12" e1="DDI-DrugBank.d488.s2.e1"
+            e2="DDI-DrugBank.d488.s2.e6" ddi="false"/>
+        <pair id="DDI-DrugBank.d488.s2.p13" e1="DDI-DrugBank.d488.s2.e1"
+            e2="DDI-DrugBank.d488.s2.e7" ddi="false"/>
+        <pair id="DDI-DrugBank.d488.s2.p14" e1="DDI-DrugBank.d488.s2.e1"
+            e2="DDI-DrugBank.d488.s2.e8" ddi="true" type="effect"/>
+        <pair id="DDI-DrugBank.d488.s2.p15" e1="DDI-DrugBank.d488.s2.e2"
+            e2="DDI-DrugBank.d488.s2.e3" ddi="false"/>
+        <pair id="DDI-DrugBank.d488.s2.p16" e1="DDI-DrugBank.d488.s2.e2"
+            e2="DDI-DrugBank.d488.s2.e4" ddi="false"/>
+        <pair id="DDI-DrugBank.d488.s2.p17" e1="DDI-DrugBank.d488.s2.e2"
+            e2="DDI-DrugBank.d488.s2.e5" ddi="false"/>
+        <pair id="DDI-DrugBank.d488.s2.p18" e1="DDI-DrugBank.d488.s2.e2"
+            e2="DDI-DrugBank.d488.s2.e6" ddi="false"/>
+        <pair id="DDI-DrugBank.d488.s2.p19" e1="DDI-DrugBank.d488.s2.e2"
+            e2="DDI-DrugBank.d488.s2.e7" ddi="false"/>
+        <pair id="DDI-DrugBank.d488.s2.p20" e1="DDI-DrugBank.d488.s2.e2"
+            e2="DDI-DrugBank.d488.s2.e8" ddi="true" type="effect"/>
+        <pair id="DDI-DrugBank.d488.s2.p21" e1="DDI-DrugBank.d488.s2.e3"
+            e2="DDI-DrugBank.d488.s2.e4" ddi="false"/>
+        <pair id="DDI-DrugBank.d488.s2.p22" e1="DDI-DrugBank.d488.s2.e3"
+            e2="DDI-DrugBank.d488.s2.e5" ddi="false"/>
+        <pair id="DDI-DrugBank.d488.s2.p23" e1="DDI-DrugBank.d488.s2.e3"
+            e2="DDI-DrugBank.d488.s2.e6" ddi="false"/>
+        <pair id="DDI-DrugBank.d488.s2.p24" e1="DDI-DrugBank.d488.s2.e3"
+            e2="DDI-DrugBank.d488.s2.e7" ddi="false"/>
+        <pair id="DDI-DrugBank.d488.s2.p25" e1="DDI-DrugBank.d488.s2.e3"
+            e2="DDI-DrugBank.d488.s2.e8" ddi="true" type="effect"/>
+        <pair id="DDI-DrugBank.d488.s2.p26" e1="DDI-DrugBank.d488.s2.e4"
+            e2="DDI-DrugBank.d488.s2.e5" ddi="false"/>
+        <pair id="DDI-DrugBank.d488.s2.p27" e1="DDI-DrugBank.d488.s2.e4"
+            e2="DDI-DrugBank.d488.s2.e6" ddi="false"/>
+        <pair id="DDI-DrugBank.d488.s2.p28" e1="DDI-DrugBank.d488.s2.e4"
+            e2="DDI-DrugBank.d488.s2.e7" ddi="false"/>
+        <pair id="DDI-DrugBank.d488.s2.p29" e1="DDI-DrugBank.d488.s2.e4"
+            e2="DDI-DrugBank.d488.s2.e8" ddi="true" type="effect"/>
+        <pair id="DDI-DrugBank.d488.s2.p30" e1="DDI-DrugBank.d488.s2.e5"
+            e2="DDI-DrugBank.d488.s2.e6" ddi="false"/>
+        <pair id="DDI-DrugBank.d488.s2.p31" e1="DDI-DrugBank.d488.s2.e5"
+            e2="DDI-DrugBank.d488.s2.e7" ddi="false"/>
+        <pair id="DDI-DrugBank.d488.s2.p32" e1="DDI-DrugBank.d488.s2.e5"
+            e2="DDI-DrugBank.d488.s2.e8" ddi="true" type="effect"/>
+        <pair id="DDI-DrugBank.d488.s2.p33" e1="DDI-DrugBank.d488.s2.e6"
+            e2="DDI-DrugBank.d488.s2.e7" ddi="false"/>
+        <pair id="DDI-DrugBank.d488.s2.p34" e1="DDI-DrugBank.d488.s2.e6"
+            e2="DDI-DrugBank.d488.s2.e8" ddi="true" type="effect"/>
+        <pair id="DDI-DrugBank.d488.s2.p35" e1="DDI-DrugBank.d488.s2.e7"
+            e2="DDI-DrugBank.d488.s2.e8" ddi="true" type="effect"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d488.s3" text="The anticoagulant effect of heparin is enhanced by concurrent treatment with antithrombin III (human) in patients with hereditary antithrombin III deficiency.">
+        <entity id="DDI-DrugBank.d488.s3.e0" charOffset="28-34"
+            type="drug" text="heparin"/>
+        <entity id="DDI-DrugBank.d488.s3.e1" charOffset="77-92"
+            type="drug" text="antithrombin III"/>
+        <pair id="DDI-DrugBank.d488.s3.p0" e1="DDI-DrugBank.d488.s3.e0"
+            e2="DDI-DrugBank.d488.s3.e1" ddi="true" type="effect"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d488.s4" text="Thus in order to avoid bleeding, reduced dosage of heparin is recommended during treatment with antithrombin III (human).">
+        <entity id="DDI-DrugBank.d488.s4.e0" charOffset="51-57"
+            type="drug" text="heparin"/>
+        <entity id="DDI-DrugBank.d488.s4.e1" charOffset="96-111"
+            type="drug" text="antithrombin III"/>
+        <pair id="DDI-DrugBank.d488.s4.p0" e1="DDI-DrugBank.d488.s4.e0"
+            e2="DDI-DrugBank.d488.s4.e1" ddi="true" type="advise"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d488.s5" text="b."/>
+    <sentence id="DDI-DrugBank.d488.s6" text="Drugs Decreasing Heparin Effect: Digitalis, tetracyclines, nicotine, or antihistamines may partially counteract the anticoagulant action of heparin sodium.">
+        <entity id="DDI-DrugBank.d488.s6.e0" charOffset="17-23"
+            type="drug" text="Heparin"/>
+        <entity id="DDI-DrugBank.d488.s6.e1" charOffset="33-41"
+            type="group" text="Digitalis"/>
+        <entity id="DDI-DrugBank.d488.s6.e2" charOffset="44-56"
+            type="group" text="tetracyclines"/>
+        <entity id="DDI-DrugBank.d488.s6.e3" charOffset="59-66"
+            type="drug" text="nicotine"/>
+        <entity id="DDI-DrugBank.d488.s6.e4" charOffset="72-85"
+            type="group" text="antihistamines"/>
+        <entity id="DDI-DrugBank.d488.s6.e5" charOffset="140-153"
+            type="drug" text="heparin sodium"/>
+        <pair id="DDI-DrugBank.d488.s6.p0" e1="DDI-DrugBank.d488.s6.e0"
+            e2="DDI-DrugBank.d488.s6.e1" ddi="false"/>
+        <pair id="DDI-DrugBank.d488.s6.p1" e1="DDI-DrugBank.d488.s6.e0"
+            e2="DDI-DrugBank.d488.s6.e2" ddi="false"/>
+        <pair id="DDI-DrugBank.d488.s6.p2" e1="DDI-DrugBank.d488.s6.e0"
+            e2="DDI-DrugBank.d488.s6.e3" ddi="false"/>
+        <pair id="DDI-DrugBank.d488.s6.p3" e1="DDI-DrugBank.d488.s6.e0"
+            e2="DDI-DrugBank.d488.s6.e4" ddi="false"/>
+        <pair id="DDI-DrugBank.d488.s6.p4" e1="DDI-DrugBank.d488.s6.e0"
+            e2="DDI-DrugBank.d488.s6.e5" ddi="false"/>
+        <pair id="DDI-DrugBank.d488.s6.p5" e1="DDI-DrugBank.d488.s6.e1"
+            e2="DDI-DrugBank.d488.s6.e2" ddi="false"/>
+        <pair id="DDI-DrugBank.d488.s6.p6" e1="DDI-DrugBank.d488.s6.e1"
+            e2="DDI-DrugBank.d488.s6.e3" ddi="false"/>
+        <pair id="DDI-DrugBank.d488.s6.p7" e1="DDI-DrugBank.d488.s6.e1"
+            e2="DDI-DrugBank.d488.s6.e4" ddi="false"/>
+        <pair id="DDI-DrugBank.d488.s6.p8" e1="DDI-DrugBank.d488.s6.e1"
+            e2="DDI-DrugBank.d488.s6.e5" ddi="true" type="effect"/>
+        <pair id="DDI-DrugBank.d488.s6.p9" e1="DDI-DrugBank.d488.s6.e2"
+            e2="DDI-DrugBank.d488.s6.e3" ddi="false"/>
+        <pair id="DDI-DrugBank.d488.s6.p10" e1="DDI-DrugBank.d488.s6.e2"
+            e2="DDI-DrugBank.d488.s6.e4" ddi="false"/>
+        <pair id="DDI-DrugBank.d488.s6.p11" e1="DDI-DrugBank.d488.s6.e2"
+            e2="DDI-DrugBank.d488.s6.e5" ddi="true" type="effect"/>
+        <pair id="DDI-DrugBank.d488.s6.p12" e1="DDI-DrugBank.d488.s6.e3"
+            e2="DDI-DrugBank.d488.s6.e4" ddi="false"/>
+        <pair id="DDI-DrugBank.d488.s6.p13" e1="DDI-DrugBank.d488.s6.e3"
+            e2="DDI-DrugBank.d488.s6.e5" ddi="true" type="effect"/>
+        <pair id="DDI-DrugBank.d488.s6.p14" e1="DDI-DrugBank.d488.s6.e4"
+            e2="DDI-DrugBank.d488.s6.e5" ddi="true" type="effect"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d488.s7" text="Heparin Sodium Injection should not be mixed with doxorubicin, droperidol, ciprofloxacin, or mitoxantrone, since it has been reported that these drugs are incompatible with heparin and a precipitate may form.">
+        <entity id="DDI-DrugBank.d488.s7.e0" charOffset="0-13"
+            type="drug" text="Heparin Sodium"/>
+        <entity id="DDI-DrugBank.d488.s7.e1" charOffset="50-60"
+            type="drug" text="doxorubicin"/>
+        <entity id="DDI-DrugBank.d488.s7.e2" charOffset="63-72"
+            type="drug" text="droperidol"/>
+        <entity id="DDI-DrugBank.d488.s7.e3" charOffset="75-87"
+            type="drug" text="ciprofloxacin"/>
+        <entity id="DDI-DrugBank.d488.s7.e4" charOffset="93-104"
+            type="drug" text="mitoxantrone"/>
+        <entity id="DDI-DrugBank.d488.s7.e5" charOffset="173-179"
+            type="drug" text="heparin"/>
+        <pair id="DDI-DrugBank.d488.s7.p0" e1="DDI-DrugBank.d488.s7.e0"
+            e2="DDI-DrugBank.d488.s7.e1" ddi="false"/>
+        <pair id="DDI-DrugBank.d488.s7.p1" e1="DDI-DrugBank.d488.s7.e0"
+            e2="DDI-DrugBank.d488.s7.e2" ddi="false"/>
+        <pair id="DDI-DrugBank.d488.s7.p2" e1="DDI-DrugBank.d488.s7.e0"
+            e2="DDI-DrugBank.d488.s7.e3" ddi="false"/>
+        <pair id="DDI-DrugBank.d488.s7.p3" e1="DDI-DrugBank.d488.s7.e0"
+            e2="DDI-DrugBank.d488.s7.e4" ddi="false"/>
+        <pair id="DDI-DrugBank.d488.s7.p4" e1="DDI-DrugBank.d488.s7.e0"
+            e2="DDI-DrugBank.d488.s7.e5" ddi="false"/>
+        <pair id="DDI-DrugBank.d488.s7.p5" e1="DDI-DrugBank.d488.s7.e1"
+            e2="DDI-DrugBank.d488.s7.e2" ddi="false"/>
+        <pair id="DDI-DrugBank.d488.s7.p6" e1="DDI-DrugBank.d488.s7.e1"
+            e2="DDI-DrugBank.d488.s7.e3" ddi="false"/>
+        <pair id="DDI-DrugBank.d488.s7.p7" e1="DDI-DrugBank.d488.s7.e1"
+            e2="DDI-DrugBank.d488.s7.e4" ddi="false"/>
+        <pair id="DDI-DrugBank.d488.s7.p8" e1="DDI-DrugBank.d488.s7.e1"
+            e2="DDI-DrugBank.d488.s7.e5" ddi="false"/>
+        <pair id="DDI-DrugBank.d488.s7.p9" e1="DDI-DrugBank.d488.s7.e2"
+            e2="DDI-DrugBank.d488.s7.e3" ddi="false"/>
+        <pair id="DDI-DrugBank.d488.s7.p10" e1="DDI-DrugBank.d488.s7.e2"
+            e2="DDI-DrugBank.d488.s7.e4" ddi="false"/>
+        <pair id="DDI-DrugBank.d488.s7.p11" e1="DDI-DrugBank.d488.s7.e2"
+            e2="DDI-DrugBank.d488.s7.e5" ddi="false"/>
+        <pair id="DDI-DrugBank.d488.s7.p12" e1="DDI-DrugBank.d488.s7.e3"
+            e2="DDI-DrugBank.d488.s7.e4" ddi="false"/>
+        <pair id="DDI-DrugBank.d488.s7.p13" e1="DDI-DrugBank.d488.s7.e3"
+            e2="DDI-DrugBank.d488.s7.e5" ddi="false"/>
+        <pair id="DDI-DrugBank.d488.s7.p14" e1="DDI-DrugBank.d488.s7.e4"
+            e2="DDI-DrugBank.d488.s7.e5" ddi="false"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d488.s8" text="Drug/ Laboratory Tests Interactions Hyperaminotransferasemia: Significant elevations of aminotransferase (SGOT [S-AST] and SGPT [S-ALT]) levels have occurred in a high percentage of patients (and healthy subjects) who have received heparin sodium.">
+        <entity id="DDI-DrugBank.d488.s8.e0" charOffset="232-245"
+            type="drug" text="heparin sodium"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d488.s9" text="Since aminotransferase determinations are important in the differential diagnosis of myocardial infarction, liver disease and pulmonary emboli, rises that might be caused by drugs (heparin sodium) should be interpreted with caution.">
+        <entity id="DDI-DrugBank.d488.s9.e0" charOffset="181-194"
+            type="drug" text="heparin sodium"/>
+    </sentence>
+</document>

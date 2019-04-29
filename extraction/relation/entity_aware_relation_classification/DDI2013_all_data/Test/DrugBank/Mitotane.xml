@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="DDI-DrugBank.d717">
+    <sentence id="DDI-DrugBank.d717.s0" text="Mitotane has been reported to accelerate the metabolism of warfarin by the mechanism of hepatic microsomal enzyme induction, leading to an increase in dosage requirements for warfarin. ">
+        <entity id="DDI-DrugBank.d717.s0.e0" charOffset="0-7"
+            type="drug" text="Mitotane"/>
+        <entity id="DDI-DrugBank.d717.s0.e1" charOffset="59-66"
+            type="drug" text="warfarin"/>
+        <entity id="DDI-DrugBank.d717.s0.e2" charOffset="175-182"
+            type="drug" text="warfarin"/>
+        <pair id="DDI-DrugBank.d717.s0.p0" e1="DDI-DrugBank.d717.s0.e0"
+            e2="DDI-DrugBank.d717.s0.e1" ddi="true" type="mechanism"/>
+        <pair id="DDI-DrugBank.d717.s0.p1" e1="DDI-DrugBank.d717.s0.e0"
+            e2="DDI-DrugBank.d717.s0.e2" ddi="false"/>
+        <pair id="DDI-DrugBank.d717.s0.p2" e1="DDI-DrugBank.d717.s0.e1"
+            e2="DDI-DrugBank.d717.s0.e2" ddi="false"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d717.s1" text="Therefore, physicians should closely monitor patients for a change in anticoagulant dosage requirements when administering Mitotane to patients on coumarin-type anticoagulants. ">
+        <entity id="DDI-DrugBank.d717.s1.e0" charOffset="70-82"
+            type="group" text="anticoagulant"/>
+        <entity id="DDI-DrugBank.d717.s1.e1" charOffset="123-130"
+            type="drug" text="Mitotane"/>
+        <entity id="DDI-DrugBank.d717.s1.e2" charOffset="147-174"
+            type="group" text="coumarin-type anticoagulants"/>
+        <pair id="DDI-DrugBank.d717.s1.p0" e1="DDI-DrugBank.d717.s1.e0"
+            e2="DDI-DrugBank.d717.s1.e1" ddi="false"/>
+        <pair id="DDI-DrugBank.d717.s1.p1" e1="DDI-DrugBank.d717.s1.e0"
+            e2="DDI-DrugBank.d717.s1.e2" ddi="false"/>
+        <pair id="DDI-DrugBank.d717.s1.p2" e1="DDI-DrugBank.d717.s1.e1"
+            e2="DDI-DrugBank.d717.s1.e2" ddi="true" type="advise"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d717.s2" text="In addition, Mitotane should be given with caution to patients receiving other drugs susceptible to the influence of hepatic enzyme induction.">
+        <entity id="DDI-DrugBank.d717.s2.e0" charOffset="13-20"
+            type="drug" text="Mitotane"/>
+    </sentence>
+</document>

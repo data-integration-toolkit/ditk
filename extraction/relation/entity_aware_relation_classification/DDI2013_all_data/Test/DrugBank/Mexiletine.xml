@@ -1,0 +1,312 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="DDI-DrugBank.d633">
+    <sentence id="DDI-DrugBank.d633.s0" text="Since MEXITIL is a substrate for the metabolic pathways involving CYP2D6 and CYP1A2 enzymes, inhibition or induction of either of these enzymes would be expected to alter mexiletine plasma concentrations. ">
+        <entity id="DDI-DrugBank.d633.s0.e0" charOffset="6-12"
+            type="brand" text="MEXITIL"/>
+        <entity id="DDI-DrugBank.d633.s0.e1" charOffset="171-180"
+            type="drug" text="mexiletine"/>
+        <pair id="DDI-DrugBank.d633.s0.p0" e1="DDI-DrugBank.d633.s0.e0"
+            e2="DDI-DrugBank.d633.s0.e1" ddi="false"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d633.s1" text="In a formal, single-dose interaction study (n = 6 males) the clearance of mexiletine was decreased by 38% following the coadministration of fluvoxamine, an inhibitor of CYP1A2. ">
+        <entity id="DDI-DrugBank.d633.s1.e0" charOffset="74-83"
+            type="drug" text="mexiletine"/>
+        <entity id="DDI-DrugBank.d633.s1.e1" charOffset="140-150"
+            type="drug" text="fluvoxamine"/>
+        <pair id="DDI-DrugBank.d633.s1.p0" e1="DDI-DrugBank.d633.s1.e0"
+            e2="DDI-DrugBank.d633.s1.e1" ddi="true" type="mechanism"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d633.s2" text="In another formal study (n = 8 extensive and n = 7 poor metabolizers of CYP2D6), coadministration of propafenone did not alter the kinetics of mexiletine in the poor CYP2D6 metabolizer group. ">
+        <entity id="DDI-DrugBank.d633.s2.e0" charOffset="101-111"
+            type="drug" text="propafenone"/>
+        <entity id="DDI-DrugBank.d633.s2.e1" charOffset="143-152"
+            type="drug" text="mexiletine"/>
+        <pair id="DDI-DrugBank.d633.s2.p0" e1="DDI-DrugBank.d633.s2.e0"
+            e2="DDI-DrugBank.d633.s2.e1" ddi="false"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d633.s3" text="However, the metabolic clearance of mexiletine in the extensive metabolizer phenotype decreased by about 70% making the poor and extensive metabolizer groups indistinguishable. ">
+        <entity id="DDI-DrugBank.d633.s3.e0" charOffset="36-45"
+            type="drug" text="mexiletine"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d633.s4" text="In this crossover steady state study, the pharmacokinetics of propafenone were unaffected in either phenotype by the coadministration of mexiletine. ">
+        <entity id="DDI-DrugBank.d633.s4.e0" charOffset="62-72"
+            type="drug" text="propafenone"/>
+        <entity id="DDI-DrugBank.d633.s4.e1" charOffset="137-146"
+            type="drug" text="mexiletine"/>
+        <pair id="DDI-DrugBank.d633.s4.p0" e1="DDI-DrugBank.d633.s4.e0"
+            e2="DDI-DrugBank.d633.s4.e1" ddi="false"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d633.s5" text="Addition of mexiletine to propafenone did not lead to further electrocardiographic parameters changes of QRS, QTc, RR, and PR intervals than propafenone alone. ">
+        <entity id="DDI-DrugBank.d633.s5.e0" charOffset="12-21"
+            type="drug" text="mexiletine"/>
+        <entity id="DDI-DrugBank.d633.s5.e1" charOffset="26-36"
+            type="drug" text="propafenone"/>
+        <entity id="DDI-DrugBank.d633.s5.e2" charOffset="141-151"
+            type="drug" text="propafenone"/>
+        <pair id="DDI-DrugBank.d633.s5.p0" e1="DDI-DrugBank.d633.s5.e0"
+            e2="DDI-DrugBank.d633.s5.e1" ddi="false"/>
+        <pair id="DDI-DrugBank.d633.s5.p1" e1="DDI-DrugBank.d633.s5.e0"
+            e2="DDI-DrugBank.d633.s5.e2" ddi="false"/>
+        <pair id="DDI-DrugBank.d633.s5.p2" e1="DDI-DrugBank.d633.s5.e1"
+            e2="DDI-DrugBank.d633.s5.e2" ddi="false"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d633.s6" text="When concomitant administration of either of these two drugs with mexiletine is initiated, the dose of mexiletine should be slowly titrated to desired effect. ">
+        <entity id="DDI-DrugBank.d633.s6.e0" charOffset="66-75"
+            type="drug" text="mexiletine"/>
+        <entity id="DDI-DrugBank.d633.s6.e1" charOffset="103-112"
+            type="drug" text="mexiletine"/>
+        <pair id="DDI-DrugBank.d633.s6.p0" e1="DDI-DrugBank.d633.s6.e0"
+            e2="DDI-DrugBank.d633.s6.e1" ddi="false"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d633.s7" text="In a large compassionate use program Mexitil    has been used concurrently with commonly employed antianginal, antihypertensive, and anticoagulant drugs without observed interactions. ">
+        <entity id="DDI-DrugBank.d633.s7.e0" charOffset="37-43"
+            type="brand" text="Mexitil"/>
+        <entity id="DDI-DrugBank.d633.s7.e1" charOffset="111-126"
+            type="group" text="antihypertensive"/>
+        <entity id="DDI-DrugBank.d633.s7.e2" charOffset="133-151"
+            type="group" text="anticoagulant drugs"/>
+        <pair id="DDI-DrugBank.d633.s7.p0" e1="DDI-DrugBank.d633.s7.e0"
+            e2="DDI-DrugBank.d633.s7.e1" ddi="false"/>
+        <pair id="DDI-DrugBank.d633.s7.p1" e1="DDI-DrugBank.d633.s7.e0"
+            e2="DDI-DrugBank.d633.s7.e2" ddi="false"/>
+        <pair id="DDI-DrugBank.d633.s7.p2" e1="DDI-DrugBank.d633.s7.e1"
+            e2="DDI-DrugBank.d633.s7.e2" ddi="false"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d633.s8" text="A variety of antiarrhythmics such as quinidine or propranolol were also added, sometimes with improved control of ventricular ectopy. ">
+        <entity id="DDI-DrugBank.d633.s8.e0" charOffset="13-27"
+            type="group" text="antiarrhythmics"/>
+        <entity id="DDI-DrugBank.d633.s8.e1" charOffset="37-45"
+            type="drug" text="quinidine"/>
+        <entity id="DDI-DrugBank.d633.s8.e2" charOffset="50-60"
+            type="drug" text="propranolol"/>
+        <pair id="DDI-DrugBank.d633.s8.p0" e1="DDI-DrugBank.d633.s8.e0"
+            e2="DDI-DrugBank.d633.s8.e1" ddi="false"/>
+        <pair id="DDI-DrugBank.d633.s8.p1" e1="DDI-DrugBank.d633.s8.e0"
+            e2="DDI-DrugBank.d633.s8.e2" ddi="false"/>
+        <pair id="DDI-DrugBank.d633.s8.p2" e1="DDI-DrugBank.d633.s8.e1"
+            e2="DDI-DrugBank.d633.s8.e2" ddi="false"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d633.s9" text="When phenytoin or other hepatic enzyme inducers such as rifampin and phenobarbital have been taken concurrently with Mexitil   , lowered Mexitil    plasma levels have been reported. ">
+        <entity id="DDI-DrugBank.d633.s9.e0" charOffset="5-13"
+            type="drug" text="phenytoin"/>
+        <entity id="DDI-DrugBank.d633.s9.e1" charOffset="56-63"
+            type="drug" text="rifampin"/>
+        <entity id="DDI-DrugBank.d633.s9.e2" charOffset="69-81"
+            type="drug" text="phenobarbital"/>
+        <entity id="DDI-DrugBank.d633.s9.e3" charOffset="117-123"
+            type="brand" text="Mexitil"/>
+        <entity id="DDI-DrugBank.d633.s9.e4" charOffset="137-143"
+            type="brand" text="Mexitil"/>
+        <pair id="DDI-DrugBank.d633.s9.p0" e1="DDI-DrugBank.d633.s9.e0"
+            e2="DDI-DrugBank.d633.s9.e1" ddi="false"/>
+        <pair id="DDI-DrugBank.d633.s9.p1" e1="DDI-DrugBank.d633.s9.e0"
+            e2="DDI-DrugBank.d633.s9.e2" ddi="false"/>
+        <pair id="DDI-DrugBank.d633.s9.p2" e1="DDI-DrugBank.d633.s9.e0"
+            e2="DDI-DrugBank.d633.s9.e3" ddi="true" type="mechanism"/>
+        <pair id="DDI-DrugBank.d633.s9.p3" e1="DDI-DrugBank.d633.s9.e0"
+            e2="DDI-DrugBank.d633.s9.e4" ddi="false"/>
+        <pair id="DDI-DrugBank.d633.s9.p4" e1="DDI-DrugBank.d633.s9.e1"
+            e2="DDI-DrugBank.d633.s9.e2" ddi="false"/>
+        <pair id="DDI-DrugBank.d633.s9.p5" e1="DDI-DrugBank.d633.s9.e1"
+            e2="DDI-DrugBank.d633.s9.e3" ddi="true" type="mechanism"/>
+        <pair id="DDI-DrugBank.d633.s9.p6" e1="DDI-DrugBank.d633.s9.e1"
+            e2="DDI-DrugBank.d633.s9.e4" ddi="false"/>
+        <pair id="DDI-DrugBank.d633.s9.p7" e1="DDI-DrugBank.d633.s9.e2"
+            e2="DDI-DrugBank.d633.s9.e3" ddi="true" type="mechanism"/>
+        <pair id="DDI-DrugBank.d633.s9.p8" e1="DDI-DrugBank.d633.s9.e2"
+            e2="DDI-DrugBank.d633.s9.e4" ddi="false"/>
+        <pair id="DDI-DrugBank.d633.s9.p9" e1="DDI-DrugBank.d633.s9.e3"
+            e2="DDI-DrugBank.d633.s9.e4" ddi="false"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d633.s10" text="Monitoring of Mexitil    plasma levels is recommended during such concurrent use to avoid ineffective therapy. ">
+        <entity id="DDI-DrugBank.d633.s10.e0" charOffset="14-20"
+            type="brand" text="Mexitil"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d633.s11" text="In a formal study, benzodiazepines were shown not to affect Mexitil    plasma concentrations. ">
+        <entity id="DDI-DrugBank.d633.s11.e0" charOffset="19-33"
+            type="group" text="benzodiazepines"/>
+        <entity id="DDI-DrugBank.d633.s11.e1" charOffset="60-66"
+            type="brand" text="Mexitil"/>
+        <pair id="DDI-DrugBank.d633.s11.p0"
+            e1="DDI-DrugBank.d633.s11.e0" e2="DDI-DrugBank.d633.s11.e1" ddi="false"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d633.s12" text="ECG intervals (PR, QRS, and QT) were not affected by concurrent Mexitil    and digoxin, diuretics, or propranolol. ">
+        <entity id="DDI-DrugBank.d633.s12.e0" charOffset="64-70"
+            type="brand" text="Mexitil"/>
+        <entity id="DDI-DrugBank.d633.s12.e1" charOffset="79-85"
+            type="drug" text="digoxin"/>
+        <entity id="DDI-DrugBank.d633.s12.e2" charOffset="88-96"
+            type="group" text="diuretics"/>
+        <entity id="DDI-DrugBank.d633.s12.e3" charOffset="102-112"
+            type="drug" text="propranolol"/>
+        <pair id="DDI-DrugBank.d633.s12.p0"
+            e1="DDI-DrugBank.d633.s12.e0" e2="DDI-DrugBank.d633.s12.e1" ddi="false"/>
+        <pair id="DDI-DrugBank.d633.s12.p1"
+            e1="DDI-DrugBank.d633.s12.e0" e2="DDI-DrugBank.d633.s12.e2" ddi="false"/>
+        <pair id="DDI-DrugBank.d633.s12.p2"
+            e1="DDI-DrugBank.d633.s12.e0" e2="DDI-DrugBank.d633.s12.e3" ddi="false"/>
+        <pair id="DDI-DrugBank.d633.s12.p3"
+            e1="DDI-DrugBank.d633.s12.e1" e2="DDI-DrugBank.d633.s12.e2" ddi="false"/>
+        <pair id="DDI-DrugBank.d633.s12.p4"
+            e1="DDI-DrugBank.d633.s12.e1" e2="DDI-DrugBank.d633.s12.e3" ddi="false"/>
+        <pair id="DDI-DrugBank.d633.s12.p5"
+            e1="DDI-DrugBank.d633.s12.e2" e2="DDI-DrugBank.d633.s12.e3" ddi="false"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d633.s13" text="Concurrent administration of cimetidine and Mexitil    has been reported to increase, decrease, or leave unchanged Mexitil    plasma levels; ">
+        <entity id="DDI-DrugBank.d633.s13.e0" charOffset="29-38"
+            type="drug" text="cimetidine"/>
+        <entity id="DDI-DrugBank.d633.s13.e1" charOffset="44-50"
+            type="brand" text="Mexitil"/>
+        <entity id="DDI-DrugBank.d633.s13.e2" charOffset="115-121"
+            type="brand" text="Mexitil"/>
+        <pair id="DDI-DrugBank.d633.s13.p0"
+            e1="DDI-DrugBank.d633.s13.e0" e2="DDI-DrugBank.d633.s13.e1"
+            ddi="true" type="mechanism"/>
+        <pair id="DDI-DrugBank.d633.s13.p1"
+            e1="DDI-DrugBank.d633.s13.e0" e2="DDI-DrugBank.d633.s13.e2" ddi="false"/>
+        <pair id="DDI-DrugBank.d633.s13.p2"
+            e1="DDI-DrugBank.d633.s13.e1" e2="DDI-DrugBank.d633.s13.e2" ddi="false"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d633.s14" text="therefore patients should be followed carefully during concurrent therapy. "/>
+    <sentence id="DDI-DrugBank.d633.s15" text="Mexitil    does not alter serum digoxin levels but magnesium-aluminum hydroxide, when used to treat gastrointestinal symptoms due to Mexitil   , has been reported to lower serum digoxin levels. ">
+        <entity id="DDI-DrugBank.d633.s15.e0" charOffset="0-6"
+            type="brand" text="Mexitil"/>
+        <entity id="DDI-DrugBank.d633.s15.e1" charOffset="32-38"
+            type="drug" text="digoxin"/>
+        <entity id="DDI-DrugBank.d633.s15.e2" charOffset="51-78"
+            type="drug" text="magnesium-aluminum hydroxide"/>
+        <entity id="DDI-DrugBank.d633.s15.e3" charOffset="133-139"
+            type="brand" text="Mexitil"/>
+        <entity id="DDI-DrugBank.d633.s15.e4" charOffset="178-184"
+            type="drug" text="digoxin"/>
+        <pair id="DDI-DrugBank.d633.s15.p0"
+            e1="DDI-DrugBank.d633.s15.e0" e2="DDI-DrugBank.d633.s15.e1" ddi="false"/>
+        <pair id="DDI-DrugBank.d633.s15.p1"
+            e1="DDI-DrugBank.d633.s15.e0" e2="DDI-DrugBank.d633.s15.e2" ddi="false"/>
+        <pair id="DDI-DrugBank.d633.s15.p2"
+            e1="DDI-DrugBank.d633.s15.e0" e2="DDI-DrugBank.d633.s15.e3" ddi="false"/>
+        <pair id="DDI-DrugBank.d633.s15.p3"
+            e1="DDI-DrugBank.d633.s15.e0" e2="DDI-DrugBank.d633.s15.e4" ddi="false"/>
+        <pair id="DDI-DrugBank.d633.s15.p4"
+            e1="DDI-DrugBank.d633.s15.e1" e2="DDI-DrugBank.d633.s15.e2" ddi="false"/>
+        <pair id="DDI-DrugBank.d633.s15.p5"
+            e1="DDI-DrugBank.d633.s15.e1" e2="DDI-DrugBank.d633.s15.e3" ddi="false"/>
+        <pair id="DDI-DrugBank.d633.s15.p6"
+            e1="DDI-DrugBank.d633.s15.e1" e2="DDI-DrugBank.d633.s15.e4" ddi="false"/>
+        <pair id="DDI-DrugBank.d633.s15.p7"
+            e1="DDI-DrugBank.d633.s15.e2" e2="DDI-DrugBank.d633.s15.e3" ddi="false"/>
+        <pair id="DDI-DrugBank.d633.s15.p8"
+            e1="DDI-DrugBank.d633.s15.e2" e2="DDI-DrugBank.d633.s15.e4"
+            ddi="true" type="mechanism"/>
+        <pair id="DDI-DrugBank.d633.s15.p9"
+            e1="DDI-DrugBank.d633.s15.e3" e2="DDI-DrugBank.d633.s15.e4" ddi="false"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d633.s16" text="Concurrent use of Mexitil    and theophylline may lead to increased plasma theophylline levels. ">
+        <entity id="DDI-DrugBank.d633.s16.e0" charOffset="18-24"
+            type="brand" text="Mexitil"/>
+        <entity id="DDI-DrugBank.d633.s16.e1" charOffset="33-44"
+            type="drug" text="theophylline"/>
+        <entity id="DDI-DrugBank.d633.s16.e2" charOffset="75-86"
+            type="drug" text="theophylline"/>
+        <pair id="DDI-DrugBank.d633.s16.p0"
+            e1="DDI-DrugBank.d633.s16.e0" e2="DDI-DrugBank.d633.s16.e1"
+            ddi="true" type="mechanism"/>
+        <pair id="DDI-DrugBank.d633.s16.p1"
+            e1="DDI-DrugBank.d633.s16.e0" e2="DDI-DrugBank.d633.s16.e2" ddi="false"/>
+        <pair id="DDI-DrugBank.d633.s16.p2"
+            e1="DDI-DrugBank.d633.s16.e1" e2="DDI-DrugBank.d633.s16.e2" ddi="false"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d633.s17" text="One controlled study in eight normal subjects showed a 72% mean increase (range 35-136%) in plasma theophylline levels. ">
+        <entity id="DDI-DrugBank.d633.s17.e0" charOffset="99-110"
+            type="drug" text="theophylline"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d633.s18" text="This increase was observed at the first test point which was the second day after starting Mexitil   . Theophylline plasma levels returned to pre-Mexitil    values within 48 hours after discontinuing Mexitil   . If Mexitil and theophylline are to be used concurrently, theophylline blood levels should be monitored, particularly when the Mexitil    dose is changed. ">
+        <entity id="DDI-DrugBank.d633.s18.e0" charOffset="91-97"
+            type="brand" text="Mexitil"/>
+        <entity id="DDI-DrugBank.d633.s18.e1" charOffset="103-114"
+            type="drug" text="Theophylline"/>
+        <entity id="DDI-DrugBank.d633.s18.e2" charOffset="146-152"
+            type="brand" text="Mexitil"/>
+        <entity id="DDI-DrugBank.d633.s18.e3" charOffset="200-206"
+            type="brand" text="Mexitil"/>
+        <entity id="DDI-DrugBank.d633.s18.e4" charOffset="215-221"
+            type="brand" text="Mexitil"/>
+        <entity id="DDI-DrugBank.d633.s18.e5" charOffset="227-238"
+            type="drug" text="theophylline"/>
+        <entity id="DDI-DrugBank.d633.s18.e6" charOffset="269-280"
+            type="drug" text="theophylline"/>
+        <entity id="DDI-DrugBank.d633.s18.e7" charOffset="338-344"
+            type="brand" text="Mexitil"/>
+        <pair id="DDI-DrugBank.d633.s18.p0"
+            e1="DDI-DrugBank.d633.s18.e0" e2="DDI-DrugBank.d633.s18.e1" ddi="false"/>
+        <pair id="DDI-DrugBank.d633.s18.p1"
+            e1="DDI-DrugBank.d633.s18.e0" e2="DDI-DrugBank.d633.s18.e2" ddi="false"/>
+        <pair id="DDI-DrugBank.d633.s18.p2"
+            e1="DDI-DrugBank.d633.s18.e0" e2="DDI-DrugBank.d633.s18.e3" ddi="false"/>
+        <pair id="DDI-DrugBank.d633.s18.p3"
+            e1="DDI-DrugBank.d633.s18.e0" e2="DDI-DrugBank.d633.s18.e4" ddi="false"/>
+        <pair id="DDI-DrugBank.d633.s18.p4"
+            e1="DDI-DrugBank.d633.s18.e0" e2="DDI-DrugBank.d633.s18.e5" ddi="false"/>
+        <pair id="DDI-DrugBank.d633.s18.p5"
+            e1="DDI-DrugBank.d633.s18.e0" e2="DDI-DrugBank.d633.s18.e6" ddi="false"/>
+        <pair id="DDI-DrugBank.d633.s18.p6"
+            e1="DDI-DrugBank.d633.s18.e0" e2="DDI-DrugBank.d633.s18.e7" ddi="false"/>
+        <pair id="DDI-DrugBank.d633.s18.p7"
+            e1="DDI-DrugBank.d633.s18.e1" e2="DDI-DrugBank.d633.s18.e2" ddi="false"/>
+        <pair id="DDI-DrugBank.d633.s18.p8"
+            e1="DDI-DrugBank.d633.s18.e1" e2="DDI-DrugBank.d633.s18.e3"
+            ddi="true" type="mechanism"/>
+        <pair id="DDI-DrugBank.d633.s18.p9"
+            e1="DDI-DrugBank.d633.s18.e1" e2="DDI-DrugBank.d633.s18.e4" ddi="false"/>
+        <pair id="DDI-DrugBank.d633.s18.p10"
+            e1="DDI-DrugBank.d633.s18.e1" e2="DDI-DrugBank.d633.s18.e5" ddi="false"/>
+        <pair id="DDI-DrugBank.d633.s18.p11"
+            e1="DDI-DrugBank.d633.s18.e1" e2="DDI-DrugBank.d633.s18.e6" ddi="false"/>
+        <pair id="DDI-DrugBank.d633.s18.p12"
+            e1="DDI-DrugBank.d633.s18.e1" e2="DDI-DrugBank.d633.s18.e7" ddi="false"/>
+        <pair id="DDI-DrugBank.d633.s18.p13"
+            e1="DDI-DrugBank.d633.s18.e2" e2="DDI-DrugBank.d633.s18.e3" ddi="false"/>
+        <pair id="DDI-DrugBank.d633.s18.p14"
+            e1="DDI-DrugBank.d633.s18.e2" e2="DDI-DrugBank.d633.s18.e4" ddi="false"/>
+        <pair id="DDI-DrugBank.d633.s18.p15"
+            e1="DDI-DrugBank.d633.s18.e2" e2="DDI-DrugBank.d633.s18.e5" ddi="false"/>
+        <pair id="DDI-DrugBank.d633.s18.p16"
+            e1="DDI-DrugBank.d633.s18.e2" e2="DDI-DrugBank.d633.s18.e6" ddi="false"/>
+        <pair id="DDI-DrugBank.d633.s18.p17"
+            e1="DDI-DrugBank.d633.s18.e2" e2="DDI-DrugBank.d633.s18.e7" ddi="false"/>
+        <pair id="DDI-DrugBank.d633.s18.p18"
+            e1="DDI-DrugBank.d633.s18.e3" e2="DDI-DrugBank.d633.s18.e4" ddi="false"/>
+        <pair id="DDI-DrugBank.d633.s18.p19"
+            e1="DDI-DrugBank.d633.s18.e3" e2="DDI-DrugBank.d633.s18.e5" ddi="false"/>
+        <pair id="DDI-DrugBank.d633.s18.p20"
+            e1="DDI-DrugBank.d633.s18.e3" e2="DDI-DrugBank.d633.s18.e6" ddi="false"/>
+        <pair id="DDI-DrugBank.d633.s18.p21"
+            e1="DDI-DrugBank.d633.s18.e3" e2="DDI-DrugBank.d633.s18.e7" ddi="false"/>
+        <pair id="DDI-DrugBank.d633.s18.p22"
+            e1="DDI-DrugBank.d633.s18.e4" e2="DDI-DrugBank.d633.s18.e5"
+            ddi="true" type="advise"/>
+        <pair id="DDI-DrugBank.d633.s18.p23"
+            e1="DDI-DrugBank.d633.s18.e4" e2="DDI-DrugBank.d633.s18.e6" ddi="false"/>
+        <pair id="DDI-DrugBank.d633.s18.p24"
+            e1="DDI-DrugBank.d633.s18.e4" e2="DDI-DrugBank.d633.s18.e7" ddi="false"/>
+        <pair id="DDI-DrugBank.d633.s18.p25"
+            e1="DDI-DrugBank.d633.s18.e5" e2="DDI-DrugBank.d633.s18.e6" ddi="false"/>
+        <pair id="DDI-DrugBank.d633.s18.p26"
+            e1="DDI-DrugBank.d633.s18.e5" e2="DDI-DrugBank.d633.s18.e7" ddi="false"/>
+        <pair id="DDI-DrugBank.d633.s18.p27"
+            e1="DDI-DrugBank.d633.s18.e6" e2="DDI-DrugBank.d633.s18.e7" ddi="false"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d633.s19" text="An appropriate adjustment in theophylline dose should be considered. ">
+        <entity id="DDI-DrugBank.d633.s19.e0" charOffset="29-40"
+            type="drug" text="theophylline"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d633.s20" text="Additionally, in one controlled study in five normal subjects and seven patients, the clearance of caffeine was decreased 50% following the administration of Mexitil   .">
+        <entity id="DDI-DrugBank.d633.s20.e0" charOffset="99-106"
+            type="drug" text="caffeine"/>
+        <entity id="DDI-DrugBank.d633.s20.e1" charOffset="158-164"
+            type="brand" text="Mexitil"/>
+        <pair id="DDI-DrugBank.d633.s20.p0"
+            e1="DDI-DrugBank.d633.s20.e0" e2="DDI-DrugBank.d633.s20.e1"
+            ddi="true" type="mechanism"/>
+    </sentence>
+</document>

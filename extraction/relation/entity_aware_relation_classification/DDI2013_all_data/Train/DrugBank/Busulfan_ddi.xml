@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="DDI-DrugBank.d72">
+    <sentence id="DDI-DrugBank.d72.s0" text="Itraconazole decreases busulfan clearance by up to 25%, and may produce AUCs   1500  M min in some patients.">
+        <entity id="DDI-DrugBank.d72.s0.e0" charOffset="0-11"
+            type="drug" text="Itraconazole"/>
+        <entity id="DDI-DrugBank.d72.s0.e1" charOffset="23-30"
+            type="drug" text="busulfan"/>
+        <pair id="DDI-DrugBank.d72.s0.p0" e1="DDI-DrugBank.d72.s0.e0"
+            e2="DDI-DrugBank.d72.s0.e1" ddi="true" type="mechanism"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d72.s1" text="Fluconazole, and the 5-HT3 antiemetics ondansetron (Zofran) and granisetron (Kytril) have all been used with BUSULFEX.">
+        <entity id="DDI-DrugBank.d72.s1.e0" charOffset="0-10"
+            type="drug" text="Fluconazole"/>
+        <entity id="DDI-DrugBank.d72.s1.e1" charOffset="21-37"
+            type="group" text="5-HT3 antiemetics"/>
+        <entity id="DDI-DrugBank.d72.s1.e2" charOffset="39-49"
+            type="drug" text="ondansetron"/>
+        <entity id="DDI-DrugBank.d72.s1.e3" charOffset="52-57"
+            type="brand" text="Zofran"/>
+        <entity id="DDI-DrugBank.d72.s1.e4" charOffset="64-74"
+            type="drug" text="granisetron"/>
+        <entity id="DDI-DrugBank.d72.s1.e5" charOffset="77-82"
+            type="brand" text="Kytril"/>
+        <entity id="DDI-DrugBank.d72.s1.e6" charOffset="109-116"
+            type="brand" text="BUSULFEX"/>
+        <pair id="DDI-DrugBank.d72.s1.p0" e1="DDI-DrugBank.d72.s1.e0"
+            e2="DDI-DrugBank.d72.s1.e1" ddi="false"/>
+        <pair id="DDI-DrugBank.d72.s1.p1" e1="DDI-DrugBank.d72.s1.e0"
+            e2="DDI-DrugBank.d72.s1.e2" ddi="false"/>
+        <pair id="DDI-DrugBank.d72.s1.p2" e1="DDI-DrugBank.d72.s1.e0"
+            e2="DDI-DrugBank.d72.s1.e3" ddi="false"/>
+        <pair id="DDI-DrugBank.d72.s1.p3" e1="DDI-DrugBank.d72.s1.e0"
+            e2="DDI-DrugBank.d72.s1.e4" ddi="false"/>
+        <pair id="DDI-DrugBank.d72.s1.p4" e1="DDI-DrugBank.d72.s1.e0"
+            e2="DDI-DrugBank.d72.s1.e5" ddi="false"/>
+        <pair id="DDI-DrugBank.d72.s1.p5" e1="DDI-DrugBank.d72.s1.e0"
+            e2="DDI-DrugBank.d72.s1.e6" ddi="false"/>
+        <pair id="DDI-DrugBank.d72.s1.p6" e1="DDI-DrugBank.d72.s1.e1"
+            e2="DDI-DrugBank.d72.s1.e2" ddi="false"/>
+        <pair id="DDI-DrugBank.d72.s1.p7" e1="DDI-DrugBank.d72.s1.e1"
+            e2="DDI-DrugBank.d72.s1.e3" ddi="false"/>
+        <pair id="DDI-DrugBank.d72.s1.p8" e1="DDI-DrugBank.d72.s1.e1"
+            e2="DDI-DrugBank.d72.s1.e4" ddi="false"/>
+        <pair id="DDI-DrugBank.d72.s1.p9" e1="DDI-DrugBank.d72.s1.e1"
+            e2="DDI-DrugBank.d72.s1.e5" ddi="false"/>
+        <pair id="DDI-DrugBank.d72.s1.p10" e1="DDI-DrugBank.d72.s1.e1"
+            e2="DDI-DrugBank.d72.s1.e6" ddi="false"/>
+        <pair id="DDI-DrugBank.d72.s1.p11" e1="DDI-DrugBank.d72.s1.e2"
+            e2="DDI-DrugBank.d72.s1.e3" ddi="false"/>
+        <pair id="DDI-DrugBank.d72.s1.p12" e1="DDI-DrugBank.d72.s1.e2"
+            e2="DDI-DrugBank.d72.s1.e4" ddi="false"/>
+        <pair id="DDI-DrugBank.d72.s1.p13" e1="DDI-DrugBank.d72.s1.e2"
+            e2="DDI-DrugBank.d72.s1.e5" ddi="false"/>
+        <pair id="DDI-DrugBank.d72.s1.p14" e1="DDI-DrugBank.d72.s1.e2"
+            e2="DDI-DrugBank.d72.s1.e6" ddi="false"/>
+        <pair id="DDI-DrugBank.d72.s1.p15" e1="DDI-DrugBank.d72.s1.e3"
+            e2="DDI-DrugBank.d72.s1.e4" ddi="false"/>
+        <pair id="DDI-DrugBank.d72.s1.p16" e1="DDI-DrugBank.d72.s1.e3"
+            e2="DDI-DrugBank.d72.s1.e5" ddi="false"/>
+        <pair id="DDI-DrugBank.d72.s1.p17" e1="DDI-DrugBank.d72.s1.e3"
+            e2="DDI-DrugBank.d72.s1.e6" ddi="false"/>
+        <pair id="DDI-DrugBank.d72.s1.p18" e1="DDI-DrugBank.d72.s1.e4"
+            e2="DDI-DrugBank.d72.s1.e5" ddi="false"/>
+        <pair id="DDI-DrugBank.d72.s1.p19" e1="DDI-DrugBank.d72.s1.e4"
+            e2="DDI-DrugBank.d72.s1.e6" ddi="false"/>
+        <pair id="DDI-DrugBank.d72.s1.p20" e1="DDI-DrugBank.d72.s1.e5"
+            e2="DDI-DrugBank.d72.s1.e6" ddi="false"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d72.s2" text="Phenytoin increases the clearance of busulfan by 15% or more, possibly due to the induction of glutathione-S-transferase.">
+        <entity id="DDI-DrugBank.d72.s2.e0" charOffset="0-8" type="drug" text="Phenytoin"/>
+        <entity id="DDI-DrugBank.d72.s2.e1" charOffset="37-44"
+            type="drug" text="busulfan"/>
+        <pair id="DDI-DrugBank.d72.s2.p0" e1="DDI-DrugBank.d72.s2.e0"
+            e2="DDI-DrugBank.d72.s2.e1" ddi="true" type="mechanism"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d72.s3" text="Since the pharmacokinetics of BUSULFEX were studied in patients treated with phenytoin, the clearance of BUSULFEX at the recommended dose may be lower and exposure (AUC) higher in patients not treated with phenytoin.">
+        <entity id="DDI-DrugBank.d72.s3.e0" charOffset="30-37"
+            type="brand" text="BUSULFEX"/>
+        <entity id="DDI-DrugBank.d72.s3.e1" charOffset="77-85"
+            type="drug" text="phenytoin"/>
+        <entity id="DDI-DrugBank.d72.s3.e2" charOffset="105-112"
+            type="brand" text="BUSULFEX"/>
+        <entity id="DDI-DrugBank.d72.s3.e3" charOffset="206-214"
+            type="drug" text="phenytoin"/>
+        <pair id="DDI-DrugBank.d72.s3.p0" e1="DDI-DrugBank.d72.s3.e0"
+            e2="DDI-DrugBank.d72.s3.e1" ddi="true" type="mechanism"/>
+        <pair id="DDI-DrugBank.d72.s3.p1" e1="DDI-DrugBank.d72.s3.e0"
+            e2="DDI-DrugBank.d72.s3.e2" ddi="false"/>
+        <pair id="DDI-DrugBank.d72.s3.p2" e1="DDI-DrugBank.d72.s3.e0"
+            e2="DDI-DrugBank.d72.s3.e3" ddi="false"/>
+        <pair id="DDI-DrugBank.d72.s3.p3" e1="DDI-DrugBank.d72.s3.e1"
+            e2="DDI-DrugBank.d72.s3.e2" ddi="false"/>
+        <pair id="DDI-DrugBank.d72.s3.p4" e1="DDI-DrugBank.d72.s3.e1"
+            e2="DDI-DrugBank.d72.s3.e3" ddi="false"/>
+        <pair id="DDI-DrugBank.d72.s3.p5" e1="DDI-DrugBank.d72.s3.e2"
+            e2="DDI-DrugBank.d72.s3.e3" ddi="false"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d72.s4" text="Because busulfan is eliminated from the body via conjugation with glutathione, use of acetaminophen prior to ( 72 hours) or concurrent with BUSULFEX may result in reduced busulfan clearance based upon the known property of acetaminophen to decrease glutathione levels in the blood and tissues.">
+        <entity id="DDI-DrugBank.d72.s4.e0" charOffset="8-15"
+            type="drug" text="busulfan"/>
+        <entity id="DDI-DrugBank.d72.s4.e1" charOffset="86-98"
+            type="drug" text="acetaminophen"/>
+        <entity id="DDI-DrugBank.d72.s4.e2" charOffset="140-147"
+            type="brand" text="BUSULFEX"/>
+        <entity id="DDI-DrugBank.d72.s4.e3" charOffset="171-178"
+            type="drug" text="busulfan"/>
+        <entity id="DDI-DrugBank.d72.s4.e4" charOffset="223-235"
+            type="drug" text="acetaminophen"/>
+        <pair id="DDI-DrugBank.d72.s4.p0" e1="DDI-DrugBank.d72.s4.e0"
+            e2="DDI-DrugBank.d72.s4.e1" ddi="false"/>
+        <pair id="DDI-DrugBank.d72.s4.p1" e1="DDI-DrugBank.d72.s4.e0"
+            e2="DDI-DrugBank.d72.s4.e2" ddi="false"/>
+        <pair id="DDI-DrugBank.d72.s4.p2" e1="DDI-DrugBank.d72.s4.e0"
+            e2="DDI-DrugBank.d72.s4.e3" ddi="false"/>
+        <pair id="DDI-DrugBank.d72.s4.p3" e1="DDI-DrugBank.d72.s4.e0"
+            e2="DDI-DrugBank.d72.s4.e4" ddi="false"/>
+        <pair id="DDI-DrugBank.d72.s4.p4" e1="DDI-DrugBank.d72.s4.e1"
+            e2="DDI-DrugBank.d72.s4.e2" ddi="true" type="mechanism"/>
+        <pair id="DDI-DrugBank.d72.s4.p5" e1="DDI-DrugBank.d72.s4.e1"
+            e2="DDI-DrugBank.d72.s4.e3" ddi="false"/>
+        <pair id="DDI-DrugBank.d72.s4.p6" e1="DDI-DrugBank.d72.s4.e1"
+            e2="DDI-DrugBank.d72.s4.e4" ddi="false"/>
+        <pair id="DDI-DrugBank.d72.s4.p7" e1="DDI-DrugBank.d72.s4.e2"
+            e2="DDI-DrugBank.d72.s4.e3" ddi="false"/>
+        <pair id="DDI-DrugBank.d72.s4.p8" e1="DDI-DrugBank.d72.s4.e2"
+            e2="DDI-DrugBank.d72.s4.e4" ddi="false"/>
+        <pair id="DDI-DrugBank.d72.s4.p9" e1="DDI-DrugBank.d72.s4.e3"
+            e2="DDI-DrugBank.d72.s4.e4" ddi="false"/>
+    </sentence>
+</document>

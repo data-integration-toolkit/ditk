@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="DDI-DrugBank.d581">
+    <sentence id="DDI-DrugBank.d581.s0" text="No formal drug interaction studies between Neulasta and other drugs have been performed. ">
+        <entity id="DDI-DrugBank.d581.s0.e0" charOffset="43-50"
+            type="brand" text="Neulasta"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d581.s1" text="Drugs such as lithium may potentiate the release of neutrophils; ">
+        <entity id="DDI-DrugBank.d581.s1.e0" charOffset="14-20"
+            type="drug" text="lithium"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d581.s2" text="patients receiving lithium and Neulasta should have more frequent monitoring of neutrophil counts.">
+        <entity id="DDI-DrugBank.d581.s2.e0" charOffset="19-25"
+            type="drug" text="lithium"/>
+        <entity id="DDI-DrugBank.d581.s2.e1" charOffset="31-38"
+            type="brand" text="Neulasta"/>
+        <pair id="DDI-DrugBank.d581.s2.p0" e1="DDI-DrugBank.d581.s2.e0"
+            e2="DDI-DrugBank.d581.s2.e1" ddi="true" type="advise"/>
+    </sentence>
+</document>

@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="DDI-DrugBank.d160">
+    <sentence id="DDI-DrugBank.d160.s0" text="The results of a study of coadministration of ethambutol (50 mg/kg) with an aluminum hydroxide containing antacid to 13 patients with tuberculosis showed a reduction of mean serum concentrations and urinary excretion of ethambutol of approximately 20% and 13%, respectively, suggesting that the oral absorption of ethambutol may be reduced by these antacid products.">
+        <entity id="DDI-DrugBank.d160.s0.e0" charOffset="46-55"
+            type="drug" text="ethambutol"/>
+        <entity id="DDI-DrugBank.d160.s0.e1" charOffset="76-93"
+            type="drug" text="aluminum hydroxide"/>
+        <entity id="DDI-DrugBank.d160.s0.e2" charOffset="106-112"
+            type="group" text="antacid"/>
+        <entity id="DDI-DrugBank.d160.s0.e3" charOffset="220-229"
+            type="drug" text="ethambutol"/>
+        <entity id="DDI-DrugBank.d160.s0.e4" charOffset="314-323"
+            type="drug" text="ethambutol"/>
+        <entity id="DDI-DrugBank.d160.s0.e5" charOffset="349-364"
+            type="group" text="antacid products"/>
+        <pair id="DDI-DrugBank.d160.s0.p0" e1="DDI-DrugBank.d160.s0.e0"
+            e2="DDI-DrugBank.d160.s0.e1" ddi="true" type="mechanism"/>
+        <pair id="DDI-DrugBank.d160.s0.p1" e1="DDI-DrugBank.d160.s0.e0"
+            e2="DDI-DrugBank.d160.s0.e2" ddi="false"/>
+        <pair id="DDI-DrugBank.d160.s0.p2" e1="DDI-DrugBank.d160.s0.e0"
+            e2="DDI-DrugBank.d160.s0.e3" ddi="false"/>
+        <pair id="DDI-DrugBank.d160.s0.p3" e1="DDI-DrugBank.d160.s0.e0"
+            e2="DDI-DrugBank.d160.s0.e4" ddi="false"/>
+        <pair id="DDI-DrugBank.d160.s0.p4" e1="DDI-DrugBank.d160.s0.e0"
+            e2="DDI-DrugBank.d160.s0.e5" ddi="false"/>
+        <pair id="DDI-DrugBank.d160.s0.p5" e1="DDI-DrugBank.d160.s0.e1"
+            e2="DDI-DrugBank.d160.s0.e2" ddi="false"/>
+        <pair id="DDI-DrugBank.d160.s0.p6" e1="DDI-DrugBank.d160.s0.e1"
+            e2="DDI-DrugBank.d160.s0.e3" ddi="false"/>
+        <pair id="DDI-DrugBank.d160.s0.p7" e1="DDI-DrugBank.d160.s0.e1"
+            e2="DDI-DrugBank.d160.s0.e4" ddi="false"/>
+        <pair id="DDI-DrugBank.d160.s0.p8" e1="DDI-DrugBank.d160.s0.e1"
+            e2="DDI-DrugBank.d160.s0.e5" ddi="false"/>
+        <pair id="DDI-DrugBank.d160.s0.p9" e1="DDI-DrugBank.d160.s0.e2"
+            e2="DDI-DrugBank.d160.s0.e3" ddi="false"/>
+        <pair id="DDI-DrugBank.d160.s0.p10" e1="DDI-DrugBank.d160.s0.e2"
+            e2="DDI-DrugBank.d160.s0.e4" ddi="false"/>
+        <pair id="DDI-DrugBank.d160.s0.p11" e1="DDI-DrugBank.d160.s0.e2"
+            e2="DDI-DrugBank.d160.s0.e5" ddi="false"/>
+        <pair id="DDI-DrugBank.d160.s0.p12" e1="DDI-DrugBank.d160.s0.e3"
+            e2="DDI-DrugBank.d160.s0.e4" ddi="false"/>
+        <pair id="DDI-DrugBank.d160.s0.p13" e1="DDI-DrugBank.d160.s0.e3"
+            e2="DDI-DrugBank.d160.s0.e5" ddi="false"/>
+        <pair id="DDI-DrugBank.d160.s0.p14" e1="DDI-DrugBank.d160.s0.e4"
+            e2="DDI-DrugBank.d160.s0.e5" ddi="false"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d160.s1" text="It is recommended to avoid concurrent administration of ethambutol with aluminum hydroxide containing antacids for at least 4 hours following ethambutol administration.">
+        <entity id="DDI-DrugBank.d160.s1.e0" charOffset="56-65"
+            type="drug" text="ethambutol"/>
+        <entity id="DDI-DrugBank.d160.s1.e1" charOffset="72-89"
+            type="drug" text="aluminum hydroxide"/>
+        <entity id="DDI-DrugBank.d160.s1.e2" charOffset="102-109"
+            type="group" text="antacids"/>
+        <entity id="DDI-DrugBank.d160.s1.e3" charOffset="142-151"
+            type="drug" text="ethambutol"/>
+        <pair id="DDI-DrugBank.d160.s1.p0" e1="DDI-DrugBank.d160.s1.e0"
+            e2="DDI-DrugBank.d160.s1.e1" ddi="true" type="advise"/>
+        <pair id="DDI-DrugBank.d160.s1.p1" e1="DDI-DrugBank.d160.s1.e0"
+            e2="DDI-DrugBank.d160.s1.e2" ddi="false"/>
+        <pair id="DDI-DrugBank.d160.s1.p2" e1="DDI-DrugBank.d160.s1.e0"
+            e2="DDI-DrugBank.d160.s1.e3" ddi="false"/>
+        <pair id="DDI-DrugBank.d160.s1.p3" e1="DDI-DrugBank.d160.s1.e1"
+            e2="DDI-DrugBank.d160.s1.e2" ddi="false"/>
+        <pair id="DDI-DrugBank.d160.s1.p4" e1="DDI-DrugBank.d160.s1.e1"
+            e2="DDI-DrugBank.d160.s1.e3" ddi="false"/>
+        <pair id="DDI-DrugBank.d160.s1.p5" e1="DDI-DrugBank.d160.s1.e2"
+            e2="DDI-DrugBank.d160.s1.e3" ddi="false"/>
+    </sentence>
+</document>
