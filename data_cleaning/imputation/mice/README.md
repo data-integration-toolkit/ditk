@@ -8,7 +8,15 @@ Github URL of the original code in R - https://github.com/stefvanbuuren/mice
 
 Reference for python code - Iterative Imputer in https://github.com/iskandr/fancyimpute/tree/master/fancyimpute.
 
-(This is the refactorization of the original code.)
+**This is the refactorization of the original code.**
+
+## Versions
+Below are the versions used in the code: 
+
+Python - 3.6.8
+Pandas - 0.24.2
+Tensorflow - 1.13.1
+Numpy - 1.16.2
 
 ## Description
 ### - Problem:
@@ -25,7 +33,7 @@ Mice technique makes use of three functions - mice(), with() and pool().
 
 3) pool() aggregates these sets of imputed values by different techniques. For example, mean, or if user wants a set of imputed values like set 1, he can pass the parameter 1 in pool().
 
-Steps in the Algorithm:- 
+**Steps in the Algorithm:-**
 
 Step 1: A simple imputation, such as imputing the mean, is performed for every missing value in the dataset. These mean imputations can be thought of as “place holders.”
 
@@ -48,6 +56,7 @@ Step 6: Steps 2 through 4 are repeated for a number of cycles, with the imputati
 
 - Gold dataset is used in order to evaluate the **performance of this algorithm by rmse value.**
 
+Sample Input and Output files have been included in tests folder.
 
 ## Evalution
 - Benchmark datasets :
@@ -78,3 +87,7 @@ https://github.com/karishma-chadha/ditk/blob/develop/data_cleaning/imputation/mi
 
 
 - Link to the video on Youtube
+
+## To Run the Code
+
+Follow the Demo in Jupyter Notebook closely. Keep the 
