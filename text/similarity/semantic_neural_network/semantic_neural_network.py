@@ -83,9 +83,22 @@ class Semantic_Neural_Network(TextSemanticSimilarity):
         return read_dataset_output
 
     @classmethod
-    def get_embedding_matrix(self,word_index):
+    def generate_embeddings(self, input_list, *args, **kwargs):
+        """
+        Returns the embeddings matrix that have been used to compute similarity ( Hash, Word2Vec, GlovE..)
+
+        Args:
+        	input_list : word_index is provided as input_list
+
+        Returns:
+        	embeddings_list : List of embeddings/hash of those words
+
+        Raises:
+        	None
+        """
+
         print(EMBEDDING_BINARY)
-        self.embedding_matrix = load_embedding_matrix(self.database_name, word_index)
+        self.embedding_matrix = load_embedding_matrix(self.database_name, input_list)
 
     @classmethod
     def train(self, read_dataset_output,*args, **kwargs):  # <--- implemented PER class
@@ -93,7 +106,7 @@ class Semantic_Neural_Network(TextSemanticSimilarity):
         # =========================================
         #     CREATING MODEL
         # =========================================
-        self.get_embedding_matrix(read_dataset_output['word_index'])
+        self.generate_embeddings(read_dataset_output['word_index'])
         model = init_model(read_dataset_output['max_sentence_length'], self.embedding_matrix, DROPOUT, RECURRENT_DROPOUT, read_dataset_output['vocab_size'])
         gradient_clipping_norm = 1.6
         optimizer = Adadelta(lr=LR, clipnorm=gradient_clipping_norm)
@@ -177,6 +190,26 @@ class Semantic_Neural_Network(TextSemanticSimilarity):
         self.pearson_metric_score = create_output(self.database_name, self.test_dataframe, predicted_values, actual_values, self.total_duration, model_file,
                                                   self.timestamp, obs=str(sys.argv))
         return self.pearson_metric_score
+
+    @classmethod
+    def save_model(self, file):
+        """
+
+        :param file: Where to save the model - Optional function
+        :return:
+        """
+        pass
+
+    @classmethod
+    def load_model(self, file='Generic'):
+        """
+
+        :param file: Indicate the database name to load model from
+        :return: return the model
+        """
+        MODEL_FILE = RESULTS_DIR + "model_%s.h5" % (file)
+        model = load_model(MODEL_FILE)
+        return model
 
 
 
