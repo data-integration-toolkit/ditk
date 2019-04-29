@@ -26,7 +26,7 @@ def main(input_file_path):
     FLAGS.data_type = 'semeval2010'
 
     files_dict = {
-        "train": "data/"+FLAGS.data_type+"/trainfile.txt",
+        "train": input_file_path,
         "test": input_file_path,
     }
 
