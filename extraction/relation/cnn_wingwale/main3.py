@@ -4,6 +4,7 @@ import cnn_model
 def main(input_file_path):
     input_file_path = input_file_path.replace(os.sep, '/')
 
+    print("Benchmark 3: NYT dataset")
     model3 = cnn_model.CNNModel()
     model3.read_dataset(input_file_path+'/benchmark3')
     # model3.train(input_file_path+'/benchmark3', input_file_path+'/model3')
