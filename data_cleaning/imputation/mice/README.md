@@ -90,4 +90,12 @@ https://github.com/karishma-chadha/ditk/blob/develop/data_cleaning/imputation/mi
 
 ## To Run the Code
 
-Follow the Demo in Jupyter Notebook closely. Keep the 
+- Follow the Jupyter Notebook closely for demo on commands in main.py.
+
+- Keep the all the source files in one folder.
+
+- The main code takes the input in csv format **imputation_mice_input.csv** from directory **input_output_generation** and generates the output in the same directory as **imputation_mice_output.csv**.
+
+- Thus, keep your input in input_output_generation folder named as imputation_mice_input.csv and run main.py.
+
+- You will get the output in input_output_generation folder as imputation_mice_output.csv.

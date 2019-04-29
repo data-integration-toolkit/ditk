@@ -442,7 +442,7 @@ class _SimpleImputer(BaseEstimator, TransformerMixin):
         return X
 
 
-class mice(Mids, Imputation):
+class Mice(Mids, Imputation):
     """Multivariate imputer that estimates each feature from all the others.
     A strategy for imputing missing values by modeling each feature with
     missing values as a function of other features in a round-robin fashion.
