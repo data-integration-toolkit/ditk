@@ -112,9 +112,22 @@ class CNNModel(RelationExtraction):
         pass
 
     def predict(self, test_data, entity_1=None, entity_2=None,  trained_model=None):
+        output_dir = test_data
+        e1s = []
+        e2s = []
+        sentences = []
+        relations_real = []
+        relations_predict = []
+
         sample_size = 0
-        with open(test_data+"/test.cln", 'r') as file_test:
-            for _ in file_test:
+        with open(test_data+"/relation_extraction_input_test.txt", 'r') as file_test:
+            for line in file_test:
+                attrs = line.strip().lower().split('\t')
+                sentence, e1, _, _, _, e2, _, _, _, relation_real = attrs
+                e1s.append(e1)
+                e2s.append(e2)
+                sentences.append(sentence)
+                relations_real.append(relation_real)
                 sample_size += 1
             file_test.close()
 
@@ -125,11 +138,25 @@ class CNNModel(RelationExtraction):
             'save_model_folder': trained_model, 
             'test': True
         }
-        src_train.train(params)
-        output_dir = test_data
 
-        return output_dir
-    
+        src_train.train(params)
+
+        with open(output_dir+"/results.txt", 'r') as results_raw:
+            for line in results_raw:
+                _, relation_predict = line.strip().split("\t")
+                relations_predict.append(relation_predict)
+            results_raw.close()
+        
+        output_file_path = output_dir+"/relation_extraction_output.txt"
+        with open(output_file_path, 'w') as output_file:
+            for iter in zip(sentences, e1s, e2s, relations_predict, relations_real):
+                output_file.write("\t".join(iter))
+                output_file.write("\n")
+                    
+            output_file.close()
+
+        return output_file_path
+
     def evaluate(self, input_data, trained_model=None):
         dir_output = input_data
         y_pred = []
