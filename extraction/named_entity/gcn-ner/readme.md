@@ -14,6 +14,15 @@ Github URL of the original code: https://github.com/ContextScout/gcn_ner
 
 ![architecture](resources/architecture.png)
 
+## Setup
+(Tested on Python 3, Linux based systems.)
+- Clone the git repository
+- Install the requirements
+	- pip install -r requirements.txt
+- Run the following commands to configure the spacy library
+	- python -m spacy download en
+	- python -m spacy download en_core_web_md
+
 ## Input and Output
 - Prediction
 	- Input format is the DITK format
