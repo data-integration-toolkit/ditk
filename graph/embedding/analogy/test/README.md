@@ -1,10 +1,11 @@
-#### CSCI 548 Project README For Grading/Running
+### CSCI 548 Project README For Grading/Running
 
 **Note on input files**:
+
 Most file inputs have been hardcoded at the top of each file (i.e. in main.py, analogy_test.py, analogy_notebook.ipynb).
 Those can be changed depending on where the source data is stored.
 ---
-##### Unit Test (/test/analogy_test.py)
+#### Unit Test (/test/analogy_test.py)
 
 Unit tests follow input file note from above. I have followed the signatures of the group test with a few minor
 exceptions. I replaced the setUp method with setUpClass that reads in the input files and trains the model. Since unit
@@ -14,7 +15,7 @@ can be set at top of file.
 
 ---
 
-##### Main (/test/main.py)
+#### Main (/test/main.py)
 
 In my implementation main.py reads the test input file and outputs a file with the embeddings of the test subject,
 relation, object triple. The difference between mine and group test input file is I also put the assumptions for
