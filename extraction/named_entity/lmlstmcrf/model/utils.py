@@ -14,11 +14,13 @@ import numpy as np
 import shutil
 import torch
 import json
+import sys
 
 import torch.nn as nn
 import torch.nn.init
 
 from model.ner_dataset import *
+from tqdm import tqdm
 
 zip = getattr(itertools, 'izip', zip)
 
@@ -93,6 +95,11 @@ def concatChar(input_lines, char_dict):
     return:
         forw_lines
     """
+    # features = []
+    # for i in tqdm( range(len(input_lines)), mininterval=1, desc='concatChar', leave=False, file=sys.stdout):
+    #     sentence = input_lines[i]
+    #     feature = [char_dict[' ']] + list(reduce(lambda x, y: x + [char_dict[' ']] + y, sentence)) + [char_dict['\n']]
+    #     features.append(feature)
     features = [[char_dict[' ']] + list(reduce(lambda x, y: x + [char_dict[' ']] + y, sentence)) + [char_dict['\n']] for sentence in input_lines]
     return features
 
@@ -262,7 +269,7 @@ def generate_corpus_from_data(data, if_shrink_feature=False, thresholds=1):
     feature_map = dict()
     label_map = dict()
     for line in data:
-        if len(line) != 0:
+        if len(line) != 0 and len(line[0].strip()) != 0:
             tmp_fl.append(line[0])
             if line[0] not in feature_map:
                 feature_map[line[0]] = len(feature_map) + 1 #0 is for unk
@@ -298,7 +305,7 @@ def read_data(data):
     tmp_fl = list()
     tmp_ll = list()
     for line in data:
-        if len(line) != 0:
+        if len(line) != 0 and len(line[0].strip()) != 0:
             tmp_fl.append(line[0])
             tmp_ll.append(line[3])
         elif len(tmp_fl) > 0:
@@ -344,7 +351,7 @@ def read_features_from_data(data, multi_docs = True):
     features = list()
     tmp_fl = list()
     for line in data:
-        if len(line) != 0:
+        if len(line) != 0 and len(line[0].strip()) != 0:
             tmp_fl.append(line[0])
         else:
             if len(tmp_fl) > 0:
