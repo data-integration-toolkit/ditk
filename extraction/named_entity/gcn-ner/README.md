@@ -32,7 +32,7 @@ Github URL of the original code: https://github.com/ContextScout/gcn_ner
 	- Input is in CoNLL 2012 format.
 	- Output is stored as a model.
 
-## Evalution
+## Evaluation
 - #### Benchmark Datasets
     - OntoNotes 5.0 
 - #### Evaluation Metrics
