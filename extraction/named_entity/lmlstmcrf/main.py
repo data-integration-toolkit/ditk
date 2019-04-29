@@ -12,7 +12,7 @@ data_sets = ['conll', 'ontonotes', 'chemdner']
 emb_file = data_dir + "/embedding/glove.6B.100d.embedding"
 
 chosen_type = data_sets[2]
-train_file = data_dir + "/data/{}/test.train".format(chosen_type)
+train_file = data_dir + "/data/{}/out.train".format(chosen_type)
 dev_file = data_dir + "/data/{}/out.testa".format(chosen_type)
 test_file = data_dir + "/data/{}/out.testb".format(chosen_type)
 
