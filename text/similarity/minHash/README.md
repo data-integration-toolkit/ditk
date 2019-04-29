@@ -10,17 +10,17 @@ This project contains an implementation of the MinHash LSH Algorithm.
 https://github.com/chrisjmccormick/MinHash
 #### Input and Output
 
->>Input:
+>Input:
 This model takes as input a pair of sentences, on which the similarity has to be determined.
 
->>Output:
+>Output:
 The model outputs :
 1) Embedding of the sentence / MinHash signature
 2) Similarity score between the 2 input sentences.
 
 #### Description
 
->>Task: 
+>Task: 
 - Reduce the high dimensional features to smaller dimensions while preserving the differentiability.
 - Group similar objects into same buckets with high probability.
 
@@ -57,10 +57,10 @@ The benchmark datasets used for this project were:
 3. SemEval 2017 Task 1
  - http://alt.qcri.org/semeval2017/task1/
 
->>EVALUATION METRICS : 
+>EVALUATION METRICS : 
 - Pearson Correlation Coefficient
 - Spearman Correlation Coefficient
->> RESULTS :
+> RESULTS :
 
 | DATASET       | PEARSON         | SPEARMAN|
 | ------------- | -------------    | -------------     |
