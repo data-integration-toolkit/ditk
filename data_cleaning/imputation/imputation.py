@@ -171,7 +171,7 @@ class Imputation(abc.ABC):
             data = np.asarray(data, dtype='float')
 
         # check if we introduce missing value here
-        if not args[0].ims:
+        if args and not args[0].ims:
             return None, data
 
         return None, data

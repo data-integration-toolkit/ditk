@@ -121,3 +121,5 @@ def evaluate(args, model, eval_data):
     print("CSV Saved")
     print("Evaluateion RMSE: {0}".format(rmse))
 
+    return rmse
+

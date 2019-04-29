@@ -10,6 +10,7 @@ import os
 from os.path import join
 import numpy as np
 import pickle
+import unittest
 from time import gmtime, strftime
 
 DATALOADER_PATH = 'data/*.data_loader'
