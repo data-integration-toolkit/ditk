@@ -9,7 +9,7 @@ data_dir = os.path.join(ditk_path, 'extraction/named_entity/lmlstmcrf')
 
 data_sets = ['conll', 'ontonotes', 'chemdner']
 
-emb_file = data_dir + "/embedding/test.embedding"
+emb_file = data_dir + "/embedding/glove.6B.100d.embedding"
 
 chosen_type = data_sets[2]
 train_file = data_dir + "/data/{}/test.train".format(chosen_type)
