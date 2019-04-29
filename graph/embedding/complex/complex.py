@@ -124,26 +124,6 @@ class ComplEx(GraphEmbedding):
 
         self.logger.info('Learning Embeddings...')
 
-        # if 'optimizer' in data:
-        #     opt_method = data['optimizer']
-        # else:
-        #     opt_method = data['optimizer'] = 'adagrad'
-
-        # opt_method = data['optimizer'] if 'optimizer' in data else 'adagrad'
-        # learning_rate = data['lr'] if 'lr' in data else 0.05
-        # l2_regularization = data['l2_reg'] if 'l2_reg' in data else 0.001
-        # gradient_clipping = data['gradclip'] if 'gradclip' in data else 0.05
-        # number_dimensions = data['dim'] if 'dim' in data else 200
-        # margin = data['margin'] if 'margin' in data else 1
-        # cp_ratio = data['cp_ratio'] if 'cp_ratio' in data else .5
-        # mode = data['mode'] if 'mode' in data else 'single'
-        # nbest = data['nbest'] if 'nbest' in data else 10 # only for hits@ metric
-        # filtered = data['filtered'] if 'filtered' in data else False
-        # batch = data['batch'] if 'batch' in data else 128
-        # save_step = data['save_step'] if 'save_step' in data else 30
-        # epoch = data['epoch'] if 'epoch' in data else 500
-        # negative = data['negative'] if 'negative' in data else 5
-
         # set up arguments and defaults
         opt_method = self.input_var_utility(data, 'opt', 'adagrad')
         learning_rate = self.input_var_utility(data, 'lr', 0.05)

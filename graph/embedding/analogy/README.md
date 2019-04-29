@@ -9,6 +9,8 @@ This code base implements the following paper:
 
 ##### Youtube Video Link: https://youtu.be/3hzwEb262HY *also shows how to run Jupyter notebook*
 
+Package requirements: numpy, scipy, dill
+
 ---
 ### Knowledge Graph Embedding Task
 Knowledge Graphs (KG) typically contain only a small subset of all possible facts. This necessitates filling in the missing information. This process is known as *link prediction* or *knowledge graph completion*. KG models accomplish this by learning the embeddings of the entities and relations which can be used later for link prediction or KG completion.

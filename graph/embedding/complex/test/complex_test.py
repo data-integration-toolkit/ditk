@@ -1,5 +1,5 @@
-from graph.embedding.analogy.dataset import Vocab, TripletDataset
-from graph.embedding.analogy.analogy import ANALOGY
+from graph.embedding.complex.dataset import Vocab, TripletDataset
+from graph.embedding.complex.complex import ComplEx
 import unittest
 
 # DATA_SET_TO_USE = 'FB15k'
@@ -7,7 +7,7 @@ DATA_SET_TO_USE = 'WN18'
 
 # Model Parameters, using minimum parameters
 EPOCH = 2
-DIMENSIONS = 20  # remember since using hybrid ComplEx + DistMult actual embeddings are divided by 2
+DIMENSIONS = 20  # remember since using complex numbers actual dimensions is divided by 2
 
 # validate and whole text omitted to save train time
 TRAIN_FILE_NAME = "train.txt"
@@ -28,13 +28,13 @@ else:
     N_TRAIN = 141442
 
 
-class TestAnalogyMethods(unittest.TestCase):
+class TestComplexMethods(unittest.TestCase):
 
     # set up model for unit testing, since unit tests can be run in any order by test loader
     # will read and train data set in setUpClass and then perform tests
     @classmethod
     def setUpClass(cls):
-        cls.graph_embedding = ANALOGY()  # initialize your Blocking method
+        cls.graph_embedding = ComplEx()  # initialize your Blocking method
         train_file_names = {"train": INPUT_FILE_DIRECTORY + TRAIN_FILE_NAME,
                             "relations": INPUT_FILE_DIRECTORY + RELATIONS_FILE_NAME,
                             "entities": INPUT_FILE_DIRECTORY + ENTITIES_FILE_NAME}
@@ -58,23 +58,19 @@ class TestAnalogyMethods(unittest.TestCase):
 
     def test_learn_embeddings(self):
         # check embeddings
-        # each embedding has real and imaginary parts in addition to plain embedding for DistMult part
+        # each embedding has real and imaginary part
 
         # check entities
-        e = self.graph_embedding.model.params['e'].data
         e_re = self.graph_embedding.model.params['e_re'].data
         e_im = self.graph_embedding.model.params['e_im'].data
-        self.assertEqual(e.shape, (N_ENTITIES, DIMENSIONS/2))
-        self.assertEqual(e_re.shape, (N_ENTITIES, DIMENSIONS/2))
-        self.assertEqual(e_im.shape, (N_ENTITIES, DIMENSIONS/2))
+        self.assertEqual(e_re.shape, (N_ENTITIES, DIMENSIONS))
+        self.assertEqual(e_im.shape, (N_ENTITIES, DIMENSIONS))
 
         # check relations
-        r = self.graph_embedding.model.params['r'].data
         r_re = self.graph_embedding.model.params['r_re'].data
         r_im = self.graph_embedding.model.params['r_im'].data
-        self.assertEqual(r.shape, (N_RELATIONS, DIMENSIONS/2))
-        self.assertEqual(r_re.shape, (N_RELATIONS, DIMENSIONS/2))
-        self.assertEqual(r_im.shape, (N_RELATIONS, DIMENSIONS/2))
+        self.assertEqual(r_re.shape, (N_RELATIONS, DIMENSIONS))
+        self.assertEqual(r_im.shape, (N_RELATIONS, DIMENSIONS))
 
     def test_evaluate(self):
         evaluate_file_names = {"test": INPUT_FILE_DIRECTORY + TEST_FILE_NAME}
