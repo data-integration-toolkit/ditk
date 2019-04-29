@@ -410,6 +410,7 @@ class Lmlstmcrf(Ner):
         for label, (test_f1, test_pre, test_rec, test_acc, msg) in result.items():
             print(hp.checkpoint +' : %s : test_f1: %.4f test_rec: %.4f test_pre: %.4f test_acc: %.4f | %s\n' \
                 % (label, test_f1, test_rec, test_pre, test_acc, msg))
+                
         return (result["total"][1], result["total"][2], result["total"][0])
         	
     def save_model(self, file):
