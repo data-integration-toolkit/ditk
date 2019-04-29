@@ -73,5 +73,6 @@ Step 6: Steps 2 through 4 are repeated for a number of cycles, with the imputati
 ## Demo
 - Link to the Jupyter Notebook : 
 
-https://github.com/karishma-chadha/ditk/blob/develop/data_cleaning/midas/midas_jupyter_notebook.ipynb
+https://github.com/karishma-chadha/ditk/blob/develop/data_cleaning/imputation/mice/demo/mice_jupyter_notebook.ipynb
+
 - Link to the video on Youtube
