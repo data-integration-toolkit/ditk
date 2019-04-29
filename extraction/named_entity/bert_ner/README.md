@@ -25,67 +25,17 @@ did VBD (VP*) O bc/cnn/00/cnn_0003 0 2 do 01 - Linda_Hamilton (V*) -
 word entity predicted_entity
 ```
 
-### Data Preparation 
-* CoNLL2003 - Find data from ./conll2003_NERData and Run conll2003_to_ditk function in convert_to_2003.py
-```
-main():
-  lines = [line.strip() for line in open('./conll2003_NERdata/train.txt')]
-  ret = conll2003_to_ditk(lines)
-  with open('./NERdata/dev_test.txt', 'w') as f:
-    for line in ret:
-      f.writelines(' ".join(line)+'\n')
-```
-* OntoNotes2012 - Download data from [here](https://drive.google.com/open?id=1OauoEoPONWgwV3vH759uoBdP7MQRkr9N) and unzip the file in NERdata directory.<br>
+### Sample Test data
+* ./textexample
 
 ### Download pretrain model
 * Download pretrain bert model from [here](https://drive.google.com/open?id=1UBgb9OlLFvYGzpUufaj9Voe36muxW4Ga) and unzip the file in bert_ner directory.
-* Download pretrain model from [here](https://drive.google.com/open?id=1ZNj9uXPKv1jWtla0ur2JQg2Y5S-g9LgL) and unzip the file in bert_ner directory.
 
 
-
-### main.py
-* Create model
+### How to run test
 ```
-my_model = BERT_Ner()
+python sample_test.py
 ```
-* Load dataset
-```
-file_dict = {
-    "train": {
-        "data": "./NERdata/train.txt"
-    },
-    "dev": {
-        "data": "./NERdata/dev.txt"
-    },
-    "test": {
-        "data": "./NERdata/test.txt"
-    }
-}
-train_data, test_data, dev_data = my_model.read_dataset(file_dict, 'ditk')
-```
-* Train model - Trained model automatically saved at ./output/result_dir
-```
-my_model.train(train_data)
-```
-* Predict
-```
-res = my_model.predict(test_data)
-```
-* Evaluation
-```
-f1, precision, recall = my_model.evaluate(dev_data)
-```
-
-### Benchmark datasets
-* Precision = 0.92
-* Recall = 0.92
-* F1 = 91.87
-
-### jupyter file
-* bert_ner.ipynb
-
-### Demo video
- [video](https://youtu.be/Zu9q4jn-pJs)<br>
 
 ### Citation
 ```
