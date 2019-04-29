@@ -16,7 +16,7 @@ Reference for python code - Iterative Imputer in https://github.com/iskandr/fanc
 
 ### - Architecture and Working of the Algorithm: 
 
-![Architecture](https://github.com/karishma-chadha/ditk/blob/develop/data_cleaning/imputation/midas/readme-images/midas_arch.png)
+![Architecture](https://github.com/karishma-chadha/ditk/blob/develop/data_cleaning/imputation/mice/readme-images/mice_arch.PNG)
 
 Mice technique makes use of three functions - mice(), with() and pool().
 1) mice() produces sets of imputed values(m). Here, m=3.
@@ -68,11 +68,13 @@ Step 6: Steps 2 through 4 are repeated for a number of cycles, with the imputati
 
  - Evaluation results
  
-![Evaluation Results](https://github.com/karishma-chadha/ditk/blob/develop/data_cleaning/imputation/midas/readme-images/midas_eval_results.PNG) 
+![Evaluation Results](https://github.com/karishma-chadha/ditk/blob/develop/data_cleaning/imputation/mice/readme-images/mice_eval_results.PNG) 
 
 ## Demo
 - Link to the Jupyter Notebook : 
 
+
 https://github.com/karishma-chadha/ditk/blob/develop/data_cleaning/imputation/mice/demo/mice_jupyter_notebook.ipynb
+
 
 - Link to the video on Youtube
