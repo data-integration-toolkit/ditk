@@ -274,7 +274,7 @@ class Lmlstmcrf(Ner):
                         'c_map': c_map,
                         'in_doc_words': in_doc_words
                     }
-                    self.save_model(hp.checkpoint_dir + 'cwlm_lstm_crf_' + hp.start_epoch)
+                    self.save_model(hp.checkpoint_dir + 'cwlm_lstm_crf')
                 except Exception as inst:
                     print(inst)
 
@@ -304,7 +304,7 @@ class Lmlstmcrf(Ner):
             'in_doc_words': in_doc_words
         }
 
-        self.save_model(hp.checkpoint_dir + 'cwlm_lstm_crf_' + hp.start_epoch)
+        self.save_model(hp.checkpoint_dir + 'cwlm_lstm_crf_' + str(hp.start_epoch))
         return self.track_list
 
     def predict(self, data, *args, **kwargs):  # <--- implemented PER class WITH requirement on OUTPUT format!

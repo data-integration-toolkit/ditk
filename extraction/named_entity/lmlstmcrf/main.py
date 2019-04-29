@@ -8,9 +8,9 @@ if ditk_path not in sys.path:
 data_dir = os.path.join(ditk_path, 'extraction/named_entity/lmlstmcrf')
     
 emb_file = data_dir + "/embedding/glove.6B.100d.embedding"
-train_file = data_dir + "/data/ner/out.train"
-dev_file = data_dir + "/data/ner/out.testa"
-test_file = data_dir + "/data/ner/out.testb"
+train_file = data_dir + "/data/ontonotes/out.train"
+dev_file = data_dir + "/data/ontonotes/out.testa"
+test_file = data_dir + "/data/ontonotes/out.testb"
 
 from extraction.named_entity.lmlstmcrf.hparams import hparams as hp
 from extraction.named_entity.lmlstmcrf.lmlstmcrf import Lmlstmcrf
