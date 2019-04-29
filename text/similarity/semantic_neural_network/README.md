@@ -80,3 +80,4 @@ This section describes in two steps the architecture of the neural network used 
 https://colab.research.google.com/drive/1KHh6lo0PQZeja3eigCRJ9CFNuhCFz_dY
 
 ## YouTube links
+https://www.youtube.com/watch?v=b1h8ATy7i5o&feature=youtu.be
