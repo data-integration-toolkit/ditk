@@ -40,5 +40,5 @@ def main(input_file_path):
 
 
 if __name__ == "__main__":
-    main("NERdata/test.txt")
+    main("data/semeval2010/testfile.txt")
 
