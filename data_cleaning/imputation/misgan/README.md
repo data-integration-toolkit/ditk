@@ -6,8 +6,8 @@ MisGAN is compatible with all three datasets
 Learning from Incomplete Data with Generative Adversarial Networks
 
 ### Full citation
-Li, S. C. X., Jiang, B., & Marlin, B. (2018). Learning from Incomplete Data with Generative Adversarial Networks. ICLR 2019 https://arxiv.org/abs/1902.09599
-https://github.com/steveli/misgan
+Li, S. C. X., Jiang, B., & Marlin, B. (2018). [Learning from Incomplete Data with Generative Adversarial Networks. ICLR 2019](https://arxiv.org/abs/1902.09599) <br/>
+[Github Link](https://github.com/steveli/misgan) <br/>
 
 ### Input/Output format for prediction
 Input:
@@ -28,8 +28,8 @@ blocks of data segments in the hope to be able to regenerate complete missing da
 data. 
 
 ### A figure describing the model
-![alt text](https://raw.githubusercontent.com/uyuyuyjk/ditk/develop/data_cleaning/imputation/img/misgan.png)
-![alt text](https://raw.githubusercontent.com/uyuyuyjk/ditk/develop/data_cleaning/imputation/img/misgan-impute.png)
+<p align="center"><img width="100%" src="img/misgan.png" /></p>
+<p align="center"><img width="100%" src="img/misgan-impute.png" /></p>
 
 ### Benchmark datasets
 1. UCI Letter Recognition
