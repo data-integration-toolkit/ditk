@@ -3,7 +3,8 @@
 ### Refactored by Wing Wa Leung (wingwale@usc.edu)
 
 ## Title of the paper
-A Three-Way Model for Collective Learning on Multi-Relational Data
+[A Three-Way Model for Collective Learning on Multi-Relational Data](http://www.icml-2011.org/papers/438_icmlpaper.pdf
+)
 
 ## Full citation
 Maximilian Nickel, Volker Tresp and Hans-Peter-Kriegel. A Three-Way Model for Collective Learning on Multi-Relational Data. Proceedings of the 28th International Conference on Machine Learning, Bellevue, USA, 2011.
