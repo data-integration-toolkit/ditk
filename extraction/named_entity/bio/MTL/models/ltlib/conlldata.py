@@ -100,8 +100,8 @@ def write(dataset, flo=None):
         flo.write('{} O O\n\n'.format(DOCUMENT_SEPARATOR))
         for sentence in document.sentences:
             for t in sentence.tokens:
-                flo.write('{} {} {}\n'.format(t.text, t.target_str,
-                                              t.prediction_str))
+                flo.write('{} {} {}\n'.format(t.text.encode('utf-8'), t.target_str.encode('utf-8'),
+                                              t.prediction_str.encode('utf-8')))
             flo.write('\n')
 
 def write_probabilities(dataset, flo=None):

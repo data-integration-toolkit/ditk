@@ -1,6 +1,7 @@
 import os
 import sys
 import logging
+import codecs
 
 from datetime import datetime
 from errno import EEXIST
@@ -87,13 +88,13 @@ def predfile(name=None, dirname=PREDDIR, suffix='tsv'):
 def save_token_predictions(name, dataset, model, writer, vmapper=None):
     # TODO including "token" in the function spec is a bit inelegant.
     viterbi_str = '' if not vmapper else 'viterbi'
-    data_path = "./prediction/"+name+"tsv"
+    data_path = "./prediction/"+name+".tsv"
     if len(dataset.tokens) > 0:
         if vmapper:
             dataset.sentences.map_predictions(vmapper)
         else:
             dataset.tokens.set_predictions(model.predict(dataset.tokens.inputs))
-    with open(data_path, 'w') as out:
+    with codecs.open(data_path, 'w', 'utf8') as out:
         writer(dataset, out)
         
 def save_token_predictions_multi_output(dataset, writer, predictions=None, vmapper=None):

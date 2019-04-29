@@ -8,7 +8,7 @@ class Defaults(object):
     optimizer = 'adam'
     learning_rate = 1e-4
     epochs = 20
-    iobes = True    # Map tags to IOBES on input
+    iobes = False    # Map tags to IOBES on input
     max_tokens = None    # Max dataset size in tokens
     encoding = 'utf-8'    # Data encoding
     output_drop_prob = 0.75    # Dropout probablility prior to output
