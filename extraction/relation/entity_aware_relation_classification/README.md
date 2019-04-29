@@ -89,7 +89,7 @@ my_model.evaluate(None, predictions)
 * F1 = 32.18
 
 ### jupyter file
-* lstm_relation_extraction_with_semeval2010_and_glove300.ipynb
+* lstm_relation_extraction.ipynb
 
 ### Demo video
 *  [video](https://youtu.be/1gjygkaM984)<br>
