@@ -54,4 +54,4 @@ For both training and testing data:
 
 ## [Link to Jupyter notebook](rescal_notebook.ipynb)
 
-## [Link to Youtube video]()
+## [Link to Youtube video](https://youtu.be/94lWBuzM0XA)
