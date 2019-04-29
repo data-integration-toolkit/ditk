@@ -417,6 +417,7 @@ class neuroner(Ner):
         will convert to proper format for evaluate().
         Args:
             data: data in proper [arbitrary] format for train or test. [i.e. format of output from read_dataset]
+            args: type of dataset for which to extract ground truth (values: train, dev, test)
         Returns:
             ground_truth: [tuple,...], i.e. list of tuples. [SAME format as output of predict()]
                 Each tuple is (start index, span, mention text, mention type)
@@ -448,7 +449,7 @@ class neuroner(Ner):
         dataset_type = 'test'
 
         if len(args)==1:
-            dataset_type = args[0]
+            dataset_type = 'valid' if args[0] == 'dev' else args[0]
 
         for i in range(len(modeldata.token_indices[dataset_type])):
             true_labels.extend(modeldata.labels[dataset_type][i])
@@ -735,6 +736,7 @@ class neuroner(Ner):
             data: iterable of arbitrary format. represents the data instances and features you use to make predictions
                 Note that prediction requires trained model. Precondition that class instance already stores trained model
                 information.
+
         Returns:
             predictions: [tuple,...], i.e. list of tuples.
                 Each tuple is (start index, span, mention text, mention type)
@@ -758,7 +760,8 @@ class neuroner(Ner):
             if len(args)==0:
                 return self.predict_dataset(data)
             else:
-                return self.predict_dataset(data, args[0])
+                dataset_type = 'valid' if args[0] == 'dev' else args[0]
+                return self.predict_dataset(data, dataset_type)
 
     #@overrides(DITKModel_NER)
     def evaluate(self, predictions, groundTruths, *args, **kwargs):

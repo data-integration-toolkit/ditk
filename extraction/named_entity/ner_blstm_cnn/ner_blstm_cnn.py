@@ -297,6 +297,7 @@ class ner_blstm_cnn(Ner):
         will convert to proper format for evaluate().
         Args:
             data: data in proper [arbitrary] format for train or test. [i.e. format of output from read_dataset]
+            args: type of dataset for which to extract ground truth (values: train, dev, test)
         Returns:
             ground_truth: [tuple,...], i.e. list of tuples. [SAME format as output of predict()]
                 Each tuple is (start index, span, mention text, mention type)
@@ -316,7 +317,12 @@ class ner_blstm_cnn(Ner):
         labels = []
         span = []
 
-        for lines in data['test']:
+        dataset_type = 'test'
+
+        if len(args) != 0:
+            dataset_type = args[0]
+
+        for lines in data[dataset_type]:
             if len(lines)>0 and lines[0]!='-DOCSTART-' and lines[0]!='WORD':
                 tokens.append(lines[0])
                 labels.append(lines[3])
@@ -438,7 +444,10 @@ class ner_blstm_cnn(Ner):
         """
         Predicts on the given input data. Assumes model has been trained with train()
         Args:
-            data:
+            data:iterable of arbitrary format. represents the data instances and features you use to make predictions
+                Note that prediction requires trained model. Precondition that class instance already stores trained model
+                information.
+            args: type of dataset on which to make predictions (values: train, dev, test)
         Returns:
             predictions: [tuple,...], i.e. list of tuples.
                 Each tuple is (mention text, true type, mention type)
@@ -457,7 +466,10 @@ class ner_blstm_cnn(Ner):
         if isinstance(data, str):
             return self.predict_text(data)
         else:
-            return self.predict_dataset(copy.deepcopy(data['test']))
+            if len(args)==0:
+                return self.predict_dataset(copy.deepcopy(data['test']))
+            else:
+                return self.predict_dataset(copy.deepcopy(data[args[0]]))
 
     #@NER.overrides
     def evaluate(self, predictions, groundTruths, *args, **kwargs):
