@@ -10,8 +10,6 @@ from sqlnet.model.sqlnet import SQLNet
 import datetime
 import argparse
 
-from misc.sqlnet import SQLNet
-
 
 class TestSQLNetMethods(unittest.TestCase):
     def loadargs(self):
@@ -44,7 +42,6 @@ class TestSQLNetMethods(unittest.TestCase):
 
     def setUp(self):
         self.loadargs()
-
         self.method = "sqlnet"
         self.input_file = "testsample/sqlnet_test_input.csv"
         self.output_file = "testsample/sqlnet_test_output.csv"
