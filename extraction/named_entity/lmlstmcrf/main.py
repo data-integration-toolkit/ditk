@@ -36,9 +36,9 @@ data = model.read_dataset({
     "dev": dev_file,
 })
 
-model.load_model(hp.checkpoint)
+# model.load_model(hp.checkpoint)
 
-# model.train(data)
+model.train(data)
 
 predictions = model.predict(data)
 
