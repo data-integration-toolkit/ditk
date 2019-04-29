@@ -10,17 +10,17 @@ Li, S. C. X., Jiang, B., & Marlin, B. (2018). [Learning from Incomplete Data wit
 [Github Link](https://github.com/steveli/misgan) <br/>
 
 ### Input/Output format for prediction
-Input:
--Incomplete data table in csv
-Output:
--Complete data table in csv
+Input:<br/>
+-Incomplete data table in csv<br/>
+Output:<br/>
+-Complete data table in csv<br/>
 
 ### Input/Output format for training
-Input:
--Incomplete data table in csv
--Complete data table with missing rate in csv
-Output:
--Complete data table in csv
+Input:<br/>
+-Incomplete data table in csv<br/>
+-Complete data table with missing rate in csv<br/>
+Output:<br/>
+-Complete data table in csv<br/>
 
 ### A paragraph describing the overall task, the method and model
 The method uses three generator and three discriminator to train a generative adverserial network (GAN) throught
