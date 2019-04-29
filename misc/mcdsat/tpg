@@ -1,0 +1,97 @@
+#!/usr/bin/env python
+
+""" Toy Parser Generator - A Python parser generator
+
+
+Toy Parser Generator: A Python parser generator
+Copyright (C) 2002 Christophe Delord
+ 
+This library is free software; you can redistribute it and/or
+modify it under the terms of the GNU Lesser General Public
+License as published by the Free Software Foundation; either
+version 2.1 of the License, or (at your option) any later version.
+
+This library is distributed in the hope that it will be useful,
+but WITHOUT ANY WARRANTY; without even the implied warranty of
+MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the GNU
+Lesser General Public License for more details.
+
+You should have received a copy of the GNU Lesser General Public
+License along with this library; if not, write to the Free Software
+Foundation, Inc., 59 Temple Place, Suite 330, Boston, MA  02111-1307  USA
+
+For further information about TPG you can visit
+http://christophe.delord.free.fr/en/tpg
+"""
+
+import re
+import sys
+import tpg
+
+class ArgError(Exception): pass
+
+def getargs(args):
+    def check(cond):
+        if not cond: raise ArgError
+    i, o, v = None, None, 0
+    while args:
+        arg = args.pop(0)
+        if arg == '-o':
+            check(o is None and args)
+            o = args.pop(0)
+            check(o.endswith('.py'))
+        elif re.match('-v+$', arg):
+            v += len(arg)-1
+        else:
+            check(i is None and arg.endswith('.pyg'))
+            i = arg
+    check(i is not None)
+    if o is None: o = i[:-4] + '.py'
+    return i, o, v
+
+print "TPG v%s (c) %s"%(tpg.__version__, tpg.__author__)
+try: (grammar_file, output_file, v) = getargs(sys.argv[1:])
+except ArgError: print >>sys.stderr, "Syntax: %s [-v|-vv] grammar_file.pyg [-o output_file.py]"%sys.argv[0]
+else:
+    try:
+
+        print "TPG: translating %s to %s"%(grammar_file,output_file)
+        f = file(grammar_file, 'r')
+        source = f.read()
+        f.close()
+
+        TPG = tpg.TPGParser()
+
+        parser_re = re.compile(r"""
+            [ \t]* class [ \t]+ (?P<class_name>\w+) (?P<base_name> \( .* \b tpg\.Parser \b .* \) ) \s* : \s* \n
+            (?P<indent>     [ \t]*
+            )
+            (?P<grammar>    r"{3} (?: "{0,2} [^"]+ )* "{3}
+            |               r'{3} (?: '{0,2} [^']+ )* '{3}
+            )
+            """, re.VERBOSE)
+
+        for class_name, base_name, indent, grammar in parser_re.findall(source):
+            code = []
+            if v >= 1: print "Parser %s"%class_name
+            for attribute, attribute_source, attribute_code in TPG(grammar[4:-3]):
+                if v>=2:
+                    if attribute_code.__doc__ is not None:
+                        print "    %s"%(attribute_code.__doc__.strip())
+                indented_code = "".join([indent+line+"\n" for line in attribute_source.splitlines()])
+                code.append(indented_code)
+            code = "__grammar__ = %s\n\n%s"%(grammar, "\n".join(code))
+            source = source.replace(grammar, code)
+        
+        g = file(output_file, 'w')
+        g.write(source)
+        g.close()
+        
+        print "Translation OK"
+        sys.exit(0)
+        
+    except IOError, e:
+        print >>sys.stderr, "IOError: %s"%e
+    except tpg.Error, e:
+        print >>sys.stderr, e
+sys.exit(1)
