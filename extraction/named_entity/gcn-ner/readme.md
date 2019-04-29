@@ -11,9 +11,7 @@ Github URL of the original code: https://github.com/ContextScout/gcn_ner
 - Measure the impact of using dependency trees for entity classification.
 - The paper combines LSTMs, GCN for the NER task and provides the dependency tree and POS tags as input to improve the tagging task.
 - The model used is shown in the image below:
-
 ![architecture](resources/architecture.png)
-
 
 ## Input and Output
 - Prediction
