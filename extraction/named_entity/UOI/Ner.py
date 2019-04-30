@@ -6,8 +6,8 @@ import keras
 import numpy
 from keras_wc_embd import get_batch_input, get_dicts_generator, get_embedding_weights_from_file
 
+from extraction.named_entity.UOI.model import build_model
 from extraction.named_entity.ner import Ner
-from extraction.named_entity.yiran.paper2.model import build_model
 
 
 class UOI(Ner):
@@ -63,8 +63,12 @@ class UOI(Ner):
         :raise: if the data contains a token having no tag
         """
         result = []
-        for word in data:
-            result.append(self.tag_map[word])
+        with open(data, 'r') as f:
+            for line in f.readlines():
+                line = line.strip()
+                if line:
+                    parts = line.split()
+                    result.append(parts[-1])
         return result
 
     def read_dataset(self, input_files, embedding, *args, **kwargs):
@@ -104,10 +108,18 @@ class UOI(Ner):
                         taggings.append([])
                     continue
                 parts = line.split()
-                if parts[0] != '-DOCSTART-':
+                if parts[0] != '-DOCSTART-' and parts[0] != 'WORD':
                     self.tag_map[parts[0]] = parts[-1]
                     sentences[-1].append(parts[0])
-                    taggings[-1].append(self.TAGS[parts[-1]])
+                    if len(parts) > 4:
+                        tag = parts[3]
+                    else:
+                        tag = parts[-1]
+                    if tag in self.TAGS:
+                        tag = self.TAGS[tag]
+                    else:
+                        tag = 0
+                    taggings[-1].append(tag)
         if not sentences[-1]:
             sentences.pop()
             taggings.pop()

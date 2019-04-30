@@ -11,14 +11,14 @@ from os import listdir
 import numpy as np
 import tensorflow as tf
 
-import extraction.named_entity.yiran.paper1.src.eval_f1 as evaluation
-import extraction.named_entity.yiran.paper1.src.tf_utils as tf_utils
+import extraction.named_entity.DilatedCNN.src.eval_f1 as evaluation
+import extraction.named_entity.DilatedCNN.src.tf_utils as tf_utils
 from extraction.named_entity.ner import Ner
-from extraction.named_entity.yiran.paper1.src.bilstm import BiLSTM as BiLSTM
-from extraction.named_entity.yiran.paper1.src.bilstm_char import BiLSTMChar as BiLSTMChar
-from extraction.named_entity.yiran.paper1.src.cnn import CNN as CNN
-from extraction.named_entity.yiran.paper1.src.cnn_char import CNNChar as CNNChar
-from extraction.named_entity.yiran.paper1.src.data_utils import Batcher as Batcher, SeqBatcher as SeqBatcher
+from extraction.named_entity.DilatedCNN.src.bilstm import BiLSTM as BiLSTM
+from extraction.named_entity.DilatedCNN.src.bilstm_char import BiLSTMChar as BiLSTMChar
+from extraction.named_entity.DilatedCNN.src.cnn import CNN as CNN
+from extraction.named_entity.DilatedCNN.src.cnn_char import CNNChar as CNNChar
+from extraction.named_entity.DilatedCNN.src.data_utils import Batcher as Batcher, SeqBatcher as SeqBatcher
 
 
 class DilatedCNN(Ner):
@@ -44,7 +44,14 @@ class DilatedCNN(Ner):
         :param kwargs: 
         :return: a list of tags 
         """
-        return list(map(lambda x: self.tag_map[x], data))
+        result = []
+        with open(data, 'r') as f:
+            for line in f.readlines():
+                line = line.strip()
+                if line:
+                    parts = line.split()
+                    result.append(parts[-1])
+        return result
 
     def read_dataset(self, input_files=None, embedding='./data/embeddings/glove.6B.100d.txt', *args, **kwargs):
         """
@@ -638,10 +645,10 @@ class DilatedCNN(Ner):
         tf.app.flags.DEFINE_integer('char_tok_dim', 0, 'character token embedding dimension')
         tf.app.flags.DEFINE_string('char_model', 'lstm', 'character embedding model (lstm, cnn)')
 
-        tf.app.flags.DEFINE_integer('max_finetune_epochs', 100, 'train for this many epochs')
-        tf.app.flags.DEFINE_integer('max_context_epochs', 100, 'train for this many epochs')
+        tf.app.flags.DEFINE_integer('max_finetune_epochs', 2, 'train for this many epochs')
+        tf.app.flags.DEFINE_integer('max_context_epochs', 2, 'train for this many epochs')
 
-        tf.app.flags.DEFINE_integer('max_epochs', 100, 'train for this many epochs')
+        tf.app.flags.DEFINE_integer('max_epochs', 2, 'train for this many epochs')
         #     tf.app.flags.DEFINE_integer('num_filters', 300, '')
         tf.app.flags.DEFINE_integer('log_every', 2, 'log status every k steps')
         tf.app.flags.DEFINE_string('embeddings', self.embedding, 'file of pretrained embeddings to use')
@@ -720,10 +727,10 @@ class DilatedCNN(Ner):
         tf.app.flags.DEFINE_integer('char_tok_dim', 0, 'character token embedding dimension')
         tf.app.flags.DEFINE_string('char_model', 'lstm', 'character embedding model (lstm, cnn)')
 
-        tf.app.flags.DEFINE_integer('max_finetune_epochs', 100, 'train for this many epochs')
-        tf.app.flags.DEFINE_integer('max_context_epochs', 100, 'train for this many epochs')
+        tf.app.flags.DEFINE_integer('max_finetune_epochs', 2, 'train for this many epochs')
+        tf.app.flags.DEFINE_integer('max_context_epochs', 2, 'train for this many epochs')
 
-        tf.app.flags.DEFINE_integer('max_epochs', 100, 'train for this many epochs')
+        tf.app.flags.DEFINE_integer('max_epochs', 2, 'train for this many epochs')
         #     tf.app.flags.DEFINE_integer('num_filters', 300, '')
         tf.app.flags.DEFINE_integer('log_every', 2, 'log status every k steps')
         tf.app.flags.DEFINE_string('embeddings', self.embedding, 'file of pretrained embeddings to use')

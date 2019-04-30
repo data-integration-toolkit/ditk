@@ -2,7 +2,7 @@ from __future__ import division, print_function
 
 import tensorflow as tf
 
-import extraction.named_entity.yiran.paper1.src.tf_utils as tf_utils
+import extraction.named_entity.DilatedCNN.src.tf_utils as tf_utils
 
 
 class BiLSTM(object):

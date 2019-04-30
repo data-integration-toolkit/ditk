@@ -8,13 +8,13 @@ import sys
 import tensorflow as tf
 import time
 
-import extraction.named_entity.yiran.paper1.src.eval_f1 as evaluation
-import extraction.named_entity.yiran.paper1.src.tf_utils as tf_utils
-from extraction.named_entity.yiran.paper1.src.bilstm import BiLSTM as BiLSTM
-from extraction.named_entity.yiran.paper1.src.bilstm_char import BiLSTMChar as BiLSTMChar
-from extraction.named_entity.yiran.paper1.src.cnn import CNN as CNN
-from extraction.named_entity.yiran.paper1.src.cnn_char import CNNChar as CNNChar
-from extraction.named_entity.yiran.paper1.src.data_utils import Batcher as Batcher, SeqBatcher as SeqBatcher
+import extraction.named_entity.DilatedCNN.src.eval_f1 as evaluation
+import extraction.named_entity.DilatedCNN.src.tf_utils as tf_utils
+from extraction.named_entity.DilatedCNN.src.bilstm import BiLSTM as BiLSTM
+from extraction.named_entity.DilatedCNN.src.bilstm_char import BiLSTMChar as BiLSTMChar
+from extraction.named_entity.DilatedCNN.src.cnn import CNN as CNN
+from extraction.named_entity.DilatedCNN.src.cnn_char import CNNChar as CNNChar
+from extraction.named_entity.DilatedCNN.src.data_utils import Batcher as Batcher, SeqBatcher as SeqBatcher
 
 FLAGS = tf.app.flags.FLAGS
 

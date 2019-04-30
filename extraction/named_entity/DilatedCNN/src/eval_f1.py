@@ -164,7 +164,6 @@ def print_conlleval_format(out_filename, eval_batches, predictions, labels_id_st
                                 labels_converted.append(label)
 
                         for pred_conv, label_conv, token in zip(preds_converted, labels_converted, list(tokens_nopad)):
-                            #                             print("%s %s %s " % (token, label,  pred_conv))
-                            print("%s" % (pred_conv), file=conll_preds_file)
+                            print("%s %s %s " % (token, label_conv,  pred_conv), file=conll_preds_file)
                         print("", file=conll_preds_file)
                         sentence_count += 1

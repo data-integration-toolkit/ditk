@@ -1,7 +1,7 @@
 import logging
 import unittest
 
-from extraction.named_entity.yiran.paper2 import Ner
+from extraction.named_entity.UOI import Ner
 
 
 class Test2(unittest.TestCase):
@@ -19,9 +19,9 @@ class Test2(unittest.TestCase):
 
     def read_dataset(self):
         logging.info("begin test read dataset")
-        train_sen, train_tag, val_sen, val_tag = self.uoi.read_dataset(input_files=['/Users/liyiran/ditk/extraction/named_entity/yiran/CoNNL2003eng/train.txt',
-                                                                                    '/Users/liyiran/ditk/extraction/named_entity/yiran/CoNNL2003eng/valid.txt'],
-                                                                       embedding='/Users/liyiran/ditk/extraction/named_entity/yiran/embedding/glove.6B.100d.txt')
+        train_sen, train_tag, val_sen, val_tag = self.uoi.read_dataset(input_files=['/Users/liyiran/ditk/extraction/named_entity/UOI/CoNNL2003eng/train.txt',
+                                                                                    '/Users/liyiran/ditk/extraction/named_entity/UOI/CoNNL2003eng/valid.txt'],
+                                                                       embedding='/Users/liyiran/ditk/extraction/named_entity/UOI/embedding/glove.6B.100d.txt')
         logging.info('length of train sentences: ' + str(len(train_sen)))
         logging.info('length of train tag: ' + str(len(train_tag)))
         logging.info('length of validating sentences: ' + str(len(val_sen)))
@@ -35,7 +35,7 @@ class Test2(unittest.TestCase):
 
     def predict(self):
         logging.info('test predict')
-        predicts = self.uoi.predict('/Users/liyiran/csci548sp19projectner_my/paper2/CoNNL2003eng/test.txt')
+        predicts = self.uoi.predict('/Users/liyiran/ditk/extraction/named_entity/UOI/CoNNL2003eng/test.txt')
         logging.info(predicts)
         logging.info("finish predict")
 
@@ -49,8 +49,8 @@ class Test2(unittest.TestCase):
         # British JJ B-NP B-MISC
         # lamb NN I-NP O
         # . . O O
-        result = self.uoi.convert_ground_truth(data=['EU', 'rejects', 'German', 'call'])
-        self.assertEqual(['B-ORG', 'O', 'B-MISC', 'O'], result)
+        result = self.uoi.convert_ground_truth('/Users/liyiran/ditk/extraction/named_entity/UOI/CoNNL2003eng/test.txt')
+        logging.info(result[0:5])
         logging.info("test convert to ground truth")
 
     def evaluation(self):
