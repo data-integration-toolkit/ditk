@@ -64,7 +64,7 @@ This will load a pre-trained model to get the text embeddings for a word or a se
 It can also train a new model on any of the aforementioned datasets and evaluate them accordingly.
 Follow the main.py file carefully to train and evaluate on various datasets
 
-DATASETS 
+Datasets
 ---------
 For training :
 1) Google Analogy Dataset
@@ -85,13 +85,13 @@ For training :
    
    Download from - https://github.com/brmson/dataset-sts/tree/master/data/sts/semeval-sts/2017
 
-RESULTS
+Results
 -------
 Table showing the Evaluation metrics for Benchmarks used along with the results
 
 ![conec_evaluation](https://user-images.githubusercontent.com/10741993/56942708-e937c980-6ad0-11e9-941a-e9af35007b43.JPG)
 
-GRAPHS
+Graphs
 ------
 Graphs plotting Accuracies anf F1 scores for Google Analogy Dataset and CoNLL 2003 NER Task, respectively
 
