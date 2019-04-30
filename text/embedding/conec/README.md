@@ -9,7 +9,7 @@ Association for Computational Liguistics 2017, Pages 10-14
 Installation
 ------------
 
-pip install -r requirements.txt
+`pip install -r requirements.txt`
 
 This will install all the prerequisite packages	for conec to run successfully
 
@@ -56,6 +56,13 @@ The code implements the following procedure -
 - Renormalize the result, so that the resulting embeddings have unit length again
 
 Download the conec folder from this repository and import the conec class into your script
+
+Usage
+-----
+`python3 main.py`
+This will load a pre-trained model to get the text embeddings for a word or a sentence or a paragraph.
+It can also train a new model on any of the aforementioned datasets and evaluate them accordingly.
+Follow the main.py file carefully to train and evaluate on various datasets
 
 DATASETS 
 ---------
