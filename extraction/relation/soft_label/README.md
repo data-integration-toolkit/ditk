@@ -4,10 +4,10 @@ Extraction**, 2017. ([link](https://aclweb.org/anthology/D17-1189))
 
 
 ## Citation
-```
+
 Liu, T., Wang, K., Chang, B. and Sui, Z. : A Soft-label Method for Noise-tolerant Distantly Supervised Relation. EMNLP
 2017.
-```
+
 
 ## Original Implementation Repository ([Repo](https://github.com/tyliupku/soft-label-RE))
 
@@ -64,7 +64,9 @@ sentence e1 e2 predicted_relation grandtruth_relation
 | DDI + One       |  | | |
 | DDI + One       |  | | |
 
+
 ## Folder Structure
+
 ### Tree
 ```
 .
@@ -103,10 +105,13 @@ sentence e1 e2 predicted_relation grandtruth_relation
 | recipt.py       | Line 1: path to the code directory  Line 2:Implemented class name   |
 | requirements.py       | Required python library(Not Accurate!)   |
 
+
 ## User Guide
+
 ### Requirements
 * python 3
 * tensorflow >= 1.3
+
 
 ### Acquire Data
 Because of the size of dataset, the project provides script to download all required dataset/embedding.
@@ -115,6 +120,7 @@ Go to Data folder and run the script
 cd data
 bash getData.sh
 ```
+
 
 ### Running Program
 Because this is a package method, no command line invocation provided without build & import ditk package.
@@ -128,11 +134,13 @@ if __name__ == "__main__":
 ```
 You may also find the provide Youtube Video and Jupyter notebook below useful.
 
+
 ### Youtube Video Guide
 
 ### Jupyter notebook
 
 ### Run unit test
 ```
+cd tests
 python test.py
 ```
