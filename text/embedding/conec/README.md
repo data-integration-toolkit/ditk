@@ -67,21 +67,21 @@ Follow the main.py file carefully to train and evaluate on various datasets
 Datasets
 ---------
 For training :
-1) Google Analogy Dataset
+1) Google Analogy Dataset (Save in /data)
    
    Download from - https://github.com/nicholas-leonard/word2vec/blob/master/questions-words.txt
-2) One Billion Words Corpus
+2) One Billion Words Corpus (Save in /data)
    
    Download from - https://code.google.com/archive/p/1-billion-word-language-modeling-benchmark/
-3) CoNLL 2003, NER Task
+3) CoNLL 2003, NER Task (Save in data/conll2003)
    
    Download from - https://github.com/Franck-Dernoncourt/NeuroNER/tree/master/neuroner/data/conll2003/en
    
    CoNLL evaluation script - https://www.clips.uantwerpen.be/conll2003/ner/
-4) SICK 2014
+4) SICK 2014  (Save in data/sick)
    
    Download from - https://github.com/brmson/dataset-sts/tree/master/data/sts/sick2014	 	
-5) SemEval 2017 
+5) SemEval 2017 (Save in data/semeval)
    
    Download from - https://github.com/brmson/dataset-sts/tree/master/data/sts/semeval-sts/2017
 
