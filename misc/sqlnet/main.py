@@ -16,7 +16,7 @@ class SQLQuery(DITKModel):
         train.train(self.args)
 
     def extract_embedding(self, *args, **kwargs):
-        super(SQLQuery, self).read_dataset(*args, **kwargs)
+        super(SQLQuery, self).extract_embedding(*args, **kwargs)
         extract_vocab.extract_vocab()
 
     def test(self, *args, **kwargs):

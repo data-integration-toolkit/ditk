@@ -8,26 +8,7 @@ import datetime
 
 import argparse
 
-if __name__ == '__main__':
-    parser = argparse.ArgumentParser()
-    parser.add_argument('--toy', action='store_true', 
-            help='If set, use small data; used for fast debugging.')
-    parser.add_argument('--suffix', type=str, default='',
-            help='The suffix at the end of saved model name.')
-    parser.add_argument('--ca', action='store_true',
-            help='Use conditional attention.')
-    parser.add_argument('--dataset', type=int, default=0,
-            help='0: original dataset, 1: re-split dataset')
-    parser.add_argument('--rl', action='store_true',
-            help='Use RL for Seq2SQL(requires pretrained model).')
-    parser.add_argument('--maxepoch', type=int, default=100, 
-            help='Max Epoch for model training.')
-    parser.add_argument('--baseline', action='store_true', 
-            help='If set, then train Seq2SQL model; default is SQLNet model.')
-    parser.add_argument('--train_emb', action='store_true',
-            help='Train word embedding for SQLNet(requires pretrained model).')
-    args = parser.parse_args()
-
+def train(args):
     N_word=300
     B_word=42
     if args.toy:
