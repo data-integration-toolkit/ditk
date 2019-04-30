@@ -36,6 +36,13 @@ target vector.
     - HITS@10
 - #### Evaluation Results
 
+| Type of entity prediction | Dataset | Mean rank (raw) | Mean rank (filtered) | HITS@10(%) (raw) | HITS@10(%) (filtered)|
+|---------------------------|---------|-----------------|----------------------|------------------|----------------------|
+| Head prediction | FB15k | 535.6 | 475.9 | 31.8 | 37.4 |
+| Tail prediction | FB15k | 398.6 | 360.4 | 39.4 | 45.0 |
+| Head prediction | YAGO | 535.6 | 475.9 | 31.8 | 37.4 |
+| Tail prediction | YAGO | 398.6 | 360.4 | 39.4 | 45.0 |
+
 ## Demo
 - Link to the Jupyter Notebook 
 - Link to the video on Youtube
