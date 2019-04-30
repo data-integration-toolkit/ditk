@@ -28,9 +28,10 @@ https://github.com/text-machine-lab/CliNER
 ### Evaluation Results
 
 |#|i2b2 2010|CoNLL 2003|OntoNotes 5.0|CHEMDNER|
-|Precision|83.48%|90.92%|.|80.78%
-|Recall|75.81%|76.27%|.|44.93%
-|F1 Score|79.46%|82.96%|.|57.74%
+|---|---|---|---|---|
+|Precision|83.48%|90.92%|.|80.78%|
+|Recall|75.81%|76.27%|.|44.93%|
+|F1 Score|79.46%|82.96%|.|57.74%|
 
 ## Demo
 - Link to the Jupyter Notebook 
