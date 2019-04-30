@@ -45,5 +45,5 @@ Github URL of the original code: https://github.com/ContextScout/gcn_ner
     - F1 score: 84.22
 
 ## Demo
-- [Jupyter notebook](#https://github.com/trishav96/ditk/blob/develop/extraction/named_entity/gcn-ner/gcn_ner_demo.ipynb)
-- [Demo video](#https://youtu.be/QhjhnRRCuAE)
+- [Jupyter notebook](https://github.com/trishav96/ditk/blob/develop/extraction/named_entity/gcn-ner/gcn_ner_demo.ipynb)
+- [Demo video](https://youtu.be/QhjhnRRCuAE)
