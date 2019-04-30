@@ -295,6 +295,9 @@ class ProjE(GraphEmbedding):
             return head_ids, tail_ids
 
     def learn_embeddings(self, data = './FB15k/', argDict = {}):
+        '''
+        Wrapper class for training.
+        '''
         self.train_hrt_input, self.train_hrt_weight, self.train_trh_input, self.train_trh_weight, \
         self.train_loss, self.train_op, self.ent_embeddings, self.rel_embeddings = self.train_ops(argDict, learning_rate=argDict['lr'],
                                      optimizer_str=argDict['optimizer'],
@@ -302,6 +305,9 @@ class ProjE(GraphEmbedding):
         return self.train_hrt_input, self.train_hrt_weight, self.train_trh_input, self.train_trh_weight, self.train_loss, self.train_op, self.ent_embeddings, self.rel_embeddings
 
     def load_model(self, load_dir):
+        '''
+        Loads an existing tensorflow checkpoint.
+        '''
         print("loaded", load_dir)
         with tf.Session() as self.session1:
             tf.global_variables_initializer().run()
@@ -314,11 +320,17 @@ class ProjE(GraphEmbedding):
                     return load_dir
 
     def save_model(self, args, n_iter, session):
+        '''
+        Saves a tensorflow checkpoint.
+        '''
         saver = tf.train.Saver()
         save_path = saver.save(session, os.path.join(args['save_dir'], "ProjE_" + str(args['prefix']) + "_" + str(n_iter) + ".ckpt"))
         return save_path
 
     def evaluate(self, data = './FB15k/', args = {}, load_dir = ""):
+        '''
+        Evaluates the embeddings produced by performing head and tail predictions.
+        '''
         with tf.Session() as session:
             tf.global_variables_initializer().run()
 
@@ -652,15 +664,16 @@ class ProjE(GraphEmbedding):
                                         p.terminate()
 
     def read_dataset(self, dataPath):
+        '''
+        Reads the data from file paths for entity IDs, relations IDs, train, valid and test triples.
+        '''
         tf.reset_default_graph()
         if 'yago' in dataPath.lower():
-#             print("it's yago")
             args = {'batch': 200, 'combination_method': 'simple', 'data_dir': dataPath, 'dim': self.__embed_dim, 'drop_out': 0.5,
                     'eval_batch': 500, 'eval_per': 1, 'load_model': '', 'loss_weight': 1e-05, 'lr': 0.01,
                     'max_iter': 2, 'n_generator': 10, 'n_worker': 3, 'neg_weight': 0.5, 'optimizer': 'adam',
                     'prefix': 'DEFAULT', 'save_dir': './trainFiles/', 'save_per': 1, 'summary_dir': './ProjE_summary/', 'datasetFlag': 1}
         else:
-#             print("it's fb")
             args = {'batch': 200, 'combination_method': 'simple', 'data_dir': dataPath, 'dim': self.__embed_dim, 'drop_out': 0.5,
                     'eval_batch': 500, 'eval_per': 1, 'load_model': '', 'loss_weight': 1e-05, 'lr': 0.01,
                     'max_iter': 3, 'n_generator': 10, 'n_worker': 3, 'neg_weight': 0.5, 'optimizer': 'adam',
@@ -671,11 +684,9 @@ class ProjE(GraphEmbedding):
             self.__n_entity = len(f.readlines())
         with open(os.path.join(data_dir, 'entity2id.txt'), 'r', encoding='utf-8') as f:
             if args['datasetFlag'] == 0:
-#                 print("fb reading entities map")
                 self.__entity_id_map = {x.strip().split('\t')[0]: int(x.strip().split('\t')[1]) for x in f.readlines()}
                 self.__id_entity_map = {v: k for k, v in self.__entity_id_map.items()}
             else:
-#                 print("yago reading entities map")
                 self.__entity_id_map = {x.strip().split('\t')[0]: x.strip().split('\t')[1] for x in f.readlines()}
                 self.__id_entity_map = {v: k for k, v in self.__entity_id_map.items()}
 
@@ -686,11 +697,9 @@ class ProjE(GraphEmbedding):
 
         with open(os.path.join(data_dir, 'relation2id.txt'), 'r', encoding='utf-8') as f:
             if args['datasetFlag'] == 0:
-#                 print("fb reading rel map")
                 self.__relation_id_map = {x.strip().split('\t')[0]: int(x.strip().split('\t')[1]) for x in f.readlines()}
                 self.__id_relation_map = {v: k for k, v in self.__entity_id_map.items()}
             else:
-#                 print("yago reading rel map")
                 self.__relation_id_map = {x.strip().split('\t')[0]: x.strip().split('\t')[1] for x in f.readlines()}
                 self.__id_relation_map = {v: k for k, v in self.__entity_id_map.items()}
 
@@ -699,13 +708,11 @@ class ProjE(GraphEmbedding):
         def load_triple(file_path):
             with open(file_path, 'r', encoding='utf-8') as f_triple:
                 if args['datasetFlag'] == 0:
-#                     print("fb reading ", file_path)
                     return np.asarray([[self.__entity_id_map[x.strip().split('\t')[0]],
                                         self.__entity_id_map[x.strip().split('\t')[1]],
                                         self.__relation_id_map[x.strip().split('\t')[2]]] for x in f_triple.readlines()],
                                       dtype=np.int32)
                 else:
-#                    print("yago reading ", file_path)
                     return np.asarray([[x.strip().split('\t')[0],
                                    x.strip().split('\t')[1],
                                    x.strip().split('\t')[2]] for x in f_triple.readlines()],
@@ -734,21 +741,18 @@ class ProjE(GraphEmbedding):
 
         self.__train_triple = load_triple(os.path.join(data_dir, 'train.txt'))
         if args['datasetFlag'] == 1:
-#             print("yago swap train")
             b = self.__train_triple[:, [0, 2, 1]]
             self.__train_triple = b
         print("N_TRAIN_TRIPLES: %d" % self.__train_triple.shape[0])
 
         self.__test_triple = load_triple(os.path.join(data_dir, 'test.txt'))
         if args['datasetFlag'] == 1:
-#             print("yago swap test")
             b = self.__test_triple[:, [0, 2, 1]]
             self.__test_triple = b
         print("N_TEST_TRIPLES: %d" % self.__test_triple.shape[0])
 
         self.__valid_triple = load_triple(os.path.join(data_dir, 'valid.txt'))
         if args['datasetFlag'] == 1:
-#             print("yago swap valid")
             b = self.__valid_triple[:, [0, 2, 1]]
             self.__valid_triple = b
         print("N_VALID_TRIPLES: %d" % self.__valid_triple.shape[0])
@@ -770,9 +774,6 @@ class ProjE(GraphEmbedding):
                                                                                              maxval=bound,
                                                                                              seed=345))
             self.__trainable.append(self.__ent_embedding)
-#             sess = tf.Session()
-#             sess.run(tf.global_variables_initializer())
-#             print("READ", sess.run(self.__ent_embedding))
 
             self.__rel_embedding = tf.get_variable("rel_embedding", [self.__n_relation, embed_dim],
                                                    initializer=tf.random_uniform_initializer(minval=-bound,
