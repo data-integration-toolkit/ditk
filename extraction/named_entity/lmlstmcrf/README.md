@@ -6,6 +6,10 @@ Liyuan Liu, Jingbo Shang, Frank Xu, Xiang Ren, Huan Gui, Jian Peng, and Jiawei H
 
 GitHub repo: https://github.com/LiyuanLucasLiu/LM-LSTM-CRF
 
+### Requirements
+Python 3.6+
+Pytorch 1.0.1+
+
 ### Instructions
 To run main function for read_dataset-predict-evaluation:
 ```
