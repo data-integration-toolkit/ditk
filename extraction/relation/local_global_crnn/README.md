@@ -1,39 +1,40 @@
-## Code for EMNLP2017 paper "A Soft-label Method for Noise-tolerant Distantly Supervised Relation Extraction"
-Tianyu Liu, Kexiang Wang, Baobao Chang and Zhifang Sui, **A Soft-label Method for Noise-tolerant Distantly Supervised Relation
-Extraction**,EMNLP 2017. ([link](https://aclweb.org/anthology/D17-1189))
+## Code for CoNLL2017 paper "Learning local and global contexts using a convolutional recurrent network model for relation classification in biomedical text"
+Desh Raj and Sunil Kumar Sahu and Ashish Anand, **Learning local and global contexts using a convolutional recurrent
+network model for relation classification in biomedical text**,CoNLL 2017. ([link](https://www.aclweb.org/anthology/K17-1032))
 
 
 ## Citation
 
-Liu, T., Wang, K., Chang, B. and Sui, Z. : A Soft-label Method for Noise-tolerant Distantly Supervised Relation. EMNLP
-2017.
+Raj, D., Sahu, S. and Anand, A: Learning local and global contexts using a convolutional recurrent network model for
+relation classification in biomedical text. CoNLL 2017.
 
 
-## Original Implementation Repository ([Repo](https://github.com/tyliupku/soft-label-RE))
+## Original Implementation Repository ([Repo1](https://github.com/kwonmha/Convolutional-Recurrent-Neural-Networks-for-Relation-Extraction)) ([Repo2](https://github.com/desh2608/crnn-relation-classification))
 
 
 ## Overall Task
+<p align="center">
+	<img width="700" height="400" src="https://user-images.githubusercontent.com/8953934/39967385-05995058-56f5-11e8-8080-73d8098cab6b.JPG">
+</p>
+### Embedding
+Pretrained word vectors are used as inputs for most of such model. These embeddings capture the semantic similarity between words in a global context better than one-hot representations.
+In this implementaion, we use **/GoogleNews-vectors-negative300.bin**, please refer to guidance on how to download in Data Acquisition Section.
 
-### soft-label-RE
-This project provides the implementation of distantly supervised relation extraction with (bag-level) soft-label adjustment.
+### RCNN
+* Stands for combination of Recurrent Neural Network and Convolution Neural Network
+* RNNs utilize the word order in the sentence, and are also able to learn the long-term dependencies
+* CNNs are capable of learning local features such as short phrases or recurring n-grams, similar to the way they provide translational, rotational and scale invariance in vision
 
-### Distantly Supervised Relation Extraction
+### Proposed Method
+The architecture of this model is:
+*  Embedding layer
+*  Recurrent layer
+*  First pooling layer
+*  Convolution layer
+*  Second pooling layer
+*  Max pooling over time / Attention-based pooling
+*  Fully connected and softmax
 
-Distant supervision automatically generates training examples by aligning entity mentions in plain text with those in KB and labeling entity pairs with their relations in KB. If there's no relation link between certain entity pair in KB, it will be labeled as negative instance (NA).
-
-### Multi-instance Learning
-The automatic labeling by KB inevitably accompanies with wrong labels because the relations of entity pairs might be missing from KBs or mislabeled.
-Multi-instances learning (MIL) is proposed to combat the noise. The method divides the training set into multiple bags of entity pairs (shown in the figure above) and labels the bags with the relations of entity pairs in the KB (**bag-level DS label**).
-Each bag consists of sentences mentioning both head and tail entities.
-
-Much effort has been made in reducing the influence of noisy sentences within the bag,
-including methods based on at-least-one assumption and attention mechanisms over instances.
-
-###  Bag-level Mislabeling
-As shown in the figure above, due to the absence of (*Jan Eliasson*, *Sweden*)(*Jan Eliasson* is a Swedish diplomat.) from the *Nationality* relation in the KB,the entity pair is mislabeled as NA.
-
-Actually, no matter how we design the weight calculation of the sentences (in that bag) for bag representation, the bag would be a noisy instance during training.
-So we try to solve the problem from a different point of view. Since the bag-level DS label can be mislabeled, we design a soft-label adjustment on the bag-level DS label to correct the ill-labeled cases.
 
 ## Input/Output Format(shared within group)
 * The input format is generalized for the whole Relation group
@@ -57,12 +58,12 @@ sentence e1 e2 predicted_relation grandtruth_relation
 ## Performance
 |     Metric / Dataset+Method          |      Precision      | Recall | F1|
 |:--------------------:|:---------------------:|:---------------------:|:---------------------:|
-| NYT + ATT       |  | | |
-| NYT + One       |  | | |
-| SemEval2010 + One       |  | | |
-| SemEval2010 + One       |  | | |
-| DDI + One       |  | | |
-| DDI + One       |  | | |
+| NYT + Max       |  | | |
+| NYT + Att       |  | | |
+| SemEval2010 + Max       |  | | |
+| SemEval2010 + Att       |  | | |
+| DDI + Max       |  | | |
+| DDI + Att       |  | | |
 
 
 ## Folder Structure
@@ -116,9 +117,9 @@ sentence e1 e2 predicted_relation grandtruth_relation
 
 ### Acquire Data
 Because of the size of dataset, the project provides script to download all required dataset/embedding.
-Go to Data folder and run the script
+Go to Data folder and run the script(Note that Downloading Google News Embedding could take a long time )
 ```
-cd data
+cd Data
 bash getData.sh
 ```
 
@@ -137,7 +138,6 @@ You may also find the provide Youtube Video and Jupyter notebook below useful.
 
 
 ### Youtube Video Guide
-[[Youtube Video](https://youtu.be/Noj5v2ihZBA)]
 
 ### Run unit test
 ```
