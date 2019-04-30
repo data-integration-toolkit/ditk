@@ -1,6 +1,5 @@
 import abc
 
-
 class Ner(abc.ABC):
 
     @abc.abstractmethod
@@ -111,7 +110,7 @@ class Ner(abc.ABC):
 
         # return (precision, recall, f1)
 
-
+        	
     @abc.abstractmethod
     def save_model(self, file):
         """
@@ -119,7 +118,15 @@ class Ner(abc.ABC):
         :return:
         """
         pass
-    
+
+    @abc.abstractmethod
+    def load_model(self, file):
+        """
+        :param file: From where to load the model - Optional function
+        :return:
+        """
+        pass
+        
 
     @abc.abstractmethod
     def load_model(self, file):
