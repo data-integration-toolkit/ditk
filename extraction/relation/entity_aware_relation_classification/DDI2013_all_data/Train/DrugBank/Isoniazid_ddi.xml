@@ -1,0 +1,218 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="DDI-DrugBank.d187">
+    <sentence id="DDI-DrugBank.d187.s0" text="Food: Isoniazid should not be administered with food.">
+        <entity id="DDI-DrugBank.d187.s0.e0" charOffset="6-14"
+            type="drug" text="Isoniazid"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d187.s1" text="Studies have shown that the bioavailability of isoniazid is reduced significantly when administered with food.">
+        <entity id="DDI-DrugBank.d187.s1.e0" charOffset="47-55"
+            type="drug" text="isoniazid"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d187.s2" text="Acetaminophen: A report of severe acetaminophen toxicity was reported in a patient receiving Isoniazid.">
+        <entity id="DDI-DrugBank.d187.s2.e0" charOffset="0-12"
+            type="drug" text="Acetaminophen"/>
+        <entity id="DDI-DrugBank.d187.s2.e1" charOffset="34-46"
+            type="drug" text="acetaminophen"/>
+        <entity id="DDI-DrugBank.d187.s2.e2" charOffset="93-101"
+            type="drug" text="Isoniazid"/>
+        <pair id="DDI-DrugBank.d187.s2.p0" e1="DDI-DrugBank.d187.s2.e0"
+            e2="DDI-DrugBank.d187.s2.e1" ddi="false"/>
+        <pair id="DDI-DrugBank.d187.s2.p1" e1="DDI-DrugBank.d187.s2.e0"
+            e2="DDI-DrugBank.d187.s2.e2" ddi="false"/>
+        <pair id="DDI-DrugBank.d187.s2.p2" e1="DDI-DrugBank.d187.s2.e1"
+            e2="DDI-DrugBank.d187.s2.e2" ddi="true" type="effect"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d187.s3" text="It is believed that the toxicity may have resulted from a previously unrecognized interaction between isoniazid and acetaminophen and a molecular basis for this interaction has been proposed.">
+        <entity id="DDI-DrugBank.d187.s3.e0" charOffset="102-110"
+            type="drug" text="isoniazid"/>
+        <entity id="DDI-DrugBank.d187.s3.e1" charOffset="116-128"
+            type="drug" text="acetaminophen"/>
+        <pair id="DDI-DrugBank.d187.s3.p0" e1="DDI-DrugBank.d187.s3.e0"
+            e2="DDI-DrugBank.d187.s3.e1" ddi="true" type="effect"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d187.s4" text="However, current evidence suggests that isoniazid does induce P-450IIE1, a mixed-function oxidase enzyme that appears to generate the toxic metabolites, in the liver.">
+        <entity id="DDI-DrugBank.d187.s4.e0" charOffset="40-48"
+            type="drug" text="isoniazid"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d187.s5" text="Furthermore it has been proposed that isoniazid resulted In induction of P-450IIE1 in the patients liver which, in turn, resulted in a greater proportion of the ingested acetaminophen being converted to the toxic metabolites.">
+        <entity id="DDI-DrugBank.d187.s5.e0" charOffset="38-46"
+            type="drug" text="isoniazid"/>
+        <entity id="DDI-DrugBank.d187.s5.e1" charOffset="170-182"
+            type="drug" text="acetaminophen"/>
+        <pair id="DDI-DrugBank.d187.s5.p0" e1="DDI-DrugBank.d187.s5.e0"
+            e2="DDI-DrugBank.d187.s5.e1" ddi="true" type="mechanism"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d187.s6" text="Studies have demonstrated that pretreatment with isoniazid potentiates a cetaminophen hepatoxicity in rats.">
+        <entity id="DDI-DrugBank.d187.s6.e0" charOffset="49-57"
+            type="drug" text="isoniazid"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d187.s7" text="Carbamazepine: Isoniazid is known to slow the metabolism of carbamazepine and increase its serum levels Carbamazepine levels should be determined prior to concurrent administration with isoniazid, signs and symptoms of carbamazepine toxicity should be monitored closely, and appropriate dosage adjustment of the anticonvulsant should be made.">
+        <entity id="DDI-DrugBank.d187.s7.e0" charOffset="0-12"
+            type="drug" text="Carbamazepine"/>
+        <entity id="DDI-DrugBank.d187.s7.e1" charOffset="15-23"
+            type="drug" text="Isoniazid"/>
+        <entity id="DDI-DrugBank.d187.s7.e2" charOffset="60-72"
+            type="drug" text="carbamazepine"/>
+        <entity id="DDI-DrugBank.d187.s7.e3" charOffset="104-116"
+            type="drug" text="Carbamazepine"/>
+        <entity id="DDI-DrugBank.d187.s7.e4" charOffset="186-194"
+            type="drug" text="isoniazid"/>
+        <entity id="DDI-DrugBank.d187.s7.e5" charOffset="219-231"
+            type="drug" text="carbamazepine"/>
+        <entity id="DDI-DrugBank.d187.s7.e6" charOffset="312-325"
+            type="group" text="anticonvulsant"/>
+        <pair id="DDI-DrugBank.d187.s7.p0" e1="DDI-DrugBank.d187.s7.e0"
+            e2="DDI-DrugBank.d187.s7.e1" ddi="false"/>
+        <pair id="DDI-DrugBank.d187.s7.p1" e1="DDI-DrugBank.d187.s7.e0"
+            e2="DDI-DrugBank.d187.s7.e2" ddi="false"/>
+        <pair id="DDI-DrugBank.d187.s7.p2" e1="DDI-DrugBank.d187.s7.e0"
+            e2="DDI-DrugBank.d187.s7.e3" ddi="false"/>
+        <pair id="DDI-DrugBank.d187.s7.p3" e1="DDI-DrugBank.d187.s7.e0"
+            e2="DDI-DrugBank.d187.s7.e4" ddi="false"/>
+        <pair id="DDI-DrugBank.d187.s7.p4" e1="DDI-DrugBank.d187.s7.e0"
+            e2="DDI-DrugBank.d187.s7.e5" ddi="false"/>
+        <pair id="DDI-DrugBank.d187.s7.p5" e1="DDI-DrugBank.d187.s7.e0"
+            e2="DDI-DrugBank.d187.s7.e6" ddi="false"/>
+        <pair id="DDI-DrugBank.d187.s7.p6" e1="DDI-DrugBank.d187.s7.e1"
+            e2="DDI-DrugBank.d187.s7.e2" ddi="true" type="mechanism"/>
+        <pair id="DDI-DrugBank.d187.s7.p7" e1="DDI-DrugBank.d187.s7.e1"
+            e2="DDI-DrugBank.d187.s7.e3" ddi="false"/>
+        <pair id="DDI-DrugBank.d187.s7.p8" e1="DDI-DrugBank.d187.s7.e1"
+            e2="DDI-DrugBank.d187.s7.e4" ddi="false"/>
+        <pair id="DDI-DrugBank.d187.s7.p9" e1="DDI-DrugBank.d187.s7.e1"
+            e2="DDI-DrugBank.d187.s7.e5" ddi="false"/>
+        <pair id="DDI-DrugBank.d187.s7.p10" e1="DDI-DrugBank.d187.s7.e1"
+            e2="DDI-DrugBank.d187.s7.e6" ddi="false"/>
+        <pair id="DDI-DrugBank.d187.s7.p11" e1="DDI-DrugBank.d187.s7.e2"
+            e2="DDI-DrugBank.d187.s7.e3" ddi="false"/>
+        <pair id="DDI-DrugBank.d187.s7.p12" e1="DDI-DrugBank.d187.s7.e2"
+            e2="DDI-DrugBank.d187.s7.e4" ddi="false"/>
+        <pair id="DDI-DrugBank.d187.s7.p13" e1="DDI-DrugBank.d187.s7.e2"
+            e2="DDI-DrugBank.d187.s7.e5" ddi="false"/>
+        <pair id="DDI-DrugBank.d187.s7.p14" e1="DDI-DrugBank.d187.s7.e2"
+            e2="DDI-DrugBank.d187.s7.e6" ddi="false"/>
+        <pair id="DDI-DrugBank.d187.s7.p15" e1="DDI-DrugBank.d187.s7.e3"
+            e2="DDI-DrugBank.d187.s7.e4" ddi="true" type="advise"/>
+        <pair id="DDI-DrugBank.d187.s7.p16" e1="DDI-DrugBank.d187.s7.e3"
+            e2="DDI-DrugBank.d187.s7.e5" ddi="false"/>
+        <pair id="DDI-DrugBank.d187.s7.p17" e1="DDI-DrugBank.d187.s7.e3"
+            e2="DDI-DrugBank.d187.s7.e6" ddi="false"/>
+        <pair id="DDI-DrugBank.d187.s7.p18" e1="DDI-DrugBank.d187.s7.e4"
+            e2="DDI-DrugBank.d187.s7.e5" ddi="false"/>
+        <pair id="DDI-DrugBank.d187.s7.p19" e1="DDI-DrugBank.d187.s7.e4"
+            e2="DDI-DrugBank.d187.s7.e6" ddi="false"/>
+        <pair id="DDI-DrugBank.d187.s7.p20" e1="DDI-DrugBank.d187.s7.e5"
+            e2="DDI-DrugBank.d187.s7.e6" ddi="false"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d187.s8" text="Ketoconazole: Potential interaction of Ketoconazole and Isoniazid may exist.">
+        <entity id="DDI-DrugBank.d187.s8.e0" charOffset="0-11"
+            type="drug" text="Ketoconazole"/>
+        <entity id="DDI-DrugBank.d187.s8.e1" charOffset="39-50"
+            type="drug" text="Ketoconazole"/>
+        <entity id="DDI-DrugBank.d187.s8.e2" charOffset="56-64"
+            type="drug" text="Isoniazid"/>
+        <pair id="DDI-DrugBank.d187.s8.p0" e1="DDI-DrugBank.d187.s8.e0"
+            e2="DDI-DrugBank.d187.s8.e1" ddi="false"/>
+        <pair id="DDI-DrugBank.d187.s8.p1" e1="DDI-DrugBank.d187.s8.e0"
+            e2="DDI-DrugBank.d187.s8.e2" ddi="false"/>
+        <pair id="DDI-DrugBank.d187.s8.p2" e1="DDI-DrugBank.d187.s8.e1"
+            e2="DDI-DrugBank.d187.s8.e2" ddi="true" type="int"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d187.s9" text="Phenytoin: Isoniazid may increase serum levels of phenytoin.">
+        <entity id="DDI-DrugBank.d187.s9.e0" charOffset="0-8"
+            type="drug" text="Phenytoin"/>
+        <entity id="DDI-DrugBank.d187.s9.e1" charOffset="11-19"
+            type="drug" text="Isoniazid"/>
+        <entity id="DDI-DrugBank.d187.s9.e2" charOffset="50-58"
+            type="drug" text="phenytoin"/>
+        <pair id="DDI-DrugBank.d187.s9.p0" e1="DDI-DrugBank.d187.s9.e0"
+            e2="DDI-DrugBank.d187.s9.e1" ddi="false"/>
+        <pair id="DDI-DrugBank.d187.s9.p1" e1="DDI-DrugBank.d187.s9.e0"
+            e2="DDI-DrugBank.d187.s9.e2" ddi="false"/>
+        <pair id="DDI-DrugBank.d187.s9.p2" e1="DDI-DrugBank.d187.s9.e1"
+            e2="DDI-DrugBank.d187.s9.e2" ddi="true" type="mechanism"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d187.s10" text="To avoid phenytoin intoxication, appropriate adjustment of the anticonvulsant should be made.">
+        <entity id="DDI-DrugBank.d187.s10.e0" charOffset="9-17"
+            type="drug" text="phenytoin"/>
+        <entity id="DDI-DrugBank.d187.s10.e1" charOffset="63-76"
+            type="group" text="anticonvulsant"/>
+        <pair id="DDI-DrugBank.d187.s10.p0"
+            e1="DDI-DrugBank.d187.s10.e0" e2="DDI-DrugBank.d187.s10.e1" ddi="false"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d187.s11" text="Therophylline: A recent study has shown that concomitan administration of isoniazid and theophylline may cause elevated plasma levels of theophylline, and in some instances a slight decrease in the elimination of isoniazid.">
+        <entity id="DDI-DrugBank.d187.s11.e0" charOffset="74-82"
+            type="drug" text="isoniazid"/>
+        <entity id="DDI-DrugBank.d187.s11.e1" charOffset="88-99"
+            type="drug" text="theophylline"/>
+        <entity id="DDI-DrugBank.d187.s11.e2" charOffset="137-148"
+            type="drug" text="theophylline"/>
+        <entity id="DDI-DrugBank.d187.s11.e3" charOffset="213-221"
+            type="drug" text="isoniazid"/>
+        <pair id="DDI-DrugBank.d187.s11.p0"
+            e1="DDI-DrugBank.d187.s11.e0" e2="DDI-DrugBank.d187.s11.e1"
+            ddi="true" type="mechanism"/>
+        <pair id="DDI-DrugBank.d187.s11.p1"
+            e1="DDI-DrugBank.d187.s11.e0" e2="DDI-DrugBank.d187.s11.e2" ddi="false"/>
+        <pair id="DDI-DrugBank.d187.s11.p2"
+            e1="DDI-DrugBank.d187.s11.e0" e2="DDI-DrugBank.d187.s11.e3" ddi="false"/>
+        <pair id="DDI-DrugBank.d187.s11.p3"
+            e1="DDI-DrugBank.d187.s11.e1" e2="DDI-DrugBank.d187.s11.e2" ddi="false"/>
+        <pair id="DDI-DrugBank.d187.s11.p4"
+            e1="DDI-DrugBank.d187.s11.e1" e2="DDI-DrugBank.d187.s11.e3" ddi="false"/>
+        <pair id="DDI-DrugBank.d187.s11.p5"
+            e1="DDI-DrugBank.d187.s11.e2" e2="DDI-DrugBank.d187.s11.e3" ddi="false"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d187.s12" text="Since the therapeutic range of theophylline is narrow theophylline serum levels should be monitored closely, and appropriate dosage adjustments of theophylline should be made.">
+        <entity id="DDI-DrugBank.d187.s12.e0" charOffset="31-42"
+            type="drug" text="theophylline"/>
+        <entity id="DDI-DrugBank.d187.s12.e1" charOffset="54-65"
+            type="drug" text="theophylline"/>
+        <entity id="DDI-DrugBank.d187.s12.e2" charOffset="147-158"
+            type="drug" text="theophylline"/>
+        <pair id="DDI-DrugBank.d187.s12.p0"
+            e1="DDI-DrugBank.d187.s12.e0" e2="DDI-DrugBank.d187.s12.e1" ddi="false"/>
+        <pair id="DDI-DrugBank.d187.s12.p1"
+            e1="DDI-DrugBank.d187.s12.e0" e2="DDI-DrugBank.d187.s12.e2" ddi="false"/>
+        <pair id="DDI-DrugBank.d187.s12.p2"
+            e1="DDI-DrugBank.d187.s12.e1" e2="DDI-DrugBank.d187.s12.e2" ddi="false"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d187.s13" text="Valproate: A recent case study has shown a possible increase in the plasma level of valproate when co administered with isoniazid.">
+        <entity id="DDI-DrugBank.d187.s13.e0" charOffset="0-8"
+            type="drug" text="Valproate"/>
+        <entity id="DDI-DrugBank.d187.s13.e1" charOffset="84-92"
+            type="drug" text="valproate"/>
+        <entity id="DDI-DrugBank.d187.s13.e2" charOffset="120-128"
+            type="drug" text="isoniazid"/>
+        <pair id="DDI-DrugBank.d187.s13.p0"
+            e1="DDI-DrugBank.d187.s13.e0" e2="DDI-DrugBank.d187.s13.e1" ddi="false"/>
+        <pair id="DDI-DrugBank.d187.s13.p1"
+            e1="DDI-DrugBank.d187.s13.e0" e2="DDI-DrugBank.d187.s13.e2" ddi="false"/>
+        <pair id="DDI-DrugBank.d187.s13.p2"
+            e1="DDI-DrugBank.d187.s13.e1" e2="DDI-DrugBank.d187.s13.e2"
+            ddi="true" type="mechanism"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d187.s14" text="Plasma valproate concentration should be monitored when isoniazid and valproate are co administered, and appropriate dosage adjustments of valproate should be made.">
+        <entity id="DDI-DrugBank.d187.s14.e0" charOffset="7-15"
+            type="drug" text="valproate"/>
+        <entity id="DDI-DrugBank.d187.s14.e1" charOffset="56-64"
+            type="drug" text="isoniazid"/>
+        <entity id="DDI-DrugBank.d187.s14.e2" charOffset="70-78"
+            type="drug" text="valproate"/>
+        <entity id="DDI-DrugBank.d187.s14.e3" charOffset="139-147"
+            type="drug" text="valproate"/>
+        <pair id="DDI-DrugBank.d187.s14.p0"
+            e1="DDI-DrugBank.d187.s14.e0" e2="DDI-DrugBank.d187.s14.e1" ddi="false"/>
+        <pair id="DDI-DrugBank.d187.s14.p1"
+            e1="DDI-DrugBank.d187.s14.e0" e2="DDI-DrugBank.d187.s14.e2" ddi="false"/>
+        <pair id="DDI-DrugBank.d187.s14.p2"
+            e1="DDI-DrugBank.d187.s14.e0" e2="DDI-DrugBank.d187.s14.e3" ddi="false"/>
+        <pair id="DDI-DrugBank.d187.s14.p3"
+            e1="DDI-DrugBank.d187.s14.e1" e2="DDI-DrugBank.d187.s14.e2"
+            ddi="true" type="advise"/>
+        <pair id="DDI-DrugBank.d187.s14.p4"
+            e1="DDI-DrugBank.d187.s14.e1" e2="DDI-DrugBank.d187.s14.e3" ddi="false"/>
+        <pair id="DDI-DrugBank.d187.s14.p5"
+            e1="DDI-DrugBank.d187.s14.e2" e2="DDI-DrugBank.d187.s14.e3" ddi="false"/>
+    </sentence>
+</document>

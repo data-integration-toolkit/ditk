@@ -1,0 +1,779 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="DDI-DrugBank.d776">
+    <sentence id="DDI-DrugBank.d776.s0" text="Clinically or potentially significant drug interactions between DIFLUCAN and the following agents/classes have been observed. ">
+        <entity id="DDI-DrugBank.d776.s0.e0" charOffset="64-71"
+            type="brand" text="DIFLUCAN"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d776.s1" text="These are described in greater detail below: DIFLUCAN and the following agents/classes have been observed. ">
+        <entity id="DDI-DrugBank.d776.s1.e0" charOffset="45-52"
+            type="brand" text="DIFLUCAN"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d776.s2" text="These are described in greater detail below:  Oral hypoglycemics, Coumarin-type anticoagulants, Phenytoin, Cyclosporine, Rifampin, Theophylline, Terfenadine, Cisapride, Astemizole, Rifabutin, Tacrolimus, Short-acting benzodiazepines,  Oral hypoglycemics: Clinically significant hypoglycemia may be precipitated by the use of DIFLUCAN with oral hypoglycemic agents; ">
+        <entity id="DDI-DrugBank.d776.s2.e0" charOffset="51-63"
+            type="group" text="hypoglycemics"/>
+        <entity id="DDI-DrugBank.d776.s2.e1" charOffset="66-93"
+            type="group" text="Coumarin-type anticoagulants"/>
+        <entity id="DDI-DrugBank.d776.s2.e2" charOffset="96-104"
+            type="drug" text="Phenytoin"/>
+        <entity id="DDI-DrugBank.d776.s2.e3" charOffset="107-118"
+            type="drug" text="Cyclosporine"/>
+        <entity id="DDI-DrugBank.d776.s2.e4" charOffset="121-128"
+            type="drug" text="Rifampin"/>
+        <entity id="DDI-DrugBank.d776.s2.e5" charOffset="131-142"
+            type="drug" text="Theophylline"/>
+        <entity id="DDI-DrugBank.d776.s2.e6" charOffset="145-155"
+            type="drug" text="Terfenadine"/>
+        <entity id="DDI-DrugBank.d776.s2.e7" charOffset="158-166"
+            type="drug" text="Cisapride"/>
+        <entity id="DDI-DrugBank.d776.s2.e8" charOffset="169-178"
+            type="drug" text="Astemizole"/>
+        <entity id="DDI-DrugBank.d776.s2.e9" charOffset="181-189"
+            type="drug" text="Rifabutin"/>
+        <entity id="DDI-DrugBank.d776.s2.e10" charOffset="192-201"
+            type="drug" text="Tacrolimus"/>
+        <entity id="DDI-DrugBank.d776.s2.e11" charOffset="204-231"
+            type="group" text="Short-acting benzodiazepines"/>
+        <entity id="DDI-DrugBank.d776.s2.e12" charOffset="240-252"
+            type="group" text="hypoglycemics"/>
+        <entity id="DDI-DrugBank.d776.s2.e13" charOffset="325-332"
+            type="brand" text="DIFLUCAN"/>
+        <entity id="DDI-DrugBank.d776.s2.e14" charOffset="344-362"
+            type="group" text="hypoglycemic agents"/>
+        <pair id="DDI-DrugBank.d776.s2.p0" e1="DDI-DrugBank.d776.s2.e0"
+            e2="DDI-DrugBank.d776.s2.e1" ddi="false"/>
+        <pair id="DDI-DrugBank.d776.s2.p1" e1="DDI-DrugBank.d776.s2.e0"
+            e2="DDI-DrugBank.d776.s2.e2" ddi="false"/>
+        <pair id="DDI-DrugBank.d776.s2.p2" e1="DDI-DrugBank.d776.s2.e0"
+            e2="DDI-DrugBank.d776.s2.e3" ddi="false"/>
+        <pair id="DDI-DrugBank.d776.s2.p3" e1="DDI-DrugBank.d776.s2.e0"
+            e2="DDI-DrugBank.d776.s2.e4" ddi="false"/>
+        <pair id="DDI-DrugBank.d776.s2.p4" e1="DDI-DrugBank.d776.s2.e0"
+            e2="DDI-DrugBank.d776.s2.e5" ddi="false"/>
+        <pair id="DDI-DrugBank.d776.s2.p5" e1="DDI-DrugBank.d776.s2.e0"
+            e2="DDI-DrugBank.d776.s2.e6" ddi="false"/>
+        <pair id="DDI-DrugBank.d776.s2.p6" e1="DDI-DrugBank.d776.s2.e0"
+            e2="DDI-DrugBank.d776.s2.e7" ddi="false"/>
+        <pair id="DDI-DrugBank.d776.s2.p7" e1="DDI-DrugBank.d776.s2.e0"
+            e2="DDI-DrugBank.d776.s2.e8" ddi="false"/>
+        <pair id="DDI-DrugBank.d776.s2.p8" e1="DDI-DrugBank.d776.s2.e0"
+            e2="DDI-DrugBank.d776.s2.e9" ddi="false"/>
+        <pair id="DDI-DrugBank.d776.s2.p9" e1="DDI-DrugBank.d776.s2.e0"
+            e2="DDI-DrugBank.d776.s2.e10" ddi="false"/>
+        <pair id="DDI-DrugBank.d776.s2.p10" e1="DDI-DrugBank.d776.s2.e0"
+            e2="DDI-DrugBank.d776.s2.e11" ddi="false"/>
+        <pair id="DDI-DrugBank.d776.s2.p11" e1="DDI-DrugBank.d776.s2.e0"
+            e2="DDI-DrugBank.d776.s2.e12" ddi="false"/>
+        <pair id="DDI-DrugBank.d776.s2.p12" e1="DDI-DrugBank.d776.s2.e0"
+            e2="DDI-DrugBank.d776.s2.e13" ddi="false"/>
+        <pair id="DDI-DrugBank.d776.s2.p13" e1="DDI-DrugBank.d776.s2.e0"
+            e2="DDI-DrugBank.d776.s2.e14" ddi="false"/>
+        <pair id="DDI-DrugBank.d776.s2.p14" e1="DDI-DrugBank.d776.s2.e1"
+            e2="DDI-DrugBank.d776.s2.e2" ddi="false"/>
+        <pair id="DDI-DrugBank.d776.s2.p15" e1="DDI-DrugBank.d776.s2.e1"
+            e2="DDI-DrugBank.d776.s2.e3" ddi="false"/>
+        <pair id="DDI-DrugBank.d776.s2.p16" e1="DDI-DrugBank.d776.s2.e1"
+            e2="DDI-DrugBank.d776.s2.e4" ddi="false"/>
+        <pair id="DDI-DrugBank.d776.s2.p17" e1="DDI-DrugBank.d776.s2.e1"
+            e2="DDI-DrugBank.d776.s2.e5" ddi="false"/>
+        <pair id="DDI-DrugBank.d776.s2.p18" e1="DDI-DrugBank.d776.s2.e1"
+            e2="DDI-DrugBank.d776.s2.e6" ddi="false"/>
+        <pair id="DDI-DrugBank.d776.s2.p19" e1="DDI-DrugBank.d776.s2.e1"
+            e2="DDI-DrugBank.d776.s2.e7" ddi="false"/>
+        <pair id="DDI-DrugBank.d776.s2.p20" e1="DDI-DrugBank.d776.s2.e1"
+            e2="DDI-DrugBank.d776.s2.e8" ddi="false"/>
+        <pair id="DDI-DrugBank.d776.s2.p21" e1="DDI-DrugBank.d776.s2.e1"
+            e2="DDI-DrugBank.d776.s2.e9" ddi="false"/>
+        <pair id="DDI-DrugBank.d776.s2.p22" e1="DDI-DrugBank.d776.s2.e1"
+            e2="DDI-DrugBank.d776.s2.e10" ddi="false"/>
+        <pair id="DDI-DrugBank.d776.s2.p23" e1="DDI-DrugBank.d776.s2.e1"
+            e2="DDI-DrugBank.d776.s2.e11" ddi="false"/>
+        <pair id="DDI-DrugBank.d776.s2.p24" e1="DDI-DrugBank.d776.s2.e1"
+            e2="DDI-DrugBank.d776.s2.e12" ddi="false"/>
+        <pair id="DDI-DrugBank.d776.s2.p25" e1="DDI-DrugBank.d776.s2.e1"
+            e2="DDI-DrugBank.d776.s2.e13" ddi="false"/>
+        <pair id="DDI-DrugBank.d776.s2.p26" e1="DDI-DrugBank.d776.s2.e1"
+            e2="DDI-DrugBank.d776.s2.e14" ddi="false"/>
+        <pair id="DDI-DrugBank.d776.s2.p27" e1="DDI-DrugBank.d776.s2.e2"
+            e2="DDI-DrugBank.d776.s2.e3" ddi="false"/>
+        <pair id="DDI-DrugBank.d776.s2.p28" e1="DDI-DrugBank.d776.s2.e2"
+            e2="DDI-DrugBank.d776.s2.e4" ddi="false"/>
+        <pair id="DDI-DrugBank.d776.s2.p29" e1="DDI-DrugBank.d776.s2.e2"
+            e2="DDI-DrugBank.d776.s2.e5" ddi="false"/>
+        <pair id="DDI-DrugBank.d776.s2.p30" e1="DDI-DrugBank.d776.s2.e2"
+            e2="DDI-DrugBank.d776.s2.e6" ddi="false"/>
+        <pair id="DDI-DrugBank.d776.s2.p31" e1="DDI-DrugBank.d776.s2.e2"
+            e2="DDI-DrugBank.d776.s2.e7" ddi="false"/>
+        <pair id="DDI-DrugBank.d776.s2.p32" e1="DDI-DrugBank.d776.s2.e2"
+            e2="DDI-DrugBank.d776.s2.e8" ddi="false"/>
+        <pair id="DDI-DrugBank.d776.s2.p33" e1="DDI-DrugBank.d776.s2.e2"
+            e2="DDI-DrugBank.d776.s2.e9" ddi="false"/>
+        <pair id="DDI-DrugBank.d776.s2.p34" e1="DDI-DrugBank.d776.s2.e2"
+            e2="DDI-DrugBank.d776.s2.e10" ddi="false"/>
+        <pair id="DDI-DrugBank.d776.s2.p35" e1="DDI-DrugBank.d776.s2.e2"
+            e2="DDI-DrugBank.d776.s2.e11" ddi="false"/>
+        <pair id="DDI-DrugBank.d776.s2.p36" e1="DDI-DrugBank.d776.s2.e2"
+            e2="DDI-DrugBank.d776.s2.e12" ddi="false"/>
+        <pair id="DDI-DrugBank.d776.s2.p37" e1="DDI-DrugBank.d776.s2.e2"
+            e2="DDI-DrugBank.d776.s2.e13" ddi="false"/>
+        <pair id="DDI-DrugBank.d776.s2.p38" e1="DDI-DrugBank.d776.s2.e2"
+            e2="DDI-DrugBank.d776.s2.e14" ddi="false"/>
+        <pair id="DDI-DrugBank.d776.s2.p39" e1="DDI-DrugBank.d776.s2.e3"
+            e2="DDI-DrugBank.d776.s2.e4" ddi="false"/>
+        <pair id="DDI-DrugBank.d776.s2.p40" e1="DDI-DrugBank.d776.s2.e3"
+            e2="DDI-DrugBank.d776.s2.e5" ddi="false"/>
+        <pair id="DDI-DrugBank.d776.s2.p41" e1="DDI-DrugBank.d776.s2.e3"
+            e2="DDI-DrugBank.d776.s2.e6" ddi="false"/>
+        <pair id="DDI-DrugBank.d776.s2.p42" e1="DDI-DrugBank.d776.s2.e3"
+            e2="DDI-DrugBank.d776.s2.e7" ddi="false"/>
+        <pair id="DDI-DrugBank.d776.s2.p43" e1="DDI-DrugBank.d776.s2.e3"
+            e2="DDI-DrugBank.d776.s2.e8" ddi="false"/>
+        <pair id="DDI-DrugBank.d776.s2.p44" e1="DDI-DrugBank.d776.s2.e3"
+            e2="DDI-DrugBank.d776.s2.e9" ddi="false"/>
+        <pair id="DDI-DrugBank.d776.s2.p45" e1="DDI-DrugBank.d776.s2.e3"
+            e2="DDI-DrugBank.d776.s2.e10" ddi="false"/>
+        <pair id="DDI-DrugBank.d776.s2.p46" e1="DDI-DrugBank.d776.s2.e3"
+            e2="DDI-DrugBank.d776.s2.e11" ddi="false"/>
+        <pair id="DDI-DrugBank.d776.s2.p47" e1="DDI-DrugBank.d776.s2.e3"
+            e2="DDI-DrugBank.d776.s2.e12" ddi="false"/>
+        <pair id="DDI-DrugBank.d776.s2.p48" e1="DDI-DrugBank.d776.s2.e3"
+            e2="DDI-DrugBank.d776.s2.e13" ddi="false"/>
+        <pair id="DDI-DrugBank.d776.s2.p49" e1="DDI-DrugBank.d776.s2.e3"
+            e2="DDI-DrugBank.d776.s2.e14" ddi="false"/>
+        <pair id="DDI-DrugBank.d776.s2.p50" e1="DDI-DrugBank.d776.s2.e4"
+            e2="DDI-DrugBank.d776.s2.e5" ddi="false"/>
+        <pair id="DDI-DrugBank.d776.s2.p51" e1="DDI-DrugBank.d776.s2.e4"
+            e2="DDI-DrugBank.d776.s2.e6" ddi="false"/>
+        <pair id="DDI-DrugBank.d776.s2.p52" e1="DDI-DrugBank.d776.s2.e4"
+            e2="DDI-DrugBank.d776.s2.e7" ddi="false"/>
+        <pair id="DDI-DrugBank.d776.s2.p53" e1="DDI-DrugBank.d776.s2.e4"
+            e2="DDI-DrugBank.d776.s2.e8" ddi="false"/>
+        <pair id="DDI-DrugBank.d776.s2.p54" e1="DDI-DrugBank.d776.s2.e4"
+            e2="DDI-DrugBank.d776.s2.e9" ddi="false"/>
+        <pair id="DDI-DrugBank.d776.s2.p55" e1="DDI-DrugBank.d776.s2.e4"
+            e2="DDI-DrugBank.d776.s2.e10" ddi="false"/>
+        <pair id="DDI-DrugBank.d776.s2.p56" e1="DDI-DrugBank.d776.s2.e4"
+            e2="DDI-DrugBank.d776.s2.e11" ddi="false"/>
+        <pair id="DDI-DrugBank.d776.s2.p57" e1="DDI-DrugBank.d776.s2.e4"
+            e2="DDI-DrugBank.d776.s2.e12" ddi="false"/>
+        <pair id="DDI-DrugBank.d776.s2.p58" e1="DDI-DrugBank.d776.s2.e4"
+            e2="DDI-DrugBank.d776.s2.e13" ddi="false"/>
+        <pair id="DDI-DrugBank.d776.s2.p59" e1="DDI-DrugBank.d776.s2.e4"
+            e2="DDI-DrugBank.d776.s2.e14" ddi="false"/>
+        <pair id="DDI-DrugBank.d776.s2.p60" e1="DDI-DrugBank.d776.s2.e5"
+            e2="DDI-DrugBank.d776.s2.e6" ddi="false"/>
+        <pair id="DDI-DrugBank.d776.s2.p61" e1="DDI-DrugBank.d776.s2.e5"
+            e2="DDI-DrugBank.d776.s2.e7" ddi="false"/>
+        <pair id="DDI-DrugBank.d776.s2.p62" e1="DDI-DrugBank.d776.s2.e5"
+            e2="DDI-DrugBank.d776.s2.e8" ddi="false"/>
+        <pair id="DDI-DrugBank.d776.s2.p63" e1="DDI-DrugBank.d776.s2.e5"
+            e2="DDI-DrugBank.d776.s2.e9" ddi="false"/>
+        <pair id="DDI-DrugBank.d776.s2.p64" e1="DDI-DrugBank.d776.s2.e5"
+            e2="DDI-DrugBank.d776.s2.e10" ddi="false"/>
+        <pair id="DDI-DrugBank.d776.s2.p65" e1="DDI-DrugBank.d776.s2.e5"
+            e2="DDI-DrugBank.d776.s2.e11" ddi="false"/>
+        <pair id="DDI-DrugBank.d776.s2.p66" e1="DDI-DrugBank.d776.s2.e5"
+            e2="DDI-DrugBank.d776.s2.e12" ddi="false"/>
+        <pair id="DDI-DrugBank.d776.s2.p67" e1="DDI-DrugBank.d776.s2.e5"
+            e2="DDI-DrugBank.d776.s2.e13" ddi="false"/>
+        <pair id="DDI-DrugBank.d776.s2.p68" e1="DDI-DrugBank.d776.s2.e5"
+            e2="DDI-DrugBank.d776.s2.e14" ddi="false"/>
+        <pair id="DDI-DrugBank.d776.s2.p69" e1="DDI-DrugBank.d776.s2.e6"
+            e2="DDI-DrugBank.d776.s2.e7" ddi="false"/>
+        <pair id="DDI-DrugBank.d776.s2.p70" e1="DDI-DrugBank.d776.s2.e6"
+            e2="DDI-DrugBank.d776.s2.e8" ddi="false"/>
+        <pair id="DDI-DrugBank.d776.s2.p71" e1="DDI-DrugBank.d776.s2.e6"
+            e2="DDI-DrugBank.d776.s2.e9" ddi="false"/>
+        <pair id="DDI-DrugBank.d776.s2.p72" e1="DDI-DrugBank.d776.s2.e6"
+            e2="DDI-DrugBank.d776.s2.e10" ddi="false"/>
+        <pair id="DDI-DrugBank.d776.s2.p73" e1="DDI-DrugBank.d776.s2.e6"
+            e2="DDI-DrugBank.d776.s2.e11" ddi="false"/>
+        <pair id="DDI-DrugBank.d776.s2.p74" e1="DDI-DrugBank.d776.s2.e6"
+            e2="DDI-DrugBank.d776.s2.e12" ddi="false"/>
+        <pair id="DDI-DrugBank.d776.s2.p75" e1="DDI-DrugBank.d776.s2.e6"
+            e2="DDI-DrugBank.d776.s2.e13" ddi="false"/>
+        <pair id="DDI-DrugBank.d776.s2.p76" e1="DDI-DrugBank.d776.s2.e6"
+            e2="DDI-DrugBank.d776.s2.e14" ddi="false"/>
+        <pair id="DDI-DrugBank.d776.s2.p77" e1="DDI-DrugBank.d776.s2.e7"
+            e2="DDI-DrugBank.d776.s2.e8" ddi="false"/>
+        <pair id="DDI-DrugBank.d776.s2.p78" e1="DDI-DrugBank.d776.s2.e7"
+            e2="DDI-DrugBank.d776.s2.e9" ddi="false"/>
+        <pair id="DDI-DrugBank.d776.s2.p79" e1="DDI-DrugBank.d776.s2.e7"
+            e2="DDI-DrugBank.d776.s2.e10" ddi="false"/>
+        <pair id="DDI-DrugBank.d776.s2.p80" e1="DDI-DrugBank.d776.s2.e7"
+            e2="DDI-DrugBank.d776.s2.e11" ddi="false"/>
+        <pair id="DDI-DrugBank.d776.s2.p81" e1="DDI-DrugBank.d776.s2.e7"
+            e2="DDI-DrugBank.d776.s2.e12" ddi="false"/>
+        <pair id="DDI-DrugBank.d776.s2.p82" e1="DDI-DrugBank.d776.s2.e7"
+            e2="DDI-DrugBank.d776.s2.e13" ddi="false"/>
+        <pair id="DDI-DrugBank.d776.s2.p83" e1="DDI-DrugBank.d776.s2.e7"
+            e2="DDI-DrugBank.d776.s2.e14" ddi="false"/>
+        <pair id="DDI-DrugBank.d776.s2.p84" e1="DDI-DrugBank.d776.s2.e8"
+            e2="DDI-DrugBank.d776.s2.e9" ddi="false"/>
+        <pair id="DDI-DrugBank.d776.s2.p85" e1="DDI-DrugBank.d776.s2.e8"
+            e2="DDI-DrugBank.d776.s2.e10" ddi="false"/>
+        <pair id="DDI-DrugBank.d776.s2.p86" e1="DDI-DrugBank.d776.s2.e8"
+            e2="DDI-DrugBank.d776.s2.e11" ddi="false"/>
+        <pair id="DDI-DrugBank.d776.s2.p87" e1="DDI-DrugBank.d776.s2.e8"
+            e2="DDI-DrugBank.d776.s2.e12" ddi="false"/>
+        <pair id="DDI-DrugBank.d776.s2.p88" e1="DDI-DrugBank.d776.s2.e8"
+            e2="DDI-DrugBank.d776.s2.e13" ddi="false"/>
+        <pair id="DDI-DrugBank.d776.s2.p89" e1="DDI-DrugBank.d776.s2.e8"
+            e2="DDI-DrugBank.d776.s2.e14" ddi="false"/>
+        <pair id="DDI-DrugBank.d776.s2.p90" e1="DDI-DrugBank.d776.s2.e9"
+            e2="DDI-DrugBank.d776.s2.e10" ddi="false"/>
+        <pair id="DDI-DrugBank.d776.s2.p91" e1="DDI-DrugBank.d776.s2.e9"
+            e2="DDI-DrugBank.d776.s2.e11" ddi="false"/>
+        <pair id="DDI-DrugBank.d776.s2.p92" e1="DDI-DrugBank.d776.s2.e9"
+            e2="DDI-DrugBank.d776.s2.e12" ddi="false"/>
+        <pair id="DDI-DrugBank.d776.s2.p93" e1="DDI-DrugBank.d776.s2.e9"
+            e2="DDI-DrugBank.d776.s2.e13" ddi="false"/>
+        <pair id="DDI-DrugBank.d776.s2.p94" e1="DDI-DrugBank.d776.s2.e9"
+            e2="DDI-DrugBank.d776.s2.e14" ddi="false"/>
+        <pair id="DDI-DrugBank.d776.s2.p95"
+            e1="DDI-DrugBank.d776.s2.e10" e2="DDI-DrugBank.d776.s2.e11" ddi="false"/>
+        <pair id="DDI-DrugBank.d776.s2.p96"
+            e1="DDI-DrugBank.d776.s2.e10" e2="DDI-DrugBank.d776.s2.e12" ddi="false"/>
+        <pair id="DDI-DrugBank.d776.s2.p97"
+            e1="DDI-DrugBank.d776.s2.e10" e2="DDI-DrugBank.d776.s2.e13" ddi="false"/>
+        <pair id="DDI-DrugBank.d776.s2.p98"
+            e1="DDI-DrugBank.d776.s2.e10" e2="DDI-DrugBank.d776.s2.e14" ddi="false"/>
+        <pair id="DDI-DrugBank.d776.s2.p99"
+            e1="DDI-DrugBank.d776.s2.e11" e2="DDI-DrugBank.d776.s2.e12" ddi="false"/>
+        <pair id="DDI-DrugBank.d776.s2.p100"
+            e1="DDI-DrugBank.d776.s2.e11" e2="DDI-DrugBank.d776.s2.e13" ddi="false"/>
+        <pair id="DDI-DrugBank.d776.s2.p101"
+            e1="DDI-DrugBank.d776.s2.e11" e2="DDI-DrugBank.d776.s2.e14" ddi="false"/>
+        <pair id="DDI-DrugBank.d776.s2.p102"
+            e1="DDI-DrugBank.d776.s2.e12" e2="DDI-DrugBank.d776.s2.e13" ddi="false"/>
+        <pair id="DDI-DrugBank.d776.s2.p103"
+            e1="DDI-DrugBank.d776.s2.e12" e2="DDI-DrugBank.d776.s2.e14" ddi="false"/>
+        <pair id="DDI-DrugBank.d776.s2.p104"
+            e1="DDI-DrugBank.d776.s2.e13" e2="DDI-DrugBank.d776.s2.e14"
+            ddi="true" type="effect"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d776.s3" text="one fatality has been reported from hypoglycemia in association with combined DIFLUCAN and glyburide use. ">
+        <entity id="DDI-DrugBank.d776.s3.e0" charOffset="78-85"
+            type="brand" text="DIFLUCAN"/>
+        <entity id="DDI-DrugBank.d776.s3.e1" charOffset="91-99"
+            type="drug" text="glyburide"/>
+        <pair id="DDI-DrugBank.d776.s3.p0" e1="DDI-DrugBank.d776.s3.e0"
+            e2="DDI-DrugBank.d776.s3.e1" ddi="true" type="effect"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d776.s4" text="DIFLUCAN reduces the metabolism of tolbutamide, glyburide, and glipizide and increases the plasma concentration of these agents. ">
+        <entity id="DDI-DrugBank.d776.s4.e0" charOffset="0-7"
+            type="brand" text="DIFLUCAN"/>
+        <entity id="DDI-DrugBank.d776.s4.e1" charOffset="35-45"
+            type="drug" text="tolbutamide"/>
+        <entity id="DDI-DrugBank.d776.s4.e2" charOffset="48-56"
+            type="drug" text="glyburide"/>
+        <entity id="DDI-DrugBank.d776.s4.e3" charOffset="63-71"
+            type="drug" text="glipizide"/>
+        <pair id="DDI-DrugBank.d776.s4.p0" e1="DDI-DrugBank.d776.s4.e0"
+            e2="DDI-DrugBank.d776.s4.e1" ddi="true" type="mechanism"/>
+        <pair id="DDI-DrugBank.d776.s4.p1" e1="DDI-DrugBank.d776.s4.e0"
+            e2="DDI-DrugBank.d776.s4.e2" ddi="true" type="mechanism"/>
+        <pair id="DDI-DrugBank.d776.s4.p2" e1="DDI-DrugBank.d776.s4.e0"
+            e2="DDI-DrugBank.d776.s4.e3" ddi="true" type="mechanism"/>
+        <pair id="DDI-DrugBank.d776.s4.p3" e1="DDI-DrugBank.d776.s4.e1"
+            e2="DDI-DrugBank.d776.s4.e2" ddi="false"/>
+        <pair id="DDI-DrugBank.d776.s4.p4" e1="DDI-DrugBank.d776.s4.e1"
+            e2="DDI-DrugBank.d776.s4.e3" ddi="false"/>
+        <pair id="DDI-DrugBank.d776.s4.p5" e1="DDI-DrugBank.d776.s4.e2"
+            e2="DDI-DrugBank.d776.s4.e3" ddi="false"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d776.s5" text="When DIFLUCAN is used concomitantly with these or other sulfonylurea oral hypoglycemic agents, blood glucose concentrations should be carefully monitored and the dose of the sulfonylurea should be adjusted as necessary. ">
+        <entity id="DDI-DrugBank.d776.s5.e0" charOffset="5-12"
+            type="brand" text="DIFLUCAN"/>
+        <entity id="DDI-DrugBank.d776.s5.e1" charOffset="56-92"
+            type="group" text="sulfonylurea oral hypoglycemic agents"/>
+        <entity id="DDI-DrugBank.d776.s5.e2" charOffset="174-185"
+            type="group" text="sulfonylurea"/>
+        <pair id="DDI-DrugBank.d776.s5.p0" e1="DDI-DrugBank.d776.s5.e0"
+            e2="DDI-DrugBank.d776.s5.e1" ddi="true" type="advise"/>
+        <pair id="DDI-DrugBank.d776.s5.p1" e1="DDI-DrugBank.d776.s5.e0"
+            e2="DDI-DrugBank.d776.s5.e2" ddi="false"/>
+        <pair id="DDI-DrugBank.d776.s5.p2" e1="DDI-DrugBank.d776.s5.e1"
+            e2="DDI-DrugBank.d776.s5.e2" ddi="false"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d776.s6" text="Coumarin-type anticoagulants: Prothrombin time may be increased in patients receiving concomitant DIFLUCAN and coumarin-type anticoagulants. ">
+        <entity id="DDI-DrugBank.d776.s6.e0" charOffset="0-27"
+            type="group" text="Coumarin-type anticoagulants"/>
+        <entity id="DDI-DrugBank.d776.s6.e1" charOffset="98-105"
+            type="brand" text="DIFLUCAN"/>
+        <entity id="DDI-DrugBank.d776.s6.e2" charOffset="111-138"
+            type="group" text="coumarin-type anticoagulants"/>
+        <pair id="DDI-DrugBank.d776.s6.p0" e1="DDI-DrugBank.d776.s6.e0"
+            e2="DDI-DrugBank.d776.s6.e1" ddi="false"/>
+        <pair id="DDI-DrugBank.d776.s6.p1" e1="DDI-DrugBank.d776.s6.e0"
+            e2="DDI-DrugBank.d776.s6.e2" ddi="false"/>
+        <pair id="DDI-DrugBank.d776.s6.p2" e1="DDI-DrugBank.d776.s6.e1"
+            e2="DDI-DrugBank.d776.s6.e2" ddi="true" type="effect"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d776.s7" text="In post-marketing experience, as with other azole antifungals, bleeding events (bruising, epistaxis, gastrointestinal bleeding, hematuria, and melena) have been reported in association with increases in prothrombin time in patients receiving fluconazole concurrently with warfarin. ">
+        <entity id="DDI-DrugBank.d776.s7.e0" charOffset="44-60"
+            type="group" text="azole antifungals"/>
+        <entity id="DDI-DrugBank.d776.s7.e1" charOffset="242-252"
+            type="drug" text="fluconazole"/>
+        <entity id="DDI-DrugBank.d776.s7.e2" charOffset="272-279"
+            type="drug" text="warfarin"/>
+        <pair id="DDI-DrugBank.d776.s7.p0" e1="DDI-DrugBank.d776.s7.e0"
+            e2="DDI-DrugBank.d776.s7.e1" ddi="false"/>
+        <pair id="DDI-DrugBank.d776.s7.p1" e1="DDI-DrugBank.d776.s7.e0"
+            e2="DDI-DrugBank.d776.s7.e2" ddi="false"/>
+        <pair id="DDI-DrugBank.d776.s7.p2" e1="DDI-DrugBank.d776.s7.e1"
+            e2="DDI-DrugBank.d776.s7.e2" ddi="true" type="effect"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d776.s8" text="Careful monitoring of prothrombin time in patients receiving DIFLUCAN and coumarin-type anticoagulants is recommended. ">
+        <entity id="DDI-DrugBank.d776.s8.e0" charOffset="61-68"
+            type="brand" text="DIFLUCAN"/>
+        <entity id="DDI-DrugBank.d776.s8.e1" charOffset="74-101"
+            type="group" text="coumarin-type anticoagulants"/>
+        <pair id="DDI-DrugBank.d776.s8.p0" e1="DDI-DrugBank.d776.s8.e0"
+            e2="DDI-DrugBank.d776.s8.e1" ddi="true" type="advise"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d776.s9" text="(See &lt;a href= &quot;flucon_cp.htm#CP&quot;>CLINICAL PHARMACOLOGY: Drug Interaction Studies.) "/>
+    <sentence id="DDI-DrugBank.d776.s10" text="Phenytoin: DIFLUCAN increases the plasma concentrations of phenytoin. ">
+        <entity id="DDI-DrugBank.d776.s10.e0" charOffset="0-8"
+            type="drug" text="Phenytoin"/>
+        <entity id="DDI-DrugBank.d776.s10.e1" charOffset="11-18"
+            type="brand" text="DIFLUCAN"/>
+        <entity id="DDI-DrugBank.d776.s10.e2" charOffset="59-67"
+            type="drug" text="phenytoin"/>
+        <pair id="DDI-DrugBank.d776.s10.p0"
+            e1="DDI-DrugBank.d776.s10.e0" e2="DDI-DrugBank.d776.s10.e1" ddi="false"/>
+        <pair id="DDI-DrugBank.d776.s10.p1"
+            e1="DDI-DrugBank.d776.s10.e0" e2="DDI-DrugBank.d776.s10.e2" ddi="false"/>
+        <pair id="DDI-DrugBank.d776.s10.p2"
+            e1="DDI-DrugBank.d776.s10.e1" e2="DDI-DrugBank.d776.s10.e2"
+            ddi="true" type="mechanism"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d776.s11" text="Careful monitoring of phenytoin concentrations in patients receiving DIFLUCAN and phenytoin is recommended. ">
+        <entity id="DDI-DrugBank.d776.s11.e0" charOffset="22-30"
+            type="drug" text="phenytoin"/>
+        <entity id="DDI-DrugBank.d776.s11.e1" charOffset="69-76"
+            type="brand" text="DIFLUCAN"/>
+        <entity id="DDI-DrugBank.d776.s11.e2" charOffset="82-90"
+            type="drug" text="phenytoin"/>
+        <pair id="DDI-DrugBank.d776.s11.p0"
+            e1="DDI-DrugBank.d776.s11.e0" e2="DDI-DrugBank.d776.s11.e1" ddi="false"/>
+        <pair id="DDI-DrugBank.d776.s11.p1"
+            e1="DDI-DrugBank.d776.s11.e0" e2="DDI-DrugBank.d776.s11.e2" ddi="false"/>
+        <pair id="DDI-DrugBank.d776.s11.p2"
+            e1="DDI-DrugBank.d776.s11.e1" e2="DDI-DrugBank.d776.s11.e2"
+            ddi="true" type="advise"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d776.s12" text="(See &lt;a href= &quot;flucon_cp.htm#CP&quot;>CLINICAL PHARMACOLOGY: Drug Interaction Studies.) "/>
+    <sentence id="DDI-DrugBank.d776.s13" text="Cyclosporine: DIFLUCAN may significantly increase cyclosporine levels in renal transplant patients with or without renal impairment. ">
+        <entity id="DDI-DrugBank.d776.s13.e0" charOffset="0-11"
+            type="drug" text="Cyclosporine"/>
+        <entity id="DDI-DrugBank.d776.s13.e1" charOffset="14-21"
+            type="brand" text="DIFLUCAN"/>
+        <entity id="DDI-DrugBank.d776.s13.e2" charOffset="50-61"
+            type="drug" text="cyclosporine"/>
+        <pair id="DDI-DrugBank.d776.s13.p0"
+            e1="DDI-DrugBank.d776.s13.e0" e2="DDI-DrugBank.d776.s13.e1" ddi="false"/>
+        <pair id="DDI-DrugBank.d776.s13.p1"
+            e1="DDI-DrugBank.d776.s13.e0" e2="DDI-DrugBank.d776.s13.e2" ddi="false"/>
+        <pair id="DDI-DrugBank.d776.s13.p2"
+            e1="DDI-DrugBank.d776.s13.e1" e2="DDI-DrugBank.d776.s13.e2"
+            ddi="true" type="mechanism"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d776.s14" text="Careful monitoring of cyclosporine concentrations and serum creatinine is recommended in patients receiving DIFLUCAN and cyclosporine. ">
+        <entity id="DDI-DrugBank.d776.s14.e0" charOffset="22-33"
+            type="drug" text="cyclosporine"/>
+        <entity id="DDI-DrugBank.d776.s14.e1" charOffset="108-115"
+            type="brand" text="DIFLUCAN"/>
+        <entity id="DDI-DrugBank.d776.s14.e2" charOffset="121-132"
+            type="drug" text="cyclosporine"/>
+        <pair id="DDI-DrugBank.d776.s14.p0"
+            e1="DDI-DrugBank.d776.s14.e0" e2="DDI-DrugBank.d776.s14.e1" ddi="false"/>
+        <pair id="DDI-DrugBank.d776.s14.p1"
+            e1="DDI-DrugBank.d776.s14.e0" e2="DDI-DrugBank.d776.s14.e2" ddi="false"/>
+        <pair id="DDI-DrugBank.d776.s14.p2"
+            e1="DDI-DrugBank.d776.s14.e1" e2="DDI-DrugBank.d776.s14.e2"
+            ddi="true" type="advise"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d776.s15" text="(See CLINICAL PHARMACOLOGY: Drug Interaction Studies.) "/>
+    <sentence id="DDI-DrugBank.d776.s16" text="Rifampin: Rifampin enhances the metabolism of concurrently administered DIFLUCAN. ">
+        <entity id="DDI-DrugBank.d776.s16.e0" charOffset="0-7"
+            type="drug" text="Rifampin"/>
+        <entity id="DDI-DrugBank.d776.s16.e1" charOffset="10-17"
+            type="drug" text="Rifampin"/>
+        <entity id="DDI-DrugBank.d776.s16.e2" charOffset="72-79"
+            type="brand" text="DIFLUCAN"/>
+        <pair id="DDI-DrugBank.d776.s16.p0"
+            e1="DDI-DrugBank.d776.s16.e0" e2="DDI-DrugBank.d776.s16.e1" ddi="false"/>
+        <pair id="DDI-DrugBank.d776.s16.p1"
+            e1="DDI-DrugBank.d776.s16.e0" e2="DDI-DrugBank.d776.s16.e2" ddi="false"/>
+        <pair id="DDI-DrugBank.d776.s16.p2"
+            e1="DDI-DrugBank.d776.s16.e1" e2="DDI-DrugBank.d776.s16.e2"
+            ddi="true" type="mechanism"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d776.s17" text="Depending on clinical circumstances, consideration should be given to increasing the dose of DIFLUCAN when it is administered with rifampin. ">
+        <entity id="DDI-DrugBank.d776.s17.e0" charOffset="93-100"
+            type="brand" text="DIFLUCAN"/>
+        <entity id="DDI-DrugBank.d776.s17.e1" charOffset="131-138"
+            type="drug" text="rifampin"/>
+        <pair id="DDI-DrugBank.d776.s17.p0"
+            e1="DDI-DrugBank.d776.s17.e0" e2="DDI-DrugBank.d776.s17.e1"
+            ddi="true" type="advise"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d776.s18" text="Theophylline: DIFLUCAN increases the serum concentrations of theophylline. ">
+        <entity id="DDI-DrugBank.d776.s18.e0" charOffset="0-11"
+            type="drug" text="Theophylline"/>
+        <entity id="DDI-DrugBank.d776.s18.e1" charOffset="14-21"
+            type="brand" text="DIFLUCAN"/>
+        <entity id="DDI-DrugBank.d776.s18.e2" charOffset="61-72"
+            type="drug" text="theophylline"/>
+        <pair id="DDI-DrugBank.d776.s18.p0"
+            e1="DDI-DrugBank.d776.s18.e0" e2="DDI-DrugBank.d776.s18.e1" ddi="false"/>
+        <pair id="DDI-DrugBank.d776.s18.p1"
+            e1="DDI-DrugBank.d776.s18.e0" e2="DDI-DrugBank.d776.s18.e2" ddi="false"/>
+        <pair id="DDI-DrugBank.d776.s18.p2"
+            e1="DDI-DrugBank.d776.s18.e1" e2="DDI-DrugBank.d776.s18.e2"
+            ddi="true" type="mechanism"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d776.s19" text="Careful monitoring of serum theophylline concentrations in patients receiving DIFLUCAN and theophylline is recommended. ">
+        <entity id="DDI-DrugBank.d776.s19.e0" charOffset="28-39"
+            type="drug" text="theophylline"/>
+        <entity id="DDI-DrugBank.d776.s19.e1" charOffset="78-85"
+            type="brand" text="DIFLUCAN"/>
+        <entity id="DDI-DrugBank.d776.s19.e2" charOffset="91-102"
+            type="drug" text="theophylline"/>
+        <pair id="DDI-DrugBank.d776.s19.p0"
+            e1="DDI-DrugBank.d776.s19.e0" e2="DDI-DrugBank.d776.s19.e1" ddi="false"/>
+        <pair id="DDI-DrugBank.d776.s19.p1"
+            e1="DDI-DrugBank.d776.s19.e0" e2="DDI-DrugBank.d776.s19.e2" ddi="false"/>
+        <pair id="DDI-DrugBank.d776.s19.p2"
+            e1="DDI-DrugBank.d776.s19.e1" e2="DDI-DrugBank.d776.s19.e2"
+            ddi="true" type="advise"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d776.s20" text="Terfenadine: Because of the occurrence of serious cardiac dysrhythmias secondary to prolongation of the QTc interval in patients receiving azole antifungals in conjunction with terfenadine, interaction studies have been performed. ">
+        <entity id="DDI-DrugBank.d776.s20.e0" charOffset="0-10"
+            type="drug" text="Terfenadine"/>
+        <entity id="DDI-DrugBank.d776.s20.e1" charOffset="139-155"
+            type="group" text="azole antifungals"/>
+        <entity id="DDI-DrugBank.d776.s20.e2" charOffset="177-187"
+            type="drug" text="terfenadine"/>
+        <pair id="DDI-DrugBank.d776.s20.p0"
+            e1="DDI-DrugBank.d776.s20.e0" e2="DDI-DrugBank.d776.s20.e1" ddi="false"/>
+        <pair id="DDI-DrugBank.d776.s20.p1"
+            e1="DDI-DrugBank.d776.s20.e0" e2="DDI-DrugBank.d776.s20.e2" ddi="false"/>
+        <pair id="DDI-DrugBank.d776.s20.p2"
+            e1="DDI-DrugBank.d776.s20.e1" e2="DDI-DrugBank.d776.s20.e2"
+            ddi="true" type="effect"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d776.s21" text="One study at a 200-mg daily dose of fluconazole failed to demonstrate a prolongation in QTc interval. ">
+        <entity id="DDI-DrugBank.d776.s21.e0" charOffset="36-46"
+            type="drug" text="fluconazole"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d776.s22" text="Another study at a 400-mg and 800-mg daily dose of fluconazole demonstrated that DIFLUCAN taken in doses of 400 mg per day or greater significantly increases plasma levels of terfenadine when taken concomitantly. ">
+        <entity id="DDI-DrugBank.d776.s22.e0" charOffset="51-61"
+            type="drug" text="fluconazole"/>
+        <entity id="DDI-DrugBank.d776.s22.e1" charOffset="81-88"
+            type="brand" text="DIFLUCAN"/>
+        <entity id="DDI-DrugBank.d776.s22.e2" charOffset="175-185"
+            type="drug" text="terfenadine"/>
+        <pair id="DDI-DrugBank.d776.s22.p0"
+            e1="DDI-DrugBank.d776.s22.e0" e2="DDI-DrugBank.d776.s22.e1" ddi="false"/>
+        <pair id="DDI-DrugBank.d776.s22.p1"
+            e1="DDI-DrugBank.d776.s22.e0" e2="DDI-DrugBank.d776.s22.e2" ddi="false"/>
+        <pair id="DDI-DrugBank.d776.s22.p2"
+            e1="DDI-DrugBank.d776.s22.e1" e2="DDI-DrugBank.d776.s22.e2"
+            ddi="true" type="mechanism"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d776.s23" text="The combined use of fluconazole at doses of 400 mg or greater with terfenadine is contraindicated. ">
+        <entity id="DDI-DrugBank.d776.s23.e0" charOffset="20-30"
+            type="drug" text="fluconazole"/>
+        <entity id="DDI-DrugBank.d776.s23.e1" charOffset="67-77"
+            type="drug" text="terfenadine"/>
+        <pair id="DDI-DrugBank.d776.s23.p0"
+            e1="DDI-DrugBank.d776.s23.e0" e2="DDI-DrugBank.d776.s23.e1"
+            ddi="true" type="advise"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d776.s24" text="The coadministration of fluconazole at doses lower than 400 mg/day with terfenadine should be carefully monitored. ">
+        <entity id="DDI-DrugBank.d776.s24.e0" charOffset="24-34"
+            type="drug" text="fluconazole"/>
+        <entity id="DDI-DrugBank.d776.s24.e1" charOffset="72-82"
+            type="drug" text="terfenadine"/>
+        <pair id="DDI-DrugBank.d776.s24.p0"
+            e1="DDI-DrugBank.d776.s24.e0" e2="DDI-DrugBank.d776.s24.e1"
+            ddi="true" type="advise"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d776.s25" text="Cisapride: There have been reports of cardiac events, including torsade de pointes in patients to whom fluconazole and cisapride were coadministered. ">
+        <entity id="DDI-DrugBank.d776.s25.e0" charOffset="0-8"
+            type="drug" text="Cisapride"/>
+        <entity id="DDI-DrugBank.d776.s25.e1" charOffset="103-113"
+            type="drug" text="fluconazole"/>
+        <entity id="DDI-DrugBank.d776.s25.e2" charOffset="119-127"
+            type="drug" text="cisapride"/>
+        <pair id="DDI-DrugBank.d776.s25.p0"
+            e1="DDI-DrugBank.d776.s25.e0" e2="DDI-DrugBank.d776.s25.e1" ddi="false"/>
+        <pair id="DDI-DrugBank.d776.s25.p1"
+            e1="DDI-DrugBank.d776.s25.e0" e2="DDI-DrugBank.d776.s25.e2" ddi="false"/>
+        <pair id="DDI-DrugBank.d776.s25.p2"
+            e1="DDI-DrugBank.d776.s25.e1" e2="DDI-DrugBank.d776.s25.e2"
+            ddi="true" type="effect"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d776.s26" text="A controlled study found that concomitant fluconazole 200 mg once daily and cisapride 20 mg four times a day yielded a significant increase in cisapride plasma levels and prolongation of QTc interval.">
+        <entity id="DDI-DrugBank.d776.s26.e0" charOffset="42-52"
+            type="drug" text="fluconazole"/>
+        <entity id="DDI-DrugBank.d776.s26.e1" charOffset="76-84"
+            type="drug" text="cisapride"/>
+        <entity id="DDI-DrugBank.d776.s26.e2" charOffset="143-151"
+            type="drug" text="cisapride"/>
+        <pair id="DDI-DrugBank.d776.s26.p0"
+            e1="DDI-DrugBank.d776.s26.e0" e2="DDI-DrugBank.d776.s26.e1"
+            ddi="true" type="mechanism"/>
+        <pair id="DDI-DrugBank.d776.s26.p1"
+            e1="DDI-DrugBank.d776.s26.e0" e2="DDI-DrugBank.d776.s26.e2" ddi="false"/>
+        <pair id="DDI-DrugBank.d776.s26.p2"
+            e1="DDI-DrugBank.d776.s26.e1" e2="DDI-DrugBank.d776.s26.e2" ddi="false"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d776.s27" text="The combined use of fluconazole with cisapride is contraindicated. ">
+        <entity id="DDI-DrugBank.d776.s27.e0" charOffset="20-30"
+            type="drug" text="fluconazole"/>
+        <entity id="DDI-DrugBank.d776.s27.e1" charOffset="37-45"
+            type="drug" text="cisapride"/>
+        <pair id="DDI-DrugBank.d776.s27.p0"
+            e1="DDI-DrugBank.d776.s27.e0" e2="DDI-DrugBank.d776.s27.e1"
+            ddi="true" type="advise"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d776.s28" text="Astemizole: The use of fluconazole in patients concurrently taking astemizole or other drugs metabolized by the cytochrome P450 system may be associated with elevations in serum levels of these drugs. ">
+        <entity id="DDI-DrugBank.d776.s28.e0" charOffset="0-9"
+            type="drug" text="Astemizole"/>
+        <entity id="DDI-DrugBank.d776.s28.e1" charOffset="23-33"
+            type="drug" text="fluconazole"/>
+        <entity id="DDI-DrugBank.d776.s28.e2" charOffset="67-76"
+            type="drug" text="astemizole"/>
+        <pair id="DDI-DrugBank.d776.s28.p0"
+            e1="DDI-DrugBank.d776.s28.e0" e2="DDI-DrugBank.d776.s28.e1" ddi="false"/>
+        <pair id="DDI-DrugBank.d776.s28.p1"
+            e1="DDI-DrugBank.d776.s28.e0" e2="DDI-DrugBank.d776.s28.e2" ddi="false"/>
+        <pair id="DDI-DrugBank.d776.s28.p2"
+            e1="DDI-DrugBank.d776.s28.e1" e2="DDI-DrugBank.d776.s28.e2"
+            ddi="true" type="mechanism"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d776.s29" text="In the absence of definitive information, caution should be used when coadministering fluconazole. ">
+        <entity id="DDI-DrugBank.d776.s29.e0" charOffset="86-96"
+            type="drug" text="fluconazole"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d776.s30" text="Patients should be carefully monitored. "/>
+    <sentence id="DDI-DrugBank.d776.s31" text="Rifabutin: There have been reports of uveitis in patients to whom fluconazole and rifabutin were coadministered. ">
+        <entity id="DDI-DrugBank.d776.s31.e0" charOffset="0-8"
+            type="drug" text="Rifabutin"/>
+        <entity id="DDI-DrugBank.d776.s31.e1" charOffset="66-76"
+            type="drug" text="fluconazole"/>
+        <entity id="DDI-DrugBank.d776.s31.e2" charOffset="82-90"
+            type="drug" text="rifabutin"/>
+        <pair id="DDI-DrugBank.d776.s31.p0"
+            e1="DDI-DrugBank.d776.s31.e0" e2="DDI-DrugBank.d776.s31.e1" ddi="false"/>
+        <pair id="DDI-DrugBank.d776.s31.p1"
+            e1="DDI-DrugBank.d776.s31.e0" e2="DDI-DrugBank.d776.s31.e2" ddi="false"/>
+        <pair id="DDI-DrugBank.d776.s31.p2"
+            e1="DDI-DrugBank.d776.s31.e1" e2="DDI-DrugBank.d776.s31.e2"
+            ddi="true" type="effect"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d776.s32" text="Patients receiving rifabutin and fluconazole concomitantly should be carefully monitored. ">
+        <entity id="DDI-DrugBank.d776.s32.e0" charOffset="19-27"
+            type="drug" text="rifabutin"/>
+        <entity id="DDI-DrugBank.d776.s32.e1" charOffset="33-43"
+            type="drug" text="fluconazole"/>
+        <pair id="DDI-DrugBank.d776.s32.p0"
+            e1="DDI-DrugBank.d776.s32.e0" e2="DDI-DrugBank.d776.s32.e1"
+            ddi="true" type="advise"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d776.s33" text="Tacrolimus: There have been reports of nephrotoxicity in patients to whom fluconazole and tacrolimus were coadministered. ">
+        <entity id="DDI-DrugBank.d776.s33.e0" charOffset="0-9"
+            type="drug" text="Tacrolimus"/>
+        <entity id="DDI-DrugBank.d776.s33.e1" charOffset="74-84"
+            type="drug" text="fluconazole"/>
+        <entity id="DDI-DrugBank.d776.s33.e2" charOffset="90-99"
+            type="drug" text="tacrolimus"/>
+        <pair id="DDI-DrugBank.d776.s33.p0"
+            e1="DDI-DrugBank.d776.s33.e0" e2="DDI-DrugBank.d776.s33.e1" ddi="false"/>
+        <pair id="DDI-DrugBank.d776.s33.p1"
+            e1="DDI-DrugBank.d776.s33.e0" e2="DDI-DrugBank.d776.s33.e2" ddi="false"/>
+        <pair id="DDI-DrugBank.d776.s33.p2"
+            e1="DDI-DrugBank.d776.s33.e1" e2="DDI-DrugBank.d776.s33.e2"
+            ddi="true" type="effect"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d776.s34" text="Patients receiving tacrolimus and fluconazole concomitantly should be carefully monitored. ">
+        <entity id="DDI-DrugBank.d776.s34.e0" charOffset="19-28"
+            type="drug" text="tacrolimus"/>
+        <entity id="DDI-DrugBank.d776.s34.e1" charOffset="34-44"
+            type="drug" text="fluconazole"/>
+        <pair id="DDI-DrugBank.d776.s34.p0"
+            e1="DDI-DrugBank.d776.s34.e0" e2="DDI-DrugBank.d776.s34.e1"
+            ddi="true" type="advise"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d776.s35" text="Short-acting Benzodiazepines: Following oral administration of midazolam, fluconazole resulted in substantial increases in midazolam concentrations and psychomotor effects. ">
+        <entity id="DDI-DrugBank.d776.s35.e0" charOffset="0-27"
+            type="group" text="Short-acting Benzodiazepines"/>
+        <entity id="DDI-DrugBank.d776.s35.e1" charOffset="63-71"
+            type="drug" text="midazolam"/>
+        <entity id="DDI-DrugBank.d776.s35.e2" charOffset="74-84"
+            type="drug" text="fluconazole"/>
+        <entity id="DDI-DrugBank.d776.s35.e3" charOffset="123-131"
+            type="drug" text="midazolam"/>
+        <pair id="DDI-DrugBank.d776.s35.p0"
+            e1="DDI-DrugBank.d776.s35.e0" e2="DDI-DrugBank.d776.s35.e1" ddi="false"/>
+        <pair id="DDI-DrugBank.d776.s35.p1"
+            e1="DDI-DrugBank.d776.s35.e0" e2="DDI-DrugBank.d776.s35.e2" ddi="false"/>
+        <pair id="DDI-DrugBank.d776.s35.p2"
+            e1="DDI-DrugBank.d776.s35.e0" e2="DDI-DrugBank.d776.s35.e3" ddi="false"/>
+        <pair id="DDI-DrugBank.d776.s35.p3"
+            e1="DDI-DrugBank.d776.s35.e1" e2="DDI-DrugBank.d776.s35.e2"
+            ddi="true" type="mechanism"/>
+        <pair id="DDI-DrugBank.d776.s35.p4"
+            e1="DDI-DrugBank.d776.s35.e1" e2="DDI-DrugBank.d776.s35.e3" ddi="false"/>
+        <pair id="DDI-DrugBank.d776.s35.p5"
+            e1="DDI-DrugBank.d776.s35.e2" e2="DDI-DrugBank.d776.s35.e3" ddi="false"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d776.s36" text="This effect on midazolam appears to be more pronounced following oral administration of fluconazole than with fluconazole administered intravenously. ">
+        <entity id="DDI-DrugBank.d776.s36.e0" charOffset="15-23"
+            type="drug" text="midazolam"/>
+        <entity id="DDI-DrugBank.d776.s36.e1" charOffset="88-98"
+            type="drug" text="fluconazole"/>
+        <entity id="DDI-DrugBank.d776.s36.e2" charOffset="110-120"
+            type="drug" text="fluconazole"/>
+        <pair id="DDI-DrugBank.d776.s36.p0"
+            e1="DDI-DrugBank.d776.s36.e0" e2="DDI-DrugBank.d776.s36.e1"
+            ddi="true" type="effect"/>
+        <pair id="DDI-DrugBank.d776.s36.p1"
+            e1="DDI-DrugBank.d776.s36.e0" e2="DDI-DrugBank.d776.s36.e2" ddi="false"/>
+        <pair id="DDI-DrugBank.d776.s36.p2"
+            e1="DDI-DrugBank.d776.s36.e1" e2="DDI-DrugBank.d776.s36.e2" ddi="false"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d776.s37" text="If short-acting benzodiazepines, which are metabolized by the cytochrome P450 system, are concomitantly administered with fluconazole, consideration should be given to decreasing the benzodiazepine dosage, and the patients should be appropriately monitored. ">
+        <entity id="DDI-DrugBank.d776.s37.e0" charOffset="3-30"
+            type="group" text="short-acting benzodiazepines"/>
+        <entity id="DDI-DrugBank.d776.s37.e1" charOffset="122-132"
+            type="drug" text="fluconazole"/>
+        <entity id="DDI-DrugBank.d776.s37.e2" charOffset="183-196"
+            type="group" text="benzodiazepine"/>
+        <pair id="DDI-DrugBank.d776.s37.p0"
+            e1="DDI-DrugBank.d776.s37.e0" e2="DDI-DrugBank.d776.s37.e1"
+            ddi="true" type="advise"/>
+        <pair id="DDI-DrugBank.d776.s37.p1"
+            e1="DDI-DrugBank.d776.s37.e0" e2="DDI-DrugBank.d776.s37.e2" ddi="false"/>
+        <pair id="DDI-DrugBank.d776.s37.p2"
+            e1="DDI-DrugBank.d776.s37.e1" e2="DDI-DrugBank.d776.s37.e2" ddi="false"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d776.s38" text="Fluconazole tablets coadministered with ethinyl estradiol- and levonorgestrel-containing oral contraceptives produced an overall mean increase in ethinyl estradiol and levonorgestrel levels; ">
+        <entity id="DDI-DrugBank.d776.s38.e0" charOffset="0-10"
+            type="drug" text="Fluconazole"/>
+        <entity id="DDI-DrugBank.d776.s38.e1" charOffset="40-56"
+            type="drug" text="ethinyl estradiol"/>
+        <entity id="DDI-DrugBank.d776.s38.e2" charOffset="63-76"
+            type="drug" text="levonorgestrel"/>
+        <entity id="DDI-DrugBank.d776.s38.e3" charOffset="94-107"
+            type="group" text="contraceptives"/>
+        <entity id="DDI-DrugBank.d776.s38.e4" charOffset="146-162"
+            type="drug" text="ethinyl estradiol"/>
+        <entity id="DDI-DrugBank.d776.s38.e5" charOffset="168-181"
+            type="drug" text="levonorgestrel"/>
+        <pair id="DDI-DrugBank.d776.s38.p0"
+            e1="DDI-DrugBank.d776.s38.e0" e2="DDI-DrugBank.d776.s38.e1"
+            ddi="true" type="mechanism"/>
+        <pair id="DDI-DrugBank.d776.s38.p1"
+            e1="DDI-DrugBank.d776.s38.e0" e2="DDI-DrugBank.d776.s38.e2"
+            ddi="true" type="mechanism"/>
+        <pair id="DDI-DrugBank.d776.s38.p2"
+            e1="DDI-DrugBank.d776.s38.e0" e2="DDI-DrugBank.d776.s38.e3" ddi="false"/>
+        <pair id="DDI-DrugBank.d776.s38.p3"
+            e1="DDI-DrugBank.d776.s38.e0" e2="DDI-DrugBank.d776.s38.e4" ddi="false"/>
+        <pair id="DDI-DrugBank.d776.s38.p4"
+            e1="DDI-DrugBank.d776.s38.e0" e2="DDI-DrugBank.d776.s38.e5" ddi="false"/>
+        <pair id="DDI-DrugBank.d776.s38.p5"
+            e1="DDI-DrugBank.d776.s38.e1" e2="DDI-DrugBank.d776.s38.e2" ddi="false"/>
+        <pair id="DDI-DrugBank.d776.s38.p6"
+            e1="DDI-DrugBank.d776.s38.e1" e2="DDI-DrugBank.d776.s38.e3" ddi="false"/>
+        <pair id="DDI-DrugBank.d776.s38.p7"
+            e1="DDI-DrugBank.d776.s38.e1" e2="DDI-DrugBank.d776.s38.e4" ddi="false"/>
+        <pair id="DDI-DrugBank.d776.s38.p8"
+            e1="DDI-DrugBank.d776.s38.e1" e2="DDI-DrugBank.d776.s38.e5" ddi="false"/>
+        <pair id="DDI-DrugBank.d776.s38.p9"
+            e1="DDI-DrugBank.d776.s38.e2" e2="DDI-DrugBank.d776.s38.e3" ddi="false"/>
+        <pair id="DDI-DrugBank.d776.s38.p10"
+            e1="DDI-DrugBank.d776.s38.e2" e2="DDI-DrugBank.d776.s38.e4" ddi="false"/>
+        <pair id="DDI-DrugBank.d776.s38.p11"
+            e1="DDI-DrugBank.d776.s38.e2" e2="DDI-DrugBank.d776.s38.e5" ddi="false"/>
+        <pair id="DDI-DrugBank.d776.s38.p12"
+            e1="DDI-DrugBank.d776.s38.e3" e2="DDI-DrugBank.d776.s38.e4" ddi="false"/>
+        <pair id="DDI-DrugBank.d776.s38.p13"
+            e1="DDI-DrugBank.d776.s38.e3" e2="DDI-DrugBank.d776.s38.e5" ddi="false"/>
+        <pair id="DDI-DrugBank.d776.s38.p14"
+            e1="DDI-DrugBank.d776.s38.e4" e2="DDI-DrugBank.d776.s38.e5" ddi="false"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d776.s39" text="however, in some patients there were decreases up to 47% and 33% of ethinyl estradiol and levonorgestrel levels. ">
+        <entity id="DDI-DrugBank.d776.s39.e0" charOffset="68-84"
+            type="drug" text="ethinyl estradiol"/>
+        <entity id="DDI-DrugBank.d776.s39.e1" charOffset="90-103"
+            type="drug" text="levonorgestrel"/>
+        <pair id="DDI-DrugBank.d776.s39.p0"
+            e1="DDI-DrugBank.d776.s39.e0" e2="DDI-DrugBank.d776.s39.e1" ddi="false"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d776.s40" text="The data presently available indicate that the decreases in some individual ethinyl estradiol and levonorgestrel AUC values with fluconazole treatment are likely the result of random variation. ">
+        <entity id="DDI-DrugBank.d776.s40.e0" charOffset="76-92"
+            type="drug" text="ethinyl estradiol"/>
+        <entity id="DDI-DrugBank.d776.s40.e1" charOffset="98-111"
+            type="drug" text="levonorgestrel"/>
+        <entity id="DDI-DrugBank.d776.s40.e2" charOffset="129-139"
+            type="drug" text="fluconazole"/>
+        <pair id="DDI-DrugBank.d776.s40.p0"
+            e1="DDI-DrugBank.d776.s40.e0" e2="DDI-DrugBank.d776.s40.e1" ddi="false"/>
+        <pair id="DDI-DrugBank.d776.s40.p1"
+            e1="DDI-DrugBank.d776.s40.e0" e2="DDI-DrugBank.d776.s40.e2" ddi="false"/>
+        <pair id="DDI-DrugBank.d776.s40.p2"
+            e1="DDI-DrugBank.d776.s40.e1" e2="DDI-DrugBank.d776.s40.e2" ddi="false"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d776.s41" text="While there is evidence that fluconazole can inhibit the metabolism of ethinyl estradiol and levonorgestrel, there is no evidence that fluconazole is a net inducer of ethinyl estradiol or levonorgestrel metabolism. ">
+        <entity id="DDI-DrugBank.d776.s41.e0" charOffset="29-39"
+            type="drug" text="fluconazole"/>
+        <entity id="DDI-DrugBank.d776.s41.e1" charOffset="71-87"
+            type="drug" text="ethinyl estradiol"/>
+        <entity id="DDI-DrugBank.d776.s41.e2" charOffset="93-106"
+            type="drug" text="levonorgestrel"/>
+        <entity id="DDI-DrugBank.d776.s41.e3" charOffset="135-145"
+            type="drug" text="fluconazole"/>
+        <entity id="DDI-DrugBank.d776.s41.e4" charOffset="167-183"
+            type="drug" text="ethinyl estradiol"/>
+        <entity id="DDI-DrugBank.d776.s41.e5" charOffset="188-201"
+            type="drug" text="levonorgestrel"/>
+        <pair id="DDI-DrugBank.d776.s41.p0"
+            e1="DDI-DrugBank.d776.s41.e0" e2="DDI-DrugBank.d776.s41.e1"
+            ddi="true" type="mechanism"/>
+        <pair id="DDI-DrugBank.d776.s41.p1"
+            e1="DDI-DrugBank.d776.s41.e0" e2="DDI-DrugBank.d776.s41.e2"
+            ddi="true" type="mechanism"/>
+        <pair id="DDI-DrugBank.d776.s41.p2"
+            e1="DDI-DrugBank.d776.s41.e0" e2="DDI-DrugBank.d776.s41.e3" ddi="false"/>
+        <pair id="DDI-DrugBank.d776.s41.p3"
+            e1="DDI-DrugBank.d776.s41.e0" e2="DDI-DrugBank.d776.s41.e4" ddi="false"/>
+        <pair id="DDI-DrugBank.d776.s41.p4"
+            e1="DDI-DrugBank.d776.s41.e0" e2="DDI-DrugBank.d776.s41.e5" ddi="false"/>
+        <pair id="DDI-DrugBank.d776.s41.p5"
+            e1="DDI-DrugBank.d776.s41.e1" e2="DDI-DrugBank.d776.s41.e2" ddi="false"/>
+        <pair id="DDI-DrugBank.d776.s41.p6"
+            e1="DDI-DrugBank.d776.s41.e1" e2="DDI-DrugBank.d776.s41.e3" ddi="false"/>
+        <pair id="DDI-DrugBank.d776.s41.p7"
+            e1="DDI-DrugBank.d776.s41.e1" e2="DDI-DrugBank.d776.s41.e4" ddi="false"/>
+        <pair id="DDI-DrugBank.d776.s41.p8"
+            e1="DDI-DrugBank.d776.s41.e1" e2="DDI-DrugBank.d776.s41.e5" ddi="false"/>
+        <pair id="DDI-DrugBank.d776.s41.p9"
+            e1="DDI-DrugBank.d776.s41.e2" e2="DDI-DrugBank.d776.s41.e3" ddi="false"/>
+        <pair id="DDI-DrugBank.d776.s41.p10"
+            e1="DDI-DrugBank.d776.s41.e2" e2="DDI-DrugBank.d776.s41.e4" ddi="false"/>
+        <pair id="DDI-DrugBank.d776.s41.p11"
+            e1="DDI-DrugBank.d776.s41.e2" e2="DDI-DrugBank.d776.s41.e5" ddi="false"/>
+        <pair id="DDI-DrugBank.d776.s41.p12"
+            e1="DDI-DrugBank.d776.s41.e3" e2="DDI-DrugBank.d776.s41.e4" ddi="false"/>
+        <pair id="DDI-DrugBank.d776.s41.p13"
+            e1="DDI-DrugBank.d776.s41.e3" e2="DDI-DrugBank.d776.s41.e5" ddi="false"/>
+        <pair id="DDI-DrugBank.d776.s41.p14"
+            e1="DDI-DrugBank.d776.s41.e4" e2="DDI-DrugBank.d776.s41.e5" ddi="false"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d776.s42" text="The clinical significance of these effects is presently unknown. "/>
+    <sentence id="DDI-DrugBank.d776.s43" text="Physicians should be aware that interaction studies with medications other than those listed in the &lt;a href= &quot;flucon_cp.htm#CP&quot;>CLINICAL PHARMACOLOGY section have not been conducted, but such interactions may occur."/>
+</document>

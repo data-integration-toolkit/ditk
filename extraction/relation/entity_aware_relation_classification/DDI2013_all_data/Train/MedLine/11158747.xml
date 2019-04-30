@@ -1,0 +1,175 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="DDI-MedLine.d3">
+    <sentence id="DDI-MedLine.d3.s0" text="Pharmacokinetic Interaction between amprenavir and rifabutin or rifampin in healthy males.&#xa;">
+        <entity id="DDI-MedLine.d3.s0.e0" charOffset="36-45" type="drug" text="amprenavir"/>
+        <entity id="DDI-MedLine.d3.s0.e1" charOffset="51-59" type="drug" text="rifabutin"/>
+        <entity id="DDI-MedLine.d3.s0.e2" charOffset="64-71" type="drug" text="rifampin"/>
+        <pair id="DDI-MedLine.d3.s0.p0" e1="DDI-MedLine.d3.s0.e0"
+            e2="DDI-MedLine.d3.s0.e1" ddi="false"/>
+        <pair id="DDI-MedLine.d3.s0.p1" e1="DDI-MedLine.d3.s0.e0"
+            e2="DDI-MedLine.d3.s0.e2" ddi="false"/>
+        <pair id="DDI-MedLine.d3.s0.p2" e1="DDI-MedLine.d3.s0.e1"
+            e2="DDI-MedLine.d3.s0.e2" ddi="false"/>
+    </sentence>
+    <sentence id="DDI-MedLine.d3.s1" text="The objective of this study was to determine if there is a pharmacokinetic interaction when amprenavir is given with rifabutin or rifampin and to determine the effects of these drugs on the erythromycin breath test (ERMBT). ">
+        <entity id="DDI-MedLine.d3.s1.e0" charOffset="92-101"
+            type="drug" text="amprenavir"/>
+        <entity id="DDI-MedLine.d3.s1.e1" charOffset="117-125"
+            type="drug" text="rifabutin"/>
+        <entity id="DDI-MedLine.d3.s1.e2" charOffset="130-137"
+            type="drug" text="rifampin"/>
+        <pair id="DDI-MedLine.d3.s1.p0" e1="DDI-MedLine.d3.s1.e0"
+            e2="DDI-MedLine.d3.s1.e1" ddi="false"/>
+        <pair id="DDI-MedLine.d3.s1.p1" e1="DDI-MedLine.d3.s1.e0"
+            e2="DDI-MedLine.d3.s1.e2" ddi="false"/>
+        <pair id="DDI-MedLine.d3.s1.p2" e1="DDI-MedLine.d3.s1.e1"
+            e2="DDI-MedLine.d3.s1.e2" ddi="false"/>
+    </sentence>
+    <sentence id="DDI-MedLine.d3.s2" text="Twenty-four healthy male subjects were randomized to one of two cohorts. "/>
+    <sentence id="DDI-MedLine.d3.s3" text="All subjects received amprenavir (1,200 mg twice a day) for 4 days, followed by a 7-day washout period, followed by either rifabutin (300 mg once a day [QD]) (cohort 1) or rifampin (600 mg QD) (cohort 2) for 14 days. ">
+        <entity id="DDI-MedLine.d3.s3.e0" charOffset="22-31" type="drug" text="amprenavir"/>
+        <entity id="DDI-MedLine.d3.s3.e1" charOffset="123-131"
+            type="drug" text="rifabutin"/>
+        <entity id="DDI-MedLine.d3.s3.e2" charOffset="172-179"
+            type="drug" text="rifampin"/>
+        <pair id="DDI-MedLine.d3.s3.p0" e1="DDI-MedLine.d3.s3.e0"
+            e2="DDI-MedLine.d3.s3.e1" ddi="false"/>
+        <pair id="DDI-MedLine.d3.s3.p1" e1="DDI-MedLine.d3.s3.e0"
+            e2="DDI-MedLine.d3.s3.e2" ddi="false"/>
+        <pair id="DDI-MedLine.d3.s3.p2" e1="DDI-MedLine.d3.s3.e1"
+            e2="DDI-MedLine.d3.s3.e2" ddi="false"/>
+    </sentence>
+    <sentence id="DDI-MedLine.d3.s4" text="Cohort 1 then received amprenavir plus rifabutin for 10 days, and cohort 2 received amprenavir plus rifampin for 4 days. ">
+        <entity id="DDI-MedLine.d3.s4.e0" charOffset="23-32" type="drug" text="amprenavir"/>
+        <entity id="DDI-MedLine.d3.s4.e1" charOffset="39-47" type="drug" text="rifabutin"/>
+        <entity id="DDI-MedLine.d3.s4.e2" charOffset="84-93" type="drug" text="amprenavir"/>
+        <entity id="DDI-MedLine.d3.s4.e3" charOffset="100-107"
+            type="drug" text="rifampin"/>
+        <pair id="DDI-MedLine.d3.s4.p0" e1="DDI-MedLine.d3.s4.e0"
+            e2="DDI-MedLine.d3.s4.e1" ddi="false"/>
+        <pair id="DDI-MedLine.d3.s4.p1" e1="DDI-MedLine.d3.s4.e0"
+            e2="DDI-MedLine.d3.s4.e2" ddi="false"/>
+        <pair id="DDI-MedLine.d3.s4.p2" e1="DDI-MedLine.d3.s4.e0"
+            e2="DDI-MedLine.d3.s4.e3" ddi="false"/>
+        <pair id="DDI-MedLine.d3.s4.p3" e1="DDI-MedLine.d3.s4.e1"
+            e2="DDI-MedLine.d3.s4.e2" ddi="false"/>
+        <pair id="DDI-MedLine.d3.s4.p4" e1="DDI-MedLine.d3.s4.e1"
+            e2="DDI-MedLine.d3.s4.e3" ddi="false"/>
+        <pair id="DDI-MedLine.d3.s4.p5" e1="DDI-MedLine.d3.s4.e2"
+            e2="DDI-MedLine.d3.s4.e3" ddi="false"/>
+    </sentence>
+    <sentence id="DDI-MedLine.d3.s5" text="Serial plasma and urine samples for measurement of amprenavir, rifabutin, and rifampin and their 25-O-desacetyl metabolites, were measured by high-performance liquid chromatography. ">
+        <entity id="DDI-MedLine.d3.s5.e0" charOffset="51-60" type="drug" text="amprenavir"/>
+        <entity id="DDI-MedLine.d3.s5.e1" charOffset="63-71" type="drug" text="rifabutin"/>
+        <entity id="DDI-MedLine.d3.s5.e2" charOffset="78-85" type="drug" text="rifampin"/>
+        <entity id="DDI-MedLine.d3.s5.e3" charOffset="97-122"
+            type="drug_n" text="25-O-desacetyl metabolites"/>
+        <pair id="DDI-MedLine.d3.s5.p0" e1="DDI-MedLine.d3.s5.e0"
+            e2="DDI-MedLine.d3.s5.e1" ddi="false"/>
+        <pair id="DDI-MedLine.d3.s5.p1" e1="DDI-MedLine.d3.s5.e0"
+            e2="DDI-MedLine.d3.s5.e2" ddi="false"/>
+        <pair id="DDI-MedLine.d3.s5.p2" e1="DDI-MedLine.d3.s5.e0"
+            e2="DDI-MedLine.d3.s5.e3" ddi="false"/>
+        <pair id="DDI-MedLine.d3.s5.p3" e1="DDI-MedLine.d3.s5.e1"
+            e2="DDI-MedLine.d3.s5.e2" ddi="false"/>
+        <pair id="DDI-MedLine.d3.s5.p4" e1="DDI-MedLine.d3.s5.e1"
+            e2="DDI-MedLine.d3.s5.e3" ddi="false"/>
+        <pair id="DDI-MedLine.d3.s5.p5" e1="DDI-MedLine.d3.s5.e2"
+            e2="DDI-MedLine.d3.s5.e3" ddi="false"/>
+    </sentence>
+    <sentence id="DDI-MedLine.d3.s6" text="Rifabutin did not significantly affect amprenavir's pharmacokinetics. ">
+        <entity id="DDI-MedLine.d3.s6.e0" charOffset="0-8" type="drug" text="Rifabutin"/>
+        <entity id="DDI-MedLine.d3.s6.e1" charOffset="39-48" type="drug" text="amprenavir"/>
+        <pair id="DDI-MedLine.d3.s6.p0" e1="DDI-MedLine.d3.s6.e0"
+            e2="DDI-MedLine.d3.s6.e1" ddi="false"/>
+    </sentence>
+    <sentence id="DDI-MedLine.d3.s7" text="Amprenavir significantly increased the area under the curve at steady state (AUC(ss)) of rifabutin by 2.93-fold and the AUC(ss) of 25-O-desacetylrifabutin by 13.3-fold. ">
+        <entity id="DDI-MedLine.d3.s7.e0" charOffset="0-9" type="drug" text="Amprenavir"/>
+        <entity id="DDI-MedLine.d3.s7.e1" charOffset="89-97" type="drug" text="rifabutin"/>
+        <entity id="DDI-MedLine.d3.s7.e2" charOffset="131-153"
+            type="drug_n" text="25-O-desacetylrifabutin"/>
+        <pair id="DDI-MedLine.d3.s7.p0" e1="DDI-MedLine.d3.s7.e0"
+            e2="DDI-MedLine.d3.s7.e1" ddi="true" type="mechanism"/>
+        <pair id="DDI-MedLine.d3.s7.p1" e1="DDI-MedLine.d3.s7.e0"
+            e2="DDI-MedLine.d3.s7.e2" ddi="true" type="mechanism"/>
+        <pair id="DDI-MedLine.d3.s7.p2" e1="DDI-MedLine.d3.s7.e1"
+            e2="DDI-MedLine.d3.s7.e2" ddi="false"/>
+    </sentence>
+    <sentence id="DDI-MedLine.d3.s8" text="Rifampin significantly decreased the AUC(ss) of amprenavir by 82%, but amprenavir had no effect on rifampin pharmacokinetics. ">
+        <entity id="DDI-MedLine.d3.s8.e0" charOffset="0-7" type="drug" text="Rifampin"/>
+        <entity id="DDI-MedLine.d3.s8.e1" charOffset="48-57" type="drug" text="amprenavir"/>
+        <entity id="DDI-MedLine.d3.s8.e2" charOffset="71-80" type="drug" text="amprenavir"/>
+        <entity id="DDI-MedLine.d3.s8.e3" charOffset="99-106"
+            type="drug" text="rifampin"/>
+        <pair id="DDI-MedLine.d3.s8.p0" e1="DDI-MedLine.d3.s8.e0"
+            e2="DDI-MedLine.d3.s8.e1" ddi="true" type="mechanism"/>
+        <pair id="DDI-MedLine.d3.s8.p1" e1="DDI-MedLine.d3.s8.e0"
+            e2="DDI-MedLine.d3.s8.e2" ddi="false"/>
+        <pair id="DDI-MedLine.d3.s8.p2" e1="DDI-MedLine.d3.s8.e0"
+            e2="DDI-MedLine.d3.s8.e3" ddi="false"/>
+        <pair id="DDI-MedLine.d3.s8.p3" e1="DDI-MedLine.d3.s8.e1"
+            e2="DDI-MedLine.d3.s8.e2" ddi="false"/>
+        <pair id="DDI-MedLine.d3.s8.p4" e1="DDI-MedLine.d3.s8.e1"
+            e2="DDI-MedLine.d3.s8.e3" ddi="false"/>
+        <pair id="DDI-MedLine.d3.s8.p5" e1="DDI-MedLine.d3.s8.e2"
+            e2="DDI-MedLine.d3.s8.e3" ddi="false"/>
+    </sentence>
+    <sentence id="DDI-MedLine.d3.s9" text="Amprenavir decreased the results of the ERMBT by 83%. ">
+        <entity id="DDI-MedLine.d3.s9.e0" charOffset="0-9" type="drug" text="Amprenavir"/>
+    </sentence>
+    <sentence id="DDI-MedLine.d3.s10" text="The results of the ERMBT after 2 weeks of rifabutin and rifampin therapy were increased 187 and 156%, respectively. ">
+        <entity id="DDI-MedLine.d3.s10.e0" charOffset="42-50"
+            type="drug" text="rifabutin"/>
+        <entity id="DDI-MedLine.d3.s10.e1" charOffset="56-63"
+            type="drug" text="rifampin"/>
+        <pair id="DDI-MedLine.d3.s10.p0" e1="DDI-MedLine.d3.s10.e0"
+            e2="DDI-MedLine.d3.s10.e1" ddi="false"/>
+    </sentence>
+    <sentence id="DDI-MedLine.d3.s11" text="Amprenavir plus rifampin was well tolerated. ">
+        <entity id="DDI-MedLine.d3.s11.e0" charOffset="0-9" type="drug" text="Amprenavir"/>
+        <entity id="DDI-MedLine.d3.s11.e1" charOffset="16-23"
+            type="drug" text="rifampin"/>
+        <pair id="DDI-MedLine.d3.s11.p0" e1="DDI-MedLine.d3.s11.e0"
+            e2="DDI-MedLine.d3.s11.e1" ddi="false"/>
+    </sentence>
+    <sentence id="DDI-MedLine.d3.s12" text="Amprenavir plus rifabutin was poorly tolerated, and 5 of 11 subjects discontinued therapy. ">
+        <entity id="DDI-MedLine.d3.s12.e0" charOffset="0-9" type="drug" text="Amprenavir"/>
+        <entity id="DDI-MedLine.d3.s12.e1" charOffset="16-24"
+            type="drug" text="rifabutin"/>
+        <pair id="DDI-MedLine.d3.s12.p0" e1="DDI-MedLine.d3.s12.e0"
+            e2="DDI-MedLine.d3.s12.e1" ddi="true" type="effect"/>
+    </sentence>
+    <sentence id="DDI-MedLine.d3.s13" text="Rifampin markedly increases the metabolic clearance of amprenavir, and coadministration is contraindicated. ">
+        <entity id="DDI-MedLine.d3.s13.e0" charOffset="0-7" type="drug" text="Rifampin"/>
+        <entity id="DDI-MedLine.d3.s13.e1" charOffset="55-64"
+            type="drug" text="amprenavir"/>
+        <pair id="DDI-MedLine.d3.s13.p0" e1="DDI-MedLine.d3.s13.e0"
+            e2="DDI-MedLine.d3.s13.e1" ddi="true" type="mechanism"/>
+    </sentence>
+    <sentence id="DDI-MedLine.d3.s14" text="Amprenavir significantly decreases clearance of rifabutin and 25-O-desacetylrifabutin, and the combination is poorly tolerated. ">
+        <entity id="DDI-MedLine.d3.s14.e0" charOffset="0-9" type="drug" text="Amprenavir"/>
+        <entity id="DDI-MedLine.d3.s14.e1" charOffset="48-56"
+            type="drug" text="rifabutin"/>
+        <entity id="DDI-MedLine.d3.s14.e2" charOffset="62-84"
+            type="drug_n" text="25-O-desacetylrifabutin"/>
+        <pair id="DDI-MedLine.d3.s14.p0" e1="DDI-MedLine.d3.s14.e0"
+            e2="DDI-MedLine.d3.s14.e1" ddi="true" type="mechanism"/>
+        <pair id="DDI-MedLine.d3.s14.p1" e1="DDI-MedLine.d3.s14.e0"
+            e2="DDI-MedLine.d3.s14.e2" ddi="true" type="mechanism"/>
+        <pair id="DDI-MedLine.d3.s14.p2" e1="DDI-MedLine.d3.s14.e1"
+            e2="DDI-MedLine.d3.s14.e2" ddi="false"/>
+    </sentence>
+    <sentence id="DDI-MedLine.d3.s15" text="Amprenavir inhibits the ERMBT, and rifampin and rifabutin are equipotent inducers of the ERMBT.">
+        <entity id="DDI-MedLine.d3.s15.e0" charOffset="0-9" type="drug" text="Amprenavir"/>
+        <entity id="DDI-MedLine.d3.s15.e1" charOffset="35-42"
+            type="drug" text="rifampin"/>
+        <entity id="DDI-MedLine.d3.s15.e2" charOffset="48-56"
+            type="drug" text="rifabutin"/>
+        <pair id="DDI-MedLine.d3.s15.p0" e1="DDI-MedLine.d3.s15.e0"
+            e2="DDI-MedLine.d3.s15.e1" ddi="false"/>
+        <pair id="DDI-MedLine.d3.s15.p1" e1="DDI-MedLine.d3.s15.e0"
+            e2="DDI-MedLine.d3.s15.e2" ddi="false"/>
+        <pair id="DDI-MedLine.d3.s15.p2" e1="DDI-MedLine.d3.s15.e1"
+            e2="DDI-MedLine.d3.s15.e2" ddi="false"/>
+    </sentence>
+</document>

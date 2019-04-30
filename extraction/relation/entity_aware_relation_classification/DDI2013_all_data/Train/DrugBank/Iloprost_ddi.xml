@@ -1,0 +1,159 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="DDI-DrugBank.d549">
+    <sentence id="DDI-DrugBank.d549.s0" text="In studies in normal volunteers, there was no pharmacodynamic interaction between intravenous iloprost and either nifedipine, diltiazem, or captopril.">
+        <entity id="DDI-DrugBank.d549.s0.e0" charOffset="94-101"
+            type="drug" text="iloprost"/>
+        <entity id="DDI-DrugBank.d549.s0.e1" charOffset="114-123"
+            type="drug" text="nifedipine"/>
+        <entity id="DDI-DrugBank.d549.s0.e2" charOffset="126-134"
+            type="drug" text="diltiazem"/>
+        <entity id="DDI-DrugBank.d549.s0.e3" charOffset="140-148"
+            type="drug" text="captopril"/>
+        <pair id="DDI-DrugBank.d549.s0.p0" e1="DDI-DrugBank.d549.s0.e0"
+            e2="DDI-DrugBank.d549.s0.e1" ddi="false"/>
+        <pair id="DDI-DrugBank.d549.s0.p1" e1="DDI-DrugBank.d549.s0.e0"
+            e2="DDI-DrugBank.d549.s0.e2" ddi="false"/>
+        <pair id="DDI-DrugBank.d549.s0.p2" e1="DDI-DrugBank.d549.s0.e0"
+            e2="DDI-DrugBank.d549.s0.e3" ddi="false"/>
+        <pair id="DDI-DrugBank.d549.s0.p3" e1="DDI-DrugBank.d549.s0.e1"
+            e2="DDI-DrugBank.d549.s0.e2" ddi="false"/>
+        <pair id="DDI-DrugBank.d549.s0.p4" e1="DDI-DrugBank.d549.s0.e1"
+            e2="DDI-DrugBank.d549.s0.e3" ddi="false"/>
+        <pair id="DDI-DrugBank.d549.s0.p5" e1="DDI-DrugBank.d549.s0.e2"
+            e2="DDI-DrugBank.d549.s0.e3" ddi="false"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d549.s1" text="However, iloprost has the potential to increase the hypotensive effect of vasodilators and antihypertensive agents.">
+        <entity id="DDI-DrugBank.d549.s1.e0" charOffset="9-16"
+            type="drug" text="iloprost"/>
+        <entity id="DDI-DrugBank.d549.s1.e1" charOffset="74-85"
+            type="group" text="vasodilators"/>
+        <entity id="DDI-DrugBank.d549.s1.e2" charOffset="91-113"
+            type="group" text="antihypertensive agents"/>
+        <pair id="DDI-DrugBank.d549.s1.p0" e1="DDI-DrugBank.d549.s1.e0"
+            e2="DDI-DrugBank.d549.s1.e1" ddi="true" type="effect"/>
+        <pair id="DDI-DrugBank.d549.s1.p1" e1="DDI-DrugBank.d549.s1.e0"
+            e2="DDI-DrugBank.d549.s1.e2" ddi="true" type="effect"/>
+        <pair id="DDI-DrugBank.d549.s1.p2" e1="DDI-DrugBank.d549.s1.e1"
+            e2="DDI-DrugBank.d549.s1.e2" ddi="false"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d549.s2" text="Since iloprost inhibits platelet function, there is a potential for increased risk of bleeding, particularly in patients maintained on anticoagulants.">
+        <entity id="DDI-DrugBank.d549.s2.e0" charOffset="6-13"
+            type="drug" text="iloprost"/>
+        <entity id="DDI-DrugBank.d549.s2.e1" charOffset="135-148"
+            type="group" text="anticoagulants"/>
+        <pair id="DDI-DrugBank.d549.s2.p0" e1="DDI-DrugBank.d549.s2.e0"
+            e2="DDI-DrugBank.d549.s2.e1" ddi="true" type="effect"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d549.s3" text="During clinical trials, iloprost was used concurrently with anticoagulants, diuretics, cardiac glycosides, calcium channel blockers, analgesics, antipyretics, nonsteroidal antiinflammatories, corticosteroids, and other medications.">
+        <entity id="DDI-DrugBank.d549.s3.e0" charOffset="24-31"
+            type="drug" text="iloprost"/>
+        <entity id="DDI-DrugBank.d549.s3.e1" charOffset="60-73"
+            type="group" text="anticoagulants"/>
+        <entity id="DDI-DrugBank.d549.s3.e2" charOffset="76-84"
+            type="group" text="diuretics"/>
+        <entity id="DDI-DrugBank.d549.s3.e3" charOffset="87-104"
+            type="group" text="cardiac glycosides"/>
+        <entity id="DDI-DrugBank.d549.s3.e4" charOffset="107-130"
+            type="group" text="calcium channel blockers"/>
+        <entity id="DDI-DrugBank.d549.s3.e5" charOffset="133-142"
+            type="group" text="analgesics"/>
+        <entity id="DDI-DrugBank.d549.s3.e6" charOffset="145-156"
+            type="group" text="antipyretics"/>
+        <entity id="DDI-DrugBank.d549.s3.e7" charOffset="159-189"
+            type="group" text="nonsteroidal antiinflammatories"/>
+        <entity id="DDI-DrugBank.d549.s3.e8" charOffset="192-206"
+            type="group" text="corticosteroids"/>
+        <pair id="DDI-DrugBank.d549.s3.p0" e1="DDI-DrugBank.d549.s3.e0"
+            e2="DDI-DrugBank.d549.s3.e1" ddi="false"/>
+        <pair id="DDI-DrugBank.d549.s3.p1" e1="DDI-DrugBank.d549.s3.e0"
+            e2="DDI-DrugBank.d549.s3.e2" ddi="false"/>
+        <pair id="DDI-DrugBank.d549.s3.p2" e1="DDI-DrugBank.d549.s3.e0"
+            e2="DDI-DrugBank.d549.s3.e3" ddi="false"/>
+        <pair id="DDI-DrugBank.d549.s3.p3" e1="DDI-DrugBank.d549.s3.e0"
+            e2="DDI-DrugBank.d549.s3.e4" ddi="false"/>
+        <pair id="DDI-DrugBank.d549.s3.p4" e1="DDI-DrugBank.d549.s3.e0"
+            e2="DDI-DrugBank.d549.s3.e5" ddi="false"/>
+        <pair id="DDI-DrugBank.d549.s3.p5" e1="DDI-DrugBank.d549.s3.e0"
+            e2="DDI-DrugBank.d549.s3.e6" ddi="false"/>
+        <pair id="DDI-DrugBank.d549.s3.p6" e1="DDI-DrugBank.d549.s3.e0"
+            e2="DDI-DrugBank.d549.s3.e7" ddi="false"/>
+        <pair id="DDI-DrugBank.d549.s3.p7" e1="DDI-DrugBank.d549.s3.e0"
+            e2="DDI-DrugBank.d549.s3.e8" ddi="false"/>
+        <pair id="DDI-DrugBank.d549.s3.p8" e1="DDI-DrugBank.d549.s3.e1"
+            e2="DDI-DrugBank.d549.s3.e2" ddi="false"/>
+        <pair id="DDI-DrugBank.d549.s3.p9" e1="DDI-DrugBank.d549.s3.e1"
+            e2="DDI-DrugBank.d549.s3.e3" ddi="false"/>
+        <pair id="DDI-DrugBank.d549.s3.p10" e1="DDI-DrugBank.d549.s3.e1"
+            e2="DDI-DrugBank.d549.s3.e4" ddi="false"/>
+        <pair id="DDI-DrugBank.d549.s3.p11" e1="DDI-DrugBank.d549.s3.e1"
+            e2="DDI-DrugBank.d549.s3.e5" ddi="false"/>
+        <pair id="DDI-DrugBank.d549.s3.p12" e1="DDI-DrugBank.d549.s3.e1"
+            e2="DDI-DrugBank.d549.s3.e6" ddi="false"/>
+        <pair id="DDI-DrugBank.d549.s3.p13" e1="DDI-DrugBank.d549.s3.e1"
+            e2="DDI-DrugBank.d549.s3.e7" ddi="false"/>
+        <pair id="DDI-DrugBank.d549.s3.p14" e1="DDI-DrugBank.d549.s3.e1"
+            e2="DDI-DrugBank.d549.s3.e8" ddi="false"/>
+        <pair id="DDI-DrugBank.d549.s3.p15" e1="DDI-DrugBank.d549.s3.e2"
+            e2="DDI-DrugBank.d549.s3.e3" ddi="false"/>
+        <pair id="DDI-DrugBank.d549.s3.p16" e1="DDI-DrugBank.d549.s3.e2"
+            e2="DDI-DrugBank.d549.s3.e4" ddi="false"/>
+        <pair id="DDI-DrugBank.d549.s3.p17" e1="DDI-DrugBank.d549.s3.e2"
+            e2="DDI-DrugBank.d549.s3.e5" ddi="false"/>
+        <pair id="DDI-DrugBank.d549.s3.p18" e1="DDI-DrugBank.d549.s3.e2"
+            e2="DDI-DrugBank.d549.s3.e6" ddi="false"/>
+        <pair id="DDI-DrugBank.d549.s3.p19" e1="DDI-DrugBank.d549.s3.e2"
+            e2="DDI-DrugBank.d549.s3.e7" ddi="false"/>
+        <pair id="DDI-DrugBank.d549.s3.p20" e1="DDI-DrugBank.d549.s3.e2"
+            e2="DDI-DrugBank.d549.s3.e8" ddi="false"/>
+        <pair id="DDI-DrugBank.d549.s3.p21" e1="DDI-DrugBank.d549.s3.e3"
+            e2="DDI-DrugBank.d549.s3.e4" ddi="false"/>
+        <pair id="DDI-DrugBank.d549.s3.p22" e1="DDI-DrugBank.d549.s3.e3"
+            e2="DDI-DrugBank.d549.s3.e5" ddi="false"/>
+        <pair id="DDI-DrugBank.d549.s3.p23" e1="DDI-DrugBank.d549.s3.e3"
+            e2="DDI-DrugBank.d549.s3.e6" ddi="false"/>
+        <pair id="DDI-DrugBank.d549.s3.p24" e1="DDI-DrugBank.d549.s3.e3"
+            e2="DDI-DrugBank.d549.s3.e7" ddi="false"/>
+        <pair id="DDI-DrugBank.d549.s3.p25" e1="DDI-DrugBank.d549.s3.e3"
+            e2="DDI-DrugBank.d549.s3.e8" ddi="false"/>
+        <pair id="DDI-DrugBank.d549.s3.p26" e1="DDI-DrugBank.d549.s3.e4"
+            e2="DDI-DrugBank.d549.s3.e5" ddi="false"/>
+        <pair id="DDI-DrugBank.d549.s3.p27" e1="DDI-DrugBank.d549.s3.e4"
+            e2="DDI-DrugBank.d549.s3.e6" ddi="false"/>
+        <pair id="DDI-DrugBank.d549.s3.p28" e1="DDI-DrugBank.d549.s3.e4"
+            e2="DDI-DrugBank.d549.s3.e7" ddi="false"/>
+        <pair id="DDI-DrugBank.d549.s3.p29" e1="DDI-DrugBank.d549.s3.e4"
+            e2="DDI-DrugBank.d549.s3.e8" ddi="false"/>
+        <pair id="DDI-DrugBank.d549.s3.p30" e1="DDI-DrugBank.d549.s3.e5"
+            e2="DDI-DrugBank.d549.s3.e6" ddi="false"/>
+        <pair id="DDI-DrugBank.d549.s3.p31" e1="DDI-DrugBank.d549.s3.e5"
+            e2="DDI-DrugBank.d549.s3.e7" ddi="false"/>
+        <pair id="DDI-DrugBank.d549.s3.p32" e1="DDI-DrugBank.d549.s3.e5"
+            e2="DDI-DrugBank.d549.s3.e8" ddi="false"/>
+        <pair id="DDI-DrugBank.d549.s3.p33" e1="DDI-DrugBank.d549.s3.e6"
+            e2="DDI-DrugBank.d549.s3.e7" ddi="false"/>
+        <pair id="DDI-DrugBank.d549.s3.p34" e1="DDI-DrugBank.d549.s3.e6"
+            e2="DDI-DrugBank.d549.s3.e8" ddi="false"/>
+        <pair id="DDI-DrugBank.d549.s3.p35" e1="DDI-DrugBank.d549.s3.e7"
+            e2="DDI-DrugBank.d549.s3.e8" ddi="false"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d549.s4" text="Intravenous infusion of iloprost had no effect on the pharmacokinetics of digoxin.">
+        <entity id="DDI-DrugBank.d549.s4.e0" charOffset="24-31"
+            type="drug" text="iloprost"/>
+        <entity id="DDI-DrugBank.d549.s4.e1" charOffset="74-80"
+            type="drug" text="digoxin"/>
+        <pair id="DDI-DrugBank.d549.s4.p0" e1="DDI-DrugBank.d549.s4.e0"
+            e2="DDI-DrugBank.d549.s4.e1" ddi="false"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d549.s5" text="Acetylsalicylic acid did not alter the clearance (pharmacokinetics) of iloprost.">
+        <entity id="DDI-DrugBank.d549.s5.e0" charOffset="0-19"
+            type="drug" text="Acetylsalicylic acid"/>
+        <entity id="DDI-DrugBank.d549.s5.e1" charOffset="71-78"
+            type="drug" text="iloprost"/>
+        <pair id="DDI-DrugBank.d549.s5.p0" e1="DDI-DrugBank.d549.s5.e0"
+            e2="DDI-DrugBank.d549.s5.e1" ddi="false"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d549.s6" text="Although clinical studies have not been conducted, in vitro studies of iloprost indicate that no relevant inhibition of cytochrome P450 drug metabolism would be expected.">
+        <entity id="DDI-DrugBank.d549.s6.e0" charOffset="71-78"
+            type="drug" text="iloprost"/>
+    </sentence>
+</document>

@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="DDI-DrugBank.d26">
+    <sentence id="DDI-DrugBank.d26.s0" text="Patients receiving other narcotic analgesics, general anesthetics, phenothiazines, tranquilizers, sedative-hypnotics, tricyclic antidepressants or other CNS depressants (including alcohol) concomitantly with DILAUDID may exhibit an additive CNS depression.">
+        <entity id="DDI-DrugBank.d26.s0.e0" charOffset="25-42"
+            type="group" text="narcotic analgesic"/>
+        <entity id="DDI-DrugBank.d26.s0.e1" charOffset="54-64"
+            type="group" text="anesthetics"/>
+        <entity id="DDI-DrugBank.d26.s0.e2" charOffset="67-80"
+            type="group" text="phenothiazines"/>
+        <entity id="DDI-DrugBank.d26.s0.e3" charOffset="83-95"
+            type="group" text="tranquilizers"/>
+        <entity id="DDI-DrugBank.d26.s0.e4" charOffset="98-115"
+            type="group" text="sedative-hypnotics"/>
+        <entity id="DDI-DrugBank.d26.s0.e5" charOffset="118-142"
+            type="group" text="tricyclic antidepressants"/>
+        <entity id="DDI-DrugBank.d26.s0.e6" charOffset="153-167"
+            type="group" text="CNS depressants"/>
+        <entity id="DDI-DrugBank.d26.s0.e7" charOffset="180-186"
+            type="drug" text="alcohol"/>
+        <entity id="DDI-DrugBank.d26.s0.e8" charOffset="208-215"
+            type="brand" text="DILAUDID"/>
+        <pair id="DDI-DrugBank.d26.s0.p0" e1="DDI-DrugBank.d26.s0.e0"
+            e2="DDI-DrugBank.d26.s0.e1" ddi="false"/>
+        <pair id="DDI-DrugBank.d26.s0.p1" e1="DDI-DrugBank.d26.s0.e0"
+            e2="DDI-DrugBank.d26.s0.e2" ddi="false"/>
+        <pair id="DDI-DrugBank.d26.s0.p2" e1="DDI-DrugBank.d26.s0.e0"
+            e2="DDI-DrugBank.d26.s0.e3" ddi="false"/>
+        <pair id="DDI-DrugBank.d26.s0.p3" e1="DDI-DrugBank.d26.s0.e0"
+            e2="DDI-DrugBank.d26.s0.e4" ddi="false"/>
+        <pair id="DDI-DrugBank.d26.s0.p4" e1="DDI-DrugBank.d26.s0.e0"
+            e2="DDI-DrugBank.d26.s0.e5" ddi="false"/>
+        <pair id="DDI-DrugBank.d26.s0.p5" e1="DDI-DrugBank.d26.s0.e0"
+            e2="DDI-DrugBank.d26.s0.e6" ddi="false"/>
+        <pair id="DDI-DrugBank.d26.s0.p6" e1="DDI-DrugBank.d26.s0.e0"
+            e2="DDI-DrugBank.d26.s0.e7" ddi="false"/>
+        <pair id="DDI-DrugBank.d26.s0.p7" e1="DDI-DrugBank.d26.s0.e0"
+            e2="DDI-DrugBank.d26.s0.e8" ddi="true" type="effect"/>
+        <pair id="DDI-DrugBank.d26.s0.p8" e1="DDI-DrugBank.d26.s0.e1"
+            e2="DDI-DrugBank.d26.s0.e2" ddi="false"/>
+        <pair id="DDI-DrugBank.d26.s0.p9" e1="DDI-DrugBank.d26.s0.e1"
+            e2="DDI-DrugBank.d26.s0.e3" ddi="false"/>
+        <pair id="DDI-DrugBank.d26.s0.p10" e1="DDI-DrugBank.d26.s0.e1"
+            e2="DDI-DrugBank.d26.s0.e4" ddi="false"/>
+        <pair id="DDI-DrugBank.d26.s0.p11" e1="DDI-DrugBank.d26.s0.e1"
+            e2="DDI-DrugBank.d26.s0.e5" ddi="false"/>
+        <pair id="DDI-DrugBank.d26.s0.p12" e1="DDI-DrugBank.d26.s0.e1"
+            e2="DDI-DrugBank.d26.s0.e6" ddi="false"/>
+        <pair id="DDI-DrugBank.d26.s0.p13" e1="DDI-DrugBank.d26.s0.e1"
+            e2="DDI-DrugBank.d26.s0.e7" ddi="false"/>
+        <pair id="DDI-DrugBank.d26.s0.p14" e1="DDI-DrugBank.d26.s0.e1"
+            e2="DDI-DrugBank.d26.s0.e8" ddi="true" type="effect"/>
+        <pair id="DDI-DrugBank.d26.s0.p15" e1="DDI-DrugBank.d26.s0.e2"
+            e2="DDI-DrugBank.d26.s0.e3" ddi="false"/>
+        <pair id="DDI-DrugBank.d26.s0.p16" e1="DDI-DrugBank.d26.s0.e2"
+            e2="DDI-DrugBank.d26.s0.e4" ddi="false"/>
+        <pair id="DDI-DrugBank.d26.s0.p17" e1="DDI-DrugBank.d26.s0.e2"
+            e2="DDI-DrugBank.d26.s0.e5" ddi="false"/>
+        <pair id="DDI-DrugBank.d26.s0.p18" e1="DDI-DrugBank.d26.s0.e2"
+            e2="DDI-DrugBank.d26.s0.e6" ddi="false"/>
+        <pair id="DDI-DrugBank.d26.s0.p19" e1="DDI-DrugBank.d26.s0.e2"
+            e2="DDI-DrugBank.d26.s0.e7" ddi="false"/>
+        <pair id="DDI-DrugBank.d26.s0.p20" e1="DDI-DrugBank.d26.s0.e2"
+            e2="DDI-DrugBank.d26.s0.e8" ddi="true" type="effect"/>
+        <pair id="DDI-DrugBank.d26.s0.p21" e1="DDI-DrugBank.d26.s0.e3"
+            e2="DDI-DrugBank.d26.s0.e4" ddi="false"/>
+        <pair id="DDI-DrugBank.d26.s0.p22" e1="DDI-DrugBank.d26.s0.e3"
+            e2="DDI-DrugBank.d26.s0.e5" ddi="false"/>
+        <pair id="DDI-DrugBank.d26.s0.p23" e1="DDI-DrugBank.d26.s0.e3"
+            e2="DDI-DrugBank.d26.s0.e6" ddi="false"/>
+        <pair id="DDI-DrugBank.d26.s0.p24" e1="DDI-DrugBank.d26.s0.e3"
+            e2="DDI-DrugBank.d26.s0.e7" ddi="false"/>
+        <pair id="DDI-DrugBank.d26.s0.p25" e1="DDI-DrugBank.d26.s0.e3"
+            e2="DDI-DrugBank.d26.s0.e8" ddi="true" type="effect"/>
+        <pair id="DDI-DrugBank.d26.s0.p26" e1="DDI-DrugBank.d26.s0.e4"
+            e2="DDI-DrugBank.d26.s0.e5" ddi="false"/>
+        <pair id="DDI-DrugBank.d26.s0.p27" e1="DDI-DrugBank.d26.s0.e4"
+            e2="DDI-DrugBank.d26.s0.e6" ddi="false"/>
+        <pair id="DDI-DrugBank.d26.s0.p28" e1="DDI-DrugBank.d26.s0.e4"
+            e2="DDI-DrugBank.d26.s0.e7" ddi="false"/>
+        <pair id="DDI-DrugBank.d26.s0.p29" e1="DDI-DrugBank.d26.s0.e4"
+            e2="DDI-DrugBank.d26.s0.e8" ddi="true" type="effect"/>
+        <pair id="DDI-DrugBank.d26.s0.p30" e1="DDI-DrugBank.d26.s0.e5"
+            e2="DDI-DrugBank.d26.s0.e6" ddi="false"/>
+        <pair id="DDI-DrugBank.d26.s0.p31" e1="DDI-DrugBank.d26.s0.e5"
+            e2="DDI-DrugBank.d26.s0.e7" ddi="false"/>
+        <pair id="DDI-DrugBank.d26.s0.p32" e1="DDI-DrugBank.d26.s0.e5"
+            e2="DDI-DrugBank.d26.s0.e8" ddi="true" type="effect"/>
+        <pair id="DDI-DrugBank.d26.s0.p33" e1="DDI-DrugBank.d26.s0.e6"
+            e2="DDI-DrugBank.d26.s0.e7" ddi="false"/>
+        <pair id="DDI-DrugBank.d26.s0.p34" e1="DDI-DrugBank.d26.s0.e6"
+            e2="DDI-DrugBank.d26.s0.e8" ddi="true" type="effect"/>
+        <pair id="DDI-DrugBank.d26.s0.p35" e1="DDI-DrugBank.d26.s0.e7"
+            e2="DDI-DrugBank.d26.s0.e8" ddi="true" type="effect"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d26.s1" text="When such combined therapy is contemplated, the dose of one or both agents should be reduced."/>
+</document>

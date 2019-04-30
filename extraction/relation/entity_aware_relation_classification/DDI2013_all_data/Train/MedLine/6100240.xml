@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="DDI-MedLine.d2">
+    <sentence id="DDI-MedLine.d2.s0" text="Failure of neomycin to modify ACTH induced hypertension in sheep.">
+        <entity id="DDI-MedLine.d2.s0.e0" charOffset="11-18" type="drug" text="neomycin"/>
+        <entity id="DDI-MedLine.d2.s0.e1" charOffset="30-33"
+            type="group" text="ACTH"/>
+        <pair id="DDI-MedLine.d2.s0.p0" e1="DDI-MedLine.d2.s0.e0"
+            e2="DDI-MedLine.d2.s0.e1" ddi="false"/>
+    </sentence>
+    <sentence id="DDI-MedLine.d2.s1" text="Studies in rats have shown that neomycin administration attenuates certain types of adrenocortical steroid dependent hypertension, including ACTH hypertension. ">
+        <entity id="DDI-MedLine.d2.s1.e0" charOffset="32-39" type="drug" text="neomycin"/>
+        <entity id="DDI-MedLine.d2.s1.e1" charOffset="84-105"
+            type="group" text="adrenocortical steroid"/>
+        <entity id="DDI-MedLine.d2.s1.e2" charOffset="141-144"
+            type="drug" text="ACTH"/>
+        <pair id="DDI-MedLine.d2.s1.p0" e1="DDI-MedLine.d2.s1.e0"
+            e2="DDI-MedLine.d2.s1.e1" ddi="false"/>
+        <pair id="DDI-MedLine.d2.s1.p1" e1="DDI-MedLine.d2.s1.e0"
+            e2="DDI-MedLine.d2.s1.e2" ddi="true" type="effect"/>
+        <pair id="DDI-MedLine.d2.s1.p2" e1="DDI-MedLine.d2.s1.e1"
+            e2="DDI-MedLine.d2.s1.e2" ddi="false"/>
+    </sentence>
+    <sentence id="DDI-MedLine.d2.s2" text="The effects of oral neomycin on ACTH induced hypertension were examined in conscious sheep. ">
+        <entity id="DDI-MedLine.d2.s2.e0" charOffset="20-27" type="drug" text="neomycin"/>
+        <entity id="DDI-MedLine.d2.s2.e1" charOffset="32-35"
+            type="group" text="ACTH"/>
+        <pair id="DDI-MedLine.d2.s2.p0" e1="DDI-MedLine.d2.s2.e0"
+            e2="DDI-MedLine.d2.s2.e1" ddi="false"/>
+    </sentence>
+    <sentence id="DDI-MedLine.d2.s3" text="Neomycin has no effect on the blood pressure or metabolic responses to ACTH in sheep.">
+        <entity id="DDI-MedLine.d2.s3.e0" charOffset="0-7" type="drug" text="Neomycin"/>
+        <entity id="DDI-MedLine.d2.s3.e1" charOffset="71-74"
+            type="group" text="ACTH"/>
+        <pair id="DDI-MedLine.d2.s3.p0" e1="DDI-MedLine.d2.s3.e0"
+            e2="DDI-MedLine.d2.s3.e1" ddi="false"/>
+    </sentence>
+</document>

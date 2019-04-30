@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="DDI-DrugBank.d668">
+    <sentence id="DDI-DrugBank.d668.s0" text="Although specific drug or food interactions with mifepristone have not been studied, on the basis of this drug   s metabolism by CYP 3A4, it is possible that ketoconazole, itraconazole, erythromycin, and grapefruit juice may inhibit its metabolism (increasing serum levels of mifepristone). ">
+        <entity id="DDI-DrugBank.d668.s0.e0" charOffset="49-60"
+            type="drug" text="mifepristone"/>
+        <entity id="DDI-DrugBank.d668.s0.e1" charOffset="158-169"
+            type="drug" text="ketoconazole"/>
+        <entity id="DDI-DrugBank.d668.s0.e2" charOffset="172-183"
+            type="drug" text="itraconazole"/>
+        <entity id="DDI-DrugBank.d668.s0.e3" charOffset="186-197"
+            type="drug" text="erythromycin"/>
+        <entity id="DDI-DrugBank.d668.s0.e4" charOffset="276-287"
+            type="drug" text="mifepristone"/>
+        <pair id="DDI-DrugBank.d668.s0.p0" e1="DDI-DrugBank.d668.s0.e0"
+            e2="DDI-DrugBank.d668.s0.e1" ddi="false"/>
+        <pair id="DDI-DrugBank.d668.s0.p1" e1="DDI-DrugBank.d668.s0.e0"
+            e2="DDI-DrugBank.d668.s0.e2" ddi="false"/>
+        <pair id="DDI-DrugBank.d668.s0.p2" e1="DDI-DrugBank.d668.s0.e0"
+            e2="DDI-DrugBank.d668.s0.e3" ddi="false"/>
+        <pair id="DDI-DrugBank.d668.s0.p3" e1="DDI-DrugBank.d668.s0.e0"
+            e2="DDI-DrugBank.d668.s0.e4" ddi="false"/>
+        <pair id="DDI-DrugBank.d668.s0.p4" e1="DDI-DrugBank.d668.s0.e1"
+            e2="DDI-DrugBank.d668.s0.e2" ddi="false"/>
+        <pair id="DDI-DrugBank.d668.s0.p5" e1="DDI-DrugBank.d668.s0.e1"
+            e2="DDI-DrugBank.d668.s0.e3" ddi="false"/>
+        <pair id="DDI-DrugBank.d668.s0.p6" e1="DDI-DrugBank.d668.s0.e1"
+            e2="DDI-DrugBank.d668.s0.e4" ddi="true" type="mechanism"/>
+        <pair id="DDI-DrugBank.d668.s0.p7" e1="DDI-DrugBank.d668.s0.e2"
+            e2="DDI-DrugBank.d668.s0.e3" ddi="false"/>
+        <pair id="DDI-DrugBank.d668.s0.p8" e1="DDI-DrugBank.d668.s0.e2"
+            e2="DDI-DrugBank.d668.s0.e4" ddi="true" type="mechanism"/>
+        <pair id="DDI-DrugBank.d668.s0.p9" e1="DDI-DrugBank.d668.s0.e3"
+            e2="DDI-DrugBank.d668.s0.e4" ddi="true" type="mechanism"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d668.s1" text="Furthermore, rifampin, dexamethasone, St. ">
+        <entity id="DDI-DrugBank.d668.s1.e0" charOffset="13-20"
+            type="drug" text="rifampin"/>
+        <entity id="DDI-DrugBank.d668.s1.e1" charOffset="23-35"
+            type="drug" text="dexamethasone"/>
+        <pair id="DDI-DrugBank.d668.s1.p0" e1="DDI-DrugBank.d668.s1.e0"
+            e2="DDI-DrugBank.d668.s1.e1" ddi="false"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d668.s2" text="John   s Wort, and certain anticonvulsants (phenytoin, phenobarbital, carbamazepine) may induce mifepristone metabolism (lowering serum levels of mifepristone). ">
+        <entity id="DDI-DrugBank.d668.s2.e0" charOffset="27-41"
+            type="group" text="anticonvulsants"/>
+        <entity id="DDI-DrugBank.d668.s2.e1" charOffset="44-52"
+            type="drug" text="phenytoin"/>
+        <entity id="DDI-DrugBank.d668.s2.e2" charOffset="55-67"
+            type="drug" text="phenobarbital"/>
+        <entity id="DDI-DrugBank.d668.s2.e3" charOffset="70-82"
+            type="drug" text="carbamazepine"/>
+        <entity id="DDI-DrugBank.d668.s2.e4" charOffset="96-107"
+            type="drug" text="mifepristone"/>
+        <entity id="DDI-DrugBank.d668.s2.e5" charOffset="146-157"
+            type="drug" text="mifepristone"/>
+        <pair id="DDI-DrugBank.d668.s2.p0" e1="DDI-DrugBank.d668.s2.e0"
+            e2="DDI-DrugBank.d668.s2.e1" ddi="false"/>
+        <pair id="DDI-DrugBank.d668.s2.p1" e1="DDI-DrugBank.d668.s2.e0"
+            e2="DDI-DrugBank.d668.s2.e2" ddi="false"/>
+        <pair id="DDI-DrugBank.d668.s2.p2" e1="DDI-DrugBank.d668.s2.e0"
+            e2="DDI-DrugBank.d668.s2.e3" ddi="false"/>
+        <pair id="DDI-DrugBank.d668.s2.p3" e1="DDI-DrugBank.d668.s2.e0"
+            e2="DDI-DrugBank.d668.s2.e4" ddi="true" type="mechanism"/>
+        <pair id="DDI-DrugBank.d668.s2.p4" e1="DDI-DrugBank.d668.s2.e0"
+            e2="DDI-DrugBank.d668.s2.e5" ddi="false"/>
+        <pair id="DDI-DrugBank.d668.s2.p5" e1="DDI-DrugBank.d668.s2.e1"
+            e2="DDI-DrugBank.d668.s2.e2" ddi="false"/>
+        <pair id="DDI-DrugBank.d668.s2.p6" e1="DDI-DrugBank.d668.s2.e1"
+            e2="DDI-DrugBank.d668.s2.e3" ddi="false"/>
+        <pair id="DDI-DrugBank.d668.s2.p7" e1="DDI-DrugBank.d668.s2.e1"
+            e2="DDI-DrugBank.d668.s2.e4" ddi="true" type="mechanism"/>
+        <pair id="DDI-DrugBank.d668.s2.p8" e1="DDI-DrugBank.d668.s2.e1"
+            e2="DDI-DrugBank.d668.s2.e5" ddi="false"/>
+        <pair id="DDI-DrugBank.d668.s2.p9" e1="DDI-DrugBank.d668.s2.e2"
+            e2="DDI-DrugBank.d668.s2.e3" ddi="false"/>
+        <pair id="DDI-DrugBank.d668.s2.p10" e1="DDI-DrugBank.d668.s2.e2"
+            e2="DDI-DrugBank.d668.s2.e4" ddi="true" type="mechanism"/>
+        <pair id="DDI-DrugBank.d668.s2.p11" e1="DDI-DrugBank.d668.s2.e2"
+            e2="DDI-DrugBank.d668.s2.e5" ddi="false"/>
+        <pair id="DDI-DrugBank.d668.s2.p12" e1="DDI-DrugBank.d668.s2.e3"
+            e2="DDI-DrugBank.d668.s2.e4" ddi="true" type="mechanism"/>
+        <pair id="DDI-DrugBank.d668.s2.p13" e1="DDI-DrugBank.d668.s2.e3"
+            e2="DDI-DrugBank.d668.s2.e5" ddi="false"/>
+        <pair id="DDI-DrugBank.d668.s2.p14" e1="DDI-DrugBank.d668.s2.e4"
+            e2="DDI-DrugBank.d668.s2.e5" ddi="false"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d668.s3" text="Based on in vitro inhibition information, coadministration of mifepristone may lead to an increase in serum levels of drugs that are CYP 3A4 substrates. ">
+        <entity id="DDI-DrugBank.d668.s3.e0" charOffset="62-73"
+            type="drug" text="mifepristone"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d668.s4" text="Due to the slow elimination of mifepristone from the body, such interaction may be observed for a prolonged period after its administration. ">
+        <entity id="DDI-DrugBank.d668.s4.e0" charOffset="31-42"
+            type="drug" text="mifepristone"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d668.s5" text="Therefore, caution should be exercised when mifepristone is administered with drugs that are CYP 3A4 substrates and have narrow therapeutic range, including some agents used during general anesthesia.">
+        <entity id="DDI-DrugBank.d668.s5.e0" charOffset="44-55"
+            type="drug" text="mifepristone"/>
+    </sentence>
+</document>

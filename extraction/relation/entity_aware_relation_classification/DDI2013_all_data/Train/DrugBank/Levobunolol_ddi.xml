@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="DDI-DrugBank.d252">
+    <sentence id="DDI-DrugBank.d252.s0" text="Although BETAGAN used alone has little or no effect on pupil size, mydriasis resulting from concomitant therapy with BETAGAN and epinephrine may occur.">
+        <entity id="DDI-DrugBank.d252.s0.e0" charOffset="9-15"
+            type="brand" text="BETAGAN"/>
+        <entity id="DDI-DrugBank.d252.s0.e1" charOffset="117-123"
+            type="brand" text="BETAGAN"/>
+        <entity id="DDI-DrugBank.d252.s0.e2" charOffset="129-139"
+            type="drug" text="epinephrine"/>
+        <pair id="DDI-DrugBank.d252.s0.p0" e1="DDI-DrugBank.d252.s0.e0"
+            e2="DDI-DrugBank.d252.s0.e1" ddi="false"/>
+        <pair id="DDI-DrugBank.d252.s0.p1" e1="DDI-DrugBank.d252.s0.e0"
+            e2="DDI-DrugBank.d252.s0.e2" ddi="false"/>
+        <pair id="DDI-DrugBank.d252.s0.p2" e1="DDI-DrugBank.d252.s0.e1"
+            e2="DDI-DrugBank.d252.s0.e2" ddi="true" type="effect"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d252.s1" text="Close observation of the patient is recommended when a beta-blocker is administered to patients receiving catecholamine-depleting drugs such as reserpine, because of possible additive effects and the production of hypotension and/or marked bradycardia, which may produce vertigo, syncope or postural hypotension.">
+        <entity id="DDI-DrugBank.d252.s1.e0" charOffset="55-66"
+            type="group" text="beta-blocker"/>
+        <entity id="DDI-DrugBank.d252.s1.e1" charOffset="144-152"
+            type="drug" text="reserpine"/>
+        <pair id="DDI-DrugBank.d252.s1.p0" e1="DDI-DrugBank.d252.s1.e0"
+            e2="DDI-DrugBank.d252.s1.e1" ddi="true" type="advise"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d252.s2" text="Patients receiving beta-adrenergic blocking agents along with either oral or intravenous calcium antagonists should be monitored for possible atrioventricular conduction disturbances, left ventricular failure and hypotension.">
+        <entity id="DDI-DrugBank.d252.s2.e0" charOffset="19-49"
+            type="group" text="beta-adrenergic blocking agents"/>
+        <entity id="DDI-DrugBank.d252.s2.e1" charOffset="89-107"
+            type="group" text="calcium antagonists"/>
+        <pair id="DDI-DrugBank.d252.s2.p0" e1="DDI-DrugBank.d252.s2.e0"
+            e2="DDI-DrugBank.d252.s2.e1" ddi="true" type="advise"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d252.s3" text="In patients with impaired cardiac function, simultaneous use should be avoided altogether."/>
+    <sentence id="DDI-DrugBank.d252.s4" text="The concomitant use of beta-adrenergic blocking agents with digitalis and calcium antagonists may have additive effects on prolonging atrioventricular conduction time.">
+        <entity id="DDI-DrugBank.d252.s4.e0" charOffset="23-53"
+            type="group" text="beta-adrenergic blocking agents"/>
+        <entity id="DDI-DrugBank.d252.s4.e1" charOffset="60-68"
+            type="group" text="digitalis"/>
+        <entity id="DDI-DrugBank.d252.s4.e2" charOffset="74-91"
+            type="group" text="calcium antagonist"/>
+        <pair id="DDI-DrugBank.d252.s4.p0" e1="DDI-DrugBank.d252.s4.e0"
+            e2="DDI-DrugBank.d252.s4.e1" ddi="true" type="effect"/>
+        <pair id="DDI-DrugBank.d252.s4.p1" e1="DDI-DrugBank.d252.s4.e0"
+            e2="DDI-DrugBank.d252.s4.e2" ddi="true" type="effect"/>
+        <pair id="DDI-DrugBank.d252.s4.p2" e1="DDI-DrugBank.d252.s4.e1"
+            e2="DDI-DrugBank.d252.s4.e2" ddi="false"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d252.s5" text="Phenothiazine-related compounds and beta-adrenergic blocking agents may have additive hypotensite effects due to the inhibition of each other s metabolism.">
+        <entity id="DDI-DrugBank.d252.s5.e0" charOffset="0-30"
+            type="group" text="Phenothiazine-related compounds"/>
+        <entity id="DDI-DrugBank.d252.s5.e1" charOffset="36-66"
+            type="group" text="beta-adrenergic blocking agents"/>
+        <pair id="DDI-DrugBank.d252.s5.p0" e1="DDI-DrugBank.d252.s5.e0"
+            e2="DDI-DrugBank.d252.s5.e1" ddi="true" type="mechanism"/>
+    </sentence>
+</document>

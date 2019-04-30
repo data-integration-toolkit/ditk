@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="DDI-DrugBank.d619">
+    <sentence id="DDI-DrugBank.d619.s0" text="The occurrence of stupor, muscular rigidity, severe agitation, and elevated temperature has been reported in some patients receiving the combination of selegiline and meperidine. ">
+        <entity id="DDI-DrugBank.d619.s0.e0" charOffset="152-161"
+            type="drug" text="selegiline"/>
+        <entity id="DDI-DrugBank.d619.s0.e1" charOffset="167-176"
+            type="drug" text="meperidine"/>
+        <pair id="DDI-DrugBank.d619.s0.p0" e1="DDI-DrugBank.d619.s0.e0"
+            e2="DDI-DrugBank.d619.s0.e1" ddi="true" type="effect"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d619.s1" text="Symptoms usually resolve over days when the combination is discontinued. "/>
+    <sentence id="DDI-DrugBank.d619.s2" text="This is typical of the interaction of meperidine and MAOIs. ">
+        <entity id="DDI-DrugBank.d619.s2.e0" charOffset="38-47"
+            type="drug" text="meperidine"/>
+        <entity id="DDI-DrugBank.d619.s2.e1" charOffset="53-57"
+            type="group" text="MAOIs"/>
+        <pair id="DDI-DrugBank.d619.s2.p0" e1="DDI-DrugBank.d619.s2.e0"
+            e2="DDI-DrugBank.d619.s2.e1" ddi="true" type="int"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d619.s3" text="Other serious reactions (including severe agitation, hallucinations, and death) have been reported in patients receiving this combination. "/>
+    <sentence id="DDI-DrugBank.d619.s4" text="Severe toxicity has also been reported in patients receiving the combination of tricyclic antidepressants and ELDEPRYL and selective serotonin reuptake inhibitors and ELDEPRYL. ">
+        <entity id="DDI-DrugBank.d619.s4.e0" charOffset="80-104"
+            type="group" text="tricyclic antidepressants"/>
+        <entity id="DDI-DrugBank.d619.s4.e1" charOffset="110-117"
+            type="brand" text="ELDEPRYL"/>
+        <entity id="DDI-DrugBank.d619.s4.e2" charOffset="123-161"
+            type="group" text="selective serotonin reuptake inhibitors"/>
+        <entity id="DDI-DrugBank.d619.s4.e3" charOffset="167-174"
+            type="brand" text="ELDEPRYL"/>
+        <pair id="DDI-DrugBank.d619.s4.p0" e1="DDI-DrugBank.d619.s4.e0"
+            e2="DDI-DrugBank.d619.s4.e1" ddi="true" type="effect"/>
+        <pair id="DDI-DrugBank.d619.s4.p1" e1="DDI-DrugBank.d619.s4.e0"
+            e2="DDI-DrugBank.d619.s4.e2" ddi="false"/>
+        <pair id="DDI-DrugBank.d619.s4.p2" e1="DDI-DrugBank.d619.s4.e0"
+            e2="DDI-DrugBank.d619.s4.e3" ddi="false"/>
+        <pair id="DDI-DrugBank.d619.s4.p3" e1="DDI-DrugBank.d619.s4.e1"
+            e2="DDI-DrugBank.d619.s4.e2" ddi="false"/>
+        <pair id="DDI-DrugBank.d619.s4.p4" e1="DDI-DrugBank.d619.s4.e1"
+            e2="DDI-DrugBank.d619.s4.e3" ddi="false"/>
+        <pair id="DDI-DrugBank.d619.s4.p5" e1="DDI-DrugBank.d619.s4.e2"
+            e2="DDI-DrugBank.d619.s4.e3" ddi="true" type="effect"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d619.s5" text="One case of hypertensive crisis has been reported in a patient taking the recommended doses of selegiline and a sympathomimetic medication (ephedrine).">
+        <entity id="DDI-DrugBank.d619.s5.e0" charOffset="95-104"
+            type="drug" text="selegiline"/>
+        <entity id="DDI-DrugBank.d619.s5.e1" charOffset="112-137"
+            type="group" text="sympathomimetic medication"/>
+        <entity id="DDI-DrugBank.d619.s5.e2" charOffset="140-148"
+            type="drug" text="ephedrine"/>
+        <pair id="DDI-DrugBank.d619.s5.p0" e1="DDI-DrugBank.d619.s5.e0"
+            e2="DDI-DrugBank.d619.s5.e1" ddi="true" type="effect"/>
+        <pair id="DDI-DrugBank.d619.s5.p1" e1="DDI-DrugBank.d619.s5.e0"
+            e2="DDI-DrugBank.d619.s5.e2" ddi="true" type="effect"/>
+        <pair id="DDI-DrugBank.d619.s5.p2" e1="DDI-DrugBank.d619.s5.e1"
+            e2="DDI-DrugBank.d619.s5.e2" ddi="false"/>
+    </sentence>
+</document>

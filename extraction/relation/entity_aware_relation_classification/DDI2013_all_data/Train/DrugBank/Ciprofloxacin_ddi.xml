@@ -1,0 +1,411 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="DDI-DrugBank.d123">
+    <sentence id="DDI-DrugBank.d123.s0" text="Some quinolones, including ciprofloxacin, have also been shown to interfere with the metabolism of caffeine.">
+        <entity id="DDI-DrugBank.d123.s0.e0" charOffset="5-14"
+            type="group" text="quinolones"/>
+        <entity id="DDI-DrugBank.d123.s0.e1" charOffset="27-39"
+            type="drug" text="ciprofloxacin"/>
+        <entity id="DDI-DrugBank.d123.s0.e2" charOffset="99-106"
+            type="drug" text="caffeine"/>
+        <pair id="DDI-DrugBank.d123.s0.p0" e1="DDI-DrugBank.d123.s0.e0"
+            e2="DDI-DrugBank.d123.s0.e1" ddi="false"/>
+        <pair id="DDI-DrugBank.d123.s0.p1" e1="DDI-DrugBank.d123.s0.e0"
+            e2="DDI-DrugBank.d123.s0.e2" ddi="true" type="mechanism"/>
+        <pair id="DDI-DrugBank.d123.s0.p2" e1="DDI-DrugBank.d123.s0.e1"
+            e2="DDI-DrugBank.d123.s0.e2" ddi="true" type="mechanism"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d123.s1" text="This may lead to reduced clearance of caffeine and a prolongation of its serum half-life.">
+        <entity id="DDI-DrugBank.d123.s1.e0" charOffset="38-45"
+            type="drug" text="caffeine"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d123.s2" text="Some quinolones, including ciprofloxacin, have been associated with transient elevations in serum creatinine in patients receiving cyclosporine concomitantly.">
+        <entity id="DDI-DrugBank.d123.s2.e0" charOffset="5-14"
+            type="group" text="quinolones"/>
+        <entity id="DDI-DrugBank.d123.s2.e1" charOffset="27-39"
+            type="drug" text="ciprofloxacin"/>
+        <entity id="DDI-DrugBank.d123.s2.e2" charOffset="131-142"
+            type="drug" text="cyclosporine"/>
+        <pair id="DDI-DrugBank.d123.s2.p0" e1="DDI-DrugBank.d123.s2.e0"
+            e2="DDI-DrugBank.d123.s2.e1" ddi="false"/>
+        <pair id="DDI-DrugBank.d123.s2.p1" e1="DDI-DrugBank.d123.s2.e0"
+            e2="DDI-DrugBank.d123.s2.e2" ddi="true" type="effect"/>
+        <pair id="DDI-DrugBank.d123.s2.p2" e1="DDI-DrugBank.d123.s2.e1"
+            e2="DDI-DrugBank.d123.s2.e2" ddi="true" type="effect"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d123.s3" text="Glyburide: The concomitant administration of ciprofloxacin with the sulfonylurea glyburide has, on rare occasions, resulted in severe hypoglycemia.">
+        <entity id="DDI-DrugBank.d123.s3.e0" charOffset="0-8"
+            type="drug" text="Glyburide"/>
+        <entity id="DDI-DrugBank.d123.s3.e1" charOffset="45-57"
+            type="drug" text="ciprofloxacin"/>
+        <entity id="DDI-DrugBank.d123.s3.e2" charOffset="68-79"
+            type="group" text="sulfonylurea"/>
+        <entity id="DDI-DrugBank.d123.s3.e3" charOffset="81-89"
+            type="drug" text="glyburide"/>
+        <pair id="DDI-DrugBank.d123.s3.p0" e1="DDI-DrugBank.d123.s3.e0"
+            e2="DDI-DrugBank.d123.s3.e1" ddi="false"/>
+        <pair id="DDI-DrugBank.d123.s3.p1" e1="DDI-DrugBank.d123.s3.e0"
+            e2="DDI-DrugBank.d123.s3.e2" ddi="false"/>
+        <pair id="DDI-DrugBank.d123.s3.p2" e1="DDI-DrugBank.d123.s3.e0"
+            e2="DDI-DrugBank.d123.s3.e3" ddi="false"/>
+        <pair id="DDI-DrugBank.d123.s3.p3" e1="DDI-DrugBank.d123.s3.e1"
+            e2="DDI-DrugBank.d123.s3.e2" ddi="true" type="effect"/>
+        <pair id="DDI-DrugBank.d123.s3.p4" e1="DDI-DrugBank.d123.s3.e1"
+            e2="DDI-DrugBank.d123.s3.e3" ddi="true" type="effect"/>
+        <pair id="DDI-DrugBank.d123.s3.p5" e1="DDI-DrugBank.d123.s3.e2"
+            e2="DDI-DrugBank.d123.s3.e3" ddi="false"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d123.s4" text="Histamine H2-receptor antagonists: Histamine H2-receptor antagonists appear to have no significant effect on the bioavailability of ciprofloxacin.">
+        <entity id="DDI-DrugBank.d123.s4.e0" charOffset="0-32"
+            type="group" text="Histamine H2-receptor antagonists"/>
+        <entity id="DDI-DrugBank.d123.s4.e1" charOffset="35-67"
+            type="group" text="Histamine H2-receptor antagonists"/>
+        <entity id="DDI-DrugBank.d123.s4.e2" charOffset="132-144"
+            type="drug" text="ciprofloxacin"/>
+        <pair id="DDI-DrugBank.d123.s4.p0" e1="DDI-DrugBank.d123.s4.e0"
+            e2="DDI-DrugBank.d123.s4.e1" ddi="false"/>
+        <pair id="DDI-DrugBank.d123.s4.p1" e1="DDI-DrugBank.d123.s4.e0"
+            e2="DDI-DrugBank.d123.s4.e2" ddi="false"/>
+        <pair id="DDI-DrugBank.d123.s4.p2" e1="DDI-DrugBank.d123.s4.e1"
+            e2="DDI-DrugBank.d123.s4.e2" ddi="false"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d123.s5" text="Methotrexate Renal tubular transport of methotrexate may be inhibited by concomitant administration of ciprofloxacin, potentially leading to increased plasma levels of methotrexate.">
+        <entity id="DDI-DrugBank.d123.s5.e0" charOffset="0-11"
+            type="drug" text="Methotrexate"/>
+        <entity id="DDI-DrugBank.d123.s5.e1" charOffset="40-51"
+            type="drug" text="methotrexate"/>
+        <entity id="DDI-DrugBank.d123.s5.e2" charOffset="103-115"
+            type="drug" text="ciprofloxacin"/>
+        <entity id="DDI-DrugBank.d123.s5.e3" charOffset="168-179"
+            type="drug" text="methotrexate"/>
+        <pair id="DDI-DrugBank.d123.s5.p0" e1="DDI-DrugBank.d123.s5.e0"
+            e2="DDI-DrugBank.d123.s5.e1" ddi="false"/>
+        <pair id="DDI-DrugBank.d123.s5.p1" e1="DDI-DrugBank.d123.s5.e0"
+            e2="DDI-DrugBank.d123.s5.e2" ddi="false"/>
+        <pair id="DDI-DrugBank.d123.s5.p2" e1="DDI-DrugBank.d123.s5.e0"
+            e2="DDI-DrugBank.d123.s5.e3" ddi="false"/>
+        <pair id="DDI-DrugBank.d123.s5.p3" e1="DDI-DrugBank.d123.s5.e1"
+            e2="DDI-DrugBank.d123.s5.e2" ddi="true" type="mechanism"/>
+        <pair id="DDI-DrugBank.d123.s5.p4" e1="DDI-DrugBank.d123.s5.e1"
+            e2="DDI-DrugBank.d123.s5.e3" ddi="false"/>
+        <pair id="DDI-DrugBank.d123.s5.p5" e1="DDI-DrugBank.d123.s5.e2"
+            e2="DDI-DrugBank.d123.s5.e3" ddi="false"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d123.s6" text="This might increase the risk of methotrexate toxic reactions.">
+        <entity id="DDI-DrugBank.d123.s6.e0" charOffset="32-43"
+            type="drug" text="methotrexate"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d123.s7" text="Therefore, patients under methotrexate therapy should be carefully monitored when concomitant ciprofloxacin therapy is indicated.">
+        <entity id="DDI-DrugBank.d123.s7.e0" charOffset="26-37"
+            type="drug" text="methotrexate"/>
+        <entity id="DDI-DrugBank.d123.s7.e1" charOffset="94-106"
+            type="drug" text="ciprofloxacin"/>
+        <pair id="DDI-DrugBank.d123.s7.p0" e1="DDI-DrugBank.d123.s7.e0"
+            e2="DDI-DrugBank.d123.s7.e1" ddi="true" type="advise"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d123.s8" text="Multivalent Cation-Containing Products: Concurrent administration of a quinolone, including ciprofloxacin, with multivalent cation-containing products such as magnesium or aluminum antacids, sucralfate, VIDEX chewable/buffered tablets or pediatric powder, or products containing calcium, iron, or zinc may substantially decrease the absorption of ciprofloxacin, resulting in serum and urine levels considerably lower than desired.">
+        <entity id="DDI-DrugBank.d123.s8.e0" charOffset="71-79"
+            type="group" text="quinolone"/>
+        <entity id="DDI-DrugBank.d123.s8.e1" charOffset="92-104"
+            type="drug" text="ciprofloxacin"/>
+        <entity id="DDI-DrugBank.d123.s8.e2" charOffset="159-167"
+            type="drug" text="magnesium"/>
+        <entity id="DDI-DrugBank.d123.s8.e3" charOffset="172-179"
+            type="drug" text="aluminum"/>
+        <entity id="DDI-DrugBank.d123.s8.e4" charOffset="181-188"
+            type="group" text="antacids"/>
+        <entity id="DDI-DrugBank.d123.s8.e5" charOffset="191-200"
+            type="drug" text="sucralfate"/>
+        <entity id="DDI-DrugBank.d123.s8.e6" charOffset="203-207"
+            type="brand" text="VIDEX"/>
+        <entity id="DDI-DrugBank.d123.s8.e7" charOffset="279-285"
+            type="drug" text="calcium"/>
+        <entity id="DDI-DrugBank.d123.s8.e8" charOffset="288-291"
+            type="drug" text="iron"/>
+        <entity id="DDI-DrugBank.d123.s8.e9" charOffset="297-300"
+            type="drug" text="zinc"/>
+        <entity id="DDI-DrugBank.d123.s8.e10" charOffset="347-359"
+            type="drug" text="ciprofloxacin"/>
+        <pair id="DDI-DrugBank.d123.s8.p0" e1="DDI-DrugBank.d123.s8.e0"
+            e2="DDI-DrugBank.d123.s8.e1" ddi="false"/>
+        <pair id="DDI-DrugBank.d123.s8.p1" e1="DDI-DrugBank.d123.s8.e0"
+            e2="DDI-DrugBank.d123.s8.e2" ddi="true" type="mechanism"/>
+        <pair id="DDI-DrugBank.d123.s8.p2" e1="DDI-DrugBank.d123.s8.e0"
+            e2="DDI-DrugBank.d123.s8.e3" ddi="true" type="mechanism"/>
+        <pair id="DDI-DrugBank.d123.s8.p3" e1="DDI-DrugBank.d123.s8.e0"
+            e2="DDI-DrugBank.d123.s8.e4" ddi="true" type="mechanism"/>
+        <pair id="DDI-DrugBank.d123.s8.p4" e1="DDI-DrugBank.d123.s8.e0"
+            e2="DDI-DrugBank.d123.s8.e5" ddi="true" type="mechanism"/>
+        <pair id="DDI-DrugBank.d123.s8.p5" e1="DDI-DrugBank.d123.s8.e0"
+            e2="DDI-DrugBank.d123.s8.e6" ddi="true" type="mechanism"/>
+        <pair id="DDI-DrugBank.d123.s8.p6" e1="DDI-DrugBank.d123.s8.e0"
+            e2="DDI-DrugBank.d123.s8.e7" ddi="true" type="mechanism"/>
+        <pair id="DDI-DrugBank.d123.s8.p7" e1="DDI-DrugBank.d123.s8.e0"
+            e2="DDI-DrugBank.d123.s8.e8" ddi="true" type="mechanism"/>
+        <pair id="DDI-DrugBank.d123.s8.p8" e1="DDI-DrugBank.d123.s8.e0"
+            e2="DDI-DrugBank.d123.s8.e9" ddi="true" type="mechanism"/>
+        <pair id="DDI-DrugBank.d123.s8.p9" e1="DDI-DrugBank.d123.s8.e0"
+            e2="DDI-DrugBank.d123.s8.e10" ddi="false"/>
+        <pair id="DDI-DrugBank.d123.s8.p10" e1="DDI-DrugBank.d123.s8.e1"
+            e2="DDI-DrugBank.d123.s8.e2" ddi="true" type="mechanism"/>
+        <pair id="DDI-DrugBank.d123.s8.p11" e1="DDI-DrugBank.d123.s8.e1"
+            e2="DDI-DrugBank.d123.s8.e3" ddi="true" type="mechanism"/>
+        <pair id="DDI-DrugBank.d123.s8.p12" e1="DDI-DrugBank.d123.s8.e1"
+            e2="DDI-DrugBank.d123.s8.e4" ddi="true" type="mechanism"/>
+        <pair id="DDI-DrugBank.d123.s8.p13" e1="DDI-DrugBank.d123.s8.e1"
+            e2="DDI-DrugBank.d123.s8.e5" ddi="true" type="mechanism"/>
+        <pair id="DDI-DrugBank.d123.s8.p14" e1="DDI-DrugBank.d123.s8.e1"
+            e2="DDI-DrugBank.d123.s8.e6" ddi="true" type="mechanism"/>
+        <pair id="DDI-DrugBank.d123.s8.p15" e1="DDI-DrugBank.d123.s8.e1"
+            e2="DDI-DrugBank.d123.s8.e7" ddi="true" type="mechanism"/>
+        <pair id="DDI-DrugBank.d123.s8.p16" e1="DDI-DrugBank.d123.s8.e1"
+            e2="DDI-DrugBank.d123.s8.e8" ddi="true" type="mechanism"/>
+        <pair id="DDI-DrugBank.d123.s8.p17" e1="DDI-DrugBank.d123.s8.e1"
+            e2="DDI-DrugBank.d123.s8.e9" ddi="true" type="mechanism"/>
+        <pair id="DDI-DrugBank.d123.s8.p18" e1="DDI-DrugBank.d123.s8.e1"
+            e2="DDI-DrugBank.d123.s8.e10" ddi="true" type="mechanism"/>
+        <pair id="DDI-DrugBank.d123.s8.p19" e1="DDI-DrugBank.d123.s8.e2"
+            e2="DDI-DrugBank.d123.s8.e3" ddi="false"/>
+        <pair id="DDI-DrugBank.d123.s8.p20" e1="DDI-DrugBank.d123.s8.e2"
+            e2="DDI-DrugBank.d123.s8.e4" ddi="false"/>
+        <pair id="DDI-DrugBank.d123.s8.p21" e1="DDI-DrugBank.d123.s8.e2"
+            e2="DDI-DrugBank.d123.s8.e5" ddi="false"/>
+        <pair id="DDI-DrugBank.d123.s8.p22" e1="DDI-DrugBank.d123.s8.e2"
+            e2="DDI-DrugBank.d123.s8.e6" ddi="false"/>
+        <pair id="DDI-DrugBank.d123.s8.p23" e1="DDI-DrugBank.d123.s8.e2"
+            e2="DDI-DrugBank.d123.s8.e7" ddi="false"/>
+        <pair id="DDI-DrugBank.d123.s8.p24" e1="DDI-DrugBank.d123.s8.e2"
+            e2="DDI-DrugBank.d123.s8.e8" ddi="false"/>
+        <pair id="DDI-DrugBank.d123.s8.p25" e1="DDI-DrugBank.d123.s8.e2"
+            e2="DDI-DrugBank.d123.s8.e9" ddi="false"/>
+        <pair id="DDI-DrugBank.d123.s8.p26" e1="DDI-DrugBank.d123.s8.e2"
+            e2="DDI-DrugBank.d123.s8.e10" ddi="false"/>
+        <pair id="DDI-DrugBank.d123.s8.p27" e1="DDI-DrugBank.d123.s8.e3"
+            e2="DDI-DrugBank.d123.s8.e4" ddi="false"/>
+        <pair id="DDI-DrugBank.d123.s8.p28" e1="DDI-DrugBank.d123.s8.e3"
+            e2="DDI-DrugBank.d123.s8.e5" ddi="false"/>
+        <pair id="DDI-DrugBank.d123.s8.p29" e1="DDI-DrugBank.d123.s8.e3"
+            e2="DDI-DrugBank.d123.s8.e6" ddi="false"/>
+        <pair id="DDI-DrugBank.d123.s8.p30" e1="DDI-DrugBank.d123.s8.e3"
+            e2="DDI-DrugBank.d123.s8.e7" ddi="false"/>
+        <pair id="DDI-DrugBank.d123.s8.p31" e1="DDI-DrugBank.d123.s8.e3"
+            e2="DDI-DrugBank.d123.s8.e8" ddi="false"/>
+        <pair id="DDI-DrugBank.d123.s8.p32" e1="DDI-DrugBank.d123.s8.e3"
+            e2="DDI-DrugBank.d123.s8.e9" ddi="false"/>
+        <pair id="DDI-DrugBank.d123.s8.p33" e1="DDI-DrugBank.d123.s8.e3"
+            e2="DDI-DrugBank.d123.s8.e10" ddi="false"/>
+        <pair id="DDI-DrugBank.d123.s8.p34" e1="DDI-DrugBank.d123.s8.e4"
+            e2="DDI-DrugBank.d123.s8.e5" ddi="false"/>
+        <pair id="DDI-DrugBank.d123.s8.p35" e1="DDI-DrugBank.d123.s8.e4"
+            e2="DDI-DrugBank.d123.s8.e6" ddi="false"/>
+        <pair id="DDI-DrugBank.d123.s8.p36" e1="DDI-DrugBank.d123.s8.e4"
+            e2="DDI-DrugBank.d123.s8.e7" ddi="false"/>
+        <pair id="DDI-DrugBank.d123.s8.p37" e1="DDI-DrugBank.d123.s8.e4"
+            e2="DDI-DrugBank.d123.s8.e8" ddi="false"/>
+        <pair id="DDI-DrugBank.d123.s8.p38" e1="DDI-DrugBank.d123.s8.e4"
+            e2="DDI-DrugBank.d123.s8.e9" ddi="false"/>
+        <pair id="DDI-DrugBank.d123.s8.p39" e1="DDI-DrugBank.d123.s8.e4"
+            e2="DDI-DrugBank.d123.s8.e10" ddi="false"/>
+        <pair id="DDI-DrugBank.d123.s8.p40" e1="DDI-DrugBank.d123.s8.e5"
+            e2="DDI-DrugBank.d123.s8.e6" ddi="false"/>
+        <pair id="DDI-DrugBank.d123.s8.p41" e1="DDI-DrugBank.d123.s8.e5"
+            e2="DDI-DrugBank.d123.s8.e7" ddi="false"/>
+        <pair id="DDI-DrugBank.d123.s8.p42" e1="DDI-DrugBank.d123.s8.e5"
+            e2="DDI-DrugBank.d123.s8.e8" ddi="false"/>
+        <pair id="DDI-DrugBank.d123.s8.p43" e1="DDI-DrugBank.d123.s8.e5"
+            e2="DDI-DrugBank.d123.s8.e9" ddi="false"/>
+        <pair id="DDI-DrugBank.d123.s8.p44" e1="DDI-DrugBank.d123.s8.e5"
+            e2="DDI-DrugBank.d123.s8.e10" ddi="false"/>
+        <pair id="DDI-DrugBank.d123.s8.p45" e1="DDI-DrugBank.d123.s8.e6"
+            e2="DDI-DrugBank.d123.s8.e7" ddi="false"/>
+        <pair id="DDI-DrugBank.d123.s8.p46" e1="DDI-DrugBank.d123.s8.e6"
+            e2="DDI-DrugBank.d123.s8.e8" ddi="false"/>
+        <pair id="DDI-DrugBank.d123.s8.p47" e1="DDI-DrugBank.d123.s8.e6"
+            e2="DDI-DrugBank.d123.s8.e9" ddi="false"/>
+        <pair id="DDI-DrugBank.d123.s8.p48" e1="DDI-DrugBank.d123.s8.e6"
+            e2="DDI-DrugBank.d123.s8.e10" ddi="false"/>
+        <pair id="DDI-DrugBank.d123.s8.p49" e1="DDI-DrugBank.d123.s8.e7"
+            e2="DDI-DrugBank.d123.s8.e8" ddi="false"/>
+        <pair id="DDI-DrugBank.d123.s8.p50" e1="DDI-DrugBank.d123.s8.e7"
+            e2="DDI-DrugBank.d123.s8.e9" ddi="false"/>
+        <pair id="DDI-DrugBank.d123.s8.p51" e1="DDI-DrugBank.d123.s8.e7"
+            e2="DDI-DrugBank.d123.s8.e10" ddi="false"/>
+        <pair id="DDI-DrugBank.d123.s8.p52" e1="DDI-DrugBank.d123.s8.e8"
+            e2="DDI-DrugBank.d123.s8.e9" ddi="false"/>
+        <pair id="DDI-DrugBank.d123.s8.p53" e1="DDI-DrugBank.d123.s8.e8"
+            e2="DDI-DrugBank.d123.s8.e10" ddi="false"/>
+        <pair id="DDI-DrugBank.d123.s8.p54" e1="DDI-DrugBank.d123.s8.e9"
+            e2="DDI-DrugBank.d123.s8.e10" ddi="false"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d123.s9" text="Proquin XR should be administered at least 4 hours before or 2 hours after these products.">
+        <entity id="DDI-DrugBank.d123.s9.e0" charOffset="0-9"
+            type="brand" text="Proquin XR"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d123.s10" text="This time window is different than for other oral formulations of ciprofloxacin, which are usually administered 2 hours before or 6 hours after antacids.">
+        <entity id="DDI-DrugBank.d123.s10.e0" charOffset="66-78"
+            type="drug" text="ciprofloxacin"/>
+        <entity id="DDI-DrugBank.d123.s10.e1" charOffset="144-151"
+            type="group" text="antacids"/>
+        <pair id="DDI-DrugBank.d123.s10.p0"
+            e1="DDI-DrugBank.d123.s10.e0" e2="DDI-DrugBank.d123.s10.e1"
+            ddi="true" type="advise"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d123.s11" text="Non-steroidal anti-inflammatory drugs (but not aspirin): These drugs in combination with very high doses of quinolones have been shown to provoke convulsions in pre-clinical studies.">
+        <entity id="DDI-DrugBank.d123.s11.e0" charOffset="0-36"
+            type="group" text="Non-steroidal anti-inflammatory drugs"/>
+        <entity id="DDI-DrugBank.d123.s11.e1" charOffset="47-53"
+            type="brand" text="aspirin"/>
+        <entity id="DDI-DrugBank.d123.s11.e2" charOffset="108-117"
+            type="group" text="quinolones"/>
+        <pair id="DDI-DrugBank.d123.s11.p0"
+            e1="DDI-DrugBank.d123.s11.e0" e2="DDI-DrugBank.d123.s11.e1" ddi="false"/>
+        <pair id="DDI-DrugBank.d123.s11.p1"
+            e1="DDI-DrugBank.d123.s11.e0" e2="DDI-DrugBank.d123.s11.e2" ddi="false"/>
+        <pair id="DDI-DrugBank.d123.s11.p2"
+            e1="DDI-DrugBank.d123.s11.e1" e2="DDI-DrugBank.d123.s11.e2" ddi="false"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d123.s12" text="Omeprazole: The rate and extent of absorption of ciprofloxacin was bioequivalent when Proquin XR was given alone or when Proquin XR was given 2 hours after omeprazole at the dose that maximally suppresses gastric acid secretion.">
+        <entity id="DDI-DrugBank.d123.s12.e0" charOffset="0-9"
+            type="drug" text="Omeprazole"/>
+        <entity id="DDI-DrugBank.d123.s12.e1" charOffset="49-61"
+            type="drug" text="ciprofloxacin"/>
+        <entity id="DDI-DrugBank.d123.s12.e2" charOffset="86-95"
+            type="brand" text="Proquin XR"/>
+        <entity id="DDI-DrugBank.d123.s12.e3" charOffset="121-130"
+            type="brand" text="Proquin XR"/>
+        <entity id="DDI-DrugBank.d123.s12.e4" charOffset="156-165"
+            type="drug" text="omeprazole"/>
+        <pair id="DDI-DrugBank.d123.s12.p0"
+            e1="DDI-DrugBank.d123.s12.e0" e2="DDI-DrugBank.d123.s12.e1" ddi="false"/>
+        <pair id="DDI-DrugBank.d123.s12.p1"
+            e1="DDI-DrugBank.d123.s12.e0" e2="DDI-DrugBank.d123.s12.e2" ddi="false"/>
+        <pair id="DDI-DrugBank.d123.s12.p2"
+            e1="DDI-DrugBank.d123.s12.e0" e2="DDI-DrugBank.d123.s12.e3" ddi="false"/>
+        <pair id="DDI-DrugBank.d123.s12.p3"
+            e1="DDI-DrugBank.d123.s12.e0" e2="DDI-DrugBank.d123.s12.e4" ddi="false"/>
+        <pair id="DDI-DrugBank.d123.s12.p4"
+            e1="DDI-DrugBank.d123.s12.e1" e2="DDI-DrugBank.d123.s12.e2" ddi="false"/>
+        <pair id="DDI-DrugBank.d123.s12.p5"
+            e1="DDI-DrugBank.d123.s12.e1" e2="DDI-DrugBank.d123.s12.e3" ddi="false"/>
+        <pair id="DDI-DrugBank.d123.s12.p6"
+            e1="DDI-DrugBank.d123.s12.e1" e2="DDI-DrugBank.d123.s12.e4" ddi="false"/>
+        <pair id="DDI-DrugBank.d123.s12.p7"
+            e1="DDI-DrugBank.d123.s12.e2" e2="DDI-DrugBank.d123.s12.e3" ddi="false"/>
+        <pair id="DDI-DrugBank.d123.s12.p8"
+            e1="DDI-DrugBank.d123.s12.e2" e2="DDI-DrugBank.d123.s12.e4" ddi="false"/>
+        <pair id="DDI-DrugBank.d123.s12.p9"
+            e1="DDI-DrugBank.d123.s12.e3" e2="DDI-DrugBank.d123.s12.e4" ddi="false"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d123.s13" text="Omeprazole should be taken as directed and Proquin XR should be taken with a main meal of the day, preferably the evening meal..">
+        <entity id="DDI-DrugBank.d123.s13.e0" charOffset="0-9"
+            type="drug" text="Omeprazole"/>
+        <entity id="DDI-DrugBank.d123.s13.e1" charOffset="43-52"
+            type="brand" text="Proquin XR"/>
+        <pair id="DDI-DrugBank.d123.s13.p0"
+            e1="DDI-DrugBank.d123.s13.e0" e2="DDI-DrugBank.d123.s13.e1" ddi="false"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d123.s14" text="Phenytoin: Altered serum levels of phenytoin (increased and decreased) have been reported in patients receiving concomitant ciprofloxacin.">
+        <entity id="DDI-DrugBank.d123.s14.e0" charOffset="0-8"
+            type="drug" text="Phenytoin"/>
+        <entity id="DDI-DrugBank.d123.s14.e1" charOffset="35-43"
+            type="drug" text="phenytoin"/>
+        <entity id="DDI-DrugBank.d123.s14.e2" charOffset="124-136"
+            type="drug" text="ciprofloxacin"/>
+        <pair id="DDI-DrugBank.d123.s14.p0"
+            e1="DDI-DrugBank.d123.s14.e0" e2="DDI-DrugBank.d123.s14.e1" ddi="false"/>
+        <pair id="DDI-DrugBank.d123.s14.p1"
+            e1="DDI-DrugBank.d123.s14.e0" e2="DDI-DrugBank.d123.s14.e2" ddi="false"/>
+        <pair id="DDI-DrugBank.d123.s14.p2"
+            e1="DDI-DrugBank.d123.s14.e1" e2="DDI-DrugBank.d123.s14.e2"
+            ddi="true" type="mechanism"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d123.s15" text="Probenecid: Probenecid interferes with renal tubular secretion of ciprofloxacin and produces an increase in the level of ciprofloxacin in serum.">
+        <entity id="DDI-DrugBank.d123.s15.e0" charOffset="0-9"
+            type="drug" text="Probenecid"/>
+        <entity id="DDI-DrugBank.d123.s15.e1" charOffset="12-21"
+            type="drug" text="Probenecid"/>
+        <entity id="DDI-DrugBank.d123.s15.e2" charOffset="66-78"
+            type="drug" text="ciprofloxacin"/>
+        <entity id="DDI-DrugBank.d123.s15.e3" charOffset="121-133"
+            type="drug" text="ciprofloxacin"/>
+        <pair id="DDI-DrugBank.d123.s15.p0"
+            e1="DDI-DrugBank.d123.s15.e0" e2="DDI-DrugBank.d123.s15.e1" ddi="false"/>
+        <pair id="DDI-DrugBank.d123.s15.p1"
+            e1="DDI-DrugBank.d123.s15.e0" e2="DDI-DrugBank.d123.s15.e2" ddi="false"/>
+        <pair id="DDI-DrugBank.d123.s15.p2"
+            e1="DDI-DrugBank.d123.s15.e0" e2="DDI-DrugBank.d123.s15.e3" ddi="false"/>
+        <pair id="DDI-DrugBank.d123.s15.p3"
+            e1="DDI-DrugBank.d123.s15.e1" e2="DDI-DrugBank.d123.s15.e2"
+            ddi="true" type="mechanism"/>
+        <pair id="DDI-DrugBank.d123.s15.p4"
+            e1="DDI-DrugBank.d123.s15.e1" e2="DDI-DrugBank.d123.s15.e3"
+            ddi="true" type="mechanism"/>
+        <pair id="DDI-DrugBank.d123.s15.p5"
+            e1="DDI-DrugBank.d123.s15.e2" e2="DDI-DrugBank.d123.s15.e3" ddi="false"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d123.s16" text="Theophylline: As with some other quinolones, concurrent administration of ciprofloxacin with theophylline may lead to elevated serum concentrations of theophylline and prolongation of its elimination half-life.">
+        <entity id="DDI-DrugBank.d123.s16.e0" charOffset="0-11"
+            type="drug" text="Theophylline"/>
+        <entity id="DDI-DrugBank.d123.s16.e1" charOffset="33-42"
+            type="group" text="quinolones"/>
+        <entity id="DDI-DrugBank.d123.s16.e2" charOffset="74-86"
+            type="drug" text="ciprofloxacin"/>
+        <entity id="DDI-DrugBank.d123.s16.e3" charOffset="93-104"
+            type="drug" text="theophylline"/>
+        <entity id="DDI-DrugBank.d123.s16.e4" charOffset="151-162"
+            type="drug" text="theophylline"/>
+        <pair id="DDI-DrugBank.d123.s16.p0"
+            e1="DDI-DrugBank.d123.s16.e0" e2="DDI-DrugBank.d123.s16.e1" ddi="false"/>
+        <pair id="DDI-DrugBank.d123.s16.p1"
+            e1="DDI-DrugBank.d123.s16.e0" e2="DDI-DrugBank.d123.s16.e2" ddi="false"/>
+        <pair id="DDI-DrugBank.d123.s16.p2"
+            e1="DDI-DrugBank.d123.s16.e0" e2="DDI-DrugBank.d123.s16.e3" ddi="false"/>
+        <pair id="DDI-DrugBank.d123.s16.p3"
+            e1="DDI-DrugBank.d123.s16.e0" e2="DDI-DrugBank.d123.s16.e4" ddi="false"/>
+        <pair id="DDI-DrugBank.d123.s16.p4"
+            e1="DDI-DrugBank.d123.s16.e1" e2="DDI-DrugBank.d123.s16.e2" ddi="false"/>
+        <pair id="DDI-DrugBank.d123.s16.p5"
+            e1="DDI-DrugBank.d123.s16.e1" e2="DDI-DrugBank.d123.s16.e3"
+            ddi="true" type="mechanism"/>
+        <pair id="DDI-DrugBank.d123.s16.p6"
+            e1="DDI-DrugBank.d123.s16.e1" e2="DDI-DrugBank.d123.s16.e4" ddi="false"/>
+        <pair id="DDI-DrugBank.d123.s16.p7"
+            e1="DDI-DrugBank.d123.s16.e2" e2="DDI-DrugBank.d123.s16.e3"
+            ddi="true" type="mechanism"/>
+        <pair id="DDI-DrugBank.d123.s16.p8"
+            e1="DDI-DrugBank.d123.s16.e2" e2="DDI-DrugBank.d123.s16.e4" ddi="false"/>
+        <pair id="DDI-DrugBank.d123.s16.p9"
+            e1="DDI-DrugBank.d123.s16.e3" e2="DDI-DrugBank.d123.s16.e4" ddi="false"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d123.s17" text="This may result in increased risk of theophylline-related adverse reactions.">
+        <entity id="DDI-DrugBank.d123.s17.e0" charOffset="37-48"
+            type="drug" text="theophylline"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d123.s18" text="If concomitant use cannot be avoided, serum levels of theophylline should be monitored and dosage adjustments made as appropriate.">
+        <entity id="DDI-DrugBank.d123.s18.e0" charOffset="54-65"
+            type="drug" text="theophylline"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d123.s19" text="Warfarin: Quinolones have been reported to enhance the effects of the oral anticoagulant warfarin or its derivatives.">
+        <entity id="DDI-DrugBank.d123.s19.e0" charOffset="0-7"
+            type="drug" text="Warfarin"/>
+        <entity id="DDI-DrugBank.d123.s19.e1" charOffset="10-19"
+            type="group" text="Quinolones"/>
+        <entity id="DDI-DrugBank.d123.s19.e2" charOffset="75-87"
+            type="group" text="anticoagulant"/>
+        <entity id="DDI-DrugBank.d123.s19.e3" charOffset="89-96"
+            type="drug" text="warfarin"/>
+        <pair id="DDI-DrugBank.d123.s19.p0"
+            e1="DDI-DrugBank.d123.s19.e0" e2="DDI-DrugBank.d123.s19.e1" ddi="false"/>
+        <pair id="DDI-DrugBank.d123.s19.p1"
+            e1="DDI-DrugBank.d123.s19.e0" e2="DDI-DrugBank.d123.s19.e2" ddi="false"/>
+        <pair id="DDI-DrugBank.d123.s19.p2"
+            e1="DDI-DrugBank.d123.s19.e0" e2="DDI-DrugBank.d123.s19.e3" ddi="false"/>
+        <pair id="DDI-DrugBank.d123.s19.p3"
+            e1="DDI-DrugBank.d123.s19.e1" e2="DDI-DrugBank.d123.s19.e2" ddi="false"/>
+        <pair id="DDI-DrugBank.d123.s19.p4"
+            e1="DDI-DrugBank.d123.s19.e1" e2="DDI-DrugBank.d123.s19.e3"
+            ddi="true" type="effect"/>
+        <pair id="DDI-DrugBank.d123.s19.p5"
+            e1="DDI-DrugBank.d123.s19.e2" e2="DDI-DrugBank.d123.s19.e3" ddi="false"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d123.s20" text="When these products are administered concomitantly, prothrombin time or other suitable coagulation tests should be monitored."/>
+</document>

@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="DDI-DrugBank.d28">
+    <sentence id="DDI-DrugBank.d28.s0" text="Interactions between COPAXONE  and other drugs have not been fully evaluated.">
+        <entity id="DDI-DrugBank.d28.s0.e0" charOffset="21-28"
+            type="brand" text="COPAXONE"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d28.s1" text="Results from existing clinical trials suggest no significant interactions between COPAXONE  and other therapies commonly used in MS patients, including the concurrent use of corticosteroids for up to 28 days.">
+        <entity id="DDI-DrugBank.d28.s1.e0" charOffset="82-89"
+            type="brand" text="COPAXONE"/>
+        <entity id="DDI-DrugBank.d28.s1.e1" charOffset="174-188"
+            type="group" text="corticosteroids"/>
+        <pair id="DDI-DrugBank.d28.s1.p0" e1="DDI-DrugBank.d28.s1.e0"
+            e2="DDI-DrugBank.d28.s1.e1" ddi="false"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d28.s2" text="COPAXONE  has not been formally evaluated in combination with Interferon beta.">
+        <entity id="DDI-DrugBank.d28.s2.e0" charOffset="0-7"
+            type="brand" text="COPAXONE"/>
+        <entity id="DDI-DrugBank.d28.s2.e1" charOffset="62-76"
+            type="drug" text="Interferon beta"/>
+        <pair id="DDI-DrugBank.d28.s2.p0" e1="DDI-DrugBank.d28.s2.e0"
+            e2="DDI-DrugBank.d28.s2.e1" ddi="false"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d28.s3" text="However, 10 patients who switched from therapy with Interferon beta to COPAXONE  did not report any serious and unexpected adverse reactions thought to be related to treatment.">
+        <entity id="DDI-DrugBank.d28.s3.e0" charOffset="52-66"
+            type="drug" text="Interferon beta"/>
+        <entity id="DDI-DrugBank.d28.s3.e1" charOffset="71-78"
+            type="brand" text="COPAXONE"/>
+        <pair id="DDI-DrugBank.d28.s3.p0" e1="DDI-DrugBank.d28.s3.e0"
+            e2="DDI-DrugBank.d28.s3.e1" ddi="false"/>
+    </sentence>
+</document>

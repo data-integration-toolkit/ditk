@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="DDI-DrugBank.d9">
+    <sentence id="DDI-DrugBank.d9.s0" text="Azlocillin should not be administered concomitantly with amikacin, ciprofloxacin, gentamicin, netilmicin, or tobramycin.">
+        <entity id="DDI-DrugBank.d9.s0.e0" charOffset="0-9" type="drug" text="Azlocillin"/>
+        <entity id="DDI-DrugBank.d9.s0.e1" charOffset="57-64"
+            type="drug" text="amikacin"/>
+        <entity id="DDI-DrugBank.d9.s0.e2" charOffset="67-79"
+            type="drug" text="ciprofloxacin"/>
+        <entity id="DDI-DrugBank.d9.s0.e3" charOffset="82-91"
+            type="drug" text="gentamicin"/>
+        <entity id="DDI-DrugBank.d9.s0.e4" charOffset="94-103"
+            type="drug" text="netilmicin"/>
+        <entity id="DDI-DrugBank.d9.s0.e5" charOffset="109-118"
+            type="drug" text="tobramycin"/>
+        <pair id="DDI-DrugBank.d9.s0.p0" e1="DDI-DrugBank.d9.s0.e0"
+            e2="DDI-DrugBank.d9.s0.e1" ddi="true" type="advise"/>
+        <pair id="DDI-DrugBank.d9.s0.p1" e1="DDI-DrugBank.d9.s0.e0"
+            e2="DDI-DrugBank.d9.s0.e2" ddi="true" type="advise"/>
+        <pair id="DDI-DrugBank.d9.s0.p2" e1="DDI-DrugBank.d9.s0.e0"
+            e2="DDI-DrugBank.d9.s0.e3" ddi="true" type="advise"/>
+        <pair id="DDI-DrugBank.d9.s0.p3" e1="DDI-DrugBank.d9.s0.e0"
+            e2="DDI-DrugBank.d9.s0.e4" ddi="true" type="advise"/>
+        <pair id="DDI-DrugBank.d9.s0.p4" e1="DDI-DrugBank.d9.s0.e0"
+            e2="DDI-DrugBank.d9.s0.e5" ddi="true" type="advise"/>
+        <pair id="DDI-DrugBank.d9.s0.p5" e1="DDI-DrugBank.d9.s0.e1"
+            e2="DDI-DrugBank.d9.s0.e2" ddi="false"/>
+        <pair id="DDI-DrugBank.d9.s0.p6" e1="DDI-DrugBank.d9.s0.e1"
+            e2="DDI-DrugBank.d9.s0.e3" ddi="false"/>
+        <pair id="DDI-DrugBank.d9.s0.p7" e1="DDI-DrugBank.d9.s0.e1"
+            e2="DDI-DrugBank.d9.s0.e4" ddi="false"/>
+        <pair id="DDI-DrugBank.d9.s0.p8" e1="DDI-DrugBank.d9.s0.e1"
+            e2="DDI-DrugBank.d9.s0.e5" ddi="false"/>
+        <pair id="DDI-DrugBank.d9.s0.p9" e1="DDI-DrugBank.d9.s0.e2"
+            e2="DDI-DrugBank.d9.s0.e3" ddi="false"/>
+        <pair id="DDI-DrugBank.d9.s0.p10" e1="DDI-DrugBank.d9.s0.e2"
+            e2="DDI-DrugBank.d9.s0.e4" ddi="false"/>
+        <pair id="DDI-DrugBank.d9.s0.p11" e1="DDI-DrugBank.d9.s0.e2"
+            e2="DDI-DrugBank.d9.s0.e5" ddi="false"/>
+        <pair id="DDI-DrugBank.d9.s0.p12" e1="DDI-DrugBank.d9.s0.e3"
+            e2="DDI-DrugBank.d9.s0.e4" ddi="false"/>
+        <pair id="DDI-DrugBank.d9.s0.p13" e1="DDI-DrugBank.d9.s0.e3"
+            e2="DDI-DrugBank.d9.s0.e5" ddi="false"/>
+        <pair id="DDI-DrugBank.d9.s0.p14" e1="DDI-DrugBank.d9.s0.e4"
+            e2="DDI-DrugBank.d9.s0.e5" ddi="false"/>
+    </sentence>
+</document>

@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="DDI-DrugBank.d341">
+    <sentence id="DDI-DrugBank.d341.s0" text="Specific drug interaction studies have not been conducted with ENBREL .">
+        <entity id="DDI-DrugBank.d341.s0.e0" charOffset="63-68"
+            type="brand" text="ENBREL"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d341.s1" text="However, it was observed that the pharmacokinetics of ENBREL  was unaltered by concomitant methotrexate in rheumatoid arthritis patients.">
+        <entity id="DDI-DrugBank.d341.s1.e0" charOffset="54-59"
+            type="brand" text="ENBREL"/>
+        <entity id="DDI-DrugBank.d341.s1.e1" charOffset="91-102"
+            type="drug" text="methotrexate"/>
+        <pair id="DDI-DrugBank.d341.s1.p0" e1="DDI-DrugBank.d341.s1.e0"
+            e2="DDI-DrugBank.d341.s1.e1" ddi="false"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d341.s2" text="In a study in which patients with active RA were treated for up to 24 weeks with concurrent ENBREL  and anakinra therapy, a 7% rate of serious infections was observed, which was higher than that observed with ENBREL  alone (0%).">
+        <entity id="DDI-DrugBank.d341.s2.e0" charOffset="92-97"
+            type="brand" text="ENBREL"/>
+        <entity id="DDI-DrugBank.d341.s2.e1" charOffset="104-111"
+            type="drug" text="anakinra"/>
+        <entity id="DDI-DrugBank.d341.s2.e2" charOffset="209-214"
+            type="brand" text="ENBREL"/>
+        <pair id="DDI-DrugBank.d341.s2.p0" e1="DDI-DrugBank.d341.s2.e0"
+            e2="DDI-DrugBank.d341.s2.e1" ddi="true" type="effect"/>
+        <pair id="DDI-DrugBank.d341.s2.p1" e1="DDI-DrugBank.d341.s2.e0"
+            e2="DDI-DrugBank.d341.s2.e2" ddi="false"/>
+        <pair id="DDI-DrugBank.d341.s2.p2" e1="DDI-DrugBank.d341.s2.e1"
+            e2="DDI-DrugBank.d341.s2.e2" ddi="false"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d341.s3" text="Two percent of patients treated concurrently with ENBREL  and anakinra developed neutropenia (ANC   1 x 109/L).">
+        <entity id="DDI-DrugBank.d341.s3.e0" charOffset="50-55"
+            type="brand" text="ENBREL"/>
+        <entity id="DDI-DrugBank.d341.s3.e1" charOffset="62-69"
+            type="drug" text="anakinra"/>
+        <pair id="DDI-DrugBank.d341.s3.p0" e1="DDI-DrugBank.d341.s3.e0"
+            e2="DDI-DrugBank.d341.s3.e1" ddi="true" type="effect"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d341.s4" text="Patients in a clinical study who were on established therapy with sulfasalazine, to which ENBREL was added, were noted to develop a mild decrease in mean neutrophil counts in comparison to groups treated with either ENBREL CI or sulfasalazine alone.">
+        <entity id="DDI-DrugBank.d341.s4.e0" charOffset="66-78"
+            type="drug" text="sulfasalazine"/>
+        <entity id="DDI-DrugBank.d341.s4.e1" charOffset="90-95"
+            type="brand" text="ENBREL"/>
+        <entity id="DDI-DrugBank.d341.s4.e2" charOffset="216-221"
+            type="brand" text="ENBREL"/>
+        <entity id="DDI-DrugBank.d341.s4.e3" charOffset="229-241"
+            type="drug" text="sulfasalazine"/>
+        <pair id="DDI-DrugBank.d341.s4.p0" e1="DDI-DrugBank.d341.s4.e0"
+            e2="DDI-DrugBank.d341.s4.e1" ddi="true" type="effect"/>
+        <pair id="DDI-DrugBank.d341.s4.p1" e1="DDI-DrugBank.d341.s4.e0"
+            e2="DDI-DrugBank.d341.s4.e2" ddi="false"/>
+        <pair id="DDI-DrugBank.d341.s4.p2" e1="DDI-DrugBank.d341.s4.e0"
+            e2="DDI-DrugBank.d341.s4.e3" ddi="false"/>
+        <pair id="DDI-DrugBank.d341.s4.p3" e1="DDI-DrugBank.d341.s4.e1"
+            e2="DDI-DrugBank.d341.s4.e2" ddi="false"/>
+        <pair id="DDI-DrugBank.d341.s4.p4" e1="DDI-DrugBank.d341.s4.e1"
+            e2="DDI-DrugBank.d341.s4.e3" ddi="false"/>
+        <pair id="DDI-DrugBank.d341.s4.p5" e1="DDI-DrugBank.d341.s4.e2"
+            e2="DDI-DrugBank.d341.s4.e3" ddi="false"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d341.s5" text="The clinical significance of this observation is unknown."/>
+</document>

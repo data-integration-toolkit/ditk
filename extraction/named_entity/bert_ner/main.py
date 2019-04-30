@@ -27,7 +27,7 @@ def main(input_file_path):
 
     file_dict = {
         "train": {
-            "data": input_file_path
+            "data": "./NERdata/train.txt"
         },
         "dev": {
             "data": "./NERdata/dev.txt"

@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="DDI-MedLine.d59">
+    <sentence id="DDI-MedLine.d59.s0" text="A proposed mechanism for the potentiation of cAMP-mediated acid secretion by carbachol.&#xd;&#xa;">
+        <entity id="DDI-MedLine.d59.s0.e0" charOffset="77-85"
+            type="drug" text="carbachol"/>
+    </sentence>
+    <sentence id="DDI-MedLine.d59.s1" text="Acid secretion in isolated rabbit gastric glands was monitored by the accumulation of [(14)C]aminopyrine. ">
+        <entity id="DDI-MedLine.d59.s1.e0" charOffset="93-103"
+            type="drug" text="aminopyrine"/>
+    </sentence>
+    <sentence id="DDI-MedLine.d59.s2" text="Stimulation of the glands with carbachol synergistically augmented the response to dibutyryl cAMP. ">
+        <entity id="DDI-MedLine.d59.s2.e0" charOffset="31-39"
+            type="drug" text="carbachol"/>
+    </sentence>
+    <sentence id="DDI-MedLine.d59.s3" text="The augmentation persisted even after carbachol was washed out and was resistant to chelated extracellular Ca(2+) and to inhibitors of either protein kinase C or calmodulin kinase II. ">
+        <entity id="DDI-MedLine.d59.s3.e0" charOffset="38-46"
+            type="drug" text="carbachol"/>
+    </sentence>
+    <sentence id="DDI-MedLine.d59.s4" text="Cytochalasin D at 10 microM preferentially blocked the secretory effect of carbachol and its synergism with cAMP, whereas it had no effect on histamine- or cAMP-stimulated acid secretion within 15 min. ">
+        <entity id="DDI-MedLine.d59.s4.e0" charOffset="0-13"
+            type="drug_n" text="Cytochalasin D"/>
+        <entity id="DDI-MedLine.d59.s4.e1" charOffset="75-83"
+            type="drug" text="carbachol"/>
+        <pair id="DDI-MedLine.d59.s4.p0" e1="DDI-MedLine.d59.s4.e0"
+            e2="DDI-MedLine.d59.s4.e1" ddi="true" type="effect"/>
+    </sentence>
+    <sentence id="DDI-MedLine.d59.s5" text="Cytochalasin D inhibited the carbachol-stimulated intracellular Ca(2+) concentration ([Ca(2+)](i)) increase due to release from the Ca(2+) store. ">
+        <entity id="DDI-MedLine.d59.s5.e0" charOffset="0-13"
+            type="drug_n" text="Cytochalasin D"/>
+        <entity id="DDI-MedLine.d59.s5.e1" charOffset="29-37"
+            type="drug" text="carbachol"/>
+        <pair id="DDI-MedLine.d59.s5.p0" e1="DDI-MedLine.d59.s5.e0"
+            e2="DDI-MedLine.d59.s5.e1" ddi="true" type="effect"/>
+    </sentence>
+    <sentence id="DDI-MedLine.d59.s6" text="Treatment of the glands with cytochalasin D redistributed type 3 inositol 1,4,5-trisphosphate receptor (the major subtype in the parietal cell) from the fraction containing membranes of large size to the microsomal fraction, suggesting a dissociation of the store from the plasma membrane. ">
+        <entity id="DDI-MedLine.d59.s6.e0" charOffset="29-42"
+            type="drug_n" text="cytochalasin D"/>
+    </sentence>
+    <sentence id="DDI-MedLine.d59.s7" text="These findings suggest that intracellular Ca(2+) release by cholinergic stimulation is critical for determining synergism with cAMP in parietal cell activation and that functional coupling between the Ca(2+) store and the receptor is maintained by actin microfilaments."/>
+</document>

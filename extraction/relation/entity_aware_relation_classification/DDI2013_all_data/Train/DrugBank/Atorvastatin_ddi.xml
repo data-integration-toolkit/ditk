@@ -1,0 +1,288 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="DDI-DrugBank.d140">
+    <sentence id="DDI-DrugBank.d140.s0" text="The risk of myopathy during treatment with drugs of this class is increased with concurrent administration of cyclosporine, fibric acid derivatives, niacin (nicotinic acid), erythromycin, azole antifungals.">
+        <entity id="DDI-DrugBank.d140.s0.e0" charOffset="110-121"
+            type="drug" text="cyclosporine"/>
+        <entity id="DDI-DrugBank.d140.s0.e1" charOffset="124-146"
+            type="group" text="fibric acid derivatives"/>
+        <entity id="DDI-DrugBank.d140.s0.e2" charOffset="149-154"
+            type="drug" text="niacin"/>
+        <entity id="DDI-DrugBank.d140.s0.e3" charOffset="157-170"
+            type="drug" text="nicotinic acid"/>
+        <entity id="DDI-DrugBank.d140.s0.e4" charOffset="174-185"
+            type="drug" text="erythromycin"/>
+        <entity id="DDI-DrugBank.d140.s0.e5" charOffset="188-204"
+            type="group" text="azole antifungals"/>
+        <pair id="DDI-DrugBank.d140.s0.p0" e1="DDI-DrugBank.d140.s0.e0"
+            e2="DDI-DrugBank.d140.s0.e1" ddi="false"/>
+        <pair id="DDI-DrugBank.d140.s0.p1" e1="DDI-DrugBank.d140.s0.e0"
+            e2="DDI-DrugBank.d140.s0.e2" ddi="false"/>
+        <pair id="DDI-DrugBank.d140.s0.p2" e1="DDI-DrugBank.d140.s0.e0"
+            e2="DDI-DrugBank.d140.s0.e3" ddi="false"/>
+        <pair id="DDI-DrugBank.d140.s0.p3" e1="DDI-DrugBank.d140.s0.e0"
+            e2="DDI-DrugBank.d140.s0.e4" ddi="false"/>
+        <pair id="DDI-DrugBank.d140.s0.p4" e1="DDI-DrugBank.d140.s0.e0"
+            e2="DDI-DrugBank.d140.s0.e5" ddi="false"/>
+        <pair id="DDI-DrugBank.d140.s0.p5" e1="DDI-DrugBank.d140.s0.e1"
+            e2="DDI-DrugBank.d140.s0.e2" ddi="false"/>
+        <pair id="DDI-DrugBank.d140.s0.p6" e1="DDI-DrugBank.d140.s0.e1"
+            e2="DDI-DrugBank.d140.s0.e3" ddi="false"/>
+        <pair id="DDI-DrugBank.d140.s0.p7" e1="DDI-DrugBank.d140.s0.e1"
+            e2="DDI-DrugBank.d140.s0.e4" ddi="false"/>
+        <pair id="DDI-DrugBank.d140.s0.p8" e1="DDI-DrugBank.d140.s0.e1"
+            e2="DDI-DrugBank.d140.s0.e5" ddi="false"/>
+        <pair id="DDI-DrugBank.d140.s0.p9" e1="DDI-DrugBank.d140.s0.e2"
+            e2="DDI-DrugBank.d140.s0.e3" ddi="false"/>
+        <pair id="DDI-DrugBank.d140.s0.p10" e1="DDI-DrugBank.d140.s0.e2"
+            e2="DDI-DrugBank.d140.s0.e4" ddi="false"/>
+        <pair id="DDI-DrugBank.d140.s0.p11" e1="DDI-DrugBank.d140.s0.e2"
+            e2="DDI-DrugBank.d140.s0.e5" ddi="false"/>
+        <pair id="DDI-DrugBank.d140.s0.p12" e1="DDI-DrugBank.d140.s0.e3"
+            e2="DDI-DrugBank.d140.s0.e4" ddi="false"/>
+        <pair id="DDI-DrugBank.d140.s0.p13" e1="DDI-DrugBank.d140.s0.e3"
+            e2="DDI-DrugBank.d140.s0.e5" ddi="false"/>
+        <pair id="DDI-DrugBank.d140.s0.p14" e1="DDI-DrugBank.d140.s0.e4"
+            e2="DDI-DrugBank.d140.s0.e5" ddi="false"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d140.s1" text="Antacid: When atorvastatin and Maalox TC suspension were coadministered, plasma concentrations of atorvastatin decreased approximately 35%.">
+        <entity id="DDI-DrugBank.d140.s1.e0" charOffset="0-6"
+            type="group" text="Antacid"/>
+        <entity id="DDI-DrugBank.d140.s1.e1" charOffset="14-25"
+            type="drug" text="atorvastatin"/>
+        <entity id="DDI-DrugBank.d140.s1.e2" charOffset="31-39"
+            type="brand" text="Maalox TC"/>
+        <entity id="DDI-DrugBank.d140.s1.e3" charOffset="98-109"
+            type="drug" text="atorvastatin"/>
+        <pair id="DDI-DrugBank.d140.s1.p0" e1="DDI-DrugBank.d140.s1.e0"
+            e2="DDI-DrugBank.d140.s1.e1" ddi="false"/>
+        <pair id="DDI-DrugBank.d140.s1.p1" e1="DDI-DrugBank.d140.s1.e0"
+            e2="DDI-DrugBank.d140.s1.e2" ddi="false"/>
+        <pair id="DDI-DrugBank.d140.s1.p2" e1="DDI-DrugBank.d140.s1.e0"
+            e2="DDI-DrugBank.d140.s1.e3" ddi="false"/>
+        <pair id="DDI-DrugBank.d140.s1.p3" e1="DDI-DrugBank.d140.s1.e1"
+            e2="DDI-DrugBank.d140.s1.e2" ddi="true" type="mechanism"/>
+        <pair id="DDI-DrugBank.d140.s1.p4" e1="DDI-DrugBank.d140.s1.e1"
+            e2="DDI-DrugBank.d140.s1.e3" ddi="false"/>
+        <pair id="DDI-DrugBank.d140.s1.p5" e1="DDI-DrugBank.d140.s1.e2"
+            e2="DDI-DrugBank.d140.s1.e3" ddi="false"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d140.s2" text="However, LDL-C reduction was not altered."/>
+    <sentence id="DDI-DrugBank.d140.s3" text="Antipyrine: Because atorvastatin does not affect the pharmacokinetics of antipyrine, interactions with other drugs metabolized via the same cytochrome isozymes are not expected.">
+        <entity id="DDI-DrugBank.d140.s3.e0" charOffset="0-9"
+            type="drug" text="Antipyrine"/>
+        <entity id="DDI-DrugBank.d140.s3.e1" charOffset="20-31"
+            type="drug" text="atorvastatin"/>
+        <entity id="DDI-DrugBank.d140.s3.e2" charOffset="73-82"
+            type="drug" text="antipyrine"/>
+        <entity id="DDI-DrugBank.d140.s3.e3" charOffset="109-113"
+            type="drug" text="drugs"/>
+        <pair id="DDI-DrugBank.d140.s3.p0" e1="DDI-DrugBank.d140.s3.e0"
+            e2="DDI-DrugBank.d140.s3.e1" ddi="false"/>
+        <pair id="DDI-DrugBank.d140.s3.p1" e1="DDI-DrugBank.d140.s3.e0"
+            e2="DDI-DrugBank.d140.s3.e2" ddi="false"/>
+        <pair id="DDI-DrugBank.d140.s3.p2" e1="DDI-DrugBank.d140.s3.e0"
+            e2="DDI-DrugBank.d140.s3.e3" ddi="false"/>
+        <pair id="DDI-DrugBank.d140.s3.p3" e1="DDI-DrugBank.d140.s3.e1"
+            e2="DDI-DrugBank.d140.s3.e2" ddi="false"/>
+        <pair id="DDI-DrugBank.d140.s3.p4" e1="DDI-DrugBank.d140.s3.e1"
+            e2="DDI-DrugBank.d140.s3.e3" ddi="false"/>
+        <pair id="DDI-DrugBank.d140.s3.p5" e1="DDI-DrugBank.d140.s3.e2"
+            e2="DDI-DrugBank.d140.s3.e3" ddi="false"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d140.s4" text="Colestipol: Plasma concentrations of atorvastatin decreased approximately 25% when colestipol and atorvastatin were coadministered.">
+        <entity id="DDI-DrugBank.d140.s4.e0" charOffset="0-9"
+            type="drug" text="Colestipol"/>
+        <entity id="DDI-DrugBank.d140.s4.e1" charOffset="37-48"
+            type="drug" text="atorvastatin"/>
+        <entity id="DDI-DrugBank.d140.s4.e2" charOffset="83-92"
+            type="drug" text="colestipol"/>
+        <entity id="DDI-DrugBank.d140.s4.e3" charOffset="98-109"
+            type="drug" text="atorvastatin"/>
+        <pair id="DDI-DrugBank.d140.s4.p0" e1="DDI-DrugBank.d140.s4.e0"
+            e2="DDI-DrugBank.d140.s4.e1" ddi="false"/>
+        <pair id="DDI-DrugBank.d140.s4.p1" e1="DDI-DrugBank.d140.s4.e0"
+            e2="DDI-DrugBank.d140.s4.e2" ddi="false"/>
+        <pair id="DDI-DrugBank.d140.s4.p2" e1="DDI-DrugBank.d140.s4.e0"
+            e2="DDI-DrugBank.d140.s4.e3" ddi="false"/>
+        <pair id="DDI-DrugBank.d140.s4.p3" e1="DDI-DrugBank.d140.s4.e1"
+            e2="DDI-DrugBank.d140.s4.e2" ddi="false"/>
+        <pair id="DDI-DrugBank.d140.s4.p4" e1="DDI-DrugBank.d140.s4.e1"
+            e2="DDI-DrugBank.d140.s4.e3" ddi="false"/>
+        <pair id="DDI-DrugBank.d140.s4.p5" e1="DDI-DrugBank.d140.s4.e2"
+            e2="DDI-DrugBank.d140.s4.e3" ddi="true" type="mechanism"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d140.s5" text="However, LDL-C reduction was greater when atorvastatin and colestipol were coadministered than when either drug was given alone.">
+        <entity id="DDI-DrugBank.d140.s5.e0" charOffset="42-53"
+            type="drug" text="atorvastatin"/>
+        <entity id="DDI-DrugBank.d140.s5.e1" charOffset="59-68"
+            type="drug" text="colestipol"/>
+        <pair id="DDI-DrugBank.d140.s5.p0" e1="DDI-DrugBank.d140.s5.e0"
+            e2="DDI-DrugBank.d140.s5.e1" ddi="true" type="effect"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d140.s6" text="Cimetidine: Atorvastatin plasma concentrations and LDL-C reduction were not altered by coadministration of cimetidine.">
+        <entity id="DDI-DrugBank.d140.s6.e0" charOffset="0-9"
+            type="drug" text="Cimetidine"/>
+        <entity id="DDI-DrugBank.d140.s6.e1" charOffset="12-23"
+            type="drug" text="Atorvastatin"/>
+        <entity id="DDI-DrugBank.d140.s6.e2" charOffset="107-116"
+            type="drug" text="cimetidine"/>
+        <pair id="DDI-DrugBank.d140.s6.p0" e1="DDI-DrugBank.d140.s6.e0"
+            e2="DDI-DrugBank.d140.s6.e1" ddi="false"/>
+        <pair id="DDI-DrugBank.d140.s6.p1" e1="DDI-DrugBank.d140.s6.e0"
+            e2="DDI-DrugBank.d140.s6.e2" ddi="false"/>
+        <pair id="DDI-DrugBank.d140.s6.p2" e1="DDI-DrugBank.d140.s6.e1"
+            e2="DDI-DrugBank.d140.s6.e2" ddi="false"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d140.s7" text="Digoxin: When multiple doses of atorvastatin and digoxin were coadministered, steady-state plasma digoxin concentrations increased by approximately 20%.">
+        <entity id="DDI-DrugBank.d140.s7.e0" charOffset="0-6"
+            type="drug" text="Digoxin"/>
+        <entity id="DDI-DrugBank.d140.s7.e1" charOffset="32-43"
+            type="drug" text="atorvastatin"/>
+        <entity id="DDI-DrugBank.d140.s7.e2" charOffset="49-55"
+            type="drug" text="digoxin"/>
+        <entity id="DDI-DrugBank.d140.s7.e3" charOffset="98-104"
+            type="drug" text="digoxin"/>
+        <pair id="DDI-DrugBank.d140.s7.p0" e1="DDI-DrugBank.d140.s7.e0"
+            e2="DDI-DrugBank.d140.s7.e1" ddi="false"/>
+        <pair id="DDI-DrugBank.d140.s7.p1" e1="DDI-DrugBank.d140.s7.e0"
+            e2="DDI-DrugBank.d140.s7.e2" ddi="false"/>
+        <pair id="DDI-DrugBank.d140.s7.p2" e1="DDI-DrugBank.d140.s7.e0"
+            e2="DDI-DrugBank.d140.s7.e3" ddi="false"/>
+        <pair id="DDI-DrugBank.d140.s7.p3" e1="DDI-DrugBank.d140.s7.e1"
+            e2="DDI-DrugBank.d140.s7.e2" ddi="true" type="mechanism"/>
+        <pair id="DDI-DrugBank.d140.s7.p4" e1="DDI-DrugBank.d140.s7.e1"
+            e2="DDI-DrugBank.d140.s7.e3" ddi="false"/>
+        <pair id="DDI-DrugBank.d140.s7.p5" e1="DDI-DrugBank.d140.s7.e2"
+            e2="DDI-DrugBank.d140.s7.e3" ddi="false"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d140.s8" text="Patients taking digoxin should be monitored appropriately.">
+        <entity id="DDI-DrugBank.d140.s8.e0" charOffset="16-22"
+            type="drug" text="digoxin"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d140.s9" text="Erythromycin: In healthy individuals, plasma concentrations of atorvastatin increased approximately 40% with coadministration of atorvastatin and erythromycin, a known inhibitor of cytochrome P450 3A4.">
+        <entity id="DDI-DrugBank.d140.s9.e0" charOffset="0-11"
+            type="drug" text="Erythromycin"/>
+        <entity id="DDI-DrugBank.d140.s9.e1" charOffset="63-74"
+            type="drug" text="atorvastatin"/>
+        <entity id="DDI-DrugBank.d140.s9.e2" charOffset="129-140"
+            type="drug" text="atorvastatin"/>
+        <entity id="DDI-DrugBank.d140.s9.e3" charOffset="146-157"
+            type="drug" text="erythromycin"/>
+        <pair id="DDI-DrugBank.d140.s9.p0" e1="DDI-DrugBank.d140.s9.e0"
+            e2="DDI-DrugBank.d140.s9.e1" ddi="false"/>
+        <pair id="DDI-DrugBank.d140.s9.p1" e1="DDI-DrugBank.d140.s9.e0"
+            e2="DDI-DrugBank.d140.s9.e2" ddi="false"/>
+        <pair id="DDI-DrugBank.d140.s9.p2" e1="DDI-DrugBank.d140.s9.e0"
+            e2="DDI-DrugBank.d140.s9.e3" ddi="false"/>
+        <pair id="DDI-DrugBank.d140.s9.p3" e1="DDI-DrugBank.d140.s9.e1"
+            e2="DDI-DrugBank.d140.s9.e2" ddi="false"/>
+        <pair id="DDI-DrugBank.d140.s9.p4" e1="DDI-DrugBank.d140.s9.e1"
+            e2="DDI-DrugBank.d140.s9.e3" ddi="false"/>
+        <pair id="DDI-DrugBank.d140.s9.p5" e1="DDI-DrugBank.d140.s9.e2"
+            e2="DDI-DrugBank.d140.s9.e3" ddi="true" type="mechanism"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d140.s10" text="Oral Contraceptives: Coadministration of atorvastatin and an oral contraceptive increased AUC values for norethindrone and ethinyl estradiol by approximately 30% and 20%.">
+        <entity id="DDI-DrugBank.d140.s10.e0" charOffset="5-18"
+            type="group" text="Contraceptives"/>
+        <entity id="DDI-DrugBank.d140.s10.e1" charOffset="41-52"
+            type="drug" text="atorvastatin"/>
+        <entity id="DDI-DrugBank.d140.s10.e2" charOffset="66-78"
+            type="group" text="contraceptive"/>
+        <entity id="DDI-DrugBank.d140.s10.e3" charOffset="105-117"
+            type="drug" text="norethindrone"/>
+        <entity id="DDI-DrugBank.d140.s10.e4" charOffset="123-139"
+            type="drug" text="ethinyl estradiol"/>
+        <pair id="DDI-DrugBank.d140.s10.p0"
+            e1="DDI-DrugBank.d140.s10.e0" e2="DDI-DrugBank.d140.s10.e1" ddi="false"/>
+        <pair id="DDI-DrugBank.d140.s10.p1"
+            e1="DDI-DrugBank.d140.s10.e0" e2="DDI-DrugBank.d140.s10.e2" ddi="false"/>
+        <pair id="DDI-DrugBank.d140.s10.p2"
+            e1="DDI-DrugBank.d140.s10.e0" e2="DDI-DrugBank.d140.s10.e3" ddi="false"/>
+        <pair id="DDI-DrugBank.d140.s10.p3"
+            e1="DDI-DrugBank.d140.s10.e0" e2="DDI-DrugBank.d140.s10.e4" ddi="false"/>
+        <pair id="DDI-DrugBank.d140.s10.p4"
+            e1="DDI-DrugBank.d140.s10.e1" e2="DDI-DrugBank.d140.s10.e2"
+            ddi="true" type="mechanism"/>
+        <pair id="DDI-DrugBank.d140.s10.p5"
+            e1="DDI-DrugBank.d140.s10.e1" e2="DDI-DrugBank.d140.s10.e3"
+            ddi="true" type="mechanism"/>
+        <pair id="DDI-DrugBank.d140.s10.p6"
+            e1="DDI-DrugBank.d140.s10.e1" e2="DDI-DrugBank.d140.s10.e4"
+            ddi="true" type="mechanism"/>
+        <pair id="DDI-DrugBank.d140.s10.p7"
+            e1="DDI-DrugBank.d140.s10.e2" e2="DDI-DrugBank.d140.s10.e3" ddi="false"/>
+        <pair id="DDI-DrugBank.d140.s10.p8"
+            e1="DDI-DrugBank.d140.s10.e2" e2="DDI-DrugBank.d140.s10.e4" ddi="false"/>
+        <pair id="DDI-DrugBank.d140.s10.p9"
+            e1="DDI-DrugBank.d140.s10.e3" e2="DDI-DrugBank.d140.s10.e4" ddi="false"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d140.s11" text="These increases should be considered when selecting an oral contraceptive for a woman taking atorvastatin.">
+        <entity id="DDI-DrugBank.d140.s11.e0" charOffset="60-72"
+            type="group" text="contraceptive"/>
+        <entity id="DDI-DrugBank.d140.s11.e1" charOffset="93-104"
+            type="drug" text="atorvastatin"/>
+        <pair id="DDI-DrugBank.d140.s11.p0"
+            e1="DDI-DrugBank.d140.s11.e0" e2="DDI-DrugBank.d140.s11.e1"
+            ddi="true" type="advise"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d140.s12" text="Warfarin: Atorvastatin had no clinically significant effect on prothrombin time when administered to patients receiving chronic warfarin treatment.">
+        <entity id="DDI-DrugBank.d140.s12.e0" charOffset="0-7"
+            type="drug" text="Warfarin"/>
+        <entity id="DDI-DrugBank.d140.s12.e1" charOffset="10-21"
+            type="drug" text="Atorvastatin"/>
+        <entity id="DDI-DrugBank.d140.s12.e2" charOffset="128-135"
+            type="drug" text="warfarin"/>
+        <pair id="DDI-DrugBank.d140.s12.p0"
+            e1="DDI-DrugBank.d140.s12.e0" e2="DDI-DrugBank.d140.s12.e1" ddi="false"/>
+        <pair id="DDI-DrugBank.d140.s12.p1"
+            e1="DDI-DrugBank.d140.s12.e0" e2="DDI-DrugBank.d140.s12.e2" ddi="false"/>
+        <pair id="DDI-DrugBank.d140.s12.p2"
+            e1="DDI-DrugBank.d140.s12.e1" e2="DDI-DrugBank.d140.s12.e2" ddi="false"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d140.s13" text="Endocrine Function HMG-CoA reductase inhibitors interfere with cholesterol synthesis and theoretically might blunt adrenal and/or gonadal steroid production.">
+        <entity id="DDI-DrugBank.d140.s13.e0" charOffset="19-46"
+            type="group" text="HMG-CoA reductase inhibitors"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d140.s14" text="Clinical studies have shown that atorvastatin does not reduce basal plasma cortisol concentration or impair adrenal reserve.">
+        <entity id="DDI-DrugBank.d140.s14.e0" charOffset="33-44"
+            type="drug" text="atorvastatin"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d140.s15" text="The effects of HMG-CoA reductase inhibitors on male fertility have not been studied in adequate numbers of patients.">
+        <entity id="DDI-DrugBank.d140.s15.e0" charOffset="15-42"
+            type="group" text="HMG-CoA reductase inhibitors"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d140.s16" text="The effects, if any, on the pituitary-gonadal axis in premenopausal women are unknown."/>
+    <sentence id="DDI-DrugBank.d140.s17" text="Caution should be exercised if an HMG-CoA reductase inhibitor is administered concomitantly with drugs that may decrease the levels or activity of endogenous steroid hormones, such as ketoconazole, spironolactone, and cimetidine.">
+        <entity id="DDI-DrugBank.d140.s17.e0" charOffset="34-60"
+            type="group" text="HMG-CoA reductase inhibitor"/>
+        <entity id="DDI-DrugBank.d140.s17.e1" charOffset="184-195"
+            type="drug" text="ketoconazole"/>
+        <entity id="DDI-DrugBank.d140.s17.e2" charOffset="198-211"
+            type="drug" text="spironolactone"/>
+        <entity id="DDI-DrugBank.d140.s17.e3" charOffset="218-227"
+            type="drug" text="cimetidine"/>
+        <pair id="DDI-DrugBank.d140.s17.p0"
+            e1="DDI-DrugBank.d140.s17.e0" e2="DDI-DrugBank.d140.s17.e1"
+            ddi="true" type="advise"/>
+        <pair id="DDI-DrugBank.d140.s17.p1"
+            e1="DDI-DrugBank.d140.s17.e0" e2="DDI-DrugBank.d140.s17.e2"
+            ddi="true" type="advise"/>
+        <pair id="DDI-DrugBank.d140.s17.p2"
+            e1="DDI-DrugBank.d140.s17.e0" e2="DDI-DrugBank.d140.s17.e3"
+            ddi="true" type="advise"/>
+        <pair id="DDI-DrugBank.d140.s17.p3"
+            e1="DDI-DrugBank.d140.s17.e1" e2="DDI-DrugBank.d140.s17.e2" ddi="false"/>
+        <pair id="DDI-DrugBank.d140.s17.p4"
+            e1="DDI-DrugBank.d140.s17.e1" e2="DDI-DrugBank.d140.s17.e3" ddi="false"/>
+        <pair id="DDI-DrugBank.d140.s17.p5"
+            e1="DDI-DrugBank.d140.s17.e2" e2="DDI-DrugBank.d140.s17.e3" ddi="false"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d140.s18" text="CNS Toxicity Brain hemorrhage was seen in a female dog treated for 3 months at 120 mg/kg/day."/>
+    <sentence id="DDI-DrugBank.d140.s19" text="Brain hemorrhage and optic nerve vacuolation were seen in another female dog that was sacrificed in moribund condition after 11 weeks of escalating doses up to 280 mg/kg/day."/>
+    <sentence id="DDI-DrugBank.d140.s20" text="The 120 mg/kg dose resulted in a systemic exposure approximately 16 times the human plasma area-under-the-curve (AUC, 0-24 hours) based on the maximum human dose of 80 mg/day."/>
+    <sentence id="DDI-DrugBank.d140.s21" text="A single tonic convulsion was seen in each of 2 male dogs (one treated at 10 mg/kg/day and one at 120 mg/kg/day) in a 2-year study."/>
+    <sentence id="DDI-DrugBank.d140.s22" text="No CNS lesions have been observed in mice after chronic treatment for up to 2 years at doses up to 400 mg/kg/day or in rats at doses up to 100 mg/kg/day."/>
+    <sentence id="DDI-DrugBank.d140.s23" text="These doses were 6 to 11 times (mouse) and 8 to 16 times (rat) the human AUC (0-24) based on the maximum recommended human dose of 80 mg/day."/>
+    <sentence id="DDI-DrugBank.d140.s24" text="CNS vascular lesions, characterized by perivascular hemorrhages, edema, and mononuclear cell infiltration of perivascular spaces, have been observed in dogs treated with other members of this class."/>
+    <sentence id="DDI-DrugBank.d140.s25" text="A chemically similar drug in this class produced optic nerve degeneration (Wallerian degeneration of retinogeniculate fibers) in clinically normal dogs in a dose-dependent fashion at a dose that produced plasma drug levels about 30 times higher than the mean drug level in humans taking the highest recommended dose."/>
+</document>

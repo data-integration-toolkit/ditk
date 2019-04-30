@@ -1,0 +1,719 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="DDI-DrugBank.d340">
+    <sentence id="DDI-DrugBank.d340.s0" text="Nelfinavir is an inhibitor of CYP3A (cytochrome P450 3A).">
+        <entity id="DDI-DrugBank.d340.s0.e0" charOffset="0-9"
+            type="drug" text="Nelfinavir"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d340.s1" text="Coadministration of VIRACEPT and drugs primarily metabolized by CYP3A (e.g., dihydropyridine calcium channel blockers) may result in increased plasma concentrations of the other drug that could increase or prolong both its therapeutic and adverse effects.">
+        <entity id="DDI-DrugBank.d340.s1.e0" charOffset="20-27"
+            type="brand" text="VIRACEPT"/>
+        <entity id="DDI-DrugBank.d340.s1.e1" charOffset="77-116"
+            type="group" text="dihydropyridine calcium channel blockers"/>
+        <pair id="DDI-DrugBank.d340.s1.p0" e1="DDI-DrugBank.d340.s1.e0"
+            e2="DDI-DrugBank.d340.s1.e1" ddi="false"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d340.s2" text="Nelfinavir is metabolized in proof by C.P.A.">
+        <entity id="DDI-DrugBank.d340.s2.e0" charOffset="0-9"
+            type="drug" text="Nelfinavir"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d340.s3" text="Coadministration of VIRACEPT and drugs that induce CYP3A may decrease nelfinavir plasma concentrations and reduce its therapeutic effect.">
+        <entity id="DDI-DrugBank.d340.s3.e0" charOffset="20-27"
+            type="brand" text="VIRACEPT"/>
+        <entity id="DDI-DrugBank.d340.s3.e1" charOffset="70-79"
+            type="drug" text="nelfinavir"/>
+        <pair id="DDI-DrugBank.d340.s3.p0" e1="DDI-DrugBank.d340.s3.e0"
+            e2="DDI-DrugBank.d340.s3.e1" ddi="false"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d340.s4" text="Coadministration of VIRACEPT and drugs that inhibit CYP3A may increase nelfinavir plasma concentrations.">
+        <entity id="DDI-DrugBank.d340.s4.e0" charOffset="20-27"
+            type="brand" text="VIRACEPT"/>
+        <entity id="DDI-DrugBank.d340.s4.e1" charOffset="71-80"
+            type="drug" text="nelfinavir"/>
+        <pair id="DDI-DrugBank.d340.s4.p0" e1="DDI-DrugBank.d340.s4.e0"
+            e2="DDI-DrugBank.d340.s4.e1" ddi="false"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d340.s5" text="Based on known metabolic profiles, clinically significant drug interactions are not expected between VIRACEPT and dapsone, trimethoprim/sulfamethoxazole, clarithromycin, erythromycin, itraconazole or fluconazole.">
+        <entity id="DDI-DrugBank.d340.s5.e0" charOffset="101-108"
+            type="brand" text="VIRACEPT"/>
+        <entity id="DDI-DrugBank.d340.s5.e1" charOffset="114-120"
+            type="drug" text="dapsone"/>
+        <entity id="DDI-DrugBank.d340.s5.e2" charOffset="123-134"
+            type="drug" text="trimethoprim"/>
+        <entity id="DDI-DrugBank.d340.s5.e3" charOffset="136-151"
+            type="drug" text="sulfamethoxazole"/>
+        <entity id="DDI-DrugBank.d340.s5.e4" charOffset="154-167"
+            type="drug" text="clarithromycin"/>
+        <entity id="DDI-DrugBank.d340.s5.e5" charOffset="170-181"
+            type="drug" text="erythromycin"/>
+        <entity id="DDI-DrugBank.d340.s5.e6" charOffset="184-195"
+            type="drug" text="itraconazole"/>
+        <entity id="DDI-DrugBank.d340.s5.e7" charOffset="200-210"
+            type="drug" text="fluconazole"/>
+        <pair id="DDI-DrugBank.d340.s5.p0" e1="DDI-DrugBank.d340.s5.e0"
+            e2="DDI-DrugBank.d340.s5.e1" ddi="false"/>
+        <pair id="DDI-DrugBank.d340.s5.p1" e1="DDI-DrugBank.d340.s5.e0"
+            e2="DDI-DrugBank.d340.s5.e2" ddi="false"/>
+        <pair id="DDI-DrugBank.d340.s5.p2" e1="DDI-DrugBank.d340.s5.e0"
+            e2="DDI-DrugBank.d340.s5.e3" ddi="false"/>
+        <pair id="DDI-DrugBank.d340.s5.p3" e1="DDI-DrugBank.d340.s5.e0"
+            e2="DDI-DrugBank.d340.s5.e4" ddi="false"/>
+        <pair id="DDI-DrugBank.d340.s5.p4" e1="DDI-DrugBank.d340.s5.e0"
+            e2="DDI-DrugBank.d340.s5.e5" ddi="false"/>
+        <pair id="DDI-DrugBank.d340.s5.p5" e1="DDI-DrugBank.d340.s5.e0"
+            e2="DDI-DrugBank.d340.s5.e6" ddi="false"/>
+        <pair id="DDI-DrugBank.d340.s5.p6" e1="DDI-DrugBank.d340.s5.e0"
+            e2="DDI-DrugBank.d340.s5.e7" ddi="false"/>
+        <pair id="DDI-DrugBank.d340.s5.p7" e1="DDI-DrugBank.d340.s5.e1"
+            e2="DDI-DrugBank.d340.s5.e2" ddi="false"/>
+        <pair id="DDI-DrugBank.d340.s5.p8" e1="DDI-DrugBank.d340.s5.e1"
+            e2="DDI-DrugBank.d340.s5.e3" ddi="false"/>
+        <pair id="DDI-DrugBank.d340.s5.p9" e1="DDI-DrugBank.d340.s5.e1"
+            e2="DDI-DrugBank.d340.s5.e4" ddi="false"/>
+        <pair id="DDI-DrugBank.d340.s5.p10" e1="DDI-DrugBank.d340.s5.e1"
+            e2="DDI-DrugBank.d340.s5.e5" ddi="false"/>
+        <pair id="DDI-DrugBank.d340.s5.p11" e1="DDI-DrugBank.d340.s5.e1"
+            e2="DDI-DrugBank.d340.s5.e6" ddi="false"/>
+        <pair id="DDI-DrugBank.d340.s5.p12" e1="DDI-DrugBank.d340.s5.e1"
+            e2="DDI-DrugBank.d340.s5.e7" ddi="false"/>
+        <pair id="DDI-DrugBank.d340.s5.p13" e1="DDI-DrugBank.d340.s5.e2"
+            e2="DDI-DrugBank.d340.s5.e3" ddi="false"/>
+        <pair id="DDI-DrugBank.d340.s5.p14" e1="DDI-DrugBank.d340.s5.e2"
+            e2="DDI-DrugBank.d340.s5.e4" ddi="false"/>
+        <pair id="DDI-DrugBank.d340.s5.p15" e1="DDI-DrugBank.d340.s5.e2"
+            e2="DDI-DrugBank.d340.s5.e5" ddi="false"/>
+        <pair id="DDI-DrugBank.d340.s5.p16" e1="DDI-DrugBank.d340.s5.e2"
+            e2="DDI-DrugBank.d340.s5.e6" ddi="false"/>
+        <pair id="DDI-DrugBank.d340.s5.p17" e1="DDI-DrugBank.d340.s5.e2"
+            e2="DDI-DrugBank.d340.s5.e7" ddi="false"/>
+        <pair id="DDI-DrugBank.d340.s5.p18" e1="DDI-DrugBank.d340.s5.e3"
+            e2="DDI-DrugBank.d340.s5.e4" ddi="false"/>
+        <pair id="DDI-DrugBank.d340.s5.p19" e1="DDI-DrugBank.d340.s5.e3"
+            e2="DDI-DrugBank.d340.s5.e5" ddi="false"/>
+        <pair id="DDI-DrugBank.d340.s5.p20" e1="DDI-DrugBank.d340.s5.e3"
+            e2="DDI-DrugBank.d340.s5.e6" ddi="false"/>
+        <pair id="DDI-DrugBank.d340.s5.p21" e1="DDI-DrugBank.d340.s5.e3"
+            e2="DDI-DrugBank.d340.s5.e7" ddi="false"/>
+        <pair id="DDI-DrugBank.d340.s5.p22" e1="DDI-DrugBank.d340.s5.e4"
+            e2="DDI-DrugBank.d340.s5.e5" ddi="false"/>
+        <pair id="DDI-DrugBank.d340.s5.p23" e1="DDI-DrugBank.d340.s5.e4"
+            e2="DDI-DrugBank.d340.s5.e6" ddi="false"/>
+        <pair id="DDI-DrugBank.d340.s5.p24" e1="DDI-DrugBank.d340.s5.e4"
+            e2="DDI-DrugBank.d340.s5.e7" ddi="false"/>
+        <pair id="DDI-DrugBank.d340.s5.p25" e1="DDI-DrugBank.d340.s5.e5"
+            e2="DDI-DrugBank.d340.s5.e6" ddi="false"/>
+        <pair id="DDI-DrugBank.d340.s5.p26" e1="DDI-DrugBank.d340.s5.e5"
+            e2="DDI-DrugBank.d340.s5.e7" ddi="false"/>
+        <pair id="DDI-DrugBank.d340.s5.p27" e1="DDI-DrugBank.d340.s5.e6"
+            e2="DDI-DrugBank.d340.s5.e7" ddi="false"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d340.s6" text="Drugs That Should Not Be Coadministered With VIRACEPT Antiarrhythmics: amiodarone, quinidine Antihistamines: astemizole, terfenadine Antimigraine: ergot derivatives Antimycobacterial agents: rifampin Benzodiazepines midazolam, triazolam GI motility agents: cisapride">
+        <entity id="DDI-DrugBank.d340.s6.e0" charOffset="45-52"
+            type="brand" text="VIRACEPT"/>
+        <entity id="DDI-DrugBank.d340.s6.e1" charOffset="54-68"
+            type="group" text="Antiarrhythmics"/>
+        <entity id="DDI-DrugBank.d340.s6.e2" charOffset="71-80"
+            type="drug" text="amiodarone"/>
+        <entity id="DDI-DrugBank.d340.s6.e3" charOffset="83-91"
+            type="drug" text="quinidine"/>
+        <entity id="DDI-DrugBank.d340.s6.e4" charOffset="93-106"
+            type="group" text="Antihistamines"/>
+        <entity id="DDI-DrugBank.d340.s6.e5" charOffset="109-118"
+            type="drug" text="astemizole"/>
+        <entity id="DDI-DrugBank.d340.s6.e6" charOffset="121-131"
+            type="drug" text="terfenadine"/>
+        <entity id="DDI-DrugBank.d340.s6.e7" charOffset="147-163"
+            type="group" text="ergot derivatives"/>
+        <entity id="DDI-DrugBank.d340.s6.e8" charOffset="165-188"
+            type="group" text="Antimycobacterial agents"/>
+        <entity id="DDI-DrugBank.d340.s6.e9" charOffset="191-198"
+            type="drug" text="rifampin"/>
+        <entity id="DDI-DrugBank.d340.s6.e10" charOffset="200-214"
+            type="group" text="Benzodiazepines"/>
+        <entity id="DDI-DrugBank.d340.s6.e11" charOffset="216-224"
+            type="drug" text="midazolam"/>
+        <entity id="DDI-DrugBank.d340.s6.e12" charOffset="227-235"
+            type="drug" text="triazolam"/>
+        <entity id="DDI-DrugBank.d340.s6.e13" charOffset="257-265"
+            type="drug" text="cisapride"/>
+        <pair id="DDI-DrugBank.d340.s6.p0" e1="DDI-DrugBank.d340.s6.e0"
+            e2="DDI-DrugBank.d340.s6.e1" ddi="true" type="advise"/>
+        <pair id="DDI-DrugBank.d340.s6.p1" e1="DDI-DrugBank.d340.s6.e0"
+            e2="DDI-DrugBank.d340.s6.e2" ddi="true" type="advise"/>
+        <pair id="DDI-DrugBank.d340.s6.p2" e1="DDI-DrugBank.d340.s6.e0"
+            e2="DDI-DrugBank.d340.s6.e3" ddi="true" type="advise"/>
+        <pair id="DDI-DrugBank.d340.s6.p3" e1="DDI-DrugBank.d340.s6.e0"
+            e2="DDI-DrugBank.d340.s6.e4" ddi="true" type="advise"/>
+        <pair id="DDI-DrugBank.d340.s6.p4" e1="DDI-DrugBank.d340.s6.e0"
+            e2="DDI-DrugBank.d340.s6.e5" ddi="true" type="advise"/>
+        <pair id="DDI-DrugBank.d340.s6.p5" e1="DDI-DrugBank.d340.s6.e0"
+            e2="DDI-DrugBank.d340.s6.e6" ddi="true" type="advise"/>
+        <pair id="DDI-DrugBank.d340.s6.p6" e1="DDI-DrugBank.d340.s6.e0"
+            e2="DDI-DrugBank.d340.s6.e7" ddi="true" type="advise"/>
+        <pair id="DDI-DrugBank.d340.s6.p7" e1="DDI-DrugBank.d340.s6.e0"
+            e2="DDI-DrugBank.d340.s6.e8" ddi="true" type="advise"/>
+        <pair id="DDI-DrugBank.d340.s6.p8" e1="DDI-DrugBank.d340.s6.e0"
+            e2="DDI-DrugBank.d340.s6.e9" ddi="true" type="advise"/>
+        <pair id="DDI-DrugBank.d340.s6.p9" e1="DDI-DrugBank.d340.s6.e0"
+            e2="DDI-DrugBank.d340.s6.e10" ddi="true" type="advise"/>
+        <pair id="DDI-DrugBank.d340.s6.p10" e1="DDI-DrugBank.d340.s6.e0"
+            e2="DDI-DrugBank.d340.s6.e11" ddi="true" type="advise"/>
+        <pair id="DDI-DrugBank.d340.s6.p11" e1="DDI-DrugBank.d340.s6.e0"
+            e2="DDI-DrugBank.d340.s6.e12" ddi="true" type="advise"/>
+        <pair id="DDI-DrugBank.d340.s6.p12" e1="DDI-DrugBank.d340.s6.e0"
+            e2="DDI-DrugBank.d340.s6.e13" ddi="true" type="advise"/>
+        <pair id="DDI-DrugBank.d340.s6.p13" e1="DDI-DrugBank.d340.s6.e1"
+            e2="DDI-DrugBank.d340.s6.e2" ddi="false"/>
+        <pair id="DDI-DrugBank.d340.s6.p14" e1="DDI-DrugBank.d340.s6.e1"
+            e2="DDI-DrugBank.d340.s6.e3" ddi="false"/>
+        <pair id="DDI-DrugBank.d340.s6.p15" e1="DDI-DrugBank.d340.s6.e1"
+            e2="DDI-DrugBank.d340.s6.e4" ddi="false"/>
+        <pair id="DDI-DrugBank.d340.s6.p16" e1="DDI-DrugBank.d340.s6.e1"
+            e2="DDI-DrugBank.d340.s6.e5" ddi="false"/>
+        <pair id="DDI-DrugBank.d340.s6.p17" e1="DDI-DrugBank.d340.s6.e1"
+            e2="DDI-DrugBank.d340.s6.e6" ddi="false"/>
+        <pair id="DDI-DrugBank.d340.s6.p18" e1="DDI-DrugBank.d340.s6.e1"
+            e2="DDI-DrugBank.d340.s6.e7" ddi="false"/>
+        <pair id="DDI-DrugBank.d340.s6.p19" e1="DDI-DrugBank.d340.s6.e1"
+            e2="DDI-DrugBank.d340.s6.e8" ddi="false"/>
+        <pair id="DDI-DrugBank.d340.s6.p20" e1="DDI-DrugBank.d340.s6.e1"
+            e2="DDI-DrugBank.d340.s6.e9" ddi="false"/>
+        <pair id="DDI-DrugBank.d340.s6.p21" e1="DDI-DrugBank.d340.s6.e1"
+            e2="DDI-DrugBank.d340.s6.e10" ddi="false"/>
+        <pair id="DDI-DrugBank.d340.s6.p22" e1="DDI-DrugBank.d340.s6.e1"
+            e2="DDI-DrugBank.d340.s6.e11" ddi="false"/>
+        <pair id="DDI-DrugBank.d340.s6.p23" e1="DDI-DrugBank.d340.s6.e1"
+            e2="DDI-DrugBank.d340.s6.e12" ddi="false"/>
+        <pair id="DDI-DrugBank.d340.s6.p24" e1="DDI-DrugBank.d340.s6.e1"
+            e2="DDI-DrugBank.d340.s6.e13" ddi="false"/>
+        <pair id="DDI-DrugBank.d340.s6.p25" e1="DDI-DrugBank.d340.s6.e2"
+            e2="DDI-DrugBank.d340.s6.e3" ddi="false"/>
+        <pair id="DDI-DrugBank.d340.s6.p26" e1="DDI-DrugBank.d340.s6.e2"
+            e2="DDI-DrugBank.d340.s6.e4" ddi="false"/>
+        <pair id="DDI-DrugBank.d340.s6.p27" e1="DDI-DrugBank.d340.s6.e2"
+            e2="DDI-DrugBank.d340.s6.e5" ddi="false"/>
+        <pair id="DDI-DrugBank.d340.s6.p28" e1="DDI-DrugBank.d340.s6.e2"
+            e2="DDI-DrugBank.d340.s6.e6" ddi="false"/>
+        <pair id="DDI-DrugBank.d340.s6.p29" e1="DDI-DrugBank.d340.s6.e2"
+            e2="DDI-DrugBank.d340.s6.e7" ddi="false"/>
+        <pair id="DDI-DrugBank.d340.s6.p30" e1="DDI-DrugBank.d340.s6.e2"
+            e2="DDI-DrugBank.d340.s6.e8" ddi="false"/>
+        <pair id="DDI-DrugBank.d340.s6.p31" e1="DDI-DrugBank.d340.s6.e2"
+            e2="DDI-DrugBank.d340.s6.e9" ddi="false"/>
+        <pair id="DDI-DrugBank.d340.s6.p32" e1="DDI-DrugBank.d340.s6.e2"
+            e2="DDI-DrugBank.d340.s6.e10" ddi="false"/>
+        <pair id="DDI-DrugBank.d340.s6.p33" e1="DDI-DrugBank.d340.s6.e2"
+            e2="DDI-DrugBank.d340.s6.e11" ddi="false"/>
+        <pair id="DDI-DrugBank.d340.s6.p34" e1="DDI-DrugBank.d340.s6.e2"
+            e2="DDI-DrugBank.d340.s6.e12" ddi="false"/>
+        <pair id="DDI-DrugBank.d340.s6.p35" e1="DDI-DrugBank.d340.s6.e2"
+            e2="DDI-DrugBank.d340.s6.e13" ddi="false"/>
+        <pair id="DDI-DrugBank.d340.s6.p36" e1="DDI-DrugBank.d340.s6.e3"
+            e2="DDI-DrugBank.d340.s6.e4" ddi="false"/>
+        <pair id="DDI-DrugBank.d340.s6.p37" e1="DDI-DrugBank.d340.s6.e3"
+            e2="DDI-DrugBank.d340.s6.e5" ddi="false"/>
+        <pair id="DDI-DrugBank.d340.s6.p38" e1="DDI-DrugBank.d340.s6.e3"
+            e2="DDI-DrugBank.d340.s6.e6" ddi="false"/>
+        <pair id="DDI-DrugBank.d340.s6.p39" e1="DDI-DrugBank.d340.s6.e3"
+            e2="DDI-DrugBank.d340.s6.e7" ddi="false"/>
+        <pair id="DDI-DrugBank.d340.s6.p40" e1="DDI-DrugBank.d340.s6.e3"
+            e2="DDI-DrugBank.d340.s6.e8" ddi="false"/>
+        <pair id="DDI-DrugBank.d340.s6.p41" e1="DDI-DrugBank.d340.s6.e3"
+            e2="DDI-DrugBank.d340.s6.e9" ddi="false"/>
+        <pair id="DDI-DrugBank.d340.s6.p42" e1="DDI-DrugBank.d340.s6.e3"
+            e2="DDI-DrugBank.d340.s6.e10" ddi="false"/>
+        <pair id="DDI-DrugBank.d340.s6.p43" e1="DDI-DrugBank.d340.s6.e3"
+            e2="DDI-DrugBank.d340.s6.e11" ddi="false"/>
+        <pair id="DDI-DrugBank.d340.s6.p44" e1="DDI-DrugBank.d340.s6.e3"
+            e2="DDI-DrugBank.d340.s6.e12" ddi="false"/>
+        <pair id="DDI-DrugBank.d340.s6.p45" e1="DDI-DrugBank.d340.s6.e3"
+            e2="DDI-DrugBank.d340.s6.e13" ddi="false"/>
+        <pair id="DDI-DrugBank.d340.s6.p46" e1="DDI-DrugBank.d340.s6.e4"
+            e2="DDI-DrugBank.d340.s6.e5" ddi="false"/>
+        <pair id="DDI-DrugBank.d340.s6.p47" e1="DDI-DrugBank.d340.s6.e4"
+            e2="DDI-DrugBank.d340.s6.e6" ddi="false"/>
+        <pair id="DDI-DrugBank.d340.s6.p48" e1="DDI-DrugBank.d340.s6.e4"
+            e2="DDI-DrugBank.d340.s6.e7" ddi="false"/>
+        <pair id="DDI-DrugBank.d340.s6.p49" e1="DDI-DrugBank.d340.s6.e4"
+            e2="DDI-DrugBank.d340.s6.e8" ddi="false"/>
+        <pair id="DDI-DrugBank.d340.s6.p50" e1="DDI-DrugBank.d340.s6.e4"
+            e2="DDI-DrugBank.d340.s6.e9" ddi="false"/>
+        <pair id="DDI-DrugBank.d340.s6.p51" e1="DDI-DrugBank.d340.s6.e4"
+            e2="DDI-DrugBank.d340.s6.e10" ddi="false"/>
+        <pair id="DDI-DrugBank.d340.s6.p52" e1="DDI-DrugBank.d340.s6.e4"
+            e2="DDI-DrugBank.d340.s6.e11" ddi="false"/>
+        <pair id="DDI-DrugBank.d340.s6.p53" e1="DDI-DrugBank.d340.s6.e4"
+            e2="DDI-DrugBank.d340.s6.e12" ddi="false"/>
+        <pair id="DDI-DrugBank.d340.s6.p54" e1="DDI-DrugBank.d340.s6.e4"
+            e2="DDI-DrugBank.d340.s6.e13" ddi="false"/>
+        <pair id="DDI-DrugBank.d340.s6.p55" e1="DDI-DrugBank.d340.s6.e5"
+            e2="DDI-DrugBank.d340.s6.e6" ddi="false"/>
+        <pair id="DDI-DrugBank.d340.s6.p56" e1="DDI-DrugBank.d340.s6.e5"
+            e2="DDI-DrugBank.d340.s6.e7" ddi="false"/>
+        <pair id="DDI-DrugBank.d340.s6.p57" e1="DDI-DrugBank.d340.s6.e5"
+            e2="DDI-DrugBank.d340.s6.e8" ddi="false"/>
+        <pair id="DDI-DrugBank.d340.s6.p58" e1="DDI-DrugBank.d340.s6.e5"
+            e2="DDI-DrugBank.d340.s6.e9" ddi="false"/>
+        <pair id="DDI-DrugBank.d340.s6.p59" e1="DDI-DrugBank.d340.s6.e5"
+            e2="DDI-DrugBank.d340.s6.e10" ddi="false"/>
+        <pair id="DDI-DrugBank.d340.s6.p60" e1="DDI-DrugBank.d340.s6.e5"
+            e2="DDI-DrugBank.d340.s6.e11" ddi="false"/>
+        <pair id="DDI-DrugBank.d340.s6.p61" e1="DDI-DrugBank.d340.s6.e5"
+            e2="DDI-DrugBank.d340.s6.e12" ddi="false"/>
+        <pair id="DDI-DrugBank.d340.s6.p62" e1="DDI-DrugBank.d340.s6.e5"
+            e2="DDI-DrugBank.d340.s6.e13" ddi="false"/>
+        <pair id="DDI-DrugBank.d340.s6.p63" e1="DDI-DrugBank.d340.s6.e6"
+            e2="DDI-DrugBank.d340.s6.e7" ddi="false"/>
+        <pair id="DDI-DrugBank.d340.s6.p64" e1="DDI-DrugBank.d340.s6.e6"
+            e2="DDI-DrugBank.d340.s6.e8" ddi="false"/>
+        <pair id="DDI-DrugBank.d340.s6.p65" e1="DDI-DrugBank.d340.s6.e6"
+            e2="DDI-DrugBank.d340.s6.e9" ddi="false"/>
+        <pair id="DDI-DrugBank.d340.s6.p66" e1="DDI-DrugBank.d340.s6.e6"
+            e2="DDI-DrugBank.d340.s6.e10" ddi="false"/>
+        <pair id="DDI-DrugBank.d340.s6.p67" e1="DDI-DrugBank.d340.s6.e6"
+            e2="DDI-DrugBank.d340.s6.e11" ddi="false"/>
+        <pair id="DDI-DrugBank.d340.s6.p68" e1="DDI-DrugBank.d340.s6.e6"
+            e2="DDI-DrugBank.d340.s6.e12" ddi="false"/>
+        <pair id="DDI-DrugBank.d340.s6.p69" e1="DDI-DrugBank.d340.s6.e6"
+            e2="DDI-DrugBank.d340.s6.e13" ddi="false"/>
+        <pair id="DDI-DrugBank.d340.s6.p70" e1="DDI-DrugBank.d340.s6.e7"
+            e2="DDI-DrugBank.d340.s6.e8" ddi="false"/>
+        <pair id="DDI-DrugBank.d340.s6.p71" e1="DDI-DrugBank.d340.s6.e7"
+            e2="DDI-DrugBank.d340.s6.e9" ddi="false"/>
+        <pair id="DDI-DrugBank.d340.s6.p72" e1="DDI-DrugBank.d340.s6.e7"
+            e2="DDI-DrugBank.d340.s6.e10" ddi="false"/>
+        <pair id="DDI-DrugBank.d340.s6.p73" e1="DDI-DrugBank.d340.s6.e7"
+            e2="DDI-DrugBank.d340.s6.e11" ddi="false"/>
+        <pair id="DDI-DrugBank.d340.s6.p74" e1="DDI-DrugBank.d340.s6.e7"
+            e2="DDI-DrugBank.d340.s6.e12" ddi="false"/>
+        <pair id="DDI-DrugBank.d340.s6.p75" e1="DDI-DrugBank.d340.s6.e7"
+            e2="DDI-DrugBank.d340.s6.e13" ddi="false"/>
+        <pair id="DDI-DrugBank.d340.s6.p76" e1="DDI-DrugBank.d340.s6.e8"
+            e2="DDI-DrugBank.d340.s6.e9" ddi="false"/>
+        <pair id="DDI-DrugBank.d340.s6.p77" e1="DDI-DrugBank.d340.s6.e8"
+            e2="DDI-DrugBank.d340.s6.e10" ddi="false"/>
+        <pair id="DDI-DrugBank.d340.s6.p78" e1="DDI-DrugBank.d340.s6.e8"
+            e2="DDI-DrugBank.d340.s6.e11" ddi="false"/>
+        <pair id="DDI-DrugBank.d340.s6.p79" e1="DDI-DrugBank.d340.s6.e8"
+            e2="DDI-DrugBank.d340.s6.e12" ddi="false"/>
+        <pair id="DDI-DrugBank.d340.s6.p80" e1="DDI-DrugBank.d340.s6.e8"
+            e2="DDI-DrugBank.d340.s6.e13" ddi="false"/>
+        <pair id="DDI-DrugBank.d340.s6.p81" e1="DDI-DrugBank.d340.s6.e9"
+            e2="DDI-DrugBank.d340.s6.e10" ddi="false"/>
+        <pair id="DDI-DrugBank.d340.s6.p82" e1="DDI-DrugBank.d340.s6.e9"
+            e2="DDI-DrugBank.d340.s6.e11" ddi="false"/>
+        <pair id="DDI-DrugBank.d340.s6.p83" e1="DDI-DrugBank.d340.s6.e9"
+            e2="DDI-DrugBank.d340.s6.e12" ddi="false"/>
+        <pair id="DDI-DrugBank.d340.s6.p84" e1="DDI-DrugBank.d340.s6.e9"
+            e2="DDI-DrugBank.d340.s6.e13" ddi="false"/>
+        <pair id="DDI-DrugBank.d340.s6.p85"
+            e1="DDI-DrugBank.d340.s6.e10" e2="DDI-DrugBank.d340.s6.e11" ddi="false"/>
+        <pair id="DDI-DrugBank.d340.s6.p86"
+            e1="DDI-DrugBank.d340.s6.e10" e2="DDI-DrugBank.d340.s6.e12" ddi="false"/>
+        <pair id="DDI-DrugBank.d340.s6.p87"
+            e1="DDI-DrugBank.d340.s6.e10" e2="DDI-DrugBank.d340.s6.e13" ddi="false"/>
+        <pair id="DDI-DrugBank.d340.s6.p88"
+            e1="DDI-DrugBank.d340.s6.e11" e2="DDI-DrugBank.d340.s6.e12" ddi="false"/>
+        <pair id="DDI-DrugBank.d340.s6.p89"
+            e1="DDI-DrugBank.d340.s6.e11" e2="DDI-DrugBank.d340.s6.e13" ddi="false"/>
+        <pair id="DDI-DrugBank.d340.s6.p90"
+            e1="DDI-DrugBank.d340.s6.e12" e2="DDI-DrugBank.d340.s6.e13" ddi="false"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d340.s7" text="Drugs Which Require a Dose Reduction When Coadminstered With VIRACEPT Antimycobacterial agents: rifabutin">
+        <entity id="DDI-DrugBank.d340.s7.e0" charOffset="61-68"
+            type="brand" text="VIRACEPT"/>
+        <entity id="DDI-DrugBank.d340.s7.e1" charOffset="70-93"
+            type="group" text="Antimycobacterial agents"/>
+        <entity id="DDI-DrugBank.d340.s7.e2" charOffset="96-104"
+            type="drug" text="rifabutin"/>
+        <pair id="DDI-DrugBank.d340.s7.p0" e1="DDI-DrugBank.d340.s7.e0"
+            e2="DDI-DrugBank.d340.s7.e1" ddi="true" type="advise"/>
+        <pair id="DDI-DrugBank.d340.s7.p1" e1="DDI-DrugBank.d340.s7.e0"
+            e2="DDI-DrugBank.d340.s7.e2" ddi="true" type="advise"/>
+        <pair id="DDI-DrugBank.d340.s7.p2" e1="DDI-DrugBank.d340.s7.e1"
+            e2="DDI-DrugBank.d340.s7.e2" ddi="false"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d340.s8" text="* This table is not all inclusive ** VIRACEPT may not be effective due to decreased nelfinavir plasma concentrations in patients taking these agents concomitantly">
+        <entity id="DDI-DrugBank.d340.s8.e0" charOffset="37-44"
+            type="brand" text="VIRACEPT"/>
+        <entity id="DDI-DrugBank.d340.s8.e1" charOffset="84-93"
+            type="drug" text="nelfinavir"/>
+        <pair id="DDI-DrugBank.d340.s8.p0" e1="DDI-DrugBank.d340.s8.e0"
+            e2="DDI-DrugBank.d340.s8.e1" ddi="false"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d340.s9" text="Antihistamines">
+        <entity id="DDI-DrugBank.d340.s9.e0" charOffset="0-13"
+            type="group" text="Antihistamines"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d340.s10" text="Terfenadine: Administration of terfenadine with VIRACEPT resulted in the appearance of unchanged terfenadine in plasma;">
+        <entity id="DDI-DrugBank.d340.s10.e0" charOffset="0-10"
+            type="drug" text="Terfenadine"/>
+        <entity id="DDI-DrugBank.d340.s10.e1" charOffset="31-41"
+            type="drug" text="terfenadine"/>
+        <entity id="DDI-DrugBank.d340.s10.e2" charOffset="48-55"
+            type="brand" text="VIRACEPT"/>
+        <entity id="DDI-DrugBank.d340.s10.e3" charOffset="97-107"
+            type="drug" text="terfenadine"/>
+        <pair id="DDI-DrugBank.d340.s10.p0"
+            e1="DDI-DrugBank.d340.s10.e0" e2="DDI-DrugBank.d340.s10.e1" ddi="false"/>
+        <pair id="DDI-DrugBank.d340.s10.p1"
+            e1="DDI-DrugBank.d340.s10.e0" e2="DDI-DrugBank.d340.s10.e2" ddi="false"/>
+        <pair id="DDI-DrugBank.d340.s10.p2"
+            e1="DDI-DrugBank.d340.s10.e0" e2="DDI-DrugBank.d340.s10.e3" ddi="false"/>
+        <pair id="DDI-DrugBank.d340.s10.p3"
+            e1="DDI-DrugBank.d340.s10.e1" e2="DDI-DrugBank.d340.s10.e2" ddi="false"/>
+        <pair id="DDI-DrugBank.d340.s10.p4"
+            e1="DDI-DrugBank.d340.s10.e1" e2="DDI-DrugBank.d340.s10.e3" ddi="false"/>
+        <pair id="DDI-DrugBank.d340.s10.p5"
+            e1="DDI-DrugBank.d340.s10.e2" e2="DDI-DrugBank.d340.s10.e3" ddi="false"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d340.s11" text="therefore, VIRACEPT should not be administered concurrently with terfenadine because of the potential for serious and/or life-threatening cardiac arrhythmias.">
+        <entity id="DDI-DrugBank.d340.s11.e0" charOffset="11-18"
+            type="brand" text="VIRACEPT"/>
+        <entity id="DDI-DrugBank.d340.s11.e1" charOffset="65-75"
+            type="drug" text="terfenadine"/>
+        <pair id="DDI-DrugBank.d340.s11.p0"
+            e1="DDI-DrugBank.d340.s11.e0" e2="DDI-DrugBank.d340.s11.e1"
+            ddi="true" type="advise"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d340.s12" text="Because a similar interaction is likely, VIRACEPT should also not be administered concurrently with astemizole.">
+        <entity id="DDI-DrugBank.d340.s12.e0" charOffset="41-48"
+            type="brand" text="VIRACEPT"/>
+        <entity id="DDI-DrugBank.d340.s12.e1" charOffset="100-109"
+            type="drug" text="astemizole"/>
+        <pair id="DDI-DrugBank.d340.s12.p0"
+            e1="DDI-DrugBank.d340.s12.e0" e2="DDI-DrugBank.d340.s12.e1"
+            ddi="true" type="advise"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d340.s13" text="Anti-HIV Protease Inhibitors">
+        <entity id="DDI-DrugBank.d340.s13.e0" charOffset="0-27"
+            type="group" text="Anti-HIV Protease Inhibitors"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d340.s14" text="Indinavir: Coadministration of indinavir with VIRACEPT resulted in an 83% increase in nelfinavir plasma AUC and a 51% increase in indinavir plasma A.C.">
+        <entity id="DDI-DrugBank.d340.s14.e0" charOffset="0-8"
+            type="drug" text="Indinavir"/>
+        <entity id="DDI-DrugBank.d340.s14.e1" charOffset="31-39"
+            type="drug" text="indinavir"/>
+        <entity id="DDI-DrugBank.d340.s14.e2" charOffset="46-53"
+            type="brand" text="VIRACEPT"/>
+        <entity id="DDI-DrugBank.d340.s14.e3" charOffset="86-95"
+            type="drug" text="nelfinavir"/>
+        <entity id="DDI-DrugBank.d340.s14.e4" charOffset="130-138"
+            type="drug" text="indinavir"/>
+        <pair id="DDI-DrugBank.d340.s14.p0"
+            e1="DDI-DrugBank.d340.s14.e0" e2="DDI-DrugBank.d340.s14.e1" ddi="false"/>
+        <pair id="DDI-DrugBank.d340.s14.p1"
+            e1="DDI-DrugBank.d340.s14.e0" e2="DDI-DrugBank.d340.s14.e2" ddi="false"/>
+        <pair id="DDI-DrugBank.d340.s14.p2"
+            e1="DDI-DrugBank.d340.s14.e0" e2="DDI-DrugBank.d340.s14.e3" ddi="false"/>
+        <pair id="DDI-DrugBank.d340.s14.p3"
+            e1="DDI-DrugBank.d340.s14.e0" e2="DDI-DrugBank.d340.s14.e4" ddi="false"/>
+        <pair id="DDI-DrugBank.d340.s14.p4"
+            e1="DDI-DrugBank.d340.s14.e1" e2="DDI-DrugBank.d340.s14.e2"
+            ddi="true" type="mechanism"/>
+        <pair id="DDI-DrugBank.d340.s14.p5"
+            e1="DDI-DrugBank.d340.s14.e1" e2="DDI-DrugBank.d340.s14.e3" ddi="false"/>
+        <pair id="DDI-DrugBank.d340.s14.p6"
+            e1="DDI-DrugBank.d340.s14.e1" e2="DDI-DrugBank.d340.s14.e4" ddi="false"/>
+        <pair id="DDI-DrugBank.d340.s14.p7"
+            e1="DDI-DrugBank.d340.s14.e2" e2="DDI-DrugBank.d340.s14.e3" ddi="false"/>
+        <pair id="DDI-DrugBank.d340.s14.p8"
+            e1="DDI-DrugBank.d340.s14.e2" e2="DDI-DrugBank.d340.s14.e4" ddi="false"/>
+        <pair id="DDI-DrugBank.d340.s14.p9"
+            e1="DDI-DrugBank.d340.s14.e3" e2="DDI-DrugBank.d340.s14.e4" ddi="false"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d340.s15" text="Currently, there are no safety and efficacy data available from the use of this combination."/>
+    <sentence id="DDI-DrugBank.d340.s16" text="Ritonavir: Coadministration of ritonavir with VIRACEPT resulted in a 152% increase in nelfinavir plasma AUC and very little change in ritonavir plasma A.C.">
+        <entity id="DDI-DrugBank.d340.s16.e0" charOffset="0-8"
+            type="drug" text="Ritonavir"/>
+        <entity id="DDI-DrugBank.d340.s16.e1" charOffset="31-39"
+            type="drug" text="ritonavir"/>
+        <entity id="DDI-DrugBank.d340.s16.e2" charOffset="46-53"
+            type="brand" text="VIRACEPT"/>
+        <entity id="DDI-DrugBank.d340.s16.e3" charOffset="86-95"
+            type="drug" text="nelfinavir"/>
+        <entity id="DDI-DrugBank.d340.s16.e4" charOffset="134-142"
+            type="drug" text="ritonavir"/>
+        <pair id="DDI-DrugBank.d340.s16.p0"
+            e1="DDI-DrugBank.d340.s16.e0" e2="DDI-DrugBank.d340.s16.e1" ddi="false"/>
+        <pair id="DDI-DrugBank.d340.s16.p1"
+            e1="DDI-DrugBank.d340.s16.e0" e2="DDI-DrugBank.d340.s16.e2" ddi="false"/>
+        <pair id="DDI-DrugBank.d340.s16.p2"
+            e1="DDI-DrugBank.d340.s16.e0" e2="DDI-DrugBank.d340.s16.e3" ddi="false"/>
+        <pair id="DDI-DrugBank.d340.s16.p3"
+            e1="DDI-DrugBank.d340.s16.e0" e2="DDI-DrugBank.d340.s16.e4" ddi="false"/>
+        <pair id="DDI-DrugBank.d340.s16.p4"
+            e1="DDI-DrugBank.d340.s16.e1" e2="DDI-DrugBank.d340.s16.e2"
+            ddi="true" type="mechanism"/>
+        <pair id="DDI-DrugBank.d340.s16.p5"
+            e1="DDI-DrugBank.d340.s16.e1" e2="DDI-DrugBank.d340.s16.e3" ddi="false"/>
+        <pair id="DDI-DrugBank.d340.s16.p6"
+            e1="DDI-DrugBank.d340.s16.e1" e2="DDI-DrugBank.d340.s16.e4" ddi="false"/>
+        <pair id="DDI-DrugBank.d340.s16.p7"
+            e1="DDI-DrugBank.d340.s16.e2" e2="DDI-DrugBank.d340.s16.e3" ddi="false"/>
+        <pair id="DDI-DrugBank.d340.s16.p8"
+            e1="DDI-DrugBank.d340.s16.e2" e2="DDI-DrugBank.d340.s16.e4" ddi="false"/>
+        <pair id="DDI-DrugBank.d340.s16.p9"
+            e1="DDI-DrugBank.d340.s16.e3" e2="DDI-DrugBank.d340.s16.e4" ddi="false"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d340.s17" text="Currently, there are no safety and efficacy data available from the use of this combination."/>
+    <sentence id="DDI-DrugBank.d340.s18" text="Saquinavir: Coadministration of saquinavir (using an experimental soft-gelatin capsule formulation of saquinavir 1200mg) with VIRACEPT resulted in an 18% increase in nelfinavir plasma AUC and a 4-fold increase in saquinavir plasma A.C.">
+        <entity id="DDI-DrugBank.d340.s18.e0" charOffset="0-9"
+            type="drug" text="Saquinavir"/>
+        <entity id="DDI-DrugBank.d340.s18.e1" charOffset="32-41"
+            type="drug" text="saquinavir"/>
+        <entity id="DDI-DrugBank.d340.s18.e2" charOffset="102-111"
+            type="drug" text="saquinavir"/>
+        <entity id="DDI-DrugBank.d340.s18.e3" charOffset="126-133"
+            type="brand" text="VIRACEPT"/>
+        <entity id="DDI-DrugBank.d340.s18.e4" charOffset="166-175"
+            type="drug" text="nelfinavir"/>
+        <entity id="DDI-DrugBank.d340.s18.e5" charOffset="213-222"
+            type="drug" text="saquinavir"/>
+        <pair id="DDI-DrugBank.d340.s18.p0"
+            e1="DDI-DrugBank.d340.s18.e0" e2="DDI-DrugBank.d340.s18.e1" ddi="false"/>
+        <pair id="DDI-DrugBank.d340.s18.p1"
+            e1="DDI-DrugBank.d340.s18.e0" e2="DDI-DrugBank.d340.s18.e2" ddi="false"/>
+        <pair id="DDI-DrugBank.d340.s18.p2"
+            e1="DDI-DrugBank.d340.s18.e0" e2="DDI-DrugBank.d340.s18.e3" ddi="false"/>
+        <pair id="DDI-DrugBank.d340.s18.p3"
+            e1="DDI-DrugBank.d340.s18.e0" e2="DDI-DrugBank.d340.s18.e4" ddi="false"/>
+        <pair id="DDI-DrugBank.d340.s18.p4"
+            e1="DDI-DrugBank.d340.s18.e0" e2="DDI-DrugBank.d340.s18.e5" ddi="false"/>
+        <pair id="DDI-DrugBank.d340.s18.p5"
+            e1="DDI-DrugBank.d340.s18.e1" e2="DDI-DrugBank.d340.s18.e2" ddi="false"/>
+        <pair id="DDI-DrugBank.d340.s18.p6"
+            e1="DDI-DrugBank.d340.s18.e1" e2="DDI-DrugBank.d340.s18.e3"
+            ddi="true" type="mechanism"/>
+        <pair id="DDI-DrugBank.d340.s18.p7"
+            e1="DDI-DrugBank.d340.s18.e1" e2="DDI-DrugBank.d340.s18.e4" ddi="false"/>
+        <pair id="DDI-DrugBank.d340.s18.p8"
+            e1="DDI-DrugBank.d340.s18.e1" e2="DDI-DrugBank.d340.s18.e5" ddi="false"/>
+        <pair id="DDI-DrugBank.d340.s18.p9"
+            e1="DDI-DrugBank.d340.s18.e2" e2="DDI-DrugBank.d340.s18.e3" ddi="false"/>
+        <pair id="DDI-DrugBank.d340.s18.p10"
+            e1="DDI-DrugBank.d340.s18.e2" e2="DDI-DrugBank.d340.s18.e4" ddi="false"/>
+        <pair id="DDI-DrugBank.d340.s18.p11"
+            e1="DDI-DrugBank.d340.s18.e2" e2="DDI-DrugBank.d340.s18.e5" ddi="false"/>
+        <pair id="DDI-DrugBank.d340.s18.p12"
+            e1="DDI-DrugBank.d340.s18.e3" e2="DDI-DrugBank.d340.s18.e4" ddi="false"/>
+        <pair id="DDI-DrugBank.d340.s18.p13"
+            e1="DDI-DrugBank.d340.s18.e3" e2="DDI-DrugBank.d340.s18.e5" ddi="false"/>
+        <pair id="DDI-DrugBank.d340.s18.p14"
+            e1="DDI-DrugBank.d340.s18.e4" e2="DDI-DrugBank.d340.s18.e5" ddi="false"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d340.s19" text="If used in combination with saquinavir hard gelatin capsules at the recommended dose of 600 mg tid, no dose adjustments are needed.">
+        <entity id="DDI-DrugBank.d340.s19.e0" charOffset="28-37"
+            type="drug" text="saquinavir"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d340.s20" text="Currently, there are no safety and efficacy data available from the use of this combination."/>
+    <sentence id="DDI-DrugBank.d340.s21" text="Antifungal Agents">
+        <entity id="DDI-DrugBank.d340.s21.e0" charOffset="0-16"
+            type="group" text="Antifungal Agents"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d340.s22" text="Ketoconazole: Coadministration of ketoconazole with VIRACEPT resulted in a 35% increase in nelfinavir plasma A.C.">
+        <entity id="DDI-DrugBank.d340.s22.e0" charOffset="0-11"
+            type="drug" text="Ketoconazole"/>
+        <entity id="DDI-DrugBank.d340.s22.e1" charOffset="34-45"
+            type="drug" text="ketoconazole"/>
+        <entity id="DDI-DrugBank.d340.s22.e2" charOffset="52-59"
+            type="brand" text="VIRACEPT"/>
+        <entity id="DDI-DrugBank.d340.s22.e3" charOffset="91-100"
+            type="drug" text="nelfinavir"/>
+        <pair id="DDI-DrugBank.d340.s22.p0"
+            e1="DDI-DrugBank.d340.s22.e0" e2="DDI-DrugBank.d340.s22.e1" ddi="false"/>
+        <pair id="DDI-DrugBank.d340.s22.p1"
+            e1="DDI-DrugBank.d340.s22.e0" e2="DDI-DrugBank.d340.s22.e2" ddi="false"/>
+        <pair id="DDI-DrugBank.d340.s22.p2"
+            e1="DDI-DrugBank.d340.s22.e0" e2="DDI-DrugBank.d340.s22.e3" ddi="false"/>
+        <pair id="DDI-DrugBank.d340.s22.p3"
+            e1="DDI-DrugBank.d340.s22.e1" e2="DDI-DrugBank.d340.s22.e2"
+            ddi="true" type="mechanism"/>
+        <pair id="DDI-DrugBank.d340.s22.p4"
+            e1="DDI-DrugBank.d340.s22.e1" e2="DDI-DrugBank.d340.s22.e3" ddi="false"/>
+        <pair id="DDI-DrugBank.d340.s22.p5"
+            e1="DDI-DrugBank.d340.s22.e2" e2="DDI-DrugBank.d340.s22.e3" ddi="false"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d340.s23" text="This change was not considered clinically significant and no dose adjustment is needed when ketoconazole and VIRACEPT are coadministered.">
+        <entity id="DDI-DrugBank.d340.s23.e0" charOffset="92-103"
+            type="drug" text="ketoconazole"/>
+        <entity id="DDI-DrugBank.d340.s23.e1" charOffset="109-116"
+            type="brand" text="VIRACEPT"/>
+        <pair id="DDI-DrugBank.d340.s23.p0"
+            e1="DDI-DrugBank.d340.s23.e0" e2="DDI-DrugBank.d340.s23.e1" ddi="false"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d340.s24" text="Anti-HIV Reverse Transcriptase Inhibitors">
+        <entity id="DDI-DrugBank.d340.s24.e0" charOffset="0-40"
+            type="group" text="Anti-HIV Reverse Transcriptase Inhibitors"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d340.s25" text="Didanosine: It is recommended that didanosine be administered on an empty stomach;">
+        <entity id="DDI-DrugBank.d340.s25.e0" charOffset="0-9"
+            type="drug" text="Didanosine"/>
+        <entity id="DDI-DrugBank.d340.s25.e1" charOffset="35-44"
+            type="drug" text="didanosine"/>
+        <pair id="DDI-DrugBank.d340.s25.p0"
+            e1="DDI-DrugBank.d340.s25.e0" e2="DDI-DrugBank.d340.s25.e1" ddi="false"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d340.s26" text="therefore, nelfinavir should be administered (with food) one hour after or more than two hours before didanosine.">
+        <entity id="DDI-DrugBank.d340.s26.e0" charOffset="11-20"
+            type="drug" text="nelfinavir"/>
+        <entity id="DDI-DrugBank.d340.s26.e1" charOffset="102-111"
+            type="drug" text="didanosine"/>
+        <pair id="DDI-DrugBank.d340.s26.p0"
+            e1="DDI-DrugBank.d340.s26.e0" e2="DDI-DrugBank.d340.s26.e1"
+            ddi="true" type="advise"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d340.s27" text="A dose adjustment is not needed when zidovudine is administered with VIRACEPT.">
+        <entity id="DDI-DrugBank.d340.s27.e0" charOffset="37-46"
+            type="drug" text="zidovudine"/>
+        <entity id="DDI-DrugBank.d340.s27.e1" charOffset="69-76"
+            type="brand" text="VIRACEPT"/>
+        <pair id="DDI-DrugBank.d340.s27.p0"
+            e1="DDI-DrugBank.d340.s27.e0" e2="DDI-DrugBank.d340.s27.e1"
+            ddi="true" type="advise"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d340.s28" text="Little or no change in the pharmacokinetics of either drug was observed when VIRACEPT was coadministered with lamivudine or stavudine.">
+        <entity id="DDI-DrugBank.d340.s28.e0" charOffset="77-84"
+            type="brand" text="VIRACEPT"/>
+        <entity id="DDI-DrugBank.d340.s28.e1" charOffset="110-119"
+            type="drug" text="lamivudine"/>
+        <entity id="DDI-DrugBank.d340.s28.e2" charOffset="124-132"
+            type="drug" text="stavudine"/>
+        <pair id="DDI-DrugBank.d340.s28.p0"
+            e1="DDI-DrugBank.d340.s28.e0" e2="DDI-DrugBank.d340.s28.e1" ddi="false"/>
+        <pair id="DDI-DrugBank.d340.s28.p1"
+            e1="DDI-DrugBank.d340.s28.e0" e2="DDI-DrugBank.d340.s28.e2" ddi="false"/>
+        <pair id="DDI-DrugBank.d340.s28.p2"
+            e1="DDI-DrugBank.d340.s28.e1" e2="DDI-DrugBank.d340.s28.e2" ddi="false"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d340.s29" text="Antimycobacterial Agents">
+        <entity id="DDI-DrugBank.d340.s29.e0" charOffset="0-23"
+            type="group" text="Antimycobacterial Agents"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d340.s30" text="Rifabutin: Coadministration of rifabutin and VIRACEPT resulted in a 32% decrease in nelfinavir plasma AUC and a 207% increase in rifabutin plasma A.C.">
+        <entity id="DDI-DrugBank.d340.s30.e0" charOffset="0-8"
+            type="drug" text="Rifabutin"/>
+        <entity id="DDI-DrugBank.d340.s30.e1" charOffset="31-39"
+            type="drug" text="rifabutin"/>
+        <entity id="DDI-DrugBank.d340.s30.e2" charOffset="45-52"
+            type="brand" text="VIRACEPT"/>
+        <entity id="DDI-DrugBank.d340.s30.e3" charOffset="84-93"
+            type="drug" text="nelfinavir"/>
+        <entity id="DDI-DrugBank.d340.s30.e4" charOffset="129-137"
+            type="drug" text="rifabutin"/>
+        <pair id="DDI-DrugBank.d340.s30.p0"
+            e1="DDI-DrugBank.d340.s30.e0" e2="DDI-DrugBank.d340.s30.e1" ddi="false"/>
+        <pair id="DDI-DrugBank.d340.s30.p1"
+            e1="DDI-DrugBank.d340.s30.e0" e2="DDI-DrugBank.d340.s30.e2" ddi="false"/>
+        <pair id="DDI-DrugBank.d340.s30.p2"
+            e1="DDI-DrugBank.d340.s30.e0" e2="DDI-DrugBank.d340.s30.e3" ddi="false"/>
+        <pair id="DDI-DrugBank.d340.s30.p3"
+            e1="DDI-DrugBank.d340.s30.e0" e2="DDI-DrugBank.d340.s30.e4" ddi="false"/>
+        <pair id="DDI-DrugBank.d340.s30.p4"
+            e1="DDI-DrugBank.d340.s30.e1" e2="DDI-DrugBank.d340.s30.e2"
+            ddi="true" type="mechanism"/>
+        <pair id="DDI-DrugBank.d340.s30.p5"
+            e1="DDI-DrugBank.d340.s30.e1" e2="DDI-DrugBank.d340.s30.e3" ddi="false"/>
+        <pair id="DDI-DrugBank.d340.s30.p6"
+            e1="DDI-DrugBank.d340.s30.e1" e2="DDI-DrugBank.d340.s30.e4" ddi="false"/>
+        <pair id="DDI-DrugBank.d340.s30.p7"
+            e1="DDI-DrugBank.d340.s30.e2" e2="DDI-DrugBank.d340.s30.e3" ddi="false"/>
+        <pair id="DDI-DrugBank.d340.s30.p8"
+            e1="DDI-DrugBank.d340.s30.e2" e2="DDI-DrugBank.d340.s30.e4" ddi="false"/>
+        <pair id="DDI-DrugBank.d340.s30.p9"
+            e1="DDI-DrugBank.d340.s30.e3" e2="DDI-DrugBank.d340.s30.e4" ddi="false"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d340.s31" text="It is recommended that the dose of rifabutin be reduced to one-half the usual dose when administered with VIRACEPT.">
+        <entity id="DDI-DrugBank.d340.s31.e0" charOffset="35-43"
+            type="drug" text="rifabutin"/>
+        <entity id="DDI-DrugBank.d340.s31.e1" charOffset="106-113"
+            type="brand" text="VIRACEPT"/>
+        <pair id="DDI-DrugBank.d340.s31.p0"
+            e1="DDI-DrugBank.d340.s31.e0" e2="DDI-DrugBank.d340.s31.e1"
+            ddi="true" type="advise"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d340.s32" text="Rifampin: Coadministration of rifampin and VIRACEPT resulted in an 82% decrease in nelfinavir plasma A.C.">
+        <entity id="DDI-DrugBank.d340.s32.e0" charOffset="0-7"
+            type="drug" text="Rifampin"/>
+        <entity id="DDI-DrugBank.d340.s32.e1" charOffset="30-37"
+            type="drug" text="rifampin"/>
+        <entity id="DDI-DrugBank.d340.s32.e2" charOffset="43-50"
+            type="brand" text="VIRACEPT"/>
+        <entity id="DDI-DrugBank.d340.s32.e3" charOffset="83-92"
+            type="drug" text="nelfinavir"/>
+        <pair id="DDI-DrugBank.d340.s32.p0"
+            e1="DDI-DrugBank.d340.s32.e0" e2="DDI-DrugBank.d340.s32.e1" ddi="false"/>
+        <pair id="DDI-DrugBank.d340.s32.p1"
+            e1="DDI-DrugBank.d340.s32.e0" e2="DDI-DrugBank.d340.s32.e2" ddi="false"/>
+        <pair id="DDI-DrugBank.d340.s32.p2"
+            e1="DDI-DrugBank.d340.s32.e0" e2="DDI-DrugBank.d340.s32.e3" ddi="false"/>
+        <pair id="DDI-DrugBank.d340.s32.p3"
+            e1="DDI-DrugBank.d340.s32.e1" e2="DDI-DrugBank.d340.s32.e2"
+            ddi="true" type="mechanism"/>
+        <pair id="DDI-DrugBank.d340.s32.p4"
+            e1="DDI-DrugBank.d340.s32.e1" e2="DDI-DrugBank.d340.s32.e3" ddi="false"/>
+        <pair id="DDI-DrugBank.d340.s32.p5"
+            e1="DDI-DrugBank.d340.s32.e2" e2="DDI-DrugBank.d340.s32.e3" ddi="false"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d340.s33" text="VIRACEPT and rifampin should not be coadministered.">
+        <entity id="DDI-DrugBank.d340.s33.e0" charOffset="0-7"
+            type="brand" text="VIRACEPT"/>
+        <entity id="DDI-DrugBank.d340.s33.e1" charOffset="13-20"
+            type="drug" text="rifampin"/>
+        <pair id="DDI-DrugBank.d340.s33.p0"
+            e1="DDI-DrugBank.d340.s33.e0" e2="DDI-DrugBank.d340.s33.e1"
+            ddi="true" type="advise"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d340.s34" text="Oral Contraceptives">
+        <entity id="DDI-DrugBank.d340.s34.e0" charOffset="5-18"
+            type="group" text="Contraceptives"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d340.s35" text="Ethinyl Estradiol and Norethindrone: Coadministration of VIRACEPT with OVCON-35 resulted in a 47% decrease in ethinyl estradiol and an 18% decrease in norethindrone plasma concentrations.">
+        <entity id="DDI-DrugBank.d340.s35.e0" charOffset="0-16"
+            type="drug" text="Ethinyl Estradiol"/>
+        <entity id="DDI-DrugBank.d340.s35.e1" charOffset="22-34"
+            type="drug" text="Norethindrone"/>
+        <entity id="DDI-DrugBank.d340.s35.e2" charOffset="57-64"
+            type="brand" text="VIRACEPT"/>
+        <entity id="DDI-DrugBank.d340.s35.e3" charOffset="71-78"
+            type="brand" text="OVCON-35"/>
+        <entity id="DDI-DrugBank.d340.s35.e4" charOffset="110-126"
+            type="drug" text="ethinyl estradiol"/>
+        <entity id="DDI-DrugBank.d340.s35.e5" charOffset="151-163"
+            type="drug" text="norethindrone"/>
+        <pair id="DDI-DrugBank.d340.s35.p0"
+            e1="DDI-DrugBank.d340.s35.e0" e2="DDI-DrugBank.d340.s35.e1" ddi="false"/>
+        <pair id="DDI-DrugBank.d340.s35.p1"
+            e1="DDI-DrugBank.d340.s35.e0" e2="DDI-DrugBank.d340.s35.e2" ddi="false"/>
+        <pair id="DDI-DrugBank.d340.s35.p2"
+            e1="DDI-DrugBank.d340.s35.e0" e2="DDI-DrugBank.d340.s35.e3" ddi="false"/>
+        <pair id="DDI-DrugBank.d340.s35.p3"
+            e1="DDI-DrugBank.d340.s35.e0" e2="DDI-DrugBank.d340.s35.e4" ddi="false"/>
+        <pair id="DDI-DrugBank.d340.s35.p4"
+            e1="DDI-DrugBank.d340.s35.e0" e2="DDI-DrugBank.d340.s35.e5" ddi="false"/>
+        <pair id="DDI-DrugBank.d340.s35.p5"
+            e1="DDI-DrugBank.d340.s35.e1" e2="DDI-DrugBank.d340.s35.e2" ddi="false"/>
+        <pair id="DDI-DrugBank.d340.s35.p6"
+            e1="DDI-DrugBank.d340.s35.e1" e2="DDI-DrugBank.d340.s35.e3" ddi="false"/>
+        <pair id="DDI-DrugBank.d340.s35.p7"
+            e1="DDI-DrugBank.d340.s35.e1" e2="DDI-DrugBank.d340.s35.e4" ddi="false"/>
+        <pair id="DDI-DrugBank.d340.s35.p8"
+            e1="DDI-DrugBank.d340.s35.e1" e2="DDI-DrugBank.d340.s35.e5" ddi="false"/>
+        <pair id="DDI-DrugBank.d340.s35.p9"
+            e1="DDI-DrugBank.d340.s35.e2" e2="DDI-DrugBank.d340.s35.e3"
+            ddi="true" type="mechanism"/>
+        <pair id="DDI-DrugBank.d340.s35.p10"
+            e1="DDI-DrugBank.d340.s35.e2" e2="DDI-DrugBank.d340.s35.e4" ddi="false"/>
+        <pair id="DDI-DrugBank.d340.s35.p11"
+            e1="DDI-DrugBank.d340.s35.e2" e2="DDI-DrugBank.d340.s35.e5" ddi="false"/>
+        <pair id="DDI-DrugBank.d340.s35.p12"
+            e1="DDI-DrugBank.d340.s35.e3" e2="DDI-DrugBank.d340.s35.e4" ddi="false"/>
+        <pair id="DDI-DrugBank.d340.s35.p13"
+            e1="DDI-DrugBank.d340.s35.e3" e2="DDI-DrugBank.d340.s35.e5" ddi="false"/>
+        <pair id="DDI-DrugBank.d340.s35.p14"
+            e1="DDI-DrugBank.d340.s35.e4" e2="DDI-DrugBank.d340.s35.e5" ddi="false"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d340.s36" text="Alternate or additional contraceptive measures should be used during therapy with VIRACEPT">
+        <entity id="DDI-DrugBank.d340.s36.e0" charOffset="82-89"
+            type="brand" text="VIRACEPT"/>
+    </sentence>
+</document>

@@ -1,0 +1,214 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="DDI-DrugBank.d17">
+    <sentence id="DDI-DrugBank.d17.s0" text="Anticoagulants, oral">
+        <entity id="DDI-DrugBank.d17.s0.e0" charOffset="0-13"
+            type="group" text="Anticoagulants"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d17.s1" text="(Effects may be decreased when used concurrently with thiazide diuretics;">
+        <entity id="DDI-DrugBank.d17.s1.e0" charOffset="54-71"
+            type="group" text="thiazide diuretics"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d17.s2" text="dosage adjustments may be necessary.)"/>
+    <sentence id="DDI-DrugBank.d17.s3" text="Antigout medications">
+        <entity id="DDI-DrugBank.d17.s3.e0" charOffset="0-19"
+            type="group" text="Antigout medications"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d17.s4" text="(Thiazide diuretics may raise the level of blood uric acid;">
+        <entity id="DDI-DrugBank.d17.s4.e0" charOffset="1-18"
+            type="group" text="Thiazide diuretics"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d17.s5" text="dosage adjustment of antigout medications may be necessary to control hyperuricemia and gout.)">
+        <entity id="DDI-DrugBank.d17.s5.e0" charOffset="21-40"
+            type="group" text="antigout medications"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d17.s6" text="Antihypertensive medications, other, especially diazoxide, or preanesthetic and anesthetic agents used in surgery or skeletal-muscle relaxants, nondepolarizing, used in surgery">
+        <entity id="DDI-DrugBank.d17.s6.e0" charOffset="0-27"
+            type="group" text="Antihypertensive medications"/>
+        <entity id="DDI-DrugBank.d17.s6.e1" charOffset="48-56"
+            type="drug" text="diazoxide"/>
+        <entity id="DDI-DrugBank.d17.s6.e2" charOffset="65-74"
+            type="group" text="anesthetic"/>
+        <entity id="DDI-DrugBank.d17.s6.e3" charOffset="117-141"
+            type="group" text="skeletal-muscle relaxants"/>
+        <pair id="DDI-DrugBank.d17.s6.p0" e1="DDI-DrugBank.d17.s6.e0"
+            e2="DDI-DrugBank.d17.s6.e1" ddi="false"/>
+        <pair id="DDI-DrugBank.d17.s6.p1" e1="DDI-DrugBank.d17.s6.e0"
+            e2="DDI-DrugBank.d17.s6.e2" ddi="false"/>
+        <pair id="DDI-DrugBank.d17.s6.p2" e1="DDI-DrugBank.d17.s6.e0"
+            e2="DDI-DrugBank.d17.s6.e3" ddi="false"/>
+        <pair id="DDI-DrugBank.d17.s6.p3" e1="DDI-DrugBank.d17.s6.e1"
+            e2="DDI-DrugBank.d17.s6.e2" ddi="false"/>
+        <pair id="DDI-DrugBank.d17.s6.p4" e1="DDI-DrugBank.d17.s6.e1"
+            e2="DDI-DrugBank.d17.s6.e3" ddi="false"/>
+        <pair id="DDI-DrugBank.d17.s6.p5" e1="DDI-DrugBank.d17.s6.e2"
+            e2="DDI-DrugBank.d17.s6.e3" ddi="false"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d17.s7" text="(Effects may be potentiated when used concurrently with thiazide diuretics;">
+        <entity id="DDI-DrugBank.d17.s7.e0" charOffset="56-73"
+            type="group" text="thiazide diuretics"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d17.s8" text="dosage adjustments may be necessary.)"/>
+    <sentence id="DDI-DrugBank.d17.s9" text="Amphotericin B or Corticosteroids or Corticotropin (ACTH)">
+        <entity id="DDI-DrugBank.d17.s9.e0" charOffset="0-13"
+            type="drug" text="Amphotericin B"/>
+        <entity id="DDI-DrugBank.d17.s9.e1" charOffset="18-32"
+            type="group" text="Corticosteroids"/>
+        <entity id="DDI-DrugBank.d17.s9.e2" charOffset="37-49"
+            type="drug" text="Corticotropin"/>
+        <entity id="DDI-DrugBank.d17.s9.e3" charOffset="52-55"
+            type="drug" text="ACTH"/>
+        <pair id="DDI-DrugBank.d17.s9.p0" e1="DDI-DrugBank.d17.s9.e0"
+            e2="DDI-DrugBank.d17.s9.e1" ddi="false"/>
+        <pair id="DDI-DrugBank.d17.s9.p1" e1="DDI-DrugBank.d17.s9.e0"
+            e2="DDI-DrugBank.d17.s9.e2" ddi="false"/>
+        <pair id="DDI-DrugBank.d17.s9.p2" e1="DDI-DrugBank.d17.s9.e0"
+            e2="DDI-DrugBank.d17.s9.e3" ddi="false"/>
+        <pair id="DDI-DrugBank.d17.s9.p3" e1="DDI-DrugBank.d17.s9.e1"
+            e2="DDI-DrugBank.d17.s9.e2" ddi="false"/>
+        <pair id="DDI-DrugBank.d17.s9.p4" e1="DDI-DrugBank.d17.s9.e1"
+            e2="DDI-DrugBank.d17.s9.e3" ddi="false"/>
+        <pair id="DDI-DrugBank.d17.s9.p5" e1="DDI-DrugBank.d17.s9.e2"
+            e2="DDI-DrugBank.d17.s9.e3" ddi="false"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d17.s10" text="(Concurrent use with thiazide diuretics may intensify electrolyte imbalance, particularly hypokalemia.)">
+        <entity id="DDI-DrugBank.d17.s10.e0" charOffset="21-38"
+            type="group" text="thiazide diuretics"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d17.s11" text="Cardiac glycosides">
+        <entity id="DDI-DrugBank.d17.s11.e0" charOffset="0-17"
+            type="group" text="Cardiac glycosides"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d17.s12" text="(Concurrent use with thiazide diuretics may enhance the possibility of digitalis toxicity associated with hypokalemia.)">
+        <entity id="DDI-DrugBank.d17.s12.e0" charOffset="21-38"
+            type="group" text="thiazide diuretics"/>
+        <entity id="DDI-DrugBank.d17.s12.e1" charOffset="71-79"
+            type="group" text="digitalis"/>
+        <pair id="DDI-DrugBank.d17.s12.p0" e1="DDI-DrugBank.d17.s12.e0"
+            e2="DDI-DrugBank.d17.s12.e1" ddi="true" type="effect"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d17.s13" text="Colestipol">
+        <entity id="DDI-DrugBank.d17.s13.e0" charOffset="0-9"
+            type="drug" text="Colestipol"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d17.s14" text="(May inhibit gastrointestinal absorption of the thiazide diuretics;">
+        <entity id="DDI-DrugBank.d17.s14.e0" charOffset="48-65"
+            type="group" text="thiazide diuretics"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d17.s15" text="administration 1 hour before or 4 hours after colestipol is recommended.)">
+        <entity id="DDI-DrugBank.d17.s15.e0" charOffset="46-55"
+            type="drug" text="colestipol"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d17.s16" text="Hypoglycemics">
+        <entity id="DDI-DrugBank.d17.s16.e0" charOffset="0-12"
+            type="group" text="Hypoglycemics"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d17.s17" text="(Thiazide diuretics may raise blood glucose levels;">
+        <entity id="DDI-DrugBank.d17.s17.e0" charOffset="1-18"
+            type="group" text="Thiazide diuretics"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d17.s18" text="for adult-onset diabetics, dosage adjustment of hypoglycemic medications may be necessary during and after thiazide diuretic therapy;">
+        <entity id="DDI-DrugBank.d17.s18.e0" charOffset="48-71"
+            type="group" text="hypoglycemic medications"/>
+        <entity id="DDI-DrugBank.d17.s18.e1" charOffset="107-123"
+            type="group" text="thiazide diuretic"/>
+        <pair id="DDI-DrugBank.d17.s18.p0" e1="DDI-DrugBank.d17.s18.e0"
+            e2="DDI-DrugBank.d17.s18.e1" ddi="true" type="advise"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d17.s19" text="insulin requirements may be increased, decreased, or unchanged.)">
+        <entity id="DDI-DrugBank.d17.s19.e0" charOffset="0-6"
+            type="drug" text="insulin"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d17.s20" text="Lithium salts">
+        <entity id="DDI-DrugBank.d17.s20.e0" charOffset="0-6"
+            type="drug" text="Lithium"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d17.s21" text="(Concurrent use with thiazide diuretics is not recommended, as they may provoke lithium toxicity because of reduced renal clearance.)">
+        <entity id="DDI-DrugBank.d17.s21.e0" charOffset="21-38"
+            type="group" text="thiazide diuretics"/>
+        <entity id="DDI-DrugBank.d17.s21.e1" charOffset="80-86"
+            type="drug" text="lithium"/>
+        <pair id="DDI-DrugBank.d17.s21.p0" e1="DDI-DrugBank.d17.s21.e0"
+            e2="DDI-DrugBank.d17.s21.e1" ddi="false"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d17.s22" text="Methenamine">
+        <entity id="DDI-DrugBank.d17.s22.e0" charOffset="0-10"
+            type="drug" text="Methenamine"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d17.s23" text="(Effectiveness may be decreased when used concurrently with thiazide diuretics because of alkalinization of the urine.)">
+        <entity id="DDI-DrugBank.d17.s23.e0" charOffset="60-77"
+            type="group" text="thiazide diuretics"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d17.s24" text="Nonsteroidal anti-inflammatory agents">
+        <entity id="DDI-DrugBank.d17.s24.e0" charOffset="0-36"
+            type="group" text="Nonsteroidal anti-inflammatory agents"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d17.s25" text="(In some patients, the steroidal anti-inflammatory agent can reduce the diuretic, natriuretic, and antihypertensive effects of loop, potassium sparing, and thiazide diuretics.">
+        <entity id="DDI-DrugBank.d17.s25.e0" charOffset="23-55"
+            type="group" text="steroidal anti-inflammatory agent"/>
+        <entity id="DDI-DrugBank.d17.s25.e1"
+            charOffset="127-130;165-173" type="group" text="loop diuretics"/>
+        <entity id="DDI-DrugBank.d17.s25.e2"
+            charOffset="133-149;165-173" type="group" text="potassium sparing diuretics"/>
+        <entity id="DDI-DrugBank.d17.s25.e3" charOffset="156-173"
+            type="group" text="thiazide diuretics"/>
+        <pair id="DDI-DrugBank.d17.s25.p0" e1="DDI-DrugBank.d17.s25.e0"
+            e2="DDI-DrugBank.d17.s25.e1" ddi="true" type="effect"/>
+        <pair id="DDI-DrugBank.d17.s25.p1" e1="DDI-DrugBank.d17.s25.e0"
+            e2="DDI-DrugBank.d17.s25.e2" ddi="true" type="effect"/>
+        <pair id="DDI-DrugBank.d17.s25.p2" e1="DDI-DrugBank.d17.s25.e0"
+            e2="DDI-DrugBank.d17.s25.e3" ddi="true" type="effect"/>
+        <pair id="DDI-DrugBank.d17.s25.p3" e1="DDI-DrugBank.d17.s25.e1"
+            e2="DDI-DrugBank.d17.s25.e2" ddi="false"/>
+        <pair id="DDI-DrugBank.d17.s25.p4" e1="DDI-DrugBank.d17.s25.e1"
+            e2="DDI-DrugBank.d17.s25.e3" ddi="false"/>
+        <pair id="DDI-DrugBank.d17.s25.p5" e1="DDI-DrugBank.d17.s25.e2"
+            e2="DDI-DrugBank.d17.s25.e3" ddi="false"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d17.s26" text="Therefore, when hydroflumethiazide and nonsteroidal anti-inflammatory agents are used concomitantly, the patient should be observed closely to determine if the desired effect of the diuretic is obtained.)">
+        <entity id="DDI-DrugBank.d17.s26.e0" charOffset="16-33"
+            type="drug" text="hydroflumethiazide"/>
+        <entity id="DDI-DrugBank.d17.s26.e1" charOffset="39-75"
+            type="group" text="nonsteroidal anti-inflammatory agents"/>
+        <entity id="DDI-DrugBank.d17.s26.e2" charOffset="182-189"
+            type="group" text="diuretic"/>
+        <pair id="DDI-DrugBank.d17.s26.p0" e1="DDI-DrugBank.d17.s26.e0"
+            e2="DDI-DrugBank.d17.s26.e1" ddi="true" type="advise"/>
+        <pair id="DDI-DrugBank.d17.s26.p1" e1="DDI-DrugBank.d17.s26.e0"
+            e2="DDI-DrugBank.d17.s26.e2" ddi="false"/>
+        <pair id="DDI-DrugBank.d17.s26.p2" e1="DDI-DrugBank.d17.s26.e1"
+            e2="DDI-DrugBank.d17.s26.e2" ddi="false"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d17.s27" text="Norepinephrine">
+        <entity id="DDI-DrugBank.d17.s27.e0" charOffset="0-13"
+            type="drug" text="Norepinephrine"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d17.s28" text="(Thiazides may decrease arterial responsiveness to norepinephrine.">
+        <entity id="DDI-DrugBank.d17.s28.e0" charOffset="1-9"
+            type="group" text="Thiazides"/>
+        <entity id="DDI-DrugBank.d17.s28.e1" charOffset="51-64"
+            type="drug" text="norepinephrine"/>
+        <pair id="DDI-DrugBank.d17.s28.p0" e1="DDI-DrugBank.d17.s28.e0"
+            e2="DDI-DrugBank.d17.s28.e1" ddi="true" type="effect"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d17.s29" text="This diminution is not sufficient to preclude effectiveness of the pressor agent for therapeutic use.)"/>
+    <sentence id="DDI-DrugBank.d17.s30" text="Tubocurarine">
+        <entity id="DDI-DrugBank.d17.s30.e0" charOffset="0-11"
+            type="drug" text="Tubocurarine"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d17.s31" text="(Thiazide drugs may increase the responsiveness to tubocurarine.)">
+        <entity id="DDI-DrugBank.d17.s31.e0" charOffset="1-14"
+            type="group" text="Thiazide drugs"/>
+        <entity id="DDI-DrugBank.d17.s31.e1" charOffset="51-62"
+            type="drug" text="tubocurarine"/>
+        <pair id="DDI-DrugBank.d17.s31.p0" e1="DDI-DrugBank.d17.s31.e0"
+            e2="DDI-DrugBank.d17.s31.e1" ddi="true" type="effect"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d17.s32" text="DIAGNOSTIC INTERFERENCE With expected physiologic effects: Blood and urine glucose levels (usually only in patients with a predisposition for glucose intolerance) and Serum bilirubin levels (by displacement from albumin binding) and Serum calcium levels (thiazide diuretics should be discontinued before parathyroid-function tests are carried out) and Serum uric acid levels (may be increased) Serum magnesium, potassium, and sodium levels (may be decreased;">
+        <entity id="DDI-DrugBank.d17.s32.e0" charOffset="255-272"
+            type="group" text="thiazide diuretics"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d17.s33" text="serum magnesium levels may increase in uremic patients) Serum protein-bound iodine (PBI) levels (may be decreased) Thiazides should be discontinued before carrying out tests for parathyroid function.">
+        <entity id="DDI-DrugBank.d17.s33.e0" charOffset="115-123"
+            type="group" text="Thiazides"/>
+    </sentence>
+</document>

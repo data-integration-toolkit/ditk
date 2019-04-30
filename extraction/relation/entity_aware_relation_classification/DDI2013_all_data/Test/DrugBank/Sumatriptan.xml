@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="DDI-DrugBank.d720">
+    <sentence id="DDI-DrugBank.d720.s0" text="Ergot-containing drugs have been reported to cause prolonged vasospastic reactions. ">
+        <entity id="DDI-DrugBank.d720.s0.e0" charOffset="0-4"
+            type="group" text="Ergot"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d720.s1" text="Because there is a theoretical basis that these effects may be additive, use of ergotamine-containing or ergot-type medications (like dihydroergotamine or methysergide) and sumatriptan within 24 hours of each other should be avoided. ">
+        <entity id="DDI-DrugBank.d720.s1.e0" charOffset="80-89"
+            type="drug" text="ergotamine"/>
+        <entity id="DDI-DrugBank.d720.s1.e1" charOffset="105-126"
+            type="group" text="ergot-type medications"/>
+        <entity id="DDI-DrugBank.d720.s1.e2" charOffset="134-150"
+            type="drug" text="dihydroergotamine"/>
+        <entity id="DDI-DrugBank.d720.s1.e3" charOffset="155-166"
+            type="drug" text="methysergide"/>
+        <entity id="DDI-DrugBank.d720.s1.e4" charOffset="173-183"
+            type="drug" text="sumatriptan"/>
+        <pair id="DDI-DrugBank.d720.s1.p0" e1="DDI-DrugBank.d720.s1.e0"
+            e2="DDI-DrugBank.d720.s1.e1" ddi="false"/>
+        <pair id="DDI-DrugBank.d720.s1.p1" e1="DDI-DrugBank.d720.s1.e0"
+            e2="DDI-DrugBank.d720.s1.e2" ddi="false"/>
+        <pair id="DDI-DrugBank.d720.s1.p2" e1="DDI-DrugBank.d720.s1.e0"
+            e2="DDI-DrugBank.d720.s1.e3" ddi="false"/>
+        <pair id="DDI-DrugBank.d720.s1.p3" e1="DDI-DrugBank.d720.s1.e0"
+            e2="DDI-DrugBank.d720.s1.e4" ddi="true" type="advise"/>
+        <pair id="DDI-DrugBank.d720.s1.p4" e1="DDI-DrugBank.d720.s1.e1"
+            e2="DDI-DrugBank.d720.s1.e2" ddi="false"/>
+        <pair id="DDI-DrugBank.d720.s1.p5" e1="DDI-DrugBank.d720.s1.e1"
+            e2="DDI-DrugBank.d720.s1.e3" ddi="false"/>
+        <pair id="DDI-DrugBank.d720.s1.p6" e1="DDI-DrugBank.d720.s1.e1"
+            e2="DDI-DrugBank.d720.s1.e4" ddi="true" type="advise"/>
+        <pair id="DDI-DrugBank.d720.s1.p7" e1="DDI-DrugBank.d720.s1.e2"
+            e2="DDI-DrugBank.d720.s1.e3" ddi="false"/>
+        <pair id="DDI-DrugBank.d720.s1.p8" e1="DDI-DrugBank.d720.s1.e2"
+            e2="DDI-DrugBank.d720.s1.e4" ddi="true" type="advise"/>
+        <pair id="DDI-DrugBank.d720.s1.p9" e1="DDI-DrugBank.d720.s1.e3"
+            e2="DDI-DrugBank.d720.s1.e4" ddi="true" type="advise"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d720.s2" text="MAO-A inhibitors reduce sumatriptan clearance, significantly increasing systemic exposure. ">
+        <entity id="DDI-DrugBank.d720.s2.e0" charOffset="0-15"
+            type="group" text="MAO-A inhibitors"/>
+        <entity id="DDI-DrugBank.d720.s2.e1" charOffset="24-34"
+            type="drug" text="sumatriptan"/>
+        <pair id="DDI-DrugBank.d720.s2.p0" e1="DDI-DrugBank.d720.s2.e0"
+            e2="DDI-DrugBank.d720.s2.e1" ddi="true" type="mechanism"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d720.s3" text="Therefore, the use of sumatriptan succinate tablets in patients receiving MAO-A inhibitors is contraindicated . Selective serotonin reuptake inhibitors (SSRIs) (e.g., fluoxetine, fluvoxamine, paroxetine, sertraline) have been reported, rarely, to cause weakness, hyperreflexia, and incoordination when coadministered with sumatriptan. ">
+        <entity id="DDI-DrugBank.d720.s3.e0" charOffset="22-42"
+            type="drug" text="sumatriptan succinate"/>
+        <entity id="DDI-DrugBank.d720.s3.e1" charOffset="74-89"
+            type="group" text="MAO-A inhibitors"/>
+        <entity id="DDI-DrugBank.d720.s3.e2" charOffset="112-150"
+            type="group" text="Selective serotonin reuptake inhibitors"/>
+        <entity id="DDI-DrugBank.d720.s3.e3" charOffset="153-157"
+            type="group" text="SSRIs"/>
+        <entity id="DDI-DrugBank.d720.s3.e4" charOffset="167-176"
+            type="drug" text="fluoxetine"/>
+        <entity id="DDI-DrugBank.d720.s3.e5" charOffset="179-189"
+            type="drug" text="fluvoxamine"/>
+        <entity id="DDI-DrugBank.d720.s3.e6" charOffset="192-201"
+            type="drug" text="paroxetine"/>
+        <entity id="DDI-DrugBank.d720.s3.e7" charOffset="204-213"
+            type="drug" text="sertraline"/>
+        <entity id="DDI-DrugBank.d720.s3.e8" charOffset="322-332"
+            type="drug" text="sumatriptan"/>
+        <pair id="DDI-DrugBank.d720.s3.p0" e1="DDI-DrugBank.d720.s3.e0"
+            e2="DDI-DrugBank.d720.s3.e1" ddi="true" type="advise"/>
+        <pair id="DDI-DrugBank.d720.s3.p1" e1="DDI-DrugBank.d720.s3.e0"
+            e2="DDI-DrugBank.d720.s3.e2" ddi="false"/>
+        <pair id="DDI-DrugBank.d720.s3.p2" e1="DDI-DrugBank.d720.s3.e0"
+            e2="DDI-DrugBank.d720.s3.e3" ddi="false"/>
+        <pair id="DDI-DrugBank.d720.s3.p3" e1="DDI-DrugBank.d720.s3.e0"
+            e2="DDI-DrugBank.d720.s3.e4" ddi="false"/>
+        <pair id="DDI-DrugBank.d720.s3.p4" e1="DDI-DrugBank.d720.s3.e0"
+            e2="DDI-DrugBank.d720.s3.e5" ddi="false"/>
+        <pair id="DDI-DrugBank.d720.s3.p5" e1="DDI-DrugBank.d720.s3.e0"
+            e2="DDI-DrugBank.d720.s3.e6" ddi="false"/>
+        <pair id="DDI-DrugBank.d720.s3.p6" e1="DDI-DrugBank.d720.s3.e0"
+            e2="DDI-DrugBank.d720.s3.e7" ddi="false"/>
+        <pair id="DDI-DrugBank.d720.s3.p7" e1="DDI-DrugBank.d720.s3.e0"
+            e2="DDI-DrugBank.d720.s3.e8" ddi="false"/>
+        <pair id="DDI-DrugBank.d720.s3.p8" e1="DDI-DrugBank.d720.s3.e1"
+            e2="DDI-DrugBank.d720.s3.e2" ddi="false"/>
+        <pair id="DDI-DrugBank.d720.s3.p9" e1="DDI-DrugBank.d720.s3.e1"
+            e2="DDI-DrugBank.d720.s3.e3" ddi="false"/>
+        <pair id="DDI-DrugBank.d720.s3.p10" e1="DDI-DrugBank.d720.s3.e1"
+            e2="DDI-DrugBank.d720.s3.e4" ddi="false"/>
+        <pair id="DDI-DrugBank.d720.s3.p11" e1="DDI-DrugBank.d720.s3.e1"
+            e2="DDI-DrugBank.d720.s3.e5" ddi="false"/>
+        <pair id="DDI-DrugBank.d720.s3.p12" e1="DDI-DrugBank.d720.s3.e1"
+            e2="DDI-DrugBank.d720.s3.e6" ddi="false"/>
+        <pair id="DDI-DrugBank.d720.s3.p13" e1="DDI-DrugBank.d720.s3.e1"
+            e2="DDI-DrugBank.d720.s3.e7" ddi="false"/>
+        <pair id="DDI-DrugBank.d720.s3.p14" e1="DDI-DrugBank.d720.s3.e1"
+            e2="DDI-DrugBank.d720.s3.e8" ddi="false"/>
+        <pair id="DDI-DrugBank.d720.s3.p15" e1="DDI-DrugBank.d720.s3.e2"
+            e2="DDI-DrugBank.d720.s3.e3" ddi="false"/>
+        <pair id="DDI-DrugBank.d720.s3.p16" e1="DDI-DrugBank.d720.s3.e2"
+            e2="DDI-DrugBank.d720.s3.e4" ddi="false"/>
+        <pair id="DDI-DrugBank.d720.s3.p17" e1="DDI-DrugBank.d720.s3.e2"
+            e2="DDI-DrugBank.d720.s3.e5" ddi="false"/>
+        <pair id="DDI-DrugBank.d720.s3.p18" e1="DDI-DrugBank.d720.s3.e2"
+            e2="DDI-DrugBank.d720.s3.e6" ddi="false"/>
+        <pair id="DDI-DrugBank.d720.s3.p19" e1="DDI-DrugBank.d720.s3.e2"
+            e2="DDI-DrugBank.d720.s3.e7" ddi="false"/>
+        <pair id="DDI-DrugBank.d720.s3.p20" e1="DDI-DrugBank.d720.s3.e2"
+            e2="DDI-DrugBank.d720.s3.e8" ddi="true" type="effect"/>
+        <pair id="DDI-DrugBank.d720.s3.p21" e1="DDI-DrugBank.d720.s3.e3"
+            e2="DDI-DrugBank.d720.s3.e4" ddi="false"/>
+        <pair id="DDI-DrugBank.d720.s3.p22" e1="DDI-DrugBank.d720.s3.e3"
+            e2="DDI-DrugBank.d720.s3.e5" ddi="false"/>
+        <pair id="DDI-DrugBank.d720.s3.p23" e1="DDI-DrugBank.d720.s3.e3"
+            e2="DDI-DrugBank.d720.s3.e6" ddi="false"/>
+        <pair id="DDI-DrugBank.d720.s3.p24" e1="DDI-DrugBank.d720.s3.e3"
+            e2="DDI-DrugBank.d720.s3.e7" ddi="false"/>
+        <pair id="DDI-DrugBank.d720.s3.p25" e1="DDI-DrugBank.d720.s3.e3"
+            e2="DDI-DrugBank.d720.s3.e8" ddi="true" type="effect"/>
+        <pair id="DDI-DrugBank.d720.s3.p26" e1="DDI-DrugBank.d720.s3.e4"
+            e2="DDI-DrugBank.d720.s3.e5" ddi="false"/>
+        <pair id="DDI-DrugBank.d720.s3.p27" e1="DDI-DrugBank.d720.s3.e4"
+            e2="DDI-DrugBank.d720.s3.e6" ddi="false"/>
+        <pair id="DDI-DrugBank.d720.s3.p28" e1="DDI-DrugBank.d720.s3.e4"
+            e2="DDI-DrugBank.d720.s3.e7" ddi="false"/>
+        <pair id="DDI-DrugBank.d720.s3.p29" e1="DDI-DrugBank.d720.s3.e4"
+            e2="DDI-DrugBank.d720.s3.e8" ddi="true" type="effect"/>
+        <pair id="DDI-DrugBank.d720.s3.p30" e1="DDI-DrugBank.d720.s3.e5"
+            e2="DDI-DrugBank.d720.s3.e6" ddi="false"/>
+        <pair id="DDI-DrugBank.d720.s3.p31" e1="DDI-DrugBank.d720.s3.e5"
+            e2="DDI-DrugBank.d720.s3.e7" ddi="false"/>
+        <pair id="DDI-DrugBank.d720.s3.p32" e1="DDI-DrugBank.d720.s3.e5"
+            e2="DDI-DrugBank.d720.s3.e8" ddi="true" type="effect"/>
+        <pair id="DDI-DrugBank.d720.s3.p33" e1="DDI-DrugBank.d720.s3.e6"
+            e2="DDI-DrugBank.d720.s3.e7" ddi="false"/>
+        <pair id="DDI-DrugBank.d720.s3.p34" e1="DDI-DrugBank.d720.s3.e6"
+            e2="DDI-DrugBank.d720.s3.e8" ddi="true" type="effect"/>
+        <pair id="DDI-DrugBank.d720.s3.p35" e1="DDI-DrugBank.d720.s3.e7"
+            e2="DDI-DrugBank.d720.s3.e8" ddi="true" type="effect"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d720.s4" text="If concomitant treatment with sumatriptan and an SSRI is clinically warranted, appropriate observation of the patient is advised.">
+        <entity id="DDI-DrugBank.d720.s4.e0" charOffset="30-40"
+            type="drug" text="sumatriptan"/>
+        <entity id="DDI-DrugBank.d720.s4.e1" charOffset="49-52"
+            type="group" text="SSRI"/>
+        <pair id="DDI-DrugBank.d720.s4.p0" e1="DDI-DrugBank.d720.s4.e0"
+            e2="DDI-DrugBank.d720.s4.e1" ddi="true" type="advise"/>
+    </sentence>
+</document>

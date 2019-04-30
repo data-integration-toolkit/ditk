@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="DDI-MedLine.d46">
+    <sentence id="DDI-MedLine.d46.s0" text="Influence of coadministration of fluoxetine on cisapride pharmacokinetics and QTc intervals in healthy volunteers.&#xd;&#xa;">
+        <entity id="DDI-MedLine.d46.s0.e0" charOffset="33-42"
+            type="drug" text="fluoxetine"/>
+        <entity id="DDI-MedLine.d46.s0.e1" charOffset="47-55"
+            type="drug" text="cisapride"/>
+        <pair id="DDI-MedLine.d46.s0.p0" e1="DDI-MedLine.d46.s0.e0"
+            e2="DDI-MedLine.d46.s0.e1" ddi="false"/>
+    </sentence>
+    <sentence id="DDI-MedLine.d46.s1" text="STUDY OBJECTIVE: To evaluate the effect of fluoxetine on the pharmacokinetics and cardiovascular safety of cisapride at steady state in healthy men. ">
+        <entity id="DDI-MedLine.d46.s1.e0" charOffset="43-52"
+            type="drug" text="fluoxetine"/>
+        <entity id="DDI-MedLine.d46.s1.e1" charOffset="107-115"
+            type="drug" text="cisapride"/>
+        <pair id="DDI-MedLine.d46.s1.p0" e1="DDI-MedLine.d46.s1.e0"
+            e2="DDI-MedLine.d46.s1.e1" ddi="false"/>
+    </sentence>
+    <sentence id="DDI-MedLine.d46.s2" text="DESIGN: Open-label, three-phase, sequential study. "/>
+    <sentence id="DDI-MedLine.d46.s3" text="SETTING: Clinical research center. "/>
+    <sentence id="DDI-MedLine.d46.s4" text="SUBJECTS:Twelve healthy male volunteers. "/>
+    <sentence id="DDI-MedLine.d46.s5" text="INTERVENTIONS: Each subject was treated according to the following sequence: baseline; "/>
+    <sentence id="DDI-MedLine.d46.s6" text="phase 1 (days 1-6): cisapride 10 mg 4 times/day; ">
+        <entity id="DDI-MedLine.d46.s6.e0" charOffset="20-28"
+            type="drug" text="cisapride"/>
+    </sentence>
+    <sentence id="DDI-MedLine.d46.s7" text="washout (days 7-13); "/>
+    <sentence id="DDI-MedLine.d46.s8" text="phase 2 (days 14-44): fluoxetine 20 mg/day; ">
+        <entity id="DDI-MedLine.d46.s8.e0" charOffset="22-31"
+            type="drug" text="fluoxetine"/>
+    </sentence>
+    <sentence id="DDI-MedLine.d46.s9" text="and phase 3 (days 45-52): cisapride 10 mg 4 times/day (days 45-51) plus fluoxetine 20 mg/day (days 45-52). ">
+        <entity id="DDI-MedLine.d46.s9.e0" charOffset="26-34"
+            type="drug" text="cisapride"/>
+        <entity id="DDI-MedLine.d46.s9.e1" charOffset="72-81"
+            type="drug" text="fluoxetine"/>
+        <pair id="DDI-MedLine.d46.s9.p0" e1="DDI-MedLine.d46.s9.e0"
+            e2="DDI-MedLine.d46.s9.e1" ddi="false"/>
+    </sentence>
+    <sentence id="DDI-MedLine.d46.s10" text="MEASUREMENTS and MAIN RESULTS: Blood samples were drawn and 12-lead electrocardiograms performed at specified time points after the last morning dose of cisapride in phases 1 and 3. ">
+        <entity id="DDI-MedLine.d46.s10.e0" charOffset="153-161"
+            type="drug" text="cisapride"/>
+    </sentence>
+    <sentence id="DDI-MedLine.d46.s11" text="Blood samples also were taken before morning doses on the 3rd, 4th, and 5th days of phases 1 and 3. "/>
+    <sentence id="DDI-MedLine.d46.s12" text="Electrocardiograms were done at baseline and on the last day of the washout period and phase 2. "/>
+    <sentence id="DDI-MedLine.d46.s13" text="Coadministration of fluoxetine significantly decreased cisapride plasma concentrations. ">
+        <entity id="DDI-MedLine.d46.s13.e0" charOffset="20-29"
+            type="drug" text="fluoxetine"/>
+        <entity id="DDI-MedLine.d46.s13.e1" charOffset="55-63"
+            type="drug" text="cisapride"/>
+        <pair id="DDI-MedLine.d46.s13.p0" e1="DDI-MedLine.d46.s13.e0"
+            e2="DDI-MedLine.d46.s13.e1" ddi="true" type="mechanism"/>
+    </sentence>
+    <sentence id="DDI-MedLine.d46.s14" text="There were no clinically significant changes in corrected QT intervals during administration of cisapride alone or with fluoxetine. ">
+        <entity id="DDI-MedLine.d46.s14.e0" charOffset="96-104"
+            type="drug" text="cisapride"/>
+        <entity id="DDI-MedLine.d46.s14.e1" charOffset="120-129"
+            type="drug" text="fluoxetine"/>
+        <pair id="DDI-MedLine.d46.s14.p0" e1="DDI-MedLine.d46.s14.e0"
+            e2="DDI-MedLine.d46.s14.e1" ddi="false"/>
+    </sentence>
+    <sentence id="DDI-MedLine.d46.s15" text="Cisapride was well tolerated when administered alone or with fluoxetine. ">
+        <entity id="DDI-MedLine.d46.s15.e0" charOffset="0-8" type="drug" text="Cisapride"/>
+        <entity id="DDI-MedLine.d46.s15.e1" charOffset="61-70"
+            type="drug" text="fluoxetine"/>
+        <pair id="DDI-MedLine.d46.s15.p0" e1="DDI-MedLine.d46.s15.e0"
+            e2="DDI-MedLine.d46.s15.e1" ddi="false"/>
+    </sentence>
+    <sentence id="DDI-MedLine.d46.s16" text="CONCLUSION: Cisapride can be administered safely to patients receiving low therapeutic dosages of fluoxetine.">
+        <entity id="DDI-MedLine.d46.s16.e0" charOffset="12-20"
+            type="drug" text="Cisapride"/>
+        <entity id="DDI-MedLine.d46.s16.e1" charOffset="98-107"
+            type="drug" text="fluoxetine"/>
+        <pair id="DDI-MedLine.d46.s16.p0" e1="DDI-MedLine.d46.s16.e0"
+            e2="DDI-MedLine.d46.s16.e1" ddi="false"/>
+    </sentence>
+</document>

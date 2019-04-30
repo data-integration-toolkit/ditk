@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="DDI-MedLine.d7">
+    <sentence id="DDI-MedLine.d7.s0" text="Enhanced theophylline clearance secondary to phenytoin therapy.&#xd;&#xa;">
+        <entity id="DDI-MedLine.d7.s0.e0" charOffset="9-20" type="drug" text="theophylline"/>
+        <entity id="DDI-MedLine.d7.s0.e1" charOffset="45-53" type="drug" text="phenytoin"/>
+        <pair id="DDI-MedLine.d7.s0.p0" e1="DDI-MedLine.d7.s0.e0"
+            e2="DDI-MedLine.d7.s0.e1" ddi="true" type="mechanism"/>
+    </sentence>
+    <sentence id="DDI-MedLine.d7.s1" text="This report describes two cases in which theophylline clearance accelerated markedly with concomitant phenytoin administration. ">
+        <entity id="DDI-MedLine.d7.s1.e0" charOffset="41-52" type="drug" text="theophylline"/>
+        <entity id="DDI-MedLine.d7.s1.e1" charOffset="102-110"
+            type="drug" text="phenytoin"/>
+        <pair id="DDI-MedLine.d7.s1.p0" e1="DDI-MedLine.d7.s1.e0"
+            e2="DDI-MedLine.d7.s1.e1" ddi="true" type="mechanism"/>
+    </sentence>
+    <sentence id="DDI-MedLine.d7.s2" text="Maximum calculated theophylline clearance ranged from 2 1/2 to 3 1/2 times baseline. ">
+        <entity id="DDI-MedLine.d7.s2.e0" charOffset="19-30" type="drug" text="theophylline"/>
+    </sentence>
+    <sentence id="DDI-MedLine.d7.s3" text="Onset of the interaction began within five days of beginning concurrent therapy. "/>
+    <sentence id="DDI-MedLine.d7.s4" text="With combined use, clinicians should be aware, when phenytoin is added, of the potential for reexacerbation of pulmonary symptomatology due to lowered serum theophylline concentrations.">
+        <entity id="DDI-MedLine.d7.s4.e0" charOffset="52-60" type="drug" text="phenytoin"/>
+        <entity id="DDI-MedLine.d7.s4.e1" charOffset="157-168"
+            type="drug" text="theophylline"/>
+        <pair id="DDI-MedLine.d7.s4.p0" e1="DDI-MedLine.d7.s4.e0"
+            e2="DDI-MedLine.d7.s4.e1" ddi="true" type="effect"/>
+    </sentence>
+</document>

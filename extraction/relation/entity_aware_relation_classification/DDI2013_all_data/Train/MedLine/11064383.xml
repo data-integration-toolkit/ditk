@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="DDI-MedLine.d18">
+    <sentence id="DDI-MedLine.d18.s0" text="Note: dissolution of aerosol particles of budesonide in Survanta, a model lung surfactant.&#xa;">
+        <entity id="DDI-MedLine.d18.s0.e0" charOffset="42-51"
+            type="drug" text="budesonide"/>
+        <entity id="DDI-MedLine.d18.s0.e1" charOffset="56-63"
+            type="brand" text="Survanta"/>
+        <entity id="DDI-MedLine.d18.s0.e2" charOffset="74-88"
+            type="group" text="lung surfactant"/>
+        <pair id="DDI-MedLine.d18.s0.p0" e1="DDI-MedLine.d18.s0.e0"
+            e2="DDI-MedLine.d18.s0.e1" ddi="false"/>
+        <pair id="DDI-MedLine.d18.s0.p1" e1="DDI-MedLine.d18.s0.e0"
+            e2="DDI-MedLine.d18.s0.e2" ddi="false"/>
+        <pair id="DDI-MedLine.d18.s0.p2" e1="DDI-MedLine.d18.s0.e1"
+            e2="DDI-MedLine.d18.s0.e2" ddi="false"/>
+    </sentence>
+    <sentence id="DDI-MedLine.d18.s1" text="The effect of a pulmonary surfactant extract from bovine lung, Survanta, on the dissolution rate of aerosol particles of budesonide was determined. ">
+        <entity id="DDI-MedLine.d18.s1.e0" charOffset="16-35"
+            type="group" text="pulmonary surfactant"/>
+        <entity id="DDI-MedLine.d18.s1.e1" charOffset="63-70"
+            type="brand" text="Survanta"/>
+        <entity id="DDI-MedLine.d18.s1.e2" charOffset="121-130"
+            type="drug" text="budesonide"/>
+        <pair id="DDI-MedLine.d18.s1.p0" e1="DDI-MedLine.d18.s1.e0"
+            e2="DDI-MedLine.d18.s1.e1" ddi="false"/>
+        <pair id="DDI-MedLine.d18.s1.p1" e1="DDI-MedLine.d18.s1.e0"
+            e2="DDI-MedLine.d18.s1.e2" ddi="false"/>
+        <pair id="DDI-MedLine.d18.s1.p2" e1="DDI-MedLine.d18.s1.e1"
+            e2="DDI-MedLine.d18.s1.e2" ddi="false"/>
+    </sentence>
+    <sentence id="DDI-MedLine.d18.s2" text="Aerosol particles of budesonide were generated from an ethanol solution, dried, and collected by a cascade impactor for characterization or by a liquid impinger for dissolution experiments. ">
+        <entity id="DDI-MedLine.d18.s2.e0" charOffset="21-30"
+            type="drug" text="budesonide"/>
+        <entity id="DDI-MedLine.d18.s2.e1" charOffset="55-61"
+            type="drug" text="ethanol"/>
+        <pair id="DDI-MedLine.d18.s2.p0" e1="DDI-MedLine.d18.s2.e0"
+            e2="DDI-MedLine.d18.s2.e1" ddi="false"/>
+    </sentence>
+    <sentence id="DDI-MedLine.d18.s3" text="Powder x-ray diffraction, differential scanning calorimetry, differential thermal analysis, and scanning electron microscopy were used to characterize the aerosol particles and starting material. "/>
+    <sentence id="DDI-MedLine.d18.s4" text="No change in phase was detected, although the aerosol particles appeared to contain residual solvent. ">
+        <entity id="DDI-MedLine.d18.s4.e0" charOffset="93-99"
+            type="group" text="solvent"/>
+    </sentence>
+    <sentence id="DDI-MedLine.d18.s5" text="The dissolution rate of the aerosol particles in saline was low and variable. "/>
+    <sentence id="DDI-MedLine.d18.s6" text="Survanta increased the extent of dissolution of budesonide in proportion to the added concentration, which was also verified by equilibrium solubilization studies. ">
+        <entity id="DDI-MedLine.d18.s6.e0" charOffset="0-7" type="brand" text="Survanta"/>
+        <entity id="DDI-MedLine.d18.s6.e1" charOffset="48-57"
+            type="drug" text="budesonide"/>
+        <pair id="DDI-MedLine.d18.s6.p0" e1="DDI-MedLine.d18.s6.e0"
+            e2="DDI-MedLine.d18.s6.e1" ddi="false"/>
+    </sentence>
+    <sentence id="DDI-MedLine.d18.s7" text="Survanta also increased rate of dissolution, in a manner similar to sodium dodecyl sulfate. ">
+        <entity id="DDI-MedLine.d18.s7.e0" charOffset="0-7" type="brand" text="Survanta"/>
+        <entity id="DDI-MedLine.d18.s7.e1" charOffset="68-89"
+            type="drug_n" text="sodium dodecyl sulfate"/>
+        <pair id="DDI-MedLine.d18.s7.p0" e1="DDI-MedLine.d18.s7.e0"
+            e2="DDI-MedLine.d18.s7.e1" ddi="false"/>
+    </sentence>
+    <sentence id="DDI-MedLine.d18.s8" text="Analysis of the concentration of budesonide following ultracentrifugation indicated that there is rapid equilibration of budesonide between the Survanta and aqueous phase. ">
+        <entity id="DDI-MedLine.d18.s8.e0" charOffset="33-42"
+            type="drug" text="budesonide"/>
+        <entity id="DDI-MedLine.d18.s8.e1" charOffset="121-130"
+            type="drug" text="budesonide"/>
+        <entity id="DDI-MedLine.d18.s8.e2" charOffset="144-151"
+            type="brand" text="Survanta"/>
+        <pair id="DDI-MedLine.d18.s8.p0" e1="DDI-MedLine.d18.s8.e0"
+            e2="DDI-MedLine.d18.s8.e1" ddi="false"/>
+        <pair id="DDI-MedLine.d18.s8.p1" e1="DDI-MedLine.d18.s8.e0"
+            e2="DDI-MedLine.d18.s8.e2" ddi="false"/>
+        <pair id="DDI-MedLine.d18.s8.p2" e1="DDI-MedLine.d18.s8.e1"
+            e2="DDI-MedLine.d18.s8.e2" ddi="false"/>
+    </sentence>
+    <sentence id="DDI-MedLine.d18.s9" text="These results show that lung surfactant has the potential of enhancing the rate and extent of dissolution of drugs administered to the lung.">
+        <entity id="DDI-MedLine.d18.s9.e0" charOffset="24-38"
+            type="group" text="lung surfactant"/>
+    </sentence>
+</document>

@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="DDI-DrugBank.d369">
+    <sentence id="DDI-DrugBank.d369.s0" text="The Factrel test should be conducted in the absence of other drugs which directly affect the pituitary secretion of the gonadotropins.">
+        <entity id="DDI-DrugBank.d369.s0.e0" charOffset="4-10"
+            type="brand" text="Factrel"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d369.s1" text="These would include a variety of preparations which contain androgens, estrogens, progestins, or glucocorticoids.">
+        <entity id="DDI-DrugBank.d369.s1.e0" charOffset="60-68"
+            type="group" text="androgens"/>
+        <entity id="DDI-DrugBank.d369.s1.e1" charOffset="71-79"
+            type="group" text="estrogens"/>
+        <entity id="DDI-DrugBank.d369.s1.e2" charOffset="82-91"
+            type="group" text="progestins"/>
+        <entity id="DDI-DrugBank.d369.s1.e3" charOffset="97-111"
+            type="group" text="glucocorticoids"/>
+        <pair id="DDI-DrugBank.d369.s1.p0" e1="DDI-DrugBank.d369.s1.e0"
+            e2="DDI-DrugBank.d369.s1.e1" ddi="false"/>
+        <pair id="DDI-DrugBank.d369.s1.p1" e1="DDI-DrugBank.d369.s1.e0"
+            e2="DDI-DrugBank.d369.s1.e2" ddi="false"/>
+        <pair id="DDI-DrugBank.d369.s1.p2" e1="DDI-DrugBank.d369.s1.e0"
+            e2="DDI-DrugBank.d369.s1.e3" ddi="false"/>
+        <pair id="DDI-DrugBank.d369.s1.p3" e1="DDI-DrugBank.d369.s1.e1"
+            e2="DDI-DrugBank.d369.s1.e2" ddi="false"/>
+        <pair id="DDI-DrugBank.d369.s1.p4" e1="DDI-DrugBank.d369.s1.e1"
+            e2="DDI-DrugBank.d369.s1.e3" ddi="false"/>
+        <pair id="DDI-DrugBank.d369.s1.p5" e1="DDI-DrugBank.d369.s1.e2"
+            e2="DDI-DrugBank.d369.s1.e3" ddi="false"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d369.s2" text="The gonadotropin levels may be transiently elevated by spironolactone, minimally elevated by levodopa, and suppressed by oral contraceptives and digoxin.">
+        <entity id="DDI-DrugBank.d369.s2.e0" charOffset="55-68"
+            type="drug" text="spironolactone"/>
+        <entity id="DDI-DrugBank.d369.s2.e1" charOffset="93-100"
+            type="drug" text="levodopa"/>
+        <entity id="DDI-DrugBank.d369.s2.e2" charOffset="126-139"
+            type="group" text="contraceptives"/>
+        <entity id="DDI-DrugBank.d369.s2.e3" charOffset="145-151"
+            type="drug" text="digoxin"/>
+        <pair id="DDI-DrugBank.d369.s2.p0" e1="DDI-DrugBank.d369.s2.e0"
+            e2="DDI-DrugBank.d369.s2.e1" ddi="false"/>
+        <pair id="DDI-DrugBank.d369.s2.p1" e1="DDI-DrugBank.d369.s2.e0"
+            e2="DDI-DrugBank.d369.s2.e2" ddi="false"/>
+        <pair id="DDI-DrugBank.d369.s2.p2" e1="DDI-DrugBank.d369.s2.e0"
+            e2="DDI-DrugBank.d369.s2.e3" ddi="false"/>
+        <pair id="DDI-DrugBank.d369.s2.p3" e1="DDI-DrugBank.d369.s2.e1"
+            e2="DDI-DrugBank.d369.s2.e2" ddi="false"/>
+        <pair id="DDI-DrugBank.d369.s2.p4" e1="DDI-DrugBank.d369.s2.e1"
+            e2="DDI-DrugBank.d369.s2.e3" ddi="false"/>
+        <pair id="DDI-DrugBank.d369.s2.p5" e1="DDI-DrugBank.d369.s2.e2"
+            e2="DDI-DrugBank.d369.s2.e3" ddi="false"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d369.s3" text="The response to Factrel may be blunted by phenothiazines and dopamine antagonists which cause a rise in prolactin.">
+        <entity id="DDI-DrugBank.d369.s3.e0" charOffset="16-22"
+            type="brand" text="Factrel"/>
+        <entity id="DDI-DrugBank.d369.s3.e1" charOffset="42-55"
+            type="group" text="phenothiazines"/>
+        <entity id="DDI-DrugBank.d369.s3.e2" charOffset="61-80"
+            type="group" text="dopamine antagonists"/>
+        <pair id="DDI-DrugBank.d369.s3.p0" e1="DDI-DrugBank.d369.s3.e0"
+            e2="DDI-DrugBank.d369.s3.e1" ddi="true" type="effect"/>
+        <pair id="DDI-DrugBank.d369.s3.p1" e1="DDI-DrugBank.d369.s3.e0"
+            e2="DDI-DrugBank.d369.s3.e2" ddi="true" type="effect"/>
+        <pair id="DDI-DrugBank.d369.s3.p2" e1="DDI-DrugBank.d369.s3.e1"
+            e2="DDI-DrugBank.d369.s3.e2" ddi="false"/>
+    </sentence>
+</document>

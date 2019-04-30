@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="DDI-DrugBank.d702">
+    <sentence id="DDI-DrugBank.d702.s0" text="SPIRIVA has been used concomitantly with other drugs commonly used in COPD without increases in adverse drug reactions. ">
+        <entity id="DDI-DrugBank.d702.s0.e0" charOffset="0-6"
+            type="brand" text="SPIRIVA"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d702.s1" text="These include sympathomimetic bronchodilators, methylxanthines, and oral and inhaled steroids. ">
+        <entity id="DDI-DrugBank.d702.s1.e0" charOffset="14-44"
+            type="group" text="sympathomimetic bronchodilators"/>
+        <entity id="DDI-DrugBank.d702.s1.e1" charOffset="47-61"
+            type="group" text="methylxanthines"/>
+        <entity id="DDI-DrugBank.d702.s1.e2" charOffset="85-92"
+            type="group" text="steroids"/>
+        <pair id="DDI-DrugBank.d702.s1.p0" e1="DDI-DrugBank.d702.s1.e0"
+            e2="DDI-DrugBank.d702.s1.e1" ddi="false"/>
+        <pair id="DDI-DrugBank.d702.s1.p1" e1="DDI-DrugBank.d702.s1.e0"
+            e2="DDI-DrugBank.d702.s1.e2" ddi="false"/>
+        <pair id="DDI-DrugBank.d702.s1.p2" e1="DDI-DrugBank.d702.s1.e1"
+            e2="DDI-DrugBank.d702.s1.e2" ddi="false"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d702.s2" text="However, the co   administration of SPIRIVA with other anticholinergic   containing drugs (e.g., ipratropium) has not been studied and is therefore not recommended.">
+        <entity id="DDI-DrugBank.d702.s2.e0" charOffset="36-42"
+            type="brand" text="SPIRIVA"/>
+        <entity id="DDI-DrugBank.d702.s2.e1" charOffset="55-69"
+            type="group" text="anticholinergic"/>
+        <entity id="DDI-DrugBank.d702.s2.e2" charOffset="97-107"
+            type="drug" text="ipratropium"/>
+        <pair id="DDI-DrugBank.d702.s2.p0" e1="DDI-DrugBank.d702.s2.e0"
+            e2="DDI-DrugBank.d702.s2.e1" ddi="true" type="advise"/>
+        <pair id="DDI-DrugBank.d702.s2.p1" e1="DDI-DrugBank.d702.s2.e0"
+            e2="DDI-DrugBank.d702.s2.e2" ddi="true" type="advise"/>
+        <pair id="DDI-DrugBank.d702.s2.p2" e1="DDI-DrugBank.d702.s2.e1"
+            e2="DDI-DrugBank.d702.s2.e2" ddi="false"/>
+    </sentence>
+</document>

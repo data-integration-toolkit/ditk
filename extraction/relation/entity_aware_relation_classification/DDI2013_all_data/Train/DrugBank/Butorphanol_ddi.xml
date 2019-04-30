@@ -1,0 +1,211 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="DDI-DrugBank.d246">
+    <sentence id="DDI-DrugBank.d246.s0" text="Concurrent use of butorphanol with central nervous system depressants (e.g., alcohol, barbiturates, tranquilizers, and antihistamines) may result in increased central nervous system depressant effects.">
+        <entity id="DDI-DrugBank.d246.s0.e0" charOffset="18-28"
+            type="drug" text="butorphanol"/>
+        <entity id="DDI-DrugBank.d246.s0.e1" charOffset="35-68"
+            type="group" text="central nervous system depressants"/>
+        <entity id="DDI-DrugBank.d246.s0.e2" charOffset="77-83"
+            type="drug" text="alcohol"/>
+        <entity id="DDI-DrugBank.d246.s0.e3" charOffset="86-97"
+            type="group" text="barbiturates"/>
+        <entity id="DDI-DrugBank.d246.s0.e4" charOffset="100-112"
+            type="group" text="tranquilizers"/>
+        <entity id="DDI-DrugBank.d246.s0.e5" charOffset="119-132"
+            type="group" text="antihistamines"/>
+        <entity id="DDI-DrugBank.d246.s0.e6" charOffset="159-191"
+            type="group" text="central nervous system depressant"/>
+        <pair id="DDI-DrugBank.d246.s0.p0" e1="DDI-DrugBank.d246.s0.e0"
+            e2="DDI-DrugBank.d246.s0.e1" ddi="true" type="effect"/>
+        <pair id="DDI-DrugBank.d246.s0.p1" e1="DDI-DrugBank.d246.s0.e0"
+            e2="DDI-DrugBank.d246.s0.e2" ddi="true" type="effect"/>
+        <pair id="DDI-DrugBank.d246.s0.p2" e1="DDI-DrugBank.d246.s0.e0"
+            e2="DDI-DrugBank.d246.s0.e3" ddi="true" type="effect"/>
+        <pair id="DDI-DrugBank.d246.s0.p3" e1="DDI-DrugBank.d246.s0.e0"
+            e2="DDI-DrugBank.d246.s0.e4" ddi="true" type="effect"/>
+        <pair id="DDI-DrugBank.d246.s0.p4" e1="DDI-DrugBank.d246.s0.e0"
+            e2="DDI-DrugBank.d246.s0.e5" ddi="true" type="effect"/>
+        <pair id="DDI-DrugBank.d246.s0.p5" e1="DDI-DrugBank.d246.s0.e0"
+            e2="DDI-DrugBank.d246.s0.e6" ddi="false"/>
+        <pair id="DDI-DrugBank.d246.s0.p6" e1="DDI-DrugBank.d246.s0.e1"
+            e2="DDI-DrugBank.d246.s0.e2" ddi="false"/>
+        <pair id="DDI-DrugBank.d246.s0.p7" e1="DDI-DrugBank.d246.s0.e1"
+            e2="DDI-DrugBank.d246.s0.e3" ddi="false"/>
+        <pair id="DDI-DrugBank.d246.s0.p8" e1="DDI-DrugBank.d246.s0.e1"
+            e2="DDI-DrugBank.d246.s0.e4" ddi="false"/>
+        <pair id="DDI-DrugBank.d246.s0.p9" e1="DDI-DrugBank.d246.s0.e1"
+            e2="DDI-DrugBank.d246.s0.e5" ddi="false"/>
+        <pair id="DDI-DrugBank.d246.s0.p10" e1="DDI-DrugBank.d246.s0.e1"
+            e2="DDI-DrugBank.d246.s0.e6" ddi="false"/>
+        <pair id="DDI-DrugBank.d246.s0.p11" e1="DDI-DrugBank.d246.s0.e2"
+            e2="DDI-DrugBank.d246.s0.e3" ddi="false"/>
+        <pair id="DDI-DrugBank.d246.s0.p12" e1="DDI-DrugBank.d246.s0.e2"
+            e2="DDI-DrugBank.d246.s0.e4" ddi="false"/>
+        <pair id="DDI-DrugBank.d246.s0.p13" e1="DDI-DrugBank.d246.s0.e2"
+            e2="DDI-DrugBank.d246.s0.e5" ddi="false"/>
+        <pair id="DDI-DrugBank.d246.s0.p14" e1="DDI-DrugBank.d246.s0.e2"
+            e2="DDI-DrugBank.d246.s0.e6" ddi="false"/>
+        <pair id="DDI-DrugBank.d246.s0.p15" e1="DDI-DrugBank.d246.s0.e3"
+            e2="DDI-DrugBank.d246.s0.e4" ddi="false"/>
+        <pair id="DDI-DrugBank.d246.s0.p16" e1="DDI-DrugBank.d246.s0.e3"
+            e2="DDI-DrugBank.d246.s0.e5" ddi="false"/>
+        <pair id="DDI-DrugBank.d246.s0.p17" e1="DDI-DrugBank.d246.s0.e3"
+            e2="DDI-DrugBank.d246.s0.e6" ddi="false"/>
+        <pair id="DDI-DrugBank.d246.s0.p18" e1="DDI-DrugBank.d246.s0.e4"
+            e2="DDI-DrugBank.d246.s0.e5" ddi="false"/>
+        <pair id="DDI-DrugBank.d246.s0.p19" e1="DDI-DrugBank.d246.s0.e4"
+            e2="DDI-DrugBank.d246.s0.e6" ddi="false"/>
+        <pair id="DDI-DrugBank.d246.s0.p20" e1="DDI-DrugBank.d246.s0.e5"
+            e2="DDI-DrugBank.d246.s0.e6" ddi="false"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d246.s1" text="When used concurrently with such drugs, the dose of butorphanol should be the smallest effective dose and the frequency of dosing reduced as much as possible when administered concomitantly with drugs that potentiate the action of opioids.">
+        <entity id="DDI-DrugBank.d246.s1.e0" charOffset="52-62"
+            type="drug" text="butorphanol"/>
+        <entity id="DDI-DrugBank.d246.s1.e1" charOffset="231-237"
+            type="group" text="opioids"/>
+        <pair id="DDI-DrugBank.d246.s1.p0" e1="DDI-DrugBank.d246.s1.e0"
+            e2="DDI-DrugBank.d246.s1.e1" ddi="false"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d246.s2" text="In healthy volunteers, the pharmacokinetics of a 1-mg dose of butorphanol administered as STADOL NS were not affected by the coadministration of a single 6-mg subcutaneous dose of sumatriptan.">
+        <entity id="DDI-DrugBank.d246.s2.e0" charOffset="62-72"
+            type="drug" text="butorphanol"/>
+        <entity id="DDI-DrugBank.d246.s2.e1" charOffset="90-98"
+            type="brand" text="STADOL NS"/>
+        <entity id="DDI-DrugBank.d246.s2.e2" charOffset="180-190"
+            type="drug" text="sumatriptan"/>
+        <pair id="DDI-DrugBank.d246.s2.p0" e1="DDI-DrugBank.d246.s2.e0"
+            e2="DDI-DrugBank.d246.s2.e1" ddi="false"/>
+        <pair id="DDI-DrugBank.d246.s2.p1" e1="DDI-DrugBank.d246.s2.e0"
+            e2="DDI-DrugBank.d246.s2.e2" ddi="false"/>
+        <pair id="DDI-DrugBank.d246.s2.p2" e1="DDI-DrugBank.d246.s2.e1"
+            e2="DDI-DrugBank.d246.s2.e2" ddi="false"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d246.s3" text="However, in another study in healthy volunteers, the pharmacokinetics of butorphanol were significantly altered (29% decrease in AUC and 38% decrease in Cmax) when a 1-mg dose of STADOL NS was administered 1 minute after a 20-mg dose of sumatriptan nasal spray.">
+        <entity id="DDI-DrugBank.d246.s3.e0" charOffset="73-83"
+            type="drug" text="butorphanol"/>
+        <entity id="DDI-DrugBank.d246.s3.e1" charOffset="179-187"
+            type="brand" text="STADOL NS"/>
+        <entity id="DDI-DrugBank.d246.s3.e2" charOffset="237-247"
+            type="drug" text="sumatriptan"/>
+        <pair id="DDI-DrugBank.d246.s3.p0" e1="DDI-DrugBank.d246.s3.e0"
+            e2="DDI-DrugBank.d246.s3.e1" ddi="false"/>
+        <pair id="DDI-DrugBank.d246.s3.p1" e1="DDI-DrugBank.d246.s3.e0"
+            e2="DDI-DrugBank.d246.s3.e2" ddi="false"/>
+        <pair id="DDI-DrugBank.d246.s3.p2" e1="DDI-DrugBank.d246.s3.e1"
+            e2="DDI-DrugBank.d246.s3.e2" ddi="true" type="mechanism"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d246.s4" text="(The two drugs were administered in opposite nostrils.)"/>
+    <sentence id="DDI-DrugBank.d246.s5" text="When the STADOL NS was administered 30 minutes after the sumatriptan nasal spray, the AUC of butorphanol increased 11% and Cmax decreased 18%.">
+        <entity id="DDI-DrugBank.d246.s5.e0" charOffset="9-17"
+            type="brand" text="STADOL NS"/>
+        <entity id="DDI-DrugBank.d246.s5.e1" charOffset="57-67"
+            type="drug" text="sumatriptan"/>
+        <entity id="DDI-DrugBank.d246.s5.e2" charOffset="93-103"
+            type="drug" text="butorphanol"/>
+        <pair id="DDI-DrugBank.d246.s5.p0" e1="DDI-DrugBank.d246.s5.e0"
+            e2="DDI-DrugBank.d246.s5.e1" ddi="true" type="mechanism"/>
+        <pair id="DDI-DrugBank.d246.s5.p1" e1="DDI-DrugBank.d246.s5.e0"
+            e2="DDI-DrugBank.d246.s5.e2" ddi="false"/>
+        <pair id="DDI-DrugBank.d246.s5.p2" e1="DDI-DrugBank.d246.s5.e1"
+            e2="DDI-DrugBank.d246.s5.e2" ddi="false"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d246.s6" text="In neither case were the pharmacokinetics of sumatriptan affected by coadministration with STADOL NS.">
+        <entity id="DDI-DrugBank.d246.s6.e0" charOffset="45-55"
+            type="drug" text="sumatriptan"/>
+        <entity id="DDI-DrugBank.d246.s6.e1" charOffset="91-99"
+            type="brand" text="STADOL NS"/>
+        <pair id="DDI-DrugBank.d246.s6.p0" e1="DDI-DrugBank.d246.s6.e0"
+            e2="DDI-DrugBank.d246.s6.e1" ddi="false"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d246.s7" text="These results suggest that the analgesic effect of STADOL NS may be diminished when it is administered shortly after sumatriptan nasal spray, but by 30 minutes any such reduction in effect should be minimal.">
+        <entity id="DDI-DrugBank.d246.s7.e0" charOffset="51-59"
+            type="brand" text="STADOL NS"/>
+        <entity id="DDI-DrugBank.d246.s7.e1" charOffset="117-127"
+            type="drug" text="sumatriptan"/>
+        <pair id="DDI-DrugBank.d246.s7.p0" e1="DDI-DrugBank.d246.s7.e0"
+            e2="DDI-DrugBank.d246.s7.e1" ddi="true" type="effect"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d246.s8" text="The safety of using STADOL NS and IMITREX (sumatriptan) Nasal Spray during the same episode of migraine has not been established.">
+        <entity id="DDI-DrugBank.d246.s8.e0" charOffset="20-28"
+            type="brand" text="STADOL NS"/>
+        <entity id="DDI-DrugBank.d246.s8.e1" charOffset="34-40"
+            type="brand" text="IMITREX"/>
+        <entity id="DDI-DrugBank.d246.s8.e2" charOffset="43-53"
+            type="drug" text="sumatriptan"/>
+        <pair id="DDI-DrugBank.d246.s8.p0" e1="DDI-DrugBank.d246.s8.e0"
+            e2="DDI-DrugBank.d246.s8.e1" ddi="false"/>
+        <pair id="DDI-DrugBank.d246.s8.p1" e1="DDI-DrugBank.d246.s8.e0"
+            e2="DDI-DrugBank.d246.s8.e2" ddi="false"/>
+        <pair id="DDI-DrugBank.d246.s8.p2" e1="DDI-DrugBank.d246.s8.e1"
+            e2="DDI-DrugBank.d246.s8.e2" ddi="false"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d246.s9" text="However, it should be noted that both products are capable of producing transient increases in blood pressure."/>
+    <sentence id="DDI-DrugBank.d246.s10" text="The pharmacokinetics of a 1-mg dose of butorphanol administered as STADOL NS were not affected by the coadministration of cimetidine (300 mg QID).">
+        <entity id="DDI-DrugBank.d246.s10.e0" charOffset="39-49"
+            type="drug" text="butorphanol"/>
+        <entity id="DDI-DrugBank.d246.s10.e1" charOffset="67-75"
+            type="brand" text="STADOL NS"/>
+        <entity id="DDI-DrugBank.d246.s10.e2" charOffset="122-131"
+            type="drug" text="cimetidine"/>
+        <pair id="DDI-DrugBank.d246.s10.p0"
+            e1="DDI-DrugBank.d246.s10.e0" e2="DDI-DrugBank.d246.s10.e1" ddi="false"/>
+        <pair id="DDI-DrugBank.d246.s10.p1"
+            e1="DDI-DrugBank.d246.s10.e0" e2="DDI-DrugBank.d246.s10.e2" ddi="false"/>
+        <pair id="DDI-DrugBank.d246.s10.p2"
+            e1="DDI-DrugBank.d246.s10.e1" e2="DDI-DrugBank.d246.s10.e2" ddi="false"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d246.s11" text="Conversely, the administration of STADOL NS (1 mg butorphanol QID) did not alter the pharmacokinetics of a 300-mg dose of cimetidine.">
+        <entity id="DDI-DrugBank.d246.s11.e0" charOffset="34-42"
+            type="brand" text="STADOL NS"/>
+        <entity id="DDI-DrugBank.d246.s11.e1" charOffset="50-60"
+            type="drug" text="butorphanol"/>
+        <entity id="DDI-DrugBank.d246.s11.e2" charOffset="122-131"
+            type="drug" text="cimetidine"/>
+        <pair id="DDI-DrugBank.d246.s11.p0"
+            e1="DDI-DrugBank.d246.s11.e0" e2="DDI-DrugBank.d246.s11.e1" ddi="false"/>
+        <pair id="DDI-DrugBank.d246.s11.p1"
+            e1="DDI-DrugBank.d246.s11.e0" e2="DDI-DrugBank.d246.s11.e2" ddi="false"/>
+        <pair id="DDI-DrugBank.d246.s11.p2"
+            e1="DDI-DrugBank.d246.s11.e1" e2="DDI-DrugBank.d246.s11.e2" ddi="false"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d246.s12" text="It is not known if the effects of butorphanol are altered by concomitant medications that affect hepatic metabolism of drugs (erythromycin, etc.), but physicians should be alert to the possibility that a smaller initial dose and longer intervals between doses may be needed.">
+        <entity id="DDI-DrugBank.d246.s12.e0" charOffset="34-44"
+            type="drug" text="butorphanol"/>
+        <entity id="DDI-DrugBank.d246.s12.e1" charOffset="126-137"
+            type="drug" text="erythromycin"/>
+        <pair id="DDI-DrugBank.d246.s12.p0"
+            e1="DDI-DrugBank.d246.s12.e0" e2="DDI-DrugBank.d246.s12.e1"
+            ddi="true" type="advise"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d246.s13" text="The fraction of STADOL NS absorbed is unaffected by the concomitant administration of a nasal vasoconstrictor (oxymetazoline), but the rate of absorption is decreased.">
+        <entity id="DDI-DrugBank.d246.s13.e0" charOffset="16-24"
+            type="brand" text="STADOL NS"/>
+        <entity id="DDI-DrugBank.d246.s13.e1" charOffset="88-108"
+            type="group" text="nasal vasoconstrictor"/>
+        <entity id="DDI-DrugBank.d246.s13.e2" charOffset="111-123"
+            type="drug" text="oxymetazoline"/>
+        <pair id="DDI-DrugBank.d246.s13.p0"
+            e1="DDI-DrugBank.d246.s13.e0" e2="DDI-DrugBank.d246.s13.e1" ddi="false"/>
+        <pair id="DDI-DrugBank.d246.s13.p1"
+            e1="DDI-DrugBank.d246.s13.e0" e2="DDI-DrugBank.d246.s13.e2" ddi="false"/>
+        <pair id="DDI-DrugBank.d246.s13.p2"
+            e1="DDI-DrugBank.d246.s13.e1" e2="DDI-DrugBank.d246.s13.e2" ddi="false"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d246.s14" text="Therefore, a slower onset can be anticipated if STADOL NS is administered concomitantly with, or immediately following, a nasal vasoconstrictor.">
+        <entity id="DDI-DrugBank.d246.s14.e0" charOffset="48-56"
+            type="brand" text="STADOL NS"/>
+        <entity id="DDI-DrugBank.d246.s14.e1" charOffset="122-142"
+            type="group" text="nasal vasoconstrictor"/>
+        <pair id="DDI-DrugBank.d246.s14.p0"
+            e1="DDI-DrugBank.d246.s14.e0" e2="DDI-DrugBank.d246.s14.e1"
+            ddi="true" type="effect"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d246.s15" text="No information is available about the use of butorphanol concurrently with MAO inhibitors.">
+        <entity id="DDI-DrugBank.d246.s15.e0" charOffset="45-55"
+            type="drug" text="butorphanol"/>
+        <entity id="DDI-DrugBank.d246.s15.e1" charOffset="75-88"
+            type="group" text="MAO inhibitors"/>
+        <pair id="DDI-DrugBank.d246.s15.p0"
+            e1="DDI-DrugBank.d246.s15.e0" e2="DDI-DrugBank.d246.s15.e1" ddi="false"/>
+    </sentence>
+</document>

@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="DDI-DrugBank.d188">
+    <sentence id="DDI-DrugBank.d188.s0" text="Concurrent administration of HEXALEN and antidepressants of the MAO inhibitor class may cause severe orthostatic hypotension.Cimetidine, an inhibitor of microsomal drug metabolism, increased altretamines half-life and toxicity in a rat model.">
+        <entity id="DDI-DrugBank.d188.s0.e0" charOffset="29-35"
+            type="brand" text="HEXALEN"/>
+        <entity id="DDI-DrugBank.d188.s0.e1" charOffset="41-82"
+            type="group" text="antidepressants of the MAO inhibitor class"/>
+        <entity id="DDI-DrugBank.d188.s0.e2" charOffset="125-134"
+            type="drug" text="Cimetidine"/>
+        <entity id="DDI-DrugBank.d188.s0.e3" charOffset="191-201"
+            type="drug" text="altretamine"/>
+        <pair id="DDI-DrugBank.d188.s0.p0" e1="DDI-DrugBank.d188.s0.e0"
+            e2="DDI-DrugBank.d188.s0.e1" ddi="true" type="effect"/>
+        <pair id="DDI-DrugBank.d188.s0.p1" e1="DDI-DrugBank.d188.s0.e0"
+            e2="DDI-DrugBank.d188.s0.e2" ddi="false"/>
+        <pair id="DDI-DrugBank.d188.s0.p2" e1="DDI-DrugBank.d188.s0.e0"
+            e2="DDI-DrugBank.d188.s0.e3" ddi="false"/>
+        <pair id="DDI-DrugBank.d188.s0.p3" e1="DDI-DrugBank.d188.s0.e1"
+            e2="DDI-DrugBank.d188.s0.e2" ddi="false"/>
+        <pair id="DDI-DrugBank.d188.s0.p4" e1="DDI-DrugBank.d188.s0.e1"
+            e2="DDI-DrugBank.d188.s0.e3" ddi="false"/>
+        <pair id="DDI-DrugBank.d188.s0.p5" e1="DDI-DrugBank.d188.s0.e2"
+            e2="DDI-DrugBank.d188.s0.e3" ddi="true" type="mechanism"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d188.s1" text="Data from a randomized trial of HEXALEN and cisplatin plus or minus pyridoxine in ovarian cancer indicated that pyridoxine significantly reduced neurotoxicity;">
+        <entity id="DDI-DrugBank.d188.s1.e0" charOffset="32-38"
+            type="brand" text="HEXALEN"/>
+        <entity id="DDI-DrugBank.d188.s1.e1" charOffset="44-52"
+            type="drug" text="cisplatin"/>
+        <entity id="DDI-DrugBank.d188.s1.e2" charOffset="68-77"
+            type="drug" text="pyridoxine"/>
+        <entity id="DDI-DrugBank.d188.s1.e3" charOffset="112-121"
+            type="drug" text="pyridoxine"/>
+        <pair id="DDI-DrugBank.d188.s1.p0" e1="DDI-DrugBank.d188.s1.e0"
+            e2="DDI-DrugBank.d188.s1.e1" ddi="true" type="effect"/>
+        <pair id="DDI-DrugBank.d188.s1.p1" e1="DDI-DrugBank.d188.s1.e0"
+            e2="DDI-DrugBank.d188.s1.e2" ddi="false"/>
+        <pair id="DDI-DrugBank.d188.s1.p2" e1="DDI-DrugBank.d188.s1.e0"
+            e2="DDI-DrugBank.d188.s1.e3" ddi="false"/>
+        <pair id="DDI-DrugBank.d188.s1.p3" e1="DDI-DrugBank.d188.s1.e1"
+            e2="DDI-DrugBank.d188.s1.e2" ddi="false"/>
+        <pair id="DDI-DrugBank.d188.s1.p4" e1="DDI-DrugBank.d188.s1.e1"
+            e2="DDI-DrugBank.d188.s1.e3" ddi="false"/>
+        <pair id="DDI-DrugBank.d188.s1.p5" e1="DDI-DrugBank.d188.s1.e2"
+            e2="DDI-DrugBank.d188.s1.e3" ddi="false"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d188.s2" text="however, it adversely affected response duration suggesting that pyridoxine should not be administered with HEXALEN and/or cisplatin.1">
+        <entity id="DDI-DrugBank.d188.s2.e0" charOffset="65-74"
+            type="drug" text="pyridoxine"/>
+        <entity id="DDI-DrugBank.d188.s2.e1" charOffset="108-114"
+            type="brand" text="HEXALEN"/>
+        <entity id="DDI-DrugBank.d188.s2.e2" charOffset="123-131"
+            type="drug" text="cisplatin"/>
+        <pair id="DDI-DrugBank.d188.s2.p0" e1="DDI-DrugBank.d188.s2.e0"
+            e2="DDI-DrugBank.d188.s2.e1" ddi="true" type="advise"/>
+        <pair id="DDI-DrugBank.d188.s2.p1" e1="DDI-DrugBank.d188.s2.e0"
+            e2="DDI-DrugBank.d188.s2.e2" ddi="true" type="advise"/>
+        <pair id="DDI-DrugBank.d188.s2.p2" e1="DDI-DrugBank.d188.s2.e1"
+            e2="DDI-DrugBank.d188.s2.e2" ddi="false"/>
+    </sentence>
+</document>

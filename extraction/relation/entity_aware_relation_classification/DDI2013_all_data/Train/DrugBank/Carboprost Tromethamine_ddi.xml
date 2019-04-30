@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="DDI-DrugBank.d23">
+    <sentence id="DDI-DrugBank.d23.s0" text="HEMABATE may augment the activity of other oxytocic agents.">
+        <entity id="DDI-DrugBank.d23.s0.e0" charOffset="0-7"
+            type="brand" text="HEMABATE"/>
+        <entity id="DDI-DrugBank.d23.s0.e1" charOffset="43-57"
+            type="group" text="oxytocic agents"/>
+        <pair id="DDI-DrugBank.d23.s0.p0" e1="DDI-DrugBank.d23.s0.e0"
+            e2="DDI-DrugBank.d23.s0.e1" ddi="true" type="effect"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d23.s1" text="Concomitant use with other oxytocic agents is not recommended">
+        <entity id="DDI-DrugBank.d23.s1.e0" charOffset="27-41"
+            type="group" text="oxytocic agents"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d23.s2" text="."/>
+    <sentence id="DDI-DrugBank.d23.s3" text=""/>
+</document>

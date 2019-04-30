@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="DDI-DrugBank.d19">
+    <sentence id="DDI-DrugBank.d19.s0" text="Disulfiram appears to decrease the rate at which certain drugs are metabolized and therefore may increase the blood levels and the possibility of clinical toxicity of drugs given concomitantly.">
+        <entity id="DDI-DrugBank.d19.s0.e0" charOffset="0-9" type="drug" text="Disulfiram"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d19.s1" text="DISULFIRAM SHOULD BE USED WITH CAUTION IN THOSE PATIENTS REVEIVING PHENYTOIN AND ITS CONGENERS.">
+        <entity id="DDI-DrugBank.d19.s1.e0" charOffset="0-9" type="drug" text="DISULFIRAM"/>
+        <entity id="DDI-DrugBank.d19.s1.e1" charOffset="67-75"
+            type="drug" text="PHENYTOIN"/>
+        <pair id="DDI-DrugBank.d19.s1.p0" e1="DDI-DrugBank.d19.s1.e0"
+            e2="DDI-DrugBank.d19.s1.e1" ddi="true" type="advise"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d19.s2" text="SINCE THE CONCOMITANT ADMINISTRATION OF THESE TWO DRUGS CAN LEAD TO PHENYTOIN INTOXICATION, PRIOR TO ADMINISTERING DISULFIRAM TO A PATIENT ON PHENYTOIN THERAPY, A BASELINE PHENYTOIN SERUM LEVEL SHOULD BE OBTAINED.">
+        <entity id="DDI-DrugBank.d19.s2.e0" charOffset="68-76"
+            type="drug" text="PHENYTOIN"/>
+        <entity id="DDI-DrugBank.d19.s2.e1" charOffset="115-124"
+            type="drug" text="DISULFIRAM"/>
+        <entity id="DDI-DrugBank.d19.s2.e2" charOffset="142-150"
+            type="drug" text="PHENYTOIN"/>
+        <entity id="DDI-DrugBank.d19.s2.e3" charOffset="172-180"
+            type="drug" text="PHENYTOIN"/>
+        <pair id="DDI-DrugBank.d19.s2.p0" e1="DDI-DrugBank.d19.s2.e0"
+            e2="DDI-DrugBank.d19.s2.e1" ddi="false"/>
+        <pair id="DDI-DrugBank.d19.s2.p1" e1="DDI-DrugBank.d19.s2.e0"
+            e2="DDI-DrugBank.d19.s2.e2" ddi="false"/>
+        <pair id="DDI-DrugBank.d19.s2.p2" e1="DDI-DrugBank.d19.s2.e0"
+            e2="DDI-DrugBank.d19.s2.e3" ddi="false"/>
+        <pair id="DDI-DrugBank.d19.s2.p3" e1="DDI-DrugBank.d19.s2.e1"
+            e2="DDI-DrugBank.d19.s2.e2" ddi="true" type="effect"/>
+        <pair id="DDI-DrugBank.d19.s2.p4" e1="DDI-DrugBank.d19.s2.e1"
+            e2="DDI-DrugBank.d19.s2.e3" ddi="false"/>
+        <pair id="DDI-DrugBank.d19.s2.p5" e1="DDI-DrugBank.d19.s2.e2"
+            e2="DDI-DrugBank.d19.s2.e3" ddi="false"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d19.s3" text="SUBSEQUENT TO INITIATION OF DISULFIRAM THERAPY.">
+        <entity id="DDI-DrugBank.d19.s3.e0" charOffset="28-37"
+            type="drug" text="DISULFIRAM"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d19.s4" text="SERUM LEVELS OF PHENYTOIN SHOULD BE DETERMINED ON DIFFERENT DAYS FOR EVIDENCE OF AN INCREASE OR FOR A CONTINUING RISE IN LEVELS.">
+        <entity id="DDI-DrugBank.d19.s4.e0" charOffset="16-24"
+            type="drug" text="PHENYTOIN"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d19.s5" text="INCREASED PHENYTOIN LEVELS SHOULD BE TREATED WITH APPROPRIATE DOSAGE ADJUSTMENT.">
+        <entity id="DDI-DrugBank.d19.s5.e0" charOffset="10-18"
+            type="drug" text="PHENYTOIN"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d19.s6" text="It may be necessary to adjust the dosage of oral anticoagulants upon beginning or stopping disulfiram. since disulfiram may prolong prothrombin time.">
+        <entity id="DDI-DrugBank.d19.s6.e0" charOffset="49-62"
+            type="group" text="anticoagulants"/>
+        <entity id="DDI-DrugBank.d19.s6.e1" charOffset="91-100"
+            type="drug" text="disulfiram"/>
+        <entity id="DDI-DrugBank.d19.s6.e2" charOffset="109-118"
+            type="drug" text="disulfiram"/>
+        <pair id="DDI-DrugBank.d19.s6.p0" e1="DDI-DrugBank.d19.s6.e0"
+            e2="DDI-DrugBank.d19.s6.e1" ddi="true" type="advise"/>
+        <pair id="DDI-DrugBank.d19.s6.p1" e1="DDI-DrugBank.d19.s6.e0"
+            e2="DDI-DrugBank.d19.s6.e2" ddi="false"/>
+        <pair id="DDI-DrugBank.d19.s6.p2" e1="DDI-DrugBank.d19.s6.e1"
+            e2="DDI-DrugBank.d19.s6.e2" ddi="false"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d19.s7" text="Patients taking isoniazid when disulfiram is given should be observed for the appearance of unsteady gait or marked changes in mental status;">
+        <entity id="DDI-DrugBank.d19.s7.e0" charOffset="16-24"
+            type="drug" text="isoniazid"/>
+        <entity id="DDI-DrugBank.d19.s7.e1" charOffset="31-40"
+            type="drug" text="disulfiram"/>
+        <pair id="DDI-DrugBank.d19.s7.p0" e1="DDI-DrugBank.d19.s7.e0"
+            e2="DDI-DrugBank.d19.s7.e1" ddi="true" type="advise"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d19.s8" text="the disulfiram should be discontinued if such signs appear.">
+        <entity id="DDI-DrugBank.d19.s8.e0" charOffset="4-13"
+            type="drug" text="disulfiram"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d19.s9" text="In rats, simultaneous ingestion of disulfiram and nitrite in the diet for 78 weeks has been reported to cause tumors, and it has been suggested that disulfiram may react with nitrites in the rat stomach to form a nitrosamine, which is tumorigenic.">
+        <entity id="DDI-DrugBank.d19.s9.e0" charOffset="35-44"
+            type="drug" text="disulfiram"/>
+        <entity id="DDI-DrugBank.d19.s9.e1" charOffset="50-56"
+            type="drug" text="nitrite"/>
+        <entity id="DDI-DrugBank.d19.s9.e2" charOffset="149-158"
+            type="drug" text="disulfiram"/>
+        <entity id="DDI-DrugBank.d19.s9.e3" charOffset="175-182"
+            type="group" text="nitrites"/>
+        <pair id="DDI-DrugBank.d19.s9.p0" e1="DDI-DrugBank.d19.s9.e0"
+            e2="DDI-DrugBank.d19.s9.e1" ddi="true" type="effect"/>
+        <pair id="DDI-DrugBank.d19.s9.p1" e1="DDI-DrugBank.d19.s9.e0"
+            e2="DDI-DrugBank.d19.s9.e2" ddi="false"/>
+        <pair id="DDI-DrugBank.d19.s9.p2" e1="DDI-DrugBank.d19.s9.e0"
+            e2="DDI-DrugBank.d19.s9.e3" ddi="false"/>
+        <pair id="DDI-DrugBank.d19.s9.p3" e1="DDI-DrugBank.d19.s9.e1"
+            e2="DDI-DrugBank.d19.s9.e2" ddi="false"/>
+        <pair id="DDI-DrugBank.d19.s9.p4" e1="DDI-DrugBank.d19.s9.e1"
+            e2="DDI-DrugBank.d19.s9.e3" ddi="false"/>
+        <pair id="DDI-DrugBank.d19.s9.p5" e1="DDI-DrugBank.d19.s9.e2"
+            e2="DDI-DrugBank.d19.s9.e3" ddi="true" type="effect"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d19.s10" text="Disulfiram alone in the rat s diet did not lead to such tumors.">
+        <entity id="DDI-DrugBank.d19.s10.e0" charOffset="0-9"
+            type="drug" text="Disulfiram"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d19.s11" text="The relevance of this finding to humans is not known at this time."/>
+</document>

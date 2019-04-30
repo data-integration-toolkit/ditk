@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="DDI-DrugBank.d291">
+    <sentence id="DDI-DrugBank.d291.s0" text="When Bezalip or Bezalip retard is used at the same time as other medicines or substances the following interactions must be taken into account: - Bezalip and Bezalip retard may enhance the action of anticoagulants of the coumarin type.">
+        <entity id="DDI-DrugBank.d291.s0.e0" charOffset="5-11"
+            type="brand" text="Bezalip"/>
+        <entity id="DDI-DrugBank.d291.s0.e1" charOffset="16-29"
+            type="brand" text="Bezalip retard"/>
+        <entity id="DDI-DrugBank.d291.s0.e2" charOffset="146-152"
+            type="brand" text="Bezalip"/>
+        <entity id="DDI-DrugBank.d291.s0.e3" charOffset="158-171"
+            type="brand" text="Bezalip retard"/>
+        <entity id="DDI-DrugBank.d291.s0.e4" charOffset="199-233"
+            type="group" text="anticoagulants of the coumarin type"/>
+        <pair id="DDI-DrugBank.d291.s0.p0" e1="DDI-DrugBank.d291.s0.e0"
+            e2="DDI-DrugBank.d291.s0.e1" ddi="false"/>
+        <pair id="DDI-DrugBank.d291.s0.p1" e1="DDI-DrugBank.d291.s0.e0"
+            e2="DDI-DrugBank.d291.s0.e2" ddi="false"/>
+        <pair id="DDI-DrugBank.d291.s0.p2" e1="DDI-DrugBank.d291.s0.e0"
+            e2="DDI-DrugBank.d291.s0.e3" ddi="false"/>
+        <pair id="DDI-DrugBank.d291.s0.p3" e1="DDI-DrugBank.d291.s0.e0"
+            e2="DDI-DrugBank.d291.s0.e4" ddi="false"/>
+        <pair id="DDI-DrugBank.d291.s0.p4" e1="DDI-DrugBank.d291.s0.e1"
+            e2="DDI-DrugBank.d291.s0.e2" ddi="false"/>
+        <pair id="DDI-DrugBank.d291.s0.p5" e1="DDI-DrugBank.d291.s0.e1"
+            e2="DDI-DrugBank.d291.s0.e3" ddi="false"/>
+        <pair id="DDI-DrugBank.d291.s0.p6" e1="DDI-DrugBank.d291.s0.e1"
+            e2="DDI-DrugBank.d291.s0.e4" ddi="false"/>
+        <pair id="DDI-DrugBank.d291.s0.p7" e1="DDI-DrugBank.d291.s0.e2"
+            e2="DDI-DrugBank.d291.s0.e3" ddi="false"/>
+        <pair id="DDI-DrugBank.d291.s0.p8" e1="DDI-DrugBank.d291.s0.e2"
+            e2="DDI-DrugBank.d291.s0.e4" ddi="true" type="effect"/>
+        <pair id="DDI-DrugBank.d291.s0.p9" e1="DDI-DrugBank.d291.s0.e3"
+            e2="DDI-DrugBank.d291.s0.e4" ddi="true" type="effect"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d291.s1" text="For this reason, the dose of the anticoagulant should be reduced by 30 - 50% at the start of treatment with Bezalip or Bezalip retard and then titrated according to the blood clotting parameters">
+        <entity id="DDI-DrugBank.d291.s1.e0" charOffset="33-45"
+            type="drug" text="anticoagulant"/>
+        <entity id="DDI-DrugBank.d291.s1.e1" charOffset="108-114"
+            type="brand" text="Bezalip"/>
+        <entity id="DDI-DrugBank.d291.s1.e2" charOffset="119-125"
+            type="brand" text="Bezalip"/>
+        <pair id="DDI-DrugBank.d291.s1.p0" e1="DDI-DrugBank.d291.s1.e0"
+            e2="DDI-DrugBank.d291.s1.e1" ddi="true" type="advise"/>
+        <pair id="DDI-DrugBank.d291.s1.p1" e1="DDI-DrugBank.d291.s1.e0"
+            e2="DDI-DrugBank.d291.s1.e2" ddi="true" type="advise"/>
+        <pair id="DDI-DrugBank.d291.s1.p2" e1="DDI-DrugBank.d291.s1.e1"
+            e2="DDI-DrugBank.d291.s1.e2" ddi="false"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d291.s2" text="."/>
+    <sentence id="DDI-DrugBank.d291.s3" text="- The action of sulphonylureas and insulin may be enhanced by Bezalip or Bezalip retard.">
+        <entity id="DDI-DrugBank.d291.s3.e0" charOffset="16-29"
+            type="group" text="sulphonylureas"/>
+        <entity id="DDI-DrugBank.d291.s3.e1" charOffset="35-41"
+            type="drug" text="insulin"/>
+        <entity id="DDI-DrugBank.d291.s3.e2" charOffset="62-68"
+            type="brand" text="Bezalip"/>
+        <entity id="DDI-DrugBank.d291.s3.e3" charOffset="73-86"
+            type="brand" text="Bezalip retard"/>
+        <pair id="DDI-DrugBank.d291.s3.p0" e1="DDI-DrugBank.d291.s3.e0"
+            e2="DDI-DrugBank.d291.s3.e1" ddi="false"/>
+        <pair id="DDI-DrugBank.d291.s3.p1" e1="DDI-DrugBank.d291.s3.e0"
+            e2="DDI-DrugBank.d291.s3.e2" ddi="true" type="effect"/>
+        <pair id="DDI-DrugBank.d291.s3.p2" e1="DDI-DrugBank.d291.s3.e0"
+            e2="DDI-DrugBank.d291.s3.e3" ddi="true" type="effect"/>
+        <pair id="DDI-DrugBank.d291.s3.p3" e1="DDI-DrugBank.d291.s3.e1"
+            e2="DDI-DrugBank.d291.s3.e2" ddi="true" type="effect"/>
+        <pair id="DDI-DrugBank.d291.s3.p4" e1="DDI-DrugBank.d291.s3.e1"
+            e2="DDI-DrugBank.d291.s3.e3" ddi="true" type="effect"/>
+        <pair id="DDI-DrugBank.d291.s3.p5" e1="DDI-DrugBank.d291.s3.e2"
+            e2="DDI-DrugBank.d291.s3.e3" ddi="false"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d291.s4" text="This may be due to an improved glucose utilization with simultaneous reduction in insulin requirement">
+        <entity id="DDI-DrugBank.d291.s4.e0" charOffset="82-88"
+            type="drug" text="insulin"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d291.s5" text="."/>
+    <sentence id="DDI-DrugBank.d291.s6" text="- In isolated cases, a pronounced though reversible, impairment of renal function (accompanied by a corresponding increase in the serum creatinine level) has been reported in organ transplant patients receiving immuno-suppressant therapy and concomitant bezafibrate.">
+        <entity id="DDI-DrugBank.d291.s6.e0" charOffset="211-228"
+            type="group" text="immuno-suppressant"/>
+        <entity id="DDI-DrugBank.d291.s6.e1" charOffset="254-264"
+            type="drug" text="bezafibrate"/>
+        <pair id="DDI-DrugBank.d291.s6.p0" e1="DDI-DrugBank.d291.s6.e0"
+            e2="DDI-DrugBank.d291.s6.e1" ddi="true" type="effect"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d291.s7" text="Accordingly, renal function should be closely monitored in these patients and, in the event of relevant significant changes in laboratory parameters, bezafibrate should, if necessary, be discontinued">
+        <entity id="DDI-DrugBank.d291.s7.e0" charOffset="150-160"
+            type="drug" text="bezafibrate"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d291.s8" text="."/>
+    <sentence id="DDI-DrugBank.d291.s9" text="- When Bezalip or Bezalip retard is used concurrently with anion-exchange resins (e.g. cholestryramine), an interval of at least 2 hours should be maintained between the two medicines, since the absorption of Bezalip or Bezalip retard is impaired">
+        <entity id="DDI-DrugBank.d291.s9.e0" charOffset="7-13"
+            type="brand" text="Bezalip"/>
+        <entity id="DDI-DrugBank.d291.s9.e1" charOffset="18-31"
+            type="brand" text="Bezalip retard"/>
+        <entity id="DDI-DrugBank.d291.s9.e2" charOffset="59-79"
+            type="group" text="anion-exchange resins"/>
+        <entity id="DDI-DrugBank.d291.s9.e3" charOffset="87-101"
+            type="drug" text="cholestryramine"/>
+        <entity id="DDI-DrugBank.d291.s9.e4" charOffset="209-215"
+            type="brand" text="Bezalip"/>
+        <entity id="DDI-DrugBank.d291.s9.e5" charOffset="220-233"
+            type="brand" text="Bezalip retard"/>
+        <pair id="DDI-DrugBank.d291.s9.p0" e1="DDI-DrugBank.d291.s9.e0"
+            e2="DDI-DrugBank.d291.s9.e1" ddi="false"/>
+        <pair id="DDI-DrugBank.d291.s9.p1" e1="DDI-DrugBank.d291.s9.e0"
+            e2="DDI-DrugBank.d291.s9.e2" ddi="true" type="advise"/>
+        <pair id="DDI-DrugBank.d291.s9.p2" e1="DDI-DrugBank.d291.s9.e0"
+            e2="DDI-DrugBank.d291.s9.e3" ddi="true" type="advise"/>
+        <pair id="DDI-DrugBank.d291.s9.p3" e1="DDI-DrugBank.d291.s9.e0"
+            e2="DDI-DrugBank.d291.s9.e4" ddi="false"/>
+        <pair id="DDI-DrugBank.d291.s9.p4" e1="DDI-DrugBank.d291.s9.e0"
+            e2="DDI-DrugBank.d291.s9.e5" ddi="false"/>
+        <pair id="DDI-DrugBank.d291.s9.p5" e1="DDI-DrugBank.d291.s9.e1"
+            e2="DDI-DrugBank.d291.s9.e2" ddi="true" type="advise"/>
+        <pair id="DDI-DrugBank.d291.s9.p6" e1="DDI-DrugBank.d291.s9.e1"
+            e2="DDI-DrugBank.d291.s9.e3" ddi="true" type="advise"/>
+        <pair id="DDI-DrugBank.d291.s9.p7" e1="DDI-DrugBank.d291.s9.e1"
+            e2="DDI-DrugBank.d291.s9.e4" ddi="false"/>
+        <pair id="DDI-DrugBank.d291.s9.p8" e1="DDI-DrugBank.d291.s9.e1"
+            e2="DDI-DrugBank.d291.s9.e5" ddi="false"/>
+        <pair id="DDI-DrugBank.d291.s9.p9" e1="DDI-DrugBank.d291.s9.e2"
+            e2="DDI-DrugBank.d291.s9.e3" ddi="false"/>
+        <pair id="DDI-DrugBank.d291.s9.p10" e1="DDI-DrugBank.d291.s9.e2"
+            e2="DDI-DrugBank.d291.s9.e4" ddi="false"/>
+        <pair id="DDI-DrugBank.d291.s9.p11" e1="DDI-DrugBank.d291.s9.e2"
+            e2="DDI-DrugBank.d291.s9.e5" ddi="false"/>
+        <pair id="DDI-DrugBank.d291.s9.p12" e1="DDI-DrugBank.d291.s9.e3"
+            e2="DDI-DrugBank.d291.s9.e4" ddi="false"/>
+        <pair id="DDI-DrugBank.d291.s9.p13" e1="DDI-DrugBank.d291.s9.e3"
+            e2="DDI-DrugBank.d291.s9.e5" ddi="false"/>
+        <pair id="DDI-DrugBank.d291.s9.p14" e1="DDI-DrugBank.d291.s9.e4"
+            e2="DDI-DrugBank.d291.s9.e5" ddi="false"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d291.s10" text="."/>
+    <sentence id="DDI-DrugBank.d291.s11" text="- Perhexiline hydrogen maleate or MAO-inhibitors (with hepatotoxic potential) must not be administered together with Bezalip or Bezalip retard.">
+        <entity id="DDI-DrugBank.d291.s11.e0" charOffset="2-29"
+            type="drug" text="Perhexiline hydrogen maleate"/>
+        <entity id="DDI-DrugBank.d291.s11.e1" charOffset="34-47"
+            type="group" text="MAO-inhibitors"/>
+        <entity id="DDI-DrugBank.d291.s11.e2" charOffset="117-123"
+            type="brand" text="Bezalip"/>
+        <entity id="DDI-DrugBank.d291.s11.e3" charOffset="128-141"
+            type="brand" text="Bezalip retard"/>
+        <pair id="DDI-DrugBank.d291.s11.p0"
+            e1="DDI-DrugBank.d291.s11.e0" e2="DDI-DrugBank.d291.s11.e1" ddi="false"/>
+        <pair id="DDI-DrugBank.d291.s11.p1"
+            e1="DDI-DrugBank.d291.s11.e0" e2="DDI-DrugBank.d291.s11.e2"
+            ddi="true" type="advise"/>
+        <pair id="DDI-DrugBank.d291.s11.p2"
+            e1="DDI-DrugBank.d291.s11.e0" e2="DDI-DrugBank.d291.s11.e3"
+            ddi="true" type="advise"/>
+        <pair id="DDI-DrugBank.d291.s11.p3"
+            e1="DDI-DrugBank.d291.s11.e1" e2="DDI-DrugBank.d291.s11.e2"
+            ddi="true" type="advise"/>
+        <pair id="DDI-DrugBank.d291.s11.p4"
+            e1="DDI-DrugBank.d291.s11.e1" e2="DDI-DrugBank.d291.s11.e3"
+            ddi="true" type="advise"/>
+        <pair id="DDI-DrugBank.d291.s11.p5"
+            e1="DDI-DrugBank.d291.s11.e2" e2="DDI-DrugBank.d291.s11.e3" ddi="false"/>
+    </sentence>
+</document>

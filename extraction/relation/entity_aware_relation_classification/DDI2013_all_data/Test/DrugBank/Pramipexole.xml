@@ -1,0 +1,445 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="DDI-DrugBank.d737">
+    <sentence id="DDI-DrugBank.d737.s0" text="Carbidopa/Levodopa: Carbidopa/Levodopa does not influence the pharmacokinetics of pramipexole in healthy volunteers (N= 10). ">
+        <entity id="DDI-DrugBank.d737.s0.e0" charOffset="0-8"
+            type="drug" text="Carbidopa"/>
+        <entity id="DDI-DrugBank.d737.s0.e1" charOffset="10-17"
+            type="drug" text="Levodopa"/>
+        <entity id="DDI-DrugBank.d737.s0.e2" charOffset="20-28"
+            type="drug" text="Carbidopa"/>
+        <entity id="DDI-DrugBank.d737.s0.e3" charOffset="30-37"
+            type="drug" text="Levodopa"/>
+        <entity id="DDI-DrugBank.d737.s0.e4" charOffset="82-92"
+            type="drug" text="pramipexole"/>
+        <pair id="DDI-DrugBank.d737.s0.p0" e1="DDI-DrugBank.d737.s0.e0"
+            e2="DDI-DrugBank.d737.s0.e1" ddi="false"/>
+        <pair id="DDI-DrugBank.d737.s0.p1" e1="DDI-DrugBank.d737.s0.e0"
+            e2="DDI-DrugBank.d737.s0.e2" ddi="false"/>
+        <pair id="DDI-DrugBank.d737.s0.p2" e1="DDI-DrugBank.d737.s0.e0"
+            e2="DDI-DrugBank.d737.s0.e3" ddi="false"/>
+        <pair id="DDI-DrugBank.d737.s0.p3" e1="DDI-DrugBank.d737.s0.e0"
+            e2="DDI-DrugBank.d737.s0.e4" ddi="false"/>
+        <pair id="DDI-DrugBank.d737.s0.p4" e1="DDI-DrugBank.d737.s0.e1"
+            e2="DDI-DrugBank.d737.s0.e2" ddi="false"/>
+        <pair id="DDI-DrugBank.d737.s0.p5" e1="DDI-DrugBank.d737.s0.e1"
+            e2="DDI-DrugBank.d737.s0.e3" ddi="false"/>
+        <pair id="DDI-DrugBank.d737.s0.p6" e1="DDI-DrugBank.d737.s0.e1"
+            e2="DDI-DrugBank.d737.s0.e4" ddi="false"/>
+        <pair id="DDI-DrugBank.d737.s0.p7" e1="DDI-DrugBank.d737.s0.e2"
+            e2="DDI-DrugBank.d737.s0.e3" ddi="false"/>
+        <pair id="DDI-DrugBank.d737.s0.p8" e1="DDI-DrugBank.d737.s0.e2"
+            e2="DDI-DrugBank.d737.s0.e4" ddi="false"/>
+        <pair id="DDI-DrugBank.d737.s0.p9" e1="DDI-DrugBank.d737.s0.e3"
+            e2="DDI-DrugBank.d737.s0.e4" ddi="false"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d737.s1" text="5 hours. "/>
+    <sentence id="DDI-DrugBank.d737.s2" text="Selegiline: In healthy volunteers (N= 11), selegiline did not influence the pharmacokinetics of pramipexole. ">
+        <entity id="DDI-DrugBank.d737.s2.e0" charOffset="0-9"
+            type="drug" text="Selegiline"/>
+        <entity id="DDI-DrugBank.d737.s2.e1" charOffset="43-52"
+            type="drug" text="selegiline"/>
+        <entity id="DDI-DrugBank.d737.s2.e2" charOffset="96-106"
+            type="drug" text="pramipexole"/>
+        <pair id="DDI-DrugBank.d737.s2.p0" e1="DDI-DrugBank.d737.s2.e0"
+            e2="DDI-DrugBank.d737.s2.e1" ddi="false"/>
+        <pair id="DDI-DrugBank.d737.s2.p1" e1="DDI-DrugBank.d737.s2.e0"
+            e2="DDI-DrugBank.d737.s2.e2" ddi="false"/>
+        <pair id="DDI-DrugBank.d737.s2.p2" e1="DDI-DrugBank.d737.s2.e1"
+            e2="DDI-DrugBank.d737.s2.e2" ddi="false"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d737.s3" text="Amantadine: Population pharmacokinetic analysis suggests that amantadine is unlikely to alter the oral clearance of pramipexole (N= 54). ">
+        <entity id="DDI-DrugBank.d737.s3.e0" charOffset="0-9"
+            type="drug" text="Amantadine"/>
+        <entity id="DDI-DrugBank.d737.s3.e1" charOffset="62-71"
+            type="drug" text="amantadine"/>
+        <entity id="DDI-DrugBank.d737.s3.e2" charOffset="116-126"
+            type="drug" text="pramipexole"/>
+        <pair id="DDI-DrugBank.d737.s3.p0" e1="DDI-DrugBank.d737.s3.e0"
+            e2="DDI-DrugBank.d737.s3.e1" ddi="false"/>
+        <pair id="DDI-DrugBank.d737.s3.p1" e1="DDI-DrugBank.d737.s3.e0"
+            e2="DDI-DrugBank.d737.s3.e2" ddi="false"/>
+        <pair id="DDI-DrugBank.d737.s3.p2" e1="DDI-DrugBank.d737.s3.e1"
+            e2="DDI-DrugBank.d737.s3.e2" ddi="false"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d737.s4" text="Cimetidine: Cimetidine, a known inhibitor of renal tubular secretion of organic bases via the cationic transport system, caused a 50% increase in pramipexole AUC and a 40% increase in half-life (N= 12). ">
+        <entity id="DDI-DrugBank.d737.s4.e0" charOffset="0-9"
+            type="drug" text="Cimetidine"/>
+        <entity id="DDI-DrugBank.d737.s4.e1" charOffset="12-21"
+            type="drug" text="Cimetidine"/>
+        <entity id="DDI-DrugBank.d737.s4.e2" charOffset="146-156"
+            type="drug" text="pramipexole"/>
+        <pair id="DDI-DrugBank.d737.s4.p0" e1="DDI-DrugBank.d737.s4.e0"
+            e2="DDI-DrugBank.d737.s4.e1" ddi="false"/>
+        <pair id="DDI-DrugBank.d737.s4.p1" e1="DDI-DrugBank.d737.s4.e0"
+            e2="DDI-DrugBank.d737.s4.e2" ddi="false"/>
+        <pair id="DDI-DrugBank.d737.s4.p2" e1="DDI-DrugBank.d737.s4.e1"
+            e2="DDI-DrugBank.d737.s4.e2" ddi="true" type="mechanism"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d737.s5" text="Probenecid: Probenecid, a known inhibitor of renal tubular secretion of organic acids via the aruonic transporter, did not noticeably influence pramipexole pharmacokinetics (N= 12). ">
+        <entity id="DDI-DrugBank.d737.s5.e0" charOffset="0-9"
+            type="drug" text="Probenecid"/>
+        <entity id="DDI-DrugBank.d737.s5.e1" charOffset="12-21"
+            type="drug" text="Probenecid"/>
+        <entity id="DDI-DrugBank.d737.s5.e2" charOffset="144-154"
+            type="drug" text="pramipexole"/>
+        <pair id="DDI-DrugBank.d737.s5.p0" e1="DDI-DrugBank.d737.s5.e0"
+            e2="DDI-DrugBank.d737.s5.e1" ddi="false"/>
+        <pair id="DDI-DrugBank.d737.s5.p1" e1="DDI-DrugBank.d737.s5.e0"
+            e2="DDI-DrugBank.d737.s5.e2" ddi="false"/>
+        <pair id="DDI-DrugBank.d737.s5.p2" e1="DDI-DrugBank.d737.s5.e1"
+            e2="DDI-DrugBank.d737.s5.e2" ddi="false"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d737.s6" text="Other drugs eliminated via renal secretion: Population pharmacokinetic analysis suggests that coadministration of drugs that are secreted by the cationic transport system (e.g., cimetidine, ranitidine, diltiazem, triamterene, verapamil, quinidine, and quinine) decreases the oral clearance of pramipexole by about 20%, while those secreted by the anionic transport system (e.g., cephalosporins, penicillins, indomethacin, hydrochlorothiazide, and chlorpropamide) are likely to have little effect on the oral clearance of pramipexole. ">
+        <entity id="DDI-DrugBank.d737.s6.e0" charOffset="178-187"
+            type="drug" text="cimetidine"/>
+        <entity id="DDI-DrugBank.d737.s6.e1" charOffset="190-199"
+            type="drug" text="ranitidine"/>
+        <entity id="DDI-DrugBank.d737.s6.e2" charOffset="202-210"
+            type="drug" text="diltiazem"/>
+        <entity id="DDI-DrugBank.d737.s6.e3" charOffset="213-223"
+            type="drug" text="triamterene"/>
+        <entity id="DDI-DrugBank.d737.s6.e4" charOffset="226-234"
+            type="drug" text="verapamil"/>
+        <entity id="DDI-DrugBank.d737.s6.e5" charOffset="237-245"
+            type="drug" text="quinidine"/>
+        <entity id="DDI-DrugBank.d737.s6.e6" charOffset="252-258"
+            type="drug" text="quinine"/>
+        <entity id="DDI-DrugBank.d737.s6.e7" charOffset="293-303"
+            type="drug" text="pramipexole"/>
+        <entity id="DDI-DrugBank.d737.s6.e8" charOffset="379-392"
+            type="group" text="cephalosporins"/>
+        <entity id="DDI-DrugBank.d737.s6.e9" charOffset="395-405"
+            type="group" text="penicillins"/>
+        <entity id="DDI-DrugBank.d737.s6.e10" charOffset="408-419"
+            type="drug" text="indomethacin"/>
+        <entity id="DDI-DrugBank.d737.s6.e11" charOffset="422-440"
+            type="drug" text="hydrochlorothiazide"/>
+        <entity id="DDI-DrugBank.d737.s6.e12" charOffset="447-460"
+            type="drug" text="chlorpropamide"/>
+        <entity id="DDI-DrugBank.d737.s6.e13" charOffset="521-531"
+            type="drug" text="pramipexole"/>
+        <pair id="DDI-DrugBank.d737.s6.p0" e1="DDI-DrugBank.d737.s6.e0"
+            e2="DDI-DrugBank.d737.s6.e1" ddi="false"/>
+        <pair id="DDI-DrugBank.d737.s6.p1" e1="DDI-DrugBank.d737.s6.e0"
+            e2="DDI-DrugBank.d737.s6.e2" ddi="false"/>
+        <pair id="DDI-DrugBank.d737.s6.p2" e1="DDI-DrugBank.d737.s6.e0"
+            e2="DDI-DrugBank.d737.s6.e3" ddi="false"/>
+        <pair id="DDI-DrugBank.d737.s6.p3" e1="DDI-DrugBank.d737.s6.e0"
+            e2="DDI-DrugBank.d737.s6.e4" ddi="false"/>
+        <pair id="DDI-DrugBank.d737.s6.p4" e1="DDI-DrugBank.d737.s6.e0"
+            e2="DDI-DrugBank.d737.s6.e5" ddi="false"/>
+        <pair id="DDI-DrugBank.d737.s6.p5" e1="DDI-DrugBank.d737.s6.e0"
+            e2="DDI-DrugBank.d737.s6.e6" ddi="false"/>
+        <pair id="DDI-DrugBank.d737.s6.p6" e1="DDI-DrugBank.d737.s6.e0"
+            e2="DDI-DrugBank.d737.s6.e7" ddi="true" type="mechanism"/>
+        <pair id="DDI-DrugBank.d737.s6.p7" e1="DDI-DrugBank.d737.s6.e0"
+            e2="DDI-DrugBank.d737.s6.e8" ddi="false"/>
+        <pair id="DDI-DrugBank.d737.s6.p8" e1="DDI-DrugBank.d737.s6.e0"
+            e2="DDI-DrugBank.d737.s6.e9" ddi="false"/>
+        <pair id="DDI-DrugBank.d737.s6.p9" e1="DDI-DrugBank.d737.s6.e0"
+            e2="DDI-DrugBank.d737.s6.e10" ddi="false"/>
+        <pair id="DDI-DrugBank.d737.s6.p10" e1="DDI-DrugBank.d737.s6.e0"
+            e2="DDI-DrugBank.d737.s6.e11" ddi="false"/>
+        <pair id="DDI-DrugBank.d737.s6.p11" e1="DDI-DrugBank.d737.s6.e0"
+            e2="DDI-DrugBank.d737.s6.e12" ddi="false"/>
+        <pair id="DDI-DrugBank.d737.s6.p12" e1="DDI-DrugBank.d737.s6.e0"
+            e2="DDI-DrugBank.d737.s6.e13" ddi="false"/>
+        <pair id="DDI-DrugBank.d737.s6.p13" e1="DDI-DrugBank.d737.s6.e1"
+            e2="DDI-DrugBank.d737.s6.e2" ddi="false"/>
+        <pair id="DDI-DrugBank.d737.s6.p14" e1="DDI-DrugBank.d737.s6.e1"
+            e2="DDI-DrugBank.d737.s6.e3" ddi="false"/>
+        <pair id="DDI-DrugBank.d737.s6.p15" e1="DDI-DrugBank.d737.s6.e1"
+            e2="DDI-DrugBank.d737.s6.e4" ddi="false"/>
+        <pair id="DDI-DrugBank.d737.s6.p16" e1="DDI-DrugBank.d737.s6.e1"
+            e2="DDI-DrugBank.d737.s6.e5" ddi="false"/>
+        <pair id="DDI-DrugBank.d737.s6.p17" e1="DDI-DrugBank.d737.s6.e1"
+            e2="DDI-DrugBank.d737.s6.e6" ddi="false"/>
+        <pair id="DDI-DrugBank.d737.s6.p18" e1="DDI-DrugBank.d737.s6.e1"
+            e2="DDI-DrugBank.d737.s6.e7" ddi="true" type="mechanism"/>
+        <pair id="DDI-DrugBank.d737.s6.p19" e1="DDI-DrugBank.d737.s6.e1"
+            e2="DDI-DrugBank.d737.s6.e8" ddi="false"/>
+        <pair id="DDI-DrugBank.d737.s6.p20" e1="DDI-DrugBank.d737.s6.e1"
+            e2="DDI-DrugBank.d737.s6.e9" ddi="false"/>
+        <pair id="DDI-DrugBank.d737.s6.p21" e1="DDI-DrugBank.d737.s6.e1"
+            e2="DDI-DrugBank.d737.s6.e10" ddi="false"/>
+        <pair id="DDI-DrugBank.d737.s6.p22" e1="DDI-DrugBank.d737.s6.e1"
+            e2="DDI-DrugBank.d737.s6.e11" ddi="false"/>
+        <pair id="DDI-DrugBank.d737.s6.p23" e1="DDI-DrugBank.d737.s6.e1"
+            e2="DDI-DrugBank.d737.s6.e12" ddi="false"/>
+        <pair id="DDI-DrugBank.d737.s6.p24" e1="DDI-DrugBank.d737.s6.e1"
+            e2="DDI-DrugBank.d737.s6.e13" ddi="false"/>
+        <pair id="DDI-DrugBank.d737.s6.p25" e1="DDI-DrugBank.d737.s6.e2"
+            e2="DDI-DrugBank.d737.s6.e3" ddi="false"/>
+        <pair id="DDI-DrugBank.d737.s6.p26" e1="DDI-DrugBank.d737.s6.e2"
+            e2="DDI-DrugBank.d737.s6.e4" ddi="false"/>
+        <pair id="DDI-DrugBank.d737.s6.p27" e1="DDI-DrugBank.d737.s6.e2"
+            e2="DDI-DrugBank.d737.s6.e5" ddi="false"/>
+        <pair id="DDI-DrugBank.d737.s6.p28" e1="DDI-DrugBank.d737.s6.e2"
+            e2="DDI-DrugBank.d737.s6.e6" ddi="false"/>
+        <pair id="DDI-DrugBank.d737.s6.p29" e1="DDI-DrugBank.d737.s6.e2"
+            e2="DDI-DrugBank.d737.s6.e7" ddi="true" type="mechanism"/>
+        <pair id="DDI-DrugBank.d737.s6.p30" e1="DDI-DrugBank.d737.s6.e2"
+            e2="DDI-DrugBank.d737.s6.e8" ddi="false"/>
+        <pair id="DDI-DrugBank.d737.s6.p31" e1="DDI-DrugBank.d737.s6.e2"
+            e2="DDI-DrugBank.d737.s6.e9" ddi="false"/>
+        <pair id="DDI-DrugBank.d737.s6.p32" e1="DDI-DrugBank.d737.s6.e2"
+            e2="DDI-DrugBank.d737.s6.e10" ddi="false"/>
+        <pair id="DDI-DrugBank.d737.s6.p33" e1="DDI-DrugBank.d737.s6.e2"
+            e2="DDI-DrugBank.d737.s6.e11" ddi="false"/>
+        <pair id="DDI-DrugBank.d737.s6.p34" e1="DDI-DrugBank.d737.s6.e2"
+            e2="DDI-DrugBank.d737.s6.e12" ddi="false"/>
+        <pair id="DDI-DrugBank.d737.s6.p35" e1="DDI-DrugBank.d737.s6.e2"
+            e2="DDI-DrugBank.d737.s6.e13" ddi="false"/>
+        <pair id="DDI-DrugBank.d737.s6.p36" e1="DDI-DrugBank.d737.s6.e3"
+            e2="DDI-DrugBank.d737.s6.e4" ddi="false"/>
+        <pair id="DDI-DrugBank.d737.s6.p37" e1="DDI-DrugBank.d737.s6.e3"
+            e2="DDI-DrugBank.d737.s6.e5" ddi="false"/>
+        <pair id="DDI-DrugBank.d737.s6.p38" e1="DDI-DrugBank.d737.s6.e3"
+            e2="DDI-DrugBank.d737.s6.e6" ddi="false"/>
+        <pair id="DDI-DrugBank.d737.s6.p39" e1="DDI-DrugBank.d737.s6.e3"
+            e2="DDI-DrugBank.d737.s6.e7" ddi="true" type="mechanism"/>
+        <pair id="DDI-DrugBank.d737.s6.p40" e1="DDI-DrugBank.d737.s6.e3"
+            e2="DDI-DrugBank.d737.s6.e8" ddi="false"/>
+        <pair id="DDI-DrugBank.d737.s6.p41" e1="DDI-DrugBank.d737.s6.e3"
+            e2="DDI-DrugBank.d737.s6.e9" ddi="false"/>
+        <pair id="DDI-DrugBank.d737.s6.p42" e1="DDI-DrugBank.d737.s6.e3"
+            e2="DDI-DrugBank.d737.s6.e10" ddi="false"/>
+        <pair id="DDI-DrugBank.d737.s6.p43" e1="DDI-DrugBank.d737.s6.e3"
+            e2="DDI-DrugBank.d737.s6.e11" ddi="false"/>
+        <pair id="DDI-DrugBank.d737.s6.p44" e1="DDI-DrugBank.d737.s6.e3"
+            e2="DDI-DrugBank.d737.s6.e12" ddi="false"/>
+        <pair id="DDI-DrugBank.d737.s6.p45" e1="DDI-DrugBank.d737.s6.e3"
+            e2="DDI-DrugBank.d737.s6.e13" ddi="false"/>
+        <pair id="DDI-DrugBank.d737.s6.p46" e1="DDI-DrugBank.d737.s6.e4"
+            e2="DDI-DrugBank.d737.s6.e5" ddi="false"/>
+        <pair id="DDI-DrugBank.d737.s6.p47" e1="DDI-DrugBank.d737.s6.e4"
+            e2="DDI-DrugBank.d737.s6.e6" ddi="false"/>
+        <pair id="DDI-DrugBank.d737.s6.p48" e1="DDI-DrugBank.d737.s6.e4"
+            e2="DDI-DrugBank.d737.s6.e7" ddi="true" type="mechanism"/>
+        <pair id="DDI-DrugBank.d737.s6.p49" e1="DDI-DrugBank.d737.s6.e4"
+            e2="DDI-DrugBank.d737.s6.e8" ddi="false"/>
+        <pair id="DDI-DrugBank.d737.s6.p50" e1="DDI-DrugBank.d737.s6.e4"
+            e2="DDI-DrugBank.d737.s6.e9" ddi="false"/>
+        <pair id="DDI-DrugBank.d737.s6.p51" e1="DDI-DrugBank.d737.s6.e4"
+            e2="DDI-DrugBank.d737.s6.e10" ddi="false"/>
+        <pair id="DDI-DrugBank.d737.s6.p52" e1="DDI-DrugBank.d737.s6.e4"
+            e2="DDI-DrugBank.d737.s6.e11" ddi="false"/>
+        <pair id="DDI-DrugBank.d737.s6.p53" e1="DDI-DrugBank.d737.s6.e4"
+            e2="DDI-DrugBank.d737.s6.e12" ddi="false"/>
+        <pair id="DDI-DrugBank.d737.s6.p54" e1="DDI-DrugBank.d737.s6.e4"
+            e2="DDI-DrugBank.d737.s6.e13" ddi="false"/>
+        <pair id="DDI-DrugBank.d737.s6.p55" e1="DDI-DrugBank.d737.s6.e5"
+            e2="DDI-DrugBank.d737.s6.e6" ddi="false"/>
+        <pair id="DDI-DrugBank.d737.s6.p56" e1="DDI-DrugBank.d737.s6.e5"
+            e2="DDI-DrugBank.d737.s6.e7" ddi="true" type="mechanism"/>
+        <pair id="DDI-DrugBank.d737.s6.p57" e1="DDI-DrugBank.d737.s6.e5"
+            e2="DDI-DrugBank.d737.s6.e8" ddi="false"/>
+        <pair id="DDI-DrugBank.d737.s6.p58" e1="DDI-DrugBank.d737.s6.e5"
+            e2="DDI-DrugBank.d737.s6.e9" ddi="false"/>
+        <pair id="DDI-DrugBank.d737.s6.p59" e1="DDI-DrugBank.d737.s6.e5"
+            e2="DDI-DrugBank.d737.s6.e10" ddi="false"/>
+        <pair id="DDI-DrugBank.d737.s6.p60" e1="DDI-DrugBank.d737.s6.e5"
+            e2="DDI-DrugBank.d737.s6.e11" ddi="false"/>
+        <pair id="DDI-DrugBank.d737.s6.p61" e1="DDI-DrugBank.d737.s6.e5"
+            e2="DDI-DrugBank.d737.s6.e12" ddi="false"/>
+        <pair id="DDI-DrugBank.d737.s6.p62" e1="DDI-DrugBank.d737.s6.e5"
+            e2="DDI-DrugBank.d737.s6.e13" ddi="false"/>
+        <pair id="DDI-DrugBank.d737.s6.p63" e1="DDI-DrugBank.d737.s6.e6"
+            e2="DDI-DrugBank.d737.s6.e7" ddi="true" type="mechanism"/>
+        <pair id="DDI-DrugBank.d737.s6.p64" e1="DDI-DrugBank.d737.s6.e6"
+            e2="DDI-DrugBank.d737.s6.e8" ddi="false"/>
+        <pair id="DDI-DrugBank.d737.s6.p65" e1="DDI-DrugBank.d737.s6.e6"
+            e2="DDI-DrugBank.d737.s6.e9" ddi="false"/>
+        <pair id="DDI-DrugBank.d737.s6.p66" e1="DDI-DrugBank.d737.s6.e6"
+            e2="DDI-DrugBank.d737.s6.e10" ddi="false"/>
+        <pair id="DDI-DrugBank.d737.s6.p67" e1="DDI-DrugBank.d737.s6.e6"
+            e2="DDI-DrugBank.d737.s6.e11" ddi="false"/>
+        <pair id="DDI-DrugBank.d737.s6.p68" e1="DDI-DrugBank.d737.s6.e6"
+            e2="DDI-DrugBank.d737.s6.e12" ddi="false"/>
+        <pair id="DDI-DrugBank.d737.s6.p69" e1="DDI-DrugBank.d737.s6.e6"
+            e2="DDI-DrugBank.d737.s6.e13" ddi="false"/>
+        <pair id="DDI-DrugBank.d737.s6.p70" e1="DDI-DrugBank.d737.s6.e7"
+            e2="DDI-DrugBank.d737.s6.e8" ddi="false"/>
+        <pair id="DDI-DrugBank.d737.s6.p71" e1="DDI-DrugBank.d737.s6.e7"
+            e2="DDI-DrugBank.d737.s6.e9" ddi="false"/>
+        <pair id="DDI-DrugBank.d737.s6.p72" e1="DDI-DrugBank.d737.s6.e7"
+            e2="DDI-DrugBank.d737.s6.e10" ddi="false"/>
+        <pair id="DDI-DrugBank.d737.s6.p73" e1="DDI-DrugBank.d737.s6.e7"
+            e2="DDI-DrugBank.d737.s6.e11" ddi="false"/>
+        <pair id="DDI-DrugBank.d737.s6.p74" e1="DDI-DrugBank.d737.s6.e7"
+            e2="DDI-DrugBank.d737.s6.e12" ddi="false"/>
+        <pair id="DDI-DrugBank.d737.s6.p75" e1="DDI-DrugBank.d737.s6.e7"
+            e2="DDI-DrugBank.d737.s6.e13" ddi="false"/>
+        <pair id="DDI-DrugBank.d737.s6.p76" e1="DDI-DrugBank.d737.s6.e8"
+            e2="DDI-DrugBank.d737.s6.e9" ddi="false"/>
+        <pair id="DDI-DrugBank.d737.s6.p77" e1="DDI-DrugBank.d737.s6.e8"
+            e2="DDI-DrugBank.d737.s6.e10" ddi="false"/>
+        <pair id="DDI-DrugBank.d737.s6.p78" e1="DDI-DrugBank.d737.s6.e8"
+            e2="DDI-DrugBank.d737.s6.e11" ddi="false"/>
+        <pair id="DDI-DrugBank.d737.s6.p79" e1="DDI-DrugBank.d737.s6.e8"
+            e2="DDI-DrugBank.d737.s6.e12" ddi="false"/>
+        <pair id="DDI-DrugBank.d737.s6.p80" e1="DDI-DrugBank.d737.s6.e8"
+            e2="DDI-DrugBank.d737.s6.e13" ddi="true" type="mechanism"/>
+        <pair id="DDI-DrugBank.d737.s6.p81" e1="DDI-DrugBank.d737.s6.e9"
+            e2="DDI-DrugBank.d737.s6.e10" ddi="false"/>
+        <pair id="DDI-DrugBank.d737.s6.p82" e1="DDI-DrugBank.d737.s6.e9"
+            e2="DDI-DrugBank.d737.s6.e11" ddi="false"/>
+        <pair id="DDI-DrugBank.d737.s6.p83" e1="DDI-DrugBank.d737.s6.e9"
+            e2="DDI-DrugBank.d737.s6.e12" ddi="false"/>
+        <pair id="DDI-DrugBank.d737.s6.p84" e1="DDI-DrugBank.d737.s6.e9"
+            e2="DDI-DrugBank.d737.s6.e13" ddi="true" type="mechanism"/>
+        <pair id="DDI-DrugBank.d737.s6.p85"
+            e1="DDI-DrugBank.d737.s6.e10" e2="DDI-DrugBank.d737.s6.e11" ddi="false"/>
+        <pair id="DDI-DrugBank.d737.s6.p86"
+            e1="DDI-DrugBank.d737.s6.e10" e2="DDI-DrugBank.d737.s6.e12" ddi="false"/>
+        <pair id="DDI-DrugBank.d737.s6.p87"
+            e1="DDI-DrugBank.d737.s6.e10" e2="DDI-DrugBank.d737.s6.e13"
+            ddi="true" type="mechanism"/>
+        <pair id="DDI-DrugBank.d737.s6.p88"
+            e1="DDI-DrugBank.d737.s6.e11" e2="DDI-DrugBank.d737.s6.e12" ddi="false"/>
+        <pair id="DDI-DrugBank.d737.s6.p89"
+            e1="DDI-DrugBank.d737.s6.e11" e2="DDI-DrugBank.d737.s6.e13"
+            ddi="true" type="mechanism"/>
+        <pair id="DDI-DrugBank.d737.s6.p90"
+            e1="DDI-DrugBank.d737.s6.e12" e2="DDI-DrugBank.d737.s6.e13"
+            ddi="true" type="mechanism"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d737.s7" text="CYP interactions: Inhibitors of cytochrome P450 enzymes would not be expected to affect pramipexole elimination because pramipexole is not appreciably metabolized by these enzymes in vivo or in vitro. ">
+        <entity id="DDI-DrugBank.d737.s7.e0" charOffset="88-98"
+            type="drug" text="pramipexole"/>
+        <entity id="DDI-DrugBank.d737.s7.e1" charOffset="120-130"
+            type="drug" text="pramipexole"/>
+        <pair id="DDI-DrugBank.d737.s7.p0" e1="DDI-DrugBank.d737.s7.e0"
+            e2="DDI-DrugBank.d737.s7.e1" ddi="false"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d737.s8" text="Pramipexole does not inhibit CYP enzymes CYPIA2, CYP2C9, CYP2CI9, CYP2EI, and CYP3A4. ">
+        <entity id="DDI-DrugBank.d737.s8.e0" charOffset="0-10"
+            type="drug" text="Pramipexole"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d737.s9" text="Inhibition of CYP2D6 was observed with an apparent Ki of 30 uM, indicating that pramipexole will not inhibit CYP enzymes at plasma concentrations observed following the highest recommended clinical dose (1.5 mg tid). ">
+        <entity id="DDI-DrugBank.d737.s9.e0" charOffset="80-90"
+            type="drug" text="pramipexole"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d737.s10" text="Dopamine antagonists: Since pramipexole is a dopamine agonist, it is possible that dopamine antagonists, such as the neuroleptics (phenothiazines, butyrophenones, thioxanthenes) or metoclopramide, may diminish the effectiveness of MIRAPEX. ">
+        <entity id="DDI-DrugBank.d737.s10.e0" charOffset="0-19"
+            type="group" text="Dopamine antagonists"/>
+        <entity id="DDI-DrugBank.d737.s10.e1" charOffset="28-38"
+            type="drug" text="pramipexole"/>
+        <entity id="DDI-DrugBank.d737.s10.e2" charOffset="45-60"
+            type="group" text="dopamine agonist"/>
+        <entity id="DDI-DrugBank.d737.s10.e3" charOffset="83-102"
+            type="group" text="dopamine antagonists"/>
+        <entity id="DDI-DrugBank.d737.s10.e4" charOffset="117-128"
+            type="group" text="neuroleptics"/>
+        <entity id="DDI-DrugBank.d737.s10.e5" charOffset="131-144"
+            type="group" text="phenothiazines"/>
+        <entity id="DDI-DrugBank.d737.s10.e6" charOffset="147-160"
+            type="group" text="butyrophenones"/>
+        <entity id="DDI-DrugBank.d737.s10.e7" charOffset="163-175"
+            type="group" text="thioxanthenes"/>
+        <entity id="DDI-DrugBank.d737.s10.e8" charOffset="181-194"
+            type="group" text="metoclopramide"/>
+        <entity id="DDI-DrugBank.d737.s10.e9" charOffset="231-237"
+            type="brand" text="MIRAPEX"/>
+        <pair id="DDI-DrugBank.d737.s10.p0"
+            e1="DDI-DrugBank.d737.s10.e0" e2="DDI-DrugBank.d737.s10.e1" ddi="false"/>
+        <pair id="DDI-DrugBank.d737.s10.p1"
+            e1="DDI-DrugBank.d737.s10.e0" e2="DDI-DrugBank.d737.s10.e2" ddi="false"/>
+        <pair id="DDI-DrugBank.d737.s10.p2"
+            e1="DDI-DrugBank.d737.s10.e0" e2="DDI-DrugBank.d737.s10.e3" ddi="false"/>
+        <pair id="DDI-DrugBank.d737.s10.p3"
+            e1="DDI-DrugBank.d737.s10.e0" e2="DDI-DrugBank.d737.s10.e4" ddi="false"/>
+        <pair id="DDI-DrugBank.d737.s10.p4"
+            e1="DDI-DrugBank.d737.s10.e0" e2="DDI-DrugBank.d737.s10.e5" ddi="false"/>
+        <pair id="DDI-DrugBank.d737.s10.p5"
+            e1="DDI-DrugBank.d737.s10.e0" e2="DDI-DrugBank.d737.s10.e6" ddi="false"/>
+        <pair id="DDI-DrugBank.d737.s10.p6"
+            e1="DDI-DrugBank.d737.s10.e0" e2="DDI-DrugBank.d737.s10.e7" ddi="false"/>
+        <pair id="DDI-DrugBank.d737.s10.p7"
+            e1="DDI-DrugBank.d737.s10.e0" e2="DDI-DrugBank.d737.s10.e8" ddi="false"/>
+        <pair id="DDI-DrugBank.d737.s10.p8"
+            e1="DDI-DrugBank.d737.s10.e0" e2="DDI-DrugBank.d737.s10.e9" ddi="false"/>
+        <pair id="DDI-DrugBank.d737.s10.p9"
+            e1="DDI-DrugBank.d737.s10.e1" e2="DDI-DrugBank.d737.s10.e2" ddi="false"/>
+        <pair id="DDI-DrugBank.d737.s10.p10"
+            e1="DDI-DrugBank.d737.s10.e1" e2="DDI-DrugBank.d737.s10.e3" ddi="false"/>
+        <pair id="DDI-DrugBank.d737.s10.p11"
+            e1="DDI-DrugBank.d737.s10.e1" e2="DDI-DrugBank.d737.s10.e4" ddi="false"/>
+        <pair id="DDI-DrugBank.d737.s10.p12"
+            e1="DDI-DrugBank.d737.s10.e1" e2="DDI-DrugBank.d737.s10.e5" ddi="false"/>
+        <pair id="DDI-DrugBank.d737.s10.p13"
+            e1="DDI-DrugBank.d737.s10.e1" e2="DDI-DrugBank.d737.s10.e6" ddi="false"/>
+        <pair id="DDI-DrugBank.d737.s10.p14"
+            e1="DDI-DrugBank.d737.s10.e1" e2="DDI-DrugBank.d737.s10.e7" ddi="false"/>
+        <pair id="DDI-DrugBank.d737.s10.p15"
+            e1="DDI-DrugBank.d737.s10.e1" e2="DDI-DrugBank.d737.s10.e8" ddi="false"/>
+        <pair id="DDI-DrugBank.d737.s10.p16"
+            e1="DDI-DrugBank.d737.s10.e1" e2="DDI-DrugBank.d737.s10.e9" ddi="false"/>
+        <pair id="DDI-DrugBank.d737.s10.p17"
+            e1="DDI-DrugBank.d737.s10.e2" e2="DDI-DrugBank.d737.s10.e3" ddi="false"/>
+        <pair id="DDI-DrugBank.d737.s10.p18"
+            e1="DDI-DrugBank.d737.s10.e2" e2="DDI-DrugBank.d737.s10.e4" ddi="false"/>
+        <pair id="DDI-DrugBank.d737.s10.p19"
+            e1="DDI-DrugBank.d737.s10.e2" e2="DDI-DrugBank.d737.s10.e5" ddi="false"/>
+        <pair id="DDI-DrugBank.d737.s10.p20"
+            e1="DDI-DrugBank.d737.s10.e2" e2="DDI-DrugBank.d737.s10.e6" ddi="false"/>
+        <pair id="DDI-DrugBank.d737.s10.p21"
+            e1="DDI-DrugBank.d737.s10.e2" e2="DDI-DrugBank.d737.s10.e7" ddi="false"/>
+        <pair id="DDI-DrugBank.d737.s10.p22"
+            e1="DDI-DrugBank.d737.s10.e2" e2="DDI-DrugBank.d737.s10.e8" ddi="false"/>
+        <pair id="DDI-DrugBank.d737.s10.p23"
+            e1="DDI-DrugBank.d737.s10.e2" e2="DDI-DrugBank.d737.s10.e9" ddi="false"/>
+        <pair id="DDI-DrugBank.d737.s10.p24"
+            e1="DDI-DrugBank.d737.s10.e3" e2="DDI-DrugBank.d737.s10.e4" ddi="false"/>
+        <pair id="DDI-DrugBank.d737.s10.p25"
+            e1="DDI-DrugBank.d737.s10.e3" e2="DDI-DrugBank.d737.s10.e5" ddi="false"/>
+        <pair id="DDI-DrugBank.d737.s10.p26"
+            e1="DDI-DrugBank.d737.s10.e3" e2="DDI-DrugBank.d737.s10.e6" ddi="false"/>
+        <pair id="DDI-DrugBank.d737.s10.p27"
+            e1="DDI-DrugBank.d737.s10.e3" e2="DDI-DrugBank.d737.s10.e7" ddi="false"/>
+        <pair id="DDI-DrugBank.d737.s10.p28"
+            e1="DDI-DrugBank.d737.s10.e3" e2="DDI-DrugBank.d737.s10.e8" ddi="false"/>
+        <pair id="DDI-DrugBank.d737.s10.p29"
+            e1="DDI-DrugBank.d737.s10.e3" e2="DDI-DrugBank.d737.s10.e9"
+            ddi="true" type="effect"/>
+        <pair id="DDI-DrugBank.d737.s10.p30"
+            e1="DDI-DrugBank.d737.s10.e4" e2="DDI-DrugBank.d737.s10.e5" ddi="false"/>
+        <pair id="DDI-DrugBank.d737.s10.p31"
+            e1="DDI-DrugBank.d737.s10.e4" e2="DDI-DrugBank.d737.s10.e6" ddi="false"/>
+        <pair id="DDI-DrugBank.d737.s10.p32"
+            e1="DDI-DrugBank.d737.s10.e4" e2="DDI-DrugBank.d737.s10.e7" ddi="false"/>
+        <pair id="DDI-DrugBank.d737.s10.p33"
+            e1="DDI-DrugBank.d737.s10.e4" e2="DDI-DrugBank.d737.s10.e8" ddi="false"/>
+        <pair id="DDI-DrugBank.d737.s10.p34"
+            e1="DDI-DrugBank.d737.s10.e4" e2="DDI-DrugBank.d737.s10.e9"
+            ddi="true" type="effect"/>
+        <pair id="DDI-DrugBank.d737.s10.p35"
+            e1="DDI-DrugBank.d737.s10.e5" e2="DDI-DrugBank.d737.s10.e6" ddi="false"/>
+        <pair id="DDI-DrugBank.d737.s10.p36"
+            e1="DDI-DrugBank.d737.s10.e5" e2="DDI-DrugBank.d737.s10.e7" ddi="false"/>
+        <pair id="DDI-DrugBank.d737.s10.p37"
+            e1="DDI-DrugBank.d737.s10.e5" e2="DDI-DrugBank.d737.s10.e8" ddi="false"/>
+        <pair id="DDI-DrugBank.d737.s10.p38"
+            e1="DDI-DrugBank.d737.s10.e5" e2="DDI-DrugBank.d737.s10.e9"
+            ddi="true" type="effect"/>
+        <pair id="DDI-DrugBank.d737.s10.p39"
+            e1="DDI-DrugBank.d737.s10.e6" e2="DDI-DrugBank.d737.s10.e7" ddi="false"/>
+        <pair id="DDI-DrugBank.d737.s10.p40"
+            e1="DDI-DrugBank.d737.s10.e6" e2="DDI-DrugBank.d737.s10.e8" ddi="false"/>
+        <pair id="DDI-DrugBank.d737.s10.p41"
+            e1="DDI-DrugBank.d737.s10.e6" e2="DDI-DrugBank.d737.s10.e9"
+            ddi="true" type="effect"/>
+        <pair id="DDI-DrugBank.d737.s10.p42"
+            e1="DDI-DrugBank.d737.s10.e7" e2="DDI-DrugBank.d737.s10.e8" ddi="false"/>
+        <pair id="DDI-DrugBank.d737.s10.p43"
+            e1="DDI-DrugBank.d737.s10.e7" e2="DDI-DrugBank.d737.s10.e9"
+            ddi="true" type="effect"/>
+        <pair id="DDI-DrugBank.d737.s10.p44"
+            e1="DDI-DrugBank.d737.s10.e8" e2="DDI-DrugBank.d737.s10.e9"
+            ddi="true" type="effect"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d737.s11" text="Drug/ Laboratory Test Interactions There are no known interactions between MIRAPEX and laboratory tests.">
+        <entity id="DDI-DrugBank.d737.s11.e0" charOffset="75-81"
+            type="brand" text="MIRAPEX"/>
+    </sentence>
+</document>

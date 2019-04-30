@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="DDI-DrugBank.d266">
+    <sentence id="DDI-DrugBank.d266.s0" text="In vitro studies have shown CASODEX can displace coumarin anticoagulants, such as warfarin, from their protein-binding sites.">
+        <entity id="DDI-DrugBank.d266.s0.e0" charOffset="28-34"
+            type="brand" text="CASODEX"/>
+        <entity id="DDI-DrugBank.d266.s0.e1" charOffset="49-70"
+            type="group" text="coumarin anticoagulant"/>
+        <entity id="DDI-DrugBank.d266.s0.e2" charOffset="82-89"
+            type="drug" text="warfarin"/>
+        <pair id="DDI-DrugBank.d266.s0.p0" e1="DDI-DrugBank.d266.s0.e0"
+            e2="DDI-DrugBank.d266.s0.e1" ddi="true" type="mechanism"/>
+        <pair id="DDI-DrugBank.d266.s0.p1" e1="DDI-DrugBank.d266.s0.e0"
+        	e2="DDI-DrugBank.d266.s0.e2" ddi="true" type="mechanism" />
+        <pair id="DDI-DrugBank.d266.s0.p2" e1="DDI-DrugBank.d266.s0.e1"
+            e2="DDI-DrugBank.d266.s0.e2" ddi="false"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d266.s1" text="It is recommended that if CASODEX is started in patients already receiving coumarin anticoagulants, prothrombin times should be closely monitored and adjustment of the anticoagulant dose may be necessary.">
+        <entity id="DDI-DrugBank.d266.s1.e0" charOffset="26-32"
+            type="brand" text="CASODEX"/>
+        <entity id="DDI-DrugBank.d266.s1.e1" charOffset="75-97"
+            type="group" text="coumarin anticoagulants"/>
+        <entity id="DDI-DrugBank.d266.s1.e2" charOffset="168-180"
+            type="group" text="anticoagulant"/>
+        <pair id="DDI-DrugBank.d266.s1.p0" e1="DDI-DrugBank.d266.s1.e0"
+            e2="DDI-DrugBank.d266.s1.e1" ddi="true" type="advise"/>
+        <pair id="DDI-DrugBank.d266.s1.p1" e1="DDI-DrugBank.d266.s1.e0"
+            e2="DDI-DrugBank.d266.s1.e2" ddi="true" type="advise"/>
+        <pair id="DDI-DrugBank.d266.s1.p2" e1="DDI-DrugBank.d266.s1.e1"
+            e2="DDI-DrugBank.d266.s1.e2" ddi="false"/>
+    </sentence>
+</document>

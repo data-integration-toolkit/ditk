@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="DDI-MedLine.d99">
+    <sentence id="DDI-MedLine.d99.s0" text="Fluvoxamine inhibits the CYP2C9 catalyzed biotransformation of tolbutamide.&#xa;">
+        <entity id="DDI-MedLine.d99.s0.e0" charOffset="0-10" type="drug" text="Fluvoxamine"/>
+        <entity id="DDI-MedLine.d99.s0.e1" charOffset="63-73"
+            type="drug" text="tolbutamide"/>
+        <pair id="DDI-MedLine.d99.s0.p0" e1="DDI-MedLine.d99.s0.e0"
+            e2="DDI-MedLine.d99.s0.e1" ddi="true" type="mechanism"/>
+    </sentence>
+    <sentence id="DDI-MedLine.d99.s1" text="OBJECTIVE: Our objective was to examine the interaction between fluvoxamine and tolbutamide to confirm that fluvoxamine inhibits CYP2C9. ">
+        <entity id="DDI-MedLine.d99.s1.e0" charOffset="64-74"
+            type="drug" text="fluvoxamine"/>
+        <entity id="DDI-MedLine.d99.s1.e1" charOffset="80-90"
+            type="drug" text="tolbutamide"/>
+        <entity id="DDI-MedLine.d99.s1.e2" charOffset="108-118"
+            type="drug" text="fluvoxamine"/>
+        <pair id="DDI-MedLine.d99.s1.p0" e1="DDI-MedLine.d99.s1.e0"
+            e2="DDI-MedLine.d99.s1.e1" ddi="false"/>
+        <pair id="DDI-MedLine.d99.s1.p1" e1="DDI-MedLine.d99.s1.e0"
+            e2="DDI-MedLine.d99.s1.e2" ddi="false"/>
+        <pair id="DDI-MedLine.d99.s1.p2" e1="DDI-MedLine.d99.s1.e1"
+            e2="DDI-MedLine.d99.s1.e2" ddi="false"/>
+    </sentence>
+    <sentence id="DDI-MedLine.d99.s2" text="METHODS: The study was carried out as an open, randomized, crossover design with 14 healthy participants. "/>
+    <sentence id="DDI-MedLine.d99.s3" text="In period A, all volunteers took 500 mg of tolbutamide orally. ">
+        <entity id="DDI-MedLine.d99.s3.e0" charOffset="43-53"
+            type="drug" text="tolbutamide"/>
+    </sentence>
+    <sentence id="DDI-MedLine.d99.s4" text="In period B, the volunteers were randomly assigned to one of two groups. "/>
+    <sentence id="DDI-MedLine.d99.s5" text="Each group took either 150 mg or 75 mg of fluvoxamine a day for 5 days (day -3 to day 2). ">
+        <entity id="DDI-MedLine.d99.s5.e0" charOffset="42-52"
+            type="drug" text="fluvoxamine"/>
+    </sentence>
+    <sentence id="DDI-MedLine.d99.s6" text="The groups then took 500 mg of tolbutamide as a single dose (day 0). ">
+        <entity id="DDI-MedLine.d99.s6.e0" charOffset="31-41"
+            type="drug" text="tolbutamide"/>
+    </sentence>
+    <sentence id="DDI-MedLine.d99.s7" text="In both periods, blood and urine were sampled at regular intervals. "/>
+    <sentence id="DDI-MedLine.d99.s8" text="Plasma was analyzed for tolbutamide, and urine was analyzed for tolbutamide and its two metabolites, 4-hydroxytolbutamide and carboxytolbutamide by means of HPLC. ">
+        <entity id="DDI-MedLine.d99.s8.e0" charOffset="24-34"
+            type="drug" text="tolbutamide"/>
+        <entity id="DDI-MedLine.d99.s8.e1" charOffset="64-74"
+            type="drug" text="tolbutamide"/>
+        <entity id="DDI-MedLine.d99.s8.e2" charOffset="101-120"
+            type="drug_n" text="4-hydroxytolbutamide"/>
+        <entity id="DDI-MedLine.d99.s8.e3" charOffset="126-143"
+            type="drug_n" text="carboxytolbutamide"/>
+        <pair id="DDI-MedLine.d99.s8.p0" e1="DDI-MedLine.d99.s8.e0"
+            e2="DDI-MedLine.d99.s8.e1" ddi="false"/>
+        <pair id="DDI-MedLine.d99.s8.p1" e1="DDI-MedLine.d99.s8.e0"
+            e2="DDI-MedLine.d99.s8.e2" ddi="false"/>
+        <pair id="DDI-MedLine.d99.s8.p2" e1="DDI-MedLine.d99.s8.e0"
+            e2="DDI-MedLine.d99.s8.e3" ddi="false"/>
+        <pair id="DDI-MedLine.d99.s8.p3" e1="DDI-MedLine.d99.s8.e1"
+            e2="DDI-MedLine.d99.s8.e2" ddi="false"/>
+        <pair id="DDI-MedLine.d99.s8.p4" e1="DDI-MedLine.d99.s8.e1"
+            e2="DDI-MedLine.d99.s8.e3" ddi="false"/>
+        <pair id="DDI-MedLine.d99.s8.p5" e1="DDI-MedLine.d99.s8.e2"
+            e2="DDI-MedLine.d99.s8.e3" ddi="false"/>
+    </sentence>
+    <sentence id="DDI-MedLine.d99.s9" text="RESULTS: During treatment with fluvoxamine, there was a statistically significant decrease in the median of the total clearance of tolbutamide, from 845 mL/h to 688 mL/h, among the volunteers who received 75 mg/d. ">
+        <entity id="DDI-MedLine.d99.s9.e0" charOffset="31-41"
+            type="drug" text="fluvoxamine"/>
+        <entity id="DDI-MedLine.d99.s9.e1" charOffset="131-141"
+            type="drug" text="tolbutamide"/>
+        <pair id="DDI-MedLine.d99.s9.p0" e1="DDI-MedLine.d99.s9.e0"
+            e2="DDI-MedLine.d99.s9.e1" ddi="true" type="mechanism"/>
+    </sentence>
+    <sentence id="DDI-MedLine.d99.s10" text="There was a reduction that reached borderline statistical significance in the group that received 150 mg/d of tolbutamide. ">
+        <entity id="DDI-MedLine.d99.s10.e0" charOffset="110-120"
+            type="drug" text="tolbutamide"/>
+    </sentence>
+    <sentence id="DDI-MedLine.d99.s11" text="The clearance by means of 4-hydroxytolbutamide and carboxytolbutamide was significantly reduced in both groups (ie, from 901 mL/h to 318 mL/h in the group that received 150 mg of tolbutamide per day and from 723 mL/h to 457 mL/h in the group that received 75 mg of tolbutamide per day). ">
+        <entity id="DDI-MedLine.d99.s11.e0" charOffset="26-45"
+            type="drug_n" text="4-hydroxytolbutamide"/>
+        <entity id="DDI-MedLine.d99.s11.e1" charOffset="51-68"
+            type="drug_n" text="carboxytolbutamide"/>
+        <entity id="DDI-MedLine.d99.s11.e2" charOffset="179-189"
+            type="drug" text="tolbutamide"/>
+        <entity id="DDI-MedLine.d99.s11.e3" charOffset="265-275"
+            type="drug" text="tolbutamide"/>
+        <pair id="DDI-MedLine.d99.s11.p0" e1="DDI-MedLine.d99.s11.e0"
+            e2="DDI-MedLine.d99.s11.e1" ddi="false"/>
+        <pair id="DDI-MedLine.d99.s11.p1" e1="DDI-MedLine.d99.s11.e0"
+            e2="DDI-MedLine.d99.s11.e2" ddi="false"/>
+        <pair id="DDI-MedLine.d99.s11.p2" e1="DDI-MedLine.d99.s11.e0"
+            e2="DDI-MedLine.d99.s11.e3" ddi="false"/>
+        <pair id="DDI-MedLine.d99.s11.p3" e1="DDI-MedLine.d99.s11.e1"
+            e2="DDI-MedLine.d99.s11.e2" ddi="false"/>
+        <pair id="DDI-MedLine.d99.s11.p4" e1="DDI-MedLine.d99.s11.e1"
+            e2="DDI-MedLine.d99.s11.e3" ddi="false"/>
+        <pair id="DDI-MedLine.d99.s11.p5" e1="DDI-MedLine.d99.s11.e2"
+            e2="DDI-MedLine.d99.s11.e3" ddi="false"/>
+    </sentence>
+    <sentence id="DDI-MedLine.d99.s12" text="Thus there was a tendency toward a more pronounced inhibition of the 4-hydroxylation during treatment with 150 mg/d of fluvoxamine compared with 75 mg/d, but the difference was not statistically significant. ">
+        <entity id="DDI-MedLine.d99.s12.e0" charOffset="119-129"
+            type="drug" text="fluvoxamine"/>
+    </sentence>
+    <sentence id="DDI-MedLine.d99.s13" text="CONCLUSION: Fluvoxamine is a moderate inhibitor of CYP2C9 in vivo.">
+        <entity id="DDI-MedLine.d99.s13.e0" charOffset="12-22"
+            type="drug" text="Fluvoxamine"/>
+    </sentence>
+</document>

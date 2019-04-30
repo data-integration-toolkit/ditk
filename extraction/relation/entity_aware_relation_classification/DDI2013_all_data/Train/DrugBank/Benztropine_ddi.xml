@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="DDI-DrugBank.d390">
+    <sentence id="DDI-DrugBank.d390.s0" text="Antipsychotic drugs such as phenothiazines or haloperidol;">
+        <entity id="DDI-DrugBank.d390.s0.e0" charOffset="0-18"
+            type="group" text="Antipsychotic drugs"/>
+        <entity id="DDI-DrugBank.d390.s0.e1" charOffset="28-41"
+            type="group" text="phenothiazines"/>
+        <entity id="DDI-DrugBank.d390.s0.e2" charOffset="46-56"
+            type="drug" text="haloperidol"/>
+        <pair id="DDI-DrugBank.d390.s0.p0" e1="DDI-DrugBank.d390.s0.e0"
+            e2="DDI-DrugBank.d390.s0.e1" ddi="false"/>
+        <pair id="DDI-DrugBank.d390.s0.p1" e1="DDI-DrugBank.d390.s0.e0"
+            e2="DDI-DrugBank.d390.s0.e2" ddi="false"/>
+        <pair id="DDI-DrugBank.d390.s0.p2" e1="DDI-DrugBank.d390.s0.e1"
+            e2="DDI-DrugBank.d390.s0.e2" ddi="false"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d390.s1" text="tricyclic antidepressants.">
+        <entity id="DDI-DrugBank.d390.s1.e0" charOffset="0-24"
+            type="group" text="tricyclic antidepressants"/>
+    </sentence>
+</document>

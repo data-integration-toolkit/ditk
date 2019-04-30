@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="DDI-DrugBank.d379">
+    <sentence id="DDI-DrugBank.d379.s0" text="There have been no formal studies of the interaction of LEVULAN KERASTICK for Topical Solution with any other drugs, and no drug-specific interactions were noted during any of the controlled clinical trials.">
+        <entity id="DDI-DrugBank.d379.s0.e0" charOffset="56-72"
+            type="brand" text="LEVULAN KERASTICK"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d379.s1" text="It is, however, possible that concomitant use of other known photosensitizing agents such as griseofulvin, thiazide diuretics, sulfonylureas, phenothiazines, sulfonamides and tetracyclines might increase the photosensitivity reaction of actinic keratoses treated with the LEVULAN KERASTICK for Topical Solution.">
+        <entity id="DDI-DrugBank.d379.s1.e0" charOffset="61-83"
+            type="group" text="photosensitizing agents"/>
+        <entity id="DDI-DrugBank.d379.s1.e1" charOffset="93-104"
+            type="drug" text="griseofulvin"/>
+        <entity id="DDI-DrugBank.d379.s1.e2" charOffset="107-124"
+            type="group" text="thiazide diuretics"/>
+        <entity id="DDI-DrugBank.d379.s1.e3" charOffset="127-139"
+            type="group" text="sulfonylureas"/>
+        <entity id="DDI-DrugBank.d379.s1.e4" charOffset="142-155"
+            type="group" text="phenothiazines"/>
+        <entity id="DDI-DrugBank.d379.s1.e5" charOffset="158-169"
+            type="group" text="sulfonamides"/>
+        <entity id="DDI-DrugBank.d379.s1.e6" charOffset="175-187"
+            type="group" text="tetracyclines"/>
+        <entity id="DDI-DrugBank.d379.s1.e7" charOffset="272-288"
+            type="brand" text="LEVULAN KERASTICK"/>
+        <pair id="DDI-DrugBank.d379.s1.p0" e1="DDI-DrugBank.d379.s1.e0"
+            e2="DDI-DrugBank.d379.s1.e1" ddi="false"/>
+        <pair id="DDI-DrugBank.d379.s1.p1" e1="DDI-DrugBank.d379.s1.e0"
+            e2="DDI-DrugBank.d379.s1.e2" ddi="false"/>
+        <pair id="DDI-DrugBank.d379.s1.p2" e1="DDI-DrugBank.d379.s1.e0"
+            e2="DDI-DrugBank.d379.s1.e3" ddi="false"/>
+        <pair id="DDI-DrugBank.d379.s1.p3" e1="DDI-DrugBank.d379.s1.e0"
+            e2="DDI-DrugBank.d379.s1.e4" ddi="false"/>
+        <pair id="DDI-DrugBank.d379.s1.p4" e1="DDI-DrugBank.d379.s1.e0"
+            e2="DDI-DrugBank.d379.s1.e5" ddi="false"/>
+        <pair id="DDI-DrugBank.d379.s1.p5" e1="DDI-DrugBank.d379.s1.e0"
+            e2="DDI-DrugBank.d379.s1.e6" ddi="false"/>
+        <pair id="DDI-DrugBank.d379.s1.p6" e1="DDI-DrugBank.d379.s1.e0"
+            e2="DDI-DrugBank.d379.s1.e7" ddi="true" type="effect"/>
+        <pair id="DDI-DrugBank.d379.s1.p7" e1="DDI-DrugBank.d379.s1.e1"
+            e2="DDI-DrugBank.d379.s1.e2" ddi="false"/>
+        <pair id="DDI-DrugBank.d379.s1.p8" e1="DDI-DrugBank.d379.s1.e1"
+            e2="DDI-DrugBank.d379.s1.e3" ddi="false"/>
+        <pair id="DDI-DrugBank.d379.s1.p9" e1="DDI-DrugBank.d379.s1.e1"
+            e2="DDI-DrugBank.d379.s1.e4" ddi="false"/>
+        <pair id="DDI-DrugBank.d379.s1.p10" e1="DDI-DrugBank.d379.s1.e1"
+            e2="DDI-DrugBank.d379.s1.e5" ddi="false"/>
+        <pair id="DDI-DrugBank.d379.s1.p11" e1="DDI-DrugBank.d379.s1.e1"
+            e2="DDI-DrugBank.d379.s1.e6" ddi="false"/>
+        <pair id="DDI-DrugBank.d379.s1.p12" e1="DDI-DrugBank.d379.s1.e1"
+            e2="DDI-DrugBank.d379.s1.e7" ddi="true" type="effect"/>
+        <pair id="DDI-DrugBank.d379.s1.p13" e1="DDI-DrugBank.d379.s1.e2"
+            e2="DDI-DrugBank.d379.s1.e3" ddi="false"/>
+        <pair id="DDI-DrugBank.d379.s1.p14" e1="DDI-DrugBank.d379.s1.e2"
+            e2="DDI-DrugBank.d379.s1.e4" ddi="false"/>
+        <pair id="DDI-DrugBank.d379.s1.p15" e1="DDI-DrugBank.d379.s1.e2"
+            e2="DDI-DrugBank.d379.s1.e5" ddi="false"/>
+        <pair id="DDI-DrugBank.d379.s1.p16" e1="DDI-DrugBank.d379.s1.e2"
+            e2="DDI-DrugBank.d379.s1.e6" ddi="false"/>
+        <pair id="DDI-DrugBank.d379.s1.p17" e1="DDI-DrugBank.d379.s1.e2"
+            e2="DDI-DrugBank.d379.s1.e7" ddi="true" type="effect"/>
+        <pair id="DDI-DrugBank.d379.s1.p18" e1="DDI-DrugBank.d379.s1.e3"
+            e2="DDI-DrugBank.d379.s1.e4" ddi="false"/>
+        <pair id="DDI-DrugBank.d379.s1.p19" e1="DDI-DrugBank.d379.s1.e3"
+            e2="DDI-DrugBank.d379.s1.e5" ddi="false"/>
+        <pair id="DDI-DrugBank.d379.s1.p20" e1="DDI-DrugBank.d379.s1.e3"
+            e2="DDI-DrugBank.d379.s1.e6" ddi="false"/>
+        <pair id="DDI-DrugBank.d379.s1.p21" e1="DDI-DrugBank.d379.s1.e3"
+            e2="DDI-DrugBank.d379.s1.e7" ddi="true" type="effect"/>
+        <pair id="DDI-DrugBank.d379.s1.p22" e1="DDI-DrugBank.d379.s1.e4"
+            e2="DDI-DrugBank.d379.s1.e5" ddi="false"/>
+        <pair id="DDI-DrugBank.d379.s1.p23" e1="DDI-DrugBank.d379.s1.e4"
+            e2="DDI-DrugBank.d379.s1.e6" ddi="false"/>
+        <pair id="DDI-DrugBank.d379.s1.p24" e1="DDI-DrugBank.d379.s1.e4"
+            e2="DDI-DrugBank.d379.s1.e7" ddi="true" type="effect"/>
+        <pair id="DDI-DrugBank.d379.s1.p25" e1="DDI-DrugBank.d379.s1.e5"
+            e2="DDI-DrugBank.d379.s1.e6" ddi="false"/>
+        <pair id="DDI-DrugBank.d379.s1.p26" e1="DDI-DrugBank.d379.s1.e5"
+            e2="DDI-DrugBank.d379.s1.e7" ddi="true" type="effect"/>
+        <pair id="DDI-DrugBank.d379.s1.p27" e1="DDI-DrugBank.d379.s1.e6"
+            e2="DDI-DrugBank.d379.s1.e7" ddi="true" type="effect"/>
+    </sentence>
+</document>

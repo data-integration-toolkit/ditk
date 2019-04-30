@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="DDI-DrugBank.d6">
+    <sentence id="DDI-DrugBank.d6.s0" text="The action of nondepolarizing relaxants is augmented by Enflurane.">
+        <entity id="DDI-DrugBank.d6.s0.e0" charOffset="56-64"
+            type="drug" text="Enflurane"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d6.s1" text="Less than the usual amounts of these medicines should be used."/>
+    <sentence id="DDI-DrugBank.d6.s2" text="If the usual amounts of nondepolarizing relaxants are given, the time for recovery from neuromuscular blockade will be longer in the presence of Enflurane than when halothane or nitrous oxide with a balanced technique are used.">
+        <entity id="DDI-DrugBank.d6.s2.e0" charOffset="145-153"
+            type="drug" text="Enflurane"/>
+        <entity id="DDI-DrugBank.d6.s2.e1" charOffset="165-173"
+            type="drug" text="halothane"/>
+        <entity id="DDI-DrugBank.d6.s2.e2" charOffset="178-190"
+            type="drug" text="nitrous oxide"/>
+        <pair id="DDI-DrugBank.d6.s2.p0" e1="DDI-DrugBank.d6.s2.e0"
+            e2="DDI-DrugBank.d6.s2.e1" ddi="false"/>
+        <pair id="DDI-DrugBank.d6.s2.p1" e1="DDI-DrugBank.d6.s2.e0"
+            e2="DDI-DrugBank.d6.s2.e2" ddi="false"/>
+        <pair id="DDI-DrugBank.d6.s2.p2" e1="DDI-DrugBank.d6.s2.e1"
+            e2="DDI-DrugBank.d6.s2.e2" ddi="false"/>
+    </sentence>
+</document>

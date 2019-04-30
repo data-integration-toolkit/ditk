@@ -1,0 +1,261 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="DDI-DrugBank.d316">
+    <sentence id="DDI-DrugBank.d316.s0" text="CYP3A4 Inhibitors Felodipine is metabolized by CYP3A4.">
+        <entity id="DDI-DrugBank.d316.s0.e0" charOffset="0-5"
+            type="drug" text="CYP3A4"/>
+        <entity id="DDI-DrugBank.d316.s0.e1" charOffset="47-52"
+            type="drug" text="CYP3A4"/>
+        <pair id="DDI-DrugBank.d316.s0.p0" e1="DDI-DrugBank.d316.s0.e0"
+            e2="DDI-DrugBank.d316.s0.e1" ddi="false"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d316.s1" text="Co-administration of CYP3A4 inhibitors (eg, ketoconazole, itraconazole, erythromycin, grapefruit juice, cimetidine) with felodipine may lead to several- fold increases in the plasma levels of felodipine, either due to an increase in bioavailability or due to a decrease in metabolism.">
+        <entity id="DDI-DrugBank.d316.s1.e0" charOffset="44-55"
+            type="drug" text="ketoconazole"/>
+        <entity id="DDI-DrugBank.d316.s1.e1" charOffset="58-69"
+            type="drug" text="itraconazole"/>
+        <entity id="DDI-DrugBank.d316.s1.e2" charOffset="72-83"
+            type="drug" text="erythromycin"/>
+        <entity id="DDI-DrugBank.d316.s1.e3" charOffset="104-113"
+            type="drug" text="cimetidine"/>
+        <entity id="DDI-DrugBank.d316.s1.e4" charOffset="121-130"
+            type="drug" text="felodipine"/>
+        <entity id="DDI-DrugBank.d316.s1.e5" charOffset="192-201"
+            type="drug" text="felodipine"/>
+        <pair id="DDI-DrugBank.d316.s1.p0" e1="DDI-DrugBank.d316.s1.e0"
+            e2="DDI-DrugBank.d316.s1.e1" ddi="false"/>
+        <pair id="DDI-DrugBank.d316.s1.p1" e1="DDI-DrugBank.d316.s1.e0"
+            e2="DDI-DrugBank.d316.s1.e2" ddi="false"/>
+        <pair id="DDI-DrugBank.d316.s1.p2" e1="DDI-DrugBank.d316.s1.e0"
+            e2="DDI-DrugBank.d316.s1.e3" ddi="false"/>
+        <pair id="DDI-DrugBank.d316.s1.p3" e1="DDI-DrugBank.d316.s1.e0"
+            e2="DDI-DrugBank.d316.s1.e4" ddi="false"/>
+        <pair id="DDI-DrugBank.d316.s1.p4" e1="DDI-DrugBank.d316.s1.e0"
+            e2="DDI-DrugBank.d316.s1.e5" ddi="false"/>
+        <pair id="DDI-DrugBank.d316.s1.p5" e1="DDI-DrugBank.d316.s1.e1"
+            e2="DDI-DrugBank.d316.s1.e2" ddi="false"/>
+        <pair id="DDI-DrugBank.d316.s1.p6" e1="DDI-DrugBank.d316.s1.e1"
+            e2="DDI-DrugBank.d316.s1.e3" ddi="false"/>
+        <pair id="DDI-DrugBank.d316.s1.p7" e1="DDI-DrugBank.d316.s1.e1"
+            e2="DDI-DrugBank.d316.s1.e4" ddi="false"/>
+        <pair id="DDI-DrugBank.d316.s1.p8" e1="DDI-DrugBank.d316.s1.e1"
+            e2="DDI-DrugBank.d316.s1.e5" ddi="false"/>
+        <pair id="DDI-DrugBank.d316.s1.p9" e1="DDI-DrugBank.d316.s1.e2"
+            e2="DDI-DrugBank.d316.s1.e3" ddi="false"/>
+        <pair id="DDI-DrugBank.d316.s1.p10" e1="DDI-DrugBank.d316.s1.e2"
+            e2="DDI-DrugBank.d316.s1.e4" ddi="false"/>
+        <pair id="DDI-DrugBank.d316.s1.p11" e1="DDI-DrugBank.d316.s1.e2"
+            e2="DDI-DrugBank.d316.s1.e5" ddi="false"/>
+        <pair id="DDI-DrugBank.d316.s1.p12" e1="DDI-DrugBank.d316.s1.e3"
+            e2="DDI-DrugBank.d316.s1.e4" ddi="false"/>
+        <pair id="DDI-DrugBank.d316.s1.p13" e1="DDI-DrugBank.d316.s1.e3"
+            e2="DDI-DrugBank.d316.s1.e5" ddi="false"/>
+        <pair id="DDI-DrugBank.d316.s1.p14" e1="DDI-DrugBank.d316.s1.e4"
+            e2="DDI-DrugBank.d316.s1.e5" ddi="false"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d316.s2" text="These increases in concentration may lead to increased effects, (lower blood pressure and increased heart rate)."/>
+    <sentence id="DDI-DrugBank.d316.s3" text="These effects have been observed with co-administration of itraconazole (a potent CYP3A4 inhibitor).">
+        <entity id="DDI-DrugBank.d316.s3.e0" charOffset="59-70"
+            type="drug" text="itraconazole"/>
+        <entity id="DDI-DrugBank.d316.s3.e1" charOffset="82-87"
+            type="drug" text="CYP3A4"/>
+        <pair id="DDI-DrugBank.d316.s3.p0" e1="DDI-DrugBank.d316.s3.e0"
+            e2="DDI-DrugBank.d316.s3.e1" ddi="false"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d316.s4" text="Caution should be used when CYP3A4 inhibitors are co-administered with felodipine.">
+        <entity id="DDI-DrugBank.d316.s4.e0" charOffset="28-33"
+            type="drug" text="CYP3A4"/>
+        <entity id="DDI-DrugBank.d316.s4.e1" charOffset="71-80"
+            type="drug" text="felodipine"/>
+        <pair id="DDI-DrugBank.d316.s4.p0" e1="DDI-DrugBank.d316.s4.e0"
+            e2="DDI-DrugBank.d316.s4.e1" ddi="false"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d316.s5" text="A conservative approach to dosing felodipine should be taken.">
+        <entity id="DDI-DrugBank.d316.s5.e0" charOffset="34-43"
+            type="drug" text="felodipine"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d316.s6" text="The following specific interactions have been reported: Itraconazole Co-administration of another extended release formulation of felodipine with itraconazole resulted in approximately 8-fold increase in the AUC, more than 6- fold increase in the Cmax, and 2-fold prolongation in the half- life of felodipine.">
+        <entity id="DDI-DrugBank.d316.s6.e0" charOffset="130-139"
+            type="drug" text="felodipine"/>
+        <entity id="DDI-DrugBank.d316.s6.e1" charOffset="146-157"
+            type="drug" text="itraconazole"/>
+        <entity id="DDI-DrugBank.d316.s6.e2" charOffset="298-307"
+            type="drug" text="felodipine"/>
+        <pair id="DDI-DrugBank.d316.s6.p0" e1="DDI-DrugBank.d316.s6.e0"
+            e2="DDI-DrugBank.d316.s6.e1" ddi="false"/>
+        <pair id="DDI-DrugBank.d316.s6.p1" e1="DDI-DrugBank.d316.s6.e0"
+            e2="DDI-DrugBank.d316.s6.e2" ddi="false"/>
+        <pair id="DDI-DrugBank.d316.s6.p2" e1="DDI-DrugBank.d316.s6.e1"
+            e2="DDI-DrugBank.d316.s6.e2" ddi="false"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d316.s7" text="Erythromycin Co-administration of felodipine (PLENDIL) with erythromycin resulted in approximately 2.5- fold increase in the AUC and Cmax, and about 2- fold prolongation in the half- life of felodipine.">
+        <entity id="DDI-DrugBank.d316.s7.e0" charOffset="34-43"
+            type="drug" text="felodipine"/>
+        <entity id="DDI-DrugBank.d316.s7.e1" charOffset="46-52"
+            type="drug" text="PLENDIL"/>
+        <entity id="DDI-DrugBank.d316.s7.e2" charOffset="60-71"
+            type="drug" text="erythromycin"/>
+        <entity id="DDI-DrugBank.d316.s7.e3" charOffset="191-200"
+            type="drug" text="felodipine"/>
+        <pair id="DDI-DrugBank.d316.s7.p0" e1="DDI-DrugBank.d316.s7.e0"
+            e2="DDI-DrugBank.d316.s7.e1" ddi="false"/>
+        <pair id="DDI-DrugBank.d316.s7.p1" e1="DDI-DrugBank.d316.s7.e0"
+            e2="DDI-DrugBank.d316.s7.e2" ddi="false"/>
+        <pair id="DDI-DrugBank.d316.s7.p2" e1="DDI-DrugBank.d316.s7.e0"
+            e2="DDI-DrugBank.d316.s7.e3" ddi="false"/>
+        <pair id="DDI-DrugBank.d316.s7.p3" e1="DDI-DrugBank.d316.s7.e1"
+            e2="DDI-DrugBank.d316.s7.e2" ddi="false"/>
+        <pair id="DDI-DrugBank.d316.s7.p4" e1="DDI-DrugBank.d316.s7.e1"
+            e2="DDI-DrugBank.d316.s7.e3" ddi="false"/>
+        <pair id="DDI-DrugBank.d316.s7.p5" e1="DDI-DrugBank.d316.s7.e2"
+            e2="DDI-DrugBank.d316.s7.e3" ddi="false"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d316.s8" text="Grapefruit juice Co-administration of felodipine with grapefruit juice resulted in more than 2-fold increase in the AUC and Cmax, but no prolongation in the half- life of felodipine.">
+        <entity id="DDI-DrugBank.d316.s8.e0" charOffset="38-47"
+            type="drug" text="felodipine"/>
+        <entity id="DDI-DrugBank.d316.s8.e1" charOffset="171-180"
+            type="drug" text="felodipine"/>
+        <pair id="DDI-DrugBank.d316.s8.p0" e1="DDI-DrugBank.d316.s8.e0"
+            e2="DDI-DrugBank.d316.s8.e1" ddi="false"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d316.s9" text="Cimetidine Co-administration of felodipine with cimetidine (a non-specific CYP-450 inhibitor) resulted in an increase of approximately 50% in the AUC and the Cmax, of felodipine.">
+        <entity id="DDI-DrugBank.d316.s9.e0" charOffset="32-41"
+            type="drug" text="felodipine"/>
+        <entity id="DDI-DrugBank.d316.s9.e1" charOffset="48-57"
+            type="drug" text="cimetidine"/>
+        <entity id="DDI-DrugBank.d316.s9.e2" charOffset="167-176"
+            type="drug" text="felodipine"/>
+        <pair id="DDI-DrugBank.d316.s9.p0" e1="DDI-DrugBank.d316.s9.e0"
+            e2="DDI-DrugBank.d316.s9.e1" ddi="false"/>
+        <pair id="DDI-DrugBank.d316.s9.p1" e1="DDI-DrugBank.d316.s9.e0"
+            e2="DDI-DrugBank.d316.s9.e2" ddi="false"/>
+        <pair id="DDI-DrugBank.d316.s9.p2" e1="DDI-DrugBank.d316.s9.e1"
+            e2="DDI-DrugBank.d316.s9.e2" ddi="false"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d316.s10" text="Beta-Blocking Agents  A pharmacokinetic study of felodipine in conjunction with metoprolol demonstrated no significant effects on the pharmacokinetics of felodipine.">
+        <entity id="DDI-DrugBank.d316.s10.e0" charOffset="49-58"
+            type="drug" text="felodipine"/>
+        <entity id="DDI-DrugBank.d316.s10.e1" charOffset="80-89"
+            type="drug" text="metoprolol"/>
+        <entity id="DDI-DrugBank.d316.s10.e2" charOffset="154-163"
+            type="drug" text="felodipine"/>
+        <pair id="DDI-DrugBank.d316.s10.p0"
+            e1="DDI-DrugBank.d316.s10.e0" e2="DDI-DrugBank.d316.s10.e1" ddi="false"/>
+        <pair id="DDI-DrugBank.d316.s10.p1"
+            e1="DDI-DrugBank.d316.s10.e0" e2="DDI-DrugBank.d316.s10.e2" ddi="false"/>
+        <pair id="DDI-DrugBank.d316.s10.p2"
+            e1="DDI-DrugBank.d316.s10.e1" e2="DDI-DrugBank.d316.s10.e2" ddi="false"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d316.s11" text="The AUC and Cmax of metoprolol, however, were increased approximately 31 and 38%, respectively.">
+        <entity id="DDI-DrugBank.d316.s11.e0" charOffset="20-29"
+            type="drug" text="metoprolol"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d316.s12" text="In controlled clinical trials, however, beta blockers including metoprolol were concurrently administered with felodipine and were well tolerated.">
+        <entity id="DDI-DrugBank.d316.s12.e0" charOffset="40-52"
+            type="drug" text="beta blockers"/>
+        <entity id="DDI-DrugBank.d316.s12.e1" charOffset="64-73"
+            type="drug" text="metoprolol"/>
+        <entity id="DDI-DrugBank.d316.s12.e2" charOffset="111-120"
+            type="drug" text="felodipine"/>
+        <pair id="DDI-DrugBank.d316.s12.p0"
+            e1="DDI-DrugBank.d316.s12.e0" e2="DDI-DrugBank.d316.s12.e1" ddi="false"/>
+        <pair id="DDI-DrugBank.d316.s12.p1"
+            e1="DDI-DrugBank.d316.s12.e0" e2="DDI-DrugBank.d316.s12.e2" ddi="false"/>
+        <pair id="DDI-DrugBank.d316.s12.p2"
+            e1="DDI-DrugBank.d316.s12.e1" e2="DDI-DrugBank.d316.s12.e2" ddi="false"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d316.s13" text="Digoxin  When given concomitantly with PLENDIL the pharmacokinetics of digoxin in patients with heart failure were not significantly altered.">
+        <entity id="DDI-DrugBank.d316.s13.e0" charOffset="39-45"
+            type="drug" text="PLENDIL"/>
+        <entity id="DDI-DrugBank.d316.s13.e1" charOffset="71-77"
+            type="drug" text="digoxin"/>
+        <pair id="DDI-DrugBank.d316.s13.p0"
+            e1="DDI-DrugBank.d316.s13.e0" e2="DDI-DrugBank.d316.s13.e1" ddi="false"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d316.s14" text="Anticonvulsants: In a pharmacokinetic study, maximum plasma concentrations of felodipine were considerably lower in epileptic patients on long-term anticonvulsant therapy (eg, phenytoin, carbamazepine, or phenobarbital) than in healthy volunteers.">
+        <entity id="DDI-DrugBank.d316.s14.e0" charOffset="0-14"
+            type="group" text="Anticonvulsants"/>
+        <entity id="DDI-DrugBank.d316.s14.e1" charOffset="78-87"
+            type="drug" text="felodipine"/>
+        <entity id="DDI-DrugBank.d316.s14.e2" charOffset="148-161"
+            type="group" text="anticonvulsant"/>
+        <entity id="DDI-DrugBank.d316.s14.e3" charOffset="176-184"
+            type="drug" text="phenytoin"/>
+        <entity id="DDI-DrugBank.d316.s14.e4" charOffset="187-199"
+            type="drug" text="carbamazepine"/>
+        <entity id="DDI-DrugBank.d316.s14.e5" charOffset="205-217"
+            type="drug" text="phenobarbital"/>
+        <pair id="DDI-DrugBank.d316.s14.p0"
+            e1="DDI-DrugBank.d316.s14.e0" e2="DDI-DrugBank.d316.s14.e1" ddi="false"/>
+        <pair id="DDI-DrugBank.d316.s14.p1"
+            e1="DDI-DrugBank.d316.s14.e0" e2="DDI-DrugBank.d316.s14.e2" ddi="false"/>
+        <pair id="DDI-DrugBank.d316.s14.p2"
+            e1="DDI-DrugBank.d316.s14.e0" e2="DDI-DrugBank.d316.s14.e3" ddi="false"/>
+        <pair id="DDI-DrugBank.d316.s14.p3"
+            e1="DDI-DrugBank.d316.s14.e0" e2="DDI-DrugBank.d316.s14.e4" ddi="false"/>
+        <pair id="DDI-DrugBank.d316.s14.p4"
+            e1="DDI-DrugBank.d316.s14.e0" e2="DDI-DrugBank.d316.s14.e5" ddi="false"/>
+        <pair id="DDI-DrugBank.d316.s14.p5"
+            e1="DDI-DrugBank.d316.s14.e1" e2="DDI-DrugBank.d316.s14.e2"
+            ddi="true" type="mechanism"/>
+        <pair id="DDI-DrugBank.d316.s14.p6"
+            e1="DDI-DrugBank.d316.s14.e1" e2="DDI-DrugBank.d316.s14.e3"
+            ddi="true" type="mechanism"/>
+        <pair id="DDI-DrugBank.d316.s14.p7"
+            e1="DDI-DrugBank.d316.s14.e1" e2="DDI-DrugBank.d316.s14.e4"
+            ddi="true" type="mechanism"/>
+        <pair id="DDI-DrugBank.d316.s14.p8"
+            e1="DDI-DrugBank.d316.s14.e1" e2="DDI-DrugBank.d316.s14.e5"
+            ddi="true" type="mechanism"/>
+        <pair id="DDI-DrugBank.d316.s14.p9"
+            e1="DDI-DrugBank.d316.s14.e2" e2="DDI-DrugBank.d316.s14.e3" ddi="false"/>
+        <pair id="DDI-DrugBank.d316.s14.p10"
+            e1="DDI-DrugBank.d316.s14.e2" e2="DDI-DrugBank.d316.s14.e4" ddi="false"/>
+        <pair id="DDI-DrugBank.d316.s14.p11"
+            e1="DDI-DrugBank.d316.s14.e2" e2="DDI-DrugBank.d316.s14.e5" ddi="false"/>
+        <pair id="DDI-DrugBank.d316.s14.p12"
+            e1="DDI-DrugBank.d316.s14.e3" e2="DDI-DrugBank.d316.s14.e4" ddi="false"/>
+        <pair id="DDI-DrugBank.d316.s14.p13"
+            e1="DDI-DrugBank.d316.s14.e3" e2="DDI-DrugBank.d316.s14.e5" ddi="false"/>
+        <pair id="DDI-DrugBank.d316.s14.p14"
+            e1="DDI-DrugBank.d316.s14.e4" e2="DDI-DrugBank.d316.s14.e5" ddi="false"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d316.s15" text="In such patients, the mean area under the felodipine plasma concentration-time curve was also reduced to approximately 6% of that observed in healthy volunteers.">
+        <entity id="DDI-DrugBank.d316.s15.e0" charOffset="42-51"
+            type="drug" text="felodipine"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d316.s16" text="Since a clinically significant interaction may be anticipated, alternative antihypertensive therapy should be considered in these patients.">
+        <entity id="DDI-DrugBank.d316.s16.e0" charOffset="75-90"
+            type="drug" text="antihypertensive"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d316.s17" text="Tacrolimus  Felodipine may increase the blood concentration of tacrolimus.">
+        <entity id="DDI-DrugBank.d316.s17.e0" charOffset="12-21"
+            type="drug" text="Felodipine"/>
+        <entity id="DDI-DrugBank.d316.s17.e1" charOffset="63-72"
+            type="drug" text="tacrolimus"/>
+        <pair id="DDI-DrugBank.d316.s17.p0"
+            e1="DDI-DrugBank.d316.s17.e0" e2="DDI-DrugBank.d316.s17.e1" ddi="false"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d316.s18" text="When given concomitantly with felodipine, the tacrolimus blood concentration should be followed and the tacrolimus dose may need to be adjusted.">
+        <entity id="DDI-DrugBank.d316.s18.e0" charOffset="30-39"
+            type="drug" text="felodipine"/>
+        <entity id="DDI-DrugBank.d316.s18.e1" charOffset="46-55"
+            type="drug" text="tacrolimus"/>
+        <pair id="DDI-DrugBank.d316.s18.p0"
+            e1="DDI-DrugBank.d316.s18.e0" e2="DDI-DrugBank.d316.s18.e1" ddi="false"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d316.s19" text="Other Concomitant Therapy  In healthy subjects there were no clinically significant interactions when felodipine was given concomitantly with indomethacin or spironolactone.">
+        <entity id="DDI-DrugBank.d316.s19.e0" charOffset="102-111"
+            type="drug" text="felodipine"/>
+        <entity id="DDI-DrugBank.d316.s19.e1" charOffset="142-153"
+            type="drug" text="indomethacin"/>
+        <entity id="DDI-DrugBank.d316.s19.e2" charOffset="158-171"
+            type="drug" text="spironolactone"/>
+        <pair id="DDI-DrugBank.d316.s19.p0"
+            e1="DDI-DrugBank.d316.s19.e0" e2="DDI-DrugBank.d316.s19.e1" ddi="false"/>
+        <pair id="DDI-DrugBank.d316.s19.p1"
+            e1="DDI-DrugBank.d316.s19.e0" e2="DDI-DrugBank.d316.s19.e2" ddi="false"/>
+        <pair id="DDI-DrugBank.d316.s19.p2"
+            e1="DDI-DrugBank.d316.s19.e1" e2="DDI-DrugBank.d316.s19.e2" ddi="false"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d316.s20" text="Interaction with Food  See CLINICAL PHARMACOLOGY, Pharmacokinetics and Metabolism."/>
+</document>

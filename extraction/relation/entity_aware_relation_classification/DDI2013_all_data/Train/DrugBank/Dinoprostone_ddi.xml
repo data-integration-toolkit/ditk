@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="DDI-DrugBank.d2">
+    <sentence id="DDI-DrugBank.d2.s0" text="PROSTIN E2 may augment the activity of other oxytocic drugs.">
+        <entity id="DDI-DrugBank.d2.s0.e0" charOffset="0-9" type="brand" text="PROSTIN E2"/>
+        <entity id="DDI-DrugBank.d2.s0.e1" charOffset="45-58"
+            type="group" text="oxytocic drugs"/>
+        <pair id="DDI-DrugBank.d2.s0.p0" e1="DDI-DrugBank.d2.s0.e0"
+            e2="DDI-DrugBank.d2.s0.e1" ddi="true" type="effect"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d2.s1" text="Concomitant use with other oxytocic agents is not recommended.">
+        <entity id="DDI-DrugBank.d2.s1.e0" charOffset="27-41"
+            type="group" text="oxytocic agents"/>
+    </sentence>
+</document>

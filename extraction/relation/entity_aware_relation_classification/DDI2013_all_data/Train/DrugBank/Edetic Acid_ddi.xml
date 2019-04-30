@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="DDI-DrugBank.d191">
+    <sentence id="DDI-DrugBank.d191.s0" text="There is no known drug interference with standard clinical laboratory tests."/>
+    <sentence id="DDI-DrugBank.d191.s1" text="Steroids enhance the renal toxicity of edetate calcium disodium in animals. 7 Edetate calcium disodium interferes with the action of zinc insulin preparations by chelating the zinc. 7">
+        <entity id="DDI-DrugBank.d191.s1.e0" charOffset="0-7"
+            type="group" text="Steroids"/>
+        <entity id="DDI-DrugBank.d191.s1.e1" charOffset="39-62"
+            type="drug" text="edetate calcium disodium"/>
+        <entity id="DDI-DrugBank.d191.s1.e2" charOffset="78-101"
+            type="drug" text="Edetate calcium disodium"/>
+        <entity id="DDI-DrugBank.d191.s1.e3" charOffset="133-144"
+            type="drug" text="zinc insulin"/>
+        <entity id="DDI-DrugBank.d191.s1.e4" charOffset="176-179"
+            type="drug" text="zinc"/>
+        <pair id="DDI-DrugBank.d191.s1.p0" e1="DDI-DrugBank.d191.s1.e0"
+            e2="DDI-DrugBank.d191.s1.e1" ddi="true" type="effect"/>
+        <pair id="DDI-DrugBank.d191.s1.p1" e1="DDI-DrugBank.d191.s1.e0"
+            e2="DDI-DrugBank.d191.s1.e2" ddi="false"/>
+        <pair id="DDI-DrugBank.d191.s1.p2" e1="DDI-DrugBank.d191.s1.e0"
+            e2="DDI-DrugBank.d191.s1.e3" ddi="false"/>
+        <pair id="DDI-DrugBank.d191.s1.p3" e1="DDI-DrugBank.d191.s1.e0"
+            e2="DDI-DrugBank.d191.s1.e4" ddi="false"/>
+        <pair id="DDI-DrugBank.d191.s1.p4" e1="DDI-DrugBank.d191.s1.e1"
+            e2="DDI-DrugBank.d191.s1.e2" ddi="false"/>
+        <pair id="DDI-DrugBank.d191.s1.p5" e1="DDI-DrugBank.d191.s1.e1"
+            e2="DDI-DrugBank.d191.s1.e3" ddi="false"/>
+        <pair id="DDI-DrugBank.d191.s1.p6" e1="DDI-DrugBank.d191.s1.e1"
+            e2="DDI-DrugBank.d191.s1.e4" ddi="false"/>
+        <pair id="DDI-DrugBank.d191.s1.p7" e1="DDI-DrugBank.d191.s1.e2"
+            e2="DDI-DrugBank.d191.s1.e3" ddi="true" type="mechanism"/>
+        <pair id="DDI-DrugBank.d191.s1.p8" e1="DDI-DrugBank.d191.s1.e2"
+            e2="DDI-DrugBank.d191.s1.e4" ddi="false"/>
+        <pair id="DDI-DrugBank.d191.s1.p9" e1="DDI-DrugBank.d191.s1.e3"
+            e2="DDI-DrugBank.d191.s1.e4" ddi="false"/>
+    </sentence>
+</document>

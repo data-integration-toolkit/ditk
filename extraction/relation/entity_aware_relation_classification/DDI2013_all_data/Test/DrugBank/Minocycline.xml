@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="DDI-DrugBank.d711">
+    <sentence id="DDI-DrugBank.d711.s0" text="Because tetracyclines have been shown to depress plasma prothrombin activity, patients who are on anticoagulant therapy may require downward adjustment of their anticoagulant dosage. ">
+        <entity id="DDI-DrugBank.d711.s0.e0" charOffset="8-20"
+            type="group" text="tetracyclines"/>
+        <entity id="DDI-DrugBank.d711.s0.e1" charOffset="98-110"
+            type="group" text="anticoagulant"/>
+        <entity id="DDI-DrugBank.d711.s0.e2" charOffset="161-173"
+            type="group" text="anticoagulant"/>
+        <pair id="DDI-DrugBank.d711.s0.p0" e1="DDI-DrugBank.d711.s0.e0"
+            e2="DDI-DrugBank.d711.s0.e1" ddi="true" type="advise"/>
+        <pair id="DDI-DrugBank.d711.s0.p1" e1="DDI-DrugBank.d711.s0.e0"
+            e2="DDI-DrugBank.d711.s0.e2" ddi="false"/>
+        <pair id="DDI-DrugBank.d711.s0.p2" e1="DDI-DrugBank.d711.s0.e1"
+            e2="DDI-DrugBank.d711.s0.e2" ddi="false"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d711.s1" text="Since bacteriostatic drugs may interfere with the bactericidal action of penicillin, it is advisable to avoid giving tetracycline class drugs in conjunction with penicillin. ">
+        <entity id="DDI-DrugBank.d711.s1.e0" charOffset="73-82"
+            type="drug" text="penicillin"/>
+        <entity id="DDI-DrugBank.d711.s1.e1" charOffset="117-140"
+            type="group" text="tetracycline class drugs"/>
+        <entity id="DDI-DrugBank.d711.s1.e2" charOffset="162-171"
+            type="drug" text="penicillin"/>
+        <pair id="DDI-DrugBank.d711.s1.p0" e1="DDI-DrugBank.d711.s1.e0"
+            e2="DDI-DrugBank.d711.s1.e1" ddi="false"/>
+        <pair id="DDI-DrugBank.d711.s1.p1" e1="DDI-DrugBank.d711.s1.e0"
+            e2="DDI-DrugBank.d711.s1.e2" ddi="false"/>
+        <pair id="DDI-DrugBank.d711.s1.p2" e1="DDI-DrugBank.d711.s1.e1"
+            e2="DDI-DrugBank.d711.s1.e2" ddi="true" type="advise"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d711.s2" text="Absorption of tetracyclines is impaired by antacids containing aluminum, calcium or magnesium, and iron-containing preparations. ">
+        <entity id="DDI-DrugBank.d711.s2.e0" charOffset="14-26"
+            type="group" text="tetracyclines"/>
+        <entity id="DDI-DrugBank.d711.s2.e1" charOffset="43-50"
+            type="group" text="antacids"/>
+        <entity id="DDI-DrugBank.d711.s2.e2" charOffset="63-70"
+            type="drug" text="aluminum"/>
+        <entity id="DDI-DrugBank.d711.s2.e3" charOffset="73-79"
+            type="drug" text="calcium"/>
+        <entity id="DDI-DrugBank.d711.s2.e4" charOffset="84-92"
+            type="drug" text="magnesium"/>
+        <entity id="DDI-DrugBank.d711.s2.e5" charOffset="99-102"
+            type="drug" text="iron"/>
+        <pair id="DDI-DrugBank.d711.s2.p0" e1="DDI-DrugBank.d711.s2.e0"
+            e2="DDI-DrugBank.d711.s2.e1" ddi="false"/>
+        <pair id="DDI-DrugBank.d711.s2.p1" e1="DDI-DrugBank.d711.s2.e0"
+            e2="DDI-DrugBank.d711.s2.e2" ddi="true" type="mechanism"/>
+        <pair id="DDI-DrugBank.d711.s2.p2" e1="DDI-DrugBank.d711.s2.e0"
+            e2="DDI-DrugBank.d711.s2.e3" ddi="true" type="mechanism"/>
+        <pair id="DDI-DrugBank.d711.s2.p3" e1="DDI-DrugBank.d711.s2.e0"
+            e2="DDI-DrugBank.d711.s2.e4" ddi="true" type="mechanism"/>
+        <pair id="DDI-DrugBank.d711.s2.p4" e1="DDI-DrugBank.d711.s2.e0"
+            e2="DDI-DrugBank.d711.s2.e5" ddi="true" type="mechanism"/>
+        <pair id="DDI-DrugBank.d711.s2.p5" e1="DDI-DrugBank.d711.s2.e1"
+            e2="DDI-DrugBank.d711.s2.e2" ddi="false"/>
+        <pair id="DDI-DrugBank.d711.s2.p6" e1="DDI-DrugBank.d711.s2.e1"
+            e2="DDI-DrugBank.d711.s2.e3" ddi="false"/>
+        <pair id="DDI-DrugBank.d711.s2.p7" e1="DDI-DrugBank.d711.s2.e1"
+            e2="DDI-DrugBank.d711.s2.e4" ddi="false"/>
+        <pair id="DDI-DrugBank.d711.s2.p8" e1="DDI-DrugBank.d711.s2.e1"
+            e2="DDI-DrugBank.d711.s2.e5" ddi="false"/>
+        <pair id="DDI-DrugBank.d711.s2.p9" e1="DDI-DrugBank.d711.s2.e2"
+            e2="DDI-DrugBank.d711.s2.e3" ddi="false"/>
+        <pair id="DDI-DrugBank.d711.s2.p10" e1="DDI-DrugBank.d711.s2.e2"
+            e2="DDI-DrugBank.d711.s2.e4" ddi="false"/>
+        <pair id="DDI-DrugBank.d711.s2.p11" e1="DDI-DrugBank.d711.s2.e2"
+            e2="DDI-DrugBank.d711.s2.e5" ddi="false"/>
+        <pair id="DDI-DrugBank.d711.s2.p12" e1="DDI-DrugBank.d711.s2.e3"
+            e2="DDI-DrugBank.d711.s2.e4" ddi="false"/>
+        <pair id="DDI-DrugBank.d711.s2.p13" e1="DDI-DrugBank.d711.s2.e3"
+            e2="DDI-DrugBank.d711.s2.e5" ddi="false"/>
+        <pair id="DDI-DrugBank.d711.s2.p14" e1="DDI-DrugBank.d711.s2.e4"
+            e2="DDI-DrugBank.d711.s2.e5" ddi="false"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d711.s3" text="The concurrent use of tetracycline and methoxyflurane has been reported to result in fatal renal toxicity. ">
+        <entity id="DDI-DrugBank.d711.s3.e0" charOffset="22-33"
+            type="group" text="tetracycline"/>
+        <entity id="DDI-DrugBank.d711.s3.e1" charOffset="39-52"
+            type="drug" text="methoxyflurane"/>
+        <pair id="DDI-DrugBank.d711.s3.p0" e1="DDI-DrugBank.d711.s3.e0"
+            e2="DDI-DrugBank.d711.s3.e1" ddi="true" type="effect"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d711.s4" text="Concurrent use of tetracyclines with oral contraceptives may render oral contraceptives less effective.">
+        <entity id="DDI-DrugBank.d711.s4.e0" charOffset="18-30"
+            type="group" text="tetracyclines"/>
+        <entity id="DDI-DrugBank.d711.s4.e1" charOffset="42-55"
+            type="group" text="contraceptives"/>
+        <entity id="DDI-DrugBank.d711.s4.e2" charOffset="73-86"
+            type="group" text="contraceptives"/>
+        <pair id="DDI-DrugBank.d711.s4.p0" e1="DDI-DrugBank.d711.s4.e0"
+            e2="DDI-DrugBank.d711.s4.e1" ddi="true" type="effect"/>
+        <pair id="DDI-DrugBank.d711.s4.p1" e1="DDI-DrugBank.d711.s4.e0"
+            e2="DDI-DrugBank.d711.s4.e2" ddi="false"/>
+        <pair id="DDI-DrugBank.d711.s4.p2" e1="DDI-DrugBank.d711.s4.e1"
+            e2="DDI-DrugBank.d711.s4.e2" ddi="false"/>
+    </sentence>
+</document>

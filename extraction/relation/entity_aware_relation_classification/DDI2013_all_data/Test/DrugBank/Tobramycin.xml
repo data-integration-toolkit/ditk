@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="DDI-DrugBank.d624">
+    <sentence id="DDI-DrugBank.d624.s0" text="In clinical studies of TOBI, patients taking TOBI concomitantly with dornase alfa (PULMOZYME   , Genentech), (beta)-agonists, inhaled corticosteroids, other anti-pseudomonal antibiotics, or parenteral aminoglycosides demonstrated adverse experience profiles similar to the study population as a whole. ">
+        <entity id="DDI-DrugBank.d624.s0.e0" charOffset="23-26"
+            type="brand" text="TOBI"/>
+        <entity id="DDI-DrugBank.d624.s0.e1" charOffset="45-48"
+            type="brand" text="TOBI"/>
+        <entity id="DDI-DrugBank.d624.s0.e2" charOffset="69-80"
+            type="drug" text="dornase alfa"/>
+        <entity id="DDI-DrugBank.d624.s0.e3" charOffset="83-91"
+            type="brand" text="PULMOZYME"/>
+        <entity id="DDI-DrugBank.d624.s0.e4" charOffset="109-123"
+            type="group" text="(beta)-agonists"/>
+        <entity id="DDI-DrugBank.d624.s0.e5" charOffset="134-148"
+            type="group" text="corticosteroids"/>
+        <entity id="DDI-DrugBank.d624.s0.e6" charOffset="157-184"
+            type="group" text="anti-pseudomonal antibiotics"/>
+        <entity id="DDI-DrugBank.d624.s0.e7" charOffset="201-215"
+            type="group" text="aminoglycosides"/>
+        <pair id="DDI-DrugBank.d624.s0.p0" e1="DDI-DrugBank.d624.s0.e0"
+            e2="DDI-DrugBank.d624.s0.e1" ddi="false"/>
+        <pair id="DDI-DrugBank.d624.s0.p1" e1="DDI-DrugBank.d624.s0.e0"
+            e2="DDI-DrugBank.d624.s0.e2" ddi="false"/>
+        <pair id="DDI-DrugBank.d624.s0.p2" e1="DDI-DrugBank.d624.s0.e0"
+            e2="DDI-DrugBank.d624.s0.e3" ddi="false"/>
+        <pair id="DDI-DrugBank.d624.s0.p3" e1="DDI-DrugBank.d624.s0.e0"
+            e2="DDI-DrugBank.d624.s0.e4" ddi="false"/>
+        <pair id="DDI-DrugBank.d624.s0.p4" e1="DDI-DrugBank.d624.s0.e0"
+            e2="DDI-DrugBank.d624.s0.e5" ddi="false"/>
+        <pair id="DDI-DrugBank.d624.s0.p5" e1="DDI-DrugBank.d624.s0.e0"
+            e2="DDI-DrugBank.d624.s0.e6" ddi="false"/>
+        <pair id="DDI-DrugBank.d624.s0.p6" e1="DDI-DrugBank.d624.s0.e0"
+            e2="DDI-DrugBank.d624.s0.e7" ddi="false"/>
+        <pair id="DDI-DrugBank.d624.s0.p7" e1="DDI-DrugBank.d624.s0.e1"
+            e2="DDI-DrugBank.d624.s0.e2" ddi="true" type="effect"/>
+        <pair id="DDI-DrugBank.d624.s0.p8" e1="DDI-DrugBank.d624.s0.e1"
+            e2="DDI-DrugBank.d624.s0.e3" ddi="true" type="effect"/>
+        <pair id="DDI-DrugBank.d624.s0.p9" e1="DDI-DrugBank.d624.s0.e1"
+            e2="DDI-DrugBank.d624.s0.e4" ddi="true" type="effect"/>
+        <pair id="DDI-DrugBank.d624.s0.p10" e1="DDI-DrugBank.d624.s0.e1"
+            e2="DDI-DrugBank.d624.s0.e5" ddi="true" type="effect"/>
+        <pair id="DDI-DrugBank.d624.s0.p11" e1="DDI-DrugBank.d624.s0.e1"
+            e2="DDI-DrugBank.d624.s0.e6" ddi="true" type="effect"/>
+        <pair id="DDI-DrugBank.d624.s0.p12" e1="DDI-DrugBank.d624.s0.e1"
+            e2="DDI-DrugBank.d624.s0.e7" ddi="true" type="effect"/>
+        <pair id="DDI-DrugBank.d624.s0.p13" e1="DDI-DrugBank.d624.s0.e2"
+            e2="DDI-DrugBank.d624.s0.e3" ddi="false"/>
+        <pair id="DDI-DrugBank.d624.s0.p14" e1="DDI-DrugBank.d624.s0.e2"
+            e2="DDI-DrugBank.d624.s0.e4" ddi="false"/>
+        <pair id="DDI-DrugBank.d624.s0.p15" e1="DDI-DrugBank.d624.s0.e2"
+            e2="DDI-DrugBank.d624.s0.e5" ddi="false"/>
+        <pair id="DDI-DrugBank.d624.s0.p16" e1="DDI-DrugBank.d624.s0.e2"
+            e2="DDI-DrugBank.d624.s0.e6" ddi="false"/>
+        <pair id="DDI-DrugBank.d624.s0.p17" e1="DDI-DrugBank.d624.s0.e2"
+            e2="DDI-DrugBank.d624.s0.e7" ddi="false"/>
+        <pair id="DDI-DrugBank.d624.s0.p18" e1="DDI-DrugBank.d624.s0.e3"
+            e2="DDI-DrugBank.d624.s0.e4" ddi="false"/>
+        <pair id="DDI-DrugBank.d624.s0.p19" e1="DDI-DrugBank.d624.s0.e3"
+            e2="DDI-DrugBank.d624.s0.e5" ddi="false"/>
+        <pair id="DDI-DrugBank.d624.s0.p20" e1="DDI-DrugBank.d624.s0.e3"
+            e2="DDI-DrugBank.d624.s0.e6" ddi="false"/>
+        <pair id="DDI-DrugBank.d624.s0.p21" e1="DDI-DrugBank.d624.s0.e3"
+            e2="DDI-DrugBank.d624.s0.e7" ddi="false"/>
+        <pair id="DDI-DrugBank.d624.s0.p22" e1="DDI-DrugBank.d624.s0.e4"
+            e2="DDI-DrugBank.d624.s0.e5" ddi="false"/>
+        <pair id="DDI-DrugBank.d624.s0.p23" e1="DDI-DrugBank.d624.s0.e4"
+            e2="DDI-DrugBank.d624.s0.e6" ddi="false"/>
+        <pair id="DDI-DrugBank.d624.s0.p24" e1="DDI-DrugBank.d624.s0.e4"
+            e2="DDI-DrugBank.d624.s0.e7" ddi="false"/>
+        <pair id="DDI-DrugBank.d624.s0.p25" e1="DDI-DrugBank.d624.s0.e5"
+            e2="DDI-DrugBank.d624.s0.e6" ddi="false"/>
+        <pair id="DDI-DrugBank.d624.s0.p26" e1="DDI-DrugBank.d624.s0.e5"
+            e2="DDI-DrugBank.d624.s0.e7" ddi="false"/>
+        <pair id="DDI-DrugBank.d624.s0.p27" e1="DDI-DrugBank.d624.s0.e6"
+            e2="DDI-DrugBank.d624.s0.e7" ddi="false"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d624.s1" text="Concurrent and/or sequential use of TOBI with other drugs with neurotoxic or ototoxic potential should be avoided. ">
+        <entity id="DDI-DrugBank.d624.s1.e0" charOffset="36-39"
+            type="brand" text="TOBI"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d624.s2" text="Some diuretics can enhance aminoglycoside toxicity by altering antibiotic concentrations in serum and tissue. ">
+        <entity id="DDI-DrugBank.d624.s2.e0" charOffset="5-13"
+            type="group" text="diuretics"/>
+        <entity id="DDI-DrugBank.d624.s2.e1" charOffset="27-40"
+            type="group" text="aminoglycoside"/>
+        <entity id="DDI-DrugBank.d624.s2.e2" charOffset="63-72"
+            type="group" text="antibiotic"/>
+        <pair id="DDI-DrugBank.d624.s2.p0" e1="DDI-DrugBank.d624.s2.e0"
+            e2="DDI-DrugBank.d624.s2.e1" ddi="true" type="effect"/>
+        <pair id="DDI-DrugBank.d624.s2.p1" e1="DDI-DrugBank.d624.s2.e0"
+            e2="DDI-DrugBank.d624.s2.e2" ddi="false"/>
+        <pair id="DDI-DrugBank.d624.s2.p2" e1="DDI-DrugBank.d624.s2.e1"
+            e2="DDI-DrugBank.d624.s2.e2" ddi="false"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d624.s3" text="TOBI should not be administered concomitantly with ethacrynic acid, furosemide, urea, or mannitol.">
+        <entity id="DDI-DrugBank.d624.s3.e0" charOffset="0-3"
+            type="brand" text="TOBI"/>
+        <entity id="DDI-DrugBank.d624.s3.e1" charOffset="51-65"
+            type="drug" text="ethacrynic acid"/>
+        <entity id="DDI-DrugBank.d624.s3.e2" charOffset="68-77"
+            type="drug" text="furosemide"/>
+        <entity id="DDI-DrugBank.d624.s3.e3" charOffset="80-83"
+            type="drug" text="urea"/>
+        <entity id="DDI-DrugBank.d624.s3.e4" charOffset="89-96"
+            type="drug" text="mannitol"/>
+        <pair id="DDI-DrugBank.d624.s3.p0" e1="DDI-DrugBank.d624.s3.e0"
+            e2="DDI-DrugBank.d624.s3.e1" ddi="true" type="advise"/>
+        <pair id="DDI-DrugBank.d624.s3.p1" e1="DDI-DrugBank.d624.s3.e0"
+            e2="DDI-DrugBank.d624.s3.e2" ddi="true" type="advise"/>
+        <pair id="DDI-DrugBank.d624.s3.p2" e1="DDI-DrugBank.d624.s3.e0"
+            e2="DDI-DrugBank.d624.s3.e3" ddi="true" type="advise"/>
+        <pair id="DDI-DrugBank.d624.s3.p3" e1="DDI-DrugBank.d624.s3.e0"
+            e2="DDI-DrugBank.d624.s3.e4" ddi="true" type="advise"/>
+        <pair id="DDI-DrugBank.d624.s3.p4" e1="DDI-DrugBank.d624.s3.e1"
+            e2="DDI-DrugBank.d624.s3.e2" ddi="false"/>
+        <pair id="DDI-DrugBank.d624.s3.p5" e1="DDI-DrugBank.d624.s3.e1"
+            e2="DDI-DrugBank.d624.s3.e3" ddi="false"/>
+        <pair id="DDI-DrugBank.d624.s3.p6" e1="DDI-DrugBank.d624.s3.e1"
+            e2="DDI-DrugBank.d624.s3.e4" ddi="false"/>
+        <pair id="DDI-DrugBank.d624.s3.p7" e1="DDI-DrugBank.d624.s3.e2"
+            e2="DDI-DrugBank.d624.s3.e3" ddi="false"/>
+        <pair id="DDI-DrugBank.d624.s3.p8" e1="DDI-DrugBank.d624.s3.e2"
+            e2="DDI-DrugBank.d624.s3.e4" ddi="false"/>
+        <pair id="DDI-DrugBank.d624.s3.p9" e1="DDI-DrugBank.d624.s3.e3"
+            e2="DDI-DrugBank.d624.s3.e4" ddi="false"/>
+    </sentence>
+</document>

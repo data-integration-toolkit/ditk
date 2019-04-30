@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="DDI-DrugBank.d195">
+    <sentence id="DDI-DrugBank.d195.s0" text="Anastrozole inhibited in vitro metabolic reactions catalyzed by cytochromes P450 1A2, 2C8/9, and 3A4 but only at relatively high concentrations.">
+        <entity id="DDI-DrugBank.d195.s0.e0" charOffset="0-10"
+            type="drug" text="Anastrozole"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d195.s1" text="Anastrozole did not inhibit P450 2A6 or the polymorphic P450 2D6 in human liver microsomes.">
+        <entity id="DDI-DrugBank.d195.s1.e0" charOffset="0-10"
+            type="drug" text="Anastrozole"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d195.s2" text="Anastrozole did not alter the pharmacokinetics of antipyrine.">
+        <entity id="DDI-DrugBank.d195.s2.e0" charOffset="0-10"
+            type="drug" text="Anastrozole"/>
+        <entity id="DDI-DrugBank.d195.s2.e1" charOffset="50-59"
+            type="drug" text="antipyrine"/>
+        <pair id="DDI-DrugBank.d195.s2.p0" e1="DDI-DrugBank.d195.s2.e0"
+            e2="DDI-DrugBank.d195.s2.e1" ddi="false"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d195.s3" text="Although there have been no formal interaction studies other than with antipyrine, based on these in vivo and in vitro studies, it is unlikely that co-administration of a 1 mg dose of ARIMIDEX with other drugs will result in clinically significant drug inhibition of cytochrome P450-mediated metabolism of the other drugs.">
+        <entity id="DDI-DrugBank.d195.s3.e0" charOffset="71-80"
+            type="drug" text="antipyrine"/>
+        <entity id="DDI-DrugBank.d195.s3.e1" charOffset="184-191"
+            type="brand" text="ARIMIDEX"/>
+        <pair id="DDI-DrugBank.d195.s3.p0" e1="DDI-DrugBank.d195.s3.e0"
+            e2="DDI-DrugBank.d195.s3.e1" ddi="false"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d195.s4" text="An interaction study with warfarin showed no clinically significant effect of anastrozole on warfarin pharmacokinetics or anticoagulant activity.">
+        <entity id="DDI-DrugBank.d195.s4.e0" charOffset="26-33"
+            type="drug" text="warfarin"/>
+        <entity id="DDI-DrugBank.d195.s4.e1" charOffset="78-88"
+            type="drug" text="anastrozole"/>
+        <entity id="DDI-DrugBank.d195.s4.e2" charOffset="93-100"
+            type="drug" text="warfarin"/>
+        <pair id="DDI-DrugBank.d195.s4.p0" e1="DDI-DrugBank.d195.s4.e0"
+            e2="DDI-DrugBank.d195.s4.e1" ddi="false"/>
+        <pair id="DDI-DrugBank.d195.s4.p1" e1="DDI-DrugBank.d195.s4.e0"
+            e2="DDI-DrugBank.d195.s4.e2" ddi="false"/>
+        <pair id="DDI-DrugBank.d195.s4.p2" e1="DDI-DrugBank.d195.s4.e1"
+            e2="DDI-DrugBank.d195.s4.e2" ddi="false"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d195.s5" text="At a median follow-up of 33 months, the combination of ARIMIDEX and tamoxifen did not demonstrate any efficacy benefit when compared with tamoxifen in all patients as well as in the hormone receptor-positive subpopulation.">
+        <entity id="DDI-DrugBank.d195.s5.e0" charOffset="55-62"
+            type="brand" text="ARIMIDEX"/>
+        <entity id="DDI-DrugBank.d195.s5.e1" charOffset="68-76"
+            type="drug" text="tamoxifen"/>
+        <entity id="DDI-DrugBank.d195.s5.e2" charOffset="138-146"
+            type="drug" text="tamoxifen"/>
+        <pair id="DDI-DrugBank.d195.s5.p0" e1="DDI-DrugBank.d195.s5.e0"
+            e2="DDI-DrugBank.d195.s5.e1" ddi="false"/>
+        <pair id="DDI-DrugBank.d195.s5.p1" e1="DDI-DrugBank.d195.s5.e0"
+            e2="DDI-DrugBank.d195.s5.e2" ddi="false"/>
+        <pair id="DDI-DrugBank.d195.s5.p2" e1="DDI-DrugBank.d195.s5.e1"
+            e2="DDI-DrugBank.d195.s5.e2" ddi="false"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d195.s6" text="This treatment arm was discontinued from the trial."/>
+    <sentence id="DDI-DrugBank.d195.s7" text="Based on clinical and pharmacokinetic results from the ATAC trial, tamoxifen should not be administered with anastrozole (see CLINICAL PHARMACOLOGY   Drug Interactions and CLINICAL PHARMACOLOGY - Clinical Studies - Adjuvant Treatment of Breast Cancer in Postmenopausal Women subsections).">
+        <entity id="DDI-DrugBank.d195.s7.e0" charOffset="67-75"
+            type="drug" text="tamoxifen"/>
+        <entity id="DDI-DrugBank.d195.s7.e1" charOffset="109-119"
+            type="drug" text="anastrozole"/>
+        <pair id="DDI-DrugBank.d195.s7.p0" e1="DDI-DrugBank.d195.s7.e0"
+            e2="DDI-DrugBank.d195.s7.e1" ddi="true" type="advise"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d195.s8" text="Co-administration of anastrozole and tamoxifen resulted in a reduction of anastrozole plasma levels by 27% compared with those achieved with anastrozole alone.">
+        <entity id="DDI-DrugBank.d195.s8.e0" charOffset="21-31"
+            type="drug" text="anastrozole"/>
+        <entity id="DDI-DrugBank.d195.s8.e1" charOffset="37-45"
+            type="drug" text="tamoxifen"/>
+        <entity id="DDI-DrugBank.d195.s8.e2" charOffset="74-84"
+            type="drug" text="anastrozole"/>
+        <entity id="DDI-DrugBank.d195.s8.e3" charOffset="141-151"
+            type="drug" text="anastrozole"/>
+        <pair id="DDI-DrugBank.d195.s8.p0" e1="DDI-DrugBank.d195.s8.e0"
+            e2="DDI-DrugBank.d195.s8.e1" ddi="true" type="mechanism"/>
+        <pair id="DDI-DrugBank.d195.s8.p1" e1="DDI-DrugBank.d195.s8.e0"
+            e2="DDI-DrugBank.d195.s8.e2" ddi="false"/>
+        <pair id="DDI-DrugBank.d195.s8.p2" e1="DDI-DrugBank.d195.s8.e0"
+            e2="DDI-DrugBank.d195.s8.e3" ddi="false"/>
+        <pair id="DDI-DrugBank.d195.s8.p3" e1="DDI-DrugBank.d195.s8.e1"
+            e2="DDI-DrugBank.d195.s8.e2" ddi="false"/>
+        <pair id="DDI-DrugBank.d195.s8.p4" e1="DDI-DrugBank.d195.s8.e1"
+            e2="DDI-DrugBank.d195.s8.e3" ddi="false"/>
+        <pair id="DDI-DrugBank.d195.s8.p5" e1="DDI-DrugBank.d195.s8.e2"
+            e2="DDI-DrugBank.d195.s8.e3" ddi="false"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d195.s9" text="Estrogen-containing therapies should not be used with ARIMIDEX as they may diminish its pharmacologic action.">
+        <entity id="DDI-DrugBank.d195.s9.e0" charOffset="0-7"
+            type="group" text="Estrogen"/>
+        <entity id="DDI-DrugBank.d195.s9.e1" charOffset="54-61"
+            type="brand" text="ARIMIDEX"/>
+        <pair id="DDI-DrugBank.d195.s9.p0" e1="DDI-DrugBank.d195.s9.e0"
+            e2="DDI-DrugBank.d195.s9.e1" ddi="true" type="advise"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d195.s10" text="Drug/Laboratory Test Interactions No clinically significant changes in the results of clinical laboratory tests have been observed"/>
+    <sentence id="DDI-DrugBank.d195.s11" text="."/>
+    <sentence id="DDI-DrugBank.d195.s12" text=""/>
+</document>

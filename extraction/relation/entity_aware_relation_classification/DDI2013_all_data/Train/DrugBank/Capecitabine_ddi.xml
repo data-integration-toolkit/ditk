@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="DDI-DrugBank.d88">
+    <sentence id="DDI-DrugBank.d88.s0" text="Antacid: The effect of an aluminum hydroxide- and magnesium hydroxide-containing antacid (Maalox)* on the pharmacokinetics of capecitabine was investigated in 12 cancer patients.">
+        <entity id="DDI-DrugBank.d88.s0.e0" charOffset="0-6"
+            type="group" text="Antacid"/>
+        <entity id="DDI-DrugBank.d88.s0.e1" charOffset="26-43"
+            type="drug" text="aluminum hydroxide"/>
+        <entity id="DDI-DrugBank.d88.s0.e2" charOffset="50-68"
+            type="drug" text="magnesium hydroxide"/>
+        <entity id="DDI-DrugBank.d88.s0.e3" charOffset="81-87"
+            type="group" text="antacid"/>
+        <entity id="DDI-DrugBank.d88.s0.e4" charOffset="90-95"
+            type="brand" text="Maalox"/>
+        <entity id="DDI-DrugBank.d88.s0.e5" charOffset="126-137"
+            type="drug" text="capecitabine"/>
+        <pair id="DDI-DrugBank.d88.s0.p0" e1="DDI-DrugBank.d88.s0.e0"
+            e2="DDI-DrugBank.d88.s0.e1" ddi="false"/>
+        <pair id="DDI-DrugBank.d88.s0.p1" e1="DDI-DrugBank.d88.s0.e0"
+            e2="DDI-DrugBank.d88.s0.e2" ddi="false"/>
+        <pair id="DDI-DrugBank.d88.s0.p2" e1="DDI-DrugBank.d88.s0.e0"
+            e2="DDI-DrugBank.d88.s0.e3" ddi="false"/>
+        <pair id="DDI-DrugBank.d88.s0.p3" e1="DDI-DrugBank.d88.s0.e0"
+            e2="DDI-DrugBank.d88.s0.e4" ddi="false"/>
+        <pair id="DDI-DrugBank.d88.s0.p4" e1="DDI-DrugBank.d88.s0.e0"
+            e2="DDI-DrugBank.d88.s0.e5" ddi="false"/>
+        <pair id="DDI-DrugBank.d88.s0.p5" e1="DDI-DrugBank.d88.s0.e1"
+            e2="DDI-DrugBank.d88.s0.e2" ddi="false"/>
+        <pair id="DDI-DrugBank.d88.s0.p6" e1="DDI-DrugBank.d88.s0.e1"
+            e2="DDI-DrugBank.d88.s0.e3" ddi="false"/>
+        <pair id="DDI-DrugBank.d88.s0.p7" e1="DDI-DrugBank.d88.s0.e1"
+            e2="DDI-DrugBank.d88.s0.e4" ddi="false"/>
+        <pair id="DDI-DrugBank.d88.s0.p8" e1="DDI-DrugBank.d88.s0.e1"
+            e2="DDI-DrugBank.d88.s0.e5" ddi="false"/>
+        <pair id="DDI-DrugBank.d88.s0.p9" e1="DDI-DrugBank.d88.s0.e2"
+            e2="DDI-DrugBank.d88.s0.e3" ddi="false"/>
+        <pair id="DDI-DrugBank.d88.s0.p10" e1="DDI-DrugBank.d88.s0.e2"
+            e2="DDI-DrugBank.d88.s0.e4" ddi="false"/>
+        <pair id="DDI-DrugBank.d88.s0.p11" e1="DDI-DrugBank.d88.s0.e2"
+            e2="DDI-DrugBank.d88.s0.e5" ddi="false"/>
+        <pair id="DDI-DrugBank.d88.s0.p12" e1="DDI-DrugBank.d88.s0.e3"
+            e2="DDI-DrugBank.d88.s0.e4" ddi="false"/>
+        <pair id="DDI-DrugBank.d88.s0.p13" e1="DDI-DrugBank.d88.s0.e3"
+            e2="DDI-DrugBank.d88.s0.e5" ddi="false"/>
+        <pair id="DDI-DrugBank.d88.s0.p14" e1="DDI-DrugBank.d88.s0.e4"
+            e2="DDI-DrugBank.d88.s0.e5" ddi="false"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d88.s1" text="There was a small increase in plasma concentrations of capecitabine and one metabolite (5-DFCR);">
+        <entity id="DDI-DrugBank.d88.s1.e0" charOffset="55-66"
+            type="drug" text="capecitabine"/>
+        <entity id="DDI-DrugBank.d88.s1.e1" charOffset="88-93"
+            type="drug_n" text="5-DFCR"/>
+        <pair id="DDI-DrugBank.d88.s1.p0" e1="DDI-DrugBank.d88.s1.e0"
+            e2="DDI-DrugBank.d88.s1.e1" ddi="false"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d88.s2" text="there was no effect on the 3 major metabolites (5-DFUR, 5-FU and FBAL).">
+        <entity id="DDI-DrugBank.d88.s2.e0" charOffset="48-53"
+            type="drug_n" text="5-DFUR"/>
+        <entity id="DDI-DrugBank.d88.s2.e1" charOffset="56-59"
+            type="drug_n" text="5-FU"/>
+        <entity id="DDI-DrugBank.d88.s2.e2" charOffset="65-68"
+            type="drug_n" text="FBAL"/>
+        <pair id="DDI-DrugBank.d88.s2.p0" e1="DDI-DrugBank.d88.s2.e0"
+            e2="DDI-DrugBank.d88.s2.e1" ddi="false"/>
+        <pair id="DDI-DrugBank.d88.s2.p1" e1="DDI-DrugBank.d88.s2.e0"
+            e2="DDI-DrugBank.d88.s2.e2" ddi="false"/>
+        <pair id="DDI-DrugBank.d88.s2.p2" e1="DDI-DrugBank.d88.s2.e1"
+            e2="DDI-DrugBank.d88.s2.e2" ddi="false"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d88.s3" text="Coumarin Anticoagulants Altered coagulation parameters and/or bleeding have been reported in patients taking capecitabine concomitantly with coumarin-derivative anticoagulants such as warfarin and phenprocoumon.">
+        <entity id="DDI-DrugBank.d88.s3.e0" charOffset="0-22"
+            type="group" text="Coumarin Anticoagulants"/>
+        <entity id="DDI-DrugBank.d88.s3.e1" charOffset="109-120"
+            type="drug" text="capecitabine"/>
+        <entity id="DDI-DrugBank.d88.s3.e2" charOffset="141-174"
+            type="group" text="coumarin-derivative anticoagulants"/>
+        <entity id="DDI-DrugBank.d88.s3.e3" charOffset="184-191"
+            type="drug" text="warfarin"/>
+        <entity id="DDI-DrugBank.d88.s3.e4" charOffset="197-209"
+            type="drug" text="phenprocoumon"/>
+        <pair id="DDI-DrugBank.d88.s3.p0" e1="DDI-DrugBank.d88.s3.e0"
+            e2="DDI-DrugBank.d88.s3.e1" ddi="false"/>
+        <pair id="DDI-DrugBank.d88.s3.p1" e1="DDI-DrugBank.d88.s3.e0"
+            e2="DDI-DrugBank.d88.s3.e2" ddi="false"/>
+        <pair id="DDI-DrugBank.d88.s3.p2" e1="DDI-DrugBank.d88.s3.e0"
+            e2="DDI-DrugBank.d88.s3.e3" ddi="false"/>
+        <pair id="DDI-DrugBank.d88.s3.p3" e1="DDI-DrugBank.d88.s3.e0"
+            e2="DDI-DrugBank.d88.s3.e4" ddi="false"/>
+        <pair id="DDI-DrugBank.d88.s3.p4" e1="DDI-DrugBank.d88.s3.e1"
+            e2="DDI-DrugBank.d88.s3.e2" ddi="true" type="effect"/>
+        <pair id="DDI-DrugBank.d88.s3.p5" e1="DDI-DrugBank.d88.s3.e1"
+            e2="DDI-DrugBank.d88.s3.e3" ddi="false"/>
+        <pair id="DDI-DrugBank.d88.s3.p6" e1="DDI-DrugBank.d88.s3.e1"
+            e2="DDI-DrugBank.d88.s3.e4" ddi="true" type="effect"/>
+        <pair id="DDI-DrugBank.d88.s3.p7" e1="DDI-DrugBank.d88.s3.e2"
+            e2="DDI-DrugBank.d88.s3.e3" ddi="false"/>
+        <pair id="DDI-DrugBank.d88.s3.p8" e1="DDI-DrugBank.d88.s3.e2"
+            e2="DDI-DrugBank.d88.s3.e4" ddi="false"/>
+        <pair id="DDI-DrugBank.d88.s3.p9" e1="DDI-DrugBank.d88.s3.e3"
+            e2="DDI-DrugBank.d88.s3.e4" ddi="false"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d88.s4" text="Patients taking coumarin-derivative anticoagulants concomitantly with capecitabine should be monitored regularly for alterations in their coagulation parameters (PT or INR).">
+        <entity id="DDI-DrugBank.d88.s4.e0" charOffset="16-49"
+            type="group" text="coumarin-derivative anticoagulants"/>
+        <entity id="DDI-DrugBank.d88.s4.e1" charOffset="70-81"
+            type="drug" text="capecitabine"/>
+        <pair id="DDI-DrugBank.d88.s4.p0" e1="DDI-DrugBank.d88.s4.e0"
+            e2="DDI-DrugBank.d88.s4.e1" ddi="true" type="advise"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d88.s5" text="Leucovorin: The concentration of 5-fluorouracil is increased and its toxicity may be enhanced by leucovorin.">
+        <entity id="DDI-DrugBank.d88.s5.e0" charOffset="0-9" type="drug" text="Leucovorin"/>
+        <entity id="DDI-DrugBank.d88.s5.e1" charOffset="33-46"
+            type="drug" text="5-fluorouracil"/>
+        <entity id="DDI-DrugBank.d88.s5.e2" charOffset="97-106"
+            type="drug" text="leucovorin"/>
+        <pair id="DDI-DrugBank.d88.s5.p0" e1="DDI-DrugBank.d88.s5.e0"
+            e2="DDI-DrugBank.d88.s5.e1" ddi="false"/>
+        <pair id="DDI-DrugBank.d88.s5.p1" e1="DDI-DrugBank.d88.s5.e0"
+            e2="DDI-DrugBank.d88.s5.e2" ddi="false"/>
+        <pair id="DDI-DrugBank.d88.s5.p2" e1="DDI-DrugBank.d88.s5.e1"
+            e2="DDI-DrugBank.d88.s5.e2" ddi="true" type="mechanism"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d88.s6" text="Deaths from severe enterocolitis, diarrhea, and dehydration have been reported in elderly patients receiving weekly leucovorin and fluorouracil.">
+        <entity id="DDI-DrugBank.d88.s6.e0" charOffset="116-125"
+            type="drug" text="leucovorin"/>
+        <entity id="DDI-DrugBank.d88.s6.e1" charOffset="131-142"
+            type="drug" text="fluorouracil"/>
+        <pair id="DDI-DrugBank.d88.s6.p0" e1="DDI-DrugBank.d88.s6.e0"
+            e2="DDI-DrugBank.d88.s6.e1" ddi="true" type="effect"/>
+    </sentence>
+</document>

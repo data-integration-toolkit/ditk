@@ -435,24 +435,6 @@ class LSTM_relation_extraction(RelationExtraction):
         saver = tf.train.Saver(tf.global_variables(), max_to_keep=FLAGS.num_checkpoints)
         saver.restore(self.sess, tf.train.latest_checkpoint(model_path))
 
-    def main(self, input_file_path):
-        tf.logging.set_verbosity(tf.logging.INFO)
-
-        file_dict = {
-            "train": input_file_path,
-            "dev": {
-                "data": "./NERdata/dev.txt"
-            },
-            "test": input_file_path
-        }
-
-        train_data, test_data = self.read_dataset(file_dict)
-        self.train(train_data)
-
-        _, output_file_path = self.predict(test_data)
-
-        return output_file_path
-
 
 if __name__ == "__main__":
     FLAGS.embeddings = 'glove300'

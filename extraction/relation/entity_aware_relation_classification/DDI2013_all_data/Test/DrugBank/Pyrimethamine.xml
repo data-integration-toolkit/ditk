@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="DDI-DrugBank.d631">
+    <sentence id="DDI-DrugBank.d631.s0" text="Pyrimethamine may be used with sulfonamides, quinine and other antimalarials, and with other antibiotics. ">
+        <entity id="DDI-DrugBank.d631.s0.e0" charOffset="0-12"
+            type="drug" text="Pyrimethamine"/>
+        <entity id="DDI-DrugBank.d631.s0.e1" charOffset="31-42"
+            type="group" text="sulfonamides"/>
+        <entity id="DDI-DrugBank.d631.s0.e2" charOffset="45-51"
+            type="drug" text="quinine"/>
+        <entity id="DDI-DrugBank.d631.s0.e3" charOffset="63-75"
+            type="group" text="antimalarials"/>
+        <entity id="DDI-DrugBank.d631.s0.e4" charOffset="93-103"
+            type="group" text="antibiotics"/>
+        <pair id="DDI-DrugBank.d631.s0.p0" e1="DDI-DrugBank.d631.s0.e0"
+            e2="DDI-DrugBank.d631.s0.e1" ddi="false"/>
+        <pair id="DDI-DrugBank.d631.s0.p1" e1="DDI-DrugBank.d631.s0.e0"
+            e2="DDI-DrugBank.d631.s0.e2" ddi="false"/>
+        <pair id="DDI-DrugBank.d631.s0.p2" e1="DDI-DrugBank.d631.s0.e0"
+            e2="DDI-DrugBank.d631.s0.e3" ddi="false"/>
+        <pair id="DDI-DrugBank.d631.s0.p3" e1="DDI-DrugBank.d631.s0.e0"
+            e2="DDI-DrugBank.d631.s0.e4" ddi="false"/>
+        <pair id="DDI-DrugBank.d631.s0.p4" e1="DDI-DrugBank.d631.s0.e1"
+            e2="DDI-DrugBank.d631.s0.e2" ddi="false"/>
+        <pair id="DDI-DrugBank.d631.s0.p5" e1="DDI-DrugBank.d631.s0.e1"
+            e2="DDI-DrugBank.d631.s0.e3" ddi="false"/>
+        <pair id="DDI-DrugBank.d631.s0.p6" e1="DDI-DrugBank.d631.s0.e1"
+            e2="DDI-DrugBank.d631.s0.e4" ddi="false"/>
+        <pair id="DDI-DrugBank.d631.s0.p7" e1="DDI-DrugBank.d631.s0.e2"
+            e2="DDI-DrugBank.d631.s0.e3" ddi="false"/>
+        <pair id="DDI-DrugBank.d631.s0.p8" e1="DDI-DrugBank.d631.s0.e2"
+            e2="DDI-DrugBank.d631.s0.e4" ddi="false"/>
+        <pair id="DDI-DrugBank.d631.s0.p9" e1="DDI-DrugBank.d631.s0.e3"
+            e2="DDI-DrugBank.d631.s0.e4" ddi="false"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d631.s1" text="If signs of folate deficiency develop, pyrimethamine should be discontinued. ">
+        <entity id="DDI-DrugBank.d631.s1.e0" charOffset="39-51"
+            type="drug" text="pyrimethamine"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d631.s2" text="Folinic acid (leucovorin) should be administered until normal hematopoiesis is restored. ">
+        <entity id="DDI-DrugBank.d631.s2.e0" charOffset="0-11"
+            type="drug" text="Folinic acid"/>
+        <entity id="DDI-DrugBank.d631.s2.e1" charOffset="14-23"
+            type="drug" text="leucovorin"/>
+        <pair id="DDI-DrugBank.d631.s2.p0" e1="DDI-DrugBank.d631.s2.e0"
+            e2="DDI-DrugBank.d631.s2.e1" ddi="false"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d631.s3" text="Mild hepatotoxicity has been reported in some patients when lorazepam and pyrimethamine were administered concomitantly.">
+        <entity id="DDI-DrugBank.d631.s3.e0" charOffset="60-68"
+            type="drug" text="lorazepam"/>
+        <entity id="DDI-DrugBank.d631.s3.e1" charOffset="74-86"
+            type="drug" text="pyrimethamine"/>
+        <pair id="DDI-DrugBank.d631.s3.p0" e1="DDI-DrugBank.d631.s3.e0"
+            e2="DDI-DrugBank.d631.s3.e1" ddi="true" type="effect"/>
+    </sentence>
+</document>

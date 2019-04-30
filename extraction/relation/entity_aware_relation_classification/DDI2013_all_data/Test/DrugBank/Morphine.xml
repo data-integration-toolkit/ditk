@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="DDI-DrugBank.d637">
+    <sentence id="DDI-DrugBank.d637.s0" text="Use with Other Central Nervous System Depressants: The depressant effects of morphine are potentiated by the presence of other CNS depressants such as alcohol, sedatives, antihistaminics, or psychotropic drugs. ">
+        <entity id="DDI-DrugBank.d637.s0.e0" charOffset="15-48"
+            type="group" text="Central Nervous System Depressants"/>
+        <entity id="DDI-DrugBank.d637.s0.e1" charOffset="77-84"
+            type="drug" text="morphine"/>
+        <entity id="DDI-DrugBank.d637.s0.e2" charOffset="127-141"
+            type="group" text="CNS depressants"/>
+        <entity id="DDI-DrugBank.d637.s0.e3" charOffset="151-157"
+            type="drug" text="alcohol"/>
+        <entity id="DDI-DrugBank.d637.s0.e4" charOffset="160-168"
+            type="group" text="sedatives"/>
+        <entity id="DDI-DrugBank.d637.s0.e5" charOffset="171-185"
+            type="group" text="antihistaminics"/>
+        <entity id="DDI-DrugBank.d637.s0.e6" charOffset="191-208"
+            type="group" text="psychotropic drugs"/>
+        <pair id="DDI-DrugBank.d637.s0.p0" e1="DDI-DrugBank.d637.s0.e0"
+            e2="DDI-DrugBank.d637.s0.e1" ddi="false"/>
+        <pair id="DDI-DrugBank.d637.s0.p1" e1="DDI-DrugBank.d637.s0.e0"
+            e2="DDI-DrugBank.d637.s0.e2" ddi="false"/>
+        <pair id="DDI-DrugBank.d637.s0.p2" e1="DDI-DrugBank.d637.s0.e0"
+            e2="DDI-DrugBank.d637.s0.e3" ddi="false"/>
+        <pair id="DDI-DrugBank.d637.s0.p3" e1="DDI-DrugBank.d637.s0.e0"
+            e2="DDI-DrugBank.d637.s0.e4" ddi="false"/>
+        <pair id="DDI-DrugBank.d637.s0.p4" e1="DDI-DrugBank.d637.s0.e0"
+            e2="DDI-DrugBank.d637.s0.e5" ddi="false"/>
+        <pair id="DDI-DrugBank.d637.s0.p5" e1="DDI-DrugBank.d637.s0.e0"
+            e2="DDI-DrugBank.d637.s0.e6" ddi="false"/>
+        <pair id="DDI-DrugBank.d637.s0.p6" e1="DDI-DrugBank.d637.s0.e1"
+            e2="DDI-DrugBank.d637.s0.e2" ddi="true" type="effect"/>
+        <pair id="DDI-DrugBank.d637.s0.p7" e1="DDI-DrugBank.d637.s0.e1"
+            e2="DDI-DrugBank.d637.s0.e3" ddi="true" type="effect"/>
+        <pair id="DDI-DrugBank.d637.s0.p8" e1="DDI-DrugBank.d637.s0.e1"
+            e2="DDI-DrugBank.d637.s0.e4" ddi="true" type="effect"/>
+        <pair id="DDI-DrugBank.d637.s0.p9" e1="DDI-DrugBank.d637.s0.e1"
+            e2="DDI-DrugBank.d637.s0.e5" ddi="true" type="effect"/>
+        <pair id="DDI-DrugBank.d637.s0.p10" e1="DDI-DrugBank.d637.s0.e1"
+            e2="DDI-DrugBank.d637.s0.e6" ddi="true" type="effect"/>
+        <pair id="DDI-DrugBank.d637.s0.p11" e1="DDI-DrugBank.d637.s0.e2"
+            e2="DDI-DrugBank.d637.s0.e3" ddi="false"/>
+        <pair id="DDI-DrugBank.d637.s0.p12" e1="DDI-DrugBank.d637.s0.e2"
+            e2="DDI-DrugBank.d637.s0.e4" ddi="false"/>
+        <pair id="DDI-DrugBank.d637.s0.p13" e1="DDI-DrugBank.d637.s0.e2"
+            e2="DDI-DrugBank.d637.s0.e5" ddi="false"/>
+        <pair id="DDI-DrugBank.d637.s0.p14" e1="DDI-DrugBank.d637.s0.e2"
+            e2="DDI-DrugBank.d637.s0.e6" ddi="false"/>
+        <pair id="DDI-DrugBank.d637.s0.p15" e1="DDI-DrugBank.d637.s0.e3"
+            e2="DDI-DrugBank.d637.s0.e4" ddi="false"/>
+        <pair id="DDI-DrugBank.d637.s0.p16" e1="DDI-DrugBank.d637.s0.e3"
+            e2="DDI-DrugBank.d637.s0.e5" ddi="false"/>
+        <pair id="DDI-DrugBank.d637.s0.p17" e1="DDI-DrugBank.d637.s0.e3"
+            e2="DDI-DrugBank.d637.s0.e6" ddi="false"/>
+        <pair id="DDI-DrugBank.d637.s0.p18" e1="DDI-DrugBank.d637.s0.e4"
+            e2="DDI-DrugBank.d637.s0.e5" ddi="false"/>
+        <pair id="DDI-DrugBank.d637.s0.p19" e1="DDI-DrugBank.d637.s0.e4"
+            e2="DDI-DrugBank.d637.s0.e6" ddi="false"/>
+        <pair id="DDI-DrugBank.d637.s0.p20" e1="DDI-DrugBank.d637.s0.e5"
+            e2="DDI-DrugBank.d637.s0.e6" ddi="false"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d637.s1" text="Use of neuroleptics in conjunction with oral morphine may increase the risk of respiratory depression, hypotension and profound sedation or coma. ">
+        <entity id="DDI-DrugBank.d637.s1.e0" charOffset="7-18"
+            type="group" text="neuroleptics"/>
+        <entity id="DDI-DrugBank.d637.s1.e1" charOffset="45-52"
+            type="drug" text="morphine"/>
+        <pair id="DDI-DrugBank.d637.s1.p0" e1="DDI-DrugBank.d637.s1.e0"
+            e2="DDI-DrugBank.d637.s1.e1" ddi="true" type="effect"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d637.s2" text="Interaction with Mixed Agonist/Antagonist Opioid Analgesics: Agonist/antagonist analgesics (i.e., pentazocine, nalbuphine, butorphanol, or buprenorphine) should NOT be administered to patients who have received or are receiving a course of therapy with a proof opioid agonist analgesic. ">
+        <entity id="DDI-DrugBank.d637.s2.e0" charOffset="17-58"
+            type="group" text="Mixed Agonist/Antagonist Opioid Analgesics"/>
+        <entity id="DDI-DrugBank.d637.s2.e1" charOffset="61-89"
+            type="group" text="Agonist/antagonist analgesics"/>
+        <entity id="DDI-DrugBank.d637.s2.e2" charOffset="98-108"
+            type="drug" text="pentazocine"/>
+        <entity id="DDI-DrugBank.d637.s2.e3" charOffset="111-120"
+            type="drug" text="nalbuphine"/>
+        <entity id="DDI-DrugBank.d637.s2.e4" charOffset="123-133"
+            type="drug" text="butorphanol"/>
+        <entity id="DDI-DrugBank.d637.s2.e5" charOffset="139-151"
+            type="drug" text="buprenorphine"/>
+        <entity id="DDI-DrugBank.d637.s2.e6" charOffset="261-284"
+            type="group" text="opioid agonist analgesic"/>
+        <pair id="DDI-DrugBank.d637.s2.p0" e1="DDI-DrugBank.d637.s2.e0"
+            e2="DDI-DrugBank.d637.s2.e1" ddi="false"/>
+        <pair id="DDI-DrugBank.d637.s2.p1" e1="DDI-DrugBank.d637.s2.e0"
+            e2="DDI-DrugBank.d637.s2.e2" ddi="false"/>
+        <pair id="DDI-DrugBank.d637.s2.p2" e1="DDI-DrugBank.d637.s2.e0"
+            e2="DDI-DrugBank.d637.s2.e3" ddi="false"/>
+        <pair id="DDI-DrugBank.d637.s2.p3" e1="DDI-DrugBank.d637.s2.e0"
+            e2="DDI-DrugBank.d637.s2.e4" ddi="false"/>
+        <pair id="DDI-DrugBank.d637.s2.p4" e1="DDI-DrugBank.d637.s2.e0"
+            e2="DDI-DrugBank.d637.s2.e5" ddi="false"/>
+        <pair id="DDI-DrugBank.d637.s2.p5" e1="DDI-DrugBank.d637.s2.e0"
+            e2="DDI-DrugBank.d637.s2.e6" ddi="false"/>
+        <pair id="DDI-DrugBank.d637.s2.p6" e1="DDI-DrugBank.d637.s2.e1"
+            e2="DDI-DrugBank.d637.s2.e2" ddi="false"/>
+        <pair id="DDI-DrugBank.d637.s2.p7" e1="DDI-DrugBank.d637.s2.e1"
+            e2="DDI-DrugBank.d637.s2.e3" ddi="false"/>
+        <pair id="DDI-DrugBank.d637.s2.p8" e1="DDI-DrugBank.d637.s2.e1"
+            e2="DDI-DrugBank.d637.s2.e4" ddi="false"/>
+        <pair id="DDI-DrugBank.d637.s2.p9" e1="DDI-DrugBank.d637.s2.e1"
+            e2="DDI-DrugBank.d637.s2.e5" ddi="false"/>
+        <pair id="DDI-DrugBank.d637.s2.p10" e1="DDI-DrugBank.d637.s2.e1"
+            e2="DDI-DrugBank.d637.s2.e6" ddi="true" type="advise"/>
+        <pair id="DDI-DrugBank.d637.s2.p11" e1="DDI-DrugBank.d637.s2.e2"
+            e2="DDI-DrugBank.d637.s2.e3" ddi="false"/>
+        <pair id="DDI-DrugBank.d637.s2.p12" e1="DDI-DrugBank.d637.s2.e2"
+            e2="DDI-DrugBank.d637.s2.e4" ddi="false"/>
+        <pair id="DDI-DrugBank.d637.s2.p13" e1="DDI-DrugBank.d637.s2.e2"
+            e2="DDI-DrugBank.d637.s2.e5" ddi="false"/>
+        <pair id="DDI-DrugBank.d637.s2.p14" e1="DDI-DrugBank.d637.s2.e2"
+            e2="DDI-DrugBank.d637.s2.e6" ddi="true" type="advise"/>
+        <pair id="DDI-DrugBank.d637.s2.p15" e1="DDI-DrugBank.d637.s2.e3"
+            e2="DDI-DrugBank.d637.s2.e4" ddi="false"/>
+        <pair id="DDI-DrugBank.d637.s2.p16" e1="DDI-DrugBank.d637.s2.e3"
+            e2="DDI-DrugBank.d637.s2.e5" ddi="false"/>
+        <pair id="DDI-DrugBank.d637.s2.p17" e1="DDI-DrugBank.d637.s2.e3"
+            e2="DDI-DrugBank.d637.s2.e6" ddi="true" type="advise"/>
+        <pair id="DDI-DrugBank.d637.s2.p18" e1="DDI-DrugBank.d637.s2.e4"
+            e2="DDI-DrugBank.d637.s2.e5" ddi="false"/>
+        <pair id="DDI-DrugBank.d637.s2.p19" e1="DDI-DrugBank.d637.s2.e4"
+            e2="DDI-DrugBank.d637.s2.e6" ddi="true" type="advise"/>
+        <pair id="DDI-DrugBank.d637.s2.p20" e1="DDI-DrugBank.d637.s2.e5"
+            e2="DDI-DrugBank.d637.s2.e6" ddi="true" type="advise"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d637.s3" text="In these patients, the mixed agonist/antagonist may alter the analgesic effect or may precipitate withdrawal symptoms."/>
+</document>

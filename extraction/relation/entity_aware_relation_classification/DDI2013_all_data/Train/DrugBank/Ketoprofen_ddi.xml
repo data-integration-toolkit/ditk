@@ -1,0 +1,298 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="DDI-DrugBank.d499">
+    <sentence id="DDI-DrugBank.d499.s0" text="The following drug interactions were studied with ketoprofen doses of 200 mg/day.">
+        <entity id="DDI-DrugBank.d499.s0.e0" charOffset="50-59"
+            type="drug" text="ketoprofen"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d499.s1" text="The possibility of increased interaction should be kept in mind when Orudis doses greater than 50 mg as a single dose or 200 mg of ketoprofen per day are used concomitantly with highly bound drugs.">
+        <entity id="DDI-DrugBank.d499.s1.e0" charOffset="69-74"
+            type="brand" text="Orudis"/>
+        <entity id="DDI-DrugBank.d499.s1.e1" charOffset="131-140"
+            type="drug" text="ketoprofen"/>
+        <pair id="DDI-DrugBank.d499.s1.p0" e1="DDI-DrugBank.d499.s1.e0"
+            e2="DDI-DrugBank.d499.s1.e1" ddi="false"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d499.s2" text="1."/>
+    <sentence id="DDI-DrugBank.d499.s3" text="Antacids: Concomitant administration of magnesium hydroxide and aluminum hydroxide does not interfere with the rate or extent of the absorption of ketoprofen administered as Orudis.">
+        <entity id="DDI-DrugBank.d499.s3.e0" charOffset="0-7"
+            type="group" text="Antacids"/>
+        <entity id="DDI-DrugBank.d499.s3.e1" charOffset="40-58"
+            type="drug" text="magnesium hydroxide"/>
+        <entity id="DDI-DrugBank.d499.s3.e2" charOffset="64-81"
+            type="drug" text="aluminum hydroxide"/>
+        <entity id="DDI-DrugBank.d499.s3.e3" charOffset="147-156"
+            type="drug" text="ketoprofen"/>
+        <entity id="DDI-DrugBank.d499.s3.e4" charOffset="174-179"
+            type="brand" text="Orudis"/>
+        <pair id="DDI-DrugBank.d499.s3.p0" e1="DDI-DrugBank.d499.s3.e0"
+            e2="DDI-DrugBank.d499.s3.e1" ddi="false"/>
+        <pair id="DDI-DrugBank.d499.s3.p1" e1="DDI-DrugBank.d499.s3.e0"
+            e2="DDI-DrugBank.d499.s3.e2" ddi="false"/>
+        <pair id="DDI-DrugBank.d499.s3.p2" e1="DDI-DrugBank.d499.s3.e0"
+            e2="DDI-DrugBank.d499.s3.e3" ddi="false"/>
+        <pair id="DDI-DrugBank.d499.s3.p3" e1="DDI-DrugBank.d499.s3.e0"
+            e2="DDI-DrugBank.d499.s3.e4" ddi="false"/>
+        <pair id="DDI-DrugBank.d499.s3.p4" e1="DDI-DrugBank.d499.s3.e1"
+            e2="DDI-DrugBank.d499.s3.e2" ddi="false"/>
+        <pair id="DDI-DrugBank.d499.s3.p5" e1="DDI-DrugBank.d499.s3.e1"
+            e2="DDI-DrugBank.d499.s3.e3" ddi="false"/>
+        <pair id="DDI-DrugBank.d499.s3.p6" e1="DDI-DrugBank.d499.s3.e1"
+            e2="DDI-DrugBank.d499.s3.e4" ddi="false"/>
+        <pair id="DDI-DrugBank.d499.s3.p7" e1="DDI-DrugBank.d499.s3.e2"
+            e2="DDI-DrugBank.d499.s3.e3" ddi="false"/>
+        <pair id="DDI-DrugBank.d499.s3.p8" e1="DDI-DrugBank.d499.s3.e2"
+            e2="DDI-DrugBank.d499.s3.e4" ddi="false"/>
+        <pair id="DDI-DrugBank.d499.s3.p9" e1="DDI-DrugBank.d499.s3.e3"
+            e2="DDI-DrugBank.d499.s3.e4" ddi="false"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d499.s4" text="2."/>
+    <sentence id="DDI-DrugBank.d499.s5" text="Aspirin: Ketoprofen does not alter aspirin absorption;">
+        <entity id="DDI-DrugBank.d499.s5.e0" charOffset="0-6"
+            type="brand" text="Aspirin"/>
+        <entity id="DDI-DrugBank.d499.s5.e1" charOffset="9-18"
+            type="drug" text="Ketoprofen"/>
+        <entity id="DDI-DrugBank.d499.s5.e2" charOffset="35-41"
+            type="brand" text="aspirin"/>
+        <pair id="DDI-DrugBank.d499.s5.p0" e1="DDI-DrugBank.d499.s5.e0"
+            e2="DDI-DrugBank.d499.s5.e1" ddi="false"/>
+        <pair id="DDI-DrugBank.d499.s5.p1" e1="DDI-DrugBank.d499.s5.e0"
+            e2="DDI-DrugBank.d499.s5.e2" ddi="false"/>
+        <pair id="DDI-DrugBank.d499.s5.p2" e1="DDI-DrugBank.d499.s5.e1"
+            e2="DDI-DrugBank.d499.s5.e2" ddi="false"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d499.s6" text="however, in a study of 12 normal subjects, concurrent administration of aspirin decreased ketoprofen protein binding and increased ketoprofen plasma clearance from 0.07 L/kg/h without aspirin to 0.11 L/kg/h with aspirin.">
+        <entity id="DDI-DrugBank.d499.s6.e0" charOffset="72-78"
+            type="brand" text="aspirin"/>
+        <entity id="DDI-DrugBank.d499.s6.e1" charOffset="90-99"
+            type="drug" text="ketoprofen"/>
+        <entity id="DDI-DrugBank.d499.s6.e2" charOffset="131-140"
+            type="drug" text="ketoprofen"/>
+        <entity id="DDI-DrugBank.d499.s6.e3" charOffset="184-190"
+            type="brand" text="aspirin"/>
+        <entity id="DDI-DrugBank.d499.s6.e4" charOffset="212-218"
+            type="brand" text="aspirin"/>
+        <pair id="DDI-DrugBank.d499.s6.p0" e1="DDI-DrugBank.d499.s6.e0"
+            e2="DDI-DrugBank.d499.s6.e1" ddi="true" type="mechanism"/>
+        <pair id="DDI-DrugBank.d499.s6.p1" e1="DDI-DrugBank.d499.s6.e0"
+            e2="DDI-DrugBank.d499.s6.e2" ddi="true" type="mechanism"/>
+        <pair id="DDI-DrugBank.d499.s6.p2" e1="DDI-DrugBank.d499.s6.e0"
+            e2="DDI-DrugBank.d499.s6.e3" ddi="false"/>
+        <pair id="DDI-DrugBank.d499.s6.p3" e1="DDI-DrugBank.d499.s6.e0"
+            e2="DDI-DrugBank.d499.s6.e4" ddi="false"/>
+        <pair id="DDI-DrugBank.d499.s6.p4" e1="DDI-DrugBank.d499.s6.e1"
+            e2="DDI-DrugBank.d499.s6.e2" ddi="false"/>
+        <pair id="DDI-DrugBank.d499.s6.p5" e1="DDI-DrugBank.d499.s6.e1"
+            e2="DDI-DrugBank.d499.s6.e3" ddi="false"/>
+        <pair id="DDI-DrugBank.d499.s6.p6" e1="DDI-DrugBank.d499.s6.e1"
+            e2="DDI-DrugBank.d499.s6.e4" ddi="false"/>
+        <pair id="DDI-DrugBank.d499.s6.p7" e1="DDI-DrugBank.d499.s6.e2"
+            e2="DDI-DrugBank.d499.s6.e3" ddi="false"/>
+        <pair id="DDI-DrugBank.d499.s6.p8" e1="DDI-DrugBank.d499.s6.e2"
+            e2="DDI-DrugBank.d499.s6.e4" ddi="false"/>
+        <pair id="DDI-DrugBank.d499.s6.p9" e1="DDI-DrugBank.d499.s6.e3"
+            e2="DDI-DrugBank.d499.s6.e4" ddi="false"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d499.s7" text="The clinical significance of these changes has not been adequately studied."/>
+    <sentence id="DDI-DrugBank.d499.s8" text="Therefore, concurrent use of aspirin and ketoprofen is not recommended.">
+        <entity id="DDI-DrugBank.d499.s8.e0" charOffset="29-35"
+            type="brand" text="aspirin"/>
+        <entity id="DDI-DrugBank.d499.s8.e1" charOffset="41-50"
+            type="drug" text="ketoprofen"/>
+        <pair id="DDI-DrugBank.d499.s8.p0" e1="DDI-DrugBank.d499.s8.e0"
+            e2="DDI-DrugBank.d499.s8.e1" ddi="true" type="advise"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d499.s9" text="3."/>
+    <sentence id="DDI-DrugBank.d499.s10" text="Diuretic: Hydrochlorothiazide, given concomitantly with ketoprofen, produces a reduction in urinary potassium and chloride excretion compared to hydrochlorothiazide alone.">
+        <entity id="DDI-DrugBank.d499.s10.e0" charOffset="0-7"
+            type="group" text="Diuretic"/>
+        <entity id="DDI-DrugBank.d499.s10.e1" charOffset="10-28"
+            type="drug" text="Hydrochlorothiazide"/>
+        <entity id="DDI-DrugBank.d499.s10.e2" charOffset="56-65"
+            type="drug" text="ketoprofen"/>
+        <entity id="DDI-DrugBank.d499.s10.e3" charOffset="145-163"
+            type="drug" text="hydrochlorothiazide"/>
+        <pair id="DDI-DrugBank.d499.s10.p0"
+            e1="DDI-DrugBank.d499.s10.e0" e2="DDI-DrugBank.d499.s10.e1" ddi="false"/>
+        <pair id="DDI-DrugBank.d499.s10.p1"
+            e1="DDI-DrugBank.d499.s10.e0" e2="DDI-DrugBank.d499.s10.e2" ddi="false"/>
+        <pair id="DDI-DrugBank.d499.s10.p2"
+            e1="DDI-DrugBank.d499.s10.e0" e2="DDI-DrugBank.d499.s10.e3" ddi="false"/>
+        <pair id="DDI-DrugBank.d499.s10.p3"
+            e1="DDI-DrugBank.d499.s10.e1" e2="DDI-DrugBank.d499.s10.e2"
+            ddi="true" type="effect"/>
+        <pair id="DDI-DrugBank.d499.s10.p4"
+            e1="DDI-DrugBank.d499.s10.e1" e2="DDI-DrugBank.d499.s10.e3" ddi="false"/>
+        <pair id="DDI-DrugBank.d499.s10.p5"
+            e1="DDI-DrugBank.d499.s10.e2" e2="DDI-DrugBank.d499.s10.e3" ddi="false"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d499.s11" text="Patients taking diuretics are at a greater risk of developing renal failure secondary to a decrease in renal blood flow caused by prostaglandin inhibition.">
+        <entity id="DDI-DrugBank.d499.s11.e0" charOffset="16-24"
+            type="group" text="diuretics"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d499.s12" text="4."/>
+    <sentence id="DDI-DrugBank.d499.s13" text="Digoxin: In a study in 12 patients with congestive heart failure where ketoprofen and digoxin were concomitantly administered, ketoprofen did not alter the serum levels of digoxin.">
+        <entity id="DDI-DrugBank.d499.s13.e0" charOffset="0-6"
+            type="drug" text="Digoxin"/>
+        <entity id="DDI-DrugBank.d499.s13.e1" charOffset="71-80"
+            type="drug" text="ketoprofen"/>
+        <entity id="DDI-DrugBank.d499.s13.e2" charOffset="86-92"
+            type="drug" text="digoxin"/>
+        <entity id="DDI-DrugBank.d499.s13.e3" charOffset="127-136"
+            type="drug" text="ketoprofen"/>
+        <entity id="DDI-DrugBank.d499.s13.e4" charOffset="172-178"
+            type="drug" text="digoxin"/>
+        <pair id="DDI-DrugBank.d499.s13.p0"
+            e1="DDI-DrugBank.d499.s13.e0" e2="DDI-DrugBank.d499.s13.e1" ddi="false"/>
+        <pair id="DDI-DrugBank.d499.s13.p1"
+            e1="DDI-DrugBank.d499.s13.e0" e2="DDI-DrugBank.d499.s13.e2" ddi="false"/>
+        <pair id="DDI-DrugBank.d499.s13.p2"
+            e1="DDI-DrugBank.d499.s13.e0" e2="DDI-DrugBank.d499.s13.e3" ddi="false"/>
+        <pair id="DDI-DrugBank.d499.s13.p3"
+            e1="DDI-DrugBank.d499.s13.e0" e2="DDI-DrugBank.d499.s13.e4" ddi="false"/>
+        <pair id="DDI-DrugBank.d499.s13.p4"
+            e1="DDI-DrugBank.d499.s13.e1" e2="DDI-DrugBank.d499.s13.e2" ddi="false"/>
+        <pair id="DDI-DrugBank.d499.s13.p5"
+            e1="DDI-DrugBank.d499.s13.e1" e2="DDI-DrugBank.d499.s13.e3" ddi="false"/>
+        <pair id="DDI-DrugBank.d499.s13.p6"
+            e1="DDI-DrugBank.d499.s13.e1" e2="DDI-DrugBank.d499.s13.e4" ddi="false"/>
+        <pair id="DDI-DrugBank.d499.s13.p7"
+            e1="DDI-DrugBank.d499.s13.e2" e2="DDI-DrugBank.d499.s13.e3" ddi="false"/>
+        <pair id="DDI-DrugBank.d499.s13.p8"
+            e1="DDI-DrugBank.d499.s13.e2" e2="DDI-DrugBank.d499.s13.e4" ddi="false"/>
+        <pair id="DDI-DrugBank.d499.s13.p9"
+            e1="DDI-DrugBank.d499.s13.e3" e2="DDI-DrugBank.d499.s13.e4" ddi="false"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d499.s14" text="5."/>
+    <sentence id="DDI-DrugBank.d499.s15" text="Warfarin: In a short-term controlled study in 14 normal volunteers, ketoprofen did not significantly interfere with the effect of warfarin on prothrombin time.">
+        <entity id="DDI-DrugBank.d499.s15.e0" charOffset="0-7"
+            type="drug" text="Warfarin"/>
+        <entity id="DDI-DrugBank.d499.s15.e1" charOffset="68-77"
+            type="drug" text="ketoprofen"/>
+        <entity id="DDI-DrugBank.d499.s15.e2" charOffset="130-137"
+            type="drug" text="warfarin"/>
+        <pair id="DDI-DrugBank.d499.s15.p0"
+            e1="DDI-DrugBank.d499.s15.e0" e2="DDI-DrugBank.d499.s15.e1" ddi="false"/>
+        <pair id="DDI-DrugBank.d499.s15.p1"
+            e1="DDI-DrugBank.d499.s15.e0" e2="DDI-DrugBank.d499.s15.e2" ddi="false"/>
+        <pair id="DDI-DrugBank.d499.s15.p2"
+            e1="DDI-DrugBank.d499.s15.e1" e2="DDI-DrugBank.d499.s15.e2" ddi="false"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d499.s16" text="Bleeding from a number of sites may be a complication of warfarin treatment and GI bleeding a complication of ketoprofen treatment.">
+        <entity id="DDI-DrugBank.d499.s16.e0" charOffset="57-64"
+            type="drug" text="warfarin"/>
+        <entity id="DDI-DrugBank.d499.s16.e1" charOffset="110-119"
+            type="drug" text="ketoprofen"/>
+        <pair id="DDI-DrugBank.d499.s16.p0"
+            e1="DDI-DrugBank.d499.s16.e0" e2="DDI-DrugBank.d499.s16.e1" ddi="false"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d499.s17" text="Because prostaglandina play an important role in hemostasis and ketoprofen has an effect on platelet function as well, concurent therapy with ketoprofen and warfarin requires close monitoring of patients on both drugs.">
+        <entity id="DDI-DrugBank.d499.s17.e0" charOffset="64-73"
+            type="drug" text="ketoprofen"/>
+        <entity id="DDI-DrugBank.d499.s17.e1" charOffset="142-151"
+            type="drug" text="ketoprofen"/>
+        <entity id="DDI-DrugBank.d499.s17.e2" charOffset="157-164"
+            type="drug" text="warfarin"/>
+        <pair id="DDI-DrugBank.d499.s17.p0"
+            e1="DDI-DrugBank.d499.s17.e0" e2="DDI-DrugBank.d499.s17.e1" ddi="false"/>
+        <pair id="DDI-DrugBank.d499.s17.p1"
+            e1="DDI-DrugBank.d499.s17.e0" e2="DDI-DrugBank.d499.s17.e2" ddi="false"/>
+        <pair id="DDI-DrugBank.d499.s17.p2"
+            e1="DDI-DrugBank.d499.s17.e1" e2="DDI-DrugBank.d499.s17.e2"
+            ddi="true" type="advise"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d499.s18" text="6."/>
+    <sentence id="DDI-DrugBank.d499.s19" text="Probenecid: Probenecid increases both free and bound ketoprofen by reducing the plasma clearance of ketoprofen to about one-third, as well as decreasing its protein binding.">
+        <entity id="DDI-DrugBank.d499.s19.e0" charOffset="0-9"
+            type="drug" text="Probenecid"/>
+        <entity id="DDI-DrugBank.d499.s19.e1" charOffset="12-21"
+            type="drug" text="Probenecid"/>
+        <entity id="DDI-DrugBank.d499.s19.e2" charOffset="53-62"
+            type="drug" text="ketoprofen"/>
+        <entity id="DDI-DrugBank.d499.s19.e3" charOffset="100-109"
+            type="drug" text="ketoprofen"/>
+        <pair id="DDI-DrugBank.d499.s19.p0"
+            e1="DDI-DrugBank.d499.s19.e0" e2="DDI-DrugBank.d499.s19.e1" ddi="false"/>
+        <pair id="DDI-DrugBank.d499.s19.p1"
+            e1="DDI-DrugBank.d499.s19.e0" e2="DDI-DrugBank.d499.s19.e2" ddi="false"/>
+        <pair id="DDI-DrugBank.d499.s19.p2"
+            e1="DDI-DrugBank.d499.s19.e0" e2="DDI-DrugBank.d499.s19.e3" ddi="false"/>
+        <pair id="DDI-DrugBank.d499.s19.p3"
+            e1="DDI-DrugBank.d499.s19.e1" e2="DDI-DrugBank.d499.s19.e2"
+            ddi="true" type="mechanism"/>
+        <pair id="DDI-DrugBank.d499.s19.p4"
+            e1="DDI-DrugBank.d499.s19.e1" e2="DDI-DrugBank.d499.s19.e3" ddi="false"/>
+        <pair id="DDI-DrugBank.d499.s19.p5"
+            e1="DDI-DrugBank.d499.s19.e2" e2="DDI-DrugBank.d499.s19.e3" ddi="false"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d499.s20" text="Therefore, the combination of ketoprofen and probenecid is not recommended.">
+        <entity id="DDI-DrugBank.d499.s20.e0" charOffset="30-39"
+            type="drug" text="ketoprofen"/>
+        <entity id="DDI-DrugBank.d499.s20.e1" charOffset="45-54"
+            type="drug" text="probenecid"/>
+        <pair id="DDI-DrugBank.d499.s20.p0"
+            e1="DDI-DrugBank.d499.s20.e0" e2="DDI-DrugBank.d499.s20.e1"
+            ddi="true" type="advise"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d499.s21" text="7."/>
+    <sentence id="DDI-DrugBank.d499.s22" text="Methotrexate: Ketoprofen, like other NSAIDs, may cause changes in the elimination of methotrexate leading to elevated serum levels of the drug and increased toxicity.">
+        <entity id="DDI-DrugBank.d499.s22.e0" charOffset="0-11"
+            type="drug" text="Methotrexate"/>
+        <entity id="DDI-DrugBank.d499.s22.e1" charOffset="14-23"
+            type="drug" text="Ketoprofen"/>
+        <entity id="DDI-DrugBank.d499.s22.e2" charOffset="37-42"
+            type="group" text="NSAIDs"/>
+        <entity id="DDI-DrugBank.d499.s22.e3" charOffset="85-96"
+            type="drug" text="methotrexate"/>
+        <pair id="DDI-DrugBank.d499.s22.p0"
+            e1="DDI-DrugBank.d499.s22.e0" e2="DDI-DrugBank.d499.s22.e1" ddi="false"/>
+        <pair id="DDI-DrugBank.d499.s22.p1"
+            e1="DDI-DrugBank.d499.s22.e0" e2="DDI-DrugBank.d499.s22.e2" ddi="false"/>
+        <pair id="DDI-DrugBank.d499.s22.p2"
+            e1="DDI-DrugBank.d499.s22.e0" e2="DDI-DrugBank.d499.s22.e3" ddi="false"/>
+        <pair id="DDI-DrugBank.d499.s22.p3"
+            e1="DDI-DrugBank.d499.s22.e1" e2="DDI-DrugBank.d499.s22.e2" ddi="false"/>
+        <pair id="DDI-DrugBank.d499.s22.p4"
+            e1="DDI-DrugBank.d499.s22.e1" e2="DDI-DrugBank.d499.s22.e3"
+            ddi="true" type="mechanism"/>
+        <pair id="DDI-DrugBank.d499.s22.p5"
+            e1="DDI-DrugBank.d499.s22.e2" e2="DDI-DrugBank.d499.s22.e3"
+            ddi="true" type="mechanism"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d499.s23" text="8."/>
+    <sentence id="DDI-DrugBank.d499.s24" text="Lithium: Nonsteroidal anti-inflammatory agents have been reported to increase steadystate plasma lithium levels.">
+        <entity id="DDI-DrugBank.d499.s24.e0" charOffset="0-6"
+            type="drug" text="Lithium"/>
+        <entity id="DDI-DrugBank.d499.s24.e1" charOffset="9-45"
+            type="group" text="Nonsteroidal anti-inflammatory agents"/>
+        <entity id="DDI-DrugBank.d499.s24.e2" charOffset="97-103"
+            type="drug" text="lithium"/>
+        <pair id="DDI-DrugBank.d499.s24.p0"
+            e1="DDI-DrugBank.d499.s24.e0" e2="DDI-DrugBank.d499.s24.e1" ddi="false"/>
+        <pair id="DDI-DrugBank.d499.s24.p1"
+            e1="DDI-DrugBank.d499.s24.e0" e2="DDI-DrugBank.d499.s24.e2" ddi="false"/>
+        <pair id="DDI-DrugBank.d499.s24.p2"
+            e1="DDI-DrugBank.d499.s24.e1" e2="DDI-DrugBank.d499.s24.e2"
+            ddi="true" type="mechanism"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d499.s25" text="It is recommended that plasma lithium levels be monitored when ketoprofen is coadministered with lithium.">
+        <entity id="DDI-DrugBank.d499.s25.e0" charOffset="30-36"
+            type="drug" text="lithium"/>
+        <entity id="DDI-DrugBank.d499.s25.e1" charOffset="63-72"
+            type="drug" text="ketoprofen"/>
+        <entity id="DDI-DrugBank.d499.s25.e2" charOffset="97-103"
+            type="drug" text="lithium"/>
+        <pair id="DDI-DrugBank.d499.s25.p0"
+            e1="DDI-DrugBank.d499.s25.e0" e2="DDI-DrugBank.d499.s25.e1" ddi="false"/>
+        <pair id="DDI-DrugBank.d499.s25.p1"
+            e1="DDI-DrugBank.d499.s25.e0" e2="DDI-DrugBank.d499.s25.e2" ddi="false"/>
+        <pair id="DDI-DrugBank.d499.s25.p2"
+            e1="DDI-DrugBank.d499.s25.e1" e2="DDI-DrugBank.d499.s25.e2"
+            ddi="true" type="advise"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d499.s26" text="DRUG/LABORATORY TEST INTERACTIONS: EFFECT ON BLOOD COAGULATION Ketoprofen decreases platelet adhesion and aggregation.">
+        <entity id="DDI-DrugBank.d499.s26.e0" charOffset="63-72"
+            type="drug" text="Ketoprofen"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d499.s27" text="Therefore, it can prolong bleeding time by approximately 3 to 4 minutes from baseline values."/>
+    <sentence id="DDI-DrugBank.d499.s28" text="There is no significant change in platelet count, prothrombin time, partial thromboplastin time, or thrombin time."/>
+</document>

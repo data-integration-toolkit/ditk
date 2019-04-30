@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="DDI-DrugBank.d448">
+    <sentence id="DDI-DrugBank.d448.s0" text="MAO inhibitors prolong and intensify the effects of antihistamines.">
+        <entity id="DDI-DrugBank.d448.s0.e0" charOffset="0-13"
+            type="group" text="MAO inhibitors"/>
+        <entity id="DDI-DrugBank.d448.s0.e1" charOffset="52-65"
+            type="group" text="antihistamines"/>
+        <pair id="DDI-DrugBank.d448.s0.p0" e1="DDI-DrugBank.d448.s0.e0"
+            e2="DDI-DrugBank.d448.s0.e1" ddi="true" type="effect"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d448.s1" text="Concomitant use of antihistamines with alcohol, tricyclic antidepressants, barbiturates, or other central nervous system depressants may have an additive effect.">
+        <entity id="DDI-DrugBank.d448.s1.e0" charOffset="19-32"
+            type="group" text="antihistamines"/>
+        <entity id="DDI-DrugBank.d448.s1.e1" charOffset="39-45"
+            type="drug" text="alcohol"/>
+        <entity id="DDI-DrugBank.d448.s1.e2" charOffset="48-72"
+            type="group" text="tricyclic antidepressants"/>
+        <entity id="DDI-DrugBank.d448.s1.e3" charOffset="75-86"
+            type="group" text="barbiturates"/>
+        <entity id="DDI-DrugBank.d448.s1.e4" charOffset="98-131"
+            type="group" text="central nervous system depressants"/>
+        <pair id="DDI-DrugBank.d448.s1.p0" e1="DDI-DrugBank.d448.s1.e0"
+            e2="DDI-DrugBank.d448.s1.e1" ddi="true" type="effect"/>
+        <pair id="DDI-DrugBank.d448.s1.p1" e1="DDI-DrugBank.d448.s1.e0"
+            e2="DDI-DrugBank.d448.s1.e2" ddi="true" type="effect"/>
+        <pair id="DDI-DrugBank.d448.s1.p2" e1="DDI-DrugBank.d448.s1.e0"
+            e2="DDI-DrugBank.d448.s1.e3" ddi="true" type="effect"/>
+        <pair id="DDI-DrugBank.d448.s1.p3" e1="DDI-DrugBank.d448.s1.e0"
+            e2="DDI-DrugBank.d448.s1.e4" ddi="true" type="effect"/>
+        <pair id="DDI-DrugBank.d448.s1.p4" e1="DDI-DrugBank.d448.s1.e1"
+            e2="DDI-DrugBank.d448.s1.e2" ddi="false"/>
+        <pair id="DDI-DrugBank.d448.s1.p5" e1="DDI-DrugBank.d448.s1.e1"
+            e2="DDI-DrugBank.d448.s1.e3" ddi="false"/>
+        <pair id="DDI-DrugBank.d448.s1.p6" e1="DDI-DrugBank.d448.s1.e1"
+            e2="DDI-DrugBank.d448.s1.e4" ddi="false"/>
+        <pair id="DDI-DrugBank.d448.s1.p7" e1="DDI-DrugBank.d448.s1.e2"
+            e2="DDI-DrugBank.d448.s1.e3" ddi="false"/>
+        <pair id="DDI-DrugBank.d448.s1.p8" e1="DDI-DrugBank.d448.s1.e2"
+            e2="DDI-DrugBank.d448.s1.e4" ddi="false"/>
+        <pair id="DDI-DrugBank.d448.s1.p9" e1="DDI-DrugBank.d448.s1.e3"
+            e2="DDI-DrugBank.d448.s1.e4" ddi="false"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d448.s2" text="When sympathomimetic drugs are given to patients receiving monoamine oxidase inhibitors, hypertensive reactions, including hypertensive crises, may occur.">
+        <entity id="DDI-DrugBank.d448.s2.e0" charOffset="5-25"
+            type="group" text="sympathomimetic drugs"/>
+        <entity id="DDI-DrugBank.d448.s2.e1" charOffset="59-86"
+            type="group" text="monoamine oxidase inhibitors"/>
+        <pair id="DDI-DrugBank.d448.s2.p0" e1="DDI-DrugBank.d448.s2.e0"
+            e2="DDI-DrugBank.d448.s2.e1" ddi="true" type="effect"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d448.s3" text="The antihypertensive effects of methyldopa, mecamylamine, reserpine, and veratrum alkaloids may be reduced by sympathomimetics.">
+        <entity id="DDI-DrugBank.d448.s3.e0" charOffset="32-41"
+            type="drug" text="methyldopa"/>
+        <entity id="DDI-DrugBank.d448.s3.e1" charOffset="44-55"
+            type="drug" text="mecamylamine"/>
+        <entity id="DDI-DrugBank.d448.s3.e2" charOffset="58-66"
+            type="drug" text="reserpine"/>
+        <entity id="DDI-DrugBank.d448.s3.e3" charOffset="73-90"
+            type="drug" text="veratrum alkaloids"/>
+        <entity id="DDI-DrugBank.d448.s3.e4" charOffset="110-125"
+            type="group" text="sympathomimetics"/>
+        <pair id="DDI-DrugBank.d448.s3.p0" e1="DDI-DrugBank.d448.s3.e0"
+            e2="DDI-DrugBank.d448.s3.e1" ddi="false"/>
+        <pair id="DDI-DrugBank.d448.s3.p1" e1="DDI-DrugBank.d448.s3.e0"
+            e2="DDI-DrugBank.d448.s3.e2" ddi="false"/>
+        <pair id="DDI-DrugBank.d448.s3.p2" e1="DDI-DrugBank.d448.s3.e0"
+            e2="DDI-DrugBank.d448.s3.e3" ddi="false"/>
+        <pair id="DDI-DrugBank.d448.s3.p3" e1="DDI-DrugBank.d448.s3.e0"
+            e2="DDI-DrugBank.d448.s3.e4" ddi="true" type="effect"/>
+        <pair id="DDI-DrugBank.d448.s3.p4" e1="DDI-DrugBank.d448.s3.e1"
+            e2="DDI-DrugBank.d448.s3.e2" ddi="false"/>
+        <pair id="DDI-DrugBank.d448.s3.p5" e1="DDI-DrugBank.d448.s3.e1"
+            e2="DDI-DrugBank.d448.s3.e3" ddi="false"/>
+        <pair id="DDI-DrugBank.d448.s3.p6" e1="DDI-DrugBank.d448.s3.e1"
+            e2="DDI-DrugBank.d448.s3.e4" ddi="true" type="effect"/>
+        <pair id="DDI-DrugBank.d448.s3.p7" e1="DDI-DrugBank.d448.s3.e2"
+            e2="DDI-DrugBank.d448.s3.e3" ddi="false"/>
+        <pair id="DDI-DrugBank.d448.s3.p8" e1="DDI-DrugBank.d448.s3.e2"
+            e2="DDI-DrugBank.d448.s3.e4" ddi="true" type="effect"/>
+        <pair id="DDI-DrugBank.d448.s3.p9" e1="DDI-DrugBank.d448.s3.e3"
+            e2="DDI-DrugBank.d448.s3.e4" ddi="true" type="effect"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d448.s4" text="Beta-adrenergic blocking agents may also interact with sympathomimetics.">
+        <entity id="DDI-DrugBank.d448.s4.e0" charOffset="0-30"
+            type="group" text="Beta-adrenergic blocking agents"/>
+        <entity id="DDI-DrugBank.d448.s4.e1" charOffset="55-70"
+            type="group" text="sympathomimetics"/>
+        <pair id="DDI-DrugBank.d448.s4.p0" e1="DDI-DrugBank.d448.s4.e0"
+            e2="DDI-DrugBank.d448.s4.e1" ddi="true" type="int"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d448.s5" text="Increased ectopic pacemaker activity can occur when pseudoephedrine is used concomitantly with digitalis.">
+        <entity id="DDI-DrugBank.d448.s5.e0" charOffset="52-66"
+            type="drug" text="pseudoephedrine"/>
+        <entity id="DDI-DrugBank.d448.s5.e1" charOffset="95-103"
+            type="group" text="digitalis"/>
+        <pair id="DDI-DrugBank.d448.s5.p0" e1="DDI-DrugBank.d448.s5.e0"
+            e2="DDI-DrugBank.d448.s5.e1" ddi="true" type="effect"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d448.s6" text="Antacids increase the rate of absorption of pseudoephedrine, while kaolin decreases it.">
+        <entity id="DDI-DrugBank.d448.s6.e0" charOffset="0-7"
+            type="group" text="Antacids"/>
+        <entity id="DDI-DrugBank.d448.s6.e1" charOffset="44-58"
+            type="drug" text="pseudoephedrine"/>
+        <entity id="DDI-DrugBank.d448.s6.e2" charOffset="67-72"
+            type="drug" text="kaolin"/>
+        <pair id="DDI-DrugBank.d448.s6.p0" e1="DDI-DrugBank.d448.s6.e0"
+            e2="DDI-DrugBank.d448.s6.e1" ddi="true" type="mechanism"/>
+        <pair id="DDI-DrugBank.d448.s6.p1" e1="DDI-DrugBank.d448.s6.e0"
+            e2="DDI-DrugBank.d448.s6.e2" ddi="false"/>
+        <pair id="DDI-DrugBank.d448.s6.p2" e1="DDI-DrugBank.d448.s6.e1"
+            e2="DDI-DrugBank.d448.s6.e2" ddi="true" type="mechanism"/>
+    </sentence>
+</document>

@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="DDI-DrugBank.d301">
+    <sentence id="DDI-DrugBank.d301.s0" text="D."/>
+    <sentence id="DDI-DrugBank.d301.s1" text="Drug and Laboratory Test Interactions 1."/>
+    <sentence id="DDI-DrugBank.d301.s2" text="Accelerated prothrombin time, partial thromboplastin time, and platelet aggregation time;"/>
+    <sentence id="DDI-DrugBank.d301.s3" text="increased platelet count;"/>
+    <sentence id="DDI-DrugBank.d301.s4" text="increased factors II, VII antigen, VIII antigen, VIII coagulant activity, IX, X, XII, VII-X complex, II-VII-X complex, and beta-thromboglobulin;"/>
+    <sentence id="DDI-DrugBank.d301.s5" text="decreased levels of anti-factor Xa and antithrombin III, decreased antithrombin III activity;"/>
+    <sentence id="DDI-DrugBank.d301.s6" text="increased levels of fibrinogen and fibrinogen activity;"/>
+    <sentence id="DDI-DrugBank.d301.s7" text="increased plasminogen antigen and activity."/>
+    <sentence id="DDI-DrugBank.d301.s8" text="2."/>
+    <sentence id="DDI-DrugBank.d301.s9" text="Increased thyroid-binding globulin (TBG) leading to increased circulating total thyroid hormone levels, as measured by protein-bound iodine (PBI), T4 levels (by column or by radioimmunoassay) or T3 levels by radioimmunoassay."/>
+    <sentence id="DDI-DrugBank.d301.s10" text="T3 resin uptake is decreased, reflecting the elevated TBG."/>
+    <sentence id="DDI-DrugBank.d301.s11" text="Free T4 and T3 concentrations are unaltered."/>
+    <sentence id="DDI-DrugBank.d301.s12" text="Patients on thyroid replacement therapy may require higher doses of thyroid hormone.">
+        <entity id="DDI-DrugBank.d301.s12.e0" charOffset="68-82"
+            type="group" text="thyroid hormone"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d301.s13" text="3."/>
+    <sentence id="DDI-DrugBank.d301.s14" text="Other binding proteins may be elevated in serum, i.e., corticosteroid binding globulin (CBG), sex hormone-binding globulin (SHBG), leading to increased total circulating corticosteroids and sex steroids, respectively.">
+        <entity id="DDI-DrugBank.d301.s14.e0" charOffset="170-184"
+            type="group" text="corticosteroids"/>
+        <entity id="DDI-DrugBank.d301.s14.e1" charOffset="190-201"
+            type="group" text="sex steroids"/>
+        <pair id="DDI-DrugBank.d301.s14.p0"
+            e1="DDI-DrugBank.d301.s14.e0" e2="DDI-DrugBank.d301.s14.e1" ddi="false"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d301.s15" text="Free hormone concentrations may be decreased."/>
+    <sentence id="DDI-DrugBank.d301.s16" text="Other plasma proteins may be increased (angiotensinogen/renin substrate, alpha-1-antitrypsin, ceruloplasmin)."/>
+    <sentence id="DDI-DrugBank.d301.s17" text="4."/>
+    <sentence id="DDI-DrugBank.d301.s18" text="Increased plasma HDL and HDL2 cholesterol subfraction concentrations, reduced LDL cholesterol concentration, increased triglyceride levels."/>
+    <sentence id="DDI-DrugBank.d301.s19" text="5."/>
+    <sentence id="DDI-DrugBank.d301.s20" text="Impaired glucose tolerance."/>
+    <sentence id="DDI-DrugBank.d301.s21" text="6."/>
+    <sentence id="DDI-DrugBank.d301.s22" text="Reduced response to metyrapone test."/>
+</document>

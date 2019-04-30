@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="DDI-DrugBank.d4">
+    <sentence id="DDI-DrugBank.d4.s0" text="Synergism between xanthine bronchodilators (e.g., theophylline), ephedrine, and other sympathomimetic bronchodilators has been reported.">
+        <entity id="DDI-DrugBank.d4.s0.e0" charOffset="18-41"
+            type="group" text="xanthine bronchodilators"/>
+        <entity id="DDI-DrugBank.d4.s0.e1" charOffset="50-61"
+            type="drug" text="theophylline"/>
+        <entity id="DDI-DrugBank.d4.s0.e2" charOffset="65-73"
+            type="drug" text="ephedrine"/>
+        <entity id="DDI-DrugBank.d4.s0.e3" charOffset="86-116"
+            type="group" text="sympathomimetic bronchodilators"/>
+        <pair id="DDI-DrugBank.d4.s0.p0" e1="DDI-DrugBank.d4.s0.e0"
+            e2="DDI-DrugBank.d4.s0.e1" ddi="false"/>
+        <pair id="DDI-DrugBank.d4.s0.p1" e1="DDI-DrugBank.d4.s0.e0"
+            e2="DDI-DrugBank.d4.s0.e2" ddi="false"/>
+        <pair id="DDI-DrugBank.d4.s0.p2" e1="DDI-DrugBank.d4.s0.e0"
+            e2="DDI-DrugBank.d4.s0.e3" ddi="true" type="effect"/>
+        <pair id="DDI-DrugBank.d4.s0.p3" e1="DDI-DrugBank.d4.s0.e1"
+            e2="DDI-DrugBank.d4.s0.e2" ddi="false"/>
+        <pair id="DDI-DrugBank.d4.s0.p4" e1="DDI-DrugBank.d4.s0.e1"
+            e2="DDI-DrugBank.d4.s0.e3" ddi="true" type="effect"/>
+        <pair id="DDI-DrugBank.d4.s0.p5" e1="DDI-DrugBank.d4.s0.e2"
+            e2="DDI-DrugBank.d4.s0.e3" ddi="true" type="effect"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d4.s1" text="This should be considered whenever these agents are prescribed concomitantly."/>
+    <sentence id="DDI-DrugBank.d4.s2" text="Concurrent administration of dyphylline and probenecid, which competes for tubular secretion, has been shown to increase the plasma half-life of dyphylline .">
+        <entity id="DDI-DrugBank.d4.s2.e0" charOffset="29-38"
+            type="drug" text="dyphylline"/>
+        <entity id="DDI-DrugBank.d4.s2.e1" charOffset="44-53"
+            type="drug" text="probenecid"/>
+        <entity id="DDI-DrugBank.d4.s2.e2" charOffset="145-154"
+            type="drug" text="dyphylline"/>
+        <pair id="DDI-DrugBank.d4.s2.p0" e1="DDI-DrugBank.d4.s2.e0"
+            e2="DDI-DrugBank.d4.s2.e1" ddi="true" type="mechanism"/>
+        <pair id="DDI-DrugBank.d4.s2.p1" e1="DDI-DrugBank.d4.s2.e0"
+            e2="DDI-DrugBank.d4.s2.e2" ddi="false"/>
+        <pair id="DDI-DrugBank.d4.s2.p2" e1="DDI-DrugBank.d4.s2.e1"
+            e2="DDI-DrugBank.d4.s2.e2" ddi="false"/>
+    </sentence>
+</document>

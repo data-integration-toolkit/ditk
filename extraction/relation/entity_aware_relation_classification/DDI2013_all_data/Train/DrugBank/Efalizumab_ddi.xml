@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="DDI-DrugBank.d44">
+    <sentence id="DDI-DrugBank.d44.s0" text="No formal drug interaction studies have been performed with RAPTIVA.">
+        <entity id="DDI-DrugBank.d44.s0.e0" charOffset="60-66"
+            type="brand" text="RAPTIVA"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d44.s1" text="RAPTIVA should not be used with other immunosuppressive drugs.">
+        <entity id="DDI-DrugBank.d44.s1.e0" charOffset="0-6"
+            type="brand" text="RAPTIVA"/>
+        <entity id="DDI-DrugBank.d44.s1.e1" charOffset="38-60"
+            type="group" text="immunosuppressive drugs"/>
+        <pair id="DDI-DrugBank.d44.s1.p0" e1="DDI-DrugBank.d44.s1.e0"
+            e2="DDI-DrugBank.d44.s1.e1" ddi="true" type="advise"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d44.s2" text="Acellular, live and live-attenuated vaccines should not be administered during RAPTIVA treatment.">
+        <entity id="DDI-DrugBank.d44.s2.e0" charOffset="0-8;36-43"
+            type="group" text="Acellular vaccines"/>
+        <entity id="DDI-DrugBank.d44.s2.e1" charOffset="11-14;36-43"
+            type="group" text="live vaccines"/>
+        <entity id="DDI-DrugBank.d44.s2.e2" charOffset="20-43"
+            type="group" text="live-attenuated vaccines"/>
+        <entity id="DDI-DrugBank.d44.s2.e3" charOffset="79-85"
+            type="brand" text="RAPTIVA"/>
+        <pair id="DDI-DrugBank.d44.s2.p0" e1="DDI-DrugBank.d44.s2.e0"
+            e2="DDI-DrugBank.d44.s2.e1" ddi="false"/>
+        <pair id="DDI-DrugBank.d44.s2.p1" e1="DDI-DrugBank.d44.s2.e0"
+            e2="DDI-DrugBank.d44.s2.e2" ddi="false"/>
+        <pair id="DDI-DrugBank.d44.s2.p2" e1="DDI-DrugBank.d44.s2.e0"
+            e2="DDI-DrugBank.d44.s2.e3" ddi="true" type="advise"/>
+        <pair id="DDI-DrugBank.d44.s2.p3" e1="DDI-DrugBank.d44.s2.e1"
+            e2="DDI-DrugBank.d44.s2.e2" ddi="false"/>
+        <pair id="DDI-DrugBank.d44.s2.p4" e1="DDI-DrugBank.d44.s2.e1"
+            e2="DDI-DrugBank.d44.s2.e3" ddi="true" type="advise"/>
+        <pair id="DDI-DrugBank.d44.s2.p5" e1="DDI-DrugBank.d44.s2.e2"
+            e2="DDI-DrugBank.d44.s2.e3" ddi="true" type="advise"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d44.s3" text="Drug/Laboratory Test Interactions Increases in lymphocyte counts related to the pharmacologic mechanism of action are frequently observed during RAPTIVA treatment.">
+        <entity id="DDI-DrugBank.d44.s3.e0" charOffset="145-151"
+            type="brand" text="RAPTIVA"/>
+    </sentence>
+</document>

@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="DDI-MedLine.d56">
+    <sentence id="DDI-MedLine.d56.s0" text="Dual effect of ouabain on the palytoxin-induced contraction and norepinephrine release in the guinea-pig vas deferens.">
+        <entity id="DDI-MedLine.d56.s0.e0" charOffset="15-21"
+            type="drug" text="ouabain"/>
+        <entity id="DDI-MedLine.d56.s0.e1" charOffset="30-38"
+            type="drug_n" text="palytoxin"/>
+        <pair id="DDI-MedLine.d56.s0.p0" e1="DDI-MedLine.d56.s0.e0"
+            e2="DDI-MedLine.d56.s0.e1" ddi="false"/>
+    </sentence>
+    <sentence id="DDI-MedLine.d56.s1" text="Palytoxin (PTX), C129H223N3O54, isolated from marine coelenterates of Palythoa tuberculosa, caused a first rapid contraction followed by the slow phasic contraction of guinea-pig vas deferens. ">
+        <entity id="DDI-MedLine.d56.s1.e0" charOffset="0-8"
+            type="drug_n" text="Palytoxin"/>
+        <entity id="DDI-MedLine.d56.s1.e1" charOffset="11-13"
+            type="drug_n" text="PTX"/>
+        <pair id="DDI-MedLine.d56.s1.p0" e1="DDI-MedLine.d56.s1.e0"
+            e2="DDI-MedLine.d56.s1.e1" ddi="false"/>
+    </sentence>
+    <sentence id="DDI-MedLine.d56.s2" text="In the presence of ouabain (10(-5) M), PTX (10(-8) M) failed to cause the first contraction; ">
+        <entity id="DDI-MedLine.d56.s2.e0" charOffset="19-25"
+            type="drug" text="ouabain"/>
+        <entity id="DDI-MedLine.d56.s2.e1" charOffset="39-41"
+            type="drug_n" text="PTX"/>
+        <pair id="DDI-MedLine.d56.s2.p0" e1="DDI-MedLine.d56.s2.e0"
+            e2="DDI-MedLine.d56.s2.e1" ddi="true" type="effect"/>
+    </sentence>
+    <sentence id="DDI-MedLine.d56.s3" text="however, the second contraction was potentiated. "/>
+    <sentence id="DDI-MedLine.d56.s4" text="In the presence of phentolamine (10(-6) M), the second contraction was inhibited selectively. ">
+        <entity id="DDI-MedLine.d56.s4.e0" charOffset="19-30"
+            type="drug" text="phentolamine"/>
+    </sentence>
+    <sentence id="DDI-MedLine.d56.s5" text="When ouabain was applied to the muscle in the presence of phentolamine, both first and second contractile responses to PTX were abolished. ">
+        <entity id="DDI-MedLine.d56.s5.e0" charOffset="5-11" type="drug" text="ouabain"/>
+        <entity id="DDI-MedLine.d56.s5.e1" charOffset="58-69"
+            type="drug" text="phentolamine"/>
+        <entity id="DDI-MedLine.d56.s5.e2" charOffset="119-121"
+            type="drug_n" text="PTX"/>
+        <pair id="DDI-MedLine.d56.s5.p0" e1="DDI-MedLine.d56.s5.e0"
+            e2="DDI-MedLine.d56.s5.e1" ddi="true" type="effect"/>
+        <pair id="DDI-MedLine.d56.s5.p1" e1="DDI-MedLine.d56.s5.e0"
+            e2="DDI-MedLine.d56.s5.e2" ddi="false"/>
+        <pair id="DDI-MedLine.d56.s5.p2" e1="DDI-MedLine.d56.s5.e1"
+            e2="DDI-MedLine.d56.s5.e2" ddi="false"/>
+    </sentence>
+    <sentence id="DDI-MedLine.d56.s6" text="When the muscle was exposed to the potassium-depleted solution, the first contractile response to PTX was rather potentiated. ">
+        <entity id="DDI-MedLine.d56.s6.e0" charOffset="98-100"
+            type="drug_n" text="PTX"/>
+    </sentence>
+    <sentence id="DDI-MedLine.d56.s7" text="PTX caused the release of norepinephrine from the muscle. ">
+        <entity id="DDI-MedLine.d56.s7.e0" charOffset="0-2"
+            type="drug_n" text="PTX"/>
+    </sentence>
+    <sentence id="DDI-MedLine.d56.s8" text="Exposure of the muscle to ouabain (10(-5) M) markedly increased the PTX-induced release. ">
+        <entity id="DDI-MedLine.d56.s8.e0" charOffset="26-32"
+            type="drug" text="ouabain"/>
+        <entity id="DDI-MedLine.d56.s8.e1" charOffset="68-70"
+            type="drug_n" text="PTX"/>
+        <pair id="DDI-MedLine.d56.s8.p0" e1="DDI-MedLine.d56.s8.e0"
+            e2="DDI-MedLine.d56.s8.e1" ddi="true" type="effect"/>
+    </sentence>
+    <sentence id="DDI-MedLine.d56.s9" text="It is indicated that the first and second contractile responses to PTX have entirely different properties. ">
+        <entity id="DDI-MedLine.d56.s9.e0" charOffset="67-69"
+            type="drug_n" text="PTX"/>
+    </sentence>
+    <sentence id="DDI-MedLine.d56.s10" text="The second response is due to a release of norepinephrine from nerves and was potentiated by ouabain through the increase in the norepinephrine release, whereas the first response was not due to the norepinephrine release but presumably to a direct action on smooth muscle cell and was inhibited by ouabain. ">
+        <entity id="DDI-MedLine.d56.s10.e0" charOffset="93-99"
+            type="drug" text="ouabain"/>
+        <entity id="DDI-MedLine.d56.s10.e1" charOffset="299-305"
+            type="drug" text="ouabain"/>
+        <pair id="DDI-MedLine.d56.s10.p0" e1="DDI-MedLine.d56.s10.e0"
+            e2="DDI-MedLine.d56.s10.e1" ddi="false"/>
+    </sentence>
+    <sentence id="DDI-MedLine.d56.s11" text="The mechanism of the action of PTX was discussed in the relation with Na,K-ATPase.">
+        <entity id="DDI-MedLine.d56.s11.e0" charOffset="31-33"
+            type="drug_n" text="PTX"/>
+    </sentence>
+</document>

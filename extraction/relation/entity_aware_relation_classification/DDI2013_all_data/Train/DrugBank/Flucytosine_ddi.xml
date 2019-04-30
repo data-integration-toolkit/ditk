@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="DDI-DrugBank.d453">
+    <sentence id="DDI-DrugBank.d453.s0" text="Cytosine arabinoside, a cytostatic agent, has been reported to inactivate the antifungal activity of flucytosine by competitive inhibition.">
+        <entity id="DDI-DrugBank.d453.s0.e0" charOffset="0-19"
+            type="drug" text="Cytosine arabinoside"/>
+        <entity id="DDI-DrugBank.d453.s0.e1" charOffset="24-39"
+            type="group" text="cytostatic agent"/>
+        <entity id="DDI-DrugBank.d453.s0.e2" charOffset="101-111"
+            type="drug" text="flucytosine"/>
+        <pair id="DDI-DrugBank.d453.s0.p0" e1="DDI-DrugBank.d453.s0.e0"
+            e2="DDI-DrugBank.d453.s0.e1" ddi="false"/>
+        <pair id="DDI-DrugBank.d453.s0.p1" e1="DDI-DrugBank.d453.s0.e0"
+            e2="DDI-DrugBank.d453.s0.e2" ddi="true" type="effect"/>
+        <pair id="DDI-DrugBank.d453.s0.p2" e1="DDI-DrugBank.d453.s0.e1"
+            e2="DDI-DrugBank.d453.s0.e2" ddi="false"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d453.s1" text="Drugs which impair glomerular filtration may prolong the biological half-life of flucytosine.">
+        <entity id="DDI-DrugBank.d453.s1.e0" charOffset="81-91"
+            type="drug" text="flucytosine"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d453.s2" text="Drug/Laboratory Test Interactions: Measurement of serum creatinine levels should be determined by the Jaffe reaction, since Ancobon does not interfere with the determination of creatinine values by this method.">
+        <entity id="DDI-DrugBank.d453.s2.e0" charOffset="124-130"
+            type="brand" text="Ancobon"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d453.s3" text="Most automated equipment for measurement of creatinine makes use of the Jaffe reaction."/>
+</document>

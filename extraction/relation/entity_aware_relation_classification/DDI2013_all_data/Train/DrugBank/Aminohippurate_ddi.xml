@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="DDI-DrugBank.d416">
+    <sentence id="DDI-DrugBank.d416.s0" text="Renal clearance measurements of PAH cannot be made with any significant accuracy in patients receiving sulfonamides, procaine, or thiazolesulfone.">
+        <entity id="DDI-DrugBank.d416.s0.e0" charOffset="32-34"
+            type="drug" text="PAH"/>
+        <entity id="DDI-DrugBank.d416.s0.e1" charOffset="103-114"
+            type="group" text="sulfonamides"/>
+        <entity id="DDI-DrugBank.d416.s0.e2" charOffset="117-124"
+            type="drug" text="procaine"/>
+        <entity id="DDI-DrugBank.d416.s0.e3" charOffset="130-144"
+            type="drug" text="thiazolesulfone"/>
+        <pair id="DDI-DrugBank.d416.s0.p0" e1="DDI-DrugBank.d416.s0.e0"
+            e2="DDI-DrugBank.d416.s0.e1" ddi="true" type="effect"/>
+        <pair id="DDI-DrugBank.d416.s0.p1" e1="DDI-DrugBank.d416.s0.e0"
+            e2="DDI-DrugBank.d416.s0.e2" ddi="true" type="effect"/>
+        <pair id="DDI-DrugBank.d416.s0.p2" e1="DDI-DrugBank.d416.s0.e0"
+            e2="DDI-DrugBank.d416.s0.e3" ddi="true" type="effect"/>
+        <pair id="DDI-DrugBank.d416.s0.p3" e1="DDI-DrugBank.d416.s0.e1"
+            e2="DDI-DrugBank.d416.s0.e2" ddi="false"/>
+        <pair id="DDI-DrugBank.d416.s0.p4" e1="DDI-DrugBank.d416.s0.e1"
+            e2="DDI-DrugBank.d416.s0.e3" ddi="false"/>
+        <pair id="DDI-DrugBank.d416.s0.p5" e1="DDI-DrugBank.d416.s0.e2"
+            e2="DDI-DrugBank.d416.s0.e3" ddi="false"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d416.s1" text="These compounds interfere with chemical color development essential to the analytical procedures."/>
+    <sentence id="DDI-DrugBank.d416.s2" text="Probenecid depresses tubular secretion of certain weak acids such as PAH.">
+        <entity id="DDI-DrugBank.d416.s2.e0" charOffset="0-9"
+            type="drug" text="Probenecid"/>
+        <entity id="DDI-DrugBank.d416.s2.e1" charOffset="69-71"
+            type="drug" text="PAH"/>
+        <pair id="DDI-DrugBank.d416.s2.p0" e1="DDI-DrugBank.d416.s2.e0"
+            e2="DDI-DrugBank.d416.s2.e1" ddi="true" type="mechanism"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d416.s3" text="Therefore, patients receiving probenecid will have erroneously low ERPF and Tm PAH values.">
+        <entity id="DDI-DrugBank.d416.s3.e0" charOffset="30-39"
+            type="drug" text="probenecid"/>
+        <entity id="DDI-DrugBank.d416.s3.e1" charOffset="79-81"
+            type="drug" text="PAH"/>
+        <pair id="DDI-DrugBank.d416.s3.p0" e1="DDI-DrugBank.d416.s3.e0"
+            e2="DDI-DrugBank.d416.s3.e1" ddi="true" type="effect"/>
+    </sentence>
+</document>

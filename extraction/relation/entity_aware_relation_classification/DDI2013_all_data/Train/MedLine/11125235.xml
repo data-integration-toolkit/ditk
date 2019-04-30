@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="DDI-MedLine.d133">
+    <sentence id="DDI-MedLine.d133.s0" text="Suppression by verapamil of bombesin-enhanced peritoneal metastasis of intestinal adenocarcinomas induced by azoxymethane in wistar rats.&#xd;&#xa;">
+        <entity id="DDI-MedLine.d133.s0.e0" charOffset="15-23"
+            type="drug" text="verapamil"/>
+        <entity id="DDI-MedLine.d133.s0.e1" charOffset="28-35"
+            type="drug_n" text="bombesin"/>
+        <entity id="DDI-MedLine.d133.s0.e2" charOffset="109-120"
+            type="drug_n" text="azoxymethane"/>
+        <pair id="DDI-MedLine.d133.s0.p0" e1="DDI-MedLine.d133.s0.e0"
+            e2="DDI-MedLine.d133.s0.e1" ddi="true" type="effect"/>
+        <pair id="DDI-MedLine.d133.s0.p1" e1="DDI-MedLine.d133.s0.e0"
+            e2="DDI-MedLine.d133.s0.e2" ddi="false"/>
+        <pair id="DDI-MedLine.d133.s0.p2" e1="DDI-MedLine.d133.s0.e1"
+            e2="DDI-MedLine.d133.s0.e2" ddi="false"/>
+    </sentence>
+    <sentence id="DDI-MedLine.d133.s1" text="BACKGROUND: The effects of combined administration of bombesin and verapamil hydrochloride (verapamil), a calcium channel blocker, on the incidence of peritoneal metastasis of intestinal adenocarcinomas induced by azoxymethane (AOM) and the labeling index of intestinal cancers were investigated in male Wistar rats. ">
+        <entity id="DDI-MedLine.d133.s1.e0" charOffset="54-61"
+            type="drug_n" text="bombesin"/>
+        <entity id="DDI-MedLine.d133.s1.e1" charOffset="67-89"
+            type="drug" text="verapamil hydrochloride"/>
+        <entity id="DDI-MedLine.d133.s1.e2" charOffset="92-100"
+            type="drug" text="verapamil"/>
+        <entity id="DDI-MedLine.d133.s1.e3" charOffset="106-128"
+            type="group" text="calcium channel blocker"/>
+        <entity id="DDI-MedLine.d133.s1.e4" charOffset="214-225"
+            type="drug_n" text="azoxymethane"/>
+        <entity id="DDI-MedLine.d133.s1.e5" charOffset="228-230"
+            type="drug_n" text="AOM"/>
+        <pair id="DDI-MedLine.d133.s1.p0" e1="DDI-MedLine.d133.s1.e0"
+            e2="DDI-MedLine.d133.s1.e1" ddi="false"/>
+        <pair id="DDI-MedLine.d133.s1.p1" e1="DDI-MedLine.d133.s1.e0"
+            e2="DDI-MedLine.d133.s1.e2" ddi="false"/>
+        <pair id="DDI-MedLine.d133.s1.p2" e1="DDI-MedLine.d133.s1.e0"
+            e2="DDI-MedLine.d133.s1.e3" ddi="false"/>
+        <pair id="DDI-MedLine.d133.s1.p3" e1="DDI-MedLine.d133.s1.e0"
+            e2="DDI-MedLine.d133.s1.e4" ddi="false"/>
+        <pair id="DDI-MedLine.d133.s1.p4" e1="DDI-MedLine.d133.s1.e0"
+            e2="DDI-MedLine.d133.s1.e5" ddi="false"/>
+        <pair id="DDI-MedLine.d133.s1.p5" e1="DDI-MedLine.d133.s1.e1"
+            e2="DDI-MedLine.d133.s1.e2" ddi="false"/>
+        <pair id="DDI-MedLine.d133.s1.p6" e1="DDI-MedLine.d133.s1.e1"
+            e2="DDI-MedLine.d133.s1.e3" ddi="false"/>
+        <pair id="DDI-MedLine.d133.s1.p7" e1="DDI-MedLine.d133.s1.e1"
+            e2="DDI-MedLine.d133.s1.e4" ddi="false"/>
+        <pair id="DDI-MedLine.d133.s1.p8" e1="DDI-MedLine.d133.s1.e1"
+            e2="DDI-MedLine.d133.s1.e5" ddi="false"/>
+        <pair id="DDI-MedLine.d133.s1.p9" e1="DDI-MedLine.d133.s1.e2"
+            e2="DDI-MedLine.d133.s1.e3" ddi="false"/>
+        <pair id="DDI-MedLine.d133.s1.p10" e1="DDI-MedLine.d133.s1.e2"
+            e2="DDI-MedLine.d133.s1.e4" ddi="false"/>
+        <pair id="DDI-MedLine.d133.s1.p11" e1="DDI-MedLine.d133.s1.e2"
+            e2="DDI-MedLine.d133.s1.e5" ddi="false"/>
+        <pair id="DDI-MedLine.d133.s1.p12" e1="DDI-MedLine.d133.s1.e3"
+            e2="DDI-MedLine.d133.s1.e4" ddi="false"/>
+        <pair id="DDI-MedLine.d133.s1.p13" e1="DDI-MedLine.d133.s1.e3"
+            e2="DDI-MedLine.d133.s1.e5" ddi="false"/>
+        <pair id="DDI-MedLine.d133.s1.p14" e1="DDI-MedLine.d133.s1.e4"
+            e2="DDI-MedLine.d133.s1.e5" ddi="false"/>
+    </sentence>
+    <sentence id="DDI-MedLine.d133.s2" text="METHODS: From the beginning of the experiment, rats were given 10 weekly subcutaneous injections of AOM (7.4 mg/kg body weight) and subcutaneous injections of bombesin (40 microg/kg body weight) every other day, and from week 16, intraperitoneal injections of verapamil (10 or 20 mg/kg body weight) every other day until the end fo the experiment in week 45. ">
+        <entity id="DDI-MedLine.d133.s2.e0" charOffset="100-102"
+            type="drug_n" text="AOM"/>
+        <entity id="DDI-MedLine.d133.s2.e1" charOffset="159-166"
+            type="drug_n" text="bombesin"/>
+        <entity id="DDI-MedLine.d133.s2.e2" charOffset="260-268"
+            type="drug" text="verapamil"/>
+        <pair id="DDI-MedLine.d133.s2.p0" e1="DDI-MedLine.d133.s2.e0"
+            e2="DDI-MedLine.d133.s2.e1" ddi="false"/>
+        <pair id="DDI-MedLine.d133.s2.p1" e1="DDI-MedLine.d133.s2.e0"
+            e2="DDI-MedLine.d133.s2.e2" ddi="false"/>
+        <pair id="DDI-MedLine.d133.s2.p2" e1="DDI-MedLine.d133.s2.e1"
+            e2="DDI-MedLine.d133.s2.e2" ddi="false"/>
+    </sentence>
+    <sentence id="DDI-MedLine.d133.s3" text="RESULTS: Bombesin significantly increased the incidence of intestinal tumors and cancer metastasis to the peritoneum. ">
+        <entity id="DDI-MedLine.d133.s3.e0" charOffset="9-16"
+            type="drug_n" text="Bombesin"/>
+    </sentence>
+    <sentence id="DDI-MedLine.d133.s4" text="Although verapamil administered at either dose had little or no effect on the enhancement of intestinal carcinogenesis by bombesin or on the location, histologic type, depth of involvement, labeling index, apoptotic index or tumor vascularity of intestinal cancers, it significantly decreased the incidence of cancer metastasis. ">
+        <entity id="DDI-MedLine.d133.s4.e0" charOffset="9-17"
+            type="drug" text="verapamil"/>
+        <entity id="DDI-MedLine.d133.s4.e1" charOffset="122-129"
+            type="drug_n" text="bombesin"/>
+        <pair id="DDI-MedLine.d133.s4.p0" e1="DDI-MedLine.d133.s4.e0"
+            e2="DDI-MedLine.d133.s4.e1" ddi="false"/>
+    </sentence>
+    <sentence id="DDI-MedLine.d133.s5" text="Verapamil also significantly decreased the incidence of lymphatic invasion of adenocarcinomas, which was enhanced by bombesin. ">
+        <entity id="DDI-MedLine.d133.s5.e0" charOffset="0-8" type="drug" text="Verapamil"/>
+        <entity id="DDI-MedLine.d133.s5.e1" charOffset="117-124"
+            type="drug_n" text="bombesin"/>
+        <pair id="DDI-MedLine.d133.s5.p0" e1="DDI-MedLine.d133.s5.e0"
+            e2="DDI-MedLine.d133.s5.e1" ddi="true" type="effect"/>
+    </sentence>
+    <sentence id="DDI-MedLine.d133.s6" text="CONCLUSION: These findings indicate that verapamil inhibits cancer metastasis through actions that do not affect the growth of intestinal cancers.">
+        <entity id="DDI-MedLine.d133.s6.e0" charOffset="41-49"
+            type="drug" text="verapamil"/>
+    </sentence>
+</document>

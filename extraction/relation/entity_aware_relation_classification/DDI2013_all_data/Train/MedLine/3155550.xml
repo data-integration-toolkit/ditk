@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="DDI-MedLine.d63">
+    <sentence id="DDI-MedLine.d63.s0" text="Differential actions of intrathecal naloxone on blocking the tail-flick inhibition induced by intraventricular beta-endorphin and morphine in rats.&#xd;&#xa;">
+        <entity id="DDI-MedLine.d63.s0.e0" charOffset="36-43"
+            type="drug" text="naloxone"/>
+        <entity id="DDI-MedLine.d63.s0.e1" charOffset="111-124"
+            type="drug_n" text="beta-endorphin"/>
+        <entity id="DDI-MedLine.d63.s0.e2" charOffset="130-137"
+            type="drug" text="morphine"/>
+        <pair id="DDI-MedLine.d63.s0.p0" e1="DDI-MedLine.d63.s0.e0"
+            e2="DDI-MedLine.d63.s0.e1" ddi="false"/>
+        <pair id="DDI-MedLine.d63.s0.p1" e1="DDI-MedLine.d63.s0.e0"
+            e2="DDI-MedLine.d63.s0.e2" ddi="false"/>
+        <pair id="DDI-MedLine.d63.s0.p2" e1="DDI-MedLine.d63.s0.e1"
+            e2="DDI-MedLine.d63.s0.e2" ddi="false"/>
+    </sentence>
+    <sentence id="DDI-MedLine.d63.s1" text="In the present study, it is proposed that the opioids applied to supraspinal brain sites produced their analgesic effects by the activation of different descending pain inhibitory systems. ">
+        <entity id="DDI-MedLine.d63.s1.e0" charOffset="46-52"
+            type="group" text="opioids"/>
+    </sentence>
+    <sentence id="DDI-MedLine.d63.s2" text="The blockade of the spinal endorphinergic system by intrathecal naloxone on the production of tail-flick inhibition induced by intraventricular beta-endorphin and morphine was then studied. ">
+        <entity id="DDI-MedLine.d63.s2.e0" charOffset="64-71"
+            type="drug" text="naloxone"/>
+        <entity id="DDI-MedLine.d63.s2.e1" charOffset="144-157"
+            type="drug_n" text="beta-endorphin"/>
+        <entity id="DDI-MedLine.d63.s2.e2" charOffset="163-170"
+            type="drug" text="morphine"/>
+        <pair id="DDI-MedLine.d63.s2.p0" e1="DDI-MedLine.d63.s2.e0"
+            e2="DDI-MedLine.d63.s2.e1" ddi="false"/>
+        <pair id="DDI-MedLine.d63.s2.p1" e1="DDI-MedLine.d63.s2.e0"
+            e2="DDI-MedLine.d63.s2.e2" ddi="false"/>
+        <pair id="DDI-MedLine.d63.s2.p2" e1="DDI-MedLine.d63.s2.e1"
+            e2="DDI-MedLine.d63.s2.e2" ddi="false"/>
+    </sentence>
+    <sentence id="DDI-MedLine.d63.s3" text="Intraventricular injection of beta-endorphin and morphine produced an inhibition of the tail-flick response to the heat stimulus in rats. ">
+        <entity id="DDI-MedLine.d63.s3.e0" charOffset="30-43"
+            type="drug_n" text="beta-endorphin"/>
+        <entity id="DDI-MedLine.d63.s3.e1" charOffset="49-56"
+            type="drug" text="morphine"/>
+        <pair id="DDI-MedLine.d63.s3.p0" e1="DDI-MedLine.d63.s3.e0"
+            e2="DDI-MedLine.d63.s3.e1" ddi="false"/>
+    </sentence>
+    <sentence id="DDI-MedLine.d63.s4" text="Intrathecal injection of naloxone at doses of 0.4 to 40 micrograms caused a dose-related blockade of the inhibition of the tail-flick response induced by intraventricular injection of beta-endorphin, and a high dose of naloxone (40 micrograms) completely blocked the tail-flick inhibition induced by intraventricular beta-endorphin (16 micrograms). ">
+        <entity id="DDI-MedLine.d63.s4.e0" charOffset="25-32"
+            type="drug" text="naloxone"/>
+        <entity id="DDI-MedLine.d63.s4.e1" charOffset="184-197"
+            type="drug_n" text="beta-endorphin"/>
+        <entity id="DDI-MedLine.d63.s4.e2" charOffset="219-226"
+            type="drug" text="naloxone"/>
+        <entity id="DDI-MedLine.d63.s4.e3" charOffset="317-330"
+            type="drug_n" text="beta-endorphin"/>
+        <pair id="DDI-MedLine.d63.s4.p0" e1="DDI-MedLine.d63.s4.e0"
+            e2="DDI-MedLine.d63.s4.e1" ddi="true" type="effect"/>
+        <pair id="DDI-MedLine.d63.s4.p1" e1="DDI-MedLine.d63.s4.e0"
+            e2="DDI-MedLine.d63.s4.e2" ddi="false"/>
+        <pair id="DDI-MedLine.d63.s4.p2" e1="DDI-MedLine.d63.s4.e0"
+            e2="DDI-MedLine.d63.s4.e3" ddi="false"/>
+        <pair id="DDI-MedLine.d63.s4.p3" e1="DDI-MedLine.d63.s4.e1"
+            e2="DDI-MedLine.d63.s4.e2" ddi="false"/>
+        <pair id="DDI-MedLine.d63.s4.p4" e1="DDI-MedLine.d63.s4.e1"
+            e2="DDI-MedLine.d63.s4.e3" ddi="false"/>
+        <pair id="DDI-MedLine.d63.s4.p5" e1="DDI-MedLine.d63.s4.e2"
+            e2="DDI-MedLine.d63.s4.e3" ddi="true" type="effect"/>
+    </sentence>
+    <sentence id="DDI-MedLine.d63.s5" text="On the other hand, intrathecal naloxone (12-120 micrograms) had only a very weak effect on the tail-flick inhibition induced by intraventricular morphine (40 micrograms). ">
+        <entity id="DDI-MedLine.d63.s5.e0" charOffset="31-38"
+            type="drug" text="naloxone"/>
+        <entity id="DDI-MedLine.d63.s5.e1" charOffset="145-152"
+            type="drug" text="morphine"/>
+        <pair id="DDI-MedLine.d63.s5.p0" e1="DDI-MedLine.d63.s5.e0"
+            e2="DDI-MedLine.d63.s5.e1" ddi="true" type="effect"/>
+    </sentence>
+    <sentence id="DDI-MedLine.d63.s6" text="Intraventricular injection of naloxone at doses of 1.2 to 12 micrograms equally antagonized in a dose-dependent manner the tail-flick inhibition induced by intraventricular beta-endorphin and morphine. ">
+        <entity id="DDI-MedLine.d63.s6.e0" charOffset="30-37"
+            type="drug" text="naloxone"/>
+        <entity id="DDI-MedLine.d63.s6.e1" charOffset="173-186"
+            type="drug_n" text="beta-endorphin"/>
+        <entity id="DDI-MedLine.d63.s6.e2" charOffset="192-199"
+            type="drug" text="morphine"/>
+        <pair id="DDI-MedLine.d63.s6.p0" e1="DDI-MedLine.d63.s6.e0"
+            e2="DDI-MedLine.d63.s6.e1" ddi="true" type="effect"/>
+        <pair id="DDI-MedLine.d63.s6.p1" e1="DDI-MedLine.d63.s6.e0"
+            e2="DDI-MedLine.d63.s6.e2" ddi="true" type="effect"/>
+        <pair id="DDI-MedLine.d63.s6.p2" e1="DDI-MedLine.d63.s6.e1"
+            e2="DDI-MedLine.d63.s6.e2" ddi="false"/>
+    </sentence>
+    <sentence id="DDI-MedLine.d63.s7" text="The results indicate that a spinal naloxone-sensitive endorphinergic system is involved in the production of beta-endorphin but not morphine-induced tail-flick inhibition, and suggest that intraventricular beta-endorphin and morphine elicit their pharmacological actions via the activation of different descending pain inhibitory systems; ">
+        <entity id="DDI-MedLine.d63.s7.e0" charOffset="35-42"
+            type="drug" text="naloxone"/>
+        <entity id="DDI-MedLine.d63.s7.e1" charOffset="109-122"
+            type="drug_n" text="beta-endorphin"/>
+        <entity id="DDI-MedLine.d63.s7.e2" charOffset="132-139"
+            type="drug" text="morphine"/>
+        <entity id="DDI-MedLine.d63.s7.e3" charOffset="206-219"
+            type="drug_n" text="beta-endorphin"/>
+        <entity id="DDI-MedLine.d63.s7.e4" charOffset="225-232"
+            type="drug" text="morphine"/>
+        <pair id="DDI-MedLine.d63.s7.p0" e1="DDI-MedLine.d63.s7.e0"
+            e2="DDI-MedLine.d63.s7.e1" ddi="false"/>
+        <pair id="DDI-MedLine.d63.s7.p1" e1="DDI-MedLine.d63.s7.e0"
+            e2="DDI-MedLine.d63.s7.e2" ddi="false"/>
+        <pair id="DDI-MedLine.d63.s7.p2" e1="DDI-MedLine.d63.s7.e0"
+            e2="DDI-MedLine.d63.s7.e3" ddi="false"/>
+        <pair id="DDI-MedLine.d63.s7.p3" e1="DDI-MedLine.d63.s7.e0"
+            e2="DDI-MedLine.d63.s7.e4" ddi="false"/>
+        <pair id="DDI-MedLine.d63.s7.p4" e1="DDI-MedLine.d63.s7.e1"
+            e2="DDI-MedLine.d63.s7.e2" ddi="false"/>
+        <pair id="DDI-MedLine.d63.s7.p5" e1="DDI-MedLine.d63.s7.e1"
+            e2="DDI-MedLine.d63.s7.e3" ddi="false"/>
+        <pair id="DDI-MedLine.d63.s7.p6" e1="DDI-MedLine.d63.s7.e1"
+            e2="DDI-MedLine.d63.s7.e4" ddi="false"/>
+        <pair id="DDI-MedLine.d63.s7.p7" e1="DDI-MedLine.d63.s7.e2"
+            e2="DDI-MedLine.d63.s7.e3" ddi="false"/>
+        <pair id="DDI-MedLine.d63.s7.p8" e1="DDI-MedLine.d63.s7.e2"
+            e2="DDI-MedLine.d63.s7.e4" ddi="false"/>
+        <pair id="DDI-MedLine.d63.s7.p9" e1="DDI-MedLine.d63.s7.e3"
+            e2="DDI-MedLine.d63.s7.e4" ddi="false"/>
+    </sentence>
+    <sentence id="DDI-MedLine.d63.s8" text="descending epsilon and mu systems for beta-endorphin and morphine, respectively, are proposed.">
+        <entity id="DDI-MedLine.d63.s8.e0" charOffset="38-51"
+            type="drug_n" text="beta-endorphin"/>
+        <entity id="DDI-MedLine.d63.s8.e1" charOffset="57-64"
+            type="drug" text="morphine"/>
+        <pair id="DDI-MedLine.d63.s8.p0" e1="DDI-MedLine.d63.s8.e0"
+            e2="DDI-MedLine.d63.s8.e1" ddi="false"/>
+    </sentence>
+</document>

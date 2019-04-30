@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="DDI-DrugBank.d104">
+    <sentence id="DDI-DrugBank.d104.s0" text="Fenfluramine may increase slightly the effect of antihypertensive drugs, e.g., guanethidine, methyldopa, reserpine.">
+        <entity id="DDI-DrugBank.d104.s0.e0" charOffset="0-11"
+            type="drug" text="Fenfluramine"/>
+        <entity id="DDI-DrugBank.d104.s0.e1" charOffset="49-70"
+            type="group" text="antihypertensive drugs"/>
+        <entity id="DDI-DrugBank.d104.s0.e2" charOffset="79-90"
+            type="drug" text="guanethidine"/>
+        <entity id="DDI-DrugBank.d104.s0.e3" charOffset="93-102"
+            type="drug" text="methyldopa"/>
+        <entity id="DDI-DrugBank.d104.s0.e4" charOffset="105-113"
+            type="drug" text="reserpine"/>
+        <pair id="DDI-DrugBank.d104.s0.p0" e1="DDI-DrugBank.d104.s0.e0"
+            e2="DDI-DrugBank.d104.s0.e1" ddi="true" type="effect"/>
+        <pair id="DDI-DrugBank.d104.s0.p1" e1="DDI-DrugBank.d104.s0.e0"
+            e2="DDI-DrugBank.d104.s0.e2" ddi="true" type="effect"/>
+        <pair id="DDI-DrugBank.d104.s0.p2" e1="DDI-DrugBank.d104.s0.e0"
+            e2="DDI-DrugBank.d104.s0.e3" ddi="true" type="effect"/>
+        <pair id="DDI-DrugBank.d104.s0.p3" e1="DDI-DrugBank.d104.s0.e0"
+            e2="DDI-DrugBank.d104.s0.e4" ddi="true" type="effect"/>
+        <pair id="DDI-DrugBank.d104.s0.p4" e1="DDI-DrugBank.d104.s0.e1"
+            e2="DDI-DrugBank.d104.s0.e2" ddi="false"/>
+        <pair id="DDI-DrugBank.d104.s0.p5" e1="DDI-DrugBank.d104.s0.e1"
+            e2="DDI-DrugBank.d104.s0.e3" ddi="false"/>
+        <pair id="DDI-DrugBank.d104.s0.p6" e1="DDI-DrugBank.d104.s0.e1"
+            e2="DDI-DrugBank.d104.s0.e4" ddi="false"/>
+        <pair id="DDI-DrugBank.d104.s0.p7" e1="DDI-DrugBank.d104.s0.e2"
+            e2="DDI-DrugBank.d104.s0.e3" ddi="false"/>
+        <pair id="DDI-DrugBank.d104.s0.p8" e1="DDI-DrugBank.d104.s0.e2"
+            e2="DDI-DrugBank.d104.s0.e4" ddi="false"/>
+        <pair id="DDI-DrugBank.d104.s0.p9" e1="DDI-DrugBank.d104.s0.e3"
+            e2="DDI-DrugBank.d104.s0.e4" ddi="false"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d104.s1" text="Other CNS depressant drugs should be used with caution in patients taking fenfluramine, since the effects may be additive.">
+        <entity id="DDI-DrugBank.d104.s1.e0" charOffset="6-25"
+            type="group" text="CNS depressant drugs"/>
+        <entity id="DDI-DrugBank.d104.s1.e1" charOffset="74-85"
+            type="drug" text="fenfluramine"/>
+        <pair id="DDI-DrugBank.d104.s1.p0" e1="DDI-DrugBank.d104.s1.e0"
+            e2="DDI-DrugBank.d104.s1.e1" ddi="true" type="advise"/>
+    </sentence>
+</document>

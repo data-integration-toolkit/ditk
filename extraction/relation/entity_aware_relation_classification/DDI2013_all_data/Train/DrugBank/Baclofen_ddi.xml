@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="DDI-DrugBank.d523">
+    <sentence id="DDI-DrugBank.d523.s0" text="Injection There is inadequate systematic experience with the use of baclofen injection in combination with other medications to predict specific drug-drug interactions.">
+        <entity id="DDI-DrugBank.d523.s0.e0" charOffset="68-75"
+            type="drug" text="baclofen"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d523.s1" text="Interactions attributed to the combined use of baclofen injection and epidural morphine include hypotension and dyspnea.">
+        <entity id="DDI-DrugBank.d523.s1.e0" charOffset="47-54"
+            type="drug" text="baclofen"/>
+        <entity id="DDI-DrugBank.d523.s1.e1" charOffset="79-86"
+            type="drug" text="morphine"/>
+        <pair id="DDI-DrugBank.d523.s1.p0" e1="DDI-DrugBank.d523.s1.e0"
+            e2="DDI-DrugBank.d523.s1.e1" ddi="true" type="effect"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d523.s2" text="SIDE EFFECTS (KEMSTRO) The most common adverse reaction during treatment with baclofen is transient drowsiness (10-63%).">
+        <entity id="DDI-DrugBank.d523.s2.e0" charOffset="14-20"
+            type="brand" text="KEMSTRO"/>
+        <entity id="DDI-DrugBank.d523.s2.e1" charOffset="78-85"
+            type="drug" text="baclofen"/>
+        <pair id="DDI-DrugBank.d523.s2.p0" e1="DDI-DrugBank.d523.s2.e0"
+            e2="DDI-DrugBank.d523.s2.e1" ddi="false"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d523.s3" text="In one controlled study of 175 patients, transient drowsiness was observed in 63% of those receiving baclofen tablets compared to 36% of those in the placebo group.">
+        <entity id="DDI-DrugBank.d523.s3.e0" charOffset="101-108"
+            type="drug" text="baclofen"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d523.s4" text="Other common adverse reactions are dizziness (5-15%), weakness (5-15%) and fatigue (2-4%)."/>
+    <sentence id="DDI-DrugBank.d523.s5" text="Others reported: Neuropsychiatric: Confusion (1-11%), headache (4-8%), insomnia (2-7%);"/>
+    <sentence id="DDI-DrugBank.d523.s6" text="and, rarely, euphoria, excitement, depression, hallucinations, paresthesia, muscle pain, tinnitus, slurred speech, coordination disorder, tremor, rigidity, dystonia, ataxia, blurred vision, nystagmus, strabismus, miosis, mydriasis, diplopia, dysarthria, epileptic seizure."/>
+    <sentence id="DDI-DrugBank.d523.s7" text="Cardiovascular: Hypotension (0-9%)."/>
+    <sentence id="DDI-DrugBank.d523.s8" text="Rare instances of dyspnea, palpitation, chest pain, syncope."/>
+    <sentence id="DDI-DrugBank.d523.s9" text="Gastrointestinal: Nausea (4-12%), constipation (2-6%);"/>
+    <sentence id="DDI-DrugBank.d523.s10" text="and, rarely, dry mouth, anorexia, taste disorder, abdominal pain, vomiting, diarrhea, and positive test for occult blood in stool."/>
+    <sentence id="DDI-DrugBank.d523.s11" text="Genitourinary: Urinary frequency (2-6%);"/>
+    <sentence id="DDI-DrugBank.d523.s12" text="and, rarely, enuresis, urinary retention, dysuria, impotence, inability to ejaculate, nocturia, hematuria."/>
+    <sentence id="DDI-DrugBank.d523.s13" text="Other: Instances of rash, pruritus, ankle edema, excessive perspiration, weight gain, nasal congestion."/>
+    <sentence id="DDI-DrugBank.d523.s14" text="Some of the CNS and genitourinary symptoms may be related to the underlying disease rather than to drug therapy."/>
+    <sentence id="DDI-DrugBank.d523.s15" text="The following laboratory tests have been found to be abnormal in a few patients receiving baclofen: increased SGOT, elevated alkaline phosphatase, and elevation of blood sugar.">
+        <entity id="DDI-DrugBank.d523.s15.e0" charOffset="90-97"
+            type="drug" text="baclofen"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d523.s16" text="The adverse experience profile seen with KEMSTROTM was similar to that seen with baclofen tablets.">
+        <entity id="DDI-DrugBank.d523.s16.e0" charOffset="41-49"
+            type="brand" text="KEMSTROTM"/>
+        <entity id="DDI-DrugBank.d523.s16.e1" charOffset="81-88"
+            type="drug" text="baclofen"/>
+        <pair id="DDI-DrugBank.d523.s16.p0"
+            e1="DDI-DrugBank.d523.s16.e0" e2="DDI-DrugBank.d523.s16.e1" ddi="false"/>
+    </sentence>
+</document>

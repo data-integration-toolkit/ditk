@@ -73,7 +73,7 @@ class DataProcessor(object):
         labels = []
         for i in range(len(data_list)):
             if len(data_list[i]) == 0:
-                if len(words) and words[-1] in ['.', '/.']:
+                if len(words) and words[-1] == '.':
                     l = ' '.join([label for label in labels if len(label) > 0])
                     w = ' '.join([word for word in words if len(word) > 0])
                     lines.append([l, w])
@@ -105,8 +105,6 @@ class NerProcessor(DataProcessor):
         for i, line in enumerate(lines):
             if len(line.strip()) > 0:
                 data = line.split()
-                if data[0] == 'WORD':
-                    continue
                 if chunk_tag_format is None:
                     chunk_tag_format = is_chunk_tag(data[2])
 
@@ -525,8 +523,8 @@ class BERT_Ner(Ner):
         test_examples = self.processor.get_examples(file_dict["test"]["data"], "test", dataset_name)
         dev_examples = self.processor.get_examples(file_dict["dev"]["data"], "dev", dataset_name)
 
-        self.num_train_steps = max(1, int(
-            len(train_examples) / FLAGS.train_batch_size * FLAGS.num_train_epochs))
+        self.num_train_steps = int(
+            len(train_examples) / FLAGS.train_batch_size * FLAGS.num_train_epochs)
         self.num_warmup_steps = int(self.num_train_steps * FLAGS.warmup_proportion)
 
         return train_examples, test_examples, dev_examples
@@ -745,28 +743,6 @@ class BERT_Ner(Ner):
         """
         pass
 
-    def main(self, input_file_path):
-        tf.logging.set_verbosity(tf.logging.INFO)
-
-        file_dict = {
-            "train": {
-                "data": input_file_path
-            },
-            "dev": {
-                "data": "./NERdata/dev.txt"
-            },
-            "test": {
-                "data": input_file_path
-            }
-        }
-
-        train_data, test_data, dev_data = self.read_dataset(file_dict, 'ditk')
-        self.train(train_data)
-
-        predictions = self.predict(test_data)
-
-        return os.path.abspath(os.path.join(FLAGS.model_dir, "prediction.txt"))
-
 
 def main(input_file_path):
     tf.logging.set_verbosity(tf.logging.INFO)
@@ -785,9 +761,6 @@ def main(input_file_path):
         }
     }
 
-    train_data, test_data, dev_data = my_model.read_dataset(file_dict, 'ditk')
-    my_model.train(train_data)
-
     # train = file_dict["train"]["data"]
     # dev = file_dict["dev"]["data"]
     # test = file_dict["test"]["data"]
@@ -795,8 +768,10 @@ def main(input_file_path):
     train_data, test_data, dev_data = my_model.read_dataset(file_dict, 'ditk')
     my_model.train(train_data)
 
-    predictions = my_model.predict(test_data)
+    # predictions = my_model.predict(test_data)
+    # print("prediction file path : {}".format(os.path.abspath(os.path.join(FLAGS.model_dir, "prediction.txt"))))
 
+    my_model.evaluate(test_data)
 
     return os.path.abspath(os.path.join(FLAGS.model_dir, "prediction.txt"))
 

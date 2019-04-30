@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="DDI-DrugBank.d506">
+    <sentence id="DDI-DrugBank.d506.s0" text="If phenytoin or other hepatic enzyme inducers are taken concurrently with Norpace or Norpace CR, lower plasma levels of disopyramide may occur.">
+        <entity id="DDI-DrugBank.d506.s0.e0" charOffset="3-11"
+            type="drug" text="phenytoin"/>
+        <entity id="DDI-DrugBank.d506.s0.e1" charOffset="74-80"
+            type="brand" text="Norpace"/>
+        <entity id="DDI-DrugBank.d506.s0.e2" charOffset="85-94"
+            type="brand" text="Norpace CR"/>
+        <entity id="DDI-DrugBank.d506.s0.e3" charOffset="120-131"
+            type="drug" text="disopyramide"/>
+        <pair id="DDI-DrugBank.d506.s0.p0" e1="DDI-DrugBank.d506.s0.e0"
+            e2="DDI-DrugBank.d506.s0.e1" ddi="true" type="mechanism"/>
+        <pair id="DDI-DrugBank.d506.s0.p1" e1="DDI-DrugBank.d506.s0.e0"
+            e2="DDI-DrugBank.d506.s0.e2" ddi="true" type="mechanism"/>
+        <pair id="DDI-DrugBank.d506.s0.p2" e1="DDI-DrugBank.d506.s0.e0"
+            e2="DDI-DrugBank.d506.s0.e3" ddi="false"/>
+        <pair id="DDI-DrugBank.d506.s0.p3" e1="DDI-DrugBank.d506.s0.e1"
+            e2="DDI-DrugBank.d506.s0.e2" ddi="false"/>
+        <pair id="DDI-DrugBank.d506.s0.p4" e1="DDI-DrugBank.d506.s0.e1"
+            e2="DDI-DrugBank.d506.s0.e3" ddi="false"/>
+        <pair id="DDI-DrugBank.d506.s0.p5" e1="DDI-DrugBank.d506.s0.e2"
+            e2="DDI-DrugBank.d506.s0.e3" ddi="false"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d506.s1" text="Monitoring of disopyramide plasma levels is recommended in such concurrent use to avoid ineffective therapy.">
+        <entity id="DDI-DrugBank.d506.s1.e0" charOffset="14-25"
+            type="drug" text="disopyramide"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d506.s2" text="Other antiarrhythmic drugs (eg, quinidine, procainamide, lidocaine, propranolol) have occasionally been used concurrently with Norpace.">
+        <entity id="DDI-DrugBank.d506.s2.e0" charOffset="6-25"
+            type="group" text="antiarrhythmic drugs"/>
+        <entity id="DDI-DrugBank.d506.s2.e1" charOffset="32-40"
+            type="drug" text="quinidine"/>
+        <entity id="DDI-DrugBank.d506.s2.e2" charOffset="43-54"
+            type="drug" text="procainamide"/>
+        <entity id="DDI-DrugBank.d506.s2.e3" charOffset="57-65"
+            type="drug" text="lidocaine"/>
+        <entity id="DDI-DrugBank.d506.s2.e4" charOffset="68-78"
+            type="drug" text="propranolol"/>
+        <entity id="DDI-DrugBank.d506.s2.e5" charOffset="127-133"
+            type="brand" text="Norpace"/>
+        <pair id="DDI-DrugBank.d506.s2.p0" e1="DDI-DrugBank.d506.s2.e0"
+            e2="DDI-DrugBank.d506.s2.e1" ddi="false"/>
+        <pair id="DDI-DrugBank.d506.s2.p1" e1="DDI-DrugBank.d506.s2.e0"
+            e2="DDI-DrugBank.d506.s2.e2" ddi="false"/>
+        <pair id="DDI-DrugBank.d506.s2.p2" e1="DDI-DrugBank.d506.s2.e0"
+            e2="DDI-DrugBank.d506.s2.e3" ddi="false"/>
+        <pair id="DDI-DrugBank.d506.s2.p3" e1="DDI-DrugBank.d506.s2.e0"
+            e2="DDI-DrugBank.d506.s2.e4" ddi="false"/>
+        <pair id="DDI-DrugBank.d506.s2.p4" e1="DDI-DrugBank.d506.s2.e0"
+            e2="DDI-DrugBank.d506.s2.e5" ddi="false"/>
+        <pair id="DDI-DrugBank.d506.s2.p5" e1="DDI-DrugBank.d506.s2.e1"
+            e2="DDI-DrugBank.d506.s2.e2" ddi="false"/>
+        <pair id="DDI-DrugBank.d506.s2.p6" e1="DDI-DrugBank.d506.s2.e1"
+            e2="DDI-DrugBank.d506.s2.e3" ddi="false"/>
+        <pair id="DDI-DrugBank.d506.s2.p7" e1="DDI-DrugBank.d506.s2.e1"
+            e2="DDI-DrugBank.d506.s2.e4" ddi="false"/>
+        <pair id="DDI-DrugBank.d506.s2.p8" e1="DDI-DrugBank.d506.s2.e1"
+            e2="DDI-DrugBank.d506.s2.e5" ddi="false"/>
+        <pair id="DDI-DrugBank.d506.s2.p9" e1="DDI-DrugBank.d506.s2.e2"
+            e2="DDI-DrugBank.d506.s2.e3" ddi="false"/>
+        <pair id="DDI-DrugBank.d506.s2.p10" e1="DDI-DrugBank.d506.s2.e2"
+            e2="DDI-DrugBank.d506.s2.e4" ddi="false"/>
+        <pair id="DDI-DrugBank.d506.s2.p11" e1="DDI-DrugBank.d506.s2.e2"
+            e2="DDI-DrugBank.d506.s2.e5" ddi="false"/>
+        <pair id="DDI-DrugBank.d506.s2.p12" e1="DDI-DrugBank.d506.s2.e3"
+            e2="DDI-DrugBank.d506.s2.e4" ddi="false"/>
+        <pair id="DDI-DrugBank.d506.s2.p13" e1="DDI-DrugBank.d506.s2.e3"
+            e2="DDI-DrugBank.d506.s2.e5" ddi="false"/>
+        <pair id="DDI-DrugBank.d506.s2.p14" e1="DDI-DrugBank.d506.s2.e4"
+            e2="DDI-DrugBank.d506.s2.e5" ddi="false"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d506.s3" text="Excessive widening of the QRS complex and/or prolongation of the Q-T interval may occur in these situations."/>
+    <sentence id="DDI-DrugBank.d506.s4" text="In healthy subjects, no significant drug-drug interaction was observed when Norpace was coadministered with either propranolol or diazepam.">
+        <entity id="DDI-DrugBank.d506.s4.e0" charOffset="76-82"
+            type="brand" text="Norpace"/>
+        <entity id="DDI-DrugBank.d506.s4.e1" charOffset="115-125"
+            type="drug" text="propranolol"/>
+        <entity id="DDI-DrugBank.d506.s4.e2" charOffset="130-137"
+            type="drug" text="diazepam"/>
+        <pair id="DDI-DrugBank.d506.s4.p0" e1="DDI-DrugBank.d506.s4.e0"
+            e2="DDI-DrugBank.d506.s4.e1" ddi="false"/>
+        <pair id="DDI-DrugBank.d506.s4.p1" e1="DDI-DrugBank.d506.s4.e0"
+            e2="DDI-DrugBank.d506.s4.e2" ddi="false"/>
+        <pair id="DDI-DrugBank.d506.s4.p2" e1="DDI-DrugBank.d506.s4.e1"
+            e2="DDI-DrugBank.d506.s4.e2" ddi="false"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d506.s5" text="Concomitant administration of Norpace and quinidine resulted in slight increases in plasma disopyramide levels and slight decreases in plasma quinidine levels.">
+        <entity id="DDI-DrugBank.d506.s5.e0" charOffset="30-36"
+            type="brand" text="Norpace"/>
+        <entity id="DDI-DrugBank.d506.s5.e1" charOffset="42-50"
+            type="drug" text="quinidine"/>
+        <entity id="DDI-DrugBank.d506.s5.e2" charOffset="91-102"
+            type="drug" text="disopyramide"/>
+        <entity id="DDI-DrugBank.d506.s5.e3" charOffset="142-150"
+            type="drug" text="quinidine"/>
+        <pair id="DDI-DrugBank.d506.s5.p0" e1="DDI-DrugBank.d506.s5.e0"
+            e2="DDI-DrugBank.d506.s5.e1" ddi="true" type="mechanism"/>
+        <pair id="DDI-DrugBank.d506.s5.p1" e1="DDI-DrugBank.d506.s5.e0"
+            e2="DDI-DrugBank.d506.s5.e2" ddi="false"/>
+        <pair id="DDI-DrugBank.d506.s5.p2" e1="DDI-DrugBank.d506.s5.e0"
+            e2="DDI-DrugBank.d506.s5.e3" ddi="false"/>
+        <pair id="DDI-DrugBank.d506.s5.p3" e1="DDI-DrugBank.d506.s5.e1"
+            e2="DDI-DrugBank.d506.s5.e2" ddi="false"/>
+        <pair id="DDI-DrugBank.d506.s5.p4" e1="DDI-DrugBank.d506.s5.e1"
+            e2="DDI-DrugBank.d506.s5.e3" ddi="false"/>
+        <pair id="DDI-DrugBank.d506.s5.p5" e1="DDI-DrugBank.d506.s5.e2"
+            e2="DDI-DrugBank.d506.s5.e3" ddi="false"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d506.s6" text="Norpace does not increase serum digoxin levels.">
+        <entity id="DDI-DrugBank.d506.s6.e0" charOffset="0-6"
+            type="brand" text="Norpace"/>
+        <entity id="DDI-DrugBank.d506.s6.e1" charOffset="32-38"
+            type="drug" text="digoxin"/>
+        <pair id="DDI-DrugBank.d506.s6.p0" e1="DDI-DrugBank.d506.s6.e0"
+            e2="DDI-DrugBank.d506.s6.e1" ddi="false"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d506.s7" text="Patients taking disopyramide phosphate and erythromycin concomitantly may develop increased serum concentrations of disopyramide resulting in excessive widening of the QRS complex and/or prolongation of the Q-T interval.">
+        <entity id="DDI-DrugBank.d506.s7.e0" charOffset="16-37"
+            type="drug" text="disopyramide phosphate"/>
+        <entity id="DDI-DrugBank.d506.s7.e1" charOffset="43-54"
+            type="drug" text="erythromycin"/>
+        <entity id="DDI-DrugBank.d506.s7.e2" charOffset="116-127"
+            type="drug" text="disopyramide"/>
+        <pair id="DDI-DrugBank.d506.s7.p0" e1="DDI-DrugBank.d506.s7.e0"
+            e2="DDI-DrugBank.d506.s7.e1" ddi="true" type="mechanism"/>
+        <pair id="DDI-DrugBank.d506.s7.p1" e1="DDI-DrugBank.d506.s7.e0"
+            e2="DDI-DrugBank.d506.s7.e2" ddi="false"/>
+        <pair id="DDI-DrugBank.d506.s7.p2" e1="DDI-DrugBank.d506.s7.e1"
+            e2="DDI-DrugBank.d506.s7.e2" ddi="false"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d506.s8" text="Patients taking disopyramide phosphate and hepatic enzyme inhibitors concomitantly should be closely monitored.">
+        <entity id="DDI-DrugBank.d506.s8.e0" charOffset="16-37"
+            type="drug" text="disopyramide phosphate"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d506.s9" text="Until data on possible interactions between verapamil and disopyramide phosphate are obtained, disopyramide should not be administered within 48 hours before or 24 hours after verapamil administration.">
+        <entity id="DDI-DrugBank.d506.s9.e0" charOffset="44-52"
+            type="drug" text="verapamil"/>
+        <entity id="DDI-DrugBank.d506.s9.e1" charOffset="58-79"
+            type="drug" text="disopyramide phosphate"/>
+        <entity id="DDI-DrugBank.d506.s9.e2" charOffset="95-106"
+            type="drug" text="disopyramide"/>
+        <entity id="DDI-DrugBank.d506.s9.e3" charOffset="176-184"
+            type="drug" text="verapamil"/>
+        <pair id="DDI-DrugBank.d506.s9.p0" e1="DDI-DrugBank.d506.s9.e0"
+            e2="DDI-DrugBank.d506.s9.e1" ddi="false"/>
+        <pair id="DDI-DrugBank.d506.s9.p1" e1="DDI-DrugBank.d506.s9.e0"
+            e2="DDI-DrugBank.d506.s9.e2" ddi="false"/>
+        <pair id="DDI-DrugBank.d506.s9.p2" e1="DDI-DrugBank.d506.s9.e0"
+            e2="DDI-DrugBank.d506.s9.e3" ddi="false"/>
+        <pair id="DDI-DrugBank.d506.s9.p3" e1="DDI-DrugBank.d506.s9.e1"
+            e2="DDI-DrugBank.d506.s9.e2" ddi="false"/>
+        <pair id="DDI-DrugBank.d506.s9.p4" e1="DDI-DrugBank.d506.s9.e1"
+            e2="DDI-DrugBank.d506.s9.e3" ddi="false"/>
+        <pair id="DDI-DrugBank.d506.s9.p5" e1="DDI-DrugBank.d506.s9.e2"
+            e2="DDI-DrugBank.d506.s9.e3" ddi="true" type="advise"/>
+    </sentence>
+</document>

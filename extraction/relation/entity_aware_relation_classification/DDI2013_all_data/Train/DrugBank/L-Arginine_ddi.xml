@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="DDI-DrugBank.d95">
+    <sentence id="DDI-DrugBank.d95.s0" text="Cyclosporine - L-arginine may counteract the antinaturetic effect of cyclosporin.">
+        <entity id="DDI-DrugBank.d95.s0.e0" charOffset="0-11"
+            type="drug" text="Cyclosporine"/>
+        <entity id="DDI-DrugBank.d95.s0.e1" charOffset="15-24"
+            type="drug" text="L-arginine"/>
+        <entity id="DDI-DrugBank.d95.s0.e2" charOffset="69-79"
+            type="drug" text="cyclosporin"/>
+        <pair id="DDI-DrugBank.d95.s0.p0" e1="DDI-DrugBank.d95.s0.e0"
+            e2="DDI-DrugBank.d95.s0.e1" ddi="false"/>
+        <pair id="DDI-DrugBank.d95.s0.p1" e1="DDI-DrugBank.d95.s0.e0"
+            e2="DDI-DrugBank.d95.s0.e2" ddi="false"/>
+        <pair id="DDI-DrugBank.d95.s0.p2" e1="DDI-DrugBank.d95.s0.e1"
+            e2="DDI-DrugBank.d95.s0.e2" ddi="true" type="effect"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d95.s1" text="Ibuprofen - L-arginine may increase the absorption of ibuprofen if taken concomitantly.">
+        <entity id="DDI-DrugBank.d95.s1.e0" charOffset="0-8" type="drug" text="Ibuprofen"/>
+        <entity id="DDI-DrugBank.d95.s1.e1" charOffset="12-21"
+            type="drug" text="L-arginine"/>
+        <entity id="DDI-DrugBank.d95.s1.e2" charOffset="54-62"
+            type="drug" text="ibuprofen"/>
+        <pair id="DDI-DrugBank.d95.s1.p0" e1="DDI-DrugBank.d95.s1.e0"
+            e2="DDI-DrugBank.d95.s1.e1" ddi="false"/>
+        <pair id="DDI-DrugBank.d95.s1.p1" e1="DDI-DrugBank.d95.s1.e0"
+            e2="DDI-DrugBank.d95.s1.e2" ddi="false"/>
+        <pair id="DDI-DrugBank.d95.s1.p2" e1="DDI-DrugBank.d95.s1.e1"
+            e2="DDI-DrugBank.d95.s1.e2" ddi="true" type="mechanism"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d95.s2" text="Organic nitrates - L-arginine supplements theoretically may potentiate the effects of organic nitrates if taken concomitantly.">
+        <entity id="DDI-DrugBank.d95.s2.e0" charOffset="8-15"
+            type="group" text="nitrates"/>
+        <entity id="DDI-DrugBank.d95.s2.e1" charOffset="19-28"
+            type="drug" text="L-arginine"/>
+        <entity id="DDI-DrugBank.d95.s2.e2" charOffset="94-101"
+            type="drug" text="nitrates"/>
+        <pair id="DDI-DrugBank.d95.s2.p0" e1="DDI-DrugBank.d95.s2.e0"
+            e2="DDI-DrugBank.d95.s2.e1" ddi="false"/>
+        <pair id="DDI-DrugBank.d95.s2.p1" e1="DDI-DrugBank.d95.s2.e0"
+            e2="DDI-DrugBank.d95.s2.e2" ddi="false"/>
+        <pair id="DDI-DrugBank.d95.s2.p2" e1="DDI-DrugBank.d95.s2.e1"
+            e2="DDI-DrugBank.d95.s2.e2" ddi="true" type="effect"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d95.s3" text="Sildenafil citrate - Theoretically, L-arginine supplements taken concomitantly with sildenafil citrate, may potentiate the effects of the drug.">
+        <entity id="DDI-DrugBank.d95.s3.e0" charOffset="0-17"
+            type="drug" text="Sildenafil citrate"/>
+        <entity id="DDI-DrugBank.d95.s3.e1" charOffset="36-45"
+            type="drug" text="L-arginine"/>
+        <entity id="DDI-DrugBank.d95.s3.e2" charOffset="84-101"
+            type="drug" text="sildenafil citrate"/>
+        <pair id="DDI-DrugBank.d95.s3.p0" e1="DDI-DrugBank.d95.s3.e0"
+            e2="DDI-DrugBank.d95.s3.e1" ddi="false"/>
+        <pair id="DDI-DrugBank.d95.s3.p1" e1="DDI-DrugBank.d95.s3.e0"
+            e2="DDI-DrugBank.d95.s3.e2" ddi="false"/>
+        <pair id="DDI-DrugBank.d95.s3.p2" e1="DDI-DrugBank.d95.s3.e1"
+            e2="DDI-DrugBank.d95.s3.e2" ddi="true" type="effect"/>
+    </sentence>
+</document>

@@ -1,0 +1,229 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="DDI-MedLine.d110">
+    <sentence id="DDI-MedLine.d110.s0" text="18-Methoxycoronaridine (18-MC) and ibogaine: comparison of antiaddictive efficacy, toxicity, and mechanisms of action.&#xd;&#xa;">
+        <entity id="DDI-MedLine.d110.s0.e0" charOffset="0-21"
+            type="drug_n" text="18-Methoxycoronaridine"/>
+        <entity id="DDI-MedLine.d110.s0.e1" charOffset="24-28"
+            type="drug_n" text="18-MC"/>
+        <entity id="DDI-MedLine.d110.s0.e2" charOffset="35-42"
+            type="drug_n" text="ibogaine"/>
+        <pair id="DDI-MedLine.d110.s0.p0" e1="DDI-MedLine.d110.s0.e0"
+            e2="DDI-MedLine.d110.s0.e1" ddi="false"/>
+        <pair id="DDI-MedLine.d110.s0.p1" e1="DDI-MedLine.d110.s0.e0"
+            e2="DDI-MedLine.d110.s0.e2" ddi="false"/>
+        <pair id="DDI-MedLine.d110.s0.p2" e1="DDI-MedLine.d110.s0.e1"
+            e2="DDI-MedLine.d110.s0.e2" ddi="false"/>
+    </sentence>
+    <sentence id="DDI-MedLine.d110.s1" text="18-MC, a novel iboga alkaloid congener, is being developed as a potential treatment for multiple forms of drug abuse. ">
+        <entity id="DDI-MedLine.d110.s1.e0" charOffset="0-4"
+            type="drug_n" text="18-MC"/>
+    </sentence>
+    <sentence id="DDI-MedLine.d110.s2" text="Like ibogaine (40 mg/kg), 18-MC (40 mg/kg) decreases the intravenous self-administration of morphine and cocaine and the oral self-administration of ethanol and nicotine in rats; ">
+        <entity id="DDI-MedLine.d110.s2.e0" charOffset="5-12"
+            type="drug_n" text="ibogaine"/>
+        <entity id="DDI-MedLine.d110.s2.e1" charOffset="26-30"
+            type="drug_n" text="18-MC"/>
+        <entity id="DDI-MedLine.d110.s2.e2" charOffset="92-99"
+            type="drug" text="morphine"/>
+        <entity id="DDI-MedLine.d110.s2.e3" charOffset="105-111"
+            type="drug" text="cocaine"/>
+        <entity id="DDI-MedLine.d110.s2.e4" charOffset="149-155"
+            type="drug" text="ethanol"/>
+        <entity id="DDI-MedLine.d110.s2.e5" charOffset="161-168"
+            type="drug" text="nicotine"/>
+        <pair id="DDI-MedLine.d110.s2.p0" e1="DDI-MedLine.d110.s2.e0"
+            e2="DDI-MedLine.d110.s2.e1" ddi="false"/>
+        <pair id="DDI-MedLine.d110.s2.p1" e1="DDI-MedLine.d110.s2.e0"
+            e2="DDI-MedLine.d110.s2.e2" ddi="false"/>
+        <pair id="DDI-MedLine.d110.s2.p2" e1="DDI-MedLine.d110.s2.e0"
+            e2="DDI-MedLine.d110.s2.e3" ddi="false"/>
+        <pair id="DDI-MedLine.d110.s2.p3" e1="DDI-MedLine.d110.s2.e0"
+            e2="DDI-MedLine.d110.s2.e4" ddi="false"/>
+        <pair id="DDI-MedLine.d110.s2.p4" e1="DDI-MedLine.d110.s2.e0"
+            e2="DDI-MedLine.d110.s2.e5" ddi="false"/>
+        <pair id="DDI-MedLine.d110.s2.p5" e1="DDI-MedLine.d110.s2.e1"
+            e2="DDI-MedLine.d110.s2.e2" ddi="false"/>
+        <pair id="DDI-MedLine.d110.s2.p6" e1="DDI-MedLine.d110.s2.e1"
+            e2="DDI-MedLine.d110.s2.e3" ddi="false"/>
+        <pair id="DDI-MedLine.d110.s2.p7" e1="DDI-MedLine.d110.s2.e1"
+            e2="DDI-MedLine.d110.s2.e4" ddi="false"/>
+        <pair id="DDI-MedLine.d110.s2.p8" e1="DDI-MedLine.d110.s2.e1"
+            e2="DDI-MedLine.d110.s2.e5" ddi="false"/>
+        <pair id="DDI-MedLine.d110.s2.p9" e1="DDI-MedLine.d110.s2.e2"
+            e2="DDI-MedLine.d110.s2.e3" ddi="false"/>
+        <pair id="DDI-MedLine.d110.s2.p10" e1="DDI-MedLine.d110.s2.e2"
+            e2="DDI-MedLine.d110.s2.e4" ddi="false"/>
+        <pair id="DDI-MedLine.d110.s2.p11" e1="DDI-MedLine.d110.s2.e2"
+            e2="DDI-MedLine.d110.s2.e5" ddi="false"/>
+        <pair id="DDI-MedLine.d110.s2.p12" e1="DDI-MedLine.d110.s2.e3"
+            e2="DDI-MedLine.d110.s2.e4" ddi="false"/>
+        <pair id="DDI-MedLine.d110.s2.p13" e1="DDI-MedLine.d110.s2.e3"
+            e2="DDI-MedLine.d110.s2.e5" ddi="false"/>
+        <pair id="DDI-MedLine.d110.s2.p14" e1="DDI-MedLine.d110.s2.e4"
+            e2="DDI-MedLine.d110.s2.e5" ddi="false"/>
+    </sentence>
+    <sentence id="DDI-MedLine.d110.s3" text="unlike ibogaine, 18-MC does not affect responding for a nondrug reinforcer (water). ">
+        <entity id="DDI-MedLine.d110.s3.e0" charOffset="7-14"
+            type="drug_n" text="ibogaine"/>
+        <entity id="DDI-MedLine.d110.s3.e1" charOffset="17-21"
+            type="drug_n" text="18-MC"/>
+        <pair id="DDI-MedLine.d110.s3.p0" e1="DDI-MedLine.d110.s3.e0"
+            e2="DDI-MedLine.d110.s3.e1" ddi="false"/>
+    </sentence>
+    <sentence id="DDI-MedLine.d110.s4" text="Both ibogaine and 18-MC ameliorate opioid withdrawal signs. ">
+        <entity id="DDI-MedLine.d110.s4.e0" charOffset="5-12"
+            type="drug_n" text="ibogaine"/>
+        <entity id="DDI-MedLine.d110.s4.e1" charOffset="18-22"
+            type="drug_n" text="18-MC"/>
+        <entity id="DDI-MedLine.d110.s4.e2" charOffset="35-40"
+            type="group" text="opioid"/>
+        <pair id="DDI-MedLine.d110.s4.p0" e1="DDI-MedLine.d110.s4.e0"
+            e2="DDI-MedLine.d110.s4.e1" ddi="false"/>
+        <pair id="DDI-MedLine.d110.s4.p1" e1="DDI-MedLine.d110.s4.e0"
+            e2="DDI-MedLine.d110.s4.e2" ddi="false"/>
+        <pair id="DDI-MedLine.d110.s4.p2" e1="DDI-MedLine.d110.s4.e1"
+            e2="DDI-MedLine.d110.s4.e2" ddi="false"/>
+    </sentence>
+    <sentence id="DDI-MedLine.d110.s5" text="Both ibogaine and 18-MC decrease extracellular levels of dopamine in the nucleus accumbens, but only ibogaine increases extracellular levels of serotonin in the nucleus accumbens. ">
+        <entity id="DDI-MedLine.d110.s5.e0" charOffset="5-12"
+            type="drug_n" text="ibogaine"/>
+        <entity id="DDI-MedLine.d110.s5.e1" charOffset="18-22"
+            type="drug_n" text="18-MC"/>
+        <entity id="DDI-MedLine.d110.s5.e2" charOffset="101-108"
+            type="drug_n" text="ibogaine"/>
+        <pair id="DDI-MedLine.d110.s5.p0" e1="DDI-MedLine.d110.s5.e0"
+            e2="DDI-MedLine.d110.s5.e1" ddi="false"/>
+        <pair id="DDI-MedLine.d110.s5.p1" e1="DDI-MedLine.d110.s5.e0"
+            e2="DDI-MedLine.d110.s5.e2" ddi="false"/>
+        <pair id="DDI-MedLine.d110.s5.p2" e1="DDI-MedLine.d110.s5.e1"
+            e2="DDI-MedLine.d110.s5.e2" ddi="false"/>
+    </sentence>
+    <sentence id="DDI-MedLine.d110.s6" text="Both ibogaine and 18-MC block morphine-induced and nicotine-induced dopamine release in the nucleus accumbens; ">
+        <entity id="DDI-MedLine.d110.s6.e0" charOffset="5-12"
+            type="drug_n" text="ibogaine"/>
+        <entity id="DDI-MedLine.d110.s6.e1" charOffset="18-22"
+            type="drug_n" text="18-MC"/>
+        <entity id="DDI-MedLine.d110.s6.e2" charOffset="30-37"
+            type="drug" text="morphine"/>
+        <entity id="DDI-MedLine.d110.s6.e3" charOffset="51-58"
+            type="drug" text="nicotine"/>
+        <pair id="DDI-MedLine.d110.s6.p0" e1="DDI-MedLine.d110.s6.e0"
+            e2="DDI-MedLine.d110.s6.e1" ddi="false"/>
+        <pair id="DDI-MedLine.d110.s6.p1" e1="DDI-MedLine.d110.s6.e0"
+            e2="DDI-MedLine.d110.s6.e2" ddi="true" type="effect"/>
+        <pair id="DDI-MedLine.d110.s6.p2" e1="DDI-MedLine.d110.s6.e0"
+            e2="DDI-MedLine.d110.s6.e3" ddi="true" type="effect"/>
+        <pair id="DDI-MedLine.d110.s6.p3" e1="DDI-MedLine.d110.s6.e1"
+            e2="DDI-MedLine.d110.s6.e2" ddi="true" type="effect"/>
+        <pair id="DDI-MedLine.d110.s6.p4" e1="DDI-MedLine.d110.s6.e1"
+            e2="DDI-MedLine.d110.s6.e3" ddi="true" type="effect"/>
+        <pair id="DDI-MedLine.d110.s6.p5" e1="DDI-MedLine.d110.s6.e2"
+            e2="DDI-MedLine.d110.s6.e3" ddi="false"/>
+    </sentence>
+    <sentence id="DDI-MedLine.d110.s7" text="only ibogaine enhances cocaine-induced increases in accumbal dopamine. ">
+        <entity id="DDI-MedLine.d110.s7.e0" charOffset="5-12"
+            type="drug_n" text="ibogaine"/>
+        <entity id="DDI-MedLine.d110.s7.e1" charOffset="23-29"
+            type="drug" text="cocaine"/>
+        <pair id="DDI-MedLine.d110.s7.p0" e1="DDI-MedLine.d110.s7.e0"
+            e2="DDI-MedLine.d110.s7.e1" ddi="true" type="effect"/>
+    </sentence>
+    <sentence id="DDI-MedLine.d110.s8" text="Both ibogaine and 18-MC enhance the locomotor and/or stereotypic effects of stimulants. ">
+        <entity id="DDI-MedLine.d110.s8.e0" charOffset="5-12"
+            type="drug_n" text="ibogaine"/>
+        <entity id="DDI-MedLine.d110.s8.e1" charOffset="18-22"
+            type="drug_n" text="18-MC"/>
+        <pair id="DDI-MedLine.d110.s8.p0" e1="DDI-MedLine.d110.s8.e0"
+            e2="DDI-MedLine.d110.s8.e1" ddi="false"/>
+    </sentence>
+    <sentence id="DDI-MedLine.d110.s9" text="Ibogaine attenuates, but 18-MC potentiates, the acute locomotor effects of morphine; ">
+        <entity id="DDI-MedLine.d110.s9.e0" charOffset="0-7"
+            type="drug_n" text="Ibogaine"/>
+        <entity id="DDI-MedLine.d110.s9.e1" charOffset="25-29"
+            type="drug_n" text="18-MC"/>
+        <entity id="DDI-MedLine.d110.s9.e2" charOffset="75-82"
+            type="drug" text="morphine"/>
+        <pair id="DDI-MedLine.d110.s9.p0" e1="DDI-MedLine.d110.s9.e0"
+            e2="DDI-MedLine.d110.s9.e1" ddi="false"/>
+        <pair id="DDI-MedLine.d110.s9.p1" e1="DDI-MedLine.d110.s9.e0"
+            e2="DDI-MedLine.d110.s9.e2" ddi="true" type="effect"/>
+        <pair id="DDI-MedLine.d110.s9.p2" e1="DDI-MedLine.d110.s9.e1"
+            e2="DDI-MedLine.d110.s9.e2" ddi="true" type="effect"/>
+    </sentence>
+    <sentence id="DDI-MedLine.d110.s10" text="both compounds attenuate morphine-induced locomotion in morphine-experienced rats. ">
+        <entity id="DDI-MedLine.d110.s10.e0" charOffset="25-32"
+            type="drug" text="morphine"/>
+        <entity id="DDI-MedLine.d110.s10.e1" charOffset="56-63"
+            type="drug" text="morphine"/>
+        <pair id="DDI-MedLine.d110.s10.p0" e1="DDI-MedLine.d110.s10.e0"
+            e2="DDI-MedLine.d110.s10.e1" ddi="false"/>
+    </sentence>
+    <sentence id="DDI-MedLine.d110.s11" text="Ibogaine produces whole body tremors and, at high doses (> or = 100 mg/kg), cerebellar damage; ">
+        <entity id="DDI-MedLine.d110.s11.e0" charOffset="0-7"
+            type="drug_n" text="Ibogaine"/>
+    </sentence>
+    <sentence id="DDI-MedLine.d110.s12" text="18-MC does not produce these effects. ">
+        <entity id="DDI-MedLine.d110.s12.e0" charOffset="0-4"
+            type="drug_n" text="18-MC"/>
+    </sentence>
+    <sentence id="DDI-MedLine.d110.s13" text="Ibogaine, but not 18-MC, decreases heart rate at high doses. ">
+        <entity id="DDI-MedLine.d110.s13.e0" charOffset="0-7"
+            type="drug_n" text="Ibogaine"/>
+        <entity id="DDI-MedLine.d110.s13.e1" charOffset="18-22"
+            type="drug_n" text="18-MC"/>
+        <pair id="DDI-MedLine.d110.s13.p0" e1="DDI-MedLine.d110.s13.e0"
+            e2="DDI-MedLine.d110.s13.e1" ddi="false"/>
+    </sentence>
+    <sentence id="DDI-MedLine.d110.s14" text="While 18-MC and ibogaine have similar affinities for kappa opioid and possibly nicotinic receptors, 18-MC has much lower affinities than ibogaine for NMDA and sigma-2 receptors, sodium channels, and the 5-HT transporter. ">
+        <entity id="DDI-MedLine.d110.s14.e0" charOffset="6-10"
+            type="drug_n" text="18-MC"/>
+        <entity id="DDI-MedLine.d110.s14.e1" charOffset="16-23"
+            type="drug_n" text="ibogaine"/>
+        <entity id="DDI-MedLine.d110.s14.e2" charOffset="100-104"
+            type="drug_n" text="18-MC"/>
+        <entity id="DDI-MedLine.d110.s14.e3" charOffset="137-144"
+            type="drug_n" text="ibogaine"/>
+        <pair id="DDI-MedLine.d110.s14.p0" e1="DDI-MedLine.d110.s14.e0"
+            e2="DDI-MedLine.d110.s14.e1" ddi="false"/>
+        <pair id="DDI-MedLine.d110.s14.p1" e1="DDI-MedLine.d110.s14.e0"
+            e2="DDI-MedLine.d110.s14.e2" ddi="false"/>
+        <pair id="DDI-MedLine.d110.s14.p2" e1="DDI-MedLine.d110.s14.e0"
+            e2="DDI-MedLine.d110.s14.e3" ddi="false"/>
+        <pair id="DDI-MedLine.d110.s14.p3" e1="DDI-MedLine.d110.s14.e1"
+            e2="DDI-MedLine.d110.s14.e2" ddi="false"/>
+        <pair id="DDI-MedLine.d110.s14.p4" e1="DDI-MedLine.d110.s14.e1"
+            e2="DDI-MedLine.d110.s14.e3" ddi="false"/>
+        <pair id="DDI-MedLine.d110.s14.p5" e1="DDI-MedLine.d110.s14.e2"
+            e2="DDI-MedLine.d110.s14.e3" ddi="false"/>
+    </sentence>
+    <sentence id="DDI-MedLine.d110.s15" text="Both 18-MC and ibogaine are sequestered in fat and, like ibogaine, 18-MC probably has an active metabolite. ">
+        <entity id="DDI-MedLine.d110.s15.e0" charOffset="5-9"
+            type="drug_n" text="18-MC"/>
+        <entity id="DDI-MedLine.d110.s15.e1" charOffset="15-22"
+            type="drug_n" text="ibogaine"/>
+        <entity id="DDI-MedLine.d110.s15.e2" charOffset="57-64"
+            type="drug_n" text="ibogaine"/>
+        <entity id="DDI-MedLine.d110.s15.e3" charOffset="67-71"
+            type="drug_n" text="18-MC"/>
+        <pair id="DDI-MedLine.d110.s15.p0" e1="DDI-MedLine.d110.s15.e0"
+            e2="DDI-MedLine.d110.s15.e1" ddi="false"/>
+        <pair id="DDI-MedLine.d110.s15.p1" e1="DDI-MedLine.d110.s15.e0"
+            e2="DDI-MedLine.d110.s15.e2" ddi="false"/>
+        <pair id="DDI-MedLine.d110.s15.p2" e1="DDI-MedLine.d110.s15.e0"
+            e2="DDI-MedLine.d110.s15.e3" ddi="false"/>
+        <pair id="DDI-MedLine.d110.s15.p3" e1="DDI-MedLine.d110.s15.e1"
+            e2="DDI-MedLine.d110.s15.e2" ddi="false"/>
+        <pair id="DDI-MedLine.d110.s15.p4" e1="DDI-MedLine.d110.s15.e1"
+            e2="DDI-MedLine.d110.s15.e3" ddi="false"/>
+        <pair id="DDI-MedLine.d110.s15.p5" e1="DDI-MedLine.d110.s15.e2"
+            e2="DDI-MedLine.d110.s15.e3" ddi="false"/>
+    </sentence>
+    <sentence id="DDI-MedLine.d110.s16" text="The data suggest that 18-MC has a narrower spectrum of actions and will have a substantially greater therapeutic index than ibogaine.">
+        <entity id="DDI-MedLine.d110.s16.e0" charOffset="22-26"
+            type="drug_n" text="18-MC"/>
+        <entity id="DDI-MedLine.d110.s16.e1" charOffset="124-131"
+            type="drug_n" text="ibogaine"/>
+        <pair id="DDI-MedLine.d110.s16.p0" e1="DDI-MedLine.d110.s16.e0"
+            e2="DDI-MedLine.d110.s16.e1" ddi="false"/>
+    </sentence>
+</document>

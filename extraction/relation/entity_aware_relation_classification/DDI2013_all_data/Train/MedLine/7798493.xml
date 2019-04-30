@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="DDI-MedLine.d94">
+    <sentence id="DDI-MedLine.d94.s0" text="Evidence for reduction of norepinephrine uptake sites in the failing human heart.&#xd;&#xa;">
+        <entity id="DDI-MedLine.d94.s0.e0" charOffset="26-39"
+            type="drug" text="norepinephrine"/>
+    </sentence>
+    <sentence id="DDI-MedLine.d94.s1" text="OBJECTIVES. "/>
+    <sentence id="DDI-MedLine.d94.s2" text="This study investigated the role of neuronal uptake of norepinephrine (uptake-1) in human heart failure as a local factor for altering concentrations of norepinephrine at the cardiac myocyte membranes. ">
+        <entity id="DDI-MedLine.d94.s2.e0" charOffset="55-68"
+            type="drug" text="norepinephrine"/>
+    </sentence>
+    <sentence id="DDI-MedLine.d94.s3" text="BACKGROUND. "/>
+    <sentence id="DDI-MedLine.d94.s4" text="Several beta-adrenergic neuroeffector defects occur in heart failure. "/>
+    <sentence id="DDI-MedLine.d94.s5" text="Whether an alteration in norepinephrine uptake-1 occurs is still unresolved. ">
+        <entity id="DDI-MedLine.d94.s5.e0" charOffset="25-38"
+            type="drug" text="norepinephrine"/>
+    </sentence>
+    <sentence id="DDI-MedLine.d94.s6" text="METHODS. "/>
+    <sentence id="DDI-MedLine.d94.s7" text="The role of norepinephrine uptake-1 was studied in electrically stimulated (1 Hz, 37 degrees C) human ventricular cardiac preparations and isolated myocardial membranes. ">
+        <entity id="DDI-MedLine.d94.s7.e0" charOffset="12-25"
+            type="drug" text="norepinephrine"/>
+    </sentence>
+    <sentence id="DDI-MedLine.d94.s8" text="RESULTS. "/>
+    <sentence id="DDI-MedLine.d94.s9" text="The effectiveness of norepinephrine in increasing the force of contraction was decreased in relation to the degree of heart failure. ">
+        <entity id="DDI-MedLine.d94.s9.e0" charOffset="21-34"
+            type="drug" text="norepinephrine"/>
+    </sentence>
+    <sentence id="DDI-MedLine.d94.s10" text="In contrast, the potency of norepinephrine was increased in failing hearts (New York Heart Association functional class IV) in relation to the concentrations producing 50% of the maximal effect (EC50). ">
+        <entity id="DDI-MedLine.d94.s10.e0" charOffset="28-41"
+            type="drug" text="norepinephrine"/>
+    </sentence>
+    <sentence id="DDI-MedLine.d94.s11" text="The EC50 values for isoproterenol, which is not a substrate for norepinephrine uptake-1, were reduced in myocardium in functional classes II to III and IV compared with those in nonfailing myocardium. ">
+        <entity id="DDI-MedLine.d94.s11.e0" charOffset="20-32"
+            type="drug" text="isoproterenol"/>
+        <entity id="DDI-MedLine.d94.s11.e1" charOffset="64-77"
+            type="drug" text="norepinephrine"/>
+        <pair id="DDI-MedLine.d94.s11.p0" e1="DDI-MedLine.d94.s11.e0"
+            e2="DDI-MedLine.d94.s11.e1" ddi="false"/>
+    </sentence>
+    <sentence id="DDI-MedLine.d94.s12" text="The uptake inhibitors cocaine and desipramine (3 mumol/liter) potentiated the positive inotropic effects of norepinephrine in nonfailing myocardium (p &lt; 0.05) but not in functional class IV myocardium. ">
+        <entity id="DDI-MedLine.d94.s12.e0" charOffset="22-28"
+            type="drug" text="cocaine"/>
+        <entity id="DDI-MedLine.d94.s12.e1" charOffset="34-44"
+            type="drug" text="desipramine"/>
+        <entity id="DDI-MedLine.d94.s12.e2" charOffset="108-121"
+            type="drug" text="norepinephrine"/>
+        <pair id="DDI-MedLine.d94.s12.p0" e1="DDI-MedLine.d94.s12.e0"
+            e2="DDI-MedLine.d94.s12.e1" ddi="false"/>
+        <pair id="DDI-MedLine.d94.s12.p1" e1="DDI-MedLine.d94.s12.e0"
+            e2="DDI-MedLine.d94.s12.e2" ddi="true" type="effect"/>
+        <pair id="DDI-MedLine.d94.s12.p2" e1="DDI-MedLine.d94.s12.e1"
+            e2="DDI-MedLine.d94.s12.e2" ddi="true" type="effect"/>
+    </sentence>
+    <sentence id="DDI-MedLine.d94.s13" text="Radioligand binding experiments using the uptake inhibitor hydrogen-3 mazindol revealed a significant decrease by approximately 30% in norepinephrine uptake-1 carrier density in functional classes II to III and IV myocardium versus nonfailing myocardium (p &lt; 0.05). ">
+        <entity id="DDI-MedLine.d94.s13.e0" charOffset="70-77"
+            type="drug" text="mazindol"/>
+        <entity id="DDI-MedLine.d94.s13.e1" charOffset="135-148"
+            type="drug" text="norepinephrine"/>
+        <pair id="DDI-MedLine.d94.s13.p0" e1="DDI-MedLine.d94.s13.e0"
+            e2="DDI-MedLine.d94.s13.e1" ddi="false"/>
+    </sentence>
+    <sentence id="DDI-MedLine.d94.s14" text="CONCLUSIONS. "/>
+    <sentence id="DDI-MedLine.d94.s15" text="In human heart failure, there is a presynaptic defect in the sympathetic nervous system, leading to reduced uptake-1 activity. "/>
+    <sentence id="DDI-MedLine.d94.s16" text="This defect in the failing heart can be mimicked by the effects of uptake blocking agents, such as cocaine and desipramine, in the nonfailing heart only. ">
+        <entity id="DDI-MedLine.d94.s16.e0" charOffset="99-105"
+            type="drug" text="cocaine"/>
+        <entity id="DDI-MedLine.d94.s16.e1" charOffset="111-121"
+            type="drug" text="desipramine"/>
+        <pair id="DDI-MedLine.d94.s16.p0" e1="DDI-MedLine.d94.s16.e0"
+            e2="DDI-MedLine.d94.s16.e1" ddi="false"/>
+    </sentence>
+    <sentence id="DDI-MedLine.d94.s17" text="Compromised norepinephrine uptake-1 in functional class IV cannot be further increased by cocaine and desipramine. ">
+        <entity id="DDI-MedLine.d94.s17.e0" charOffset="12-25"
+            type="drug" text="norepinephrine"/>
+        <entity id="DDI-MedLine.d94.s17.e1" charOffset="90-96"
+            type="drug" text="cocaine"/>
+        <entity id="DDI-MedLine.d94.s17.e2" charOffset="102-112"
+            type="drug" text="desipramine"/>
+        <pair id="DDI-MedLine.d94.s17.p0" e1="DDI-MedLine.d94.s17.e0"
+            e2="DDI-MedLine.d94.s17.e1" ddi="false"/>
+        <pair id="DDI-MedLine.d94.s17.p1" e1="DDI-MedLine.d94.s17.e0"
+            e2="DDI-MedLine.d94.s17.e2" ddi="false"/>
+        <pair id="DDI-MedLine.d94.s17.p2" e1="DDI-MedLine.d94.s17.e1"
+            e2="DDI-MedLine.d94.s17.e2" ddi="false"/>
+    </sentence>
+    <sentence id="DDI-MedLine.d94.s18" text="The pathophysiologic consequences could be an increased synaptic concentration of norepinephrine predisposing to adenylyl cyclase desensitization.">
+        <entity id="DDI-MedLine.d94.s18.e0" charOffset="82-95"
+            type="drug" text="norepinephrine"/>
+    </sentence>
+</document>

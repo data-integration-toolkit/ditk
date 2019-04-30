@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="DDI-DrugBank.d33">
+    <sentence id="DDI-DrugBank.d33.s0" text="Although the occurrence has not been reported with Cefizox, nephrotoxicity has been reported following concomitant administration of other cephalosporins and aminoglycosides.">
+        <entity id="DDI-DrugBank.d33.s0.e0" charOffset="51-57"
+            type="brand" text="Cefizox"/>
+        <entity id="DDI-DrugBank.d33.s0.e1" charOffset="139-152"
+            type="group" text="cephalosporins"/>
+        <entity id="DDI-DrugBank.d33.s0.e2" charOffset="158-172"
+            type="group" text="aminoglycosides"/>
+        <pair id="DDI-DrugBank.d33.s0.p0" e1="DDI-DrugBank.d33.s0.e0"
+            e2="DDI-DrugBank.d33.s0.e1" ddi="false"/>
+        <pair id="DDI-DrugBank.d33.s0.p1" e1="DDI-DrugBank.d33.s0.e0"
+            e2="DDI-DrugBank.d33.s0.e2" ddi="false"/>
+        <pair id="DDI-DrugBank.d33.s0.p2" e1="DDI-DrugBank.d33.s0.e1"
+            e2="DDI-DrugBank.d33.s0.e2" ddi="true" type="effect"/>
+    </sentence>
+</document>

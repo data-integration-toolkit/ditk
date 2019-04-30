@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="DDI-MedLine.d193">
+    <sentence id="DDI-MedLine.d193.s0" text="Ticagrelor (Brilinta)--better than clopidogrel (Plavix)">
+        <entity id="DDI-MedLine.d193.s0.e0" charOffset="0-9" type="drug" text="Ticagrelor"/>
+        <entity id="DDI-MedLine.d193.s0.e1" charOffset="12-19"
+            type="brand" text="Brilinta"/>
+        <entity id="DDI-MedLine.d193.s0.e2" charOffset="35-45"
+            type="drug" text="clopidogrel"/>
+        <entity id="DDI-MedLine.d193.s0.e3" charOffset="48-53"
+            type="brand" text="Plavix"/>
+        <pair id="DDI-MedLine.d193.s0.p0" e1="DDI-MedLine.d193.s0.e0"
+            e2="DDI-MedLine.d193.s0.e1" ddi="false"/>
+        <pair id="DDI-MedLine.d193.s0.p1" e1="DDI-MedLine.d193.s0.e0"
+            e2="DDI-MedLine.d193.s0.e2" ddi="false"/>
+        <pair id="DDI-MedLine.d193.s0.p2" e1="DDI-MedLine.d193.s0.e0"
+            e2="DDI-MedLine.d193.s0.e3" ddi="false"/>
+        <pair id="DDI-MedLine.d193.s0.p3" e1="DDI-MedLine.d193.s0.e1"
+            e2="DDI-MedLine.d193.s0.e2" ddi="false"/>
+        <pair id="DDI-MedLine.d193.s0.p4" e1="DDI-MedLine.d193.s0.e1"
+            e2="DDI-MedLine.d193.s0.e3" ddi="false"/>
+        <pair id="DDI-MedLine.d193.s0.p5" e1="DDI-MedLine.d193.s0.e2"
+            e2="DDI-MedLine.d193.s0.e3" ddi="false"/>
+    </sentence>
+    <sentence id="DDI-MedLine.d193.s1" text="The FDA has approved ticagrelor (Brilinta-AstraZeneca), an oral antiplatelet drug, for use with low-dose aspirin to reduce the rate of thrombotic cardiovascular events in patients with acute coronary syndrome (ACS). ">
+        <entity id="DDI-MedLine.d193.s1.e0" charOffset="21-30"
+            type="drug" text="ticagrelor"/>
+        <entity id="DDI-MedLine.d193.s1.e1" charOffset="33-40"
+            type="brand" text="Brilinta"/>
+        <entity id="DDI-MedLine.d193.s1.e2" charOffset="64-80"
+            type="group" text="antiplatelet drug"/>
+        <entity id="DDI-MedLine.d193.s1.e3" charOffset="105-111"
+            type="brand" text="aspirin"/>
+        <pair id="DDI-MedLine.d193.s1.p0" e1="DDI-MedLine.d193.s1.e0"
+            e2="DDI-MedLine.d193.s1.e1" ddi="false"/>
+        <pair id="DDI-MedLine.d193.s1.p1" e1="DDI-MedLine.d193.s1.e0"
+            e2="DDI-MedLine.d193.s1.e2" ddi="false"/>
+        <pair id="DDI-MedLine.d193.s1.p2" e1="DDI-MedLine.d193.s1.e0"
+            e2="DDI-MedLine.d193.s1.e3" ddi="true" type="effect"/>
+        <pair id="DDI-MedLine.d193.s1.p3" e1="DDI-MedLine.d193.s1.e1"
+            e2="DDI-MedLine.d193.s1.e2" ddi="false"/>
+        <pair id="DDI-MedLine.d193.s1.p4" e1="DDI-MedLine.d193.s1.e1"
+            e2="DDI-MedLine.d193.s1.e3" ddi="true" type="effect"/>
+        <pair id="DDI-MedLine.d193.s1.p5" e1="DDI-MedLine.d193.s1.e2"
+            e2="DDI-MedLine.d193.s1.e3" ddi="false"/>
+    </sentence>
+    <sentence id="DDI-MedLine.d193.s2" text="It will compete with clopidogrel (Plavix) and prasugrel (Effient) for such use. ">
+        <entity id="DDI-MedLine.d193.s2.e0" charOffset="21-31"
+            type="drug" text="clopidogrel"/>
+        <entity id="DDI-MedLine.d193.s2.e1" charOffset="34-39"
+            type="brand" text="Plavix"/>
+        <entity id="DDI-MedLine.d193.s2.e2" charOffset="46-54"
+            type="drug" text="prasugrel"/>
+        <entity id="DDI-MedLine.d193.s2.e3" charOffset="57-63"
+            type="brand" text="Effient"/>
+        <pair id="DDI-MedLine.d193.s2.p0" e1="DDI-MedLine.d193.s2.e0"
+            e2="DDI-MedLine.d193.s2.e1" ddi="false"/>
+        <pair id="DDI-MedLine.d193.s2.p1" e1="DDI-MedLine.d193.s2.e0"
+            e2="DDI-MedLine.d193.s2.e2" ddi="false"/>
+        <pair id="DDI-MedLine.d193.s2.p2" e1="DDI-MedLine.d193.s2.e0"
+            e2="DDI-MedLine.d193.s2.e3" ddi="false"/>
+        <pair id="DDI-MedLine.d193.s2.p3" e1="DDI-MedLine.d193.s2.e1"
+            e2="DDI-MedLine.d193.s2.e2" ddi="false"/>
+        <pair id="DDI-MedLine.d193.s2.p4" e1="DDI-MedLine.d193.s2.e1"
+            e2="DDI-MedLine.d193.s2.e3" ddi="false"/>
+        <pair id="DDI-MedLine.d193.s2.p5" e1="DDI-MedLine.d193.s2.e2"
+            e2="DDI-MedLine.d193.s2.e3" ddi="false"/>
+    </sentence>
+    <sentence id="DDI-MedLine.d193.s3" text="Clopidogrel is expected to become available generically in the US within the next few months.">
+        <entity id="DDI-MedLine.d193.s3.e0" charOffset="0-10"
+            type="drug" text="Clopidogrel"/>
+    </sentence>
+</document>
