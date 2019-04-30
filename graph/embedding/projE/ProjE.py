@@ -682,6 +682,7 @@ class ProjE(GraphEmbedding):
         data_dir = args['data_dir']        
         with open(os.path.join(data_dir, 'entity2id.txt'), 'r', encoding='utf-8') as f:
             self.__n_entity = len(f.readlines())
+            f.close()
         with open(os.path.join(data_dir, 'entity2id.txt'), 'r', encoding='utf-8') as f:
             if args['datasetFlag'] == 0:
                 self.__entity_id_map = {x.strip().split('\t')[0]: int(x.strip().split('\t')[1]) for x in f.readlines()}
@@ -689,11 +690,13 @@ class ProjE(GraphEmbedding):
             else:
                 self.__entity_id_map = {x.strip().split('\t')[0]: x.strip().split('\t')[1] for x in f.readlines()}
                 self.__id_entity_map = {v: k for k, v in self.__entity_id_map.items()}
+            f.close()
 
         print("N_ENTITY: %d" % self.__n_entity)
 
         with open(os.path.join(data_dir, 'relation2id.txt'), 'r', encoding='utf-8') as f:
             self.__n_relation = len(f.readlines())
+            f.close()
 
         with open(os.path.join(data_dir, 'relation2id.txt'), 'r', encoding='utf-8') as f:
             if args['datasetFlag'] == 0:
@@ -702,6 +705,7 @@ class ProjE(GraphEmbedding):
             else:
                 self.__relation_id_map = {x.strip().split('\t')[0]: x.strip().split('\t')[1] for x in f.readlines()}
                 self.__id_relation_map = {v: k for k, v in self.__entity_id_map.items()}
+            f.close()
 
         print("N_RELATION: %d" % self.__n_relation)
 
@@ -827,10 +831,13 @@ class ProjE(GraphEmbedding):
                 self.__trainable.append(self.__tr_combination_bias)
         file = open(os.path.join(data_dir, 'train.txt'), "r")
         trainList = file.readlines()
+        file.close()
         file = open(os.path.join(data_dir, 'valid.txt'), "r")
         validList = file.readlines()
+        file.close()
         file = open(os.path.join(data_dir, 'test.txt'), "r")
         testList = file.readlines()
+        file.close()
         return args, trainList, validList, testList
 
 
