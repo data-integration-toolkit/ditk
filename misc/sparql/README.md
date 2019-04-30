@@ -19,3 +19,5 @@ PRoST stores the data twice using Vertical Partition Tables and Property Tables.
 - Input: RDF file in N-Triples format/ SPARQL query file
 - Output: CSV file/ [Apache Parquet](https://parquet.apache.org/) file
 - Dataset: [Waterloo Diversity Test Suite](https://dsg.uwaterloo.ca/watdiv/) 100k/1 million
+
+# [Video demonstraction](https://youtu.be/-kftXXLGreM)
