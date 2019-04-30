@@ -84,6 +84,7 @@ class TransferLearningforNER(Ner):
             raise ValueError("Invalid file_dict. Standard keys (train, test, dev)")
         except Exception as e:
             print('Something went wrong.', e)
+            sys.exit(1)
 
         entity_list = None if ENTITY_LIST not in kwargs else kwargs[ENTITY_LIST]
         annotation_format = 'IOB1' if ANNOTATION_FORMAT not in kwargs else kwargs[ANNOTATION_FORMAT]
@@ -123,6 +124,7 @@ class TransferLearningforNER(Ner):
             self.processor.train(data, **kwargs)
         except Exception as e:
             print('Error while training: ', str(e))
+            sys.exit(1)
 
     def predict(self, data, *args, **kwargs):
         """
@@ -141,6 +143,7 @@ class TransferLearningforNER(Ner):
             predictions = self.processor.predict(data)
         except Exception as e:
             print('Error while predicting: ', str(e))
+            sys.exit(1)
         return predictions
 
     def convert_ground_truth(self, data, *args, **kwargs):
@@ -163,6 +166,7 @@ class TransferLearningforNER(Ner):
                 formatted_actual.append(())
         except Exception as e:
             print('Error while converting data: ', str(e))
+            sys.exit(1)
         return formatted_actual
 
     def evaluate(self, predictions, groundTruths, *args, **kwargs):
@@ -184,6 +188,7 @@ class TransferLearningforNER(Ner):
             scores = self.processor.eval(predictions,groundTruths)
         except Exception as e:
             print('Error while evaluating: ', str(e))
+            sys.exit(1)
         return scores
 
     def load_model(self, location=None):
@@ -194,6 +199,7 @@ class TransferLearningforNER(Ner):
                 self.processor.load_model(location)
         except Exception as e:
             print('Error while saving model: ', str(e))
+            sys.exit(1)
 
     def save_model(self,location=None):
         try:
@@ -203,3 +209,4 @@ class TransferLearningforNER(Ner):
                 self.processor.save_model(location)
         except Exception as e:
             print('Error while loading model: ', str(e))
+            sys.exit(1)

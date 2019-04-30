@@ -42,6 +42,7 @@ class LingusticStructureforNER(Ner):
             raise ValueError("Invalid file_dict. Standard keys (train, test, dev)")
         except Exception as e:
             print('Something went wrong.', e)
+            sys.exit(1)
 
         self.processor.process_dataset(data, **kwargs)
         return data
@@ -85,6 +86,7 @@ class LingusticStructureforNER(Ner):
             predictions = self.processor.predict(data)
         except Exception as e:
             print('Error while predicting: ', str(e))
+            sys.exit(1)
         return predictions
 
     def convert_ground_truth(self, data, *args, **kwargs):
@@ -107,6 +109,7 @@ class LingusticStructureforNER(Ner):
             formatted_data.append(())
         except Exception as e:
             print('Error while converting data: ', str(e))
+            sys.exit(1)
         return formatted_data
 
     def evaluate(self, predictions, groundTruths, *args,
@@ -129,6 +132,7 @@ class LingusticStructureforNER(Ner):
             score = self.processor.evaluate(predictions, groundTruths)
         except Exception as e:
             print('Error while evaluating: ', str(e))
+            sys.exit(1)
         return score
 
     def save_model(self, location='models'):
@@ -136,9 +140,11 @@ class LingusticStructureforNER(Ner):
             self.processor.save_model(location)
         except Exception as e:
             print('Error while saving model: ', str(e))
+            sys.exit(1)
 
     def load_model(self, location='models'):
         try:
             self.processor.load_model(location)
         except Exception as e:
             print('Error while loading model: ', str(e))
+            sys.exit(1)

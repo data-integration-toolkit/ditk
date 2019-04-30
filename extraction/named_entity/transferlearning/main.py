@@ -19,6 +19,3 @@ def main(input_file):
     scores = ner.evaluate(preds, actual_tags)
     file = os.path.join(os.getcwd(),'ner_test_output.txt')
     return file
-
-if __name__ == "__main__":
-    print(main(os.path.join('tests','ner_test_input.txt')))
