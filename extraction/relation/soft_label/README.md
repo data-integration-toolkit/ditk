@@ -13,6 +13,7 @@ Liu, T., Wang, K., Chang, B. and Sui, Z. : A Soft-label Method for Noise-toleran
 
 
 ## Overall Task
+<p align="center"><img width="40%" src="fig.png"/></p>
 
 ### soft-label-RE
 This project provides the implementation of distantly supervised relation extraction with (bag-level) soft-label adjustment.
@@ -133,7 +134,7 @@ if __name__ == "__main__":
     # For Example: main('/home/user/Desktop/Dataset.txt')
     main()
 ```
-You may also find the provide Youtube Video and Jupyter notebook below useful.
+You may also find the provide Youtube Video and Jupyter notebook useful.
 
 
 ### Youtube Video Guide
