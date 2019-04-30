@@ -17,5 +17,5 @@ def main(input_file):
     return model.ent_embeddings, model.rel_embeddings
 
 if __name__ == '__main__':
-    main(input_file)
+    main('./yago_dataset/')
     tf.app.run()
