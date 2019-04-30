@@ -18,6 +18,7 @@ https://github.com/Franck-Dernoncourt/NeuroNER
 
 - Clone the repository
 - Install the dependencies using `pip3 install -r requirements.txt`
+- Download and store glove.6B.100d.txt from [here](http://nlp.stanford.edu/data/glove.6B.zip)
 - Edit the `parameters.ini` file. Give the path to the word embeddings file for `token_pretrained_embedding_filepath` variable. Also, set whether you want to train model or use a pretrained model by setting `train_model` and `use_pretrained_model` (there are default parameters for everything that can be changed)
 - Initialize a model
 ```python
