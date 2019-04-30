@@ -3,7 +3,8 @@ Leveraging Linguistic Structures for Named Entity Recognition with Bidirectional
 This paper can be downloaded from https://aclweb.org/anthology/D17-1282
 
 #### Citation: 
-- Peng-Hsuan Li et. al, EMNLP, 2017.
+- Li, Peng-Hsuan  and  Dong, Ruo-Ping  and  Wang, Yu-Siang  and  Chou, Ju-Chieh  and  Ma, Wei-Yun
+- EMNLP 2017
 
 #### Input:
  - Data in DITK.NER format as below - 
