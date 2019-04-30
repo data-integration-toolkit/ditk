@@ -3,11 +3,7 @@ ConEc (Context Encoders), an extension of word2vec
 This is a Python3 implementation of the following paper - 
 
 Context encoders as a simple but powerful extension of word2vec
-
-Franziska Horn, 
-
-Proceedings of the 2nd Workshop on Representation Learning for NLP, 
-
+Franziska Horn, Proceedings of the 2nd Workshop on Representation Learning for NLP, 
 Association for Computational Liguistics 2017, Pages 10-14
 
 Installation
