@@ -6,6 +6,20 @@ Liyuan Liu, Jingbo Shang, Frank Xu, Xiang Ren, Huan Gui, Jian Peng, and Jiawei H
 
 GitHub repo: https://github.com/LiyuanLucasLiu/LM-LSTM-CRF
 
+### Instructions
+To run main function for read_dataset-predict-evaluation:
+```
+cd <root>/ditk
+pip install requirements.txt
+python3 extraction/named_entity/lmlstmcrf/main.py
+```
+
+To run unit tests:
+```
+cd <root>/ditk
+python3 extraction/named_entity/lmlstmcrf/test/test.py
+```
+
 ### Input/Output for Prediction
 Input
 Space separated format generalized for the group.
@@ -28,11 +42,10 @@ text true_label prediction
 Same as above
 
 ### Task Overview
-The project is to perform multitask link prediction and node classification simultaneously using a keras autoencoder model.
-Given a dataset consisting of an adjacency matrixs where one indicates reference and zero indicates lack of reference to another node,
-we set a subset of links as unknown to perform training and prediction. We augment the matrix with an additional word embedding feature
-for each node given a specific classification of the node as a one hot vector as well to do node classification. We combine these tasks 
-together using the autoencoder model.
+The project's task is to perform named entity recognition given a sequence of words for a sentence. This model uses a novel
+approach of multitasking language model sequence labeling and named entity recognition simultaneously which shared weights.
+It also uses highway connections to link character level weights from the language model to the word level bi-lstm to take 
+both features into account.
 
 ![FCN_schematic](figure1.png?raw=true)
 
@@ -51,4 +64,4 @@ together using the autoencoder model.
 Ontonotes and Chemdner were both trained on a subset of equal size to ConLL 2003
 
 ### Links
-Notebook: https://github.com/twiet/ditk/blob/develop/graph/completion/longae/longae.ipynb
+Notebook: https://github.com/twiet/ditk/blob/develop/extraction/named_entity/lmlstmcrf/lmlstmcrf.ipynb

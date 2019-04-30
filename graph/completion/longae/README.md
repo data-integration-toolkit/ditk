@@ -6,6 +6,20 @@ Tran, Phi Vu. Learning to Make Predictions on Graphs with Autoencoders. Proceedi
 
 GitHub repo: https://github.com/vuptran/graph-representation-learning
 
+### Instructions
+To run main function for read_dataset-predict-evaluation:
+```
+cd <root>/ditk
+pip install requirements.txt
+python3 graph/completion/longae/main.py
+```
+
+To run unit tests:
+```
+cd <root>/ditk
+python3 graph/completion/longae/test/test.py
+```
+
 ### Input/Output for Prediction
 Input
 * N x N adjacency matrix with 10% links set to <unk> (N is the number of nodes)
