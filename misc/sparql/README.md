@@ -20,11 +20,22 @@ PRoST stores the data twice using Vertical Partition Tables and Property Tables.
 - Output: CSV file/ [Apache Parquet](https://parquet.apache.org/) file
 - Dataset: [Waterloo Diversity Test Suite](https://dsg.uwaterloo.ca/watdiv/) 100k/1 million
 
+# Results
+| Software | WatDiv 100k (Load Time, Dataset size) | WatDiv 1M (Load Time, Dataset size) |
+|----------|---------------------------------------|-------------------------------------|
+| S2RDF    | 43 min 19 sec,  2.7 MB                | 7 hours 58 min 48 sec, 1059.2 MB    |
+| PRoST    | 55 min 37 sec , 5.1 MB                | 56 min 45 sec, 2.88 GB              |
+
+|             | Star Query 7      | Snowflake Query 4 | Star Query 5 | Linear Query 4 | Linear Query 5 | Snowflake Query 2 | Complex Query 3 | Snowflake Query 3 | Linear Query 3 |
+|-------------|-------------------|-------------------|--------------|----------------|----------------|-------------------|-----------------|-------------------|----------------|
+| WatDiv 100k | 35 seconds        | 59 seconds        | 52 seconds   | 54 seconds     | 50 seconds     | 84 seconds        | 43 seconds      | 66 seconds        | 51 seconds     |
+| WatDiv 1M   | Not enough memory | 110 seconds       | 76 seconds   | 67 seconds     | 48 seconds     | Not enough memory | 84 seconds      | Not enough memory | 85 seconds     |
+
 # Run instructions
 In order to submit a Spark job to my cluster you need to be authenticated.  There is a JSON file that the code needs access to that will be pointed to by an environment variable as follows:
-```export GOOGLE_APPLICATION_CREDENTIALS="/home/user/Downloads/[FILE_NAME].json"
+```
+export GOOGLE_APPLICATION_CREDENTIALS= /home/user/Downloads/[FILE_NAME].json
 ```
 You will NOT BE ABLE TO SUBMIT A JOB WITHOUT THIS!
 
 # [Video demonstraction](https://youtu.be/-kftXXLGreM)
-<iframe width="560" height="315" src="https://www.youtube.com/embed/-kftXXLGreM" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
