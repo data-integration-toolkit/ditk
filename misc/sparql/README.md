@@ -20,4 +20,11 @@ PRoST stores the data twice using Vertical Partition Tables and Property Tables.
 - Output: CSV file/ [Apache Parquet](https://parquet.apache.org/) file
 - Dataset: [Waterloo Diversity Test Suite](https://dsg.uwaterloo.ca/watdiv/) 100k/1 million
 
+# Run instructions
+In order to submit a Spark job to my cluster you need to be authenticated.  There is a JSON file that the code needs access to that will be pointed to by an environment variable as follows:
+```export GOOGLE_APPLICATION_CREDENTIALS="/home/user/Downloads/[FILE_NAME].json"
+```
+You will NOT BE ABLE TO SUBMIT A JOB WITHOUT THIS!
+
 # [Video demonstraction](https://youtu.be/-kftXXLGreM)
+<iframe width="560" height="315" src="https://www.youtube.com/embed/-kftXXLGreM" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
