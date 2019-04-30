@@ -26,7 +26,11 @@ def read_data(file_path):
             else:
                 line_data = line.strip().split(' ')
                 tokens.append(line_data[0])
-                tags.append(line_data[3])
+                if len(line_data) > 4:
+                    tags.append(line_data[3])
+                else:
+                    tags.append(line_data[0])
+
         sentences.pop(-1)
         output_labels.pop(-1)
     return sentences, output_labels, max_length       

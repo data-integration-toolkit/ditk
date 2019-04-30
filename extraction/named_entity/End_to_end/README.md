@@ -14,7 +14,7 @@ https://github.com/gpandu/NER_DNN
 2. The Neural Net model is: CNNs(char embedding + word embedding) + BLSTM + CRF(prediction and optimization)
 3. This model is a true 'end-to-end', there is no feature engineering or data processing
 4. Also, this model does not need c[hunk tags and POS taggings to fit in the model
-
+![avatar](./arch.png)
 ##**Input and Output**
 ###**Input**
 The input for training and testing are text sentences with the NER type, the data format will be in Conll2012 format, but we will
@@ -40,14 +40,16 @@ Benchmark datasets:
     
 Evaluation metrics and results:
 
-		    Prediction   Recall   F1-score
-	Conll2003:     0.84       0.84      0.84
-	Ontonotes:     0.59       0.74      0.65
-	CHEMDNER:      0.75       0.39      0.50
+|             |  Prediction    | Recall     |  F1-score |    
+| ---------- | :-----------:  | :-----------: |:-----------: |
+| Conll2003     | 0.84     | 0.84     |0.84     |
+| Ontonotes     | 0.59     | 0.74     |0.65     |
+| CHEMDNER      | 0.75     | 0.39     |0.50     |
+
 
 ##**Demo**
 Link to the Jupyter Notebook:
-
+[jupyter](extraction/named_entity/End_to_end/WholeProcess-Read_Train_Predict_Evaluate-CONLL2003-test.ipynb)
 
 Link to the video on Youtube:
 
