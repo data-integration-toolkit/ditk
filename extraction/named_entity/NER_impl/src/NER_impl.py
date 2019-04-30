@@ -11,7 +11,7 @@ from named_entity.NER_impl.src.All_other_methods import *
 from named_entity.NER_impl.src.conlleval import *
 
 
-# PLEASE NOTE: buildGlove() method in All_other_methods requires glove.840b.300d.txt
+# PLEASE NOTE: buildGlove() method in src/All_other_methods.py requires glove.840b.300d.txt
 # which is downloaded from https://nlp.stanford.edu/projects/glove/
 
 class BiLSTMCRFNerImpl(Ner):
