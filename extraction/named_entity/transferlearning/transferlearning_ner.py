@@ -1,5 +1,14 @@
 from experiment import Experiment
 import utils
+# from ner import Ner
+import sys
+import os
+
+PACKAGE_PARENT = '..'
+SCRIPT_DIR = os.path.dirname(os.path.realpath(os.path.join(os.getcwd(), os.path.expanduser(__file__))))
+sys.path.append(os.path.normpath(os.path.join(SCRIPT_DIR, PACKAGE_PARENT)))
+
+from ner import Ner
 
 DATASET_NAMES = 'dataset_names'
 ENTITY_LIST = 'entity_list'
@@ -7,7 +16,7 @@ ANNOTATION_FORMAT = 'annotation_format'
 EMBEDDING_FILES = 'embedding_files'
 
 
-class TransferLearningforNER():
+class TransferLearningforNER(Ner):
     """
         Wrapper implementation for the paper -
         Transfer Learning for Entity Recognition of Novel Classes

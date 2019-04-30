@@ -1,4 +1,5 @@
 from transferlearning_ner import TransferLearningforNER
+
 import os
 
 def main(input_file):
@@ -9,6 +10,7 @@ def main(input_file):
     ner = TransferLearningforNER()
     embedding_file= ''
 
+
     src_data = ner.read_dataset(file_dict={"train": input_file, "test": input_file, "dev": input_file}, dataset_name='src')
     tgt_data = ner.read_dataset(file_dict={"train": input_file, "test": input_file, "dev": input_file}, dataset_name='tgt')
     ner.train(tgt_data, src_data=src_data, classifier='CRF', transfer_method='tgt')
@@ -17,3 +19,6 @@ def main(input_file):
     scores = ner.evaluate(preds, actual_tags)
     file = os.path.join(os.getcwd(),'ner_test_output.txt')
     return file
+
+if __name__ == "__main__":
+    print(main(os.path.join('tests','ner_test_input.txt')))

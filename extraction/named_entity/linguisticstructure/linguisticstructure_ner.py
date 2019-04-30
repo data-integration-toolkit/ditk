@@ -1,6 +1,14 @@
 from linguistic_ner import LinguisticRNN
+import sys
+import os
 
-class LingusticStructureforNER():
+PACKAGE_PARENT = '..'
+SCRIPT_DIR = os.path.dirname(os.path.realpath(os.path.join(os.getcwd(), os.path.expanduser(__file__))))
+sys.path.append(os.path.normpath(os.path.join(SCRIPT_DIR, PACKAGE_PARENT)))
+
+from ner import Ner
+
+class LingusticStructureforNER(Ner):
     """
         Wrapper implementation for the paper -
         Leveraging Linguistic Structures for Named Entity Recognition with Bidirectional Recursive Neural Networks
@@ -57,6 +65,7 @@ class LingusticStructureforNER():
             self.processor.train_model(data, pretrain, **kwargs)
         except Exception as e:
             print('Error while training: ', str(e))
+            sys.exit(1)
 
     def predict(self, data, *args, **kwargs):
         """
@@ -66,6 +75,7 @@ class LingusticStructureforNER():
                     Test data in an iterable format from read_dataset()
         :param args:
         :param kwargs:
+                    max_epoches = count
         :return: list
                 Returns the predicted entities with annotations as tuples in the list.
                 e.g [(SpanStartIdx, SpanEndIdx, Entity1, PredTag), (SpanStartIdx, SpanEndIdx, Entity1, PredTag).....]
