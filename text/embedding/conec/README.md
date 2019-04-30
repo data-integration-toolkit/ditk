@@ -2,9 +2,12 @@ ConEc (Context Encoders), an extension of word2vec
 ----------------------------------------------------
 This is a Python3 implementation of the following paper - 
 
-## Context encoders as a simple but powerful extension of word2vec
+Context encoders as a simple but powerful extension of word2vec
+
 Franziska Horn, 
+
 Proceedings of the 2nd Workshop on Representation Learning for NLP, 
+
 Association for Computational Liguistics 2017, Pages 10-14
 
 Installation
@@ -18,11 +21,11 @@ Introduction
 ------------
 The task is to obtain embeddings for Out of Vocabulary (OOV) words and for words having multiple meanings by exploiting the word's local context
 
-INPUTS (For Prediction and Training)
+Input (For Prediction and Training)
 ------------------------------------
 Word | Sentence | Paragraph | Document
 
-OUTPUTS (For Prediction and Training)
+Output (For Prediction and Training)
 -------------------------------------
 - Text Embedding | Average Text Embedding
 - Embedding Similarity
@@ -75,9 +78,9 @@ For training :
 4) SICK 2014
    
    Download from - https://github.com/brmson/dataset-sts/tree/master/data/sts/sick2014	 	
-5) SemEval 2014
+5) SemEval 2017 
    
-   Download from - https://github.com/brmson/dataset-sts/tree/master/data/sts/semeval-sts/2014
+   Download from - https://github.com/brmson/dataset-sts/tree/master/data/sts/semeval-sts/2017
 
 RESULTS
 -------
