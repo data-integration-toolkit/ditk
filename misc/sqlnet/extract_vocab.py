@@ -28,9 +28,9 @@ def extract_vocab():
     word_num = 3
     embs = [np.zeros(N_word,dtype=np.float32) for _ in range(word_num)]
 
-    def check_and_add(tok):
+    def check_and_add(tok, n):
+        word_num = n
         #Check if the tok is in the vocab. If not, add it.
-        global word_num
         if tok not in word_to_idx and tok in word_emb:
             word_to_idx[tok] = word_num
             word_num += 1
@@ -38,25 +38,25 @@ def extract_vocab():
 
     for sql in sql_data:
         for tok in sql['question_tok']:
-            check_and_add(tok)
+            check_and_add(tok, word_num)
     for tab in table_data.values():
         for col in tab['header_tok']:
             for tok in col:
-                check_and_add(tok)
+                check_and_add(tok, word_num)
     for sql in val_sql_data:
         for tok in sql['question_tok']:
-            check_and_add(tok)
+            check_and_add(tok, word_num)
     for tab in val_table_data.values():
         for col in tab['header_tok']:
             for tok in col:
-                check_and_add(tok)
+                check_and_add(tok, word_num)
     for sql in test_sql_data:
         for tok in sql['question_tok']:
-            check_and_add(tok)
+            check_and_add(tok, word_num)
     for tab in test_table_data.values():
         for col in tab['header_tok']:
             for tok in col:
-                check_and_add(tok)
+                check_and_add(tok, word_num)
 
     print("Length of used word vocab: %s"%len(word_to_idx))
 
