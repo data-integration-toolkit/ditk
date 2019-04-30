@@ -229,7 +229,10 @@ class UOI(Ner):
                 self.total_pred += len(pred)
                 self.total_true += len(true)
                 self.matched_num += sum([1 for tag in pred if tag in true])
-        return predicts, true_tags
+        test_sentences_flat = [y for x in test_sentences for y in x]
+        predicts_flat = [y for x in predicts for y in x]
+        true_tags_flat = [y for x in true_tags for y in x]
+        return list(zip(test_sentences_flat, predicts_flat, true_tags_flat))
 
     def fromValueToKey(self, value):
         for tag, index in self.TAGS.items():
