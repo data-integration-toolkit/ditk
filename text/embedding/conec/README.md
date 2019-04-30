@@ -32,10 +32,9 @@ For Ex. Washington (US State) vs Washington (Former President).
 
 This code can be used to train, evaluate an use Context Encoders (ConEc), a powerful context-aware extension of word2vec. This can be used to generate text embeddings for a word with multiple meanings or for Out-Of-Vocabulary (OOV) words by using a trained model. 
 
-ARCHITECTURE DIAGRAM
+Architecture Diagram
 --------------------
 Architecture for the ConEc model
-!(https://github.com/bjainvarsha/ditk/blob/develop/text/embedding/conec/multimedia/conec_architecture.JPG)
 
 Implementation
 --------------
@@ -56,15 +55,21 @@ DATASETS
 ---------
 For training :
 1) Google Analogy Dataset
+   
    Download from - https://github.com/nicholas-leonard/word2vec/blob/master/questions-words.txt
 2) One Billion Words Corpus
+   
    Download from - https://code.google.com/archive/p/1-billion-word-language-modeling-benchmark/
 3) CoNLL 2003, NER Task
+   
    Download from - https://github.com/Franck-Dernoncourt/NeuroNER/tree/master/neuroner/data/conll2003/en
+   
    CoNLL evaluation script - https://www.clips.uantwerpen.be/conll2003/ner/
 4) SICK 2014
+   
    Download from - https://github.com/brmson/dataset-sts/tree/master/data/sts/sick2014	 	
 5) SemEval 2014
+   
    Download from - https://github.com/brmson/dataset-sts/tree/master/data/sts/semeval-sts/2014
 
 RESULTS
