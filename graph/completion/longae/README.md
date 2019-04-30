@@ -6,6 +6,10 @@ Tran, Phi Vu. Learning to Make Predictions on Graphs with Autoencoders. Proceedi
 
 GitHub repo: https://github.com/vuptran/graph-representation-learning
 
+### Requirements
+Python 3.6+
+Tensorflow 1.13.1+
+
 ### Instructions
 To run main function for read_dataset-predict-evaluation:
 ```
