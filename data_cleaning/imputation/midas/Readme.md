@@ -66,7 +66,7 @@ Sample Input and Output files have been included in midas/tests folder.
 ## Demo
 - Link to the Jupyter Notebook : 
 
-https://github.com/karishma-chadha/ditk/blob/develop/data_cleaning/midas/demo/midas_jupyter_notebook.ipynb
+https://github.com/karishma-chadha/ditk/blob/develop/data_cleaning/imputation/midas/demo/midas_jupyter_notebook.ipynb
 
 - Link to the video on Youtube
 
