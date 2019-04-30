@@ -108,6 +108,7 @@ class Prost(ProstBase):
                 rows = s.split('\n')
                 with open('prost_vp_stats.csv', 'w') as out:
                     w = csv.writer(out,quotechar='"')
+                    w.writerow(['isComplex,Distinct Predicates, Size, Table Name'])
                     for r in rows:
                         if len(r) > 2:
                             w.writerow(r.split(','))
