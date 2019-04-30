@@ -10,8 +10,7 @@ db.csv and entry.csv respectively
 SQLNet: Generating Structured Queries from Natural Language Without Reinforcement Learning
 
 ### Full citation
-> Xiaojun Xu, Chang Liu, Dawn Song. 2017. SQLNet: Generating Structured Queries from Natural Language Without Reinforcement Learning. <br\>
-[Github Link](https://github.com/xiaojunxu/SQLNet)<br\>
+> Xiaojun Xu, Chang Liu, Dawn Song. 2017. SQLNet: Generating Structured Queries from Natural Language Without Reinforcement Learning.[Github Link](https://github.com/xiaojunxu/SQLNet)
 
 ### Input/Output format for prediction
 Input:<br/>
@@ -19,7 +18,7 @@ Input:<br/>
 -Evaluation Database Name<br/>
 -Table ID<br/>
 Output:<br/>
--Tokenized SQL Query<br/>
+-Tokenized SQL Query in JSON<br/>
 
 ### Input/Output format for training
 Input:<br/>
@@ -27,7 +26,7 @@ Input:<br/>
 -Training Database Name<br/>
 -Table ID<br/>
 Output:<br/>
--Tokenized SQL Query<br/>
+-Tokenized SQL Query in JSON<br/>
 
 ### A paragraph describing the overall task, the method and model
 The method performs classification on Aggregation, Selection, and Conditional clauses for SQL query. 
@@ -38,9 +37,9 @@ accuracy using mean error on aggregation, selection, and conditional clause. It 
 for checking if all three sections are correct.
 
 ### A figure describing the model
-<p align="center"><img width="100%" src="img/Table.png.png" /></p>
+<p align="center"><img width="100%" src="img/Table.png" /></p>
 <p align="center"><img width="100%" src="img/Model.png" /></p>
-<p align="center"><img width="100%" src="img/PointerNet.png.png" /></p>
+<p align="center"><img width="100%" src="img/PointerNet.png" /></p>
 
 ### Benchmark datasets
 1. [WikiSQL Dataset](https://github.com/salesforce/WikiSQL)
