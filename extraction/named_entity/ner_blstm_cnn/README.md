@@ -64,7 +64,6 @@ print('Precision: %s, Recall: %s, F1: %s'%(P,R,F1))
         - mention type: str, the entity/mention type. None if not applicable.<br>
 `[(None, 5, Steve, B-PER),(None, went, 4, O),(None, 2, to, O), (None, 5, Paris, B-LOC)]`
 - Training
-- Training
     - Input format (trainig data): `DITK.NER` format as defined below
         ![alt text](./resources/ditk-format.png)
     - Sample data
