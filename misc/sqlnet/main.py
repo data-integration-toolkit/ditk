@@ -48,6 +48,8 @@ def main():
                         help='Use conditional attention.')
     parser.add_argument('--dataset', type=int, default=0,
                         help='0: original dataset, 1: re-split dataset')
+    parser.add_argument('--maxepoch', action='store_true',
+                        help='Max training epoch')
     parser.add_argument('--rl', action='store_true',
                         help='Use RL for Seq2SQL(requires pretrained model).')
     parser.add_argument('--baseline', action='store_true',
