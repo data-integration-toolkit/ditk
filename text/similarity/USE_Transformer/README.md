@@ -54,8 +54,10 @@ $ mkdir /model/moduleA
 # Download the module, and uncompress it to the destination folder. You might want to do this manually.
 $ curl -L "https://tfhub.dev/google/universal-sentence-encoder-large/3?tf-hub-format=compressed" | tar -zxvC /model/moduleA
 ```   
-&emsp;3. main.py is a demo to predict sentence pairs similarity score   
-&emsp;4. use_transformer_demo.ipynb is a demo that contains prediction and evaluation  
+&emsp;Or use remote url to download it at first time, may takes long without any reminder,(not recommend)  
+
+&emsp;3. src/main.py is a demo to predict sentence pairs similarity score   
+&emsp;4. src/use_transformer_demo.ipynb is a demo that contains prediction and evaluation  
 
 video demo
 ==========
@@ -63,7 +65,10 @@ https://youtu.be/1v9nQXxPVNY
 
 Jupyter notebook
 ================
-use_transformer_demo.ipynb
+src/USE_Transformer_demo.ipynb
+
+
+
 
 
 
