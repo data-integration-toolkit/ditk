@@ -45,6 +45,14 @@ for checking if all three sections are correct.
 1. [WikiSQL Dataset](https://github.com/salesforce/WikiSQL)
 
 ### Evaluation metrics and results
+| Accuracy Type        | Acc_agg           | Acc_sel  | Acc_where|Acc_agg|Acc_sel|Acc_where
+| ------------- |:-------------:| -----:|-----:|-----:|-----:|-----:|
+| SQLNet(Seq2set+CA) Evaluation @50Epoch      | 90.1%| 90.4% | 68.6% |90.0%|89.8%|
+| Seq2SQL      | 90.0%      |   89.6% |62.1%|90.1%|88.9%|60.2%|
+| Seq2SQL(Column-order) | -      |    - |63.3%|-|-|61.2%|
+| SQLNet(Seq2set) | -      |    - |69.1%|-|-|67.1%|
+| SQLNet(Seq2set+CA) | 90.1%      |    91.1% |72.1%|90.3%|90.4%|70.0%|
+| SQLNet(Seq2set+CA+WE) | 90.1%    |    91.5% |74.1%|90.3%|90.9%|71.9%|
 
 ### Jupyter Notebook
 I wasn't able to successfully run Jupyter notebook from Google Cloud and included the description and running the
