@@ -7,9 +7,9 @@ Python 3 or newer and the following libraries:
 
 |   PACKAGE NAME                                                                  |     INSTALLATION                |
 |:-------------------------------------------------------------------------------:|:-------------------------------:|
-|   TPG -> http://christophe.delord.free.fr/en/tpg/                               |   python3 setup.py install      |
+|   TPG -> http://christophe.delord.free.fr/en/tpg/                               |   `python3 setup.py install`      |
 |   c2d -> Darwiche's c2d compiler http://reasoning.cs.ucla.edu/c2d/ (Included)   |   Set the right path while, calling read_input in mcdsat     |
-|   dnnf-models -> for model enumeration (Included) For more details on usage, check the README file in the dnnf-models folder       |   Uncompress the tar cd nnf; make make          |
+|   dnnf-models -> for model enumeration (Included) For more details on usage, check the README file in the dnnf-models folder       |   Uncompress the tar `cd nnf; make` `make`          |
 |   psyco -> http://psyco.sourceforge.net/ if used, must uncomment the psyco lines in Main.py            |                               |
 
 Installation
@@ -94,7 +94,7 @@ Download the mcdsat folder and follow the installation instructions for the prer
 After the installation is complete, the following command can be used to get the query
 rewritings for the specified files
 
-python3 main.py 
+`python3 main.py` 
 
 This execution generates the Query Rewritings for the
 Query file examples/query_0.txt
