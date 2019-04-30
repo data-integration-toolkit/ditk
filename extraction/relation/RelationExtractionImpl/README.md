@@ -8,7 +8,7 @@ https://github.com/sunilitggu/DDI-extraction-through-LSTM
 <h1>Description</h1>
   This implementation handles the task of Relation extraction between drugs in a sentence.</br>
    •	Input - .txt file in the following format (Each column separated by \t)</br>
-&nbsp;&nbsp;&nbsp;&nbsp;SENTENCE&nbsp;&nbsp;&nbsp;&nbsp;ENTITY_1&nbsp;&nbsp;&nbsp;&nbsp;ENTITY_1_START_INDEX&nbsp;&nbsp;&nbsp;&nbsp;ENTITY_1_END_INDEX&nbsp;&nbsp;&nbsp;&nbsp;ENTITY_1TYPE&nbsp;&nbsp;&nbsp;&nbsp;ENTITY_2&nbsp;&nbsp;&nbsp;&nbsp;ENTITY_2_START_INDEX&nbsp;&nbsp;&nbsp;&nbsp;ENTITY_1_END_iNDEX&nbsp;&nbsp;&nbsp;&nbsp;ENTITY_2_TYPE&nbsp;&nbsp;&nbsp;&nbsp;RELATION</br>
+&nbsp;&nbsp;&nbsp;&nbsp;SENTENCE&nbsp;&nbsp;&nbsp;&nbsp;ENTITY_1&nbsp;&nbsp;&nbsp;&nbsp;ENTITY_1_START_INDEX&nbsp;&nbsp;&nbsp;&nbsp;ENTITY_1_END_INDEX&nbsp;&nbsp;&nbsp;&nbsp;ENTITY_1TYPE&nbsp;&nbsp;&nbsp;&nbsp;ENTITY_2&nbsp;&nbsp;&nbsp;&nbsp;ENTITY_2_START_INDEX&nbsp;&nbsp;&nbsp;&nbsp;ENTITY_1_END_INDEX&nbsp;&nbsp;&nbsp;&nbsp;ENTITY_2_TYPE&nbsp;&nbsp;&nbsp;&nbsp;RELATION</br>
    •	Output - .txt file with following contents</br>
 &nbsp;&nbsp;&nbsp;&nbsp;SENTENCE&nbsp;&nbsp;&nbsp;&nbsp;ENTITY_1&nbsp;&nbsp;&nbsp;&nbsp;ENTITY_2&nbsp;&nbsp;&nbsp;&nbsp;RELATION</br>
   It requires following files-</br>
