@@ -45,7 +45,7 @@ for checking if all three sections are correct.
 1. [WikiSQL Dataset](https://github.com/salesforce/WikiSQL)
 
 ### Evaluation metrics and results
-| Accuracy Type        | Acc_agg           | Acc_sel  | Acc_where|Acc_agg|Acc_sel|Acc_where
+| Accuracy Type        | val_Acc_agg           | val_Acc_sel  | val_Acc_where|test_Acc_agg|test_Acc_sel|test_Acc_where
 | ------------- |:-------------:| -----:|-----:|-----:|-----:|-----:|
 | SQLNet(Seq2set+CA) Evaluation @50Epoch      | 90.1%| 90.4% | 68.6% |90.0%|89.8%|67.0%|
 | Seq2SQL      | 90.0%      |   89.6% |62.1%|90.1%|88.9%|60.2%|
