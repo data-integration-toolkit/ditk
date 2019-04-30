@@ -8,6 +8,14 @@ Github URL of the original code - https://github.com/Oracen/MIDAS/
 
 (This is the refactorization of the original code.)
 
+## Versions
+Below are the versions used in the code: 
+
+Python - 3.6.8
+Pandas - 0.24.2
+Tensorflow - 1.13.1
+Numpy - 1.16.2
+
 ## Description
 ### - Problem:
 - Missing data is an important issue, even small proportions of missing data can adversely impact the quality of learning process, leading   to biased inference. This paper brings in the concept of **Multiple Imputation**. All previous standalone methods shared a common drawback, imputing a single value for one missing observation, which is then treated as the gold standard, same as the observed data in any  subsequent analysis. This implicitly assumes that imputation model is perfect and fails to account for error/uncertainty in the imputation process. This is overcome by replacing each missing value with several slightly different imputed values, refecting our uncertainty about the imputation process. This approach is called * *multiple imputation.* *

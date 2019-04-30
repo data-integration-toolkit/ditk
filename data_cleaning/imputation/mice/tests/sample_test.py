@@ -2,18 +2,21 @@ import csv
 import unittest
 import pandas as pd
 import numpy as np
-from Mice import mice
-
+import sys
+sys.path.append("../src")
+from mice import Mice
+sys.path.append("../..")
 from imputation import Imputation
 
 #global object
-imputer = mice(n_iter=5, sample_posterior=True, random_state=3)
+imputer = Mice(n_iter=5, sample_posterior=True, random_state=3)
 
 class TestImputationMethods(unittest.TestCase):
 
 	def setUp(self):
 		self.imputation_method = imputer  # The implementation of your Imputation method
-		self.input_file = "letter-recognition.csv"
+		self.input_file = "imputation_test_input.csv"
+		self.output_file = "imputation_test_output.csv"
 		self.verificationErrors = [] # append exceptions for try-except errors
 
 	def test_input_file_format(self):
@@ -70,6 +73,8 @@ class TestImputationMethods(unittest.TestCase):
 		row = preprocess_result.shape[0]
 		column = preprocess_result.shape[1]
 		imputed_table = self.imputation_method.impute(preprocess_result)
+		imputed_table_dataframe = round (pd.DataFrame(imputed_table),2)#rounding values to 2 decimal places
+		imputed_table_dataframe.to_csv(self.output_file,header=None,index=None)#output dataframe to csv file
 		"""
 		check if imputed table has same row and column length
 		"""

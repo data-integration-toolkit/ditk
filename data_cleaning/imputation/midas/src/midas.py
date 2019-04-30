@@ -21,6 +21,8 @@ import tensorflow as tf
 import csv
 from sklearn.metrics import mean_squared_error as mse
 from math import sqrt
+import sys
+sys.path.append("../..")
 from imputation import Imputation
 
 class Midas(Imputation):
@@ -1809,14 +1811,12 @@ class Midas(Imputation):
       # print(rmse)
       return rmse
 
-    
 
-if __name__ == "__main__":
+def main(input_file_path):
   imputer = Midas(layer_structure= [128], vae_layer= False, seed= 42)
 
-  data_old = pd.read_csv("letter-recognition.csv",header = None)
-  data=imputer.preprocess("letter-recognition.csv")
-  
+  data_old = pd.read_csv(input_file_path,header = None)
+  data=imputer.preprocess(input_file_path)
   scaler = MinMaxScaler()
   na_loc = data.isnull()
   data.fillna(data.median(), inplace= True)
@@ -1846,12 +1846,17 @@ if __name__ == "__main__":
             imputed_vals.append(pd.DataFrame(scaler.inverse_transform(dataset),
                                      columns= dataset.columns).loc[a][b])
           val=np.mean(imputed_vals)
-          val=round(val,2)
           data.at[a,b] = val
           rmse+= (data.at[a,b] - data_old.at[a,b])**2
-
+  data = round(data,2)
   rmse=rmse/count
   rmse = sqrt(rmse)
-  print(rmse) #can be done by evaluate function as well - imputer.evaluate(old_dataframe,new_dataframe) -returns rmse
+  print("rmse: ",rmse) #can be done by evaluate function as well - imputer.evaluate(old_dataframe,new_dataframe) -returns rmse
+  output_file_path = "./input_output_generation/imputation_midas_output.csv"
+  data.to_csv(output_file_path, index=False,header=False)
 
-  data.to_csv("result.csv", index=False,header=False)
+  return output_file_path
+
+if __name__ == "__main__":
+  output_path=main("./input_output_generation/imputation_midas_input.csv")
+  print("output_path: ",output_path)

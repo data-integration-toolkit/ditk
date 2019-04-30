@@ -11,8 +11,9 @@
 # limitations under the License
 
 from __future__ import division
+import sys
+sys.path.append("../..")
 from imputation import Imputation
-
 import pandas as pd
 from math import sqrt
 import warnings

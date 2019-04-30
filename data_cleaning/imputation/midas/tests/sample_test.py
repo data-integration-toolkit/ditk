@@ -2,9 +2,11 @@ import csv
 import unittest
 import pandas as pd
 import numpy as np
+import sys
 from sklearn.preprocessing import MinMaxScaler
+sys.path.append("../src")
 from midas import Midas
-
+sys.path.append("../..")
 from imputation import Imputation
 
 #global object
@@ -14,8 +16,9 @@ class TestImputationMethods(unittest.TestCase):
 
 	def setUp(self):
 		self.imputation_method = imputer  # The implementation of your Imputation method
-		self.input_file = "letter-recognition.csv"
-		self.no_of_imputations = 5
+		self.input_file = "imputation_test_input.csv"
+		self.output_file = "imputation_test_output.csv"
+		self.no_of_imputations = 5 
 		self.verificationErrors = [] # append exceptions for try-except errors
 
 	def test_input_file_format(self):
@@ -77,8 +80,8 @@ class TestImputationMethods(unittest.TestCase):
 		preprocess_result = pd.DataFrame(scaler.fit_transform(preprocess_result), columns= preprocess_result.columns)
 		columns_list = []
 		self.imputation_method.build_model(preprocess_result, softmax_columns= columns_list)
-		self.imputation_method.overimpute(training_epochs= 10, report_ival= 1,report_samples= 5, plot_all= False)
-		self.imputation_method.train(train_data = imputer.imputation_target.values,training_epochs= 10, verbosity_ival= 1)
+		self.imputation_method.overimpute(training_epochs= 100, report_ival= 1,report_samples= 5, plot_all= False)
+		self.imputation_method.train(train_data = imputer.imputation_target.values,training_epochs= 100, verbosity_ival= 1)
 		self.imputation_method.impute(self.no_of_imputations)
 		"""
 		Check if no. of imputated values in output list is same as the given no. of imputations
@@ -89,6 +92,8 @@ class TestImputationMethods(unittest.TestCase):
 		"""
 		imputed_table=imputer.output_list[0]
 		imputed_table=pd.DataFrame(scaler.inverse_transform(imputed_table))  ##scaler inverse
+		imputed_table = round(imputed_table,2)
+		imputed_table.to_csv(self.output_file,header=None,index=None)
 		row_impute = imputed_table.shape[0]
 		column_impute = imputed_table.shape[1]
 		self.assertEqual(row,row_impute)
@@ -97,16 +102,9 @@ class TestImputationMethods(unittest.TestCase):
 		check if the impute gives complete data frame
 
 		"""
-
-		# print(row)
-		# print(column)
-		print(imputed_table)
 		for i in range (row_impute):
-			print("i")
-			print(i)
 			for j in range (column_impute):
-					print(j)
-					self.assertNotEqual(imputed_table[i][j],None) #none of the values should be null.
+					self.assertNotEqual(imputed_table.at[i,j],None) #none of the values should be null.
 
 
 if __name__ == '__main__':
