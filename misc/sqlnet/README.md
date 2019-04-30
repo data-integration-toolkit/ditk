@@ -50,7 +50,7 @@ for checking if all three sections are correct.
 I wasn't able to successfully run Jupyter notebook from Google Cloud and included the description and running the
 code in the video
 
-### Youtube Link:<br\>
+### Youtube Link:
 https://youtu.be/M30df2NH08Q
 
 
