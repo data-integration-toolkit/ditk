@@ -1,4 +1,4 @@
-#ConEc (Context Encoders), an extension of word2vec
+ConEc (Context Encoders), an extension of word2vec
 ----------------------------------------------------
 This is a Python3 implementation of the following paper - 
 #Context encoders as a simple but powerful extension of word2vec
@@ -9,13 +9,12 @@ Association for Computational Liguistics 2017, Pages 10-14
 Installation
 ------------
 
-pip install -r requirements.txt --> This will install all the prerewuisite packages
-									for conec to run successfully
+pip install -r requirements.txt
+This will install all the prerequisite packages	for conec to run successfully
 
 Introduction
 ------------
-The task is to obtain embeddings for Out of Vocabulary (OOV) words and for words having
-multiple meanings by exploiting the word's local context
+The task is to obtain embeddings for Out of Vocabulary (OOV) words and for words having multiple meanings by exploiting the word's local context
 
 INPUTS (For Prediction and Training)
 ------------------------------------
@@ -36,6 +35,7 @@ This code can be used to train, evaluate an use Context Encoders (ConEc), a powe
 ARCHITECTURE DIAGRAM
 --------------------
 Architecture for the ConEc model
+!(https://github.com/bjainvarsha/ditk/blob/develop/text/embedding/conec/multimedia/conec_architecture.JPG)
 
 Implementation
 --------------
