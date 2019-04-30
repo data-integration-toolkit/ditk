@@ -135,10 +135,11 @@ if __name__ == "__main__":
     # For Example: main('/home/user/Desktop/Dataset.txt')
     main()
 ```
-You may also find the provide Youtube Video and Jupyter notebook below useful.
+You may also find the provided Youtube Video and Jupyter notebook useful.
 
 
 ### Youtube Video Guide
+[[Youtube Video](https://youtu.be/JtQrqSt24uk)]
 
 ### Run unit test
 ```
