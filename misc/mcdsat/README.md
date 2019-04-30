@@ -5,23 +5,12 @@ Requirements
 ------------
 Python 3 or newer and the following libraries:
 
----------------------------------------------------------------------------------------------
-|   PACKAGE NAME                                            |     INSTALLATION              |
----------------------------------------------------------------------------------------------
-|   TPG -> http://christophe.delord.free.fr/en/tpg/         |   python3 setup.py install    |
-|   (Included)                                              |                               |
----------------------------------------------------------------------------------------------
-|   c2d -> Darwiche's c2d compiler                          |   Set the right path while    |
-|   http://reasoning.cs.ucla.edu/c2d/ (Included)            |   calling read_input in mcdsat|
----------------------------------------------------------------------------------------------
-|   dnnf-models -> for model enumeration (Included)         |   Uncompress the tar          |
-|   For more details on usage, check the README file        |   cd nnf; make                |
-|   in the dnnf-models folder                               |   make                        |
----------------------------------------------------------------------------------------------
-|   psyco -> http://psyco.sourceforge.net/                  |                               |
-|   (not included, only needed for improved performace)     |                               |
-|   if used, must uncomment the psyco lines in Main.py      |                               |
----------------------------------------------------------------------------------------------
+|   PACKAGE NAME                                                                  |     INSTALLATION                |
+|:-------------------------------------------------------------------------------:|:-------------------------------:|
+|   TPG -> http://christophe.delord.free.fr/en/tpg/                               |   python3 setup.py install      |
+|   c2d -> Darwiche's c2d compiler http://reasoning.cs.ucla.edu/c2d/ (Included)   |   Set the right path while, calling read_input in mcdsat     |
+|   dnnf-models -> for model enumeration (Included) For more details on usage, check the README file in the dnnf-models folder       |   Uncompress the tar cd nnf; make make          |
+|   psyco -> http://psyco.sourceforge.net/ if used, must uncomment the psyco lines in Main.py            |                               |
 
 Installation
 ------------
