@@ -47,7 +47,7 @@ for checking if all three sections are correct.
 ### Evaluation metrics and results
 | Accuracy Type        | Acc_agg           | Acc_sel  | Acc_where|Acc_agg|Acc_sel|Acc_where
 | ------------- |:-------------:| -----:|-----:|-----:|-----:|-----:|
-| SQLNet(Seq2set+CA) Evaluation @50Epoch      | 90.1%| 90.4% | 68.6% |90.0%|89.8%|
+| SQLNet(Seq2set+CA) Evaluation @50Epoch      | 90.1%| 90.4% | 68.6% |90.0%|89.8%|67.0%|
 | Seq2SQL      | 90.0%      |   89.6% |62.1%|90.1%|88.9%|60.2%|
 | Seq2SQL(Column-order) | -      |    - |63.3%|-|-|61.2%|
 | SQLNet(Seq2set) | -      |    - |69.1%|-|-|67.1%|
