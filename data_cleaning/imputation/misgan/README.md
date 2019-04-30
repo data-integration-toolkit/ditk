@@ -38,7 +38,11 @@ data.
 3. UCI Spambase
 
 ### Evaluation metrics and results
-
+| Dataset        | MICE           | MissForest  | Matrix|VAE|EM|MisGAN|
+| ------------- |:-------------:| -----:|-----:|-----:|-----:|-----:|
+| UCI Breast Cancer      | 0.0646| 0.0608| 0.0946 |0.0697|0.0634|236.19|
+| UCI Spambase      | 0.0699      |   0.0553|0.0542|0.0670|0.0712|344.17|
+| UCI Letters | 0.1537      |    0.1605 |0.1442|0.1351|0.1563|3.92|
 
 ### Link to Jupyter notebook and Youtube videos
 Jupyter Notebook:
