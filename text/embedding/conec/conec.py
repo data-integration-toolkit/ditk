@@ -15,11 +15,13 @@ from unidecode import unidecode
 import math
 from scipy import spatial, stats
 import nltk
+import sys
+import os
 
-import text_embedding
+sys.path.append(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
+from text_embedding import TextEmbedding
 import word2vec
 import context2vec
-# from conecNER import ContextEnc_NER
 
 logging.basicConfig(format='%(asctime)s : %(levelname)s : %(message)s', level=logging.INFO)
 
@@ -119,7 +121,7 @@ class CoNLL2003(object):
                     tokens.append('')
             yield tokens
 
-class conec(text_embedding.TextEmbedding):
+class conec(TextEmbedding):
     """
     A child class which implements context encoding for generating text embeddings.
     One of the methods for improving the generated Text Embeddings
@@ -161,7 +163,7 @@ class conec(text_embedding.TextEmbedding):
         self.model_path = ""
         self.result_path = ""
         self.model = None
-        text_embedding.TextEmbedding.__init__(self)   
+        TextEmbedding.__init__(self)   
     
     def read_Dataset(self, name="text8", path="data/text8"):
         """
@@ -369,8 +371,12 @@ class conec(text_embedding.TextEmbedding):
         The "analogy" task based evaluation results for the test dataset on the pre-trained model is stored in the pre-defined directory path
         
         """
+        if input_path == "":
+        	questions = 'data/questions-words.txt'
+        else:
+        	questions = input_path
+
         lowercase=True
-        questions = 'data/questions-words.txt'
         with open(model_path, 'rb') as f:
             model = pkl.load(f)
             
@@ -642,10 +648,10 @@ class conec(text_embedding.TextEmbedding):
         return: 
         embedding -- vector -- a vector embedding for the token/ list of tokens
         """
-        # if self.model_path == "":
-        model_path="data/text8_cbow_200_hs0_neg13_seed3_it1.model"
-        # else:
-            # model_path = self.model_path
+        if self.model_path == "":
+        	model_path="data/text8_cbow_200_hs0_neg13_seed3_it1.model"
+        else:
+            model_path = self.model_path
         with open(model_path, 'rb') as f:
             model = pkl.load(f)        
        
