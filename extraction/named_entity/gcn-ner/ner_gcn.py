@@ -1,4 +1,4 @@
-# import ner
+import ner
 from gcn_ner import GCNNer
 import numpy as np
 import pickle
@@ -13,22 +13,20 @@ from gcn_ner.ner_model import GCNNerModel
 
 truthDict = {}
 
-class GcnNer():
+class GcnNer(ner.Ner):
 	def __init__(self, model_file='./data/ner-gcn-21.tf', trans_prob_file='./data/trans_prob.pickle'):
 		self.train_data = ""
 		self.test_data = ""
 		self.predict_data = ""
 		self.ground_truth = ""
 		self._ner = GCNNerModel.load(model_file)
-		self._trans_prob = pickle.load(open(trans_prob_file, "rb"))
+		with open(trans_prob_file, "rb") as f:
+			self._trans_prob = pickle.load(f)
+		f.close()
 		self.model_file = model_file
 		self.trans_prob_file_name = trans_prob_file
 
 	def convert_ground_truth(self, data, file):
-		'''
-		Reads the file input for prediction. Converts it to <word, true_entity_type, start_position, span>
-		Stored in an instance variable.
-		'''
 		tf.reset_default_graph()
 		sentence = self.convertData(data)
 		sentences = utils.aux.get_words_embeddings_from_text(sentence)
@@ -36,6 +34,8 @@ class GcnNer():
 		
 		list_tuples = []
 		i = 0
+		line = f.readline()
+		line = f.readline()
 		for (word, embeddings, idx, span) in sentences:
 			for each in word:
 				line = f.readline()
@@ -51,46 +51,39 @@ class GcnNer():
 				except:
 					pass
 		self.ground_truth = list_tuples
+		f.close()
 		return list_tuples
 
 	def read_dataset(self, file_dict, dataset_name = ""):
-		'''
-		Read the input files and stores in lists.
-		'''
 		tf.reset_default_graph()
 		for k,v in file_dict.items():
 			if k == 'train' and v != "":
 				file = open(v, "r")
 				self.train_data = file.readlines()
-				#print(self.train_data)
+				file.close()
 			if k == 'test' and v != "":
 				file = open(v, "r")
 				self.test_data = file.readlines()
+				file.close()
 			if k == 'dev' and v!= "":
 				file = open(v, "r")
-				self.predict_data = file.readlines()
+				self.predict_data = file.readlines()[2:]
+				file.close()
 		return self.train_data, self.test_data
 
-	def train(self, data, saving_dir = './data/', epochs=31, bucket_size=10):
-		'''
-		Runs the train method and stores the model.
-		'''
+	def train(self, data, saving_dir = './data/', epochs=2, bucket_size=10):
 		tf.reset_default_graph()
 		(file, gcn_model) = GCNNer.train_and_save(dataset = data, saving_dir = saving_dir, epochs = epochs, bucket_size = bucket_size)
 		self.save_model(file, gcn_model)
 
 	def predict(self, data, pretrained_model = ""):
-		'''
-		Predicts the entity types for all mentions identified in the text.
-		pretrained_model can be used if it is loaded in the main.
-		'''
 		tf.reset_default_graph()
 		if pretrained_model == "":
 			ner = GCNNer(ner_filename = self.model_file, trans_prob_file = self.trans_prob_file_name)
 		else:
 			ner = pretrained_model
 		file = open(data, "r")
-		d = file.readlines()
+		d = file.readlines()[2:]
 		sentence = self.convertData(d)
 		x = sentence.strip().split("\n")
 		entities = []
@@ -114,12 +107,10 @@ class GcnNer():
 		for each in new_list:
 			a = (self.ground_truth[new_list.index(each)][0], self.ground_truth[new_list.index(each)][1], each[1])
 			output_list.append(a)
+		file.close()
 		return output_list
 
 	def evaluate(self, predictions, groundTruths, pretrained_model = ""):
-		'''
-		Runs evaluation method to calculate the evaluation metrics on the output obtained from predict by comparing the predictions with the ground truths.
-		'''
 		tf.reset_default_graph()
 		if pretrained_model == "":
 			ner = GCNNer(ner_filename = self.model_file, trans_prob_file = self.trans_prob_file_name)
@@ -129,9 +120,6 @@ class GcnNer():
 		return (precision, recall, f1)
 
 	def convertData(self, sentence):
-		'''
-		Used to convert input data into sentences which is required for the predict method.
-		'''
 		str = ""
 		try:
 			for x in sentence:
@@ -149,17 +137,11 @@ class GcnNer():
 		return str
 
 	def load_model(self, file):
-		'''
-		Loads a pretrained model from the file mentioned.
-		'''
 		ner = GCNNer(file, './data/trans_prob.pickle')
 		print("Loaded model from ", file)
 		return ner
 
 	def save_model(self, file, gcn_model):
-		'''
-		Saves the trained model to the file mentioned.
-		'''
 		saver = tf.train.Saver()
 		saver.save(gcn_model.sess, file)
 		print("Model saved at ", file)
