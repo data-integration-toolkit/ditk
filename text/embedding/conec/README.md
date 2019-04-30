@@ -35,6 +35,7 @@ This code can be used to train, evaluate an use Context Encoders (ConEc), a powe
 Architecture Diagram
 --------------------
 Architecture for the ConEc model
+![conec_architecture](https://user-images.githubusercontent.com/10741993/56942674-c4435680-6ad0-11e9-9025-2aee1d854506.JPG)
 
 Implementation
 --------------
@@ -75,11 +76,15 @@ For training :
 RESULTS
 -------
 Table showing the Evaluation metrics for Benchmarks used along with the results
-
+![conec_evaluation](https://user-images.githubusercontent.com/10741993/56942708-e937c980-6ad0-11e9-941a-e9af35007b43.JPG)
 
 GRAPHS
 ------
 Graphs plotting Accuracies anf F1 scores for Google Analogy Dataset and CoNLL 2003 NER Task, respectively
+
+![conec_ner](https://user-images.githubusercontent.com/10741993/56942774-3a47bd80-6ad1-11e9-86e7-13334add228b.png)
+
+![conec_analogy](https://user-images.githubusercontent.com/10741993/56942783-43d12580-6ad1-11e9-8de9-7c7f06a89b09.png)
 
 Video Demonstration
 -------------------
