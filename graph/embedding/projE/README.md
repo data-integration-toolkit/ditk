@@ -43,6 +43,8 @@ target vector.
 | Head prediction | YAGO | 1428.3 | 1406.7 | 18.5 | 27.4 |
 | Tail prediction | YAGO | 201.4 | 198.1 | 33.4 | 38.1 |
 
+The filtered mean rank and filtered HITS@k ignore all other true entities/relationships in the result and only look at the target entity/relationship.
+
 ## Demo
 - Link to the Jupyter Notebook 
 - Link to the video on Youtube
