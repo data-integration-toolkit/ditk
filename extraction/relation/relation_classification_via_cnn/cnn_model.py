@@ -17,9 +17,10 @@ class CNNModel(RelationExtraction):
         input_files = [input_data+"/relation_extraction_input_train.txt", input_data+"/relation_extraction_input_test.txt"]
         output_dir = input_data
 
-        embedding_files = os.listdir("./embeddings")
+        dir_path = os.path.dirname(__file__)
+        embedding_files = os.listdir(dir_path+"\\embeddings")
         for file_name in embedding_files:
-            file_name_full = os.path.join("./embeddings", file_name)
+            file_name_full = os.path.join(dir_path+"\\embeddings", file_name)
             if (os.path.isfile(file_name_full)):
                 shutil.copy(file_name_full, output_dir)
 
