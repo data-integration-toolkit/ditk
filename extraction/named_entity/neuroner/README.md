@@ -18,6 +18,7 @@ https://github.com/Franck-Dernoncourt/NeuroNER
 
 - Clone the repository
 - Install the dependencies using `pip3 install -r requirements.txt`
+- Download and store glove.6B.100d.txt from [here](http://nlp.stanford.edu/data/glove.6B.zip)
 - Edit the `parameters.ini` file. Give the path to the word embeddings file for `token_pretrained_embedding_filepath` variable. Also, set whether you want to train model or use a pretrained model by setting `train_model` and `use_pretrained_model` (there are default parameters for everything that can be changed)
 - Initialize a model
 ```python
@@ -38,10 +39,18 @@ ner.train(data)
 - Extract the ground truth from test data for evaluation
 ```python
 ground = ner.convert_ground_truth(data)
+
+#By default it gives ground truth for test data. To extract for dev or train pass the type as parameter
+#For dev call
+#ground = ner.convert_ground_truth(data, 'dev')
 ```
 - Generate predictions on the test data
 ```python
 predictions = ner.predict(data)
+
+#By default it makes predictions on test data. To make predictions on dev or train pass the type as parameter
+#For dev call
+#predictions = ner.predict(data, 'dev')
 ```
 - Evaluate model
 ```python
@@ -51,6 +60,8 @@ print('Precision: %s, Recall: %s, F1: %s'%(P,R,F1))
 ```
 - Running the unit tests
     - From inside the `neuroner` directory run `python3 -m unittest tests.runtest`
+
+**Note: All scripts and functions should be called from inside the directory, otherwise relative import of parent class will fail**
 
 ## Input and Output
 - Prediction
