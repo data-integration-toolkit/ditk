@@ -46,5 +46,4 @@ target vector.
 The filtered mean rank and filtered HITS@k ignore all other true entities/relationships in the result and only look at the target entity/relationship.
 
 ## Demo
-- Link to the Jupyter Notebook 
-- Link to the video on Youtube
+- [Demo video] https://youtu.be/oNH4QWZvydU
