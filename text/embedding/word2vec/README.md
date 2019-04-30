@@ -3,7 +3,7 @@ This project contains an implementation of the Word2Vec algorithm to perform Wor
 
 [**EFFICIENT ESTIMATION OF WORD REPRESENTATIONS IN VECTOR SPACE**](https://arxiv.org/pdf/1301.3781.pdf), Tomas Mikolov, Kai Chen, Greg Corrado, Jeffrey Dean, published at , International Conference on Learning Representations – 2013. I furthermore provide all datasets used (including the preprocessing scripts), and Python scripts for experiments.
 
-<img src="./images/word2vec.png" width="65%"/> <img src="./images/hmf_overview.png" width="33%"/> 
+<img src="./word2vec_architecture.png" width="65%"/> 
 
 #### Original Code
 
@@ -24,11 +24,11 @@ The model outputs :
 
 #### Description
 
->>Task: 
+>Task: 
 - Embeddings(Representation) of Word(s), Sentence(s), Document(s)
 
 
->>Approach:
+>Approach:
 -	Represent each word with a low-dimensional vector
 -	Word similarity = vector similarity
 -	Key idea: Predict surrounding words of every word
@@ -58,14 +58,14 @@ The benchmark datasets used for this project were:
 3. SemEval 2017 Task 1
  - http://alt.qcri.org/semeval2017/task1/
 
->>EVALUATION METRICS : 
+>EVALUATION METRICS : 
 - Pearson Correlation Coefficient
 - Spearman Correlation Coefficient
 - Mean Squared Error
 
 
->>Results:
-<img src="/Users/tushyagautam/Desktop/word2vec_results.png" width="65%"/> 
+>Results:
+<img src="/word2vec_results.png" width="65%"/> 
 
 ## To Run 
 
