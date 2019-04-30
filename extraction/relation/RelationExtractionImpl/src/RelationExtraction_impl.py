@@ -67,7 +67,7 @@ class DDIExtractionImpl(RelationExtraction):
         ftrain="train.txt"
         fval="dev.txt"
         ftest="test.txt"
-        wefile = "..\\res\\PubMed-w2v.bin"
+        wefile = "PubMed-w2v.bin" #this word2vec file is downloaded from http://evexdb.org/pmresources/vec-space-models/
 
         Tr_sent_contents, Tr_entity1_list, Tr_entity2_list, Tr_sent_lables = dataRead(ftrain)
         Tr_word_list, Tr_d1_list, Tr_d2_list, Tr_type_list = makeFeatures(Tr_sent_contents, Tr_entity1_list,
