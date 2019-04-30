@@ -26,8 +26,10 @@ Yolife Arvelo, Blai Bonet and Maria Esther Vidal,
 Proc. 21st National Conf. on Artificial Intelligence (AAAI). Boston, MA. 2006. 
 AAAI Press. Pages 225-230.
 
-Objective - Given a query Q, retrieve all tuples obtainable from the data sources that satisfy Q
----------   A rewriting is a query-like expression that refers only to the views
+Objective 
+---------
+Given a query Q, retrieve all tuples obtainable from the data sources that satisfy Q
+A rewriting is a query-like expression that refers only to the views
 
 Data Sources are assumed to be - 
 1) Independent (i.e maintained in a distributed manner)
@@ -74,6 +76,18 @@ Implementation
 - These models can be transformed into MCDs or rewritings
 - MCDSAT is written in Python3.5
 
+![mcdsat_architecture](https://user-images.githubusercontent.com/10741993/56943350-f30efc00-6ad3-11e9-8257-d6f30eb4bc7a.JPG)
+
+Inputs
+------
+- Query file
+- Views file
+
+Outputs
+-------
+- Minicon Descriptions
+- Query Rewritings
+
 Usage
 -----
 Download the mcdsat folder and follow the installation instructions for the prerequisites
@@ -97,4 +111,33 @@ The output of this file is a set of rewritings generated for the aforementioned 
 using the aforementioned views file.
 
 More details on how to use this module can be found in the Jupyter Notebook that comes with this folder.
-    
+
+Datasets and Evaluation
+-----------------------
+A small part of the actual Benchmark
+20 queries
+10 subgoals
+10 views
+
+Evaluation Metrics
+------------------
+Time taken to compute the rewritings for MiniCon and MCDSAT
+Time take to generate MCDs for MiniCon and MCDSAT 
+Runtime averaged over 10 executions
+
+Results
+-------
+Graphs showing the time taken to generate MCDs and MCD Theory by Minicon and MCDSAT respectively
+
+![mcdsat_mcds](https://user-images.githubusercontent.com/10741993/56943472-81837d80-6ad4-11e9-9216-0664267bcfb5.png)
+
+Graph showing the time taken to generate Query Rewritings by Minicon comapred with MCDSAT
+
+![mcdsat_rewriting](https://user-images.githubusercontent.com/10741993/56943478-8cd6a900-6ad4-11e9-8ba0-af342d50d05f.png)
+
+Youtube Video Demonstration
+---------------------------
+
+Jupyter Notebook Link
+---------------------
+https://github.com/bjainvarsha/ditk/blob/misc/misc/mcdsat/mcdsat.ipynb   
