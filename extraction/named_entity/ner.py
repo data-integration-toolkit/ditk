@@ -128,6 +128,16 @@ class Ner(abc.ABC):
         pass
         
 
+    @abc.abstractmethod
+    def load_model(self, file):
+        """
+        :param file: From where to load the model - Optional function
+        :return:
+        """
+        pass
+
+
+
 """
 # Sample workflow:
 file_dict = {
