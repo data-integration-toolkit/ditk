@@ -14,6 +14,7 @@ Liu, T., Wang, K., Chang, B. and Sui, Z. : A Soft-label Method for Noise-toleran
 
 ## Overall Task
 <p align="center"><img width="40%" src="fig.png"/></p>
+
 ### soft-label-RE
 This project provides the implementation of distantly supervised relation extraction with (bag-level) soft-label adjustment.
 
