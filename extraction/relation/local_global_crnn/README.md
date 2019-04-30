@@ -16,6 +16,7 @@ relation classification in biomedical text. CoNLL 2017.
 <p align="center">
 	<img width="700" height="400" src="https://user-images.githubusercontent.com/8953934/39967385-05995058-56f5-11e8-8080-73d8098cab6b.JPG">
 </p>
+
 ### Embedding
 Pretrained word vectors are used as inputs for most of such model. These embeddings capture the semantic similarity between words in a global context better than one-hot representations.
 In this implementaion, we use **/GoogleNews-vectors-negative300.bin**, please refer to guidance on how to download in Data Acquisition Section.
