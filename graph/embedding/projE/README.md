@@ -40,8 +40,8 @@ target vector.
 |---------------------------|---------|-----------------|----------------------|------------------|----------------------|
 | Head prediction | FB15k | 535.6 | 475.9 | 31.8 | 37.4 |
 | Tail prediction | FB15k | 398.6 | 360.4 | 39.4 | 45.0 |
-| Head prediction | YAGO | 535.6 | 475.9 | 31.8 | 37.4 |
-| Tail prediction | YAGO | 398.6 | 360.4 | 39.4 | 45.0 |
+| Head prediction | YAGO | 1428.3 | 1406.7 | 18.5 | 27.4 |
+| Tail prediction | YAGO | 201.4 | 198.1 | 33.4 | 38.1 |
 
 ## Demo
 - Link to the Jupyter Notebook 
