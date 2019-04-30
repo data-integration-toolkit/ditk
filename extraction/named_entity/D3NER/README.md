@@ -43,11 +43,12 @@ This is designed for chemical named entity recognition (NER) for the biocreative
 From the abstract: "ong Short-Term Memory (LSTM) networks have recently been employed in various biomedical named entity recognition (NER) models with great success. They, however, often did not take advantages of all useful linguistic information and still have many aspects to be further improved for better performance."
 
 # Benchmark datasets
-| F1 | Precision | Recall |
+
+| | F1 | Precision | Recall |
 |---|---|---|---|
-CEMP | 73% | 70% | 76%
-ChemDNER | 6.7% | 5.4% | 8%
-conll2003 | 0% | 0% | 0%
+|CEMP | 73% | 70% | 76% | 
+|ChemDNER | 6.7% | 5.4% | 8% |
+|conll2003 | 0% | 0% | 0% |
 
 # Video
 https://youtu.be/9guuVLIg_Ww
