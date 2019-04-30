@@ -3,20 +3,20 @@ This project contains an implementation of the Word2Vec algorithm to perform Wor
 
 [**EFFICIENT ESTIMATION OF WORD REPRESENTATIONS IN VECTOR SPACE**](https://arxiv.org/pdf/1301.3781.pdf), Tomas Mikolov, Kai Chen, Greg Corrado, Jeffrey Dean, published at , International Conference on Learning Representations – 2013. I furthermore provide all datasets used (including the preprocessing scripts), and Python scripts for experiments.
 
-<img src="./word2vec_architecture.png" width="65%"/> 
+<img src="./word2vec_architecture.png" /> 
 
 #### Original Code
 
 https://github.com/RaRe-Technologies/gensim
 #### Input and Output
 
->>Input:
+>Input:
 - Word(s) 
 - Sentence(s) 
 - Paragraph(s)
 - Trained Word2Vec model : If you want to give a pretrained model on which predictions have to be made.
 
->>Output:
+>Output:
 The model outputs :
 -	Embedding / Average Embeddings
 -	Similarity between words/sentences/ documents
@@ -69,7 +69,7 @@ The benchmark datasets used for this project were:
 
 ## To Run 
 
->> Install the following packages : 
+> Install the following packages : 
 ```sh
 pip install numpy
 pip install scipy
