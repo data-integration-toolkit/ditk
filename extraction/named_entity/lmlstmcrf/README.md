@@ -57,9 +57,9 @@ both features into account.
 ### Evaluation metrics and results
 |         |ConLL 2003|Ontonotes|Chemdner|
 |---------|----------|---------|--------|
-|F1       |0.914     |0.783    |0.782   |
-|Recall   |0.916     |0.752    |0.761   |
-|Precision|0.913     |0.816    |0.805   |
+|F1       |0.908     |0.783    |0.782   |
+|Recall   |0.906     |0.752    |0.761   |
+|Precision|0.907     |0.816    |0.805   |
 
 Ontonotes and Chemdner were both trained on a subset of equal size to ConLL 2003
 
