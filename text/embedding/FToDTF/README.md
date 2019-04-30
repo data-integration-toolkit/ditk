@@ -1,67 +1,58 @@
-[![Build Status](https://travis-ci.org/dbaumgarten/FToDTF.svg?branch=master)](https://travis-ci.org/dbaumgarten/FToDTF)
-[![Codacy Badge](https://api.codacy.com/project/badge/Coverage/3872f2d4f965425ea150abd921027f4c)](https://www.codacy.com/app/incognym/FToDTF?utm_source=github.com&utm_medium=referral&utm_content=dbaumgarten/FToDTF&utm_campaign=Badge_Coverage)
-[![Codacy Badge](https://api.codacy.com/project/badge/Grade/3872f2d4f965425ea150abd921027f4c)](https://www.codacy.com/app/incognym/FToDTF?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=dbaumgarten/FToDTF&amp;utm_campaign=Badge_Grade)
 # FToDTF - FastText on Distributed TensorFlow
-
-This software uses unsupervised machine-learning to calculate vector-representation of words. These vector representations can then be used for things like computing the similarity of words to each other or association-rules (e.g. paris is to france like X to germany).
-
-This software is an implementation of https://arxiv.org/abs/1607.04606 (facebook's fasttext) in tensorflow.  
-
+This software is an implementation of FastText on Distributed Tensorflow. This project is a re-factored version of an already impelemented project present at https://github.com/dbaumgarten/FToDTF.  FToDTF uses unsupervised machine-learning to calculate vector-representation of words. These vector representations can then be used for things like computing the similarity of words to each other or association-rules (e.g. paris is to france like X to germany).
 In contrast to the original implementation of fasttext (https://github.com/facebookresearch/fastText) this implementation can use GPUs to accelerate the training and the training can be distributed across multiple nodes.
 
-## Installation
-Run ```pip3 install git+https://github.com/dbaumgarten/FToDTF.git```  
-The programm is now installed system-wide. You can now import the package ftodtf in python3 and run the cli-command ```fasttext <optional args>```
 
-## Running
-After installing just run  
+### Full Citation
+Based on Research Paper: Piotr Bojanowski, Edouard Grave, Armand Joulin and Tomas Mikolov's "Enriching word vectors with Subword Information". (https://arxiv.org/pdf/1607.04606v2.pdf)
+Published in Transactions of the Association for Computational Linguistics, Volume 5, July 15th 2016.
+
+### Input/Output format for Prediction
+Input: Word(s)/Sentences(s)/Paragraph(s)
+Output: Word/Sentence Embeddings
+
+### Input format for Training
+{Word/Sentence, Word/Sentence, Similarity score, Label-Test/Train*}
+\*- Optional
+
+### Working
+Each word represented as a bag of character n-grams with special boundary symbols < and >. Associate a vector representation zg to each n-gram g.  Represent a word by the sum of the vector representations of its n-grams. Use a hashing function to bound memory requirements that maps n-grams to integers in 1 to K. Ultimately, a word is represented by its index in the word dictionary and the set of hashed n-grams it contains - Fowler-Noll-Vo hashing function. The scoring function –
+
+### Installation & Working
+Requires Python 3.5+ to run. 
+Use  this command to clone the repo. 
+
+```sh
+git clone 
 ```
-fasttext preprocess --corpus_path <your-training-data>
-fasttext train
-```  
-in your console.  
-This will run the training and will periodically store checkpoints of the current model into the ./log folder.
-After you have trained for some time you can try out the trained word-vectors:
+
+Use to install the requirements.
+```sh
+python setup.py install
 ```
-fasttext infer similarity i you one two
-```
-This will load the latest model stored in ./log and use it to calculate and print the similarity between the words i you one two. If everything works out, "I" should be similar to "you" and "one" should be similar to "two", while all other combinations should be relatively un-similar.
+* All the code created as part of the re-factored module is present in FToDTF/fasttext.py and can be run using FToDTF/main.py. 
+* It follows the parent class template in ______________________________. 
+* All the models for the benchmark datasets can be found in FToDTF/ models folder.
+* All the datasets can be found in the FToDTF/data folder. 
+* The variable 'modelpath' in the code is the path where you want the checkpoints of previously trained model can be saved and can be modified based on user's requirement.  
 
-## Docker
-This application is also available as pre-built docker-image (https://hub.docker.com/r/dbaumgarten/ftodtf/)
-```
-sudo docker run --rm -it -v `pwd`:/data dbaumgarten/ftodtf train
-```
 
-## Distributed Setup
-### Docker
-There is docker-compose file demonstrating the distributed setup op this programm. To run a cluster on your local machine 
-- go to the directory of the docker-compose file
-- preprocess your data using `fasttext preprocess --corpus_path <your-training-data>`
-- run:
-```
-sudo docker-compose up
-```
-This will start a cluster consisting of two workers and two parameter servers on your machine.  
-Each time you restart the cluster it will continue to work from the last checkpoint. If you want to start from zero delete the contents of ./log/distributed on the server of worker0
-Please note that running a cluster on a single machine is slower then running a single instance directly on this machine. To see some speedup you will need to use multiple independent machines.
-### Slurm
-There is also an example how to use slurm for setting up distributed training (slurmjob.sh). You will probably have to modify the script to work on your specfic cluster. Please not that the slurm-script currently only handles training. You will have to create training-batches (fasttext preprocess) and copy the created batches-files to the cluster-nodes manually befor starting training.
+### Evaluation Datasets
+1.	WordSimilarity-353 Test Collection contains two sets of English word pairs along with human-assigned similarity judgements.
+2.	SICK 2014(SemEval 2014, Task 1)
+10,000 English sentence pairs, generated starting from two existing sets: the 8K ImageFlickr data set and the SemEval 2012 STS MSR-Video Description data set.
+3.	SemEval 2017, Task 1
+Semantic Comparison of Words and Texts for Semantic Textual Similarity.
+4.   SemEval 2014, Task 10
+2,500 English sentences annotated with relatedness in meaning. 
 
-## Training-data
-The input for the proprocess-step is a raw text-file containing lots of sentences of the language for that you want to compute word-embeddings.
+### Evaluation Metrics
+1. Pearson Relation
+2. Mean Square Error 
+3. Spearman Correlation
 
-## Hyperparameters and Quality
-The quality of the calculated word-vectors depends heavily on the used training-corpus and the hyperparameters (training-steps, embedding-dimension etc.). If you don't get usefull results try changing the default hyperparameters (especially the amount of training-steps can have a big influence) or use other training data.  
-
-We got really good results for german with 81MB of training-data and the parameters --num_buckets=2000000 --vocabulary_size=200000 --steps=10000000, but the resulting model is quite large (2.5GB) and it took >10 hours to train.
-
-## Known Bugs and Limitations
-- When supplying input-text that does not contain sentences (but instead just a bunch of words without punctuation) ```fasttext preprocess``` will hang indefinetly.
-
-## Documentation
-You can find the auto-genrated documentation for the code here: https://dbaumgarten.github.io/FToDTF/  
-The architecture documentation (german only) can be found here: https://github.com/dbaumgarten/FToDTF/blob/master/docs/architecture/architecture.md
-
-## Acknowledgements
-Computations for this work (like the testing of the distributed-training functionalities) were done with resources of Leipzig University Computing Centre.
+### Further Links
+Jupyter Notebook: 
+Youtube Video: 
+Auto-generated Documentation: https://dbaumgarten.github.io/FToDTF/
+Architecture Documentation: https://github.com/dbaumgarten/FToDTF/blob/master/docs/architecture/architecture.md
