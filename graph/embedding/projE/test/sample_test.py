@@ -8,7 +8,7 @@ class TestGraphEmbeddingMethods(unittest.TestCase):
 
 	def setUp(self):
 		self.graph_embedding = ProjE.ProjE() # initializes your Graph Embedding class
-		self.input_file = './yago_c/'
+		self.input_file = './sample_input_yago/'
 
 	def test(self):
 		args, train, validation, test = self.graph_embedding.read_dataset(self.input_file)
