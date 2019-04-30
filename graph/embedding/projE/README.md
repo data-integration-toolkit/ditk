@@ -46,4 +46,4 @@ target vector.
 The filtered mean rank and filtered HITS@k ignore all other true entities/relationships in the result and only look at the target entity/relationship.
 
 ## Demo
-- [Demo video] https://youtu.be/oNH4QWZvydU
+- [Demo video](https://youtu.be/oNH4QWZvydU)
