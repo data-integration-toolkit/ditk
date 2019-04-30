@@ -35,6 +35,7 @@ This code can be used to train, evaluate an use Context Encoders (ConEc), a powe
 Architecture Diagram
 --------------------
 Architecture for the ConEc model
+
 ![conec_architecture](https://user-images.githubusercontent.com/10741993/56942674-c4435680-6ad0-11e9-9025-2aee1d854506.JPG)
 
 Implementation
@@ -48,6 +49,9 @@ The code implements the following procedure -
   word's average context vectors (CVs)
 - A word has global CV and local CV
 - Choice of alpha in the equation mentioned in the paper determines the emphasis on the word's local context
+
+![conec_equation](https://user-images.githubusercontent.com/10741993/56942816-78dd7800-6ad1-11e9-981f-56b5c8c1734d.JPG)
+
 - Renormalize the result, so that the resulting embeddings have unit length again
 
 Download the conec folder from this repository and import the conec class into your script
@@ -76,6 +80,7 @@ For training :
 RESULTS
 -------
 Table showing the Evaluation metrics for Benchmarks used along with the results
+
 ![conec_evaluation](https://user-images.githubusercontent.com/10741993/56942708-e937c980-6ad0-11e9-941a-e9af35007b43.JPG)
 
 GRAPHS
