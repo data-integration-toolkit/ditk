@@ -22,6 +22,7 @@ Returns predicted entity tags for each word in the data
    - [Glove Word Embeddings](http://nlp.stanford.edu/data/glove.42B.300d.zip)
    
 4. Read the dataset in the DITK format by passing in the files as a dictionary of train, test and dev.
+    - Optionally run sample_test_lingustic.py from tests/ directory to verify setup
 5. Execute the training module to generate model. 
 6. Predict data in the test file using predict, which can be evaluated using the evaluate function.
 

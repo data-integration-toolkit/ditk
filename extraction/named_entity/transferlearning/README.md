@@ -21,6 +21,7 @@ Returns predicted entity tags for each word in the data
    - [Glove Word Embeddings](http://nlp.stanford.edu/data/glove.6B.zip)
    
 4. Read the dataset in the DITK format by passing in the files as a dictionary of train, test and dev. Also pass in the embedding file location.
+    - Optionally run sample_test_lingustic.py from tests/ directory to verify setup
 5. Execute the training module to generate model. Multiple algorithms, classifiers can be used for training the model. The `classifer` keyword can be one of the following `[CRF, averaged_perceptron, IIS, GIS]`. 
     The `transfer_method` can be one of the following - `[pred, predCCA, tgt, lstm]`
 6. Predict data in the test file using predict, which can be evaluated using the evaluate function.
