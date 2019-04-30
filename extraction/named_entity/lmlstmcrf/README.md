@@ -16,7 +16,7 @@ python3 extraction/named_entity/lmlstmcrf/main.py
 
 To run unit tests:
 ```
-cd <root>/ditk/test
+cd <root>/ditk
 python3 extraction/named_entity/lmlstmcrf/test/test.py
 ```
 
