@@ -668,7 +668,7 @@ class ProjE(GraphEmbedding):
         Reads the data from file paths for entity IDs, relations IDs, train, valid and test triples.
         '''
         tf.reset_default_graph()
-        if 'yago' in dataPath.lower():
+        if 'yago' in dataPath.lower() or 'wiki' in dataPath.lower():
             args = {'batch': 200, 'combination_method': 'simple', 'data_dir': dataPath, 'dim': self.__embed_dim, 'drop_out': 0.5,
                     'eval_batch': 500, 'eval_per': 1, 'load_model': '', 'loss_weight': 1e-05, 'lr': 0.01,
                     'max_iter': 2, 'n_generator': 10, 'n_worker': 3, 'neg_weight': 0.5, 'optimizer': 'adam',
