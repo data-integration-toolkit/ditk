@@ -38,10 +38,18 @@ ner.train(data)
 - Extract the ground truth from test data for evaluation
 ```python
 ground = ner.convert_ground_truth(data)
+
+#By default it gives ground truth for test data. To extract for dev or train pass the type as parameter
+#For dev call
+#ground = ner.convert_ground_truth(data, 'dev')
 ```
 - Generate predictions on the test data
 ```python
 predictions = ner.predict(data)
+
+#By default it makes predictions on test data. To make predictions on dev or train pass the type as parameter
+#For dev call
+#predictions = ner.predict(data, 'dev')
 ```
 - Evaluate model
 ```python
@@ -51,6 +59,8 @@ print('Precision: %s, Recall: %s, F1: %s'%(P,R,F1))
 ```
 - Running the unit tests
     - From inside the `neuroner` directory run `python3 -m unittest tests.runtest`
+
+**Note: All scripts and functions should be called from inside the directory, otherwise relative import of parent class will fail**
 
 ## Input and Output
 - Prediction
