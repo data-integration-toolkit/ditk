@@ -50,7 +50,17 @@ Marco-averaged
 * F1-score
 
 ### Evaluation results
-![evaluation results](evaluation.png)
+* Precision
+
+![Precision](precision.png)
+
+* Recall
+
+![Recall](recall.png)
+
+* F1-score
+
+![F1-score](f1.png)
 
 ## Link to Jupyter notebook
 * [Benchmark 1: training](cnn_notebook1_train.ipynb)
