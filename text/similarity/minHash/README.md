@@ -75,3 +75,6 @@ The benchmark datasets used for this project were:
 1) Download the module code repository -- ditk/text/similarity/minHash
 2) Ensure that the main.py, MinHash.py, datasets are in the same folder, if not give the absolute paths accordingly.
 3) Run main.py
+
+## Video 
+https://www.youtube.com/watch?v=-p1iN7DIvZE
