@@ -17,7 +17,9 @@ Output: Word/Sentence Embeddings
 \*- Optional
 
 ### Working
-Each word represented as a bag of character n-grams with special boundary symbols < and >. Associate a vector representation zg to each n-gram g.  Represent a word by the sum of the vector representations of its n-grams. Use a hashing function to bound memory requirements that maps n-grams to integers in 1 to K. Ultimately, a word is represented by its index in the word dictionary and the set of hashed n-grams it contains - Fowler-Noll-Vo hashing function. The scoring function –
+Each word represented as a bag of character n-grams with special boundary symbols < and >. Associate a vector representation zg to each n-gram g.  Represent a word by the sum of the vector representations of its n-grams. Use a hashing function to bound memory requirements that maps n-grams to integers in 1 to K. Ultimately, a word is represented by its index in the word dictionary and the set of hashed n-grams it contains - Fowler-Noll-Vo hashing function. The scoring function – 
+
+![model architechture](FToDTF Architecture.png "Model Architechture")
 
 ### Installation & Working
 Requires Python 3.5+ to run. Clone the repository and use this command to install the requirements.
