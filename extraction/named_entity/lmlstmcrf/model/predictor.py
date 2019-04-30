@@ -46,7 +46,7 @@ class predict:
         predictions = []
         for f, y in zip(feature, label):
             label = self.r_l_map[y.item()]
-            predictions.append((f, label))
+            predictions.append((f[0], label, f[1]))
         return predictions
 
     def decode_s(self, feature, label):
@@ -138,7 +138,8 @@ class predict:
             f_len = len(features)
             for ind in range(0, f_len, self.batch_size):
                 eind = min(f_len, ind + self.batch_size)
-                labels = self.apply_model(ner_model, features[ind: eind])
+                feature_only = [f[0] for f in features[ind: eind]]
+                labels = self.apply_model(ner_model, feature_only)
                 labels = torch.unbind(labels, 1)
 
                 for ind2 in range(ind, eind):

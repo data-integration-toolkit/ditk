@@ -32,5 +32,5 @@ train_data, validation_data, test_data = graph_completion.read_dataset(files_cor
 
 graph_completion.train(train_data, validation_data)
 print("Running test set")
-prediction_data = graph_completion.predict(test_data)
+prediction_data = graph_completion.predict(test_data, {"actual_values": False})
 graph_completion.evaluate(test_data, metrics, prediction_data)

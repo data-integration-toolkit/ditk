@@ -50,6 +50,13 @@ def load_graph(file):
     adj = nx.adjacency_matrix(nx.from_dict_of_lists(graph)).toarray()
     return adj
     
+def output_graph(graph):
+    output = []
+    for k, v in nx.to_dict_of_lists(nx.to_networkx_graph(graph)).items():
+        for i in v:
+            output.append((k, i))
+    return output
+
 def load_citation_data_from_file(files):
     """Load citation data."""
     with open(files[0], 'rb') as f:

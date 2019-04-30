@@ -7,7 +7,7 @@ from keras import backend as K
 import scipy.sparse as sp
 from sklearn.preprocessing import MaxAbsScaler
 
-from graph.completion.longae.utils_gcn import load_citation_data_from_file, split_citation_data
+from graph.completion.longae.utils_gcn import load_citation_data_from_file, split_citation_data, output_graph
 from graph.completion.longae.utils import compute_masked_accuracy, generate_data, batch_data
 from graph.completion.longae.models.ae import autoencoder_multitask
 from graph.completion.longae.hparams import hparams
@@ -210,14 +210,17 @@ class longae(GraphCompletion):
 			for i in range(nc_scores.shape[0]):
 				nc_scores[i] = np.array([1 if k == max(nc_scores[i]) else 0 for k in nc_scores[i]])
 
+		output = []
 		if options["actual_values"]:
 			adj[test_r, test_c] = self.__probability_to_prediction(lp_scores[test_r, test_c])
 			adj[test_c, test_r] = self.__probability_to_prediction(lp_scores[test_c, test_r])
 			lp_scores = adj.toarray()
 			lp_scores = np.delete(lp_scores, np.s_[lp_scores.shape[0]:], axis=1)
+			output = output_graph(lp_scores)
 		return {
 			"lp_scores": lp_scores.tolist(), 
-			"nc_scores": nc_scores.tolist()
+			"nc_scores": nc_scores.tolist(),
+			"output": output
 		}
 
 	def evaluate(self, benchmark_data, metrics={}, options={}):

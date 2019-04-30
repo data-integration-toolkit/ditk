@@ -352,7 +352,7 @@ def read_features_from_data(data, multi_docs = True):
     tmp_fl = list()
     for line in data:
         if len(line) != 0 and len(line[0].strip()) != 0:
-            tmp_fl.append(line[0])
+            tmp_fl.append((line[0], line[3]))
         else:
             if len(tmp_fl) > 0:
                 features.append(tmp_fl)

@@ -11,7 +11,7 @@ data_sets = ['conll', 'ontonotes', 'chemdner']
 
 emb_file = data_dir + "/embedding/glove.6B.100d.embedding"
 
-chosen_type = data_sets[2]
+chosen_type = data_sets[0]
 train_file = data_dir + "/data/{}/out.train".format(chosen_type)
 dev_file = data_dir + "/data/{}/out.testa".format(chosen_type)
 test_file = data_dir + "/data/{}/out.testb".format(chosen_type)
@@ -23,7 +23,7 @@ from extraction.named_entity.lmlstmcrf.lmlstmcrf import Lmlstmcrf
 hp.checkpoint_dir = data_dir + "/checkpoint/"
 hp.checkpoint = data_dir + "/checkpoint/conll.model"
 hp.emb_file = emb_file
-# hp.gpu = -1
+hp.gpu = -1
 
 if not os.path.exists(hp.checkpoint_dir):
     os.makedirs(hp.checkpoint_dir)
@@ -36,9 +36,9 @@ data = model.read_dataset({
     "dev": dev_file,
 })
 
-# model.load_model(hp.checkpoint)
+model.load_model(hp.checkpoint)
 
-model.train(data)
+# model.train(data)
 
 predictions = model.predict(data)
 
