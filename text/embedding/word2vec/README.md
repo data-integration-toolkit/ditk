@@ -80,4 +80,5 @@ pip install gensim
 2) Ensure that the main.py, word2vec.py, datasets are in the same folder, if not give the absolute paths accordingly.
 3) Run main.py
 
-
+## Video 
+https://www.youtube.com/watch?v=AWmI1AIYgM8
