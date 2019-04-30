@@ -28,6 +28,8 @@ class TestSQLNetMethods(unittest.TestCase):
                             help='The suffix at the end of saved model name.')
         parser.add_argument('--ca', action='store_true',
                             help='Use conditional attention.')
+        parser.add_argument('--maxepoch', type=int, default=10,
+                            help='Max training epoch')
         parser.add_argument('--dataset', type=int, default=0,
                             help='0: original dataset, 1: re-split dataset')
         parser.add_argument('--rl', action='store_true',
