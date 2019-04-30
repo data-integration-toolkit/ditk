@@ -4,12 +4,13 @@ import math
 import os.path
 import timeit
 import psutil
+from graph_embedding import GraphEmbedding
 from multiprocessing import JoinableQueue, Queue, Process
 
 import numpy as np
 import tensorflow as tf
 
-class ProjE:
+class ProjE(GraphEmbedding):
     __n_entity=""
     __train_triple=""
     __trainable=""
@@ -132,7 +133,7 @@ class ProjE:
         return np.asarray(hr_tlist, dtype=np.int32), np.asarray(hr_tweight, dtype=np.float32), \
                np.asarray(tr_hlist, dtype=np.int32), np.asarray(tr_hweight, dtype=np.float32)
 
-    def __init__(self, data_dir="", embed_dim=100, combination_method='simple', dropout=0.5, neg_weight=0.5):
+    def __init__(self, data_dir="", embed_dim=200, combination_method='simple', dropout=0.5, neg_weight=0.5):
         self.__n_entity=""
         self.__train_triple=""
         self.__trainable=""
@@ -156,6 +157,7 @@ class ProjE:
         self.rel_embeddings = ""
         self.session1 = tf.Session()
         self.loadFlag = 0
+        self.dict = {}
         if combination_method.lower() not in ['simple', 'matrix']:
             raise NotImplementedError("ProjE does not support using %s as combination method." % combination_method)
 
@@ -294,10 +296,10 @@ class ProjE:
 
     def learn_embeddings(self, data = './FB15k/', argDict = {}):
         self.train_hrt_input, self.train_hrt_weight, self.train_trh_input, self.train_trh_weight, \
-        self.train_loss, self.train_op = self.train_ops(argDict, learning_rate=argDict['lr'],
+        self.train_loss, self.train_op, self.ent_embeddings, self.rel_embeddings = self.train_ops(argDict, learning_rate=argDict['lr'],
                                      optimizer_str=argDict['optimizer'],
                                      regularizer_weight=argDict['loss_weight'])
-        return self.train_hrt_input, self.train_hrt_weight, self.train_trh_input, self.train_trh_weight, self.train_loss, self.train_op
+        return self.train_hrt_input, self.train_hrt_weight, self.train_trh_input, self.train_trh_weight, self.train_loss, self.train_op, self.ent_embeddings, self.rel_embeddings
 
     def load_model(self, load_dir):
         print("loaded", load_dir)
@@ -480,6 +482,11 @@ class ProjE:
                                     self.ent_embeddings = self.session1.run(self.__ent_embedding)
                                     self.rel_embeddings = self.session1.run(self.__rel_embedding)
                                     self.writeOutput(self.ent_embeddings, self.rel_embeddings, args)
+                                    self.dict = {}
+                                    self.dict['mr'] = np.mean(accu_mean_rank_t)
+                                    self.dict['mr_filtered'] = np.mean(accu_filtered_mean_rank_t)
+                                    self.dict['hits'] = np.mean(np.asarray(accu_mean_rank_t, dtype=np.int32) < 10)
+                                    self.dict['hits_filtered'] = np.mean(np.asarray(accu_filtered_mean_rank_t, dtype=np.int32) < 10)
                                     for pid in psutil.pids():
                                         p = psutil.Process(pid)
                                         if p.name() == "python3":
@@ -631,20 +638,26 @@ class ProjE:
                                 np.mean(np.asarray(accu_mean_rank_t, dtype=np.int32) < 10),
                                 np.mean(np.asarray(accu_filtered_mean_rank_t, dtype=np.int32) < 10)))
                             if n_iter == args['max_iter']-1 and test_type == 'TEST':
-                                self.ent_embeddings = self.session1.run(self.__ent_embedding)
-                                self.rel_embeddings = self.session1.run(self.__rel_embedding)
+                                self.ent_embeddings = session.run(self.__ent_embedding)
+                                self.rel_embeddings = session.run(self.__rel_embedding)
                                 self.writeOutput(self.ent_embeddings, self.rel_embeddings, args)
+                                self.dict = {}
+                                self.dict['mr'] = np.mean(accu_mean_rank_t)
+                                self.dict['mr_filtered'] = np.mean(accu_filtered_mean_rank_t)
+                                self.dict['hits'] = np.mean(np.asarray(accu_mean_rank_t, dtype=np.int32) < 10)
+                                self.dict['hits_filtered'] = np.mean(np.asarray(accu_filtered_mean_rank_t, dtype=np.int32) < 10)
                                 for pid in psutil.pids():
                                     p = psutil.Process(pid)
                                     if p.name() == "python3":
                                         p.terminate()
 
     def read_dataset(self, dataPath):
+        tf.reset_default_graph()
         if 'yago' in dataPath.lower():
 #             print("it's yago")
             args = {'batch': 200, 'combination_method': 'simple', 'data_dir': dataPath, 'dim': self.__embed_dim, 'drop_out': 0.5,
                     'eval_batch': 500, 'eval_per': 1, 'load_model': '', 'loss_weight': 1e-05, 'lr': 0.01,
-                    'max_iter': 3, 'n_generator': 10, 'n_worker': 3, 'neg_weight': 0.5, 'optimizer': 'adam',
+                    'max_iter': 2, 'n_generator': 10, 'n_worker': 3, 'neg_weight': 0.5, 'optimizer': 'adam',
                     'prefix': 'DEFAULT', 'save_dir': './trainFiles/', 'save_per': 1, 'summary_dir': './ProjE_summary/', 'datasetFlag': 1}
         else:
 #             print("it's fb")
@@ -692,7 +705,7 @@ class ProjE:
                                         self.__relation_id_map[x.strip().split('\t')[2]]] for x in f_triple.readlines()],
                                       dtype=np.int32)
                 else:
-                    print("yago reading ", file_path)
+#                    print("yago reading ", file_path)
                     return np.asarray([[x.strip().split('\t')[0],
                                    x.strip().split('\t')[1],
                                    x.strip().split('\t')[2]] for x in f_triple.readlines()],
@@ -811,7 +824,13 @@ class ProjE:
 
                 self.__trainable.append(self.__hr_combination_bias)
                 self.__trainable.append(self.__tr_combination_bias)
-        return args
+        file = open(os.path.join(data_dir, 'train.txt'), "r")
+        trainList = file.readlines()
+        file = open(os.path.join(data_dir, 'valid.txt'), "r")
+        validList = file.readlines()
+        file = open(os.path.join(data_dir, 'test.txt'), "r")
+        testList = file.readlines()
+        return args, trainList, validList, testList
 
 
     def train_ops(self, args, learning_rate=0.1, optimizer_str='gradient', regularizer_weight=1.0):
@@ -838,11 +857,10 @@ class ProjE:
 
             sess = tf.Session()
             sess.run(tf.global_variables_initializer())
-            #self.ent_embeddings = sess.run(self.__ent_embedding)
-            #self.rel_embeddings = sess.run(self.__rel_embedding)
-            print("TRAIN", sess.run(self.__ent_embedding))
+            self.ent_embeddings = sess.run(self.__ent_embedding)
+            self.rel_embeddings = sess.run(self.__rel_embedding)
             #self.writeOutput(self.ent_embeddings, self.rel_embeddings, args)
-            return self.train_hrt_input, self.train_hrt_weight, self.train_trh_input, self.train_trh_weight, loss, op_train
+            return self.train_hrt_input, self.train_hrt_weight, self.train_trh_input, self.train_trh_weight, loss, op_train, self.ent_embeddings, self.rel_embeddings
 
     def test_ops(self):
         with tf.device('/cpu'):
