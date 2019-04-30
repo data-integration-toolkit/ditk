@@ -46,4 +46,4 @@ Github URL of the original code: https://github.com/ContextScout/gcn_ner
 
 ## Demo
 - Link to the Jupyter Notebook 
-- Link to the video on Youtube
+- [Demo video]https://youtu.be/QhjhnRRCuAE
