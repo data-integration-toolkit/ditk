@@ -56,7 +56,7 @@ Step 6: Steps 2 through 4 are repeated for a number of cycles, with the imputati
 
 - Gold dataset is used in order to evaluate the **performance of this algorithm by rmse value.**
 
-Sample Input and Output files have been included in tests folder.
+**Sample Input and Output files have been included in tests folder.**
 
 ## Evalution
 - Benchmark datasets :
@@ -92,10 +92,8 @@ https://github.com/karishma-chadha/ditk/blob/develop/data_cleaning/imputation/mi
 
 - Follow the Jupyter Notebook closely for demo on commands in main.py.
 
-- Keep the all the source files in one folder.
+- Clone the repository (imputation folder)
 
-- The main code takes the input in csv format **imputation_mice_input.csv** from directory **input_output_generation** and generates the output in the same directory as **imputation_mice_output.csv**.
+- To run main.py under mice/src, place your input file (gold numeric dataset only) in mice/src/input_output_generation folder with name as imputation_mice_input.csv
 
-- Thus, keep your input in input_output_generation folder named as imputation_mice_input.csv and run main.py.
-
-- You will get the output in input_output_generation folder as imputation_mice_output.csv.
+- Output with predicted values in a new csv will be produced under mice/src/input_output_generation folder with name as imputation_mice_output.csv

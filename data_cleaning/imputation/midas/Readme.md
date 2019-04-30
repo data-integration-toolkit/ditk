@@ -60,5 +60,17 @@ MIDAS employs a class of unsupervised neural networks known as denoising autoenc
 ## Demo
 - Link to the Jupyter Notebook : 
 
-https://github.com/karishma-chadha/ditk/blob/develop/data_cleaning/midas/midas_jupyter_notebook.ipynb
+https://github.com/karishma-chadha/ditk/blob/develop/data_cleaning/midas/demo/midas_jupyter_notebook.ipynb
+
 - Link to the video on Youtube
+
+## To Run the Code
+
+- Follow the Jupyter Notebook closely for demo on running commands for the code
+
+- Clone the repository (imputation folder)
+
+- To run midas.py under midas/src, place your input file (gold numeric dataset only) in midas/src/input_output_generation folder with name as imputation_midas_input.csv
+
+- Output with predicted values in a new csv will be produced under midas/src/input_output_generation folder with name as imputation_midas_output.csv
+
