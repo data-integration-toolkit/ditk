@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="DDI-DrugBank.d405">
+    <sentence id="DDI-DrugBank.d405.s0" text="Dicumarol and warfarin may decrease hypoprothrombinemic effect.">
+        <entity id="DDI-DrugBank.d405.s0.e0" charOffset="0-8"
+            type="drug" text="Dicumarol"/>
+        <entity id="DDI-DrugBank.d405.s0.e1" charOffset="14-21"
+            type="drug" text="warfarin"/>
+        <pair id="DDI-DrugBank.d405.s0.p0" e1="DDI-DrugBank.d405.s0.e0"
+            e2="DDI-DrugBank.d405.s0.e1" ddi="false"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d405.s1" text="Other depressasnts such as alcohol, barbiturates, and MAOIs may enhance CNS depression when administered with ethchlorvynol.">
+        <entity id="DDI-DrugBank.d405.s1.e0" charOffset="27-33"
+            type="drug" text="alcohol"/>
+        <entity id="DDI-DrugBank.d405.s1.e1" charOffset="36-47"
+            type="group" text="barbiturates"/>
+        <entity id="DDI-DrugBank.d405.s1.e2" charOffset="54-58"
+            type="group" text="MAOIs"/>
+        <entity id="DDI-DrugBank.d405.s1.e3" charOffset="110-122"
+            type="drug" text="ethchlorvynol"/>
+        <pair id="DDI-DrugBank.d405.s1.p0" e1="DDI-DrugBank.d405.s1.e0"
+            e2="DDI-DrugBank.d405.s1.e1" ddi="false"/>
+        <pair id="DDI-DrugBank.d405.s1.p1" e1="DDI-DrugBank.d405.s1.e0"
+            e2="DDI-DrugBank.d405.s1.e2" ddi="false"/>
+        <pair id="DDI-DrugBank.d405.s1.p2" e1="DDI-DrugBank.d405.s1.e0"
+            e2="DDI-DrugBank.d405.s1.e3" ddi="true" type="effect"/>
+        <pair id="DDI-DrugBank.d405.s1.p3" e1="DDI-DrugBank.d405.s1.e1"
+            e2="DDI-DrugBank.d405.s1.e2" ddi="false"/>
+        <pair id="DDI-DrugBank.d405.s1.p4" e1="DDI-DrugBank.d405.s1.e1"
+            e2="DDI-DrugBank.d405.s1.e3" ddi="true" type="effect"/>
+        <pair id="DDI-DrugBank.d405.s1.p5" e1="DDI-DrugBank.d405.s1.e2"
+            e2="DDI-DrugBank.d405.s1.e3" ddi="true" type="effect"/>
+    </sentence>
+</document>

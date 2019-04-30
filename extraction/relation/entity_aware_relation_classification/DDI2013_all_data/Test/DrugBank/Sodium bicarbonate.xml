@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="DDI-DrugBank.d595">
+    <sentence id="DDI-DrugBank.d595.s0" text="Additives may be incompatible; "/>
+    <sentence id="DDI-DrugBank.d595.s1" text="norepinephrine and dobutamine are incompatible with sodium bicarbonate solution. ">
+        <entity id="DDI-DrugBank.d595.s1.e0" charOffset="0-13"
+            type="drug" text="norepinephrine"/>
+        <entity id="DDI-DrugBank.d595.s1.e1" charOffset="19-28"
+            type="drug" text="dobutamine"/>
+        <entity id="DDI-DrugBank.d595.s1.e2" charOffset="52-69"
+            type="drug" text="sodium bicarbonate"/>
+        <pair id="DDI-DrugBank.d595.s1.p0" e1="DDI-DrugBank.d595.s1.e0"
+            e2="DDI-DrugBank.d595.s1.e1" ddi="false"/>
+        <pair id="DDI-DrugBank.d595.s1.p1" e1="DDI-DrugBank.d595.s1.e0"
+            e2="DDI-DrugBank.d595.s1.e2" ddi="true" type="int"/>
+        <pair id="DDI-DrugBank.d595.s1.p2" e1="DDI-DrugBank.d595.s1.e1"
+            e2="DDI-DrugBank.d595.s1.e2" ddi="true" type="int"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d595.s2" text="The addition of sodium bicarbonate to parenteral solutions containing calcium should be avoided, except where compatibility has been previously established. ">
+        <entity id="DDI-DrugBank.d595.s2.e0" charOffset="16-33"
+            type="drug" text="sodium bicarbonate"/>
+        <entity id="DDI-DrugBank.d595.s2.e1" charOffset="70-76"
+            type="drug" text="calcium"/>
+        <pair id="DDI-DrugBank.d595.s2.p0" e1="DDI-DrugBank.d595.s2.e0"
+            e2="DDI-DrugBank.d595.s2.e1" ddi="false"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d595.s3" text="Precipitation or haze may result from sodium bicarbonate-calcium admixtures. "/>
+    <sentence id="DDI-DrugBank.d595.s4" text="NOTE: Do not use the injection if it contains precipitate. "/>
+    <sentence id="DDI-DrugBank.d595.s5" text="Additives may be incompatible. "/>
+    <sentence id="DDI-DrugBank.d595.s6" text="Consult with pharmacist, if available. "/>
+    <sentence id="DDI-DrugBank.d595.s7" text="When introducing additives, use aseptic technique, mix thoroughly and do not store."/>
+</document>

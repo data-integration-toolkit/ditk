@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="DDI-MedLine.d100">
+    <sentence id="DDI-MedLine.d100.s0" text="Influence of calcium-channel blockers on platelet function and arachidonic acid metabolism.&#xd;&#xa;">
+        <entity id="DDI-MedLine.d100.s0.e0" charOffset="13-36"
+            type="group" text="calcium-channel blockers"/>
+    </sentence>
+    <sentence id="DDI-MedLine.d100.s1" text="Available data indicate that platelet function and arachidonic acid metabolism are important factors in hemostasis and regulation of vascular tone. "/>
+    <sentence id="DDI-MedLine.d100.s2" text="Plasma membrane and intracellular mobilization of calcium ions are intimately related to platelet activation and release of platelet contents. "/>
+    <sentence id="DDI-MedLine.d100.s3" text="Release of arachidonic acid from membrane phospholipids as well as subsequent synthesis and release of vasoconstrictor thromboxane A2 are also regulated by movement of calcium ions. "/>
+    <sentence id="DDI-MedLine.d100.s4" text="Adenosine 3':5'-cyclic phosphate in turn controls levels of free calcium ions in platelets and regulates calcium-dependent reactions. "/>
+    <sentence id="DDI-MedLine.d100.s5" text="Slow-channel calcium blockers, such as verapamil, diltiazem and nifedipine, inhibit platelet activation in vitro, and decrease platelet adhesion intravascularly. ">
+        <entity id="DDI-MedLine.d100.s5.e0" charOffset="0-28"
+            type="group" text="Slow-channel calcium blockers"/>
+        <entity id="DDI-MedLine.d100.s5.e1" charOffset="39-47"
+            type="drug" text="verapamil"/>
+        <entity id="DDI-MedLine.d100.s5.e2" charOffset="50-58"
+            type="drug" text="diltiazem"/>
+        <entity id="DDI-MedLine.d100.s5.e3" charOffset="64-73"
+            type="drug" text="nifedipine"/>
+        <pair id="DDI-MedLine.d100.s5.p0" e1="DDI-MedLine.d100.s5.e0"
+            e2="DDI-MedLine.d100.s5.e1" ddi="false"/>
+        <pair id="DDI-MedLine.d100.s5.p1" e1="DDI-MedLine.d100.s5.e0"
+            e2="DDI-MedLine.d100.s5.e2" ddi="false"/>
+        <pair id="DDI-MedLine.d100.s5.p2" e1="DDI-MedLine.d100.s5.e0"
+            e2="DDI-MedLine.d100.s5.e3" ddi="false"/>
+        <pair id="DDI-MedLine.d100.s5.p3" e1="DDI-MedLine.d100.s5.e1"
+            e2="DDI-MedLine.d100.s5.e2" ddi="false"/>
+        <pair id="DDI-MedLine.d100.s5.p4" e1="DDI-MedLine.d100.s5.e1"
+            e2="DDI-MedLine.d100.s5.e3" ddi="false"/>
+        <pair id="DDI-MedLine.d100.s5.p5" e1="DDI-MedLine.d100.s5.e2"
+            e2="DDI-MedLine.d100.s5.e3" ddi="false"/>
+    </sentence>
+    <sentence id="DDI-MedLine.d100.s6" text="These agents have also been shown to decrease platelet nucleotide release and thromboxane A2 generation. "/>
+    <sentence id="DDI-MedLine.d100.s7" text="Some preliminary data suggest that calcium blockers also increase generation of vasodilator and platelet antiaggregant prostacyclin, which could contribute to decrease in platelet function. ">
+        <entity id="DDI-MedLine.d100.s7.e0" charOffset="35-50"
+            type="group" text="calcium blockers"/>
+    </sentence>
+    <sentence id="DDI-MedLine.d100.s8" text="These effects of calcium blockers on platelet function and arachidonic acid metabolism could contribute in part to their efficacy in patients with ischemic heart disease.">
+        <entity id="DDI-MedLine.d100.s8.e0" charOffset="17-32"
+            type="group" text="calcium blockers"/>
+    </sentence>
+</document>

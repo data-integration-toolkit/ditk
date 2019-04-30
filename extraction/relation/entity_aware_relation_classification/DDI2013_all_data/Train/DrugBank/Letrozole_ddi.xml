@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="DDI-DrugBank.d157">
+    <sentence id="DDI-DrugBank.d157.s0" text="Clinical interaction studies with cimetidine and warfarin indicated that the coadministration of Femara with these drugs does not result in clinically- significant drug interactions.">
+        <entity id="DDI-DrugBank.d157.s0.e0" charOffset="34-43"
+            type="drug" text="cimetidine"/>
+        <entity id="DDI-DrugBank.d157.s0.e1" charOffset="49-56"
+            type="drug" text="warfarin"/>
+        <entity id="DDI-DrugBank.d157.s0.e2" charOffset="97-102"
+            type="brand" text="Femara"/>
+        <pair id="DDI-DrugBank.d157.s0.p0" e1="DDI-DrugBank.d157.s0.e0"
+            e2="DDI-DrugBank.d157.s0.e1" ddi="false"/>
+        <pair id="DDI-DrugBank.d157.s0.p1" e1="DDI-DrugBank.d157.s0.e0"
+            e2="DDI-DrugBank.d157.s0.e2" ddi="false"/>
+        <pair id="DDI-DrugBank.d157.s0.p2" e1="DDI-DrugBank.d157.s0.e1"
+            e2="DDI-DrugBank.d157.s0.e2" ddi="false"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d157.s1" text="(See CLINICAL PHARMACOLOGY) Coadministration of Femara and tamoxifen 20 mg daily resulted in a reduction of letrozole plasma levels by 38% on average.">
+        <entity id="DDI-DrugBank.d157.s1.e0" charOffset="48-53"
+            type="brand" text="Femara"/>
+        <entity id="DDI-DrugBank.d157.s1.e1" charOffset="59-67"
+            type="drug" text="tamoxifen"/>
+        <entity id="DDI-DrugBank.d157.s1.e2" charOffset="108-116"
+            type="drug" text="letrozole"/>
+        <pair id="DDI-DrugBank.d157.s1.p0" e1="DDI-DrugBank.d157.s1.e0"
+            e2="DDI-DrugBank.d157.s1.e1" ddi="true" type="mechanism"/>
+        <pair id="DDI-DrugBank.d157.s1.p1" e1="DDI-DrugBank.d157.s1.e0"
+            e2="DDI-DrugBank.d157.s1.e2" ddi="false"/>
+        <pair id="DDI-DrugBank.d157.s1.p2" e1="DDI-DrugBank.d157.s1.e1"
+            e2="DDI-DrugBank.d157.s1.e2" ddi="false"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d157.s2" text="There is no clinical experience to date on the use of Femara in combination with other anticancer agents.">
+        <entity id="DDI-DrugBank.d157.s2.e0" charOffset="54-59"
+            type="brand" text="Femara"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d157.s3" text="Drug/Laboratory Test-Interactions None observed."/>
+</document>

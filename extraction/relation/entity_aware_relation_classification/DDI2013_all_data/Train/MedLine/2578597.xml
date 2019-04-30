@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="DDI-MedLine.d57">
+    <sentence id="DDI-MedLine.d57.s0" text="Analgesic effects of antihistaminics.&#xa;">
+        <entity id="DDI-MedLine.d57.s0.e0" charOffset="21-35"
+            type="group" text="antihistaminics"/>
+    </sentence>
+    <sentence id="DDI-MedLine.d57.s1" text="The literature provides considerable evidence indicating that several, but not all antihistaminics, are indeed analgesic agents and some are analgesic adjuvants as well.">
+        <entity id="DDI-MedLine.d57.s1.e0" charOffset="83-97"
+            type="group" text="antihistaminics"/>
+        <entity id="DDI-MedLine.d57.s1.e1" charOffset="111-126"
+            type="group" text="analgesic agents"/>
+        <entity id="DDI-MedLine.d57.s1.e2" charOffset="141-159"
+            type="group" text="analgesic adjuvants"/>
+        <pair id="DDI-MedLine.d57.s1.p0" e1="DDI-MedLine.d57.s1.e0"
+            e2="DDI-MedLine.d57.s1.e1" ddi="false"/>
+        <pair id="DDI-MedLine.d57.s1.p1" e1="DDI-MedLine.d57.s1.e0"
+            e2="DDI-MedLine.d57.s1.e2" ddi="false"/>
+        <pair id="DDI-MedLine.d57.s1.p2" e1="DDI-MedLine.d57.s1.e1"
+            e2="DDI-MedLine.d57.s1.e2" ddi="false"/>
+    </sentence>
+    <sentence id="DDI-MedLine.d57.s2" text="Those for which effectiveness is reported includes diphenhydramine, hydroxyzine, orphenadrine, pyrilamine, phenyltoloxamine, promethazine, methdilazine, and tripelennamine. ">
+        <entity id="DDI-MedLine.d57.s2.e0" charOffset="51-65"
+            type="drug" text="diphenhydramine"/>
+        <entity id="DDI-MedLine.d57.s2.e1" charOffset="68-78"
+            type="drug" text="hydroxyzine"/>
+        <entity id="DDI-MedLine.d57.s2.e2" charOffset="81-92"
+            type="drug" text="orphenadrine"/>
+        <entity id="DDI-MedLine.d57.s2.e3" charOffset="95-104"
+            type="drug" text="pyrilamine"/>
+        <entity id="DDI-MedLine.d57.s2.e4" charOffset="107-122"
+            type="drug_n" text="phenyltoloxamine"/>
+        <entity id="DDI-MedLine.d57.s2.e5" charOffset="125-136"
+            type="drug" text="promethazine"/>
+        <entity id="DDI-MedLine.d57.s2.e6" charOffset="139-150"
+            type="drug" text="methdilazine"/>
+        <entity id="DDI-MedLine.d57.s2.e7" charOffset="157-170"
+            type="drug" text="tripelennamine"/>
+        <pair id="DDI-MedLine.d57.s2.p0" e1="DDI-MedLine.d57.s2.e0"
+            e2="DDI-MedLine.d57.s2.e1" ddi="false"/>
+        <pair id="DDI-MedLine.d57.s2.p1" e1="DDI-MedLine.d57.s2.e0"
+            e2="DDI-MedLine.d57.s2.e2" ddi="false"/>
+        <pair id="DDI-MedLine.d57.s2.p2" e1="DDI-MedLine.d57.s2.e0"
+            e2="DDI-MedLine.d57.s2.e3" ddi="false"/>
+        <pair id="DDI-MedLine.d57.s2.p3" e1="DDI-MedLine.d57.s2.e0"
+            e2="DDI-MedLine.d57.s2.e4" ddi="false"/>
+        <pair id="DDI-MedLine.d57.s2.p4" e1="DDI-MedLine.d57.s2.e0"
+            e2="DDI-MedLine.d57.s2.e5" ddi="false"/>
+        <pair id="DDI-MedLine.d57.s2.p5" e1="DDI-MedLine.d57.s2.e0"
+            e2="DDI-MedLine.d57.s2.e6" ddi="false"/>
+        <pair id="DDI-MedLine.d57.s2.p6" e1="DDI-MedLine.d57.s2.e0"
+            e2="DDI-MedLine.d57.s2.e7" ddi="false"/>
+        <pair id="DDI-MedLine.d57.s2.p7" e1="DDI-MedLine.d57.s2.e1"
+            e2="DDI-MedLine.d57.s2.e2" ddi="false"/>
+        <pair id="DDI-MedLine.d57.s2.p8" e1="DDI-MedLine.d57.s2.e1"
+            e2="DDI-MedLine.d57.s2.e3" ddi="false"/>
+        <pair id="DDI-MedLine.d57.s2.p9" e1="DDI-MedLine.d57.s2.e1"
+            e2="DDI-MedLine.d57.s2.e4" ddi="false"/>
+        <pair id="DDI-MedLine.d57.s2.p10" e1="DDI-MedLine.d57.s2.e1"
+            e2="DDI-MedLine.d57.s2.e5" ddi="false"/>
+        <pair id="DDI-MedLine.d57.s2.p11" e1="DDI-MedLine.d57.s2.e1"
+            e2="DDI-MedLine.d57.s2.e6" ddi="false"/>
+        <pair id="DDI-MedLine.d57.s2.p12" e1="DDI-MedLine.d57.s2.e1"
+            e2="DDI-MedLine.d57.s2.e7" ddi="false"/>
+        <pair id="DDI-MedLine.d57.s2.p13" e1="DDI-MedLine.d57.s2.e2"
+            e2="DDI-MedLine.d57.s2.e3" ddi="false"/>
+        <pair id="DDI-MedLine.d57.s2.p14" e1="DDI-MedLine.d57.s2.e2"
+            e2="DDI-MedLine.d57.s2.e4" ddi="false"/>
+        <pair id="DDI-MedLine.d57.s2.p15" e1="DDI-MedLine.d57.s2.e2"
+            e2="DDI-MedLine.d57.s2.e5" ddi="false"/>
+        <pair id="DDI-MedLine.d57.s2.p16" e1="DDI-MedLine.d57.s2.e2"
+            e2="DDI-MedLine.d57.s2.e6" ddi="false"/>
+        <pair id="DDI-MedLine.d57.s2.p17" e1="DDI-MedLine.d57.s2.e2"
+            e2="DDI-MedLine.d57.s2.e7" ddi="false"/>
+        <pair id="DDI-MedLine.d57.s2.p18" e1="DDI-MedLine.d57.s2.e3"
+            e2="DDI-MedLine.d57.s2.e4" ddi="false"/>
+        <pair id="DDI-MedLine.d57.s2.p19" e1="DDI-MedLine.d57.s2.e3"
+            e2="DDI-MedLine.d57.s2.e5" ddi="false"/>
+        <pair id="DDI-MedLine.d57.s2.p20" e1="DDI-MedLine.d57.s2.e3"
+            e2="DDI-MedLine.d57.s2.e6" ddi="false"/>
+        <pair id="DDI-MedLine.d57.s2.p21" e1="DDI-MedLine.d57.s2.e3"
+            e2="DDI-MedLine.d57.s2.e7" ddi="false"/>
+        <pair id="DDI-MedLine.d57.s2.p22" e1="DDI-MedLine.d57.s2.e4"
+            e2="DDI-MedLine.d57.s2.e5" ddi="false"/>
+        <pair id="DDI-MedLine.d57.s2.p23" e1="DDI-MedLine.d57.s2.e4"
+            e2="DDI-MedLine.d57.s2.e6" ddi="false"/>
+        <pair id="DDI-MedLine.d57.s2.p24" e1="DDI-MedLine.d57.s2.e4"
+            e2="DDI-MedLine.d57.s2.e7" ddi="false"/>
+        <pair id="DDI-MedLine.d57.s2.p25" e1="DDI-MedLine.d57.s2.e5"
+            e2="DDI-MedLine.d57.s2.e6" ddi="false"/>
+        <pair id="DDI-MedLine.d57.s2.p26" e1="DDI-MedLine.d57.s2.e5"
+            e2="DDI-MedLine.d57.s2.e7" ddi="false"/>
+        <pair id="DDI-MedLine.d57.s2.p27" e1="DDI-MedLine.d57.s2.e6"
+            e2="DDI-MedLine.d57.s2.e7" ddi="false"/>
+    </sentence>
+    <sentence id="DDI-MedLine.d57.s3" text="The proposed mechanisms of analgesic action of antihistaminics are reviewed and discussed. ">
+        <entity id="DDI-MedLine.d57.s3.e0" charOffset="47-61"
+            type="group" text="antihistaminics"/>
+    </sentence>
+    <sentence id="DDI-MedLine.d57.s4" text="The literature suggests that more than one mechanism of action exists for them. "/>
+    <sentence id="DDI-MedLine.d57.s5" text="There is considerable evidence suggesting that histaminergic and serotoninergic central pathways are involved in nociception and that antihistaminic drugs can modulate their responses (1). ">
+        <entity id="DDI-MedLine.d57.s5.e0" charOffset="134-147"
+            type="group" text="antihistaminic"/>
+    </sentence>
+    <sentence id="DDI-MedLine.d57.s6" text="The evidence for a role for norepinephrine and dopamine and the effects of antihistaminics on them are less well established. ">
+        <entity id="DDI-MedLine.d57.s6.e0" charOffset="75-89"
+            type="group" text="antihistaminics"/>
+    </sentence>
+    <sentence id="DDI-MedLine.d57.s7" text="Still other pathways have been proposed. "/>
+    <sentence id="DDI-MedLine.d57.s8" text="A greater understanding of pain mechanisms will aid in elucidating the role of antihistaminics in analgesia.">
+        <entity id="DDI-MedLine.d57.s8.e0" charOffset="79-93"
+            type="group" text="antihistaminics"/>
+    </sentence>
+</document>

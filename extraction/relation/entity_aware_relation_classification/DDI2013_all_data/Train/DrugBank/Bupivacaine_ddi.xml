@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="DDI-DrugBank.d153">
+    <sentence id="DDI-DrugBank.d153.s0" text="The administration of local anesthetic solutions containing epinephrine or norepinephrine to patients receiving monoamine oxidase inhibitors or tricyclic antidepressants may produce severe, prolonged hypertension.">
+        <entity id="DDI-DrugBank.d153.s0.e0" charOffset="28-47"
+            type="group" text="anesthetic solutions"/>
+        <entity id="DDI-DrugBank.d153.s0.e1" charOffset="60-70"
+            type="drug" text="epinephrine"/>
+        <entity id="DDI-DrugBank.d153.s0.e2" charOffset="75-88"
+            type="drug" text="norepinephrine"/>
+        <entity id="DDI-DrugBank.d153.s0.e3" charOffset="112-139"
+            type="group" text="monoamine oxidase inhibitors"/>
+        <entity id="DDI-DrugBank.d153.s0.e4" charOffset="144-168"
+            type="group" text="tricyclic antidepressants"/>
+        <pair id="DDI-DrugBank.d153.s0.p0" e1="DDI-DrugBank.d153.s0.e0"
+            e2="DDI-DrugBank.d153.s0.e1" ddi="false"/>
+        <pair id="DDI-DrugBank.d153.s0.p1" e1="DDI-DrugBank.d153.s0.e0"
+            e2="DDI-DrugBank.d153.s0.e2" ddi="false"/>
+        <pair id="DDI-DrugBank.d153.s0.p2" e1="DDI-DrugBank.d153.s0.e0"
+            e2="DDI-DrugBank.d153.s0.e3" ddi="false"/>
+        <pair id="DDI-DrugBank.d153.s0.p3" e1="DDI-DrugBank.d153.s0.e0"
+            e2="DDI-DrugBank.d153.s0.e4" ddi="false"/>
+        <pair id="DDI-DrugBank.d153.s0.p4" e1="DDI-DrugBank.d153.s0.e1"
+            e2="DDI-DrugBank.d153.s0.e2" ddi="false"/>
+        <pair id="DDI-DrugBank.d153.s0.p5" e1="DDI-DrugBank.d153.s0.e1"
+            e2="DDI-DrugBank.d153.s0.e3" ddi="true" type="effect"/>
+        <pair id="DDI-DrugBank.d153.s0.p6" e1="DDI-DrugBank.d153.s0.e1"
+            e2="DDI-DrugBank.d153.s0.e4" ddi="true" type="effect"/>
+        <pair id="DDI-DrugBank.d153.s0.p7" e1="DDI-DrugBank.d153.s0.e2"
+            e2="DDI-DrugBank.d153.s0.e3" ddi="true" type="effect"/>
+        <pair id="DDI-DrugBank.d153.s0.p8" e1="DDI-DrugBank.d153.s0.e2"
+            e2="DDI-DrugBank.d153.s0.e4" ddi="true" type="effect"/>
+        <pair id="DDI-DrugBank.d153.s0.p9" e1="DDI-DrugBank.d153.s0.e3"
+            e2="DDI-DrugBank.d153.s0.e4" ddi="false"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d153.s1" text="Concurrent use of these agents should generally be avoided."/>
+    <sentence id="DDI-DrugBank.d153.s2" text="In situations in which concurrent therapy is necessary, careful patient monitoring is essential."/>
+    <sentence id="DDI-DrugBank.d153.s3" text="Concurrent administration of vasopressor drugs and of ergot-type oxytocic drugs may cause severe, persistent hypertension or cerebrovascular accidents.">
+        <entity id="DDI-DrugBank.d153.s3.e0" charOffset="29-45"
+            type="group" text="vasopressor drugs"/>
+        <entity id="DDI-DrugBank.d153.s3.e1" charOffset="54-78"
+            type="group" text="ergot-type oxytocic drugs"/>
+        <pair id="DDI-DrugBank.d153.s3.p0" e1="DDI-DrugBank.d153.s3.e0"
+            e2="DDI-DrugBank.d153.s3.e1" ddi="false"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d153.s4" text="Phenothiazines and butyrophenones may reduce or reverse the pressor effect of epinephrine.">
+        <entity id="DDI-DrugBank.d153.s4.e0" charOffset="0-13"
+            type="group" text="Phenothiazines"/>
+        <entity id="DDI-DrugBank.d153.s4.e1" charOffset="19-32"
+            type="group" text="butyrophenones"/>
+        <entity id="DDI-DrugBank.d153.s4.e2" charOffset="78-88"
+            type="drug" text="epinephrine"/>
+        <pair id="DDI-DrugBank.d153.s4.p0" e1="DDI-DrugBank.d153.s4.e0"
+            e2="DDI-DrugBank.d153.s4.e1" ddi="false"/>
+        <pair id="DDI-DrugBank.d153.s4.p1" e1="DDI-DrugBank.d153.s4.e0"
+            e2="DDI-DrugBank.d153.s4.e2" ddi="true" type="effect"/>
+        <pair id="DDI-DrugBank.d153.s4.p2" e1="DDI-DrugBank.d153.s4.e1"
+            e2="DDI-DrugBank.d153.s4.e2" ddi="true" type="effect"/>
+    </sentence>
+</document>

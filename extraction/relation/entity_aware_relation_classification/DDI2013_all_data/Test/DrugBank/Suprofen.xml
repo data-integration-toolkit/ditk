@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="DDI-DrugBank.d723">
+    <sentence id="DDI-DrugBank.d723.s0" text="Other eye drops or medications such as acetylcholine chloride (Miochol) and carbachol (Carboptic, Isopto Carbachol) may decrease the effects of suprofen ophthalmic.">
+        <entity id="DDI-DrugBank.d723.s0.e0" charOffset="39-60"
+            type="drug" text="acetylcholine chloride"/>
+        <entity id="DDI-DrugBank.d723.s0.e1" charOffset="63-69"
+            type="brand" text="Miochol"/>
+        <entity id="DDI-DrugBank.d723.s0.e2" charOffset="76-84"
+            type="drug" text="carbachol"/>
+        <entity id="DDI-DrugBank.d723.s0.e3" charOffset="87-95"
+            type="brand" text="Carboptic"/>
+        <entity id="DDI-DrugBank.d723.s0.e4" charOffset="98-113"
+            type="brand" text="Isopto Carbachol"/>
+        <entity id="DDI-DrugBank.d723.s0.e5" charOffset="144-151"
+            type="drug" text="suprofen"/>
+        <pair id="DDI-DrugBank.d723.s0.p0" e1="DDI-DrugBank.d723.s0.e0"
+            e2="DDI-DrugBank.d723.s0.e1" ddi="false"/>
+        <pair id="DDI-DrugBank.d723.s0.p1" e1="DDI-DrugBank.d723.s0.e0"
+            e2="DDI-DrugBank.d723.s0.e2" ddi="false"/>
+        <pair id="DDI-DrugBank.d723.s0.p2" e1="DDI-DrugBank.d723.s0.e0"
+            e2="DDI-DrugBank.d723.s0.e3" ddi="false"/>
+        <pair id="DDI-DrugBank.d723.s0.p3" e1="DDI-DrugBank.d723.s0.e0"
+            e2="DDI-DrugBank.d723.s0.e4" ddi="false"/>
+        <pair id="DDI-DrugBank.d723.s0.p4" e1="DDI-DrugBank.d723.s0.e0"
+            e2="DDI-DrugBank.d723.s0.e5" ddi="true" type="effect"/>
+        <pair id="DDI-DrugBank.d723.s0.p5" e1="DDI-DrugBank.d723.s0.e1"
+            e2="DDI-DrugBank.d723.s0.e2" ddi="false"/>
+        <pair id="DDI-DrugBank.d723.s0.p6" e1="DDI-DrugBank.d723.s0.e1"
+            e2="DDI-DrugBank.d723.s0.e3" ddi="false"/>
+        <pair id="DDI-DrugBank.d723.s0.p7" e1="DDI-DrugBank.d723.s0.e1"
+            e2="DDI-DrugBank.d723.s0.e4" ddi="false"/>
+        <pair id="DDI-DrugBank.d723.s0.p8" e1="DDI-DrugBank.d723.s0.e1"
+            e2="DDI-DrugBank.d723.s0.e5" ddi="true" type="effect"/>
+        <pair id="DDI-DrugBank.d723.s0.p9" e1="DDI-DrugBank.d723.s0.e2"
+            e2="DDI-DrugBank.d723.s0.e3" ddi="false"/>
+        <pair id="DDI-DrugBank.d723.s0.p10" e1="DDI-DrugBank.d723.s0.e2"
+            e2="DDI-DrugBank.d723.s0.e4" ddi="false"/>
+        <pair id="DDI-DrugBank.d723.s0.p11" e1="DDI-DrugBank.d723.s0.e2"
+            e2="DDI-DrugBank.d723.s0.e5" ddi="true" type="effect"/>
+        <pair id="DDI-DrugBank.d723.s0.p12" e1="DDI-DrugBank.d723.s0.e3"
+            e2="DDI-DrugBank.d723.s0.e4" ddi="false"/>
+        <pair id="DDI-DrugBank.d723.s0.p13" e1="DDI-DrugBank.d723.s0.e3"
+            e2="DDI-DrugBank.d723.s0.e5" ddi="true" type="effect"/>
+        <pair id="DDI-DrugBank.d723.s0.p14" e1="DDI-DrugBank.d723.s0.e4"
+            e2="DDI-DrugBank.d723.s0.e5" ddi="true" type="effect"/>
+    </sentence>
+</document>

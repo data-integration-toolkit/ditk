@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="DDI-DrugBank.d599">
+    <sentence id="DDI-DrugBank.d599.s0" text="Excessive glucocorticoid therapy will inhibit the growth-promoting effect of human GH. ">
+        <entity id="DDI-DrugBank.d599.s0.e0" charOffset="77-84"
+            type="drug" text="human GH"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d599.s1" text="Patients with ACTH deficiency should have their glucocorticoid-replacement dose carefully adjusted to avoid an inhibitory effect on growth. ">
+        <entity id="DDI-DrugBank.d599.s1.e0" charOffset="48-61"
+            type="group" text="glucocorticoid"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d599.s2" text="The use of Nutropin in patients with chronic renal insufficiency receiving glucocorticoid therapy has not been evaluated. ">
+        <entity id="DDI-DrugBank.d599.s2.e0" charOffset="11-18"
+            type="brand" text="Nutropin"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d599.s3" text="Concomitant glucocorticoid therapy may inhibit the growth-promoting effect of Nutropin. ">
+        <entity id="DDI-DrugBank.d599.s3.e0" charOffset="78-85"
+            type="brand" text="Nutropin"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d599.s4" text="If glucocorticoid replacement is required, the glucocorticoid dose should be carefully adjusted. ">
+        <entity id="DDI-DrugBank.d599.s4.e0" charOffset="3-16"
+            type="group" text="glucocorticoid"/>
+        <entity id="DDI-DrugBank.d599.s4.e1" charOffset="47-60"
+            type="group" text="glucocorticoid"/>
+        <pair id="DDI-DrugBank.d599.s4.p0" e1="DDI-DrugBank.d599.s4.e0"
+            e2="DDI-DrugBank.d599.s4.e1" ddi="false"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d599.s5" text="There was no evidence in the controlled studies of Nutropin   s interaction with drugs commonly used in chronic renal insufficiency patients. ">
+        <entity id="DDI-DrugBank.d599.s5.e0" charOffset="51-58"
+            type="brand" text="Nutropin"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d599.s6" text="Limited published data indicate that GH treatment increases cytochrome P450 (CP450) mediated antipyrine clearance in man. ">
+        <entity id="DDI-DrugBank.d599.s6.e0" charOffset="37-38"
+            type="drug" text="GH"/>
+        <entity id="DDI-DrugBank.d599.s6.e1" charOffset="93-102"
+            type="drug" text="antipyrine"/>
+        <pair id="DDI-DrugBank.d599.s6.p0" e1="DDI-DrugBank.d599.s6.e0"
+            e2="DDI-DrugBank.d599.s6.e1" ddi="true" type="mechanism"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d599.s7" text="These data suggest that GH administration may alter the clearance of compounds known to be metabolized by CP450 liver enzymes (e.g., corticosteroids, sex steroids, anticonvulsants, cyclosporin). ">
+        <entity id="DDI-DrugBank.d599.s7.e0" charOffset="24-25"
+            type="drug" text="GH"/>
+        <entity id="DDI-DrugBank.d599.s7.e1" charOffset="133-147"
+            type="group" text="corticosteroids"/>
+        <entity id="DDI-DrugBank.d599.s7.e2" charOffset="150-161"
+            type="group" text="sex steroids"/>
+        <entity id="DDI-DrugBank.d599.s7.e3" charOffset="164-178"
+            type="group" text="anticonvulsants"/>
+        <entity id="DDI-DrugBank.d599.s7.e4" charOffset="181-191"
+            type="drug" text="cyclosporin"/>
+        <pair id="DDI-DrugBank.d599.s7.p0" e1="DDI-DrugBank.d599.s7.e0"
+            e2="DDI-DrugBank.d599.s7.e1" ddi="true" type="mechanism"/>
+        <pair id="DDI-DrugBank.d599.s7.p1" e1="DDI-DrugBank.d599.s7.e0"
+            e2="DDI-DrugBank.d599.s7.e2" ddi="true" type="mechanism"/>
+        <pair id="DDI-DrugBank.d599.s7.p2" e1="DDI-DrugBank.d599.s7.e0"
+            e2="DDI-DrugBank.d599.s7.e3" ddi="true" type="mechanism"/>
+        <pair id="DDI-DrugBank.d599.s7.p3" e1="DDI-DrugBank.d599.s7.e0"
+            e2="DDI-DrugBank.d599.s7.e4" ddi="true" type="mechanism"/>
+        <pair id="DDI-DrugBank.d599.s7.p4" e1="DDI-DrugBank.d599.s7.e1"
+            e2="DDI-DrugBank.d599.s7.e2" ddi="false"/>
+        <pair id="DDI-DrugBank.d599.s7.p5" e1="DDI-DrugBank.d599.s7.e1"
+            e2="DDI-DrugBank.d599.s7.e3" ddi="false"/>
+        <pair id="DDI-DrugBank.d599.s7.p6" e1="DDI-DrugBank.d599.s7.e1"
+            e2="DDI-DrugBank.d599.s7.e4" ddi="false"/>
+        <pair id="DDI-DrugBank.d599.s7.p7" e1="DDI-DrugBank.d599.s7.e2"
+            e2="DDI-DrugBank.d599.s7.e3" ddi="false"/>
+        <pair id="DDI-DrugBank.d599.s7.p8" e1="DDI-DrugBank.d599.s7.e2"
+            e2="DDI-DrugBank.d599.s7.e4" ddi="false"/>
+        <pair id="DDI-DrugBank.d599.s7.p9" e1="DDI-DrugBank.d599.s7.e3"
+            e2="DDI-DrugBank.d599.s7.e4" ddi="false"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d599.s8" text="Careful monitoring is advisable when GH is administered in combination with other drugs known to be metabolized by CP450 liver enzymes.">
+        <entity id="DDI-DrugBank.d599.s8.e0" charOffset="37-38"
+            type="drug" text="GH"/>
+    </sentence>
+</document>

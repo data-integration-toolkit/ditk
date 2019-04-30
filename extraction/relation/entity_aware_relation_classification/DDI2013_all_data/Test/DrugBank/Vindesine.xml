@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="DDI-DrugBank.d782">
+    <sentence id="DDI-DrugBank.d782.s0" text="Vindesine can interact with the drugs of the following categories:  - Blood dyscrasia: can cause unpredictable myelotoxicity - Bone marrow depressants: can cause a predictable dose-related myelotoxicity - Radiation therapy: may cause marrow depression - Neurotoxic medications: can cause neurologic toxicity - Phenytoin: can increase seizure activity - Live virus vaccines: may potentiate the replication of the vaccine virus, may increase the side effects of the vaccination, and decrease patient's response to the vaccine - Mitomycin-C: may cause shortness of breath and bronchospasm - Killed virus vaccines: may decrease patient's response to the vaccine">
+        <entity id="DDI-DrugBank.d782.s0.e0" charOffset="0-8"
+            type="drug" text="Vindesine"/>
+        <entity id="DDI-DrugBank.d782.s0.e1" charOffset="310-318"
+            type="drug" text="Phenytoin"/>
+        <entity id="DDI-DrugBank.d782.s0.e2" charOffset="353-371"
+            type="group" text="Live virus vaccines"/>
+        <entity id="DDI-DrugBank.d782.s0.e3" charOffset="412-418"
+            type="drug" text="vaccine"/>
+        <entity id="DDI-DrugBank.d782.s0.e4" charOffset="526-536"
+            type="drug" text="Mitomycin-C"/>
+        <entity id="DDI-DrugBank.d782.s0.e5" charOffset="588-608"
+            type="group" text="Killed virus vaccines"/>
+        <entity id="DDI-DrugBank.d782.s0.e6" charOffset="650-656"
+            type="group" text="vaccine"/>
+        <pair id="DDI-DrugBank.d782.s0.p0" e1="DDI-DrugBank.d782.s0.e0"
+            e2="DDI-DrugBank.d782.s0.e1" ddi="true" type="int"/>
+        <pair id="DDI-DrugBank.d782.s0.p1" e1="DDI-DrugBank.d782.s0.e0"
+            e2="DDI-DrugBank.d782.s0.e2" ddi="true" type="int"/>
+        <pair id="DDI-DrugBank.d782.s0.p2" e1="DDI-DrugBank.d782.s0.e0"
+            e2="DDI-DrugBank.d782.s0.e3" ddi="false"/>
+        <pair id="DDI-DrugBank.d782.s0.p3" e1="DDI-DrugBank.d782.s0.e0"
+            e2="DDI-DrugBank.d782.s0.e4" ddi="true" type="int"/>
+        <pair id="DDI-DrugBank.d782.s0.p4" e1="DDI-DrugBank.d782.s0.e0"
+            e2="DDI-DrugBank.d782.s0.e5" ddi="true" type="int"/>
+        <pair id="DDI-DrugBank.d782.s0.p5" e1="DDI-DrugBank.d782.s0.e0"
+            e2="DDI-DrugBank.d782.s0.e6" ddi="false"/>
+        <pair id="DDI-DrugBank.d782.s0.p6" e1="DDI-DrugBank.d782.s0.e1"
+            e2="DDI-DrugBank.d782.s0.e2" ddi="false"/>
+        <pair id="DDI-DrugBank.d782.s0.p7" e1="DDI-DrugBank.d782.s0.e1"
+            e2="DDI-DrugBank.d782.s0.e3" ddi="false"/>
+        <pair id="DDI-DrugBank.d782.s0.p8" e1="DDI-DrugBank.d782.s0.e1"
+            e2="DDI-DrugBank.d782.s0.e4" ddi="false"/>
+        <pair id="DDI-DrugBank.d782.s0.p9" e1="DDI-DrugBank.d782.s0.e1"
+            e2="DDI-DrugBank.d782.s0.e5" ddi="false"/>
+        <pair id="DDI-DrugBank.d782.s0.p10" e1="DDI-DrugBank.d782.s0.e1"
+            e2="DDI-DrugBank.d782.s0.e6" ddi="false"/>
+        <pair id="DDI-DrugBank.d782.s0.p11" e1="DDI-DrugBank.d782.s0.e2"
+            e2="DDI-DrugBank.d782.s0.e3" ddi="false"/>
+        <pair id="DDI-DrugBank.d782.s0.p12" e1="DDI-DrugBank.d782.s0.e2"
+            e2="DDI-DrugBank.d782.s0.e4" ddi="false"/>
+        <pair id="DDI-DrugBank.d782.s0.p13" e1="DDI-DrugBank.d782.s0.e2"
+            e2="DDI-DrugBank.d782.s0.e5" ddi="false"/>
+        <pair id="DDI-DrugBank.d782.s0.p14" e1="DDI-DrugBank.d782.s0.e2"
+            e2="DDI-DrugBank.d782.s0.e6" ddi="false"/>
+        <pair id="DDI-DrugBank.d782.s0.p15" e1="DDI-DrugBank.d782.s0.e3"
+            e2="DDI-DrugBank.d782.s0.e4" ddi="false"/>
+        <pair id="DDI-DrugBank.d782.s0.p16" e1="DDI-DrugBank.d782.s0.e3"
+            e2="DDI-DrugBank.d782.s0.e5" ddi="false"/>
+        <pair id="DDI-DrugBank.d782.s0.p17" e1="DDI-DrugBank.d782.s0.e3"
+            e2="DDI-DrugBank.d782.s0.e6" ddi="false"/>
+        <pair id="DDI-DrugBank.d782.s0.p18" e1="DDI-DrugBank.d782.s0.e4"
+            e2="DDI-DrugBank.d782.s0.e5" ddi="false"/>
+        <pair id="DDI-DrugBank.d782.s0.p19" e1="DDI-DrugBank.d782.s0.e4"
+            e2="DDI-DrugBank.d782.s0.e6" ddi="false"/>
+        <pair id="DDI-DrugBank.d782.s0.p20" e1="DDI-DrugBank.d782.s0.e5"
+            e2="DDI-DrugBank.d782.s0.e6" ddi="false"/>
+    </sentence>
+</document>

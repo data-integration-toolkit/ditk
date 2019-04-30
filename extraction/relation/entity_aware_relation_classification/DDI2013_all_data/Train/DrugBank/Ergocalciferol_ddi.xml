@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="DDI-DrugBank.d471">
+    <sentence id="DDI-DrugBank.d471.s0" text="Mineral oil interferes with the absorption of fat-soluble vitamins, including vitamin D preparations.">
+        <entity id="DDI-DrugBank.d471.s0.e0" charOffset="0-10"
+            type="drug" text="Mineral oil"/>
+        <entity id="DDI-DrugBank.d471.s0.e1" charOffset="46-65"
+            type="group" text="fat-soluble vitamins"/>
+        <entity id="DDI-DrugBank.d471.s0.e2" charOffset="78-99"
+            type="group" text="vitamin D preparations"/>
+        <pair id="DDI-DrugBank.d471.s0.p0" e1="DDI-DrugBank.d471.s0.e0"
+            e2="DDI-DrugBank.d471.s0.e1" ddi="true" type="mechanism"/>
+        <pair id="DDI-DrugBank.d471.s0.p1" e1="DDI-DrugBank.d471.s0.e0"
+            e2="DDI-DrugBank.d471.s0.e2" ddi="true" type="mechanism"/>
+        <pair id="DDI-DrugBank.d471.s0.p2" e1="DDI-DrugBank.d471.s0.e1"
+            e2="DDI-DrugBank.d471.s0.e2" ddi="false"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d471.s1" text="Administration of thiazide diuretics to hypoparathyroid patients who are concurrently being treated with ergocalciferol may cause hypercalcemia.">
+        <entity id="DDI-DrugBank.d471.s1.e0" charOffset="18-35"
+            type="group" text="thiazide diuretics"/>
+        <entity id="DDI-DrugBank.d471.s1.e1" charOffset="105-118"
+            type="drug" text="ergocalciferol"/>
+        <pair id="DDI-DrugBank.d471.s1.p0" e1="DDI-DrugBank.d471.s1.e0"
+            e2="DDI-DrugBank.d471.s1.e1" ddi="true" type="effect"/>
+    </sentence>
+</document>

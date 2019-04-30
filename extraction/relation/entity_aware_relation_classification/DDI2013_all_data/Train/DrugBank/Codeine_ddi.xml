@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="DDI-DrugBank.d464">
+    <sentence id="DDI-DrugBank.d464.s0" text="Codeine in combination with other narcotic analgesics, general anesthetics, phenothiazines, tranquilizers, sedative-hypnotics, or other CNS depressants (including alcohol) has additive depressant effects.">
+        <entity id="DDI-DrugBank.d464.s0.e0" charOffset="0-6"
+            type="drug" text="Codeine"/>
+        <entity id="DDI-DrugBank.d464.s0.e1" charOffset="34-52"
+            type="group" text="narcotic analgesics"/>
+        <entity id="DDI-DrugBank.d464.s0.e2" charOffset="63-73"
+            type="group" text="anesthetics"/>
+        <entity id="DDI-DrugBank.d464.s0.e3" charOffset="76-89"
+            type="group" text="phenothiazines"/>
+        <entity id="DDI-DrugBank.d464.s0.e4" charOffset="92-104"
+            type="group" text="tranquilizers"/>
+        <entity id="DDI-DrugBank.d464.s0.e5" charOffset="107-124"
+            type="group" text="sedative-hypnotics"/>
+        <entity id="DDI-DrugBank.d464.s0.e6" charOffset="136-150"
+            type="group" text="CNS depressants"/>
+        <entity id="DDI-DrugBank.d464.s0.e7" charOffset="163-169"
+            type="drug" text="alcohol"/>
+        <pair id="DDI-DrugBank.d464.s0.p0" e1="DDI-DrugBank.d464.s0.e0"
+            e2="DDI-DrugBank.d464.s0.e1" ddi="true" type="effect"/>
+        <pair id="DDI-DrugBank.d464.s0.p1" e1="DDI-DrugBank.d464.s0.e0"
+            e2="DDI-DrugBank.d464.s0.e2" ddi="true" type="effect"/>
+        <pair id="DDI-DrugBank.d464.s0.p2" e1="DDI-DrugBank.d464.s0.e0"
+            e2="DDI-DrugBank.d464.s0.e3" ddi="true" type="effect"/>
+        <pair id="DDI-DrugBank.d464.s0.p3" e1="DDI-DrugBank.d464.s0.e0"
+            e2="DDI-DrugBank.d464.s0.e4" ddi="true" type="effect"/>
+        <pair id="DDI-DrugBank.d464.s0.p4" e1="DDI-DrugBank.d464.s0.e0"
+            e2="DDI-DrugBank.d464.s0.e5" ddi="true" type="effect"/>
+        <pair id="DDI-DrugBank.d464.s0.p5" e1="DDI-DrugBank.d464.s0.e0"
+            e2="DDI-DrugBank.d464.s0.e6" ddi="true" type="effect"/>
+        <pair id="DDI-DrugBank.d464.s0.p6" e1="DDI-DrugBank.d464.s0.e0"
+            e2="DDI-DrugBank.d464.s0.e7" ddi="true" type="effect"/>
+        <pair id="DDI-DrugBank.d464.s0.p7" e1="DDI-DrugBank.d464.s0.e1"
+            e2="DDI-DrugBank.d464.s0.e2" ddi="false"/>
+        <pair id="DDI-DrugBank.d464.s0.p8" e1="DDI-DrugBank.d464.s0.e1"
+            e2="DDI-DrugBank.d464.s0.e3" ddi="false"/>
+        <pair id="DDI-DrugBank.d464.s0.p9" e1="DDI-DrugBank.d464.s0.e1"
+            e2="DDI-DrugBank.d464.s0.e4" ddi="false"/>
+        <pair id="DDI-DrugBank.d464.s0.p10" e1="DDI-DrugBank.d464.s0.e1"
+            e2="DDI-DrugBank.d464.s0.e5" ddi="false"/>
+        <pair id="DDI-DrugBank.d464.s0.p11" e1="DDI-DrugBank.d464.s0.e1"
+            e2="DDI-DrugBank.d464.s0.e6" ddi="false"/>
+        <pair id="DDI-DrugBank.d464.s0.p12" e1="DDI-DrugBank.d464.s0.e1"
+            e2="DDI-DrugBank.d464.s0.e7" ddi="false"/>
+        <pair id="DDI-DrugBank.d464.s0.p13" e1="DDI-DrugBank.d464.s0.e2"
+            e2="DDI-DrugBank.d464.s0.e3" ddi="false"/>
+        <pair id="DDI-DrugBank.d464.s0.p14" e1="DDI-DrugBank.d464.s0.e2"
+            e2="DDI-DrugBank.d464.s0.e4" ddi="false"/>
+        <pair id="DDI-DrugBank.d464.s0.p15" e1="DDI-DrugBank.d464.s0.e2"
+            e2="DDI-DrugBank.d464.s0.e5" ddi="false"/>
+        <pair id="DDI-DrugBank.d464.s0.p16" e1="DDI-DrugBank.d464.s0.e2"
+            e2="DDI-DrugBank.d464.s0.e6" ddi="false"/>
+        <pair id="DDI-DrugBank.d464.s0.p17" e1="DDI-DrugBank.d464.s0.e2"
+            e2="DDI-DrugBank.d464.s0.e7" ddi="false"/>
+        <pair id="DDI-DrugBank.d464.s0.p18" e1="DDI-DrugBank.d464.s0.e3"
+            e2="DDI-DrugBank.d464.s0.e4" ddi="false"/>
+        <pair id="DDI-DrugBank.d464.s0.p19" e1="DDI-DrugBank.d464.s0.e3"
+            e2="DDI-DrugBank.d464.s0.e5" ddi="false"/>
+        <pair id="DDI-DrugBank.d464.s0.p20" e1="DDI-DrugBank.d464.s0.e3"
+            e2="DDI-DrugBank.d464.s0.e6" ddi="false"/>
+        <pair id="DDI-DrugBank.d464.s0.p21" e1="DDI-DrugBank.d464.s0.e3"
+            e2="DDI-DrugBank.d464.s0.e7" ddi="false"/>
+        <pair id="DDI-DrugBank.d464.s0.p22" e1="DDI-DrugBank.d464.s0.e4"
+            e2="DDI-DrugBank.d464.s0.e5" ddi="false"/>
+        <pair id="DDI-DrugBank.d464.s0.p23" e1="DDI-DrugBank.d464.s0.e4"
+            e2="DDI-DrugBank.d464.s0.e6" ddi="false"/>
+        <pair id="DDI-DrugBank.d464.s0.p24" e1="DDI-DrugBank.d464.s0.e4"
+            e2="DDI-DrugBank.d464.s0.e7" ddi="false"/>
+        <pair id="DDI-DrugBank.d464.s0.p25" e1="DDI-DrugBank.d464.s0.e5"
+            e2="DDI-DrugBank.d464.s0.e6" ddi="false"/>
+        <pair id="DDI-DrugBank.d464.s0.p26" e1="DDI-DrugBank.d464.s0.e5"
+            e2="DDI-DrugBank.d464.s0.e7" ddi="false"/>
+        <pair id="DDI-DrugBank.d464.s0.p27" e1="DDI-DrugBank.d464.s0.e6"
+            e2="DDI-DrugBank.d464.s0.e7" ddi="false"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d464.s1" text="When s.c."/>
+    <sentence id="DDI-DrugBank.d464.s2" text="combination therapy is contemplated, the dosage of one or both agents should be reduced."/>
+</document>

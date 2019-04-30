@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="DDI-DrugBank.d14">
+    <sentence id="DDI-DrugBank.d14.s0" text="The vasodilating effects of nitroglycerin may be additive with those of other vasodilators.">
+        <entity id="DDI-DrugBank.d14.s0.e0" charOffset="28-40"
+            type="drug" text="nitroglycerin"/>
+        <entity id="DDI-DrugBank.d14.s0.e1" charOffset="78-89"
+            type="group" text="vasodilators"/>
+        <pair id="DDI-DrugBank.d14.s0.p0" e1="DDI-DrugBank.d14.s0.e0"
+            e2="DDI-DrugBank.d14.s0.e1" ddi="true" type="effect"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d14.s1" text="Alcohol, in particular, has been found to exhibit additive effects of this variety.">
+        <entity id="DDI-DrugBank.d14.s1.e0" charOffset="0-6" type="drug" text="Alcohol"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d14.s2" text="Marked symptomatic orthostatic hypotension has been reported when calcium channel blockers and organic nitrates were used in combination.">
+        <entity id="DDI-DrugBank.d14.s2.e0" charOffset="66-89"
+            type="group" text="calcium channel blockers"/>
+        <entity id="DDI-DrugBank.d14.s2.e1" charOffset="103-110"
+            type="group" text="nitrates"/>
+        <pair id="DDI-DrugBank.d14.s2.p0" e1="DDI-DrugBank.d14.s2.e0"
+            e2="DDI-DrugBank.d14.s2.e1" ddi="true" type="effect"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d14.s3" text="Dose adjustments of either class of agents may be necessary."/>
+</document>

@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="DDI-DrugBank.d493">
+    <sentence id="DDI-DrugBank.d493.s0" text="Methotrexate: HUMIRA has been studied in rheumatoid arthritis patients taking concomitant MTX.">
+        <entity id="DDI-DrugBank.d493.s0.e0" charOffset="0-11"
+            type="drug" text="Methotrexate"/>
+        <entity id="DDI-DrugBank.d493.s0.e1" charOffset="14-19"
+            type="brand" text="HUMIRA"/>
+        <entity id="DDI-DrugBank.d493.s0.e2" charOffset="90-92"
+            type="drug" text="MTX"/>
+        <pair id="DDI-DrugBank.d493.s0.p0" e1="DDI-DrugBank.d493.s0.e0"
+            e2="DDI-DrugBank.d493.s0.e1" ddi="false"/>
+        <pair id="DDI-DrugBank.d493.s0.p1" e1="DDI-DrugBank.d493.s0.e0"
+            e2="DDI-DrugBank.d493.s0.e2" ddi="false"/>
+        <pair id="DDI-DrugBank.d493.s0.p2" e1="DDI-DrugBank.d493.s0.e1"
+            e2="DDI-DrugBank.d493.s0.e2" ddi="false"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d493.s1" text="The data do not suggest the need for dose adjustment of either HUMIRA or MTX.">
+        <entity id="DDI-DrugBank.d493.s1.e0" charOffset="63-68"
+            type="brand" text="HUMIRA"/>
+        <entity id="DDI-DrugBank.d493.s1.e1" charOffset="73-75"
+            type="drug" text="MTX"/>
+        <pair id="DDI-DrugBank.d493.s1.p0" e1="DDI-DrugBank.d493.s1.e0"
+            e2="DDI-DrugBank.d493.s1.e1" ddi="false"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d493.s2" text="Anakinra: Concurrent administration of anakinra (an interleukin-1 antagonist) and another TNF-blocking agent has been associated with an increased risk of serious infections, an increased risk of neutropenia and no additional benefit compared to these medicinal products alone.">
+        <entity id="DDI-DrugBank.d493.s2.e0" charOffset="0-7"
+            type="drug" text="Anakinra"/>
+        <entity id="DDI-DrugBank.d493.s2.e1" charOffset="39-46"
+            type="drug" text="anakinra"/>
+        <entity id="DDI-DrugBank.d493.s2.e2" charOffset="52-75"
+            type="group" text="interleukin-1 antagonist"/>
+        <entity id="DDI-DrugBank.d493.s2.e3" charOffset="90-107"
+            type="group" text="TNF-blocking agent"/>
+        <pair id="DDI-DrugBank.d493.s2.p0" e1="DDI-DrugBank.d493.s2.e0"
+            e2="DDI-DrugBank.d493.s2.e1" ddi="false"/>
+        <pair id="DDI-DrugBank.d493.s2.p1" e1="DDI-DrugBank.d493.s2.e0"
+            e2="DDI-DrugBank.d493.s2.e2" ddi="false"/>
+        <pair id="DDI-DrugBank.d493.s2.p2" e1="DDI-DrugBank.d493.s2.e0"
+            e2="DDI-DrugBank.d493.s2.e3" ddi="false"/>
+        <pair id="DDI-DrugBank.d493.s2.p3" e1="DDI-DrugBank.d493.s2.e1"
+            e2="DDI-DrugBank.d493.s2.e2" ddi="false"/>
+        <pair id="DDI-DrugBank.d493.s2.p4" e1="DDI-DrugBank.d493.s2.e1"
+            e2="DDI-DrugBank.d493.s2.e3" ddi="true" type="effect"/>
+        <pair id="DDI-DrugBank.d493.s2.p5" e1="DDI-DrugBank.d493.s2.e2"
+            e2="DDI-DrugBank.d493.s2.e3" ddi="true" type="effect"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d493.s3" text="The safety and efficacy of anakinra used in combination with HUMIRA has not been studied.">
+        <entity id="DDI-DrugBank.d493.s3.e0" charOffset="27-34"
+            type="drug" text="anakinra"/>
+        <entity id="DDI-DrugBank.d493.s3.e1" charOffset="61-66"
+            type="brand" text="HUMIRA"/>
+        <pair id="DDI-DrugBank.d493.s3.p0" e1="DDI-DrugBank.d493.s3.e0"
+            e2="DDI-DrugBank.d493.s3.e1" ddi="false"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d493.s4" text="Therefore the, combination of anakinra with other TNF-blocking agents, including HUMIRA, may also result i n similar toxicities.">
+        <entity id="DDI-DrugBank.d493.s4.e0" charOffset="30-37"
+            type="drug" text="anakinra"/>
+        <entity id="DDI-DrugBank.d493.s4.e1" charOffset="50-68"
+            type="group" text="TNF-blocking agents"/>
+        <entity id="DDI-DrugBank.d493.s4.e2" charOffset="81-86"
+            type="brand" text="HUMIRA"/>
+        <pair id="DDI-DrugBank.d493.s4.p0" e1="DDI-DrugBank.d493.s4.e0"
+            e2="DDI-DrugBank.d493.s4.e1" ddi="true" type="effect"/>
+        <pair id="DDI-DrugBank.d493.s4.p1" e1="DDI-DrugBank.d493.s4.e0"
+            e2="DDI-DrugBank.d493.s4.e2" ddi="true" type="effect"/>
+        <pair id="DDI-DrugBank.d493.s4.p2" e1="DDI-DrugBank.d493.s4.e1"
+            e2="DDI-DrugBank.d493.s4.e2" ddi="false"/>
+    </sentence>
+</document>

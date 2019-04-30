@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="DDI-DrugBank.d773">
+    <sentence id="DDI-DrugBank.d773.s0" text="Formal interaction studies of TNKase with other drugs have not been performed. ">
+        <entity id="DDI-DrugBank.d773.s0.e0" charOffset="30-35"
+            type="brand" text="TNKase"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d773.s1" text="Patients studied in clinical trials of TNKase were routinely treated with heparin and aspirin. ">
+        <entity id="DDI-DrugBank.d773.s1.e0" charOffset="39-44"
+            type="brand" text="TNKase"/>
+        <entity id="DDI-DrugBank.d773.s1.e1" charOffset="74-80"
+            type="drug" text="heparin"/>
+        <entity id="DDI-DrugBank.d773.s1.e2" charOffset="86-92"
+            type="brand" text="aspirin"/>
+        <pair id="DDI-DrugBank.d773.s1.p0" e1="DDI-DrugBank.d773.s1.e0"
+            e2="DDI-DrugBank.d773.s1.e1" ddi="false"/>
+        <pair id="DDI-DrugBank.d773.s1.p1" e1="DDI-DrugBank.d773.s1.e0"
+            e2="DDI-DrugBank.d773.s1.e2" ddi="false"/>
+        <pair id="DDI-DrugBank.d773.s1.p2" e1="DDI-DrugBank.d773.s1.e1"
+            e2="DDI-DrugBank.d773.s1.e2" ddi="false"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d773.s2" text="Anticoagulants (such as heparin and vitamin K antagonists) and drugs that alter platelet function (such as acetylsalicylic acid, dipyridamole, and GP IIb/IIIa inhibitors) may increase the risk of bleeding if administered prior to, during, or after TNKase therapy. ">
+        <entity id="DDI-DrugBank.d773.s2.e0" charOffset="0-13"
+            type="group" text="Anticoagulants"/>
+        <entity id="DDI-DrugBank.d773.s2.e1" charOffset="24-30"
+            type="drug" text="heparin"/>
+        <entity id="DDI-DrugBank.d773.s2.e2" charOffset="36-56"
+            type="group" text="vitamin K antagonists"/>
+        <entity id="DDI-DrugBank.d773.s2.e3" charOffset="107-126"
+            type="drug" text="acetylsalicylic acid"/>
+        <entity id="DDI-DrugBank.d773.s2.e4" charOffset="129-140"
+            type="drug" text="dipyridamole"/>
+        <entity id="DDI-DrugBank.d773.s2.e5" charOffset="248-253"
+            type="brand" text="TNKase"/>
+        <pair id="DDI-DrugBank.d773.s2.p0" e1="DDI-DrugBank.d773.s2.e0"
+            e2="DDI-DrugBank.d773.s2.e1" ddi="false"/>
+        <pair id="DDI-DrugBank.d773.s2.p1" e1="DDI-DrugBank.d773.s2.e0"
+            e2="DDI-DrugBank.d773.s2.e2" ddi="false"/>
+        <pair id="DDI-DrugBank.d773.s2.p2" e1="DDI-DrugBank.d773.s2.e0"
+            e2="DDI-DrugBank.d773.s2.e3" ddi="false"/>
+        <pair id="DDI-DrugBank.d773.s2.p3" e1="DDI-DrugBank.d773.s2.e0"
+            e2="DDI-DrugBank.d773.s2.e4" ddi="false"/>
+        <pair id="DDI-DrugBank.d773.s2.p4" e1="DDI-DrugBank.d773.s2.e0"
+            e2="DDI-DrugBank.d773.s2.e5" ddi="true" type="effect"/>
+        <pair id="DDI-DrugBank.d773.s2.p5" e1="DDI-DrugBank.d773.s2.e1"
+            e2="DDI-DrugBank.d773.s2.e2" ddi="false"/>
+        <pair id="DDI-DrugBank.d773.s2.p6" e1="DDI-DrugBank.d773.s2.e1"
+            e2="DDI-DrugBank.d773.s2.e3" ddi="false"/>
+        <pair id="DDI-DrugBank.d773.s2.p7" e1="DDI-DrugBank.d773.s2.e1"
+            e2="DDI-DrugBank.d773.s2.e4" ddi="false"/>
+        <pair id="DDI-DrugBank.d773.s2.p8" e1="DDI-DrugBank.d773.s2.e1"
+            e2="DDI-DrugBank.d773.s2.e5" ddi="true" type="effect"/>
+        <pair id="DDI-DrugBank.d773.s2.p9" e1="DDI-DrugBank.d773.s2.e2"
+            e2="DDI-DrugBank.d773.s2.e3" ddi="false"/>
+        <pair id="DDI-DrugBank.d773.s2.p10" e1="DDI-DrugBank.d773.s2.e2"
+            e2="DDI-DrugBank.d773.s2.e4" ddi="false"/>
+        <pair id="DDI-DrugBank.d773.s2.p11" e1="DDI-DrugBank.d773.s2.e2"
+            e2="DDI-DrugBank.d773.s2.e5" ddi="true" type="effect"/>
+        <pair id="DDI-DrugBank.d773.s2.p12" e1="DDI-DrugBank.d773.s2.e3"
+            e2="DDI-DrugBank.d773.s2.e4" ddi="false"/>
+        <pair id="DDI-DrugBank.d773.s2.p13" e1="DDI-DrugBank.d773.s2.e3"
+            e2="DDI-DrugBank.d773.s2.e5" ddi="true" type="effect"/>
+        <pair id="DDI-DrugBank.d773.s2.p14" e1="DDI-DrugBank.d773.s2.e4"
+            e2="DDI-DrugBank.d773.s2.e5" ddi="true" type="effect"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d773.s3" text="Drug/Laboratory Test Interactions During TNKase therapy, results of coagulation tests and/or measures of fibrinolytic activity may be unreliable unless specific precautions are taken to prevent in vitro artifacts. ">
+        <entity id="DDI-DrugBank.d773.s3.e0" charOffset="41-46"
+            type="brand" text="TNKase"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d773.s4" text="Tenecteplase is an enzyme that, when present in blood in pharmacologic concentrations, remains active under in vitro conditions. ">
+        <entity id="DDI-DrugBank.d773.s4.e0" charOffset="0-11"
+            type="drug" text="Tenecteplase"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d773.s5" text="This can lead to degradation of fibrinogen in blood samples removed for analysis."/>
+</document>

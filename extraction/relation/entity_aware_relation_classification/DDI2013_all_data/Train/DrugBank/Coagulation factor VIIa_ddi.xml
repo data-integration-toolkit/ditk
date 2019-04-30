@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="DDI-DrugBank.d221">
+    <sentence id="DDI-DrugBank.d221.s0" text="The risk of a potential interaction between NovoSeven and coagulation factor concentrates has not been adequately evaluated in preclinical or clinical studies.">
+        <entity id="DDI-DrugBank.d221.s0.e0" charOffset="44-52"
+            type="brand" text="NovoSeven"/>
+        <entity id="DDI-DrugBank.d221.s0.e1" charOffset="58-75"
+            type="group" text="coagulation factor"/>
+        <pair id="DDI-DrugBank.d221.s0.p0" e1="DDI-DrugBank.d221.s0.e0"
+            e2="DDI-DrugBank.d221.s0.e1" ddi="false"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d221.s1" text="Simultaneous use of activated prothrombin complex concentrates or prothrombin complex concentrates should be avoided.">
+        <entity id="DDI-DrugBank.d221.s1.e0" charOffset="20-61"
+            type="group" text="activated prothrombin complex concentrates"/>
+        <entity id="DDI-DrugBank.d221.s1.e1" charOffset="66-97"
+            type="group" text="prothrombin complex concentrates"/>
+        <pair id="DDI-DrugBank.d221.s1.p0" e1="DDI-DrugBank.d221.s1.e0"
+            e2="DDI-DrugBank.d221.s1.e1" ddi="false"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d221.s2" text="Although the specific drug interaction was not studied in a clinical trial, there have been more than 50 episodes of concomitant use of antifibrinolytic therapies (i.e., tranexamic acid, aminocaproic acid) and NovoSeven.">
+        <entity id="DDI-DrugBank.d221.s2.e0" charOffset="170-184"
+            type="drug" text="tranexamic acid"/>
+        <entity id="DDI-DrugBank.d221.s2.e1" charOffset="187-203"
+            type="drug" text="aminocaproic acid"/>
+        <entity id="DDI-DrugBank.d221.s2.e2" charOffset="210-218"
+            type="brand" text="NovoSeven"/>
+        <pair id="DDI-DrugBank.d221.s2.p0" e1="DDI-DrugBank.d221.s2.e0"
+            e2="DDI-DrugBank.d221.s2.e1" ddi="false"/>
+        <pair id="DDI-DrugBank.d221.s2.p1" e1="DDI-DrugBank.d221.s2.e0"
+            e2="DDI-DrugBank.d221.s2.e2" ddi="false"/>
+        <pair id="DDI-DrugBank.d221.s2.p2" e1="DDI-DrugBank.d221.s2.e1"
+            e2="DDI-DrugBank.d221.s2.e2" ddi="false"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d221.s3" text="NovoSeven should not be mixed with infusion solutions until clinical data are available to direct this use.">
+        <entity id="DDI-DrugBank.d221.s3.e0" charOffset="0-8"
+            type="brand" text="NovoSeven"/>
+    </sentence>
+</document>

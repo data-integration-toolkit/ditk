@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="DDI-DrugBank.d751">
+    <sentence id="DDI-DrugBank.d751.s0" text="AGGRASTAT has been studied on a background of aspirin and heparin. ">
+        <entity id="DDI-DrugBank.d751.s0.e0" charOffset="0-8"
+            type="brand" text="AGGRASTAT"/>
+        <entity id="DDI-DrugBank.d751.s0.e1" charOffset="46-52"
+            type="brand" text="aspirin"/>
+        <entity id="DDI-DrugBank.d751.s0.e2" charOffset="58-64"
+            type="drug" text="heparin"/>
+        <pair id="DDI-DrugBank.d751.s0.p0" e1="DDI-DrugBank.d751.s0.e0"
+            e2="DDI-DrugBank.d751.s0.e1" ddi="false"/>
+        <pair id="DDI-DrugBank.d751.s0.p1" e1="DDI-DrugBank.d751.s0.e0"
+            e2="DDI-DrugBank.d751.s0.e2" ddi="false"/>
+        <pair id="DDI-DrugBank.d751.s0.p2" e1="DDI-DrugBank.d751.s0.e1"
+            e2="DDI-DrugBank.d751.s0.e2" ddi="false"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d751.s1" text="The use of AGGRASTAT, in combination with heparin and aspirin, has been associated with an increase in bleeding compared to heparin and aspirin alone (see">
+        <entity id="DDI-DrugBank.d751.s1.e0" charOffset="11-19"
+            type="brand" text="AGGRASTAT"/>
+        <entity id="DDI-DrugBank.d751.s1.e1" charOffset="42-48"
+            type="drug" text="heparin"/>
+        <entity id="DDI-DrugBank.d751.s1.e2" charOffset="54-60"
+            type="brand" text="aspirin"/>
+        <entity id="DDI-DrugBank.d751.s1.e3" charOffset="124-130"
+            type="drug" text="heparin"/>
+        <entity id="DDI-DrugBank.d751.s1.e4" charOffset="136-142"
+            type="drug" text="aspirin"/>
+        <pair id="DDI-DrugBank.d751.s1.p0" e1="DDI-DrugBank.d751.s1.e0"
+            e2="DDI-DrugBank.d751.s1.e1" ddi="true" type="effect"/>
+        <pair id="DDI-DrugBank.d751.s1.p1" e1="DDI-DrugBank.d751.s1.e0"
+            e2="DDI-DrugBank.d751.s1.e2" ddi="true" type="effect"/>
+        <pair id="DDI-DrugBank.d751.s1.p2" e1="DDI-DrugBank.d751.s1.e0"
+            e2="DDI-DrugBank.d751.s1.e3" ddi="false"/>
+        <pair id="DDI-DrugBank.d751.s1.p3" e1="DDI-DrugBank.d751.s1.e0"
+            e2="DDI-DrugBank.d751.s1.e4" ddi="false"/>
+        <pair id="DDI-DrugBank.d751.s1.p4" e1="DDI-DrugBank.d751.s1.e1"
+            e2="DDI-DrugBank.d751.s1.e2" ddi="false"/>
+        <pair id="DDI-DrugBank.d751.s1.p5" e1="DDI-DrugBank.d751.s1.e1"
+            e2="DDI-DrugBank.d751.s1.e3" ddi="false"/>
+        <pair id="DDI-DrugBank.d751.s1.p6" e1="DDI-DrugBank.d751.s1.e1"
+            e2="DDI-DrugBank.d751.s1.e4" ddi="false"/>
+        <pair id="DDI-DrugBank.d751.s1.p7" e1="DDI-DrugBank.d751.s1.e2"
+            e2="DDI-DrugBank.d751.s1.e3" ddi="false"/>
+        <pair id="DDI-DrugBank.d751.s1.p8" e1="DDI-DrugBank.d751.s1.e2"
+            e2="DDI-DrugBank.d751.s1.e4" ddi="false"/>
+        <pair id="DDI-DrugBank.d751.s1.p9" e1="DDI-DrugBank.d751.s1.e3"
+            e2="DDI-DrugBank.d751.s1.e4" ddi="false"/>
+    </sentence>
+</document>

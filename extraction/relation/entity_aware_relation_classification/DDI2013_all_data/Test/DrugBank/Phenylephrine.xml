@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="DDI-DrugBank.d725">
+    <sentence id="DDI-DrugBank.d725.s0" text="Vasopressors, particularly metaraminol, may cause serious cardiac arrhythmias during halothane anesthesia and therefore should be used only with great caution or not at all. ">
+        <entity id="DDI-DrugBank.d725.s0.e0" charOffset="0-11"
+            type="group" text="Vasopressors"/>
+        <entity id="DDI-DrugBank.d725.s0.e1" charOffset="27-37"
+            type="drug" text="metaraminol"/>
+        <entity id="DDI-DrugBank.d725.s0.e2" charOffset="85-93"
+            type="drug" text="halothane"/>
+        <pair id="DDI-DrugBank.d725.s0.p0" e1="DDI-DrugBank.d725.s0.e0"
+            e2="DDI-DrugBank.d725.s0.e1" ddi="false"/>
+        <pair id="DDI-DrugBank.d725.s0.p1" e1="DDI-DrugBank.d725.s0.e0"
+            e2="DDI-DrugBank.d725.s0.e2" ddi="true" type="effect"/>
+        <pair id="DDI-DrugBank.d725.s0.p2" e1="DDI-DrugBank.d725.s0.e1"
+            e2="DDI-DrugBank.d725.s0.e2" ddi="true" type="effect"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d725.s1" text="MAO Inhibitors: The pressor effect of sympathomimetic pressor amines is markedly potentiated in patients receiving monoamine oxidase inhibitors (MAOI). ">
+        <entity id="DDI-DrugBank.d725.s1.e0" charOffset="0-13"
+            type="group" text="MAO Inhibitors"/>
+        <entity id="DDI-DrugBank.d725.s1.e1" charOffset="38-67"
+            type="group" text="sympathomimetic pressor amines"/>
+        <entity id="DDI-DrugBank.d725.s1.e2" charOffset="115-142"
+            type="group" text="monoamine oxidase inhibitors"/>
+        <entity id="DDI-DrugBank.d725.s1.e3" charOffset="145-148"
+            type="group" text="MAOI"/>
+        <pair id="DDI-DrugBank.d725.s1.p0" e1="DDI-DrugBank.d725.s1.e0"
+            e2="DDI-DrugBank.d725.s1.e1" ddi="false"/>
+        <pair id="DDI-DrugBank.d725.s1.p1" e1="DDI-DrugBank.d725.s1.e0"
+            e2="DDI-DrugBank.d725.s1.e2" ddi="false"/>
+        <pair id="DDI-DrugBank.d725.s1.p2" e1="DDI-DrugBank.d725.s1.e0"
+            e2="DDI-DrugBank.d725.s1.e3" ddi="false"/>
+        <pair id="DDI-DrugBank.d725.s1.p3" e1="DDI-DrugBank.d725.s1.e1"
+            e2="DDI-DrugBank.d725.s1.e2" ddi="true" type="effect"/>
+        <pair id="DDI-DrugBank.d725.s1.p4" e1="DDI-DrugBank.d725.s1.e1"
+            e2="DDI-DrugBank.d725.s1.e3" ddi="true" type="effect"/>
+        <pair id="DDI-DrugBank.d725.s1.p5" e1="DDI-DrugBank.d725.s1.e2"
+            e2="DDI-DrugBank.d725.s1.e3" ddi="false"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d725.s2" text="Therefore, when initiating pressor therapy in these patients, the initial dose should be small and used with due caution. "/>
+    <sentence id="DDI-DrugBank.d725.s3" text="The pressor response of adrenergic agents may also be potentiated by tricyclic antidepressants.">
+        <entity id="DDI-DrugBank.d725.s3.e0" charOffset="24-40"
+            type="group" text="adrenergic agents"/>
+        <entity id="DDI-DrugBank.d725.s3.e1" charOffset="69-93"
+            type="group" text="tricyclic antidepressants"/>
+        <pair id="DDI-DrugBank.d725.s3.p0" e1="DDI-DrugBank.d725.s3.e0"
+            e2="DDI-DrugBank.d725.s3.e1" ddi="true" type="effect"/>
+    </sentence>
+</document>

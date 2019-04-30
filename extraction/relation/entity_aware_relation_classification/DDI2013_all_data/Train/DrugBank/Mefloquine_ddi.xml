@@ -1,0 +1,232 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="DDI-DrugBank.d220">
+    <sentence id="DDI-DrugBank.d220.s0" text="Drug-drug interactions with Mefloquine have not been explored in detail.">
+        <entity id="DDI-DrugBank.d220.s0.e0" charOffset="28-37"
+            type="drug" text="Mefloquine"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d220.s1" text="There is one report of cardiopulmonary arrest, with full recovery, in a patient who was taking a beta blocker (propranolol).">
+        <entity id="DDI-DrugBank.d220.s1.e0" charOffset="97-108"
+            type="group" text="beta blocker"/>
+        <entity id="DDI-DrugBank.d220.s1.e1" charOffset="111-121"
+            type="drug" text="propranolol"/>
+        <pair id="DDI-DrugBank.d220.s1.p0" e1="DDI-DrugBank.d220.s1.e0"
+            e2="DDI-DrugBank.d220.s1.e1" ddi="false"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d220.s2" text="The effects of Mefloquineuine on the compromised cardiovascular system have not been evaluated."/>
+    <sentence id="DDI-DrugBank.d220.s3" text="The benefits of Mefloquine therapy should be weighed against the possibility of adverse effects in patients with cardiac disease.">
+        <entity id="DDI-DrugBank.d220.s3.e0" charOffset="16-25"
+            type="drug" text="Mefloquine"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d220.s4" text="Because of the danger of a potentially fatal prolongation of the QTc interval, halofantrine must not be given simultaneously with or subsequent to Mefloquine.">
+        <entity id="DDI-DrugBank.d220.s4.e0" charOffset="79-90"
+            type="drug" text="halofantrine"/>
+        <entity id="DDI-DrugBank.d220.s4.e1" charOffset="147-156"
+            type="drug" text="Mefloquine"/>
+        <pair id="DDI-DrugBank.d220.s4.p0" e1="DDI-DrugBank.d220.s4.e0"
+            e2="DDI-DrugBank.d220.s4.e1" ddi="true" type="advise"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d220.s5" text="Concomitant administration of Mefloquine and other related compounds (eg, quinine, quinidine and chloroquine) may produce electrocardiographic abnormalities and increase the risk of convulsions.">
+        <entity id="DDI-DrugBank.d220.s5.e0" charOffset="30-39"
+            type="drug" text="Mefloquine"/>
+        <entity id="DDI-DrugBank.d220.s5.e1" charOffset="74-80"
+            type="drug" text="quinine"/>
+        <entity id="DDI-DrugBank.d220.s5.e2" charOffset="83-91"
+            type="drug" text="quinidine"/>
+        <entity id="DDI-DrugBank.d220.s5.e3" charOffset="97-107"
+            type="drug" text="chloroquine"/>
+        <pair id="DDI-DrugBank.d220.s5.p0" e1="DDI-DrugBank.d220.s5.e0"
+            e2="DDI-DrugBank.d220.s5.e1" ddi="true" type="effect"/>
+        <pair id="DDI-DrugBank.d220.s5.p1" e1="DDI-DrugBank.d220.s5.e0"
+            e2="DDI-DrugBank.d220.s5.e2" ddi="true" type="effect"/>
+        <pair id="DDI-DrugBank.d220.s5.p2" e1="DDI-DrugBank.d220.s5.e0"
+            e2="DDI-DrugBank.d220.s5.e3" ddi="true" type="effect"/>
+        <pair id="DDI-DrugBank.d220.s5.p3" e1="DDI-DrugBank.d220.s5.e1"
+            e2="DDI-DrugBank.d220.s5.e2" ddi="false"/>
+        <pair id="DDI-DrugBank.d220.s5.p4" e1="DDI-DrugBank.d220.s5.e1"
+            e2="DDI-DrugBank.d220.s5.e3" ddi="false"/>
+        <pair id="DDI-DrugBank.d220.s5.p5" e1="DDI-DrugBank.d220.s5.e2"
+            e2="DDI-DrugBank.d220.s5.e3" ddi="false"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d220.s6" text="If these drugs are to be used in the initial treatment of severe malaria, Mefloquine administration should be delayed at least 12 hours after the last dose.">
+        <entity id="DDI-DrugBank.d220.s6.e0" charOffset="74-83"
+            type="drug" text="Mefloquine"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d220.s7" text="There is evidence that the use of halofantrine after Mefloquineuine causes a significant lengthening of the QTc interval.">
+        <entity id="DDI-DrugBank.d220.s7.e0" charOffset="34-45"
+            type="drug" text="halofantrine"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d220.s8" text="Clinically significant QTc prolongation has not been found with Mefloquineuine alone."/>
+    <sentence id="DDI-DrugBank.d220.s9" text="This appears to be the only clinically relevant interaction of this kind with Mefloquine, although theoretically, coadministration of other drugs known to alter cardiac conduction (eg, anti-arrhythmic or beta-adrenergic blocking agents, calcium channel blockers, antihistamines or H1-blocking agents, tricyclic antidepressants and phenothiazines) might also contribute to a prolongation of the QTc interval.">
+        <entity id="DDI-DrugBank.d220.s9.e0" charOffset="78-87"
+            type="drug" text="Mefloquine"/>
+        <entity id="DDI-DrugBank.d220.s9.e1" charOffset="185-199"
+            type="drug" text="anti-arrhythmic"/>
+        <entity id="DDI-DrugBank.d220.s9.e2" charOffset="204-234"
+            type="group" text="beta-adrenergic blocking agents"/>
+        <entity id="DDI-DrugBank.d220.s9.e3" charOffset="237-260"
+            type="group" text="calcium channel blockers"/>
+        <entity id="DDI-DrugBank.d220.s9.e4" charOffset="263-276"
+            type="group" text="antihistamines"/>
+        <entity id="DDI-DrugBank.d220.s9.e5" charOffset="281-298"
+            type="group" text="H1-blocking agents"/>
+        <entity id="DDI-DrugBank.d220.s9.e6" charOffset="301-325"
+            type="group" text="tricyclic antidepressants"/>
+        <entity id="DDI-DrugBank.d220.s9.e7" charOffset="331-344"
+            type="group" text="phenothiazines"/>
+        <pair id="DDI-DrugBank.d220.s9.p0" e1="DDI-DrugBank.d220.s9.e0"
+            e2="DDI-DrugBank.d220.s9.e1" ddi="true" type="effect"/>
+        <pair id="DDI-DrugBank.d220.s9.p1" e1="DDI-DrugBank.d220.s9.e0"
+            e2="DDI-DrugBank.d220.s9.e2" ddi="true" type="effect"/>
+        <pair id="DDI-DrugBank.d220.s9.p2" e1="DDI-DrugBank.d220.s9.e0"
+            e2="DDI-DrugBank.d220.s9.e3" ddi="true" type="effect"/>
+        <pair id="DDI-DrugBank.d220.s9.p3" e1="DDI-DrugBank.d220.s9.e0"
+            e2="DDI-DrugBank.d220.s9.e4" ddi="true" type="effect"/>
+        <pair id="DDI-DrugBank.d220.s9.p4" e1="DDI-DrugBank.d220.s9.e0"
+            e2="DDI-DrugBank.d220.s9.e5" ddi="true" type="effect"/>
+        <pair id="DDI-DrugBank.d220.s9.p5" e1="DDI-DrugBank.d220.s9.e0"
+            e2="DDI-DrugBank.d220.s9.e6" ddi="true" type="effect"/>
+        <pair id="DDI-DrugBank.d220.s9.p6" e1="DDI-DrugBank.d220.s9.e0"
+            e2="DDI-DrugBank.d220.s9.e7" ddi="true" type="effect"/>
+        <pair id="DDI-DrugBank.d220.s9.p7" e1="DDI-DrugBank.d220.s9.e1"
+            e2="DDI-DrugBank.d220.s9.e2" ddi="false"/>
+        <pair id="DDI-DrugBank.d220.s9.p8" e1="DDI-DrugBank.d220.s9.e1"
+            e2="DDI-DrugBank.d220.s9.e3" ddi="false"/>
+        <pair id="DDI-DrugBank.d220.s9.p9" e1="DDI-DrugBank.d220.s9.e1"
+            e2="DDI-DrugBank.d220.s9.e4" ddi="false"/>
+        <pair id="DDI-DrugBank.d220.s9.p10" e1="DDI-DrugBank.d220.s9.e1"
+            e2="DDI-DrugBank.d220.s9.e5" ddi="false"/>
+        <pair id="DDI-DrugBank.d220.s9.p11" e1="DDI-DrugBank.d220.s9.e1"
+            e2="DDI-DrugBank.d220.s9.e6" ddi="false"/>
+        <pair id="DDI-DrugBank.d220.s9.p12" e1="DDI-DrugBank.d220.s9.e1"
+            e2="DDI-DrugBank.d220.s9.e7" ddi="false"/>
+        <pair id="DDI-DrugBank.d220.s9.p13" e1="DDI-DrugBank.d220.s9.e2"
+            e2="DDI-DrugBank.d220.s9.e3" ddi="false"/>
+        <pair id="DDI-DrugBank.d220.s9.p14" e1="DDI-DrugBank.d220.s9.e2"
+            e2="DDI-DrugBank.d220.s9.e4" ddi="false"/>
+        <pair id="DDI-DrugBank.d220.s9.p15" e1="DDI-DrugBank.d220.s9.e2"
+            e2="DDI-DrugBank.d220.s9.e5" ddi="false"/>
+        <pair id="DDI-DrugBank.d220.s9.p16" e1="DDI-DrugBank.d220.s9.e2"
+            e2="DDI-DrugBank.d220.s9.e6" ddi="false"/>
+        <pair id="DDI-DrugBank.d220.s9.p17" e1="DDI-DrugBank.d220.s9.e2"
+            e2="DDI-DrugBank.d220.s9.e7" ddi="false"/>
+        <pair id="DDI-DrugBank.d220.s9.p18" e1="DDI-DrugBank.d220.s9.e3"
+            e2="DDI-DrugBank.d220.s9.e4" ddi="false"/>
+        <pair id="DDI-DrugBank.d220.s9.p19" e1="DDI-DrugBank.d220.s9.e3"
+            e2="DDI-DrugBank.d220.s9.e5" ddi="false"/>
+        <pair id="DDI-DrugBank.d220.s9.p20" e1="DDI-DrugBank.d220.s9.e3"
+            e2="DDI-DrugBank.d220.s9.e6" ddi="false"/>
+        <pair id="DDI-DrugBank.d220.s9.p21" e1="DDI-DrugBank.d220.s9.e3"
+            e2="DDI-DrugBank.d220.s9.e7" ddi="false"/>
+        <pair id="DDI-DrugBank.d220.s9.p22" e1="DDI-DrugBank.d220.s9.e4"
+            e2="DDI-DrugBank.d220.s9.e5" ddi="false"/>
+        <pair id="DDI-DrugBank.d220.s9.p23" e1="DDI-DrugBank.d220.s9.e4"
+            e2="DDI-DrugBank.d220.s9.e6" ddi="false"/>
+        <pair id="DDI-DrugBank.d220.s9.p24" e1="DDI-DrugBank.d220.s9.e4"
+            e2="DDI-DrugBank.d220.s9.e7" ddi="false"/>
+        <pair id="DDI-DrugBank.d220.s9.p25" e1="DDI-DrugBank.d220.s9.e5"
+            e2="DDI-DrugBank.d220.s9.e6" ddi="false"/>
+        <pair id="DDI-DrugBank.d220.s9.p26" e1="DDI-DrugBank.d220.s9.e5"
+            e2="DDI-DrugBank.d220.s9.e7" ddi="false"/>
+        <pair id="DDI-DrugBank.d220.s9.p27" e1="DDI-DrugBank.d220.s9.e6"
+            e2="DDI-DrugBank.d220.s9.e7" ddi="false"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d220.s10" text="There are no data that conclusively establish whether the concomitant administration of Mefloquineuine and the above listed agents has an effect on cardiac function."/>
+    <sentence id="DDI-DrugBank.d220.s11" text="In patients taking an anticonvulsant (eg, valproic acid, carbamazepine, phenobarbital or phenytoin), the concomitant use of Mefloquine may reduce seizure control by lowering the plasma levels of the anticonvulsant.">
+        <entity id="DDI-DrugBank.d220.s11.e0" charOffset="22-35"
+            type="group" text="anticonvulsant"/>
+        <entity id="DDI-DrugBank.d220.s11.e1" charOffset="42-54"
+            type="drug" text="valproic acid"/>
+        <entity id="DDI-DrugBank.d220.s11.e2" charOffset="57-69"
+            type="drug" text="carbamazepine"/>
+        <entity id="DDI-DrugBank.d220.s11.e3" charOffset="72-84"
+            type="drug" text="phenobarbital"/>
+        <entity id="DDI-DrugBank.d220.s11.e4" charOffset="89-97"
+            type="drug" text="phenytoin"/>
+        <entity id="DDI-DrugBank.d220.s11.e5" charOffset="124-133"
+            type="drug" text="Mefloquine"/>
+        <entity id="DDI-DrugBank.d220.s11.e6" charOffset="199-212"
+            type="group" text="anticonvulsant"/>
+        <pair id="DDI-DrugBank.d220.s11.p0"
+            e1="DDI-DrugBank.d220.s11.e0" e2="DDI-DrugBank.d220.s11.e1" ddi="false"/>
+        <pair id="DDI-DrugBank.d220.s11.p1"
+            e1="DDI-DrugBank.d220.s11.e0" e2="DDI-DrugBank.d220.s11.e2" ddi="false"/>
+        <pair id="DDI-DrugBank.d220.s11.p2"
+            e1="DDI-DrugBank.d220.s11.e0" e2="DDI-DrugBank.d220.s11.e3" ddi="false"/>
+        <pair id="DDI-DrugBank.d220.s11.p3"
+            e1="DDI-DrugBank.d220.s11.e0" e2="DDI-DrugBank.d220.s11.e4" ddi="false"/>
+        <pair id="DDI-DrugBank.d220.s11.p4"
+            e1="DDI-DrugBank.d220.s11.e0" e2="DDI-DrugBank.d220.s11.e5"
+            ddi="true" type="effect"/>
+        <pair id="DDI-DrugBank.d220.s11.p5"
+            e1="DDI-DrugBank.d220.s11.e0" e2="DDI-DrugBank.d220.s11.e6" ddi="false"/>
+        <pair id="DDI-DrugBank.d220.s11.p6"
+            e1="DDI-DrugBank.d220.s11.e1" e2="DDI-DrugBank.d220.s11.e2" ddi="false"/>
+        <pair id="DDI-DrugBank.d220.s11.p7"
+            e1="DDI-DrugBank.d220.s11.e1" e2="DDI-DrugBank.d220.s11.e3" ddi="false"/>
+        <pair id="DDI-DrugBank.d220.s11.p8"
+            e1="DDI-DrugBank.d220.s11.e1" e2="DDI-DrugBank.d220.s11.e4" ddi="false"/>
+        <pair id="DDI-DrugBank.d220.s11.p9"
+            e1="DDI-DrugBank.d220.s11.e1" e2="DDI-DrugBank.d220.s11.e5"
+            ddi="true" type="effect"/>
+        <pair id="DDI-DrugBank.d220.s11.p10"
+            e1="DDI-DrugBank.d220.s11.e1" e2="DDI-DrugBank.d220.s11.e6" ddi="false"/>
+        <pair id="DDI-DrugBank.d220.s11.p11"
+            e1="DDI-DrugBank.d220.s11.e2" e2="DDI-DrugBank.d220.s11.e3" ddi="false"/>
+        <pair id="DDI-DrugBank.d220.s11.p12"
+            e1="DDI-DrugBank.d220.s11.e2" e2="DDI-DrugBank.d220.s11.e4" ddi="false"/>
+        <pair id="DDI-DrugBank.d220.s11.p13"
+            e1="DDI-DrugBank.d220.s11.e2" e2="DDI-DrugBank.d220.s11.e5"
+            ddi="true" type="effect"/>
+        <pair id="DDI-DrugBank.d220.s11.p14"
+            e1="DDI-DrugBank.d220.s11.e2" e2="DDI-DrugBank.d220.s11.e6" ddi="false"/>
+        <pair id="DDI-DrugBank.d220.s11.p15"
+            e1="DDI-DrugBank.d220.s11.e3" e2="DDI-DrugBank.d220.s11.e4" ddi="false"/>
+        <pair id="DDI-DrugBank.d220.s11.p16"
+            e1="DDI-DrugBank.d220.s11.e3" e2="DDI-DrugBank.d220.s11.e5"
+            ddi="true" type="effect"/>
+        <pair id="DDI-DrugBank.d220.s11.p17"
+            e1="DDI-DrugBank.d220.s11.e3" e2="DDI-DrugBank.d220.s11.e6" ddi="false"/>
+        <pair id="DDI-DrugBank.d220.s11.p18"
+            e1="DDI-DrugBank.d220.s11.e4" e2="DDI-DrugBank.d220.s11.e5"
+            ddi="true" type="effect"/>
+        <pair id="DDI-DrugBank.d220.s11.p19"
+            e1="DDI-DrugBank.d220.s11.e4" e2="DDI-DrugBank.d220.s11.e6" ddi="false"/>
+        <pair id="DDI-DrugBank.d220.s11.p20"
+            e1="DDI-DrugBank.d220.s11.e5" e2="DDI-DrugBank.d220.s11.e6" ddi="false"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d220.s12" text="Therefore, patients concurrently taking antiseizure medication and Mefloquine should have the blood level of their antiseizure medication monitored and the dosage adjusted appropriately.">
+        <entity id="DDI-DrugBank.d220.s12.e0" charOffset="67-76"
+            type="drug" text="Mefloquine"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d220.s13" text="When Mefloquine is taken concurrently with oral live typhoid vaccines, attenuation of immunization cannot be excluded.">
+        <entity id="DDI-DrugBank.d220.s13.e0" charOffset="5-14"
+            type="drug" text="Mefloquine"/>
+        <entity id="DDI-DrugBank.d220.s13.e1" charOffset="48-68"
+            type="group" text="live typhoid vaccines"/>
+        <pair id="DDI-DrugBank.d220.s13.p0"
+            e1="DDI-DrugBank.d220.s13.e0" e2="DDI-DrugBank.d220.s13.e1"
+            ddi="true" type="effect"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d220.s14" text="Vaccinations with attenuated live bacteria should therefore be completed at least 3 days before the first dose of Mefloquine.">
+        <entity id="DDI-DrugBank.d220.s14.e0" charOffset="114-123"
+            type="drug" text="Mefloquine"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d220.s15" text="No other drug interactions are known."/>
+    <sentence id="DDI-DrugBank.d220.s16" text="Nevertheless, the effects of Mefloquine on travelers receiving comedication, particularly diabetics or patients using anticoagulants, should be checked before departure.">
+        <entity id="DDI-DrugBank.d220.s16.e0" charOffset="29-38"
+            type="drug" text="Mefloquine"/>
+        <entity id="DDI-DrugBank.d220.s16.e1" charOffset="118-131"
+            type="group" text="anticoagulants"/>
+        <pair id="DDI-DrugBank.d220.s16.p0"
+            e1="DDI-DrugBank.d220.s16.e0" e2="DDI-DrugBank.d220.s16.e1"
+            ddi="true" type="advise"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d220.s17" text="In clinical trials, the concomitant administration of sulfadoxine and pyrimethamine did not alter the adverse reaction profile.">
+        <entity id="DDI-DrugBank.d220.s17.e0" charOffset="54-64"
+            type="drug" text="sulfadoxine"/>
+        <entity id="DDI-DrugBank.d220.s17.e1" charOffset="70-82"
+            type="drug" text="pyrimethamine"/>
+        <pair id="DDI-DrugBank.d220.s17.p0"
+            e1="DDI-DrugBank.d220.s17.e0" e2="DDI-DrugBank.d220.s17.e1" ddi="false"/>
+    </sentence>
+</document>

@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="DDI-DrugBank.d57">
+    <sentence id="DDI-DrugBank.d57.s0" text="In vitro mixing of an aminoglycoside with beta-lactamtype antibiotics (penicillins or cephalosporins) may result in a significant mutual inactivation.">
+        <entity id="DDI-DrugBank.d57.s0.e0" charOffset="22-35"
+            type="group" text="aminoglycoside"/>
+        <entity id="DDI-DrugBank.d57.s0.e1" charOffset="58-68"
+            type="group" text="antibiotics"/>
+        <entity id="DDI-DrugBank.d57.s0.e2" charOffset="71-81"
+            type="group" text="penicillins"/>
+        <entity id="DDI-DrugBank.d57.s0.e3" charOffset="86-99"
+            type="group" text="cephalosporins"/>
+        <pair id="DDI-DrugBank.d57.s0.p0" e1="DDI-DrugBank.d57.s0.e0"
+            e2="DDI-DrugBank.d57.s0.e1" ddi="true" type="effect"/>
+        <pair id="DDI-DrugBank.d57.s0.p1" e1="DDI-DrugBank.d57.s0.e0"
+            e2="DDI-DrugBank.d57.s0.e2" ddi="true" type="effect"/>
+        <pair id="DDI-DrugBank.d57.s0.p2" e1="DDI-DrugBank.d57.s0.e0"
+            e2="DDI-DrugBank.d57.s0.e3" ddi="true" type="effect"/>
+        <pair id="DDI-DrugBank.d57.s0.p3" e1="DDI-DrugBank.d57.s0.e1"
+            e2="DDI-DrugBank.d57.s0.e2" ddi="false"/>
+        <pair id="DDI-DrugBank.d57.s0.p4" e1="DDI-DrugBank.d57.s0.e1"
+            e2="DDI-DrugBank.d57.s0.e3" ddi="false"/>
+        <pair id="DDI-DrugBank.d57.s0.p5" e1="DDI-DrugBank.d57.s0.e2"
+            e2="DDI-DrugBank.d57.s0.e3" ddi="false"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d57.s1" text="Even when an aminoglycoside and a penicillin-type drug are administered separately by different routes, a reduction in aminoglycoside serum half-life or serum levels has been reported in patients with impaired renal function and in some patients with normal renal function.">
+        <entity id="DDI-DrugBank.d57.s1.e0" charOffset="13-26"
+            type="group" text="aminoglycoside"/>
+        <entity id="DDI-DrugBank.d57.s1.e1" charOffset="34-43"
+            type="group" text="penicillin"/>
+        <entity id="DDI-DrugBank.d57.s1.e2" charOffset="119-132"
+            type="group" text="aminoglycoside"/>
+        <pair id="DDI-DrugBank.d57.s1.p0" e1="DDI-DrugBank.d57.s1.e0"
+            e2="DDI-DrugBank.d57.s1.e1" ddi="true" type="mechanism"/>
+        <pair id="DDI-DrugBank.d57.s1.p1" e1="DDI-DrugBank.d57.s1.e0"
+            e2="DDI-DrugBank.d57.s1.e2" ddi="false"/>
+        <pair id="DDI-DrugBank.d57.s1.p2" e1="DDI-DrugBank.d57.s1.e1"
+            e2="DDI-DrugBank.d57.s1.e2" ddi="false"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d57.s2" text="Usually, such inactivation of the aminoglycoside is clinically significant only in patients with severely impaired renal function..">
+        <entity id="DDI-DrugBank.d57.s2.e0" charOffset="34-47"
+            type="group" text="aminoglycoside"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d57.s3" text="See"/>
+</document>

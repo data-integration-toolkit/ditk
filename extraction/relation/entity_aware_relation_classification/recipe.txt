@@ -1,0 +1,17 @@
+Main file:
+ditk/extraction/named_entity/bert_ner/main.py
+
+Modules:
+data converter: ditk/extraction/relation/entity_aware_relation_classification/SemEval2010_util.py
+configure: ditk/extraction/relation/entity_aware_relation_classification/configure.py
+data_helpers: ditk/extraction/relation/entity_aware_relation_classification/data_helpers.py
+logger: ditk/extraction/relation/entity_aware_relation_classification/logger.py
+utils: ditk/extraction/relation/entity_aware_relation_classification/utils.py
+model: ditk/extraction/relation/entity_aware_relation_classification/model
+
+data path: ditk/extraction/relation/entity_aware_relation_classification/{data_type}
+
+output checkpoint: ditk/extraction/relation/entity_aware_relation_classification/runs/{data_type}/checkpoints
+output prediction file path: ditk/extraction/relation/entity_aware_relation_classification/runs/{data_type}/logs/prediction.txt
+
+word_embeddings: ditk/extraction/relation/entity_aware_relation_classification/resource

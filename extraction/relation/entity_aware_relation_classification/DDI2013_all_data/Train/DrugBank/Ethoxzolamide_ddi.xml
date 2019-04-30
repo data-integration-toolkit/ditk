@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="DDI-DrugBank.d286">
+    <sentence id="DDI-DrugBank.d286.s0" text="Ethoxzolamide may increase the action of tricyclics, amphetamines, procainamide, and quinidine.">
+        <entity id="DDI-DrugBank.d286.s0.e0" charOffset="0-12"
+            type="drug" text="Ethoxzolamide"/>
+        <entity id="DDI-DrugBank.d286.s0.e1" charOffset="41-50"
+            type="group" text="tricyclics"/>
+        <entity id="DDI-DrugBank.d286.s0.e2" charOffset="53-64"
+            type="group" text="amphetamines"/>
+        <entity id="DDI-DrugBank.d286.s0.e3" charOffset="67-78"
+            type="drug" text="procainamide"/>
+        <entity id="DDI-DrugBank.d286.s0.e4" charOffset="85-93"
+            type="drug" text="quinidine"/>
+        <pair id="DDI-DrugBank.d286.s0.p0" e1="DDI-DrugBank.d286.s0.e0"
+            e2="DDI-DrugBank.d286.s0.e1" ddi="true" type="effect"/>
+        <pair id="DDI-DrugBank.d286.s0.p1" e1="DDI-DrugBank.d286.s0.e0"
+            e2="DDI-DrugBank.d286.s0.e2" ddi="true" type="effect"/>
+        <pair id="DDI-DrugBank.d286.s0.p2" e1="DDI-DrugBank.d286.s0.e0"
+            e2="DDI-DrugBank.d286.s0.e3" ddi="true" type="effect"/>
+        <pair id="DDI-DrugBank.d286.s0.p3" e1="DDI-DrugBank.d286.s0.e0"
+            e2="DDI-DrugBank.d286.s0.e4" ddi="true" type="effect"/>
+        <pair id="DDI-DrugBank.d286.s0.p4" e1="DDI-DrugBank.d286.s0.e1"
+            e2="DDI-DrugBank.d286.s0.e2" ddi="false"/>
+        <pair id="DDI-DrugBank.d286.s0.p5" e1="DDI-DrugBank.d286.s0.e1"
+            e2="DDI-DrugBank.d286.s0.e3" ddi="false"/>
+        <pair id="DDI-DrugBank.d286.s0.p6" e1="DDI-DrugBank.d286.s0.e1"
+            e2="DDI-DrugBank.d286.s0.e4" ddi="false"/>
+        <pair id="DDI-DrugBank.d286.s0.p7" e1="DDI-DrugBank.d286.s0.e2"
+            e2="DDI-DrugBank.d286.s0.e3" ddi="false"/>
+        <pair id="DDI-DrugBank.d286.s0.p8" e1="DDI-DrugBank.d286.s0.e2"
+            e2="DDI-DrugBank.d286.s0.e4" ddi="false"/>
+        <pair id="DDI-DrugBank.d286.s0.p9" e1="DDI-DrugBank.d286.s0.e3"
+            e2="DDI-DrugBank.d286.s0.e4" ddi="false"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d286.s1" text="It may increase excretion of barbiturates, lithium, and ASA and may also increase the toxicity of salicylates.">
+        <entity id="DDI-DrugBank.d286.s1.e0" charOffset="29-40"
+            type="group" text="barbiturates"/>
+        <entity id="DDI-DrugBank.d286.s1.e1" charOffset="43-49"
+            type="drug" text="lithium"/>
+        <entity id="DDI-DrugBank.d286.s1.e2" charOffset="56-58"
+            type="drug" text="ASA"/>
+        <entity id="DDI-DrugBank.d286.s1.e3" charOffset="98-108"
+            type="group" text="salicylates"/>
+        <pair id="DDI-DrugBank.d286.s1.p0" e1="DDI-DrugBank.d286.s1.e0"
+            e2="DDI-DrugBank.d286.s1.e1" ddi="false"/>
+        <pair id="DDI-DrugBank.d286.s1.p1" e1="DDI-DrugBank.d286.s1.e0"
+            e2="DDI-DrugBank.d286.s1.e2" ddi="false"/>
+        <pair id="DDI-DrugBank.d286.s1.p2" e1="DDI-DrugBank.d286.s1.e0"
+            e2="DDI-DrugBank.d286.s1.e3" ddi="false"/>
+        <pair id="DDI-DrugBank.d286.s1.p3" e1="DDI-DrugBank.d286.s1.e1"
+            e2="DDI-DrugBank.d286.s1.e2" ddi="false"/>
+        <pair id="DDI-DrugBank.d286.s1.p4" e1="DDI-DrugBank.d286.s1.e1"
+            e2="DDI-DrugBank.d286.s1.e3" ddi="false"/>
+        <pair id="DDI-DrugBank.d286.s1.p5" e1="DDI-DrugBank.d286.s1.e2"
+            e2="DDI-DrugBank.d286.s1.e3" ddi="false"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d286.s2" text="Coadministration of ethoxzolamide with other diuretics, amphotericin B, and corticosteroids may cause hypokalemia.">
+        <entity id="DDI-DrugBank.d286.s2.e0" charOffset="20-32"
+            type="drug" text="ethoxzolamide"/>
+        <entity id="DDI-DrugBank.d286.s2.e1" charOffset="45-53"
+            type="group" text="diuretics"/>
+        <entity id="DDI-DrugBank.d286.s2.e2" charOffset="56-69"
+            type="drug" text="amphotericin B"/>
+        <entity id="DDI-DrugBank.d286.s2.e3" charOffset="76-90"
+            type="group" text="corticosteroids"/>
+        <pair id="DDI-DrugBank.d286.s2.p0" e1="DDI-DrugBank.d286.s2.e0"
+            e2="DDI-DrugBank.d286.s2.e1" ddi="true" type="effect"/>
+        <pair id="DDI-DrugBank.d286.s2.p1" e1="DDI-DrugBank.d286.s2.e0"
+            e2="DDI-DrugBank.d286.s2.e2" ddi="true" type="effect"/>
+        <pair id="DDI-DrugBank.d286.s2.p2" e1="DDI-DrugBank.d286.s2.e0"
+            e2="DDI-DrugBank.d286.s2.e3" ddi="true" type="effect"/>
+        <pair id="DDI-DrugBank.d286.s2.p3" e1="DDI-DrugBank.d286.s2.e1"
+            e2="DDI-DrugBank.d286.s2.e2" ddi="false"/>
+        <pair id="DDI-DrugBank.d286.s2.p4" e1="DDI-DrugBank.d286.s2.e1"
+            e2="DDI-DrugBank.d286.s2.e3" ddi="false"/>
+        <pair id="DDI-DrugBank.d286.s2.p5" e1="DDI-DrugBank.d286.s2.e2"
+            e2="DDI-DrugBank.d286.s2.e3" ddi="false"/>
+    </sentence>
+</document>

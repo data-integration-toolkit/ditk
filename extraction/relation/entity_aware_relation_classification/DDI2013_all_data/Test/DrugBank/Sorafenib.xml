@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="DDI-DrugBank.d602">
+    <sentence id="DDI-DrugBank.d602.s0" text="Caution is recommended when administering NEXAVAR with compounds that are metabolized/eliminated predominantly by the UGT1A1 pathway (e.g. irinotecan). ">
+        <entity id="DDI-DrugBank.d602.s0.e0" charOffset="42-48"
+            type="brand" text="NEXAVAR"/>
+        <entity id="DDI-DrugBank.d602.s0.e1" charOffset="139-148"
+            type="drug" text="irinotecan"/>
+        <pair id="DDI-DrugBank.d602.s0.p0" e1="DDI-DrugBank.d602.s0.e0"
+            e2="DDI-DrugBank.d602.s0.e1" ddi="true" type="advise"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d602.s1" text="Concomitant treatment with NEXAVAR resulted in a 21% increase in the AUC of doxorubicin. ">
+        <entity id="DDI-DrugBank.d602.s1.e0" charOffset="27-33"
+            type="brand" text="NEXAVAR"/>
+        <entity id="DDI-DrugBank.d602.s1.e1" charOffset="76-86"
+            type="drug" text="doxorubicin"/>
+        <pair id="DDI-DrugBank.d602.s1.p0" e1="DDI-DrugBank.d602.s1.e0"
+            e2="DDI-DrugBank.d602.s1.e1" ddi="true" type="mechanism"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d602.s2" text="Caution is recommended when administering doxorubicin with NEXAVAR. ">
+        <entity id="DDI-DrugBank.d602.s2.e0" charOffset="42-52"
+            type="drug" text="doxorubicin"/>
+        <entity id="DDI-DrugBank.d602.s2.e1" charOffset="59-65"
+            type="brand" text="NEXAVAR"/>
+        <pair id="DDI-DrugBank.d602.s2.p0" e1="DDI-DrugBank.d602.s2.e0"
+            e2="DDI-DrugBank.d602.s2.e1" ddi="true" type="advise"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d602.s3" text="Sorafenib inhibits CYP2B6 and CYP2C8 in vitro with Ki values of 6 and 1-2 ?M, respectively. ">
+        <entity id="DDI-DrugBank.d602.s3.e0" charOffset="0-8"
+            type="drug" text="Sorafenib"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d602.s4" text="Systemic exposure to substrates of CYP2B6 and CYP2C8 is expected to increase when co-administered with NEXAVAR. ">
+        <entity id="DDI-DrugBank.d602.s4.e0" charOffset="103-109"
+            type="brand" text="NEXAVAR"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d602.s5" text="Caution is recommended when administering substrates of CYP2B6 and CYP2C8 with NEXAVAR.">
+        <entity id="DDI-DrugBank.d602.s5.e0" charOffset="79-85"
+            type="brand" text="NEXAVAR"/>
+    </sentence>
+</document>

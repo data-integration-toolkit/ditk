@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="DDI-MedLine.d131">
+    <sentence id="DDI-MedLine.d131.s0" text="Interaction on the antinociceptive effect between neurotensin and enkephalins or tuftsin.&#xd;&#xa;">
+        <entity id="DDI-MedLine.d131.s0.e0" charOffset="50-60"
+            type="drug_n" text="neurotensin"/>
+        <entity id="DDI-MedLine.d131.s0.e1" charOffset="66-76"
+            type="drug_n" text="enkephalins"/>
+        <entity id="DDI-MedLine.d131.s0.e2" charOffset="81-87"
+            type="drug_n" text="tuftsin"/>
+        <pair id="DDI-MedLine.d131.s0.p0" e1="DDI-MedLine.d131.s0.e0"
+            e2="DDI-MedLine.d131.s0.e1" ddi="true" type="effect"/>
+        <pair id="DDI-MedLine.d131.s0.p1" e1="DDI-MedLine.d131.s0.e0"
+            e2="DDI-MedLine.d131.s0.e2" ddi="true" type="effect"/>
+        <pair id="DDI-MedLine.d131.s0.p2" e1="DDI-MedLine.d131.s0.e1"
+            e2="DDI-MedLine.d131.s0.e2" ddi="false"/>
+    </sentence>
+    <sentence id="DDI-MedLine.d131.s1" text="The aim of this paper was to study the interaction between neurotensin and both enkephalins or its synthetic analogue D-Ala2-metenkephalinamide, or tuftsin, on the antinonciceptive effect of these peptides in mice after intracisternal injection. ">
+        <entity id="DDI-MedLine.d131.s1.e0" charOffset="59-69"
+            type="drug_n" text="neurotensin"/>
+        <entity id="DDI-MedLine.d131.s1.e1" charOffset="80-90"
+            type="drug_n" text="enkephalins"/>
+        <entity id="DDI-MedLine.d131.s1.e2" charOffset="118-142"
+            type="drug_n" text="D-Ala2-metenkephalinamide"/>
+        <entity id="DDI-MedLine.d131.s1.e3" charOffset="148-154"
+            type="drug_n" text="tuftsin"/>
+        <pair id="DDI-MedLine.d131.s1.p0" e1="DDI-MedLine.d131.s1.e0"
+            e2="DDI-MedLine.d131.s1.e1" ddi="false"/>
+        <pair id="DDI-MedLine.d131.s1.p1" e1="DDI-MedLine.d131.s1.e0"
+            e2="DDI-MedLine.d131.s1.e2" ddi="false"/>
+        <pair id="DDI-MedLine.d131.s1.p2" e1="DDI-MedLine.d131.s1.e0"
+            e2="DDI-MedLine.d131.s1.e3" ddi="false"/>
+        <pair id="DDI-MedLine.d131.s1.p3" e1="DDI-MedLine.d131.s1.e1"
+            e2="DDI-MedLine.d131.s1.e2" ddi="false"/>
+        <pair id="DDI-MedLine.d131.s1.p4" e1="DDI-MedLine.d131.s1.e1"
+            e2="DDI-MedLine.d131.s1.e3" ddi="false"/>
+        <pair id="DDI-MedLine.d131.s1.p5" e1="DDI-MedLine.d131.s1.e2"
+            e2="DDI-MedLine.d131.s1.e3" ddi="false"/>
+    </sentence>
+    <sentence id="DDI-MedLine.d131.s2" text="Antinociception was measured by the hot-plate method. "/>
+    <sentence id="DDI-MedLine.d131.s3" text="It was shown that neurotensin antagonized evidently the antinociceptive effect of enkephalins and their analogue. ">
+        <entity id="DDI-MedLine.d131.s3.e0" charOffset="18-28"
+            type="drug_n" text="neurotensin"/>
+        <entity id="DDI-MedLine.d131.s3.e1" charOffset="82-92"
+            type="drug_n" text="enkephalins"/>
+        <pair id="DDI-MedLine.d131.s3.p0" e1="DDI-MedLine.d131.s3.e0"
+            e2="DDI-MedLine.d131.s3.e1" ddi="true" type="effect"/>
+    </sentence>
+    <sentence id="DDI-MedLine.d131.s4" text="On the contrary, neurotensin and tuftsin were agonists in induction of analgesia. ">
+        <entity id="DDI-MedLine.d131.s4.e0" charOffset="17-27"
+            type="drug_n" text="neurotensin"/>
+        <entity id="DDI-MedLine.d131.s4.e1" charOffset="33-39"
+            type="drug_n" text="tuftsin"/>
+        <pair id="DDI-MedLine.d131.s4.p0" e1="DDI-MedLine.d131.s4.e0"
+            e2="DDI-MedLine.d131.s4.e1" ddi="true" type="effect"/>
+    </sentence>
+    <sentence id="DDI-MedLine.d131.s5" text="It is concluded that neurotensin modulates in an opposite way the function of the enkephalinergic neurons and the central action of tuftsin.">
+        <entity id="DDI-MedLine.d131.s5.e0" charOffset="21-31"
+            type="drug_n" text="neurotensin"/>
+        <entity id="DDI-MedLine.d131.s5.e1" charOffset="132-138"
+            type="drug_n" text="tuftsin"/>
+        <pair id="DDI-MedLine.d131.s5.p0" e1="DDI-MedLine.d131.s5.e0"
+            e2="DDI-MedLine.d131.s5.e1" ddi="true" type="effect"/>
+    </sentence>
+</document>

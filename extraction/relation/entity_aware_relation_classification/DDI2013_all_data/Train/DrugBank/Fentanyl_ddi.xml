@@ -1,0 +1,331 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="DDI-DrugBank.d170">
+    <sentence id="DDI-DrugBank.d170.s0" text="Agents Affecting Cytochrome P450 3A4 Isoenzyme System Fentanyl is metabolized mainly via the human cytochrome P450 3A4 isoenzyme system (CYP3A4), therefore potential interactions may occur when DURAGESIC  is given concurrently with agents that affect CYP3A4 activity.">
+        <entity id="DDI-DrugBank.d170.s0.e0" charOffset="54-61"
+            type="drug" text="Fentanyl"/>
+        <entity id="DDI-DrugBank.d170.s0.e1" charOffset="194-202"
+            type="brand" text="DURAGESIC"/>
+        <pair id="DDI-DrugBank.d170.s0.p0" e1="DDI-DrugBank.d170.s0.e0"
+            e2="DDI-DrugBank.d170.s0.e1" ddi="false"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d170.s1" text="Coadminstration with agents that induce 3A4 activity may reduce the efficacy of DURAGESIC .">
+        <entity id="DDI-DrugBank.d170.s1.e0" charOffset="80-88"
+            type="brand" text="DURAGESIC"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d170.s2" text="The concomitant use of transdermal fentanyl with ritonavir or other potent 3A4 inhibitors such as ketoconazole, itraconazole, troleandomycin, clarithromycin, nelfinavir, and nefazadone may result in an increase in fentanyl plasma concentrations.">
+        <entity id="DDI-DrugBank.d170.s2.e0" charOffset="35-42"
+            type="drug" text="fentanyl"/>
+        <entity id="DDI-DrugBank.d170.s2.e1" charOffset="49-57"
+            type="drug" text="ritonavir"/>
+        <entity id="DDI-DrugBank.d170.s2.e2" charOffset="98-109"
+            type="drug" text="ketoconazole"/>
+        <entity id="DDI-DrugBank.d170.s2.e3" charOffset="112-123"
+            type="drug" text="itraconazole"/>
+        <entity id="DDI-DrugBank.d170.s2.e4" charOffset="126-139"
+            type="drug" text="troleandomycin"/>
+        <entity id="DDI-DrugBank.d170.s2.e5" charOffset="142-155"
+            type="drug" text="clarithromycin"/>
+        <entity id="DDI-DrugBank.d170.s2.e6" charOffset="158-167"
+            type="drug" text="nelfinavir"/>
+        <entity id="DDI-DrugBank.d170.s2.e7" charOffset="214-221"
+            type="drug" text="fentanyl"/>
+        <pair id="DDI-DrugBank.d170.s2.p0" e1="DDI-DrugBank.d170.s2.e0"
+            e2="DDI-DrugBank.d170.s2.e1" ddi="true" type="mechanism"/>
+        <pair id="DDI-DrugBank.d170.s2.p1" e1="DDI-DrugBank.d170.s2.e0"
+            e2="DDI-DrugBank.d170.s2.e2" ddi="true" type="mechanism"/>
+        <pair id="DDI-DrugBank.d170.s2.p2" e1="DDI-DrugBank.d170.s2.e0"
+            e2="DDI-DrugBank.d170.s2.e3" ddi="true" type="mechanism"/>
+        <pair id="DDI-DrugBank.d170.s2.p3" e1="DDI-DrugBank.d170.s2.e0"
+            e2="DDI-DrugBank.d170.s2.e4" ddi="true" type="mechanism"/>
+        <pair id="DDI-DrugBank.d170.s2.p4" e1="DDI-DrugBank.d170.s2.e0"
+            e2="DDI-DrugBank.d170.s2.e5" ddi="true" type="mechanism"/>
+        <pair id="DDI-DrugBank.d170.s2.p5" e1="DDI-DrugBank.d170.s2.e0"
+            e2="DDI-DrugBank.d170.s2.e6" ddi="true" type="mechanism"/>
+        <pair id="DDI-DrugBank.d170.s2.p6" e1="DDI-DrugBank.d170.s2.e0"
+            e2="DDI-DrugBank.d170.s2.e7" ddi="false"/>
+        <pair id="DDI-DrugBank.d170.s2.p7" e1="DDI-DrugBank.d170.s2.e1"
+            e2="DDI-DrugBank.d170.s2.e2" ddi="false"/>
+        <pair id="DDI-DrugBank.d170.s2.p8" e1="DDI-DrugBank.d170.s2.e1"
+            e2="DDI-DrugBank.d170.s2.e3" ddi="false"/>
+        <pair id="DDI-DrugBank.d170.s2.p9" e1="DDI-DrugBank.d170.s2.e1"
+            e2="DDI-DrugBank.d170.s2.e4" ddi="false"/>
+        <pair id="DDI-DrugBank.d170.s2.p10" e1="DDI-DrugBank.d170.s2.e1"
+            e2="DDI-DrugBank.d170.s2.e5" ddi="false"/>
+        <pair id="DDI-DrugBank.d170.s2.p11" e1="DDI-DrugBank.d170.s2.e1"
+            e2="DDI-DrugBank.d170.s2.e6" ddi="false"/>
+        <pair id="DDI-DrugBank.d170.s2.p12" e1="DDI-DrugBank.d170.s2.e1"
+            e2="DDI-DrugBank.d170.s2.e7" ddi="false"/>
+        <pair id="DDI-DrugBank.d170.s2.p13" e1="DDI-DrugBank.d170.s2.e2"
+            e2="DDI-DrugBank.d170.s2.e3" ddi="false"/>
+        <pair id="DDI-DrugBank.d170.s2.p14" e1="DDI-DrugBank.d170.s2.e2"
+            e2="DDI-DrugBank.d170.s2.e4" ddi="false"/>
+        <pair id="DDI-DrugBank.d170.s2.p15" e1="DDI-DrugBank.d170.s2.e2"
+            e2="DDI-DrugBank.d170.s2.e5" ddi="false"/>
+        <pair id="DDI-DrugBank.d170.s2.p16" e1="DDI-DrugBank.d170.s2.e2"
+            e2="DDI-DrugBank.d170.s2.e6" ddi="false"/>
+        <pair id="DDI-DrugBank.d170.s2.p17" e1="DDI-DrugBank.d170.s2.e2"
+            e2="DDI-DrugBank.d170.s2.e7" ddi="false"/>
+        <pair id="DDI-DrugBank.d170.s2.p18" e1="DDI-DrugBank.d170.s2.e3"
+            e2="DDI-DrugBank.d170.s2.e4" ddi="false"/>
+        <pair id="DDI-DrugBank.d170.s2.p19" e1="DDI-DrugBank.d170.s2.e3"
+            e2="DDI-DrugBank.d170.s2.e5" ddi="false"/>
+        <pair id="DDI-DrugBank.d170.s2.p20" e1="DDI-DrugBank.d170.s2.e3"
+            e2="DDI-DrugBank.d170.s2.e6" ddi="false"/>
+        <pair id="DDI-DrugBank.d170.s2.p21" e1="DDI-DrugBank.d170.s2.e3"
+            e2="DDI-DrugBank.d170.s2.e7" ddi="false"/>
+        <pair id="DDI-DrugBank.d170.s2.p22" e1="DDI-DrugBank.d170.s2.e4"
+            e2="DDI-DrugBank.d170.s2.e5" ddi="false"/>
+        <pair id="DDI-DrugBank.d170.s2.p23" e1="DDI-DrugBank.d170.s2.e4"
+            e2="DDI-DrugBank.d170.s2.e6" ddi="false"/>
+        <pair id="DDI-DrugBank.d170.s2.p24" e1="DDI-DrugBank.d170.s2.e4"
+            e2="DDI-DrugBank.d170.s2.e7" ddi="false"/>
+        <pair id="DDI-DrugBank.d170.s2.p25" e1="DDI-DrugBank.d170.s2.e5"
+            e2="DDI-DrugBank.d170.s2.e6" ddi="false"/>
+        <pair id="DDI-DrugBank.d170.s2.p26" e1="DDI-DrugBank.d170.s2.e5"
+            e2="DDI-DrugBank.d170.s2.e7" ddi="false"/>
+        <pair id="DDI-DrugBank.d170.s2.p27" e1="DDI-DrugBank.d170.s2.e6"
+            e2="DDI-DrugBank.d170.s2.e7" ddi="false"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d170.s3" text="The concomitant use of other CYP3A4 inhibitors such as diltiazem and erythromycin with transdermal fentanyl may also result in an increase in fentanyl plasma concentrations, which could increase or prolong adverse drug effects and may cause serious respiratory depression.">
+        <entity id="DDI-DrugBank.d170.s3.e0" charOffset="55-63"
+            type="drug" text="diltiazem"/>
+        <entity id="DDI-DrugBank.d170.s3.e1" charOffset="69-80"
+            type="drug" text="erythromycin"/>
+        <entity id="DDI-DrugBank.d170.s3.e2" charOffset="99-106"
+            type="drug" text="fentanyl"/>
+        <entity id="DDI-DrugBank.d170.s3.e3" charOffset="142-149"
+            type="drug" text="fentanyl"/>
+        <pair id="DDI-DrugBank.d170.s3.p0" e1="DDI-DrugBank.d170.s3.e0"
+            e2="DDI-DrugBank.d170.s3.e1" ddi="false"/>
+        <pair id="DDI-DrugBank.d170.s3.p1" e1="DDI-DrugBank.d170.s3.e0"
+            e2="DDI-DrugBank.d170.s3.e2" ddi="true" type="mechanism"/>
+        <pair id="DDI-DrugBank.d170.s3.p2" e1="DDI-DrugBank.d170.s3.e0"
+            e2="DDI-DrugBank.d170.s3.e3" ddi="false"/>
+        <pair id="DDI-DrugBank.d170.s3.p3" e1="DDI-DrugBank.d170.s3.e1"
+            e2="DDI-DrugBank.d170.s3.e2" ddi="true" type="mechanism"/>
+        <pair id="DDI-DrugBank.d170.s3.p4" e1="DDI-DrugBank.d170.s3.e1"
+            e2="DDI-DrugBank.d170.s3.e3" ddi="false"/>
+        <pair id="DDI-DrugBank.d170.s3.p5" e1="DDI-DrugBank.d170.s3.e2"
+            e2="DDI-DrugBank.d170.s3.e3" ddi="false"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d170.s4" text="In this situation, special patient care and observation are appropriate."/>
+    <sentence id="DDI-DrugBank.d170.s5" text="Central Nervous System Depressants: The concomitant use of DURAGESIC  (fentanyl transdermal system) with other central nervous system depressants, including but not limited to other opioids, sedatives, hypnotics, tranquilizers (e.g., benzodiazepines), general anesthetics, phenothiazines, skeletal muscle relaxants, and alcohol, may cause respiratory depression, hypotension, and profound sedation, or potentially result in coma or death.">
+        <entity id="DDI-DrugBank.d170.s5.e0" charOffset="0-33"
+            type="group" text="Central Nervous System Depressants"/>
+        <entity id="DDI-DrugBank.d170.s5.e1" charOffset="59-67"
+            type="brand" text="DURAGESIC"/>
+        <entity id="DDI-DrugBank.d170.s5.e2" charOffset="71-78"
+            type="drug" text="fentanyl"/>
+        <entity id="DDI-DrugBank.d170.s5.e3" charOffset="111-144"
+            type="group" text="central nervous system depressants"/>
+        <entity id="DDI-DrugBank.d170.s5.e4" charOffset="182-188"
+            type="group" text="opioids"/>
+        <entity id="DDI-DrugBank.d170.s5.e5" charOffset="191-199"
+            type="group" text="sedatives"/>
+        <entity id="DDI-DrugBank.d170.s5.e6" charOffset="202-210"
+            type="group" text="hypnotics"/>
+        <entity id="DDI-DrugBank.d170.s5.e7" charOffset="213-225"
+            type="group" text="tranquilizers"/>
+        <entity id="DDI-DrugBank.d170.s5.e8" charOffset="234-248"
+            type="group" text="benzodiazepines"/>
+        <entity id="DDI-DrugBank.d170.s5.e9" charOffset="260-270"
+            type="group" text="anesthetics"/>
+        <entity id="DDI-DrugBank.d170.s5.e10" charOffset="273-286"
+            type="group" text="phenothiazines"/>
+        <entity id="DDI-DrugBank.d170.s5.e11" charOffset="289-313"
+            type="group" text="skeletal muscle relaxants"/>
+        <entity id="DDI-DrugBank.d170.s5.e12" charOffset="320-326"
+            type="drug" text="alcohol"/>
+        <pair id="DDI-DrugBank.d170.s5.p0" e1="DDI-DrugBank.d170.s5.e0"
+            e2="DDI-DrugBank.d170.s5.e1" ddi="false"/>
+        <pair id="DDI-DrugBank.d170.s5.p1" e1="DDI-DrugBank.d170.s5.e0"
+            e2="DDI-DrugBank.d170.s5.e2" ddi="false"/>
+        <pair id="DDI-DrugBank.d170.s5.p2" e1="DDI-DrugBank.d170.s5.e0"
+            e2="DDI-DrugBank.d170.s5.e3" ddi="false"/>
+        <pair id="DDI-DrugBank.d170.s5.p3" e1="DDI-DrugBank.d170.s5.e0"
+            e2="DDI-DrugBank.d170.s5.e4" ddi="false"/>
+        <pair id="DDI-DrugBank.d170.s5.p4" e1="DDI-DrugBank.d170.s5.e0"
+            e2="DDI-DrugBank.d170.s5.e5" ddi="false"/>
+        <pair id="DDI-DrugBank.d170.s5.p5" e1="DDI-DrugBank.d170.s5.e0"
+            e2="DDI-DrugBank.d170.s5.e6" ddi="false"/>
+        <pair id="DDI-DrugBank.d170.s5.p6" e1="DDI-DrugBank.d170.s5.e0"
+            e2="DDI-DrugBank.d170.s5.e7" ddi="false"/>
+        <pair id="DDI-DrugBank.d170.s5.p7" e1="DDI-DrugBank.d170.s5.e0"
+            e2="DDI-DrugBank.d170.s5.e8" ddi="false"/>
+        <pair id="DDI-DrugBank.d170.s5.p8" e1="DDI-DrugBank.d170.s5.e0"
+            e2="DDI-DrugBank.d170.s5.e9" ddi="false"/>
+        <pair id="DDI-DrugBank.d170.s5.p9" e1="DDI-DrugBank.d170.s5.e0"
+            e2="DDI-DrugBank.d170.s5.e10" ddi="false"/>
+        <pair id="DDI-DrugBank.d170.s5.p10" e1="DDI-DrugBank.d170.s5.e0"
+            e2="DDI-DrugBank.d170.s5.e11" ddi="false"/>
+        <pair id="DDI-DrugBank.d170.s5.p11" e1="DDI-DrugBank.d170.s5.e0"
+            e2="DDI-DrugBank.d170.s5.e12" ddi="false"/>
+        <pair id="DDI-DrugBank.d170.s5.p12" e1="DDI-DrugBank.d170.s5.e1"
+            e2="DDI-DrugBank.d170.s5.e2" ddi="false"/>
+        <pair id="DDI-DrugBank.d170.s5.p13" e1="DDI-DrugBank.d170.s5.e1"
+            e2="DDI-DrugBank.d170.s5.e3" ddi="true" type="effect"/>
+        <pair id="DDI-DrugBank.d170.s5.p14" e1="DDI-DrugBank.d170.s5.e1"
+            e2="DDI-DrugBank.d170.s5.e4" ddi="true" type="effect"/>
+        <pair id="DDI-DrugBank.d170.s5.p15" e1="DDI-DrugBank.d170.s5.e1"
+            e2="DDI-DrugBank.d170.s5.e5" ddi="true" type="effect"/>
+        <pair id="DDI-DrugBank.d170.s5.p16" e1="DDI-DrugBank.d170.s5.e1"
+            e2="DDI-DrugBank.d170.s5.e6" ddi="true" type="effect"/>
+        <pair id="DDI-DrugBank.d170.s5.p17" e1="DDI-DrugBank.d170.s5.e1"
+            e2="DDI-DrugBank.d170.s5.e7" ddi="true" type="effect"/>
+        <pair id="DDI-DrugBank.d170.s5.p18" e1="DDI-DrugBank.d170.s5.e1"
+            e2="DDI-DrugBank.d170.s5.e8" ddi="true" type="effect"/>
+        <pair id="DDI-DrugBank.d170.s5.p19" e1="DDI-DrugBank.d170.s5.e1"
+            e2="DDI-DrugBank.d170.s5.e9" ddi="true" type="effect"/>
+        <pair id="DDI-DrugBank.d170.s5.p20" e1="DDI-DrugBank.d170.s5.e1"
+            e2="DDI-DrugBank.d170.s5.e10" ddi="true" type="effect"/>
+        <pair id="DDI-DrugBank.d170.s5.p21" e1="DDI-DrugBank.d170.s5.e1"
+            e2="DDI-DrugBank.d170.s5.e11" ddi="true" type="effect"/>
+        <pair id="DDI-DrugBank.d170.s5.p22" e1="DDI-DrugBank.d170.s5.e1"
+            e2="DDI-DrugBank.d170.s5.e12" ddi="true" type="effect"/>
+        <pair id="DDI-DrugBank.d170.s5.p23" e1="DDI-DrugBank.d170.s5.e2"
+            e2="DDI-DrugBank.d170.s5.e3" ddi="true" type="effect"/>
+        <pair id="DDI-DrugBank.d170.s5.p24" e1="DDI-DrugBank.d170.s5.e2"
+            e2="DDI-DrugBank.d170.s5.e4" ddi="true" type="effect"/>
+        <pair id="DDI-DrugBank.d170.s5.p25" e1="DDI-DrugBank.d170.s5.e2"
+            e2="DDI-DrugBank.d170.s5.e5" ddi="true" type="effect"/>
+        <pair id="DDI-DrugBank.d170.s5.p26" e1="DDI-DrugBank.d170.s5.e2"
+            e2="DDI-DrugBank.d170.s5.e6" ddi="true" type="effect"/>
+        <pair id="DDI-DrugBank.d170.s5.p27" e1="DDI-DrugBank.d170.s5.e2"
+            e2="DDI-DrugBank.d170.s5.e7" ddi="true" type="effect"/>
+        <pair id="DDI-DrugBank.d170.s5.p28" e1="DDI-DrugBank.d170.s5.e2"
+            e2="DDI-DrugBank.d170.s5.e8" ddi="true" type="effect"/>
+        <pair id="DDI-DrugBank.d170.s5.p29" e1="DDI-DrugBank.d170.s5.e2"
+            e2="DDI-DrugBank.d170.s5.e9" ddi="true" type="effect"/>
+        <pair id="DDI-DrugBank.d170.s5.p30" e1="DDI-DrugBank.d170.s5.e2"
+            e2="DDI-DrugBank.d170.s5.e10" ddi="true" type="effect"/>
+        <pair id="DDI-DrugBank.d170.s5.p31" e1="DDI-DrugBank.d170.s5.e2"
+            e2="DDI-DrugBank.d170.s5.e11" ddi="true" type="effect"/>
+        <pair id="DDI-DrugBank.d170.s5.p32" e1="DDI-DrugBank.d170.s5.e2"
+            e2="DDI-DrugBank.d170.s5.e12" ddi="true" type="effect"/>
+        <pair id="DDI-DrugBank.d170.s5.p33" e1="DDI-DrugBank.d170.s5.e3"
+            e2="DDI-DrugBank.d170.s5.e4" ddi="false"/>
+        <pair id="DDI-DrugBank.d170.s5.p34" e1="DDI-DrugBank.d170.s5.e3"
+            e2="DDI-DrugBank.d170.s5.e5" ddi="false"/>
+        <pair id="DDI-DrugBank.d170.s5.p35" e1="DDI-DrugBank.d170.s5.e3"
+            e2="DDI-DrugBank.d170.s5.e6" ddi="false"/>
+        <pair id="DDI-DrugBank.d170.s5.p36" e1="DDI-DrugBank.d170.s5.e3"
+            e2="DDI-DrugBank.d170.s5.e7" ddi="false"/>
+        <pair id="DDI-DrugBank.d170.s5.p37" e1="DDI-DrugBank.d170.s5.e3"
+            e2="DDI-DrugBank.d170.s5.e8" ddi="false"/>
+        <pair id="DDI-DrugBank.d170.s5.p38" e1="DDI-DrugBank.d170.s5.e3"
+            e2="DDI-DrugBank.d170.s5.e9" ddi="false"/>
+        <pair id="DDI-DrugBank.d170.s5.p39" e1="DDI-DrugBank.d170.s5.e3"
+            e2="DDI-DrugBank.d170.s5.e10" ddi="false"/>
+        <pair id="DDI-DrugBank.d170.s5.p40" e1="DDI-DrugBank.d170.s5.e3"
+            e2="DDI-DrugBank.d170.s5.e11" ddi="false"/>
+        <pair id="DDI-DrugBank.d170.s5.p41" e1="DDI-DrugBank.d170.s5.e3"
+            e2="DDI-DrugBank.d170.s5.e12" ddi="false"/>
+        <pair id="DDI-DrugBank.d170.s5.p42" e1="DDI-DrugBank.d170.s5.e4"
+            e2="DDI-DrugBank.d170.s5.e5" ddi="false"/>
+        <pair id="DDI-DrugBank.d170.s5.p43" e1="DDI-DrugBank.d170.s5.e4"
+            e2="DDI-DrugBank.d170.s5.e6" ddi="false"/>
+        <pair id="DDI-DrugBank.d170.s5.p44" e1="DDI-DrugBank.d170.s5.e4"
+            e2="DDI-DrugBank.d170.s5.e7" ddi="false"/>
+        <pair id="DDI-DrugBank.d170.s5.p45" e1="DDI-DrugBank.d170.s5.e4"
+            e2="DDI-DrugBank.d170.s5.e8" ddi="false"/>
+        <pair id="DDI-DrugBank.d170.s5.p46" e1="DDI-DrugBank.d170.s5.e4"
+            e2="DDI-DrugBank.d170.s5.e9" ddi="false"/>
+        <pair id="DDI-DrugBank.d170.s5.p47" e1="DDI-DrugBank.d170.s5.e4"
+            e2="DDI-DrugBank.d170.s5.e10" ddi="false"/>
+        <pair id="DDI-DrugBank.d170.s5.p48" e1="DDI-DrugBank.d170.s5.e4"
+            e2="DDI-DrugBank.d170.s5.e11" ddi="false"/>
+        <pair id="DDI-DrugBank.d170.s5.p49" e1="DDI-DrugBank.d170.s5.e4"
+            e2="DDI-DrugBank.d170.s5.e12" ddi="false"/>
+        <pair id="DDI-DrugBank.d170.s5.p50" e1="DDI-DrugBank.d170.s5.e5"
+            e2="DDI-DrugBank.d170.s5.e6" ddi="false"/>
+        <pair id="DDI-DrugBank.d170.s5.p51" e1="DDI-DrugBank.d170.s5.e5"
+            e2="DDI-DrugBank.d170.s5.e7" ddi="false"/>
+        <pair id="DDI-DrugBank.d170.s5.p52" e1="DDI-DrugBank.d170.s5.e5"
+            e2="DDI-DrugBank.d170.s5.e8" ddi="false"/>
+        <pair id="DDI-DrugBank.d170.s5.p53" e1="DDI-DrugBank.d170.s5.e5"
+            e2="DDI-DrugBank.d170.s5.e9" ddi="false"/>
+        <pair id="DDI-DrugBank.d170.s5.p54" e1="DDI-DrugBank.d170.s5.e5"
+            e2="DDI-DrugBank.d170.s5.e10" ddi="false"/>
+        <pair id="DDI-DrugBank.d170.s5.p55" e1="DDI-DrugBank.d170.s5.e5"
+            e2="DDI-DrugBank.d170.s5.e11" ddi="false"/>
+        <pair id="DDI-DrugBank.d170.s5.p56" e1="DDI-DrugBank.d170.s5.e5"
+            e2="DDI-DrugBank.d170.s5.e12" ddi="false"/>
+        <pair id="DDI-DrugBank.d170.s5.p57" e1="DDI-DrugBank.d170.s5.e6"
+            e2="DDI-DrugBank.d170.s5.e7" ddi="false"/>
+        <pair id="DDI-DrugBank.d170.s5.p58" e1="DDI-DrugBank.d170.s5.e6"
+            e2="DDI-DrugBank.d170.s5.e8" ddi="false"/>
+        <pair id="DDI-DrugBank.d170.s5.p59" e1="DDI-DrugBank.d170.s5.e6"
+            e2="DDI-DrugBank.d170.s5.e9" ddi="false"/>
+        <pair id="DDI-DrugBank.d170.s5.p60" e1="DDI-DrugBank.d170.s5.e6"
+            e2="DDI-DrugBank.d170.s5.e10" ddi="false"/>
+        <pair id="DDI-DrugBank.d170.s5.p61" e1="DDI-DrugBank.d170.s5.e6"
+            e2="DDI-DrugBank.d170.s5.e11" ddi="false"/>
+        <pair id="DDI-DrugBank.d170.s5.p62" e1="DDI-DrugBank.d170.s5.e6"
+            e2="DDI-DrugBank.d170.s5.e12" ddi="false"/>
+        <pair id="DDI-DrugBank.d170.s5.p63" e1="DDI-DrugBank.d170.s5.e7"
+            e2="DDI-DrugBank.d170.s5.e8" ddi="false"/>
+        <pair id="DDI-DrugBank.d170.s5.p64" e1="DDI-DrugBank.d170.s5.e7"
+            e2="DDI-DrugBank.d170.s5.e9" ddi="false"/>
+        <pair id="DDI-DrugBank.d170.s5.p65" e1="DDI-DrugBank.d170.s5.e7"
+            e2="DDI-DrugBank.d170.s5.e10" ddi="false"/>
+        <pair id="DDI-DrugBank.d170.s5.p66" e1="DDI-DrugBank.d170.s5.e7"
+            e2="DDI-DrugBank.d170.s5.e11" ddi="false"/>
+        <pair id="DDI-DrugBank.d170.s5.p67" e1="DDI-DrugBank.d170.s5.e7"
+            e2="DDI-DrugBank.d170.s5.e12" ddi="false"/>
+        <pair id="DDI-DrugBank.d170.s5.p68" e1="DDI-DrugBank.d170.s5.e8"
+            e2="DDI-DrugBank.d170.s5.e9" ddi="false"/>
+        <pair id="DDI-DrugBank.d170.s5.p69" e1="DDI-DrugBank.d170.s5.e8"
+            e2="DDI-DrugBank.d170.s5.e10" ddi="false"/>
+        <pair id="DDI-DrugBank.d170.s5.p70" e1="DDI-DrugBank.d170.s5.e8"
+            e2="DDI-DrugBank.d170.s5.e11" ddi="false"/>
+        <pair id="DDI-DrugBank.d170.s5.p71" e1="DDI-DrugBank.d170.s5.e8"
+            e2="DDI-DrugBank.d170.s5.e12" ddi="false"/>
+        <pair id="DDI-DrugBank.d170.s5.p72" e1="DDI-DrugBank.d170.s5.e9"
+            e2="DDI-DrugBank.d170.s5.e10" ddi="false"/>
+        <pair id="DDI-DrugBank.d170.s5.p73" e1="DDI-DrugBank.d170.s5.e9"
+            e2="DDI-DrugBank.d170.s5.e11" ddi="false"/>
+        <pair id="DDI-DrugBank.d170.s5.p74" e1="DDI-DrugBank.d170.s5.e9"
+            e2="DDI-DrugBank.d170.s5.e12" ddi="false"/>
+        <pair id="DDI-DrugBank.d170.s5.p75"
+            e1="DDI-DrugBank.d170.s5.e10" e2="DDI-DrugBank.d170.s5.e11" ddi="false"/>
+        <pair id="DDI-DrugBank.d170.s5.p76"
+            e1="DDI-DrugBank.d170.s5.e10" e2="DDI-DrugBank.d170.s5.e12" ddi="false"/>
+        <pair id="DDI-DrugBank.d170.s5.p77"
+            e1="DDI-DrugBank.d170.s5.e11" e2="DDI-DrugBank.d170.s5.e12" ddi="false"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d170.s6" text="When such combined therapy is contemplated, the dose of one or both agents should be significantly reduced."/>
+    <sentence id="DDI-DrugBank.d170.s7" text="MAO Inhibitors: DURAGESIC  is not recommended for use in patients who have received MAOI within 14 days because severe and unpredictable potentiation by MAO inhibitors has been reported with opioid analgesics">
+        <entity id="DDI-DrugBank.d170.s7.e0" charOffset="0-13"
+            type="group" text="MAO Inhibitors"/>
+        <entity id="DDI-DrugBank.d170.s7.e1" charOffset="16-24"
+            type="brand" text="DURAGESIC"/>
+        <entity id="DDI-DrugBank.d170.s7.e2" charOffset="84-87"
+            type="group" text="MAOI"/>
+        <entity id="DDI-DrugBank.d170.s7.e3" charOffset="153-166"
+            type="group" text="MAO inhibitors"/>
+        <entity id="DDI-DrugBank.d170.s7.e4" charOffset="191-207"
+            type="group" text="opioid analgesics"/>
+        <pair id="DDI-DrugBank.d170.s7.p0" e1="DDI-DrugBank.d170.s7.e0"
+            e2="DDI-DrugBank.d170.s7.e1" ddi="false"/>
+        <pair id="DDI-DrugBank.d170.s7.p1" e1="DDI-DrugBank.d170.s7.e0"
+            e2="DDI-DrugBank.d170.s7.e2" ddi="false"/>
+        <pair id="DDI-DrugBank.d170.s7.p2" e1="DDI-DrugBank.d170.s7.e0"
+            e2="DDI-DrugBank.d170.s7.e3" ddi="false"/>
+        <pair id="DDI-DrugBank.d170.s7.p3" e1="DDI-DrugBank.d170.s7.e0"
+            e2="DDI-DrugBank.d170.s7.e4" ddi="false"/>
+        <pair id="DDI-DrugBank.d170.s7.p4" e1="DDI-DrugBank.d170.s7.e1"
+            e2="DDI-DrugBank.d170.s7.e2" ddi="true" type="advise"/>
+        <pair id="DDI-DrugBank.d170.s7.p5" e1="DDI-DrugBank.d170.s7.e1"
+            e2="DDI-DrugBank.d170.s7.e3" ddi="false"/>
+        <pair id="DDI-DrugBank.d170.s7.p6" e1="DDI-DrugBank.d170.s7.e1"
+            e2="DDI-DrugBank.d170.s7.e4" ddi="false"/>
+        <pair id="DDI-DrugBank.d170.s7.p7" e1="DDI-DrugBank.d170.s7.e2"
+            e2="DDI-DrugBank.d170.s7.e3" ddi="false"/>
+        <pair id="DDI-DrugBank.d170.s7.p8" e1="DDI-DrugBank.d170.s7.e2"
+            e2="DDI-DrugBank.d170.s7.e4" ddi="false"/>
+        <pair id="DDI-DrugBank.d170.s7.p9" e1="DDI-DrugBank.d170.s7.e3"
+            e2="DDI-DrugBank.d170.s7.e4" ddi="true" type="advise"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d170.s8" text="."/>
+    <sentence id="DDI-DrugBank.d170.s9" text=""/>
+</document>

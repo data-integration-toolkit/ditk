@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="DDI-DrugBank.d449">
+    <sentence id="DDI-DrugBank.d449.s0" text="Co-administration with antifungal agents such as ketoconazole or itraconazole is not recommended.">
+        <entity id="DDI-DrugBank.d449.s0.e0" charOffset="23-39"
+            type="group" text="antifungal agents"/>
+        <entity id="DDI-DrugBank.d449.s0.e1" charOffset="49-60"
+            type="drug" text="ketoconazole"/>
+        <entity id="DDI-DrugBank.d449.s0.e2" charOffset="65-76"
+            type="drug" text="itraconazole"/>
+        <pair id="DDI-DrugBank.d449.s0.p0" e1="DDI-DrugBank.d449.s0.e0"
+            e2="DDI-DrugBank.d449.s0.e1" ddi="false"/>
+        <pair id="DDI-DrugBank.d449.s0.p1" e1="DDI-DrugBank.d449.s0.e0"
+            e2="DDI-DrugBank.d449.s0.e2" ddi="false"/>
+        <pair id="DDI-DrugBank.d449.s0.p2" e1="DDI-DrugBank.d449.s0.e1"
+            e2="DDI-DrugBank.d449.s0.e2" ddi="false"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d449.s1" text="Nafazodone, fluvoxamine, cimetidine (consider Xanax dose reduction).">
+        <entity id="DDI-DrugBank.d449.s1.e0" charOffset="0-9"
+            type="drug" text="Nafazodone"/>
+        <entity id="DDI-DrugBank.d449.s1.e1" charOffset="12-22"
+            type="drug" text="fluvoxamine"/>
+        <entity id="DDI-DrugBank.d449.s1.e2" charOffset="25-34"
+            type="drug" text="cimetidine"/>
+        <entity id="DDI-DrugBank.d449.s1.e3" charOffset="46-50"
+            type="brand" text="Xanax"/>
+        <pair id="DDI-DrugBank.d449.s1.p0" e1="DDI-DrugBank.d449.s1.e0"
+            e2="DDI-DrugBank.d449.s1.e1" ddi="false"/>
+        <pair id="DDI-DrugBank.d449.s1.p1" e1="DDI-DrugBank.d449.s1.e0"
+            e2="DDI-DrugBank.d449.s1.e2" ddi="false"/>
+        <pair id="DDI-DrugBank.d449.s1.p2" e1="DDI-DrugBank.d449.s1.e0"
+            e2="DDI-DrugBank.d449.s1.e3" ddi="true" type="advise"/>
+        <pair id="DDI-DrugBank.d449.s1.p3" e1="DDI-DrugBank.d449.s1.e1"
+            e2="DDI-DrugBank.d449.s1.e2" ddi="false"/>
+        <pair id="DDI-DrugBank.d449.s1.p4" e1="DDI-DrugBank.d449.s1.e1"
+            e2="DDI-DrugBank.d449.s1.e3" ddi="true" type="advise"/>
+        <pair id="DDI-DrugBank.d449.s1.p5" e1="DDI-DrugBank.d449.s1.e2"
+            e2="DDI-DrugBank.d449.s1.e3" ddi="true" type="advise"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d449.s2" text="Fluoxetine, OCs, sertraline, diltiazem, macrolide antibiotics (exercise caution).">
+        <entity id="DDI-DrugBank.d449.s2.e0" charOffset="0-9"
+            type="drug" text="Fluoxetine"/>
+        <entity id="DDI-DrugBank.d449.s2.e1" charOffset="12-14"
+            type="group" text="OCs"/>
+        <entity id="DDI-DrugBank.d449.s2.e2" charOffset="17-26"
+            type="drug" text="sertraline"/>
+        <entity id="DDI-DrugBank.d449.s2.e3" charOffset="29-37"
+            type="drug" text="diltiazem"/>
+        <entity id="DDI-DrugBank.d449.s2.e4" charOffset="40-60"
+            type="group" text="macrolide antibiotics"/>
+        <pair id="DDI-DrugBank.d449.s2.p0" e1="DDI-DrugBank.d449.s2.e0"
+            e2="DDI-DrugBank.d449.s2.e1" ddi="false"/>
+        <pair id="DDI-DrugBank.d449.s2.p1" e1="DDI-DrugBank.d449.s2.e0"
+            e2="DDI-DrugBank.d449.s2.e2" ddi="false"/>
+        <pair id="DDI-DrugBank.d449.s2.p2" e1="DDI-DrugBank.d449.s2.e0"
+            e2="DDI-DrugBank.d449.s2.e3" ddi="false"/>
+        <pair id="DDI-DrugBank.d449.s2.p3" e1="DDI-DrugBank.d449.s2.e0"
+            e2="DDI-DrugBank.d449.s2.e4" ddi="false"/>
+        <pair id="DDI-DrugBank.d449.s2.p4" e1="DDI-DrugBank.d449.s2.e1"
+            e2="DDI-DrugBank.d449.s2.e2" ddi="false"/>
+        <pair id="DDI-DrugBank.d449.s2.p5" e1="DDI-DrugBank.d449.s2.e1"
+            e2="DDI-DrugBank.d449.s2.e3" ddi="false"/>
+        <pair id="DDI-DrugBank.d449.s2.p6" e1="DDI-DrugBank.d449.s2.e1"
+            e2="DDI-DrugBank.d449.s2.e4" ddi="false"/>
+        <pair id="DDI-DrugBank.d449.s2.p7" e1="DDI-DrugBank.d449.s2.e2"
+            e2="DDI-DrugBank.d449.s2.e3" ddi="false"/>
+        <pair id="DDI-DrugBank.d449.s2.p8" e1="DDI-DrugBank.d449.s2.e2"
+            e2="DDI-DrugBank.d449.s2.e4" ddi="false"/>
+        <pair id="DDI-DrugBank.d449.s2.p9" e1="DDI-DrugBank.d449.s2.e3"
+            e2="DDI-DrugBank.d449.s2.e4" ddi="false"/>
+    </sentence>
+</document>

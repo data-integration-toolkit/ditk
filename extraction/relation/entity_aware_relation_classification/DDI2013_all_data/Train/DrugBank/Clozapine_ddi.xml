@@ -1,0 +1,446 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="DDI-DrugBank.d480">
+    <sentence id="DDI-DrugBank.d480.s0" text="The risks of using Clozapine in combination with other drugs have not been systematically evaluated.">
+        <entity id="DDI-DrugBank.d480.s0.e0" charOffset="19-27"
+            type="drug" text="Clozapine"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d480.s1" text="Pharmacodynamic-related Interactions: The mechanism of Clozapine induced agranulocytosis is unknown;">
+        <entity id="DDI-DrugBank.d480.s1.e0" charOffset="55-63"
+            type="drug" text="Clozapine"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d480.s2" text="nonetheless, the possibility that causative factors may interact synergistically to increase the risk and/or severity of bone marrow suppression warrants consideration."/>
+    <sentence id="DDI-DrugBank.d480.s3" text="Therefore, Clozapine should not be used with other agents having a well-known potential to suppress bone marrow function.">
+        <entity id="DDI-DrugBank.d480.s3.e0" charOffset="11-19"
+            type="drug" text="Clozapine"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d480.s4" text="Given the primary CNS effects of Clozapine, caution is advised in using it concomitantly with other CNS-active drugs or alcohol.">
+        <entity id="DDI-DrugBank.d480.s4.e0" charOffset="33-41"
+            type="drug" text="Clozapine"/>
+        <entity id="DDI-DrugBank.d480.s4.e1" charOffset="120-126"
+            type="drug" text="alcohol"/>
+        <pair id="DDI-DrugBank.d480.s4.p0" e1="DDI-DrugBank.d480.s4.e0"
+            e2="DDI-DrugBank.d480.s4.e1" ddi="true" type="effect"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d480.s5" text="Orthostatic hypotension in patients taking clozapine can, in rare cases (approximately 1 case per 3,000 patients), be accompanied by profound collapse and respiratory and/or cardiac arrest.">
+        <entity id="DDI-DrugBank.d480.s5.e0" charOffset="43-51"
+            type="drug" text="clozapine"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d480.s6" text="Some of the cases of collapse/respiratory arrest/cardiac arrest during initial treatment occurred in patients who were being administered benzodiazepines;">
+        <entity id="DDI-DrugBank.d480.s6.e0" charOffset="138-152"
+            type="group" text="benzodiazepines"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d480.s7" text="similar events have been reported in patients taking other psychotropic drugs or even Clozapine by itself.">
+        <entity id="DDI-DrugBank.d480.s7.e0" charOffset="59-76"
+            type="group" text="psychotropic drugs"/>
+        <entity id="DDI-DrugBank.d480.s7.e1" charOffset="86-94"
+            type="drug" text="Clozapine"/>
+        <pair id="DDI-DrugBank.d480.s7.p0" e1="DDI-DrugBank.d480.s7.e0"
+            e2="DDI-DrugBank.d480.s7.e1" ddi="false"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d480.s8" text="Although it has not been established that there is an interaction between Clozapine and benzodiazepines or other psychotropics, caution is advised when clozapine is initiated in patients taking a benzodiazepine or any other psychotropic drug.">
+        <entity id="DDI-DrugBank.d480.s8.e0" charOffset="74-82"
+            type="drug" text="Clozapine"/>
+        <entity id="DDI-DrugBank.d480.s8.e1" charOffset="88-102"
+            type="group" text="benzodiazepines"/>
+        <entity id="DDI-DrugBank.d480.s8.e2" charOffset="113-125"
+            type="group" text="psychotropics"/>
+        <entity id="DDI-DrugBank.d480.s8.e3" charOffset="152-160"
+            type="drug" text="clozapine"/>
+        <entity id="DDI-DrugBank.d480.s8.e4" charOffset="196-209"
+            type="group" text="benzodiazepine"/>
+        <entity id="DDI-DrugBank.d480.s8.e5" charOffset="224-240"
+            type="group" text="psychotropic drug"/>
+        <pair id="DDI-DrugBank.d480.s8.p0" e1="DDI-DrugBank.d480.s8.e0"
+            e2="DDI-DrugBank.d480.s8.e1" ddi="false"/>
+        <pair id="DDI-DrugBank.d480.s8.p1" e1="DDI-DrugBank.d480.s8.e0"
+            e2="DDI-DrugBank.d480.s8.e2" ddi="false"/>
+        <pair id="DDI-DrugBank.d480.s8.p2" e1="DDI-DrugBank.d480.s8.e0"
+            e2="DDI-DrugBank.d480.s8.e3" ddi="false"/>
+        <pair id="DDI-DrugBank.d480.s8.p3" e1="DDI-DrugBank.d480.s8.e0"
+            e2="DDI-DrugBank.d480.s8.e4" ddi="false"/>
+        <pair id="DDI-DrugBank.d480.s8.p4" e1="DDI-DrugBank.d480.s8.e0"
+            e2="DDI-DrugBank.d480.s8.e5" ddi="false"/>
+        <pair id="DDI-DrugBank.d480.s8.p5" e1="DDI-DrugBank.d480.s8.e1"
+            e2="DDI-DrugBank.d480.s8.e2" ddi="false"/>
+        <pair id="DDI-DrugBank.d480.s8.p6" e1="DDI-DrugBank.d480.s8.e1"
+            e2="DDI-DrugBank.d480.s8.e3" ddi="false"/>
+        <pair id="DDI-DrugBank.d480.s8.p7" e1="DDI-DrugBank.d480.s8.e1"
+            e2="DDI-DrugBank.d480.s8.e4" ddi="false"/>
+        <pair id="DDI-DrugBank.d480.s8.p8" e1="DDI-DrugBank.d480.s8.e1"
+            e2="DDI-DrugBank.d480.s8.e5" ddi="false"/>
+        <pair id="DDI-DrugBank.d480.s8.p9" e1="DDI-DrugBank.d480.s8.e2"
+            e2="DDI-DrugBank.d480.s8.e3" ddi="false"/>
+        <pair id="DDI-DrugBank.d480.s8.p10" e1="DDI-DrugBank.d480.s8.e2"
+            e2="DDI-DrugBank.d480.s8.e4" ddi="false"/>
+        <pair id="DDI-DrugBank.d480.s8.p11" e1="DDI-DrugBank.d480.s8.e2"
+            e2="DDI-DrugBank.d480.s8.e5" ddi="false"/>
+        <pair id="DDI-DrugBank.d480.s8.p12" e1="DDI-DrugBank.d480.s8.e3"
+            e2="DDI-DrugBank.d480.s8.e4" ddi="true" type="advise"/>
+        <pair id="DDI-DrugBank.d480.s8.p13" e1="DDI-DrugBank.d480.s8.e3"
+            e2="DDI-DrugBank.d480.s8.e5" ddi="true" type="advise"/>
+        <pair id="DDI-DrugBank.d480.s8.p14" e1="DDI-DrugBank.d480.s8.e4"
+            e2="DDI-DrugBank.d480.s8.e5" ddi="false"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d480.s9" text="Clozapine may potentiate the hypotensive effects of antihypertensive drugs and the anticholinergic effects of atropine-type drugs.">
+        <entity id="DDI-DrugBank.d480.s9.e0" charOffset="0-8"
+            type="drug" text="Clozapine"/>
+        <entity id="DDI-DrugBank.d480.s9.e1" charOffset="52-73"
+            type="group" text="antihypertensive drugs"/>
+        <entity id="DDI-DrugBank.d480.s9.e2" charOffset="110-117"
+            type="drug" text="atropine"/>
+        <pair id="DDI-DrugBank.d480.s9.p0" e1="DDI-DrugBank.d480.s9.e0"
+            e2="DDI-DrugBank.d480.s9.e1" ddi="true" type="effect"/>
+        <pair id="DDI-DrugBank.d480.s9.p1" e1="DDI-DrugBank.d480.s9.e0"
+            e2="DDI-DrugBank.d480.s9.e2" ddi="true" type="effect"/>
+        <pair id="DDI-DrugBank.d480.s9.p2" e1="DDI-DrugBank.d480.s9.e1"
+            e2="DDI-DrugBank.d480.s9.e2" ddi="false"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d480.s10" text="The administration of epinephrine should be avoided in the treatment of drug induced hypotension because of a possible reverse epinephrine effect.">
+        <entity id="DDI-DrugBank.d480.s10.e0" charOffset="22-32"
+            type="drug" text="epinephrine"/>
+        <entity id="DDI-DrugBank.d480.s10.e1" charOffset="127-137"
+            type="drug" text="epinephrine"/>
+        <pair id="DDI-DrugBank.d480.s10.p0"
+            e1="DDI-DrugBank.d480.s10.e0" e2="DDI-DrugBank.d480.s10.e1" ddi="false"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d480.s11" text="Pharmacokinetic-related Interactions: Clozapine is a substrate for many CYP 450 isozymes, in particular 1A2, 2D6, and 3A4.">
+        <entity id="DDI-DrugBank.d480.s11.e0" charOffset="38-46"
+            type="drug" text="Clozapine"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d480.s12" text="The risk of metabolic interactions caused by an effect on an individual isoform is therefore minimized."/>
+    <sentence id="DDI-DrugBank.d480.s13" text="Nevertheless, caution should be used in patients receiving concomitant treatment with other drugs that are either inhibitors or inducers of these enzymes."/>
+    <sentence id="DDI-DrugBank.d480.s14" text="Concomitant administration of drugs known to induce cytochrome P450 enzymes may decrease the plasma levels of clozapine.">
+        <entity id="DDI-DrugBank.d480.s14.e0" charOffset="110-118"
+            type="drug" text="clozapine"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d480.s15" text="Phenytoin, nicotine, and rifampin may decrease Clozapine plasma levels, resulting in a decrease in effectiveness of a previously effective Clozapine dose.">
+        <entity id="DDI-DrugBank.d480.s15.e0" charOffset="0-8"
+            type="drug" text="Phenytoin"/>
+        <entity id="DDI-DrugBank.d480.s15.e1" charOffset="11-18"
+            type="drug" text="nicotine"/>
+        <entity id="DDI-DrugBank.d480.s15.e2" charOffset="25-32"
+            type="drug" text="rifampin"/>
+        <entity id="DDI-DrugBank.d480.s15.e3" charOffset="47-55"
+            type="drug" text="Clozapine"/>
+        <entity id="DDI-DrugBank.d480.s15.e4" charOffset="139-147"
+            type="drug" text="Clozapine"/>
+        <pair id="DDI-DrugBank.d480.s15.p0"
+            e1="DDI-DrugBank.d480.s15.e0" e2="DDI-DrugBank.d480.s15.e1" ddi="false"/>
+        <pair id="DDI-DrugBank.d480.s15.p1"
+            e1="DDI-DrugBank.d480.s15.e0" e2="DDI-DrugBank.d480.s15.e2" ddi="false"/>
+        <pair id="DDI-DrugBank.d480.s15.p2"
+            e1="DDI-DrugBank.d480.s15.e0" e2="DDI-DrugBank.d480.s15.e3"
+            ddi="true" type="mechanism"/>
+        <pair id="DDI-DrugBank.d480.s15.p3"
+            e1="DDI-DrugBank.d480.s15.e0" e2="DDI-DrugBank.d480.s15.e4" ddi="false"/>
+        <pair id="DDI-DrugBank.d480.s15.p4"
+            e1="DDI-DrugBank.d480.s15.e1" e2="DDI-DrugBank.d480.s15.e2" ddi="false"/>
+        <pair id="DDI-DrugBank.d480.s15.p5"
+            e1="DDI-DrugBank.d480.s15.e1" e2="DDI-DrugBank.d480.s15.e3"
+            ddi="true" type="mechanism"/>
+        <pair id="DDI-DrugBank.d480.s15.p6"
+            e1="DDI-DrugBank.d480.s15.e1" e2="DDI-DrugBank.d480.s15.e4" ddi="false"/>
+        <pair id="DDI-DrugBank.d480.s15.p7"
+            e1="DDI-DrugBank.d480.s15.e2" e2="DDI-DrugBank.d480.s15.e3"
+            ddi="true" type="mechanism"/>
+        <pair id="DDI-DrugBank.d480.s15.p8"
+            e1="DDI-DrugBank.d480.s15.e2" e2="DDI-DrugBank.d480.s15.e4" ddi="false"/>
+        <pair id="DDI-DrugBank.d480.s15.p9"
+            e1="DDI-DrugBank.d480.s15.e3" e2="DDI-DrugBank.d480.s15.e4" ddi="false"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d480.s16" text="Concomitant administration of drugs known to inhibit the activity of cytochrome P450 isozymes may increase the plasma levels of clozapine.">
+        <entity id="DDI-DrugBank.d480.s16.e0" charOffset="128-136"
+            type="drug" text="clozapine"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d480.s17" text="Cimetidine, caffeine, and erythromycin may increase plasma levels of Clozapine, potentially resulting in adverse effects.">
+        <entity id="DDI-DrugBank.d480.s17.e0" charOffset="0-9"
+            type="drug" text="Cimetidine"/>
+        <entity id="DDI-DrugBank.d480.s17.e1" charOffset="12-19"
+            type="drug" text="caffeine"/>
+        <entity id="DDI-DrugBank.d480.s17.e2" charOffset="26-37"
+            type="drug" text="erythromycin"/>
+        <entity id="DDI-DrugBank.d480.s17.e3" charOffset="69-77"
+            type="drug" text="Clozapine"/>
+        <pair id="DDI-DrugBank.d480.s17.p0"
+            e1="DDI-DrugBank.d480.s17.e0" e2="DDI-DrugBank.d480.s17.e1" ddi="false"/>
+        <pair id="DDI-DrugBank.d480.s17.p1"
+            e1="DDI-DrugBank.d480.s17.e0" e2="DDI-DrugBank.d480.s17.e2" ddi="false"/>
+        <pair id="DDI-DrugBank.d480.s17.p2"
+            e1="DDI-DrugBank.d480.s17.e0" e2="DDI-DrugBank.d480.s17.e3"
+            ddi="true" type="mechanism"/>
+        <pair id="DDI-DrugBank.d480.s17.p3"
+            e1="DDI-DrugBank.d480.s17.e1" e2="DDI-DrugBank.d480.s17.e2" ddi="false"/>
+        <pair id="DDI-DrugBank.d480.s17.p4"
+            e1="DDI-DrugBank.d480.s17.e1" e2="DDI-DrugBank.d480.s17.e3"
+            ddi="true" type="mechanism"/>
+        <pair id="DDI-DrugBank.d480.s17.p5"
+            e1="DDI-DrugBank.d480.s17.e2" e2="DDI-DrugBank.d480.s17.e3"
+            ddi="true" type="mechanism"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d480.s18" text="Although concomitant use of Clozapine and carbamazepine is not recommended, it should be noted that discontinuation of concomitant carbamazepine administration may result in an increase in Clozapine plasma levels.">
+        <entity id="DDI-DrugBank.d480.s18.e0" charOffset="28-36"
+            type="drug" text="Clozapine"/>
+        <entity id="DDI-DrugBank.d480.s18.e1" charOffset="42-54"
+            type="drug" text="carbamazepine"/>
+        <entity id="DDI-DrugBank.d480.s18.e2" charOffset="131-143"
+            type="drug" text="carbamazepine"/>
+        <entity id="DDI-DrugBank.d480.s18.e3" charOffset="189-197"
+            type="drug" text="Clozapine"/>
+        <pair id="DDI-DrugBank.d480.s18.p0"
+            e1="DDI-DrugBank.d480.s18.e0" e2="DDI-DrugBank.d480.s18.e1"
+            ddi="true" type="advise"/>
+        <pair id="DDI-DrugBank.d480.s18.p1"
+            e1="DDI-DrugBank.d480.s18.e0" e2="DDI-DrugBank.d480.s18.e2" ddi="false"/>
+        <pair id="DDI-DrugBank.d480.s18.p2"
+            e1="DDI-DrugBank.d480.s18.e0" e2="DDI-DrugBank.d480.s18.e3" ddi="false"/>
+        <pair id="DDI-DrugBank.d480.s18.p3"
+            e1="DDI-DrugBank.d480.s18.e1" e2="DDI-DrugBank.d480.s18.e2" ddi="false"/>
+        <pair id="DDI-DrugBank.d480.s18.p4"
+            e1="DDI-DrugBank.d480.s18.e1" e2="DDI-DrugBank.d480.s18.e3" ddi="false"/>
+        <pair id="DDI-DrugBank.d480.s18.p5"
+            e1="DDI-DrugBank.d480.s18.e2" e2="DDI-DrugBank.d480.s18.e3"
+            ddi="true" type="mechanism"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d480.s19" text="In a study of schizophrenic patients who received clozapine under steady state conditions, fluvoxamine or paroxetine was added in 16 and 14 patients, respectively.">
+        <entity id="DDI-DrugBank.d480.s19.e0" charOffset="50-58"
+            type="drug" text="clozapine"/>
+        <entity id="DDI-DrugBank.d480.s19.e1" charOffset="91-101"
+            type="drug" text="fluvoxamine"/>
+        <entity id="DDI-DrugBank.d480.s19.e2" charOffset="106-115"
+            type="drug" text="paroxetine"/>
+        <pair id="DDI-DrugBank.d480.s19.p0"
+            e1="DDI-DrugBank.d480.s19.e0" e2="DDI-DrugBank.d480.s19.e1" ddi="false"/>
+        <pair id="DDI-DrugBank.d480.s19.p1"
+            e1="DDI-DrugBank.d480.s19.e0" e2="DDI-DrugBank.d480.s19.e2" ddi="false"/>
+        <pair id="DDI-DrugBank.d480.s19.p2"
+            e1="DDI-DrugBank.d480.s19.e1" e2="DDI-DrugBank.d480.s19.e2" ddi="false"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d480.s20" text="After 14 days of co-administration, mean trough concentrations of clozapine and its metabolites, N-desmethylclozapine and clozapine N-oxide, were elevated with fluvoxamine by about three-fold compared to baseline concentrations.">
+        <entity id="DDI-DrugBank.d480.s20.e0" charOffset="66-74"
+            type="drug" text="clozapine"/>
+        <entity id="DDI-DrugBank.d480.s20.e1" charOffset="97-116"
+            type="drug_n" text="N-desmethylclozapine"/>
+        <entity id="DDI-DrugBank.d480.s20.e2" charOffset="122-138"
+            type="drug_n" text="clozapine N-oxide"/>
+        <entity id="DDI-DrugBank.d480.s20.e3" charOffset="160-170"
+            type="drug" text="fluvoxamine"/>
+        <pair id="DDI-DrugBank.d480.s20.p0"
+            e1="DDI-DrugBank.d480.s20.e0" e2="DDI-DrugBank.d480.s20.e1" ddi="false"/>
+        <pair id="DDI-DrugBank.d480.s20.p1"
+            e1="DDI-DrugBank.d480.s20.e0" e2="DDI-DrugBank.d480.s20.e2" ddi="false"/>
+        <pair id="DDI-DrugBank.d480.s20.p2"
+            e1="DDI-DrugBank.d480.s20.e0" e2="DDI-DrugBank.d480.s20.e3" ddi="false"/>
+        <pair id="DDI-DrugBank.d480.s20.p3"
+            e1="DDI-DrugBank.d480.s20.e1" e2="DDI-DrugBank.d480.s20.e2" ddi="false"/>
+        <pair id="DDI-DrugBank.d480.s20.p4"
+            e1="DDI-DrugBank.d480.s20.e1" e2="DDI-DrugBank.d480.s20.e3" ddi="false"/>
+        <pair id="DDI-DrugBank.d480.s20.p5"
+            e1="DDI-DrugBank.d480.s20.e2" e2="DDI-DrugBank.d480.s20.e3" ddi="false"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d480.s21" text="Paroxetine produced only minor changes in the levels of clozapine and its metabolites.">
+        <entity id="DDI-DrugBank.d480.s21.e0" charOffset="0-9"
+            type="drug" text="Paroxetine"/>
+        <entity id="DDI-DrugBank.d480.s21.e1" charOffset="56-64"
+            type="drug" text="clozapine"/>
+        <pair id="DDI-DrugBank.d480.s21.p0"
+            e1="DDI-DrugBank.d480.s21.e0" e2="DDI-DrugBank.d480.s21.e1"
+            ddi="true" type="mechanism"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d480.s22" text="However, other published reports describe modest elevations (less than two-fold) of clozapine and metabolite concentrations when clozapine was taken with paroxetine, fluoxetine, and sertraline.">
+        <entity id="DDI-DrugBank.d480.s22.e0" charOffset="84-92"
+            type="drug" text="clozapine"/>
+        <entity id="DDI-DrugBank.d480.s22.e1" charOffset="129-137"
+            type="drug" text="clozapine"/>
+        <entity id="DDI-DrugBank.d480.s22.e2" charOffset="154-163"
+            type="drug" text="paroxetine"/>
+        <entity id="DDI-DrugBank.d480.s22.e3" charOffset="166-175"
+            type="drug" text="fluoxetine"/>
+        <entity id="DDI-DrugBank.d480.s22.e4" charOffset="182-191"
+            type="drug" text="sertraline"/>
+        <pair id="DDI-DrugBank.d480.s22.p0"
+            e1="DDI-DrugBank.d480.s22.e0" e2="DDI-DrugBank.d480.s22.e1" ddi="false"/>
+        <pair id="DDI-DrugBank.d480.s22.p1"
+            e1="DDI-DrugBank.d480.s22.e0" e2="DDI-DrugBank.d480.s22.e2" ddi="false"/>
+        <pair id="DDI-DrugBank.d480.s22.p2"
+            e1="DDI-DrugBank.d480.s22.e0" e2="DDI-DrugBank.d480.s22.e3" ddi="false"/>
+        <pair id="DDI-DrugBank.d480.s22.p3"
+            e1="DDI-DrugBank.d480.s22.e0" e2="DDI-DrugBank.d480.s22.e4" ddi="false"/>
+        <pair id="DDI-DrugBank.d480.s22.p4"
+            e1="DDI-DrugBank.d480.s22.e1" e2="DDI-DrugBank.d480.s22.e2"
+            ddi="true" type="mechanism"/>
+        <pair id="DDI-DrugBank.d480.s22.p5"
+            e1="DDI-DrugBank.d480.s22.e1" e2="DDI-DrugBank.d480.s22.e3"
+            ddi="true" type="mechanism"/>
+        <pair id="DDI-DrugBank.d480.s22.p6"
+            e1="DDI-DrugBank.d480.s22.e1" e2="DDI-DrugBank.d480.s22.e4"
+            ddi="true" type="mechanism"/>
+        <pair id="DDI-DrugBank.d480.s22.p7"
+            e1="DDI-DrugBank.d480.s22.e2" e2="DDI-DrugBank.d480.s22.e3" ddi="false"/>
+        <pair id="DDI-DrugBank.d480.s22.p8"
+            e1="DDI-DrugBank.d480.s22.e2" e2="DDI-DrugBank.d480.s22.e4" ddi="false"/>
+        <pair id="DDI-DrugBank.d480.s22.p9"
+            e1="DDI-DrugBank.d480.s22.e3" e2="DDI-DrugBank.d480.s22.e4" ddi="false"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d480.s23" text="Therefore, such combined treatment should be approached with caution and patients should be monitored closely when Clozapine is combined with these drugs, particularly with fluvoxamine.">
+        <entity id="DDI-DrugBank.d480.s23.e0" charOffset="115-123"
+            type="drug" text="Clozapine"/>
+        <entity id="DDI-DrugBank.d480.s23.e1" charOffset="173-183"
+            type="drug" text="fluvoxamine"/>
+        <pair id="DDI-DrugBank.d480.s23.p0"
+            e1="DDI-DrugBank.d480.s23.e0" e2="DDI-DrugBank.d480.s23.e1"
+            ddi="true" type="advise"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d480.s24" text="A reduced Clozapine dose should be considered.">
+        <entity id="DDI-DrugBank.d480.s24.e0" charOffset="10-18"
+            type="drug" text="Clozapine"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d480.s25" text="A subset (3%-10%) of the population has reduced activity of certain drug metabolizing enzymes such as the cytochrome P450 isozyme P450 2D6."/>
+    <sentence id="DDI-DrugBank.d480.s26" text="Such individuals are referred to as poor metabolizers of drugs such as debrisoquin, dextromethorphan, the tricyclic antidepressants, and clozapine.">
+        <entity id="DDI-DrugBank.d480.s26.e0" charOffset="71-81"
+            type="drug" text="debrisoquin"/>
+        <entity id="DDI-DrugBank.d480.s26.e1" charOffset="84-99"
+            type="drug" text="dextromethorphan"/>
+        <entity id="DDI-DrugBank.d480.s26.e2" charOffset="106-130"
+            type="group" text="tricyclic antidepressants"/>
+        <entity id="DDI-DrugBank.d480.s26.e3" charOffset="137-145"
+            type="drug" text="clozapine"/>
+        <pair id="DDI-DrugBank.d480.s26.p0"
+            e1="DDI-DrugBank.d480.s26.e0" e2="DDI-DrugBank.d480.s26.e1" ddi="false"/>
+        <pair id="DDI-DrugBank.d480.s26.p1"
+            e1="DDI-DrugBank.d480.s26.e0" e2="DDI-DrugBank.d480.s26.e2" ddi="false"/>
+        <pair id="DDI-DrugBank.d480.s26.p2"
+            e1="DDI-DrugBank.d480.s26.e0" e2="DDI-DrugBank.d480.s26.e3" ddi="false"/>
+        <pair id="DDI-DrugBank.d480.s26.p3"
+            e1="DDI-DrugBank.d480.s26.e1" e2="DDI-DrugBank.d480.s26.e2" ddi="false"/>
+        <pair id="DDI-DrugBank.d480.s26.p4"
+            e1="DDI-DrugBank.d480.s26.e1" e2="DDI-DrugBank.d480.s26.e3" ddi="false"/>
+        <pair id="DDI-DrugBank.d480.s26.p5"
+            e1="DDI-DrugBank.d480.s26.e2" e2="DDI-DrugBank.d480.s26.e3" ddi="false"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d480.s27" text="These individuals may develop higher than expected plasma concentrations of clozapine when given usual doses.">
+        <entity id="DDI-DrugBank.d480.s27.e0" charOffset="76-84"
+            type="drug" text="clozapine"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d480.s28" text="In addition, certain drugs that are metabolized by this isozyme, including many antidepressants (clozapine, selective serotonin reuptake inhibitors, and others), may inhibit the activity of this isozyme, and thus may make normal metabolizers resemble poor metabolizers with regard to concomitant therapy with other drugs metabolized by this enzyme system, leading to drug interaction.">
+        <entity id="DDI-DrugBank.d480.s28.e0" charOffset="80-94"
+            type="group" text="antidepressants"/>
+        <entity id="DDI-DrugBank.d480.s28.e1" charOffset="97-105"
+            type="drug" text="clozapine"/>
+        <entity id="DDI-DrugBank.d480.s28.e2" charOffset="108-146"
+            type="group" text="selective serotonin reuptake inhibitors"/>
+        <pair id="DDI-DrugBank.d480.s28.p0"
+            e1="DDI-DrugBank.d480.s28.e0" e2="DDI-DrugBank.d480.s28.e1" ddi="false"/>
+        <pair id="DDI-DrugBank.d480.s28.p1"
+            e1="DDI-DrugBank.d480.s28.e0" e2="DDI-DrugBank.d480.s28.e2" ddi="false"/>
+        <pair id="DDI-DrugBank.d480.s28.p2"
+            e1="DDI-DrugBank.d480.s28.e1" e2="DDI-DrugBank.d480.s28.e2" ddi="false"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d480.s29" text="Concomitant use of clozapine with other drugs metabolized by cytochrome P450 2D6 may require lower doses than usually prescribed for either clozapine or the other drug.">
+        <entity id="DDI-DrugBank.d480.s29.e0" charOffset="19-27"
+            type="drug" text="clozapine"/>
+        <entity id="DDI-DrugBank.d480.s29.e1" charOffset="140-148"
+            type="drug" text="clozapine"/>
+        <pair id="DDI-DrugBank.d480.s29.p0"
+            e1="DDI-DrugBank.d480.s29.e0" e2="DDI-DrugBank.d480.s29.e1" ddi="false"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d480.s30" text="Therefore, co-administration of clozapine with other drugs that are metabolized by this isozyme, including antidepressants, phenothiazines, carbamazepine, and Type 1C antiarrhythmics (e.g., propafenone, flecainide and encainide), or that inhibit this enzyme (e.g., quinidine), should be approached with caution.">
+        <entity id="DDI-DrugBank.d480.s30.e0" charOffset="32-40"
+            type="drug" text="clozapine"/>
+        <entity id="DDI-DrugBank.d480.s30.e1" charOffset="107-121"
+            type="group" text="antidepressants"/>
+        <entity id="DDI-DrugBank.d480.s30.e2" charOffset="124-137"
+            type="group" text="phenothiazines"/>
+        <entity id="DDI-DrugBank.d480.s30.e3" charOffset="140-152"
+            type="drug" text="carbamazepine"/>
+        <entity id="DDI-DrugBank.d480.s30.e4" charOffset="159-181"
+            type="group" text="Type 1C antiarrhythmics"/>
+        <entity id="DDI-DrugBank.d480.s30.e5" charOffset="190-200"
+            type="drug" text="propafenone"/>
+        <entity id="DDI-DrugBank.d480.s30.e6" charOffset="203-212"
+            type="drug" text="flecainide"/>
+        <entity id="DDI-DrugBank.d480.s30.e7" charOffset="218-226"
+            type="drug" text="encainide"/>
+        <entity id="DDI-DrugBank.d480.s30.e8" charOffset="265-273"
+            type="drug" text="quinidine"/>
+        <pair id="DDI-DrugBank.d480.s30.p0"
+            e1="DDI-DrugBank.d480.s30.e0" e2="DDI-DrugBank.d480.s30.e1"
+            ddi="true" type="advise"/>
+        <pair id="DDI-DrugBank.d480.s30.p1"
+            e1="DDI-DrugBank.d480.s30.e0" e2="DDI-DrugBank.d480.s30.e2"
+            ddi="true" type="advise"/>
+        <pair id="DDI-DrugBank.d480.s30.p2"
+            e1="DDI-DrugBank.d480.s30.e0" e2="DDI-DrugBank.d480.s30.e3"
+            ddi="true" type="advise"/>
+        <pair id="DDI-DrugBank.d480.s30.p3"
+            e1="DDI-DrugBank.d480.s30.e0" e2="DDI-DrugBank.d480.s30.e4"
+            ddi="true" type="advise"/>
+        <pair id="DDI-DrugBank.d480.s30.p4"
+            e1="DDI-DrugBank.d480.s30.e0" e2="DDI-DrugBank.d480.s30.e5"
+            ddi="true" type="advise"/>
+        <pair id="DDI-DrugBank.d480.s30.p5"
+            e1="DDI-DrugBank.d480.s30.e0" e2="DDI-DrugBank.d480.s30.e6"
+            ddi="true" type="advise"/>
+        <pair id="DDI-DrugBank.d480.s30.p6"
+            e1="DDI-DrugBank.d480.s30.e0" e2="DDI-DrugBank.d480.s30.e7"
+            ddi="true" type="advise"/>
+        <pair id="DDI-DrugBank.d480.s30.p7"
+            e1="DDI-DrugBank.d480.s30.e0" e2="DDI-DrugBank.d480.s30.e8"
+            ddi="true" type="advise"/>
+        <pair id="DDI-DrugBank.d480.s30.p8"
+            e1="DDI-DrugBank.d480.s30.e1" e2="DDI-DrugBank.d480.s30.e2" ddi="false"/>
+        <pair id="DDI-DrugBank.d480.s30.p9"
+            e1="DDI-DrugBank.d480.s30.e1" e2="DDI-DrugBank.d480.s30.e3" ddi="false"/>
+        <pair id="DDI-DrugBank.d480.s30.p10"
+            e1="DDI-DrugBank.d480.s30.e1" e2="DDI-DrugBank.d480.s30.e4" ddi="false"/>
+        <pair id="DDI-DrugBank.d480.s30.p11"
+            e1="DDI-DrugBank.d480.s30.e1" e2="DDI-DrugBank.d480.s30.e5" ddi="false"/>
+        <pair id="DDI-DrugBank.d480.s30.p12"
+            e1="DDI-DrugBank.d480.s30.e1" e2="DDI-DrugBank.d480.s30.e6" ddi="false"/>
+        <pair id="DDI-DrugBank.d480.s30.p13"
+            e1="DDI-DrugBank.d480.s30.e1" e2="DDI-DrugBank.d480.s30.e7" ddi="false"/>
+        <pair id="DDI-DrugBank.d480.s30.p14"
+            e1="DDI-DrugBank.d480.s30.e1" e2="DDI-DrugBank.d480.s30.e8" ddi="false"/>
+        <pair id="DDI-DrugBank.d480.s30.p15"
+            e1="DDI-DrugBank.d480.s30.e2" e2="DDI-DrugBank.d480.s30.e3" ddi="false"/>
+        <pair id="DDI-DrugBank.d480.s30.p16"
+            e1="DDI-DrugBank.d480.s30.e2" e2="DDI-DrugBank.d480.s30.e4" ddi="false"/>
+        <pair id="DDI-DrugBank.d480.s30.p17"
+            e1="DDI-DrugBank.d480.s30.e2" e2="DDI-DrugBank.d480.s30.e5" ddi="false"/>
+        <pair id="DDI-DrugBank.d480.s30.p18"
+            e1="DDI-DrugBank.d480.s30.e2" e2="DDI-DrugBank.d480.s30.e6" ddi="false"/>
+        <pair id="DDI-DrugBank.d480.s30.p19"
+            e1="DDI-DrugBank.d480.s30.e2" e2="DDI-DrugBank.d480.s30.e7" ddi="false"/>
+        <pair id="DDI-DrugBank.d480.s30.p20"
+            e1="DDI-DrugBank.d480.s30.e2" e2="DDI-DrugBank.d480.s30.e8" ddi="false"/>
+        <pair id="DDI-DrugBank.d480.s30.p21"
+            e1="DDI-DrugBank.d480.s30.e3" e2="DDI-DrugBank.d480.s30.e4" ddi="false"/>
+        <pair id="DDI-DrugBank.d480.s30.p22"
+            e1="DDI-DrugBank.d480.s30.e3" e2="DDI-DrugBank.d480.s30.e5" ddi="false"/>
+        <pair id="DDI-DrugBank.d480.s30.p23"
+            e1="DDI-DrugBank.d480.s30.e3" e2="DDI-DrugBank.d480.s30.e6" ddi="false"/>
+        <pair id="DDI-DrugBank.d480.s30.p24"
+            e1="DDI-DrugBank.d480.s30.e3" e2="DDI-DrugBank.d480.s30.e7" ddi="false"/>
+        <pair id="DDI-DrugBank.d480.s30.p25"
+            e1="DDI-DrugBank.d480.s30.e3" e2="DDI-DrugBank.d480.s30.e8" ddi="false"/>
+        <pair id="DDI-DrugBank.d480.s30.p26"
+            e1="DDI-DrugBank.d480.s30.e4" e2="DDI-DrugBank.d480.s30.e5" ddi="false"/>
+        <pair id="DDI-DrugBank.d480.s30.p27"
+            e1="DDI-DrugBank.d480.s30.e4" e2="DDI-DrugBank.d480.s30.e6" ddi="false"/>
+        <pair id="DDI-DrugBank.d480.s30.p28"
+            e1="DDI-DrugBank.d480.s30.e4" e2="DDI-DrugBank.d480.s30.e7" ddi="false"/>
+        <pair id="DDI-DrugBank.d480.s30.p29"
+            e1="DDI-DrugBank.d480.s30.e4" e2="DDI-DrugBank.d480.s30.e8" ddi="false"/>
+        <pair id="DDI-DrugBank.d480.s30.p30"
+            e1="DDI-DrugBank.d480.s30.e5" e2="DDI-DrugBank.d480.s30.e6" ddi="false"/>
+        <pair id="DDI-DrugBank.d480.s30.p31"
+            e1="DDI-DrugBank.d480.s30.e5" e2="DDI-DrugBank.d480.s30.e7" ddi="false"/>
+        <pair id="DDI-DrugBank.d480.s30.p32"
+            e1="DDI-DrugBank.d480.s30.e5" e2="DDI-DrugBank.d480.s30.e8" ddi="false"/>
+        <pair id="DDI-DrugBank.d480.s30.p33"
+            e1="DDI-DrugBank.d480.s30.e6" e2="DDI-DrugBank.d480.s30.e7" ddi="false"/>
+        <pair id="DDI-DrugBank.d480.s30.p34"
+            e1="DDI-DrugBank.d480.s30.e6" e2="DDI-DrugBank.d480.s30.e8" ddi="false"/>
+        <pair id="DDI-DrugBank.d480.s30.p35"
+            e1="DDI-DrugBank.d480.s30.e7" e2="DDI-DrugBank.d480.s30.e8" ddi="false"/>
+    </sentence>
+</document>

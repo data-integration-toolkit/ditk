@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="DDI-DrugBank.d69">
+    <sentence id="DDI-DrugBank.d69.s0" text="Use of Cerubidine in a patient who has previously received doxorubicin increases the risk of cardiotoxicity.">
+        <entity id="DDI-DrugBank.d69.s0.e0" charOffset="7-16"
+            type="brand" text="Cerubidine"/>
+        <entity id="DDI-DrugBank.d69.s0.e1" charOffset="59-69"
+            type="drug" text="doxorubicin"/>
+        <pair id="DDI-DrugBank.d69.s0.p0" e1="DDI-DrugBank.d69.s0.e0"
+            e2="DDI-DrugBank.d69.s0.e1" ddi="true" type="effect"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d69.s1" text="Cerubidine should not be used in patients who have previously received the recommended maximum cumulative doses of doxorubicin or Cerubidine.">
+        <entity id="DDI-DrugBank.d69.s1.e0" charOffset="0-9"
+            type="brand" text="Cerubidine"/>
+        <entity id="DDI-DrugBank.d69.s1.e1" charOffset="115-125"
+            type="drug" text="doxorubicin"/>
+        <entity id="DDI-DrugBank.d69.s1.e2" charOffset="130-139"
+            type="brand" text="Cerubidine"/>
+        <pair id="DDI-DrugBank.d69.s1.p0" e1="DDI-DrugBank.d69.s1.e0"
+            e2="DDI-DrugBank.d69.s1.e1" ddi="true" type="advise"/>
+        <pair id="DDI-DrugBank.d69.s1.p1" e1="DDI-DrugBank.d69.s1.e0"
+            e2="DDI-DrugBank.d69.s1.e2" ddi="false"/>
+        <pair id="DDI-DrugBank.d69.s1.p2" e1="DDI-DrugBank.d69.s1.e1"
+            e2="DDI-DrugBank.d69.s1.e2" ddi="false"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d69.s2" text="Cyclophosphamide used concurrently with Cerubidine may also result in increased cardiotoxicity.">
+        <entity id="DDI-DrugBank.d69.s2.e0" charOffset="0-15"
+            type="drug" text="Cyclophosphamide"/>
+        <entity id="DDI-DrugBank.d69.s2.e1" charOffset="40-49"
+            type="brand" text="Cerubidine"/>
+        <pair id="DDI-DrugBank.d69.s2.p0" e1="DDI-DrugBank.d69.s2.e0"
+            e2="DDI-DrugBank.d69.s2.e1" ddi="true" type="effect"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d69.s3" text="Dosage reduction of Cerubidine may be required when used concurrently with other myelosuppressive agents.">
+        <entity id="DDI-DrugBank.d69.s3.e0" charOffset="20-29"
+            type="brand" text="Cerubidine"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d69.s4" text="Hepatotoxic medications, such as high-dose methotrexate, may impair liver function and increase the risk of toxicity.">
+        <entity id="DDI-DrugBank.d69.s4.e0" charOffset="43-54"
+            type="drug" text="methotrexate"/>
+    </sentence>
+</document>

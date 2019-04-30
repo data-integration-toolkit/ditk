@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="DDI-DrugBank.d52">
+    <sentence id="DDI-DrugBank.d52.s0" text="Concomitant treatment with thrombolytics (eg, rt-PA or streptokinase) may: - increase the risk of bleeding complications - considerably enhance the effect of REFLUDAN on aPTT prolongation">
+        <entity id="DDI-DrugBank.d52.s0.e0" charOffset="27-39"
+            type="group" text="thrombolytics"/>
+        <entity id="DDI-DrugBank.d52.s0.e1" charOffset="55-67"
+            type="drug" text="streptokinase"/>
+        <entity id="DDI-DrugBank.d52.s0.e2" charOffset="158-165"
+            type="brand" text="REFLUDAN"/>
+        <pair id="DDI-DrugBank.d52.s0.p0" e1="DDI-DrugBank.d52.s0.e0"
+            e2="DDI-DrugBank.d52.s0.e1" ddi="false"/>
+        <pair id="DDI-DrugBank.d52.s0.p1" e1="DDI-DrugBank.d52.s0.e0"
+            e2="DDI-DrugBank.d52.s0.e2" ddi="false"/>
+        <pair id="DDI-DrugBank.d52.s0.p2" e1="DDI-DrugBank.d52.s0.e1"
+            e2="DDI-DrugBank.d52.s0.e2" ddi="false"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d52.s1" text="Concomitant treatment with coumarin derivatives (vitamin K antagonists) and drugs that affect platelet function may also increase the risk of bleeding.">
+        <entity id="DDI-DrugBank.d52.s1.e0" charOffset="27-46"
+            type="group" text="coumarin derivatives"/>
+        <entity id="DDI-DrugBank.d52.s1.e1" charOffset="49-69"
+            type="group" text="vitamin K antagonists"/>
+        <pair id="DDI-DrugBank.d52.s1.p0" e1="DDI-DrugBank.d52.s1.e0"
+            e2="DDI-DrugBank.d52.s1.e1" ddi="false"/>
+    </sentence>
+</document>

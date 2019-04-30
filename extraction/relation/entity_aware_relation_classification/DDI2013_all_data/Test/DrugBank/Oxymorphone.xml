@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="DDI-DrugBank.d753">
+    <sentence id="DDI-DrugBank.d753.s0" text="The concomitant use of other CNS depressants including sedatives, hypnotics, tranquilizers, general anesthetics, phenothiazines, other opioids, tricyclic antidepressants, monoamine oxidase (MAO) inhibitors, and alcohol may produce additive CNS depressant effects. ">
+        <entity id="DDI-DrugBank.d753.s0.e0" charOffset="29-43"
+            type="group" text="CNS depressants"/>
+        <entity id="DDI-DrugBank.d753.s0.e1" charOffset="55-63"
+            type="group" text="sedatives"/>
+        <entity id="DDI-DrugBank.d753.s0.e2" charOffset="66-74"
+            type="group" text="hypnotics"/>
+        <entity id="DDI-DrugBank.d753.s0.e3" charOffset="77-89"
+            type="group" text="tranquilizers"/>
+        <entity id="DDI-DrugBank.d753.s0.e4" charOffset="100-110"
+            type="group" text="anesthetics"/>
+        <entity id="DDI-DrugBank.d753.s0.e5" charOffset="113-126"
+            type="group" text="phenothiazines"/>
+        <entity id="DDI-DrugBank.d753.s0.e6" charOffset="135-141"
+            type="group" text="opioids"/>
+        <entity id="DDI-DrugBank.d753.s0.e7" charOffset="144-168"
+            type="group" text="tricyclic antidepressants"/>
+        <entity id="DDI-DrugBank.d753.s0.e8" charOffset="171-204"
+            type="group" text="monoamine oxidase (MAO) inhibitors"/>
+        <entity id="DDI-DrugBank.d753.s0.e9" charOffset="211-217"
+            type="drug" text="alcohol"/>
+        <pair id="DDI-DrugBank.d753.s0.p0" e1="DDI-DrugBank.d753.s0.e0"
+            e2="DDI-DrugBank.d753.s0.e1" ddi="false"/>
+        <pair id="DDI-DrugBank.d753.s0.p1" e1="DDI-DrugBank.d753.s0.e0"
+            e2="DDI-DrugBank.d753.s0.e2" ddi="false"/>
+        <pair id="DDI-DrugBank.d753.s0.p2" e1="DDI-DrugBank.d753.s0.e0"
+            e2="DDI-DrugBank.d753.s0.e3" ddi="false"/>
+        <pair id="DDI-DrugBank.d753.s0.p3" e1="DDI-DrugBank.d753.s0.e0"
+            e2="DDI-DrugBank.d753.s0.e4" ddi="false"/>
+        <pair id="DDI-DrugBank.d753.s0.p4" e1="DDI-DrugBank.d753.s0.e0"
+            e2="DDI-DrugBank.d753.s0.e5" ddi="false"/>
+        <pair id="DDI-DrugBank.d753.s0.p5" e1="DDI-DrugBank.d753.s0.e0"
+            e2="DDI-DrugBank.d753.s0.e6" ddi="false"/>
+        <pair id="DDI-DrugBank.d753.s0.p6" e1="DDI-DrugBank.d753.s0.e0"
+            e2="DDI-DrugBank.d753.s0.e7" ddi="false"/>
+        <pair id="DDI-DrugBank.d753.s0.p7" e1="DDI-DrugBank.d753.s0.e0"
+            e2="DDI-DrugBank.d753.s0.e8" ddi="false"/>
+        <pair id="DDI-DrugBank.d753.s0.p8" e1="DDI-DrugBank.d753.s0.e0"
+            e2="DDI-DrugBank.d753.s0.e9" ddi="false"/>
+        <pair id="DDI-DrugBank.d753.s0.p9" e1="DDI-DrugBank.d753.s0.e1"
+            e2="DDI-DrugBank.d753.s0.e2" ddi="false"/>
+        <pair id="DDI-DrugBank.d753.s0.p10" e1="DDI-DrugBank.d753.s0.e1"
+            e2="DDI-DrugBank.d753.s0.e3" ddi="false"/>
+        <pair id="DDI-DrugBank.d753.s0.p11" e1="DDI-DrugBank.d753.s0.e1"
+            e2="DDI-DrugBank.d753.s0.e4" ddi="false"/>
+        <pair id="DDI-DrugBank.d753.s0.p12" e1="DDI-DrugBank.d753.s0.e1"
+            e2="DDI-DrugBank.d753.s0.e5" ddi="false"/>
+        <pair id="DDI-DrugBank.d753.s0.p13" e1="DDI-DrugBank.d753.s0.e1"
+            e2="DDI-DrugBank.d753.s0.e6" ddi="false"/>
+        <pair id="DDI-DrugBank.d753.s0.p14" e1="DDI-DrugBank.d753.s0.e1"
+            e2="DDI-DrugBank.d753.s0.e7" ddi="false"/>
+        <pair id="DDI-DrugBank.d753.s0.p15" e1="DDI-DrugBank.d753.s0.e1"
+            e2="DDI-DrugBank.d753.s0.e8" ddi="false"/>
+        <pair id="DDI-DrugBank.d753.s0.p16" e1="DDI-DrugBank.d753.s0.e1"
+            e2="DDI-DrugBank.d753.s0.e9" ddi="false"/>
+        <pair id="DDI-DrugBank.d753.s0.p17" e1="DDI-DrugBank.d753.s0.e2"
+            e2="DDI-DrugBank.d753.s0.e3" ddi="false"/>
+        <pair id="DDI-DrugBank.d753.s0.p18" e1="DDI-DrugBank.d753.s0.e2"
+            e2="DDI-DrugBank.d753.s0.e4" ddi="false"/>
+        <pair id="DDI-DrugBank.d753.s0.p19" e1="DDI-DrugBank.d753.s0.e2"
+            e2="DDI-DrugBank.d753.s0.e5" ddi="false"/>
+        <pair id="DDI-DrugBank.d753.s0.p20" e1="DDI-DrugBank.d753.s0.e2"
+            e2="DDI-DrugBank.d753.s0.e6" ddi="false"/>
+        <pair id="DDI-DrugBank.d753.s0.p21" e1="DDI-DrugBank.d753.s0.e2"
+            e2="DDI-DrugBank.d753.s0.e7" ddi="false"/>
+        <pair id="DDI-DrugBank.d753.s0.p22" e1="DDI-DrugBank.d753.s0.e2"
+            e2="DDI-DrugBank.d753.s0.e8" ddi="false"/>
+        <pair id="DDI-DrugBank.d753.s0.p23" e1="DDI-DrugBank.d753.s0.e2"
+            e2="DDI-DrugBank.d753.s0.e9" ddi="false"/>
+        <pair id="DDI-DrugBank.d753.s0.p24" e1="DDI-DrugBank.d753.s0.e3"
+            e2="DDI-DrugBank.d753.s0.e4" ddi="false"/>
+        <pair id="DDI-DrugBank.d753.s0.p25" e1="DDI-DrugBank.d753.s0.e3"
+            e2="DDI-DrugBank.d753.s0.e5" ddi="false"/>
+        <pair id="DDI-DrugBank.d753.s0.p26" e1="DDI-DrugBank.d753.s0.e3"
+            e2="DDI-DrugBank.d753.s0.e6" ddi="false"/>
+        <pair id="DDI-DrugBank.d753.s0.p27" e1="DDI-DrugBank.d753.s0.e3"
+            e2="DDI-DrugBank.d753.s0.e7" ddi="false"/>
+        <pair id="DDI-DrugBank.d753.s0.p28" e1="DDI-DrugBank.d753.s0.e3"
+            e2="DDI-DrugBank.d753.s0.e8" ddi="false"/>
+        <pair id="DDI-DrugBank.d753.s0.p29" e1="DDI-DrugBank.d753.s0.e3"
+            e2="DDI-DrugBank.d753.s0.e9" ddi="false"/>
+        <pair id="DDI-DrugBank.d753.s0.p30" e1="DDI-DrugBank.d753.s0.e4"
+            e2="DDI-DrugBank.d753.s0.e5" ddi="false"/>
+        <pair id="DDI-DrugBank.d753.s0.p31" e1="DDI-DrugBank.d753.s0.e4"
+            e2="DDI-DrugBank.d753.s0.e6" ddi="false"/>
+        <pair id="DDI-DrugBank.d753.s0.p32" e1="DDI-DrugBank.d753.s0.e4"
+            e2="DDI-DrugBank.d753.s0.e7" ddi="false"/>
+        <pair id="DDI-DrugBank.d753.s0.p33" e1="DDI-DrugBank.d753.s0.e4"
+            e2="DDI-DrugBank.d753.s0.e8" ddi="false"/>
+        <pair id="DDI-DrugBank.d753.s0.p34" e1="DDI-DrugBank.d753.s0.e4"
+            e2="DDI-DrugBank.d753.s0.e9" ddi="false"/>
+        <pair id="DDI-DrugBank.d753.s0.p35" e1="DDI-DrugBank.d753.s0.e5"
+            e2="DDI-DrugBank.d753.s0.e6" ddi="false"/>
+        <pair id="DDI-DrugBank.d753.s0.p36" e1="DDI-DrugBank.d753.s0.e5"
+            e2="DDI-DrugBank.d753.s0.e7" ddi="false"/>
+        <pair id="DDI-DrugBank.d753.s0.p37" e1="DDI-DrugBank.d753.s0.e5"
+            e2="DDI-DrugBank.d753.s0.e8" ddi="false"/>
+        <pair id="DDI-DrugBank.d753.s0.p38" e1="DDI-DrugBank.d753.s0.e5"
+            e2="DDI-DrugBank.d753.s0.e9" ddi="false"/>
+        <pair id="DDI-DrugBank.d753.s0.p39" e1="DDI-DrugBank.d753.s0.e6"
+            e2="DDI-DrugBank.d753.s0.e7" ddi="false"/>
+        <pair id="DDI-DrugBank.d753.s0.p40" e1="DDI-DrugBank.d753.s0.e6"
+            e2="DDI-DrugBank.d753.s0.e8" ddi="false"/>
+        <pair id="DDI-DrugBank.d753.s0.p41" e1="DDI-DrugBank.d753.s0.e6"
+            e2="DDI-DrugBank.d753.s0.e9" ddi="false"/>
+        <pair id="DDI-DrugBank.d753.s0.p42" e1="DDI-DrugBank.d753.s0.e7"
+            e2="DDI-DrugBank.d753.s0.e8" ddi="false"/>
+        <pair id="DDI-DrugBank.d753.s0.p43" e1="DDI-DrugBank.d753.s0.e7"
+            e2="DDI-DrugBank.d753.s0.e9" ddi="false"/>
+        <pair id="DDI-DrugBank.d753.s0.p44" e1="DDI-DrugBank.d753.s0.e8"
+            e2="DDI-DrugBank.d753.s0.e9" ddi="false"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d753.s1" text="When such combined therapy is contemplated, the dose of one or both agents should be reduced. "/>
+    <sentence id="DDI-DrugBank.d753.s2" text="Anticholinergics or other medications with anticholinergic activity when used concurrently with opioid analgesics may result in increased risk of urinary retention and/or severe constipation, which may lead to paralytic ileus. ">
+        <entity id="DDI-DrugBank.d753.s2.e0" charOffset="0-15"
+            type="group" text="Anticholinergics"/>
+        <entity id="DDI-DrugBank.d753.s2.e1" charOffset="96-112"
+            type="group" text="opioid analgesics"/>
+        <pair id="DDI-DrugBank.d753.s2.p0" e1="DDI-DrugBank.d753.s2.e0"
+            e2="DDI-DrugBank.d753.s2.e1" ddi="true" type="effect"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d753.s3" text="It has been reported that the incidence of bradycardia was increased when oxymorphone was combined with propofol for induction of anesthesia. ">
+        <entity id="DDI-DrugBank.d753.s3.e0" charOffset="74-84"
+            type="drug" text="oxymorphone"/>
+        <entity id="DDI-DrugBank.d753.s3.e1" charOffset="104-111"
+            type="drug" text="propofol"/>
+        <pair id="DDI-DrugBank.d753.s3.p0" e1="DDI-DrugBank.d753.s3.e0"
+            e2="DDI-DrugBank.d753.s3.e1" ddi="true" type="effect"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d753.s4" text="In addition, CNS toxicity has been reported (confusion, disorientation, respiratory depression, apnea, seizures) following coadministration of cimetidine with opioid analgesics; ">
+        <entity id="DDI-DrugBank.d753.s4.e0" charOffset="143-152"
+            type="drug" text="cimetidine"/>
+        <entity id="DDI-DrugBank.d753.s4.e1" charOffset="159-175"
+            type="group" text="opioid analgesics"/>
+        <pair id="DDI-DrugBank.d753.s4.p0" e1="DDI-DrugBank.d753.s4.e0"
+            e2="DDI-DrugBank.d753.s4.e1" ddi="true" type="effect"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d753.s5" text="no clear-cut cause and effect relationship was established."/>
+</document>

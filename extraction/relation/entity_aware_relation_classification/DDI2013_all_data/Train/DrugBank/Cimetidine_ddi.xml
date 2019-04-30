@@ -1,0 +1,206 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="DDI-DrugBank.d171">
+    <sentence id="DDI-DrugBank.d171.s0" text="Tagamet, apparently through an effect on certain microsomal enzyme systems, has been reported to reduce the hepatic metabolism of warfarin-type anticoagulants, phenytoin, propranolol, nifedipine, chlordiazepoxide, diazepam, certain tricyclic antidepressants, lidocaine, theophylline and metronidazole, thereby delaying elimination and increasing blood levels of these drugs.">
+        <entity id="DDI-DrugBank.d171.s0.e0" charOffset="0-6"
+            type="brand" text="Tagamet"/>
+        <entity id="DDI-DrugBank.d171.s0.e1" charOffset="130-157"
+            type="group" text="warfarin-type anticoagulants"/>
+        <entity id="DDI-DrugBank.d171.s0.e2" charOffset="160-168"
+            type="drug" text="phenytoin"/>
+        <entity id="DDI-DrugBank.d171.s0.e3" charOffset="171-181"
+            type="drug" text="propranolol"/>
+        <entity id="DDI-DrugBank.d171.s0.e4" charOffset="184-193"
+            type="drug" text="nifedipine"/>
+        <entity id="DDI-DrugBank.d171.s0.e5" charOffset="196-211"
+            type="drug" text="chlordiazepoxide"/>
+        <entity id="DDI-DrugBank.d171.s0.e6" charOffset="214-221"
+            type="drug" text="diazepam"/>
+        <entity id="DDI-DrugBank.d171.s0.e7" charOffset="232-256"
+            type="group" text="tricyclic antidepressants"/>
+        <entity id="DDI-DrugBank.d171.s0.e8" charOffset="259-267"
+            type="drug" text="lidocaine"/>
+        <entity id="DDI-DrugBank.d171.s0.e9" charOffset="270-281"
+            type="drug" text="theophylline"/>
+        <entity id="DDI-DrugBank.d171.s0.e10" charOffset="287-299"
+            type="drug" text="metronidazole"/>
+        <pair id="DDI-DrugBank.d171.s0.p0" e1="DDI-DrugBank.d171.s0.e0"
+            e2="DDI-DrugBank.d171.s0.e1" ddi="true" type="mechanism"/>
+        <pair id="DDI-DrugBank.d171.s0.p1" e1="DDI-DrugBank.d171.s0.e0"
+            e2="DDI-DrugBank.d171.s0.e2" ddi="true" type="mechanism"/>
+        <pair id="DDI-DrugBank.d171.s0.p2" e1="DDI-DrugBank.d171.s0.e0"
+            e2="DDI-DrugBank.d171.s0.e3" ddi="true" type="mechanism"/>
+        <pair id="DDI-DrugBank.d171.s0.p3" e1="DDI-DrugBank.d171.s0.e0"
+            e2="DDI-DrugBank.d171.s0.e4" ddi="true" type="mechanism"/>
+        <pair id="DDI-DrugBank.d171.s0.p4" e1="DDI-DrugBank.d171.s0.e0"
+            e2="DDI-DrugBank.d171.s0.e5" ddi="true" type="mechanism"/>
+        <pair id="DDI-DrugBank.d171.s0.p5" e1="DDI-DrugBank.d171.s0.e0"
+            e2="DDI-DrugBank.d171.s0.e6" ddi="true" type="mechanism"/>
+        <pair id="DDI-DrugBank.d171.s0.p6" e1="DDI-DrugBank.d171.s0.e0"
+            e2="DDI-DrugBank.d171.s0.e7" ddi="true" type="mechanism"/>
+        <pair id="DDI-DrugBank.d171.s0.p7" e1="DDI-DrugBank.d171.s0.e0"
+            e2="DDI-DrugBank.d171.s0.e8" ddi="true" type="mechanism"/>
+        <pair id="DDI-DrugBank.d171.s0.p8" e1="DDI-DrugBank.d171.s0.e0"
+            e2="DDI-DrugBank.d171.s0.e9" ddi="true" type="mechanism"/>
+        <pair id="DDI-DrugBank.d171.s0.p9" e1="DDI-DrugBank.d171.s0.e0"
+            e2="DDI-DrugBank.d171.s0.e10" ddi="true" type="mechanism"/>
+        <pair id="DDI-DrugBank.d171.s0.p10" e1="DDI-DrugBank.d171.s0.e1"
+            e2="DDI-DrugBank.d171.s0.e2" ddi="false"/>
+        <pair id="DDI-DrugBank.d171.s0.p11" e1="DDI-DrugBank.d171.s0.e1"
+            e2="DDI-DrugBank.d171.s0.e3" ddi="false"/>
+        <pair id="DDI-DrugBank.d171.s0.p12" e1="DDI-DrugBank.d171.s0.e1"
+            e2="DDI-DrugBank.d171.s0.e4" ddi="false"/>
+        <pair id="DDI-DrugBank.d171.s0.p13" e1="DDI-DrugBank.d171.s0.e1"
+            e2="DDI-DrugBank.d171.s0.e5" ddi="false"/>
+        <pair id="DDI-DrugBank.d171.s0.p14" e1="DDI-DrugBank.d171.s0.e1"
+            e2="DDI-DrugBank.d171.s0.e6" ddi="false"/>
+        <pair id="DDI-DrugBank.d171.s0.p15" e1="DDI-DrugBank.d171.s0.e1"
+            e2="DDI-DrugBank.d171.s0.e7" ddi="false"/>
+        <pair id="DDI-DrugBank.d171.s0.p16" e1="DDI-DrugBank.d171.s0.e1"
+            e2="DDI-DrugBank.d171.s0.e8" ddi="false"/>
+        <pair id="DDI-DrugBank.d171.s0.p17" e1="DDI-DrugBank.d171.s0.e1"
+            e2="DDI-DrugBank.d171.s0.e9" ddi="false"/>
+        <pair id="DDI-DrugBank.d171.s0.p18" e1="DDI-DrugBank.d171.s0.e1"
+            e2="DDI-DrugBank.d171.s0.e10" ddi="false"/>
+        <pair id="DDI-DrugBank.d171.s0.p19" e1="DDI-DrugBank.d171.s0.e2"
+            e2="DDI-DrugBank.d171.s0.e3" ddi="false"/>
+        <pair id="DDI-DrugBank.d171.s0.p20" e1="DDI-DrugBank.d171.s0.e2"
+            e2="DDI-DrugBank.d171.s0.e4" ddi="false"/>
+        <pair id="DDI-DrugBank.d171.s0.p21" e1="DDI-DrugBank.d171.s0.e2"
+            e2="DDI-DrugBank.d171.s0.e5" ddi="false"/>
+        <pair id="DDI-DrugBank.d171.s0.p22" e1="DDI-DrugBank.d171.s0.e2"
+            e2="DDI-DrugBank.d171.s0.e6" ddi="false"/>
+        <pair id="DDI-DrugBank.d171.s0.p23" e1="DDI-DrugBank.d171.s0.e2"
+            e2="DDI-DrugBank.d171.s0.e7" ddi="false"/>
+        <pair id="DDI-DrugBank.d171.s0.p24" e1="DDI-DrugBank.d171.s0.e2"
+            e2="DDI-DrugBank.d171.s0.e8" ddi="false"/>
+        <pair id="DDI-DrugBank.d171.s0.p25" e1="DDI-DrugBank.d171.s0.e2"
+            e2="DDI-DrugBank.d171.s0.e9" ddi="false"/>
+        <pair id="DDI-DrugBank.d171.s0.p26" e1="DDI-DrugBank.d171.s0.e2"
+            e2="DDI-DrugBank.d171.s0.e10" ddi="false"/>
+        <pair id="DDI-DrugBank.d171.s0.p27" e1="DDI-DrugBank.d171.s0.e3"
+            e2="DDI-DrugBank.d171.s0.e4" ddi="false"/>
+        <pair id="DDI-DrugBank.d171.s0.p28" e1="DDI-DrugBank.d171.s0.e3"
+            e2="DDI-DrugBank.d171.s0.e5" ddi="false"/>
+        <pair id="DDI-DrugBank.d171.s0.p29" e1="DDI-DrugBank.d171.s0.e3"
+            e2="DDI-DrugBank.d171.s0.e6" ddi="false"/>
+        <pair id="DDI-DrugBank.d171.s0.p30" e1="DDI-DrugBank.d171.s0.e3"
+            e2="DDI-DrugBank.d171.s0.e7" ddi="false"/>
+        <pair id="DDI-DrugBank.d171.s0.p31" e1="DDI-DrugBank.d171.s0.e3"
+            e2="DDI-DrugBank.d171.s0.e8" ddi="false"/>
+        <pair id="DDI-DrugBank.d171.s0.p32" e1="DDI-DrugBank.d171.s0.e3"
+            e2="DDI-DrugBank.d171.s0.e9" ddi="false"/>
+        <pair id="DDI-DrugBank.d171.s0.p33" e1="DDI-DrugBank.d171.s0.e3"
+            e2="DDI-DrugBank.d171.s0.e10" ddi="false"/>
+        <pair id="DDI-DrugBank.d171.s0.p34" e1="DDI-DrugBank.d171.s0.e4"
+            e2="DDI-DrugBank.d171.s0.e5" ddi="false"/>
+        <pair id="DDI-DrugBank.d171.s0.p35" e1="DDI-DrugBank.d171.s0.e4"
+            e2="DDI-DrugBank.d171.s0.e6" ddi="false"/>
+        <pair id="DDI-DrugBank.d171.s0.p36" e1="DDI-DrugBank.d171.s0.e4"
+            e2="DDI-DrugBank.d171.s0.e7" ddi="false"/>
+        <pair id="DDI-DrugBank.d171.s0.p37" e1="DDI-DrugBank.d171.s0.e4"
+            e2="DDI-DrugBank.d171.s0.e8" ddi="false"/>
+        <pair id="DDI-DrugBank.d171.s0.p38" e1="DDI-DrugBank.d171.s0.e4"
+            e2="DDI-DrugBank.d171.s0.e9" ddi="false"/>
+        <pair id="DDI-DrugBank.d171.s0.p39" e1="DDI-DrugBank.d171.s0.e4"
+            e2="DDI-DrugBank.d171.s0.e10" ddi="false"/>
+        <pair id="DDI-DrugBank.d171.s0.p40" e1="DDI-DrugBank.d171.s0.e5"
+            e2="DDI-DrugBank.d171.s0.e6" ddi="false"/>
+        <pair id="DDI-DrugBank.d171.s0.p41" e1="DDI-DrugBank.d171.s0.e5"
+            e2="DDI-DrugBank.d171.s0.e7" ddi="false"/>
+        <pair id="DDI-DrugBank.d171.s0.p42" e1="DDI-DrugBank.d171.s0.e5"
+            e2="DDI-DrugBank.d171.s0.e8" ddi="false"/>
+        <pair id="DDI-DrugBank.d171.s0.p43" e1="DDI-DrugBank.d171.s0.e5"
+            e2="DDI-DrugBank.d171.s0.e9" ddi="false"/>
+        <pair id="DDI-DrugBank.d171.s0.p44" e1="DDI-DrugBank.d171.s0.e5"
+            e2="DDI-DrugBank.d171.s0.e10" ddi="false"/>
+        <pair id="DDI-DrugBank.d171.s0.p45" e1="DDI-DrugBank.d171.s0.e6"
+            e2="DDI-DrugBank.d171.s0.e7" ddi="false"/>
+        <pair id="DDI-DrugBank.d171.s0.p46" e1="DDI-DrugBank.d171.s0.e6"
+            e2="DDI-DrugBank.d171.s0.e8" ddi="false"/>
+        <pair id="DDI-DrugBank.d171.s0.p47" e1="DDI-DrugBank.d171.s0.e6"
+            e2="DDI-DrugBank.d171.s0.e9" ddi="false"/>
+        <pair id="DDI-DrugBank.d171.s0.p48" e1="DDI-DrugBank.d171.s0.e6"
+            e2="DDI-DrugBank.d171.s0.e10" ddi="false"/>
+        <pair id="DDI-DrugBank.d171.s0.p49" e1="DDI-DrugBank.d171.s0.e7"
+            e2="DDI-DrugBank.d171.s0.e8" ddi="false"/>
+        <pair id="DDI-DrugBank.d171.s0.p50" e1="DDI-DrugBank.d171.s0.e7"
+            e2="DDI-DrugBank.d171.s0.e9" ddi="false"/>
+        <pair id="DDI-DrugBank.d171.s0.p51" e1="DDI-DrugBank.d171.s0.e7"
+            e2="DDI-DrugBank.d171.s0.e10" ddi="false"/>
+        <pair id="DDI-DrugBank.d171.s0.p52" e1="DDI-DrugBank.d171.s0.e8"
+            e2="DDI-DrugBank.d171.s0.e9" ddi="false"/>
+        <pair id="DDI-DrugBank.d171.s0.p53" e1="DDI-DrugBank.d171.s0.e8"
+            e2="DDI-DrugBank.d171.s0.e10" ddi="false"/>
+        <pair id="DDI-DrugBank.d171.s0.p54" e1="DDI-DrugBank.d171.s0.e9"
+            e2="DDI-DrugBank.d171.s0.e10" ddi="false"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d171.s1" text="Clinically significant effects have been reported with the warfarin anticoagulants;">
+        <entity id="DDI-DrugBank.d171.s1.e0" charOffset="59-81"
+            type="group" text="warfarin anticoagulants"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d171.s2" text="therefore, close monitoring of prothrombin time is recommended, and adjustment of the anticoagulant dose may be necessary when Tagamet is administered concomitantly.">
+        <entity id="DDI-DrugBank.d171.s2.e0" charOffset="86-98"
+            type="group" text="anticoagulant"/>
+        <entity id="DDI-DrugBank.d171.s2.e1" charOffset="127-133"
+            type="brand" text="Tagamet"/>
+        <pair id="DDI-DrugBank.d171.s2.p0" e1="DDI-DrugBank.d171.s2.e0"
+            e2="DDI-DrugBank.d171.s2.e1" ddi="true" type="advise"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d171.s3" text="Interaction with phenytoin, lidocaine and theophylline has also been reported to produce adverse clinical effects.">
+        <entity id="DDI-DrugBank.d171.s3.e0" charOffset="17-25"
+            type="drug" text="phenytoin"/>
+        <entity id="DDI-DrugBank.d171.s3.e1" charOffset="28-36"
+            type="drug" text="lidocaine"/>
+        <entity id="DDI-DrugBank.d171.s3.e2" charOffset="42-53"
+            type="drug" text="theophylline"/>
+        <pair id="DDI-DrugBank.d171.s3.p0" e1="DDI-DrugBank.d171.s3.e0"
+            e2="DDI-DrugBank.d171.s3.e1" ddi="false"/>
+        <pair id="DDI-DrugBank.d171.s3.p1" e1="DDI-DrugBank.d171.s3.e0"
+            e2="DDI-DrugBank.d171.s3.e2" ddi="false"/>
+        <pair id="DDI-DrugBank.d171.s3.p2" e1="DDI-DrugBank.d171.s3.e1"
+            e2="DDI-DrugBank.d171.s3.e2" ddi="false"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d171.s4" text="However, a crossover study in healthy subjects receiving either Tagamet 300 mg q.i.d. or 800 mg h.s. concomitantly with a 300 mg b.i.d. dosage of theophylline (Theo-Dur , Key Pharmaceuticals, Inc.) demonstrated less alteration in steady-state theophylline peak serum levels with the 800 mg h.s. regimen, particularly in subjects aged 54 years and older.">
+        <entity id="DDI-DrugBank.d171.s4.e0" charOffset="64-70"
+            type="brand" text="Tagamet"/>
+        <entity id="DDI-DrugBank.d171.s4.e1" charOffset="146-157"
+            type="drug" text="theophylline"/>
+        <entity id="DDI-DrugBank.d171.s4.e2" charOffset="160-167"
+            type="brand" text="Theo-Dur"/>
+        <entity id="DDI-DrugBank.d171.s4.e3" charOffset="243-254"
+            type="drug" text="theophylline"/>
+        <pair id="DDI-DrugBank.d171.s4.p0" e1="DDI-DrugBank.d171.s4.e0"
+            e2="DDI-DrugBank.d171.s4.e1" ddi="true" type="mechanism"/>
+        <pair id="DDI-DrugBank.d171.s4.p1" e1="DDI-DrugBank.d171.s4.e0"
+            e2="DDI-DrugBank.d171.s4.e2" ddi="true" type="mechanism"/>
+        <pair id="DDI-DrugBank.d171.s4.p2" e1="DDI-DrugBank.d171.s4.e0"
+            e2="DDI-DrugBank.d171.s4.e3" ddi="false"/>
+        <pair id="DDI-DrugBank.d171.s4.p3" e1="DDI-DrugBank.d171.s4.e1"
+            e2="DDI-DrugBank.d171.s4.e2" ddi="false"/>
+        <pair id="DDI-DrugBank.d171.s4.p4" e1="DDI-DrugBank.d171.s4.e1"
+            e2="DDI-DrugBank.d171.s4.e3" ddi="false"/>
+        <pair id="DDI-DrugBank.d171.s4.p5" e1="DDI-DrugBank.d171.s4.e2"
+            e2="DDI-DrugBank.d171.s4.e3" ddi="false"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d171.s5" text="Data beyond 10 days are not available."/>
+    <sentence id="DDI-DrugBank.d171.s6" text="(Note: All patients receiving theophylline should be monitored appropriately, regardless of concomitant drug therapy.)">
+        <entity id="DDI-DrugBank.d171.s6.e0" charOffset="30-41"
+            type="drug" text="theophylline"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d171.s7" text="Dosage of the drugs mentioned above and other similarly metabolized drugs, particularly those of low therapeutic ratio or in patients with renal and/or hepatic impairment, may require adjustment when starting or stopping concomitantly administered Tagamet to maintain optimum therapeutic blood levels.">
+        <entity id="DDI-DrugBank.d171.s7.e0" charOffset="248-254"
+            type="brand" text="Tagamet"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d171.s8" text="Alteration of pH may affect absorption of certain drugs (e.g., ketoconazole).">
+        <entity id="DDI-DrugBank.d171.s8.e0" charOffset="63-74"
+            type="drug" text="ketoconazole"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d171.s9" text="If these products are needed, they should be given at least 2 hours before cimetidine administration.">
+        <entity id="DDI-DrugBank.d171.s9.e0" charOffset="75-84"
+            type="drug" text="cimetidine"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d171.s10" text="Additional clinical experience may reveal other drugs affected by the concomitant administration of Tagamet.">
+        <entity id="DDI-DrugBank.d171.s10.e0" charOffset="100-106"
+            type="brand" text="Tagamet"/>
+    </sentence>
+</document>

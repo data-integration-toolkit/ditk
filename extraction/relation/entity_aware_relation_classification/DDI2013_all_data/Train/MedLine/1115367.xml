@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="DDI-MedLine.d16">
+    <sentence id="DDI-MedLine.d16.s0" text="Interaction of ketamine and halothane in rats.&#xa;">
+        <entity id="DDI-MedLine.d16.s0.e0" charOffset="15-22"
+            type="drug" text="ketamine"/>
+        <entity id="DDI-MedLine.d16.s0.e1" charOffset="28-36"
+            type="drug" text="halothane"/>
+        <pair id="DDI-MedLine.d16.s0.p0" e1="DDI-MedLine.d16.s0.e0"
+            e2="DDI-MedLine.d16.s0.e1" ddi="true" type="int"/>
+    </sentence>
+    <sentence id="DDI-MedLine.d16.s1" text="The interaction of intramuscularly injected ketamine and its N-demethylated metabolite (metabolite I) with halothane was evaluated in rats. ">
+        <entity id="DDI-MedLine.d16.s1.e0" charOffset="44-51"
+            type="drug" text="ketamine"/>
+        <entity id="DDI-MedLine.d16.s1.e1" charOffset="107-115"
+            type="drug" text="halothane"/>
+        <pair id="DDI-MedLine.d16.s1.p0" e1="DDI-MedLine.d16.s1.e0"
+            e2="DDI-MedLine.d16.s1.e1" ddi="false"/>
+    </sentence>
+    <sentence id="DDI-MedLine.d16.s2" text="Five, 10, 20, or 50 mg/kg of ketamine alone or 20, 50, or 100 mg/kg of metabolite I alone produced less than 10 minutes of hypnosis. ">
+        <entity id="DDI-MedLine.d16.s2.e0" charOffset="29-36"
+            type="drug" text="ketamine"/>
+    </sentence>
+    <sentence id="DDI-MedLine.d16.s3" text="However, halothane anesthetic requirement (i.e., MAC) was depressed in a dose-dependent fashion as much as 56% 1-2 hours and as much as 14% 5-6 hours after injection of ketamine, 50 mg/kg, im. ">
+        <entity id="DDI-MedLine.d16.s3.e0" charOffset="9-17" type="drug" text="halothane"/>
+        <entity id="DDI-MedLine.d16.s3.e1" charOffset="169-176"
+            type="drug" text="ketamine"/>
+        <pair id="DDI-MedLine.d16.s3.p0" e1="DDI-MedLine.d16.s3.e0"
+            e2="DDI-MedLine.d16.s3.e1" ddi="true" type="mechanism"/>
+    </sentence>
+    <sentence id="DDI-MedLine.d16.s4" text="The reduction in MAC was correlated with brain levels of ketamine or metabolite I, suggesting a ketamine:metabolite I potency ration of 3:1. ">
+        <entity id="DDI-MedLine.d16.s4.e0" charOffset="57-64"
+            type="drug" text="ketamine"/>
+        <entity id="DDI-MedLine.d16.s4.e1" charOffset="96-103"
+            type="drug" text="ketamine"/>
+        <pair id="DDI-MedLine.d16.s4.p0" e1="DDI-MedLine.d16.s4.e0"
+            e2="DDI-MedLine.d16.s4.e1" ddi="false"/>
+    </sentence>
+    <sentence id="DDI-MedLine.d16.s5" text="The half-life of ketamine in plasma and brain was longer in the presence of halothane than when ketamine was given alone. ">
+        <entity id="DDI-MedLine.d16.s5.e0" charOffset="17-24"
+            type="drug" text="ketamine"/>
+        <entity id="DDI-MedLine.d16.s5.e1" charOffset="76-84"
+            type="drug" text="halothane"/>
+        <entity id="DDI-MedLine.d16.s5.e2" charOffset="96-103"
+            type="drug" text="ketamine"/>
+        <pair id="DDI-MedLine.d16.s5.p0" e1="DDI-MedLine.d16.s5.e0"
+            e2="DDI-MedLine.d16.s5.e1" ddi="true" type="mechanism"/>
+        <pair id="DDI-MedLine.d16.s5.p1" e1="DDI-MedLine.d16.s5.e0"
+            e2="DDI-MedLine.d16.s5.e2" ddi="false"/>
+        <pair id="DDI-MedLine.d16.s5.p2" e1="DDI-MedLine.d16.s5.e1"
+            e2="DDI-MedLine.d16.s5.e2" ddi="false"/>
+    </sentence>
+    <sentence id="DDI-MedLine.d16.s6" text="It is concluded that ketamine is not a short-acting drug and that concomitant use with halothane would be expected to prolong further the duration of its action on the central nervous system.">
+        <entity id="DDI-MedLine.d16.s6.e0" charOffset="21-28"
+            type="drug" text="ketamine"/>
+        <entity id="DDI-MedLine.d16.s6.e1" charOffset="87-95"
+            type="drug" text="halothane"/>
+        <pair id="DDI-MedLine.d16.s6.p0" e1="DDI-MedLine.d16.s6.e0"
+            e2="DDI-MedLine.d16.s6.e1" ddi="true" type="effect"/>
+    </sentence>
+</document>

@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="DDI-DrugBank.d18">
+    <sentence id="DDI-DrugBank.d18.s0" text="Tablets: The benzodiazepines, including lorazepam, produce CNS-depressant effects when administered with such medications as barbiturates or alcohol.">
+        <entity id="DDI-DrugBank.d18.s0.e0" charOffset="13-27"
+            type="group" text="benzodiazepines"/>
+        <entity id="DDI-DrugBank.d18.s0.e1" charOffset="40-48"
+            type="drug" text="lorazepam"/>
+        <entity id="DDI-DrugBank.d18.s0.e2" charOffset="125-136"
+            type="group" text="barbiturates"/>
+        <entity id="DDI-DrugBank.d18.s0.e3" charOffset="141-147"
+            type="drug" text="alcohol"/>
+        <pair id="DDI-DrugBank.d18.s0.p0" e1="DDI-DrugBank.d18.s0.e0"
+            e2="DDI-DrugBank.d18.s0.e1" ddi="false"/>
+        <pair id="DDI-DrugBank.d18.s0.p1" e1="DDI-DrugBank.d18.s0.e0"
+            e2="DDI-DrugBank.d18.s0.e2" ddi="true" type="effect"/>
+        <pair id="DDI-DrugBank.d18.s0.p2" e1="DDI-DrugBank.d18.s0.e0"
+            e2="DDI-DrugBank.d18.s0.e3" ddi="true" type="effect"/>
+        <pair id="DDI-DrugBank.d18.s0.p3" e1="DDI-DrugBank.d18.s0.e1"
+            e2="DDI-DrugBank.d18.s0.e2" ddi="true" type="effect"/>
+        <pair id="DDI-DrugBank.d18.s0.p4" e1="DDI-DrugBank.d18.s0.e1"
+            e2="DDI-DrugBank.d18.s0.e3" ddi="true" type="effect"/>
+        <pair id="DDI-DrugBank.d18.s0.p5" e1="DDI-DrugBank.d18.s0.e2"
+            e2="DDI-DrugBank.d18.s0.e3" ddi="false"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d18.s1" text="Injection: Lorazepam injection, like other injectable benzodiazepines, produces depression of the central nervous system when administered with ethyl alcohol, phenothiazines, barbiturates, MAO inhibitors, and other antidepressants.When scopolamine is used concomitantly with injectable lorazepam, an increased incidence of sedation, hallucinations, and irrational behavior has been observed.">
+        <entity id="DDI-DrugBank.d18.s1.e0" charOffset="11-19"
+            type="drug" text="Lorazepam"/>
+        <entity id="DDI-DrugBank.d18.s1.e1" charOffset="54-68"
+            type="group" text="benzodiazepines"/>
+        <entity id="DDI-DrugBank.d18.s1.e2" charOffset="144-156"
+            type="drug" text="ethyl alcohol"/>
+        <entity id="DDI-DrugBank.d18.s1.e3" charOffset="159-172"
+            type="group" text="phenothiazines"/>
+        <entity id="DDI-DrugBank.d18.s1.e4" charOffset="175-186"
+            type="group" text="barbiturates"/>
+        <entity id="DDI-DrugBank.d18.s1.e5" charOffset="189-202"
+            type="group" text="MAO inhibitors"/>
+        <entity id="DDI-DrugBank.d18.s1.e6" charOffset="215-229"
+            type="group" text="antidepressants"/>
+        <entity id="DDI-DrugBank.d18.s1.e7" charOffset="236-246"
+            type="drug" text="scopolamine"/>
+        <entity id="DDI-DrugBank.d18.s1.e8" charOffset="286-294"
+            type="drug" text="lorazepam"/>
+        <pair id="DDI-DrugBank.d18.s1.p0" e1="DDI-DrugBank.d18.s1.e0"
+            e2="DDI-DrugBank.d18.s1.e1" ddi="false"/>
+        <pair id="DDI-DrugBank.d18.s1.p1" e1="DDI-DrugBank.d18.s1.e0"
+            e2="DDI-DrugBank.d18.s1.e2" ddi="true" type="effect"/>
+        <pair id="DDI-DrugBank.d18.s1.p2" e1="DDI-DrugBank.d18.s1.e0"
+            e2="DDI-DrugBank.d18.s1.e3" ddi="true" type="effect"/>
+        <pair id="DDI-DrugBank.d18.s1.p3" e1="DDI-DrugBank.d18.s1.e0"
+            e2="DDI-DrugBank.d18.s1.e4" ddi="true" type="effect"/>
+        <pair id="DDI-DrugBank.d18.s1.p4" e1="DDI-DrugBank.d18.s1.e0"
+            e2="DDI-DrugBank.d18.s1.e5" ddi="true" type="effect"/>
+        <pair id="DDI-DrugBank.d18.s1.p5" e1="DDI-DrugBank.d18.s1.e0"
+            e2="DDI-DrugBank.d18.s1.e6" ddi="true" type="effect"/>
+        <pair id="DDI-DrugBank.d18.s1.p6" e1="DDI-DrugBank.d18.s1.e0"
+            e2="DDI-DrugBank.d18.s1.e7" ddi="false"/>
+        <pair id="DDI-DrugBank.d18.s1.p7" e1="DDI-DrugBank.d18.s1.e0"
+            e2="DDI-DrugBank.d18.s1.e8" ddi="false"/>
+        <pair id="DDI-DrugBank.d18.s1.p8" e1="DDI-DrugBank.d18.s1.e1"
+            e2="DDI-DrugBank.d18.s1.e2" ddi="true" type="effect"/>
+        <pair id="DDI-DrugBank.d18.s1.p9" e1="DDI-DrugBank.d18.s1.e1"
+            e2="DDI-DrugBank.d18.s1.e3" ddi="true" type="effect"/>
+        <pair id="DDI-DrugBank.d18.s1.p10" e1="DDI-DrugBank.d18.s1.e1"
+            e2="DDI-DrugBank.d18.s1.e4" ddi="true" type="effect"/>
+        <pair id="DDI-DrugBank.d18.s1.p11" e1="DDI-DrugBank.d18.s1.e1"
+            e2="DDI-DrugBank.d18.s1.e5" ddi="true" type="effect"/>
+        <pair id="DDI-DrugBank.d18.s1.p12" e1="DDI-DrugBank.d18.s1.e1"
+            e2="DDI-DrugBank.d18.s1.e6" ddi="true" type="effect"/>
+        <pair id="DDI-DrugBank.d18.s1.p13" e1="DDI-DrugBank.d18.s1.e1"
+            e2="DDI-DrugBank.d18.s1.e7" ddi="false"/>
+        <pair id="DDI-DrugBank.d18.s1.p14" e1="DDI-DrugBank.d18.s1.e1"
+            e2="DDI-DrugBank.d18.s1.e8" ddi="false"/>
+        <pair id="DDI-DrugBank.d18.s1.p15" e1="DDI-DrugBank.d18.s1.e2"
+            e2="DDI-DrugBank.d18.s1.e3" ddi="false"/>
+        <pair id="DDI-DrugBank.d18.s1.p16" e1="DDI-DrugBank.d18.s1.e2"
+            e2="DDI-DrugBank.d18.s1.e4" ddi="false"/>
+        <pair id="DDI-DrugBank.d18.s1.p17" e1="DDI-DrugBank.d18.s1.e2"
+            e2="DDI-DrugBank.d18.s1.e5" ddi="false"/>
+        <pair id="DDI-DrugBank.d18.s1.p18" e1="DDI-DrugBank.d18.s1.e2"
+            e2="DDI-DrugBank.d18.s1.e6" ddi="false"/>
+        <pair id="DDI-DrugBank.d18.s1.p19" e1="DDI-DrugBank.d18.s1.e2"
+            e2="DDI-DrugBank.d18.s1.e7" ddi="false"/>
+        <pair id="DDI-DrugBank.d18.s1.p20" e1="DDI-DrugBank.d18.s1.e2"
+            e2="DDI-DrugBank.d18.s1.e8" ddi="false"/>
+        <pair id="DDI-DrugBank.d18.s1.p21" e1="DDI-DrugBank.d18.s1.e3"
+            e2="DDI-DrugBank.d18.s1.e4" ddi="false"/>
+        <pair id="DDI-DrugBank.d18.s1.p22" e1="DDI-DrugBank.d18.s1.e3"
+            e2="DDI-DrugBank.d18.s1.e5" ddi="false"/>
+        <pair id="DDI-DrugBank.d18.s1.p23" e1="DDI-DrugBank.d18.s1.e3"
+            e2="DDI-DrugBank.d18.s1.e6" ddi="false"/>
+        <pair id="DDI-DrugBank.d18.s1.p24" e1="DDI-DrugBank.d18.s1.e3"
+            e2="DDI-DrugBank.d18.s1.e7" ddi="false"/>
+        <pair id="DDI-DrugBank.d18.s1.p25" e1="DDI-DrugBank.d18.s1.e3"
+            e2="DDI-DrugBank.d18.s1.e8" ddi="false"/>
+        <pair id="DDI-DrugBank.d18.s1.p26" e1="DDI-DrugBank.d18.s1.e4"
+            e2="DDI-DrugBank.d18.s1.e5" ddi="false"/>
+        <pair id="DDI-DrugBank.d18.s1.p27" e1="DDI-DrugBank.d18.s1.e4"
+            e2="DDI-DrugBank.d18.s1.e6" ddi="false"/>
+        <pair id="DDI-DrugBank.d18.s1.p28" e1="DDI-DrugBank.d18.s1.e4"
+            e2="DDI-DrugBank.d18.s1.e7" ddi="false"/>
+        <pair id="DDI-DrugBank.d18.s1.p29" e1="DDI-DrugBank.d18.s1.e4"
+            e2="DDI-DrugBank.d18.s1.e8" ddi="false"/>
+        <pair id="DDI-DrugBank.d18.s1.p30" e1="DDI-DrugBank.d18.s1.e5"
+            e2="DDI-DrugBank.d18.s1.e6" ddi="false"/>
+        <pair id="DDI-DrugBank.d18.s1.p31" e1="DDI-DrugBank.d18.s1.e5"
+            e2="DDI-DrugBank.d18.s1.e7" ddi="false"/>
+        <pair id="DDI-DrugBank.d18.s1.p32" e1="DDI-DrugBank.d18.s1.e5"
+            e2="DDI-DrugBank.d18.s1.e8" ddi="false"/>
+        <pair id="DDI-DrugBank.d18.s1.p33" e1="DDI-DrugBank.d18.s1.e6"
+            e2="DDI-DrugBank.d18.s1.e7" ddi="false"/>
+        <pair id="DDI-DrugBank.d18.s1.p34" e1="DDI-DrugBank.d18.s1.e6"
+            e2="DDI-DrugBank.d18.s1.e8" ddi="false"/>
+        <pair id="DDI-DrugBank.d18.s1.p35" e1="DDI-DrugBank.d18.s1.e7"
+            e2="DDI-DrugBank.d18.s1.e8" ddi="true" type="effect"/>
+    </sentence>
+</document>

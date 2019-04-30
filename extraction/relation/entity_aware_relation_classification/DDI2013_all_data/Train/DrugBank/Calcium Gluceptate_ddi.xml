@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="DDI-DrugBank.d406">
+    <sentence id="DDI-DrugBank.d406.s0" text="May interact with cefamandole naftate, cephalothin sodium, magnesium sulfate, prednisolone sodium succinate, and prochlorperazine edisylate.">
+        <entity id="DDI-DrugBank.d406.s0.e0" charOffset="18-36"
+            type="drug" text="cefamandole naftate"/>
+        <entity id="DDI-DrugBank.d406.s0.e1" charOffset="39-56"
+            type="drug" text="cephalothin sodium"/>
+        <entity id="DDI-DrugBank.d406.s0.e2" charOffset="59-75"
+            type="drug" text="magnesium sulfate"/>
+        <entity id="DDI-DrugBank.d406.s0.e3" charOffset="78-106"
+            type="drug" text="prednisolone sodium succinate"/>
+        <entity id="DDI-DrugBank.d406.s0.e4" charOffset="113-138"
+            type="drug" text="prochlorperazine edisylate"/>
+        <pair id="DDI-DrugBank.d406.s0.p0" e1="DDI-DrugBank.d406.s0.e0"
+            e2="DDI-DrugBank.d406.s0.e1" ddi="false"/>
+        <pair id="DDI-DrugBank.d406.s0.p1" e1="DDI-DrugBank.d406.s0.e0"
+            e2="DDI-DrugBank.d406.s0.e2" ddi="false"/>
+        <pair id="DDI-DrugBank.d406.s0.p2" e1="DDI-DrugBank.d406.s0.e0"
+            e2="DDI-DrugBank.d406.s0.e3" ddi="false"/>
+        <pair id="DDI-DrugBank.d406.s0.p3" e1="DDI-DrugBank.d406.s0.e0"
+            e2="DDI-DrugBank.d406.s0.e4" ddi="false"/>
+        <pair id="DDI-DrugBank.d406.s0.p4" e1="DDI-DrugBank.d406.s0.e1"
+            e2="DDI-DrugBank.d406.s0.e2" ddi="false"/>
+        <pair id="DDI-DrugBank.d406.s0.p5" e1="DDI-DrugBank.d406.s0.e1"
+            e2="DDI-DrugBank.d406.s0.e3" ddi="false"/>
+        <pair id="DDI-DrugBank.d406.s0.p6" e1="DDI-DrugBank.d406.s0.e1"
+            e2="DDI-DrugBank.d406.s0.e4" ddi="false"/>
+        <pair id="DDI-DrugBank.d406.s0.p7" e1="DDI-DrugBank.d406.s0.e2"
+            e2="DDI-DrugBank.d406.s0.e3" ddi="false"/>
+        <pair id="DDI-DrugBank.d406.s0.p8" e1="DDI-DrugBank.d406.s0.e2"
+            e2="DDI-DrugBank.d406.s0.e4" ddi="false"/>
+        <pair id="DDI-DrugBank.d406.s0.p9" e1="DDI-DrugBank.d406.s0.e3"
+            e2="DDI-DrugBank.d406.s0.e4" ddi="false"/>
+    </sentence>
+</document>

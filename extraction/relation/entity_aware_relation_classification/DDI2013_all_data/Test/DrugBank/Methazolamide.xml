@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="DDI-DrugBank.d630">
+    <sentence id="DDI-DrugBank.d630.s0" text="Methazolamide should be used with caution in patients on steroid therapy because of the potential for developing hypokalemia. ">
+        <entity id="DDI-DrugBank.d630.s0.e0" charOffset="0-12"
+            type="drug" text="Methazolamide"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d630.s1" text="Caution is advised for patients receiving high-dose aspirin and methazolamide concomitantly, as anorexia, tachypnea, lethargy, coma and death have been reported with concomitant use of high-dose aspirin and carbonic anhydrase inhibitors.">
+        <entity id="DDI-DrugBank.d630.s1.e0" charOffset="52-58"
+            type="brand" text="aspirin"/>
+        <entity id="DDI-DrugBank.d630.s1.e1" charOffset="64-76"
+            type="drug" text="methazolamide"/>
+        <entity id="DDI-DrugBank.d630.s1.e2" charOffset="195-201"
+            type="brand" text="aspirin"/>
+        <entity id="DDI-DrugBank.d630.s1.e3" charOffset="207-235"
+            type="group" text="carbonic anhydrase inhibitors"/>
+        <pair id="DDI-DrugBank.d630.s1.p0" e1="DDI-DrugBank.d630.s1.e0"
+            e2="DDI-DrugBank.d630.s1.e1" ddi="true" type="advise"/>
+        <pair id="DDI-DrugBank.d630.s1.p1" e1="DDI-DrugBank.d630.s1.e0"
+            e2="DDI-DrugBank.d630.s1.e2" ddi="false"/>
+        <pair id="DDI-DrugBank.d630.s1.p2" e1="DDI-DrugBank.d630.s1.e0"
+            e2="DDI-DrugBank.d630.s1.e3" ddi="false"/>
+        <pair id="DDI-DrugBank.d630.s1.p3" e1="DDI-DrugBank.d630.s1.e1"
+            e2="DDI-DrugBank.d630.s1.e2" ddi="false"/>
+        <pair id="DDI-DrugBank.d630.s1.p4" e1="DDI-DrugBank.d630.s1.e1"
+            e2="DDI-DrugBank.d630.s1.e3" ddi="false"/>
+        <pair id="DDI-DrugBank.d630.s1.p5" e1="DDI-DrugBank.d630.s1.e2"
+            e2="DDI-DrugBank.d630.s1.e3" ddi="true" type="effect"/>
+    </sentence>
+</document>

@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="DDI-DrugBank.d559">
+    <sentence id="DDI-DrugBank.d559.s0" text="The CNS effects of butalbital may be enhanced by monoamine oxidase (MAO) inhibitors.">
+        <entity id="DDI-DrugBank.d559.s0.e0" charOffset="19-28"
+            type="drug" text="butalbital"/>
+        <entity id="DDI-DrugBank.d559.s0.e1" charOffset="49-82"
+            type="group" text="monoamine oxidase (MAO) inhibitors"/>
+        <pair id="DDI-DrugBank.d559.s0.p0" e1="DDI-DrugBank.d559.s0.e0"
+            e2="DDI-DrugBank.d559.s0.e1" ddi="true" type="effect"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d559.s1" text="Butalbital, acetaminophen and caffeine may enhance the effects of: other narcotic analgesics, alcohol, general anesthetics, tranquilizers such as chlordiazepoxide, sedative-hypnotics, or other CNS depressants, causing increased CNS depression.">
+        <entity id="DDI-DrugBank.d559.s1.e0" charOffset="0-9"
+            type="drug" text="Butalbital"/>
+        <entity id="DDI-DrugBank.d559.s1.e1" charOffset="12-24"
+            type="drug" text="acetaminophen"/>
+        <entity id="DDI-DrugBank.d559.s1.e2" charOffset="30-37"
+            type="drug" text="caffeine"/>
+        <entity id="DDI-DrugBank.d559.s1.e3" charOffset="73-90"
+            type="group" text="narcotic analgesic"/>
+        <entity id="DDI-DrugBank.d559.s1.e4" charOffset="94-100"
+            type="drug" text="alcohol"/>
+        <entity id="DDI-DrugBank.d559.s1.e5" charOffset="111-121"
+            type="group" text="anesthetics"/>
+        <entity id="DDI-DrugBank.d559.s1.e6" charOffset="124-136"
+            type="group" text="tranquilizers"/>
+        <entity id="DDI-DrugBank.d559.s1.e7" charOffset="146-161"
+            type="drug" text="chlordiazepoxide"/>
+        <entity id="DDI-DrugBank.d559.s1.e8" charOffset="164-181"
+            type="group" text="sedative-hypnotics"/>
+        <entity id="DDI-DrugBank.d559.s1.e9" charOffset="193-207"
+            type="group" text="CNS depressants"/>
+        <pair id="DDI-DrugBank.d559.s1.p0" e1="DDI-DrugBank.d559.s1.e0"
+            e2="DDI-DrugBank.d559.s1.e1" ddi="false"/>
+        <pair id="DDI-DrugBank.d559.s1.p1" e1="DDI-DrugBank.d559.s1.e0"
+            e2="DDI-DrugBank.d559.s1.e2" ddi="false"/>
+        <pair id="DDI-DrugBank.d559.s1.p2" e1="DDI-DrugBank.d559.s1.e0"
+            e2="DDI-DrugBank.d559.s1.e3" ddi="true" type="effect"/>
+        <pair id="DDI-DrugBank.d559.s1.p3" e1="DDI-DrugBank.d559.s1.e0"
+            e2="DDI-DrugBank.d559.s1.e4" ddi="true" type="effect"/>
+        <pair id="DDI-DrugBank.d559.s1.p4" e1="DDI-DrugBank.d559.s1.e0"
+            e2="DDI-DrugBank.d559.s1.e5" ddi="true" type="effect"/>
+        <pair id="DDI-DrugBank.d559.s1.p5" e1="DDI-DrugBank.d559.s1.e0"
+            e2="DDI-DrugBank.d559.s1.e6" ddi="true" type="effect"/>
+        <pair id="DDI-DrugBank.d559.s1.p6" e1="DDI-DrugBank.d559.s1.e0"
+            e2="DDI-DrugBank.d559.s1.e7" ddi="true" type="effect"/>
+        <pair id="DDI-DrugBank.d559.s1.p7" e1="DDI-DrugBank.d559.s1.e0"
+            e2="DDI-DrugBank.d559.s1.e8" ddi="true" type="effect"/>
+        <pair id="DDI-DrugBank.d559.s1.p8" e1="DDI-DrugBank.d559.s1.e0"
+            e2="DDI-DrugBank.d559.s1.e9" ddi="true" type="effect"/>
+        <pair id="DDI-DrugBank.d559.s1.p9" e1="DDI-DrugBank.d559.s1.e1"
+            e2="DDI-DrugBank.d559.s1.e2" ddi="false"/>
+        <pair id="DDI-DrugBank.d559.s1.p10" e1="DDI-DrugBank.d559.s1.e1"
+            e2="DDI-DrugBank.d559.s1.e3" ddi="true" type="effect"/>
+        <pair id="DDI-DrugBank.d559.s1.p11" e1="DDI-DrugBank.d559.s1.e1"
+            e2="DDI-DrugBank.d559.s1.e4" ddi="true" type="effect"/>
+        <pair id="DDI-DrugBank.d559.s1.p12" e1="DDI-DrugBank.d559.s1.e1"
+            e2="DDI-DrugBank.d559.s1.e5" ddi="true" type="effect"/>
+        <pair id="DDI-DrugBank.d559.s1.p13" e1="DDI-DrugBank.d559.s1.e1"
+            e2="DDI-DrugBank.d559.s1.e6" ddi="true" type="effect"/>
+        <pair id="DDI-DrugBank.d559.s1.p14" e1="DDI-DrugBank.d559.s1.e1"
+            e2="DDI-DrugBank.d559.s1.e7" ddi="true" type="effect"/>
+        <pair id="DDI-DrugBank.d559.s1.p15" e1="DDI-DrugBank.d559.s1.e1"
+            e2="DDI-DrugBank.d559.s1.e8" ddi="true" type="effect"/>
+        <pair id="DDI-DrugBank.d559.s1.p16" e1="DDI-DrugBank.d559.s1.e1"
+            e2="DDI-DrugBank.d559.s1.e9" ddi="true" type="effect"/>
+        <pair id="DDI-DrugBank.d559.s1.p17" e1="DDI-DrugBank.d559.s1.e2"
+            e2="DDI-DrugBank.d559.s1.e3" ddi="true" type="effect"/>
+        <pair id="DDI-DrugBank.d559.s1.p18" e1="DDI-DrugBank.d559.s1.e2"
+            e2="DDI-DrugBank.d559.s1.e4" ddi="true" type="effect"/>
+        <pair id="DDI-DrugBank.d559.s1.p19" e1="DDI-DrugBank.d559.s1.e2"
+            e2="DDI-DrugBank.d559.s1.e5" ddi="true" type="effect"/>
+        <pair id="DDI-DrugBank.d559.s1.p20" e1="DDI-DrugBank.d559.s1.e2"
+            e2="DDI-DrugBank.d559.s1.e6" ddi="true" type="effect"/>
+        <pair id="DDI-DrugBank.d559.s1.p21" e1="DDI-DrugBank.d559.s1.e2"
+            e2="DDI-DrugBank.d559.s1.e7" ddi="true" type="effect"/>
+        <pair id="DDI-DrugBank.d559.s1.p22" e1="DDI-DrugBank.d559.s1.e2"
+            e2="DDI-DrugBank.d559.s1.e8" ddi="true" type="effect"/>
+        <pair id="DDI-DrugBank.d559.s1.p23" e1="DDI-DrugBank.d559.s1.e2"
+            e2="DDI-DrugBank.d559.s1.e9" ddi="true" type="effect"/>
+        <pair id="DDI-DrugBank.d559.s1.p24" e1="DDI-DrugBank.d559.s1.e3"
+            e2="DDI-DrugBank.d559.s1.e4" ddi="false"/>
+        <pair id="DDI-DrugBank.d559.s1.p25" e1="DDI-DrugBank.d559.s1.e3"
+            e2="DDI-DrugBank.d559.s1.e5" ddi="false"/>
+        <pair id="DDI-DrugBank.d559.s1.p26" e1="DDI-DrugBank.d559.s1.e3"
+            e2="DDI-DrugBank.d559.s1.e6" ddi="false"/>
+        <pair id="DDI-DrugBank.d559.s1.p27" e1="DDI-DrugBank.d559.s1.e3"
+            e2="DDI-DrugBank.d559.s1.e7" ddi="false"/>
+        <pair id="DDI-DrugBank.d559.s1.p28" e1="DDI-DrugBank.d559.s1.e3"
+            e2="DDI-DrugBank.d559.s1.e8" ddi="false"/>
+        <pair id="DDI-DrugBank.d559.s1.p29" e1="DDI-DrugBank.d559.s1.e3"
+            e2="DDI-DrugBank.d559.s1.e9" ddi="false"/>
+        <pair id="DDI-DrugBank.d559.s1.p30" e1="DDI-DrugBank.d559.s1.e4"
+            e2="DDI-DrugBank.d559.s1.e5" ddi="false"/>
+        <pair id="DDI-DrugBank.d559.s1.p31" e1="DDI-DrugBank.d559.s1.e4"
+            e2="DDI-DrugBank.d559.s1.e6" ddi="false"/>
+        <pair id="DDI-DrugBank.d559.s1.p32" e1="DDI-DrugBank.d559.s1.e4"
+            e2="DDI-DrugBank.d559.s1.e7" ddi="false"/>
+        <pair id="DDI-DrugBank.d559.s1.p33" e1="DDI-DrugBank.d559.s1.e4"
+            e2="DDI-DrugBank.d559.s1.e8" ddi="false"/>
+        <pair id="DDI-DrugBank.d559.s1.p34" e1="DDI-DrugBank.d559.s1.e4"
+            e2="DDI-DrugBank.d559.s1.e9" ddi="false"/>
+        <pair id="DDI-DrugBank.d559.s1.p35" e1="DDI-DrugBank.d559.s1.e5"
+            e2="DDI-DrugBank.d559.s1.e6" ddi="false"/>
+        <pair id="DDI-DrugBank.d559.s1.p36" e1="DDI-DrugBank.d559.s1.e5"
+            e2="DDI-DrugBank.d559.s1.e7" ddi="false"/>
+        <pair id="DDI-DrugBank.d559.s1.p37" e1="DDI-DrugBank.d559.s1.e5"
+            e2="DDI-DrugBank.d559.s1.e8" ddi="false"/>
+        <pair id="DDI-DrugBank.d559.s1.p38" e1="DDI-DrugBank.d559.s1.e5"
+            e2="DDI-DrugBank.d559.s1.e9" ddi="false"/>
+        <pair id="DDI-DrugBank.d559.s1.p39" e1="DDI-DrugBank.d559.s1.e6"
+            e2="DDI-DrugBank.d559.s1.e7" ddi="false"/>
+        <pair id="DDI-DrugBank.d559.s1.p40" e1="DDI-DrugBank.d559.s1.e6"
+            e2="DDI-DrugBank.d559.s1.e8" ddi="false"/>
+        <pair id="DDI-DrugBank.d559.s1.p41" e1="DDI-DrugBank.d559.s1.e6"
+            e2="DDI-DrugBank.d559.s1.e9" ddi="false"/>
+        <pair id="DDI-DrugBank.d559.s1.p42" e1="DDI-DrugBank.d559.s1.e7"
+            e2="DDI-DrugBank.d559.s1.e8" ddi="false"/>
+        <pair id="DDI-DrugBank.d559.s1.p43" e1="DDI-DrugBank.d559.s1.e7"
+            e2="DDI-DrugBank.d559.s1.e9" ddi="false"/>
+        <pair id="DDI-DrugBank.d559.s1.p44" e1="DDI-DrugBank.d559.s1.e8"
+            e2="DDI-DrugBank.d559.s1.e9" ddi="false"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d559.s2" text="Drug/Laboratory Test Interactions Acetaminophen may produce false-positive test results for urinary 5-hydroxyindoleacetic acid.">
+        <entity id="DDI-DrugBank.d559.s2.e0" charOffset="34-46"
+            type="drug" text="Acetaminophen"/>
+    </sentence>
+</document>

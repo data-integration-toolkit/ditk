@@ -1,0 +1,273 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="DDI-DrugBank.d410">
+    <sentence id="DDI-DrugBank.d410.s0" text="Vasoconstrictors: D.H.E. 45  (dihydroergotamine mesylate) Injection, USP should not be used with peripheral vasoconstrictors because the combination may cause synergistic elevation of blood pressure.">
+        <entity id="DDI-DrugBank.d410.s0.e0" charOffset="0-15"
+            type="group" text="Vasoconstrictors"/>
+        <entity id="DDI-DrugBank.d410.s0.e1" charOffset="18-26"
+            type="brand" text="D.H.E. 45"/>
+        <entity id="DDI-DrugBank.d410.s0.e2" charOffset="30-55"
+            type="drug" text="dihydroergotamine mesylate"/>
+        <entity id="DDI-DrugBank.d410.s0.e3" charOffset="97-123"
+            type="group" text="peripheral vasoconstrictors"/>
+        <pair id="DDI-DrugBank.d410.s0.p0" e1="DDI-DrugBank.d410.s0.e0"
+            e2="DDI-DrugBank.d410.s0.e1" ddi="false"/>
+        <pair id="DDI-DrugBank.d410.s0.p1" e1="DDI-DrugBank.d410.s0.e0"
+            e2="DDI-DrugBank.d410.s0.e2" ddi="false"/>
+        <pair id="DDI-DrugBank.d410.s0.p2" e1="DDI-DrugBank.d410.s0.e0"
+            e2="DDI-DrugBank.d410.s0.e3" ddi="false"/>
+        <pair id="DDI-DrugBank.d410.s0.p3" e1="DDI-DrugBank.d410.s0.e1"
+            e2="DDI-DrugBank.d410.s0.e2" ddi="false"/>
+        <pair id="DDI-DrugBank.d410.s0.p4" e1="DDI-DrugBank.d410.s0.e1"
+            e2="DDI-DrugBank.d410.s0.e3" ddi="true" type="effect"/>
+        <pair id="DDI-DrugBank.d410.s0.p5" e1="DDI-DrugBank.d410.s0.e2"
+            e2="DDI-DrugBank.d410.s0.e3" ddi="true" type="effect"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d410.s1" text="Sumatriptan: Sumatriptan has been reported to cause coronary artery vasospasm, and its effect could be additive with D.H.E. 45  (dihydroergotamine mesylate) Injection, USP.">
+        <entity id="DDI-DrugBank.d410.s1.e0" charOffset="0-10"
+            type="drug" text="Sumatriptan"/>
+        <entity id="DDI-DrugBank.d410.s1.e1" charOffset="13-23"
+            type="drug" text="Sumatriptan"/>
+        <entity id="DDI-DrugBank.d410.s1.e2" charOffset="117-125"
+            type="brand" text="D.H.E. 45"/>
+        <entity id="DDI-DrugBank.d410.s1.e3" charOffset="129-154"
+            type="drug" text="dihydroergotamine mesylate"/>
+        <pair id="DDI-DrugBank.d410.s1.p0" e1="DDI-DrugBank.d410.s1.e0"
+            e2="DDI-DrugBank.d410.s1.e1" ddi="false"/>
+        <pair id="DDI-DrugBank.d410.s1.p1" e1="DDI-DrugBank.d410.s1.e0"
+            e2="DDI-DrugBank.d410.s1.e2" ddi="false"/>
+        <pair id="DDI-DrugBank.d410.s1.p2" e1="DDI-DrugBank.d410.s1.e0"
+            e2="DDI-DrugBank.d410.s1.e3" ddi="false"/>
+        <pair id="DDI-DrugBank.d410.s1.p3" e1="DDI-DrugBank.d410.s1.e1"
+            e2="DDI-DrugBank.d410.s1.e2" ddi="true" type="effect"/>
+        <pair id="DDI-DrugBank.d410.s1.p4" e1="DDI-DrugBank.d410.s1.e1"
+            e2="DDI-DrugBank.d410.s1.e3" ddi="true" type="effect"/>
+        <pair id="DDI-DrugBank.d410.s1.p5" e1="DDI-DrugBank.d410.s1.e2"
+            e2="DDI-DrugBank.d410.s1.e3" ddi="false"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d410.s2" text="Sumatriptan and D.H.E. 45  (dihydroergotamine mesylate) Injection, USP should not be taken within 24 hours of each other..">
+        <entity id="DDI-DrugBank.d410.s2.e0" charOffset="0-10"
+            type="drug" text="Sumatriptan"/>
+        <entity id="DDI-DrugBank.d410.s2.e1" charOffset="16-24"
+            type="brand" text="D.H.E. 45"/>
+        <entity id="DDI-DrugBank.d410.s2.e2" charOffset="28-53"
+            type="drug" text="dihydroergotamine mesylate"/>
+        <pair id="DDI-DrugBank.d410.s2.p0" e1="DDI-DrugBank.d410.s2.e0"
+            e2="DDI-DrugBank.d410.s2.e1" ddi="true" type="advise"/>
+        <pair id="DDI-DrugBank.d410.s2.p1" e1="DDI-DrugBank.d410.s2.e0"
+            e2="DDI-DrugBank.d410.s2.e2" ddi="true" type="advise"/>
+        <pair id="DDI-DrugBank.d410.s2.p2" e1="DDI-DrugBank.d410.s2.e1"
+            e2="DDI-DrugBank.d410.s2.e2" ddi="false"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d410.s3" text="Beta Blockers: Although the results of a clinical study did not indicate a safe problem associated with the administration of D.H.E. 45  (dihydroergotamine mesylate) Injection, USP to subjects already receiving propranolol, there have been reports that propranolol may potentiate the vasoconstrictive action of ergotamine by blocking the vasodilating property of epinephrine.">
+        <entity id="DDI-DrugBank.d410.s3.e0" charOffset="0-12"
+            type="group" text="Beta Blockers"/>
+        <entity id="DDI-DrugBank.d410.s3.e1" charOffset="126-134"
+            type="brand" text="D.H.E. 45"/>
+        <entity id="DDI-DrugBank.d410.s3.e2" charOffset="138-163"
+            type="drug" text="dihydroergotamine mesylate"/>
+        <entity id="DDI-DrugBank.d410.s3.e3" charOffset="211-221"
+            type="drug" text="propranolol"/>
+        <entity id="DDI-DrugBank.d410.s3.e4" charOffset="253-263"
+            type="drug" text="propranolol"/>
+        <entity id="DDI-DrugBank.d410.s3.e5" charOffset="311-320"
+            type="drug" text="ergotamine"/>
+        <pair id="DDI-DrugBank.d410.s3.p0" e1="DDI-DrugBank.d410.s3.e0"
+            e2="DDI-DrugBank.d410.s3.e1" ddi="false"/>
+        <pair id="DDI-DrugBank.d410.s3.p1" e1="DDI-DrugBank.d410.s3.e0"
+            e2="DDI-DrugBank.d410.s3.e2" ddi="false"/>
+        <pair id="DDI-DrugBank.d410.s3.p2" e1="DDI-DrugBank.d410.s3.e0"
+            e2="DDI-DrugBank.d410.s3.e3" ddi="false"/>
+        <pair id="DDI-DrugBank.d410.s3.p3" e1="DDI-DrugBank.d410.s3.e0"
+            e2="DDI-DrugBank.d410.s3.e4" ddi="false"/>
+        <pair id="DDI-DrugBank.d410.s3.p4" e1="DDI-DrugBank.d410.s3.e0"
+            e2="DDI-DrugBank.d410.s3.e5" ddi="false"/>
+        <pair id="DDI-DrugBank.d410.s3.p5" e1="DDI-DrugBank.d410.s3.e1"
+            e2="DDI-DrugBank.d410.s3.e2" ddi="false"/>
+        <pair id="DDI-DrugBank.d410.s3.p6" e1="DDI-DrugBank.d410.s3.e1"
+            e2="DDI-DrugBank.d410.s3.e3" ddi="false"/>
+        <pair id="DDI-DrugBank.d410.s3.p7" e1="DDI-DrugBank.d410.s3.e1"
+            e2="DDI-DrugBank.d410.s3.e4" ddi="false"/>
+        <pair id="DDI-DrugBank.d410.s3.p8" e1="DDI-DrugBank.d410.s3.e1"
+            e2="DDI-DrugBank.d410.s3.e5" ddi="false"/>
+        <pair id="DDI-DrugBank.d410.s3.p9" e1="DDI-DrugBank.d410.s3.e2"
+            e2="DDI-DrugBank.d410.s3.e3" ddi="false"/>
+        <pair id="DDI-DrugBank.d410.s3.p10" e1="DDI-DrugBank.d410.s3.e2"
+            e2="DDI-DrugBank.d410.s3.e4" ddi="false"/>
+        <pair id="DDI-DrugBank.d410.s3.p11" e1="DDI-DrugBank.d410.s3.e2"
+            e2="DDI-DrugBank.d410.s3.e5" ddi="false"/>
+        <pair id="DDI-DrugBank.d410.s3.p12" e1="DDI-DrugBank.d410.s3.e3"
+            e2="DDI-DrugBank.d410.s3.e4" ddi="false"/>
+        <pair id="DDI-DrugBank.d410.s3.p13" e1="DDI-DrugBank.d410.s3.e3"
+            e2="DDI-DrugBank.d410.s3.e5" ddi="false"/>
+        <pair id="DDI-DrugBank.d410.s3.p14" e1="DDI-DrugBank.d410.s3.e4"
+            e2="DDI-DrugBank.d410.s3.e5" ddi="true" type="effect"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d410.s4" text="Nicotine: Nicotine may provoke vasoconstriction in some patients, predisposing to a greater ischemic response to ergot therapy.">
+        <entity id="DDI-DrugBank.d410.s4.e0" charOffset="0-7"
+            type="drug" text="Nicotine"/>
+        <entity id="DDI-DrugBank.d410.s4.e1" charOffset="10-17"
+            type="drug" text="Nicotine"/>
+        <entity id="DDI-DrugBank.d410.s4.e2" charOffset="113-117"
+            type="drug" text="ergot"/>
+        <pair id="DDI-DrugBank.d410.s4.p0" e1="DDI-DrugBank.d410.s4.e0"
+            e2="DDI-DrugBank.d410.s4.e1" ddi="false"/>
+        <pair id="DDI-DrugBank.d410.s4.p1" e1="DDI-DrugBank.d410.s4.e0"
+            e2="DDI-DrugBank.d410.s4.e2" ddi="false"/>
+        <pair id="DDI-DrugBank.d410.s4.p2" e1="DDI-DrugBank.d410.s4.e1"
+            e2="DDI-DrugBank.d410.s4.e2" ddi="true" type="effect"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d410.s5" text="Macrolide Antibiotics (e. g. erythromycin and troleandomycin): Agents of the ergot alkaloid class, of which D.H.E. 45  (dihydroergotamine mesylate) Injection, USP is a member, have been shown to interact with antibiotics of the macrolide class, resulting in increased plasma levels of unchanged alkaloids and peripheral vasoconstriction.">
+        <entity id="DDI-DrugBank.d410.s5.e0" charOffset="0-20"
+            type="group" text="Macrolide Antibiotics"/>
+        <entity id="DDI-DrugBank.d410.s5.e1" charOffset="29-40"
+            type="drug" text="erythromycin"/>
+        <entity id="DDI-DrugBank.d410.s5.e2" charOffset="46-59"
+            type="drug" text="troleandomycin"/>
+        <entity id="DDI-DrugBank.d410.s5.e3" charOffset="77-96"
+            type="group" text="ergot alkaloid class"/>
+        <entity id="DDI-DrugBank.d410.s5.e4" charOffset="108-116"
+            type="brand" text="D.H.E. 45"/>
+        <entity id="DDI-DrugBank.d410.s5.e5" charOffset="120-145"
+            type="drug" text="dihydroergotamine mesylate"/>
+        <entity id="DDI-DrugBank.d410.s5.e6" charOffset="209-219"
+            type="group" text="antibiotics"/>
+        <entity id="DDI-DrugBank.d410.s5.e7" charOffset="228-242"
+            type="group" text="macrolide class"/>
+        <pair id="DDI-DrugBank.d410.s5.p0" e1="DDI-DrugBank.d410.s5.e0"
+            e2="DDI-DrugBank.d410.s5.e1" ddi="false"/>
+        <pair id="DDI-DrugBank.d410.s5.p1" e1="DDI-DrugBank.d410.s5.e0"
+            e2="DDI-DrugBank.d410.s5.e2" ddi="false"/>
+        <pair id="DDI-DrugBank.d410.s5.p2" e1="DDI-DrugBank.d410.s5.e0"
+            e2="DDI-DrugBank.d410.s5.e3" ddi="false"/>
+        <pair id="DDI-DrugBank.d410.s5.p3" e1="DDI-DrugBank.d410.s5.e0"
+            e2="DDI-DrugBank.d410.s5.e4" ddi="false"/>
+        <pair id="DDI-DrugBank.d410.s5.p4" e1="DDI-DrugBank.d410.s5.e0"
+            e2="DDI-DrugBank.d410.s5.e5" ddi="false"/>
+        <pair id="DDI-DrugBank.d410.s5.p5" e1="DDI-DrugBank.d410.s5.e0"
+            e2="DDI-DrugBank.d410.s5.e6" ddi="false"/>
+        <pair id="DDI-DrugBank.d410.s5.p6" e1="DDI-DrugBank.d410.s5.e0"
+            e2="DDI-DrugBank.d410.s5.e7" ddi="false"/>
+        <pair id="DDI-DrugBank.d410.s5.p7" e1="DDI-DrugBank.d410.s5.e1"
+            e2="DDI-DrugBank.d410.s5.e2" ddi="false"/>
+        <pair id="DDI-DrugBank.d410.s5.p8" e1="DDI-DrugBank.d410.s5.e1"
+            e2="DDI-DrugBank.d410.s5.e3" ddi="false"/>
+        <pair id="DDI-DrugBank.d410.s5.p9" e1="DDI-DrugBank.d410.s5.e1"
+            e2="DDI-DrugBank.d410.s5.e4" ddi="false"/>
+        <pair id="DDI-DrugBank.d410.s5.p10" e1="DDI-DrugBank.d410.s5.e1"
+            e2="DDI-DrugBank.d410.s5.e5" ddi="false"/>
+        <pair id="DDI-DrugBank.d410.s5.p11" e1="DDI-DrugBank.d410.s5.e1"
+            e2="DDI-DrugBank.d410.s5.e6" ddi="false"/>
+        <pair id="DDI-DrugBank.d410.s5.p12" e1="DDI-DrugBank.d410.s5.e1"
+            e2="DDI-DrugBank.d410.s5.e7" ddi="false"/>
+        <pair id="DDI-DrugBank.d410.s5.p13" e1="DDI-DrugBank.d410.s5.e2"
+            e2="DDI-DrugBank.d410.s5.e3" ddi="false"/>
+        <pair id="DDI-DrugBank.d410.s5.p14" e1="DDI-DrugBank.d410.s5.e2"
+            e2="DDI-DrugBank.d410.s5.e4" ddi="false"/>
+        <pair id="DDI-DrugBank.d410.s5.p15" e1="DDI-DrugBank.d410.s5.e2"
+            e2="DDI-DrugBank.d410.s5.e5" ddi="false"/>
+        <pair id="DDI-DrugBank.d410.s5.p16" e1="DDI-DrugBank.d410.s5.e2"
+            e2="DDI-DrugBank.d410.s5.e6" ddi="false"/>
+        <pair id="DDI-DrugBank.d410.s5.p17" e1="DDI-DrugBank.d410.s5.e2"
+            e2="DDI-DrugBank.d410.s5.e7" ddi="false"/>
+        <pair id="DDI-DrugBank.d410.s5.p18" e1="DDI-DrugBank.d410.s5.e3"
+            e2="DDI-DrugBank.d410.s5.e4" ddi="false"/>
+        <pair id="DDI-DrugBank.d410.s5.p19" e1="DDI-DrugBank.d410.s5.e3"
+            e2="DDI-DrugBank.d410.s5.e5" ddi="false"/>
+        <pair id="DDI-DrugBank.d410.s5.p20" e1="DDI-DrugBank.d410.s5.e3"
+            e2="DDI-DrugBank.d410.s5.e6" ddi="false"/>
+        <pair id="DDI-DrugBank.d410.s5.p21" e1="DDI-DrugBank.d410.s5.e3"
+            e2="DDI-DrugBank.d410.s5.e7" ddi="true" type="mechanism"/>
+        <pair id="DDI-DrugBank.d410.s5.p22" e1="DDI-DrugBank.d410.s5.e4"
+            e2="DDI-DrugBank.d410.s5.e5" ddi="false"/>
+        <pair id="DDI-DrugBank.d410.s5.p23" e1="DDI-DrugBank.d410.s5.e4"
+            e2="DDI-DrugBank.d410.s5.e6" ddi="false"/>
+        <pair id="DDI-DrugBank.d410.s5.p24" e1="DDI-DrugBank.d410.s5.e4"
+            e2="DDI-DrugBank.d410.s5.e7" ddi="true" type="mechanism"/>
+        <pair id="DDI-DrugBank.d410.s5.p25" e1="DDI-DrugBank.d410.s5.e5"
+            e2="DDI-DrugBank.d410.s5.e6" ddi="false"/>
+        <pair id="DDI-DrugBank.d410.s5.p26" e1="DDI-DrugBank.d410.s5.e5"
+            e2="DDI-DrugBank.d410.s5.e7" ddi="true" type="mechanism"/>
+        <pair id="DDI-DrugBank.d410.s5.p27" e1="DDI-DrugBank.d410.s5.e6"
+            e2="DDI-DrugBank.d410.s5.e7" ddi="false"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d410.s6" text="Vasospastic reactions have been reported with therapeutic doses of ergotamine-containing drugs when co-administered with these antibiotics.">
+        <entity id="DDI-DrugBank.d410.s6.e0" charOffset="67-76"
+            type="drug" text="ergotamine"/>
+        <entity id="DDI-DrugBank.d410.s6.e1" charOffset="127-137"
+            type="group" text="antibiotics"/>
+        <pair id="DDI-DrugBank.d410.s6.p0" e1="DDI-DrugBank.d410.s6.e0"
+            e2="DDI-DrugBank.d410.s6.e1" ddi="true" type="effect"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d410.s7" text="SSRIs: Weakness hyperreflexia, and incoordination have been reported rarely when 5-HT1 agonists have been co-administered with SSRIs (e. g.">
+        <entity id="DDI-DrugBank.d410.s7.e0" charOffset="0-4"
+            type="group" text="SSRIs"/>
+        <entity id="DDI-DrugBank.d410.s7.e1" charOffset="81-94"
+            type="group" text="5-HT1 agonists"/>
+        <entity id="DDI-DrugBank.d410.s7.e2" charOffset="127-131"
+            type="group" text="SSRIs"/>
+        <pair id="DDI-DrugBank.d410.s7.p0" e1="DDI-DrugBank.d410.s7.e0"
+            e2="DDI-DrugBank.d410.s7.e1" ddi="false"/>
+        <pair id="DDI-DrugBank.d410.s7.p1" e1="DDI-DrugBank.d410.s7.e0"
+            e2="DDI-DrugBank.d410.s7.e2" ddi="false"/>
+        <pair id="DDI-DrugBank.d410.s7.p2" e1="DDI-DrugBank.d410.s7.e1"
+            e2="DDI-DrugBank.d410.s7.e2" ddi="true" type="effect"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d410.s8" text="fluoxetine, fluvoxamine, paroxetine, sertraline).">
+        <entity id="DDI-DrugBank.d410.s8.e0" charOffset="0-9"
+            type="drug" text="fluoxetine"/>
+        <entity id="DDI-DrugBank.d410.s8.e1" charOffset="12-22"
+            type="drug" text="fluvoxamine"/>
+        <entity id="DDI-DrugBank.d410.s8.e2" charOffset="25-34"
+            type="drug" text="paroxetine"/>
+        <entity id="DDI-DrugBank.d410.s8.e3" charOffset="37-46"
+            type="drug" text="sertraline"/>
+        <pair id="DDI-DrugBank.d410.s8.p0" e1="DDI-DrugBank.d410.s8.e0"
+            e2="DDI-DrugBank.d410.s8.e1" ddi="false"/>
+        <pair id="DDI-DrugBank.d410.s8.p1" e1="DDI-DrugBank.d410.s8.e0"
+            e2="DDI-DrugBank.d410.s8.e2" ddi="false"/>
+        <pair id="DDI-DrugBank.d410.s8.p2" e1="DDI-DrugBank.d410.s8.e0"
+            e2="DDI-DrugBank.d410.s8.e3" ddi="false"/>
+        <pair id="DDI-DrugBank.d410.s8.p3" e1="DDI-DrugBank.d410.s8.e1"
+            e2="DDI-DrugBank.d410.s8.e2" ddi="false"/>
+        <pair id="DDI-DrugBank.d410.s8.p4" e1="DDI-DrugBank.d410.s8.e1"
+            e2="DDI-DrugBank.d410.s8.e3" ddi="false"/>
+        <pair id="DDI-DrugBank.d410.s8.p5" e1="DDI-DrugBank.d410.s8.e2"
+            e2="DDI-DrugBank.d410.s8.e3" ddi="false"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d410.s9" text="There have been no reported cases from spontaneous reports of drug interaction between SSRIs and D.H.E. 45  (dihydroergotamine mesylate) Injection, USP.">
+        <entity id="DDI-DrugBank.d410.s9.e0" charOffset="87-91"
+            type="group" text="SSRIs"/>
+        <entity id="DDI-DrugBank.d410.s9.e1" charOffset="97-105"
+            type="brand" text="D.H.E. 45"/>
+        <entity id="DDI-DrugBank.d410.s9.e2" charOffset="109-134"
+            type="drug" text="dihydroergotamine mesylate"/>
+        <pair id="DDI-DrugBank.d410.s9.p0" e1="DDI-DrugBank.d410.s9.e0"
+            e2="DDI-DrugBank.d410.s9.e1" ddi="false"/>
+        <pair id="DDI-DrugBank.d410.s9.p1" e1="DDI-DrugBank.d410.s9.e0"
+            e2="DDI-DrugBank.d410.s9.e2" ddi="false"/>
+        <pair id="DDI-DrugBank.d410.s9.p2" e1="DDI-DrugBank.d410.s9.e1"
+            e2="DDI-DrugBank.d410.s9.e2" ddi="false"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d410.s10" text="Oral Contraceptives: The effect of oral contraceptives on the pharmacokinetics of D.H.E. 45  (dihydroergotamine mesylate) Injection, USP has not been studied.">
+        <entity id="DDI-DrugBank.d410.s10.e0" charOffset="5-18"
+            type="group" text="Contraceptives"/>
+        <entity id="DDI-DrugBank.d410.s10.e1" charOffset="40-53"
+            type="group" text="contraceptives"/>
+        <entity id="DDI-DrugBank.d410.s10.e2" charOffset="82-90"
+            type="brand" text="D.H.E. 45"/>
+        <entity id="DDI-DrugBank.d410.s10.e3" charOffset="94-119"
+            type="drug" text="dihydroergotamine mesylate"/>
+        <pair id="DDI-DrugBank.d410.s10.p0"
+            e1="DDI-DrugBank.d410.s10.e0" e2="DDI-DrugBank.d410.s10.e1" ddi="false"/>
+        <pair id="DDI-DrugBank.d410.s10.p1"
+            e1="DDI-DrugBank.d410.s10.e0" e2="DDI-DrugBank.d410.s10.e2" ddi="false"/>
+        <pair id="DDI-DrugBank.d410.s10.p2"
+            e1="DDI-DrugBank.d410.s10.e0" e2="DDI-DrugBank.d410.s10.e3" ddi="false"/>
+        <pair id="DDI-DrugBank.d410.s10.p3"
+            e1="DDI-DrugBank.d410.s10.e1" e2="DDI-DrugBank.d410.s10.e2" ddi="false"/>
+        <pair id="DDI-DrugBank.d410.s10.p4"
+            e1="DDI-DrugBank.d410.s10.e1" e2="DDI-DrugBank.d410.s10.e3" ddi="false"/>
+        <pair id="DDI-DrugBank.d410.s10.p5"
+            e1="DDI-DrugBank.d410.s10.e2" e2="DDI-DrugBank.d410.s10.e3" ddi="false"/>
+    </sentence>
+</document>

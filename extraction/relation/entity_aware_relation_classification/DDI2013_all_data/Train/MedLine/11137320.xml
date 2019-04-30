@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="DDI-MedLine.d126">
+    <sentence id="DDI-MedLine.d126.s0" text="Cypermethrin-induced oxidative stress in rat brain and liver is prevented by vitamin E or allopurinol.&#xd;&#xa;">
+        <entity id="DDI-MedLine.d126.s0.e0" charOffset="0-11"
+            type="drug" text="Cypermethrin"/>
+        <entity id="DDI-MedLine.d126.s0.e1" charOffset="77-85"
+            type="drug" text="vitamin E"/>
+        <entity id="DDI-MedLine.d126.s0.e2" charOffset="90-100"
+            type="drug" text="allopurinol"/>
+        <pair id="DDI-MedLine.d126.s0.p0" e1="DDI-MedLine.d126.s0.e0"
+            e2="DDI-MedLine.d126.s0.e1" ddi="true" type="effect"/>
+        <pair id="DDI-MedLine.d126.s0.p1" e1="DDI-MedLine.d126.s0.e0"
+            e2="DDI-MedLine.d126.s0.e2" ddi="true" type="effect"/>
+        <pair id="DDI-MedLine.d126.s0.p2" e1="DDI-MedLine.d126.s0.e1"
+            e2="DDI-MedLine.d126.s0.e2" ddi="false"/>
+    </sentence>
+    <sentence id="DDI-MedLine.d126.s1" text="Considering that the involvement of reactive oxygen species (ROS) has been implicated in the toxicity of various pesticides, this study was designed to investigate the possibility of oxidative stress induction by cypermethrin, a Type II pyrethroid. ">
+        <entity id="DDI-MedLine.d126.s1.e0" charOffset="213-224"
+            type="drug" text="cypermethrin"/>
+        <entity id="DDI-MedLine.d126.s1.e1" charOffset="229-246"
+            type="drug_n" text="Type II pyrethroid"/>
+        <pair id="DDI-MedLine.d126.s1.p0" e1="DDI-MedLine.d126.s1.e0"
+            e2="DDI-MedLine.d126.s1.e1" ddi="false"/>
+    </sentence>
+    <sentence id="DDI-MedLine.d126.s2" text="Either single (170 mg/kg) or repeated (75 mg/kg per day for 5 days) oral administration of cypermethrin was found to produce significant oxidative stress in cerebral and hepatic tissues of rats, as was evident by the elevation of the level of thiobarbituric acid reactive substances (TBARS) in both tissues, either 4 or 24 h after treatment. ">
+        <entity id="DDI-MedLine.d126.s2.e0" charOffset="91-102"
+            type="drug" text="cypermethrin"/>
+    </sentence>
+    <sentence id="DDI-MedLine.d126.s3" text="Much higher changes were observed in liver, increasing from a level of 60% at 4 h up to nearly 4 times the control at 24 h for single dose. "/>
+    <sentence id="DDI-MedLine.d126.s4" text="Reduced levels (up to 20%) of total glutathione (total GSH), and elevation of conjugated dienes ( approximately 60% in liver by single dose at 4 h) also indicated the presence of an oxidative insult. "/>
+    <sentence id="DDI-MedLine.d126.s5" text="Glutathione-S-transferase (GST) activity, however, did not differ from control values for any dose or at any time point in cerebral and hepatic tissues. "/>
+    <sentence id="DDI-MedLine.d126.s6" text="Pretreatment of rats with allopurinol (100 mg/kg, ip) or Vitamin E (100 mg/kg per day, ig, for 3 days and a dose of 40 mg/kg on the 4th day) provided significant protection against the elevation of TBARS levels in cerebral and hepatic tissues, induced by single high dose of oral cypermethrin administration within 4 h. ">
+        <entity id="DDI-MedLine.d126.s6.e0" charOffset="26-36"
+            type="drug" text="allopurinol"/>
+        <entity id="DDI-MedLine.d126.s6.e1" charOffset="57-65"
+            type="drug" text="Vitamin E"/>
+        <entity id="DDI-MedLine.d126.s6.e2" charOffset="280-291"
+            type="drug" text="cypermethrin"/>
+        <pair id="DDI-MedLine.d126.s6.p0" e1="DDI-MedLine.d126.s6.e0"
+            e2="DDI-MedLine.d126.s6.e1" ddi="false"/>
+        <pair id="DDI-MedLine.d126.s6.p1" e1="DDI-MedLine.d126.s6.e0"
+            e2="DDI-MedLine.d126.s6.e2" ddi="true" type="effect"/>
+        <pair id="DDI-MedLine.d126.s6.p2" e1="DDI-MedLine.d126.s6.e1"
+            e2="DDI-MedLine.d126.s6.e2" ddi="true" type="effect"/>
+    </sentence>
+    <sentence id="DDI-MedLine.d126.s7" text="Thus, the results suggest that cypermethrin exposure of rats results in free radical-mediated tissue damage, as indicated by elevated cerebral and hepatic lipid peroxidation, which was prevented by allopurinol and Vitamin E.">
+        <entity id="DDI-MedLine.d126.s7.e0" charOffset="31-42"
+            type="drug" text="cypermethrin"/>
+        <entity id="DDI-MedLine.d126.s7.e1" charOffset="198-208"
+            type="drug" text="allopurinol"/>
+        <entity id="DDI-MedLine.d126.s7.e2" charOffset="214-222"
+            type="drug" text="Vitamin E"/>
+        <pair id="DDI-MedLine.d126.s7.p0" e1="DDI-MedLine.d126.s7.e0"
+            e2="DDI-MedLine.d126.s7.e1" ddi="true" type="effect"/>
+        <pair id="DDI-MedLine.d126.s7.p1" e1="DDI-MedLine.d126.s7.e0"
+            e2="DDI-MedLine.d126.s7.e2" ddi="true" type="effect"/>
+        <pair id="DDI-MedLine.d126.s7.p2" e1="DDI-MedLine.d126.s7.e1"
+            e2="DDI-MedLine.d126.s7.e2" ddi="false"/>
+    </sentence>
+</document>

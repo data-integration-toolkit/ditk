@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="DDI-DrugBank.d279">
+    <sentence id="DDI-DrugBank.d279.s0" text="The adverse effects of CAMPTOSAR, such as myelosuppression and diarrhea, would be expected to be exacerbated by other antineoplastic agents having similar adverse effects.">
+        <entity id="DDI-DrugBank.d279.s0.e0" charOffset="23-31"
+            type="brand" text="CAMPTOSAR"/>
+        <entity id="DDI-DrugBank.d279.s0.e1" charOffset="118-138"
+            type="group" text="antineoplastic agents"/>
+        <pair id="DDI-DrugBank.d279.s0.p0" e1="DDI-DrugBank.d279.s0.e0"
+            e2="DDI-DrugBank.d279.s0.e1" ddi="true" type="effect"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d279.s1" text="Patients who have previously received pelvic/ abdominal irradiation are at increased risk of severe myelosuppression following the administration of CAMPTOSAR.">
+        <entity id="DDI-DrugBank.d279.s1.e0" charOffset="149-157"
+            type="brand" text="CAMPTOSAR"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d279.s2" text="The concurrent administration of CAMPTOSAR with irradiation has not been adequately studied and is not recommended.">
+        <entity id="DDI-DrugBank.d279.s2.e0" charOffset="33-41"
+            type="brand" text="CAMPTOSAR"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d279.s3" text="Lymphocytopenia has been reported in patients receiving CAMPTOSAR, and it is possible that the administration of dexamethasone as antiemetic prophylaxis may have enhanced the likelihood of this effect.">
+        <entity id="DDI-DrugBank.d279.s3.e0" charOffset="56-64"
+            type="brand" text="CAMPTOSAR"/>
+        <entity id="DDI-DrugBank.d279.s3.e1" charOffset="113-125"
+            type="drug" text="dexamethasone"/>
+        <pair id="DDI-DrugBank.d279.s3.p0" e1="DDI-DrugBank.d279.s3.e0"
+            e2="DDI-DrugBank.d279.s3.e1" ddi="true" type="effect"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d279.s4" text="However, serious opportunistic infections have not been observed, and no complications have specifically been attributed to lymphocytopenia."/>
+    <sentence id="DDI-DrugBank.d279.s5" text="Hyperglycemia has also been reported in patients receiving CAMPTOSAR.">
+        <entity id="DDI-DrugBank.d279.s5.e0" charOffset="59-67"
+            type="brand" text="CAMPTOSAR"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d279.s6" text="Usually, this has been observed in patients with a history of diabetes mellitus or evidence of glucose intolerance prior to administration of CAMPTOSAR.">
+        <entity id="DDI-DrugBank.d279.s6.e0" charOffset="142-150"
+            type="brand" text="CAMPTOSAR"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d279.s7" text="It is probable that dexamethasone, given as antiemetic prophylaxis, contributed to hyperglycemia in some patients.">
+        <entity id="DDI-DrugBank.d279.s7.e0" charOffset="20-32"
+            type="drug" text="dexamethasone"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d279.s8" text="The incidence of akathisia in clinical trials of the weekly dosage schedule was greater (8.5%, 4/47 patients) when prochlorperazine was administered on the same day as CAMPTOSAR than when these drugs were given on separate days (1.3%, 1/80 patients).">
+        <entity id="DDI-DrugBank.d279.s8.e0" charOffset="115-130"
+            type="drug" text="prochlorperazine"/>
+        <entity id="DDI-DrugBank.d279.s8.e1" charOffset="168-176"
+            type="brand" text="CAMPTOSAR"/>
+        <pair id="DDI-DrugBank.d279.s8.p0" e1="DDI-DrugBank.d279.s8.e0"
+            e2="DDI-DrugBank.d279.s8.e1" ddi="true" type="effect"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d279.s9" text="The 8.5% incidence of akathisia, however, is within the range reported for use of prochlorperazine when given as a premedication for other chemotherapies.">
+        <entity id="DDI-DrugBank.d279.s9.e0" charOffset="82-97"
+            type="drug" text="prochlorperazine"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d279.s10" text="It would be expected that laxative use during therapy with CAMPTOSAR would worsen the incidence or severity of diarrhea, but this has not been studied.">
+        <entity id="DDI-DrugBank.d279.s10.e0" charOffset="26-33"
+            type="group" text="laxative"/>
+        <entity id="DDI-DrugBank.d279.s10.e1" charOffset="59-67"
+            type="brand" text="CAMPTOSAR"/>
+        <pair id="DDI-DrugBank.d279.s10.p0"
+            e1="DDI-DrugBank.d279.s10.e0" e2="DDI-DrugBank.d279.s10.e1"
+            ddi="true" type="effect"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d279.s11" text="In view of the potential risk of dehydration secondary to vomiting and/or diarrhea induced by CAMPTOSAR, the physician may wish to withhold diuretics during dosing with CAMPTOSAR and, certainly, during periods of active vomiting or diarrhea.">
+        <entity id="DDI-DrugBank.d279.s11.e0" charOffset="94-102"
+            type="brand" text="CAMPTOSAR"/>
+        <entity id="DDI-DrugBank.d279.s11.e1" charOffset="140-148"
+            type="group" text="diuretics"/>
+        <entity id="DDI-DrugBank.d279.s11.e2" charOffset="169-177"
+            type="brand" text="CAMPTOSAR"/>
+        <pair id="DDI-DrugBank.d279.s11.p0"
+            e1="DDI-DrugBank.d279.s11.e0" e2="DDI-DrugBank.d279.s11.e1" ddi="false"/>
+        <pair id="DDI-DrugBank.d279.s11.p1"
+            e1="DDI-DrugBank.d279.s11.e0" e2="DDI-DrugBank.d279.s11.e2" ddi="false"/>
+        <pair id="DDI-DrugBank.d279.s11.p2"
+            e1="DDI-DrugBank.d279.s11.e1" e2="DDI-DrugBank.d279.s11.e2"
+            ddi="true" type="effect"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d279.s12" text="Drug-Laboratory Test Interactions There are no known interactions between CAMPTOSAR and laboratory tests.">
+        <entity id="DDI-DrugBank.d279.s12.e0" charOffset="74-82"
+            type="brand" text="CAMPTOSAR"/>
+    </sentence>
+</document>

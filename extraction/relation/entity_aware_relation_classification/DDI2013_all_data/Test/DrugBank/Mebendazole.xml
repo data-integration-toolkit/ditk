@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="DDI-DrugBank.d679">
+    <sentence id="DDI-DrugBank.d679.s0" text="Preliminary evidence suggests that cimetidine inhibits mebendazole metabolism and may result in an increase in plasma concentrations of mebendazole.">
+        <entity id="DDI-DrugBank.d679.s0.e0" charOffset="35-44"
+            type="drug" text="cimetidine"/>
+        <entity id="DDI-DrugBank.d679.s0.e1" charOffset="55-65"
+            type="drug" text="mebendazole"/>
+        <entity id="DDI-DrugBank.d679.s0.e2" charOffset="136-146"
+            type="drug" text="mebendazole"/>
+        <pair id="DDI-DrugBank.d679.s0.p0" e1="DDI-DrugBank.d679.s0.e0"
+            e2="DDI-DrugBank.d679.s0.e1" ddi="true" type="mechanism"/>
+        <pair id="DDI-DrugBank.d679.s0.p1" e1="DDI-DrugBank.d679.s0.e0"
+            e2="DDI-DrugBank.d679.s0.e2" ddi="false"/>
+        <pair id="DDI-DrugBank.d679.s0.p2" e1="DDI-DrugBank.d679.s0.e1"
+            e2="DDI-DrugBank.d679.s0.e2" ddi="false"/>
+    </sentence>
+</document>

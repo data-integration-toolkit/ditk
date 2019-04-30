@@ -1,0 +1,875 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="DDI-DrugBank.d143">
+    <sentence id="DDI-DrugBank.d143.s0" text="Amiodarone is metabolized to desethylamiodarone by the cytochrome P450 (CYP450) enzyme group, specifically cytochromes P450 3A4 (CYP3A4) and CYP2C8.">
+        <entity id="DDI-DrugBank.d143.s0.e0" charOffset="0-9"
+            type="drug" text="Amiodarone"/>
+        <entity id="DDI-DrugBank.d143.s0.e1" charOffset="29-46"
+            type="drug" text="desethylamiodarone"/>
+        <pair id="DDI-DrugBank.d143.s0.p0" e1="DDI-DrugBank.d143.s0.e0"
+            e2="DDI-DrugBank.d143.s0.e1" ddi="false"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d143.s1" text="The CYP3A4 isoenzyme is present in both the liver and intestines."/>
+    <sentence id="DDI-DrugBank.d143.s2" text="Amiodarone is also known to be an inhibitor of CYP3A4.">
+        <entity id="DDI-DrugBank.d143.s2.e0" charOffset="0-9"
+            type="drug" text="Amiodarone"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d143.s3" text="Therefore, amiodarone has the potential for interactions with drugs or substances that may be substrates, inhibitors or inducers of CYP3A4.">
+        <entity id="DDI-DrugBank.d143.s3.e0" charOffset="11-20"
+            type="drug" text="amiodarone"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d143.s4" text="While only a limited number of in vivo drug-drug interactions with amiodarone have been reported, chiefly with the oral formulation, the potential for other interactions should be anticipated.">
+        <entity id="DDI-DrugBank.d143.s4.e0" charOffset="67-76"
+            type="drug" text="amiodarone"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d143.s5" text="This is especially important for drugs associated with serious toxicity, such as other antiarrhythmics.">
+        <entity id="DDI-DrugBank.d143.s5.e0" charOffset="87-101"
+            type="group" text="antiarrhythmics"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d143.s6" text="If such drugs are needed, their dose should be reassessed and, where appropriate, plasma concentration measured."/>
+    <sentence id="DDI-DrugBank.d143.s7" text="In view of the long and variable half-life of amiodarone, potential for drug interactions exists not only with concomitant medication but also with drugs administered after discontinuation of amiodarone.">
+        <entity id="DDI-DrugBank.d143.s7.e0" charOffset="46-55"
+            type="drug" text="amiodarone"/>
+        <entity id="DDI-DrugBank.d143.s7.e1" charOffset="192-201"
+            type="drug" text="amiodarone"/>
+        <pair id="DDI-DrugBank.d143.s7.p0" e1="DDI-DrugBank.d143.s7.e0"
+            e2="DDI-DrugBank.d143.s7.e1" ddi="false"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d143.s8" text="Since amiodarone is a substrate for CYP3A4 and CYP2C8, drugs/substances that inhibit these isoenzymes may decrease the metabolism and increase serum concentration of amiodarone.">
+        <entity id="DDI-DrugBank.d143.s8.e0" charOffset="6-15"
+            type="drug" text="amiodarone"/>
+        <entity id="DDI-DrugBank.d143.s8.e1" charOffset="166-175"
+            type="drug" text="amiodarone"/>
+        <pair id="DDI-DrugBank.d143.s8.p0" e1="DDI-DrugBank.d143.s8.e0"
+            e2="DDI-DrugBank.d143.s8.e1" ddi="false"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d143.s9" text="Reported examples include the following: Protease Inhibitors: Protease inhibitors are known to inhibit CYP3A4 to varying degrees.">
+        <entity id="DDI-DrugBank.d143.s9.e0" charOffset="41-59"
+            type="group" text="Protease Inhibitors"/>
+        <entity id="DDI-DrugBank.d143.s9.e1" charOffset="62-80"
+            type="group" text="Protease inhibitors"/>
+        <pair id="DDI-DrugBank.d143.s9.p0" e1="DDI-DrugBank.d143.s9.e0"
+            e2="DDI-DrugBank.d143.s9.e1" ddi="false"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d143.s10" text="A case report of one patient taking amiodarone 200 mg and indinavir 800 mg three times a day resulted in increases in amiodarone concentrations from 0.9 mg/L to 1.3 mg/L.">
+        <entity id="DDI-DrugBank.d143.s10.e0" charOffset="36-45"
+            type="drug" text="amiodarone"/>
+        <entity id="DDI-DrugBank.d143.s10.e1" charOffset="58-66"
+            type="drug" text="indinavir"/>
+        <entity id="DDI-DrugBank.d143.s10.e2" charOffset="118-127"
+            type="drug" text="amiodarone"/>
+        <pair id="DDI-DrugBank.d143.s10.p0"
+            e1="DDI-DrugBank.d143.s10.e0" e2="DDI-DrugBank.d143.s10.e1"
+            ddi="true" type="mechanism"/>
+        <pair id="DDI-DrugBank.d143.s10.p1"
+            e1="DDI-DrugBank.d143.s10.e0" e2="DDI-DrugBank.d143.s10.e2" ddi="false"/>
+        <pair id="DDI-DrugBank.d143.s10.p2"
+            e1="DDI-DrugBank.d143.s10.e1" e2="DDI-DrugBank.d143.s10.e2" ddi="false"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d143.s11" text="DEA concentrations were not affected."/>
+    <sentence id="DDI-DrugBank.d143.s12" text="There was no evidence of toxicity."/>
+    <sentence id="DDI-DrugBank.d143.s13" text="Monitoring for amiodarone toxicity and serial measurement of amiodarone serum concentration during concomitant protease inhibitor therapy should be considered.">
+        <entity id="DDI-DrugBank.d143.s13.e0" charOffset="15-24"
+            type="drug" text="amiodarone"/>
+        <entity id="DDI-DrugBank.d143.s13.e1" charOffset="61-70"
+            type="drug" text="amiodarone"/>
+        <entity id="DDI-DrugBank.d143.s13.e2" charOffset="111-128"
+            type="group" text="protease inhibitor"/>
+        <pair id="DDI-DrugBank.d143.s13.p0"
+            e1="DDI-DrugBank.d143.s13.e0" e2="DDI-DrugBank.d143.s13.e1" ddi="false"/>
+        <pair id="DDI-DrugBank.d143.s13.p1"
+            e1="DDI-DrugBank.d143.s13.e0" e2="DDI-DrugBank.d143.s13.e2" ddi="false"/>
+        <pair id="DDI-DrugBank.d143.s13.p2"
+            e1="DDI-DrugBank.d143.s13.e1" e2="DDI-DrugBank.d143.s13.e2"
+            ddi="true" type="advise"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d143.s14" text="Histamine H2 antagonists: Cimetidine inhibits CYP3A4 and can increase serum amiodarone levels.">
+        <entity id="DDI-DrugBank.d143.s14.e0" charOffset="0-23"
+            type="group" text="Histamine H2 antagonists"/>
+        <entity id="DDI-DrugBank.d143.s14.e1" charOffset="26-35"
+            type="drug" text="Cimetidine"/>
+        <entity id="DDI-DrugBank.d143.s14.e2" charOffset="76-85"
+            type="drug" text="amiodarone"/>
+        <pair id="DDI-DrugBank.d143.s14.p0"
+            e1="DDI-DrugBank.d143.s14.e0" e2="DDI-DrugBank.d143.s14.e1"
+            ddi="true" type="mechanism"/>
+        <pair id="DDI-DrugBank.d143.s14.p1"
+            e1="DDI-DrugBank.d143.s14.e0" e2="DDI-DrugBank.d143.s14.e2" ddi="false"/>
+        <pair id="DDI-DrugBank.d143.s14.p2"
+            e1="DDI-DrugBank.d143.s14.e1" e2="DDI-DrugBank.d143.s14.e2" ddi="false"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d143.s15" text="Other substances: Grapefruit juice given to healthy volunteers increased amiodarone AUC by 50% and Cmax by 84%, resulting in increased plasma levels of amiodarone.">
+        <entity id="DDI-DrugBank.d143.s15.e0" charOffset="73-82"
+            type="drug" text="amiodarone"/>
+        <entity id="DDI-DrugBank.d143.s15.e1" charOffset="152-161"
+            type="drug" text="amiodarone"/>
+        <pair id="DDI-DrugBank.d143.s15.p0"
+            e1="DDI-DrugBank.d143.s15.e0" e2="DDI-DrugBank.d143.s15.e1" ddi="false"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d143.s16" text="Grapefruit juice should not be taken during treatment with oral amiodarone."/>
+    <sentence id="DDI-DrugBank.d143.s17" text="This information should be considered when changing from intravenous amiodarone to oral amiodarone .">
+        <entity id="DDI-DrugBank.d143.s17.e0" charOffset="69-78"
+            type="drug" text="amiodarone"/>
+        <entity id="DDI-DrugBank.d143.s17.e1" charOffset="88-97"
+            type="drug" text="amiodarone"/>
+        <pair id="DDI-DrugBank.d143.s17.p0"
+            e1="DDI-DrugBank.d143.s17.e0" e2="DDI-DrugBank.d143.s17.e1" ddi="false"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d143.s18" text="Amiodarone may suppress certain CYP450 enzymes, including CYP1A2, CYP2C9, CYP2D6, and CYP3A4.">
+        <entity id="DDI-DrugBank.d143.s18.e0" charOffset="0-9"
+            type="drug" text="Amiodarone"/>
+        <entity id="DDI-DrugBank.d143.s18.e1" charOffset="58-63"
+            type="drug" text="CYP1A2"/>
+        <entity id="DDI-DrugBank.d143.s18.e2" charOffset="66-71"
+            type="drug" text="CYP2C9"/>
+        <entity id="DDI-DrugBank.d143.s18.e3" charOffset="74-79"
+            type="drug" text="CYP2D6"/>
+        <entity id="DDI-DrugBank.d143.s18.e4" charOffset="86-91"
+            type="drug" text="CYP3A4"/>
+        <pair id="DDI-DrugBank.d143.s18.p0"
+            e1="DDI-DrugBank.d143.s18.e0" e2="DDI-DrugBank.d143.s18.e1" ddi="false"/>
+        <pair id="DDI-DrugBank.d143.s18.p1"
+            e1="DDI-DrugBank.d143.s18.e0" e2="DDI-DrugBank.d143.s18.e2" ddi="false"/>
+        <pair id="DDI-DrugBank.d143.s18.p2"
+            e1="DDI-DrugBank.d143.s18.e0" e2="DDI-DrugBank.d143.s18.e3" ddi="false"/>
+        <pair id="DDI-DrugBank.d143.s18.p3"
+            e1="DDI-DrugBank.d143.s18.e0" e2="DDI-DrugBank.d143.s18.e4" ddi="false"/>
+        <pair id="DDI-DrugBank.d143.s18.p4"
+            e1="DDI-DrugBank.d143.s18.e1" e2="DDI-DrugBank.d143.s18.e2" ddi="false"/>
+        <pair id="DDI-DrugBank.d143.s18.p5"
+            e1="DDI-DrugBank.d143.s18.e1" e2="DDI-DrugBank.d143.s18.e3" ddi="false"/>
+        <pair id="DDI-DrugBank.d143.s18.p6"
+            e1="DDI-DrugBank.d143.s18.e1" e2="DDI-DrugBank.d143.s18.e4" ddi="false"/>
+        <pair id="DDI-DrugBank.d143.s18.p7"
+            e1="DDI-DrugBank.d143.s18.e2" e2="DDI-DrugBank.d143.s18.e3" ddi="false"/>
+        <pair id="DDI-DrugBank.d143.s18.p8"
+            e1="DDI-DrugBank.d143.s18.e2" e2="DDI-DrugBank.d143.s18.e4" ddi="false"/>
+        <pair id="DDI-DrugBank.d143.s18.p9"
+            e1="DDI-DrugBank.d143.s18.e3" e2="DDI-DrugBank.d143.s18.e4" ddi="false"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d143.s19" text="This inhibition can result in unexpectedly high plasma levels of other drugs which are metabolized by those CYP450 enzymes.">
+        <entity id="DDI-DrugBank.d143.s19.e0" charOffset="71-75"
+            type="drug" text="drugs"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d143.s20" text="Reported examples of this interaction include the following: Immunosuppressives: Cyclosporine (CYP3A4 substrate) administered in combination with oral amiodarone has been reported to produce persistently elevated plasma concentrations of cyclosporine resulting in elevated creatinine, despite reduction in dose of cyclosporine.">
+        <entity id="DDI-DrugBank.d143.s20.e0" charOffset="61-77"
+            type="drug" text="Immunosuppressive"/>
+        <entity id="DDI-DrugBank.d143.s20.e1" charOffset="81-92"
+            type="drug" text="Cyclosporine"/>
+        <entity id="DDI-DrugBank.d143.s20.e2" charOffset="95-100"
+            type="drug" text="CYP3A4"/>
+        <entity id="DDI-DrugBank.d143.s20.e3" charOffset="151-160"
+            type="drug" text="amiodarone"/>
+        <entity id="DDI-DrugBank.d143.s20.e4" charOffset="238-249"
+            type="drug" text="cyclosporine"/>
+        <entity id="DDI-DrugBank.d143.s20.e5" charOffset="314-325"
+            type="drug" text="cyclosporine"/>
+        <pair id="DDI-DrugBank.d143.s20.p0"
+            e1="DDI-DrugBank.d143.s20.e0" e2="DDI-DrugBank.d143.s20.e1" ddi="false"/>
+        <pair id="DDI-DrugBank.d143.s20.p1"
+            e1="DDI-DrugBank.d143.s20.e0" e2="DDI-DrugBank.d143.s20.e2" ddi="false"/>
+        <pair id="DDI-DrugBank.d143.s20.p2"
+            e1="DDI-DrugBank.d143.s20.e0" e2="DDI-DrugBank.d143.s20.e3" ddi="false"/>
+        <pair id="DDI-DrugBank.d143.s20.p3"
+            e1="DDI-DrugBank.d143.s20.e0" e2="DDI-DrugBank.d143.s20.e4" ddi="false"/>
+        <pair id="DDI-DrugBank.d143.s20.p4"
+            e1="DDI-DrugBank.d143.s20.e0" e2="DDI-DrugBank.d143.s20.e5" ddi="false"/>
+        <pair id="DDI-DrugBank.d143.s20.p5"
+            e1="DDI-DrugBank.d143.s20.e1" e2="DDI-DrugBank.d143.s20.e2" ddi="false"/>
+        <pair id="DDI-DrugBank.d143.s20.p6"
+            e1="DDI-DrugBank.d143.s20.e1" e2="DDI-DrugBank.d143.s20.e3" ddi="false"/>
+        <pair id="DDI-DrugBank.d143.s20.p7"
+            e1="DDI-DrugBank.d143.s20.e1" e2="DDI-DrugBank.d143.s20.e4" ddi="false"/>
+        <pair id="DDI-DrugBank.d143.s20.p8"
+            e1="DDI-DrugBank.d143.s20.e1" e2="DDI-DrugBank.d143.s20.e5" ddi="false"/>
+        <pair id="DDI-DrugBank.d143.s20.p9"
+            e1="DDI-DrugBank.d143.s20.e2" e2="DDI-DrugBank.d143.s20.e3" ddi="false"/>
+        <pair id="DDI-DrugBank.d143.s20.p10"
+            e1="DDI-DrugBank.d143.s20.e2" e2="DDI-DrugBank.d143.s20.e4" ddi="false"/>
+        <pair id="DDI-DrugBank.d143.s20.p11"
+            e1="DDI-DrugBank.d143.s20.e2" e2="DDI-DrugBank.d143.s20.e5" ddi="false"/>
+        <pair id="DDI-DrugBank.d143.s20.p12"
+            e1="DDI-DrugBank.d143.s20.e3" e2="DDI-DrugBank.d143.s20.e4" ddi="false"/>
+        <pair id="DDI-DrugBank.d143.s20.p13"
+            e1="DDI-DrugBank.d143.s20.e3" e2="DDI-DrugBank.d143.s20.e5" ddi="false"/>
+        <pair id="DDI-DrugBank.d143.s20.p14"
+            e1="DDI-DrugBank.d143.s20.e4" e2="DDI-DrugBank.d143.s20.e5" ddi="false"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d143.s21" text="HMG-CoA Reductase Inhibitors: Simvastatin (CYP3A4 substrate) in combination with amiodarone has been associated with reports of myopathy/rhabdomyolysis.">
+        <entity id="DDI-DrugBank.d143.s21.e0" charOffset="0-27"
+            type="drug" text="HMG-CoA Reductase Inhibitors"/>
+        <entity id="DDI-DrugBank.d143.s21.e1" charOffset="30-40"
+            type="drug" text="Simvastatin"/>
+        <entity id="DDI-DrugBank.d143.s21.e2" charOffset="43-48"
+            type="drug" text="CYP3A4"/>
+        <entity id="DDI-DrugBank.d143.s21.e3" charOffset="81-90"
+            type="drug" text="amiodarone"/>
+        <pair id="DDI-DrugBank.d143.s21.p0"
+            e1="DDI-DrugBank.d143.s21.e0" e2="DDI-DrugBank.d143.s21.e1" ddi="false"/>
+        <pair id="DDI-DrugBank.d143.s21.p1"
+            e1="DDI-DrugBank.d143.s21.e0" e2="DDI-DrugBank.d143.s21.e2" ddi="false"/>
+        <pair id="DDI-DrugBank.d143.s21.p2"
+            e1="DDI-DrugBank.d143.s21.e0" e2="DDI-DrugBank.d143.s21.e3" ddi="false"/>
+        <pair id="DDI-DrugBank.d143.s21.p3"
+            e1="DDI-DrugBank.d143.s21.e1" e2="DDI-DrugBank.d143.s21.e2" ddi="false"/>
+        <pair id="DDI-DrugBank.d143.s21.p4"
+            e1="DDI-DrugBank.d143.s21.e1" e2="DDI-DrugBank.d143.s21.e3" ddi="false"/>
+        <pair id="DDI-DrugBank.d143.s21.p5"
+            e1="DDI-DrugBank.d143.s21.e2" e2="DDI-DrugBank.d143.s21.e3" ddi="false"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d143.s22" text="Cardiovasculars: Cardiac glycosides: In patients receiving digoxin therapy, administration of oral amiodarone regularly results in an increase in serum digoxin concentration that may reach toxic levels with resultant clinical toxicity.">
+        <entity id="DDI-DrugBank.d143.s22.e0" charOffset="17-34"
+            type="drug" text="Cardiac glycosides"/>
+        <entity id="DDI-DrugBank.d143.s22.e1" charOffset="59-65"
+            type="drug" text="digoxin"/>
+        <entity id="DDI-DrugBank.d143.s22.e2" charOffset="99-108"
+            type="drug" text="amiodarone"/>
+        <entity id="DDI-DrugBank.d143.s22.e3" charOffset="152-158"
+            type="drug" text="digoxin"/>
+        <pair id="DDI-DrugBank.d143.s22.p0"
+            e1="DDI-DrugBank.d143.s22.e0" e2="DDI-DrugBank.d143.s22.e1" ddi="false"/>
+        <pair id="DDI-DrugBank.d143.s22.p1"
+            e1="DDI-DrugBank.d143.s22.e0" e2="DDI-DrugBank.d143.s22.e2" ddi="false"/>
+        <pair id="DDI-DrugBank.d143.s22.p2"
+            e1="DDI-DrugBank.d143.s22.e0" e2="DDI-DrugBank.d143.s22.e3" ddi="false"/>
+        <pair id="DDI-DrugBank.d143.s22.p3"
+            e1="DDI-DrugBank.d143.s22.e1" e2="DDI-DrugBank.d143.s22.e2" ddi="false"/>
+        <pair id="DDI-DrugBank.d143.s22.p4"
+            e1="DDI-DrugBank.d143.s22.e1" e2="DDI-DrugBank.d143.s22.e3" ddi="false"/>
+        <pair id="DDI-DrugBank.d143.s22.p5"
+            e1="DDI-DrugBank.d143.s22.e2" e2="DDI-DrugBank.d143.s22.e3" ddi="false"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d143.s23" text="Amiodarone taken concomitantly with digoxin increases the serum digoxin concentration by 70% after one day.">
+        <entity id="DDI-DrugBank.d143.s23.e0" charOffset="0-9"
+            type="drug" text="Amiodarone"/>
+        <entity id="DDI-DrugBank.d143.s23.e1" charOffset="36-42"
+            type="drug" text="digoxin"/>
+        <entity id="DDI-DrugBank.d143.s23.e2" charOffset="64-70"
+            type="drug" text="digoxin"/>
+        <pair id="DDI-DrugBank.d143.s23.p0"
+            e1="DDI-DrugBank.d143.s23.e0" e2="DDI-DrugBank.d143.s23.e1" ddi="false"/>
+        <pair id="DDI-DrugBank.d143.s23.p1"
+            e1="DDI-DrugBank.d143.s23.e0" e2="DDI-DrugBank.d143.s23.e2" ddi="false"/>
+        <pair id="DDI-DrugBank.d143.s23.p2"
+            e1="DDI-DrugBank.d143.s23.e1" e2="DDI-DrugBank.d143.s23.e2" ddi="false"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d143.s24" text="On administration of oral amiodarone, the need for digitalis therapy should be reviewed and the dose reduced by approximately 50% or discontinued.">
+        <entity id="DDI-DrugBank.d143.s24.e0" charOffset="26-35"
+            type="drug" text="amiodarone"/>
+        <entity id="DDI-DrugBank.d143.s24.e1" charOffset="51-59"
+            type="group" text="digitalis"/>
+        <pair id="DDI-DrugBank.d143.s24.p0"
+            e1="DDI-DrugBank.d143.s24.e0" e2="DDI-DrugBank.d143.s24.e1"
+            ddi="true" type="advise"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d143.s25" text="If digitalis treatment is continued, serum levels should be closely monitored and patients observed for clinical evidence of toxicity.">
+        <entity id="DDI-DrugBank.d143.s25.e0" charOffset="3-11"
+            type="drug" text="digitalis"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d143.s26" text="These precautions probably should apply to digitoxin administration as well.">
+        <entity id="DDI-DrugBank.d143.s26.e0" charOffset="43-51"
+            type="drug" text="digitoxin"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d143.s27" text="Antiarrhythmics: Other antiarrhythmic drugs, such as quinidine, procainamide, disopyramide, and phenytoin, have been used concurrently with amiodarone.">
+        <entity id="DDI-DrugBank.d143.s27.e0" charOffset="0-14"
+            type="drug" text="Antiarrhythmics"/>
+        <entity id="DDI-DrugBank.d143.s27.e1" charOffset="23-36"
+            type="drug" text="antiarrhythmic"/>
+        <entity id="DDI-DrugBank.d143.s27.e2" charOffset="53-61"
+            type="drug" text="quinidine"/>
+        <entity id="DDI-DrugBank.d143.s27.e3" charOffset="64-75"
+            type="drug" text="procainamide"/>
+        <entity id="DDI-DrugBank.d143.s27.e4" charOffset="78-89"
+            type="drug" text="disopyramide"/>
+        <entity id="DDI-DrugBank.d143.s27.e5" charOffset="96-104"
+            type="drug" text="phenytoin"/>
+        <entity id="DDI-DrugBank.d143.s27.e6" charOffset="140-149"
+            type="drug" text="amiodarone"/>
+        <pair id="DDI-DrugBank.d143.s27.p0"
+            e1="DDI-DrugBank.d143.s27.e0" e2="DDI-DrugBank.d143.s27.e1" ddi="false"/>
+        <pair id="DDI-DrugBank.d143.s27.p1"
+            e1="DDI-DrugBank.d143.s27.e0" e2="DDI-DrugBank.d143.s27.e2" ddi="false"/>
+        <pair id="DDI-DrugBank.d143.s27.p2"
+            e1="DDI-DrugBank.d143.s27.e0" e2="DDI-DrugBank.d143.s27.e3" ddi="false"/>
+        <pair id="DDI-DrugBank.d143.s27.p3"
+            e1="DDI-DrugBank.d143.s27.e0" e2="DDI-DrugBank.d143.s27.e4" ddi="false"/>
+        <pair id="DDI-DrugBank.d143.s27.p4"
+            e1="DDI-DrugBank.d143.s27.e0" e2="DDI-DrugBank.d143.s27.e5" ddi="false"/>
+        <pair id="DDI-DrugBank.d143.s27.p5"
+            e1="DDI-DrugBank.d143.s27.e0" e2="DDI-DrugBank.d143.s27.e6" ddi="false"/>
+        <pair id="DDI-DrugBank.d143.s27.p6"
+            e1="DDI-DrugBank.d143.s27.e1" e2="DDI-DrugBank.d143.s27.e2" ddi="false"/>
+        <pair id="DDI-DrugBank.d143.s27.p7"
+            e1="DDI-DrugBank.d143.s27.e1" e2="DDI-DrugBank.d143.s27.e3" ddi="false"/>
+        <pair id="DDI-DrugBank.d143.s27.p8"
+            e1="DDI-DrugBank.d143.s27.e1" e2="DDI-DrugBank.d143.s27.e4" ddi="false"/>
+        <pair id="DDI-DrugBank.d143.s27.p9"
+            e1="DDI-DrugBank.d143.s27.e1" e2="DDI-DrugBank.d143.s27.e5" ddi="false"/>
+        <pair id="DDI-DrugBank.d143.s27.p10"
+            e1="DDI-DrugBank.d143.s27.e1" e2="DDI-DrugBank.d143.s27.e6" ddi="false"/>
+        <pair id="DDI-DrugBank.d143.s27.p11"
+            e1="DDI-DrugBank.d143.s27.e2" e2="DDI-DrugBank.d143.s27.e3" ddi="false"/>
+        <pair id="DDI-DrugBank.d143.s27.p12"
+            e1="DDI-DrugBank.d143.s27.e2" e2="DDI-DrugBank.d143.s27.e4" ddi="false"/>
+        <pair id="DDI-DrugBank.d143.s27.p13"
+            e1="DDI-DrugBank.d143.s27.e2" e2="DDI-DrugBank.d143.s27.e5" ddi="false"/>
+        <pair id="DDI-DrugBank.d143.s27.p14"
+            e1="DDI-DrugBank.d143.s27.e2" e2="DDI-DrugBank.d143.s27.e6" ddi="false"/>
+        <pair id="DDI-DrugBank.d143.s27.p15"
+            e1="DDI-DrugBank.d143.s27.e3" e2="DDI-DrugBank.d143.s27.e4" ddi="false"/>
+        <pair id="DDI-DrugBank.d143.s27.p16"
+            e1="DDI-DrugBank.d143.s27.e3" e2="DDI-DrugBank.d143.s27.e5" ddi="false"/>
+        <pair id="DDI-DrugBank.d143.s27.p17"
+            e1="DDI-DrugBank.d143.s27.e3" e2="DDI-DrugBank.d143.s27.e6" ddi="false"/>
+        <pair id="DDI-DrugBank.d143.s27.p18"
+            e1="DDI-DrugBank.d143.s27.e4" e2="DDI-DrugBank.d143.s27.e5" ddi="false"/>
+        <pair id="DDI-DrugBank.d143.s27.p19"
+            e1="DDI-DrugBank.d143.s27.e4" e2="DDI-DrugBank.d143.s27.e6" ddi="false"/>
+        <pair id="DDI-DrugBank.d143.s27.p20"
+            e1="DDI-DrugBank.d143.s27.e5" e2="DDI-DrugBank.d143.s27.e6" ddi="false"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d143.s28" text="There have been case reports of increased steady-state levels of quinidine, procainamide, and phenytoin during concomitant therapy with amiodarone.">
+        <entity id="DDI-DrugBank.d143.s28.e0" charOffset="65-73"
+            type="drug" text="quinidine"/>
+        <entity id="DDI-DrugBank.d143.s28.e1" charOffset="76-87"
+            type="drug" text="procainamide"/>
+        <entity id="DDI-DrugBank.d143.s28.e2" charOffset="94-102"
+            type="drug" text="phenytoin"/>
+        <entity id="DDI-DrugBank.d143.s28.e3" charOffset="136-145"
+            type="drug" text="amiodarone"/>
+        <pair id="DDI-DrugBank.d143.s28.p0"
+            e1="DDI-DrugBank.d143.s28.e0" e2="DDI-DrugBank.d143.s28.e1" ddi="false"/>
+        <pair id="DDI-DrugBank.d143.s28.p1"
+            e1="DDI-DrugBank.d143.s28.e0" e2="DDI-DrugBank.d143.s28.e2" ddi="false"/>
+        <pair id="DDI-DrugBank.d143.s28.p2"
+            e1="DDI-DrugBank.d143.s28.e0" e2="DDI-DrugBank.d143.s28.e3" ddi="false"/>
+        <pair id="DDI-DrugBank.d143.s28.p3"
+            e1="DDI-DrugBank.d143.s28.e1" e2="DDI-DrugBank.d143.s28.e2" ddi="false"/>
+        <pair id="DDI-DrugBank.d143.s28.p4"
+            e1="DDI-DrugBank.d143.s28.e1" e2="DDI-DrugBank.d143.s28.e3" ddi="false"/>
+        <pair id="DDI-DrugBank.d143.s28.p5"
+            e1="DDI-DrugBank.d143.s28.e2" e2="DDI-DrugBank.d143.s28.e3" ddi="false"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d143.s29" text="Phenytoin decreases serum amiodarone levels.">
+        <entity id="DDI-DrugBank.d143.s29.e0" charOffset="0-8"
+            type="drug" text="Phenytoin"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d143.s30" text="Amiodarone taken concomitantly with quinidine increases quinidine serum concentration by 33% after two days.">
+        <entity id="DDI-DrugBank.d143.s30.e0" charOffset="0-9"
+            type="drug" text="Amiodarone"/>
+        <entity id="DDI-DrugBank.d143.s30.e1" charOffset="36-44"
+            type="drug" text="quinidine"/>
+        <entity id="DDI-DrugBank.d143.s30.e2" charOffset="56-64"
+            type="drug" text="quinidine"/>
+        <pair id="DDI-DrugBank.d143.s30.p0"
+            e1="DDI-DrugBank.d143.s30.e0" e2="DDI-DrugBank.d143.s30.e1" ddi="false"/>
+        <pair id="DDI-DrugBank.d143.s30.p1"
+            e1="DDI-DrugBank.d143.s30.e0" e2="DDI-DrugBank.d143.s30.e2" ddi="false"/>
+        <pair id="DDI-DrugBank.d143.s30.p2"
+            e1="DDI-DrugBank.d143.s30.e1" e2="DDI-DrugBank.d143.s30.e2" ddi="false"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d143.s31" text="Amiodarone taken concomitantly with procainamide for less than seven days increases plasma concentrations of procainamide and n-acetyl procainamide by 55% and 33%, respectively.">
+        <entity id="DDI-DrugBank.d143.s31.e0" charOffset="0-9"
+            type="drug" text="Amiodarone"/>
+        <entity id="DDI-DrugBank.d143.s31.e1" charOffset="36-47"
+            type="drug" text="procainamide"/>
+        <entity id="DDI-DrugBank.d143.s31.e2" charOffset="109-120"
+            type="drug" text="procainamide"/>
+        <entity id="DDI-DrugBank.d143.s31.e3" charOffset="135-146"
+            type="drug" text="procainamide"/>
+        <pair id="DDI-DrugBank.d143.s31.p0"
+            e1="DDI-DrugBank.d143.s31.e0" e2="DDI-DrugBank.d143.s31.e1" ddi="false"/>
+        <pair id="DDI-DrugBank.d143.s31.p1"
+            e1="DDI-DrugBank.d143.s31.e0" e2="DDI-DrugBank.d143.s31.e2" ddi="false"/>
+        <pair id="DDI-DrugBank.d143.s31.p2"
+            e1="DDI-DrugBank.d143.s31.e0" e2="DDI-DrugBank.d143.s31.e3" ddi="false"/>
+        <pair id="DDI-DrugBank.d143.s31.p3"
+            e1="DDI-DrugBank.d143.s31.e1" e2="DDI-DrugBank.d143.s31.e2" ddi="false"/>
+        <pair id="DDI-DrugBank.d143.s31.p4"
+            e1="DDI-DrugBank.d143.s31.e1" e2="DDI-DrugBank.d143.s31.e3" ddi="false"/>
+        <pair id="DDI-DrugBank.d143.s31.p5"
+            e1="DDI-DrugBank.d143.s31.e2" e2="DDI-DrugBank.d143.s31.e3" ddi="false"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d143.s32" text="Quinidine and procainamide doses should be reduced by one-third when either is administered with amiodarone.">
+        <entity id="DDI-DrugBank.d143.s32.e0" charOffset="0-8"
+            type="drug" text="Quinidine"/>
+        <entity id="DDI-DrugBank.d143.s32.e1" charOffset="97-106"
+            type="drug" text="amiodarone"/>
+        <pair id="DDI-DrugBank.d143.s32.p0"
+            e1="DDI-DrugBank.d143.s32.e0" e2="DDI-DrugBank.d143.s32.e1" ddi="false"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d143.s33" text="Plasma levels of flecainide have been reported to increase in the presence of oral amiodarone;">
+        <entity id="DDI-DrugBank.d143.s33.e0" charOffset="17-26"
+            type="drug" text="flecainide"/>
+        <entity id="DDI-DrugBank.d143.s33.e1" charOffset="83-92"
+            type="drug" text="amiodarone"/>
+        <pair id="DDI-DrugBank.d143.s33.p0"
+            e1="DDI-DrugBank.d143.s33.e0" e2="DDI-DrugBank.d143.s33.e1" ddi="false"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d143.s34" text="because of this, the dosage of flecainide should be adjusted when these drugs are administered concomitantly.">
+        <entity id="DDI-DrugBank.d143.s34.e0" charOffset="31-40"
+            type="drug" text="flecainide"/>
+        <entity id="DDI-DrugBank.d143.s34.e1" charOffset="72-76"
+            type="drug" text="drugs"/>
+        <pair id="DDI-DrugBank.d143.s34.p0"
+            e1="DDI-DrugBank.d143.s34.e0" e2="DDI-DrugBank.d143.s34.e1" ddi="false"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d143.s35" text="In general, any added antiarrhythmic drug should be initiated at a lower than usual dose with careful monitoring.">
+        <entity id="DDI-DrugBank.d143.s35.e0" charOffset="22-40"
+            type="drug" text="antiarrhythmic drug"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d143.s36" text="Combination of amiodarone with other antiarrhythmic therapy should be reserved for patients with life-threatening ventricular arrhythmias who are incompletely responsive to a single agent or incompletely responsive to amiodarone.">
+        <entity id="DDI-DrugBank.d143.s36.e0" charOffset="15-24"
+            type="drug" text="amiodarone"/>
+        <entity id="DDI-DrugBank.d143.s36.e1" charOffset="37-50"
+            type="drug" text="antiarrhythmic"/>
+        <entity id="DDI-DrugBank.d143.s36.e2" charOffset="218-227"
+            type="drug" text="amiodarone"/>
+        <pair id="DDI-DrugBank.d143.s36.p0"
+            e1="DDI-DrugBank.d143.s36.e0" e2="DDI-DrugBank.d143.s36.e1" ddi="false"/>
+        <pair id="DDI-DrugBank.d143.s36.p1"
+            e1="DDI-DrugBank.d143.s36.e0" e2="DDI-DrugBank.d143.s36.e2" ddi="false"/>
+        <pair id="DDI-DrugBank.d143.s36.p2"
+            e1="DDI-DrugBank.d143.s36.e1" e2="DDI-DrugBank.d143.s36.e2" ddi="false"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d143.s37" text="During transfer to oral amiodarone, the dose levels of previously administered agents should be reduced by 30 to 50% several days after the addition of oral amiodarone.">
+        <entity id="DDI-DrugBank.d143.s37.e0" charOffset="24-33"
+            type="drug" text="amiodarone"/>
+        <entity id="DDI-DrugBank.d143.s37.e1" charOffset="157-166"
+            type="drug" text="amiodarone"/>
+        <pair id="DDI-DrugBank.d143.s37.p0"
+            e1="DDI-DrugBank.d143.s37.e0" e2="DDI-DrugBank.d143.s37.e1" ddi="false"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d143.s38" text="The continued need for the other antiarrhythmic agent should be reviewed after the effects of amiodarone have been established, and discontinuation ordinarily should be attempted.">
+        <entity id="DDI-DrugBank.d143.s38.e0" charOffset="33-46"
+            type="drug" text="antiarrhythmic"/>
+        <entity id="DDI-DrugBank.d143.s38.e1" charOffset="94-103"
+            type="drug" text="amiodarone"/>
+        <pair id="DDI-DrugBank.d143.s38.p0"
+            e1="DDI-DrugBank.d143.s38.e0" e2="DDI-DrugBank.d143.s38.e1" ddi="false"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d143.s39" text="If the treatment is continued, these patients should be particularly carefully monitored for adverse effects, especially conduction disturbances and exacerbation of tachyarrhythmias, as amiodarone is continued.">
+        <entity id="DDI-DrugBank.d143.s39.e0" charOffset="186-195"
+            type="drug" text="amiodarone"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d143.s40" text="In amiodarone-treated patients who require additional antiarrhythmic therapy, the initial dose of such agents should be approximately half of the usual recommended dose.">
+        <entity id="DDI-DrugBank.d143.s40.e0" charOffset="3-12"
+            type="drug" text="amiodarone"/>
+        <entity id="DDI-DrugBank.d143.s40.e1" charOffset="54-67"
+            type="drug" text="antiarrhythmic"/>
+        <pair id="DDI-DrugBank.d143.s40.p0"
+            e1="DDI-DrugBank.d143.s40.e0" e2="DDI-DrugBank.d143.s40.e1" ddi="false"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d143.s41" text="Antihypertensives: Amiodarone should be used with caution in patients receiving  -receptor blocking agents (e.g., propranolol, a CYP3A4 inhibitor) or calcium channel antagonists (e.g., verapamil, a CYP3A4 substrate, and diltiazem, a CYP3A4 inhibitor) because of the possible potentiation of bradycardia, sinus arrest, and AV block;">
+        <entity id="DDI-DrugBank.d143.s41.e0" charOffset="0-16"
+            type="drug" text="Antihypertensives"/>
+        <entity id="DDI-DrugBank.d143.s41.e1" charOffset="19-28"
+            type="drug" text="Amiodarone"/>
+        <entity id="DDI-DrugBank.d143.s41.e2" charOffset="82-89"
+            type="drug" text="receptor"/>
+        <entity id="DDI-DrugBank.d143.s41.e3" charOffset="114-124"
+            type="drug" text="propranolol"/>
+        <entity id="DDI-DrugBank.d143.s41.e4" charOffset="129-134"
+            type="drug" text="CYP3A4"/>
+        <entity id="DDI-DrugBank.d143.s41.e5" charOffset="150-164"
+            type="drug" text="calcium channel"/>
+        <entity id="DDI-DrugBank.d143.s41.e6" charOffset="185-193"
+            type="drug" text="verapamil"/>
+        <entity id="DDI-DrugBank.d143.s41.e7" charOffset="198-203"
+            type="drug" text="CYP3A4"/>
+        <entity id="DDI-DrugBank.d143.s41.e8" charOffset="220-228"
+            type="drug" text="diltiazem"/>
+        <entity id="DDI-DrugBank.d143.s41.e9" charOffset="233-238"
+            type="drug" text="CYP3A4"/>
+        <pair id="DDI-DrugBank.d143.s41.p0"
+            e1="DDI-DrugBank.d143.s41.e0" e2="DDI-DrugBank.d143.s41.e1" ddi="false"/>
+        <pair id="DDI-DrugBank.d143.s41.p1"
+            e1="DDI-DrugBank.d143.s41.e0" e2="DDI-DrugBank.d143.s41.e2" ddi="false"/>
+        <pair id="DDI-DrugBank.d143.s41.p2"
+            e1="DDI-DrugBank.d143.s41.e0" e2="DDI-DrugBank.d143.s41.e3" ddi="false"/>
+        <pair id="DDI-DrugBank.d143.s41.p3"
+            e1="DDI-DrugBank.d143.s41.e0" e2="DDI-DrugBank.d143.s41.e4" ddi="false"/>
+        <pair id="DDI-DrugBank.d143.s41.p4"
+            e1="DDI-DrugBank.d143.s41.e0" e2="DDI-DrugBank.d143.s41.e5" ddi="false"/>
+        <pair id="DDI-DrugBank.d143.s41.p5"
+            e1="DDI-DrugBank.d143.s41.e0" e2="DDI-DrugBank.d143.s41.e6" ddi="false"/>
+        <pair id="DDI-DrugBank.d143.s41.p6"
+            e1="DDI-DrugBank.d143.s41.e0" e2="DDI-DrugBank.d143.s41.e7" ddi="false"/>
+        <pair id="DDI-DrugBank.d143.s41.p7"
+            e1="DDI-DrugBank.d143.s41.e0" e2="DDI-DrugBank.d143.s41.e8" ddi="false"/>
+        <pair id="DDI-DrugBank.d143.s41.p8"
+            e1="DDI-DrugBank.d143.s41.e0" e2="DDI-DrugBank.d143.s41.e9" ddi="false"/>
+        <pair id="DDI-DrugBank.d143.s41.p9"
+            e1="DDI-DrugBank.d143.s41.e1" e2="DDI-DrugBank.d143.s41.e2" ddi="false"/>
+        <pair id="DDI-DrugBank.d143.s41.p10"
+            e1="DDI-DrugBank.d143.s41.e1" e2="DDI-DrugBank.d143.s41.e3" ddi="false"/>
+        <pair id="DDI-DrugBank.d143.s41.p11"
+            e1="DDI-DrugBank.d143.s41.e1" e2="DDI-DrugBank.d143.s41.e4" ddi="false"/>
+        <pair id="DDI-DrugBank.d143.s41.p12"
+            e1="DDI-DrugBank.d143.s41.e1" e2="DDI-DrugBank.d143.s41.e5" ddi="false"/>
+        <pair id="DDI-DrugBank.d143.s41.p13"
+            e1="DDI-DrugBank.d143.s41.e1" e2="DDI-DrugBank.d143.s41.e6" ddi="false"/>
+        <pair id="DDI-DrugBank.d143.s41.p14"
+            e1="DDI-DrugBank.d143.s41.e1" e2="DDI-DrugBank.d143.s41.e7" ddi="false"/>
+        <pair id="DDI-DrugBank.d143.s41.p15"
+            e1="DDI-DrugBank.d143.s41.e1" e2="DDI-DrugBank.d143.s41.e8" ddi="false"/>
+        <pair id="DDI-DrugBank.d143.s41.p16"
+            e1="DDI-DrugBank.d143.s41.e1" e2="DDI-DrugBank.d143.s41.e9" ddi="false"/>
+        <pair id="DDI-DrugBank.d143.s41.p17"
+            e1="DDI-DrugBank.d143.s41.e2" e2="DDI-DrugBank.d143.s41.e3" ddi="false"/>
+        <pair id="DDI-DrugBank.d143.s41.p18"
+            e1="DDI-DrugBank.d143.s41.e2" e2="DDI-DrugBank.d143.s41.e4" ddi="false"/>
+        <pair id="DDI-DrugBank.d143.s41.p19"
+            e1="DDI-DrugBank.d143.s41.e2" e2="DDI-DrugBank.d143.s41.e5" ddi="false"/>
+        <pair id="DDI-DrugBank.d143.s41.p20"
+            e1="DDI-DrugBank.d143.s41.e2" e2="DDI-DrugBank.d143.s41.e6" ddi="false"/>
+        <pair id="DDI-DrugBank.d143.s41.p21"
+            e1="DDI-DrugBank.d143.s41.e2" e2="DDI-DrugBank.d143.s41.e7" ddi="false"/>
+        <pair id="DDI-DrugBank.d143.s41.p22"
+            e1="DDI-DrugBank.d143.s41.e2" e2="DDI-DrugBank.d143.s41.e8" ddi="false"/>
+        <pair id="DDI-DrugBank.d143.s41.p23"
+            e1="DDI-DrugBank.d143.s41.e2" e2="DDI-DrugBank.d143.s41.e9" ddi="false"/>
+        <pair id="DDI-DrugBank.d143.s41.p24"
+            e1="DDI-DrugBank.d143.s41.e3" e2="DDI-DrugBank.d143.s41.e4" ddi="false"/>
+        <pair id="DDI-DrugBank.d143.s41.p25"
+            e1="DDI-DrugBank.d143.s41.e3" e2="DDI-DrugBank.d143.s41.e5" ddi="false"/>
+        <pair id="DDI-DrugBank.d143.s41.p26"
+            e1="DDI-DrugBank.d143.s41.e3" e2="DDI-DrugBank.d143.s41.e6" ddi="false"/>
+        <pair id="DDI-DrugBank.d143.s41.p27"
+            e1="DDI-DrugBank.d143.s41.e3" e2="DDI-DrugBank.d143.s41.e7" ddi="false"/>
+        <pair id="DDI-DrugBank.d143.s41.p28"
+            e1="DDI-DrugBank.d143.s41.e3" e2="DDI-DrugBank.d143.s41.e8" ddi="false"/>
+        <pair id="DDI-DrugBank.d143.s41.p29"
+            e1="DDI-DrugBank.d143.s41.e3" e2="DDI-DrugBank.d143.s41.e9" ddi="false"/>
+        <pair id="DDI-DrugBank.d143.s41.p30"
+            e1="DDI-DrugBank.d143.s41.e4" e2="DDI-DrugBank.d143.s41.e5" ddi="false"/>
+        <pair id="DDI-DrugBank.d143.s41.p31"
+            e1="DDI-DrugBank.d143.s41.e4" e2="DDI-DrugBank.d143.s41.e6" ddi="false"/>
+        <pair id="DDI-DrugBank.d143.s41.p32"
+            e1="DDI-DrugBank.d143.s41.e4" e2="DDI-DrugBank.d143.s41.e7" ddi="false"/>
+        <pair id="DDI-DrugBank.d143.s41.p33"
+            e1="DDI-DrugBank.d143.s41.e4" e2="DDI-DrugBank.d143.s41.e8" ddi="false"/>
+        <pair id="DDI-DrugBank.d143.s41.p34"
+            e1="DDI-DrugBank.d143.s41.e4" e2="DDI-DrugBank.d143.s41.e9" ddi="false"/>
+        <pair id="DDI-DrugBank.d143.s41.p35"
+            e1="DDI-DrugBank.d143.s41.e5" e2="DDI-DrugBank.d143.s41.e6" ddi="false"/>
+        <pair id="DDI-DrugBank.d143.s41.p36"
+            e1="DDI-DrugBank.d143.s41.e5" e2="DDI-DrugBank.d143.s41.e7" ddi="false"/>
+        <pair id="DDI-DrugBank.d143.s41.p37"
+            e1="DDI-DrugBank.d143.s41.e5" e2="DDI-DrugBank.d143.s41.e8" ddi="false"/>
+        <pair id="DDI-DrugBank.d143.s41.p38"
+            e1="DDI-DrugBank.d143.s41.e5" e2="DDI-DrugBank.d143.s41.e9" ddi="false"/>
+        <pair id="DDI-DrugBank.d143.s41.p39"
+            e1="DDI-DrugBank.d143.s41.e6" e2="DDI-DrugBank.d143.s41.e7" ddi="false"/>
+        <pair id="DDI-DrugBank.d143.s41.p40"
+            e1="DDI-DrugBank.d143.s41.e6" e2="DDI-DrugBank.d143.s41.e8" ddi="false"/>
+        <pair id="DDI-DrugBank.d143.s41.p41"
+            e1="DDI-DrugBank.d143.s41.e6" e2="DDI-DrugBank.d143.s41.e9" ddi="false"/>
+        <pair id="DDI-DrugBank.d143.s41.p42"
+            e1="DDI-DrugBank.d143.s41.e7" e2="DDI-DrugBank.d143.s41.e8" ddi="false"/>
+        <pair id="DDI-DrugBank.d143.s41.p43"
+            e1="DDI-DrugBank.d143.s41.e7" e2="DDI-DrugBank.d143.s41.e9" ddi="false"/>
+        <pair id="DDI-DrugBank.d143.s41.p44"
+            e1="DDI-DrugBank.d143.s41.e8" e2="DDI-DrugBank.d143.s41.e9" ddi="false"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d143.s42" text="if necessary, amiodarone can continue to be used after insertion of a pacemaker in patients with severe bradycardia or sinus arrest.">
+        <entity id="DDI-DrugBank.d143.s42.e0" charOffset="14-23"
+            type="drug" text="amiodarone"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d143.s43" text="Anticoagulants: Potentiation of warfarin-type (CYP2C9 and CYP3A4 substrate) anticoagulant response is almost always seen in patients receiving amiodarone and can result in serious or fatal bleeding.">
+        <entity id="DDI-DrugBank.d143.s43.e0" charOffset="0-13"
+            type="drug" text="Anticoagulants"/>
+        <entity id="DDI-DrugBank.d143.s43.e1" charOffset="32-39"
+            type="drug" text="warfarin"/>
+        <entity id="DDI-DrugBank.d143.s43.e2" charOffset="47-52"
+            type="drug" text="CYP2C9"/>
+        <entity id="DDI-DrugBank.d143.s43.e3" charOffset="58-63"
+            type="drug" text="CYP3A4"/>
+        <entity id="DDI-DrugBank.d143.s43.e4" charOffset="76-88"
+            type="drug" text="anticoagulant"/>
+        <entity id="DDI-DrugBank.d143.s43.e5" charOffset="143-152"
+            type="drug" text="amiodarone"/>
+        <pair id="DDI-DrugBank.d143.s43.p0"
+            e1="DDI-DrugBank.d143.s43.e0" e2="DDI-DrugBank.d143.s43.e1" ddi="false"/>
+        <pair id="DDI-DrugBank.d143.s43.p1"
+            e1="DDI-DrugBank.d143.s43.e0" e2="DDI-DrugBank.d143.s43.e2" ddi="false"/>
+        <pair id="DDI-DrugBank.d143.s43.p2"
+            e1="DDI-DrugBank.d143.s43.e0" e2="DDI-DrugBank.d143.s43.e3" ddi="false"/>
+        <pair id="DDI-DrugBank.d143.s43.p3"
+            e1="DDI-DrugBank.d143.s43.e0" e2="DDI-DrugBank.d143.s43.e4" ddi="false"/>
+        <pair id="DDI-DrugBank.d143.s43.p4"
+            e1="DDI-DrugBank.d143.s43.e0" e2="DDI-DrugBank.d143.s43.e5" ddi="false"/>
+        <pair id="DDI-DrugBank.d143.s43.p5"
+            e1="DDI-DrugBank.d143.s43.e1" e2="DDI-DrugBank.d143.s43.e2" ddi="false"/>
+        <pair id="DDI-DrugBank.d143.s43.p6"
+            e1="DDI-DrugBank.d143.s43.e1" e2="DDI-DrugBank.d143.s43.e3" ddi="false"/>
+        <pair id="DDI-DrugBank.d143.s43.p7"
+            e1="DDI-DrugBank.d143.s43.e1" e2="DDI-DrugBank.d143.s43.e4" ddi="false"/>
+        <pair id="DDI-DrugBank.d143.s43.p8"
+            e1="DDI-DrugBank.d143.s43.e1" e2="DDI-DrugBank.d143.s43.e5" ddi="false"/>
+        <pair id="DDI-DrugBank.d143.s43.p9"
+            e1="DDI-DrugBank.d143.s43.e2" e2="DDI-DrugBank.d143.s43.e3" ddi="false"/>
+        <pair id="DDI-DrugBank.d143.s43.p10"
+            e1="DDI-DrugBank.d143.s43.e2" e2="DDI-DrugBank.d143.s43.e4" ddi="false"/>
+        <pair id="DDI-DrugBank.d143.s43.p11"
+            e1="DDI-DrugBank.d143.s43.e2" e2="DDI-DrugBank.d143.s43.e5" ddi="false"/>
+        <pair id="DDI-DrugBank.d143.s43.p12"
+            e1="DDI-DrugBank.d143.s43.e3" e2="DDI-DrugBank.d143.s43.e4" ddi="false"/>
+        <pair id="DDI-DrugBank.d143.s43.p13"
+            e1="DDI-DrugBank.d143.s43.e3" e2="DDI-DrugBank.d143.s43.e5" ddi="false"/>
+        <pair id="DDI-DrugBank.d143.s43.p14"
+            e1="DDI-DrugBank.d143.s43.e4" e2="DDI-DrugBank.d143.s43.e5" ddi="false"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d143.s44" text="Since the concomitant administration of warfarin with amiodarone increases the prothrombin time by 100% after 3 to 4 days, the dose of the anticoagulant should be reduced by one-third to one-half, and prothrombin times should be monitored closely.">
+        <entity id="DDI-DrugBank.d143.s44.e0" charOffset="40-47"
+            type="drug" text="warfarin"/>
+        <entity id="DDI-DrugBank.d143.s44.e1" charOffset="54-63"
+            type="drug" text="amiodarone"/>
+        <entity id="DDI-DrugBank.d143.s44.e2" charOffset="139-151"
+            type="drug" text="anticoagulant"/>
+        <pair id="DDI-DrugBank.d143.s44.p0"
+            e1="DDI-DrugBank.d143.s44.e0" e2="DDI-DrugBank.d143.s44.e1" ddi="false"/>
+        <pair id="DDI-DrugBank.d143.s44.p1"
+            e1="DDI-DrugBank.d143.s44.e0" e2="DDI-DrugBank.d143.s44.e2" ddi="false"/>
+        <pair id="DDI-DrugBank.d143.s44.p2"
+            e1="DDI-DrugBank.d143.s44.e1" e2="DDI-DrugBank.d143.s44.e2" ddi="false"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d143.s45" text="Some drugs/substances are known to accelerate the metabolism of amiodarone by stimulating the synthesis of CYP3A4 (enzyme induction).">
+        <entity id="DDI-DrugBank.d143.s45.e0" charOffset="5-9"
+            type="drug" text="drugs"/>
+        <entity id="DDI-DrugBank.d143.s45.e1" charOffset="64-73"
+            type="drug" text="amiodarone"/>
+        <entity id="DDI-DrugBank.d143.s45.e2" charOffset="107-112"
+            type="drug" text="CYP3A4"/>
+        <pair id="DDI-DrugBank.d143.s45.p0"
+            e1="DDI-DrugBank.d143.s45.e0" e2="DDI-DrugBank.d143.s45.e1" ddi="false"/>
+        <pair id="DDI-DrugBank.d143.s45.p1"
+            e1="DDI-DrugBank.d143.s45.e0" e2="DDI-DrugBank.d143.s45.e2" ddi="false"/>
+        <pair id="DDI-DrugBank.d143.s45.p2"
+            e1="DDI-DrugBank.d143.s45.e1" e2="DDI-DrugBank.d143.s45.e2" ddi="false"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d143.s46" text="This may lead to low amiodarone serum levels and potential decrease in efficacy.">
+        <entity id="DDI-DrugBank.d143.s46.e0" charOffset="21-30"
+            type="drug" text="amiodarone"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d143.s47" text="Reported examples of this interaction include the following: Antibiotics: Rifampin is a potent inducer of CYP3A4.">
+        <entity id="DDI-DrugBank.d143.s47.e0" charOffset="61-71"
+            type="drug" text="Antibiotics"/>
+        <entity id="DDI-DrugBank.d143.s47.e1" charOffset="74-81"
+            type="drug" text="Rifampin"/>
+        <entity id="DDI-DrugBank.d143.s47.e2" charOffset="106-111"
+            type="drug" text="CYP3A4"/>
+        <pair id="DDI-DrugBank.d143.s47.p0"
+            e1="DDI-DrugBank.d143.s47.e0" e2="DDI-DrugBank.d143.s47.e1" ddi="false"/>
+        <pair id="DDI-DrugBank.d143.s47.p1"
+            e1="DDI-DrugBank.d143.s47.e0" e2="DDI-DrugBank.d143.s47.e2" ddi="false"/>
+        <pair id="DDI-DrugBank.d143.s47.p2"
+            e1="DDI-DrugBank.d143.s47.e1" e2="DDI-DrugBank.d143.s47.e2" ddi="false"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d143.s48" text="Administration of rifampin concomitantly with oral amiodarone has been shown to result in decreases in serum concentrations of amiodarone and desethylamiodarone.">
+        <entity id="DDI-DrugBank.d143.s48.e0" charOffset="18-25"
+            type="drug" text="rifampin"/>
+        <entity id="DDI-DrugBank.d143.s48.e1" charOffset="51-60"
+            type="drug" text="amiodarone"/>
+        <entity id="DDI-DrugBank.d143.s48.e2" charOffset="127-136"
+            type="drug" text="amiodarone"/>
+        <entity id="DDI-DrugBank.d143.s48.e3" charOffset="142-159"
+            type="drug" text="desethylamiodarone"/>
+        <pair id="DDI-DrugBank.d143.s48.p0"
+            e1="DDI-DrugBank.d143.s48.e0" e2="DDI-DrugBank.d143.s48.e1" ddi="false"/>
+        <pair id="DDI-DrugBank.d143.s48.p1"
+            e1="DDI-DrugBank.d143.s48.e0" e2="DDI-DrugBank.d143.s48.e2" ddi="false"/>
+        <pair id="DDI-DrugBank.d143.s48.p2"
+            e1="DDI-DrugBank.d143.s48.e0" e2="DDI-DrugBank.d143.s48.e3" ddi="false"/>
+        <pair id="DDI-DrugBank.d143.s48.p3"
+            e1="DDI-DrugBank.d143.s48.e1" e2="DDI-DrugBank.d143.s48.e2" ddi="false"/>
+        <pair id="DDI-DrugBank.d143.s48.p4"
+            e1="DDI-DrugBank.d143.s48.e1" e2="DDI-DrugBank.d143.s48.e3" ddi="false"/>
+        <pair id="DDI-DrugBank.d143.s48.p5"
+            e1="DDI-DrugBank.d143.s48.e2" e2="DDI-DrugBank.d143.s48.e3" ddi="false"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d143.s49" text="Other substances, including herbal preparations: St. John s Wort (Hypericum perforatum) induces CYP3A4."/>
+    <sentence id="DDI-DrugBank.d143.s50" text="Since amiodarone is a substrate for CYP3A4, there is the potential that the use of St. John s Wort in patients receiving amiodarone could result in reduced amiodarone levels.">
+        <entity id="DDI-DrugBank.d143.s50.e0" charOffset="6-15"
+            type="drug" text="amiodarone"/>
+        <entity id="DDI-DrugBank.d143.s50.e1" charOffset="36-41"
+            type="drug" text="CYP3A4"/>
+        <entity id="DDI-DrugBank.d143.s50.e2" charOffset="121-130"
+            type="drug" text="amiodarone"/>
+        <entity id="DDI-DrugBank.d143.s50.e3" charOffset="156-165"
+            type="drug" text="amiodarone"/>
+        <pair id="DDI-DrugBank.d143.s50.p0"
+            e1="DDI-DrugBank.d143.s50.e0" e2="DDI-DrugBank.d143.s50.e1" ddi="false"/>
+        <pair id="DDI-DrugBank.d143.s50.p1"
+            e1="DDI-DrugBank.d143.s50.e0" e2="DDI-DrugBank.d143.s50.e2" ddi="false"/>
+        <pair id="DDI-DrugBank.d143.s50.p2"
+            e1="DDI-DrugBank.d143.s50.e0" e2="DDI-DrugBank.d143.s50.e3" ddi="false"/>
+        <pair id="DDI-DrugBank.d143.s50.p3"
+            e1="DDI-DrugBank.d143.s50.e1" e2="DDI-DrugBank.d143.s50.e2" ddi="false"/>
+        <pair id="DDI-DrugBank.d143.s50.p4"
+            e1="DDI-DrugBank.d143.s50.e1" e2="DDI-DrugBank.d143.s50.e3" ddi="false"/>
+        <pair id="DDI-DrugBank.d143.s50.p5"
+            e1="DDI-DrugBank.d143.s50.e2" e2="DDI-DrugBank.d143.s50.e3" ddi="false"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d143.s51" text="Other reported interactions with amiodarone: Fentanyl (CYP3A4 substrate) in combination with amiodarone may cause hypotension, bradycardia, and decreased cardiac output.">
+        <entity id="DDI-DrugBank.d143.s51.e0" charOffset="33-42"
+            type="drug" text="amiodarone"/>
+        <entity id="DDI-DrugBank.d143.s51.e1" charOffset="45-52"
+            type="drug" text="Fentanyl"/>
+        <entity id="DDI-DrugBank.d143.s51.e2" charOffset="55-60"
+            type="drug" text="CYP3A4"/>
+        <entity id="DDI-DrugBank.d143.s51.e3" charOffset="93-102"
+            type="drug" text="amiodarone"/>
+        <pair id="DDI-DrugBank.d143.s51.p0"
+            e1="DDI-DrugBank.d143.s51.e0" e2="DDI-DrugBank.d143.s51.e1" ddi="false"/>
+        <pair id="DDI-DrugBank.d143.s51.p1"
+            e1="DDI-DrugBank.d143.s51.e0" e2="DDI-DrugBank.d143.s51.e2" ddi="false"/>
+        <pair id="DDI-DrugBank.d143.s51.p2"
+            e1="DDI-DrugBank.d143.s51.e0" e2="DDI-DrugBank.d143.s51.e3" ddi="false"/>
+        <pair id="DDI-DrugBank.d143.s51.p3"
+            e1="DDI-DrugBank.d143.s51.e1" e2="DDI-DrugBank.d143.s51.e2" ddi="false"/>
+        <pair id="DDI-DrugBank.d143.s51.p4"
+            e1="DDI-DrugBank.d143.s51.e1" e2="DDI-DrugBank.d143.s51.e3" ddi="false"/>
+        <pair id="DDI-DrugBank.d143.s51.p5"
+            e1="DDI-DrugBank.d143.s51.e2" e2="DDI-DrugBank.d143.s51.e3" ddi="false"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d143.s52" text="Sinus bradycardia has been reported with oral amiodarone in combination with lidocaine (CYP3A4 substrate) given for local anesthesia.">
+        <entity id="DDI-DrugBank.d143.s52.e0" charOffset="46-55"
+            type="drug" text="amiodarone"/>
+        <entity id="DDI-DrugBank.d143.s52.e1" charOffset="77-85"
+            type="drug" text="lidocaine"/>
+        <entity id="DDI-DrugBank.d143.s52.e2" charOffset="88-93"
+            type="drug" text="CYP3A4"/>
+        <entity id="DDI-DrugBank.d143.s52.e3" charOffset="122-131"
+            type="drug" text="anesthesia"/>
+        <pair id="DDI-DrugBank.d143.s52.p0"
+            e1="DDI-DrugBank.d143.s52.e0" e2="DDI-DrugBank.d143.s52.e1" ddi="false"/>
+        <pair id="DDI-DrugBank.d143.s52.p1"
+            e1="DDI-DrugBank.d143.s52.e0" e2="DDI-DrugBank.d143.s52.e2" ddi="false"/>
+        <pair id="DDI-DrugBank.d143.s52.p2"
+            e1="DDI-DrugBank.d143.s52.e0" e2="DDI-DrugBank.d143.s52.e3" ddi="false"/>
+        <pair id="DDI-DrugBank.d143.s52.p3"
+            e1="DDI-DrugBank.d143.s52.e1" e2="DDI-DrugBank.d143.s52.e2" ddi="false"/>
+        <pair id="DDI-DrugBank.d143.s52.p4"
+            e1="DDI-DrugBank.d143.s52.e1" e2="DDI-DrugBank.d143.s52.e3" ddi="false"/>
+        <pair id="DDI-DrugBank.d143.s52.p5"
+            e1="DDI-DrugBank.d143.s52.e2" e2="DDI-DrugBank.d143.s52.e3" ddi="false"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d143.s53" text="Seizure, associated with increased lidocaine concentrations, has been reported with concomitant administration of intravenous amiodarone.">
+        <entity id="DDI-DrugBank.d143.s53.e0" charOffset="35-43"
+            type="drug" text="lidocaine"/>
+        <entity id="DDI-DrugBank.d143.s53.e1" charOffset="126-135"
+            type="drug" text="amiodarone"/>
+        <pair id="DDI-DrugBank.d143.s53.p0"
+            e1="DDI-DrugBank.d143.s53.e0" e2="DDI-DrugBank.d143.s53.e1" ddi="false"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d143.s54" text="Dextromethorphan is a substrate for both CYP2D6 and CYP3A4.">
+        <entity id="DDI-DrugBank.d143.s54.e0" charOffset="0-15"
+            type="drug" text="Dextromethorphan"/>
+        <entity id="DDI-DrugBank.d143.s54.e1" charOffset="41-46"
+            type="drug" text="CYP2D6"/>
+        <entity id="DDI-DrugBank.d143.s54.e2" charOffset="52-57"
+            type="drug" text="CYP3A4"/>
+        <pair id="DDI-DrugBank.d143.s54.p0"
+            e1="DDI-DrugBank.d143.s54.e0" e2="DDI-DrugBank.d143.s54.e1" ddi="false"/>
+        <pair id="DDI-DrugBank.d143.s54.p1"
+            e1="DDI-DrugBank.d143.s54.e0" e2="DDI-DrugBank.d143.s54.e2" ddi="false"/>
+        <pair id="DDI-DrugBank.d143.s54.p2"
+            e1="DDI-DrugBank.d143.s54.e1" e2="DDI-DrugBank.d143.s54.e2" ddi="false"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d143.s55" text="Amiodarone inhibits CYP2D6.">
+        <entity id="DDI-DrugBank.d143.s55.e0" charOffset="0-9"
+            type="drug" text="Amiodarone"/>
+        <entity id="DDI-DrugBank.d143.s55.e1" charOffset="20-25"
+            type="drug" text="CYP2D6"/>
+        <pair id="DDI-DrugBank.d143.s55.p0"
+            e1="DDI-DrugBank.d143.s55.e0" e2="DDI-DrugBank.d143.s55.e1" ddi="false"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d143.s56" text="Cholestyramine increases enterohepatic elimination of amiodarone and may reduce its serum levels and t1/2.">
+        <entity id="DDI-DrugBank.d143.s56.e0" charOffset="0-13"
+            type="drug" text="Cholestyramine"/>
+        <entity id="DDI-DrugBank.d143.s56.e1" charOffset="54-63"
+            type="drug" text="amiodarone"/>
+        <entity id="DDI-DrugBank.d143.s56.e2" charOffset="101-102"
+            type="drug" text="t1"/>
+        <pair id="DDI-DrugBank.d143.s56.p0"
+            e1="DDI-DrugBank.d143.s56.e0" e2="DDI-DrugBank.d143.s56.e1" ddi="false"/>
+        <pair id="DDI-DrugBank.d143.s56.p1"
+            e1="DDI-DrugBank.d143.s56.e0" e2="DDI-DrugBank.d143.s56.e2" ddi="false"/>
+        <pair id="DDI-DrugBank.d143.s56.p2"
+            e1="DDI-DrugBank.d143.s56.e1" e2="DDI-DrugBank.d143.s56.e2" ddi="false"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d143.s57" text="Disopyramide increases QT prolongation which could cause arrhythmia.">
+        <entity id="DDI-DrugBank.d143.s57.e0" charOffset="0-11"
+            type="drug" text="Disopyramide"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d143.s58" text="Fluoroquinolones, macrolide antibiotics, and azoles are known to cause QTc prolongation.">
+        <entity id="DDI-DrugBank.d143.s58.e0" charOffset="0-15"
+            type="drug" text="Fluoroquinolones"/>
+        <entity id="DDI-DrugBank.d143.s58.e1" charOffset="18-38"
+            type="drug" text="macrolide antibiotics"/>
+        <pair id="DDI-DrugBank.d143.s58.p0"
+            e1="DDI-DrugBank.d143.s58.e0" e2="DDI-DrugBank.d143.s58.e1" ddi="false"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d143.s59" text="There have been reports of QTc prolongation, with or without TdP, in patients taking amiodarone when fluoroquinolones, macrolide antibiotics, or azoles were administered concomitantly.">
+        <entity id="DDI-DrugBank.d143.s59.e0" charOffset="85-94"
+            type="drug" text="amiodarone"/>
+        <entity id="DDI-DrugBank.d143.s59.e1" charOffset="101-116"
+            type="drug" text="fluoroquinolones"/>
+        <entity id="DDI-DrugBank.d143.s59.e2" charOffset="119-139"
+            type="drug" text="macrolide antibiotics"/>
+        <pair id="DDI-DrugBank.d143.s59.p0"
+            e1="DDI-DrugBank.d143.s59.e0" e2="DDI-DrugBank.d143.s59.e1" ddi="false"/>
+        <pair id="DDI-DrugBank.d143.s59.p1"
+            e1="DDI-DrugBank.d143.s59.e0" e2="DDI-DrugBank.d143.s59.e2" ddi="false"/>
+        <pair id="DDI-DrugBank.d143.s59.p2"
+            e1="DDI-DrugBank.d143.s59.e1" e2="DDI-DrugBank.d143.s59.e2" ddi="false"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d143.s60" text="Hemodynamic and electrophysiologic interactions have also been observed after concomitant administration with propranolol, diltiazem, and verapamil.">
+        <entity id="DDI-DrugBank.d143.s60.e0" charOffset="110-120"
+            type="drug" text="propranolol"/>
+        <entity id="DDI-DrugBank.d143.s60.e1" charOffset="123-131"
+            type="drug" text="diltiazem"/>
+        <entity id="DDI-DrugBank.d143.s60.e2" charOffset="138-146"
+            type="drug" text="verapamil"/>
+        <pair id="DDI-DrugBank.d143.s60.p0"
+            e1="DDI-DrugBank.d143.s60.e0" e2="DDI-DrugBank.d143.s60.e1" ddi="false"/>
+        <pair id="DDI-DrugBank.d143.s60.p1"
+            e1="DDI-DrugBank.d143.s60.e0" e2="DDI-DrugBank.d143.s60.e2" ddi="false"/>
+        <pair id="DDI-DrugBank.d143.s60.p2"
+            e1="DDI-DrugBank.d143.s60.e1" e2="DDI-DrugBank.d143.s60.e2" ddi="false"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d143.s61" text="Volatile Anesthetic Agents:.">
+        <entity id="DDI-DrugBank.d143.s61.e0" charOffset="9-18"
+            type="drug" text="Anesthetic"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d143.s62" text="In addition to the interactions noted above, chronic (  2 weeks) oral Cordarone administration impairs metabolism of phenytoin, dextromethorphan, and methotrexate.">
+        <entity id="DDI-DrugBank.d143.s62.e0" charOffset="70-78"
+            type="drug" text="Cordarone"/>
+        <entity id="DDI-DrugBank.d143.s62.e1" charOffset="117-125"
+            type="drug" text="phenytoin"/>
+        <entity id="DDI-DrugBank.d143.s62.e2" charOffset="128-143"
+            type="drug" text="dextromethorphan"/>
+        <entity id="DDI-DrugBank.d143.s62.e3" charOffset="150-161"
+            type="drug" text="methotrexate"/>
+        <pair id="DDI-DrugBank.d143.s62.p0"
+            e1="DDI-DrugBank.d143.s62.e0" e2="DDI-DrugBank.d143.s62.e1" ddi="false"/>
+        <pair id="DDI-DrugBank.d143.s62.p1"
+            e1="DDI-DrugBank.d143.s62.e0" e2="DDI-DrugBank.d143.s62.e2" ddi="false"/>
+        <pair id="DDI-DrugBank.d143.s62.p2"
+            e1="DDI-DrugBank.d143.s62.e0" e2="DDI-DrugBank.d143.s62.e3" ddi="false"/>
+        <pair id="DDI-DrugBank.d143.s62.p3"
+            e1="DDI-DrugBank.d143.s62.e1" e2="DDI-DrugBank.d143.s62.e2" ddi="false"/>
+        <pair id="DDI-DrugBank.d143.s62.p4"
+            e1="DDI-DrugBank.d143.s62.e1" e2="DDI-DrugBank.d143.s62.e3" ddi="false"/>
+        <pair id="DDI-DrugBank.d143.s62.p5"
+            e1="DDI-DrugBank.d143.s62.e2" e2="DDI-DrugBank.d143.s62.e3" ddi="false"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d143.s63" text="Electrolyte Disturbances Patients with hypokalemia or hypomagnesemia should have the condition corrected whenever possible before being treated with Cordarone I.V., as these disorders can exaggerate the degree of QTc prolongation and increase the potential for TdP.">
+        <entity id="DDI-DrugBank.d143.s63.e0" charOffset="149-162"
+            type="drug" text="Cordarone I.V."/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d143.s64" text="Special attention should be given to electrolyte and acid-base balance in patients experiencing severe or prolonged diarrhea or in patients receiving concomitant diuretics.">
+        <entity id="DDI-DrugBank.d143.s64.e0" charOffset="162-170"
+            type="drug" text="diuretics"/>
+    </sentence>
+</document>

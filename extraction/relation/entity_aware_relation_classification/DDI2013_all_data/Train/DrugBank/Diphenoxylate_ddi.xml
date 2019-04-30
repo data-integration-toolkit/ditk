@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="DDI-DrugBank.d538">
+    <sentence id="DDI-DrugBank.d538.s0" text="Known drug interactions include barbiturates, tranquilizers, and alcohol.">
+        <entity id="DDI-DrugBank.d538.s0.e0" charOffset="32-43"
+            type="group" text="barbiturates"/>
+        <entity id="DDI-DrugBank.d538.s0.e1" charOffset="46-58"
+            type="group" text="tranquilizers"/>
+        <entity id="DDI-DrugBank.d538.s0.e2" charOffset="65-71"
+            type="drug" text="alcohol"/>
+        <pair id="DDI-DrugBank.d538.s0.p0" e1="DDI-DrugBank.d538.s0.e0"
+            e2="DDI-DrugBank.d538.s0.e1" ddi="false"/>
+        <pair id="DDI-DrugBank.d538.s0.p1" e1="DDI-DrugBank.d538.s0.e0"
+            e2="DDI-DrugBank.d538.s0.e2" ddi="false"/>
+        <pair id="DDI-DrugBank.d538.s0.p2" e1="DDI-DrugBank.d538.s0.e1"
+            e2="DDI-DrugBank.d538.s0.e2" ddi="false"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d538.s1" text="Diphenoxylate HCl and atropine sulfate may interact with MAO inhibitors In studies with male rats, diphenoxylate hydrochloride was found to inhibit the hepatic microsomal enzyme system at a dose of 2 mg/kg/day.">
+        <entity id="DDI-DrugBank.d538.s1.e0" charOffset="0-16"
+            type="drug" text="Diphenoxylate HCl"/>
+        <entity id="DDI-DrugBank.d538.s1.e1" charOffset="22-37"
+            type="drug" text="atropine sulfate"/>
+        <entity id="DDI-DrugBank.d538.s1.e2" charOffset="57-70"
+            type="group" text="MAO inhibitors"/>
+        <entity id="DDI-DrugBank.d538.s1.e3" charOffset="99-125"
+            type="drug" text="diphenoxylate hydrochloride"/>
+        <pair id="DDI-DrugBank.d538.s1.p0" e1="DDI-DrugBank.d538.s1.e0"
+            e2="DDI-DrugBank.d538.s1.e1" ddi="false"/>
+        <pair id="DDI-DrugBank.d538.s1.p1" e1="DDI-DrugBank.d538.s1.e0"
+            e2="DDI-DrugBank.d538.s1.e2" ddi="true" type="int"/>
+        <pair id="DDI-DrugBank.d538.s1.p2" e1="DDI-DrugBank.d538.s1.e0"
+            e2="DDI-DrugBank.d538.s1.e3" ddi="false"/>
+        <pair id="DDI-DrugBank.d538.s1.p3" e1="DDI-DrugBank.d538.s1.e1"
+            e2="DDI-DrugBank.d538.s1.e2" ddi="true" type="int"/>
+        <pair id="DDI-DrugBank.d538.s1.p4" e1="DDI-DrugBank.d538.s1.e1"
+            e2="DDI-DrugBank.d538.s1.e3" ddi="false"/>
+        <pair id="DDI-DrugBank.d538.s1.p5" e1="DDI-DrugBank.d538.s1.e2"
+            e2="DDI-DrugBank.d538.s1.e3" ddi="false"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d538.s2" text="Therefore, diphenoxylate has the potential to prolong the biological half-lives of drugs for which the rate of elimination is dependent on the microsomal drug metabolizing enzyme system.">
+        <entity id="DDI-DrugBank.d538.s2.e0" charOffset="11-23"
+            type="drug" text="diphenoxylate"/>
+    </sentence>
+</document>

@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="DDI-DrugBank.d575">
+    <sentence id="DDI-DrugBank.d575.s0" text="In a study in which 34 different drugs were tested, therapeutically relevant concentrations of tolbutamide, sodium salicylate and sulfamethizole displaced protein-bound teniposide in fresh human serum to a small but significant extent. ">
+        <entity id="DDI-DrugBank.d575.s0.e0" charOffset="95-105"
+            type="drug" text="tolbutamide"/>
+        <entity id="DDI-DrugBank.d575.s0.e1" charOffset="108-124"
+            type="drug" text="sodium salicylate"/>
+        <entity id="DDI-DrugBank.d575.s0.e2" charOffset="130-143"
+            type="drug" text="sulfamethizole"/>
+        <entity id="DDI-DrugBank.d575.s0.e3" charOffset="169-178"
+            type="drug" text="teniposide"/>
+        <pair id="DDI-DrugBank.d575.s0.p0" e1="DDI-DrugBank.d575.s0.e0"
+            e2="DDI-DrugBank.d575.s0.e1" ddi="false"/>
+        <pair id="DDI-DrugBank.d575.s0.p1" e1="DDI-DrugBank.d575.s0.e0"
+            e2="DDI-DrugBank.d575.s0.e2" ddi="false"/>
+        <pair id="DDI-DrugBank.d575.s0.p2" e1="DDI-DrugBank.d575.s0.e0"
+            e2="DDI-DrugBank.d575.s0.e3" ddi="true" type="mechanism"/>
+        <pair id="DDI-DrugBank.d575.s0.p3" e1="DDI-DrugBank.d575.s0.e1"
+            e2="DDI-DrugBank.d575.s0.e2" ddi="false"/>
+        <pair id="DDI-DrugBank.d575.s0.p4" e1="DDI-DrugBank.d575.s0.e1"
+            e2="DDI-DrugBank.d575.s0.e3" ddi="true" type="mechanism"/>
+        <pair id="DDI-DrugBank.d575.s0.p5" e1="DDI-DrugBank.d575.s0.e2"
+            e2="DDI-DrugBank.d575.s0.e3" ddi="true" type="mechanism"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d575.s1" text="Because of the extremely high binding of teniposide to plasma proteins, these small decreases in binding could cause substantial increases in free drug levels in plasma which could result in potentiation of drug toxicity. ">
+        <entity id="DDI-DrugBank.d575.s1.e0" charOffset="41-50"
+            type="drug" text="teniposide"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d575.s2" text="Therefore, caution should be used in administering VUMON (teniposide injection) to patients receiving these other agents. ">
+        <entity id="DDI-DrugBank.d575.s2.e0" charOffset="51-55"
+            type="brand" text="VUMON"/>
+        <entity id="DDI-DrugBank.d575.s2.e1" charOffset="58-67"
+            type="drug" text="teniposide"/>
+        <pair id="DDI-DrugBank.d575.s2.p0" e1="DDI-DrugBank.d575.s2.e0"
+            e2="DDI-DrugBank.d575.s2.e1" ddi="false"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d575.s3" text="There was no change in the plasma kinetics of teniposide when coadministered with methotrexate. ">
+        <entity id="DDI-DrugBank.d575.s3.e0" charOffset="46-55"
+            type="drug" text="teniposide"/>
+        <entity id="DDI-DrugBank.d575.s3.e1" charOffset="82-93"
+            type="drug" text="methotrexate"/>
+        <pair id="DDI-DrugBank.d575.s3.p0" e1="DDI-DrugBank.d575.s3.e0"
+            e2="DDI-DrugBank.d575.s3.e1" ddi="false"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d575.s4" text="However, the plasma clearance of methotrexate was slightly increased. ">
+        <entity id="DDI-DrugBank.d575.s4.e0" charOffset="33-44"
+            type="drug" text="methotrexate"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d575.s5" text="An increase in intracellular levels of methotrexate was observed in vitro in the presence of teniposide.">
+        <entity id="DDI-DrugBank.d575.s5.e0" charOffset="39-50"
+            type="drug" text="methotrexate"/>
+        <entity id="DDI-DrugBank.d575.s5.e1" charOffset="93-102"
+            type="drug" text="teniposide"/>
+        <pair id="DDI-DrugBank.d575.s5.p0" e1="DDI-DrugBank.d575.s5.e0"
+            e2="DDI-DrugBank.d575.s5.e1" ddi="true" type="mechanism"/>
+    </sentence>
+</document>

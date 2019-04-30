@@ -1,0 +1,472 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="DDI-DrugBank.d212">
+    <sentence id="DDI-DrugBank.d212.s0" text="in vitro data on metabolic interactions indicate that Keppra  is unlikely to produce, or be subject to, pharmacokinetic interactions.">
+        <entity id="DDI-DrugBank.d212.s0.e0" charOffset="54-59"
+            type="brand" text="Keppra"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d212.s1" text="Levetiracetam and its major metabolite, at concentrations well above cmax levels achieved within the therapeutic dose range, are neither inhibitors of nor high affinity substrates for human liver cytochrome P450 isoforms, epoxide hydrolase or UDP-glucuronidation enzymes.">
+        <entity id="DDI-DrugBank.d212.s1.e0" charOffset="0-12"
+            type="drug" text="Levetiracetam"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d212.s2" text="In addition, levetiracetam does not affect the in vitro glucuronidation of valproic acid.">
+        <entity id="DDI-DrugBank.d212.s2.e0" charOffset="13-25"
+            type="drug" text="levetiracetam"/>
+        <entity id="DDI-DrugBank.d212.s2.e1" charOffset="75-87"
+            type="drug" text="valproic acid"/>
+        <pair id="DDI-DrugBank.d212.s2.p0" e1="DDI-DrugBank.d212.s2.e0"
+            e2="DDI-DrugBank.d212.s2.e1" ddi="false"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d212.s3" text="Levetiracetam circulates largely unbound ( 10% bound) to plasma proteins;">
+        <entity id="DDI-DrugBank.d212.s3.e0" charOffset="0-12"
+            type="drug" text="Levetiracetam"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d212.s4" text="clinically significant interactions with other drugs through competition for protein binding sites are therefore unlikely."/>
+    <sentence id="DDI-DrugBank.d212.s5" text="Potential pharmacokinetic interactions were assessed in clinical pharmacokinetic studies (phenytoin, valproate, oral contraceptive, digoxin, warfarin, probenecid) and through pharmacokinetic screening in the placebo-controlled clinical studies in epilepsy patients.">
+        <entity id="DDI-DrugBank.d212.s5.e0" charOffset="90-98"
+            type="drug" text="phenytoin"/>
+        <entity id="DDI-DrugBank.d212.s5.e1" charOffset="101-109"
+            type="drug" text="valproate"/>
+        <entity id="DDI-DrugBank.d212.s5.e2" charOffset="117-129"
+            type="group" text="contraceptive"/>
+        <entity id="DDI-DrugBank.d212.s5.e3" charOffset="132-138"
+            type="drug" text="digoxin"/>
+        <entity id="DDI-DrugBank.d212.s5.e4" charOffset="141-148"
+            type="drug" text="warfarin"/>
+        <entity id="DDI-DrugBank.d212.s5.e5" charOffset="151-160"
+            type="drug" text="probenecid"/>
+        <pair id="DDI-DrugBank.d212.s5.p0" e1="DDI-DrugBank.d212.s5.e0"
+            e2="DDI-DrugBank.d212.s5.e1" ddi="false"/>
+        <pair id="DDI-DrugBank.d212.s5.p1" e1="DDI-DrugBank.d212.s5.e0"
+            e2="DDI-DrugBank.d212.s5.e2" ddi="false"/>
+        <pair id="DDI-DrugBank.d212.s5.p2" e1="DDI-DrugBank.d212.s5.e0"
+            e2="DDI-DrugBank.d212.s5.e3" ddi="false"/>
+        <pair id="DDI-DrugBank.d212.s5.p3" e1="DDI-DrugBank.d212.s5.e0"
+            e2="DDI-DrugBank.d212.s5.e4" ddi="false"/>
+        <pair id="DDI-DrugBank.d212.s5.p4" e1="DDI-DrugBank.d212.s5.e0"
+            e2="DDI-DrugBank.d212.s5.e5" ddi="false"/>
+        <pair id="DDI-DrugBank.d212.s5.p5" e1="DDI-DrugBank.d212.s5.e1"
+            e2="DDI-DrugBank.d212.s5.e2" ddi="false"/>
+        <pair id="DDI-DrugBank.d212.s5.p6" e1="DDI-DrugBank.d212.s5.e1"
+            e2="DDI-DrugBank.d212.s5.e3" ddi="false"/>
+        <pair id="DDI-DrugBank.d212.s5.p7" e1="DDI-DrugBank.d212.s5.e1"
+            e2="DDI-DrugBank.d212.s5.e4" ddi="false"/>
+        <pair id="DDI-DrugBank.d212.s5.p8" e1="DDI-DrugBank.d212.s5.e1"
+            e2="DDI-DrugBank.d212.s5.e5" ddi="false"/>
+        <pair id="DDI-DrugBank.d212.s5.p9" e1="DDI-DrugBank.d212.s5.e2"
+            e2="DDI-DrugBank.d212.s5.e3" ddi="false"/>
+        <pair id="DDI-DrugBank.d212.s5.p10" e1="DDI-DrugBank.d212.s5.e2"
+            e2="DDI-DrugBank.d212.s5.e4" ddi="false"/>
+        <pair id="DDI-DrugBank.d212.s5.p11" e1="DDI-DrugBank.d212.s5.e2"
+            e2="DDI-DrugBank.d212.s5.e5" ddi="false"/>
+        <pair id="DDI-DrugBank.d212.s5.p12" e1="DDI-DrugBank.d212.s5.e3"
+            e2="DDI-DrugBank.d212.s5.e4" ddi="false"/>
+        <pair id="DDI-DrugBank.d212.s5.p13" e1="DDI-DrugBank.d212.s5.e3"
+            e2="DDI-DrugBank.d212.s5.e5" ddi="false"/>
+        <pair id="DDI-DrugBank.d212.s5.p14" e1="DDI-DrugBank.d212.s5.e4"
+            e2="DDI-DrugBank.d212.s5.e5" ddi="false"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d212.s6" text="Drug-Drug Interactions Between Keppra  And Other Antiepileptic Drugs (AEDs) Phenytoin Keppra  (3000 mg daily) had no effect on the pharmacokinetic disposition of phenytoin in patients with refractory epilepsy.">
+        <entity id="DDI-DrugBank.d212.s6.e0" charOffset="31-36"
+            type="brand" text="Keppra"/>
+        <entity id="DDI-DrugBank.d212.s6.e1" charOffset="49-67"
+            type="group" text="Antiepileptic Drugs"/>
+        <entity id="DDI-DrugBank.d212.s6.e2" charOffset="70-73"
+            type="group" text="AEDs"/>
+        <entity id="DDI-DrugBank.d212.s6.e3" charOffset="76-84"
+            type="drug" text="Phenytoin"/>
+        <entity id="DDI-DrugBank.d212.s6.e4" charOffset="86-91"
+            type="brand" text="Keppra"/>
+        <entity id="DDI-DrugBank.d212.s6.e5" charOffset="162-170"
+            type="drug" text="phenytoin"/>
+        <pair id="DDI-DrugBank.d212.s6.p0" e1="DDI-DrugBank.d212.s6.e0"
+            e2="DDI-DrugBank.d212.s6.e1" ddi="false"/>
+        <pair id="DDI-DrugBank.d212.s6.p1" e1="DDI-DrugBank.d212.s6.e0"
+            e2="DDI-DrugBank.d212.s6.e2" ddi="false"/>
+        <pair id="DDI-DrugBank.d212.s6.p2" e1="DDI-DrugBank.d212.s6.e0"
+            e2="DDI-DrugBank.d212.s6.e3" ddi="false"/>
+        <pair id="DDI-DrugBank.d212.s6.p3" e1="DDI-DrugBank.d212.s6.e0"
+            e2="DDI-DrugBank.d212.s6.e4" ddi="false"/>
+        <pair id="DDI-DrugBank.d212.s6.p4" e1="DDI-DrugBank.d212.s6.e0"
+            e2="DDI-DrugBank.d212.s6.e5" ddi="false"/>
+        <pair id="DDI-DrugBank.d212.s6.p5" e1="DDI-DrugBank.d212.s6.e1"
+            e2="DDI-DrugBank.d212.s6.e2" ddi="false"/>
+        <pair id="DDI-DrugBank.d212.s6.p6" e1="DDI-DrugBank.d212.s6.e1"
+            e2="DDI-DrugBank.d212.s6.e3" ddi="false"/>
+        <pair id="DDI-DrugBank.d212.s6.p7" e1="DDI-DrugBank.d212.s6.e1"
+            e2="DDI-DrugBank.d212.s6.e4" ddi="false"/>
+        <pair id="DDI-DrugBank.d212.s6.p8" e1="DDI-DrugBank.d212.s6.e1"
+            e2="DDI-DrugBank.d212.s6.e5" ddi="false"/>
+        <pair id="DDI-DrugBank.d212.s6.p9" e1="DDI-DrugBank.d212.s6.e2"
+            e2="DDI-DrugBank.d212.s6.e3" ddi="false"/>
+        <pair id="DDI-DrugBank.d212.s6.p10" e1="DDI-DrugBank.d212.s6.e2"
+            e2="DDI-DrugBank.d212.s6.e4" ddi="false"/>
+        <pair id="DDI-DrugBank.d212.s6.p11" e1="DDI-DrugBank.d212.s6.e2"
+            e2="DDI-DrugBank.d212.s6.e5" ddi="false"/>
+        <pair id="DDI-DrugBank.d212.s6.p12" e1="DDI-DrugBank.d212.s6.e3"
+            e2="DDI-DrugBank.d212.s6.e4" ddi="false"/>
+        <pair id="DDI-DrugBank.d212.s6.p13" e1="DDI-DrugBank.d212.s6.e3"
+            e2="DDI-DrugBank.d212.s6.e5" ddi="false"/>
+        <pair id="DDI-DrugBank.d212.s6.p14" e1="DDI-DrugBank.d212.s6.e4"
+            e2="DDI-DrugBank.d212.s6.e5" ddi="false"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d212.s7" text="Pharmacokinetics of levetiracetam were also not affected by phenytoin.">
+        <entity id="DDI-DrugBank.d212.s7.e0" charOffset="20-32"
+            type="drug" text="levetiracetam"/>
+        <entity id="DDI-DrugBank.d212.s7.e1" charOffset="60-68"
+            type="drug" text="phenytoin"/>
+        <pair id="DDI-DrugBank.d212.s7.p0" e1="DDI-DrugBank.d212.s7.e0"
+            e2="DDI-DrugBank.d212.s7.e1" ddi="false"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d212.s8" text="Valproate Keppra  (1500 mg twice daily) did not alter the pharmacokinetics of valproate in healthy volunteers.">
+        <entity id="DDI-DrugBank.d212.s8.e0" charOffset="0-8"
+            type="drug" text="Valproate"/>
+        <entity id="DDI-DrugBank.d212.s8.e1" charOffset="10-15"
+            type="brand" text="Keppra"/>
+        <entity id="DDI-DrugBank.d212.s8.e2" charOffset="78-86"
+            type="drug" text="valproate"/>
+        <pair id="DDI-DrugBank.d212.s8.p0" e1="DDI-DrugBank.d212.s8.e0"
+            e2="DDI-DrugBank.d212.s8.e1" ddi="false"/>
+        <pair id="DDI-DrugBank.d212.s8.p1" e1="DDI-DrugBank.d212.s8.e0"
+            e2="DDI-DrugBank.d212.s8.e2" ddi="false"/>
+        <pair id="DDI-DrugBank.d212.s8.p2" e1="DDI-DrugBank.d212.s8.e1"
+            e2="DDI-DrugBank.d212.s8.e2" ddi="false"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d212.s9" text="Valproate 500 mg twice daily did not modify the rate or extent of levetiracetam absorption or its plasma clearance or urinary excretion.">
+        <entity id="DDI-DrugBank.d212.s9.e0" charOffset="0-8"
+            type="drug" text="Valproate"/>
+        <entity id="DDI-DrugBank.d212.s9.e1" charOffset="66-78"
+            type="drug" text="levetiracetam"/>
+        <pair id="DDI-DrugBank.d212.s9.p0" e1="DDI-DrugBank.d212.s9.e0"
+            e2="DDI-DrugBank.d212.s9.e1" ddi="false"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d212.s10" text="There also was no effect on exposure to and the excretion of the primary metabolite, ucb L057."/>
+    <sentence id="DDI-DrugBank.d212.s11" text="Potential drug interactions between Keppra  and other AEDs (carbamazepine, gabapentin, lamotrigine, phenobarbital, phenytoin, primidone and valproate) were also assessed by evaluating the serum concentrations of levetiracetam and these AEDs during placebo-controlled clinical studies.">
+        <entity id="DDI-DrugBank.d212.s11.e0" charOffset="36-41"
+            type="brand" text="Keppra"/>
+        <entity id="DDI-DrugBank.d212.s11.e1" charOffset="54-57"
+            type="group" text="AEDs"/>
+        <entity id="DDI-DrugBank.d212.s11.e2" charOffset="60-72"
+            type="drug" text="carbamazepine"/>
+        <entity id="DDI-DrugBank.d212.s11.e3" charOffset="75-84"
+            type="drug" text="gabapentin"/>
+        <entity id="DDI-DrugBank.d212.s11.e4" charOffset="87-97"
+            type="drug" text="lamotrigine"/>
+        <entity id="DDI-DrugBank.d212.s11.e5" charOffset="100-112"
+            type="drug" text="phenobarbital"/>
+        <entity id="DDI-DrugBank.d212.s11.e6" charOffset="115-123"
+            type="drug" text="phenytoin"/>
+        <entity id="DDI-DrugBank.d212.s11.e7" charOffset="126-134"
+            type="drug" text="primidone"/>
+        <entity id="DDI-DrugBank.d212.s11.e8" charOffset="140-148"
+            type="drug" text="valproate"/>
+        <entity id="DDI-DrugBank.d212.s11.e9" charOffset="212-224"
+            type="drug" text="levetiracetam"/>
+        <entity id="DDI-DrugBank.d212.s11.e10" charOffset="236-239"
+            type="group" text="AEDs"/>
+        <pair id="DDI-DrugBank.d212.s11.p0"
+            e1="DDI-DrugBank.d212.s11.e0" e2="DDI-DrugBank.d212.s11.e1" ddi="false"/>
+        <pair id="DDI-DrugBank.d212.s11.p1"
+            e1="DDI-DrugBank.d212.s11.e0" e2="DDI-DrugBank.d212.s11.e2" ddi="false"/>
+        <pair id="DDI-DrugBank.d212.s11.p2"
+            e1="DDI-DrugBank.d212.s11.e0" e2="DDI-DrugBank.d212.s11.e3" ddi="false"/>
+        <pair id="DDI-DrugBank.d212.s11.p3"
+            e1="DDI-DrugBank.d212.s11.e0" e2="DDI-DrugBank.d212.s11.e4" ddi="false"/>
+        <pair id="DDI-DrugBank.d212.s11.p4"
+            e1="DDI-DrugBank.d212.s11.e0" e2="DDI-DrugBank.d212.s11.e5" ddi="false"/>
+        <pair id="DDI-DrugBank.d212.s11.p5"
+            e1="DDI-DrugBank.d212.s11.e0" e2="DDI-DrugBank.d212.s11.e6" ddi="false"/>
+        <pair id="DDI-DrugBank.d212.s11.p6"
+            e1="DDI-DrugBank.d212.s11.e0" e2="DDI-DrugBank.d212.s11.e7" ddi="false"/>
+        <pair id="DDI-DrugBank.d212.s11.p7"
+            e1="DDI-DrugBank.d212.s11.e0" e2="DDI-DrugBank.d212.s11.e8" ddi="false"/>
+        <pair id="DDI-DrugBank.d212.s11.p8"
+            e1="DDI-DrugBank.d212.s11.e0" e2="DDI-DrugBank.d212.s11.e9" ddi="false"/>
+        <pair id="DDI-DrugBank.d212.s11.p9"
+            e1="DDI-DrugBank.d212.s11.e0" e2="DDI-DrugBank.d212.s11.e10" ddi="false"/>
+        <pair id="DDI-DrugBank.d212.s11.p10"
+            e1="DDI-DrugBank.d212.s11.e1" e2="DDI-DrugBank.d212.s11.e2" ddi="false"/>
+        <pair id="DDI-DrugBank.d212.s11.p11"
+            e1="DDI-DrugBank.d212.s11.e1" e2="DDI-DrugBank.d212.s11.e3" ddi="false"/>
+        <pair id="DDI-DrugBank.d212.s11.p12"
+            e1="DDI-DrugBank.d212.s11.e1" e2="DDI-DrugBank.d212.s11.e4" ddi="false"/>
+        <pair id="DDI-DrugBank.d212.s11.p13"
+            e1="DDI-DrugBank.d212.s11.e1" e2="DDI-DrugBank.d212.s11.e5" ddi="false"/>
+        <pair id="DDI-DrugBank.d212.s11.p14"
+            e1="DDI-DrugBank.d212.s11.e1" e2="DDI-DrugBank.d212.s11.e6" ddi="false"/>
+        <pair id="DDI-DrugBank.d212.s11.p15"
+            e1="DDI-DrugBank.d212.s11.e1" e2="DDI-DrugBank.d212.s11.e7" ddi="false"/>
+        <pair id="DDI-DrugBank.d212.s11.p16"
+            e1="DDI-DrugBank.d212.s11.e1" e2="DDI-DrugBank.d212.s11.e8" ddi="false"/>
+        <pair id="DDI-DrugBank.d212.s11.p17"
+            e1="DDI-DrugBank.d212.s11.e1" e2="DDI-DrugBank.d212.s11.e9" ddi="false"/>
+        <pair id="DDI-DrugBank.d212.s11.p18"
+            e1="DDI-DrugBank.d212.s11.e1" e2="DDI-DrugBank.d212.s11.e10" ddi="false"/>
+        <pair id="DDI-DrugBank.d212.s11.p19"
+            e1="DDI-DrugBank.d212.s11.e2" e2="DDI-DrugBank.d212.s11.e3" ddi="false"/>
+        <pair id="DDI-DrugBank.d212.s11.p20"
+            e1="DDI-DrugBank.d212.s11.e2" e2="DDI-DrugBank.d212.s11.e4" ddi="false"/>
+        <pair id="DDI-DrugBank.d212.s11.p21"
+            e1="DDI-DrugBank.d212.s11.e2" e2="DDI-DrugBank.d212.s11.e5" ddi="false"/>
+        <pair id="DDI-DrugBank.d212.s11.p22"
+            e1="DDI-DrugBank.d212.s11.e2" e2="DDI-DrugBank.d212.s11.e6" ddi="false"/>
+        <pair id="DDI-DrugBank.d212.s11.p23"
+            e1="DDI-DrugBank.d212.s11.e2" e2="DDI-DrugBank.d212.s11.e7" ddi="false"/>
+        <pair id="DDI-DrugBank.d212.s11.p24"
+            e1="DDI-DrugBank.d212.s11.e2" e2="DDI-DrugBank.d212.s11.e8" ddi="false"/>
+        <pair id="DDI-DrugBank.d212.s11.p25"
+            e1="DDI-DrugBank.d212.s11.e2" e2="DDI-DrugBank.d212.s11.e9" ddi="false"/>
+        <pair id="DDI-DrugBank.d212.s11.p26"
+            e1="DDI-DrugBank.d212.s11.e2" e2="DDI-DrugBank.d212.s11.e10" ddi="false"/>
+        <pair id="DDI-DrugBank.d212.s11.p27"
+            e1="DDI-DrugBank.d212.s11.e3" e2="DDI-DrugBank.d212.s11.e4" ddi="false"/>
+        <pair id="DDI-DrugBank.d212.s11.p28"
+            e1="DDI-DrugBank.d212.s11.e3" e2="DDI-DrugBank.d212.s11.e5" ddi="false"/>
+        <pair id="DDI-DrugBank.d212.s11.p29"
+            e1="DDI-DrugBank.d212.s11.e3" e2="DDI-DrugBank.d212.s11.e6" ddi="false"/>
+        <pair id="DDI-DrugBank.d212.s11.p30"
+            e1="DDI-DrugBank.d212.s11.e3" e2="DDI-DrugBank.d212.s11.e7" ddi="false"/>
+        <pair id="DDI-DrugBank.d212.s11.p31"
+            e1="DDI-DrugBank.d212.s11.e3" e2="DDI-DrugBank.d212.s11.e8" ddi="false"/>
+        <pair id="DDI-DrugBank.d212.s11.p32"
+            e1="DDI-DrugBank.d212.s11.e3" e2="DDI-DrugBank.d212.s11.e9" ddi="false"/>
+        <pair id="DDI-DrugBank.d212.s11.p33"
+            e1="DDI-DrugBank.d212.s11.e3" e2="DDI-DrugBank.d212.s11.e10" ddi="false"/>
+        <pair id="DDI-DrugBank.d212.s11.p34"
+            e1="DDI-DrugBank.d212.s11.e4" e2="DDI-DrugBank.d212.s11.e5" ddi="false"/>
+        <pair id="DDI-DrugBank.d212.s11.p35"
+            e1="DDI-DrugBank.d212.s11.e4" e2="DDI-DrugBank.d212.s11.e6" ddi="false"/>
+        <pair id="DDI-DrugBank.d212.s11.p36"
+            e1="DDI-DrugBank.d212.s11.e4" e2="DDI-DrugBank.d212.s11.e7" ddi="false"/>
+        <pair id="DDI-DrugBank.d212.s11.p37"
+            e1="DDI-DrugBank.d212.s11.e4" e2="DDI-DrugBank.d212.s11.e8" ddi="false"/>
+        <pair id="DDI-DrugBank.d212.s11.p38"
+            e1="DDI-DrugBank.d212.s11.e4" e2="DDI-DrugBank.d212.s11.e9" ddi="false"/>
+        <pair id="DDI-DrugBank.d212.s11.p39"
+            e1="DDI-DrugBank.d212.s11.e4" e2="DDI-DrugBank.d212.s11.e10" ddi="false"/>
+        <pair id="DDI-DrugBank.d212.s11.p40"
+            e1="DDI-DrugBank.d212.s11.e5" e2="DDI-DrugBank.d212.s11.e6" ddi="false"/>
+        <pair id="DDI-DrugBank.d212.s11.p41"
+            e1="DDI-DrugBank.d212.s11.e5" e2="DDI-DrugBank.d212.s11.e7" ddi="false"/>
+        <pair id="DDI-DrugBank.d212.s11.p42"
+            e1="DDI-DrugBank.d212.s11.e5" e2="DDI-DrugBank.d212.s11.e8" ddi="false"/>
+        <pair id="DDI-DrugBank.d212.s11.p43"
+            e1="DDI-DrugBank.d212.s11.e5" e2="DDI-DrugBank.d212.s11.e9" ddi="false"/>
+        <pair id="DDI-DrugBank.d212.s11.p44"
+            e1="DDI-DrugBank.d212.s11.e5" e2="DDI-DrugBank.d212.s11.e10" ddi="false"/>
+        <pair id="DDI-DrugBank.d212.s11.p45"
+            e1="DDI-DrugBank.d212.s11.e6" e2="DDI-DrugBank.d212.s11.e7" ddi="false"/>
+        <pair id="DDI-DrugBank.d212.s11.p46"
+            e1="DDI-DrugBank.d212.s11.e6" e2="DDI-DrugBank.d212.s11.e8" ddi="false"/>
+        <pair id="DDI-DrugBank.d212.s11.p47"
+            e1="DDI-DrugBank.d212.s11.e6" e2="DDI-DrugBank.d212.s11.e9" ddi="false"/>
+        <pair id="DDI-DrugBank.d212.s11.p48"
+            e1="DDI-DrugBank.d212.s11.e6" e2="DDI-DrugBank.d212.s11.e10" ddi="false"/>
+        <pair id="DDI-DrugBank.d212.s11.p49"
+            e1="DDI-DrugBank.d212.s11.e7" e2="DDI-DrugBank.d212.s11.e8" ddi="false"/>
+        <pair id="DDI-DrugBank.d212.s11.p50"
+            e1="DDI-DrugBank.d212.s11.e7" e2="DDI-DrugBank.d212.s11.e9" ddi="false"/>
+        <pair id="DDI-DrugBank.d212.s11.p51"
+            e1="DDI-DrugBank.d212.s11.e7" e2="DDI-DrugBank.d212.s11.e10" ddi="false"/>
+        <pair id="DDI-DrugBank.d212.s11.p52"
+            e1="DDI-DrugBank.d212.s11.e8" e2="DDI-DrugBank.d212.s11.e9" ddi="false"/>
+        <pair id="DDI-DrugBank.d212.s11.p53"
+            e1="DDI-DrugBank.d212.s11.e8" e2="DDI-DrugBank.d212.s11.e10" ddi="false"/>
+        <pair id="DDI-DrugBank.d212.s11.p54"
+            e1="DDI-DrugBank.d212.s11.e9" e2="DDI-DrugBank.d212.s11.e10" ddi="false"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d212.s12" text="These data indicate that levetiracetam does not influence the plasma concentration of other AEDs and that these AEDs do not influence the pharmacokinetics of levetiracetam.">
+        <entity id="DDI-DrugBank.d212.s12.e0" charOffset="25-37"
+            type="drug" text="levetiracetam"/>
+        <entity id="DDI-DrugBank.d212.s12.e1" charOffset="92-95"
+            type="group" text="AEDs"/>
+        <entity id="DDI-DrugBank.d212.s12.e2" charOffset="112-115"
+            type="group" text="AEDs"/>
+        <entity id="DDI-DrugBank.d212.s12.e3" charOffset="158-170"
+            type="drug" text="levetiracetam"/>
+        <pair id="DDI-DrugBank.d212.s12.p0"
+            e1="DDI-DrugBank.d212.s12.e0" e2="DDI-DrugBank.d212.s12.e1" ddi="false"/>
+        <pair id="DDI-DrugBank.d212.s12.p1"
+            e1="DDI-DrugBank.d212.s12.e0" e2="DDI-DrugBank.d212.s12.e2" ddi="false"/>
+        <pair id="DDI-DrugBank.d212.s12.p2"
+            e1="DDI-DrugBank.d212.s12.e0" e2="DDI-DrugBank.d212.s12.e3" ddi="false"/>
+        <pair id="DDI-DrugBank.d212.s12.p3"
+            e1="DDI-DrugBank.d212.s12.e1" e2="DDI-DrugBank.d212.s12.e2" ddi="false"/>
+        <pair id="DDI-DrugBank.d212.s12.p4"
+            e1="DDI-DrugBank.d212.s12.e1" e2="DDI-DrugBank.d212.s12.e3" ddi="false"/>
+        <pair id="DDI-DrugBank.d212.s12.p5"
+            e1="DDI-DrugBank.d212.s12.e2" e2="DDI-DrugBank.d212.s12.e3" ddi="false"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d212.s13" text="Effect of AEDs in Pediatric Patients There was about a 22% increase of apparent total body clearance of levetiracetam when it was co-administered with enzyme-inducing AEDs.">
+        <entity id="DDI-DrugBank.d212.s13.e0" charOffset="10-13"
+            type="group" text="AEDs"/>
+        <entity id="DDI-DrugBank.d212.s13.e1" charOffset="104-116"
+            type="drug" text="levetiracetam"/>
+        <entity id="DDI-DrugBank.d212.s13.e2" charOffset="167-170"
+            type="group" text="AEDs"/>
+        <pair id="DDI-DrugBank.d212.s13.p0"
+            e1="DDI-DrugBank.d212.s13.e0" e2="DDI-DrugBank.d212.s13.e1" ddi="false"/>
+        <pair id="DDI-DrugBank.d212.s13.p1"
+            e1="DDI-DrugBank.d212.s13.e0" e2="DDI-DrugBank.d212.s13.e2" ddi="false"/>
+        <pair id="DDI-DrugBank.d212.s13.p2"
+            e1="DDI-DrugBank.d212.s13.e1" e2="DDI-DrugBank.d212.s13.e2"
+            ddi="true" type="mechanism"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d212.s14" text="Dose adjustment is not recommended.Levetiracetam had no effect on plasma concentrations of carbamazepine, valproate, topiramate, or lamotrigine.">
+        <entity id="DDI-DrugBank.d212.s14.e0" charOffset="35-47"
+            type="drug" text="Levetiracetam"/>
+        <entity id="DDI-DrugBank.d212.s14.e1" charOffset="91-103"
+            type="drug" text="carbamazepine"/>
+        <entity id="DDI-DrugBank.d212.s14.e2" charOffset="106-114"
+            type="drug" text="valproate"/>
+        <entity id="DDI-DrugBank.d212.s14.e3" charOffset="117-126"
+            type="drug" text="topiramate"/>
+        <entity id="DDI-DrugBank.d212.s14.e4" charOffset="132-142"
+            type="drug" text="lamotrigine"/>
+        <pair id="DDI-DrugBank.d212.s14.p0"
+            e1="DDI-DrugBank.d212.s14.e0" e2="DDI-DrugBank.d212.s14.e1" ddi="false"/>
+        <pair id="DDI-DrugBank.d212.s14.p1"
+            e1="DDI-DrugBank.d212.s14.e0" e2="DDI-DrugBank.d212.s14.e2" ddi="false"/>
+        <pair id="DDI-DrugBank.d212.s14.p2"
+            e1="DDI-DrugBank.d212.s14.e0" e2="DDI-DrugBank.d212.s14.e3" ddi="false"/>
+        <pair id="DDI-DrugBank.d212.s14.p3"
+            e1="DDI-DrugBank.d212.s14.e0" e2="DDI-DrugBank.d212.s14.e4" ddi="false"/>
+        <pair id="DDI-DrugBank.d212.s14.p4"
+            e1="DDI-DrugBank.d212.s14.e1" e2="DDI-DrugBank.d212.s14.e2" ddi="false"/>
+        <pair id="DDI-DrugBank.d212.s14.p5"
+            e1="DDI-DrugBank.d212.s14.e1" e2="DDI-DrugBank.d212.s14.e3" ddi="false"/>
+        <pair id="DDI-DrugBank.d212.s14.p6"
+            e1="DDI-DrugBank.d212.s14.e1" e2="DDI-DrugBank.d212.s14.e4" ddi="false"/>
+        <pair id="DDI-DrugBank.d212.s14.p7"
+            e1="DDI-DrugBank.d212.s14.e2" e2="DDI-DrugBank.d212.s14.e3" ddi="false"/>
+        <pair id="DDI-DrugBank.d212.s14.p8"
+            e1="DDI-DrugBank.d212.s14.e2" e2="DDI-DrugBank.d212.s14.e4" ddi="false"/>
+        <pair id="DDI-DrugBank.d212.s14.p9"
+            e1="DDI-DrugBank.d212.s14.e3" e2="DDI-DrugBank.d212.s14.e4" ddi="false"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d212.s15" text="Other Drug Interactions Oral Contraceptives Keppra  (500 mg twice daily) did not influence the pharmacokinetics of an oral contraceptive containing 0.03 mg ethinyl estradiol and 0.15 mg levonorgestrel, or of the luteinizing hormone and progesterone levels, indicating that impairment of contraceptive efficacy is unlikely.">
+        <entity id="DDI-DrugBank.d212.s15.e0" charOffset="29-42"
+            type="group" text="Contraceptives"/>
+        <entity id="DDI-DrugBank.d212.s15.e1" charOffset="44-49"
+            type="brand" text="Keppra"/>
+        <entity id="DDI-DrugBank.d212.s15.e2" charOffset="123-135"
+            type="group" text="contraceptive"/>
+        <entity id="DDI-DrugBank.d212.s15.e3" charOffset="156-172"
+            type="drug" text="ethinyl estradiol"/>
+        <entity id="DDI-DrugBank.d212.s15.e4" charOffset="186-199"
+            type="drug" text="levonorgestrel"/>
+        <pair id="DDI-DrugBank.d212.s15.p0"
+            e1="DDI-DrugBank.d212.s15.e0" e2="DDI-DrugBank.d212.s15.e1" ddi="false"/>
+        <pair id="DDI-DrugBank.d212.s15.p1"
+            e1="DDI-DrugBank.d212.s15.e0" e2="DDI-DrugBank.d212.s15.e2" ddi="false"/>
+        <pair id="DDI-DrugBank.d212.s15.p2"
+            e1="DDI-DrugBank.d212.s15.e0" e2="DDI-DrugBank.d212.s15.e3" ddi="false"/>
+        <pair id="DDI-DrugBank.d212.s15.p3"
+            e1="DDI-DrugBank.d212.s15.e0" e2="DDI-DrugBank.d212.s15.e4" ddi="false"/>
+        <pair id="DDI-DrugBank.d212.s15.p4"
+            e1="DDI-DrugBank.d212.s15.e1" e2="DDI-DrugBank.d212.s15.e2" ddi="false"/>
+        <pair id="DDI-DrugBank.d212.s15.p5"
+            e1="DDI-DrugBank.d212.s15.e1" e2="DDI-DrugBank.d212.s15.e3" ddi="false"/>
+        <pair id="DDI-DrugBank.d212.s15.p6"
+            e1="DDI-DrugBank.d212.s15.e1" e2="DDI-DrugBank.d212.s15.e4" ddi="false"/>
+        <pair id="DDI-DrugBank.d212.s15.p7"
+            e1="DDI-DrugBank.d212.s15.e2" e2="DDI-DrugBank.d212.s15.e3" ddi="false"/>
+        <pair id="DDI-DrugBank.d212.s15.p8"
+            e1="DDI-DrugBank.d212.s15.e2" e2="DDI-DrugBank.d212.s15.e4" ddi="false"/>
+        <pair id="DDI-DrugBank.d212.s15.p9"
+            e1="DDI-DrugBank.d212.s15.e3" e2="DDI-DrugBank.d212.s15.e4" ddi="false"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d212.s16" text="Coadministration of this oral contraceptive did not influence the pharmacokinetics of levetiracetam.">
+        <entity id="DDI-DrugBank.d212.s16.e0" charOffset="30-42"
+            type="group" text="contraceptive"/>
+        <entity id="DDI-DrugBank.d212.s16.e1" charOffset="86-98"
+            type="drug" text="levetiracetam"/>
+        <pair id="DDI-DrugBank.d212.s16.p0"
+            e1="DDI-DrugBank.d212.s16.e0" e2="DDI-DrugBank.d212.s16.e1" ddi="false"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d212.s17" text="Digoxin Keppra  (1000 mg twice daily) did not influence the pharmacokinetics and pharmacodynamics (ECG) of digoxin given as a 0.25 mg dose every day.">
+        <entity id="DDI-DrugBank.d212.s17.e0" charOffset="0-6"
+            type="drug" text="Digoxin"/>
+        <entity id="DDI-DrugBank.d212.s17.e1" charOffset="8-13"
+            type="brand" text="Keppra"/>
+        <entity id="DDI-DrugBank.d212.s17.e2" charOffset="107-113"
+            type="drug" text="digoxin"/>
+        <pair id="DDI-DrugBank.d212.s17.p0"
+            e1="DDI-DrugBank.d212.s17.e0" e2="DDI-DrugBank.d212.s17.e1" ddi="false"/>
+        <pair id="DDI-DrugBank.d212.s17.p1"
+            e1="DDI-DrugBank.d212.s17.e0" e2="DDI-DrugBank.d212.s17.e2" ddi="false"/>
+        <pair id="DDI-DrugBank.d212.s17.p2"
+            e1="DDI-DrugBank.d212.s17.e1" e2="DDI-DrugBank.d212.s17.e2" ddi="false"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d212.s18" text="Coadministration of digoxin did not influence the pharmacokinetics of levetiracetam.">
+        <entity id="DDI-DrugBank.d212.s18.e0" charOffset="20-26"
+            type="drug" text="digoxin"/>
+        <entity id="DDI-DrugBank.d212.s18.e1" charOffset="70-82"
+            type="drug" text="levetiracetam"/>
+        <pair id="DDI-DrugBank.d212.s18.p0"
+            e1="DDI-DrugBank.d212.s18.e0" e2="DDI-DrugBank.d212.s18.e1" ddi="false"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d212.s19" text="Warfarin Keppra  (1000 mg twice daily) did not influence the pharmacokinetics of R and S warfarin.">
+        <entity id="DDI-DrugBank.d212.s19.e0" charOffset="0-7"
+            type="drug" text="Warfarin"/>
+        <entity id="DDI-DrugBank.d212.s19.e1" charOffset="9-14"
+            type="brand" text="Keppra"/>
+        <entity id="DDI-DrugBank.d212.s19.e2" charOffset="81-81;89-96"
+            type="drug" text="R warfarin"/>
+        <entity id="DDI-DrugBank.d212.s19.e3" charOffset="87-96"
+            type="drug" text="S warfarin"/>
+        <pair id="DDI-DrugBank.d212.s19.p0"
+            e1="DDI-DrugBank.d212.s19.e0" e2="DDI-DrugBank.d212.s19.e1" ddi="false"/>
+        <pair id="DDI-DrugBank.d212.s19.p1"
+            e1="DDI-DrugBank.d212.s19.e0" e2="DDI-DrugBank.d212.s19.e2" ddi="false"/>
+        <pair id="DDI-DrugBank.d212.s19.p2"
+            e1="DDI-DrugBank.d212.s19.e0" e2="DDI-DrugBank.d212.s19.e3" ddi="false"/>
+        <pair id="DDI-DrugBank.d212.s19.p3"
+            e1="DDI-DrugBank.d212.s19.e1" e2="DDI-DrugBank.d212.s19.e2" ddi="false"/>
+        <pair id="DDI-DrugBank.d212.s19.p4"
+            e1="DDI-DrugBank.d212.s19.e1" e2="DDI-DrugBank.d212.s19.e3" ddi="false"/>
+        <pair id="DDI-DrugBank.d212.s19.p5"
+            e1="DDI-DrugBank.d212.s19.e2" e2="DDI-DrugBank.d212.s19.e3" ddi="false"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d212.s20" text="Prothrombin time was not affected by levetiracetam.">
+        <entity id="DDI-DrugBank.d212.s20.e0" charOffset="37-49"
+            type="drug" text="levetiracetam"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d212.s21" text="Coadministration of warfarin did not affect the pharmacokinetics of levetiracetam.">
+        <entity id="DDI-DrugBank.d212.s21.e0" charOffset="20-27"
+            type="drug" text="warfarin"/>
+        <entity id="DDI-DrugBank.d212.s21.e1" charOffset="68-80"
+            type="drug" text="levetiracetam"/>
+        <pair id="DDI-DrugBank.d212.s21.p0"
+            e1="DDI-DrugBank.d212.s21.e0" e2="DDI-DrugBank.d212.s21.e1" ddi="false"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d212.s22" text="Probenecid: Probenecid, a renal tubular secretion blocking agent, administered at a dose of 500 mg four times a day, did not change the pharmacokinetics of levetiracetam 1000 mg twice daily.">
+        <entity id="DDI-DrugBank.d212.s22.e0" charOffset="0-9"
+            type="drug" text="Probenecid"/>
+        <entity id="DDI-DrugBank.d212.s22.e1" charOffset="12-21"
+            type="drug" text="Probenecid"/>
+        <entity id="DDI-DrugBank.d212.s22.e2" charOffset="156-168"
+            type="drug" text="levetiracetam"/>
+        <pair id="DDI-DrugBank.d212.s22.p0"
+            e1="DDI-DrugBank.d212.s22.e0" e2="DDI-DrugBank.d212.s22.e1" ddi="false"/>
+        <pair id="DDI-DrugBank.d212.s22.p1"
+            e1="DDI-DrugBank.d212.s22.e0" e2="DDI-DrugBank.d212.s22.e2" ddi="false"/>
+        <pair id="DDI-DrugBank.d212.s22.p2"
+            e1="DDI-DrugBank.d212.s22.e1" e2="DDI-DrugBank.d212.s22.e2" ddi="false"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d212.s23" text="Cssmax of the metabolite, ucb L057, was approximately doubled in the presence of probenecid while the fraction of drug excreted unchanged in the urine remained the same.">
+        <entity id="DDI-DrugBank.d212.s23.e0" charOffset="81-90"
+            type="drug" text="probenecid"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d212.s24" text="Renal clearance of ucb L057 in the presence of probenecid decreased 60%, probably related to competitive inhibition of tubular secretion of ucb L057.">
+        <entity id="DDI-DrugBank.d212.s24.e0" charOffset="47-56"
+            type="drug" text="probenecid"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d212.s25" text="The effect of Keppra  on probenecid was not studied.">
+        <entity id="DDI-DrugBank.d212.s25.e0" charOffset="14-19"
+            type="brand" text="Keppra"/>
+        <entity id="DDI-DrugBank.d212.s25.e1" charOffset="25-34"
+            type="drug" text="probenecid"/>
+        <pair id="DDI-DrugBank.d212.s25.p0"
+            e1="DDI-DrugBank.d212.s25.e0" e2="DDI-DrugBank.d212.s25.e1" ddi="false"/>
+    </sentence>
+</document>

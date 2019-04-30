@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="DDI-DrugBank.d625">
+    <sentence id="DDI-DrugBank.d625.s0" text="DRUG INTERACTIONS  There are no known drug/drug interactions with oral ALKERAN  Vaccinations with live organism vaccines are not recommended in immunocompromised individuals  Nalidixic acid together with high-dose intravenous melphalan has caused deaths in children due to haemorrhagic enterocolitis.  ">
+        <entity id="DDI-DrugBank.d625.s0.e0" charOffset="71-77"
+            type="brand" text="ALKERAN"/>
+        <entity id="DDI-DrugBank.d625.s0.e1" charOffset="98-119"
+            type="group" text="live organism vaccines"/>
+        <entity id="DDI-DrugBank.d625.s0.e2" charOffset="175-188"
+            type="drug" text="Nalidixic acid"/>
+        <entity id="DDI-DrugBank.d625.s0.e3" charOffset="226-234"
+            type="drug" text="melphalan"/>
+        <pair id="DDI-DrugBank.d625.s0.p0" e1="DDI-DrugBank.d625.s0.e0"
+            e2="DDI-DrugBank.d625.s0.e1" ddi="false"/>
+        <pair id="DDI-DrugBank.d625.s0.p1" e1="DDI-DrugBank.d625.s0.e0"
+            e2="DDI-DrugBank.d625.s0.e2" ddi="false"/>
+        <pair id="DDI-DrugBank.d625.s0.p2" e1="DDI-DrugBank.d625.s0.e0"
+            e2="DDI-DrugBank.d625.s0.e3" ddi="false"/>
+        <pair id="DDI-DrugBank.d625.s0.p3" e1="DDI-DrugBank.d625.s0.e1"
+            e2="DDI-DrugBank.d625.s0.e2" ddi="false"/>
+        <pair id="DDI-DrugBank.d625.s0.p4" e1="DDI-DrugBank.d625.s0.e1"
+            e2="DDI-DrugBank.d625.s0.e3" ddi="false"/>
+        <pair id="DDI-DrugBank.d625.s0.p5" e1="DDI-DrugBank.d625.s0.e2"
+            e2="DDI-DrugBank.d625.s0.e3" ddi="true" type="effect"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d625.s1" text="Impaired renal function has been described in bone marrow transplant patients who were conditioned with high-dose intravenous melphalan and who subsequently received cyclosporin to prevent graft-versus-host disease">
+        <entity id="DDI-DrugBank.d625.s1.e0" charOffset="126-134"
+            type="drug" text="melphalan"/>
+        <entity id="DDI-DrugBank.d625.s1.e1" charOffset="166-176"
+            type="drug" text="cyclosporin"/>
+        <pair id="DDI-DrugBank.d625.s1.p0" e1="DDI-DrugBank.d625.s1.e0"
+            e2="DDI-DrugBank.d625.s1.e1" ddi="true" type="effect"/>
+    </sentence>
+</document>

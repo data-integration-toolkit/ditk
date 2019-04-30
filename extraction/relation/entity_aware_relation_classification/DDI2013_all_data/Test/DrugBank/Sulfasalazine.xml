@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="DDI-DrugBank.d693">
+    <sentence id="DDI-DrugBank.d693.s0" text="Reduced absorption of folic acid and digoxin have been reported when those agents were administered concomitantly with sulfasalazine. ">
+        <entity id="DDI-DrugBank.d693.s0.e0" charOffset="22-31"
+            type="drug" text="folic acid"/>
+        <entity id="DDI-DrugBank.d693.s0.e1" charOffset="37-43"
+            type="drug" text="digoxin"/>
+        <entity id="DDI-DrugBank.d693.s0.e2" charOffset="119-131"
+            type="drug" text="sulfasalazine"/>
+        <pair id="DDI-DrugBank.d693.s0.p0" e1="DDI-DrugBank.d693.s0.e0"
+            e2="DDI-DrugBank.d693.s0.e1" ddi="false"/>
+        <pair id="DDI-DrugBank.d693.s0.p1" e1="DDI-DrugBank.d693.s0.e0"
+            e2="DDI-DrugBank.d693.s0.e2" ddi="true" type="mechanism"/>
+        <pair id="DDI-DrugBank.d693.s0.p2" e1="DDI-DrugBank.d693.s0.e1"
+            e2="DDI-DrugBank.d693.s0.e2" ddi="true" type="mechanism"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d693.s1" text="When daily doses of sulfasalazine 2 g and weekly doses of methotrexate 7.5 mg were coadministered to 15 rheumatoid arthritis patients in a drug-drug interaction study, the pharmacokinetic disposition of the drugs was not altered. ">
+        <entity id="DDI-DrugBank.d693.s1.e0" charOffset="20-32"
+            type="drug" text="sulfasalazine"/>
+        <entity id="DDI-DrugBank.d693.s1.e1" charOffset="58-69"
+            type="drug" text="methotrexate"/>
+        <pair id="DDI-DrugBank.d693.s1.p0" e1="DDI-DrugBank.d693.s1.e0"
+            e2="DDI-DrugBank.d693.s1.e1" ddi="false"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d693.s2" text="Daily doses of sulfasalazine 2 g (maximum 3 g) and weekly doses of methotrexate 7.5 mg (maximum 15 mg) were administered alone or in combination to 310 rheumatoid arthritis patients in two controlled 52-week clinical studies. ">
+        <entity id="DDI-DrugBank.d693.s2.e0" charOffset="15-27"
+            type="drug" text="sulfasalazine"/>
+        <entity id="DDI-DrugBank.d693.s2.e1" charOffset="67-78"
+            type="drug" text="methotrexate"/>
+        <pair id="DDI-DrugBank.d693.s2.p0" e1="DDI-DrugBank.d693.s2.e0"
+            e2="DDI-DrugBank.d693.s2.e1" ddi="false"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d693.s3" text="The overall toxicity profile of the combination revealed an increased incidence of gastrointestinal adverse events, especially nausea, when compared to the incidence associated with either drug administered alone. "/>
+    <sentence id="DDI-DrugBank.d693.s4" text="Drug/Laboratory Test Interactions: The presence of sulfasalazine or its metabolites in body fluids has not been reported to interfere with laboratory test procedures. ">
+        <entity id="DDI-DrugBank.d693.s4.e0" charOffset="51-63"
+            type="drug" text="sulfasalazine"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d693.s5" text="REFERENCES 7.Farr M, et al. "/>
+    <sentence id="DDI-DrugBank.d693.s6" text="Immunodeficiencies associated with sulphasalazine therapy in inflammatory arthritis. ">
+        <entity id="DDI-DrugBank.d693.s6.e0" charOffset="35-48"
+            type="drug" text="sulphasalazine"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d693.s7" text="British Jnl Rheum 1991;30:413-417.    "/>
+</document>

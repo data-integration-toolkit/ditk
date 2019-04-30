@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="DDI-MedLine.d143">
+    <sentence id="DDI-MedLine.d143.s0" text="[Interaction between clopidogrel and proton pump inhibitors].&#xd;&#xa;">
+        <entity id="DDI-MedLine.d143.s0.e0" charOffset="21-31"
+            type="drug" text="clopidogrel"/>
+        <entity id="DDI-MedLine.d143.s0.e1" charOffset="37-58"
+            type="group" text="proton pump inhibitors"/>
+        <pair id="DDI-MedLine.d143.s0.p0" e1="DDI-MedLine.d143.s0.e0"
+            e2="DDI-MedLine.d143.s0.e1" ddi="false"/>
+    </sentence>
+    <sentence id="DDI-MedLine.d143.s1" text="The drug interaction between proton pump inhibitors and clopidogrel has been the subject of much study in recent years. ">
+        <entity id="DDI-MedLine.d143.s1.e0" charOffset="29-50"
+            type="group" text="proton pump inhibitors"/>
+        <entity id="DDI-MedLine.d143.s1.e1" charOffset="56-66"
+            type="drug" text="clopidogrel"/>
+        <pair id="DDI-MedLine.d143.s1.p0" e1="DDI-MedLine.d143.s1.e0"
+            e2="DDI-MedLine.d143.s1.e1" ddi="false"/>
+    </sentence>
+    <sentence id="DDI-MedLine.d143.s2" text="Contradictory results regarding the effect of proton pump inhibitors on platelet reactivity and on clinical outcome in clopidogrel-treated patients have been reported in literature. ">
+        <entity id="DDI-MedLine.d143.s2.e0" charOffset="46-67"
+            type="group" text="proton pump inhibitors"/>
+        <entity id="DDI-MedLine.d143.s2.e1" charOffset="119-129"
+            type="drug" text="clopidogrel"/>
+        <pair id="DDI-MedLine.d143.s2.p0" e1="DDI-MedLine.d143.s2.e0"
+            e2="DDI-MedLine.d143.s2.e1" ddi="false"/>
+    </sentence>
+    <sentence id="DDI-MedLine.d143.s3" text="Concomitant use of omeprazole and clopidogrel was found to decrease the exposure (AUC) to clopidogrel's active metabolite by 50% and to sharply increase platelet reactivity, as a result of inhibition by omeprazole of CYP2C19, a cytochrome P450 (CYP) enzyme. ">
+        <entity id="DDI-MedLine.d143.s3.e0" charOffset="19-28"
+            type="drug" text="omeprazole"/>
+        <entity id="DDI-MedLine.d143.s3.e1" charOffset="34-44"
+            type="drug" text="clopidogrel"/>
+        <entity id="DDI-MedLine.d143.s3.e2" charOffset="203-212"
+            type="drug" text="omeprazole"/>
+        <pair id="DDI-MedLine.d143.s3.p0" e1="DDI-MedLine.d143.s3.e0"
+            e2="DDI-MedLine.d143.s3.e1" ddi="true" type="mechanism"/>
+        <pair id="DDI-MedLine.d143.s3.p1" e1="DDI-MedLine.d143.s3.e0"
+            e2="DDI-MedLine.d143.s3.e2" ddi="false"/>
+        <pair id="DDI-MedLine.d143.s3.p2" e1="DDI-MedLine.d143.s3.e1"
+            e2="DDI-MedLine.d143.s3.e2" ddi="false"/>
+    </sentence>
+    <sentence id="DDI-MedLine.d143.s4" text="Pantoprazole has a much weaker effect on clopidogrel's pharmacokinetics and on platelet reactivity during concomitant use. ">
+        <entity id="DDI-MedLine.d143.s4.e0" charOffset="0-11"
+            type="drug" text="Pantoprazole"/>
+        <entity id="DDI-MedLine.d143.s4.e1" charOffset="41-51"
+            type="drug" text="clopidogrel"/>
+        <pair id="DDI-MedLine.d143.s4.p0" e1="DDI-MedLine.d143.s4.e0"
+            e2="DDI-MedLine.d143.s4.e1" ddi="true" type="mechanism"/>
+    </sentence>
+    <sentence id="DDI-MedLine.d143.s5" text="The influence of the other proton pump inhibitors when used simultaneously with clopidogrel has not yet been investigated in adequately randomized studies. ">
+        <entity id="DDI-MedLine.d143.s5.e0" charOffset="27-48"
+            type="group" text="proton pump inhibitors"/>
+        <entity id="DDI-MedLine.d143.s5.e1" charOffset="80-90"
+            type="drug" text="clopidogrel"/>
+        <pair id="DDI-MedLine.d143.s5.p0" e1="DDI-MedLine.d143.s5.e0"
+            e2="DDI-MedLine.d143.s5.e1" ddi="false"/>
+    </sentence>
+    <sentence id="DDI-MedLine.d143.s6" text="Regulatory agencies state that the combination of clopidogrel and the CYP2C19 inhibitors omeprazole and esomeprazole should be avoided. ">
+        <entity id="DDI-MedLine.d143.s6.e0" charOffset="50-60"
+            type="drug" text="clopidogrel"/>
+        <entity id="DDI-MedLine.d143.s6.e1" charOffset="89-98"
+            type="drug" text="omeprazole"/>
+        <entity id="DDI-MedLine.d143.s6.e2" charOffset="104-115"
+            type="drug" text="esomeprazole"/>
+        <pair id="DDI-MedLine.d143.s6.p0" e1="DDI-MedLine.d143.s6.e0"
+            e2="DDI-MedLine.d143.s6.e1" ddi="true" type="advise"/>
+        <pair id="DDI-MedLine.d143.s6.p1" e1="DDI-MedLine.d143.s6.e0"
+            e2="DDI-MedLine.d143.s6.e2" ddi="true" type="advise"/>
+        <pair id="DDI-MedLine.d143.s6.p2" e1="DDI-MedLine.d143.s6.e1"
+            e2="DDI-MedLine.d143.s6.e2" ddi="false"/>
+    </sentence>
+    <sentence id="DDI-MedLine.d143.s7" text="To date, there is no conclusive evidence of a clinically-relevant interaction between any of the proton pump inhibitors and clopidogrel.">
+        <entity id="DDI-MedLine.d143.s7.e0" charOffset="97-118"
+            type="group" text="proton pump inhibitors"/>
+        <entity id="DDI-MedLine.d143.s7.e1" charOffset="124-134"
+            type="drug" text="clopidogrel"/>
+        <pair id="DDI-MedLine.d143.s7.p0" e1="DDI-MedLine.d143.s7.e0"
+            e2="DDI-MedLine.d143.s7.e1" ddi="false"/>
+    </sentence>
+</document>

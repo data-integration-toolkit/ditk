@@ -1,0 +1,320 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="DDI-DrugBank.d458">
+    <sentence id="DDI-DrugBank.d458.s0" text="Ketoconazole is a potent inhibitor of the cytochrome P450 3A4 enzyme system.">
+        <entity id="DDI-DrugBank.d458.s0.e0" charOffset="0-11"
+            type="drug" text="Ketoconazole"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d458.s1" text="Coadministration of NIZORAL  Tablets and drugs primarily metabolized by the cytochrome P450 3A4 enzyme system may result in increased plasma concentrations of the drugs that could increase or prolong both therapeutic and adverse effects.">
+        <entity id="DDI-DrugBank.d458.s1.e0" charOffset="20-26"
+            type="brand" text="NIZORAL"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d458.s2" text="Therefore, unless otherwise specified, appropriate dosage adjustments may be necessary."/>
+    <sentence id="DDI-DrugBank.d458.s3" text="The following drug interactions have been identified involving NIZORAL Tablets and other drugs metabolized by the cytochrome P450 3A4 enzyme system: Ketoconazole tablets inhibit the metabolism of terfenadine, resulting in an increased plasma concentration of terfenadine and a delay in the elimination of its acid metabolite.">
+        <entity id="DDI-DrugBank.d458.s3.e0" charOffset="63-69"
+            type="brand" text="NIZORAL"/>
+        <entity id="DDI-DrugBank.d458.s3.e1" charOffset="149-160"
+            type="drug" text="Ketoconazole"/>
+        <entity id="DDI-DrugBank.d458.s3.e2" charOffset="196-206"
+            type="drug" text="terfenadine"/>
+        <entity id="DDI-DrugBank.d458.s3.e3" charOffset="259-269"
+            type="drug" text="terfenadine"/>
+        <pair id="DDI-DrugBank.d458.s3.p0" e1="DDI-DrugBank.d458.s3.e0"
+            e2="DDI-DrugBank.d458.s3.e1" ddi="false"/>
+        <pair id="DDI-DrugBank.d458.s3.p1" e1="DDI-DrugBank.d458.s3.e0"
+            e2="DDI-DrugBank.d458.s3.e2" ddi="false"/>
+        <pair id="DDI-DrugBank.d458.s3.p2" e1="DDI-DrugBank.d458.s3.e0"
+            e2="DDI-DrugBank.d458.s3.e3" ddi="false"/>
+        <pair id="DDI-DrugBank.d458.s3.p3" e1="DDI-DrugBank.d458.s3.e1"
+            e2="DDI-DrugBank.d458.s3.e2" ddi="true" type="mechanism"/>
+        <pair id="DDI-DrugBank.d458.s3.p4" e1="DDI-DrugBank.d458.s3.e1"
+            e2="DDI-DrugBank.d458.s3.e3" ddi="false"/>
+        <pair id="DDI-DrugBank.d458.s3.p5" e1="DDI-DrugBank.d458.s3.e2"
+            e2="DDI-DrugBank.d458.s3.e3" ddi="false"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d458.s4" text="The increased plasma concentration of terfenadine or its metabolite may result in prolonged QT intervals.">
+        <entity id="DDI-DrugBank.d458.s4.e0" charOffset="38-48"
+            type="drug" text="terfenadine"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d458.s5" text="Pharmacokinetic data indicate that oral ketoconazole inhibits the metabolism of astemizole, resulting in elevated plasma levels of astemizole and its active metabolite desmethylastemizole which may prolong QT intervals.">
+        <entity id="DDI-DrugBank.d458.s5.e0" charOffset="40-51"
+            type="drug" text="ketoconazole"/>
+        <entity id="DDI-DrugBank.d458.s5.e1" charOffset="80-89"
+            type="drug" text="astemizole"/>
+        <entity id="DDI-DrugBank.d458.s5.e2" charOffset="131-140"
+            type="drug" text="astemizole"/>
+        <entity id="DDI-DrugBank.d458.s5.e3" charOffset="168-186"
+            type="drug_n" text="desmethylastemizole"/>
+        <pair id="DDI-DrugBank.d458.s5.p0" e1="DDI-DrugBank.d458.s5.e0"
+            e2="DDI-DrugBank.d458.s5.e1" ddi="true" type="effect"/>
+        <pair id="DDI-DrugBank.d458.s5.p1" e1="DDI-DrugBank.d458.s5.e0"
+            e2="DDI-DrugBank.d458.s5.e2" ddi="false"/>
+        <pair id="DDI-DrugBank.d458.s5.p2" e1="DDI-DrugBank.d458.s5.e0"
+            e2="DDI-DrugBank.d458.s5.e3" ddi="false"/>
+        <pair id="DDI-DrugBank.d458.s5.p3" e1="DDI-DrugBank.d458.s5.e1"
+            e2="DDI-DrugBank.d458.s5.e2" ddi="false"/>
+        <pair id="DDI-DrugBank.d458.s5.p4" e1="DDI-DrugBank.d458.s5.e1"
+            e2="DDI-DrugBank.d458.s5.e3" ddi="false"/>
+        <pair id="DDI-DrugBank.d458.s5.p5" e1="DDI-DrugBank.d458.s5.e2"
+            e2="DDI-DrugBank.d458.s5.e3" ddi="false"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d458.s6" text="Coadministration of astemizole with ketoconazole tablets is therefore contraindicated.">
+        <entity id="DDI-DrugBank.d458.s6.e0" charOffset="20-29"
+            type="drug" text="astemizole"/>
+        <entity id="DDI-DrugBank.d458.s6.e1" charOffset="36-47"
+            type="drug" text="ketoconazole"/>
+        <pair id="DDI-DrugBank.d458.s6.p0" e1="DDI-DrugBank.d458.s6.e0"
+            e2="DDI-DrugBank.d458.s6.e1" ddi="true" type="advise"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d458.s7" text="Human pharmacokinetics data indicate that oral ketoconazole potently inhibits the metabolism of cisapride resulting in a mean eight-fold increase in AUC of cisapride.">
+        <entity id="DDI-DrugBank.d458.s7.e0" charOffset="47-58"
+            type="drug" text="ketoconazole"/>
+        <entity id="DDI-DrugBank.d458.s7.e1" charOffset="96-104"
+            type="drug" text="cisapride"/>
+        <entity id="DDI-DrugBank.d458.s7.e2" charOffset="156-164"
+            type="drug" text="cisapride"/>
+        <pair id="DDI-DrugBank.d458.s7.p0" e1="DDI-DrugBank.d458.s7.e0"
+            e2="DDI-DrugBank.d458.s7.e1" ddi="true" type="mechanism"/>
+        <pair id="DDI-DrugBank.d458.s7.p1" e1="DDI-DrugBank.d458.s7.e0"
+            e2="DDI-DrugBank.d458.s7.e2" ddi="false"/>
+        <pair id="DDI-DrugBank.d458.s7.p2" e1="DDI-DrugBank.d458.s7.e1"
+            e2="DDI-DrugBank.d458.s7.e2" ddi="false"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d458.s8" text="Data suggest that coadministration of oral ketoconazole and cisapride can result in prolongation of the QT interval on the ECG.">
+        <entity id="DDI-DrugBank.d458.s8.e0" charOffset="43-54"
+            type="drug" text="ketoconazole"/>
+        <entity id="DDI-DrugBank.d458.s8.e1" charOffset="60-68"
+            type="drug" text="cisapride"/>
+        <pair id="DDI-DrugBank.d458.s8.p0" e1="DDI-DrugBank.d458.s8.e0"
+            e2="DDI-DrugBank.d458.s8.e1" ddi="true" type="effect"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d458.s9" text="Therefore concomitant administration of ketoconazole tablets with cisapride is contraindicated.">
+        <entity id="DDI-DrugBank.d458.s9.e0" charOffset="40-51"
+            type="drug" text="ketoconazole"/>
+        <entity id="DDI-DrugBank.d458.s9.e1" charOffset="66-74"
+            type="drug" text="cisapride"/>
+        <pair id="DDI-DrugBank.d458.s9.p0" e1="DDI-DrugBank.d458.s9.e0"
+            e2="DDI-DrugBank.d458.s9.e1" ddi="true" type="advise"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d458.s10" text="Ketoconazole tablets may alter the metabolism of cyclosporine, tacrolimus, and methylprednisolone, resulting in elevated plasma concentrations of the latter drugs.">
+        <entity id="DDI-DrugBank.d458.s10.e0" charOffset="0-11"
+            type="drug" text="Ketoconazole"/>
+        <entity id="DDI-DrugBank.d458.s10.e1" charOffset="49-60"
+            type="drug" text="cyclosporine"/>
+        <entity id="DDI-DrugBank.d458.s10.e2" charOffset="63-72"
+            type="drug" text="tacrolimus"/>
+        <entity id="DDI-DrugBank.d458.s10.e3" charOffset="79-96"
+            type="drug" text="methylprednisolone"/>
+        <pair id="DDI-DrugBank.d458.s10.p0"
+            e1="DDI-DrugBank.d458.s10.e0" e2="DDI-DrugBank.d458.s10.e1"
+            ddi="true" type="mechanism"/>
+        <pair id="DDI-DrugBank.d458.s10.p1"
+            e1="DDI-DrugBank.d458.s10.e0" e2="DDI-DrugBank.d458.s10.e2"
+            ddi="true" type="mechanism"/>
+        <pair id="DDI-DrugBank.d458.s10.p2"
+            e1="DDI-DrugBank.d458.s10.e0" e2="DDI-DrugBank.d458.s10.e3"
+            ddi="true" type="mechanism"/>
+        <pair id="DDI-DrugBank.d458.s10.p3"
+            e1="DDI-DrugBank.d458.s10.e1" e2="DDI-DrugBank.d458.s10.e2" ddi="false"/>
+        <pair id="DDI-DrugBank.d458.s10.p4"
+            e1="DDI-DrugBank.d458.s10.e1" e2="DDI-DrugBank.d458.s10.e3" ddi="false"/>
+        <pair id="DDI-DrugBank.d458.s10.p5"
+            e1="DDI-DrugBank.d458.s10.e2" e2="DDI-DrugBank.d458.s10.e3" ddi="false"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d458.s11" text="Dosage adjustment may be required if cyclosporine, tacrolimus, or methylprednisolone are given concomitantly with NIZORAL  Tablets.">
+        <entity id="DDI-DrugBank.d458.s11.e0" charOffset="37-48"
+            type="drug" text="cyclosporine"/>
+        <entity id="DDI-DrugBank.d458.s11.e1" charOffset="51-60"
+            type="drug" text="tacrolimus"/>
+        <entity id="DDI-DrugBank.d458.s11.e2" charOffset="66-83"
+            type="drug" text="methylprednisolone"/>
+        <entity id="DDI-DrugBank.d458.s11.e3" charOffset="114-120"
+            type="brand" text="NIZORAL"/>
+        <pair id="DDI-DrugBank.d458.s11.p0"
+            e1="DDI-DrugBank.d458.s11.e0" e2="DDI-DrugBank.d458.s11.e1" ddi="false"/>
+        <pair id="DDI-DrugBank.d458.s11.p1"
+            e1="DDI-DrugBank.d458.s11.e0" e2="DDI-DrugBank.d458.s11.e2" ddi="false"/>
+        <pair id="DDI-DrugBank.d458.s11.p2"
+            e1="DDI-DrugBank.d458.s11.e0" e2="DDI-DrugBank.d458.s11.e3" ddi="false"/>
+        <pair id="DDI-DrugBank.d458.s11.p3"
+            e1="DDI-DrugBank.d458.s11.e1" e2="DDI-DrugBank.d458.s11.e2" ddi="false"/>
+        <pair id="DDI-DrugBank.d458.s11.p4"
+            e1="DDI-DrugBank.d458.s11.e1" e2="DDI-DrugBank.d458.s11.e3" ddi="false"/>
+        <pair id="DDI-DrugBank.d458.s11.p5"
+            e1="DDI-DrugBank.d458.s11.e2" e2="DDI-DrugBank.d458.s11.e3" ddi="false"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d458.s12" text="Coadministration of NIZORAL  Tablets with midazolam or triazolam has resulted in elevated plasma concentrations of the latter two drugs.">
+        <entity id="DDI-DrugBank.d458.s12.e0" charOffset="20-26"
+            type="brand" text="NIZORAL"/>
+        <entity id="DDI-DrugBank.d458.s12.e1" charOffset="42-50"
+            type="drug" text="midazolam"/>
+        <entity id="DDI-DrugBank.d458.s12.e2" charOffset="55-63"
+            type="drug" text="triazolam"/>
+        <pair id="DDI-DrugBank.d458.s12.p0"
+            e1="DDI-DrugBank.d458.s12.e0" e2="DDI-DrugBank.d458.s12.e1"
+            ddi="true" type="mechanism"/>
+        <pair id="DDI-DrugBank.d458.s12.p1"
+            e1="DDI-DrugBank.d458.s12.e0" e2="DDI-DrugBank.d458.s12.e2"
+            ddi="true" type="mechanism"/>
+        <pair id="DDI-DrugBank.d458.s12.p2"
+            e1="DDI-DrugBank.d458.s12.e1" e2="DDI-DrugBank.d458.s12.e2" ddi="false"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d458.s13" text="This may potentiate and prolong hypnotic and sedative effects, especially with repeated dosing or chronic administration of these agents."/>
+    <sentence id="DDI-DrugBank.d458.s14" text="These agents should not be used in patients treated with NIZORAL  Tablets.">
+        <entity id="DDI-DrugBank.d458.s14.e0" charOffset="57-63"
+            type="brand" text="NIZORAL"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d458.s15" text="If midazolam is administered parenterally, special precaution is required since the sedative effect may be prolonged.">
+        <entity id="DDI-DrugBank.d458.s15.e0" charOffset="3-11"
+            type="drug" text="midazolam"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d458.s16" text="Rare cases of elevated plasma concentrations of digoxin have been reported.">
+        <entity id="DDI-DrugBank.d458.s16.e0" charOffset="48-54"
+            type="drug" text="digoxin"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d458.s17" text="It is not clear whether this was due to the combination of therapy."/>
+    <sentence id="DDI-DrugBank.d458.s18" text="It is, therefore, advisable to monitor digoxin concentrations in patients receiving ketoconazole.">
+        <entity id="DDI-DrugBank.d458.s18.e0" charOffset="39-45"
+            type="drug" text="digoxin"/>
+        <entity id="DDI-DrugBank.d458.s18.e1" charOffset="84-95"
+            type="drug" text="ketoconazole"/>
+        <pair id="DDI-DrugBank.d458.s18.p0"
+            e1="DDI-DrugBank.d458.s18.e0" e2="DDI-DrugBank.d458.s18.e1"
+            ddi="true" type="advise"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d458.s19" text="When taken orally , imidazole compounds like ketoconazole may enhance the anticoagulant effect of coumarin-like drugs.">
+        <entity id="DDI-DrugBank.d458.s19.e0" charOffset="20-38"
+            type="group" text="imidazole compounds"/>
+        <entity id="DDI-DrugBank.d458.s19.e1" charOffset="45-56"
+            type="drug" text="ketoconazole"/>
+        <entity id="DDI-DrugBank.d458.s19.e2" charOffset="98-105"
+            type="group" text="coumarin"/>
+        <pair id="DDI-DrugBank.d458.s19.p0"
+            e1="DDI-DrugBank.d458.s19.e0" e2="DDI-DrugBank.d458.s19.e1" ddi="false"/>
+        <pair id="DDI-DrugBank.d458.s19.p1"
+            e1="DDI-DrugBank.d458.s19.e0" e2="DDI-DrugBank.d458.s19.e2"
+            ddi="true" type="effect"/>
+        <pair id="DDI-DrugBank.d458.s19.p2"
+            e1="DDI-DrugBank.d458.s19.e1" e2="DDI-DrugBank.d458.s19.e2"
+            ddi="true" type="effect"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d458.s20" text="In simultaneous treatment with imidazole drugs and coumarin drugs, the anticoagulant effect should be carefully titrated and monitored.">
+        <entity id="DDI-DrugBank.d458.s20.e0" charOffset="31-45"
+            type="group" text="imidazole drugs"/>
+        <entity id="DDI-DrugBank.d458.s20.e1" charOffset="51-64"
+            type="group" text="coumarin drugs"/>
+        <pair id="DDI-DrugBank.d458.s20.p0"
+            e1="DDI-DrugBank.d458.s20.e0" e2="DDI-DrugBank.d458.s20.e1"
+            ddi="true" type="advise"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d458.s21" text="Because severe hypoglycemia has been reported in patients concomitantly receiving oral miconazole (an imidazole) and oral hypoglycemic agents, such a potential interaction involving the latter agents when used concomitantly with ketoconazole tablets (an imidazole) can not be ruled out.">
+        <entity id="DDI-DrugBank.d458.s21.e0" charOffset="87-96"
+            type="drug" text="miconazole"/>
+        <entity id="DDI-DrugBank.d458.s21.e1" charOffset="102-110"
+            type="group" text="imidazole"/>
+        <entity id="DDI-DrugBank.d458.s21.e2" charOffset="122-140"
+            type="group" text="hypoglycemic agents"/>
+        <entity id="DDI-DrugBank.d458.s21.e3" charOffset="229-240"
+            type="drug" text="ketoconazole"/>
+        <entity id="DDI-DrugBank.d458.s21.e4" charOffset="254-262"
+            type="group" text="imidazole"/>
+        <pair id="DDI-DrugBank.d458.s21.p0"
+            e1="DDI-DrugBank.d458.s21.e0" e2="DDI-DrugBank.d458.s21.e1" ddi="false"/>
+        <pair id="DDI-DrugBank.d458.s21.p1"
+            e1="DDI-DrugBank.d458.s21.e0" e2="DDI-DrugBank.d458.s21.e2"
+            ddi="true" type="effect"/>
+        <pair id="DDI-DrugBank.d458.s21.p2"
+            e1="DDI-DrugBank.d458.s21.e0" e2="DDI-DrugBank.d458.s21.e3" ddi="false"/>
+        <pair id="DDI-DrugBank.d458.s21.p3"
+            e1="DDI-DrugBank.d458.s21.e0" e2="DDI-DrugBank.d458.s21.e4" ddi="false"/>
+        <pair id="DDI-DrugBank.d458.s21.p4"
+            e1="DDI-DrugBank.d458.s21.e1" e2="DDI-DrugBank.d458.s21.e2" ddi="false"/>
+        <pair id="DDI-DrugBank.d458.s21.p5"
+            e1="DDI-DrugBank.d458.s21.e1" e2="DDI-DrugBank.d458.s21.e3" ddi="false"/>
+        <pair id="DDI-DrugBank.d458.s21.p6"
+            e1="DDI-DrugBank.d458.s21.e1" e2="DDI-DrugBank.d458.s21.e4" ddi="false"/>
+        <pair id="DDI-DrugBank.d458.s21.p7"
+            e1="DDI-DrugBank.d458.s21.e2" e2="DDI-DrugBank.d458.s21.e3" ddi="false"/>
+        <pair id="DDI-DrugBank.d458.s21.p8"
+            e1="DDI-DrugBank.d458.s21.e2" e2="DDI-DrugBank.d458.s21.e4" ddi="false"/>
+        <pair id="DDI-DrugBank.d458.s21.p9"
+            e1="DDI-DrugBank.d458.s21.e3" e2="DDI-DrugBank.d458.s21.e4" ddi="false"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d458.s22" text="Concomitant administration of ketoconazole tablets with phenytoin may alter the metabolism of one or both of the drugs.">
+        <entity id="DDI-DrugBank.d458.s22.e0" charOffset="30-41"
+            type="drug" text="ketoconazole"/>
+        <entity id="DDI-DrugBank.d458.s22.e1" charOffset="56-64"
+            type="drug" text="phenytoin"/>
+        <pair id="DDI-DrugBank.d458.s22.p0"
+            e1="DDI-DrugBank.d458.s22.e0" e2="DDI-DrugBank.d458.s22.e1"
+            ddi="true" type="mechanism"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d458.s23" text="It is suggested to monitor both ketoconazole and phenytoin.">
+        <entity id="DDI-DrugBank.d458.s23.e0" charOffset="32-43"
+            type="drug" text="ketoconazole"/>
+        <entity id="DDI-DrugBank.d458.s23.e1" charOffset="49-57"
+            type="drug" text="phenytoin"/>
+        <pair id="DDI-DrugBank.d458.s23.p0"
+            e1="DDI-DrugBank.d458.s23.e0" e2="DDI-DrugBank.d458.s23.e1"
+            ddi="true" type="advise"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d458.s24" text="Concomitant administration of rifampin with ketoconazole tablets reduces the blood levels of the latter.">
+        <entity id="DDI-DrugBank.d458.s24.e0" charOffset="30-37"
+            type="drug" text="rifampin"/>
+        <entity id="DDI-DrugBank.d458.s24.e1" charOffset="44-55"
+            type="drug" text="ketoconazole"/>
+        <pair id="DDI-DrugBank.d458.s24.p0"
+            e1="DDI-DrugBank.d458.s24.e0" e2="DDI-DrugBank.d458.s24.e1"
+            ddi="true" type="mechanism"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d458.s25" text="INH (Isoniazid) is also reported to affect ketoconazole concentrations adversely.">
+        <entity id="DDI-DrugBank.d458.s25.e0" charOffset="0-2"
+            type="drug" text="INH"/>
+        <entity id="DDI-DrugBank.d458.s25.e1" charOffset="5-13"
+            type="drug" text="Isoniazid"/>
+        <entity id="DDI-DrugBank.d458.s25.e2" charOffset="43-54"
+            type="drug" text="ketoconazole"/>
+        <pair id="DDI-DrugBank.d458.s25.p0"
+            e1="DDI-DrugBank.d458.s25.e0" e2="DDI-DrugBank.d458.s25.e1" ddi="false"/>
+        <pair id="DDI-DrugBank.d458.s25.p1"
+            e1="DDI-DrugBank.d458.s25.e0" e2="DDI-DrugBank.d458.s25.e2"
+            ddi="true" type="mechanism"/>
+        <pair id="DDI-DrugBank.d458.s25.p2"
+            e1="DDI-DrugBank.d458.s25.e1" e2="DDI-DrugBank.d458.s25.e2"
+            ddi="true" type="mechanism"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d458.s26" text="These drugs should not be given concomitantly."/>
+    <sentence id="DDI-DrugBank.d458.s27" text="After the coadministration of 200 mg oral ketoconazole twice daily and one 20 mg dose of loratadine to 11 subjects, the AUC and Cmax of loratadine averaged 302% (  142 S.D.) and 251% (  68 S.D.), respectively, of those obtained after co-treatment with placebo.">
+        <entity id="DDI-DrugBank.d458.s27.e0" charOffset="42-53"
+            type="drug" text="ketoconazole"/>
+        <entity id="DDI-DrugBank.d458.s27.e1" charOffset="89-98"
+            type="drug" text="loratadine"/>
+        <entity id="DDI-DrugBank.d458.s27.e2" charOffset="136-145"
+            type="drug" text="loratadine"/>
+        <pair id="DDI-DrugBank.d458.s27.p0"
+            e1="DDI-DrugBank.d458.s27.e0" e2="DDI-DrugBank.d458.s27.e1"
+            ddi="true" type="mechanism"/>
+        <pair id="DDI-DrugBank.d458.s27.p1"
+            e1="DDI-DrugBank.d458.s27.e0" e2="DDI-DrugBank.d458.s27.e2" ddi="false"/>
+        <pair id="DDI-DrugBank.d458.s27.p2"
+            e1="DDI-DrugBank.d458.s27.e1" e2="DDI-DrugBank.d458.s27.e2" ddi="false"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d458.s28" text="The AUC and Cmax of descarboethoxyloratadine, an active metabolite, averaged 155% (  27 S.D.) and 141% (  35 S.D.), respectively.">
+        <entity id="DDI-DrugBank.d458.s28.e0" charOffset="20-43"
+            type="drug_n" text="descarboethoxyloratadine"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d458.s29" text="However, no related changes were noted in the QT0 on ECG taken at 2, 6, and 24 hours after the coadministration."/>
+    <sentence id="DDI-DrugBank.d458.s30" text="Also, there were no clinically significant differences in adverse events when loratadine was administered with or without ketoconazole.">
+        <entity id="DDI-DrugBank.d458.s30.e0" charOffset="78-87"
+            type="drug" text="loratadine"/>
+        <entity id="DDI-DrugBank.d458.s30.e1" charOffset="122-133"
+            type="drug" text="ketoconazole"/>
+        <pair id="DDI-DrugBank.d458.s30.p0"
+            e1="DDI-DrugBank.d458.s30.e0" e2="DDI-DrugBank.d458.s30.e1" ddi="false"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d458.s31" text="Rare cases of a disulfiram-like reaction to alcohol have been reported.">
+        <entity id="DDI-DrugBank.d458.s31.e0" charOffset="44-50"
+            type="drug" text="alcohol"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d458.s32" text="These experiences have been characterized by flushing, rash, peripheral edema, nausea, and headache."/>
+    <sentence id="DDI-DrugBank.d458.s33" text="Symptoms resolved within a few hours."/>
+</document>

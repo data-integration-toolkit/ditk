@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="DDI-DrugBank.d100">
+    <sentence id="DDI-DrugBank.d100.s0" text="Increased nephrotoxicity has been reported following concomitant administration of cephalosporins and aminoglycoside antibiotics.">
+        <entity id="DDI-DrugBank.d100.s0.e0" charOffset="83-96"
+            type="group" text="cephalosporins"/>
+        <entity id="DDI-DrugBank.d100.s0.e1" charOffset="102-127"
+            type="group" text="aminoglycoside antibiotics"/>
+        <pair id="DDI-DrugBank.d100.s0.p0" e1="DDI-DrugBank.d100.s0.e0"
+            e2="DDI-DrugBank.d100.s0.e1" ddi="true" type="effect"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d100.s1" text="Drug/Laboratory Test Interactions Cephalosporins, including cefotaxime sodium, are known to occasionally induce a positive direct Coombs test.">
+        <entity id="DDI-DrugBank.d100.s1.e0" charOffset="34-47"
+            type="group" text="Cephalosporins"/>
+        <entity id="DDI-DrugBank.d100.s1.e1" charOffset="60-76"
+            type="drug" text="cefotaxime sodium"/>
+        <pair id="DDI-DrugBank.d100.s1.p0" e1="DDI-DrugBank.d100.s1.e0"
+            e2="DDI-DrugBank.d100.s1.e1" ddi="false"/>
+    </sentence>
+</document>

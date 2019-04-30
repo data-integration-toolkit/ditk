@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="DDI-DrugBank.d756">
+    <sentence id="DDI-DrugBank.d756.s0" text="Dosages of concomitantly administered opioids should be reduced by approximately half, because levomepromazine amplifies the therapeutic actions and side-effects of opioids. ">
+        <entity id="DDI-DrugBank.d756.s0.e0" charOffset="38-44"
+            type="group" text="opioids"/>
+        <entity id="DDI-DrugBank.d756.s0.e1" charOffset="95-109"
+            type="drug" text="levomepromazine"/>
+        <entity id="DDI-DrugBank.d756.s0.e2" charOffset="165-171"
+            type="group" text="opioids"/>
+        <pair id="DDI-DrugBank.d756.s0.p0" e1="DDI-DrugBank.d756.s0.e0"
+            e2="DDI-DrugBank.d756.s0.e1" ddi="true" type="effect"/>
+        <pair id="DDI-DrugBank.d756.s0.p1" e1="DDI-DrugBank.d756.s0.e0"
+            e2="DDI-DrugBank.d756.s0.e2" ddi="false"/>
+        <pair id="DDI-DrugBank.d756.s0.p2" e1="DDI-DrugBank.d756.s0.e1"
+            e2="DDI-DrugBank.d756.s0.e2" ddi="true" type="effect"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d756.s1" text="Combination with tramadol (Ultram) is associated with increased risk of seizures. ">
+        <entity id="DDI-DrugBank.d756.s1.e0" charOffset="17-24"
+            type="drug" text="tramadol"/>
+        <entity id="DDI-DrugBank.d756.s1.e1" charOffset="27-32"
+            type="brand" text="Ultram"/>
+        <pair id="DDI-DrugBank.d756.s1.p0" e1="DDI-DrugBank.d756.s1.e0"
+            e2="DDI-DrugBank.d756.s1.e1" ddi="false"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d756.s2" text="Additive sedative effects and confusional states may emerge if levomepromazine is given with benzodiazepines or barbiturates. ">
+        <entity id="DDI-DrugBank.d756.s2.e0" charOffset="63-77"
+            type="drug" text="levomepromazine"/>
+        <entity id="DDI-DrugBank.d756.s2.e1" charOffset="93-107"
+            type="group" text="benzodiazepines"/>
+        <entity id="DDI-DrugBank.d756.s2.e2" charOffset="112-123"
+            type="group" text="barbiturates"/>
+        <pair id="DDI-DrugBank.d756.s2.p0" e1="DDI-DrugBank.d756.s2.e0"
+            e2="DDI-DrugBank.d756.s2.e1" ddi="true" type="effect"/>
+        <pair id="DDI-DrugBank.d756.s2.p1" e1="DDI-DrugBank.d756.s2.e0"
+            e2="DDI-DrugBank.d756.s2.e2" ddi="true" type="effect"/>
+        <pair id="DDI-DrugBank.d756.s2.p2" e1="DDI-DrugBank.d756.s2.e1"
+            e2="DDI-DrugBank.d756.s2.e2" ddi="false"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d756.s3" text="This may be avoided by using the lowest dose possible with the substances in question. "/>
+    <sentence id="DDI-DrugBank.d756.s4" text="Exert particular caution in combining levomepromazine with other anticholinergic drugs (tricyclic antidepressants and antiparkinsonian-agents): Particularly the elderly may develop delirium, high fever, severe obstipation, even ileus and glaucoma. ">
+        <entity id="DDI-DrugBank.d756.s4.e0" charOffset="38-52"
+            type="drug" text="levomepromazine"/>
+        <entity id="DDI-DrugBank.d756.s4.e1" charOffset="65-85"
+            type="group" text="anticholinergic drugs"/>
+        <entity id="DDI-DrugBank.d756.s4.e2" charOffset="88-112"
+            type="group" text="tricyclic antidepressants"/>
+        <entity id="DDI-DrugBank.d756.s4.e3" charOffset="118-140"
+            type="group" text="antiparkinsonian-agents"/>
+        <pair id="DDI-DrugBank.d756.s4.p0" e1="DDI-DrugBank.d756.s4.e0"
+            e2="DDI-DrugBank.d756.s4.e1" ddi="true" type="advise"/>
+        <pair id="DDI-DrugBank.d756.s4.p1" e1="DDI-DrugBank.d756.s4.e0"
+            e2="DDI-DrugBank.d756.s4.e2" ddi="true" type="advise"/>
+        <pair id="DDI-DrugBank.d756.s4.p2" e1="DDI-DrugBank.d756.s4.e0"
+            e2="DDI-DrugBank.d756.s4.e3" ddi="true" type="advise"/>
+        <pair id="DDI-DrugBank.d756.s4.p3" e1="DDI-DrugBank.d756.s4.e1"
+            e2="DDI-DrugBank.d756.s4.e2" ddi="false"/>
+        <pair id="DDI-DrugBank.d756.s4.p4" e1="DDI-DrugBank.d756.s4.e1"
+            e2="DDI-DrugBank.d756.s4.e3" ddi="false"/>
+        <pair id="DDI-DrugBank.d756.s4.p5" e1="DDI-DrugBank.d756.s4.e2"
+            e2="DDI-DrugBank.d756.s4.e3" ddi="false"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d756.s5" text="Reduce both the dose of levomepromazine and the dose of the other drug. ">
+        <entity id="DDI-DrugBank.d756.s5.e0" charOffset="24-38"
+            type="drug" text="levomepromazine"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d756.s6" text="If possible, avoid such combinations. "/>
+    <sentence id="DDI-DrugBank.d756.s7" text="Caffeine and/or stimulantes of the ephedrine/amphetamine type may counteract the specific actions of levomepromazine. ">
+        <entity id="DDI-DrugBank.d756.s7.e0" charOffset="0-7"
+            type="drug" text="Caffeine"/>
+        <entity id="DDI-DrugBank.d756.s7.e1" charOffset="35-43"
+            type="drug" text="ephedrine"/>
+        <entity id="DDI-DrugBank.d756.s7.e2" charOffset="45-55"
+            type="drug" text="amphetamine"/>
+        <entity id="DDI-DrugBank.d756.s7.e3" charOffset="101-115"
+            type="drug" text="levomepromazine"/>
+        <pair id="DDI-DrugBank.d756.s7.p0" e1="DDI-DrugBank.d756.s7.e0"
+            e2="DDI-DrugBank.d756.s7.e1" ddi="false"/>
+        <pair id="DDI-DrugBank.d756.s7.p1" e1="DDI-DrugBank.d756.s7.e0"
+            e2="DDI-DrugBank.d756.s7.e2" ddi="false"/>
+        <pair id="DDI-DrugBank.d756.s7.p2" e1="DDI-DrugBank.d756.s7.e0"
+            e2="DDI-DrugBank.d756.s7.e3" ddi="true" type="effect"/>
+        <pair id="DDI-DrugBank.d756.s7.p3" e1="DDI-DrugBank.d756.s7.e1"
+            e2="DDI-DrugBank.d756.s7.e2" ddi="false"/>
+        <pair id="DDI-DrugBank.d756.s7.p4" e1="DDI-DrugBank.d756.s7.e1"
+            e2="DDI-DrugBank.d756.s7.e3" ddi="true" type="effect"/>
+        <pair id="DDI-DrugBank.d756.s7.p5" e1="DDI-DrugBank.d756.s7.e2"
+            e2="DDI-DrugBank.d756.s7.e3" ddi="true" type="effect"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d756.s8" text="Concomitant use of these substances should be avoided. "/>
+    <sentence id="DDI-DrugBank.d756.s9" text="Coffee and black tea should be avoided because they decrease the absorption of levomepromazine considerably. ">
+        <entity id="DDI-DrugBank.d756.s9.e0" charOffset="79-93"
+            type="drug" text="levomepromazine"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d756.s10" text="The same is true for antacids; ">
+        <entity id="DDI-DrugBank.d756.s10.e0" charOffset="21-28"
+            type="group" text="antacids"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d756.s11" text="these should be given 1 to 2 hours before or after oral administration of leveomepromazine.">
+        <entity id="DDI-DrugBank.d756.s11.e0" charOffset="74-89"
+            type="drug" text="leveomepromazine"/>
+    </sentence>
+</document>

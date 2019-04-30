@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="DDI-MedLine.d86">
+    <sentence id="DDI-MedLine.d86.s0" text="Pharmacokinetic interaction between single oral doses of diltiazem and sirolimus in healthy volunteers.&#xd;&#xa;">
+        <entity id="DDI-MedLine.d86.s0.e0" charOffset="57-65"
+            type="drug" text="diltiazem"/>
+        <entity id="DDI-MedLine.d86.s0.e1" charOffset="71-79"
+            type="drug" text="sirolimus"/>
+        <pair id="DDI-MedLine.d86.s0.p0" e1="DDI-MedLine.d86.s0.e0"
+            e2="DDI-MedLine.d86.s0.e1" ddi="true" type="mechanism"/>
+    </sentence>
+    <sentence id="DDI-MedLine.d86.s1" text="AIM AND BACKGROUND: The pharmacokinetic interaction between sirolimus, a macrolide immunosuppressant metabolized by CYP3A4, and the calcium channel blocker diltiazem was studied in 18 healthy subjects. ">
+        <entity id="DDI-MedLine.d86.s1.e0" charOffset="60-68"
+            type="drug" text="sirolimus"/>
+        <entity id="DDI-MedLine.d86.s1.e1" charOffset="73-99"
+            type="group" text="macrolide immunosuppressant"/>
+        <entity id="DDI-MedLine.d86.s1.e2" charOffset="132-154"
+            type="group" text="calcium channel blocker"/>
+        <entity id="DDI-MedLine.d86.s1.e3" charOffset="156-164"
+            type="drug" text="diltiazem"/>
+        <pair id="DDI-MedLine.d86.s1.p0" e1="DDI-MedLine.d86.s1.e0"
+            e2="DDI-MedLine.d86.s1.e1" ddi="false"/>
+        <pair id="DDI-MedLine.d86.s1.p1" e1="DDI-MedLine.d86.s1.e0"
+            e2="DDI-MedLine.d86.s1.e2" ddi="false"/>
+        <pair id="DDI-MedLine.d86.s1.p2" e1="DDI-MedLine.d86.s1.e0"
+            e2="DDI-MedLine.d86.s1.e3" ddi="false"/>
+        <pair id="DDI-MedLine.d86.s1.p3" e1="DDI-MedLine.d86.s1.e1"
+            e2="DDI-MedLine.d86.s1.e2" ddi="false"/>
+        <pair id="DDI-MedLine.d86.s1.p4" e1="DDI-MedLine.d86.s1.e1"
+            e2="DDI-MedLine.d86.s1.e3" ddi="false"/>
+        <pair id="DDI-MedLine.d86.s1.p5" e1="DDI-MedLine.d86.s1.e2"
+            e2="DDI-MedLine.d86.s1.e3" ddi="false"/>
+    </sentence>
+    <sentence id="DDI-MedLine.d86.s2" text="Several clinically important interactions have previously been reported for other immunosuppressive drugs that are metabolized by the same enzyme and for calcium antagonists. ">
+        <entity id="DDI-MedLine.d86.s2.e0" charOffset="82-104"
+            type="group" text="immunosuppressive drugs"/>
+        <entity id="DDI-MedLine.d86.s2.e1" charOffset="154-172"
+            type="group" text="calcium antagonists"/>
+        <pair id="DDI-MedLine.d86.s2.p0" e1="DDI-MedLine.d86.s2.e0"
+            e2="DDI-MedLine.d86.s2.e1" ddi="false"/>
+    </sentence>
+    <sentence id="DDI-MedLine.d86.s3" text="METHODS: Healthy subjects who were 20 to 43 years old participated in an open, three-period, randomized, crossover study of the pharmacokinetics of a single 10-mg oral dose of sirolimus, a single oral 120-mg dose of diltiazem, and the two drugs given together. ">
+        <entity id="DDI-MedLine.d86.s3.e0" charOffset="176-184"
+            type="drug" text="sirolimus"/>
+        <entity id="DDI-MedLine.d86.s3.e1" charOffset="216-224"
+            type="drug" text="diltiazem"/>
+        <pair id="DDI-MedLine.d86.s3.p0" e1="DDI-MedLine.d86.s3.e0"
+            e2="DDI-MedLine.d86.s3.e1" ddi="false"/>
+    </sentence>
+    <sentence id="DDI-MedLine.d86.s4" text="The three study periods were separated by a 21-day washout phase. "/>
+    <sentence id="DDI-MedLine.d86.s5" text="RESULTS: The geometric mean (90% confidence interval) whole blood sirolimus area under the plasma concentration time-curve increased 60% (35%-90%), from 736 to 1178 ng x h/mL, and maximum concentration increased 43% (14%-81%), from 67 to 96 ng/mL, with diltiazem coadministration, whereas the mean elimination half-life of sirolimus decreased slightly, from 79 to 67 hours. ">
+        <entity id="DDI-MedLine.d86.s5.e0" charOffset="66-74"
+            type="drug" text="sirolimus"/>
+        <entity id="DDI-MedLine.d86.s5.e1" charOffset="253-261"
+            type="drug" text="diltiazem"/>
+        <entity id="DDI-MedLine.d86.s5.e2" charOffset="323-331"
+            type="drug" text="sirolimus"/>
+        <pair id="DDI-MedLine.d86.s5.p0" e1="DDI-MedLine.d86.s5.e0"
+            e2="DDI-MedLine.d86.s5.e1" ddi="true" type="mechanism"/>
+        <pair id="DDI-MedLine.d86.s5.p1" e1="DDI-MedLine.d86.s5.e0"
+            e2="DDI-MedLine.d86.s5.e2" ddi="false"/>
+        <pair id="DDI-MedLine.d86.s5.p2" e1="DDI-MedLine.d86.s5.e1"
+            e2="DDI-MedLine.d86.s5.e2" ddi="false"/>
+    </sentence>
+    <sentence id="DDI-MedLine.d86.s6" text="Apparent oral clearance and volume of distribution of sirolimus decreased with 38% and 45%, respectively, when sirolimus was given with diltiazem. ">
+        <entity id="DDI-MedLine.d86.s6.e0" charOffset="54-62"
+            type="drug" text="sirolimus"/>
+        <entity id="DDI-MedLine.d86.s6.e1" charOffset="111-119"
+            type="drug" text="sirolimus"/>
+        <entity id="DDI-MedLine.d86.s6.e2" charOffset="136-144"
+            type="drug" text="diltiazem"/>
+        <pair id="DDI-MedLine.d86.s6.p0" e1="DDI-MedLine.d86.s6.e0"
+            e2="DDI-MedLine.d86.s6.e1" ddi="false"/>
+        <pair id="DDI-MedLine.d86.s6.p1" e1="DDI-MedLine.d86.s6.e0"
+            e2="DDI-MedLine.d86.s6.e2" ddi="false"/>
+        <pair id="DDI-MedLine.d86.s6.p2" e1="DDI-MedLine.d86.s6.e1"
+            e2="DDI-MedLine.d86.s6.e2" ddi="true" type="mechanism"/>
+    </sentence>
+    <sentence id="DDI-MedLine.d86.s7" text="The plasma maximum concentration and area under the plasma concentration-time curve of diltiazem, desacetyldiltiazem, and desmethyldiltiazem were unchanged after coadministration of sirolimus, and no potentiation of the effects of diltiazem on diastolic or systolic blood pressure or on the electrocardiographic parameters was seen. ">
+        <entity id="DDI-MedLine.d86.s7.e0" charOffset="87-95"
+            type="drug" text="diltiazem"/>
+        <entity id="DDI-MedLine.d86.s7.e1" charOffset="98-115"
+            type="drug_n" text="desacetyldiltiazem"/>
+        <entity id="DDI-MedLine.d86.s7.e2" charOffset="122-139"
+            type="drug_n" text="desmethyldiltiazem"/>
+        <entity id="DDI-MedLine.d86.s7.e3" charOffset="182-190"
+            type="drug" text="sirolimus"/>
+        <entity id="DDI-MedLine.d86.s7.e4" charOffset="231-239"
+            type="drug" text="diltiazem"/>
+        <pair id="DDI-MedLine.d86.s7.p0" e1="DDI-MedLine.d86.s7.e0"
+            e2="DDI-MedLine.d86.s7.e1" ddi="false"/>
+        <pair id="DDI-MedLine.d86.s7.p1" e1="DDI-MedLine.d86.s7.e0"
+            e2="DDI-MedLine.d86.s7.e2" ddi="false"/>
+        <pair id="DDI-MedLine.d86.s7.p2" e1="DDI-MedLine.d86.s7.e0"
+            e2="DDI-MedLine.d86.s7.e3" ddi="false"/>
+        <pair id="DDI-MedLine.d86.s7.p3" e1="DDI-MedLine.d86.s7.e0"
+            e2="DDI-MedLine.d86.s7.e4" ddi="false"/>
+        <pair id="DDI-MedLine.d86.s7.p4" e1="DDI-MedLine.d86.s7.e1"
+            e2="DDI-MedLine.d86.s7.e2" ddi="false"/>
+        <pair id="DDI-MedLine.d86.s7.p5" e1="DDI-MedLine.d86.s7.e1"
+            e2="DDI-MedLine.d86.s7.e3" ddi="false"/>
+        <pair id="DDI-MedLine.d86.s7.p6" e1="DDI-MedLine.d86.s7.e1"
+            e2="DDI-MedLine.d86.s7.e4" ddi="false"/>
+        <pair id="DDI-MedLine.d86.s7.p7" e1="DDI-MedLine.d86.s7.e2"
+            e2="DDI-MedLine.d86.s7.e3" ddi="false"/>
+        <pair id="DDI-MedLine.d86.s7.p8" e1="DDI-MedLine.d86.s7.e2"
+            e2="DDI-MedLine.d86.s7.e4" ddi="false"/>
+        <pair id="DDI-MedLine.d86.s7.p9" e1="DDI-MedLine.d86.s7.e3"
+            e2="DDI-MedLine.d86.s7.e4" ddi="false"/>
+    </sentence>
+    <sentence id="DDI-MedLine.d86.s8" text="CONCLUSIONS: Single-dose diltiazem coadministration leads to higher sirolimus exposure, presumably by inhibition of the first-pass metabolism of sirolimus. ">
+        <entity id="DDI-MedLine.d86.s8.e0" charOffset="25-33"
+            type="drug" text="diltiazem"/>
+        <entity id="DDI-MedLine.d86.s8.e1" charOffset="68-76"
+            type="drug" text="sirolimus"/>
+        <entity id="DDI-MedLine.d86.s8.e2" charOffset="145-153"
+            type="drug" text="sirolimus"/>
+        <pair id="DDI-MedLine.d86.s8.p0" e1="DDI-MedLine.d86.s8.e0"
+            e2="DDI-MedLine.d86.s8.e1" ddi="true" type="mechanism"/>
+        <pair id="DDI-MedLine.d86.s8.p1" e1="DDI-MedLine.d86.s8.e0"
+            e2="DDI-MedLine.d86.s8.e2" ddi="false"/>
+        <pair id="DDI-MedLine.d86.s8.p2" e1="DDI-MedLine.d86.s8.e1"
+            e2="DDI-MedLine.d86.s8.e2" ddi="false"/>
+    </sentence>
+    <sentence id="DDI-MedLine.d86.s9" text="Because of the pronounced intersubject variability in the extent of the sirolimus-diltiazem interaction, whole blood sirolimus concentrations should be monitored closely in patients treated with the two drugs.">
+        <entity id="DDI-MedLine.d86.s9.e0" charOffset="72-80"
+            type="drug" text="sirolimus"/>
+        <entity id="DDI-MedLine.d86.s9.e1" charOffset="82-90"
+            type="drug" text="diltiazem"/>
+        <entity id="DDI-MedLine.d86.s9.e2" charOffset="117-125"
+            type="drug" text="sirolimus"/>
+        <pair id="DDI-MedLine.d86.s9.p0" e1="DDI-MedLine.d86.s9.e0"
+            e2="DDI-MedLine.d86.s9.e1" ddi="true" type="advise"/>
+        <pair id="DDI-MedLine.d86.s9.p1" e1="DDI-MedLine.d86.s9.e0"
+            e2="DDI-MedLine.d86.s9.e2" ddi="false"/>
+        <pair id="DDI-MedLine.d86.s9.p2" e1="DDI-MedLine.d86.s9.e1"
+            e2="DDI-MedLine.d86.s9.e2" ddi="false"/>
+    </sentence>
+</document>

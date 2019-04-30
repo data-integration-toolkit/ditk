@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="DDI-DrugBank.d133">
+    <sentence id="DDI-DrugBank.d133.s0" text="Co-administration of BOTOX and aminoglycosides or other agents interfering with neuromuscular transmission (e.g., curare-like compounds) should only be performed with caution as the effect of the toxin may be potentiated.">
+        <entity id="DDI-DrugBank.d133.s0.e0" charOffset="21-25"
+            type="brand" text="BOTOX"/>
+        <entity id="DDI-DrugBank.d133.s0.e1" charOffset="31-45"
+            type="group" text="aminoglycosides"/>
+        <entity id="DDI-DrugBank.d133.s0.e2" charOffset="114-134"
+            type="group" text="curare-like compounds"/>
+        <entity id="DDI-DrugBank.d133.s0.e3" charOffset="196-200"
+            type="drug" text="toxin"/>
+        <pair id="DDI-DrugBank.d133.s0.p0" e1="DDI-DrugBank.d133.s0.e0"
+            e2="DDI-DrugBank.d133.s0.e1" ddi="true" type="advise"/>
+        <pair id="DDI-DrugBank.d133.s0.p1" e1="DDI-DrugBank.d133.s0.e0"
+            e2="DDI-DrugBank.d133.s0.e2" ddi="true" type="advise"/>
+        <pair id="DDI-DrugBank.d133.s0.p2" e1="DDI-DrugBank.d133.s0.e0"
+            e2="DDI-DrugBank.d133.s0.e3" ddi="false"/>
+        <pair id="DDI-DrugBank.d133.s0.p3" e1="DDI-DrugBank.d133.s0.e1"
+            e2="DDI-DrugBank.d133.s0.e2" ddi="false"/>
+        <pair id="DDI-DrugBank.d133.s0.p4" e1="DDI-DrugBank.d133.s0.e1"
+            e2="DDI-DrugBank.d133.s0.e3" ddi="false"/>
+        <pair id="DDI-DrugBank.d133.s0.p5" e1="DDI-DrugBank.d133.s0.e2"
+            e2="DDI-DrugBank.d133.s0.e3" ddi="false"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d133.s1" text="The effect of administering different botulinum neurotoxin serotypes at the same time or within several months of each other is unknown.">
+        <entity id="DDI-DrugBank.d133.s1.e0" charOffset="38-57"
+            type="group" text="botulinum neurotoxin"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d133.s2" text="Excessive neuromuscular weakness may be exacerbated by administration of another botulinum toxin prior to the resolution of the effects of a previously administered botulinum toxin.">
+        <entity id="DDI-DrugBank.d133.s2.e0" charOffset="81-95"
+            type="group" text="botulinum toxin"/>
+        <entity id="DDI-DrugBank.d133.s2.e1" charOffset="165-179"
+            type="group" text="botulinum toxin"/>
+        <pair id="DDI-DrugBank.d133.s2.p0" e1="DDI-DrugBank.d133.s2.e0"
+            e2="DDI-DrugBank.d133.s2.e1" ddi="true" type="effect"/>
+    </sentence>
+</document>

@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="DDI-DrugBank.d650">
+    <sentence id="DDI-DrugBank.d650.s0" text="Dopamine antagonists, such as the neuroleptics (phenothiazines, butyrophenones, thioxanthines ) or metoclopramide, ordinarily should not be administered concurrently with Permax (a dopamine agonist); ">
+        <entity id="DDI-DrugBank.d650.s0.e0" charOffset="0-19"
+            type="group" text="Dopamine antagonists"/>
+        <entity id="DDI-DrugBank.d650.s0.e1" charOffset="34-45"
+            type="group" text="neuroleptics"/>
+        <entity id="DDI-DrugBank.d650.s0.e2" charOffset="48-61"
+            type="group" text="phenothiazines"/>
+        <entity id="DDI-DrugBank.d650.s0.e3" charOffset="64-77"
+            type="group" text="butyrophenones"/>
+        <entity id="DDI-DrugBank.d650.s0.e4" charOffset="80-92"
+            type="group" text="thioxanthines"/>
+        <entity id="DDI-DrugBank.d650.s0.e5" charOffset="99-112"
+            type="drug" text="metoclopramide"/>
+        <entity id="DDI-DrugBank.d650.s0.e6" charOffset="171-176"
+            type="brand" text="Permax"/>
+        <entity id="DDI-DrugBank.d650.s0.e7" charOffset="181-196"
+            type="group" text="dopamine agonist"/>
+        <pair id="DDI-DrugBank.d650.s0.p0" e1="DDI-DrugBank.d650.s0.e0"
+            e2="DDI-DrugBank.d650.s0.e1" ddi="false"/>
+        <pair id="DDI-DrugBank.d650.s0.p1" e1="DDI-DrugBank.d650.s0.e0"
+            e2="DDI-DrugBank.d650.s0.e2" ddi="false"/>
+        <pair id="DDI-DrugBank.d650.s0.p2" e1="DDI-DrugBank.d650.s0.e0"
+            e2="DDI-DrugBank.d650.s0.e3" ddi="false"/>
+        <pair id="DDI-DrugBank.d650.s0.p3" e1="DDI-DrugBank.d650.s0.e0"
+            e2="DDI-DrugBank.d650.s0.e4" ddi="false"/>
+        <pair id="DDI-DrugBank.d650.s0.p4" e1="DDI-DrugBank.d650.s0.e0"
+            e2="DDI-DrugBank.d650.s0.e5" ddi="false"/>
+        <pair id="DDI-DrugBank.d650.s0.p5" e1="DDI-DrugBank.d650.s0.e0"
+            e2="DDI-DrugBank.d650.s0.e6" ddi="true" type="advise"/>
+        <pair id="DDI-DrugBank.d650.s0.p6" e1="DDI-DrugBank.d650.s0.e0"
+            e2="DDI-DrugBank.d650.s0.e7" ddi="false"/>
+        <pair id="DDI-DrugBank.d650.s0.p7" e1="DDI-DrugBank.d650.s0.e1"
+            e2="DDI-DrugBank.d650.s0.e2" ddi="false"/>
+        <pair id="DDI-DrugBank.d650.s0.p8" e1="DDI-DrugBank.d650.s0.e1"
+            e2="DDI-DrugBank.d650.s0.e3" ddi="false"/>
+        <pair id="DDI-DrugBank.d650.s0.p9" e1="DDI-DrugBank.d650.s0.e1"
+            e2="DDI-DrugBank.d650.s0.e4" ddi="false"/>
+        <pair id="DDI-DrugBank.d650.s0.p10" e1="DDI-DrugBank.d650.s0.e1"
+            e2="DDI-DrugBank.d650.s0.e5" ddi="false"/>
+        <pair id="DDI-DrugBank.d650.s0.p11" e1="DDI-DrugBank.d650.s0.e1"
+            e2="DDI-DrugBank.d650.s0.e6" ddi="true" type="advise"/>
+        <pair id="DDI-DrugBank.d650.s0.p12" e1="DDI-DrugBank.d650.s0.e1"
+            e2="DDI-DrugBank.d650.s0.e7" ddi="false"/>
+        <pair id="DDI-DrugBank.d650.s0.p13" e1="DDI-DrugBank.d650.s0.e2"
+            e2="DDI-DrugBank.d650.s0.e3" ddi="false"/>
+        <pair id="DDI-DrugBank.d650.s0.p14" e1="DDI-DrugBank.d650.s0.e2"
+            e2="DDI-DrugBank.d650.s0.e4" ddi="false"/>
+        <pair id="DDI-DrugBank.d650.s0.p15" e1="DDI-DrugBank.d650.s0.e2"
+            e2="DDI-DrugBank.d650.s0.e5" ddi="false"/>
+        <pair id="DDI-DrugBank.d650.s0.p16" e1="DDI-DrugBank.d650.s0.e2"
+            e2="DDI-DrugBank.d650.s0.e6" ddi="true" type="advise"/>
+        <pair id="DDI-DrugBank.d650.s0.p17" e1="DDI-DrugBank.d650.s0.e2"
+            e2="DDI-DrugBank.d650.s0.e7" ddi="false"/>
+        <pair id="DDI-DrugBank.d650.s0.p18" e1="DDI-DrugBank.d650.s0.e3"
+            e2="DDI-DrugBank.d650.s0.e4" ddi="false"/>
+        <pair id="DDI-DrugBank.d650.s0.p19" e1="DDI-DrugBank.d650.s0.e3"
+            e2="DDI-DrugBank.d650.s0.e5" ddi="false"/>
+        <pair id="DDI-DrugBank.d650.s0.p20" e1="DDI-DrugBank.d650.s0.e3"
+            e2="DDI-DrugBank.d650.s0.e6" ddi="true" type="advise"/>
+        <pair id="DDI-DrugBank.d650.s0.p21" e1="DDI-DrugBank.d650.s0.e3"
+            e2="DDI-DrugBank.d650.s0.e7" ddi="false"/>
+        <pair id="DDI-DrugBank.d650.s0.p22" e1="DDI-DrugBank.d650.s0.e4"
+            e2="DDI-DrugBank.d650.s0.e5" ddi="false"/>
+        <pair id="DDI-DrugBank.d650.s0.p23" e1="DDI-DrugBank.d650.s0.e4"
+            e2="DDI-DrugBank.d650.s0.e6" ddi="true" type="advise"/>
+        <pair id="DDI-DrugBank.d650.s0.p24" e1="DDI-DrugBank.d650.s0.e4"
+            e2="DDI-DrugBank.d650.s0.e7" ddi="false"/>
+        <pair id="DDI-DrugBank.d650.s0.p25" e1="DDI-DrugBank.d650.s0.e5"
+            e2="DDI-DrugBank.d650.s0.e6" ddi="true" type="advise"/>
+        <pair id="DDI-DrugBank.d650.s0.p26" e1="DDI-DrugBank.d650.s0.e5"
+            e2="DDI-DrugBank.d650.s0.e7" ddi="false"/>
+        <pair id="DDI-DrugBank.d650.s0.p27" e1="DDI-DrugBank.d650.s0.e6"
+            e2="DDI-DrugBank.d650.s0.e7" ddi="false"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d650.s1" text="these agents may diminish the effectiveness of Permax. ">
+        <entity id="DDI-DrugBank.d650.s1.e0" charOffset="47-52"
+            type="brand" text="Permax"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d650.s2" text="Because pergolide mesylate is approximately 90% bound to plasma proteins, caution should be exercised if pergolide mesylate is coadministered with other drugs known to affect protein binding.">
+        <entity id="DDI-DrugBank.d650.s2.e0" charOffset="8-25"
+            type="drug" text="pergolide mesylate"/>
+        <entity id="DDI-DrugBank.d650.s2.e1" charOffset="105-122"
+            type="drug" text="pergolide mesylate"/>
+        <pair id="DDI-DrugBank.d650.s2.p0" e1="DDI-DrugBank.d650.s2.e0"
+            e2="DDI-DrugBank.d650.s2.e1" ddi="false"/>
+    </sentence>
+</document>
