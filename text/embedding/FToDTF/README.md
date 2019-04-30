@@ -1,5 +1,6 @@
 # FToDTF - FastText on Distributed TensorFlow
-This software is an implementation of FastText on Distributed Tensorflow. This project is a re-factored version of an already impelemented project present at https://github.com/dbaumgarten/FToDTF.  FToDTF uses unsupervised machine-learning to calculate vector-representation of words. These vector representations can then be used for things like computing the similarity of words to each other or association-rules (e.g. paris is to france like X to germany).
+This software is an implementation of FastText on Distributed Tensorflow. This project is a re-factored version of an already impelemented project present at https://github.com/dbaumgarten/FToDTF.  
+FToDTF uses unsupervised machine-learning algorithm to calculate vector-representation of words. These vector representations can then be used for things like computing the similarity of words to each other or association-rules (e.g. paris is to france like X to germany).
 In contrast to the original implementation of fasttext (https://github.com/facebookresearch/fastText) this implementation can use GPUs to accelerate the training and the training can be distributed across multiple nodes.
 
 
@@ -19,19 +20,12 @@ Output: Word/Sentence Embeddings
 Each word represented as a bag of character n-grams with special boundary symbols < and >. Associate a vector representation zg to each n-gram g.  Represent a word by the sum of the vector representations of its n-grams. Use a hashing function to bound memory requirements that maps n-grams to integers in 1 to K. Ultimately, a word is represented by its index in the word dictionary and the set of hashed n-grams it contains - Fowler-Noll-Vo hashing function. The scoring function –
 
 ### Installation & Working
-Requires Python 3.5+ to run. 
-Use  this command to clone the repo. 
-
-```sh
-git clone 
-```
-
-Use to install the requirements.
+Requires Python 3.5+ to run. Clone the repository and use this command to install the requirements.
 ```sh
 python setup.py install
 ```
 * All the code created as part of the re-factored module is present in FToDTF/fasttext.py and can be run using FToDTF/main.py. 
-* It follows the parent class template in ______________________________. 
+* It follows the parent class template in FToDTF/text_embedding.py. 
 * All the models for the benchmark datasets can be found in FToDTF/ models folder.
 * All the datasets can be found in the FToDTF/data folder. 
 * The variable 'modelpath' in the code is the path where you want the checkpoints of previously trained model can be saved and can be modified based on user's requirement.  
