@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="DDI-DrugBank.d530">
+    <sentence id="DDI-DrugBank.d530.s0" text="Non-selective monoamine oxidase (MAO) inhibitors - including phenelzine sulfate, tranylcypromine sulfate and pargyline HC1.">
+        <entity id="DDI-DrugBank.d530.s0.e0" charOffset="0-47"
+            type="group" text="Non-selective monoamine oxidase (MAO) inhibitors"/>
+        <entity id="DDI-DrugBank.d530.s0.e1" charOffset="61-78"
+            type="drug" text="phenelzine sulfate"/>
+        <entity id="DDI-DrugBank.d530.s0.e2" charOffset="81-103"
+            type="drug" text="tranylcypromine sulfate"/>
+        <entity id="DDI-DrugBank.d530.s0.e3" charOffset="109-117"
+            type="drug" text="pargyline"/>
+        <pair id="DDI-DrugBank.d530.s0.p0" e1="DDI-DrugBank.d530.s0.e0"
+            e2="DDI-DrugBank.d530.s0.e1" ddi="false"/>
+        <pair id="DDI-DrugBank.d530.s0.p1" e1="DDI-DrugBank.d530.s0.e0"
+            e2="DDI-DrugBank.d530.s0.e2" ddi="false"/>
+        <pair id="DDI-DrugBank.d530.s0.p2" e1="DDI-DrugBank.d530.s0.e0"
+            e2="DDI-DrugBank.d530.s0.e3" ddi="false"/>
+        <pair id="DDI-DrugBank.d530.s0.p3" e1="DDI-DrugBank.d530.s0.e1"
+            e2="DDI-DrugBank.d530.s0.e2" ddi="false"/>
+        <pair id="DDI-DrugBank.d530.s0.p4" e1="DDI-DrugBank.d530.s0.e1"
+            e2="DDI-DrugBank.d530.s0.e3" ddi="false"/>
+        <pair id="DDI-DrugBank.d530.s0.p5" e1="DDI-DrugBank.d530.s0.e2"
+            e2="DDI-DrugBank.d530.s0.e3" ddi="false"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d530.s1" text="Concomitant use of L-phenylalanine and non-selective MAO inhibitors may cause hypertension.">
+        <entity id="DDI-DrugBank.d530.s1.e0" charOffset="19-33"
+            type="drug" text="L-phenylalanine"/>
+        <entity id="DDI-DrugBank.d530.s1.e1" charOffset="39-66"
+            type="group" text="non-selective MAO inhibitors"/>
+        <pair id="DDI-DrugBank.d530.s1.p0" e1="DDI-DrugBank.d530.s1.e0"
+            e2="DDI-DrugBank.d530.s1.e1" ddi="true" type="effect"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d530.s2" text="Selegiline - L-phenylalanine and the selective MAO inhibitor selegiline may have synergistic antidepressant activity if used concomitantly.">
+        <entity id="DDI-DrugBank.d530.s2.e0" charOffset="0-9"
+            type="drug" text="Selegiline"/>
+        <entity id="DDI-DrugBank.d530.s2.e1" charOffset="13-27"
+            type="drug" text="L-phenylalanine"/>
+        <entity id="DDI-DrugBank.d530.s2.e2" charOffset="37-59"
+            type="group" text="selective MAO inhibitor"/>
+        <entity id="DDI-DrugBank.d530.s2.e3" charOffset="61-70"
+            type="drug" text="selegiline"/>
+        <pair id="DDI-DrugBank.d530.s2.p0" e1="DDI-DrugBank.d530.s2.e0"
+            e2="DDI-DrugBank.d530.s2.e1" ddi="false"/>
+        <pair id="DDI-DrugBank.d530.s2.p1" e1="DDI-DrugBank.d530.s2.e0"
+            e2="DDI-DrugBank.d530.s2.e2" ddi="false"/>
+        <pair id="DDI-DrugBank.d530.s2.p2" e1="DDI-DrugBank.d530.s2.e0"
+            e2="DDI-DrugBank.d530.s2.e3" ddi="false"/>
+        <pair id="DDI-DrugBank.d530.s2.p3" e1="DDI-DrugBank.d530.s2.e1"
+            e2="DDI-DrugBank.d530.s2.e2" ddi="false"/>
+        <pair id="DDI-DrugBank.d530.s2.p4" e1="DDI-DrugBank.d530.s2.e1"
+            e2="DDI-DrugBank.d530.s2.e3" ddi="true" type="effect"/>
+        <pair id="DDI-DrugBank.d530.s2.p5" e1="DDI-DrugBank.d530.s2.e2"
+            e2="DDI-DrugBank.d530.s2.e3" ddi="false"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d530.s3" text="Neuroleptic Drugs - L-phenylalanine may potentiate the tardive dyskinesia side reactions of neuroleptic drugs if used concomitantly with them.">
+        <entity id="DDI-DrugBank.d530.s3.e0" charOffset="0-16"
+            type="group" text="Neuroleptic Drugs"/>
+        <entity id="DDI-DrugBank.d530.s3.e1" charOffset="20-34"
+            type="drug" text="L-phenylalanine"/>
+        <entity id="DDI-DrugBank.d530.s3.e2" charOffset="92-108"
+            type="group" text="neuroleptic drugs"/>
+        <pair id="DDI-DrugBank.d530.s3.p0" e1="DDI-DrugBank.d530.s3.e0"
+            e2="DDI-DrugBank.d530.s3.e1" ddi="true" type="effect"/>
+        <pair id="DDI-DrugBank.d530.s3.p1" e1="DDI-DrugBank.d530.s3.e0"
+            e2="DDI-DrugBank.d530.s3.e2" ddi="false"/>
+        <pair id="DDI-DrugBank.d530.s3.p2" e1="DDI-DrugBank.d530.s3.e1"
+            e2="DDI-DrugBank.d530.s3.e2" ddi="false"/>
+    </sentence>
+</document>

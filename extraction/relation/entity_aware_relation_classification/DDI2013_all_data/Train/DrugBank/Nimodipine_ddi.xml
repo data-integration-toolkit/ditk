@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="DDI-DrugBank.d310">
+    <sentence id="DDI-DrugBank.d310.s0" text="It is possible that the cardiovascular action of other calcium channel blockers could be enhanced by the addition of Nimotop .">
+        <entity id="DDI-DrugBank.d310.s0.e0" charOffset="55-78"
+            type="group" text="calcium channel blockers"/>
+        <entity id="DDI-DrugBank.d310.s0.e1" charOffset="117-123"
+            type="brand" text="Nimotop"/>
+        <pair id="DDI-DrugBank.d310.s0.p0" e1="DDI-DrugBank.d310.s0.e0"
+            e2="DDI-DrugBank.d310.s0.e1" ddi="true" type="effect"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d310.s1" text="In Europe, Nimotop  was observed to occasionally intensify the effect of antihypertensive compounds taken concomitantly by patients suffering from hypertension;">
+        <entity id="DDI-DrugBank.d310.s1.e0" charOffset="11-17"
+            type="brand" text="Nimotop"/>
+        <entity id="DDI-DrugBank.d310.s1.e1" charOffset="73-98"
+            type="group" text="antihypertensive compounds"/>
+        <pair id="DDI-DrugBank.d310.s1.p0" e1="DDI-DrugBank.d310.s1.e0"
+            e2="DDI-DrugBank.d310.s1.e1" ddi="true" type="effect"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d310.s2" text="this phenomenon was not observed in North American clinical trials."/>
+    <sentence id="DDI-DrugBank.d310.s3" text="A study in eight healthy volunteers has shown a 50% increase in mean peak nimodipine plasma concentrations and a 90% increase in mean area under the curve, after a one week course of cimetidine at 1,000 mg/day and nimodipine at 90 mg/day.">
+        <entity id="DDI-DrugBank.d310.s3.e0" charOffset="74-83"
+            type="drug" text="nimodipine"/>
+        <entity id="DDI-DrugBank.d310.s3.e1" charOffset="183-192"
+            type="drug" text="cimetidine"/>
+        <entity id="DDI-DrugBank.d310.s3.e2" charOffset="214-223"
+            type="drug" text="nimodipine"/>
+        <pair id="DDI-DrugBank.d310.s3.p0" e1="DDI-DrugBank.d310.s3.e0"
+            e2="DDI-DrugBank.d310.s3.e1" ddi="false"/>
+        <pair id="DDI-DrugBank.d310.s3.p1" e1="DDI-DrugBank.d310.s3.e0"
+            e2="DDI-DrugBank.d310.s3.e2" ddi="false"/>
+        <pair id="DDI-DrugBank.d310.s3.p2" e1="DDI-DrugBank.d310.s3.e1"
+            e2="DDI-DrugBank.d310.s3.e2" ddi="true" type="mechanism"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d310.s4" text="This effect may be mediated by the known inhibition of hepatic cytochrome P- 450 by cimetidine, which could decrease first pass metabolism of nimodipine.">
+        <entity id="DDI-DrugBank.d310.s4.e0" charOffset="84-93"
+            type="drug" text="cimetidine"/>
+        <entity id="DDI-DrugBank.d310.s4.e1" charOffset="142-151"
+            type="drug" text="nimodipine"/>
+        <pair id="DDI-DrugBank.d310.s4.p0" e1="DDI-DrugBank.d310.s4.e0"
+            e2="DDI-DrugBank.d310.s4.e1" ddi="false"/>
+    </sentence>
+</document>

@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="DDI-DrugBank.d293">
+    <sentence id="DDI-DrugBank.d293.s0" text="May interact with thyroid medication (e.g., levothyroxine), iodine-containing products, antacids, H2-antagonists (e.g., famotidine, ranitidine), and proton pump inhibitors (e.g., lansoprazole, omeprazole).">
+        <entity id="DDI-DrugBank.d293.s0.e0" charOffset="44-56"
+            type="drug" text="levothyroxine"/>
+        <entity id="DDI-DrugBank.d293.s0.e1" charOffset="60-65"
+            type="drug" text="iodine"/>
+        <entity id="DDI-DrugBank.d293.s0.e2" charOffset="88-95"
+            type="group" text="antacids"/>
+        <entity id="DDI-DrugBank.d293.s0.e3" charOffset="98-111"
+            type="group" text="H2-antagonists"/>
+        <entity id="DDI-DrugBank.d293.s0.e4" charOffset="120-129"
+            type="drug" text="famotidine"/>
+        <entity id="DDI-DrugBank.d293.s0.e5" charOffset="132-141"
+            type="drug" text="ranitidine"/>
+        <entity id="DDI-DrugBank.d293.s0.e6" charOffset="149-170"
+            type="group" text="proton pump inhibitors"/>
+        <entity id="DDI-DrugBank.d293.s0.e7" charOffset="179-190"
+            type="drug" text="lansoprazole"/>
+        <entity id="DDI-DrugBank.d293.s0.e8" charOffset="193-202"
+            type="drug" text="omeprazole"/>
+        <pair id="DDI-DrugBank.d293.s0.p0" e1="DDI-DrugBank.d293.s0.e0"
+            e2="DDI-DrugBank.d293.s0.e1" ddi="false"/>
+        <pair id="DDI-DrugBank.d293.s0.p1" e1="DDI-DrugBank.d293.s0.e0"
+            e2="DDI-DrugBank.d293.s0.e2" ddi="false"/>
+        <pair id="DDI-DrugBank.d293.s0.p2" e1="DDI-DrugBank.d293.s0.e0"
+            e2="DDI-DrugBank.d293.s0.e3" ddi="false"/>
+        <pair id="DDI-DrugBank.d293.s0.p3" e1="DDI-DrugBank.d293.s0.e0"
+            e2="DDI-DrugBank.d293.s0.e4" ddi="false"/>
+        <pair id="DDI-DrugBank.d293.s0.p4" e1="DDI-DrugBank.d293.s0.e0"
+            e2="DDI-DrugBank.d293.s0.e5" ddi="false"/>
+        <pair id="DDI-DrugBank.d293.s0.p5" e1="DDI-DrugBank.d293.s0.e0"
+            e2="DDI-DrugBank.d293.s0.e6" ddi="false"/>
+        <pair id="DDI-DrugBank.d293.s0.p6" e1="DDI-DrugBank.d293.s0.e0"
+            e2="DDI-DrugBank.d293.s0.e7" ddi="false"/>
+        <pair id="DDI-DrugBank.d293.s0.p7" e1="DDI-DrugBank.d293.s0.e0"
+            e2="DDI-DrugBank.d293.s0.e8" ddi="false"/>
+        <pair id="DDI-DrugBank.d293.s0.p8" e1="DDI-DrugBank.d293.s0.e1"
+            e2="DDI-DrugBank.d293.s0.e2" ddi="false"/>
+        <pair id="DDI-DrugBank.d293.s0.p9" e1="DDI-DrugBank.d293.s0.e1"
+            e2="DDI-DrugBank.d293.s0.e3" ddi="false"/>
+        <pair id="DDI-DrugBank.d293.s0.p10" e1="DDI-DrugBank.d293.s0.e1"
+            e2="DDI-DrugBank.d293.s0.e4" ddi="false"/>
+        <pair id="DDI-DrugBank.d293.s0.p11" e1="DDI-DrugBank.d293.s0.e1"
+            e2="DDI-DrugBank.d293.s0.e5" ddi="false"/>
+        <pair id="DDI-DrugBank.d293.s0.p12" e1="DDI-DrugBank.d293.s0.e1"
+            e2="DDI-DrugBank.d293.s0.e6" ddi="false"/>
+        <pair id="DDI-DrugBank.d293.s0.p13" e1="DDI-DrugBank.d293.s0.e1"
+            e2="DDI-DrugBank.d293.s0.e7" ddi="false"/>
+        <pair id="DDI-DrugBank.d293.s0.p14" e1="DDI-DrugBank.d293.s0.e1"
+            e2="DDI-DrugBank.d293.s0.e8" ddi="false"/>
+        <pair id="DDI-DrugBank.d293.s0.p15" e1="DDI-DrugBank.d293.s0.e2"
+            e2="DDI-DrugBank.d293.s0.e3" ddi="false"/>
+        <pair id="DDI-DrugBank.d293.s0.p16" e1="DDI-DrugBank.d293.s0.e2"
+            e2="DDI-DrugBank.d293.s0.e4" ddi="false"/>
+        <pair id="DDI-DrugBank.d293.s0.p17" e1="DDI-DrugBank.d293.s0.e2"
+            e2="DDI-DrugBank.d293.s0.e5" ddi="false"/>
+        <pair id="DDI-DrugBank.d293.s0.p18" e1="DDI-DrugBank.d293.s0.e2"
+            e2="DDI-DrugBank.d293.s0.e6" ddi="false"/>
+        <pair id="DDI-DrugBank.d293.s0.p19" e1="DDI-DrugBank.d293.s0.e2"
+            e2="DDI-DrugBank.d293.s0.e7" ddi="false"/>
+        <pair id="DDI-DrugBank.d293.s0.p20" e1="DDI-DrugBank.d293.s0.e2"
+            e2="DDI-DrugBank.d293.s0.e8" ddi="false"/>
+        <pair id="DDI-DrugBank.d293.s0.p21" e1="DDI-DrugBank.d293.s0.e3"
+            e2="DDI-DrugBank.d293.s0.e4" ddi="false"/>
+        <pair id="DDI-DrugBank.d293.s0.p22" e1="DDI-DrugBank.d293.s0.e3"
+            e2="DDI-DrugBank.d293.s0.e5" ddi="false"/>
+        <pair id="DDI-DrugBank.d293.s0.p23" e1="DDI-DrugBank.d293.s0.e3"
+            e2="DDI-DrugBank.d293.s0.e6" ddi="false"/>
+        <pair id="DDI-DrugBank.d293.s0.p24" e1="DDI-DrugBank.d293.s0.e3"
+            e2="DDI-DrugBank.d293.s0.e7" ddi="false"/>
+        <pair id="DDI-DrugBank.d293.s0.p25" e1="DDI-DrugBank.d293.s0.e3"
+            e2="DDI-DrugBank.d293.s0.e8" ddi="false"/>
+        <pair id="DDI-DrugBank.d293.s0.p26" e1="DDI-DrugBank.d293.s0.e4"
+            e2="DDI-DrugBank.d293.s0.e5" ddi="false"/>
+        <pair id="DDI-DrugBank.d293.s0.p27" e1="DDI-DrugBank.d293.s0.e4"
+            e2="DDI-DrugBank.d293.s0.e6" ddi="false"/>
+        <pair id="DDI-DrugBank.d293.s0.p28" e1="DDI-DrugBank.d293.s0.e4"
+            e2="DDI-DrugBank.d293.s0.e7" ddi="false"/>
+        <pair id="DDI-DrugBank.d293.s0.p29" e1="DDI-DrugBank.d293.s0.e4"
+            e2="DDI-DrugBank.d293.s0.e8" ddi="false"/>
+        <pair id="DDI-DrugBank.d293.s0.p30" e1="DDI-DrugBank.d293.s0.e5"
+            e2="DDI-DrugBank.d293.s0.e6" ddi="false"/>
+        <pair id="DDI-DrugBank.d293.s0.p31" e1="DDI-DrugBank.d293.s0.e5"
+            e2="DDI-DrugBank.d293.s0.e7" ddi="false"/>
+        <pair id="DDI-DrugBank.d293.s0.p32" e1="DDI-DrugBank.d293.s0.e5"
+            e2="DDI-DrugBank.d293.s0.e8" ddi="false"/>
+        <pair id="DDI-DrugBank.d293.s0.p33" e1="DDI-DrugBank.d293.s0.e6"
+            e2="DDI-DrugBank.d293.s0.e7" ddi="false"/>
+        <pair id="DDI-DrugBank.d293.s0.p34" e1="DDI-DrugBank.d293.s0.e6"
+            e2="DDI-DrugBank.d293.s0.e8" ddi="false"/>
+        <pair id="DDI-DrugBank.d293.s0.p35" e1="DDI-DrugBank.d293.s0.e7"
+            e2="DDI-DrugBank.d293.s0.e8" ddi="false"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d293.s1" text="This product can affect the results of certain lab tests."/>
+</document>

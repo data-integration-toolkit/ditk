@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="DDI-DrugBank.d706">
+    <sentence id="DDI-DrugBank.d706.s0" text="Catecholamine-depleting drugs (e.g., reserpine) may have an additive effect when given with beta-blocking agents. ">
+        <entity id="DDI-DrugBank.d706.s0.e0" charOffset="37-45"
+            type="drug" text="reserpine"/>
+        <entity id="DDI-DrugBank.d706.s0.e1" charOffset="92-111"
+            type="group" text="beta-blocking agents"/>
+        <pair id="DDI-DrugBank.d706.s0.p0" e1="DDI-DrugBank.d706.s0.e0"
+            e2="DDI-DrugBank.d706.s0.e1" ddi="true" type="effect"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d706.s1" text="Patients treated with extended release metoprolol succinate plus a catecholamine depletor should therefore be closely observed for evidence of hypotension or marked bradycardia, which may produce vertigo, syncope, or postural hypotension.">
+        <entity id="DDI-DrugBank.d706.s1.e0" charOffset="39-58"
+            type="drug" text="metoprolol succinate"/>
+    </sentence>
+</document>

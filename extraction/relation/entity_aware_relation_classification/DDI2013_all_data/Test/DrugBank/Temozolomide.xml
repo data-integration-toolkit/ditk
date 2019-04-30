@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="DDI-DrugBank.d687">
+    <sentence id="DDI-DrugBank.d687.s0" text="Administration of valproic acid decreases oral clearance of temozolomide by about 5%. ">
+        <entity id="DDI-DrugBank.d687.s0.e0" charOffset="18-30"
+            type="drug" text="valproic acid"/>
+        <entity id="DDI-DrugBank.d687.s0.e1" charOffset="60-71"
+            type="drug" text="temozolomide"/>
+        <pair id="DDI-DrugBank.d687.s0.p0" e1="DDI-DrugBank.d687.s0.e0"
+            e2="DDI-DrugBank.d687.s0.e1" ddi="true" type="mechanism"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d687.s1" text="The clinical implication of this effect is not known. "/>
+    <sentence id="DDI-DrugBank.d687.s2" text="Patients with Severe Hepatic or Renal Impairment Caution should be exercised when TEMODAR Capsules are administered to patients with severe hepatic or renal impairment.">
+        <entity id="DDI-DrugBank.d687.s2.e0" charOffset="82-88"
+            type="brand" text="TEMODAR"/>
+    </sentence>
+</document>

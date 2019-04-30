@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="DDI-DrugBank.d615">
+    <sentence id="DDI-DrugBank.d615.s0" text="Triprolidine may enhance the sedative effects of central nervous system depressants including alcohol, barbiturates, hypnotics, narcotic analgesics, sedatives, and tranquillisers. ">
+        <entity id="DDI-DrugBank.d615.s0.e0" charOffset="0-11"
+            type="drug" text="Triprolidine"/>
+        <entity id="DDI-DrugBank.d615.s0.e1" charOffset="49-82"
+            type="group" text="central nervous system depressants"/>
+        <entity id="DDI-DrugBank.d615.s0.e2" charOffset="94-100"
+            type="drug" text="alcohol"/>
+        <entity id="DDI-DrugBank.d615.s0.e3" charOffset="103-114"
+            type="group" text="barbiturates"/>
+        <entity id="DDI-DrugBank.d615.s0.e4" charOffset="117-125"
+            type="group" text="hypnotics"/>
+        <entity id="DDI-DrugBank.d615.s0.e5" charOffset="128-146"
+            type="group" text="narcotic analgesics"/>
+        <entity id="DDI-DrugBank.d615.s0.e6" charOffset="149-157"
+            type="group" text="sedatives"/>
+        <entity id="DDI-DrugBank.d615.s0.e7" charOffset="164-177"
+            type="group" text="tranquillisers"/>
+        <pair id="DDI-DrugBank.d615.s0.p0" e1="DDI-DrugBank.d615.s0.e0"
+            e2="DDI-DrugBank.d615.s0.e1" ddi="true" type="effect"/>
+        <pair id="DDI-DrugBank.d615.s0.p1" e1="DDI-DrugBank.d615.s0.e0"
+            e2="DDI-DrugBank.d615.s0.e2" ddi="true" type="effect"/>
+        <pair id="DDI-DrugBank.d615.s0.p2" e1="DDI-DrugBank.d615.s0.e0"
+            e2="DDI-DrugBank.d615.s0.e3" ddi="true" type="effect"/>
+        <pair id="DDI-DrugBank.d615.s0.p3" e1="DDI-DrugBank.d615.s0.e0"
+            e2="DDI-DrugBank.d615.s0.e4" ddi="true" type="effect"/>
+        <pair id="DDI-DrugBank.d615.s0.p4" e1="DDI-DrugBank.d615.s0.e0"
+            e2="DDI-DrugBank.d615.s0.e5" ddi="true" type="effect"/>
+        <pair id="DDI-DrugBank.d615.s0.p5" e1="DDI-DrugBank.d615.s0.e0"
+            e2="DDI-DrugBank.d615.s0.e6" ddi="true" type="effect"/>
+        <pair id="DDI-DrugBank.d615.s0.p6" e1="DDI-DrugBank.d615.s0.e0"
+            e2="DDI-DrugBank.d615.s0.e7" ddi="true" type="effect"/>
+        <pair id="DDI-DrugBank.d615.s0.p7" e1="DDI-DrugBank.d615.s0.e1"
+            e2="DDI-DrugBank.d615.s0.e2" ddi="false"/>
+        <pair id="DDI-DrugBank.d615.s0.p8" e1="DDI-DrugBank.d615.s0.e1"
+            e2="DDI-DrugBank.d615.s0.e3" ddi="false"/>
+        <pair id="DDI-DrugBank.d615.s0.p9" e1="DDI-DrugBank.d615.s0.e1"
+            e2="DDI-DrugBank.d615.s0.e4" ddi="false"/>
+        <pair id="DDI-DrugBank.d615.s0.p10" e1="DDI-DrugBank.d615.s0.e1"
+            e2="DDI-DrugBank.d615.s0.e5" ddi="false"/>
+        <pair id="DDI-DrugBank.d615.s0.p11" e1="DDI-DrugBank.d615.s0.e1"
+            e2="DDI-DrugBank.d615.s0.e6" ddi="false"/>
+        <pair id="DDI-DrugBank.d615.s0.p12" e1="DDI-DrugBank.d615.s0.e1"
+            e2="DDI-DrugBank.d615.s0.e7" ddi="false"/>
+        <pair id="DDI-DrugBank.d615.s0.p13" e1="DDI-DrugBank.d615.s0.e2"
+            e2="DDI-DrugBank.d615.s0.e3" ddi="false"/>
+        <pair id="DDI-DrugBank.d615.s0.p14" e1="DDI-DrugBank.d615.s0.e2"
+            e2="DDI-DrugBank.d615.s0.e4" ddi="false"/>
+        <pair id="DDI-DrugBank.d615.s0.p15" e1="DDI-DrugBank.d615.s0.e2"
+            e2="DDI-DrugBank.d615.s0.e5" ddi="false"/>
+        <pair id="DDI-DrugBank.d615.s0.p16" e1="DDI-DrugBank.d615.s0.e2"
+            e2="DDI-DrugBank.d615.s0.e6" ddi="false"/>
+        <pair id="DDI-DrugBank.d615.s0.p17" e1="DDI-DrugBank.d615.s0.e2"
+            e2="DDI-DrugBank.d615.s0.e7" ddi="false"/>
+        <pair id="DDI-DrugBank.d615.s0.p18" e1="DDI-DrugBank.d615.s0.e3"
+            e2="DDI-DrugBank.d615.s0.e4" ddi="false"/>
+        <pair id="DDI-DrugBank.d615.s0.p19" e1="DDI-DrugBank.d615.s0.e3"
+            e2="DDI-DrugBank.d615.s0.e5" ddi="false"/>
+        <pair id="DDI-DrugBank.d615.s0.p20" e1="DDI-DrugBank.d615.s0.e3"
+            e2="DDI-DrugBank.d615.s0.e6" ddi="false"/>
+        <pair id="DDI-DrugBank.d615.s0.p21" e1="DDI-DrugBank.d615.s0.e3"
+            e2="DDI-DrugBank.d615.s0.e7" ddi="false"/>
+        <pair id="DDI-DrugBank.d615.s0.p22" e1="DDI-DrugBank.d615.s0.e4"
+            e2="DDI-DrugBank.d615.s0.e5" ddi="false"/>
+        <pair id="DDI-DrugBank.d615.s0.p23" e1="DDI-DrugBank.d615.s0.e4"
+            e2="DDI-DrugBank.d615.s0.e6" ddi="false"/>
+        <pair id="DDI-DrugBank.d615.s0.p24" e1="DDI-DrugBank.d615.s0.e4"
+            e2="DDI-DrugBank.d615.s0.e7" ddi="false"/>
+        <pair id="DDI-DrugBank.d615.s0.p25" e1="DDI-DrugBank.d615.s0.e5"
+            e2="DDI-DrugBank.d615.s0.e6" ddi="false"/>
+        <pair id="DDI-DrugBank.d615.s0.p26" e1="DDI-DrugBank.d615.s0.e5"
+            e2="DDI-DrugBank.d615.s0.e7" ddi="false"/>
+        <pair id="DDI-DrugBank.d615.s0.p27" e1="DDI-DrugBank.d615.s0.e6"
+            e2="DDI-DrugBank.d615.s0.e7" ddi="false"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d615.s1" text="The effects of anticholinergic drugs, such as atropine and tricyclic antidepressants may be enhanced by the concomitant administration of triprolidine. ">
+        <entity id="DDI-DrugBank.d615.s1.e0" charOffset="15-35"
+            type="group" text="anticholinergic drugs"/>
+        <entity id="DDI-DrugBank.d615.s1.e1" charOffset="46-53"
+            type="drug" text="atropine"/>
+        <entity id="DDI-DrugBank.d615.s1.e2" charOffset="59-83"
+            type="group" text="tricyclic antidepressants"/>
+        <entity id="DDI-DrugBank.d615.s1.e3" charOffset="138-149"
+            type="drug" text="triprolidine"/>
+        <pair id="DDI-DrugBank.d615.s1.p0" e1="DDI-DrugBank.d615.s1.e0"
+            e2="DDI-DrugBank.d615.s1.e1" ddi="false"/>
+        <pair id="DDI-DrugBank.d615.s1.p1" e1="DDI-DrugBank.d615.s1.e0"
+            e2="DDI-DrugBank.d615.s1.e2" ddi="false"/>
+        <pair id="DDI-DrugBank.d615.s1.p2" e1="DDI-DrugBank.d615.s1.e0"
+            e2="DDI-DrugBank.d615.s1.e3" ddi="true" type="effect"/>
+        <pair id="DDI-DrugBank.d615.s1.p3" e1="DDI-DrugBank.d615.s1.e1"
+            e2="DDI-DrugBank.d615.s1.e2" ddi="false"/>
+        <pair id="DDI-DrugBank.d615.s1.p4" e1="DDI-DrugBank.d615.s1.e1"
+            e2="DDI-DrugBank.d615.s1.e3" ddi="true" type="effect"/>
+        <pair id="DDI-DrugBank.d615.s1.p5" e1="DDI-DrugBank.d615.s1.e2"
+            e2="DDI-DrugBank.d615.s1.e3" ddi="true" type="effect"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d615.s2" text="Triprolidine may effect the metabolism of drugs in the liver.">
+        <entity id="DDI-DrugBank.d615.s2.e0" charOffset="0-11"
+            type="drug" text="Triprolidine"/>
+    </sentence>
+</document>

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="DDI-DrugBank.d741">
+    <sentence id="DDI-DrugBank.d741.s0" text="In a pharmacokinetic study of 18 chronic hepatitis C patients concomitantly receiving methadone, treatment with PEG-Intron once weekly for 4 weeks was associated with a mean increase of 16% in methadone AUC; ">
+        <entity id="DDI-DrugBank.d741.s0.e0" charOffset="86-94"
+            type="drug" text="methadone"/>
+        <entity id="DDI-DrugBank.d741.s0.e1" charOffset="112-121"
+            type="brand" text="PEG-Intron"/>
+        <entity id="DDI-DrugBank.d741.s0.e2" charOffset="193-201"
+            type="drug" text="methadone"/>
+        <pair id="DDI-DrugBank.d741.s0.p0" e1="DDI-DrugBank.d741.s0.e0"
+            e2="DDI-DrugBank.d741.s0.e1" ddi="true" type="mechanism"/>
+        <pair id="DDI-DrugBank.d741.s0.p1" e1="DDI-DrugBank.d741.s0.e0"
+            e2="DDI-DrugBank.d741.s0.e2" ddi="false"/>
+        <pair id="DDI-DrugBank.d741.s0.p2" e1="DDI-DrugBank.d741.s0.e1"
+            e2="DDI-DrugBank.d741.s0.e2" ddi="false"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d741.s1" text="in 2 out of 18 patients, methadone AUC doubled. ">
+        <entity id="DDI-DrugBank.d741.s1.e0" charOffset="25-33"
+            type="drug" text="methadone"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d741.s2" text="The clinical significance of this finding is unknown; "/>
+    <sentence id="DDI-DrugBank.d741.s3" text="however, patients should be monitored for the signs and symptoms of increased narcotic effect."/>
+</document>

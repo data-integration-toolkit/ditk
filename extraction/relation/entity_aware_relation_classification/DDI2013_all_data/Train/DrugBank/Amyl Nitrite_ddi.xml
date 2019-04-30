@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="DDI-DrugBank.d56">
+    <sentence id="DDI-DrugBank.d56.s0" text="Taking amyl nitrite after drinking alcohol may worsen side effects and may cause severe hypotension and cardiovascular collapse.">
+        <entity id="DDI-DrugBank.d56.s0.e0" charOffset="7-18"
+            type="drug" text="amyl nitrite"/>
+        <entity id="DDI-DrugBank.d56.s0.e1" charOffset="35-41"
+            type="drug" text="alcohol"/>
+        <pair id="DDI-DrugBank.d56.s0.p0" e1="DDI-DrugBank.d56.s0.e0"
+            e2="DDI-DrugBank.d56.s0.e1" ddi="true" type="effect"/>
+    </sentence>
+</document>

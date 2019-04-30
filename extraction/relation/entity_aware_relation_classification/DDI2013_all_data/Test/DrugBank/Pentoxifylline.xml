@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="DDI-DrugBank.d659">
+    <sentence id="DDI-DrugBank.d659.s0" text="Although a causal relationship has not been established, there have been reports of bleeding and/or prolonged prothrombin time in patients treated with TRENTAL with and without anticoagulants or platelet aggregation inhibitors. ">
+        <entity id="DDI-DrugBank.d659.s0.e0" charOffset="152-158"
+            type="brand" text="TRENTAL"/>
+        <entity id="DDI-DrugBank.d659.s0.e1" charOffset="177-190"
+            type="group" text="anticoagulants"/>
+        <entity id="DDI-DrugBank.d659.s0.e2" charOffset="195-225"
+            type="group" text="platelet aggregation inhibitors"/>
+        <pair id="DDI-DrugBank.d659.s0.p0" e1="DDI-DrugBank.d659.s0.e0"
+            e2="DDI-DrugBank.d659.s0.e1" ddi="true" type="effect"/>
+        <pair id="DDI-DrugBank.d659.s0.p1" e1="DDI-DrugBank.d659.s0.e0"
+            e2="DDI-DrugBank.d659.s0.e2" ddi="true" type="effect"/>
+        <pair id="DDI-DrugBank.d659.s0.p2" e1="DDI-DrugBank.d659.s0.e1"
+            e2="DDI-DrugBank.d659.s0.e2" ddi="false"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d659.s1" text="Patients on Warfarin should have more frequent monitoring of prothrombin times, while patients with other risk factors complicated by hemorrhage (e.g., recent surgery, peptic ulceration) should have periodic examinations for bleeding including hematocrit and/or hemoglobin. ">
+        <entity id="DDI-DrugBank.d659.s1.e0" charOffset="12-19"
+            type="drug" text="Warfarin"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d659.s2" text="Concomitant administration of TRENTAL and theophylline-containing drugs leads to increased theophylline levels and theophylline toxicity in some individuals. ">
+        <entity id="DDI-DrugBank.d659.s2.e0" charOffset="30-36"
+            type="brand" text="TRENTAL"/>
+        <entity id="DDI-DrugBank.d659.s2.e1" charOffset="42-53"
+            type="drug" text="theophylline"/>
+        <entity id="DDI-DrugBank.d659.s2.e2" charOffset="91-102"
+            type="drug" text="theophylline"/>
+        <entity id="DDI-DrugBank.d659.s2.e3" charOffset="115-126"
+            type="drug" text="theophylline"/>
+        <pair id="DDI-DrugBank.d659.s2.p0" e1="DDI-DrugBank.d659.s2.e0"
+            e2="DDI-DrugBank.d659.s2.e1" ddi="true" type="mechanism"/>
+        <pair id="DDI-DrugBank.d659.s2.p1" e1="DDI-DrugBank.d659.s2.e0"
+            e2="DDI-DrugBank.d659.s2.e2" ddi="false"/>
+        <pair id="DDI-DrugBank.d659.s2.p2" e1="DDI-DrugBank.d659.s2.e0"
+            e2="DDI-DrugBank.d659.s2.e3" ddi="false"/>
+        <pair id="DDI-DrugBank.d659.s2.p3" e1="DDI-DrugBank.d659.s2.e1"
+            e2="DDI-DrugBank.d659.s2.e2" ddi="false"/>
+        <pair id="DDI-DrugBank.d659.s2.p4" e1="DDI-DrugBank.d659.s2.e1"
+            e2="DDI-DrugBank.d659.s2.e3" ddi="false"/>
+        <pair id="DDI-DrugBank.d659.s2.p5" e1="DDI-DrugBank.d659.s2.e2"
+            e2="DDI-DrugBank.d659.s2.e3" ddi="false"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d659.s3" text="Such patients should be closely monitored for signs of toxicity and have their theophylline dosage adjusted as necessary. ">
+        <entity id="DDI-DrugBank.d659.s3.e0" charOffset="79-90"
+            type="drug" text="theophylline"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d659.s4" text="TRENTAL has been used concurrently with antihypertensive drugs, beta blockers, digitalis, diuretics, antidiabetic agents, and antiarrhythmics, without observed problems. ">
+        <entity id="DDI-DrugBank.d659.s4.e0" charOffset="0-6"
+            type="brand" text="TRENTAL"/>
+        <entity id="DDI-DrugBank.d659.s4.e1" charOffset="40-61"
+            type="group" text="antihypertensive drugs"/>
+        <entity id="DDI-DrugBank.d659.s4.e2" charOffset="64-76"
+            type="group" text="beta blockers"/>
+        <entity id="DDI-DrugBank.d659.s4.e3" charOffset="79-87"
+            type="group" text="digitalis"/>
+        <entity id="DDI-DrugBank.d659.s4.e4" charOffset="90-98"
+            type="group" text="diuretics"/>
+        <entity id="DDI-DrugBank.d659.s4.e5" charOffset="101-119"
+            type="group" text="antidiabetic agents"/>
+        <entity id="DDI-DrugBank.d659.s4.e6" charOffset="126-140"
+            type="group" text="antiarrhythmics"/>
+        <pair id="DDI-DrugBank.d659.s4.p0" e1="DDI-DrugBank.d659.s4.e0"
+            e2="DDI-DrugBank.d659.s4.e1" ddi="false"/>
+        <pair id="DDI-DrugBank.d659.s4.p1" e1="DDI-DrugBank.d659.s4.e0"
+            e2="DDI-DrugBank.d659.s4.e2" ddi="false"/>
+        <pair id="DDI-DrugBank.d659.s4.p2" e1="DDI-DrugBank.d659.s4.e0"
+            e2="DDI-DrugBank.d659.s4.e3" ddi="false"/>
+        <pair id="DDI-DrugBank.d659.s4.p3" e1="DDI-DrugBank.d659.s4.e0"
+            e2="DDI-DrugBank.d659.s4.e4" ddi="false"/>
+        <pair id="DDI-DrugBank.d659.s4.p4" e1="DDI-DrugBank.d659.s4.e0"
+            e2="DDI-DrugBank.d659.s4.e5" ddi="false"/>
+        <pair id="DDI-DrugBank.d659.s4.p5" e1="DDI-DrugBank.d659.s4.e0"
+            e2="DDI-DrugBank.d659.s4.e6" ddi="false"/>
+        <pair id="DDI-DrugBank.d659.s4.p6" e1="DDI-DrugBank.d659.s4.e1"
+            e2="DDI-DrugBank.d659.s4.e2" ddi="false"/>
+        <pair id="DDI-DrugBank.d659.s4.p7" e1="DDI-DrugBank.d659.s4.e1"
+            e2="DDI-DrugBank.d659.s4.e3" ddi="false"/>
+        <pair id="DDI-DrugBank.d659.s4.p8" e1="DDI-DrugBank.d659.s4.e1"
+            e2="DDI-DrugBank.d659.s4.e4" ddi="false"/>
+        <pair id="DDI-DrugBank.d659.s4.p9" e1="DDI-DrugBank.d659.s4.e1"
+            e2="DDI-DrugBank.d659.s4.e5" ddi="false"/>
+        <pair id="DDI-DrugBank.d659.s4.p10" e1="DDI-DrugBank.d659.s4.e1"
+            e2="DDI-DrugBank.d659.s4.e6" ddi="false"/>
+        <pair id="DDI-DrugBank.d659.s4.p11" e1="DDI-DrugBank.d659.s4.e2"
+            e2="DDI-DrugBank.d659.s4.e3" ddi="false"/>
+        <pair id="DDI-DrugBank.d659.s4.p12" e1="DDI-DrugBank.d659.s4.e2"
+            e2="DDI-DrugBank.d659.s4.e4" ddi="false"/>
+        <pair id="DDI-DrugBank.d659.s4.p13" e1="DDI-DrugBank.d659.s4.e2"
+            e2="DDI-DrugBank.d659.s4.e5" ddi="false"/>
+        <pair id="DDI-DrugBank.d659.s4.p14" e1="DDI-DrugBank.d659.s4.e2"
+            e2="DDI-DrugBank.d659.s4.e6" ddi="false"/>
+        <pair id="DDI-DrugBank.d659.s4.p15" e1="DDI-DrugBank.d659.s4.e3"
+            e2="DDI-DrugBank.d659.s4.e4" ddi="false"/>
+        <pair id="DDI-DrugBank.d659.s4.p16" e1="DDI-DrugBank.d659.s4.e3"
+            e2="DDI-DrugBank.d659.s4.e5" ddi="false"/>
+        <pair id="DDI-DrugBank.d659.s4.p17" e1="DDI-DrugBank.d659.s4.e3"
+            e2="DDI-DrugBank.d659.s4.e6" ddi="false"/>
+        <pair id="DDI-DrugBank.d659.s4.p18" e1="DDI-DrugBank.d659.s4.e4"
+            e2="DDI-DrugBank.d659.s4.e5" ddi="false"/>
+        <pair id="DDI-DrugBank.d659.s4.p19" e1="DDI-DrugBank.d659.s4.e4"
+            e2="DDI-DrugBank.d659.s4.e6" ddi="false"/>
+        <pair id="DDI-DrugBank.d659.s4.p20" e1="DDI-DrugBank.d659.s4.e5"
+            e2="DDI-DrugBank.d659.s4.e6" ddi="false"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d659.s5" text="Small decreases in blood pressure have been observed in some patients treated with TRENTAL; ">
+        <entity id="DDI-DrugBank.d659.s5.e0" charOffset="83-89"
+            type="brand" text="TRENTAL"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d659.s6" text="periodic systemic blood pressure monitoring is recommended for patients receiving concomitant antihypertensive therapy. "/>
+    <sentence id="DDI-DrugBank.d659.s7" text="If indicated, dosage of the antihypertensive agents should be reduced.">
+        <entity id="DDI-DrugBank.d659.s7.e0" charOffset="28-50"
+            type="group" text="antihypertensive agents"/>
+    </sentence>
+</document>

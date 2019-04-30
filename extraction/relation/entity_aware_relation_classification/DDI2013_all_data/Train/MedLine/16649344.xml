@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="DDI-MedLine.d118">
+    <sentence id="DDI-MedLine.d118.s0" text="Sirolimus: mammalian target of rapamycin inhibitor to prevent kidney rejection.&#xd;&#xa;">
+        <entity id="DDI-MedLine.d118.s0.e0" charOffset="0-8" type="drug" text="Sirolimus"/>
+        <entity id="DDI-MedLine.d118.s0.e1" charOffset="31-39"
+            type="drug" text="rapamycin"/>
+        <pair id="DDI-MedLine.d118.s0.p0" e1="DDI-MedLine.d118.s0.e0"
+            e2="DDI-MedLine.d118.s0.e1" ddi="false"/>
+    </sentence>
+    <sentence id="DDI-MedLine.d118.s1" text="Current immunosuppressive therapies are effective but can be associated with significant adverse reactions. "/>
+    <sentence id="DDI-MedLine.d118.s2" text="Sirolimus works differently from the immunosuppressants currently available, and except for increased lipid levels, the adverse reaction profile of sirolimus does not appear to overlap to any great extent with that associated with cyclosporine or tacrolimus. ">
+        <entity id="DDI-MedLine.d118.s2.e0" charOffset="0-8" type="drug" text="Sirolimus"/>
+        <entity id="DDI-MedLine.d118.s2.e1" charOffset="37-54"
+            type="group" text="immunosuppressants"/>
+        <entity id="DDI-MedLine.d118.s2.e2" charOffset="148-156"
+            type="drug" text="sirolimus"/>
+        <entity id="DDI-MedLine.d118.s2.e3" charOffset="231-242"
+            type="drug" text="cyclosporine"/>
+        <entity id="DDI-MedLine.d118.s2.e4" charOffset="247-256"
+            type="drug" text="tacrolimus"/>
+        <pair id="DDI-MedLine.d118.s2.p0" e1="DDI-MedLine.d118.s2.e0"
+            e2="DDI-MedLine.d118.s2.e1" ddi="false"/>
+        <pair id="DDI-MedLine.d118.s2.p1" e1="DDI-MedLine.d118.s2.e0"
+            e2="DDI-MedLine.d118.s2.e2" ddi="false"/>
+        <pair id="DDI-MedLine.d118.s2.p2" e1="DDI-MedLine.d118.s2.e0"
+            e2="DDI-MedLine.d118.s2.e3" ddi="false"/>
+        <pair id="DDI-MedLine.d118.s2.p3" e1="DDI-MedLine.d118.s2.e0"
+            e2="DDI-MedLine.d118.s2.e4" ddi="false"/>
+        <pair id="DDI-MedLine.d118.s2.p4" e1="DDI-MedLine.d118.s2.e1"
+            e2="DDI-MedLine.d118.s2.e2" ddi="false"/>
+        <pair id="DDI-MedLine.d118.s2.p5" e1="DDI-MedLine.d118.s2.e1"
+            e2="DDI-MedLine.d118.s2.e3" ddi="false"/>
+        <pair id="DDI-MedLine.d118.s2.p6" e1="DDI-MedLine.d118.s2.e1"
+            e2="DDI-MedLine.d118.s2.e4" ddi="false"/>
+        <pair id="DDI-MedLine.d118.s2.p7" e1="DDI-MedLine.d118.s2.e2"
+            e2="DDI-MedLine.d118.s2.e3" ddi="false"/>
+        <pair id="DDI-MedLine.d118.s2.p8" e1="DDI-MedLine.d118.s2.e2"
+            e2="DDI-MedLine.d118.s2.e4" ddi="false"/>
+        <pair id="DDI-MedLine.d118.s2.p9" e1="DDI-MedLine.d118.s2.e3"
+            e2="DDI-MedLine.d118.s2.e4" ddi="false"/>
+    </sentence>
+    <sentence id="DDI-MedLine.d118.s3" text="While additional research is needed, the initial clinical data in kidney recipients suggest that sirolimus, in combination with cyclosporine or tacrolimus, might have the potential to reduce the frequency of rejection episodes, permit reductions in cyclosporine or tacrolimus dosage, and permit steroid withdrawal (Kelly, 1999).">
+        <entity id="DDI-MedLine.d118.s3.e0" charOffset="97-105"
+            type="drug" text="sirolimus"/>
+        <entity id="DDI-MedLine.d118.s3.e1" charOffset="128-139"
+            type="drug" text="cyclosporine"/>
+        <entity id="DDI-MedLine.d118.s3.e2" charOffset="144-153"
+            type="drug" text="tacrolimus"/>
+        <entity id="DDI-MedLine.d118.s3.e3" charOffset="249-260"
+            type="drug" text="cyclosporine"/>
+        <entity id="DDI-MedLine.d118.s3.e4" charOffset="265-274"
+            type="drug" text="tacrolimus"/>
+        <pair id="DDI-MedLine.d118.s3.p0" e1="DDI-MedLine.d118.s3.e0"
+            e2="DDI-MedLine.d118.s3.e1" ddi="false"/>
+        <pair id="DDI-MedLine.d118.s3.p1" e1="DDI-MedLine.d118.s3.e0"
+            e2="DDI-MedLine.d118.s3.e2" ddi="false"/>
+        <pair id="DDI-MedLine.d118.s3.p2" e1="DDI-MedLine.d118.s3.e0"
+            e2="DDI-MedLine.d118.s3.e3" ddi="false"/>
+        <pair id="DDI-MedLine.d118.s3.p3" e1="DDI-MedLine.d118.s3.e0"
+            e2="DDI-MedLine.d118.s3.e4" ddi="false"/>
+        <pair id="DDI-MedLine.d118.s3.p4" e1="DDI-MedLine.d118.s3.e1"
+            e2="DDI-MedLine.d118.s3.e2" ddi="false"/>
+        <pair id="DDI-MedLine.d118.s3.p5" e1="DDI-MedLine.d118.s3.e1"
+            e2="DDI-MedLine.d118.s3.e3" ddi="false"/>
+        <pair id="DDI-MedLine.d118.s3.p6" e1="DDI-MedLine.d118.s3.e1"
+            e2="DDI-MedLine.d118.s3.e4" ddi="false"/>
+        <pair id="DDI-MedLine.d118.s3.p7" e1="DDI-MedLine.d118.s3.e2"
+            e2="DDI-MedLine.d118.s3.e3" ddi="false"/>
+        <pair id="DDI-MedLine.d118.s3.p8" e1="DDI-MedLine.d118.s3.e2"
+            e2="DDI-MedLine.d118.s3.e4" ddi="false"/>
+        <pair id="DDI-MedLine.d118.s3.p9" e1="DDI-MedLine.d118.s3.e3"
+            e2="DDI-MedLine.d118.s3.e4" ddi="false"/>
+    </sentence>
+</document>

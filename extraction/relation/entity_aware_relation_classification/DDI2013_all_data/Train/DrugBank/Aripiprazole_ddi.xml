@@ -1,0 +1,380 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="DDI-DrugBank.d509">
+    <sentence id="DDI-DrugBank.d509.s0" text="Drug-Drug Interactions Given the primary CNS effects of aripiprazole, caution should be used when ABILIFY is taken in combination with other centrally acting drugs and alcohol.">
+        <entity id="DDI-DrugBank.d509.s0.e0" charOffset="56-67"
+            type="drug" text="aripiprazole"/>
+        <entity id="DDI-DrugBank.d509.s0.e1" charOffset="98-104"
+            type="brand" text="ABILIFY"/>
+        <entity id="DDI-DrugBank.d509.s0.e2" charOffset="141-162"
+            type="group" text="centrally acting drugs"/>
+        <entity id="DDI-DrugBank.d509.s0.e3" charOffset="168-174"
+            type="drug" text="alcohol"/>
+        <pair id="DDI-DrugBank.d509.s0.p0" e1="DDI-DrugBank.d509.s0.e0"
+            e2="DDI-DrugBank.d509.s0.e1" ddi="false"/>
+        <pair id="DDI-DrugBank.d509.s0.p1" e1="DDI-DrugBank.d509.s0.e0"
+            e2="DDI-DrugBank.d509.s0.e2" ddi="false"/>
+        <pair id="DDI-DrugBank.d509.s0.p2" e1="DDI-DrugBank.d509.s0.e0"
+            e2="DDI-DrugBank.d509.s0.e3" ddi="false"/>
+        <pair id="DDI-DrugBank.d509.s0.p3" e1="DDI-DrugBank.d509.s0.e1"
+            e2="DDI-DrugBank.d509.s0.e2" ddi="true" type="advise"/>
+        <pair id="DDI-DrugBank.d509.s0.p4" e1="DDI-DrugBank.d509.s0.e1"
+            e2="DDI-DrugBank.d509.s0.e3" ddi="true" type="advise"/>
+        <pair id="DDI-DrugBank.d509.s0.p5" e1="DDI-DrugBank.d509.s0.e2"
+            e2="DDI-DrugBank.d509.s0.e3" ddi="false"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d509.s1" text="Due to its"/>
+    <sentence id="DDI-DrugBank.d509.s2" text="1- adrenergic receptor antagonism, aripiprazole has the potential to enhance the effect of certain antihypertensive agents.">
+        <entity id="DDI-DrugBank.d509.s2.e0" charOffset="35-46"
+            type="drug" text="aripiprazole"/>
+        <entity id="DDI-DrugBank.d509.s2.e1" charOffset="99-121"
+            type="group" text="antihypertensive agents"/>
+        <pair id="DDI-DrugBank.d509.s2.p0" e1="DDI-DrugBank.d509.s2.e0"
+            e2="DDI-DrugBank.d509.s2.e1" ddi="true" type="effect"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d509.s3" text="Potential for Other Drugs to Affect ABILIFY Aripiprazole is not a substrate of CYP1A1, CYP1A2, CYP2A6, CYP2B6, CYP2C8, CYP2C9, CYP2C19, or CYP2E1 enzymes.">
+        <entity id="DDI-DrugBank.d509.s3.e0" charOffset="36-42"
+            type="brand" text="ABILIFY"/>
+        <entity id="DDI-DrugBank.d509.s3.e1" charOffset="44-55"
+            type="brand" text="Aripiprazole"/>
+        <pair id="DDI-DrugBank.d509.s3.p0" e1="DDI-DrugBank.d509.s3.e0"
+            e2="DDI-DrugBank.d509.s3.e1" ddi="false"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d509.s4" text="Aripiprazole also does not undergo direct glucuronidation.">
+        <entity id="DDI-DrugBank.d509.s4.e0" charOffset="0-11"
+            type="drug" text="Aripiprazole"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d509.s5" text="This suggests that an interaction of aripiprazole with inhibitors or inducers of these enzymes, or other factors, like smoking, is unlikely.">
+        <entity id="DDI-DrugBank.d509.s5.e0" charOffset="37-48"
+            type="drug" text="aripiprazole"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d509.s6" text="Both CYP3A4 and CYP2D6 are responsible for aripiprazole metabolism.">
+        <entity id="DDI-DrugBank.d509.s6.e0" charOffset="43-54"
+            type="drug" text="aripiprazole"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d509.s7" text="Agents that induce CYP3A4 (eg, carbamazepine) could cause an increase in aripiprazole clearance and lower blood levels.">
+        <entity id="DDI-DrugBank.d509.s7.e0" charOffset="31-43"
+            type="drug" text="carbamazepine"/>
+        <entity id="DDI-DrugBank.d509.s7.e1" charOffset="73-84"
+            type="drug" text="aripiprazole"/>
+        <pair id="DDI-DrugBank.d509.s7.p0" e1="DDI-DrugBank.d509.s7.e0"
+            e2="DDI-DrugBank.d509.s7.e1" ddi="true" type="mechanism"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d509.s8" text="Inhibitors of CYP3A4 (eg, ketoconazole) or CYP2D6 (eg, quinidine, fluoxetine, or paroxetine) can inhibit aripiprazole elimination and cause increased blood levels.">
+        <entity id="DDI-DrugBank.d509.s8.e0" charOffset="26-37"
+            type="drug" text="ketoconazole"/>
+        <entity id="DDI-DrugBank.d509.s8.e1" charOffset="55-63"
+            type="drug" text="quinidine"/>
+        <entity id="DDI-DrugBank.d509.s8.e2" charOffset="66-75"
+            type="drug" text="fluoxetine"/>
+        <entity id="DDI-DrugBank.d509.s8.e3" charOffset="81-90"
+            type="drug" text="paroxetine"/>
+        <entity id="DDI-DrugBank.d509.s8.e4" charOffset="105-116"
+            type="drug" text="aripiprazole"/>
+        <pair id="DDI-DrugBank.d509.s8.p0" e1="DDI-DrugBank.d509.s8.e0"
+            e2="DDI-DrugBank.d509.s8.e1" ddi="false"/>
+        <pair id="DDI-DrugBank.d509.s8.p1" e1="DDI-DrugBank.d509.s8.e0"
+            e2="DDI-DrugBank.d509.s8.e2" ddi="false"/>
+        <pair id="DDI-DrugBank.d509.s8.p2" e1="DDI-DrugBank.d509.s8.e0"
+            e2="DDI-DrugBank.d509.s8.e3" ddi="false"/>
+        <pair id="DDI-DrugBank.d509.s8.p3" e1="DDI-DrugBank.d509.s8.e0"
+            e2="DDI-DrugBank.d509.s8.e4" ddi="true" type="mechanism"/>
+        <pair id="DDI-DrugBank.d509.s8.p4" e1="DDI-DrugBank.d509.s8.e1"
+            e2="DDI-DrugBank.d509.s8.e2" ddi="false"/>
+        <pair id="DDI-DrugBank.d509.s8.p5" e1="DDI-DrugBank.d509.s8.e1"
+            e2="DDI-DrugBank.d509.s8.e3" ddi="false"/>
+        <pair id="DDI-DrugBank.d509.s8.p6" e1="DDI-DrugBank.d509.s8.e1"
+            e2="DDI-DrugBank.d509.s8.e4" ddi="true" type="mechanism"/>
+        <pair id="DDI-DrugBank.d509.s8.p7" e1="DDI-DrugBank.d509.s8.e2"
+            e2="DDI-DrugBank.d509.s8.e3" ddi="false"/>
+        <pair id="DDI-DrugBank.d509.s8.p8" e1="DDI-DrugBank.d509.s8.e2"
+            e2="DDI-DrugBank.d509.s8.e4" ddi="true" type="mechanism"/>
+        <pair id="DDI-DrugBank.d509.s8.p9" e1="DDI-DrugBank.d509.s8.e3"
+            e2="DDI-DrugBank.d509.s8.e4" ddi="true" type="mechanism"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d509.s9" text="Ketoconazole: Coadministration of ketoconazole (200 mg/day for 14 days) with a 15-mg single dose of aripiprazole increased the AUC of aripiprazole and its active metabolite by 63% and 77%, respectively.">
+        <entity id="DDI-DrugBank.d509.s9.e0" charOffset="0-11"
+            type="drug" text="Ketoconazole"/>
+        <entity id="DDI-DrugBank.d509.s9.e1" charOffset="34-45"
+            type="drug" text="ketoconazole"/>
+        <entity id="DDI-DrugBank.d509.s9.e2" charOffset="100-111"
+            type="drug" text="aripiprazole"/>
+        <entity id="DDI-DrugBank.d509.s9.e3" charOffset="134-145"
+            type="drug" text="aripiprazole"/>
+        <pair id="DDI-DrugBank.d509.s9.p0" e1="DDI-DrugBank.d509.s9.e0"
+            e2="DDI-DrugBank.d509.s9.e1" ddi="false"/>
+        <pair id="DDI-DrugBank.d509.s9.p1" e1="DDI-DrugBank.d509.s9.e0"
+            e2="DDI-DrugBank.d509.s9.e2" ddi="false"/>
+        <pair id="DDI-DrugBank.d509.s9.p2" e1="DDI-DrugBank.d509.s9.e0"
+            e2="DDI-DrugBank.d509.s9.e3" ddi="false"/>
+        <pair id="DDI-DrugBank.d509.s9.p3" e1="DDI-DrugBank.d509.s9.e1"
+            e2="DDI-DrugBank.d509.s9.e2" ddi="true" type="mechanism"/>
+        <pair id="DDI-DrugBank.d509.s9.p4" e1="DDI-DrugBank.d509.s9.e1"
+            e2="DDI-DrugBank.d509.s9.e3" ddi="false"/>
+        <pair id="DDI-DrugBank.d509.s9.p5" e1="DDI-DrugBank.d509.s9.e2"
+            e2="DDI-DrugBank.d509.s9.e3" ddi="false"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d509.s10" text="The effect of a higher ketoconazole dose (400 mg/day) has not been studied.">
+        <entity id="DDI-DrugBank.d509.s10.e0" charOffset="23-34"
+            type="drug" text="ketoconazole"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d509.s11" text="When concomitant administration of ketoconazole with aripiprazole occurs, aripiprazole dose should be reduced to one-half of its normal dose.">
+        <entity id="DDI-DrugBank.d509.s11.e0" charOffset="35-46"
+            type="drug" text="ketoconazole"/>
+        <entity id="DDI-DrugBank.d509.s11.e1" charOffset="53-64"
+            type="drug" text="aripiprazole"/>
+        <entity id="DDI-DrugBank.d509.s11.e2" charOffset="74-85"
+            type="drug" text="aripiprazole"/>
+        <pair id="DDI-DrugBank.d509.s11.p0"
+            e1="DDI-DrugBank.d509.s11.e0" e2="DDI-DrugBank.d509.s11.e1"
+            ddi="true" type="advise"/>
+        <pair id="DDI-DrugBank.d509.s11.p1"
+            e1="DDI-DrugBank.d509.s11.e0" e2="DDI-DrugBank.d509.s11.e2" ddi="false"/>
+        <pair id="DDI-DrugBank.d509.s11.p2"
+            e1="DDI-DrugBank.d509.s11.e1" e2="DDI-DrugBank.d509.s11.e2" ddi="false"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d509.s12" text="Other strong inhibitors of CYP3A4 (itraconazole) would be expected to have similar effects and need similar dose reductions;">
+        <entity id="DDI-DrugBank.d509.s12.e0" charOffset="35-46"
+            type="drug" text="itraconazole"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d509.s13" text="weaker inhibitors (erythromycin, grapefruit juice) have not been studied.">
+        <entity id="DDI-DrugBank.d509.s13.e0" charOffset="19-30"
+            type="drug" text="erythromycin"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d509.s14" text="When the CYP3A4 inhibitor is withdrawn from the combination therapy, aripiprazole dose should then be increased.">
+        <entity id="DDI-DrugBank.d509.s14.e0" charOffset="69-80"
+            type="drug" text="aripiprazole"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d509.s15" text="Quinidine: Coadministration of a 10-mg single dose of aripiprazole with quinidine (166 mg/day for 13 days), a potent inhibitor of CYP2D6, increased the AUC of aripiprazole by 112% but decreased the AUC of its active metabolite, dehydroaripiprazole, by 35%.">
+        <entity id="DDI-DrugBank.d509.s15.e0" charOffset="0-8"
+            type="drug" text="Quinidine"/>
+        <entity id="DDI-DrugBank.d509.s15.e1" charOffset="54-65"
+            type="drug" text="aripiprazole"/>
+        <entity id="DDI-DrugBank.d509.s15.e2" charOffset="72-80"
+            type="drug" text="quinidine"/>
+        <entity id="DDI-DrugBank.d509.s15.e3" charOffset="159-170"
+            type="drug" text="aripiprazole"/>
+        <entity id="DDI-DrugBank.d509.s15.e4" charOffset="228-246"
+            type="drug_n" text="dehydroaripiprazole"/>
+        <pair id="DDI-DrugBank.d509.s15.p0"
+            e1="DDI-DrugBank.d509.s15.e0" e2="DDI-DrugBank.d509.s15.e1" ddi="false"/>
+        <pair id="DDI-DrugBank.d509.s15.p1"
+            e1="DDI-DrugBank.d509.s15.e0" e2="DDI-DrugBank.d509.s15.e2" ddi="false"/>
+        <pair id="DDI-DrugBank.d509.s15.p2"
+            e1="DDI-DrugBank.d509.s15.e0" e2="DDI-DrugBank.d509.s15.e3" ddi="false"/>
+        <pair id="DDI-DrugBank.d509.s15.p3"
+            e1="DDI-DrugBank.d509.s15.e0" e2="DDI-DrugBank.d509.s15.e4" ddi="false"/>
+        <pair id="DDI-DrugBank.d509.s15.p4"
+            e1="DDI-DrugBank.d509.s15.e1" e2="DDI-DrugBank.d509.s15.e2"
+            ddi="true" type="mechanism"/>
+        <pair id="DDI-DrugBank.d509.s15.p5"
+            e1="DDI-DrugBank.d509.s15.e1" e2="DDI-DrugBank.d509.s15.e3" ddi="false"/>
+        <pair id="DDI-DrugBank.d509.s15.p6"
+            e1="DDI-DrugBank.d509.s15.e1" e2="DDI-DrugBank.d509.s15.e4" ddi="false"/>
+        <pair id="DDI-DrugBank.d509.s15.p7"
+            e1="DDI-DrugBank.d509.s15.e2" e2="DDI-DrugBank.d509.s15.e3" ddi="false"/>
+        <pair id="DDI-DrugBank.d509.s15.p8"
+            e1="DDI-DrugBank.d509.s15.e2" e2="DDI-DrugBank.d509.s15.e4" ddi="false"/>
+        <pair id="DDI-DrugBank.d509.s15.p9"
+            e1="DDI-DrugBank.d509.s15.e3" e2="DDI-DrugBank.d509.s15.e4" ddi="false"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d509.s16" text="Aripiprazole dose should be reduced to one-half of its normal dose when concomitant administration of quinidine with aripiprazole occurs.">
+        <entity id="DDI-DrugBank.d509.s16.e0" charOffset="0-11"
+            type="drug" text="Aripiprazole"/>
+        <entity id="DDI-DrugBank.d509.s16.e1" charOffset="102-110"
+            type="drug" text="quinidine"/>
+        <entity id="DDI-DrugBank.d509.s16.e2" charOffset="117-128"
+            type="drug" text="aripiprazole"/>
+        <pair id="DDI-DrugBank.d509.s16.p0"
+            e1="DDI-DrugBank.d509.s16.e0" e2="DDI-DrugBank.d509.s16.e1" ddi="false"/>
+        <pair id="DDI-DrugBank.d509.s16.p1"
+            e1="DDI-DrugBank.d509.s16.e0" e2="DDI-DrugBank.d509.s16.e2" ddi="false"/>
+        <pair id="DDI-DrugBank.d509.s16.p2"
+            e1="DDI-DrugBank.d509.s16.e1" e2="DDI-DrugBank.d509.s16.e2"
+            ddi="true" type="advise"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d509.s17" text="Other significant inhibitors of CYP2D6, such as fluoxetine or paroxetine, would be expected to have similar effects and, therefore, should be accompanied by similar dose reductions.">
+        <entity id="DDI-DrugBank.d509.s17.e0" charOffset="48-57"
+            type="drug" text="fluoxetine"/>
+        <entity id="DDI-DrugBank.d509.s17.e1" charOffset="62-71"
+            type="drug" text="paroxetine"/>
+        <pair id="DDI-DrugBank.d509.s17.p0"
+            e1="DDI-DrugBank.d509.s17.e0" e2="DDI-DrugBank.d509.s17.e1" ddi="false"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d509.s18" text="When the CYP2D6 inhibitor is withdrawn from the combination therapy, aripiprazole dose should then be increased.">
+        <entity id="DDI-DrugBank.d509.s18.e0" charOffset="69-80"
+            type="drug" text="aripiprazole"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d509.s19" text="Carbamazepine: Coadministration of carbamazepine (200 mg BID), a potent CYP3A4 inducer, with aripiprazole (30 mg QD) resulted in an approximate 70% decrease in Cmax and AUC values of both aripiprazole and its active metabolite, dehydro-aripiprazole.">
+        <entity id="DDI-DrugBank.d509.s19.e0" charOffset="0-12"
+            type="drug" text="Carbamazepine"/>
+        <entity id="DDI-DrugBank.d509.s19.e1" charOffset="35-47"
+            type="drug" text="carbamazepine"/>
+        <entity id="DDI-DrugBank.d509.s19.e2" charOffset="93-104"
+            type="drug" text="aripiprazole"/>
+        <entity id="DDI-DrugBank.d509.s19.e3" charOffset="188-199"
+            type="drug" text="aripiprazole"/>
+        <entity id="DDI-DrugBank.d509.s19.e4" charOffset="228-247"
+            type="drug_n" text="dehydro-aripiprazole"/>
+        <pair id="DDI-DrugBank.d509.s19.p0"
+            e1="DDI-DrugBank.d509.s19.e0" e2="DDI-DrugBank.d509.s19.e1" ddi="false"/>
+        <pair id="DDI-DrugBank.d509.s19.p1"
+            e1="DDI-DrugBank.d509.s19.e0" e2="DDI-DrugBank.d509.s19.e2" ddi="false"/>
+        <pair id="DDI-DrugBank.d509.s19.p2"
+            e1="DDI-DrugBank.d509.s19.e0" e2="DDI-DrugBank.d509.s19.e3" ddi="false"/>
+        <pair id="DDI-DrugBank.d509.s19.p3"
+            e1="DDI-DrugBank.d509.s19.e0" e2="DDI-DrugBank.d509.s19.e4" ddi="false"/>
+        <pair id="DDI-DrugBank.d509.s19.p4"
+            e1="DDI-DrugBank.d509.s19.e1" e2="DDI-DrugBank.d509.s19.e2"
+            ddi="true" type="mechanism"/>
+        <pair id="DDI-DrugBank.d509.s19.p5"
+            e1="DDI-DrugBank.d509.s19.e1" e2="DDI-DrugBank.d509.s19.e3" ddi="false"/>
+        <pair id="DDI-DrugBank.d509.s19.p6"
+            e1="DDI-DrugBank.d509.s19.e1" e2="DDI-DrugBank.d509.s19.e4" ddi="false"/>
+        <pair id="DDI-DrugBank.d509.s19.p7"
+            e1="DDI-DrugBank.d509.s19.e2" e2="DDI-DrugBank.d509.s19.e3" ddi="false"/>
+        <pair id="DDI-DrugBank.d509.s19.p8"
+            e1="DDI-DrugBank.d509.s19.e2" e2="DDI-DrugBank.d509.s19.e4" ddi="false"/>
+        <pair id="DDI-DrugBank.d509.s19.p9"
+            e1="DDI-DrugBank.d509.s19.e3" e2="DDI-DrugBank.d509.s19.e4" ddi="false"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d509.s20" text="When carbamazepine is added to aripiprazole therapy, aripiprazole dose should be doubled.">
+        <entity id="DDI-DrugBank.d509.s20.e0" charOffset="5-17"
+            type="drug" text="carbamazepine"/>
+        <entity id="DDI-DrugBank.d509.s20.e1" charOffset="31-42"
+            type="drug" text="aripiprazole"/>
+        <entity id="DDI-DrugBank.d509.s20.e2" charOffset="53-64"
+            type="drug" text="aripiprazole"/>
+        <pair id="DDI-DrugBank.d509.s20.p0"
+            e1="DDI-DrugBank.d509.s20.e0" e2="DDI-DrugBank.d509.s20.e1"
+            ddi="true" type="advise"/>
+        <pair id="DDI-DrugBank.d509.s20.p1"
+            e1="DDI-DrugBank.d509.s20.e0" e2="DDI-DrugBank.d509.s20.e2" ddi="false"/>
+        <pair id="DDI-DrugBank.d509.s20.p2"
+            e1="DDI-DrugBank.d509.s20.e1" e2="DDI-DrugBank.d509.s20.e2" ddi="false"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d509.s21" text="Additional dose increases should be based on clinical evaluation."/>
+    <sentence id="DDI-DrugBank.d509.s22" text="When carbamazepine is withdrawn from the combination therapy, aripiprazole dose should then be reduced.">
+        <entity id="DDI-DrugBank.d509.s22.e0" charOffset="5-17"
+            type="drug" text="carbamazepine"/>
+        <entity id="DDI-DrugBank.d509.s22.e1" charOffset="62-73"
+            type="drug" text="aripiprazole"/>
+        <pair id="DDI-DrugBank.d509.s22.p0"
+            e1="DDI-DrugBank.d509.s22.e0" e2="DDI-DrugBank.d509.s22.e1"
+            ddi="true" type="advise"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d509.s23" text="No clinically significant effect of famotidine, valproate, or lithium was seen on the pharmacokinetics of aripiprazole (see CLINICAL PHARMACOLOGY: Drug- Drug Interactions).">
+        <entity id="DDI-DrugBank.d509.s23.e0" charOffset="36-45"
+            type="drug" text="famotidine"/>
+        <entity id="DDI-DrugBank.d509.s23.e1" charOffset="48-56"
+            type="drug" text="valproate"/>
+        <entity id="DDI-DrugBank.d509.s23.e2" charOffset="62-68"
+            type="drug" text="lithium"/>
+        <entity id="DDI-DrugBank.d509.s23.e3" charOffset="106-117"
+            type="drug" text="aripiprazole"/>
+        <pair id="DDI-DrugBank.d509.s23.p0"
+            e1="DDI-DrugBank.d509.s23.e0" e2="DDI-DrugBank.d509.s23.e1" ddi="false"/>
+        <pair id="DDI-DrugBank.d509.s23.p1"
+            e1="DDI-DrugBank.d509.s23.e0" e2="DDI-DrugBank.d509.s23.e2" ddi="false"/>
+        <pair id="DDI-DrugBank.d509.s23.p2"
+            e1="DDI-DrugBank.d509.s23.e0" e2="DDI-DrugBank.d509.s23.e3" ddi="false"/>
+        <pair id="DDI-DrugBank.d509.s23.p3"
+            e1="DDI-DrugBank.d509.s23.e1" e2="DDI-DrugBank.d509.s23.e2" ddi="false"/>
+        <pair id="DDI-DrugBank.d509.s23.p4"
+            e1="DDI-DrugBank.d509.s23.e1" e2="DDI-DrugBank.d509.s23.e3" ddi="false"/>
+        <pair id="DDI-DrugBank.d509.s23.p5"
+            e1="DDI-DrugBank.d509.s23.e2" e2="DDI-DrugBank.d509.s23.e3" ddi="false"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d509.s24" text="Potential for ABILIFY to Affect Other Drugs Aripiprazole is unlikely to cause clinically important pharmacokinetic interactions with drugs metabolized by cytochrome P450 enzymes.">
+        <entity id="DDI-DrugBank.d509.s24.e0" charOffset="14-20"
+            type="brand" text="ABILIFY"/>
+        <entity id="DDI-DrugBank.d509.s24.e1" charOffset="44-55"
+            type="drug" text="Aripiprazole"/>
+        <pair id="DDI-DrugBank.d509.s24.p0"
+            e1="DDI-DrugBank.d509.s24.e0" e2="DDI-DrugBank.d509.s24.e1" ddi="false"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d509.s25" text="In in vivo studies, 10- to 30-mg/day doses of aripiprazole had no significant effect on metabolism by CYP2D6 (dextromethorphan), CYP2C9 (warfarin), CYP2C19 (omeprazole, warfarin), and CYP3A4 (dextromethorphan) substrates.">
+        <entity id="DDI-DrugBank.d509.s25.e0" charOffset="46-57"
+            type="drug" text="aripiprazole"/>
+        <entity id="DDI-DrugBank.d509.s25.e1" charOffset="110-125"
+            type="drug" text="dextromethorphan"/>
+        <entity id="DDI-DrugBank.d509.s25.e2" charOffset="137-144"
+            type="drug" text="warfarin"/>
+        <entity id="DDI-DrugBank.d509.s25.e3" charOffset="157-166"
+            type="drug" text="omeprazole"/>
+        <entity id="DDI-DrugBank.d509.s25.e4" charOffset="169-176"
+            type="drug" text="warfarin"/>
+        <entity id="DDI-DrugBank.d509.s25.e5" charOffset="192-207"
+            type="drug" text="dextromethorphan"/>
+        <pair id="DDI-DrugBank.d509.s25.p0"
+            e1="DDI-DrugBank.d509.s25.e0" e2="DDI-DrugBank.d509.s25.e1" ddi="false"/>
+        <pair id="DDI-DrugBank.d509.s25.p1"
+            e1="DDI-DrugBank.d509.s25.e0" e2="DDI-DrugBank.d509.s25.e2" ddi="false"/>
+        <pair id="DDI-DrugBank.d509.s25.p2"
+            e1="DDI-DrugBank.d509.s25.e0" e2="DDI-DrugBank.d509.s25.e3" ddi="false"/>
+        <pair id="DDI-DrugBank.d509.s25.p3"
+            e1="DDI-DrugBank.d509.s25.e0" e2="DDI-DrugBank.d509.s25.e4" ddi="false"/>
+        <pair id="DDI-DrugBank.d509.s25.p4"
+            e1="DDI-DrugBank.d509.s25.e0" e2="DDI-DrugBank.d509.s25.e5" ddi="false"/>
+        <pair id="DDI-DrugBank.d509.s25.p5"
+            e1="DDI-DrugBank.d509.s25.e1" e2="DDI-DrugBank.d509.s25.e2" ddi="false"/>
+        <pair id="DDI-DrugBank.d509.s25.p6"
+            e1="DDI-DrugBank.d509.s25.e1" e2="DDI-DrugBank.d509.s25.e3" ddi="false"/>
+        <pair id="DDI-DrugBank.d509.s25.p7"
+            e1="DDI-DrugBank.d509.s25.e1" e2="DDI-DrugBank.d509.s25.e4" ddi="false"/>
+        <pair id="DDI-DrugBank.d509.s25.p8"
+            e1="DDI-DrugBank.d509.s25.e1" e2="DDI-DrugBank.d509.s25.e5" ddi="false"/>
+        <pair id="DDI-DrugBank.d509.s25.p9"
+            e1="DDI-DrugBank.d509.s25.e2" e2="DDI-DrugBank.d509.s25.e3" ddi="false"/>
+        <pair id="DDI-DrugBank.d509.s25.p10"
+            e1="DDI-DrugBank.d509.s25.e2" e2="DDI-DrugBank.d509.s25.e4" ddi="false"/>
+        <pair id="DDI-DrugBank.d509.s25.p11"
+            e1="DDI-DrugBank.d509.s25.e2" e2="DDI-DrugBank.d509.s25.e5" ddi="false"/>
+        <pair id="DDI-DrugBank.d509.s25.p12"
+            e1="DDI-DrugBank.d509.s25.e3" e2="DDI-DrugBank.d509.s25.e4" ddi="false"/>
+        <pair id="DDI-DrugBank.d509.s25.p13"
+            e1="DDI-DrugBank.d509.s25.e3" e2="DDI-DrugBank.d509.s25.e5" ddi="false"/>
+        <pair id="DDI-DrugBank.d509.s25.p14"
+            e1="DDI-DrugBank.d509.s25.e4" e2="DDI-DrugBank.d509.s25.e5" ddi="false"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d509.s26" text="Additionally, aripiprazole and dehydroaripiprazole did not show potential for altering CYP1A2-mediated metabolism in vitro.">
+        <entity id="DDI-DrugBank.d509.s26.e0" charOffset="14-25"
+            type="drug" text="aripiprazole"/>
+        <entity id="DDI-DrugBank.d509.s26.e1" charOffset="31-49"
+            type="drug_n" text="dehydroaripiprazole"/>
+        <pair id="DDI-DrugBank.d509.s26.p0"
+            e1="DDI-DrugBank.d509.s26.e0" e2="DDI-DrugBank.d509.s26.e1" ddi="false"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d509.s27" text="Alcohol: There was no significant difference between aripiprazole coadministered with ethanol and placebo coadministered with ethanol on performance of gross motor skills or stimulus response in healthy subjects.">
+        <entity id="DDI-DrugBank.d509.s27.e0" charOffset="0-6"
+            type="drug" text="Alcohol"/>
+        <entity id="DDI-DrugBank.d509.s27.e1" charOffset="53-64"
+            type="drug" text="aripiprazole"/>
+        <entity id="DDI-DrugBank.d509.s27.e2" charOffset="86-92"
+            type="drug" text="ethanol"/>
+        <entity id="DDI-DrugBank.d509.s27.e3" charOffset="126-132"
+            type="drug" text="ethanol"/>
+        <pair id="DDI-DrugBank.d509.s27.p0"
+            e1="DDI-DrugBank.d509.s27.e0" e2="DDI-DrugBank.d509.s27.e1" ddi="false"/>
+        <pair id="DDI-DrugBank.d509.s27.p1"
+            e1="DDI-DrugBank.d509.s27.e0" e2="DDI-DrugBank.d509.s27.e2" ddi="false"/>
+        <pair id="DDI-DrugBank.d509.s27.p2"
+            e1="DDI-DrugBank.d509.s27.e0" e2="DDI-DrugBank.d509.s27.e3" ddi="false"/>
+        <pair id="DDI-DrugBank.d509.s27.p3"
+            e1="DDI-DrugBank.d509.s27.e1" e2="DDI-DrugBank.d509.s27.e2" ddi="false"/>
+        <pair id="DDI-DrugBank.d509.s27.p4"
+            e1="DDI-DrugBank.d509.s27.e1" e2="DDI-DrugBank.d509.s27.e3" ddi="false"/>
+        <pair id="DDI-DrugBank.d509.s27.p5"
+            e1="DDI-DrugBank.d509.s27.e2" e2="DDI-DrugBank.d509.s27.e3" ddi="false"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d509.s28" text="As with most psychoactive medications, patients should be advised to avoid alcohol while taking ABILIFY">
+        <entity id="DDI-DrugBank.d509.s28.e0" charOffset="75-81"
+            type="drug" text="alcohol"/>
+        <entity id="DDI-DrugBank.d509.s28.e1" charOffset="96-102"
+            type="brand" text="ABILIFY"/>
+        <pair id="DDI-DrugBank.d509.s28.p0"
+            e1="DDI-DrugBank.d509.s28.e0" e2="DDI-DrugBank.d509.s28.e1"
+            ddi="true" type="advise"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d509.s29" text="."/>
+    <sentence id="DDI-DrugBank.d509.s30" text=""/>
+</document>

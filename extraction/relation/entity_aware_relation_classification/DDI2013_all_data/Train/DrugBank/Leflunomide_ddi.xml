@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="DDI-DrugBank.d41">
+    <sentence id="DDI-DrugBank.d41.s0" text="Cholestyramine and Charcoal Administration of cholestyramine or activated charcoal in patients (n=13) and volunteers (n=96) resulted in a rapid and significant decrease in plasma M1 (the active metabolite of leflunomide) concentration .">
+        <entity id="DDI-DrugBank.d41.s0.e0" charOffset="0-13"
+            type="drug" text="Cholestyramine"/>
+        <entity id="DDI-DrugBank.d41.s0.e1" charOffset="19-26"
+            type="drug" text="Charcoal"/>
+        <entity id="DDI-DrugBank.d41.s0.e2" charOffset="46-59"
+            type="drug" text="cholestyramine"/>
+        <entity id="DDI-DrugBank.d41.s0.e3" charOffset="64-81"
+            type="drug" text="activated charcoal"/>
+        <entity id="DDI-DrugBank.d41.s0.e4" charOffset="208-218"
+            type="drug" text="leflunomide"/>
+        <pair id="DDI-DrugBank.d41.s0.p0" e1="DDI-DrugBank.d41.s0.e0"
+            e2="DDI-DrugBank.d41.s0.e1" ddi="false"/>
+        <pair id="DDI-DrugBank.d41.s0.p1" e1="DDI-DrugBank.d41.s0.e0"
+            e2="DDI-DrugBank.d41.s0.e2" ddi="false"/>
+        <pair id="DDI-DrugBank.d41.s0.p2" e1="DDI-DrugBank.d41.s0.e0"
+            e2="DDI-DrugBank.d41.s0.e3" ddi="false"/>
+        <pair id="DDI-DrugBank.d41.s0.p3" e1="DDI-DrugBank.d41.s0.e0"
+            e2="DDI-DrugBank.d41.s0.e4" ddi="false"/>
+        <pair id="DDI-DrugBank.d41.s0.p4" e1="DDI-DrugBank.d41.s0.e1"
+            e2="DDI-DrugBank.d41.s0.e2" ddi="false"/>
+        <pair id="DDI-DrugBank.d41.s0.p5" e1="DDI-DrugBank.d41.s0.e1"
+            e2="DDI-DrugBank.d41.s0.e3" ddi="false"/>
+        <pair id="DDI-DrugBank.d41.s0.p6" e1="DDI-DrugBank.d41.s0.e1"
+            e2="DDI-DrugBank.d41.s0.e4" ddi="false"/>
+        <pair id="DDI-DrugBank.d41.s0.p7" e1="DDI-DrugBank.d41.s0.e2"
+            e2="DDI-DrugBank.d41.s0.e3" ddi="false"/>
+        <pair id="DDI-DrugBank.d41.s0.p8" e1="DDI-DrugBank.d41.s0.e2"
+            e2="DDI-DrugBank.d41.s0.e4" ddi="true" type="mechanism"/>
+        <pair id="DDI-DrugBank.d41.s0.p9" e1="DDI-DrugBank.d41.s0.e3"
+            e2="DDI-DrugBank.d41.s0.e4" ddi="true" type="mechanism"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d41.s1" text="Hepatotoxic Drugs Increased side effects may occur when leflunomide is given concomitantly with hepatotoxic substances.">
+        <entity id="DDI-DrugBank.d41.s1.e0" charOffset="56-66"
+            type="drug" text="leflunomide"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d41.s2" text="This is also to be considered when leflunomide treatment is followed by such drugs without a drug elimination procedure.">
+        <entity id="DDI-DrugBank.d41.s2.e0" charOffset="35-45"
+            type="drug" text="leflunomide"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d41.s3" text="In a small (n=30) combination study of ARAVA with methotrexate, a 2- to 3-fold elevation in liver enzymes was seen in 5 of 30 patients.">
+        <entity id="DDI-DrugBank.d41.s3.e0" charOffset="39-43"
+            type="brand" text="ARAVA"/>
+        <entity id="DDI-DrugBank.d41.s3.e1" charOffset="50-61"
+            type="drug" text="methotrexate"/>
+        <pair id="DDI-DrugBank.d41.s3.p0" e1="DDI-DrugBank.d41.s3.e0"
+            e2="DDI-DrugBank.d41.s3.e1" ddi="true" type="effect"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d41.s4" text="All elevations resolved, 2 with continuation of both drugs and 3 after discontinuation of leflunomide.">
+        <entity id="DDI-DrugBank.d41.s4.e0" charOffset="90-100"
+            type="drug" text="leflunomide"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d41.s5" text="A  3-fold increase was seen in another 5 patients."/>
+    <sentence id="DDI-DrugBank.d41.s6" text="All of these also resolved, 2 with continuation of both drugs and 3 after discontinuation of leflunomide.">
+        <entity id="DDI-DrugBank.d41.s6.e0" charOffset="93-103"
+            type="drug" text="leflunomide"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d41.s7" text="Three patients met ACR criteria for liver biopsy (1: Roegnik Grade I, 2: Roegnik Grade IIIa)."/>
+    <sentence id="DDI-DrugBank.d41.s8" text="No pharmacokinetic interaction was identified."/>
+    <sentence id="DDI-DrugBank.d41.s9" text="NSAIDs: In in vitro studies, M1 was shown to cause increases ranging from 13 - 50% in the free fraction of diclofenac and ibuprofen at concentrations in the clinical range.">
+        <entity id="DDI-DrugBank.d41.s9.e0" charOffset="0-5"
+            type="group" text="NSAIDs"/>
+        <entity id="DDI-DrugBank.d41.s9.e1" charOffset="107-116"
+            type="drug" text="diclofenac"/>
+        <entity id="DDI-DrugBank.d41.s9.e2" charOffset="122-130"
+            type="drug" text="ibuprofen"/>
+        <pair id="DDI-DrugBank.d41.s9.p0" e1="DDI-DrugBank.d41.s9.e0"
+            e2="DDI-DrugBank.d41.s9.e1" ddi="false"/>
+        <pair id="DDI-DrugBank.d41.s9.p1" e1="DDI-DrugBank.d41.s9.e0"
+            e2="DDI-DrugBank.d41.s9.e2" ddi="false"/>
+        <pair id="DDI-DrugBank.d41.s9.p2" e1="DDI-DrugBank.d41.s9.e1"
+            e2="DDI-DrugBank.d41.s9.e2" ddi="false"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d41.s10" text="The clinical significance of this finding is unknown;"/>
+    <sentence id="DDI-DrugBank.d41.s11" text="however, there was extensive concomitant use of NSAIDs in clinical studies and no differential effect was observed.">
+        <entity id="DDI-DrugBank.d41.s11.e0" charOffset="48-53"
+            type="group" text="NSAIDs"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d41.s12" text="Tolbutamide: In in vitro studies, M1 was shown to cause increases ranging from 13 - 50% in the free fraction of tolbutamide at concentrations in the clinical range.">
+        <entity id="DDI-DrugBank.d41.s12.e0" charOffset="0-10"
+            type="drug" text="Tolbutamide"/>
+        <entity id="DDI-DrugBank.d41.s12.e1" charOffset="112-122"
+            type="drug" text="tolbutamide"/>
+        <pair id="DDI-DrugBank.d41.s12.p0" e1="DDI-DrugBank.d41.s12.e0"
+            e2="DDI-DrugBank.d41.s12.e1" ddi="false"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d41.s13" text="The clinical significance of this finding is unknown."/>
+    <sentence id="DDI-DrugBank.d41.s14" text="Rifampin: Following concomitant administration of a single dose of ARAVA to subjects receiving multiple doses of rifampin, M1 peak levels were increased (~40%) over those seen when ARAVA was given alone.">
+        <entity id="DDI-DrugBank.d41.s14.e0" charOffset="0-7"
+            type="drug" text="Rifampin"/>
+        <entity id="DDI-DrugBank.d41.s14.e1" charOffset="67-71"
+            type="brand" text="ARAVA"/>
+        <entity id="DDI-DrugBank.d41.s14.e2" charOffset="113-120"
+            type="drug" text="rifampin"/>
+        <entity id="DDI-DrugBank.d41.s14.e3" charOffset="181-185"
+            type="brand" text="ARAVA"/>
+        <pair id="DDI-DrugBank.d41.s14.p0" e1="DDI-DrugBank.d41.s14.e0"
+            e2="DDI-DrugBank.d41.s14.e1" ddi="false"/>
+        <pair id="DDI-DrugBank.d41.s14.p1" e1="DDI-DrugBank.d41.s14.e0"
+            e2="DDI-DrugBank.d41.s14.e2" ddi="false"/>
+        <pair id="DDI-DrugBank.d41.s14.p2" e1="DDI-DrugBank.d41.s14.e0"
+            e2="DDI-DrugBank.d41.s14.e3" ddi="false"/>
+        <pair id="DDI-DrugBank.d41.s14.p3" e1="DDI-DrugBank.d41.s14.e1"
+            e2="DDI-DrugBank.d41.s14.e2" ddi="true" type="mechanism"/>
+        <pair id="DDI-DrugBank.d41.s14.p4" e1="DDI-DrugBank.d41.s14.e1"
+            e2="DDI-DrugBank.d41.s14.e3" ddi="false"/>
+        <pair id="DDI-DrugBank.d41.s14.p5" e1="DDI-DrugBank.d41.s14.e2"
+            e2="DDI-DrugBank.d41.s14.e3" ddi="false"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d41.s15" text="Because of the potential for ARAVA levels to continue to increase with multiple dosing, caution should be used if patients are to be receiving both ARAVA and rifampin.">
+        <entity id="DDI-DrugBank.d41.s15.e0" charOffset="29-33"
+            type="brand" text="ARAVA"/>
+        <entity id="DDI-DrugBank.d41.s15.e1" charOffset="148-152"
+            type="brand" text="ARAVA"/>
+        <entity id="DDI-DrugBank.d41.s15.e2" charOffset="158-165"
+            type="drug" text="rifampin"/>
+        <pair id="DDI-DrugBank.d41.s15.p0" e1="DDI-DrugBank.d41.s15.e0"
+            e2="DDI-DrugBank.d41.s15.e1" ddi="false"/>
+        <pair id="DDI-DrugBank.d41.s15.p1" e1="DDI-DrugBank.d41.s15.e0"
+            e2="DDI-DrugBank.d41.s15.e2" ddi="false"/>
+        <pair id="DDI-DrugBank.d41.s15.p2" e1="DDI-DrugBank.d41.s15.e1"
+            e2="DDI-DrugBank.d41.s15.e2" ddi="true" type="advise"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d41.s16" text="Warfarin: Increased INR (International Normalized Ratio) when ARAVA and warfarin were co-administered has been rarely reported.">
+        <entity id="DDI-DrugBank.d41.s16.e0" charOffset="0-7"
+            type="drug" text="Warfarin"/>
+        <entity id="DDI-DrugBank.d41.s16.e1" charOffset="62-66"
+            type="brand" text="ARAVA"/>
+        <entity id="DDI-DrugBank.d41.s16.e2" charOffset="72-79"
+            type="drug" text="warfarin"/>
+        <pair id="DDI-DrugBank.d41.s16.p0" e1="DDI-DrugBank.d41.s16.e0"
+            e2="DDI-DrugBank.d41.s16.e1" ddi="false"/>
+        <pair id="DDI-DrugBank.d41.s16.p1" e1="DDI-DrugBank.d41.s16.e0"
+            e2="DDI-DrugBank.d41.s16.e2" ddi="false"/>
+        <pair id="DDI-DrugBank.d41.s16.p2" e1="DDI-DrugBank.d41.s16.e1"
+            e2="DDI-DrugBank.d41.s16.e2" ddi="true" type="effect"/>
+    </sentence>
+</document>

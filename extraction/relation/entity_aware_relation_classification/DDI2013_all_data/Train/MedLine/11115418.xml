@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="DDI-MedLine.d95">
+    <sentence id="DDI-MedLine.d95.s0" text="The mechanism of resveratrol-induced vasorelaxation differs in the mesenteric resistance arteries of lean and obese rats.&#xd;&#xa;">
+        <entity id="DDI-MedLine.d95.s0.e0" charOffset="17-27"
+            type="drug_n" text="resveratrol"/>
+    </sentence>
+    <sentence id="DDI-MedLine.d95.s1" text="Resveratrol has been shown to induce vasorelaxation. ">
+        <entity id="DDI-MedLine.d95.s1.e0" charOffset="0-10"
+            type="drug_n" text="Resveratrol"/>
+    </sentence>
+    <sentence id="DDI-MedLine.d95.s2" text="In this study, we investigated the mechanism(s) of resveratrol-induced vasorelaxation in resistance mesenteric arteries from male lean and dietary-induced obese rats. ">
+        <entity id="DDI-MedLine.d95.s2.e0" charOffset="51-61"
+            type="drug_n" text="resveratrol"/>
+    </sentence>
+    <sentence id="DDI-MedLine.d95.s3" text="Compared with lean rats, arteries from dietary-obese rats showed significant (P&lt;0.001) endothelial dysfunction, as indicated by a decrease (>20%) in maximal acetylcholine-induced vasorelaxation. "/>
+    <sentence id="DDI-MedLine.d95.s4" text="Resveratrol (5-35 micromol/l) induced concentration-dependent relaxation of mesenteric arteries preconstricted with noradrenaline (8 micromol/l) or KCl (125 mmol/l) from both lean and dietary-obese rats. ">
+        <entity id="DDI-MedLine.d95.s4.e0" charOffset="0-10"
+            type="drug_n" text="Resveratrol"/>
+        <entity id="DDI-MedLine.d95.s4.e1" charOffset="116-128"
+            type="drug" text="noradrenaline"/>
+        <entity id="DDI-MedLine.d95.s4.e2" charOffset="148-150"
+            type="drug" text="KCl"/>
+        <pair id="DDI-MedLine.d95.s4.p0" e1="DDI-MedLine.d95.s4.e0"
+            e2="DDI-MedLine.d95.s4.e1" ddi="false"/>
+        <pair id="DDI-MedLine.d95.s4.p1" e1="DDI-MedLine.d95.s4.e0"
+            e2="DDI-MedLine.d95.s4.e2" ddi="false"/>
+        <pair id="DDI-MedLine.d95.s4.p2" e1="DDI-MedLine.d95.s4.e1"
+            e2="DDI-MedLine.d95.s4.e2" ddi="false"/>
+    </sentence>
+    <sentence id="DDI-MedLine.d95.s5" text="There were no significant differences between the two groups, achieving a maximum relaxation of >95% at a concentration of 35 micromol/l. "/>
+    <sentence id="DDI-MedLine.d95.s6" text="However, L-NAME (100 and 300 micromol/l) did not alter the effects of reseveratrol on arteries from dietary-obese rats, giving superimposed concentration-responses curves. ">
+        <entity id="DDI-MedLine.d95.s6.e0" charOffset="9-14"
+            type="drug_n" text="L-NAME"/>
+        <entity id="DDI-MedLine.d95.s6.e1" charOffset="70-81"
+            type="drug_n" text="reseveratrol"/>
+        <pair id="DDI-MedLine.d95.s6.p0" e1="DDI-MedLine.d95.s6.e0"
+            e2="DDI-MedLine.d95.s6.e1" ddi="false"/>
+    </sentence>
+    <sentence id="DDI-MedLine.d95.s7" text="Indomethacin was also ineffective in altering resveratrol activity in arteries from both lean and dietary-obese rats. ">
+        <entity id="DDI-MedLine.d95.s7.e0" charOffset="0-11" type="drug" text="Indomethacin"/>
+        <entity id="DDI-MedLine.d95.s7.e1" charOffset="46-56"
+            type="drug_n" text="resveratrol"/>
+        <pair id="DDI-MedLine.d95.s7.p0" e1="DDI-MedLine.d95.s7.e0"
+            e2="DDI-MedLine.d95.s7.e1" ddi="false"/>
+    </sentence>
+    <sentence id="DDI-MedLine.d95.s8" text="In noradrenaline-precontracted arteries from dietary-obese rats, responses to resveratrol were not attenuated by endothelial denudation, indicating an action independent of the endothelium. ">
+        <entity id="DDI-MedLine.d95.s8.e0" charOffset="3-15" type="drug" text="noradrenaline"/>
+        <entity id="DDI-MedLine.d95.s8.e1" charOffset="78-88"
+            type="drug_n" text="resveratrol"/>
+        <pair id="DDI-MedLine.d95.s8.p0" e1="DDI-MedLine.d95.s8.e0"
+            e2="DDI-MedLine.d95.s8.e1" ddi="false"/>
+    </sentence>
+    <sentence id="DDI-MedLine.d95.s9" text="This study indicates that: (a) the maximal effects of resveratrol on resistance arteries from lean and dietary-obese rats are not effected by endothelial dysfunction, and (b) the effects of resveratrol in lean animals (where endothelial function is not impaired), but not in dietary-obese rats, are mediated via NO.">
+        <entity id="DDI-MedLine.d95.s9.e0" charOffset="54-64"
+            type="drug_n" text="resveratrol"/>
+        <entity id="DDI-MedLine.d95.s9.e1" charOffset="190-200"
+            type="drug_n" text="resveratrol"/>
+        <pair id="DDI-MedLine.d95.s9.p0" e1="DDI-MedLine.d95.s9.e0"
+            e2="DDI-MedLine.d95.s9.e1" ddi="false"/>
+    </sentence>
+</document>

@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="DDI-DrugBank.d676">
+    <sentence id="DDI-DrugBank.d676.s0" text="To minimize CNS depression and possible potentiation, barbiturates, antihistamines, narcotics, hypotensive agents or phenothiazines should be used with caution. ">
+        <entity id="DDI-DrugBank.d676.s0.e0" charOffset="54-65"
+            type="group" text="barbiturates"/>
+        <entity id="DDI-DrugBank.d676.s0.e1" charOffset="68-81"
+            type="group" text="antihistamines"/>
+        <entity id="DDI-DrugBank.d676.s0.e2" charOffset="84-92"
+            type="group" text="narcotics"/>
+        <entity id="DDI-DrugBank.d676.s0.e3" charOffset="95-112"
+            type="group" text="hypotensive agents"/>
+        <entity id="DDI-DrugBank.d676.s0.e4" charOffset="117-130"
+            type="group" text="phenothiazines"/>
+        <pair id="DDI-DrugBank.d676.s0.p0" e1="DDI-DrugBank.d676.s0.e0"
+            e2="DDI-DrugBank.d676.s0.e1" ddi="false"/>
+        <pair id="DDI-DrugBank.d676.s0.p1" e1="DDI-DrugBank.d676.s0.e0"
+            e2="DDI-DrugBank.d676.s0.e2" ddi="false"/>
+        <pair id="DDI-DrugBank.d676.s0.p2" e1="DDI-DrugBank.d676.s0.e0"
+            e2="DDI-DrugBank.d676.s0.e3" ddi="false"/>
+        <pair id="DDI-DrugBank.d676.s0.p3" e1="DDI-DrugBank.d676.s0.e0"
+            e2="DDI-DrugBank.d676.s0.e4" ddi="false"/>
+        <pair id="DDI-DrugBank.d676.s0.p4" e1="DDI-DrugBank.d676.s0.e1"
+            e2="DDI-DrugBank.d676.s0.e2" ddi="false"/>
+        <pair id="DDI-DrugBank.d676.s0.p5" e1="DDI-DrugBank.d676.s0.e1"
+            e2="DDI-DrugBank.d676.s0.e3" ddi="false"/>
+        <pair id="DDI-DrugBank.d676.s0.p6" e1="DDI-DrugBank.d676.s0.e1"
+            e2="DDI-DrugBank.d676.s0.e4" ddi="false"/>
+        <pair id="DDI-DrugBank.d676.s0.p7" e1="DDI-DrugBank.d676.s0.e2"
+            e2="DDI-DrugBank.d676.s0.e3" ddi="false"/>
+        <pair id="DDI-DrugBank.d676.s0.p8" e1="DDI-DrugBank.d676.s0.e2"
+            e2="DDI-DrugBank.d676.s0.e4" ddi="false"/>
+        <pair id="DDI-DrugBank.d676.s0.p9" e1="DDI-DrugBank.d676.s0.e3"
+            e2="DDI-DrugBank.d676.s0.e4" ddi="false"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d676.s1" text="Ethyl alcohol should not be used since there may be an Antabuse (disulfiram)-like reaction. ">
+        <entity id="DDI-DrugBank.d676.s1.e0" charOffset="0-12"
+            type="drug" text="Ethyl alcohol"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d676.s2" text="Because Matulane exhibits some monoamine oxidase inhibitory activity, sympathomimetic drugs, tricyclic antidepressant drugs (e.g., amitriptyline HCl, imipramine HCl) and other drugs and foods with known high tyramine content, such as wine, yogurt, ripe cheese and bananas, should be avoided. ">
+        <entity id="DDI-DrugBank.d676.s2.e0" charOffset="8-15"
+            type="brand" text="Matulane"/>
+        <entity id="DDI-DrugBank.d676.s2.e1" charOffset="70-90"
+            type="group" text="sympathomimetic drugs"/>
+        <entity id="DDI-DrugBank.d676.s2.e2" charOffset="93-116"
+            type="group" text="tricyclic antidepressant"/>
+        <entity id="DDI-DrugBank.d676.s2.e3" charOffset="131-147"
+            type="drug" text="amitriptyline HCl"/>
+        <entity id="DDI-DrugBank.d676.s2.e4" charOffset="150-163"
+            type="drug" text="imipramine HCl"/>
+        <entity id="DDI-DrugBank.d676.s2.e5" charOffset="208-215"
+            type="drug_n" text="tyramine"/>
+        <pair id="DDI-DrugBank.d676.s2.p0" e1="DDI-DrugBank.d676.s2.e0"
+            e2="DDI-DrugBank.d676.s2.e1" ddi="true" type="advise"/>
+        <pair id="DDI-DrugBank.d676.s2.p1" e1="DDI-DrugBank.d676.s2.e0"
+            e2="DDI-DrugBank.d676.s2.e2" ddi="true" type="advise"/>
+        <pair id="DDI-DrugBank.d676.s2.p2" e1="DDI-DrugBank.d676.s2.e0"
+            e2="DDI-DrugBank.d676.s2.e3" ddi="true" type="advise"/>
+        <pair id="DDI-DrugBank.d676.s2.p3" e1="DDI-DrugBank.d676.s2.e0"
+            e2="DDI-DrugBank.d676.s2.e4" ddi="true" type="advise"/>
+        <pair id="DDI-DrugBank.d676.s2.p4" e1="DDI-DrugBank.d676.s2.e0"
+            e2="DDI-DrugBank.d676.s2.e5" ddi="true" type="advise"/>
+        <pair id="DDI-DrugBank.d676.s2.p5" e1="DDI-DrugBank.d676.s2.e1"
+            e2="DDI-DrugBank.d676.s2.e2" ddi="false"/>
+        <pair id="DDI-DrugBank.d676.s2.p6" e1="DDI-DrugBank.d676.s2.e1"
+            e2="DDI-DrugBank.d676.s2.e3" ddi="false"/>
+        <pair id="DDI-DrugBank.d676.s2.p7" e1="DDI-DrugBank.d676.s2.e1"
+            e2="DDI-DrugBank.d676.s2.e4" ddi="false"/>
+        <pair id="DDI-DrugBank.d676.s2.p8" e1="DDI-DrugBank.d676.s2.e1"
+            e2="DDI-DrugBank.d676.s2.e5" ddi="false"/>
+        <pair id="DDI-DrugBank.d676.s2.p9" e1="DDI-DrugBank.d676.s2.e2"
+            e2="DDI-DrugBank.d676.s2.e3" ddi="false"/>
+        <pair id="DDI-DrugBank.d676.s2.p10" e1="DDI-DrugBank.d676.s2.e2"
+            e2="DDI-DrugBank.d676.s2.e4" ddi="false"/>
+        <pair id="DDI-DrugBank.d676.s2.p11" e1="DDI-DrugBank.d676.s2.e2"
+            e2="DDI-DrugBank.d676.s2.e5" ddi="false"/>
+        <pair id="DDI-DrugBank.d676.s2.p12" e1="DDI-DrugBank.d676.s2.e3"
+            e2="DDI-DrugBank.d676.s2.e4" ddi="false"/>
+        <pair id="DDI-DrugBank.d676.s2.p13" e1="DDI-DrugBank.d676.s2.e3"
+            e2="DDI-DrugBank.d676.s2.e5" ddi="false"/>
+        <pair id="DDI-DrugBank.d676.s2.p14" e1="DDI-DrugBank.d676.s2.e4"
+            e2="DDI-DrugBank.d676.s2.e5" ddi="false"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d676.s3" text="A further phenomenon of toxicity common to many hydrazine derivatives is hemolysis and the appearance of Heinz-Ehrlich inclusion bodies in erythrocytes.  ">
+        <entity id="DDI-DrugBank.d676.s3.e0" charOffset="48-68"
+            type="group" text="hydrazine derivatives"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d676.s4" text="No cross-resistance with other chemotherapeutic agents, radiotherapy or steroids has been demonstrated.">
+        <entity id="DDI-DrugBank.d676.s4.e0" charOffset="31-53"
+            type="group" text="chemotherapeutic agents"/>
+        <entity id="DDI-DrugBank.d676.s4.e1" charOffset="72-79"
+            type="group" text="steroids"/>
+        <pair id="DDI-DrugBank.d676.s4.p0" e1="DDI-DrugBank.d676.s4.e0"
+            e2="DDI-DrugBank.d676.s4.e1" ddi="false"/>
+    </sentence>
+</document>

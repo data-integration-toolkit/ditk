@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="DDI-MedLine.d209">
+    <sentence id="DDI-MedLine.d209.s0" text="Tamoxifen and CYP 2D6 inhibitors: caution.&#xd;&#xa;">
+        <entity id="DDI-MedLine.d209.s0.e0" charOffset="0-8" type="drug" text="Tamoxifen"/>
+    </sentence>
+    <sentence id="DDI-MedLine.d209.s1" text="Tamoxifen, an estrogen antagonist, is the standard hormone treatment for breast cancer. ">
+        <entity id="DDI-MedLine.d209.s1.e0" charOffset="0-8" type="drug" text="Tamoxifen"/>
+        <entity id="DDI-MedLine.d209.s1.e1" charOffset="14-32"
+            type="group" text="estrogen antagonist"/>
+        <pair id="DDI-MedLine.d209.s1.p0" e1="DDI-MedLine.d209.s1.e0"
+            e2="DDI-MedLine.d209.s1.e1" ddi="false"/>
+    </sentence>
+    <sentence id="DDI-MedLine.d209.s2" text="It is extensively transformed into its active metabolites by the cytochrome P450 enzyme system, especially into endoxifen by isoenzyme CYP 2D6. ">
+        <entity id="DDI-MedLine.d209.s2.e0" charOffset="112-120"
+            type="drug_n" text="endoxifen"/>
+    </sentence>
+    <sentence id="DDI-MedLine.d209.s3" text="Co-administration of tamoxifen with isoenzyme CYP 2D6 inhibitors reduces this metabolism. ">
+        <entity id="DDI-MedLine.d209.s3.e0" charOffset="21-29"
+            type="drug" text="tamoxifen"/>
+    </sentence>
+    <sentence id="DDI-MedLine.d209.s4" text="Selective serotonin reuptake inhibitor (SSRI) antidepressants inhibit isoenzyme CYP 2D6. ">
+        <entity id="DDI-MedLine.d209.s4.e0" charOffset="0-60"
+            type="group" text="Selective serotonin reuptake inhibitor (SSRI) antidepressants"/>
+    </sentence>
+    <sentence id="DDI-MedLine.d209.s5" text="Paroxetine and fluoxetine reduce the plasma concentration of endoxifen by about 50%. ">
+        <entity id="DDI-MedLine.d209.s5.e0" charOffset="0-9" type="drug" text="Paroxetine"/>
+        <entity id="DDI-MedLine.d209.s5.e1" charOffset="15-24"
+            type="drug" text="fluoxetine"/>
+        <entity id="DDI-MedLine.d209.s5.e2" charOffset="61-69"
+            type="drug_n" text="endoxifen"/>
+        <pair id="DDI-MedLine.d209.s5.p0" e1="DDI-MedLine.d209.s5.e0"
+            e2="DDI-MedLine.d209.s5.e1" ddi="false"/>
+        <pair id="DDI-MedLine.d209.s5.p1" e1="DDI-MedLine.d209.s5.e0"
+            e2="DDI-MedLine.d209.s5.e2" ddi="true" type="mechanism"/>
+        <pair id="DDI-MedLine.d209.s5.p2" e1="DDI-MedLine.d209.s5.e1"
+            e2="DDI-MedLine.d209.s5.e2" ddi="true" type="mechanism"/>
+    </sentence>
+    <sentence id="DDI-MedLine.d209.s6" text="Two epidemiological studies involving about 3700 women have shown a link between the use of SSRI antidepressants and an increased frequency of breast cancer recurrence. ">
+        <entity id="DDI-MedLine.d209.s6.e0" charOffset="92-111"
+            type="group" text="SSRI antidepressants"/>
+    </sentence>
+    <sentence id="DDI-MedLine.d209.s7" text="Other studies, with a lower level of evidence, were less convincing. "/>
+    <sentence id="DDI-MedLine.d209.s8" text="Studies of other isoenzyme CYP 2D6 inhibitors showed no increase in the risk of breast cancer recurrence, but they lacked statistical power. "/>
+    <sentence id="DDI-MedLine.d209.s9" text="It is better to avoid prescribing isoenzyme CYP 2D6 inhibitors to women treated with tamoxifen for breast cancer, especially SSRI antidepressants such as paroxetine and fluoxetine. ">
+        <entity id="DDI-MedLine.d209.s9.e0" charOffset="85-93"
+            type="drug" text="tamoxifen"/>
+        <entity id="DDI-MedLine.d209.s9.e1" charOffset="125-144"
+            type="group" text="SSRI antidepressants"/>
+        <entity id="DDI-MedLine.d209.s9.e2" charOffset="154-163"
+            type="drug" text="paroxetine"/>
+        <entity id="DDI-MedLine.d209.s9.e3" charOffset="169-178"
+            type="drug" text="fluoxetine"/>
+        <pair id="DDI-MedLine.d209.s9.p0" e1="DDI-MedLine.d209.s9.e0"
+            e2="DDI-MedLine.d209.s9.e1" ddi="true" type="advise"/>
+        <pair id="DDI-MedLine.d209.s9.p1" e1="DDI-MedLine.d209.s9.e0"
+            e2="DDI-MedLine.d209.s9.e2" ddi="true" type="advise"/>
+        <pair id="DDI-MedLine.d209.s9.p2" e1="DDI-MedLine.d209.s9.e0"
+            e2="DDI-MedLine.d209.s9.e3" ddi="true" type="advise"/>
+        <pair id="DDI-MedLine.d209.s9.p3" e1="DDI-MedLine.d209.s9.e1"
+            e2="DDI-MedLine.d209.s9.e2" ddi="false"/>
+        <pair id="DDI-MedLine.d209.s9.p4" e1="DDI-MedLine.d209.s9.e1"
+            e2="DDI-MedLine.d209.s9.e3" ddi="false"/>
+        <pair id="DDI-MedLine.d209.s9.p5" e1="DDI-MedLine.d209.s9.e2"
+            e2="DDI-MedLine.d209.s9.e3" ddi="false"/>
+    </sentence>
+    <sentence id="DDI-MedLine.d209.s10" text="Depression does not always require antidepressant drug therapy, and antidepressants have no proven preventive impact on hot flushes linked to the menopause. ">
+        <entity id="DDI-MedLine.d209.s10.e0" charOffset="35-53"
+            type="group" text="antidepressant drug"/>
+        <entity id="DDI-MedLine.d209.s10.e1" charOffset="68-82"
+            type="group" text="antidepressants"/>
+        <pair id="DDI-MedLine.d209.s10.p0" e1="DDI-MedLine.d209.s10.e0"
+            e2="DDI-MedLine.d209.s10.e1" ddi="false"/>
+    </sentence>
+    <sentence id="DDI-MedLine.d209.s11" text="If in certain cases, an antidepressant is considered necessary, it may be advisable to replace tamoxifen with anastrozole.">
+        <entity id="DDI-MedLine.d209.s11.e0" charOffset="24-37"
+            type="group" text="antidepressant"/>
+        <entity id="DDI-MedLine.d209.s11.e1" charOffset="95-103"
+            type="drug" text="tamoxifen"/>
+        <entity id="DDI-MedLine.d209.s11.e2" charOffset="110-120"
+            type="drug" text="anastrozole"/>
+        <pair id="DDI-MedLine.d209.s11.p0" e1="DDI-MedLine.d209.s11.e0"
+            e2="DDI-MedLine.d209.s11.e1" ddi="true" type="advise"/>
+        <pair id="DDI-MedLine.d209.s11.p1" e1="DDI-MedLine.d209.s11.e0"
+            e2="DDI-MedLine.d209.s11.e2" ddi="false"/>
+        <pair id="DDI-MedLine.d209.s11.p2" e1="DDI-MedLine.d209.s11.e1"
+            e2="DDI-MedLine.d209.s11.e2" ddi="false"/>
+    </sentence>
+</document>

@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="DDI-DrugBank.d374">
+    <sentence id="DDI-DrugBank.d374.s0" text="Auranofin should be avoided by patients with a history of serious reaction to any gold medication, including Solganal and Myochrysine.">
+        <entity id="DDI-DrugBank.d374.s0.e0" charOffset="0-8"
+            type="drug" text="Auranofin"/>
+        <entity id="DDI-DrugBank.d374.s0.e1" charOffset="82-96"
+            type="group" text="gold medication"/>
+        <entity id="DDI-DrugBank.d374.s0.e2" charOffset="109-116"
+            type="brand" text="Solganal"/>
+        <entity id="DDI-DrugBank.d374.s0.e3" charOffset="122-132"
+            type="brand" text="Myochrysine"/>
+        <pair id="DDI-DrugBank.d374.s0.p0" e1="DDI-DrugBank.d374.s0.e0"
+            e2="DDI-DrugBank.d374.s0.e1" ddi="true" type="advise"/>
+        <pair id="DDI-DrugBank.d374.s0.p1" e1="DDI-DrugBank.d374.s0.e0"
+            e2="DDI-DrugBank.d374.s0.e2" ddi="true" type="advise"/>
+        <pair id="DDI-DrugBank.d374.s0.p2" e1="DDI-DrugBank.d374.s0.e0"
+            e2="DDI-DrugBank.d374.s0.e3" ddi="true" type="advise"/>
+        <pair id="DDI-DrugBank.d374.s0.p3" e1="DDI-DrugBank.d374.s0.e1"
+            e2="DDI-DrugBank.d374.s0.e2" ddi="false"/>
+        <pair id="DDI-DrugBank.d374.s0.p4" e1="DDI-DrugBank.d374.s0.e1"
+            e2="DDI-DrugBank.d374.s0.e3" ddi="false"/>
+        <pair id="DDI-DrugBank.d374.s0.p5" e1="DDI-DrugBank.d374.s0.e2"
+            e2="DDI-DrugBank.d374.s0.e3" ddi="false"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d374.s1" text="Auranofin should not be used together with penicillamine (Depen, Cuprimine), another arthritis medication.">
+        <entity id="DDI-DrugBank.d374.s1.e0" charOffset="0-8"
+            type="drug" text="Auranofin"/>
+        <entity id="DDI-DrugBank.d374.s1.e1" charOffset="43-55"
+            type="drug" text="penicillamine"/>
+        <entity id="DDI-DrugBank.d374.s1.e2" charOffset="58-62"
+            type="brand" text="Depen"/>
+        <entity id="DDI-DrugBank.d374.s1.e3" charOffset="65-73"
+            type="brand" text="Cuprimine"/>
+        <pair id="DDI-DrugBank.d374.s1.p0" e1="DDI-DrugBank.d374.s1.e0"
+            e2="DDI-DrugBank.d374.s1.e1" ddi="true" type="advise"/>
+        <pair id="DDI-DrugBank.d374.s1.p1" e1="DDI-DrugBank.d374.s1.e0"
+            e2="DDI-DrugBank.d374.s1.e2" ddi="true" type="advise"/>
+        <pair id="DDI-DrugBank.d374.s1.p2" e1="DDI-DrugBank.d374.s1.e0"
+            e2="DDI-DrugBank.d374.s1.e3" ddi="true" type="advise"/>
+        <pair id="DDI-DrugBank.d374.s1.p3" e1="DDI-DrugBank.d374.s1.e1"
+            e2="DDI-DrugBank.d374.s1.e2" ddi="false"/>
+        <pair id="DDI-DrugBank.d374.s1.p4" e1="DDI-DrugBank.d374.s1.e1"
+            e2="DDI-DrugBank.d374.s1.e3" ddi="false"/>
+        <pair id="DDI-DrugBank.d374.s1.p5" e1="DDI-DrugBank.d374.s1.e2"
+            e2="DDI-DrugBank.d374.s1.e3" ddi="false"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d374.s2" text="It should also be avoided in patients with blood, liver or kidney diseases, recent radiation treatment, or uncontrolled diabetes."/>
+    <sentence id="DDI-DrugBank.d374.s3" text="Patients should report to their practitioners any new rashes, itching, mouth sores, or unusual taste while taking auranofin.">
+        <entity id="DDI-DrugBank.d374.s3.e0" charOffset="114-122"
+            type="drug" text="auranofin"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d374.s4" text="Gold is excreted slowly from the body.">
+        <entity id="DDI-DrugBank.d374.s4.e0" charOffset="0-3"
+            type="group" text="Gold"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d374.s5" text="Safety and effectiveness in children has not been established."/>
+</document>

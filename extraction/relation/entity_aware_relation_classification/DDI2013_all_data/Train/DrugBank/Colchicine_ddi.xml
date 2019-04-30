@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="DDI-DrugBank.d146">
+    <sentence id="DDI-DrugBank.d146.s0" text="Colchicine is inhibited by acidifying agents.">
+        <entity id="DDI-DrugBank.d146.s0.e0" charOffset="0-9"
+            type="drug" text="Colchicine"/>
+        <entity id="DDI-DrugBank.d146.s0.e1" charOffset="27-43"
+            type="group" text="acidifying agents"/>
+        <pair id="DDI-DrugBank.d146.s0.p0" e1="DDI-DrugBank.d146.s0.e0"
+            e2="DDI-DrugBank.d146.s0.e1" ddi="true" type="mechanism"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d146.s1" text="The action of colchicine is potentiated by alkalinizing agents.">
+        <entity id="DDI-DrugBank.d146.s1.e0" charOffset="14-23"
+            type="drug" text="colchicine"/>
+        <entity id="DDI-DrugBank.d146.s1.e1" charOffset="43-61"
+            type="group" text="alkalinizing agents"/>
+        <pair id="DDI-DrugBank.d146.s1.p0" e1="DDI-DrugBank.d146.s1.e0"
+            e2="DDI-DrugBank.d146.s1.e1" ddi="true" type="mechanism"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d146.s2" text="Colchicine may increase sensitivity to the CNS depressants.">
+        <entity id="DDI-DrugBank.d146.s2.e0" charOffset="0-9"
+            type="drug" text="Colchicine"/>
+        <entity id="DDI-DrugBank.d146.s2.e1" charOffset="43-57"
+            type="group" text="CNS depressants"/>
+        <pair id="DDI-DrugBank.d146.s2.p0" e1="DDI-DrugBank.d146.s2.e0"
+            e2="DDI-DrugBank.d146.s2.e1" ddi="true" type="effect"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d146.s3" text="Response to sympathomimetic agents may be enhanced by colchicine.">
+        <entity id="DDI-DrugBank.d146.s3.e0" charOffset="12-33"
+            type="group" text="sympathomimetic agents"/>
+        <entity id="DDI-DrugBank.d146.s3.e1" charOffset="54-63"
+            type="drug" text="colchicine"/>
+        <pair id="DDI-DrugBank.d146.s3.p0" e1="DDI-DrugBank.d146.s3.e0"
+            e2="DDI-DrugBank.d146.s3.e1" ddi="true" type="effect"/>
+    </sentence>
+</document>

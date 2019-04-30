@@ -1,0 +1,247 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="DDI-DrugBank.d400">
+    <sentence id="DDI-DrugBank.d400.s0" text="Aspirin: As with other NSAIDs, concomitant administration of Ponstel and aspirin is not generally recommended because of the potential of increased adverse effects.">
+        <entity id="DDI-DrugBank.d400.s0.e0" charOffset="0-6"
+            type="brand" text="Aspirin"/>
+        <entity id="DDI-DrugBank.d400.s0.e1" charOffset="23-28"
+            type="group" text="NSAIDs"/>
+        <entity id="DDI-DrugBank.d400.s0.e2" charOffset="61-67"
+            type="brand" text="Ponstel"/>
+        <entity id="DDI-DrugBank.d400.s0.e3" charOffset="73-79"
+            type="brand" text="aspirin"/>
+        <pair id="DDI-DrugBank.d400.s0.p0" e1="DDI-DrugBank.d400.s0.e0"
+            e2="DDI-DrugBank.d400.s0.e1" ddi="false"/>
+        <pair id="DDI-DrugBank.d400.s0.p1" e1="DDI-DrugBank.d400.s0.e0"
+            e2="DDI-DrugBank.d400.s0.e2" ddi="false"/>
+        <pair id="DDI-DrugBank.d400.s0.p2" e1="DDI-DrugBank.d400.s0.e0"
+            e2="DDI-DrugBank.d400.s0.e3" ddi="false"/>
+        <pair id="DDI-DrugBank.d400.s0.p3" e1="DDI-DrugBank.d400.s0.e1"
+            e2="DDI-DrugBank.d400.s0.e2" ddi="false"/>
+        <pair id="DDI-DrugBank.d400.s0.p4" e1="DDI-DrugBank.d400.s0.e1"
+            e2="DDI-DrugBank.d400.s0.e3" ddi="true" type="advise"/>
+        <pair id="DDI-DrugBank.d400.s0.p5" e1="DDI-DrugBank.d400.s0.e2"
+            e2="DDI-DrugBank.d400.s0.e3" ddi="true" type="advise"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d400.s1" text="Methotrexate: NSAIDs have been reported to competitively inhibit methotrexate accumulation in rabbit kidney slices.">
+        <entity id="DDI-DrugBank.d400.s1.e0" charOffset="0-11"
+            type="drug" text="Methotrexate"/>
+        <entity id="DDI-DrugBank.d400.s1.e1" charOffset="14-19"
+            type="group" text="NSAIDs"/>
+        <entity id="DDI-DrugBank.d400.s1.e2" charOffset="65-76"
+            type="drug" text="methotrexate"/>
+        <pair id="DDI-DrugBank.d400.s1.p0" e1="DDI-DrugBank.d400.s1.e0"
+            e2="DDI-DrugBank.d400.s1.e1" ddi="false"/>
+        <pair id="DDI-DrugBank.d400.s1.p1" e1="DDI-DrugBank.d400.s1.e0"
+            e2="DDI-DrugBank.d400.s1.e2" ddi="false"/>
+        <pair id="DDI-DrugBank.d400.s1.p2" e1="DDI-DrugBank.d400.s1.e1"
+            e2="DDI-DrugBank.d400.s1.e2" ddi="true" type="mechanism"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d400.s2" text="This may indicate that they could enhance the toxicity of methotrexate.">
+        <entity id="DDI-DrugBank.d400.s2.e0" charOffset="58-69"
+            type="drug" text="methotrexate"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d400.s3" text="Caution should be used when NSAIDs are administered concomitantly with methotrexate.">
+        <entity id="DDI-DrugBank.d400.s3.e0" charOffset="28-33"
+            type="group" text="NSAIDs"/>
+        <entity id="DDI-DrugBank.d400.s3.e1" charOffset="71-82"
+            type="drug" text="methotrexate"/>
+        <pair id="DDI-DrugBank.d400.s3.p0" e1="DDI-DrugBank.d400.s3.e0"
+            e2="DDI-DrugBank.d400.s3.e1" ddi="true" type="advise"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d400.s4" text="ACE inhibitors: Reports suggest that NSAIDs may diminish the antihypertensive effect of ACE inhibitors.">
+        <entity id="DDI-DrugBank.d400.s4.e0" charOffset="0-13"
+            type="group" text="ACE inhibitors"/>
+        <entity id="DDI-DrugBank.d400.s4.e1" charOffset="37-42"
+            type="group" text="NSAIDs"/>
+        <entity id="DDI-DrugBank.d400.s4.e2" charOffset="88-101"
+            type="group" text="ACE inhibitors"/>
+        <pair id="DDI-DrugBank.d400.s4.p0" e1="DDI-DrugBank.d400.s4.e0"
+            e2="DDI-DrugBank.d400.s4.e1" ddi="false"/>
+        <pair id="DDI-DrugBank.d400.s4.p1" e1="DDI-DrugBank.d400.s4.e0"
+            e2="DDI-DrugBank.d400.s4.e2" ddi="false"/>
+        <pair id="DDI-DrugBank.d400.s4.p2" e1="DDI-DrugBank.d400.s4.e1"
+            e2="DDI-DrugBank.d400.s4.e2" ddi="true" type="effect"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d400.s5" text="This interaction should be given consideration in patients taking NSAIDs concomitantly with ACE inhibitors.">
+        <entity id="DDI-DrugBank.d400.s5.e0" charOffset="66-71"
+            type="group" text="NSAIDs"/>
+        <entity id="DDI-DrugBank.d400.s5.e1" charOffset="92-105"
+            type="group" text="ACE inhibitors"/>
+        <pair id="DDI-DrugBank.d400.s5.p0" e1="DDI-DrugBank.d400.s5.e0"
+            e2="DDI-DrugBank.d400.s5.e1" ddi="true" type="advise"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d400.s6" text="Furosemide: Clinical studies, as well as post-marketing observations, have shown that NSAIDs can reduce the natriuretic effect of furosemide and thiazides in some patients.">
+        <entity id="DDI-DrugBank.d400.s6.e0" charOffset="0-9"
+            type="drug" text="Furosemide"/>
+        <entity id="DDI-DrugBank.d400.s6.e1" charOffset="86-91"
+            type="group" text="NSAIDs"/>
+        <entity id="DDI-DrugBank.d400.s6.e2" charOffset="130-139"
+            type="drug" text="furosemide"/>
+        <entity id="DDI-DrugBank.d400.s6.e3" charOffset="145-153"
+            type="group" text="thiazides"/>
+        <pair id="DDI-DrugBank.d400.s6.p0" e1="DDI-DrugBank.d400.s6.e0"
+            e2="DDI-DrugBank.d400.s6.e1" ddi="false"/>
+        <pair id="DDI-DrugBank.d400.s6.p1" e1="DDI-DrugBank.d400.s6.e0"
+            e2="DDI-DrugBank.d400.s6.e2" ddi="false"/>
+        <pair id="DDI-DrugBank.d400.s6.p2" e1="DDI-DrugBank.d400.s6.e0"
+            e2="DDI-DrugBank.d400.s6.e3" ddi="false"/>
+        <pair id="DDI-DrugBank.d400.s6.p3" e1="DDI-DrugBank.d400.s6.e1"
+            e2="DDI-DrugBank.d400.s6.e2" ddi="true" type="effect"/>
+        <pair id="DDI-DrugBank.d400.s6.p4" e1="DDI-DrugBank.d400.s6.e1"
+            e2="DDI-DrugBank.d400.s6.e3" ddi="true" type="effect"/>
+        <pair id="DDI-DrugBank.d400.s6.p5" e1="DDI-DrugBank.d400.s6.e2"
+            e2="DDI-DrugBank.d400.s6.e3" ddi="false"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d400.s7" text="This response has been attributed to inhibition of renal prostaglandin synthesis."/>
+    <sentence id="DDI-DrugBank.d400.s8" text="During concomitant therapy of Ponstel with furosemide, the patient should be observed closely for signs of renal failure, as well as to assure diuretic efficacy.">
+        <entity id="DDI-DrugBank.d400.s8.e0" charOffset="30-36"
+            type="brand" text="Ponstel"/>
+        <entity id="DDI-DrugBank.d400.s8.e1" charOffset="43-52"
+            type="drug" text="furosemide"/>
+        <pair id="DDI-DrugBank.d400.s8.p0" e1="DDI-DrugBank.d400.s8.e0"
+            e2="DDI-DrugBank.d400.s8.e1" ddi="true" type="advise"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d400.s9" text="Lithium: NSAIDs have produced an elevation of plasma lithium levels and a reduction in renal lithium clearance.">
+        <entity id="DDI-DrugBank.d400.s9.e0" charOffset="0-6"
+            type="drug" text="Lithium"/>
+        <entity id="DDI-DrugBank.d400.s9.e1" charOffset="9-14"
+            type="group" text="NSAIDs"/>
+        <entity id="DDI-DrugBank.d400.s9.e2" charOffset="53-59"
+            type="drug" text="lithium"/>
+        <entity id="DDI-DrugBank.d400.s9.e3" charOffset="93-99"
+            type="drug" text="lithium"/>
+        <pair id="DDI-DrugBank.d400.s9.p0" e1="DDI-DrugBank.d400.s9.e0"
+            e2="DDI-DrugBank.d400.s9.e1" ddi="false"/>
+        <pair id="DDI-DrugBank.d400.s9.p1" e1="DDI-DrugBank.d400.s9.e0"
+            e2="DDI-DrugBank.d400.s9.e2" ddi="false"/>
+        <pair id="DDI-DrugBank.d400.s9.p2" e1="DDI-DrugBank.d400.s9.e0"
+            e2="DDI-DrugBank.d400.s9.e3" ddi="false"/>
+        <pair id="DDI-DrugBank.d400.s9.p3" e1="DDI-DrugBank.d400.s9.e1"
+            e2="DDI-DrugBank.d400.s9.e2" ddi="true" type="mechanism"/>
+        <pair id="DDI-DrugBank.d400.s9.p4" e1="DDI-DrugBank.d400.s9.e1"
+            e2="DDI-DrugBank.d400.s9.e3" ddi="true" type="mechanism"/>
+        <pair id="DDI-DrugBank.d400.s9.p5" e1="DDI-DrugBank.d400.s9.e2"
+            e2="DDI-DrugBank.d400.s9.e3" ddi="false"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d400.s10" text="The mean minimum lithium concentration increased 15% and the renal clearance was decreased by approximately 20%.">
+        <entity id="DDI-DrugBank.d400.s10.e0" charOffset="17-23"
+            type="drug" text="lithium"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d400.s11" text="These effects have been attributed to inhibition of renal prostaglandin synthesis by the NSAID.">
+        <entity id="DDI-DrugBank.d400.s11.e0" charOffset="89-93"
+            type="group" text="NSAID"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d400.s12" text="Thus, when NSAIDs and lithium are administered concurrently, subjects should be observed carefully for signs of lithium toxicity.">
+        <entity id="DDI-DrugBank.d400.s12.e0" charOffset="11-16"
+            type="group" text="NSAIDs"/>
+        <entity id="DDI-DrugBank.d400.s12.e1" charOffset="22-28"
+            type="drug" text="lithium"/>
+        <entity id="DDI-DrugBank.d400.s12.e2" charOffset="112-118"
+            type="drug" text="lithium"/>
+        <pair id="DDI-DrugBank.d400.s12.p0"
+            e1="DDI-DrugBank.d400.s12.e0" e2="DDI-DrugBank.d400.s12.e1"
+            ddi="true" type="advise"/>
+        <pair id="DDI-DrugBank.d400.s12.p1"
+            e1="DDI-DrugBank.d400.s12.e0" e2="DDI-DrugBank.d400.s12.e2" ddi="false"/>
+        <pair id="DDI-DrugBank.d400.s12.p2"
+            e1="DDI-DrugBank.d400.s12.e1" e2="DDI-DrugBank.d400.s12.e2" ddi="false"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d400.s13" text="Warfarin: The effects of warfarin and NSAIDs on GI bleeding are synergistic, such that users of both drugs together have a risk of serious GI bleeding higher than users of either drug alone.">
+        <entity id="DDI-DrugBank.d400.s13.e0" charOffset="0-7"
+            type="drug" text="Warfarin"/>
+        <entity id="DDI-DrugBank.d400.s13.e1" charOffset="25-32"
+            type="drug" text="warfarin"/>
+        <entity id="DDI-DrugBank.d400.s13.e2" charOffset="38-43"
+            type="group" text="NSAIDs"/>
+        <pair id="DDI-DrugBank.d400.s13.p0"
+            e1="DDI-DrugBank.d400.s13.e0" e2="DDI-DrugBank.d400.s13.e1" ddi="false"/>
+        <pair id="DDI-DrugBank.d400.s13.p1"
+            e1="DDI-DrugBank.d400.s13.e0" e2="DDI-DrugBank.d400.s13.e2" ddi="false"/>
+        <pair id="DDI-DrugBank.d400.s13.p2"
+            e1="DDI-DrugBank.d400.s13.e1" e2="DDI-DrugBank.d400.s13.e2"
+            ddi="true" type="effect"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d400.s14" text="Antacids: In a single dose study (n=6), ingestion of an antacid containing 1.7-gram of magnesium hydroxide with 500-mg of mefenamic acid increased the Cmax and AUC of mefenamic acid by 125% and 36%, respectively.  A number of compounds are inhibitors of CYP2C9 including fluconazole, lovastatin and trimethoprim.">
+        <entity id="DDI-DrugBank.d400.s14.e0" charOffset="0-7"
+            type="group" text="Antacids"/>
+        <entity id="DDI-DrugBank.d400.s14.e1" charOffset="56-62"
+            type="group" text="antacid"/>
+        <entity id="DDI-DrugBank.d400.s14.e2" charOffset="87-105"
+            type="drug" text="magnesium hydroxide"/>
+        <entity id="DDI-DrugBank.d400.s14.e3" charOffset="122-135"
+            type="drug" text="mefenamic acid"/>
+        <entity id="DDI-DrugBank.d400.s14.e4" charOffset="167-180"
+            type="drug" text="mefenamic acid"/>
+        <entity id="DDI-DrugBank.d400.s14.e5" charOffset="271-281"
+            type="drug" text="fluconazole"/>
+        <entity id="DDI-DrugBank.d400.s14.e6" charOffset="284-293"
+            type="drug" text="lovastatin"/>
+        <entity id="DDI-DrugBank.d400.s14.e7" charOffset="299-310"
+            type="drug" text="trimethoprim"/>
+        <pair id="DDI-DrugBank.d400.s14.p0"
+            e1="DDI-DrugBank.d400.s14.e0" e2="DDI-DrugBank.d400.s14.e1" ddi="false"/>
+        <pair id="DDI-DrugBank.d400.s14.p1"
+            e1="DDI-DrugBank.d400.s14.e0" e2="DDI-DrugBank.d400.s14.e2" ddi="false"/>
+        <pair id="DDI-DrugBank.d400.s14.p2"
+            e1="DDI-DrugBank.d400.s14.e0" e2="DDI-DrugBank.d400.s14.e3" ddi="false"/>
+        <pair id="DDI-DrugBank.d400.s14.p3"
+            e1="DDI-DrugBank.d400.s14.e0" e2="DDI-DrugBank.d400.s14.e4" ddi="false"/>
+        <pair id="DDI-DrugBank.d400.s14.p4"
+            e1="DDI-DrugBank.d400.s14.e0" e2="DDI-DrugBank.d400.s14.e5" ddi="false"/>
+        <pair id="DDI-DrugBank.d400.s14.p5"
+            e1="DDI-DrugBank.d400.s14.e0" e2="DDI-DrugBank.d400.s14.e6" ddi="false"/>
+        <pair id="DDI-DrugBank.d400.s14.p6"
+            e1="DDI-DrugBank.d400.s14.e0" e2="DDI-DrugBank.d400.s14.e7" ddi="false"/>
+        <pair id="DDI-DrugBank.d400.s14.p7"
+            e1="DDI-DrugBank.d400.s14.e1" e2="DDI-DrugBank.d400.s14.e2" ddi="false"/>
+        <pair id="DDI-DrugBank.d400.s14.p8"
+            e1="DDI-DrugBank.d400.s14.e1" e2="DDI-DrugBank.d400.s14.e3" ddi="false"/>
+        <pair id="DDI-DrugBank.d400.s14.p9"
+            e1="DDI-DrugBank.d400.s14.e1" e2="DDI-DrugBank.d400.s14.e4" ddi="false"/>
+        <pair id="DDI-DrugBank.d400.s14.p10"
+            e1="DDI-DrugBank.d400.s14.e1" e2="DDI-DrugBank.d400.s14.e5" ddi="false"/>
+        <pair id="DDI-DrugBank.d400.s14.p11"
+            e1="DDI-DrugBank.d400.s14.e1" e2="DDI-DrugBank.d400.s14.e6" ddi="false"/>
+        <pair id="DDI-DrugBank.d400.s14.p12"
+            e1="DDI-DrugBank.d400.s14.e1" e2="DDI-DrugBank.d400.s14.e7" ddi="false"/>
+        <pair id="DDI-DrugBank.d400.s14.p13"
+            e1="DDI-DrugBank.d400.s14.e2" e2="DDI-DrugBank.d400.s14.e3"
+            ddi="true" type="mechanism"/>
+        <pair id="DDI-DrugBank.d400.s14.p14"
+            e1="DDI-DrugBank.d400.s14.e2" e2="DDI-DrugBank.d400.s14.e4" ddi="false"/>
+        <pair id="DDI-DrugBank.d400.s14.p15"
+            e1="DDI-DrugBank.d400.s14.e2" e2="DDI-DrugBank.d400.s14.e5" ddi="false"/>
+        <pair id="DDI-DrugBank.d400.s14.p16"
+            e1="DDI-DrugBank.d400.s14.e2" e2="DDI-DrugBank.d400.s14.e6" ddi="false"/>
+        <pair id="DDI-DrugBank.d400.s14.p17"
+            e1="DDI-DrugBank.d400.s14.e2" e2="DDI-DrugBank.d400.s14.e7" ddi="false"/>
+        <pair id="DDI-DrugBank.d400.s14.p18"
+            e1="DDI-DrugBank.d400.s14.e3" e2="DDI-DrugBank.d400.s14.e4" ddi="false"/>
+        <pair id="DDI-DrugBank.d400.s14.p19"
+            e1="DDI-DrugBank.d400.s14.e3" e2="DDI-DrugBank.d400.s14.e5" ddi="false"/>
+        <pair id="DDI-DrugBank.d400.s14.p20"
+            e1="DDI-DrugBank.d400.s14.e3" e2="DDI-DrugBank.d400.s14.e6" ddi="false"/>
+        <pair id="DDI-DrugBank.d400.s14.p21"
+            e1="DDI-DrugBank.d400.s14.e3" e2="DDI-DrugBank.d400.s14.e7" ddi="false"/>
+        <pair id="DDI-DrugBank.d400.s14.p22"
+            e1="DDI-DrugBank.d400.s14.e4" e2="DDI-DrugBank.d400.s14.e5" ddi="false"/>
+        <pair id="DDI-DrugBank.d400.s14.p23"
+            e1="DDI-DrugBank.d400.s14.e4" e2="DDI-DrugBank.d400.s14.e6" ddi="false"/>
+        <pair id="DDI-DrugBank.d400.s14.p24"
+            e1="DDI-DrugBank.d400.s14.e4" e2="DDI-DrugBank.d400.s14.e7" ddi="false"/>
+        <pair id="DDI-DrugBank.d400.s14.p25"
+            e1="DDI-DrugBank.d400.s14.e5" e2="DDI-DrugBank.d400.s14.e6" ddi="false"/>
+        <pair id="DDI-DrugBank.d400.s14.p26"
+            e1="DDI-DrugBank.d400.s14.e5" e2="DDI-DrugBank.d400.s14.e7" ddi="false"/>
+        <pair id="DDI-DrugBank.d400.s14.p27"
+            e1="DDI-DrugBank.d400.s14.e6" e2="DDI-DrugBank.d400.s14.e7" ddi="false"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d400.s15" text="Drug interaction studies of mefenamic acid and these compounds have not been conducted.">
+        <entity id="DDI-DrugBank.d400.s15.e0" charOffset="28-41"
+            type="drug" text="mefenamic acid"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d400.s16" text="The possibility of altered safety and efficacy should be considered when Ponstel is used concomitantly with these drugs.">
+        <entity id="DDI-DrugBank.d400.s16.e0" charOffset="73-79"
+            type="brand" text="Ponstel"/>
+    </sentence>
+</document>

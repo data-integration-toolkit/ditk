@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="DDI-DrugBank.d712">
+    <sentence id="DDI-DrugBank.d712.s0" text="There have been no formal drug interaction studies performed with HERCEPTIN in humans. ">
+        <entity id="DDI-DrugBank.d712.s0.e0" charOffset="66-74"
+            type="brand" text="HERCEPTIN"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d712.s1" text="Administration of paclitaxel in combination with HERCEPTIN resulted in a two-fold decrease in HERCEPTIN clearance in a non-human primate study and in a 1.5-fold increase in HERCEPTIN serum levels in clinical studies.">
+        <entity id="DDI-DrugBank.d712.s1.e0" charOffset="18-27"
+            type="drug" text="paclitaxel"/>
+        <entity id="DDI-DrugBank.d712.s1.e1" charOffset="49-57"
+            type="brand" text="HERCEPTIN"/>
+        <entity id="DDI-DrugBank.d712.s1.e2" charOffset="94-102"
+            type="brand" text="HERCEPTIN"/>
+        <entity id="DDI-DrugBank.d712.s1.e3" charOffset="173-181"
+            type="brand" text="HERCEPTIN"/>
+        <pair id="DDI-DrugBank.d712.s1.p0" e1="DDI-DrugBank.d712.s1.e0"
+            e2="DDI-DrugBank.d712.s1.e1" ddi="true" type="mechanism"/>
+        <pair id="DDI-DrugBank.d712.s1.p1" e1="DDI-DrugBank.d712.s1.e0"
+            e2="DDI-DrugBank.d712.s1.e2" ddi="false"/>
+        <pair id="DDI-DrugBank.d712.s1.p2" e1="DDI-DrugBank.d712.s1.e0"
+            e2="DDI-DrugBank.d712.s1.e3" ddi="false"/>
+        <pair id="DDI-DrugBank.d712.s1.p3" e1="DDI-DrugBank.d712.s1.e1"
+            e2="DDI-DrugBank.d712.s1.e2" ddi="false"/>
+        <pair id="DDI-DrugBank.d712.s1.p4" e1="DDI-DrugBank.d712.s1.e1"
+            e2="DDI-DrugBank.d712.s1.e3" ddi="false"/>
+        <pair id="DDI-DrugBank.d712.s1.p5" e1="DDI-DrugBank.d712.s1.e2"
+            e2="DDI-DrugBank.d712.s1.e3" ddi="false"/>
+    </sentence>
+</document>

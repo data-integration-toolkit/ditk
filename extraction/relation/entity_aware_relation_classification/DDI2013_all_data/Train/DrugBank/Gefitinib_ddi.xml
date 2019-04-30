@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="DDI-DrugBank.d207">
+    <sentence id="DDI-DrugBank.d207.s0" text="Substances that are inducers of CYP3A4 activity increase the metabolism of gefitinib and decrease its plasma concentrations.">
+        <entity id="DDI-DrugBank.d207.s0.e0" charOffset="75-83"
+            type="drug" text="gefitinib"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d207.s1" text="In patients receiving a potent CYP3A4 inducer such as rifampicin or phenytoin, a dose increase to 500 mg daily should be considered in the absence of severe adverse drug reaction, and clinical response and adverse events should be carefully monitored (see CLINICAL PHARMACOLOGY-Pharmacokinetics-Drug-Drug Interactions and DOSAGE AND ADMINISTRATION-Dosage Adjustment sections).">
+        <entity id="DDI-DrugBank.d207.s1.e0" charOffset="54-63"
+            type="drug" text="rifampicin"/>
+        <entity id="DDI-DrugBank.d207.s1.e1" charOffset="68-76"
+            type="drug" text="phenytoin"/>
+        <pair id="DDI-DrugBank.d207.s1.p0" e1="DDI-DrugBank.d207.s1.e0"
+            e2="DDI-DrugBank.d207.s1.e1" ddi="false"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d207.s2" text="International Normalized Ratio (INR) elevations and/or bleeding events have been reported in some patients taking warfarin while on IRESSA therapy.">
+        <entity id="DDI-DrugBank.d207.s2.e0" charOffset="114-121"
+            type="drug" text="warfarin"/>
+        <entity id="DDI-DrugBank.d207.s2.e1" charOffset="132-137"
+            type="brand" text="IRESSA"/>
+        <pair id="DDI-DrugBank.d207.s2.p0" e1="DDI-DrugBank.d207.s2.e0"
+            e2="DDI-DrugBank.d207.s2.e1" ddi="true" type="effect"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d207.s3" text="Patients taking warfarin should be monitored regularly for changes in prothrombin time or INR.">
+        <entity id="DDI-DrugBank.d207.s3.e0" charOffset="16-23"
+            type="drug" text="warfarin"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d207.s4" text="Substances that are potent inhibitors of CYP3A4 activity (eg, ketoconazole and itraconazole) decrease gefitinib metabolism and increase gefitinib plasma concentrations.">
+        <entity id="DDI-DrugBank.d207.s4.e0" charOffset="62-73"
+            type="drug" text="ketoconazole"/>
+        <entity id="DDI-DrugBank.d207.s4.e1" charOffset="79-90"
+            type="drug" text="itraconazole"/>
+        <entity id="DDI-DrugBank.d207.s4.e2" charOffset="102-110"
+            type="drug" text="gefitinib"/>
+        <entity id="DDI-DrugBank.d207.s4.e3" charOffset="136-144"
+            type="drug" text="gefitinib"/>
+        <pair id="DDI-DrugBank.d207.s4.p0" e1="DDI-DrugBank.d207.s4.e0"
+            e2="DDI-DrugBank.d207.s4.e1" ddi="false"/>
+        <pair id="DDI-DrugBank.d207.s4.p1" e1="DDI-DrugBank.d207.s4.e0"
+            e2="DDI-DrugBank.d207.s4.e2" ddi="true" type="mechanism"/>
+        <pair id="DDI-DrugBank.d207.s4.p2" e1="DDI-DrugBank.d207.s4.e0"
+            e2="DDI-DrugBank.d207.s4.e3" ddi="true" type="mechanism"/>
+        <pair id="DDI-DrugBank.d207.s4.p3" e1="DDI-DrugBank.d207.s4.e1"
+            e2="DDI-DrugBank.d207.s4.e2" ddi="true" type="mechanism"/>
+        <pair id="DDI-DrugBank.d207.s4.p4" e1="DDI-DrugBank.d207.s4.e1"
+            e2="DDI-DrugBank.d207.s4.e3" ddi="true" type="mechanism"/>
+        <pair id="DDI-DrugBank.d207.s4.p5" e1="DDI-DrugBank.d207.s4.e2"
+            e2="DDI-DrugBank.d207.s4.e3" ddi="false"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d207.s5" text="This increase may be clinically relevant as adverse experiences are related to dose and exposure;"/>
+    <sentence id="DDI-DrugBank.d207.s6" text="therefore, caution should be used when administering CYP3A4 inhibitors with IRESSA.">
+        <entity id="DDI-DrugBank.d207.s6.e0" charOffset="76-81"
+            type="brand" text="IRESSA"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d207.s7" text="Drugs that cause significant sustained elevation in gastric pH (histamine H2-receptor antagonists such as ranitidine or cimetidine) may reduce plasma concentrations of IRESSA and therefore potentially may reduce efficacy.">
+        <entity id="DDI-DrugBank.d207.s7.e0" charOffset="64-96"
+            type="group" text="histamine H2-receptor antagonists"/>
+        <entity id="DDI-DrugBank.d207.s7.e1" charOffset="106-115"
+            type="drug" text="ranitidine"/>
+        <entity id="DDI-DrugBank.d207.s7.e2" charOffset="120-129"
+            type="drug" text="cimetidine"/>
+        <entity id="DDI-DrugBank.d207.s7.e3" charOffset="168-173"
+            type="brand" text="IRESSA"/>
+        <pair id="DDI-DrugBank.d207.s7.p0" e1="DDI-DrugBank.d207.s7.e0"
+            e2="DDI-DrugBank.d207.s7.e1" ddi="false"/>
+        <pair id="DDI-DrugBank.d207.s7.p1" e1="DDI-DrugBank.d207.s7.e0"
+            e2="DDI-DrugBank.d207.s7.e2" ddi="false"/>
+        <pair id="DDI-DrugBank.d207.s7.p2" e1="DDI-DrugBank.d207.s7.e0"
+            e2="DDI-DrugBank.d207.s7.e3" ddi="true" type="mechanism"/>
+        <pair id="DDI-DrugBank.d207.s7.p3" e1="DDI-DrugBank.d207.s7.e1"
+            e2="DDI-DrugBank.d207.s7.e2" ddi="false"/>
+        <pair id="DDI-DrugBank.d207.s7.p4" e1="DDI-DrugBank.d207.s7.e1"
+            e2="DDI-DrugBank.d207.s7.e3" ddi="true" type="mechanism"/>
+        <pair id="DDI-DrugBank.d207.s7.p5" e1="DDI-DrugBank.d207.s7.e2"
+            e2="DDI-DrugBank.d207.s7.e3" ddi="true" type="mechanism"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d207.s8" text="Phase II clinical trial data, where IRESSA and vinorelbine have been used concomitantly, indicate that IRESSA may exacerbate the neutropenic effect of vinorelbine.">
+        <entity id="DDI-DrugBank.d207.s8.e0" charOffset="36-41"
+            type="brand" text="IRESSA"/>
+        <entity id="DDI-DrugBank.d207.s8.e1" charOffset="47-57"
+            type="drug" text="vinorelbine"/>
+        <entity id="DDI-DrugBank.d207.s8.e2" charOffset="103-108"
+            type="brand" text="IRESSA"/>
+        <entity id="DDI-DrugBank.d207.s8.e3" charOffset="151-161"
+            type="drug" text="vinorelbine"/>
+        <pair id="DDI-DrugBank.d207.s8.p0" e1="DDI-DrugBank.d207.s8.e0"
+            e2="DDI-DrugBank.d207.s8.e1" ddi="false"/>
+        <pair id="DDI-DrugBank.d207.s8.p1" e1="DDI-DrugBank.d207.s8.e0"
+            e2="DDI-DrugBank.d207.s8.e2" ddi="false"/>
+        <pair id="DDI-DrugBank.d207.s8.p2" e1="DDI-DrugBank.d207.s8.e0"
+            e2="DDI-DrugBank.d207.s8.e3" ddi="false"/>
+        <pair id="DDI-DrugBank.d207.s8.p3" e1="DDI-DrugBank.d207.s8.e1"
+            e2="DDI-DrugBank.d207.s8.e2" ddi="false"/>
+        <pair id="DDI-DrugBank.d207.s8.p4" e1="DDI-DrugBank.d207.s8.e1"
+            e2="DDI-DrugBank.d207.s8.e3" ddi="false"/>
+        <pair id="DDI-DrugBank.d207.s8.p5" e1="DDI-DrugBank.d207.s8.e2"
+            e2="DDI-DrugBank.d207.s8.e3" ddi="true" type="effect"/>
+    </sentence>
+</document>

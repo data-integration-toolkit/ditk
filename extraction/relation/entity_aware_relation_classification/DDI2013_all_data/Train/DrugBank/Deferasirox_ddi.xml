@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="DDI-DrugBank.d84">
+    <sentence id="DDI-DrugBank.d84.s0" text="The concomitant administration of Exjade and aluminum-containing antacid preparations has not been formally studied.">
+        <entity id="DDI-DrugBank.d84.s0.e0" charOffset="34-39"
+            type="brand" text="Exjade"/>
+        <entity id="DDI-DrugBank.d84.s0.e1" charOffset="45-52"
+            type="drug" text="aluminum"/>
+        <entity id="DDI-DrugBank.d84.s0.e2" charOffset="65-84"
+            type="group" text="antacid preparations"/>
+        <pair id="DDI-DrugBank.d84.s0.p0" e1="DDI-DrugBank.d84.s0.e0"
+            e2="DDI-DrugBank.d84.s0.e1" ddi="false"/>
+        <pair id="DDI-DrugBank.d84.s0.p1" e1="DDI-DrugBank.d84.s0.e0"
+            e2="DDI-DrugBank.d84.s0.e2" ddi="false"/>
+        <pair id="DDI-DrugBank.d84.s0.p2" e1="DDI-DrugBank.d84.s0.e1"
+            e2="DDI-DrugBank.d84.s0.e2" ddi="false"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d84.s1" text="Although deferasirox has a lower affinity for aluminum than for iron, Exjade should not be taken with aluminum-containing antacid preparations.">
+        <entity id="DDI-DrugBank.d84.s1.e0" charOffset="9-19"
+            type="drug" text="deferasirox"/>
+        <entity id="DDI-DrugBank.d84.s1.e1" charOffset="46-53"
+            type="drug" text="aluminum"/>
+        <entity id="DDI-DrugBank.d84.s1.e2" charOffset="64-67"
+            type="drug" text="iron"/>
+        <entity id="DDI-DrugBank.d84.s1.e3" charOffset="70-75"
+            type="brand" text="Exjade"/>
+        <entity id="DDI-DrugBank.d84.s1.e4" charOffset="102-109"
+            type="drug" text="aluminum"/>
+        <entity id="DDI-DrugBank.d84.s1.e5" charOffset="122-141"
+            type="group" text="antacid preparations"/>
+        <pair id="DDI-DrugBank.d84.s1.p0" e1="DDI-DrugBank.d84.s1.e0"
+            e2="DDI-DrugBank.d84.s1.e1" ddi="false"/>
+        <pair id="DDI-DrugBank.d84.s1.p1" e1="DDI-DrugBank.d84.s1.e0"
+            e2="DDI-DrugBank.d84.s1.e2" ddi="false"/>
+        <pair id="DDI-DrugBank.d84.s1.p2" e1="DDI-DrugBank.d84.s1.e0"
+            e2="DDI-DrugBank.d84.s1.e3" ddi="false"/>
+        <pair id="DDI-DrugBank.d84.s1.p3" e1="DDI-DrugBank.d84.s1.e0"
+            e2="DDI-DrugBank.d84.s1.e4" ddi="false"/>
+        <pair id="DDI-DrugBank.d84.s1.p4" e1="DDI-DrugBank.d84.s1.e0"
+            e2="DDI-DrugBank.d84.s1.e5" ddi="false"/>
+        <pair id="DDI-DrugBank.d84.s1.p5" e1="DDI-DrugBank.d84.s1.e1"
+            e2="DDI-DrugBank.d84.s1.e2" ddi="false"/>
+        <pair id="DDI-DrugBank.d84.s1.p6" e1="DDI-DrugBank.d84.s1.e1"
+            e2="DDI-DrugBank.d84.s1.e3" ddi="false"/>
+        <pair id="DDI-DrugBank.d84.s1.p7" e1="DDI-DrugBank.d84.s1.e1"
+            e2="DDI-DrugBank.d84.s1.e4" ddi="false"/>
+        <pair id="DDI-DrugBank.d84.s1.p8" e1="DDI-DrugBank.d84.s1.e1"
+            e2="DDI-DrugBank.d84.s1.e5" ddi="false"/>
+        <pair id="DDI-DrugBank.d84.s1.p9" e1="DDI-DrugBank.d84.s1.e2"
+            e2="DDI-DrugBank.d84.s1.e3" ddi="false"/>
+        <pair id="DDI-DrugBank.d84.s1.p10" e1="DDI-DrugBank.d84.s1.e2"
+            e2="DDI-DrugBank.d84.s1.e4" ddi="false"/>
+        <pair id="DDI-DrugBank.d84.s1.p11" e1="DDI-DrugBank.d84.s1.e2"
+            e2="DDI-DrugBank.d84.s1.e5" ddi="false"/>
+        <pair id="DDI-DrugBank.d84.s1.p12" e1="DDI-DrugBank.d84.s1.e3"
+            e2="DDI-DrugBank.d84.s1.e4" ddi="true" type="advise"/>
+        <pair id="DDI-DrugBank.d84.s1.p13" e1="DDI-DrugBank.d84.s1.e3"
+            e2="DDI-DrugBank.d84.s1.e5" ddi="false"/>
+        <pair id="DDI-DrugBank.d84.s1.p14" e1="DDI-DrugBank.d84.s1.e4"
+            e2="DDI-DrugBank.d84.s1.e5" ddi="false"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d84.s2" text="In healthy volunteers, Exjade had no effect on the pharmacokinetics of digoxin.">
+        <entity id="DDI-DrugBank.d84.s2.e0" charOffset="23-28"
+            type="brand" text="Exjade"/>
+        <entity id="DDI-DrugBank.d84.s2.e1" charOffset="71-77"
+            type="drug" text="digoxin"/>
+        <pair id="DDI-DrugBank.d84.s2.p0" e1="DDI-DrugBank.d84.s2.e0"
+            e2="DDI-DrugBank.d84.s2.e1" ddi="false"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d84.s3" text="The effect of digoxin on Exjade pharmacokinetics has not been studied.">
+        <entity id="DDI-DrugBank.d84.s3.e0" charOffset="14-20"
+            type="drug" text="digoxin"/>
+        <entity id="DDI-DrugBank.d84.s3.e1" charOffset="25-30"
+            type="brand" text="Exjade"/>
+        <pair id="DDI-DrugBank.d84.s3.p0" e1="DDI-DrugBank.d84.s3.e0"
+            e2="DDI-DrugBank.d84.s3.e1" ddi="false"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d84.s4" text="The concomitant administration of Exjade and vitamin C has not been formally studied.">
+        <entity id="DDI-DrugBank.d84.s4.e0" charOffset="34-39"
+            type="brand" text="Exjade"/>
+        <entity id="DDI-DrugBank.d84.s4.e1" charOffset="45-53"
+            type="drug" text="vitamin C"/>
+        <pair id="DDI-DrugBank.d84.s4.p0" e1="DDI-DrugBank.d84.s4.e0"
+            e2="DDI-DrugBank.d84.s4.e1" ddi="false"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d84.s5" text="Doses of vitamin C up to 200 mg were allowed in clinical studies without negative consequences.">
+        <entity id="DDI-DrugBank.d84.s5.e0" charOffset="9-17"
+            type="drug" text="vitamin C"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d84.s6" text="The interaction of Exjade with hydroxyurea has not been formally studied.">
+        <entity id="DDI-DrugBank.d84.s6.e0" charOffset="19-24"
+            type="brand" text="Exjade"/>
+        <entity id="DDI-DrugBank.d84.s6.e1" charOffset="31-41"
+            type="drug" text="hydroxyurea"/>
+        <pair id="DDI-DrugBank.d84.s6.p0" e1="DDI-DrugBank.d84.s6.e0"
+            e2="DDI-DrugBank.d84.s6.e1" ddi="false"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d84.s7" text="No inhibition of deferasirox metabolism by hydroxyurea is expected based on the results of an in vitro study.">
+        <entity id="DDI-DrugBank.d84.s7.e0" charOffset="17-27"
+            type="drug" text="deferasirox"/>
+        <entity id="DDI-DrugBank.d84.s7.e1" charOffset="43-53"
+            type="drug" text="hydroxyurea"/>
+        <pair id="DDI-DrugBank.d84.s7.p0" e1="DDI-DrugBank.d84.s7.e0"
+            e2="DDI-DrugBank.d84.s7.e1" ddi="false"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d84.s8" text="Exjade should not be combined with other iron chelator therapies, as safety of such combinations has not been established.">
+        <entity id="DDI-DrugBank.d84.s8.e0" charOffset="0-5"
+            type="brand" text="Exjade"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d84.s9" text="Drug/Food Interactions The bioavailability (AUC) of deferasirox was variably increased when taken with a meal.">
+        <entity id="DDI-DrugBank.d84.s9.e0" charOffset="52-62"
+            type="drug" text="deferasirox"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d84.s10" text="Deferasirox should be taken on an empty stomach 30 minutes before eating.">
+        <entity id="DDI-DrugBank.d84.s10.e0" charOffset="0-10"
+            type="drug" text="Deferasirox"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d84.s11" text="Exjade tablets for oral suspension can be dispersed in water, orange juice, or apple juice.">
+        <entity id="DDI-DrugBank.d84.s11.e0" charOffset="0-5"
+            type="brand" text="Exjade"/>
+    </sentence>
+</document>

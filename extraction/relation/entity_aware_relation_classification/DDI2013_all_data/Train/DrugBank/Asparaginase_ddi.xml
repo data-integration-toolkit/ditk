@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="DDI-DrugBank.d21">
+    <sentence id="DDI-DrugBank.d21.s0" text="Tissue culture and animal studies indicate that ELSPAR can diminish or abolish the effect of methotrexate on malignant cells.14 This effect on methotrexate activity persists as long as plasma asparagine levels are suppressed.">
+        <entity id="DDI-DrugBank.d21.s0.e0" charOffset="48-53"
+            type="brand" text="ELSPAR"/>
+        <entity id="DDI-DrugBank.d21.s0.e1" charOffset="93-104"
+            type="drug" text="methotrexate"/>
+        <entity id="DDI-DrugBank.d21.s0.e2" charOffset="143-154"
+            type="drug" text="methotrexate"/>
+        <pair id="DDI-DrugBank.d21.s0.p0" e1="DDI-DrugBank.d21.s0.e0"
+            e2="DDI-DrugBank.d21.s0.e1" ddi="true" type="effect"/>
+        <pair id="DDI-DrugBank.d21.s0.p1" e1="DDI-DrugBank.d21.s0.e0"
+            e2="DDI-DrugBank.d21.s0.e2" ddi="false"/>
+        <pair id="DDI-DrugBank.d21.s0.p2" e1="DDI-DrugBank.d21.s0.e1"
+            e2="DDI-DrugBank.d21.s0.e2" ddi="false"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d21.s1" text="These results would seem to dictate against the clinical use of methotrexate with ELSPAR, or during the period following ELSPAR therapy when plasma asparagine levels are below normal.">
+        <entity id="DDI-DrugBank.d21.s1.e0" charOffset="64-75"
+            type="drug" text="methotrexate"/>
+        <entity id="DDI-DrugBank.d21.s1.e1" charOffset="82-87"
+            type="brand" text="ELSPAR"/>
+        <entity id="DDI-DrugBank.d21.s1.e2" charOffset="121-126"
+            type="brand" text="ELSPAR"/>
+        <pair id="DDI-DrugBank.d21.s1.p0" e1="DDI-DrugBank.d21.s1.e0"
+            e2="DDI-DrugBank.d21.s1.e1" ddi="true" type="advise"/>
+        <pair id="DDI-DrugBank.d21.s1.p1" e1="DDI-DrugBank.d21.s1.e0"
+            e2="DDI-DrugBank.d21.s1.e2" ddi="false"/>
+        <pair id="DDI-DrugBank.d21.s1.p2" e1="DDI-DrugBank.d21.s1.e1"
+            e2="DDI-DrugBank.d21.s1.e2" ddi="false"/>
+    </sentence>
+</document>

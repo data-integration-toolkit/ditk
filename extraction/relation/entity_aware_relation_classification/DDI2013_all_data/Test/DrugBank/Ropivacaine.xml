@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="DDI-DrugBank.d591">
+    <sentence id="DDI-DrugBank.d591.s0" text="Ropivacaine should be used with caution in patients receiving other local anesthetics or agents structurally related to amide-type local anesthetics, since the toxic effects of these drugs are additive. ">
+        <entity id="DDI-DrugBank.d591.s0.e0" charOffset="0-10"
+            type="drug" text="Ropivacaine"/>
+        <entity id="DDI-DrugBank.d591.s0.e1" charOffset="74-84"
+            type="group" text="anesthetics"/>
+        <entity id="DDI-DrugBank.d591.s0.e2" charOffset="120-147"
+            type="group" text="amide-type local anesthetics"/>
+        <pair id="DDI-DrugBank.d591.s0.p0" e1="DDI-DrugBank.d591.s0.e0"
+            e2="DDI-DrugBank.d591.s0.e1" ddi="true" type="advise"/>
+        <pair id="DDI-DrugBank.d591.s0.p1" e1="DDI-DrugBank.d591.s0.e0"
+            e2="DDI-DrugBank.d591.s0.e2" ddi="false"/>
+        <pair id="DDI-DrugBank.d591.s0.p2" e1="DDI-DrugBank.d591.s0.e1"
+            e2="DDI-DrugBank.d591.s0.e2" ddi="false"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d591.s1" text="Cytochrome P4501A2 is involved in the formation of 3-hydroxy ropivacaine, the major metabolite. ">
+        <entity id="DDI-DrugBank.d591.s1.e0" charOffset="51-71"
+            type="drug_n" text="3-hydroxy ropivacaine"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d591.s2" text="In vivo, the plasma clearance of ropivacaine was reduced by 70% during coadministration of fluvoxamine (25 mg bid for 2 days), a selective and potent CYP1A2 inhibitor. ">
+        <entity id="DDI-DrugBank.d591.s2.e0" charOffset="33-43"
+            type="drug" text="ropivacaine"/>
+        <entity id="DDI-DrugBank.d591.s2.e1" charOffset="91-101"
+            type="drug" text="fluvoxamine"/>
+        <pair id="DDI-DrugBank.d591.s2.p0" e1="DDI-DrugBank.d591.s2.e0"
+            e2="DDI-DrugBank.d591.s2.e1" ddi="true" type="mechanism"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d591.s3" text="Thus strong inhibitors of cytochrome P4501A2, such as fluvoxamine, given concomitantly during administration of Ropivacaine, can interact with Ropivacaine leading to increased ropivacaine plasma levels. ">
+        <entity id="DDI-DrugBank.d591.s3.e0" charOffset="54-64"
+            type="drug" text="fluvoxamine"/>
+        <entity id="DDI-DrugBank.d591.s3.e1" charOffset="112-122"
+            type="drug" text="Ropivacaine"/>
+        <entity id="DDI-DrugBank.d591.s3.e2" charOffset="143-153"
+            type="drug" text="Ropivacaine"/>
+        <entity id="DDI-DrugBank.d591.s3.e3" charOffset="176-186"
+            type="drug" text="ropivacaine"/>
+        <pair id="DDI-DrugBank.d591.s3.p0" e1="DDI-DrugBank.d591.s3.e0"
+            e2="DDI-DrugBank.d591.s3.e1" ddi="true" type="int"/>
+        <pair id="DDI-DrugBank.d591.s3.p1" e1="DDI-DrugBank.d591.s3.e0"
+            e2="DDI-DrugBank.d591.s3.e2" ddi="false"/>
+        <pair id="DDI-DrugBank.d591.s3.p2" e1="DDI-DrugBank.d591.s3.e0"
+            e2="DDI-DrugBank.d591.s3.e3" ddi="false"/>
+        <pair id="DDI-DrugBank.d591.s3.p3" e1="DDI-DrugBank.d591.s3.e1"
+            e2="DDI-DrugBank.d591.s3.e2" ddi="false"/>
+        <pair id="DDI-DrugBank.d591.s3.p4" e1="DDI-DrugBank.d591.s3.e1"
+            e2="DDI-DrugBank.d591.s3.e3" ddi="false"/>
+        <pair id="DDI-DrugBank.d591.s3.p5" e1="DDI-DrugBank.d591.s3.e2"
+            e2="DDI-DrugBank.d591.s3.e3" ddi="false"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d591.s4" text="Caution should be exercised when CYP1A2 inhibitors are coadministered. "/>
+    <sentence id="DDI-DrugBank.d591.s5" text="Possible interactions with drugs known to be metabolized by CYP1A2 via competitive inhibition such as theophylline and imipramine may also occur. ">
+        <entity id="DDI-DrugBank.d591.s5.e0" charOffset="102-113"
+            type="drug" text="theophylline"/>
+        <entity id="DDI-DrugBank.d591.s5.e1" charOffset="119-128"
+            type="drug" text="imipramine"/>
+        <pair id="DDI-DrugBank.d591.s5.p0" e1="DDI-DrugBank.d591.s5.e0"
+            e2="DDI-DrugBank.d591.s5.e1" ddi="false"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d591.s6" text="Coadministration of a selective and potent inhibitor of CYP3A4, ketoconazole (100 mg bid for 2 days with ropivacaine infusion administered 1 hour after ketoconazole) caused a 15% reduction in in-vivo plasma clearance of ropivacaine.">
+        <entity id="DDI-DrugBank.d591.s6.e0" charOffset="64-75"
+            type="drug" text="ketoconazole"/>
+        <entity id="DDI-DrugBank.d591.s6.e1" charOffset="105-115"
+            type="drug" text="ropivacaine"/>
+        <entity id="DDI-DrugBank.d591.s6.e2" charOffset="152-163"
+            type="drug" text="ketoconazole"/>
+        <entity id="DDI-DrugBank.d591.s6.e3" charOffset="220-230"
+            type="drug" text="ropivacaine"/>
+        <pair id="DDI-DrugBank.d591.s6.p0" e1="DDI-DrugBank.d591.s6.e0"
+            e2="DDI-DrugBank.d591.s6.e1" ddi="false"/>
+        <pair id="DDI-DrugBank.d591.s6.p1" e1="DDI-DrugBank.d591.s6.e0"
+            e2="DDI-DrugBank.d591.s6.e2" ddi="false"/>
+        <pair id="DDI-DrugBank.d591.s6.p2" e1="DDI-DrugBank.d591.s6.e0"
+            e2="DDI-DrugBank.d591.s6.e3" ddi="true" type="mechanism"/>
+        <pair id="DDI-DrugBank.d591.s6.p3" e1="DDI-DrugBank.d591.s6.e1"
+            e2="DDI-DrugBank.d591.s6.e2" ddi="false"/>
+        <pair id="DDI-DrugBank.d591.s6.p4" e1="DDI-DrugBank.d591.s6.e1"
+            e2="DDI-DrugBank.d591.s6.e3" ddi="false"/>
+        <pair id="DDI-DrugBank.d591.s6.p5" e1="DDI-DrugBank.d591.s6.e2"
+            e2="DDI-DrugBank.d591.s6.e3" ddi="false"/>
+    </sentence>
+</document>

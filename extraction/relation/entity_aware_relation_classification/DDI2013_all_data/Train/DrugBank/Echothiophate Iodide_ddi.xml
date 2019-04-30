@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="DDI-DrugBank.d377">
+    <sentence id="DDI-DrugBank.d377.s0" text="Phospholine Iodide potentiates other cholinesterase inhibitors such as succinylcholine or organophosphate and carbamate insecticides.">
+        <entity id="DDI-DrugBank.d377.s0.e0" charOffset="0-17"
+            type="drug" text="Phospholine Iodide"/>
+        <entity id="DDI-DrugBank.d377.s0.e1" charOffset="37-61"
+            type="group" text="cholinesterase inhibitors"/>
+        <entity id="DDI-DrugBank.d377.s0.e2" charOffset="71-85"
+            type="drug" text="succinylcholine"/>
+        <entity id="DDI-DrugBank.d377.s0.e3" charOffset="90-104;120-130"
+            type="drug_n" text="organophosphate insecticide"/>
+        <entity id="DDI-DrugBank.d377.s0.e4" charOffset="110-130"
+            type="drug_n" text="carbamate insecticide"/>
+        <pair id="DDI-DrugBank.d377.s0.p0" e1="DDI-DrugBank.d377.s0.e0"
+            e2="DDI-DrugBank.d377.s0.e1" ddi="true" type="effect"/>
+        <pair id="DDI-DrugBank.d377.s0.p1" e1="DDI-DrugBank.d377.s0.e0"
+            e2="DDI-DrugBank.d377.s0.e2" ddi="true" type="effect"/>
+        <pair id="DDI-DrugBank.d377.s0.p2" e1="DDI-DrugBank.d377.s0.e0"
+            e2="DDI-DrugBank.d377.s0.e3" ddi="true" type="effect"/>
+        <pair id="DDI-DrugBank.d377.s0.p3" e1="DDI-DrugBank.d377.s0.e0"
+            e2="DDI-DrugBank.d377.s0.e4" ddi="true" type="effect"/>
+        <pair id="DDI-DrugBank.d377.s0.p4" e1="DDI-DrugBank.d377.s0.e1"
+            e2="DDI-DrugBank.d377.s0.e2" ddi="false"/>
+        <pair id="DDI-DrugBank.d377.s0.p5" e1="DDI-DrugBank.d377.s0.e1"
+            e2="DDI-DrugBank.d377.s0.e3" ddi="false"/>
+        <pair id="DDI-DrugBank.d377.s0.p6" e1="DDI-DrugBank.d377.s0.e1"
+            e2="DDI-DrugBank.d377.s0.e4" ddi="false"/>
+        <pair id="DDI-DrugBank.d377.s0.p7" e1="DDI-DrugBank.d377.s0.e2"
+            e2="DDI-DrugBank.d377.s0.e3" ddi="false"/>
+        <pair id="DDI-DrugBank.d377.s0.p8" e1="DDI-DrugBank.d377.s0.e2"
+            e2="DDI-DrugBank.d377.s0.e4" ddi="false"/>
+        <pair id="DDI-DrugBank.d377.s0.p9" e1="DDI-DrugBank.d377.s0.e3"
+            e2="DDI-DrugBank.d377.s0.e4" ddi="false"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d377.s1" text="Patients undergoing systemic anticholinesterase treatment should be warned of the possible additive effects of Phospholine Iodide.">
+        <entity id="DDI-DrugBank.d377.s1.e0" charOffset="111-128"
+            type="drug" text="Phospholine Iodide"/>
+    </sentence>
+</document>

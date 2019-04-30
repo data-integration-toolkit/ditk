@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="DDI-DrugBank.d85">
+    <sentence id="DDI-DrugBank.d85.s0" text="The use of NSAIDs in patients who are receiving ACE inhibitors may potentiate renal disease states.">
+        <entity id="DDI-DrugBank.d85.s0.e0" charOffset="11-16"
+            type="group" text="NSAIDs"/>
+        <entity id="DDI-DrugBank.d85.s0.e1" charOffset="48-61"
+            type="group" text="ACE inhibitors"/>
+        <pair id="DDI-DrugBank.d85.s0.p0" e1="DDI-DrugBank.d85.s0.e0"
+            e2="DDI-DrugBank.d85.s0.e1" ddi="true" type="effect"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d85.s1" text="In vitro studies have shown that naproxen anion, because of its affinity for protein, may displace from their binding sites other drugs which are also albumin-bound .">
+        <entity id="DDI-DrugBank.d85.s1.e0" charOffset="33-40"
+            type="drug" text="naproxen"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d85.s2" text="Theoretically, the naproxen anion itself could likewise be displaced.">
+        <entity id="DDI-DrugBank.d85.s2.e0" charOffset="19-26"
+            type="drug" text="naproxen"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d85.s3" text="Short-term controlled studies failed to show that taking the drug significantly affects prothrombin times when administered to individuals on coumarin-type anticoagulants.">
+        <entity id="DDI-DrugBank.d85.s3.e0" charOffset="142-169"
+            type="group" text="coumarin-type anticoagulants"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d85.s4" text="Caution is advised nonetheless, since interactions have been seen with other nonsteroidal agents of this class."/>
+    <sentence id="DDI-DrugBank.d85.s5" text="Similarly, patients receiving the drug and a hydantoin, sulfonamide or sulfonylurea should be observed for signs of toxicity to these drugs.">
+        <entity id="DDI-DrugBank.d85.s5.e0" charOffset="45-53"
+            type="group" text="hydantoin"/>
+        <entity id="DDI-DrugBank.d85.s5.e1" charOffset="56-66"
+            type="group" text="sulfonamide"/>
+        <entity id="DDI-DrugBank.d85.s5.e2" charOffset="71-82"
+            type="group" text="sulfonylurea"/>
+        <pair id="DDI-DrugBank.d85.s5.p0" e1="DDI-DrugBank.d85.s5.e0"
+            e2="DDI-DrugBank.d85.s5.e1" ddi="false"/>
+        <pair id="DDI-DrugBank.d85.s5.p1" e1="DDI-DrugBank.d85.s5.e0"
+            e2="DDI-DrugBank.d85.s5.e2" ddi="false"/>
+        <pair id="DDI-DrugBank.d85.s5.p2" e1="DDI-DrugBank.d85.s5.e1"
+            e2="DDI-DrugBank.d85.s5.e2" ddi="false"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d85.s6" text="Concomitant administration of naproxen and aspirin is not recommended because naproxen is displaced from its binding sites during the concomitant administration of aspirin, resulting in lower plasma concentrations and peak plasma levels.">
+        <entity id="DDI-DrugBank.d85.s6.e0" charOffset="30-37"
+            type="drug" text="naproxen"/>
+        <entity id="DDI-DrugBank.d85.s6.e1" charOffset="43-49"
+            type="brand" text="aspirin"/>
+        <entity id="DDI-DrugBank.d85.s6.e2" charOffset="78-85"
+            type="drug" text="naproxen"/>
+        <entity id="DDI-DrugBank.d85.s6.e3" charOffset="164-170"
+            type="brand" text="aspirin"/>
+        <pair id="DDI-DrugBank.d85.s6.p0" e1="DDI-DrugBank.d85.s6.e0"
+            e2="DDI-DrugBank.d85.s6.e1" ddi="true" type="advise"/>
+        <pair id="DDI-DrugBank.d85.s6.p1" e1="DDI-DrugBank.d85.s6.e0"
+            e2="DDI-DrugBank.d85.s6.e2" ddi="false"/>
+        <pair id="DDI-DrugBank.d85.s6.p2" e1="DDI-DrugBank.d85.s6.e0"
+            e2="DDI-DrugBank.d85.s6.e3" ddi="false"/>
+        <pair id="DDI-DrugBank.d85.s6.p3" e1="DDI-DrugBank.d85.s6.e1"
+            e2="DDI-DrugBank.d85.s6.e2" ddi="false"/>
+        <pair id="DDI-DrugBank.d85.s6.p4" e1="DDI-DrugBank.d85.s6.e1"
+            e2="DDI-DrugBank.d85.s6.e3" ddi="false"/>
+        <pair id="DDI-DrugBank.d85.s6.p5" e1="DDI-DrugBank.d85.s6.e2"
+            e2="DDI-DrugBank.d85.s6.e3" ddi="true" type="advise"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d85.s7" text="The natriuretic effect of furosemide has been reported to be inhibited by some drugs of this class.">
+        <entity id="DDI-DrugBank.d85.s7.e0" charOffset="26-35"
+            type="drug" text="furosemide"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d85.s8" text="Inhibition of renal lithium clearance leading to increases in plasma lithium concentrations has also been reported.">
+        <entity id="DDI-DrugBank.d85.s8.e0" charOffset="20-26"
+            type="drug" text="lithium"/>
+        <entity id="DDI-DrugBank.d85.s8.e1" charOffset="69-75"
+            type="drug" text="lithium"/>
+        <pair id="DDI-DrugBank.d85.s8.p0" e1="DDI-DrugBank.d85.s8.e0"
+            e2="DDI-DrugBank.d85.s8.e1" ddi="false"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d85.s9" text="Naproxen and other NSAIDs can reduce the antihypertensive effect of propranolol and other beta-blockers.">
+        <entity id="DDI-DrugBank.d85.s9.e0" charOffset="0-7" type="drug" text="Naproxen"/>
+        <entity id="DDI-DrugBank.d85.s9.e1" charOffset="19-24"
+            type="group" text="NSAIDs"/>
+        <entity id="DDI-DrugBank.d85.s9.e2" charOffset="68-78"
+            type="drug" text="propranolol"/>
+        <entity id="DDI-DrugBank.d85.s9.e3" charOffset="90-102"
+            type="group" text="beta-blockers"/>
+        <pair id="DDI-DrugBank.d85.s9.p0" e1="DDI-DrugBank.d85.s9.e0"
+            e2="DDI-DrugBank.d85.s9.e1" ddi="false"/>
+        <pair id="DDI-DrugBank.d85.s9.p1" e1="DDI-DrugBank.d85.s9.e0"
+            e2="DDI-DrugBank.d85.s9.e2" ddi="true" type="effect"/>
+        <pair id="DDI-DrugBank.d85.s9.p2" e1="DDI-DrugBank.d85.s9.e0"
+            e2="DDI-DrugBank.d85.s9.e3" ddi="true" type="effect"/>
+        <pair id="DDI-DrugBank.d85.s9.p3" e1="DDI-DrugBank.d85.s9.e1"
+            e2="DDI-DrugBank.d85.s9.e2" ddi="true" type="effect"/>
+        <pair id="DDI-DrugBank.d85.s9.p4" e1="DDI-DrugBank.d85.s9.e1"
+            e2="DDI-DrugBank.d85.s9.e3" ddi="true" type="effect"/>
+        <pair id="DDI-DrugBank.d85.s9.p5" e1="DDI-DrugBank.d85.s9.e2"
+            e2="DDI-DrugBank.d85.s9.e3" ddi="false"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d85.s10" text="Probenecid given concurrently increases naproxen anion plasma levels and extends its plasma half-life significantly.">
+        <entity id="DDI-DrugBank.d85.s10.e0" charOffset="0-9"
+            type="drug" text="Probenecid"/>
+        <entity id="DDI-DrugBank.d85.s10.e1" charOffset="40-47"
+            type="drug" text="naproxen"/>
+        <pair id="DDI-DrugBank.d85.s10.p0" e1="DDI-DrugBank.d85.s10.e0"
+            e2="DDI-DrugBank.d85.s10.e1" ddi="true" type="mechanism"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d85.s11" text="Caution should be used if naproxen is administered concomitantly with methotrexate.">
+        <entity id="DDI-DrugBank.d85.s11.e0" charOffset="26-33"
+            type="drug" text="naproxen"/>
+        <entity id="DDI-DrugBank.d85.s11.e1" charOffset="70-81"
+            type="drug" text="methotrexate"/>
+        <pair id="DDI-DrugBank.d85.s11.p0" e1="DDI-DrugBank.d85.s11.e0"
+            e2="DDI-DrugBank.d85.s11.e1" ddi="true" type="advise"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d85.s12" text="Naproxen, naproxen sodium and other NSAIDs have been reported to reduce the tubular secretion of methotrexate in an animal model, possibly increasing the toxicity of methotrexate.">
+        <entity id="DDI-DrugBank.d85.s12.e0" charOffset="0-7"
+            type="drug" text="Naproxen"/>
+        <entity id="DDI-DrugBank.d85.s12.e1" charOffset="10-24"
+            type="drug" text="naproxen sodium"/>
+        <entity id="DDI-DrugBank.d85.s12.e2" charOffset="36-41"
+            type="group" text="NSAIDs"/>
+        <entity id="DDI-DrugBank.d85.s12.e3" charOffset="97-108"
+            type="drug" text="methotrexate"/>
+        <entity id="DDI-DrugBank.d85.s12.e4" charOffset="166-177"
+            type="drug" text="methotrexate"/>
+        <pair id="DDI-DrugBank.d85.s12.p0" e1="DDI-DrugBank.d85.s12.e0"
+            e2="DDI-DrugBank.d85.s12.e1" ddi="false"/>
+        <pair id="DDI-DrugBank.d85.s12.p1" e1="DDI-DrugBank.d85.s12.e0"
+            e2="DDI-DrugBank.d85.s12.e2" ddi="false"/>
+        <pair id="DDI-DrugBank.d85.s12.p2" e1="DDI-DrugBank.d85.s12.e0"
+            e2="DDI-DrugBank.d85.s12.e3" ddi="true" type="mechanism"/>
+        <pair id="DDI-DrugBank.d85.s12.p3" e1="DDI-DrugBank.d85.s12.e0"
+            e2="DDI-DrugBank.d85.s12.e4" ddi="false"/>
+        <pair id="DDI-DrugBank.d85.s12.p4" e1="DDI-DrugBank.d85.s12.e1"
+            e2="DDI-DrugBank.d85.s12.e2" ddi="false"/>
+        <pair id="DDI-DrugBank.d85.s12.p5" e1="DDI-DrugBank.d85.s12.e1"
+            e2="DDI-DrugBank.d85.s12.e3" ddi="true" type="mechanism"/>
+        <pair id="DDI-DrugBank.d85.s12.p6" e1="DDI-DrugBank.d85.s12.e1"
+            e2="DDI-DrugBank.d85.s12.e4" ddi="false"/>
+        <pair id="DDI-DrugBank.d85.s12.p7" e1="DDI-DrugBank.d85.s12.e2"
+            e2="DDI-DrugBank.d85.s12.e3" ddi="true" type="mechanism"/>
+        <pair id="DDI-DrugBank.d85.s12.p8" e1="DDI-DrugBank.d85.s12.e2"
+            e2="DDI-DrugBank.d85.s12.e4" ddi="false"/>
+        <pair id="DDI-DrugBank.d85.s12.p9" e1="DDI-DrugBank.d85.s12.e3"
+            e2="DDI-DrugBank.d85.s12.e4" ddi="false"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d85.s13" text="Drug/Laboratory Test Interactions Naproxen may decrease platelet aggregation and prolong bleeding time.">
+        <entity id="DDI-DrugBank.d85.s13.e0" charOffset="34-41"
+            type="drug" text="Naproxen"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d85.s14" text="This effect should be kept in mind when bleeding times are determined."/>
+    <sentence id="DDI-DrugBank.d85.s15" text="The administration of naproxen may result in increased urinary values for 17-ketogenic steroids because of an interaction between the drug and/or its metabolites with m-dinitrobenzene used in this assay.">
+        <entity id="DDI-DrugBank.d85.s15.e0" charOffset="22-29"
+            type="drug" text="naproxen"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d85.s16" text="Although 17-hydroxy-corticosteroid measurements (Porter-Silber test) do not appear to be artifactually altered, it is suggested that therapy with naproxen be temporarily discontinued 72 hours before adrenal function tests are performed if the Porter-Silber test is to be used.">
+        <entity id="DDI-DrugBank.d85.s16.e0" charOffset="146-153"
+            type="drug" text="naproxen"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d85.s17" text="Naproxen may interfere with some urinary assays of 5-hydroxy indoleacetic acid (5HIAA).">
+        <entity id="DDI-DrugBank.d85.s17.e0" charOffset="0-7"
+            type="drug" text="Naproxen"/>
+    </sentence>
+</document>

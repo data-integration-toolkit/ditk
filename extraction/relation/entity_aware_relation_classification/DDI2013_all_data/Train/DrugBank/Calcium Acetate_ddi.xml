@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="DDI-DrugBank.d494">
+    <sentence id="DDI-DrugBank.d494.s0" text="Concomitant use with other calcium-containing medicines (including antacids) may cause too much calcium in the blood or urine, which may increase the chance of side effects.">
+        <entity id="DDI-DrugBank.d494.s0.e0" charOffset="27-33"
+            type="drug" text="calcium"/>
+        <entity id="DDI-DrugBank.d494.s0.e1" charOffset="67-74"
+            type="group" text="antacids"/>
+        <entity id="DDI-DrugBank.d494.s0.e2" charOffset="96-102"
+            type="drug" text="calcium"/>
+        <pair id="DDI-DrugBank.d494.s0.p0" e1="DDI-DrugBank.d494.s0.e0"
+            e2="DDI-DrugBank.d494.s0.e1" ddi="false"/>
+        <pair id="DDI-DrugBank.d494.s0.p1" e1="DDI-DrugBank.d494.s0.e0"
+            e2="DDI-DrugBank.d494.s0.e2" ddi="false"/>
+        <pair id="DDI-DrugBank.d494.s0.p2" e1="DDI-DrugBank.d494.s0.e1"
+            e2="DDI-DrugBank.d494.s0.e2" ddi="false"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d494.s1" text="Using calcium acetate with digitalis glycosides (heart medicine) may cause hypercalcemia (too much calcium in the blood), which could increase the chance of developing an irregular heartbeat.">
+        <entity id="DDI-DrugBank.d494.s1.e0" charOffset="6-20"
+            type="drug" text="calcium acetate"/>
+        <entity id="DDI-DrugBank.d494.s1.e1" charOffset="27-46"
+            type="group" text="digitalis glycosides"/>
+        <entity id="DDI-DrugBank.d494.s1.e2" charOffset="99-105"
+            type="drug" text="calcium"/>
+        <pair id="DDI-DrugBank.d494.s1.p0" e1="DDI-DrugBank.d494.s1.e0"
+            e2="DDI-DrugBank.d494.s1.e1" ddi="true" type="effect"/>
+        <pair id="DDI-DrugBank.d494.s1.p1" e1="DDI-DrugBank.d494.s1.e0"
+            e2="DDI-DrugBank.d494.s1.e2" ddi="false"/>
+        <pair id="DDI-DrugBank.d494.s1.p2" e1="DDI-DrugBank.d494.s1.e1"
+            e2="DDI-DrugBank.d494.s1.e2" ddi="false"/>
+    </sentence>
+</document>

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="DDI-DrugBank.d394">
+    <sentence id="DDI-DrugBank.d394.s0" text="The hypotensive effect of sodium nitroprusside is augmented by that of most other hypotensive drugs, including ganglionic blocking agents, negative inotropic agents, and inhaled anesthetics.">
+        <entity id="DDI-DrugBank.d394.s0.e0" charOffset="26-45"
+            type="drug" text="sodium nitroprusside"/>
+        <entity id="DDI-DrugBank.d394.s0.e1" charOffset="82-98"
+            type="group" text="hypotensive drugs"/>
+        <entity id="DDI-DrugBank.d394.s0.e2" charOffset="111-136"
+            type="group" text="ganglionic blocking agents"/>
+        <entity id="DDI-DrugBank.d394.s0.e3" charOffset="178-188"
+            type="group" text="anesthetics"/>
+        <pair id="DDI-DrugBank.d394.s0.p0" e1="DDI-DrugBank.d394.s0.e0"
+            e2="DDI-DrugBank.d394.s0.e1" ddi="true" type="effect"/>
+        <pair id="DDI-DrugBank.d394.s0.p1" e1="DDI-DrugBank.d394.s0.e0"
+            e2="DDI-DrugBank.d394.s0.e2" ddi="true" type="effect"/>
+        <pair id="DDI-DrugBank.d394.s0.p2" e1="DDI-DrugBank.d394.s0.e0"
+            e2="DDI-DrugBank.d394.s0.e3" ddi="true" type="effect"/>
+        <pair id="DDI-DrugBank.d394.s0.p3" e1="DDI-DrugBank.d394.s0.e1"
+            e2="DDI-DrugBank.d394.s0.e2" ddi="false"/>
+        <pair id="DDI-DrugBank.d394.s0.p4" e1="DDI-DrugBank.d394.s0.e1"
+            e2="DDI-DrugBank.d394.s0.e3" ddi="false"/>
+        <pair id="DDI-DrugBank.d394.s0.p5" e1="DDI-DrugBank.d394.s0.e2"
+            e2="DDI-DrugBank.d394.s0.e3" ddi="false"/>
+    </sentence>
+</document>

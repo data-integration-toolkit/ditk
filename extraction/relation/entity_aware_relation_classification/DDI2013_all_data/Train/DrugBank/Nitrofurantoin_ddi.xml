@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="DDI-DrugBank.d276">
+    <sentence id="DDI-DrugBank.d276.s0" text="Antacids containing magnesium trisilicate, when administered concomitantly with nitrofurantoin, reduce both the rate and extent of absorption.">
+        <entity id="DDI-DrugBank.d276.s0.e0" charOffset="0-7"
+            type="group" text="Antacids"/>
+        <entity id="DDI-DrugBank.d276.s0.e1" charOffset="20-40"
+            type="drug" text="magnesium trisilicate"/>
+        <entity id="DDI-DrugBank.d276.s0.e2" charOffset="80-93"
+            type="drug" text="nitrofurantoin"/>
+        <pair id="DDI-DrugBank.d276.s0.p0" e1="DDI-DrugBank.d276.s0.e0"
+            e2="DDI-DrugBank.d276.s0.e1" ddi="false"/>
+        <pair id="DDI-DrugBank.d276.s0.p1" e1="DDI-DrugBank.d276.s0.e0"
+            e2="DDI-DrugBank.d276.s0.e2" ddi="false"/>
+        <pair id="DDI-DrugBank.d276.s0.p2" e1="DDI-DrugBank.d276.s0.e1"
+            e2="DDI-DrugBank.d276.s0.e2" ddi="true" type="mechanism"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d276.s1" text="The mechanism for this interaction probably is adsorption of nitrofurantoin onto the surface of magnesium trisilicate.">
+        <entity id="DDI-DrugBank.d276.s1.e0" charOffset="61-74"
+            type="drug" text="nitrofurantoin"/>
+        <entity id="DDI-DrugBank.d276.s1.e1" charOffset="96-116"
+            type="drug" text="magnesium trisilicate"/>
+        <pair id="DDI-DrugBank.d276.s1.p0" e1="DDI-DrugBank.d276.s1.e0"
+            e2="DDI-DrugBank.d276.s1.e1" ddi="true" type="mechanism"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d276.s2" text="Uricosuric drugs, such as probenecid and sulfinpyrazone, can inhibit renal tubular secretion of nitrofurantoin.">
+        <entity id="DDI-DrugBank.d276.s2.e0" charOffset="0-15"
+            type="group" text="Uricosuric drugs"/>
+        <entity id="DDI-DrugBank.d276.s2.e1" charOffset="26-35"
+            type="drug" text="probenecid"/>
+        <entity id="DDI-DrugBank.d276.s2.e2" charOffset="41-54"
+            type="drug" text="sulfinpyrazone"/>
+        <entity id="DDI-DrugBank.d276.s2.e3" charOffset="96-109"
+            type="drug" text="nitrofurantoin"/>
+        <pair id="DDI-DrugBank.d276.s2.p0" e1="DDI-DrugBank.d276.s2.e0"
+            e2="DDI-DrugBank.d276.s2.e1" ddi="false"/>
+        <pair id="DDI-DrugBank.d276.s2.p1" e1="DDI-DrugBank.d276.s2.e0"
+            e2="DDI-DrugBank.d276.s2.e2" ddi="false"/>
+        <pair id="DDI-DrugBank.d276.s2.p2" e1="DDI-DrugBank.d276.s2.e0"
+            e2="DDI-DrugBank.d276.s2.e3" ddi="true" type="mechanism"/>
+        <pair id="DDI-DrugBank.d276.s2.p3" e1="DDI-DrugBank.d276.s2.e1"
+            e2="DDI-DrugBank.d276.s2.e2" ddi="false"/>
+        <pair id="DDI-DrugBank.d276.s2.p4" e1="DDI-DrugBank.d276.s2.e1"
+            e2="DDI-DrugBank.d276.s2.e3" ddi="true" type="mechanism"/>
+        <pair id="DDI-DrugBank.d276.s2.p5" e1="DDI-DrugBank.d276.s2.e2"
+            e2="DDI-DrugBank.d276.s2.e3" ddi="true" type="mechanism"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d276.s3" text="The resulting increase in nitrofurantoin serum levels may increase toxicity, and the decreased urinary levels could lessen its efficacy as a urinary tract antibacterial.">
+        <entity id="DDI-DrugBank.d276.s3.e0" charOffset="26-39"
+            type="drug" text="nitrofurantoin"/>
+        <entity id="DDI-DrugBank.d276.s3.e1" charOffset="155-167"
+            type="group" text="antibacterial"/>
+        <pair id="DDI-DrugBank.d276.s3.p0" e1="DDI-DrugBank.d276.s3.e0"
+            e2="DDI-DrugBank.d276.s3.e1" ddi="false"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d276.s4" text="Drug/Laboratory Test Interactions As a result of the presence of nitrofurantoin, a false-positive reaction for glucose in the urine may occur.">
+        <entity id="DDI-DrugBank.d276.s4.e0" charOffset="65-78"
+            type="drug" text="nitrofurantoin"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d276.s5" text="This has been observed with Benedict s and Fehling s solutions but not with the glucose enzymatic test."/>
+</document>

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="DDI-DrugBank.d600">
+    <sentence id="DDI-DrugBank.d600.s0" text="Methyprylon may interact with other addictive medications, in that it may increase the likelyhood of addiction and abuse. ">
+        <entity id="DDI-DrugBank.d600.s0.e0" charOffset="0-10"
+            type="drug" text="Methyprylon"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d600.s1" text="Concurrent use of alcohol and other CNS depression-producing drugs may increase the CNS depressant effects of methyprylon or these other medications.">
+        <entity id="DDI-DrugBank.d600.s1.e0" charOffset="18-24"
+            type="drug" text="alcohol"/>
+        <entity id="DDI-DrugBank.d600.s1.e1" charOffset="36-65"
+            type="group" text="CNS depression-producing drugs"/>
+        <entity id="DDI-DrugBank.d600.s1.e2" charOffset="110-120"
+            type="drug" text="methyprylon"/>
+        <pair id="DDI-DrugBank.d600.s1.p0" e1="DDI-DrugBank.d600.s1.e0"
+            e2="DDI-DrugBank.d600.s1.e1" ddi="false"/>
+        <pair id="DDI-DrugBank.d600.s1.p1" e1="DDI-DrugBank.d600.s1.e0"
+            e2="DDI-DrugBank.d600.s1.e2" ddi="true" type="effect"/>
+        <pair id="DDI-DrugBank.d600.s1.p2" e1="DDI-DrugBank.d600.s1.e1"
+            e2="DDI-DrugBank.d600.s1.e2" ddi="true" type="effect"/>
+    </sentence>
+</document>

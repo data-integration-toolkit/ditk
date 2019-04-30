@@ -1,0 +1,258 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="DDI-DrugBank.d743">
+    <sentence id="DDI-DrugBank.d743.s0" text="Ketoconazole: Spontaneous adverse reaction reports of patients taking concomitant ketoconazole with recommended doses of terfenadine demonstrate QT interval prolongation and rare serious cardiac events, e.g. ">
+        <entity id="DDI-DrugBank.d743.s0.e0" charOffset="0-11"
+            type="drug" text="Ketoconazole"/>
+        <entity id="DDI-DrugBank.d743.s0.e1" charOffset="82-93"
+            type="drug" text="ketoconazole"/>
+        <entity id="DDI-DrugBank.d743.s0.e2" charOffset="121-131"
+            type="drug" text="terfenadine"/>
+        <pair id="DDI-DrugBank.d743.s0.p0" e1="DDI-DrugBank.d743.s0.e0"
+            e2="DDI-DrugBank.d743.s0.e1" ddi="false"/>
+        <pair id="DDI-DrugBank.d743.s0.p1" e1="DDI-DrugBank.d743.s0.e0"
+            e2="DDI-DrugBank.d743.s0.e2" ddi="false"/>
+        <pair id="DDI-DrugBank.d743.s0.p2" e1="DDI-DrugBank.d743.s0.e1"
+            e2="DDI-DrugBank.d743.s0.e2" ddi="true" type="effect"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d743.s1" text="death, cardiac arrest, and ventricular arrhythmia including torsades de pointes. "/>
+    <sentence id="DDI-DrugBank.d743.s2" text="Pharmacokinetic data indicate that ketoconazole markedly inhibits the metabolism of terfenadine, resulting in elevated plasma terfenadine levels. ">
+        <entity id="DDI-DrugBank.d743.s2.e0" charOffset="35-46"
+            type="drug" text="ketoconazole"/>
+        <entity id="DDI-DrugBank.d743.s2.e1" charOffset="84-94"
+            type="drug" text="terfenadine"/>
+        <entity id="DDI-DrugBank.d743.s2.e2" charOffset="126-136"
+            type="drug" text="terfenadine"/>
+        <pair id="DDI-DrugBank.d743.s2.p0" e1="DDI-DrugBank.d743.s2.e0"
+            e2="DDI-DrugBank.d743.s2.e1" ddi="true" type="mechanism"/>
+        <pair id="DDI-DrugBank.d743.s2.p1" e1="DDI-DrugBank.d743.s2.e0"
+            e2="DDI-DrugBank.d743.s2.e2" ddi="false"/>
+        <pair id="DDI-DrugBank.d743.s2.p2" e1="DDI-DrugBank.d743.s2.e1"
+            e2="DDI-DrugBank.d743.s2.e2" ddi="false"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d743.s3" text="Presence of unchanged terfenadine is associated with statistically significant prolongation of the QT and QTc intervals.">
+        <entity id="DDI-DrugBank.d743.s3.e0" charOffset="22-32"
+            type="drug" text="terfenadine"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d743.s4" text="Concomitant administration of ketoconazole and terfenadine is contraindicated. ">
+        <entity id="DDI-DrugBank.d743.s4.e0" charOffset="30-41"
+            type="drug" text="ketoconazole"/>
+        <entity id="DDI-DrugBank.d743.s4.e1" charOffset="47-57"
+            type="drug" text="terfenadine"/>
+        <pair id="DDI-DrugBank.d743.s4.p0" e1="DDI-DrugBank.d743.s4.e0"
+            e2="DDI-DrugBank.d743.s4.e1" ddi="true" type="advise"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d743.s5" text="Itraconazole: Torsades de pointes and elevated parent terfenadine levels have been reported during concomitant use of terfenadine and itraconazole in clinical trials of itraconazole and from foreign post-marketing sources. ">
+        <entity id="DDI-DrugBank.d743.s5.e0" charOffset="0-11"
+            type="drug" text="Itraconazole"/>
+        <entity id="DDI-DrugBank.d743.s5.e1" charOffset="54-64"
+            type="drug" text="terfenadine"/>
+        <entity id="DDI-DrugBank.d743.s5.e2" charOffset="118-128"
+            type="drug" text="terfenadine"/>
+        <entity id="DDI-DrugBank.d743.s5.e3" charOffset="134-145"
+            type="drug" text="itraconazole"/>
+        <entity id="DDI-DrugBank.d743.s5.e4" charOffset="169-180"
+            type="drug" text="itraconazole"/>
+        <pair id="DDI-DrugBank.d743.s5.p0" e1="DDI-DrugBank.d743.s5.e0"
+            e2="DDI-DrugBank.d743.s5.e1" ddi="false"/>
+        <pair id="DDI-DrugBank.d743.s5.p1" e1="DDI-DrugBank.d743.s5.e0"
+            e2="DDI-DrugBank.d743.s5.e2" ddi="false"/>
+        <pair id="DDI-DrugBank.d743.s5.p2" e1="DDI-DrugBank.d743.s5.e0"
+            e2="DDI-DrugBank.d743.s5.e3" ddi="false"/>
+        <pair id="DDI-DrugBank.d743.s5.p3" e1="DDI-DrugBank.d743.s5.e0"
+            e2="DDI-DrugBank.d743.s5.e4" ddi="false"/>
+        <pair id="DDI-DrugBank.d743.s5.p4" e1="DDI-DrugBank.d743.s5.e1"
+            e2="DDI-DrugBank.d743.s5.e2" ddi="false"/>
+        <pair id="DDI-DrugBank.d743.s5.p5" e1="DDI-DrugBank.d743.s5.e1"
+            e2="DDI-DrugBank.d743.s5.e3" ddi="false"/>
+        <pair id="DDI-DrugBank.d743.s5.p6" e1="DDI-DrugBank.d743.s5.e1"
+            e2="DDI-DrugBank.d743.s5.e4" ddi="false"/>
+        <pair id="DDI-DrugBank.d743.s5.p7" e1="DDI-DrugBank.d743.s5.e2"
+            e2="DDI-DrugBank.d743.s5.e3" ddi="true" type="mechanism"/>
+        <pair id="DDI-DrugBank.d743.s5.p8" e1="DDI-DrugBank.d743.s5.e2"
+            e2="DDI-DrugBank.d743.s5.e4" ddi="false"/>
+        <pair id="DDI-DrugBank.d743.s5.p9" e1="DDI-DrugBank.d743.s5.e3"
+            e2="DDI-DrugBank.d743.s5.e4" ddi="false"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d743.s6" text="One death has also been reported from foreign post- marketing sources. "/>
+    <sentence id="DDI-DrugBank.d743.s7" text="Concomitant administration of itraconazole and terfenadine is contraindicated. ">
+        <entity id="DDI-DrugBank.d743.s7.e0" charOffset="30-41"
+            type="drug" text="itraconazole"/>
+        <entity id="DDI-DrugBank.d743.s7.e1" charOffset="47-57"
+            type="drug" text="terfenadine"/>
+        <pair id="DDI-DrugBank.d743.s7.p0" e1="DDI-DrugBank.d743.s7.e0"
+            e2="DDI-DrugBank.d743.s7.e1" ddi="true" type="advise"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d743.s8" text="Due to the chemical similarity of other azole-type antifungal agents (including fluconazole, metronidazole, and miconazole) to ketoconazole, and itraconazole, concomitant use of these products with terfenadine is not recommended pending full examination of potential interactions. ">
+        <entity id="DDI-DrugBank.d743.s8.e0" charOffset="40-67"
+            type="group" text="azole-type antifungal agents"/>
+        <entity id="DDI-DrugBank.d743.s8.e1" charOffset="80-90"
+            type="drug" text="fluconazole"/>
+        <entity id="DDI-DrugBank.d743.s8.e2" charOffset="93-105"
+            type="drug" text="metronidazole"/>
+        <entity id="DDI-DrugBank.d743.s8.e3" charOffset="112-121"
+            type="drug" text="miconazole"/>
+        <entity id="DDI-DrugBank.d743.s8.e4" charOffset="127-138"
+            type="drug" text="ketoconazole"/>
+        <entity id="DDI-DrugBank.d743.s8.e5" charOffset="145-156"
+            type="drug" text="itraconazole"/>
+        <entity id="DDI-DrugBank.d743.s8.e6" charOffset="198-208"
+            type="drug" text="terfenadine"/>
+        <pair id="DDI-DrugBank.d743.s8.p0" e1="DDI-DrugBank.d743.s8.e0"
+            e2="DDI-DrugBank.d743.s8.e1" ddi="false"/>
+        <pair id="DDI-DrugBank.d743.s8.p1" e1="DDI-DrugBank.d743.s8.e0"
+            e2="DDI-DrugBank.d743.s8.e2" ddi="false"/>
+        <pair id="DDI-DrugBank.d743.s8.p2" e1="DDI-DrugBank.d743.s8.e0"
+            e2="DDI-DrugBank.d743.s8.e3" ddi="false"/>
+        <pair id="DDI-DrugBank.d743.s8.p3" e1="DDI-DrugBank.d743.s8.e0"
+            e2="DDI-DrugBank.d743.s8.e4" ddi="false"/>
+        <pair id="DDI-DrugBank.d743.s8.p4" e1="DDI-DrugBank.d743.s8.e0"
+            e2="DDI-DrugBank.d743.s8.e5" ddi="false"/>
+        <pair id="DDI-DrugBank.d743.s8.p5" e1="DDI-DrugBank.d743.s8.e0"
+            e2="DDI-DrugBank.d743.s8.e6" ddi="true" type="advise"/>
+        <pair id="DDI-DrugBank.d743.s8.p6" e1="DDI-DrugBank.d743.s8.e1"
+            e2="DDI-DrugBank.d743.s8.e2" ddi="false"/>
+        <pair id="DDI-DrugBank.d743.s8.p7" e1="DDI-DrugBank.d743.s8.e1"
+            e2="DDI-DrugBank.d743.s8.e3" ddi="false"/>
+        <pair id="DDI-DrugBank.d743.s8.p8" e1="DDI-DrugBank.d743.s8.e1"
+            e2="DDI-DrugBank.d743.s8.e4" ddi="false"/>
+        <pair id="DDI-DrugBank.d743.s8.p9" e1="DDI-DrugBank.d743.s8.e1"
+            e2="DDI-DrugBank.d743.s8.e5" ddi="false"/>
+        <pair id="DDI-DrugBank.d743.s8.p10" e1="DDI-DrugBank.d743.s8.e1"
+            e2="DDI-DrugBank.d743.s8.e6" ddi="true" type="advise"/>
+        <pair id="DDI-DrugBank.d743.s8.p11" e1="DDI-DrugBank.d743.s8.e2"
+            e2="DDI-DrugBank.d743.s8.e3" ddi="false"/>
+        <pair id="DDI-DrugBank.d743.s8.p12" e1="DDI-DrugBank.d743.s8.e2"
+            e2="DDI-DrugBank.d743.s8.e4" ddi="false"/>
+        <pair id="DDI-DrugBank.d743.s8.p13" e1="DDI-DrugBank.d743.s8.e2"
+            e2="DDI-DrugBank.d743.s8.e5" ddi="false"/>
+        <pair id="DDI-DrugBank.d743.s8.p14" e1="DDI-DrugBank.d743.s8.e2"
+            e2="DDI-DrugBank.d743.s8.e6" ddi="true" type="advise"/>
+        <pair id="DDI-DrugBank.d743.s8.p15" e1="DDI-DrugBank.d743.s8.e3"
+            e2="DDI-DrugBank.d743.s8.e4" ddi="false"/>
+        <pair id="DDI-DrugBank.d743.s8.p16" e1="DDI-DrugBank.d743.s8.e3"
+            e2="DDI-DrugBank.d743.s8.e5" ddi="false"/>
+        <pair id="DDI-DrugBank.d743.s8.p17" e1="DDI-DrugBank.d743.s8.e3"
+            e2="DDI-DrugBank.d743.s8.e6" ddi="true" type="advise"/>
+        <pair id="DDI-DrugBank.d743.s8.p18" e1="DDI-DrugBank.d743.s8.e4"
+            e2="DDI-DrugBank.d743.s8.e5" ddi="false"/>
+        <pair id="DDI-DrugBank.d743.s8.p19" e1="DDI-DrugBank.d743.s8.e4"
+            e2="DDI-DrugBank.d743.s8.e6" ddi="false"/>
+        <pair id="DDI-DrugBank.d743.s8.p20" e1="DDI-DrugBank.d743.s8.e5"
+            e2="DDI-DrugBank.d743.s8.e6" ddi="false"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d743.s9" text="Macrolides: Clinical drug interaction studies indicate that erythromycin and clarithromycin can exert an effect on terfenadine metabolism by a mechanism which may be similar to that of ketoconazole, but to a lesser extent. ">
+        <entity id="DDI-DrugBank.d743.s9.e0" charOffset="0-9"
+            type="group" text="Macrolides"/>
+        <entity id="DDI-DrugBank.d743.s9.e1" charOffset="60-71"
+            type="drug" text="erythromycin"/>
+        <entity id="DDI-DrugBank.d743.s9.e2" charOffset="77-90"
+            type="drug" text="clarithromycin"/>
+        <entity id="DDI-DrugBank.d743.s9.e3" charOffset="115-125"
+            type="drug" text="terfenadine"/>
+        <entity id="DDI-DrugBank.d743.s9.e4" charOffset="185-196"
+            type="drug" text="ketoconazole"/>
+        <pair id="DDI-DrugBank.d743.s9.p0" e1="DDI-DrugBank.d743.s9.e0"
+            e2="DDI-DrugBank.d743.s9.e1" ddi="false"/>
+        <pair id="DDI-DrugBank.d743.s9.p1" e1="DDI-DrugBank.d743.s9.e0"
+            e2="DDI-DrugBank.d743.s9.e2" ddi="false"/>
+        <pair id="DDI-DrugBank.d743.s9.p2" e1="DDI-DrugBank.d743.s9.e0"
+            e2="DDI-DrugBank.d743.s9.e3" ddi="false"/>
+        <pair id="DDI-DrugBank.d743.s9.p3" e1="DDI-DrugBank.d743.s9.e0"
+            e2="DDI-DrugBank.d743.s9.e4" ddi="false"/>
+        <pair id="DDI-DrugBank.d743.s9.p4" e1="DDI-DrugBank.d743.s9.e1"
+            e2="DDI-DrugBank.d743.s9.e2" ddi="false"/>
+        <pair id="DDI-DrugBank.d743.s9.p5" e1="DDI-DrugBank.d743.s9.e1"
+            e2="DDI-DrugBank.d743.s9.e3" ddi="true" type="mechanism"/>
+        <pair id="DDI-DrugBank.d743.s9.p6" e1="DDI-DrugBank.d743.s9.e1"
+            e2="DDI-DrugBank.d743.s9.e4" ddi="false"/>
+        <pair id="DDI-DrugBank.d743.s9.p7" e1="DDI-DrugBank.d743.s9.e2"
+            e2="DDI-DrugBank.d743.s9.e3" ddi="true" type="mechanism"/>
+        <pair id="DDI-DrugBank.d743.s9.p8" e1="DDI-DrugBank.d743.s9.e2"
+            e2="DDI-DrugBank.d743.s9.e4" ddi="false"/>
+        <pair id="DDI-DrugBank.d743.s9.p9" e1="DDI-DrugBank.d743.s9.e3"
+            e2="DDI-DrugBank.d743.s9.e4" ddi="false"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d743.s10" text="Although erythromycin measurably decreases the clearance of the terfenadine acid metabolite, its influence on terfenadine plasma levels is still under investigation. ">
+        <entity id="DDI-DrugBank.d743.s10.e0" charOffset="64-74"
+            type="drug" text="terfenadine"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d743.s11" text="A few spontaneous accounts of QT interval prolongation with ventricular arrhythmia including torsades de pointes, have been reported in patients receiving erythromycin or troleandomycin. ">
+        <entity id="DDI-DrugBank.d743.s11.e0" charOffset="155-166"
+            type="drug" text="erythromycin"/>
+        <entity id="DDI-DrugBank.d743.s11.e1" charOffset="171-184"
+            type="drug" text="troleandomycin"/>
+        <pair id="DDI-DrugBank.d743.s11.p0"
+            e1="DDI-DrugBank.d743.s11.e0" e2="DDI-DrugBank.d743.s11.e1" ddi="false"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d743.s12" text="Concomitant administration of terfenadine with clarithromycin, erythromycin, or troleandomycin is contraindicated: Pending full characterization of potential interactions, concomitant administration of terfenadine with other macrolide antibiotics, including azithromycin, is not recommended. ">
+        <entity id="DDI-DrugBank.d743.s12.e0" charOffset="30-40"
+            type="drug" text="terfenadine"/>
+        <entity id="DDI-DrugBank.d743.s12.e1" charOffset="47-60"
+            type="drug" text="clarithromycin"/>
+        <entity id="DDI-DrugBank.d743.s12.e2" charOffset="63-74"
+            type="drug" text="erythromycin"/>
+        <entity id="DDI-DrugBank.d743.s12.e3" charOffset="80-93"
+            type="drug" text="troleandomycin"/>
+        <entity id="DDI-DrugBank.d743.s12.e4" charOffset="202-212"
+            type="drug" text="terfenadine"/>
+        <entity id="DDI-DrugBank.d743.s12.e5" charOffset="225-245"
+            type="group" text="macrolide antibiotics"/>
+        <entity id="DDI-DrugBank.d743.s12.e6" charOffset="258-269"
+            type="drug" text="azithromycin"/>
+        <pair id="DDI-DrugBank.d743.s12.p0"
+            e1="DDI-DrugBank.d743.s12.e0" e2="DDI-DrugBank.d743.s12.e1"
+            ddi="true" type="advise"/>
+        <pair id="DDI-DrugBank.d743.s12.p1"
+            e1="DDI-DrugBank.d743.s12.e0" e2="DDI-DrugBank.d743.s12.e2"
+            ddi="true" type="advise"/>
+        <pair id="DDI-DrugBank.d743.s12.p2"
+            e1="DDI-DrugBank.d743.s12.e0" e2="DDI-DrugBank.d743.s12.e3"
+            ddi="true" type="advise"/>
+        <pair id="DDI-DrugBank.d743.s12.p3"
+            e1="DDI-DrugBank.d743.s12.e0" e2="DDI-DrugBank.d743.s12.e4" ddi="false"/>
+        <pair id="DDI-DrugBank.d743.s12.p4"
+            e1="DDI-DrugBank.d743.s12.e0" e2="DDI-DrugBank.d743.s12.e5" ddi="false"/>
+        <pair id="DDI-DrugBank.d743.s12.p5"
+            e1="DDI-DrugBank.d743.s12.e0" e2="DDI-DrugBank.d743.s12.e6" ddi="false"/>
+        <pair id="DDI-DrugBank.d743.s12.p6"
+            e1="DDI-DrugBank.d743.s12.e1" e2="DDI-DrugBank.d743.s12.e2" ddi="false"/>
+        <pair id="DDI-DrugBank.d743.s12.p7"
+            e1="DDI-DrugBank.d743.s12.e1" e2="DDI-DrugBank.d743.s12.e3" ddi="false"/>
+        <pair id="DDI-DrugBank.d743.s12.p8"
+            e1="DDI-DrugBank.d743.s12.e1" e2="DDI-DrugBank.d743.s12.e4" ddi="false"/>
+        <pair id="DDI-DrugBank.d743.s12.p9"
+            e1="DDI-DrugBank.d743.s12.e1" e2="DDI-DrugBank.d743.s12.e5" ddi="false"/>
+        <pair id="DDI-DrugBank.d743.s12.p10"
+            e1="DDI-DrugBank.d743.s12.e1" e2="DDI-DrugBank.d743.s12.e6" ddi="false"/>
+        <pair id="DDI-DrugBank.d743.s12.p11"
+            e1="DDI-DrugBank.d743.s12.e2" e2="DDI-DrugBank.d743.s12.e3" ddi="false"/>
+        <pair id="DDI-DrugBank.d743.s12.p12"
+            e1="DDI-DrugBank.d743.s12.e2" e2="DDI-DrugBank.d743.s12.e4" ddi="false"/>
+        <pair id="DDI-DrugBank.d743.s12.p13"
+            e1="DDI-DrugBank.d743.s12.e2" e2="DDI-DrugBank.d743.s12.e5" ddi="false"/>
+        <pair id="DDI-DrugBank.d743.s12.p14"
+            e1="DDI-DrugBank.d743.s12.e2" e2="DDI-DrugBank.d743.s12.e6" ddi="false"/>
+        <pair id="DDI-DrugBank.d743.s12.p15"
+            e1="DDI-DrugBank.d743.s12.e3" e2="DDI-DrugBank.d743.s12.e4" ddi="false"/>
+        <pair id="DDI-DrugBank.d743.s12.p16"
+            e1="DDI-DrugBank.d743.s12.e3" e2="DDI-DrugBank.d743.s12.e5" ddi="false"/>
+        <pair id="DDI-DrugBank.d743.s12.p17"
+            e1="DDI-DrugBank.d743.s12.e3" e2="DDI-DrugBank.d743.s12.e6" ddi="false"/>
+        <pair id="DDI-DrugBank.d743.s12.p18"
+            e1="DDI-DrugBank.d743.s12.e4" e2="DDI-DrugBank.d743.s12.e5"
+            ddi="true" type="advise"/>
+        <pair id="DDI-DrugBank.d743.s12.p19"
+            e1="DDI-DrugBank.d743.s12.e4" e2="DDI-DrugBank.d743.s12.e6"
+            ddi="true" type="advise"/>
+        <pair id="DDI-DrugBank.d743.s12.p20"
+            e1="DDI-DrugBank.d743.s12.e5" e2="DDI-DrugBank.d743.s12.e6" ddi="false"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d743.s13" text="Studies to evaluate potential interactions of terfenadine with azithromycin are in progress.">
+        <entity id="DDI-DrugBank.d743.s13.e0" charOffset="46-56"
+            type="drug" text="terfenadine"/>
+        <entity id="DDI-DrugBank.d743.s13.e1" charOffset="63-74"
+            type="drug" text="azithromycin"/>
+        <pair id="DDI-DrugBank.d743.s13.p0"
+            e1="DDI-DrugBank.d743.s13.e0" e2="DDI-DrugBank.d743.s13.e1" ddi="false"/>
+    </sentence>
+</document>

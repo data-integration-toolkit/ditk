@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="DDI-DrugBank.d550">
+    <sentence id="DDI-DrugBank.d550.s0" text="Oral Contraceptives Multiple doses of cefditoren pivoxil had no effect on the pharmacokinetics of ethinyl estradiol, the estrogenic component in most oral contraceptives.">
+        <entity id="DDI-DrugBank.d550.s0.e0" charOffset="5-18"
+            type="group" text="Contraceptives"/>
+        <entity id="DDI-DrugBank.d550.s0.e1" charOffset="38-55"
+            type="drug" text="cefditoren pivoxil"/>
+        <entity id="DDI-DrugBank.d550.s0.e2" charOffset="98-114"
+            type="drug" text="ethinyl estradiol"/>
+        <entity id="DDI-DrugBank.d550.s0.e3" charOffset="155-168"
+            type="group" text="contraceptives"/>
+        <pair id="DDI-DrugBank.d550.s0.p0" e1="DDI-DrugBank.d550.s0.e0"
+            e2="DDI-DrugBank.d550.s0.e1" ddi="false"/>
+        <pair id="DDI-DrugBank.d550.s0.p1" e1="DDI-DrugBank.d550.s0.e0"
+            e2="DDI-DrugBank.d550.s0.e2" ddi="false"/>
+        <pair id="DDI-DrugBank.d550.s0.p2" e1="DDI-DrugBank.d550.s0.e0"
+            e2="DDI-DrugBank.d550.s0.e3" ddi="false"/>
+        <pair id="DDI-DrugBank.d550.s0.p3" e1="DDI-DrugBank.d550.s0.e1"
+            e2="DDI-DrugBank.d550.s0.e2" ddi="false"/>
+        <pair id="DDI-DrugBank.d550.s0.p4" e1="DDI-DrugBank.d550.s0.e1"
+            e2="DDI-DrugBank.d550.s0.e3" ddi="false"/>
+        <pair id="DDI-DrugBank.d550.s0.p5" e1="DDI-DrugBank.d550.s0.e2"
+            e2="DDI-DrugBank.d550.s0.e3" ddi="false"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d550.s1" text="Although the clinical significance is not known, it is not recommended that cefditoren pivoxil be taken concomitantly with antacids.">
+        <entity id="DDI-DrugBank.d550.s1.e0" charOffset="76-93"
+            type="drug" text="cefditoren pivoxil"/>
+        <entity id="DDI-DrugBank.d550.s1.e1" charOffset="123-130"
+            type="group" text="antacids"/>
+        <pair id="DDI-DrugBank.d550.s1.p0" e1="DDI-DrugBank.d550.s1.e0"
+            e2="DDI-DrugBank.d550.s1.e1" ddi="true" type="advise"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d550.s2" text="H2-Receptor Antagonists: Co-administration of a single dose of intravenously administered famotidine (20 mg) reduced the oral absorption of a single 400 mg dose of cefditoren pivoxil administered following a meal, as evidenced by a 27% decrease in mean Cmax and a 22% decrease in mean AUC.">
+        <entity id="DDI-DrugBank.d550.s2.e0" charOffset="0-22"
+            type="group" text="H2-Receptor Antagonists"/>
+        <entity id="DDI-DrugBank.d550.s2.e1" charOffset="90-99"
+            type="drug" text="famotidine"/>
+        <entity id="DDI-DrugBank.d550.s2.e2" charOffset="164-181"
+            type="drug" text="cefditoren pivoxil"/>
+        <pair id="DDI-DrugBank.d550.s2.p0" e1="DDI-DrugBank.d550.s2.e0"
+            e2="DDI-DrugBank.d550.s2.e1" ddi="false"/>
+        <pair id="DDI-DrugBank.d550.s2.p1" e1="DDI-DrugBank.d550.s2.e0"
+            e2="DDI-DrugBank.d550.s2.e2" ddi="false"/>
+        <pair id="DDI-DrugBank.d550.s2.p2" e1="DDI-DrugBank.d550.s2.e1"
+            e2="DDI-DrugBank.d550.s2.e2" ddi="true" type="mechanism"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d550.s3" text="Although the clinical significance is not known, it is not recommended that cefditoren pivoxil be taken concomitantly with H2 receptor antagonists.">
+        <entity id="DDI-DrugBank.d550.s3.e0" charOffset="76-93"
+            type="drug" text="cefditoren pivoxil"/>
+        <entity id="DDI-DrugBank.d550.s3.e1" charOffset="123-145"
+            type="group" text="H2 receptor antagonists"/>
+        <pair id="DDI-DrugBank.d550.s3.p0" e1="DDI-DrugBank.d550.s3.e0"
+            e2="DDI-DrugBank.d550.s3.e1" ddi="false"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d550.s4" text="Probenecid: As with other b-lactam antibiotics, co-administration of probenecid with cefditoren pivoxil resulted in an increase in the plasma exposure of cefditoren, with a 49% increase in mean Cmax, a 122% increase in mean AUC, and a 53% increase in half-life.">
+        <entity id="DDI-DrugBank.d550.s4.e0" charOffset="0-9"
+            type="drug" text="Probenecid"/>
+        <entity id="DDI-DrugBank.d550.s4.e1" charOffset="26-45"
+            type="group" text="b-lactam antibiotics"/>
+        <entity id="DDI-DrugBank.d550.s4.e2" charOffset="69-78"
+            type="drug" text="probenecid"/>
+        <entity id="DDI-DrugBank.d550.s4.e3" charOffset="85-102"
+            type="drug" text="cefditoren pivoxil"/>
+        <entity id="DDI-DrugBank.d550.s4.e4" charOffset="154-163"
+            type="drug" text="cefditoren"/>
+        <pair id="DDI-DrugBank.d550.s4.p0" e1="DDI-DrugBank.d550.s4.e0"
+            e2="DDI-DrugBank.d550.s4.e1" ddi="false"/>
+        <pair id="DDI-DrugBank.d550.s4.p1" e1="DDI-DrugBank.d550.s4.e0"
+            e2="DDI-DrugBank.d550.s4.e2" ddi="false"/>
+        <pair id="DDI-DrugBank.d550.s4.p2" e1="DDI-DrugBank.d550.s4.e0"
+            e2="DDI-DrugBank.d550.s4.e3" ddi="false"/>
+        <pair id="DDI-DrugBank.d550.s4.p3" e1="DDI-DrugBank.d550.s4.e0"
+            e2="DDI-DrugBank.d550.s4.e4" ddi="false"/>
+        <pair id="DDI-DrugBank.d550.s4.p4" e1="DDI-DrugBank.d550.s4.e1"
+            e2="DDI-DrugBank.d550.s4.e2" ddi="false"/>
+        <pair id="DDI-DrugBank.d550.s4.p5" e1="DDI-DrugBank.d550.s4.e1"
+            e2="DDI-DrugBank.d550.s4.e3" ddi="true" type="mechanism"/>
+        <pair id="DDI-DrugBank.d550.s4.p6" e1="DDI-DrugBank.d550.s4.e1"
+            e2="DDI-DrugBank.d550.s4.e4" ddi="false"/>
+        <pair id="DDI-DrugBank.d550.s4.p7" e1="DDI-DrugBank.d550.s4.e2"
+            e2="DDI-DrugBank.d550.s4.e3" ddi="true" type="mechanism"/>
+        <pair id="DDI-DrugBank.d550.s4.p8" e1="DDI-DrugBank.d550.s4.e2"
+            e2="DDI-DrugBank.d550.s4.e4" ddi="false"/>
+        <pair id="DDI-DrugBank.d550.s4.p9" e1="DDI-DrugBank.d550.s4.e3"
+            e2="DDI-DrugBank.d550.s4.e4" ddi="false"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d550.s5" text="Drug/Laboratory Test Interactions Cephalosporins are known to occasionally induce a positive direct Coombs test.">
+        <entity id="DDI-DrugBank.d550.s5.e0" charOffset="34-47"
+            type="group" text="Cephalosporins"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d550.s6" text="A false-positive reaction for glucose in the urine may occur with copper reduction tests (Benedicts or Fehlings solution or with CLINITEST tablets), but not with enzyme-based tests for glycosuria (e.g., CLINISTIX, TES-TAPE)."/>
+    <sentence id="DDI-DrugBank.d550.s7" text="As a false-negative result may occur in the ferricyanide test, it is recommended that either the glucose oxidase or hexokinase method be used to determine blood/plasma glucose levels in patients receiving cefditoren pivoxil.">
+        <entity id="DDI-DrugBank.d550.s7.e0" charOffset="205-222"
+            type="drug" text="cefditoren pivoxil"/>
+    </sentence>
+</document>

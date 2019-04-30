@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="DDI-DrugBank.d486">
+    <sentence id="DDI-DrugBank.d486.s0" text="No drug interaction studies have been conducted for COLAZAL, however the use of orally administered antibiotics could, theoretically, interfere with the release of mesalamine in the colon.">
+        <entity id="DDI-DrugBank.d486.s0.e0" charOffset="52-58"
+            type="brand" text="COLAZAL"/>
+        <entity id="DDI-DrugBank.d486.s0.e1" charOffset="100-110"
+            type="group" text="antibiotics"/>
+        <entity id="DDI-DrugBank.d486.s0.e2" charOffset="164-173"
+            type="drug" text="mesalamine"/>
+        <pair id="DDI-DrugBank.d486.s0.p0" e1="DDI-DrugBank.d486.s0.e0"
+            e2="DDI-DrugBank.d486.s0.e1" ddi="false"/>
+        <pair id="DDI-DrugBank.d486.s0.p1" e1="DDI-DrugBank.d486.s0.e0"
+            e2="DDI-DrugBank.d486.s0.e2" ddi="false"/>
+        <pair id="DDI-DrugBank.d486.s0.p2" e1="DDI-DrugBank.d486.s0.e1"
+            e2="DDI-DrugBank.d486.s0.e2" ddi="false"/>
+    </sentence>
+</document>

@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="DDI-MedLine.d21">
+    <sentence id="DDI-MedLine.d21.s0" text="Acute effect of different antidepressants on glycemia in diabetic and non-diabetic rats.&#xa;">
+        <entity id="DDI-MedLine.d21.s0.e0" charOffset="26-40"
+            type="group" text="antidepressants"/>
+    </sentence>
+    <sentence id="DDI-MedLine.d21.s1" text="Diabetic patients have a 20% higher risk of depression than the general population. "/>
+    <sentence id="DDI-MedLine.d21.s2" text="Treatment with antidepressant drugs can directly interfere with blood glucose levels or may interact with hypoglycemic agents. ">
+        <entity id="DDI-MedLine.d21.s2.e0" charOffset="15-34"
+            type="group" text="antidepressant drugs"/>
+        <entity id="DDI-MedLine.d21.s2.e1" charOffset="106-124"
+            type="group" text="hypoglycemic agents"/>
+        <pair id="DDI-MedLine.d21.s2.p0" e1="DDI-MedLine.d21.s2.e0"
+            e2="DDI-MedLine.d21.s2.e1" ddi="true" type="int"/>
+    </sentence>
+    <sentence id="DDI-MedLine.d21.s3" text="The treatment of depression in diabetic patients must take into account variations of glycemic levels at different times and a comparison of the available antidepressant agents is important. ">
+        <entity id="DDI-MedLine.d21.s3.e0" charOffset="155-175"
+            type="group" text="antidepressant agents"/>
+    </sentence>
+    <sentence id="DDI-MedLine.d21.s4" text="In the present study we evaluated the interference of antidepressants with blood glucose levels of diabetic and non-diabetic rats. ">
+        <entity id="DDI-MedLine.d21.s4.e0" charOffset="54-68"
+            type="group" text="antidepressants"/>
+    </sentence>
+    <sentence id="DDI-MedLine.d21.s5" text="In a first experiment, male adult Wistar rats were fasted for 12 h. "/>
+    <sentence id="DDI-MedLine.d21.s6" text="Imipramine (5 mg/kg), moclobemide (30 mg/kg), clonazepam (0.25 mg/kg), fluoxetine (20 mg/kg) sertraline (30 mg/kg) or vehicle was administered. ">
+        <entity id="DDI-MedLine.d21.s6.e0" charOffset="0-9" type="drug" text="Imipramine"/>
+        <entity id="DDI-MedLine.d21.s6.e1" charOffset="22-32"
+            type="drug" text="moclobemide"/>
+        <entity id="DDI-MedLine.d21.s6.e2" charOffset="46-55"
+            type="drug" text="clonazepam"/>
+        <entity id="DDI-MedLine.d21.s6.e3" charOffset="71-80"
+            type="drug" text="fluoxetine"/>
+        <entity id="DDI-MedLine.d21.s6.e4" charOffset="93-102"
+            type="drug" text="sertraline"/>
+        <pair id="DDI-MedLine.d21.s6.p0" e1="DDI-MedLine.d21.s6.e0"
+            e2="DDI-MedLine.d21.s6.e1" ddi="false"/>
+        <pair id="DDI-MedLine.d21.s6.p1" e1="DDI-MedLine.d21.s6.e0"
+            e2="DDI-MedLine.d21.s6.e2" ddi="false"/>
+        <pair id="DDI-MedLine.d21.s6.p2" e1="DDI-MedLine.d21.s6.e0"
+            e2="DDI-MedLine.d21.s6.e3" ddi="false"/>
+        <pair id="DDI-MedLine.d21.s6.p3" e1="DDI-MedLine.d21.s6.e0"
+            e2="DDI-MedLine.d21.s6.e4" ddi="false"/>
+        <pair id="DDI-MedLine.d21.s6.p4" e1="DDI-MedLine.d21.s6.e1"
+            e2="DDI-MedLine.d21.s6.e2" ddi="false"/>
+        <pair id="DDI-MedLine.d21.s6.p5" e1="DDI-MedLine.d21.s6.e1"
+            e2="DDI-MedLine.d21.s6.e3" ddi="false"/>
+        <pair id="DDI-MedLine.d21.s6.p6" e1="DDI-MedLine.d21.s6.e1"
+            e2="DDI-MedLine.d21.s6.e4" ddi="false"/>
+        <pair id="DDI-MedLine.d21.s6.p7" e1="DDI-MedLine.d21.s6.e2"
+            e2="DDI-MedLine.d21.s6.e3" ddi="false"/>
+        <pair id="DDI-MedLine.d21.s6.p8" e1="DDI-MedLine.d21.s6.e2"
+            e2="DDI-MedLine.d21.s6.e4" ddi="false"/>
+        <pair id="DDI-MedLine.d21.s6.p9" e1="DDI-MedLine.d21.s6.e3"
+            e2="DDI-MedLine.d21.s6.e4" ddi="false"/>
+    </sentence>
+    <sentence id="DDI-MedLine.d21.s7" text="After 30 min, fasting glycemia was measured. "/>
+    <sentence id="DDI-MedLine.d21.s8" text="An oral glucose overload of 1 ml of a 50% glucose solution was given to rats and blood glucose was determined after 30, 60 and 90 min. ">
+        <entity id="DDI-MedLine.d21.s8.e0" charOffset="8-14" type="drug" text="glucose"/>
+        <entity id="DDI-MedLine.d21.s8.e1" charOffset="42-48"
+            type="drug" text="glucose"/>
+        <pair id="DDI-MedLine.d21.s8.p0" e1="DDI-MedLine.d21.s8.e0"
+            e2="DDI-MedLine.d21.s8.e1" ddi="false"/>
+    </sentence>
+    <sentence id="DDI-MedLine.d21.s9" text="Imipramine and clonazepam did not change fasting or overload glycemia. ">
+        <entity id="DDI-MedLine.d21.s9.e0" charOffset="0-9" type="drug" text="Imipramine"/>
+        <entity id="DDI-MedLine.d21.s9.e1" charOffset="15-24"
+            type="drug" text="clonazepam"/>
+        <pair id="DDI-MedLine.d21.s9.p0" e1="DDI-MedLine.d21.s9.e0"
+            e2="DDI-MedLine.d21.s9.e1" ddi="false"/>
+    </sentence>
+    <sentence id="DDI-MedLine.d21.s10" text="Fluoxetine and moclobemide increased blood glucose at different times after the glucose overload. ">
+        <entity id="DDI-MedLine.d21.s10.e0" charOffset="0-9" type="drug" text="Fluoxetine"/>
+        <entity id="DDI-MedLine.d21.s10.e1" charOffset="15-25"
+            type="drug" text="moclobemide"/>
+        <entity id="DDI-MedLine.d21.s10.e2" charOffset="43-49"
+            type="drug" text="glucose"/>
+        <pair id="DDI-MedLine.d21.s10.p0" e1="DDI-MedLine.d21.s10.e0"
+            e2="DDI-MedLine.d21.s10.e1" ddi="false"/>
+        <pair id="DDI-MedLine.d21.s10.p1" e1="DDI-MedLine.d21.s10.e0"
+            e2="DDI-MedLine.d21.s10.e2" ddi="false"/>
+        <pair id="DDI-MedLine.d21.s10.p2" e1="DDI-MedLine.d21.s10.e1"
+            e2="DDI-MedLine.d21.s10.e2" ddi="false"/>
+    </sentence>
+    <sentence id="DDI-MedLine.d21.s11" text="Sertraline neutralized the increase of glycemia induced by oral glucose overload. ">
+        <entity id="DDI-MedLine.d21.s11.e0" charOffset="0-9" type="drug" text="Sertraline"/>
+        <entity id="DDI-MedLine.d21.s11.e1" charOffset="64-70"
+            type="drug" text="glucose"/>
+        <pair id="DDI-MedLine.d21.s11.p0" e1="DDI-MedLine.d21.s11.e0"
+            e2="DDI-MedLine.d21.s11.e1" ddi="false"/>
+    </sentence>
+    <sentence id="DDI-MedLine.d21.s12" text="In the second experiment, non-diabetic and streptozotocin-induced diabetic rats were fasted, and the same procedures were followed for estimation of glucose tolerance 30 min after glucose overload. ">
+        <entity id="DDI-MedLine.d21.s12.e0" charOffset="149-155"
+            type="drug" text="glucose"/>
+        <entity id="DDI-MedLine.d21.s12.e1" charOffset="180-186"
+            type="drug" text="glucose"/>
+        <pair id="DDI-MedLine.d21.s12.p0" e1="DDI-MedLine.d21.s12.e0"
+            e2="DDI-MedLine.d21.s12.e1" ddi="false"/>
+    </sentence>
+    <sentence id="DDI-MedLine.d21.s13" text="Again, sertraline neutralized the increase in glycemia after glucose overload both in diabetic and non-diabetic rats. ">
+        <entity id="DDI-MedLine.d21.s13.e0" charOffset="7-16"
+            type="drug" text="sertraline"/>
+        <entity id="DDI-MedLine.d21.s13.e1" charOffset="61-67"
+            type="drug" text="glucose"/>
+        <pair id="DDI-MedLine.d21.s13.p0" e1="DDI-MedLine.d21.s13.e0"
+            e2="DDI-MedLine.d21.s13.e1" ddi="false"/>
+    </sentence>
+    <sentence id="DDI-MedLine.d21.s14" text="These data raise the question of whether sertraline is the best choice for prolonged use for diabetic individuals, because of its antihyperglycemic effects. ">
+        <entity id="DDI-MedLine.d21.s14.e0" charOffset="41-50"
+            type="drug" text="sertraline"/>
+    </sentence>
+    <sentence id="DDI-MedLine.d21.s15" text="Clonazepam would be useful in cases with potential risk of hypoglycemia.">
+        <entity id="DDI-MedLine.d21.s15.e0" charOffset="0-9" type="drug" text="Clonazepam"/>
+    </sentence>
+</document>

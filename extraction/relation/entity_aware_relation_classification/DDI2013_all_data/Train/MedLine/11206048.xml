@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="DDI-MedLine.d60">
+    <sentence id="DDI-MedLine.d60.s0" text="Phenytoin intoxication induced by fluvoxamine.&#xa;">
+        <entity id="DDI-MedLine.d60.s0.e0" charOffset="34-44"
+            type="drug" text="fluvoxamine"/>
+    </sentence>
+    <sentence id="DDI-MedLine.d60.s1" text="A patient had phenytoin intoxication after administration of fluvoxamine, a selective serotonin reuptake inhibitor. ">
+        <entity id="DDI-MedLine.d60.s1.e0" charOffset="61-71"
+            type="drug" text="fluvoxamine"/>
+    </sentence>
+    <sentence id="DDI-MedLine.d60.s2" text="The serum concentration of phenytoin increased dramatically from 16.6 to 49.1 microg/mL when fluvoxamine was coadministered, although the daily dosage of phenytoin and other drugs had not changed. ">
+        <entity id="DDI-MedLine.d60.s2.e0" charOffset="27-35"
+            type="drug" text="phenytoin"/>
+        <entity id="DDI-MedLine.d60.s2.e1" charOffset="93-103"
+            type="drug" text="fluvoxamine"/>
+        <entity id="DDI-MedLine.d60.s2.e2" charOffset="154-162"
+            type="drug" text="phenytoin"/>
+        <entity id="DDI-MedLine.d60.s2.e3" charOffset="174-178"
+            type="drug" text="drugs"/>
+        <pair id="DDI-MedLine.d60.s2.p0" e1="DDI-MedLine.d60.s2.e0"
+            e2="DDI-MedLine.d60.s2.e1" ddi="false"/>
+        <pair id="DDI-MedLine.d60.s2.p1" e1="DDI-MedLine.d60.s2.e0"
+            e2="DDI-MedLine.d60.s2.e2" ddi="false"/>
+        <pair id="DDI-MedLine.d60.s2.p2" e1="DDI-MedLine.d60.s2.e0"
+            e2="DDI-MedLine.d60.s2.e3" ddi="false"/>
+        <pair id="DDI-MedLine.d60.s2.p3" e1="DDI-MedLine.d60.s2.e1"
+            e2="DDI-MedLine.d60.s2.e2" ddi="false"/>
+        <pair id="DDI-MedLine.d60.s2.p4" e1="DDI-MedLine.d60.s2.e1"
+            e2="DDI-MedLine.d60.s2.e3" ddi="false"/>
+        <pair id="DDI-MedLine.d60.s2.p5" e1="DDI-MedLine.d60.s2.e2"
+            e2="DDI-MedLine.d60.s2.e3" ddi="false"/>
+    </sentence>
+    <sentence id="DDI-MedLine.d60.s3" text="During phenytoin and fluvoxamine treatment, ataxia, a typical side effect of phenytoin, was observed. ">
+        <entity id="DDI-MedLine.d60.s3.e0" charOffset="7-15" type="drug" text="phenytoin"/>
+        <entity id="DDI-MedLine.d60.s3.e1" charOffset="77-85"
+            type="drug" text="phenytoin"/>
+        <pair id="DDI-MedLine.d60.s3.p0" e1="DDI-MedLine.d60.s3.e0"
+            e2="DDI-MedLine.d60.s3.e1" ddi="false"/>
+    </sentence>
+    <sentence id="DDI-MedLine.d60.s4" text="The genotypes of CYP2C9 and 2C19, the enzymes responsible for phenytoin metabolism, were homozygous for the wild-type alleles (CYP2C9*1/*1 and 2C19*1/ *1). ">
+        <entity id="DDI-MedLine.d60.s4.e0" charOffset="17-22"
+            type="drug" text="CYP2C9"/>
+        <entity id="DDI-MedLine.d60.s4.e1" charOffset="127-132"
+            type="drug" text="CYP2C9"/>
+        <pair id="DDI-MedLine.d60.s4.p0" e1="DDI-MedLine.d60.s4.e0"
+            e2="DDI-MedLine.d60.s4.e1" ddi="false"/>
+    </sentence>
+    <sentence id="DDI-MedLine.d60.s5" text="The interaction may be a result of inhibition of both CYP2C9 and 2C19 by fluvoxamine.">
+        <entity id="DDI-MedLine.d60.s5.e0" charOffset="54-59"
+            type="drug" text="CYP2C9"/>
+        <entity id="DDI-MedLine.d60.s5.e1" charOffset="73-83"
+            type="drug" text="fluvoxamine"/>
+        <pair id="DDI-MedLine.d60.s5.p0" e1="DDI-MedLine.d60.s5.e0"
+            e2="DDI-MedLine.d60.s5.e1" ddi="false"/>
+    </sentence>
+</document>

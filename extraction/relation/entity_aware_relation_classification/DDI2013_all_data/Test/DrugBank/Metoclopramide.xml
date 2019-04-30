@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="DDI-DrugBank.d652">
+    <sentence id="DDI-DrugBank.d652.s0" text="The effects of metoclopramide on gastrointestinal motility are antagonized by anticholinergic drugs and narcotic analgesics. ">
+        <entity id="DDI-DrugBank.d652.s0.e0" charOffset="15-28"
+            type="drug" text="metoclopramide"/>
+        <entity id="DDI-DrugBank.d652.s0.e1" charOffset="78-98"
+            type="group" text="anticholinergic drugs"/>
+        <entity id="DDI-DrugBank.d652.s0.e2" charOffset="104-122"
+            type="group" text="narcotic analgesics"/>
+        <pair id="DDI-DrugBank.d652.s0.p0" e1="DDI-DrugBank.d652.s0.e0"
+            e2="DDI-DrugBank.d652.s0.e1" ddi="true" type="effect"/>
+        <pair id="DDI-DrugBank.d652.s0.p1" e1="DDI-DrugBank.d652.s0.e0"
+            e2="DDI-DrugBank.d652.s0.e2" ddi="true" type="effect"/>
+        <pair id="DDI-DrugBank.d652.s0.p2" e1="DDI-DrugBank.d652.s0.e1"
+            e2="DDI-DrugBank.d652.s0.e2" ddi="false"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d652.s1" text="Additive sedative effects can occur when metoclopramide is given with alcohol, sedatives, hypnotics, narcotics, or tranquilizers. ">
+        <entity id="DDI-DrugBank.d652.s1.e0" charOffset="41-54"
+            type="drug" text="metoclopramide"/>
+        <entity id="DDI-DrugBank.d652.s1.e1" charOffset="70-76"
+            type="drug" text="alcohol"/>
+        <entity id="DDI-DrugBank.d652.s1.e2" charOffset="79-87"
+            type="group" text="sedatives"/>
+        <entity id="DDI-DrugBank.d652.s1.e3" charOffset="90-98"
+            type="group" text="hypnotics"/>
+        <entity id="DDI-DrugBank.d652.s1.e4" charOffset="101-109"
+            type="group" text="narcotics"/>
+        <entity id="DDI-DrugBank.d652.s1.e5" charOffset="115-127"
+            type="group" text="tranquilizers"/>
+        <pair id="DDI-DrugBank.d652.s1.p0" e1="DDI-DrugBank.d652.s1.e0"
+            e2="DDI-DrugBank.d652.s1.e1" ddi="true" type="effect"/>
+        <pair id="DDI-DrugBank.d652.s1.p1" e1="DDI-DrugBank.d652.s1.e0"
+            e2="DDI-DrugBank.d652.s1.e2" ddi="true" type="effect"/>
+        <pair id="DDI-DrugBank.d652.s1.p2" e1="DDI-DrugBank.d652.s1.e0"
+            e2="DDI-DrugBank.d652.s1.e3" ddi="true" type="effect"/>
+        <pair id="DDI-DrugBank.d652.s1.p3" e1="DDI-DrugBank.d652.s1.e0"
+            e2="DDI-DrugBank.d652.s1.e4" ddi="true" type="effect"/>
+        <pair id="DDI-DrugBank.d652.s1.p4" e1="DDI-DrugBank.d652.s1.e0"
+            e2="DDI-DrugBank.d652.s1.e5" ddi="true" type="effect"/>
+        <pair id="DDI-DrugBank.d652.s1.p5" e1="DDI-DrugBank.d652.s1.e1"
+            e2="DDI-DrugBank.d652.s1.e2" ddi="false"/>
+        <pair id="DDI-DrugBank.d652.s1.p6" e1="DDI-DrugBank.d652.s1.e1"
+            e2="DDI-DrugBank.d652.s1.e3" ddi="false"/>
+        <pair id="DDI-DrugBank.d652.s1.p7" e1="DDI-DrugBank.d652.s1.e1"
+            e2="DDI-DrugBank.d652.s1.e4" ddi="false"/>
+        <pair id="DDI-DrugBank.d652.s1.p8" e1="DDI-DrugBank.d652.s1.e1"
+            e2="DDI-DrugBank.d652.s1.e5" ddi="false"/>
+        <pair id="DDI-DrugBank.d652.s1.p9" e1="DDI-DrugBank.d652.s1.e2"
+            e2="DDI-DrugBank.d652.s1.e3" ddi="false"/>
+        <pair id="DDI-DrugBank.d652.s1.p10" e1="DDI-DrugBank.d652.s1.e2"
+            e2="DDI-DrugBank.d652.s1.e4" ddi="false"/>
+        <pair id="DDI-DrugBank.d652.s1.p11" e1="DDI-DrugBank.d652.s1.e2"
+            e2="DDI-DrugBank.d652.s1.e5" ddi="false"/>
+        <pair id="DDI-DrugBank.d652.s1.p12" e1="DDI-DrugBank.d652.s1.e3"
+            e2="DDI-DrugBank.d652.s1.e4" ddi="false"/>
+        <pair id="DDI-DrugBank.d652.s1.p13" e1="DDI-DrugBank.d652.s1.e3"
+            e2="DDI-DrugBank.d652.s1.e5" ddi="false"/>
+        <pair id="DDI-DrugBank.d652.s1.p14" e1="DDI-DrugBank.d652.s1.e4"
+            e2="DDI-DrugBank.d652.s1.e5" ddi="false"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d652.s2" text="The finding that metoclopramide releases catecholamines in patients with essential hypertension suggests that it should be used cautiously, if at all, in patients receiving monoamine oxi-dase inhibitors. ">
+        <entity id="DDI-DrugBank.d652.s2.e0" charOffset="17-30"
+            type="drug" text="metoclopramide"/>
+        <entity id="DDI-DrugBank.d652.s2.e1" charOffset="173-201"
+            type="group" text="monoamine oxi-dase inhibitors"/>
+        <pair id="DDI-DrugBank.d652.s2.p0" e1="DDI-DrugBank.d652.s2.e0"
+            e2="DDI-DrugBank.d652.s2.e1" ddi="true" type="advise"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d652.s3" text="Absorption of drugs from the stomach may be diminished (e.g., digoxin) by metoclopramide, whereas the rate and/or extent of absorption of drugs from the small bowel may be increased (e.g., acetaminophen, tetracycline, levodopa, ethanol, cyclosporine). ">
+        <entity id="DDI-DrugBank.d652.s3.e0" charOffset="62-68"
+            type="drug" text="digoxin"/>
+        <entity id="DDI-DrugBank.d652.s3.e1" charOffset="74-87"
+            type="drug" text="metoclopramide"/>
+        <entity id="DDI-DrugBank.d652.s3.e2" charOffset="189-201"
+            type="drug" text="acetaminophen"/>
+        <entity id="DDI-DrugBank.d652.s3.e3" charOffset="204-215"
+            type="drug" text="tetracycline"/>
+        <entity id="DDI-DrugBank.d652.s3.e4" charOffset="218-225"
+            type="drug" text="levodopa"/>
+        <entity id="DDI-DrugBank.d652.s3.e5" charOffset="228-234"
+            type="drug" text="ethanol"/>
+        <entity id="DDI-DrugBank.d652.s3.e6" charOffset="237-248"
+            type="drug" text="cyclosporine"/>
+        <pair id="DDI-DrugBank.d652.s3.p0" e1="DDI-DrugBank.d652.s3.e0"
+            e2="DDI-DrugBank.d652.s3.e1" ddi="true" type="mechanism"/>
+        <pair id="DDI-DrugBank.d652.s3.p1" e1="DDI-DrugBank.d652.s3.e0"
+            e2="DDI-DrugBank.d652.s3.e2" ddi="false"/>
+        <pair id="DDI-DrugBank.d652.s3.p2" e1="DDI-DrugBank.d652.s3.e0"
+            e2="DDI-DrugBank.d652.s3.e3" ddi="false"/>
+        <pair id="DDI-DrugBank.d652.s3.p3" e1="DDI-DrugBank.d652.s3.e0"
+            e2="DDI-DrugBank.d652.s3.e4" ddi="false"/>
+        <pair id="DDI-DrugBank.d652.s3.p4" e1="DDI-DrugBank.d652.s3.e0"
+            e2="DDI-DrugBank.d652.s3.e5" ddi="false"/>
+        <pair id="DDI-DrugBank.d652.s3.p5" e1="DDI-DrugBank.d652.s3.e0"
+            e2="DDI-DrugBank.d652.s3.e6" ddi="false"/>
+        <pair id="DDI-DrugBank.d652.s3.p6" e1="DDI-DrugBank.d652.s3.e1"
+            e2="DDI-DrugBank.d652.s3.e2" ddi="true" type="mechanism"/>
+        <pair id="DDI-DrugBank.d652.s3.p7" e1="DDI-DrugBank.d652.s3.e1"
+            e2="DDI-DrugBank.d652.s3.e3" ddi="false"/>
+        <pair id="DDI-DrugBank.d652.s3.p8" e1="DDI-DrugBank.d652.s3.e1"
+            e2="DDI-DrugBank.d652.s3.e4" ddi="false"/>
+        <pair id="DDI-DrugBank.d652.s3.p9" e1="DDI-DrugBank.d652.s3.e1"
+            e2="DDI-DrugBank.d652.s3.e5" ddi="false"/>
+        <pair id="DDI-DrugBank.d652.s3.p10" e1="DDI-DrugBank.d652.s3.e1"
+            e2="DDI-DrugBank.d652.s3.e6" ddi="false"/>
+        <pair id="DDI-DrugBank.d652.s3.p11" e1="DDI-DrugBank.d652.s3.e2"
+            e2="DDI-DrugBank.d652.s3.e3" ddi="false"/>
+        <pair id="DDI-DrugBank.d652.s3.p12" e1="DDI-DrugBank.d652.s3.e2"
+            e2="DDI-DrugBank.d652.s3.e4" ddi="false"/>
+        <pair id="DDI-DrugBank.d652.s3.p13" e1="DDI-DrugBank.d652.s3.e2"
+            e2="DDI-DrugBank.d652.s3.e5" ddi="false"/>
+        <pair id="DDI-DrugBank.d652.s3.p14" e1="DDI-DrugBank.d652.s3.e2"
+            e2="DDI-DrugBank.d652.s3.e6" ddi="false"/>
+        <pair id="DDI-DrugBank.d652.s3.p15" e1="DDI-DrugBank.d652.s3.e3"
+            e2="DDI-DrugBank.d652.s3.e4" ddi="false"/>
+        <pair id="DDI-DrugBank.d652.s3.p16" e1="DDI-DrugBank.d652.s3.e3"
+            e2="DDI-DrugBank.d652.s3.e5" ddi="false"/>
+        <pair id="DDI-DrugBank.d652.s3.p17" e1="DDI-DrugBank.d652.s3.e3"
+            e2="DDI-DrugBank.d652.s3.e6" ddi="false"/>
+        <pair id="DDI-DrugBank.d652.s3.p18" e1="DDI-DrugBank.d652.s3.e4"
+            e2="DDI-DrugBank.d652.s3.e5" ddi="false"/>
+        <pair id="DDI-DrugBank.d652.s3.p19" e1="DDI-DrugBank.d652.s3.e4"
+            e2="DDI-DrugBank.d652.s3.e6" ddi="false"/>
+        <pair id="DDI-DrugBank.d652.s3.p20" e1="DDI-DrugBank.d652.s3.e5"
+            e2="DDI-DrugBank.d652.s3.e6" ddi="false"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d652.s4" text="Gastroparesis (gastric stasis) may be responsible for poor diabetic control in some patients. "/>
+    <sentence id="DDI-DrugBank.d652.s5" text="Exogenously administered insulin may begin to act before food has left the stomach and lead to hypoglycemia. ">
+        <entity id="DDI-DrugBank.d652.s5.e0" charOffset="25-31"
+            type="drug" text="insulin"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d652.s6" text="Because the action of metoclopramide will influence the delivery of food to the intestines and thus the rate of absorption, insulin dosage or timing of dosage may require adjustment.">
+        <entity id="DDI-DrugBank.d652.s6.e0" charOffset="22-35"
+            type="drug" text="metoclopramide"/>
+        <entity id="DDI-DrugBank.d652.s6.e1" charOffset="124-130"
+            type="drug" text="insulin"/>
+        <pair id="DDI-DrugBank.d652.s6.p0" e1="DDI-DrugBank.d652.s6.e0"
+            e2="DDI-DrugBank.d652.s6.e1" ddi="true" type="advise"/>
+    </sentence>
+</document>

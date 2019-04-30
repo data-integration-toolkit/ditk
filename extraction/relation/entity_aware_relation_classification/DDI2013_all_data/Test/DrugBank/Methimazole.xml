@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="DDI-DrugBank.d634">
+    <sentence id="DDI-DrugBank.d634.s0" text="Anticoagulants (oral): The activity of oral anticoagulants may be potentiated by anti-vitamin-K activity attributed to methimazole.    ">
+        <entity id="DDI-DrugBank.d634.s0.e0" charOffset="0-13"
+            type="group" text="Anticoagulants"/>
+        <entity id="DDI-DrugBank.d634.s0.e1" charOffset="44-57"
+            type="group" text="anticoagulants"/>
+        <entity id="DDI-DrugBank.d634.s0.e2" charOffset="119-129"
+            type="drug" text="methimazole"/>
+        <pair id="DDI-DrugBank.d634.s0.p0" e1="DDI-DrugBank.d634.s0.e0"
+            e2="DDI-DrugBank.d634.s0.e1" ddi="false"/>
+        <pair id="DDI-DrugBank.d634.s0.p1" e1="DDI-DrugBank.d634.s0.e0"
+            e2="DDI-DrugBank.d634.s0.e2" ddi="false"/>
+        <pair id="DDI-DrugBank.d634.s0.p2" e1="DDI-DrugBank.d634.s0.e1"
+            e2="DDI-DrugBank.d634.s0.e2" ddi="true" type="effect"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d634.s1" text="-adrenergic blocking agents: Hyperthyroidism may cause an increased clearance of beta ratio. ">
+        <entity id="DDI-DrugBank.d634.s1.e0" charOffset="1-26"
+            type="group" text="adrenergic blocking agents"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d634.s2" text="A dose reduction of beta-adrenergic blockers may be needed when a hyperthyroid patient becomes euthyroid. ">
+        <entity id="DDI-DrugBank.d634.s2.e0" charOffset="20-43"
+            type="group" text="beta-adrenergic blockers"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d634.s3" text="Digitalis glycosides: Serum digitalis levels may be increased when hyperthyroid patients on a stable digitalis glycoside regimen become euthyroid; ">
+        <entity id="DDI-DrugBank.d634.s3.e0" charOffset="0-19"
+            type="group" text="Digitalis glycosides"/>
+        <entity id="DDI-DrugBank.d634.s3.e1" charOffset="101-119"
+            type="group" text="digitalis glycoside"/>
+        <pair id="DDI-DrugBank.d634.s3.p0" e1="DDI-DrugBank.d634.s3.e0"
+            e2="DDI-DrugBank.d634.s3.e1" ddi="false"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d634.s4" text="reduced dosage of digitalis glycosides may be required. ">
+        <entity id="DDI-DrugBank.d634.s4.e0" charOffset="18-37"
+            type="group" text="digitalis glycosides"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d634.s5" text="Theophylline: Theophylline clearance may decrease when hyperthyroid patients on a stable theophylline regimen become euthyroid; ">
+        <entity id="DDI-DrugBank.d634.s5.e0" charOffset="0-11"
+            type="drug" text="Theophylline"/>
+        <entity id="DDI-DrugBank.d634.s5.e1" charOffset="14-25"
+            type="drug" text="Theophylline"/>
+        <entity id="DDI-DrugBank.d634.s5.e2" charOffset="89-100"
+            type="drug" text="theophylline"/>
+        <pair id="DDI-DrugBank.d634.s5.p0" e1="DDI-DrugBank.d634.s5.e0"
+            e2="DDI-DrugBank.d634.s5.e1" ddi="false"/>
+        <pair id="DDI-DrugBank.d634.s5.p1" e1="DDI-DrugBank.d634.s5.e0"
+            e2="DDI-DrugBank.d634.s5.e2" ddi="false"/>
+        <pair id="DDI-DrugBank.d634.s5.p2" e1="DDI-DrugBank.d634.s5.e1"
+            e2="DDI-DrugBank.d634.s5.e2" ddi="false"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d634.s6" text="a reduced dose of theophylline may be needed.    ">
+        <entity id="DDI-DrugBank.d634.s6.e0" charOffset="18-29"
+            type="drug" text="theophylline"/>
+    </sentence>
+</document>

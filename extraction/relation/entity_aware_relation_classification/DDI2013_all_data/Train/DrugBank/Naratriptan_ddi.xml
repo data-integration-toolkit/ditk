@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="DDI-DrugBank.d478">
+    <sentence id="DDI-DrugBank.d478.s0" text="Ergot-containing drugs have been reported to cause prolonged vasospastic reactions.">
+        <entity id="DDI-DrugBank.d478.s0.e0" charOffset="0-4"
+            type="group" text="Ergot"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d478.s1" text="Because there is a theoretical basis that these effects may be additive, use of ergotamine-containing or ergot-type medications (like dihydroergotamine or methysergide) and naratriptan within 24 hours is contraindicated.">
+        <entity id="DDI-DrugBank.d478.s1.e0" charOffset="80-89"
+            type="drug" text="ergotamine"/>
+        <entity id="DDI-DrugBank.d478.s1.e1" charOffset="105-126"
+            type="group" text="ergot-type medications"/>
+        <entity id="DDI-DrugBank.d478.s1.e2" charOffset="134-150"
+            type="drug" text="dihydroergotamine"/>
+        <entity id="DDI-DrugBank.d478.s1.e3" charOffset="155-166"
+            type="drug" text="methysergide"/>
+        <entity id="DDI-DrugBank.d478.s1.e4" charOffset="173-183"
+            type="drug" text="naratriptan"/>
+        <pair id="DDI-DrugBank.d478.s1.p0" e1="DDI-DrugBank.d478.s1.e0"
+            e2="DDI-DrugBank.d478.s1.e1" ddi="false"/>
+        <pair id="DDI-DrugBank.d478.s1.p1" e1="DDI-DrugBank.d478.s1.e0"
+            e2="DDI-DrugBank.d478.s1.e2" ddi="false"/>
+        <pair id="DDI-DrugBank.d478.s1.p2" e1="DDI-DrugBank.d478.s1.e0"
+            e2="DDI-DrugBank.d478.s1.e3" ddi="false"/>
+        <pair id="DDI-DrugBank.d478.s1.p3" e1="DDI-DrugBank.d478.s1.e0"
+            e2="DDI-DrugBank.d478.s1.e4" ddi="true" type="advise"/>
+        <pair id="DDI-DrugBank.d478.s1.p4" e1="DDI-DrugBank.d478.s1.e1"
+            e2="DDI-DrugBank.d478.s1.e2" ddi="false"/>
+        <pair id="DDI-DrugBank.d478.s1.p5" e1="DDI-DrugBank.d478.s1.e1"
+            e2="DDI-DrugBank.d478.s1.e3" ddi="false"/>
+        <pair id="DDI-DrugBank.d478.s1.p6" e1="DDI-DrugBank.d478.s1.e1"
+            e2="DDI-DrugBank.d478.s1.e4" ddi="true" type="advise"/>
+        <pair id="DDI-DrugBank.d478.s1.p7" e1="DDI-DrugBank.d478.s1.e2"
+            e2="DDI-DrugBank.d478.s1.e3" ddi="false"/>
+        <pair id="DDI-DrugBank.d478.s1.p8" e1="DDI-DrugBank.d478.s1.e2"
+            e2="DDI-DrugBank.d478.s1.e4" ddi="true" type="advise"/>
+        <pair id="DDI-DrugBank.d478.s1.p9" e1="DDI-DrugBank.d478.s1.e3"
+            e2="DDI-DrugBank.d478.s1.e4" ddi="true" type="advise"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d478.s2" text="The administration of naratriptan with other 5-HT1 agonists has not been evaluated in migraine patients.">
+        <entity id="DDI-DrugBank.d478.s2.e0" charOffset="22-32"
+            type="drug" text="naratriptan"/>
+        <entity id="DDI-DrugBank.d478.s2.e1" charOffset="45-58"
+            type="group" text="5-HT1 agonists"/>
+        <pair id="DDI-DrugBank.d478.s2.p0" e1="DDI-DrugBank.d478.s2.e0"
+            e2="DDI-DrugBank.d478.s2.e1" ddi="false"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d478.s3" text="Because their vasospastic effects may be additive, coadministration of naratriptan and other 5-HT1 agonists within 24 hours of each other is not recommended.">
+        <entity id="DDI-DrugBank.d478.s3.e0" charOffset="71-81"
+            type="drug" text="naratriptan"/>
+        <entity id="DDI-DrugBank.d478.s3.e1" charOffset="93-106"
+            type="group" text="5-HT1 agonists"/>
+        <pair id="DDI-DrugBank.d478.s3.p0" e1="DDI-DrugBank.d478.s3.e0"
+            e2="DDI-DrugBank.d478.s3.e1" ddi="true" type="advise"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d478.s4" text="Selective serotonin reuptake inhibitors (SSRIs) (e.g., fluoxetine, fluvoxamine, paroxetine, sertraline) have been reported, rarely, to cause weakness, hyperreflexia, and incoordination when coadministered with 5-HTv agonists.">
+        <entity id="DDI-DrugBank.d478.s4.e0" charOffset="0-38"
+            type="group" text="Selective serotonin reuptake inhibitors"/>
+        <entity id="DDI-DrugBank.d478.s4.e1" charOffset="41-45"
+            type="group" text="SSRIs"/>
+        <entity id="DDI-DrugBank.d478.s4.e2" charOffset="55-64"
+            type="drug" text="fluoxetine"/>
+        <entity id="DDI-DrugBank.d478.s4.e3" charOffset="67-77"
+            type="drug" text="fluvoxamine"/>
+        <entity id="DDI-DrugBank.d478.s4.e4" charOffset="80-89"
+            type="drug" text="paroxetine"/>
+        <entity id="DDI-DrugBank.d478.s4.e5" charOffset="92-101"
+            type="drug" text="sertraline"/>
+        <pair id="DDI-DrugBank.d478.s4.p0" e1="DDI-DrugBank.d478.s4.e0"
+            e2="DDI-DrugBank.d478.s4.e1" ddi="false"/>
+        <pair id="DDI-DrugBank.d478.s4.p1" e1="DDI-DrugBank.d478.s4.e0"
+            e2="DDI-DrugBank.d478.s4.e2" ddi="false"/>
+        <pair id="DDI-DrugBank.d478.s4.p2" e1="DDI-DrugBank.d478.s4.e0"
+            e2="DDI-DrugBank.d478.s4.e3" ddi="false"/>
+        <pair id="DDI-DrugBank.d478.s4.p3" e1="DDI-DrugBank.d478.s4.e0"
+            e2="DDI-DrugBank.d478.s4.e4" ddi="false"/>
+        <pair id="DDI-DrugBank.d478.s4.p4" e1="DDI-DrugBank.d478.s4.e0"
+            e2="DDI-DrugBank.d478.s4.e5" ddi="false"/>
+        <pair id="DDI-DrugBank.d478.s4.p5" e1="DDI-DrugBank.d478.s4.e1"
+            e2="DDI-DrugBank.d478.s4.e2" ddi="false"/>
+        <pair id="DDI-DrugBank.d478.s4.p6" e1="DDI-DrugBank.d478.s4.e1"
+            e2="DDI-DrugBank.d478.s4.e3" ddi="false"/>
+        <pair id="DDI-DrugBank.d478.s4.p7" e1="DDI-DrugBank.d478.s4.e1"
+            e2="DDI-DrugBank.d478.s4.e4" ddi="false"/>
+        <pair id="DDI-DrugBank.d478.s4.p8" e1="DDI-DrugBank.d478.s4.e1"
+            e2="DDI-DrugBank.d478.s4.e5" ddi="false"/>
+        <pair id="DDI-DrugBank.d478.s4.p9" e1="DDI-DrugBank.d478.s4.e2"
+            e2="DDI-DrugBank.d478.s4.e3" ddi="false"/>
+        <pair id="DDI-DrugBank.d478.s4.p10" e1="DDI-DrugBank.d478.s4.e2"
+            e2="DDI-DrugBank.d478.s4.e4" ddi="false"/>
+        <pair id="DDI-DrugBank.d478.s4.p11" e1="DDI-DrugBank.d478.s4.e2"
+            e2="DDI-DrugBank.d478.s4.e5" ddi="false"/>
+        <pair id="DDI-DrugBank.d478.s4.p12" e1="DDI-DrugBank.d478.s4.e3"
+            e2="DDI-DrugBank.d478.s4.e4" ddi="false"/>
+        <pair id="DDI-DrugBank.d478.s4.p13" e1="DDI-DrugBank.d478.s4.e3"
+            e2="DDI-DrugBank.d478.s4.e5" ddi="false"/>
+        <pair id="DDI-DrugBank.d478.s4.p14" e1="DDI-DrugBank.d478.s4.e4"
+            e2="DDI-DrugBank.d478.s4.e5" ddi="false"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d478.s5" text="If concomitant treatment with naratriptan and an SSRI is clinically warranted, appropriate observation of the patient is advised.">
+        <entity id="DDI-DrugBank.d478.s5.e0" charOffset="30-40"
+            type="drug" text="naratriptan"/>
+        <entity id="DDI-DrugBank.d478.s5.e1" charOffset="49-52"
+            type="group" text="SSRI"/>
+        <pair id="DDI-DrugBank.d478.s5.p0" e1="DDI-DrugBank.d478.s5.e0"
+            e2="DDI-DrugBank.d478.s5.e1" ddi="true" type="advise"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d478.s6" text="Drug/ Laboratory Test Interactions AMERGE Tablets are not known to interfere with commonly employed clinical laboratory tests.">
+        <entity id="DDI-DrugBank.d478.s6.e0" charOffset="35-40"
+            type="brand" text="AMERGE"/>
+    </sentence>
+</document>

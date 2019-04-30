@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="DDI-MedLine.d127">
+    <sentence id="DDI-MedLine.d127.s0" text="Serum digoxin levels using an 125I-labelled antigen: Validation of method and observations on cardiac patients.&#xa;">
+        <entity id="DDI-MedLine.d127.s0.e0" charOffset="6-12"
+            type="drug" text="digoxin"/>
+    </sentence>
+    <sentence id="DDI-MedLine.d127.s1" text="1. "/>
+    <sentence id="DDI-MedLine.d127.s2" text="Determinations of serum digoxin levels utilizing commercially available kits with an 125I-labelled antigen were precise and not materially different from results obtained with a 3H-labelled antigen. ">
+        <entity id="DDI-MedLine.d127.s2.e0" charOffset="24-30"
+            type="drug" text="digoxin"/>
+    </sentence>
+    <sentence id="DDI-MedLine.d127.s3" text="2. "/>
+    <sentence id="DDI-MedLine.d127.s4" text="In order to approximate the steady state level, serum digoxin levels should be drawn either before or at least six hours following the administration of an oral tablet. ">
+        <entity id="DDI-MedLine.d127.s4.e0" charOffset="54-60"
+            type="drug" text="digoxin"/>
+    </sentence>
+    <sentence id="DDI-MedLine.d127.s5" text="3. "/>
+    <sentence id="DDI-MedLine.d127.s6" text="Concomitantly given thiazide diuretics did not interfere with the absorption of a tablet of digoxin. ">
+        <entity id="DDI-MedLine.d127.s6.e0" charOffset="20-37"
+            type="group" text="thiazide diuretics"/>
+        <entity id="DDI-MedLine.d127.s6.e1" charOffset="92-98"
+            type="drug" text="digoxin"/>
+        <pair id="DDI-MedLine.d127.s6.p0" e1="DDI-MedLine.d127.s6.e0"
+            e2="DDI-MedLine.d127.s6.e1" ddi="false"/>
+    </sentence>
+    <sentence id="DDI-MedLine.d127.s7" text="4. "/>
+    <sentence id="DDI-MedLine.d127.s8" text="In the digitalized patient, slow alterations in serum levels after oral administration appeared well correlated with, at least, the negative chronotropic effects of the drug. "/>
+    <sentence id="DDI-MedLine.d127.s9" text="5. "/>
+    <sentence id="DDI-MedLine.d127.s10" text="Maximal exercise testing, a maneuver often applied to cardiac patients, does not significantly alter the serum digoxin level.">
+        <entity id="DDI-MedLine.d127.s10.e0" charOffset="111-117"
+            type="drug" text="digoxin"/>
+    </sentence>
+</document>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="DDI-DrugBank.d758">
+    <sentence id="DDI-DrugBank.d758.s0" text="The CNS depressant effects of oxycodone hydrochloride may be additive with that of other CNS depressants..">
+        <entity id="DDI-DrugBank.d758.s0.e0" charOffset="30-52"
+            type="drug" text="oxycodone hydrochloride"/>
+        <entity id="DDI-DrugBank.d758.s0.e1" charOffset="89-103"
+            type="group" text="CNS depressants"/>
+        <pair id="DDI-DrugBank.d758.s0.p0" e1="DDI-DrugBank.d758.s0.e0"
+            e2="DDI-DrugBank.d758.s0.e1" ddi="true" type="effect"/>
+    </sentence>
+</document>

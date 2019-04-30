@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="DDI-DrugBank.d387">
+    <sentence id="DDI-DrugBank.d387.s0" text="Potential drug interactions for doxylamine include, increased sedation if doxylamine is combined with other CNS depressant drugs.">
+        <entity id="DDI-DrugBank.d387.s0.e0" charOffset="32-41"
+            type="drug" text="doxylamine"/>
+        <entity id="DDI-DrugBank.d387.s0.e1" charOffset="74-83"
+            type="drug" text="doxylamine"/>
+        <entity id="DDI-DrugBank.d387.s0.e2" charOffset="108-127"
+            type="group" text="CNS depressant drugs"/>
+        <pair id="DDI-DrugBank.d387.s0.p0" e1="DDI-DrugBank.d387.s0.e0"
+            e2="DDI-DrugBank.d387.s0.e1" ddi="false"/>
+        <pair id="DDI-DrugBank.d387.s0.p1" e1="DDI-DrugBank.d387.s0.e0"
+            e2="DDI-DrugBank.d387.s0.e2" ddi="false"/>
+        <pair id="DDI-DrugBank.d387.s0.p2" e1="DDI-DrugBank.d387.s0.e1"
+            e2="DDI-DrugBank.d387.s0.e2" ddi="true" type="effect"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d387.s1" text="Antihistamines may partially counteract the anticoagulation effects of heparin or warfarin.">
+        <entity id="DDI-DrugBank.d387.s1.e0" charOffset="0-13"
+            type="group" text="Antihistamines"/>
+        <entity id="DDI-DrugBank.d387.s1.e1" charOffset="71-77"
+            type="drug" text="heparin"/>
+        <entity id="DDI-DrugBank.d387.s1.e2" charOffset="82-89"
+            type="drug" text="warfarin"/>
+        <pair id="DDI-DrugBank.d387.s1.p0" e1="DDI-DrugBank.d387.s1.e0"
+            e2="DDI-DrugBank.d387.s1.e1" ddi="true" type="effect"/>
+        <pair id="DDI-DrugBank.d387.s1.p1" e1="DDI-DrugBank.d387.s1.e0"
+            e2="DDI-DrugBank.d387.s1.e2" ddi="true" type="effect"/>
+        <pair id="DDI-DrugBank.d387.s1.p2" e1="DDI-DrugBank.d387.s1.e1"
+            e2="DDI-DrugBank.d387.s1.e2" ddi="false"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d387.s2" text="Doxylamine may enhance the effects of epinephrine.">
+        <entity id="DDI-DrugBank.d387.s2.e0" charOffset="0-9"
+            type="drug" text="Doxylamine"/>
+        <entity id="DDI-DrugBank.d387.s2.e1" charOffset="38-48"
+            type="drug" text="epinephrine"/>
+        <pair id="DDI-DrugBank.d387.s2.p0" e1="DDI-DrugBank.d387.s2.e0"
+            e2="DDI-DrugBank.d387.s2.e1" ddi="true" type="effect"/>
+    </sentence>
+</document>

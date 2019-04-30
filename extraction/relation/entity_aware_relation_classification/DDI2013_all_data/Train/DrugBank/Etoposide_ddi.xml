@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="DDI-DrugBank.d194">
+    <sentence id="DDI-DrugBank.d194.s0" text="Caution should be exercised when administering ETOPOPHOS with drugs that are known to inhibit phosphatase activities (e.g., levamisole hydrochloride).">
+        <entity id="DDI-DrugBank.d194.s0.e0" charOffset="47-55"
+            type="brand" text="ETOPOPHOS"/>
+        <entity id="DDI-DrugBank.d194.s0.e1" charOffset="124-147"
+            type="drug" text="levamisole hydrochloride"/>
+        <pair id="DDI-DrugBank.d194.s0.p0" e1="DDI-DrugBank.d194.s0.e0"
+            e2="DDI-DrugBank.d194.s0.e1" ddi="true" type="advise"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d194.s1" text="High-dose cyclosporin A resulting in concentrations above 2000 ng/mL administered with oral etoposide has led to an 80% increase in etoposide exposure with a 38% decrease in total body clearance of etoposide compared to etoposide alone.">
+        <entity id="DDI-DrugBank.d194.s1.e0" charOffset="10-22"
+            type="drug" text="cyclosporin A"/>
+        <entity id="DDI-DrugBank.d194.s1.e1" charOffset="92-100"
+            type="drug" text="etoposide"/>
+        <entity id="DDI-DrugBank.d194.s1.e2" charOffset="132-140"
+            type="drug" text="etoposide"/>
+        <entity id="DDI-DrugBank.d194.s1.e3" charOffset="198-206"
+            type="drug" text="etoposide"/>
+        <entity id="DDI-DrugBank.d194.s1.e4" charOffset="220-228"
+            type="drug" text="etoposide"/>
+        <pair id="DDI-DrugBank.d194.s1.p0" e1="DDI-DrugBank.d194.s1.e0"
+            e2="DDI-DrugBank.d194.s1.e1" ddi="true" type="mechanism"/>
+        <pair id="DDI-DrugBank.d194.s1.p1" e1="DDI-DrugBank.d194.s1.e0"
+            e2="DDI-DrugBank.d194.s1.e2" ddi="false"/>
+        <pair id="DDI-DrugBank.d194.s1.p2" e1="DDI-DrugBank.d194.s1.e0"
+            e2="DDI-DrugBank.d194.s1.e3" ddi="false"/>
+        <pair id="DDI-DrugBank.d194.s1.p3" e1="DDI-DrugBank.d194.s1.e0"
+            e2="DDI-DrugBank.d194.s1.e4" ddi="false"/>
+        <pair id="DDI-DrugBank.d194.s1.p4" e1="DDI-DrugBank.d194.s1.e1"
+            e2="DDI-DrugBank.d194.s1.e2" ddi="false"/>
+        <pair id="DDI-DrugBank.d194.s1.p5" e1="DDI-DrugBank.d194.s1.e1"
+            e2="DDI-DrugBank.d194.s1.e3" ddi="false"/>
+        <pair id="DDI-DrugBank.d194.s1.p6" e1="DDI-DrugBank.d194.s1.e1"
+            e2="DDI-DrugBank.d194.s1.e4" ddi="false"/>
+        <pair id="DDI-DrugBank.d194.s1.p7" e1="DDI-DrugBank.d194.s1.e2"
+            e2="DDI-DrugBank.d194.s1.e3" ddi="false"/>
+        <pair id="DDI-DrugBank.d194.s1.p8" e1="DDI-DrugBank.d194.s1.e2"
+            e2="DDI-DrugBank.d194.s1.e4" ddi="false"/>
+        <pair id="DDI-DrugBank.d194.s1.p9" e1="DDI-DrugBank.d194.s1.e3"
+            e2="DDI-DrugBank.d194.s1.e4" ddi="false"/>
+    </sentence>
+</document>

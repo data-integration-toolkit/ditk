@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="DDI-MedLine.d180">
+    <sentence id="DDI-MedLine.d180.s0" text="Determinants of sensitivity to DZNep induced apoptosis in multiple myeloma cells.&#xd;&#xa;">
+        <entity id="DDI-MedLine.d180.s0.e0" charOffset="31-35"
+            type="drug_n" text="DZNep"/>
+    </sentence>
+    <sentence id="DDI-MedLine.d180.s1" text="The 3-Deazaneplanocin A (DZNep), one of S-adenosylhomocysteine (AdoHcy) hydrolase inhibitors, has shown antitumor activities in a broad range of solid tumors and acute myeloid leukemia. ">
+        <entity id="DDI-MedLine.d180.s1.e0" charOffset="4-22"
+            type="drug_n" text="3-Deazaneplanocin A"/>
+        <entity id="DDI-MedLine.d180.s1.e1" charOffset="25-29"
+            type="drug_n" text="DZNep"/>
+        <pair id="DDI-MedLine.d180.s1.p0" e1="DDI-MedLine.d180.s1.e0"
+            e2="DDI-MedLine.d180.s1.e1" ddi="false"/>
+    </sentence>
+    <sentence id="DDI-MedLine.d180.s2" text="Here, we examined its effects on multiple myeloma (MM) cells and found that, at 500 nM, it potently inhibited growth and induced apoptosis in 2 of 8 MM cell lines. "/>
+    <sentence id="DDI-MedLine.d180.s3" text="RNA from un-treated and DZNep treated cells was profiled by Affymetrix HG-U133 Plus 2.0 microarray and genes with a significant change in gene expression were determined by significance analysis of microarray (SAM) testing. ">
+        <entity id="DDI-MedLine.d180.s3.e0" charOffset="24-28"
+            type="drug_n" text="DZNep"/>
+    </sentence>
+    <sentence id="DDI-MedLine.d180.s4" text="ALOX5 was the most down-regulated gene (5.8-fold) in sensitive cells and was expressed at low level in resistant cells. "/>
+    <sentence id="DDI-MedLine.d180.s5" text="The results were corroborated by quantitative RT-PCR. "/>
+    <sentence id="DDI-MedLine.d180.s6" text="Western-blot analysis indicated ALOX5 was highly expressed only in sensitive cell line H929 and greatly decreased upon DZNep treatment. ">
+        <entity id="DDI-MedLine.d180.s6.e0" charOffset="119-123"
+            type="drug_n" text="DZNep"/>
+    </sentence>
+    <sentence id="DDI-MedLine.d180.s7" text="Ectopic expression of ALOX5 reduced sensitivity to DZNep in H929 cells. ">
+        <entity id="DDI-MedLine.d180.s7.e0" charOffset="51-55"
+            type="drug_n" text="DZNep"/>
+    </sentence>
+    <sentence id="DDI-MedLine.d180.s8" text="Furthermore, down-regulation of ALOX5 by RNA interference could also induce apoptosis in H929. "/>
+    <sentence id="DDI-MedLine.d180.s9" text="Gene expression analysis on MM patient dataset indicated ALOX5 expression was significantly higher in MM patients compared to normal plasma cells. "/>
+    <sentence id="DDI-MedLine.d180.s10" text="We also found that Bcl-2 was overexpressed in DZNep insensitive cells, and cotreatment with DZNep and ABT-737, a Bcl-2 family inhibitor, synergistically inhibited growth and induced apoptosis of DZNep insensitive MM cells. ">
+        <entity id="DDI-MedLine.d180.s10.e0" charOffset="46-50"
+            type="drug_n" text="DZNep"/>
+        <entity id="DDI-MedLine.d180.s10.e1" charOffset="92-96"
+            type="drug_n" text="DZNep"/>
+        <entity id="DDI-MedLine.d180.s10.e2" charOffset="102-108"
+            type="drug_n" text="ABT-737"/>
+        <entity id="DDI-MedLine.d180.s10.e3" charOffset="195-199"
+            type="drug_n" text="DZNep"/>
+        <pair id="DDI-MedLine.d180.s10.p0" e1="DDI-MedLine.d180.s10.e0"
+            e2="DDI-MedLine.d180.s10.e1" ddi="false"/>
+        <pair id="DDI-MedLine.d180.s10.p1" e1="DDI-MedLine.d180.s10.e0"
+            e2="DDI-MedLine.d180.s10.e2" ddi="false"/>
+        <pair id="DDI-MedLine.d180.s10.p2" e1="DDI-MedLine.d180.s10.e0"
+            e2="DDI-MedLine.d180.s10.e3" ddi="false"/>
+        <pair id="DDI-MedLine.d180.s10.p3" e1="DDI-MedLine.d180.s10.e1"
+            e2="DDI-MedLine.d180.s10.e2" ddi="true" type="effect"/>
+        <pair id="DDI-MedLine.d180.s10.p4" e1="DDI-MedLine.d180.s10.e1"
+            e2="DDI-MedLine.d180.s10.e3" ddi="false"/>
+        <pair id="DDI-MedLine.d180.s10.p5" e1="DDI-MedLine.d180.s10.e2"
+            e2="DDI-MedLine.d180.s10.e3" ddi="false"/>
+    </sentence>
+    <sentence id="DDI-MedLine.d180.s11" text="Taken together, this study shows one of mechanisms of the DZNep efficacy on MM correlates with its ability to down-regulate the ALOX5 levels. ">
+        <entity id="DDI-MedLine.d180.s11.e0" charOffset="58-62"
+            type="drug_n" text="DZNep"/>
+    </sentence>
+    <sentence id="DDI-MedLine.d180.s12" text="In addition, DZNep insensitivity might be associated with overexpression of Bcl-2, and the combination of ABT-737 and DZNep could synergistically induced apoptosis. ">
+        <entity id="DDI-MedLine.d180.s12.e0" charOffset="13-17"
+            type="drug_n" text="DZNep"/>
+        <entity id="DDI-MedLine.d180.s12.e1" charOffset="106-112"
+            type="drug_n" text="ABT-737"/>
+        <entity id="DDI-MedLine.d180.s12.e2" charOffset="118-122"
+            type="drug_n" text="DZNep"/>
+        <pair id="DDI-MedLine.d180.s12.p0" e1="DDI-MedLine.d180.s12.e0"
+            e2="DDI-MedLine.d180.s12.e1" ddi="false"/>
+        <pair id="DDI-MedLine.d180.s12.p1" e1="DDI-MedLine.d180.s12.e0"
+            e2="DDI-MedLine.d180.s12.e2" ddi="false"/>
+        <pair id="DDI-MedLine.d180.s12.p2" e1="DDI-MedLine.d180.s12.e1"
+            e2="DDI-MedLine.d180.s12.e2" ddi="true" type="effect"/>
+    </sentence>
+    <sentence id="DDI-MedLine.d180.s13" text="These results suggest that DZNep may be exploited therapeutically for a subset of MM.">
+        <entity id="DDI-MedLine.d180.s13.e0" charOffset="27-31"
+            type="drug_n" text="DZNep"/>
+    </sentence>
+</document>

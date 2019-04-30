@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="DDI-DrugBank.d39">
+    <sentence id="DDI-DrugBank.d39.s0" text="Persons taking most antibiotics, methotrexate and pyrimethamine invalidate folic acid and vitamin B12 diagnostic blood assays.">
+        <entity id="DDI-DrugBank.d39.s0.e0" charOffset="20-30"
+            type="group" text="antibiotics"/>
+        <entity id="DDI-DrugBank.d39.s0.e1" charOffset="33-44"
+            type="drug" text="methotrexate"/>
+        <entity id="DDI-DrugBank.d39.s0.e2" charOffset="50-62"
+            type="drug" text="pyrimethamine"/>
+        <entity id="DDI-DrugBank.d39.s0.e3" charOffset="75-84"
+            type="drug" text="folic acid"/>
+        <entity id="DDI-DrugBank.d39.s0.e4" charOffset="90-100"
+            type="drug" text="vitamin B12"/>
+        <pair id="DDI-DrugBank.d39.s0.p0" e1="DDI-DrugBank.d39.s0.e0"
+            e2="DDI-DrugBank.d39.s0.e1" ddi="false"/>
+        <pair id="DDI-DrugBank.d39.s0.p1" e1="DDI-DrugBank.d39.s0.e0"
+            e2="DDI-DrugBank.d39.s0.e2" ddi="false"/>
+        <pair id="DDI-DrugBank.d39.s0.p2" e1="DDI-DrugBank.d39.s0.e0"
+            e2="DDI-DrugBank.d39.s0.e3" ddi="false"/>
+        <pair id="DDI-DrugBank.d39.s0.p3" e1="DDI-DrugBank.d39.s0.e0"
+            e2="DDI-DrugBank.d39.s0.e4" ddi="false"/>
+        <pair id="DDI-DrugBank.d39.s0.p4" e1="DDI-DrugBank.d39.s0.e1"
+            e2="DDI-DrugBank.d39.s0.e2" ddi="false"/>
+        <pair id="DDI-DrugBank.d39.s0.p5" e1="DDI-DrugBank.d39.s0.e1"
+            e2="DDI-DrugBank.d39.s0.e3" ddi="false"/>
+        <pair id="DDI-DrugBank.d39.s0.p6" e1="DDI-DrugBank.d39.s0.e1"
+            e2="DDI-DrugBank.d39.s0.e4" ddi="false"/>
+        <pair id="DDI-DrugBank.d39.s0.p7" e1="DDI-DrugBank.d39.s0.e2"
+            e2="DDI-DrugBank.d39.s0.e3" ddi="false"/>
+        <pair id="DDI-DrugBank.d39.s0.p8" e1="DDI-DrugBank.d39.s0.e2"
+            e2="DDI-DrugBank.d39.s0.e4" ddi="false"/>
+        <pair id="DDI-DrugBank.d39.s0.p9" e1="DDI-DrugBank.d39.s0.e3"
+            e2="DDI-DrugBank.d39.s0.e4" ddi="false"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d39.s1" text="Colchicine para-aminosalicylic acid and heavy alcohol intake for longer than 2 weeks may produce malabsorption of vitamin B12.">
+        <entity id="DDI-DrugBank.d39.s1.e0" charOffset="0-9" type="drug" text="Colchicine"/>
+        <entity id="DDI-DrugBank.d39.s1.e1" charOffset="11-34"
+            type="drug" text="para-aminosalicylic acid"/>
+        <entity id="DDI-DrugBank.d39.s1.e2" charOffset="46-52"
+            type="drug" text="alcohol"/>
+        <entity id="DDI-DrugBank.d39.s1.e3" charOffset="114-124"
+            type="drug" text="vitamin B12"/>
+        <pair id="DDI-DrugBank.d39.s1.p0" e1="DDI-DrugBank.d39.s1.e0"
+            e2="DDI-DrugBank.d39.s1.e1" ddi="false"/>
+        <pair id="DDI-DrugBank.d39.s1.p1" e1="DDI-DrugBank.d39.s1.e0"
+            e2="DDI-DrugBank.d39.s1.e2" ddi="false"/>
+        <pair id="DDI-DrugBank.d39.s1.p2" e1="DDI-DrugBank.d39.s1.e0"
+            e2="DDI-DrugBank.d39.s1.e3" ddi="true" type="mechanism"/>
+        <pair id="DDI-DrugBank.d39.s1.p3" e1="DDI-DrugBank.d39.s1.e1"
+            e2="DDI-DrugBank.d39.s1.e2" ddi="false"/>
+        <pair id="DDI-DrugBank.d39.s1.p4" e1="DDI-DrugBank.d39.s1.e1"
+            e2="DDI-DrugBank.d39.s1.e3" ddi="true" type="mechanism"/>
+        <pair id="DDI-DrugBank.d39.s1.p5" e1="DDI-DrugBank.d39.s1.e2"
+            e2="DDI-DrugBank.d39.s1.e3" ddi="true" type="mechanism"/>
+    </sentence>
+</document>

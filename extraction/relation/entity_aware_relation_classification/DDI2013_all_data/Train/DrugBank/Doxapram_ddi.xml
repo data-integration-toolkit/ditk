@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="DDI-DrugBank.d332">
+    <sentence id="DDI-DrugBank.d332.s0" text="Administration of doxapram to patients who are receiving sympathomimetic or monoamine oxidase inhibiting drugs may result in an additive pressor effect .">
+        <entity id="DDI-DrugBank.d332.s0.e0" charOffset="18-25"
+            type="drug" text="doxapram"/>
+        <entity id="DDI-DrugBank.d332.s0.e1" charOffset="57-71"
+            type="group" text="sympathomimetic"/>
+        <entity id="DDI-DrugBank.d332.s0.e2" charOffset="76-109"
+            type="group" text="monoamine oxidase inhibiting drugs"/>
+        <pair id="DDI-DrugBank.d332.s0.p0" e1="DDI-DrugBank.d332.s0.e0"
+            e2="DDI-DrugBank.d332.s0.e1" ddi="true" type="effect"/>
+        <pair id="DDI-DrugBank.d332.s0.p1" e1="DDI-DrugBank.d332.s0.e0"
+            e2="DDI-DrugBank.d332.s0.e2" ddi="true" type="effect"/>
+        <pair id="DDI-DrugBank.d332.s0.p2" e1="DDI-DrugBank.d332.s0.e1"
+            e2="DDI-DrugBank.d332.s0.e2" ddi="false"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d332.s1" text="In patients who have received muscle relaxants, doxapram may temporarily mask the residual effects of muscle relaxant drugs.">
+        <entity id="DDI-DrugBank.d332.s1.e0" charOffset="30-45"
+            type="group" text="muscle relaxants"/>
+        <entity id="DDI-DrugBank.d332.s1.e1" charOffset="48-55"
+            type="drug" text="doxapram"/>
+        <entity id="DDI-DrugBank.d332.s1.e2" charOffset="102-122"
+            type="group" text="muscle relaxant drugs"/>
+        <pair id="DDI-DrugBank.d332.s1.p0" e1="DDI-DrugBank.d332.s1.e0"
+            e2="DDI-DrugBank.d332.s1.e1" ddi="false"/>
+        <pair id="DDI-DrugBank.d332.s1.p1" e1="DDI-DrugBank.d332.s1.e0"
+            e2="DDI-DrugBank.d332.s1.e2" ddi="false"/>
+        <pair id="DDI-DrugBank.d332.s1.p2" e1="DDI-DrugBank.d332.s1.e1"
+            e2="DDI-DrugBank.d332.s1.e2" ddi="true" type="effect"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d332.s2" text="In patients who have received general anesthesia utilizing a volatile agent known to sensitize the myocardium to catecholamines, administration of doxapram should be delayed until the volatile agent has been excreted in order to lessen the potential for arrhythmias, including ventricular tachycardia and ventricular fibrillation.">
+        <entity id="DDI-DrugBank.d332.s2.e0" charOffset="147-154"
+            type="drug" text="doxapram"/>
+    </sentence>
+</document>

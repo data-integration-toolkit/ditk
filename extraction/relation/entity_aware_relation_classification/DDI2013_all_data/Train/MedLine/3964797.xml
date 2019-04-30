@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="DDI-MedLine.d61">
+    <sentence id="DDI-MedLine.d61.s0" text="Pharmacokinetic evaluation of the digoxin-amiodarone interaction.&#xa;">
+        <entity id="DDI-MedLine.d61.s0.e0" charOffset="34-40"
+            type="drug" text="digoxin"/>
+        <entity id="DDI-MedLine.d61.s0.e1" charOffset="42-51"
+            type="drug" text="amiodarone"/>
+        <pair id="DDI-MedLine.d61.s0.p0" e1="DDI-MedLine.d61.s0.e0"
+            e2="DDI-MedLine.d61.s0.e1" ddi="false"/>
+    </sentence>
+    <sentence id="DDI-MedLine.d61.s1" text="Amiodarone is known to raise serum digoxin levels. ">
+        <entity id="DDI-MedLine.d61.s1.e0" charOffset="0-9" type="drug" text="Amiodarone"/>
+        <entity id="DDI-MedLine.d61.s1.e1" charOffset="35-41"
+            type="drug" text="digoxin"/>
+        <pair id="DDI-MedLine.d61.s1.p0" e1="DDI-MedLine.d61.s1.e0"
+            e2="DDI-MedLine.d61.s1.e1" ddi="true" type="mechanism"/>
+    </sentence>
+    <sentence id="DDI-MedLine.d61.s2" text="This study was designed to evaluate the pharmacokinetic basis of this interaction in 10 normal subjects. "/>
+    <sentence id="DDI-MedLine.d61.s3" text="The pharmacokinetic variables for digoxin were determined after a 1.0 mg intravenous dose of digoxin in each subject, before and after oral amiodarone, 400 mg daily for 3 weeks. ">
+        <entity id="DDI-MedLine.d61.s3.e0" charOffset="34-40"
+            type="drug" text="digoxin"/>
+        <entity id="DDI-MedLine.d61.s3.e1" charOffset="93-99"
+            type="drug" text="digoxin"/>
+        <entity id="DDI-MedLine.d61.s3.e2" charOffset="140-149"
+            type="drug" text="amiodarone"/>
+        <pair id="DDI-MedLine.d61.s3.p0" e1="DDI-MedLine.d61.s3.e0"
+            e2="DDI-MedLine.d61.s3.e1" ddi="false"/>
+        <pair id="DDI-MedLine.d61.s3.p1" e1="DDI-MedLine.d61.s3.e0"
+            e2="DDI-MedLine.d61.s3.e2" ddi="false"/>
+        <pair id="DDI-MedLine.d61.s3.p2" e1="DDI-MedLine.d61.s3.e1"
+            e2="DDI-MedLine.d61.s3.e2" ddi="false"/>
+    </sentence>
+    <sentence id="DDI-MedLine.d61.s4" text="During amiodarone administration, systemic clearance of digoxin was reduced from 234 +/- 72 ml/min (mean +/- standard deviation) to 172 +/- 33 ml/min (p less than 0.01). ">
+        <entity id="DDI-MedLine.d61.s4.e0" charOffset="7-16" type="drug" text="amiodarone"/>
+        <entity id="DDI-MedLine.d61.s4.e1" charOffset="56-62"
+            type="drug" text="digoxin"/>
+        <pair id="DDI-MedLine.d61.s4.p0" e1="DDI-MedLine.d61.s4.e0"
+            e2="DDI-MedLine.d61.s4.e1" ddi="true" type="mechanism"/>
+    </sentence>
+    <sentence id="DDI-MedLine.d61.s5" text="This was due to reductions in both renal clearance (from 105 +/- 39 to 84 +/- 15 ml/min) (p less than 0.05) and nonrenal clearance (from 130 +/- 38 to 88 +/- 20 ml/min) (p less than 0.01). "/>
+    <sentence id="DDI-MedLine.d61.s6" text="Digoxin half-life of elimination was prolonged from 34 +/- 13 to 40 +/- 16 hours (p less than 0.05). ">
+        <entity id="DDI-MedLine.d61.s6.e0" charOffset="0-6" type="drug" text="Digoxin"/>
+    </sentence>
+    <sentence id="DDI-MedLine.d61.s7" text="Digoxin volume of distribution was not significantly changed. ">
+        <entity id="DDI-MedLine.d61.s7.e0" charOffset="0-6" type="drug" text="Digoxin"/>
+    </sentence>
+    <sentence id="DDI-MedLine.d61.s8" text="Amiodarone caused a three- to fivefold increase in serum reverse triiodothyronine levels, but changes in thyroid function were not quantitatively related to the changes in digoxin pharmacokinetics. ">
+        <entity id="DDI-MedLine.d61.s8.e0" charOffset="0-9" type="drug" text="Amiodarone"/>
+        <entity id="DDI-MedLine.d61.s8.e1" charOffset="172-178"
+            type="drug" text="digoxin"/>
+        <pair id="DDI-MedLine.d61.s8.p0" e1="DDI-MedLine.d61.s8.e0"
+            e2="DDI-MedLine.d61.s8.e1" ddi="false"/>
+    </sentence>
+    <sentence id="DDI-MedLine.d61.s9" text="These alterations in digoxin pharmacokinetics produced by amiodarone explain the increase in serum digoxin level that has been observed when this drug combination has been used clinically.">
+        <entity id="DDI-MedLine.d61.s9.e0" charOffset="21-27"
+            type="drug" text="digoxin"/>
+        <entity id="DDI-MedLine.d61.s9.e1" charOffset="58-67"
+            type="drug" text="amiodarone"/>
+        <entity id="DDI-MedLine.d61.s9.e2" charOffset="99-105"
+            type="drug" text="digoxin"/>
+        <pair id="DDI-MedLine.d61.s9.p0" e1="DDI-MedLine.d61.s9.e0"
+            e2="DDI-MedLine.d61.s9.e1" ddi="true" type="mechanism"/>
+        <pair id="DDI-MedLine.d61.s9.p1" e1="DDI-MedLine.d61.s9.e0"
+            e2="DDI-MedLine.d61.s9.e2" ddi="false"/>
+        <pair id="DDI-MedLine.d61.s9.p2" e1="DDI-MedLine.d61.s9.e1"
+            e2="DDI-MedLine.d61.s9.e2" ddi="false"/>
+    </sentence>
+</document>

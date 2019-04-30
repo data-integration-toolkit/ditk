@@ -1,0 +1,230 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="DDI-DrugBank.d217">
+    <sentence id="DDI-DrugBank.d217.s0" text="Elevated plasma levels of theophylline have been reported with concomitant quinolone use.">
+        <entity id="DDI-DrugBank.d217.s0.e0" charOffset="26-37"
+            type="drug" text="theophylline"/>
+        <entity id="DDI-DrugBank.d217.s0.e1" charOffset="75-83"
+            type="group" text="quinolone"/>
+        <pair id="DDI-DrugBank.d217.s0.p0" e1="DDI-DrugBank.d217.s0.e0"
+            e2="DDI-DrugBank.d217.s0.e1" ddi="true" type="mechanism"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d217.s1" text="There have been reports of theophylline-related side effects in patients on concomitant therapy with norfloxacin and theophylline.">
+        <entity id="DDI-DrugBank.d217.s1.e0" charOffset="27-38"
+            type="drug" text="theophylline"/>
+        <entity id="DDI-DrugBank.d217.s1.e1" charOffset="101-111"
+            type="drug" text="norfloxacin"/>
+        <entity id="DDI-DrugBank.d217.s1.e2" charOffset="117-128"
+            type="drug" text="theophylline"/>
+        <pair id="DDI-DrugBank.d217.s1.p0" e1="DDI-DrugBank.d217.s1.e0"
+            e2="DDI-DrugBank.d217.s1.e1" ddi="false"/>
+        <pair id="DDI-DrugBank.d217.s1.p1" e1="DDI-DrugBank.d217.s1.e0"
+            e2="DDI-DrugBank.d217.s1.e2" ddi="false"/>
+        <pair id="DDI-DrugBank.d217.s1.p2" e1="DDI-DrugBank.d217.s1.e1"
+            e2="DDI-DrugBank.d217.s1.e2" ddi="true" type="effect"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d217.s2" text="Therefore, monitoring of theophylline plasma levels should be considered and dosage of theophylline adjusted as required.">
+        <entity id="DDI-DrugBank.d217.s2.e0" charOffset="25-36"
+            type="drug" text="theophylline"/>
+        <entity id="DDI-DrugBank.d217.s2.e1" charOffset="87-98"
+            type="drug" text="theophylline"/>
+        <pair id="DDI-DrugBank.d217.s2.p0" e1="DDI-DrugBank.d217.s2.e0"
+            e2="DDI-DrugBank.d217.s2.e1" ddi="false"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d217.s3" text="Elevated serum levels of cyclosporine have been reported with concomitant use of cyclosporine with norfloxacin.">
+        <entity id="DDI-DrugBank.d217.s3.e0" charOffset="25-36"
+            type="drug" text="cyclosporine"/>
+        <entity id="DDI-DrugBank.d217.s3.e1" charOffset="81-92"
+            type="drug" text="cyclosporine"/>
+        <entity id="DDI-DrugBank.d217.s3.e2" charOffset="99-109"
+            type="drug" text="norfloxacin"/>
+        <pair id="DDI-DrugBank.d217.s3.p0" e1="DDI-DrugBank.d217.s3.e0"
+            e2="DDI-DrugBank.d217.s3.e1" ddi="false"/>
+        <pair id="DDI-DrugBank.d217.s3.p1" e1="DDI-DrugBank.d217.s3.e0"
+            e2="DDI-DrugBank.d217.s3.e2" ddi="false"/>
+        <pair id="DDI-DrugBank.d217.s3.p2" e1="DDI-DrugBank.d217.s3.e1"
+            e2="DDI-DrugBank.d217.s3.e2" ddi="true" type="mechanism"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d217.s4" text="Therefore, cyclosporine serum levels should be monitored and appropriate cyclosporine dosage adjustments made when these drugs are used concomitantly.">
+        <entity id="DDI-DrugBank.d217.s4.e0" charOffset="11-22"
+            type="drug" text="cyclosporine"/>
+        <entity id="DDI-DrugBank.d217.s4.e1" charOffset="73-84"
+            type="drug" text="cyclosporine"/>
+        <pair id="DDI-DrugBank.d217.s4.p0" e1="DDI-DrugBank.d217.s4.e0"
+            e2="DDI-DrugBank.d217.s4.e1" ddi="false"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d217.s5" text="Quinolones, including norfloxacin, may enhance the effects of oral anticoagulants, including warfarin or its derivatives or similar agents.">
+        <entity id="DDI-DrugBank.d217.s5.e0" charOffset="0-9"
+            type="group" text="Quinolones"/>
+        <entity id="DDI-DrugBank.d217.s5.e1" charOffset="22-32"
+            type="drug" text="norfloxacin"/>
+        <entity id="DDI-DrugBank.d217.s5.e2" charOffset="67-80"
+            type="group" text="anticoagulants"/>
+        <entity id="DDI-DrugBank.d217.s5.e3" charOffset="93-100"
+            type="drug" text="warfarin"/>
+        <pair id="DDI-DrugBank.d217.s5.p0" e1="DDI-DrugBank.d217.s5.e0"
+            e2="DDI-DrugBank.d217.s5.e1" ddi="false"/>
+        <pair id="DDI-DrugBank.d217.s5.p1" e1="DDI-DrugBank.d217.s5.e0"
+            e2="DDI-DrugBank.d217.s5.e2" ddi="true" type="effect"/>
+        <pair id="DDI-DrugBank.d217.s5.p2" e1="DDI-DrugBank.d217.s5.e0"
+            e2="DDI-DrugBank.d217.s5.e3" ddi="true" type="effect"/>
+        <pair id="DDI-DrugBank.d217.s5.p3" e1="DDI-DrugBank.d217.s5.e1"
+            e2="DDI-DrugBank.d217.s5.e2" ddi="true" type="effect"/>
+        <pair id="DDI-DrugBank.d217.s5.p4" e1="DDI-DrugBank.d217.s5.e1"
+            e2="DDI-DrugBank.d217.s5.e3" ddi="true" type="effect"/>
+        <pair id="DDI-DrugBank.d217.s5.p5" e1="DDI-DrugBank.d217.s5.e2"
+            e2="DDI-DrugBank.d217.s5.e3" ddi="false"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d217.s6" text="When these products are administered concomitantly, prothrombin time or other suitable coagulation tests should be closely monitored."/>
+    <sentence id="DDI-DrugBank.d217.s7" text="The concomitant administration of quinolones including norfloxacin with glyburide (a sulfonylurea agent) has, on rare occasions, resulted in severe hypoglycemia.">
+        <entity id="DDI-DrugBank.d217.s7.e0" charOffset="34-43"
+            type="group" text="quinolones"/>
+        <entity id="DDI-DrugBank.d217.s7.e1" charOffset="55-65"
+            type="drug" text="norfloxacin"/>
+        <entity id="DDI-DrugBank.d217.s7.e2" charOffset="72-80"
+            type="drug" text="glyburide"/>
+        <entity id="DDI-DrugBank.d217.s7.e3" charOffset="85-102"
+            type="group" text="sulfonylurea agent"/>
+        <pair id="DDI-DrugBank.d217.s7.p0" e1="DDI-DrugBank.d217.s7.e0"
+            e2="DDI-DrugBank.d217.s7.e1" ddi="false"/>
+        <pair id="DDI-DrugBank.d217.s7.p1" e1="DDI-DrugBank.d217.s7.e0"
+            e2="DDI-DrugBank.d217.s7.e2" ddi="true" type="effect"/>
+        <pair id="DDI-DrugBank.d217.s7.p2" e1="DDI-DrugBank.d217.s7.e0"
+            e2="DDI-DrugBank.d217.s7.e3" ddi="false"/>
+        <pair id="DDI-DrugBank.d217.s7.p3" e1="DDI-DrugBank.d217.s7.e1"
+            e2="DDI-DrugBank.d217.s7.e2" ddi="true" type="effect"/>
+        <pair id="DDI-DrugBank.d217.s7.p4" e1="DDI-DrugBank.d217.s7.e1"
+            e2="DDI-DrugBank.d217.s7.e3" ddi="false"/>
+        <pair id="DDI-DrugBank.d217.s7.p5" e1="DDI-DrugBank.d217.s7.e2"
+            e2="DDI-DrugBank.d217.s7.e3" ddi="false"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d217.s8" text="Therefore, monitoring of blood glucose is recommended when these agents are co-administered."/>
+    <sentence id="DDI-DrugBank.d217.s9" text="Diminished urinary excretion of norfloxacin has been reported during the concomitant administration of probenecid and norfloxacin.">
+        <entity id="DDI-DrugBank.d217.s9.e0" charOffset="32-42"
+            type="drug" text="norfloxacin"/>
+        <entity id="DDI-DrugBank.d217.s9.e1" charOffset="103-112"
+            type="drug" text="probenecid"/>
+        <entity id="DDI-DrugBank.d217.s9.e2" charOffset="118-128"
+            type="drug" text="norfloxacin"/>
+        <pair id="DDI-DrugBank.d217.s9.p0" e1="DDI-DrugBank.d217.s9.e0"
+            e2="DDI-DrugBank.d217.s9.e1" ddi="false"/>
+        <pair id="DDI-DrugBank.d217.s9.p1" e1="DDI-DrugBank.d217.s9.e0"
+            e2="DDI-DrugBank.d217.s9.e2" ddi="false"/>
+        <pair id="DDI-DrugBank.d217.s9.p2" e1="DDI-DrugBank.d217.s9.e1"
+            e2="DDI-DrugBank.d217.s9.e2" ddi="true" type="mechanism"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d217.s10" text="The concomitant use of nitrofurantoin is not recommended since nitrofurantoin may antagonize the antibacterial effect of Norfloxacin in the urinary tract.">
+        <entity id="DDI-DrugBank.d217.s10.e0" charOffset="23-36"
+            type="drug" text="nitrofurantoin"/>
+        <entity id="DDI-DrugBank.d217.s10.e1" charOffset="63-76"
+            type="drug" text="nitrofurantoin"/>
+        <entity id="DDI-DrugBank.d217.s10.e2" charOffset="121-131"
+            type="drug" text="Norfloxacin"/>
+        <pair id="DDI-DrugBank.d217.s10.p0"
+            e1="DDI-DrugBank.d217.s10.e0" e2="DDI-DrugBank.d217.s10.e1" ddi="false"/>
+        <pair id="DDI-DrugBank.d217.s10.p1"
+            e1="DDI-DrugBank.d217.s10.e0" e2="DDI-DrugBank.d217.s10.e2" ddi="false"/>
+        <pair id="DDI-DrugBank.d217.s10.p2"
+            e1="DDI-DrugBank.d217.s10.e1" e2="DDI-DrugBank.d217.s10.e2"
+            ddi="true" type="effect"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d217.s11" text="Multivitamins, or other products containing iron or zinc, antacids or sucralfate should not be administered concomitantly with, or within 2 hours of, the administration of norfloxacin, because they may interfere with absorption resulting in lower serum and urine levels of norfloxacin.">
+        <entity id="DDI-DrugBank.d217.s11.e0" charOffset="0-12"
+            type="group" text="Multivitamins"/>
+        <entity id="DDI-DrugBank.d217.s11.e1" charOffset="44-47"
+            type="drug" text="iron"/>
+        <entity id="DDI-DrugBank.d217.s11.e2" charOffset="52-55"
+            type="drug" text="zinc"/>
+        <entity id="DDI-DrugBank.d217.s11.e3" charOffset="58-65"
+            type="group" text="antacids"/>
+        <entity id="DDI-DrugBank.d217.s11.e4" charOffset="70-79"
+            type="drug" text="sucralfate"/>
+        <entity id="DDI-DrugBank.d217.s11.e5" charOffset="172-182"
+            type="drug" text="norfloxacin"/>
+        <entity id="DDI-DrugBank.d217.s11.e6" charOffset="273-283"
+            type="drug" text="norfloxacin"/>
+        <pair id="DDI-DrugBank.d217.s11.p0"
+            e1="DDI-DrugBank.d217.s11.e0" e2="DDI-DrugBank.d217.s11.e1" ddi="false"/>
+        <pair id="DDI-DrugBank.d217.s11.p1"
+            e1="DDI-DrugBank.d217.s11.e0" e2="DDI-DrugBank.d217.s11.e2" ddi="false"/>
+        <pair id="DDI-DrugBank.d217.s11.p2"
+            e1="DDI-DrugBank.d217.s11.e0" e2="DDI-DrugBank.d217.s11.e3" ddi="false"/>
+        <pair id="DDI-DrugBank.d217.s11.p3"
+            e1="DDI-DrugBank.d217.s11.e0" e2="DDI-DrugBank.d217.s11.e4" ddi="false"/>
+        <pair id="DDI-DrugBank.d217.s11.p4"
+            e1="DDI-DrugBank.d217.s11.e0" e2="DDI-DrugBank.d217.s11.e5"
+            ddi="true" type="advise"/>
+        <pair id="DDI-DrugBank.d217.s11.p5"
+            e1="DDI-DrugBank.d217.s11.e0" e2="DDI-DrugBank.d217.s11.e6" ddi="false"/>
+        <pair id="DDI-DrugBank.d217.s11.p6"
+            e1="DDI-DrugBank.d217.s11.e1" e2="DDI-DrugBank.d217.s11.e2" ddi="false"/>
+        <pair id="DDI-DrugBank.d217.s11.p7"
+            e1="DDI-DrugBank.d217.s11.e1" e2="DDI-DrugBank.d217.s11.e3" ddi="false"/>
+        <pair id="DDI-DrugBank.d217.s11.p8"
+            e1="DDI-DrugBank.d217.s11.e1" e2="DDI-DrugBank.d217.s11.e4" ddi="false"/>
+        <pair id="DDI-DrugBank.d217.s11.p9"
+            e1="DDI-DrugBank.d217.s11.e1" e2="DDI-DrugBank.d217.s11.e5"
+            ddi="true" type="advise"/>
+        <pair id="DDI-DrugBank.d217.s11.p10"
+            e1="DDI-DrugBank.d217.s11.e1" e2="DDI-DrugBank.d217.s11.e6" ddi="false"/>
+        <pair id="DDI-DrugBank.d217.s11.p11"
+            e1="DDI-DrugBank.d217.s11.e2" e2="DDI-DrugBank.d217.s11.e3" ddi="false"/>
+        <pair id="DDI-DrugBank.d217.s11.p12"
+            e1="DDI-DrugBank.d217.s11.e2" e2="DDI-DrugBank.d217.s11.e4" ddi="false"/>
+        <pair id="DDI-DrugBank.d217.s11.p13"
+            e1="DDI-DrugBank.d217.s11.e2" e2="DDI-DrugBank.d217.s11.e5"
+            ddi="true" type="advise"/>
+        <pair id="DDI-DrugBank.d217.s11.p14"
+            e1="DDI-DrugBank.d217.s11.e2" e2="DDI-DrugBank.d217.s11.e6" ddi="false"/>
+        <pair id="DDI-DrugBank.d217.s11.p15"
+            e1="DDI-DrugBank.d217.s11.e3" e2="DDI-DrugBank.d217.s11.e4" ddi="false"/>
+        <pair id="DDI-DrugBank.d217.s11.p16"
+            e1="DDI-DrugBank.d217.s11.e3" e2="DDI-DrugBank.d217.s11.e5"
+            ddi="true" type="advise"/>
+        <pair id="DDI-DrugBank.d217.s11.p17"
+            e1="DDI-DrugBank.d217.s11.e3" e2="DDI-DrugBank.d217.s11.e6" ddi="false"/>
+        <pair id="DDI-DrugBank.d217.s11.p18"
+            e1="DDI-DrugBank.d217.s11.e4" e2="DDI-DrugBank.d217.s11.e5"
+            ddi="true" type="advise"/>
+        <pair id="DDI-DrugBank.d217.s11.p19"
+            e1="DDI-DrugBank.d217.s11.e4" e2="DDI-DrugBank.d217.s11.e6" ddi="false"/>
+        <pair id="DDI-DrugBank.d217.s11.p20"
+            e1="DDI-DrugBank.d217.s11.e5" e2="DDI-DrugBank.d217.s11.e6" ddi="false"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d217.s12" text="Videx (Didanosine) chewable/buffered tablets or the pediatric powder for oral solution should not be administered concomitantly with, or within 2 hours of, the administration of norfloxacin, because these products may interfere with absorption resulting in lower serum and urine levels of norfloxacin.">
+        <entity id="DDI-DrugBank.d217.s12.e0" charOffset="0-4"
+            type="brand" text="Videx"/>
+        <entity id="DDI-DrugBank.d217.s12.e1" charOffset="7-16"
+            type="drug" text="Didanosine"/>
+        <entity id="DDI-DrugBank.d217.s12.e2" charOffset="178-188"
+            type="drug" text="norfloxacin"/>
+        <entity id="DDI-DrugBank.d217.s12.e3" charOffset="289-299"
+            type="drug" text="norfloxacin"/>
+        <pair id="DDI-DrugBank.d217.s12.p0"
+            e1="DDI-DrugBank.d217.s12.e0" e2="DDI-DrugBank.d217.s12.e1" ddi="false"/>
+        <pair id="DDI-DrugBank.d217.s12.p1"
+            e1="DDI-DrugBank.d217.s12.e0" e2="DDI-DrugBank.d217.s12.e2"
+            ddi="true" type="advise"/>
+        <pair id="DDI-DrugBank.d217.s12.p2"
+            e1="DDI-DrugBank.d217.s12.e0" e2="DDI-DrugBank.d217.s12.e3" ddi="false"/>
+        <pair id="DDI-DrugBank.d217.s12.p3"
+            e1="DDI-DrugBank.d217.s12.e1" e2="DDI-DrugBank.d217.s12.e2"
+            ddi="true" type="advise"/>
+        <pair id="DDI-DrugBank.d217.s12.p4"
+            e1="DDI-DrugBank.d217.s12.e1" e2="DDI-DrugBank.d217.s12.e3" ddi="false"/>
+        <pair id="DDI-DrugBank.d217.s12.p5"
+            e1="DDI-DrugBank.d217.s12.e2" e2="DDI-DrugBank.d217.s12.e3" ddi="false"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d217.s13" text="Some quinolones have also been shown to interfere with the metabolism of caffeine.">
+        <entity id="DDI-DrugBank.d217.s13.e0" charOffset="5-14"
+            type="group" text="quinolones"/>
+        <entity id="DDI-DrugBank.d217.s13.e1" charOffset="73-80"
+            type="drug" text="caffeine"/>
+        <pair id="DDI-DrugBank.d217.s13.p0"
+            e1="DDI-DrugBank.d217.s13.e0" e2="DDI-DrugBank.d217.s13.e1"
+            ddi="true" type="mechanism"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d217.s14" text="This may lead to reduced clearance of caffeine and a prolongation of its plasma half-life.">
+        <entity id="DDI-DrugBank.d217.s14.e0" charOffset="38-45"
+            type="drug" text="caffeine"/>
+    </sentence>
+</document>

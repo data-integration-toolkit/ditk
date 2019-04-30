@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="DDI-MedLine.d211">
+    <sentence id="DDI-MedLine.d211.s0" text="Phase I trial of lenalidomide and CCI-779 in patients with relapsed multiple myeloma: evidence for lenalidomide-CCI-779 interaction via P-glycoprotein.&#xd;&#xa;">
+        <entity id="DDI-MedLine.d211.s0.e0" charOffset="17-28"
+            type="drug" text="lenalidomide"/>
+        <entity id="DDI-MedLine.d211.s0.e1" charOffset="34-40"
+            type="drug" text="CCI-779"/>
+        <entity id="DDI-MedLine.d211.s0.e2" charOffset="99-110"
+            type="drug" text="lenalidomide"/>
+        <entity id="DDI-MedLine.d211.s0.e3" charOffset="112-118"
+            type="drug" text="CCI-779"/>
+        <pair id="DDI-MedLine.d211.s0.p0" e1="DDI-MedLine.d211.s0.e0"
+            e2="DDI-MedLine.d211.s0.e1" ddi="false"/>
+        <pair id="DDI-MedLine.d211.s0.p1" e1="DDI-MedLine.d211.s0.e0"
+            e2="DDI-MedLine.d211.s0.e2" ddi="false"/>
+        <pair id="DDI-MedLine.d211.s0.p2" e1="DDI-MedLine.d211.s0.e0"
+            e2="DDI-MedLine.d211.s0.e3" ddi="false"/>
+        <pair id="DDI-MedLine.d211.s0.p3" e1="DDI-MedLine.d211.s0.e1"
+            e2="DDI-MedLine.d211.s0.e2" ddi="false"/>
+        <pair id="DDI-MedLine.d211.s0.p4" e1="DDI-MedLine.d211.s0.e1"
+            e2="DDI-MedLine.d211.s0.e3" ddi="false"/>
+        <pair id="DDI-MedLine.d211.s0.p5" e1="DDI-MedLine.d211.s0.e2"
+            e2="DDI-MedLine.d211.s0.e3" ddi="false"/>
+    </sentence>
+    <sentence id="DDI-MedLine.d211.s1" text="Multiple myeloma (MM) is an incurable plasma-cell neoplasm for which most treatments involve a therapeutic agent combined with dexamethasone. ">
+        <entity id="DDI-MedLine.d211.s1.e0" charOffset="127-139"
+            type="drug" text="dexamethasone"/>
+    </sentence>
+    <sentence id="DDI-MedLine.d211.s2" text="The preclinical combination of lenalidomide with the mTOR inhibitor CCI-779 has displayed synergy in vitro and represents a novel combination in MM.">
+        <entity id="DDI-MedLine.d211.s2.e0" charOffset="31-42"
+            type="drug" text="lenalidomide"/>
+        <entity id="DDI-MedLine.d211.s2.e1" charOffset="68-74"
+            type="drug" text="CCI-779"/>
+        <pair id="DDI-MedLine.d211.s2.p0" e1="DDI-MedLine.d211.s2.e0"
+            e2="DDI-MedLine.d211.s2.e1" ddi="true" type="effect"/>
+    </sentence>
+</document>

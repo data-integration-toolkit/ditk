@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="DDI-DrugBank.d653">
+    <sentence id="DDI-DrugBank.d653.s0" text="The pharmacokinetic interactions listed below are potentially clinically important. "/>
+    <sentence id="DDI-DrugBank.d653.s1" text="Drugs that induce hepatic enzymes such as phenobarbital, phenytoin and rifampin may increase the clearance of corticosteroids and may require increases in corticosteroid dose to achieve the desired response. ">
+        <entity id="DDI-DrugBank.d653.s1.e0" charOffset="42-54"
+            type="drug" text="phenobarbital"/>
+        <entity id="DDI-DrugBank.d653.s1.e1" charOffset="57-65"
+            type="drug" text="phenytoin"/>
+        <entity id="DDI-DrugBank.d653.s1.e2" charOffset="71-78"
+            type="drug" text="rifampin"/>
+        <entity id="DDI-DrugBank.d653.s1.e3" charOffset="110-124"
+            type="group" text="corticosteroids"/>
+        <entity id="DDI-DrugBank.d653.s1.e4" charOffset="155-168"
+            type="group" text="corticosteroid"/>
+        <pair id="DDI-DrugBank.d653.s1.p0" e1="DDI-DrugBank.d653.s1.e0"
+            e2="DDI-DrugBank.d653.s1.e1" ddi="false"/>
+        <pair id="DDI-DrugBank.d653.s1.p1" e1="DDI-DrugBank.d653.s1.e0"
+            e2="DDI-DrugBank.d653.s1.e2" ddi="false"/>
+        <pair id="DDI-DrugBank.d653.s1.p2" e1="DDI-DrugBank.d653.s1.e0"
+            e2="DDI-DrugBank.d653.s1.e3" ddi="true" type="mechanism"/>
+        <pair id="DDI-DrugBank.d653.s1.p3" e1="DDI-DrugBank.d653.s1.e0"
+            e2="DDI-DrugBank.d653.s1.e4" ddi="true" type="mechanism"/>
+        <pair id="DDI-DrugBank.d653.s1.p4" e1="DDI-DrugBank.d653.s1.e1"
+            e2="DDI-DrugBank.d653.s1.e2" ddi="false"/>
+        <pair id="DDI-DrugBank.d653.s1.p5" e1="DDI-DrugBank.d653.s1.e1"
+            e2="DDI-DrugBank.d653.s1.e3" ddi="true" type="mechanism"/>
+        <pair id="DDI-DrugBank.d653.s1.p6" e1="DDI-DrugBank.d653.s1.e1"
+            e2="DDI-DrugBank.d653.s1.e4" ddi="true" type="mechanism"/>
+        <pair id="DDI-DrugBank.d653.s1.p7" e1="DDI-DrugBank.d653.s1.e2"
+            e2="DDI-DrugBank.d653.s1.e3" ddi="true" type="mechanism"/>
+        <pair id="DDI-DrugBank.d653.s1.p8" e1="DDI-DrugBank.d653.s1.e2"
+            e2="DDI-DrugBank.d653.s1.e4" ddi="true" type="mechanism"/>
+        <pair id="DDI-DrugBank.d653.s1.p9" e1="DDI-DrugBank.d653.s1.e3"
+            e2="DDI-DrugBank.d653.s1.e4" ddi="false"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d653.s2" text="Drugs such as troleandomycin and ketoconazole may inhibit the metabolism of corticosteroids and thus decrease their clearance. ">
+        <entity id="DDI-DrugBank.d653.s2.e0" charOffset="14-27"
+            type="drug" text="troleandomycin"/>
+        <entity id="DDI-DrugBank.d653.s2.e1" charOffset="33-44"
+            type="drug" text="ketoconazole"/>
+        <entity id="DDI-DrugBank.d653.s2.e2" charOffset="76-90"
+            type="group" text="corticosteroids"/>
+        <pair id="DDI-DrugBank.d653.s2.p0" e1="DDI-DrugBank.d653.s2.e0"
+            e2="DDI-DrugBank.d653.s2.e1" ddi="false"/>
+        <pair id="DDI-DrugBank.d653.s2.p1" e1="DDI-DrugBank.d653.s2.e0"
+            e2="DDI-DrugBank.d653.s2.e2" ddi="true" type="mechanism"/>
+        <pair id="DDI-DrugBank.d653.s2.p2" e1="DDI-DrugBank.d653.s2.e1"
+            e2="DDI-DrugBank.d653.s2.e2" ddi="true" type="mechanism"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d653.s3" text="Therefore, the dose of corticosteroid should be titrated to avoid steroid toxicity. ">
+        <entity id="DDI-DrugBank.d653.s3.e0" charOffset="23-36"
+            type="group" text="corticosteroid"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d653.s4" text="Corticosteroids may increase the clearance of chronic high dose aspirin. ">
+        <entity id="DDI-DrugBank.d653.s4.e0" charOffset="0-14"
+            type="group" text="Corticosteroids"/>
+        <entity id="DDI-DrugBank.d653.s4.e1" charOffset="64-70"
+            type="brand" text="aspirin"/>
+        <pair id="DDI-DrugBank.d653.s4.p0" e1="DDI-DrugBank.d653.s4.e0"
+            e2="DDI-DrugBank.d653.s4.e1" ddi="true" type="mechanism"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d653.s5" text="This could lead to decreased salicylate serum levels or increase the risk of salicylate toxicity when corticosteroid is withdrawn. ">
+        <entity id="DDI-DrugBank.d653.s5.e0" charOffset="29-38"
+            type="group" text="salicylate"/>
+        <entity id="DDI-DrugBank.d653.s5.e1" charOffset="77-86"
+            type="group" text="salicylate"/>
+        <entity id="DDI-DrugBank.d653.s5.e2" charOffset="102-115"
+            type="group" text="corticosteroid"/>
+        <pair id="DDI-DrugBank.d653.s5.p0" e1="DDI-DrugBank.d653.s5.e0"
+            e2="DDI-DrugBank.d653.s5.e1" ddi="false"/>
+        <pair id="DDI-DrugBank.d653.s5.p1" e1="DDI-DrugBank.d653.s5.e0"
+            e2="DDI-DrugBank.d653.s5.e2" ddi="false"/>
+        <pair id="DDI-DrugBank.d653.s5.p2" e1="DDI-DrugBank.d653.s5.e1"
+            e2="DDI-DrugBank.d653.s5.e2" ddi="true" type="effect"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d653.s6" text="Aspirin should be used cautiously in conjunction with corticosteroids in patients suffering from hypoprothrombinemia. ">
+        <entity id="DDI-DrugBank.d653.s6.e0" charOffset="0-6"
+            type="brand" text="Aspirin"/>
+        <entity id="DDI-DrugBank.d653.s6.e1" charOffset="54-68"
+            type="group" text="corticosteroids"/>
+        <pair id="DDI-DrugBank.d653.s6.p0" e1="DDI-DrugBank.d653.s6.e0"
+            e2="DDI-DrugBank.d653.s6.e1" ddi="true" type="advise"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d653.s7" text="The effect of corticosteroids on oral anticoagulants is variable. ">
+        <entity id="DDI-DrugBank.d653.s7.e0" charOffset="14-28"
+            type="group" text="corticosteroids"/>
+        <entity id="DDI-DrugBank.d653.s7.e1" charOffset="38-51"
+            type="group" text="anticoagulants"/>
+        <pair id="DDI-DrugBank.d653.s7.p0" e1="DDI-DrugBank.d653.s7.e0"
+            e2="DDI-DrugBank.d653.s7.e1" ddi="true" type="effect"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d653.s8" text="There are reports of enhanced as well as diminished effects of anticoagulants when given concurrently with corticosteroids. ">
+        <entity id="DDI-DrugBank.d653.s8.e0" charOffset="63-76"
+            type="group" text="anticoagulants"/>
+        <entity id="DDI-DrugBank.d653.s8.e1" charOffset="107-121"
+            type="group" text="corticosteroids"/>
+        <pair id="DDI-DrugBank.d653.s8.p0" e1="DDI-DrugBank.d653.s8.e0"
+            e2="DDI-DrugBank.d653.s8.e1" ddi="true" type="effect"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d653.s9" text="Therefore, coagulation indices should be monitored to maintain the desired anticoagulant effect."/>
+</document>

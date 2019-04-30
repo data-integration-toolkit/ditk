@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="DDI-DrugBank.d375">
+    <sentence id="DDI-DrugBank.d375.s0" text="The potential for drug interactions with EMTRIVA has been studied in combination with indinavir, stavudine, famciclovir, and tenofovir disoproxil fumarate.">
+        <entity id="DDI-DrugBank.d375.s0.e0" charOffset="41-47"
+            type="brand" text="EMTRIVA"/>
+        <entity id="DDI-DrugBank.d375.s0.e1" charOffset="86-94"
+            type="drug" text="indinavir"/>
+        <entity id="DDI-DrugBank.d375.s0.e2" charOffset="97-105"
+            type="drug" text="stavudine"/>
+        <entity id="DDI-DrugBank.d375.s0.e3" charOffset="108-118"
+            type="drug" text="famciclovir"/>
+        <entity id="DDI-DrugBank.d375.s0.e4" charOffset="125-153"
+            type="drug" text="tenofovir disoproxil fumarate"/>
+        <pair id="DDI-DrugBank.d375.s0.p0" e1="DDI-DrugBank.d375.s0.e0"
+            e2="DDI-DrugBank.d375.s0.e1" ddi="false"/>
+        <pair id="DDI-DrugBank.d375.s0.p1" e1="DDI-DrugBank.d375.s0.e0"
+            e2="DDI-DrugBank.d375.s0.e2" ddi="false"/>
+        <pair id="DDI-DrugBank.d375.s0.p2" e1="DDI-DrugBank.d375.s0.e0"
+            e2="DDI-DrugBank.d375.s0.e3" ddi="false"/>
+        <pair id="DDI-DrugBank.d375.s0.p3" e1="DDI-DrugBank.d375.s0.e0"
+            e2="DDI-DrugBank.d375.s0.e4" ddi="false"/>
+        <pair id="DDI-DrugBank.d375.s0.p4" e1="DDI-DrugBank.d375.s0.e1"
+            e2="DDI-DrugBank.d375.s0.e2" ddi="false"/>
+        <pair id="DDI-DrugBank.d375.s0.p5" e1="DDI-DrugBank.d375.s0.e1"
+            e2="DDI-DrugBank.d375.s0.e3" ddi="false"/>
+        <pair id="DDI-DrugBank.d375.s0.p6" e1="DDI-DrugBank.d375.s0.e1"
+            e2="DDI-DrugBank.d375.s0.e4" ddi="false"/>
+        <pair id="DDI-DrugBank.d375.s0.p7" e1="DDI-DrugBank.d375.s0.e2"
+            e2="DDI-DrugBank.d375.s0.e3" ddi="false"/>
+        <pair id="DDI-DrugBank.d375.s0.p8" e1="DDI-DrugBank.d375.s0.e2"
+            e2="DDI-DrugBank.d375.s0.e4" ddi="false"/>
+        <pair id="DDI-DrugBank.d375.s0.p9" e1="DDI-DrugBank.d375.s0.e3"
+            e2="DDI-DrugBank.d375.s0.e4" ddi="false"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d375.s1" text="There were no clinically significant drug interactions for any of these drugs"/>
+    <sentence id="DDI-DrugBank.d375.s2" text="."/>
+    <sentence id="DDI-DrugBank.d375.s3" text=""/>
+</document>

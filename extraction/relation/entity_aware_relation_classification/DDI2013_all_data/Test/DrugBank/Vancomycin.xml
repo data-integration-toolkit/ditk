@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="DDI-DrugBank.d669">
+    <sentence id="DDI-DrugBank.d669.s0" text="Concomitant administration of vancomycin and anesthetic agents has been associated with erythema and histamine-like flushing and anaphylactoid reactions. ">
+        <entity id="DDI-DrugBank.d669.s0.e0" charOffset="30-39"
+            type="drug" text="vancomycin"/>
+        <entity id="DDI-DrugBank.d669.s0.e1" charOffset="45-61"
+            type="group" text="anesthetic agents"/>
+        <pair id="DDI-DrugBank.d669.s0.p0" e1="DDI-DrugBank.d669.s0.e0"
+            e2="DDI-DrugBank.d669.s0.e1" ddi="true" type="effect"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d669.s1" text="Concurrent and/or sequential systemic or topical use of other potentially neurotoxic and/or nephrotoxic drugs, such as amphotericin B, aminoglycosides, bacitracin, polymyxin B, colistin, viomycin, or cisplatin, when indicated, requires careful monitoring.">
+        <entity id="DDI-DrugBank.d669.s1.e0" charOffset="119-132"
+            type="drug" text="amphotericin B"/>
+        <entity id="DDI-DrugBank.d669.s1.e1" charOffset="135-149"
+            type="group" text="aminoglycosides"/>
+        <entity id="DDI-DrugBank.d669.s1.e2" charOffset="152-161"
+            type="drug" text="bacitracin"/>
+        <entity id="DDI-DrugBank.d669.s1.e3" charOffset="164-174"
+            type="drug" text="polymyxin B"/>
+        <entity id="DDI-DrugBank.d669.s1.e4" charOffset="177-184"
+            type="drug" text="colistin"/>
+        <entity id="DDI-DrugBank.d669.s1.e5" charOffset="187-194"
+            type="drug" text="viomycin"/>
+        <entity id="DDI-DrugBank.d669.s1.e6" charOffset="200-208"
+            type="drug" text="cisplatin"/>
+        <pair id="DDI-DrugBank.d669.s1.p0" e1="DDI-DrugBank.d669.s1.e0"
+            e2="DDI-DrugBank.d669.s1.e1" ddi="false"/>
+        <pair id="DDI-DrugBank.d669.s1.p1" e1="DDI-DrugBank.d669.s1.e0"
+            e2="DDI-DrugBank.d669.s1.e2" ddi="false"/>
+        <pair id="DDI-DrugBank.d669.s1.p2" e1="DDI-DrugBank.d669.s1.e0"
+            e2="DDI-DrugBank.d669.s1.e3" ddi="false"/>
+        <pair id="DDI-DrugBank.d669.s1.p3" e1="DDI-DrugBank.d669.s1.e0"
+            e2="DDI-DrugBank.d669.s1.e4" ddi="false"/>
+        <pair id="DDI-DrugBank.d669.s1.p4" e1="DDI-DrugBank.d669.s1.e0"
+            e2="DDI-DrugBank.d669.s1.e5" ddi="false"/>
+        <pair id="DDI-DrugBank.d669.s1.p5" e1="DDI-DrugBank.d669.s1.e0"
+            e2="DDI-DrugBank.d669.s1.e6" ddi="false"/>
+        <pair id="DDI-DrugBank.d669.s1.p6" e1="DDI-DrugBank.d669.s1.e1"
+            e2="DDI-DrugBank.d669.s1.e2" ddi="false"/>
+        <pair id="DDI-DrugBank.d669.s1.p7" e1="DDI-DrugBank.d669.s1.e1"
+            e2="DDI-DrugBank.d669.s1.e3" ddi="false"/>
+        <pair id="DDI-DrugBank.d669.s1.p8" e1="DDI-DrugBank.d669.s1.e1"
+            e2="DDI-DrugBank.d669.s1.e4" ddi="false"/>
+        <pair id="DDI-DrugBank.d669.s1.p9" e1="DDI-DrugBank.d669.s1.e1"
+            e2="DDI-DrugBank.d669.s1.e5" ddi="false"/>
+        <pair id="DDI-DrugBank.d669.s1.p10" e1="DDI-DrugBank.d669.s1.e1"
+            e2="DDI-DrugBank.d669.s1.e6" ddi="false"/>
+        <pair id="DDI-DrugBank.d669.s1.p11" e1="DDI-DrugBank.d669.s1.e2"
+            e2="DDI-DrugBank.d669.s1.e3" ddi="false"/>
+        <pair id="DDI-DrugBank.d669.s1.p12" e1="DDI-DrugBank.d669.s1.e2"
+            e2="DDI-DrugBank.d669.s1.e4" ddi="false"/>
+        <pair id="DDI-DrugBank.d669.s1.p13" e1="DDI-DrugBank.d669.s1.e2"
+            e2="DDI-DrugBank.d669.s1.e5" ddi="false"/>
+        <pair id="DDI-DrugBank.d669.s1.p14" e1="DDI-DrugBank.d669.s1.e2"
+            e2="DDI-DrugBank.d669.s1.e6" ddi="false"/>
+        <pair id="DDI-DrugBank.d669.s1.p15" e1="DDI-DrugBank.d669.s1.e3"
+            e2="DDI-DrugBank.d669.s1.e4" ddi="false"/>
+        <pair id="DDI-DrugBank.d669.s1.p16" e1="DDI-DrugBank.d669.s1.e3"
+            e2="DDI-DrugBank.d669.s1.e5" ddi="false"/>
+        <pair id="DDI-DrugBank.d669.s1.p17" e1="DDI-DrugBank.d669.s1.e3"
+            e2="DDI-DrugBank.d669.s1.e6" ddi="false"/>
+        <pair id="DDI-DrugBank.d669.s1.p18" e1="DDI-DrugBank.d669.s1.e4"
+            e2="DDI-DrugBank.d669.s1.e5" ddi="false"/>
+        <pair id="DDI-DrugBank.d669.s1.p19" e1="DDI-DrugBank.d669.s1.e4"
+            e2="DDI-DrugBank.d669.s1.e6" ddi="false"/>
+        <pair id="DDI-DrugBank.d669.s1.p20" e1="DDI-DrugBank.d669.s1.e5"
+            e2="DDI-DrugBank.d669.s1.e6" ddi="false"/>
+    </sentence>
+</document>

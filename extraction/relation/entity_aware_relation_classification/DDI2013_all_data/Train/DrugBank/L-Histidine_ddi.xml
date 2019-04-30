@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="DDI-DrugBank.d365">
+    <sentence id="DDI-DrugBank.d365.s0" text="Medroxyprogesterone Acetate - L-histidine was observed to enhance (in tissue culture) the effect of medroxyprogesterone acetate in reducing the number of human breast cancer cells that were in the S phase.">
+        <entity id="DDI-DrugBank.d365.s0.e0" charOffset="0-26"
+            type="drug" text="Medroxyprogesterone Acetate"/>
+        <entity id="DDI-DrugBank.d365.s0.e1" charOffset="30-40"
+            type="drug" text="L-histidine"/>
+        <entity id="DDI-DrugBank.d365.s0.e2" charOffset="100-126"
+            type="drug" text="medroxyprogesterone acetate"/>
+        <pair id="DDI-DrugBank.d365.s0.p0" e1="DDI-DrugBank.d365.s0.e0"
+            e2="DDI-DrugBank.d365.s0.e1" ddi="false"/>
+        <pair id="DDI-DrugBank.d365.s0.p1" e1="DDI-DrugBank.d365.s0.e0"
+            e2="DDI-DrugBank.d365.s0.e2" ddi="false"/>
+        <pair id="DDI-DrugBank.d365.s0.p2" e1="DDI-DrugBank.d365.s0.e1"
+            e2="DDI-DrugBank.d365.s0.e2" ddi="true" type="effect"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d365.s1" text="H1 and H2 Blockers - Although not reported, L-histidine, via its metabolism to histamine, might decrease the efficacy of H1 and H2 blockers.">
+        <entity id="DDI-DrugBank.d365.s1.e0" charOffset="0-1;10-17"
+            type="group" text="H1 Blockers"/>
+        <entity id="DDI-DrugBank.d365.s1.e1" charOffset="7-17"
+            type="group" text="H2 Blockers"/>
+        <entity id="DDI-DrugBank.d365.s1.e2" charOffset="44-54"
+            type="drug" text="L-histidine"/>
+        <entity id="DDI-DrugBank.d365.s1.e3"
+            charOffset="121-122;131-138" type="group" text="H1 blockers"/>
+        <entity id="DDI-DrugBank.d365.s1.e4" charOffset="128-138"
+            type="group" text="H2 blockers"/>
+        <pair id="DDI-DrugBank.d365.s1.p0" e1="DDI-DrugBank.d365.s1.e0"
+            e2="DDI-DrugBank.d365.s1.e1" ddi="false"/>
+        <pair id="DDI-DrugBank.d365.s1.p1" e1="DDI-DrugBank.d365.s1.e0"
+            e2="DDI-DrugBank.d365.s1.e2" ddi="false"/>
+        <pair id="DDI-DrugBank.d365.s1.p2" e1="DDI-DrugBank.d365.s1.e0"
+            e2="DDI-DrugBank.d365.s1.e3" ddi="false"/>
+        <pair id="DDI-DrugBank.d365.s1.p3" e1="DDI-DrugBank.d365.s1.e0"
+            e2="DDI-DrugBank.d365.s1.e4" ddi="false"/>
+        <pair id="DDI-DrugBank.d365.s1.p4" e1="DDI-DrugBank.d365.s1.e1"
+            e2="DDI-DrugBank.d365.s1.e2" ddi="false"/>
+        <pair id="DDI-DrugBank.d365.s1.p5" e1="DDI-DrugBank.d365.s1.e1"
+            e2="DDI-DrugBank.d365.s1.e3" ddi="false"/>
+        <pair id="DDI-DrugBank.d365.s1.p6" e1="DDI-DrugBank.d365.s1.e1"
+            e2="DDI-DrugBank.d365.s1.e4" ddi="false"/>
+        <pair id="DDI-DrugBank.d365.s1.p7" e1="DDI-DrugBank.d365.s1.e2"
+            e2="DDI-DrugBank.d365.s1.e3" ddi="true" type="effect"/>
+        <pair id="DDI-DrugBank.d365.s1.p8" e1="DDI-DrugBank.d365.s1.e2"
+            e2="DDI-DrugBank.d365.s1.e4" ddi="true" type="effect"/>
+        <pair id="DDI-DrugBank.d365.s1.p9" e1="DDI-DrugBank.d365.s1.e3"
+            e2="DDI-DrugBank.d365.s1.e4" ddi="false"/>
+    </sentence>
+</document>
