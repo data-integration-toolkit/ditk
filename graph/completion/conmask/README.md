@@ -59,3 +59,4 @@ python3 -m ndkgc.models.fcn_model_v2 checkpoint_db50_v2_dr_uniweight_2 data/dbpe
 ```
 
 ## YouTube Video
+https://www.youtube.com/watch?v=iXZc_Wc347Q
