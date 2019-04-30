@@ -14,8 +14,11 @@ Reference for python code - Iterative Imputer in https://github.com/iskandr/fanc
 Below are the versions used in the code: 
 
 Python - 3.6.8
+
 Pandas - 0.24.2
+
 Tensorflow - 1.13.1
+
 Numpy - 1.16.2
 
 ## Description
@@ -56,7 +59,7 @@ Step 6: Steps 2 through 4 are repeated for a number of cycles, with the imputati
 
 - Gold dataset is used in order to evaluate the **performance of this algorithm by rmse value.**
 
-**Sample Input and Output files have been included in tests folder.**
+**Sample Input and Output files have been included in mice/tests folder.**
 
 ## Evalution
 - Benchmark datasets :

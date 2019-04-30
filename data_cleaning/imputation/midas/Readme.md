@@ -12,8 +12,11 @@ Github URL of the original code - https://github.com/Oracen/MIDAS/
 Below are the versions used in the code: 
 
 Python - 3.6.8
+
 Pandas - 0.24.2
+
 Tensorflow - 1.13.1
+
 Numpy - 1.16.2
 
 ## Description
@@ -35,6 +38,9 @@ MIDAS employs a class of unsupervised neural networks known as denoising autoenc
 - **Output** is the complete relation with predicted values in a newly created csv file.
 
 - Gold dataset is used in order to evaluate the **performance of this algorithm by rmse value.**
+
+Sample Input and Output files have been included in midas/tests folder.
+
 
 ## Evalution
 - Benchmark datasets :
