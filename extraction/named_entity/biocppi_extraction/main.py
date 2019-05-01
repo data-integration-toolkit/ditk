@@ -20,23 +20,23 @@ def main(inputFilePath):
     # dataset_name = 'unittest'
     # file_dict = {'train':{'data':inputFilePath},'dev':{},'test':{}}
 
-    # test conll2003...good!
-    dataset_name = 'CoNLL_2003'
-    dataset_dir = '/home/kcrouch/smol_datasets/conll/'  # smol sample
-    #dataset_dir = '/Users/olderhorselover/USC/spring2019/csci_548_diotw/project/groupedProject/conll2003_corpus/'
-    raw_data_train_file = dataset_dir + 'train.txt'
-    raw_data_dev_file = dataset_dir + 'dev.txt'
-    raw_data_test_file = dataset_dir + 'test.txt'
-    file_dict = {'train':{'data':raw_data_train_file},'dev':{'data':raw_data_dev_file},'test':{'data':raw_data_test_file}}
-
-    # # test ontoNotes5.0...good!
-    # dataset_name = 'OntoNotes_5p0'
-    # # dataset_dir = '/Users/olderhorselover/USC/spring2019/csci_548_diotw/project/groupedProject/ontoNotes5_corpus/OntoNotes-5.0-NER-BIO/smol/'  # smol sample
-    # dataset_dir = '/Users/olderhorselover/USC/spring2019/csci_548_diotw/project/groupedProject/ontoNotes5_corpus/OntoNotes-5.0-NER-BIO/'
-    # raw_data_train_file = dataset_dir + 'onto.train.ner'
-    # raw_data_dev_file = dataset_dir + 'onto.development.ner'
-    # raw_data_test_file = dataset_dir + 'onto.test.ner'
+    # # test conll2003...good!..yet to test full dataset
+    # dataset_name = 'CoNLL_2003'
+    # dataset_dir = '/home/kcrouch/smol_datasets/conll/'  # smol sample
+    # #dataset_dir = '/Users/olderhorselover/USC/spring2019/csci_548_diotw/project/groupedProject/conll2003_corpus/'
+    # raw_data_train_file = dataset_dir + 'train.txt'
+    # raw_data_dev_file = dataset_dir + 'dev.txt'
+    # raw_data_test_file = dataset_dir + 'test.txt'
     # file_dict = {'train':{'data':raw_data_train_file},'dev':{'data':raw_data_dev_file},'test':{'data':raw_data_test_file}}
+
+    # test ontoNotes5.0...good!..yet to test full dataset
+    dataset_name = 'OntoNotes_5p0'
+    dataset_dir = '/home/kcrouch/smol_datasets/ontonotes'  # smol sample
+    # dataset_dir = '/Users/olderhorselover/USC/spring2019/csci_548_diotw/project/groupedProject/ontoNotes5_corpus/OntoNotes-5.0-NER-BIO/'
+    raw_data_train_file = dataset_dir + 'onto.train.ner'
+    raw_data_dev_file = dataset_dir + 'onto.development.ner'
+    raw_data_test_file = dataset_dir + 'onto.test.ner'
+    file_dict = {'train':{'data':raw_data_train_file},'dev':{'data':raw_data_dev_file},'test':{'data':raw_data_test_file}}
 
     # # test CHEMDNER...good!
     # dataset_name = 'CHEMDNER'
