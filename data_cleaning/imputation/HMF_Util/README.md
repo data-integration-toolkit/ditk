@@ -3,8 +3,6 @@ This project contains an implementation of the Bayesian hybrid matrix factorisat
 
 [**Bayesian hybrid matrix factorisation for data integration**](https://arxiv.org/abs/1704.04962), Thomas Brouwer, Pietro Lio', published at the 20th International Conference on Artificial Intelligence and Statistics (AISTATS 2017).
 
-<img src="./images/in_out_of_matrix_and_mf_mtf_and_multiple_mf_mtf.png" width="65%"/> <img src="./images/hmf_overview.png" width="33%"/> 
-
 #### Original Code
 
 https://github.com/ThomasBrouwer/HMF
@@ -23,8 +21,8 @@ The model outputs a predicted dataset with predicted values for the missing data
 Task: Apply Non Negative Matrix Factorization for Data Imputation
 
 Approach:
-• Decompose a given matrix (dataset) into two smaller matrices (latent factors), so that their product approximates the original matrix
-• This method extracts hidden structure in the data, and allows the prediction of missing values
+1. Decompose a given matrix (dataset) into two smaller matrices (latent factors), so that their product approximates the original matrix
+2. This method extracts hidden structure in the data, and allows the prediction of missing values
 
 #### Evaluation
 
@@ -48,6 +46,7 @@ Results:
 Run the main.py file
 
 (For variable input data, provide the path to the datasets folder)
+
 (For variable fileName, provide the particular dataset you would like to run)
 
 ## Citation
