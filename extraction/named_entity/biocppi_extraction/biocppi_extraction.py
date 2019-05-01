@@ -562,7 +562,7 @@ class biocppi_extraction(Ner):
                     learning_rate=self.learning_rate,
                     decay_rate=self.decay_rate,
                     dropout_keep=self.keep_prob)
-        m.restore(save_path)
+        m.restore(file)
         self.trained_model = m
 
         return
