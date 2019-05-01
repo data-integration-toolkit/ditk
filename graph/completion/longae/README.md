@@ -26,7 +26,7 @@ python3 graph/completion/longae/test/test.py
 
 ### Input/Output for Prediction
 Input
-* N x N adjacency matrix with 10% links set to <unk> (N is the number of nodes)
+* N x N adjacency matrix with 10% links set to \<unk\> (N is the number of nodes)
 * N x F matrix of node features (F is the number of features per node)
 
 Output
