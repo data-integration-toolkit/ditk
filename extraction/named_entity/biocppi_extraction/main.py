@@ -31,7 +31,7 @@ def main(inputFilePath):
 
     # test ontoNotes5.0...good!..yet to test full dataset
     dataset_name = 'OntoNotes_5p0'
-    dataset_dir = '/home/kcrouch/smol_datasets/ontonotes'  # smol sample
+    dataset_dir = '/home/kcrouch/smol_datasets/ontonotes/'  # smol sample
     # dataset_dir = '/Users/olderhorselover/USC/spring2019/csci_548_diotw/project/groupedProject/ontoNotes5_corpus/OntoNotes-5.0-NER-BIO/'
     raw_data_train_file = dataset_dir + 'onto.train.ner'
     raw_data_dev_file = dataset_dir + 'onto.development.ner'
