@@ -139,9 +139,12 @@ def data_formatted(dataset):
     formatted_data = []
     formatted_data_temp = []
     for item in dataset:
-        
+
         if len(item) != 0 :
-            formatted_data_temp.append(item)
+            l = item
+            for i in range(len(item),12):
+                l.append("-")
+            formatted_data_temp.append(l)
         else :
             if(len(formatted_data_temp) !=0 ):
                 formatted_data.append(formatted_data_temp)
