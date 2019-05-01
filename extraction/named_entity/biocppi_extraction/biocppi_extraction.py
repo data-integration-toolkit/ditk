@@ -312,7 +312,7 @@ class biocppi_extraction(Ner):
 
         
         print('Saving trained model to file: %s'%self.model_save_filename)
-        self.save_model('trained_model.save')
+        self.save_model(self.model_save_filename)
 
         return  # None
 
@@ -547,8 +547,7 @@ class biocppi_extraction(Ner):
         :return:
         """
 
-        with open(file,'wb') as sm:
-            cPickle.dump(self.trained_model, sm, protocol=cPickle.HIGHEST_PROTOCOL)
+        self.save_model.save(file)
 
         return
     
@@ -558,7 +557,7 @@ class biocppi_extraction(Ner):
         :param file: From where to load the model - Optional function
         :return:
         """
-
+        # NOT YET IMPLEMENTES
         with open(file,'rb') as sm:
             self.trained_model = cPickle.load(sm)
             if self.trained_model == None:
