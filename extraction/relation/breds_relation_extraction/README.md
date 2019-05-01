@@ -19,16 +19,16 @@ And you need download the word2vec model [afp_apw_xin_embeddings.bin](https://dr
 
 This model mainly use word embedding Bootstrapping method to deal with relation extraction problem. And it is a special task since it is a semi-supervised algorithm and used for specific dataset. I tried a lot to change this one to a general model. I will explain it in the next part. Let's first look at what's in the paper.
 Here's the overall model of the breds.
-(img/overall_model.png)
+[image text](img/overall_model.png)
 
 Approach:
 - Find seed matches
  1. Start with a few seed instances of a relationship type (e.g., headquartered), find text segments where they cooccur,and extract 3 contexts.
 
  2. Look for ReVerb relational patterns in the BETWEEN context, based on PoStags.
-(img/sentence.png)
+[image text](img/sentence.png)
  3. Transform each context into an embedding vector with a simple compositional function that removes stopwords and adjectives, and then sums the embeddings of each word.
- (img/embedding.png)
+ [image text](img/embedding.png)
 
 - Generate extraction patterns(Clusters of instances)
 
@@ -82,12 +82,12 @@ sentence e1 e2 predicted_relation grandtruth_relation
   -metrics:precision,recall,F1
 
 If we only run the Breds model in original dataset with no process. only the results for wiki is good, since this dataset is news article(type of dataset in paper), have 12000 sentences in all and well-formatted. We can also get results from NYT because it is also news article dataset. But it is noisy so results are not good. I tried original dataset and the evlaution method from paper. It's almost the same as the paper. But it is a greatly large dataset and it is not RE group cbenchmark. I think this model only works for large dataset and 4 relations in the paper.
- (img/results_table.png)
- (img/results_picture.png)
+ [image text](img/results_table.png)
+ [image text](img/results_picture.png)
 
 If I pre-assign relation, choose the parameter more wisely and pre-process the data to be a less noisy one which are suiable for Breds models. I can get different results. I think this is not bad. But you need do a lot of manual work and try the best way. It's unstable and specific for evary dataset.
-(img/good_results_tabls.png)
-(img/good_results_picture.png)
+[image text](img/good_results_tabls.png)
+[image text](img/good_results_picture.png)
 
 ## Demo
 - Jupyter Notebook is at the same location as this README.md
