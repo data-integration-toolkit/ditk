@@ -23,15 +23,14 @@
 
 ## Inputs and Outputs
 ### Inputs
-* Tensor model X in MATLAB binary data format (.mat)
-    * Shape of X is n * n * m
+* Tensor model X (n * n * m) in MATLAB binary data format (.mat)
 * Rank r
 
 ### Outputs
 * For each frontal slice of the tensor X (X<sub>k</sub>):
     * Matrix A (n * r)
     * Matrix R<sub>k</sub> (r * r)
-* Matrix A and a list R (which contains matrix R<sub>k</sub> for all values of k) are outputted to text files "rescal_output_A.txt" and "rescal_output_R.txt" respectively
+* Output matrix A and a list R (which contains matrix R<sub>k</sub> for all values of k) to text files "rescal_output_A.txt" and "rescal_output_R.txt" respectively
 
 ## Evalution
 ### Benchmark datasets
