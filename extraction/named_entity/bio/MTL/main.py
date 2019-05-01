@@ -24,8 +24,12 @@ from models.config import Defaults
 from sklearn.metrics import precision_recall_fscore_support, f1_score
 
 sys.argv = ["single_task.py", "./data/CHEMDNER", "./vectorfile/bio_nlp_vec/PubMed-shuffle-win-30.bin"]
+default_stdout = sys.stdout
+default_stderr = sys.stderr
 reload(sys)
 sys.setdefaultencoding('utf-8')
+sys.stdout = default_stdout
+sys.stderr = default_stderr
 
 class MTL:
     def __init__(self):
@@ -116,27 +120,35 @@ class MTL:
         name = "chemdner_output"
         save_token_predictions(name, data.test, self.model, conlldata.write)
 
-        return "./prediction"+name+".tsv"
+        return "./prediction/"+name+".tsv"
 
     def evaluate(self, predictions, groundTruths, *args,
                  **kwargs):  # <--- common ACROSS ALL classes. Requirement that INPUT format uses output from predict()!
-        f = open("./prediction/chemdner_output.tsv", "r")
+        f = open(predictions, "r")
         lines = f.readlines()
         f.close()
 
         ground = []
         predict = []
+
         for line in lines:
             if len(line) < 2:
                  continue
             tmp = line.split(" ")
             ground.append(tmp[1])
             predict.append(tmp[2].strip())
-        
-        eval = precision_recall_fscore_support(ground, predict, average='macro', labels=list(set(predict)))
+
+        labels = list(set(predict))
+
+        eval = precision_recall_fscore_support(ground, predict, labels=labels)
         test_score = eval[2]
+
+        for idx, label in enumerate(labels):
+            print("{} Precision:{:.2f}% Recall:{:.2f}% F1_score:{:.2f}% ".format(label, eval[0][idx]*100, eval[1][idx]*100, eval[2][idx]*100))
+
+        eval_summary = precision_recall_fscore_support(ground, predict, average='macro', labels=labels)
         
-        return test_score
+        return eval_summary
 
 
     def save_model(self, filepath):
@@ -145,6 +157,7 @@ class MTL:
 
     def load_model(self, filepath):
         pass
+
 
 def main(input_path):
         
@@ -158,8 +171,9 @@ def main(input_path):
     output_file = MTL_instance.predict(read_data)
     print("Output file has been created at: {}".format(output_file))
 
-    f1_score = MTL_instance.evaluate(None, None)
-    print("f1: {}".format(f1_score))
+    score = MTL_instance.evaluate(output_file, None)
+    print("Average Score:")
+    print("Precision:{:.2f}% Recall:{:.2f}% F1_score:{:.2f}% ".format(score[0]*100, score[1]*100, score[2]*100))
 
     return output_file
 
