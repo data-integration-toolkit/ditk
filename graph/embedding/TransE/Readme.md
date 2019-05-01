@@ -78,5 +78,5 @@ Files:
 
 ## Demo
 
-- Link to the Jupyter Notebook
-- Link to the video on Youtube
+- Jupyter Notebook: https://github.com/sandiexie-USC/ditk/blob/develop/graph/embedding/TransE/TransE.ipynb
+- Youtube video: https://youtu.be/YQCG408wgLw

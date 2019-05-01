@@ -53,5 +53,5 @@ Files:
 
 ## Demo
 
-- Link to the Jupyter Notebook
+- Jupyter Notebook: https://github.com/sandiexie-USC/ditk/blob/develop/text/embedding/Similarity_Encoding/src/Simlarity_Encoding.ipynb
 - Youtube video: https://youtu.be/J1DDpjkLxP0
