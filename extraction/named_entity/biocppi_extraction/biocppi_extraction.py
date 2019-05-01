@@ -298,6 +298,10 @@ class biocppi_extraction(Ner):
         print('Saving trained model to file: %s'%self.model_save_filename)
         self.save_model(self.model_save_filename)
 
+        # test loading of trained models only! NOT YET IMPLEMENTED
+        self.trained_model = None
+        self.load_model(self.model_save_filename)
+
         return  # None
 
 
