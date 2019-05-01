@@ -15,7 +15,7 @@ install_requires=[
         'networkx'
     ]
 
-## Dataset
+## Benchmarks
 
 The data set that can be used is the test sample data given for the graph embedding group.
 
@@ -35,6 +35,10 @@ The transition model gets saved in the file matrix.txt and the final embedding g
 
 This code has not been put in Jupiter notebook because the entire code was originally implemented in python 2 and was run on a specific version of scipy and gensim which are not compatible with jupyter notebook package. So migrating this code to Python 3 was possible, but still there was a version collision of these packages. Hence, was unable to run this on Jupyter notebook.
 
+## Evaluation Metrics
+
+This paper implemetation originally did not have any evaluation metric. I came up with cosine similarity between the entitites in the input. This metric gives a visualisation on how closely similar the entities are depending on if they have an edge between them.
+
 ## Citation
 
 if you use the code, please cite:
@@ -42,5 +46,5 @@ if you use the code, please cite:
 Gao, Zheng, Gang Fu, Chunping Ouyang, Satoshi Tsutsui, Xiaozhong Liu, and Ying Ding. 
 "edge2vec: Learning Node Representation Using Edge Semantics." arXiv preprint arXiv:1809.02269 (2018).
 
-## License
-The code is released under BSD 3-Clause License
+## Youtube Link
+https://youtu.be/dUhOWAifjMM
