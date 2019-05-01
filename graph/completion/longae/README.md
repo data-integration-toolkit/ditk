@@ -60,3 +60,4 @@ This uses Cora and Citeseer datasets taken from https://github.com/tkipf/gcn
 
 ### Links
 Notebook: https://github.com/twiet/ditk/blob/develop/graph/completion/longae/longae.ipynb
+Video: https://www.youtube.com/watch?v=L0E3LypnX7M&feature=youtu.be
