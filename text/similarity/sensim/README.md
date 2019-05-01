@@ -69,6 +69,10 @@ SemEval 2014 = 44.89
 
 SICK         = 42.54
 
+## Original Code
+
+https://github.com/Sanjithae/sensim
+
 
 ## Jupyter Notebook
 
