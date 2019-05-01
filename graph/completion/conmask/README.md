@@ -46,11 +46,44 @@ other textual features.
 
 ## Evaluation metrics and results
 Following is the evaluation for DBPedia50k for predicting head and tail done by refactored code:
-|            |        For Head          |         For Tail          |
+<!-- |            |        For Head          |         For Tail          |
 |            | :----------------------: |  :----------------------: |
 |            | MRR   | HITS@10 |   MR   |  MRR   | HITS@10 |   MR   |
 | :--------: | :---: | :-----: | :----: |  :---: | :-----: | :----: |
-| DBPedia50k | 0.34  |   0.32  |   89   |  0.57  |   0.75  |   20   |
+| DBPedia50k | 0.34  |   0.32  |   89   |  0.57  |   0.75  |   20   | -->
+
+<table>
+    <thead>
+        <tr>
+            <th></th>
+            <th colspan="3" style="text-align: center;">Head</th>
+            <th colspan="3" style="text-align: center;">Tail</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td></td>
+            <td style="text-align: center;">MRR</td>
+            <td style="text-align: center;">HITS@10</td>
+            <td style="text-align: center;">MR</td>
+            <td style="text-align: center;">MRR</td>
+            <td style="text-align: center;">HITS@10</td>
+            <td style="text-align: center;">MR</td>
+        </tr>
+        <tr>
+            <td>DBPedia50k</td>
+            <td style="text-align: center;">0.34</td>
+            <td style="text-align: center;">0.32</td>
+            <td style="text-align: center;">89</td>
+            <td style="text-align: center;">0.57</td>
+            <td style="text-align: center;">0.75</td>
+            <td style="text-align: center;">20</td>
+        </tr>
+    </tbody>
+</table>
+
+
+
 
 ## To run model
 - A jupyter notebook could not be implemented for this project due to the different required arguments as parameters.
