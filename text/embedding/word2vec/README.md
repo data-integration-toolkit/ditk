@@ -19,7 +19,8 @@ Output (For Prediction and Training)
 - Text Embedding | Average Text Embedding
 - Embedding Similarity
 
-#### Description
+Description
+-------------------------------------
 
 >Task: 
 - Embeddings(Representation) of Word(s), Sentence(s), Document(s)
@@ -35,7 +36,8 @@ Output (For Prediction and Training)
 •	Skip-gram (SG): use a word to predict the surrounding ones in window 
 
 
-#### Implementation
+Implementation
+-------------------------------------
 -	Load the text corpus and preprocess the text
 -	Train the word2vec model with the embedding dimension(default – 200) using the text corpus and model(Skip-gram or CBOW)
 -	Load the trained model from the pickle dump
@@ -44,7 +46,8 @@ Output (For Prediction and Training)
 
 
 
-#### Evaluation
+Evaluation
+-------------------------------------
 
 The benchmark datasets used for this project were:
 
@@ -55,16 +58,19 @@ The benchmark datasets used for this project were:
 3. SemEval 2017 Task 1
  - http://alt.qcri.org/semeval2017/task1/
 
->EVALUATION METRICS : 
+Evaluation Metrics
+-------------------------------------
 - Pearson Correlation Coefficient
 - Spearman Correlation Coefficient
 - Mean Squared Error
 
 
->Results:
+Results
+-------------------------------------
 <img src="word2vec_evaluation.png"/> 
 
-## To Run 
+To Run
+-------------------------------------
 
 > Install the following packages : 
 ```sh
@@ -77,5 +83,6 @@ pip install gensim
 2) Ensure that the main.py, word2vec.py, datasets are in the same folder, if not give the absolute paths accordingly.
 3) Run main.py
 
-## Video 
+Video
+-------------------------------------
 https://www.youtube.com/watch?v=AWmI1AIYgM8
