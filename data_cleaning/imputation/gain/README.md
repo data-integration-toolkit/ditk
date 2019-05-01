@@ -71,5 +71,6 @@ The following UCI repository datasets have been used:
 
 Jupyter Notebook: https://github.com/aru-jo/ditk/blob/develop/data_cleaning/imputation/gain/demo/GAIN.ipynb
 
-Youtube Link: Yet to be posted
+Youtube Link: https://youtu.be/sgxxHjz77Co
+
 
