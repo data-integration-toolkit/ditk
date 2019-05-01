@@ -1,0 +1,17 @@
+citHeader("To cite package tmvtnorm in publications use:")
+## R >= 2.8.0 passes package metadata to citation().
+if(!exists("meta") || is.null(meta)) meta <- packageDescription("tmvtnorm")
+year <- sub("-.*", "", meta$Date)
+note <- sprintf("R package version %s", meta$Version)
+citEntry( entry = "Manual",
+          title = "{tmvtnorm}: Truncated Multivariate Normal and Student t Distribution",
+         author = personList(as.person("Stefan Wilhelm"), 
+                             as.person("Manjunath B G")),
+           year = year,
+           note = note,
+           url  = "http://CRAN.R-project.org/package=tmvtnorm",
+           textVersion = paste("Stefan Wilhelm, Manjunath B G (",
+                               year,
+                               "). tmvtnorm: Truncated Multivariate Normal and Student t Distribution. ",
+                               note, ".", sep="")
+)
