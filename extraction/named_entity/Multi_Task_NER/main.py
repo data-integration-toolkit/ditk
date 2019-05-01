@@ -1,9 +1,8 @@
-from Multi_Task_NER import Multi_Task_NER
-
+from extraction.named_entity.Multi_Task_NER import multi_task_ner
 
 def main(fileNames):
 
-    multi_task = Multi_Task_NER()
+    multi_task =  multi_task_ner.multi_task_ner()
     data = multi_task.read_dataset(fileNames,"dataset")
     embedding = multi_task.generating_encoding(data)
     multi_task.train([data, embedding])
@@ -53,7 +52,7 @@ if __name__ == '__main__':
     #multi_task.fileNames['valid'] = multi_task.valid_file
     #multi_task.fileNames['test'] = multi_task.test_file
     fileNames = {}
-    fileNames['train'] = "chem_new/train.txt"
-    fileNames['valid'] = "chem_new/valid.txt"
-    fileNames['test'] = "chem_new/test.txt"
+    fileNames['train'] = "tests/ner_test_input/train.txt"
+    fileNames['valid'] = "tests/ner_test_input/valid.txt"
+    fileNames['test'] = "tests/ner_test_input/test.txt"
     outputfile = main(fileNames)

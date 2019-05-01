@@ -1,17 +1,18 @@
 import unittest
 import pandas as pd
 import csv
-from Multi_Task_NER import Multi_Task_NER
+from extraction.named_entity.Multi_Task_NER import multi_task_ner
+
 
 
 class TestNERMethods(unittest.TestCase):
 
     def setUp(self):
 
-        self.ner = Multi_Task_NER() #Your implementation of NER
-        self.train_file ='ner_test_input/train.txt'
-        self.valid_file = 'ner_test_input/valid.txt'
-        self.test_file = 'ner_test_input/test.txt'
+        self.ner = multi_task_ner.multi_task_ner() #Your implementation of NER
+        self.train_file ='/Users/boyuzhang/ditk/extraction/named_entity/Multi_Task_NER/tests/ner_test_input/train.txt'
+        self.valid_file = '/Users/boyuzhang/ditk/extraction/named_entity/Multi_Task_NER/tests/ner_test_input/valid.txt'
+        self.test_file = '/Users/boyuzhang/ditk/extraction/named_entity/Multi_Task_NER/tests/ner_test_input/test.txt'
         self.fileNames = {}
         self.fileNames['train'] = self.train_file
         self.fileNames['valid'] = self.valid_file

@@ -1,7 +1,7 @@
 import pycrfsuite as crf
 
 from pycrfsuite import ItemSequence
-from common import utilities as utils
+from extraction.named_entity.Multi_Task_NER.common import utilities as utils
 
 
 def _get_xseq(model, matrix):

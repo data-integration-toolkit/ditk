@@ -1,8 +1,8 @@
 from collections import defaultdict as ddict
-from common import utilities as utils
+from extraction.named_entity.Multi_Task_NER.common import utilities as utils
 
 from tensorflow.keras.preprocessing.sequence import pad_sequences
-from settings import *
+from extraction.named_entity.Multi_Task_NER.settings import *
 from sklearn.preprocessing import LabelBinarizer
 
 

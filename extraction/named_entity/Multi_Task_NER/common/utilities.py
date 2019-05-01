@@ -6,12 +6,12 @@ import numpy as np
 
 from collections import Counter
 from collections import defaultdict as ddict
-from embeddings.twitter.word2vecReader import Word2Vec
+from extraction.named_entity.Multi_Task_NER.embeddings.twitter.word2vecReader import Word2Vec
 from itertools import groupby
 from tensorflow.keras import backend as K
 from tensorflow.keras.preprocessing.text import Tokenizer
 from tensorflow.keras.utils import to_categorical
-from settings import *
+from extraction.named_entity.Multi_Task_NER.settings import *
 import nltk
 
 ##############################################################

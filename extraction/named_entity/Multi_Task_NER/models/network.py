@@ -1,4 +1,4 @@
-from common import utilities as utils
+from extraction.named_entity.Multi_Task_NER.common import utilities as utils
 import tensorflow as tf
 from tensorflow.keras.callbacks import EarlyStopping
 from tensorflow.keras.callbacks import ModelCheckpoint

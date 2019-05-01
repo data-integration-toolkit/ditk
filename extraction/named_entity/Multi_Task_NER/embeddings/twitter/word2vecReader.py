@@ -1,6 +1,6 @@
 import logging
 
-import embeddings.twitter.word2vecReaderUtils as utils
+import extraction.named_entity.Multi_Task_NER.embeddings.twitter.word2vecReaderUtils as utils
 # import word2vecReaderUtils as utils
 
 from numpy import exp, dot, zeros, outer, random, dtype, float32 as REAL,\
