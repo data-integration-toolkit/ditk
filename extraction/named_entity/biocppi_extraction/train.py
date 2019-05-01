@@ -56,7 +56,6 @@ def model_train(num_ensembles,datapath,embeddings_path,optimizer,batch_size,num_
 
     print "Running BiLSTM model"
     print('Will train %s total models [num_ensembles]'%num_ensembles)
-    print args
     random.seed(seed)
     
     trainset = []
@@ -71,7 +70,7 @@ def model_train(num_ensembles,datapath,embeddings_path,optimizer,batch_size,num_
             continue
         
         #if fname.endswith('train.ner.txt'):
-        if fname.endswith('.ppi.txt'):
+        if fname.endswith('train.txt'):
             print fname
             dataset, vocab = load_dataset(os.path.join(datapath,fname))
             word_vocab += vocab

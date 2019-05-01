@@ -53,12 +53,13 @@ def main(inputFilePath):
 
     
     data = biocppi.read_dataset(file_dict, dataset_name)  # data read, converted, and written to files in proper location expected by train
-    print(data)
-    sys.exit()
+    
     # train model
     #data = []  # implementation
     data_train = data['train']  # test passing actual data [empty also works]
     biocppi.train(data_train)
+    print('DONE TRAIN')
+    sys.exit()
 
     # predict using trained model
     data_test = data['test']
