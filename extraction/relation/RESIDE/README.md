@@ -1,8 +1,8 @@
 # **RESIDE: Improving Distantly-Supervised Neural Relation Extraction using Side Information**
 **This repo cites the work of:**
 
-•	Shikhar Vashishth, Rishabh Joshi2, Sai Suman Prayaga, Chiranjib Bhattacharyya, Partha Talukdar
-  RESIDE : Improving Distantly-Supervised Neural Relation Extraction using Side Information,Proceedings of the 2018 Conference   on Empirical Methods in Natural Language Processing. Link to the paper: http://aclweb.org/anthology/D18-1157
+•	Shikhar Vashishth, Rishabh Joshi2, Sai Suman Prayaga, Chiranjib Bhattacharyya, Partha Talukdar,
+  **RESIDE : Improving Distantly-Supervised Neural Relation Extraction using Side Information**, Proceedings of the 2018 Conference   on Empirical Methods in Natural Language Processing. Link to the paper: http://aclweb.org/anthology/D18-1157
 
 
 •	**Github link to original code**: https://github.com/malllabiisc/RESIDE
