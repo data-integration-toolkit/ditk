@@ -13,7 +13,7 @@ import numpy as np
 
 # from utils import backtrack
 
-from model import *
+from model import BiLSTM
 
 # -------------------End Helper for saving model------------------ #
 
