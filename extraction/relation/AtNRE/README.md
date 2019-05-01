@@ -82,10 +82,9 @@ Unit tests have been provided in the tests/ folder
 ## Benchmarking Datasets
 
 The following datasets have been used: 
-
 	NYT Dataset
-  DDI 2013
-  SemEval 2010
+	SemEval Dataset
+	DDI Dataset
 
 ## Evaluation Results (RMSE) 
 
