@@ -292,8 +292,8 @@ class biocppi_extraction(Ner):
 
 
         # temp1.model_train(N,M,n_f,n_hidden,model,viterbi,trainer,lr,batch_size,wl,tl,save_checkpoint_models=False)
-        models = model_train(self.num_ensembles,self.data_path_base,self.embeddings_path,self.optimizer,self.batch_size,
-                    self.num_iterations,self.num_it_per_ckpt,self.learning_rate,self.embedding_factor,
+        models = model_train(self.num_ensembles,self.data_path_base,self.model_name,self.embeddings_path,self.optimizer,
+                    self.batch_size,self.num_iterations,self.num_it_per_ckpt,self.learning_rate,self.embedding_factor,
                     self.decay_rate,self.keep_prob,self.num_cores,self.seed)  # train the models! plural cuz this code does ensembles
 
         self.trained_model = models
