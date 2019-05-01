@@ -32,21 +32,7 @@ that could be specified in the configuration files.
 
 ## Run the model
 
-Download the zip file from the google drive link in the Joint_NER_RE/data/CoNLL04/ and place the zip file at that location.
-
 python main.py
-
-When running for the first time run the following commands and then run python main.py
-
-import nltk
-
-nltk.download('averaged_perceptron_tagger')
-
-Code currently runs on CoNLL04 config file by default.
-
-For other detailed explanation of how to modify the code to run for your dataset (https://github.com/Sanjithae/Joint_NER_RE/blob/master/How_to_run.txt)
-
-
 
 ## Benchmark Datasets
 1) CoNLL04
@@ -61,20 +47,19 @@ For other detailed explanation of how to modify the code to run for your dataset
 
 ## Results 
 
- Test Score is 70.766 in 150 epoch on CoNLL04.
- 
- Test Score is 68.95 in 150 epoch on SemEval 2010 Task 8.
+ Test Score on 70.766 in 150 epoch on CoNLL04.
  
 
 ## Jupyter Notebook
-You can see the execution of the code in this [jupyter notebook](https://github.com/Sanjithae/Joint_NER_RE/blob/master/Joint_NER_RE_Demo.ipynb)
+You can see the execution of the code in this [jupyter notebook](https://github.com/Sanjithae/Joint_NER_RE/blob/master/execution-demo.ipynb)
+
+For other detailed explanation of how to modify the code to run for your dataset (https://github.com/Sanjithae/Joint_NER_RE/blob/master/How_to_run.txt)
 
 
 ## Youtube Video
 
 Click [here](https://youtu.be/8sQ357ymC_U) to play the video.
-
-## Citation
+ ## Citation
  
 Giannis Bekoulis, Johannes Deleu, Thomas Demeester, Chris Develder. Joint entity recognition and relation extraction as a multi-head selection problem. Expert Systems with Applications, Volume 114, Pages 34-45, 2018
 

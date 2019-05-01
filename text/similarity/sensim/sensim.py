@@ -21,7 +21,7 @@ class sensim:
         sentences2 = []
         all_sentences = []
         similarity_score = []
-        with open(filename, 'r') as f:
+        with open(filename, 'r',encoding="utf-8") as f:
 
             data = csv.reader(f)
             for row in data:
@@ -524,7 +524,7 @@ class sensim:
 
         xyz = bow_similarity()
 
-        with open("C:\\Users\\sanji\\Desktop\\training_features_v1.csv", 'w+', encoding='utf-8') as g:
+        with open("training_features_v1.csv", 'w+', encoding='utf-8') as g:
             for i in range(0, len(sentences1)):
 
 
@@ -550,9 +550,9 @@ class sensim:
                 g.write(str(similarity_score[i]) + "\t")
 
                 g.write("\n")
-        df = pd.read_csv('C:\\Users\\sanji\\Desktop\\training_features_v1.csv', header=None, sep='\t')
+        df = pd.read_csv('training_features_v1.csv', header=None, sep='\t')
         df.rename(columns={0: 'ne_tagged', 1: 'pos_tagged', 2: 'bag_of_words', 3: 'numeric_sum', 4: 'diff_in_length',5: 'actual_similarity'}, inplace=True)
-        df.to_csv('C:\\Users\\sanji\\Desktop\\training_features.csv', index=False)
+        df.to_csv('training_features.csv', index=False)
 
 
 
@@ -560,10 +560,10 @@ class sensim:
 
 
 
-        pickle.dump(rf, open("C:\\Users\\sanji\\Desktop\\finalized_model.sav", 'wb'))
+        pickle.dump(rf, open("finalized_model.sav", 'wb'))
 
     def load_model(self):
-        loaded_model = pickle.load(open("C:\\Users\\sanji\\Desktop\\finalized_model.sav", 'rb'))
+        loaded_model = pickle.load(open("finalized_model.sav", 'rb'))
         return loaded_model
 
     def evaluate(self,path):

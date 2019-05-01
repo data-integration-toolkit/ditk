@@ -30,6 +30,8 @@ To compute the similarity we use 5 features which are
  
  ## To run the program
  
+ The input to the program should be a csv file which consists of 3 columns sentence1,sentence2,similarity score
+ 
  python main.py
  
  
@@ -40,7 +42,9 @@ To compute the similarity we use 5 features which are
  ## Benchmark Datasets 
  
  1) SICK 2014
+ 
  2) SemEval 2017
+ 
  3) SemEval 2014
  
  ## To make this model to run for other datasets
@@ -60,7 +64,9 @@ To compute the similarity we use 5 features which are
 ## Results
 
 SemEval 2017 = 39.46
+
 SemEval 2014 = 44.89
+
 SICK         = 42.54
 
 
