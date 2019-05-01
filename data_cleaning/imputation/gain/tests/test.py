@@ -26,7 +26,7 @@ sys.path.append(module_dir)
 #test.py is in tests 
 
 
-from GAIN import GAIN
+from main import GAIN
 from os import path 
 
 #method object
