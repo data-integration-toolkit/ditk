@@ -1,11 +1,11 @@
 # **RESIDE: Improving Distantly-Supervised Neural Relation Extraction using Side Information**
-This repo cites the work of:
+**This repo cites the work of:**
 
 •	Shikhar Vashishth, Rishabh Joshi2, Sai Suman Prayaga, Chiranjib Bhattacharyya, Partha Talukdar
   RESIDE : Improving Distantly-Supervised Neural Relation Extraction using Side Information,Proceedings of the 2018 Conference   on Empirical Methods in Natural Language Processing. Link to the paper: http://aclweb.org/anthology/D18-1157
 
 
-•	Github link to original code: https://github.com/malllabiisc/RESIDE
+•	**Github link to original code**: https://github.com/malllabiisc/RESIDE
 
 ## Dependencies/Prerequisites:
 •	Compatible with TensorFlow 1.x and Python 3.x.
@@ -104,6 +104,8 @@ _Relation alias side information extraction for a given sentence. First, Syntact
 ![](https://github.com/devinaarvind/ditk/blob/develop/extraction/relation/RESIDE/images/metrics.png)
 
 ## **How to run:**
+
+Note: Download the processed version of the dataset from https://drive.google.com/file/d/1UD86c_6O_NSBn2DYirk6ygaHy_fTL-hN/view and save it in the **data** folder.
 
 ### **Preprocessing a new dataset:**
 
