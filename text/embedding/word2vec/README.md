@@ -5,22 +5,19 @@ This project contains an implementation of the Word2Vec algorithm to perform Wor
 
 <img src="./word2vec_architecture_1.png"/> 
 
+
 #### Original Code
 
 https://github.com/RaRe-Technologies/gensim
-#### Input and Output
 
->Input:
-- Word(s) 
-- Sentence(s) 
-- Paragraph(s)
-- Trained Word2Vec model : If you want to give a pretrained model on which predictions have to be made.
+Input (For Prediction and Training)
+------------------------------------
+Word | Sentence | Paragraph | Document
 
->Output:
-The model outputs :
--	Embedding / Average Embeddings
--	Similarity between words/sentences/ documents
-
+Output (For Prediction and Training)
+-------------------------------------
+- Text Embedding | Average Text Embedding
+- Embedding Similarity
 
 #### Description
 
