@@ -18,7 +18,7 @@ It combines local and global approach for Entity Linking. Local approach is base
 Candidate Generation: Use a pre-built dictionary to generate set of entities as candidates to be disambiguated for each mention.  E.g., for mention England, we have Φ(mi) = {e i 1 , ei 2 , ei 3 }, in which the entities refer to England national football team, England and England cricket team
 Feature Extraction: based on the document and its entity graph, we extract both local features and global features for each candidate entity to feed our neural model. Concretely, local features reflect the compatibility between a candidate and its mention within the contexts, and global features are to capture the topical coherence among various mentions. These features, including vectorial representations of candidates and a subgraph indicating their relatedness, are highly discriminative for tackling ambiguity in EL
 Neural Model: we first encode the features to represent nodes (i.e., candidates) in the graph.then improve them for disambiguation via multiple graph convolutions by exploiting the structure information, in which the features for correct candidates that are strongly connected (i.e., topical coherent) shall enhance each other, and features for incorrect candidates are weakened due to their sparse relations. Then, we decode features of nodes to output indicating how possible the candidate refers to its mention
-(https://github.com/yashdholakia113/ditk/blob/develop/entity_linkage/normalization/ncel/ncel.png)
+![Alt text](https://github.com/yashdholakia113/ditk/blob/develop/entity_linkage/normalization/ncel/ncel.png)
 	
 	Fig showing the entire process which consists of 3 steps as mentioned above.
 
