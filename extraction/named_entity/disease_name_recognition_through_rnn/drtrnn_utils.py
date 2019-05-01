@@ -3,6 +3,9 @@ import os
 import sys
 import codecs
 
+DITK_FILE_HEADER = 'WORD TRUE_LABEL PRED_LABEL\n\n'
+DATA_PATH_BASE = 'binary_data/'
+
 
 def write_drtrnn_format_to_file(data,outputFilePath):
     """
@@ -41,7 +44,7 @@ def ditk_to_drtrnn_format(ditkFilePath,tdt='train'):
     Raises:
         None
     """
-    data_path_base = 'binary_data/'
+
     ditk_n_header_lines =2
     with codecs.open(ditkFilePath, mode='r', encoding='utf-8') as f:
         lines = f.read().splitlines()
@@ -62,7 +65,7 @@ def ditk_to_drtrnn_format(ditkFilePath,tdt='train'):
         else:
             converted_lines.append(line)
 
-    outputFilePath = data_path_base + tdt + '.txt'
+    outputFilePath = DATA_PATH_BASE + tdt + '.txt'
     write_drtrnn_format_to_file(converted_lines,outputFilePath)
 
     return converted_lines
@@ -74,11 +77,11 @@ def extract_file_locations(file_dict):
 
     Args:
         file_dict: dictionary
-             {
+            {
                 "train": dict, {key="file description":value="file location"},
                 "dev" : dict, {key="file description":value="file location"},
                 "test" : dict, {key="file description":value="file location"},
-             }
+            }
         PRECONDITION: 'file description' expected to be str in set {'data',...}
 
     Returns:
@@ -107,11 +110,11 @@ def convert_ditk_to_train_format(file_dict):
 
     Args:
         file_dict: dictionary
-             {
+            {
                 "train": dict, {key="file description":value="file location"},
                 "dev" : dict, {key="file description":value="file location"},
                 "test" : dict, {key="file description":value="file location"},
-             }
+            }
         PRECONDITION: 'file description' expected to be str in set {'data',...}
 
     Returns:
@@ -136,6 +139,126 @@ def convert_ditk_to_train_format(file_dict):
 
     return data_dict
 
+def convert_token_tag_to_ditk_format(filebase,token_tag):
+    """
+    Helper function to act as an intermediary. Converts ['token', 'tag'] to 
+    ['token' '_' '_' 'tag' '_'*11]. Basically expands data to 15 columns [not pretty
+    but useful in creating a go-to spot for ditk imtermediary]
+
+    Writes the intermediate files to 'binary_data/train_ditk_format.txt',
+        'binary_data/dev_ditk_format.txt', 'binary_data/test_ditk_format.txt'
+
+    Args:
+        filebase: str in {'train','dev','test'}. Base filename to use for ditk format files
+        token_tag: list of list. inner list is [token_tag]
+
+    Returns:
+        ditk_filename: str, name of the file that was written in ditk format
+    """
+
+    ditk_filename_suffix = '_ditk_format.txt'
+
+    ditk_filename = DATA_PATH_BASE + filebase + ditk_filename_suffix
+
+    prevLineSpace = False
+    with open(ditk_filename,'w') as outFile:
+        outFile.write(DITK_FILE_HEADER)  # add header expected by test format
+        for t in token_tag:
+            if len(t) > 1:
+                outLine = '%s _ _ %s '%(t[0],t[1])+' '.join(['_' for _ in range(11)])+'\n'
+                outFile.write(outLine)
+                prevLineSpace = False
+            else:
+                if prevLineSpace:
+                    continue  # don't write double blank lines
+                outFile.write('\n')
+                prevLineSpace = True
+
+    return ditk_filename
+
+
+
+def convert_conll_to_token_tag(file):
+    """
+    Helper function to convert conll2003 to token_tag format.
+
+    Args:
+        file: str, file location of the file to convert to token_tag format 
+
+    Returns:
+        converted_lines: list of lists. inner list is [token,tag]
+    """
+    with codecs.open(file, mode='r', encoding='utf-8') as f:
+        lines = f.read().splitlines()
+    converted_lines = []
+    for line in lines:
+        if len(line.strip()) > 0:
+            if '-DOCSTART-' in line:
+                continue
+            data = line.split()
+            token = data[0]
+            tag = data[3]
+            if tag.startswith('B') or tag.startswith('I'):
+                tag = str(1)
+            converted_line = [token,tag]
+            converted_lines.append(converted_line)
+        else:
+            converted_lines.append(line)
+
+    return converted_lines
+
+
+
+def convert_dataset_conll_to_train_format(file_dict):
+    """
+    Helper function to convert from conll2003 format to format required by drtrnn methods.
+
+    Args:
+        file_dict: dictionary
+            {
+                "train": dict, {key="file description":value="file location"},
+                "dev" : dict, {key="file description":value="file location"},
+                "test" : dict, {key="file description":value="file location"},
+            }
+        PRECONDITION: 'file description' expected to be str in set {'data',...}
+
+    Returns:
+        data_dict: dictionary
+            {
+                'train': list of lists.
+                'dev': list of lists.
+                'test': list of lists.
+            }
+        NOTE: list of list. inner list is [token,tag]
+
+    Raises:
+        None
+    """
+    # IMPLEMENT convert dataInstance to data
+
+    train_file_location,dev_file_location,test_file_location = extract_file_locations(file_dict)
+
+    ditk_train = convert_conll_to_token_tag(train_file_location)
+    ditk_dev = convert_conll_to_token_tag(dev_file_location)
+    ditk_test = convert_conll_to_token_tag(test_file_location)
+
+
+    filebase_ditk_train = 'train'
+    filebase_ditk_dev = 'dev'
+    filebase_ditk_test = 'test'
+
+    filename_ditk_train = convert_token_tag_to_ditk_format(filebase_ditk_train,ditk_train)
+    filename_ditk_dev = convert_token_tag_to_ditk_format(filebase_ditk_dev,ditk_dev)
+    filename_ditk_test = convert_token_tag_to_ditk_format(filebase_ditk_test,ditk_test)
+
+    data_train = ditk_to_drtrnn_format(filename_ditk_train,'train')
+    data_dev = ditk_to_drtrnn_format(filename_ditk_dev,'dev')
+    data_test = ditk_to_drtrnn_format(filename_ditk_test,'test')
+
+    data_dict = {'train':data_train,'dev':data_dev,'test':data_test}
+
+    return data_dict
+
 
 def copy_predictions_to_predictions_with_header(raw_predictions_filename='predictions.txt'):
     """
@@ -151,12 +274,37 @@ def copy_predictions_to_predictions_with_header(raw_predictions_filename='predic
     finalPredictionsFileName = 'predictions_withHeader.txt'
 
     with open(finalPredictionsFileName,'w') as outFile:
-        outFile.write('WORD TRUE_LABEL PRED_LABEL\n\n')  # add header expected by test format
+        outFile.write(DITK_FILE_HEADER)  # add header expected by test format
         with open(raw_predictions_filename,'r') as pf:
             for line in pf:
                 outFile.write(line)
 
     return finalPredictionsFileName
+
+
+def load_groundTruth_from_predictions(raw_predictions_filename='predictions.txt'):
+    """
+    Helper function to load groundTruths from predictions file. This function
+    should not be called unless predict() has already completed.
+
+    Args:
+        raw_predictions_filename: str, the filename of the raw predictions
+
+    Returns:
+        groundTruths: list of tuples in same format as output of predict()
+    """
+    groundTruths = []
+    with open(raw_predictions_filename,'r') as inFile:
+        for line in inFile:
+            info = line.split()
+            if len(info) < 3:
+                continue
+            token = info[0].strip()
+            tag = info[1].strip()
+            truth = [None,None,token,tag]
+            groundTruths.append(truth)
+
+    return groundTruths
 
 
 def bio(test_only=False):
@@ -177,8 +325,6 @@ def bio(test_only=False):
         None
     """
 
-    data_path_base = 'binary_data/'
-
     VOCAB_FILE = 'word2vec/vocab.txt'
     unique_words = set()
 
@@ -189,9 +335,9 @@ def bio(test_only=False):
 
     for base in bases:
 
-        fl = data_path_base+base+'.txt'  #"test.txt"
-        if not (base+'.txt' in os.listdir(data_path_base)):
-            print(os.listdir(data_path_base))
+        fl = DATA_PATH_BASE+base+'.txt'  #"test.txt"
+        if not (base+'.txt' in os.listdir(DATA_PATH_BASE)):
+            print(os.listdir(DATA_PATH_BASE))
             if base == 'train':  # at a minimum, we MUST have train
                 print('Error on train(). Training file does not exist. Exiting now.')
                 sys.exit()
@@ -242,8 +388,8 @@ def bio(test_only=False):
                     tag.append("O")
             tag_list.append(tag)
 
-        g = open(data_path_base+base+"_words.txt", "w")
-        h = open(data_path_base+base+"_tags.txt", "w")
+        g = open(DATA_PATH_BASE+base+"_words.txt", "w")
+        h = open(DATA_PATH_BASE+base+"_tags.txt", "w")
         for i in xrange(len(sents)):
             if not (len(sents[i])==len(tag_list[i])):
                 print 'do a concern'  # TEMPORARY

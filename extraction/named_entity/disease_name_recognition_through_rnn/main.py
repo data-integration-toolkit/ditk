@@ -1,5 +1,6 @@
 
-from drtrnn_utils import copy_predictions_to_predictions_with_header 
+import sys
+from drtrnn_utils import copy_predictions_to_predictions_with_header, load_groundTruth_from_predictions
 
 from disease_name_recognition_through_rnn import disease_name_recognition_through_rnn
 
@@ -8,19 +9,36 @@ def main(inputFilePath):
     #instantiate a model!
 
     # test params:
-    test_params = {'n_iter':501,'m_report':100,'save_checkpoint_files':False}
+    test_params = {'n_iter':50001,'m_report':100000,'save_checkpoint_models':False}
     drtrnn = disease_name_recognition_through_rnn(**test_params)
-
-    # print('input file: %s'%inputFilePath)
-
-    # print(type(myModel))
 
     # convert dataset to properformat used by training
     # 1] read_dataset()
-    file_dict = {'train':{'data':inputFilePath},'dev':{},'test':{}}
+
+    # test unittest...good!
     dataset_name = 'unittest'
+    file_dict = {'train':{'data':inputFilePath},'dev':{},'test':{}}
+
+    # # test conll2003...good!
+    # dataset_name = 'CoNLL_2003'
+    # # conll_dir = '/Users/olderhorselover/USC/spring2019/csci_548_diotw/project/groupedProject/conll2003_corpus/smol/'  # smol sample
+    # conll_dir = '/Users/olderhorselover/USC/spring2019/csci_548_diotw/project/groupedProject/conll2003_corpus/'
+    # raw_conll2003_train_file = conll_dir + 'train.txt'
+    # raw_conll2003_dev_file = conll_dir + 'dev.txt'
+    # raw_conll2003_test_file = conll_dir + 'test.txt'
+    # file_dict = {'train':{'data':raw_conll2003_train_file},'dev':{'data':raw_conll2003_dev_file},'test':{'data':raw_conll2003_test_file}}
+
+    # # test ontoNotes5.0
+    # dataset_name = 'OntoNotes_5p0'
+    # # conll_dir = '/Users/olderhorselover/USC/spring2019/csci_548_diotw/project/groupedProject/ontoNotes5_corpus/OntoNotes-5.0-NER-BIO/smol'  # smol sample
+    # conll_dir = '/Users/olderhorselover/USC/spring2019/csci_548_diotw/project/groupedProject/ontoNotes5_corpus/OntoNotes-5.0-NER-BIO/'
+    # raw_conll2003_train_file = conll_dir + 'train.txt'
+    # raw_conll2003_dev_file = conll_dir + 'dev.txt'
+    # raw_conll2003_test_file = conll_dir + 'test.txt'
+    # file_dict = {'train':{'data':raw_conll2003_train_file},'dev':{'data':raw_conll2003_dev_file},'test':{'data':raw_conll2003_test_file}}
+
+    
     data = drtrnn.read_dataset(file_dict, dataset_name)  # data read, converted, and written to files in proper location expected by train
-    # 2] intermediate step, generate *_tags files, *_words files, vocab file
 
     # train model
     #data = []  # implementation
@@ -29,12 +47,22 @@ def main(inputFilePath):
 
     # predict using trained model
     data_test = data['test']
-    drtrnn.predict(data_test)  # test passing actual data [empty also works]
+    predictions = drtrnn.predict(data_test)  # test passing actual data [empty also works]
+    print(len(predictions))
 
     
     outputPredictionsFile = 'predictions.txt'
     finalOutputFile = copy_predictions_to_predictions_with_header(raw_predictions_filename=outputPredictionsFile)
     
+    # read from predictions file for evaluate
+    evaluation_results = drtrnn.evaluate(None,None)
+
+    # use direct data for evaluate
+    # groundTruths = load_groundTruth_from_predictions(raw_predictions_filename=outputPredictionsFile)
+    # evaluation_results = drtrnn.evaluate(predictions,groundTruths)
+
+    print('%s'%str(evaluation_results))
+
     return finalOutputFile  # NOT FULLY IMPLEMENTED
 
 

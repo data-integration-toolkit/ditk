@@ -136,25 +136,25 @@ class disease_name_recognition_through_rnn(Ner):
 #   train(), pass this data and skip the paper's portion of reading the dataset
 # EITHER WAY we need to write a conversion helper function to convert the data to the proper format
 
-    def convert_dataset_conll_to_train_format(self, dataInstance, mode):
-        """
-        Converts a single data instance from read dataset_01 to format required by paper implementation.
+    # def convert_dataset_conll_to_train_format(self, dataInstance, mode):
+    #     """
+    #     Converts a single data instance from read dataset_01 to format required by paper implementation.
 
-        Args:
-            dataInstance: str, a single line from the raw input data for dataset_01
-            mode: str, if 'write', convert to proper str format. Else assume 'persist'
+    #     Args:
+    #         dataInstance: str, a single line from the raw input data for dataset_01
+    #         mode: str, if 'write', convert to proper str format. Else assume 'persist'
 
-        Returns:
-            data: data format required by author implementation and based on mode
+    #     Returns:
+    #         data: data format required by author implementation and based on mode
 
-        Raises:
-            None
-        """
-        # IMPLEMENT convert dataInstance to data
+    #     Raises:
+    #         None
+    #     """
+    #     # IMPLEMENT convert dataInstance to data
 
-        if mode == 'write':
-            data = str(data)+'\n'
-        return data
+    #     if mode == 'write':
+    #         data = str(data)+'\n'
+    #     return data
 
 
     def convert_dataset_ontoNotes_to_train_format(self, dataInstance, mode):
@@ -253,6 +253,9 @@ class disease_name_recognition_through_rnn(Ner):
 # ----------------------------IMPLEMENT PARENT CLASS ABASTRACTMETHODS------------------------------#
     def convert_ground_truth(self, data, *args, **kwargs):  # <--- implemented PER class
         """
+        DEPRECATED. NO LONGER IN USE. USE dutil.load_groundTruth_from_predictions()
+
+
         Converts test data into common format for evaluation [i.e. same format as predict()]
         This added step/layer of abstraction is required due to the refactoring of read_dataset_traint()
         and read_dataset_test() back to the single method of read_dataset() along with the requirement on
@@ -274,7 +277,7 @@ class disease_name_recognition_through_rnn(Ner):
         """
         # IMPLEMENT CONVERSION. STRICT OUTPUT FORMAT REQUIRED.
 
-        # return ground_truth
+        return
 
 
     def read_dataset(self, file_dict, dataset_name, *args, **kwargs):  # <--- implemented PER class
@@ -292,6 +295,9 @@ class disease_name_recognition_through_rnn(Ner):
 
             dataset_name: str
                 Name of the dataset required for calling appropriate utils, converters
+                    must be in {'CoNLL_2003','OntoNotes_5p0','CHEMDNER','unittest','ditk'}
+                    If other datasets are required, suggest writing your own converter to 
+                    ditk format and use 'ditk' [note, example ditk format found in test/sample_input.txt]
         
         Returns:
             data_dict: dictionary
@@ -307,7 +313,7 @@ class disease_name_recognition_through_rnn(Ner):
         """
 
         # benchmark_orig represents dataset authors originally used. NOT common to whole NER group
-        conversionFunctionMapper = {'CoNLL_2003':self.convert_dataset_conll_to_train_format,
+        conversionFunctionMapper = {'CoNLL_2003':dutil.convert_dataset_conll_to_train_format,
             'OntoNotes_5p0':self.convert_dataset_ontoNotes_to_train_format,
             'CHEMDNER':self.convert_dataset_chemdner_to_train_format,
             'ppim':self.convert_dataset_ppim_to_train_format,
@@ -386,9 +392,8 @@ class disease_name_recognition_through_rnn(Ner):
             NOTE: list of list. inner list is [token,tag]
             NOTE: okay for data to be empty or None. In this case, expect
                 a binary_data/test.txt must exist for proper execution. Also, expect a trained model exists
+            NOTE: if any data samples are single word sentences, they are dropped by paper implementation code
 
-                ***NOT YET IMPLEMENTED --> Note that prediction requires trained model. Precondition that class instance already stores trained model
-                information.
         Returns:
             predictions: [tuple,...], i.e. list of tuples.
                 Each tuple is (start index, span, mention text, mention type)
@@ -428,6 +433,7 @@ class disease_name_recognition_through_rnn(Ner):
             
         g = open(self.prediction_filename,"w+")
                 #TEST DATA
+        predictions = []
         for m in range(testset.tot):
             test_inputs, test_tags = test_sampler.next()        #dev data
             res = self.trained_model.eval_perplexity(test_inputs[0], test_tags[0])
@@ -438,7 +444,9 @@ class disease_name_recognition_through_rnn(Ner):
             vi_pre = np.array(viterbi_pred)
             test_true = list(test_tags[0])
             for k,l,n in zip(vi_pre, test_true, test_inputs[0]):
+                item_predict = [None,None]
                 g.write(self.id2word[n])
+                item_predict.append(self.id2word[n])
                 # print n
                 g.write(" ")
                 if(l == 0):
@@ -448,28 +456,41 @@ class disease_name_recognition_through_rnn(Ner):
                 if(l == 2):
                     g.write("I-Dis")    
                 g.write(" ")
+                mentionType = ''
                 if(k == 0):
                     g.write("O")
+                    mentionType = 'O'
                 if(k == 1):
                     g.write("B-Dis")
+                    mentionType = 'B-Dis'
                 if(k == 2):
                     g.write("I-Dis")
+                    mentionType = 'I-Dis'
+                item_predict.append(mentionType)
+                predictions.append(tuple(item_predict))
                 g.write('\n')
             g.write('\n')           
         g.close()
 
         dutil.copy_predictions_to_predictions_with_header(self.prediction_filename)
 
-        return # predictions
+        return predictions
 
 
     def evaluate(self, predictions, groundTruths, *args,
                       **kwargs):  # <--- common ACROSS ALL classes. Requirement that INPUT format uses output from predict()!
         """
         Calculates evaluation metrics on chosen benchmark dataset [Precision,Recall,F1, or others...]
+
+        NOTE:
+            Empty arrays or None for preconditions and groundTruths will assume a 'predictions.txt' file
+            exists, and that file will be used for evaluation data! This is preferred
         Args:
-            predictions: [tuple,...], list of tuples [same format as output from predict]
-            groundTruths: [tuple,...], list of tuples representing ground truth.
+            predictions: [tuple,...], list of tuples [same format as output from predict]. Or None.
+            groundTruths: [tuple,...], list of tuples representing ground truth. Or None
+                PRECONDITION: parallel arrays predictions and groundTruths. must be same length and
+                    each element must correspond to the same item [i.e. token]. If this is not the case,
+                    evaluation will not be accurate.
         Returns:
             metrics: tuple with (p,r,f1). Each element is float.
         Raises:
@@ -481,6 +502,99 @@ class disease_name_recognition_through_rnn(Ner):
         # calculate Precision = tp/(tp+fp)
         # calculate Recall = tp/(tp+fn)
         # calculate F1 using precision and recall
+        assume_predictions_file = False
+        if not predictions:  # predictions is empty or None
+            assume_predictions_file = True
+        if not groundTruths:  # groundTruths is empty or None
+            assume_predictions_file = True
+
+        truths = []
+        preds = []
+        if assume_predictions_file:
+            #load predictions data
+            filedata = np.genfromtxt(self.prediction_filename,delimiter=' ',dtype=str,comments=None)
+            truths = filedata[:,1]
+            preds = filedata[:,2]
+        else:
+            preds = np.asarray([item[-1] for item in predictions],dtype=str)
+            truths = np.asarray([item[-1] for item in groundTruths],dtype=str)
+
+        # build list of tuples with (idx_start,idx_end)
+        truth_entities = set()
+        startIdx = None
+        endIdx = None
+        is_entity = False
+        for idx in range(len(truths)):
+            if truths[idx]=='B-Dis':
+                is_entity = True
+                startIdx = idx
+                endIdx = idx
+                continue
+            if is_entity:
+                if truths[idx]=='B-Dis':  # corner case...B-Dis followed by B-Dis
+                    truth_entities.add(tuple([startIdx,endIdx]))
+                    startIdx = idx
+                    endIdx = idx
+                    #still keep is_entity
+                    continue
+                if truths[idx]=='I-Dis':
+                    endIdx = idx
+                    #still keep is_entity
+                    continue
+                if truths[idx]=='O':  # no longer an entity
+                    truth_entities.add(tuple([startIdx,endIdx]))
+                    startIdx = None
+                    endIdx = None
+                    is_entity = False
+                    continue
+        # build list of tuples with (idx_start,idx_end)
+        pred_entities = set()
+        startIdx = None
+        endIdx = None
+        is_entity = False
+        for idx in range(len(preds)):
+            if preds[idx]=='B-Dis':
+                is_entity = True
+                startIdx = idx
+                endIdx = idx
+                continue
+            if is_entity:
+                if preds[idx]=='B-Dis':  # corner case...B-Dis followed by B-Dis
+                    pred_entities.add(tuple([startIdx,endIdx]))
+                    startIdx = idx
+                    endIdx = idx
+                    #still keep is_entity
+                    continue
+                if preds[idx]=='I-Dis':
+                    endIdx = idx
+                    #still keep is_entity
+                    continue
+                if preds[idx]=='O':  # no longer an entity
+                    pred_entities.add(tuple([startIdx,endIdx]))
+                    startIdx = None
+                    endIdx = None
+                    is_entity = False
+                    continue
+
+        # get tp
+        tp = float(len(truth_entities.intersection(pred_entities)))
+        print 'tp', tp
+
+        # get fp
+        fp = float(len(pred_entities.difference(truth_entities)))
+        print 'fp', fp
+
+        # get fn
+        fn = float(len(truth_entities.difference(pred_entities)))
+        print 'fn', fn
+
+
+        precision = tp/(tp+fp)
+        recall = tp/(tp+fn)
+        f1 = (2*precision*recall)/(precision+recall)
+
+        print 'final evaluation scores: precision={}, recall={}, f1={}'.format(str(precision),str(recall),str(f1))
+
 
         return (precision, recall, f1)
 
