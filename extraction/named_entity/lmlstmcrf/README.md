@@ -72,3 +72,4 @@ Ontonotes and Chemdner were both trained on a subset of equal size to ConLL 2003
 
 ### Links
 Notebook: https://github.com/twiet/ditk/blob/develop/extraction/named_entity/lmlstmcrf/lmlstmcrf.ipynb
+Video: https://www.youtube.com/watch?v=L63v4sbeS60&feature=youtu.be
