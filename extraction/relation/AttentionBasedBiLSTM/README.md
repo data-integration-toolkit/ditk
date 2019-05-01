@@ -74,28 +74,28 @@ attModel = AttentionBasedBiLstmModel()
 ```
 2.Call read_dataset(input_file_path) on the train file for training the model
 ```python
-input_file_path = "./data/train.txt"
+input_file_path = "../data/train.txt"
 common_format_data = attModel.read_dataset(input_file_path)
 ```
 
-3.Train Model using .train() , Contains required & optional fields check [notebook]()
+3.Train Model using .train() , Contains required & optional fields check [notebook](./JupyterNotebook/AttentionBasedModel.ipynb)
 
 ```python
-attModel.train(common_format_data,embedding_path ="./res/glove.6B.100d.txt")
+attModel.train(common_format_data,embedding_path ="../res/glove.6B.100d.txt")
 ```
 
 4.Evaluate Model using .evaluate() , Contains checkpoint_dir as a required field (For Loading Model)
 
 ```python 
 test_common_format_data = attModel.read_dataset(test_file_path)
-attModel.evaluate(test_common_format_data,checkpoint_dir = "./runs/models/checkpoints")
+attModel.evaluate(test_common_format_data,checkpoint_dir = "../runs/models/checkpoints")
 ```
 
 5.Predict using Model using .predict() ,Contains checkpoint_dir as a required field (For Loading Model)
 
 ```python 
 predict_data = attModel.read_dataset(predict_data_path)
-predictions,output_file_path = attModel.predict(predict_data,checkpoint_dir = "./runs/models/checkpoints")
+predictions,output_file_path = attModel.predict(predict_data,checkpoint_dir = "../runs/models/checkpoints")
 ```
 6.Save Model using .save_model(). Give path of dir to save model
 ```python 
