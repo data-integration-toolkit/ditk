@@ -1,6 +1,6 @@
 # GAE
 
-This is an implementation of the paper "Modeling Relational Data with Graph Convolutional Networks"
+This is an implementation of the paper "Modeling Relational Data with Graph Convolutional Networks". This paper introduces Relational Graph Convolutional Networks (R-GCNs) and applies them to a standard knowledge base completion task: Link prediction.
 
 ## Installation
 
@@ -18,7 +18,7 @@ Hence cannot use the the test sample as given common to the group.
 ## Run
 
 Since this has multiple python files, main.py has been created as mentioned. 
-This file is the child class of the common parent class for the group. It inherits all the methods and implements them.
+This file is the child class of the common parent class for the group. It inherits all the methods and implements them. The model created is a optimised version of GCN model trained on the data. This model applied on the test given a complete graph.
 
 To run main.py, the input data gets picked from the test folder. 
 The model created gets saved temporarily in a varibale and is used to predict the test data.
