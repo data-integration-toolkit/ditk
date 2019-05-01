@@ -53,11 +53,12 @@ Step 6: Steps 2 through 4 are repeated for a number of cycles, with the imputati
 **Mice technique is beneficial, since it performs imputation on variable-by-variable basis. Thus, different imputation models can be specified for different variables.**
 
 ### - Input and Output for Prediction and Training:
-- Takes **input** as path to the gold numeric relation in csv format and introduces missingness in the dataset(20%). The algorithm is then run on this missing data.
+
+- Takes **input** as path to the gold numeric relation (without headers) in csv format. 
 
 - **Output** is the complete relation with predicted values in a newly created csv file.
 
-- Gold dataset is used in order to evaluate the **performance of this algorithm by rmse value.**
+- Gold dataset is used in order to evaluate the **performance of this algorithm by rmse value.** The algorithm introduces missingness in the input dataset(20%) and is then run on this missing data.
 
 **Sample Input and Output files have been included in mice/tests folder.**
 
@@ -96,8 +97,10 @@ https://www.youtube.com/watch?v=xdDmjjc8S-w&feature=youtu.be
 
 - Follow the Jupyter Notebook closely for demo on commands in main.py.
 
-- Clone the repository (imputation folder)
+- Clone the repository.
 
-- To run main.py under mice/src, place your input file (gold numeric dataset only) in mice/src/input_output_generation folder with name as imputation_mice_input.csv
+- Place your input file (gold numeric dataset only) in mice/src/input_output_generation folder with name as imputation_mice_input.csv
+
+- Then go to the path for mice/src folder and run main.py.
 
 - Output with predicted values in a new csv will be produced under mice/src/input_output_generation folder with name as imputation_mice_output.csv
