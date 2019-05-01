@@ -49,6 +49,14 @@ Run the main.py file
 
 (For variable fileName, provide the particular dataset you would like to run)
 
+## Jupyter Notebook
+
+ditk/data_cleaning/imputation/HMF_Util/nmf_np_refactored_jupyter.ipynb
+
+## Video
+
+https://www.youtube.com/watch?v=A6T8_hWEiKI&t=117s 
+
 ## Citation
 > Thomas Brouwer and Pietro Lió (2017). Bayesian Hybrid Matrix Factorisation for Data Integration. Proceedings of the 20th International Conference on Artificial Intelligence and Statistics (AISTATS 2017).
 ```
