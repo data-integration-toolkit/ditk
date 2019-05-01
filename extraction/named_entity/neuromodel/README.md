@@ -1,5 +1,14 @@
 # **NeuroNER_BIO**
 
+##**Some explanations**
+In my notebook file, I didn't go through the whole experiment process by using my own module because for one thing, the original NeuroNER code is very complex and twisted, so I didn't aggregrate the original functions into my reading, training, predicting, evaluating functions. 
+
+Actually the original repository is very unreliable and contains many bugs, it is also renewing since first created. So I have already spent much time on debugging and experimenting. It's really not easy to run the whole system successfully and get the experiment results. With the final exam approaching, I can't afford the time spent on debugging and testing on my own module class.
+
+For another thing, the original project has already created a class named `NeuroNER`, which the author has already aggregrated the loading, fitting, predicting functions, so I think this can also meet the requirement, to some extent.
+
+So I write elaborative description about how to run the system by command line and invoking the original main() function, hopefully this works, too.
+
 ##**Paper Title**
 Transfer Learning for Biomedical Named Entity Recognition with Neural Networks
 
@@ -90,7 +99,7 @@ Evaluation metrics and results on general benchmarks without transfer learning:
 
 ##**Demo**
 Link to the Jupyter Notebook:
-
+[Jupyter](extraction/named_entity/neuromodel/Whole_process_NeuroNER.ipynb)
 
 Link to the video on Youtube:
 
