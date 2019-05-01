@@ -23,58 +23,68 @@ A Python and Tensorflow implementation used in this model:
 
 - The TransE model provided in this repository contains functions to read a training file as input, to learn embeddings of the inputs, and to preform evaluations on the embeddings. 
 
+## Benchmarks
+
+- WN18 - WordNet dataset in format of <head_entity, tail_entity, relation>
+- FB15k - FreeBase dataset of size 15k in format of <head_entity, tail_entity, relation>
+- YAGO - original dataset in format of <head_id, relation_id, tail_id>, cleaned to format <head_entity, tail_entity, relation> for this model to use.
+
 ## Input and Output
 
-Input for embedding:
+- Input for embedding:
 
-​	Files:
+  - Files:
 
-   - train.txt (in the format of <head_entity, tail_entity, relation>)
+    - train.txt (in the format of <head_entity, tail_entity, relation>)
 
-   - test.txt (can be split from train.txt)
+    - test.txt (can be split from train.txt)
 
-   - valid.txt (can be split from train.txt)
+    - valid.txt (can be split from train.txt)
 
-   - entity2id.txt (<entity_name, eneity_id>)
+    - entity2id.txt (<entity_name, eneity_id>)
 
-   - relation2id.txt (<relation_name, relation_id>)
+    - relation2id.txt (<relation_name, relation_id>)
 
-     *entity2id.txt  and relation2id.txt can be generated from train.txt by assigning each entity and relationship a unique id.
+      *entity2id.txt  and relation2id.txt can be generated from train.txt by assigning each entity and relationship a unique id.
 
-​	Parameters:
+  - Parameters:
 
-- input_folder : containing all the input files
-- dimension: dimension to embed each entity and relationship to
-- marginal_value: goal value to stop iteration
-- batch_size: batch size for gradient descent
-- max_epoch: max number of iterations
+    - input_folder : containing all the input files
+    - dimension: dimension to embed each entity and relationship to
+    - marginal_value: goal value to stop iteration
+    - batch_size: batch size for gradient descent
+    - max_epoch: max number of iterations
 
 
 
-Output:
+- Output:
+  - embedded_entity.txt (in format <entity_name: embedding>)
+  - embedded_relation.txt(in format <relation_name: embedding>)
 
-Files:
+## About this repository
 
-- embedded_entity.txt (in format <entity_name: embedding>)
-- embedded_relation.txt(in format <relation_name: embedding>)
+- Main.py
+  - run main.py to see what this embedding model does
+  - It will embed the data in <i> ./data/YAGO</i> with <i>dimension=300, marginal_value=1.0, batch_size=4800, max_epoch=3</i>
+  - Outputs of embeddings are <i>output_embedded_entity.out</i> and  <i>output_embedded_relations.out</i> 
+  - <i>output_entity_dict.txt</i> shows original entity along with its imbedded vector space representation.
+  - Evaluation shows MearnRank and Hits@10
+- Tests
+  - <i>test_transE.py</i> in the <i>tests</i> folder preform unit tests on the refactorized model. It ensures the returning type and dimensions of the output.
+  - It preforms tests on YAGO benchmark
+- Jupyter Notebook:
+  - https://github.com/sandiexie-USC/ditk/blob/develop/graph/embedding/TransE/TransE.ipynb
+  - This Jupyter Notebook is a notebook format similar to main.py, providing visualization of each step.
 
 ## Evaluation
 
-- Benchmark datasets:
+|       | epoch | MeanRank | Hits@10 |
+| ----- | ----- | -------- | ------- |
+| WN18  | 1000  | 243      | 79.9    |
+| FB15k | 1000  | 546      | 36.8    |
+| YAGO  | 1000  | 5786     | 0.001   |
 
-  - WN18 - WordNet dataset in format of <head_entity, tail_entity, relation>
 
-  - FB15k - FreeBase dataset of size 15k in format of <head_entity, tail_entity, relation>
-
-  - YAGO - original dataset in format of <head_id, relation_id, tail_id>, cleaned to format <head_entity, tail_entity, relation> for this model to use.
-
-    |       | epoch | MeanRank | Hits@10 |
-    | ----- | ----- | -------- | ------- |
-    | WN18  | 1000  | 243      | 79.9    |
-    | FB15k | 1000  | 546      | 36.8    |
-    | YAGO  | 1000  | 5786     | 0.001   |
-
-    
 
 ## Demo
 
