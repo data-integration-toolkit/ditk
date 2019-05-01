@@ -40,7 +40,7 @@ class NeuralSequenceLabeler(Ner,BaseModel):
 		try:
 			for split in standard_split:
 				file = file_dict[split]
-				print ("split",file)
+				# print ("split",file)
 				with open(file, mode='r', encoding='utf-8') as f:
 					raw_data = f.read().splitlines()
 				for i, line in enumerate(raw_data):
@@ -53,41 +53,14 @@ class NeuralSequenceLabeler(Ner,BaseModel):
 			raise ValueError("Invalid file_dict. Standard keys (train, test, dev)")
 		except Exception as e:
 			print('Something went wrong.', e)
-		print("inside read_dataset")
+		# print("inside read_dataset")
 		print("train",len(data["train"]))
 		print("dev",len(data["dev"]))
 		print("test",len(data["test"]))
 		return data
 
 
-	# def read_dataset(self, file_dict, dataset_name,max_sentence_length=-1):
-	# 	dataset = dict()
-	# 	for dataset_type,file_paths in file_dict.items():
-	# 		sentences = []
-	# 		line_length = None
-	# 		for file_path in file_paths.strip().split(","):
-	# 			with open(file_path, "r") as f:
-	# 				sentence = []
-	# 				for line in f:
-	# 					line = line.strip()
-	# 					if len(line) > 0:
-	# 						line_parts = line.split()
-
-
-	# 						assert(len(line_parts) >= 2)
-	# 						assert(len(line_parts) == line_length or line_length == None)
-	# 						line_length = len(line_parts)
-	# 						sentence.append(line_parts)
-	# 					elif len(line) == 0 and len(sentence) > 0:
-	# 						if max_sentence_length <= 0 or len(sentence) <= max_sentence_length:
-	# 							sentences.append(sentence)
-	# 						sentence = []
-	# 				if len(sentence) > 0:
-	# 					if max_sentence_length <= 0 or len(sentence) <= max_sentence_length:
-	# 						sentences.append(sentence)
-	# 		dataset[dataset_type] = sentences
-	# 	return dataset
-
+	
 	def read_dataset_helper(self, file_dict, dataset_name):
 		dataset = dict()
 		print(len(file_dict['train']))
@@ -154,21 +127,21 @@ class NeuralSequenceLabeler(Ner,BaseModel):
 				self.word_embeddings = tf.Variable(np.load(self.cfg["pretrained_emb"])["embeddings"], name="emb",
 												   dtype=tf.float32, trainable=self.cfg["tuning_emb"])
 			word_emb = tf.nn.embedding_lookup(self.word_embeddings, self.words, name="word_emb")
-			print("word embedding shape: {}".format(word_emb.get_shape().as_list()))
+			# print("word embedding shape: {}".format(word_emb.get_shape().as_list()))
 			if self.cfg["use_chars"]:
 				self.char_embeddings = tf.get_variable(name="c_emb", dtype=tf.float32, trainable=True,
 													   shape=[self.char_vocab_size, self.cfg["char_emb_dim"]])
 				char_emb = tf.nn.embedding_lookup(self.char_embeddings, self.chars, name="chars_emb")
 				char_represent = multi_conv1d(char_emb, self.cfg["filter_sizes"], self.cfg["channel_sizes"],
 											  drop_rate=self.drop_rate, is_train=self.is_train)
-				print("chars representation shape: {}".format(char_represent.get_shape().as_list()))
+				# print("chars representation shape: {}".format(char_represent.get_shape().as_list()))
 				word_emb = tf.concat([word_emb, char_represent], axis=-1)
 			if self.cfg["use_highway"]:
 				self.word_emb = highway_network(word_emb, self.cfg["highway_layers"], use_bias=True, bias_init=0.0,
 												keep_prob=self.keep_prob, is_train=self.is_train)
 			else:
 				self.word_emb = tf.layers.dropout(word_emb, rate=self.drop_rate, training=self.is_train)
-			print("word and chars concatenation shape: {}".format(self.word_emb.get_shape().as_list()))
+			# print("word and chars concatenation shape: {}".format(self.word_emb.get_shape().as_list()))
 
 	def _build_model_op(self):
 		with tf.variable_scope("bi_directional_rnn"):
@@ -186,7 +159,7 @@ class NeuralSequenceLabeler(Ner,BaseModel):
 				word_project = tf.layers.dense(self.word_emb, units=2 * self.cfg["num_units"], use_bias=False)
 				rnn_outs = rnn_outs + word_project
 			outputs = layer_normalize(rnn_outs) if self.cfg["use_layer_norm"] else rnn_outs
-			print("rnn output shape: {}".format(outputs.get_shape().as_list()))
+			# print("rnn output shape: {}".format(outputs.get_shape().as_list()))
 
 		if self.cfg["use_attention"] == "self_attention":
 			with tf.variable_scope("self_attention"):
@@ -210,7 +183,7 @@ class NeuralSequenceLabeler(Ner,BaseModel):
 
 		with tf.variable_scope("project"):
 			self.logits = tf.layers.dense(outputs, units=self.tag_vocab_size, use_bias=True)
-			print("logits shape: {}".format(self.logits.get_shape().as_list()))
+			# print("logits shape: {}".format(self.logits.get_shape().as_list()))
 
 	def train_epoch(self, train_set, valid_data, epoch):	
 		num_batches = len(train_set)
@@ -294,11 +267,7 @@ class NeuralSequenceLabeler(Ner,BaseModel):
 				predictions.append(preds)
 				groundtruth.append(tags)
 				words_list.append(words)
-				# print("@"*100)
-				# print(preds)
-				# print(tags)
-				# print(words)
-		# print("groundtruth len",len(groundtruth)," ", predictions[0]," ",groundtruth[0])
+				
 
 
 		return predictions, groundtruth,words_list, save_path,name
@@ -319,11 +288,7 @@ class NeuralSequenceLabeler(Ner,BaseModel):
 				predictions.append(preds)
 				groundtruth.append(tags)
 				words_list.append(words)
-				# print("@"*100)
-				# print(preds)
-				# print(tags)
-				# print(words)
-		# print("groundtruth len",len(groundtruth)," ", predictions[0]," ",groundtruth[0])
+				
 		total_results = []
 		for i in range(len(groundtruth)):
 			result = []
@@ -354,7 +319,7 @@ def main(input_file = ""):
 
 	config = parseconfig.parseConfig()
 	if input_file == "":
-		file_dict = {"train":os.path.join(config["raw_path"], "train1.txt"),"dev":os.path.join(config["raw_path"], "valid1.txt"),"test":os.path.join(config["raw_path"], "test1.txt")}
+		file_dict = {"train":os.path.join(config["raw_path"], "train.txt"),"dev":os.path.join(config["raw_path"], "valid.txt"),"test":os.path.join(config["raw_path"], "test.txt")}
 	else:
 		file_dict =  { "train": input_file , "dev" :input_file , "test" : input_file}
 	# file_dict = {"train":os.path.join(config["raw_path"], "train1.txt"),"dev":os.path.join(config["raw_path"], "valid1.txt"),"test":os.path.join(config["raw_path"], "test1.txt")}
@@ -377,19 +342,9 @@ def main(input_file = ""):
 
 	dataset = neuralSequenceLabeler.read_dataset_helper(file_dict,"conll2012")
 	neuralSequenceLabeler.train(dataset["train_set"],dataset["dev_data"],dataset["dev_set"],dataset["test_set"])
-	# predictions = neuralSequenceLabeler.predict(dataset["test_set"])
-
-	# print(predictions[0])
-	# predictions, groundtruth,words_list, save_path,name = neuralSequenceLabeler.predict_helper(dataset["test_set"],"test")
-	#
-	#
-	# print(predictions[10])
-	#
-	# print("\n\n#####")
-	# print(groundtruth[10])
+	
 	predictions_formatted = neuralSequenceLabeler.predict(dataset["test_set"],"test")
-	# print("main results")
-	# 
+	
 
 	predictions = []
 	groundTruths = []
@@ -399,16 +354,13 @@ def main(input_file = ""):
 		groundTruths_sentence = []
 		words_list_sentence = []
 		for j in range(len(predictions_formatted[i])):
-			# print(dataset["test_set"][i]["tags"])
-			# print(len(dataset["test_set"][i]["tags"])," length of tags  ")
-			# print("j is : ",j)
+			
 			words_list_sentence.append(predictions_formatted[i][j][2])
-			# groundTruths_sentence.append(dataset["test_set"][i]["tags"][j])
-			# groundTruths_sentence.append(predictions_formatted[i][j][1])
+			
+
 			predictions_sentence.append(predictions_formatted[i][j][3])
 
 		predictions.append(predictions_sentence)
-		# groundTruths.append(groundTruths_sentence)
 		words_list.append(words_list_sentence)
 	for data in dataset["test_set"]:
 		for tags,  seq_len in zip(data["tags"], data["seq_len"]):
