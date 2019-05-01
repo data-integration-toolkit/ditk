@@ -8,10 +8,10 @@ Thien Huu Nguyen and Ralph Grishman, Relation Extraction: Perspective from Convo
 	<img width="700" height="400" src="https://user-images.githubusercontent.com/15166794/32838125-475cbdba-ca53-11e7-929c-2e27f1aca180.png">
 </p>
 
-###Original Code
+### Original Code
 https://github.com/roomylee/cnn-relation-extraction
 
-###Description
+### Description
 We present a CNN for relation extraction that emphasizes an unbalanced corpus and minimizes usage of external supervised NLP toolkits for features.
 The network uses multiple window sizes for filters,
 position embeddings for encoding relative distances
@@ -23,7 +23,7 @@ in a non-static architecture.
 * Tensorflow >= 1.6
 * Numpy
 
-###Input and Output
+### Input and Output
 * For Training-
 
     Input is a sentence or a file annotated with entities and their positions.
