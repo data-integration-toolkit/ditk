@@ -126,7 +126,7 @@ class Sequence_labeler(Ner):
 		except Exception as e:
 			print('Something went wrong.', e)
 
-		print("inside read_dataset")
+		# print("inside read_dataset")
 		print("train",len(data["train"]))
 		print("dev",len(data["dev"]))
 		print("test",len(data["test"]))
@@ -177,7 +177,7 @@ class Sequence_labeler(Ner):
 
 
 	def build_vocabs(self, data_train, data_dev, data_test, embedding_path=None):
-		print("\n\n in build vocab  ")
+		# print("\n\n in build vocab  ")
 		data_source = list(data_train)
 		if self.config["vocab_include_devtest"]:
 			if data_dev != None:
@@ -216,7 +216,7 @@ class Sequence_labeler(Ner):
 			for word in sentence:
 				# label_counter[word[-1]] += 1
 				label_counter[word[3]] += 1
-		print(label_counter," label_counter")
+		print("all labels: " ,label_counter)
 		self.label2id = collections.OrderedDict()
 		for label, count in label_counter.most_common():
 			if label not in self.label2id:
@@ -244,11 +244,6 @@ class Sequence_labeler(Ner):
 				if word in embedding_vocab and word not in word2id_revised:
 					word2id_revised[word] = len(word2id_revised)
 			self.word2id = word2id_revised
-
-		print("n_words: " + str(len(self.word2id)))
-		print("n_chars: " + str(len(self.char2id)))
-		print("n_labels: " + str(len(self.label2id)))
-		print("n_singletons: " + str(len(self.singletons)))
 
 
 	def construct_network(self):
@@ -620,7 +615,7 @@ class Sequence_labeler(Ner):
 
 
 	def save_metadata(self, filename):
-		print ("inside save")
+		# print ("inside save")
 		dump = {}
 		dump["config"] = self.config
 		dump["UNK"] = self.UNK
@@ -635,7 +630,7 @@ class Sequence_labeler(Ner):
 		for variable in tf.global_variables():
 			assert(variable.name not in dump["params"]), "Error: variable with this name already exists" + str(variable.name)
 			dump["params"][variable.name] = self.session.run(variable)
-		print(filename)
+		# print(filename)
 		with open(filename, 'wb') as f:
 			pickle.dump(dump, f, protocol=pickle.HIGHEST_PROTOCOL)
 
@@ -708,7 +703,7 @@ class Sequence_labeler(Ner):
 								   or (model_selector_type == "low" and f1 < best_selector_value)):
 						best_epoch = epoch
 						best_selector_value = f1
-						print("saving ",temp_model_path)
+						# print("saving ",temp_model_path)
 						self.save_model(temp_model_path)
 						self.save_metadata('model_pickle.p')
 
@@ -752,33 +747,6 @@ class Sequence_labeler(Ner):
 
 		return results[name+"_p"],results[name+"_r"],results[name+"_f"]
 
-		# return results[name+"_conll_p"],results[name+"_conll_r"],results[name+"_conll_f"]
-
-	# def read_dataset(self, file_dict, dataset_name, max_sentence_length=-1):
-	# 	dataset = dict()
-	# 	for dataset_type,file_paths in file_dict.items():
-	# 		sentences = []
-	# 		line_length = None
-	# 		for file_path in file_paths.strip().split(","):
-	# 			with open(file_path, "r") as f:
-	# 				sentence = []
-	# 				for line in f:
-	# 					line = line.strip()
-	# 					if len(line) > 0:
-	# 						line_parts = line.split()
-	# 						assert(len(line_parts) >= 2)
-	# 						assert(len(line_parts) == line_length or line_length == None)
-	# 						line_length = len(line_parts)
-	# 						sentence.append(line_parts)
-	# 					elif len(line) == 0 and len(sentence) > 0:
-	# 						if max_sentence_length <= 0 or len(sentence) <= max_sentence_length:
-	# 							sentences.append(sentence)
-	# 						sentence = []
-	# 				if len(sentence) > 0:
-	# 					if max_sentence_length <= 0 or len(sentence) <= max_sentence_length:
-	# 						sentences.append(sentence)
-	# 		dataset[dataset_type] = sentences
-	# 	return dataset
 
 	def process_sentences(self, data, is_training, learningrate, config, name):
 		"""
@@ -800,15 +768,7 @@ class Sequence_labeler(Ner):
 			total_predicted_labels.extend(predicted_labels)
 			total_predictions_formatted.extend(result_formatted)
 
-		#     evaluator.append_data(cost, batch, predicted_labels)
-
-		#     word_ids, char_ids, char_mask, label_ids = None, None, None, None
-		#     while config["garbage_collection"] == True and gc.collect() > 0:
-		#         pass
-
-		# results = evaluator.get_results(name)
-		# for key in results:
-		#     print(key + ": " + str(results[key]))
+		
 		return total_cost,total_predicted_labels, total_predicted_probs, total_predictions_formatted
 
 
@@ -836,17 +796,7 @@ def main(input_file = ""):
 	print("dev",len(dataset["dev"]))
 	print("test",len(dataset["test"]))
 	data_train, data_dev, data_test = dataset["train"],dataset["dev"],dataset["test"]
-	# for ind, item in enumerate(data_train):
-	# 	if(len(item) == 0):
-	# 		print(data_train[ind-1])
-	# 		print(data_train[ind+1])
-	# 		lj = lkl
-	# data_train, data_dev, data_test = data_train[:600], data_dev[:100], data_test[:10]
-
-
-	# if config["load_metadata"] != None and len(config["load_metadata"]) > 0 and os.path.exists(config["load_metadata"]):
-		# labeler = labeler.load_metadata(config["load_metadata"])
-	# else:
+	
 
 	labeler.build_vocabs(data_train, data_dev, data_test, config["preload_vectors"])
 	labeler.construct_network()
@@ -885,7 +835,6 @@ def main(input_file = ""):
 		for item in i : 
 			groundTruths_sent.append(item)
 		groundTruths.append(groundTruths_sent)
-	# print(groundTruths[:20])
 
 	with open('result.txt','w',encoding = 'utf-8') as f:
 		for i in range(len(data_test)):
