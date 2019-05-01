@@ -29,10 +29,13 @@ class biocppi_extraction(Ner):
     prediction_filename = 'predictions.txt'
     vocab_cache = data_path_base + 'word_vocab.ner.txt'
     labels = ['B-MISC', 'I-MISC', 'O']
+    model_name = 'saved_model_autumn/'
+    model_name_base = 'model'
 
 # -------------------------------------init FOR MY CLASS------------------------------#
-    def __init__(self,trained_model=None,embeddings_path='embeddings/PubMed-w2v.txt',other_datas={},**kwargs):
-        self.trained_model = trained_model  # nothing to start. filled by train()
+    def __init__(self,trained_model=[],embeddings_path='embeddings/PubMed-w2v.txt',other_datas={},**kwargs):
+        self.trained_model = trained_model  # nothing to start. filled by train(). [] LIST OF MODELS
+        self.cur_model = None  # index to hold a single model at a time
 
         self.embeddings_path = embeddings_path
         self.num_ensembles = 3  # number of full models to train! each model will train for a max of num_iterations
@@ -73,9 +76,6 @@ class biocppi_extraction(Ner):
 
         if self.num_it_per_ckpt > self.num_iterations:
             self.num_it_per_ckpt = int(self.num_iterations/2)  # requirement for num_it_per_ckpt < num_iterations
-
-
-        self.model_save_filename = './model_%s'%(self.num_ensembles-1)
 
         self.other_datas = other_datas  # data structure for special model parameters/extra datas
 
@@ -292,16 +292,24 @@ class biocppi_extraction(Ner):
 
 
         # temp1.model_train(N,M,n_f,n_hidden,model,viterbi,trainer,lr,batch_size,wl,tl,save_checkpoint_models=False)
-        model = model_train(self.num_ensembles,self.data_path_base,self.embeddings_path,self.optimizer,self.batch_size,
+        models = model_train(self.num_ensembles,self.data_path_base,self.embeddings_path,self.optimizer,self.batch_size,
                     self.num_iterations,self.num_it_per_ckpt,self.learning_rate,self.embedding_factor,
-                    self.decay_rate,self.keep_prob,self.num_cores,self.seed)  # train the model!
+                    self.decay_rate,self.keep_prob,self.num_cores,self.seed)  # train the models! plural cuz this code does ensembles
 
-        self.trained_model = model
+        self.trained_model = models
 
-        
-        print('Saving trained model to file: %s'%self.model_save_filename)
-        self.save_model(self.model_save_filename)
+        if len(trained_model) < 1:
+            print('Warning: No trained models to save.')
+            return
 
+        print('Saving trained models to dir: %s'%(self.data_path_base + self.model_name))
+        for i,model in enumerate(self.trained_model):
+            print('Saving model %s'%i)
+            model_save_filename = '%s_%s'(self.model_name_base,i)
+            self.cur_model = model
+            self.save_model(model_save_filename)
+
+        return
         # test loading of trained models only! NOT YET IMPLEMENTED
         self.trained_model = None
         self.load_model(self.model_save_filename)
@@ -539,7 +547,7 @@ class biocppi_extraction(Ner):
         :return:
         """
 
-        self.trained_model.save(file)
+        self.cur_model.save(file)
 
         return
     

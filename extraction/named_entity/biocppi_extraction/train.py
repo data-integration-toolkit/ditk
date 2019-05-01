@@ -38,10 +38,11 @@ import argparse
 # num_ensembles = 10
 
 # def main(args):
-def model_train(num_ensembles,datapath,embeddings_path,optimizer,batch_size,num_iterations,num_it_per_ckpt,learning_rate,embedding_factor,decay_rate,keep_prob,num_cores,seed):
+def model_train(num_ensembles,datapath,model_name,embeddings_path,optimizer,batch_size,num_iterations,num_it_per_ckpt,learning_rate,embedding_factor,decay_rate,keep_prob,num_cores,seed):
     
     # num_ensembles = 10  # number of models to train!
     # datapath = 'corpus_train/'  # data directory
+    # model_name = 'saved_model_autumn'  # name and folder location to save trained models [the ensemble models]
     # embeddings_path = 'embeddings/PubMed-w2v.txt'  # path to embeddings file. expects 200d embeddings. REQUIRED
     # optimizer = 'adam'  # optimizer to use, in 'default, rmsprop, adagrad, adam'. set to adam for now
     # batch_size = 16  # batch size for training
@@ -93,7 +94,7 @@ def model_train(num_ensembles,datapath,embeddings_path,optimizer,batch_size,num_
     
     labels = ['B-MISC','I-MISC','O']
     
-    model_name = 'saved_model_autumn'
+    # model_name = 'saved_model_autumn'
     # if not os.path.exists('{}/scratch'.format(datapath)):
     #     os.mkdir('{}/scratch'.format(datapath))
             
@@ -103,6 +104,7 @@ def model_train(num_ensembles,datapath,embeddings_path,optimizer,batch_size,num_
         
     os.mkdir('{}/{}'.format(datapath,model_name))
     
+    trained_models = []
     for j in range(num_ensembles):
         m = BiLSTM(labels=labels,
                     word_vocab=word_vocab,
@@ -131,11 +133,11 @@ def model_train(num_ensembles,datapath,embeddings_path,optimizer,batch_size,num_
                 batch_size=batch_size,
                 seed=j, fb2=True)
         
-        save_path = '{}/{}/model_{}'.format(datapath,model_name,j)
-        m.save(save_path)
-        print "Saved model {} to {}".format(j,save_path)
-
-    return m
+        # save_path = '{}/{}/model_{}'.format(datapath,model_name,j)
+        # m.save(save_path)
+        # print "Saved model {} to {}".format(j,save_path)
+        trained_models.append(m)
+    return trained_models
 
 def load_embeddings(fname, vocab, dim=200):
     if not os.path.exists('./scratch'):
