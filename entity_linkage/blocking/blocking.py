@@ -1,7 +1,7 @@
 import abc
 
-class Blocking(abc.ABC):
-
+class Blocking(object):
+	__metaclass__ = abc.ABCMeta
 	# Any shared data strcutures or methods should be defined as part of the parent class.
 	
 	# A list of shared arguments should be defined for each of the following methods and replace (or precede) *args.
