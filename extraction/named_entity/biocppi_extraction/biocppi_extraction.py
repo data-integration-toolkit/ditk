@@ -46,6 +46,7 @@ class biocppi_extraction(Ner):
     def __init__(self,trained_model=None,embeddings_path='embeddings/PubMed-w2v.txt',other_datas={},**kwargs):
         self.trained_model = trained_model  # nothing to start. filled by train()
 
+        self.embeddings_path = embeddings_path
         self.num_ensembles = 3  # number of full models to train! each model will train for a max of num_iterations
         self.optimizer = 'adam'  # optimizer to use, in 'default, rmsprop, adagrad, adam'. set to adam for now
         self.batch_size = 16  # batch size for training
