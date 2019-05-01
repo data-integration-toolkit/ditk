@@ -10,9 +10,9 @@ This is an implementation of the paper "Modeling Relational Data with Graph Conv
  scikit-learn,
  scipy
 
-## Dataset
+## Benchmarks
 
-The data set that can be used has been added in the folder test. The test data could not be presented in a text file because it is an adjacency matrix.
+The data set that can be used has been added in the folder test. The test data could not be presented in a text file because it is an adjacency matrix. This code needs 2 adjacency matrices.
 Hence cannot use the the test sample as given common to the group.
 
 ## Run
@@ -27,6 +27,10 @@ The model created gets saved temporarily in a varibale and is used to predict th
 
 This code has not been put in Jupiter notebook because the entire code was originally implemented in python 2 and was run on a specific version of scipy and gensim which are not compatible with jupyter notebook package. So migrating this code to Python 3 was possible, but still there was a version collision of these packages. Hence, was unable to run this on Jupyter notebook.
 
+## Evaluation Metrics
+
+The code has been evaluated with metrics like area under the curve(AUC) and average precision(AP)
+
 ## Citation
 
 if you use the code, please cite:
@@ -40,5 +44,5 @@ if you use the code, please cite:
 }
 ```
 
-## License
-The code is released under BSD 3-Clause License
+## Youtube Link
+https://youtu.be/Lm96cifH-wI
