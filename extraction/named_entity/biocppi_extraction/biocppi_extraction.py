@@ -298,14 +298,14 @@ class biocppi_extraction(Ner):
 
         self.trained_model = models
 
-        if len(trained_model) < 1:
+        if len(self.trained_model) < 1:
             print('Warning: No trained models to save.')
             return
 
         print('Saving trained models to dir: %s'%(self.data_path_base + self.model_name))
         for i,model in enumerate(self.trained_model):
             print('Saving model %s'%i)
-            model_save_filename = '%s_%s'(self.model_name_base,i)
+            model_save_filename = '%s_%s'(self.data_path_base,self.model_name,self.model_name_base,i)
             self.cur_model = model
             self.save_model(model_save_filename)
 
