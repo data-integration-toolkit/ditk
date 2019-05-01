@@ -48,7 +48,7 @@ Knowledge Bases (KBs) require constant updating to reflect changes to the world 
  
 
 ## **Models**
-The generic abstract model is defined in **model.py**. All specific models are implemented in **efe.py**. The default model selected for this code is “Fb15k”.
+The generic abstract model is defined in **model.py**. All specific models are implemented in **efe.py**. The default model selected for this code is **“Fb15k”.**
 
 ## How to run:
 
