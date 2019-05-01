@@ -61,11 +61,7 @@ The following UCI repository datasets have been used:
 
 ## Evaluation Results (RMSE) 
 
-Dataset | GAIN  | DITK/GAIN |
-|-----------| ------------- | ------------- |
-| UCI Breast Cancer Dataset | 0.0546 | 0.212 |
-| UCI Spam Dataset | 0.0513 | 0.0573 | 
-| UCI Letters Dataset | 0.1198 | 0.1249 | 
+![alt text](https://github.com/aru-jo/ditk/blob/develop/data_cleaning/imputation/gain/readme-images/evaluation.png)
 
 ## Helpful demo links
 
