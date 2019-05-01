@@ -3,6 +3,9 @@ import os
 import sys
 import codecs
 
+from nltk.tokenize import wordpunct_tokenize
+from nltk.tokenize import sent_tokenize
+
 DITK_FILE_HEADER = 'WORD TRUE_LABEL PRED_LABEL\n\n'
 DATA_PATH_BASE = 'binary_data/'
 
@@ -89,7 +92,7 @@ def extract_file_locations(file_dict):
         PRECONDITION: 'file description' expected to be str in set {'data',...}
 
     Returns:
-        train_file_location,dev_file_location,test_file_location. all are str
+        train_file_location,dev_file_location,test_file_location,[train_extra_file_location,dev_extra_file_location,test_extra_file_location]. all are str. List can be full of None
 
     Raises:
         None
@@ -104,7 +107,23 @@ def extract_file_locations(file_dict):
     else:
         test_file_location = train_file_location  # no dev data. use train as placeholder
 
-    return train_file_location,dev_file_location,test_file_location
+    # pull extra files, if any
+    train_extra_file_location = None
+    dev_extra_file_location = None
+    test_extra_file_location = None
+    if 'extra' in file_dict['train']:
+        train_extra_file_location = file_dict['train']['extra']
+        # set dev and test to same as train in case no dev or test data available. if it IS, this gets overwritten below
+        dev_extra_file_location = train_extra_file_location
+        test_extra_file_location = train_extra_file_location
+    if file_dict['dev']:
+        if 'extra' in file_dict['dev']:
+            dev_extra_file_location = file_dict['dev']['extra']
+    if file_dict['test']:
+        if 'extra' in file_dict['test']:
+            test_extra_file_location = file_dict['test']['extra']
+
+    return train_file_location,dev_file_location,test_file_location,[train_extra_file_location,dev_extra_file_location,test_extra_file_location]
 
 
 def convert_ditk_to_train_format(file_dict):
@@ -133,7 +152,7 @@ def convert_ditk_to_train_format(file_dict):
     Raises:
         None
     """
-    train_file_location,dev_file_location,test_file_location = extract_file_locations(file_dict)
+    train_file_location,dev_file_location,test_file_location,_ = extract_file_locations(file_dict)
 
     data_train = ditk_to_drtrnn_format(train_file_location,'train')
     data_dev = ditk_to_drtrnn_format(dev_file_location,'dev')
@@ -245,6 +264,159 @@ def convert_ontonotes_to_token_tag(file):
     return converted_lines
 
 
+def convert_chemdner_to_token_tag(abstractsFile,annotationsFile):  # this could be refactored for faster performance and no file i/o...
+    """
+    Helper function to convert CHEMDNER to token_tag format.
+
+    Args:
+        abstractsFile: str, file location of the file to convert to token_tag format. This fikle has
+            the actual text [titles and abstracts by PMID]
+        annotationsFile: str, the annotations provided with the text [named entities]
+
+    Returns:
+        converted_lines: list of lists. inner list is [token,tag]
+    """
+    lines = []
+    # with open('pipeline_feed_'+fileset+'.txt','w') as outFile:  # <----- give this a permanent location on final!
+        # with codecs.open(args.files[0],'r',encoding='utf-8') as f:
+    with open(abstractsFile,'r') as f:
+        for line in f:
+            line=line.strip().strip('\n').strip()
+            if line=='':
+                continue
+            infos = line.split('\t')
+            pmid = infos[0].strip().strip('\n').strip()
+            titleText = infos[1].strip().strip('\n').strip()
+            abstractText = infos[2].strip().strip('\n').strip()
+            outLine = '{}\t###T###{} ###A###{}'.format(pmid,titleText,abstractText)
+            lines.append(outLine.strip().split('\t'))
+
+    outFileName = DATA_PATH_BASE+'tmp.txt'
+    converted_lines = []
+    with open(outFileName,'w') as outFile:
+        for pmid, document in lines:
+            splitted = document.split('###A###')
+
+            titleText = splitted[0].strip().strip('###T###').strip().decode('utf-8')
+            abstractText = splitted[1].strip().strip().decode('utf-8')
+
+            # spans = [ ts for ts in token_spans(document,wordpunct_tokenize) ]
+            # sent_offsets = [ (s[1],s[2]) for s in token_spans(document,sent_tokenize) ]
+
+            spans_title = [ ts for ts in token_spans(titleText,wordpunct_tokenize) ]
+            sent_offsets_title = [ (s[1],s[2]) for s in token_spans(titleText,sent_tokenize) ]
+
+            spans_abstract = [ ts for ts in token_spans(abstractText,wordpunct_tokenize) ]
+            sent_offsets_abstract = [ (s[1],s[2]) for s in token_spans(abstractText,sent_tokenize) ]
+
+            aligned_sentences_title = []
+            for sent0, sent1 in sent_offsets_title:
+                sentence = []
+                for span in spans_title:
+                    (text, start0, end1) = span
+                    if start0 >= sent0 and end1 <= sent1:
+                        text = text+' T:{}:{}'.format(str(start0),str(end1))
+                        sentence.append(text)
+                aligned_sentences_title.append(sentence)
+
+            aligned_sentences_abstract = []
+            for sent0, sent1 in sent_offsets_abstract:
+                sentence = []
+                for span in spans_abstract:
+                    (text, start0, end1) = span
+                    if start0 >= sent0 and end1 <= sent1:
+                        text = text+' A:{}:{}'.format(str(start0),str(end1))
+                        sentence.append(text)
+                aligned_sentences_abstract.append(sentence)
+
+            outFile.write('###' + pmid+'\n')
+            outFile.write('\n')
+            for sentence in aligned_sentences_title:
+                for word in sentence:
+                    # print '{} {}'.format(word,'A')
+                    outLine = word+'\n'
+                    outFile.write(outLine.encode('utf-8'))
+                outFile.write('\n')
+            for sentence in aligned_sentences_abstract:
+                for word in sentence:
+                    # print '{} {}'.format(word,'T')
+                    outLine = word+'\n'
+                    outFile.write(outLine.encode('utf-8'))
+                outFile.write('\n')
+
+    annots = {}  # key=pmid, value=dict{key='T' or 'A', value=[list of tuple(startOffset,endOffset)]}
+    with open(annotationsFile,'r') as f:
+        for line in f:
+            line = line.strip().strip('\n').strip()
+            infos = line.split('\t')
+            pmid = infos[0].strip().strip()
+            ttype = infos[1].strip().strip()
+            if not (ttype in ['T','A']):
+                print 'unknown text type, skipping this annotation'
+                continue
+            startOffset = int(infos[2].strip().strip())
+            endOffset = int(infos[3].strip().strip())
+            if not (pmid in annots):
+                annots[pmid] = {'T':[],'A':[]}
+            annots[pmid][ttype].append(tuple([startOffset,endOffset]))
+
+    converted_lines = []
+    finalOutFileName = DATA_PATH_BASE+'tmp2.txt'
+    with open(finalOutFileName,'w') as outFile:
+        with open(outFileName,'r') as f:
+            for line in f:
+                line = line.strip().strip('\n').strip()
+                if line.startswith('###'):  # no annotatiopn necessary
+                    pmid = line[3:]
+                    outFile.write(line+'\n')
+                    continue
+                if len(line) < 1:
+                    outFile.write('\n')
+                    token_tag = ['']
+                    converted_lines.append(token_tag)
+                    continue
+                #get the proper tag
+                splitted = line.split()
+                token = splitted[0].strip().strip()
+                infos = splitted[1].strip().strip().split(':')
+                ttype = infos[0].strip().strip()
+                startOffset = int(infos[1].strip().strip())
+                endOffset = int(infos[2].strip().strip())
+
+                label = 'O'  #  start with NO label [upper case o]
+                if pmid in annots:
+                    applicableAnnots = annots[pmid][ttype]
+                    if len(applicableAnnots) > 0:
+                        withinBounds = [((startOffset>=bounds[0]) and (startOffset<bounds[1]) and (endOffset>bounds[0]) and (endOffset<=bounds[1])) for bounds in applicableAnnots]  # unpack list of annotation bounds. check if our current token is within the bounds of an annot!
+                        if any(withinBounds):  # our token is a true named entity!
+                            label = 'I-Dis'  # <----NEED HANDLING OF B-MISC.....something like: if index of True in withinBounds = prevIndex, part of same entity so use I-MISC. of not, new entity, use B-MISC?
+                            if prevLabel=='O':  # this is a first label
+                                label='B-Dis'                           
+                prevLabel = label           
+
+                # outLine = ''
+                # if fileset=='test':
+                #   outLine = '{} {} {}\n'.format(token,label,splitted[1])  # splitted[1] looks like: TorA:startOffset:endOffset
+                # else:  # train and dev do not need extra params   
+                #   outLine = '{} {}\n'.format(token,label)  # splitted[1] looks like: TorA:startOffset:endOffset
+                # actually, always write this info. above handled in bio.py
+                outLine = '{} {} {}\n'.format(token,label,splitted[1])  # splitted[1] looks like: TorA:startOffset:endOffset
+                token_tag = [token,label]
+                converted_lines.append(token_tag)
+                outFile.write(outLine)
+
+    return converted_lines
+
+
+def token_spans(txt,tokenizer):
+    tokens = tokenizer(txt)
+    offset = 0
+    for token in tokens:
+        offset = txt.find(token, offset)
+        yield token, offset, offset+len(token)
+        offset += len(token)
+
+
 def master_token_tag_to_drtrnn(ditk_train,ditk_dev,ditk_test):
     """
     Helper function to complete the transformation from token_tag format to drtrnn format!
@@ -307,7 +479,7 @@ def convert_dataset_conll_to_train_format(file_dict):
         None
     """
 
-    train_file_location,dev_file_location,test_file_location = extract_file_locations(file_dict)
+    train_file_location,dev_file_location,test_file_location,_ = extract_file_locations(file_dict)
 
     ditk_train = convert_conll_to_token_tag(train_file_location)
     ditk_dev = convert_conll_to_token_tag(dev_file_location)
@@ -344,11 +516,51 @@ def convert_dataset_ontoNotes_to_train_format(file_dict):
         None
     """
 
-    train_file_location,dev_file_location,test_file_location = extract_file_locations(file_dict)
+    train_file_location,dev_file_location,test_file_location,_ = extract_file_locations(file_dict)
 
     ditk_train = convert_ontonotes_to_token_tag(train_file_location)
     ditk_dev = convert_ontonotes_to_token_tag(dev_file_location)
     ditk_test = convert_ontonotes_to_token_tag(test_file_location)
+
+    data_dict = master_token_tag_to_drtrnn(ditk_train,ditk_dev,ditk_test)
+
+    return data_dict
+
+
+def convert_dataset_chemdner_to_train_format(file_dict):  # LEFT OFF HERE!!!! ****
+    """
+    Helper function to convert from CHEMDNER format to format required by drtrnn methods.
+
+    Args:
+        file_dict: dictionary
+            {
+                "train": dict, {key="file description":value="file location"},
+                "dev" : dict, {key="file description":value="file location"},
+                "test" : dict, {key="file description":value="file location"},
+            }
+        PRECONDITION: 'file description' expected to be str in set {'data',...}
+
+    Returns:
+        data_dict: dictionary
+            {
+                'train': list of lists.
+                'dev': list of lists.
+                'test': list of lists.
+            }
+        NOTE: list of list. inner list is [token,tag]
+
+    Raises:
+        None
+    """
+
+    train_file_location,dev_file_location,test_file_location,extras = extract_file_locations(file_dict)
+    train_annot_location = extras[0]
+    dev_annot_location = extras[1]
+    test_annot_location = extras[2]
+
+    ditk_train = convert_chemdner_to_token_tag(train_file_location,train_annot_location)
+    ditk_dev = convert_chemdner_to_token_tag(dev_file_location,dev_annot_location)
+    ditk_test = convert_chemdner_to_token_tag(test_file_location,test_annot_location)
 
     data_dict = master_token_tag_to_drtrnn(ditk_train,ditk_dev,ditk_test)
 

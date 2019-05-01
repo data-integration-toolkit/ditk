@@ -137,26 +137,6 @@ class disease_name_recognition_through_rnn(Ner):
 # EITHER WAY we need to write a conversion helper function to convert the data to the proper format
 
 
-    def convert_dataset_ontoNotes_to_train_format(self, dataInstance, mode):
-        """
-        Converts a single data instance from read dataset_02 to format required by paper implementation.
-
-        Args:
-            dataInstance: str, a single line from the raw input data for dataset_02
-            mode: if write, convert to proper str format
-
-        Returns:
-            data: data format required by author implementation and based on mode
-
-        Raises:
-            None
-        """
-        # IMPLEMENT convert dataInstance to data
-
-        if mode == 'write':
-            data = str(data)+'\n'
-        return data
-
     def convert_dataset_chemdner_to_train_format(self, dataInstance, mode):
         """
         Converts a single data instance from read dataset_03 to format required by paper implementation.
@@ -295,7 +275,7 @@ class disease_name_recognition_through_rnn(Ner):
         # benchmark_orig represents dataset authors originally used. NOT common to whole NER group
         conversionFunctionMapper = {'CoNLL_2003':dutil.convert_dataset_conll_to_train_format,
             'OntoNotes_5p0':dutil.convert_dataset_ontoNotes_to_train_format,
-            'CHEMDNER':self.convert_dataset_chemdner_to_train_format,
+            'CHEMDNER':dutil.convert_dataset_chemdner_to_train_format,
             'ppim':self.convert_dataset_ppim_to_train_format,
             'unittest':dutil.convert_ditk_to_train_format}
 
