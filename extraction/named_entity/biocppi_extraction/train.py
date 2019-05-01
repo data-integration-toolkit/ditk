@@ -105,9 +105,9 @@ def model_train(num_ensembles,datapath,model_name,embeddings_path,optimizer,batc
         
     os.mkdir('{}/{}'.format(datapath,model_name))
     
-    trained_models = []
+    trained_models = [0 for _ in range(num_ensembles)]
     for j in range(num_ensembles):
-        m = BiLSTM(labels=labels,
+        trained_models[j] = BiLSTM(labels=labels,
                     word_vocab=word_vocab,
                     word_embeddings=embeddings,
                         optimizer=optimizer,
@@ -128,7 +128,7 @@ def model_train(num_ensembles,datapath,model_name,embeddings_path,optimizer,batc
         
         print "Training on {}, tuning on {}".format(len(X_train),len(X_dev))
         
-        m.fit(X_train, y_train, X_dev, y_dev,
+        trained_models[j].fit(X_train, y_train, X_dev, y_dev,
                 num_iterations=num_iterations,
                 num_it_per_ckpt=num_it_per_ckpt,
                 batch_size=batch_size,
@@ -137,8 +137,7 @@ def model_train(num_ensembles,datapath,model_name,embeddings_path,optimizer,batc
         # save_path = '{}/{}/model_{}'.format(datapath,model_name,j)
         # m.save(save_path)
         # print "Saved model {} to {}".format(j,save_path)
-        mcopy = deepcopy(m)
-        trained_models.append(mcopy)
+        # trained_models.append(mcopy)
     return trained_models
 
 def load_embeddings(fname, vocab, dim=200):

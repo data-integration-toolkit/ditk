@@ -211,8 +211,8 @@ class BiLSTM(object):
         self.train_step = self.opt.apply_gradients(grads_and_vars)        
         
         self.sess.run(tf.global_variables_initializer())
-        # self.saver = tf.train.Saver(max_to_keep=10000)
-        self.saver = tf.train.Saver()
+        self.saver = tf.train.Saver(max_to_keep=10000)
+        # self.saver = tf.train.Saver()
     
     def _onehot(self, y, categories):
         y_onehot = np.zeros((len(y),len(categories)))
