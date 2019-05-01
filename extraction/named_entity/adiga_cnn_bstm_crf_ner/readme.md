@@ -74,7 +74,7 @@ CoNLL 2003( 10 epochs ) | 83.76 | 82.74 | 83.25
 Ontonotes ( 10 epochs) | 83.25 | 81.42| 80.35
 CHEMDNER  | 74.01| 75.71| 74.85
 
-###Demo : 
+### Demo : 
 
 ipython notebook : 
 https://github.com/data-integration-toolkit/ditk/blob/develop/extraction/named_entity/adiga_cnn_bstm_crf_ner/Paper2-cnn-bstm-crf_ner.ipynb
