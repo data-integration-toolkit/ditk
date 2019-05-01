@@ -226,7 +226,8 @@ def convert_conll_to_token_tag(file):
             token = data[0]
             tag = data[3]
             if tag.startswith('B') or tag.startswith('I'):
-                tag = str(1)
+                # tag = str(1)
+                tag = 'I-MISC'
             converted_line = [token,tag]
             converted_lines.append(converted_line)
         else:
@@ -256,7 +257,8 @@ def convert_ontonotes_to_token_tag(file):
             token = data[0]
             tag = data[3]
             if tag.startswith('B') or tag.startswith('I'):
-                tag = str(1)
+                # tag = str(1)
+                tag = 'I-MISC'
             converted_line = [token,tag]
             converted_lines.append(converted_line)
         else:
