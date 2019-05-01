@@ -60,7 +60,7 @@ python3 hrere.py
 
 To preprocess a new dataset, ensure that it is in the format of triplets (as described above),  save the files in any folder within the “**data**” folder. Since the default dataset is set to fb15k, save the train.txt, test.txt and valid.txt in the fb15k folder and run the “**preprocess.py**” program.  
 
-**YouTube link:**
+## **YouTube link:**
 
 **Note: The video shows the code being run on the Terminal.**
 
