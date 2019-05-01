@@ -310,10 +310,12 @@ class biocppi_extraction(Ner):
             self.cur_model = model
             self.save_model(model_save_filename)
 
-        return
         # test loading of trained models only! NOT YET IMPLEMENTED
         self.trained_model = None
-        self.load_model(self.model_save_filename)
+        for i in range(self.num_ensembles):
+            model_save_filename = '%s_%s'%(self.saved_model_base,i)    
+            self.load_model(self.model_save_filename)
+        print(len(self.trained_model))
 
         return  # None
 
@@ -558,7 +560,6 @@ class biocppi_extraction(Ner):
         :param file: From where to load the model - Optional function
         :return:
         """
-        
         with open(self.vocab_cache,'r') as f:
             word_vocab = pickle.load(f)
         m = BiLSTM(labels=self.labels,
@@ -574,7 +575,7 @@ class biocppi_extraction(Ner):
                     decay_rate=self.decay_rate,
                     dropout_keep=self.keep_prob)
         m.restore(file)
-        self.trained_model = m
+        self.trained_model.append(m)
 
         return
 
