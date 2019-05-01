@@ -64,11 +64,10 @@ Execute the main.py file:
     (ensure the folder being passed contains facts, train, test, and valid files)
 2. Pass the same path (where the datasets are saved) to the get_truths method as well
 
-## Quick start
-The following command starts training a dataset about family relations, and stores the experiment results in the folder `exps/demo/`.
+## Jupyter Notebook
 
-```
-python src/main.py --datadir=datasets/family --exps_dir=exps/ --exp_name=demo
-```
+ditk/graph/completion/NeuralLP/kgc_refactor_jupyter.ipynb 
 
-Wait for around 8 minutes, navigate to `exps/demo/`, there is `rules.txt` that contains learned logical rules. 
+## Video 
+
+https://www.youtube.com/watch?v=BtTZ2TfrKYA&t=161s
