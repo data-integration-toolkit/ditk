@@ -9,7 +9,7 @@ def main(inputFilePath):
     #instantiate a model!
 
     # test params:
-    embeddings_path = '/home/kcrouch/USC/csci_548/project/groupedProject/bioNER_refactor/biocppi_extraction/embeddings'  # REMOVE FOR SUBMIT
+    embeddings_path = '/home/kcrouch/USC/csci_548/project/groupedProject/bioNER_refactor/biocppi_extraction/embeddings/'  # REMOVE FOR SUBMIT
     test_params = {'num_ensembles':2,'num_iterations':101,'num_it_per_ckpt':1000000}  # note, it num_it_per_ckpt > num_iterations then num_it_per_ckpt will be set to half of num_iterations
     biocppi = biocppi_extraction(embeddings_path=embeddings_path,**test_params)
 
