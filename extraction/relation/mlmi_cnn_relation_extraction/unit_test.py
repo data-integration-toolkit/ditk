@@ -9,14 +9,14 @@ class TestRelationExtraction(unittest.TestCase):
 
     def setUp(self):
         self.relation_extraction  = MLMI_CNN_Model()  # Your implementation of NER
-        self.input_file = 'testexample/sample_input.txt'
+        self.input_file = 'tests/sample_input.txt'
         self.model_data_path = self.relation_extraction.read_dataset(self.input_file)
         self.relation_extraction.data_preprocess(self.model_data_path)
 
         self.train_dir = self.relation_extraction.train(self.model_data_path)
 
         self.output_file = self.relation_extraction.predict(self.model_data_path, trained_model = self.train_dir)
-        self.truth_lable_file = 'testexample/sample_output.txt'
+        self.truth_lable_file = 'tests/sample_output.txt'
 
         self.evals = self.relation_extraction.evaluate(self.output_file)
 
