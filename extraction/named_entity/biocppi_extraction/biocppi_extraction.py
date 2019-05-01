@@ -9,6 +9,8 @@ from train import model_train
 import biocppi_utils as butil
 from six.moves import cPickle
 import numpy as np
+
+from model import *
 # from utils import backtrack
 
 # from model1 import *
