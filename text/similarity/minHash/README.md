@@ -5,11 +5,13 @@ This project contains an implementation of the MinHash LSH Algorithm.
 
 <img src="./minHash.png" width="65%"/> 
 
-#### Original Code
+Original Code
+------------------------------------ 
 
 https://github.com/chrisjmccormick/MinHash
-#### Input and Output
 
+Input and Output
+------------------------------------ 
 >Input:
 This model takes as input a pair of sentences, on which the similarity has to be determined.
 
@@ -18,7 +20,8 @@ The model outputs :
 1) Embedding of the sentence / MinHash signature
 2) Similarity score between the 2 input sentences.
 
-#### Description
+Description
+------------------------------------ 
 
 >Task: 
 - Reduce the high dimensional features to smaller dimensions while preserving the differentiability.
@@ -38,7 +41,8 @@ a, b in a high dimensional feature space
 -	Continue this with all the 10 hash functions. So if we have 10 random hash functions, we’ll get a MinHash signature with 10 values.
 -	Compare the documents by counting the number of signature components in which they match
 
-#### Implementation
+Implementation
+------------------------------------ 
 1.	Load the sentences or documents on which we want to compute approximate similarity
 2.	Generate a MinHash object with number of permutations(higher the number  higher the accuracy) and a Hash function ( default : SHA1 )
 3.	Update the MinHash signature with the given sentence/document
@@ -46,7 +50,8 @@ a, b in a high dimensional feature space
 
 
 
-#### Evaluation
+Evaluation Benchmark Datasets
+------------------------------------ 
 
 The benchmark datasets used for this project were:
 
@@ -57,10 +62,13 @@ The benchmark datasets used for this project were:
 3. SemEval 2017 Task 1
  - http://alt.qcri.org/semeval2017/task1/
 
->EVALUATION METRICS : 
+Evaluation Metrics
+------------------------------------ 
 - Pearson Correlation Coefficient
 - Spearman Correlation Coefficient
-> RESULTS :
+
+Evaluation
+------------------------------------ 
 
 | DATASET       | PEARSON         | SPEARMAN|
 | ------------- | -------------    | -------------     |
@@ -70,11 +78,18 @@ The benchmark datasets used for this project were:
 
 
 
-## To Run 
+To Run
+------------------------------------ 
 
 1) Download the module code repository -- ditk/text/similarity/minHash
 2) Ensure that the main.py, MinHash.py, datasets are in the same folder, if not give the absolute paths accordingly.
 3) Run main.py
 
-## Video 
+
+Jupyter Notebook
+------------------------------------ 
+https://github.com/LavanyaMalladi/ditk/blob/develop/text/similarity/minHash/MinHash.ipynb
+
+Video
+------------------------------------ 
 https://www.youtube.com/watch?v=-p1iN7DIvZE
