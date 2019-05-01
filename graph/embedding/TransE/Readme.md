@@ -17,7 +17,7 @@ A Python and Tensorflow implementation used in this model:
 
 - TransE embed entities and relationships of metarelational data in low-dimensional vector spaces. TransE models relationships by interpreting them as translations operating on the low-dimensional embeddings of the entities. The task of this method includes embedding the training data, and using the embeddings to predict head/tail entities. 
 
-- ![1556516303912](C:\Users\Sandie\AppData\Roaming\Typora\typora-user-images\1556516303912.png)
+- ![1556516303912](<https://github.com/sandiexie-USC/ditk/blob/develop/graph/embedding/TransE/src/1556516303912.png>)
 
   *This image shows the idea of interpreting relation(r) as transitions from head entity(h) to tail entity(t).
 
