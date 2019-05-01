@@ -44,6 +44,7 @@ _Relation alias side information extraction for a given sentence. First, Syntact
     "type2id":  {"type1": 0, "type2": 1 ...},
 
     "rel2id":   {"NA": 0, "/location/neighborhood/neighborhood_of": 1, ...}
+    
     "max_pos": 123,
 
     "train": [
