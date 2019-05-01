@@ -106,9 +106,15 @@ class CNNModel(RelationExtraction):
         return model_dir
     
     def save_model(self, file):
+        '''
+            Deprecated as model is automatically saved to disk in function train()
+        '''
         pass
     
     def load_model(self, file):
+        '''
+            Deprecated as model is automatically loaded from disk in function predit()
+        '''
         pass
 
     def predict(self, test_data, entity_1=None, entity_2=None,  trained_model=None):
