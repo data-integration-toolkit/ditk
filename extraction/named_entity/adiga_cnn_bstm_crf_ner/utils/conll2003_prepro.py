@@ -146,6 +146,8 @@ def data_formatted(dataset):
             if(len(formatted_data_temp) !=0 ):
                 formatted_data.append(formatted_data_temp)
             formatted_data_temp = []
+    if(len(formatted_data_temp) !=0 ):
+        formatted_data.append(formatted_data_temp)
     return formatted_data
 
 

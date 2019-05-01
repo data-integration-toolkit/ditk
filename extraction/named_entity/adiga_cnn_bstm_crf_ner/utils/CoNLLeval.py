@@ -302,12 +302,16 @@ class CoNLLeval:
                     port.
         """
         ofp = open(infile, "w")
+        count = 0 
         for sl, sp, sw in zip(groundtruth, predictions, words):
-            ofp.write(u"BOS O O\n")
+            # ofp.write(u"BOS O O\n")
+            if(count  != 0):
+                ofp.write("\n")
+            count += 1
             for wl, wp, words in zip(sl, sp, sw):
                 line = u"{0} {1} {2}\n".format(words, wl, wp)
                 ofp.write(line)
-            ofp.write(u"EOS O O\n\n")
+            # ofp.write(u"EOS O O\n\n")
         ofp.close()
         self.Evaluate(infile)
         return self.ComputeAccuracy()
