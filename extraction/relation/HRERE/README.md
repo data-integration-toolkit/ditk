@@ -1,7 +1,7 @@
 # **HRERE : Connecting Language and Knowledge with Heterogeneous Representations for Neural Relation Extraction**
 **This repo cites the work of:**
 
-Xu, Peng and Barbosa, Denilson, Connecting Language and Knowledge with Heterogeneous Representations for Neural Relation Extraction, Proceedings of the The 17th Annual Conference of the North American Chapter of the Association for Computational Linguistics: Human Language Technologies (NAACL 2019). Link to the paper: https://arxiv.org/abs/1903.10126  
+Xu, Peng and Barbosa, Denilson, **Connecting Language and Knowledge with Heterogeneous Representations for Neural Relation Extraction**, Proceedings of the The 17th Annual Conference of the North American Chapter of the Association for Computational Linguistics: Human Language Technologies (NAACL 2019). Link to the paper: https://arxiv.org/abs/1903.10126  
 
 •	**Github link to original code**: https://github.com/billy-inn/HRERE & https://github.com/billy-inn/tensorflow-efe
 
