@@ -4,6 +4,7 @@ import numpy as np
 from model import BiLSTM
 import sklearn.metrics as skm
 import argparse
+from copy import deepcopy
 #import evaluation
 
 # parser = argparse.ArgumentParser(description='Train BiLSTM on a given dataset')
@@ -136,7 +137,8 @@ def model_train(num_ensembles,datapath,model_name,embeddings_path,optimizer,batc
         # save_path = '{}/{}/model_{}'.format(datapath,model_name,j)
         # m.save(save_path)
         # print "Saved model {} to {}".format(j,save_path)
-        trained_models.append(m)
+        mcopy = deepcopy(m)
+        trained_models.append(mcopy)
     return trained_models
 
 def load_embeddings(fname, vocab, dim=200):
