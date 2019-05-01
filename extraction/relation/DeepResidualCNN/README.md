@@ -68,13 +68,13 @@ This paper is published in EMNLP2017.
     DDI 2013
 
 ## Result
-#![Result](https://user-images.githubusercontent.com/16465582/30602544-6c3bd1a4-9d97-11e7-9f8f-807b436ede16.png)
+![Result](https://user-images.githubusercontent.com/16465582/30602544-6c3bd1a4-9d97-11e7-9f8f-807b436ede16.png)
 vector1.txt: You can use Glove vector or Word2Vec. Here is the link I used in experiment : https://drive.google.com/open?id=0B-ZjKY509crKQXA0Y2FfbFJMY0E
 
 
 ## Demo
 
-* Link to the Jupyter Notebook
+* [Link to the Jupyter Notebook](./DeepResidualmain.ipynb)
 
 * [Link to the Youtube Video](https://youtu.be/dgsUqj7Vvsg)
 
