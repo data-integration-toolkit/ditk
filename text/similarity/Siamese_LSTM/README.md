@@ -60,7 +60,7 @@ https://youtu.be/CgiC_mwLDYM
 
 Jupyter notebook
 ================
-src/simple_demo.ipynb
+https://github.com/JoeyJoey/ditk/blob/develop/text/similarity/Siamese_LSTM/src/simple%20demo.ipynb
 
 
 

@@ -65,7 +65,7 @@ https://youtu.be/1v9nQXxPVNY
 
 Jupyter notebook
 ================
-src/USE_Transformer_demo.ipynb
+https://github.com/JoeyJoey/ditk/blob/develop/text/similarity/USE_Transformer/src/USE_Transformer_demo.ipynb
 
 
 
