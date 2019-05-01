@@ -62,7 +62,7 @@ The benchmark datasets used for this project were:
 
 
 >Results:
-<img src="/word2vec_results.png" width="65%"/> 
+<img src="word2vec_evaluation.png"/> 
 
 ## To Run 
 
