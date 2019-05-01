@@ -71,6 +71,12 @@ SICK         = 42.54
 
 ## Original Code
 
+Code provided by the author :
+
+https://github.com/natsheh/sensim
+
+Actual code used in this repository :
+
 https://github.com/Sanjithae/sensim
 
 
