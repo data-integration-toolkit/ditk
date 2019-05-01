@@ -11,12 +11,7 @@ P. Zhou, W. Shi, J. Tian, Z. Qi, B. Li, H. Hao, and B. Xu, “Attention-Based Bi
 * nltk
 
 ## Model Architecture
-<p align="center">
-	<img width="700" height="400" src="https://user-images.githubusercontent.com/15166794/47557845-a859cf00-d94c-11e8-8e89-59ed732e5cea.png">
-	
-	#https://raw.githubusercontent.com/username/projectname/branch/path/to/img.png - change this 
-</p>
-
+![](./photos/model_1.png)
 
 ## Approach
 
@@ -112,6 +107,7 @@ attModel.load_model(saved_model_dir)
 ```
 
 ## To Test
+![](./photos/test_case.png)
 
 ## Link to Jupyter Notebook and Video
 * [AttentionBasedModel.ipynb](./JupyterNotebook/AttentionBasedModel.ipynb)
