@@ -6,9 +6,7 @@
 [Relation Classification via Convolutional Deep Neural Network](https://www.aclweb.org/anthology/C14-1220)
 
 ## Full citation
-```
-Daojian Zeng, Kang Liu, Siwei Lai, Guangyou Zhou and Jun Zhao. Relation Classification via Convolutional Deep Neural Network.  The 25th International Conference on Computational Linguistics (COLING), Dublin, Ireland, 2014.
-```
+    Daojian Zeng, Kang Liu, Siwei Lai, Guangyou Zhou and Jun Zhao. Relation Classification via Convolutional Deep Neural Network.  The 25th International Conference on Computational Linguistics (COLING), Dublin, Ireland, 2014.
 
 ## Original Code
 [TensorFlow implementation of Relation Classification via Convolutional Deep Neural Network](https://github.com/FrankWork/conv_relation)
@@ -58,10 +56,11 @@ sentence    entity1  entity2  relation_type_predicted  relation_type_ground_trut
     * Testing set: 388 samples
 
 ### Evaluation metrics
-Marco-averaged
-* Precision
-* Recall
-* F1-score
+* Precision*
+* Recall*
+* F1-score*
+
+(*: marco-averaged)
 
 ### Evaluation results
 * Precision
@@ -89,4 +88,4 @@ Marco-averaged
 ## [Link to Youtube video](https://youtu.be/4IUzWw3d6To)
 
 ## Remarks
-* The test cases are written by myself because our group does not have common ones
+* The test cases are written by myself because our group does not have a common one
