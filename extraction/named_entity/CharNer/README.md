@@ -116,7 +116,7 @@ model = charNerModel.load_model("../model")
 
 ## Link to Jutyper Notebook and video
 * [CharNerModel.ipynb](./JupyterNotebook/CharNerModel.ipynb)
-*
+* [Video](https://youtu.be/B16Cw7veOTQ)
 ## Reference
 * [Nur Lan's Keras Implementation](https://github.com/0xnurl/keras_character_based_ner)
 * [Onur Kuru's Char NER Repo (Official Implementation)](https://github.com/ozanarkancan/char-ner)
