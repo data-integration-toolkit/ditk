@@ -12,7 +12,7 @@ import numpy as np
 
 # from utils import backtrack
 
-# from model1 import *
+from model import *
 
 # -------------------End Helper for saving model------------------ #
 
@@ -531,7 +531,7 @@ class biocppi_extraction(Ner):
         :return:
         """
 
-        self.save_model.save(file)
+        self.trained_model.save(file)
 
         return
     
@@ -541,11 +541,24 @@ class biocppi_extraction(Ner):
         :param file: From where to load the model - Optional function
         :return:
         """
-        # NOT YET IMPLEMENTES
-        with open(file,'rb') as sm:
-            self.trained_model = cPickle.load(sm)
-            if self.trained_model == None:
-                print('whoooooooop')
+        vocab_cache = data_path_base + 'word_vocab.ner.txt'
+        labels = ['B-MISC', 'I-MISC', 'O']
+        with open(vocab_cache,'r') as f:
+            word_vocab = pickle.load(f)
+        m = BiLSTM(labels=labels,
+                    word_vocab=word_vocab,
+                    word_embeddings=None,
+                    optimizer=self.optimizer,
+                    embedding_size=200, 
+                    char_embedding_size=32,
+                    lstm_dim=200,
+                    num_cores=self.num_cores,
+                    embedding_factor=self.embedding_factor,
+                    learning_rate=self.learning_rate,
+                    decay_rate=self.decay_rate,
+                    dropout_keep=self.keep_prob)
+        m.restore(save_path)
+        self.trained_model = m
 
         return
 
