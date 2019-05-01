@@ -86,7 +86,7 @@ class multihead_joint_entity_relation_extraction:
                     answer.append(str(j) + "\t" + words[j] + "\t" + str(Classified_text[0][j][1]) + "\t" +str(['N']) + "\t"+str([j])+"\n")
 
 
-        with open("/home/sanjitha/Downloads/temp_test.txt", 'w+') as f:
+        with open("temp_test.txt", 'w+') as f:
             for i in range(0,len(answer)):
                 if answer[i].startswith("0"):
                     f.write("#doc"+" "+str(i)+"\n")
