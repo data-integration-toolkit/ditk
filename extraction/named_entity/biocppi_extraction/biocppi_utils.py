@@ -7,7 +7,7 @@ from nltk.tokenize import wordpunct_tokenize
 from nltk.tokenize import sent_tokenize
 
 DITK_FILE_HEADER = 'WORD TRUE_LABEL PRED_LABEL\n\n'
-DATA_PATH_BASE = 'binary_data/'
+DATA_PATH_BASE = 'corpus_train/'
 
 
 def write_drtrnn_format_to_file(data,outputFilePath):
