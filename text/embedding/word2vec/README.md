@@ -85,7 +85,10 @@ pip install gensim
 
 Jupyter Notebook
 -------------------------------------
+
 https://github.com/LavanyaMalladi/ditk/blob/develop/text/embedding/word2vec/Word2Vec.ipynb
+
+
 Video
 -------------------------------------
 https://www.youtube.com/watch?v=AWmI1AIYgM8
