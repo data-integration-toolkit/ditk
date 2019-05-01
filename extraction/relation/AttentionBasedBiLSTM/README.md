@@ -1,7 +1,7 @@
 # Attention-Based Bidirectional Long Short-Term Memory Networks for Relation Classification
 P. Zhou, W. Shi, J. Tian, Z. Qi, B. Li, H. Hao, and B. Xu, “Attention-Based Bidirectional Long Short-Term Memory Networks for Relation Classification,” Proceedings of the 54th Annual Meeting of the Association for Computational Linguistics (Volume 2: Short Papers), 2016.
 
-####[Link to the Paper](https://www.aclweb.org/anthology/P16-2034)
+#### [Link to the Paper](https://www.aclweb.org/anthology/P16-2034)
 
 ### Prerequisite
 *   Python 3.7
@@ -31,7 +31,7 @@ Using attention helps the model to automatically focus on the words that have a 
 a sentence-level feature vector, by multiplying the weight vector
 * Output Layer : The sentence-level feature vector is used for relation classification with help of a softmax classifier
 
-##Input/Output Format (Prediction)
+## Input/Output Format (Prediction)
 * INPUT (File)
     * File is read by .read_dataset() function
     * Tab seperated coloums: <br>
@@ -46,16 +46,16 @@ a sentence-level feature vector, by multiplying the weight vector
     * glove.6B.100d.txt
 * gloVe can be found at [https://nlp.stanford.edu/projects/glove/](https://nlp.stanford.edu/projects/glove/) Download glove.6B.zip and use the glove.6B.100.txt from that
 
-##Benchmark Datasets
+## Benchmark Datasets
 * **SemEval-2010 Task #8**
 * **NYT**
 * **DDI 2013**
 
-##Evaluation Metrics
+## Evaluation Metrics
 * Precision
 * Recall
 * F1
-##Results
+## Results
 
 
 
@@ -68,7 +68,7 @@ a sentence-level feature vector, by multiplying the weight vector
 
 
 
-##To Run
+## To Run
 
 1.Import model from AttentionBasedModel.py and create instance of the same
 
@@ -111,9 +111,11 @@ attModel.save_model(dir_path_save)
 attModel.load_model(saved_model_dir)
 ```
 
-##To Test
+## To Test
 
-
+## Link to Jupyter Notebook and Video
+* [AttentionBasedModel.ipynb](./JupyterNotebook/AttentionBasedModel.ipynb)
+* [Video](https://youtu.be/OY0_Bhx6lcU)
 
 ## Reference
 * SeoSangwoo's Attention-Based-BiLSTM-relation-extraction repo [[github]](https://github.com/SeoSangwoo/Attention-Based-BiLSTM-relation-extraction)
