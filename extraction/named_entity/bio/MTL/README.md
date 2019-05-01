@@ -22,7 +22,8 @@ MTL
 -  Input format: Sentence 
 	- `Salivary immunoglobulin was determined on 3 occasions.`
 -  Output format: Sentence with name entity 
--  	`[(Salivary, B-Protein),(immunoglobulin, I-Protein),(was, O), (determined, 0), (on, 0), (3, 0), (occasions, 0)]`
+	-  	`[(Salivary, B-Protein),(immunoglobulin, I-Protein),(was, O), (determined, 0), (on, 0), (3, 0), (occasions, 0)]`
+-  pre-trained embedding: download from [https://drive.google.com/open?id=0BzMCqpcgEJgiUWs0ZnU0NlFTam8](https://drive.google.com/open?id=0BzMCqpcgEJgiUWs0ZnU0NlFTam8 ) and put it into folder `./vectorfile/`
     
 ## Evalution
 - Benchmark Datasets
