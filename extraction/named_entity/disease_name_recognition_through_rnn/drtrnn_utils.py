@@ -26,7 +26,11 @@ def write_drtrnn_format_to_file(data,outputFilePath):
             if isinstance(line, list):
                 line = ' '.join(line)
                 line = line
-            f.write(line+'\n')
+            try:
+                f.write(line+'\n')
+            except:
+                line = line+'\n'
+                f.write(line.encode('utf8'))
 
 
 def ditk_to_drtrnn_format(ditkFilePath,tdt='train'):
@@ -166,7 +170,10 @@ def convert_token_tag_to_ditk_format(filebase,token_tag):
         for t in token_tag:
             if len(t) > 1:
                 outLine = '%s _ _ %s '%(t[0],t[1])+' '.join(['_' for _ in range(11)])+'\n'
-                outFile.write(outLine)
+                try:
+                    outFile.write(outLine)
+                except:
+                    outFile.write(outLine.encode('utf8'))
                 prevLineSpace = False
             else:
                 if prevLineSpace:
@@ -208,6 +215,71 @@ def convert_conll_to_token_tag(file):
     return converted_lines
 
 
+def convert_ontonotes_to_token_tag(file):
+    """
+    Helper function to convert OntoNotes5.0 to token_tag format.
+
+    Args:
+        file: str, file location of the file to convert to token_tag format 
+
+    Returns:
+        converted_lines: list of lists. inner list is [token,tag]
+    """
+    with codecs.open(file, mode='r', encoding='utf-8') as f:
+        lines = f.read().splitlines()
+    converted_lines = []
+    for line in lines:
+        if len(line.strip()) > 0:
+            if '-DOCSTART-' in line:
+                continue
+            data = line.split()
+            token = data[0]
+            tag = data[3]
+            if tag.startswith('B') or tag.startswith('I'):
+                tag = str(1)
+            converted_line = [token,tag]
+            converted_lines.append(converted_line)
+        else:
+            converted_lines.append(line)
+
+    return converted_lines
+
+
+def master_token_tag_to_drtrnn(ditk_train,ditk_dev,ditk_test):
+    """
+    Helper function to complete the transformation from token_tag format to drtrnn format!
+    Once specific dataset is put into token_tag format, remaining steps are the same. Hence,
+    the purpose of this function is mainly to refactor repretetive code.
+
+    Args:
+       ditk_train,ditk_dev,ditk_test: each is list of lists. inner list is [token,tag]
+
+    Returns:
+        data_dict: dictionary
+            {
+                'train': list of lists.
+                'dev': list of lists.
+                'test': list of lists.
+            }
+        NOTE: list of list. inner list is [token,tag]
+    """
+    filebase_ditk_train = 'train'
+    filebase_ditk_dev = 'dev'
+    filebase_ditk_test = 'test'
+
+    filename_ditk_train = convert_token_tag_to_ditk_format(filebase_ditk_train,ditk_train)
+    filename_ditk_dev = convert_token_tag_to_ditk_format(filebase_ditk_dev,ditk_dev)
+    filename_ditk_test = convert_token_tag_to_ditk_format(filebase_ditk_test,ditk_test)
+
+    data_train = ditk_to_drtrnn_format(filename_ditk_train,'train')
+    data_dev = ditk_to_drtrnn_format(filename_ditk_dev,'dev')
+    data_test = ditk_to_drtrnn_format(filename_ditk_test,'test')
+
+    data_dict = {'train':data_train,'dev':data_dev,'test':data_test}
+
+    return data_dict
+
+
 
 def convert_dataset_conll_to_train_format(file_dict):
     """
@@ -234,7 +306,6 @@ def convert_dataset_conll_to_train_format(file_dict):
     Raises:
         None
     """
-    # IMPLEMENT convert dataInstance to data
 
     train_file_location,dev_file_location,test_file_location = extract_file_locations(file_dict)
 
@@ -242,20 +313,44 @@ def convert_dataset_conll_to_train_format(file_dict):
     ditk_dev = convert_conll_to_token_tag(dev_file_location)
     ditk_test = convert_conll_to_token_tag(test_file_location)
 
+    data_dict = master_token_tag_to_drtrnn(ditk_train,ditk_dev,ditk_test)
 
-    filebase_ditk_train = 'train'
-    filebase_ditk_dev = 'dev'
-    filebase_ditk_test = 'test'
+    return data_dict
 
-    filename_ditk_train = convert_token_tag_to_ditk_format(filebase_ditk_train,ditk_train)
-    filename_ditk_dev = convert_token_tag_to_ditk_format(filebase_ditk_dev,ditk_dev)
-    filename_ditk_test = convert_token_tag_to_ditk_format(filebase_ditk_test,ditk_test)
 
-    data_train = ditk_to_drtrnn_format(filename_ditk_train,'train')
-    data_dev = ditk_to_drtrnn_format(filename_ditk_dev,'dev')
-    data_test = ditk_to_drtrnn_format(filename_ditk_test,'test')
+def convert_dataset_ontoNotes_to_train_format(file_dict):
+    """
+    Helper function to convert from OntoNotes5.0 format to format required by drtrnn methods.
 
-    data_dict = {'train':data_train,'dev':data_dev,'test':data_test}
+    Args:
+        file_dict: dictionary
+            {
+                "train": dict, {key="file description":value="file location"},
+                "dev" : dict, {key="file description":value="file location"},
+                "test" : dict, {key="file description":value="file location"},
+            }
+        PRECONDITION: 'file description' expected to be str in set {'data',...}
+
+    Returns:
+        data_dict: dictionary
+            {
+                'train': list of lists.
+                'dev': list of lists.
+                'test': list of lists.
+            }
+        NOTE: list of list. inner list is [token,tag]
+
+    Raises:
+        None
+    """
+
+    train_file_location,dev_file_location,test_file_location = extract_file_locations(file_dict)
+
+    ditk_train = convert_ontonotes_to_token_tag(train_file_location)
+    ditk_dev = convert_ontonotes_to_token_tag(dev_file_location)
+    ditk_test = convert_ontonotes_to_token_tag(test_file_location)
+
+    data_dict = master_token_tag_to_drtrnn(ditk_train,ditk_dev,ditk_test)
 
     return data_dict
 

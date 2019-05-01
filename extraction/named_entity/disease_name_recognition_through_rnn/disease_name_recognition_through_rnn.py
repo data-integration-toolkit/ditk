@@ -136,26 +136,6 @@ class disease_name_recognition_through_rnn(Ner):
 #   train(), pass this data and skip the paper's portion of reading the dataset
 # EITHER WAY we need to write a conversion helper function to convert the data to the proper format
 
-    # def convert_dataset_conll_to_train_format(self, dataInstance, mode):
-    #     """
-    #     Converts a single data instance from read dataset_01 to format required by paper implementation.
-
-    #     Args:
-    #         dataInstance: str, a single line from the raw input data for dataset_01
-    #         mode: str, if 'write', convert to proper str format. Else assume 'persist'
-
-    #     Returns:
-    #         data: data format required by author implementation and based on mode
-
-    #     Raises:
-    #         None
-    #     """
-    #     # IMPLEMENT convert dataInstance to data
-
-    #     if mode == 'write':
-    #         data = str(data)+'\n'
-    #     return data
-
 
     def convert_dataset_ontoNotes_to_train_format(self, dataInstance, mode):
         """
@@ -314,7 +294,7 @@ class disease_name_recognition_through_rnn(Ner):
 
         # benchmark_orig represents dataset authors originally used. NOT common to whole NER group
         conversionFunctionMapper = {'CoNLL_2003':dutil.convert_dataset_conll_to_train_format,
-            'OntoNotes_5p0':self.convert_dataset_ontoNotes_to_train_format,
+            'OntoNotes_5p0':dutil.convert_dataset_ontoNotes_to_train_format,
             'CHEMDNER':self.convert_dataset_chemdner_to_train_format,
             'ppim':self.convert_dataset_ppim_to_train_format,
             'unittest':dutil.convert_ditk_to_train_format}
@@ -492,7 +472,7 @@ class disease_name_recognition_through_rnn(Ner):
                     each element must correspond to the same item [i.e. token]. If this is not the case,
                     evaluation will not be accurate.
         Returns:
-            metrics: tuple with (p,r,f1). Each element is float.
+            metrics: tuple with (p,r,f1). Each element is float. (None,None,None) if metrics cannot be calculated to do div-by-zero error
         Raises:
             None
         """
@@ -588,6 +568,10 @@ class disease_name_recognition_through_rnn(Ner):
         fn = float(len(truth_entities.difference(pred_entities)))
         print 'fn', fn
 
+        if tp == 0:
+            if (fp == 0) or (fn == 0):
+                print('Results are poor such that stats cannot be properly calculated. true_positives: %s, false_positives: %s, false_negatives: %s'%(tp,fp,fn))
+                return (None,None,None)
 
         precision = tp/(tp+fp)
         recall = tp/(tp+fn)

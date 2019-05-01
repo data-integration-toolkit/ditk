@@ -9,7 +9,7 @@ def main(inputFilePath):
     #instantiate a model!
 
     # test params:
-    test_params = {'n_iter':50001,'m_report':100000,'save_checkpoint_models':False}
+    test_params = {'n_iter':501,'m_report':100000,'save_checkpoint_models':False}
     drtrnn = disease_name_recognition_through_rnn(**test_params)
 
     # convert dataset to properformat used by training
@@ -21,21 +21,21 @@ def main(inputFilePath):
 
     # # test conll2003...good!
     # dataset_name = 'CoNLL_2003'
-    # # conll_dir = '/Users/olderhorselover/USC/spring2019/csci_548_diotw/project/groupedProject/conll2003_corpus/smol/'  # smol sample
-    # conll_dir = '/Users/olderhorselover/USC/spring2019/csci_548_diotw/project/groupedProject/conll2003_corpus/'
-    # raw_conll2003_train_file = conll_dir + 'train.txt'
-    # raw_conll2003_dev_file = conll_dir + 'dev.txt'
-    # raw_conll2003_test_file = conll_dir + 'test.txt'
-    # file_dict = {'train':{'data':raw_conll2003_train_file},'dev':{'data':raw_conll2003_dev_file},'test':{'data':raw_conll2003_test_file}}
+    # # dataset_dir = '/Users/olderhorselover/USC/spring2019/csci_548_diotw/project/groupedProject/conll2003_corpus/smol/'  # smol sample
+    # dataset_dir = '/Users/olderhorselover/USC/spring2019/csci_548_diotw/project/groupedProject/conll2003_corpus/'
+    # raw_data_train_file = dataset_dir + 'train.txt'
+    # raw_data_dev_file = dataset_dir + 'dev.txt'
+    # raw_data_test_file = dataset_dir + 'test.txt'
+    # file_dict = {'train':{'data':raw_data_train_file},'dev':{'data':raw_data_dev_file},'test':{'data':raw_data_test_file}}
 
-    # # test ontoNotes5.0
-    # dataset_name = 'OntoNotes_5p0'
-    # # conll_dir = '/Users/olderhorselover/USC/spring2019/csci_548_diotw/project/groupedProject/ontoNotes5_corpus/OntoNotes-5.0-NER-BIO/smol'  # smol sample
-    # conll_dir = '/Users/olderhorselover/USC/spring2019/csci_548_diotw/project/groupedProject/ontoNotes5_corpus/OntoNotes-5.0-NER-BIO/'
-    # raw_conll2003_train_file = conll_dir + 'train.txt'
-    # raw_conll2003_dev_file = conll_dir + 'dev.txt'
-    # raw_conll2003_test_file = conll_dir + 'test.txt'
-    # file_dict = {'train':{'data':raw_conll2003_train_file},'dev':{'data':raw_conll2003_dev_file},'test':{'data':raw_conll2003_test_file}}
+    # test ontoNotes5.0
+    dataset_name = 'OntoNotes_5p0'
+    # dataset_dir = '/Users/olderhorselover/USC/spring2019/csci_548_diotw/project/groupedProject/ontoNotes5_corpus/OntoNotes-5.0-NER-BIO/smol/'  # smol sample
+    dataset_dir = '/Users/olderhorselover/USC/spring2019/csci_548_diotw/project/groupedProject/ontoNotes5_corpus/OntoNotes-5.0-NER-BIO/'
+    raw_data_train_file = dataset_dir + 'onto.train.ner'
+    raw_data_dev_file = dataset_dir + 'onto.development.ner'
+    raw_data_test_file = dataset_dir + 'onto.test.ner'
+    file_dict = {'train':{'data':raw_data_train_file},'dev':{'data':raw_data_dev_file},'test':{'data':raw_data_test_file}}
 
     
     data = drtrnn.read_dataset(file_dict, dataset_name)  # data read, converted, and written to files in proper location expected by train
