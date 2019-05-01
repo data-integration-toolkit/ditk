@@ -6,7 +6,12 @@
 [Relation Classification via Convolutional Deep Neural Network](https://www.aclweb.org/anthology/C14-1220)
 
 ## Full citation
+```
 Daojian Zeng, Kang Liu, Siwei Lai, Guangyou Zhou and Jun Zhao. Relation Classification via Convolutional Deep Neural Network.  The 25th International Conference on Computational Linguistics (COLING), Dublin, Ireland, 2014.
+```
+
+## Original Code
+[TensorFlow implementation of Relation Classification via Convolutional Deep Neural Network](https://github.com/FrankWork/conv_relation)
 
 ## Overview
 * A relation extraction model that uses Convolutional Neural Network (CNN)
@@ -18,15 +23,25 @@ Daojian Zeng, Kang Liu, Siwei Lai, Guangyou Zhou and Jun Zhao. Relation Classifi
 
 ![model architecture](architecture.png)
 
-## Input/Output format for the model
-### Inputs
-* Sentence
-* Two named entities
+## Input and Output
+### Input
+* Training and testing txt files named "relation_extraction_input_train.txt" and "relation_extraction_input_test.txt" respectively
+* Format is generalized for the whole group; attributes are separated by tab
+```
+sentence    entity1  entity1_type entity1_start_position    entity1_end_position  entity2  entity2_type entity2_start_position    entity2_end_position  relation_type
+```
+* Input file is preprocessed to generate files needed for the model
+    * Since the model originally uses one of the benchmarks SemEval2010 Task8, no data preprocessing is needed for this specific dataset
 
 ### Output
-* Relation type
+* Output txt file named "relation_extraction_output.txt"
+* Format is generalized for the whole group; attributes are separated by tab
+```
+sentence    entity1  entity2  relation_type_predicted  relation_type_ground_truth
+```
 
-## Benchmark datasets
+## Evalution
+### Benchmark datasets
 1. DDI2013
     * 5 relation types
     * Training set: 27792 samples
@@ -42,7 +57,6 @@ Daojian Zeng, Kang Liu, Siwei Lai, Guangyou Zhou and Jun Zhao. Relation Classifi
     * Training set: 235275 samples
     * Testing set: 388 samples
 
-## Evaluation metrics and results
 ### Evaluation metrics
 Marco-averaged
 * Precision
@@ -62,7 +76,7 @@ Marco-averaged
 
 ![F1-score](f1.png)
 
-## Link to Jupyter notebook
+## Links to Jupyter notebooks
 * [Benchmark 1: training](cnn_notebook1_train.ipynb)
 * [Benchmark 1: evaluation](cnn_notebook1_test.ipynb)
 
@@ -73,3 +87,6 @@ Marco-averaged
 * [Benchmark 3: evaluation](cnn_notebook3_test.ipynb)
 
 ## [Link to Youtube video](https://youtu.be/4IUzWw3d6To)
+
+## Remarks
+* The test cases are written by myself because our group does not have common ones
