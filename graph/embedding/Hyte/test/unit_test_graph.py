@@ -1,5 +1,7 @@
 import unittest
 import pandas as pd
+import sys
+sys.path.append("..")
 import matplotlib.pyplot as plt, uuid, sys, os, time, argparse
 # from graph.completion.graph_completion import graph_completion
 from main import GraphEmbeddingChild
@@ -9,7 +11,7 @@ import tensorflow as tf
 class TestGraphEmbeddingMethods(unittest.TestCase):
 
 	def setUp(self):
-		self.input_file = 'data/yago/large/testcase.txt'
+		self.input_file = '../data/yago/large/testcase.txt'
 		parser = argparse.ArgumentParser(description='HyTE')
 		parser.add_argument('-data_type', dest= "data_type", default ='yago', choices = ['yago','wiki_data'], help ='dataset to choose')
 		parser.add_argument('-version',dest = 'version', default = 'large', choices = ['large','small'], help = 'data version to choose')
@@ -33,11 +35,11 @@ class TestGraphEmbeddingMethods(unittest.TestCase):
 		parser.add_argument('-restore',  dest="restore",    action='store_false',       help='Restore from the previous best saved model')
 		parser.add_argument('-res_epoch',        dest="restore_epoch",  default=75,   type =int,        help='Restore from the previous best saved model')
 		args = parser.parse_args()
-		args.dataset = 'data/'+ args.data_type +'/'+ args.version+'/train.txt'
-		args.entity2id = 'data/'+ args.data_type +'/'+ args.version+'/entity2id.txt'
-		args.relation2id = 'data/'+ args.data_type +'/'+ args.version+'/relation2id.txt'
+		args.dataset = '../data/'+ args.data_type +'/'+ args.version+'/train.txt'
+		args.entity2id = '../data/'+ args.data_type +'/'+ args.version+'/entity2id.txt'
+		args.relation2id = '../data/'+ args.data_type +'/'+ args.version+'/relation2id.txt'
 		args.test_data  =  self.input_file # 'data/'+ args.data_type +'/'+ args.version+'/testcase.txt'
-		args.triple2id  =   'data/'+ args.data_type +'/'+ args.version+'/triple2id.txt'
+		args.triple2id  =   '../data/'+ args.data_type +'/'+ args.version+'/triple2id.txt'
 			# args = Namespace(L1_flag=True, M=5, batch_size=50000, data_type='yago', dataset='data/yago/large/train.txt', dropout=1.0, entity2id='data/yago/large/entity2id.txt', gpu='1', inp_dim=128, l2=0.0, lambda_1=0.5, lambda_2=0.25, lr=0.0001, margin=10, max_epochs=25, model='hyte_2_08_04_2019_14:42:12', onlytransE=False, rec_dropout=1.0, relation2id='data/yago/large/relation2id.txt', restore=True, restore_epoch=75, seed=1234, test_data='data/yago/large/testcase.txt', test_freq=25, triple2id='data/yago/large/triple2id.txt', version='large')
 
 		self.graph_embedding = GraphEmbeddingChild(args) # initializes your Graph Embedding class
