@@ -63,11 +63,11 @@ To compute the similarity we use 5 features which are
 
 ## Results
 
-SemEval 2017 = 39.46
+SemEval 2017 = 0.3946
 
-SemEval 2014 = 44.89
+SemEval 2014 = 0.4489
 
-SICK         = 42.54
+SICK         = 0.4254
 
 ## Original Code
 
