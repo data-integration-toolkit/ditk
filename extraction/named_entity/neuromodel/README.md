@@ -35,7 +35,7 @@ compared with that when we only train on the GSC.
 ![avatar](./neuromodel.png)
 
 ##**Input and Output**
-Corpora must be in the BRAT-Standoff annotation:
+For training and testing, corpora must be in the BRAT-Standoff annotation:
 
 Each ’data pair’ contains a .txt file and a .ann file in brat-standoff format.
 
@@ -102,7 +102,7 @@ Link to the Jupyter Notebook:
 [Jupyter](extraction/named_entity/neuromodel/Whole_process_NeuroNER.ipynb)
 
 Link to the video on Youtube:
-
+[youtube](https://youtu.be/u2bYXC3Er2U)
 
 ##**Implementation Steps**
 In order to implement the experiment, the following steps will be a good reference.
