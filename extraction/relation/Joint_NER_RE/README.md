@@ -65,6 +65,11 @@ For other detailed explanation of how to modify the code to run for your dataset
  
  Test Score is 68.95 in 150 epoch on SemEval 2010 Task 8.
  
+ 
+ ## Original Code 
+ 
+ https://github.com/bekou/multihead_joint_entity_relation_extraction
+ 
 
 ## Jupyter Notebook
 You can see the execution of the code in this [jupyter notebook](https://github.com/Sanjithae/Joint_NER_RE/blob/master/Joint_NER_RE_Demo.ipynb)
