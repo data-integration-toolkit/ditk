@@ -47,6 +47,7 @@ other textual features.
 ## Evaluation metrics and results
 Following is the evaluation for DBPedia50k for predicting head and tail done by refactored code:
 |            |        For Head          |         For Tail          |
+|            | :----------------------: |  :----------------------: |
 |            | MRR   | HITS@10 |   MR   |  MRR   | HITS@10 |   MR   |
 | :--------: | :---: | :-----: | :----: |  :---: | :-----: | :----: |
 | DBPedia50k | 0.34  |   0.32  |   89   |  0.57  |   0.75  |   20   |
