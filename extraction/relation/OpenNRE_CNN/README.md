@@ -1,3 +1,4 @@
+Student Name: Debankur Ghosh
 # Neural Relation Extraction with Selective Attention over Instances, Annual meeting of the Association for Computational Linguistics 
 
 
