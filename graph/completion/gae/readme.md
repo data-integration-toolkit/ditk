@@ -12,7 +12,7 @@ This is an implementation of the paper "Modeling Relational Data with Graph Conv
 
 ## Benchmarks
 
-The data set that can be used has been added in the folder test. The test data could not be presented in a text file because it is an adjacency matrix. This code needs 2 adjacency matrices.
+The data set that can be used has been added in the folder test. The test data could not be presented in a text file because it is an adjacency matrix. This code needs 2 adjacency matrices. For this purpose, CORA files have been added. The outher files that could be used are citeseer and pubmed.
 Hence cannot use the the test sample as given common to the group.
 
 ## Run
