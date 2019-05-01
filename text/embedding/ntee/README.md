@@ -28,5 +28,5 @@ https://github.com/studio-ousia/ntee
 - 0.6949 (pearson) 0.6716 (spearman) 5.6852 (Mean Squared Error)
 
 ## Demo
-- Link to the Jupyter Notebook 
+- Jupyter Notebook: <https://github.com/alamashir/ditk/blob/develop-py2/text/embedding/ntee/ntee_execution.ipynb>  
 - Youtube: <https://www.youtube.com/watch?v=DxD6H7SqfjA&t=178s>
