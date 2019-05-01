@@ -1,0 +1,2 @@
+There is no unittest for this paper, because the author define evaluation function inside the model and didn't provide function to input other test files.
+<br>To see the result on CoNLL dataset, you can run script evaluateCoNLL.sh.
