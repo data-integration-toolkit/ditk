@@ -92,7 +92,6 @@ def model_train(num_ensembles,datapath,embeddings_path,optimizer,batch_size,num_
     embeddings = load_embeddings(embeddings_path, word_vocab, 200)
     
     labels = ['B-MISC','I-MISC','O']
-    labels = [0,1]
     
     model_name = 'saved_model_autumn'
     # if not os.path.exists('{}/scratch'.format(datapath)):

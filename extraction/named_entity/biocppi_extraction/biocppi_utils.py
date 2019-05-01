@@ -36,7 +36,7 @@ def write_drtrnn_format_to_file(data,outputFilePath):
                 f.write(line.encode('utf8'))
 
 
-def ditk_to_drtrnn_format(ditkFilePath,tdt='train'):
+def ditk_to_biocppi_format(ditkFilePath,tdt='train'):
     """
     Convert data from ditk format to drtrnn format AND write the resulting
         file to the fixed input data location expected by drtrnn.
@@ -65,9 +65,9 @@ def ditk_to_drtrnn_format(ditkFilePath,tdt='train'):
             data = line.split()
             token = data[0]
             tag = data[3]
-            if tag.startswith('B') or tag.startswith('I'):
-                tag = str(1)
-                #tag = 'I-MISC'
+            # if tag.startswith('B') or tag.startswith('I'):  *diff from ditk_to_drtrnn_format
+            #     tag = str(1)
+            #     #tag = 'I-MISC'
             converted_line = [token,tag]
             converted_lines.append(converted_line)
         else:
@@ -155,9 +155,9 @@ def convert_ditk_to_train_format(file_dict):
     """
     train_file_location,dev_file_location,test_file_location,_ = extract_file_locations(file_dict)
 
-    data_train = ditk_to_drtrnn_format(train_file_location,'train')
-    data_dev = ditk_to_drtrnn_format(dev_file_location,'dev')
-    data_test = ditk_to_drtrnn_format(test_file_location,'test')
+    data_train = ditk_to_biocppi_format(train_file_location,'train')
+    data_dev = ditk_to_biocppi_format(dev_file_location,'dev')
+    data_test = ditk_to_biocppi_format(test_file_location,'test')
 
     data_dict = {'train':data_train,'dev':data_dev,'test':data_test}
 
@@ -444,9 +444,9 @@ def master_token_tag_to_drtrnn(ditk_train,ditk_dev,ditk_test):
     filename_ditk_dev = convert_token_tag_to_ditk_format(filebase_ditk_dev,ditk_dev)
     filename_ditk_test = convert_token_tag_to_ditk_format(filebase_ditk_test,ditk_test)
 
-    data_train = ditk_to_drtrnn_format(filename_ditk_train,'train')
-    data_dev = ditk_to_drtrnn_format(filename_ditk_dev,'dev')
-    data_test = ditk_to_drtrnn_format(filename_ditk_test,'test')
+    data_train = ditk_to_biocppi_format(filename_ditk_train,'train')
+    data_dev = ditk_to_biocppi_format(filename_ditk_dev,'dev')
+    data_test = ditk_to_biocppi_format(filename_ditk_test,'test')
 
     data_dict = {'train':data_train,'dev':data_dev,'test':data_test}
 
