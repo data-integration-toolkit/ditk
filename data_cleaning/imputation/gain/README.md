@@ -25,6 +25,10 @@ The discriminator is trained to minimize the classification loss (when classifyi
 
 The generator is trained to maximize the discriminator’s misclassification rate. Thus, these two networks are trained using an adversarial process. 
 
+## Architecture 
+
+![alt text](https://github.com/aru-jo/ditk/blob/develop/data_cleaning/imputation/gain/readme-images/architecture.png)
+
 ## Running the code
 
 Please refer to gain/demo/GAIN.ipynb to help you start the process 
