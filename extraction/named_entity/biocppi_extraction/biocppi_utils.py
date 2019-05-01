@@ -67,6 +67,7 @@ def ditk_to_drtrnn_format(ditkFilePath,tdt='train'):
             tag = data[3]
             if tag.startswith('B') or tag.startswith('I'):
                 tag = str(1)
+                #tag = 'I-MISC'
             converted_line = [token,tag]
             converted_lines.append(converted_line)
         else:
