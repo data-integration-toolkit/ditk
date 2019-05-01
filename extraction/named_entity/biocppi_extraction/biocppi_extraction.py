@@ -349,6 +349,17 @@ class biocppi_extraction(Ner):
             None
         """
 
+        # if not self.trained_model:  # if trained_model is None or []
+        #     self.trained_model = []
+        #     for i in range(self.num_ensembles):
+        #         try:
+        #             load the model
+        #         except:
+        #             skip or something
+        #         self.trained_model.append(model)
+        # LEFT OFF HERE....
+
+
         if not (len(data) < 1):  # expect empty iterable. if not, write new testing file based on data
             butil.write_drtrnn_format_to_file(data,self.data_path_base +'test.txt')  # NOT YET TESTED
             butil.bio(test_only=True)  # NOT YET IMPLEMENTED....may need to do another round of this.....if JUST data is passed...
