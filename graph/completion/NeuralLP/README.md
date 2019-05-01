@@ -32,9 +32,9 @@ Task:
 Use a Differentiable Model to learn logical rules for Knowledge Base Completion
 
 Approach:
-• This paper aims at learning probabilistic first order logic rules for Knowledge Base Reasoning
-• It uses Neural Logic Programming to learn these logic rules in an end to end differentiable model
-• These learned rules are then used for Knowledge Base Completion
+1. This paper aims at learning probabilistic first order logic rules for Knowledge Base Reasoning
+2. It uses Neural Logic Programming to learn these logic rules in an end to end differentiable model
+3. These learned rules are then used for Knowledge Base Completion
 
 
 ## Evaluation
@@ -45,6 +45,16 @@ The datasets contain rows of the form (entity. relation, entity)
 The evaluation metrics used are Hits@10, Mean Rank and Mean Reciprocal Rank
 
 Results:
+
+WN18:
+
+1. Hits@10: 98.1
+2. MRR: 0.76
+
+FB15K:
+
+1. Hits@10: 65.3
+2. MRR: 0.56
 
 ## To Run
 
