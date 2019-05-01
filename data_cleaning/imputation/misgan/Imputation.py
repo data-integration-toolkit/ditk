@@ -59,13 +59,13 @@ class Imputation(abc.ABC):
 
         # check if we introduce missing value here
         if not args[0].ims:
-            return data, None
+            return [(data, "", None)]
         else:
             # handing introducing missing data here, introduce missing data only for train
             pass
 
         # TODO change None to the mask
-        return data, None
+        return [(data, "", None)]
 
     @classmethod
     @abc.abstractmethod
