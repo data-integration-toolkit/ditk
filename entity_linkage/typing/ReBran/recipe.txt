@@ -1,0 +1,21 @@
+# Main file:
+ditk/entity_linkage/typing/bran/main.py
+
+# Modules:
+Process train, dev, and test data: ditk/entity_linkage/typing/bran/src/processing/utils/process_CDR_data.py
+
+Filter Hypernyms: ditk/entity_linkage/typing/bran/src/processing/utils/filter_hypernyms.py
+
+Convert processed data to tensorflow protobufs: ditk/entity_linkage/typing/bran/src/processing/labled_tsv_to_tfrecords.py
+
+Convert ner data to tf protos: ditk/entity_linkage/typing/bran/src/processing/ner_to_tfrecords.py 
+
+Train Model: ditk/entity_linkage/typing/bran/src/train_multiclass_classifier.py
+
+Predict Model: ditk/entity_linkage/typing/bran/src/predict.py
+
+Evaluate Model: ditk/entity_linkage/typing/bran/src/evaluate.py
+
+Save Model: ditk/entity_linkage/typing/bran/src/train_multiclass_classifier.py
+
+Load Model: ditk/entity_linkage/typing/bran/src/train_multiclass_classifier.py --load_model path/to/model.tf
