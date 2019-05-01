@@ -31,6 +31,7 @@ class biocppi_extraction(Ner):
     labels = ['B-MISC', 'I-MISC', 'O']
     model_name = 'saved_model_autumn/'
     model_name_base = 'model'
+    saved_model_base = data_path_base+model_name+model_name_base
 
 # -------------------------------------init FOR MY CLASS------------------------------#
     def __init__(self,trained_model=[],embeddings_path='embeddings/PubMed-w2v.txt',other_datas={},**kwargs):
@@ -305,7 +306,7 @@ class biocppi_extraction(Ner):
         print('Saving trained models to dir: %s'%(self.data_path_base + self.model_name))
         for i,model in enumerate(self.trained_model):
             print('Saving model %s'%i)
-            model_save_filename = '%s_%s'(self.data_path_base,self.model_name,self.model_name_base,i)
+            model_save_filename = '%s_%s'%(self.saved_model_base,i)
             self.cur_model = model
             self.save_model(model_save_filename)
 
