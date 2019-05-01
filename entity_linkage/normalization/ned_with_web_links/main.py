@@ -54,7 +54,7 @@ class EntityNormalization(abc.ABC):
 
     @classmethod
     @abc.abstractmethod
-    def train(cls, train_sett):
+    def train(cls, train_set):
         '''
         :param train_set: train dataset
         :return: trained model
@@ -63,12 +63,12 @@ class EntityNormalization(abc.ABC):
 
         ec_model = links \
             .EntityCounts(min_count=5, filter_target=wikipedia_pfx) \
-            .build(train_sett) \
+            .build(train_set) \
             .map(links.EntityCounts.format_item)
 
         enc_model = links \
             .EntityNameCounts(lowercase=True, filter_target=wikipedia_pfx) \
-            .build(train_sett) \
+            .build(train_set) \
             .filter(lambda (name, counts): sum(counts.itervalues()) > 1) \
             .map(links.EntityNameCounts.format_item)
 
@@ -91,7 +91,7 @@ class EntityNormalization(abc.ABC):
 
         training_pipeline = Pipeline(candidate_generation + feature_extraction)
 
-        training_docs = [from_sift(doc) for doc in train_sett.takeSample(False, 100)]
+        training_docs = [from_sift(doc) for doc in train_set.takeSample(False, 100)]
 
         train = [training_pipeline(doc) for doc in training_docs]
         ranker = ranking.TrainLinearRanker(name='ranker', features=[f.id for f in feature_extraction])(train)
