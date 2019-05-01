@@ -17,7 +17,7 @@ class TestGraphEmbeddingMethods(unittest.TestCase):
 		self.assertTrue(validation, list) # assert non-empty list
 		self.assertTrue(test, list) # assert non-empty list
 		#Check embeddings
-		train_hrt_input, train_hrt_weight, train_trh_input, train_trh_weight, train_loss, train_op, ent, rel = self.graph_embedding.learn_embeddings(data = self.input_file, argDict = args)
+		train_hrt_input, train_hrt_weight, file, train_trh_input, train_trh_weight, train_loss, train_op, ent, rel = self.graph_embedding.learn_embeddings(data = self.input_file, argDict = args)
 		embedding_vector_ent = np.array(ent)
 		embedding_vector_rel = np.array(rel)
 		self.assertEqual(embedding_vector_ent.shape[0], 10623) #10623 entities in YAGO
