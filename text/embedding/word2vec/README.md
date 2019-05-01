@@ -83,6 +83,9 @@ pip install gensim
 2) Ensure that the main.py, word2vec.py, datasets are in the same folder, if not give the absolute paths accordingly.
 3) Run main.py
 
+Jupyter Notebook
+-------------------------------------
+https://github.com/LavanyaMalladi/ditk/blob/develop/text/embedding/word2vec/Word2Vec.ipynb
 Video
 -------------------------------------
 https://www.youtube.com/watch?v=AWmI1AIYgM8
