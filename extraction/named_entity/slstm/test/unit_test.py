@@ -3,7 +3,7 @@ import pandas as pd
 import sys
 sys.path.append("..")
 from model.config import Config
-import final_refact_slstm
+import main
 import tensorflow as tf
 import csv
 
