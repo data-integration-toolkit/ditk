@@ -24,6 +24,9 @@ cd <root>/ditk
 python3 extraction/named_entity/lmlstmcrf/test/test.py
 ```
 
+Not included in this repo is the glove word embedding file which can be found here:
+https://nlp.stanford.edu/projects/glove/
+
 ### Input/Output for Prediction
 Input
 Space separated format generalized for the group.
