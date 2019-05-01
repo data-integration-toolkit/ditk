@@ -31,6 +31,9 @@ from wikipedia2vec.utils.wiki_dump_reader import WikiDumpReader
 from wikipedia2vec.utils.tokenizer import get_tokenizer, get_default_tokenizer
 from wikipedia2vec.utils.sentence_detector import get_sentence_detector
 
+#Provide path to parent class file
+import graph_embedding
+
 #class Wikipedia2vec(graph_embedding.Graph_Embedding):
 class Wikipedia2vec():
 	"""
@@ -225,9 +228,10 @@ class Wikipedia2vec():
 		Raises:
 			None
 		"""
-		
+		output_file = os.path.join(os.getcwd(),out_file)
 		wiki2vec = Wikipedia2Vec.load(model_file)
-		wiki2vec.save_text(out_file, out_format)
+		wiki2vec.save_text(out_file, output_file)
+		return output_file
 
 
 	def load_model(self):
@@ -255,7 +259,8 @@ class Wikipedia2vec():
 			else:
 				result[item] = 'None'
 
-		with open("embeddings.txt","w+") as f:
+		output_file = os.path.join(os.getcwd(),'embeddings.txt')
+		with open(output_file,"w+") as f:
 			for k, v in result.items():
 				try:
 					if v != 'None':
@@ -263,13 +268,13 @@ class Wikipedia2vec():
 				except UnicodeEncodeError:
 					continue	
 		f.close()
-		embeddings = np.genfromtxt("embeddings.txt", delimiter='\t', dtype='str')
-		return embeddings
+		embeddings = np.genfromtxt(output_file, delimiter='\t', dtype='str')
+		return embeddings, output_file
 
 		
 
 
-	def evaluate(self, *args, **kwargs):
+	def evaluate(self, filename, *args, **kwargs):
 		"""
 		Calculates evaluation metrics on chosen benchmark dataset [Precision,Recall,F1, or others...]
 
@@ -288,7 +293,7 @@ class Wikipedia2vec():
 		# compute cosine_similairty(A1,A2)
 		# cosine_similarity = (A1 . A2)/(||A|| x ||B||)
 		
-		with open("embeddings.txt","r") as f:
+		with open(filename,"r") as f:
 			data = []
 			for line in f:
 				data_line = line.rstrip().split('\t')

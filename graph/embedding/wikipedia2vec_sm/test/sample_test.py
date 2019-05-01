@@ -9,7 +9,7 @@ class TestGraphEmbeddingMethods(unittest.TestCase):
 	def setUp(self):
 		#self.graph_embedding = GraphEmbedding() # initializes your Graph Embedding class
 		self.graph_embedding = Wikipedia2vec()
-		self.input_file = 'sample_input.txt'
+		self.input_file = 'yago.txt'
 	
 	def test_read_dataset(self):
 		train, validation, test = self.graph_embedding.read_dataset()
@@ -19,16 +19,13 @@ class TestGraphEmbeddingMethods(unittest.TestCase):
 		self.assertTrue(test, list) # assert non-empty list
 	
 	def test_learn_embeddings(self):
-		#Check output of the learned embedding
-		#output_vec = graph_embedding.main(self.input_file)
-		output_vec = self.graph_embedding.learn_embeddings('output.db','output_dic','final_output_text')
+		output_vec, out_file = self.graph_embedding.load_model()
 		embedding_vector = np.array(output_vec)
-		self.assertEquals(embedding_vector.shape[0],10039)
+		self.assertEquals(embedding_vector.shape[0],1474)
 		self.assertEquals(embedding_vector.shape[1],2) #Example: output vec should be 3 x 300
-	
+
 	def test_evaluate(self):
-		evaluations = self.graph_embedding.evaluate()
-		f1 = self.graph_embedding.evaluate()
+		f1 = self.graph_embedding.evaluate("embeddings.txt")
 		self.assertIsInstance(f1, float)
 		
 

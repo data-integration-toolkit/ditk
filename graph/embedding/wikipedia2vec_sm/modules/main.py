@@ -1,6 +1,6 @@
 from Wikipedia2vec import Wikipedia2vec
 
-def main():
+def main(filename):
 	"""
 	# Sample workflow:
 
@@ -23,25 +23,26 @@ def main():
 	print('Cosine Similarity: %s'%(cosine_similarity))
 
 	"""
-	pre_trained = False
+	pre_trained = True
 	obj = Wikipedia2vec()
 	if pre_trained:
 		obj.read_dataset()
-		filename, embeddings = obj.load_model()
-		ans = obj.evaluate(filename)
-		print ans
+		output_file = obj.load_model()
+		obj.evaluate(output_file)
+		
 	else:
-		#dump_file = 'enwiki-latest-pages-articles.xml.bz2'
-		#obj.read_dataset()
-		#obj.build_dump(dump_file, 'output.db')
-		#obj.build_dictionary('output.db', 'output_dic')
-		#obj.build_link_graph('output.db', 'output_dic', 'output_lg')
-		#obj.build_mention_db('output.db', 'output_dic', 'output_md')
-		#obj.train_embedding('output.db', 'output_dic', 'final_output')
-		#obj.save_text('final_output', 'final_output_text')
-		ans = obj.evaluate('final_output_text')
-		print ans
+		dump_file = 'enwiki-latest-pages-articles.xml.bz2'
+		obj.read_dataset()
+		obj.build_dump(dump_file, 'output.db')
+		obj.build_dictionary('output.db', 'output_dic')
+		obj.build_link_graph('output.db', 'output_dic', 'output_lg')
+		obj.build_mention_db('output.db', 'output_dic', 'output_md')
+		obj.train_embedding('output.db', 'output_dic', 'final_output')
+		output_file = obj.save_text('final_output', 'final_output_text')
+		obj.evaluate('final_output_text')
+	return output_file
 	
 
 if __name__ == '__main__':
-    main()
+	filename = 'yago.txt'
+	main(filename)
