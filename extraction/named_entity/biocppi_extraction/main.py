@@ -16,7 +16,7 @@ def main(inputFilePath):
     # convert dataset to properformat used by training
     # 1] read_dataset()
 
-    test unittest...good!
+    # test unittest...good!
     dataset_name = 'unittest'
     file_dict = {'train':{'data':inputFilePath},'dev':{},'test':{}}
 
