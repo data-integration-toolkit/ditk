@@ -311,7 +311,7 @@ class biocppi_extraction(Ner):
             self.save_model(model_save_filename)
 
         # test loading of trained models only! NOT YET IMPLEMENTED
-        self.trained_model = None
+        self.trained_model = []
         for i in range(self.num_ensembles):
             model_save_filename = '%s_%s'%(self.saved_model_base,i)    
             self.load_model(self.model_save_filename)
