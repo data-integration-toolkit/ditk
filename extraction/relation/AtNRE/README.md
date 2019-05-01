@@ -114,6 +114,7 @@ AtNRE/DITK | 0.73 | 0.79 |
 
 Jupyter Notebook: https://github.com/aru-jo/ditk/blob/develop/extraction/relation/AtNRE/demo/AtNRE.ipynb
 
-Youtube Link: N/A
+Youtube Link: https://youtu.be/3PM1YlM3UPE
+
 
 
