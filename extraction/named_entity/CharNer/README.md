@@ -1,4 +1,5 @@
 # CharNER: Character-Level Named Entity Recognition
+This repository is based on the following paper<br>
 Onur Kuru, Arkan Ozan Can, and Deniz Yuret. Charner: Character-level named entity recognition. In Proceedings of the 26th International Conference on Computational Linguistics, pages 911–921. Osaka, Japan, December 2016
 
 
@@ -114,12 +115,20 @@ model = charNerModel.load_model("../model")
 ## To Test
 ![](./photos/test_Case.png)
 
-## Link to Jutyper Notebook and video
+## Link to Jupytper Notebook and video
 * [CharNerModel.ipynb](./JupyterNotebook/CharNerModel.ipynb)
 * [Video](https://youtu.be/B16Cw7veOTQ)
-## Reference
+
+## Original Code
 * [Nur Lan's Keras Implementation](https://github.com/0xnurl/keras_character_based_ner)
 * [Onur Kuru's Char NER Repo (Official Implementation)](https://github.com/ozanarkancan/char-ner)
 
+## Citation
 
+@inproceedings{Kuru2016CharNERCN,
+  title={CharNER: Character-Level Named Entity Recognition},
+  author={Onur Kuru and Ozan Arkan Can and Deniz Yuret},
+  booktitle={COLING},
+  year={2016}
+}
 
