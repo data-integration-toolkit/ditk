@@ -586,9 +586,9 @@ class sensim:
         predictions = model.predict(X_test)
 
         a = scipy.stats.pearsonr(predictions, y_test)
-        print("The pearson correlation Coefficient is ", a[0].__round__(6) * 100)
+        print("The pearson correlation Coefficient is ", a[0].__round__(6) )
 
-        return a[0].__round__(6) * 100
+        return a[0].__round__(6) 
 
 
 
