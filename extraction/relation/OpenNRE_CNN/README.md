@@ -1,4 +1,3 @@
-Student Name: Debankur Ghosh
 # Neural Relation Extraction with Selective Attention over Instances, Annual meeting of the Association for Computational Linguistics 
 
 
@@ -89,19 +88,20 @@ with open("test_result/nyt_pcnn_ave_pred.json") as f:
 
 ### Benchmark datasets
 * SemEval2010
-* Precision = 0.86
-* Recall = 0.89
-* F1 = 87.49
+
+* F1 = 0.45
 <br>
 * DDI2013
-* Precision = 0.67
-* Recall = 0.80
-* F1 = 72.85
+
+* F1 = 0.24
 <br>
 * NYT
-* Precision = 0.80
-* Recall = 0.20
-* F1 = 32.18
+
+* F1 = 0.39
+* Mean: 0.642129036626
+
+### Precision Recall Curve 
+https://imgur.com/fVIjdCF
 
 ### jupyter file
 * playground.ipynb
@@ -112,6 +112,6 @@ with open("test_result/nyt_pcnn_ave_pred.json") as f:
 ### Citation
 ```
 Yankai Lin, Shiqi Shen, Zhiyuan Liu, Huanbo Luan, Maosong Sun, Neural Relation Extraction with Selective Attention over Instances, Annual meeting of the Association for Computational Linguistics (ACL), Berlin, Germany, 2016 
-GitHub: https: //github.com/thunlp/NRE
+GitHub: https: //github.com/thunlp/NRE
 
 ```
