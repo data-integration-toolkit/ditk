@@ -1,7 +1,6 @@
 from text.similarity.text_similarity import TextSemanticSimilarity
 import pandas as pd
 import sys
-import os
 from decimal import Decimal
 from text.similarity.Siamese_LSTM.src.Siamese_LSTM import Siamese_LSTM
 import pickle
