@@ -135,6 +135,8 @@ def model_train(num_ensembles,datapath,embeddings_path,optimizer,batch_size,num_
         m.save(save_path)
         print "Saved model {} to {}".format(j,save_path)
 
+    return m
+
 def load_embeddings(fname, vocab, dim=200):
     if not os.path.exists('./scratch'):
         os.mkdir('./scratch')
