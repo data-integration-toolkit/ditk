@@ -19,7 +19,7 @@ This is a toolkit to predict two sentence's semantic similarity score, the main 
 4.the similarity between these representations is used as a predictor of semantic similarity.
 
 The architecture of the model:  
-<img src="https://github.com/JoeyJoey/ditk/blob/develop/text/similarity/Siamese_LSTM/picture/Siamese_LSTM.jpg" width="450" height="600" alt="Siamese_LSTM"/>     
+<img src="https://github.com/JoeyJoey/ditk/blob/develop/text/similarity/Siamese_LSTM/picture/Siamese_LSTM.jpg" width="450" height="450" alt="Siamese_LSTM"/>     
 <br>
 
 sample work flow of the toolkit: read_dataset,load_model (or train model),prediction,evaluation.
