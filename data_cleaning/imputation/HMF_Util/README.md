@@ -38,7 +38,7 @@ The evaluation metric used was Root Mean Square Error (RMSE)
 
 Results:
 
-. UCI Breast Cancer Dataset - RMSE: 0.4950865997
+1. UCI Breast Cancer Dataset - RMSE: 0.4950865997
 2. UCI Spam Dataset - RMSE: 0.128437365988
 3. UCI Letters Dataset - RMSE: 1.13686353267
 
