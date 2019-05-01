@@ -618,6 +618,15 @@ class disease_name_recognition_through_rnn(Ner):
 
         outputPredictionsFile = 'predictions.txt'
         finalOutputFile = dutil.copy_predictions_to_predictions_with_header(raw_predictions_filename=outputPredictionsFile)
+
+        # read from predictions file for evaluate
+        evaluation_results = self.evaluate(None,None)
+
+        # use direct data for evaluate
+        # groundTruths = load_groundTruth_from_predictions(raw_predictions_filename=outputPredictionsFile)
+        # evaluation_results = drtrnn.evaluate(predictions,groundTruths)
+
+        print('%s'%str(evaluation_results))
     
         return finalOutputFile  # NOT FULLY IMPLEMENTED
 

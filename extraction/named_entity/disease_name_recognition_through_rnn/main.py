@@ -9,15 +9,15 @@ def main(inputFilePath):
     #instantiate a model!
 
     # test params:
-    test_params = {'n_iter':100001,'m_report':1000000,'save_checkpoint_models':False}  # note, it m_report > n_iter no evals on dev/test will be done during training [provides slightly faster runtime]
+    test_params = {'n_iter':101,'m_report':1000000,'save_checkpoint_models':False}  # note, it m_report > n_iter no evals on dev/test will be done during training [provides slightly faster runtime]
     drtrnn = disease_name_recognition_through_rnn(**test_params)
 
     # convert dataset to properformat used by training
     # 1] read_dataset()
 
-    # # test unittest...good!
-    # dataset_name = 'unittest'
-    # file_dict = {'train':{'data':inputFilePath},'dev':{},'test':{}}
+    # test unittest...good!
+    dataset_name = 'unittest'
+    file_dict = {'train':{'data':inputFilePath},'dev':{},'test':{}}
 
     # # test conll2003...good!
     # dataset_name = 'CoNLL_2003'
@@ -37,19 +37,19 @@ def main(inputFilePath):
     # raw_data_test_file = dataset_dir + 'onto.test.ner'
     # file_dict = {'train':{'data':raw_data_train_file},'dev':{'data':raw_data_dev_file},'test':{'data':raw_data_test_file}}
 
-    # test CHEMDNER...good!
-    dataset_name = 'CHEMDNER'
-    # dataset_dir = '/smol/'  # smol sample
-    dataset_dir = '/Users/olderhorselover/USC/spring2019/csci_548_diotw/project/groupedProject/chemdner_corpus/'
-    raw_data_train_file = dataset_dir + 'training.abstracts.txt'
-    raw_data_dev_file = dataset_dir + 'development.abstracts.txt'
-    raw_data_test_file = dataset_dir + 'evaluation.abstracts.txt'
-    raw_annot_train_file = dataset_dir + 'training.annotations.txt'
-    raw_annot_dev_file = dataset_dir + 'development.annotations.txt'
-    raw_annot_test_file = dataset_dir + 'evaluation.annotations.txt'
-    file_dict = {'train':{'data':raw_data_train_file,'extra':raw_annot_train_file},
-                'dev':{'data':raw_data_dev_file,'extra':raw_annot_dev_file},
-                'test':{'data':raw_data_test_file,'extra':raw_annot_test_file}}
+    # # test CHEMDNER...good!
+    # dataset_name = 'CHEMDNER'
+    # # dataset_dir = '/smol/'  # smol sample
+    # dataset_dir = '/Users/olderhorselover/USC/spring2019/csci_548_diotw/project/groupedProject/chemdner_corpus/'
+    # raw_data_train_file = dataset_dir + 'training.abstracts.txt'
+    # raw_data_dev_file = dataset_dir + 'development.abstracts.txt'
+    # raw_data_test_file = dataset_dir + 'evaluation.abstracts.txt'
+    # raw_annot_train_file = dataset_dir + 'training.annotations.txt'
+    # raw_annot_dev_file = dataset_dir + 'development.annotations.txt'
+    # raw_annot_test_file = dataset_dir + 'evaluation.annotations.txt'
+    # file_dict = {'train':{'data':raw_data_train_file,'extra':raw_annot_train_file},
+    #             'dev':{'data':raw_data_dev_file,'extra':raw_annot_dev_file},
+    #             'test':{'data':raw_data_test_file,'extra':raw_annot_test_file}}
 
     
     data = drtrnn.read_dataset(file_dict, dataset_name)  # data read, converted, and written to files in proper location expected by train
