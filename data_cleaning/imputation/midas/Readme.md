@@ -70,7 +70,9 @@ https://github.com/karishma-chadha/ditk/blob/develop/data_cleaning/imputation/mi
 
 - Link to the video on Youtube
 
-## To Run the Code
+https://www.youtube.com/watch?v=8fmfAIBPJ6I&feature=youtu.be
+
+## How To Run the Code
 
 - Follow the Jupyter Notebook closely for demo on running commands for the code
 
