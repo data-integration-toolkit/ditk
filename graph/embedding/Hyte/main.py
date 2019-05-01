@@ -586,6 +586,11 @@ class GraphEmbeddingFromModel(Model):
             validation_data = self.read_valid(self.p.test_data)
         else:
             validation_data = self.read_valid(validation_data)
+            
+        save_dir = 'checkpoints/' + self.p.model + '/'
+        if not os.path.exists(save_dir): os.makedirs(save_dir)
+        save_dir_results = './results/'+ self.p.model + '/'
+        if not os.path.exists(save_dir_results): os.makedirs(save_dir_results)
         
         
             ## feed_dict = self.create_feed_dict()
