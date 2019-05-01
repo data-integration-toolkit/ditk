@@ -115,24 +115,24 @@ Note: Download the processed version of the dataset from https://drive.google.co
 
 •	Finally, run the script **preprocess.sh**. **make_bags.py** is used for generating bags from sentence. **generate_pickle.py** is for converting the data in the required pickle format.
 
-**Evaluating a pretrained model:**
+### **Evaluating a pretrained model:**
 
 The pretrained model has been stored in the checkpoint folder. Run the following command:
 
 python3 reside.py –restore –only_eval
 
-**Training from scratch:**
+### **Training from scratch:**
 
 Run the command:
 
 **python3 reside.py**
 
-**Jupyter Notebook:**
+## **Jupyter Notebook:**
 
 **reside_demo.ipynb**
 
 _Note: Since RESIDE takes a long time to train, the Jupyter notebook has been run on a model previously trained by me._
 
-**YouTube link:**
+## **YouTube link:**
 
 https://youtu.be/BR2SqNbeUD0
