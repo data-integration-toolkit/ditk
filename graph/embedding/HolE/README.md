@@ -109,6 +109,10 @@ HolE/
 ## How to run it
 - In the main.py, give the path of train, validation and test datafiles.
 - The project will be invoked by simply running the main.py
+- - The input files should be passed together in a dictionary, like
+```
+fileNames = ["train.txt","valid.txt", "test.txt"]
+```
 - When the main function is executed, read_dataset function, learn_embeddings function, save_model function and evaluate function will be executed in order.
 - To adjust the model, change the parameters in base.py under the HolE folder
 
