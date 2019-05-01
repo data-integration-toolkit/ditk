@@ -104,12 +104,14 @@ class ProjE(GraphEmbedding):
             str1 = file.readline()
             str2 = str1.strip().split()
             output.write("Entity-"+str2[1]+" "+str(each)+"\n")
+        file.close()
         file = open(os.path.join(args['data_dir'], "relation2id.txt"), "r")
         rel_list = rel_embed.tolist()
         for each in rel_list:
             str1 = file.readline()
             str2 = str1.strip().split()
             output.write("Relation-"+str2[1]+" "+str(each)+"\n")
+        file.close()
         output.close()
 
     def corrupted_training(self, htr):
