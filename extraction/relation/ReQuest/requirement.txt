@@ -1,0 +1,29 @@
+python==2.7
+ujson==1.35
+tqdm==4.31.1
+pexpect==4.7.0
+requests==2.21.0
+protobuf==3.7.1
+stanfordcorenlp==3.9.1.1
+stanza==0.3
+Unidecode==1.0.23
+numpy==1.16.2
+nltk==3.4
+
+********************************************************************
+How to run C++ code in Jupyter Notebook using Xeus-Cling Kernel.
+********************************************************************
+
+OoenCV and dlib should be installed on your system, Add these statements in a single file (includeLibraries.h)
+A miniconda installation should be there
+
+create an environment named cling with the ocnda installation
+
+condo create -n cling
+source activate cling
+
+Then install environment xeus-cling and it's dependencies
+
+condo install xeus-cling notebook -c QuantStack -c conda forge
+
+Now you will be able to execute C++ file in Jupyter Notebook.

@@ -1,0 +1,13 @@
+# Main file:
+ditk/extraction/relation/ReQuest/main.py
+
+it is not fully functional.
+
+# Modules:
+Process train, dev, and test data: ditk/extraction/relation/ReQuest/code/DataProcessor/feature_generation.py 
+
+Train Model: ditk/extraction/relation/ReQuest/code/Model/request/request
+
+Predict Model: ditk/extraction/relation/ReQuest/code/Evaluation/emb_test.py
+
+Evaluate Model: ditk/extraction/relation/ReQuest/code/Evaluation/emb_test.py
