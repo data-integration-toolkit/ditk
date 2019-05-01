@@ -1,6 +1,6 @@
 # Edge2vec
 
-This is an implementation of the paper "edge2vec: Representation learning using edge semantics for biomedical knowledge discovery"
+This is an implementation of the paper "edge2vec: Representation learning using edge semantics for biomedical knowledge discovery". In this paper, we propose the edge2vec model, which represents graphs considering edge semantics. An edge-type transition matrix is trained by an Expectation-Maximization approach, and a stochastic gradient descent model is employed to learn node embedding on a heterogeneous graph via the trained transition matrix.
 
 ## Installation
 
@@ -29,7 +29,7 @@ Since this has multiple python files, main.py has been created as mentioned.
 This file is the child class of the common parent class for the group. It inherits all the methods and implements them.
 
 To run main.py, input.txt has to be placed in the same directory as main.py. 
-The transition model gets saved in the file matrix.txt and the final embedding gets saved in a file vector.txt.
+The transition model gets saved in the file matrix.txt which is an edge type matrix. This model is hence used to get the final node ebmedding which is saved in a file vector.txt.
 
 ## Reasons
 
