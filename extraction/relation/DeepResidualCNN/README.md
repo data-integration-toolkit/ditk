@@ -8,10 +8,10 @@ Yi Yao Huang and William Yang Wang, Deep Residual Learning for Weakly-Supervised
 ![Architecture](https://user-images.githubusercontent.com/16465582/30602043-05f63dd6-9d96-11e7-9f2e-382e15a2b37a.png)
 
 
-###Original Code
+### Original Code
 https://github.com/darrenyaoyao/ResCNN_RelationExtraction
 
-###Description
+### Description
 This work discuss about how we solve the noise from distant supervision. 
 We propose the Deep Residual Learning for relation extraction and mitigate the influence from the noisy in semi-supervision training data.
 This paper is published in EMNLP2017.
@@ -21,7 +21,7 @@ This paper is published in EMNLP2017.
 * Tensorflow >= 1.6
 * Numpy
 
-###Input and Output
+### Input and Output
 * For Training-
 
     Input is a sentence or a file annotated with entities and their positions.
@@ -68,13 +68,13 @@ This paper is published in EMNLP2017.
     DDI 2013
 
 ## Result
-#![Result](https://user-images.githubusercontent.com/16465582/30602544-6c3bd1a4-9d97-11e7-9f8f-807b436ede16.png)
+![Result](https://user-images.githubusercontent.com/16465582/30602544-6c3bd1a4-9d97-11e7-9f8f-807b436ede16.png)
 vector1.txt: You can use Glove vector or Word2Vec. Here is the link I used in experiment : https://drive.google.com/open?id=0B-ZjKY509crKQXA0Y2FfbFJMY0E
 
 
 ## Demo
 
-* Link to the Jupyter Notebook
+* [Link to the Jupyter Notebook](./DeepResidualmain.ipynb)
 
 * [Link to the Youtube Video](https://youtu.be/dgsUqj7Vvsg)
 
