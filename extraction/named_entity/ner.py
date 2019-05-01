@@ -1,5 +1,6 @@
 import abc
 
+
 class Ner(abc.ABC):
 
     @abc.abstractmethod
@@ -110,7 +111,6 @@ class Ner(abc.ABC):
 
         # return (precision, recall, f1)
 
-        	
     @abc.abstractmethod
     def save_model(self, file):
         """
@@ -126,16 +126,6 @@ class Ner(abc.ABC):
         :return:
         """
         pass
-        
-
-    @abc.abstractmethod
-    def load_model(self, file):
-        """
-        :param file: From where to load the model - Optional function
-        :return:
-        """
-        pass
-
 
 
 """
@@ -156,4 +146,3 @@ test_labels = myModel.convert_ground_truth(data['test'])  <-- need ground truth 
 P,R,F1 = myModel.evaluate(predictions, test_labels)  # calculate Precision, Recall, F1
 print('Precision: %s, Recall: %s, F1: %s'%(P,R,F1))
 """
-
