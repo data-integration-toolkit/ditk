@@ -46,6 +46,7 @@ class biocppi_extraction(Ner):
     def __init__(self,trained_model=None,embeddings_path='embeddings/PubMed-w2v.txt',other_datas={},**kwargs):
         self.trained_model = trained_model  # nothing to start. filled by train()
 
+        self.num_ensembles = 3  # number of full models to train! each model will train for a max of num_iterations
         self.optimizer = 'adam'  # optimizer to use, in 'default, rmsprop, adagrad, adam'. set to adam for now
         self.batch_size = 16  # batch size for training
         self.num_iterations = 5000  # number of iterations to run [an iteration is a parameter/weight update cycle from optimizer on singel batch] PER MODEL [i.e. single component of ensemble]
@@ -57,6 +58,8 @@ class biocppi_extraction(Ner):
         self.num_cores = 4  # number of cores to exploit parallelism
         self.seed = 2  # random seed to use for pseudorandom initializations and reproducibility
 
+        if 'num_ensembles' in kwargs:
+            self.num_ensembles = kwargs['num_ensembles']
         if 'embeddings_path' in kwargs:
             self.embeddings_path = kwargs['embeddings_path']
         if 'optimizer' in kwargs:
@@ -78,6 +81,9 @@ class biocppi_extraction(Ner):
             self.num_cores = kwargs['num_cores']
         if 'seed' in kwargs:
             self.seed = kwargs['seed']
+
+        if self.num_it_per_ckpt > self.num_iterations:
+            self.num_it_per_ckpt = int(self.num_iterations/2)  # requirement for num_it_per_ckpt < num_iterations
 
 
         self.other_datas = other_datas  # data structure for special model parameters/extra datas

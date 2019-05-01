@@ -35,11 +35,12 @@ import argparse
 # parser.add_argument('--seed', dest='seed', type=int, 
 #                     default=2, help='seed for training')
 
-num_ensembles = 10
+# num_ensembles = 10
 
 # def main(args):
-def model_train(datapath,embeddings_path,optimizer,batch_size,num_iterations,num_it_per_ckpt,learning_rate,embedding_factor,decay_rate,keep_prob,num_cores,seed):
-
+def model_train(num_ensembles,datapath,embeddings_path,optimizer,batch_size,num_iterations,num_it_per_ckpt,learning_rate,embedding_factor,decay_rate,keep_prob,num_cores,seed):
+    
+    # num_ensembles = 10  # number of models to train!
     # datapath = 'corpus_train/'  # data directory
     # embeddings_path = 'embeddings/PubMed-w2v.txt'  # path to embeddings file. expects 200d embeddings. REQUIRED
     # optimizer = 'adam'  # optimizer to use, in 'default, rmsprop, adagrad, adam'. set to adam for now
@@ -54,6 +55,7 @@ def model_train(datapath,embeddings_path,optimizer,batch_size,num_iterations,num
     # seed = 2  # random seed to use for pseudorandom initializations and reproducibility
 
     print "Running BiLSTM model"
+    print('Will train %s total models [num_ensembles]'%num_ensembles)
     print args
     random.seed(seed)
     

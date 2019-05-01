@@ -9,7 +9,7 @@ def main(inputFilePath):
     #instantiate a model!
 
     # test params:
-    test_params = {'n_iter':101,'m_report':1000000,'save_checkpoint_models':False}  # note, it m_report > n_iter no evals on dev/test will be done during training [provides slightly faster runtime]
+    test_params = {'num_ensembles':2,'num_iterations':101,'num_it_per_ckpt':1000000}  # note, it num_it_per_ckpt > num_iterations then num_it_per_ckpt will be set to half of num_iterations
     biocppi = biocppi_extraction(**test_params)
 
     # convert dataset to properformat used by training
