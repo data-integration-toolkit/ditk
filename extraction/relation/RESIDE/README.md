@@ -105,7 +105,7 @@ _Relation alias side information extraction for a given sentence. First, Syntact
 
 ## **How to run:**
 
-Note: Download the processed version of the dataset from https://drive.google.com/file/d/1UD86c_6O_NSBn2DYirk6ygaHy_fTL-hN/view and save it in the **data** folder.
+Note: Download the processed version of the dataset from https://drive.google.com/file/d/1UD86c_6O_NSBn2DYirk6ygaHy_fTL-hN/view and save it in the **data** folder. Then execute **setup.sh** to download the Glove embeddings.
 
 ### **Preprocessing a new dataset:**
 
