@@ -54,4 +54,4 @@ Files:
 ## Demo
 
 - Link to the Jupyter Notebook
-- Link to the video on Youtube
+- Youtube video: https://youtu.be/J1DDpjkLxP0
