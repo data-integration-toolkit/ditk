@@ -10,7 +10,7 @@ parent2 = sys.path[0].rfind('\\')
 
 sys.path[0] = sys.path[0][:max(parent, parent2)]
 
-from Imputation import Imputation
+from misgan.Imputation import Imputation
 
 import argparse
 from misgan.modules import preprocess
