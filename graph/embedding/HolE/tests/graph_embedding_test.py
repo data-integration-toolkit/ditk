@@ -1,6 +1,6 @@
 import unittest
 import graph.embedding.HolE.skge.param
-from graph.embedding.HolE import Holographic_Embedding
+from graph.embedding.HolE import holographic_embedding
 import os
 import numpy as np
 
@@ -9,7 +9,7 @@ class TestGraphEmbeddingMethods(unittest.TestCase):
 	def setUp(self):
 		#self.graph_embedding = GraphEmbedding() # initialize your Blocking method
 
-		self.graph_embedding = Holographic_Embedding.HolE_Embedding()
+		self.graph_embedding = holographic_embedding.HolE_Embedding()
 		self.fileName = ['/Users/boyuzhang/ditk/graph/embedding/HolE/tests/test_input/train.txt','/Users/boyuzhang/ditk/graph/embedding/HolE/tests/test_input/valid.txt','/Users/boyuzhang/ditk/graph/embedding/HolE/tests/test_input/test.txt']
 		self.output_file = "output.txt"
 		self.output= self.graph_embedding.main(self.fileName)

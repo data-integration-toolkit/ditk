@@ -117,5 +117,5 @@ fileNames = ["train.txt","valid.txt", "test.txt"]
 - To adjust the model, change the parameters in base.py under the HolE folder
 
 ## Demo
-- [Sample notebook](./Graph_embedding.ipynb)
+- [Sample notebook](./graph_embedding.ipynb)
 - [Demo Video](https://youtu.be/RRnIsnlIumM)

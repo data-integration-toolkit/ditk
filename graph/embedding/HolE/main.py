@@ -1,14 +1,15 @@
-from graph.embedding.HolE import Holographic_Embedding
+from graph.embedding.HolE import holographic_embedding
 import numpy as np
 
 
 def main(fileName):
-    example = Holographic_Embedding.HolE_Embedding()
+    example = holographic_embedding.HolE_Embedding()
 
     example.input_file = fileName
     prefix = ''
     if fileName[0].rfind('/') >= 0:
         prefix = fileName[0][:fileName[0].rfind('/')] + '/'
+
     example.output_file = prefix + 'output.txt'
 
     example.train, example.valid, example.test, example.entities, example.relations = example.read_dataset()
