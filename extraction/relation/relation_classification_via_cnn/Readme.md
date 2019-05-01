@@ -23,7 +23,7 @@
 
 ## Input and Output
 ### Input
-* Training and testing txt files named "relation_extraction_input_train.txt" and "relation_extraction_input_test.txt" respectively
+* Training and testing text files named "relation_extraction_input_train.txt" and "relation_extraction_input_test.txt" respectively
 * Format is generalized for the whole group; attributes are separated by tab
 ```
 sentence    entity1  entity1_type entity1_start_position    entity1_end_position  entity2  entity2_type entity2_start_position    entity2_end_position  relation_type
@@ -32,7 +32,7 @@ sentence    entity1  entity1_type entity1_start_position    entity1_end_position
     * Since the model originally uses one of the benchmarks SemEval2010 Task8, no data preprocessing is needed for this specific dataset
 
 ### Output
-* Output txt file named "relation_extraction_output.txt"
+* Output text file named "relation_extraction_output.txt"
 * Format is generalized for the whole group; attributes are separated by tab
 ```
 sentence    entity1  entity2  relation_type_predicted  relation_type_ground_truth
