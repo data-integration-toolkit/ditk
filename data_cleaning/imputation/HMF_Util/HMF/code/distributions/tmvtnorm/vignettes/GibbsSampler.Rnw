@@ -1,0 +1,202 @@
+%\VignetteIndexEntry{A short description of the Gibbs Sampler}
+\documentclass[a4paper]{article}
+\usepackage{Rd}
+\usepackage{amsmath}
+\usepackage{natbib}
+\usepackage{palatino,mathpazo}
+\usepackage{Sweave}
+
+%\newcommand{\pkg}[1]{\textbf{#1}}
+\newcommand{\vecb}[1]{\ensuremath{\boldsymbol{\mathbf{#1}}}}
+
+\def\bfx{\mbox{\boldmath $x$}}
+\def\bfy{\mbox{\boldmath $y$}}
+\def\bfz{\mbox{\boldmath $z$}}
+
+\def\bfalpha{\mbox{\boldmath $\alpha$}}
+\def\bfbeta{\mbox{\boldmath $\beta$}}
+\def\bfmu{\mbox{\boldmath $\mu$}}
+
+\def\bfa{\mbox{\boldmath $a$}}
+\def\bfb{\mbox{\boldmath $b$}}
+\def\bfu{\mbox{\boldmath $u$}}
+
+\def\bfSigma{\mbox{\boldmath $\Sigma$}}
+\def\bfD{\mbox{\boldmath $D$}}
+\def\bfH{\mbox{\boldmath $H$}}
+\def\bfT{\mbox{\boldmath $T$}}
+\def\bfX{\mbox{\boldmath $X$}}
+\def\bfY{\mbox{\boldmath $X$}}
+
+\title{Gibbs Sampler for the Truncated Multivariate Normal Distribution}
+\author{Stefan Wilhelm\thanks{wilhelm@financial.com}}
+
+\begin{document}
+\maketitle
+
+In this note we describe two ways of generating random variables with the Gibbs sampling approach 
+for a truncated multivariate normal variable $\bfx$, 
+whose density function can be expressed as:
+\begin{eqnarray*}
+f(\bfx,\bfmu,\bfSigma,\bfa,\bfb) & = & 
+     \frac{ 
+       \exp{\left\{ -\frac{1}{2} (\bfx-\bfmu)' \bfSigma^{-1} (\bfx-\bfmu) \right\}} 
+       } 
+       { \int_{\bfa}^{\bfb}{\exp{\left\{ -\frac{1}{2} (\bfx-\bfmu)' \bfSigma^{-1} (\bfx-\bfmu) \right\} } d\bfx }
+       } 
+\end{eqnarray*}
+for $\bfa \le \bfx \le \bfb$ and $0$ otherwise.\\
+\par 
+The first approach, as described by \cite{Kotecha1999}, 
+uses the covariance matrix $\bfSigma$ and has been implemented in the R package \pkg{tmvtnorm} 
+since version 0.9 (\cite{tmvtnorm-0.9}). 
+The second way is based on the works of \cite{Geweke1991,Geweke2005} and uses 
+the precision matrix $\bfH = \bfSigma^{-1}$. As will be shown below, 
+the usage of the precision matrix offers some computational advantages, since it does not involve matrix inversions and 
+is therefore favorable in higher dimensions and settings where the precision matrix is readily available.
+Applications are for example the analysis of spatial data, such as from telecommunications or social networks.\\
+\par
+Both versions of the Gibbs sampler can also be used for general linear constraints $\bfa \le \bfD \bfx \le \bfb$,
+what we will show in the last section. 
+The function \code{rtmvnorm()} in the package \pkg{tmvtnorm} contains the \R{} implementation
+of the methods described in this note (\cite{tmvtnorm-1.3}).
+
+\section{Gibbs Sampler with convariance matrix $\bfSigma$}
+We describe here a Gibbs sampler for sampling from a truncated multinormal distribution 
+as proposed by \cite{Kotecha1999}.
+It uses the fact that conditional distributions are truncated normal again.
+Kotecha use full conditionals $f(x_i | x_{-i}) = f(x_i | x_1,\ldots,x_{i-1},x_{i+1},\ldots,x_{d})$.\\
+\par
+We use the fact that the conditional density of a multivariate normal distribution is multivariate normal again.
+We cite \cite{Geweke2005}, p.171 for the following theorem on the Conditional Multivariate Normal Distribution.\\
+Let $\bfz  = \left( \begin{array}{c} \bfx \\ \bfy \end{array} \right) \sim N(\bfmu, \bfSigma)$ with 
+    $\bfmu = \left( \begin{array}{c}\bfmu_x \\ \bfmu_y \end{array} \right)$ and
+    $\bfSigma = \left[ 
+                    \begin{array}{cc}
+                      \bfSigma_{xx} & \bfSigma_{xy} \\ 
+                      \bfSigma_{yx} & \bfSigma_{yy}
+                    \end{array}  
+                \right]$\\
+Denote the corresponding precision matrix 
+\begin{equation}
+   \bfH = \bfSigma^{-1} = \left[ 
+                          \begin{array}{cc}
+                            \bfH_{xx} & \bfH_{xy} \\ 
+                            \bfH_{yx} & \bfH_{yy}
+                          \end{array}  
+                          \right]
+\end{equation}                
+Then the distribution of $\bfy$ conditional on $\bfx$ is normal with variance
+\begin{equation}
+    \bfSigma_{y.x} = \bfSigma_{yy} - \bfSigma_{yx} \bfSigma_{xx}^{-1} \bfSigma_{xy} = \bfH_{yy}^{-1}
+\end{equation}
+and mean
+\begin{equation}
+    \bfmu_{y.x} = \bfmu_{y} + \bfSigma_{yx} \bfSigma_{xx}^{-1} (\bfx - \bfmu_x) = \bfmu_y - \bfH_{yy}^{-1} \bfH_{yx}(\bfx - \bfmu_x)
+\end{equation}
+\par
+In the case of the full conditionals $f(x_i | x_{-i})$, which we will denote as $i.-i$ this results
+in the following formulas:
+$\bfz  = \left( \begin{array}{c} \bfx_i \\ \bfx_{-i} \end{array} \right) \sim N(\bfmu, \bfSigma)$
+with $\bfmu = \left( \begin{array}{c}\bfmu_i \\ \bfmu_{-i} \end{array} \right)$ and
+    $\bfSigma = \left[ 
+                    \begin{array}{cc}
+                      \bfSigma_{ii}   & \bfSigma_{i,-i} \\ 
+                      \bfSigma_{-i,i} & \bfSigma_{-i,-i}
+                    \end{array}  
+                \right]$
+Then the distribution of $i$ conditional on $-i$ is normal with variance
+\begin{equation}
+    \bfSigma_{i.-i} = \bfSigma_{ii} - \bfSigma_{i,-i} \bfSigma_{-i,-i}^{-1} \bfSigma_{-i,i} = \bfH_{ii}^{-1}
+\end{equation}
+and mean
+\begin{equation}
+    \bfmu_{i.-i} = \bfmu_{i} + \bfSigma_{i,-i} \bfSigma_{-i,-i}^{-1} (\bfx_{-i} - \bfmu_{-i}) = \bfmu_i - \bfH_{ii}^{-1} \bfH_{i,-i}(\bfx_{-i} - \bfmu_{-i})
+\end{equation}
+
+We can then construct a Markov chain which continously draws from 
+$f(x_i | x_{-i})$ subject to $a_i \le x_i \le b_i$. 
+Let $\bfx^{(j)}$ denote the sample drawn at the $j$-th MCMC iteration. 
+The steps of the Gibbs sampler for generating $N$ samples $\bfx^{(1)},\ldots,\bfx^{(N)}$ are:
+\begin{itemize}
+  \item Since the conditional variance $\bfSigma_{i.-i}$ is independent from the actual realisation
+$\bfx^{(j)}_{-i}$, we can well precalculate it before running the Markov chain.
+  \item Choose a start value $\bfx^{(0)}$ of the chain.
+  \item In each round $j=1,\ldots,N$ we go from $i=1,\ldots,d$ and sample 
+        from the conditional density $x^{(j)}_i | x^{(j)}_1,\ldots,x^{(j)}_{i-1},x^{(j-1)}_{i+1},\ldots,x^{(j-1)}_{d}$.
+  \item Draw a uniform random variate $U \sim Uni(0, 1)$. This is where our approach slightly differs
+        from \cite{Kotecha1999}. They draw a normal variate $y$ and then apply $\Phi(y)$, 
+        which is basically uniform.
+  \item We draw from univariate conditional normal distributions with mean $\mu$ and variance $\sigma^2$.
+        See for example \cite{Greene2003} or \cite{Griffiths2004} for a transformation between a univariate normal random $y \sim N(\mu,\sigma^2)$
+        and a univariate truncated normal variate $x \sim TN(\mu,\sigma^2, a, b)$.
+        For each realisation $y$ we can find a $x$ such as $P(Y \le y) = P(X \le x)$:
+        \begin{equation*}
+          \frac{   \Phi \left( \frac{x - \mu}{\sigma} \right) 
+                 - \Phi \left( \frac{a - \mu}{\sigma} \right)
+               }
+               {   \Phi \left( \frac{b - \mu}{\sigma} \right) 
+                 - \Phi \left( \frac{a - \mu}{\sigma} \right)
+               }  = \Phi \left( \frac{y - \mu}{\sigma} \right) = U
+        \end{equation*}
+  \item Draw $\bfx_{i.-i}$ from conditional univariate truncated normal distribution \\
+        $TN(\bfmu_{i.-i}, \bfSigma_{i.-i}, a_i, b_i)$ by 
+        \begin{equation}
+        \begin{split}
+        \bfx_{i.-i} & = \bfmu_{i.-i} + \\
+          & \sigma_{i.-i} 
+          \Phi^{-1} \left[ U 
+            \left( \Phi \left( \frac{b_i - \bfmu_{i.-i}}{\sigma_{i.-i}} \right) 
+            - \Phi \left( \frac{a_i - \bfmu_{i.-i}}{\sigma_{i.-i}} \right)
+            \right) + \Phi \left( \frac{a_i - \bfmu_{i.-i}}{\sigma_{i.-i}} \right)
+            \right]
+        \end{split}     
+        \end{equation}
+\end{itemize}
+
+\section{Gibbs Sampler with precision matrix H}
+The Gibbs Sampler stated in terms of the precision matrix $\bfH = \bfSigma^{-1}$ 
+instead of the covariance matrix $\bfSigma$ is much easier to write and to implement:
+Then the distribution of $i$ conditional on $-i$ is normal with variance
+\begin{equation}
+    \bfSigma_{i.-i} = \bfH_{ii}^{-1}
+\end{equation}
+and mean
+\begin{equation}
+    \bfmu_{i.-i} = \bfmu_i - \bfH_{ii}^{-1} \bfH_{i,-i}(\bfx_{-i} - \bfmu_{-i})
+\end{equation}
+
+Most importantly, if the precision matrix $\bfH$ is known, the Gibbs sampler does only
+involve matrix inversions of $\bfH_{ii}$ which in our case is a diagonal element/scalar.
+Hence, from the computational and performance perspective, especially in high dimensions, 
+using $\bfH$ rather than $\bfSigma$ is preferable.
+When using $\bfSigma$ in $d$ dimensions, we have to solve for $d$ $(d-1) \times (d-1)$ matrices
+$\bfSigma_{-i,-i}$, $i=1,\ldots,d$, which can be quite substantial computations.
+
+\section{Gibbs Sampler for linear constraints}
+
+In this section we present the Gibbs sampling for general linear constraints
+based on \cite{Geweke1991}. 
+We want to sample from $\bfx \sim N(\bfmu, \bfSigma)$ subject to linear constraints 
+$\bfa \le \bfD \bfx \le \bfb$ for a full-rank matrix $\bfD$.\\
+Defining
+\begin{equation}
+  \bfz = \bfD \bfx  - \bfD \bfmu,
+\end{equation}
+we have $E[\bfz] = \bfD E[\bfx] - \bfD \bfmu = 0$ and $Var[\bfz] = \bfD Var[\bfx] \bfD' = \bfD \bfSigma \bfD'$.
+Hence, this problem can be transformed to the rectangular case 
+$\bfalpha \le \bfz \le \bfbeta$ with $\bfalpha = \bfa - \bfD \bfmu$ and $\bfbeta = \bfb - \bfD \bfmu$.
+It follows $\bfz \sim N(0, \bfT)$ with $\bfT = \bfD \bfSigma \bfD'$.\\
+In the precision matrix case, the corresponding precision matrix of the transformed
+problem will be $\bfT^{-1} = ( \bfD \bfSigma \bfD' )^{-1} = \bfD'^{-1} \bfH \bfD^{-1}$.
+We can then sample from $\bfz$ the way described in the previous sections 
+(either with covariance or precision matrix approach) 
+and then transform $\bfz$ back to $\bfx$ by
+\begin{equation}
+ \bfx = \bfmu + \bfD^{-1} \bfz
+\end{equation}
+
+\bibliographystyle{plainnat}
+\bibliography{tmvtnorm}
+
+\end{document}
