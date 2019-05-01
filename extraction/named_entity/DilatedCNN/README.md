@@ -75,6 +75,7 @@ The output for training is model files stored under `models` folder which is the
 |Ontonotes|  0.73|     0.73 |0.73|
 |CHEMDNER|   0.68|     0.68 |0.69|
 ## Repository Structure 
+**This is the files on my local machine after training. Files are different from your machine** 
 ```
 .
 ├── CoNNL2003eng  #This is for training data
