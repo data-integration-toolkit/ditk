@@ -4,7 +4,7 @@ Onur Kuru, Arkan Ozan Can, and Deniz Yuret. Charner: Character-level named entit
 
 #### [Link to the Paper](https://aclweb.org/anthology/C16-1087)
 
-###Prerequisite
+### Prerequisite
 * Keras 2.2.4
 * numpy
 * sklearn
@@ -27,7 +27,7 @@ A Viterbi decoder takes the sequence of character tag
 probabilities that is produced by the softmax layer and produces most likely character tag sequence (y) that is consistent at
 the word level.
 
-##Input/Output Format (Prediction)
+## Input/Output Format (Prediction)
 *   INPUT (File)
     * File is read by .read_dataset() function
     *Space seperated coloums: <br>
@@ -37,13 +37,13 @@ the word level.
     * Space seperated coloums:<br>
     Word True_Label(If present else None) Predicted_Label
 
-##Input/Output Format (Training)
+## Input/Output Format (Training)
 * INPUT 
     * Sentence as sequence of characters (one hot encodings)
 * OUTPUT
     * Tag probabilities (which are then processed to make word level tags)
 
-##Benchmark Datasets
+## Benchmark Datasets
 * **CoNLL 2003**
 * **OntoNotes 5.0**
 
