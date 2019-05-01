@@ -1,4 +1,5 @@
 # Attention-Based Bidirectional Long Short-Term Memory Networks for Relation Classification
+This repository is based on the below paper <br>
 P. Zhou, W. Shi, J. Tian, Z. Qi, B. Li, H. Hao, and B. Xu, “Attention-Based Bidirectional Long Short-Term Memory Networks for Relation Classification,” Proceedings of the 54th Annual Meeting of the Association for Computational Linguistics (Volume 2: Short Papers), 2016.
 
 #### [Link to the Paper](https://www.aclweb.org/anthology/P16-2034)
@@ -112,6 +113,29 @@ attModel.load_model(saved_model_dir)
 ## Link to Jupyter Notebook and Video
 * [AttentionBasedModel.ipynb](./JupyterNotebook/AttentionBasedModel.ipynb)
 * [Video](https://youtu.be/OY0_Bhx6lcU)
+
+## Citation
+```
+@InProceedings{zhou-etal-2016-attention,
+    title = "Attention-Based Bidirectional Long Short-Term Memory Networks for Relation Classification",
+    author = "Zhou, Peng  and
+      Shi, Wei  and
+      Tian, Jun  and
+      Qi, Zhenyu  and
+      Li, Bingchen  and
+      Hao, Hongwei  and
+      Xu, Bo",
+    booktitle = "Proceedings of the 54th Annual Meeting of the Association for Computational Linguistics (Volume 2: Short Papers)",
+    month = aug,
+    year = "2016",
+    address = "Berlin, Germany",
+    publisher = "Association for Computational Linguistics",
+    url = "https://www.aclweb.org/anthology/P16-2034",
+    doi = "10.18653/v1/P16-2034",
+    pages = "207--212",
+}
+```
+
 
 ## Reference
 * SeoSangwoo's Attention-Based-BiLSTM-relation-extraction repo [[github]](https://github.com/SeoSangwoo/Attention-Based-BiLSTM-relation-extraction)
