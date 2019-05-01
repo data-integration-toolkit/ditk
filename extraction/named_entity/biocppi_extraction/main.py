@@ -10,7 +10,7 @@ def main(inputFilePath):
 
     # test params:
     embeddings_path = '/home/kcrouch/USC/csci_548/project/groupedProject/bioNER_refactor/biocppi_extraction/embeddings/PubMed-w2v.txt'  # REMOVE FOR SUBMIT
-    test_params = {'num_ensembles':2,'num_iterations':101,'num_it_per_ckpt':1000000,'batch_size'=2}  # note, it num_it_per_ckpt > num_iterations then num_it_per_ckpt will be set to half of num_iterations
+    test_params = {'num_ensembles':2,'num_iterations':101,'num_it_per_ckpt':1000000,'batch_size':2}  # note, it num_it_per_ckpt > num_iterations then num_it_per_ckpt will be set to half of num_iterations
     biocppi = biocppi_extraction(embeddings_path=embeddings_path,**test_params)
 
     # convert dataset to properformat used by training
