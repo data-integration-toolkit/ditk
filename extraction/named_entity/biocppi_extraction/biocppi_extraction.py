@@ -75,7 +75,7 @@ class biocppi_extraction(Ner):
             self.num_it_per_ckpt = int(self.num_iterations/2)  # requirement for num_it_per_ckpt < num_iterations
 
 
-        model_save_filename = './model_%s'%(self.num_ensembles-1)
+        self.model_save_filename = './model_%s'%(self.num_ensembles-1)
 
         self.other_datas = other_datas  # data structure for special model parameters/extra datas
 
