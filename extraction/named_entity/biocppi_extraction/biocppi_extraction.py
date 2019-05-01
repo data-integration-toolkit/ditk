@@ -546,7 +546,7 @@ class biocppi_extraction(Ner):
         :param file: From where to load the model - Optional function
         :return:
         """
-        vocab_cache = data_path_base + 'word_vocab.ner.txt'
+        vocab_cache = self.data_path_base + 'word_vocab.ner.txt'
         labels = ['B-MISC', 'I-MISC', 'O']
         with open(vocab_cache,'r') as f:
             word_vocab = pickle.load(f)
