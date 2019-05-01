@@ -26,8 +26,10 @@ Abstraction for interface between DITKModel_NER and the code implementation of p
 
 class biocppi_extraction(Ner):
     data_path_base = 'corpus_train/'  # CHANGE TO corpus_train?
-    model_save_filename = 'trained_model.save'
+    model_save_filename = './trained_model.save'
     prediction_filename = 'predictions.txt'
+    vocab_cache = data_path_base + 'word_vocab.ner.txt'
+    labels = ['B-MISC', 'I-MISC', 'O']
 
 # -------------------------------------init FOR MY CLASS------------------------------#
     def __init__(self,trained_model=None,embeddings_path='embeddings/PubMed-w2v.txt',other_datas={},**kwargs):
@@ -546,11 +548,10 @@ class biocppi_extraction(Ner):
         :param file: From where to load the model - Optional function
         :return:
         """
-        vocab_cache = self.data_path_base + 'word_vocab.ner.txt'
-        labels = ['B-MISC', 'I-MISC', 'O']
-        with open(vocab_cache,'r') as f:
+        
+        with open(self.vocab_cache,'r') as f:
             word_vocab = pickle.load(f)
-        m = BiLSTM(labels=labels,
+        m = BiLSTM(labels=self.labels,
                     word_vocab=word_vocab,
                     word_embeddings=None,
                     optimizer=self.optimizer,
