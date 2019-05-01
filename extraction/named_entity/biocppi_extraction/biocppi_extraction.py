@@ -298,13 +298,6 @@ class biocppi_extraction(Ner):
         # self.trained_model = trained model from authors implementation of train(pass data, other train parameters [i.e. self.batch_size, etc...])  <---STORE TRAINED MODEL DATA INTERNAL TO INSTANCE [instance variabel self.trained_model]
         if not (len(data) < 1):  # expect empty iterable. if not, write new training file based on data
             butil.write_drtrnn_format_to_file(data,self.data_path_base +'train.txt')  # NOT YET TESTED
-        
-        butil.bio()  # another preprocessing of input data. generates *_tags and *_words files and the vocabulary
-
-        # generate and save the word counts dict. derived from vocab file, which was generated in bio()
-        vocab_file_location = 'word2vec/vocab.txt'
-        self.wl = wl = create_wl(vocab_file_location)
-        self.id2word = invert_dict(wl)
 
 
         # temp1.model_train(N,M,n_f,n_hidden,model,viterbi,trainer,lr,batch_size,wl,tl,save_checkpoint_models=False)
