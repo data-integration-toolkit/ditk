@@ -16,7 +16,7 @@ class TestEntityNormalization(unittest.TestCase):
 
     def test_predict(self):
         # test if predicts returns at least a list with two elements
-        results = self.entity_normalization.predict(self.test_list)
+        results = self.entity_normalization.predict(self.model, self.test_list)
         print results
 
     def load_model(self):
