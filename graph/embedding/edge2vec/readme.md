@@ -37,7 +37,6 @@ This code has not been put in Jupiter notebook because the entire code was origi
 
 ## Citation
 
-Citations
 if you use the code, please cite:
 
 Gao, Zheng, Gang Fu, Chunping Ouyang, Satoshi Tsutsui, Xiaozhong Liu, and Ying Ding. 
