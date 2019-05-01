@@ -65,9 +65,9 @@ def ditk_to_biocppi_format(ditkFilePath,tdt='train'):
             data = line.split()
             token = data[0]
             tag = data[3]
-            # if tag.startswith('B') or tag.startswith('I'):  *diff from ditk_to_drtrnn_format
-            #     tag = str(1)
-            #     #tag = 'I-MISC'
+            if tag.startswith('B') or tag.startswith('I'):  # diff from ditk_to_drtrnn_format
+                # tag = str(1)
+                tag = 'I-MISC'
             converted_line = [token,tag]
             converted_lines.append(converted_line)
         else:
