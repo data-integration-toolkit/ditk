@@ -32,12 +32,12 @@ class TestTextEmbeddingMethods(unittest.TestCase):
         #self.te.train()
         #self.input_tokens = ["sample"]
 
-    def read_dataset(self):
+    def test_read_dataset(self):
         #read in training data/data that need to be embeded
         self.te.read_Dataset('../tests/test_data/input_train.txt')
         print(self.te.input_data)
 
-    def train(self):
+    def test_train(self):
         #Embeded the input data
         self.te.read_Dataset('../tests/test_data/input_train.txt')
         output = self.te.train()
@@ -53,7 +53,7 @@ class TestTextEmbeddingMethods(unittest.TestCase):
             index += 1
         file.close()
 
-    def predict_embedding(self):
+    def test_predict_embedding(self):
         #Predict the inputs by comparing it to training data
         self.te.read_Dataset('../tests/test_data/input_train.txt')
         self.te.train()
@@ -71,7 +71,7 @@ class TestTextEmbeddingMethods(unittest.TestCase):
             index += 1
         file.close()
 
-    def predict_similarity(self):
+    def test_predict_similarity(self):
         #Given 2 input, embeded them with input data, them compare them using pearson similarity
         self.te.read_Dataset('../tests/test_data/input_train.txt')
         self.te.train()
