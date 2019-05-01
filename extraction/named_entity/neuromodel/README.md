@@ -87,7 +87,7 @@ Evaluation metrics and results on BIO corpora with transfer learning:
 |             | Baseline|Transfer|Baseline|Transfer|Baseline|Transfer||
 | CDR_CHED     | 0.8838     | 0.8576     |0.8566     |0.8650     |0.8700 | 0.8613|
 | CDR_DISO     | 0.7993     | 0.7879     |0.7854     |0.8051     |0.7923 | 0.7964|
-| LINNEAUS     | 0.9469     | 0.9455     |0.8355     |0.8532     |0.8877 | 0.8972|
+| LINNAEUS     | 0.9469     | 0.9455     |0.8355     |0.8532     |0.8877 | 0.8972|
 
 Evaluation metrics and results on general benchmarks without transfer learning:
 
