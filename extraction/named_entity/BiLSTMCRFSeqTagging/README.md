@@ -71,6 +71,7 @@ This repo is based on the following paper and Github implementation:
 
 ![](./model/Model3.JPG)
 
+[Presentation](./notebook/PaperPresentation.pdf)
 
 ## Benchmark datasets
 
@@ -93,22 +94,20 @@ This repo is based on the following paper and Github implementation:
 
 ## YouTube Video
 
-[https://youtu.be/JnZnLbpMo-A](https://youtu.be/JnZnLbpMo-A)
+[Video Link](http://bit.ly/2LaRS0q)
 
 
  ## To Run
 
  1. Import the Module from main.py
-
-        ```python
-        from model.main import BiLSTMCRFSeqTag
-        ```
+    ```python
+    from model.main import BiLSTMCRFSeqTag
+    ```
     
  2. Create Instance of the module
-
-        ```python
-        blcst = BiLSTMCRFSeqTag()
-        ```
+    ```python
+    blcst = BiLSTMCRFSeqTag()
+    ```
 
  3. First call read_dataset() and give all the files required to train in the given order
    - file_dict
@@ -161,5 +160,11 @@ This repo is based on the following paper and Github implementation:
 ## To Test
 Custom test-case added to ensure proper working of the code
 
-To use the input file, output file and test python file in folder [test](./test) to test
-![](./test/Test.JPG) 
+To use the input file, output file and test python file in folder [tests](./tests) to test
+![](./tests/Test.JPG) 
+
+
+## Info & Acknowledgement
+This code is modelled based on another [implementation](https://github.com/guillaumegenthial/tf_ner/tree/master/models/lstm_crf) of the research paper.
+This is repository is part of the [DITK](https://github.com/data-integration-toolkit/ditk) project as per the [USC CSCI 548, Spring '19](https://classes.usc.edu/term-20191/course/csci-548/) graduate course.
+Please email your questions or comments to [Sarvesh Parab](http://www.sarveshparab.com/).
