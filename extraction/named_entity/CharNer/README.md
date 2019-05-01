@@ -125,10 +125,10 @@ model = charNerModel.load_model("../model")
 
 ## Citation
 
-@inproceedings{Kuru2016CharNERCN,
+ @InProceedings{Kuru2016CharNERCN,
   title={CharNER: Character-Level Named Entity Recognition},
   author={Onur Kuru and Ozan Arkan Can and Deniz Yuret},
   booktitle={COLING},
   year={2016}
-}
+    }
 
