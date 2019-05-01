@@ -41,6 +41,6 @@ Test_tail HIT@10 : 92.3076923076923
 Test_head HIT@10 : 92.3076923076923
 
 ## Demo
-Link to the Jupyter Notebook:
+Link to the Jupyter Notebook: [Link](https://github.com/divyasinha801/ditk/blob/develop/graph/embedding/Hyte/HyTE-%20Hyperplane-based%20Temporally%20aware%20Knowledge%20Graph%20Embedding%20(G9).ipynb)
 
 Link to the video on Youtube: https://www.youtube.com/watch?v=Yz4NYFkob90&feature=youtu.be
