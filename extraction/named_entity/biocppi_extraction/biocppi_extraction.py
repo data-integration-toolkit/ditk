@@ -1,5 +1,6 @@
 import abc
 import sys
+import pickle
 from ner_2 import Ner  # <-- PARENT CLASS POINTER: https://github.com/AbelJJohn/csci548sp19projectner/blob/master/ner.py...NOTE had to mod for python2...
 # from temp1 import model_train
 from train import model_train
