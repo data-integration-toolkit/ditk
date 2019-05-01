@@ -2,7 +2,7 @@
 Onur Kuru, Arkan Ozan Can, and Deniz Yuret. Charner: Character-level named entity recognition. In Proceedings of the 26th International Conference on Computational Linguistics, pages 911–921. Osaka, Japan, December 2016
 
 
-####[Link to the Paper](https://aclweb.org/anthology/C16-1087)
+#### [Link to the Paper](https://aclweb.org/anthology/C16-1087)
 
 ###Prerequisite
 * Keras 2.2.4
@@ -47,11 +47,11 @@ the word level.
 * **CoNLL 2003**
 * **OntoNotes 5.0**
 
-##Evaluation Metrics
+## Evaluation Metrics
 * Precision
 * Recall
 * F1
-##Results
+## Results
 
   | Datasets           | Precision           | Recall              | F1                   |
   |--------------------|:-------------------:|:-------------------:|:--------------------:|
@@ -59,7 +59,7 @@ the word level.
   |OntoNotes 5.0       |69%                  | 69.8%               |69.3%                 |  
 
 
-##To Run
+## To Run
 
 1.Import model & make instance of the model from main.py
 ```python 
@@ -111,7 +111,7 @@ model = charNerModel.load_model("../model")
 
 
 
-##To Test
+## To Test
 ![](./photos/test_Case.png)
 
 ## Link to Jutyper Notebook and video
