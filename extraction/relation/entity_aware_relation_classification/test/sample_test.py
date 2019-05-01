@@ -11,10 +11,9 @@ class TestRelationExtraction(unittest.TestCase):
         FLAGS.embeddings = ''
         FLAGS.data_type = 'semeval2010'
         self.relation_extraction  = LSTM_relation_extraction()  # Your implementation of NER
-        self.input_file = 'test/sample_input.txt'
+        self.input_file = 'testexample/sample_input.txt'
         self.output_file = self.relation_extraction.main(self.input_file)
-        self.truth_lable_file = 'test/sample_output.txt'
-
+        self.truth_lable_file = 'testexample/sample_output.txt'
 
     def row_col_count(self, file_name):
         df = pd.read_csv(file_name, delimiter='\t')
