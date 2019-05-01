@@ -10,7 +10,7 @@ parent2 = sys.path[0].rfind('\\')
 
 sys.path[0] = sys.path[0][:max(parent, parent2)]
 
-from Imputation import Imputation
+from misgan.Imputation import Imputation
 
 import argparse
 from misgan.modules import preprocess
@@ -67,22 +67,6 @@ class MisGAN(Imputation):
 
 
 def main():
-    class Args():
-        def __init__(self):
-            self.fname = False
-            self.model = False
-            self.ratio = False
-            self.split = False
-            self.ims = False
-            self.input = False
-
-    args = Args()
-    misgan = MisGAN(args)
-    misgan.args.fname = "data/wdbc.csv"
-    misgan.args.model = "wdbc.csv_train"
-    misgan.impute()
-
-
     parser = argparse.ArgumentParser()
     parser.add_argument('--fname',
                         help='name of the dataset file')
@@ -102,6 +86,8 @@ def main():
                         help='If set, run inference mode')
     parser.add_argument('--impute', action='store_true',
                         help='If set, run inference mode without computing rmse')
+    parser.add_argument('--input', action='store_true',
+                        help='If set, process single file')
     parser.add_argument('--misgan', action='store_true',
                         help='If set, set model to misgan')
     parser.add_argument('--imputer', action='store_true',
