@@ -1,5 +1,7 @@
 # Simultaneously Self-attending to All Mentions for Full-Abstract Biological Relation Extraction
 This paper can be downloaded from https://www.aclweb.org/anthology/N18-1080
+The code can be downloaded from https://github.com/patverga/bran
+
 
 ### Citation
 Patrick Verga • Emma Strubell • Andrew McCallum
