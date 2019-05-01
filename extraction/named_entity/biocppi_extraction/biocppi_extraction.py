@@ -314,7 +314,7 @@ class biocppi_extraction(Ner):
         self.trained_model = []
         for i in range(self.num_ensembles):
             model_save_filename = '%s_%s'%(self.saved_model_base,i)    
-            self.load_model(self.model_save_filename)
+            self.load_model(model_save_filename)
         print(len(self.trained_model))
 
         return  # None
