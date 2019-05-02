@@ -28,7 +28,7 @@ Missing data imputation can help improve the performance of prediction models in
 ```bash
 obj = Imputation_with_supervised_learning()
 ```
-**2. Read dataset**
+**2. Read dataset** <br/>
 If header is present in input file, header flag is set to True. If the file has missing values, the missing_values flag should be set to True. If the dataset has categorical values, categorical_values flag should be set to True.
 ```bash
 dataname = 'breast_cancer'
