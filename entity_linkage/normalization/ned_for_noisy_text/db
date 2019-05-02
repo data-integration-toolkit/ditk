@@ -1,0 +1,23 @@
+
+
+CREATE USER 'eashion'@'localhost'
+  IDENTIFIED BY 'AIai123456';
+GRANT ALL
+  ON *.*
+  TO 'eashion'@'localhost'
+  WITH GRANT OPTION;
+
+
+
+'eashion' 'AIai123456' 'NEDforNoisyText' 'localhost'
+
+./setup_conll.sh 'eashion' 'AIai123456' 'NEDforNoisyText' 'localhost'
+
+
+./pretrainOnWikipedia.sh 'eashion' 'AIai123456' 'NEDforNoisyText' 'localhost'
+./evaluateCoNLL.sh 'eashion' 'AIai123456' 'NEDforNoisyText' 'localhost'
+
+
+./setup_wikilinks.sh 'eashion' 'AIai123456' 'NEDforNoisyText' 'localhost'
+
+mvn scala:run -Dlauncher=expanded-iterator -DaddArgs="/home/eashion1994/wiki2Json/wiki2JSON/unprocessed/"
