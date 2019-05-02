@@ -303,6 +303,7 @@ class biocppi_extraction(Ner):
         #     print('Warning: No trained models to save.')
         #     return
 
+        # for now, models are saved in train.py. no support of loading models at the moment
         # print('Saving trained models to dir: %s'%(self.data_path_base + self.model_name))
         # for i,model in enumerate(self.trained_model):
         #     print('Saving model %s'%i)
@@ -311,12 +312,12 @@ class biocppi_extraction(Ner):
         #     self.save_model(model_save_filename)
 
         # test loading of trained models only! NOT YET IMPLEMENTED
-        self.trained_model = []
-        for i in range(self.num_ensembles):
-            model_save_filename = '%s_%s'%(self.saved_model_base,i)    
-            m = self.load_model(model_save_filename)
-            self.trained_model.append(m)
-        print(len(self.trained_model))
+        # self.trained_model = []
+        # for i in range(self.num_ensembles):
+        #     model_save_filename = '%s_%s'%(self.saved_model_base,i)    
+        #     m = self.load_model(model_save_filename)
+        #     self.trained_model.append(m)
+        # print(len(self.trained_model))
 
         return  # None
 
@@ -374,6 +375,7 @@ class biocppi_extraction(Ner):
         butil.write_drtrnn_format_to_file(data,self.data_path_base +'test.txt')
         dataset = butil.load_dataset(self.data_path_base +'test.txt')
         print(len(dataset))
+        print(dataset[:10])
 
 
         return predictions
