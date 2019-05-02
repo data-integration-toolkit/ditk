@@ -22,6 +22,8 @@ These three submodels are based on the skip-gram model (Mikolov et al., 2013a,b)
 * Output: Embeddings for entities
 
 ## Approach
+The child class file, "wikipedia2vec_sm.py" and the "main.py" file are located in the "modules" folder. This organisation is required for successfull execution of the code.
+
 **1. Download Wikipedia2vec dump** 
 ```bash
 wget https://dumps.wikimedia.org/enwiki/latest/enwiki-latest-pages-articles.xml.bz2
