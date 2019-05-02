@@ -46,7 +46,6 @@ the word level.
 
 ## Benchmark Datasets
 * **CoNLL 2003**
-* **OntoNotes 5.0**
 
 ## Evaluation Metrics
 * Precision
@@ -57,7 +56,6 @@ the word level.
   | Datasets           | Precision           | Recall              | F1                   |
   |--------------------|:-------------------:|:-------------------:|:--------------------:|
   |CoNLL 2003          |  79.4%              | 81.2%               |80.3%                 |
-  |OntoNotes 5.0       |69%                  | 69.8%               |69.3%                 |  
 
 
 ## To Run
