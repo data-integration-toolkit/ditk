@@ -29,7 +29,7 @@ def predict(dataobject,**kwargs):
         num_checkpoints = kwargs.get("num_checkpoints", 5)
         learning_rate = kwargs.get("learning_rate", 1.0)
         decay_rate = kwargs.get("decay_rate", 0.9)
-        checkpoint_dir = kwargs.get("model_path", "runs/model_checkpoint/checkpoints/")
+        checkpoint_dir = kwargs.get("model_path", "runs/model_output/checkpoints/")
         allow_soft_placement = kwargs.get("allow_soft_placement", True)
         log_device_placement = kwargs.get("log_device_placement", False)
         gpu_allow_growth = kwargs.get("gpu_allow_growth", True)

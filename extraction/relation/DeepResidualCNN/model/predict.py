@@ -11,7 +11,7 @@ from utils.DataManager import DataManager
 from utils.Sentence import Sentence
 
 def predict(dataobject,relationdict,**kwargs):
-    checkpoint_dir = kwargs.get("model_path", "runs/model_output/checkpoints/")
+    checkpoint_dir = kwargs.get("model_path", "runs/model_checkpoint/checkpoints/")
     embedding_dim = kwargs.get('embedding_dim', 50)
     sequence_length = kwargs.get("sequence_length", 100)
     filter_sizes = kwargs.get('filter_sizes', "3")
