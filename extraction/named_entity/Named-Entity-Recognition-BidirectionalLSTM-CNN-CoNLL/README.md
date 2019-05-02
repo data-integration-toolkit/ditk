@@ -1,6 +1,6 @@
 This repo is based on the following paper :
 
-#**Few-shot Learning for Named Entity Recognition in Medical Text**
+#Few-shot Learning for Named Entity Recognition in Medical Text
 
 paper : **https://arxiv.org/pdf/1811.05468v1.pdf**
 ---
@@ -56,7 +56,7 @@ Code adapted from: https://github.com/kamalkraj/Named-Entity-Recognition-with-Bi
 
 ipython notebook : [Python Notebook](demo.ipynb)
 
-video : [video]()
+video : [https://youtu.be/7MBOvEo0KBQ](https://youtu.be/7MBOvEo0KBQ)
  
  
  
