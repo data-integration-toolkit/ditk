@@ -385,7 +385,7 @@ class biocppi_extraction(Ner):
             flattened_len = sum([ len(x) for x in sentence ])
             proba_cumulative = np.zeros((flattened_len,len(self.labels)))
 
-            for m in models:
+            for m in self.trained_model:
                 proba_cumulative += m.predict_proba(sentence,batch_size=20)
             
             y_pred = np.argmax(proba_cumulative,axis=1)
