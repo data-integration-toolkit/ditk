@@ -58,8 +58,7 @@ a sentence-level feature vector, by multiplying the weight vector
   | Datasets           | Precision           | Recall              | F1                   |
   |--------------------|:-------------------:|:-------------------:|:--------------------:|
   |SemEval-2010 Task 8(Without directions)  |  81.26%             | 85.52%              |83.47%
-  |(With directions)   |  79.79%             | 84.27%              | 81.97%
-  |NYT                 |70.23%               | 66.94%              |68.55%|  
+  |(With directions)   |  79.79%             | 84.27%              | 81.97%              |
   |DDI 2013            |82.99%               |90.25%               |86.46%|
 
 
