@@ -463,7 +463,7 @@ def main():
 
     file_dict = {'train':'train_dev', 'dev':'dev', 'test':'test'}
     dateset_name = "BC2GM"
-    datasets
+    datasets = collaboNet_obj.read_dataset(file_dict, dateset_name)
 
     # Training
     collaboNet_obj.train(datasets)
