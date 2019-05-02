@@ -11,14 +11,15 @@ https://github.com/text-machine-lab/CliNER
 	* Employ feature extraction using both linguistic features and domain knowledge (Unified Medical Language System)
 	* Feed the features into a wrapper for CRFsuite to implement it
 
-![eval](/extraction/named_entity/ClinicalNER/image/appro1.png)
+<img src="/extraction/named_entity/ClinicalNER/image/appro1.png" width="300">
 
 - Approach 2
 	* Employ both word- and character- level bidirectional LSTMs (w+c Bi-LSTM)
 	* The embeddings for this sequence of characters are fed into the Bi- LSTM and concatenated to the final forward and backward hidden states to create a character-level representation of the word.
 	* Use GloVe to form a rich word- and character- level representation
 
-![eval](/extraction/named_entity/ClinicalNER/image/appro2.png)
+
+<img src="/extraction/named_entity/ClinicalNER/image/appro1.png" width="600">
 
 ## Input and Output
 - Input and output for Prediction
