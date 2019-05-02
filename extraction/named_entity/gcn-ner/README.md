@@ -24,7 +24,7 @@ Github URL of the original code: https://github.com/ContextScout/gcn_ner
 	- python -m spacy download en_core_web_md
 - To run the code
 	- Execute main.py
-	- Ensure that the data files are in the paths in main.py or else give absolute paths.
+	- Ensure that the data files are in the paths as mentioned in main.py or else give absolute paths.
 
 ## Input and Output
 - Prediction
