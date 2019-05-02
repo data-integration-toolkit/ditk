@@ -12,7 +12,7 @@ class TestGraphCompletionMethods(unittest.TestCase):
 	def setUp(self, input_file):
 		self.graph_completion = KGC_NeuralLP() # initialize your specific Graph Completion class
 		self.input_file = input_file
-        self.output_file = graph_completion.main(input_file)
+        	self.output_file = self.graph_completion.main(input_file)
 
 	def test_read_dataset(self):
 		data_ans = self.graph_completion.read_dataset()
