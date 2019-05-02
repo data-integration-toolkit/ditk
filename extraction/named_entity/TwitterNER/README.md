@@ -12,7 +12,7 @@ Word, Actual Tag
 
 ### Working
 Convert BIO Labels to BIEOU format Gather all the features using Feature Extractors. Train on CRFs using SGD with L2 norm. Update the unsupervised features using the new batch of un-labelled test data, and then retrain our model on the original training data. Regex Features generated on a per-token level and pairs multiplied. Gazetteers generated on a per-token level using window-size to determine interaction. Word Clusters generated in an unsupervised manner using Brown and Clark clustering. Global Features are the average values of word representation & binary presence of dictionary and cluster features.
-![Image description]()
+![Image description](https://github.com/napsternxg/TwitterNER/blob/master/COLING2016-WNUT-Model-Architechture.png)
 
 ### Installation & Working
 Install all the requirements given and then add the glove vectors needed for training. 
