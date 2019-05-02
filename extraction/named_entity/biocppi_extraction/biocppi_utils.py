@@ -28,8 +28,8 @@ def load_dataset(fname):
                 vocab.append(t)
         
         # output.append((tokens, labels))
-        sentences.append(tokens)
-        sentence_labels.append(labels)
+        sentences.append([tokens])
+        sentence_labels.append([labels])
     return sentences,sentence_labels
 
 
