@@ -33,7 +33,7 @@
 }
 
 ## Original Code
-- tmp
+- https://github.com/nmslib/nmslib
 
 ## Description
 - Non-Metric Space Library (NMSLIB) is an efficient cross-platform similarity search library and a toolkit for evaluation of similarity search methods. The core-library does not have any third-party dependencies.
@@ -94,7 +94,7 @@ Here we see that Nmslib’s hnsw implementation performs best in both recall and
 
 ## Demo
 ### Jupyter Notebook
-- tmp
+- See src/NmslibDemo.ipynb
 ### Video
 - tmp
 

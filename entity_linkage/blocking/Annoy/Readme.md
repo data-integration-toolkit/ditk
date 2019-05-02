@@ -2,7 +2,7 @@
 - https://github.com/spotify/annoy
 
 ## Original Code
-- tmp
+- https://github.com/spotify/annoy
 
 ## Description
 - Annoy (Approximate Nearest Neighbors Oh Yeah) is a C++ library with Python bindings to search for points in space that are close to a given query point. It also creates large read-only file-based data structures that are mmapped into memory so that many processes may share the same data.
@@ -55,7 +55,7 @@
 
 ## Demo
 ### Jupyter Notebook
-- tmp
+- See src/AnnoyDemo.ipynb
 ### Video
 - tmp
 
