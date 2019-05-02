@@ -212,7 +212,7 @@ class BiLSTM(object):
         
         self.sess.run(tf.global_variables_initializer())
         self.saver = tf.train.Saver(max_to_keep=10000)#,save_relative_paths=True)
-        self.saver.__init__(save_relative_paths=True)
+        self.saver.save_relative_paths=True
         # self.saver = tf.train.Saver()
     
     def _onehot(self, y, categories):
