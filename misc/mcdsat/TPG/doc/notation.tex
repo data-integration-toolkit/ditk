@@ -1,0 +1,95 @@
+\section{Introduction}
+
+In the previous example, the parser computes the value of the expression on the fly, while parsing.
+It is also possible to build an abstract syntax tree to store an abstract representation of the input.
+This may be usefull when several passes are necessary.
+
+This example shows how to parse an expression (infix, prefix or postfix) and convert it in infix, prefix and postfix notation.
+The expression is saved in a tree. Each node of the tree correspond to an operator in the expression. Each leave is a number.
+Then to write the expression in infix, prefix or postfix notation, we just need to walk throught the tree in a particular order.
+
+\section{Abstract syntax trees}
+
+The AST of this converter has two types of node:
+
+\begin{description}
+    \item [class Op] is used to store operators (\verb$+$, \verb$-$, \verb$*$, \verb$/$, \verb$^$).
+        It has two sons associated to the sub expressions.
+    \item [class Atom] is an atomic expression (a number or a symbolic name).
+    \item [class Func] is used to store functions.
+\end{description}
+
+These classes are instanciated by the \emph{\_\_init\_\_} method. The \emph{infix}, \emph{prefix} and \emph{postfix} methods return strings containing the representation of the node in \emph{infix}, \emph{prefix} and \emph{postfix} notation.
+
+\section{Grammar}
+
+\subsection{Infix expressions}
+
+The grammar for infix expressions is similar to the grammar used in the previous example.
+
+\begin{verbatimtab}[4]
+EXPR/e -> TERM/e ( '[+-]'/op TERM/t $e=Op(op,e,t,1)$ )* ;
+TERM/t -> FACT/t ( '[*/]'/op FACT/f $t=Op(op,t,f,2)$ )* ;
+FACT/f -> ATOM/f ( '\^'/op FACT/e $f=Op(op,f,e,3)$ )? ;
+
+ATOM/a -> ident/s $a=Atom(s)$ | '\(' EXPR/a '\)'
+       |  func1/f '\(' EXPR/x            '\)' $a=Func(f,x)
+       |  func2/f '\(' EXPR/x ',' EXPR/y '\)' $a=Func(f,x,y)
+;
+\end{verbatimtab}
+
+\subsection{Prefix expressions}
+
+The grammar for prefix expressions is very simple.
+A compound prefix expression is an operator followed by two subexpressions.
+
+\begin{verbatimtab}[4]
+EXPR_PRE/e ->
+    ident/s                             $ e=Atom(s)
+|   '\(' EXPR_PRE/e '\)'
+|   OP/<op,prec> EXPR_PRE/a EXPR_PRE/b  $ e=Op(op,a,b,prec)
+|   func1/f EXPR/x                      $ e=Func(f,x)
+|   func1/f EXPR/x EXPR/y               $ e=Func(f,x,y)
+
+;
+
+OP/<op,prec> ->
+    '[+-]'/op   $ prec=1
+|   '[*/]'/op   $ prec=2
+|   '\^'/op     $ prec=3
+;
+\end{verbatimtab}
+
+\subsection{Postfix expressions}
+
+At first sight postfix and infix grammars may be very similar.
+Only the position of the operators changes.
+So a compound postfix expression is a first expression followed by a second and an operator.
+This rule is left recursive.
+As TPG is a descendant recursive parser, such rules are forbidden to avoid infinite recursion.
+To remove the left recursion a classical solution is to rewrite the grammar like this:
+
+\begin{verbatimtab}[4]
+EXPR_POST/e -> ATOM_POST/a SEXPR_POST<a>/e ;
+
+ATOM_POST/a ->
+    ident/s                 $ a=Atom(s)
+|   '\(' EXPR_POST/a '\)'
+;
+
+SEXPR_POST<e>/e ->
+    EXPR_POST/e2
+    (   OP/<op,prec> SEXPR_POST<$Op(op,e,e2,prec)$>/e
+    |   func2/f SEXPR_POST<$Func(f, e, e2)$>/e
+    )
+|   func1/f SEXPR_POST<$Func(f, e)$>/e
+|   ;
+\end{verbatimtab}
+
+The parser first searches for an atomic expression and then builds the AST by passing partial expressions by the attributes of the \emph{SEXPR\_POST} symbol.
+
+\section{Source code}
+
+Here is the complete source code (\emph{notation.py}):
+
+\verbatimtabinput[4]{../examples/notation.pyg}

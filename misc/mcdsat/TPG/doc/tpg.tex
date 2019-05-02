@@ -1,0 +1,121 @@
+% HTML: htlatex tpg html,2          1 time
+% DVI : latex tpg                   3 times
+% PDF : pdflatex tpg                3 times
+
+%\documentclass[a4paper,twoside,11pt]{report}
+\documentclass[a4paper,twoside]{report}
+
+\usepackage{a4wide, moreverb}
+
+\newif\ifpdf
+\ifx\pdfoutput\undefined
+    \pdffalse
+\else
+    \pdfoutput=1
+    \pdftrue
+\fi
+
+\ifpdf
+    \usepackage[
+        pdftex,
+        pdftitle={Toy Parser Generator},
+        pdfsubject={A simple parser generator for Python},
+        pdfcreator={Christophe Delord <christophe.delord@free.fr>},
+        pdfauthor={Christophe Delord <christophe.delord@free.fr>},
+        pdfproducer={Christophe Delord <christophe.delord@free.fr>},
+        pdfkeywords={Python, Parser, Generator, Toy Parser Generator},
+        colorlinks=true
+    ]{hyperref}
+    \pdfcompresslevel=9
+\else
+    \usepackage[
+        pdftitle={Toy Parser Generator},
+        pdfsubject={A simple parser generator for Python},
+        pdfcreator={Christophe Delord <christophe.delord@free.fr>},
+        pdfauthor={Christophe Delord <christophe.delord@free.fr>},
+        pdfproducer={Christophe Delord <christophe.delord@free.fr>},
+        pdfkeywords={Python, Parser, Generator, Toy Parser Generator},
+        colorlinks=true
+    ]{hyperref}
+\fi
+
+\renewcommand{\url}[1]{\href{#1}{#1}}
+
+\author{
+    Christophe~Delord\\
+    christophe.delord@free.fr \\
+    \url{http://christophe.delord.free.fr/en/tpg/} \\
+}
+\title{
+    Toy~Parser~Generator \\
+    or\\
+    How to easily write parsers in Python \\
+}
+
+\pagestyle{headings}
+
+\newenvironment{tableau}
+{
+    \begin{figure}[ht]
+    \begin{center}
+}
+{
+    \end{center}
+    \end{figure}
+}
+
+\newenvironment{code}
+{
+    \begin{figure}[ht]
+    \begin{tabular}{| p{\textwidth} |}
+    \hline
+}
+{
+    \\
+    \hline
+    \end{tabular}
+    \end{figure}
+}
+
+\begin{document}
+
+\maketitle
+\tableofcontents
+
+\listoffigures
+%\listoftables
+
+\cleardoublepage
+\part{Introduction and tutorial}                            \label{tpg:intro}
+    \chapter{Introduction}
+        \input{intro}
+    \chapter{Installation}
+        \input{install}
+    \chapter{Tutorial}                                      \label{tpg:tutorial}
+        \input{tutorial}
+
+\cleardoublepage
+\part{TPG reference}                                        \label{tpg:core}
+    \chapter{Usage}
+        \input{usage}
+    \chapter{Grammar structure}
+        \input{grammar}
+    \chapter{Lexer}
+        \input{lexer}
+    \chapter{Parser}
+        \input{parser}
+    \chapter{Context sensitive lexer}                       \label{tpg:CSL}
+        \input{CSL}
+    \chapter{Debugging}
+        \input{debug}
+
+\cleardoublepage
+\part{Some examples to illustrate TPG}                      \label{tpg:examples}
+    \chapter{Complete interactive calculator}
+        \input{calc}
+    \chapter{Infix/Prefix/Postfix notation converter}
+        \input{notation}
+    \chapter{Indentation}
+        \input{indentation}
+
+\end{document}

@@ -29,12 +29,13 @@ archCons = ''
  
 def generarReescrituras(exp, archV, archC, archVars, archTiempo, stdin):
     tiempoi = resource.getrusage(resource.RUSAGE_SELF)[0]
-    generarReescrituras1(exp, archV, archC, archVars, stdin)
+    modelos = generarReescrituras1(exp, archV, archC, archVars, stdin)
     tiempof = resource.getrusage(resource.RUSAGE_SELF)[0]
     
     fileobject = open(archTiempo, 'w')
     fileobject.write(str(tiempof-tiempoi))
     fileobject.close()
+    return modelos
 
 def generarReescrituras1(exp, archVistas, archCons, archVars, stdin):
     archVistas2 = archVistas.replace('.txt', '')
@@ -47,7 +48,8 @@ def generarReescrituras1(exp, archVistas, archCons, archVars, stdin):
         if exp == 'Sat':
             generarReescMCD(numeros, stdin, vistas)
         if exp == 'SatRW':
-            generarReescRW(numeros, stdin, lenQuery,q, vistas)
+            modelos = generarReescRW(numeros, stdin, lenQuery,q, vistas)
+            return modelos
 ##        llamarzchaff(transf, archSalida)
 
 def leerVars(archVars):
@@ -132,8 +134,9 @@ def generarReescRW(numeros, stdin, lenQuery, query, vistas):
         l = x.strip().split()
         if l:
             if l[0] != 'main:':
-                print((crearReescritura(obtModeloRW(numeros, n, l, lenQuery, vistas), query)))
+                modelos.append(crearReescritura(obtModeloRW(numeros, n, l, lenQuery, vistas), query))
     return modelos
+
 
 
 def obtModeloRW(numeros, n, lista, lenQuery, vistas):

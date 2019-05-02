@@ -37,6 +37,7 @@ class mcdsat(query_rewriting.Query_Rewriting):
 		self.cnf_file = ""
 		self.compiled_dnnf = ""
 		self.query_models = ""
+		self.rewritings = []
 		query_rewriting.Query_Rewriting.__init__(self)
 		
 	def read_input(self, viewsFile="examples/views_0.txt", queryFile="examples/query_0.txt", mcd_flag=True, rw_flag=True, c2d_path ="c2d/c2d_linux", models ="dnnf-models/models"):
@@ -106,6 +107,7 @@ class mcdsat(query_rewriting.Query_Rewriting):
 		print("CNF file {} generated".format(CNF))
 		print("Compiling the CNF to DNNF using c2d compiler ...")
 		self.compileToDNNF(CNF, LOG)
+		return self.rewritings
 
 	def generate_query_rewritings(self, c2d_path="c2d/c2d_linux", models="dnnf_models/models/", output_file="results/rewriting.txt"):
 		"""
@@ -172,7 +174,7 @@ class mcdsat(query_rewriting.Query_Rewriting):
 		output = output.split("\n")
 		print("Enumerated all the models for the given query and views ...")
 		#output of above command must be given as last input in the next command
-		generarReescrituras(EXP, self.views_file, self.query_file, VIS + ".pyo", LOG1, output)	
+		self.rewritings = generarReescrituras(EXP, self.views_file, self.query_file, VIS + ".pyo", LOG1, output)	
 		print("Generated all rewritings ... ")
 		print("Cleaning Up... \nDeleting all intermediate files...")
 		self.cleanup()
@@ -199,8 +201,4 @@ class mcdsat(query_rewriting.Query_Rewriting):
 		subprocess.check_output(command, shell=True)
 		print("Done ...")
 
-if __name__ == '__main__':
-	mcdsat = mcdsat()
-	mcdsat.read_input('examples/views_0.txt', 'examples/query_0.txt')
-	# print(mcdsat.query_file, mcdsat.views_file)
-	mcdsat.generate_MCDs()
+
