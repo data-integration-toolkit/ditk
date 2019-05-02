@@ -39,11 +39,9 @@ cd ..
 3. F1- Score
 
 ### Further Links
-- [Jupyter Notebook]() 
+- [Jupyter Notebook](https://github.com/KhadijaZavery/ditk/blob/develop-py2/extraction/named_entity/TwitterNER/TwitterNER.ipynb) 
 - [Youtube Video](https://www.youtube.com/watch?v=JqRkLCnKGQs&feature=youtu.be)
 
-### Citation
-Shubhanshu Mishra and Jana Diesner. Semi-Supervised Named entity recognition in Noisy Text. Proceedings of Noisy User-generated Text(NUT) at International Conference on Computational Linguistics (COLING), Osaka, Japan, 2016.
 
 
 
