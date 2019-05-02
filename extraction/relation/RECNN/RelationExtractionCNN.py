@@ -6,8 +6,9 @@ import eval
 import conversionutil1
 import conversionutil2
 from distutils.dir_util import copy_tree
+from parent import RelationExtraction
 
-class RelationExtractionCNN():
+class RelationExtractionCNN(RelationExtraction):
 
     def __init__(self):
         pass
@@ -44,4 +45,14 @@ class RelationExtractionCNN():
         path=kwargs.get('model_path',"runs/model_checkpoint/checkpoints/")
         sess,graph=eval.load_model(model_path=path)
         print(sess,graph)
+        pass
+    
+    @classmethod
+    #not used method
+    def data_preprocess(self, input_data, *args, **kwargs):
+        pass
+    
+    #not used method
+    @classmethod
+    def tokenize(self, input_data, ngram_size=None, *args, **kwargs):
         pass
