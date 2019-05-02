@@ -96,8 +96,8 @@ def model_train(num_ensembles,datapath,model_name,embeddings_path,optimizer,batc
     labels = ['B-MISC','I-MISC','O']
     
     # model_name = 'saved_model_autumn'
-    # if not os.path.exists('{}/scratch'.format(datapath)):
-    #     os.mkdir('{}/scratch'.format(datapath))
+    if not os.path.exists('{}/scratch'.format(datapath)):
+        os.mkdir('{}/scratch'.format(datapath))
             
     if os.path.exists('{}/{}'.format(datapath,model_name)):
         os.rename('{}/{}'.format(datapath,model_name),
