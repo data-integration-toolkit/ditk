@@ -340,11 +340,6 @@ class KGC_NeuralLP(graph_completion.GraphCompletion):
 		:param file: Where to save the model - Optional function
 		:return:
 		"""
-		print self.train_stats_1
-
-		print save_Path
-
-		print save_Path+'fake_results.pckl'
 
 		pickle.dump([self.train_stats_1, self.valid_stats_1, self.test_stats_1],
                     open(save_Path+'/results_saved.pckl', "w"))
