@@ -36,7 +36,7 @@ obj = Wikipedia2vec()
 **3. Read the dataset** 
 Reads a dataset in preparation to learn embeddings. Returns data in proper format to learn embeddings. Saves the required file names in chosen_dataset.txt to be used by other methods of the program
 ```bash
-obj.read_dataset()
+obj.read_dataset(filename)
 ```
 **4. Build Dump Database** 
 The build_dump command creates a database that contains Wikipedia pages each of which consists of texts and anchor links in it.
