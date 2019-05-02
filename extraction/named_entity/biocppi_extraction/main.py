@@ -41,8 +41,8 @@ def main(inputFilePath):
 
     # # test CHEMDNER...good!
     # dataset_name = 'CHEMDNER'
-    # # dataset_dir = '/smol/'  # smol sample
-    # dataset_dir = '/Users/olderhorselover/USC/spring2019/csci_548_diotw/project/groupedProject/chemdner_corpus/'
+    # dataset_dir = '/home/kcrouch/smol_datasets/chemdner/'  # smol sample
+    # # dataset_dir = '/Users/olderhorselover/USC/spring2019/csci_548_diotw/project/groupedProject/chemdner_corpus/'
     # raw_data_train_file = dataset_dir + 'training.abstracts.txt'
     # raw_data_dev_file = dataset_dir + 'development.abstracts.txt'
     # raw_data_test_file = dataset_dir + 'evaluation.abstracts.txt'

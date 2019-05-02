@@ -466,18 +466,12 @@ class biocppi_extraction(Ner):
         endIdx = None
         is_entity = False
         for idx in range(len(truths)):
-            if truths[idx]=='B-MISC':
+            if truths[idx]=='I-MISC':
                 is_entity = True
                 startIdx = idx
                 endIdx = idx
                 continue
             if is_entity:
-                if truths[idx]=='B-MISC':  # corner case...B-Dis followed by B-Dis
-                    truth_entities.add(tuple([startIdx,endIdx]))
-                    startIdx = idx
-                    endIdx = idx
-                    #still keep is_entity
-                    continue
                 if truths[idx]=='I-MISC':
                     endIdx = idx
                     #still keep is_entity
@@ -494,18 +488,12 @@ class biocppi_extraction(Ner):
         endIdx = None
         is_entity = False
         for idx in range(len(preds)):
-            if preds[idx]=='B-MISC':
+            if preds[idx]=='I-MISC':
                 is_entity = True
                 startIdx = idx
                 endIdx = idx
                 continue
             if is_entity:
-                if preds[idx]=='B-MISC':  # corner case...B-Dis followed by B-Dis
-                    pred_entities.add(tuple([startIdx,endIdx]))
-                    startIdx = idx
-                    endIdx = idx
-                    #still keep is_entity
-                    continue
                 if preds[idx]=='I-MISC':
                     endIdx = idx
                     #still keep is_entity
