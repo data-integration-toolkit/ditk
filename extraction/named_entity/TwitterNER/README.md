@@ -30,7 +30,7 @@ cd ..
 * All the models for the benchmark datasets can be found in TwitterNER/models folder.
 * All the datasets can be found in the TwitterNER/data folder. 
 
-### Evaluation Datasets
+### Evaluation Datasets & Results
 ![Image description](https://github.com/KhadijaZavery/ditk/blob/develop-py2/extraction/named_entity/TwitterNER/datasets.png)
 
 ### Evaluation Metrics
