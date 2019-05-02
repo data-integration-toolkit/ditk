@@ -577,7 +577,7 @@ class biocppi_extraction(Ner):
         m = BiLSTM(labels=self.labels,
                     word_vocab=word_vocab,
                     word_embeddings=None,
-                    optimizer=self.optimizer,
+                    optimizer='default',
                     embedding_size=200, 
                     char_embedding_size=32,
                     lstm_dim=200,
