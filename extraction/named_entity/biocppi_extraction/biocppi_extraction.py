@@ -368,6 +368,7 @@ class biocppi_extraction(Ner):
             print('file based prediction not available at this time. Expect list of list for input data.')
             return None
 
+        self.trained_model = [1]  # TEMPORARY
         if not self.trained_model:
             print('No trained models to work with. Be sure to run train() before running this. Model loading not supported at this time')
             return None
