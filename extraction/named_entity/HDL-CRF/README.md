@@ -30,3 +30,4 @@ https://github.com/lixusheng1/HDL-CRF
 * [demo.ipynb](./demo.ipynb)
 
 ## YouTube Video
+* https://youtu.be/g4dPFgpG8zM
