@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="DDI-DrugBank.d622">
+    <sentence id="DDI-DrugBank.d622.s0" text="When atropine and pralidoxime are used together, the signs of atropinization (flushing, mydriasis, tachycardia, dryness of the mouth and nose) may occur earlier than might be expected when atropine is used alone. ">
+        <entity id="DDI-DrugBank.d622.s0.e0" charOffset="5-12"
+            type="drug" text="atropine"/>
+        <entity id="DDI-DrugBank.d622.s0.e1" charOffset="18-28"
+            type="drug" text="pralidoxime"/>
+        <entity id="DDI-DrugBank.d622.s0.e2" charOffset="189-196"
+            type="drug" text="atropine"/>
+        <pair id="DDI-DrugBank.d622.s0.p0" e1="DDI-DrugBank.d622.s0.e0"
+            e2="DDI-DrugBank.d622.s0.e1" ddi="true" type="effect"/>
+        <pair id="DDI-DrugBank.d622.s0.p1" e1="DDI-DrugBank.d622.s0.e0"
+            e2="DDI-DrugBank.d622.s0.e2" ddi="false"/>
+        <pair id="DDI-DrugBank.d622.s0.p2" e1="DDI-DrugBank.d622.s0.e1"
+            e2="DDI-DrugBank.d622.s0.e2" ddi="false"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d622.s1" text="This is especially true if the total dose of atropine has been large and the administration of pralidoxime has been delayed. ">
+        <entity id="DDI-DrugBank.d622.s1.e0" charOffset="45-52"
+            type="drug" text="atropine"/>
+        <entity id="DDI-DrugBank.d622.s1.e1" charOffset="95-105"
+            type="drug" text="pralidoxime"/>
+        <pair id="DDI-DrugBank.d622.s1.p0" e1="DDI-DrugBank.d622.s1.e0"
+            e2="DDI-DrugBank.d622.s1.e1" ddi="false"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d622.s2" text="2 - 4 The following precautions should be kept in mind in the treatment of anticholinesterase poisoning, although they do not bear directly on the use of pralidoxime: since barbiturates are potentiated by the anticholinesterases, they should be used cautiously in the treatment of convulsions; ">
+        <entity id="DDI-DrugBank.d622.s2.e0" charOffset="154-164"
+            type="drug" text="pralidoxime"/>
+        <entity id="DDI-DrugBank.d622.s2.e1" charOffset="173-184"
+            type="group" text="barbiturates"/>
+        <entity id="DDI-DrugBank.d622.s2.e2" charOffset="209-227"
+            type="group" text="anticholinesterases"/>
+        <pair id="DDI-DrugBank.d622.s2.p0" e1="DDI-DrugBank.d622.s2.e0"
+            e2="DDI-DrugBank.d622.s2.e1" ddi="false"/>
+        <pair id="DDI-DrugBank.d622.s2.p1" e1="DDI-DrugBank.d622.s2.e0"
+            e2="DDI-DrugBank.d622.s2.e2" ddi="false"/>
+        <pair id="DDI-DrugBank.d622.s2.p2" e1="DDI-DrugBank.d622.s2.e1"
+            e2="DDI-DrugBank.d622.s2.e2" ddi="true" type="effect"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d622.s3" text="morphine, theophylline, aminophylline, succinylcholine, reserpine, and phenothiazine-type tranquilizers should be avoided in patients with organophosphate poisoning.">
+        <entity id="DDI-DrugBank.d622.s3.e0" charOffset="0-7"
+            type="drug" text="morphine"/>
+        <entity id="DDI-DrugBank.d622.s3.e1" charOffset="10-21"
+            type="drug" text="theophylline"/>
+        <entity id="DDI-DrugBank.d622.s3.e2" charOffset="24-36"
+            type="drug" text="aminophylline"/>
+        <entity id="DDI-DrugBank.d622.s3.e3" charOffset="39-53"
+            type="drug" text="succinylcholine"/>
+        <entity id="DDI-DrugBank.d622.s3.e4" charOffset="56-64"
+            type="drug" text="reserpine"/>
+        <entity id="DDI-DrugBank.d622.s3.e5" charOffset="71-102"
+            type="group" text="phenothiazine-type tranquilizers"/>
+        <pair id="DDI-DrugBank.d622.s3.p0" e1="DDI-DrugBank.d622.s3.e0"
+            e2="DDI-DrugBank.d622.s3.e1" ddi="false"/>
+        <pair id="DDI-DrugBank.d622.s3.p1" e1="DDI-DrugBank.d622.s3.e0"
+            e2="DDI-DrugBank.d622.s3.e2" ddi="false"/>
+        <pair id="DDI-DrugBank.d622.s3.p2" e1="DDI-DrugBank.d622.s3.e0"
+            e2="DDI-DrugBank.d622.s3.e3" ddi="false"/>
+        <pair id="DDI-DrugBank.d622.s3.p3" e1="DDI-DrugBank.d622.s3.e0"
+            e2="DDI-DrugBank.d622.s3.e4" ddi="false"/>
+        <pair id="DDI-DrugBank.d622.s3.p4" e1="DDI-DrugBank.d622.s3.e0"
+            e2="DDI-DrugBank.d622.s3.e5" ddi="false"/>
+        <pair id="DDI-DrugBank.d622.s3.p5" e1="DDI-DrugBank.d622.s3.e1"
+            e2="DDI-DrugBank.d622.s3.e2" ddi="false"/>
+        <pair id="DDI-DrugBank.d622.s3.p6" e1="DDI-DrugBank.d622.s3.e1"
+            e2="DDI-DrugBank.d622.s3.e3" ddi="false"/>
+        <pair id="DDI-DrugBank.d622.s3.p7" e1="DDI-DrugBank.d622.s3.e1"
+            e2="DDI-DrugBank.d622.s3.e4" ddi="false"/>
+        <pair id="DDI-DrugBank.d622.s3.p8" e1="DDI-DrugBank.d622.s3.e1"
+            e2="DDI-DrugBank.d622.s3.e5" ddi="false"/>
+        <pair id="DDI-DrugBank.d622.s3.p9" e1="DDI-DrugBank.d622.s3.e2"
+            e2="DDI-DrugBank.d622.s3.e3" ddi="false"/>
+        <pair id="DDI-DrugBank.d622.s3.p10" e1="DDI-DrugBank.d622.s3.e2"
+            e2="DDI-DrugBank.d622.s3.e4" ddi="false"/>
+        <pair id="DDI-DrugBank.d622.s3.p11" e1="DDI-DrugBank.d622.s3.e2"
+            e2="DDI-DrugBank.d622.s3.e5" ddi="false"/>
+        <pair id="DDI-DrugBank.d622.s3.p12" e1="DDI-DrugBank.d622.s3.e3"
+            e2="DDI-DrugBank.d622.s3.e4" ddi="false"/>
+        <pair id="DDI-DrugBank.d622.s3.p13" e1="DDI-DrugBank.d622.s3.e3"
+            e2="DDI-DrugBank.d622.s3.e5" ddi="false"/>
+        <pair id="DDI-DrugBank.d622.s3.p14" e1="DDI-DrugBank.d622.s3.e4"
+            e2="DDI-DrugBank.d622.s3.e5" ddi="false"/>
+    </sentence>
+</document>

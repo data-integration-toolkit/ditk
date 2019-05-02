@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="DDI-DrugBank.d439">
+    <sentence id="DDI-DrugBank.d439.s0" text="Corticotropin may accentuate the electrolyte loss associated with diuretic therapy.">
+        <entity id="DDI-DrugBank.d439.s0.e0" charOffset="0-12"
+            type="drug" text="Corticotropin"/>
+        <entity id="DDI-DrugBank.d439.s0.e1" charOffset="66-73"
+            type="group" text="diuretic"/>
+        <pair id="DDI-DrugBank.d439.s0.p0" e1="DDI-DrugBank.d439.s0.e0"
+            e2="DDI-DrugBank.d439.s0.e1" ddi="true" type="effect"/>
+    </sentence>
+</document>

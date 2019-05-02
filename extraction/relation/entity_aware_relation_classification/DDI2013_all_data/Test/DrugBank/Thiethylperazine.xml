@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="DDI-DrugBank.d677">
+    <sentence id="DDI-DrugBank.d677.s0" text="Phenothiazines are capable of potentiating CNS depressants (e.g., barbiturates, anesthetics, opiates, alcohol, etc.) ">
+        <entity id="DDI-DrugBank.d677.s0.e0" charOffset="0-13"
+            type="group" text="Phenothiazines"/>
+        <entity id="DDI-DrugBank.d677.s0.e1" charOffset="43-57"
+            type="group" text="CNS depressants"/>
+        <entity id="DDI-DrugBank.d677.s0.e2" charOffset="66-77"
+            type="group" text="barbiturates"/>
+        <entity id="DDI-DrugBank.d677.s0.e3" charOffset="80-90"
+            type="group" text="anesthetics"/>
+        <entity id="DDI-DrugBank.d677.s0.e4" charOffset="93-99"
+            type="group" text="opiates"/>
+        <entity id="DDI-DrugBank.d677.s0.e5" charOffset="102-108"
+            type="drug" text="alcohol"/>
+        <pair id="DDI-DrugBank.d677.s0.p0" e1="DDI-DrugBank.d677.s0.e0"
+            e2="DDI-DrugBank.d677.s0.e1" ddi="true" type="effect"/>
+        <pair id="DDI-DrugBank.d677.s0.p1" e1="DDI-DrugBank.d677.s0.e0"
+            e2="DDI-DrugBank.d677.s0.e2" ddi="true" type="effect"/>
+        <pair id="DDI-DrugBank.d677.s0.p2" e1="DDI-DrugBank.d677.s0.e0"
+            e2="DDI-DrugBank.d677.s0.e3" ddi="true" type="effect"/>
+        <pair id="DDI-DrugBank.d677.s0.p3" e1="DDI-DrugBank.d677.s0.e0"
+            e2="DDI-DrugBank.d677.s0.e4" ddi="true" type="effect"/>
+        <pair id="DDI-DrugBank.d677.s0.p4" e1="DDI-DrugBank.d677.s0.e0"
+            e2="DDI-DrugBank.d677.s0.e5" ddi="true" type="effect"/>
+        <pair id="DDI-DrugBank.d677.s0.p5" e1="DDI-DrugBank.d677.s0.e1"
+            e2="DDI-DrugBank.d677.s0.e2" ddi="false"/>
+        <pair id="DDI-DrugBank.d677.s0.p6" e1="DDI-DrugBank.d677.s0.e1"
+            e2="DDI-DrugBank.d677.s0.e3" ddi="false"/>
+        <pair id="DDI-DrugBank.d677.s0.p7" e1="DDI-DrugBank.d677.s0.e1"
+            e2="DDI-DrugBank.d677.s0.e4" ddi="false"/>
+        <pair id="DDI-DrugBank.d677.s0.p8" e1="DDI-DrugBank.d677.s0.e1"
+            e2="DDI-DrugBank.d677.s0.e5" ddi="false"/>
+        <pair id="DDI-DrugBank.d677.s0.p9" e1="DDI-DrugBank.d677.s0.e2"
+            e2="DDI-DrugBank.d677.s0.e3" ddi="false"/>
+        <pair id="DDI-DrugBank.d677.s0.p10" e1="DDI-DrugBank.d677.s0.e2"
+            e2="DDI-DrugBank.d677.s0.e4" ddi="false"/>
+        <pair id="DDI-DrugBank.d677.s0.p11" e1="DDI-DrugBank.d677.s0.e2"
+            e2="DDI-DrugBank.d677.s0.e5" ddi="false"/>
+        <pair id="DDI-DrugBank.d677.s0.p12" e1="DDI-DrugBank.d677.s0.e3"
+            e2="DDI-DrugBank.d677.s0.e4" ddi="false"/>
+        <pair id="DDI-DrugBank.d677.s0.p13" e1="DDI-DrugBank.d677.s0.e3"
+            e2="DDI-DrugBank.d677.s0.e5" ddi="false"/>
+        <pair id="DDI-DrugBank.d677.s0.p14" e1="DDI-DrugBank.d677.s0.e4"
+            e2="DDI-DrugBank.d677.s0.e5" ddi="false"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d677.s1" text="as well as atropine and phosphorous insecticides.">
+        <entity id="DDI-DrugBank.d677.s1.e0" charOffset="11-18"
+            type="drug" text="atropine"/>
+        <entity id="DDI-DrugBank.d677.s1.e1" charOffset="24-47"
+            type="drug_n" text="phosphorous insecticides"/>
+        <pair id="DDI-DrugBank.d677.s1.p0" e1="DDI-DrugBank.d677.s1.e0"
+            e2="DDI-DrugBank.d677.s1.e1" ddi="false"/>
+    </sentence>
+</document>

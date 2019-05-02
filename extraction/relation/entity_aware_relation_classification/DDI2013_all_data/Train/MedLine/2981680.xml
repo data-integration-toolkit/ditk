@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="DDI-MedLine.d82">
+    <sentence id="DDI-MedLine.d82.s0" text="Intestinal absorption of arsenate in the chick.&#xa;">
+        <entity id="DDI-MedLine.d82.s0.e0" charOffset="25-32"
+            type="drug_n" text="arsenate"/>
+    </sentence>
+    <sentence id="DDI-MedLine.d82.s1" text="The intestinal absorption of arsenate(As(V)) has been investigated in the chick by means of the in situ ligated duodenal loop technique. ">
+        <entity id="DDI-MedLine.d82.s1.e0" charOffset="29-36"
+            type="drug_n" text="arsenate"/>
+        <entity id="DDI-MedLine.d82.s1.e1" charOffset="38-42"
+            type="drug_n" text="As(V)"/>
+        <pair id="DDI-MedLine.d82.s1.p0" e1="DDI-MedLine.d82.s1.e0"
+            e2="DDI-MedLine.d82.s1.e1" ddi="false"/>
+    </sentence>
+    <sentence id="DDI-MedLine.d82.s2" text="By this procedure, it was observed that arsenate is rapidly and essentially completely absorbed (80-95%) from the lumen at As(V) concentrations up to 5 mM, declining to about 50% absorption at 50 mM. ">
+        <entity id="DDI-MedLine.d82.s2.e0" charOffset="40-47"
+            type="drug_n" text="arsenate"/>
+        <entity id="DDI-MedLine.d82.s2.e1" charOffset="123-127"
+            type="drug_n" text="As(V)"/>
+        <pair id="DDI-MedLine.d82.s2.p0" e1="DDI-MedLine.d82.s2.e0"
+            e2="DDI-MedLine.d82.s2.e1" ddi="false"/>
+    </sentence>
+    <sentence id="DDI-MedLine.d82.s3" text="Transfer from the intestinal lumen to the mucosal cells at low As(V) concentration (0.1 mM) is rapid, while transfer from the mucosal cells to the body occurs more slowly. ">
+        <entity id="DDI-MedLine.d82.s3.e0" charOffset="63-67"
+            type="drug_n" text="As(V)"/>
+    </sentence>
+    <sentence id="DDI-MedLine.d82.s4" text="At stable As(V) concentrations greater than 1 mM, fractional mucosal cell accumulation of As(V) remains constant, while fractional transfer to the body declines. ">
+        <entity id="DDI-MedLine.d82.s4.e0" charOffset="10-14"
+            type="drug_n" text="As(V)"/>
+        <entity id="DDI-MedLine.d82.s4.e1" charOffset="90-94"
+            type="drug_n" text="As(V)"/>
+        <pair id="DDI-MedLine.d82.s4.p0" e1="DDI-MedLine.d82.s4.e0"
+            e2="DDI-MedLine.d82.s4.e1" ddi="false"/>
+    </sentence>
+    <sentence id="DDI-MedLine.d82.s5" text="However, total mucosal accumulation of As(V) and that transferred to the body increase in a linear logarithmic fashion from 0.05 to 5 mm As(V). ">
+        <entity id="DDI-MedLine.d82.s5.e0" charOffset="39-43"
+            type="drug_n" text="As(V)"/>
+        <entity id="DDI-MedLine.d82.s5.e1" charOffset="137-141"
+            type="drug_n" text="As(V)"/>
+        <pair id="DDI-MedLine.d82.s5.p0" e1="DDI-MedLine.d82.s5.e0"
+            e2="DDI-MedLine.d82.s5.e1" ddi="false"/>
+    </sentence>
+    <sentence id="DDI-MedLine.d82.s6" text="The results indicate that As(V) readily penetrates both the mucosal and serosal surfaces of the epithelial membrane. ">
+        <entity id="DDI-MedLine.d82.s6.e0" charOffset="26-30"
+            type="drug_n" text="As(V)"/>
+    </sentence>
+    <sentence id="DDI-MedLine.d82.s7" text="Furthermore, arsenate and phosphate do not appear to share a common transport pathway in the duodenum and no evidence was obtained for any interaction between the two at this level. ">
+        <entity id="DDI-MedLine.d82.s7.e0" charOffset="13-20"
+            type="drug_n" text="arsenate"/>
+        <entity id="DDI-MedLine.d82.s7.e1" charOffset="26-34"
+            type="drug" text="phosphate"/>
+        <pair id="DDI-MedLine.d82.s7.p0" e1="DDI-MedLine.d82.s7.e0"
+            e2="DDI-MedLine.d82.s7.e1" ddi="false"/>
+    </sentence>
+    <sentence id="DDI-MedLine.d82.s8" text="Vitamin D3 administration to rachitic chicks was effective in significantly elevating duodenal arsenate absorption, acting primarily to enhance serosal transport.">
+        <entity id="DDI-MedLine.d82.s8.e0" charOffset="0-9" type="drug" text="Vitamin D3"/>
+        <entity id="DDI-MedLine.d82.s8.e1" charOffset="95-102"
+            type="drug_n" text="arsenate"/>
+        <pair id="DDI-MedLine.d82.s8.p0" e1="DDI-MedLine.d82.s8.e0"
+            e2="DDI-MedLine.d82.s8.e1" ddi="true" type="mechanism"/>
+    </sentence>
+</document>

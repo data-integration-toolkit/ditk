@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="DDI-DrugBank.d34">
+    <sentence id="DDI-DrugBank.d34.s0" text="Although acid-base and electrolyte disturbances were not reported in the clinical trials with dorzolamide, these disturbances have been reported with oral carbonic anhydrase inhibitors and have, in some instances, resulted in drug interactions (e.g., toxicity associated with high-dose salicylate therapy).">
+        <entity id="DDI-DrugBank.d34.s0.e0" charOffset="94-104"
+            type="drug" text="dorzolamide"/>
+        <entity id="DDI-DrugBank.d34.s0.e1" charOffset="155-183"
+            type="group" text="carbonic anhydrase inhibitors"/>
+        <entity id="DDI-DrugBank.d34.s0.e2" charOffset="286-295"
+            type="group" text="salicylate"/>
+        <pair id="DDI-DrugBank.d34.s0.p0" e1="DDI-DrugBank.d34.s0.e0"
+            e2="DDI-DrugBank.d34.s0.e1" ddi="true" type="effect"/>
+        <pair id="DDI-DrugBank.d34.s0.p1" e1="DDI-DrugBank.d34.s0.e0"
+            e2="DDI-DrugBank.d34.s0.e2" ddi="false"/>
+        <pair id="DDI-DrugBank.d34.s0.p2" e1="DDI-DrugBank.d34.s0.e1"
+            e2="DDI-DrugBank.d34.s0.e2" ddi="false"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d34.s1" text="Therefore, the potential for such drug interactions should be considered in patients receiving dorzolamide.">
+        <entity id="DDI-DrugBank.d34.s1.e0" charOffset="95-105"
+            type="drug" text="dorzolamide"/>
+    </sentence>
+</document>

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="DDI-DrugBank.d747">
+    <sentence id="DDI-DrugBank.d747.s0" text="Tetracycline, a bacteriostatic antibiotic, may antagonize the bactericidal effect of penicillin and concurrent use of these drugs should be avoided.">
+        <entity id="DDI-DrugBank.d747.s0.e0" charOffset="0-11"
+            type="group" text="Tetracycline"/>
+        <entity id="DDI-DrugBank.d747.s0.e1" charOffset="31-40"
+            type="group" text="antibiotic"/>
+        <entity id="DDI-DrugBank.d747.s0.e2" charOffset="85-94"
+            type="drug" text="penicillin"/>
+        <pair id="DDI-DrugBank.d747.s0.p0" e1="DDI-DrugBank.d747.s0.e0"
+            e2="DDI-DrugBank.d747.s0.e1" ddi="false"/>
+        <pair id="DDI-DrugBank.d747.s0.p1" e1="DDI-DrugBank.d747.s0.e0"
+            e2="DDI-DrugBank.d747.s0.e2" ddi="true" type="effect"/>
+        <pair id="DDI-DrugBank.d747.s0.p2" e1="DDI-DrugBank.d747.s0.e1"
+            e2="DDI-DrugBank.d747.s0.e2" ddi="false"/>
+    </sentence>
+</document>

@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="DDI-MedLine.d163">
+    <sentence id="DDI-MedLine.d163.s0" text="In vitro activity of minocycline combined with fosfomycin against clinical isolates of methicillin-resistant Staphylococcus aureus.&#xd;&#xa;">
+        <entity id="DDI-MedLine.d163.s0.e0" charOffset="21-31"
+            type="drug" text="minocycline"/>
+        <entity id="DDI-MedLine.d163.s0.e1" charOffset="47-56"
+            type="drug" text="fosfomycin"/>
+        <entity id="DDI-MedLine.d163.s0.e2" charOffset="87-97"
+            type="drug" text="methicillin"/>
+        <pair id="DDI-MedLine.d163.s0.p0" e1="DDI-MedLine.d163.s0.e0"
+            e2="DDI-MedLine.d163.s0.e1" ddi="false"/>
+        <pair id="DDI-MedLine.d163.s0.p1" e1="DDI-MedLine.d163.s0.e0"
+            e2="DDI-MedLine.d163.s0.e2" ddi="false"/>
+        <pair id="DDI-MedLine.d163.s0.p2" e1="DDI-MedLine.d163.s0.e1"
+            e2="DDI-MedLine.d163.s0.e2" ddi="false"/>
+    </sentence>
+    <sentence id="DDI-MedLine.d163.s1" text="This study aimed to evaluate the in vitro activity of minocycline combined with fosfomycin against isolates of methicillin-resistant Staphylococcus aureus (MRSA). ">
+        <entity id="DDI-MedLine.d163.s1.e0" charOffset="54-64"
+            type="drug" text="minocycline"/>
+        <entity id="DDI-MedLine.d163.s1.e1" charOffset="80-89"
+            type="drug" text="fosfomycin"/>
+        <entity id="DDI-MedLine.d163.s1.e2" charOffset="111-121"
+            type="drug" text="methicillin"/>
+        <pair id="DDI-MedLine.d163.s1.p0" e1="DDI-MedLine.d163.s1.e0"
+            e2="DDI-MedLine.d163.s1.e1" ddi="false"/>
+        <pair id="DDI-MedLine.d163.s1.p1" e1="DDI-MedLine.d163.s1.e0"
+            e2="DDI-MedLine.d163.s1.e2" ddi="false"/>
+        <pair id="DDI-MedLine.d163.s1.p2" e1="DDI-MedLine.d163.s1.e1"
+            e2="DDI-MedLine.d163.s1.e2" ddi="false"/>
+    </sentence>
+    <sentence id="DDI-MedLine.d163.s2" text="A total of 87 clinical isolates of MRSA collected from three Chinese hospitals were included in the study. "/>
+    <sentence id="DDI-MedLine.d163.s3" text="The checkerboard method with determination of the fractional IC index (FICI) was used to determine whether antibiotic combinations act synergistically against these isolates. ">
+        <entity id="DDI-MedLine.d163.s3.e0" charOffset="107-116"
+            type="group" text="antibiotic"/>
+    </sentence>
+    <sentence id="DDI-MedLine.d163.s4" text="The susceptibility results for minocycline and fosfomycin were interpreted according to the most relevant criteria. ">
+        <entity id="DDI-MedLine.d163.s4.e0" charOffset="31-41"
+            type="drug" text="minocycline"/>
+        <entity id="DDI-MedLine.d163.s4.e1" charOffset="47-56"
+            type="drug" text="fosfomycin"/>
+        <pair id="DDI-MedLine.d163.s4.p0" e1="DDI-MedLine.d163.s4.e0"
+            e2="DDI-MedLine.d163.s4.e1" ddi="false"/>
+    </sentence>
+    <sentence id="DDI-MedLine.d163.s5" text="The results demonstrated the following interactions: 76 isolates (87.4%) showed synergistic interactions (FICI   0.5) and 11 isolates (12.6%) showed indifferent interactions (0.5&amp;lt;FICI&amp;lt;4). "/>
+    <sentence id="DDI-MedLine.d163.s6" text="No antagonistic interactions (FICI   4) were observed. "/>
+    <sentence id="DDI-MedLine.d163.s7" text="The combination of minocycline and fosfomycin can be synergistic against MRSA. ">
+        <entity id="DDI-MedLine.d163.s7.e0" charOffset="19-29"
+            type="drug" text="minocycline"/>
+        <entity id="DDI-MedLine.d163.s7.e1" charOffset="35-44"
+            type="drug" text="fosfomycin"/>
+        <pair id="DDI-MedLine.d163.s7.p0" e1="DDI-MedLine.d163.s7.e0"
+            e2="DDI-MedLine.d163.s7.e1" ddi="true" type="effect"/>
+    </sentence>
+    <sentence id="DDI-MedLine.d163.s8" text="Further studies are required to determine the potential clinical role of this combination regimen as a therapeutic alternative for certain types of MRSA infections."/>
+</document>

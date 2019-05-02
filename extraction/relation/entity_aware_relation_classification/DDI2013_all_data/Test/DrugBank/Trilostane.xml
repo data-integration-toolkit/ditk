@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="DDI-DrugBank.d774">
+    <sentence id="DDI-DrugBank.d774.s0" text="Trilostane may interact with aminoglutethimide or mitotane (causing too great a decrease in adrenal function).">
+        <entity id="DDI-DrugBank.d774.s0.e0" charOffset="0-9"
+            type="drug" text="Trilostane"/>
+        <entity id="DDI-DrugBank.d774.s0.e1" charOffset="29-45"
+            type="drug" text="aminoglutethimide"/>
+        <entity id="DDI-DrugBank.d774.s0.e2" charOffset="50-57"
+            type="drug" text="mitotane"/>
+        <pair id="DDI-DrugBank.d774.s0.p0" e1="DDI-DrugBank.d774.s0.e0"
+            e2="DDI-DrugBank.d774.s0.e1" ddi="true" type="int"/>
+        <pair id="DDI-DrugBank.d774.s0.p1" e1="DDI-DrugBank.d774.s0.e0"
+            e2="DDI-DrugBank.d774.s0.e2" ddi="true" type="int"/>
+        <pair id="DDI-DrugBank.d774.s0.p2" e1="DDI-DrugBank.d774.s0.e1"
+            e2="DDI-DrugBank.d774.s0.e2" ddi="false"/>
+    </sentence>
+</document>

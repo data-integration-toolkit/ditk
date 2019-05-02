@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="DDI-DrugBank.d346">
+    <sentence id="DDI-DrugBank.d346.s0" text="Studies to evaluate possible interactions between REVIA and drugs other than opiates have not been performed.">
+        <entity id="DDI-DrugBank.d346.s0.e0" charOffset="50-54"
+            type="brand" text="REVIA"/>
+        <entity id="DDI-DrugBank.d346.s0.e1" charOffset="77-83"
+            type="group" text="opiates"/>
+        <pair id="DDI-DrugBank.d346.s0.p0" e1="DDI-DrugBank.d346.s0.e0"
+            e2="DDI-DrugBank.d346.s0.e1" ddi="false"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d346.s1" text="Consequently, caution is advised if the concomitant administration of REVIA and other drugs is required.">
+        <entity id="DDI-DrugBank.d346.s1.e0" charOffset="70-74"
+            type="brand" text="REVIA"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d346.s2" text="The safety and efficacy of concomitant use of REVIA and disulfiram is unknown, and the concomitant use of two potentially hepatotoxic medications is not ordinarily recommended unless the probable benefits outweigh the known risks.">
+        <entity id="DDI-DrugBank.d346.s2.e0" charOffset="46-50"
+            type="brand" text="REVIA"/>
+        <entity id="DDI-DrugBank.d346.s2.e1" charOffset="56-65"
+            type="drug" text="disulfiram"/>
+        <pair id="DDI-DrugBank.d346.s2.p0" e1="DDI-DrugBank.d346.s2.e0"
+            e2="DDI-DrugBank.d346.s2.e1" ddi="true" type="effect"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d346.s3" text="Lethargy and somnolence have been reported following doses of REVIA and thioridazine.">
+        <entity id="DDI-DrugBank.d346.s3.e0" charOffset="62-66"
+            type="brand" text="REVIA"/>
+        <entity id="DDI-DrugBank.d346.s3.e1" charOffset="72-83"
+            type="drug" text="thioridazine"/>
+        <pair id="DDI-DrugBank.d346.s3.p0" e1="DDI-DrugBank.d346.s3.e0"
+            e2="DDI-DrugBank.d346.s3.e1" ddi="true" type="effect"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d346.s4" text="Patients taking REVIA may not benefit from opioid containing medicines, such as cough and cold preparations, antidiarrheal preparations, and opioid analgesics.">
+        <entity id="DDI-DrugBank.d346.s4.e0" charOffset="16-20"
+            type="brand" text="REVIA"/>
+        <entity id="DDI-DrugBank.d346.s4.e1" charOffset="43-48"
+            type="group" text="opioid"/>
+        <entity id="DDI-DrugBank.d346.s4.e2" charOffset="141-157"
+            type="group" text="opioid analgesics"/>
+        <pair id="DDI-DrugBank.d346.s4.p0" e1="DDI-DrugBank.d346.s4.e0"
+            e2="DDI-DrugBank.d346.s4.e1" ddi="true" type="effect"/>
+        <pair id="DDI-DrugBank.d346.s4.p1" e1="DDI-DrugBank.d346.s4.e0"
+            e2="DDI-DrugBank.d346.s4.e2" ddi="true" type="effect"/>
+        <pair id="DDI-DrugBank.d346.s4.p2" e1="DDI-DrugBank.d346.s4.e1"
+            e2="DDI-DrugBank.d346.s4.e2" ddi="false"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d346.s5" text="In an emergency situation when opioid analgesia must be administered to a patient receiving REVIA, the amount of opioid required may be greater than usual, and the resulting respiratory depression may be deeper and more prolonged.">
+        <entity id="DDI-DrugBank.d346.s5.e0" charOffset="92-96"
+            type="brand" text="REVIA"/>
+        <entity id="DDI-DrugBank.d346.s5.e1" charOffset="113-118"
+            type="group" text="opioid"/>
+        <pair id="DDI-DrugBank.d346.s5.p0" e1="DDI-DrugBank.d346.s5.e0"
+            e2="DDI-DrugBank.d346.s5.e1" ddi="true" type="effect"/>
+    </sentence>
+</document>

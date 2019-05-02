@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="DDI-DrugBank.d79">
+    <sentence id="DDI-DrugBank.d79.s0" text="The absorption of lymecycline may be affected by the simultaneous administration of indigestion remedies, iron or zinc supplements.">
+        <entity id="DDI-DrugBank.d79.s0.e0" charOffset="18-28"
+            type="drug" text="lymecycline"/>
+        <entity id="DDI-DrugBank.d79.s0.e1" charOffset="106-109"
+            type="drug" text="iron"/>
+        <entity id="DDI-DrugBank.d79.s0.e2" charOffset="114-117"
+            type="drug" text="zinc"/>
+        <pair id="DDI-DrugBank.d79.s0.p0" e1="DDI-DrugBank.d79.s0.e0"
+            e2="DDI-DrugBank.d79.s0.e1" ddi="true" type="mechanism"/>
+        <pair id="DDI-DrugBank.d79.s0.p1" e1="DDI-DrugBank.d79.s0.e0"
+            e2="DDI-DrugBank.d79.s0.e2" ddi="true" type="mechanism"/>
+        <pair id="DDI-DrugBank.d79.s0.p2" e1="DDI-DrugBank.d79.s0.e1"
+            e2="DDI-DrugBank.d79.s0.e2" ddi="false"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d79.s1" text="Oral contraceptives may be less effective while you are taking lymecycline.">
+        <entity id="DDI-DrugBank.d79.s1.e0" charOffset="5-18"
+            type="group" text="contraceptives"/>
+        <entity id="DDI-DrugBank.d79.s1.e1" charOffset="63-73"
+            type="drug" text="lymecycline"/>
+        <pair id="DDI-DrugBank.d79.s1.p0" e1="DDI-DrugBank.d79.s1.e0"
+            e2="DDI-DrugBank.d79.s1.e1" ddi="true" type="effect"/>
+    </sentence>
+</document>

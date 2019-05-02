@@ -1,0 +1,128 @@
+import numpy as np
+import pandas as pd
+import nltk
+import re
+import utils
+
+def clean_str(text):
+    text = text.lower()
+    # Clean the text
+    text = re.sub(r"[^A-Za-z0-9^,!.\/'+-=]", " ", text)
+    text = re.sub(r"what's", "what is ", text)
+    text = re.sub(r"that's", "that is ", text)
+    text = re.sub(r"there's", "there is ", text)
+    text = re.sub(r"it's", "it is ", text)
+    text = re.sub(r"\'s", " ", text)
+    text = re.sub(r"\'ve", " have ", text)
+    text = re.sub(r"can't", "can not ", text)
+    text = re.sub(r"n't", " not ", text)
+    text = re.sub(r"i'm", "i am ", text)
+    text = re.sub(r"\'re", " are ", text)
+    text = re.sub(r"\'d", " would ", text)
+    text = re.sub(r"\'ll", " will ", text)
+    text = re.sub(r",", " ", text)
+    text = re.sub(r"\.", " ", text)
+    text = re.sub(r"!", " ! ", text)
+    text = re.sub(r"\/", " ", text)
+    text = re.sub(r"\^", " ^ ", text)
+    text = re.sub(r"\+", " + ", text)
+    text = re.sub(r"\-", " - ", text)
+    text = re.sub(r"\=", " = ", text)
+    text = re.sub(r"'", " ", text)
+    text = re.sub(r"(\d+)(k)", r"\g<1>000", text)
+    text = re.sub(r":", " : ", text)
+    text = re.sub(r" e g ", " eg ", text)
+    text = re.sub(r" b g ", " bg ", text)
+    text = re.sub(r" u s ", " american ", text)
+    text = re.sub(r"\0s", "0", text)
+    text = re.sub(r" 9 11 ", "911", text)
+    text = re.sub(r"e - mail", "email", text)
+    text = re.sub(r"j k", "jk", text)
+    text = re.sub(r"\s{2,}", " ", text)
+
+    return text.strip()
+
+
+def load_data_and_labels(dataobject,max_sentence_length):
+    data = []
+    lines = [s for s in dataobject]
+    for idx in lines:
+        id = idx[0]
+        relation = idx[8]
+        sentence = idx[1]
+        sentence = sentence.replace('<e1>', ' _e11_ ')
+        sentence = sentence.replace('</e1>', ' _e12_ ')
+        sentence = sentence.replace('<e2>', ' _e21_ ')
+        sentence = sentence.replace('</e2>', ' _e22_ ')
+        sentence = clean_str(sentence)
+        tokens = nltk.word_tokenize(sentence)
+        if max_sentence_length < len(tokens):
+            max_sentence_length = len(tokens)
+        e1 = tokens.index("e12") - 1
+        e2 = tokens.index("e22") - 1
+        sentence = " ".join(tokens)
+        data.append([id, sentence, e1, e2, relation])
+
+    print("max sentence length = {}\n".format(max_sentence_length))
+    df = pd.DataFrame(data=data, columns=["id", "sentence", "e1", "e2", "relation"])
+
+    pos1, pos2 = get_relative_position(df, max_sentence_length)
+    df['label'] = [utils.class2label[r] for r in df['relation']]
+
+    # Text Data
+    x_text = df['sentence'].tolist()
+
+    # Label Data
+    y = df['label']
+    labels_flat = y.values.ravel()
+    labels_count = np.unique(labels_flat).shape[0]
+
+    def dense_to_one_hot(labels_dense, num_classes):
+        num_labels = labels_dense.shape[0]
+        index_offset = np.arange(num_labels) * num_classes
+        labels_one_hot = np.zeros((num_labels, num_classes))
+        labels_one_hot.flat[index_offset + labels_dense.ravel()] = 1
+        return labels_one_hot
+
+    labels = dense_to_one_hot(labels_flat, labels_count)
+    labels = labels.astype(np.uint8)
+
+    return x_text, labels, pos1, pos2
+
+
+def get_relative_position(df, max_sentence_length):
+    # Position data
+    pos1 = []
+    pos2 = []
+    for df_idx in range(len(df)):
+        sentence = df.iloc[df_idx]['sentence']
+        tokens = nltk.word_tokenize(sentence)
+        e1 = df.iloc[df_idx]['e1']
+        e2 = df.iloc[df_idx]['e2']
+
+        p1 = ""
+        p2 = ""
+        for word_idx in range(len(tokens)):
+            p1 += str((max_sentence_length - 1) + word_idx - e1) + " "
+            p2 += str((max_sentence_length - 1) + word_idx - e2) + " "
+        pos1.append(p1)
+        pos2.append(p2)
+
+    return pos1, pos2
+
+
+def batch_iter(data, batch_size, num_epochs, shuffle=True):
+    data = np.array(data)
+    data_size = len(data)
+    num_batches_per_epoch = int((len(data) - 1) / batch_size) + 1
+    for epoch in range(num_epochs):
+        # Shuffle the data at each epoch
+        if shuffle:
+            shuffle_indices = np.random.permutation(np.arange(data_size))
+            shuffled_data = data[shuffle_indices]
+        else:
+            shuffled_data = data
+        for batch_num in range(num_batches_per_epoch):
+            start_index = batch_num * batch_size
+            end_index = min((batch_num + 1) * batch_size, data_size)
+            yield shuffled_data[start_index:end_index]

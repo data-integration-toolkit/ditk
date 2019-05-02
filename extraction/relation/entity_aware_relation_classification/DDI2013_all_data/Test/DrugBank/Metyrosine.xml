@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="DDI-DrugBank.d715">
+    <sentence id="DDI-DrugBank.d715.s0" text="Caution should be observed in administering DEMSER to patients receiving phenothiazines or haloperidol because the extrapyramidal effects of these drugs can be expected to be potentiated by inhibition of catecholamine synthesis. ">
+        <entity id="DDI-DrugBank.d715.s0.e0" charOffset="44-49"
+            type="brand" text="DEMSER"/>
+        <entity id="DDI-DrugBank.d715.s0.e1" charOffset="73-86"
+            type="group" text="phenothiazines"/>
+        <entity id="DDI-DrugBank.d715.s0.e2" charOffset="91-101"
+            type="drug" text="haloperidol"/>
+        <pair id="DDI-DrugBank.d715.s0.p0" e1="DDI-DrugBank.d715.s0.e0"
+            e2="DDI-DrugBank.d715.s0.e1" ddi="true" type="advise"/>
+        <pair id="DDI-DrugBank.d715.s0.p1" e1="DDI-DrugBank.d715.s0.e0"
+            e2="DDI-DrugBank.d715.s0.e2" ddi="true" type="advise"/>
+        <pair id="DDI-DrugBank.d715.s0.p2" e1="DDI-DrugBank.d715.s0.e1"
+            e2="DDI-DrugBank.d715.s0.e2" ddi="false"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d715.s1" text="Concurrent use of DEMSER with alcohol or other CNS depressants can increase their sedative effects.">
+        <entity id="DDI-DrugBank.d715.s1.e0" charOffset="18-23"
+            type="brand" text="DEMSER"/>
+        <entity id="DDI-DrugBank.d715.s1.e1" charOffset="30-36"
+            type="drug" text="alcohol"/>
+        <entity id="DDI-DrugBank.d715.s1.e2" charOffset="47-61"
+            type="drug" text="CNS depressants"/>
+        <pair id="DDI-DrugBank.d715.s1.p0" e1="DDI-DrugBank.d715.s1.e0"
+            e2="DDI-DrugBank.d715.s1.e1" ddi="true" type="effect"/>
+        <pair id="DDI-DrugBank.d715.s1.p1" e1="DDI-DrugBank.d715.s1.e0"
+            e2="DDI-DrugBank.d715.s1.e2" ddi="true" type="effect"/>
+        <pair id="DDI-DrugBank.d715.s1.p2" e1="DDI-DrugBank.d715.s1.e1"
+            e2="DDI-DrugBank.d715.s1.e2" ddi="false"/>
+    </sentence>
+</document>

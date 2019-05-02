@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="DDI-DrugBank.d759">
+    <sentence id="DDI-DrugBank.d759.s0" text="Limited evidence suggests that ascorbic acid may influence the intensity and duration of action of bishydroxycoumarin.">
+        <entity id="DDI-DrugBank.d759.s0.e0" charOffset="31-43"
+            type="drug" text="ascorbic acid"/>
+        <entity id="DDI-DrugBank.d759.s0.e1" charOffset="99-116"
+            type="drug" text="bishydroxycoumarin"/>
+        <pair id="DDI-DrugBank.d759.s0.p0" e1="DDI-DrugBank.d759.s0.e0"
+            e2="DDI-DrugBank.d759.s0.e1" ddi="true" type="mechanism"/>
+    </sentence>
+</document>

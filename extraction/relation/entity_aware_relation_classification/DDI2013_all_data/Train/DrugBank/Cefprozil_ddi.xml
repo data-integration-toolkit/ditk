@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="DDI-DrugBank.d121">
+    <sentence id="DDI-DrugBank.d121.s0" text="Nephrotoxicity has been reported following concomitant administration of aminoglycoside antibiotics and cephalosporin antibiotics.">
+        <entity id="DDI-DrugBank.d121.s0.e0" charOffset="73-98"
+            type="group" text="aminoglycoside antibiotics"/>
+        <entity id="DDI-DrugBank.d121.s0.e1" charOffset="104-128"
+            type="group" text="cephalosporin antibiotics"/>
+        <pair id="DDI-DrugBank.d121.s0.p0" e1="DDI-DrugBank.d121.s0.e0"
+            e2="DDI-DrugBank.d121.s0.e1" ddi="true" type="effect"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d121.s1" text="Concomitant administration of probenecid doubled the AUC for cefprozil.">
+        <entity id="DDI-DrugBank.d121.s1.e0" charOffset="30-39"
+            type="drug" text="probenecid"/>
+        <entity id="DDI-DrugBank.d121.s1.e1" charOffset="61-69"
+            type="drug" text="cefprozil"/>
+        <pair id="DDI-DrugBank.d121.s1.p0" e1="DDI-DrugBank.d121.s1.e0"
+            e2="DDI-DrugBank.d121.s1.e1" ddi="true" type="mechanism"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d121.s2" text="The bioavailability of the capsule formulation of cefprozil was not affected when administered 5 minutes following an antacid.">
+        <entity id="DDI-DrugBank.d121.s2.e0" charOffset="50-58"
+            type="drug" text="cefprozil"/>
+        <entity id="DDI-DrugBank.d121.s2.e1" charOffset="118-124"
+            type="group" text="antacid"/>
+        <pair id="DDI-DrugBank.d121.s2.p0" e1="DDI-DrugBank.d121.s2.e0"
+            e2="DDI-DrugBank.d121.s2.e1" ddi="false"/>
+    </sentence>
+</document>

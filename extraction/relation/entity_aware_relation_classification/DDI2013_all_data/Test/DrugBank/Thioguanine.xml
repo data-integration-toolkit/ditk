@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="DDI-DrugBank.d722">
+    <sentence id="DDI-DrugBank.d722.s0" text="There is usually complete cross-resistance between PURINETHOL (mercaptopurine) and TABLOID brand Thioguanine. ">
+        <entity id="DDI-DrugBank.d722.s0.e0" charOffset="51-60"
+            type="brand" text="PURINETHOL"/>
+        <entity id="DDI-DrugBank.d722.s0.e1" charOffset="63-76"
+            type="drug" text="mercaptopurine"/>
+        <entity id="DDI-DrugBank.d722.s0.e2" charOffset="83-89"
+            type="brand" text="TABLOID"/>
+        <entity id="DDI-DrugBank.d722.s0.e3" charOffset="97-107"
+            type="drug" text="Thioguanine"/>
+        <pair id="DDI-DrugBank.d722.s0.p0" e1="DDI-DrugBank.d722.s0.e0"
+            e2="DDI-DrugBank.d722.s0.e1" ddi="false"/>
+        <pair id="DDI-DrugBank.d722.s0.p1" e1="DDI-DrugBank.d722.s0.e0"
+            e2="DDI-DrugBank.d722.s0.e2" ddi="true" type="effect"/>
+        <pair id="DDI-DrugBank.d722.s0.p2" e1="DDI-DrugBank.d722.s0.e0"
+            e2="DDI-DrugBank.d722.s0.e3" ddi="true" type="effect"/>
+        <pair id="DDI-DrugBank.d722.s0.p3" e1="DDI-DrugBank.d722.s0.e1"
+            e2="DDI-DrugBank.d722.s0.e2" ddi="true" type="effect"/>
+        <pair id="DDI-DrugBank.d722.s0.p4" e1="DDI-DrugBank.d722.s0.e1"
+            e2="DDI-DrugBank.d722.s0.e3" ddi="true" type="effect"/>
+        <pair id="DDI-DrugBank.d722.s0.p5" e1="DDI-DrugBank.d722.s0.e2"
+            e2="DDI-DrugBank.d722.s0.e3" ddi="false"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d722.s1" text="As there is in vitro evidence that aminosalicylate derivatives (e.g., olsalazine, mesalazine, or sulphasalazine) inhibit the TPMT enzyme, they should be administered with caution to patients receiving concurrent thioguanine therapy.    ">
+        <entity id="DDI-DrugBank.d722.s1.e0" charOffset="35-61"
+            type="group" text="aminosalicylate derivatives"/>
+        <entity id="DDI-DrugBank.d722.s1.e1" charOffset="70-79"
+            type="drug" text="olsalazine"/>
+        <entity id="DDI-DrugBank.d722.s1.e2" charOffset="82-91"
+            type="drug" text="mesalazine"/>
+        <entity id="DDI-DrugBank.d722.s1.e3" charOffset="97-110"
+            type="drug" text="sulphasalazine"/>
+        <entity id="DDI-DrugBank.d722.s1.e4" charOffset="212-222"
+            type="drug" text="thioguanine"/>
+        <pair id="DDI-DrugBank.d722.s1.p0" e1="DDI-DrugBank.d722.s1.e0"
+            e2="DDI-DrugBank.d722.s1.e1" ddi="false"/>
+        <pair id="DDI-DrugBank.d722.s1.p1" e1="DDI-DrugBank.d722.s1.e0"
+            e2="DDI-DrugBank.d722.s1.e2" ddi="false"/>
+        <pair id="DDI-DrugBank.d722.s1.p2" e1="DDI-DrugBank.d722.s1.e0"
+            e2="DDI-DrugBank.d722.s1.e3" ddi="false"/>
+        <pair id="DDI-DrugBank.d722.s1.p3" e1="DDI-DrugBank.d722.s1.e0"
+            e2="DDI-DrugBank.d722.s1.e4" ddi="true" type="mechanism"/>
+        <pair id="DDI-DrugBank.d722.s1.p4" e1="DDI-DrugBank.d722.s1.e1"
+            e2="DDI-DrugBank.d722.s1.e2" ddi="false"/>
+        <pair id="DDI-DrugBank.d722.s1.p5" e1="DDI-DrugBank.d722.s1.e1"
+            e2="DDI-DrugBank.d722.s1.e3" ddi="false"/>
+        <pair id="DDI-DrugBank.d722.s1.p6" e1="DDI-DrugBank.d722.s1.e1"
+            e2="DDI-DrugBank.d722.s1.e4" ddi="true" type="mechanism"/>
+        <pair id="DDI-DrugBank.d722.s1.p7" e1="DDI-DrugBank.d722.s1.e2"
+            e2="DDI-DrugBank.d722.s1.e3" ddi="false"/>
+        <pair id="DDI-DrugBank.d722.s1.p8" e1="DDI-DrugBank.d722.s1.e2"
+            e2="DDI-DrugBank.d722.s1.e4" ddi="true" type="mechanism"/>
+        <pair id="DDI-DrugBank.d722.s1.p9" e1="DDI-DrugBank.d722.s1.e3"
+            e2="DDI-DrugBank.d722.s1.e4" ddi="true" type="mechanism"/>
+    </sentence>
+</document>

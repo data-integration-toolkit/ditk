@@ -1,0 +1,231 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="DDI-DrugBank.d115">
+    <sentence id="DDI-DrugBank.d115.s0" text="Drugs that may alter imatinib plasma concentrations Drugs that may increase imatinib plasma concentrations: Caution is recommended when administering Gleevec with inhibitors of the CYP3A4 family (e.g., ketoconazole, itraconazole, erythromycin, clarithromycin).">
+        <entity id="DDI-DrugBank.d115.s0.e0" charOffset="21-28"
+            type="drug" text="imatinib"/>
+        <entity id="DDI-DrugBank.d115.s0.e1" charOffset="76-83"
+            type="drug" text="imatinib"/>
+        <entity id="DDI-DrugBank.d115.s0.e2" charOffset="150-156"
+            type="brand" text="Gleevec"/>
+        <entity id="DDI-DrugBank.d115.s0.e3" charOffset="202-213"
+            type="drug" text="ketoconazole"/>
+        <entity id="DDI-DrugBank.d115.s0.e4" charOffset="216-227"
+            type="drug" text="itraconazole"/>
+        <entity id="DDI-DrugBank.d115.s0.e5" charOffset="230-241"
+            type="drug" text="erythromycin"/>
+        <entity id="DDI-DrugBank.d115.s0.e6" charOffset="244-257"
+            type="drug" text="clarithromycin"/>
+        <pair id="DDI-DrugBank.d115.s0.p0" e1="DDI-DrugBank.d115.s0.e0"
+            e2="DDI-DrugBank.d115.s0.e1" ddi="false"/>
+        <pair id="DDI-DrugBank.d115.s0.p1" e1="DDI-DrugBank.d115.s0.e0"
+            e2="DDI-DrugBank.d115.s0.e2" ddi="false"/>
+        <pair id="DDI-DrugBank.d115.s0.p2" e1="DDI-DrugBank.d115.s0.e0"
+            e2="DDI-DrugBank.d115.s0.e3" ddi="false"/>
+        <pair id="DDI-DrugBank.d115.s0.p3" e1="DDI-DrugBank.d115.s0.e0"
+            e2="DDI-DrugBank.d115.s0.e4" ddi="false"/>
+        <pair id="DDI-DrugBank.d115.s0.p4" e1="DDI-DrugBank.d115.s0.e0"
+            e2="DDI-DrugBank.d115.s0.e5" ddi="false"/>
+        <pair id="DDI-DrugBank.d115.s0.p5" e1="DDI-DrugBank.d115.s0.e0"
+            e2="DDI-DrugBank.d115.s0.e6" ddi="false"/>
+        <pair id="DDI-DrugBank.d115.s0.p6" e1="DDI-DrugBank.d115.s0.e1"
+            e2="DDI-DrugBank.d115.s0.e2" ddi="false"/>
+        <pair id="DDI-DrugBank.d115.s0.p7" e1="DDI-DrugBank.d115.s0.e1"
+            e2="DDI-DrugBank.d115.s0.e3" ddi="false"/>
+        <pair id="DDI-DrugBank.d115.s0.p8" e1="DDI-DrugBank.d115.s0.e1"
+            e2="DDI-DrugBank.d115.s0.e4" ddi="false"/>
+        <pair id="DDI-DrugBank.d115.s0.p9" e1="DDI-DrugBank.d115.s0.e1"
+            e2="DDI-DrugBank.d115.s0.e5" ddi="false"/>
+        <pair id="DDI-DrugBank.d115.s0.p10" e1="DDI-DrugBank.d115.s0.e1"
+            e2="DDI-DrugBank.d115.s0.e6" ddi="false"/>
+        <pair id="DDI-DrugBank.d115.s0.p11" e1="DDI-DrugBank.d115.s0.e2"
+            e2="DDI-DrugBank.d115.s0.e3" ddi="true" type="advise"/>
+        <pair id="DDI-DrugBank.d115.s0.p12" e1="DDI-DrugBank.d115.s0.e2"
+            e2="DDI-DrugBank.d115.s0.e4" ddi="true" type="advise"/>
+        <pair id="DDI-DrugBank.d115.s0.p13" e1="DDI-DrugBank.d115.s0.e2"
+            e2="DDI-DrugBank.d115.s0.e5" ddi="true" type="advise"/>
+        <pair id="DDI-DrugBank.d115.s0.p14" e1="DDI-DrugBank.d115.s0.e2"
+            e2="DDI-DrugBank.d115.s0.e6" ddi="true" type="advise"/>
+        <pair id="DDI-DrugBank.d115.s0.p15" e1="DDI-DrugBank.d115.s0.e3"
+            e2="DDI-DrugBank.d115.s0.e4" ddi="false"/>
+        <pair id="DDI-DrugBank.d115.s0.p16" e1="DDI-DrugBank.d115.s0.e3"
+            e2="DDI-DrugBank.d115.s0.e5" ddi="false"/>
+        <pair id="DDI-DrugBank.d115.s0.p17" e1="DDI-DrugBank.d115.s0.e3"
+            e2="DDI-DrugBank.d115.s0.e6" ddi="false"/>
+        <pair id="DDI-DrugBank.d115.s0.p18" e1="DDI-DrugBank.d115.s0.e4"
+            e2="DDI-DrugBank.d115.s0.e5" ddi="false"/>
+        <pair id="DDI-DrugBank.d115.s0.p19" e1="DDI-DrugBank.d115.s0.e4"
+            e2="DDI-DrugBank.d115.s0.e6" ddi="false"/>
+        <pair id="DDI-DrugBank.d115.s0.p20" e1="DDI-DrugBank.d115.s0.e5"
+            e2="DDI-DrugBank.d115.s0.e6" ddi="false"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d115.s1" text="Substances that inhibit the cytochrome P450 isoenzyme (CYP3A4) activity may decrease metabolism and increase imatinib concentrations.">
+        <entity id="DDI-DrugBank.d115.s1.e0" charOffset="109-116"
+            type="drug" text="imatinib"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d115.s2" text="There is a significant increase in exposure to imatinib when Gleevec is coadministered with ketoconazole (CYP3A4 inhibitor).">
+        <entity id="DDI-DrugBank.d115.s2.e0" charOffset="47-54"
+            type="drug" text="imatinib"/>
+        <entity id="DDI-DrugBank.d115.s2.e1" charOffset="61-67"
+            type="brand" text="Gleevec"/>
+        <entity id="DDI-DrugBank.d115.s2.e2" charOffset="92-103"
+            type="drug" text="ketoconazole"/>
+        <pair id="DDI-DrugBank.d115.s2.p0" e1="DDI-DrugBank.d115.s2.e0"
+            e2="DDI-DrugBank.d115.s2.e1" ddi="false"/>
+        <pair id="DDI-DrugBank.d115.s2.p1" e1="DDI-DrugBank.d115.s2.e0"
+            e2="DDI-DrugBank.d115.s2.e2" ddi="false"/>
+        <pair id="DDI-DrugBank.d115.s2.p2" e1="DDI-DrugBank.d115.s2.e1"
+            e2="DDI-DrugBank.d115.s2.e2" ddi="true" type="mechanism"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d115.s3" text="Drugs that may decrease imatinib plasma concentrations: Substances that are inducers of CYP3A4 activity may increase metabolism and decrease imatinib plasma concentrations.">
+        <entity id="DDI-DrugBank.d115.s3.e0" charOffset="24-31"
+            type="drug" text="imatinib"/>
+        <entity id="DDI-DrugBank.d115.s3.e1" charOffset="141-148"
+            type="drug" text="imatinib"/>
+        <pair id="DDI-DrugBank.d115.s3.p0" e1="DDI-DrugBank.d115.s3.e0"
+            e2="DDI-DrugBank.d115.s3.e1" ddi="false"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d115.s4" text="Co-medications that induce CYP3A4 (e.g., dexamethasone, phenytoin, carbamazepine, rifampin, phenobarbital or St.">
+        <entity id="DDI-DrugBank.d115.s4.e0" charOffset="41-53"
+            type="drug" text="dexamethasone"/>
+        <entity id="DDI-DrugBank.d115.s4.e1" charOffset="56-64"
+            type="drug" text="phenytoin"/>
+        <entity id="DDI-DrugBank.d115.s4.e2" charOffset="67-79"
+            type="drug" text="carbamazepine"/>
+        <entity id="DDI-DrugBank.d115.s4.e3" charOffset="82-89"
+            type="drug" text="rifampin"/>
+        <entity id="DDI-DrugBank.d115.s4.e4" charOffset="92-104"
+            type="drug" text="phenobarbital"/>
+        <pair id="DDI-DrugBank.d115.s4.p0" e1="DDI-DrugBank.d115.s4.e0"
+            e2="DDI-DrugBank.d115.s4.e1" ddi="false"/>
+        <pair id="DDI-DrugBank.d115.s4.p1" e1="DDI-DrugBank.d115.s4.e0"
+            e2="DDI-DrugBank.d115.s4.e2" ddi="false"/>
+        <pair id="DDI-DrugBank.d115.s4.p2" e1="DDI-DrugBank.d115.s4.e0"
+            e2="DDI-DrugBank.d115.s4.e3" ddi="false"/>
+        <pair id="DDI-DrugBank.d115.s4.p3" e1="DDI-DrugBank.d115.s4.e0"
+            e2="DDI-DrugBank.d115.s4.e4" ddi="false"/>
+        <pair id="DDI-DrugBank.d115.s4.p4" e1="DDI-DrugBank.d115.s4.e1"
+            e2="DDI-DrugBank.d115.s4.e2" ddi="false"/>
+        <pair id="DDI-DrugBank.d115.s4.p5" e1="DDI-DrugBank.d115.s4.e1"
+            e2="DDI-DrugBank.d115.s4.e3" ddi="false"/>
+        <pair id="DDI-DrugBank.d115.s4.p6" e1="DDI-DrugBank.d115.s4.e1"
+            e2="DDI-DrugBank.d115.s4.e4" ddi="false"/>
+        <pair id="DDI-DrugBank.d115.s4.p7" e1="DDI-DrugBank.d115.s4.e2"
+            e2="DDI-DrugBank.d115.s4.e3" ddi="false"/>
+        <pair id="DDI-DrugBank.d115.s4.p8" e1="DDI-DrugBank.d115.s4.e2"
+            e2="DDI-DrugBank.d115.s4.e4" ddi="false"/>
+        <pair id="DDI-DrugBank.d115.s4.p9" e1="DDI-DrugBank.d115.s4.e3"
+            e2="DDI-DrugBank.d115.s4.e4" ddi="false"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d115.s5" text="Johns Wort) may significantly reduce exposure to Gleevec.">
+        <entity id="DDI-DrugBank.d115.s5.e0" charOffset="49-55"
+            type="brand" text="Gleevec"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d115.s6" text="Pretreatment of healthy volunteers with multiple doses of rifampin followed by a single dose of Gleevec, increased Gleevec oral-dose clearance by 3.8-fold, which significantly (p 0.05) decreased mean cmax and AUC(0-8).">
+        <entity id="DDI-DrugBank.d115.s6.e0" charOffset="58-65"
+            type="drug" text="rifampin"/>
+        <entity id="DDI-DrugBank.d115.s6.e1" charOffset="96-102"
+            type="brand" text="Gleevec"/>
+        <entity id="DDI-DrugBank.d115.s6.e2" charOffset="115-121"
+            type="brand" text="Gleevec"/>
+        <pair id="DDI-DrugBank.d115.s6.p0" e1="DDI-DrugBank.d115.s6.e0"
+            e2="DDI-DrugBank.d115.s6.e1" ddi="true" type="mechanism"/>
+        <pair id="DDI-DrugBank.d115.s6.p1" e1="DDI-DrugBank.d115.s6.e0"
+            e2="DDI-DrugBank.d115.s6.e2" ddi="false"/>
+        <pair id="DDI-DrugBank.d115.s6.p2" e1="DDI-DrugBank.d115.s6.e1"
+            e2="DDI-DrugBank.d115.s6.e2" ddi="false"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d115.s7" text="In patients where rifampin or other CYP3A4 inducers are indicated, alternative therapeutic agents with less enzyme induction potential should be considered.">
+        <entity id="DDI-DrugBank.d115.s7.e0" charOffset="18-25"
+            type="drug" text="rifampin"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d115.s8" text="Drugs that may have their plasma concentration altered by Gleevec Gleevec increases the mean cmax and AUC of simvastatin (CYP3A4 substrate) 2- and 3.5-fold, respectively, suggesting an inhibition of the CYP3A4 by Gleevec.">
+        <entity id="DDI-DrugBank.d115.s8.e0" charOffset="58-64"
+            type="brand" text="Gleevec"/>
+        <entity id="DDI-DrugBank.d115.s8.e1" charOffset="66-72"
+            type="brand" text="Gleevec"/>
+        <entity id="DDI-DrugBank.d115.s8.e2" charOffset="109-119"
+            type="drug" text="simvastatin"/>
+        <entity id="DDI-DrugBank.d115.s8.e3" charOffset="213-219"
+            type="brand" text="Gleevec"/>
+        <pair id="DDI-DrugBank.d115.s8.p0" e1="DDI-DrugBank.d115.s8.e0"
+            e2="DDI-DrugBank.d115.s8.e1" ddi="false"/>
+        <pair id="DDI-DrugBank.d115.s8.p1" e1="DDI-DrugBank.d115.s8.e0"
+            e2="DDI-DrugBank.d115.s8.e2" ddi="false"/>
+        <pair id="DDI-DrugBank.d115.s8.p2" e1="DDI-DrugBank.d115.s8.e0"
+            e2="DDI-DrugBank.d115.s8.e3" ddi="false"/>
+        <pair id="DDI-DrugBank.d115.s8.p3" e1="DDI-DrugBank.d115.s8.e1"
+            e2="DDI-DrugBank.d115.s8.e2" ddi="true" type="mechanism"/>
+        <pair id="DDI-DrugBank.d115.s8.p4" e1="DDI-DrugBank.d115.s8.e1"
+            e2="DDI-DrugBank.d115.s8.e3" ddi="false"/>
+        <pair id="DDI-DrugBank.d115.s8.p5" e1="DDI-DrugBank.d115.s8.e2"
+            e2="DDI-DrugBank.d115.s8.e3" ddi="false"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d115.s9" text="Particular caution is recommended when administering Gleevec with CYP3A4 substrates that have a narrow therapeutic window (e.g., cyclosporine or pimozide).">
+        <entity id="DDI-DrugBank.d115.s9.e0" charOffset="53-59"
+            type="brand" text="Gleevec"/>
+        <entity id="DDI-DrugBank.d115.s9.e1" charOffset="129-140"
+            type="drug" text="cyclosporine"/>
+        <entity id="DDI-DrugBank.d115.s9.e2" charOffset="145-152"
+            type="drug" text="pimozide"/>
+        <pair id="DDI-DrugBank.d115.s9.p0" e1="DDI-DrugBank.d115.s9.e0"
+            e2="DDI-DrugBank.d115.s9.e1" ddi="true" type="advise"/>
+        <pair id="DDI-DrugBank.d115.s9.p1" e1="DDI-DrugBank.d115.s9.e0"
+            e2="DDI-DrugBank.d115.s9.e2" ddi="true" type="advise"/>
+        <pair id="DDI-DrugBank.d115.s9.p2" e1="DDI-DrugBank.d115.s9.e1"
+            e2="DDI-DrugBank.d115.s9.e2" ddi="false"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d115.s10" text="Gleevec will increase plasmaconcentration of other CYP3A4 metabolized drugs (e.g., triazolo-benzodiazepines, dihydropyridine calcium channel blockers, certain HMG-CoA reductase inhibitors, etc.).">
+        <entity id="DDI-DrugBank.d115.s10.e0" charOffset="0-6"
+            type="brand" text="Gleevec"/>
+        <entity id="DDI-DrugBank.d115.s10.e1" charOffset="92-106"
+            type="group" text="benzodiazepines"/>
+        <entity id="DDI-DrugBank.d115.s10.e2" charOffset="109-148"
+            type="group" text="dihydropyridine calcium channel blockers"/>
+        <entity id="DDI-DrugBank.d115.s10.e3" charOffset="159-186"
+            type="group" text="HMG-CoA reductase inhibitors"/>
+        <pair id="DDI-DrugBank.d115.s10.p0"
+            e1="DDI-DrugBank.d115.s10.e0" e2="DDI-DrugBank.d115.s10.e1"
+            ddi="true" type="mechanism"/>
+        <pair id="DDI-DrugBank.d115.s10.p1"
+            e1="DDI-DrugBank.d115.s10.e0" e2="DDI-DrugBank.d115.s10.e2"
+            ddi="true" type="mechanism"/>
+        <pair id="DDI-DrugBank.d115.s10.p2"
+            e1="DDI-DrugBank.d115.s10.e0" e2="DDI-DrugBank.d115.s10.e3"
+            ddi="true" type="mechanism"/>
+        <pair id="DDI-DrugBank.d115.s10.p3"
+            e1="DDI-DrugBank.d115.s10.e1" e2="DDI-DrugBank.d115.s10.e2" ddi="false"/>
+        <pair id="DDI-DrugBank.d115.s10.p4"
+            e1="DDI-DrugBank.d115.s10.e1" e2="DDI-DrugBank.d115.s10.e3" ddi="false"/>
+        <pair id="DDI-DrugBank.d115.s10.p5"
+            e1="DDI-DrugBank.d115.s10.e2" e2="DDI-DrugBank.d115.s10.e3" ddi="false"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d115.s11" text="Because warfarin is metabolized by CYP2C9 and CYP3A4, patients who require anticoagulation should receive low-molecular weight or standard heparin.">
+        <entity id="DDI-DrugBank.d115.s11.e0" charOffset="8-15"
+            type="drug" text="warfarin"/>
+        <entity id="DDI-DrugBank.d115.s11.e1" charOffset="139-145"
+            type="drug" text="heparin"/>
+        <pair id="DDI-DrugBank.d115.s11.p0"
+            e1="DDI-DrugBank.d115.s11.e0" e2="DDI-DrugBank.d115.s11.e1" ddi="false"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d115.s12" text="in vitro, Gleevec inhibits the cytochrome P450 isoenzyme CYP2D6 activity at similar concentrations that affect CYP3A4 activity.">
+        <entity id="DDI-DrugBank.d115.s12.e0" charOffset="10-16"
+            type="brand" text="Gleevec"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d115.s13" text="Systemic exposure to substrates of CYP2D6 is expected to be increased when coadministered with Gleevec."/>
+    <sentence id="DDI-DrugBank.d115.s14" text="No specific studies have been performed and caution is recommended."/>
+    <sentence id="DDI-DrugBank.d115.s15" text="in vitro, Gleevec inhibits acetaminophen O-glucuronidation (Ki value of 58.5  M) at therapeutic levels.">
+        <entity id="DDI-DrugBank.d115.s15.e0" charOffset="10-16"
+            type="brand" text="Gleevec"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d115.s16" text="Systemic exposure to acetaminophen is expected to be increased when coadministered with Gleevec.">
+        <entity id="DDI-DrugBank.d115.s16.e0" charOffset="21-33"
+            type="drug" text="acetaminophen"/>
+        <entity id="DDI-DrugBank.d115.s16.e1" charOffset="88-94"
+            type="brand" text="Gleevec"/>
+        <pair id="DDI-DrugBank.d115.s16.p0"
+            e1="DDI-DrugBank.d115.s16.e0" e2="DDI-DrugBank.d115.s16.e1"
+            ddi="true" type="mechanism"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d115.s17" text="No specific studies in humans have been performed and caution is recommended."/>
+    <sentence id="DDI-DrugBank.d115.s18" text=""/>
+</document>

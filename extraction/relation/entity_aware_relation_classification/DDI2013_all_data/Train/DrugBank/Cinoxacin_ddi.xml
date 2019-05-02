@@ -1,0 +1,185 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="DDI-DrugBank.d562">
+    <sentence id="DDI-DrugBank.d562.s0" text="Elevated plasma levels of theophylline have been reported with concomitant use of some quinolones.">
+        <entity id="DDI-DrugBank.d562.s0.e0" charOffset="26-37"
+            type="drug" text="theophylline"/>
+        <entity id="DDI-DrugBank.d562.s0.e1" charOffset="87-96"
+            type="group" text="quinolones"/>
+        <pair id="DDI-DrugBank.d562.s0.p0" e1="DDI-DrugBank.d562.s0.e0"
+            e2="DDI-DrugBank.d562.s0.e1" ddi="true" type="mechanism"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d562.s1" text="There have been reports of theophylline-related side-effects in patients on concomitant theophylline-quinolone therapy.">
+        <entity id="DDI-DrugBank.d562.s1.e0" charOffset="27-38"
+            type="drug" text="theophylline"/>
+        <entity id="DDI-DrugBank.d562.s1.e1" charOffset="88-99"
+            type="drug" text="theophylline"/>
+        <entity id="DDI-DrugBank.d562.s1.e2" charOffset="101-109"
+            type="group" text="quinolone"/>
+        <pair id="DDI-DrugBank.d562.s1.p0" e1="DDI-DrugBank.d562.s1.e0"
+            e2="DDI-DrugBank.d562.s1.e1" ddi="false"/>
+        <pair id="DDI-DrugBank.d562.s1.p1" e1="DDI-DrugBank.d562.s1.e0"
+            e2="DDI-DrugBank.d562.s1.e2" ddi="false"/>
+        <pair id="DDI-DrugBank.d562.s1.p2" e1="DDI-DrugBank.d562.s1.e1"
+            e2="DDI-DrugBank.d562.s1.e2" ddi="true" type="effect"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d562.s2" text="Therefore, monitoring of theophylline plasma levels should be considered and dosage of theophylline adjusted as required.">
+        <entity id="DDI-DrugBank.d562.s2.e0" charOffset="25-36"
+            type="drug" text="theophylline"/>
+        <entity id="DDI-DrugBank.d562.s2.e1" charOffset="87-98"
+            type="drug" text="theophylline"/>
+        <pair id="DDI-DrugBank.d562.s2.p0" e1="DDI-DrugBank.d562.s2.e0"
+            e2="DDI-DrugBank.d562.s2.e1" ddi="false"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d562.s3" text="Quinolones have also been shown to interfere with the metabolism of caffeine.">
+        <entity id="DDI-DrugBank.d562.s3.e0" charOffset="0-9"
+            type="group" text="Quinolones"/>
+        <entity id="DDI-DrugBank.d562.s3.e1" charOffset="68-75"
+            type="drug" text="caffeine"/>
+        <pair id="DDI-DrugBank.d562.s3.p0" e1="DDI-DrugBank.d562.s3.e0"
+            e2="DDI-DrugBank.d562.s3.e1" ddi="true" type="mechanism"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d562.s4" text="This may lead to reduced clearance of caffeine and a prolongation of its plasma half-life.">
+        <entity id="DDI-DrugBank.d562.s4.e0" charOffset="38-45"
+            type="drug" text="caffeine"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d562.s5" text="Although this interaction has not been reported with cinoxacin, caution should be exercised when cinoxacin is given concomitantly with caffeine-containing products.">
+        <entity id="DDI-DrugBank.d562.s5.e0" charOffset="53-61"
+            type="drug" text="cinoxacin"/>
+        <entity id="DDI-DrugBank.d562.s5.e1" charOffset="97-105"
+            type="drug" text="cinoxacin"/>
+        <entity id="DDI-DrugBank.d562.s5.e2" charOffset="135-142"
+            type="drug" text="caffeine"/>
+        <pair id="DDI-DrugBank.d562.s5.p0" e1="DDI-DrugBank.d562.s5.e0"
+            e2="DDI-DrugBank.d562.s5.e1" ddi="false"/>
+        <pair id="DDI-DrugBank.d562.s5.p1" e1="DDI-DrugBank.d562.s5.e0"
+            e2="DDI-DrugBank.d562.s5.e2" ddi="false"/>
+        <pair id="DDI-DrugBank.d562.s5.p2" e1="DDI-DrugBank.d562.s5.e1"
+            e2="DDI-DrugBank.d562.s5.e2" ddi="true" type="advise"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d562.s6" text="Antacids or sucralfate substantially interfere with the absorption of some quinolones, resulting in low urine levels.">
+        <entity id="DDI-DrugBank.d562.s6.e0" charOffset="0-7"
+            type="group" text="Antacids"/>
+        <entity id="DDI-DrugBank.d562.s6.e1" charOffset="12-21"
+            type="drug" text="sucralfate"/>
+        <entity id="DDI-DrugBank.d562.s6.e2" charOffset="75-84"
+            type="group" text="quinolones"/>
+        <pair id="DDI-DrugBank.d562.s6.p0" e1="DDI-DrugBank.d562.s6.e0"
+            e2="DDI-DrugBank.d562.s6.e1" ddi="false"/>
+        <pair id="DDI-DrugBank.d562.s6.p1" e1="DDI-DrugBank.d562.s6.e0"
+            e2="DDI-DrugBank.d562.s6.e2" ddi="true" type="mechanism"/>
+        <pair id="DDI-DrugBank.d562.s6.p2" e1="DDI-DrugBank.d562.s6.e1"
+            e2="DDI-DrugBank.d562.s6.e2" ddi="true" type="mechanism"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d562.s7" text="Also, concomitant administration of quinolones with products containing iron, multivitamins containing zinc, or Videx (didanosine) chewable/buffered tablets or the pediatric powder for oral solution may result in low urine levels.">
+        <entity id="DDI-DrugBank.d562.s7.e0" charOffset="36-45"
+            type="group" text="quinolones"/>
+        <entity id="DDI-DrugBank.d562.s7.e1" charOffset="72-75"
+            type="drug" text="iron"/>
+        <entity id="DDI-DrugBank.d562.s7.e2" charOffset="78-90"
+            type="group" text="multivitamins"/>
+        <entity id="DDI-DrugBank.d562.s7.e3" charOffset="103-106"
+            type="drug" text="zinc"/>
+        <entity id="DDI-DrugBank.d562.s7.e4" charOffset="112-116"
+            type="brand" text="Videx"/>
+        <entity id="DDI-DrugBank.d562.s7.e5" charOffset="119-128"
+            type="drug" text="didanosine"/>
+        <pair id="DDI-DrugBank.d562.s7.p0" e1="DDI-DrugBank.d562.s7.e0"
+            e2="DDI-DrugBank.d562.s7.e1" ddi="true" type="mechanism"/>
+        <pair id="DDI-DrugBank.d562.s7.p1" e1="DDI-DrugBank.d562.s7.e0"
+            e2="DDI-DrugBank.d562.s7.e2" ddi="false"/>
+        <pair id="DDI-DrugBank.d562.s7.p2" e1="DDI-DrugBank.d562.s7.e0"
+            e2="DDI-DrugBank.d562.s7.e3" ddi="true" type="mechanism"/>
+        <pair id="DDI-DrugBank.d562.s7.p3" e1="DDI-DrugBank.d562.s7.e0"
+            e2="DDI-DrugBank.d562.s7.e4" ddi="true" type="mechanism"/>
+        <pair id="DDI-DrugBank.d562.s7.p4" e1="DDI-DrugBank.d562.s7.e0"
+            e2="DDI-DrugBank.d562.s7.e5" ddi="true" type="mechanism"/>
+        <pair id="DDI-DrugBank.d562.s7.p5" e1="DDI-DrugBank.d562.s7.e1"
+            e2="DDI-DrugBank.d562.s7.e2" ddi="false"/>
+        <pair id="DDI-DrugBank.d562.s7.p6" e1="DDI-DrugBank.d562.s7.e1"
+            e2="DDI-DrugBank.d562.s7.e3" ddi="false"/>
+        <pair id="DDI-DrugBank.d562.s7.p7" e1="DDI-DrugBank.d562.s7.e1"
+            e2="DDI-DrugBank.d562.s7.e4" ddi="false"/>
+        <pair id="DDI-DrugBank.d562.s7.p8" e1="DDI-DrugBank.d562.s7.e1"
+            e2="DDI-DrugBank.d562.s7.e5" ddi="false"/>
+        <pair id="DDI-DrugBank.d562.s7.p9" e1="DDI-DrugBank.d562.s7.e2"
+            e2="DDI-DrugBank.d562.s7.e3" ddi="false"/>
+        <pair id="DDI-DrugBank.d562.s7.p10" e1="DDI-DrugBank.d562.s7.e2"
+            e2="DDI-DrugBank.d562.s7.e4" ddi="false"/>
+        <pair id="DDI-DrugBank.d562.s7.p11" e1="DDI-DrugBank.d562.s7.e2"
+            e2="DDI-DrugBank.d562.s7.e5" ddi="false"/>
+        <pair id="DDI-DrugBank.d562.s7.p12" e1="DDI-DrugBank.d562.s7.e3"
+            e2="DDI-DrugBank.d562.s7.e4" ddi="false"/>
+        <pair id="DDI-DrugBank.d562.s7.p13" e1="DDI-DrugBank.d562.s7.e3"
+            e2="DDI-DrugBank.d562.s7.e5" ddi="false"/>
+        <pair id="DDI-DrugBank.d562.s7.p14" e1="DDI-DrugBank.d562.s7.e4"
+            e2="DDI-DrugBank.d562.s7.e5" ddi="false"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d562.s8" text="Quinolones, including cinoxacin, may enhance the effects of oral anticoagulants, such as warfarin or its derivatives.">
+        <entity id="DDI-DrugBank.d562.s8.e0" charOffset="0-9"
+            type="group" text="Quinolones"/>
+        <entity id="DDI-DrugBank.d562.s8.e1" charOffset="22-30"
+            type="drug" text="cinoxacin"/>
+        <entity id="DDI-DrugBank.d562.s8.e2" charOffset="65-78"
+            type="group" text="anticoagulants"/>
+        <entity id="DDI-DrugBank.d562.s8.e3" charOffset="89-96"
+            type="drug" text="warfarin"/>
+        <pair id="DDI-DrugBank.d562.s8.p0" e1="DDI-DrugBank.d562.s8.e0"
+            e2="DDI-DrugBank.d562.s8.e1" ddi="false"/>
+        <pair id="DDI-DrugBank.d562.s8.p1" e1="DDI-DrugBank.d562.s8.e0"
+            e2="DDI-DrugBank.d562.s8.e2" ddi="true" type="effect"/>
+        <pair id="DDI-DrugBank.d562.s8.p2" e1="DDI-DrugBank.d562.s8.e0"
+            e2="DDI-DrugBank.d562.s8.e3" ddi="true" type="effect"/>
+        <pair id="DDI-DrugBank.d562.s8.p3" e1="DDI-DrugBank.d562.s8.e1"
+            e2="DDI-DrugBank.d562.s8.e2" ddi="true" type="effect"/>
+        <pair id="DDI-DrugBank.d562.s8.p4" e1="DDI-DrugBank.d562.s8.e1"
+            e2="DDI-DrugBank.d562.s8.e3" ddi="true" type="effect"/>
+        <pair id="DDI-DrugBank.d562.s8.p5" e1="DDI-DrugBank.d562.s8.e2"
+            e2="DDI-DrugBank.d562.s8.e3" ddi="false"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d562.s9" text="When these products are administered concomitantly, prothrombin time or other suitable coagulation tests should be closely monitored."/>
+    <sentence id="DDI-DrugBank.d562.s10" text="Seizures have been reported in patients taking another quinolone class antimicrobial and the nonsteroidal anti-inflammatory drug fenbufen concurrently.">
+        <entity id="DDI-DrugBank.d562.s10.e0" charOffset="55-83"
+            type="group" text="quinolone class antimicrobial"/>
+        <entity id="DDI-DrugBank.d562.s10.e1" charOffset="93-127"
+            type="group" text="nonsteroidal anti-inflammatory drug"/>
+        <entity id="DDI-DrugBank.d562.s10.e2" charOffset="129-136"
+            type="drug" text="fenbufen"/>
+        <pair id="DDI-DrugBank.d562.s10.p0"
+            e1="DDI-DrugBank.d562.s10.e0" e2="DDI-DrugBank.d562.s10.e1"
+            ddi="true" type="effect"/>
+        <pair id="DDI-DrugBank.d562.s10.p1"
+            e1="DDI-DrugBank.d562.s10.e0" e2="DDI-DrugBank.d562.s10.e2"
+            ddi="true" type="effect"/>
+        <pair id="DDI-DrugBank.d562.s10.p2"
+            e1="DDI-DrugBank.d562.s10.e1" e2="DDI-DrugBank.d562.s10.e2" ddi="false"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d562.s11" text="Animal studies also suggest an increased potential for seizures when these 2 drugs are given concomitantly."/>
+    <sentence id="DDI-DrugBank.d562.s12" text="Fenbufen is not approved in the United States at this time.">
+        <entity id="DDI-DrugBank.d562.s12.e0" charOffset="0-7"
+            type="drug" text="Fenbufen"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d562.s13" text="Physicians are provided this information to increase awareness of the potential for serious interactions when cinoxacin and certain nonsteroidal anti-inflammatory agents are administered concomitantly.">
+        <entity id="DDI-DrugBank.d562.s13.e0" charOffset="110-118"
+            type="drug" text="cinoxacin"/>
+        <entity id="DDI-DrugBank.d562.s13.e1" charOffset="132-168"
+            type="group" text="nonsteroidal anti-inflammatory agents"/>
+        <pair id="DDI-DrugBank.d562.s13.p0"
+            e1="DDI-DrugBank.d562.s13.e0" e2="DDI-DrugBank.d562.s13.e1"
+            ddi="true" type="advise"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d562.s14" text="Elevated cyclosporine serum levels have been reported with the concomitant use of quinolones and cyclosporine.">
+        <entity id="DDI-DrugBank.d562.s14.e0" charOffset="9-20"
+            type="drug" text="cyclosporine"/>
+        <entity id="DDI-DrugBank.d562.s14.e1" charOffset="82-91"
+            type="group" text="quinolones"/>
+        <entity id="DDI-DrugBank.d562.s14.e2" charOffset="97-108"
+            type="drug" text="cyclosporine"/>
+        <pair id="DDI-DrugBank.d562.s14.p0"
+            e1="DDI-DrugBank.d562.s14.e0" e2="DDI-DrugBank.d562.s14.e1" ddi="false"/>
+        <pair id="DDI-DrugBank.d562.s14.p1"
+            e1="DDI-DrugBank.d562.s14.e0" e2="DDI-DrugBank.d562.s14.e2" ddi="false"/>
+        <pair id="DDI-DrugBank.d562.s14.p2"
+            e1="DDI-DrugBank.d562.s14.e1" e2="DDI-DrugBank.d562.s14.e2"
+            ddi="true" type="mechanism"/>
+    </sentence>
+</document>

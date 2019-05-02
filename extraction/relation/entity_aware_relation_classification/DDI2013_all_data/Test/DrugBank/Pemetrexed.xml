@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="DDI-DrugBank.d641">
+    <sentence id="DDI-DrugBank.d641.s0" text="ALIMTA is primarily eliminated unchanged renally as a result of glomerular filtration and tubular secretion. ">
+        <entity id="DDI-DrugBank.d641.s0.e0" charOffset="0-5"
+            type="brand" text="ALIMTA"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d641.s1" text="Concomitant administration of nephrotoxic drugs could result in delayed clearance of ALIMTA. ">
+        <entity id="DDI-DrugBank.d641.s1.e0" charOffset="85-90"
+            type="brand" text="ALIMTA"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d641.s2" text="Concomitant administration of substances that are also tubularly secreted (e.g., probenecid) could potentially result in delayed clearance of ALIMTA. ">
+        <entity id="DDI-DrugBank.d641.s2.e0" charOffset="81-90"
+            type="drug" text="probenecid"/>
+        <entity id="DDI-DrugBank.d641.s2.e1" charOffset="142-147"
+            type="brand" text="ALIMTA"/>
+        <pair id="DDI-DrugBank.d641.s2.p0" e1="DDI-DrugBank.d641.s2.e0"
+            e2="DDI-DrugBank.d641.s2.e1" ddi="true" type="mechanism"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d641.s3" text="Although ibuprofen (400 mg qid) can be administered with ALIMTA in patients with normal renal function (creatinine clearance    80 mL/min), caution should be used when administering ibuprofen concurrently with ALIMTA to patients with mild to moderate renal insufficiency (creatinine clearance from 45 to 79 mL/min). ">
+        <entity id="DDI-DrugBank.d641.s3.e0" charOffset="9-17"
+            type="drug" text="ibuprofen"/>
+        <entity id="DDI-DrugBank.d641.s3.e1" charOffset="57-62"
+            type="brand" text="ALIMTA"/>
+        <entity id="DDI-DrugBank.d641.s3.e2" charOffset="182-190"
+            type="drug" text="ibuprofen"/>
+        <entity id="DDI-DrugBank.d641.s3.e3" charOffset="210-215"
+            type="brand" text="ALIMTA"/>
+        <pair id="DDI-DrugBank.d641.s3.p0" e1="DDI-DrugBank.d641.s3.e0"
+            e2="DDI-DrugBank.d641.s3.e1" ddi="false"/>
+        <pair id="DDI-DrugBank.d641.s3.p1" e1="DDI-DrugBank.d641.s3.e0"
+            e2="DDI-DrugBank.d641.s3.e2" ddi="false"/>
+        <pair id="DDI-DrugBank.d641.s3.p2" e1="DDI-DrugBank.d641.s3.e0"
+            e2="DDI-DrugBank.d641.s3.e3" ddi="false"/>
+        <pair id="DDI-DrugBank.d641.s3.p3" e1="DDI-DrugBank.d641.s3.e1"
+            e2="DDI-DrugBank.d641.s3.e2" ddi="false"/>
+        <pair id="DDI-DrugBank.d641.s3.p4" e1="DDI-DrugBank.d641.s3.e1"
+            e2="DDI-DrugBank.d641.s3.e3" ddi="false"/>
+        <pair id="DDI-DrugBank.d641.s3.p5" e1="DDI-DrugBank.d641.s3.e2"
+            e2="DDI-DrugBank.d641.s3.e3" ddi="true" type="advise"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d641.s4" text="Patients with mild to moderate renal insufficiency should avoid taking NSAIDs with short elimination half-lives for a period of 2 days before, the day of, and 2 days following administration of ALIMTA. ">
+        <entity id="DDI-DrugBank.d641.s4.e0" charOffset="71-76"
+            type="group" text="NSAIDs"/>
+        <entity id="DDI-DrugBank.d641.s4.e1" charOffset="194-199"
+            type="brand" text="ALIMTA"/>
+        <pair id="DDI-DrugBank.d641.s4.p0" e1="DDI-DrugBank.d641.s4.e0"
+            e2="DDI-DrugBank.d641.s4.e1" ddi="true" type="advise"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d641.s5" text="In the absence of data regarding potential interaction between ALIMTA and NSAIDs with longer half-lives, all patients taking these NSAIDs should interrupt dosing for at least 5 days before, the day of, and 2 days following ALIMTA administration. ">
+        <entity id="DDI-DrugBank.d641.s5.e0" charOffset="63-68"
+            type="brand" text="ALIMTA"/>
+        <entity id="DDI-DrugBank.d641.s5.e1" charOffset="74-79"
+            type="group" text="NSAIDs"/>
+        <entity id="DDI-DrugBank.d641.s5.e2" charOffset="131-136"
+            type="group" text="NSAIDs"/>
+        <entity id="DDI-DrugBank.d641.s5.e3" charOffset="223-228"
+            type="brand" text="ALIMTA"/>
+        <pair id="DDI-DrugBank.d641.s5.p0" e1="DDI-DrugBank.d641.s5.e0"
+            e2="DDI-DrugBank.d641.s5.e1" ddi="false"/>
+        <pair id="DDI-DrugBank.d641.s5.p1" e1="DDI-DrugBank.d641.s5.e0"
+            e2="DDI-DrugBank.d641.s5.e2" ddi="false"/>
+        <pair id="DDI-DrugBank.d641.s5.p2" e1="DDI-DrugBank.d641.s5.e0"
+            e2="DDI-DrugBank.d641.s5.e3" ddi="false"/>
+        <pair id="DDI-DrugBank.d641.s5.p3" e1="DDI-DrugBank.d641.s5.e1"
+            e2="DDI-DrugBank.d641.s5.e2" ddi="false"/>
+        <pair id="DDI-DrugBank.d641.s5.p4" e1="DDI-DrugBank.d641.s5.e1"
+            e2="DDI-DrugBank.d641.s5.e3" ddi="false"/>
+        <pair id="DDI-DrugBank.d641.s5.p5" e1="DDI-DrugBank.d641.s5.e2"
+            e2="DDI-DrugBank.d641.s5.e3" ddi="true" type="advise"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d641.s6" text="If concomitant administration of an NSAID is necessary, patients should be monitored closely for toxicity, especially myelosuppression, renal, and gastrointestinal toxicity. ">
+        <entity id="DDI-DrugBank.d641.s6.e0" charOffset="36-40"
+            type="group" text="NSAID"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d641.s7" text="Drug/Laboratory Test Interactions None known."/>
+</document>

@@ -1,0 +1,289 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="DDI-DrugBank.d86">
+    <sentence id="DDI-DrugBank.d86.s0" text="The concurrent use of two or more drugs with anticholinergic activity--such as an antipsychotic drug (eg, chlorpromazine), an antiparkinsonian drug (eg, trihexyphenidyl), and/or a tricyclic antidepressant (eg, amitriptyline)--commonly results in excessive anticholinergic effects, including dry mouth and associated dental complications, blurred vision, and, in patients exposed to high temperature and humidity, hyperpyrexia.">
+        <entity id="DDI-DrugBank.d86.s0.e0" charOffset="82-99"
+            type="group" text="antipsychotic drug"/>
+        <entity id="DDI-DrugBank.d86.s0.e1" charOffset="106-119"
+            type="drug" text="chlorpromazine"/>
+        <entity id="DDI-DrugBank.d86.s0.e2" charOffset="126-146"
+            type="group" text="antiparkinsonian drug"/>
+        <entity id="DDI-DrugBank.d86.s0.e3" charOffset="153-167"
+            type="drug" text="trihexyphenidyl"/>
+        <entity id="DDI-DrugBank.d86.s0.e4" charOffset="180-203"
+            type="group" text="tricyclic antidepressant"/>
+        <entity id="DDI-DrugBank.d86.s0.e5" charOffset="210-222"
+            type="drug" text="amitriptyline"/>
+        <pair id="DDI-DrugBank.d86.s0.p0" e1="DDI-DrugBank.d86.s0.e0"
+            e2="DDI-DrugBank.d86.s0.e1" ddi="false"/>
+        <pair id="DDI-DrugBank.d86.s0.p1" e1="DDI-DrugBank.d86.s0.e0"
+            e2="DDI-DrugBank.d86.s0.e2" ddi="true" type="effect"/>
+        <pair id="DDI-DrugBank.d86.s0.p2" e1="DDI-DrugBank.d86.s0.e0"
+            e2="DDI-DrugBank.d86.s0.e3" ddi="true" type="effect"/>
+        <pair id="DDI-DrugBank.d86.s0.p3" e1="DDI-DrugBank.d86.s0.e0"
+            e2="DDI-DrugBank.d86.s0.e4" ddi="true" type="effect"/>
+        <pair id="DDI-DrugBank.d86.s0.p4" e1="DDI-DrugBank.d86.s0.e0"
+            e2="DDI-DrugBank.d86.s0.e5" ddi="true" type="effect"/>
+        <pair id="DDI-DrugBank.d86.s0.p5" e1="DDI-DrugBank.d86.s0.e1"
+            e2="DDI-DrugBank.d86.s0.e2" ddi="true" type="effect"/>
+        <pair id="DDI-DrugBank.d86.s0.p6" e1="DDI-DrugBank.d86.s0.e1"
+            e2="DDI-DrugBank.d86.s0.e3" ddi="true" type="effect"/>
+        <pair id="DDI-DrugBank.d86.s0.p7" e1="DDI-DrugBank.d86.s0.e1"
+            e2="DDI-DrugBank.d86.s0.e4" ddi="true" type="effect"/>
+        <pair id="DDI-DrugBank.d86.s0.p8" e1="DDI-DrugBank.d86.s0.e1"
+            e2="DDI-DrugBank.d86.s0.e5" ddi="true" type="effect"/>
+        <pair id="DDI-DrugBank.d86.s0.p9" e1="DDI-DrugBank.d86.s0.e2"
+            e2="DDI-DrugBank.d86.s0.e3" ddi="false"/>
+        <pair id="DDI-DrugBank.d86.s0.p10" e1="DDI-DrugBank.d86.s0.e2"
+            e2="DDI-DrugBank.d86.s0.e4" ddi="true" type="effect"/>
+        <pair id="DDI-DrugBank.d86.s0.p11" e1="DDI-DrugBank.d86.s0.e2"
+            e2="DDI-DrugBank.d86.s0.e5" ddi="true" type="effect"/>
+        <pair id="DDI-DrugBank.d86.s0.p12" e1="DDI-DrugBank.d86.s0.e3"
+            e2="DDI-DrugBank.d86.s0.e4" ddi="true" type="effect"/>
+        <pair id="DDI-DrugBank.d86.s0.p13" e1="DDI-DrugBank.d86.s0.e3"
+            e2="DDI-DrugBank.d86.s0.e5" ddi="true" type="effect"/>
+        <pair id="DDI-DrugBank.d86.s0.p14" e1="DDI-DrugBank.d86.s0.e4"
+            e2="DDI-DrugBank.d86.s0.e5" ddi="false"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d86.s1" text="Interactions may also occur with the following: anti-depressants/anti-anxiety drugs, drugs used to treat an overactive thyroid, beta-blockers (e.g., propranolol), sparfloxacin, grepafloxacin, guanethidine, guanadrel, metrizamide, cabergoline, lithium, narcotic pain medication (e.g., codeine), drugs used to aid sleep, drowsiness-causing antihistamines (e.g., diphenhydramine), any other drugs that may make you drowsy.">
+        <entity id="DDI-DrugBank.d86.s1.e0" charOffset="48-63"
+            type="group" text="anti-depressants"/>
+        <entity id="DDI-DrugBank.d86.s1.e1" charOffset="65-82"
+            type="group" text="anti-anxiety drugs"/>
+        <entity id="DDI-DrugBank.d86.s1.e2" charOffset="128-140"
+            type="group" text="beta-blockers"/>
+        <entity id="DDI-DrugBank.d86.s1.e3" charOffset="149-159"
+            type="drug" text="propranolol"/>
+        <entity id="DDI-DrugBank.d86.s1.e4" charOffset="163-174"
+            type="drug" text="sparfloxacin"/>
+        <entity id="DDI-DrugBank.d86.s1.e5" charOffset="177-189"
+            type="drug" text="grepafloxacin"/>
+        <entity id="DDI-DrugBank.d86.s1.e6" charOffset="192-203"
+            type="drug" text="guanethidine"/>
+        <entity id="DDI-DrugBank.d86.s1.e7" charOffset="206-214"
+            type="drug" text="guanadrel"/>
+        <entity id="DDI-DrugBank.d86.s1.e8" charOffset="217-227"
+            type="drug" text="metrizamide"/>
+        <entity id="DDI-DrugBank.d86.s1.e9" charOffset="230-240"
+            type="drug" text="cabergoline"/>
+        <entity id="DDI-DrugBank.d86.s1.e10" charOffset="243-249"
+            type="drug" text="lithium"/>
+        <entity id="DDI-DrugBank.d86.s1.e11" charOffset="252-259"
+            type="group" text="narcotic"/>
+        <entity id="DDI-DrugBank.d86.s1.e12" charOffset="284-290"
+            type="drug" text="codeine"/>
+        <entity id="DDI-DrugBank.d86.s1.e13" charOffset="338-351"
+            type="group" text="antihistamines"/>
+        <entity id="DDI-DrugBank.d86.s1.e14" charOffset="360-374"
+            type="drug" text="diphenhydramine"/>
+        <pair id="DDI-DrugBank.d86.s1.p0" e1="DDI-DrugBank.d86.s1.e0"
+            e2="DDI-DrugBank.d86.s1.e1" ddi="false"/>
+        <pair id="DDI-DrugBank.d86.s1.p1" e1="DDI-DrugBank.d86.s1.e0"
+            e2="DDI-DrugBank.d86.s1.e2" ddi="false"/>
+        <pair id="DDI-DrugBank.d86.s1.p2" e1="DDI-DrugBank.d86.s1.e0"
+            e2="DDI-DrugBank.d86.s1.e3" ddi="false"/>
+        <pair id="DDI-DrugBank.d86.s1.p3" e1="DDI-DrugBank.d86.s1.e0"
+            e2="DDI-DrugBank.d86.s1.e4" ddi="false"/>
+        <pair id="DDI-DrugBank.d86.s1.p4" e1="DDI-DrugBank.d86.s1.e0"
+            e2="DDI-DrugBank.d86.s1.e5" ddi="false"/>
+        <pair id="DDI-DrugBank.d86.s1.p5" e1="DDI-DrugBank.d86.s1.e0"
+            e2="DDI-DrugBank.d86.s1.e6" ddi="false"/>
+        <pair id="DDI-DrugBank.d86.s1.p6" e1="DDI-DrugBank.d86.s1.e0"
+            e2="DDI-DrugBank.d86.s1.e7" ddi="false"/>
+        <pair id="DDI-DrugBank.d86.s1.p7" e1="DDI-DrugBank.d86.s1.e0"
+            e2="DDI-DrugBank.d86.s1.e8" ddi="false"/>
+        <pair id="DDI-DrugBank.d86.s1.p8" e1="DDI-DrugBank.d86.s1.e0"
+            e2="DDI-DrugBank.d86.s1.e9" ddi="false"/>
+        <pair id="DDI-DrugBank.d86.s1.p9" e1="DDI-DrugBank.d86.s1.e0"
+            e2="DDI-DrugBank.d86.s1.e10" ddi="false"/>
+        <pair id="DDI-DrugBank.d86.s1.p10" e1="DDI-DrugBank.d86.s1.e0"
+            e2="DDI-DrugBank.d86.s1.e11" ddi="false"/>
+        <pair id="DDI-DrugBank.d86.s1.p11" e1="DDI-DrugBank.d86.s1.e0"
+            e2="DDI-DrugBank.d86.s1.e12" ddi="false"/>
+        <pair id="DDI-DrugBank.d86.s1.p12" e1="DDI-DrugBank.d86.s1.e0"
+            e2="DDI-DrugBank.d86.s1.e13" ddi="false"/>
+        <pair id="DDI-DrugBank.d86.s1.p13" e1="DDI-DrugBank.d86.s1.e0"
+            e2="DDI-DrugBank.d86.s1.e14" ddi="false"/>
+        <pair id="DDI-DrugBank.d86.s1.p14" e1="DDI-DrugBank.d86.s1.e1"
+            e2="DDI-DrugBank.d86.s1.e2" ddi="false"/>
+        <pair id="DDI-DrugBank.d86.s1.p15" e1="DDI-DrugBank.d86.s1.e1"
+            e2="DDI-DrugBank.d86.s1.e3" ddi="false"/>
+        <pair id="DDI-DrugBank.d86.s1.p16" e1="DDI-DrugBank.d86.s1.e1"
+            e2="DDI-DrugBank.d86.s1.e4" ddi="false"/>
+        <pair id="DDI-DrugBank.d86.s1.p17" e1="DDI-DrugBank.d86.s1.e1"
+            e2="DDI-DrugBank.d86.s1.e5" ddi="false"/>
+        <pair id="DDI-DrugBank.d86.s1.p18" e1="DDI-DrugBank.d86.s1.e1"
+            e2="DDI-DrugBank.d86.s1.e6" ddi="false"/>
+        <pair id="DDI-DrugBank.d86.s1.p19" e1="DDI-DrugBank.d86.s1.e1"
+            e2="DDI-DrugBank.d86.s1.e7" ddi="false"/>
+        <pair id="DDI-DrugBank.d86.s1.p20" e1="DDI-DrugBank.d86.s1.e1"
+            e2="DDI-DrugBank.d86.s1.e8" ddi="false"/>
+        <pair id="DDI-DrugBank.d86.s1.p21" e1="DDI-DrugBank.d86.s1.e1"
+            e2="DDI-DrugBank.d86.s1.e9" ddi="false"/>
+        <pair id="DDI-DrugBank.d86.s1.p22" e1="DDI-DrugBank.d86.s1.e1"
+            e2="DDI-DrugBank.d86.s1.e10" ddi="false"/>
+        <pair id="DDI-DrugBank.d86.s1.p23" e1="DDI-DrugBank.d86.s1.e1"
+            e2="DDI-DrugBank.d86.s1.e11" ddi="false"/>
+        <pair id="DDI-DrugBank.d86.s1.p24" e1="DDI-DrugBank.d86.s1.e1"
+            e2="DDI-DrugBank.d86.s1.e12" ddi="false"/>
+        <pair id="DDI-DrugBank.d86.s1.p25" e1="DDI-DrugBank.d86.s1.e1"
+            e2="DDI-DrugBank.d86.s1.e13" ddi="false"/>
+        <pair id="DDI-DrugBank.d86.s1.p26" e1="DDI-DrugBank.d86.s1.e1"
+            e2="DDI-DrugBank.d86.s1.e14" ddi="false"/>
+        <pair id="DDI-DrugBank.d86.s1.p27" e1="DDI-DrugBank.d86.s1.e2"
+            e2="DDI-DrugBank.d86.s1.e3" ddi="false"/>
+        <pair id="DDI-DrugBank.d86.s1.p28" e1="DDI-DrugBank.d86.s1.e2"
+            e2="DDI-DrugBank.d86.s1.e4" ddi="false"/>
+        <pair id="DDI-DrugBank.d86.s1.p29" e1="DDI-DrugBank.d86.s1.e2"
+            e2="DDI-DrugBank.d86.s1.e5" ddi="false"/>
+        <pair id="DDI-DrugBank.d86.s1.p30" e1="DDI-DrugBank.d86.s1.e2"
+            e2="DDI-DrugBank.d86.s1.e6" ddi="false"/>
+        <pair id="DDI-DrugBank.d86.s1.p31" e1="DDI-DrugBank.d86.s1.e2"
+            e2="DDI-DrugBank.d86.s1.e7" ddi="false"/>
+        <pair id="DDI-DrugBank.d86.s1.p32" e1="DDI-DrugBank.d86.s1.e2"
+            e2="DDI-DrugBank.d86.s1.e8" ddi="false"/>
+        <pair id="DDI-DrugBank.d86.s1.p33" e1="DDI-DrugBank.d86.s1.e2"
+            e2="DDI-DrugBank.d86.s1.e9" ddi="false"/>
+        <pair id="DDI-DrugBank.d86.s1.p34" e1="DDI-DrugBank.d86.s1.e2"
+            e2="DDI-DrugBank.d86.s1.e10" ddi="false"/>
+        <pair id="DDI-DrugBank.d86.s1.p35" e1="DDI-DrugBank.d86.s1.e2"
+            e2="DDI-DrugBank.d86.s1.e11" ddi="false"/>
+        <pair id="DDI-DrugBank.d86.s1.p36" e1="DDI-DrugBank.d86.s1.e2"
+            e2="DDI-DrugBank.d86.s1.e12" ddi="false"/>
+        <pair id="DDI-DrugBank.d86.s1.p37" e1="DDI-DrugBank.d86.s1.e2"
+            e2="DDI-DrugBank.d86.s1.e13" ddi="false"/>
+        <pair id="DDI-DrugBank.d86.s1.p38" e1="DDI-DrugBank.d86.s1.e2"
+            e2="DDI-DrugBank.d86.s1.e14" ddi="false"/>
+        <pair id="DDI-DrugBank.d86.s1.p39" e1="DDI-DrugBank.d86.s1.e3"
+            e2="DDI-DrugBank.d86.s1.e4" ddi="false"/>
+        <pair id="DDI-DrugBank.d86.s1.p40" e1="DDI-DrugBank.d86.s1.e3"
+            e2="DDI-DrugBank.d86.s1.e5" ddi="false"/>
+        <pair id="DDI-DrugBank.d86.s1.p41" e1="DDI-DrugBank.d86.s1.e3"
+            e2="DDI-DrugBank.d86.s1.e6" ddi="false"/>
+        <pair id="DDI-DrugBank.d86.s1.p42" e1="DDI-DrugBank.d86.s1.e3"
+            e2="DDI-DrugBank.d86.s1.e7" ddi="false"/>
+        <pair id="DDI-DrugBank.d86.s1.p43" e1="DDI-DrugBank.d86.s1.e3"
+            e2="DDI-DrugBank.d86.s1.e8" ddi="false"/>
+        <pair id="DDI-DrugBank.d86.s1.p44" e1="DDI-DrugBank.d86.s1.e3"
+            e2="DDI-DrugBank.d86.s1.e9" ddi="false"/>
+        <pair id="DDI-DrugBank.d86.s1.p45" e1="DDI-DrugBank.d86.s1.e3"
+            e2="DDI-DrugBank.d86.s1.e10" ddi="false"/>
+        <pair id="DDI-DrugBank.d86.s1.p46" e1="DDI-DrugBank.d86.s1.e3"
+            e2="DDI-DrugBank.d86.s1.e11" ddi="false"/>
+        <pair id="DDI-DrugBank.d86.s1.p47" e1="DDI-DrugBank.d86.s1.e3"
+            e2="DDI-DrugBank.d86.s1.e12" ddi="false"/>
+        <pair id="DDI-DrugBank.d86.s1.p48" e1="DDI-DrugBank.d86.s1.e3"
+            e2="DDI-DrugBank.d86.s1.e13" ddi="false"/>
+        <pair id="DDI-DrugBank.d86.s1.p49" e1="DDI-DrugBank.d86.s1.e3"
+            e2="DDI-DrugBank.d86.s1.e14" ddi="false"/>
+        <pair id="DDI-DrugBank.d86.s1.p50" e1="DDI-DrugBank.d86.s1.e4"
+            e2="DDI-DrugBank.d86.s1.e5" ddi="false"/>
+        <pair id="DDI-DrugBank.d86.s1.p51" e1="DDI-DrugBank.d86.s1.e4"
+            e2="DDI-DrugBank.d86.s1.e6" ddi="false"/>
+        <pair id="DDI-DrugBank.d86.s1.p52" e1="DDI-DrugBank.d86.s1.e4"
+            e2="DDI-DrugBank.d86.s1.e7" ddi="false"/>
+        <pair id="DDI-DrugBank.d86.s1.p53" e1="DDI-DrugBank.d86.s1.e4"
+            e2="DDI-DrugBank.d86.s1.e8" ddi="false"/>
+        <pair id="DDI-DrugBank.d86.s1.p54" e1="DDI-DrugBank.d86.s1.e4"
+            e2="DDI-DrugBank.d86.s1.e9" ddi="false"/>
+        <pair id="DDI-DrugBank.d86.s1.p55" e1="DDI-DrugBank.d86.s1.e4"
+            e2="DDI-DrugBank.d86.s1.e10" ddi="false"/>
+        <pair id="DDI-DrugBank.d86.s1.p56" e1="DDI-DrugBank.d86.s1.e4"
+            e2="DDI-DrugBank.d86.s1.e11" ddi="false"/>
+        <pair id="DDI-DrugBank.d86.s1.p57" e1="DDI-DrugBank.d86.s1.e4"
+            e2="DDI-DrugBank.d86.s1.e12" ddi="false"/>
+        <pair id="DDI-DrugBank.d86.s1.p58" e1="DDI-DrugBank.d86.s1.e4"
+            e2="DDI-DrugBank.d86.s1.e13" ddi="false"/>
+        <pair id="DDI-DrugBank.d86.s1.p59" e1="DDI-DrugBank.d86.s1.e4"
+            e2="DDI-DrugBank.d86.s1.e14" ddi="false"/>
+        <pair id="DDI-DrugBank.d86.s1.p60" e1="DDI-DrugBank.d86.s1.e5"
+            e2="DDI-DrugBank.d86.s1.e6" ddi="false"/>
+        <pair id="DDI-DrugBank.d86.s1.p61" e1="DDI-DrugBank.d86.s1.e5"
+            e2="DDI-DrugBank.d86.s1.e7" ddi="false"/>
+        <pair id="DDI-DrugBank.d86.s1.p62" e1="DDI-DrugBank.d86.s1.e5"
+            e2="DDI-DrugBank.d86.s1.e8" ddi="false"/>
+        <pair id="DDI-DrugBank.d86.s1.p63" e1="DDI-DrugBank.d86.s1.e5"
+            e2="DDI-DrugBank.d86.s1.e9" ddi="false"/>
+        <pair id="DDI-DrugBank.d86.s1.p64" e1="DDI-DrugBank.d86.s1.e5"
+            e2="DDI-DrugBank.d86.s1.e10" ddi="false"/>
+        <pair id="DDI-DrugBank.d86.s1.p65" e1="DDI-DrugBank.d86.s1.e5"
+            e2="DDI-DrugBank.d86.s1.e11" ddi="false"/>
+        <pair id="DDI-DrugBank.d86.s1.p66" e1="DDI-DrugBank.d86.s1.e5"
+            e2="DDI-DrugBank.d86.s1.e12" ddi="false"/>
+        <pair id="DDI-DrugBank.d86.s1.p67" e1="DDI-DrugBank.d86.s1.e5"
+            e2="DDI-DrugBank.d86.s1.e13" ddi="false"/>
+        <pair id="DDI-DrugBank.d86.s1.p68" e1="DDI-DrugBank.d86.s1.e5"
+            e2="DDI-DrugBank.d86.s1.e14" ddi="false"/>
+        <pair id="DDI-DrugBank.d86.s1.p69" e1="DDI-DrugBank.d86.s1.e6"
+            e2="DDI-DrugBank.d86.s1.e7" ddi="false"/>
+        <pair id="DDI-DrugBank.d86.s1.p70" e1="DDI-DrugBank.d86.s1.e6"
+            e2="DDI-DrugBank.d86.s1.e8" ddi="false"/>
+        <pair id="DDI-DrugBank.d86.s1.p71" e1="DDI-DrugBank.d86.s1.e6"
+            e2="DDI-DrugBank.d86.s1.e9" ddi="false"/>
+        <pair id="DDI-DrugBank.d86.s1.p72" e1="DDI-DrugBank.d86.s1.e6"
+            e2="DDI-DrugBank.d86.s1.e10" ddi="false"/>
+        <pair id="DDI-DrugBank.d86.s1.p73" e1="DDI-DrugBank.d86.s1.e6"
+            e2="DDI-DrugBank.d86.s1.e11" ddi="false"/>
+        <pair id="DDI-DrugBank.d86.s1.p74" e1="DDI-DrugBank.d86.s1.e6"
+            e2="DDI-DrugBank.d86.s1.e12" ddi="false"/>
+        <pair id="DDI-DrugBank.d86.s1.p75" e1="DDI-DrugBank.d86.s1.e6"
+            e2="DDI-DrugBank.d86.s1.e13" ddi="false"/>
+        <pair id="DDI-DrugBank.d86.s1.p76" e1="DDI-DrugBank.d86.s1.e6"
+            e2="DDI-DrugBank.d86.s1.e14" ddi="false"/>
+        <pair id="DDI-DrugBank.d86.s1.p77" e1="DDI-DrugBank.d86.s1.e7"
+            e2="DDI-DrugBank.d86.s1.e8" ddi="false"/>
+        <pair id="DDI-DrugBank.d86.s1.p78" e1="DDI-DrugBank.d86.s1.e7"
+            e2="DDI-DrugBank.d86.s1.e9" ddi="false"/>
+        <pair id="DDI-DrugBank.d86.s1.p79" e1="DDI-DrugBank.d86.s1.e7"
+            e2="DDI-DrugBank.d86.s1.e10" ddi="false"/>
+        <pair id="DDI-DrugBank.d86.s1.p80" e1="DDI-DrugBank.d86.s1.e7"
+            e2="DDI-DrugBank.d86.s1.e11" ddi="false"/>
+        <pair id="DDI-DrugBank.d86.s1.p81" e1="DDI-DrugBank.d86.s1.e7"
+            e2="DDI-DrugBank.d86.s1.e12" ddi="false"/>
+        <pair id="DDI-DrugBank.d86.s1.p82" e1="DDI-DrugBank.d86.s1.e7"
+            e2="DDI-DrugBank.d86.s1.e13" ddi="false"/>
+        <pair id="DDI-DrugBank.d86.s1.p83" e1="DDI-DrugBank.d86.s1.e7"
+            e2="DDI-DrugBank.d86.s1.e14" ddi="false"/>
+        <pair id="DDI-DrugBank.d86.s1.p84" e1="DDI-DrugBank.d86.s1.e8"
+            e2="DDI-DrugBank.d86.s1.e9" ddi="false"/>
+        <pair id="DDI-DrugBank.d86.s1.p85" e1="DDI-DrugBank.d86.s1.e8"
+            e2="DDI-DrugBank.d86.s1.e10" ddi="false"/>
+        <pair id="DDI-DrugBank.d86.s1.p86" e1="DDI-DrugBank.d86.s1.e8"
+            e2="DDI-DrugBank.d86.s1.e11" ddi="false"/>
+        <pair id="DDI-DrugBank.d86.s1.p87" e1="DDI-DrugBank.d86.s1.e8"
+            e2="DDI-DrugBank.d86.s1.e12" ddi="false"/>
+        <pair id="DDI-DrugBank.d86.s1.p88" e1="DDI-DrugBank.d86.s1.e8"
+            e2="DDI-DrugBank.d86.s1.e13" ddi="false"/>
+        <pair id="DDI-DrugBank.d86.s1.p89" e1="DDI-DrugBank.d86.s1.e8"
+            e2="DDI-DrugBank.d86.s1.e14" ddi="false"/>
+        <pair id="DDI-DrugBank.d86.s1.p90" e1="DDI-DrugBank.d86.s1.e9"
+            e2="DDI-DrugBank.d86.s1.e10" ddi="false"/>
+        <pair id="DDI-DrugBank.d86.s1.p91" e1="DDI-DrugBank.d86.s1.e9"
+            e2="DDI-DrugBank.d86.s1.e11" ddi="false"/>
+        <pair id="DDI-DrugBank.d86.s1.p92" e1="DDI-DrugBank.d86.s1.e9"
+            e2="DDI-DrugBank.d86.s1.e12" ddi="false"/>
+        <pair id="DDI-DrugBank.d86.s1.p93" e1="DDI-DrugBank.d86.s1.e9"
+            e2="DDI-DrugBank.d86.s1.e13" ddi="false"/>
+        <pair id="DDI-DrugBank.d86.s1.p94" e1="DDI-DrugBank.d86.s1.e9"
+            e2="DDI-DrugBank.d86.s1.e14" ddi="false"/>
+        <pair id="DDI-DrugBank.d86.s1.p95" e1="DDI-DrugBank.d86.s1.e10"
+            e2="DDI-DrugBank.d86.s1.e11" ddi="false"/>
+        <pair id="DDI-DrugBank.d86.s1.p96" e1="DDI-DrugBank.d86.s1.e10"
+            e2="DDI-DrugBank.d86.s1.e12" ddi="false"/>
+        <pair id="DDI-DrugBank.d86.s1.p97" e1="DDI-DrugBank.d86.s1.e10"
+            e2="DDI-DrugBank.d86.s1.e13" ddi="false"/>
+        <pair id="DDI-DrugBank.d86.s1.p98" e1="DDI-DrugBank.d86.s1.e10"
+            e2="DDI-DrugBank.d86.s1.e14" ddi="false"/>
+        <pair id="DDI-DrugBank.d86.s1.p99" e1="DDI-DrugBank.d86.s1.e11"
+            e2="DDI-DrugBank.d86.s1.e12" ddi="false"/>
+        <pair id="DDI-DrugBank.d86.s1.p100" e1="DDI-DrugBank.d86.s1.e11"
+            e2="DDI-DrugBank.d86.s1.e13" ddi="false"/>
+        <pair id="DDI-DrugBank.d86.s1.p101" e1="DDI-DrugBank.d86.s1.e11"
+            e2="DDI-DrugBank.d86.s1.e14" ddi="false"/>
+        <pair id="DDI-DrugBank.d86.s1.p102" e1="DDI-DrugBank.d86.s1.e12"
+            e2="DDI-DrugBank.d86.s1.e13" ddi="false"/>
+        <pair id="DDI-DrugBank.d86.s1.p103" e1="DDI-DrugBank.d86.s1.e12"
+            e2="DDI-DrugBank.d86.s1.e14" ddi="false"/>
+        <pair id="DDI-DrugBank.d86.s1.p104" e1="DDI-DrugBank.d86.s1.e13"
+            e2="DDI-DrugBank.d86.s1.e14" ddi="false"/>
+    </sentence>
+</document>

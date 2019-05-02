@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="DDI-DrugBank.d580">
+    <sentence id="DDI-DrugBank.d580.s0" text="In clinical studies, the concurrent administration of the ASMANEX TWISTHALER    inhaler and other drugs commonly used in the treatment of asthma was not associated with any unusual adverse events. ">
+        <entity id="DDI-DrugBank.d580.s0.e0" charOffset="58-75"
+            type="brand" text="ASMANEX TWISTHALER"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d580.s1" text="However, ketoconazole, a potent inhibitor of cytochrome P450 3A4, may increase plasma levels of mometasone furoate during concomitant dosing.">
+        <entity id="DDI-DrugBank.d580.s1.e0" charOffset="9-20"
+            type="drug" text="ketoconazole"/>
+        <entity id="DDI-DrugBank.d580.s1.e1" charOffset="96-113"
+            type="drug" text="mometasone furoate"/>
+        <pair id="DDI-DrugBank.d580.s1.p0" e1="DDI-DrugBank.d580.s1.e0"
+            e2="DDI-DrugBank.d580.s1.e1" ddi="true" type="mechanism"/>
+    </sentence>
+</document>

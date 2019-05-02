@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="DDI-DrugBank.d560">
+    <sentence id="DDI-DrugBank.d560.s0" text="Use of MAO inhibitors may cause an excessive increase in blood pressure and heart stimulation.">
+        <entity id="DDI-DrugBank.d560.s0.e0" charOffset="7-20"
+            type="group" text="MAO inhibitors"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d560.s1" text="If you are also using a steroid inhaler, take bitolterol first and then wait about 15 minutes before using the steroid inhaler.">
+        <entity id="DDI-DrugBank.d560.s1.e0" charOffset="24-30"
+            type="group" text="steroid"/>
+        <entity id="DDI-DrugBank.d560.s1.e1" charOffset="46-55"
+            type="drug" text="bitolterol"/>
+        <entity id="DDI-DrugBank.d560.s1.e2" charOffset="111-117"
+            type="group" text="steroid"/>
+        <pair id="DDI-DrugBank.d560.s1.p0" e1="DDI-DrugBank.d560.s1.e0"
+            e2="DDI-DrugBank.d560.s1.e1" ddi="true" type="advise"/>
+        <pair id="DDI-DrugBank.d560.s1.p1" e1="DDI-DrugBank.d560.s1.e0"
+            e2="DDI-DrugBank.d560.s1.e2" ddi="false"/>
+        <pair id="DDI-DrugBank.d560.s1.p2" e1="DDI-DrugBank.d560.s1.e1"
+            e2="DDI-DrugBank.d560.s1.e2" ddi="true" type="advise"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d560.s2" text="This allows bitolterol to open air passages, increasing the effectiveness of the steroid.">
+        <entity id="DDI-DrugBank.d560.s2.e0" charOffset="12-21"
+            type="drug" text="bitolterol"/>
+        <entity id="DDI-DrugBank.d560.s2.e1" charOffset="81-87"
+            type="group" text="steroid"/>
+        <pair id="DDI-DrugBank.d560.s2.p0" e1="DDI-DrugBank.d560.s2.e0"
+            e2="DDI-DrugBank.d560.s2.e1" ddi="true" type="effect"/>
+    </sentence>
+</document>

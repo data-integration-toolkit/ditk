@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="DDI-DrugBank.d435">
+    <sentence id="DDI-DrugBank.d435.s0" text="Exemestane is extensively metabolized by CYP 3A4, but coadministration of ketoconazole, a potent inhibitor of CYP 3A4, has no significant effect on exemestane pharmacokinetics.">
+        <entity id="DDI-DrugBank.d435.s0.e0" charOffset="0-9"
+            type="drug" text="Exemestane"/>
+        <entity id="DDI-DrugBank.d435.s0.e1" charOffset="74-85"
+            type="drug" text="ketoconazole"/>
+        <entity id="DDI-DrugBank.d435.s0.e2" charOffset="148-157"
+            type="drug" text="exemestane"/>
+        <pair id="DDI-DrugBank.d435.s0.p0" e1="DDI-DrugBank.d435.s0.e0"
+            e2="DDI-DrugBank.d435.s0.e1" ddi="false"/>
+        <pair id="DDI-DrugBank.d435.s0.p1" e1="DDI-DrugBank.d435.s0.e0"
+            e2="DDI-DrugBank.d435.s0.e2" ddi="false"/>
+        <pair id="DDI-DrugBank.d435.s0.p2" e1="DDI-DrugBank.d435.s0.e1"
+            e2="DDI-DrugBank.d435.s0.e2" ddi="false"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d435.s1" text="Significant pharmacokinetic interactions mediated by inhibition of CYP isoenzymes therefore appear unlikely."/>
+    <sentence id="DDI-DrugBank.d435.s2" text="Co-medications that induce CYP 3A4 (e.g., rifampicin, phenytoin, carbamazepine, phenobarbital, or St. John s wort) may significantly decrease exposure to exemestane.">
+        <entity id="DDI-DrugBank.d435.s2.e0" charOffset="42-51"
+            type="drug" text="rifampicin"/>
+        <entity id="DDI-DrugBank.d435.s2.e1" charOffset="54-62"
+            type="drug" text="phenytoin"/>
+        <entity id="DDI-DrugBank.d435.s2.e2" charOffset="65-77"
+            type="drug" text="carbamazepine"/>
+        <entity id="DDI-DrugBank.d435.s2.e3" charOffset="80-92"
+            type="drug" text="phenobarbital"/>
+        <entity id="DDI-DrugBank.d435.s2.e4" charOffset="154-163"
+            type="drug" text="exemestane"/>
+        <pair id="DDI-DrugBank.d435.s2.p0" e1="DDI-DrugBank.d435.s2.e0"
+            e2="DDI-DrugBank.d435.s2.e1" ddi="false"/>
+        <pair id="DDI-DrugBank.d435.s2.p1" e1="DDI-DrugBank.d435.s2.e0"
+            e2="DDI-DrugBank.d435.s2.e2" ddi="false"/>
+        <pair id="DDI-DrugBank.d435.s2.p2" e1="DDI-DrugBank.d435.s2.e0"
+            e2="DDI-DrugBank.d435.s2.e3" ddi="false"/>
+        <pair id="DDI-DrugBank.d435.s2.p3" e1="DDI-DrugBank.d435.s2.e0"
+            e2="DDI-DrugBank.d435.s2.e4" ddi="true" type="mechanism"/>
+        <pair id="DDI-DrugBank.d435.s2.p4" e1="DDI-DrugBank.d435.s2.e1"
+            e2="DDI-DrugBank.d435.s2.e2" ddi="false"/>
+        <pair id="DDI-DrugBank.d435.s2.p5" e1="DDI-DrugBank.d435.s2.e1"
+            e2="DDI-DrugBank.d435.s2.e3" ddi="false"/>
+        <pair id="DDI-DrugBank.d435.s2.p6" e1="DDI-DrugBank.d435.s2.e1"
+            e2="DDI-DrugBank.d435.s2.e4" ddi="true" type="mechanism"/>
+        <pair id="DDI-DrugBank.d435.s2.p7" e1="DDI-DrugBank.d435.s2.e2"
+            e2="DDI-DrugBank.d435.s2.e3" ddi="false"/>
+        <pair id="DDI-DrugBank.d435.s2.p8" e1="DDI-DrugBank.d435.s2.e2"
+            e2="DDI-DrugBank.d435.s2.e4" ddi="true" type="mechanism"/>
+        <pair id="DDI-DrugBank.d435.s2.p9" e1="DDI-DrugBank.d435.s2.e3"
+            e2="DDI-DrugBank.d435.s2.e4" ddi="true" type="mechanism"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d435.s3" text="Dose modification is recommended for patients who are also receiving a potent CYP 3A4 inducer."/>
+    <sentence id="DDI-DrugBank.d435.s4" text="Drug/Laboratory Tests Interactions No clinically relevant changes in the results of clinical laboratory tests have been observed."/>
+</document>

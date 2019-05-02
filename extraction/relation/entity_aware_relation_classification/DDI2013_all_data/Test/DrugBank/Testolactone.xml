@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="DDI-DrugBank.d658">
+    <sentence id="DDI-DrugBank.d658.s0" text="When administered concurrently, testolactone may increase the effects of oral anticoagulants; ">
+        <entity id="DDI-DrugBank.d658.s0.e0" charOffset="32-43"
+            type="drug" text="testolactone"/>
+        <entity id="DDI-DrugBank.d658.s0.e1" charOffset="78-91"
+            type="group" text="anticoagulants"/>
+        <pair id="DDI-DrugBank.d658.s0.p0" e1="DDI-DrugBank.d658.s0.e0"
+            e2="DDI-DrugBank.d658.s0.e1" ddi="true" type="effect"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d658.s1" text="monitor and adjust anticoagulant dosage accordingly. ">
+        <entity id="DDI-DrugBank.d658.s1.e0" charOffset="19-31"
+            type="group" text="anticoagulant"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d658.s2" text="Drug/Laboratory Test Interactions: Physiologic effects of testolactone may result in decreased estradiol concentrations with radioimmunoassays for estradiol, increased plasma calcium concentrations, and increased 24-hour urinary excretion of creatine and 17-ketosteroids.">
+        <entity id="DDI-DrugBank.d658.s2.e0" charOffset="58-69"
+            type="drug" text="testolactone"/>
+    </sentence>
+</document>

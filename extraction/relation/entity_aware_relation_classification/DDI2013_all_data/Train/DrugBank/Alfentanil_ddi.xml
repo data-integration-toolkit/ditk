@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="DDI-DrugBank.d8">
+    <sentence id="DDI-DrugBank.d8.s0" text="Both the magnitude and duration of central nervous system and cardiovascular effects may be enhanced when ALFENTA is administered in combination with other CNS depressants such as barbiturates, tranquilizers, opioids, or inhalation general anesthetics.">
+        <entity id="DDI-DrugBank.d8.s0.e0" charOffset="106-112"
+            type="brand" text="ALFENTA"/>
+        <entity id="DDI-DrugBank.d8.s0.e1" charOffset="156-170"
+            type="group" text="CNS depressants"/>
+        <entity id="DDI-DrugBank.d8.s0.e2" charOffset="180-191"
+            type="group" text="barbiturates"/>
+        <entity id="DDI-DrugBank.d8.s0.e3" charOffset="194-206"
+            type="group" text="tranquilizers"/>
+        <entity id="DDI-DrugBank.d8.s0.e4" charOffset="209-215"
+            type="group" text="opioids"/>
+        <entity id="DDI-DrugBank.d8.s0.e5" charOffset="240-250"
+            type="group" text="anesthetics"/>
+        <pair id="DDI-DrugBank.d8.s0.p0" e1="DDI-DrugBank.d8.s0.e0"
+            e2="DDI-DrugBank.d8.s0.e1" ddi="true" type="effect"/>
+        <pair id="DDI-DrugBank.d8.s0.p1" e1="DDI-DrugBank.d8.s0.e0"
+            e2="DDI-DrugBank.d8.s0.e2" ddi="true" type="effect"/>
+        <pair id="DDI-DrugBank.d8.s0.p2" e1="DDI-DrugBank.d8.s0.e0"
+            e2="DDI-DrugBank.d8.s0.e3" ddi="true" type="effect"/>
+        <pair id="DDI-DrugBank.d8.s0.p3" e1="DDI-DrugBank.d8.s0.e0"
+            e2="DDI-DrugBank.d8.s0.e4" ddi="true" type="effect"/>
+        <pair id="DDI-DrugBank.d8.s0.p4" e1="DDI-DrugBank.d8.s0.e0"
+            e2="DDI-DrugBank.d8.s0.e5" ddi="true" type="effect"/>
+        <pair id="DDI-DrugBank.d8.s0.p5" e1="DDI-DrugBank.d8.s0.e1"
+            e2="DDI-DrugBank.d8.s0.e2" ddi="false"/>
+        <pair id="DDI-DrugBank.d8.s0.p6" e1="DDI-DrugBank.d8.s0.e1"
+            e2="DDI-DrugBank.d8.s0.e3" ddi="false"/>
+        <pair id="DDI-DrugBank.d8.s0.p7" e1="DDI-DrugBank.d8.s0.e1"
+            e2="DDI-DrugBank.d8.s0.e4" ddi="false"/>
+        <pair id="DDI-DrugBank.d8.s0.p8" e1="DDI-DrugBank.d8.s0.e1"
+            e2="DDI-DrugBank.d8.s0.e5" ddi="false"/>
+        <pair id="DDI-DrugBank.d8.s0.p9" e1="DDI-DrugBank.d8.s0.e2"
+            e2="DDI-DrugBank.d8.s0.e3" ddi="false"/>
+        <pair id="DDI-DrugBank.d8.s0.p10" e1="DDI-DrugBank.d8.s0.e2"
+            e2="DDI-DrugBank.d8.s0.e4" ddi="false"/>
+        <pair id="DDI-DrugBank.d8.s0.p11" e1="DDI-DrugBank.d8.s0.e2"
+            e2="DDI-DrugBank.d8.s0.e5" ddi="false"/>
+        <pair id="DDI-DrugBank.d8.s0.p12" e1="DDI-DrugBank.d8.s0.e3"
+            e2="DDI-DrugBank.d8.s0.e4" ddi="false"/>
+        <pair id="DDI-DrugBank.d8.s0.p13" e1="DDI-DrugBank.d8.s0.e3"
+            e2="DDI-DrugBank.d8.s0.e5" ddi="false"/>
+        <pair id="DDI-DrugBank.d8.s0.p14" e1="DDI-DrugBank.d8.s0.e4"
+            e2="DDI-DrugBank.d8.s0.e5" ddi="false"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d8.s1" text="Postoperative respiratory depression may be enhanced or prolonged by these agents."/>
+    <sentence id="DDI-DrugBank.d8.s2" text="In such cases of combined treatment, the dose of one or both agents should be reduced."/>
+    <sentence id="DDI-DrugBank.d8.s3" text="Limited clinical experience indicates that requirements for volatile inhalation anesthetics are reduced by 30 to 50% for the first sixty (60) minutes following ALFENTA induction The concomitant use of erythromycin with ALFENTA can significantly inhibit ALFENTA clearance and may increase the risk of prolonged or delayed respiratory depression.">
+        <entity id="DDI-DrugBank.d8.s3.e0" charOffset="60-90"
+            type="group" text="volatile inhalation anesthetics"/>
+        <entity id="DDI-DrugBank.d8.s3.e1" charOffset="160-166"
+            type="brand" text="ALFENTA"/>
+        <entity id="DDI-DrugBank.d8.s3.e2" charOffset="201-212"
+            type="drug" text="erythromycin"/>
+        <entity id="DDI-DrugBank.d8.s3.e3" charOffset="219-225"
+            type="brand" text="ALFENTA"/>
+        <entity id="DDI-DrugBank.d8.s3.e4" charOffset="253-259"
+            type="brand" text="ALFENTA"/>
+        <pair id="DDI-DrugBank.d8.s3.p0" e1="DDI-DrugBank.d8.s3.e0"
+            e2="DDI-DrugBank.d8.s3.e1" ddi="true" type="mechanism"/>
+        <pair id="DDI-DrugBank.d8.s3.p1" e1="DDI-DrugBank.d8.s3.e0"
+            e2="DDI-DrugBank.d8.s3.e2" ddi="false"/>
+        <pair id="DDI-DrugBank.d8.s3.p2" e1="DDI-DrugBank.d8.s3.e0"
+            e2="DDI-DrugBank.d8.s3.e3" ddi="false"/>
+        <pair id="DDI-DrugBank.d8.s3.p3" e1="DDI-DrugBank.d8.s3.e0"
+            e2="DDI-DrugBank.d8.s3.e4" ddi="false"/>
+        <pair id="DDI-DrugBank.d8.s3.p4" e1="DDI-DrugBank.d8.s3.e1"
+            e2="DDI-DrugBank.d8.s3.e2" ddi="false"/>
+        <pair id="DDI-DrugBank.d8.s3.p5" e1="DDI-DrugBank.d8.s3.e1"
+            e2="DDI-DrugBank.d8.s3.e3" ddi="false"/>
+        <pair id="DDI-DrugBank.d8.s3.p6" e1="DDI-DrugBank.d8.s3.e1"
+            e2="DDI-DrugBank.d8.s3.e4" ddi="false"/>
+        <pair id="DDI-DrugBank.d8.s3.p7" e1="DDI-DrugBank.d8.s3.e2"
+            e2="DDI-DrugBank.d8.s3.e3" ddi="true" type="mechanism"/>
+        <pair id="DDI-DrugBank.d8.s3.p8" e1="DDI-DrugBank.d8.s3.e2"
+            e2="DDI-DrugBank.d8.s3.e4" ddi="false"/>
+        <pair id="DDI-DrugBank.d8.s3.p9" e1="DDI-DrugBank.d8.s3.e3"
+            e2="DDI-DrugBank.d8.s3.e4" ddi="false"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d8.s4" text="Cimetidine reduces the clearance of ALFENTA.">
+        <entity id="DDI-DrugBank.d8.s4.e0" charOffset="0-9" type="drug" text="Cimetidine"/>
+        <entity id="DDI-DrugBank.d8.s4.e1" charOffset="36-42"
+            type="brand" text="ALFENTA"/>
+        <pair id="DDI-DrugBank.d8.s4.p0" e1="DDI-DrugBank.d8.s4.e0"
+            e2="DDI-DrugBank.d8.s4.e1" ddi="true" type="mechanism"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d8.s5" text="Therefore smaller ALFENTA doses will be required with prolonged administration and the duration of action of ALFENTA my be extended.">
+        <entity id="DDI-DrugBank.d8.s5.e0" charOffset="18-24"
+            type="brand" text="ALFENTA"/>
+        <entity id="DDI-DrugBank.d8.s5.e1" charOffset="109-115"
+            type="brand" text="ALFENTA"/>
+        <pair id="DDI-DrugBank.d8.s5.p0" e1="DDI-DrugBank.d8.s5.e0"
+            e2="DDI-DrugBank.d8.s5.e1" ddi="false"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d8.s6" text="Perioperative administration of drugs affecting hepatic blood flow or enzyme function may reduce plasma clearance and prolong recovery."/>
+</document>

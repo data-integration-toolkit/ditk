@@ -1,0 +1,629 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="DDI-DrugBank.d97">
+    <sentence id="DDI-DrugBank.d97.s0" text="Indinavir is an inhibitor of the cytochrome P450 isoform CYP3A4.">
+        <entity id="DDI-DrugBank.d97.s0.e0" charOffset="0-8" type="drug" text="Indinavir"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d97.s1" text="Coadministration of CRIXIVAN and drugs primarily metabolized by CYP3A4 may result in increased plasma concentrations of the other drug, which could increase or prolong its therapeutic and adverse effects.">
+        <entity id="DDI-DrugBank.d97.s1.e0" charOffset="20-27"
+            type="brand" text="CRIXIVAN"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d97.s2" text="Indinavir is metabolized by CYP3A4.">
+        <entity id="DDI-DrugBank.d97.s2.e0" charOffset="0-8" type="drug" text="Indinavir"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d97.s3" text="Drugs that induce CYP3A4 activity would be expected to increase the clearance of indinavir, resulting in lowered plasma concentrations of indinavir.">
+        <entity id="DDI-DrugBank.d97.s3.e0" charOffset="81-89"
+            type="drug" text="indinavir"/>
+        <entity id="DDI-DrugBank.d97.s3.e1" charOffset="138-146"
+            type="drug" text="indinavir"/>
+        <pair id="DDI-DrugBank.d97.s3.p0" e1="DDI-DrugBank.d97.s3.e0"
+            e2="DDI-DrugBank.d97.s3.e1" ddi="false"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d97.s4" text="Coadministration of CRIXIVAN and other drugs that inhibit CYP3A4 may decrease the clearance of indinavir and may result in increased plasma concentrations of indinavir.">
+        <entity id="DDI-DrugBank.d97.s4.e0" charOffset="20-27"
+            type="brand" text="CRIXIVAN"/>
+        <entity id="DDI-DrugBank.d97.s4.e1" charOffset="95-103"
+            type="drug" text="indinavir"/>
+        <entity id="DDI-DrugBank.d97.s4.e2" charOffset="158-166"
+            type="drug" text="indinavir"/>
+        <pair id="DDI-DrugBank.d97.s4.p0" e1="DDI-DrugBank.d97.s4.e0"
+            e2="DDI-DrugBank.d97.s4.e1" ddi="false"/>
+        <pair id="DDI-DrugBank.d97.s4.p1" e1="DDI-DrugBank.d97.s4.e0"
+            e2="DDI-DrugBank.d97.s4.e2" ddi="false"/>
+        <pair id="DDI-DrugBank.d97.s4.p2" e1="DDI-DrugBank.d97.s4.e1"
+            e2="DDI-DrugBank.d97.s4.e2" ddi="false"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d97.s5" text="Table 8"/>
+    <sentence id="DDI-DrugBank.d97.s6" text="Drugs That Should Not Be Coadministered with CRIXIVAN">
+        <entity id="DDI-DrugBank.d97.s6.e0" charOffset="45-52"
+            type="brand" text="CRIXIVAN"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d97.s7" text="Drug Class: Drug Name Clinical Comment"/>
+    <sentence id="DDI-DrugBank.d97.s8" text="Antiarrhythmics: amiodarone">
+        <entity id="DDI-DrugBank.d97.s8.e0" charOffset="0-14"
+            type="group" text="Antiarrhythmics"/>
+        <entity id="DDI-DrugBank.d97.s8.e1" charOffset="17-26"
+            type="drug" text="amiodarone"/>
+        <pair id="DDI-DrugBank.d97.s8.p0" e1="DDI-DrugBank.d97.s8.e0"
+            e2="DDI-DrugBank.d97.s8.e1" ddi="false"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d97.s9" text="CONTRAINDICATED due to potential for serious and/or life-threatening reactions such as cardiac arrhythmias."/>
+    <sentence id="DDI-DrugBank.d97.s10" text="Ergot derivatives: dihydroergotamine, ergonovine, ergotamine, methylergonovine">
+        <entity id="DDI-DrugBank.d97.s10.e0" charOffset="19-35"
+            type="drug" text="dihydroergotamine"/>
+        <entity id="DDI-DrugBank.d97.s10.e1" charOffset="38-47"
+            type="drug" text="ergonovine"/>
+        <entity id="DDI-DrugBank.d97.s10.e2" charOffset="50-59"
+            type="drug" text="ergotamine"/>
+        <entity id="DDI-DrugBank.d97.s10.e3" charOffset="62-77"
+            type="drug" text="methylergonovine"/>
+        <pair id="DDI-DrugBank.d97.s10.p0" e1="DDI-DrugBank.d97.s10.e0"
+            e2="DDI-DrugBank.d97.s10.e1" ddi="false"/>
+        <pair id="DDI-DrugBank.d97.s10.p1" e1="DDI-DrugBank.d97.s10.e0"
+            e2="DDI-DrugBank.d97.s10.e2" ddi="false"/>
+        <pair id="DDI-DrugBank.d97.s10.p2" e1="DDI-DrugBank.d97.s10.e0"
+            e2="DDI-DrugBank.d97.s10.e3" ddi="false"/>
+        <pair id="DDI-DrugBank.d97.s10.p3" e1="DDI-DrugBank.d97.s10.e1"
+            e2="DDI-DrugBank.d97.s10.e2" ddi="false"/>
+        <pair id="DDI-DrugBank.d97.s10.p4" e1="DDI-DrugBank.d97.s10.e1"
+            e2="DDI-DrugBank.d97.s10.e3" ddi="false"/>
+        <pair id="DDI-DrugBank.d97.s10.p5" e1="DDI-DrugBank.d97.s10.e2"
+            e2="DDI-DrugBank.d97.s10.e3" ddi="false"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d97.s11" text="CONTRAINDICATED due to potential for serious and/or life-threatening reactions such as acute ergot toxicity characterized by peripheral vasospasm and ischemia of the extremities and other tissues."/>
+    <sentence id="DDI-DrugBank.d97.s12" text="Sedative/hypnotics: midazolam, triazolam">
+        <entity id="DDI-DrugBank.d97.s12.e0" charOffset="0-7"
+            type="group" text="Sedative"/>
+        <entity id="DDI-DrugBank.d97.s12.e1" charOffset="9-17"
+            type="group" text="hypnotics"/>
+        <entity id="DDI-DrugBank.d97.s12.e2" charOffset="20-28"
+            type="drug" text="midazolam"/>
+        <entity id="DDI-DrugBank.d97.s12.e3" charOffset="31-39"
+            type="drug" text="triazolam"/>
+        <pair id="DDI-DrugBank.d97.s12.p0" e1="DDI-DrugBank.d97.s12.e0"
+            e2="DDI-DrugBank.d97.s12.e1" ddi="false"/>
+        <pair id="DDI-DrugBank.d97.s12.p1" e1="DDI-DrugBank.d97.s12.e0"
+            e2="DDI-DrugBank.d97.s12.e2" ddi="false"/>
+        <pair id="DDI-DrugBank.d97.s12.p2" e1="DDI-DrugBank.d97.s12.e0"
+            e2="DDI-DrugBank.d97.s12.e3" ddi="false"/>
+        <pair id="DDI-DrugBank.d97.s12.p3" e1="DDI-DrugBank.d97.s12.e1"
+            e2="DDI-DrugBank.d97.s12.e2" ddi="false"/>
+        <pair id="DDI-DrugBank.d97.s12.p4" e1="DDI-DrugBank.d97.s12.e1"
+            e2="DDI-DrugBank.d97.s12.e3" ddi="false"/>
+        <pair id="DDI-DrugBank.d97.s12.p5" e1="DDI-DrugBank.d97.s12.e2"
+            e2="DDI-DrugBank.d97.s12.e3" ddi="false"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d97.s13" text="CONTRAINDICATED due to potential for serious and/or life-threatening reactions such as prolonged or increased sedation or respiratory depression."/>
+    <sentence id="DDI-DrugBank.d97.s14" text="GI motility agents: cisapride">
+        <entity id="DDI-DrugBank.d97.s14.e0" charOffset="20-28"
+            type="drug" text="cisapride"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d97.s15" text="CONTRAINDICATED due to potential for serious and/or life-threatening reactions such as cardiac arrhythmias."/>
+    <sentence id="DDI-DrugBank.d97.s16" text="Neuroleptic: pimozide">
+        <entity id="DDI-DrugBank.d97.s16.e0" charOffset="0-10"
+            type="group" text="Neuroleptic"/>
+        <entity id="DDI-DrugBank.d97.s16.e1" charOffset="13-20"
+            type="drug" text="pimozide"/>
+        <pair id="DDI-DrugBank.d97.s16.p0" e1="DDI-DrugBank.d97.s16.e0"
+            e2="DDI-DrugBank.d97.s16.e1" ddi="false"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d97.s17" text="CONTRAINDICATED due to potential for serious and/or life-threatening reactions such as cardiac arrhythmias."/>
+    <sentence id="DDI-DrugBank.d97.s18" text="Herbal products: St. John s wort (Hypericum perforatum)"/>
+    <sentence id="DDI-DrugBank.d97.s19" text="May lead to loss of virologic response and possible resistance to CRIXIVAN or to the class of protease inhibitors.">
+        <entity id="DDI-DrugBank.d97.s19.e0" charOffset="66-73"
+            type="brand" text="CRIXIVAN"/>
+        <entity id="DDI-DrugBank.d97.s19.e1" charOffset="94-112"
+            type="group" text="protease inhibitors"/>
+        <pair id="DDI-DrugBank.d97.s19.p0" e1="DDI-DrugBank.d97.s19.e0"
+            e2="DDI-DrugBank.d97.s19.e1" ddi="false"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d97.s20" text="Antimycobacterial: rifampin">
+        <entity id="DDI-DrugBank.d97.s20.e0" charOffset="0-16"
+            type="group" text="Antimycobacterial"/>
+        <entity id="DDI-DrugBank.d97.s20.e1" charOffset="19-26"
+            type="drug" text="rifampin"/>
+        <pair id="DDI-DrugBank.d97.s20.p0" e1="DDI-DrugBank.d97.s20.e0"
+            e2="DDI-DrugBank.d97.s20.e1" ddi="false"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d97.s21" text="May lead to loss of virologic response and possible resistance to CRIXIVAN or to the class of protease inhibitors or other coadministered antiretroviral agents.">
+        <entity id="DDI-DrugBank.d97.s21.e0" charOffset="66-73"
+            type="brand" text="CRIXIVAN"/>
+        <entity id="DDI-DrugBank.d97.s21.e1" charOffset="94-112"
+            type="group" text="protease inhibitors"/>
+        <entity id="DDI-DrugBank.d97.s21.e2" charOffset="138-158"
+            type="group" text="antiretroviral agents"/>
+        <pair id="DDI-DrugBank.d97.s21.p0" e1="DDI-DrugBank.d97.s21.e0"
+            e2="DDI-DrugBank.d97.s21.e1" ddi="false"/>
+        <pair id="DDI-DrugBank.d97.s21.p1" e1="DDI-DrugBank.d97.s21.e0"
+            e2="DDI-DrugBank.d97.s21.e2" ddi="false"/>
+        <pair id="DDI-DrugBank.d97.s21.p2" e1="DDI-DrugBank.d97.s21.e1"
+            e2="DDI-DrugBank.d97.s21.e2" ddi="false"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d97.s22" text="HMG-CoA Reductase inhibitors: lovastatin, simvastatin">
+        <entity id="DDI-DrugBank.d97.s22.e0" charOffset="0-27"
+            type="group" text="HMG-CoA Reductase inhibitors"/>
+        <entity id="DDI-DrugBank.d97.s22.e1" charOffset="30-39"
+            type="drug" text="lovastatin"/>
+        <entity id="DDI-DrugBank.d97.s22.e2" charOffset="42-52"
+            type="drug" text="simvastatin"/>
+        <pair id="DDI-DrugBank.d97.s22.p0" e1="DDI-DrugBank.d97.s22.e0"
+            e2="DDI-DrugBank.d97.s22.e1" ddi="false"/>
+        <pair id="DDI-DrugBank.d97.s22.p1" e1="DDI-DrugBank.d97.s22.e0"
+            e2="DDI-DrugBank.d97.s22.e2" ddi="false"/>
+        <pair id="DDI-DrugBank.d97.s22.p2" e1="DDI-DrugBank.d97.s22.e1"
+            e2="DDI-DrugBank.d97.s22.e2" ddi="false"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d97.s23" text="Potential for serious reactions such as risk of myopathy including rhabdomyolysis."/>
+    <sentence id="DDI-DrugBank.d97.s24" text="Protease inhibitor: atazanavir">
+        <entity id="DDI-DrugBank.d97.s24.e0" charOffset="0-17"
+            type="group" text="Protease inhibitor"/>
+        <entity id="DDI-DrugBank.d97.s24.e1" charOffset="20-29"
+            type="drug" text="atazanavir"/>
+        <pair id="DDI-DrugBank.d97.s24.p0" e1="DDI-DrugBank.d97.s24.e0"
+            e2="DDI-DrugBank.d97.s24.e1" ddi="false"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d97.s25" text="Both CRIXIVAN and atazanavir are associated with indirect (unconjugated) hyperbilirubinemia.">
+        <entity id="DDI-DrugBank.d97.s25.e0" charOffset="5-12"
+            type="brand" text="CRIXIVAN"/>
+        <entity id="DDI-DrugBank.d97.s25.e1" charOffset="18-27"
+            type="drug" text="atazanavir"/>
+        <pair id="DDI-DrugBank.d97.s25.p0" e1="DDI-DrugBank.d97.s25.e0"
+            e2="DDI-DrugBank.d97.s25.e1" ddi="false"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d97.s26" text="Combinations of these drugs have not been studied and coadministration of CRIXIVAN and atazanavir is not recommended.">
+        <entity id="DDI-DrugBank.d97.s26.e0" charOffset="74-81"
+            type="brand" text="CRIXIVAN"/>
+        <entity id="DDI-DrugBank.d97.s26.e1" charOffset="87-96"
+            type="drug" text="atazanavir"/>
+        <pair id="DDI-DrugBank.d97.s26.p0" e1="DDI-DrugBank.d97.s26.e0"
+            e2="DDI-DrugBank.d97.s26.e1" ddi="true" type="advise"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d97.s27" text="Table 9"/>
+    <sentence id="DDI-DrugBank.d97.s28" text="Established and Other Potentially Significant Drug Interactions: Alteration in Dose or Regimen May Be Recommended Based on Drug Interaction Studies or Predicted Interaction"/>
+    <sentence id="DDI-DrugBank.d97.s29" text="Drug Name"/>
+    <sentence id="DDI-DrugBank.d97.s30" text="Effect"/>
+    <sentence id="DDI-DrugBank.d97.s31" text="Clinical Comment"/>
+    <sentence id="DDI-DrugBank.d97.s32" text="HIV Antiviral Agents">
+        <entity id="DDI-DrugBank.d97.s32.e0" charOffset="0-19"
+            type="group" text="HIV Antiviral Agents"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d97.s33" text="Delavirdine">
+        <entity id="DDI-DrugBank.d97.s33.e0" charOffset="0-10"
+            type="drug" text="Delavirdine"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d97.s34" text="indinavir concentration">
+        <entity id="DDI-DrugBank.d97.s34.e0" charOffset="0-8"
+            type="drug" text="indinavir"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d97.s35" text="Dose reduction of CRIXIVAN to 600 mg every 8 hours should be considered when taking delavirdine 400 mg three times a day.">
+        <entity id="DDI-DrugBank.d97.s35.e0" charOffset="18-25"
+            type="brand" text="CRIXIVAN"/>
+        <entity id="DDI-DrugBank.d97.s35.e1" charOffset="84-94"
+            type="drug" text="delavirdine"/>
+        <pair id="DDI-DrugBank.d97.s35.p0" e1="DDI-DrugBank.d97.s35.e0"
+            e2="DDI-DrugBank.d97.s35.e1" ddi="true" type="advise"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d97.s36" text="Didanosine">
+        <entity id="DDI-DrugBank.d97.s36.e0" charOffset="0-9"
+            type="drug" text="Didanosine"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d97.s37" text="Indinavir and didanosine formulations containing buffer should be administered at least one hour apart on an empty stomach.">
+        <entity id="DDI-DrugBank.d97.s37.e0" charOffset="0-8"
+            type="drug" text="Indinavir"/>
+        <entity id="DDI-DrugBank.d97.s37.e1" charOffset="14-23"
+            type="drug" text="didanosine"/>
+        <pair id="DDI-DrugBank.d97.s37.p0" e1="DDI-DrugBank.d97.s37.e0"
+            e2="DDI-DrugBank.d97.s37.e1" ddi="true" type="advise"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d97.s38" text="Efavirenz">
+        <entity id="DDI-DrugBank.d97.s38.e0" charOffset="0-8"
+            type="drug" text="Efavirenz"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d97.s39" text="indinavir concentration">
+        <entity id="DDI-DrugBank.d97.s39.e0" charOffset="0-8"
+            type="drug" text="indinavir"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d97.s40" text="The optimal dose of indinavir, when given in combination with efavirenz, is not known.">
+        <entity id="DDI-DrugBank.d97.s40.e0" charOffset="20-28"
+            type="drug" text="indinavir"/>
+        <entity id="DDI-DrugBank.d97.s40.e1" charOffset="62-70"
+            type="drug" text="efavirenz"/>
+        <pair id="DDI-DrugBank.d97.s40.p0" e1="DDI-DrugBank.d97.s40.e0"
+            e2="DDI-DrugBank.d97.s40.e1" ddi="false"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d97.s41" text="Increasing the indinavir dose to 1000 mg every 8 hours does not compensate for the increased indinavir metabolism due to efavirenz.">
+        <entity id="DDI-DrugBank.d97.s41.e0" charOffset="15-23"
+            type="drug" text="indinavir"/>
+        <entity id="DDI-DrugBank.d97.s41.e1" charOffset="93-101"
+            type="drug" text="indinavir"/>
+        <entity id="DDI-DrugBank.d97.s41.e2" charOffset="121-129"
+            type="drug" text="efavirenz"/>
+        <pair id="DDI-DrugBank.d97.s41.p0" e1="DDI-DrugBank.d97.s41.e0"
+            e2="DDI-DrugBank.d97.s41.e1" ddi="false"/>
+        <pair id="DDI-DrugBank.d97.s41.p1" e1="DDI-DrugBank.d97.s41.e0"
+            e2="DDI-DrugBank.d97.s41.e2" ddi="false"/>
+        <pair id="DDI-DrugBank.d97.s41.p2" e1="DDI-DrugBank.d97.s41.e1"
+            e2="DDI-DrugBank.d97.s41.e2" ddi="true" type="mechanism"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d97.s42" text="Nelfinavir">
+        <entity id="DDI-DrugBank.d97.s42.e0" charOffset="0-9"
+            type="drug" text="Nelfinavir"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d97.s43" text="indinavir concentration">
+        <entity id="DDI-DrugBank.d97.s43.e0" charOffset="0-8"
+            type="drug" text="indinavir"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d97.s44" text="The appropriate doses for this combination, with respect to efficacy and safety, have not been established."/>
+    <sentence id="DDI-DrugBank.d97.s45" text="Nevirapine">
+        <entity id="DDI-DrugBank.d97.s45.e0" charOffset="0-9"
+            type="drug" text="Nevirapine"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d97.s46" text="indinavir concentration">
+        <entity id="DDI-DrugBank.d97.s46.e0" charOffset="0-8"
+            type="drug" text="indinavir"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d97.s47" text="Indinavir concentrations may be decreased in the presence of nevirapine.">
+        <entity id="DDI-DrugBank.d97.s47.e0" charOffset="0-8"
+            type="drug" text="Indinavir"/>
+        <entity id="DDI-DrugBank.d97.s47.e1" charOffset="61-70"
+            type="drug" text="nevirapine"/>
+        <pair id="DDI-DrugBank.d97.s47.p0" e1="DDI-DrugBank.d97.s47.e0"
+            e2="DDI-DrugBank.d97.s47.e1" ddi="true" type="mechanism"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d97.s48" text="The appropriate doses for this combination, with respect to efficacy and safety, have not been established."/>
+    <sentence id="DDI-DrugBank.d97.s49" text="Ritonavir">
+        <entity id="DDI-DrugBank.d97.s49.e0" charOffset="0-8"
+            type="drug" text="Ritonavir"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d97.s50" text="indinavir concentration   ritonavir concentration">
+        <entity id="DDI-DrugBank.d97.s50.e0" charOffset="0-8"
+            type="drug" text="indinavir"/>
+        <entity id="DDI-DrugBank.d97.s50.e1" charOffset="26-34"
+            type="drug" text="ritonavir"/>
+        <pair id="DDI-DrugBank.d97.s50.p0" e1="DDI-DrugBank.d97.s50.e0"
+            e2="DDI-DrugBank.d97.s50.e1" ddi="false"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d97.s51" text="The appropriate doses for this combination, with respect to efficacy and safety, have not been established."/>
+    <sentence id="DDI-DrugBank.d97.s52" text="Preliminary clinical data suggest that the incidence of nephrolithiasis is higher in patients receiving indinavir in combination with ritonavir than those receiving CRIXIVAN 800 mg q8h.">
+        <entity id="DDI-DrugBank.d97.s52.e0" charOffset="104-112"
+            type="drug" text="indinavir"/>
+        <entity id="DDI-DrugBank.d97.s52.e1" charOffset="134-142"
+            type="drug" text="ritonavir"/>
+        <entity id="DDI-DrugBank.d97.s52.e2" charOffset="165-172"
+            type="brand" text="CRIXIVAN"/>
+        <pair id="DDI-DrugBank.d97.s52.p0" e1="DDI-DrugBank.d97.s52.e0"
+            e2="DDI-DrugBank.d97.s52.e1" ddi="true" type="effect"/>
+        <pair id="DDI-DrugBank.d97.s52.p1" e1="DDI-DrugBank.d97.s52.e0"
+            e2="DDI-DrugBank.d97.s52.e2" ddi="false"/>
+        <pair id="DDI-DrugBank.d97.s52.p2" e1="DDI-DrugBank.d97.s52.e1"
+            e2="DDI-DrugBank.d97.s52.e2" ddi="false"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d97.s53" text="Saquinavir">
+        <entity id="DDI-DrugBank.d97.s53.e0" charOffset="0-9"
+            type="drug" text="Saquinavir"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d97.s54" text="saquinavir concentration">
+        <entity id="DDI-DrugBank.d97.s54.e0" charOffset="0-9"
+            type="drug" text="saquinavir"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d97.s55" text="The appropriate doses for this combination, with respect to efficacy and safety, have not been established."/>
+    <sentence id="DDI-DrugBank.d97.s56" text="Other Agents"/>
+    <sentence id="DDI-DrugBank.d97.s57" text="Antiarrhythmics: bepridil, lidocaine (systemic) and quinidine">
+        <entity id="DDI-DrugBank.d97.s57.e0" charOffset="0-14"
+            type="group" text="Antiarrhythmics"/>
+        <entity id="DDI-DrugBank.d97.s57.e1" charOffset="17-24"
+            type="drug" text="bepridil"/>
+        <entity id="DDI-DrugBank.d97.s57.e2" charOffset="27-35"
+            type="drug" text="lidocaine"/>
+        <entity id="DDI-DrugBank.d97.s57.e3" charOffset="52-60"
+            type="drug" text="quinidine"/>
+        <pair id="DDI-DrugBank.d97.s57.p0" e1="DDI-DrugBank.d97.s57.e0"
+            e2="DDI-DrugBank.d97.s57.e1" ddi="false"/>
+        <pair id="DDI-DrugBank.d97.s57.p1" e1="DDI-DrugBank.d97.s57.e0"
+            e2="DDI-DrugBank.d97.s57.e2" ddi="false"/>
+        <pair id="DDI-DrugBank.d97.s57.p2" e1="DDI-DrugBank.d97.s57.e0"
+            e2="DDI-DrugBank.d97.s57.e3" ddi="false"/>
+        <pair id="DDI-DrugBank.d97.s57.p3" e1="DDI-DrugBank.d97.s57.e1"
+            e2="DDI-DrugBank.d97.s57.e2" ddi="false"/>
+        <pair id="DDI-DrugBank.d97.s57.p4" e1="DDI-DrugBank.d97.s57.e1"
+            e2="DDI-DrugBank.d97.s57.e3" ddi="false"/>
+        <pair id="DDI-DrugBank.d97.s57.p5" e1="DDI-DrugBank.d97.s57.e2"
+            e2="DDI-DrugBank.d97.s57.e3" ddi="false"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d97.s58" text="antiarrhythmic agents concentration">
+        <entity id="DDI-DrugBank.d97.s58.e0" charOffset="0-20"
+            type="group" text="antiarrhythmic agents"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d97.s59" text="Caution is warranted and therapeutic concentration monitoring is recommended for antiarrhythmics when coadministered with CRIXIVAN.">
+        <entity id="DDI-DrugBank.d97.s59.e0" charOffset="81-95"
+            type="group" text="antiarrhythmics"/>
+        <entity id="DDI-DrugBank.d97.s59.e1" charOffset="122-129"
+            type="brand" text="CRIXIVAN"/>
+        <pair id="DDI-DrugBank.d97.s59.p0" e1="DDI-DrugBank.d97.s59.e0"
+            e2="DDI-DrugBank.d97.s59.e1" ddi="true" type="advise"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d97.s60" text="Anticonvulsants: carbamazepine, phenobarbital, phenytoin">
+        <entity id="DDI-DrugBank.d97.s60.e0" charOffset="0-14"
+            type="group" text="Anticonvulsants"/>
+        <entity id="DDI-DrugBank.d97.s60.e1" charOffset="17-29"
+            type="drug" text="carbamazepine"/>
+        <entity id="DDI-DrugBank.d97.s60.e2" charOffset="32-44"
+            type="drug" text="phenobarbital"/>
+        <entity id="DDI-DrugBank.d97.s60.e3" charOffset="47-55"
+            type="drug" text="phenytoin"/>
+        <pair id="DDI-DrugBank.d97.s60.p0" e1="DDI-DrugBank.d97.s60.e0"
+            e2="DDI-DrugBank.d97.s60.e1" ddi="false"/>
+        <pair id="DDI-DrugBank.d97.s60.p1" e1="DDI-DrugBank.d97.s60.e0"
+            e2="DDI-DrugBank.d97.s60.e2" ddi="false"/>
+        <pair id="DDI-DrugBank.d97.s60.p2" e1="DDI-DrugBank.d97.s60.e0"
+            e2="DDI-DrugBank.d97.s60.e3" ddi="false"/>
+        <pair id="DDI-DrugBank.d97.s60.p3" e1="DDI-DrugBank.d97.s60.e1"
+            e2="DDI-DrugBank.d97.s60.e2" ddi="false"/>
+        <pair id="DDI-DrugBank.d97.s60.p4" e1="DDI-DrugBank.d97.s60.e1"
+            e2="DDI-DrugBank.d97.s60.e3" ddi="false"/>
+        <pair id="DDI-DrugBank.d97.s60.p5" e1="DDI-DrugBank.d97.s60.e2"
+            e2="DDI-DrugBank.d97.s60.e3" ddi="false"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d97.s61" text="indinavir concentration">
+        <entity id="DDI-DrugBank.d97.s61.e0" charOffset="0-8"
+            type="drug" text="indinavir"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d97.s62" text="Use with caution."/>
+    <sentence id="DDI-DrugBank.d97.s63" text="CRIXIVAN may not be effective due to decreased indinavir concentrations in patients taking these agents concomitantly.">
+        <entity id="DDI-DrugBank.d97.s63.e0" charOffset="0-7"
+            type="brand" text="CRIXIVAN"/>
+        <entity id="DDI-DrugBank.d97.s63.e1" charOffset="47-55"
+            type="drug" text="indinavir"/>
+        <pair id="DDI-DrugBank.d97.s63.p0" e1="DDI-DrugBank.d97.s63.e0"
+            e2="DDI-DrugBank.d97.s63.e1" ddi="true" type="effect"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d97.s64" text="Calcium Channel Blockers, Dihydropyridine: e.g., felodipine, nifedipine, nicardipine">
+        <entity id="DDI-DrugBank.d97.s64.e0" charOffset="0-23"
+            type="group" text="Calcium Channel Blockers"/>
+        <entity id="DDI-DrugBank.d97.s64.e1" charOffset="26-40"
+            type="group" text="Dihydropyridine"/>
+        <entity id="DDI-DrugBank.d97.s64.e2" charOffset="49-58"
+            type="drug" text="felodipine"/>
+        <entity id="DDI-DrugBank.d97.s64.e3" charOffset="61-70"
+            type="drug" text="nifedipine"/>
+        <entity id="DDI-DrugBank.d97.s64.e4" charOffset="73-83"
+            type="drug" text="nicardipine"/>
+        <pair id="DDI-DrugBank.d97.s64.p0" e1="DDI-DrugBank.d97.s64.e0"
+            e2="DDI-DrugBank.d97.s64.e1" ddi="false"/>
+        <pair id="DDI-DrugBank.d97.s64.p1" e1="DDI-DrugBank.d97.s64.e0"
+            e2="DDI-DrugBank.d97.s64.e2" ddi="false"/>
+        <pair id="DDI-DrugBank.d97.s64.p2" e1="DDI-DrugBank.d97.s64.e0"
+            e2="DDI-DrugBank.d97.s64.e3" ddi="false"/>
+        <pair id="DDI-DrugBank.d97.s64.p3" e1="DDI-DrugBank.d97.s64.e0"
+            e2="DDI-DrugBank.d97.s64.e4" ddi="false"/>
+        <pair id="DDI-DrugBank.d97.s64.p4" e1="DDI-DrugBank.d97.s64.e1"
+            e2="DDI-DrugBank.d97.s64.e2" ddi="false"/>
+        <pair id="DDI-DrugBank.d97.s64.p5" e1="DDI-DrugBank.d97.s64.e1"
+            e2="DDI-DrugBank.d97.s64.e3" ddi="false"/>
+        <pair id="DDI-DrugBank.d97.s64.p6" e1="DDI-DrugBank.d97.s64.e1"
+            e2="DDI-DrugBank.d97.s64.e4" ddi="false"/>
+        <pair id="DDI-DrugBank.d97.s64.p7" e1="DDI-DrugBank.d97.s64.e2"
+            e2="DDI-DrugBank.d97.s64.e3" ddi="false"/>
+        <pair id="DDI-DrugBank.d97.s64.p8" e1="DDI-DrugBank.d97.s64.e2"
+            e2="DDI-DrugBank.d97.s64.e4" ddi="false"/>
+        <pair id="DDI-DrugBank.d97.s64.p9" e1="DDI-DrugBank.d97.s64.e3"
+            e2="DDI-DrugBank.d97.s64.e4" ddi="false"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d97.s65" text="dihydropyridine calcium channel blockers concentration">
+        <entity id="DDI-DrugBank.d97.s65.e0" charOffset="0-39"
+            type="group" text="dihydropyridine calcium channel blockers"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d97.s66" text="Caution is warranted and clinical monitoring of patients is recommended."/>
+    <sentence id="DDI-DrugBank.d97.s67" text="Clarithromycin">
+        <entity id="DDI-DrugBank.d97.s67.e0" charOffset="0-13"
+            type="drug" text="Clarithromycin"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d97.s68" text="clarithromycin concentration   indinavir concentration">
+        <entity id="DDI-DrugBank.d97.s68.e0" charOffset="0-13"
+            type="drug" text="clarithromycin"/>
+        <entity id="DDI-DrugBank.d97.s68.e1" charOffset="31-39"
+            type="drug" text="indinavir"/>
+        <pair id="DDI-DrugBank.d97.s68.p0" e1="DDI-DrugBank.d97.s68.e0"
+            e2="DDI-DrugBank.d97.s68.e1" ddi="false"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d97.s69" text="The appropriate doses for this combination, with respect to efficacy and safety, have not been established."/>
+    <sentence id="DDI-DrugBank.d97.s70" text="HMG-CoA Reductase Inhibitor: atorvastatin">
+        <entity id="DDI-DrugBank.d97.s70.e0" charOffset="0-26"
+            type="group" text="HMG-CoA Reductase Inhibitor"/>
+        <entity id="DDI-DrugBank.d97.s70.e1" charOffset="29-40"
+            type="drug" text="atorvastatin"/>
+        <pair id="DDI-DrugBank.d97.s70.p0" e1="DDI-DrugBank.d97.s70.e0"
+            e2="DDI-DrugBank.d97.s70.e1" ddi="false"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d97.s71" text="atorvastatin concentration">
+        <entity id="DDI-DrugBank.d97.s71.e0" charOffset="0-11"
+            type="drug" text="atorvastatin"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d97.s72" text="Use lowest possible dose of atorvastatin with careful monitoring, or consider HMG-CoA reductase inhibitors that are not primarily metabolized by CYP3A4, such as pravastatin, fluvastatin, or rosuvastatin in combination with CRIXIVAN.">
+        <entity id="DDI-DrugBank.d97.s72.e0" charOffset="28-39"
+            type="drug" text="atorvastatin"/>
+        <entity id="DDI-DrugBank.d97.s72.e1" charOffset="78-105"
+            type="group" text="HMG-CoA reductase inhibitors"/>
+        <entity id="DDI-DrugBank.d97.s72.e2" charOffset="161-171"
+            type="drug" text="pravastatin"/>
+        <entity id="DDI-DrugBank.d97.s72.e3" charOffset="174-184"
+            type="drug" text="fluvastatin"/>
+        <entity id="DDI-DrugBank.d97.s72.e4" charOffset="190-201"
+            type="drug" text="rosuvastatin"/>
+        <entity id="DDI-DrugBank.d97.s72.e5" charOffset="223-230"
+            type="brand" text="CRIXIVAN"/>
+        <pair id="DDI-DrugBank.d97.s72.p0" e1="DDI-DrugBank.d97.s72.e0"
+            e2="DDI-DrugBank.d97.s72.e1" ddi="false"/>
+        <pair id="DDI-DrugBank.d97.s72.p1" e1="DDI-DrugBank.d97.s72.e0"
+            e2="DDI-DrugBank.d97.s72.e2" ddi="false"/>
+        <pair id="DDI-DrugBank.d97.s72.p2" e1="DDI-DrugBank.d97.s72.e0"
+            e2="DDI-DrugBank.d97.s72.e3" ddi="false"/>
+        <pair id="DDI-DrugBank.d97.s72.p3" e1="DDI-DrugBank.d97.s72.e0"
+            e2="DDI-DrugBank.d97.s72.e4" ddi="false"/>
+        <pair id="DDI-DrugBank.d97.s72.p4" e1="DDI-DrugBank.d97.s72.e0"
+            e2="DDI-DrugBank.d97.s72.e5" ddi="true" type="advise"/>
+        <pair id="DDI-DrugBank.d97.s72.p5" e1="DDI-DrugBank.d97.s72.e1"
+            e2="DDI-DrugBank.d97.s72.e2" ddi="false"/>
+        <pair id="DDI-DrugBank.d97.s72.p6" e1="DDI-DrugBank.d97.s72.e1"
+            e2="DDI-DrugBank.d97.s72.e3" ddi="false"/>
+        <pair id="DDI-DrugBank.d97.s72.p7" e1="DDI-DrugBank.d97.s72.e1"
+            e2="DDI-DrugBank.d97.s72.e4" ddi="false"/>
+        <pair id="DDI-DrugBank.d97.s72.p8" e1="DDI-DrugBank.d97.s72.e1"
+            e2="DDI-DrugBank.d97.s72.e5" ddi="true" type="advise"/>
+        <pair id="DDI-DrugBank.d97.s72.p9" e1="DDI-DrugBank.d97.s72.e2"
+            e2="DDI-DrugBank.d97.s72.e3" ddi="false"/>
+        <pair id="DDI-DrugBank.d97.s72.p10" e1="DDI-DrugBank.d97.s72.e2"
+            e2="DDI-DrugBank.d97.s72.e4" ddi="false"/>
+        <pair id="DDI-DrugBank.d97.s72.p11" e1="DDI-DrugBank.d97.s72.e2"
+            e2="DDI-DrugBank.d97.s72.e5" ddi="false"/>
+        <pair id="DDI-DrugBank.d97.s72.p12" e1="DDI-DrugBank.d97.s72.e3"
+            e2="DDI-DrugBank.d97.s72.e4" ddi="false"/>
+        <pair id="DDI-DrugBank.d97.s72.p13" e1="DDI-DrugBank.d97.s72.e3"
+            e2="DDI-DrugBank.d97.s72.e5" ddi="false"/>
+        <pair id="DDI-DrugBank.d97.s72.p14" e1="DDI-DrugBank.d97.s72.e4"
+            e2="DDI-DrugBank.d97.s72.e5" ddi="false"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d97.s73" text="Immunosuppressants: cyclosporine, tacrolimus, sirolimus">
+        <entity id="DDI-DrugBank.d97.s73.e0" charOffset="0-17"
+            type="group" text="Immunosuppressants"/>
+        <entity id="DDI-DrugBank.d97.s73.e1" charOffset="20-31"
+            type="drug" text="cyclosporine"/>
+        <entity id="DDI-DrugBank.d97.s73.e2" charOffset="34-43"
+            type="drug" text="tacrolimus"/>
+        <entity id="DDI-DrugBank.d97.s73.e3" charOffset="46-54"
+            type="drug" text="sirolimus"/>
+        <pair id="DDI-DrugBank.d97.s73.p0" e1="DDI-DrugBank.d97.s73.e0"
+            e2="DDI-DrugBank.d97.s73.e1" ddi="false"/>
+        <pair id="DDI-DrugBank.d97.s73.p1" e1="DDI-DrugBank.d97.s73.e0"
+            e2="DDI-DrugBank.d97.s73.e2" ddi="false"/>
+        <pair id="DDI-DrugBank.d97.s73.p2" e1="DDI-DrugBank.d97.s73.e0"
+            e2="DDI-DrugBank.d97.s73.e3" ddi="false"/>
+        <pair id="DDI-DrugBank.d97.s73.p3" e1="DDI-DrugBank.d97.s73.e1"
+            e2="DDI-DrugBank.d97.s73.e2" ddi="false"/>
+        <pair id="DDI-DrugBank.d97.s73.p4" e1="DDI-DrugBank.d97.s73.e1"
+            e2="DDI-DrugBank.d97.s73.e3" ddi="false"/>
+        <pair id="DDI-DrugBank.d97.s73.p5" e1="DDI-DrugBank.d97.s73.e2"
+            e2="DDI-DrugBank.d97.s73.e3" ddi="false"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d97.s74" text="immunosuppressant agents concentration">
+        <entity id="DDI-DrugBank.d97.s74.e0" charOffset="0-23"
+            type="group" text="immunosuppressant agents"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d97.s75" text="Plasma concentrations may be increased by CRIXIVAN.">
+        <entity id="DDI-DrugBank.d97.s75.e0" charOffset="42-49"
+            type="brand" text="CRIXIVAN"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d97.s76" text="Itraconazole">
+        <entity id="DDI-DrugBank.d97.s76.e0" charOffset="0-11"
+            type="drug" text="Itraconazole"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d97.s77" text="indinavir concentration">
+        <entity id="DDI-DrugBank.d97.s77.e0" charOffset="0-8"
+            type="drug" text="indinavir"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d97.s78" text="Dose reduction of CRIXIVAN to 600 mg every 8 hours is recommended when administering itraconazole concurrently.">
+        <entity id="DDI-DrugBank.d97.s78.e0" charOffset="18-25"
+            type="brand" text="CRIXIVAN"/>
+        <entity id="DDI-DrugBank.d97.s78.e1" charOffset="85-96"
+            type="drug" text="itraconazole"/>
+        <pair id="DDI-DrugBank.d97.s78.p0" e1="DDI-DrugBank.d97.s78.e0"
+            e2="DDI-DrugBank.d97.s78.e1" ddi="true" type="advise"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d97.s79" text="Ketoconazole">
+        <entity id="DDI-DrugBank.d97.s79.e0" charOffset="0-11"
+            type="drug" text="Ketoconazole"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d97.s80" text="indinavir concentration">
+        <entity id="DDI-DrugBank.d97.s80.e0" charOffset="0-8"
+            type="drug" text="indinavir"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d97.s81" text="Dose reduction of CRIXIVAN to 600 mg every 8 hours should be considered.">
+        <entity id="DDI-DrugBank.d97.s81.e0" charOffset="18-25"
+            type="brand" text="CRIXIVAN"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d97.s82" text="Rifabutin">
+        <entity id="DDI-DrugBank.d97.s82.e0" charOffset="0-8"
+            type="drug" text="Rifabutin"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d97.s83" text="indinavir concentration   rifabutin concentration">
+        <entity id="DDI-DrugBank.d97.s83.e0" charOffset="0-8"
+            type="drug" text="indinavir"/>
+        <entity id="DDI-DrugBank.d97.s83.e1" charOffset="26-34"
+            type="drug" text="rifabutin"/>
+        <pair id="DDI-DrugBank.d97.s83.p0" e1="DDI-DrugBank.d97.s83.e0"
+            e2="DDI-DrugBank.d97.s83.e1" ddi="false"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d97.s84" text="Dose reduction of rifabutin to half the standard dose and a dose increase of CRIXIVAN to 1000 mg (three 333-mg capsules) every 8 hours are recommended when rifabutin and CRIXIVAN are coadministered.">
+        <entity id="DDI-DrugBank.d97.s84.e0" charOffset="18-26"
+            type="drug" text="rifabutin"/>
+        <entity id="DDI-DrugBank.d97.s84.e1" charOffset="77-84"
+            type="brand" text="CRIXIVAN"/>
+        <entity id="DDI-DrugBank.d97.s84.e2" charOffset="156-164"
+            type="drug" text="rifabutin"/>
+        <entity id="DDI-DrugBank.d97.s84.e3" charOffset="170-177"
+            type="brand" text="CRIXIVAN"/>
+        <pair id="DDI-DrugBank.d97.s84.p0" e1="DDI-DrugBank.d97.s84.e0"
+            e2="DDI-DrugBank.d97.s84.e1" ddi="false"/>
+        <pair id="DDI-DrugBank.d97.s84.p1" e1="DDI-DrugBank.d97.s84.e0"
+            e2="DDI-DrugBank.d97.s84.e2" ddi="false"/>
+        <pair id="DDI-DrugBank.d97.s84.p2" e1="DDI-DrugBank.d97.s84.e0"
+            e2="DDI-DrugBank.d97.s84.e3" ddi="false"/>
+        <pair id="DDI-DrugBank.d97.s84.p3" e1="DDI-DrugBank.d97.s84.e1"
+            e2="DDI-DrugBank.d97.s84.e2" ddi="false"/>
+        <pair id="DDI-DrugBank.d97.s84.p4" e1="DDI-DrugBank.d97.s84.e1"
+            e2="DDI-DrugBank.d97.s84.e3" ddi="false"/>
+        <pair id="DDI-DrugBank.d97.s84.p5" e1="DDI-DrugBank.d97.s84.e2"
+            e2="DDI-DrugBank.d97.s84.e3" ddi="true" type="advise"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d97.s85" text="Sildenafil">
+        <entity id="DDI-DrugBank.d97.s85.e0" charOffset="0-9"
+            type="drug" text="Sildenafil"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d97.s86" text="sildenafil concentration">
+        <entity id="DDI-DrugBank.d97.s86.e0" charOffset="0-9"
+            type="drug" text="sildenafil"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d97.s87" text="Sildenafil dose should not exceed a maximum of 25 mg in a 48- hour period in patients receiving concomitant indinavir therapy.">
+        <entity id="DDI-DrugBank.d97.s87.e0" charOffset="0-9"
+            type="drug" text="Sildenafil"/>
+        <entity id="DDI-DrugBank.d97.s87.e1" charOffset="108-116"
+            type="drug" text="indinavir"/>
+        <pair id="DDI-DrugBank.d97.s87.p0" e1="DDI-DrugBank.d97.s87.e0"
+            e2="DDI-DrugBank.d97.s87.e1" ddi="true" type="advise"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d97.s88" text="Tadalafil">
+        <entity id="DDI-DrugBank.d97.s88.e0" charOffset="0-8"
+            type="drug" text="Tadalafil"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d97.s89" text="tadalafil concentration">
+        <entity id="DDI-DrugBank.d97.s89.e0" charOffset="0-8"
+            type="drug" text="tadalafil"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d97.s90" text="Tadalafil dose should not exceed a maximum of 10 mg in a 72- hour period in patients receiving concomitant indinavir therapy.">
+        <entity id="DDI-DrugBank.d97.s90.e0" charOffset="0-8"
+            type="drug" text="Tadalafil"/>
+        <entity id="DDI-DrugBank.d97.s90.e1" charOffset="107-115"
+            type="drug" text="indinavir"/>
+        <pair id="DDI-DrugBank.d97.s90.p0" e1="DDI-DrugBank.d97.s90.e0"
+            e2="DDI-DrugBank.d97.s90.e1" ddi="true" type="advise"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d97.s91" text="Vardenafil">
+        <entity id="DDI-DrugBank.d97.s91.e0" charOffset="0-9"
+            type="drug" text="Vardenafil"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d97.s92" text="vardenafil concentration">
+        <entity id="DDI-DrugBank.d97.s92.e0" charOffset="0-9"
+            type="drug" text="vardenafil"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d97.s93" text="Vardenafil dose should not exceed a maximum of 2.5 mg in a 24-hour period in patients receiving concomitant indinavir therapy.">
+        <entity id="DDI-DrugBank.d97.s93.e0" charOffset="0-9"
+            type="drug" text="Vardenafil"/>
+        <entity id="DDI-DrugBank.d97.s93.e1" charOffset="108-116"
+            type="drug" text="indinavir"/>
+        <pair id="DDI-DrugBank.d97.s93.p0" e1="DDI-DrugBank.d97.s93.e0"
+            e2="DDI-DrugBank.d97.s93.e1" ddi="true" type="advise"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d97.s94" text="Note:"/>
+    <sentence id="DDI-DrugBank.d97.s95" text="= increase;"/>
+    <sentence id="DDI-DrugBank.d97.s96" text="= decrease"/>
+    <sentence id="DDI-DrugBank.d97.s97" text=""/>
+</document>

@@ -1,0 +1,309 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="DDI-DrugBank.d333">
+    <sentence id="DDI-DrugBank.d333.s0" text="Effect of Clonazepam on the Pharmacokinetics of Other Drugs: Clonazepam does not appear to alter the pharmacokinetics of phenytoin, carbamazepine, or phenobarbital.">
+        <entity id="DDI-DrugBank.d333.s0.e0" charOffset="10-19"
+            type="drug" text="Clonazepam"/>
+        <entity id="DDI-DrugBank.d333.s0.e1" charOffset="61-70"
+            type="drug" text="Clonazepam"/>
+        <entity id="DDI-DrugBank.d333.s0.e2" charOffset="121-129"
+            type="drug" text="phenytoin"/>
+        <entity id="DDI-DrugBank.d333.s0.e3" charOffset="132-144"
+            type="drug" text="carbamazepine"/>
+        <entity id="DDI-DrugBank.d333.s0.e4" charOffset="150-162"
+            type="drug" text="phenobarbital"/>
+        <pair id="DDI-DrugBank.d333.s0.p0" e1="DDI-DrugBank.d333.s0.e0"
+            e2="DDI-DrugBank.d333.s0.e1" ddi="false"/>
+        <pair id="DDI-DrugBank.d333.s0.p1" e1="DDI-DrugBank.d333.s0.e0"
+            e2="DDI-DrugBank.d333.s0.e2" ddi="false"/>
+        <pair id="DDI-DrugBank.d333.s0.p2" e1="DDI-DrugBank.d333.s0.e0"
+            e2="DDI-DrugBank.d333.s0.e3" ddi="false"/>
+        <pair id="DDI-DrugBank.d333.s0.p3" e1="DDI-DrugBank.d333.s0.e0"
+            e2="DDI-DrugBank.d333.s0.e4" ddi="false"/>
+        <pair id="DDI-DrugBank.d333.s0.p4" e1="DDI-DrugBank.d333.s0.e1"
+            e2="DDI-DrugBank.d333.s0.e2" ddi="false"/>
+        <pair id="DDI-DrugBank.d333.s0.p5" e1="DDI-DrugBank.d333.s0.e1"
+            e2="DDI-DrugBank.d333.s0.e3" ddi="false"/>
+        <pair id="DDI-DrugBank.d333.s0.p6" e1="DDI-DrugBank.d333.s0.e1"
+            e2="DDI-DrugBank.d333.s0.e4" ddi="false"/>
+        <pair id="DDI-DrugBank.d333.s0.p7" e1="DDI-DrugBank.d333.s0.e2"
+            e2="DDI-DrugBank.d333.s0.e3" ddi="false"/>
+        <pair id="DDI-DrugBank.d333.s0.p8" e1="DDI-DrugBank.d333.s0.e2"
+            e2="DDI-DrugBank.d333.s0.e4" ddi="false"/>
+        <pair id="DDI-DrugBank.d333.s0.p9" e1="DDI-DrugBank.d333.s0.e3"
+            e2="DDI-DrugBank.d333.s0.e4" ddi="false"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d333.s1" text="The effect of clonazepam on the metabolism of other drugs has not been investigated.">
+        <entity id="DDI-DrugBank.d333.s1.e0" charOffset="14-23"
+            type="drug" text="clonazepam"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d333.s2" text="Effect of Other Drugs on the Pharmacokinetics of Clonazepam: Literature reports suggest that ranitidine, an agent that decreases stomach acidity, does not greatly alter clonazepam pharmacokinetics.">
+        <entity id="DDI-DrugBank.d333.s2.e0" charOffset="49-58"
+            type="drug" text="Clonazepam"/>
+        <entity id="DDI-DrugBank.d333.s2.e1" charOffset="93-102"
+            type="drug" text="ranitidine"/>
+        <entity id="DDI-DrugBank.d333.s2.e2" charOffset="169-178"
+            type="drug" text="clonazepam"/>
+        <pair id="DDI-DrugBank.d333.s2.p0" e1="DDI-DrugBank.d333.s2.e0"
+            e2="DDI-DrugBank.d333.s2.e1" ddi="false"/>
+        <pair id="DDI-DrugBank.d333.s2.p1" e1="DDI-DrugBank.d333.s2.e0"
+            e2="DDI-DrugBank.d333.s2.e2" ddi="false"/>
+        <pair id="DDI-DrugBank.d333.s2.p2" e1="DDI-DrugBank.d333.s2.e1"
+            e2="DDI-DrugBank.d333.s2.e2" ddi="false"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d333.s3" text="In a study in which the 2 mg clonazepam orally disintegrating tablet was administered with and without propantheline (an anticholinergic agent with multiple effects on the GI tract) to healthy volunteers, the AUC of clonazepam was 10% lower and the Cmax of clonazepam was 20% lower when the orally disintegrating tablet was given with propantheline compared to when it was given alone.">
+        <entity id="DDI-DrugBank.d333.s3.e0" charOffset="29-38"
+            type="drug" text="clonazepam"/>
+        <entity id="DDI-DrugBank.d333.s3.e1" charOffset="103-115"
+            type="drug" text="propantheline"/>
+        <entity id="DDI-DrugBank.d333.s3.e2" charOffset="121-141"
+            type="group" text="anticholinergic agent"/>
+        <entity id="DDI-DrugBank.d333.s3.e3" charOffset="216-225"
+            type="drug" text="clonazepam"/>
+        <entity id="DDI-DrugBank.d333.s3.e4" charOffset="257-266"
+            type="drug" text="clonazepam"/>
+        <entity id="DDI-DrugBank.d333.s3.e5" charOffset="335-347"
+            type="drug" text="propantheline"/>
+        <pair id="DDI-DrugBank.d333.s3.p0" e1="DDI-DrugBank.d333.s3.e0"
+            e2="DDI-DrugBank.d333.s3.e1" ddi="true" type="mechanism"/>
+        <pair id="DDI-DrugBank.d333.s3.p1" e1="DDI-DrugBank.d333.s3.e0"
+            e2="DDI-DrugBank.d333.s3.e2" ddi="false"/>
+        <pair id="DDI-DrugBank.d333.s3.p2" e1="DDI-DrugBank.d333.s3.e0"
+            e2="DDI-DrugBank.d333.s3.e3" ddi="false"/>
+        <pair id="DDI-DrugBank.d333.s3.p3" e1="DDI-DrugBank.d333.s3.e0"
+            e2="DDI-DrugBank.d333.s3.e4" ddi="false"/>
+        <pair id="DDI-DrugBank.d333.s3.p4" e1="DDI-DrugBank.d333.s3.e0"
+            e2="DDI-DrugBank.d333.s3.e5" ddi="false"/>
+        <pair id="DDI-DrugBank.d333.s3.p5" e1="DDI-DrugBank.d333.s3.e1"
+            e2="DDI-DrugBank.d333.s3.e2" ddi="false"/>
+        <pair id="DDI-DrugBank.d333.s3.p6" e1="DDI-DrugBank.d333.s3.e1"
+            e2="DDI-DrugBank.d333.s3.e3" ddi="false"/>
+        <pair id="DDI-DrugBank.d333.s3.p7" e1="DDI-DrugBank.d333.s3.e1"
+            e2="DDI-DrugBank.d333.s3.e4" ddi="false"/>
+        <pair id="DDI-DrugBank.d333.s3.p8" e1="DDI-DrugBank.d333.s3.e1"
+            e2="DDI-DrugBank.d333.s3.e5" ddi="false"/>
+        <pair id="DDI-DrugBank.d333.s3.p9" e1="DDI-DrugBank.d333.s3.e2"
+            e2="DDI-DrugBank.d333.s3.e3" ddi="false"/>
+        <pair id="DDI-DrugBank.d333.s3.p10" e1="DDI-DrugBank.d333.s3.e2"
+            e2="DDI-DrugBank.d333.s3.e4" ddi="false"/>
+        <pair id="DDI-DrugBank.d333.s3.p11" e1="DDI-DrugBank.d333.s3.e2"
+            e2="DDI-DrugBank.d333.s3.e5" ddi="false"/>
+        <pair id="DDI-DrugBank.d333.s3.p12" e1="DDI-DrugBank.d333.s3.e3"
+            e2="DDI-DrugBank.d333.s3.e4" ddi="false"/>
+        <pair id="DDI-DrugBank.d333.s3.p13" e1="DDI-DrugBank.d333.s3.e3"
+            e2="DDI-DrugBank.d333.s3.e5" ddi="false"/>
+        <pair id="DDI-DrugBank.d333.s3.p14" e1="DDI-DrugBank.d333.s3.e4"
+            e2="DDI-DrugBank.d333.s3.e5" ddi="true" type="mechanism"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d333.s4" text="Fluoxetine does not affect the pharmacokinetics of clonazepam.">
+        <entity id="DDI-DrugBank.d333.s4.e0" charOffset="0-9"
+            type="drug" text="Fluoxetine"/>
+        <entity id="DDI-DrugBank.d333.s4.e1" charOffset="51-60"
+            type="drug" text="clonazepam"/>
+        <pair id="DDI-DrugBank.d333.s4.p0" e1="DDI-DrugBank.d333.s4.e0"
+            e2="DDI-DrugBank.d333.s4.e1" ddi="false"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d333.s5" text="Cytochrome P-450 inducers, such as phenytoin, carbamazepine and phenobarbital, induce clonazepam metabolism, causing an approximately 30% decrease in plasma clonazepam levels.">
+        <entity id="DDI-DrugBank.d333.s5.e0" charOffset="35-43"
+            type="drug" text="phenytoin"/>
+        <entity id="DDI-DrugBank.d333.s5.e1" charOffset="46-58"
+            type="drug" text="carbamazepine"/>
+        <entity id="DDI-DrugBank.d333.s5.e2" charOffset="64-76"
+            type="drug" text="phenobarbital"/>
+        <entity id="DDI-DrugBank.d333.s5.e3" charOffset="86-95"
+            type="drug" text="clonazepam"/>
+        <entity id="DDI-DrugBank.d333.s5.e4" charOffset="157-166"
+            type="drug" text="clonazepam"/>
+        <pair id="DDI-DrugBank.d333.s5.p0" e1="DDI-DrugBank.d333.s5.e0"
+            e2="DDI-DrugBank.d333.s5.e1" ddi="false"/>
+        <pair id="DDI-DrugBank.d333.s5.p1" e1="DDI-DrugBank.d333.s5.e0"
+            e2="DDI-DrugBank.d333.s5.e2" ddi="false"/>
+        <pair id="DDI-DrugBank.d333.s5.p2" e1="DDI-DrugBank.d333.s5.e0"
+            e2="DDI-DrugBank.d333.s5.e3" ddi="true" type="mechanism"/>
+        <pair id="DDI-DrugBank.d333.s5.p3" e1="DDI-DrugBank.d333.s5.e0"
+            e2="DDI-DrugBank.d333.s5.e4" ddi="false"/>
+        <pair id="DDI-DrugBank.d333.s5.p4" e1="DDI-DrugBank.d333.s5.e1"
+            e2="DDI-DrugBank.d333.s5.e2" ddi="false"/>
+        <pair id="DDI-DrugBank.d333.s5.p5" e1="DDI-DrugBank.d333.s5.e1"
+            e2="DDI-DrugBank.d333.s5.e3" ddi="true" type="mechanism"/>
+        <pair id="DDI-DrugBank.d333.s5.p6" e1="DDI-DrugBank.d333.s5.e1"
+            e2="DDI-DrugBank.d333.s5.e4" ddi="false"/>
+        <pair id="DDI-DrugBank.d333.s5.p7" e1="DDI-DrugBank.d333.s5.e2"
+            e2="DDI-DrugBank.d333.s5.e3" ddi="true" type="mechanism"/>
+        <pair id="DDI-DrugBank.d333.s5.p8" e1="DDI-DrugBank.d333.s5.e2"
+            e2="DDI-DrugBank.d333.s5.e4" ddi="false"/>
+        <pair id="DDI-DrugBank.d333.s5.p9" e1="DDI-DrugBank.d333.s5.e3"
+            e2="DDI-DrugBank.d333.s5.e4" ddi="false"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d333.s6" text="Although clinical studies have not been performed, based on the involvement of the cytochrome P-450 3A family in clonazepam metabolism, inhibitors of this enzyme system, notably oral antifungal agents, should be used cautiously in patients receiving clonazepam.">
+        <entity id="DDI-DrugBank.d333.s6.e0" charOffset="113-122"
+            type="drug" text="clonazepam"/>
+        <entity id="DDI-DrugBank.d333.s6.e1" charOffset="183-199"
+            type="group" text="antifungal agents"/>
+        <entity id="DDI-DrugBank.d333.s6.e2" charOffset="250-259"
+            type="drug" text="clonazepam"/>
+        <pair id="DDI-DrugBank.d333.s6.p0" e1="DDI-DrugBank.d333.s6.e0"
+            e2="DDI-DrugBank.d333.s6.e1" ddi="false"/>
+        <pair id="DDI-DrugBank.d333.s6.p1" e1="DDI-DrugBank.d333.s6.e0"
+            e2="DDI-DrugBank.d333.s6.e2" ddi="false"/>
+        <pair id="DDI-DrugBank.d333.s6.p2" e1="DDI-DrugBank.d333.s6.e1"
+            e2="DDI-DrugBank.d333.s6.e2" ddi="true" type="advise"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d333.s7" text="Pharmacodynamic Interactions: The CNS-depressant action of the benzodiazepine class of drugs may be potentiated by alcohol, narcotics, barbiturates, nonbarbiturate hypnotics, antianxiety agents, the phenothiazines, thioxanthene and butyrophenone classes of antipsychotic agents, monoamine oxidase inhibitors and the tricyclic antidepressants, and by other anticonvulsant drugs.">
+        <entity id="DDI-DrugBank.d333.s7.e0" charOffset="63-82"
+            type="group" text="benzodiazepine class"/>
+        <entity id="DDI-DrugBank.d333.s7.e1" charOffset="115-121"
+            type="drug" text="alcohol"/>
+        <entity id="DDI-DrugBank.d333.s7.e2" charOffset="124-132"
+            type="group" text="narcotics"/>
+        <entity id="DDI-DrugBank.d333.s7.e3" charOffset="135-146"
+            type="group" text="barbiturates"/>
+        <entity id="DDI-DrugBank.d333.s7.e4" charOffset="149-172"
+            type="group" text="nonbarbiturate hypnotics"/>
+        <entity id="DDI-DrugBank.d333.s7.e5" charOffset="175-192"
+            type="group" text="antianxiety agents"/>
+        <entity id="DDI-DrugBank.d333.s7.e6"
+            charOffset="199-212;246-276" type="group" text="phenothiazines classes of antipsychotic agents"/>
+        <entity id="DDI-DrugBank.d333.s7.e7"
+            charOffset="215-226;246-276" type="group" text="thioxanthene classes of antipsychotic agents"/>
+        <entity id="DDI-DrugBank.d333.s7.e8" charOffset="232-276"
+            type="group" text="butyrophenone classes of antipsychotic agents"/>
+        <entity id="DDI-DrugBank.d333.s7.e9" charOffset="279-306"
+            type="group" text="monoamine oxidase inhibitors"/>
+        <entity id="DDI-DrugBank.d333.s7.e10" charOffset="316-340"
+            type="group" text="tricyclic antidepressants"/>
+        <entity id="DDI-DrugBank.d333.s7.e11" charOffset="356-375"
+            type="group" text="anticonvulsant drugs"/>
+        <pair id="DDI-DrugBank.d333.s7.p0" e1="DDI-DrugBank.d333.s7.e0"
+            e2="DDI-DrugBank.d333.s7.e1" ddi="true" type="effect"/>
+        <pair id="DDI-DrugBank.d333.s7.p1" e1="DDI-DrugBank.d333.s7.e0"
+            e2="DDI-DrugBank.d333.s7.e2" ddi="true" type="effect"/>
+        <pair id="DDI-DrugBank.d333.s7.p2" e1="DDI-DrugBank.d333.s7.e0"
+            e2="DDI-DrugBank.d333.s7.e3" ddi="true" type="effect"/>
+        <pair id="DDI-DrugBank.d333.s7.p3" e1="DDI-DrugBank.d333.s7.e0"
+            e2="DDI-DrugBank.d333.s7.e4" ddi="true" type="effect"/>
+        <pair id="DDI-DrugBank.d333.s7.p4" e1="DDI-DrugBank.d333.s7.e0"
+            e2="DDI-DrugBank.d333.s7.e5" ddi="true" type="effect"/>
+        <pair id="DDI-DrugBank.d333.s7.p5" e1="DDI-DrugBank.d333.s7.e0"
+            e2="DDI-DrugBank.d333.s7.e6" ddi="true" type="effect"/>
+        <pair id="DDI-DrugBank.d333.s7.p6" e1="DDI-DrugBank.d333.s7.e0"
+            e2="DDI-DrugBank.d333.s7.e7" ddi="true" type="effect"/>
+        <pair id="DDI-DrugBank.d333.s7.p7" e1="DDI-DrugBank.d333.s7.e0"
+            e2="DDI-DrugBank.d333.s7.e8" ddi="true" type="effect"/>
+        <pair id="DDI-DrugBank.d333.s7.p8" e1="DDI-DrugBank.d333.s7.e0"
+            e2="DDI-DrugBank.d333.s7.e9" ddi="true" type="effect"/>
+        <pair id="DDI-DrugBank.d333.s7.p9" e1="DDI-DrugBank.d333.s7.e0"
+            e2="DDI-DrugBank.d333.s7.e10" ddi="true" type="effect"/>
+        <pair id="DDI-DrugBank.d333.s7.p10" e1="DDI-DrugBank.d333.s7.e0"
+            e2="DDI-DrugBank.d333.s7.e11" ddi="true" type="effect"/>
+        <pair id="DDI-DrugBank.d333.s7.p11" e1="DDI-DrugBank.d333.s7.e1"
+            e2="DDI-DrugBank.d333.s7.e2" ddi="false"/>
+        <pair id="DDI-DrugBank.d333.s7.p12" e1="DDI-DrugBank.d333.s7.e1"
+            e2="DDI-DrugBank.d333.s7.e3" ddi="false"/>
+        <pair id="DDI-DrugBank.d333.s7.p13" e1="DDI-DrugBank.d333.s7.e1"
+            e2="DDI-DrugBank.d333.s7.e4" ddi="false"/>
+        <pair id="DDI-DrugBank.d333.s7.p14" e1="DDI-DrugBank.d333.s7.e1"
+            e2="DDI-DrugBank.d333.s7.e5" ddi="false"/>
+        <pair id="DDI-DrugBank.d333.s7.p15" e1="DDI-DrugBank.d333.s7.e1"
+            e2="DDI-DrugBank.d333.s7.e6" ddi="false"/>
+        <pair id="DDI-DrugBank.d333.s7.p16" e1="DDI-DrugBank.d333.s7.e1"
+            e2="DDI-DrugBank.d333.s7.e7" ddi="false"/>
+        <pair id="DDI-DrugBank.d333.s7.p17" e1="DDI-DrugBank.d333.s7.e1"
+            e2="DDI-DrugBank.d333.s7.e8" ddi="false"/>
+        <pair id="DDI-DrugBank.d333.s7.p18" e1="DDI-DrugBank.d333.s7.e1"
+            e2="DDI-DrugBank.d333.s7.e9" ddi="false"/>
+        <pair id="DDI-DrugBank.d333.s7.p19" e1="DDI-DrugBank.d333.s7.e1"
+            e2="DDI-DrugBank.d333.s7.e10" ddi="false"/>
+        <pair id="DDI-DrugBank.d333.s7.p20" e1="DDI-DrugBank.d333.s7.e1"
+            e2="DDI-DrugBank.d333.s7.e11" ddi="false"/>
+        <pair id="DDI-DrugBank.d333.s7.p21" e1="DDI-DrugBank.d333.s7.e2"
+            e2="DDI-DrugBank.d333.s7.e3" ddi="false"/>
+        <pair id="DDI-DrugBank.d333.s7.p22" e1="DDI-DrugBank.d333.s7.e2"
+            e2="DDI-DrugBank.d333.s7.e4" ddi="false"/>
+        <pair id="DDI-DrugBank.d333.s7.p23" e1="DDI-DrugBank.d333.s7.e2"
+            e2="DDI-DrugBank.d333.s7.e5" ddi="false"/>
+        <pair id="DDI-DrugBank.d333.s7.p24" e1="DDI-DrugBank.d333.s7.e2"
+            e2="DDI-DrugBank.d333.s7.e6" ddi="false"/>
+        <pair id="DDI-DrugBank.d333.s7.p25" e1="DDI-DrugBank.d333.s7.e2"
+            e2="DDI-DrugBank.d333.s7.e7" ddi="false"/>
+        <pair id="DDI-DrugBank.d333.s7.p26" e1="DDI-DrugBank.d333.s7.e2"
+            e2="DDI-DrugBank.d333.s7.e8" ddi="false"/>
+        <pair id="DDI-DrugBank.d333.s7.p27" e1="DDI-DrugBank.d333.s7.e2"
+            e2="DDI-DrugBank.d333.s7.e9" ddi="false"/>
+        <pair id="DDI-DrugBank.d333.s7.p28" e1="DDI-DrugBank.d333.s7.e2"
+            e2="DDI-DrugBank.d333.s7.e10" ddi="false"/>
+        <pair id="DDI-DrugBank.d333.s7.p29" e1="DDI-DrugBank.d333.s7.e2"
+            e2="DDI-DrugBank.d333.s7.e11" ddi="false"/>
+        <pair id="DDI-DrugBank.d333.s7.p30" e1="DDI-DrugBank.d333.s7.e3"
+            e2="DDI-DrugBank.d333.s7.e4" ddi="false"/>
+        <pair id="DDI-DrugBank.d333.s7.p31" e1="DDI-DrugBank.d333.s7.e3"
+            e2="DDI-DrugBank.d333.s7.e5" ddi="false"/>
+        <pair id="DDI-DrugBank.d333.s7.p32" e1="DDI-DrugBank.d333.s7.e3"
+            e2="DDI-DrugBank.d333.s7.e6" ddi="false"/>
+        <pair id="DDI-DrugBank.d333.s7.p33" e1="DDI-DrugBank.d333.s7.e3"
+            e2="DDI-DrugBank.d333.s7.e7" ddi="false"/>
+        <pair id="DDI-DrugBank.d333.s7.p34" e1="DDI-DrugBank.d333.s7.e3"
+            e2="DDI-DrugBank.d333.s7.e8" ddi="false"/>
+        <pair id="DDI-DrugBank.d333.s7.p35" e1="DDI-DrugBank.d333.s7.e3"
+            e2="DDI-DrugBank.d333.s7.e9" ddi="false"/>
+        <pair id="DDI-DrugBank.d333.s7.p36" e1="DDI-DrugBank.d333.s7.e3"
+            e2="DDI-DrugBank.d333.s7.e10" ddi="false"/>
+        <pair id="DDI-DrugBank.d333.s7.p37" e1="DDI-DrugBank.d333.s7.e3"
+            e2="DDI-DrugBank.d333.s7.e11" ddi="false"/>
+        <pair id="DDI-DrugBank.d333.s7.p38" e1="DDI-DrugBank.d333.s7.e4"
+            e2="DDI-DrugBank.d333.s7.e5" ddi="false"/>
+        <pair id="DDI-DrugBank.d333.s7.p39" e1="DDI-DrugBank.d333.s7.e4"
+            e2="DDI-DrugBank.d333.s7.e6" ddi="false"/>
+        <pair id="DDI-DrugBank.d333.s7.p40" e1="DDI-DrugBank.d333.s7.e4"
+            e2="DDI-DrugBank.d333.s7.e7" ddi="false"/>
+        <pair id="DDI-DrugBank.d333.s7.p41" e1="DDI-DrugBank.d333.s7.e4"
+            e2="DDI-DrugBank.d333.s7.e8" ddi="false"/>
+        <pair id="DDI-DrugBank.d333.s7.p42" e1="DDI-DrugBank.d333.s7.e4"
+            e2="DDI-DrugBank.d333.s7.e9" ddi="false"/>
+        <pair id="DDI-DrugBank.d333.s7.p43" e1="DDI-DrugBank.d333.s7.e4"
+            e2="DDI-DrugBank.d333.s7.e10" ddi="false"/>
+        <pair id="DDI-DrugBank.d333.s7.p44" e1="DDI-DrugBank.d333.s7.e4"
+            e2="DDI-DrugBank.d333.s7.e11" ddi="false"/>
+        <pair id="DDI-DrugBank.d333.s7.p45" e1="DDI-DrugBank.d333.s7.e5"
+            e2="DDI-DrugBank.d333.s7.e6" ddi="false"/>
+        <pair id="DDI-DrugBank.d333.s7.p46" e1="DDI-DrugBank.d333.s7.e5"
+            e2="DDI-DrugBank.d333.s7.e7" ddi="false"/>
+        <pair id="DDI-DrugBank.d333.s7.p47" e1="DDI-DrugBank.d333.s7.e5"
+            e2="DDI-DrugBank.d333.s7.e8" ddi="false"/>
+        <pair id="DDI-DrugBank.d333.s7.p48" e1="DDI-DrugBank.d333.s7.e5"
+            e2="DDI-DrugBank.d333.s7.e9" ddi="false"/>
+        <pair id="DDI-DrugBank.d333.s7.p49" e1="DDI-DrugBank.d333.s7.e5"
+            e2="DDI-DrugBank.d333.s7.e10" ddi="false"/>
+        <pair id="DDI-DrugBank.d333.s7.p50" e1="DDI-DrugBank.d333.s7.e5"
+            e2="DDI-DrugBank.d333.s7.e11" ddi="false"/>
+        <pair id="DDI-DrugBank.d333.s7.p51" e1="DDI-DrugBank.d333.s7.e6"
+            e2="DDI-DrugBank.d333.s7.e7" ddi="false"/>
+        <pair id="DDI-DrugBank.d333.s7.p52" e1="DDI-DrugBank.d333.s7.e6"
+            e2="DDI-DrugBank.d333.s7.e8" ddi="false"/>
+        <pair id="DDI-DrugBank.d333.s7.p53" e1="DDI-DrugBank.d333.s7.e6"
+            e2="DDI-DrugBank.d333.s7.e9" ddi="false"/>
+        <pair id="DDI-DrugBank.d333.s7.p54" e1="DDI-DrugBank.d333.s7.e6"
+            e2="DDI-DrugBank.d333.s7.e10" ddi="false"/>
+        <pair id="DDI-DrugBank.d333.s7.p55" e1="DDI-DrugBank.d333.s7.e6"
+            e2="DDI-DrugBank.d333.s7.e11" ddi="false"/>
+        <pair id="DDI-DrugBank.d333.s7.p56" e1="DDI-DrugBank.d333.s7.e7"
+            e2="DDI-DrugBank.d333.s7.e8" ddi="false"/>
+        <pair id="DDI-DrugBank.d333.s7.p57" e1="DDI-DrugBank.d333.s7.e7"
+            e2="DDI-DrugBank.d333.s7.e9" ddi="false"/>
+        <pair id="DDI-DrugBank.d333.s7.p58" e1="DDI-DrugBank.d333.s7.e7"
+            e2="DDI-DrugBank.d333.s7.e10" ddi="false"/>
+        <pair id="DDI-DrugBank.d333.s7.p59" e1="DDI-DrugBank.d333.s7.e7"
+            e2="DDI-DrugBank.d333.s7.e11" ddi="false"/>
+        <pair id="DDI-DrugBank.d333.s7.p60" e1="DDI-DrugBank.d333.s7.e8"
+            e2="DDI-DrugBank.d333.s7.e9" ddi="false"/>
+        <pair id="DDI-DrugBank.d333.s7.p61" e1="DDI-DrugBank.d333.s7.e8"
+            e2="DDI-DrugBank.d333.s7.e10" ddi="false"/>
+        <pair id="DDI-DrugBank.d333.s7.p62" e1="DDI-DrugBank.d333.s7.e8"
+            e2="DDI-DrugBank.d333.s7.e11" ddi="false"/>
+        <pair id="DDI-DrugBank.d333.s7.p63" e1="DDI-DrugBank.d333.s7.e9"
+            e2="DDI-DrugBank.d333.s7.e10" ddi="false"/>
+        <pair id="DDI-DrugBank.d333.s7.p64" e1="DDI-DrugBank.d333.s7.e9"
+            e2="DDI-DrugBank.d333.s7.e11" ddi="false"/>
+        <pair id="DDI-DrugBank.d333.s7.p65"
+            e1="DDI-DrugBank.d333.s7.e10" e2="DDI-DrugBank.d333.s7.e11" ddi="false"/>
+    </sentence>
+</document>

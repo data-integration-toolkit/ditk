@@ -1,0 +1,307 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="DDI-DrugBank.d456">
+    <sentence id="DDI-DrugBank.d456.s0" text="Co-treatment with the potent CYP3A4 inhibitor ketoconazole increases erlotinib AUC by 2/3.">
+        <entity id="DDI-DrugBank.d456.s0.e0" charOffset="46-57"
+            type="drug" text="ketoconazole"/>
+        <entity id="DDI-DrugBank.d456.s0.e1" charOffset="69-77"
+            type="drug" text="erlotinib"/>
+        <pair id="DDI-DrugBank.d456.s0.p0" e1="DDI-DrugBank.d456.s0.e0"
+            e2="DDI-DrugBank.d456.s0.e1" ddi="true" type="mechanism"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d456.s1" text="Caution should be used when administering or taking TARCEVA with ketoconazole and other strong CYP3A4 inhibitors such as, but not limited to, atazanavir, clarithromycin, indinavir, itraconazole, nefazodone, nelfinavir, ritonavir, saquinavir, telithromycin, troleandomycin (TAO), and voriconazole .">
+        <entity id="DDI-DrugBank.d456.s1.e0" charOffset="52-58"
+            type="brand" text="TARCEVA"/>
+        <entity id="DDI-DrugBank.d456.s1.e1" charOffset="65-76"
+            type="drug" text="ketoconazole"/>
+        <entity id="DDI-DrugBank.d456.s1.e2" charOffset="142-151"
+            type="drug" text="atazanavir"/>
+        <entity id="DDI-DrugBank.d456.s1.e3" charOffset="154-167"
+            type="drug" text="clarithromycin"/>
+        <entity id="DDI-DrugBank.d456.s1.e4" charOffset="170-178"
+            type="drug" text="indinavir"/>
+        <entity id="DDI-DrugBank.d456.s1.e5" charOffset="181-192"
+            type="drug" text="itraconazole"/>
+        <entity id="DDI-DrugBank.d456.s1.e6" charOffset="195-204"
+            type="drug" text="nefazodone"/>
+        <entity id="DDI-DrugBank.d456.s1.e7" charOffset="207-216"
+            type="drug" text="nelfinavir"/>
+        <entity id="DDI-DrugBank.d456.s1.e8" charOffset="219-227"
+            type="drug" text="ritonavir"/>
+        <entity id="DDI-DrugBank.d456.s1.e9" charOffset="230-239"
+            type="drug" text="saquinavir"/>
+        <entity id="DDI-DrugBank.d456.s1.e10" charOffset="242-254"
+            type="drug" text="telithromycin"/>
+        <entity id="DDI-DrugBank.d456.s1.e11" charOffset="257-270"
+            type="drug" text="troleandomycin"/>
+        <entity id="DDI-DrugBank.d456.s1.e12" charOffset="273-275"
+            type="drug" text="TAO"/>
+        <entity id="DDI-DrugBank.d456.s1.e13" charOffset="283-294"
+            type="drug" text="voriconazole"/>
+        <pair id="DDI-DrugBank.d456.s1.p0" e1="DDI-DrugBank.d456.s1.e0"
+            e2="DDI-DrugBank.d456.s1.e1" ddi="true" type="advise"/>
+        <pair id="DDI-DrugBank.d456.s1.p1" e1="DDI-DrugBank.d456.s1.e0"
+            e2="DDI-DrugBank.d456.s1.e2" ddi="true" type="advise"/>
+        <pair id="DDI-DrugBank.d456.s1.p2" e1="DDI-DrugBank.d456.s1.e0"
+            e2="DDI-DrugBank.d456.s1.e3" ddi="true" type="advise"/>
+        <pair id="DDI-DrugBank.d456.s1.p3" e1="DDI-DrugBank.d456.s1.e0"
+            e2="DDI-DrugBank.d456.s1.e4" ddi="true" type="advise"/>
+        <pair id="DDI-DrugBank.d456.s1.p4" e1="DDI-DrugBank.d456.s1.e0"
+            e2="DDI-DrugBank.d456.s1.e5" ddi="true" type="advise"/>
+        <pair id="DDI-DrugBank.d456.s1.p5" e1="DDI-DrugBank.d456.s1.e0"
+            e2="DDI-DrugBank.d456.s1.e6" ddi="true" type="advise"/>
+        <pair id="DDI-DrugBank.d456.s1.p6" e1="DDI-DrugBank.d456.s1.e0"
+            e2="DDI-DrugBank.d456.s1.e7" ddi="true" type="advise"/>
+        <pair id="DDI-DrugBank.d456.s1.p7" e1="DDI-DrugBank.d456.s1.e0"
+            e2="DDI-DrugBank.d456.s1.e8" ddi="true" type="advise"/>
+        <pair id="DDI-DrugBank.d456.s1.p8" e1="DDI-DrugBank.d456.s1.e0"
+            e2="DDI-DrugBank.d456.s1.e9" ddi="true" type="advise"/>
+        <pair id="DDI-DrugBank.d456.s1.p9" e1="DDI-DrugBank.d456.s1.e0"
+            e2="DDI-DrugBank.d456.s1.e10" ddi="true" type="advise"/>
+        <pair id="DDI-DrugBank.d456.s1.p10" e1="DDI-DrugBank.d456.s1.e0"
+            e2="DDI-DrugBank.d456.s1.e11" ddi="true" type="advise"/>
+        <pair id="DDI-DrugBank.d456.s1.p11" e1="DDI-DrugBank.d456.s1.e0"
+            e2="DDI-DrugBank.d456.s1.e12" ddi="true" type="advise"/>
+        <pair id="DDI-DrugBank.d456.s1.p12" e1="DDI-DrugBank.d456.s1.e0"
+            e2="DDI-DrugBank.d456.s1.e13" ddi="true" type="advise"/>
+        <pair id="DDI-DrugBank.d456.s1.p13" e1="DDI-DrugBank.d456.s1.e1"
+            e2="DDI-DrugBank.d456.s1.e2" ddi="false"/>
+        <pair id="DDI-DrugBank.d456.s1.p14" e1="DDI-DrugBank.d456.s1.e1"
+            e2="DDI-DrugBank.d456.s1.e3" ddi="false"/>
+        <pair id="DDI-DrugBank.d456.s1.p15" e1="DDI-DrugBank.d456.s1.e1"
+            e2="DDI-DrugBank.d456.s1.e4" ddi="false"/>
+        <pair id="DDI-DrugBank.d456.s1.p16" e1="DDI-DrugBank.d456.s1.e1"
+            e2="DDI-DrugBank.d456.s1.e5" ddi="false"/>
+        <pair id="DDI-DrugBank.d456.s1.p17" e1="DDI-DrugBank.d456.s1.e1"
+            e2="DDI-DrugBank.d456.s1.e6" ddi="false"/>
+        <pair id="DDI-DrugBank.d456.s1.p18" e1="DDI-DrugBank.d456.s1.e1"
+            e2="DDI-DrugBank.d456.s1.e7" ddi="false"/>
+        <pair id="DDI-DrugBank.d456.s1.p19" e1="DDI-DrugBank.d456.s1.e1"
+            e2="DDI-DrugBank.d456.s1.e8" ddi="false"/>
+        <pair id="DDI-DrugBank.d456.s1.p20" e1="DDI-DrugBank.d456.s1.e1"
+            e2="DDI-DrugBank.d456.s1.e9" ddi="false"/>
+        <pair id="DDI-DrugBank.d456.s1.p21" e1="DDI-DrugBank.d456.s1.e1"
+            e2="DDI-DrugBank.d456.s1.e10" ddi="false"/>
+        <pair id="DDI-DrugBank.d456.s1.p22" e1="DDI-DrugBank.d456.s1.e1"
+            e2="DDI-DrugBank.d456.s1.e11" ddi="false"/>
+        <pair id="DDI-DrugBank.d456.s1.p23" e1="DDI-DrugBank.d456.s1.e1"
+            e2="DDI-DrugBank.d456.s1.e12" ddi="false"/>
+        <pair id="DDI-DrugBank.d456.s1.p24" e1="DDI-DrugBank.d456.s1.e1"
+            e2="DDI-DrugBank.d456.s1.e13" ddi="false"/>
+        <pair id="DDI-DrugBank.d456.s1.p25" e1="DDI-DrugBank.d456.s1.e2"
+            e2="DDI-DrugBank.d456.s1.e3" ddi="false"/>
+        <pair id="DDI-DrugBank.d456.s1.p26" e1="DDI-DrugBank.d456.s1.e2"
+            e2="DDI-DrugBank.d456.s1.e4" ddi="false"/>
+        <pair id="DDI-DrugBank.d456.s1.p27" e1="DDI-DrugBank.d456.s1.e2"
+            e2="DDI-DrugBank.d456.s1.e5" ddi="false"/>
+        <pair id="DDI-DrugBank.d456.s1.p28" e1="DDI-DrugBank.d456.s1.e2"
+            e2="DDI-DrugBank.d456.s1.e6" ddi="false"/>
+        <pair id="DDI-DrugBank.d456.s1.p29" e1="DDI-DrugBank.d456.s1.e2"
+            e2="DDI-DrugBank.d456.s1.e7" ddi="false"/>
+        <pair id="DDI-DrugBank.d456.s1.p30" e1="DDI-DrugBank.d456.s1.e2"
+            e2="DDI-DrugBank.d456.s1.e8" ddi="false"/>
+        <pair id="DDI-DrugBank.d456.s1.p31" e1="DDI-DrugBank.d456.s1.e2"
+            e2="DDI-DrugBank.d456.s1.e9" ddi="false"/>
+        <pair id="DDI-DrugBank.d456.s1.p32" e1="DDI-DrugBank.d456.s1.e2"
+            e2="DDI-DrugBank.d456.s1.e10" ddi="false"/>
+        <pair id="DDI-DrugBank.d456.s1.p33" e1="DDI-DrugBank.d456.s1.e2"
+            e2="DDI-DrugBank.d456.s1.e11" ddi="false"/>
+        <pair id="DDI-DrugBank.d456.s1.p34" e1="DDI-DrugBank.d456.s1.e2"
+            e2="DDI-DrugBank.d456.s1.e12" ddi="false"/>
+        <pair id="DDI-DrugBank.d456.s1.p35" e1="DDI-DrugBank.d456.s1.e2"
+            e2="DDI-DrugBank.d456.s1.e13" ddi="false"/>
+        <pair id="DDI-DrugBank.d456.s1.p36" e1="DDI-DrugBank.d456.s1.e3"
+            e2="DDI-DrugBank.d456.s1.e4" ddi="false"/>
+        <pair id="DDI-DrugBank.d456.s1.p37" e1="DDI-DrugBank.d456.s1.e3"
+            e2="DDI-DrugBank.d456.s1.e5" ddi="false"/>
+        <pair id="DDI-DrugBank.d456.s1.p38" e1="DDI-DrugBank.d456.s1.e3"
+            e2="DDI-DrugBank.d456.s1.e6" ddi="false"/>
+        <pair id="DDI-DrugBank.d456.s1.p39" e1="DDI-DrugBank.d456.s1.e3"
+            e2="DDI-DrugBank.d456.s1.e7" ddi="false"/>
+        <pair id="DDI-DrugBank.d456.s1.p40" e1="DDI-DrugBank.d456.s1.e3"
+            e2="DDI-DrugBank.d456.s1.e8" ddi="false"/>
+        <pair id="DDI-DrugBank.d456.s1.p41" e1="DDI-DrugBank.d456.s1.e3"
+            e2="DDI-DrugBank.d456.s1.e9" ddi="false"/>
+        <pair id="DDI-DrugBank.d456.s1.p42" e1="DDI-DrugBank.d456.s1.e3"
+            e2="DDI-DrugBank.d456.s1.e10" ddi="false"/>
+        <pair id="DDI-DrugBank.d456.s1.p43" e1="DDI-DrugBank.d456.s1.e3"
+            e2="DDI-DrugBank.d456.s1.e11" ddi="false"/>
+        <pair id="DDI-DrugBank.d456.s1.p44" e1="DDI-DrugBank.d456.s1.e3"
+            e2="DDI-DrugBank.d456.s1.e12" ddi="false"/>
+        <pair id="DDI-DrugBank.d456.s1.p45" e1="DDI-DrugBank.d456.s1.e3"
+            e2="DDI-DrugBank.d456.s1.e13" ddi="false"/>
+        <pair id="DDI-DrugBank.d456.s1.p46" e1="DDI-DrugBank.d456.s1.e4"
+            e2="DDI-DrugBank.d456.s1.e5" ddi="false"/>
+        <pair id="DDI-DrugBank.d456.s1.p47" e1="DDI-DrugBank.d456.s1.e4"
+            e2="DDI-DrugBank.d456.s1.e6" ddi="false"/>
+        <pair id="DDI-DrugBank.d456.s1.p48" e1="DDI-DrugBank.d456.s1.e4"
+            e2="DDI-DrugBank.d456.s1.e7" ddi="false"/>
+        <pair id="DDI-DrugBank.d456.s1.p49" e1="DDI-DrugBank.d456.s1.e4"
+            e2="DDI-DrugBank.d456.s1.e8" ddi="false"/>
+        <pair id="DDI-DrugBank.d456.s1.p50" e1="DDI-DrugBank.d456.s1.e4"
+            e2="DDI-DrugBank.d456.s1.e9" ddi="false"/>
+        <pair id="DDI-DrugBank.d456.s1.p51" e1="DDI-DrugBank.d456.s1.e4"
+            e2="DDI-DrugBank.d456.s1.e10" ddi="false"/>
+        <pair id="DDI-DrugBank.d456.s1.p52" e1="DDI-DrugBank.d456.s1.e4"
+            e2="DDI-DrugBank.d456.s1.e11" ddi="false"/>
+        <pair id="DDI-DrugBank.d456.s1.p53" e1="DDI-DrugBank.d456.s1.e4"
+            e2="DDI-DrugBank.d456.s1.e12" ddi="false"/>
+        <pair id="DDI-DrugBank.d456.s1.p54" e1="DDI-DrugBank.d456.s1.e4"
+            e2="DDI-DrugBank.d456.s1.e13" ddi="false"/>
+        <pair id="DDI-DrugBank.d456.s1.p55" e1="DDI-DrugBank.d456.s1.e5"
+            e2="DDI-DrugBank.d456.s1.e6" ddi="false"/>
+        <pair id="DDI-DrugBank.d456.s1.p56" e1="DDI-DrugBank.d456.s1.e5"
+            e2="DDI-DrugBank.d456.s1.e7" ddi="false"/>
+        <pair id="DDI-DrugBank.d456.s1.p57" e1="DDI-DrugBank.d456.s1.e5"
+            e2="DDI-DrugBank.d456.s1.e8" ddi="false"/>
+        <pair id="DDI-DrugBank.d456.s1.p58" e1="DDI-DrugBank.d456.s1.e5"
+            e2="DDI-DrugBank.d456.s1.e9" ddi="false"/>
+        <pair id="DDI-DrugBank.d456.s1.p59" e1="DDI-DrugBank.d456.s1.e5"
+            e2="DDI-DrugBank.d456.s1.e10" ddi="false"/>
+        <pair id="DDI-DrugBank.d456.s1.p60" e1="DDI-DrugBank.d456.s1.e5"
+            e2="DDI-DrugBank.d456.s1.e11" ddi="false"/>
+        <pair id="DDI-DrugBank.d456.s1.p61" e1="DDI-DrugBank.d456.s1.e5"
+            e2="DDI-DrugBank.d456.s1.e12" ddi="false"/>
+        <pair id="DDI-DrugBank.d456.s1.p62" e1="DDI-DrugBank.d456.s1.e5"
+            e2="DDI-DrugBank.d456.s1.e13" ddi="false"/>
+        <pair id="DDI-DrugBank.d456.s1.p63" e1="DDI-DrugBank.d456.s1.e6"
+            e2="DDI-DrugBank.d456.s1.e7" ddi="false"/>
+        <pair id="DDI-DrugBank.d456.s1.p64" e1="DDI-DrugBank.d456.s1.e6"
+            e2="DDI-DrugBank.d456.s1.e8" ddi="false"/>
+        <pair id="DDI-DrugBank.d456.s1.p65" e1="DDI-DrugBank.d456.s1.e6"
+            e2="DDI-DrugBank.d456.s1.e9" ddi="false"/>
+        <pair id="DDI-DrugBank.d456.s1.p66" e1="DDI-DrugBank.d456.s1.e6"
+            e2="DDI-DrugBank.d456.s1.e10" ddi="false"/>
+        <pair id="DDI-DrugBank.d456.s1.p67" e1="DDI-DrugBank.d456.s1.e6"
+            e2="DDI-DrugBank.d456.s1.e11" ddi="false"/>
+        <pair id="DDI-DrugBank.d456.s1.p68" e1="DDI-DrugBank.d456.s1.e6"
+            e2="DDI-DrugBank.d456.s1.e12" ddi="false"/>
+        <pair id="DDI-DrugBank.d456.s1.p69" e1="DDI-DrugBank.d456.s1.e6"
+            e2="DDI-DrugBank.d456.s1.e13" ddi="false"/>
+        <pair id="DDI-DrugBank.d456.s1.p70" e1="DDI-DrugBank.d456.s1.e7"
+            e2="DDI-DrugBank.d456.s1.e8" ddi="false"/>
+        <pair id="DDI-DrugBank.d456.s1.p71" e1="DDI-DrugBank.d456.s1.e7"
+            e2="DDI-DrugBank.d456.s1.e9" ddi="false"/>
+        <pair id="DDI-DrugBank.d456.s1.p72" e1="DDI-DrugBank.d456.s1.e7"
+            e2="DDI-DrugBank.d456.s1.e10" ddi="false"/>
+        <pair id="DDI-DrugBank.d456.s1.p73" e1="DDI-DrugBank.d456.s1.e7"
+            e2="DDI-DrugBank.d456.s1.e11" ddi="false"/>
+        <pair id="DDI-DrugBank.d456.s1.p74" e1="DDI-DrugBank.d456.s1.e7"
+            e2="DDI-DrugBank.d456.s1.e12" ddi="false"/>
+        <pair id="DDI-DrugBank.d456.s1.p75" e1="DDI-DrugBank.d456.s1.e7"
+            e2="DDI-DrugBank.d456.s1.e13" ddi="false"/>
+        <pair id="DDI-DrugBank.d456.s1.p76" e1="DDI-DrugBank.d456.s1.e8"
+            e2="DDI-DrugBank.d456.s1.e9" ddi="false"/>
+        <pair id="DDI-DrugBank.d456.s1.p77" e1="DDI-DrugBank.d456.s1.e8"
+            e2="DDI-DrugBank.d456.s1.e10" ddi="false"/>
+        <pair id="DDI-DrugBank.d456.s1.p78" e1="DDI-DrugBank.d456.s1.e8"
+            e2="DDI-DrugBank.d456.s1.e11" ddi="false"/>
+        <pair id="DDI-DrugBank.d456.s1.p79" e1="DDI-DrugBank.d456.s1.e8"
+            e2="DDI-DrugBank.d456.s1.e12" ddi="false"/>
+        <pair id="DDI-DrugBank.d456.s1.p80" e1="DDI-DrugBank.d456.s1.e8"
+            e2="DDI-DrugBank.d456.s1.e13" ddi="false"/>
+        <pair id="DDI-DrugBank.d456.s1.p81" e1="DDI-DrugBank.d456.s1.e9"
+            e2="DDI-DrugBank.d456.s1.e10" ddi="false"/>
+        <pair id="DDI-DrugBank.d456.s1.p82" e1="DDI-DrugBank.d456.s1.e9"
+            e2="DDI-DrugBank.d456.s1.e11" ddi="false"/>
+        <pair id="DDI-DrugBank.d456.s1.p83" e1="DDI-DrugBank.d456.s1.e9"
+            e2="DDI-DrugBank.d456.s1.e12" ddi="false"/>
+        <pair id="DDI-DrugBank.d456.s1.p84" e1="DDI-DrugBank.d456.s1.e9"
+            e2="DDI-DrugBank.d456.s1.e13" ddi="false"/>
+        <pair id="DDI-DrugBank.d456.s1.p85"
+            e1="DDI-DrugBank.d456.s1.e10" e2="DDI-DrugBank.d456.s1.e11" ddi="false"/>
+        <pair id="DDI-DrugBank.d456.s1.p86"
+            e1="DDI-DrugBank.d456.s1.e10" e2="DDI-DrugBank.d456.s1.e12" ddi="false"/>
+        <pair id="DDI-DrugBank.d456.s1.p87"
+            e1="DDI-DrugBank.d456.s1.e10" e2="DDI-DrugBank.d456.s1.e13" ddi="false"/>
+        <pair id="DDI-DrugBank.d456.s1.p88"
+            e1="DDI-DrugBank.d456.s1.e11" e2="DDI-DrugBank.d456.s1.e12" ddi="false"/>
+        <pair id="DDI-DrugBank.d456.s1.p89"
+            e1="DDI-DrugBank.d456.s1.e11" e2="DDI-DrugBank.d456.s1.e13" ddi="false"/>
+        <pair id="DDI-DrugBank.d456.s1.p90"
+            e1="DDI-DrugBank.d456.s1.e12" e2="DDI-DrugBank.d456.s1.e13" ddi="false"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d456.s2" text="Pre-treatment with the CYP3A4 inducer rifampicin decreased erlotinib AUC by about 2/3.">
+        <entity id="DDI-DrugBank.d456.s2.e0" charOffset="38-47"
+            type="drug" text="rifampicin"/>
+        <entity id="DDI-DrugBank.d456.s2.e1" charOffset="59-67"
+            type="drug" text="erlotinib"/>
+        <pair id="DDI-DrugBank.d456.s2.p0" e1="DDI-DrugBank.d456.s2.e0"
+            e2="DDI-DrugBank.d456.s2.e1" ddi="true" type="mechanism"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d456.s3" text="Alternate treatments lacking CYP3A4 inducing activity should be considered."/>
+    <sentence id="DDI-DrugBank.d456.s4" text="If an alternative treatment is unavailable, a TARCEVA dose greater than 150 mg should be considered for NSCLC patients, and greater than 100 mg considered for pancreatic cancer patients.">
+        <entity id="DDI-DrugBank.d456.s4.e0" charOffset="46-52"
+            type="brand" text="TARCEVA"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d456.s5" text="If the TARCEVA dose is adjusted upward, the dose will need to be reduced upon discontinuation of rifampicin or other inducers.">
+        <entity id="DDI-DrugBank.d456.s5.e0" charOffset="7-13"
+            type="brand" text="TARCEVA"/>
+        <entity id="DDI-DrugBank.d456.s5.e1" charOffset="97-106"
+            type="drug" text="rifampicin"/>
+        <pair id="DDI-DrugBank.d456.s5.p0" e1="DDI-DrugBank.d456.s5.e0"
+            e2="DDI-DrugBank.d456.s5.e1" ddi="true" type="advise"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d456.s6" text="Other CYP3A4 inducers include, but are not limited to, rifabutin, rifapentine, phenytoin, carbamazepine, phenobarbital and St. Johns Wort.">
+        <entity id="DDI-DrugBank.d456.s6.e0" charOffset="55-63"
+            type="drug" text="rifabutin"/>
+        <entity id="DDI-DrugBank.d456.s6.e1" charOffset="66-76"
+            type="drug" text="rifapentine"/>
+        <entity id="DDI-DrugBank.d456.s6.e2" charOffset="79-87"
+            type="drug" text="phenytoin"/>
+        <entity id="DDI-DrugBank.d456.s6.e3" charOffset="90-102"
+            type="drug" text="carbamazepine"/>
+        <entity id="DDI-DrugBank.d456.s6.e4" charOffset="105-117"
+            type="drug" text="phenobarbital"/>
+        <pair id="DDI-DrugBank.d456.s6.p0" e1="DDI-DrugBank.d456.s6.e0"
+            e2="DDI-DrugBank.d456.s6.e1" ddi="false"/>
+        <pair id="DDI-DrugBank.d456.s6.p1" e1="DDI-DrugBank.d456.s6.e0"
+            e2="DDI-DrugBank.d456.s6.e2" ddi="false"/>
+        <pair id="DDI-DrugBank.d456.s6.p2" e1="DDI-DrugBank.d456.s6.e0"
+            e2="DDI-DrugBank.d456.s6.e3" ddi="false"/>
+        <pair id="DDI-DrugBank.d456.s6.p3" e1="DDI-DrugBank.d456.s6.e0"
+            e2="DDI-DrugBank.d456.s6.e4" ddi="false"/>
+        <pair id="DDI-DrugBank.d456.s6.p4" e1="DDI-DrugBank.d456.s6.e1"
+            e2="DDI-DrugBank.d456.s6.e2" ddi="false"/>
+        <pair id="DDI-DrugBank.d456.s6.p5" e1="DDI-DrugBank.d456.s6.e1"
+            e2="DDI-DrugBank.d456.s6.e3" ddi="false"/>
+        <pair id="DDI-DrugBank.d456.s6.p6" e1="DDI-DrugBank.d456.s6.e1"
+            e2="DDI-DrugBank.d456.s6.e4" ddi="false"/>
+        <pair id="DDI-DrugBank.d456.s6.p7" e1="DDI-DrugBank.d456.s6.e2"
+            e2="DDI-DrugBank.d456.s6.e3" ddi="false"/>
+        <pair id="DDI-DrugBank.d456.s6.p8" e1="DDI-DrugBank.d456.s6.e2"
+            e2="DDI-DrugBank.d456.s6.e4" ddi="false"/>
+        <pair id="DDI-DrugBank.d456.s6.p9" e1="DDI-DrugBank.d456.s6.e3"
+            e2="DDI-DrugBank.d456.s6.e4" ddi="false"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d456.s7" text="Hepatotoxicity Asymptomatic increases in liver transaminases have been observed in TARCEVA treated patients;">
+        <entity id="DDI-DrugBank.d456.s7.e0" charOffset="83-89"
+            type="brand" text="TARCEVA"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d456.s8" text="therefore, periodic liver function testing (transaminases, bilirubin, and alkaline phosphatase) should be considered."/>
+    <sentence id="DDI-DrugBank.d456.s9" text="Dose reduction or interruption of TARCEVA should be considered if changes in liver function are severe.">
+        <entity id="DDI-DrugBank.d456.s9.e0" charOffset="34-40"
+            type="brand" text="TARCEVA"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d456.s10" text="Patients with Hepatic Impairment In vitro and in vivo evidence suggest that erlotinib is cleared primarily by the liver.">
+        <entity id="DDI-DrugBank.d456.s10.e0" charOffset="76-84"
+            type="drug" text="erlotinib"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d456.s11" text="Therefore, erlotinib exposure may be increased in patients with hepatic dysfunction.">
+        <entity id="DDI-DrugBank.d456.s11.e0" charOffset="11-19"
+            type="drug" text="erlotinib"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d456.s12" text="Elevated International Normalized Ratio and Potential Bleeding International Normalized Ratio (INR) elevations and infrequent reports of bleeding events including gastrointestinal and non-gastrointestinal bleedings have been reported in clinical studies, some associated with concomitant warfarin administration.">
+        <entity id="DDI-DrugBank.d456.s12.e0" charOffset="288-295"
+            type="drug" text="warfarin"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d456.s13" text="Patients taking warfarin or other coumarin-derivative anticoagulants should be monitored regularly for changes in prothrombin time or INR">
+        <entity id="DDI-DrugBank.d456.s13.e0" charOffset="16-23"
+            type="drug" text="warfarin"/>
+        <entity id="DDI-DrugBank.d456.s13.e1" charOffset="34-67"
+            type="group" text="coumarin-derivative anticoagulants"/>
+        <pair id="DDI-DrugBank.d456.s13.p0"
+            e1="DDI-DrugBank.d456.s13.e0" e2="DDI-DrugBank.d456.s13.e1" ddi="false"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d456.s14" text="."/>
+    <sentence id="DDI-DrugBank.d456.s15" text=""/>
+</document>

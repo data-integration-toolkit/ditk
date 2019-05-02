@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="DDI-DrugBank.d229">
+    <sentence id="DDI-DrugBank.d229.s0" text="Drug Interaction During Pregnancy: Cromolyn sodium and isoproterenol were studied following subcutaneous injections in pregnant mice.">
+        <entity id="DDI-DrugBank.d229.s0.e0" charOffset="35-49"
+            type="drug" text="Cromolyn sodium"/>
+        <entity id="DDI-DrugBank.d229.s0.e1" charOffset="55-67"
+            type="drug" text="isoproterenol"/>
+        <pair id="DDI-DrugBank.d229.s0.p0" e1="DDI-DrugBank.d229.s0.e0"
+            e2="DDI-DrugBank.d229.s0.e1" ddi="false"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d229.s1" text="Cromolyn sodium alone in doses up to 540 mg/kg/day (approximately 340 times the maximum recommended daily inhalation dose in adults on a mg/m2 basis) did not cause significant increases in resorptions or major malformations.">
+        <entity id="DDI-DrugBank.d229.s1.e0" charOffset="0-14"
+            type="drug" text="Cromolyn sodium"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d229.s2" text="Isoproterenol alone at a dose of 2.7 mg/kg/day (approximately 7 times the maximum recommended daily inhalation dose in adults on a mg/m2 basis) increased both resorptions and malformations.">
+        <entity id="DDI-DrugBank.d229.s2.e0" charOffset="0-12"
+            type="drug" text="Isoproterenol"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d229.s3" text="The addition of 540 mg/kg/day of cromolyn sodium (approximately 340 times the maximum recommended daily inhalation dose in adults on a mg/m2 basis) to 2.7 mg/kg/day of isoproterenol (approximately 7 times the maximum recommended daily inhalation dose in adults on a mg/m2 basis) appears to have increased the incidence of both resorptions and malformations.">
+        <entity id="DDI-DrugBank.d229.s3.e0" charOffset="33-47"
+            type="drug" text="cromolyn sodium"/>
+        <entity id="DDI-DrugBank.d229.s3.e1" charOffset="168-180"
+            type="drug" text="isoproterenol"/>
+        <pair id="DDI-DrugBank.d229.s3.p0" e1="DDI-DrugBank.d229.s3.e0"
+            e2="DDI-DrugBank.d229.s3.e1" ddi="true" type="effect"/>
+    </sentence>
+</document>

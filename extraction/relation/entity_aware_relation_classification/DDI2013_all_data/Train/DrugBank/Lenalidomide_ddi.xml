@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="DDI-DrugBank.d169">
+    <sentence id="DDI-DrugBank.d169.s0" text="Results from human in vitro metabolism studies and nonclinical studies show that REVLIMID  (lenalidomide) is neither metabolized by nor inhibits or induces the cytochrome P450 pathway suggesting that lenalidomide is not likely to cause or be subject to P450-based metabolic drug interactions in man.">
+        <entity id="DDI-DrugBank.d169.s0.e0" charOffset="81-88"
+            type="brand" text="REVLIMID"/>
+        <entity id="DDI-DrugBank.d169.s0.e1" charOffset="92-103"
+            type="drug" text="lenalidomide"/>
+        <entity id="DDI-DrugBank.d169.s0.e2" charOffset="200-211"
+            type="drug" text="lenalidomide"/>
+        <pair id="DDI-DrugBank.d169.s0.p0" e1="DDI-DrugBank.d169.s0.e0"
+            e2="DDI-DrugBank.d169.s0.e1" ddi="false"/>
+        <pair id="DDI-DrugBank.d169.s0.p1" e1="DDI-DrugBank.d169.s0.e0"
+            e2="DDI-DrugBank.d169.s0.e2" ddi="false"/>
+        <pair id="DDI-DrugBank.d169.s0.p2" e1="DDI-DrugBank.d169.s0.e1"
+            e2="DDI-DrugBank.d169.s0.e2" ddi="false"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d169.s1" text="Co-administration of multiple doses of 10 mg of lenalidomide had no effect on the single dose pharmacokinetics of R- and S- warfarin.">
+        <entity id="DDI-DrugBank.d169.s1.e0" charOffset="48-59"
+            type="drug" text="lenalidomide"/>
+        <entity id="DDI-DrugBank.d169.s1.e1"
+            charOffset="114-115;124-131" type="drug" text="R- warfarin"/>
+        <entity id="DDI-DrugBank.d169.s1.e2" charOffset="121-131"
+            type="drug" text="S- warfarin"/>
+        <pair id="DDI-DrugBank.d169.s1.p0" e1="DDI-DrugBank.d169.s1.e0"
+            e2="DDI-DrugBank.d169.s1.e1" ddi="false"/>
+        <pair id="DDI-DrugBank.d169.s1.p1" e1="DDI-DrugBank.d169.s1.e0"
+            e2="DDI-DrugBank.d169.s1.e2" ddi="false"/>
+        <pair id="DDI-DrugBank.d169.s1.p2" e1="DDI-DrugBank.d169.s1.e1"
+            e2="DDI-DrugBank.d169.s1.e2" ddi="false"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d169.s2" text="Co-administration of single 25-mg dose warfarin had no effect on the pharmacokinetics of total lenalidomide.">
+        <entity id="DDI-DrugBank.d169.s2.e0" charOffset="39-46"
+            type="drug" text="warfarin"/>
+        <entity id="DDI-DrugBank.d169.s2.e1" charOffset="95-106"
+            type="drug" text="lenalidomide"/>
+        <pair id="DDI-DrugBank.d169.s2.p0" e1="DDI-DrugBank.d169.s2.e0"
+            e2="DDI-DrugBank.d169.s2.e1" ddi="false"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d169.s3" text="Expected changes in laboratory assessments of PT and INR were observed after warfarin administration, but these changes were not affected by concomitant lenalidomide administration.">
+        <entity id="DDI-DrugBank.d169.s3.e0" charOffset="77-84"
+            type="drug" text="warfarin"/>
+        <entity id="DDI-DrugBank.d169.s3.e1" charOffset="153-164"
+            type="drug" text="lenalidomide"/>
+        <pair id="DDI-DrugBank.d169.s3.p0" e1="DDI-DrugBank.d169.s3.e0"
+            e2="DDI-DrugBank.d169.s3.e1" ddi="false"/>
+    </sentence>
+</document>

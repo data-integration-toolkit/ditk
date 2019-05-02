@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="DDI-MedLine.d214">
+    <sentence id="DDI-MedLine.d214.s0" text="[Influence of hemantane and doxycycline on MPTP-evoked behavior violations in C57BL/6 mice].&#xd;&#xa;">
+        <entity id="DDI-MedLine.d214.s0.e0" charOffset="14-22"
+            type="drug_n" text="hemantane"/>
+        <entity id="DDI-MedLine.d214.s0.e1" charOffset="28-38"
+            type="drug" text="doxycycline"/>
+        <pair id="DDI-MedLine.d214.s0.p0" e1="DDI-MedLine.d214.s0.e0"
+            e2="DDI-MedLine.d214.s0.e1" ddi="false"/>
+    </sentence>
+    <sentence id="DDI-MedLine.d214.s1" text="The effects of anti-parkinsonian drug hemantane [(2-adamantyl)hexamethylenimine] (10 mg/kg, p. o.) ">
+        <entity id="DDI-MedLine.d214.s1.e0" charOffset="15-36"
+            type="group" text="anti-parkinsonian drug"/>
+        <entity id="DDI-MedLine.d214.s1.e1" charOffset="38-46"
+            type="drug_n" text="hemantane"/>
+        <entity id="DDI-MedLine.d214.s1.e2" charOffset="49-78"
+            type="drug_n" text="(2-adamantyl)hexamethylenimine"/>
+        <pair id="DDI-MedLine.d214.s1.p0" e1="DDI-MedLine.d214.s1.e0"
+            e2="DDI-MedLine.d214.s1.e1" ddi="false"/>
+        <pair id="DDI-MedLine.d214.s1.p1" e1="DDI-MedLine.d214.s1.e0"
+            e2="DDI-MedLine.d214.s1.e2" ddi="false"/>
+        <pair id="DDI-MedLine.d214.s1.p2" e1="DDI-MedLine.d214.s1.e1"
+            e2="DDI-MedLine.d214.s1.e2" ddi="false"/>
+    </sentence>
+    <sentence id="DDI-MedLine.d214.s2" text="and/or antibiotic drug doxycycline (100 mg/kg, p. o.), as well as that of neurotoxin 1-methyl-4-phenyl-1,2,3,4-tetrahydropyridine (MPTP) (4 x 20 mg/kg, i. p.) ">
+        <entity id="DDI-MedLine.d214.s2.e0" charOffset="7-21"
+            type="group" text="antibiotic drug"/>
+        <entity id="DDI-MedLine.d214.s2.e1" charOffset="23-33"
+            type="drug" text="doxycycline"/>
+        <entity id="DDI-MedLine.d214.s2.e2" charOffset="85-128"
+            type="drug_n" text="1-methyl-4-phenyl-1,2,3,4-tetrahydropyridine"/>
+        <entity id="DDI-MedLine.d214.s2.e3" charOffset="131-134"
+            type="drug_n" text="MPTP"/>
+        <pair id="DDI-MedLine.d214.s2.p0" e1="DDI-MedLine.d214.s2.e0"
+            e2="DDI-MedLine.d214.s2.e1" ddi="false"/>
+        <pair id="DDI-MedLine.d214.s2.p1" e1="DDI-MedLine.d214.s2.e0"
+            e2="DDI-MedLine.d214.s2.e2" ddi="false"/>
+        <pair id="DDI-MedLine.d214.s2.p2" e1="DDI-MedLine.d214.s2.e0"
+            e2="DDI-MedLine.d214.s2.e3" ddi="false"/>
+        <pair id="DDI-MedLine.d214.s2.p3" e1="DDI-MedLine.d214.s2.e1"
+            e2="DDI-MedLine.d214.s2.e2" ddi="false"/>
+        <pair id="DDI-MedLine.d214.s2.p4" e1="DDI-MedLine.d214.s2.e1"
+            e2="DDI-MedLine.d214.s2.e3" ddi="false"/>
+        <pair id="DDI-MedLine.d214.s2.p5" e1="DDI-MedLine.d214.s2.e2"
+            e2="DDI-MedLine.d214.s2.e3" ddi="false"/>
+    </sentence>
+    <sentence id="DDI-MedLine.d214.s3" text="were studied in elevated plus maze test on C57BL/6 mice. "/>
+    <sentence id="DDI-MedLine.d214.s4" text="On second day after injection, MPTP decreased the locomot or activity in comparison to saline. ">
+        <entity id="DDI-MedLine.d214.s4.e0" charOffset="31-34"
+            type="drug_n" text="MPTP"/>
+    </sentence>
+    <sentence id="DDI-MedLine.d214.s5" text="Acute administration of hemantane or doxycycline failed to influence locomotion in mice, while their combination normalized motor activity. ">
+        <entity id="DDI-MedLine.d214.s5.e0" charOffset="24-32"
+            type="drug_n" text="hemantane"/>
+        <entity id="DDI-MedLine.d214.s5.e1" charOffset="37-47"
+            type="drug" text="doxycycline"/>
+        <pair id="DDI-MedLine.d214.s5.p0" e1="DDI-MedLine.d214.s5.e0"
+            e2="DDI-MedLine.d214.s5.e1" ddi="true" type="effect"/>
+    </sentence>
+    <sentence id="DDI-MedLine.d214.s6" text="The results obtained confirm the role of inflammatory processes in parkinsonism and suggest expediency of combined pharmacotherapy of neurodegenerative diseases."/>
+</document>

@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="DDI-DrugBank.d542">
+    <sentence id="DDI-DrugBank.d542.s0" text="Interactions for Vitamin B3 (Niacin): Antihypertensive Therapy: Nicotinic acid may potentiate the effects of ganglionic blocking agents and vasoactive drugs resulting in postural hypotension.">
+        <entity id="DDI-DrugBank.d542.s0.e0" charOffset="17-26"
+            type="drug" text="Vitamin B3"/>
+        <entity id="DDI-DrugBank.d542.s0.e1" charOffset="29-34"
+            type="drug" text="Niacin"/>
+        <entity id="DDI-DrugBank.d542.s0.e2" charOffset="38-53"
+            type="group" text="Antihypertensive"/>
+        <entity id="DDI-DrugBank.d542.s0.e3" charOffset="64-77"
+            type="drug" text="Nicotinic acid"/>
+        <entity id="DDI-DrugBank.d542.s0.e4" charOffset="109-134"
+            type="group" text="ganglionic blocking agents"/>
+        <pair id="DDI-DrugBank.d542.s0.p0" e1="DDI-DrugBank.d542.s0.e0"
+            e2="DDI-DrugBank.d542.s0.e1" ddi="false"/>
+        <pair id="DDI-DrugBank.d542.s0.p1" e1="DDI-DrugBank.d542.s0.e0"
+            e2="DDI-DrugBank.d542.s0.e2" ddi="false"/>
+        <pair id="DDI-DrugBank.d542.s0.p2" e1="DDI-DrugBank.d542.s0.e0"
+            e2="DDI-DrugBank.d542.s0.e3" ddi="false"/>
+        <pair id="DDI-DrugBank.d542.s0.p3" e1="DDI-DrugBank.d542.s0.e0"
+            e2="DDI-DrugBank.d542.s0.e4" ddi="false"/>
+        <pair id="DDI-DrugBank.d542.s0.p4" e1="DDI-DrugBank.d542.s0.e1"
+            e2="DDI-DrugBank.d542.s0.e2" ddi="false"/>
+        <pair id="DDI-DrugBank.d542.s0.p5" e1="DDI-DrugBank.d542.s0.e1"
+            e2="DDI-DrugBank.d542.s0.e3" ddi="false"/>
+        <pair id="DDI-DrugBank.d542.s0.p6" e1="DDI-DrugBank.d542.s0.e1"
+            e2="DDI-DrugBank.d542.s0.e4" ddi="false"/>
+        <pair id="DDI-DrugBank.d542.s0.p7" e1="DDI-DrugBank.d542.s0.e2"
+            e2="DDI-DrugBank.d542.s0.e3" ddi="false"/>
+        <pair id="DDI-DrugBank.d542.s0.p8" e1="DDI-DrugBank.d542.s0.e2"
+            e2="DDI-DrugBank.d542.s0.e4" ddi="false"/>
+        <pair id="DDI-DrugBank.d542.s0.p9" e1="DDI-DrugBank.d542.s0.e3"
+            e2="DDI-DrugBank.d542.s0.e4" ddi="true" type="effect"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d542.s1" text="Aspirin: Concomitant aspirin may decrease the metabolic clearance of nicotinic acid.">
+        <entity id="DDI-DrugBank.d542.s1.e0" charOffset="0-6"
+            type="brand" text="Aspirin"/>
+        <entity id="DDI-DrugBank.d542.s1.e1" charOffset="21-27"
+            type="brand" text="aspirin"/>
+        <entity id="DDI-DrugBank.d542.s1.e2" charOffset="69-82"
+            type="drug" text="nicotinic acid"/>
+        <pair id="DDI-DrugBank.d542.s1.p0" e1="DDI-DrugBank.d542.s1.e0"
+            e2="DDI-DrugBank.d542.s1.e1" ddi="false"/>
+        <pair id="DDI-DrugBank.d542.s1.p1" e1="DDI-DrugBank.d542.s1.e0"
+            e2="DDI-DrugBank.d542.s1.e2" ddi="false"/>
+        <pair id="DDI-DrugBank.d542.s1.p2" e1="DDI-DrugBank.d542.s1.e1"
+            e2="DDI-DrugBank.d542.s1.e2" ddi="true" type="mechanism"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d542.s2" text="The clinical relevance of this finding is unclear."/>
+    <sentence id="DDI-DrugBank.d542.s3" text="Other: Concomitant alcohol or hot drinks may increase the side effects of flushing and pruritus and should be avoided at the time of drug ingestion.">
+        <entity id="DDI-DrugBank.d542.s3.e0" charOffset="19-25"
+            type="drug" text="alcohol"/>
+    </sentence>
+</document>

@@ -1,0 +1,18 @@
+Main file:
+ditk/extraction/named_entity/bert_ner/main.py
+
+Modules:
+bert_ner: ditk/extraction/named_entity/bert_ner/bert_ner.py
+data converter: ditk/extraction/named_entity/bert_ner/convert_to_2003.py
+configure: ditk/extraction/named_entity/bert_ner/configure.py
+
+# need git from [here](https://github.com/google-research/bert)
+bert: ditk/extraction/named_entity/bert_ner/bert
+
+# need download from [here](https://storage.googleapis.com/bert_models/2018_10_18/cased_L-12_H-768_A-12.zip)
+bert pretrained model: ditk/extraction/named_entity/bert_ner/checkpoint
+
+output checkpoint: ditk/extraction/named_entity/bert_ner/output/result_dir
+output prediction file path: ditk/extraction/named_entity/bert_ner/output/result_dir/prediction.txt
+
+data path: ditk/extraction/named_entity/bert_ner/NERdata

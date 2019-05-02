@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="DDI-MedLine.d73">
+    <sentence id="DDI-MedLine.d73.s0" text="Neurochemical and functional consequences following 1-methyl-4-phenyl-1,2,5,6-tetrahydropyridine (MPTP) and methamphetamine.&#xd;&#xa;">
+        <entity id="DDI-MedLine.d73.s0.e0" charOffset="52-95"
+            type="drug_n" text="1-methyl-4-phenyl-1,2,5,6-tetrahydropyridine"/>
+        <entity id="DDI-MedLine.d73.s0.e1" charOffset="98-101"
+            type="drug_n" text="MPTP"/>
+        <entity id="DDI-MedLine.d73.s0.e2" charOffset="108-122"
+            type="drug" text="methamphetamine"/>
+        <pair id="DDI-MedLine.d73.s0.p0" e1="DDI-MedLine.d73.s0.e0"
+            e2="DDI-MedLine.d73.s0.e1" ddi="false"/>
+        <pair id="DDI-MedLine.d73.s0.p1" e1="DDI-MedLine.d73.s0.e0"
+            e2="DDI-MedLine.d73.s0.e2" ddi="false"/>
+        <pair id="DDI-MedLine.d73.s0.p2" e1="DDI-MedLine.d73.s0.e1"
+            e2="DDI-MedLine.d73.s0.e2" ddi="false"/>
+    </sentence>
+    <sentence id="DDI-MedLine.d73.s1" text="The neurochemical and functional consequences following MPTP administration to the rat were evaluated and compared to similar effects following methamphetamine administration. ">
+        <entity id="DDI-MedLine.d73.s1.e0" charOffset="56-59"
+            type="drug_n" text="MPTP"/>
+        <entity id="DDI-MedLine.d73.s1.e1" charOffset="144-158"
+            type="drug" text="methamphetamine"/>
+        <pair id="DDI-MedLine.d73.s1.p0" e1="DDI-MedLine.d73.s1.e0"
+            e2="DDI-MedLine.d73.s1.e1" ddi="false"/>
+    </sentence>
+    <sentence id="DDI-MedLine.d73.s2" text="It was observed that MPTP induced long lasting depletions of striatal dopamine concentrations and this neurotoxic effect could be prevented by pargyline pretreatment. ">
+        <entity id="DDI-MedLine.d73.s2.e0" charOffset="21-24"
+            type="drug_n" text="MPTP"/>
+        <entity id="DDI-MedLine.d73.s2.e1" charOffset="143-151"
+            type="drug" text="pargyline"/>
+        <pair id="DDI-MedLine.d73.s2.p0" e1="DDI-MedLine.d73.s2.e0"
+            e2="DDI-MedLine.d73.s2.e1" ddi="true" type="effect"/>
+    </sentence>
+    <sentence id="DDI-MedLine.d73.s3" text="The MPTP-induced neuronal damage produced a tolerance to the disruptive effects of amphetamine and a supersensitivity to the disruptive effects of apomorphine in rats responding in a schedule controlled paradigm. ">
+        <entity id="DDI-MedLine.d73.s3.e0" charOffset="4-7" type="drug" text="MPTP"/>
+        <entity id="DDI-MedLine.d73.s3.e1" charOffset="83-93"
+            type="drug" text="amphetamine"/>
+        <entity id="DDI-MedLine.d73.s3.e2" charOffset="147-157"
+            type="drug" text="apomorphine"/>
+        <pair id="DDI-MedLine.d73.s3.p0" e1="DDI-MedLine.d73.s3.e0"
+            e2="DDI-MedLine.d73.s3.e1" ddi="true" type="effect"/>
+        <pair id="DDI-MedLine.d73.s3.p1" e1="DDI-MedLine.d73.s3.e0"
+            e2="DDI-MedLine.d73.s3.e2" ddi="true" type="effect"/>
+        <pair id="DDI-MedLine.d73.s3.p2" e1="DDI-MedLine.d73.s3.e1"
+            e2="DDI-MedLine.d73.s3.e2" ddi="false"/>
+    </sentence>
+    <sentence id="DDI-MedLine.d73.s4" text="Methamphetamine, like MPTP, produced depletions of striatal dopamine but these actions were potentiated by pargyline pretreatment. ">
+        <entity id="DDI-MedLine.d73.s4.e0" charOffset="0-14" type="drug" text="Methamphetamine"/>
+        <entity id="DDI-MedLine.d73.s4.e1" charOffset="22-25"
+            type="drug_n" text="MPTP"/>
+        <entity id="DDI-MedLine.d73.s4.e2" charOffset="107-115"
+            type="drug" text="pargyline"/>
+        <pair id="DDI-MedLine.d73.s4.p0" e1="DDI-MedLine.d73.s4.e0"
+            e2="DDI-MedLine.d73.s4.e1" ddi="false"/>
+        <pair id="DDI-MedLine.d73.s4.p1" e1="DDI-MedLine.d73.s4.e0"
+            e2="DDI-MedLine.d73.s4.e2" ddi="true" type="effect"/>
+        <pair id="DDI-MedLine.d73.s4.p2" e1="DDI-MedLine.d73.s4.e1"
+            e2="DDI-MedLine.d73.s4.e2" ddi="false"/>
+    </sentence>
+    <sentence id="DDI-MedLine.d73.s5" text="These observations are discussed in reference to possible deleterious effects following the administration of pargyline to patients with Parkinson's Disease.">
+        <entity id="DDI-MedLine.d73.s5.e0" charOffset="110-118"
+            type="drug" text="pargyline"/>
+    </sentence>
+</document>

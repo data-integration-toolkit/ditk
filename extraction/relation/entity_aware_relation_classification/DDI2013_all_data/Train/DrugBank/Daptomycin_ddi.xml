@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="DDI-DrugBank.d337">
+    <sentence id="DDI-DrugBank.d337.s0" text="Warfarin: Concomitant administration of daptomycin (6 mg/kg once every 24 hours for 5 days) and warfarin (25 mg single oral dose) had no significant effect on the pharmacokinetics of either drug, and the INR was not significantly altered.">
+        <entity id="DDI-DrugBank.d337.s0.e0" charOffset="0-7"
+            type="drug" text="Warfarin"/>
+        <entity id="DDI-DrugBank.d337.s0.e1" charOffset="40-49"
+            type="drug" text="daptomycin"/>
+        <entity id="DDI-DrugBank.d337.s0.e2" charOffset="96-103"
+            type="drug" text="warfarin"/>
+        <pair id="DDI-DrugBank.d337.s0.p0" e1="DDI-DrugBank.d337.s0.e0"
+            e2="DDI-DrugBank.d337.s0.e1" ddi="false"/>
+        <pair id="DDI-DrugBank.d337.s0.p1" e1="DDI-DrugBank.d337.s0.e0"
+            e2="DDI-DrugBank.d337.s0.e2" ddi="false"/>
+        <pair id="DDI-DrugBank.d337.s0.p2" e1="DDI-DrugBank.d337.s0.e1"
+            e2="DDI-DrugBank.d337.s0.e2" ddi="false"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d337.s1" text="HMG-CoA Reductase Inhibitors: Inhibitors of HMG-CoA reductase may cause myopathy, which is manifested as muscle pain or weakness associated with elevated levels of CPK.">
+        <entity id="DDI-DrugBank.d337.s1.e0" charOffset="0-27"
+            type="group" text="HMG-CoA Reductase Inhibitors"/>
+        <entity id="DDI-DrugBank.d337.s1.e1" charOffset="30-60"
+            type="group" text="Inhibitors of HMG-CoA reductase"/>
+        <pair id="DDI-DrugBank.d337.s1.p0" e1="DDI-DrugBank.d337.s1.e0"
+            e2="DDI-DrugBank.d337.s1.e1" ddi="false"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d337.s2" text="There were no reports of skeletal myopathy in a placebo-controlled Phase I trial in which 10 healthy subjects on stable simvastatin therapy were treated concurrently with daptomycin (4 mg/kg once every 24 hours) for 14 days.">
+        <entity id="DDI-DrugBank.d337.s2.e0" charOffset="120-130"
+            type="drug" text="simvastatin"/>
+        <entity id="DDI-DrugBank.d337.s2.e1" charOffset="171-180"
+            type="drug" text="daptomycin"/>
+        <pair id="DDI-DrugBank.d337.s2.p0" e1="DDI-DrugBank.d337.s2.e0"
+            e2="DDI-DrugBank.d337.s2.e1" ddi="false"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d337.s3" text="Experience with co-administration of HMG-CoA reductase inhibitors and Fentanyl in patients is limited,therefore,consideration should be given to temporarily suspending use of HMG-CoA reductase inhibitors in patients receiving Fentanyl.">
+        <entity id="DDI-DrugBank.d337.s3.e0" charOffset="37-64"
+            type="group" text="HMG-CoA reductase inhibitors"/>
+        <entity id="DDI-DrugBank.d337.s3.e1" charOffset="70-77"
+            type="drug" text="Fentanyl"/>
+        <entity id="DDI-DrugBank.d337.s3.e2" charOffset="175-202"
+            type="group" text="HMG-CoA reductase inhibitors"/>
+        <entity id="DDI-DrugBank.d337.s3.e3" charOffset="226-233"
+            type="drug" text="Fentanyl"/>
+        <pair id="DDI-DrugBank.d337.s3.p0" e1="DDI-DrugBank.d337.s3.e0"
+            e2="DDI-DrugBank.d337.s3.e1" ddi="false"/>
+        <pair id="DDI-DrugBank.d337.s3.p1" e1="DDI-DrugBank.d337.s3.e0"
+            e2="DDI-DrugBank.d337.s3.e2" ddi="false"/>
+        <pair id="DDI-DrugBank.d337.s3.p2" e1="DDI-DrugBank.d337.s3.e0"
+            e2="DDI-DrugBank.d337.s3.e3" ddi="false"/>
+        <pair id="DDI-DrugBank.d337.s3.p3" e1="DDI-DrugBank.d337.s3.e1"
+            e2="DDI-DrugBank.d337.s3.e2" ddi="false"/>
+        <pair id="DDI-DrugBank.d337.s3.p4" e1="DDI-DrugBank.d337.s3.e1"
+            e2="DDI-DrugBank.d337.s3.e3" ddi="false"/>
+        <pair id="DDI-DrugBank.d337.s3.p5" e1="DDI-DrugBank.d337.s3.e2"
+            e2="DDI-DrugBank.d337.s3.e3" ddi="true" type="advise"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d337.s4" text="Drug-Laboratory Test Interactions: There are no reported drug-laboratory test interactions."/>
+</document>

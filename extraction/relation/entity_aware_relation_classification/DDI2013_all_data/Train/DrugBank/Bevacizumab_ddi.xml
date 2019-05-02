@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="DDI-DrugBank.d312">
+    <sentence id="DDI-DrugBank.d312.s0" text="No formal drug interaction studies with anti-neoplastic agents have been conducted.">
+        <entity id="DDI-DrugBank.d312.s0.e0" charOffset="40-61"
+            type="group" text="anti-neoplastic agents"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d312.s1" text="In Study 1, patients with colorectal cancer were given irinotecan/5-FU/leucovorin (bolus-IFL) with or without AVASTIN.">
+        <entity id="DDI-DrugBank.d312.s1.e0" charOffset="55-64"
+            type="drug" text="irinotecan"/>
+        <entity id="DDI-DrugBank.d312.s1.e1" charOffset="66-69"
+            type="drug" text="5-FU"/>
+        <entity id="DDI-DrugBank.d312.s1.e2" charOffset="71-80"
+            type="drug" text="leucovorin"/>
+        <entity id="DDI-DrugBank.d312.s1.e3" charOffset="110-116"
+            type="brand" text="AVASTIN"/>
+        <pair id="DDI-DrugBank.d312.s1.p0" e1="DDI-DrugBank.d312.s1.e0"
+            e2="DDI-DrugBank.d312.s1.e1" ddi="false"/>
+        <pair id="DDI-DrugBank.d312.s1.p1" e1="DDI-DrugBank.d312.s1.e0"
+            e2="DDI-DrugBank.d312.s1.e2" ddi="false"/>
+        <pair id="DDI-DrugBank.d312.s1.p2" e1="DDI-DrugBank.d312.s1.e0"
+            e2="DDI-DrugBank.d312.s1.e3" ddi="false"/>
+        <pair id="DDI-DrugBank.d312.s1.p3" e1="DDI-DrugBank.d312.s1.e1"
+            e2="DDI-DrugBank.d312.s1.e2" ddi="false"/>
+        <pair id="DDI-DrugBank.d312.s1.p4" e1="DDI-DrugBank.d312.s1.e1"
+            e2="DDI-DrugBank.d312.s1.e3" ddi="false"/>
+        <pair id="DDI-DrugBank.d312.s1.p5" e1="DDI-DrugBank.d312.s1.e2"
+            e2="DDI-DrugBank.d312.s1.e3" ddi="false"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d312.s2" text="Irinotecan concentrations were similar in patients receiving bolus-IFL alone and in combination with AVASTIN.">
+        <entity id="DDI-DrugBank.d312.s2.e0" charOffset="0-9"
+            type="drug" text="Irinotecan"/>
+        <entity id="DDI-DrugBank.d312.s2.e1" charOffset="101-107"
+            type="brand" text="AVASTIN"/>
+        <pair id="DDI-DrugBank.d312.s2.p0" e1="DDI-DrugBank.d312.s2.e0"
+            e2="DDI-DrugBank.d312.s2.e1" ddi="false"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d312.s3" text="The concentrations of SN38, the active metabolite of irinotecan, were on average 33% higher in patients receiving bolus-IFL in combination with AVASTIN when compared with bolus-IFL alone.">
+        <entity id="DDI-DrugBank.d312.s3.e0" charOffset="22-25"
+            type="drug_n" text="SN38"/>
+        <entity id="DDI-DrugBank.d312.s3.e1" charOffset="53-62"
+            type="drug" text="irinotecan"/>
+        <entity id="DDI-DrugBank.d312.s3.e2" charOffset="144-150"
+            type="brand" text="AVASTIN"/>
+        <pair id="DDI-DrugBank.d312.s3.p0" e1="DDI-DrugBank.d312.s3.e0"
+            e2="DDI-DrugBank.d312.s3.e1" ddi="false"/>
+        <pair id="DDI-DrugBank.d312.s3.p1" e1="DDI-DrugBank.d312.s3.e0"
+            e2="DDI-DrugBank.d312.s3.e2" ddi="false"/>
+        <pair id="DDI-DrugBank.d312.s3.p2" e1="DDI-DrugBank.d312.s3.e1"
+            e2="DDI-DrugBank.d312.s3.e2" ddi="false"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d312.s4" text="In Study 1, patients receiving bolus-IFL plus AVASTIN had a higher incidence of Grade 3-4 diarrhea and neutropenia.">
+        <entity id="DDI-DrugBank.d312.s4.e0" charOffset="46-52"
+            type="brand" text="AVASTIN"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d312.s5" text="Due to high inter-patient variability and limited sampling, the extent of the increase in SN38 levels in patients receiving concurrent irinotecan and AVASTIN is uncertain.">
+        <entity id="DDI-DrugBank.d312.s5.e0" charOffset="90-93"
+            type="drug_n" text="SN38"/>
+        <entity id="DDI-DrugBank.d312.s5.e1" charOffset="135-144"
+            type="drug" text="irinotecan"/>
+        <entity id="DDI-DrugBank.d312.s5.e2" charOffset="150-156"
+            type="brand" text="AVASTIN"/>
+        <pair id="DDI-DrugBank.d312.s5.p0" e1="DDI-DrugBank.d312.s5.e0"
+            e2="DDI-DrugBank.d312.s5.e1" ddi="false"/>
+        <pair id="DDI-DrugBank.d312.s5.p1" e1="DDI-DrugBank.d312.s5.e0"
+            e2="DDI-DrugBank.d312.s5.e2" ddi="false"/>
+        <pair id="DDI-DrugBank.d312.s5.p2" e1="DDI-DrugBank.d312.s5.e1"
+            e2="DDI-DrugBank.d312.s5.e2" ddi="false"/>
+    </sentence>
+</document>

@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="DDI-DrugBank.d703">
+    <sentence id="DDI-DrugBank.d703.s0" text="Interaction with Other Central Nervous System Depressants: MEPERIDINE SHOULD BE USED WITH GREAT CAUTION AND IN REDUCED DOSAGE IN PATIENTS WHO ARE CONCURRENTLY RECEIVING OTHER NARCOTIC ANALGESICS, GENERAL ANESTHETICS, PHENOTHIAZINES, OTHER TRANQUILIZERS, SEDATIVE-HYPNOTICS (INCLUDING BARBITURATES), TRICYCLIC ANTIDEPRESSANTS AND OTHER CNS DEPRESSANTS (INCLUDING ALCOHOL). ">
+        <entity id="DDI-DrugBank.d703.s0.e0" charOffset="23-56"
+            type="group" text="Central Nervous System Depressants"/>
+        <entity id="DDI-DrugBank.d703.s0.e1" charOffset="59-68"
+            type="drug" text="MEPERIDINE"/>
+        <entity id="DDI-DrugBank.d703.s0.e2" charOffset="175-193"
+            type="group" text="NARCOTIC ANALGESICS"/>
+        <entity id="DDI-DrugBank.d703.s0.e3" charOffset="204-214"
+            type="group" text="ANESTHETICS"/>
+        <entity id="DDI-DrugBank.d703.s0.e4" charOffset="217-230"
+            type="group" text="PHENOTHIAZINES"/>
+        <entity id="DDI-DrugBank.d703.s0.e5" charOffset="239-251"
+            type="group" text="TRANQUILIZERS"/>
+        <entity id="DDI-DrugBank.d703.s0.e6" charOffset="254-271"
+            type="group" text="SEDATIVE-HYPNOTICS"/>
+        <entity id="DDI-DrugBank.d703.s0.e7" charOffset="284-295"
+            type="group" text="BARBITURATES"/>
+        <entity id="DDI-DrugBank.d703.s0.e8" charOffset="299-323"
+            type="group" text="TRICYCLIC ANTIDEPRESSANTS"/>
+        <entity id="DDI-DrugBank.d703.s0.e9" charOffset="335-349"
+            type="group" text="CNS DEPRESSANTS"/>
+        <entity id="DDI-DrugBank.d703.s0.e10" charOffset="362-368"
+            type="drug" text="ALCOHOL"/>
+        <pair id="DDI-DrugBank.d703.s0.p0" e1="DDI-DrugBank.d703.s0.e0"
+            e2="DDI-DrugBank.d703.s0.e1" ddi="false"/>
+        <pair id="DDI-DrugBank.d703.s0.p1" e1="DDI-DrugBank.d703.s0.e0"
+            e2="DDI-DrugBank.d703.s0.e2" ddi="false"/>
+        <pair id="DDI-DrugBank.d703.s0.p2" e1="DDI-DrugBank.d703.s0.e0"
+            e2="DDI-DrugBank.d703.s0.e3" ddi="false"/>
+        <pair id="DDI-DrugBank.d703.s0.p3" e1="DDI-DrugBank.d703.s0.e0"
+            e2="DDI-DrugBank.d703.s0.e4" ddi="false"/>
+        <pair id="DDI-DrugBank.d703.s0.p4" e1="DDI-DrugBank.d703.s0.e0"
+            e2="DDI-DrugBank.d703.s0.e5" ddi="false"/>
+        <pair id="DDI-DrugBank.d703.s0.p5" e1="DDI-DrugBank.d703.s0.e0"
+            e2="DDI-DrugBank.d703.s0.e6" ddi="false"/>
+        <pair id="DDI-DrugBank.d703.s0.p6" e1="DDI-DrugBank.d703.s0.e0"
+            e2="DDI-DrugBank.d703.s0.e7" ddi="false"/>
+        <pair id="DDI-DrugBank.d703.s0.p7" e1="DDI-DrugBank.d703.s0.e0"
+            e2="DDI-DrugBank.d703.s0.e8" ddi="false"/>
+        <pair id="DDI-DrugBank.d703.s0.p8" e1="DDI-DrugBank.d703.s0.e0"
+            e2="DDI-DrugBank.d703.s0.e9" ddi="false"/>
+        <pair id="DDI-DrugBank.d703.s0.p9" e1="DDI-DrugBank.d703.s0.e0"
+            e2="DDI-DrugBank.d703.s0.e10" ddi="false"/>
+        <pair id="DDI-DrugBank.d703.s0.p10" e1="DDI-DrugBank.d703.s0.e1"
+            e2="DDI-DrugBank.d703.s0.e2" ddi="true" type="advise"/>
+        <pair id="DDI-DrugBank.d703.s0.p11" e1="DDI-DrugBank.d703.s0.e1"
+            e2="DDI-DrugBank.d703.s0.e3" ddi="true" type="advise"/>
+        <pair id="DDI-DrugBank.d703.s0.p12" e1="DDI-DrugBank.d703.s0.e1"
+            e2="DDI-DrugBank.d703.s0.e4" ddi="true" type="advise"/>
+        <pair id="DDI-DrugBank.d703.s0.p13" e1="DDI-DrugBank.d703.s0.e1"
+            e2="DDI-DrugBank.d703.s0.e5" ddi="true" type="advise"/>
+        <pair id="DDI-DrugBank.d703.s0.p14" e1="DDI-DrugBank.d703.s0.e1"
+            e2="DDI-DrugBank.d703.s0.e6" ddi="true" type="advise"/>
+        <pair id="DDI-DrugBank.d703.s0.p15" e1="DDI-DrugBank.d703.s0.e1"
+            e2="DDI-DrugBank.d703.s0.e7" ddi="true" type="advise"/>
+        <pair id="DDI-DrugBank.d703.s0.p16" e1="DDI-DrugBank.d703.s0.e1"
+            e2="DDI-DrugBank.d703.s0.e8" ddi="true" type="advise"/>
+        <pair id="DDI-DrugBank.d703.s0.p17" e1="DDI-DrugBank.d703.s0.e1"
+            e2="DDI-DrugBank.d703.s0.e9" ddi="true" type="advise"/>
+        <pair id="DDI-DrugBank.d703.s0.p18" e1="DDI-DrugBank.d703.s0.e1"
+            e2="DDI-DrugBank.d703.s0.e10" ddi="true" type="advise"/>
+        <pair id="DDI-DrugBank.d703.s0.p19" e1="DDI-DrugBank.d703.s0.e2"
+            e2="DDI-DrugBank.d703.s0.e3" ddi="false"/>
+        <pair id="DDI-DrugBank.d703.s0.p20" e1="DDI-DrugBank.d703.s0.e2"
+            e2="DDI-DrugBank.d703.s0.e4" ddi="false"/>
+        <pair id="DDI-DrugBank.d703.s0.p21" e1="DDI-DrugBank.d703.s0.e2"
+            e2="DDI-DrugBank.d703.s0.e5" ddi="false"/>
+        <pair id="DDI-DrugBank.d703.s0.p22" e1="DDI-DrugBank.d703.s0.e2"
+            e2="DDI-DrugBank.d703.s0.e6" ddi="false"/>
+        <pair id="DDI-DrugBank.d703.s0.p23" e1="DDI-DrugBank.d703.s0.e2"
+            e2="DDI-DrugBank.d703.s0.e7" ddi="false"/>
+        <pair id="DDI-DrugBank.d703.s0.p24" e1="DDI-DrugBank.d703.s0.e2"
+            e2="DDI-DrugBank.d703.s0.e8" ddi="false"/>
+        <pair id="DDI-DrugBank.d703.s0.p25" e1="DDI-DrugBank.d703.s0.e2"
+            e2="DDI-DrugBank.d703.s0.e9" ddi="false"/>
+        <pair id="DDI-DrugBank.d703.s0.p26" e1="DDI-DrugBank.d703.s0.e2"
+            e2="DDI-DrugBank.d703.s0.e10" ddi="false"/>
+        <pair id="DDI-DrugBank.d703.s0.p27" e1="DDI-DrugBank.d703.s0.e3"
+            e2="DDI-DrugBank.d703.s0.e4" ddi="false"/>
+        <pair id="DDI-DrugBank.d703.s0.p28" e1="DDI-DrugBank.d703.s0.e3"
+            e2="DDI-DrugBank.d703.s0.e5" ddi="false"/>
+        <pair id="DDI-DrugBank.d703.s0.p29" e1="DDI-DrugBank.d703.s0.e3"
+            e2="DDI-DrugBank.d703.s0.e6" ddi="false"/>
+        <pair id="DDI-DrugBank.d703.s0.p30" e1="DDI-DrugBank.d703.s0.e3"
+            e2="DDI-DrugBank.d703.s0.e7" ddi="false"/>
+        <pair id="DDI-DrugBank.d703.s0.p31" e1="DDI-DrugBank.d703.s0.e3"
+            e2="DDI-DrugBank.d703.s0.e8" ddi="false"/>
+        <pair id="DDI-DrugBank.d703.s0.p32" e1="DDI-DrugBank.d703.s0.e3"
+            e2="DDI-DrugBank.d703.s0.e9" ddi="false"/>
+        <pair id="DDI-DrugBank.d703.s0.p33" e1="DDI-DrugBank.d703.s0.e3"
+            e2="DDI-DrugBank.d703.s0.e10" ddi="false"/>
+        <pair id="DDI-DrugBank.d703.s0.p34" e1="DDI-DrugBank.d703.s0.e4"
+            e2="DDI-DrugBank.d703.s0.e5" ddi="false"/>
+        <pair id="DDI-DrugBank.d703.s0.p35" e1="DDI-DrugBank.d703.s0.e4"
+            e2="DDI-DrugBank.d703.s0.e6" ddi="false"/>
+        <pair id="DDI-DrugBank.d703.s0.p36" e1="DDI-DrugBank.d703.s0.e4"
+            e2="DDI-DrugBank.d703.s0.e7" ddi="false"/>
+        <pair id="DDI-DrugBank.d703.s0.p37" e1="DDI-DrugBank.d703.s0.e4"
+            e2="DDI-DrugBank.d703.s0.e8" ddi="false"/>
+        <pair id="DDI-DrugBank.d703.s0.p38" e1="DDI-DrugBank.d703.s0.e4"
+            e2="DDI-DrugBank.d703.s0.e9" ddi="false"/>
+        <pair id="DDI-DrugBank.d703.s0.p39" e1="DDI-DrugBank.d703.s0.e4"
+            e2="DDI-DrugBank.d703.s0.e10" ddi="false"/>
+        <pair id="DDI-DrugBank.d703.s0.p40" e1="DDI-DrugBank.d703.s0.e5"
+            e2="DDI-DrugBank.d703.s0.e6" ddi="false"/>
+        <pair id="DDI-DrugBank.d703.s0.p41" e1="DDI-DrugBank.d703.s0.e5"
+            e2="DDI-DrugBank.d703.s0.e7" ddi="false"/>
+        <pair id="DDI-DrugBank.d703.s0.p42" e1="DDI-DrugBank.d703.s0.e5"
+            e2="DDI-DrugBank.d703.s0.e8" ddi="false"/>
+        <pair id="DDI-DrugBank.d703.s0.p43" e1="DDI-DrugBank.d703.s0.e5"
+            e2="DDI-DrugBank.d703.s0.e9" ddi="false"/>
+        <pair id="DDI-DrugBank.d703.s0.p44" e1="DDI-DrugBank.d703.s0.e5"
+            e2="DDI-DrugBank.d703.s0.e10" ddi="false"/>
+        <pair id="DDI-DrugBank.d703.s0.p45" e1="DDI-DrugBank.d703.s0.e6"
+            e2="DDI-DrugBank.d703.s0.e7" ddi="false"/>
+        <pair id="DDI-DrugBank.d703.s0.p46" e1="DDI-DrugBank.d703.s0.e6"
+            e2="DDI-DrugBank.d703.s0.e8" ddi="false"/>
+        <pair id="DDI-DrugBank.d703.s0.p47" e1="DDI-DrugBank.d703.s0.e6"
+            e2="DDI-DrugBank.d703.s0.e9" ddi="false"/>
+        <pair id="DDI-DrugBank.d703.s0.p48" e1="DDI-DrugBank.d703.s0.e6"
+            e2="DDI-DrugBank.d703.s0.e10" ddi="false"/>
+        <pair id="DDI-DrugBank.d703.s0.p49" e1="DDI-DrugBank.d703.s0.e7"
+            e2="DDI-DrugBank.d703.s0.e8" ddi="false"/>
+        <pair id="DDI-DrugBank.d703.s0.p50" e1="DDI-DrugBank.d703.s0.e7"
+            e2="DDI-DrugBank.d703.s0.e9" ddi="false"/>
+        <pair id="DDI-DrugBank.d703.s0.p51" e1="DDI-DrugBank.d703.s0.e7"
+            e2="DDI-DrugBank.d703.s0.e10" ddi="false"/>
+        <pair id="DDI-DrugBank.d703.s0.p52" e1="DDI-DrugBank.d703.s0.e8"
+            e2="DDI-DrugBank.d703.s0.e9" ddi="false"/>
+        <pair id="DDI-DrugBank.d703.s0.p53" e1="DDI-DrugBank.d703.s0.e8"
+            e2="DDI-DrugBank.d703.s0.e10" ddi="false"/>
+        <pair id="DDI-DrugBank.d703.s0.p54" e1="DDI-DrugBank.d703.s0.e9"
+            e2="DDI-DrugBank.d703.s0.e10" ddi="false"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d703.s1" text="RESPIRATORY DEPRESSION, HYPOTENSION, AND PROFOUND SEDATION OR COMA MAY RESULT."/>
+</document>

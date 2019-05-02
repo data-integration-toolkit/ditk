@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="DDI-DrugBank.d579">
+    <sentence id="DDI-DrugBank.d579.s0" text="Patients receiving antibiotics and sulfonamides generally should not be treated with ganglion blockers.  ">
+        <entity id="DDI-DrugBank.d579.s0.e0" charOffset="19-29"
+            type="group" text="antibiotics"/>
+        <entity id="DDI-DrugBank.d579.s0.e1" charOffset="35-46"
+            type="group" text="sulfonamides"/>
+        <entity id="DDI-DrugBank.d579.s0.e2" charOffset="85-101"
+            type="group" text="ganglion blockers"/>
+        <pair id="DDI-DrugBank.d579.s0.p0" e1="DDI-DrugBank.d579.s0.e0"
+            e2="DDI-DrugBank.d579.s0.e1" ddi="false"/>
+        <pair id="DDI-DrugBank.d579.s0.p1" e1="DDI-DrugBank.d579.s0.e0"
+            e2="DDI-DrugBank.d579.s0.e2" ddi="true" type="advise"/>
+        <pair id="DDI-DrugBank.d579.s0.p2" e1="DDI-DrugBank.d579.s0.e1"
+            e2="DDI-DrugBank.d579.s0.e2" ddi="true" type="advise"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d579.s1" text="The action of Mecamylamine may be potentiated by anesthesia, other antihypertensive drugs and alcohol.">
+        <entity id="DDI-DrugBank.d579.s1.e0" charOffset="14-25"
+            type="drug" text="Mecamylamine"/>
+        <entity id="DDI-DrugBank.d579.s1.e1" charOffset="67-88"
+            type="group" text="antihypertensive drugs"/>
+        <entity id="DDI-DrugBank.d579.s1.e2" charOffset="94-100"
+            type="drug" text="alcohol"/>
+        <pair id="DDI-DrugBank.d579.s1.p0" e1="DDI-DrugBank.d579.s1.e0"
+            e2="DDI-DrugBank.d579.s1.e1" ddi="true" type="effect"/>
+        <pair id="DDI-DrugBank.d579.s1.p1" e1="DDI-DrugBank.d579.s1.e0"
+            e2="DDI-DrugBank.d579.s1.e2" ddi="true" type="effect"/>
+        <pair id="DDI-DrugBank.d579.s1.p2" e1="DDI-DrugBank.d579.s1.e1"
+            e2="DDI-DrugBank.d579.s1.e2" ddi="false"/>
+    </sentence>
+</document>

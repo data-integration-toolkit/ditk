@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="DDI-DrugBank.d311">
+    <sentence id="DDI-DrugBank.d311.s0" text="Taking a rauwolfia alkaloid while you are taking or within 2 weeks of taking MAO inhibitors may increase the risk of central nervous system depression or may cause a severe high blood pressure reaction.">
+        <entity id="DDI-DrugBank.d311.s0.e0" charOffset="9-26"
+            type="group" text="rauwolfia alkaloid"/>
+        <entity id="DDI-DrugBank.d311.s0.e1" charOffset="77-90"
+            type="group" text="MAO inhibitors"/>
+        <pair id="DDI-DrugBank.d311.s0.p0" e1="DDI-DrugBank.d311.s0.e0"
+            e2="DDI-DrugBank.d311.s0.e1" ddi="true" type="effect"/>
+    </sentence>
+</document>

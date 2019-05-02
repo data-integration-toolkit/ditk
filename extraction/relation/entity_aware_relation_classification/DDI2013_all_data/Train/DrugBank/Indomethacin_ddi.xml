@@ -1,0 +1,341 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="DDI-DrugBank.d82">
+    <sentence id="DDI-DrugBank.d82.s0" text="In normal volunteers receiving indomethacin, the administration of diflunisal decreased the renal clearance and significantly increased the plasma levels of indomethacin.">
+        <entity id="DDI-DrugBank.d82.s0.e0" charOffset="31-42"
+            type="drug" text="indomethacin"/>
+        <entity id="DDI-DrugBank.d82.s0.e1" charOffset="67-76"
+            type="drug" text="diflunisal"/>
+        <entity id="DDI-DrugBank.d82.s0.e2" charOffset="157-168"
+            type="drug" text="indomethacin"/>
+        <pair id="DDI-DrugBank.d82.s0.p0" e1="DDI-DrugBank.d82.s0.e0"
+            e2="DDI-DrugBank.d82.s0.e1" ddi="false"/>
+        <pair id="DDI-DrugBank.d82.s0.p1" e1="DDI-DrugBank.d82.s0.e0"
+            e2="DDI-DrugBank.d82.s0.e2" ddi="false"/>
+        <pair id="DDI-DrugBank.d82.s0.p2" e1="DDI-DrugBank.d82.s0.e1"
+            e2="DDI-DrugBank.d82.s0.e2" ddi="true" type="mechanism"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d82.s1" text="In some patients, combined use of INDOCIN and diflunisal has been associated with fatal gastrointestinal hemorrhage.">
+        <entity id="DDI-DrugBank.d82.s1.e0" charOffset="34-40"
+            type="brand" text="INDOCIN"/>
+        <entity id="DDI-DrugBank.d82.s1.e1" charOffset="46-55"
+            type="drug" text="diflunisal"/>
+        <pair id="DDI-DrugBank.d82.s1.p0" e1="DDI-DrugBank.d82.s1.e0"
+            e2="DDI-DrugBank.d82.s1.e1" ddi="true" type="effect"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d82.s2" text="Therefore, diflunisal and INDOCIN should not be used concomitantly.">
+        <entity id="DDI-DrugBank.d82.s2.e0" charOffset="11-20"
+            type="drug" text="diflunisal"/>
+        <entity id="DDI-DrugBank.d82.s2.e1" charOffset="26-32"
+            type="brand" text="INDOCIN"/>
+        <pair id="DDI-DrugBank.d82.s2.p0" e1="DDI-DrugBank.d82.s2.e0"
+            e2="DDI-DrugBank.d82.s2.e1" ddi="true" type="advise"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d82.s3" text="In a study in normal volunteers, it was found that chronic concurrent administration of 3.6 g of aspirin per day decreases indomethacin blood levels approximately 20%.">
+        <entity id="DDI-DrugBank.d82.s3.e0" charOffset="97-103"
+            type="brand" text="aspirin"/>
+        <entity id="DDI-DrugBank.d82.s3.e1" charOffset="123-134"
+            type="drug" text="indomethacin"/>
+        <pair id="DDI-DrugBank.d82.s3.p0" e1="DDI-DrugBank.d82.s3.e0"
+            e2="DDI-DrugBank.d82.s3.e1" ddi="true" type="mechanism"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d82.s4" text="The concomitant use of INDOCIN with other NSAIDs is not recommended due to the increased possibility of gastrointestinal toxicity, with little or no increase in efficacy.">
+        <entity id="DDI-DrugBank.d82.s4.e0" charOffset="23-29"
+            type="brand" text="INDOCIN"/>
+        <entity id="DDI-DrugBank.d82.s4.e1" charOffset="42-47"
+            type="group" text="NSAIDs"/>
+        <pair id="DDI-DrugBank.d82.s4.p0" e1="DDI-DrugBank.d82.s4.e0"
+            e2="DDI-DrugBank.d82.s4.e1" ddi="true" type="advise"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d82.s5" text="Clinical studies have shown that INDOCIN does not influence the hypoprothrombinemia produced by anticoagulants.">
+        <entity id="DDI-DrugBank.d82.s5.e0" charOffset="33-39"
+            type="brand" text="INDOCIN"/>
+        <entity id="DDI-DrugBank.d82.s5.e1" charOffset="96-109"
+            type="group" text="anticoagulants"/>
+        <pair id="DDI-DrugBank.d82.s5.p0" e1="DDI-DrugBank.d82.s5.e0"
+            e2="DDI-DrugBank.d82.s5.e1" ddi="false"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d82.s6" text="However, when any additional drug, including INDOCIN, is added to the treatment of patients on anticoagulant therapy, the patients should be observed for alterations of the prothrombin time.">
+        <entity id="DDI-DrugBank.d82.s6.e0" charOffset="45-51"
+            type="brand" text="INDOCIN"/>
+        <entity id="DDI-DrugBank.d82.s6.e1" charOffset="95-107"
+            type="group" text="anticoagulant"/>
+        <pair id="DDI-DrugBank.d82.s6.p0" e1="DDI-DrugBank.d82.s6.e0"
+            e2="DDI-DrugBank.d82.s6.e1" ddi="true" type="advise"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d82.s7" text="In post-marketing experience, bleeding has been reported in patients on concomitant treatment with anticoagulants and INDOCIN.">
+        <entity id="DDI-DrugBank.d82.s7.e0" charOffset="99-112"
+            type="group" text="anticoagulants"/>
+        <entity id="DDI-DrugBank.d82.s7.e1" charOffset="118-124"
+            type="brand" text="INDOCIN"/>
+        <pair id="DDI-DrugBank.d82.s7.p0" e1="DDI-DrugBank.d82.s7.e0"
+            e2="DDI-DrugBank.d82.s7.e1" ddi="true" type="effect"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d82.s8" text="Caution should be exercised when INDOCIN and anticoagulants are administered concomitantly.">
+        <entity id="DDI-DrugBank.d82.s8.e0" charOffset="33-39"
+            type="brand" text="INDOCIN"/>
+        <entity id="DDI-DrugBank.d82.s8.e1" charOffset="45-58"
+            type="group" text="anticoagulants"/>
+        <pair id="DDI-DrugBank.d82.s8.p0" e1="DDI-DrugBank.d82.s8.e0"
+            e2="DDI-DrugBank.d82.s8.e1" ddi="true" type="advise"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d82.s9" text="When INDOCIN is given to patients receiving probenecid, the plasma levels of indomethacin are likely to be increased.">
+        <entity id="DDI-DrugBank.d82.s9.e0" charOffset="5-11"
+            type="brand" text="INDOCIN"/>
+        <entity id="DDI-DrugBank.d82.s9.e1" charOffset="44-53"
+            type="drug" text="probenecid"/>
+        <entity id="DDI-DrugBank.d82.s9.e2" charOffset="77-88"
+            type="drug" text="indomethacin"/>
+        <pair id="DDI-DrugBank.d82.s9.p0" e1="DDI-DrugBank.d82.s9.e0"
+            e2="DDI-DrugBank.d82.s9.e1" ddi="true" type="mechanism"/>
+        <pair id="DDI-DrugBank.d82.s9.p1" e1="DDI-DrugBank.d82.s9.e0"
+            e2="DDI-DrugBank.d82.s9.e2" ddi="false"/>
+        <pair id="DDI-DrugBank.d82.s9.p2" e1="DDI-DrugBank.d82.s9.e1"
+            e2="DDI-DrugBank.d82.s9.e2" ddi="false"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d82.s10" text="Therefore, a lower total daily dosage of INDOCIN may produce a satisfactory therapeutic effect.">
+        <entity id="DDI-DrugBank.d82.s10.e0" charOffset="41-47"
+            type="brand" text="INDOCIN"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d82.s11" text="When increases in the dose of INDOCIN are made, they should be made carefully and in small increments.">
+        <entity id="DDI-DrugBank.d82.s11.e0" charOffset="30-36"
+            type="brand" text="INDOCIN"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d82.s12" text="Caution should be used if INDOCIN is administered simultaneously with methotrexate.">
+        <entity id="DDI-DrugBank.d82.s12.e0" charOffset="26-32"
+            type="brand" text="INDOCIN"/>
+        <entity id="DDI-DrugBank.d82.s12.e1" charOffset="70-81"
+            type="drug" text="methotrexate"/>
+        <pair id="DDI-DrugBank.d82.s12.p0" e1="DDI-DrugBank.d82.s12.e0"
+            e2="DDI-DrugBank.d82.s12.e1" ddi="true" type="advise"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d82.s13" text="INDOCIN has been reported to decrease the tubular secretion of methotrexate and to potentiate its toxicity.">
+        <entity id="DDI-DrugBank.d82.s13.e0" charOffset="0-6"
+            type="brand" text="INDOCIN"/>
+        <entity id="DDI-DrugBank.d82.s13.e1" charOffset="63-74"
+            type="drug" text="methotrexate"/>
+        <pair id="DDI-DrugBank.d82.s13.p0" e1="DDI-DrugBank.d82.s13.e0"
+            e2="DDI-DrugBank.d82.s13.e1" ddi="true" type="mechanism"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d82.s14" text="Administration of non-steroidal anti-inflammatory drugs concomitantly with cyclosporine has been associated with an increase in cyclosporine-induced toxicity, possibly due to decreased synthesis of renal prostacyclin.">
+        <entity id="DDI-DrugBank.d82.s14.e0" charOffset="18-54"
+            type="group" text="non-steroidal anti-inflammatory drugs"/>
+        <entity id="DDI-DrugBank.d82.s14.e1" charOffset="75-86"
+            type="drug" text="cyclosporine"/>
+        <entity id="DDI-DrugBank.d82.s14.e2" charOffset="128-139"
+            type="drug" text="cyclosporine"/>
+        <pair id="DDI-DrugBank.d82.s14.p0" e1="DDI-DrugBank.d82.s14.e0"
+            e2="DDI-DrugBank.d82.s14.e1" ddi="true" type="effect"/>
+        <pair id="DDI-DrugBank.d82.s14.p1" e1="DDI-DrugBank.d82.s14.e0"
+            e2="DDI-DrugBank.d82.s14.e2" ddi="false"/>
+        <pair id="DDI-DrugBank.d82.s14.p2" e1="DDI-DrugBank.d82.s14.e1"
+            e2="DDI-DrugBank.d82.s14.e2" ddi="false"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d82.s15" text="NSAIDs should be used with caution in patients taking cyclosporine, and renal function should be carefully monitored.">
+        <entity id="DDI-DrugBank.d82.s15.e0" charOffset="0-5"
+            type="group" text="NSAIDs"/>
+        <entity id="DDI-DrugBank.d82.s15.e1" charOffset="54-65"
+            type="drug" text="cyclosporine"/>
+        <pair id="DDI-DrugBank.d82.s15.p0" e1="DDI-DrugBank.d82.s15.e0"
+            e2="DDI-DrugBank.d82.s15.e1" ddi="true" type="advise"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d82.s16" text="Capsules INDOCIN 50 mg t.i.d. produced a clinically relevant elevation of plasma lithium and reduction in renal lithium clearance in psychiatric patients and normal subjects with steady state plasma lithium concentrations.">
+        <entity id="DDI-DrugBank.d82.s16.e0" charOffset="9-15"
+            type="brand" text="INDOCIN"/>
+        <entity id="DDI-DrugBank.d82.s16.e1" charOffset="81-87"
+            type="drug" text="lithium"/>
+        <entity id="DDI-DrugBank.d82.s16.e2" charOffset="112-118"
+            type="drug" text="lithium"/>
+        <entity id="DDI-DrugBank.d82.s16.e3" charOffset="199-205"
+            type="drug" text="lithium"/>
+        <pair id="DDI-DrugBank.d82.s16.p0" e1="DDI-DrugBank.d82.s16.e0"
+            e2="DDI-DrugBank.d82.s16.e1" ddi="true" type="mechanism"/>
+        <pair id="DDI-DrugBank.d82.s16.p1" e1="DDI-DrugBank.d82.s16.e0"
+            e2="DDI-DrugBank.d82.s16.e2" ddi="false"/>
+        <pair id="DDI-DrugBank.d82.s16.p2" e1="DDI-DrugBank.d82.s16.e0"
+            e2="DDI-DrugBank.d82.s16.e3" ddi="false"/>
+        <pair id="DDI-DrugBank.d82.s16.p3" e1="DDI-DrugBank.d82.s16.e1"
+            e2="DDI-DrugBank.d82.s16.e2" ddi="false"/>
+        <pair id="DDI-DrugBank.d82.s16.p4" e1="DDI-DrugBank.d82.s16.e1"
+            e2="DDI-DrugBank.d82.s16.e3" ddi="false"/>
+        <pair id="DDI-DrugBank.d82.s16.p5" e1="DDI-DrugBank.d82.s16.e2"
+            e2="DDI-DrugBank.d82.s16.e3" ddi="false"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d82.s17" text="This effect has been attributed to inhibition of prostaglandin synthesis."/>
+    <sentence id="DDI-DrugBank.d82.s18" text="As a consequence, when INDOCIN and lithium are given concomitantly, the patient should be carefully observed for signs of lithium toxicity.">
+        <entity id="DDI-DrugBank.d82.s18.e0" charOffset="23-29"
+            type="brand" text="INDOCIN"/>
+        <entity id="DDI-DrugBank.d82.s18.e1" charOffset="35-41"
+            type="drug" text="lithium"/>
+        <entity id="DDI-DrugBank.d82.s18.e2" charOffset="122-128"
+            type="drug" text="lithium"/>
+        <pair id="DDI-DrugBank.d82.s18.p0" e1="DDI-DrugBank.d82.s18.e0"
+            e2="DDI-DrugBank.d82.s18.e1" ddi="true" type="advise"/>
+        <pair id="DDI-DrugBank.d82.s18.p1" e1="DDI-DrugBank.d82.s18.e0"
+            e2="DDI-DrugBank.d82.s18.e2" ddi="false"/>
+        <pair id="DDI-DrugBank.d82.s18.p2" e1="DDI-DrugBank.d82.s18.e1"
+            e2="DDI-DrugBank.d82.s18.e2" ddi="false"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d82.s19" text="(Read circulars for lithium preparations before use of such concomitant therapy.)">
+        <entity id="DDI-DrugBank.d82.s19.e0" charOffset="20-26"
+            type="drug" text="lithium"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d82.s20" text="In addition, the frequency of monitoring serum lithium concentration should be increased at the outset of such combination drug treatment.">
+        <entity id="DDI-DrugBank.d82.s20.e0" charOffset="47-53"
+            type="drug" text="lithium"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d82.s21" text="INDOCIN given concomitantly with digoxin has been reported to increase the serum concentration and prolong the half-life of digoxin.">
+        <entity id="DDI-DrugBank.d82.s21.e0" charOffset="0-6"
+            type="brand" text="INDOCIN"/>
+        <entity id="DDI-DrugBank.d82.s21.e1" charOffset="33-39"
+            type="drug" text="digoxin"/>
+        <entity id="DDI-DrugBank.d82.s21.e2" charOffset="124-130"
+            type="drug" text="digoxin"/>
+        <pair id="DDI-DrugBank.d82.s21.p0" e1="DDI-DrugBank.d82.s21.e0"
+            e2="DDI-DrugBank.d82.s21.e1" ddi="true" type="mechanism"/>
+        <pair id="DDI-DrugBank.d82.s21.p1" e1="DDI-DrugBank.d82.s21.e0"
+            e2="DDI-DrugBank.d82.s21.e2" ddi="false"/>
+        <pair id="DDI-DrugBank.d82.s21.p2" e1="DDI-DrugBank.d82.s21.e1"
+            e2="DDI-DrugBank.d82.s21.e2" ddi="false"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d82.s22" text="Therefore, when INDOCIN and digoxin are used concomitantly, serum digoxin levels should be closely monitored.">
+        <entity id="DDI-DrugBank.d82.s22.e0" charOffset="16-22"
+            type="brand" text="INDOCIN"/>
+        <entity id="DDI-DrugBank.d82.s22.e1" charOffset="28-34"
+            type="drug" text="digoxin"/>
+        <entity id="DDI-DrugBank.d82.s22.e2" charOffset="66-72"
+            type="drug" text="digoxin"/>
+        <pair id="DDI-DrugBank.d82.s22.p0" e1="DDI-DrugBank.d82.s22.e0"
+            e2="DDI-DrugBank.d82.s22.e1" ddi="true" type="advise"/>
+        <pair id="DDI-DrugBank.d82.s22.p1" e1="DDI-DrugBank.d82.s22.e0"
+            e2="DDI-DrugBank.d82.s22.e2" ddi="false"/>
+        <pair id="DDI-DrugBank.d82.s22.p2" e1="DDI-DrugBank.d82.s22.e1"
+            e2="DDI-DrugBank.d82.s22.e2" ddi="false"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d82.s23" text="In some patients, the administration of INDOCIN can reduce the diuretic, natriuretic, and antihypertensive effects of loop, potassium-sparing, and thiazide diuretics.">
+        <entity id="DDI-DrugBank.d82.s23.e0" charOffset="40-46"
+            type="brand" text="INDOCIN"/>
+        <entity id="DDI-DrugBank.d82.s23.e1"
+            charOffset="118-121;156-164" type="group" text="loop diuretics"/>
+        <entity id="DDI-DrugBank.d82.s23.e2"
+            charOffset="124-140;156-164" type="group" text="potassium-sparing diuretics"/>
+        <entity id="DDI-DrugBank.d82.s23.e3" charOffset="147-164"
+            type="group" text="thiazide diuretics"/>
+        <pair id="DDI-DrugBank.d82.s23.p0" e1="DDI-DrugBank.d82.s23.e0"
+            e2="DDI-DrugBank.d82.s23.e1" ddi="true" type="effect"/>
+        <pair id="DDI-DrugBank.d82.s23.p1" e1="DDI-DrugBank.d82.s23.e0"
+            e2="DDI-DrugBank.d82.s23.e2" ddi="true" type="effect"/>
+        <pair id="DDI-DrugBank.d82.s23.p2" e1="DDI-DrugBank.d82.s23.e0"
+            e2="DDI-DrugBank.d82.s23.e3" ddi="true" type="effect"/>
+        <pair id="DDI-DrugBank.d82.s23.p3" e1="DDI-DrugBank.d82.s23.e1"
+            e2="DDI-DrugBank.d82.s23.e2" ddi="false"/>
+        <pair id="DDI-DrugBank.d82.s23.p4" e1="DDI-DrugBank.d82.s23.e1"
+            e2="DDI-DrugBank.d82.s23.e3" ddi="false"/>
+        <pair id="DDI-DrugBank.d82.s23.p5" e1="DDI-DrugBank.d82.s23.e2"
+            e2="DDI-DrugBank.d82.s23.e3" ddi="false"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d82.s24" text="Therefore, when INDOCIN and INDOCIN.">
+        <entity id="DDI-DrugBank.d82.s24.e0" charOffset="16-22"
+            type="brand" text="INDOCIN"/>
+        <entity id="DDI-DrugBank.d82.s24.e1" charOffset="28-34"
+            type="brand" text="INDOCIN"/>
+        <pair id="DDI-DrugBank.d82.s24.p0" e1="DDI-DrugBank.d82.s24.e0"
+            e2="DDI-DrugBank.d82.s24.e1" ddi="false"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d82.s25" text="(Indomethacin) diuretics are used concomitantly, the patient should be observed closely to determine if the desired effect of the diuretic is obtained.">
+        <entity id="DDI-DrugBank.d82.s25.e0" charOffset="1-12"
+            type="drug" text="Indomethacin"/>
+        <entity id="DDI-DrugBank.d82.s25.e1" charOffset="15-23"
+            type="group" text="diuretics"/>
+        <entity id="DDI-DrugBank.d82.s25.e2" charOffset="130-137"
+            type="group" text="diuretic"/>
+        <pair id="DDI-DrugBank.d82.s25.p0" e1="DDI-DrugBank.d82.s25.e0"
+            e2="DDI-DrugBank.d82.s25.e1" ddi="false"/>
+        <pair id="DDI-DrugBank.d82.s25.p1" e1="DDI-DrugBank.d82.s25.e0"
+            e2="DDI-DrugBank.d82.s25.e2" ddi="false"/>
+        <pair id="DDI-DrugBank.d82.s25.p2" e1="DDI-DrugBank.d82.s25.e1"
+            e2="DDI-DrugBank.d82.s25.e2" ddi="false"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d82.s26" text="INDOCIN reduces basal plasma renin activity (PRA), as well as those elevations of PRA induced by furosemide administration, or salt or volume depletion.">
+        <entity id="DDI-DrugBank.d82.s26.e0" charOffset="0-6"
+            type="brand" text="INDOCIN"/>
+        <entity id="DDI-DrugBank.d82.s26.e1" charOffset="97-106"
+            type="drug" text="furosemide"/>
+        <pair id="DDI-DrugBank.d82.s26.p0" e1="DDI-DrugBank.d82.s26.e0"
+            e2="DDI-DrugBank.d82.s26.e1" ddi="false"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d82.s27" text="These facts should be considered when evaluating plasma renin activity in hypertensive patients."/>
+    <sentence id="DDI-DrugBank.d82.s28" text="It has been reported that the addition of triamterene to a maintenance schedule of INDOCIN resulted in reversible acute renal failure in two of four healthy volunteers.">
+        <entity id="DDI-DrugBank.d82.s28.e0" charOffset="42-52"
+            type="drug" text="triamterene"/>
+        <entity id="DDI-DrugBank.d82.s28.e1" charOffset="83-89"
+            type="brand" text="INDOCIN"/>
+        <pair id="DDI-DrugBank.d82.s28.p0" e1="DDI-DrugBank.d82.s28.e0"
+            e2="DDI-DrugBank.d82.s28.e1" ddi="true" type="effect"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d82.s29" text="INDOCIN and triamterene should not be administered together.">
+        <entity id="DDI-DrugBank.d82.s29.e0" charOffset="0-6"
+            type="brand" text="INDOCIN"/>
+        <entity id="DDI-DrugBank.d82.s29.e1" charOffset="12-22"
+            type="drug" text="triamterene"/>
+        <pair id="DDI-DrugBank.d82.s29.p0" e1="DDI-DrugBank.d82.s29.e0"
+            e2="DDI-DrugBank.d82.s29.e1" ddi="true" type="advise"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d82.s30" text="INDOCIN and potassium-sparing diuretics each may be associated with increased serum potassium levels.">
+        <entity id="DDI-DrugBank.d82.s30.e0" charOffset="0-6"
+            type="brand" text="INDOCIN"/>
+        <entity id="DDI-DrugBank.d82.s30.e1" charOffset="12-38"
+            type="group" text="potassium-sparing diuretics"/>
+        <pair id="DDI-DrugBank.d82.s30.p0" e1="DDI-DrugBank.d82.s30.e0"
+            e2="DDI-DrugBank.d82.s30.e1" ddi="false"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d82.s31" text="The potential effects of INDOCIN and potassium-sparing diuretics on potassium kinetics and renal function should be considered when these agents are administered concurrently.">
+        <entity id="DDI-DrugBank.d82.s31.e0" charOffset="25-31"
+            type="brand" text="INDOCIN"/>
+        <entity id="DDI-DrugBank.d82.s31.e1" charOffset="37-63"
+            type="group" text="potassium-sparing diuretics"/>
+        <pair id="DDI-DrugBank.d82.s31.p0" e1="DDI-DrugBank.d82.s31.e0"
+            e2="DDI-DrugBank.d82.s31.e1" ddi="true" type="effect"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d82.s32" text="Most of the above effects concerning diuretics have been attributed, at least in part, to mechanisms involving inhibition of prostaglandin synthesis by INDOCIN.">
+        <entity id="DDI-DrugBank.d82.s32.e0" charOffset="37-45"
+            type="group" text="diuretics"/>
+        <entity id="DDI-DrugBank.d82.s32.e1" charOffset="152-158"
+            type="brand" text="INDOCIN"/>
+        <pair id="DDI-DrugBank.d82.s32.p0" e1="DDI-DrugBank.d82.s32.e0"
+            e2="DDI-DrugBank.d82.s32.e1" ddi="true" type="effect"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d82.s33" text="Blunting of the antihypertensive effect of beta-adrenoceptor blocking agents by non-steroidal antiinflammatory drugs including INDOCIN has been reported.">
+        <entity id="DDI-DrugBank.d82.s33.e0" charOffset="43-75"
+            type="group" text="beta-adrenoceptor blocking agents"/>
+        <entity id="DDI-DrugBank.d82.s33.e1" charOffset="80-115"
+            type="group" text="non-steroidal antiinflammatory drugs"/>
+        <entity id="DDI-DrugBank.d82.s33.e2" charOffset="127-133"
+            type="brand" text="INDOCIN"/>
+        <pair id="DDI-DrugBank.d82.s33.p0" e1="DDI-DrugBank.d82.s33.e0"
+            e2="DDI-DrugBank.d82.s33.e1" ddi="true" type="effect"/>
+        <pair id="DDI-DrugBank.d82.s33.p1" e1="DDI-DrugBank.d82.s33.e0"
+            e2="DDI-DrugBank.d82.s33.e2" ddi="true" type="effect"/>
+        <pair id="DDI-DrugBank.d82.s33.p2" e1="DDI-DrugBank.d82.s33.e1"
+            e2="DDI-DrugBank.d82.s33.e2" ddi="false"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d82.s34" text="Therefore, when using these blocking agents to treat hypertension, patients should be observed carefully in order to confirm that the desired therapeutic effect has been obtained."/>
+    <sentence id="DDI-DrugBank.d82.s35" text="INDOCIN can reduce the antihypertensive effects of captopril and losartan.">
+        <entity id="DDI-DrugBank.d82.s35.e0" charOffset="0-6"
+            type="brand" text="INDOCIN"/>
+        <entity id="DDI-DrugBank.d82.s35.e1" charOffset="51-59"
+            type="drug" text="captopril"/>
+        <entity id="DDI-DrugBank.d82.s35.e2" charOffset="65-72"
+            type="drug" text="losartan"/>
+        <pair id="DDI-DrugBank.d82.s35.p0" e1="DDI-DrugBank.d82.s35.e0"
+            e2="DDI-DrugBank.d82.s35.e1" ddi="true" type="effect"/>
+        <pair id="DDI-DrugBank.d82.s35.p1" e1="DDI-DrugBank.d82.s35.e0"
+            e2="DDI-DrugBank.d82.s35.e2" ddi="true" type="effect"/>
+        <pair id="DDI-DrugBank.d82.s35.p2" e1="DDI-DrugBank.d82.s35.e1"
+            e2="DDI-DrugBank.d82.s35.e2" ddi="false"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d82.s36" text="False-negative results in the dexamethasone suppression test (DST) in patients being treated with INDOCIN have been reported.">
+        <entity id="DDI-DrugBank.d82.s36.e0" charOffset="98-104"
+            type="brand" text="INDOCIN"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d82.s37" text="Thus, results of the DST should be interpreted with caution in these patients."/>
+</document>

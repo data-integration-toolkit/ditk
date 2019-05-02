@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="DDI-DrugBank.d248">
+    <sentence id="DDI-DrugBank.d248.s0" text="May interact anticoagulants (altered hypo-prothrombinemic effect), barbiturates, rifampin and other inducers of hepatic microsomal enzyme oxidation system (decreased effect of diethylstilbestrol), corticosteroids (increased effect of corticosteroids).">
+        <entity id="DDI-DrugBank.d248.s0.e0" charOffset="13-26"
+            type="group" text="anticoagulants"/>
+        <entity id="DDI-DrugBank.d248.s0.e1" charOffset="67-78"
+            type="group" text="barbiturates"/>
+        <entity id="DDI-DrugBank.d248.s0.e2" charOffset="81-88"
+            type="drug" text="rifampin"/>
+        <entity id="DDI-DrugBank.d248.s0.e3" charOffset="176-193"
+            type="drug" text="diethylstilbestrol"/>
+        <entity id="DDI-DrugBank.d248.s0.e4" charOffset="197-211"
+            type="group" text="corticosteroids"/>
+        <entity id="DDI-DrugBank.d248.s0.e5" charOffset="234-248"
+            type="group" text="corticosteroids"/>
+        <pair id="DDI-DrugBank.d248.s0.p0" e1="DDI-DrugBank.d248.s0.e0"
+            e2="DDI-DrugBank.d248.s0.e1" ddi="false"/>
+        <pair id="DDI-DrugBank.d248.s0.p1" e1="DDI-DrugBank.d248.s0.e0"
+            e2="DDI-DrugBank.d248.s0.e2" ddi="false"/>
+        <pair id="DDI-DrugBank.d248.s0.p2" e1="DDI-DrugBank.d248.s0.e0"
+            e2="DDI-DrugBank.d248.s0.e3" ddi="false"/>
+        <pair id="DDI-DrugBank.d248.s0.p3" e1="DDI-DrugBank.d248.s0.e0"
+            e2="DDI-DrugBank.d248.s0.e4" ddi="false"/>
+        <pair id="DDI-DrugBank.d248.s0.p4" e1="DDI-DrugBank.d248.s0.e0"
+            e2="DDI-DrugBank.d248.s0.e5" ddi="false"/>
+        <pair id="DDI-DrugBank.d248.s0.p5" e1="DDI-DrugBank.d248.s0.e1"
+            e2="DDI-DrugBank.d248.s0.e2" ddi="false"/>
+        <pair id="DDI-DrugBank.d248.s0.p6" e1="DDI-DrugBank.d248.s0.e1"
+            e2="DDI-DrugBank.d248.s0.e3" ddi="false"/>
+        <pair id="DDI-DrugBank.d248.s0.p7" e1="DDI-DrugBank.d248.s0.e1"
+            e2="DDI-DrugBank.d248.s0.e4" ddi="false"/>
+        <pair id="DDI-DrugBank.d248.s0.p8" e1="DDI-DrugBank.d248.s0.e1"
+            e2="DDI-DrugBank.d248.s0.e5" ddi="false"/>
+        <pair id="DDI-DrugBank.d248.s0.p9" e1="DDI-DrugBank.d248.s0.e2"
+            e2="DDI-DrugBank.d248.s0.e3" ddi="false"/>
+        <pair id="DDI-DrugBank.d248.s0.p10" e1="DDI-DrugBank.d248.s0.e2"
+            e2="DDI-DrugBank.d248.s0.e4" ddi="false"/>
+        <pair id="DDI-DrugBank.d248.s0.p11" e1="DDI-DrugBank.d248.s0.e2"
+            e2="DDI-DrugBank.d248.s0.e5" ddi="false"/>
+        <pair id="DDI-DrugBank.d248.s0.p12" e1="DDI-DrugBank.d248.s0.e3"
+            e2="DDI-DrugBank.d248.s0.e4" ddi="false"/>
+        <pair id="DDI-DrugBank.d248.s0.p13" e1="DDI-DrugBank.d248.s0.e3"
+            e2="DDI-DrugBank.d248.s0.e5" ddi="false"/>
+        <pair id="DDI-DrugBank.d248.s0.p14" e1="DDI-DrugBank.d248.s0.e4"
+            e2="DDI-DrugBank.d248.s0.e5" ddi="false"/>
+    </sentence>
+</document>

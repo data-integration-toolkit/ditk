@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="DDI-DrugBank.d186">
+    <sentence id="DDI-DrugBank.d186.s0" text="An encephalopathic syndrome (characterized by weakness, lethargy, fever, tremulousness and confusion, extrapyramidal symptoms, leukocytosis, elevated serum enzymes, BUN, and FBS) followed by irreversible brain damage has occurred in a few patients treated with lithium plus HALDOL.">
+        <entity id="DDI-DrugBank.d186.s0.e0" charOffset="261-267"
+            type="drug" text="lithium"/>
+        <entity id="DDI-DrugBank.d186.s0.e1" charOffset="274-279"
+            type="brand" text="HALDOL"/>
+        <pair id="DDI-DrugBank.d186.s0.p0" e1="DDI-DrugBank.d186.s0.e0"
+            e2="DDI-DrugBank.d186.s0.e1" ddi="true" type="effect"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d186.s1" text="A causal relationship between these events and the concomitant administration of lithium and HALDOL has not been established;">
+        <entity id="DDI-DrugBank.d186.s1.e0" charOffset="81-87"
+            type="drug" text="lithium"/>
+        <entity id="DDI-DrugBank.d186.s1.e1" charOffset="93-98"
+            type="brand" text="HALDOL"/>
+        <pair id="DDI-DrugBank.d186.s1.p0" e1="DDI-DrugBank.d186.s1.e0"
+            e2="DDI-DrugBank.d186.s1.e1" ddi="false"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d186.s2" text="however, patients receiving such combined therapy should be monitored closely for early evidence of neurological toxicity and treatment discontinued promptly if such signs appear."/>
+    <sentence id="DDI-DrugBank.d186.s3" text="As with other antipsychotic agents, it should be noted that HALDOL may be capable of potentiating CNS depressants such as anesthetics, opiates, and alcohol.">
+        <entity id="DDI-DrugBank.d186.s3.e0" charOffset="14-33"
+            type="group" text="antipsychotic agents"/>
+        <entity id="DDI-DrugBank.d186.s3.e1" charOffset="60-65"
+            type="brand" text="HALDOL"/>
+        <entity id="DDI-DrugBank.d186.s3.e2" charOffset="98-112"
+            type="group" text="CNS depressants"/>
+        <entity id="DDI-DrugBank.d186.s3.e3" charOffset="122-132"
+            type="group" text="anesthetics"/>
+        <entity id="DDI-DrugBank.d186.s3.e4" charOffset="135-141"
+            type="group" text="opiates"/>
+        <entity id="DDI-DrugBank.d186.s3.e5" charOffset="148-154"
+            type="drug" text="alcohol"/>
+        <pair id="DDI-DrugBank.d186.s3.p0" e1="DDI-DrugBank.d186.s3.e0"
+            e2="DDI-DrugBank.d186.s3.e1" ddi="false"/>
+        <pair id="DDI-DrugBank.d186.s3.p1" e1="DDI-DrugBank.d186.s3.e0"
+            e2="DDI-DrugBank.d186.s3.e2" ddi="true" type="effect"/>
+        <pair id="DDI-DrugBank.d186.s3.p2" e1="DDI-DrugBank.d186.s3.e0"
+            e2="DDI-DrugBank.d186.s3.e3" ddi="true" type="effect"/>
+        <pair id="DDI-DrugBank.d186.s3.p3" e1="DDI-DrugBank.d186.s3.e0"
+            e2="DDI-DrugBank.d186.s3.e4" ddi="true" type="effect"/>
+        <pair id="DDI-DrugBank.d186.s3.p4" e1="DDI-DrugBank.d186.s3.e0"
+            e2="DDI-DrugBank.d186.s3.e5" ddi="true" type="effect"/>
+        <pair id="DDI-DrugBank.d186.s3.p5" e1="DDI-DrugBank.d186.s3.e1"
+            e2="DDI-DrugBank.d186.s3.e2" ddi="true" type="effect"/>
+        <pair id="DDI-DrugBank.d186.s3.p6" e1="DDI-DrugBank.d186.s3.e1"
+            e2="DDI-DrugBank.d186.s3.e3" ddi="true" type="effect"/>
+        <pair id="DDI-DrugBank.d186.s3.p7" e1="DDI-DrugBank.d186.s3.e1"
+            e2="DDI-DrugBank.d186.s3.e4" ddi="true" type="effect"/>
+        <pair id="DDI-DrugBank.d186.s3.p8" e1="DDI-DrugBank.d186.s3.e1"
+            e2="DDI-DrugBank.d186.s3.e5" ddi="true" type="effect"/>
+        <pair id="DDI-DrugBank.d186.s3.p9" e1="DDI-DrugBank.d186.s3.e2"
+            e2="DDI-DrugBank.d186.s3.e3" ddi="false"/>
+        <pair id="DDI-DrugBank.d186.s3.p10" e1="DDI-DrugBank.d186.s3.e2"
+            e2="DDI-DrugBank.d186.s3.e4" ddi="false"/>
+        <pair id="DDI-DrugBank.d186.s3.p11" e1="DDI-DrugBank.d186.s3.e2"
+            e2="DDI-DrugBank.d186.s3.e5" ddi="false"/>
+        <pair id="DDI-DrugBank.d186.s3.p12" e1="DDI-DrugBank.d186.s3.e3"
+            e2="DDI-DrugBank.d186.s3.e4" ddi="false"/>
+        <pair id="DDI-DrugBank.d186.s3.p13" e1="DDI-DrugBank.d186.s3.e3"
+            e2="DDI-DrugBank.d186.s3.e5" ddi="false"/>
+        <pair id="DDI-DrugBank.d186.s3.p14" e1="DDI-DrugBank.d186.s3.e4"
+            e2="DDI-DrugBank.d186.s3.e5" ddi="false"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d186.s4" text="In a study of 12 schizophrenic patients coadministered oral haloperidol and rifampin, plasma haloperidol levels were decreased by a mean of 70% and mean scores on the Brief Psychiatric Rating Scale were increased from baseline.">
+        <entity id="DDI-DrugBank.d186.s4.e0" charOffset="60-70"
+            type="drug" text="haloperidol"/>
+        <entity id="DDI-DrugBank.d186.s4.e1" charOffset="76-83"
+            type="drug" text="rifampin"/>
+        <entity id="DDI-DrugBank.d186.s4.e2" charOffset="93-103"
+            type="drug" text="haloperidol"/>
+        <pair id="DDI-DrugBank.d186.s4.p0" e1="DDI-DrugBank.d186.s4.e0"
+            e2="DDI-DrugBank.d186.s4.e1" ddi="true" type="mechanism"/>
+        <pair id="DDI-DrugBank.d186.s4.p1" e1="DDI-DrugBank.d186.s4.e0"
+            e2="DDI-DrugBank.d186.s4.e2" ddi="false"/>
+        <pair id="DDI-DrugBank.d186.s4.p2" e1="DDI-DrugBank.d186.s4.e1"
+            e2="DDI-DrugBank.d186.s4.e2" ddi="false"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d186.s5" text="In 5 other schizophrenic patients treated with oral haloperidol and rifampin, discontinuation of rifampin produced a mean 3.3-fold increase in haloperidol concentrations.">
+        <entity id="DDI-DrugBank.d186.s5.e0" charOffset="52-62"
+            type="drug" text="haloperidol"/>
+        <entity id="DDI-DrugBank.d186.s5.e1" charOffset="68-75"
+            type="drug" text="rifampin"/>
+        <entity id="DDI-DrugBank.d186.s5.e2" charOffset="97-104"
+            type="drug" text="rifampin"/>
+        <entity id="DDI-DrugBank.d186.s5.e3" charOffset="143-153"
+            type="drug" text="haloperidol"/>
+        <pair id="DDI-DrugBank.d186.s5.p0" e1="DDI-DrugBank.d186.s5.e0"
+            e2="DDI-DrugBank.d186.s5.e1" ddi="false"/>
+        <pair id="DDI-DrugBank.d186.s5.p1" e1="DDI-DrugBank.d186.s5.e0"
+            e2="DDI-DrugBank.d186.s5.e2" ddi="false"/>
+        <pair id="DDI-DrugBank.d186.s5.p2" e1="DDI-DrugBank.d186.s5.e0"
+            e2="DDI-DrugBank.d186.s5.e3" ddi="false"/>
+        <pair id="DDI-DrugBank.d186.s5.p3" e1="DDI-DrugBank.d186.s5.e1"
+            e2="DDI-DrugBank.d186.s5.e2" ddi="false"/>
+        <pair id="DDI-DrugBank.d186.s5.p4" e1="DDI-DrugBank.d186.s5.e1"
+            e2="DDI-DrugBank.d186.s5.e3" ddi="false"/>
+        <pair id="DDI-DrugBank.d186.s5.p5" e1="DDI-DrugBank.d186.s5.e2"
+            e2="DDI-DrugBank.d186.s5.e3" ddi="true" type="mechanism"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d186.s6" text="Thus, careful monitoring of clinical status is warranted when rifampin is administered or discontinued in haloperidol-treated patients.">
+        <entity id="DDI-DrugBank.d186.s6.e0" charOffset="62-69"
+            type="drug" text="rifampin"/>
+        <entity id="DDI-DrugBank.d186.s6.e1" charOffset="106-116"
+            type="drug" text="haloperidol"/>
+        <pair id="DDI-DrugBank.d186.s6.p0" e1="DDI-DrugBank.d186.s6.e0"
+            e2="DDI-DrugBank.d186.s6.e1" ddi="true" type="advise"/>
+    </sentence>
+</document>

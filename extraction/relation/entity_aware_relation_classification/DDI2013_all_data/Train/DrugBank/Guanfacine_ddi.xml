@@ -1,0 +1,266 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="DDI-DrugBank.d507">
+    <sentence id="DDI-DrugBank.d507.s0" text="The potential for increased sedation when guanfacine is given with other CNS-depressant drug should be appreciated.">
+        <entity id="DDI-DrugBank.d507.s0.e0" charOffset="42-51"
+            type="drug" text="guanfacine"/>
+        <entity id="DDI-DrugBank.d507.s0.e1" charOffset="73-91"
+            type="group" text="CNS-depressant drug"/>
+        <pair id="DDI-DrugBank.d507.s0.p0" e1="DDI-DrugBank.d507.s0.e0"
+            e2="DDI-DrugBank.d507.s0.e1" ddi="true" type="effect"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d507.s1" text="The administration of guanfacine concomitantly with known microsomal enzyme inducer (phenobarbital or phenytoin) to two patients with renal impairment reportedly resulted in significant reductions in elimination half-life and plasma concentration.">
+        <entity id="DDI-DrugBank.d507.s1.e0" charOffset="22-31"
+            type="drug" text="guanfacine"/>
+        <entity id="DDI-DrugBank.d507.s1.e1" charOffset="85-97"
+            type="drug" text="phenobarbital"/>
+        <entity id="DDI-DrugBank.d507.s1.e2" charOffset="102-110"
+            type="drug" text="phenytoin"/>
+        <pair id="DDI-DrugBank.d507.s1.p0" e1="DDI-DrugBank.d507.s1.e0"
+            e2="DDI-DrugBank.d507.s1.e1" ddi="true" type="mechanism"/>
+        <pair id="DDI-DrugBank.d507.s1.p1" e1="DDI-DrugBank.d507.s1.e0"
+            e2="DDI-DrugBank.d507.s1.e2" ddi="true" type="mechanism"/>
+        <pair id="DDI-DrugBank.d507.s1.p2" e1="DDI-DrugBank.d507.s1.e1"
+            e2="DDI-DrugBank.d507.s1.e2" ddi="false"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d507.s2" text="In such cases, therefore, more frequent dosing may be required to achieve or maintain the desired hypotensive response."/>
+    <sentence id="DDI-DrugBank.d507.s3" text="Further, if guanfacine is to be discontinued in such patients, careful tapering of the dosage may be necessary in order to avoid rebound phenomena.">
+        <entity id="DDI-DrugBank.d507.s3.e0" charOffset="12-21"
+            type="drug" text="guanfacine"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d507.s4" text="TCAs decrease the hypotensive effect of guanfacine.">
+        <entity id="DDI-DrugBank.d507.s4.e0" charOffset="0-3"
+            type="group" text="TCAs"/>
+        <entity id="DDI-DrugBank.d507.s4.e1" charOffset="40-49"
+            type="drug" text="guanfacine"/>
+        <pair id="DDI-DrugBank.d507.s4.p0" e1="DDI-DrugBank.d507.s4.e0"
+            e2="DDI-DrugBank.d507.s4.e1" ddi="true" type="effect"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d507.s5" text="Noncardioselective beta-blockers (nadolol,porpranolol,timolol) may exacerbate rebound hypertension when guanfacine is withdrawn.">
+        <entity id="DDI-DrugBank.d507.s5.e0" charOffset="0-31"
+            type="group" text="Noncardioselective beta-blockers"/>
+        <entity id="DDI-DrugBank.d507.s5.e1" charOffset="34-40"
+            type="drug" text="nadolol"/>
+        <entity id="DDI-DrugBank.d507.s5.e2" charOffset="54-60"
+            type="drug" text="timolol"/>
+        <entity id="DDI-DrugBank.d507.s5.e3" charOffset="104-113"
+            type="drug" text="guanfacine"/>
+        <pair id="DDI-DrugBank.d507.s5.p0" e1="DDI-DrugBank.d507.s5.e0"
+            e2="DDI-DrugBank.d507.s5.e1" ddi="false"/>
+        <pair id="DDI-DrugBank.d507.s5.p1" e1="DDI-DrugBank.d507.s5.e0"
+            e2="DDI-DrugBank.d507.s5.e2" ddi="false"/>
+        <pair id="DDI-DrugBank.d507.s5.p2" e1="DDI-DrugBank.d507.s5.e0"
+            e2="DDI-DrugBank.d507.s5.e3" ddi="true" type="effect"/>
+        <pair id="DDI-DrugBank.d507.s5.p3" e1="DDI-DrugBank.d507.s5.e1"
+            e2="DDI-DrugBank.d507.s5.e2" ddi="false"/>
+        <pair id="DDI-DrugBank.d507.s5.p4" e1="DDI-DrugBank.d507.s5.e1"
+            e2="DDI-DrugBank.d507.s5.e3" ddi="true" type="effect"/>
+        <pair id="DDI-DrugBank.d507.s5.p5" e1="DDI-DrugBank.d507.s5.e2"
+            e2="DDI-DrugBank.d507.s5.e3" ddi="true" type="effect"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d507.s6" text="The beta-blocker should be withdrawn first.">
+        <entity id="DDI-DrugBank.d507.s6.e0" charOffset="4-15"
+            type="group" text="beta-blocker"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d507.s7" text="The gradual withdrawal of guafacine or a cardioselective beta-blocker could be substituted.">
+        <entity id="DDI-DrugBank.d507.s7.e0" charOffset="26-34"
+            type="drug" text="guafacine"/>
+        <entity id="DDI-DrugBank.d507.s7.e1" charOffset="41-68"
+            type="group" text="cardioselective beta-blocker"/>
+        <pair id="DDI-DrugBank.d507.s7.p0" e1="DDI-DrugBank.d507.s7.e0"
+            e2="DDI-DrugBank.d507.s7.e1" ddi="false"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d507.s8" text="Anticoagulants: Ten patients who were stabilized on oral anticoagulants were given guanfacine, 1-2 mg/day, for 4 weeks.">
+        <entity id="DDI-DrugBank.d507.s8.e0" charOffset="0-13"
+            type="group" text="Anticoagulants"/>
+        <entity id="DDI-DrugBank.d507.s8.e1" charOffset="57-70"
+            type="group" text="anticoagulants"/>
+        <entity id="DDI-DrugBank.d507.s8.e2" charOffset="83-92"
+            type="drug" text="guanfacine"/>
+        <pair id="DDI-DrugBank.d507.s8.p0" e1="DDI-DrugBank.d507.s8.e0"
+            e2="DDI-DrugBank.d507.s8.e1" ddi="false"/>
+        <pair id="DDI-DrugBank.d507.s8.p1" e1="DDI-DrugBank.d507.s8.e0"
+            e2="DDI-DrugBank.d507.s8.e2" ddi="false"/>
+        <pair id="DDI-DrugBank.d507.s8.p2" e1="DDI-DrugBank.d507.s8.e1"
+            e2="DDI-DrugBank.d507.s8.e2" ddi="false"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d507.s9" text="No changes were observed in the degree of anticoagulation."/>
+    <sentence id="DDI-DrugBank.d507.s10" text="In several well-controlled studies, guanfacine was administered together with diuretics with no drug interactions reported.">
+        <entity id="DDI-DrugBank.d507.s10.e0" charOffset="36-45"
+            type="drug" text="guanfacine"/>
+        <entity id="DDI-DrugBank.d507.s10.e1" charOffset="78-86"
+            type="group" text="diuretics"/>
+        <pair id="DDI-DrugBank.d507.s10.p0"
+            e1="DDI-DrugBank.d507.s10.e0" e2="DDI-DrugBank.d507.s10.e1" ddi="false"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d507.s11" text="In the long-term safety studies, guanfacine was given concomitantly with many drugs without evidence of any interactions.">
+        <entity id="DDI-DrugBank.d507.s11.e0" charOffset="33-42"
+            type="drug" text="guanfacine"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d507.s12" text="The principal drugs given (number of patients in parentheses) were: cardiac glycosides (115), sedatives and hypnotics (103), coronary vasodilators (52), oral hypoglycemics (45), cough and cold preparations (45), NSAIDs (38), antihyperlipidemics (29), antigout drugs (24), oral contraceptives (18), bronchodilators (13), insulin (10), and beta blockers (10).">
+        <entity id="DDI-DrugBank.d507.s12.e0" charOffset="68-85"
+            type="group" text="cardiac glycosides"/>
+        <entity id="DDI-DrugBank.d507.s12.e1" charOffset="94-102"
+            type="group" text="sedatives"/>
+        <entity id="DDI-DrugBank.d507.s12.e2" charOffset="108-116"
+            type="group" text="hypnotics"/>
+        <entity id="DDI-DrugBank.d507.s12.e3" charOffset="125-145"
+            type="group" text="coronary vasodilators"/>
+        <entity id="DDI-DrugBank.d507.s12.e4" charOffset="158-170"
+            type="group" text="hypoglycemics"/>
+        <entity id="DDI-DrugBank.d507.s12.e5" charOffset="212-217"
+            type="group" text="NSAIDs"/>
+        <entity id="DDI-DrugBank.d507.s12.e6" charOffset="225-243"
+            type="group" text="antihyperlipidemics"/>
+        <entity id="DDI-DrugBank.d507.s12.e7" charOffset="251-264"
+            type="group" text="antigout drugs"/>
+        <entity id="DDI-DrugBank.d507.s12.e8" charOffset="277-290"
+            type="group" text="contraceptives"/>
+        <entity id="DDI-DrugBank.d507.s12.e9" charOffset="298-312"
+            type="group" text="bronchodilators"/>
+        <entity id="DDI-DrugBank.d507.s12.e10" charOffset="320-326"
+            type="drug" text="insulin"/>
+        <entity id="DDI-DrugBank.d507.s12.e11" charOffset="338-350"
+            type="group" text="beta blockers"/>
+        <pair id="DDI-DrugBank.d507.s12.p0"
+            e1="DDI-DrugBank.d507.s12.e0" e2="DDI-DrugBank.d507.s12.e1" ddi="false"/>
+        <pair id="DDI-DrugBank.d507.s12.p1"
+            e1="DDI-DrugBank.d507.s12.e0" e2="DDI-DrugBank.d507.s12.e2" ddi="false"/>
+        <pair id="DDI-DrugBank.d507.s12.p2"
+            e1="DDI-DrugBank.d507.s12.e0" e2="DDI-DrugBank.d507.s12.e3" ddi="false"/>
+        <pair id="DDI-DrugBank.d507.s12.p3"
+            e1="DDI-DrugBank.d507.s12.e0" e2="DDI-DrugBank.d507.s12.e4" ddi="false"/>
+        <pair id="DDI-DrugBank.d507.s12.p4"
+            e1="DDI-DrugBank.d507.s12.e0" e2="DDI-DrugBank.d507.s12.e5" ddi="false"/>
+        <pair id="DDI-DrugBank.d507.s12.p5"
+            e1="DDI-DrugBank.d507.s12.e0" e2="DDI-DrugBank.d507.s12.e6" ddi="false"/>
+        <pair id="DDI-DrugBank.d507.s12.p6"
+            e1="DDI-DrugBank.d507.s12.e0" e2="DDI-DrugBank.d507.s12.e7" ddi="false"/>
+        <pair id="DDI-DrugBank.d507.s12.p7"
+            e1="DDI-DrugBank.d507.s12.e0" e2="DDI-DrugBank.d507.s12.e8" ddi="false"/>
+        <pair id="DDI-DrugBank.d507.s12.p8"
+            e1="DDI-DrugBank.d507.s12.e0" e2="DDI-DrugBank.d507.s12.e9" ddi="false"/>
+        <pair id="DDI-DrugBank.d507.s12.p9"
+            e1="DDI-DrugBank.d507.s12.e0" e2="DDI-DrugBank.d507.s12.e10" ddi="false"/>
+        <pair id="DDI-DrugBank.d507.s12.p10"
+            e1="DDI-DrugBank.d507.s12.e0" e2="DDI-DrugBank.d507.s12.e11" ddi="false"/>
+        <pair id="DDI-DrugBank.d507.s12.p11"
+            e1="DDI-DrugBank.d507.s12.e1" e2="DDI-DrugBank.d507.s12.e2" ddi="false"/>
+        <pair id="DDI-DrugBank.d507.s12.p12"
+            e1="DDI-DrugBank.d507.s12.e1" e2="DDI-DrugBank.d507.s12.e3" ddi="false"/>
+        <pair id="DDI-DrugBank.d507.s12.p13"
+            e1="DDI-DrugBank.d507.s12.e1" e2="DDI-DrugBank.d507.s12.e4" ddi="false"/>
+        <pair id="DDI-DrugBank.d507.s12.p14"
+            e1="DDI-DrugBank.d507.s12.e1" e2="DDI-DrugBank.d507.s12.e5" ddi="false"/>
+        <pair id="DDI-DrugBank.d507.s12.p15"
+            e1="DDI-DrugBank.d507.s12.e1" e2="DDI-DrugBank.d507.s12.e6" ddi="false"/>
+        <pair id="DDI-DrugBank.d507.s12.p16"
+            e1="DDI-DrugBank.d507.s12.e1" e2="DDI-DrugBank.d507.s12.e7" ddi="false"/>
+        <pair id="DDI-DrugBank.d507.s12.p17"
+            e1="DDI-DrugBank.d507.s12.e1" e2="DDI-DrugBank.d507.s12.e8" ddi="false"/>
+        <pair id="DDI-DrugBank.d507.s12.p18"
+            e1="DDI-DrugBank.d507.s12.e1" e2="DDI-DrugBank.d507.s12.e9" ddi="false"/>
+        <pair id="DDI-DrugBank.d507.s12.p19"
+            e1="DDI-DrugBank.d507.s12.e1" e2="DDI-DrugBank.d507.s12.e10" ddi="false"/>
+        <pair id="DDI-DrugBank.d507.s12.p20"
+            e1="DDI-DrugBank.d507.s12.e1" e2="DDI-DrugBank.d507.s12.e11" ddi="false"/>
+        <pair id="DDI-DrugBank.d507.s12.p21"
+            e1="DDI-DrugBank.d507.s12.e2" e2="DDI-DrugBank.d507.s12.e3" ddi="false"/>
+        <pair id="DDI-DrugBank.d507.s12.p22"
+            e1="DDI-DrugBank.d507.s12.e2" e2="DDI-DrugBank.d507.s12.e4" ddi="false"/>
+        <pair id="DDI-DrugBank.d507.s12.p23"
+            e1="DDI-DrugBank.d507.s12.e2" e2="DDI-DrugBank.d507.s12.e5" ddi="false"/>
+        <pair id="DDI-DrugBank.d507.s12.p24"
+            e1="DDI-DrugBank.d507.s12.e2" e2="DDI-DrugBank.d507.s12.e6" ddi="false"/>
+        <pair id="DDI-DrugBank.d507.s12.p25"
+            e1="DDI-DrugBank.d507.s12.e2" e2="DDI-DrugBank.d507.s12.e7" ddi="false"/>
+        <pair id="DDI-DrugBank.d507.s12.p26"
+            e1="DDI-DrugBank.d507.s12.e2" e2="DDI-DrugBank.d507.s12.e8" ddi="false"/>
+        <pair id="DDI-DrugBank.d507.s12.p27"
+            e1="DDI-DrugBank.d507.s12.e2" e2="DDI-DrugBank.d507.s12.e9" ddi="false"/>
+        <pair id="DDI-DrugBank.d507.s12.p28"
+            e1="DDI-DrugBank.d507.s12.e2" e2="DDI-DrugBank.d507.s12.e10" ddi="false"/>
+        <pair id="DDI-DrugBank.d507.s12.p29"
+            e1="DDI-DrugBank.d507.s12.e2" e2="DDI-DrugBank.d507.s12.e11" ddi="false"/>
+        <pair id="DDI-DrugBank.d507.s12.p30"
+            e1="DDI-DrugBank.d507.s12.e3" e2="DDI-DrugBank.d507.s12.e4" ddi="false"/>
+        <pair id="DDI-DrugBank.d507.s12.p31"
+            e1="DDI-DrugBank.d507.s12.e3" e2="DDI-DrugBank.d507.s12.e5" ddi="false"/>
+        <pair id="DDI-DrugBank.d507.s12.p32"
+            e1="DDI-DrugBank.d507.s12.e3" e2="DDI-DrugBank.d507.s12.e6" ddi="false"/>
+        <pair id="DDI-DrugBank.d507.s12.p33"
+            e1="DDI-DrugBank.d507.s12.e3" e2="DDI-DrugBank.d507.s12.e7" ddi="false"/>
+        <pair id="DDI-DrugBank.d507.s12.p34"
+            e1="DDI-DrugBank.d507.s12.e3" e2="DDI-DrugBank.d507.s12.e8" ddi="false"/>
+        <pair id="DDI-DrugBank.d507.s12.p35"
+            e1="DDI-DrugBank.d507.s12.e3" e2="DDI-DrugBank.d507.s12.e9" ddi="false"/>
+        <pair id="DDI-DrugBank.d507.s12.p36"
+            e1="DDI-DrugBank.d507.s12.e3" e2="DDI-DrugBank.d507.s12.e10" ddi="false"/>
+        <pair id="DDI-DrugBank.d507.s12.p37"
+            e1="DDI-DrugBank.d507.s12.e3" e2="DDI-DrugBank.d507.s12.e11" ddi="false"/>
+        <pair id="DDI-DrugBank.d507.s12.p38"
+            e1="DDI-DrugBank.d507.s12.e4" e2="DDI-DrugBank.d507.s12.e5" ddi="false"/>
+        <pair id="DDI-DrugBank.d507.s12.p39"
+            e1="DDI-DrugBank.d507.s12.e4" e2="DDI-DrugBank.d507.s12.e6" ddi="false"/>
+        <pair id="DDI-DrugBank.d507.s12.p40"
+            e1="DDI-DrugBank.d507.s12.e4" e2="DDI-DrugBank.d507.s12.e7" ddi="false"/>
+        <pair id="DDI-DrugBank.d507.s12.p41"
+            e1="DDI-DrugBank.d507.s12.e4" e2="DDI-DrugBank.d507.s12.e8" ddi="false"/>
+        <pair id="DDI-DrugBank.d507.s12.p42"
+            e1="DDI-DrugBank.d507.s12.e4" e2="DDI-DrugBank.d507.s12.e9" ddi="false"/>
+        <pair id="DDI-DrugBank.d507.s12.p43"
+            e1="DDI-DrugBank.d507.s12.e4" e2="DDI-DrugBank.d507.s12.e10" ddi="false"/>
+        <pair id="DDI-DrugBank.d507.s12.p44"
+            e1="DDI-DrugBank.d507.s12.e4" e2="DDI-DrugBank.d507.s12.e11" ddi="false"/>
+        <pair id="DDI-DrugBank.d507.s12.p45"
+            e1="DDI-DrugBank.d507.s12.e5" e2="DDI-DrugBank.d507.s12.e6" ddi="false"/>
+        <pair id="DDI-DrugBank.d507.s12.p46"
+            e1="DDI-DrugBank.d507.s12.e5" e2="DDI-DrugBank.d507.s12.e7" ddi="false"/>
+        <pair id="DDI-DrugBank.d507.s12.p47"
+            e1="DDI-DrugBank.d507.s12.e5" e2="DDI-DrugBank.d507.s12.e8" ddi="false"/>
+        <pair id="DDI-DrugBank.d507.s12.p48"
+            e1="DDI-DrugBank.d507.s12.e5" e2="DDI-DrugBank.d507.s12.e9" ddi="false"/>
+        <pair id="DDI-DrugBank.d507.s12.p49"
+            e1="DDI-DrugBank.d507.s12.e5" e2="DDI-DrugBank.d507.s12.e10" ddi="false"/>
+        <pair id="DDI-DrugBank.d507.s12.p50"
+            e1="DDI-DrugBank.d507.s12.e5" e2="DDI-DrugBank.d507.s12.e11" ddi="false"/>
+        <pair id="DDI-DrugBank.d507.s12.p51"
+            e1="DDI-DrugBank.d507.s12.e6" e2="DDI-DrugBank.d507.s12.e7" ddi="false"/>
+        <pair id="DDI-DrugBank.d507.s12.p52"
+            e1="DDI-DrugBank.d507.s12.e6" e2="DDI-DrugBank.d507.s12.e8" ddi="false"/>
+        <pair id="DDI-DrugBank.d507.s12.p53"
+            e1="DDI-DrugBank.d507.s12.e6" e2="DDI-DrugBank.d507.s12.e9" ddi="false"/>
+        <pair id="DDI-DrugBank.d507.s12.p54"
+            e1="DDI-DrugBank.d507.s12.e6" e2="DDI-DrugBank.d507.s12.e10" ddi="false"/>
+        <pair id="DDI-DrugBank.d507.s12.p55"
+            e1="DDI-DrugBank.d507.s12.e6" e2="DDI-DrugBank.d507.s12.e11" ddi="false"/>
+        <pair id="DDI-DrugBank.d507.s12.p56"
+            e1="DDI-DrugBank.d507.s12.e7" e2="DDI-DrugBank.d507.s12.e8" ddi="false"/>
+        <pair id="DDI-DrugBank.d507.s12.p57"
+            e1="DDI-DrugBank.d507.s12.e7" e2="DDI-DrugBank.d507.s12.e9" ddi="false"/>
+        <pair id="DDI-DrugBank.d507.s12.p58"
+            e1="DDI-DrugBank.d507.s12.e7" e2="DDI-DrugBank.d507.s12.e10" ddi="false"/>
+        <pair id="DDI-DrugBank.d507.s12.p59"
+            e1="DDI-DrugBank.d507.s12.e7" e2="DDI-DrugBank.d507.s12.e11" ddi="false"/>
+        <pair id="DDI-DrugBank.d507.s12.p60"
+            e1="DDI-DrugBank.d507.s12.e8" e2="DDI-DrugBank.d507.s12.e9" ddi="false"/>
+        <pair id="DDI-DrugBank.d507.s12.p61"
+            e1="DDI-DrugBank.d507.s12.e8" e2="DDI-DrugBank.d507.s12.e10" ddi="false"/>
+        <pair id="DDI-DrugBank.d507.s12.p62"
+            e1="DDI-DrugBank.d507.s12.e8" e2="DDI-DrugBank.d507.s12.e11" ddi="false"/>
+        <pair id="DDI-DrugBank.d507.s12.p63"
+            e1="DDI-DrugBank.d507.s12.e9" e2="DDI-DrugBank.d507.s12.e10" ddi="false"/>
+        <pair id="DDI-DrugBank.d507.s12.p64"
+            e1="DDI-DrugBank.d507.s12.e9" e2="DDI-DrugBank.d507.s12.e11" ddi="false"/>
+        <pair id="DDI-DrugBank.d507.s12.p65"
+            e1="DDI-DrugBank.d507.s12.e10"
+            e2="DDI-DrugBank.d507.s12.e11" ddi="false"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d507.s13" text="Laboratory Test In clinical trials, no clinically relevant laboratory test abnormalities were identified as causally related to drug during short-term treatment with guanfacine.">
+        <entity id="DDI-DrugBank.d507.s13.e0" charOffset="166-175"
+            type="drug" text="guanfacine"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d507.s14" text="Drug/Laboratory Test Interactions No laboratory test abnormalities related to the use of guanfacine have been identified.">
+        <entity id="DDI-DrugBank.d507.s14.e0" charOffset="89-98"
+            type="drug" text="guanfacine"/>
+    </sentence>
+</document>

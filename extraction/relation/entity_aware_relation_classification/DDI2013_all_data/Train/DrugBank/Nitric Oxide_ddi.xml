@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="DDI-DrugBank.d183">
+    <sentence id="DDI-DrugBank.d183.s0" text="No formal drug-interaction studies have been performed, and a clinically significant interaction with other medications used in the treatment of hypoxic respiratory failure cannot be excluded based on the available data."/>
+    <sentence id="DDI-DrugBank.d183.s1" text="INOmax has been administered with tolazoline, dopamine, dobutamine, steroids, surfactant, and high-frequency ventilation.">
+        <entity id="DDI-DrugBank.d183.s1.e0" charOffset="0-5"
+            type="brand" text="INOmax"/>
+        <entity id="DDI-DrugBank.d183.s1.e1" charOffset="34-43"
+            type="drug" text="tolazoline"/>
+        <entity id="DDI-DrugBank.d183.s1.e2" charOffset="46-53"
+            type="drug" text="dopamine"/>
+        <entity id="DDI-DrugBank.d183.s1.e3" charOffset="56-65"
+            type="drug" text="dobutamine"/>
+        <entity id="DDI-DrugBank.d183.s1.e4" charOffset="68-75"
+            type="group" text="steroids"/>
+        <entity id="DDI-DrugBank.d183.s1.e5" charOffset="78-87"
+            type="drug" text="surfactant"/>
+        <pair id="DDI-DrugBank.d183.s1.p0" e1="DDI-DrugBank.d183.s1.e0"
+            e2="DDI-DrugBank.d183.s1.e1" ddi="false"/>
+        <pair id="DDI-DrugBank.d183.s1.p1" e1="DDI-DrugBank.d183.s1.e0"
+            e2="DDI-DrugBank.d183.s1.e2" ddi="false"/>
+        <pair id="DDI-DrugBank.d183.s1.p2" e1="DDI-DrugBank.d183.s1.e0"
+            e2="DDI-DrugBank.d183.s1.e3" ddi="false"/>
+        <pair id="DDI-DrugBank.d183.s1.p3" e1="DDI-DrugBank.d183.s1.e0"
+            e2="DDI-DrugBank.d183.s1.e4" ddi="false"/>
+        <pair id="DDI-DrugBank.d183.s1.p4" e1="DDI-DrugBank.d183.s1.e0"
+            e2="DDI-DrugBank.d183.s1.e5" ddi="false"/>
+        <pair id="DDI-DrugBank.d183.s1.p5" e1="DDI-DrugBank.d183.s1.e1"
+            e2="DDI-DrugBank.d183.s1.e2" ddi="false"/>
+        <pair id="DDI-DrugBank.d183.s1.p6" e1="DDI-DrugBank.d183.s1.e1"
+            e2="DDI-DrugBank.d183.s1.e3" ddi="false"/>
+        <pair id="DDI-DrugBank.d183.s1.p7" e1="DDI-DrugBank.d183.s1.e1"
+            e2="DDI-DrugBank.d183.s1.e4" ddi="false"/>
+        <pair id="DDI-DrugBank.d183.s1.p8" e1="DDI-DrugBank.d183.s1.e1"
+            e2="DDI-DrugBank.d183.s1.e5" ddi="false"/>
+        <pair id="DDI-DrugBank.d183.s1.p9" e1="DDI-DrugBank.d183.s1.e2"
+            e2="DDI-DrugBank.d183.s1.e3" ddi="false"/>
+        <pair id="DDI-DrugBank.d183.s1.p10" e1="DDI-DrugBank.d183.s1.e2"
+            e2="DDI-DrugBank.d183.s1.e4" ddi="false"/>
+        <pair id="DDI-DrugBank.d183.s1.p11" e1="DDI-DrugBank.d183.s1.e2"
+            e2="DDI-DrugBank.d183.s1.e5" ddi="false"/>
+        <pair id="DDI-DrugBank.d183.s1.p12" e1="DDI-DrugBank.d183.s1.e3"
+            e2="DDI-DrugBank.d183.s1.e4" ddi="false"/>
+        <pair id="DDI-DrugBank.d183.s1.p13" e1="DDI-DrugBank.d183.s1.e3"
+            e2="DDI-DrugBank.d183.s1.e5" ddi="false"/>
+        <pair id="DDI-DrugBank.d183.s1.p14" e1="DDI-DrugBank.d183.s1.e4"
+            e2="DDI-DrugBank.d183.s1.e5" ddi="false"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d183.s2" text="Although there are no study data to evaluate the possibility, nitric oxide donor compounds, including sodium nitroprusside and nitroglycerin, may have an additive effect with INOmax on the risk of developing methemoglobinemia.">
+        <entity id="DDI-DrugBank.d183.s2.e0" charOffset="62-89"
+            type="group" text="nitric oxide donor compounds"/>
+        <entity id="DDI-DrugBank.d183.s2.e1" charOffset="102-121"
+            type="drug" text="sodium nitroprusside"/>
+        <entity id="DDI-DrugBank.d183.s2.e2" charOffset="127-139"
+            type="drug" text="nitroglycerin"/>
+        <entity id="DDI-DrugBank.d183.s2.e3" charOffset="175-180"
+            type="brand" text="INOmax"/>
+        <pair id="DDI-DrugBank.d183.s2.p0" e1="DDI-DrugBank.d183.s2.e0"
+            e2="DDI-DrugBank.d183.s2.e1" ddi="false"/>
+        <pair id="DDI-DrugBank.d183.s2.p1" e1="DDI-DrugBank.d183.s2.e0"
+            e2="DDI-DrugBank.d183.s2.e2" ddi="false"/>
+        <pair id="DDI-DrugBank.d183.s2.p2" e1="DDI-DrugBank.d183.s2.e0"
+            e2="DDI-DrugBank.d183.s2.e3" ddi="true" type="effect"/>
+        <pair id="DDI-DrugBank.d183.s2.p3" e1="DDI-DrugBank.d183.s2.e1"
+            e2="DDI-DrugBank.d183.s2.e2" ddi="false"/>
+        <pair id="DDI-DrugBank.d183.s2.p4" e1="DDI-DrugBank.d183.s2.e1"
+            e2="DDI-DrugBank.d183.s2.e3" ddi="true" type="effect"/>
+        <pair id="DDI-DrugBank.d183.s2.p5" e1="DDI-DrugBank.d183.s2.e2"
+            e2="DDI-DrugBank.d183.s2.e3" ddi="true" type="effect"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d183.s3" text="An association between prilocaine and an increased risk of methaemoglobinaemia, particularly in infants, has specifically been described in a literature case report.">
+        <entity id="DDI-DrugBank.d183.s3.e0" charOffset="23-32"
+            type="drug" text="prilocaine"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d183.s4" text="This risk is present whether the drugs are administered as oral, parenteral, or topical formulations."/>
+</document>

@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="DDI-MedLine.d84">
+    <sentence id="DDI-MedLine.d84.s0" text="Antimicrobial activity of Ganoderma lucidum extract alone and in combination with some antibiotics.&#xd;&#xa;">
+        <entity id="DDI-MedLine.d84.s0.e0" charOffset="26-50"
+            type="drug_n" text="Ganoderma lucidum extract"/>
+        <entity id="DDI-MedLine.d84.s0.e1" charOffset="87-97"
+            type="group" text="antibiotics"/>
+        <pair id="DDI-MedLine.d84.s0.p0" e1="DDI-MedLine.d84.s0.e0"
+            e2="DDI-MedLine.d84.s0.e1" ddi="false"/>
+    </sentence>
+    <sentence id="DDI-MedLine.d84.s1" text="Antimicrobial activity of GL (the aqueous extract from the carpophores of Ganoderma lucidum (FR)KARST) was tested in vitro against Gram positive and Gram negative bacteria by serial broth dilution method, and the antimicrobial activity was expressed by minimal inhibitory concentration (MIC). ">
+        <entity id="DDI-MedLine.d84.s1.e0" charOffset="26-27"
+            type="drug_n" text="GL"/>
+    </sentence>
+    <sentence id="DDI-MedLine.d84.s2" text="Among fifteen species of bacteria tested, the antimicrobial activity of GL was the most potent against Micrococcus luteus (MIC, 0.75 mg/ml). ">
+        <entity id="DDI-MedLine.d84.s2.e0" charOffset="72-73"
+            type="drug_n" text="GL"/>
+    </sentence>
+    <sentence id="DDI-MedLine.d84.s3" text="To investigate the effects of antimicrobial combinations of GL with four kinds of antibiotics (ampicillin, cefazolin, oxytetracycline and chloramphenicol), the fractional inhibitory concentration index (FICI) was determined by checkerboard assay for each strain. ">
+        <entity id="DDI-MedLine.d84.s3.e0" charOffset="60-61"
+            type="drug_n" text="GL"/>
+        <entity id="DDI-MedLine.d84.s3.e1" charOffset="82-92"
+            type="group" text="antibiotics"/>
+        <entity id="DDI-MedLine.d84.s3.e2" charOffset="95-104"
+            type="drug" text="ampicillin"/>
+        <entity id="DDI-MedLine.d84.s3.e3" charOffset="107-115"
+            type="drug" text="cefazolin"/>
+        <entity id="DDI-MedLine.d84.s3.e4" charOffset="118-132"
+            type="drug" text="oxytetracycline"/>
+        <entity id="DDI-MedLine.d84.s3.e5" charOffset="138-152"
+            type="drug" text="chloramphenicol"/>
+        <pair id="DDI-MedLine.d84.s3.p0" e1="DDI-MedLine.d84.s3.e0"
+            e2="DDI-MedLine.d84.s3.e1" ddi="false"/>
+        <pair id="DDI-MedLine.d84.s3.p1" e1="DDI-MedLine.d84.s3.e0"
+            e2="DDI-MedLine.d84.s3.e2" ddi="false"/>
+        <pair id="DDI-MedLine.d84.s3.p2" e1="DDI-MedLine.d84.s3.e0"
+            e2="DDI-MedLine.d84.s3.e3" ddi="false"/>
+        <pair id="DDI-MedLine.d84.s3.p3" e1="DDI-MedLine.d84.s3.e0"
+            e2="DDI-MedLine.d84.s3.e4" ddi="false"/>
+        <pair id="DDI-MedLine.d84.s3.p4" e1="DDI-MedLine.d84.s3.e0"
+            e2="DDI-MedLine.d84.s3.e5" ddi="false"/>
+        <pair id="DDI-MedLine.d84.s3.p5" e1="DDI-MedLine.d84.s3.e1"
+            e2="DDI-MedLine.d84.s3.e2" ddi="false"/>
+        <pair id="DDI-MedLine.d84.s3.p6" e1="DDI-MedLine.d84.s3.e1"
+            e2="DDI-MedLine.d84.s3.e3" ddi="false"/>
+        <pair id="DDI-MedLine.d84.s3.p7" e1="DDI-MedLine.d84.s3.e1"
+            e2="DDI-MedLine.d84.s3.e4" ddi="false"/>
+        <pair id="DDI-MedLine.d84.s3.p8" e1="DDI-MedLine.d84.s3.e1"
+            e2="DDI-MedLine.d84.s3.e5" ddi="false"/>
+        <pair id="DDI-MedLine.d84.s3.p9" e1="DDI-MedLine.d84.s3.e2"
+            e2="DDI-MedLine.d84.s3.e3" ddi="false"/>
+        <pair id="DDI-MedLine.d84.s3.p10" e1="DDI-MedLine.d84.s3.e2"
+            e2="DDI-MedLine.d84.s3.e4" ddi="false"/>
+        <pair id="DDI-MedLine.d84.s3.p11" e1="DDI-MedLine.d84.s3.e2"
+            e2="DDI-MedLine.d84.s3.e5" ddi="false"/>
+        <pair id="DDI-MedLine.d84.s3.p12" e1="DDI-MedLine.d84.s3.e3"
+            e2="DDI-MedLine.d84.s3.e4" ddi="false"/>
+        <pair id="DDI-MedLine.d84.s3.p13" e1="DDI-MedLine.d84.s3.e3"
+            e2="DDI-MedLine.d84.s3.e5" ddi="false"/>
+        <pair id="DDI-MedLine.d84.s3.p14" e1="DDI-MedLine.d84.s3.e4"
+            e2="DDI-MedLine.d84.s3.e5" ddi="false"/>
+    </sentence>
+    <sentence id="DDI-MedLine.d84.s4" text="The antimicrobial combinations of GL with four antibiotics resulted in additive effect in most instances, synergism in two instances, and antagonism in two instances. ">
+        <entity id="DDI-MedLine.d84.s4.e0" charOffset="34-35"
+            type="drug_n" text="GL"/>
+        <entity id="DDI-MedLine.d84.s4.e1" charOffset="47-57"
+            type="group" text="antibiotics"/>
+        <pair id="DDI-MedLine.d84.s4.p0" e1="DDI-MedLine.d84.s4.e0"
+            e2="DDI-MedLine.d84.s4.e1" ddi="true" type="effect"/>
+    </sentence>
+    <sentence id="DDI-MedLine.d84.s5" text="Synergism was observed when GL was combined with cefazolin against Bacillus subtilis and Klebsiella oxytoca.">
+        <entity id="DDI-MedLine.d84.s5.e0" charOffset="28-29"
+            type="drug_n" text="GL"/>
+        <entity id="DDI-MedLine.d84.s5.e1" charOffset="49-57"
+            type="drug" text="cefazolin"/>
+        <pair id="DDI-MedLine.d84.s5.p0" e1="DDI-MedLine.d84.s5.e0"
+            e2="DDI-MedLine.d84.s5.e1" ddi="true" type="effect"/>
+    </sentence>
+</document>

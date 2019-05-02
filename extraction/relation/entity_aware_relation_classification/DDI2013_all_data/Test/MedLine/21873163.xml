@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="DDI-MedLine.d201">
+    <sentence id="DDI-MedLine.d201.s0" text="Antitumor effects of CRM197, a specific inhibitor of HB-EGF, in T-cell acute lymphoblastic leukemia.&#xd;&#xa;">
+        <entity id="DDI-MedLine.d201.s0.e0" charOffset="21-26"
+            type="drug_n" text="CRM197"/>
+    </sentence>
+    <sentence id="DDI-MedLine.d201.s1" text="The therapeutic outcome for T-cell acute lymphoblastic leukemia (T-ALL) remains poor; "/>
+    <sentence id="DDI-MedLine.d201.s2" text="thus, novel, targeted therapies are urgently needed. "/>
+    <sentence id="DDI-MedLine.d201.s3" text="Recently, we showed that heparin-binding epidermal growth factor-like growth factor (HB-EGF), a member of the EGF family, is a promising target for the treatment of various types of cancer. "/>
+    <sentence id="DDI-MedLine.d201.s4" text="The aim of the present study was to investigate whether HB-EGF is a therapeutic target for T-ALL, and to further elucidate the antitumor effects of a specific inhibitor of HB-EGF, cross-reacting material 197 (CRM197). ">
+        <entity id="DDI-MedLine.d201.s4.e0" charOffset="180-206"
+            type="drug_n" text="cross-reacting material 197"/>
+        <entity id="DDI-MedLine.d201.s4.e1" charOffset="209-214"
+            type="drug_n" text="CRM197"/>
+        <pair id="DDI-MedLine.d201.s4.p0" e1="DDI-MedLine.d201.s4.e0"
+            e2="DDI-MedLine.d201.s4.e1" ddi="false"/>
+    </sentence>
+    <sentence id="DDI-MedLine.d201.s5" text="We elucidated the expression of HB-EGF in T-ALL cell lines, and evaluated the effect of CRM197 on these cells alone or in combination with anticancer agent. ">
+        <entity id="DDI-MedLine.d201.s5.e0" charOffset="88-93"
+            type="drug_n" text="CRM197"/>
+        <entity id="DDI-MedLine.d201.s5.e1" charOffset="139-154"
+            type="group" text="anticancer agent"/>
+        <pair id="DDI-MedLine.d201.s5.p0" e1="DDI-MedLine.d201.s5.e0"
+            e2="DDI-MedLine.d201.s5.e1" ddi="false"/>
+    </sentence>
+    <sentence id="DDI-MedLine.d201.s6" text="The expression of EGFR and EGFR ligands was determined by flow cytometry, RT-PCR and real-time quantitative PCR. "/>
+    <sentence id="DDI-MedLine.d201.s7" text="Induction of apoptosis was assessed by TUNEL assay. "/>
+    <sentence id="DDI-MedLine.d201.s8" text="HB-EGF was strongly expressed by T-ALL cell lines, and the expression of both HB-EGF and EGFR was enhanced by doxorubicin. ">
+        <entity id="DDI-MedLine.d201.s8.e0" charOffset="110-120"
+            type="drug" text="doxorubicin"/>
+    </sentence>
+    <sentence id="DDI-MedLine.d201.s9" text="CRM197 induced apoptosis, and furthermore, the combination of CRM197 plus doxorubicin enhanced cytotoxicity in a T-ALL cell line. ">
+        <entity id="DDI-MedLine.d201.s9.e0" charOffset="0-5"
+            type="drug_n" text="CRM197"/>
+        <entity id="DDI-MedLine.d201.s9.e1" charOffset="62-67"
+            type="drug_n" text="CRM197"/>
+        <entity id="DDI-MedLine.d201.s9.e2" charOffset="74-84"
+            type="drug" text="doxorubicin"/>
+        <pair id="DDI-MedLine.d201.s9.p0" e1="DDI-MedLine.d201.s9.e0"
+            e2="DDI-MedLine.d201.s9.e1" ddi="false"/>
+        <pair id="DDI-MedLine.d201.s9.p1" e1="DDI-MedLine.d201.s9.e0"
+            e2="DDI-MedLine.d201.s9.e2" ddi="false"/>
+        <pair id="DDI-MedLine.d201.s9.p2" e1="DDI-MedLine.d201.s9.e1"
+            e2="DDI-MedLine.d201.s9.e2" ddi="true" type="effect"/>
+    </sentence>
+    <sentence id="DDI-MedLine.d201.s10" text="These results suggest that HB-EGF is a promising therapeutic target for T-ALL."/>
+</document>

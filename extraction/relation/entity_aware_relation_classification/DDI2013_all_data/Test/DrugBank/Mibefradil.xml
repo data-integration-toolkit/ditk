@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="DDI-DrugBank.d783">
+    <sentence id="DDI-DrugBank.d783.s0" text="Posicor inhibits some of the liver's ability to metabolize some other drugs - terfenadine, astemizole, cisapride, cyclosporine, and tricyclic antidepressants. ">
+        <entity id="DDI-DrugBank.d783.s0.e0" charOffset="0-6"
+            type="brand" text="Posicor"/>
+        <entity id="DDI-DrugBank.d783.s0.e1" charOffset="78-88"
+            type="drug" text="terfenadine"/>
+        <entity id="DDI-DrugBank.d783.s0.e2" charOffset="91-100"
+            type="drug" text="astemizole"/>
+        <entity id="DDI-DrugBank.d783.s0.e3" charOffset="103-111"
+            type="drug" text="cisapride"/>
+        <entity id="DDI-DrugBank.d783.s0.e4" charOffset="114-125"
+            type="drug" text="cyclosporine"/>
+        <entity id="DDI-DrugBank.d783.s0.e5" charOffset="132-156"
+            type="group" text="tricyclic antidepressants"/>
+        <pair id="DDI-DrugBank.d783.s0.p0" e1="DDI-DrugBank.d783.s0.e0"
+            e2="DDI-DrugBank.d783.s0.e1" ddi="true" type="mechanism"/>
+        <pair id="DDI-DrugBank.d783.s0.p1" e1="DDI-DrugBank.d783.s0.e0"
+            e2="DDI-DrugBank.d783.s0.e2" ddi="true" type="mechanism"/>
+        <pair id="DDI-DrugBank.d783.s0.p2" e1="DDI-DrugBank.d783.s0.e0"
+            e2="DDI-DrugBank.d783.s0.e3" ddi="true" type="mechanism"/>
+        <pair id="DDI-DrugBank.d783.s0.p3" e1="DDI-DrugBank.d783.s0.e0"
+            e2="DDI-DrugBank.d783.s0.e4" ddi="true" type="mechanism"/>
+        <pair id="DDI-DrugBank.d783.s0.p4" e1="DDI-DrugBank.d783.s0.e0"
+            e2="DDI-DrugBank.d783.s0.e5" ddi="true" type="mechanism"/>
+        <pair id="DDI-DrugBank.d783.s0.p5" e1="DDI-DrugBank.d783.s0.e1"
+            e2="DDI-DrugBank.d783.s0.e2" ddi="false"/>
+        <pair id="DDI-DrugBank.d783.s0.p6" e1="DDI-DrugBank.d783.s0.e1"
+            e2="DDI-DrugBank.d783.s0.e3" ddi="false"/>
+        <pair id="DDI-DrugBank.d783.s0.p7" e1="DDI-DrugBank.d783.s0.e1"
+            e2="DDI-DrugBank.d783.s0.e4" ddi="false"/>
+        <pair id="DDI-DrugBank.d783.s0.p8" e1="DDI-DrugBank.d783.s0.e1"
+            e2="DDI-DrugBank.d783.s0.e5" ddi="false"/>
+        <pair id="DDI-DrugBank.d783.s0.p9" e1="DDI-DrugBank.d783.s0.e2"
+            e2="DDI-DrugBank.d783.s0.e3" ddi="false"/>
+        <pair id="DDI-DrugBank.d783.s0.p10" e1="DDI-DrugBank.d783.s0.e2"
+            e2="DDI-DrugBank.d783.s0.e4" ddi="false"/>
+        <pair id="DDI-DrugBank.d783.s0.p11" e1="DDI-DrugBank.d783.s0.e2"
+            e2="DDI-DrugBank.d783.s0.e5" ddi="false"/>
+        <pair id="DDI-DrugBank.d783.s0.p12" e1="DDI-DrugBank.d783.s0.e3"
+            e2="DDI-DrugBank.d783.s0.e4" ddi="false"/>
+        <pair id="DDI-DrugBank.d783.s0.p13" e1="DDI-DrugBank.d783.s0.e3"
+            e2="DDI-DrugBank.d783.s0.e5" ddi="false"/>
+        <pair id="DDI-DrugBank.d783.s0.p14" e1="DDI-DrugBank.d783.s0.e4"
+            e2="DDI-DrugBank.d783.s0.e5" ddi="false"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d783.s1" text="Thus the concentrations of these drugs would increase meaning side effects may be seen. "/>
+    <sentence id="DDI-DrugBank.d783.s2" text="A dose adjustment may be required."/>
+</document>

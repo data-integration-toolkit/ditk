@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="DDI-DrugBank.d120">
+    <sentence id="DDI-DrugBank.d120.s0" text="CNS depression producing medications - concurrent use may potentiate the effects of either these medications or diphenidol;">
+        <entity id="DDI-DrugBank.d120.s0.e0" charOffset="112-121"
+            type="drug" text="diphenidol"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d120.s1" text="anticholinergics or other medications with anticholinergic activity - anticholinergic effects may be potentiated when these medications are used concurrently with diphenidol;">
+        <entity id="DDI-DrugBank.d120.s1.e0" charOffset="0-15"
+            type="group" text="anticholinergics"/>
+        <entity id="DDI-DrugBank.d120.s1.e1" charOffset="163-172"
+            type="drug" text="diphenidol"/>
+        <pair id="DDI-DrugBank.d120.s1.p0" e1="DDI-DrugBank.d120.s1.e0"
+            e2="DDI-DrugBank.d120.s1.e1" ddi="false"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d120.s2" text="apomorphine - prior ingestion of diphenidol may decrease the emetic response to apomorphine in the treatment of poisoning.">
+        <entity id="DDI-DrugBank.d120.s2.e0" charOffset="0-10"
+            type="drug" text="apomorphine"/>
+        <entity id="DDI-DrugBank.d120.s2.e1" charOffset="33-42"
+            type="drug" text="diphenidol"/>
+        <entity id="DDI-DrugBank.d120.s2.e2" charOffset="61-66"
+            type="group" text="emetic"/>
+        <entity id="DDI-DrugBank.d120.s2.e3" charOffset="80-90"
+            type="drug" text="apomorphine"/>
+        <pair id="DDI-DrugBank.d120.s2.p0" e1="DDI-DrugBank.d120.s2.e0"
+            e2="DDI-DrugBank.d120.s2.e1" ddi="false"/>
+        <pair id="DDI-DrugBank.d120.s2.p1" e1="DDI-DrugBank.d120.s2.e0"
+            e2="DDI-DrugBank.d120.s2.e2" ddi="false"/>
+        <pair id="DDI-DrugBank.d120.s2.p2" e1="DDI-DrugBank.d120.s2.e0"
+            e2="DDI-DrugBank.d120.s2.e3" ddi="false"/>
+        <pair id="DDI-DrugBank.d120.s2.p3" e1="DDI-DrugBank.d120.s2.e1"
+            e2="DDI-DrugBank.d120.s2.e2" ddi="false"/>
+        <pair id="DDI-DrugBank.d120.s2.p4" e1="DDI-DrugBank.d120.s2.e1"
+            e2="DDI-DrugBank.d120.s2.e3" ddi="true" type="effect"/>
+        <pair id="DDI-DrugBank.d120.s2.p5" e1="DDI-DrugBank.d120.s2.e2"
+            e2="DDI-DrugBank.d120.s2.e3" ddi="false"/>
+    </sentence>
+</document>

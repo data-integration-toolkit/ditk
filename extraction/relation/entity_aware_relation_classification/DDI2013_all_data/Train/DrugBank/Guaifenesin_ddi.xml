@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="DDI-DrugBank.d398">
+    <sentence id="DDI-DrugBank.d398.s0" text="The use of codeine may result in additive CNS depressant effects when coadministered with alcohol, antihistamines, psychotropics or other drugs that produce CNS depression.">
+        <entity id="DDI-DrugBank.d398.s0.e0" charOffset="11-17"
+            type="drug" text="codeine"/>
+        <entity id="DDI-DrugBank.d398.s0.e1" charOffset="90-96"
+            type="drug" text="alcohol"/>
+        <entity id="DDI-DrugBank.d398.s0.e2" charOffset="99-112"
+            type="group" text="antihistamines"/>
+        <entity id="DDI-DrugBank.d398.s0.e3" charOffset="115-127"
+            type="group" text="psychotropics"/>
+        <pair id="DDI-DrugBank.d398.s0.p0" e1="DDI-DrugBank.d398.s0.e0"
+            e2="DDI-DrugBank.d398.s0.e1" ddi="true" type="effect"/>
+        <pair id="DDI-DrugBank.d398.s0.p1" e1="DDI-DrugBank.d398.s0.e0"
+            e2="DDI-DrugBank.d398.s0.e2" ddi="true" type="effect"/>
+        <pair id="DDI-DrugBank.d398.s0.p2" e1="DDI-DrugBank.d398.s0.e0"
+            e2="DDI-DrugBank.d398.s0.e3" ddi="true" type="effect"/>
+        <pair id="DDI-DrugBank.d398.s0.p3" e1="DDI-DrugBank.d398.s0.e1"
+            e2="DDI-DrugBank.d398.s0.e2" ddi="false"/>
+        <pair id="DDI-DrugBank.d398.s0.p4" e1="DDI-DrugBank.d398.s0.e1"
+            e2="DDI-DrugBank.d398.s0.e3" ddi="false"/>
+        <pair id="DDI-DrugBank.d398.s0.p5" e1="DDI-DrugBank.d398.s0.e2"
+            e2="DDI-DrugBank.d398.s0.e3" ddi="false"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d398.s1" text="Serious toxicity may result if dextromethorphan is coadministered with monoamine oxidase inhibitors (MAOIs).">
+        <entity id="DDI-DrugBank.d398.s1.e0" charOffset="31-46"
+            type="drug" text="dextromethorphan"/>
+        <entity id="DDI-DrugBank.d398.s1.e1" charOffset="71-98"
+            type="group" text="monoamine oxidase inhibitors"/>
+        <entity id="DDI-DrugBank.d398.s1.e2" charOffset="101-105"
+            type="group" text="MAOIs"/>
+        <pair id="DDI-DrugBank.d398.s1.p0" e1="DDI-DrugBank.d398.s1.e0"
+            e2="DDI-DrugBank.d398.s1.e1" ddi="true" type="effect"/>
+        <pair id="DDI-DrugBank.d398.s1.p1" e1="DDI-DrugBank.d398.s1.e0"
+            e2="DDI-DrugBank.d398.s1.e2" ddi="true" type="effect"/>
+        <pair id="DDI-DrugBank.d398.s1.p2" e1="DDI-DrugBank.d398.s1.e1"
+            e2="DDI-DrugBank.d398.s1.e2" ddi="false"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d398.s2" text="The use of dextromethorphan hydrobromide may result in additive CNS depressant effects when coadministered with alcohol, antihistamines, psychotropics or other drugs that produce CNS depression.">
+        <entity id="DDI-DrugBank.d398.s2.e0" charOffset="11-39"
+            type="drug" text="dextromethorphan hydrobromide"/>
+        <entity id="DDI-DrugBank.d398.s2.e1" charOffset="112-118"
+            type="drug" text="alcohol"/>
+        <entity id="DDI-DrugBank.d398.s2.e2" charOffset="121-134"
+            type="group" text="antihistamines"/>
+        <entity id="DDI-DrugBank.d398.s2.e3" charOffset="137-149"
+            type="group" text="psychotropics"/>
+        <pair id="DDI-DrugBank.d398.s2.p0" e1="DDI-DrugBank.d398.s2.e0"
+            e2="DDI-DrugBank.d398.s2.e1" ddi="true" type="effect"/>
+        <pair id="DDI-DrugBank.d398.s2.p1" e1="DDI-DrugBank.d398.s2.e0"
+            e2="DDI-DrugBank.d398.s2.e2" ddi="true" type="effect"/>
+        <pair id="DDI-DrugBank.d398.s2.p2" e1="DDI-DrugBank.d398.s2.e0"
+            e2="DDI-DrugBank.d398.s2.e3" ddi="true" type="effect"/>
+        <pair id="DDI-DrugBank.d398.s2.p3" e1="DDI-DrugBank.d398.s2.e1"
+            e2="DDI-DrugBank.d398.s2.e2" ddi="false"/>
+        <pair id="DDI-DrugBank.d398.s2.p4" e1="DDI-DrugBank.d398.s2.e1"
+            e2="DDI-DrugBank.d398.s2.e3" ddi="false"/>
+        <pair id="DDI-DrugBank.d398.s2.p5" e1="DDI-DrugBank.d398.s2.e2"
+            e2="DDI-DrugBank.d398.s2.e3" ddi="false"/>
+    </sentence>
+</document>

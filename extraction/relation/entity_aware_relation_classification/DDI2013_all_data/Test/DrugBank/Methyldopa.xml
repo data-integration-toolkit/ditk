@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="DDI-DrugBank.d779">
+    <sentence id="DDI-DrugBank.d779.s0" text="When methyldopa is used with other antihypertensive drugs, potentiation of antihypertensive effect may occur. ">
+        <entity id="DDI-DrugBank.d779.s0.e0" charOffset="5-14"
+            type="drug" text="methyldopa"/>
+        <entity id="DDI-DrugBank.d779.s0.e1" charOffset="35-56"
+            type="group" text="antihypertensive drugs"/>
+        <pair id="DDI-DrugBank.d779.s0.p0" e1="DDI-DrugBank.d779.s0.e0"
+            e2="DDI-DrugBank.d779.s0.e1" ddi="true" type="effect"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d779.s1" text="Patients should be followed carefully to detect side reactions or unusual manifestations of drug idiosyncrasy. "/>
+    <sentence id="DDI-DrugBank.d779.s2" text="Patients may require reduced doses of anesthetics when on methyldopa. ">
+        <entity id="DDI-DrugBank.d779.s2.e0" charOffset="38-48"
+            type="group" text="anesthetics"/>
+        <entity id="DDI-DrugBank.d779.s2.e1" charOffset="58-67"
+            type="drug" text="methyldopa"/>
+        <pair id="DDI-DrugBank.d779.s2.p0" e1="DDI-DrugBank.d779.s2.e0"
+            e2="DDI-DrugBank.d779.s2.e1" ddi="true" type="advise"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d779.s3" text="If hypotension does occur during anesthesia, it usually can be controlled by vasopressors. ">
+        <entity id="DDI-DrugBank.d779.s3.e0" charOffset="77-88"
+            type="group" text="vasopressors"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d779.s4" text="The adrenergic receptors remain sensitive during treatment with methyldopa. ">
+        <entity id="DDI-DrugBank.d779.s4.e0" charOffset="64-73"
+            type="drug" text="methyldopa"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d779.s5" text="When methyldopa and lithium are given concomitantly the patient should be carefully monitored for symptoms of lithium toxicity. ">
+        <entity id="DDI-DrugBank.d779.s5.e0" charOffset="5-14"
+            type="drug" text="methyldopa"/>
+        <entity id="DDI-DrugBank.d779.s5.e1" charOffset="20-26"
+            type="drug" text="lithium"/>
+        <entity id="DDI-DrugBank.d779.s5.e2" charOffset="110-116"
+            type="drug" text="lithium"/>
+        <pair id="DDI-DrugBank.d779.s5.p0" e1="DDI-DrugBank.d779.s5.e0"
+            e2="DDI-DrugBank.d779.s5.e1" ddi="true" type="advise"/>
+        <pair id="DDI-DrugBank.d779.s5.p1" e1="DDI-DrugBank.d779.s5.e0"
+            e2="DDI-DrugBank.d779.s5.e2" ddi="false"/>
+        <pair id="DDI-DrugBank.d779.s5.p2" e1="DDI-DrugBank.d779.s5.e1"
+            e2="DDI-DrugBank.d779.s5.e2" ddi="false"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d779.s6" text="Read the circular for lithium preparations. ">
+        <entity id="DDI-DrugBank.d779.s6.e0" charOffset="22-28"
+            type="drug" text="lithium"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d779.s7" text="Several studies demonstrate a decrease in the bioavailability of methyldopa when it is ingested with ferrous sulfate or ferrous gluconate. ">
+        <entity id="DDI-DrugBank.d779.s7.e0" charOffset="65-74"
+            type="drug" text="methyldopa"/>
+        <entity id="DDI-DrugBank.d779.s7.e1" charOffset="101-115"
+            type="drug" text="ferrous sulfate"/>
+        <entity id="DDI-DrugBank.d779.s7.e2" charOffset="120-136"
+            type="drug" text="ferrous gluconate"/>
+        <pair id="DDI-DrugBank.d779.s7.p0" e1="DDI-DrugBank.d779.s7.e0"
+            e2="DDI-DrugBank.d779.s7.e1" ddi="true" type="mechanism"/>
+        <pair id="DDI-DrugBank.d779.s7.p1" e1="DDI-DrugBank.d779.s7.e0"
+            e2="DDI-DrugBank.d779.s7.e2" ddi="true" type="mechanism"/>
+        <pair id="DDI-DrugBank.d779.s7.p2" e1="DDI-DrugBank.d779.s7.e1"
+            e2="DDI-DrugBank.d779.s7.e2" ddi="false"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d779.s8" text="This may adversely affect blood pressure control in patients treated with methyldopa. ">
+        <entity id="DDI-DrugBank.d779.s8.e0" charOffset="74-83"
+            type="drug" text="methyldopa"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d779.s9" text="Coadministration of methyldopa with ferrous sulfate or ferrous gluconate is not recommended. ">
+        <entity id="DDI-DrugBank.d779.s9.e0" charOffset="20-29"
+            type="drug" text="methyldopa"/>
+        <entity id="DDI-DrugBank.d779.s9.e1" charOffset="36-50"
+            type="drug" text="ferrous sulfate"/>
+        <entity id="DDI-DrugBank.d779.s9.e2" charOffset="55-71"
+            type="drug" text="ferrous gluconate"/>
+        <pair id="DDI-DrugBank.d779.s9.p0" e1="DDI-DrugBank.d779.s9.e0"
+            e2="DDI-DrugBank.d779.s9.e1" ddi="true" type="advise"/>
+        <pair id="DDI-DrugBank.d779.s9.p1" e1="DDI-DrugBank.d779.s9.e0"
+            e2="DDI-DrugBank.d779.s9.e2" ddi="true" type="advise"/>
+        <pair id="DDI-DrugBank.d779.s9.p2" e1="DDI-DrugBank.d779.s9.e1"
+            e2="DDI-DrugBank.d779.s9.e2" ddi="false"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d779.s10" text="Monoamine oxidase (MAO) inhibitors: See CONTRAINDICATIONS. ">
+        <entity id="DDI-DrugBank.d779.s10.e0" charOffset="0-33"
+            type="group" text="Monoamine oxidase (MAO) inhibitors"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d779.s11" text="Drug/Laboratory Test Interactions Methyldopa may interfere with measurement of: urinary uric acid by the phosphotungstate method, serum creatinine by the alkaline picrate method, and SGOT by colorimetric methods. ">
+        <entity id="DDI-DrugBank.d779.s11.e0" charOffset="34-43"
+            type="drug" text="Methyldopa"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d779.s12" text="Interference with spectrophotometric methods for SGOT analysis has not been reported. "/>
+    <sentence id="DDI-DrugBank.d779.s13" text="Since methyldopa causes fluorescence in urine samples at the same wave lengths as catecholamines, falsely high levels of urinary catecholamines may be reported. ">
+        <entity id="DDI-DrugBank.d779.s13.e0" charOffset="6-15"
+            type="drug" text="methyldopa"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d779.s14" text="This will interfere with the diagnosis of pheochromocytoma. "/>
+    <sentence id="DDI-DrugBank.d779.s15" text="It is important to recognize this phenomenon before a patient with a possible pheochromocytoma is subjected to surgery. "/>
+    <sentence id="DDI-DrugBank.d779.s16" text="Methyldopa does not interfere with measurement of VMA (vanillylmandelic acid), a test for pheochromocytoma, by those methods which convert VMA to vanillin. ">
+        <entity id="DDI-DrugBank.d779.s16.e0" charOffset="0-9"
+            type="drug" text="Methyldopa"/>
+        <entity id="DDI-DrugBank.d779.s16.e1" charOffset="50-52"
+            type="drug_n" text="VMA"/>
+        <entity id="DDI-DrugBank.d779.s16.e2" charOffset="55-75"
+            type="drug_n" text="vanillylmandelic acid"/>
+        <entity id="DDI-DrugBank.d779.s16.e3" charOffset="139-141"
+            type="drug_n" text="VMA"/>
+        <entity id="DDI-DrugBank.d779.s16.e4" charOffset="146-153"
+            type="drug_n" text="vanillin"/>
+        <pair id="DDI-DrugBank.d779.s16.p0"
+            e1="DDI-DrugBank.d779.s16.e0" e2="DDI-DrugBank.d779.s16.e1" ddi="false"/>
+        <pair id="DDI-DrugBank.d779.s16.p1"
+            e1="DDI-DrugBank.d779.s16.e0" e2="DDI-DrugBank.d779.s16.e2" ddi="false"/>
+        <pair id="DDI-DrugBank.d779.s16.p2"
+            e1="DDI-DrugBank.d779.s16.e0" e2="DDI-DrugBank.d779.s16.e3" ddi="false"/>
+        <pair id="DDI-DrugBank.d779.s16.p3"
+            e1="DDI-DrugBank.d779.s16.e0" e2="DDI-DrugBank.d779.s16.e4" ddi="false"/>
+        <pair id="DDI-DrugBank.d779.s16.p4"
+            e1="DDI-DrugBank.d779.s16.e1" e2="DDI-DrugBank.d779.s16.e2" ddi="false"/>
+        <pair id="DDI-DrugBank.d779.s16.p5"
+            e1="DDI-DrugBank.d779.s16.e1" e2="DDI-DrugBank.d779.s16.e3" ddi="false"/>
+        <pair id="DDI-DrugBank.d779.s16.p6"
+            e1="DDI-DrugBank.d779.s16.e1" e2="DDI-DrugBank.d779.s16.e4" ddi="false"/>
+        <pair id="DDI-DrugBank.d779.s16.p7"
+            e1="DDI-DrugBank.d779.s16.e2" e2="DDI-DrugBank.d779.s16.e3" ddi="false"/>
+        <pair id="DDI-DrugBank.d779.s16.p8"
+            e1="DDI-DrugBank.d779.s16.e2" e2="DDI-DrugBank.d779.s16.e4" ddi="false"/>
+        <pair id="DDI-DrugBank.d779.s16.p9"
+            e1="DDI-DrugBank.d779.s16.e3" e2="DDI-DrugBank.d779.s16.e4" ddi="false"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d779.s17" text="Methyldopa is not recommended for the treatment of patients with pheochromocytoma. ">
+        <entity id="DDI-DrugBank.d779.s17.e0" charOffset="0-9"
+            type="drug" text="Methyldopa"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d779.s18" text="Rarely, when urine is exposed to air after voiding, it may darken because of breakdown of methyldopa or its metabolites.    ">
+        <entity id="DDI-DrugBank.d779.s18.e0" charOffset="90-99"
+            type="drug" text="methyldopa"/>
+    </sentence>
+</document>

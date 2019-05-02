@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="DDI-DrugBank.d666">
+    <sentence id="DDI-DrugBank.d666.s0" text="Catecholamine-depleting drugs (e.g., reserpine) may have an additive effect when given with beta-blocking agents. ">
+        <entity id="DDI-DrugBank.d666.s0.e0" charOffset="37-45"
+            type="drug" text="reserpine"/>
+        <entity id="DDI-DrugBank.d666.s0.e1" charOffset="92-111"
+            type="group" text="beta-blocking agents"/>
+        <pair id="DDI-DrugBank.d666.s0.p0" e1="DDI-DrugBank.d666.s0.e0"
+            e2="DDI-DrugBank.d666.s0.e1" ddi="true" type="effect"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d666.s1" text="Patients receiving pindolol plus a catecholamine-depleting agent should, therefore, be closely observed for evidence of hypotension and/or marked bradycardia which may produce vertigo, syncope, or postural hypotension. ">
+        <entity id="DDI-DrugBank.d666.s1.e0" charOffset="19-26"
+            type="drug" text="pindolol"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d666.s2" text="Pindolol has been used with a variety of antihypertensive agents, including hydrochlorothiazide, hydralazine, and guanethidine without unexpected adverse interactions. ">
+        <entity id="DDI-DrugBank.d666.s2.e0" charOffset="0-7"
+            type="drug" text="Pindolol"/>
+        <entity id="DDI-DrugBank.d666.s2.e1" charOffset="41-63"
+            type="group" text="antihypertensive agents"/>
+        <entity id="DDI-DrugBank.d666.s2.e2" charOffset="76-94"
+            type="drug" text="hydrochlorothiazide"/>
+        <entity id="DDI-DrugBank.d666.s2.e3" charOffset="97-107"
+            type="drug" text="hydralazine"/>
+        <entity id="DDI-DrugBank.d666.s2.e4" charOffset="114-125"
+            type="drug" text="guanethidine"/>
+        <pair id="DDI-DrugBank.d666.s2.p0" e1="DDI-DrugBank.d666.s2.e0"
+            e2="DDI-DrugBank.d666.s2.e1" ddi="false"/>
+        <pair id="DDI-DrugBank.d666.s2.p1" e1="DDI-DrugBank.d666.s2.e0"
+            e2="DDI-DrugBank.d666.s2.e2" ddi="false"/>
+        <pair id="DDI-DrugBank.d666.s2.p2" e1="DDI-DrugBank.d666.s2.e0"
+            e2="DDI-DrugBank.d666.s2.e3" ddi="false"/>
+        <pair id="DDI-DrugBank.d666.s2.p3" e1="DDI-DrugBank.d666.s2.e0"
+            e2="DDI-DrugBank.d666.s2.e4" ddi="false"/>
+        <pair id="DDI-DrugBank.d666.s2.p4" e1="DDI-DrugBank.d666.s2.e1"
+            e2="DDI-DrugBank.d666.s2.e2" ddi="false"/>
+        <pair id="DDI-DrugBank.d666.s2.p5" e1="DDI-DrugBank.d666.s2.e1"
+            e2="DDI-DrugBank.d666.s2.e3" ddi="false"/>
+        <pair id="DDI-DrugBank.d666.s2.p6" e1="DDI-DrugBank.d666.s2.e1"
+            e2="DDI-DrugBank.d666.s2.e4" ddi="false"/>
+        <pair id="DDI-DrugBank.d666.s2.p7" e1="DDI-DrugBank.d666.s2.e2"
+            e2="DDI-DrugBank.d666.s2.e3" ddi="false"/>
+        <pair id="DDI-DrugBank.d666.s2.p8" e1="DDI-DrugBank.d666.s2.e2"
+            e2="DDI-DrugBank.d666.s2.e4" ddi="false"/>
+        <pair id="DDI-DrugBank.d666.s2.p9" e1="DDI-DrugBank.d666.s2.e3"
+            e2="DDI-DrugBank.d666.s2.e4" ddi="false"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d666.s3" text="Pindolol has been shown to increase serum thioridazine levels when both drugs are co-administered. ">
+        <entity id="DDI-DrugBank.d666.s3.e0" charOffset="0-7"
+            type="drug" text="Pindolol"/>
+        <entity id="DDI-DrugBank.d666.s3.e1" charOffset="42-53"
+            type="drug" text="thioridazine"/>
+        <pair id="DDI-DrugBank.d666.s3.p0" e1="DDI-DrugBank.d666.s3.e0"
+            e2="DDI-DrugBank.d666.s3.e1" ddi="true" type="mechanism"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d666.s4" text="Pindolol levels may also be increased with this combination. ">
+        <entity id="DDI-DrugBank.d666.s4.e0" charOffset="0-7"
+            type="drug" text="Pindolol"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d666.s5" text="Risk of anaphylactic reaction: While taking beta blockers, patients with a history of severe anaphylactic reaction to a variety of allergens may be more reactive to repeated challenge, either accidental, diagnostic, or therapeutic. ">
+        <entity id="DDI-DrugBank.d666.s5.e0" charOffset="44-56"
+            type="group" text="beta blockers"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d666.s6" text="Such patients may be unresponsive to the usual doses of epinephrine used to treat allergic reactions.">
+        <entity id="DDI-DrugBank.d666.s6.e0" charOffset="56-66"
+            type="drug" text="epinephrine"/>
+    </sentence>
+</document>

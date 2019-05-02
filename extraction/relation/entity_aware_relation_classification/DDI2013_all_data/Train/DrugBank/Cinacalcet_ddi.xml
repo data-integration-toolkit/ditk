@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="DDI-DrugBank.d512">
+    <sentence id="DDI-DrugBank.d512.s0" text="and/or Drug/Laboratory Test Interactions See CLINICAL PHARMACOLOGY, Pharmacokinetics and Drug Interactions."/>
+    <sentence id="DDI-DrugBank.d512.s1" text="Effect of Sensipar on other drugs: Drugs metabolized by cytochrome P450 2D6 (CYP2D6): Sensipar  is a strong in vitro inhibitor of CYP2D6.">
+        <entity id="DDI-DrugBank.d512.s1.e0" charOffset="10-17"
+            type="brand" text="Sensipar"/>
+        <entity id="DDI-DrugBank.d512.s1.e1" charOffset="86-93"
+            type="brand" text="Sensipar"/>
+        <pair id="DDI-DrugBank.d512.s1.p0" e1="DDI-DrugBank.d512.s1.e0"
+            e2="DDI-DrugBank.d512.s1.e1" ddi="false"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d512.s2" text="Therefore, dose adjustments of concomitant medications that are predominantly metabolized by CYP2D6 and have a narrow therapeutic index (e.g., flecainide, vinblastine, thioridazine and most tricyclic antidepressants) may be required.">
+        <entity id="DDI-DrugBank.d512.s2.e0" charOffset="143-152"
+            type="drug" text="flecainide"/>
+        <entity id="DDI-DrugBank.d512.s2.e1" charOffset="155-165"
+            type="drug" text="vinblastine"/>
+        <entity id="DDI-DrugBank.d512.s2.e2" charOffset="168-179"
+            type="drug" text="thioridazine"/>
+        <entity id="DDI-DrugBank.d512.s2.e3" charOffset="190-214"
+            type="group" text="tricyclic antidepressants"/>
+        <pair id="DDI-DrugBank.d512.s2.p0" e1="DDI-DrugBank.d512.s2.e0"
+            e2="DDI-DrugBank.d512.s2.e1" ddi="false"/>
+        <pair id="DDI-DrugBank.d512.s2.p1" e1="DDI-DrugBank.d512.s2.e0"
+            e2="DDI-DrugBank.d512.s2.e2" ddi="false"/>
+        <pair id="DDI-DrugBank.d512.s2.p2" e1="DDI-DrugBank.d512.s2.e0"
+            e2="DDI-DrugBank.d512.s2.e3" ddi="false"/>
+        <pair id="DDI-DrugBank.d512.s2.p3" e1="DDI-DrugBank.d512.s2.e1"
+            e2="DDI-DrugBank.d512.s2.e2" ddi="false"/>
+        <pair id="DDI-DrugBank.d512.s2.p4" e1="DDI-DrugBank.d512.s2.e1"
+            e2="DDI-DrugBank.d512.s2.e3" ddi="false"/>
+        <pair id="DDI-DrugBank.d512.s2.p5" e1="DDI-DrugBank.d512.s2.e2"
+            e2="DDI-DrugBank.d512.s2.e3" ddi="false"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d512.s3" text="Amitriptyline: Concurrent administration of 25 mg or 100 mg cinacalcet with 50 mg amitriptyline increased amitriptyline exposure and nortriptyline (active metabolite) exposure by approximately 20% in CYP2D6 extensive metabolizers.">
+        <entity id="DDI-DrugBank.d512.s3.e0" charOffset="0-12"
+            type="drug" text="Amitriptyline"/>
+        <entity id="DDI-DrugBank.d512.s3.e1" charOffset="60-69"
+            type="drug" text="cinacalcet"/>
+        <entity id="DDI-DrugBank.d512.s3.e2" charOffset="82-94"
+            type="drug" text="amitriptyline"/>
+        <entity id="DDI-DrugBank.d512.s3.e3" charOffset="106-118"
+            type="drug" text="amitriptyline"/>
+        <entity id="DDI-DrugBank.d512.s3.e4" charOffset="133-145"
+            type="drug_n" text="nortriptyline"/>
+        <pair id="DDI-DrugBank.d512.s3.p0" e1="DDI-DrugBank.d512.s3.e0"
+            e2="DDI-DrugBank.d512.s3.e1" ddi="false"/>
+        <pair id="DDI-DrugBank.d512.s3.p1" e1="DDI-DrugBank.d512.s3.e0"
+            e2="DDI-DrugBank.d512.s3.e2" ddi="false"/>
+        <pair id="DDI-DrugBank.d512.s3.p2" e1="DDI-DrugBank.d512.s3.e0"
+            e2="DDI-DrugBank.d512.s3.e3" ddi="false"/>
+        <pair id="DDI-DrugBank.d512.s3.p3" e1="DDI-DrugBank.d512.s3.e0"
+            e2="DDI-DrugBank.d512.s3.e4" ddi="false"/>
+        <pair id="DDI-DrugBank.d512.s3.p4" e1="DDI-DrugBank.d512.s3.e1"
+            e2="DDI-DrugBank.d512.s3.e2" ddi="true" type="mechanism"/>
+        <pair id="DDI-DrugBank.d512.s3.p5" e1="DDI-DrugBank.d512.s3.e1"
+            e2="DDI-DrugBank.d512.s3.e3" ddi="false"/>
+        <pair id="DDI-DrugBank.d512.s3.p6" e1="DDI-DrugBank.d512.s3.e1"
+            e2="DDI-DrugBank.d512.s3.e4" ddi="false"/>
+        <pair id="DDI-DrugBank.d512.s3.p7" e1="DDI-DrugBank.d512.s3.e2"
+            e2="DDI-DrugBank.d512.s3.e3" ddi="false"/>
+        <pair id="DDI-DrugBank.d512.s3.p8" e1="DDI-DrugBank.d512.s3.e2"
+            e2="DDI-DrugBank.d512.s3.e4" ddi="false"/>
+        <pair id="DDI-DrugBank.d512.s3.p9" e1="DDI-DrugBank.d512.s3.e3"
+            e2="DDI-DrugBank.d512.s3.e4" ddi="false"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d512.s4" text="Effect of other drugs on Sensipar : Sensipar  is metabolized by multiple cytochrome P450 enzymes, primarily CYP3A4, CYP2D6, and CYP1A2.">
+        <entity id="DDI-DrugBank.d512.s4.e0" charOffset="25-32"
+            type="brand" text="Sensipar"/>
+        <entity id="DDI-DrugBank.d512.s4.e1" charOffset="36-43"
+            type="brand" text="Sensipar"/>
+        <pair id="DDI-DrugBank.d512.s4.p0" e1="DDI-DrugBank.d512.s4.e0"
+            e2="DDI-DrugBank.d512.s4.e1" ddi="false"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d512.s5" text="Ketoconazole: Sensipar is metabolized in part by CYP3A4.">
+        <entity id="DDI-DrugBank.d512.s5.e0" charOffset="0-11"
+            type="drug" text="Ketoconazole"/>
+        <entity id="DDI-DrugBank.d512.s5.e1" charOffset="14-21"
+            type="brand" text="Sensipar"/>
+        <pair id="DDI-DrugBank.d512.s5.p0" e1="DDI-DrugBank.d512.s5.e0"
+            e2="DDI-DrugBank.d512.s5.e1" ddi="false"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d512.s6" text="Co-administration of ketoconazole, a strong inhibitor of CYP3A4, increased cinacalcet exposure following a single 90 mg dose of Sensipar by 2.3 fold.">
+        <entity id="DDI-DrugBank.d512.s6.e0" charOffset="21-32"
+            type="drug" text="ketoconazole"/>
+        <entity id="DDI-DrugBank.d512.s6.e1" charOffset="75-84"
+            type="drug" text="cinacalcet"/>
+        <entity id="DDI-DrugBank.d512.s6.e2" charOffset="128-135"
+            type="brand" text="Sensipar"/>
+        <pair id="DDI-DrugBank.d512.s6.p0" e1="DDI-DrugBank.d512.s6.e0"
+            e2="DDI-DrugBank.d512.s6.e1" ddi="true" type="mechanism"/>
+        <pair id="DDI-DrugBank.d512.s6.p1" e1="DDI-DrugBank.d512.s6.e0"
+            e2="DDI-DrugBank.d512.s6.e2" ddi="false"/>
+        <pair id="DDI-DrugBank.d512.s6.p2" e1="DDI-DrugBank.d512.s6.e1"
+            e2="DDI-DrugBank.d512.s6.e2" ddi="false"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d512.s7" text="Dose adjustment of Sensipar may be required and PTH and serum calcium concentrations should be closely monitored if a patient initiates or discontinues therapy with a strong CYP3A4 inhibitor (e.g., ketoconazole, erythromycin, itraconazole;">
+        <entity id="DDI-DrugBank.d512.s7.e0" charOffset="19-26"
+            type="brand" text="Sensipar"/>
+        <entity id="DDI-DrugBank.d512.s7.e1" charOffset="198-209"
+            type="drug" text="ketoconazole"/>
+        <entity id="DDI-DrugBank.d512.s7.e2" charOffset="212-223"
+            type="drug" text="erythromycin"/>
+        <entity id="DDI-DrugBank.d512.s7.e3" charOffset="226-237"
+            type="drug" text="itraconazole"/>
+        <pair id="DDI-DrugBank.d512.s7.p0" e1="DDI-DrugBank.d512.s7.e0"
+            e2="DDI-DrugBank.d512.s7.e1" ddi="true" type="advise"/>
+        <pair id="DDI-DrugBank.d512.s7.p1" e1="DDI-DrugBank.d512.s7.e0"
+            e2="DDI-DrugBank.d512.s7.e2" ddi="true" type="advise"/>
+        <pair id="DDI-DrugBank.d512.s7.p2" e1="DDI-DrugBank.d512.s7.e0"
+            e2="DDI-DrugBank.d512.s7.e3" ddi="true" type="advise"/>
+        <pair id="DDI-DrugBank.d512.s7.p3" e1="DDI-DrugBank.d512.s7.e1"
+            e2="DDI-DrugBank.d512.s7.e2" ddi="false"/>
+        <pair id="DDI-DrugBank.d512.s7.p4" e1="DDI-DrugBank.d512.s7.e1"
+            e2="DDI-DrugBank.d512.s7.e3" ddi="false"/>
+        <pair id="DDI-DrugBank.d512.s7.p5" e1="DDI-DrugBank.d512.s7.e2"
+            e2="DDI-DrugBank.d512.s7.e3" ddi="false"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d512.s8" text="see DOSAGE AND ADMINISTRATION)."/>
+</document>

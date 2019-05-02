@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="DDI-DrugBank.d613">
+    <sentence id="DDI-DrugBank.d613.s0" text="A study published in 2002 found that vigabatrin causes a statistically significant increase in plasma clearance of carbamazepine. ">
+        <entity id="DDI-DrugBank.d613.s0.e0" charOffset="37-46"
+            type="drug" text="vigabatrin"/>
+        <entity id="DDI-DrugBank.d613.s0.e1" charOffset="115-127"
+            type="drug" text="carbamazepine"/>
+        <pair id="DDI-DrugBank.d613.s0.p0" e1="DDI-DrugBank.d613.s0.e0"
+            e2="DDI-DrugBank.d613.s0.e1" ddi="true" type="mechanism"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d613.s1" text="In 1984, Drs Rimmer and Richens at the University of Wales reported that administering vigabatrin with phenytoin lowered the serum phenytoin concentration in patients with treatment-resistant epilepsy. ">
+        <entity id="DDI-DrugBank.d613.s1.e0" charOffset="87-96"
+            type="drug" text="vigabatrin"/>
+        <entity id="DDI-DrugBank.d613.s1.e1" charOffset="103-111"
+            type="drug" text="phenytoin"/>
+        <entity id="DDI-DrugBank.d613.s1.e2" charOffset="131-139"
+            type="drug" text="phenytoin"/>
+        <pair id="DDI-DrugBank.d613.s1.p0" e1="DDI-DrugBank.d613.s1.e0"
+            e2="DDI-DrugBank.d613.s1.e1" ddi="true" type="mechanism"/>
+        <pair id="DDI-DrugBank.d613.s1.p1" e1="DDI-DrugBank.d613.s1.e0"
+            e2="DDI-DrugBank.d613.s1.e2" ddi="false"/>
+        <pair id="DDI-DrugBank.d613.s1.p2" e1="DDI-DrugBank.d613.s1.e1"
+            e2="DDI-DrugBank.d613.s1.e2" ddi="false"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d613.s2" text="The concentration of phenytoin falls to 23% within five weeks, according to an experiment published in 1989 by the same two scientists that tried and failed to elucidate the mechanism behind this interaction.">
+        <entity id="DDI-DrugBank.d613.s2.e0" charOffset="21-29"
+            type="drug" text="phenytoin"/>
+    </sentence>
+</document>

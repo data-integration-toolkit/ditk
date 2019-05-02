@@ -1,0 +1,426 @@
+DF-170-181103-888_2097.1
+NODE NAME: a / apologize-01
+POLARITY: False
+LINK TO:
+	(:ARG1) -> a2 / and
+	(:ARG0) -> h2 / he
+
+DF-170-181103-888_2097.1
+NODE NAME: a2 / and
+POLARITY: False
+LINK TO:
+	(:op2) -> e / everything
+	(:op1) -> a3 / anything
+
+DF-170-181103-888_2097.1
+NODE NAME: a3 / anything
+POLARITY: False
+LINK TO:
+
+DF-170-181103-888_2097.1
+NODE NAME: e / everything
+POLARITY: False
+LINK TO:
+
+DF-170-181103-888_2097.1
+NODE NAME: h / help-02
+POLARITY: False
+LINK TO:
+	(:ARG1) -> a / apologize-01
+	(:ARG0) -> h2 / he
+
+DF-170-181103-888_2097.1
+NODE NAME: h2 / he
+POLARITY: False
+LINK TO:
+
+DF-170-181103-888_2097.1
+NODE NAME: p / possible
+POLARITY: True
+LINK TO:
+	(:domain) -> s / seem-01
+
+DF-170-181103-888_2097.1
+NODE NAME: s / seem-01
+POLARITY: False
+LINK TO:
+	(:ARG1) -> h / help-02
+
+DF-170-181103-888_2097.2
+NODE NAME: "Hallmark"
+POLARITY: False
+LINK TO:
+
+DF-170-181103-888_2097.2
+NODE NAME: c / company
+POLARITY: False
+ENTITY TYPE: company
+ENTITY NAME: Hallmark
+WIKIPEDIA TITLE: Hallmark_Cards
+LINK TO:
+
+DF-170-181103-888_2097.2
+NODE NAME: f / fortune
+POLARITY: False
+LINK TO:
+	(:source) -> g / guy
+
+DF-170-181103-888_2097.2
+NODE NAME: g / guy
+POLARITY: False
+LINK TO:
+	(:mod) -> t / this
+
+DF-170-181103-888_2097.2
+NODE NAME: m / make-05
+POLARITY: False
+LINK TO:
+	(:ARG1) -> f / fortune
+	(:ARG0) -> c / company
+
+DF-170-181103-888_2097.2
+NODE NAME: p / possible
+POLARITY: False
+LINK TO:
+	(:domain) -> m / make-05
+
+DF-170-181103-888_2097.2
+NODE NAME: t / this
+POLARITY: False
+LINK TO:
+
+DF-170-181103-888_2097.3
+NODE NAME: "Palin"
+POLARITY: False
+LINK TO:
+
+DF-170-181103-888_2097.3
+NODE NAME: "Sarah"
+POLARITY: False
+LINK TO:
+
+DF-170-181103-888_2097.3
+NODE NAME: a / and
+POLARITY: False
+LINK TO:
+	(:op2) -> r / recommend-01
+	(:op1) -> f / follow-02
+
+DF-170-181103-888_2097.3
+NODE NAME: a2 / amr-unknown
+POLARITY: False
+LINK TO:
+
+DF-170-181103-888_2097.3
+NODE NAME: a3 / apologize-01
+POLARITY: False
+LINK TO:
+	(:ARG2) -> p / person
+	(:ARG0) -> h / he
+
+DF-170-181103-888_2097.3
+NODE NAME: c / cause-01
+POLARITY: False
+LINK TO:
+	(:ARG0) -> a2 / amr-unknown
+
+DF-170-181103-888_2097.3
+NODE NAME: f / follow-02
+POLARITY: True
+LINK TO:
+	(:ARG0) -> i / i
+
+DF-170-181103-888_2097.3
+NODE NAME: h / he
+POLARITY: False
+LINK TO:
+
+DF-170-181103-888_2097.3
+NODE NAME: i / i
+POLARITY: False
+LINK TO:
+
+DF-170-181103-888_2097.3
+NODE NAME: p / person
+POLARITY: False
+ENTITY TYPE: person
+ENTITY NAME: Sarah Palin
+WIKIPEDIA TITLE: Sarah_Palin
+LINK TO:
+
+DF-170-181103-888_2097.3
+NODE NAME: r / recommend-01
+POLARITY: False
+LINK TO:
+	(:ARG1) -> a3 / apologize-01
+	(:ARG1-of) -> c / cause-01
+
+DF-170-181103-888_2097.4
+NODE NAME: "Giffords"
+POLARITY: False
+LINK TO:
+
+DF-170-181103-888_2097.4
+NODE NAME: "Palin"
+POLARITY: False
+LINK TO:
+
+DF-170-181103-888_2097.4
+NODE NAME: a / apologize-01
+POLARITY: False
+LINK TO:
+	(:ARG2) -> p2 / person
+	(:ARG0) -> p / person
+	(:mode) -> interrogative
+
+DF-170-181103-888_2097.4
+NODE NAME: interrogative
+POLARITY: False
+LINK TO:
+
+DF-170-181103-888_2097.4
+NODE NAME: p / person
+POLARITY: False
+ENTITY TYPE: person
+ENTITY NAME: Palin
+WIKIPEDIA TITLE: Sarah_Palin
+LINK TO:
+
+DF-170-181103-888_2097.4
+NODE NAME: p2 / person
+POLARITY: False
+ENTITY TYPE: person
+ENTITY NAME: Giffords
+WIKIPEDIA TITLE: Gabrielle_Giffords
+LINK TO:
+
+DF-170-181103-888_2097.5
+NODE NAME: "NBC"
+POLARITY: False
+LINK TO:
+
+DF-170-181103-888_2097.5
+NODE NAME: "Palin"
+POLARITY: False
+LINK TO:
+
+DF-170-181103-888_2097.5
+NODE NAME: b / beer
+POLARITY: False
+LINK TO:
+
+DF-170-181103-888_2097.5
+NODE NAME: c / conduct-01
+POLARITY: False
+LINK TO:
+	(:ARG1) -> m / meet-03
+	(:ARG0) -> h / he
+
+DF-170-181103-888_2097.5
+NODE NAME: h / he
+POLARITY: False
+LINK TO:
+
+DF-170-181103-888_2097.5
+NODE NAME: m / meet-03
+POLARITY: False
+LINK TO:
+	(:ARG0) -> p / person
+	(:ARG1) -> p2 / publication
+	(:mod) -> s / summit
+
+DF-170-181103-888_2097.5
+NODE NAME: n / need-01
+POLARITY: False
+LINK TO:
+	(:ARG1) -> c / conduct-01
+	(:ARG0) -> h / he
+
+DF-170-181103-888_2097.5
+NODE NAME: p / person
+POLARITY: False
+ENTITY TYPE: person
+ENTITY NAME: Palin
+WIKIPEDIA TITLE: Sarah_Palin
+LINK TO:
+
+DF-170-181103-888_2097.5
+NODE NAME: p2 / publication
+POLARITY: False
+ENTITY TYPE: publication
+ENTITY NAME: NBC
+WIKIPEDIA TITLE: NBC
+LINK TO:
+
+DF-170-181103-888_2097.5
+NODE NAME: s / summit
+POLARITY: False
+LINK TO:
+	(:mod) -> b / beer
+
+DF-170-181103-888_2097.6
+NODE NAME: a / and
+POLARITY: False
+LINK TO:
+	(:op2) -> g / get-04
+	(:op1) -> m / mend-01
+
+DF-170-181103-888_2097.6
+NODE NAME: c / country
+POLARITY: False
+LINK TO:
+	(:mod) -> t / this
+
+DF-170-181103-888_2097.6
+NODE NAME: f / fence
+POLARITY: False
+LINK TO:
+	(:quant) -> s / some
+
+DF-170-181103-888_2097.6
+NODE NAME: g / get-04
+POLARITY: False
+LINK TO:
+	(:ARG1) -> m2 / move-03
+
+DF-170-181103-888_2097.6
+NODE NAME: m / mend-01
+POLARITY: False
+LINK TO:
+	(:ARG1) -> f / fence
+
+DF-170-181103-888_2097.6
+NODE NAME: m2 / move-03
+POLARITY: False
+LINK TO:
+	(:ARG1) -> c / country
+
+DF-170-181103-888_2097.6
+NODE NAME: s / some
+POLARITY: False
+LINK TO:
+
+DF-170-181103-888_2097.6
+NODE NAME: t / this
+POLARITY: False
+LINK TO:
+
+DF-170-181103-888_2097.7
+NODE NAME: "APOLOGIES"
+POLARITY: False
+LINK TO:
+
+DF-170-181103-888_2097.7
+NODE NAME: "BEER"
+POLARITY: False
+LINK TO:
+
+DF-170-181103-888_2097.7
+NODE NAME: "ON"
+POLARITY: False
+LINK TO:
+
+DF-170-181103-888_2097.7
+NODE NAME: c / call-01
+POLARITY: False
+LINK TO:
+	(:ARG2) -> t / tour
+	(:ARG0) -> h / he
+	(:ARG1) -> i / it
+
+DF-170-181103-888_2097.7
+NODE NAME: h / he
+POLARITY: False
+LINK TO:
+
+DF-170-181103-888_2097.7
+NODE NAME: i / it
+POLARITY: False
+LINK TO:
+
+DF-170-181103-888_2097.7
+NODE NAME: p / possible
+POLARITY: False
+LINK TO:
+	(:domain) -> c / call-01
+
+DF-170-181103-888_2097.7
+NODE NAME: t / tour
+POLARITY: False
+ENTITY TYPE: tour
+ENTITY NAME: APOLOGIES ON BEER
+WIKIPEDIA TITLE: -
+LINK TO:
+
+DF-170-181103-888_2097.8
+NODE NAME: "Broadcasting"
+POLARITY: False
+LINK TO:
+
+DF-170-181103-888_2097.8
+NODE NAME: "Company"
+POLARITY: False
+LINK TO:
+
+DF-170-181103-888_2097.8
+NODE NAME: "National"
+POLARITY: False
+LINK TO:
+
+DF-170-181103-888_2097.8
+NODE NAME: a / and
+POLARITY: False
+LINK TO:
+	(:op2) -> h2 / hire-01
+	(:op1) -> s / sell-01
+	(:mod) -> h / hell
+
+DF-170-181103-888_2097.8
+NODE NAME: c / publication
+POLARITY: False
+ENTITY TYPE: publication
+ENTITY NAME: National Broadcasting Company
+WIKIPEDIA TITLE: this is test
+LINK TO:
+
+DF-170-181103-888_2097.8
+NODE NAME: c2 / cater-01
+POLARITY: False
+LINK TO:
+	(:ARG1) -> e / event
+	(:ARG0) -> p / person
+
+DF-170-181103-888_2097.8
+NODE NAME: e / event
+POLARITY: False
+LINK TO:
+
+DF-170-181103-888_2097.8
+NODE NAME: h / hell
+POLARITY: False
+LINK TO:
+
+DF-170-181103-888_2097.8
+NODE NAME: h2 / hire-01
+POLARITY: False
+LINK TO:
+	(:ARG1) -> p / person
+	(:ARG2) -> c2 / cater-01
+
+DF-170-181103-888_2097.8
+NODE NAME: p / person
+POLARITY: False
+LINK TO:
+	(:mod) -> c / publication
+
+DF-170-181103-888_2097.8
+NODE NAME: s / sell-01
+POLARITY: False
+LINK TO:
+	(:ARG1) -> t / ticket
+
+DF-170-181103-888_2097.8
+NODE NAME: t / ticket
+POLARITY: False
+LINK TO:
+

@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="DDI-DrugBank.d738">
+    <sentence id="DDI-DrugBank.d738.s0" text="Do not exceed a 5 mg daily dose of VESIcare when administered with therapeutic doses of ketoconazole or other potent CYP3A4 inhibitors. ">
+        <entity id="DDI-DrugBank.d738.s0.e0" charOffset="35-42"
+            type="brand" text="VESIcare"/>
+        <entity id="DDI-DrugBank.d738.s0.e1" charOffset="88-99"
+            type="drug" text="ketoconazole"/>
+        <pair id="DDI-DrugBank.d738.s0.p0" e1="DDI-DrugBank.d738.s0.e0"
+            e2="DDI-DrugBank.d738.s0.e1" ddi="true" type="advise"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d738.s1" text="Patients with Congenital or Acquired QT Prolongation In a study of the effect of solifenacin on the QT interval in 76 healthy women, the QT prolonging effect appeared less with solifenacin 10 mg than with 30 mg (three times the maximum recommended dose), and the effect of solifenacin 30 mg did not appear as large as that of the positive control moxifloxacin at its therapeutic dose. ">
+        <entity id="DDI-DrugBank.d738.s1.e0" charOffset="81-91"
+            type="drug" text="solifenacin"/>
+        <entity id="DDI-DrugBank.d738.s1.e1" charOffset="177-187"
+            type="drug" text="solifenacin"/>
+        <entity id="DDI-DrugBank.d738.s1.e2" charOffset="273-283"
+            type="drug" text="solifenacin"/>
+        <entity id="DDI-DrugBank.d738.s1.e3" charOffset="347-358"
+            type="drug" text="moxifloxacin"/>
+        <pair id="DDI-DrugBank.d738.s1.p0" e1="DDI-DrugBank.d738.s1.e0"
+            e2="DDI-DrugBank.d738.s1.e1" ddi="false"/>
+        <pair id="DDI-DrugBank.d738.s1.p1" e1="DDI-DrugBank.d738.s1.e0"
+            e2="DDI-DrugBank.d738.s1.e2" ddi="false"/>
+        <pair id="DDI-DrugBank.d738.s1.p2" e1="DDI-DrugBank.d738.s1.e0"
+            e2="DDI-DrugBank.d738.s1.e3" ddi="false"/>
+        <pair id="DDI-DrugBank.d738.s1.p3" e1="DDI-DrugBank.d738.s1.e1"
+            e2="DDI-DrugBank.d738.s1.e2" ddi="false"/>
+        <pair id="DDI-DrugBank.d738.s1.p4" e1="DDI-DrugBank.d738.s1.e1"
+            e2="DDI-DrugBank.d738.s1.e3" ddi="false"/>
+        <pair id="DDI-DrugBank.d738.s1.p5" e1="DDI-DrugBank.d738.s1.e2"
+            e2="DDI-DrugBank.d738.s1.e3" ddi="false"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d738.s2" text="This observation should be considered in clinical decisions to prescribe VESIcare for patients with a known history of QT prolongation or patients who are taking medications known to prolong the QT interval.">
+        <entity id="DDI-DrugBank.d738.s2.e0" charOffset="73-80"
+            type="brand" text="VESIcare"/>
+    </sentence>
+</document>

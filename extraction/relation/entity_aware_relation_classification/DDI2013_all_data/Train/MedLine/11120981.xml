@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="DDI-MedLine.d79">
+    <sentence id="DDI-MedLine.d79.s0" text="If taken 1 hour before indinavir (IDV), didanosine does not affect IDV exposure, despite persistent buffering effects.&#xd;&#xa;">
+        <entity id="DDI-MedLine.d79.s0.e0" charOffset="23-31"
+            type="drug" text="indinavir"/>
+        <entity id="DDI-MedLine.d79.s0.e1" charOffset="34-36"
+            type="drug" text="IDV"/>
+        <entity id="DDI-MedLine.d79.s0.e2" charOffset="40-49"
+            type="drug" text="didanosine"/>
+        <entity id="DDI-MedLine.d79.s0.e3" charOffset="67-69"
+            type="drug" text="IDV"/>
+        <pair id="DDI-MedLine.d79.s0.p0" e1="DDI-MedLine.d79.s0.e0"
+            e2="DDI-MedLine.d79.s0.e1" ddi="false"/>
+        <pair id="DDI-MedLine.d79.s0.p1" e1="DDI-MedLine.d79.s0.e0"
+            e2="DDI-MedLine.d79.s0.e2" ddi="false"/>
+        <pair id="DDI-MedLine.d79.s0.p2" e1="DDI-MedLine.d79.s0.e0"
+            e2="DDI-MedLine.d79.s0.e3" ddi="false"/>
+        <pair id="DDI-MedLine.d79.s0.p3" e1="DDI-MedLine.d79.s0.e1"
+            e2="DDI-MedLine.d79.s0.e2" ddi="false"/>
+        <pair id="DDI-MedLine.d79.s0.p4" e1="DDI-MedLine.d79.s0.e1"
+            e2="DDI-MedLine.d79.s0.e3" ddi="false"/>
+        <pair id="DDI-MedLine.d79.s0.p5" e1="DDI-MedLine.d79.s0.e2"
+            e2="DDI-MedLine.d79.s0.e3" ddi="false"/>
+    </sentence>
+    <sentence id="DDI-MedLine.d79.s1" text="Concurrent administration of indinavir and didanosine significantly reduces the level of exposure to indinavir, but it is unclear how soon after didanosine administration indinavir may be given safely. ">
+        <entity id="DDI-MedLine.d79.s1.e0" charOffset="29-37"
+            type="drug" text="indinavir"/>
+        <entity id="DDI-MedLine.d79.s1.e1" charOffset="43-52"
+            type="drug" text="didanosine"/>
+        <entity id="DDI-MedLine.d79.s1.e2" charOffset="101-109"
+            type="drug" text="indinavir"/>
+        <entity id="DDI-MedLine.d79.s1.e3" charOffset="145-154"
+            type="drug" text="didanosine"/>
+        <entity id="DDI-MedLine.d79.s1.e4" charOffset="171-179"
+            type="drug" text="indinavir"/>
+        <pair id="DDI-MedLine.d79.s1.p0" e1="DDI-MedLine.d79.s1.e0"
+            e2="DDI-MedLine.d79.s1.e1" ddi="true" type="mechanism"/>
+        <pair id="DDI-MedLine.d79.s1.p1" e1="DDI-MedLine.d79.s1.e0"
+            e2="DDI-MedLine.d79.s1.e2" ddi="false"/>
+        <pair id="DDI-MedLine.d79.s1.p2" e1="DDI-MedLine.d79.s1.e0"
+            e2="DDI-MedLine.d79.s1.e3" ddi="false"/>
+        <pair id="DDI-MedLine.d79.s1.p3" e1="DDI-MedLine.d79.s1.e0"
+            e2="DDI-MedLine.d79.s1.e4" ddi="false"/>
+        <pair id="DDI-MedLine.d79.s1.p4" e1="DDI-MedLine.d79.s1.e1"
+            e2="DDI-MedLine.d79.s1.e2" ddi="false"/>
+        <pair id="DDI-MedLine.d79.s1.p5" e1="DDI-MedLine.d79.s1.e1"
+            e2="DDI-MedLine.d79.s1.e3" ddi="false"/>
+        <pair id="DDI-MedLine.d79.s1.p6" e1="DDI-MedLine.d79.s1.e1"
+            e2="DDI-MedLine.d79.s1.e4" ddi="false"/>
+        <pair id="DDI-MedLine.d79.s1.p7" e1="DDI-MedLine.d79.s1.e2"
+            e2="DDI-MedLine.d79.s1.e3" ddi="false"/>
+        <pair id="DDI-MedLine.d79.s1.p8" e1="DDI-MedLine.d79.s1.e2"
+            e2="DDI-MedLine.d79.s1.e4" ddi="false"/>
+        <pair id="DDI-MedLine.d79.s1.p9" e1="DDI-MedLine.d79.s1.e3"
+            e2="DDI-MedLine.d79.s1.e4" ddi="false"/>
+    </sentence>
+    <sentence id="DDI-MedLine.d79.s2" text="We compared indinavir pharmacokinetics and gastric pH in 12 human immunodeficiency virus-positive patients by use of 800 mg of indinavir alone versus 800 mg of indinavir administered 1 h after didanosine administration. ">
+        <entity id="DDI-MedLine.d79.s2.e0" charOffset="12-20"
+            type="drug" text="indinavir"/>
+        <entity id="DDI-MedLine.d79.s2.e1" charOffset="127-135"
+            type="drug" text="indinavir"/>
+        <entity id="DDI-MedLine.d79.s2.e2" charOffset="160-168"
+            type="drug" text="indinavir"/>
+        <entity id="DDI-MedLine.d79.s2.e3" charOffset="193-202"
+            type="drug" text="didanosine"/>
+        <pair id="DDI-MedLine.d79.s2.p0" e1="DDI-MedLine.d79.s2.e0"
+            e2="DDI-MedLine.d79.s2.e1" ddi="false"/>
+        <pair id="DDI-MedLine.d79.s2.p1" e1="DDI-MedLine.d79.s2.e0"
+            e2="DDI-MedLine.d79.s2.e2" ddi="false"/>
+        <pair id="DDI-MedLine.d79.s2.p2" e1="DDI-MedLine.d79.s2.e0"
+            e2="DDI-MedLine.d79.s2.e3" ddi="false"/>
+        <pair id="DDI-MedLine.d79.s2.p3" e1="DDI-MedLine.d79.s2.e1"
+            e2="DDI-MedLine.d79.s2.e2" ddi="false"/>
+        <pair id="DDI-MedLine.d79.s2.p4" e1="DDI-MedLine.d79.s2.e1"
+            e2="DDI-MedLine.d79.s2.e3" ddi="false"/>
+        <pair id="DDI-MedLine.d79.s2.p5" e1="DDI-MedLine.d79.s2.e2"
+            e2="DDI-MedLine.d79.s2.e3" ddi="false"/>
+    </sentence>
+    <sentence id="DDI-MedLine.d79.s3" text="Median gastric pH was significantly higher when indinavir was taken after didanosine administration; ">
+        <entity id="DDI-MedLine.d79.s3.e0" charOffset="48-56"
+            type="drug" text="indinavir"/>
+        <entity id="DDI-MedLine.d79.s3.e1" charOffset="74-83"
+            type="drug" text="didanosine"/>
+        <pair id="DDI-MedLine.d79.s3.p0" e1="DDI-MedLine.d79.s3.e0"
+            e2="DDI-MedLine.d79.s3.e1" ddi="true" type="mechanism"/>
+    </sentence>
+    <sentence id="DDI-MedLine.d79.s4" text="however, no significant difference in the maximum concentration in plasma or the area under the concentration-time curve from time zero to 8 h was observed. "/>
+    <sentence id="DDI-MedLine.d79.s5" text="Indinavir may be taken with a light meal 1 h following the administration of 400 mg of didanosine.">
+        <entity id="DDI-MedLine.d79.s5.e0" charOffset="0-8" type="drug" text="Indinavir"/>
+        <entity id="DDI-MedLine.d79.s5.e1" charOffset="87-96"
+            type="drug" text="didanosine"/>
+        <pair id="DDI-MedLine.d79.s5.p0" e1="DDI-MedLine.d79.s5.e0"
+            e2="DDI-MedLine.d79.s5.e1" ddi="true" type="advise"/>
+    </sentence>
+</document>

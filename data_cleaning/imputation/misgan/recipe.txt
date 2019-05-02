@@ -1,0 +1,10 @@
+Main file:
+ditk/data_cleaning/imputation/misgan/main.py
+
+Modules: 
+Preprocess: ditk/data_cleaning/imputation/misgan/modules/preprocess.py
+Evaluate: ditk/data_cleaning/imputation/misgan/modules/evaluate.py
+Test: ditk/data_cleaning/imputation/misgan/modules/test.py
+Train: ditk/data_cleaning/imputation/misgan/modules/train.py
+Imputation: ditk/data_cleaning/imputation/misgan/modules/imputation.py
+Neural Net Model: ditk/data_cleaning/imputation/misgan/modules/misgan_nn.py

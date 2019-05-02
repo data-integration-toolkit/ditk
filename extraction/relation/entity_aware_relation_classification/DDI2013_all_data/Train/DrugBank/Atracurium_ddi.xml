@@ -1,0 +1,200 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="DDI-DrugBank.d469">
+    <sentence id="DDI-DrugBank.d469.s0" text="Drugs which may enhance the neuromuscular blocking action of TRACRIUM include: enflurane;">
+        <entity id="DDI-DrugBank.d469.s0.e0" charOffset="61-68"
+            type="brand" text="TRACRIUM"/>
+        <entity id="DDI-DrugBank.d469.s0.e1" charOffset="79-87"
+            type="drug" text="enflurane"/>
+        <pair id="DDI-DrugBank.d469.s0.p0" e1="DDI-DrugBank.d469.s0.e0"
+            e2="DDI-DrugBank.d469.s0.e1" ddi="true" type="effect"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d469.s1" text="isoflurane;">
+        <entity id="DDI-DrugBank.d469.s1.e0" charOffset="0-9"
+            type="drug" text="isoflurane"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d469.s2" text="halothane;">
+        <entity id="DDI-DrugBank.d469.s2.e0" charOffset="0-8"
+            type="drug" text="halothane"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d469.s3" text="certain antibiotics, especially the aminoglycosides and polymyxins;">
+        <entity id="DDI-DrugBank.d469.s3.e0" charOffset="8-18"
+            type="group" text="antibiotics"/>
+        <entity id="DDI-DrugBank.d469.s3.e1" charOffset="36-50"
+            type="group" text="aminoglycosides"/>
+        <entity id="DDI-DrugBank.d469.s3.e2" charOffset="56-65"
+            type="group" text="polymyxins"/>
+        <pair id="DDI-DrugBank.d469.s3.p0" e1="DDI-DrugBank.d469.s3.e0"
+            e2="DDI-DrugBank.d469.s3.e1" ddi="false"/>
+        <pair id="DDI-DrugBank.d469.s3.p1" e1="DDI-DrugBank.d469.s3.e0"
+            e2="DDI-DrugBank.d469.s3.e2" ddi="false"/>
+        <pair id="DDI-DrugBank.d469.s3.p2" e1="DDI-DrugBank.d469.s3.e1"
+            e2="DDI-DrugBank.d469.s3.e2" ddi="false"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d469.s4" text="lithium;">
+        <entity id="DDI-DrugBank.d469.s4.e0" charOffset="0-6"
+            type="drug" text="lithium"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d469.s5" text="magnesium salts;">
+        <entity id="DDI-DrugBank.d469.s5.e0" charOffset="0-8"
+            type="drug" text="magnesium"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d469.s6" text="procainamide;">
+        <entity id="DDI-DrugBank.d469.s6.e0" charOffset="0-11"
+            type="drug" text="procainamide"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d469.s7" text="Drugs which may enhance the neuromuscular blocking action of TRACRIUM include: enflurane;isoflurane;halothane;certain antibiotics, especially the aminoglycosides and polymyxins;lithium;magnesium salts;procainamide;and quinidine.">
+        <entity id="DDI-DrugBank.d469.s7.e0" charOffset="61-68"
+            type="brand" text="TRACRIUM"/>
+        <entity id="DDI-DrugBank.d469.s7.e1" charOffset="79-87"
+            type="drug" text="enflurane"/>
+        <entity id="DDI-DrugBank.d469.s7.e2" charOffset="89-98"
+            type="drug" text="isoflurane"/>
+        <entity id="DDI-DrugBank.d469.s7.e3" charOffset="100-108"
+            type="drug" text="halothane"/>
+        <entity id="DDI-DrugBank.d469.s7.e4" charOffset="118-128"
+            type="group" text="antibiotics"/>
+        <entity id="DDI-DrugBank.d469.s7.e5" charOffset="146-160"
+            type="group" text="aminoglycosides"/>
+        <entity id="DDI-DrugBank.d469.s7.e6" charOffset="166-175"
+            type="group" text="polymyxins"/>
+        <entity id="DDI-DrugBank.d469.s7.e7" charOffset="177-183"
+            type="drug" text="lithium"/>
+        <entity id="DDI-DrugBank.d469.s7.e8" charOffset="185-193"
+            type="drug" text="magnesium"/>
+        <entity id="DDI-DrugBank.d469.s7.e9" charOffset="201-212"
+            type="drug" text="procainamide"/>
+        <entity id="DDI-DrugBank.d469.s7.e10" charOffset="218-226"
+            type="drug" text="quinidine"/>
+        <pair id="DDI-DrugBank.d469.s7.p0" e1="DDI-DrugBank.d469.s7.e0"
+            e2="DDI-DrugBank.d469.s7.e1" ddi="true" type="effect"/>
+        <pair id="DDI-DrugBank.d469.s7.p1" e1="DDI-DrugBank.d469.s7.e0"
+            e2="DDI-DrugBank.d469.s7.e2" ddi="true" type="effect"/>
+        <pair id="DDI-DrugBank.d469.s7.p2" e1="DDI-DrugBank.d469.s7.e0"
+            e2="DDI-DrugBank.d469.s7.e3" ddi="true" type="effect"/>
+        <pair id="DDI-DrugBank.d469.s7.p3" e1="DDI-DrugBank.d469.s7.e0"
+            e2="DDI-DrugBank.d469.s7.e4" ddi="true" type="effect"/>
+        <pair id="DDI-DrugBank.d469.s7.p4" e1="DDI-DrugBank.d469.s7.e0"
+            e2="DDI-DrugBank.d469.s7.e5" ddi="true" type="effect"/>
+        <pair id="DDI-DrugBank.d469.s7.p5" e1="DDI-DrugBank.d469.s7.e0"
+            e2="DDI-DrugBank.d469.s7.e6" ddi="true" type="effect"/>
+        <pair id="DDI-DrugBank.d469.s7.p6" e1="DDI-DrugBank.d469.s7.e0"
+            e2="DDI-DrugBank.d469.s7.e7" ddi="true" type="effect"/>
+        <pair id="DDI-DrugBank.d469.s7.p7" e1="DDI-DrugBank.d469.s7.e0"
+            e2="DDI-DrugBank.d469.s7.e8" ddi="true" type="effect"/>
+        <pair id="DDI-DrugBank.d469.s7.p8" e1="DDI-DrugBank.d469.s7.e0"
+            e2="DDI-DrugBank.d469.s7.e9" ddi="true" type="effect"/>
+        <pair id="DDI-DrugBank.d469.s7.p9" e1="DDI-DrugBank.d469.s7.e0"
+            e2="DDI-DrugBank.d469.s7.e10" ddi="true" type="effect"/>
+        <pair id="DDI-DrugBank.d469.s7.p10" e1="DDI-DrugBank.d469.s7.e1"
+            e2="DDI-DrugBank.d469.s7.e2" ddi="false"/>
+        <pair id="DDI-DrugBank.d469.s7.p11" e1="DDI-DrugBank.d469.s7.e1"
+            e2="DDI-DrugBank.d469.s7.e3" ddi="false"/>
+        <pair id="DDI-DrugBank.d469.s7.p12" e1="DDI-DrugBank.d469.s7.e1"
+            e2="DDI-DrugBank.d469.s7.e4" ddi="false"/>
+        <pair id="DDI-DrugBank.d469.s7.p13" e1="DDI-DrugBank.d469.s7.e1"
+            e2="DDI-DrugBank.d469.s7.e5" ddi="false"/>
+        <pair id="DDI-DrugBank.d469.s7.p14" e1="DDI-DrugBank.d469.s7.e1"
+            e2="DDI-DrugBank.d469.s7.e6" ddi="false"/>
+        <pair id="DDI-DrugBank.d469.s7.p15" e1="DDI-DrugBank.d469.s7.e1"
+            e2="DDI-DrugBank.d469.s7.e7" ddi="false"/>
+        <pair id="DDI-DrugBank.d469.s7.p16" e1="DDI-DrugBank.d469.s7.e1"
+            e2="DDI-DrugBank.d469.s7.e8" ddi="false"/>
+        <pair id="DDI-DrugBank.d469.s7.p17" e1="DDI-DrugBank.d469.s7.e1"
+            e2="DDI-DrugBank.d469.s7.e9" ddi="false"/>
+        <pair id="DDI-DrugBank.d469.s7.p18" e1="DDI-DrugBank.d469.s7.e1"
+            e2="DDI-DrugBank.d469.s7.e10" ddi="false"/>
+        <pair id="DDI-DrugBank.d469.s7.p19" e1="DDI-DrugBank.d469.s7.e2"
+            e2="DDI-DrugBank.d469.s7.e3" ddi="false"/>
+        <pair id="DDI-DrugBank.d469.s7.p20" e1="DDI-DrugBank.d469.s7.e2"
+            e2="DDI-DrugBank.d469.s7.e4" ddi="false"/>
+        <pair id="DDI-DrugBank.d469.s7.p21" e1="DDI-DrugBank.d469.s7.e2"
+            e2="DDI-DrugBank.d469.s7.e5" ddi="false"/>
+        <pair id="DDI-DrugBank.d469.s7.p22" e1="DDI-DrugBank.d469.s7.e2"
+            e2="DDI-DrugBank.d469.s7.e6" ddi="false"/>
+        <pair id="DDI-DrugBank.d469.s7.p23" e1="DDI-DrugBank.d469.s7.e2"
+            e2="DDI-DrugBank.d469.s7.e7" ddi="false"/>
+        <pair id="DDI-DrugBank.d469.s7.p24" e1="DDI-DrugBank.d469.s7.e2"
+            e2="DDI-DrugBank.d469.s7.e8" ddi="false"/>
+        <pair id="DDI-DrugBank.d469.s7.p25" e1="DDI-DrugBank.d469.s7.e2"
+            e2="DDI-DrugBank.d469.s7.e9" ddi="false"/>
+        <pair id="DDI-DrugBank.d469.s7.p26" e1="DDI-DrugBank.d469.s7.e2"
+            e2="DDI-DrugBank.d469.s7.e10" ddi="false"/>
+        <pair id="DDI-DrugBank.d469.s7.p27" e1="DDI-DrugBank.d469.s7.e3"
+            e2="DDI-DrugBank.d469.s7.e4" ddi="false"/>
+        <pair id="DDI-DrugBank.d469.s7.p28" e1="DDI-DrugBank.d469.s7.e3"
+            e2="DDI-DrugBank.d469.s7.e5" ddi="false"/>
+        <pair id="DDI-DrugBank.d469.s7.p29" e1="DDI-DrugBank.d469.s7.e3"
+            e2="DDI-DrugBank.d469.s7.e6" ddi="false"/>
+        <pair id="DDI-DrugBank.d469.s7.p30" e1="DDI-DrugBank.d469.s7.e3"
+            e2="DDI-DrugBank.d469.s7.e7" ddi="false"/>
+        <pair id="DDI-DrugBank.d469.s7.p31" e1="DDI-DrugBank.d469.s7.e3"
+            e2="DDI-DrugBank.d469.s7.e8" ddi="false"/>
+        <pair id="DDI-DrugBank.d469.s7.p32" e1="DDI-DrugBank.d469.s7.e3"
+            e2="DDI-DrugBank.d469.s7.e9" ddi="false"/>
+        <pair id="DDI-DrugBank.d469.s7.p33" e1="DDI-DrugBank.d469.s7.e3"
+            e2="DDI-DrugBank.d469.s7.e10" ddi="false"/>
+        <pair id="DDI-DrugBank.d469.s7.p34" e1="DDI-DrugBank.d469.s7.e4"
+            e2="DDI-DrugBank.d469.s7.e5" ddi="false"/>
+        <pair id="DDI-DrugBank.d469.s7.p35" e1="DDI-DrugBank.d469.s7.e4"
+            e2="DDI-DrugBank.d469.s7.e6" ddi="false"/>
+        <pair id="DDI-DrugBank.d469.s7.p36" e1="DDI-DrugBank.d469.s7.e4"
+            e2="DDI-DrugBank.d469.s7.e7" ddi="false"/>
+        <pair id="DDI-DrugBank.d469.s7.p37" e1="DDI-DrugBank.d469.s7.e4"
+            e2="DDI-DrugBank.d469.s7.e8" ddi="false"/>
+        <pair id="DDI-DrugBank.d469.s7.p38" e1="DDI-DrugBank.d469.s7.e4"
+            e2="DDI-DrugBank.d469.s7.e9" ddi="false"/>
+        <pair id="DDI-DrugBank.d469.s7.p39" e1="DDI-DrugBank.d469.s7.e4"
+            e2="DDI-DrugBank.d469.s7.e10" ddi="false"/>
+        <pair id="DDI-DrugBank.d469.s7.p40" e1="DDI-DrugBank.d469.s7.e5"
+            e2="DDI-DrugBank.d469.s7.e6" ddi="false"/>
+        <pair id="DDI-DrugBank.d469.s7.p41" e1="DDI-DrugBank.d469.s7.e5"
+            e2="DDI-DrugBank.d469.s7.e7" ddi="false"/>
+        <pair id="DDI-DrugBank.d469.s7.p42" e1="DDI-DrugBank.d469.s7.e5"
+            e2="DDI-DrugBank.d469.s7.e8" ddi="false"/>
+        <pair id="DDI-DrugBank.d469.s7.p43" e1="DDI-DrugBank.d469.s7.e5"
+            e2="DDI-DrugBank.d469.s7.e9" ddi="false"/>
+        <pair id="DDI-DrugBank.d469.s7.p44" e1="DDI-DrugBank.d469.s7.e5"
+            e2="DDI-DrugBank.d469.s7.e10" ddi="false"/>
+        <pair id="DDI-DrugBank.d469.s7.p45" e1="DDI-DrugBank.d469.s7.e6"
+            e2="DDI-DrugBank.d469.s7.e7" ddi="false"/>
+        <pair id="DDI-DrugBank.d469.s7.p46" e1="DDI-DrugBank.d469.s7.e6"
+            e2="DDI-DrugBank.d469.s7.e8" ddi="false"/>
+        <pair id="DDI-DrugBank.d469.s7.p47" e1="DDI-DrugBank.d469.s7.e6"
+            e2="DDI-DrugBank.d469.s7.e9" ddi="false"/>
+        <pair id="DDI-DrugBank.d469.s7.p48" e1="DDI-DrugBank.d469.s7.e6"
+            e2="DDI-DrugBank.d469.s7.e10" ddi="false"/>
+        <pair id="DDI-DrugBank.d469.s7.p49" e1="DDI-DrugBank.d469.s7.e7"
+            e2="DDI-DrugBank.d469.s7.e8" ddi="false"/>
+        <pair id="DDI-DrugBank.d469.s7.p50" e1="DDI-DrugBank.d469.s7.e7"
+            e2="DDI-DrugBank.d469.s7.e9" ddi="false"/>
+        <pair id="DDI-DrugBank.d469.s7.p51" e1="DDI-DrugBank.d469.s7.e7"
+            e2="DDI-DrugBank.d469.s7.e10" ddi="false"/>
+        <pair id="DDI-DrugBank.d469.s7.p52" e1="DDI-DrugBank.d469.s7.e8"
+            e2="DDI-DrugBank.d469.s7.e9" ddi="false"/>
+        <pair id="DDI-DrugBank.d469.s7.p53" e1="DDI-DrugBank.d469.s7.e8"
+            e2="DDI-DrugBank.d469.s7.e10" ddi="false"/>
+        <pair id="DDI-DrugBank.d469.s7.p54" e1="DDI-DrugBank.d469.s7.e9"
+            e2="DDI-DrugBank.d469.s7.e10" ddi="false"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d469.s8" text="If other muscle relaxants are used during the same procedure, the possibility of a synergistic or antagonist effect should be considered.">
+        <entity id="DDI-DrugBank.d469.s8.e0" charOffset="9-24"
+            type="group" text="muscle relaxants"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d469.s9" text="The prior administration of succinylcholine does not enhance the duration, but quickens the onset and may increase the depth, of neuromuscular block induced by TRACRIUM.">
+        <entity id="DDI-DrugBank.d469.s9.e0" charOffset="28-42"
+            type="drug" text="succinylcholine"/>
+        <entity id="DDI-DrugBank.d469.s9.e1" charOffset="160-167"
+            type="brand" text="TRACRIUM"/>
+        <pair id="DDI-DrugBank.d469.s9.p0" e1="DDI-DrugBank.d469.s9.e0"
+            e2="DDI-DrugBank.d469.s9.e1" ddi="true" type="effect"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d469.s10" text="TRACRIUM should not be administered until a patient has recovered from succinylcholine-induced neuromuscular block.">
+        <entity id="DDI-DrugBank.d469.s10.e0" charOffset="0-7"
+            type="brand" text="TRACRIUM"/>
+        <entity id="DDI-DrugBank.d469.s10.e1" charOffset="71-85"
+            type="drug" text="succinylcholine"/>
+        <pair id="DDI-DrugBank.d469.s10.p0"
+            e1="DDI-DrugBank.d469.s10.e0" e2="DDI-DrugBank.d469.s10.e1"
+            ddi="true" type="advise"/>
+    </sentence>
+</document>
