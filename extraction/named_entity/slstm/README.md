@@ -19,8 +19,9 @@ https://github.com/leuchine/S-LSTM/tree/master/sequence_tagging
 An alternative LSTM structure for encoding text, which consists of a parallel state for each word. Re-current steps are used to perform local and global information exchange between words simultaneously, rather than incremental reading of a sequence of words.
 
 ## Input and Output
-Input Format: 
-Output Format: <entity> <predicted tag> <groundtruth>
+Input Format: [Link](https://github.com/divyasinha801/ditk/blob/develop/extraction/named_entity/slstm/ner_test_input.txt)
+
+Output Format: {entity} {predicted tag} {ground truth}
 
 ## Evalution
 Benchmark datasets:
