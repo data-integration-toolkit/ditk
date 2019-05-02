@@ -37,7 +37,7 @@
 
 ## Description
 - Non-Metric Space Library (NMSLIB) is an efficient cross-platform similarity search library and a toolkit for evaluation of similarity search methods. The core-library does not have any third-party dependencies.
-- For ditk I have created a wrapper for NMSLIB to easily use their state of the art Hierarchical Navigable World graph (HNSW) implementation.
+- For ditk I have created a wrapper for NMSLIB to easily use their state of the art Hierarchical Navigable Small World graph (HNSW) implementation.
 <p align="center">
     <img src="figures/Screenshot from 2019-05-01 19-48-33.png"/>
     <p align="center">Fig. 1 NMSLIB Details</p>
