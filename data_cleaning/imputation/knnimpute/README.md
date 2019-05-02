@@ -1,7 +1,8 @@
 # KNNImpute
-Data can be found in "imputation/data"
-KNNImpute is compatible with all three datasets
-*Note: This code assumes that the headers of the data is removed
+- Datasets can be found in "imputation/data"
+- KNNImpute is compatible with all three datasets
+- *Note: This code assumes that the headers of the data is removed
+- To run the code on your own dataset, place the csv file in the 'data' directory in the parent folder ("imputation/data") and provide the file name as a function parameter to the 'main' function in the python file 'main.py'
 
 ### Title of the paper
 Missing value estimation methods for DNAmicroarrays
@@ -9,13 +10,11 @@ Missing value estimation methods for DNAmicroarrays
 ### Full citation
 [Olga Troyanskaya, Michael Cantor, Gavin Sherlock, Pat Brown, Trevor Hastie, Robert Tibshirani, David Botstein, Russ B. Altman. “Missing value estimation methods for DNAmicroarrays”. Bioinformatics, Volume 17, Issue 6, Pages 520–525. Proceedings of the Third Georgia Tech–Emory International Conference on Bioinformatics, Atlanta, Georgia, USA, 2016.](https://academic.oup.com/bioinformatics/article/17/6/520/272365)
 
-
 ### Original Code
 [iskandr/knnimpute](https://github.com/iskandr/knnimpute)
 
 ## Description
-- A paragraph describing the overall task, the method and model
-Task: Data Imputation using K-Nearest Neighbors Algorithm
+- Task: Data Imputation using K-Nearest Neighbors Algorithm <br />
 Approach:
 * Input is filled numerical dataset
 * Introduce missingness randomly 
@@ -24,12 +23,11 @@ Approach:
 	* If we consider row A that has one missing value in column 1, this method would find K other rows, which have a value present in column 1, with expression most similar to A in columns 2–N (where N is the total number of columns). 
 	* The average of values in column 1 from the K closest rows is then used as an estimate for the missing value in row A.
 
-- A figure describing the model if possible
-<p align="center"><img width="100%" src="img/figure.png" /></p>
+<p align="center"><img src="img/figure.png" /></p>
 
 ## Input and Output
-Input: Table[relation] as .csv file
-Output: Imputed Table[relation] as .csv file
+Input: Table[relation] as .csv file <br />
+Output: Imputed Table[relation] as .csv file <br />
 
 ## Evalution
 - Benchmark datasets (complete, numerical) 
@@ -44,9 +42,9 @@ Output: Imputed Table[relation] as .csv file
 > Contains features about e-mails and class label: spam/not spam
 
 - Evaluation metrics and results
-Evaluation Metric: Root Mean Square Error (RMSE) 
-Results:
-<p align="center"><img width="100%" src="img/results.png" /></p>
+- Evaluation Metric: Root Mean Square Error (RMSE) 
+- Results:
+<p align="center"><img src="img/results.PNG" /></p>
 
 ## Demo
 - Link to the Jupyter Notebook 
