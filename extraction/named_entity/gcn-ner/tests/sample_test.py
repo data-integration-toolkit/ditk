@@ -8,7 +8,7 @@ class TestNERMethods(unittest.TestCase):
 
     def setUp(self):
         self.ner = ner_gcn.GcnNer()
-        self.input_file = './data/input.txt'
+        self.input_file = './data/input.txt'    # Input file is in /gcn-ner/data/
         self.output_file = main.main(self.input_file)
 
     def row_col_count(self, file_name):
