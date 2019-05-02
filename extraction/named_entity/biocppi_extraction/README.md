@@ -13,7 +13,7 @@ ___
 
 https://github.com/bionlproc/biocppi_extraction
 
-
+[note that pre-trained word embeddings are provided by the author of the original code]
 
 ### Description
 
@@ -114,6 +114,10 @@ Steps to get up and running:
 
 3. Run! Change around parameters in the `main.py` file or check out the jupyter notebook for examples
 
+   - **REQUIRED:** open `main.py` and place your own datapaths in for
+     - `embeddings_path` [**note that the PubMed-w2v.txt embeddings are available on the authors github linked at the top of this README**]
+     - modify `dataset_name, dataset_dir` as well as `raw_*` filenames to point to your local copy of the datasets [datasets can be downloaded from links provided above]
+
    ```
    python main.py
    ```
@@ -129,3 +133,9 @@ Jupiter notebook:
 Youtube video demonstration:
 
 link here...
+
+
+
+Note: slides documention much of the same information can be viewed here:
+
+https://docs.google.com/presentation/d/1yNDu5t30yB5mbvlF-j2N3xAHa_O3S5BhaMHfyvFfLjE/edit?usp=sharing
