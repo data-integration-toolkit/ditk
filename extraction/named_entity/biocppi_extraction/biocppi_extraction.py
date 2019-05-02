@@ -613,7 +613,7 @@ class biocppi_extraction(Ner):
 
         
         outputPredictionsFile = 'predictions.txt'
-        finalOutputFile = copy_predictions_to_predictions_with_header(raw_predictions_filename=outputPredictionsFile)
+        finalOutputFile = butil.copy_predictions_to_predictions_with_header(raw_predictions_filename=outputPredictionsFile)
         
         # read from predictions file for evaluate
         evaluation_results = biocppi.evaluate(None,None)
