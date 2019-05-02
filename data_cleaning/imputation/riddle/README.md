@@ -22,8 +22,8 @@
 
 
 - LETTER RECOGNITION <https://archive.ics.uci.edu/ml/datasets/letter+recognition>
-- Mean Squared Error: 0.3880
+- Mean Squared Error: 106.
 
 ## Demo
-- Link to the Jupyter Notebook 
-- Link to the video on Youtube
+- Jupyter Notebook: <https://github.com/alamashir/ditk/blob/develop/data_cleaning/imputation/riddle/riddle_execution.ipynb> 
+- Youtube: <https://www.youtube.com/watch?v=S7PcMBtIWBI&t=152s>
