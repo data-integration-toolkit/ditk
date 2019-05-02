@@ -1,0 +1,400 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="DDI-DrugBank.d131">
+    <sentence id="DDI-DrugBank.d131.s0" text="The benzodiazepines, including alprazolam, produce additive CNS depressant effects when co-administered with other psychotropic medications, anticonvulsants, antihistaminics, ethanol, and other drugs which themselves produce CNS depression.">
+        <entity id="DDI-DrugBank.d131.s0.e0" charOffset="4-18"
+            type="group" text="benzodiazepines"/>
+        <entity id="DDI-DrugBank.d131.s0.e1" charOffset="31-40"
+            type="drug" text="alprazolam"/>
+        <entity id="DDI-DrugBank.d131.s0.e2" charOffset="115-138"
+            type="group" text="psychotropic medications"/>
+        <entity id="DDI-DrugBank.d131.s0.e3" charOffset="141-155"
+            type="group" text="anticonvulsants"/>
+        <entity id="DDI-DrugBank.d131.s0.e4" charOffset="158-172"
+            type="group" text="antihistaminics"/>
+        <entity id="DDI-DrugBank.d131.s0.e5" charOffset="175-181"
+            type="drug" text="ethanol"/>
+        <pair id="DDI-DrugBank.d131.s0.p0" e1="DDI-DrugBank.d131.s0.e0"
+            e2="DDI-DrugBank.d131.s0.e1" ddi="false"/>
+        <pair id="DDI-DrugBank.d131.s0.p1" e1="DDI-DrugBank.d131.s0.e0"
+            e2="DDI-DrugBank.d131.s0.e2" ddi="true" type="effect"/>
+        <pair id="DDI-DrugBank.d131.s0.p2" e1="DDI-DrugBank.d131.s0.e0"
+            e2="DDI-DrugBank.d131.s0.e3" ddi="true" type="effect"/>
+        <pair id="DDI-DrugBank.d131.s0.p3" e1="DDI-DrugBank.d131.s0.e0"
+            e2="DDI-DrugBank.d131.s0.e4" ddi="true" type="effect"/>
+        <pair id="DDI-DrugBank.d131.s0.p4" e1="DDI-DrugBank.d131.s0.e0"
+            e2="DDI-DrugBank.d131.s0.e5" ddi="true" type="effect"/>
+        <pair id="DDI-DrugBank.d131.s0.p5" e1="DDI-DrugBank.d131.s0.e1"
+            e2="DDI-DrugBank.d131.s0.e2" ddi="true" type="effect"/>
+        <pair id="DDI-DrugBank.d131.s0.p6" e1="DDI-DrugBank.d131.s0.e1"
+            e2="DDI-DrugBank.d131.s0.e3" ddi="true" type="effect"/>
+        <pair id="DDI-DrugBank.d131.s0.p7" e1="DDI-DrugBank.d131.s0.e1"
+            e2="DDI-DrugBank.d131.s0.e4" ddi="true" type="effect"/>
+        <pair id="DDI-DrugBank.d131.s0.p8" e1="DDI-DrugBank.d131.s0.e1"
+            e2="DDI-DrugBank.d131.s0.e5" ddi="true" type="effect"/>
+        <pair id="DDI-DrugBank.d131.s0.p9" e1="DDI-DrugBank.d131.s0.e2"
+            e2="DDI-DrugBank.d131.s0.e3" ddi="false"/>
+        <pair id="DDI-DrugBank.d131.s0.p10" e1="DDI-DrugBank.d131.s0.e2"
+            e2="DDI-DrugBank.d131.s0.e4" ddi="false"/>
+        <pair id="DDI-DrugBank.d131.s0.p11" e1="DDI-DrugBank.d131.s0.e2"
+            e2="DDI-DrugBank.d131.s0.e5" ddi="false"/>
+        <pair id="DDI-DrugBank.d131.s0.p12" e1="DDI-DrugBank.d131.s0.e3"
+            e2="DDI-DrugBank.d131.s0.e4" ddi="false"/>
+        <pair id="DDI-DrugBank.d131.s0.p13" e1="DDI-DrugBank.d131.s0.e3"
+            e2="DDI-DrugBank.d131.s0.e5" ddi="false"/>
+        <pair id="DDI-DrugBank.d131.s0.p14" e1="DDI-DrugBank.d131.s0.e4"
+            e2="DDI-DrugBank.d131.s0.e5" ddi="false"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d131.s1" text="The steady state plasma concentrations of imipramine and desipramine have been reported to be increased an average of 31% and 20%, respectively, by the concomitant administration of alprazolam tablets in doses up to 4 mg/day.">
+        <entity id="DDI-DrugBank.d131.s1.e0" charOffset="42-51"
+            type="drug" text="imipramine"/>
+        <entity id="DDI-DrugBank.d131.s1.e1" charOffset="57-67"
+            type="drug" text="desipramine"/>
+        <entity id="DDI-DrugBank.d131.s1.e2" charOffset="182-191"
+            type="drug" text="alprazolam"/>
+        <pair id="DDI-DrugBank.d131.s1.p0" e1="DDI-DrugBank.d131.s1.e0"
+            e2="DDI-DrugBank.d131.s1.e1" ddi="false"/>
+        <pair id="DDI-DrugBank.d131.s1.p1" e1="DDI-DrugBank.d131.s1.e0"
+            e2="DDI-DrugBank.d131.s1.e2" ddi="true" type="mechanism"/>
+        <pair id="DDI-DrugBank.d131.s1.p2" e1="DDI-DrugBank.d131.s1.e1"
+            e2="DDI-DrugBank.d131.s1.e2" ddi="true" type="mechanism"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d131.s2" text="The clinical significance of these changes is unknown."/>
+    <sentence id="DDI-DrugBank.d131.s3" text="Drugs That Inhibit Alprazolam Metabolism Via Cytochrome P450 3A: The initial step in alprazolam metabolism is hydroxylation catalyzed by cytochrome P450 3A (CYP 3A).">
+        <entity id="DDI-DrugBank.d131.s3.e0" charOffset="19-28"
+            type="drug" text="Alprazolam"/>
+        <entity id="DDI-DrugBank.d131.s3.e1" charOffset="85-94"
+            type="drug" text="alprazolam"/>
+        <pair id="DDI-DrugBank.d131.s3.p0" e1="DDI-DrugBank.d131.s3.e0"
+            e2="DDI-DrugBank.d131.s3.e1" ddi="false"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d131.s4" text="Drugs which inhibit this metabolic pathway may have a profound effect on the clearance of alprazolam .">
+        <entity id="DDI-DrugBank.d131.s4.e0" charOffset="90-99"
+            type="drug" text="alprazolam"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d131.s5" text="Drugs Demonstrated to be CYP 3A Inhibitors of Possible Clinical Significance on the Basis of Clinical Studies Involving Alprazolam (caution is recommended during coadministration with alprazolam): Coadministration of fluoxetine with alprazolam increased the maximum plasma concentration of alprazolam by 46%, decreased clearance by 21%, increased half-life by 17%, and decreased measured psychomotor performance.">
+        <entity id="DDI-DrugBank.d131.s5.e0" charOffset="120-129"
+            type="drug" text="Alprazolam"/>
+        <entity id="DDI-DrugBank.d131.s5.e1" charOffset="184-193"
+            type="drug" text="alprazolam"/>
+        <entity id="DDI-DrugBank.d131.s5.e2" charOffset="217-226"
+            type="drug" text="fluoxetine"/>
+        <entity id="DDI-DrugBank.d131.s5.e3" charOffset="233-242"
+            type="drug" text="alprazolam"/>
+        <entity id="DDI-DrugBank.d131.s5.e4" charOffset="290-299"
+            type="drug" text="alprazolam"/>
+        <pair id="DDI-DrugBank.d131.s5.p0" e1="DDI-DrugBank.d131.s5.e0"
+            e2="DDI-DrugBank.d131.s5.e1" ddi="false"/>
+        <pair id="DDI-DrugBank.d131.s5.p1" e1="DDI-DrugBank.d131.s5.e0"
+            e2="DDI-DrugBank.d131.s5.e2" ddi="false"/>
+        <pair id="DDI-DrugBank.d131.s5.p2" e1="DDI-DrugBank.d131.s5.e0"
+            e2="DDI-DrugBank.d131.s5.e3" ddi="false"/>
+        <pair id="DDI-DrugBank.d131.s5.p3" e1="DDI-DrugBank.d131.s5.e0"
+            e2="DDI-DrugBank.d131.s5.e4" ddi="false"/>
+        <pair id="DDI-DrugBank.d131.s5.p4" e1="DDI-DrugBank.d131.s5.e1"
+            e2="DDI-DrugBank.d131.s5.e2" ddi="false"/>
+        <pair id="DDI-DrugBank.d131.s5.p5" e1="DDI-DrugBank.d131.s5.e1"
+            e2="DDI-DrugBank.d131.s5.e3" ddi="false"/>
+        <pair id="DDI-DrugBank.d131.s5.p6" e1="DDI-DrugBank.d131.s5.e1"
+            e2="DDI-DrugBank.d131.s5.e4" ddi="false"/>
+        <pair id="DDI-DrugBank.d131.s5.p7" e1="DDI-DrugBank.d131.s5.e2"
+            e2="DDI-DrugBank.d131.s5.e3" ddi="true" type="mechanism"/>
+        <pair id="DDI-DrugBank.d131.s5.p8" e1="DDI-DrugBank.d131.s5.e2"
+            e2="DDI-DrugBank.d131.s5.e4" ddi="false"/>
+        <pair id="DDI-DrugBank.d131.s5.p9" e1="DDI-DrugBank.d131.s5.e3"
+            e2="DDI-DrugBank.d131.s5.e4" ddi="false"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d131.s6" text="Coadministration of propoxyphene decreased the maximum plasma concentration of alprazolam by 6%, decreased clearance by 38%, and increased half-life by 58%.">
+        <entity id="DDI-DrugBank.d131.s6.e0" charOffset="20-31"
+            type="drug" text="propoxyphene"/>
+        <entity id="DDI-DrugBank.d131.s6.e1" charOffset="79-88"
+            type="drug" text="alprazolam"/>
+        <pair id="DDI-DrugBank.d131.s6.p0" e1="DDI-DrugBank.d131.s6.e0"
+            e2="DDI-DrugBank.d131.s6.e1" ddi="true" type="mechanism"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d131.s7" text="Coadministration of oral contraceptives increased the maximum plasma concentration of alprazolam by 18%, decreased clearance by 22%, and increased half-life by 29%.">
+        <entity id="DDI-DrugBank.d131.s7.e0" charOffset="25-38"
+            type="group" text="contraceptives"/>
+        <entity id="DDI-DrugBank.d131.s7.e1" charOffset="86-95"
+            type="drug" text="alprazolam"/>
+        <pair id="DDI-DrugBank.d131.s7.p0" e1="DDI-DrugBank.d131.s7.e0"
+            e2="DDI-DrugBank.d131.s7.e1" ddi="true" type="mechanism"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d131.s8" text="Drugs and other substances demonstrated to be CYP 3A inhibitors on the basis of clinical studies involving benzodiazepines metabolized similarly to alprazolam or on the basis of in vitro studies with alprazolam or other benzodiazepines (caution is recommended during coadministration with alprazolam): Available data from clinical studies of benzodiazepines other than alprazolam suggest a possible drug interaction with alprazolam for the following: diltiazem, isoniazid, macrolide antibiotics such as erythromycin and clarithromycin, and grapefruit juice.">
+        <entity id="DDI-DrugBank.d131.s8.e0" charOffset="107-121"
+            type="group" text="benzodiazepines"/>
+        <entity id="DDI-DrugBank.d131.s8.e1" charOffset="148-157"
+            type="drug" text="alprazolam"/>
+        <entity id="DDI-DrugBank.d131.s8.e2" charOffset="200-209"
+            type="drug" text="alprazolam"/>
+        <entity id="DDI-DrugBank.d131.s8.e3" charOffset="220-234"
+            type="group" text="benzodiazepines"/>
+        <entity id="DDI-DrugBank.d131.s8.e4" charOffset="289-298"
+            type="drug" text="alprazolam"/>
+        <entity id="DDI-DrugBank.d131.s8.e5" charOffset="342-356"
+            type="group" text="benzodiazepines"/>
+        <entity id="DDI-DrugBank.d131.s8.e6" charOffset="369-378"
+            type="drug" text="alprazolam"/>
+        <entity id="DDI-DrugBank.d131.s8.e7" charOffset="421-430"
+            type="drug" text="alprazolam"/>
+        <entity id="DDI-DrugBank.d131.s8.e8" charOffset="451-459"
+            type="drug" text="diltiazem"/>
+        <entity id="DDI-DrugBank.d131.s8.e9" charOffset="462-470"
+            type="drug" text="isoniazid"/>
+        <entity id="DDI-DrugBank.d131.s8.e10" charOffset="473-493"
+            type="group" text="macrolide antibiotics"/>
+        <entity id="DDI-DrugBank.d131.s8.e11" charOffset="503-514"
+            type="drug" text="erythromycin"/>
+        <entity id="DDI-DrugBank.d131.s8.e12" charOffset="520-533"
+            type="drug" text="clarithromycin"/>
+        <pair id="DDI-DrugBank.d131.s8.p0" e1="DDI-DrugBank.d131.s8.e0"
+            e2="DDI-DrugBank.d131.s8.e1" ddi="false"/>
+        <pair id="DDI-DrugBank.d131.s8.p1" e1="DDI-DrugBank.d131.s8.e0"
+            e2="DDI-DrugBank.d131.s8.e2" ddi="false"/>
+        <pair id="DDI-DrugBank.d131.s8.p2" e1="DDI-DrugBank.d131.s8.e0"
+            e2="DDI-DrugBank.d131.s8.e3" ddi="false"/>
+        <pair id="DDI-DrugBank.d131.s8.p3" e1="DDI-DrugBank.d131.s8.e0"
+            e2="DDI-DrugBank.d131.s8.e4" ddi="false"/>
+        <pair id="DDI-DrugBank.d131.s8.p4" e1="DDI-DrugBank.d131.s8.e0"
+            e2="DDI-DrugBank.d131.s8.e5" ddi="false"/>
+        <pair id="DDI-DrugBank.d131.s8.p5" e1="DDI-DrugBank.d131.s8.e0"
+            e2="DDI-DrugBank.d131.s8.e6" ddi="false"/>
+        <pair id="DDI-DrugBank.d131.s8.p6" e1="DDI-DrugBank.d131.s8.e0"
+            e2="DDI-DrugBank.d131.s8.e7" ddi="false"/>
+        <pair id="DDI-DrugBank.d131.s8.p7" e1="DDI-DrugBank.d131.s8.e0"
+            e2="DDI-DrugBank.d131.s8.e8" ddi="false"/>
+        <pair id="DDI-DrugBank.d131.s8.p8" e1="DDI-DrugBank.d131.s8.e0"
+            e2="DDI-DrugBank.d131.s8.e9" ddi="false"/>
+        <pair id="DDI-DrugBank.d131.s8.p9" e1="DDI-DrugBank.d131.s8.e0"
+            e2="DDI-DrugBank.d131.s8.e10" ddi="false"/>
+        <pair id="DDI-DrugBank.d131.s8.p10" e1="DDI-DrugBank.d131.s8.e0"
+            e2="DDI-DrugBank.d131.s8.e11" ddi="false"/>
+        <pair id="DDI-DrugBank.d131.s8.p11" e1="DDI-DrugBank.d131.s8.e0"
+            e2="DDI-DrugBank.d131.s8.e12" ddi="false"/>
+        <pair id="DDI-DrugBank.d131.s8.p12" e1="DDI-DrugBank.d131.s8.e1"
+            e2="DDI-DrugBank.d131.s8.e2" ddi="false"/>
+        <pair id="DDI-DrugBank.d131.s8.p13" e1="DDI-DrugBank.d131.s8.e1"
+            e2="DDI-DrugBank.d131.s8.e3" ddi="false"/>
+        <pair id="DDI-DrugBank.d131.s8.p14" e1="DDI-DrugBank.d131.s8.e1"
+            e2="DDI-DrugBank.d131.s8.e4" ddi="false"/>
+        <pair id="DDI-DrugBank.d131.s8.p15" e1="DDI-DrugBank.d131.s8.e1"
+            e2="DDI-DrugBank.d131.s8.e5" ddi="false"/>
+        <pair id="DDI-DrugBank.d131.s8.p16" e1="DDI-DrugBank.d131.s8.e1"
+            e2="DDI-DrugBank.d131.s8.e6" ddi="false"/>
+        <pair id="DDI-DrugBank.d131.s8.p17" e1="DDI-DrugBank.d131.s8.e1"
+            e2="DDI-DrugBank.d131.s8.e7" ddi="false"/>
+        <pair id="DDI-DrugBank.d131.s8.p18" e1="DDI-DrugBank.d131.s8.e1"
+            e2="DDI-DrugBank.d131.s8.e8" ddi="false"/>
+        <pair id="DDI-DrugBank.d131.s8.p19" e1="DDI-DrugBank.d131.s8.e1"
+            e2="DDI-DrugBank.d131.s8.e9" ddi="false"/>
+        <pair id="DDI-DrugBank.d131.s8.p20" e1="DDI-DrugBank.d131.s8.e1"
+            e2="DDI-DrugBank.d131.s8.e10" ddi="false"/>
+        <pair id="DDI-DrugBank.d131.s8.p21" e1="DDI-DrugBank.d131.s8.e1"
+            e2="DDI-DrugBank.d131.s8.e11" ddi="false"/>
+        <pair id="DDI-DrugBank.d131.s8.p22" e1="DDI-DrugBank.d131.s8.e1"
+            e2="DDI-DrugBank.d131.s8.e12" ddi="false"/>
+        <pair id="DDI-DrugBank.d131.s8.p23" e1="DDI-DrugBank.d131.s8.e2"
+            e2="DDI-DrugBank.d131.s8.e3" ddi="false"/>
+        <pair id="DDI-DrugBank.d131.s8.p24" e1="DDI-DrugBank.d131.s8.e2"
+            e2="DDI-DrugBank.d131.s8.e4" ddi="false"/>
+        <pair id="DDI-DrugBank.d131.s8.p25" e1="DDI-DrugBank.d131.s8.e2"
+            e2="DDI-DrugBank.d131.s8.e5" ddi="false"/>
+        <pair id="DDI-DrugBank.d131.s8.p26" e1="DDI-DrugBank.d131.s8.e2"
+            e2="DDI-DrugBank.d131.s8.e6" ddi="false"/>
+        <pair id="DDI-DrugBank.d131.s8.p27" e1="DDI-DrugBank.d131.s8.e2"
+            e2="DDI-DrugBank.d131.s8.e7" ddi="false"/>
+        <pair id="DDI-DrugBank.d131.s8.p28" e1="DDI-DrugBank.d131.s8.e2"
+            e2="DDI-DrugBank.d131.s8.e8" ddi="false"/>
+        <pair id="DDI-DrugBank.d131.s8.p29" e1="DDI-DrugBank.d131.s8.e2"
+            e2="DDI-DrugBank.d131.s8.e9" ddi="false"/>
+        <pair id="DDI-DrugBank.d131.s8.p30" e1="DDI-DrugBank.d131.s8.e2"
+            e2="DDI-DrugBank.d131.s8.e10" ddi="false"/>
+        <pair id="DDI-DrugBank.d131.s8.p31" e1="DDI-DrugBank.d131.s8.e2"
+            e2="DDI-DrugBank.d131.s8.e11" ddi="false"/>
+        <pair id="DDI-DrugBank.d131.s8.p32" e1="DDI-DrugBank.d131.s8.e2"
+            e2="DDI-DrugBank.d131.s8.e12" ddi="false"/>
+        <pair id="DDI-DrugBank.d131.s8.p33" e1="DDI-DrugBank.d131.s8.e3"
+            e2="DDI-DrugBank.d131.s8.e4" ddi="false"/>
+        <pair id="DDI-DrugBank.d131.s8.p34" e1="DDI-DrugBank.d131.s8.e3"
+            e2="DDI-DrugBank.d131.s8.e5" ddi="false"/>
+        <pair id="DDI-DrugBank.d131.s8.p35" e1="DDI-DrugBank.d131.s8.e3"
+            e2="DDI-DrugBank.d131.s8.e6" ddi="false"/>
+        <pair id="DDI-DrugBank.d131.s8.p36" e1="DDI-DrugBank.d131.s8.e3"
+            e2="DDI-DrugBank.d131.s8.e7" ddi="false"/>
+        <pair id="DDI-DrugBank.d131.s8.p37" e1="DDI-DrugBank.d131.s8.e3"
+            e2="DDI-DrugBank.d131.s8.e8" ddi="false"/>
+        <pair id="DDI-DrugBank.d131.s8.p38" e1="DDI-DrugBank.d131.s8.e3"
+            e2="DDI-DrugBank.d131.s8.e9" ddi="false"/>
+        <pair id="DDI-DrugBank.d131.s8.p39" e1="DDI-DrugBank.d131.s8.e3"
+            e2="DDI-DrugBank.d131.s8.e10" ddi="false"/>
+        <pair id="DDI-DrugBank.d131.s8.p40" e1="DDI-DrugBank.d131.s8.e3"
+            e2="DDI-DrugBank.d131.s8.e11" ddi="false"/>
+        <pair id="DDI-DrugBank.d131.s8.p41" e1="DDI-DrugBank.d131.s8.e3"
+            e2="DDI-DrugBank.d131.s8.e12" ddi="false"/>
+        <pair id="DDI-DrugBank.d131.s8.p42" e1="DDI-DrugBank.d131.s8.e4"
+            e2="DDI-DrugBank.d131.s8.e5" ddi="false"/>
+        <pair id="DDI-DrugBank.d131.s8.p43" e1="DDI-DrugBank.d131.s8.e4"
+            e2="DDI-DrugBank.d131.s8.e6" ddi="false"/>
+        <pair id="DDI-DrugBank.d131.s8.p44" e1="DDI-DrugBank.d131.s8.e4"
+            e2="DDI-DrugBank.d131.s8.e7" ddi="false"/>
+        <pair id="DDI-DrugBank.d131.s8.p45" e1="DDI-DrugBank.d131.s8.e4"
+            e2="DDI-DrugBank.d131.s8.e8" ddi="false"/>
+        <pair id="DDI-DrugBank.d131.s8.p46" e1="DDI-DrugBank.d131.s8.e4"
+            e2="DDI-DrugBank.d131.s8.e9" ddi="false"/>
+        <pair id="DDI-DrugBank.d131.s8.p47" e1="DDI-DrugBank.d131.s8.e4"
+            e2="DDI-DrugBank.d131.s8.e10" ddi="false"/>
+        <pair id="DDI-DrugBank.d131.s8.p48" e1="DDI-DrugBank.d131.s8.e4"
+            e2="DDI-DrugBank.d131.s8.e11" ddi="false"/>
+        <pair id="DDI-DrugBank.d131.s8.p49" e1="DDI-DrugBank.d131.s8.e4"
+            e2="DDI-DrugBank.d131.s8.e12" ddi="false"/>
+        <pair id="DDI-DrugBank.d131.s8.p50" e1="DDI-DrugBank.d131.s8.e5"
+            e2="DDI-DrugBank.d131.s8.e6" ddi="false"/>
+        <pair id="DDI-DrugBank.d131.s8.p51" e1="DDI-DrugBank.d131.s8.e5"
+            e2="DDI-DrugBank.d131.s8.e7" ddi="false"/>
+        <pair id="DDI-DrugBank.d131.s8.p52" e1="DDI-DrugBank.d131.s8.e5"
+            e2="DDI-DrugBank.d131.s8.e8" ddi="false"/>
+        <pair id="DDI-DrugBank.d131.s8.p53" e1="DDI-DrugBank.d131.s8.e5"
+            e2="DDI-DrugBank.d131.s8.e9" ddi="false"/>
+        <pair id="DDI-DrugBank.d131.s8.p54" e1="DDI-DrugBank.d131.s8.e5"
+            e2="DDI-DrugBank.d131.s8.e10" ddi="false"/>
+        <pair id="DDI-DrugBank.d131.s8.p55" e1="DDI-DrugBank.d131.s8.e5"
+            e2="DDI-DrugBank.d131.s8.e11" ddi="false"/>
+        <pair id="DDI-DrugBank.d131.s8.p56" e1="DDI-DrugBank.d131.s8.e5"
+            e2="DDI-DrugBank.d131.s8.e12" ddi="false"/>
+        <pair id="DDI-DrugBank.d131.s8.p57" e1="DDI-DrugBank.d131.s8.e6"
+            e2="DDI-DrugBank.d131.s8.e7" ddi="false"/>
+        <pair id="DDI-DrugBank.d131.s8.p58" e1="DDI-DrugBank.d131.s8.e6"
+            e2="DDI-DrugBank.d131.s8.e8" ddi="false"/>
+        <pair id="DDI-DrugBank.d131.s8.p59" e1="DDI-DrugBank.d131.s8.e6"
+            e2="DDI-DrugBank.d131.s8.e9" ddi="false"/>
+        <pair id="DDI-DrugBank.d131.s8.p60" e1="DDI-DrugBank.d131.s8.e6"
+            e2="DDI-DrugBank.d131.s8.e10" ddi="false"/>
+        <pair id="DDI-DrugBank.d131.s8.p61" e1="DDI-DrugBank.d131.s8.e6"
+            e2="DDI-DrugBank.d131.s8.e11" ddi="false"/>
+        <pair id="DDI-DrugBank.d131.s8.p62" e1="DDI-DrugBank.d131.s8.e6"
+            e2="DDI-DrugBank.d131.s8.e12" ddi="false"/>
+        <pair id="DDI-DrugBank.d131.s8.p63" e1="DDI-DrugBank.d131.s8.e7"
+            e2="DDI-DrugBank.d131.s8.e8" ddi="true" type="int"/>
+        <pair id="DDI-DrugBank.d131.s8.p64" e1="DDI-DrugBank.d131.s8.e7"
+            e2="DDI-DrugBank.d131.s8.e9" ddi="true" type="int"/>
+        <pair id="DDI-DrugBank.d131.s8.p65" e1="DDI-DrugBank.d131.s8.e7"
+            e2="DDI-DrugBank.d131.s8.e10" ddi="true" type="int"/>
+        <pair id="DDI-DrugBank.d131.s8.p66" e1="DDI-DrugBank.d131.s8.e7"
+            e2="DDI-DrugBank.d131.s8.e11" ddi="true" type="int"/>
+        <pair id="DDI-DrugBank.d131.s8.p67" e1="DDI-DrugBank.d131.s8.e7"
+            e2="DDI-DrugBank.d131.s8.e12" ddi="true" type="int"/>
+        <pair id="DDI-DrugBank.d131.s8.p68" e1="DDI-DrugBank.d131.s8.e8"
+            e2="DDI-DrugBank.d131.s8.e9" ddi="false"/>
+        <pair id="DDI-DrugBank.d131.s8.p69" e1="DDI-DrugBank.d131.s8.e8"
+            e2="DDI-DrugBank.d131.s8.e10" ddi="false"/>
+        <pair id="DDI-DrugBank.d131.s8.p70" e1="DDI-DrugBank.d131.s8.e8"
+            e2="DDI-DrugBank.d131.s8.e11" ddi="false"/>
+        <pair id="DDI-DrugBank.d131.s8.p71" e1="DDI-DrugBank.d131.s8.e8"
+            e2="DDI-DrugBank.d131.s8.e12" ddi="false"/>
+        <pair id="DDI-DrugBank.d131.s8.p72" e1="DDI-DrugBank.d131.s8.e9"
+            e2="DDI-DrugBank.d131.s8.e10" ddi="false"/>
+        <pair id="DDI-DrugBank.d131.s8.p73" e1="DDI-DrugBank.d131.s8.e9"
+            e2="DDI-DrugBank.d131.s8.e11" ddi="false"/>
+        <pair id="DDI-DrugBank.d131.s8.p74" e1="DDI-DrugBank.d131.s8.e9"
+            e2="DDI-DrugBank.d131.s8.e12" ddi="false"/>
+        <pair id="DDI-DrugBank.d131.s8.p75"
+            e1="DDI-DrugBank.d131.s8.e10" e2="DDI-DrugBank.d131.s8.e11" ddi="false"/>
+        <pair id="DDI-DrugBank.d131.s8.p76"
+            e1="DDI-DrugBank.d131.s8.e10" e2="DDI-DrugBank.d131.s8.e12" ddi="false"/>
+        <pair id="DDI-DrugBank.d131.s8.p77"
+            e1="DDI-DrugBank.d131.s8.e11" e2="DDI-DrugBank.d131.s8.e12" ddi="false"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d131.s9" text="Data from in vitro studies of alprazolam suggest a possible drug interaction with alprazolam for the following: sertraline and paroxetine.">
+        <entity id="DDI-DrugBank.d131.s9.e0" charOffset="30-39"
+            type="drug" text="alprazolam"/>
+        <entity id="DDI-DrugBank.d131.s9.e1" charOffset="82-91"
+            type="drug" text="alprazolam"/>
+        <entity id="DDI-DrugBank.d131.s9.e2" charOffset="112-121"
+            type="drug" text="sertraline"/>
+        <entity id="DDI-DrugBank.d131.s9.e3" charOffset="127-136"
+            type="drug" text="paroxetine"/>
+        <pair id="DDI-DrugBank.d131.s9.p0" e1="DDI-DrugBank.d131.s9.e0"
+            e2="DDI-DrugBank.d131.s9.e1" ddi="false"/>
+        <pair id="DDI-DrugBank.d131.s9.p1" e1="DDI-DrugBank.d131.s9.e0"
+            e2="DDI-DrugBank.d131.s9.e2" ddi="false"/>
+        <pair id="DDI-DrugBank.d131.s9.p2" e1="DDI-DrugBank.d131.s9.e0"
+            e2="DDI-DrugBank.d131.s9.e3" ddi="false"/>
+        <pair id="DDI-DrugBank.d131.s9.p3" e1="DDI-DrugBank.d131.s9.e1"
+            e2="DDI-DrugBank.d131.s9.e2" ddi="true" type="int"/>
+        <pair id="DDI-DrugBank.d131.s9.p4" e1="DDI-DrugBank.d131.s9.e1"
+            e2="DDI-DrugBank.d131.s9.e3" ddi="true" type="int"/>
+        <pair id="DDI-DrugBank.d131.s9.p5" e1="DDI-DrugBank.d131.s9.e2"
+            e2="DDI-DrugBank.d131.s9.e3" ddi="false"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d131.s10" text="Data from in vitro studies of benzodiazepines other than alprazolam suggest a possible drug interaction for the following: ergotamine, cyclosporine, amiodarone, nicardipine, and nifedipine.">
+        <entity id="DDI-DrugBank.d131.s10.e0" charOffset="30-44"
+            type="group" text="benzodiazepines"/>
+        <entity id="DDI-DrugBank.d131.s10.e1" charOffset="57-66"
+            type="drug" text="alprazolam"/>
+        <entity id="DDI-DrugBank.d131.s10.e2" charOffset="123-132"
+            type="drug" text="ergotamine"/>
+        <entity id="DDI-DrugBank.d131.s10.e3" charOffset="135-146"
+            type="drug" text="cyclosporine"/>
+        <entity id="DDI-DrugBank.d131.s10.e4" charOffset="149-158"
+            type="drug" text="amiodarone"/>
+        <entity id="DDI-DrugBank.d131.s10.e5" charOffset="161-171"
+            type="drug" text="nicardipine"/>
+        <entity id="DDI-DrugBank.d131.s10.e6" charOffset="178-187"
+            type="drug" text="nifedipine"/>
+        <pair id="DDI-DrugBank.d131.s10.p0"
+            e1="DDI-DrugBank.d131.s10.e0" e2="DDI-DrugBank.d131.s10.e1" ddi="false"/>
+        <pair id="DDI-DrugBank.d131.s10.p1"
+            e1="DDI-DrugBank.d131.s10.e0" e2="DDI-DrugBank.d131.s10.e2"
+            ddi="true" type="int"/>
+        <pair id="DDI-DrugBank.d131.s10.p2"
+            e1="DDI-DrugBank.d131.s10.e0" e2="DDI-DrugBank.d131.s10.e3"
+            ddi="true" type="int"/>
+        <pair id="DDI-DrugBank.d131.s10.p3"
+            e1="DDI-DrugBank.d131.s10.e0" e2="DDI-DrugBank.d131.s10.e4"
+            ddi="true" type="int"/>
+        <pair id="DDI-DrugBank.d131.s10.p4"
+            e1="DDI-DrugBank.d131.s10.e0" e2="DDI-DrugBank.d131.s10.e5"
+            ddi="true" type="int"/>
+        <pair id="DDI-DrugBank.d131.s10.p5"
+            e1="DDI-DrugBank.d131.s10.e0" e2="DDI-DrugBank.d131.s10.e6"
+            ddi="true" type="int"/>
+        <pair id="DDI-DrugBank.d131.s10.p6"
+            e1="DDI-DrugBank.d131.s10.e1" e2="DDI-DrugBank.d131.s10.e2"
+            ddi="true" type="int"/>
+        <pair id="DDI-DrugBank.d131.s10.p7"
+            e1="DDI-DrugBank.d131.s10.e1" e2="DDI-DrugBank.d131.s10.e3"
+            ddi="true" type="int"/>
+        <pair id="DDI-DrugBank.d131.s10.p8"
+            e1="DDI-DrugBank.d131.s10.e1" e2="DDI-DrugBank.d131.s10.e4"
+            ddi="true" type="int"/>
+        <pair id="DDI-DrugBank.d131.s10.p9"
+            e1="DDI-DrugBank.d131.s10.e1" e2="DDI-DrugBank.d131.s10.e5"
+            ddi="true" type="int"/>
+        <pair id="DDI-DrugBank.d131.s10.p10"
+            e1="DDI-DrugBank.d131.s10.e1" e2="DDI-DrugBank.d131.s10.e6"
+            ddi="true" type="int"/>
+        <pair id="DDI-DrugBank.d131.s10.p11"
+            e1="DDI-DrugBank.d131.s10.e2" e2="DDI-DrugBank.d131.s10.e3" ddi="false"/>
+        <pair id="DDI-DrugBank.d131.s10.p12"
+            e1="DDI-DrugBank.d131.s10.e2" e2="DDI-DrugBank.d131.s10.e4" ddi="false"/>
+        <pair id="DDI-DrugBank.d131.s10.p13"
+            e1="DDI-DrugBank.d131.s10.e2" e2="DDI-DrugBank.d131.s10.e5" ddi="false"/>
+        <pair id="DDI-DrugBank.d131.s10.p14"
+            e1="DDI-DrugBank.d131.s10.e2" e2="DDI-DrugBank.d131.s10.e6" ddi="false"/>
+        <pair id="DDI-DrugBank.d131.s10.p15"
+            e1="DDI-DrugBank.d131.s10.e3" e2="DDI-DrugBank.d131.s10.e4" ddi="false"/>
+        <pair id="DDI-DrugBank.d131.s10.p16"
+            e1="DDI-DrugBank.d131.s10.e3" e2="DDI-DrugBank.d131.s10.e5" ddi="false"/>
+        <pair id="DDI-DrugBank.d131.s10.p17"
+            e1="DDI-DrugBank.d131.s10.e3" e2="DDI-DrugBank.d131.s10.e6" ddi="false"/>
+        <pair id="DDI-DrugBank.d131.s10.p18"
+            e1="DDI-DrugBank.d131.s10.e4" e2="DDI-DrugBank.d131.s10.e5" ddi="false"/>
+        <pair id="DDI-DrugBank.d131.s10.p19"
+            e1="DDI-DrugBank.d131.s10.e4" e2="DDI-DrugBank.d131.s10.e6" ddi="false"/>
+        <pair id="DDI-DrugBank.d131.s10.p20"
+            e1="DDI-DrugBank.d131.s10.e5" e2="DDI-DrugBank.d131.s10.e6" ddi="false"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d131.s11" text="Caution is recommended during the coadministration of any of these with alprazolam.">
+        <entity id="DDI-DrugBank.d131.s11.e0" charOffset="72-81"
+            type="drug" text="alprazolam"/>
+    </sentence>
+</document>

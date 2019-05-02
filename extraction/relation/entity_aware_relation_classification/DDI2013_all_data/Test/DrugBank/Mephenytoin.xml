@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="DDI-DrugBank.d636">
+    <sentence id="DDI-DrugBank.d636.s0" text="Some anticonvulsants may interact with Mephenytoin. ">
+        <entity id="DDI-DrugBank.d636.s0.e0" charOffset="5-19"
+            type="group" text="anticonvulsants"/>
+        <entity id="DDI-DrugBank.d636.s0.e1" charOffset="39-49"
+            type="drug" text="Mephenytoin"/>
+        <pair id="DDI-DrugBank.d636.s0.p0" e1="DDI-DrugBank.d636.s0.e0"
+            e2="DDI-DrugBank.d636.s0.e1" ddi="true" type="int"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d636.s1" text="They can either increase or decrease the effect of Mephenytoin. ">
+        <entity id="DDI-DrugBank.d636.s1.e0" charOffset="51-61"
+            type="drug" text="Mephenytoin"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d636.s2" text="Those anticonvulsants include divalproex sodium, valproic acid, and phenobarbital. ">
+        <entity id="DDI-DrugBank.d636.s2.e0" charOffset="6-20"
+            type="group" text="anticonvulsants"/>
+        <entity id="DDI-DrugBank.d636.s2.e1" charOffset="30-46"
+            type="drug" text="divalproex sodium"/>
+        <entity id="DDI-DrugBank.d636.s2.e2" charOffset="49-61"
+            type="drug" text="valproic acid"/>
+        <entity id="DDI-DrugBank.d636.s2.e3" charOffset="68-80"
+            type="drug" text="phenobarbital"/>
+        <pair id="DDI-DrugBank.d636.s2.p0" e1="DDI-DrugBank.d636.s2.e0"
+            e2="DDI-DrugBank.d636.s2.e1" ddi="false"/>
+        <pair id="DDI-DrugBank.d636.s2.p1" e1="DDI-DrugBank.d636.s2.e0"
+            e2="DDI-DrugBank.d636.s2.e2" ddi="false"/>
+        <pair id="DDI-DrugBank.d636.s2.p2" e1="DDI-DrugBank.d636.s2.e0"
+            e2="DDI-DrugBank.d636.s2.e3" ddi="false"/>
+        <pair id="DDI-DrugBank.d636.s2.p3" e1="DDI-DrugBank.d636.s2.e1"
+            e2="DDI-DrugBank.d636.s2.e2" ddi="false"/>
+        <pair id="DDI-DrugBank.d636.s2.p4" e1="DDI-DrugBank.d636.s2.e1"
+            e2="DDI-DrugBank.d636.s2.e3" ddi="false"/>
+        <pair id="DDI-DrugBank.d636.s2.p5" e1="DDI-DrugBank.d636.s2.e2"
+            e2="DDI-DrugBank.d636.s2.e3" ddi="false"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d636.s3" text="Mephenytoin may also affect the effects of other drugs, which include some steroid medications, warfarin, certain heart medicines, birth control pills, anti-infective medicines, furosemide and theophylline Please note that Mephenytoin may interact with other drugs that are not listed here.">
+        <entity id="DDI-DrugBank.d636.s3.e0" charOffset="0-10"
+            type="drug" text="Mephenytoin"/>
+        <entity id="DDI-DrugBank.d636.s3.e1" charOffset="75-93"
+            type="group" text="steroid medications"/>
+        <entity id="DDI-DrugBank.d636.s3.e2" charOffset="96-103"
+            type="drug" text="warfarin"/>
+        <entity id="DDI-DrugBank.d636.s3.e3" charOffset="152-175"
+            type="group" text="anti-infective medicines"/>
+        <entity id="DDI-DrugBank.d636.s3.e4" charOffset="178-187"
+            type="drug" text="furosemide"/>
+        <entity id="DDI-DrugBank.d636.s3.e5" charOffset="193-204"
+            type="drug" text="theophylline"/>
+        <entity id="DDI-DrugBank.d636.s3.e6" charOffset="223-233"
+            type="drug" text="Mephenytoin"/>
+        <pair id="DDI-DrugBank.d636.s3.p0" e1="DDI-DrugBank.d636.s3.e0"
+            e2="DDI-DrugBank.d636.s3.e1" ddi="true" type="effect"/>
+        <pair id="DDI-DrugBank.d636.s3.p1" e1="DDI-DrugBank.d636.s3.e0"
+            e2="DDI-DrugBank.d636.s3.e2" ddi="true" type="effect"/>
+        <pair id="DDI-DrugBank.d636.s3.p2" e1="DDI-DrugBank.d636.s3.e0"
+            e2="DDI-DrugBank.d636.s3.e3" ddi="true" type="effect"/>
+        <pair id="DDI-DrugBank.d636.s3.p3" e1="DDI-DrugBank.d636.s3.e0"
+            e2="DDI-DrugBank.d636.s3.e4" ddi="true" type="effect"/>
+        <pair id="DDI-DrugBank.d636.s3.p4" e1="DDI-DrugBank.d636.s3.e0"
+            e2="DDI-DrugBank.d636.s3.e5" ddi="true" type="effect"/>
+        <pair id="DDI-DrugBank.d636.s3.p5" e1="DDI-DrugBank.d636.s3.e0"
+            e2="DDI-DrugBank.d636.s3.e6" ddi="false"/>
+        <pair id="DDI-DrugBank.d636.s3.p6" e1="DDI-DrugBank.d636.s3.e1"
+            e2="DDI-DrugBank.d636.s3.e2" ddi="false"/>
+        <pair id="DDI-DrugBank.d636.s3.p7" e1="DDI-DrugBank.d636.s3.e1"
+            e2="DDI-DrugBank.d636.s3.e3" ddi="false"/>
+        <pair id="DDI-DrugBank.d636.s3.p8" e1="DDI-DrugBank.d636.s3.e1"
+            e2="DDI-DrugBank.d636.s3.e4" ddi="false"/>
+        <pair id="DDI-DrugBank.d636.s3.p9" e1="DDI-DrugBank.d636.s3.e1"
+            e2="DDI-DrugBank.d636.s3.e5" ddi="false"/>
+        <pair id="DDI-DrugBank.d636.s3.p10" e1="DDI-DrugBank.d636.s3.e1"
+            e2="DDI-DrugBank.d636.s3.e6" ddi="false"/>
+        <pair id="DDI-DrugBank.d636.s3.p11" e1="DDI-DrugBank.d636.s3.e2"
+            e2="DDI-DrugBank.d636.s3.e3" ddi="false"/>
+        <pair id="DDI-DrugBank.d636.s3.p12" e1="DDI-DrugBank.d636.s3.e2"
+            e2="DDI-DrugBank.d636.s3.e4" ddi="false"/>
+        <pair id="DDI-DrugBank.d636.s3.p13" e1="DDI-DrugBank.d636.s3.e2"
+            e2="DDI-DrugBank.d636.s3.e5" ddi="false"/>
+        <pair id="DDI-DrugBank.d636.s3.p14" e1="DDI-DrugBank.d636.s3.e2"
+            e2="DDI-DrugBank.d636.s3.e6" ddi="false"/>
+        <pair id="DDI-DrugBank.d636.s3.p15" e1="DDI-DrugBank.d636.s3.e3"
+            e2="DDI-DrugBank.d636.s3.e4" ddi="false"/>
+        <pair id="DDI-DrugBank.d636.s3.p16" e1="DDI-DrugBank.d636.s3.e3"
+            e2="DDI-DrugBank.d636.s3.e5" ddi="false"/>
+        <pair id="DDI-DrugBank.d636.s3.p17" e1="DDI-DrugBank.d636.s3.e3"
+            e2="DDI-DrugBank.d636.s3.e6" ddi="false"/>
+        <pair id="DDI-DrugBank.d636.s3.p18" e1="DDI-DrugBank.d636.s3.e4"
+            e2="DDI-DrugBank.d636.s3.e5" ddi="false"/>
+        <pair id="DDI-DrugBank.d636.s3.p19" e1="DDI-DrugBank.d636.s3.e4"
+            e2="DDI-DrugBank.d636.s3.e6" ddi="false"/>
+        <pair id="DDI-DrugBank.d636.s3.p20" e1="DDI-DrugBank.d636.s3.e5"
+            e2="DDI-DrugBank.d636.s3.e6" ddi="false"/>
+    </sentence>
+</document>

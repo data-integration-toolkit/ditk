@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="DDI-MedLine.d181">
+    <sentence id="DDI-MedLine.d181.s0" text="Drug interaction of levothyroxine with infant colic drops.&#xd;&#xa;">
+        <entity id="DDI-MedLine.d181.s0.e0" charOffset="20-32"
+            type="drug" text="levothyroxine"/>
+    </sentence>
+    <sentence id="DDI-MedLine.d181.s1" text="Infacol (Forest Laboratories UK, Kent, UK) is a widely available over-the-counter preparation used to relieve colic symptoms in neonates and infants. ">
+        <entity id="DDI-MedLine.d181.s1.e0" charOffset="0-6"
+            type="brand" text="Infacol"/>
+    </sentence>
+    <sentence id="DDI-MedLine.d181.s2" text="The active ingredient is simeticone. ">
+        <entity id="DDI-MedLine.d181.s2.e0" charOffset="25-34"
+            type="drug" text="simeticone"/>
+    </sentence>
+    <sentence id="DDI-MedLine.d181.s3" text="No drug interactions with simeticone are documented in the current summary of product characteristics. ">
+        <entity id="DDI-MedLine.d181.s3.e0" charOffset="26-35"
+            type="drug" text="simeticone"/>
+    </sentence>
+    <sentence id="DDI-MedLine.d181.s4" text="The authors report the case of an infant with confirmed congenital hypothyroidism on levothyroxine who experienced a possible drug interaction with simeticone. ">
+        <entity id="DDI-MedLine.d181.s4.e0" charOffset="85-97"
+            type="drug" text="levothyroxine"/>
+        <entity id="DDI-MedLine.d181.s4.e1" charOffset="148-157"
+            type="drug" text="simeticone"/>
+        <pair id="DDI-MedLine.d181.s4.p0" e1="DDI-MedLine.d181.s4.e0"
+            e2="DDI-MedLine.d181.s4.e1" ddi="true" type="int"/>
+    </sentence>
+    <sentence id="DDI-MedLine.d181.s5" text="Despite adequate levothyroxine dosage, thyroid stimulating hormone (TSH) was high, suggesting undertreatment. ">
+        <entity id="DDI-MedLine.d181.s5.e0" charOffset="17-29"
+            type="drug" text="levothyroxine"/>
+    </sentence>
+    <sentence id="DDI-MedLine.d181.s6" text="Questioning revealed the child was taking Infacol drops before feeds while on levothyroxine. ">
+        <entity id="DDI-MedLine.d181.s6.e0" charOffset="42-48"
+            type="brand" text="Infacol"/>
+        <entity id="DDI-MedLine.d181.s6.e1" charOffset="78-90"
+            type="drug" text="levothyroxine"/>
+        <pair id="DDI-MedLine.d181.s6.p0" e1="DDI-MedLine.d181.s6.e0"
+            e2="DDI-MedLine.d181.s6.e1" ddi="false"/>
+    </sentence>
+    <sentence id="DDI-MedLine.d181.s7" text="The colic drops were immediately discontinued and TSH promptly normalised with a reduction in thyroxine requirement to an age appropriate dosage. "/>
+    <sentence id="DDI-MedLine.d181.s8" text="Drug interaction of thyroxine with simeticone has not been reported previously and is not listed in the British National Formulary for Children. ">
+        <entity id="DDI-MedLine.d181.s8.e0" charOffset="20-28"
+            type="drug" text="thyroxine"/>
+        <entity id="DDI-MedLine.d181.s8.e1" charOffset="35-44"
+            type="drug" text="simeticone"/>
+        <pair id="DDI-MedLine.d181.s8.p0" e1="DDI-MedLine.d181.s8.e0"
+            e2="DDI-MedLine.d181.s8.e1" ddi="false"/>
+    </sentence>
+    <sentence id="DDI-MedLine.d181.s9" text="Clinicians and parents need to be aware of this interaction to avoid unnecessary undertreatment and prevent potential long-term neurological sequelae."/>
+</document>

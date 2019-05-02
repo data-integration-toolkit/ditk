@@ -1,0 +1,473 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="DDI-DrugBank.d210">
+    <sentence id="DDI-DrugBank.d210.s0" text="ACE inhibitors: Reports suggest that NSAIDs may diminish the antihypertensive effect of Angiotensin Converting Enzyme (ACE) inhibitors.">
+        <entity id="DDI-DrugBank.d210.s0.e0" charOffset="0-13"
+            type="group" text="ACE inhibitors"/>
+        <entity id="DDI-DrugBank.d210.s0.e1" charOffset="37-42"
+            type="group" text="NSAIDs"/>
+        <entity id="DDI-DrugBank.d210.s0.e2" charOffset="88-133"
+            type="group" text="Angiotensin Converting Enzyme (ACE) inhibitors"/>
+        <pair id="DDI-DrugBank.d210.s0.p0" e1="DDI-DrugBank.d210.s0.e0"
+            e2="DDI-DrugBank.d210.s0.e1" ddi="false"/>
+        <pair id="DDI-DrugBank.d210.s0.p1" e1="DDI-DrugBank.d210.s0.e0"
+            e2="DDI-DrugBank.d210.s0.e2" ddi="false"/>
+        <pair id="DDI-DrugBank.d210.s0.p2" e1="DDI-DrugBank.d210.s0.e1"
+            e2="DDI-DrugBank.d210.s0.e2" ddi="true" type="effect"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d210.s1" text="In patients with mild to moderate hypertension, administration of 25 mg daily of VIOXX with the ACE inhibitor benazepril, 10 to 40 mg for 4 weeks, was associated with an average increase in mean arterial pressure of about 3 mm Hg compared to ACE inhibitor alone.">
+        <entity id="DDI-DrugBank.d210.s1.e0" charOffset="81-85"
+            type="brand" text="VIOXX"/>
+        <entity id="DDI-DrugBank.d210.s1.e1" charOffset="96-108"
+            type="group" text="ACE inhibitor"/>
+        <entity id="DDI-DrugBank.d210.s1.e2" charOffset="110-119"
+            type="drug" text="benazepril"/>
+        <entity id="DDI-DrugBank.d210.s1.e3" charOffset="242-254"
+            type="group" text="ACE inhibitor"/>
+        <pair id="DDI-DrugBank.d210.s1.p0" e1="DDI-DrugBank.d210.s1.e0"
+            e2="DDI-DrugBank.d210.s1.e1" ddi="false"/>
+        <pair id="DDI-DrugBank.d210.s1.p1" e1="DDI-DrugBank.d210.s1.e0"
+            e2="DDI-DrugBank.d210.s1.e2" ddi="true" type="effect"/>
+        <pair id="DDI-DrugBank.d210.s1.p2" e1="DDI-DrugBank.d210.s1.e0"
+            e2="DDI-DrugBank.d210.s1.e3" ddi="false"/>
+        <pair id="DDI-DrugBank.d210.s1.p3" e1="DDI-DrugBank.d210.s1.e1"
+            e2="DDI-DrugBank.d210.s1.e2" ddi="false"/>
+        <pair id="DDI-DrugBank.d210.s1.p4" e1="DDI-DrugBank.d210.s1.e1"
+            e2="DDI-DrugBank.d210.s1.e3" ddi="false"/>
+        <pair id="DDI-DrugBank.d210.s1.p5" e1="DDI-DrugBank.d210.s1.e2"
+            e2="DDI-DrugBank.d210.s1.e3" ddi="false"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d210.s2" text="This interaction should be given consideration in patients taking VIOXX concomitantly with ACE inhibitors.">
+        <entity id="DDI-DrugBank.d210.s2.e0" charOffset="66-70"
+            type="brand" text="VIOXX"/>
+        <entity id="DDI-DrugBank.d210.s2.e1" charOffset="91-104"
+            type="group" text="ACE inhibitors"/>
+        <pair id="DDI-DrugBank.d210.s2.p0" e1="DDI-DrugBank.d210.s2.e0"
+            e2="DDI-DrugBank.d210.s2.e1" ddi="true" type="advise"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d210.s3" text="Aspirin: Concomitant administration of low-dose aspirin with VIOXX may result in an increased rate of GI ulceration or other complications, compared to use of VIOXX alone.">
+        <entity id="DDI-DrugBank.d210.s3.e0" charOffset="0-6"
+            type="brand" text="Aspirin"/>
+        <entity id="DDI-DrugBank.d210.s3.e1" charOffset="48-54"
+            type="brand" text="aspirin"/>
+        <entity id="DDI-DrugBank.d210.s3.e2" charOffset="61-65"
+            type="brand" text="VIOXX"/>
+        <entity id="DDI-DrugBank.d210.s3.e3" charOffset="159-163"
+            type="brand" text="VIOXX"/>
+        <pair id="DDI-DrugBank.d210.s3.p0" e1="DDI-DrugBank.d210.s3.e0"
+            e2="DDI-DrugBank.d210.s3.e1" ddi="false"/>
+        <pair id="DDI-DrugBank.d210.s3.p1" e1="DDI-DrugBank.d210.s3.e0"
+            e2="DDI-DrugBank.d210.s3.e2" ddi="false"/>
+        <pair id="DDI-DrugBank.d210.s3.p2" e1="DDI-DrugBank.d210.s3.e0"
+            e2="DDI-DrugBank.d210.s3.e3" ddi="false"/>
+        <pair id="DDI-DrugBank.d210.s3.p3" e1="DDI-DrugBank.d210.s3.e1"
+            e2="DDI-DrugBank.d210.s3.e2" ddi="true" type="effect"/>
+        <pair id="DDI-DrugBank.d210.s3.p4" e1="DDI-DrugBank.d210.s3.e1"
+            e2="DDI-DrugBank.d210.s3.e3" ddi="false"/>
+        <pair id="DDI-DrugBank.d210.s3.p5" e1="DDI-DrugBank.d210.s3.e2"
+            e2="DDI-DrugBank.d210.s3.e3" ddi="false"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d210.s4" text="In a 12-week endoscopy study conducted in OA patients there was no difference in the cumulative incidence of endoscopic gastroduodenal ulcers in patients taking low-dose (81 mg) enteric coated aspirin plus VIOXX 25 mg daily, as compared to those taking ibuprofen 2400 mg daily alone.">
+        <entity id="DDI-DrugBank.d210.s4.e0" charOffset="193-199"
+            type="brand" text="aspirin"/>
+        <entity id="DDI-DrugBank.d210.s4.e1" charOffset="206-210"
+            type="brand" text="VIOXX"/>
+        <entity id="DDI-DrugBank.d210.s4.e2" charOffset="253-261"
+            type="drug" text="ibuprofen"/>
+        <pair id="DDI-DrugBank.d210.s4.p0" e1="DDI-DrugBank.d210.s4.e0"
+            e2="DDI-DrugBank.d210.s4.e1" ddi="false"/>
+        <pair id="DDI-DrugBank.d210.s4.p1" e1="DDI-DrugBank.d210.s4.e0"
+            e2="DDI-DrugBank.d210.s4.e2" ddi="false"/>
+        <pair id="DDI-DrugBank.d210.s4.p2" e1="DDI-DrugBank.d210.s4.e1"
+            e2="DDI-DrugBank.d210.s4.e2" ddi="false"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d210.s5" text="Patients taking low-dose aspirin plus ibuprofen were not studied.">
+        <entity id="DDI-DrugBank.d210.s5.e0" charOffset="25-31"
+            type="brand" text="aspirin"/>
+        <entity id="DDI-DrugBank.d210.s5.e1" charOffset="38-46"
+            type="drug" text="ibuprofen"/>
+        <pair id="DDI-DrugBank.d210.s5.p0" e1="DDI-DrugBank.d210.s5.e0"
+            e2="DDI-DrugBank.d210.s5.e1" ddi="false"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d210.s6" text="At steady state, VIOXX 50 mg once daily had no effect on the anti-platelet activity of low-dose (81 mg once daily) aspirin, as assessed by ex vivo platelet aggregation and serum TXB2 generation in clotting blood.">
+        <entity id="DDI-DrugBank.d210.s6.e0" charOffset="17-21"
+            type="brand" text="VIOXX"/>
+        <entity id="DDI-DrugBank.d210.s6.e1" charOffset="115-121"
+            type="brand" text="aspirin"/>
+        <pair id="DDI-DrugBank.d210.s6.p0" e1="DDI-DrugBank.d210.s6.e0"
+            e2="DDI-DrugBank.d210.s6.e1" ddi="false"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d210.s7" text="Because of its lack of platelet effects, VIOXX is not a substitute for aspirin for cardiovascular prophylaxis.">
+        <entity id="DDI-DrugBank.d210.s7.e0" charOffset="41-45"
+            type="brand" text="VIOXX"/>
+        <entity id="DDI-DrugBank.d210.s7.e1" charOffset="71-77"
+            type="brand" text="aspirin"/>
+        <pair id="DDI-DrugBank.d210.s7.p0" e1="DDI-DrugBank.d210.s7.e0"
+            e2="DDI-DrugBank.d210.s7.e1" ddi="false"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d210.s8" text="Therefore, in patients taking VIOXX, antiplatelet therapies should not be discontinued and should be considered in patients with an indication for cardiovascular prophylaxis.">
+        <entity id="DDI-DrugBank.d210.s8.e0" charOffset="30-34"
+            type="brand" text="VIOXX"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d210.s9" text="Prospective, long-term studies on concomitant administration of VIOXX and aspirin have not been conducted.">
+        <entity id="DDI-DrugBank.d210.s9.e0" charOffset="64-68"
+            type="brand" text="VIOXX"/>
+        <entity id="DDI-DrugBank.d210.s9.e1" charOffset="74-80"
+            type="brand" text="aspirin"/>
+        <pair id="DDI-DrugBank.d210.s9.p0" e1="DDI-DrugBank.d210.s9.e0"
+            e2="DDI-DrugBank.d210.s9.e1" ddi="false"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d210.s10" text="Cimetidine: Co-administration with high doses of cimetidine [800 mg twice daily] increased the Cmax of rofecoxib by 21%, the AUC0-120hr by 23% and the t1/2 by 15%.">
+        <entity id="DDI-DrugBank.d210.s10.e0" charOffset="0-9"
+            type="drug" text="Cimetidine"/>
+        <entity id="DDI-DrugBank.d210.s10.e1" charOffset="49-58"
+            type="drug" text="cimetidine"/>
+        <entity id="DDI-DrugBank.d210.s10.e2" charOffset="103-111"
+            type="drug" text="rofecoxib"/>
+        <pair id="DDI-DrugBank.d210.s10.p0"
+            e1="DDI-DrugBank.d210.s10.e0" e2="DDI-DrugBank.d210.s10.e1" ddi="false"/>
+        <pair id="DDI-DrugBank.d210.s10.p1"
+            e1="DDI-DrugBank.d210.s10.e0" e2="DDI-DrugBank.d210.s10.e2" ddi="false"/>
+        <pair id="DDI-DrugBank.d210.s10.p2"
+            e1="DDI-DrugBank.d210.s10.e1" e2="DDI-DrugBank.d210.s10.e2"
+            ddi="true" type="mechanism"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d210.s11" text="These small changes are not clinically significant and no dose adjustment is necessary."/>
+    <sentence id="DDI-DrugBank.d210.s12" text="Digoxin: Rofecoxib 75 mg once daily for 11 days does not alter the plasma concentration profile or renal elimination of digoxin after a single 0.5 mg oral dose.">
+        <entity id="DDI-DrugBank.d210.s12.e0" charOffset="0-6"
+            type="drug" text="Digoxin"/>
+        <entity id="DDI-DrugBank.d210.s12.e1" charOffset="9-17"
+            type="drug" text="Rofecoxib"/>
+        <entity id="DDI-DrugBank.d210.s12.e2" charOffset="120-126"
+            type="drug" text="digoxin"/>
+        <pair id="DDI-DrugBank.d210.s12.p0"
+            e1="DDI-DrugBank.d210.s12.e0" e2="DDI-DrugBank.d210.s12.e1" ddi="false"/>
+        <pair id="DDI-DrugBank.d210.s12.p1"
+            e1="DDI-DrugBank.d210.s12.e0" e2="DDI-DrugBank.d210.s12.e2" ddi="false"/>
+        <pair id="DDI-DrugBank.d210.s12.p2"
+            e1="DDI-DrugBank.d210.s12.e1" e2="DDI-DrugBank.d210.s12.e2" ddi="false"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d210.s13" text="Furosemide: Clinical studies, as well as post-marketing observations, have shown that NSAIDs can reduce the natriuretic effect of furosemide and thiazides in some patients.">
+        <entity id="DDI-DrugBank.d210.s13.e0" charOffset="0-9"
+            type="drug" text="Furosemide"/>
+        <entity id="DDI-DrugBank.d210.s13.e1" charOffset="86-91"
+            type="group" text="NSAIDs"/>
+        <entity id="DDI-DrugBank.d210.s13.e2" charOffset="130-139"
+            type="drug" text="furosemide"/>
+        <entity id="DDI-DrugBank.d210.s13.e3" charOffset="145-153"
+            type="group" text="thiazides"/>
+        <pair id="DDI-DrugBank.d210.s13.p0"
+            e1="DDI-DrugBank.d210.s13.e0" e2="DDI-DrugBank.d210.s13.e1" ddi="false"/>
+        <pair id="DDI-DrugBank.d210.s13.p1"
+            e1="DDI-DrugBank.d210.s13.e0" e2="DDI-DrugBank.d210.s13.e2" ddi="false"/>
+        <pair id="DDI-DrugBank.d210.s13.p2"
+            e1="DDI-DrugBank.d210.s13.e0" e2="DDI-DrugBank.d210.s13.e3" ddi="false"/>
+        <pair id="DDI-DrugBank.d210.s13.p3"
+            e1="DDI-DrugBank.d210.s13.e1" e2="DDI-DrugBank.d210.s13.e2"
+            ddi="true" type="effect"/>
+        <pair id="DDI-DrugBank.d210.s13.p4"
+            e1="DDI-DrugBank.d210.s13.e1" e2="DDI-DrugBank.d210.s13.e3"
+            ddi="true" type="effect"/>
+        <pair id="DDI-DrugBank.d210.s13.p5"
+            e1="DDI-DrugBank.d210.s13.e2" e2="DDI-DrugBank.d210.s13.e3" ddi="false"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d210.s14" text="This response has been attributed to inhibition of renal prostaglandin synthesis."/>
+    <sentence id="DDI-DrugBank.d210.s15" text="Ketoconazole: Ketoconazole 400 mg daily did not have any clinically important effect on the pharmacokinetics of rofecoxib.">
+        <entity id="DDI-DrugBank.d210.s15.e0" charOffset="0-11"
+            type="drug" text="Ketoconazole"/>
+        <entity id="DDI-DrugBank.d210.s15.e1" charOffset="14-25"
+            type="drug" text="Ketoconazole"/>
+        <entity id="DDI-DrugBank.d210.s15.e2" charOffset="112-120"
+            type="drug" text="rofecoxib"/>
+        <pair id="DDI-DrugBank.d210.s15.p0"
+            e1="DDI-DrugBank.d210.s15.e0" e2="DDI-DrugBank.d210.s15.e1" ddi="false"/>
+        <pair id="DDI-DrugBank.d210.s15.p1"
+            e1="DDI-DrugBank.d210.s15.e0" e2="DDI-DrugBank.d210.s15.e2" ddi="false"/>
+        <pair id="DDI-DrugBank.d210.s15.p2"
+            e1="DDI-DrugBank.d210.s15.e1" e2="DDI-DrugBank.d210.s15.e2" ddi="false"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d210.s16" text="Lithium: NSAIDs have produced an elevation of plasma lithium levels and a reduction in renal lithium clearance.">
+        <entity id="DDI-DrugBank.d210.s16.e0" charOffset="0-6"
+            type="drug" text="Lithium"/>
+        <entity id="DDI-DrugBank.d210.s16.e1" charOffset="9-14"
+            type="group" text="NSAIDs"/>
+        <entity id="DDI-DrugBank.d210.s16.e2" charOffset="53-59"
+            type="drug" text="lithium"/>
+        <entity id="DDI-DrugBank.d210.s16.e3" charOffset="93-99"
+            type="drug" text="lithium"/>
+        <pair id="DDI-DrugBank.d210.s16.p0"
+            e1="DDI-DrugBank.d210.s16.e0" e2="DDI-DrugBank.d210.s16.e1" ddi="false"/>
+        <pair id="DDI-DrugBank.d210.s16.p1"
+            e1="DDI-DrugBank.d210.s16.e0" e2="DDI-DrugBank.d210.s16.e2" ddi="false"/>
+        <pair id="DDI-DrugBank.d210.s16.p2"
+            e1="DDI-DrugBank.d210.s16.e0" e2="DDI-DrugBank.d210.s16.e3" ddi="false"/>
+        <pair id="DDI-DrugBank.d210.s16.p3"
+            e1="DDI-DrugBank.d210.s16.e1" e2="DDI-DrugBank.d210.s16.e2"
+            ddi="true" type="mechanism"/>
+        <pair id="DDI-DrugBank.d210.s16.p4"
+            e1="DDI-DrugBank.d210.s16.e1" e2="DDI-DrugBank.d210.s16.e3" ddi="false"/>
+        <pair id="DDI-DrugBank.d210.s16.p5"
+            e1="DDI-DrugBank.d210.s16.e2" e2="DDI-DrugBank.d210.s16.e3" ddi="false"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d210.s17" text="In post-marketing experience there have been reports of increases in plasma lithium levels.">
+        <entity id="DDI-DrugBank.d210.s17.e0" charOffset="76-82"
+            type="drug" text="lithium"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d210.s18" text="Thus, when VIOXX and lithium are administered concurrently, subjects should be observed carefully for signs of lithium toxicity.">
+        <entity id="DDI-DrugBank.d210.s18.e0" charOffset="11-15"
+            type="brand" text="VIOXX"/>
+        <entity id="DDI-DrugBank.d210.s18.e1" charOffset="21-27"
+            type="drug" text="lithium"/>
+        <entity id="DDI-DrugBank.d210.s18.e2" charOffset="111-117"
+            type="drug" text="lithium"/>
+        <pair id="DDI-DrugBank.d210.s18.p0"
+            e1="DDI-DrugBank.d210.s18.e0" e2="DDI-DrugBank.d210.s18.e1"
+            ddi="true" type="advise"/>
+        <pair id="DDI-DrugBank.d210.s18.p1"
+            e1="DDI-DrugBank.d210.s18.e0" e2="DDI-DrugBank.d210.s18.e2" ddi="false"/>
+        <pair id="DDI-DrugBank.d210.s18.p2"
+            e1="DDI-DrugBank.d210.s18.e1" e2="DDI-DrugBank.d210.s18.e2" ddi="false"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d210.s19" text="Methotrexate VIOXX 12.5, 25, and 50 mg, each dose administered once daily for 7 days, had no effect on the plasma concentration of methotrexate as measured by AUC0-24hr in patients receiving single weekly methotrexate doses of 7.5 to 20 mg for rheumatoid arthritis.">
+        <entity id="DDI-DrugBank.d210.s19.e0" charOffset="0-11"
+            type="drug" text="Methotrexate"/>
+        <entity id="DDI-DrugBank.d210.s19.e1" charOffset="13-17"
+            type="brand" text="VIOXX"/>
+        <entity id="DDI-DrugBank.d210.s19.e2" charOffset="131-142"
+            type="drug" text="methotrexate"/>
+        <entity id="DDI-DrugBank.d210.s19.e3" charOffset="205-216"
+            type="drug" text="methotrexate"/>
+        <pair id="DDI-DrugBank.d210.s19.p0"
+            e1="DDI-DrugBank.d210.s19.e0" e2="DDI-DrugBank.d210.s19.e1" ddi="false"/>
+        <pair id="DDI-DrugBank.d210.s19.p1"
+            e1="DDI-DrugBank.d210.s19.e0" e2="DDI-DrugBank.d210.s19.e2" ddi="false"/>
+        <pair id="DDI-DrugBank.d210.s19.p2"
+            e1="DDI-DrugBank.d210.s19.e0" e2="DDI-DrugBank.d210.s19.e3" ddi="false"/>
+        <pair id="DDI-DrugBank.d210.s19.p3"
+            e1="DDI-DrugBank.d210.s19.e1" e2="DDI-DrugBank.d210.s19.e2" ddi="false"/>
+        <pair id="DDI-DrugBank.d210.s19.p4"
+            e1="DDI-DrugBank.d210.s19.e1" e2="DDI-DrugBank.d210.s19.e3" ddi="false"/>
+        <pair id="DDI-DrugBank.d210.s19.p5"
+            e1="DDI-DrugBank.d210.s19.e2" e2="DDI-DrugBank.d210.s19.e3" ddi="false"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d210.s20" text="At higher than recommended doses, VIOXX 75 mg administered once daily for 10 days increased plasma concentrations by 23% as measured by AUC0-24hr in patients receiving methotrexate 7.5 to 15 mg/week for rheumatoid arthritis.">
+        <entity id="DDI-DrugBank.d210.s20.e0" charOffset="34-38"
+            type="brand" text="VIOXX"/>
+        <entity id="DDI-DrugBank.d210.s20.e1" charOffset="168-179"
+            type="drug" text="methotrexate"/>
+        <pair id="DDI-DrugBank.d210.s20.p0"
+            e1="DDI-DrugBank.d210.s20.e0" e2="DDI-DrugBank.d210.s20.e1"
+            ddi="true" type="mechanism"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d210.s21" text="At 24 hours postdose, a similar proportion of patients treated with methotrexate alone (94%) and subsequently treated with methotrexate co-administered with 75 mg of rofecoxib (88%) had methotrexate plasma concentrations below the measurable limit (5 ng/mL).">
+        <entity id="DDI-DrugBank.d210.s21.e0" charOffset="68-79"
+            type="drug" text="methotrexate"/>
+        <entity id="DDI-DrugBank.d210.s21.e1" charOffset="123-134"
+            type="drug" text="methotrexate"/>
+        <entity id="DDI-DrugBank.d210.s21.e2" charOffset="166-174"
+            type="drug" text="rofecoxib"/>
+        <entity id="DDI-DrugBank.d210.s21.e3" charOffset="186-197"
+            type="drug" text="methotrexate"/>
+        <pair id="DDI-DrugBank.d210.s21.p0"
+            e1="DDI-DrugBank.d210.s21.e0" e2="DDI-DrugBank.d210.s21.e1" ddi="false"/>
+        <pair id="DDI-DrugBank.d210.s21.p1"
+            e1="DDI-DrugBank.d210.s21.e0" e2="DDI-DrugBank.d210.s21.e2" ddi="false"/>
+        <pair id="DDI-DrugBank.d210.s21.p2"
+            e1="DDI-DrugBank.d210.s21.e0" e2="DDI-DrugBank.d210.s21.e3" ddi="false"/>
+        <pair id="DDI-DrugBank.d210.s21.p3"
+            e1="DDI-DrugBank.d210.s21.e1" e2="DDI-DrugBank.d210.s21.e2"
+            ddi="true" type="mechanism"/>
+        <pair id="DDI-DrugBank.d210.s21.p4"
+            e1="DDI-DrugBank.d210.s21.e1" e2="DDI-DrugBank.d210.s21.e3" ddi="false"/>
+        <pair id="DDI-DrugBank.d210.s21.p5"
+            e1="DDI-DrugBank.d210.s21.e2" e2="DDI-DrugBank.d210.s21.e3" ddi="false"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d210.s22" text="Standard monitoring of methotrexate-related toxicity should be continued if VIOXX and methotrexate are administered concomitantly.">
+        <entity id="DDI-DrugBank.d210.s22.e0" charOffset="23-34"
+            type="drug" text="methotrexate"/>
+        <entity id="DDI-DrugBank.d210.s22.e1" charOffset="76-80"
+            type="brand" text="VIOXX"/>
+        <entity id="DDI-DrugBank.d210.s22.e2" charOffset="86-97"
+            type="drug" text="methotrexate"/>
+        <pair id="DDI-DrugBank.d210.s22.p0"
+            e1="DDI-DrugBank.d210.s22.e0" e2="DDI-DrugBank.d210.s22.e1" ddi="false"/>
+        <pair id="DDI-DrugBank.d210.s22.p1"
+            e1="DDI-DrugBank.d210.s22.e0" e2="DDI-DrugBank.d210.s22.e2" ddi="false"/>
+        <pair id="DDI-DrugBank.d210.s22.p2"
+            e1="DDI-DrugBank.d210.s22.e1" e2="DDI-DrugBank.d210.s22.e2"
+            ddi="true" type="advise"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d210.s23" text="Oral Contraceptives Rofecoxib did not have any clinically important effect on the pharmacokinetics of ethinyl estradiol and norethindrone.">
+        <entity id="DDI-DrugBank.d210.s23.e0" charOffset="5-18"
+            type="group" text="Contraceptives"/>
+        <entity id="DDI-DrugBank.d210.s23.e1" charOffset="20-28"
+            type="drug" text="Rofecoxib"/>
+        <entity id="DDI-DrugBank.d210.s23.e2" charOffset="102-118"
+            type="drug" text="ethinyl estradiol"/>
+        <entity id="DDI-DrugBank.d210.s23.e3" charOffset="124-136"
+            type="drug" text="norethindrone"/>
+        <pair id="DDI-DrugBank.d210.s23.p0"
+            e1="DDI-DrugBank.d210.s23.e0" e2="DDI-DrugBank.d210.s23.e1" ddi="false"/>
+        <pair id="DDI-DrugBank.d210.s23.p1"
+            e1="DDI-DrugBank.d210.s23.e0" e2="DDI-DrugBank.d210.s23.e2" ddi="false"/>
+        <pair id="DDI-DrugBank.d210.s23.p2"
+            e1="DDI-DrugBank.d210.s23.e0" e2="DDI-DrugBank.d210.s23.e3" ddi="false"/>
+        <pair id="DDI-DrugBank.d210.s23.p3"
+            e1="DDI-DrugBank.d210.s23.e1" e2="DDI-DrugBank.d210.s23.e2" ddi="false"/>
+        <pair id="DDI-DrugBank.d210.s23.p4"
+            e1="DDI-DrugBank.d210.s23.e1" e2="DDI-DrugBank.d210.s23.e3" ddi="false"/>
+        <pair id="DDI-DrugBank.d210.s23.p5"
+            e1="DDI-DrugBank.d210.s23.e2" e2="DDI-DrugBank.d210.s23.e3" ddi="false"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d210.s24" text="Prednisone/prednisolone: Rofecoxib did not have any clinically important effect on the pharmacokinetics of prednisolone or prednisone.">
+        <entity id="DDI-DrugBank.d210.s24.e0" charOffset="0-9"
+            type="drug" text="Prednisone"/>
+        <entity id="DDI-DrugBank.d210.s24.e1" charOffset="11-22"
+            type="drug" text="prednisolone"/>
+        <entity id="DDI-DrugBank.d210.s24.e2" charOffset="25-33"
+            type="drug" text="Rofecoxib"/>
+        <entity id="DDI-DrugBank.d210.s24.e3" charOffset="107-118"
+            type="drug" text="prednisolone"/>
+        <entity id="DDI-DrugBank.d210.s24.e4" charOffset="123-132"
+            type="drug" text="prednisone"/>
+        <pair id="DDI-DrugBank.d210.s24.p0"
+            e1="DDI-DrugBank.d210.s24.e0" e2="DDI-DrugBank.d210.s24.e1" ddi="false"/>
+        <pair id="DDI-DrugBank.d210.s24.p1"
+            e1="DDI-DrugBank.d210.s24.e0" e2="DDI-DrugBank.d210.s24.e2" ddi="false"/>
+        <pair id="DDI-DrugBank.d210.s24.p2"
+            e1="DDI-DrugBank.d210.s24.e0" e2="DDI-DrugBank.d210.s24.e3" ddi="false"/>
+        <pair id="DDI-DrugBank.d210.s24.p3"
+            e1="DDI-DrugBank.d210.s24.e0" e2="DDI-DrugBank.d210.s24.e4" ddi="false"/>
+        <pair id="DDI-DrugBank.d210.s24.p4"
+            e1="DDI-DrugBank.d210.s24.e1" e2="DDI-DrugBank.d210.s24.e2" ddi="false"/>
+        <pair id="DDI-DrugBank.d210.s24.p5"
+            e1="DDI-DrugBank.d210.s24.e1" e2="DDI-DrugBank.d210.s24.e3" ddi="false"/>
+        <pair id="DDI-DrugBank.d210.s24.p6"
+            e1="DDI-DrugBank.d210.s24.e1" e2="DDI-DrugBank.d210.s24.e4" ddi="false"/>
+        <pair id="DDI-DrugBank.d210.s24.p7"
+            e1="DDI-DrugBank.d210.s24.e2" e2="DDI-DrugBank.d210.s24.e3" ddi="false"/>
+        <pair id="DDI-DrugBank.d210.s24.p8"
+            e1="DDI-DrugBank.d210.s24.e2" e2="DDI-DrugBank.d210.s24.e4" ddi="false"/>
+        <pair id="DDI-DrugBank.d210.s24.p9"
+            e1="DDI-DrugBank.d210.s24.e3" e2="DDI-DrugBank.d210.s24.e4" ddi="false"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d210.s25" text="Rifampin: Co-administration of VIOXX with rifampin 600 mg daily, a potent inducer of hepatic metabolism, produced an approximate 50% decrease in rofecoxib plasma concentrations.">
+        <entity id="DDI-DrugBank.d210.s25.e0" charOffset="0-7"
+            type="drug" text="Rifampin"/>
+        <entity id="DDI-DrugBank.d210.s25.e1" charOffset="31-35"
+            type="brand" text="VIOXX"/>
+        <entity id="DDI-DrugBank.d210.s25.e2" charOffset="42-49"
+            type="drug" text="rifampin"/>
+        <entity id="DDI-DrugBank.d210.s25.e3" charOffset="145-153"
+            type="drug" text="rofecoxib"/>
+        <pair id="DDI-DrugBank.d210.s25.p0"
+            e1="DDI-DrugBank.d210.s25.e0" e2="DDI-DrugBank.d210.s25.e1" ddi="false"/>
+        <pair id="DDI-DrugBank.d210.s25.p1"
+            e1="DDI-DrugBank.d210.s25.e0" e2="DDI-DrugBank.d210.s25.e2" ddi="false"/>
+        <pair id="DDI-DrugBank.d210.s25.p2"
+            e1="DDI-DrugBank.d210.s25.e0" e2="DDI-DrugBank.d210.s25.e3" ddi="false"/>
+        <pair id="DDI-DrugBank.d210.s25.p3"
+            e1="DDI-DrugBank.d210.s25.e1" e2="DDI-DrugBank.d210.s25.e2"
+            ddi="true" type="mechanism"/>
+        <pair id="DDI-DrugBank.d210.s25.p4"
+            e1="DDI-DrugBank.d210.s25.e1" e2="DDI-DrugBank.d210.s25.e3" ddi="false"/>
+        <pair id="DDI-DrugBank.d210.s25.p5"
+            e1="DDI-DrugBank.d210.s25.e2" e2="DDI-DrugBank.d210.s25.e3" ddi="false"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d210.s26" text="Therefore, a starting daily dose of 25 mg of VIOXX should be considered for the treatment of osteoarthritis when VIOXX is co-administered with potent inducers of hepatic metabolism.">
+        <entity id="DDI-DrugBank.d210.s26.e0" charOffset="45-49"
+            type="brand" text="VIOXX"/>
+        <entity id="DDI-DrugBank.d210.s26.e1" charOffset="113-117"
+            type="brand" text="VIOXX"/>
+        <pair id="DDI-DrugBank.d210.s26.p0"
+            e1="DDI-DrugBank.d210.s26.e0" e2="DDI-DrugBank.d210.s26.e1" ddi="false"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d210.s27" text="Theophylline VIOXX 12.5, 25, and 50 mg administered once daily for 7 days increased plasma theophylline concentrations (AUC(0- )) by 38 to 60% in healthy subjects administered a single 300-mg dose of theophylline.">
+        <entity id="DDI-DrugBank.d210.s27.e0" charOffset="0-11"
+            type="drug" text="Theophylline"/>
+        <entity id="DDI-DrugBank.d210.s27.e1" charOffset="13-17"
+            type="brand" text="VIOXX"/>
+        <entity id="DDI-DrugBank.d210.s27.e2" charOffset="91-102"
+            type="drug" text="theophylline"/>
+        <entity id="DDI-DrugBank.d210.s27.e3" charOffset="200-211"
+            type="drug" text="theophylline"/>
+        <pair id="DDI-DrugBank.d210.s27.p0"
+            e1="DDI-DrugBank.d210.s27.e0" e2="DDI-DrugBank.d210.s27.e1" ddi="false"/>
+        <pair id="DDI-DrugBank.d210.s27.p1"
+            e1="DDI-DrugBank.d210.s27.e0" e2="DDI-DrugBank.d210.s27.e2" ddi="false"/>
+        <pair id="DDI-DrugBank.d210.s27.p2"
+            e1="DDI-DrugBank.d210.s27.e0" e2="DDI-DrugBank.d210.s27.e3" ddi="false"/>
+        <pair id="DDI-DrugBank.d210.s27.p3"
+            e1="DDI-DrugBank.d210.s27.e1" e2="DDI-DrugBank.d210.s27.e2"
+            ddi="true" type="mechanism"/>
+        <pair id="DDI-DrugBank.d210.s27.p4"
+            e1="DDI-DrugBank.d210.s27.e1" e2="DDI-DrugBank.d210.s27.e3" ddi="false"/>
+        <pair id="DDI-DrugBank.d210.s27.p5"
+            e1="DDI-DrugBank.d210.s27.e2" e2="DDI-DrugBank.d210.s27.e3" ddi="false"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d210.s28" text="Adequate monitoring of theophylline plasma concentrations should be considered when therapy with VIOXX is initiated or changed in patients receiving theophylline.">
+        <entity id="DDI-DrugBank.d210.s28.e0" charOffset="23-34"
+            type="drug" text="theophylline"/>
+        <entity id="DDI-DrugBank.d210.s28.e1" charOffset="97-101"
+            type="brand" text="VIOXX"/>
+        <entity id="DDI-DrugBank.d210.s28.e2" charOffset="149-160"
+            type="drug" text="theophylline"/>
+        <pair id="DDI-DrugBank.d210.s28.p0"
+            e1="DDI-DrugBank.d210.s28.e0" e2="DDI-DrugBank.d210.s28.e1" ddi="false"/>
+        <pair id="DDI-DrugBank.d210.s28.p1"
+            e1="DDI-DrugBank.d210.s28.e0" e2="DDI-DrugBank.d210.s28.e2" ddi="false"/>
+        <pair id="DDI-DrugBank.d210.s28.p2"
+            e1="DDI-DrugBank.d210.s28.e1" e2="DDI-DrugBank.d210.s28.e2"
+            ddi="true" type="advise"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d210.s29" text="These data suggest that rofecoxib may produce a modest inhibition of cytochrome P450 (CYP) 1A2.">
+        <entity id="DDI-DrugBank.d210.s29.e0" charOffset="24-32"
+            type="drug" text="rofecoxib"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d210.s30" text="Therefore, there is a potential for an interaction with other drugs that are metabolized by CYP 1A2 (e.g., amitriptyline, tacrine, and zileuton).">
+        <entity id="DDI-DrugBank.d210.s30.e0" charOffset="107-119"
+            type="drug" text="amitriptyline"/>
+        <entity id="DDI-DrugBank.d210.s30.e1" charOffset="122-128"
+            type="drug" text="tacrine"/>
+        <entity id="DDI-DrugBank.d210.s30.e2" charOffset="135-142"
+            type="drug" text="zileuton"/>
+        <pair id="DDI-DrugBank.d210.s30.p0"
+            e1="DDI-DrugBank.d210.s30.e0" e2="DDI-DrugBank.d210.s30.e1" ddi="false"/>
+        <pair id="DDI-DrugBank.d210.s30.p1"
+            e1="DDI-DrugBank.d210.s30.e0" e2="DDI-DrugBank.d210.s30.e2" ddi="false"/>
+        <pair id="DDI-DrugBank.d210.s30.p2"
+            e1="DDI-DrugBank.d210.s30.e1" e2="DDI-DrugBank.d210.s30.e2" ddi="false"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d210.s31" text="Warfarin: Anticoagulant activity should be monitored, particularly in the first few days after initiating or changing VIOXX therapy in patients receiving warfarin or similar agents, since these patients are at an increased risk of bleeding complications.">
+        <entity id="DDI-DrugBank.d210.s31.e0" charOffset="0-7"
+            type="drug" text="Warfarin"/>
+        <entity id="DDI-DrugBank.d210.s31.e1" charOffset="118-122"
+            type="brand" text="VIOXX"/>
+        <entity id="DDI-DrugBank.d210.s31.e2" charOffset="154-161"
+            type="drug" text="warfarin"/>
+        <pair id="DDI-DrugBank.d210.s31.p0"
+            e1="DDI-DrugBank.d210.s31.e0" e2="DDI-DrugBank.d210.s31.e1" ddi="false"/>
+        <pair id="DDI-DrugBank.d210.s31.p1"
+            e1="DDI-DrugBank.d210.s31.e0" e2="DDI-DrugBank.d210.s31.e2" ddi="false"/>
+        <pair id="DDI-DrugBank.d210.s31.p2"
+            e1="DDI-DrugBank.d210.s31.e1" e2="DDI-DrugBank.d210.s31.e2"
+            ddi="true" type="advise"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d210.s32" text="In single and multiple dose studies in healthy subjects receiving both warfarin and rofecoxib, prothrombin time (measured as INR) was increased by approximately 8% to 11%.">
+        <entity id="DDI-DrugBank.d210.s32.e0" charOffset="71-78"
+            type="drug" text="warfarin"/>
+        <entity id="DDI-DrugBank.d210.s32.e1" charOffset="84-92"
+            type="drug" text="rofecoxib"/>
+        <pair id="DDI-DrugBank.d210.s32.p0"
+            e1="DDI-DrugBank.d210.s32.e0" e2="DDI-DrugBank.d210.s32.e1"
+            ddi="true" type="effect"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d210.s33" text="In post-marketing experience, bleeding events have been reported, predominantly in the elderly, in association with increases in prothrombin time in patients receiving VIOXX concurrently with warfarin.">
+        <entity id="DDI-DrugBank.d210.s33.e0" charOffset="168-172"
+            type="brand" text="VIOXX"/>
+        <entity id="DDI-DrugBank.d210.s33.e1" charOffset="192-199"
+            type="drug" text="warfarin"/>
+        <pair id="DDI-DrugBank.d210.s33.p0"
+            e1="DDI-DrugBank.d210.s33.e0" e2="DDI-DrugBank.d210.s33.e1"
+            ddi="true" type="effect"/>
+    </sentence>
+</document>

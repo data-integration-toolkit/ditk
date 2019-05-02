@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="DDI-DrugBank.d623">
+    <sentence id="DDI-DrugBank.d623.s0" text="No drug-drug interaction studies have been conducted with depo-subQ provera 104. ">
+        <entity id="DDI-DrugBank.d623.s0.e0" charOffset="58-78"
+            type="brand" text="depo-subQ provera 104"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d623.s1" text="Aminoglutethimide administered concomitantly with depo-subQ provera 104 may significantly decrease the serum concentrations of MPA. ">
+        <entity id="DDI-DrugBank.d623.s1.e0" charOffset="0-16"
+            type="drug" text="Aminoglutethimide"/>
+        <entity id="DDI-DrugBank.d623.s1.e1" charOffset="50-70"
+            type="brand" text="depo-subQ provera 104"/>
+        <entity id="DDI-DrugBank.d623.s1.e2" charOffset="127-129"
+            type="drug" text="MPA"/>
+        <pair id="DDI-DrugBank.d623.s1.p0" e1="DDI-DrugBank.d623.s1.e0"
+            e2="DDI-DrugBank.d623.s1.e1" ddi="true" type="mechanism"/>
+        <pair id="DDI-DrugBank.d623.s1.p1" e1="DDI-DrugBank.d623.s1.e0"
+            e2="DDI-DrugBank.d623.s1.e2" ddi="false"/>
+        <pair id="DDI-DrugBank.d623.s1.p2" e1="DDI-DrugBank.d623.s1.e1"
+            e2="DDI-DrugBank.d623.s1.e2" ddi="false"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d623.s2" text="Laboratory Tests The pathologist should be advised of progestin therapy when relevant specimens are submitted. "/>
+    <sentence id="DDI-DrugBank.d623.s3" text="The physician should be informed that certain endocrine and liver function tests, and blood components may be affected by progestin therapy: (a) Plasma and urinary steroid levels are decreased (e.g., progesterone, estradiol, pregnanediol, testosterone, cortisol). "/>
+    <sentence id="DDI-DrugBank.d623.s4" text="(b) Plasma and urinary gonadotropin levels are decreased (e.g., LH, FSH). "/>
+    <sentence id="DDI-DrugBank.d623.s5" text="(c) SHBG concentrations are decreased. "/>
+    <sentence id="DDI-DrugBank.d623.s6" text="(d) T3-uptake values may decrease. "/>
+    <sentence id="DDI-DrugBank.d623.s7" text="(e) There may be small changes in coagulation factors. "/>
+    <sentence id="DDI-DrugBank.d623.s8" text="(f) Sulfobromophthalein and other liver function test values may be increased slightly. "/>
+    <sentence id="DDI-DrugBank.d623.s9" text="(g) There may be small changes in lipid profiles."/>
+</document>

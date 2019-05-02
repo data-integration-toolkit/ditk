@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="DDI-DrugBank.d746">
+    <sentence id="DDI-DrugBank.d746.s0" text="ARAMINE should be used with caution in digitalized patients, since the combination of digitalis and sympathomimetic amines may cause ectopic arrhythmias. ">
+        <entity id="DDI-DrugBank.d746.s0.e0" charOffset="0-6"
+            type="brand" text="ARAMINE"/>
+        <entity id="DDI-DrugBank.d746.s0.e1" charOffset="86-94"
+            type="group" text="digitalis"/>
+        <entity id="DDI-DrugBank.d746.s0.e2" charOffset="100-121"
+            type="group" text="sympathomimetic amines"/>
+        <pair id="DDI-DrugBank.d746.s0.p0" e1="DDI-DrugBank.d746.s0.e0"
+            e2="DDI-DrugBank.d746.s0.e1" ddi="false"/>
+        <pair id="DDI-DrugBank.d746.s0.p1" e1="DDI-DrugBank.d746.s0.e0"
+            e2="DDI-DrugBank.d746.s0.e2" ddi="false"/>
+        <pair id="DDI-DrugBank.d746.s0.p2" e1="DDI-DrugBank.d746.s0.e1"
+            e2="DDI-DrugBank.d746.s0.e2" ddi="true" type="effect"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d746.s1" text="Monoamine oxidase inhibitors or tricyclic antidepressants may potentiate the action of sympathomimetic amines. ">
+        <entity id="DDI-DrugBank.d746.s1.e0" charOffset="0-27"
+            type="group" text="Monoamine oxidase inhibitors"/>
+        <entity id="DDI-DrugBank.d746.s1.e1" charOffset="32-56"
+            type="group" text="tricyclic antidepressants"/>
+        <entity id="DDI-DrugBank.d746.s1.e2" charOffset="87-108"
+            type="group" text="sympathomimetic amines"/>
+        <pair id="DDI-DrugBank.d746.s1.p0" e1="DDI-DrugBank.d746.s1.e0"
+            e2="DDI-DrugBank.d746.s1.e1" ddi="false"/>
+        <pair id="DDI-DrugBank.d746.s1.p1" e1="DDI-DrugBank.d746.s1.e0"
+            e2="DDI-DrugBank.d746.s1.e2" ddi="true" type="effect"/>
+        <pair id="DDI-DrugBank.d746.s1.p2" e1="DDI-DrugBank.d746.s1.e1"
+            e2="DDI-DrugBank.d746.s1.e2" ddi="true" type="effect"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d746.s2" text="Therefore, when initiating pressor therapy in patients receiving these drugs, the initial dose should be small and given with caution."/>
+</document>

@@ -1,0 +1,176 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="DDI-DrugBank.d476">
+    <sentence id="DDI-DrugBank.d476.s0" text="ZEBETA should not be combined with other beta-blocking agents.">
+        <entity id="DDI-DrugBank.d476.s0.e0" charOffset="0-5"
+            type="brand" text="ZEBETA"/>
+        <entity id="DDI-DrugBank.d476.s0.e1" charOffset="41-60"
+            type="group" text="beta-blocking agents"/>
+        <pair id="DDI-DrugBank.d476.s0.p0" e1="DDI-DrugBank.d476.s0.e0"
+            e2="DDI-DrugBank.d476.s0.e1" ddi="true" type="advise"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d476.s1" text="Patients receiving catecholamine-depleting drugs, such as reserpine or guanethidine, should be closely monitored, because the added beta-adrenergic blocking action of ZEBETA may produce excessive reduction of sympathetic activity.">
+        <entity id="DDI-DrugBank.d476.s1.e0" charOffset="58-66"
+            type="drug" text="reserpine"/>
+        <entity id="DDI-DrugBank.d476.s1.e1" charOffset="71-82"
+            type="drug" text="guanethidine"/>
+        <entity id="DDI-DrugBank.d476.s1.e2" charOffset="167-172"
+            type="brand" text="ZEBETA"/>
+        <pair id="DDI-DrugBank.d476.s1.p0" e1="DDI-DrugBank.d476.s1.e0"
+            e2="DDI-DrugBank.d476.s1.e1" ddi="false"/>
+        <pair id="DDI-DrugBank.d476.s1.p1" e1="DDI-DrugBank.d476.s1.e0"
+            e2="DDI-DrugBank.d476.s1.e2" ddi="true" type="effect"/>
+        <pair id="DDI-DrugBank.d476.s1.p2" e1="DDI-DrugBank.d476.s1.e1"
+            e2="DDI-DrugBank.d476.s1.e2" ddi="true" type="effect"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d476.s2" text="In patients receiving concurrent therapy with clonidine, if therapy is to be discontinued, it is suggested that ZEBETA be discontinued for several days before the withdrawal of clonidine.">
+        <entity id="DDI-DrugBank.d476.s2.e0" charOffset="46-54"
+            type="drug" text="clonidine"/>
+        <entity id="DDI-DrugBank.d476.s2.e1" charOffset="112-117"
+            type="brand" text="ZEBETA"/>
+        <entity id="DDI-DrugBank.d476.s2.e2" charOffset="177-185"
+            type="drug" text="clonidine"/>
+        <pair id="DDI-DrugBank.d476.s2.p0" e1="DDI-DrugBank.d476.s2.e0"
+            e2="DDI-DrugBank.d476.s2.e1" ddi="false"/>
+        <pair id="DDI-DrugBank.d476.s2.p1" e1="DDI-DrugBank.d476.s2.e0"
+            e2="DDI-DrugBank.d476.s2.e2" ddi="false"/>
+        <pair id="DDI-DrugBank.d476.s2.p2" e1="DDI-DrugBank.d476.s2.e1"
+            e2="DDI-DrugBank.d476.s2.e2" ddi="true" type="advise"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d476.s3" text="ZEBETA should be used with care when myocardial depressants or inhibitors of AV conduction, such as certain calcium antagonists (particularly of the phenylalkylamine [verapamil] and benzothiazepine [diltiazem] classes), or antiarrhythmic agents, such as disopyramide, are used concurrently.">
+        <entity id="DDI-DrugBank.d476.s3.e0" charOffset="0-5"
+            type="brand" text="ZEBETA"/>
+        <entity id="DDI-DrugBank.d476.s3.e1" charOffset="37-58"
+            type="group" text="myocardial depressants"/>
+        <entity id="DDI-DrugBank.d476.s3.e2" charOffset="108-126"
+            type="group" text="calcium antagonists"/>
+        <entity id="DDI-DrugBank.d476.s3.e3" charOffset="149-164"
+            type="group" text="phenylalkylamine"/>
+        <entity id="DDI-DrugBank.d476.s3.e4" charOffset="167-175"
+            type="drug" text="verapamil"/>
+        <entity id="DDI-DrugBank.d476.s3.e5" charOffset="182-196"
+            type="group" text="benzothiazepine"/>
+        <entity id="DDI-DrugBank.d476.s3.e6" charOffset="199-207"
+            type="drug" text="diltiazem"/>
+        <entity id="DDI-DrugBank.d476.s3.e7" charOffset="223-243"
+            type="group" text="antiarrhythmic agents"/>
+        <entity id="DDI-DrugBank.d476.s3.e8" charOffset="254-265"
+            type="drug" text="disopyramide"/>
+        <pair id="DDI-DrugBank.d476.s3.p0" e1="DDI-DrugBank.d476.s3.e0"
+            e2="DDI-DrugBank.d476.s3.e1" ddi="true" type="advise"/>
+        <pair id="DDI-DrugBank.d476.s3.p1" e1="DDI-DrugBank.d476.s3.e0"
+            e2="DDI-DrugBank.d476.s3.e2" ddi="true" type="advise"/>
+        <pair id="DDI-DrugBank.d476.s3.p2" e1="DDI-DrugBank.d476.s3.e0"
+            e2="DDI-DrugBank.d476.s3.e3" ddi="true" type="advise"/>
+        <pair id="DDI-DrugBank.d476.s3.p3" e1="DDI-DrugBank.d476.s3.e0"
+            e2="DDI-DrugBank.d476.s3.e4" ddi="true" type="advise"/>
+        <pair id="DDI-DrugBank.d476.s3.p4" e1="DDI-DrugBank.d476.s3.e0"
+            e2="DDI-DrugBank.d476.s3.e5" ddi="true" type="advise"/>
+        <pair id="DDI-DrugBank.d476.s3.p5" e1="DDI-DrugBank.d476.s3.e0"
+            e2="DDI-DrugBank.d476.s3.e6" ddi="true" type="advise"/>
+        <pair id="DDI-DrugBank.d476.s3.p6" e1="DDI-DrugBank.d476.s3.e0"
+            e2="DDI-DrugBank.d476.s3.e7" ddi="true" type="advise"/>
+        <pair id="DDI-DrugBank.d476.s3.p7" e1="DDI-DrugBank.d476.s3.e0"
+            e2="DDI-DrugBank.d476.s3.e8" ddi="true" type="advise"/>
+        <pair id="DDI-DrugBank.d476.s3.p8" e1="DDI-DrugBank.d476.s3.e1"
+            e2="DDI-DrugBank.d476.s3.e2" ddi="false"/>
+        <pair id="DDI-DrugBank.d476.s3.p9" e1="DDI-DrugBank.d476.s3.e1"
+            e2="DDI-DrugBank.d476.s3.e3" ddi="false"/>
+        <pair id="DDI-DrugBank.d476.s3.p10" e1="DDI-DrugBank.d476.s3.e1"
+            e2="DDI-DrugBank.d476.s3.e4" ddi="false"/>
+        <pair id="DDI-DrugBank.d476.s3.p11" e1="DDI-DrugBank.d476.s3.e1"
+            e2="DDI-DrugBank.d476.s3.e5" ddi="false"/>
+        <pair id="DDI-DrugBank.d476.s3.p12" e1="DDI-DrugBank.d476.s3.e1"
+            e2="DDI-DrugBank.d476.s3.e6" ddi="false"/>
+        <pair id="DDI-DrugBank.d476.s3.p13" e1="DDI-DrugBank.d476.s3.e1"
+            e2="DDI-DrugBank.d476.s3.e7" ddi="false"/>
+        <pair id="DDI-DrugBank.d476.s3.p14" e1="DDI-DrugBank.d476.s3.e1"
+            e2="DDI-DrugBank.d476.s3.e8" ddi="false"/>
+        <pair id="DDI-DrugBank.d476.s3.p15" e1="DDI-DrugBank.d476.s3.e2"
+            e2="DDI-DrugBank.d476.s3.e3" ddi="false"/>
+        <pair id="DDI-DrugBank.d476.s3.p16" e1="DDI-DrugBank.d476.s3.e2"
+            e2="DDI-DrugBank.d476.s3.e4" ddi="false"/>
+        <pair id="DDI-DrugBank.d476.s3.p17" e1="DDI-DrugBank.d476.s3.e2"
+            e2="DDI-DrugBank.d476.s3.e5" ddi="false"/>
+        <pair id="DDI-DrugBank.d476.s3.p18" e1="DDI-DrugBank.d476.s3.e2"
+            e2="DDI-DrugBank.d476.s3.e6" ddi="false"/>
+        <pair id="DDI-DrugBank.d476.s3.p19" e1="DDI-DrugBank.d476.s3.e2"
+            e2="DDI-DrugBank.d476.s3.e7" ddi="false"/>
+        <pair id="DDI-DrugBank.d476.s3.p20" e1="DDI-DrugBank.d476.s3.e2"
+            e2="DDI-DrugBank.d476.s3.e8" ddi="false"/>
+        <pair id="DDI-DrugBank.d476.s3.p21" e1="DDI-DrugBank.d476.s3.e3"
+            e2="DDI-DrugBank.d476.s3.e4" ddi="false"/>
+        <pair id="DDI-DrugBank.d476.s3.p22" e1="DDI-DrugBank.d476.s3.e3"
+            e2="DDI-DrugBank.d476.s3.e5" ddi="false"/>
+        <pair id="DDI-DrugBank.d476.s3.p23" e1="DDI-DrugBank.d476.s3.e3"
+            e2="DDI-DrugBank.d476.s3.e6" ddi="false"/>
+        <pair id="DDI-DrugBank.d476.s3.p24" e1="DDI-DrugBank.d476.s3.e3"
+            e2="DDI-DrugBank.d476.s3.e7" ddi="false"/>
+        <pair id="DDI-DrugBank.d476.s3.p25" e1="DDI-DrugBank.d476.s3.e3"
+            e2="DDI-DrugBank.d476.s3.e8" ddi="false"/>
+        <pair id="DDI-DrugBank.d476.s3.p26" e1="DDI-DrugBank.d476.s3.e4"
+            e2="DDI-DrugBank.d476.s3.e5" ddi="false"/>
+        <pair id="DDI-DrugBank.d476.s3.p27" e1="DDI-DrugBank.d476.s3.e4"
+            e2="DDI-DrugBank.d476.s3.e6" ddi="false"/>
+        <pair id="DDI-DrugBank.d476.s3.p28" e1="DDI-DrugBank.d476.s3.e4"
+            e2="DDI-DrugBank.d476.s3.e7" ddi="false"/>
+        <pair id="DDI-DrugBank.d476.s3.p29" e1="DDI-DrugBank.d476.s3.e4"
+            e2="DDI-DrugBank.d476.s3.e8" ddi="false"/>
+        <pair id="DDI-DrugBank.d476.s3.p30" e1="DDI-DrugBank.d476.s3.e5"
+            e2="DDI-DrugBank.d476.s3.e6" ddi="false"/>
+        <pair id="DDI-DrugBank.d476.s3.p31" e1="DDI-DrugBank.d476.s3.e5"
+            e2="DDI-DrugBank.d476.s3.e7" ddi="false"/>
+        <pair id="DDI-DrugBank.d476.s3.p32" e1="DDI-DrugBank.d476.s3.e5"
+            e2="DDI-DrugBank.d476.s3.e8" ddi="false"/>
+        <pair id="DDI-DrugBank.d476.s3.p33" e1="DDI-DrugBank.d476.s3.e6"
+            e2="DDI-DrugBank.d476.s3.e7" ddi="false"/>
+        <pair id="DDI-DrugBank.d476.s3.p34" e1="DDI-DrugBank.d476.s3.e6"
+            e2="DDI-DrugBank.d476.s3.e8" ddi="false"/>
+        <pair id="DDI-DrugBank.d476.s3.p35" e1="DDI-DrugBank.d476.s3.e7"
+            e2="DDI-DrugBank.d476.s3.e8" ddi="false"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d476.s4" text="Concurrent use of rifampin increases the metabolic clearance of ZEBETA, resulting in a shortened elimination half-life of ZEBETA.">
+        <entity id="DDI-DrugBank.d476.s4.e0" charOffset="18-25"
+            type="drug" text="rifampin"/>
+        <entity id="DDI-DrugBank.d476.s4.e1" charOffset="64-69"
+            type="brand" text="ZEBETA"/>
+        <entity id="DDI-DrugBank.d476.s4.e2" charOffset="122-127"
+            type="brand" text="ZEBETA"/>
+        <pair id="DDI-DrugBank.d476.s4.p0" e1="DDI-DrugBank.d476.s4.e0"
+            e2="DDI-DrugBank.d476.s4.e1" ddi="true" type="mechanism"/>
+        <pair id="DDI-DrugBank.d476.s4.p1" e1="DDI-DrugBank.d476.s4.e0"
+            e2="DDI-DrugBank.d476.s4.e2" ddi="false"/>
+        <pair id="DDI-DrugBank.d476.s4.p2" e1="DDI-DrugBank.d476.s4.e1"
+            e2="DDI-DrugBank.d476.s4.e2" ddi="false"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d476.s5" text="However, initial dose modification is generally not necessary."/>
+    <sentence id="DDI-DrugBank.d476.s6" text="Pharmacokinetic studies document no clinically relevant interactions with other agents given concomitantly, including thiazide diuretics, digoxin, and cimetidine.">
+        <entity id="DDI-DrugBank.d476.s6.e0" charOffset="118-135"
+            type="group" text="thiazide diuretics"/>
+        <entity id="DDI-DrugBank.d476.s6.e1" charOffset="138-144"
+            type="drug" text="digoxin"/>
+        <entity id="DDI-DrugBank.d476.s6.e2" charOffset="151-160"
+            type="drug" text="cimetidine"/>
+        <pair id="DDI-DrugBank.d476.s6.p0" e1="DDI-DrugBank.d476.s6.e0"
+            e2="DDI-DrugBank.d476.s6.e1" ddi="false"/>
+        <pair id="DDI-DrugBank.d476.s6.p1" e1="DDI-DrugBank.d476.s6.e0"
+            e2="DDI-DrugBank.d476.s6.e2" ddi="false"/>
+        <pair id="DDI-DrugBank.d476.s6.p2" e1="DDI-DrugBank.d476.s6.e1"
+            e2="DDI-DrugBank.d476.s6.e2" ddi="false"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d476.s7" text="There was no effect of ZEBETA on prothrombin time in patients on stable doses of warfarin.">
+        <entity id="DDI-DrugBank.d476.s7.e0" charOffset="23-28"
+            type="brand" text="ZEBETA"/>
+        <entity id="DDI-DrugBank.d476.s7.e1" charOffset="81-88"
+            type="drug" text="warfarin"/>
+        <pair id="DDI-DrugBank.d476.s7.p0" e1="DDI-DrugBank.d476.s7.e0"
+            e2="DDI-DrugBank.d476.s7.e1" ddi="false"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d476.s8" text="Risk of Anaphylactic Reaction: While taking beta-blockers, patients with a history of severe anaphylactic reaction to a variety of allergens may be more reactive to repeated challenge, either accidental, diagnostic, or therapeutic.">
+        <entity id="DDI-DrugBank.d476.s8.e0" charOffset="44-56"
+            type="group" text="beta-blockers"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d476.s9" text="Such patients may be unresponsive to the usual doses of epinephrine used to treat allergic reactions.">
+        <entity id="DDI-DrugBank.d476.s9.e0" charOffset="56-66"
+            type="drug" text="epinephrine"/>
+    </sentence>
+</document>

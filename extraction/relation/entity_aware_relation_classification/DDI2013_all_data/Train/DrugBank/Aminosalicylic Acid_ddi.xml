@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="DDI-DrugBank.d22">
+    <sentence id="DDI-DrugBank.d22.s0" text="Aminosalicylic acid may decrease the amount of digoxin (Lanoxin, Lanoxicaps) that gets absorbed into your body.">
+        <entity id="DDI-DrugBank.d22.s0.e0" charOffset="0-18"
+            type="drug" text="Aminosalicylic acid"/>
+        <entity id="DDI-DrugBank.d22.s0.e1" charOffset="47-53"
+            type="drug" text="digoxin"/>
+        <entity id="DDI-DrugBank.d22.s0.e2" charOffset="56-62"
+            type="brand" text="Lanoxin"/>
+        <entity id="DDI-DrugBank.d22.s0.e3" charOffset="65-74"
+            type="drug" text="Lanoxicaps"/>
+        <pair id="DDI-DrugBank.d22.s0.p0" e1="DDI-DrugBank.d22.s0.e0"
+            e2="DDI-DrugBank.d22.s0.e1" ddi="true" type="mechanism"/>
+        <pair id="DDI-DrugBank.d22.s0.p1" e1="DDI-DrugBank.d22.s0.e0"
+            e2="DDI-DrugBank.d22.s0.e2" ddi="true" type="mechanism"/>
+        <pair id="DDI-DrugBank.d22.s0.p2" e1="DDI-DrugBank.d22.s0.e0"
+            e2="DDI-DrugBank.d22.s0.e3" ddi="false"/>
+        <pair id="DDI-DrugBank.d22.s0.p3" e1="DDI-DrugBank.d22.s0.e1"
+            e2="DDI-DrugBank.d22.s0.e2" ddi="false"/>
+        <pair id="DDI-DrugBank.d22.s0.p4" e1="DDI-DrugBank.d22.s0.e1"
+            e2="DDI-DrugBank.d22.s0.e3" ddi="false"/>
+        <pair id="DDI-DrugBank.d22.s0.p5" e1="DDI-DrugBank.d22.s0.e2"
+            e2="DDI-DrugBank.d22.s0.e3" ddi="false"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d22.s1" text="In the case that you are taking digoxin while taking aminosalicylic acid, higher doses of digoxin may be needed.">
+        <entity id="DDI-DrugBank.d22.s1.e0" charOffset="32-38"
+            type="drug" text="digoxin"/>
+        <entity id="DDI-DrugBank.d22.s1.e1" charOffset="53-71"
+            type="drug" text="aminosalicylic acid"/>
+        <entity id="DDI-DrugBank.d22.s1.e2" charOffset="90-96"
+            type="drug" text="digoxin"/>
+        <pair id="DDI-DrugBank.d22.s1.p0" e1="DDI-DrugBank.d22.s1.e0"
+            e2="DDI-DrugBank.d22.s1.e1" ddi="true" type="advise"/>
+        <pair id="DDI-DrugBank.d22.s1.p1" e1="DDI-DrugBank.d22.s1.e0"
+            e2="DDI-DrugBank.d22.s1.e2" ddi="false"/>
+        <pair id="DDI-DrugBank.d22.s1.p2" e1="DDI-DrugBank.d22.s1.e1"
+            e2="DDI-DrugBank.d22.s1.e2" ddi="false"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d22.s2" text="Aminosalicylic acid may also decrease the absorption of vitamin B12, which can lead to a deficiency.">
+        <entity id="DDI-DrugBank.d22.s2.e0" charOffset="0-18"
+            type="drug" text="Aminosalicylic acid"/>
+        <entity id="DDI-DrugBank.d22.s2.e1" charOffset="56-66"
+            type="drug" text="vitamin B12"/>
+        <pair id="DDI-DrugBank.d22.s2.p0" e1="DDI-DrugBank.d22.s2.e0"
+            e2="DDI-DrugBank.d22.s2.e1" ddi="true" type="mechanism"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d22.s3" text="Therefore you may need to take a vitamin B12 supplement while taking aminosalicylic acid.">
+        <entity id="DDI-DrugBank.d22.s3.e0" charOffset="33-43"
+            type="drug" text="vitamin B12"/>
+        <entity id="DDI-DrugBank.d22.s3.e1" charOffset="69-87"
+            type="drug" text="aminosalicylic acid"/>
+        <pair id="DDI-DrugBank.d22.s3.p0" e1="DDI-DrugBank.d22.s3.e0"
+            e2="DDI-DrugBank.d22.s3.e1" ddi="true" type="advise"/>
+    </sentence>
+</document>

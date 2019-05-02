@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="DDI-DrugBank.d598">
+    <sentence id="DDI-DrugBank.d598.s0" text="Trimethoprim may inhibit the hepatic metabolism of phenytoin. ">
+        <entity id="DDI-DrugBank.d598.s0.e0" charOffset="0-11"
+            type="drug" text="Trimethoprim"/>
+        <entity id="DDI-DrugBank.d598.s0.e1" charOffset="51-59"
+            type="drug" text="phenytoin"/>
+        <pair id="DDI-DrugBank.d598.s0.p0" e1="DDI-DrugBank.d598.s0.e0"
+            e2="DDI-DrugBank.d598.s0.e1" ddi="true" type="mechanism"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d598.s1" text="Trimethoprim, given at a common clinical dosage, increased the phenytoin half-life by 51% and decreased the phenytoin metabolic clearance rate by 30%. ">
+        <entity id="DDI-DrugBank.d598.s1.e0" charOffset="0-11"
+            type="drug" text="Trimethoprim"/>
+        <entity id="DDI-DrugBank.d598.s1.e1" charOffset="63-71"
+            type="drug" text="phenytoin"/>
+        <entity id="DDI-DrugBank.d598.s1.e2" charOffset="108-116"
+            type="drug" text="phenytoin"/>
+        <pair id="DDI-DrugBank.d598.s1.p0" e1="DDI-DrugBank.d598.s1.e0"
+            e2="DDI-DrugBank.d598.s1.e1" ddi="true" type="mechanism"/>
+        <pair id="DDI-DrugBank.d598.s1.p1" e1="DDI-DrugBank.d598.s1.e0"
+            e2="DDI-DrugBank.d598.s1.e2" ddi="true" type="mechanism"/>
+        <pair id="DDI-DrugBank.d598.s1.p2" e1="DDI-DrugBank.d598.s1.e1"
+            e2="DDI-DrugBank.d598.s1.e2" ddi="false"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d598.s2" text="When administering these drugs concurrently, one should be alert for possible excessive phenytoin effect.">
+        <entity id="DDI-DrugBank.d598.s2.e0" charOffset="88-96"
+            type="drug" text="phenytoin"/>
+    </sentence>
+</document>

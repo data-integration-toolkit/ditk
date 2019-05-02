@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="DDI-DrugBank.d66">
+    <sentence id="DDI-DrugBank.d66.s0" text="Human growth hormone - Concomitant use of L-glutamine and human growth hormone may enhance nutrient absorption in those with severe short bowel syndrome.">
+        <entity id="DDI-DrugBank.d66.s0.e0" charOffset="0-19"
+            type="drug" text="Human growth hormone"/>
+        <entity id="DDI-DrugBank.d66.s0.e1" charOffset="42-52"
+            type="drug" text="L-glutamine"/>
+        <entity id="DDI-DrugBank.d66.s0.e2" charOffset="58-77"
+            type="drug" text="human growth hormone"/>
+        <pair id="DDI-DrugBank.d66.s0.p0" e1="DDI-DrugBank.d66.s0.e0"
+            e2="DDI-DrugBank.d66.s0.e1" ddi="false"/>
+        <pair id="DDI-DrugBank.d66.s0.p1" e1="DDI-DrugBank.d66.s0.e0"
+            e2="DDI-DrugBank.d66.s0.e2" ddi="false"/>
+        <pair id="DDI-DrugBank.d66.s0.p2" e1="DDI-DrugBank.d66.s0.e1"
+            e2="DDI-DrugBank.d66.s0.e2" ddi="true" type="mechanism"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d66.s1" text="L-glutamine has orphan drug status for this indication.">
+        <entity id="DDI-DrugBank.d66.s1.e0" charOffset="0-10"
+            type="drug" text="L-glutamine"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d66.s2" text="Indomethacin - Concomitant use of L-glutamine and indomethacin may ameliorate increased intestinal permeability caused by indomethacin.">
+        <entity id="DDI-DrugBank.d66.s2.e0" charOffset="0-11"
+            type="drug" text="Indomethacin"/>
+        <entity id="DDI-DrugBank.d66.s2.e1" charOffset="34-44"
+            type="drug" text="L-glutamine"/>
+        <entity id="DDI-DrugBank.d66.s2.e2" charOffset="50-61"
+            type="drug" text="indomethacin"/>
+        <entity id="DDI-DrugBank.d66.s2.e3" charOffset="122-133"
+            type="drug" text="indomethacin"/>
+        <pair id="DDI-DrugBank.d66.s2.p0" e1="DDI-DrugBank.d66.s2.e0"
+            e2="DDI-DrugBank.d66.s2.e1" ddi="false"/>
+        <pair id="DDI-DrugBank.d66.s2.p1" e1="DDI-DrugBank.d66.s2.e0"
+            e2="DDI-DrugBank.d66.s2.e2" ddi="false"/>
+        <pair id="DDI-DrugBank.d66.s2.p2" e1="DDI-DrugBank.d66.s2.e0"
+            e2="DDI-DrugBank.d66.s2.e3" ddi="false"/>
+        <pair id="DDI-DrugBank.d66.s2.p3" e1="DDI-DrugBank.d66.s2.e1"
+            e2="DDI-DrugBank.d66.s2.e2" ddi="true" type="effect"/>
+        <pair id="DDI-DrugBank.d66.s2.p4" e1="DDI-DrugBank.d66.s2.e1"
+            e2="DDI-DrugBank.d66.s2.e3" ddi="false"/>
+        <pair id="DDI-DrugBank.d66.s2.p5" e1="DDI-DrugBank.d66.s2.e2"
+            e2="DDI-DrugBank.d66.s2.e3" ddi="false"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d66.s3" text="The reported dose used for L-glutamine was 21 grams daily taken in divided doses three times a day.">
+        <entity id="DDI-DrugBank.d66.s3.e0" charOffset="27-37"
+            type="drug" text="L-glutamine"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d66.s4" text="Further, misoprostol is reported to have a synergistic effect with this combination in ameliorating intestinal permeability.">
+        <entity id="DDI-DrugBank.d66.s4.e0" charOffset="9-19"
+            type="drug" text="misoprostol"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d66.s5" text="Methotrexate - There is one report that methotrexate may decrease the possible effectiveness of supplemental L-glutamine for chemotherapy-induced mucositis.">
+        <entity id="DDI-DrugBank.d66.s5.e0" charOffset="0-11"
+            type="drug" text="Methotrexate"/>
+        <entity id="DDI-DrugBank.d66.s5.e1" charOffset="40-51"
+            type="drug" text="methotrexate"/>
+        <entity id="DDI-DrugBank.d66.s5.e2" charOffset="109-119"
+            type="drug" text="L-glutamine"/>
+        <pair id="DDI-DrugBank.d66.s5.p0" e1="DDI-DrugBank.d66.s5.e0"
+            e2="DDI-DrugBank.d66.s5.e1" ddi="false"/>
+        <pair id="DDI-DrugBank.d66.s5.p1" e1="DDI-DrugBank.d66.s5.e0"
+            e2="DDI-DrugBank.d66.s5.e2" ddi="false"/>
+        <pair id="DDI-DrugBank.d66.s5.p2" e1="DDI-DrugBank.d66.s5.e1"
+            e2="DDI-DrugBank.d66.s5.e2" ddi="true" type="effect"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d66.s6" text="In another report, nine patients with breast cancer were reported to have decreased symptoms of methotrexate-related toxicity when given supplemental L-glutamine at a dose of 0.5 gram/kilogram/day.">
+        <entity id="DDI-DrugBank.d66.s6.e0" charOffset="96-107"
+            type="drug" text="methotrexate"/>
+        <entity id="DDI-DrugBank.d66.s6.e1" charOffset="150-160"
+            type="drug" text="L-glutamine"/>
+        <pair id="DDI-DrugBank.d66.s6.p0" e1="DDI-DrugBank.d66.s6.e0"
+            e2="DDI-DrugBank.d66.s6.e1" ddi="true" type="effect"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d66.s7" text="Paclitaxel - In one report, L-glutamine at a dose of 10 grams three times daily, given 24 hours after receiving paclitaxel, appeared to prevent the development of myalgia and arthralgia, adverse reactions of paclitaxel.">
+        <entity id="DDI-DrugBank.d66.s7.e0" charOffset="0-9" type="drug" text="Paclitaxel"/>
+        <entity id="DDI-DrugBank.d66.s7.e1" charOffset="28-38"
+            type="drug" text="L-glutamine"/>
+        <entity id="DDI-DrugBank.d66.s7.e2" charOffset="112-121"
+            type="drug" text="paclitaxel"/>
+        <entity id="DDI-DrugBank.d66.s7.e3" charOffset="208-217"
+            type="drug" text="paclitaxel"/>
+        <pair id="DDI-DrugBank.d66.s7.p0" e1="DDI-DrugBank.d66.s7.e0"
+            e2="DDI-DrugBank.d66.s7.e1" ddi="false"/>
+        <pair id="DDI-DrugBank.d66.s7.p1" e1="DDI-DrugBank.d66.s7.e0"
+            e2="DDI-DrugBank.d66.s7.e2" ddi="false"/>
+        <pair id="DDI-DrugBank.d66.s7.p2" e1="DDI-DrugBank.d66.s7.e0"
+            e2="DDI-DrugBank.d66.s7.e3" ddi="false"/>
+        <pair id="DDI-DrugBank.d66.s7.p3" e1="DDI-DrugBank.d66.s7.e1"
+            e2="DDI-DrugBank.d66.s7.e2" ddi="true" type="effect"/>
+        <pair id="DDI-DrugBank.d66.s7.p4" e1="DDI-DrugBank.d66.s7.e1"
+            e2="DDI-DrugBank.d66.s7.e3" ddi="false"/>
+        <pair id="DDI-DrugBank.d66.s7.p5" e1="DDI-DrugBank.d66.s7.e2"
+            e2="DDI-DrugBank.d66.s7.e3" ddi="false"/>
+    </sentence>
+</document>

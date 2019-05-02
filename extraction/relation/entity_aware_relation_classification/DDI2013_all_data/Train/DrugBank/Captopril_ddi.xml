@@ -1,0 +1,274 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="DDI-DrugBank.d175">
+    <sentence id="DDI-DrugBank.d175.s0" text="Hypotension   Patients on Diuretic Therapy: Patients on diuretics and especially those in whom diuretic therapy was recently instituted, as well as those on severe dietary salt restriction or dialysis, may occasionally experience a precipitous reduction of blood pressure usually within the first hour after receiving the initial dose of captopril.">
+        <entity id="DDI-DrugBank.d175.s0.e0" charOffset="26-33"
+            type="group" text="Diuretic"/>
+        <entity id="DDI-DrugBank.d175.s0.e1" charOffset="56-64"
+            type="group" text="diuretics"/>
+        <entity id="DDI-DrugBank.d175.s0.e2" charOffset="95-102"
+            type="group" text="diuretic"/>
+        <entity id="DDI-DrugBank.d175.s0.e3" charOffset="338-346"
+            type="drug" text="captopril"/>
+        <pair id="DDI-DrugBank.d175.s0.p0" e1="DDI-DrugBank.d175.s0.e0"
+            e2="DDI-DrugBank.d175.s0.e1" ddi="false"/>
+        <pair id="DDI-DrugBank.d175.s0.p1" e1="DDI-DrugBank.d175.s0.e0"
+            e2="DDI-DrugBank.d175.s0.e2" ddi="false"/>
+        <pair id="DDI-DrugBank.d175.s0.p2" e1="DDI-DrugBank.d175.s0.e0"
+            e2="DDI-DrugBank.d175.s0.e3" ddi="false"/>
+        <pair id="DDI-DrugBank.d175.s0.p3" e1="DDI-DrugBank.d175.s0.e1"
+            e2="DDI-DrugBank.d175.s0.e2" ddi="false"/>
+        <pair id="DDI-DrugBank.d175.s0.p4" e1="DDI-DrugBank.d175.s0.e1"
+            e2="DDI-DrugBank.d175.s0.e3" ddi="true" type="effect"/>
+        <pair id="DDI-DrugBank.d175.s0.p5" e1="DDI-DrugBank.d175.s0.e2"
+            e2="DDI-DrugBank.d175.s0.e3" ddi="false"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d175.s1" text="The possibility of hypotensive effects with captopril can be minimized by either discontinuing the diuretic or increasing the salt intake approximately one week prior to initiation of treatment with captopril (captopril tablets, USP) or initiating therapy with small doses (6.25 or 12.5 mg).">
+        <entity id="DDI-DrugBank.d175.s1.e0" charOffset="44-52"
+            type="drug" text="captopril"/>
+        <entity id="DDI-DrugBank.d175.s1.e1" charOffset="99-106"
+            type="group" text="diuretic"/>
+        <entity id="DDI-DrugBank.d175.s1.e2" charOffset="199-207"
+            type="drug" text="captopril"/>
+        <entity id="DDI-DrugBank.d175.s1.e3" charOffset="210-218"
+            type="drug" text="captopril"/>
+        <pair id="DDI-DrugBank.d175.s1.p0" e1="DDI-DrugBank.d175.s1.e0"
+            e2="DDI-DrugBank.d175.s1.e1" ddi="true" type="effect"/>
+        <pair id="DDI-DrugBank.d175.s1.p1" e1="DDI-DrugBank.d175.s1.e0"
+            e2="DDI-DrugBank.d175.s1.e2" ddi="false"/>
+        <pair id="DDI-DrugBank.d175.s1.p2" e1="DDI-DrugBank.d175.s1.e0"
+            e2="DDI-DrugBank.d175.s1.e3" ddi="false"/>
+        <pair id="DDI-DrugBank.d175.s1.p3" e1="DDI-DrugBank.d175.s1.e1"
+            e2="DDI-DrugBank.d175.s1.e2" ddi="false"/>
+        <pair id="DDI-DrugBank.d175.s1.p4" e1="DDI-DrugBank.d175.s1.e1"
+            e2="DDI-DrugBank.d175.s1.e3" ddi="false"/>
+        <pair id="DDI-DrugBank.d175.s1.p5" e1="DDI-DrugBank.d175.s1.e2"
+            e2="DDI-DrugBank.d175.s1.e3" ddi="false"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d175.s2" text="Alternatively, provide medical supervision for at least one hour after the initial dose."/>
+    <sentence id="DDI-DrugBank.d175.s3" text="If hypotension occurs, the patient should be placed in a supine position and, if necessary, receive an intravenous infusion of normal saline."/>
+    <sentence id="DDI-DrugBank.d175.s4" text="This transient hypotensive response is not a contraindication to further doses which can be given without difficulty once the blood pressure has increased after volume expansion."/>
+    <sentence id="DDI-DrugBank.d175.s5" text="Agents Having Vasodilator Activity: Data on the effect of concomitant use of other vasodilators in patients receiving captopril for heart failure are not available;">
+        <entity id="DDI-DrugBank.d175.s5.e0" charOffset="83-94"
+            type="group" text="vasodilators"/>
+        <entity id="DDI-DrugBank.d175.s5.e1" charOffset="118-126"
+            type="drug" text="captopril"/>
+        <pair id="DDI-DrugBank.d175.s5.p0" e1="DDI-DrugBank.d175.s5.e0"
+            e2="DDI-DrugBank.d175.s5.e1" ddi="false"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d175.s6" text="therefore, nitroglycerin or other nitrates (as used for management of angina) or other drugs having vasodilator activity should, if possible, be discontinued before starting captopril.">
+        <entity id="DDI-DrugBank.d175.s6.e0" charOffset="11-23"
+            type="drug" text="nitroglycerin"/>
+        <entity id="DDI-DrugBank.d175.s6.e1" charOffset="34-41"
+            type="group" text="nitrates"/>
+        <entity id="DDI-DrugBank.d175.s6.e2" charOffset="174-182"
+            type="drug" text="captopril"/>
+        <pair id="DDI-DrugBank.d175.s6.p0" e1="DDI-DrugBank.d175.s6.e0"
+            e2="DDI-DrugBank.d175.s6.e1" ddi="false"/>
+        <pair id="DDI-DrugBank.d175.s6.p1" e1="DDI-DrugBank.d175.s6.e0"
+            e2="DDI-DrugBank.d175.s6.e2" ddi="true" type="advise"/>
+        <pair id="DDI-DrugBank.d175.s6.p2" e1="DDI-DrugBank.d175.s6.e1"
+            e2="DDI-DrugBank.d175.s6.e2" ddi="true" type="advise"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d175.s7" text="If resumed during captopril therapy, such agents should be administered cautiously, and perhaps at lower dosage.">
+        <entity id="DDI-DrugBank.d175.s7.e0" charOffset="18-26"
+            type="drug" text="captopril"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d175.s8" text="Agents Causing Renin Release Captopril's effect will be augmented by antihypertensive agents that cause renin release.">
+        <entity id="DDI-DrugBank.d175.s8.e0" charOffset="29-37"
+            type="drug" text="Captopril"/>
+        <entity id="DDI-DrugBank.d175.s8.e1" charOffset="69-91"
+            type="group" text="antihypertensive agents"/>
+        <pair id="DDI-DrugBank.d175.s8.p0" e1="DDI-DrugBank.d175.s8.e0"
+            e2="DDI-DrugBank.d175.s8.e1" ddi="true" type="effect"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d175.s9" text="For example, diuretics (e.g., thiazides) may activate the renin-angiotensin-aldosterone system.">
+        <entity id="DDI-DrugBank.d175.s9.e0" charOffset="13-21"
+            type="group" text="diuretics"/>
+        <entity id="DDI-DrugBank.d175.s9.e1" charOffset="30-38"
+            type="group" text="thiazides"/>
+        <pair id="DDI-DrugBank.d175.s9.p0" e1="DDI-DrugBank.d175.s9.e0"
+            e2="DDI-DrugBank.d175.s9.e1" ddi="false"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d175.s10" text="Agents Affecting Sympathetic Activity The sympathetic nervous system may be especially important in supporting blood pressure in patients receiving captopril alone or with diuretics.">
+        <entity id="DDI-DrugBank.d175.s10.e0" charOffset="148-156"
+            type="drug" text="captopril"/>
+        <entity id="DDI-DrugBank.d175.s10.e1" charOffset="172-180"
+            type="group" text="diuretics"/>
+        <pair id="DDI-DrugBank.d175.s10.p0"
+            e1="DDI-DrugBank.d175.s10.e0" e2="DDI-DrugBank.d175.s10.e1" ddi="false"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d175.s11" text="Therefore, agents affecting sympathetic activity (e.g., ganglionic blocking agents or adrenergic neuron blocking agents) should be used with caution.">
+        <entity id="DDI-DrugBank.d175.s11.e0" charOffset="56-81"
+            type="group" text="ganglionic blocking agents"/>
+        <entity id="DDI-DrugBank.d175.s11.e1" charOffset="86-118"
+            type="group" text="adrenergic neuron blocking agents"/>
+        <pair id="DDI-DrugBank.d175.s11.p0"
+            e1="DDI-DrugBank.d175.s11.e0" e2="DDI-DrugBank.d175.s11.e1" ddi="false"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d175.s12" text="Beta-adrenergic blocking drugs add some further antihypertensive effect to captopril, but the overall response is less than additive.">
+        <entity id="DDI-DrugBank.d175.s12.e0" charOffset="0-29"
+            type="group" text="Beta-adrenergic blocking drugs"/>
+        <entity id="DDI-DrugBank.d175.s12.e1" charOffset="75-83"
+            type="drug" text="captopril"/>
+        <pair id="DDI-DrugBank.d175.s12.p0"
+            e1="DDI-DrugBank.d175.s12.e0" e2="DDI-DrugBank.d175.s12.e1"
+            ddi="true" type="effect"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d175.s13" text="Agents Increasing Serum Potassium Since captopril decreases aldosterone production, elevation of serum potassium may occur.">
+        <entity id="DDI-DrugBank.d175.s13.e0" charOffset="40-48"
+            type="drug" text="captopril"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d175.s14" text="Potassium-sparing diuretics such as spironolactone, triamterene, or amiloride, or potassium supplements should be given only for documented hypokalemia, and then with caution, since they may lead to a significant increase of serum potassium.">
+        <entity id="DDI-DrugBank.d175.s14.e0" charOffset="0-26"
+            type="group" text="Potassium-sparing diuretics"/>
+        <entity id="DDI-DrugBank.d175.s14.e1" charOffset="36-49"
+            type="drug" text="spironolactone"/>
+        <entity id="DDI-DrugBank.d175.s14.e2" charOffset="52-62"
+            type="drug" text="triamterene"/>
+        <entity id="DDI-DrugBank.d175.s14.e3" charOffset="68-76"
+            type="drug" text="amiloride"/>
+        <entity id="DDI-DrugBank.d175.s14.e4" charOffset="82-90"
+            type="drug" text="potassium"/>
+        <pair id="DDI-DrugBank.d175.s14.p0"
+            e1="DDI-DrugBank.d175.s14.e0" e2="DDI-DrugBank.d175.s14.e1" ddi="false"/>
+        <pair id="DDI-DrugBank.d175.s14.p1"
+            e1="DDI-DrugBank.d175.s14.e0" e2="DDI-DrugBank.d175.s14.e2" ddi="false"/>
+        <pair id="DDI-DrugBank.d175.s14.p2"
+            e1="DDI-DrugBank.d175.s14.e0" e2="DDI-DrugBank.d175.s14.e3" ddi="false"/>
+        <pair id="DDI-DrugBank.d175.s14.p3"
+            e1="DDI-DrugBank.d175.s14.e0" e2="DDI-DrugBank.d175.s14.e4" ddi="false"/>
+        <pair id="DDI-DrugBank.d175.s14.p4"
+            e1="DDI-DrugBank.d175.s14.e1" e2="DDI-DrugBank.d175.s14.e2" ddi="false"/>
+        <pair id="DDI-DrugBank.d175.s14.p5"
+            e1="DDI-DrugBank.d175.s14.e1" e2="DDI-DrugBank.d175.s14.e3" ddi="false"/>
+        <pair id="DDI-DrugBank.d175.s14.p6"
+            e1="DDI-DrugBank.d175.s14.e1" e2="DDI-DrugBank.d175.s14.e4" ddi="false"/>
+        <pair id="DDI-DrugBank.d175.s14.p7"
+            e1="DDI-DrugBank.d175.s14.e2" e2="DDI-DrugBank.d175.s14.e3" ddi="false"/>
+        <pair id="DDI-DrugBank.d175.s14.p8"
+            e1="DDI-DrugBank.d175.s14.e2" e2="DDI-DrugBank.d175.s14.e4" ddi="false"/>
+        <pair id="DDI-DrugBank.d175.s14.p9"
+            e1="DDI-DrugBank.d175.s14.e3" e2="DDI-DrugBank.d175.s14.e4" ddi="false"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d175.s15" text="Salt substitutes containing potassium should also be used with caution.">
+        <entity id="DDI-DrugBank.d175.s15.e0" charOffset="28-36"
+            type="drug" text="potassium"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d175.s16" text="Inhibitors Of Endogenous Prostaglandin Synthesis It has been reported that indomethacin may reduce the antihypertensive effect of captopril, especially in cases of low renin hypertension.">
+        <entity id="DDI-DrugBank.d175.s16.e0" charOffset="75-86"
+            type="drug" text="indomethacin"/>
+        <entity id="DDI-DrugBank.d175.s16.e1" charOffset="130-138"
+            type="drug" text="captopril"/>
+        <pair id="DDI-DrugBank.d175.s16.p0"
+            e1="DDI-DrugBank.d175.s16.e0" e2="DDI-DrugBank.d175.s16.e1"
+            ddi="true" type="effect"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d175.s17" text="Other nonsteroidal anti-inflammatory agents (e.g., aspirin) may also have this effect.">
+        <entity id="DDI-DrugBank.d175.s17.e0" charOffset="6-42"
+            type="group" text="nonsteroidal anti-inflammatory agents"/>
+        <entity id="DDI-DrugBank.d175.s17.e1" charOffset="51-57"
+            type="brand" text="aspirin"/>
+        <pair id="DDI-DrugBank.d175.s17.p0"
+            e1="DDI-DrugBank.d175.s17.e0" e2="DDI-DrugBank.d175.s17.e1" ddi="false"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d175.s18" text="Lithium: Increased serum lithium levels and symptoms of lithium toxicity have been reported in patients receiving concomitant lithium and ACE inhibitor therapy.">
+        <entity id="DDI-DrugBank.d175.s18.e0" charOffset="0-6"
+            type="drug" text="Lithium"/>
+        <entity id="DDI-DrugBank.d175.s18.e1" charOffset="25-31"
+            type="drug" text="lithium"/>
+        <entity id="DDI-DrugBank.d175.s18.e2" charOffset="56-62"
+            type="drug" text="lithium"/>
+        <entity id="DDI-DrugBank.d175.s18.e3" charOffset="126-132"
+            type="drug" text="lithium"/>
+        <entity id="DDI-DrugBank.d175.s18.e4" charOffset="138-150"
+            type="group" text="ACE inhibitor"/>
+        <pair id="DDI-DrugBank.d175.s18.p0"
+            e1="DDI-DrugBank.d175.s18.e0" e2="DDI-DrugBank.d175.s18.e1" ddi="false"/>
+        <pair id="DDI-DrugBank.d175.s18.p1"
+            e1="DDI-DrugBank.d175.s18.e0" e2="DDI-DrugBank.d175.s18.e2" ddi="false"/>
+        <pair id="DDI-DrugBank.d175.s18.p2"
+            e1="DDI-DrugBank.d175.s18.e0" e2="DDI-DrugBank.d175.s18.e3" ddi="false"/>
+        <pair id="DDI-DrugBank.d175.s18.p3"
+            e1="DDI-DrugBank.d175.s18.e0" e2="DDI-DrugBank.d175.s18.e4" ddi="false"/>
+        <pair id="DDI-DrugBank.d175.s18.p4"
+            e1="DDI-DrugBank.d175.s18.e1" e2="DDI-DrugBank.d175.s18.e2" ddi="false"/>
+        <pair id="DDI-DrugBank.d175.s18.p5"
+            e1="DDI-DrugBank.d175.s18.e1" e2="DDI-DrugBank.d175.s18.e3" ddi="false"/>
+        <pair id="DDI-DrugBank.d175.s18.p6"
+            e1="DDI-DrugBank.d175.s18.e1" e2="DDI-DrugBank.d175.s18.e4" ddi="false"/>
+        <pair id="DDI-DrugBank.d175.s18.p7"
+            e1="DDI-DrugBank.d175.s18.e2" e2="DDI-DrugBank.d175.s18.e3" ddi="false"/>
+        <pair id="DDI-DrugBank.d175.s18.p8"
+            e1="DDI-DrugBank.d175.s18.e2" e2="DDI-DrugBank.d175.s18.e4" ddi="false"/>
+        <pair id="DDI-DrugBank.d175.s18.p9"
+            e1="DDI-DrugBank.d175.s18.e3" e2="DDI-DrugBank.d175.s18.e4"
+            ddi="true" type="effect"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d175.s19" text="These drugs should be coad-ministered with caution and frequent monitoring of serum lithium levels is recommended.">
+        <entity id="DDI-DrugBank.d175.s19.e0" charOffset="84-90"
+            type="drug" text="lithium"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d175.s20" text="If a diuretic is also used, it may increase the risk of lithium toxicity.">
+        <entity id="DDI-DrugBank.d175.s20.e0" charOffset="5-12"
+            type="group" text="diuretic"/>
+        <entity id="DDI-DrugBank.d175.s20.e1" charOffset="56-62"
+            type="drug" text="lithium"/>
+        <pair id="DDI-DrugBank.d175.s20.p0"
+            e1="DDI-DrugBank.d175.s20.e0" e2="DDI-DrugBank.d175.s20.e1"
+            ddi="true" type="effect"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d175.s21" text="Cardiac Glycosides: In a study of young healthy male subjects no evidence of a direct pharmacokinetic captopril-digoxin interaction could be found.">
+        <entity id="DDI-DrugBank.d175.s21.e0" charOffset="0-17"
+            type="group" text="Cardiac Glycosides"/>
+        <entity id="DDI-DrugBank.d175.s21.e1" charOffset="102-110"
+            type="drug" text="captopril"/>
+        <entity id="DDI-DrugBank.d175.s21.e2" charOffset="112-118"
+            type="drug" text="digoxin"/>
+        <pair id="DDI-DrugBank.d175.s21.p0"
+            e1="DDI-DrugBank.d175.s21.e0" e2="DDI-DrugBank.d175.s21.e1" ddi="false"/>
+        <pair id="DDI-DrugBank.d175.s21.p1"
+            e1="DDI-DrugBank.d175.s21.e0" e2="DDI-DrugBank.d175.s21.e2" ddi="false"/>
+        <pair id="DDI-DrugBank.d175.s21.p2"
+            e1="DDI-DrugBank.d175.s21.e1" e2="DDI-DrugBank.d175.s21.e2" ddi="false"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d175.s22" text="Loop Diuretics: Furosemide administered concurrently with captopril does not alter the pharmacokinetics of captopril in renally impaired hypertensive patients.">
+        <entity id="DDI-DrugBank.d175.s22.e0" charOffset="0-13"
+            type="group" text="Loop Diuretics"/>
+        <entity id="DDI-DrugBank.d175.s22.e1" charOffset="16-25"
+            type="drug" text="Furosemide"/>
+        <entity id="DDI-DrugBank.d175.s22.e2" charOffset="58-66"
+            type="drug" text="captopril"/>
+        <entity id="DDI-DrugBank.d175.s22.e3" charOffset="107-115"
+            type="drug" text="captopril"/>
+        <pair id="DDI-DrugBank.d175.s22.p0"
+            e1="DDI-DrugBank.d175.s22.e0" e2="DDI-DrugBank.d175.s22.e1" ddi="false"/>
+        <pair id="DDI-DrugBank.d175.s22.p1"
+            e1="DDI-DrugBank.d175.s22.e0" e2="DDI-DrugBank.d175.s22.e2" ddi="false"/>
+        <pair id="DDI-DrugBank.d175.s22.p2"
+            e1="DDI-DrugBank.d175.s22.e0" e2="DDI-DrugBank.d175.s22.e3" ddi="false"/>
+        <pair id="DDI-DrugBank.d175.s22.p3"
+            e1="DDI-DrugBank.d175.s22.e1" e2="DDI-DrugBank.d175.s22.e2" ddi="false"/>
+        <pair id="DDI-DrugBank.d175.s22.p4"
+            e1="DDI-DrugBank.d175.s22.e1" e2="DDI-DrugBank.d175.s22.e3" ddi="false"/>
+        <pair id="DDI-DrugBank.d175.s22.p5"
+            e1="DDI-DrugBank.d175.s22.e2" e2="DDI-DrugBank.d175.s22.e3" ddi="false"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d175.s23" text="Allopurinol: In a study of healthy male volunteers no significant pharmacokinetic interaction occurred when captopril and allopurinol were administered concomitantly for 6 days.">
+        <entity id="DDI-DrugBank.d175.s23.e0" charOffset="0-10"
+            type="drug" text="Allopurinol"/>
+        <entity id="DDI-DrugBank.d175.s23.e1" charOffset="108-116"
+            type="drug" text="captopril"/>
+        <entity id="DDI-DrugBank.d175.s23.e2" charOffset="122-132"
+            type="drug" text="allopurinol"/>
+        <pair id="DDI-DrugBank.d175.s23.p0"
+            e1="DDI-DrugBank.d175.s23.e0" e2="DDI-DrugBank.d175.s23.e1" ddi="false"/>
+        <pair id="DDI-DrugBank.d175.s23.p1"
+            e1="DDI-DrugBank.d175.s23.e0" e2="DDI-DrugBank.d175.s23.e2" ddi="false"/>
+        <pair id="DDI-DrugBank.d175.s23.p2"
+            e1="DDI-DrugBank.d175.s23.e1" e2="DDI-DrugBank.d175.s23.e2" ddi="false"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d175.s24" text="Drug/Laboratory Test Interaction Captopril may cause a false-positive urine test for acetone.">
+        <entity id="DDI-DrugBank.d175.s24.e0" charOffset="33-41"
+            type="drug" text="Captopril"/>
+    </sentence>
+</document>

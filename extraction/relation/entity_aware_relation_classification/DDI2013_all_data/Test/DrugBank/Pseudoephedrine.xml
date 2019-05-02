@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="DDI-DrugBank.d606">
+    <sentence id="DDI-DrugBank.d606.s0" text="MAO inhibitors and beta adrenergic blockers increase the effects of pseudoephedrine. ">
+        <entity id="DDI-DrugBank.d606.s0.e0" charOffset="0-13"
+            type="group" text="MAO inhibitors"/>
+        <entity id="DDI-DrugBank.d606.s0.e1" charOffset="19-42"
+            type="group" text="beta adrenergic blockers"/>
+        <entity id="DDI-DrugBank.d606.s0.e2" charOffset="68-82"
+            type="drug" text="pseudoephedrine"/>
+        <pair id="DDI-DrugBank.d606.s0.p0" e1="DDI-DrugBank.d606.s0.e0"
+            e2="DDI-DrugBank.d606.s0.e1" ddi="false"/>
+        <pair id="DDI-DrugBank.d606.s0.p1" e1="DDI-DrugBank.d606.s0.e0"
+            e2="DDI-DrugBank.d606.s0.e2" ddi="true" type="effect"/>
+        <pair id="DDI-DrugBank.d606.s0.p2" e1="DDI-DrugBank.d606.s0.e1"
+            e2="DDI-DrugBank.d606.s0.e2" ddi="true" type="effect"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d606.s1" text="Sympathomimetics may reduce the antihypertensive effects of methyldopa, mecamylamine, reserpine and veratrum alkaloids.">
+        <entity id="DDI-DrugBank.d606.s1.e0" charOffset="0-15"
+            type="group" text="Sympathomimetics"/>
+        <entity id="DDI-DrugBank.d606.s1.e1" charOffset="60-69"
+            type="drug" text="methyldopa"/>
+        <entity id="DDI-DrugBank.d606.s1.e2" charOffset="72-83"
+            type="drug" text="mecamylamine"/>
+        <entity id="DDI-DrugBank.d606.s1.e3" charOffset="86-94"
+            type="drug" text="reserpine"/>
+        <entity id="DDI-DrugBank.d606.s1.e4" charOffset="100-117"
+            type="group" text="veratrum alkaloids"/>
+        <pair id="DDI-DrugBank.d606.s1.p0" e1="DDI-DrugBank.d606.s1.e0"
+            e2="DDI-DrugBank.d606.s1.e1" ddi="true" type="effect"/>
+        <pair id="DDI-DrugBank.d606.s1.p1" e1="DDI-DrugBank.d606.s1.e0"
+            e2="DDI-DrugBank.d606.s1.e2" ddi="true" type="effect"/>
+        <pair id="DDI-DrugBank.d606.s1.p2" e1="DDI-DrugBank.d606.s1.e0"
+            e2="DDI-DrugBank.d606.s1.e3" ddi="true" type="effect"/>
+        <pair id="DDI-DrugBank.d606.s1.p3" e1="DDI-DrugBank.d606.s1.e0"
+            e2="DDI-DrugBank.d606.s1.e4" ddi="true" type="effect"/>
+        <pair id="DDI-DrugBank.d606.s1.p4" e1="DDI-DrugBank.d606.s1.e1"
+            e2="DDI-DrugBank.d606.s1.e2" ddi="false"/>
+        <pair id="DDI-DrugBank.d606.s1.p5" e1="DDI-DrugBank.d606.s1.e1"
+            e2="DDI-DrugBank.d606.s1.e3" ddi="false"/>
+        <pair id="DDI-DrugBank.d606.s1.p6" e1="DDI-DrugBank.d606.s1.e1"
+            e2="DDI-DrugBank.d606.s1.e4" ddi="false"/>
+        <pair id="DDI-DrugBank.d606.s1.p7" e1="DDI-DrugBank.d606.s1.e2"
+            e2="DDI-DrugBank.d606.s1.e3" ddi="false"/>
+        <pair id="DDI-DrugBank.d606.s1.p8" e1="DDI-DrugBank.d606.s1.e2"
+            e2="DDI-DrugBank.d606.s1.e4" ddi="false"/>
+        <pair id="DDI-DrugBank.d606.s1.p9" e1="DDI-DrugBank.d606.s1.e3"
+            e2="DDI-DrugBank.d606.s1.e4" ddi="false"/>
+    </sentence>
+</document>

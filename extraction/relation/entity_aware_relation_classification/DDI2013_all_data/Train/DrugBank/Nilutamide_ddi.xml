@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="DDI-DrugBank.d177">
+    <sentence id="DDI-DrugBank.d177.s0" text="In vitro, nilutamide has been shown to inhibit the activity of liver cytochrome P-450 isoenzymes and therefore, may reduce the metabolism of compounds requiring these systems.">
+        <entity id="DDI-DrugBank.d177.s0.e0" charOffset="10-19"
+            type="drug" text="nilutamide"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d177.s1" text="Consequently, drugs with a low therapeutic margin, such as vitamin K antagonists, phenytoin, and theophylline, could have a delayed elimination and increases in their serum half-life leading to a toxic level.">
+        <entity id="DDI-DrugBank.d177.s1.e0" charOffset="59-79"
+            type="group" text="vitamin K antagonists"/>
+        <entity id="DDI-DrugBank.d177.s1.e1" charOffset="82-90"
+            type="drug" text="phenytoin"/>
+        <entity id="DDI-DrugBank.d177.s1.e2" charOffset="97-108"
+            type="drug" text="theophylline"/>
+        <pair id="DDI-DrugBank.d177.s1.p0" e1="DDI-DrugBank.d177.s1.e0"
+            e2="DDI-DrugBank.d177.s1.e1" ddi="false"/>
+        <pair id="DDI-DrugBank.d177.s1.p1" e1="DDI-DrugBank.d177.s1.e0"
+            e2="DDI-DrugBank.d177.s1.e2" ddi="false"/>
+        <pair id="DDI-DrugBank.d177.s1.p2" e1="DDI-DrugBank.d177.s1.e1"
+            e2="DDI-DrugBank.d177.s1.e2" ddi="false"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d177.s2" text="The dosage of these drugs or others with a similar metabolism may need to be modified if they are administered concomitantly with nilutamide.">
+        <entity id="DDI-DrugBank.d177.s2.e0" charOffset="130-139"
+            type="drug" text="nilutamide"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d177.s3" text="For example, when vitamin K antagonists are administered concomitantly with nilutamide, prothrombin time should be carefully monitored and if necessary, the dosage of vitamin K antagonists should be reduced.">
+        <entity id="DDI-DrugBank.d177.s3.e0" charOffset="18-38"
+            type="group" text="vitamin K antagonists"/>
+        <entity id="DDI-DrugBank.d177.s3.e1" charOffset="76-85"
+            type="drug" text="nilutamide"/>
+        <entity id="DDI-DrugBank.d177.s3.e2" charOffset="167-187"
+            type="group" text="vitamin K antagonists"/>
+        <pair id="DDI-DrugBank.d177.s3.p0" e1="DDI-DrugBank.d177.s3.e0"
+            e2="DDI-DrugBank.d177.s3.e1" ddi="true" type="advise"/>
+        <pair id="DDI-DrugBank.d177.s3.p1" e1="DDI-DrugBank.d177.s3.e0"
+            e2="DDI-DrugBank.d177.s3.e2" ddi="false"/>
+        <pair id="DDI-DrugBank.d177.s3.p2" e1="DDI-DrugBank.d177.s3.e1"
+            e2="DDI-DrugBank.d177.s3.e2" ddi="false"/>
+    </sentence>
+</document>

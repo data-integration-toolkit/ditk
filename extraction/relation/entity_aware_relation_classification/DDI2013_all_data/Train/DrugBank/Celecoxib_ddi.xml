@@ -1,0 +1,340 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="DDI-DrugBank.d172">
+    <sentence id="DDI-DrugBank.d172.s0" text="General: Significant interactions may occur when celecoxib is administered together with drugs that inhibit P450 2C9.">
+        <entity id="DDI-DrugBank.d172.s0.e0" charOffset="49-57"
+            type="drug" text="celecoxib"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d172.s1" text="Celecoxib metabolism is predominantly mediated via cytochrome P450 2C9 in the liver.">
+        <entity id="DDI-DrugBank.d172.s1.e0" charOffset="0-8"
+            type="drug" text="Celecoxib"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d172.s2" text="Co-administration of celecoxib with drugs that are known to inhibit 2C9 should be done with caution.">
+        <entity id="DDI-DrugBank.d172.s2.e0" charOffset="21-29"
+            type="drug" text="celecoxib"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d172.s3" text="In vitro studies indicate that celecoxib is not an inhibitor of cytochrome P450 2C9, 2C19 or 3A4.">
+        <entity id="DDI-DrugBank.d172.s3.e0" charOffset="31-39"
+            type="drug" text="celecoxib"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d172.s4" text="In vitro studies also indicate that celecoxib, although not a substrate, is an inhibitor of cytochrome P450 2D6.">
+        <entity id="DDI-DrugBank.d172.s4.e0" charOffset="36-44"
+            type="drug" text="celecoxib"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d172.s5" text="Therefore, there is a potential for an in vivo drug interaction with drugs that are metabolized by P450 2D6."/>
+    <sentence id="DDI-DrugBank.d172.s6" text="Clinical studies with celecoxib have identified potentially significant interactions with fluconazole and lithium.">
+        <entity id="DDI-DrugBank.d172.s6.e0" charOffset="22-30"
+            type="drug" text="celecoxib"/>
+        <entity id="DDI-DrugBank.d172.s6.e1" charOffset="90-100"
+            type="drug" text="fluconazole"/>
+        <entity id="DDI-DrugBank.d172.s6.e2" charOffset="106-112"
+            type="drug" text="lithium"/>
+        <pair id="DDI-DrugBank.d172.s6.p0" e1="DDI-DrugBank.d172.s6.e0"
+            e2="DDI-DrugBank.d172.s6.e1" ddi="true" type="int"/>
+        <pair id="DDI-DrugBank.d172.s6.p1" e1="DDI-DrugBank.d172.s6.e0"
+            e2="DDI-DrugBank.d172.s6.e2" ddi="true" type="int"/>
+        <pair id="DDI-DrugBank.d172.s6.p2" e1="DDI-DrugBank.d172.s6.e1"
+            e2="DDI-DrugBank.d172.s6.e2" ddi="false"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d172.s7" text="Experience with nonsteroidal anti-inflammatory drugs (NSAIDs) suggests the potential for interactions with furosemide and ACE inhibitors.">
+        <entity id="DDI-DrugBank.d172.s7.e0" charOffset="16-51"
+            type="group" text="nonsteroidal anti-inflammatory drugs"/>
+        <entity id="DDI-DrugBank.d172.s7.e1" charOffset="54-59"
+            type="group" text="NSAIDs"/>
+        <entity id="DDI-DrugBank.d172.s7.e2" charOffset="107-116"
+            type="drug" text="furosemide"/>
+        <entity id="DDI-DrugBank.d172.s7.e3" charOffset="122-135"
+            type="group" text="ACE inhibitors"/>
+        <pair id="DDI-DrugBank.d172.s7.p0" e1="DDI-DrugBank.d172.s7.e0"
+            e2="DDI-DrugBank.d172.s7.e1" ddi="false"/>
+        <pair id="DDI-DrugBank.d172.s7.p1" e1="DDI-DrugBank.d172.s7.e0"
+            e2="DDI-DrugBank.d172.s7.e2" ddi="true" type="int"/>
+        <pair id="DDI-DrugBank.d172.s7.p2" e1="DDI-DrugBank.d172.s7.e0"
+            e2="DDI-DrugBank.d172.s7.e3" ddi="true" type="int"/>
+        <pair id="DDI-DrugBank.d172.s7.p3" e1="DDI-DrugBank.d172.s7.e1"
+            e2="DDI-DrugBank.d172.s7.e2" ddi="true" type="int"/>
+        <pair id="DDI-DrugBank.d172.s7.p4" e1="DDI-DrugBank.d172.s7.e1"
+            e2="DDI-DrugBank.d172.s7.e3" ddi="true" type="int"/>
+        <pair id="DDI-DrugBank.d172.s7.p5" e1="DDI-DrugBank.d172.s7.e2"
+            e2="DDI-DrugBank.d172.s7.e3" ddi="false"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d172.s8" text="The effects celecoxib on the pharmacokinetics and/or pharmacodynamics of glyburide, ketoconazole, methotrexate, phenytoin, tolbutamide, and warfarin have been studied in vivo and clinically important interactions have not been found.">
+        <entity id="DDI-DrugBank.d172.s8.e0" charOffset="12-20"
+            type="drug" text="celecoxib"/>
+        <entity id="DDI-DrugBank.d172.s8.e1" charOffset="73-81"
+            type="drug" text="glyburide"/>
+        <entity id="DDI-DrugBank.d172.s8.e2" charOffset="84-95"
+            type="drug" text="ketoconazole"/>
+        <entity id="DDI-DrugBank.d172.s8.e3" charOffset="98-109"
+            type="drug" text="methotrexate"/>
+        <entity id="DDI-DrugBank.d172.s8.e4" charOffset="112-120"
+            type="drug" text="phenytoin"/>
+        <entity id="DDI-DrugBank.d172.s8.e5" charOffset="123-133"
+            type="drug" text="tolbutamide"/>
+        <entity id="DDI-DrugBank.d172.s8.e6" charOffset="140-147"
+            type="drug" text="warfarin"/>
+        <pair id="DDI-DrugBank.d172.s8.p0" e1="DDI-DrugBank.d172.s8.e0"
+            e2="DDI-DrugBank.d172.s8.e1" ddi="false"/>
+        <pair id="DDI-DrugBank.d172.s8.p1" e1="DDI-DrugBank.d172.s8.e0"
+            e2="DDI-DrugBank.d172.s8.e2" ddi="false"/>
+        <pair id="DDI-DrugBank.d172.s8.p2" e1="DDI-DrugBank.d172.s8.e0"
+            e2="DDI-DrugBank.d172.s8.e3" ddi="false"/>
+        <pair id="DDI-DrugBank.d172.s8.p3" e1="DDI-DrugBank.d172.s8.e0"
+            e2="DDI-DrugBank.d172.s8.e4" ddi="false"/>
+        <pair id="DDI-DrugBank.d172.s8.p4" e1="DDI-DrugBank.d172.s8.e0"
+            e2="DDI-DrugBank.d172.s8.e5" ddi="false"/>
+        <pair id="DDI-DrugBank.d172.s8.p5" e1="DDI-DrugBank.d172.s8.e0"
+            e2="DDI-DrugBank.d172.s8.e6" ddi="false"/>
+        <pair id="DDI-DrugBank.d172.s8.p6" e1="DDI-DrugBank.d172.s8.e1"
+            e2="DDI-DrugBank.d172.s8.e2" ddi="false"/>
+        <pair id="DDI-DrugBank.d172.s8.p7" e1="DDI-DrugBank.d172.s8.e1"
+            e2="DDI-DrugBank.d172.s8.e3" ddi="false"/>
+        <pair id="DDI-DrugBank.d172.s8.p8" e1="DDI-DrugBank.d172.s8.e1"
+            e2="DDI-DrugBank.d172.s8.e4" ddi="false"/>
+        <pair id="DDI-DrugBank.d172.s8.p9" e1="DDI-DrugBank.d172.s8.e1"
+            e2="DDI-DrugBank.d172.s8.e5" ddi="false"/>
+        <pair id="DDI-DrugBank.d172.s8.p10" e1="DDI-DrugBank.d172.s8.e1"
+            e2="DDI-DrugBank.d172.s8.e6" ddi="false"/>
+        <pair id="DDI-DrugBank.d172.s8.p11" e1="DDI-DrugBank.d172.s8.e2"
+            e2="DDI-DrugBank.d172.s8.e3" ddi="false"/>
+        <pair id="DDI-DrugBank.d172.s8.p12" e1="DDI-DrugBank.d172.s8.e2"
+            e2="DDI-DrugBank.d172.s8.e4" ddi="false"/>
+        <pair id="DDI-DrugBank.d172.s8.p13" e1="DDI-DrugBank.d172.s8.e2"
+            e2="DDI-DrugBank.d172.s8.e5" ddi="false"/>
+        <pair id="DDI-DrugBank.d172.s8.p14" e1="DDI-DrugBank.d172.s8.e2"
+            e2="DDI-DrugBank.d172.s8.e6" ddi="false"/>
+        <pair id="DDI-DrugBank.d172.s8.p15" e1="DDI-DrugBank.d172.s8.e3"
+            e2="DDI-DrugBank.d172.s8.e4" ddi="false"/>
+        <pair id="DDI-DrugBank.d172.s8.p16" e1="DDI-DrugBank.d172.s8.e3"
+            e2="DDI-DrugBank.d172.s8.e5" ddi="false"/>
+        <pair id="DDI-DrugBank.d172.s8.p17" e1="DDI-DrugBank.d172.s8.e3"
+            e2="DDI-DrugBank.d172.s8.e6" ddi="false"/>
+        <pair id="DDI-DrugBank.d172.s8.p18" e1="DDI-DrugBank.d172.s8.e4"
+            e2="DDI-DrugBank.d172.s8.e5" ddi="false"/>
+        <pair id="DDI-DrugBank.d172.s8.p19" e1="DDI-DrugBank.d172.s8.e4"
+            e2="DDI-DrugBank.d172.s8.e6" ddi="false"/>
+        <pair id="DDI-DrugBank.d172.s8.p20" e1="DDI-DrugBank.d172.s8.e5"
+            e2="DDI-DrugBank.d172.s8.e6" ddi="false"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d172.s9" text="ACE inhibitors: Reports suggest that NSAIDs may diminish the antihypertensive effect of Angiotensin Converting Enzyme (ACE) inhibitors.">
+        <entity id="DDI-DrugBank.d172.s9.e0" charOffset="0-13"
+            type="group" text="ACE inhibitors"/>
+        <entity id="DDI-DrugBank.d172.s9.e1" charOffset="37-42"
+            type="group" text="NSAIDs"/>
+        <entity id="DDI-DrugBank.d172.s9.e2" charOffset="88-133"
+            type="group" text="Angiotensin Converting Enzyme (ACE) inhibitors"/>
+        <pair id="DDI-DrugBank.d172.s9.p0" e1="DDI-DrugBank.d172.s9.e0"
+            e2="DDI-DrugBank.d172.s9.e1" ddi="false"/>
+        <pair id="DDI-DrugBank.d172.s9.p1" e1="DDI-DrugBank.d172.s9.e0"
+            e2="DDI-DrugBank.d172.s9.e2" ddi="false"/>
+        <pair id="DDI-DrugBank.d172.s9.p2" e1="DDI-DrugBank.d172.s9.e1"
+            e2="DDI-DrugBank.d172.s9.e2" ddi="true" type="effect"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d172.s10" text="This interaction should be given consideration in patients taking CELEBREX concomitantly with ACE-inhibitors.">
+        <entity id="DDI-DrugBank.d172.s10.e0" charOffset="66-73"
+            type="brand" text="CELEBREX"/>
+        <entity id="DDI-DrugBank.d172.s10.e1" charOffset="94-107"
+            type="group" text="ACE-inhibitors"/>
+        <pair id="DDI-DrugBank.d172.s10.p0"
+            e1="DDI-DrugBank.d172.s10.e0" e2="DDI-DrugBank.d172.s10.e1"
+            ddi="true" type="advise"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d172.s11" text="Furosemide: Clinical studies, as well as post marketing observations, have shown that NSAIDs can reduce the natriuretic effect of furosemide and thiazides in some patients.">
+        <entity id="DDI-DrugBank.d172.s11.e0" charOffset="0-9"
+            type="drug" text="Furosemide"/>
+        <entity id="DDI-DrugBank.d172.s11.e1" charOffset="86-91"
+            type="group" text="NSAIDs"/>
+        <entity id="DDI-DrugBank.d172.s11.e2" charOffset="130-139"
+            type="drug" text="furosemide"/>
+        <entity id="DDI-DrugBank.d172.s11.e3" charOffset="145-153"
+            type="group" text="thiazides"/>
+        <pair id="DDI-DrugBank.d172.s11.p0"
+            e1="DDI-DrugBank.d172.s11.e0" e2="DDI-DrugBank.d172.s11.e1" ddi="false"/>
+        <pair id="DDI-DrugBank.d172.s11.p1"
+            e1="DDI-DrugBank.d172.s11.e0" e2="DDI-DrugBank.d172.s11.e2" ddi="false"/>
+        <pair id="DDI-DrugBank.d172.s11.p2"
+            e1="DDI-DrugBank.d172.s11.e0" e2="DDI-DrugBank.d172.s11.e3" ddi="false"/>
+        <pair id="DDI-DrugBank.d172.s11.p3"
+            e1="DDI-DrugBank.d172.s11.e1" e2="DDI-DrugBank.d172.s11.e2"
+            ddi="true" type="effect"/>
+        <pair id="DDI-DrugBank.d172.s11.p4"
+            e1="DDI-DrugBank.d172.s11.e1" e2="DDI-DrugBank.d172.s11.e3"
+            ddi="true" type="effect"/>
+        <pair id="DDI-DrugBank.d172.s11.p5"
+            e1="DDI-DrugBank.d172.s11.e2" e2="DDI-DrugBank.d172.s11.e3" ddi="false"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d172.s12" text="This response has been attributed to inhibition of renal prostaglandin synthesis."/>
+    <sentence id="DDI-DrugBank.d172.s13" text="Aspirin: CELEBREX can be used with low dose aspirin.">
+        <entity id="DDI-DrugBank.d172.s13.e0" charOffset="0-6"
+            type="brand" text="Aspirin"/>
+        <entity id="DDI-DrugBank.d172.s13.e1" charOffset="9-16"
+            type="brand" text="CELEBREX"/>
+        <entity id="DDI-DrugBank.d172.s13.e2" charOffset="44-50"
+            type="brand" text="aspirin"/>
+        <pair id="DDI-DrugBank.d172.s13.p0"
+            e1="DDI-DrugBank.d172.s13.e0" e2="DDI-DrugBank.d172.s13.e1" ddi="false"/>
+        <pair id="DDI-DrugBank.d172.s13.p1"
+            e1="DDI-DrugBank.d172.s13.e0" e2="DDI-DrugBank.d172.s13.e2" ddi="false"/>
+        <pair id="DDI-DrugBank.d172.s13.p2"
+            e1="DDI-DrugBank.d172.s13.e1" e2="DDI-DrugBank.d172.s13.e2"
+            ddi="true" type="advise"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d172.s14" text="However, concomitant administration of aspirin with CELEBREX may result in an increased rate of GI ulceration or other complications, compared to use of CELEBREX alone.">
+        <entity id="DDI-DrugBank.d172.s14.e0" charOffset="39-45"
+            type="brand" text="aspirin"/>
+        <entity id="DDI-DrugBank.d172.s14.e1" charOffset="52-59"
+            type="brand" text="CELEBREX"/>
+        <entity id="DDI-DrugBank.d172.s14.e2" charOffset="153-160"
+            type="brand" text="CELEBREX"/>
+        <pair id="DDI-DrugBank.d172.s14.p0"
+            e1="DDI-DrugBank.d172.s14.e0" e2="DDI-DrugBank.d172.s14.e1"
+            ddi="true" type="effect"/>
+        <pair id="DDI-DrugBank.d172.s14.p1"
+            e1="DDI-DrugBank.d172.s14.e0" e2="DDI-DrugBank.d172.s14.e2" ddi="false"/>
+        <pair id="DDI-DrugBank.d172.s14.p2"
+            e1="DDI-DrugBank.d172.s14.e1" e2="DDI-DrugBank.d172.s14.e2" ddi="false"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d172.s15" text="Because of its lack of platelet effects, CELEBREX is not a substitute for aspirin for cardiovascular prophylaxis.">
+        <entity id="DDI-DrugBank.d172.s15.e0" charOffset="41-48"
+            type="brand" text="CELEBREX"/>
+        <entity id="DDI-DrugBank.d172.s15.e1" charOffset="74-80"
+            type="brand" text="aspirin"/>
+        <pair id="DDI-DrugBank.d172.s15.p0"
+            e1="DDI-DrugBank.d172.s15.e0" e2="DDI-DrugBank.d172.s15.e1" ddi="false"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d172.s16" text="Fluconazole: Concomitant administration of fluconazole at 200 mg QD resulted in a two-fold increase in celecoxib plasma concentration.">
+        <entity id="DDI-DrugBank.d172.s16.e0" charOffset="0-10"
+            type="drug" text="Fluconazole"/>
+        <entity id="DDI-DrugBank.d172.s16.e1" charOffset="43-53"
+            type="drug" text="fluconazole"/>
+        <entity id="DDI-DrugBank.d172.s16.e2" charOffset="103-111"
+            type="drug" text="celecoxib"/>
+        <pair id="DDI-DrugBank.d172.s16.p0"
+            e1="DDI-DrugBank.d172.s16.e0" e2="DDI-DrugBank.d172.s16.e1" ddi="false"/>
+        <pair id="DDI-DrugBank.d172.s16.p1"
+            e1="DDI-DrugBank.d172.s16.e0" e2="DDI-DrugBank.d172.s16.e2" ddi="false"/>
+        <pair id="DDI-DrugBank.d172.s16.p2"
+            e1="DDI-DrugBank.d172.s16.e1" e2="DDI-DrugBank.d172.s16.e2"
+            ddi="true" type="mechanism"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d172.s17" text="This increase is due to the inhibition of celecoxib metabolism via P450 2C9 by fluconazole (see CLINICAL PHARMACOLOGY - Pharmacokinetics: Metabolism).">
+        <entity id="DDI-DrugBank.d172.s17.e0" charOffset="42-50"
+            type="drug" text="celecoxib"/>
+        <entity id="DDI-DrugBank.d172.s17.e1" charOffset="79-89"
+            type="drug" text="fluconazole"/>
+        <pair id="DDI-DrugBank.d172.s17.p0"
+            e1="DDI-DrugBank.d172.s17.e0" e2="DDI-DrugBank.d172.s17.e1"
+            ddi="true" type="mechanism"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d172.s18" text="CELEBREX should be introduced at the lowest recommended dose in patients receiving fluconazole.">
+        <entity id="DDI-DrugBank.d172.s18.e0" charOffset="0-7"
+            type="brand" text="CELEBREX"/>
+        <entity id="DDI-DrugBank.d172.s18.e1" charOffset="83-93"
+            type="drug" text="fluconazole"/>
+        <pair id="DDI-DrugBank.d172.s18.p0"
+            e1="DDI-DrugBank.d172.s18.e0" e2="DDI-DrugBank.d172.s18.e1"
+            ddi="true" type="advise"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d172.s19" text="Lithium: In a study conducted in healthy subjects, mean steady-state lithium plasma levels increased approximately 17% in subjects receiving lithium 450 mg BID with CELEBREX 200 mg BID as compared to subjects receiving lithium alone.">
+        <entity id="DDI-DrugBank.d172.s19.e0" charOffset="0-6"
+            type="drug" text="Lithium"/>
+        <entity id="DDI-DrugBank.d172.s19.e1" charOffset="69-75"
+            type="drug" text="lithium"/>
+        <entity id="DDI-DrugBank.d172.s19.e2" charOffset="141-147"
+            type="drug" text="lithium"/>
+        <entity id="DDI-DrugBank.d172.s19.e3" charOffset="165-172"
+            type="brand" text="CELEBREX"/>
+        <entity id="DDI-DrugBank.d172.s19.e4" charOffset="219-225"
+            type="drug" text="lithium"/>
+        <pair id="DDI-DrugBank.d172.s19.p0"
+            e1="DDI-DrugBank.d172.s19.e0" e2="DDI-DrugBank.d172.s19.e1" ddi="false"/>
+        <pair id="DDI-DrugBank.d172.s19.p1"
+            e1="DDI-DrugBank.d172.s19.e0" e2="DDI-DrugBank.d172.s19.e2" ddi="false"/>
+        <pair id="DDI-DrugBank.d172.s19.p2"
+            e1="DDI-DrugBank.d172.s19.e0" e2="DDI-DrugBank.d172.s19.e3" ddi="false"/>
+        <pair id="DDI-DrugBank.d172.s19.p3"
+            e1="DDI-DrugBank.d172.s19.e0" e2="DDI-DrugBank.d172.s19.e4" ddi="false"/>
+        <pair id="DDI-DrugBank.d172.s19.p4"
+            e1="DDI-DrugBank.d172.s19.e1" e2="DDI-DrugBank.d172.s19.e2" ddi="false"/>
+        <pair id="DDI-DrugBank.d172.s19.p5"
+            e1="DDI-DrugBank.d172.s19.e1" e2="DDI-DrugBank.d172.s19.e3" ddi="false"/>
+        <pair id="DDI-DrugBank.d172.s19.p6"
+            e1="DDI-DrugBank.d172.s19.e1" e2="DDI-DrugBank.d172.s19.e4" ddi="false"/>
+        <pair id="DDI-DrugBank.d172.s19.p7"
+            e1="DDI-DrugBank.d172.s19.e2" e2="DDI-DrugBank.d172.s19.e3"
+            ddi="true" type="mechanism"/>
+        <pair id="DDI-DrugBank.d172.s19.p8"
+            e1="DDI-DrugBank.d172.s19.e2" e2="DDI-DrugBank.d172.s19.e4" ddi="false"/>
+        <pair id="DDI-DrugBank.d172.s19.p9"
+            e1="DDI-DrugBank.d172.s19.e3" e2="DDI-DrugBank.d172.s19.e4" ddi="false"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d172.s20" text="Patients on lithium treatment should be closely monitored when CELEBREX is introduced or withdrawn.">
+        <entity id="DDI-DrugBank.d172.s20.e0" charOffset="12-18"
+            type="drug" text="lithium"/>
+        <entity id="DDI-DrugBank.d172.s20.e1" charOffset="63-70"
+            type="brand" text="CELEBREX"/>
+        <pair id="DDI-DrugBank.d172.s20.p0"
+            e1="DDI-DrugBank.d172.s20.e0" e2="DDI-DrugBank.d172.s20.e1"
+            ddi="true" type="advise"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d172.s21" text="Methotrexate: In an interaction study of rheumatoid arthritis patients taking methotrexate, CELEBREX did not have a significant effect on the pharmacokinetics of methotrexate.">
+        <entity id="DDI-DrugBank.d172.s21.e0" charOffset="0-11"
+            type="drug" text="Methotrexate"/>
+        <entity id="DDI-DrugBank.d172.s21.e1" charOffset="78-89"
+            type="drug" text="methotrexate"/>
+        <entity id="DDI-DrugBank.d172.s21.e2" charOffset="92-99"
+            type="brand" text="CELEBREX"/>
+        <entity id="DDI-DrugBank.d172.s21.e3" charOffset="162-173"
+            type="drug" text="methotrexate"/>
+        <pair id="DDI-DrugBank.d172.s21.p0"
+            e1="DDI-DrugBank.d172.s21.e0" e2="DDI-DrugBank.d172.s21.e1" ddi="false"/>
+        <pair id="DDI-DrugBank.d172.s21.p1"
+            e1="DDI-DrugBank.d172.s21.e0" e2="DDI-DrugBank.d172.s21.e2" ddi="false"/>
+        <pair id="DDI-DrugBank.d172.s21.p2"
+            e1="DDI-DrugBank.d172.s21.e0" e2="DDI-DrugBank.d172.s21.e3" ddi="false"/>
+        <pair id="DDI-DrugBank.d172.s21.p3"
+            e1="DDI-DrugBank.d172.s21.e1" e2="DDI-DrugBank.d172.s21.e2" ddi="false"/>
+        <pair id="DDI-DrugBank.d172.s21.p4"
+            e1="DDI-DrugBank.d172.s21.e1" e2="DDI-DrugBank.d172.s21.e3" ddi="false"/>
+        <pair id="DDI-DrugBank.d172.s21.p5"
+            e1="DDI-DrugBank.d172.s21.e2" e2="DDI-DrugBank.d172.s21.e3" ddi="false"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d172.s22" text="Warfarin: The effect of celecoxib on the anti-coagulant effect of warfarin was studied in a group of healthy subjects receiving daily doses of 2-5 mg of warfarin.">
+        <entity id="DDI-DrugBank.d172.s22.e0" charOffset="0-7"
+            type="drug" text="Warfarin"/>
+        <entity id="DDI-DrugBank.d172.s22.e1" charOffset="24-32"
+            type="drug" text="celecoxib"/>
+        <entity id="DDI-DrugBank.d172.s22.e2" charOffset="66-73"
+            type="drug" text="warfarin"/>
+        <entity id="DDI-DrugBank.d172.s22.e3" charOffset="153-160"
+            type="drug" text="warfarin"/>
+        <pair id="DDI-DrugBank.d172.s22.p0"
+            e1="DDI-DrugBank.d172.s22.e0" e2="DDI-DrugBank.d172.s22.e1" ddi="false"/>
+        <pair id="DDI-DrugBank.d172.s22.p1"
+            e1="DDI-DrugBank.d172.s22.e0" e2="DDI-DrugBank.d172.s22.e2" ddi="false"/>
+        <pair id="DDI-DrugBank.d172.s22.p2"
+            e1="DDI-DrugBank.d172.s22.e0" e2="DDI-DrugBank.d172.s22.e3" ddi="false"/>
+        <pair id="DDI-DrugBank.d172.s22.p3"
+            e1="DDI-DrugBank.d172.s22.e1" e2="DDI-DrugBank.d172.s22.e2" ddi="false"/>
+        <pair id="DDI-DrugBank.d172.s22.p4"
+            e1="DDI-DrugBank.d172.s22.e1" e2="DDI-DrugBank.d172.s22.e3" ddi="false"/>
+        <pair id="DDI-DrugBank.d172.s22.p5"
+            e1="DDI-DrugBank.d172.s22.e2" e2="DDI-DrugBank.d172.s22.e3" ddi="false"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d172.s23" text="In these subjects, celecoxib did not alter the anticoagulant effect of warfarin as determined by prothrombin time.">
+        <entity id="DDI-DrugBank.d172.s23.e0" charOffset="19-27"
+            type="drug" text="celecoxib"/>
+        <entity id="DDI-DrugBank.d172.s23.e1" charOffset="71-78"
+            type="drug" text="warfarin"/>
+        <pair id="DDI-DrugBank.d172.s23.p0"
+            e1="DDI-DrugBank.d172.s23.e0" e2="DDI-DrugBank.d172.s23.e1" ddi="false"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d172.s24" text="However, caution should be used when administering CELEBREX with warfarin since these patients are at increased risk of bleeding complications.">
+        <entity id="DDI-DrugBank.d172.s24.e0" charOffset="51-58"
+            type="brand" text="CELEBREX"/>
+        <entity id="DDI-DrugBank.d172.s24.e1" charOffset="65-72"
+            type="drug" text="warfarin"/>
+        <pair id="DDI-DrugBank.d172.s24.p0"
+            e1="DDI-DrugBank.d172.s24.e0" e2="DDI-DrugBank.d172.s24.e1"
+            ddi="true" type="advise"/>
+    </sentence>
+</document>

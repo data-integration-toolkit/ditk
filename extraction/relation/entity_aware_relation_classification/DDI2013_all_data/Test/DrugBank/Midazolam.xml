@@ -1,0 +1,337 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="DDI-DrugBank.d752">
+    <sentence id="DDI-DrugBank.d752.s0" text="Drug Interactions: Inhibitors of CYP3A4 Isozymes: Caution is advised when midazolam is administered concomitantly with drugs that are known to inhibit the cytochrome P450 3A4 enzyme system (ie, some drugs in the drug classes of azole antimycotics, protease inhibitors, calcium channel antagonists, and macrolide antibiotics). ">
+        <entity id="DDI-DrugBank.d752.s0.e0" charOffset="74-82"
+            type="drug" text="midazolam"/>
+        <entity id="DDI-DrugBank.d752.s0.e1" charOffset="228-245"
+            type="group" text="azole antimycotics"/>
+        <entity id="DDI-DrugBank.d752.s0.e2" charOffset="248-266"
+            type="group" text="protease inhibitors"/>
+        <entity id="DDI-DrugBank.d752.s0.e3" charOffset="269-295"
+            type="group" text="calcium channel antagonists"/>
+        <entity id="DDI-DrugBank.d752.s0.e4" charOffset="302-322"
+            type="group" text="macrolide antibiotics"/>
+        <pair id="DDI-DrugBank.d752.s0.p0" e1="DDI-DrugBank.d752.s0.e0"
+            e2="DDI-DrugBank.d752.s0.e1" ddi="true" type="advise"/>
+        <pair id="DDI-DrugBank.d752.s0.p1" e1="DDI-DrugBank.d752.s0.e0"
+            e2="DDI-DrugBank.d752.s0.e2" ddi="true" type="advise"/>
+        <pair id="DDI-DrugBank.d752.s0.p2" e1="DDI-DrugBank.d752.s0.e0"
+            e2="DDI-DrugBank.d752.s0.e3" ddi="true" type="advise"/>
+        <pair id="DDI-DrugBank.d752.s0.p3" e1="DDI-DrugBank.d752.s0.e0"
+            e2="DDI-DrugBank.d752.s0.e4" ddi="true" type="advise"/>
+        <pair id="DDI-DrugBank.d752.s0.p4" e1="DDI-DrugBank.d752.s0.e1"
+            e2="DDI-DrugBank.d752.s0.e2" ddi="false"/>
+        <pair id="DDI-DrugBank.d752.s0.p5" e1="DDI-DrugBank.d752.s0.e1"
+            e2="DDI-DrugBank.d752.s0.e3" ddi="false"/>
+        <pair id="DDI-DrugBank.d752.s0.p6" e1="DDI-DrugBank.d752.s0.e1"
+            e2="DDI-DrugBank.d752.s0.e4" ddi="false"/>
+        <pair id="DDI-DrugBank.d752.s0.p7" e1="DDI-DrugBank.d752.s0.e2"
+            e2="DDI-DrugBank.d752.s0.e3" ddi="false"/>
+        <pair id="DDI-DrugBank.d752.s0.p8" e1="DDI-DrugBank.d752.s0.e2"
+            e2="DDI-DrugBank.d752.s0.e4" ddi="false"/>
+        <pair id="DDI-DrugBank.d752.s0.p9" e1="DDI-DrugBank.d752.s0.e3"
+            e2="DDI-DrugBank.d752.s0.e4" ddi="false"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d752.s1" text="Drugs such as erythromycin, diltiazem, verapamil, ketoconazole, fluconazole and itraconazole were shown to significantly increase the C max and AUC of orally administered midazolam. ">
+        <entity id="DDI-DrugBank.d752.s1.e0" charOffset="14-25"
+            type="drug" text="erythromycin"/>
+        <entity id="DDI-DrugBank.d752.s1.e1" charOffset="28-36"
+            type="drug" text="diltiazem"/>
+        <entity id="DDI-DrugBank.d752.s1.e2" charOffset="39-47"
+            type="drug" text="verapamil"/>
+        <entity id="DDI-DrugBank.d752.s1.e3" charOffset="50-61"
+            type="drug" text="ketoconazole"/>
+        <entity id="DDI-DrugBank.d752.s1.e4" charOffset="64-74"
+            type="drug" text="fluconazole"/>
+        <entity id="DDI-DrugBank.d752.s1.e5" charOffset="80-91"
+            type="drug" text="itraconazole"/>
+        <entity id="DDI-DrugBank.d752.s1.e6" charOffset="171-179"
+            type="drug" text="midazolam"/>
+        <pair id="DDI-DrugBank.d752.s1.p0" e1="DDI-DrugBank.d752.s1.e0"
+            e2="DDI-DrugBank.d752.s1.e1" ddi="false"/>
+        <pair id="DDI-DrugBank.d752.s1.p1" e1="DDI-DrugBank.d752.s1.e0"
+            e2="DDI-DrugBank.d752.s1.e2" ddi="false"/>
+        <pair id="DDI-DrugBank.d752.s1.p2" e1="DDI-DrugBank.d752.s1.e0"
+            e2="DDI-DrugBank.d752.s1.e3" ddi="false"/>
+        <pair id="DDI-DrugBank.d752.s1.p3" e1="DDI-DrugBank.d752.s1.e0"
+            e2="DDI-DrugBank.d752.s1.e4" ddi="false"/>
+        <pair id="DDI-DrugBank.d752.s1.p4" e1="DDI-DrugBank.d752.s1.e0"
+            e2="DDI-DrugBank.d752.s1.e5" ddi="false"/>
+        <pair id="DDI-DrugBank.d752.s1.p5" e1="DDI-DrugBank.d752.s1.e0"
+            e2="DDI-DrugBank.d752.s1.e6" ddi="true" type="mechanism"/>
+        <pair id="DDI-DrugBank.d752.s1.p6" e1="DDI-DrugBank.d752.s1.e1"
+            e2="DDI-DrugBank.d752.s1.e2" ddi="false"/>
+        <pair id="DDI-DrugBank.d752.s1.p7" e1="DDI-DrugBank.d752.s1.e1"
+            e2="DDI-DrugBank.d752.s1.e3" ddi="false"/>
+        <pair id="DDI-DrugBank.d752.s1.p8" e1="DDI-DrugBank.d752.s1.e1"
+            e2="DDI-DrugBank.d752.s1.e4" ddi="false"/>
+        <pair id="DDI-DrugBank.d752.s1.p9" e1="DDI-DrugBank.d752.s1.e1"
+            e2="DDI-DrugBank.d752.s1.e5" ddi="false"/>
+        <pair id="DDI-DrugBank.d752.s1.p10" e1="DDI-DrugBank.d752.s1.e1"
+            e2="DDI-DrugBank.d752.s1.e6" ddi="true" type="mechanism"/>
+        <pair id="DDI-DrugBank.d752.s1.p11" e1="DDI-DrugBank.d752.s1.e2"
+            e2="DDI-DrugBank.d752.s1.e3" ddi="false"/>
+        <pair id="DDI-DrugBank.d752.s1.p12" e1="DDI-DrugBank.d752.s1.e2"
+            e2="DDI-DrugBank.d752.s1.e4" ddi="false"/>
+        <pair id="DDI-DrugBank.d752.s1.p13" e1="DDI-DrugBank.d752.s1.e2"
+            e2="DDI-DrugBank.d752.s1.e5" ddi="false"/>
+        <pair id="DDI-DrugBank.d752.s1.p14" e1="DDI-DrugBank.d752.s1.e2"
+            e2="DDI-DrugBank.d752.s1.e6" ddi="true" type="mechanism"/>
+        <pair id="DDI-DrugBank.d752.s1.p15" e1="DDI-DrugBank.d752.s1.e3"
+            e2="DDI-DrugBank.d752.s1.e4" ddi="false"/>
+        <pair id="DDI-DrugBank.d752.s1.p16" e1="DDI-DrugBank.d752.s1.e3"
+            e2="DDI-DrugBank.d752.s1.e5" ddi="false"/>
+        <pair id="DDI-DrugBank.d752.s1.p17" e1="DDI-DrugBank.d752.s1.e3"
+            e2="DDI-DrugBank.d752.s1.e6" ddi="true" type="mechanism"/>
+        <pair id="DDI-DrugBank.d752.s1.p18" e1="DDI-DrugBank.d752.s1.e4"
+            e2="DDI-DrugBank.d752.s1.e5" ddi="false"/>
+        <pair id="DDI-DrugBank.d752.s1.p19" e1="DDI-DrugBank.d752.s1.e4"
+            e2="DDI-DrugBank.d752.s1.e6" ddi="true" type="mechanism"/>
+        <pair id="DDI-DrugBank.d752.s1.p20" e1="DDI-DrugBank.d752.s1.e5"
+            e2="DDI-DrugBank.d752.s1.e6" ddi="true" type="mechanism"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d752.s2" text="These drug interactions may result in increased and prolonged sedation due to a decrease in plasma clearance of midazolam. ">
+        <entity id="DDI-DrugBank.d752.s2.e0" charOffset="112-120"
+            type="drug" text="midazolam"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d752.s3" text="Although not studied, the potent cytochrome P450 3A4 inhibitors ritonavir and nelfinavir may cause intense and prolonged sedation and respiratory depression due to a decrease in plasma clearance of midazolam. ">
+        <entity id="DDI-DrugBank.d752.s3.e0" charOffset="64-72"
+            type="drug" text="ritonavir"/>
+        <entity id="DDI-DrugBank.d752.s3.e1" charOffset="78-87"
+            type="drug" text="nelfinavir"/>
+        <entity id="DDI-DrugBank.d752.s3.e2" charOffset="198-206"
+            type="drug" text="midazolam"/>
+        <pair id="DDI-DrugBank.d752.s3.p0" e1="DDI-DrugBank.d752.s3.e0"
+            e2="DDI-DrugBank.d752.s3.e1" ddi="false"/>
+        <pair id="DDI-DrugBank.d752.s3.p1" e1="DDI-DrugBank.d752.s3.e0"
+            e2="DDI-DrugBank.d752.s3.e2" ddi="true" type="mechanism"/>
+        <pair id="DDI-DrugBank.d752.s3.p2" e1="DDI-DrugBank.d752.s3.e1"
+            e2="DDI-DrugBank.d752.s3.e2" ddi="true" type="mechanism"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d752.s4" text="Caution is advised when VERSED Syrup is used concomitantly with these drugs. ">
+        <entity id="DDI-DrugBank.d752.s4.e0" charOffset="24-35"
+            type="brand" text="VERSED Syrup"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d752.s5" text="Dose adjustments should be considered and possible prolongation and intensity of effect should be anticipated. "/>
+    <sentence id="DDI-DrugBank.d752.s6" text="Inducers of CYP3A4 Isozymes: Cytochrome P450 inducers, such as rifampin, carbamazepine, and phenytoin, induce metabolism and caused a markedly decreased C max and AUC of oral midazolam in adult studies. ">
+        <entity id="DDI-DrugBank.d752.s6.e0" charOffset="63-70"
+            type="drug" text="rifampin"/>
+        <entity id="DDI-DrugBank.d752.s6.e1" charOffset="73-85"
+            type="drug" text="carbamazepine"/>
+        <entity id="DDI-DrugBank.d752.s6.e2" charOffset="92-100"
+            type="drug" text="phenytoin"/>
+        <entity id="DDI-DrugBank.d752.s6.e3" charOffset="175-183"
+            type="drug" text="midazolam"/>
+        <pair id="DDI-DrugBank.d752.s6.p0" e1="DDI-DrugBank.d752.s6.e0"
+            e2="DDI-DrugBank.d752.s6.e1" ddi="false"/>
+        <pair id="DDI-DrugBank.d752.s6.p1" e1="DDI-DrugBank.d752.s6.e0"
+            e2="DDI-DrugBank.d752.s6.e2" ddi="false"/>
+        <pair id="DDI-DrugBank.d752.s6.p2" e1="DDI-DrugBank.d752.s6.e0"
+            e2="DDI-DrugBank.d752.s6.e3" ddi="true" type="mechanism"/>
+        <pair id="DDI-DrugBank.d752.s6.p3" e1="DDI-DrugBank.d752.s6.e1"
+            e2="DDI-DrugBank.d752.s6.e2" ddi="false"/>
+        <pair id="DDI-DrugBank.d752.s6.p4" e1="DDI-DrugBank.d752.s6.e1"
+            e2="DDI-DrugBank.d752.s6.e3" ddi="true" type="mechanism"/>
+        <pair id="DDI-DrugBank.d752.s6.p5" e1="DDI-DrugBank.d752.s6.e2"
+            e2="DDI-DrugBank.d752.s6.e3" ddi="true" type="mechanism"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d752.s7" text="Although clinical studies have not been performed, phenobarbital is expected to have the same effect. ">
+        <entity id="DDI-DrugBank.d752.s7.e0" charOffset="51-63"
+            type="drug" text="phenobarbital"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d752.s8" text="Caution is advised when administering VERSED Syrup to patients receiving these medications and if necessary dose adjustments should be considered. ">
+        <entity id="DDI-DrugBank.d752.s8.e0" charOffset="38-49"
+            type="brand" text="VERSED Syrup"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d752.s9" text="The difficulty in achieving adequate sedation may have been the result of decreased absorption of the sedatives due to both the gastrointestinal effects and stimulant effects of methylphenidate. ">
+        <entity id="DDI-DrugBank.d752.s9.e0" charOffset="102-110"
+            type="group" text="sedatives"/>
+        <entity id="DDI-DrugBank.d752.s9.e1" charOffset="178-192"
+            type="drug" text="methylphenidate"/>
+        <pair id="DDI-DrugBank.d752.s9.p0" e1="DDI-DrugBank.d752.s9.e0"
+            e2="DDI-DrugBank.d752.s9.e1" ddi="false"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d752.s10" text="The sedative effect of VERSED Syrup is accentuated by any concomitantly administered medication which depresses the central nervous system, particularly narcotics (eg, morphine, meperidine and fentanyl), propofol, ketamine, nitrous oxide, secobarbital and droperidol. ">
+        <entity id="DDI-DrugBank.d752.s10.e0" charOffset="23-34"
+            type="brand" text="VERSED Syrup"/>
+        <entity id="DDI-DrugBank.d752.s10.e1" charOffset="153-161"
+            type="group" text="narcotics"/>
+        <entity id="DDI-DrugBank.d752.s10.e2" charOffset="168-175"
+            type="drug" text="morphine"/>
+        <entity id="DDI-DrugBank.d752.s10.e3" charOffset="178-187"
+            type="drug" text="meperidine"/>
+        <entity id="DDI-DrugBank.d752.s10.e4" charOffset="193-200"
+            type="drug" text="fentanyl"/>
+        <entity id="DDI-DrugBank.d752.s10.e5" charOffset="204-211"
+            type="drug" text="propofol"/>
+        <entity id="DDI-DrugBank.d752.s10.e6" charOffset="214-221"
+            type="drug" text="ketamine"/>
+        <entity id="DDI-DrugBank.d752.s10.e7" charOffset="224-236"
+            type="drug" text="nitrous oxide"/>
+        <entity id="DDI-DrugBank.d752.s10.e8" charOffset="239-250"
+            type="drug" text="secobarbital"/>
+        <entity id="DDI-DrugBank.d752.s10.e9" charOffset="256-265"
+            type="drug" text="droperidol"/>
+        <pair id="DDI-DrugBank.d752.s10.p0"
+            e1="DDI-DrugBank.d752.s10.e0" e2="DDI-DrugBank.d752.s10.e1"
+            ddi="true" type="effect"/>
+        <pair id="DDI-DrugBank.d752.s10.p1"
+            e1="DDI-DrugBank.d752.s10.e0" e2="DDI-DrugBank.d752.s10.e2"
+            ddi="true" type="effect"/>
+        <pair id="DDI-DrugBank.d752.s10.p2"
+            e1="DDI-DrugBank.d752.s10.e0" e2="DDI-DrugBank.d752.s10.e3"
+            ddi="true" type="effect"/>
+        <pair id="DDI-DrugBank.d752.s10.p3"
+            e1="DDI-DrugBank.d752.s10.e0" e2="DDI-DrugBank.d752.s10.e4"
+            ddi="true" type="effect"/>
+        <pair id="DDI-DrugBank.d752.s10.p4"
+            e1="DDI-DrugBank.d752.s10.e0" e2="DDI-DrugBank.d752.s10.e5"
+            ddi="true" type="effect"/>
+        <pair id="DDI-DrugBank.d752.s10.p5"
+            e1="DDI-DrugBank.d752.s10.e0" e2="DDI-DrugBank.d752.s10.e6"
+            ddi="true" type="effect"/>
+        <pair id="DDI-DrugBank.d752.s10.p6"
+            e1="DDI-DrugBank.d752.s10.e0" e2="DDI-DrugBank.d752.s10.e7"
+            ddi="true" type="effect"/>
+        <pair id="DDI-DrugBank.d752.s10.p7"
+            e1="DDI-DrugBank.d752.s10.e0" e2="DDI-DrugBank.d752.s10.e8"
+            ddi="true" type="effect"/>
+        <pair id="DDI-DrugBank.d752.s10.p8"
+            e1="DDI-DrugBank.d752.s10.e0" e2="DDI-DrugBank.d752.s10.e9"
+            ddi="true" type="effect"/>
+        <pair id="DDI-DrugBank.d752.s10.p9"
+            e1="DDI-DrugBank.d752.s10.e1" e2="DDI-DrugBank.d752.s10.e2" ddi="false"/>
+        <pair id="DDI-DrugBank.d752.s10.p10"
+            e1="DDI-DrugBank.d752.s10.e1" e2="DDI-DrugBank.d752.s10.e3" ddi="false"/>
+        <pair id="DDI-DrugBank.d752.s10.p11"
+            e1="DDI-DrugBank.d752.s10.e1" e2="DDI-DrugBank.d752.s10.e4" ddi="false"/>
+        <pair id="DDI-DrugBank.d752.s10.p12"
+            e1="DDI-DrugBank.d752.s10.e1" e2="DDI-DrugBank.d752.s10.e5" ddi="false"/>
+        <pair id="DDI-DrugBank.d752.s10.p13"
+            e1="DDI-DrugBank.d752.s10.e1" e2="DDI-DrugBank.d752.s10.e6" ddi="false"/>
+        <pair id="DDI-DrugBank.d752.s10.p14"
+            e1="DDI-DrugBank.d752.s10.e1" e2="DDI-DrugBank.d752.s10.e7" ddi="false"/>
+        <pair id="DDI-DrugBank.d752.s10.p15"
+            e1="DDI-DrugBank.d752.s10.e1" e2="DDI-DrugBank.d752.s10.e8" ddi="false"/>
+        <pair id="DDI-DrugBank.d752.s10.p16"
+            e1="DDI-DrugBank.d752.s10.e1" e2="DDI-DrugBank.d752.s10.e9" ddi="false"/>
+        <pair id="DDI-DrugBank.d752.s10.p17"
+            e1="DDI-DrugBank.d752.s10.e2" e2="DDI-DrugBank.d752.s10.e3" ddi="false"/>
+        <pair id="DDI-DrugBank.d752.s10.p18"
+            e1="DDI-DrugBank.d752.s10.e2" e2="DDI-DrugBank.d752.s10.e4" ddi="false"/>
+        <pair id="DDI-DrugBank.d752.s10.p19"
+            e1="DDI-DrugBank.d752.s10.e2" e2="DDI-DrugBank.d752.s10.e5" ddi="false"/>
+        <pair id="DDI-DrugBank.d752.s10.p20"
+            e1="DDI-DrugBank.d752.s10.e2" e2="DDI-DrugBank.d752.s10.e6" ddi="false"/>
+        <pair id="DDI-DrugBank.d752.s10.p21"
+            e1="DDI-DrugBank.d752.s10.e2" e2="DDI-DrugBank.d752.s10.e7" ddi="false"/>
+        <pair id="DDI-DrugBank.d752.s10.p22"
+            e1="DDI-DrugBank.d752.s10.e2" e2="DDI-DrugBank.d752.s10.e8" ddi="false"/>
+        <pair id="DDI-DrugBank.d752.s10.p23"
+            e1="DDI-DrugBank.d752.s10.e2" e2="DDI-DrugBank.d752.s10.e9" ddi="false"/>
+        <pair id="DDI-DrugBank.d752.s10.p24"
+            e1="DDI-DrugBank.d752.s10.e3" e2="DDI-DrugBank.d752.s10.e4" ddi="false"/>
+        <pair id="DDI-DrugBank.d752.s10.p25"
+            e1="DDI-DrugBank.d752.s10.e3" e2="DDI-DrugBank.d752.s10.e5" ddi="false"/>
+        <pair id="DDI-DrugBank.d752.s10.p26"
+            e1="DDI-DrugBank.d752.s10.e3" e2="DDI-DrugBank.d752.s10.e6" ddi="false"/>
+        <pair id="DDI-DrugBank.d752.s10.p27"
+            e1="DDI-DrugBank.d752.s10.e3" e2="DDI-DrugBank.d752.s10.e7" ddi="false"/>
+        <pair id="DDI-DrugBank.d752.s10.p28"
+            e1="DDI-DrugBank.d752.s10.e3" e2="DDI-DrugBank.d752.s10.e8" ddi="false"/>
+        <pair id="DDI-DrugBank.d752.s10.p29"
+            e1="DDI-DrugBank.d752.s10.e3" e2="DDI-DrugBank.d752.s10.e9" ddi="false"/>
+        <pair id="DDI-DrugBank.d752.s10.p30"
+            e1="DDI-DrugBank.d752.s10.e4" e2="DDI-DrugBank.d752.s10.e5" ddi="false"/>
+        <pair id="DDI-DrugBank.d752.s10.p31"
+            e1="DDI-DrugBank.d752.s10.e4" e2="DDI-DrugBank.d752.s10.e6" ddi="false"/>
+        <pair id="DDI-DrugBank.d752.s10.p32"
+            e1="DDI-DrugBank.d752.s10.e4" e2="DDI-DrugBank.d752.s10.e7" ddi="false"/>
+        <pair id="DDI-DrugBank.d752.s10.p33"
+            e1="DDI-DrugBank.d752.s10.e4" e2="DDI-DrugBank.d752.s10.e8" ddi="false"/>
+        <pair id="DDI-DrugBank.d752.s10.p34"
+            e1="DDI-DrugBank.d752.s10.e4" e2="DDI-DrugBank.d752.s10.e9" ddi="false"/>
+        <pair id="DDI-DrugBank.d752.s10.p35"
+            e1="DDI-DrugBank.d752.s10.e5" e2="DDI-DrugBank.d752.s10.e6" ddi="false"/>
+        <pair id="DDI-DrugBank.d752.s10.p36"
+            e1="DDI-DrugBank.d752.s10.e5" e2="DDI-DrugBank.d752.s10.e7" ddi="false"/>
+        <pair id="DDI-DrugBank.d752.s10.p37"
+            e1="DDI-DrugBank.d752.s10.e5" e2="DDI-DrugBank.d752.s10.e8" ddi="false"/>
+        <pair id="DDI-DrugBank.d752.s10.p38"
+            e1="DDI-DrugBank.d752.s10.e5" e2="DDI-DrugBank.d752.s10.e9" ddi="false"/>
+        <pair id="DDI-DrugBank.d752.s10.p39"
+            e1="DDI-DrugBank.d752.s10.e6" e2="DDI-DrugBank.d752.s10.e7" ddi="false"/>
+        <pair id="DDI-DrugBank.d752.s10.p40"
+            e1="DDI-DrugBank.d752.s10.e6" e2="DDI-DrugBank.d752.s10.e8" ddi="false"/>
+        <pair id="DDI-DrugBank.d752.s10.p41"
+            e1="DDI-DrugBank.d752.s10.e6" e2="DDI-DrugBank.d752.s10.e9" ddi="false"/>
+        <pair id="DDI-DrugBank.d752.s10.p42"
+            e1="DDI-DrugBank.d752.s10.e7" e2="DDI-DrugBank.d752.s10.e8" ddi="false"/>
+        <pair id="DDI-DrugBank.d752.s10.p43"
+            e1="DDI-DrugBank.d752.s10.e7" e2="DDI-DrugBank.d752.s10.e9" ddi="false"/>
+        <pair id="DDI-DrugBank.d752.s10.p44"
+            e1="DDI-DrugBank.d752.s10.e8" e2="DDI-DrugBank.d752.s10.e9" ddi="false"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d752.s11" text="Consequently, the dose of VERSED Syrup should be adjusted according to the type and amount of concomitant medications administered and the desired clinical response. ">
+        <entity id="DDI-DrugBank.d752.s11.e0" charOffset="26-37"
+            type="brand" text="VERSED Syrup"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d752.s12" text="No significant adverse interactions with common premedications (such as atropine, scopolamine, glycopyrrolate, diazepam, hydroxyzine, and other muscle relaxants) or local anesthetics have been observed.">
+        <entity id="DDI-DrugBank.d752.s12.e0" charOffset="72-79"
+            type="drug" text="atropine"/>
+        <entity id="DDI-DrugBank.d752.s12.e1" charOffset="82-92"
+            type="drug" text="scopolamine"/>
+        <entity id="DDI-DrugBank.d752.s12.e2" charOffset="95-108"
+            type="drug" text="glycopyrrolate"/>
+        <entity id="DDI-DrugBank.d752.s12.e3" charOffset="111-118"
+            type="drug" text="diazepam"/>
+        <entity id="DDI-DrugBank.d752.s12.e4" charOffset="121-131"
+            type="drug" text="hydroxyzine"/>
+        <entity id="DDI-DrugBank.d752.s12.e5" charOffset="144-159"
+            type="group" text="muscle relaxants"/>
+        <entity id="DDI-DrugBank.d752.s12.e6" charOffset="171-181"
+            type="group" text="anesthetics"/>
+        <pair id="DDI-DrugBank.d752.s12.p0"
+            e1="DDI-DrugBank.d752.s12.e0" e2="DDI-DrugBank.d752.s12.e1" ddi="false"/>
+        <pair id="DDI-DrugBank.d752.s12.p1"
+            e1="DDI-DrugBank.d752.s12.e0" e2="DDI-DrugBank.d752.s12.e2" ddi="false"/>
+        <pair id="DDI-DrugBank.d752.s12.p2"
+            e1="DDI-DrugBank.d752.s12.e0" e2="DDI-DrugBank.d752.s12.e3" ddi="false"/>
+        <pair id="DDI-DrugBank.d752.s12.p3"
+            e1="DDI-DrugBank.d752.s12.e0" e2="DDI-DrugBank.d752.s12.e4" ddi="false"/>
+        <pair id="DDI-DrugBank.d752.s12.p4"
+            e1="DDI-DrugBank.d752.s12.e0" e2="DDI-DrugBank.d752.s12.e5" ddi="false"/>
+        <pair id="DDI-DrugBank.d752.s12.p5"
+            e1="DDI-DrugBank.d752.s12.e0" e2="DDI-DrugBank.d752.s12.e6" ddi="false"/>
+        <pair id="DDI-DrugBank.d752.s12.p6"
+            e1="DDI-DrugBank.d752.s12.e1" e2="DDI-DrugBank.d752.s12.e2" ddi="false"/>
+        <pair id="DDI-DrugBank.d752.s12.p7"
+            e1="DDI-DrugBank.d752.s12.e1" e2="DDI-DrugBank.d752.s12.e3" ddi="false"/>
+        <pair id="DDI-DrugBank.d752.s12.p8"
+            e1="DDI-DrugBank.d752.s12.e1" e2="DDI-DrugBank.d752.s12.e4" ddi="false"/>
+        <pair id="DDI-DrugBank.d752.s12.p9"
+            e1="DDI-DrugBank.d752.s12.e1" e2="DDI-DrugBank.d752.s12.e5" ddi="false"/>
+        <pair id="DDI-DrugBank.d752.s12.p10"
+            e1="DDI-DrugBank.d752.s12.e1" e2="DDI-DrugBank.d752.s12.e6" ddi="false"/>
+        <pair id="DDI-DrugBank.d752.s12.p11"
+            e1="DDI-DrugBank.d752.s12.e2" e2="DDI-DrugBank.d752.s12.e3" ddi="false"/>
+        <pair id="DDI-DrugBank.d752.s12.p12"
+            e1="DDI-DrugBank.d752.s12.e2" e2="DDI-DrugBank.d752.s12.e4" ddi="false"/>
+        <pair id="DDI-DrugBank.d752.s12.p13"
+            e1="DDI-DrugBank.d752.s12.e2" e2="DDI-DrugBank.d752.s12.e5" ddi="false"/>
+        <pair id="DDI-DrugBank.d752.s12.p14"
+            e1="DDI-DrugBank.d752.s12.e2" e2="DDI-DrugBank.d752.s12.e6" ddi="false"/>
+        <pair id="DDI-DrugBank.d752.s12.p15"
+            e1="DDI-DrugBank.d752.s12.e3" e2="DDI-DrugBank.d752.s12.e4" ddi="false"/>
+        <pair id="DDI-DrugBank.d752.s12.p16"
+            e1="DDI-DrugBank.d752.s12.e3" e2="DDI-DrugBank.d752.s12.e5" ddi="false"/>
+        <pair id="DDI-DrugBank.d752.s12.p17"
+            e1="DDI-DrugBank.d752.s12.e3" e2="DDI-DrugBank.d752.s12.e6" ddi="false"/>
+        <pair id="DDI-DrugBank.d752.s12.p18"
+            e1="DDI-DrugBank.d752.s12.e4" e2="DDI-DrugBank.d752.s12.e5" ddi="false"/>
+        <pair id="DDI-DrugBank.d752.s12.p19"
+            e1="DDI-DrugBank.d752.s12.e4" e2="DDI-DrugBank.d752.s12.e6" ddi="false"/>
+        <pair id="DDI-DrugBank.d752.s12.p20"
+            e1="DDI-DrugBank.d752.s12.e5" e2="DDI-DrugBank.d752.s12.e6" ddi="false"/>
+    </sentence>
+</document>

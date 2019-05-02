@@ -1,0 +1,165 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="DDI-DrugBank.d234">
+    <sentence id="DDI-DrugBank.d234.s0" text="Interaction with central nervous system depressants other than benzodiazepines has not been specifically studied;">
+        <entity id="DDI-DrugBank.d234.s0.e0" charOffset="17-50"
+            type="group" text="central nervous system depressants"/>
+        <entity id="DDI-DrugBank.d234.s0.e1" charOffset="63-77"
+            type="group" text="benzodiazepines"/>
+        <pair id="DDI-DrugBank.d234.s0.p0" e1="DDI-DrugBank.d234.s0.e0"
+            e2="DDI-DrugBank.d234.s0.e1" ddi="false"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d234.s1" text="however, no deleterious interactions were seen when ROMAZICON was administered after narcotics, inhalational anesthetics, muscle relaxants and muscle relaxant antagonists administered in conjunction with sedation or anesthesia.">
+        <entity id="DDI-DrugBank.d234.s1.e0" charOffset="52-60"
+            type="brand" text="ROMAZICON"/>
+        <entity id="DDI-DrugBank.d234.s1.e1" charOffset="85-93"
+            type="group" text="narcotics"/>
+        <entity id="DDI-DrugBank.d234.s1.e2" charOffset="109-119"
+            type="group" text="anesthetics"/>
+        <entity id="DDI-DrugBank.d234.s1.e3" charOffset="122-137"
+            type="group" text="muscle relaxants"/>
+        <pair id="DDI-DrugBank.d234.s1.p0" e1="DDI-DrugBank.d234.s1.e0"
+            e2="DDI-DrugBank.d234.s1.e1" ddi="false"/>
+        <pair id="DDI-DrugBank.d234.s1.p1" e1="DDI-DrugBank.d234.s1.e0"
+            e2="DDI-DrugBank.d234.s1.e2" ddi="false"/>
+        <pair id="DDI-DrugBank.d234.s1.p2" e1="DDI-DrugBank.d234.s1.e0"
+            e2="DDI-DrugBank.d234.s1.e3" ddi="false"/>
+        <pair id="DDI-DrugBank.d234.s1.p3" e1="DDI-DrugBank.d234.s1.e1"
+            e2="DDI-DrugBank.d234.s1.e2" ddi="false"/>
+        <pair id="DDI-DrugBank.d234.s1.p4" e1="DDI-DrugBank.d234.s1.e1"
+            e2="DDI-DrugBank.d234.s1.e3" ddi="false"/>
+        <pair id="DDI-DrugBank.d234.s1.p5" e1="DDI-DrugBank.d234.s1.e2"
+            e2="DDI-DrugBank.d234.s1.e3" ddi="false"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d234.s2" text="Particular caution is necessary when using ROMAZICON in cases of mixed drug overdosage since the toxic effects (such as convulsions and cardiac dysrhythmias) of other drugs taken in overdose (especially cyclic antidepressants) may emerge with the reversal of the benzodiazepine effect by flumazenil.">
+        <entity id="DDI-DrugBank.d234.s2.e0" charOffset="43-51"
+            type="brand" text="ROMAZICON"/>
+        <entity id="DDI-DrugBank.d234.s2.e1" charOffset="203-224"
+            type="group" text="cyclic antidepressants"/>
+        <entity id="DDI-DrugBank.d234.s2.e2" charOffset="263-276"
+            type="group" text="benzodiazepine"/>
+        <entity id="DDI-DrugBank.d234.s2.e3" charOffset="288-297"
+            type="drug" text="flumazenil"/>
+        <pair id="DDI-DrugBank.d234.s2.p0" e1="DDI-DrugBank.d234.s2.e0"
+            e2="DDI-DrugBank.d234.s2.e1" ddi="true" type="effect"/>
+        <pair id="DDI-DrugBank.d234.s2.p1" e1="DDI-DrugBank.d234.s2.e0"
+            e2="DDI-DrugBank.d234.s2.e2" ddi="false"/>
+        <pair id="DDI-DrugBank.d234.s2.p2" e1="DDI-DrugBank.d234.s2.e0"
+            e2="DDI-DrugBank.d234.s2.e3" ddi="false"/>
+        <pair id="DDI-DrugBank.d234.s2.p3" e1="DDI-DrugBank.d234.s2.e1"
+            e2="DDI-DrugBank.d234.s2.e2" ddi="false"/>
+        <pair id="DDI-DrugBank.d234.s2.p4" e1="DDI-DrugBank.d234.s2.e1"
+            e2="DDI-DrugBank.d234.s2.e3" ddi="false"/>
+        <pair id="DDI-DrugBank.d234.s2.p5" e1="DDI-DrugBank.d234.s2.e2"
+            e2="DDI-DrugBank.d234.s2.e3" ddi="false"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d234.s3" text="The use of ROMAZICON is not recommended in epileptic patients who have been receiving benzodiazepine treatment for a prolonged period.">
+        <entity id="DDI-DrugBank.d234.s3.e0" charOffset="11-19"
+            type="brand" text="ROMAZICON"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d234.s4" text="Although ROMAZICON exerts a slight intrinsic anticonvulsant effect, its abrupt suppression of the protective effect of a benzodiazepine agonist can give rise to convulsions in epileptic patients.">
+        <entity id="DDI-DrugBank.d234.s4.e0" charOffset="9-17"
+            type="brand" text="ROMAZICON"/>
+        <entity id="DDI-DrugBank.d234.s4.e1" charOffset="121-134"
+            type="group" text="benzodiazepine"/>
+        <pair id="DDI-DrugBank.d234.s4.p0" e1="DDI-DrugBank.d234.s4.e0"
+            e2="DDI-DrugBank.d234.s4.e1" ddi="true" type="effect"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d234.s5" text="ROMAZICON blocks the central effects of benzodiazepines by competitive interaction at the receptor level.">
+        <entity id="DDI-DrugBank.d234.s5.e0" charOffset="0-8"
+            type="brand" text="ROMAZICON"/>
+        <entity id="DDI-DrugBank.d234.s5.e1" charOffset="40-54"
+            type="group" text="benzodiazepines"/>
+        <pair id="DDI-DrugBank.d234.s5.p0" e1="DDI-DrugBank.d234.s5.e0"
+            e2="DDI-DrugBank.d234.s5.e1" ddi="true" type="effect"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d234.s6" text="The effects of nonbenzodiazepine agonists at benzodiazepine receptors, such as zopiclone, triazolopyridazines and others, are also blocked by ROMAZICON.">
+        <entity id="DDI-DrugBank.d234.s6.e0" charOffset="79-87"
+            type="drug" text="zopiclone"/>
+        <entity id="DDI-DrugBank.d234.s6.e1" charOffset="142-150"
+            type="brand" text="ROMAZICON"/>
+        <pair id="DDI-DrugBank.d234.s6.p0" e1="DDI-DrugBank.d234.s6.e0"
+            e2="DDI-DrugBank.d234.s6.e1" ddi="true" type="effect"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d234.s7" text="The pharmacokinetics of benzodiazepines are unaltered in the presence of flumazenil and vice versa.">
+        <entity id="DDI-DrugBank.d234.s7.e0" charOffset="24-38"
+            type="group" text="benzodiazepines"/>
+        <entity id="DDI-DrugBank.d234.s7.e1" charOffset="73-82"
+            type="drug" text="flumazenil"/>
+        <pair id="DDI-DrugBank.d234.s7.p0" e1="DDI-DrugBank.d234.s7.e0"
+            e2="DDI-DrugBank.d234.s7.e1" ddi="false"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d234.s8" text="There is no pharmacokinetic interaction between ethanol and flumazenil.">
+        <entity id="DDI-DrugBank.d234.s8.e0" charOffset="48-54"
+            type="drug" text="ethanol"/>
+        <entity id="DDI-DrugBank.d234.s8.e1" charOffset="60-69"
+            type="drug" text="flumazenil"/>
+        <pair id="DDI-DrugBank.d234.s8.p0" e1="DDI-DrugBank.d234.s8.e0"
+            e2="DDI-DrugBank.d234.s8.e1" ddi="false"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d234.s9" text="Use in Ambulatory Patients The effects of ROMAZICON may wear off before a long-acting benzodiazepine is completely cleared from the body.">
+        <entity id="DDI-DrugBank.d234.s9.e0" charOffset="42-50"
+            type="brand" text="ROMAZICON"/>
+        <entity id="DDI-DrugBank.d234.s9.e1" charOffset="74-99"
+            type="group" text="long-acting benzodiazepine"/>
+        <pair id="DDI-DrugBank.d234.s9.p0" e1="DDI-DrugBank.d234.s9.e0"
+            e2="DDI-DrugBank.d234.s9.e1" ddi="false"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d234.s10" text="In general, if a patient shows no signs of sedation within 2 hours after a 1-mg dose of flumazenil, serious resedation at a later time is unlikely.">
+        <entity id="DDI-DrugBank.d234.s10.e0" charOffset="88-97"
+            type="drug" text="flumazenil"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d234.s11" text="An adequate period of observation must be provided for any patient in whom either long-acting benzodiazepines (such as diazepam) or large doses of short-acting benzodiazepines (such as  10 mg of midazolam) have been used.">
+        <entity id="DDI-DrugBank.d234.s11.e0" charOffset="82-108"
+            type="group" text="long-acting benzodiazepines"/>
+        <entity id="DDI-DrugBank.d234.s11.e1" charOffset="119-126"
+            type="drug" text="diazepam"/>
+        <entity id="DDI-DrugBank.d234.s11.e2" charOffset="147-174"
+            type="group" text="short-acting benzodiazepines"/>
+        <entity id="DDI-DrugBank.d234.s11.e3" charOffset="195-203"
+            type="drug" text="midazolam"/>
+        <pair id="DDI-DrugBank.d234.s11.p0"
+            e1="DDI-DrugBank.d234.s11.e0" e2="DDI-DrugBank.d234.s11.e1" ddi="false"/>
+        <pair id="DDI-DrugBank.d234.s11.p1"
+            e1="DDI-DrugBank.d234.s11.e0" e2="DDI-DrugBank.d234.s11.e2" ddi="false"/>
+        <pair id="DDI-DrugBank.d234.s11.p2"
+            e1="DDI-DrugBank.d234.s11.e0" e2="DDI-DrugBank.d234.s11.e3" ddi="false"/>
+        <pair id="DDI-DrugBank.d234.s11.p3"
+            e1="DDI-DrugBank.d234.s11.e1" e2="DDI-DrugBank.d234.s11.e2" ddi="false"/>
+        <pair id="DDI-DrugBank.d234.s11.p4"
+            e1="DDI-DrugBank.d234.s11.e1" e2="DDI-DrugBank.d234.s11.e3" ddi="false"/>
+        <pair id="DDI-DrugBank.d234.s11.p5"
+            e1="DDI-DrugBank.d234.s11.e2" e2="DDI-DrugBank.d234.s11.e3" ddi="false"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d234.s12" text="Because of the increased risk of adverse reactions in patients who have been taking benzodiazepines on a regular basis, it is particularly important that physicians query patients or their guardians carefully about benzodiazepine, alcohol and sedative use as part of the history prior to any procedure in which the use of ROMAZICON is planned.">
+        <entity id="DDI-DrugBank.d234.s12.e0" charOffset="84-98"
+            type="group" text="benzodiazepines"/>
+        <entity id="DDI-DrugBank.d234.s12.e1" charOffset="215-228"
+            type="group" text="benzodiazepine"/>
+        <entity id="DDI-DrugBank.d234.s12.e2" charOffset="231-237"
+            type="drug" text="alcohol"/>
+        <entity id="DDI-DrugBank.d234.s12.e3" charOffset="243-250"
+            type="group" text="sedative"/>
+        <entity id="DDI-DrugBank.d234.s12.e4" charOffset="322-330"
+            type="brand" text="ROMAZICON"/>
+        <pair id="DDI-DrugBank.d234.s12.p0"
+            e1="DDI-DrugBank.d234.s12.e0" e2="DDI-DrugBank.d234.s12.e1" ddi="false"/>
+        <pair id="DDI-DrugBank.d234.s12.p1"
+            e1="DDI-DrugBank.d234.s12.e0" e2="DDI-DrugBank.d234.s12.e2" ddi="false"/>
+        <pair id="DDI-DrugBank.d234.s12.p2"
+            e1="DDI-DrugBank.d234.s12.e0" e2="DDI-DrugBank.d234.s12.e3" ddi="false"/>
+        <pair id="DDI-DrugBank.d234.s12.p3"
+            e1="DDI-DrugBank.d234.s12.e0" e2="DDI-DrugBank.d234.s12.e4" ddi="false"/>
+        <pair id="DDI-DrugBank.d234.s12.p4"
+            e1="DDI-DrugBank.d234.s12.e1" e2="DDI-DrugBank.d234.s12.e2" ddi="false"/>
+        <pair id="DDI-DrugBank.d234.s12.p5"
+            e1="DDI-DrugBank.d234.s12.e1" e2="DDI-DrugBank.d234.s12.e3" ddi="false"/>
+        <pair id="DDI-DrugBank.d234.s12.p6"
+            e1="DDI-DrugBank.d234.s12.e1" e2="DDI-DrugBank.d234.s12.e4" ddi="false"/>
+        <pair id="DDI-DrugBank.d234.s12.p7"
+            e1="DDI-DrugBank.d234.s12.e2" e2="DDI-DrugBank.d234.s12.e3" ddi="false"/>
+        <pair id="DDI-DrugBank.d234.s12.p8"
+            e1="DDI-DrugBank.d234.s12.e2" e2="DDI-DrugBank.d234.s12.e4" ddi="false"/>
+        <pair id="DDI-DrugBank.d234.s12.p9"
+            e1="DDI-DrugBank.d234.s12.e3" e2="DDI-DrugBank.d234.s12.e4" ddi="false"/>
+    </sentence>
+</document>

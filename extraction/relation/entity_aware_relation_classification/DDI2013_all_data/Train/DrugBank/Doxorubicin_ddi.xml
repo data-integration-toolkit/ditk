@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="DDI-DrugBank.d127">
+    <sentence id="DDI-DrugBank.d127.s0" text="No formal drug interaction studies have been conducted with DOXIL  .">
+        <entity id="DDI-DrugBank.d127.s0.e0" charOffset="60-64"
+            type="brand" text="DOXIL"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d127.s1" text="Until specific compatibility data are available, it is not recommended that DOXIL  be mixed with other drugs.">
+        <entity id="DDI-DrugBank.d127.s1.e0" charOffset="76-80"
+            type="brand" text="DOXIL"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d127.s2" text="DOXIL  may interact with drugs known to interact with the conventional formulation of doxorubicin HCl.">
+        <entity id="DDI-DrugBank.d127.s2.e0" charOffset="0-4"
+            type="brand" text="DOXIL"/>
+        <entity id="DDI-DrugBank.d127.s2.e1" charOffset="86-100"
+            type="drug" text="doxorubicin HCl"/>
+        <pair id="DDI-DrugBank.d127.s2.p0" e1="DDI-DrugBank.d127.s2.e0"
+            e2="DDI-DrugBank.d127.s2.e1" ddi="false"/>
+    </sentence>
+</document>

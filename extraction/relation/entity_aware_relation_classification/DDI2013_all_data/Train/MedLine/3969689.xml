@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="DDI-MedLine.d55">
+    <sentence id="DDI-MedLine.d55.s0" text="Increased hepatotoxicity of acetaminophen by concomitant administration of caffeine in the rat.">
+        <entity id="DDI-MedLine.d55.s0.e0" charOffset="28-40"
+            type="drug" text="acetaminophen"/>
+        <entity id="DDI-MedLine.d55.s0.e1" charOffset="75-82"
+            type="drug" text="caffeine"/>
+        <pair id="DDI-MedLine.d55.s0.p0" e1="DDI-MedLine.d55.s0.e0"
+            e2="DDI-MedLine.d55.s0.e1" ddi="true" type="effect"/>
+    </sentence>
+    <sentence id="DDI-MedLine.d55.s1" text="Since caffeine is frequently co-administered with acetaminophen, it is of clinical interest to study the effect of caffeine on the hepatotoxicity of acetaminophen. ">
+        <entity id="DDI-MedLine.d55.s1.e0" charOffset="6-13" type="drug" text="caffeine"/>
+        <entity id="DDI-MedLine.d55.s1.e1" charOffset="50-62"
+            type="drug" text="acetaminophen"/>
+        <entity id="DDI-MedLine.d55.s1.e2" charOffset="115-122"
+            type="drug" text="caffeine"/>
+        <entity id="DDI-MedLine.d55.s1.e3" charOffset="149-161"
+            type="drug" text="acetaminophen"/>
+        <pair id="DDI-MedLine.d55.s1.p0" e1="DDI-MedLine.d55.s1.e0"
+            e2="DDI-MedLine.d55.s1.e1" ddi="false"/>
+        <pair id="DDI-MedLine.d55.s1.p1" e1="DDI-MedLine.d55.s1.e0"
+            e2="DDI-MedLine.d55.s1.e2" ddi="false"/>
+        <pair id="DDI-MedLine.d55.s1.p2" e1="DDI-MedLine.d55.s1.e0"
+            e2="DDI-MedLine.d55.s1.e3" ddi="false"/>
+        <pair id="DDI-MedLine.d55.s1.p3" e1="DDI-MedLine.d55.s1.e1"
+            e2="DDI-MedLine.d55.s1.e2" ddi="false"/>
+        <pair id="DDI-MedLine.d55.s1.p4" e1="DDI-MedLine.d55.s1.e1"
+            e2="DDI-MedLine.d55.s1.e3" ddi="false"/>
+        <pair id="DDI-MedLine.d55.s1.p5" e1="DDI-MedLine.d55.s1.e2"
+            e2="DDI-MedLine.d55.s1.e3" ddi="false"/>
+    </sentence>
+    <sentence id="DDI-MedLine.d55.s2" text="In male Sprague-Dawley rats fasted for 18 h, concomitant administration of caffeine (0.1 g/kg, i.p.) ">
+        <entity id="DDI-MedLine.d55.s2.e0" charOffset="75-82"
+            type="drug" text="caffeine"/>
+    </sentence>
+    <sentence id="DDI-MedLine.d55.s3" text="as judged by increased serum enzyme activities and increased incidence of hepatic necrosis. "/>
+    <sentence id="DDI-MedLine.d55.s4" text="Careful observations on hepatotoxicity are suggested when acetaminophen is prescribed with caffeine.">
+        <entity id="DDI-MedLine.d55.s4.e0" charOffset="58-70"
+            type="drug" text="acetaminophen"/>
+        <entity id="DDI-MedLine.d55.s4.e1" charOffset="91-98"
+            type="drug" text="caffeine"/>
+        <pair id="DDI-MedLine.d55.s4.p0" e1="DDI-MedLine.d55.s4.e0"
+            e2="DDI-MedLine.d55.s4.e1" ddi="true" type="effect"/>
+    </sentence>
+</document>

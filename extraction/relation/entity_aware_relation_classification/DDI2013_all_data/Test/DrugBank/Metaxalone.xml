@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="DDI-DrugBank.d605">
+    <sentence id="DDI-DrugBank.d605.s0" text="SKELAXIN may enhance the effects of alcohol, barbiturates and other CNS depressants.">
+        <entity id="DDI-DrugBank.d605.s0.e0" charOffset="0-7"
+            type="brand" text="SKELAXIN"/>
+        <entity id="DDI-DrugBank.d605.s0.e1" charOffset="36-42"
+            type="drug" text="alcohol"/>
+        <entity id="DDI-DrugBank.d605.s0.e2" charOffset="45-56"
+            type="group" text="barbiturates"/>
+        <entity id="DDI-DrugBank.d605.s0.e3" charOffset="68-82"
+            type="group" text="CNS depressants"/>
+        <pair id="DDI-DrugBank.d605.s0.p0" e1="DDI-DrugBank.d605.s0.e0"
+            e2="DDI-DrugBank.d605.s0.e1" ddi="true" type="effect"/>
+        <pair id="DDI-DrugBank.d605.s0.p1" e1="DDI-DrugBank.d605.s0.e0"
+            e2="DDI-DrugBank.d605.s0.e2" ddi="true" type="effect"/>
+        <pair id="DDI-DrugBank.d605.s0.p2" e1="DDI-DrugBank.d605.s0.e0"
+            e2="DDI-DrugBank.d605.s0.e3" ddi="true" type="effect"/>
+        <pair id="DDI-DrugBank.d605.s0.p3" e1="DDI-DrugBank.d605.s0.e1"
+            e2="DDI-DrugBank.d605.s0.e2" ddi="false"/>
+        <pair id="DDI-DrugBank.d605.s0.p4" e1="DDI-DrugBank.d605.s0.e1"
+            e2="DDI-DrugBank.d605.s0.e3" ddi="false"/>
+        <pair id="DDI-DrugBank.d605.s0.p5" e1="DDI-DrugBank.d605.s0.e2"
+            e2="DDI-DrugBank.d605.s0.e3" ddi="false"/>
+    </sentence>
+</document>

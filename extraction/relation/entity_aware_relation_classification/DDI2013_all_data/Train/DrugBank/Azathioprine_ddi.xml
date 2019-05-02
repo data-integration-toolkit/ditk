@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="DDI-DrugBank.d233">
+    <sentence id="DDI-DrugBank.d233.s0" text="Use with Allopurinol: The principal pathway for detoxification of azathioprine is inhibited by allopurinol.">
+        <entity id="DDI-DrugBank.d233.s0.e0" charOffset="9-19"
+            type="drug" text="Allopurinol"/>
+        <entity id="DDI-DrugBank.d233.s0.e1" charOffset="66-77"
+            type="drug" text="azathioprine"/>
+        <entity id="DDI-DrugBank.d233.s0.e2" charOffset="95-105"
+            type="drug" text="allopurinol"/>
+        <pair id="DDI-DrugBank.d233.s0.p0" e1="DDI-DrugBank.d233.s0.e0"
+            e2="DDI-DrugBank.d233.s0.e1" ddi="false"/>
+        <pair id="DDI-DrugBank.d233.s0.p1" e1="DDI-DrugBank.d233.s0.e0"
+            e2="DDI-DrugBank.d233.s0.e2" ddi="false"/>
+        <pair id="DDI-DrugBank.d233.s0.p2" e1="DDI-DrugBank.d233.s0.e1"
+            e2="DDI-DrugBank.d233.s0.e2" ddi="true" type="mechanism"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d233.s1" text="Patients receiving azathioprine and allopurinol concomitantly should have a dose reduction of azathioprine, to approximately 1/3 to 1/4 the usual dose.">
+        <entity id="DDI-DrugBank.d233.s1.e0" charOffset="19-30"
+            type="drug" text="azathioprine"/>
+        <entity id="DDI-DrugBank.d233.s1.e1" charOffset="36-46"
+            type="drug" text="allopurinol"/>
+        <entity id="DDI-DrugBank.d233.s1.e2" charOffset="94-105"
+            type="drug" text="azathioprine"/>
+        <pair id="DDI-DrugBank.d233.s1.p0" e1="DDI-DrugBank.d233.s1.e0"
+            e2="DDI-DrugBank.d233.s1.e1" ddi="true" type="advise"/>
+        <pair id="DDI-DrugBank.d233.s1.p1" e1="DDI-DrugBank.d233.s1.e0"
+            e2="DDI-DrugBank.d233.s1.e2" ddi="false"/>
+        <pair id="DDI-DrugBank.d233.s1.p2" e1="DDI-DrugBank.d233.s1.e1"
+            e2="DDI-DrugBank.d233.s1.e2" ddi="false"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d233.s2" text="Use with Other Agents Affecting Myelopoesis: Drugs which may affect leukocyte production, including co-trimoxazole, may lead to exaggerated leukopenia, especially in renal transplant recipients.">
+        <entity id="DDI-DrugBank.d233.s2.e0" charOffset="100-113"
+            type="brand" text="co-trimoxazole"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d233.s3" text="Use with Angiotensln Converting Enzyme Inhibitors: The use of angiotensin converting enzyme inhibitors to control hypertension in patients on azathioprine has been reported to induce severe leukopenia.">
+        <entity id="DDI-DrugBank.d233.s3.e0" charOffset="9-48"
+            type="group" text="Angiotensln Converting Enzyme Inhibitors"/>
+        <entity id="DDI-DrugBank.d233.s3.e1" charOffset="62-101"
+            type="group" text="angiotensin converting enzyme inhibitors"/>
+        <entity id="DDI-DrugBank.d233.s3.e2" charOffset="142-153"
+            type="drug" text="azathioprine"/>
+        <pair id="DDI-DrugBank.d233.s3.p0" e1="DDI-DrugBank.d233.s3.e0"
+            e2="DDI-DrugBank.d233.s3.e1" ddi="false"/>
+        <pair id="DDI-DrugBank.d233.s3.p1" e1="DDI-DrugBank.d233.s3.e0"
+            e2="DDI-DrugBank.d233.s3.e2" ddi="false"/>
+        <pair id="DDI-DrugBank.d233.s3.p2" e1="DDI-DrugBank.d233.s3.e1"
+            e2="DDI-DrugBank.d233.s3.e2" ddi="true" type="effect"/>
+    </sentence>
+</document>

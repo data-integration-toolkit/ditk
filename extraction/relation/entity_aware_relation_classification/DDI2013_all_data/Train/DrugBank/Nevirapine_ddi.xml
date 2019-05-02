@@ -1,0 +1,463 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="DDI-DrugBank.d270">
+    <sentence id="DDI-DrugBank.d270.s0" text="Nevirapine is principally metabolized by the liver via the cytochrome P450 isoenzymes, 3A4 and 2B6.">
+        <entity id="DDI-DrugBank.d270.s0.e0" charOffset="0-9"
+            type="drug" text="Nevirapine"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d270.s1" text="Nevirapine is known to be an inducer of these enzymes.">
+        <entity id="DDI-DrugBank.d270.s1.e0" charOffset="0-9"
+            type="drug" text="Nevirapine"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d270.s2" text="As a result, drugs that are metabolized by these enzyme systems may have lower than expected plasma levels when coadministered with nevirapine.">
+        <entity id="DDI-DrugBank.d270.s2.e0" charOffset="132-141"
+            type="drug" text="nevirapine"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d270.s3" text="The specific pharmacokinetic changes that occur with co-administration of nevirapine and other drugs are listed in CLINICAL PHARMACOLOGY, Table 1.">
+        <entity id="DDI-DrugBank.d270.s3.e0" charOffset="74-83"
+            type="drug" text="nevirapine"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d270.s4" text="Clinical comments about possible dosage modifications based on these pharmacokinetic changes are listed in Table 3."/>
+    <sentence id="DDI-DrugBank.d270.s5" text="The data inTables 1 and 3 are based on the results of drug interaction studies conducted in HIV-1 seropositive subjects unless otherwise indicated."/>
+    <sentence id="DDI-DrugBank.d270.s6" text="In addition to established drug interactions, there may be potential pharmacokinetic interactions between nevirapine and other drug classes that are metabolized by the cytochrome P450 system.">
+        <entity id="DDI-DrugBank.d270.s6.e0" charOffset="106-115"
+            type="drug" text="nevirapine"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d270.s7" text="These potential drug interactions are listed in Table 4."/>
+    <sentence id="DDI-DrugBank.d270.s8" text="Although specific drug interaction studies in HIV-1 seropositive subjects have not been conducted for the classes of drugs listed in Table 4, additional clinical monitoring may be warranted when co-administering these drugs."/>
+    <sentence id="DDI-DrugBank.d270.s9" text="The in vitro interaction between nevirapine and the antithrombotic agent warfarin is complex.">
+        <entity id="DDI-DrugBank.d270.s9.e0" charOffset="33-42"
+            type="drug" text="nevirapine"/>
+        <entity id="DDI-DrugBank.d270.s9.e1" charOffset="52-71"
+            type="group" text="antithrombotic agent"/>
+        <entity id="DDI-DrugBank.d270.s9.e2" charOffset="73-80"
+            type="drug" text="warfarin"/>
+        <pair id="DDI-DrugBank.d270.s9.p0" e1="DDI-DrugBank.d270.s9.e0"
+            e2="DDI-DrugBank.d270.s9.e1" ddi="false"/>
+        <pair id="DDI-DrugBank.d270.s9.p1" e1="DDI-DrugBank.d270.s9.e0"
+            e2="DDI-DrugBank.d270.s9.e2" ddi="true" type="int"/>
+        <pair id="DDI-DrugBank.d270.s9.p2" e1="DDI-DrugBank.d270.s9.e1"
+            e2="DDI-DrugBank.d270.s9.e2" ddi="false"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d270.s10" text="As a result, when giving these drugs concomitantly, plasma warfarin levels may change with the potential for increases in coagulation time.">
+        <entity id="DDI-DrugBank.d270.s10.e0" charOffset="59-66"
+            type="drug" text="warfarin"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d270.s11" text="When warfarin is co-administered with nevirapine, anticoagulation levels should be monitored frequently.">
+        <entity id="DDI-DrugBank.d270.s11.e0" charOffset="5-12"
+            type="drug" text="warfarin"/>
+        <entity id="DDI-DrugBank.d270.s11.e1" charOffset="38-47"
+            type="drug" text="nevirapine"/>
+        <pair id="DDI-DrugBank.d270.s11.p0"
+            e1="DDI-DrugBank.d270.s11.e0" e2="DDI-DrugBank.d270.s11.e1"
+            ddi="true" type="advise"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d270.s12" text="Table 3 Established Drug Interactions: Alteration in Dose or Regimen May Be Recommended Based on Drug Interaction Studies"/>
+    <sentence id="DDI-DrugBank.d270.s13" text="Drug Name"/>
+    <sentence id="DDI-DrugBank.d270.s14" text="Effect on Concentration of Nevirapine or Concomitant Drug">
+        <entity id="DDI-DrugBank.d270.s14.e0" charOffset="27-36"
+            type="drug" text="Nevirapine"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d270.s15" text="Clinical Comment"/>
+    <sentence id="DDI-DrugBank.d270.s16" text="Clarithromycin">
+        <entity id="DDI-DrugBank.d270.s16.e0" charOffset="0-13"
+            type="drug" text="Clarithromycin"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d270.s17" text="Clarithromycin  14OH- clarithromycin">
+        <entity id="DDI-DrugBank.d270.s17.e0" charOffset="0-13"
+            type="drug" text="Clarithromycin"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d270.s18" text="Clarithromycin exposure was significantly decreased by nevirapine;">
+        <entity id="DDI-DrugBank.d270.s18.e0" charOffset="0-13"
+            type="drug" text="Clarithromycin"/>
+        <entity id="DDI-DrugBank.d270.s18.e1" charOffset="55-64"
+            type="drug" text="nevirapine"/>
+        <pair id="DDI-DrugBank.d270.s18.p0"
+            e1="DDI-DrugBank.d270.s18.e0" e2="DDI-DrugBank.d270.s18.e1"
+            ddi="true" type="mechanism"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d270.s19" text="however, 14-OH metabolite concentrations were increased.Because clarithromycin active metabolite has reduced activity against Mycobacteriumavium-intracellulare complex, overallactivity against this pathogen may bealtered.">
+        <entity id="DDI-DrugBank.d270.s19.e0" charOffset="64-77"
+            type="drug" text="clarithromycin"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d270.s20" text="Alternatives to clarithromycin,such as azithromycin, should be considered.">
+        <entity id="DDI-DrugBank.d270.s20.e0" charOffset="16-29"
+            type="drug" text="clarithromycin"/>
+        <entity id="DDI-DrugBank.d270.s20.e1" charOffset="39-50"
+            type="drug" text="azithromycin"/>
+        <pair id="DDI-DrugBank.d270.s20.p0"
+            e1="DDI-DrugBank.d270.s20.e0" e2="DDI-DrugBank.d270.s20.e1" ddi="false"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d270.s21" text="Efavirenz">
+        <entity id="DDI-DrugBank.d270.s21.e0" charOffset="0-8"
+            type="drug" text="Efavirenz"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d270.s22" text="Efavirenz">
+        <entity id="DDI-DrugBank.d270.s22.e0" charOffset="0-8"
+            type="drug" text="Efavirenz"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d270.s23" text="Appropriate doses for this combination are not established."/>
+    <sentence id="DDI-DrugBank.d270.s24" text="Ethinyl estradiol and Norethindrone">
+        <entity id="DDI-DrugBank.d270.s24.e0" charOffset="0-16"
+            type="drug" text="Ethinyl estradiol"/>
+        <entity id="DDI-DrugBank.d270.s24.e1" charOffset="22-34"
+            type="drug" text="Norethindrone"/>
+        <pair id="DDI-DrugBank.d270.s24.p0"
+            e1="DDI-DrugBank.d270.s24.e0" e2="DDI-DrugBank.d270.s24.e1" ddi="false"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d270.s25" text="Ethinyl estradiol Norethindrone">
+        <entity id="DDI-DrugBank.d270.s25.e0" charOffset="0-16"
+            type="drug" text="Ethinyl estradiol"/>
+        <entity id="DDI-DrugBank.d270.s25.e1" charOffset="18-30"
+            type="drug" text="Norethindrone"/>
+        <pair id="DDI-DrugBank.d270.s25.p0"
+            e1="DDI-DrugBank.d270.s25.e0" e2="DDI-DrugBank.d270.s25.e1" ddi="false"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d270.s26" text="Oral contraceptives and other hormonalmethods of birth control should not be usedas the sole method of contraception inwomen taking nevirapine, since nevirapinemay lower the plasma levels of thesemedications.">
+        <entity id="DDI-DrugBank.d270.s26.e0" charOffset="5-18"
+            type="group" text="contraceptives"/>
+        <entity id="DDI-DrugBank.d270.s26.e1" charOffset="132-141"
+            type="drug" text="nevirapine"/>
+        <pair id="DDI-DrugBank.d270.s26.p0"
+            e1="DDI-DrugBank.d270.s26.e0" e2="DDI-DrugBank.d270.s26.e1"
+            ddi="true" type="advise"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d270.s27" text="An alternative or additional method of contraception is recommended."/>
+    <sentence id="DDI-DrugBank.d270.s28" text="Fluconazole">
+        <entity id="DDI-DrugBank.d270.s28.e0" charOffset="0-10"
+            type="drug" text="Fluconazole"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d270.s29" text="Nevirapine">
+        <entity id="DDI-DrugBank.d270.s29.e0" charOffset="0-9"
+            type="drug" text="Nevirapine"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d270.s30" text="Because of the risk of increased exposure tonevirapine, caution should be used inconcomitant administration, and patients should be monitored closely for nevirapine-associated adverse events.">
+        <entity id="DDI-DrugBank.d270.s30.e0" charOffset="44-53"
+            type="drug" text="nevirapine"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d270.s31" text="Indinavir">
+        <entity id="DDI-DrugBank.d270.s31.e0" charOffset="0-8"
+            type="drug" text="Indinavir"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d270.s32" text="Indinavir">
+        <entity id="DDI-DrugBank.d270.s32.e0" charOffset="0-8"
+            type="drug" text="Indinavir"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d270.s33" text="Appropriate doses for this combination arenot established, but an increase in thedosage of indinavir may be required.">
+        <entity id="DDI-DrugBank.d270.s33.e0" charOffset="91-99"
+            type="drug" text="indinavir"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d270.s34" text="Ketoconazole">
+        <entity id="DDI-DrugBank.d270.s34.e0" charOffset="0-11"
+            type="drug" text="Ketoconazole"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d270.s35" text="Ketoconazole">
+        <entity id="DDI-DrugBank.d270.s35.e0" charOffset="0-11"
+            type="drug" text="Ketoconazole"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d270.s36" text="Nevirapine and ketoconazole should not beadministered concomitantly becausedecreases in ketoconazole plasmaconcentrations may reduce the efficacy of the drug.">
+        <entity id="DDI-DrugBank.d270.s36.e0" charOffset="0-9"
+            type="drug" text="Nevirapine"/>
+        <entity id="DDI-DrugBank.d270.s36.e1" charOffset="15-26"
+            type="drug" text="ketoconazole"/>
+        <entity id="DDI-DrugBank.d270.s36.e2" charOffset="88-99"
+            type="drug" text="ketoconazole"/>
+        <pair id="DDI-DrugBank.d270.s36.p0"
+            e1="DDI-DrugBank.d270.s36.e0" e2="DDI-DrugBank.d270.s36.e1"
+            ddi="true" type="advise"/>
+        <pair id="DDI-DrugBank.d270.s36.p1"
+            e1="DDI-DrugBank.d270.s36.e0" e2="DDI-DrugBank.d270.s36.e2" ddi="false"/>
+        <pair id="DDI-DrugBank.d270.s36.p2"
+            e1="DDI-DrugBank.d270.s36.e1" e2="DDI-DrugBank.d270.s36.e2" ddi="false"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d270.s37" text="Lopinavir/Ritonavir">
+        <entity id="DDI-DrugBank.d270.s37.e0" charOffset="0-8"
+            type="drug" text="Lopinavir"/>
+        <entity id="DDI-DrugBank.d270.s37.e1" charOffset="10-18"
+            type="drug" text="Ritonavir"/>
+        <pair id="DDI-DrugBank.d270.s37.p0"
+            e1="DDI-DrugBank.d270.s37.e0" e2="DDI-DrugBank.d270.s37.e1" ddi="false"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d270.s38" text="Lopinavir">
+        <entity id="DDI-DrugBank.d270.s38.e0" charOffset="0-8"
+            type="drug" text="Lopinavir"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d270.s39" text="A dose increase of lopinavir/ritonavir to 533/133 mg twice daily with food isrecommended in combination with nevirapine.">
+        <entity id="DDI-DrugBank.d270.s39.e0" charOffset="19-27"
+            type="drug" text="lopinavir"/>
+        <entity id="DDI-DrugBank.d270.s39.e1" charOffset="29-37"
+            type="drug" text="ritonavir"/>
+        <entity id="DDI-DrugBank.d270.s39.e2" charOffset="109-118"
+            type="drug" text="nevirapine"/>
+        <pair id="DDI-DrugBank.d270.s39.p0"
+            e1="DDI-DrugBank.d270.s39.e0" e2="DDI-DrugBank.d270.s39.e1" ddi="false"/>
+        <pair id="DDI-DrugBank.d270.s39.p1"
+            e1="DDI-DrugBank.d270.s39.e0" e2="DDI-DrugBank.d270.s39.e2"
+            ddi="true" type="advise"/>
+        <pair id="DDI-DrugBank.d270.s39.p2"
+            e1="DDI-DrugBank.d270.s39.e1" e2="DDI-DrugBank.d270.s39.e2"
+            ddi="true" type="advise"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d270.s40" text="Methadone">
+        <entity id="DDI-DrugBank.d270.s40.e0" charOffset="0-8"
+            type="drug" text="Methadone"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d270.s41" text="Methadonea"/>
+    <sentence id="DDI-DrugBank.d270.s42" text="Methadone levels may be decreased; increased dosages may be required to prevent symptoms of opiate withdrawal. Methadone maintained patients beginning nevirapine therapy should be monitored forevidence of withdrawal and methadone dose should be adjusted accordingly.">
+        <entity id="DDI-DrugBank.d270.s42.e0" charOffset="0-8"
+            type="drug" text="Methadone"/>
+        <entity id="DDI-DrugBank.d270.s42.e1" charOffset="92-97"
+            type="group" text="opiate"/>
+        <entity id="DDI-DrugBank.d270.s42.e2" charOffset="111-119"
+            type="drug" text="Methadone"/>
+        <entity id="DDI-DrugBank.d270.s42.e3" charOffset="151-160"
+            type="drug" text="nevirapine"/>
+        <entity id="DDI-DrugBank.d270.s42.e4" charOffset="220-228"
+            type="drug" text="methadone"/>
+        <pair id="DDI-DrugBank.d270.s42.p0"
+            e1="DDI-DrugBank.d270.s42.e0" e2="DDI-DrugBank.d270.s42.e1" ddi="false"/>
+        <pair id="DDI-DrugBank.d270.s42.p1"
+            e1="DDI-DrugBank.d270.s42.e0" e2="DDI-DrugBank.d270.s42.e2" ddi="false"/>
+        <pair id="DDI-DrugBank.d270.s42.p2"
+            e1="DDI-DrugBank.d270.s42.e0" e2="DDI-DrugBank.d270.s42.e3" ddi="false"/>
+        <pair id="DDI-DrugBank.d270.s42.p3"
+            e1="DDI-DrugBank.d270.s42.e0" e2="DDI-DrugBank.d270.s42.e4" ddi="false"/>
+        <pair id="DDI-DrugBank.d270.s42.p4"
+            e1="DDI-DrugBank.d270.s42.e1" e2="DDI-DrugBank.d270.s42.e2" ddi="false"/>
+        <pair id="DDI-DrugBank.d270.s42.p5"
+            e1="DDI-DrugBank.d270.s42.e1" e2="DDI-DrugBank.d270.s42.e3" ddi="false"/>
+        <pair id="DDI-DrugBank.d270.s42.p6"
+            e1="DDI-DrugBank.d270.s42.e1" e2="DDI-DrugBank.d270.s42.e4" ddi="false"/>
+        <pair id="DDI-DrugBank.d270.s42.p7"
+            e1="DDI-DrugBank.d270.s42.e2" e2="DDI-DrugBank.d270.s42.e3"
+            ddi="true" type="advise"/>
+        <pair id="DDI-DrugBank.d270.s42.p8"
+            e1="DDI-DrugBank.d270.s42.e2" e2="DDI-DrugBank.d270.s42.e4" ddi="false"/>
+        <pair id="DDI-DrugBank.d270.s42.p9"
+            e1="DDI-DrugBank.d270.s42.e3" e2="DDI-DrugBank.d270.s42.e4" ddi="false"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d270.s43" text="Nelfinavir">
+        <entity id="DDI-DrugBank.d270.s43.e0" charOffset="0-9"
+            type="drug" text="Nelfinavir"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d270.s44" text="Nelfinavir M8">
+        <entity id="DDI-DrugBank.d270.s44.e0" charOffset="0-9"
+            type="drug" text="Nelfinavir"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d270.s45" text="The appropriate dose for nelfinavir incombination with nevirapine, with respectto safety and efficacy, has not been established.">
+        <entity id="DDI-DrugBank.d270.s45.e0" charOffset="25-34"
+            type="drug" text="nelfinavir"/>
+        <entity id="DDI-DrugBank.d270.s45.e1" charOffset="55-64"
+            type="drug" text="nevirapine"/>
+        <pair id="DDI-DrugBank.d270.s45.p0"
+            e1="DDI-DrugBank.d270.s45.e0" e2="DDI-DrugBank.d270.s45.e1" ddi="false"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d270.s46" text="Rifabutin">
+        <entity id="DDI-DrugBank.d270.s46.e0" charOffset="0-8"
+            type="drug" text="Rifabutin"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d270.s47" text="Rifabutin">
+        <entity id="DDI-DrugBank.d270.s47.e0" charOffset="0-8"
+            type="drug" text="Rifabutin"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d270.s48" text="Rifabutin and its metabolite concentrationswere moderately increased.">
+        <entity id="DDI-DrugBank.d270.s48.e0" charOffset="0-8"
+            type="drug" text="Rifabutin"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d270.s49" text="Due to highintersubject variability, however, somepatients may experience large increases inrifabutin exposure and may be at higher riskfor rifabutin toxicity.">
+        <entity id="DDI-DrugBank.d270.s49.e0" charOffset="92-100"
+            type="drug" text="rifabutin"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d270.s50" text="Therefore, caution should be used in concomitant administration."/>
+    <sentence id="DDI-DrugBank.d270.s51" text="Rifampin">
+        <entity id="DDI-DrugBank.d270.s51.e0" charOffset="0-7"
+            type="drug" text="Rifampin"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d270.s52" text="Nevirapine">
+        <entity id="DDI-DrugBank.d270.s52.e0" charOffset="0-9"
+            type="drug" text="Nevirapine"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d270.s53" text="Nevirapine and rifampin should not beadministered concomitantly becausedecreases in nevirapine plasmaconcentrations may reduce the efficacy ofthe drug.">
+        <entity id="DDI-DrugBank.d270.s53.e0" charOffset="0-9"
+            type="drug" text="Nevirapine"/>
+        <entity id="DDI-DrugBank.d270.s53.e1" charOffset="15-22"
+            type="drug" text="rifampin"/>
+        <entity id="DDI-DrugBank.d270.s53.e2" charOffset="84-93"
+            type="drug" text="nevirapine"/>
+        <pair id="DDI-DrugBank.d270.s53.p0"
+            e1="DDI-DrugBank.d270.s53.e0" e2="DDI-DrugBank.d270.s53.e1"
+            ddi="true" type="advise"/>
+        <pair id="DDI-DrugBank.d270.s53.p1"
+            e1="DDI-DrugBank.d270.s53.e0" e2="DDI-DrugBank.d270.s53.e2" ddi="false"/>
+        <pair id="DDI-DrugBank.d270.s53.p2"
+            e1="DDI-DrugBank.d270.s53.e1" e2="DDI-DrugBank.d270.s53.e2" ddi="false"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d270.s54" text="Physicians needing to treatpatients co-infected with tuberculosis andusing a nevirapine containing regimen mayuse rifabutin instead.">
+        <entity id="DDI-DrugBank.d270.s54.e0" charOffset="77-86"
+            type="drug" text="nevirapine"/>
+        <entity id="DDI-DrugBank.d270.s54.e1" charOffset="114-122"
+            type="drug" text="rifabutin"/>
+        <pair id="DDI-DrugBank.d270.s54.p0"
+            e1="DDI-DrugBank.d270.s54.e0" e2="DDI-DrugBank.d270.s54.e1" ddi="false"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d270.s55" text="Saquinavir">
+        <entity id="DDI-DrugBank.d270.s55.e0" charOffset="0-9"
+            type="drug" text="Saquinavir"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d270.s56" text="Saquinavir">
+        <entity id="DDI-DrugBank.d270.s56.e0" charOffset="0-9"
+            type="drug" text="Saquinavir"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d270.s57" text="Appropriate doses for this combination arenot established, but an increase in thedosage of saquinavir may be required.">
+        <entity id="DDI-DrugBank.d270.s57.e0" charOffset="91-100"
+            type="drug" text="saquinavir"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d270.s58" text="aBased on reports of narcotic withdrawal syndrome in patients treated with nevirapine and methadone concurrently, and evidence of decreased plasma concentrations of methadone.">
+        <entity id="DDI-DrugBank.d270.s58.e0" charOffset="75-84"
+            type="drug" text="nevirapine"/>
+        <entity id="DDI-DrugBank.d270.s58.e1" charOffset="90-98"
+            type="drug" text="methadone"/>
+        <entity id="DDI-DrugBank.d270.s58.e2" charOffset="165-173"
+            type="drug" text="methadone"/>
+        <pair id="DDI-DrugBank.d270.s58.p0"
+            e1="DDI-DrugBank.d270.s58.e0" e2="DDI-DrugBank.d270.s58.e1"
+            ddi="true" type="effect"/>
+        <pair id="DDI-DrugBank.d270.s58.p1"
+            e1="DDI-DrugBank.d270.s58.e0" e2="DDI-DrugBank.d270.s58.e2" ddi="false"/>
+        <pair id="DDI-DrugBank.d270.s58.p2"
+            e1="DDI-DrugBank.d270.s58.e1" e2="DDI-DrugBank.d270.s58.e2" ddi="false"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d270.s59" text="Table 4        Potential Drug Interactions:Use With Caution, Dose Adjustment of Co-administered Drug May Be Needed due to Possible Decrease in Clinical Effect"/>
+    <sentence id="DDI-DrugBank.d270.s60" text="Examples of Drugs in Which Plasma Concentrations May Be Decreased By Co-administration With Nevirapine">
+        <entity id="DDI-DrugBank.d270.s60.e0" charOffset="92-101"
+            type="drug" text="Nevirapine"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d270.s61" text="Drug Class Examples of Drugs"/>
+    <sentence id="DDI-DrugBank.d270.s62" text="Antiarrhythmics">
+        <entity id="DDI-DrugBank.d270.s62.e0" charOffset="0-14"
+            type="group" text="Antiarrhythmics"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d270.s63" text="Amiodarone, disopyramide, lidocaine">
+        <entity id="DDI-DrugBank.d270.s63.e0" charOffset="0-9"
+            type="drug" text="Amiodarone"/>
+        <entity id="DDI-DrugBank.d270.s63.e1" charOffset="12-23"
+            type="drug" text="disopyramide"/>
+        <entity id="DDI-DrugBank.d270.s63.e2" charOffset="26-34"
+            type="drug" text="lidocaine"/>
+        <pair id="DDI-DrugBank.d270.s63.p0"
+            e1="DDI-DrugBank.d270.s63.e0" e2="DDI-DrugBank.d270.s63.e1" ddi="false"/>
+        <pair id="DDI-DrugBank.d270.s63.p1"
+            e1="DDI-DrugBank.d270.s63.e0" e2="DDI-DrugBank.d270.s63.e2" ddi="false"/>
+        <pair id="DDI-DrugBank.d270.s63.p2"
+            e1="DDI-DrugBank.d270.s63.e1" e2="DDI-DrugBank.d270.s63.e2" ddi="false"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d270.s64" text="Anticonvulsants">
+        <entity id="DDI-DrugBank.d270.s64.e0" charOffset="0-14"
+            type="group" text="Anticonvulsants"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d270.s65" text="Carbamazepine, clonazepam, ethosuximide">
+        <entity id="DDI-DrugBank.d270.s65.e0" charOffset="0-12"
+            type="drug" text="Carbamazepine"/>
+        <entity id="DDI-DrugBank.d270.s65.e1" charOffset="15-24"
+            type="drug" text="clonazepam"/>
+        <entity id="DDI-DrugBank.d270.s65.e2" charOffset="27-38"
+            type="drug" text="ethosuximide"/>
+        <pair id="DDI-DrugBank.d270.s65.p0"
+            e1="DDI-DrugBank.d270.s65.e0" e2="DDI-DrugBank.d270.s65.e1" ddi="false"/>
+        <pair id="DDI-DrugBank.d270.s65.p1"
+            e1="DDI-DrugBank.d270.s65.e0" e2="DDI-DrugBank.d270.s65.e2" ddi="false"/>
+        <pair id="DDI-DrugBank.d270.s65.p2"
+            e1="DDI-DrugBank.d270.s65.e1" e2="DDI-DrugBank.d270.s65.e2" ddi="false"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d270.s66" text="Antifungals">
+        <entity id="DDI-DrugBank.d270.s66.e0" charOffset="0-10"
+            type="group" text="Antifungals"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d270.s67" text="Itraconazole">
+        <entity id="DDI-DrugBank.d270.s67.e0" charOffset="0-11"
+            type="drug" text="Itraconazole"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d270.s68" text="Calcium channel blockers">
+        <entity id="DDI-DrugBank.d270.s68.e0" charOffset="0-23"
+            type="group" text="Calcium channel blockers"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d270.s69" text="Diltiazem, nifedipine, verapamil">
+        <entity id="DDI-DrugBank.d270.s69.e0" charOffset="0-8"
+            type="drug" text="Diltiazem"/>
+        <entity id="DDI-DrugBank.d270.s69.e1" charOffset="11-20"
+            type="drug" text="nifedipine"/>
+        <entity id="DDI-DrugBank.d270.s69.e2" charOffset="23-31"
+            type="drug" text="verapamil"/>
+        <pair id="DDI-DrugBank.d270.s69.p0"
+            e1="DDI-DrugBank.d270.s69.e0" e2="DDI-DrugBank.d270.s69.e1" ddi="false"/>
+        <pair id="DDI-DrugBank.d270.s69.p1"
+            e1="DDI-DrugBank.d270.s69.e0" e2="DDI-DrugBank.d270.s69.e2" ddi="false"/>
+        <pair id="DDI-DrugBank.d270.s69.p2"
+            e1="DDI-DrugBank.d270.s69.e1" e2="DDI-DrugBank.d270.s69.e2" ddi="false"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d270.s70" text="Cancer chemotherapy"/>
+    <sentence id="DDI-DrugBank.d270.s71" text="Cyclophosphamide">
+        <entity id="DDI-DrugBank.d270.s71.e0" charOffset="0-15"
+            type="drug" text="Cyclophosphamide"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d270.s72" text="Ergot alkaloids">
+        <entity id="DDI-DrugBank.d270.s72.e0" charOffset="0-14"
+            type="group" text="Ergot alkaloids"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d270.s73" text="Ergotamine">
+        <entity id="DDI-DrugBank.d270.s73.e0" charOffset="0-9"
+            type="drug" text="Ergotamine"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d270.s74" text="Immunosuppressants">
+        <entity id="DDI-DrugBank.d270.s74.e0" charOffset="0-17"
+            type="group" text="Immunosuppressants"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d270.s75" text="Cyclosporin, tacrolimus, sirolimus">
+        <entity id="DDI-DrugBank.d270.s75.e0" charOffset="0-10"
+            type="drug" text="Cyclosporin"/>
+        <entity id="DDI-DrugBank.d270.s75.e1" charOffset="13-22"
+            type="drug" text="tacrolimus"/>
+        <entity id="DDI-DrugBank.d270.s75.e2" charOffset="25-33"
+            type="drug" text="sirolimus"/>
+        <pair id="DDI-DrugBank.d270.s75.p0"
+            e1="DDI-DrugBank.d270.s75.e0" e2="DDI-DrugBank.d270.s75.e1" ddi="false"/>
+        <pair id="DDI-DrugBank.d270.s75.p1"
+            e1="DDI-DrugBank.d270.s75.e0" e2="DDI-DrugBank.d270.s75.e2" ddi="false"/>
+        <pair id="DDI-DrugBank.d270.s75.p2"
+            e1="DDI-DrugBank.d270.s75.e1" e2="DDI-DrugBank.d270.s75.e2" ddi="false"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d270.s76" text="Motility agents"/>
+    <sentence id="DDI-DrugBank.d270.s77" text="Cisapride">
+        <entity id="DDI-DrugBank.d270.s77.e0" charOffset="0-8"
+            type="drug" text="Cisapride"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d270.s78" text="Opiate agonists">
+        <entity id="DDI-DrugBank.d270.s78.e0" charOffset="0-14"
+            type="group" text="Opiate agonists"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d270.s79" text="Fentanyl">
+        <entity id="DDI-DrugBank.d270.s79.e0" charOffset="0-7"
+            type="drug" text="Fentanyl"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d270.s80" text="Examples of Drugs in Which Plasma Concentrations May Be Increased By Co-administration With Nevirapine">
+        <entity id="DDI-DrugBank.d270.s80.e0" charOffset="92-101"
+            type="drug" text="Nevirapine"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d270.s81" text="Antithrombotics">
+        <entity id="DDI-DrugBank.d270.s81.e0" charOffset="0-14"
+            type="group" text="Antithrombotics"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d270.s82" text="Warfarin">
+        <entity id="DDI-DrugBank.d270.s82.e0" charOffset="0-7"
+            type="drug" text="Warfarin"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d270.s83" text="Potential effect on anticoagulation."/>
+    <sentence id="DDI-DrugBank.d270.s84" text="Monitoring of anticoagulation levels is recommended."/>
+    <sentence id="DDI-DrugBank.d270.s85" text="Fat redistribution: Redistribution/accumulation of body fat including central obesity, dorsocervical fat enlargement (buffalo hump), peripheral wasting, facial wasting, breast enlargement, and cushingoid appearance have been observed in patients receiving antiretroviral therapy.">
+        <entity id="DDI-DrugBank.d270.s85.e0" charOffset="256-269"
+            type="group" text="antiretroviral"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d270.s86" text="The mechanism and long-term consequences of these events are currently unknown."/>
+    <sentence id="DDI-DrugBank.d270.s87" text="A causal relationship has not been established"/>
+    <sentence id="DDI-DrugBank.d270.s88" text="."/>
+    <sentence id="DDI-DrugBank.d270.s89" text=""/>
+</document>

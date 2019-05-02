@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="DDI-DrugBank.d766">
+    <sentence id="DDI-DrugBank.d766.s0" text="Since trimetrexate is metabolized by a P450 enzyme system, drugs that induce or inhibit this drug metabolizing enzyme system may elicit important drug-drug interactions that may alter trimetrexate plasma concentrations. ">
+        <entity id="DDI-DrugBank.d766.s0.e0" charOffset="6-17"
+            type="drug" text="trimetrexate"/>
+        <entity id="DDI-DrugBank.d766.s0.e1" charOffset="184-195"
+            type="drug" text="trimetrexate"/>
+        <pair id="DDI-DrugBank.d766.s0.p0" e1="DDI-DrugBank.d766.s0.e0"
+            e2="DDI-DrugBank.d766.s0.e1" ddi="false"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d766.s1" text="Agents that might be coadministered with trimetrexate in AIDS patients for other indications that could elicit this activity include erythromycin, rifampin, rifabutin, ketoconazole, and fluconazole. ">
+        <entity id="DDI-DrugBank.d766.s1.e0" charOffset="41-52"
+            type="drug" text="trimetrexate"/>
+        <entity id="DDI-DrugBank.d766.s1.e1" charOffset="133-144"
+            type="drug" text="erythromycin"/>
+        <entity id="DDI-DrugBank.d766.s1.e2" charOffset="147-154"
+            type="drug" text="rifampin"/>
+        <entity id="DDI-DrugBank.d766.s1.e3" charOffset="157-165"
+            type="drug" text="rifabutin"/>
+        <entity id="DDI-DrugBank.d766.s1.e4" charOffset="168-179"
+            type="drug" text="ketoconazole"/>
+        <entity id="DDI-DrugBank.d766.s1.e5" charOffset="186-196"
+            type="drug" text="fluconazole"/>
+        <pair id="DDI-DrugBank.d766.s1.p0" e1="DDI-DrugBank.d766.s1.e0"
+            e2="DDI-DrugBank.d766.s1.e1" ddi="true" type="effect"/>
+        <pair id="DDI-DrugBank.d766.s1.p1" e1="DDI-DrugBank.d766.s1.e0"
+            e2="DDI-DrugBank.d766.s1.e2" ddi="true" type="effect"/>
+        <pair id="DDI-DrugBank.d766.s1.p2" e1="DDI-DrugBank.d766.s1.e0"
+            e2="DDI-DrugBank.d766.s1.e3" ddi="true" type="effect"/>
+        <pair id="DDI-DrugBank.d766.s1.p3" e1="DDI-DrugBank.d766.s1.e0"
+            e2="DDI-DrugBank.d766.s1.e4" ddi="true" type="effect"/>
+        <pair id="DDI-DrugBank.d766.s1.p4" e1="DDI-DrugBank.d766.s1.e0"
+            e2="DDI-DrugBank.d766.s1.e5" ddi="true" type="effect"/>
+        <pair id="DDI-DrugBank.d766.s1.p5" e1="DDI-DrugBank.d766.s1.e1"
+            e2="DDI-DrugBank.d766.s1.e2" ddi="false"/>
+        <pair id="DDI-DrugBank.d766.s1.p6" e1="DDI-DrugBank.d766.s1.e1"
+            e2="DDI-DrugBank.d766.s1.e3" ddi="false"/>
+        <pair id="DDI-DrugBank.d766.s1.p7" e1="DDI-DrugBank.d766.s1.e1"
+            e2="DDI-DrugBank.d766.s1.e4" ddi="false"/>
+        <pair id="DDI-DrugBank.d766.s1.p8" e1="DDI-DrugBank.d766.s1.e1"
+            e2="DDI-DrugBank.d766.s1.e5" ddi="false"/>
+        <pair id="DDI-DrugBank.d766.s1.p9" e1="DDI-DrugBank.d766.s1.e2"
+            e2="DDI-DrugBank.d766.s1.e3" ddi="false"/>
+        <pair id="DDI-DrugBank.d766.s1.p10" e1="DDI-DrugBank.d766.s1.e2"
+            e2="DDI-DrugBank.d766.s1.e4" ddi="false"/>
+        <pair id="DDI-DrugBank.d766.s1.p11" e1="DDI-DrugBank.d766.s1.e2"
+            e2="DDI-DrugBank.d766.s1.e5" ddi="false"/>
+        <pair id="DDI-DrugBank.d766.s1.p12" e1="DDI-DrugBank.d766.s1.e3"
+            e2="DDI-DrugBank.d766.s1.e4" ddi="false"/>
+        <pair id="DDI-DrugBank.d766.s1.p13" e1="DDI-DrugBank.d766.s1.e3"
+            e2="DDI-DrugBank.d766.s1.e5" ddi="false"/>
+        <pair id="DDI-DrugBank.d766.s1.p14" e1="DDI-DrugBank.d766.s1.e4"
+            e2="DDI-DrugBank.d766.s1.e5" ddi="false"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d766.s2" text="In vitro perfusion of isolated rat liver has shown that cimetidine caused a significant reduction in trimetrexate metabolism and that acetaminophen altered the relative concentration of trimetrexate metabolites possibly by competing for sulfate metabolites. ">
+        <entity id="DDI-DrugBank.d766.s2.e0" charOffset="56-65"
+            type="drug" text="cimetidine"/>
+        <entity id="DDI-DrugBank.d766.s2.e1" charOffset="101-112"
+            type="drug" text="trimetrexate"/>
+        <entity id="DDI-DrugBank.d766.s2.e2" charOffset="134-146"
+            type="drug" text="acetaminophen"/>
+        <pair id="DDI-DrugBank.d766.s2.p0" e1="DDI-DrugBank.d766.s2.e0"
+            e2="DDI-DrugBank.d766.s2.e1" ddi="true" type="mechanism"/>
+        <pair id="DDI-DrugBank.d766.s2.p1" e1="DDI-DrugBank.d766.s2.e0"
+            e2="DDI-DrugBank.d766.s2.e2" ddi="false"/>
+        <pair id="DDI-DrugBank.d766.s2.p2" e1="DDI-DrugBank.d766.s2.e1"
+            e2="DDI-DrugBank.d766.s2.e2" ddi="false"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d766.s3" text="Based on an in vitro rat liver model, nitrogen substituted imidazole drugs (clotrimazole, ketoconazole, miconazole) were potent, non-competitive inhibitors of trimetrexate metabolism. ">
+        <entity id="DDI-DrugBank.d766.s3.e0" charOffset="59-73"
+            type="group" text="imidazole drugs"/>
+        <entity id="DDI-DrugBank.d766.s3.e1" charOffset="76-87"
+            type="drug" text="clotrimazole"/>
+        <entity id="DDI-DrugBank.d766.s3.e2" charOffset="90-101"
+            type="drug" text="ketoconazole"/>
+        <entity id="DDI-DrugBank.d766.s3.e3" charOffset="104-113"
+            type="drug" text="miconazole"/>
+        <entity id="DDI-DrugBank.d766.s3.e4" charOffset="159-170"
+            type="drug" text="trimetrexate"/>
+        <pair id="DDI-DrugBank.d766.s3.p0" e1="DDI-DrugBank.d766.s3.e0"
+            e2="DDI-DrugBank.d766.s3.e1" ddi="false"/>
+        <pair id="DDI-DrugBank.d766.s3.p1" e1="DDI-DrugBank.d766.s3.e0"
+            e2="DDI-DrugBank.d766.s3.e2" ddi="false"/>
+        <pair id="DDI-DrugBank.d766.s3.p2" e1="DDI-DrugBank.d766.s3.e0"
+            e2="DDI-DrugBank.d766.s3.e3" ddi="false"/>
+        <pair id="DDI-DrugBank.d766.s3.p3" e1="DDI-DrugBank.d766.s3.e0"
+            e2="DDI-DrugBank.d766.s3.e4" ddi="true" type="mechanism"/>
+        <pair id="DDI-DrugBank.d766.s3.p4" e1="DDI-DrugBank.d766.s3.e1"
+            e2="DDI-DrugBank.d766.s3.e2" ddi="false"/>
+        <pair id="DDI-DrugBank.d766.s3.p5" e1="DDI-DrugBank.d766.s3.e1"
+            e2="DDI-DrugBank.d766.s3.e3" ddi="false"/>
+        <pair id="DDI-DrugBank.d766.s3.p6" e1="DDI-DrugBank.d766.s3.e1"
+            e2="DDI-DrugBank.d766.s3.e4" ddi="true" type="mechanism"/>
+        <pair id="DDI-DrugBank.d766.s3.p7" e1="DDI-DrugBank.d766.s3.e2"
+            e2="DDI-DrugBank.d766.s3.e3" ddi="false"/>
+        <pair id="DDI-DrugBank.d766.s3.p8" e1="DDI-DrugBank.d766.s3.e2"
+            e2="DDI-DrugBank.d766.s3.e4" ddi="true" type="mechanism"/>
+        <pair id="DDI-DrugBank.d766.s3.p9" e1="DDI-DrugBank.d766.s3.e3"
+            e2="DDI-DrugBank.d766.s3.e4" ddi="true" type="mechanism"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d766.s4" text="Patients medicated with these drugs and trimetrexate should be carefully monitored.">
+        <entity id="DDI-DrugBank.d766.s4.e0" charOffset="40-51"
+            type="drug" text="trimetrexate"/>
+    </sentence>
+</document>

@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="DDI-DrugBank.d190">
+    <sentence id="DDI-DrugBank.d190.s0" text="Drug interaction studies with Xigris have not been performed in patients with severe sepsis.">
+        <entity id="DDI-DrugBank.d190.s0.e0" charOffset="30-35"
+            type="brand" text="Xigris"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d190.s1" text="However, since there is an increased risk of bleeding with Xigris, caution should be employed when Xigris is used with other drugs that affect hemostasis.">
+        <entity id="DDI-DrugBank.d190.s1.e0" charOffset="59-64"
+            type="brand" text="Xigris"/>
+        <entity id="DDI-DrugBank.d190.s1.e1" charOffset="99-104"
+            type="brand" text="Xigris"/>
+        <pair id="DDI-DrugBank.d190.s1.p0" e1="DDI-DrugBank.d190.s1.e0"
+            e2="DDI-DrugBank.d190.s1.e1" ddi="false"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d190.s2" text="Approximately 2/3 of the patients in the Phase 3 study received either prophylactic low dose heparin (unfractionated heparin up to 15,000 units/day) or prophylactic doses of low molecular weight heparins as indicated in the prescribing information for the specific products.">
+        <entity id="DDI-DrugBank.d190.s2.e0" charOffset="93-99"
+            type="drug" text="heparin"/>
+        <entity id="DDI-DrugBank.d190.s2.e1" charOffset="102-123"
+            type="drug" text="unfractionated heparin"/>
+        <entity id="DDI-DrugBank.d190.s2.e2" charOffset="174-202"
+            type="group" text="low molecular weight heparins"/>
+        <pair id="DDI-DrugBank.d190.s2.p0" e1="DDI-DrugBank.d190.s2.e0"
+            e2="DDI-DrugBank.d190.s2.e1" ddi="false"/>
+        <pair id="DDI-DrugBank.d190.s2.p1" e1="DDI-DrugBank.d190.s2.e0"
+            e2="DDI-DrugBank.d190.s2.e2" ddi="false"/>
+        <pair id="DDI-DrugBank.d190.s2.p2" e1="DDI-DrugBank.d190.s2.e1"
+            e2="DDI-DrugBank.d190.s2.e2" ddi="false"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d190.s3" text="Concomitant use of prophylactic low dose heparin did not appear to affect safety, however, its effects on the efficacy of Xigris have not been evaluated in an adequate and well-controlled clinical trial.">
+        <entity id="DDI-DrugBank.d190.s3.e0" charOffset="41-47"
+            type="drug" text="heparin"/>
+        <entity id="DDI-DrugBank.d190.s3.e1" charOffset="122-127"
+            type="brand" text="Xigris"/>
+        <pair id="DDI-DrugBank.d190.s3.p0" e1="DDI-DrugBank.d190.s3.e0"
+            e2="DDI-DrugBank.d190.s3.e1" ddi="false"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d190.s4" text="Drug/Laboratory Test Interaction Because Xigris may affect the APTT assay, Xigris present in plasma samples may interfere with one-stage coagulation assays based on the APTT (such as factor VIII, IX, and XI assays).">
+        <entity id="DDI-DrugBank.d190.s4.e0" charOffset="41-46"
+            type="brand" text="Xigris"/>
+        <entity id="DDI-DrugBank.d190.s4.e1" charOffset="75-80"
+            type="brand" text="Xigris"/>
+        <pair id="DDI-DrugBank.d190.s4.p0" e1="DDI-DrugBank.d190.s4.e0"
+            e2="DDI-DrugBank.d190.s4.e1" ddi="false"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d190.s5" text="This interference may result in an apparent factor concentration that is lower than the true concentration."/>
+    <sentence id="DDI-DrugBank.d190.s6" text="Xigris present in plasma samples does not interfere with one-stage factor assays based on the PT (such as factor II, V, VII, and X assays).">
+        <entity id="DDI-DrugBank.d190.s6.e0" charOffset="0-5"
+            type="brand" text="Xigris"/>
+    </sentence>
+</document>

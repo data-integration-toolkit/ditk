@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="DDI-DrugBank.d32">
+    <sentence id="DDI-DrugBank.d32.s0" text="Theophylline: Twelve healthy male volunteers were administered one 200-mg ceftibuten capsule twice daily for 6 days.">
+        <entity id="DDI-DrugBank.d32.s0.e0" charOffset="0-11"
+            type="drug" text="Theophylline"/>
+        <entity id="DDI-DrugBank.d32.s0.e1" charOffset="74-83"
+            type="drug" text="ceftibuten"/>
+        <pair id="DDI-DrugBank.d32.s0.p0" e1="DDI-DrugBank.d32.s0.e0"
+            e2="DDI-DrugBank.d32.s0.e1" ddi="false"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d32.s1" text="With the morning dose of ceftibuten on day 6, each volunteer received a single intravenous infusion of theophylline (4 mg/kg).">
+        <entity id="DDI-DrugBank.d32.s1.e0" charOffset="25-34"
+            type="drug" text="ceftibuten"/>
+        <entity id="DDI-DrugBank.d32.s1.e1" charOffset="103-114"
+            type="drug" text="theophylline"/>
+        <pair id="DDI-DrugBank.d32.s1.p0" e1="DDI-DrugBank.d32.s1.e0"
+            e2="DDI-DrugBank.d32.s1.e1" ddi="false"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d32.s2" text="The pharmacokinetics of theophylline were not altered.">
+        <entity id="DDI-DrugBank.d32.s2.e0" charOffset="24-35"
+            type="drug" text="theophylline"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d32.s3" text="The effect of ceftibuten on the pharmacokinetics of theophylline administered orally has not been investigated.">
+        <entity id="DDI-DrugBank.d32.s3.e0" charOffset="14-23"
+            type="drug" text="ceftibuten"/>
+        <entity id="DDI-DrugBank.d32.s3.e1" charOffset="52-63"
+            type="drug" text="theophylline"/>
+        <pair id="DDI-DrugBank.d32.s3.p0" e1="DDI-DrugBank.d32.s3.e0"
+            e2="DDI-DrugBank.d32.s3.e1" ddi="false"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d32.s4" text="Antacids or H 2 -receptor antagonists: The effect of increased gastric pH on the bioavailability of ceftibuten was evaluated in 18 healthy adult volunteers.">
+        <entity id="DDI-DrugBank.d32.s4.e0" charOffset="0-7"
+            type="group" text="Antacids"/>
+        <entity id="DDI-DrugBank.d32.s4.e1" charOffset="12-36"
+            type="group" text="H 2 -receptor antagonists"/>
+        <entity id="DDI-DrugBank.d32.s4.e2" charOffset="100-109"
+            type="drug" text="ceftibuten"/>
+        <pair id="DDI-DrugBank.d32.s4.p0" e1="DDI-DrugBank.d32.s4.e0"
+            e2="DDI-DrugBank.d32.s4.e1" ddi="false"/>
+        <pair id="DDI-DrugBank.d32.s4.p1" e1="DDI-DrugBank.d32.s4.e0"
+            e2="DDI-DrugBank.d32.s4.e2" ddi="false"/>
+        <pair id="DDI-DrugBank.d32.s4.p2" e1="DDI-DrugBank.d32.s4.e1"
+            e2="DDI-DrugBank.d32.s4.e2" ddi="false"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d32.s5" text="Each volunteer was administered one 400-mg ceftibuten capsule.">
+        <entity id="DDI-DrugBank.d32.s5.e0" charOffset="43-52"
+            type="drug" text="ceftibuten"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d32.s6" text="A single dose of liquid antacid did not affect the C max or AUC of ceftibuten;">
+        <entity id="DDI-DrugBank.d32.s6.e0" charOffset="24-30"
+            type="group" text="antacid"/>
+        <entity id="DDI-DrugBank.d32.s6.e1" charOffset="67-76"
+            type="drug" text="ceftibuten"/>
+        <pair id="DDI-DrugBank.d32.s6.p0" e1="DDI-DrugBank.d32.s6.e0"
+            e2="DDI-DrugBank.d32.s6.e1" ddi="false"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d32.s7" text="however, 150 mg of ranitidine q12h for 3 days increased the ceftibuten C max by 23% and ceftibuten AUC by 16%.">
+        <entity id="DDI-DrugBank.d32.s7.e0" charOffset="19-28"
+            type="drug" text="ranitidine"/>
+        <entity id="DDI-DrugBank.d32.s7.e1" charOffset="60-69"
+            type="drug" text="ceftibuten"/>
+        <entity id="DDI-DrugBank.d32.s7.e2" charOffset="88-97"
+            type="drug" text="ceftibuten"/>
+        <pair id="DDI-DrugBank.d32.s7.p0" e1="DDI-DrugBank.d32.s7.e0"
+            e2="DDI-DrugBank.d32.s7.e1" ddi="true" type="mechanism"/>
+        <pair id="DDI-DrugBank.d32.s7.p1" e1="DDI-DrugBank.d32.s7.e0"
+            e2="DDI-DrugBank.d32.s7.e2" ddi="true" type="mechanism"/>
+        <pair id="DDI-DrugBank.d32.s7.p2" e1="DDI-DrugBank.d32.s7.e1"
+            e2="DDI-DrugBank.d32.s7.e2" ddi="false"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d32.s8" text="The clinical relevance of these increases is not known."/>
+    <sentence id="DDI-DrugBank.d32.s9" text="Drug/Laboratory Test Interactions: There have been no chemical or laboratory test interactions with ceftibuten noted to date.">
+        <entity id="DDI-DrugBank.d32.s9.e0" charOffset="100-109"
+            type="drug" text="ceftibuten"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d32.s10" text="False-positive direct Coombs tests have been reported during treatment with other cephalosporins.">
+        <entity id="DDI-DrugBank.d32.s10.e0" charOffset="82-95"
+            type="group" text="cephalosporins"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d32.s11" text="Therefore, it should be recognized that a positive Coombs test could be due to the drug."/>
+    <sentence id="DDI-DrugBank.d32.s12" text="The results of assays using red cells from healthy subjects to determine whether ceftibuten would cause direct Coombs reactions in vitro showed no positive reaction at ceftibuten concentrations as high as 40  g/mL.">
+        <entity id="DDI-DrugBank.d32.s12.e0" charOffset="81-90"
+            type="drug" text="ceftibuten"/>
+        <entity id="DDI-DrugBank.d32.s12.e1" charOffset="168-177"
+            type="drug" text="ceftibuten"/>
+        <pair id="DDI-DrugBank.d32.s12.p0" e1="DDI-DrugBank.d32.s12.e0"
+            e2="DDI-DrugBank.d32.s12.e1" ddi="false"/>
+    </sentence>
+</document>

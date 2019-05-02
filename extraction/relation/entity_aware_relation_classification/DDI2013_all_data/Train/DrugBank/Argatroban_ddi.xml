@@ -1,0 +1,179 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="DDI-DrugBank.d148">
+    <sentence id="DDI-DrugBank.d148.s0" text="Heparin: Since heparin is contraindicated in patients with heparin-induced thrombocytopenia, the co-administration of Argatroban and heparin is unlikely for this indication.">
+        <entity id="DDI-DrugBank.d148.s0.e0" charOffset="0-6"
+            type="drug" text="Heparin"/>
+        <entity id="DDI-DrugBank.d148.s0.e1" charOffset="15-21"
+            type="drug" text="heparin"/>
+        <entity id="DDI-DrugBank.d148.s0.e2" charOffset="59-65"
+            type="drug" text="heparin"/>
+        <entity id="DDI-DrugBank.d148.s0.e3" charOffset="118-127"
+            type="drug" text="Argatroban"/>
+        <entity id="DDI-DrugBank.d148.s0.e4" charOffset="133-139"
+            type="drug" text="heparin"/>
+        <pair id="DDI-DrugBank.d148.s0.p0" e1="DDI-DrugBank.d148.s0.e0"
+            e2="DDI-DrugBank.d148.s0.e1" ddi="false"/>
+        <pair id="DDI-DrugBank.d148.s0.p1" e1="DDI-DrugBank.d148.s0.e0"
+            e2="DDI-DrugBank.d148.s0.e2" ddi="false"/>
+        <pair id="DDI-DrugBank.d148.s0.p2" e1="DDI-DrugBank.d148.s0.e0"
+            e2="DDI-DrugBank.d148.s0.e3" ddi="false"/>
+        <pair id="DDI-DrugBank.d148.s0.p3" e1="DDI-DrugBank.d148.s0.e0"
+            e2="DDI-DrugBank.d148.s0.e4" ddi="false"/>
+        <pair id="DDI-DrugBank.d148.s0.p4" e1="DDI-DrugBank.d148.s0.e1"
+            e2="DDI-DrugBank.d148.s0.e2" ddi="false"/>
+        <pair id="DDI-DrugBank.d148.s0.p5" e1="DDI-DrugBank.d148.s0.e1"
+            e2="DDI-DrugBank.d148.s0.e3" ddi="false"/>
+        <pair id="DDI-DrugBank.d148.s0.p6" e1="DDI-DrugBank.d148.s0.e1"
+            e2="DDI-DrugBank.d148.s0.e4" ddi="false"/>
+        <pair id="DDI-DrugBank.d148.s0.p7" e1="DDI-DrugBank.d148.s0.e2"
+            e2="DDI-DrugBank.d148.s0.e3" ddi="false"/>
+        <pair id="DDI-DrugBank.d148.s0.p8" e1="DDI-DrugBank.d148.s0.e2"
+            e2="DDI-DrugBank.d148.s0.e4" ddi="false"/>
+        <pair id="DDI-DrugBank.d148.s0.p9" e1="DDI-DrugBank.d148.s0.e3"
+            e2="DDI-DrugBank.d148.s0.e4" ddi="false"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d148.s1" text="However, if Argatroban is to be initiated after cessation of heparin therapy, allow sufficient time for heparins effect on the aPTT to decrease prior to initiation of Argatroban therapy.">
+        <entity id="DDI-DrugBank.d148.s1.e0" charOffset="12-21"
+            type="drug" text="Argatroban"/>
+        <entity id="DDI-DrugBank.d148.s1.e1" charOffset="61-67"
+            type="drug" text="heparin"/>
+        <entity id="DDI-DrugBank.d148.s1.e2" charOffset="167-176"
+            type="drug" text="Argatroban"/>
+        <pair id="DDI-DrugBank.d148.s1.p0" e1="DDI-DrugBank.d148.s1.e0"
+            e2="DDI-DrugBank.d148.s1.e1" ddi="false"/>
+        <pair id="DDI-DrugBank.d148.s1.p1" e1="DDI-DrugBank.d148.s1.e0"
+            e2="DDI-DrugBank.d148.s1.e2" ddi="false"/>
+        <pair id="DDI-DrugBank.d148.s1.p2" e1="DDI-DrugBank.d148.s1.e1"
+            e2="DDI-DrugBank.d148.s1.e2" ddi="false"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d148.s2" text="Aspirin/Acetaminophen: Pharmacokinetic or pharmacodynamic drug-drug interactions have not been demonstrated between Argatroban and concomitantly administered aspirin (162.5 mg orally given 26 and 2 hours prior to initiation of Argatroban 1  g/kg/min. over 4 hours) or acetaminophen (1000 mg orally given 12, 6 and 0 hours prior to, and 6 and 12 hours subsequent to, initiation of Argatroban 1.5  g/kg/min. over 18 hours).">
+        <entity id="DDI-DrugBank.d148.s2.e0" charOffset="0-6"
+            type="brand" text="Aspirin"/>
+        <entity id="DDI-DrugBank.d148.s2.e1" charOffset="8-20"
+            type="drug" text="Acetaminophen"/>
+        <entity id="DDI-DrugBank.d148.s2.e2" charOffset="116-125"
+            type="drug" text="Argatroban"/>
+        <entity id="DDI-DrugBank.d148.s2.e3" charOffset="158-164"
+            type="brand" text="aspirin"/>
+        <entity id="DDI-DrugBank.d148.s2.e4" charOffset="227-236"
+            type="drug" text="Argatroban"/>
+        <entity id="DDI-DrugBank.d148.s2.e5" charOffset="268-280"
+            type="drug" text="acetaminophen"/>
+        <entity id="DDI-DrugBank.d148.s2.e6" charOffset="380-389"
+            type="drug" text="Argatroban"/>
+        <pair id="DDI-DrugBank.d148.s2.p0" e1="DDI-DrugBank.d148.s2.e0"
+            e2="DDI-DrugBank.d148.s2.e1" ddi="false"/>
+        <pair id="DDI-DrugBank.d148.s2.p1" e1="DDI-DrugBank.d148.s2.e0"
+            e2="DDI-DrugBank.d148.s2.e2" ddi="false"/>
+        <pair id="DDI-DrugBank.d148.s2.p2" e1="DDI-DrugBank.d148.s2.e0"
+            e2="DDI-DrugBank.d148.s2.e3" ddi="false"/>
+        <pair id="DDI-DrugBank.d148.s2.p3" e1="DDI-DrugBank.d148.s2.e0"
+            e2="DDI-DrugBank.d148.s2.e4" ddi="false"/>
+        <pair id="DDI-DrugBank.d148.s2.p4" e1="DDI-DrugBank.d148.s2.e0"
+            e2="DDI-DrugBank.d148.s2.e5" ddi="false"/>
+        <pair id="DDI-DrugBank.d148.s2.p5" e1="DDI-DrugBank.d148.s2.e0"
+            e2="DDI-DrugBank.d148.s2.e6" ddi="false"/>
+        <pair id="DDI-DrugBank.d148.s2.p6" e1="DDI-DrugBank.d148.s2.e1"
+            e2="DDI-DrugBank.d148.s2.e2" ddi="false"/>
+        <pair id="DDI-DrugBank.d148.s2.p7" e1="DDI-DrugBank.d148.s2.e1"
+            e2="DDI-DrugBank.d148.s2.e3" ddi="false"/>
+        <pair id="DDI-DrugBank.d148.s2.p8" e1="DDI-DrugBank.d148.s2.e1"
+            e2="DDI-DrugBank.d148.s2.e4" ddi="false"/>
+        <pair id="DDI-DrugBank.d148.s2.p9" e1="DDI-DrugBank.d148.s2.e1"
+            e2="DDI-DrugBank.d148.s2.e5" ddi="false"/>
+        <pair id="DDI-DrugBank.d148.s2.p10" e1="DDI-DrugBank.d148.s2.e1"
+            e2="DDI-DrugBank.d148.s2.e6" ddi="false"/>
+        <pair id="DDI-DrugBank.d148.s2.p11" e1="DDI-DrugBank.d148.s2.e2"
+            e2="DDI-DrugBank.d148.s2.e3" ddi="false"/>
+        <pair id="DDI-DrugBank.d148.s2.p12" e1="DDI-DrugBank.d148.s2.e2"
+            e2="DDI-DrugBank.d148.s2.e4" ddi="false"/>
+        <pair id="DDI-DrugBank.d148.s2.p13" e1="DDI-DrugBank.d148.s2.e2"
+            e2="DDI-DrugBank.d148.s2.e5" ddi="false"/>
+        <pair id="DDI-DrugBank.d148.s2.p14" e1="DDI-DrugBank.d148.s2.e2"
+            e2="DDI-DrugBank.d148.s2.e6" ddi="false"/>
+        <pair id="DDI-DrugBank.d148.s2.p15" e1="DDI-DrugBank.d148.s2.e3"
+            e2="DDI-DrugBank.d148.s2.e4" ddi="false"/>
+        <pair id="DDI-DrugBank.d148.s2.p16" e1="DDI-DrugBank.d148.s2.e3"
+            e2="DDI-DrugBank.d148.s2.e5" ddi="false"/>
+        <pair id="DDI-DrugBank.d148.s2.p17" e1="DDI-DrugBank.d148.s2.e3"
+            e2="DDI-DrugBank.d148.s2.e6" ddi="false"/>
+        <pair id="DDI-DrugBank.d148.s2.p18" e1="DDI-DrugBank.d148.s2.e4"
+            e2="DDI-DrugBank.d148.s2.e5" ddi="false"/>
+        <pair id="DDI-DrugBank.d148.s2.p19" e1="DDI-DrugBank.d148.s2.e4"
+            e2="DDI-DrugBank.d148.s2.e6" ddi="false"/>
+        <pair id="DDI-DrugBank.d148.s2.p20" e1="DDI-DrugBank.d148.s2.e5"
+            e2="DDI-DrugBank.d148.s2.e6" ddi="false"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d148.s3" text="Oral anticoagulant agents: Pharmacokinetic drug-drug interactions between Argatroban and warfarin (7.5 mg single oral dose) have not been demonstrated.">
+        <entity id="DDI-DrugBank.d148.s3.e0" charOffset="5-24"
+            type="group" text="anticoagulant agents"/>
+        <entity id="DDI-DrugBank.d148.s3.e1" charOffset="74-83"
+            type="drug" text="Argatroban"/>
+        <entity id="DDI-DrugBank.d148.s3.e2" charOffset="89-96"
+            type="drug" text="warfarin"/>
+        <pair id="DDI-DrugBank.d148.s3.p0" e1="DDI-DrugBank.d148.s3.e0"
+            e2="DDI-DrugBank.d148.s3.e1" ddi="false"/>
+        <pair id="DDI-DrugBank.d148.s3.p1" e1="DDI-DrugBank.d148.s3.e0"
+            e2="DDI-DrugBank.d148.s3.e2" ddi="false"/>
+        <pair id="DDI-DrugBank.d148.s3.p2" e1="DDI-DrugBank.d148.s3.e1"
+            e2="DDI-DrugBank.d148.s3.e2" ddi="false"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d148.s4" text="However, the concomitant use of Argatroban and warfarin (5-7.5 mg initial oral dose followed by 2.5-6 mg/day orally for 6-10 days) results in prolongation of the prothrombin time (PT) and International Normalized Ratio (INR).">
+        <entity id="DDI-DrugBank.d148.s4.e0" charOffset="32-41"
+            type="drug" text="Argatroban"/>
+        <entity id="DDI-DrugBank.d148.s4.e1" charOffset="47-54"
+            type="drug" text="warfarin"/>
+        <pair id="DDI-DrugBank.d148.s4.p0" e1="DDI-DrugBank.d148.s4.e0"
+            e2="DDI-DrugBank.d148.s4.e1" ddi="true" type="effect"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d148.s5" text="Thrombolytic agents: The safety and effectiveness of Argatroban with thrombolytic agents have not been established.">
+        <entity id="DDI-DrugBank.d148.s5.e0" charOffset="0-18"
+            type="group" text="Thrombolytic agents"/>
+        <entity id="DDI-DrugBank.d148.s5.e1" charOffset="53-62"
+            type="drug" text="Argatroban"/>
+        <entity id="DDI-DrugBank.d148.s5.e2" charOffset="69-87"
+            type="group" text="thrombolytic agents"/>
+        <pair id="DDI-DrugBank.d148.s5.p0" e1="DDI-DrugBank.d148.s5.e0"
+            e2="DDI-DrugBank.d148.s5.e1" ddi="false"/>
+        <pair id="DDI-DrugBank.d148.s5.p1" e1="DDI-DrugBank.d148.s5.e0"
+            e2="DDI-DrugBank.d148.s5.e2" ddi="false"/>
+        <pair id="DDI-DrugBank.d148.s5.p2" e1="DDI-DrugBank.d148.s5.e1"
+            e2="DDI-DrugBank.d148.s5.e2" ddi="false"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d148.s6" text="Co-administration: Concomitant use of Argatroban with antiplatelet agents, thrombolytics, and other anticoagulants may increase the risk of bleeding.">
+        <entity id="DDI-DrugBank.d148.s6.e0" charOffset="38-47"
+            type="drug" text="Argatroban"/>
+        <entity id="DDI-DrugBank.d148.s6.e1" charOffset="54-72"
+            type="group" text="antiplatelet agents"/>
+        <entity id="DDI-DrugBank.d148.s6.e2" charOffset="75-87"
+            type="group" text="thrombolytics"/>
+        <entity id="DDI-DrugBank.d148.s6.e3" charOffset="100-113"
+            type="group" text="anticoagulants"/>
+        <pair id="DDI-DrugBank.d148.s6.p0" e1="DDI-DrugBank.d148.s6.e0"
+            e2="DDI-DrugBank.d148.s6.e1" ddi="true" type="effect"/>
+        <pair id="DDI-DrugBank.d148.s6.p1" e1="DDI-DrugBank.d148.s6.e0"
+            e2="DDI-DrugBank.d148.s6.e2" ddi="true" type="effect"/>
+        <pair id="DDI-DrugBank.d148.s6.p2" e1="DDI-DrugBank.d148.s6.e0"
+            e2="DDI-DrugBank.d148.s6.e3" ddi="true" type="effect"/>
+        <pair id="DDI-DrugBank.d148.s6.p3" e1="DDI-DrugBank.d148.s6.e1"
+            e2="DDI-DrugBank.d148.s6.e2" ddi="false"/>
+        <pair id="DDI-DrugBank.d148.s6.p4" e1="DDI-DrugBank.d148.s6.e1"
+            e2="DDI-DrugBank.d148.s6.e3" ddi="false"/>
+        <pair id="DDI-DrugBank.d148.s6.p5" e1="DDI-DrugBank.d148.s6.e2"
+            e2="DDI-DrugBank.d148.s6.e3" ddi="false"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d148.s7" text="Drug-drug interactions have not been observed between Argatroban and digoxin or erythromycin.">
+        <entity id="DDI-DrugBank.d148.s7.e0" charOffset="54-63"
+            type="drug" text="Argatroban"/>
+        <entity id="DDI-DrugBank.d148.s7.e1" charOffset="69-75"
+            type="drug" text="digoxin"/>
+        <entity id="DDI-DrugBank.d148.s7.e2" charOffset="80-91"
+            type="drug" text="erythromycin"/>
+        <pair id="DDI-DrugBank.d148.s7.p0" e1="DDI-DrugBank.d148.s7.e0"
+            e2="DDI-DrugBank.d148.s7.e1" ddi="false"/>
+        <pair id="DDI-DrugBank.d148.s7.p1" e1="DDI-DrugBank.d148.s7.e0"
+            e2="DDI-DrugBank.d148.s7.e2" ddi="false"/>
+        <pair id="DDI-DrugBank.d148.s7.p2" e1="DDI-DrugBank.d148.s7.e1"
+            e2="DDI-DrugBank.d148.s7.e2" ddi="false"/>
+    </sentence>
+</document>

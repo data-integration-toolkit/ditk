@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="DDI-DrugBank.d205">
+    <sentence id="DDI-DrugBank.d205.s0" text="Since Zarontin (ethosuximide) may interact with concurrently administered antiepileptic drugs, periodic serum level determinations of these drugs may be necessary (eg, ethosuximide may elevate phenytoin serum levels and valproic acid has been reported to both increase and decrease ethosuximide levels).">
+        <entity id="DDI-DrugBank.d205.s0.e0" charOffset="6-13"
+            type="brand" text="Zarontin"/>
+        <entity id="DDI-DrugBank.d205.s0.e1" charOffset="16-27"
+            type="drug" text="ethosuximide"/>
+        <entity id="DDI-DrugBank.d205.s0.e2" charOffset="74-92"
+            type="group" text="antiepileptic drugs"/>
+        <entity id="DDI-DrugBank.d205.s0.e3" charOffset="168-179"
+            type="drug" text="ethosuximide"/>
+        <entity id="DDI-DrugBank.d205.s0.e4" charOffset="193-201"
+            type="drug" text="phenytoin"/>
+        <entity id="DDI-DrugBank.d205.s0.e5" charOffset="220-232"
+            type="drug" text="valproic acid"/>
+        <entity id="DDI-DrugBank.d205.s0.e6" charOffset="282-293"
+            type="drug" text="ethosuximide"/>
+        <pair id="DDI-DrugBank.d205.s0.p0" e1="DDI-DrugBank.d205.s0.e0"
+            e2="DDI-DrugBank.d205.s0.e1" ddi="false"/>
+        <pair id="DDI-DrugBank.d205.s0.p1" e1="DDI-DrugBank.d205.s0.e0"
+            e2="DDI-DrugBank.d205.s0.e2" ddi="true" type="int"/>
+        <pair id="DDI-DrugBank.d205.s0.p2" e1="DDI-DrugBank.d205.s0.e0"
+            e2="DDI-DrugBank.d205.s0.e3" ddi="false"/>
+        <pair id="DDI-DrugBank.d205.s0.p3" e1="DDI-DrugBank.d205.s0.e0"
+            e2="DDI-DrugBank.d205.s0.e4" ddi="false"/>
+        <pair id="DDI-DrugBank.d205.s0.p4" e1="DDI-DrugBank.d205.s0.e0"
+            e2="DDI-DrugBank.d205.s0.e5" ddi="false"/>
+        <pair id="DDI-DrugBank.d205.s0.p5" e1="DDI-DrugBank.d205.s0.e0"
+            e2="DDI-DrugBank.d205.s0.e6" ddi="false"/>
+        <pair id="DDI-DrugBank.d205.s0.p6" e1="DDI-DrugBank.d205.s0.e1"
+            e2="DDI-DrugBank.d205.s0.e2" ddi="true" type="int"/>
+        <pair id="DDI-DrugBank.d205.s0.p7" e1="DDI-DrugBank.d205.s0.e1"
+            e2="DDI-DrugBank.d205.s0.e3" ddi="false"/>
+        <pair id="DDI-DrugBank.d205.s0.p8" e1="DDI-DrugBank.d205.s0.e1"
+            e2="DDI-DrugBank.d205.s0.e4" ddi="false"/>
+        <pair id="DDI-DrugBank.d205.s0.p9" e1="DDI-DrugBank.d205.s0.e1"
+            e2="DDI-DrugBank.d205.s0.e5" ddi="false"/>
+        <pair id="DDI-DrugBank.d205.s0.p10" e1="DDI-DrugBank.d205.s0.e1"
+            e2="DDI-DrugBank.d205.s0.e6" ddi="false"/>
+        <pair id="DDI-DrugBank.d205.s0.p11" e1="DDI-DrugBank.d205.s0.e2"
+            e2="DDI-DrugBank.d205.s0.e3" ddi="false"/>
+        <pair id="DDI-DrugBank.d205.s0.p12" e1="DDI-DrugBank.d205.s0.e2"
+            e2="DDI-DrugBank.d205.s0.e4" ddi="false"/>
+        <pair id="DDI-DrugBank.d205.s0.p13" e1="DDI-DrugBank.d205.s0.e2"
+            e2="DDI-DrugBank.d205.s0.e5" ddi="false"/>
+        <pair id="DDI-DrugBank.d205.s0.p14" e1="DDI-DrugBank.d205.s0.e2"
+            e2="DDI-DrugBank.d205.s0.e6" ddi="false"/>
+        <pair id="DDI-DrugBank.d205.s0.p15" e1="DDI-DrugBank.d205.s0.e3"
+            e2="DDI-DrugBank.d205.s0.e4" ddi="true" type="mechanism"/>
+        <pair id="DDI-DrugBank.d205.s0.p16" e1="DDI-DrugBank.d205.s0.e3"
+            e2="DDI-DrugBank.d205.s0.e5" ddi="false"/>
+        <pair id="DDI-DrugBank.d205.s0.p17" e1="DDI-DrugBank.d205.s0.e3"
+            e2="DDI-DrugBank.d205.s0.e6" ddi="false"/>
+        <pair id="DDI-DrugBank.d205.s0.p18" e1="DDI-DrugBank.d205.s0.e4"
+            e2="DDI-DrugBank.d205.s0.e5" ddi="false"/>
+        <pair id="DDI-DrugBank.d205.s0.p19" e1="DDI-DrugBank.d205.s0.e4"
+            e2="DDI-DrugBank.d205.s0.e6" ddi="false"/>
+        <pair id="DDI-DrugBank.d205.s0.p20" e1="DDI-DrugBank.d205.s0.e5"
+            e2="DDI-DrugBank.d205.s0.e6" ddi="true" type="mechanism"/>
+    </sentence>
+</document>

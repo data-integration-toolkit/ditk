@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="DDI-MedLine.d194">
+    <sentence id="DDI-MedLine.d194.s0" text="The role of p27(Kip1) in dasatinib-enhanced paclitaxel cytotoxicity in human ovarian cancer cells.&#xd;&#xa;">
+        <entity id="DDI-MedLine.d194.s0.e0" charOffset="25-33"
+            type="drug" text="dasatinib"/>
+        <entity id="DDI-MedLine.d194.s0.e1" charOffset="44-53"
+            type="drug" text="paclitaxel"/>
+        <pair id="DDI-MedLine.d194.s0.p0" e1="DDI-MedLine.d194.s0.e0"
+            e2="DDI-MedLine.d194.s0.e1" ddi="true" type="effect"/>
+    </sentence>
+    <sentence id="DDI-MedLine.d194.s1" text="Less than 50% of ovarian cancers respond to paclitaxel. ">
+        <entity id="DDI-MedLine.d194.s1.e0" charOffset="44-53"
+            type="drug" text="paclitaxel"/>
+    </sentence>
+    <sentence id="DDI-MedLine.d194.s2" text="Effective strategies are needed to enhance paclitaxel sensitivity.">
+        <entity id="DDI-MedLine.d194.s2.e0" charOffset="43-52"
+            type="drug" text="paclitaxel"/>
+    </sentence>
+    <sentence id="DDI-MedLine.d194.s3" text="A library of silencing RNAs (siRNAs) was used to identify kinases that regulate paclitaxel sensitivity in human ovarian cancer SKOv3 cells. ">
+        <entity id="DDI-MedLine.d194.s3.e0" charOffset="80-89"
+            type="drug" text="paclitaxel"/>
+    </sentence>
+    <sentence id="DDI-MedLine.d194.s4" text="The effect of dasatinib, an inhibitor of Src and Abl kinases, on paclitaxel sensitivity was measured in ovarian cancer cells and HEY xenografts. ">
+        <entity id="DDI-MedLine.d194.s4.e0" charOffset="14-22"
+            type="drug" text="dasatinib"/>
+        <entity id="DDI-MedLine.d194.s4.e1" charOffset="65-74"
+            type="drug" text="paclitaxel"/>
+        <pair id="DDI-MedLine.d194.s4.p0" e1="DDI-MedLine.d194.s4.e0"
+            e2="DDI-MedLine.d194.s4.e1" ddi="false"/>
+    </sentence>
+    <sentence id="DDI-MedLine.d194.s5" text="The roles of p27(Kip1), Bcl-2, and Cdk1 in apoptosis induced by dasatinib and paclitaxel were assessed using a terminal deoxynucleotidyl transferase-mediated dUTP nick-end labeling (TUNEL) assay, siRNA knockdown of gene expression, transfection with Bcl-2 and Cdk1 expression vectors, and flow cytometry. ">
+        <entity id="DDI-MedLine.d194.s5.e0" charOffset="64-72"
+            type="drug" text="dasatinib"/>
+        <entity id="DDI-MedLine.d194.s5.e1" charOffset="78-87"
+            type="drug" text="paclitaxel"/>
+        <pair id="DDI-MedLine.d194.s5.p0" e1="DDI-MedLine.d194.s5.e0"
+            e2="DDI-MedLine.d194.s5.e1" ddi="false"/>
+    </sentence>
+    <sentence id="DDI-MedLine.d194.s6" text="All statistical tests were two-sided. "/>
+    <sentence id="DDI-MedLine.d194.s7" text="Src family and Abl kinases were identified as modulators of paclitaxel sensitivity in SKOv3 cells. ">
+        <entity id="DDI-MedLine.d194.s7.e0" charOffset="60-69"
+            type="drug" text="paclitaxel"/>
+    </sentence>
+    <sentence id="DDI-MedLine.d194.s8" text="The siRNA knockdown of Src, Fyn, or Abl1 enhanced paclitaxel-mediated growth inhibition in ovarian cancer cells compared with a control siRNA. ">
+        <entity id="DDI-MedLine.d194.s8.e0" charOffset="50-59"
+            type="drug" text="paclitaxel"/>
+    </sentence>
+    <sentence id="DDI-MedLine.d194.s9" text="HEY cells treated with dasatinib plus paclitaxel formed fewer colonies than did cells treated with either agent alone. ">
+        <entity id="DDI-MedLine.d194.s9.e0" charOffset="23-31"
+            type="drug" text="dasatinib"/>
+        <entity id="DDI-MedLine.d194.s9.e1" charOffset="38-47"
+            type="drug" text="paclitaxel"/>
+        <pair id="DDI-MedLine.d194.s9.p0" e1="DDI-MedLine.d194.s9.e0"
+            e2="DDI-MedLine.d194.s9.e1" ddi="true" type="effect"/>
+    </sentence>
+    <sentence id="DDI-MedLine.d194.s10" text="Treatment of HEY xenograft-bearing mice with dasatinib plus paclitaxel inhibited tumor growth more than treatment with either agent alone (average tumor volume per mouse, dasatinib + paclitaxel vs paclitaxel: 0.28 vs. 0.81 cm3, difference = 0.53 cm3, 95% confidence interval [CI] = 0.44 to 0.62 cm3, P = .014); ">
+        <entity id="DDI-MedLine.d194.s10.e0" charOffset="45-53"
+            type="drug" text="dasatinib"/>
+        <entity id="DDI-MedLine.d194.s10.e1" charOffset="60-69"
+            type="drug" text="paclitaxel"/>
+        <entity id="DDI-MedLine.d194.s10.e2" charOffset="171-179"
+            type="drug" text="dasatinib"/>
+        <entity id="DDI-MedLine.d194.s10.e3" charOffset="183-192"
+            type="drug" text="paclitaxel"/>
+        <entity id="DDI-MedLine.d194.s10.e4" charOffset="197-206"
+            type="drug" text="paclitaxel"/>
+        <pair id="DDI-MedLine.d194.s10.p0" e1="DDI-MedLine.d194.s10.e0"
+            e2="DDI-MedLine.d194.s10.e1" ddi="true" type="effect"/>
+        <pair id="DDI-MedLine.d194.s10.p1" e1="DDI-MedLine.d194.s10.e0"
+            e2="DDI-MedLine.d194.s10.e2" ddi="false"/>
+        <pair id="DDI-MedLine.d194.s10.p2" e1="DDI-MedLine.d194.s10.e0"
+            e2="DDI-MedLine.d194.s10.e3" ddi="false"/>
+        <pair id="DDI-MedLine.d194.s10.p3" e1="DDI-MedLine.d194.s10.e0"
+            e2="DDI-MedLine.d194.s10.e4" ddi="false"/>
+        <pair id="DDI-MedLine.d194.s10.p4" e1="DDI-MedLine.d194.s10.e1"
+            e2="DDI-MedLine.d194.s10.e2" ddi="false"/>
+        <pair id="DDI-MedLine.d194.s10.p5" e1="DDI-MedLine.d194.s10.e1"
+            e2="DDI-MedLine.d194.s10.e3" ddi="false"/>
+        <pair id="DDI-MedLine.d194.s10.p6" e1="DDI-MedLine.d194.s10.e1"
+            e2="DDI-MedLine.d194.s10.e4" ddi="false"/>
+        <pair id="DDI-MedLine.d194.s10.p7" e1="DDI-MedLine.d194.s10.e2"
+            e2="DDI-MedLine.d194.s10.e3" ddi="false"/>
+        <pair id="DDI-MedLine.d194.s10.p8" e1="DDI-MedLine.d194.s10.e2"
+            e2="DDI-MedLine.d194.s10.e4" ddi="false"/>
+        <pair id="DDI-MedLine.d194.s10.p9" e1="DDI-MedLine.d194.s10.e3"
+            e2="DDI-MedLine.d194.s10.e4" ddi="false"/>
+    </sentence>
+    <sentence id="DDI-MedLine.d194.s11" text="dasatinib + paclitaxel vs. ">
+        <entity id="DDI-MedLine.d194.s11.e0" charOffset="0-8"
+            type="drug" text="dasatinib"/>
+        <entity id="DDI-MedLine.d194.s11.e1" charOffset="12-21"
+            type="drug" text="paclitaxel"/>
+        <pair id="DDI-MedLine.d194.s11.p0" e1="DDI-MedLine.d194.s11.e0"
+            e2="DDI-MedLine.d194.s11.e1" ddi="false"/>
+    </sentence>
+    <sentence id="DDI-MedLine.d194.s12" text="dasatinib: 0.28 vs. ">
+        <entity id="DDI-MedLine.d194.s12.e0" charOffset="0-8"
+            type="drug" text="dasatinib"/>
+    </sentence>
+    <sentence id="DDI-MedLine.d194.s13" text="0.55 cm3, difference = 0.27 cm3, 95% CI = 0.21 to 0.33 cm3, P = .035). "/>
+    <sentence id="DDI-MedLine.d194.s14" text="Combined treatment induced more TUNEL-positive apoptotic cells than did either agent alone. "/>
+    <sentence id="DDI-MedLine.d194.s15" text="The siRNA knockdown of p27(Kip1) decreased dasatinib- and paclitaxel-induced apoptosis compared with a negative control siRNA (sub-G1 fraction, control siRNA vs. p27(Kip1) siRNA: 42.5% vs. 20.1%, difference = 22.4%, 95% CI = 20.1% to 24.7%, P = .017). ">
+        <entity id="DDI-MedLine.d194.s15.e0" charOffset="43-51"
+            type="drug" text="dasatinib"/>
+        <entity id="DDI-MedLine.d194.s15.e1" charOffset="58-67"
+            type="drug" text="paclitaxel"/>
+        <pair id="DDI-MedLine.d194.s15.p0" e1="DDI-MedLine.d194.s15.e0"
+            e2="DDI-MedLine.d194.s15.e1" ddi="false"/>
+    </sentence>
+    <sentence id="DDI-MedLine.d194.s16" text="Studies with forced expression and siRNA knockdown of Bcl-2 and Cdk1 suggest that dasatinib-mediated induction of p27(Kip1) enhanced paclitaxel-induced apoptosis by negatively regulating Bcl-2 and Cdk1 expression. ">
+        <entity id="DDI-MedLine.d194.s16.e0" charOffset="82-90"
+            type="drug" text="dasatinib"/>
+        <entity id="DDI-MedLine.d194.s16.e1" charOffset="133-142"
+            type="drug" text="paclitaxel"/>
+        <pair id="DDI-MedLine.d194.s16.p0" e1="DDI-MedLine.d194.s16.e0"
+            e2="DDI-MedLine.d194.s16.e1" ddi="true" type="effect"/>
+    </sentence>
+    <sentence id="DDI-MedLine.d194.s17" text="Inhibition of Src family and Abl kinases with either siRNAs or dasatinib enhances paclitaxel sensitivity of ovarian cancer cells through p27(Kip1)-mediated suppression of Bcl-2 and Cdk1 expression.">
+        <entity id="DDI-MedLine.d194.s17.e0" charOffset="63-71"
+            type="drug" text="dasatinib"/>
+        <entity id="DDI-MedLine.d194.s17.e1" charOffset="82-91"
+            type="drug" text="paclitaxel"/>
+        <pair id="DDI-MedLine.d194.s17.p0" e1="DDI-MedLine.d194.s17.e0"
+            e2="DDI-MedLine.d194.s17.e1" ddi="true" type="effect"/>
+    </sentence>
+</document>

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="DDI-DrugBank.d83">
+    <sentence id="DDI-DrugBank.d83.s0" text="Patients on warfarin-type anticoagulant therapy may require dosage adjustment of the anticoagulant during and after griseofulvin therapy.">
+        <entity id="DDI-DrugBank.d83.s0.e0" charOffset="12-38"
+            type="group" text="warfarin-type anticoagulant"/>
+        <entity id="DDI-DrugBank.d83.s0.e1" charOffset="116-127"
+            type="drug" text="griseofulvin"/>
+        <pair id="DDI-DrugBank.d83.s0.p0" e1="DDI-DrugBank.d83.s0.e0"
+            e2="DDI-DrugBank.d83.s0.e1" ddi="true" type="advise"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d83.s1" text="Concomitant use of barbiturates usually depresses griseofulvin activity and may necessitate raising the dosage.">
+        <entity id="DDI-DrugBank.d83.s1.e0" charOffset="19-30"
+            type="group" text="barbiturates"/>
+        <entity id="DDI-DrugBank.d83.s1.e1" charOffset="50-61"
+            type="drug" text="griseofulvin"/>
+        <pair id="DDI-DrugBank.d83.s1.p0" e1="DDI-DrugBank.d83.s1.e0"
+            e2="DDI-DrugBank.d83.s1.e1" ddi="true" type="effect"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d83.s2" text="The concomitant administration of griseofulvin has been reported to reduce the efficacy of oral contraceptives and to increase the incidence of breakthrough bleeding.">
+        <entity id="DDI-DrugBank.d83.s2.e0" charOffset="34-45"
+            type="drug" text="griseofulvin"/>
+        <entity id="DDI-DrugBank.d83.s2.e1" charOffset="96-109"
+            type="group" text="contraceptives"/>
+        <pair id="DDI-DrugBank.d83.s2.p0" e1="DDI-DrugBank.d83.s2.e0"
+            e2="DDI-DrugBank.d83.s2.e1" ddi="true" type="effect"/>
+    </sentence>
+</document>

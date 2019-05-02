@@ -1,0 +1,415 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="DDI-DrugBank.d413">
+    <sentence id="DDI-DrugBank.d413.s0" text="The following drug interactions were observed in some patients undergoing treatment with oral allopurinol.">
+        <entity id="DDI-DrugBank.d413.s0.e0" charOffset="94-104"
+            type="drug" text="allopurinol"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d413.s1" text="Although the pattern of use for oral allopurinol includes longer term therapy, particularly for gout and renal calculi, the experience gained may be relevant.">
+        <entity id="DDI-DrugBank.d413.s1.e0" charOffset="37-47"
+            type="drug" text="allopurinol"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d413.s2" text="Mercaptopurine/Azathioprine: Allopurinol inhibits the enzymatic oxidation of mercaptopurine and azathioprine to 6-thiouric acid.">
+        <entity id="DDI-DrugBank.d413.s2.e0" charOffset="0-13"
+            type="drug" text="Mercaptopurine"/>
+        <entity id="DDI-DrugBank.d413.s2.e1" charOffset="15-26"
+            type="drug" text="Azathioprine"/>
+        <entity id="DDI-DrugBank.d413.s2.e2" charOffset="29-39"
+            type="drug" text="Allopurinol"/>
+        <entity id="DDI-DrugBank.d413.s2.e3" charOffset="77-90"
+            type="drug" text="mercaptopurine"/>
+        <entity id="DDI-DrugBank.d413.s2.e4" charOffset="96-107"
+            type="drug" text="azathioprine"/>
+        <entity id="DDI-DrugBank.d413.s2.e5" charOffset="112-126"
+            type="drug" text="6-thiouric acid"/>
+        <pair id="DDI-DrugBank.d413.s2.p0" e1="DDI-DrugBank.d413.s2.e0"
+            e2="DDI-DrugBank.d413.s2.e1" ddi="false"/>
+        <pair id="DDI-DrugBank.d413.s2.p1" e1="DDI-DrugBank.d413.s2.e0"
+            e2="DDI-DrugBank.d413.s2.e2" ddi="false"/>
+        <pair id="DDI-DrugBank.d413.s2.p2" e1="DDI-DrugBank.d413.s2.e0"
+            e2="DDI-DrugBank.d413.s2.e3" ddi="false"/>
+        <pair id="DDI-DrugBank.d413.s2.p3" e1="DDI-DrugBank.d413.s2.e0"
+            e2="DDI-DrugBank.d413.s2.e4" ddi="false"/>
+        <pair id="DDI-DrugBank.d413.s2.p4" e1="DDI-DrugBank.d413.s2.e0"
+            e2="DDI-DrugBank.d413.s2.e5" ddi="false"/>
+        <pair id="DDI-DrugBank.d413.s2.p5" e1="DDI-DrugBank.d413.s2.e1"
+            e2="DDI-DrugBank.d413.s2.e2" ddi="false"/>
+        <pair id="DDI-DrugBank.d413.s2.p6" e1="DDI-DrugBank.d413.s2.e1"
+            e2="DDI-DrugBank.d413.s2.e3" ddi="false"/>
+        <pair id="DDI-DrugBank.d413.s2.p7" e1="DDI-DrugBank.d413.s2.e1"
+            e2="DDI-DrugBank.d413.s2.e4" ddi="false"/>
+        <pair id="DDI-DrugBank.d413.s2.p8" e1="DDI-DrugBank.d413.s2.e1"
+            e2="DDI-DrugBank.d413.s2.e5" ddi="false"/>
+        <pair id="DDI-DrugBank.d413.s2.p9" e1="DDI-DrugBank.d413.s2.e2"
+            e2="DDI-DrugBank.d413.s2.e3" ddi="true" type="mechanism"/>
+        <pair id="DDI-DrugBank.d413.s2.p10" e1="DDI-DrugBank.d413.s2.e2"
+            e2="DDI-DrugBank.d413.s2.e4" ddi="true" type="mechanism"/>
+        <pair id="DDI-DrugBank.d413.s2.p11" e1="DDI-DrugBank.d413.s2.e2"
+            e2="DDI-DrugBank.d413.s2.e5" ddi="false"/>
+        <pair id="DDI-DrugBank.d413.s2.p12" e1="DDI-DrugBank.d413.s2.e3"
+            e2="DDI-DrugBank.d413.s2.e4" ddi="false"/>
+        <pair id="DDI-DrugBank.d413.s2.p13" e1="DDI-DrugBank.d413.s2.e3"
+            e2="DDI-DrugBank.d413.s2.e5" ddi="false"/>
+        <pair id="DDI-DrugBank.d413.s2.p14" e1="DDI-DrugBank.d413.s2.e4"
+            e2="DDI-DrugBank.d413.s2.e5" ddi="false"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d413.s3" text="This oxidation, which is catalyzed by xanthine oxidase, inactivates mercaptopurine.">
+        <entity id="DDI-DrugBank.d413.s3.e0" charOffset="68-81"
+            type="drug" text="mercaptopurine"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d413.s4" text="In patients receiving mercaptopurine (Purinethol) or azathioprine (Imuran), the concomitant administration of 300-600 mg of allopurinol per day will require a reduction in dose to approximately one-third to one-fourth of the usual dose of mercaptopurine or azathioprine.">
+        <entity id="DDI-DrugBank.d413.s4.e0" charOffset="22-35"
+            type="drug" text="mercaptopurine"/>
+        <entity id="DDI-DrugBank.d413.s4.e1" charOffset="38-47"
+            type="brand" text="Purinethol"/>
+        <entity id="DDI-DrugBank.d413.s4.e2" charOffset="53-64"
+            type="drug" text="azathioprine"/>
+        <entity id="DDI-DrugBank.d413.s4.e3" charOffset="67-72"
+            type="brand" text="Imuran"/>
+        <entity id="DDI-DrugBank.d413.s4.e4" charOffset="124-134"
+            type="drug" text="allopurinol"/>
+        <entity id="DDI-DrugBank.d413.s4.e5" charOffset="239-252"
+            type="drug" text="mercaptopurine"/>
+        <entity id="DDI-DrugBank.d413.s4.e6" charOffset="257-268"
+            type="drug" text="azathioprine"/>
+        <pair id="DDI-DrugBank.d413.s4.p0" e1="DDI-DrugBank.d413.s4.e0"
+            e2="DDI-DrugBank.d413.s4.e1" ddi="false"/>
+        <pair id="DDI-DrugBank.d413.s4.p1" e1="DDI-DrugBank.d413.s4.e0"
+            e2="DDI-DrugBank.d413.s4.e2" ddi="false"/>
+        <pair id="DDI-DrugBank.d413.s4.p2" e1="DDI-DrugBank.d413.s4.e0"
+            e2="DDI-DrugBank.d413.s4.e3" ddi="false"/>
+        <pair id="DDI-DrugBank.d413.s4.p3" e1="DDI-DrugBank.d413.s4.e0"
+            e2="DDI-DrugBank.d413.s4.e4" ddi="false"/>
+        <pair id="DDI-DrugBank.d413.s4.p4" e1="DDI-DrugBank.d413.s4.e0"
+            e2="DDI-DrugBank.d413.s4.e5" ddi="false"/>
+        <pair id="DDI-DrugBank.d413.s4.p5" e1="DDI-DrugBank.d413.s4.e0"
+            e2="DDI-DrugBank.d413.s4.e6" ddi="false"/>
+        <pair id="DDI-DrugBank.d413.s4.p6" e1="DDI-DrugBank.d413.s4.e1"
+            e2="DDI-DrugBank.d413.s4.e2" ddi="false"/>
+        <pair id="DDI-DrugBank.d413.s4.p7" e1="DDI-DrugBank.d413.s4.e1"
+            e2="DDI-DrugBank.d413.s4.e3" ddi="false"/>
+        <pair id="DDI-DrugBank.d413.s4.p8" e1="DDI-DrugBank.d413.s4.e1"
+            e2="DDI-DrugBank.d413.s4.e4" ddi="false"/>
+        <pair id="DDI-DrugBank.d413.s4.p9" e1="DDI-DrugBank.d413.s4.e1"
+            e2="DDI-DrugBank.d413.s4.e5" ddi="false"/>
+        <pair id="DDI-DrugBank.d413.s4.p10" e1="DDI-DrugBank.d413.s4.e1"
+            e2="DDI-DrugBank.d413.s4.e6" ddi="false"/>
+        <pair id="DDI-DrugBank.d413.s4.p11" e1="DDI-DrugBank.d413.s4.e2"
+            e2="DDI-DrugBank.d413.s4.e3" ddi="false"/>
+        <pair id="DDI-DrugBank.d413.s4.p12" e1="DDI-DrugBank.d413.s4.e2"
+            e2="DDI-DrugBank.d413.s4.e4" ddi="false"/>
+        <pair id="DDI-DrugBank.d413.s4.p13" e1="DDI-DrugBank.d413.s4.e2"
+            e2="DDI-DrugBank.d413.s4.e5" ddi="false"/>
+        <pair id="DDI-DrugBank.d413.s4.p14" e1="DDI-DrugBank.d413.s4.e2"
+            e2="DDI-DrugBank.d413.s4.e6" ddi="false"/>
+        <pair id="DDI-DrugBank.d413.s4.p15" e1="DDI-DrugBank.d413.s4.e3"
+            e2="DDI-DrugBank.d413.s4.e4" ddi="false"/>
+        <pair id="DDI-DrugBank.d413.s4.p16" e1="DDI-DrugBank.d413.s4.e3"
+            e2="DDI-DrugBank.d413.s4.e5" ddi="false"/>
+        <pair id="DDI-DrugBank.d413.s4.p17" e1="DDI-DrugBank.d413.s4.e3"
+            e2="DDI-DrugBank.d413.s4.e6" ddi="false"/>
+        <pair id="DDI-DrugBank.d413.s4.p18" e1="DDI-DrugBank.d413.s4.e4"
+            e2="DDI-DrugBank.d413.s4.e5" ddi="true" type="advise"/>
+        <pair id="DDI-DrugBank.d413.s4.p19" e1="DDI-DrugBank.d413.s4.e4"
+            e2="DDI-DrugBank.d413.s4.e6" ddi="true" type="advise"/>
+        <pair id="DDI-DrugBank.d413.s4.p20" e1="DDI-DrugBank.d413.s4.e5"
+            e2="DDI-DrugBank.d413.s4.e6" ddi="false"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d413.s5" text="Subsequent adjustment of doses of mercaptopurine or azathioprine should be made on the basis of therapeutic response and the appearance of toxic effects.">
+        <entity id="DDI-DrugBank.d413.s5.e0" charOffset="34-47"
+            type="drug" text="mercaptopurine"/>
+        <entity id="DDI-DrugBank.d413.s5.e1" charOffset="52-63"
+            type="drug" text="azathioprine"/>
+        <pair id="DDI-DrugBank.d413.s5.p0" e1="DDI-DrugBank.d413.s5.e0"
+            e2="DDI-DrugBank.d413.s5.e1" ddi="false"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d413.s6" text="Dicumarol: It has been reported that allopurinol prolongs the half-life of the anticoagulant, dicumarol.">
+        <entity id="DDI-DrugBank.d413.s6.e0" charOffset="0-8"
+            type="drug" text="Dicumarol"/>
+        <entity id="DDI-DrugBank.d413.s6.e1" charOffset="37-47"
+            type="drug" text="allopurinol"/>
+        <entity id="DDI-DrugBank.d413.s6.e2" charOffset="79-91"
+            type="group" text="anticoagulant"/>
+        <entity id="DDI-DrugBank.d413.s6.e3" charOffset="94-102"
+            type="drug" text="dicumarol"/>
+        <pair id="DDI-DrugBank.d413.s6.p0" e1="DDI-DrugBank.d413.s6.e0"
+            e2="DDI-DrugBank.d413.s6.e1" ddi="false"/>
+        <pair id="DDI-DrugBank.d413.s6.p1" e1="DDI-DrugBank.d413.s6.e0"
+            e2="DDI-DrugBank.d413.s6.e2" ddi="false"/>
+        <pair id="DDI-DrugBank.d413.s6.p2" e1="DDI-DrugBank.d413.s6.e0"
+            e2="DDI-DrugBank.d413.s6.e3" ddi="false"/>
+        <pair id="DDI-DrugBank.d413.s6.p3" e1="DDI-DrugBank.d413.s6.e1"
+            e2="DDI-DrugBank.d413.s6.e2" ddi="false"/>
+        <pair id="DDI-DrugBank.d413.s6.p4" e1="DDI-DrugBank.d413.s6.e1"
+            e2="DDI-DrugBank.d413.s6.e3" ddi="true" type="mechanism"/>
+        <pair id="DDI-DrugBank.d413.s6.p5" e1="DDI-DrugBank.d413.s6.e2"
+            e2="DDI-DrugBank.d413.s6.e3" ddi="false"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d413.s7" text="The clinical basis of this drug interaction has not been established but should be noted when allopurinol is given to patients already on dicumarol therapy.">
+        <entity id="DDI-DrugBank.d413.s7.e0" charOffset="94-104"
+            type="drug" text="allopurinol"/>
+        <entity id="DDI-DrugBank.d413.s7.e1" charOffset="138-146"
+            type="drug" text="dicumarol"/>
+        <pair id="DDI-DrugBank.d413.s7.p0" e1="DDI-DrugBank.d413.s7.e0"
+            e2="DDI-DrugBank.d413.s7.e1" ddi="false"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d413.s8" text="Consequently, prothrombin time should be reassessed periodically in patients receiving both drugs."/>
+    <sentence id="DDI-DrugBank.d413.s9" text="Uricosuric Agents: Since the excretion of oxipurinol is similar to that of urate, uricosuric agents, which increase the excretion of urate, are also likely to increase the excretion of oxipurinol and thus lower the degree of inhibition of xanthine oxidase.">
+        <entity id="DDI-DrugBank.d413.s9.e0" charOffset="0-16"
+            type="group" text="Uricosuric Agents"/>
+        <entity id="DDI-DrugBank.d413.s9.e1" charOffset="42-51"
+            type="drug" text="oxipurinol"/>
+        <entity id="DDI-DrugBank.d413.s9.e2" charOffset="82-98"
+            type="group" text="uricosuric agents"/>
+        <entity id="DDI-DrugBank.d413.s9.e3" charOffset="185-194"
+            type="drug" text="oxipurinol"/>
+        <pair id="DDI-DrugBank.d413.s9.p0" e1="DDI-DrugBank.d413.s9.e0"
+            e2="DDI-DrugBank.d413.s9.e1" ddi="false"/>
+        <pair id="DDI-DrugBank.d413.s9.p1" e1="DDI-DrugBank.d413.s9.e0"
+            e2="DDI-DrugBank.d413.s9.e2" ddi="false"/>
+        <pair id="DDI-DrugBank.d413.s9.p2" e1="DDI-DrugBank.d413.s9.e0"
+            e2="DDI-DrugBank.d413.s9.e3" ddi="false"/>
+        <pair id="DDI-DrugBank.d413.s9.p3" e1="DDI-DrugBank.d413.s9.e1"
+            e2="DDI-DrugBank.d413.s9.e2" ddi="false"/>
+        <pair id="DDI-DrugBank.d413.s9.p4" e1="DDI-DrugBank.d413.s9.e1"
+            e2="DDI-DrugBank.d413.s9.e3" ddi="false"/>
+        <pair id="DDI-DrugBank.d413.s9.p5" e1="DDI-DrugBank.d413.s9.e2"
+            e2="DDI-DrugBank.d413.s9.e3" ddi="true" type="mechanism"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d413.s10" text="The concomitant administration of uricosuric agents and allopurinol has been associated with a decrease in the excretion of oxypurines (hypoxanthine and xanthine) and an increase in urinary uric acid excretion compared with that observed with allopurinol alone.">
+        <entity id="DDI-DrugBank.d413.s10.e0" charOffset="34-50"
+            type="group" text="uricosuric agents"/>
+        <entity id="DDI-DrugBank.d413.s10.e1" charOffset="56-66"
+            type="drug" text="allopurinol"/>
+        <entity id="DDI-DrugBank.d413.s10.e2" charOffset="243-253"
+            type="drug" text="allopurinol"/>
+        <pair id="DDI-DrugBank.d413.s10.p0"
+            e1="DDI-DrugBank.d413.s10.e0" e2="DDI-DrugBank.d413.s10.e1"
+            ddi="true" type="mechanism"/>
+        <pair id="DDI-DrugBank.d413.s10.p1"
+            e1="DDI-DrugBank.d413.s10.e0" e2="DDI-DrugBank.d413.s10.e2" ddi="false"/>
+        <pair id="DDI-DrugBank.d413.s10.p2"
+            e1="DDI-DrugBank.d413.s10.e1" e2="DDI-DrugBank.d413.s10.e2" ddi="false"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d413.s11" text="Although clinical evidence to date has not demonstrated renal precipitation of oxypurines in patients either on allopurinol alone or in combination with uricosuric agents, the possibility should be kept in mind.">
+        <entity id="DDI-DrugBank.d413.s11.e0" charOffset="112-122"
+            type="drug" text="allopurinol"/>
+        <entity id="DDI-DrugBank.d413.s11.e1" charOffset="153-169"
+            type="group" text="uricosuric agents"/>
+        <pair id="DDI-DrugBank.d413.s11.p0"
+            e1="DDI-DrugBank.d413.s11.e0" e2="DDI-DrugBank.d413.s11.e1" ddi="false"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d413.s12" text="Thiazide Diuretics: The reports that the concomitant use of allopurinol and thiazide diuretics may contribute to the enhancement of allopurinol toxicity in some patients have been reviewed in an attempt to establish a cause-and-effect relationship and a mechanism of causation.">
+        <entity id="DDI-DrugBank.d413.s12.e0" charOffset="0-17"
+            type="group" text="Thiazide Diuretics"/>
+        <entity id="DDI-DrugBank.d413.s12.e1" charOffset="60-70"
+            type="drug" text="allopurinol"/>
+        <entity id="DDI-DrugBank.d413.s12.e2" charOffset="76-93"
+            type="group" text="thiazide diuretics"/>
+        <entity id="DDI-DrugBank.d413.s12.e3" charOffset="132-142"
+            type="drug" text="allopurinol"/>
+        <pair id="DDI-DrugBank.d413.s12.p0"
+            e1="DDI-DrugBank.d413.s12.e0" e2="DDI-DrugBank.d413.s12.e1" ddi="false"/>
+        <pair id="DDI-DrugBank.d413.s12.p1"
+            e1="DDI-DrugBank.d413.s12.e0" e2="DDI-DrugBank.d413.s12.e2" ddi="false"/>
+        <pair id="DDI-DrugBank.d413.s12.p2"
+            e1="DDI-DrugBank.d413.s12.e0" e2="DDI-DrugBank.d413.s12.e3" ddi="false"/>
+        <pair id="DDI-DrugBank.d413.s12.p3"
+            e1="DDI-DrugBank.d413.s12.e1" e2="DDI-DrugBank.d413.s12.e2"
+            ddi="true" type="effect"/>
+        <pair id="DDI-DrugBank.d413.s12.p4"
+            e1="DDI-DrugBank.d413.s12.e1" e2="DDI-DrugBank.d413.s12.e3" ddi="false"/>
+        <pair id="DDI-DrugBank.d413.s12.p5"
+            e1="DDI-DrugBank.d413.s12.e2" e2="DDI-DrugBank.d413.s12.e3" ddi="false"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d413.s13" text="Review of these case reports indicates that the patients were mainly receiving thiazide diuretics for hypertension and that tests to rule out decreased renal function secondary to hypertensive nephropathy were not often performed.">
+        <entity id="DDI-DrugBank.d413.s13.e0" charOffset="79-96"
+            type="group" text="thiazide diuretics"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d413.s14" text="In those patients in whom renal insufficiency was documented, however, the recommendation to lower the dose of allopurinol was not followed.">
+        <entity id="DDI-DrugBank.d413.s14.e0" charOffset="111-121"
+            type="drug" text="allopurinol"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d413.s15" text="Although a causal mechanism and a cause-and-effect relationship have not been established, current evidence suggests that renal function should be monitored in patients on thiazide diuretics and allopurinol even in the absence of renal failure, and dosage levels should be even more conservatively adjusted in those patients on such combined therapy if diminished renal function is detected..">
+        <entity id="DDI-DrugBank.d413.s15.e0" charOffset="172-189"
+            type="group" text="thiazide diuretics"/>
+        <entity id="DDI-DrugBank.d413.s15.e1" charOffset="195-205"
+            type="drug" text="allopurinol"/>
+        <pair id="DDI-DrugBank.d413.s15.p0"
+            e1="DDI-DrugBank.d413.s15.e0" e2="DDI-DrugBank.d413.s15.e1"
+            ddi="true" type="advise"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d413.s16" text="Ampicillin/Amoxicillin: An increase in the frequency of skin rash has been reported among patients receiving ampicillin or amoxicillin concurrently with allopurinol compared to patients who are not receiving both drugs.">
+        <entity id="DDI-DrugBank.d413.s16.e0" charOffset="0-9"
+            type="drug" text="Ampicillin"/>
+        <entity id="DDI-DrugBank.d413.s16.e1" charOffset="11-21"
+            type="drug" text="Amoxicillin"/>
+        <entity id="DDI-DrugBank.d413.s16.e2" charOffset="109-118"
+            type="drug" text="ampicillin"/>
+        <entity id="DDI-DrugBank.d413.s16.e3" charOffset="123-133"
+            type="drug" text="amoxicillin"/>
+        <entity id="DDI-DrugBank.d413.s16.e4" charOffset="153-163"
+            type="drug" text="allopurinol"/>
+        <pair id="DDI-DrugBank.d413.s16.p0"
+            e1="DDI-DrugBank.d413.s16.e0" e2="DDI-DrugBank.d413.s16.e1" ddi="false"/>
+        <pair id="DDI-DrugBank.d413.s16.p1"
+            e1="DDI-DrugBank.d413.s16.e0" e2="DDI-DrugBank.d413.s16.e2" ddi="false"/>
+        <pair id="DDI-DrugBank.d413.s16.p2"
+            e1="DDI-DrugBank.d413.s16.e0" e2="DDI-DrugBank.d413.s16.e3" ddi="false"/>
+        <pair id="DDI-DrugBank.d413.s16.p3"
+            e1="DDI-DrugBank.d413.s16.e0" e2="DDI-DrugBank.d413.s16.e4" ddi="false"/>
+        <pair id="DDI-DrugBank.d413.s16.p4"
+            e1="DDI-DrugBank.d413.s16.e1" e2="DDI-DrugBank.d413.s16.e2" ddi="false"/>
+        <pair id="DDI-DrugBank.d413.s16.p5"
+            e1="DDI-DrugBank.d413.s16.e1" e2="DDI-DrugBank.d413.s16.e3" ddi="false"/>
+        <pair id="DDI-DrugBank.d413.s16.p6"
+            e1="DDI-DrugBank.d413.s16.e1" e2="DDI-DrugBank.d413.s16.e4" ddi="false"/>
+        <pair id="DDI-DrugBank.d413.s16.p7"
+            e1="DDI-DrugBank.d413.s16.e2" e2="DDI-DrugBank.d413.s16.e3" ddi="false"/>
+        <pair id="DDI-DrugBank.d413.s16.p8"
+            e1="DDI-DrugBank.d413.s16.e2" e2="DDI-DrugBank.d413.s16.e4"
+            ddi="true" type="effect"/>
+        <pair id="DDI-DrugBank.d413.s16.p9"
+            e1="DDI-DrugBank.d413.s16.e3" e2="DDI-DrugBank.d413.s16.e4"
+            ddi="true" type="effect"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d413.s17" text="The cause of the reported association has not been established."/>
+    <sentence id="DDI-DrugBank.d413.s18" text="Cytotoxic Agents: Enhanced bone marrow suppression by cyclophosphamide and other cytotoxic agents has been reported among patients with neoplastic disease, except leukemia, in the presence of allopurinol.">
+        <entity id="DDI-DrugBank.d413.s18.e0" charOffset="0-15"
+            type="group" text="Cytotoxic Agents"/>
+        <entity id="DDI-DrugBank.d413.s18.e1" charOffset="54-69"
+            type="drug" text="cyclophosphamide"/>
+        <entity id="DDI-DrugBank.d413.s18.e2" charOffset="81-96"
+            type="group" text="cytotoxic agents"/>
+        <entity id="DDI-DrugBank.d413.s18.e3" charOffset="192-202"
+            type="drug" text="allopurinol"/>
+        <pair id="DDI-DrugBank.d413.s18.p0"
+            e1="DDI-DrugBank.d413.s18.e0" e2="DDI-DrugBank.d413.s18.e1" ddi="false"/>
+        <pair id="DDI-DrugBank.d413.s18.p1"
+            e1="DDI-DrugBank.d413.s18.e0" e2="DDI-DrugBank.d413.s18.e2" ddi="false"/>
+        <pair id="DDI-DrugBank.d413.s18.p2"
+            e1="DDI-DrugBank.d413.s18.e0" e2="DDI-DrugBank.d413.s18.e3" ddi="false"/>
+        <pair id="DDI-DrugBank.d413.s18.p3"
+            e1="DDI-DrugBank.d413.s18.e1" e2="DDI-DrugBank.d413.s18.e2" ddi="false"/>
+        <pair id="DDI-DrugBank.d413.s18.p4"
+            e1="DDI-DrugBank.d413.s18.e1" e2="DDI-DrugBank.d413.s18.e3"
+            ddi="true" type="effect"/>
+        <pair id="DDI-DrugBank.d413.s18.p5"
+            e1="DDI-DrugBank.d413.s18.e2" e2="DDI-DrugBank.d413.s18.e3"
+            ddi="true" type="effect"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d413.s19" text="However, in a well-controlled study of patients with lymphoma on combination therapy, allopurinol did not increase the marrow toxicity of patients treated with cyclophosphamide, doxorubicin, bleomycin, procarbazine and/or mechlorethamine.">
+        <entity id="DDI-DrugBank.d413.s19.e0" charOffset="86-96"
+            type="drug" text="allopurinol"/>
+        <entity id="DDI-DrugBank.d413.s19.e1" charOffset="160-175"
+            type="drug" text="cyclophosphamide"/>
+        <entity id="DDI-DrugBank.d413.s19.e2" charOffset="178-188"
+            type="drug" text="doxorubicin"/>
+        <entity id="DDI-DrugBank.d413.s19.e3" charOffset="191-199"
+            type="drug" text="bleomycin"/>
+        <entity id="DDI-DrugBank.d413.s19.e4" charOffset="202-213"
+            type="drug" text="procarbazine"/>
+        <entity id="DDI-DrugBank.d413.s19.e5" charOffset="222-236"
+            type="drug" text="mechlorethamine"/>
+        <pair id="DDI-DrugBank.d413.s19.p0"
+            e1="DDI-DrugBank.d413.s19.e0" e2="DDI-DrugBank.d413.s19.e1" ddi="false"/>
+        <pair id="DDI-DrugBank.d413.s19.p1"
+            e1="DDI-DrugBank.d413.s19.e0" e2="DDI-DrugBank.d413.s19.e2" ddi="false"/>
+        <pair id="DDI-DrugBank.d413.s19.p2"
+            e1="DDI-DrugBank.d413.s19.e0" e2="DDI-DrugBank.d413.s19.e3" ddi="false"/>
+        <pair id="DDI-DrugBank.d413.s19.p3"
+            e1="DDI-DrugBank.d413.s19.e0" e2="DDI-DrugBank.d413.s19.e4" ddi="false"/>
+        <pair id="DDI-DrugBank.d413.s19.p4"
+            e1="DDI-DrugBank.d413.s19.e0" e2="DDI-DrugBank.d413.s19.e5" ddi="false"/>
+        <pair id="DDI-DrugBank.d413.s19.p5"
+            e1="DDI-DrugBank.d413.s19.e1" e2="DDI-DrugBank.d413.s19.e2" ddi="false"/>
+        <pair id="DDI-DrugBank.d413.s19.p6"
+            e1="DDI-DrugBank.d413.s19.e1" e2="DDI-DrugBank.d413.s19.e3" ddi="false"/>
+        <pair id="DDI-DrugBank.d413.s19.p7"
+            e1="DDI-DrugBank.d413.s19.e1" e2="DDI-DrugBank.d413.s19.e4" ddi="false"/>
+        <pair id="DDI-DrugBank.d413.s19.p8"
+            e1="DDI-DrugBank.d413.s19.e1" e2="DDI-DrugBank.d413.s19.e5" ddi="false"/>
+        <pair id="DDI-DrugBank.d413.s19.p9"
+            e1="DDI-DrugBank.d413.s19.e2" e2="DDI-DrugBank.d413.s19.e3" ddi="false"/>
+        <pair id="DDI-DrugBank.d413.s19.p10"
+            e1="DDI-DrugBank.d413.s19.e2" e2="DDI-DrugBank.d413.s19.e4" ddi="false"/>
+        <pair id="DDI-DrugBank.d413.s19.p11"
+            e1="DDI-DrugBank.d413.s19.e2" e2="DDI-DrugBank.d413.s19.e5" ddi="false"/>
+        <pair id="DDI-DrugBank.d413.s19.p12"
+            e1="DDI-DrugBank.d413.s19.e3" e2="DDI-DrugBank.d413.s19.e4" ddi="false"/>
+        <pair id="DDI-DrugBank.d413.s19.p13"
+            e1="DDI-DrugBank.d413.s19.e3" e2="DDI-DrugBank.d413.s19.e5" ddi="false"/>
+        <pair id="DDI-DrugBank.d413.s19.p14"
+            e1="DDI-DrugBank.d413.s19.e4" e2="DDI-DrugBank.d413.s19.e5" ddi="false"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d413.s20" text="Chlorpropamide: Chlorpropamides plasma half-life may be prolonged by allopurinol, since allopurinol and chlorpropamide may compete for excretion in the renal tubule.">
+        <entity id="DDI-DrugBank.d413.s20.e0" charOffset="0-13"
+            type="drug" text="Chlorpropamide"/>
+        <entity id="DDI-DrugBank.d413.s20.e1" charOffset="16-29"
+            type="drug" text="Chlorpropamide"/>
+        <entity id="DDI-DrugBank.d413.s20.e2" charOffset="69-79"
+            type="drug" text="allopurinol"/>
+        <entity id="DDI-DrugBank.d413.s20.e3" charOffset="88-98"
+            type="drug" text="allopurinol"/>
+        <entity id="DDI-DrugBank.d413.s20.e4" charOffset="104-117"
+            type="drug" text="chlorpropamide"/>
+        <pair id="DDI-DrugBank.d413.s20.p0"
+            e1="DDI-DrugBank.d413.s20.e0" e2="DDI-DrugBank.d413.s20.e1" ddi="false"/>
+        <pair id="DDI-DrugBank.d413.s20.p1"
+            e1="DDI-DrugBank.d413.s20.e0" e2="DDI-DrugBank.d413.s20.e2" ddi="false"/>
+        <pair id="DDI-DrugBank.d413.s20.p2"
+            e1="DDI-DrugBank.d413.s20.e0" e2="DDI-DrugBank.d413.s20.e3" ddi="false"/>
+        <pair id="DDI-DrugBank.d413.s20.p3"
+            e1="DDI-DrugBank.d413.s20.e0" e2="DDI-DrugBank.d413.s20.e4" ddi="false"/>
+        <pair id="DDI-DrugBank.d413.s20.p4"
+            e1="DDI-DrugBank.d413.s20.e1" e2="DDI-DrugBank.d413.s20.e2"
+            ddi="true" type="mechanism"/>
+        <pair id="DDI-DrugBank.d413.s20.p5"
+            e1="DDI-DrugBank.d413.s20.e1" e2="DDI-DrugBank.d413.s20.e3" ddi="false"/>
+        <pair id="DDI-DrugBank.d413.s20.p6"
+            e1="DDI-DrugBank.d413.s20.e1" e2="DDI-DrugBank.d413.s20.e4" ddi="false"/>
+        <pair id="DDI-DrugBank.d413.s20.p7"
+            e1="DDI-DrugBank.d413.s20.e2" e2="DDI-DrugBank.d413.s20.e3" ddi="false"/>
+        <pair id="DDI-DrugBank.d413.s20.p8"
+            e1="DDI-DrugBank.d413.s20.e2" e2="DDI-DrugBank.d413.s20.e4" ddi="false"/>
+        <pair id="DDI-DrugBank.d413.s20.p9"
+            e1="DDI-DrugBank.d413.s20.e3" e2="DDI-DrugBank.d413.s20.e4"
+            ddi="true" type="mechanism"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d413.s21" text="The risk of hypoglycemia secondary to this mechanism may be increased if allopurinol and chlorpropamide are given concomitantly in the presence of renal insufficiency.">
+        <entity id="DDI-DrugBank.d413.s21.e0" charOffset="73-83"
+            type="drug" text="allopurinol"/>
+        <entity id="DDI-DrugBank.d413.s21.e1" charOffset="89-102"
+            type="drug" text="chlorpropamide"/>
+        <pair id="DDI-DrugBank.d413.s21.p0"
+            e1="DDI-DrugBank.d413.s21.e0" e2="DDI-DrugBank.d413.s21.e1"
+            ddi="true" type="effect"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d413.s22" text="Cyclosporin: Reports indicate that cyclosporine levels may be increased during concomitant treatment with allopurinol sodium for injection.">
+        <entity id="DDI-DrugBank.d413.s22.e0" charOffset="0-10"
+            type="drug" text="Cyclosporin"/>
+        <entity id="DDI-DrugBank.d413.s22.e1" charOffset="35-46"
+            type="drug" text="cyclosporine"/>
+        <entity id="DDI-DrugBank.d413.s22.e2" charOffset="106-123"
+            type="drug" text="allopurinol sodium"/>
+        <pair id="DDI-DrugBank.d413.s22.p0"
+            e1="DDI-DrugBank.d413.s22.e0" e2="DDI-DrugBank.d413.s22.e1" ddi="false"/>
+        <pair id="DDI-DrugBank.d413.s22.p1"
+            e1="DDI-DrugBank.d413.s22.e0" e2="DDI-DrugBank.d413.s22.e2" ddi="false"/>
+        <pair id="DDI-DrugBank.d413.s22.p2"
+            e1="DDI-DrugBank.d413.s22.e1" e2="DDI-DrugBank.d413.s22.e2"
+            ddi="true" type="mechanism"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d413.s23" text="Monitoring of cyclosporine levels and possible adjustment of cyclosporine dosage should be considered when these drugs are co-administered.">
+        <entity id="DDI-DrugBank.d413.s23.e0" charOffset="14-25"
+            type="drug" text="cyclosporine"/>
+        <entity id="DDI-DrugBank.d413.s23.e1" charOffset="61-72"
+            type="drug" text="cyclosporine"/>
+        <pair id="DDI-DrugBank.d413.s23.p0"
+            e1="DDI-DrugBank.d413.s23.e0" e2="DDI-DrugBank.d413.s23.e1" ddi="false"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d413.s24" text="Tolbutamides conversion to inactive metabolites has been shown to be catalyzed by xanthine oxidase from rat liver.">
+        <entity id="DDI-DrugBank.d413.s24.e0" charOffset="0-10"
+            type="drug" text="Tolbutamide"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d413.s25" text="The clinical significance, if any, of these observations is unknown."/>
+</document>

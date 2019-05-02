@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="DDI-MedLine.d87">
+    <sentence id="DDI-MedLine.d87.s0" text="ADL 8-2698, a trans-3,4-dimethyl-4-(3-hydroxyphenyl) piperidine, prevents gastrointestinal effects of intravenous morphine without affecting analgesia.&#xd;&#xa;">
+        <entity id="DDI-MedLine.d87.s0.e0" charOffset="0-9" type="drug" text="ADL 8-2698"/>
+        <entity id="DDI-MedLine.d87.s0.e1" charOffset="114-121"
+            type="drug" text="morphine"/>
+        <pair id="DDI-MedLine.d87.s0.p0" e1="DDI-MedLine.d87.s0.e0"
+            e2="DDI-MedLine.d87.s0.e1" ddi="true" type="effect"/>
+    </sentence>
+    <sentence id="DDI-MedLine.d87.s1" text="ADL-8-2698 is a novel peripherally restricted opioid antagonist that may selectively prevent opioid-induced gastrointestinal effects without reversing analgesia. ">
+        <entity id="DDI-MedLine.d87.s1.e0" charOffset="0-9" type="drug" text="ADL-8-2698"/>
+        <entity id="DDI-MedLine.d87.s1.e1" charOffset="22-62"
+            type="group" text="peripherally restricted opioid antagonist"/>
+        <entity id="DDI-MedLine.d87.s1.e2" charOffset="93-98"
+            type="group" text="opioid"/>
+        <pair id="DDI-MedLine.d87.s1.p0" e1="DDI-MedLine.d87.s1.e0"
+            e2="DDI-MedLine.d87.s1.e1" ddi="false"/>
+        <pair id="DDI-MedLine.d87.s1.p1" e1="DDI-MedLine.d87.s1.e0"
+            e2="DDI-MedLine.d87.s1.e2" ddi="true" type="effect"/>
+        <pair id="DDI-MedLine.d87.s1.p2" e1="DDI-MedLine.d87.s1.e1"
+            e2="DDI-MedLine.d87.s1.e2" ddi="false"/>
+    </sentence>
+    <sentence id="DDI-MedLine.d87.s2" text="Gastrointestinal transit time (lactulose hydrogen breath test) was measured in 14 volunteers with oral and intravenous placebo, oral placebo and intravenous morphine (0.05 mg x kg(-1)), and oral ADL 8-2698 (4 mg) and intravenous morphine (0.05 mg x kg(-1)) in a double blind, cross-over study. ">
+        <entity id="DDI-MedLine.d87.s2.e0" charOffset="157-164"
+            type="drug" text="morphine"/>
+        <entity id="DDI-MedLine.d87.s2.e1" charOffset="195-204"
+            type="drug" text="ADL 8-2698"/>
+        <entity id="DDI-MedLine.d87.s2.e2" charOffset="229-236"
+            type="drug" text="morphine"/>
+        <pair id="DDI-MedLine.d87.s2.p0" e1="DDI-MedLine.d87.s2.e0"
+            e2="DDI-MedLine.d87.s2.e1" ddi="false"/>
+        <pair id="DDI-MedLine.d87.s2.p1" e1="DDI-MedLine.d87.s2.e0"
+            e2="DDI-MedLine.d87.s2.e2" ddi="false"/>
+        <pair id="DDI-MedLine.d87.s2.p2" e1="DDI-MedLine.d87.s2.e1"
+            e2="DDI-MedLine.d87.s2.e2" ddi="false"/>
+    </sentence>
+    <sentence id="DDI-MedLine.d87.s3" text="Morphine prolonged gastrointestinal transit time from 69 to 103 minutes (P = .005); ">
+        <entity id="DDI-MedLine.d87.s3.e0" charOffset="0-7" type="drug" text="Morphine"/>
+    </sentence>
+    <sentence id="DDI-MedLine.d87.s4" text="Morphine prolonged gastrointestinal transit time from 69 to 103 minutes (P = .005); this was prevented by ADL 8-2698 (P = .004). ">
+        <entity id="DDI-MedLine.d87.s4.e0" charOffset="0-7" type="drug" text="Morphine"/>
+        <entity id="DDI-MedLine.d87.s4.e1" charOffset="106-115"
+            type="drug" text="ADL 8-2698"/>
+        <pair id="DDI-MedLine.d87.s4.p0" e1="DDI-MedLine.d87.s4.e0"
+            e2="DDI-MedLine.d87.s4.e1" ddi="true" type="effect"/>
+    </sentence>
+    <sentence id="DDI-MedLine.d87.s5" text="Postoperatively, 45 patients were randomly assigned in a double-blind fashion to receive ADL 8-2698 (4 mg) or placebo and intravenous morphine (0.15 mg/kg) or to receive oral and intravenous placebo. ">
+        <entity id="DDI-MedLine.d87.s5.e0" charOffset="89-98"
+            type="drug" text="ADL 8-2698"/>
+        <entity id="DDI-MedLine.d87.s5.e1" charOffset="134-141"
+            type="drug" text="morphine"/>
+        <pair id="DDI-MedLine.d87.s5.p0" e1="DDI-MedLine.d87.s5.e0"
+            e2="DDI-MedLine.d87.s5.e1" ddi="false"/>
+    </sentence>
+    <sentence id="DDI-MedLine.d87.s6" text="Analgesia and pupil constriction were measured. "/>
+    <sentence id="DDI-MedLine.d87.s7" text="Morphine analgesia and pupil constriction were unaffected by ADL 8-2698 and differed from placebo (P &lt; .002). ">
+        <entity id="DDI-MedLine.d87.s7.e0" charOffset="0-7" type="drug" text="Morphine"/>
+        <entity id="DDI-MedLine.d87.s7.e1" charOffset="61-70"
+            type="drug" text="ADL 8-2698"/>
+        <pair id="DDI-MedLine.d87.s7.p0" e1="DDI-MedLine.d87.s7.e0"
+            e2="DDI-MedLine.d87.s7.e1" ddi="false"/>
+    </sentence>
+    <sentence id="DDI-MedLine.d87.s8" text="We conclude that ADL 8-2698 prevents morphine-induced increases in gastrointestinal transit time by means of selective peripheral opioid anitagonism without affecting central opioid analgesia.">
+        <entity id="DDI-MedLine.d87.s8.e0" charOffset="17-26"
+            type="drug" text="ADL 8-2698"/>
+        <entity id="DDI-MedLine.d87.s8.e1" charOffset="37-44"
+            type="drug" text="morphine"/>
+        <pair id="DDI-MedLine.d87.s8.p0" e1="DDI-MedLine.d87.s8.e0"
+            e2="DDI-MedLine.d87.s8.e1" ddi="true" type="effect"/>
+    </sentence>
+</document>

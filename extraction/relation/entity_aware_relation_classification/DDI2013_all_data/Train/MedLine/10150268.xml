@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="DDI-MedLine.d78">
+    <sentence id="DDI-MedLine.d78.s0" text="The fluoroquinolones for urinary tract infections: a review.&#xd;&#xa;">
+        <entity id="DDI-MedLine.d78.s0.e0" charOffset="4-19"
+            type="group" text="fluoroquinolones"/>
+    </sentence>
+    <sentence id="DDI-MedLine.d78.s1" text="The fluoroquinolones are a rapidly growing class of antibiotics with a broad spectrum of activity against gram-negative and some gram-positive aerobic bacteria. ">
+        <entity id="DDI-MedLine.d78.s1.e0" charOffset="4-19"
+            type="group" text="fluoroquinolones"/>
+        <entity id="DDI-MedLine.d78.s1.e1" charOffset="52-62"
+            type="group" text="antibiotics"/>
+        <pair id="DDI-MedLine.d78.s1.p0" e1="DDI-MedLine.d78.s1.e0"
+            e2="DDI-MedLine.d78.s1.e1" ddi="false"/>
+    </sentence>
+    <sentence id="DDI-MedLine.d78.s2" text="These agents, including norfloxacin, ciprofloxacin, ofloxacin, enoxacin, and lomefloxacin, have been extensively studied and have demonstrated efficacy and safety profiles comparable to those of other traditional agents for the treatment of complicated or uncomplicated urinary tract infections and prostatitis. ">
+        <entity id="DDI-MedLine.d78.s2.e0" charOffset="24-34"
+            type="drug" text="norfloxacin"/>
+        <entity id="DDI-MedLine.d78.s2.e1" charOffset="37-49"
+            type="drug" text="ciprofloxacin"/>
+        <entity id="DDI-MedLine.d78.s2.e2" charOffset="52-60"
+            type="drug" text="ofloxacin"/>
+        <entity id="DDI-MedLine.d78.s2.e3" charOffset="63-70"
+            type="drug" text="enoxacin"/>
+        <entity id="DDI-MedLine.d78.s2.e4" charOffset="77-88"
+            type="drug" text="lomefloxacin"/>
+        <pair id="DDI-MedLine.d78.s2.p0" e1="DDI-MedLine.d78.s2.e0"
+            e2="DDI-MedLine.d78.s2.e1" ddi="false"/>
+        <pair id="DDI-MedLine.d78.s2.p1" e1="DDI-MedLine.d78.s2.e0"
+            e2="DDI-MedLine.d78.s2.e2" ddi="false"/>
+        <pair id="DDI-MedLine.d78.s2.p2" e1="DDI-MedLine.d78.s2.e0"
+            e2="DDI-MedLine.d78.s2.e3" ddi="false"/>
+        <pair id="DDI-MedLine.d78.s2.p3" e1="DDI-MedLine.d78.s2.e0"
+            e2="DDI-MedLine.d78.s2.e4" ddi="false"/>
+        <pair id="DDI-MedLine.d78.s2.p4" e1="DDI-MedLine.d78.s2.e1"
+            e2="DDI-MedLine.d78.s2.e2" ddi="false"/>
+        <pair id="DDI-MedLine.d78.s2.p5" e1="DDI-MedLine.d78.s2.e1"
+            e2="DDI-MedLine.d78.s2.e3" ddi="false"/>
+        <pair id="DDI-MedLine.d78.s2.p6" e1="DDI-MedLine.d78.s2.e1"
+            e2="DDI-MedLine.d78.s2.e4" ddi="false"/>
+        <pair id="DDI-MedLine.d78.s2.p7" e1="DDI-MedLine.d78.s2.e2"
+            e2="DDI-MedLine.d78.s2.e3" ddi="false"/>
+        <pair id="DDI-MedLine.d78.s2.p8" e1="DDI-MedLine.d78.s2.e2"
+            e2="DDI-MedLine.d78.s2.e4" ddi="false"/>
+        <pair id="DDI-MedLine.d78.s2.p9" e1="DDI-MedLine.d78.s2.e3"
+            e2="DDI-MedLine.d78.s2.e4" ddi="false"/>
+    </sentence>
+    <sentence id="DDI-MedLine.d78.s3" text="Advantages offered by this class of antibiotics include optimal pharmacokinetics, effectiveness against multidrug-resistant organisms, and oral administration even when parenteral antibiotics are generally used. ">
+        <entity id="DDI-MedLine.d78.s3.e0" charOffset="36-46"
+            type="group" text="antibiotics"/>
+        <entity id="DDI-MedLine.d78.s3.e1" charOffset="180-190"
+            type="drug" text="antibiotics"/>
+        <pair id="DDI-MedLine.d78.s3.p0" e1="DDI-MedLine.d78.s3.e0"
+            e2="DDI-MedLine.d78.s3.e1" ddi="false"/>
+    </sentence>
+    <sentence id="DDI-MedLine.d78.s4" text="The fluoroquinolones are also extensively used in urologic surgery.">
+        <entity id="DDI-MedLine.d78.s4.e0" charOffset="4-19"
+            type="group" text="fluoroquinolones"/>
+    </sentence>
+</document>

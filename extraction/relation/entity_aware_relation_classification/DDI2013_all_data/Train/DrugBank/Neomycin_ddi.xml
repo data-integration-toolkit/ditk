@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="DDI-DrugBank.d330">
+    <sentence id="DDI-DrugBank.d330.s0" text="Caution should be taken in concurrent or serial use of other neurotoxic and/ or nephrotoxic drugs because of possible enhancement of the nephrotoxicity and/or ototoxicity of neomycin.">
+        <entity id="DDI-DrugBank.d330.s0.e0" charOffset="174-181"
+            type="drug" text="neomycin"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d330.s1" text="Caution should also be taken in concurrent or serial use of other aminoglycosides and polymyxins because they may enhance neomycin s nephrotoxicity and/or ototoxicity and potentiate neomycin sulfate neuromuscular blocking effects.">
+        <entity id="DDI-DrugBank.d330.s1.e0" charOffset="66-80"
+            type="group" text="aminoglycosides"/>
+        <entity id="DDI-DrugBank.d330.s1.e1" charOffset="86-95"
+            type="group" text="polymyxins"/>
+        <entity id="DDI-DrugBank.d330.s1.e2" charOffset="182-197"
+            type="drug" text="neomycin sulfate"/>
+        <pair id="DDI-DrugBank.d330.s1.p0" e1="DDI-DrugBank.d330.s1.e0"
+            e2="DDI-DrugBank.d330.s1.e1" ddi="false"/>
+        <pair id="DDI-DrugBank.d330.s1.p1" e1="DDI-DrugBank.d330.s1.e0"
+            e2="DDI-DrugBank.d330.s1.e2" ddi="false"/>
+        <pair id="DDI-DrugBank.d330.s1.p2" e1="DDI-DrugBank.d330.s1.e1"
+            e2="DDI-DrugBank.d330.s1.e2" ddi="false"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d330.s2" text="Oral neomycin inhibits the gastrointestinal absorption of penicillin V, oral vitamin B-12, methotrexate and 5-fluorouracil.">
+        <entity id="DDI-DrugBank.d330.s2.e0" charOffset="5-12"
+            type="drug" text="neomycin"/>
+        <entity id="DDI-DrugBank.d330.s2.e1" charOffset="58-69"
+            type="drug" text="penicillin V"/>
+        <entity id="DDI-DrugBank.d330.s2.e2" charOffset="77-88"
+            type="drug" text="vitamin B-12"/>
+        <entity id="DDI-DrugBank.d330.s2.e3" charOffset="91-102"
+            type="drug" text="methotrexate"/>
+        <entity id="DDI-DrugBank.d330.s2.e4" charOffset="108-121"
+            type="drug" text="5-fluorouracil"/>
+        <pair id="DDI-DrugBank.d330.s2.p0" e1="DDI-DrugBank.d330.s2.e0"
+            e2="DDI-DrugBank.d330.s2.e1" ddi="true" type="mechanism"/>
+        <pair id="DDI-DrugBank.d330.s2.p1" e1="DDI-DrugBank.d330.s2.e0"
+            e2="DDI-DrugBank.d330.s2.e2" ddi="true" type="mechanism"/>
+        <pair id="DDI-DrugBank.d330.s2.p2" e1="DDI-DrugBank.d330.s2.e0"
+            e2="DDI-DrugBank.d330.s2.e3" ddi="true" type="mechanism"/>
+        <pair id="DDI-DrugBank.d330.s2.p3" e1="DDI-DrugBank.d330.s2.e0"
+            e2="DDI-DrugBank.d330.s2.e4" ddi="true" type="mechanism"/>
+        <pair id="DDI-DrugBank.d330.s2.p4" e1="DDI-DrugBank.d330.s2.e1"
+            e2="DDI-DrugBank.d330.s2.e2" ddi="false"/>
+        <pair id="DDI-DrugBank.d330.s2.p5" e1="DDI-DrugBank.d330.s2.e1"
+            e2="DDI-DrugBank.d330.s2.e3" ddi="false"/>
+        <pair id="DDI-DrugBank.d330.s2.p6" e1="DDI-DrugBank.d330.s2.e1"
+            e2="DDI-DrugBank.d330.s2.e4" ddi="false"/>
+        <pair id="DDI-DrugBank.d330.s2.p7" e1="DDI-DrugBank.d330.s2.e2"
+            e2="DDI-DrugBank.d330.s2.e3" ddi="false"/>
+        <pair id="DDI-DrugBank.d330.s2.p8" e1="DDI-DrugBank.d330.s2.e2"
+            e2="DDI-DrugBank.d330.s2.e4" ddi="false"/>
+        <pair id="DDI-DrugBank.d330.s2.p9" e1="DDI-DrugBank.d330.s2.e3"
+            e2="DDI-DrugBank.d330.s2.e4" ddi="false"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d330.s3" text="The gastrointestinal absorption of digoxin also appears to be inhibited.">
+        <entity id="DDI-DrugBank.d330.s3.e0" charOffset="35-41"
+            type="drug" text="digoxin"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d330.s4" text="Therefore, digoxin serum levels should be monitored.">
+        <entity id="DDI-DrugBank.d330.s4.e0" charOffset="11-17"
+            type="drug" text="digoxin"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d330.s5" text="Oral neomycin sulfate may enhance the effect of coumarin in anticoagulants by decreasing vitamin K availability.">
+        <entity id="DDI-DrugBank.d330.s5.e0" charOffset="5-20"
+            type="drug" text="neomycin sulfate"/>
+        <entity id="DDI-DrugBank.d330.s5.e1" charOffset="48-55"
+            type="group" text="coumarin"/>
+        <entity id="DDI-DrugBank.d330.s5.e2" charOffset="60-73"
+            type="group" text="anticoagulants"/>
+        <pair id="DDI-DrugBank.d330.s5.p0" e1="DDI-DrugBank.d330.s5.e0"
+            e2="DDI-DrugBank.d330.s5.e1" ddi="true" type="effect"/>
+        <pair id="DDI-DrugBank.d330.s5.p1" e1="DDI-DrugBank.d330.s5.e0"
+            e2="DDI-DrugBank.d330.s5.e2" ddi="true" type="effect"/>
+        <pair id="DDI-DrugBank.d330.s5.p2" e1="DDI-DrugBank.d330.s5.e1"
+            e2="DDI-DrugBank.d330.s5.e2" ddi="false"/>
+    </sentence>
+</document>

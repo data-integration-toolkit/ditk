@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="DDI-DrugBank.d525">
+    <sentence id="DDI-DrugBank.d525.s0" text="Eprosartan has been shown to have no effect on the pharmacokinetics of digoxin and the pharmacodynamics of warfarin and glyburide.">
+        <entity id="DDI-DrugBank.d525.s0.e0" charOffset="0-9"
+            type="drug" text="Eprosartan"/>
+        <entity id="DDI-DrugBank.d525.s0.e1" charOffset="71-77"
+            type="drug" text="digoxin"/>
+        <entity id="DDI-DrugBank.d525.s0.e2" charOffset="107-114"
+            type="drug" text="warfarin"/>
+        <entity id="DDI-DrugBank.d525.s0.e3" charOffset="120-128"
+            type="drug" text="glyburide"/>
+        <pair id="DDI-DrugBank.d525.s0.p0" e1="DDI-DrugBank.d525.s0.e0"
+            e2="DDI-DrugBank.d525.s0.e1" ddi="false"/>
+        <pair id="DDI-DrugBank.d525.s0.p1" e1="DDI-DrugBank.d525.s0.e0"
+            e2="DDI-DrugBank.d525.s0.e2" ddi="false"/>
+        <pair id="DDI-DrugBank.d525.s0.p2" e1="DDI-DrugBank.d525.s0.e0"
+            e2="DDI-DrugBank.d525.s0.e3" ddi="false"/>
+        <pair id="DDI-DrugBank.d525.s0.p3" e1="DDI-DrugBank.d525.s0.e1"
+            e2="DDI-DrugBank.d525.s0.e2" ddi="false"/>
+        <pair id="DDI-DrugBank.d525.s0.p4" e1="DDI-DrugBank.d525.s0.e1"
+            e2="DDI-DrugBank.d525.s0.e3" ddi="false"/>
+        <pair id="DDI-DrugBank.d525.s0.p5" e1="DDI-DrugBank.d525.s0.e2"
+            e2="DDI-DrugBank.d525.s0.e3" ddi="false"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d525.s1" text="Thus no dosing adjustments are necessary during concomitant use with these agents."/>
+    <sentence id="DDI-DrugBank.d525.s2" text="Because eprosartan is not metabolized by the cytochrome P450 system, inhibitors of CYP450 enzyme would not be expected to affect its metabolism, and ketoconazole and fluconazole, potent inhibitors of CYP3A and 2C9, respectively, have been shown to have no effect on eprosartan pharmacokinetics.">
+        <entity id="DDI-DrugBank.d525.s2.e0" charOffset="8-17"
+            type="drug" text="eprosartan"/>
+        <entity id="DDI-DrugBank.d525.s2.e1" charOffset="149-160"
+            type="drug" text="ketoconazole"/>
+        <entity id="DDI-DrugBank.d525.s2.e2" charOffset="166-176"
+            type="drug" text="fluconazole"/>
+        <entity id="DDI-DrugBank.d525.s2.e3" charOffset="266-275"
+            type="drug" text="eprosartan"/>
+        <pair id="DDI-DrugBank.d525.s2.p0" e1="DDI-DrugBank.d525.s2.e0"
+            e2="DDI-DrugBank.d525.s2.e1" ddi="false"/>
+        <pair id="DDI-DrugBank.d525.s2.p1" e1="DDI-DrugBank.d525.s2.e0"
+            e2="DDI-DrugBank.d525.s2.e2" ddi="false"/>
+        <pair id="DDI-DrugBank.d525.s2.p2" e1="DDI-DrugBank.d525.s2.e0"
+            e2="DDI-DrugBank.d525.s2.e3" ddi="false"/>
+        <pair id="DDI-DrugBank.d525.s2.p3" e1="DDI-DrugBank.d525.s2.e1"
+            e2="DDI-DrugBank.d525.s2.e2" ddi="false"/>
+        <pair id="DDI-DrugBank.d525.s2.p4" e1="DDI-DrugBank.d525.s2.e1"
+            e2="DDI-DrugBank.d525.s2.e3" ddi="false"/>
+        <pair id="DDI-DrugBank.d525.s2.p5" e1="DDI-DrugBank.d525.s2.e2"
+            e2="DDI-DrugBank.d525.s2.e3" ddi="false"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d525.s3" text="Ranitidine also has no effect on eprosartan pharmacokinetics.">
+        <entity id="DDI-DrugBank.d525.s3.e0" charOffset="0-9"
+            type="drug" text="Ranitidine"/>
+        <entity id="DDI-DrugBank.d525.s3.e1" charOffset="33-42"
+            type="drug" text="eprosartan"/>
+        <pair id="DDI-DrugBank.d525.s3.p0" e1="DDI-DrugBank.d525.s3.e0"
+            e2="DDI-DrugBank.d525.s3.e1" ddi="false"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d525.s4" text="Eprosartan (up to 400 mg b.i.d. or 800 mg q.d.) doses have been safely used concomitantly with a thiazide diuretic (hydrochlorothiazide).">
+        <entity id="DDI-DrugBank.d525.s4.e0" charOffset="0-9"
+            type="drug" text="Eprosartan"/>
+        <entity id="DDI-DrugBank.d525.s4.e1" charOffset="97-113"
+            type="group" text="thiazide diuretic"/>
+        <entity id="DDI-DrugBank.d525.s4.e2" charOffset="116-134"
+            type="drug" text="hydrochlorothiazide"/>
+        <pair id="DDI-DrugBank.d525.s4.p0" e1="DDI-DrugBank.d525.s4.e0"
+            e2="DDI-DrugBank.d525.s4.e1" ddi="false"/>
+        <pair id="DDI-DrugBank.d525.s4.p1" e1="DDI-DrugBank.d525.s4.e0"
+            e2="DDI-DrugBank.d525.s4.e2" ddi="false"/>
+        <pair id="DDI-DrugBank.d525.s4.p2" e1="DDI-DrugBank.d525.s4.e1"
+            e2="DDI-DrugBank.d525.s4.e2" ddi="false"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d525.s5" text="Eprosartan doses of up to 300 mg b.i.d. have been safely used concomitantly with sustained-release calcium channel blockers (sustained-release nifedipine) with no clinically significant adverse interactions.">
+        <entity id="DDI-DrugBank.d525.s5.e0" charOffset="0-9"
+            type="drug" text="Eprosartan"/>
+        <entity id="DDI-DrugBank.d525.s5.e1" charOffset="99-122"
+            type="group" text="calcium channel blockers"/>
+        <entity id="DDI-DrugBank.d525.s5.e2" charOffset="143-152"
+            type="drug" text="nifedipine"/>
+        <pair id="DDI-DrugBank.d525.s5.p0" e1="DDI-DrugBank.d525.s5.e0"
+            e2="DDI-DrugBank.d525.s5.e1" ddi="false"/>
+        <pair id="DDI-DrugBank.d525.s5.p1" e1="DDI-DrugBank.d525.s5.e0"
+            e2="DDI-DrugBank.d525.s5.e2" ddi="false"/>
+        <pair id="DDI-DrugBank.d525.s5.p2" e1="DDI-DrugBank.d525.s5.e1"
+            e2="DDI-DrugBank.d525.s5.e2" ddi="false"/>
+    </sentence>
+</document>

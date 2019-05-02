@@ -1,0 +1,209 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="DDI-DrugBank.d640">
+    <sentence id="DDI-DrugBank.d640.s0" text="Diuretics: Excessive reductions in blood pressure may occur in patients on diuretic therapy when ACE inhibitors are started. ">
+        <entity id="DDI-DrugBank.d640.s0.e0" charOffset="0-8"
+            type="group" text="Diuretics"/>
+        <entity id="DDI-DrugBank.d640.s0.e1" charOffset="97-110"
+            type="group" text="ACE inhibitors"/>
+        <pair id="DDI-DrugBank.d640.s0.p0" e1="DDI-DrugBank.d640.s0.e0"
+            e2="DDI-DrugBank.d640.s0.e1" ddi="false"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d640.s1" text="The possibility of hypotensive effects with UNIVASC    can be minimized by discontinuing diuretic therapy for several days or cautiously increasing salt intake before initiation of treatment with UNIVASC   . If this is not possible, the starting dose of moexpril should be reduced.. ">
+        <entity id="DDI-DrugBank.d640.s1.e0" charOffset="44-50"
+            type="brand" text="UNIVASC"/>
+        <entity id="DDI-DrugBank.d640.s1.e1" charOffset="196-202"
+            type="brand" text="UNIVASC"/>
+        <entity id="DDI-DrugBank.d640.s1.e2" charOffset="254-261"
+            type="drug" text="moexpril"/>
+        <pair id="DDI-DrugBank.d640.s1.p0" e1="DDI-DrugBank.d640.s1.e0"
+            e2="DDI-DrugBank.d640.s1.e1" ddi="false"/>
+        <pair id="DDI-DrugBank.d640.s1.p1" e1="DDI-DrugBank.d640.s1.e0"
+            e2="DDI-DrugBank.d640.s1.e2" ddi="false"/>
+        <pair id="DDI-DrugBank.d640.s1.p2" e1="DDI-DrugBank.d640.s1.e1"
+            e2="DDI-DrugBank.d640.s1.e2" ddi="false"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d640.s2" text="Potassium Supplements and Potassium-Sparing Diuretics: UNIVASC    can increase serum potassium because it decreases aldosterone secretion. ">
+        <entity id="DDI-DrugBank.d640.s2.e0" charOffset="0-8"
+            type="drug" text="Potassium"/>
+        <entity id="DDI-DrugBank.d640.s2.e1" charOffset="26-52"
+            type="group" text="Potassium-Sparing Diuretics"/>
+        <entity id="DDI-DrugBank.d640.s2.e2" charOffset="55-61"
+            type="brand" text="UNIVASC"/>
+        <pair id="DDI-DrugBank.d640.s2.p0" e1="DDI-DrugBank.d640.s2.e0"
+            e2="DDI-DrugBank.d640.s2.e1" ddi="false"/>
+        <pair id="DDI-DrugBank.d640.s2.p1" e1="DDI-DrugBank.d640.s2.e0"
+            e2="DDI-DrugBank.d640.s2.e2" ddi="false"/>
+        <pair id="DDI-DrugBank.d640.s2.p2" e1="DDI-DrugBank.d640.s2.e1"
+            e2="DDI-DrugBank.d640.s2.e2" ddi="false"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d640.s3" text="Use of potassium-sparing diuretics (spironolactone, triamterene, amiloride) or potassium supplements concomitantly with ACE inhibitors can increase the risk of hyperkalemia. ">
+        <entity id="DDI-DrugBank.d640.s3.e0" charOffset="7-33"
+            type="group" text="potassium-sparing diuretics"/>
+        <entity id="DDI-DrugBank.d640.s3.e1" charOffset="36-49"
+            type="drug" text="spironolactone"/>
+        <entity id="DDI-DrugBank.d640.s3.e2" charOffset="52-62"
+            type="drug" text="triamterene"/>
+        <entity id="DDI-DrugBank.d640.s3.e3" charOffset="65-73"
+            type="drug" text="amiloride"/>
+        <entity id="DDI-DrugBank.d640.s3.e4" charOffset="79-87"
+            type="drug" text="potassium"/>
+        <entity id="DDI-DrugBank.d640.s3.e5" charOffset="120-133"
+            type="group" text="ACE inhibitors"/>
+        <pair id="DDI-DrugBank.d640.s3.p0" e1="DDI-DrugBank.d640.s3.e0"
+            e2="DDI-DrugBank.d640.s3.e1" ddi="false"/>
+        <pair id="DDI-DrugBank.d640.s3.p1" e1="DDI-DrugBank.d640.s3.e0"
+            e2="DDI-DrugBank.d640.s3.e2" ddi="false"/>
+        <pair id="DDI-DrugBank.d640.s3.p2" e1="DDI-DrugBank.d640.s3.e0"
+            e2="DDI-DrugBank.d640.s3.e3" ddi="false"/>
+        <pair id="DDI-DrugBank.d640.s3.p3" e1="DDI-DrugBank.d640.s3.e0"
+            e2="DDI-DrugBank.d640.s3.e4" ddi="false"/>
+        <pair id="DDI-DrugBank.d640.s3.p4" e1="DDI-DrugBank.d640.s3.e0"
+            e2="DDI-DrugBank.d640.s3.e5" ddi="true" type="effect"/>
+        <pair id="DDI-DrugBank.d640.s3.p5" e1="DDI-DrugBank.d640.s3.e1"
+            e2="DDI-DrugBank.d640.s3.e2" ddi="false"/>
+        <pair id="DDI-DrugBank.d640.s3.p6" e1="DDI-DrugBank.d640.s3.e1"
+            e2="DDI-DrugBank.d640.s3.e3" ddi="false"/>
+        <pair id="DDI-DrugBank.d640.s3.p7" e1="DDI-DrugBank.d640.s3.e1"
+            e2="DDI-DrugBank.d640.s3.e4" ddi="false"/>
+        <pair id="DDI-DrugBank.d640.s3.p8" e1="DDI-DrugBank.d640.s3.e1"
+            e2="DDI-DrugBank.d640.s3.e5" ddi="true" type="effect"/>
+        <pair id="DDI-DrugBank.d640.s3.p9" e1="DDI-DrugBank.d640.s3.e2"
+            e2="DDI-DrugBank.d640.s3.e3" ddi="false"/>
+        <pair id="DDI-DrugBank.d640.s3.p10" e1="DDI-DrugBank.d640.s3.e2"
+            e2="DDI-DrugBank.d640.s3.e4" ddi="false"/>
+        <pair id="DDI-DrugBank.d640.s3.p11" e1="DDI-DrugBank.d640.s3.e2"
+            e2="DDI-DrugBank.d640.s3.e5" ddi="true" type="effect"/>
+        <pair id="DDI-DrugBank.d640.s3.p12" e1="DDI-DrugBank.d640.s3.e3"
+            e2="DDI-DrugBank.d640.s3.e4" ddi="false"/>
+        <pair id="DDI-DrugBank.d640.s3.p13" e1="DDI-DrugBank.d640.s3.e3"
+            e2="DDI-DrugBank.d640.s3.e5" ddi="true" type="effect"/>
+        <pair id="DDI-DrugBank.d640.s3.p14" e1="DDI-DrugBank.d640.s3.e4"
+            e2="DDI-DrugBank.d640.s3.e5" ddi="true" type="effect"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d640.s4" text="Therefore, if concomitant use of such agents is indicated, they should be given with caution and the patient's serum potassium should be monitored. "/>
+    <sentence id="DDI-DrugBank.d640.s5" text="Oral Anticoagulants: Interaction studies with warfarin failed to identify any clinically important effect on the serum concentrations of the anticoagulant or on its anticoagulant effect. ">
+        <entity id="DDI-DrugBank.d640.s5.e0" charOffset="5-18"
+            type="group" text="Anticoagulants"/>
+        <entity id="DDI-DrugBank.d640.s5.e1" charOffset="46-53"
+            type="drug" text="warfarin"/>
+        <entity id="DDI-DrugBank.d640.s5.e2" charOffset="141-153"
+            type="group" text="anticoagulant"/>
+        <pair id="DDI-DrugBank.d640.s5.p0" e1="DDI-DrugBank.d640.s5.e0"
+            e2="DDI-DrugBank.d640.s5.e1" ddi="false"/>
+        <pair id="DDI-DrugBank.d640.s5.p1" e1="DDI-DrugBank.d640.s5.e0"
+            e2="DDI-DrugBank.d640.s5.e2" ddi="false"/>
+        <pair id="DDI-DrugBank.d640.s5.p2" e1="DDI-DrugBank.d640.s5.e1"
+            e2="DDI-DrugBank.d640.s5.e2" ddi="false"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d640.s6" text="Lithium: Increased serum lithium levels and symptoms of lithium toxicity have been reported in patients receiving ACE inhibitors during therapy with lithium. ">
+        <entity id="DDI-DrugBank.d640.s6.e0" charOffset="0-6"
+            type="drug" text="Lithium"/>
+        <entity id="DDI-DrugBank.d640.s6.e1" charOffset="25-31"
+            type="drug" text="lithium"/>
+        <entity id="DDI-DrugBank.d640.s6.e2" charOffset="56-62"
+            type="drug" text="lithium"/>
+        <entity id="DDI-DrugBank.d640.s6.e3" charOffset="114-127"
+            type="group" text="ACE inhibitors"/>
+        <entity id="DDI-DrugBank.d640.s6.e4" charOffset="149-155"
+            type="drug" text="lithium"/>
+        <pair id="DDI-DrugBank.d640.s6.p0" e1="DDI-DrugBank.d640.s6.e0"
+            e2="DDI-DrugBank.d640.s6.e1" ddi="false"/>
+        <pair id="DDI-DrugBank.d640.s6.p1" e1="DDI-DrugBank.d640.s6.e0"
+            e2="DDI-DrugBank.d640.s6.e2" ddi="false"/>
+        <pair id="DDI-DrugBank.d640.s6.p2" e1="DDI-DrugBank.d640.s6.e0"
+            e2="DDI-DrugBank.d640.s6.e3" ddi="false"/>
+        <pair id="DDI-DrugBank.d640.s6.p3" e1="DDI-DrugBank.d640.s6.e0"
+            e2="DDI-DrugBank.d640.s6.e4" ddi="false"/>
+        <pair id="DDI-DrugBank.d640.s6.p4" e1="DDI-DrugBank.d640.s6.e1"
+            e2="DDI-DrugBank.d640.s6.e2" ddi="false"/>
+        <pair id="DDI-DrugBank.d640.s6.p5" e1="DDI-DrugBank.d640.s6.e1"
+            e2="DDI-DrugBank.d640.s6.e3" ddi="false"/>
+        <pair id="DDI-DrugBank.d640.s6.p6" e1="DDI-DrugBank.d640.s6.e1"
+            e2="DDI-DrugBank.d640.s6.e4" ddi="false"/>
+        <pair id="DDI-DrugBank.d640.s6.p7" e1="DDI-DrugBank.d640.s6.e2"
+            e2="DDI-DrugBank.d640.s6.e3" ddi="false"/>
+        <pair id="DDI-DrugBank.d640.s6.p8" e1="DDI-DrugBank.d640.s6.e2"
+            e2="DDI-DrugBank.d640.s6.e4" ddi="false"/>
+        <pair id="DDI-DrugBank.d640.s6.p9" e1="DDI-DrugBank.d640.s6.e3"
+            e2="DDI-DrugBank.d640.s6.e4" ddi="true" type="effect"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d640.s7" text="These drugs should be coadministered with caution, and frequent monitoring of serum lithium levels is recommended. ">
+        <entity id="DDI-DrugBank.d640.s7.e0" charOffset="84-90"
+            type="drug" text="lithium"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d640.s8" text="If a diuretic is also used, the risk of lithium toxicity may be increased. ">
+        <entity id="DDI-DrugBank.d640.s8.e0" charOffset="5-12"
+            type="group" text="diuretic"/>
+        <entity id="DDI-DrugBank.d640.s8.e1" charOffset="40-46"
+            type="drug" text="lithium"/>
+        <pair id="DDI-DrugBank.d640.s8.p0" e1="DDI-DrugBank.d640.s8.e0"
+            e2="DDI-DrugBank.d640.s8.e1" ddi="true" type="effect"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d640.s9" text="Other Agents: No clinically important pharmacokinetic interactions occurred when UNIVASC    was administered concomitantly with hydrochlorothiazide, digoxin, or cimetidine. ">
+        <entity id="DDI-DrugBank.d640.s9.e0" charOffset="81-87"
+            type="brand" text="UNIVASC"/>
+        <entity id="DDI-DrugBank.d640.s9.e1" charOffset="128-146"
+            type="drug" text="hydrochlorothiazide"/>
+        <entity id="DDI-DrugBank.d640.s9.e2" charOffset="149-155"
+            type="drug" text="digoxin"/>
+        <entity id="DDI-DrugBank.d640.s9.e3" charOffset="161-170"
+            type="drug" text="cimetidine"/>
+        <pair id="DDI-DrugBank.d640.s9.p0" e1="DDI-DrugBank.d640.s9.e0"
+            e2="DDI-DrugBank.d640.s9.e1" ddi="false"/>
+        <pair id="DDI-DrugBank.d640.s9.p1" e1="DDI-DrugBank.d640.s9.e0"
+            e2="DDI-DrugBank.d640.s9.e2" ddi="false"/>
+        <pair id="DDI-DrugBank.d640.s9.p2" e1="DDI-DrugBank.d640.s9.e0"
+            e2="DDI-DrugBank.d640.s9.e3" ddi="false"/>
+        <pair id="DDI-DrugBank.d640.s9.p3" e1="DDI-DrugBank.d640.s9.e1"
+            e2="DDI-DrugBank.d640.s9.e2" ddi="false"/>
+        <pair id="DDI-DrugBank.d640.s9.p4" e1="DDI-DrugBank.d640.s9.e1"
+            e2="DDI-DrugBank.d640.s9.e3" ddi="false"/>
+        <pair id="DDI-DrugBank.d640.s9.p5" e1="DDI-DrugBank.d640.s9.e2"
+            e2="DDI-DrugBank.d640.s9.e3" ddi="false"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d640.s10" text="UNIVASC    has been used in clinical trials concomitantly with calcium-channel-blocking agents, diuretics, H2 blockers, digoxin, oral hypoglycemic agents, and cholesterol-lowering agents. ">
+        <entity id="DDI-DrugBank.d640.s10.e0" charOffset="0-6"
+            type="brand" text="UNIVASC"/>
+        <entity id="DDI-DrugBank.d640.s10.e1" charOffset="63-93"
+            type="group" text="calcium-channel-blocking agents"/>
+        <entity id="DDI-DrugBank.d640.s10.e2" charOffset="96-104"
+            type="group" text="diuretics"/>
+        <entity id="DDI-DrugBank.d640.s10.e3" charOffset="107-117"
+            type="group" text="H2 blockers"/>
+        <entity id="DDI-DrugBank.d640.s10.e4" charOffset="120-126"
+            type="drug" text="digoxin"/>
+        <entity id="DDI-DrugBank.d640.s10.e5" charOffset="134-152"
+            type="group" text="hypoglycemic agents"/>
+        <pair id="DDI-DrugBank.d640.s10.p0"
+            e1="DDI-DrugBank.d640.s10.e0" e2="DDI-DrugBank.d640.s10.e1" ddi="false"/>
+        <pair id="DDI-DrugBank.d640.s10.p1"
+            e1="DDI-DrugBank.d640.s10.e0" e2="DDI-DrugBank.d640.s10.e2" ddi="false"/>
+        <pair id="DDI-DrugBank.d640.s10.p2"
+            e1="DDI-DrugBank.d640.s10.e0" e2="DDI-DrugBank.d640.s10.e3" ddi="false"/>
+        <pair id="DDI-DrugBank.d640.s10.p3"
+            e1="DDI-DrugBank.d640.s10.e0" e2="DDI-DrugBank.d640.s10.e4" ddi="false"/>
+        <pair id="DDI-DrugBank.d640.s10.p4"
+            e1="DDI-DrugBank.d640.s10.e0" e2="DDI-DrugBank.d640.s10.e5" ddi="false"/>
+        <pair id="DDI-DrugBank.d640.s10.p5"
+            e1="DDI-DrugBank.d640.s10.e1" e2="DDI-DrugBank.d640.s10.e2" ddi="false"/>
+        <pair id="DDI-DrugBank.d640.s10.p6"
+            e1="DDI-DrugBank.d640.s10.e1" e2="DDI-DrugBank.d640.s10.e3" ddi="false"/>
+        <pair id="DDI-DrugBank.d640.s10.p7"
+            e1="DDI-DrugBank.d640.s10.e1" e2="DDI-DrugBank.d640.s10.e4" ddi="false"/>
+        <pair id="DDI-DrugBank.d640.s10.p8"
+            e1="DDI-DrugBank.d640.s10.e1" e2="DDI-DrugBank.d640.s10.e5" ddi="false"/>
+        <pair id="DDI-DrugBank.d640.s10.p9"
+            e1="DDI-DrugBank.d640.s10.e2" e2="DDI-DrugBank.d640.s10.e3" ddi="false"/>
+        <pair id="DDI-DrugBank.d640.s10.p10"
+            e1="DDI-DrugBank.d640.s10.e2" e2="DDI-DrugBank.d640.s10.e4" ddi="false"/>
+        <pair id="DDI-DrugBank.d640.s10.p11"
+            e1="DDI-DrugBank.d640.s10.e2" e2="DDI-DrugBank.d640.s10.e5" ddi="false"/>
+        <pair id="DDI-DrugBank.d640.s10.p12"
+            e1="DDI-DrugBank.d640.s10.e3" e2="DDI-DrugBank.d640.s10.e4" ddi="false"/>
+        <pair id="DDI-DrugBank.d640.s10.p13"
+            e1="DDI-DrugBank.d640.s10.e3" e2="DDI-DrugBank.d640.s10.e5" ddi="false"/>
+        <pair id="DDI-DrugBank.d640.s10.p14"
+            e1="DDI-DrugBank.d640.s10.e4" e2="DDI-DrugBank.d640.s10.e5" ddi="false"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d640.s11" text="There was no evidence of clinically important adverse interactions."/>
+</document>

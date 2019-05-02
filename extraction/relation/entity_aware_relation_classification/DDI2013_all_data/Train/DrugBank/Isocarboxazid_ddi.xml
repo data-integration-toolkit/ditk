@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="DDI-DrugBank.d108">
+    <sentence id="DDI-DrugBank.d108.s0" text="Isocarboxazid should be administered with caution to patients receiving Antabuse (disulfiram, Wyeth-Ayerst Laboratories).">
+        <entity id="DDI-DrugBank.d108.s0.e0" charOffset="0-12"
+            type="drug" text="Isocarboxazid"/>
+        <entity id="DDI-DrugBank.d108.s0.e1" charOffset="72-79"
+            type="brand" text="Antabuse"/>
+        <entity id="DDI-DrugBank.d108.s0.e2" charOffset="82-91"
+            type="drug" text="disulfiram"/>
+        <pair id="DDI-DrugBank.d108.s0.p0" e1="DDI-DrugBank.d108.s0.e0"
+            e2="DDI-DrugBank.d108.s0.e1" ddi="true" type="advise"/>
+        <pair id="DDI-DrugBank.d108.s0.p1" e1="DDI-DrugBank.d108.s0.e0"
+            e2="DDI-DrugBank.d108.s0.e2" ddi="true" type="advise"/>
+        <pair id="DDI-DrugBank.d108.s0.p2" e1="DDI-DrugBank.d108.s0.e1"
+            e2="DDI-DrugBank.d108.s0.e2" ddi="false"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d108.s1" text="In a single study, rats given high intraperitoneal doses of an MAO inhibitor plus disulfiram experienced severe toxicity, including convulsions and death.">
+        <entity id="DDI-DrugBank.d108.s1.e0" charOffset="63-75"
+            type="group" text="MAO inhibitor"/>
+        <entity id="DDI-DrugBank.d108.s1.e1" charOffset="82-91"
+            type="drug" text="disulfiram"/>
+        <pair id="DDI-DrugBank.d108.s1.p0" e1="DDI-DrugBank.d108.s1.e0"
+            e2="DDI-DrugBank.d108.s1.e1" ddi="true" type="effect"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d108.s2" text="Concomitant use of Isocarboxazid and other psychotropic agents is generally not recommended because of possible potentiating effects.">
+        <entity id="DDI-DrugBank.d108.s2.e0" charOffset="19-31"
+            type="drug" text="Isocarboxazid"/>
+        <entity id="DDI-DrugBank.d108.s2.e1" charOffset="43-61"
+            type="group" text="psychotropic agents"/>
+        <pair id="DDI-DrugBank.d108.s2.p0" e1="DDI-DrugBank.d108.s2.e0"
+            e2="DDI-DrugBank.d108.s2.e1" ddi="true" type="advise"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d108.s3" text="This is especially true in patients who may subject themselves to an overdosage of drugs."/>
+    <sentence id="DDI-DrugBank.d108.s4" text="If combination therapy is needed, careful consideration should be given to the pharmacology of all agents to be used."/>
+    <sentence id="DDI-DrugBank.d108.s5" text="The monoamine oxidase inhibitory effects of Isocarboxazid may persist for a substantial period after discontinuation of the drug, and this should be borne in mind when another drug is prescribed following Isocarboxazid.">
+        <entity id="DDI-DrugBank.d108.s5.e0" charOffset="44-56"
+            type="drug" text="Isocarboxazid"/>
+        <entity id="DDI-DrugBank.d108.s5.e1" charOffset="205-217"
+            type="drug" text="Isocarboxazid"/>
+        <pair id="DDI-DrugBank.d108.s5.p0" e1="DDI-DrugBank.d108.s5.e0"
+            e2="DDI-DrugBank.d108.s5.e1" ddi="false"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d108.s6" text="To avoid potentiation, the physician wishing to terminate treatment with Isocarboxazid and begin therapy with another agent should allow for an interval of 10 days.">
+        <entity id="DDI-DrugBank.d108.s6.e0" charOffset="73-85"
+            type="drug" text="Isocarboxazid"/>
+    </sentence>
+</document>

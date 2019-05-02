@@ -1,0 +1,253 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="DDI-DrugBank.d700">
+    <sentence id="DDI-DrugBank.d700.s0" text="Antacids: Absorption of a single dose of Myfortic was decreased when administered to 12 stable renal transplant patients also taking magnesium-aluminum containing antacids (30 mL): the mean Cmax and AUC(0-t) values for MPA were 25% and 37% lower, respectively, than when Myfortic was administered alone under fasting conditions. ">
+        <entity id="DDI-DrugBank.d700.s0.e0" charOffset="0-7"
+            type="group" text="Antacids"/>
+        <entity id="DDI-DrugBank.d700.s0.e1" charOffset="41-48"
+            type="brand" text="Myfortic"/>
+        <entity id="DDI-DrugBank.d700.s0.e2" charOffset="133-141"
+            type="drug" text="magnesium"/>
+        <entity id="DDI-DrugBank.d700.s0.e3" charOffset="143-150"
+            type="drug" text="aluminum"/>
+        <entity id="DDI-DrugBank.d700.s0.e4" charOffset="163-170"
+            type="group" text="antacids"/>
+        <entity id="DDI-DrugBank.d700.s0.e5" charOffset="271-278"
+            type="brand" text="Myfortic"/>
+        <pair id="DDI-DrugBank.d700.s0.p0" e1="DDI-DrugBank.d700.s0.e0"
+            e2="DDI-DrugBank.d700.s0.e1" ddi="false"/>
+        <pair id="DDI-DrugBank.d700.s0.p1" e1="DDI-DrugBank.d700.s0.e0"
+            e2="DDI-DrugBank.d700.s0.e2" ddi="false"/>
+        <pair id="DDI-DrugBank.d700.s0.p2" e1="DDI-DrugBank.d700.s0.e0"
+            e2="DDI-DrugBank.d700.s0.e3" ddi="false"/>
+        <pair id="DDI-DrugBank.d700.s0.p3" e1="DDI-DrugBank.d700.s0.e0"
+            e2="DDI-DrugBank.d700.s0.e4" ddi="false"/>
+        <pair id="DDI-DrugBank.d700.s0.p4" e1="DDI-DrugBank.d700.s0.e0"
+            e2="DDI-DrugBank.d700.s0.e5" ddi="false"/>
+        <pair id="DDI-DrugBank.d700.s0.p5" e1="DDI-DrugBank.d700.s0.e1"
+            e2="DDI-DrugBank.d700.s0.e2" ddi="true" type="mechanism"/>
+        <pair id="DDI-DrugBank.d700.s0.p6" e1="DDI-DrugBank.d700.s0.e1"
+            e2="DDI-DrugBank.d700.s0.e3" ddi="true" type="mechanism"/>
+        <pair id="DDI-DrugBank.d700.s0.p7" e1="DDI-DrugBank.d700.s0.e1"
+            e2="DDI-DrugBank.d700.s0.e4" ddi="false"/>
+        <pair id="DDI-DrugBank.d700.s0.p8" e1="DDI-DrugBank.d700.s0.e1"
+            e2="DDI-DrugBank.d700.s0.e5" ddi="false"/>
+        <pair id="DDI-DrugBank.d700.s0.p9" e1="DDI-DrugBank.d700.s0.e2"
+            e2="DDI-DrugBank.d700.s0.e3" ddi="false"/>
+        <pair id="DDI-DrugBank.d700.s0.p10" e1="DDI-DrugBank.d700.s0.e2"
+            e2="DDI-DrugBank.d700.s0.e4" ddi="false"/>
+        <pair id="DDI-DrugBank.d700.s0.p11" e1="DDI-DrugBank.d700.s0.e2"
+            e2="DDI-DrugBank.d700.s0.e5" ddi="false"/>
+        <pair id="DDI-DrugBank.d700.s0.p12" e1="DDI-DrugBank.d700.s0.e3"
+            e2="DDI-DrugBank.d700.s0.e4" ddi="false"/>
+        <pair id="DDI-DrugBank.d700.s0.p13" e1="DDI-DrugBank.d700.s0.e3"
+            e2="DDI-DrugBank.d700.s0.e5" ddi="false"/>
+        <pair id="DDI-DrugBank.d700.s0.p14" e1="DDI-DrugBank.d700.s0.e4"
+            e2="DDI-DrugBank.d700.s0.e5" ddi="false"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d700.s1" text="It is recommended that Myfortic and antacids not be administered simultaneously. ">
+        <entity id="DDI-DrugBank.d700.s1.e0" charOffset="23-30"
+            type="drug" text="Myfortic"/>
+        <entity id="DDI-DrugBank.d700.s1.e1" charOffset="36-43"
+            type="group" text="antacids"/>
+        <pair id="DDI-DrugBank.d700.s1.p0" e1="DDI-DrugBank.d700.s1.e0"
+            e2="DDI-DrugBank.d700.s1.e1" ddi="true" type="advise"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d700.s2" text="Cyclosporine: When studied in stable renal transplant patients, cyclosporine, USP (MODIFIED) pharmacokinetics were unaffected by steady state dosing of Myfortic. ">
+        <entity id="DDI-DrugBank.d700.s2.e0" charOffset="0-11"
+            type="drug" text="Cyclosporine"/>
+        <entity id="DDI-DrugBank.d700.s2.e1" charOffset="64-75"
+            type="drug" text="cyclosporine"/>
+        <entity id="DDI-DrugBank.d700.s2.e2" charOffset="152-159"
+            type="brand" text="Myfortic"/>
+        <pair id="DDI-DrugBank.d700.s2.p0" e1="DDI-DrugBank.d700.s2.e0"
+            e2="DDI-DrugBank.d700.s2.e1" ddi="false"/>
+        <pair id="DDI-DrugBank.d700.s2.p1" e1="DDI-DrugBank.d700.s2.e0"
+            e2="DDI-DrugBank.d700.s2.e2" ddi="false"/>
+        <pair id="DDI-DrugBank.d700.s2.p2" e1="DDI-DrugBank.d700.s2.e1"
+            e2="DDI-DrugBank.d700.s2.e2" ddi="false"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d700.s3" text="Acyclovir/Ganciclovir: may be taken with Myfortic; ">
+        <entity id="DDI-DrugBank.d700.s3.e0" charOffset="0-8"
+            type="drug" text="Acyclovir"/>
+        <entity id="DDI-DrugBank.d700.s3.e1" charOffset="10-20"
+            type="drug" text="Ganciclovir"/>
+        <entity id="DDI-DrugBank.d700.s3.e2" charOffset="41-48"
+            type="brand" text="Myfortic"/>
+        <pair id="DDI-DrugBank.d700.s3.p0" e1="DDI-DrugBank.d700.s3.e0"
+            e2="DDI-DrugBank.d700.s3.e1" ddi="false"/>
+        <pair id="DDI-DrugBank.d700.s3.p1" e1="DDI-DrugBank.d700.s3.e0"
+            e2="DDI-DrugBank.d700.s3.e2" ddi="false"/>
+        <pair id="DDI-DrugBank.d700.s3.p2" e1="DDI-DrugBank.d700.s3.e1"
+            e2="DDI-DrugBank.d700.s3.e2" ddi="false"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d700.s4" text="however, during the period of treatment, physicians should monitor blood cell counts. "/>
+    <sentence id="DDI-DrugBank.d700.s5" text="Both acyclovir/ganciclovir and MPAG concentrations are increased in the presence of renal impairment, their coexistence may compete for tubular secretion and further increase in the concentrations of the two. ">
+        <entity id="DDI-DrugBank.d700.s5.e0" charOffset="5-13"
+            type="drug" text="acyclovir"/>
+        <entity id="DDI-DrugBank.d700.s5.e1" charOffset="15-25"
+            type="drug" text="ganciclovir"/>
+        <entity id="DDI-DrugBank.d700.s5.e2" charOffset="31-34"
+            type="drug_n" text="MPAG"/>
+        <pair id="DDI-DrugBank.d700.s5.p0" e1="DDI-DrugBank.d700.s5.e0"
+            e2="DDI-DrugBank.d700.s5.e1" ddi="false"/>
+        <pair id="DDI-DrugBank.d700.s5.p1" e1="DDI-DrugBank.d700.s5.e0"
+            e2="DDI-DrugBank.d700.s5.e2" ddi="false"/>
+        <pair id="DDI-DrugBank.d700.s5.p2" e1="DDI-DrugBank.d700.s5.e1"
+            e2="DDI-DrugBank.d700.s5.e2" ddi="false"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d700.s6" text="Azathioprine/Mycophenolate Mofetil: Given that azathioprine and mycophenolate mofetil inhibit purine metabolism, it is recommended that Myfortic not be administered concomitantly with azathioprine or mycophenolate mofetil. ">
+        <entity id="DDI-DrugBank.d700.s6.e0" charOffset="0-11"
+            type="drug" text="Azathioprine"/>
+        <entity id="DDI-DrugBank.d700.s6.e1" charOffset="13-33"
+            type="drug" text="Mycophenolate Mofetil"/>
+        <entity id="DDI-DrugBank.d700.s6.e2" charOffset="47-58"
+            type="drug" text="azathioprine"/>
+        <entity id="DDI-DrugBank.d700.s6.e3" charOffset="64-84"
+            type="drug" text="mycophenolate mofetil"/>
+        <entity id="DDI-DrugBank.d700.s6.e4" charOffset="136-143"
+            type="brand" text="Myfortic"/>
+        <entity id="DDI-DrugBank.d700.s6.e5" charOffset="184-195"
+            type="drug" text="azathioprine"/>
+        <entity id="DDI-DrugBank.d700.s6.e6" charOffset="200-220"
+            type="drug" text="mycophenolate mofetil"/>
+        <pair id="DDI-DrugBank.d700.s6.p0" e1="DDI-DrugBank.d700.s6.e0"
+            e2="DDI-DrugBank.d700.s6.e1" ddi="false"/>
+        <pair id="DDI-DrugBank.d700.s6.p1" e1="DDI-DrugBank.d700.s6.e0"
+            e2="DDI-DrugBank.d700.s6.e2" ddi="false"/>
+        <pair id="DDI-DrugBank.d700.s6.p2" e1="DDI-DrugBank.d700.s6.e0"
+            e2="DDI-DrugBank.d700.s6.e3" ddi="false"/>
+        <pair id="DDI-DrugBank.d700.s6.p3" e1="DDI-DrugBank.d700.s6.e0"
+            e2="DDI-DrugBank.d700.s6.e4" ddi="false"/>
+        <pair id="DDI-DrugBank.d700.s6.p4" e1="DDI-DrugBank.d700.s6.e0"
+            e2="DDI-DrugBank.d700.s6.e5" ddi="false"/>
+        <pair id="DDI-DrugBank.d700.s6.p5" e1="DDI-DrugBank.d700.s6.e0"
+            e2="DDI-DrugBank.d700.s6.e6" ddi="false"/>
+        <pair id="DDI-DrugBank.d700.s6.p6" e1="DDI-DrugBank.d700.s6.e1"
+            e2="DDI-DrugBank.d700.s6.e2" ddi="false"/>
+        <pair id="DDI-DrugBank.d700.s6.p7" e1="DDI-DrugBank.d700.s6.e1"
+            e2="DDI-DrugBank.d700.s6.e3" ddi="false"/>
+        <pair id="DDI-DrugBank.d700.s6.p8" e1="DDI-DrugBank.d700.s6.e1"
+            e2="DDI-DrugBank.d700.s6.e4" ddi="false"/>
+        <pair id="DDI-DrugBank.d700.s6.p9" e1="DDI-DrugBank.d700.s6.e1"
+            e2="DDI-DrugBank.d700.s6.e5" ddi="false"/>
+        <pair id="DDI-DrugBank.d700.s6.p10" e1="DDI-DrugBank.d700.s6.e1"
+            e2="DDI-DrugBank.d700.s6.e6" ddi="false"/>
+        <pair id="DDI-DrugBank.d700.s6.p11" e1="DDI-DrugBank.d700.s6.e2"
+            e2="DDI-DrugBank.d700.s6.e3" ddi="false"/>
+        <pair id="DDI-DrugBank.d700.s6.p12" e1="DDI-DrugBank.d700.s6.e2"
+            e2="DDI-DrugBank.d700.s6.e4" ddi="false"/>
+        <pair id="DDI-DrugBank.d700.s6.p13" e1="DDI-DrugBank.d700.s6.e2"
+            e2="DDI-DrugBank.d700.s6.e5" ddi="false"/>
+        <pair id="DDI-DrugBank.d700.s6.p14" e1="DDI-DrugBank.d700.s6.e2"
+            e2="DDI-DrugBank.d700.s6.e6" ddi="false"/>
+        <pair id="DDI-DrugBank.d700.s6.p15" e1="DDI-DrugBank.d700.s6.e3"
+            e2="DDI-DrugBank.d700.s6.e4" ddi="false"/>
+        <pair id="DDI-DrugBank.d700.s6.p16" e1="DDI-DrugBank.d700.s6.e3"
+            e2="DDI-DrugBank.d700.s6.e5" ddi="false"/>
+        <pair id="DDI-DrugBank.d700.s6.p17" e1="DDI-DrugBank.d700.s6.e3"
+            e2="DDI-DrugBank.d700.s6.e6" ddi="false"/>
+        <pair id="DDI-DrugBank.d700.s6.p18" e1="DDI-DrugBank.d700.s6.e4"
+            e2="DDI-DrugBank.d700.s6.e5" ddi="true" type="advise"/>
+        <pair id="DDI-DrugBank.d700.s6.p19" e1="DDI-DrugBank.d700.s6.e4"
+            e2="DDI-DrugBank.d700.s6.e6" ddi="true" type="advise"/>
+        <pair id="DDI-DrugBank.d700.s6.p20" e1="DDI-DrugBank.d700.s6.e5"
+            e2="DDI-DrugBank.d700.s6.e6" ddi="false"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d700.s7" text="Cholestyramine and Drugs that Bind Bile Acids: These drugs interrupt enterohepatic recirculation and reduce MPA exposure when coadministered with mycophenolate mofetil. ">
+        <entity id="DDI-DrugBank.d700.s7.e0" charOffset="0-13"
+            type="drug" text="Cholestyramine"/>
+        <entity id="DDI-DrugBank.d700.s7.e1" charOffset="108-110"
+            type="drug_n" text="MPA"/>
+        <entity id="DDI-DrugBank.d700.s7.e2" charOffset="146-166"
+            type="drug" text="mycophenolate mofetil"/>
+        <pair id="DDI-DrugBank.d700.s7.p0" e1="DDI-DrugBank.d700.s7.e0"
+            e2="DDI-DrugBank.d700.s7.e1" ddi="false"/>
+        <pair id="DDI-DrugBank.d700.s7.p1" e1="DDI-DrugBank.d700.s7.e0"
+            e2="DDI-DrugBank.d700.s7.e2" ddi="false"/>
+        <pair id="DDI-DrugBank.d700.s7.p2" e1="DDI-DrugBank.d700.s7.e1"
+            e2="DDI-DrugBank.d700.s7.e2" ddi="false"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d700.s8" text="Therefore, do not administer Myfortic with cholestyramine or other agents that may interfere with enterohepatic recirculation or drugs that may bind bile acids, for example bile acid sequestrates or oral activated charcoal, because of the potential to reduce the efficacy of Myfortic. ">
+        <entity id="DDI-DrugBank.d700.s8.e0" charOffset="29-36"
+            type="drug" text="Myfortic"/>
+        <entity id="DDI-DrugBank.d700.s8.e1" charOffset="43-56"
+            type="drug" text="cholestyramine"/>
+        <entity id="DDI-DrugBank.d700.s8.e2" charOffset="204-221"
+            type="drug" text="activated charcoal"/>
+        <entity id="DDI-DrugBank.d700.s8.e3" charOffset="275-282"
+            type="brand" text="Myfortic"/>
+        <pair id="DDI-DrugBank.d700.s8.p0" e1="DDI-DrugBank.d700.s8.e0"
+            e2="DDI-DrugBank.d700.s8.e1" ddi="true" type="advise"/>
+        <pair id="DDI-DrugBank.d700.s8.p1" e1="DDI-DrugBank.d700.s8.e0"
+            e2="DDI-DrugBank.d700.s8.e2" ddi="true" type="advise"/>
+        <pair id="DDI-DrugBank.d700.s8.p2" e1="DDI-DrugBank.d700.s8.e0"
+            e2="DDI-DrugBank.d700.s8.e3" ddi="false"/>
+        <pair id="DDI-DrugBank.d700.s8.p3" e1="DDI-DrugBank.d700.s8.e1"
+            e2="DDI-DrugBank.d700.s8.e2" ddi="false"/>
+        <pair id="DDI-DrugBank.d700.s8.p4" e1="DDI-DrugBank.d700.s8.e1"
+            e2="DDI-DrugBank.d700.s8.e3" ddi="false"/>
+        <pair id="DDI-DrugBank.d700.s8.p5" e1="DDI-DrugBank.d700.s8.e2"
+            e2="DDI-DrugBank.d700.s8.e3" ddi="false"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d700.s9" text="Oral Contraceptives: Given the different metabolism of Myfortic and oral contraceptives, no drug interaction between these two classes of drug is expected. ">
+        <entity id="DDI-DrugBank.d700.s9.e0" charOffset="5-18"
+            type="group" text="Contraceptives"/>
+        <entity id="DDI-DrugBank.d700.s9.e1" charOffset="55-62"
+            type="brand" text="Myfortic"/>
+        <entity id="DDI-DrugBank.d700.s9.e2" charOffset="73-86"
+            type="group" text="contraceptives"/>
+        <pair id="DDI-DrugBank.d700.s9.p0" e1="DDI-DrugBank.d700.s9.e0"
+            e2="DDI-DrugBank.d700.s9.e1" ddi="false"/>
+        <pair id="DDI-DrugBank.d700.s9.p1" e1="DDI-DrugBank.d700.s9.e0"
+            e2="DDI-DrugBank.d700.s9.e2" ddi="false"/>
+        <pair id="DDI-DrugBank.d700.s9.p2" e1="DDI-DrugBank.d700.s9.e1"
+            e2="DDI-DrugBank.d700.s9.e2" ddi="false"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d700.s10" text="However, in a drug-drug interaction study, mean levonorgesterol AUC was decreased by 15% when coadministered with mycophenolate mofetil. ">
+        <entity id="DDI-DrugBank.d700.s10.e0" charOffset="48-62"
+            type="drug" text="levonorgesterol"/>
+        <entity id="DDI-DrugBank.d700.s10.e1" charOffset="114-134"
+            type="drug" text="mycophenolate mofetil"/>
+        <pair id="DDI-DrugBank.d700.s10.p0"
+            e1="DDI-DrugBank.d700.s10.e0" e2="DDI-DrugBank.d700.s10.e1"
+            ddi="true" type="mechanism"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d700.s11" text="Therefore, it is recommended that oral contraceptives are co- administered with Myfortic with caution and additional birth control methods be considered. ">
+        <entity id="DDI-DrugBank.d700.s11.e0" charOffset="39-52"
+            type="group" text="contraceptives"/>
+        <entity id="DDI-DrugBank.d700.s11.e1" charOffset="80-87"
+            type="brand" text="Myfortic"/>
+        <pair id="DDI-DrugBank.d700.s11.p0"
+            e1="DDI-DrugBank.d700.s11.e0" e2="DDI-DrugBank.d700.s11.e1"
+            ddi="true" type="advise"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d700.s12" text="Live Vaccines: During treatment with Myfortic, the use of live attenuated vaccines should be avoided and patients should be advised that vaccinations may be less effective. ">
+        <entity id="DDI-DrugBank.d700.s12.e0" charOffset="0-12"
+            type="group" text="Live Vaccines"/>
+        <entity id="DDI-DrugBank.d700.s12.e1" charOffset="37-44"
+            type="drug" text="Myfortic"/>
+        <entity id="DDI-DrugBank.d700.s12.e2" charOffset="58-81"
+            type="group" text="live attenuated vaccines"/>
+        <pair id="DDI-DrugBank.d700.s12.p0"
+            e1="DDI-DrugBank.d700.s12.e0" e2="DDI-DrugBank.d700.s12.e1" ddi="false"/>
+        <pair id="DDI-DrugBank.d700.s12.p1"
+            e1="DDI-DrugBank.d700.s12.e0" e2="DDI-DrugBank.d700.s12.e2" ddi="false"/>
+        <pair id="DDI-DrugBank.d700.s12.p2"
+            e1="DDI-DrugBank.d700.s12.e1" e2="DDI-DrugBank.d700.s12.e2"
+            ddi="true" type="advise"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d700.s13" text="Influenza vaccination may be of value. "/>
+    <sentence id="DDI-DrugBank.d700.s14" text="Prescribers should refer to national guidelines for influenza vaccination. "/>
+    <sentence id="DDI-DrugBank.d700.s15" text="Drugs that alter the gastrointestinal flora may interact with Myfortic by disrupting enterohepatic recirculation. ">
+        <entity id="DDI-DrugBank.d700.s15.e0" charOffset="62-69"
+            type="brand" text="Myfortic"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d700.s16" text="Interference of MPAG hydrolysis may lead to less MPA available for absorption.">
+        <entity id="DDI-DrugBank.d700.s16.e0" charOffset="16-19"
+            type="drug_n" text="MPAG"/>
+        <entity id="DDI-DrugBank.d700.s16.e1" charOffset="49-51"
+            type="drug_n" text="MPA"/>
+        <pair id="DDI-DrugBank.d700.s16.p0"
+            e1="DDI-DrugBank.d700.s16.e0" e2="DDI-DrugBank.d700.s16.e1" ddi="false"/>
+    </sentence>
+</document>

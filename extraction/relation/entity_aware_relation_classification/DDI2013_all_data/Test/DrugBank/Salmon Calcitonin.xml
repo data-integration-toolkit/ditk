@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="DDI-DrugBank.d770">
+    <sentence id="DDI-DrugBank.d770.s0" text="Nasal Spray: Formal studies designed to evaluate drug interactions with Calcitonin (salmon) have not been done. ">
+        <entity id="DDI-DrugBank.d770.s0.e0" charOffset="72-90"
+            type="drug" text="Calcitonin (salmon)"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d770.s1" text="No drug interaction studies have been performed with Calcitonin (salmon) nasal spray ingredients. ">
+        <entity id="DDI-DrugBank.d770.s1.e0" charOffset="53-71"
+            type="drug" text="Calcitonin (salmon)"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d770.s2" text="Currently, no drug interactions with Calcitonin (salmon) have been observed. ">
+        <entity id="DDI-DrugBank.d770.s2.e0" charOffset="37-55"
+            type="drug" text="Calcitonin (salmon)"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d770.s3" text="The effects of prior use of diphosphonates in postmenopausal osteoporosis patients have not been assessed; ">
+        <entity id="DDI-DrugBank.d770.s3.e0" charOffset="28-41"
+            type="group" text="diphosphonates"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d770.s4" text="however, in patients with Paget's Disease prior diphosphonate use appears to reduce the anti-resorptive response to Calcitonin (salmon) nasal spray.">
+        <entity id="DDI-DrugBank.d770.s4.e0" charOffset="48-60"
+            type="group" text="diphosphonate"/>
+        <entity id="DDI-DrugBank.d770.s4.e1" charOffset="116-134"
+            type="drug" text="Calcitonin (salmon)"/>
+        <pair id="DDI-DrugBank.d770.s4.p0" e1="DDI-DrugBank.d770.s4.e0"
+            e2="DDI-DrugBank.d770.s4.e1" ddi="true" type="effect"/>
+    </sentence>
+</document>

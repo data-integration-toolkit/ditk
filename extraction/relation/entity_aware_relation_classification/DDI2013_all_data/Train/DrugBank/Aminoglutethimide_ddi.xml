@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="DDI-DrugBank.d372">
+    <sentence id="DDI-DrugBank.d372.s0" text="Cytadren accelerates the metabolism of dexamethasone;">
+        <entity id="DDI-DrugBank.d372.s0.e0" charOffset="0-7"
+            type="brand" text="Cytadren"/>
+        <entity id="DDI-DrugBank.d372.s0.e1" charOffset="39-51"
+            type="drug" text="dexamethasone"/>
+        <pair id="DDI-DrugBank.d372.s0.p0" e1="DDI-DrugBank.d372.s0.e0"
+            e2="DDI-DrugBank.d372.s0.e1" ddi="true" type="mechanism"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d372.s1" text="therefore, if glucocorticoid replacement is needed, hydrocortisone should be prescribed.">
+        <entity id="DDI-DrugBank.d372.s1.e0" charOffset="14-27"
+            type="group" text="glucocorticoid"/>
+        <entity id="DDI-DrugBank.d372.s1.e1" charOffset="52-65"
+            type="drug" text="hydrocortisone"/>
+        <pair id="DDI-DrugBank.d372.s1.p0" e1="DDI-DrugBank.d372.s1.e0"
+            e2="DDI-DrugBank.d372.s1.e1" ddi="false"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d372.s2" text="Aminoglutethimide diminishes the effect of coumarin and warfarin.">
+        <entity id="DDI-DrugBank.d372.s2.e0" charOffset="0-16"
+            type="drug" text="Aminoglutethimide"/>
+        <entity id="DDI-DrugBank.d372.s2.e1" charOffset="43-50"
+            type="group" text="coumarin"/>
+        <entity id="DDI-DrugBank.d372.s2.e2" charOffset="56-63"
+            type="drug" text="warfarin"/>
+        <pair id="DDI-DrugBank.d372.s2.p0" e1="DDI-DrugBank.d372.s2.e0"
+            e2="DDI-DrugBank.d372.s2.e1" ddi="true" type="effect"/>
+        <pair id="DDI-DrugBank.d372.s2.p1" e1="DDI-DrugBank.d372.s2.e0"
+            e2="DDI-DrugBank.d372.s2.e2" ddi="true" type="effect"/>
+        <pair id="DDI-DrugBank.d372.s2.p2" e1="DDI-DrugBank.d372.s2.e1"
+            e2="DDI-DrugBank.d372.s2.e2" ddi="false"/>
+    </sentence>
+</document>

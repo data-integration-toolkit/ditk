@@ -1,0 +1,178 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="DDI-DrugBank.d42">
+    <sentence id="DDI-DrugBank.d42.s0" text="The potential for clinically significant drug-drug interactions posed by dolasetron and hydrodolasetron appears to be low for drugs commonly used in chemotherapy or surgery, because hydrodolasetron is eliminated by multiple routes.">
+        <entity id="DDI-DrugBank.d42.s0.e0" charOffset="73-82"
+            type="drug" text="dolasetron"/>
+        <entity id="DDI-DrugBank.d42.s0.e1" charOffset="88-102"
+            type="drug_n" text="hydrodolasetron"/>
+        <entity id="DDI-DrugBank.d42.s0.e2" charOffset="182-196"
+            type="drug_n" text="hydrodolasetron"/>
+        <pair id="DDI-DrugBank.d42.s0.p0" e1="DDI-DrugBank.d42.s0.e0"
+            e2="DDI-DrugBank.d42.s0.e1" ddi="false"/>
+        <pair id="DDI-DrugBank.d42.s0.p1" e1="DDI-DrugBank.d42.s0.e0"
+            e2="DDI-DrugBank.d42.s0.e2" ddi="false"/>
+        <pair id="DDI-DrugBank.d42.s0.p2" e1="DDI-DrugBank.d42.s0.e1"
+            e2="DDI-DrugBank.d42.s0.e2" ddi="false"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d42.s1" text="Blood levels of hydrodolasetron increased 24% when dolasetron was coadministered with cimetidine (nonselective inhibitor of cytochrome P-450) for 7 days, and decreased 28% with coadministration of rifampin (potent inducer of cytochrome P-450) for 7 days.">
+        <entity id="DDI-DrugBank.d42.s1.e0" charOffset="16-30"
+            type="drug_n" text="hydrodolasetron"/>
+        <entity id="DDI-DrugBank.d42.s1.e1" charOffset="51-60"
+            type="drug" text="dolasetron"/>
+        <entity id="DDI-DrugBank.d42.s1.e2" charOffset="86-95"
+            type="drug" text="cimetidine"/>
+        <entity id="DDI-DrugBank.d42.s1.e3" charOffset="197-204"
+            type="drug" text="rifampin"/>
+        <pair id="DDI-DrugBank.d42.s1.p0" e1="DDI-DrugBank.d42.s1.e0"
+            e2="DDI-DrugBank.d42.s1.e1" ddi="false"/>
+        <pair id="DDI-DrugBank.d42.s1.p1" e1="DDI-DrugBank.d42.s1.e0"
+            e2="DDI-DrugBank.d42.s1.e2" ddi="false"/>
+        <pair id="DDI-DrugBank.d42.s1.p2" e1="DDI-DrugBank.d42.s1.e0"
+            e2="DDI-DrugBank.d42.s1.e3" ddi="false"/>
+        <pair id="DDI-DrugBank.d42.s1.p3" e1="DDI-DrugBank.d42.s1.e1"
+            e2="DDI-DrugBank.d42.s1.e2" ddi="true" type="mechanism"/>
+        <pair id="DDI-DrugBank.d42.s1.p4" e1="DDI-DrugBank.d42.s1.e1"
+            e2="DDI-DrugBank.d42.s1.e3" ddi="true" type="mechanism"/>
+        <pair id="DDI-DrugBank.d42.s1.p5" e1="DDI-DrugBank.d42.s1.e2"
+            e2="DDI-DrugBank.d42.s1.e3" ddi="false"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d42.s2" text="Dolasetron has been safely coadministered with drugs used in chemotherapy and surgery.">
+        <entity id="DDI-DrugBank.d42.s2.e0" charOffset="0-9" type="drug" text="Dolasetron"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d42.s3" text="As with other agents which prolong ECG intervals, caution should be exercised in patients taking drugs which prolong ECG intervals, particularly QTc."/>
+    <sentence id="DDI-DrugBank.d42.s4" text="In patients taking furosemide, nifedipine, diltiazem, ACE inhibitors, verapamil, glyburide, propranolol, and various chemotherapy agents, no effect was shown on the clearance of hydrodolasetron.">
+        <entity id="DDI-DrugBank.d42.s4.e0" charOffset="19-28"
+            type="drug" text="furosemide"/>
+        <entity id="DDI-DrugBank.d42.s4.e1" charOffset="31-40"
+            type="drug" text="nifedipine"/>
+        <entity id="DDI-DrugBank.d42.s4.e2" charOffset="43-51"
+            type="drug" text="diltiazem"/>
+        <entity id="DDI-DrugBank.d42.s4.e3" charOffset="54-67"
+            type="group" text="ACE inhibitors"/>
+        <entity id="DDI-DrugBank.d42.s4.e4" charOffset="70-78"
+            type="drug" text="verapamil"/>
+        <entity id="DDI-DrugBank.d42.s4.e5" charOffset="81-89"
+            type="drug" text="glyburide"/>
+        <entity id="DDI-DrugBank.d42.s4.e6" charOffset="92-102"
+            type="drug" text="propranolol"/>
+        <entity id="DDI-DrugBank.d42.s4.e7" charOffset="178-192"
+            type="drug_n" text="hydrodolasetron"/>
+        <pair id="DDI-DrugBank.d42.s4.p0" e1="DDI-DrugBank.d42.s4.e0"
+            e2="DDI-DrugBank.d42.s4.e1" ddi="false"/>
+        <pair id="DDI-DrugBank.d42.s4.p1" e1="DDI-DrugBank.d42.s4.e0"
+            e2="DDI-DrugBank.d42.s4.e2" ddi="false"/>
+        <pair id="DDI-DrugBank.d42.s4.p2" e1="DDI-DrugBank.d42.s4.e0"
+            e2="DDI-DrugBank.d42.s4.e3" ddi="false"/>
+        <pair id="DDI-DrugBank.d42.s4.p3" e1="DDI-DrugBank.d42.s4.e0"
+            e2="DDI-DrugBank.d42.s4.e4" ddi="false"/>
+        <pair id="DDI-DrugBank.d42.s4.p4" e1="DDI-DrugBank.d42.s4.e0"
+            e2="DDI-DrugBank.d42.s4.e5" ddi="false"/>
+        <pair id="DDI-DrugBank.d42.s4.p5" e1="DDI-DrugBank.d42.s4.e0"
+            e2="DDI-DrugBank.d42.s4.e6" ddi="false"/>
+        <pair id="DDI-DrugBank.d42.s4.p6" e1="DDI-DrugBank.d42.s4.e0"
+            e2="DDI-DrugBank.d42.s4.e7" ddi="false"/>
+        <pair id="DDI-DrugBank.d42.s4.p7" e1="DDI-DrugBank.d42.s4.e1"
+            e2="DDI-DrugBank.d42.s4.e2" ddi="false"/>
+        <pair id="DDI-DrugBank.d42.s4.p8" e1="DDI-DrugBank.d42.s4.e1"
+            e2="DDI-DrugBank.d42.s4.e3" ddi="false"/>
+        <pair id="DDI-DrugBank.d42.s4.p9" e1="DDI-DrugBank.d42.s4.e1"
+            e2="DDI-DrugBank.d42.s4.e4" ddi="false"/>
+        <pair id="DDI-DrugBank.d42.s4.p10" e1="DDI-DrugBank.d42.s4.e1"
+            e2="DDI-DrugBank.d42.s4.e5" ddi="false"/>
+        <pair id="DDI-DrugBank.d42.s4.p11" e1="DDI-DrugBank.d42.s4.e1"
+            e2="DDI-DrugBank.d42.s4.e6" ddi="false"/>
+        <pair id="DDI-DrugBank.d42.s4.p12" e1="DDI-DrugBank.d42.s4.e1"
+            e2="DDI-DrugBank.d42.s4.e7" ddi="false"/>
+        <pair id="DDI-DrugBank.d42.s4.p13" e1="DDI-DrugBank.d42.s4.e2"
+            e2="DDI-DrugBank.d42.s4.e3" ddi="false"/>
+        <pair id="DDI-DrugBank.d42.s4.p14" e1="DDI-DrugBank.d42.s4.e2"
+            e2="DDI-DrugBank.d42.s4.e4" ddi="false"/>
+        <pair id="DDI-DrugBank.d42.s4.p15" e1="DDI-DrugBank.d42.s4.e2"
+            e2="DDI-DrugBank.d42.s4.e5" ddi="false"/>
+        <pair id="DDI-DrugBank.d42.s4.p16" e1="DDI-DrugBank.d42.s4.e2"
+            e2="DDI-DrugBank.d42.s4.e6" ddi="false"/>
+        <pair id="DDI-DrugBank.d42.s4.p17" e1="DDI-DrugBank.d42.s4.e2"
+            e2="DDI-DrugBank.d42.s4.e7" ddi="false"/>
+        <pair id="DDI-DrugBank.d42.s4.p18" e1="DDI-DrugBank.d42.s4.e3"
+            e2="DDI-DrugBank.d42.s4.e4" ddi="false"/>
+        <pair id="DDI-DrugBank.d42.s4.p19" e1="DDI-DrugBank.d42.s4.e3"
+            e2="DDI-DrugBank.d42.s4.e5" ddi="false"/>
+        <pair id="DDI-DrugBank.d42.s4.p20" e1="DDI-DrugBank.d42.s4.e3"
+            e2="DDI-DrugBank.d42.s4.e6" ddi="false"/>
+        <pair id="DDI-DrugBank.d42.s4.p21" e1="DDI-DrugBank.d42.s4.e3"
+            e2="DDI-DrugBank.d42.s4.e7" ddi="false"/>
+        <pair id="DDI-DrugBank.d42.s4.p22" e1="DDI-DrugBank.d42.s4.e4"
+            e2="DDI-DrugBank.d42.s4.e5" ddi="false"/>
+        <pair id="DDI-DrugBank.d42.s4.p23" e1="DDI-DrugBank.d42.s4.e4"
+            e2="DDI-DrugBank.d42.s4.e6" ddi="false"/>
+        <pair id="DDI-DrugBank.d42.s4.p24" e1="DDI-DrugBank.d42.s4.e4"
+            e2="DDI-DrugBank.d42.s4.e7" ddi="false"/>
+        <pair id="DDI-DrugBank.d42.s4.p25" e1="DDI-DrugBank.d42.s4.e5"
+            e2="DDI-DrugBank.d42.s4.e6" ddi="false"/>
+        <pair id="DDI-DrugBank.d42.s4.p26" e1="DDI-DrugBank.d42.s4.e5"
+            e2="DDI-DrugBank.d42.s4.e7" ddi="false"/>
+        <pair id="DDI-DrugBank.d42.s4.p27" e1="DDI-DrugBank.d42.s4.e6"
+            e2="DDI-DrugBank.d42.s4.e7" ddi="false"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d42.s5" text="Clearance of hydrodolasetron decreased by about 27% when dolasetron mesylate was administered intravenously concomitantly with atenolol.">
+        <entity id="DDI-DrugBank.d42.s5.e0" charOffset="13-27"
+            type="drug_n" text="hydrodolasetron"/>
+        <entity id="DDI-DrugBank.d42.s5.e1" charOffset="57-75"
+            type="drug" text="dolasetron mesylate"/>
+        <entity id="DDI-DrugBank.d42.s5.e2" charOffset="127-134"
+            type="drug" text="atenolol"/>
+        <pair id="DDI-DrugBank.d42.s5.p0" e1="DDI-DrugBank.d42.s5.e0"
+            e2="DDI-DrugBank.d42.s5.e1" ddi="false"/>
+        <pair id="DDI-DrugBank.d42.s5.p1" e1="DDI-DrugBank.d42.s5.e0"
+            e2="DDI-DrugBank.d42.s5.e2" ddi="false"/>
+        <pair id="DDI-DrugBank.d42.s5.p2" e1="DDI-DrugBank.d42.s5.e1"
+            e2="DDI-DrugBank.d42.s5.e2" ddi="true" type="mechanism"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d42.s6" text="Dolasetron does not influence anesthesia recovery time in patients.">
+        <entity id="DDI-DrugBank.d42.s6.e0" charOffset="0-9" type="drug" text="Dolasetron"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d42.s7" text="Dolasetron mesylate did not inhibit the antitumor activity of four chemotherapeutic agents (cisplatin, 5-fluorouracil, doxorubicin, cyclophosphamide) in four murine models.">
+        <entity id="DDI-DrugBank.d42.s7.e0" charOffset="0-18"
+            type="drug" text="Dolasetron mesylate"/>
+        <entity id="DDI-DrugBank.d42.s7.e1" charOffset="67-89"
+            type="group" text="chemotherapeutic agents"/>
+        <entity id="DDI-DrugBank.d42.s7.e2" charOffset="92-100"
+            type="drug" text="cisplatin"/>
+        <entity id="DDI-DrugBank.d42.s7.e3" charOffset="103-116"
+            type="drug" text="5-fluorouracil"/>
+        <entity id="DDI-DrugBank.d42.s7.e4" charOffset="119-129"
+            type="drug" text="doxorubicin"/>
+        <entity id="DDI-DrugBank.d42.s7.e5" charOffset="132-147"
+            type="drug" text="cyclophosphamide"/>
+        <pair id="DDI-DrugBank.d42.s7.p0" e1="DDI-DrugBank.d42.s7.e0"
+            e2="DDI-DrugBank.d42.s7.e1" ddi="false"/>
+        <pair id="DDI-DrugBank.d42.s7.p1" e1="DDI-DrugBank.d42.s7.e0"
+            e2="DDI-DrugBank.d42.s7.e2" ddi="false"/>
+        <pair id="DDI-DrugBank.d42.s7.p2" e1="DDI-DrugBank.d42.s7.e0"
+            e2="DDI-DrugBank.d42.s7.e3" ddi="false"/>
+        <pair id="DDI-DrugBank.d42.s7.p3" e1="DDI-DrugBank.d42.s7.e0"
+            e2="DDI-DrugBank.d42.s7.e4" ddi="false"/>
+        <pair id="DDI-DrugBank.d42.s7.p4" e1="DDI-DrugBank.d42.s7.e0"
+            e2="DDI-DrugBank.d42.s7.e5" ddi="false"/>
+        <pair id="DDI-DrugBank.d42.s7.p5" e1="DDI-DrugBank.d42.s7.e1"
+            e2="DDI-DrugBank.d42.s7.e2" ddi="false"/>
+        <pair id="DDI-DrugBank.d42.s7.p6" e1="DDI-DrugBank.d42.s7.e1"
+            e2="DDI-DrugBank.d42.s7.e3" ddi="false"/>
+        <pair id="DDI-DrugBank.d42.s7.p7" e1="DDI-DrugBank.d42.s7.e1"
+            e2="DDI-DrugBank.d42.s7.e4" ddi="false"/>
+        <pair id="DDI-DrugBank.d42.s7.p8" e1="DDI-DrugBank.d42.s7.e1"
+            e2="DDI-DrugBank.d42.s7.e5" ddi="false"/>
+        <pair id="DDI-DrugBank.d42.s7.p9" e1="DDI-DrugBank.d42.s7.e2"
+            e2="DDI-DrugBank.d42.s7.e3" ddi="false"/>
+        <pair id="DDI-DrugBank.d42.s7.p10" e1="DDI-DrugBank.d42.s7.e2"
+            e2="DDI-DrugBank.d42.s7.e4" ddi="false"/>
+        <pair id="DDI-DrugBank.d42.s7.p11" e1="DDI-DrugBank.d42.s7.e2"
+            e2="DDI-DrugBank.d42.s7.e5" ddi="false"/>
+        <pair id="DDI-DrugBank.d42.s7.p12" e1="DDI-DrugBank.d42.s7.e3"
+            e2="DDI-DrugBank.d42.s7.e4" ddi="false"/>
+        <pair id="DDI-DrugBank.d42.s7.p13" e1="DDI-DrugBank.d42.s7.e3"
+            e2="DDI-DrugBank.d42.s7.e5" ddi="false"/>
+        <pair id="DDI-DrugBank.d42.s7.p14" e1="DDI-DrugBank.d42.s7.e4"
+            e2="DDI-DrugBank.d42.s7.e5" ddi="false"/>
+    </sentence>
+</document>

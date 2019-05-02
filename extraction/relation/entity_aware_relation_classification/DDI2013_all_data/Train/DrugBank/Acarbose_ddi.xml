@@ -1,0 +1,348 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="DDI-DrugBank.d536">
+    <sentence id="DDI-DrugBank.d536.s0" text="Certain drugs tend to produce hyperglycemia and may lead to loss of blood glucose control."/>
+    <sentence id="DDI-DrugBank.d536.s1" text="These drugs include the thiazides and other diuretics, corticosteroids, phenothiazines, thyroid products, estrogens, oral contraceptives, phenytoin, nicotinic acid, sympathomimetics, calcium channel-blocking drugs, and isoniazid.">
+        <entity id="DDI-DrugBank.d536.s1.e0" charOffset="24-32"
+            type="group" text="thiazides"/>
+        <entity id="DDI-DrugBank.d536.s1.e1" charOffset="44-52"
+            type="group" text="diuretics"/>
+        <entity id="DDI-DrugBank.d536.s1.e2" charOffset="55-69"
+            type="group" text="corticosteroids"/>
+        <entity id="DDI-DrugBank.d536.s1.e3" charOffset="72-85"
+            type="group" text="phenothiazines"/>
+        <entity id="DDI-DrugBank.d536.s1.e4" charOffset="88-103"
+            type="group" text="thyroid products"/>
+        <entity id="DDI-DrugBank.d536.s1.e5" charOffset="106-114"
+            type="group" text="estrogens"/>
+        <entity id="DDI-DrugBank.d536.s1.e6" charOffset="122-135"
+            type="group" text="contraceptives"/>
+        <entity id="DDI-DrugBank.d536.s1.e7" charOffset="138-146"
+            type="drug" text="phenytoin"/>
+        <entity id="DDI-DrugBank.d536.s1.e8" charOffset="149-162"
+            type="drug" text="nicotinic acid"/>
+        <entity id="DDI-DrugBank.d536.s1.e9" charOffset="165-180"
+            type="group" text="sympathomimetics"/>
+        <entity id="DDI-DrugBank.d536.s1.e10" charOffset="183-212"
+            type="group" text="calcium channel-blocking drugs"/>
+        <entity id="DDI-DrugBank.d536.s1.e11" charOffset="219-227"
+            type="drug" text="isoniazid"/>
+        <pair id="DDI-DrugBank.d536.s1.p0" e1="DDI-DrugBank.d536.s1.e0"
+            e2="DDI-DrugBank.d536.s1.e1" ddi="false"/>
+        <pair id="DDI-DrugBank.d536.s1.p1" e1="DDI-DrugBank.d536.s1.e0"
+            e2="DDI-DrugBank.d536.s1.e2" ddi="false"/>
+        <pair id="DDI-DrugBank.d536.s1.p2" e1="DDI-DrugBank.d536.s1.e0"
+            e2="DDI-DrugBank.d536.s1.e3" ddi="false"/>
+        <pair id="DDI-DrugBank.d536.s1.p3" e1="DDI-DrugBank.d536.s1.e0"
+            e2="DDI-DrugBank.d536.s1.e4" ddi="false"/>
+        <pair id="DDI-DrugBank.d536.s1.p4" e1="DDI-DrugBank.d536.s1.e0"
+            e2="DDI-DrugBank.d536.s1.e5" ddi="false"/>
+        <pair id="DDI-DrugBank.d536.s1.p5" e1="DDI-DrugBank.d536.s1.e0"
+            e2="DDI-DrugBank.d536.s1.e6" ddi="false"/>
+        <pair id="DDI-DrugBank.d536.s1.p6" e1="DDI-DrugBank.d536.s1.e0"
+            e2="DDI-DrugBank.d536.s1.e7" ddi="false"/>
+        <pair id="DDI-DrugBank.d536.s1.p7" e1="DDI-DrugBank.d536.s1.e0"
+            e2="DDI-DrugBank.d536.s1.e8" ddi="false"/>
+        <pair id="DDI-DrugBank.d536.s1.p8" e1="DDI-DrugBank.d536.s1.e0"
+            e2="DDI-DrugBank.d536.s1.e9" ddi="false"/>
+        <pair id="DDI-DrugBank.d536.s1.p9" e1="DDI-DrugBank.d536.s1.e0"
+            e2="DDI-DrugBank.d536.s1.e10" ddi="false"/>
+        <pair id="DDI-DrugBank.d536.s1.p10" e1="DDI-DrugBank.d536.s1.e0"
+            e2="DDI-DrugBank.d536.s1.e11" ddi="false"/>
+        <pair id="DDI-DrugBank.d536.s1.p11" e1="DDI-DrugBank.d536.s1.e1"
+            e2="DDI-DrugBank.d536.s1.e2" ddi="false"/>
+        <pair id="DDI-DrugBank.d536.s1.p12" e1="DDI-DrugBank.d536.s1.e1"
+            e2="DDI-DrugBank.d536.s1.e3" ddi="false"/>
+        <pair id="DDI-DrugBank.d536.s1.p13" e1="DDI-DrugBank.d536.s1.e1"
+            e2="DDI-DrugBank.d536.s1.e4" ddi="false"/>
+        <pair id="DDI-DrugBank.d536.s1.p14" e1="DDI-DrugBank.d536.s1.e1"
+            e2="DDI-DrugBank.d536.s1.e5" ddi="false"/>
+        <pair id="DDI-DrugBank.d536.s1.p15" e1="DDI-DrugBank.d536.s1.e1"
+            e2="DDI-DrugBank.d536.s1.e6" ddi="false"/>
+        <pair id="DDI-DrugBank.d536.s1.p16" e1="DDI-DrugBank.d536.s1.e1"
+            e2="DDI-DrugBank.d536.s1.e7" ddi="false"/>
+        <pair id="DDI-DrugBank.d536.s1.p17" e1="DDI-DrugBank.d536.s1.e1"
+            e2="DDI-DrugBank.d536.s1.e8" ddi="false"/>
+        <pair id="DDI-DrugBank.d536.s1.p18" e1="DDI-DrugBank.d536.s1.e1"
+            e2="DDI-DrugBank.d536.s1.e9" ddi="false"/>
+        <pair id="DDI-DrugBank.d536.s1.p19" e1="DDI-DrugBank.d536.s1.e1"
+            e2="DDI-DrugBank.d536.s1.e10" ddi="false"/>
+        <pair id="DDI-DrugBank.d536.s1.p20" e1="DDI-DrugBank.d536.s1.e1"
+            e2="DDI-DrugBank.d536.s1.e11" ddi="false"/>
+        <pair id="DDI-DrugBank.d536.s1.p21" e1="DDI-DrugBank.d536.s1.e2"
+            e2="DDI-DrugBank.d536.s1.e3" ddi="false"/>
+        <pair id="DDI-DrugBank.d536.s1.p22" e1="DDI-DrugBank.d536.s1.e2"
+            e2="DDI-DrugBank.d536.s1.e4" ddi="false"/>
+        <pair id="DDI-DrugBank.d536.s1.p23" e1="DDI-DrugBank.d536.s1.e2"
+            e2="DDI-DrugBank.d536.s1.e5" ddi="false"/>
+        <pair id="DDI-DrugBank.d536.s1.p24" e1="DDI-DrugBank.d536.s1.e2"
+            e2="DDI-DrugBank.d536.s1.e6" ddi="false"/>
+        <pair id="DDI-DrugBank.d536.s1.p25" e1="DDI-DrugBank.d536.s1.e2"
+            e2="DDI-DrugBank.d536.s1.e7" ddi="false"/>
+        <pair id="DDI-DrugBank.d536.s1.p26" e1="DDI-DrugBank.d536.s1.e2"
+            e2="DDI-DrugBank.d536.s1.e8" ddi="false"/>
+        <pair id="DDI-DrugBank.d536.s1.p27" e1="DDI-DrugBank.d536.s1.e2"
+            e2="DDI-DrugBank.d536.s1.e9" ddi="false"/>
+        <pair id="DDI-DrugBank.d536.s1.p28" e1="DDI-DrugBank.d536.s1.e2"
+            e2="DDI-DrugBank.d536.s1.e10" ddi="false"/>
+        <pair id="DDI-DrugBank.d536.s1.p29" e1="DDI-DrugBank.d536.s1.e2"
+            e2="DDI-DrugBank.d536.s1.e11" ddi="false"/>
+        <pair id="DDI-DrugBank.d536.s1.p30" e1="DDI-DrugBank.d536.s1.e3"
+            e2="DDI-DrugBank.d536.s1.e4" ddi="false"/>
+        <pair id="DDI-DrugBank.d536.s1.p31" e1="DDI-DrugBank.d536.s1.e3"
+            e2="DDI-DrugBank.d536.s1.e5" ddi="false"/>
+        <pair id="DDI-DrugBank.d536.s1.p32" e1="DDI-DrugBank.d536.s1.e3"
+            e2="DDI-DrugBank.d536.s1.e6" ddi="false"/>
+        <pair id="DDI-DrugBank.d536.s1.p33" e1="DDI-DrugBank.d536.s1.e3"
+            e2="DDI-DrugBank.d536.s1.e7" ddi="false"/>
+        <pair id="DDI-DrugBank.d536.s1.p34" e1="DDI-DrugBank.d536.s1.e3"
+            e2="DDI-DrugBank.d536.s1.e8" ddi="false"/>
+        <pair id="DDI-DrugBank.d536.s1.p35" e1="DDI-DrugBank.d536.s1.e3"
+            e2="DDI-DrugBank.d536.s1.e9" ddi="false"/>
+        <pair id="DDI-DrugBank.d536.s1.p36" e1="DDI-DrugBank.d536.s1.e3"
+            e2="DDI-DrugBank.d536.s1.e10" ddi="false"/>
+        <pair id="DDI-DrugBank.d536.s1.p37" e1="DDI-DrugBank.d536.s1.e3"
+            e2="DDI-DrugBank.d536.s1.e11" ddi="false"/>
+        <pair id="DDI-DrugBank.d536.s1.p38" e1="DDI-DrugBank.d536.s1.e4"
+            e2="DDI-DrugBank.d536.s1.e5" ddi="false"/>
+        <pair id="DDI-DrugBank.d536.s1.p39" e1="DDI-DrugBank.d536.s1.e4"
+            e2="DDI-DrugBank.d536.s1.e6" ddi="false"/>
+        <pair id="DDI-DrugBank.d536.s1.p40" e1="DDI-DrugBank.d536.s1.e4"
+            e2="DDI-DrugBank.d536.s1.e7" ddi="false"/>
+        <pair id="DDI-DrugBank.d536.s1.p41" e1="DDI-DrugBank.d536.s1.e4"
+            e2="DDI-DrugBank.d536.s1.e8" ddi="false"/>
+        <pair id="DDI-DrugBank.d536.s1.p42" e1="DDI-DrugBank.d536.s1.e4"
+            e2="DDI-DrugBank.d536.s1.e9" ddi="false"/>
+        <pair id="DDI-DrugBank.d536.s1.p43" e1="DDI-DrugBank.d536.s1.e4"
+            e2="DDI-DrugBank.d536.s1.e10" ddi="false"/>
+        <pair id="DDI-DrugBank.d536.s1.p44" e1="DDI-DrugBank.d536.s1.e4"
+            e2="DDI-DrugBank.d536.s1.e11" ddi="false"/>
+        <pair id="DDI-DrugBank.d536.s1.p45" e1="DDI-DrugBank.d536.s1.e5"
+            e2="DDI-DrugBank.d536.s1.e6" ddi="false"/>
+        <pair id="DDI-DrugBank.d536.s1.p46" e1="DDI-DrugBank.d536.s1.e5"
+            e2="DDI-DrugBank.d536.s1.e7" ddi="false"/>
+        <pair id="DDI-DrugBank.d536.s1.p47" e1="DDI-DrugBank.d536.s1.e5"
+            e2="DDI-DrugBank.d536.s1.e8" ddi="false"/>
+        <pair id="DDI-DrugBank.d536.s1.p48" e1="DDI-DrugBank.d536.s1.e5"
+            e2="DDI-DrugBank.d536.s1.e9" ddi="false"/>
+        <pair id="DDI-DrugBank.d536.s1.p49" e1="DDI-DrugBank.d536.s1.e5"
+            e2="DDI-DrugBank.d536.s1.e10" ddi="false"/>
+        <pair id="DDI-DrugBank.d536.s1.p50" e1="DDI-DrugBank.d536.s1.e5"
+            e2="DDI-DrugBank.d536.s1.e11" ddi="false"/>
+        <pair id="DDI-DrugBank.d536.s1.p51" e1="DDI-DrugBank.d536.s1.e6"
+            e2="DDI-DrugBank.d536.s1.e7" ddi="false"/>
+        <pair id="DDI-DrugBank.d536.s1.p52" e1="DDI-DrugBank.d536.s1.e6"
+            e2="DDI-DrugBank.d536.s1.e8" ddi="false"/>
+        <pair id="DDI-DrugBank.d536.s1.p53" e1="DDI-DrugBank.d536.s1.e6"
+            e2="DDI-DrugBank.d536.s1.e9" ddi="false"/>
+        <pair id="DDI-DrugBank.d536.s1.p54" e1="DDI-DrugBank.d536.s1.e6"
+            e2="DDI-DrugBank.d536.s1.e10" ddi="false"/>
+        <pair id="DDI-DrugBank.d536.s1.p55" e1="DDI-DrugBank.d536.s1.e6"
+            e2="DDI-DrugBank.d536.s1.e11" ddi="false"/>
+        <pair id="DDI-DrugBank.d536.s1.p56" e1="DDI-DrugBank.d536.s1.e7"
+            e2="DDI-DrugBank.d536.s1.e8" ddi="false"/>
+        <pair id="DDI-DrugBank.d536.s1.p57" e1="DDI-DrugBank.d536.s1.e7"
+            e2="DDI-DrugBank.d536.s1.e9" ddi="false"/>
+        <pair id="DDI-DrugBank.d536.s1.p58" e1="DDI-DrugBank.d536.s1.e7"
+            e2="DDI-DrugBank.d536.s1.e10" ddi="false"/>
+        <pair id="DDI-DrugBank.d536.s1.p59" e1="DDI-DrugBank.d536.s1.e7"
+            e2="DDI-DrugBank.d536.s1.e11" ddi="false"/>
+        <pair id="DDI-DrugBank.d536.s1.p60" e1="DDI-DrugBank.d536.s1.e8"
+            e2="DDI-DrugBank.d536.s1.e9" ddi="false"/>
+        <pair id="DDI-DrugBank.d536.s1.p61" e1="DDI-DrugBank.d536.s1.e8"
+            e2="DDI-DrugBank.d536.s1.e10" ddi="false"/>
+        <pair id="DDI-DrugBank.d536.s1.p62" e1="DDI-DrugBank.d536.s1.e8"
+            e2="DDI-DrugBank.d536.s1.e11" ddi="false"/>
+        <pair id="DDI-DrugBank.d536.s1.p63" e1="DDI-DrugBank.d536.s1.e9"
+            e2="DDI-DrugBank.d536.s1.e10" ddi="false"/>
+        <pair id="DDI-DrugBank.d536.s1.p64" e1="DDI-DrugBank.d536.s1.e9"
+            e2="DDI-DrugBank.d536.s1.e11" ddi="false"/>
+        <pair id="DDI-DrugBank.d536.s1.p65"
+            e1="DDI-DrugBank.d536.s1.e10" e2="DDI-DrugBank.d536.s1.e11" ddi="false"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d536.s2" text="When such drugs are administered to a patient receiving Acarbose, the patient should be closely observed for loss of blood glucose control.">
+        <entity id="DDI-DrugBank.d536.s2.e0" charOffset="56-63"
+            type="drug" text="Acarbose"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d536.s3" text="When such drugs are withdrawn from patients receiving Acarbose in combination with sulfonylureas or insulin, patients should be observed closely for any evidence of hypoglycemia.">
+        <entity id="DDI-DrugBank.d536.s3.e0" charOffset="54-61"
+            type="drug" text="Acarbose"/>
+        <entity id="DDI-DrugBank.d536.s3.e1" charOffset="83-95"
+            type="group" text="sulfonylureas"/>
+        <entity id="DDI-DrugBank.d536.s3.e2" charOffset="100-106"
+            type="drug" text="insulin"/>
+        <pair id="DDI-DrugBank.d536.s3.p0" e1="DDI-DrugBank.d536.s3.e0"
+            e2="DDI-DrugBank.d536.s3.e1" ddi="false"/>
+        <pair id="DDI-DrugBank.d536.s3.p1" e1="DDI-DrugBank.d536.s3.e0"
+            e2="DDI-DrugBank.d536.s3.e2" ddi="false"/>
+        <pair id="DDI-DrugBank.d536.s3.p2" e1="DDI-DrugBank.d536.s3.e1"
+            e2="DDI-DrugBank.d536.s3.e2" ddi="false"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d536.s4" text="Intestinal adsorbents (e. g., charcoal) and digestive enzyme preparations containing carbohydrate-splitting enzymes (e. g., amylase, pancreatin) may reduce the effect of Acarbose and should not be taken concomitantly.">
+        <entity id="DDI-DrugBank.d536.s4.e0" charOffset="0-20"
+            type="group" text="Intestinal adsorbents"/>
+        <entity id="DDI-DrugBank.d536.s4.e1" charOffset="30-37"
+            type="drug" text="charcoal"/>
+        <entity id="DDI-DrugBank.d536.s4.e2" charOffset="44-72"
+            type="group" text="digestive enzyme preparations"/>
+        <entity id="DDI-DrugBank.d536.s4.e3" charOffset="124-130"
+            type="drug" text="amylase"/>
+        <entity id="DDI-DrugBank.d536.s4.e4" charOffset="133-142"
+            type="drug" text="pancreatin"/>
+        <entity id="DDI-DrugBank.d536.s4.e5" charOffset="170-177"
+            type="drug" text="Acarbose"/>
+        <pair id="DDI-DrugBank.d536.s4.p0" e1="DDI-DrugBank.d536.s4.e0"
+            e2="DDI-DrugBank.d536.s4.e1" ddi="false"/>
+        <pair id="DDI-DrugBank.d536.s4.p1" e1="DDI-DrugBank.d536.s4.e0"
+            e2="DDI-DrugBank.d536.s4.e2" ddi="false"/>
+        <pair id="DDI-DrugBank.d536.s4.p2" e1="DDI-DrugBank.d536.s4.e0"
+            e2="DDI-DrugBank.d536.s4.e3" ddi="false"/>
+        <pair id="DDI-DrugBank.d536.s4.p3" e1="DDI-DrugBank.d536.s4.e0"
+            e2="DDI-DrugBank.d536.s4.e4" ddi="false"/>
+        <pair id="DDI-DrugBank.d536.s4.p4" e1="DDI-DrugBank.d536.s4.e0"
+            e2="DDI-DrugBank.d536.s4.e5" ddi="true" type="mechanism"/>
+        <pair id="DDI-DrugBank.d536.s4.p5" e1="DDI-DrugBank.d536.s4.e1"
+            e2="DDI-DrugBank.d536.s4.e2" ddi="false"/>
+        <pair id="DDI-DrugBank.d536.s4.p6" e1="DDI-DrugBank.d536.s4.e1"
+            e2="DDI-DrugBank.d536.s4.e3" ddi="false"/>
+        <pair id="DDI-DrugBank.d536.s4.p7" e1="DDI-DrugBank.d536.s4.e1"
+            e2="DDI-DrugBank.d536.s4.e4" ddi="false"/>
+        <pair id="DDI-DrugBank.d536.s4.p8" e1="DDI-DrugBank.d536.s4.e1"
+            e2="DDI-DrugBank.d536.s4.e5" ddi="true" type="mechanism"/>
+        <pair id="DDI-DrugBank.d536.s4.p9" e1="DDI-DrugBank.d536.s4.e2"
+            e2="DDI-DrugBank.d536.s4.e3" ddi="false"/>
+        <pair id="DDI-DrugBank.d536.s4.p10" e1="DDI-DrugBank.d536.s4.e2"
+            e2="DDI-DrugBank.d536.s4.e4" ddi="false"/>
+        <pair id="DDI-DrugBank.d536.s4.p11" e1="DDI-DrugBank.d536.s4.e2"
+            e2="DDI-DrugBank.d536.s4.e5" ddi="false"/>
+        <pair id="DDI-DrugBank.d536.s4.p12" e1="DDI-DrugBank.d536.s4.e3"
+            e2="DDI-DrugBank.d536.s4.e4" ddi="false"/>
+        <pair id="DDI-DrugBank.d536.s4.p13" e1="DDI-DrugBank.d536.s4.e3"
+            e2="DDI-DrugBank.d536.s4.e5" ddi="true" type="mechanism"/>
+        <pair id="DDI-DrugBank.d536.s4.p14" e1="DDI-DrugBank.d536.s4.e4"
+            e2="DDI-DrugBank.d536.s4.e5" ddi="true" type="mechanism"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d536.s5" text="Acarbose has been shown to change the bioavailabillty digoxin when they are co-administered, which may require digoxin dose adjustment.">
+        <entity id="DDI-DrugBank.d536.s5.e0" charOffset="0-7"
+            type="drug" text="Acarbose"/>
+        <entity id="DDI-DrugBank.d536.s5.e1" charOffset="54-60"
+            type="drug" text="digoxin"/>
+        <entity id="DDI-DrugBank.d536.s5.e2" charOffset="111-117"
+            type="drug" text="digoxin"/>
+        <pair id="DDI-DrugBank.d536.s5.p0" e1="DDI-DrugBank.d536.s5.e0"
+            e2="DDI-DrugBank.d536.s5.e1" ddi="true" type="mechanism"/>
+        <pair id="DDI-DrugBank.d536.s5.p1" e1="DDI-DrugBank.d536.s5.e0"
+            e2="DDI-DrugBank.d536.s5.e2" ddi="false"/>
+        <pair id="DDI-DrugBank.d536.s5.p2" e1="DDI-DrugBank.d536.s5.e1"
+            e2="DDI-DrugBank.d536.s5.e2" ddi="false"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d536.s6" text="Studies in healthy volunteers have shown that Acarbose has no effect on either the pharmacokinetics or pharmacodynamics of digoxin, nifedipine, propranolol, or ranitidine.">
+        <entity id="DDI-DrugBank.d536.s6.e0" charOffset="46-53"
+            type="drug" text="Acarbose"/>
+        <entity id="DDI-DrugBank.d536.s6.e1" charOffset="123-129"
+            type="drug" text="digoxin"/>
+        <entity id="DDI-DrugBank.d536.s6.e2" charOffset="132-141"
+            type="drug" text="nifedipine"/>
+        <entity id="DDI-DrugBank.d536.s6.e3" charOffset="144-154"
+            type="drug" text="propranolol"/>
+        <entity id="DDI-DrugBank.d536.s6.e4" charOffset="160-169"
+            type="drug" text="ranitidine"/>
+        <pair id="DDI-DrugBank.d536.s6.p0" e1="DDI-DrugBank.d536.s6.e0"
+            e2="DDI-DrugBank.d536.s6.e1" ddi="false"/>
+        <pair id="DDI-DrugBank.d536.s6.p1" e1="DDI-DrugBank.d536.s6.e0"
+            e2="DDI-DrugBank.d536.s6.e2" ddi="false"/>
+        <pair id="DDI-DrugBank.d536.s6.p2" e1="DDI-DrugBank.d536.s6.e0"
+            e2="DDI-DrugBank.d536.s6.e3" ddi="false"/>
+        <pair id="DDI-DrugBank.d536.s6.p3" e1="DDI-DrugBank.d536.s6.e0"
+            e2="DDI-DrugBank.d536.s6.e4" ddi="false"/>
+        <pair id="DDI-DrugBank.d536.s6.p4" e1="DDI-DrugBank.d536.s6.e1"
+            e2="DDI-DrugBank.d536.s6.e2" ddi="false"/>
+        <pair id="DDI-DrugBank.d536.s6.p5" e1="DDI-DrugBank.d536.s6.e1"
+            e2="DDI-DrugBank.d536.s6.e3" ddi="false"/>
+        <pair id="DDI-DrugBank.d536.s6.p6" e1="DDI-DrugBank.d536.s6.e1"
+            e2="DDI-DrugBank.d536.s6.e4" ddi="false"/>
+        <pair id="DDI-DrugBank.d536.s6.p7" e1="DDI-DrugBank.d536.s6.e2"
+            e2="DDI-DrugBank.d536.s6.e3" ddi="false"/>
+        <pair id="DDI-DrugBank.d536.s6.p8" e1="DDI-DrugBank.d536.s6.e2"
+            e2="DDI-DrugBank.d536.s6.e4" ddi="false"/>
+        <pair id="DDI-DrugBank.d536.s6.p9" e1="DDI-DrugBank.d536.s6.e3"
+            e2="DDI-DrugBank.d536.s6.e4" ddi="false"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d536.s7" text="Acarbose did not interfere with the absorption or disposition of the sulfonylurea glyburide in diabetic patients.">
+        <entity id="DDI-DrugBank.d536.s7.e0" charOffset="0-7"
+            type="drug" text="Acarbose"/>
+        <entity id="DDI-DrugBank.d536.s7.e1" charOffset="69-80"
+            type="drug" text="sulfonylurea"/>
+        <entity id="DDI-DrugBank.d536.s7.e2" charOffset="82-90"
+            type="drug" text="glyburide"/>
+        <pair id="DDI-DrugBank.d536.s7.p0" e1="DDI-DrugBank.d536.s7.e0"
+            e2="DDI-DrugBank.d536.s7.e1" ddi="false"/>
+        <pair id="DDI-DrugBank.d536.s7.p1" e1="DDI-DrugBank.d536.s7.e0"
+            e2="DDI-DrugBank.d536.s7.e2" ddi="false"/>
+        <pair id="DDI-DrugBank.d536.s7.p2" e1="DDI-DrugBank.d536.s7.e1"
+            e2="DDI-DrugBank.d536.s7.e2" ddi="false"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d536.s8" text="Acarbose may affect digoxin bioavailabillty and may require dose adjustment of digoxin by 16% (90% confidence interval: 8-23%), decrease mean C max digoxin by 26% (90% confidence interval: 16-34%) and decrease mean trough concentrations of digoxin by 9% (90% confidence limit: 19% decrease to 2% increase).">
+        <entity id="DDI-DrugBank.d536.s8.e0" charOffset="0-7"
+            type="drug" text="Acarbose"/>
+        <entity id="DDI-DrugBank.d536.s8.e1" charOffset="20-26"
+            type="drug" text="digoxin"/>
+        <entity id="DDI-DrugBank.d536.s8.e2" charOffset="79-85"
+            type="drug" text="digoxin"/>
+        <entity id="DDI-DrugBank.d536.s8.e3" charOffset="148-154"
+            type="drug" text="digoxin"/>
+        <entity id="DDI-DrugBank.d536.s8.e4" charOffset="240-246"
+            type="drug" text="digoxin"/>
+        <pair id="DDI-DrugBank.d536.s8.p0" e1="DDI-DrugBank.d536.s8.e0"
+            e2="DDI-DrugBank.d536.s8.e1" ddi="false"/>
+        <pair id="DDI-DrugBank.d536.s8.p1" e1="DDI-DrugBank.d536.s8.e0"
+            e2="DDI-DrugBank.d536.s8.e2" ddi="false"/>
+        <pair id="DDI-DrugBank.d536.s8.p2" e1="DDI-DrugBank.d536.s8.e0"
+            e2="DDI-DrugBank.d536.s8.e3" ddi="false"/>
+        <pair id="DDI-DrugBank.d536.s8.p3" e1="DDI-DrugBank.d536.s8.e0"
+            e2="DDI-DrugBank.d536.s8.e4" ddi="false"/>
+        <pair id="DDI-DrugBank.d536.s8.p4" e1="DDI-DrugBank.d536.s8.e1"
+            e2="DDI-DrugBank.d536.s8.e2" ddi="false"/>
+        <pair id="DDI-DrugBank.d536.s8.p5" e1="DDI-DrugBank.d536.s8.e1"
+            e2="DDI-DrugBank.d536.s8.e3" ddi="false"/>
+        <pair id="DDI-DrugBank.d536.s8.p6" e1="DDI-DrugBank.d536.s8.e1"
+            e2="DDI-DrugBank.d536.s8.e4" ddi="false"/>
+        <pair id="DDI-DrugBank.d536.s8.p7" e1="DDI-DrugBank.d536.s8.e2"
+            e2="DDI-DrugBank.d536.s8.e3" ddi="false"/>
+        <pair id="DDI-DrugBank.d536.s8.p8" e1="DDI-DrugBank.d536.s8.e2"
+            e2="DDI-DrugBank.d536.s8.e4" ddi="false"/>
+        <pair id="DDI-DrugBank.d536.s8.p9" e1="DDI-DrugBank.d536.s8.e3"
+            e2="DDI-DrugBank.d536.s8.e4" ddi="false"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d536.s9" text="The amount of metformin absorbed while taking Acarbose was bioequivalent to the amount absorbed when taking placebo, as indicated by the plasma AUC values.">
+        <entity id="DDI-DrugBank.d536.s9.e0" charOffset="14-22"
+            type="drug" text="metformin"/>
+        <entity id="DDI-DrugBank.d536.s9.e1" charOffset="46-53"
+            type="drug" text="Acarbose"/>
+        <pair id="DDI-DrugBank.d536.s9.p0" e1="DDI-DrugBank.d536.s9.e0"
+            e2="DDI-DrugBank.d536.s9.e1" ddi="false"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d536.s10" text="However, the peak plasma level of metformin was reduced by approximately 20% when taking Acarbose due to a slight delay in the absorption of metformin.">
+        <entity id="DDI-DrugBank.d536.s10.e0" charOffset="34-42"
+            type="drug" text="metformin"/>
+        <entity id="DDI-DrugBank.d536.s10.e1" charOffset="89-96"
+            type="drug" text="Acarbose"/>
+        <entity id="DDI-DrugBank.d536.s10.e2" charOffset="141-149"
+            type="drug" text="metformin"/>
+        <pair id="DDI-DrugBank.d536.s10.p0"
+            e1="DDI-DrugBank.d536.s10.e0" e2="DDI-DrugBank.d536.s10.e1"
+            ddi="true" type="mechanism"/>
+        <pair id="DDI-DrugBank.d536.s10.p1"
+            e1="DDI-DrugBank.d536.s10.e0" e2="DDI-DrugBank.d536.s10.e2" ddi="false"/>
+        <pair id="DDI-DrugBank.d536.s10.p2"
+            e1="DDI-DrugBank.d536.s10.e1" e2="DDI-DrugBank.d536.s10.e2"
+            ddi="true" type="mechanism"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d536.s11" text="There is little if any clinically significant interaction between Acarbose and metformin.">
+        <entity id="DDI-DrugBank.d536.s11.e0" charOffset="66-73"
+            type="drug" text="Acarbose"/>
+        <entity id="DDI-DrugBank.d536.s11.e1" charOffset="79-87"
+            type="drug" text="metformin"/>
+        <pair id="DDI-DrugBank.d536.s11.p0"
+            e1="DDI-DrugBank.d536.s11.e0" e2="DDI-DrugBank.d536.s11.e1" ddi="false"/>
+    </sentence>
+</document>

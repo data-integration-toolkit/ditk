@@ -1,0 +1,274 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="DDI-DrugBank.d288">
+    <sentence id="DDI-DrugBank.d288.s0" text="In a Phase I trial using escalating doses of TAXOL (110-200 mg/m2) and cisplatin (50 or 75 mg/m2) given as sequential infusions, myelosuppression was more profound when TAXOL was given after cisplatin than with the alternate sequence (ie, TAXOL before cisplatin).">
+        <entity id="DDI-DrugBank.d288.s0.e0" charOffset="45-49"
+            type="brand" text="TAXOL"/>
+        <entity id="DDI-DrugBank.d288.s0.e1" charOffset="71-79"
+            type="drug" text="cisplatin"/>
+        <entity id="DDI-DrugBank.d288.s0.e2" charOffset="169-173"
+            type="brand" text="TAXOL"/>
+        <entity id="DDI-DrugBank.d288.s0.e3" charOffset="191-199"
+            type="drug" text="cisplatin"/>
+        <entity id="DDI-DrugBank.d288.s0.e4" charOffset="239-243"
+            type="brand" text="TAXOL"/>
+        <entity id="DDI-DrugBank.d288.s0.e5" charOffset="252-260"
+            type="drug" text="cisplatin"/>
+        <pair id="DDI-DrugBank.d288.s0.p0" e1="DDI-DrugBank.d288.s0.e0"
+            e2="DDI-DrugBank.d288.s0.e1" ddi="false"/>
+        <pair id="DDI-DrugBank.d288.s0.p1" e1="DDI-DrugBank.d288.s0.e0"
+            e2="DDI-DrugBank.d288.s0.e2" ddi="false"/>
+        <pair id="DDI-DrugBank.d288.s0.p2" e1="DDI-DrugBank.d288.s0.e0"
+            e2="DDI-DrugBank.d288.s0.e3" ddi="false"/>
+        <pair id="DDI-DrugBank.d288.s0.p3" e1="DDI-DrugBank.d288.s0.e0"
+            e2="DDI-DrugBank.d288.s0.e4" ddi="false"/>
+        <pair id="DDI-DrugBank.d288.s0.p4" e1="DDI-DrugBank.d288.s0.e0"
+            e2="DDI-DrugBank.d288.s0.e5" ddi="false"/>
+        <pair id="DDI-DrugBank.d288.s0.p5" e1="DDI-DrugBank.d288.s0.e1"
+            e2="DDI-DrugBank.d288.s0.e2" ddi="false"/>
+        <pair id="DDI-DrugBank.d288.s0.p6" e1="DDI-DrugBank.d288.s0.e1"
+            e2="DDI-DrugBank.d288.s0.e3" ddi="false"/>
+        <pair id="DDI-DrugBank.d288.s0.p7" e1="DDI-DrugBank.d288.s0.e1"
+            e2="DDI-DrugBank.d288.s0.e4" ddi="false"/>
+        <pair id="DDI-DrugBank.d288.s0.p8" e1="DDI-DrugBank.d288.s0.e1"
+            e2="DDI-DrugBank.d288.s0.e5" ddi="false"/>
+        <pair id="DDI-DrugBank.d288.s0.p9" e1="DDI-DrugBank.d288.s0.e2"
+            e2="DDI-DrugBank.d288.s0.e3" ddi="true" type="effect"/>
+        <pair id="DDI-DrugBank.d288.s0.p10" e1="DDI-DrugBank.d288.s0.e2"
+            e2="DDI-DrugBank.d288.s0.e4" ddi="false"/>
+        <pair id="DDI-DrugBank.d288.s0.p11" e1="DDI-DrugBank.d288.s0.e2"
+            e2="DDI-DrugBank.d288.s0.e5" ddi="false"/>
+        <pair id="DDI-DrugBank.d288.s0.p12" e1="DDI-DrugBank.d288.s0.e3"
+            e2="DDI-DrugBank.d288.s0.e4" ddi="false"/>
+        <pair id="DDI-DrugBank.d288.s0.p13" e1="DDI-DrugBank.d288.s0.e3"
+            e2="DDI-DrugBank.d288.s0.e5" ddi="false"/>
+        <pair id="DDI-DrugBank.d288.s0.p14" e1="DDI-DrugBank.d288.s0.e4"
+            e2="DDI-DrugBank.d288.s0.e5" ddi="false"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d288.s1" text="Pharmacokinetic data from these patients demonstrated a decrease in paclitaxel clearance of approximately 33% when TAXOL was administered following cisplatin.">
+        <entity id="DDI-DrugBank.d288.s1.e0" charOffset="68-77"
+            type="drug" text="paclitaxel"/>
+        <entity id="DDI-DrugBank.d288.s1.e1" charOffset="115-119"
+            type="brand" text="TAXOL"/>
+        <entity id="DDI-DrugBank.d288.s1.e2" charOffset="148-156"
+            type="drug" text="cisplatin"/>
+        <pair id="DDI-DrugBank.d288.s1.p0" e1="DDI-DrugBank.d288.s1.e0"
+            e2="DDI-DrugBank.d288.s1.e1" ddi="false"/>
+        <pair id="DDI-DrugBank.d288.s1.p1" e1="DDI-DrugBank.d288.s1.e0"
+            e2="DDI-DrugBank.d288.s1.e2" ddi="false"/>
+        <pair id="DDI-DrugBank.d288.s1.p2" e1="DDI-DrugBank.d288.s1.e1"
+            e2="DDI-DrugBank.d288.s1.e2" ddi="true" type="mechanism"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d288.s2" text="The metabolism of TAXOL is catalyzed by cytochrome P450 isoen-zymes CYP2C8 and CYP3A4.">
+        <entity id="DDI-DrugBank.d288.s2.e0" charOffset="18-22"
+            type="brand" text="TAXOL"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d288.s3" text="In the absence of formal clinical drug interaction studies, caution should be exercised when administering TAXOL concomitantly with known substrates or inhibitors of the cytochrome P450 isoenzymes CYP2C8 and CYP3A4.">
+        <entity id="DDI-DrugBank.d288.s3.e0" charOffset="107-111"
+            type="brand" text="TAXOL"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d288.s4" text="Potential interactions between TAXOL, a substrate of CYP3A4, and protease inhibitors (ritonavir, saquinavir, indinavir, and nelfinavir), which are substrates and/or inhibitors of CYP3A4, have not been evaluated in clinical trials.">
+        <entity id="DDI-DrugBank.d288.s4.e0" charOffset="31-35"
+            type="brand" text="TAXOL"/>
+        <entity id="DDI-DrugBank.d288.s4.e1" charOffset="65-83"
+            type="group" text="protease inhibitors"/>
+        <entity id="DDI-DrugBank.d288.s4.e2" charOffset="86-94"
+            type="drug" text="ritonavir"/>
+        <entity id="DDI-DrugBank.d288.s4.e3" charOffset="97-106"
+            type="drug" text="saquinavir"/>
+        <entity id="DDI-DrugBank.d288.s4.e4" charOffset="109-117"
+            type="drug" text="indinavir"/>
+        <entity id="DDI-DrugBank.d288.s4.e5" charOffset="124-133"
+            type="drug" text="nelfinavir"/>
+        <pair id="DDI-DrugBank.d288.s4.p0" e1="DDI-DrugBank.d288.s4.e0"
+            e2="DDI-DrugBank.d288.s4.e1" ddi="false"/>
+        <pair id="DDI-DrugBank.d288.s4.p1" e1="DDI-DrugBank.d288.s4.e0"
+            e2="DDI-DrugBank.d288.s4.e2" ddi="false"/>
+        <pair id="DDI-DrugBank.d288.s4.p2" e1="DDI-DrugBank.d288.s4.e0"
+            e2="DDI-DrugBank.d288.s4.e3" ddi="false"/>
+        <pair id="DDI-DrugBank.d288.s4.p3" e1="DDI-DrugBank.d288.s4.e0"
+            e2="DDI-DrugBank.d288.s4.e4" ddi="false"/>
+        <pair id="DDI-DrugBank.d288.s4.p4" e1="DDI-DrugBank.d288.s4.e0"
+            e2="DDI-DrugBank.d288.s4.e5" ddi="false"/>
+        <pair id="DDI-DrugBank.d288.s4.p5" e1="DDI-DrugBank.d288.s4.e1"
+            e2="DDI-DrugBank.d288.s4.e2" ddi="false"/>
+        <pair id="DDI-DrugBank.d288.s4.p6" e1="DDI-DrugBank.d288.s4.e1"
+            e2="DDI-DrugBank.d288.s4.e3" ddi="false"/>
+        <pair id="DDI-DrugBank.d288.s4.p7" e1="DDI-DrugBank.d288.s4.e1"
+            e2="DDI-DrugBank.d288.s4.e4" ddi="false"/>
+        <pair id="DDI-DrugBank.d288.s4.p8" e1="DDI-DrugBank.d288.s4.e1"
+            e2="DDI-DrugBank.d288.s4.e5" ddi="false"/>
+        <pair id="DDI-DrugBank.d288.s4.p9" e1="DDI-DrugBank.d288.s4.e2"
+            e2="DDI-DrugBank.d288.s4.e3" ddi="false"/>
+        <pair id="DDI-DrugBank.d288.s4.p10" e1="DDI-DrugBank.d288.s4.e2"
+            e2="DDI-DrugBank.d288.s4.e4" ddi="false"/>
+        <pair id="DDI-DrugBank.d288.s4.p11" e1="DDI-DrugBank.d288.s4.e2"
+            e2="DDI-DrugBank.d288.s4.e5" ddi="false"/>
+        <pair id="DDI-DrugBank.d288.s4.p12" e1="DDI-DrugBank.d288.s4.e3"
+            e2="DDI-DrugBank.d288.s4.e4" ddi="false"/>
+        <pair id="DDI-DrugBank.d288.s4.p13" e1="DDI-DrugBank.d288.s4.e3"
+            e2="DDI-DrugBank.d288.s4.e5" ddi="false"/>
+        <pair id="DDI-DrugBank.d288.s4.p14" e1="DDI-DrugBank.d288.s4.e4"
+            e2="DDI-DrugBank.d288.s4.e5" ddi="false"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d288.s5" text="Reports in the literature suggest that plasma levels of doxorubicin (and its active metabolite doxorubicinol) may be increased when paclitaxel and doxorubicin are used in combination.">
+        <entity id="DDI-DrugBank.d288.s5.e0" charOffset="56-66"
+            type="drug" text="doxorubicin"/>
+        <entity id="DDI-DrugBank.d288.s5.e1" charOffset="95-107"
+            type="drug_n" text="doxorubicinol"/>
+        <entity id="DDI-DrugBank.d288.s5.e2" charOffset="132-141"
+            type="drug" text="paclitaxel"/>
+        <entity id="DDI-DrugBank.d288.s5.e3" charOffset="147-157"
+            type="drug" text="doxorubicin"/>
+        <pair id="DDI-DrugBank.d288.s5.p0" e1="DDI-DrugBank.d288.s5.e0"
+            e2="DDI-DrugBank.d288.s5.e1" ddi="false"/>
+        <pair id="DDI-DrugBank.d288.s5.p1" e1="DDI-DrugBank.d288.s5.e0"
+            e2="DDI-DrugBank.d288.s5.e2" ddi="false"/>
+        <pair id="DDI-DrugBank.d288.s5.p2" e1="DDI-DrugBank.d288.s5.e0"
+            e2="DDI-DrugBank.d288.s5.e3" ddi="false"/>
+        <pair id="DDI-DrugBank.d288.s5.p3" e1="DDI-DrugBank.d288.s5.e1"
+            e2="DDI-DrugBank.d288.s5.e2" ddi="false"/>
+        <pair id="DDI-DrugBank.d288.s5.p4" e1="DDI-DrugBank.d288.s5.e1"
+            e2="DDI-DrugBank.d288.s5.e3" ddi="false"/>
+        <pair id="DDI-DrugBank.d288.s5.p5" e1="DDI-DrugBank.d288.s5.e2"
+            e2="DDI-DrugBank.d288.s5.e3" ddi="true" type="mechanism"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d288.s6" text="Hematology: TAXOL therapy should not be administered to patients with baseline neutrophil counts of less than 1,500 cells/mm3.">
+        <entity id="DDI-DrugBank.d288.s6.e0" charOffset="12-16"
+            type="brand" text="TAXOL"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d288.s7" text="In order to monitor the occurrence of myelotoxicity, it is recommended that frequent peripheral blood cell counts be performed on all patients receiving TAXOL.">
+        <entity id="DDI-DrugBank.d288.s7.e0" charOffset="153-157"
+            type="brand" text="TAXOL"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d288.s8" text="Patients should not be re-treated with subsequent cycles of TAXOL until neutrophils recover to a level  1500 cells/mm3 and platelets recover to a level  100,000 cells/mm3.">
+        <entity id="DDI-DrugBank.d288.s8.e0" charOffset="60-64"
+            type="brand" text="TAXOL"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d288.s9" text="In the case of severe neutropenia ( 500 cells/mm3 for seven days or more) during a course of TAXOL therapy, a 20% reduction in dose for subsequent courses of therapy is recommended.">
+        <entity id="DDI-DrugBank.d288.s9.e0" charOffset="93-97"
+            type="brand" text="TAXOL"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d288.s10" text="For patients with advanced HIV disease and poor-risk AIDS-related Kaposi s sarcoma, TAXOL, at the recommended dose for this disease, can be initiated and repeated if the neutrophil count is at least 1000 cells/mm3.">
+        <entity id="DDI-DrugBank.d288.s10.e0" charOffset="84-88"
+            type="brand" text="TAXOL"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d288.s11" text="Hypersensitivity Reactions: Patients with a history of severe hypersensitivity reactions to products containing Cremophor  EL (eg, cyclosporin for injection concentrate and teniposide for injection concentrate) should not be treated with TAXOL.">
+        <entity id="DDI-DrugBank.d288.s11.e0" charOffset="131-141"
+            type="drug" text="cyclosporin"/>
+        <entity id="DDI-DrugBank.d288.s11.e1" charOffset="173-182"
+            type="drug" text="teniposide"/>
+        <entity id="DDI-DrugBank.d288.s11.e2" charOffset="238-242"
+            type="brand" text="TAXOL"/>
+        <pair id="DDI-DrugBank.d288.s11.p0"
+            e1="DDI-DrugBank.d288.s11.e0" e2="DDI-DrugBank.d288.s11.e1" ddi="false"/>
+        <pair id="DDI-DrugBank.d288.s11.p1"
+            e1="DDI-DrugBank.d288.s11.e0" e2="DDI-DrugBank.d288.s11.e2"
+            ddi="true" type="advise"/>
+        <pair id="DDI-DrugBank.d288.s11.p2"
+            e1="DDI-DrugBank.d288.s11.e1" e2="DDI-DrugBank.d288.s11.e2"
+            ddi="true" type="advise"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d288.s12" text="In order to avoid the occurrence of severe hypersensitivity reactions, all patients treated with TAXOL should be premedicated with corticosteroids (such as dexamethasone), diphen-hydramine and H2 antagonists (such as cimetidine or ranitidine).">
+        <entity id="DDI-DrugBank.d288.s12.e0" charOffset="97-101"
+            type="brand" text="TAXOL"/>
+        <entity id="DDI-DrugBank.d288.s12.e1" charOffset="131-145"
+            type="group" text="corticosteroids"/>
+        <entity id="DDI-DrugBank.d288.s12.e2" charOffset="156-168"
+            type="drug" text="dexamethasone"/>
+        <entity id="DDI-DrugBank.d288.s12.e3" charOffset="193-206"
+            type="group" text="H2 antagonists"/>
+        <entity id="DDI-DrugBank.d288.s12.e4" charOffset="217-226"
+            type="drug" text="cimetidine"/>
+        <entity id="DDI-DrugBank.d288.s12.e5" charOffset="231-240"
+            type="drug" text="ranitidine"/>
+        <pair id="DDI-DrugBank.d288.s12.p0"
+            e1="DDI-DrugBank.d288.s12.e0" e2="DDI-DrugBank.d288.s12.e1" ddi="false"/>
+        <pair id="DDI-DrugBank.d288.s12.p1"
+            e1="DDI-DrugBank.d288.s12.e0" e2="DDI-DrugBank.d288.s12.e2" ddi="false"/>
+        <pair id="DDI-DrugBank.d288.s12.p2"
+            e1="DDI-DrugBank.d288.s12.e0" e2="DDI-DrugBank.d288.s12.e3" ddi="false"/>
+        <pair id="DDI-DrugBank.d288.s12.p3"
+            e1="DDI-DrugBank.d288.s12.e0" e2="DDI-DrugBank.d288.s12.e4" ddi="false"/>
+        <pair id="DDI-DrugBank.d288.s12.p4"
+            e1="DDI-DrugBank.d288.s12.e0" e2="DDI-DrugBank.d288.s12.e5" ddi="false"/>
+        <pair id="DDI-DrugBank.d288.s12.p5"
+            e1="DDI-DrugBank.d288.s12.e1" e2="DDI-DrugBank.d288.s12.e2" ddi="false"/>
+        <pair id="DDI-DrugBank.d288.s12.p6"
+            e1="DDI-DrugBank.d288.s12.e1" e2="DDI-DrugBank.d288.s12.e3" ddi="false"/>
+        <pair id="DDI-DrugBank.d288.s12.p7"
+            e1="DDI-DrugBank.d288.s12.e1" e2="DDI-DrugBank.d288.s12.e4" ddi="false"/>
+        <pair id="DDI-DrugBank.d288.s12.p8"
+            e1="DDI-DrugBank.d288.s12.e1" e2="DDI-DrugBank.d288.s12.e5" ddi="false"/>
+        <pair id="DDI-DrugBank.d288.s12.p9"
+            e1="DDI-DrugBank.d288.s12.e2" e2="DDI-DrugBank.d288.s12.e3" ddi="false"/>
+        <pair id="DDI-DrugBank.d288.s12.p10"
+            e1="DDI-DrugBank.d288.s12.e2" e2="DDI-DrugBank.d288.s12.e4" ddi="false"/>
+        <pair id="DDI-DrugBank.d288.s12.p11"
+            e1="DDI-DrugBank.d288.s12.e2" e2="DDI-DrugBank.d288.s12.e5" ddi="false"/>
+        <pair id="DDI-DrugBank.d288.s12.p12"
+            e1="DDI-DrugBank.d288.s12.e3" e2="DDI-DrugBank.d288.s12.e4" ddi="false"/>
+        <pair id="DDI-DrugBank.d288.s12.p13"
+            e1="DDI-DrugBank.d288.s12.e3" e2="DDI-DrugBank.d288.s12.e5" ddi="false"/>
+        <pair id="DDI-DrugBank.d288.s12.p14"
+            e1="DDI-DrugBank.d288.s12.e4" e2="DDI-DrugBank.d288.s12.e5" ddi="false"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d288.s13" text="Minor symptoms such as flushing, skin reactions, dyspnea, hypotension, or tachycardia do not require interruption of therapy."/>
+    <sentence id="DDI-DrugBank.d288.s14" text="However, severe reactions, such as hypotension requiring treatment, dyspnea requiring bronchodilators, angioedema, or generalized urticaria require immediate discontinuation of TAXOL and aggressive symptomatic therapy.">
+        <entity id="DDI-DrugBank.d288.s14.e0" charOffset="86-100"
+            type="group" text="bronchodilators"/>
+        <entity id="DDI-DrugBank.d288.s14.e1" charOffset="177-181"
+            type="brand" text="TAXOL"/>
+        <pair id="DDI-DrugBank.d288.s14.p0"
+            e1="DDI-DrugBank.d288.s14.e0" e2="DDI-DrugBank.d288.s14.e1" ddi="false"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d288.s15" text="Patients who have developed severe hypersensitivity reactions should not be rechallenged with TAXOL.">
+        <entity id="DDI-DrugBank.d288.s15.e0" charOffset="94-98"
+            type="brand" text="TAXOL"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d288.s16" text="Cardiovascular: Hypotension, bradycardia, and hypertension have been observed during administration of TAXOL, but generally do not require treatment.">
+        <entity id="DDI-DrugBank.d288.s16.e0" charOffset="103-107"
+            type="brand" text="TAXOL"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d288.s17" text="Occasionally TAXOL infusions must be interrupted or discontinued because of initial or recurrent hypertension.">
+        <entity id="DDI-DrugBank.d288.s17.e0" charOffset="13-17"
+            type="brand" text="TAXOL"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d288.s18" text="Frequent vital sign monitoring, particularly during the first hour of TAXOL infusion, is recommended.">
+        <entity id="DDI-DrugBank.d288.s18.e0" charOffset="70-74"
+            type="brand" text="TAXOL"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d288.s19" text="Continuous cardiac monitoring is not required except for patients with serious conduction abnormalities."/>
+    <sentence id="DDI-DrugBank.d288.s20" text="Nervous System: Although the occurrence of peripheral neuropathy is frequent, the development of severe symptomatology is unusual and requires a dose reduction of 20% for all subsequentcourses of TAXOL.">
+        <entity id="DDI-DrugBank.d288.s20.e0" charOffset="196-200"
+            type="brand" text="TAXOL"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d288.s21" text="TAXOL contains dehydrated alcohol USP, 396 mg/mL;">
+        <entity id="DDI-DrugBank.d288.s21.e0" charOffset="0-4"
+            type="brand" text="TAXOL"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d288.s22" text="consideration should be given to possible CNS and other effects of alcohol.">
+        <entity id="DDI-DrugBank.d288.s22.e0" charOffset="67-73"
+            type="drug" text="alcohol"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d288.s23" text="Hepatic: There is limited evidence that the myelotoxicity of TAXOL may be exacerbated in patients with serum total bilirubin  2 times ULN.">
+        <entity id="DDI-DrugBank.d288.s23.e0" charOffset="61-65"
+            type="brand" text="TAXOL"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d288.s24" text="Extreme caution should be exercised when administering TAXOL to such patients, with dose reduction as recommended in DOSAGE AND ADMINISTRATION, Table 17.">
+        <entity id="DDI-DrugBank.d288.s24.e0" charOffset="55-59"
+            type="brand" text="TAXOL"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d288.s25" text="InjectionSite Reaction: Injection site reactions, including reactions secondary to extravasation, were usually mild and consisted of erythema, tenderness, skin discoloration, or swelling at the injection site."/>
+    <sentence id="DDI-DrugBank.d288.s26" text="These reactions have been observed more frequently with the 24-hour infusion than with the 3-hour infusion."/>
+    <sentence id="DDI-DrugBank.d288.s27" text="Recurrence of skin reactions at a site of previous extravasation following administration of TAXOL at a different site, ie, recall, has been reported rarely.">
+        <entity id="DDI-DrugBank.d288.s27.e0" charOffset="93-97"
+            type="brand" text="TAXOL"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d288.s28" text="Rare reports of more severe events such as phlebitis, cellulitis, induration, skin exfoliation, necrosis, and fibrosis have been received as part of the continuing surveillance of TAXOL safety.">
+        <entity id="DDI-DrugBank.d288.s28.e0" charOffset="180-184"
+            type="brand" text="TAXOL"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d288.s29" text="In some cases the onset of the injection site reaction either occurred during a prolonged infusion or was delayed by a week to ten days."/>
+    <sentence id="DDI-DrugBank.d288.s30" text="A specific treatment for extravasation reactions is unknown at this time."/>
+    <sentence id="DDI-DrugBank.d288.s31" text="Given the possibility of extravasation, it is advisable to closely monitor the infusion site for possible infiltration during drug administration."/>
+</document>

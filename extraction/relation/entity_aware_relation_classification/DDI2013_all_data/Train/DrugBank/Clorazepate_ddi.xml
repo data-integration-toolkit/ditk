@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="DDI-DrugBank.d335">
+    <sentence id="DDI-DrugBank.d335.s0" text="If TRANXENE is to be combined with other drugs acting on the central nervous system, careful consideration should be given to the pharmacology of the agents to be employed.">
+        <entity id="DDI-DrugBank.d335.s0.e0" charOffset="3-10"
+            type="brand" text="TRANXENE"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d335.s1" text="Animal experience indicates that clorazepate dipotassium prolongs the sleeping time after hexobarbital or after ethyl alcohol, increases the inhibitory effects of chlorpromazine, but does not exhibit monoamine oxidase inhibition.">
+        <entity id="DDI-DrugBank.d335.s1.e0" charOffset="33-55"
+            type="drug" text="clorazepate dipotassium"/>
+        <entity id="DDI-DrugBank.d335.s1.e1" charOffset="90-101"
+            type="drug" text="hexobarbital"/>
+        <entity id="DDI-DrugBank.d335.s1.e2" charOffset="112-124"
+            type="drug" text="ethyl alcohol"/>
+        <entity id="DDI-DrugBank.d335.s1.e3" charOffset="163-176"
+            type="drug" text="chlorpromazine"/>
+        <pair id="DDI-DrugBank.d335.s1.p0" e1="DDI-DrugBank.d335.s1.e0"
+            e2="DDI-DrugBank.d335.s1.e1" ddi="true" type="effect"/>
+        <pair id="DDI-DrugBank.d335.s1.p1" e1="DDI-DrugBank.d335.s1.e0"
+            e2="DDI-DrugBank.d335.s1.e2" ddi="true" type="effect"/>
+        <pair id="DDI-DrugBank.d335.s1.p2" e1="DDI-DrugBank.d335.s1.e0"
+            e2="DDI-DrugBank.d335.s1.e3" ddi="true" type="effect"/>
+        <pair id="DDI-DrugBank.d335.s1.p3" e1="DDI-DrugBank.d335.s1.e1"
+            e2="DDI-DrugBank.d335.s1.e2" ddi="false"/>
+        <pair id="DDI-DrugBank.d335.s1.p4" e1="DDI-DrugBank.d335.s1.e1"
+            e2="DDI-DrugBank.d335.s1.e3" ddi="false"/>
+        <pair id="DDI-DrugBank.d335.s1.p5" e1="DDI-DrugBank.d335.s1.e2"
+            e2="DDI-DrugBank.d335.s1.e3" ddi="false"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d335.s2" text="Clinical studies have shown increased sedation with concurrent hypnotic medications.">
+        <entity id="DDI-DrugBank.d335.s2.e0" charOffset="63-82"
+            type="group" text="hypnotic medications"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d335.s3" text="The actions of the benzodiazepines may be potentiated by barbiturates, narcotics, phenothiazines, monoamine oxidase inhibitors or other antidepressants.">
+        <entity id="DDI-DrugBank.d335.s3.e0" charOffset="19-33"
+            type="group" text="benzodiazepines"/>
+        <entity id="DDI-DrugBank.d335.s3.e1" charOffset="57-68"
+            type="group" text="barbiturates"/>
+        <entity id="DDI-DrugBank.d335.s3.e2" charOffset="71-79"
+            type="group" text="narcotics"/>
+        <entity id="DDI-DrugBank.d335.s3.e3" charOffset="82-95"
+            type="group" text="phenothiazines"/>
+        <entity id="DDI-DrugBank.d335.s3.e4" charOffset="98-125"
+            type="group" text="monoamine oxidase inhibitors"/>
+        <entity id="DDI-DrugBank.d335.s3.e5" charOffset="136-150"
+            type="group" text="antidepressants"/>
+        <pair id="DDI-DrugBank.d335.s3.p0" e1="DDI-DrugBank.d335.s3.e0"
+            e2="DDI-DrugBank.d335.s3.e1" ddi="true" type="effect"/>
+        <pair id="DDI-DrugBank.d335.s3.p1" e1="DDI-DrugBank.d335.s3.e0"
+            e2="DDI-DrugBank.d335.s3.e2" ddi="true" type="effect"/>
+        <pair id="DDI-DrugBank.d335.s3.p2" e1="DDI-DrugBank.d335.s3.e0"
+            e2="DDI-DrugBank.d335.s3.e3" ddi="true" type="effect"/>
+        <pair id="DDI-DrugBank.d335.s3.p3" e1="DDI-DrugBank.d335.s3.e0"
+            e2="DDI-DrugBank.d335.s3.e4" ddi="true" type="effect"/>
+        <pair id="DDI-DrugBank.d335.s3.p4" e1="DDI-DrugBank.d335.s3.e0"
+            e2="DDI-DrugBank.d335.s3.e5" ddi="true" type="effect"/>
+        <pair id="DDI-DrugBank.d335.s3.p5" e1="DDI-DrugBank.d335.s3.e1"
+            e2="DDI-DrugBank.d335.s3.e2" ddi="false"/>
+        <pair id="DDI-DrugBank.d335.s3.p6" e1="DDI-DrugBank.d335.s3.e1"
+            e2="DDI-DrugBank.d335.s3.e3" ddi="false"/>
+        <pair id="DDI-DrugBank.d335.s3.p7" e1="DDI-DrugBank.d335.s3.e1"
+            e2="DDI-DrugBank.d335.s3.e4" ddi="false"/>
+        <pair id="DDI-DrugBank.d335.s3.p8" e1="DDI-DrugBank.d335.s3.e1"
+            e2="DDI-DrugBank.d335.s3.e5" ddi="false"/>
+        <pair id="DDI-DrugBank.d335.s3.p9" e1="DDI-DrugBank.d335.s3.e2"
+            e2="DDI-DrugBank.d335.s3.e3" ddi="false"/>
+        <pair id="DDI-DrugBank.d335.s3.p10" e1="DDI-DrugBank.d335.s3.e2"
+            e2="DDI-DrugBank.d335.s3.e4" ddi="false"/>
+        <pair id="DDI-DrugBank.d335.s3.p11" e1="DDI-DrugBank.d335.s3.e2"
+            e2="DDI-DrugBank.d335.s3.e5" ddi="false"/>
+        <pair id="DDI-DrugBank.d335.s3.p12" e1="DDI-DrugBank.d335.s3.e3"
+            e2="DDI-DrugBank.d335.s3.e4" ddi="false"/>
+        <pair id="DDI-DrugBank.d335.s3.p13" e1="DDI-DrugBank.d335.s3.e3"
+            e2="DDI-DrugBank.d335.s3.e5" ddi="false"/>
+        <pair id="DDI-DrugBank.d335.s3.p14" e1="DDI-DrugBank.d335.s3.e4"
+            e2="DDI-DrugBank.d335.s3.e5" ddi="false"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d335.s4" text="If TRANXENE tablets are used to treat anxiety associated with somatic disease states, careful attention must be paid to possible drug interaction with concomitant medication.">
+        <entity id="DDI-DrugBank.d335.s4.e0" charOffset="3-10"
+            type="brand" text="TRANXENE"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d335.s5" text="In bioavailability studies with normal subjects, the concurrent administration of antacids at therapeutic levels did not significantly influence the bioavailability of TRANXENE tablets.">
+        <entity id="DDI-DrugBank.d335.s5.e0" charOffset="82-89"
+            type="group" text="antacids"/>
+        <entity id="DDI-DrugBank.d335.s5.e1" charOffset="168-175"
+            type="brand" text="TRANXENE"/>
+        <pair id="DDI-DrugBank.d335.s5.p0" e1="DDI-DrugBank.d335.s5.e0"
+            e2="DDI-DrugBank.d335.s5.e1" ddi="false"/>
+    </sentence>
+</document>

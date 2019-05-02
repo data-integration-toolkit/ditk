@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="DDI-MedLine.d45">
+    <sentence id="DDI-MedLine.d45.s0" text="Selective survival in pentazocine and tripelennamine of Pseudomonas aeruginosa serotype O11 from drug addicts.&#xd;&#xa;">
+        <entity id="DDI-MedLine.d45.s0.e0" charOffset="22-32"
+            type="drug" text="pentazocine"/>
+        <entity id="DDI-MedLine.d45.s0.e1" charOffset="38-51"
+            type="drug" text="tripelennamine"/>
+        <pair id="DDI-MedLine.d45.s0.p0" e1="DDI-MedLine.d45.s0.e0"
+            e2="DDI-MedLine.d45.s0.e1" ddi="false"/>
+    </sentence>
+    <sentence id="DDI-MedLine.d45.s1" text="The growth of Pseudomonas aeruginosa, particularly serotype O11, in pentazocine and tripelennamine ">
+        <entity id="DDI-MedLine.d45.s1.e0" charOffset="68-78"
+            type="drug" text="pentazocine"/>
+        <entity id="DDI-MedLine.d45.s1.e1" charOffset="84-97"
+            type="drug" text="tripelennamine"/>
+        <pair id="DDI-MedLine.d45.s1.p0" e1="DDI-MedLine.d45.s1.e0"
+            e2="DDI-MedLine.d45.s1.e1" ddi="false"/>
+    </sentence>
+    <sentence id="DDI-MedLine.d45.s2" text="was evaluated as a possible explanation for the association of deep-seated infection with this organism and abuse of these drugs. "/>
+    <sentence id="DDI-MedLine.d45.s3" text="The mean reduction of growth caused by the drugs was 1,000-fold greater for 49 Pseudomonas strains from normal subjects than for 32 strains from drug addicts (4.2 vs. 1.3 logs of reduction at 2 hr, P less than .0005). "/>
+    <sentence id="DDI-MedLine.d45.s4" text="A common phenotypic subset of the serotype O11 strains from drug addicts was especially resistant to the inhibitory effects. "/>
+    <sentence id="DDI-MedLine.d45.s5" text="Twelve strains of Staphylococcus aureus (a frequent cause of infection in heroin, but not in pentazocine and tripelennamine, addicts) were completely inhibited by the drug combination. ">
+        <entity id="DDI-MedLine.d45.s5.e0" charOffset="74-79"
+            type="drug_n" text="heroin"/>
+        <entity id="DDI-MedLine.d45.s5.e1" charOffset="93-103"
+            type="drug" text="pentazocine"/>
+        <entity id="DDI-MedLine.d45.s5.e2" charOffset="109-122"
+            type="drug" text="tripelennamine"/>
+        <pair id="DDI-MedLine.d45.s5.p0" e1="DDI-MedLine.d45.s5.e0"
+            e2="DDI-MedLine.d45.s5.e1" ddi="false"/>
+        <pair id="DDI-MedLine.d45.s5.p1" e1="DDI-MedLine.d45.s5.e0"
+            e2="DDI-MedLine.d45.s5.e2" ddi="false"/>
+        <pair id="DDI-MedLine.d45.s5.p2" e1="DDI-MedLine.d45.s5.e1"
+            e2="DDI-MedLine.d45.s5.e2" ddi="true" type="effect"/>
+    </sentence>
+    <sentence id="DDI-MedLine.d45.s6" text="Dose-response curves (derived from the results of using the tablets as well as pure powders) showed that tripelennamine was responsible for the inhibitory activity, which was partially antagonized by pentazocine. ">
+        <entity id="DDI-MedLine.d45.s6.e0" charOffset="105-118"
+            type="drug" text="tripelennamine"/>
+        <entity id="DDI-MedLine.d45.s6.e1" charOffset="200-210"
+            type="drug" text="pentazocine"/>
+        <pair id="DDI-MedLine.d45.s6.p0" e1="DDI-MedLine.d45.s6.e0"
+            e2="DDI-MedLine.d45.s6.e1" ddi="true" type="effect"/>
+    </sentence>
+    <sentence id="DDI-MedLine.d45.s7" text="We conclude that an ability of some P. "/>
+    <sentence id="DDI-MedLine.d45.s8" text="aeruginosa serotype O11 strains, but not S. "/>
+    <sentence id="DDI-MedLine.d45.s9" text="aureus, to survive in pentazocine and tripelennamine may explain in part a shift from S. ">
+        <entity id="DDI-MedLine.d45.s9.e0" charOffset="22-32"
+            type="drug" text="pentazocine"/>
+        <entity id="DDI-MedLine.d45.s9.e1" charOffset="38-51"
+            type="drug" text="tripelennamine"/>
+        <pair id="DDI-MedLine.d45.s9.p0" e1="DDI-MedLine.d45.s9.e0"
+            e2="DDI-MedLine.d45.s9.e1" ddi="false"/>
+    </sentence>
+    <sentence id="DDI-MedLine.d45.s10" text="aureus to P. "/>
+    <sentence id="DDI-MedLine.d45.s11" text="aeruginosa as common pathogens of drug addicts in areas where abuse of this combination of drugs has increased."/>
+</document>

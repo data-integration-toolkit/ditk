@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="DDI-DrugBank.d10">
+    <sentence id="DDI-DrugBank.d10.s0" text="Interactions between Betaseron and other drugs have not been fully evaluated.">
+        <entity id="DDI-DrugBank.d10.s0.e0" charOffset="21-29"
+            type="brand" text="Betaseron"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d10.s1" text="Although studies designed to examine drug interactions have not been done, it was noted that corticosteroid or ACTH treatment of relapses for periods of up to 28 days has been administered to patients (N=180) receiving Betaseron.">
+        <entity id="DDI-DrugBank.d10.s1.e0" charOffset="93-106"
+            type="group" text="corticosteroid"/>
+        <entity id="DDI-DrugBank.d10.s1.e1" charOffset="111-114"
+            type="drug" text="ACTH"/>
+        <entity id="DDI-DrugBank.d10.s1.e2" charOffset="219-227"
+            type="brand" text="Betaseron"/>
+        <pair id="DDI-DrugBank.d10.s1.p0" e1="DDI-DrugBank.d10.s1.e0"
+            e2="DDI-DrugBank.d10.s1.e1" ddi="false"/>
+        <pair id="DDI-DrugBank.d10.s1.p1" e1="DDI-DrugBank.d10.s1.e0"
+            e2="DDI-DrugBank.d10.s1.e2" ddi="false"/>
+        <pair id="DDI-DrugBank.d10.s1.p2" e1="DDI-DrugBank.d10.s1.e1"
+            e2="DDI-DrugBank.d10.s1.e2" ddi="false"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d10.s2" text="Betaseron administration to three cancer patients over a dose range of 0.025 mg to 2.2 mg led to a dose-dependent inhibition of antipyrine elimination.14 The effect of alternate-day administration of 0.25 mg of Betaseron on drug metabolism in MS patients is unknown.">
+        <entity id="DDI-DrugBank.d10.s2.e0" charOffset="0-8"
+            type="brand" text="Betaseron"/>
+        <entity id="DDI-DrugBank.d10.s2.e1" charOffset="128-137"
+            type="drug" text="antipyrine"/>
+        <entity id="DDI-DrugBank.d10.s2.e2" charOffset="211-219"
+            type="brand" text="Betaseron"/>
+        <pair id="DDI-DrugBank.d10.s2.p0" e1="DDI-DrugBank.d10.s2.e0"
+            e2="DDI-DrugBank.d10.s2.e1" ddi="true" type="mechanism"/>
+        <pair id="DDI-DrugBank.d10.s2.p1" e1="DDI-DrugBank.d10.s2.e0"
+            e2="DDI-DrugBank.d10.s2.e2" ddi="false"/>
+        <pair id="DDI-DrugBank.d10.s2.p2" e1="DDI-DrugBank.d10.s2.e1"
+            e2="DDI-DrugBank.d10.s2.e2" ddi="false"/>
+    </sentence>
+</document>

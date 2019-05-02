@@ -1,0 +1,1 @@
+result directory! houses the neural network train data processed. 

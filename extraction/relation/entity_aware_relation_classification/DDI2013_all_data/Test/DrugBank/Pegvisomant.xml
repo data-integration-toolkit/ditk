@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="DDI-DrugBank.d744">
+    <sentence id="DDI-DrugBank.d744.s0" text="Acromegalic patients with diabetes mellitus being treated with insulin and/or oral hypoglycemic agents may require dose reductions of these therapeutic agents after the initiation of therapy with SOMAVERT. ">
+        <entity id="DDI-DrugBank.d744.s0.e0" charOffset="63-69"
+            type="drug" text="insulin"/>
+        <entity id="DDI-DrugBank.d744.s0.e1" charOffset="83-94"
+            type="group" text="hypoglycemic"/>
+        <entity id="DDI-DrugBank.d744.s0.e2" charOffset="196-203"
+            type="brand" text="SOMAVERT"/>
+        <pair id="DDI-DrugBank.d744.s0.p0" e1="DDI-DrugBank.d744.s0.e0"
+            e2="DDI-DrugBank.d744.s0.e1" ddi="false"/>
+        <pair id="DDI-DrugBank.d744.s0.p1" e1="DDI-DrugBank.d744.s0.e0"
+            e2="DDI-DrugBank.d744.s0.e2" ddi="true" type="advise"/>
+        <pair id="DDI-DrugBank.d744.s0.p2" e1="DDI-DrugBank.d744.s0.e1"
+            e2="DDI-DrugBank.d744.s0.e2" ddi="true" type="advise"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d744.s1" text="In clinical studies, patients on opioids often needed higher serum pegvisomant concentrations to achieve appropriate IGF-I suppression compared with patients not receiving opioids. ">
+        <entity id="DDI-DrugBank.d744.s1.e0" charOffset="33-39"
+            type="group" text="opioids"/>
+        <entity id="DDI-DrugBank.d744.s1.e1" charOffset="67-77"
+            type="drug" text="pegvisomant"/>
+        <entity id="DDI-DrugBank.d744.s1.e2" charOffset="172-178"
+            type="group" text="opioids"/>
+        <pair id="DDI-DrugBank.d744.s1.p0" e1="DDI-DrugBank.d744.s1.e0"
+            e2="DDI-DrugBank.d744.s1.e1" ddi="true" type="mechanism"/>
+        <pair id="DDI-DrugBank.d744.s1.p1" e1="DDI-DrugBank.d744.s1.e0"
+            e2="DDI-DrugBank.d744.s1.e2" ddi="false"/>
+        <pair id="DDI-DrugBank.d744.s1.p2" e1="DDI-DrugBank.d744.s1.e1"
+            e2="DDI-DrugBank.d744.s1.e2" ddi="false"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d744.s2" text="The mechanism of this interaction is not known."/>
+</document>

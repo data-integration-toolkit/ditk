@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="DDI-DrugBank.d326">
+    <sentence id="DDI-DrugBank.d326.s0" text="Phenothiazines - Taking piperazine and a phenothiazine together may increase the risk of convulsions (seizures).">
+        <entity id="DDI-DrugBank.d326.s0.e0" charOffset="0-13"
+            type="group" text="Phenothiazines"/>
+        <entity id="DDI-DrugBank.d326.s0.e1" charOffset="24-33"
+            type="drug" text="piperazine"/>
+        <entity id="DDI-DrugBank.d326.s0.e2" charOffset="41-53"
+            type="group" text="phenothiazine"/>
+        <pair id="DDI-DrugBank.d326.s0.p0" e1="DDI-DrugBank.d326.s0.e0"
+            e2="DDI-DrugBank.d326.s0.e1" ddi="false"/>
+        <pair id="DDI-DrugBank.d326.s0.p1" e1="DDI-DrugBank.d326.s0.e0"
+            e2="DDI-DrugBank.d326.s0.e2" ddi="false"/>
+        <pair id="DDI-DrugBank.d326.s0.p2" e1="DDI-DrugBank.d326.s0.e1"
+            e2="DDI-DrugBank.d326.s0.e2" ddi="true" type="effect"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d326.s1" text="Pyrantel (e.g., Antiminth) - Taking piperazine and pyrantel together may decrease the effects of piperazine.">
+        <entity id="DDI-DrugBank.d326.s1.e0" charOffset="0-7"
+            type="drug" text="Pyrantel"/>
+        <entity id="DDI-DrugBank.d326.s1.e1" charOffset="16-24"
+            type="drug" text="Antiminth"/>
+        <entity id="DDI-DrugBank.d326.s1.e2" charOffset="36-45"
+            type="drug" text="piperazine"/>
+        <entity id="DDI-DrugBank.d326.s1.e3" charOffset="51-58"
+            type="drug" text="pyrantel"/>
+        <entity id="DDI-DrugBank.d326.s1.e4" charOffset="97-106"
+            type="drug" text="piperazine"/>
+        <pair id="DDI-DrugBank.d326.s1.p0" e1="DDI-DrugBank.d326.s1.e0"
+            e2="DDI-DrugBank.d326.s1.e1" ddi="false"/>
+        <pair id="DDI-DrugBank.d326.s1.p1" e1="DDI-DrugBank.d326.s1.e0"
+            e2="DDI-DrugBank.d326.s1.e2" ddi="false"/>
+        <pair id="DDI-DrugBank.d326.s1.p2" e1="DDI-DrugBank.d326.s1.e0"
+            e2="DDI-DrugBank.d326.s1.e3" ddi="false"/>
+        <pair id="DDI-DrugBank.d326.s1.p3" e1="DDI-DrugBank.d326.s1.e0"
+            e2="DDI-DrugBank.d326.s1.e4" ddi="false"/>
+        <pair id="DDI-DrugBank.d326.s1.p4" e1="DDI-DrugBank.d326.s1.e1"
+            e2="DDI-DrugBank.d326.s1.e2" ddi="false"/>
+        <pair id="DDI-DrugBank.d326.s1.p5" e1="DDI-DrugBank.d326.s1.e1"
+            e2="DDI-DrugBank.d326.s1.e3" ddi="false"/>
+        <pair id="DDI-DrugBank.d326.s1.p6" e1="DDI-DrugBank.d326.s1.e1"
+            e2="DDI-DrugBank.d326.s1.e4" ddi="false"/>
+        <pair id="DDI-DrugBank.d326.s1.p7" e1="DDI-DrugBank.d326.s1.e2"
+            e2="DDI-DrugBank.d326.s1.e3" ddi="true" type="effect"/>
+        <pair id="DDI-DrugBank.d326.s1.p8" e1="DDI-DrugBank.d326.s1.e2"
+            e2="DDI-DrugBank.d326.s1.e4" ddi="false"/>
+        <pair id="DDI-DrugBank.d326.s1.p9" e1="DDI-DrugBank.d326.s1.e3"
+            e2="DDI-DrugBank.d326.s1.e4" ddi="false"/>
+    </sentence>
+</document>

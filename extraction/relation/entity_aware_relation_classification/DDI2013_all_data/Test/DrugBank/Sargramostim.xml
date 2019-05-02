@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="DDI-DrugBank.d607">
+    <sentence id="DDI-DrugBank.d607.s0" text="Interactions between Leukine and other drugs have not been fully evaluated. ">
+        <entity id="DDI-DrugBank.d607.s0.e0" charOffset="21-27"
+            type="brand" text="Leukine"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d607.s1" text="Drugs which may potentiate the myeloproliferative effects of Leukine, such as lithium and corticosteroids, should be used with caution.">
+        <entity id="DDI-DrugBank.d607.s1.e0" charOffset="61-67"
+            type="brand" text="Leukine"/>
+        <entity id="DDI-DrugBank.d607.s1.e1" charOffset="78-84"
+            type="drug" text="lithium"/>
+        <entity id="DDI-DrugBank.d607.s1.e2" charOffset="90-104"
+            type="group" text="corticosteroids"/>
+        <pair id="DDI-DrugBank.d607.s1.p0" e1="DDI-DrugBank.d607.s1.e0"
+            e2="DDI-DrugBank.d607.s1.e1" ddi="true" type="effect"/>
+        <pair id="DDI-DrugBank.d607.s1.p1" e1="DDI-DrugBank.d607.s1.e0"
+            e2="DDI-DrugBank.d607.s1.e2" ddi="true" type="effect"/>
+        <pair id="DDI-DrugBank.d607.s1.p2" e1="DDI-DrugBank.d607.s1.e1"
+            e2="DDI-DrugBank.d607.s1.e2" ddi="false"/>
+    </sentence>
+</document>
