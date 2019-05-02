@@ -40,4 +40,4 @@ https://github.com/Gaglia88/sparker/tree/master/python
 
 ## Demo
 - Link to video: https://youtu.be/wJz1Fyx9t_U
-- Link to Jupyter notebook: 
+- Link to Jupyter notebook: https://github.com/SushanthIkshwaku/ditk/blob/develop-py2/entity_linkage/blocking/sparkER/sparkER.ipynb
