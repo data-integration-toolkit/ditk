@@ -5,7 +5,7 @@ import numpy as np
 import os, sys
 from os.path import isfile, join
 from numpy import genfromtxt
-sys.path.append("..\..")
+sys.path.append("../..")
 from imputation import Imputation
 sys.path.append("..")
 from main import miknnImpute
@@ -16,7 +16,7 @@ miknnimpute = miknnImpute()
 class TestImputationMethods(unittest.TestCase):
     def setUp(self):
         self.imputation_method = miknnimpute
-        self.input_file = "..\..\data\wdbc.csv"
+        self.input_file = "../../data/wdbc.csv"
         self.verificationErrors = [] # append exceptions for try-except errors
 
     def test_input_file_format(self):
