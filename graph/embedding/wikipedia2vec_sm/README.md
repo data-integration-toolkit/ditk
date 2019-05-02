@@ -29,7 +29,7 @@ The child class file, "wikipedia2vec_sm.py" and the "main.py" file are located i
 wget https://dumps.wikimedia.org/enwiki/latest/enwiki-latest-pages-articles.xml.bz2
 ```
 
-**2. Instantiate the child class** 
+**2. Instantiate the child class** <br/>
 An object is created for the Wikipedia2vec Child class
 ```bash
 obj = Wikipedia2vec()
