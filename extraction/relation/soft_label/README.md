@@ -56,14 +56,18 @@ sentence e1 e2 predicted_relation grandtruth_relation
 * F1
 
 ## Performance
+|     Metric / Dataset+Method          |      P100      | P@200 | P@300|
+|:--------------------:|:---------------------:|:---------------------:|:---------------------:|
+| NYT + ATT       |67.17  |64.58 | 63.72|
+| NYT + One       | 63.29 |62.65 | 62.43|
+
+
 |     Metric / Dataset+Method          |      Precision      | Recall | F1|
 |:--------------------:|:---------------------:|:---------------------:|:---------------------:|
-| NYT + ATT       |  | | |
-| NYT + One       |  | | |
-| SemEval2010 + One       |  | | |
-| SemEval2010 + One       |  | | |
-| DDI + One       |  | | |
-| DDI + One       |  | | |
+| SemEval2010 + Att       |69.82  |67.47 | 68.62|
+| SemEval2010 + One       |67.56 |65.38 | 66.45|
+| DDI + Att       | 68.82 |67.76 |68.29 |
+| DDI + One       |66.36  |64.48 |65.41 |
 
 
 ## Folder Structure
