@@ -1,31 +1,32 @@
 # HDL-CRF
-This is the code of the paper 《A Hybrid Deep Learning Framework for Bacterial Named Entity Recognition》
+This repo is based on the following paper and Github implementation:
 
-This is  a model for bacterial name entity recognition
+Li, Xusheng, et al. "A Hybrid Deep Learning Framework for Bacterial Named Entity Recognition." 2018 IEEE International Conference on Bioinformatics and Biomedicine (BIBM). IEEE, 2018. 
 
-you can train your own model through the train.py or use pre-trained model to predict 
+Paper link:
+https://ieeexplore-ieee-org.libproxy1.usc.edu/stamp/stamp.jsp?tp=&arnumber=8621446
 
-the parameter file in model/config.py,you can adjust the parameter .
-the model weights of ours in test file
+Github link:
+https://github.com/lixusheng1/HDL-CRF 
 
-Firstly, you should create a directory data and download or train a word embedding ; then put the word embedding in data direcctory and  revise the path of word embedding file in config.py .
+## Dependencies
+* python2
+* numpy
+* tensorflow
 
-1.Train your own model
-  1) python build_data.py
-  2) python train.py
-  3) python evaluate.py
- 
-2. use pre-trained model
- 1) python predict.py
- 
+## Data format
+* [word, BIO tag, chunk tag]
+* [sample data](./data/test_set.iob)
 
-3. evaluate the model of us
+## Benchmark datasets
+* PubMed Articles with keywords "bacteria" and "oral"
 
-    python evaluate.py
-    
-    
-  
-references:
+## Evaluation metrics and results
+* Precision: 86.563
+* Recall: 86.761
+* F1: 86.662
 
-https://github.com/guillaumegenthial/sequence_tagging
+## Jupyter Notebook
+* [demo.ipynb](./demo.ipynb)
 
+## YouTube Video
