@@ -130,7 +130,7 @@ Run the command:
 
 ## **Jupyter Notebook:**
 
-**reside_demo.ipynb**
+[reside_demo.ipynb](https://github.com/devinaarvind/ditk/blob/develop/extraction/relation/RESIDE/reside_demo.ipynb)
 
 _Note: Since RESIDE takes a long time to train, the Jupyter notebook has been run on a model previously trained by me._
 
