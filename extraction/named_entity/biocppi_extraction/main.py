@@ -10,25 +10,25 @@ def main(inputFilePath):
 
     # test params:
     embeddings_path = '/home/kcrouch/USC/csci_548/project/groupedProject/bioNER_refactor/biocppi_extraction/embeddings/PubMed-w2v.txt'  # REMOVE FOR SUBMIT
-    test_params = {'num_ensembles':2,'num_iterations':101,'num_it_per_ckpt':1000000}  # note, it num_it_per_ckpt > num_iterations then num_it_per_ckpt will be set to half of num_iterations
-    test_params = {'num_ensembles':2,'num_iterations':101,'num_it_per_ckpt':1000000,'batch_size':2}  # for unittest, use small batch size
+    test_params = {'num_ensembles':2,'num_iterations':1000,'num_it_per_ckpt':100}  # note, it num_it_per_ckpt > num_iterations then num_it_per_ckpt will be set to half of num_iterations
+    #test_params = {'num_ensembles':2,'num_iterations':101,'num_it_per_ckpt':1000000,'batch_size':2}  # for unittest, use small batch size
     biocppi = biocppi_extraction(embeddings_path=embeddings_path,**test_params)
 
     # convert dataset to properformat used by training
     # 1] read_dataset()
 
-    # test unittest...good!
-    dataset_name = 'unittest'
-    file_dict = {'train':{'data':inputFilePath},'dev':{},'test':{}}
+    # # test unittest...good!
+    # dataset_name = 'unittest'
+    # file_dict = {'train':{'data':inputFilePath},'dev':{},'test':{}}
 
-    # # test conll2003...good!..yet to test full dataset
-    # dataset_name = 'CoNLL_2003'
-    # dataset_dir = '/home/kcrouch/smol_datasets/conll/'  # smol sample
-    # #dataset_dir = '/Users/olderhorselover/USC/spring2019/csci_548_diotw/project/groupedProject/conll2003_corpus/'
-    # raw_data_train_file = dataset_dir + 'train.txt'
-    # raw_data_dev_file = dataset_dir + 'dev.txt'
-    # raw_data_test_file = dataset_dir + 'test.txt'
-    # file_dict = {'train':{'data':raw_data_train_file},'dev':{'data':raw_data_dev_file},'test':{'data':raw_data_test_file}}
+    # test conll2003...good!..yet to test full dataset
+    dataset_name = 'CoNLL_2003'
+    dataset_dir = '/home/kcrouch/smol_datasets/conll/'  # smol sample
+    #dataset_dir = '/Users/olderhorselover/USC/spring2019/csci_548_diotw/project/groupedProject/conll2003_corpus/'
+    raw_data_train_file = dataset_dir + 'train.txt'
+    raw_data_dev_file = dataset_dir + 'dev.txt'
+    raw_data_test_file = dataset_dir + 'test.txt'
+    file_dict = {'train':{'data':raw_data_train_file},'dev':{'data':raw_data_dev_file},'test':{'data':raw_data_test_file}}
 
     # # test ontoNotes5.0...good!..yet to test full dataset
     # dataset_name = 'OntoNotes_5p0'
