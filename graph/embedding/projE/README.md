@@ -21,6 +21,9 @@ target vector.
 - Clone the git repository
 - Install the requirements
 	- pip install -r requirements.txt
+- To run the code
+	- Execute main.py
+	- Ensure that the input dataset path is set correctly in main.py
 
 ## Input and Output
 - Training
