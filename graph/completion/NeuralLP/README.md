@@ -66,7 +66,7 @@ Execute the main.py file:
 
 ## Jupyter Notebook
 
-ditk/graph/completion/NeuralLP/kgc_refactor_jupyter.ipynb 
+https://github.com/tushyagautam/ditk/blob/develop-py2/graph/completion/NeuralLP/kgc_refactor_jupyter.ipynb
 
 ## Video 
 
