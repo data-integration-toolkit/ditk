@@ -59,12 +59,12 @@ sentence e1 e2 predicted_relation grandtruth_relation
 ## Performance
 |     Metric / Dataset+Method          |      Precision      | Recall | F1|
 |:--------------------:|:---------------------:|:---------------------:|:---------------------:|
-| NYT + Max       |  | | |
-| NYT + Att       |  | | |
-| SemEval2010 + Max       |  | | |
-| SemEval2010 + Att       |  | | |
-| DDI + Max       |  | | |
-| DDI + Att       |  | | |
+| NYT + Max       |69.56  |66.61 |68.05 |
+| NYT + Att      | 66.84 | 62.48|68.05 |
+| SemEval2010 + Max      |73.14 | 72.68 |72.91 | 
+| SemEval2010 + Att        |66.95  | 68.99| 70.14|
+| DDI + Max       | 71.94 |60.17 |64.95 |
+| DDI + Att       | 67.57 |58.87 |62.35 |
 
 
 ## Folder Structure
