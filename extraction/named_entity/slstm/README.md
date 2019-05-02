@@ -34,6 +34,6 @@ Precision : 75
 Recall : 75
 
 ## Demo
-Link to the Jupyter Notebook: [Link](https://github.com/divyasinha801/ditk/blob/develop/)
+Link to the Jupyter Notebook: [Link](https://github.com/divyasinha801/ditk/blob/develop/extraction/named_entity/slstm/Sentence%20State%20LSTM%20(S-LSTM)%20for%20Named%20Entity%20Recognition%20(Group%206).ipynb)
 
 Link to the video on Youtube: https://www.youtube.com/watch?v=Yz4NYFkob90&feature=youtu.be
