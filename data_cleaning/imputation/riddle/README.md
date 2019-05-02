@@ -22,7 +22,7 @@
 
 
 - LETTER RECOGNITION <https://archive.ics.uci.edu/ml/datasets/letter+recognition>
-- Mean Squared Error: 106.
+- Mean Squared Error: 106.3980
 
 ## Demo
 - Jupyter Notebook: <https://github.com/alamashir/ditk/blob/develop/data_cleaning/imputation/riddle/riddle_execution.ipynb> 
