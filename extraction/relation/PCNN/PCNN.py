@@ -5,17 +5,17 @@ import sys
 import os
 import json
 import sklearn.metrics
-import matplotlib
+#import matplotlib
 # Use 'Agg' so this program could run on a remote server
-matplotlib.use('Agg')
-import matplotlib.pyplot as plt
+#matplotlib.use('Agg')
+#import matplotlib.pyplot as plt
 
 class PCNN():
 
     def __init__(self):
         pass
 
-    def read_dataset(self, input_file, *args, **kwargs):  
+    def read_dataset(self, dataset_name="nyt"):  
         """
         Reads a dataset to be used for training
          
@@ -27,7 +27,7 @@ class PCNN():
         Returns: 
             (optional):Data from file
         """
-        with open("data/nyt/trainfile.txt", "r") as f:
+        with open("data/"+ dataset_name +"/trainfile.txt", "r") as f:
             outerlist=[]
             for line in f:
                 thisdict =  {
@@ -49,12 +49,12 @@ class PCNN():
                 thisdict["relation"] = temp[9].rstrip()
 
                 outerlist.append(thisdict)
-        with open('data/nyt/train.json', 'w') as outfile:
+        with open("data/"+ dataset_name +"/train.json", 'w') as outfile:
             json.dump(outerlist, outfile)
 
         print "Processed trainging file"
 
-        with open("data/nyt/testfile.txt", "r") as f:
+        with open("data/"+ dataset_name +"/testfile.txt", "r") as f:
             outerlist=[]
             for line in f:
                 thisdict =  {
@@ -77,15 +77,15 @@ class PCNN():
 
                 outerlist.append(thisdict)        
 
-        with open('data/nyt/test.json', 'w') as outfile:
+        with open("data/"+ dataset_name +"/test.json", 'w') as outfile:
             json.dump(outerlist, outfile)
 
         print "Processed testing file"
 
         print "Re-constructing rel2id file"
-        with open("data/nyt/train.json") as f:
+        with open("data/"+ dataset_name +"/train.json") as f:
             train_input = json.load(f)
-        with open("data/nyt/test.json") as f:
+        with open("data/"+ dataset_name +"/test.json") as f:
             test_input = json.load(f)
         relations = []
         for single_input in train_input:
@@ -97,7 +97,7 @@ class PCNN():
         for i, relation in enumerate(relations):
             relation_mapping[relation] = i+1
         relation_mapping[relations[-1]] = 0
-        with open('data/nyt/rel2id.json', 'w') as outfile:
+        with open("data/"+ dataset_name +"/rel2id.json", 'w') as outfile:
             json.dump(relation_mapping, outfile)
 
     def data_preprocess(self,input_data, *args, **kwargs):
@@ -124,7 +124,7 @@ class PCNN():
         pass
 
 
-    def train(self, train_data, *args, **kwargs):  
+    def train(self, encoder="pcnn", selector="ave", dataset_name = "nyt", epoch = 60):  
         """
         Trains a model on the given training data
         
@@ -140,8 +140,6 @@ class PCNN():
         """
 
         class model(nrekit.framework.re_model):
-            encoder = "pcnn"
-            selector = "ave"
 
             def __init__(self, train_data_loader, batch_size, max_length=120):
                 nrekit.framework.re_model.__init__(self, train_data_loader, batch_size, max_length=max_length)
@@ -212,7 +210,6 @@ class PCNN():
                     print("Finish calculating")
                 return weights_table
 
-        dataset_name = 'nyt'
         dataset_dir = os.path.join('./data', dataset_name)
         if not os.path.isdir(dataset_dir):
             raise Exception("[ERROR] Dataset dir %s doesn't exist!" % (dataset_dir))
@@ -231,13 +228,13 @@ class PCNN():
 
         framework = nrekit.framework.re_framework(train_loader, test_loader)
 
-        model.encoder = "pcnn"
-        model.selector = "ave"
+        model.encoder = encoder
+        model.selector = selector
 
-        framework.train(model, model_name=dataset_name + "_" + model.encoder + "_" + model.selector, max_epoch=1, ckpt_dir="checkpoint", gpu_nums=1)
+        framework.train(model, model_name=dataset_name + "_" + model.encoder + "_" + model.selector, max_epoch=epoch, ckpt_dir="checkpoint", gpu_nums=1)
         tf.keras.backend.clear_session()
 
-    def predict(self, test_data, entity_1 = None, entity_2= None,  trained_model = None, *args, **kwargs):   
+    def predict(self, encoder="pcnn", selector="ave", dataset_name = "nyt"):   
         """
         Predict on the trained model using test data
         Args:
@@ -251,9 +248,6 @@ class PCNN():
             relation: [tuple], list of tuples. (Eg - Entity 1, Relation, Entity 2) or in other format 
         """
         class model(nrekit.framework.re_model):
-            encoder = "pcnn"
-            selector = "ave"
-
             def __init__(self, train_data_loader, batch_size, max_length=120):
                 nrekit.framework.re_model.__init__(self, train_data_loader, batch_size, max_length=max_length)
                 self.mask = tf.placeholder(dtype=tf.int32, shape=[None, max_length], name="mask")
@@ -315,27 +309,26 @@ class PCNN():
                     print("Finish calculating")
                 return weights_table
 
-        dataset_name = 'nyt'
         dataset_dir = os.path.join('./data', dataset_name)
         if not os.path.isdir(dataset_dir):
             raise Exception("[ERROR] Dataset dir %s doesn't exist!" % (dataset_dir))
 
         # The first 3 parameters are train / test data file name, word embedding file name and relation-id mapping file name respectively.
         train_loader = nrekit.data_loader.json_file_data_loader(os.path.join(dataset_dir, 'train.json'), 
-                                                                os.path.join(dataset_dir, 'word_vec.json'),
+                                                                'word_vec.json',
                                                                 os.path.join(dataset_dir, 'rel2id.json'), 
                                                                 mode=nrekit.data_loader.json_file_data_loader.MODE_RELFACT_BAG,
                                                                 shuffle=True)
         test_loader = nrekit.data_loader.json_file_data_loader(os.path.join(dataset_dir, 'test.json'), 
-                                                               os.path.join(dataset_dir, 'word_vec.json'),
+                                                               'word_vec.json',
                                                                os.path.join(dataset_dir, 'rel2id.json'), 
                                                                mode=nrekit.data_loader.json_file_data_loader.MODE_ENTPAIR_BAG,
                                                                shuffle=False)
 
         framework = nrekit.framework.re_framework(train_loader, test_loader)
 
-        model.encoder = "pcnn"
-        model.selector = "ave"
+        model.encoder = encoder
+        model.selector = selector
 
         auc, pred_result = framework.test(model, ckpt="./checkpoint/" + dataset_name + "_" + model.encoder + "_" + model.selector, return_result=True)
 
@@ -343,7 +336,7 @@ class PCNN():
             json.dump(pred_result, outfile)
 
         ##### Output required format #########
-        with open("data/nyt/rel2id.json") as f:
+        with open("data/"+dataset_name+"/rel2id.json") as f:
             rel2id = json.load(f)
 
         id2rel = {}
@@ -394,7 +387,7 @@ class PCNN():
 
         return pred_ralations
 
-    def evaluate(self, input_data, trained_model = None, *args, **kwargs):
+    def evaluate(self, encoder="pcnn", selector="ave", dataset_name = "nyt"):
         """
         Evaluates the result based on the benchmark dataset and the evauation metrics  [Precision,Recall,F1, or others...]
          Args:
@@ -403,7 +396,7 @@ class PCNN():
         Returns:
             performance metrics: tuple with (p,r,f1) or similar...
         """
-        models = ["nyt_pcnn_ave"]
+        models = [dataset_name+"_"+encoder+"_"+selector]
         result_dir = './test_result'
         for model in models:
             x = np.load(os.path.join(result_dir, model +'_x' + '.npy')) 
@@ -411,10 +404,10 @@ class PCNN():
             f1 = (2 * x * y / (x + y + 1e-20)).max()
             auc = sklearn.metrics.auc(x=x, y=y)
             #plt.plot(x, y, lw=2, label=model + '-auc='+str(auc))
-            plt.plot(x, y, lw=2, label=model)
+            #plt.plot(x, y, lw=2, label=model)
             print(model + ' : ' + 'auc = ' + str(auc) + ' | ' + 'max F1 = ' + str(f1))
             print('    P@100: {} | P@200: {} | P@300: {} | Mean: {}'.format(y[100], y[200], y[300], (y[100] + y[200] + y[300]) / 3))
-           
+        """ 
         plt.xlabel('Recall')
         plt.ylabel('Precision')
         plt.ylim([0.3, 1.0])
@@ -423,17 +416,19 @@ class PCNN():
         plt.legend(loc="upper right")
         plt.grid(True)
         plt.savefig(os.path.join(result_dir, 'pr_curve'))
-
+        """
 
 if __name__ == '__main__':
     # instatiate the class
     myModel = PCNN()
     print "Reading dataset"
-    #myModel.read_dataset("foo")
-    data = None
+    dataset_name = "nyt"
+    encoder="pcnn"
+    selector="ave"
+    myModel.read_dataset(dataset_name)
     print "Training"
-    #myModel.train(None)
+    myModel.train(encoder, selector, dataset_name, epoch=1)
     print "Predicting"
-    predictions = myModel.predict(None)  # generate predictions! output format will be same for everyone
+    predictions = myModel.predict(encoder, selector, dataset_name)  # generate predictions! output format will be same for everyone
     print "Evaluating"
-    myModel.evaluate(None)
+    myModel.evaluate(encoder, selector, dataset_name)

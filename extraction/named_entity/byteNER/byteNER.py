@@ -267,7 +267,7 @@ class byteNER():
         callbacks = [metrics]
         return callbacks
 
-    def train(self, data):  
+    def train(self, data, nb_epochs=300):  
         """
         Trains a model on the given input data
         Args:
@@ -277,7 +277,7 @@ class byteNER():
         Raises:
             None
         """
-        args = ['--model_path', 'models/example.model', '--train_data_file', 'examples/train', '--dev_data_file', 'examples/dev', '--test_data_file', 'examples/test', '--nb_epochs', '300', '--batch_size', '10']
+        args = ['--model_path', 'models/example.model', '--train_data_file', 'examples/train', '--dev_data_file', 'examples/dev', '--test_data_file', 'examples/test', '--nb_epochs', str(nb_epochs), '--batch_size', '10']
 
         ####### Code from original byteNER #####
         parser = self.OptionParser()
@@ -877,10 +877,10 @@ if __name__ == '__main__':
     # read in a dataset for training
     data = myModel.read_dataset(file_dict, dataset_name)
 
-    #myModel.train(data)  # trains the model and stores model state in object properties or similar
+    myModel.train(data,nb_epochs=1)  # trains the model and stores model state in object properties or similar
     
-    #predictions = myModel.predict(data)  # generate predictions! output format will be same for everyone
-    #test_labels = myModel.convert_ground_truth(data)  #<-- need ground truth labels need to be in same format as predictions!
+    predictions = myModel.predict(data)  # generate predictions! output format will be same for everyone
+    test_labels = myModel.convert_ground_truth(data)  #<-- need ground truth labels need to be in same format as predictions!
 
-    #P,R,F1 = myModel.evaluate(predictions, test_labels)  # calculate Precision, Recall, F1
-    #print('Precision: %s, Recall: %s, F1: %s'%(P,R,F1))
+    P,R,F1 = myModel.evaluate(predictions, test_labels)  # calculate Precision, Recall, F1
+    print('Precision: %s, Recall: %s, F1: %s'%(P,R,F1))
