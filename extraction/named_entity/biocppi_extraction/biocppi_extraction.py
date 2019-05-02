@@ -373,10 +373,6 @@ class biocppi_extraction(Ner):
 
         butil.write_drtrnn_format_to_file(data,self.data_path_base +'test.txt')
         sentences,sentence_labels = butil.load_dataset(self.data_path_base +'test.txt')
-        print(len(sentences))
-        print(sentences[:10])
-        print(len(sentence_labels))
-        print(sentence_labels[:10])
 
         predFile = open(self.prediction_filename,'w')
         predictions = []
