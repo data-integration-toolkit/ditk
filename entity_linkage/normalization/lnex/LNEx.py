@@ -3,10 +3,12 @@ from entity_linkage.normalization.lnex import read_data
 from entity_linkage.normalization.lnex import eval_main
 
 
-import core as lnex
-import os,sys
 
-class LNEx(EntityNormalization):
+import os,sys
+sys.path.append("LNEx")
+import LNEx as lnex
+
+class LNExBase(EntityNormalization):
 
     @classmethod
     def read_dataset(cls, dataset_name, split_ratio=(1,0,0), options={}):
@@ -39,7 +41,7 @@ class LNEx(EntityNormalization):
         bbs = { "chennai": [12.74, 80.066986084, 13.2823848224, 80.3464508057]}
 
         dataset = "chennai"
-        #lnex.elasticindex(conn_string='localhost:9200', index_name="photon")
+        lnex.elasticindex(conn_string='localhost:9200', index_name="photon")
         geo_info = lnex.initialize( bbs[dataset], augmentType="HP",
                                     cache=False,
                                     dataset_name=dataset,
@@ -64,10 +66,12 @@ class LNEx(EntityNormalization):
             geo_info_id:  s   contains the attached metadata of all the matched
                              location names from the gazetteer
         '''
-        
+        output_list = []
         for tweet in test_set:
             for output in lnex.extract(tweet):
                 print(output[0], output[1], output[2], output[3]["main"])
+                temp = [output[0], output[1], output[2], output[3]["main"]]
+                output_list.append(temp)
             print("#"*50)
                   
         ditk_path = ""
@@ -75,16 +79,18 @@ class LNEx(EntityNormalization):
             if "ditk" in path:
                 ditk_path = path
                 
-        output_file = ditk_path+"/entity_linkage/normalization/sgtb/result/output.txt"
+        output_file = ditk_path+"/entity_linkage/normalization/lnex/result/output.txt"
         if not os.path.exists(os.path.dirname(output_file)):
             os.makedirs(os.path.dirname(output_file), exist_ok=True)
         
         with open(output_file, "w") as f:
             for tweet in test_set:
                 for output in lnex.extract(tweet):
-                    f.write(output[0] + ", " + output[1] + ", " + output[2] + ", " + output[3]["main"] + "\n")
+                    f.write(str(output[0]) + ", " + str(output[1]) + ", " + str(output[2]) + ", " + str(output[3]["main"]) + "\n")
         
-        return output
+        
+        
+        return output_list
         
     
     @classmethod

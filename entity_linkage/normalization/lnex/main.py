@@ -9,7 +9,7 @@ else:
 if module_path not in sys.path:
     sys.path.append(module_path)
 
-from LNEx import LNEx
+from LNEX import LNExBase
 
 
 def main(file_name):
@@ -17,7 +17,7 @@ def main(file_name):
     
 
     #instantiate the implemented class
-    lnex_obj = LNEx()
+    lnex_obj = LNExBase()
 
     # read data
     test_set,eval_set = lnex_obj.read_dataset(file_name)
@@ -32,7 +32,8 @@ def main(file_name):
     lnex_obj.predict(geo_info, test_set)
 
     # evaluation
-    lnex_obj.evaluate(geo_info, eval_set)
+    results = lnex_obj.evaluate(geo_info, eval_set)
+    print(results)
 
 
 if __name__ == "__main__":
@@ -41,6 +42,6 @@ if __name__ == "__main__":
     for path in sys.path:
         if "ditk" in path:
             ditk_path = path
-    print(ditk_path)
-    file_name = ditk_path+"/entity_linkage/normalization/lnex/test/sample_tweets.txt"
+    #print(ditk_path)
+    file_name = ditk_path+"/entity_linkage/normalization/lnex/test/sample_input.txt"
     main(file_name)
