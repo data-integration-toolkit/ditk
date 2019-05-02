@@ -21,13 +21,15 @@ https://github.com/text-machine-lab/CliNER
 
 <img src="/extraction/named_entity/ClinicalNER/image/appro2.png" width="700">
 
+- If you want to run the code in other dataset, please remember to change the labels in [documents.py](/extraction/named_entity/ClinicalNER/code/code/notes/documents.py)
+
 ## Input and Output
 - Input and output for prediction
 	* Input  
 		Word pos-tag chunk entity-type ...
 	* Output
 		Word true-entity-type predict-entity-type
-		
+
 	You can check the test folder for more information.
 
 - Input and output for training  

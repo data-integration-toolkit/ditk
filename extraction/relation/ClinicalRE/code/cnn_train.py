@@ -74,7 +74,7 @@ class CNN_Train(object):
 		time = list(range(len(W_tr)))
 		step = np.random.shuffle(time)
 		j = 0
-		for i in range(100):
+		for i in range(5000):
 			if(j >= len(W_tr)-batch_size):
 				j=0
 #			self.train_step(W_tr[step[j]], d1_tr[step[j]], d2_tr[step[j]], P_tr[step[j]], T_tr[step[j]], Y_tr[step[j]])
@@ -88,9 +88,9 @@ class CNN_Train(object):
 		y_true = np.argmax(Y_te, 1)
 		y_pred = pred
 		cnt = len(y_true)
-		tp = 5 + random.randint(1, 10)
-		fn = 2 + random.randint(1, 5)
-		fp = 5 + random.randint(1, 10)
+		tp = 0
+		fn = 0
+		fp = 0
 
 		for i in range(cnt):
 			if (y_pred[i] == 0):

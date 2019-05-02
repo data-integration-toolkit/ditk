@@ -20,7 +20,7 @@ https://github.com/sunilitggu/relation_extraction_in_clinical_text
 - Input and output for training  
 	* Input  
 		Sentence e1 e1Type e1StartPosition e1EndPosition e2 e2Type e2StartPosition e2EndPosition RelationType
-	* Output
+	* Output  
 		Precision, Recall & F1 Score
 		
 	You can check the test folder for more information.
