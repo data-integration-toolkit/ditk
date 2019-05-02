@@ -1,4 +1,4 @@
-# Non-Metric Space Library (NMSLIB)
+# Annoy (Approximate Nearest Neighbors Oh Yeah)
 - https://github.com/spotify/annoy
 
 ## Original Code
