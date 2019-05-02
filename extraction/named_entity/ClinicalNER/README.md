@@ -19,13 +19,19 @@ https://github.com/text-machine-lab/CliNER
 	* Use GloVe to form a rich word- and character- level representation
 
 
-<img src="/extraction/named_entity/ClinicalNER/image/appro1.png" width="600">
+<img src="/extraction/named_entity/ClinicalNER/image/appro2.png" width="700">
 
 ## Input and Output
-- Input and output for Prediction
+- Input and output for prediction
+	* Input  
+		Word pos-tag chunk entity-type ...
+	* Output
+		Word true-entity-type predict-entity-type
+	You can check the test folder for more information.
 
-- Input and output for Training
-Same as Prediction
+- Input and output for training  
+	Same as Prediction
+
 
 ## Evalution
 ### Evaluation Datasets
