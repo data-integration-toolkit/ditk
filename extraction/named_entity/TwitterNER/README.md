@@ -40,6 +40,6 @@ cd ..
 
 ### Further Links
 Jupyter Notebook: 
-Youtube Video: 
-Auto-generated Documentation: https://dbaumgarten.github.io/FToDTF/
-Architecture Documentation: https://github.com/dbaumgarten/FToDTF/blob/master/docs/architecture/architecture.md
+[Youtube Video](https://www.youtube.com/watch?v=JqRkLCnKGQs&feature=youtu.be)
+[Auto-generated Documentation](https://dbaumgarten.github.io/FToDTF/)
+[Architecture Documentation](https://github.com/dbaumgarten/FToDTF/blob/master/docs/architecture/architecture.md)
