@@ -31,7 +31,7 @@ cd ..
 * All the datasets can be found in the TwitterNER/data folder. 
 
 ### Evaluation Datasets
-![Image description] https://github.com/KhadijaZavery/ditk/blob/develop-py2/extraction/named_entity/TwitterNER/datasets.png
+![Image description](https://github.com/KhadijaZavery/ditk/blob/develop-py2/extraction/named_entity/TwitterNER/datasets.png)
 
 ### Evaluation Metrics
 1. Precision
