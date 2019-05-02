@@ -45,10 +45,12 @@ Semantic Comparison of Words and Texts for Semantic Textual Similarity.
 4.   SemEval 2014, Task 10
 2,500 English sentences annotated with relatedness in meaning. 
 
-### Evaluation Metrics
+### Evaluation Metrics & Results
 1. Pearson Relation
 2. Mean Square Error 
 3. Spearman Correlation
+
+![Image description](https://github.com/KhadijaZavery/ditk/blob/develop/text/embedding/FToDTF/metrics.png)
 
 ### Further Links
 Jupyter Notebook: 
