@@ -101,7 +101,7 @@ Graphs plotting Accuracies anf F1 scores for Google Analogy Dataset and CoNLL 20
 
 Video Demonstration
 -------------------
-
+https://www.youtube.com/watch?v=BnPU1jUyswM&feature=youtu.be
 
 Jupyter Notebook Link
 ---------------------
