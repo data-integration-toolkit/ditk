@@ -26,6 +26,7 @@ def load_dataset(fname):
                 vocab.append(t)
         
         output.append((tokens, labels))
+    return output
 
 
 def write_drtrnn_format_to_file(data,outputFilePath):
