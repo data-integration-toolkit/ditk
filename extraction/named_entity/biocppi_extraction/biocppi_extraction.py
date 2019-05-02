@@ -589,41 +589,45 @@ class biocppi_extraction(Ner):
         #instantiate a model!
 
         # test params:
-        test_params = {'n_iter':501,'m_report':100,'save_checkpoint_files':False}
-        drtrnn = disease_name_recognition_through_rnn(**test_params)
-
-        # print('input file: %s'%inputFilePath)
-
-        # print(type(myModel))
+        embeddings_path = '/home/kcrouch/USC/csci_548/project/groupedProject/bioNER_refactor/biocppi_extraction/embeddings/PubMed-w2v.txt'  # REMOVE FOR SUBMIT
+        test_params = {'num_ensembles':2,'num_iterations':101,'num_it_per_ckpt':1000000}  # note, it num_it_per_ckpt > num_iterations then num_it_per_ckpt will be set to half of num_iterations
+        test_params = {'num_ensembles':2,'num_iterations':101,'num_it_per_ckpt':1000000,'batch_size':2}  # for unittest, use small batch size
+        biocppi = biocppi_extraction(embeddings_path=embeddings_path,**test_params)
 
         # convert dataset to properformat used by training
         # 1] read_dataset()
-        file_dict = {'train':{'data':inputFilePath},'dev':{},'test':{}}
-        dataset_name = 'unittest'
-        data = drtrnn.read_dataset(file_dict, dataset_name)  # data read, converted, and written to files in proper location expected by train
-        # 2] intermediate step, generate *_tags files, *_words files, vocab file
 
+        # test unittest...good!
+        dataset_name = 'unittest'
+        file_dict = {'train':{'data':inputFilePath},'dev':{},'test':{}}
+        
+        data = biocppi.read_dataset(file_dict, dataset_name)  # data read, converted, and written to files in proper location expected by train
+    
+        # UNCOMMENT for submit!
         # train model
-        #data = []
-        data_train = data['train']  # test passing of actual data
-        drtrnn.train(data_train)
+        #data = []  # implementation
+        data_train = data['train']  # test passing actual data [empty also works]
+        biocppi.train(data_train)
+        print('DONE TRAIN')
 
         # predict using trained model
-        data_test = data['test']  # test passing of actual data
-        drtrnn.predict(data_test)
+        data_test = data['test']
+        predictions = biocppi.predict(data_test)  # test passing actual data [empty also works]
+        print('DONE PREDICT')
 
+        
         outputPredictionsFile = 'predictions.txt'
-        finalOutputFile = butil.copy_predictions_to_predictions_with_header(raw_predictions_filename=outputPredictionsFile)
-
+        finalOutputFile = copy_predictions_to_predictions_with_header(raw_predictions_filename=outputPredictionsFile)
+        
         # read from predictions file for evaluate
-        evaluation_results = self.evaluate(None,None)
+        evaluation_results = biocppi.evaluate(None,None)
 
         # use direct data for evaluate
         # groundTruths = load_groundTruth_from_predictions(raw_predictions_filename=outputPredictionsFile)
-        # evaluation_results = drtrnn.evaluate(predictions,groundTruths)
+        # evaluation_results = biocppi.evaluate(predictions,groundTruths)
 
         print('%s'%str(evaluation_results))
-    
+
         return finalOutputFile  # NOT FULLY IMPLEMENTED
 
 

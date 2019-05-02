@@ -1,11 +1,11 @@
 import unittest
 import pandas as pd
-from disease_name_recognition_through_rnn import disease_name_recognition_through_rnn
+from biocppi_extraction import biocppi_extraction
 
 class TestNERMethods(unittest.TestCase):
 
     def setUp(self):
-        self.ner = disease_name_recognition_through_rnn() #Your implementation of NER
+        self.ner = biocppi_extraction() #Your implementation of NER
         self.input_file = 'test/sample_input.txt'
         self.output_file = self.ner.unittest_main(self.input_file)
 
