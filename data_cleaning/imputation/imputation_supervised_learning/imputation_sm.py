@@ -211,7 +211,7 @@ class Imputation_with_supervised_learning():
             del data_bin
 
 
-    def impute(self, data_X, trained_model=None, cat_values = False, *args, **kwargs):
+    def impute(self, data_X, cat_values = False, trained_model=None, *args, **kwargs):
         """
         Contains function calls to imputation methods (Random replace, Feature summary, One hot, Random Forest, SVM, Logistic Regression, Factor Analysis, knn). 
         

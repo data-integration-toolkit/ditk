@@ -36,7 +36,7 @@ def main(filename):
     else:
         obj = Imputation_with_supervised_learning()
         input_data = obj.preprocess(filename, header, missing_values, categorical_values)
-        output_filename = obj.impute(input_data, dataname)
+        output_filename = obj.impute(input_data)
     print output_filename
     
 
