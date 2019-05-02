@@ -34,3 +34,13 @@ class RelationExtraction(abc.ABC):
     @abc.abstractmethod
     def evaluate(self, input_data, trained_model=None, *args, **kwargs):
         pass
+    
+    @classmethod
+    @abc.abstractmethod
+    def save_model(self, file):
+        pass
+
+    @classmethod
+    @abc.abstractmethod
+    def load_model(self, file):
+        pass
