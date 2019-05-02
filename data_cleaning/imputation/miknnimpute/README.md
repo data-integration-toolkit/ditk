@@ -1,7 +1,8 @@
 # MIKNN Impute
-Data can be found in "imputation/data"
-MIKNNImpute is compatible with all three datasets
-*Note: This code assumes that the headers of the data is removed
+- Datasets can be found in "imputation/data"
+- MIKNNImpute is compatible with all three datasets
+- *Note: This code assumes that the headers of the data is removed
+- To run the code on your own dataset, place the csv file in the 'data' directory in the parent folder ("imputation/data") and provide the file name as a function parameter to the 'main' function in the python file 'main.py'
 
 ### Title of the paper
 K nearest neighbours with mutual information for simultaneous classification and missing data imputation
@@ -13,8 +14,7 @@ K nearest neighbours with mutual information for simultaneous classification and
 [iskandr/fancyimpute](https://github.com/iskandr/fancyimpute)
 
 ## Description
-- A paragraph describing the overall task, the method and model
-Task: Data Imputation using MI K-Nearest Neighbors Algorithm
+- Task: Data Imputation using MI K-Nearest Neighbors Algorithm <br />
 Approach:
 * Input is filled numerical dataset
 * Introduce missingness randomly 
@@ -23,33 +23,32 @@ Approach:
 	* If we consider row A that has one missing value in column 1, this method would find K other rows, which have a value present in column 1, with expression most similar to A in columns 2–N (where N is the total number of columns). 
 	* The weighted average of values (with closer neighbors having greater weights) in column 1 from the K closest rows is then used as an estimate for the missing value in row A.
 
-- A figure describing the model if possible
-<p align="center"><img width="100%" src="img/figure.png" /></p>
+<p align="center"><img src="img/figure.png" /></p>
 
 ## Input and Output
-Input: Table[relation] as .csv file
-Output: Imputed Table[relation] as .csv file
+Input: Table[relation] as .csv file <br />
+Output: Imputed Table[relation] as .csv file <br />
 
 ## Evalution
 - Benchmark datasets (complete, numerical) 
 1. Letter Recognition: http://archive.ics.uci.edu/ml/datasets/Letter+Recognition
-> 20000*16 [rows * columns]
+> 20000 x 16 [rows x columns]
 > Features are various parameters of 26 alphabet images
 2. Breast Cancer (Diagnostic): http://archive.ics.uci.edu/ml/datasets/breast+cancer
-> 569*32 [rows*columns] 
+> 569 x 32 [rows x columns] 
 > Contains features from digitized images
 3. Spam-base: http://archive.ics.uci.edu/ml/datasets/spambase
-> 4601*52 [rows*columns] 
+> 4601 x 52 [rows x columns] 
 > Contains features about e-mails and class label: spam/not spam
 
 - Evaluation metrics and results
-Evaluation Metric: Root Mean Square Error (RMSE) 
-Results:
-<p align="center"><img width="100%" src="img/results.png" /></p>
+- Evaluation Metric: Root Mean Square Error (RMSE) 
+- Results:
+<p align="center"><img src="img/results.PNG" /></p>
 
 ## Demo
 - Link to the Jupyter Notebook 
-[Jupyter Notebook](https://github.com/hemkeshv/ditk/blob/develop/data_cleaning/imputation/knnimpute/miknn.ipynb)
+[Jupyter Notebook](https://github.com/hemkeshv/ditk/blob/develop/data_cleaning/imputation/miknnimpute/miknnimpute.ipynb)
 - Link to the video on Youtube
 [YouTube Video](https://youtu.be/OTAKx1eVuVc)
 
