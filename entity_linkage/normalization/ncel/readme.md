@@ -47,10 +47,11 @@ F1 score (Micro and Macro)
 
 
 Results: 
-Datasets	F1(Micro)	F1(Macro)
-CoNLL 	71	66
-WW	72	68
-TAC2010	87	84
+Datasets | F1(Micro) | F1(Macro)
+:--- | :---: | :---: 
+CoNLL 	| 71	| 66
+WW | 	72	| 68
+TAC2010	| 87	| 84
 
 
 Link to Youtube video:  https://youtu.be/mL0dXa755r8
