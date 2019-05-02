@@ -775,10 +775,14 @@ class RESIDE(RelationExtraction):
 
 			if step % 100 == 0:
 				self.logger.info('{} ({}/{}):\t{:.5}\t{:.5}\t{}'.format(label, bag_cnt, len(self.data['test']), np.mean(accuracies)*100, np.mean(losses), self.p.name))
-				print("Predicted relation ",np.argmax(y_pred))
-				print("Actual relation",np.argmax(y))
-				f.write("Predicted relation:" + str(np.argmax(y_pred)) + "\n")
-				f.write("Actual relation:" + str(np.argmax(y_pred)) + "\n")
+				x_pred = np.argmax(y_pred)
+				x_actual = np.argmax(y)
+
+				print("Predicted relation ",str(x_pred))
+				print("Actual relation",str(x_actual))
+
+				f.write("Predicted relation:" + str(x_pred) + "\n")
+				f.write("Actual relation:" + str(x_actual) + "\n")
 
 
 
@@ -1119,7 +1123,9 @@ def main(input_file_path):
 		model.fit(sess)
 
 if '__main__' == __name__:
+	f = open("output.txt","a")
 	main('./data/riedel_processed.pkl')
+	f.close()
 
 
 
