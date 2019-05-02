@@ -1,0 +1,225 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="DDI-DrugBank.d415">
+    <sentence id="DDI-DrugBank.d415.s0" text="Coumarin-Type Anticoagulants: Several short-term controlled studies failed to wshow that ibuprofen significantly affected prothrombin times or a variety of other clotting factors when administered to individuals on coumarin-type anticoagulants.">
+        <entity id="DDI-DrugBank.d415.s0.e0" charOffset="0-27"
+            type="group" text="Coumarin-Type Anticoagulants"/>
+        <entity id="DDI-DrugBank.d415.s0.e1" charOffset="89-97"
+            type="drug" text="ibuprofen"/>
+        <entity id="DDI-DrugBank.d415.s0.e2" charOffset="215-242"
+            type="group" text="coumarin-type anticoagulants"/>
+        <pair id="DDI-DrugBank.d415.s0.p0" e1="DDI-DrugBank.d415.s0.e0"
+            e2="DDI-DrugBank.d415.s0.e1" ddi="false"/>
+        <pair id="DDI-DrugBank.d415.s0.p1" e1="DDI-DrugBank.d415.s0.e0"
+            e2="DDI-DrugBank.d415.s0.e2" ddi="false"/>
+        <pair id="DDI-DrugBank.d415.s0.p2" e1="DDI-DrugBank.d415.s0.e1"
+            e2="DDI-DrugBank.d415.s0.e2" ddi="false"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d415.s1" text="However, because bleeding has been reported when ibuprofen and other nonsteroidal anti-inflammatory agents have been administered to patients on coumarin-type anticoagulants, the physician should be cautious when administering ibuprofen to patients on anticoagulants.">
+        <entity id="DDI-DrugBank.d415.s1.e0" charOffset="49-57"
+            type="drug" text="ibuprofen"/>
+        <entity id="DDI-DrugBank.d415.s1.e1" charOffset="69-105"
+            type="group" text="nonsteroidal anti-inflammatory agents"/>
+        <entity id="DDI-DrugBank.d415.s1.e2" charOffset="145-172"
+            type="group" text="coumarin-type anticoagulants"/>
+        <entity id="DDI-DrugBank.d415.s1.e3" charOffset="227-235"
+            type="drug" text="ibuprofen"/>
+        <entity id="DDI-DrugBank.d415.s1.e4" charOffset="252-265"
+            type="group" text="anticoagulants"/>
+        <pair id="DDI-DrugBank.d415.s1.p0" e1="DDI-DrugBank.d415.s1.e0"
+            e2="DDI-DrugBank.d415.s1.e1" ddi="false"/>
+        <pair id="DDI-DrugBank.d415.s1.p1" e1="DDI-DrugBank.d415.s1.e0"
+            e2="DDI-DrugBank.d415.s1.e2" ddi="true" type="effect"/>
+        <pair id="DDI-DrugBank.d415.s1.p2" e1="DDI-DrugBank.d415.s1.e0"
+            e2="DDI-DrugBank.d415.s1.e3" ddi="false"/>
+        <pair id="DDI-DrugBank.d415.s1.p3" e1="DDI-DrugBank.d415.s1.e0"
+            e2="DDI-DrugBank.d415.s1.e4" ddi="false"/>
+        <pair id="DDI-DrugBank.d415.s1.p4" e1="DDI-DrugBank.d415.s1.e1"
+            e2="DDI-DrugBank.d415.s1.e2" ddi="true" type="effect"/>
+        <pair id="DDI-DrugBank.d415.s1.p5" e1="DDI-DrugBank.d415.s1.e1"
+            e2="DDI-DrugBank.d415.s1.e3" ddi="false"/>
+        <pair id="DDI-DrugBank.d415.s1.p6" e1="DDI-DrugBank.d415.s1.e1"
+            e2="DDI-DrugBank.d415.s1.e4" ddi="false"/>
+        <pair id="DDI-DrugBank.d415.s1.p7" e1="DDI-DrugBank.d415.s1.e2"
+            e2="DDI-DrugBank.d415.s1.e3" ddi="false"/>
+        <pair id="DDI-DrugBank.d415.s1.p8" e1="DDI-DrugBank.d415.s1.e2"
+            e2="DDI-DrugBank.d415.s1.e4" ddi="false"/>
+        <pair id="DDI-DrugBank.d415.s1.p9" e1="DDI-DrugBank.d415.s1.e3"
+            e2="DDI-DrugBank.d415.s1.e4" ddi="true" type="advise"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d415.s2" text="Aspirin: Animal studies wshow that aspirin given with nonsteroidal anti-inflammatory agents, including ibuprofen, yields a net decrease in anti-inflammatory activity with lowered blood levels of the non-aspirin drug.">
+        <entity id="DDI-DrugBank.d415.s2.e0" charOffset="0-6"
+            type="brand" text="Aspirin"/>
+        <entity id="DDI-DrugBank.d415.s2.e1" charOffset="35-41"
+            type="brand" text="aspirin"/>
+        <entity id="DDI-DrugBank.d415.s2.e2" charOffset="54-90"
+            type="group" text="nonsteroidal anti-inflammatory agents"/>
+        <entity id="DDI-DrugBank.d415.s2.e3" charOffset="103-111"
+            type="drug" text="ibuprofen"/>
+        <pair id="DDI-DrugBank.d415.s2.p0" e1="DDI-DrugBank.d415.s2.e0"
+            e2="DDI-DrugBank.d415.s2.e1" ddi="false"/>
+        <pair id="DDI-DrugBank.d415.s2.p1" e1="DDI-DrugBank.d415.s2.e0"
+            e2="DDI-DrugBank.d415.s2.e2" ddi="false"/>
+        <pair id="DDI-DrugBank.d415.s2.p2" e1="DDI-DrugBank.d415.s2.e0"
+            e2="DDI-DrugBank.d415.s2.e3" ddi="false"/>
+        <pair id="DDI-DrugBank.d415.s2.p3" e1="DDI-DrugBank.d415.s2.e1"
+            e2="DDI-DrugBank.d415.s2.e2" ddi="true" type="effect"/>
+        <pair id="DDI-DrugBank.d415.s2.p4" e1="DDI-DrugBank.d415.s2.e1"
+            e2="DDI-DrugBank.d415.s2.e3" ddi="true" type="effect"/>
+        <pair id="DDI-DrugBank.d415.s2.p5" e1="DDI-DrugBank.d415.s2.e2"
+            e2="DDI-DrugBank.d415.s2.e3" ddi="false"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d415.s3" text="Single dose bioavailability studies in normal volunteers have failed to wshow an effect of aspirin on ibuprofen blood levels.">
+        <entity id="DDI-DrugBank.d415.s3.e0" charOffset="91-97"
+            type="brand" text="aspirin"/>
+        <entity id="DDI-DrugBank.d415.s3.e1" charOffset="102-110"
+            type="drug" text="ibuprofen"/>
+        <pair id="DDI-DrugBank.d415.s3.p0" e1="DDI-DrugBank.d415.s3.e0"
+            e2="DDI-DrugBank.d415.s3.e1" ddi="false"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d415.s4" text="Correlative clinical studies have not been performed."/>
+    <sentence id="DDI-DrugBank.d415.s5" text="Methotrexate: Ibuprofen, as well as other nonsteroidal anti-inflammatory drugs, probably reduces the tubular secretion of methotrexate based on in vitro studies in rabbit kidney slices.">
+        <entity id="DDI-DrugBank.d415.s5.e0" charOffset="0-11"
+            type="drug" text="Methotrexate"/>
+        <entity id="DDI-DrugBank.d415.s5.e1" charOffset="14-22"
+            type="drug" text="Ibuprofen"/>
+        <entity id="DDI-DrugBank.d415.s5.e2" charOffset="42-77"
+            type="group" text="nonsteroidal anti-inflammatory drugs"/>
+        <entity id="DDI-DrugBank.d415.s5.e3" charOffset="122-133"
+            type="drug" text="methotrexate"/>
+        <pair id="DDI-DrugBank.d415.s5.p0" e1="DDI-DrugBank.d415.s5.e0"
+            e2="DDI-DrugBank.d415.s5.e1" ddi="false"/>
+        <pair id="DDI-DrugBank.d415.s5.p1" e1="DDI-DrugBank.d415.s5.e0"
+            e2="DDI-DrugBank.d415.s5.e2" ddi="false"/>
+        <pair id="DDI-DrugBank.d415.s5.p2" e1="DDI-DrugBank.d415.s5.e0"
+            e2="DDI-DrugBank.d415.s5.e3" ddi="false"/>
+        <pair id="DDI-DrugBank.d415.s5.p3" e1="DDI-DrugBank.d415.s5.e1"
+            e2="DDI-DrugBank.d415.s5.e2" ddi="false"/>
+        <pair id="DDI-DrugBank.d415.s5.p4" e1="DDI-DrugBank.d415.s5.e1"
+            e2="DDI-DrugBank.d415.s5.e3" ddi="true" type="mechanism"/>
+        <pair id="DDI-DrugBank.d415.s5.p5" e1="DDI-DrugBank.d415.s5.e2"
+            e2="DDI-DrugBank.d415.s5.e3" ddi="true" type="mechanism"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d415.s6" text="This may indicate that ibuprofen could enhance the toxicity of methotrexate.">
+        <entity id="DDI-DrugBank.d415.s6.e0" charOffset="23-31"
+            type="drug" text="ibuprofen"/>
+        <entity id="DDI-DrugBank.d415.s6.e1" charOffset="63-74"
+            type="drug" text="methotrexate"/>
+        <pair id="DDI-DrugBank.d415.s6.p0" e1="DDI-DrugBank.d415.s6.e0"
+            e2="DDI-DrugBank.d415.s6.e1" ddi="true" type="effect"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d415.s7" text="Caution should be used if ibuprofen is administered concomitantly with methotrexate.">
+        <entity id="DDI-DrugBank.d415.s7.e0" charOffset="26-34"
+            type="drug" text="ibuprofen"/>
+        <entity id="DDI-DrugBank.d415.s7.e1" charOffset="71-82"
+            type="drug" text="methotrexate"/>
+        <pair id="DDI-DrugBank.d415.s7.p0" e1="DDI-DrugBank.d415.s7.e0"
+            e2="DDI-DrugBank.d415.s7.e1" ddi="true" type="advise"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d415.s8" text="H-2 Antagonists: In studies with human volunteers, co-administration of cimetidine or ranitidine with ibuprofen had no substantive effect on ibuprofen serum concentrations.">
+        <entity id="DDI-DrugBank.d415.s8.e0" charOffset="72-81"
+            type="drug" text="cimetidine"/>
+        <entity id="DDI-DrugBank.d415.s8.e1" charOffset="86-95"
+            type="drug" text="ranitidine"/>
+        <entity id="DDI-DrugBank.d415.s8.e2" charOffset="102-110"
+            type="drug" text="ibuprofen"/>
+        <entity id="DDI-DrugBank.d415.s8.e3" charOffset="141-149"
+            type="drug" text="ibuprofen"/>
+        <pair id="DDI-DrugBank.d415.s8.p0" e1="DDI-DrugBank.d415.s8.e0"
+            e2="DDI-DrugBank.d415.s8.e1" ddi="false"/>
+        <pair id="DDI-DrugBank.d415.s8.p1" e1="DDI-DrugBank.d415.s8.e0"
+            e2="DDI-DrugBank.d415.s8.e2" ddi="false"/>
+        <pair id="DDI-DrugBank.d415.s8.p2" e1="DDI-DrugBank.d415.s8.e0"
+            e2="DDI-DrugBank.d415.s8.e3" ddi="false"/>
+        <pair id="DDI-DrugBank.d415.s8.p3" e1="DDI-DrugBank.d415.s8.e1"
+            e2="DDI-DrugBank.d415.s8.e2" ddi="false"/>
+        <pair id="DDI-DrugBank.d415.s8.p4" e1="DDI-DrugBank.d415.s8.e1"
+            e2="DDI-DrugBank.d415.s8.e3" ddi="false"/>
+        <pair id="DDI-DrugBank.d415.s8.p5" e1="DDI-DrugBank.d415.s8.e2"
+            e2="DDI-DrugBank.d415.s8.e3" ddi="false"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d415.s9" text="Furosemide: Clinical studies, as well as random observations, have shown that ibuprofen can reduce the natriuretic effect of furosemide and thiazides in some patients.">
+        <entity id="DDI-DrugBank.d415.s9.e0" charOffset="0-9"
+            type="drug" text="Furosemide"/>
+        <entity id="DDI-DrugBank.d415.s9.e1" charOffset="78-86"
+            type="drug" text="ibuprofen"/>
+        <entity id="DDI-DrugBank.d415.s9.e2" charOffset="125-134"
+            type="drug" text="furosemide"/>
+        <entity id="DDI-DrugBank.d415.s9.e3" charOffset="140-148"
+            type="group" text="thiazides"/>
+        <pair id="DDI-DrugBank.d415.s9.p0" e1="DDI-DrugBank.d415.s9.e0"
+            e2="DDI-DrugBank.d415.s9.e1" ddi="false"/>
+        <pair id="DDI-DrugBank.d415.s9.p1" e1="DDI-DrugBank.d415.s9.e0"
+            e2="DDI-DrugBank.d415.s9.e2" ddi="false"/>
+        <pair id="DDI-DrugBank.d415.s9.p2" e1="DDI-DrugBank.d415.s9.e0"
+            e2="DDI-DrugBank.d415.s9.e3" ddi="false"/>
+        <pair id="DDI-DrugBank.d415.s9.p3" e1="DDI-DrugBank.d415.s9.e1"
+            e2="DDI-DrugBank.d415.s9.e2" ddi="true" type="effect"/>
+        <pair id="DDI-DrugBank.d415.s9.p4" e1="DDI-DrugBank.d415.s9.e1"
+            e2="DDI-DrugBank.d415.s9.e3" ddi="true" type="effect"/>
+        <pair id="DDI-DrugBank.d415.s9.p5" e1="DDI-DrugBank.d415.s9.e2"
+            e2="DDI-DrugBank.d415.s9.e3" ddi="false"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d415.s10" text="This response has been attributed to inhibition of renal prostaglandin synthesis."/>
+    <sentence id="DDI-DrugBank.d415.s11" text="During concomitant therapy with ibuprofen, the patient should be observed closely for signs of renal failure, as well as to assure diuretic efficacy.">
+        <entity id="DDI-DrugBank.d415.s11.e0" charOffset="32-40"
+            type="drug" text="ibuprofen"/>
+        <entity id="DDI-DrugBank.d415.s11.e1" charOffset="131-138"
+            type="group" text="diuretic"/>
+        <pair id="DDI-DrugBank.d415.s11.p0"
+            e1="DDI-DrugBank.d415.s11.e0" e2="DDI-DrugBank.d415.s11.e1" ddi="false"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d415.s12" text="Lithium: Ibuprofen produced an elevation of plasma lithium levels and a reduction in renal lithium clearance in a study of eleven normal volunteers.">
+        <entity id="DDI-DrugBank.d415.s12.e0" charOffset="0-6"
+            type="drug" text="Lithium"/>
+        <entity id="DDI-DrugBank.d415.s12.e1" charOffset="9-17"
+            type="drug" text="Ibuprofen"/>
+        <entity id="DDI-DrugBank.d415.s12.e2" charOffset="51-57"
+            type="drug" text="lithium"/>
+        <entity id="DDI-DrugBank.d415.s12.e3" charOffset="91-97"
+            type="drug" text="lithium"/>
+        <pair id="DDI-DrugBank.d415.s12.p0"
+            e1="DDI-DrugBank.d415.s12.e0" e2="DDI-DrugBank.d415.s12.e1" ddi="false"/>
+        <pair id="DDI-DrugBank.d415.s12.p1"
+            e1="DDI-DrugBank.d415.s12.e0" e2="DDI-DrugBank.d415.s12.e2" ddi="false"/>
+        <pair id="DDI-DrugBank.d415.s12.p2"
+            e1="DDI-DrugBank.d415.s12.e0" e2="DDI-DrugBank.d415.s12.e3" ddi="false"/>
+        <pair id="DDI-DrugBank.d415.s12.p3"
+            e1="DDI-DrugBank.d415.s12.e1" e2="DDI-DrugBank.d415.s12.e2"
+            ddi="true" type="mechanism"/>
+        <pair id="DDI-DrugBank.d415.s12.p4"
+            e1="DDI-DrugBank.d415.s12.e1" e2="DDI-DrugBank.d415.s12.e3" ddi="false"/>
+        <pair id="DDI-DrugBank.d415.s12.p5"
+            e1="DDI-DrugBank.d415.s12.e2" e2="DDI-DrugBank.d415.s12.e3" ddi="false"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d415.s13" text="The mean minimum lithium concentration increased 15% and the renal clearance of lithium was decreased by 19% during this period of concomitant drug administration.">
+        <entity id="DDI-DrugBank.d415.s13.e0" charOffset="17-23"
+            type="drug" text="lithium"/>
+        <entity id="DDI-DrugBank.d415.s13.e1" charOffset="80-86"
+            type="drug" text="lithium"/>
+        <pair id="DDI-DrugBank.d415.s13.p0"
+            e1="DDI-DrugBank.d415.s13.e0" e2="DDI-DrugBank.d415.s13.e1" ddi="false"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d415.s14" text="This effect has been attributed to inhibition of renal prostaglandin synthesis by ibuprofen.">
+        <entity id="DDI-DrugBank.d415.s14.e0" charOffset="82-90"
+            type="drug" text="ibuprofen"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d415.s15" text="Thus, when ibuprofen and lithium are administered concurrently, subjects should be observed carefully for signs of lithium toxicity.">
+        <entity id="DDI-DrugBank.d415.s15.e0" charOffset="11-19"
+            type="drug" text="ibuprofen"/>
+        <entity id="DDI-DrugBank.d415.s15.e1" charOffset="25-31"
+            type="drug" text="lithium"/>
+        <entity id="DDI-DrugBank.d415.s15.e2" charOffset="115-121"
+            type="drug" text="lithium"/>
+        <pair id="DDI-DrugBank.d415.s15.p0"
+            e1="DDI-DrugBank.d415.s15.e0" e2="DDI-DrugBank.d415.s15.e1"
+            ddi="true" type="advise"/>
+        <pair id="DDI-DrugBank.d415.s15.p1"
+            e1="DDI-DrugBank.d415.s15.e0" e2="DDI-DrugBank.d415.s15.e2" ddi="false"/>
+        <pair id="DDI-DrugBank.d415.s15.p2"
+            e1="DDI-DrugBank.d415.s15.e1" e2="DDI-DrugBank.d415.s15.e2" ddi="false"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d415.s16" text="(Read circulars for lithium preparation before use of such concurrent therapy).">
+        <entity id="DDI-DrugBank.d415.s16.e0" charOffset="20-26"
+            type="drug" text="lithium"/>
+    </sentence>
+</document>

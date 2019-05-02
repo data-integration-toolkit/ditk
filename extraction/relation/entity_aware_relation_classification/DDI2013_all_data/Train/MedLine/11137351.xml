@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="DDI-MedLine.d58">
+    <sentence id="DDI-MedLine.d58.s0" text="Effect of ginsenosides on voltage-dependent Ca(2+) channel subtypes in bovine chromaffin cells.&#xd;&#xa;">
+        <entity id="DDI-MedLine.d58.s0.e0" charOffset="10-21"
+            type="drug_n" text="ginsenosides"/>
+    </sentence>
+    <sentence id="DDI-MedLine.d58.s1" text="In previous reports we have shown that ginsenosides inhibit high threshold voltage-dependent Ca(2+) channels in neuronal cells. ">
+        <entity id="DDI-MedLine.d58.s1.e0" charOffset="39-50"
+            type="drug_n" text="ginsenosides"/>
+    </sentence>
+    <sentence id="DDI-MedLine.d58.s2" text="However, these studies did not show whether ginsenosides-induced inhibition of Ca(2+) currents discriminates among the various Ca(2+) channel subtypes, although it is known that there are at least five different Ca(2+) channel subtypes in neuronal cells. ">
+        <entity id="DDI-MedLine.d58.s2.e0" charOffset="44-55"
+            type="drug_n" text="ginsenosides"/>
+    </sentence>
+    <sentence id="DDI-MedLine.d58.s3" text="In this study we investigated the effect of ginsenosides on high threshold voltage-dependent Ca(2+) channel subtypes using their selective Ca(2+) channel blockers nimodipine (L-type), omega-conotoxin GVIA (N-type), or omega-agatoxin IVA (P-type) in bovine chromaffin cells. ">
+        <entity id="DDI-MedLine.d58.s3.e0" charOffset="44-55"
+            type="drug_n" text="ginsenosides"/>
+        <entity id="DDI-MedLine.d58.s3.e1" charOffset="129-161"
+            type="group" text="selective Ca(2+) channel blockers"/>
+        <entity id="DDI-MedLine.d58.s3.e2" charOffset="163-172"
+            type="drug" text="nimodipine"/>
+        <entity id="DDI-MedLine.d58.s3.e3" charOffset="184-203"
+            type="drug_n" text="omega-conotoxin GVIA"/>
+        <entity id="DDI-MedLine.d58.s3.e4" charOffset="218-235"
+            type="drug_n" text="omega-agatoxin IVA"/>
+        <pair id="DDI-MedLine.d58.s3.p0" e1="DDI-MedLine.d58.s3.e0"
+            e2="DDI-MedLine.d58.s3.e1" ddi="false"/>
+        <pair id="DDI-MedLine.d58.s3.p1" e1="DDI-MedLine.d58.s3.e0"
+            e2="DDI-MedLine.d58.s3.e2" ddi="false"/>
+        <pair id="DDI-MedLine.d58.s3.p2" e1="DDI-MedLine.d58.s3.e0"
+            e2="DDI-MedLine.d58.s3.e3" ddi="false"/>
+        <pair id="DDI-MedLine.d58.s3.p3" e1="DDI-MedLine.d58.s3.e0"
+            e2="DDI-MedLine.d58.s3.e4" ddi="false"/>
+        <pair id="DDI-MedLine.d58.s3.p4" e1="DDI-MedLine.d58.s3.e1"
+            e2="DDI-MedLine.d58.s3.e2" ddi="false"/>
+        <pair id="DDI-MedLine.d58.s3.p5" e1="DDI-MedLine.d58.s3.e1"
+            e2="DDI-MedLine.d58.s3.e3" ddi="false"/>
+        <pair id="DDI-MedLine.d58.s3.p6" e1="DDI-MedLine.d58.s3.e1"
+            e2="DDI-MedLine.d58.s3.e4" ddi="false"/>
+        <pair id="DDI-MedLine.d58.s3.p7" e1="DDI-MedLine.d58.s3.e2"
+            e2="DDI-MedLine.d58.s3.e3" ddi="false"/>
+        <pair id="DDI-MedLine.d58.s3.p8" e1="DDI-MedLine.d58.s3.e2"
+            e2="DDI-MedLine.d58.s3.e4" ddi="false"/>
+        <pair id="DDI-MedLine.d58.s3.p9" e1="DDI-MedLine.d58.s3.e3"
+            e2="DDI-MedLine.d58.s3.e4" ddi="false"/>
+    </sentence>
+    <sentence id="DDI-MedLine.d58.s4" text="We could observe that ginsenosides inhibited high threshold voltage-dependent Ca(2+) currents in a dose-dependent manner. ">
+        <entity id="DDI-MedLine.d58.s4.e0" charOffset="22-33"
+            type="drug_n" text="ginsenosides"/>
+    </sentence>
+    <sentence id="DDI-MedLine.d58.s5" text="The IC(50) was about 120 microgram/ml. "/>
+    <sentence id="DDI-MedLine.d58.s6" text="Nimodipine had no effect on ginsenosides response. ">
+        <entity id="DDI-MedLine.d58.s6.e0" charOffset="0-9" type="drug" text="Nimodipine"/>
+        <entity id="DDI-MedLine.d58.s6.e1" charOffset="28-39"
+            type="drug_n" text="ginsenosides"/>
+        <pair id="DDI-MedLine.d58.s6.p0" e1="DDI-MedLine.d58.s6.e0"
+            e2="DDI-MedLine.d58.s6.e1" ddi="false"/>
+    </sentence>
+    <sentence id="DDI-MedLine.d58.s7" text="These data suggest that ginsenosides are negatively coupled to three types of calcium channels in bovine chromaffin cell, including an omega-conotoxin GVIA-sensitive (N-type) channel, an omega-agatoxin IVA-sensitive (P-type) channel and nimodipine/omega-conotoxin GVIA/omega-agatoxin VIA-resistant (presumptive Q-type) channel. ">
+        <entity id="DDI-MedLine.d58.s7.e0" charOffset="24-35"
+            type="drug_n" text="ginsenosides"/>
+        <entity id="DDI-MedLine.d58.s7.e1" charOffset="135-154"
+            type="drug_n" text="omega-conotoxin GVIA"/>
+        <entity id="DDI-MedLine.d58.s7.e2" charOffset="187-204"
+            type="drug_n" text="omega-agatoxin IVA"/>
+        <entity id="DDI-MedLine.d58.s7.e3" charOffset="237-246"
+            type="drug" text="nimodipine"/>
+        <entity id="DDI-MedLine.d58.s7.e4" charOffset="248-267"
+            type="drug_n" text="omega-conotoxin GVIA"/>
+        <entity id="DDI-MedLine.d58.s7.e5" charOffset="269-286"
+            type="drug_n" text="omega-agatoxin VIA"/>
+        <pair id="DDI-MedLine.d58.s7.p0" e1="DDI-MedLine.d58.s7.e0"
+            e2="DDI-MedLine.d58.s7.e1" ddi="false"/>
+        <pair id="DDI-MedLine.d58.s7.p1" e1="DDI-MedLine.d58.s7.e0"
+            e2="DDI-MedLine.d58.s7.e2" ddi="false"/>
+        <pair id="DDI-MedLine.d58.s7.p2" e1="DDI-MedLine.d58.s7.e0"
+            e2="DDI-MedLine.d58.s7.e3" ddi="false"/>
+        <pair id="DDI-MedLine.d58.s7.p3" e1="DDI-MedLine.d58.s7.e0"
+            e2="DDI-MedLine.d58.s7.e4" ddi="false"/>
+        <pair id="DDI-MedLine.d58.s7.p4" e1="DDI-MedLine.d58.s7.e0"
+            e2="DDI-MedLine.d58.s7.e5" ddi="false"/>
+        <pair id="DDI-MedLine.d58.s7.p5" e1="DDI-MedLine.d58.s7.e1"
+            e2="DDI-MedLine.d58.s7.e2" ddi="false"/>
+        <pair id="DDI-MedLine.d58.s7.p6" e1="DDI-MedLine.d58.s7.e1"
+            e2="DDI-MedLine.d58.s7.e3" ddi="false"/>
+        <pair id="DDI-MedLine.d58.s7.p7" e1="DDI-MedLine.d58.s7.e1"
+            e2="DDI-MedLine.d58.s7.e4" ddi="false"/>
+        <pair id="DDI-MedLine.d58.s7.p8" e1="DDI-MedLine.d58.s7.e1"
+            e2="DDI-MedLine.d58.s7.e5" ddi="false"/>
+        <pair id="DDI-MedLine.d58.s7.p9" e1="DDI-MedLine.d58.s7.e2"
+            e2="DDI-MedLine.d58.s7.e3" ddi="false"/>
+        <pair id="DDI-MedLine.d58.s7.p10" e1="DDI-MedLine.d58.s7.e2"
+            e2="DDI-MedLine.d58.s7.e4" ddi="false"/>
+        <pair id="DDI-MedLine.d58.s7.p11" e1="DDI-MedLine.d58.s7.e2"
+            e2="DDI-MedLine.d58.s7.e5" ddi="false"/>
+        <pair id="DDI-MedLine.d58.s7.p12" e1="DDI-MedLine.d58.s7.e3"
+            e2="DDI-MedLine.d58.s7.e4" ddi="false"/>
+        <pair id="DDI-MedLine.d58.s7.p13" e1="DDI-MedLine.d58.s7.e3"
+            e2="DDI-MedLine.d58.s7.e5" ddi="false"/>
+        <pair id="DDI-MedLine.d58.s7.p14" e1="DDI-MedLine.d58.s7.e4"
+            e2="DDI-MedLine.d58.s7.e5" ddi="false"/>
+    </sentence>
+    <sentence id="DDI-MedLine.d58.s8" text="Thus, the selective regulation of voltage-dependent Ca(2+) subtypes by ginsenosides in bovine chromaffin cell could be the cellular basis of antistress effects induced by ginseng.">
+        <entity id="DDI-MedLine.d58.s8.e0" charOffset="71-82"
+            type="drug_n" text="ginsenosides"/>
+        <entity id="DDI-MedLine.d58.s8.e1" charOffset="171-177"
+            type="drug" text="ginseng"/>
+        <pair id="DDI-MedLine.d58.s8.p0" e1="DDI-MedLine.d58.s8.e0"
+            e2="DDI-MedLine.d58.s8.e1" ddi="false"/>
+    </sentence>
+</document>

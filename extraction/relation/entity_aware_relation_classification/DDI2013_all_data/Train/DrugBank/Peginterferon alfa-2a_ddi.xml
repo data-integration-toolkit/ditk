@@ -1,0 +1,277 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="DDI-DrugBank.d196">
+    <sentence id="DDI-DrugBank.d196.s0" text="Treatment with PEGASYS once weekly for 4 weeks in healthy subjects was associated with an inhibition of P450 1A2 and a 25% increase in theophylline AUC.">
+        <entity id="DDI-DrugBank.d196.s0.e0" charOffset="15-21"
+            type="brand" text="PEGASYS"/>
+        <entity id="DDI-DrugBank.d196.s0.e1" charOffset="135-146"
+            type="drug" text="theophylline"/>
+        <pair id="DDI-DrugBank.d196.s0.p0" e1="DDI-DrugBank.d196.s0.e0"
+            e2="DDI-DrugBank.d196.s0.e1" ddi="true" type="mechanism"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d196.s1" text="Theophylline serum levels should be monitored and appropriate dose adjustments considered for patients given both theophylline and PEGASYS.">
+        <entity id="DDI-DrugBank.d196.s1.e0" charOffset="0-11"
+            type="drug" text="Theophylline"/>
+        <entity id="DDI-DrugBank.d196.s1.e1" charOffset="114-125"
+            type="drug" text="theophylline"/>
+        <entity id="DDI-DrugBank.d196.s1.e2" charOffset="131-137"
+            type="brand" text="PEGASYS"/>
+        <pair id="DDI-DrugBank.d196.s1.p0" e1="DDI-DrugBank.d196.s1.e0"
+            e2="DDI-DrugBank.d196.s1.e1" ddi="false"/>
+        <pair id="DDI-DrugBank.d196.s1.p1" e1="DDI-DrugBank.d196.s1.e0"
+            e2="DDI-DrugBank.d196.s1.e2" ddi="false"/>
+        <pair id="DDI-DrugBank.d196.s1.p2" e1="DDI-DrugBank.d196.s1.e1"
+            e2="DDI-DrugBank.d196.s1.e2" ddi="true" type="advise"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d196.s2" text="There was no effect on the pharmacokinetics of representative drugs metabolized by CYP 2C9, CYP 2C19, CYP 2D6 or CYP 3A4."/>
+    <sentence id="DDI-DrugBank.d196.s3" text="In patients with chronic hepatitis C treated with PEGASYS in combination with COPEGUS, PEGASYS treatment did not affect ribavirin distribution or clearance.">
+        <entity id="DDI-DrugBank.d196.s3.e0" charOffset="50-56"
+            type="brand" text="PEGASYS"/>
+        <entity id="DDI-DrugBank.d196.s3.e1" charOffset="78-84"
+            type="brand" text="COPEGUS"/>
+        <entity id="DDI-DrugBank.d196.s3.e2" charOffset="87-93"
+            type="brand" text="PEGASYS"/>
+        <entity id="DDI-DrugBank.d196.s3.e3" charOffset="120-128"
+            type="drug" text="ribavirin"/>
+        <pair id="DDI-DrugBank.d196.s3.p0" e1="DDI-DrugBank.d196.s3.e0"
+            e2="DDI-DrugBank.d196.s3.e1" ddi="false"/>
+        <pair id="DDI-DrugBank.d196.s3.p1" e1="DDI-DrugBank.d196.s3.e0"
+            e2="DDI-DrugBank.d196.s3.e2" ddi="false"/>
+        <pair id="DDI-DrugBank.d196.s3.p2" e1="DDI-DrugBank.d196.s3.e0"
+            e2="DDI-DrugBank.d196.s3.e3" ddi="false"/>
+        <pair id="DDI-DrugBank.d196.s3.p3" e1="DDI-DrugBank.d196.s3.e1"
+            e2="DDI-DrugBank.d196.s3.e2" ddi="false"/>
+        <pair id="DDI-DrugBank.d196.s3.p4" e1="DDI-DrugBank.d196.s3.e1"
+            e2="DDI-DrugBank.d196.s3.e3" ddi="false"/>
+        <pair id="DDI-DrugBank.d196.s3.p5" e1="DDI-DrugBank.d196.s3.e2"
+            e2="DDI-DrugBank.d196.s3.e3" ddi="false"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d196.s4" text="Nucleoside Analogues Didanosine Co-administration of COPEGUS and didanosine is not recommended.">
+        <entity id="DDI-DrugBank.d196.s4.e0" charOffset="21-30"
+            type="drug" text="Didanosine"/>
+        <entity id="DDI-DrugBank.d196.s4.e1" charOffset="53-59"
+            type="brand" text="COPEGUS"/>
+        <entity id="DDI-DrugBank.d196.s4.e2" charOffset="65-74"
+            type="drug" text="didanosine"/>
+        <pair id="DDI-DrugBank.d196.s4.p0" e1="DDI-DrugBank.d196.s4.e0"
+            e2="DDI-DrugBank.d196.s4.e1" ddi="false"/>
+        <pair id="DDI-DrugBank.d196.s4.p1" e1="DDI-DrugBank.d196.s4.e0"
+            e2="DDI-DrugBank.d196.s4.e2" ddi="false"/>
+        <pair id="DDI-DrugBank.d196.s4.p2" e1="DDI-DrugBank.d196.s4.e1"
+            e2="DDI-DrugBank.d196.s4.e2" ddi="true" type="advise"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d196.s5" text="Reports of fatal hepatic failure, as well as peripheral neuropathy, pancreatitis, and symptomatic hyperlactatemia/lactic acidosis have been reported in clinical trials."/>
+    <sentence id="DDI-DrugBank.d196.s6" text="Stavudine and Zidovudine Ribavirin can antagonize the in vitro antiviral activity of stavudine and zidovudine against HIV.">
+        <entity id="DDI-DrugBank.d196.s6.e0" charOffset="0-8"
+            type="drug" text="Stavudine"/>
+        <entity id="DDI-DrugBank.d196.s6.e1" charOffset="14-23"
+            type="drug" text="Zidovudine"/>
+        <entity id="DDI-DrugBank.d196.s6.e2" charOffset="25-33"
+            type="drug" text="Ribavirin"/>
+        <entity id="DDI-DrugBank.d196.s6.e3" charOffset="85-93"
+            type="drug" text="stavudine"/>
+        <entity id="DDI-DrugBank.d196.s6.e4" charOffset="99-108"
+            type="drug" text="zidovudine"/>
+        <pair id="DDI-DrugBank.d196.s6.p0" e1="DDI-DrugBank.d196.s6.e0"
+            e2="DDI-DrugBank.d196.s6.e1" ddi="false"/>
+        <pair id="DDI-DrugBank.d196.s6.p1" e1="DDI-DrugBank.d196.s6.e0"
+            e2="DDI-DrugBank.d196.s6.e2" ddi="false"/>
+        <pair id="DDI-DrugBank.d196.s6.p2" e1="DDI-DrugBank.d196.s6.e0"
+            e2="DDI-DrugBank.d196.s6.e3" ddi="false"/>
+        <pair id="DDI-DrugBank.d196.s6.p3" e1="DDI-DrugBank.d196.s6.e0"
+            e2="DDI-DrugBank.d196.s6.e4" ddi="false"/>
+        <pair id="DDI-DrugBank.d196.s6.p4" e1="DDI-DrugBank.d196.s6.e1"
+            e2="DDI-DrugBank.d196.s6.e2" ddi="false"/>
+        <pair id="DDI-DrugBank.d196.s6.p5" e1="DDI-DrugBank.d196.s6.e1"
+            e2="DDI-DrugBank.d196.s6.e3" ddi="false"/>
+        <pair id="DDI-DrugBank.d196.s6.p6" e1="DDI-DrugBank.d196.s6.e1"
+            e2="DDI-DrugBank.d196.s6.e4" ddi="false"/>
+        <pair id="DDI-DrugBank.d196.s6.p7" e1="DDI-DrugBank.d196.s6.e2"
+            e2="DDI-DrugBank.d196.s6.e3" ddi="true" type="effect"/>
+        <pair id="DDI-DrugBank.d196.s6.p8" e1="DDI-DrugBank.d196.s6.e2"
+            e2="DDI-DrugBank.d196.s6.e4" ddi="true" type="effect"/>
+        <pair id="DDI-DrugBank.d196.s6.p9" e1="DDI-DrugBank.d196.s6.e3"
+            e2="DDI-DrugBank.d196.s6.e4" ddi="false"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d196.s7" text="Therefore, concomitant use of ribavirin with either of these drugs should be avoided.">
+        <entity id="DDI-DrugBank.d196.s7.e0" charOffset="30-38"
+            type="drug" text="ribavirin"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d196.s8" text="Carcinogenesis, Mutagenesis, Impairment of Fertility Carcinogenesis PEGASYS has not been tested for its carcinogenic potential.">
+        <entity id="DDI-DrugBank.d196.s8.e0" charOffset="68-74"
+            type="brand" text="PEGASYS"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d196.s9" text="Mutagenesis PEGASYS did not cause DNA damage when tested in the Ames bacterial mutagenicity assay and in the in vitro chromosomal aberration assay in human lymphocytes, either in the presence or absence of metabolic activation.">
+        <entity id="DDI-DrugBank.d196.s9.e0" charOffset="12-18"
+            type="brand" text="PEGASYS"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d196.s10" text="Use With Ribavirin Ribavirin is genotoxic and mutagenic.">
+        <entity id="DDI-DrugBank.d196.s10.e0" charOffset="9-17"
+            type="drug" text="Ribavirin"/>
+        <entity id="DDI-DrugBank.d196.s10.e1" charOffset="19-27"
+            type="drug" text="Ribavirin"/>
+        <pair id="DDI-DrugBank.d196.s10.p0"
+            e1="DDI-DrugBank.d196.s10.e0" e2="DDI-DrugBank.d196.s10.e1" ddi="false"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d196.s11" text="The carcinogenic potential of ribavirin has not been fully determined.">
+        <entity id="DDI-DrugBank.d196.s11.e0" charOffset="30-38"
+            type="drug" text="ribavirin"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d196.s12" text="In a p53 (+/-) mouse carcinogenicity study at doses up to the maximum tolerated dose of 100 mg/kg/day ribavirin was not oncogenic.">
+        <entity id="DDI-DrugBank.d196.s12.e0" charOffset="102-110"
+            type="drug" text="ribavirin"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d196.s13" text="However, on a body surface area basis, this dose was 0.5 times maximum recommended human 24-hour dose of ribavirin.">
+        <entity id="DDI-DrugBank.d196.s13.e0" charOffset="105-113"
+            type="drug" text="ribavirin"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d196.s14" text="A study in rats to assess the carcinogenic potential of ribavirin is ongoing.">
+        <entity id="DDI-DrugBank.d196.s14.e0" charOffset="56-64"
+            type="drug" text="ribavirin"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d196.s15" text="Mutagenesis Impairment of Fertility PEGASYS may impair fertility in women.">
+        <entity id="DDI-DrugBank.d196.s15.e0" charOffset="36-42"
+            type="brand" text="PEGASYS"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d196.s16" text="Prolonged menstrual cycles and/or amenorrhea were observed in female cynomolgus monkeys given sc injections of 600 m g/kg/dose (7200 m g/m2/dose) of PEGASYS every other day for one month, at approximately 180 times the recommended weekly human dose for a 60 kg person (based on body surface area).">
+        <entity id="DDI-DrugBank.d196.s16.e0" charOffset="149-155"
+            type="brand" text="PEGASYS"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d196.s17" text="Menstrual cycle irregularities were accompanied by both a decrease and delay in the peak 17b -estradiol and progesterone levels following administration of PEGASYS to female monkeys.">
+        <entity id="DDI-DrugBank.d196.s17.e0" charOffset="156-162"
+            type="brand" text="PEGASYS"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d196.s18" text="A return to normal menstrual rhythm followed cessation of treatment."/>
+    <sentence id="DDI-DrugBank.d196.s19" text="Every other day dosing with 100m g/kg (1200m g/m2) PEGASYS (equivalent to approximately 30 times the recommended human dose) had no effects on cycle duration or reproductive hormone status.">
+        <entity id="DDI-DrugBank.d196.s19.e0" charOffset="51-57"
+            type="brand" text="PEGASYS"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d196.s20" text="The effects of PEGASYS on male fertility have not been studied.">
+        <entity id="DDI-DrugBank.d196.s20.e0" charOffset="15-21"
+            type="brand" text="PEGASYS"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d196.s21" text="However, no adverse effects on fertility were observed in male Rhesus monkeys treated with non-pegylated interferon alfa-2a for 5 months at doses up to 25 x 106 IU/kg/day.">
+        <entity id="DDI-DrugBank.d196.s21.e0" charOffset="95-122"
+            type="drug" text="pegylated interferon alfa-2a"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d196.s22" text="Pregnancy Pregnancy: Category C PEGASYS has not been studied for its teratogenic effect.">
+        <entity id="DDI-DrugBank.d196.s22.e0" charOffset="32-38"
+            type="brand" text="PEGASYS"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d196.s23" text="Non-pegylated interferon alfa-2a treatment of pregnant Rhesus monkeys at approximately 20 to 500 times the human weekly dose resulted in a statistically significant increase in abortions.">
+        <entity id="DDI-DrugBank.d196.s23.e0" charOffset="0-31"
+            type="drug" text="Non-pegylated interferon alfa-2a"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d196.s24" text="No teratogenic effects were seen in the offspring delivered at term."/>
+    <sentence id="DDI-DrugBank.d196.s25" text="PEGASYS should be assumed to have abortifacient potential.">
+        <entity id="DDI-DrugBank.d196.s25.e0" charOffset="0-6"
+            type="brand" text="PEGASYS"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d196.s26" text="There are no adequate and well-controlled studies of PEGASYS in pregnant women.">
+        <entity id="DDI-DrugBank.d196.s26.e0" charOffset="53-59"
+            type="brand" text="PEGASYS"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d196.s27" text="PEGASYS is to be used during pregnancy only if the potential benefit justifies the potential risk to the fetus.">
+        <entity id="DDI-DrugBank.d196.s27.e0" charOffset="0-6"
+            type="brand" text="PEGASYS"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d196.s28" text="PEGASYS is recommended for use in women of childbearing potential only when they are using effective contraception during therapy.">
+        <entity id="DDI-DrugBank.d196.s28.e0" charOffset="0-6"
+            type="brand" text="PEGASYS"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d196.s29" text="Pregnancy: Category X: Use With Ribavirin (see CONTRAINDICATIONS) Significant teratogenic and/or embryocidal effects have been demonstrated in all animal species exposed to ribavirin.">
+        <entity id="DDI-DrugBank.d196.s29.e0" charOffset="32-40"
+            type="drug" text="Ribavirin"/>
+        <entity id="DDI-DrugBank.d196.s29.e1" charOffset="173-181"
+            type="drug" text="ribavirin"/>
+        <pair id="DDI-DrugBank.d196.s29.p0"
+            e1="DDI-DrugBank.d196.s29.e0" e2="DDI-DrugBank.d196.s29.e1" ddi="false"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d196.s30" text="COPEGUS therapy is contraindicated in women who are pregnant and in the male partners of women who are pregnant .">
+        <entity id="DDI-DrugBank.d196.s30.e0" charOffset="0-6"
+            type="brand" text="COPEGUS"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d196.s31" text="If pregnancy occurs in a patient or partner of a patient during treatment or during the 6 months after treatment cessation, such cases should be reported to the COPEGUS Pregnancy Registry at 1-800-526-6367.">
+        <entity id="DDI-DrugBank.d196.s31.e0" charOffset="161-167"
+            type="brand" text="COPEGUS"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d196.s32" text="Nursing Mothers It is not known whether peginterferon or ribavirin or its components are excreted in human milk.">
+        <entity id="DDI-DrugBank.d196.s32.e0" charOffset="40-52"
+            type="drug" text="peginterferon"/>
+        <entity id="DDI-DrugBank.d196.s32.e1" charOffset="57-65"
+            type="drug" text="ribavirin"/>
+        <pair id="DDI-DrugBank.d196.s32.p0"
+            e1="DDI-DrugBank.d196.s32.e0" e2="DDI-DrugBank.d196.s32.e1" ddi="false"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d196.s33" text="The effect of orally ingested peginterferon or ribavirin from breast milk on the nursing infant has not been evaluated.">
+        <entity id="DDI-DrugBank.d196.s33.e0" charOffset="30-42"
+            type="drug" text="peginterferon"/>
+        <entity id="DDI-DrugBank.d196.s33.e1" charOffset="47-55"
+            type="drug" text="ribavirin"/>
+        <pair id="DDI-DrugBank.d196.s33.p0"
+            e1="DDI-DrugBank.d196.s33.e0" e2="DDI-DrugBank.d196.s33.e1" ddi="false"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d196.s34" text="Because of the potential for adverse reactions from the drugs in nursing infants, a decision must be made whether to discontinue nursing or discontinue PEGASYS and COPEGUS treatment.">
+        <entity id="DDI-DrugBank.d196.s34.e0" charOffset="152-158"
+            type="brand" text="PEGASYS"/>
+        <entity id="DDI-DrugBank.d196.s34.e1" charOffset="164-170"
+            type="brand" text="COPEGUS"/>
+        <pair id="DDI-DrugBank.d196.s34.p0"
+            e1="DDI-DrugBank.d196.s34.e0" e2="DDI-DrugBank.d196.s34.e1" ddi="false"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d196.s35" text="Pediatric Use The safety and effectiveness of PEGASYS, alone or in combination with COPEGUS in patients below the age of 18 years have not been established.">
+        <entity id="DDI-DrugBank.d196.s35.e0" charOffset="46-52"
+            type="brand" text="PEGASYS"/>
+        <entity id="DDI-DrugBank.d196.s35.e1" charOffset="84-90"
+            type="brand" text="COPEGUS"/>
+        <pair id="DDI-DrugBank.d196.s35.p0"
+            e1="DDI-DrugBank.d196.s35.e0" e2="DDI-DrugBank.d196.s35.e1" ddi="false"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d196.s36" text="PEGASYS contains benzyl alcohol.">
+        <entity id="DDI-DrugBank.d196.s36.e0" charOffset="0-6"
+            type="brand" text="PEGASYS"/>
+        <entity id="DDI-DrugBank.d196.s36.e1" charOffset="17-30"
+            type="drug_n" text="benzyl alcohol"/>
+        <pair id="DDI-DrugBank.d196.s36.p0"
+            e1="DDI-DrugBank.d196.s36.e0" e2="DDI-DrugBank.d196.s36.e1" ddi="false"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d196.s37" text="Benzyl alcohol has been reported to be associated with an increased incidence of neurological and other complications in neonates and infants, which are sometimes fatal.">
+        <entity id="DDI-DrugBank.d196.s37.e0" charOffset="0-13"
+            type="drug_n" text="Benzyl alcohol"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d196.s38" text="Geriatric Use Younger patients have higher virologic response rates than older patients."/>
+    <sentence id="DDI-DrugBank.d196.s39" text="Clinical studies of PEGASYS alone or in combination with COPEGUS did not include sufficient numbers of subjects aged 65 or over to determine whether they respond differently from younger subjects.">
+        <entity id="DDI-DrugBank.d196.s39.e0" charOffset="20-26"
+            type="brand" text="PEGASYS"/>
+        <entity id="DDI-DrugBank.d196.s39.e1" charOffset="57-63"
+            type="brand" text="COPEGUS"/>
+        <pair id="DDI-DrugBank.d196.s39.p0"
+            e1="DDI-DrugBank.d196.s39.e0" e2="DDI-DrugBank.d196.s39.e1" ddi="false"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d196.s40" text="Adverse reactions related to alpha interferons, such as CNS, cardiac, and systemic (eg, flu-like) effects may be more severe in the elderly and caution should be exercised in the use of PEGASYS in this population.">
+        <entity id="DDI-DrugBank.d196.s40.e0" charOffset="29-44"
+            type="drug" text="alpha interferon"/>
+        <entity id="DDI-DrugBank.d196.s40.e1" charOffset="186-192"
+            type="brand" text="PEGASYS"/>
+        <pair id="DDI-DrugBank.d196.s40.p0"
+            e1="DDI-DrugBank.d196.s40.e0" e2="DDI-DrugBank.d196.s40.e1" ddi="false"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d196.s41" text="PEGASYS and COPEGUS are excreted by the kidney, and the risk of toxic reactions to this therapy may be greater in patients with impaired renal function.">
+        <entity id="DDI-DrugBank.d196.s41.e0" charOffset="0-6"
+            type="brand" text="PEGASYS"/>
+        <entity id="DDI-DrugBank.d196.s41.e1" charOffset="12-18"
+            type="brand" text="COPEGUS"/>
+        <pair id="DDI-DrugBank.d196.s41.p0"
+            e1="DDI-DrugBank.d196.s41.e0" e2="DDI-DrugBank.d196.s41.e1" ddi="false"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d196.s42" text="Because elderly patients are more likely to have decreased renal function, care should be taken in dose selection and it may be useful to monitor renal function."/>
+    <sentence id="DDI-DrugBank.d196.s43" text="PEGASYS should be used with caution in patients with creatinine clearance  50 mL/min and COPEGUS should not be administered to patients with creatinine clearance  50 mL/min">
+        <entity id="DDI-DrugBank.d196.s43.e0" charOffset="0-6"
+            type="brand" text="PEGASYS"/>
+        <entity id="DDI-DrugBank.d196.s43.e1" charOffset="89-95"
+            type="brand" text="COPEGUS"/>
+        <pair id="DDI-DrugBank.d196.s43.p0"
+            e1="DDI-DrugBank.d196.s43.e0" e2="DDI-DrugBank.d196.s43.e1" ddi="false"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d196.s44" text="."/>
+    <sentence id="DDI-DrugBank.d196.s45" text=""/>
+</document>

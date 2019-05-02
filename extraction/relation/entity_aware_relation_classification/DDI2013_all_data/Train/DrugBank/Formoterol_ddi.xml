@@ -1,0 +1,245 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="DDI-DrugBank.d103">
+    <sentence id="DDI-DrugBank.d103.s0" text="Short-Acting beta2-agonists: Aerosol bronchodilators of the short-acting adrenergic stimulant type may be used for relief of breakthrough symptoms while using formoterol.">
+        <entity id="DDI-DrugBank.d103.s0.e0" charOffset="0-26"
+            type="group" text="Short-Acting beta2-agonists"/>
+        <entity id="DDI-DrugBank.d103.s0.e1" charOffset="37-51"
+            type="group" text="bronchodilators"/>
+        <entity id="DDI-DrugBank.d103.s0.e2" charOffset="159-168"
+            type="drug" text="formoterol"/>
+        <pair id="DDI-DrugBank.d103.s0.p0" e1="DDI-DrugBank.d103.s0.e0"
+            e2="DDI-DrugBank.d103.s0.e1" ddi="false"/>
+        <pair id="DDI-DrugBank.d103.s0.p1" e1="DDI-DrugBank.d103.s0.e0"
+            e2="DDI-DrugBank.d103.s0.e2" ddi="false"/>
+        <pair id="DDI-DrugBank.d103.s0.p2" e1="DDI-DrugBank.d103.s0.e1"
+            e2="DDI-DrugBank.d103.s0.e2" ddi="false"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d103.s1" text="However, increasing use of such preparations to control symptoms indicates deterioration of asthma control and the need to reassess the patient s therapy."/>
+    <sentence id="DDI-DrugBank.d103.s2" text="Concomitant administration of other sympathomimetic agents may potentiate the undesirable effects of FORADIL.">
+        <entity id="DDI-DrugBank.d103.s2.e0" charOffset="36-57"
+            type="group" text="sympathomimetic agents"/>
+        <entity id="DDI-DrugBank.d103.s2.e1" charOffset="101-107"
+            type="brand" text="FORADIL"/>
+        <pair id="DDI-DrugBank.d103.s2.p0" e1="DDI-DrugBank.d103.s2.e0"
+            e2="DDI-DrugBank.d103.s2.e1" ddi="true" type="effect"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d103.s3" text="Monoamine Oxidase Inhibitors and Tricyclic Antidepressants: FORADIL should be administered with extreme caution in patients being treated with monoamine oxidase inhibitors or tricyclic antidepressants because the action of formoterol on the cardiovascular system may be potentiated by these agents.">
+        <entity id="DDI-DrugBank.d103.s3.e0" charOffset="0-27"
+            type="group" text="Monoamine Oxidase Inhibitors"/>
+        <entity id="DDI-DrugBank.d103.s3.e1" charOffset="33-57"
+            type="group" text="Tricyclic Antidepressants"/>
+        <entity id="DDI-DrugBank.d103.s3.e2" charOffset="60-66"
+            type="brand" text="FORADIL"/>
+        <entity id="DDI-DrugBank.d103.s3.e3" charOffset="143-170"
+            type="group" text="monoamine oxidase inhibitors"/>
+        <entity id="DDI-DrugBank.d103.s3.e4" charOffset="175-199"
+            type="group" text="tricyclic antidepressants"/>
+        <entity id="DDI-DrugBank.d103.s3.e5" charOffset="223-232"
+            type="drug" text="formoterol"/>
+        <pair id="DDI-DrugBank.d103.s3.p0" e1="DDI-DrugBank.d103.s3.e0"
+            e2="DDI-DrugBank.d103.s3.e1" ddi="false"/>
+        <pair id="DDI-DrugBank.d103.s3.p1" e1="DDI-DrugBank.d103.s3.e0"
+            e2="DDI-DrugBank.d103.s3.e2" ddi="false"/>
+        <pair id="DDI-DrugBank.d103.s3.p2" e1="DDI-DrugBank.d103.s3.e0"
+            e2="DDI-DrugBank.d103.s3.e3" ddi="false"/>
+        <pair id="DDI-DrugBank.d103.s3.p3" e1="DDI-DrugBank.d103.s3.e0"
+            e2="DDI-DrugBank.d103.s3.e4" ddi="false"/>
+        <pair id="DDI-DrugBank.d103.s3.p4" e1="DDI-DrugBank.d103.s3.e0"
+            e2="DDI-DrugBank.d103.s3.e5" ddi="false"/>
+        <pair id="DDI-DrugBank.d103.s3.p5" e1="DDI-DrugBank.d103.s3.e1"
+            e2="DDI-DrugBank.d103.s3.e2" ddi="false"/>
+        <pair id="DDI-DrugBank.d103.s3.p6" e1="DDI-DrugBank.d103.s3.e1"
+            e2="DDI-DrugBank.d103.s3.e3" ddi="false"/>
+        <pair id="DDI-DrugBank.d103.s3.p7" e1="DDI-DrugBank.d103.s3.e1"
+            e2="DDI-DrugBank.d103.s3.e4" ddi="false"/>
+        <pair id="DDI-DrugBank.d103.s3.p8" e1="DDI-DrugBank.d103.s3.e1"
+            e2="DDI-DrugBank.d103.s3.e5" ddi="false"/>
+        <pair id="DDI-DrugBank.d103.s3.p9" e1="DDI-DrugBank.d103.s3.e2"
+            e2="DDI-DrugBank.d103.s3.e3" ddi="true" type="advise"/>
+        <pair id="DDI-DrugBank.d103.s3.p10" e1="DDI-DrugBank.d103.s3.e2"
+            e2="DDI-DrugBank.d103.s3.e4" ddi="true" type="advise"/>
+        <pair id="DDI-DrugBank.d103.s3.p11" e1="DDI-DrugBank.d103.s3.e2"
+            e2="DDI-DrugBank.d103.s3.e5" ddi="false"/>
+        <pair id="DDI-DrugBank.d103.s3.p12" e1="DDI-DrugBank.d103.s3.e3"
+            e2="DDI-DrugBank.d103.s3.e4" ddi="false"/>
+        <pair id="DDI-DrugBank.d103.s3.p13" e1="DDI-DrugBank.d103.s3.e3"
+            e2="DDI-DrugBank.d103.s3.e5" ddi="false"/>
+        <pair id="DDI-DrugBank.d103.s3.p14" e1="DDI-DrugBank.d103.s3.e4"
+            e2="DDI-DrugBank.d103.s3.e5" ddi="false"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d103.s4" text="Corticosteroids, Methylxanthines and Diuretics: Concomitant treatment with xanthine derivatives, steroids, or diuretics may potentiate a possible hypokalemic effect of  beta2-agonists.">
+        <entity id="DDI-DrugBank.d103.s4.e0" charOffset="0-14"
+            type="group" text="Corticosteroids"/>
+        <entity id="DDI-DrugBank.d103.s4.e1" charOffset="17-31"
+            type="group" text="Methylxanthines"/>
+        <entity id="DDI-DrugBank.d103.s4.e2" charOffset="37-45"
+            type="group" text="Diuretics"/>
+        <entity id="DDI-DrugBank.d103.s4.e3" charOffset="75-94"
+            type="group" text="xanthine derivatives"/>
+        <entity id="DDI-DrugBank.d103.s4.e4" charOffset="97-104"
+            type="group" text="steroids"/>
+        <entity id="DDI-DrugBank.d103.s4.e5" charOffset="110-118"
+            type="group" text="diuretics"/>
+        <entity id="DDI-DrugBank.d103.s4.e6" charOffset="169-183"
+            type="group" text="beta2-agonists."/>
+        <pair id="DDI-DrugBank.d103.s4.p0" e1="DDI-DrugBank.d103.s4.e0"
+            e2="DDI-DrugBank.d103.s4.e1" ddi="false"/>
+        <pair id="DDI-DrugBank.d103.s4.p1" e1="DDI-DrugBank.d103.s4.e0"
+            e2="DDI-DrugBank.d103.s4.e2" ddi="false"/>
+        <pair id="DDI-DrugBank.d103.s4.p2" e1="DDI-DrugBank.d103.s4.e0"
+            e2="DDI-DrugBank.d103.s4.e3" ddi="false"/>
+        <pair id="DDI-DrugBank.d103.s4.p3" e1="DDI-DrugBank.d103.s4.e0"
+            e2="DDI-DrugBank.d103.s4.e4" ddi="false"/>
+        <pair id="DDI-DrugBank.d103.s4.p4" e1="DDI-DrugBank.d103.s4.e0"
+            e2="DDI-DrugBank.d103.s4.e5" ddi="false"/>
+        <pair id="DDI-DrugBank.d103.s4.p5" e1="DDI-DrugBank.d103.s4.e0"
+            e2="DDI-DrugBank.d103.s4.e6" ddi="false"/>
+        <pair id="DDI-DrugBank.d103.s4.p6" e1="DDI-DrugBank.d103.s4.e1"
+            e2="DDI-DrugBank.d103.s4.e2" ddi="false"/>
+        <pair id="DDI-DrugBank.d103.s4.p7" e1="DDI-DrugBank.d103.s4.e1"
+            e2="DDI-DrugBank.d103.s4.e3" ddi="false"/>
+        <pair id="DDI-DrugBank.d103.s4.p8" e1="DDI-DrugBank.d103.s4.e1"
+            e2="DDI-DrugBank.d103.s4.e4" ddi="false"/>
+        <pair id="DDI-DrugBank.d103.s4.p9" e1="DDI-DrugBank.d103.s4.e1"
+            e2="DDI-DrugBank.d103.s4.e5" ddi="false"/>
+        <pair id="DDI-DrugBank.d103.s4.p10" e1="DDI-DrugBank.d103.s4.e1"
+            e2="DDI-DrugBank.d103.s4.e6" ddi="false"/>
+        <pair id="DDI-DrugBank.d103.s4.p11" e1="DDI-DrugBank.d103.s4.e2"
+            e2="DDI-DrugBank.d103.s4.e3" ddi="false"/>
+        <pair id="DDI-DrugBank.d103.s4.p12" e1="DDI-DrugBank.d103.s4.e2"
+            e2="DDI-DrugBank.d103.s4.e4" ddi="false"/>
+        <pair id="DDI-DrugBank.d103.s4.p13" e1="DDI-DrugBank.d103.s4.e2"
+            e2="DDI-DrugBank.d103.s4.e5" ddi="false"/>
+        <pair id="DDI-DrugBank.d103.s4.p14" e1="DDI-DrugBank.d103.s4.e2"
+            e2="DDI-DrugBank.d103.s4.e6" ddi="false"/>
+        <pair id="DDI-DrugBank.d103.s4.p15" e1="DDI-DrugBank.d103.s4.e3"
+            e2="DDI-DrugBank.d103.s4.e4" ddi="false"/>
+        <pair id="DDI-DrugBank.d103.s4.p16" e1="DDI-DrugBank.d103.s4.e3"
+            e2="DDI-DrugBank.d103.s4.e5" ddi="false"/>
+        <pair id="DDI-DrugBank.d103.s4.p17" e1="DDI-DrugBank.d103.s4.e3"
+            e2="DDI-DrugBank.d103.s4.e6" ddi="true" type="effect"/>
+        <pair id="DDI-DrugBank.d103.s4.p18" e1="DDI-DrugBank.d103.s4.e4"
+            e2="DDI-DrugBank.d103.s4.e5" ddi="false"/>
+        <pair id="DDI-DrugBank.d103.s4.p19" e1="DDI-DrugBank.d103.s4.e4"
+            e2="DDI-DrugBank.d103.s4.e6" ddi="true" type="effect"/>
+        <pair id="DDI-DrugBank.d103.s4.p20" e1="DDI-DrugBank.d103.s4.e5"
+            e2="DDI-DrugBank.d103.s4.e6" ddi="true" type="effect"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d103.s5" text="Hypokalemia may increase susceptibility to cardiac arrhythmias in patients treated with digitalis.">
+        <entity id="DDI-DrugBank.d103.s5.e0" charOffset="88-96"
+            type="group" text="digitalis"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d103.s6" text="-adrenergic Blockers:  -adrenergic blockers may weaken or antagonise the effect of FORADIL.">
+        <entity id="DDI-DrugBank.d103.s6.e0" charOffset="83-89"
+            type="brand" text="FORADIL"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d103.s7" text="Therefore FORADIL should not be given together with  -adrenergic blockers (including eye drops) unless there are compelling reasons for their use.">
+        <entity id="DDI-DrugBank.d103.s7.e0" charOffset="10-16"
+            type="brand" text="FORADIL"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d103.s8" text="Other Drugs:Drugs such as quinidine, disopyramide, procainamide, phenothiazines, antihistamines, and tricyclic antidepressants may be associated with QT-interval prolongation and an increased risk of ventricular arrhythmia.">
+        <entity id="DDI-DrugBank.d103.s8.e0" charOffset="26-34"
+            type="drug" text="quinidine"/>
+        <entity id="DDI-DrugBank.d103.s8.e1" charOffset="37-48"
+            type="drug" text="disopyramide"/>
+        <entity id="DDI-DrugBank.d103.s8.e2" charOffset="51-62"
+            type="drug" text="procainamide"/>
+        <entity id="DDI-DrugBank.d103.s8.e3" charOffset="65-78"
+            type="group" text="phenothiazines"/>
+        <entity id="DDI-DrugBank.d103.s8.e4" charOffset="81-94"
+            type="group" text="antihistamines"/>
+        <entity id="DDI-DrugBank.d103.s8.e5" charOffset="101-125"
+            type="group" text="tricyclic antidepressants"/>
+        <pair id="DDI-DrugBank.d103.s8.p0" e1="DDI-DrugBank.d103.s8.e0"
+            e2="DDI-DrugBank.d103.s8.e1" ddi="false"/>
+        <pair id="DDI-DrugBank.d103.s8.p1" e1="DDI-DrugBank.d103.s8.e0"
+            e2="DDI-DrugBank.d103.s8.e2" ddi="false"/>
+        <pair id="DDI-DrugBank.d103.s8.p2" e1="DDI-DrugBank.d103.s8.e0"
+            e2="DDI-DrugBank.d103.s8.e3" ddi="false"/>
+        <pair id="DDI-DrugBank.d103.s8.p3" e1="DDI-DrugBank.d103.s8.e0"
+            e2="DDI-DrugBank.d103.s8.e4" ddi="false"/>
+        <pair id="DDI-DrugBank.d103.s8.p4" e1="DDI-DrugBank.d103.s8.e0"
+            e2="DDI-DrugBank.d103.s8.e5" ddi="false"/>
+        <pair id="DDI-DrugBank.d103.s8.p5" e1="DDI-DrugBank.d103.s8.e1"
+            e2="DDI-DrugBank.d103.s8.e2" ddi="false"/>
+        <pair id="DDI-DrugBank.d103.s8.p6" e1="DDI-DrugBank.d103.s8.e1"
+            e2="DDI-DrugBank.d103.s8.e3" ddi="false"/>
+        <pair id="DDI-DrugBank.d103.s8.p7" e1="DDI-DrugBank.d103.s8.e1"
+            e2="DDI-DrugBank.d103.s8.e4" ddi="false"/>
+        <pair id="DDI-DrugBank.d103.s8.p8" e1="DDI-DrugBank.d103.s8.e1"
+            e2="DDI-DrugBank.d103.s8.e5" ddi="false"/>
+        <pair id="DDI-DrugBank.d103.s8.p9" e1="DDI-DrugBank.d103.s8.e2"
+            e2="DDI-DrugBank.d103.s8.e3" ddi="false"/>
+        <pair id="DDI-DrugBank.d103.s8.p10" e1="DDI-DrugBank.d103.s8.e2"
+            e2="DDI-DrugBank.d103.s8.e4" ddi="false"/>
+        <pair id="DDI-DrugBank.d103.s8.p11" e1="DDI-DrugBank.d103.s8.e2"
+            e2="DDI-DrugBank.d103.s8.e5" ddi="false"/>
+        <pair id="DDI-DrugBank.d103.s8.p12" e1="DDI-DrugBank.d103.s8.e3"
+            e2="DDI-DrugBank.d103.s8.e4" ddi="false"/>
+        <pair id="DDI-DrugBank.d103.s8.p13" e1="DDI-DrugBank.d103.s8.e3"
+            e2="DDI-DrugBank.d103.s8.e5" ddi="false"/>
+        <pair id="DDI-DrugBank.d103.s8.p14" e1="DDI-DrugBank.d103.s8.e4"
+            e2="DDI-DrugBank.d103.s8.e5" ddi="false"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d103.s9" text="INFORMATION TO BE PROVIDED TO THE PATIENT OR GUARDIAN See illustrated Information For The Patient or Guardian section."/>
+    <sentence id="DDI-DrugBank.d103.s10" text="It is important that patients understand how to use FORADIL  (formoterol fumarate) capsules with the supplied AerolizerTM inhalation device and how it should be used in relation to other asthma or COPD medications they are taking.">
+        <entity id="DDI-DrugBank.d103.s10.e0" charOffset="52-58"
+            type="brand" text="FORADIL"/>
+        <entity id="DDI-DrugBank.d103.s10.e1" charOffset="62-80"
+            type="drug" text="formoterol fumarate"/>
+        <pair id="DDI-DrugBank.d103.s10.p0"
+            e1="DDI-DrugBank.d103.s10.e0" e2="DDI-DrugBank.d103.s10.e1" ddi="false"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d103.s11" text="Patients/Guardians should be given the following information: i."/>
+    <sentence id="DDI-DrugBank.d103.s12" text="The recommended dosage (one or two capsules twice daily, morning and evening) should not be exceeded."/>
+    <sentence id="DDI-DrugBank.d103.s13" text="ii."/>
+    <sentence id="DDI-DrugBank.d103.s14" text="FORADIL is not meant to relieve acute asthma or COPD symptoms and extra doses should not be used for that purpose.">
+        <entity id="DDI-DrugBank.d103.s14.e0" charOffset="0-6"
+            type="brand" text="FORADIL"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d103.s15" text="Acute symptoms should be treated with a short-acting, inhaled  beta2-agonist such as salbutamol (the physician should provide the patient with such medication and instruct the patient in how it should be used).">
+        <entity id="DDI-DrugBank.d103.s15.e0" charOffset="63-75"
+            type="group" text="beta2-agonist"/>
+        <entity id="DDI-DrugBank.d103.s15.e1" charOffset="85-94"
+            type="drug" text="salbutamol"/>
+        <pair id="DDI-DrugBank.d103.s15.p0"
+            e1="DDI-DrugBank.d103.s15.e0" e2="DDI-DrugBank.d103.s15.e1" ddi="false"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d103.s16" text="iii."/>
+    <sentence id="DDI-DrugBank.d103.s17" text="The physician should be notified immediately if any of the following situations occur, which may be a sign of seriously worsening asthma:   Decreased effectiveness of short-acting, inhaled beta2-agonists;">
+        <entity id="DDI-DrugBank.d103.s17.e0" charOffset="167-202"
+            type="group" text="short-acting, inhaled beta2-agonists"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d103.s18" text="Need for more inhalations than usual of short-acting, inhaled beta2-agonists.">
+        <entity id="DDI-DrugBank.d103.s18.e0" charOffset="40-75"
+            type="group" text="short-acting, inhaled beta2-agonists"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d103.s19" text="iv."/>
+    <sentence id="DDI-DrugBank.d103.s20" text="FORADIL should not be used as a substitute for oral or inhaled corticosteroids.">
+        <entity id="DDI-DrugBank.d103.s20.e0" charOffset="0-6"
+            type="brand" text="FORADIL"/>
+        <entity id="DDI-DrugBank.d103.s20.e1" charOffset="63-77"
+            type="group" text="corticosteroids"/>
+        <pair id="DDI-DrugBank.d103.s20.p0"
+            e1="DDI-DrugBank.d103.s20.e0" e2="DDI-DrugBank.d103.s20.e1" ddi="false"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d103.s21" text="The dosage of these medications should not be changed and they should not be stopped without consulting the physician, even if the patient feels better after initiating treatment with FORADIL.">
+        <entity id="DDI-DrugBank.d103.s21.e0" charOffset="184-190"
+            type="brand" text="FORADIL"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d103.s22" text="v. Patients should be cautioned regarding potential adverse cardiovascular effects, such as palpitations or chest pain."/>
+    <sentence id="DDI-DrugBank.d103.s23" text="vi."/>
+    <sentence id="DDI-DrugBank.d103.s24" text="In patients receiving FORADIL, other inhaled medications should be used only as directed by the physician.">
+        <entity id="DDI-DrugBank.d103.s24.e0" charOffset="22-28"
+            type="brand" text="FORADIL"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d103.s25" text="vii."/>
+    <sentence id="DDI-DrugBank.d103.s26" text="Guardians of children who have been prescribed FORADIL should be alerted to the general concern regarding asthma therapy compliance, especially neglect of anti-inflammatory therapy and overuse of short-acting  beta2-agonists.">
+        <entity id="DDI-DrugBank.d103.s26.e0" charOffset="47-53"
+            type="brand" text="FORADIL"/>
+        <entity id="DDI-DrugBank.d103.s26.e1" charOffset="196-223"
+            type="group" text="short-acting  beta2-agonists"/>
+        <pair id="DDI-DrugBank.d103.s26.p0"
+            e1="DDI-DrugBank.d103.s26.e0" e2="DDI-DrugBank.d103.s26.e1" ddi="false"/>
+    </sentence>
+</document>

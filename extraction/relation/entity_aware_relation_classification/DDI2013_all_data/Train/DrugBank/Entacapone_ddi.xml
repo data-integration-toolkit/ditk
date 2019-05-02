@@ -1,0 +1,201 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="DDI-DrugBank.d455">
+    <sentence id="DDI-DrugBank.d455.s0" text="In vitro studies of human CYP enzymes showed that entacapone inhibited the CYP enzymes 1A2, 2A6, 2C9, 2C19, 2D6, 2E1 and 3A only at very high concentrations (IC50 from 200 to over 1000 uM;">
+        <entity id="DDI-DrugBank.d455.s0.e0" charOffset="50-59"
+            type="drug" text="entacapone"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d455.s1" text="an oral 200 mg dose achieves a highest level of approximately 5 uM in people);"/>
+    <sentence id="DDI-DrugBank.d455.s2" text="these enzymes would therefore not be expected to be inhibited in clinical use."/>
+    <sentence id="DDI-DrugBank.d455.s3" text="Protein Binding: Entacapone is highly protein bound (98%).">
+        <entity id="DDI-DrugBank.d455.s3.e0" charOffset="17-26"
+            type="drug" text="Entacapone"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d455.s4" text="In vitro studies have shown no binding displacement between entacapone and other highly bound drugs, such as warfarin, salicylic acid, phenylbutazone, and diazepam.">
+        <entity id="DDI-DrugBank.d455.s4.e0" charOffset="60-69"
+            type="drug" text="entacapone"/>
+        <entity id="DDI-DrugBank.d455.s4.e1" charOffset="109-116"
+            type="drug" text="warfarin"/>
+        <entity id="DDI-DrugBank.d455.s4.e2" charOffset="119-132"
+            type="drug" text="salicylic acid"/>
+        <entity id="DDI-DrugBank.d455.s4.e3" charOffset="135-148"
+            type="drug" text="phenylbutazone"/>
+        <entity id="DDI-DrugBank.d455.s4.e4" charOffset="155-162"
+            type="drug" text="diazepam"/>
+        <pair id="DDI-DrugBank.d455.s4.p0" e1="DDI-DrugBank.d455.s4.e0"
+            e2="DDI-DrugBank.d455.s4.e1" ddi="false"/>
+        <pair id="DDI-DrugBank.d455.s4.p1" e1="DDI-DrugBank.d455.s4.e0"
+            e2="DDI-DrugBank.d455.s4.e2" ddi="false"/>
+        <pair id="DDI-DrugBank.d455.s4.p2" e1="DDI-DrugBank.d455.s4.e0"
+            e2="DDI-DrugBank.d455.s4.e3" ddi="false"/>
+        <pair id="DDI-DrugBank.d455.s4.p3" e1="DDI-DrugBank.d455.s4.e0"
+            e2="DDI-DrugBank.d455.s4.e4" ddi="false"/>
+        <pair id="DDI-DrugBank.d455.s4.p4" e1="DDI-DrugBank.d455.s4.e1"
+            e2="DDI-DrugBank.d455.s4.e2" ddi="false"/>
+        <pair id="DDI-DrugBank.d455.s4.p5" e1="DDI-DrugBank.d455.s4.e1"
+            e2="DDI-DrugBank.d455.s4.e3" ddi="false"/>
+        <pair id="DDI-DrugBank.d455.s4.p6" e1="DDI-DrugBank.d455.s4.e1"
+            e2="DDI-DrugBank.d455.s4.e4" ddi="false"/>
+        <pair id="DDI-DrugBank.d455.s4.p7" e1="DDI-DrugBank.d455.s4.e2"
+            e2="DDI-DrugBank.d455.s4.e3" ddi="false"/>
+        <pair id="DDI-DrugBank.d455.s4.p8" e1="DDI-DrugBank.d455.s4.e2"
+            e2="DDI-DrugBank.d455.s4.e4" ddi="false"/>
+        <pair id="DDI-DrugBank.d455.s4.p9" e1="DDI-DrugBank.d455.s4.e3"
+            e2="DDI-DrugBank.d455.s4.e4" ddi="false"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d455.s5" text="Drugs Metabolized by Catechol-O-methyltransferase (COMT): Hormone levels: Levodopa is known to depress prolactin secretion and increase growth hormone levels.">
+        <entity id="DDI-DrugBank.d455.s5.e0" charOffset="74-81"
+            type="drug" text="Levodopa"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d455.s6" text="Treatment with entacapone coadministered with levodopa/dopa decarboxylase inhibitor does not change these effects.">
+        <entity id="DDI-DrugBank.d455.s6.e0" charOffset="15-24"
+            type="drug" text="entacapone"/>
+        <entity id="DDI-DrugBank.d455.s6.e1" charOffset="46-53"
+            type="drug" text="levodopa"/>
+        <entity id="DDI-DrugBank.d455.s6.e2" charOffset="55-82"
+            type="group" text="dopa decarboxylase inhibitor"/>
+        <pair id="DDI-DrugBank.d455.s6.p0" e1="DDI-DrugBank.d455.s6.e0"
+            e2="DDI-DrugBank.d455.s6.e1" ddi="false"/>
+        <pair id="DDI-DrugBank.d455.s6.p1" e1="DDI-DrugBank.d455.s6.e0"
+            e2="DDI-DrugBank.d455.s6.e2" ddi="false"/>
+        <pair id="DDI-DrugBank.d455.s6.p2" e1="DDI-DrugBank.d455.s6.e1"
+            e2="DDI-DrugBank.d455.s6.e2" ddi="false"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d455.s7" text="No interaction was noted with the MAO-B inhibitor selegiline in two multiple-dose interaction studies when entacapone was coadministered with a levodopa/dopa decarboxylase inhibitor (n=29).">
+        <entity id="DDI-DrugBank.d455.s7.e0" charOffset="34-48"
+            type="group" text="MAO-B inhibitor"/>
+        <entity id="DDI-DrugBank.d455.s7.e1" charOffset="50-59"
+            type="drug" text="selegiline"/>
+        <entity id="DDI-DrugBank.d455.s7.e2" charOffset="107-116"
+            type="drug" text="entacapone"/>
+        <entity id="DDI-DrugBank.d455.s7.e3" charOffset="144-151"
+            type="drug" text="levodopa"/>
+        <entity id="DDI-DrugBank.d455.s7.e4" charOffset="153-180"
+            type="group" text="dopa decarboxylase inhibitor"/>
+        <pair id="DDI-DrugBank.d455.s7.p0" e1="DDI-DrugBank.d455.s7.e0"
+            e2="DDI-DrugBank.d455.s7.e1" ddi="false"/>
+        <pair id="DDI-DrugBank.d455.s7.p1" e1="DDI-DrugBank.d455.s7.e0"
+            e2="DDI-DrugBank.d455.s7.e2" ddi="false"/>
+        <pair id="DDI-DrugBank.d455.s7.p2" e1="DDI-DrugBank.d455.s7.e0"
+            e2="DDI-DrugBank.d455.s7.e3" ddi="false"/>
+        <pair id="DDI-DrugBank.d455.s7.p3" e1="DDI-DrugBank.d455.s7.e0"
+            e2="DDI-DrugBank.d455.s7.e4" ddi="false"/>
+        <pair id="DDI-DrugBank.d455.s7.p4" e1="DDI-DrugBank.d455.s7.e1"
+            e2="DDI-DrugBank.d455.s7.e2" ddi="false"/>
+        <pair id="DDI-DrugBank.d455.s7.p5" e1="DDI-DrugBank.d455.s7.e1"
+            e2="DDI-DrugBank.d455.s7.e3" ddi="false"/>
+        <pair id="DDI-DrugBank.d455.s7.p6" e1="DDI-DrugBank.d455.s7.e1"
+            e2="DDI-DrugBank.d455.s7.e4" ddi="false"/>
+        <pair id="DDI-DrugBank.d455.s7.p7" e1="DDI-DrugBank.d455.s7.e2"
+            e2="DDI-DrugBank.d455.s7.e3" ddi="false"/>
+        <pair id="DDI-DrugBank.d455.s7.p8" e1="DDI-DrugBank.d455.s7.e2"
+            e2="DDI-DrugBank.d455.s7.e4" ddi="false"/>
+        <pair id="DDI-DrugBank.d455.s7.p9" e1="DDI-DrugBank.d455.s7.e3"
+            e2="DDI-DrugBank.d455.s7.e4" ddi="false"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d455.s8" text="More than 600 Parkinsons disease patients in clinical trials have used selegiline in combination with entacapone and levodopa/dopa decarboxylase inhibitor.">
+        <entity id="DDI-DrugBank.d455.s8.e0" charOffset="71-80"
+            type="drug" text="selegiline"/>
+        <entity id="DDI-DrugBank.d455.s8.e1" charOffset="102-111"
+            type="drug" text="entacapone"/>
+        <entity id="DDI-DrugBank.d455.s8.e2" charOffset="117-124"
+            type="drug" text="levodopa"/>
+        <entity id="DDI-DrugBank.d455.s8.e3" charOffset="126-153"
+            type="group" text="dopa decarboxylase inhibitor"/>
+        <pair id="DDI-DrugBank.d455.s8.p0" e1="DDI-DrugBank.d455.s8.e0"
+            e2="DDI-DrugBank.d455.s8.e1" ddi="false"/>
+        <pair id="DDI-DrugBank.d455.s8.p1" e1="DDI-DrugBank.d455.s8.e0"
+            e2="DDI-DrugBank.d455.s8.e2" ddi="false"/>
+        <pair id="DDI-DrugBank.d455.s8.p2" e1="DDI-DrugBank.d455.s8.e0"
+            e2="DDI-DrugBank.d455.s8.e3" ddi="false"/>
+        <pair id="DDI-DrugBank.d455.s8.p3" e1="DDI-DrugBank.d455.s8.e1"
+            e2="DDI-DrugBank.d455.s8.e2" ddi="false"/>
+        <pair id="DDI-DrugBank.d455.s8.p4" e1="DDI-DrugBank.d455.s8.e1"
+            e2="DDI-DrugBank.d455.s8.e3" ddi="false"/>
+        <pair id="DDI-DrugBank.d455.s8.p5" e1="DDI-DrugBank.d455.s8.e2"
+            e2="DDI-DrugBank.d455.s8.e3" ddi="false"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d455.s9" text="As most entacapone excretion is via the bile, caution should be exercised when drugs known to interfere with biliary excretion, glucuronidation, and intestinal beta-glucuronidase are given concurrently with entacapone.">
+        <entity id="DDI-DrugBank.d455.s9.e0" charOffset="8-17"
+            type="drug" text="entacapone"/>
+        <entity id="DDI-DrugBank.d455.s9.e1" charOffset="207-216"
+            type="drug" text="entacapone"/>
+        <pair id="DDI-DrugBank.d455.s9.p0" e1="DDI-DrugBank.d455.s9.e0"
+            e2="DDI-DrugBank.d455.s9.e1" ddi="false"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d455.s10" text="These include probenecid, cholestyramine, and some antibiotics (e.g. erythromycin, rifamipicin, ampicillin and chloramphenicol).">
+        <entity id="DDI-DrugBank.d455.s10.e0" charOffset="14-23"
+            type="drug" text="probenecid"/>
+        <entity id="DDI-DrugBank.d455.s10.e1" charOffset="26-39"
+            type="drug" text="cholestyramine"/>
+        <entity id="DDI-DrugBank.d455.s10.e2" charOffset="51-61"
+            type="group" text="antibiotics"/>
+        <entity id="DDI-DrugBank.d455.s10.e3" charOffset="69-80"
+            type="drug" text="erythromycin"/>
+        <entity id="DDI-DrugBank.d455.s10.e4" charOffset="96-105"
+            type="drug" text="ampicillin"/>
+        <entity id="DDI-DrugBank.d455.s10.e5" charOffset="111-125"
+            type="drug" text="chloramphenicol"/>
+        <pair id="DDI-DrugBank.d455.s10.p0"
+            e1="DDI-DrugBank.d455.s10.e0" e2="DDI-DrugBank.d455.s10.e1" ddi="false"/>
+        <pair id="DDI-DrugBank.d455.s10.p1"
+            e1="DDI-DrugBank.d455.s10.e0" e2="DDI-DrugBank.d455.s10.e2" ddi="false"/>
+        <pair id="DDI-DrugBank.d455.s10.p2"
+            e1="DDI-DrugBank.d455.s10.e0" e2="DDI-DrugBank.d455.s10.e3" ddi="false"/>
+        <pair id="DDI-DrugBank.d455.s10.p3"
+            e1="DDI-DrugBank.d455.s10.e0" e2="DDI-DrugBank.d455.s10.e4" ddi="false"/>
+        <pair id="DDI-DrugBank.d455.s10.p4"
+            e1="DDI-DrugBank.d455.s10.e0" e2="DDI-DrugBank.d455.s10.e5" ddi="false"/>
+        <pair id="DDI-DrugBank.d455.s10.p5"
+            e1="DDI-DrugBank.d455.s10.e1" e2="DDI-DrugBank.d455.s10.e2" ddi="false"/>
+        <pair id="DDI-DrugBank.d455.s10.p6"
+            e1="DDI-DrugBank.d455.s10.e1" e2="DDI-DrugBank.d455.s10.e3" ddi="false"/>
+        <pair id="DDI-DrugBank.d455.s10.p7"
+            e1="DDI-DrugBank.d455.s10.e1" e2="DDI-DrugBank.d455.s10.e4" ddi="false"/>
+        <pair id="DDI-DrugBank.d455.s10.p8"
+            e1="DDI-DrugBank.d455.s10.e1" e2="DDI-DrugBank.d455.s10.e5" ddi="false"/>
+        <pair id="DDI-DrugBank.d455.s10.p9"
+            e1="DDI-DrugBank.d455.s10.e2" e2="DDI-DrugBank.d455.s10.e3" ddi="false"/>
+        <pair id="DDI-DrugBank.d455.s10.p10"
+            e1="DDI-DrugBank.d455.s10.e2" e2="DDI-DrugBank.d455.s10.e4" ddi="false"/>
+        <pair id="DDI-DrugBank.d455.s10.p11"
+            e1="DDI-DrugBank.d455.s10.e2" e2="DDI-DrugBank.d455.s10.e5" ddi="false"/>
+        <pair id="DDI-DrugBank.d455.s10.p12"
+            e1="DDI-DrugBank.d455.s10.e3" e2="DDI-DrugBank.d455.s10.e4" ddi="false"/>
+        <pair id="DDI-DrugBank.d455.s10.p13"
+            e1="DDI-DrugBank.d455.s10.e3" e2="DDI-DrugBank.d455.s10.e5" ddi="false"/>
+        <pair id="DDI-DrugBank.d455.s10.p14"
+            e1="DDI-DrugBank.d455.s10.e4" e2="DDI-DrugBank.d455.s10.e5" ddi="false"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d455.s11" text="No interaction with the tricyclic antidepressant imipramine was shown in a single-dose study with entacapone without coadministered levodopa/dopa-decarboxylase inhibitor.">
+        <entity id="DDI-DrugBank.d455.s11.e0" charOffset="24-47"
+            type="group" text="tricyclic antidepressant"/>
+        <entity id="DDI-DrugBank.d455.s11.e1" charOffset="49-58"
+            type="drug" text="imipramine"/>
+        <entity id="DDI-DrugBank.d455.s11.e2" charOffset="98-107"
+            type="drug" text="entacapone"/>
+        <entity id="DDI-DrugBank.d455.s11.e3" charOffset="132-139"
+            type="drug" text="levodopa"/>
+        <entity id="DDI-DrugBank.d455.s11.e4" charOffset="141-168"
+            type="group" text="dopa-decarboxylase inhibitor"/>
+        <pair id="DDI-DrugBank.d455.s11.p0"
+            e1="DDI-DrugBank.d455.s11.e0" e2="DDI-DrugBank.d455.s11.e1" ddi="false"/>
+        <pair id="DDI-DrugBank.d455.s11.p1"
+            e1="DDI-DrugBank.d455.s11.e0" e2="DDI-DrugBank.d455.s11.e2" ddi="false"/>
+        <pair id="DDI-DrugBank.d455.s11.p2"
+            e1="DDI-DrugBank.d455.s11.e0" e2="DDI-DrugBank.d455.s11.e3" ddi="false"/>
+        <pair id="DDI-DrugBank.d455.s11.p3"
+            e1="DDI-DrugBank.d455.s11.e0" e2="DDI-DrugBank.d455.s11.e4" ddi="false"/>
+        <pair id="DDI-DrugBank.d455.s11.p4"
+            e1="DDI-DrugBank.d455.s11.e1" e2="DDI-DrugBank.d455.s11.e2" ddi="false"/>
+        <pair id="DDI-DrugBank.d455.s11.p5"
+            e1="DDI-DrugBank.d455.s11.e1" e2="DDI-DrugBank.d455.s11.e3" ddi="false"/>
+        <pair id="DDI-DrugBank.d455.s11.p6"
+            e1="DDI-DrugBank.d455.s11.e1" e2="DDI-DrugBank.d455.s11.e4" ddi="false"/>
+        <pair id="DDI-DrugBank.d455.s11.p7"
+            e1="DDI-DrugBank.d455.s11.e2" e2="DDI-DrugBank.d455.s11.e3" ddi="false"/>
+        <pair id="DDI-DrugBank.d455.s11.p8"
+            e1="DDI-DrugBank.d455.s11.e2" e2="DDI-DrugBank.d455.s11.e4" ddi="false"/>
+        <pair id="DDI-DrugBank.d455.s11.p9"
+            e1="DDI-DrugBank.d455.s11.e3" e2="DDI-DrugBank.d455.s11.e4" ddi="false"/>
+    </sentence>
+</document>

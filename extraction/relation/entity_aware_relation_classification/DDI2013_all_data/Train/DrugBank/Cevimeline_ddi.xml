@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="DDI-DrugBank.d287">
+    <sentence id="DDI-DrugBank.d287.s0" text="Cevimeline should be administered with caution to patients taking beta adrenergic antagonists, because of the possibility of conduction disturbances.">
+        <entity id="DDI-DrugBank.d287.s0.e0" charOffset="0-9"
+            type="drug" text="Cevimeline"/>
+        <entity id="DDI-DrugBank.d287.s0.e1" charOffset="66-92"
+            type="group" text="beta adrenergic antagonists"/>
+        <pair id="DDI-DrugBank.d287.s0.p0" e1="DDI-DrugBank.d287.s0.e0"
+            e2="DDI-DrugBank.d287.s0.e1" ddi="true" type="advise"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d287.s1" text="Drugs with parasympathomimetic effects administered concurrently with cevimeline can be expected to have additive effects.">
+        <entity id="DDI-DrugBank.d287.s1.e0" charOffset="70-79"
+            type="drug" text="cevimeline"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d287.s2" text="Cevimeline might interfere with desirable antimuscarinic effects of drugs used concomitantly.">
+        <entity id="DDI-DrugBank.d287.s2.e0" charOffset="0-9"
+            type="drug" text="Cevimeline"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d287.s3" text="Drugs which inhibit CYP2D6 and CYP3A3/4 also inhibit the metabolism of cevimeline.">
+        <entity id="DDI-DrugBank.d287.s3.e0" charOffset="71-80"
+            type="drug" text="cevimeline"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d287.s4" text="Cevimeline should be used with caution in individuals known or suspected to be deficient in CYP2D6 activity, based on previous experience, as they may be at a higher risk of adverse events.">
+        <entity id="DDI-DrugBank.d287.s4.e0" charOffset="0-9"
+            type="drug" text="Cevimeline"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d287.s5" text="In an in vitro study, cytochrome P450 isozymes 1A2, 2A6, 2C9, 2C19, 2D6, 2E1, and 3A4 were not inhibited by exposure to cevimeline.">
+        <entity id="DDI-DrugBank.d287.s5.e0" charOffset="120-129"
+            type="drug" text="cevimeline"/>
+    </sentence>
+</document>

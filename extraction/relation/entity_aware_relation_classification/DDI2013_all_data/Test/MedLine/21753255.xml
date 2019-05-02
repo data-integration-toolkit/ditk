@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="DDI-MedLine.d184">
+    <sentence id="DDI-MedLine.d184.s0" text="Amphetamine locomotor sensitization and conditioned place preference in adolescent male and female rats neonatally treated with quinpirole.&#xd;&#xa;">
+        <entity id="DDI-MedLine.d184.s0.e0" charOffset="0-10"
+            type="drug" text="Amphetamine"/>
+        <entity id="DDI-MedLine.d184.s0.e1" charOffset="128-137"
+            type="drug_n" text="quinpirole"/>
+        <pair id="DDI-MedLine.d184.s0.p0" e1="DDI-MedLine.d184.s0.e0"
+            e2="DDI-MedLine.d184.s0.e1" ddi="false"/>
+    </sentence>
+    <sentence id="DDI-MedLine.d184.s1" text="Neonatal quinpirole treatment has been shown to produce an increase in dopamine D2-like receptor sensitivity that persists throughout the subject's lifetime. ">
+        <entity id="DDI-MedLine.d184.s1.e0" charOffset="9-18"
+            type="drug_n" text="quinpirole"/>
+    </sentence>
+    <sentence id="DDI-MedLine.d184.s2" text="The objective was to analyze the effects of neonatal quinpirole treatment on effects of amphetamine in adolescent rats using locomotor sensitization and conditioned place preference procedures. ">
+        <entity id="DDI-MedLine.d184.s2.e0" charOffset="53-62"
+            type="drug_n" text="quinpirole"/>
+        <entity id="DDI-MedLine.d184.s2.e1" charOffset="88-98"
+            type="drug" text="amphetamine"/>
+        <pair id="DDI-MedLine.d184.s2.p0" e1="DDI-MedLine.d184.s2.e0"
+            e2="DDI-MedLine.d184.s2.e1" ddi="false"/>
+    </sentence>
+    <sentence id="DDI-MedLine.d184.s3" text="Sprague-Dawley rats were treated with quinpirole (1 mg/kg) or saline from postnatal days (P)1 to P11 and raised to adolescence. ">
+        <entity id="DDI-MedLine.d184.s3.e0" charOffset="38-47"
+            type="drug_n" text="quinpirole"/>
+    </sentence>
+    <sentence id="DDI-MedLine.d184.s4" text="For locomotor sensitization, subjects were given amphetamine (1 mg/kg) or saline every second day from P35 to P47 and were placed into a locomotor arena. ">
+        <entity id="DDI-MedLine.d184.s4.e0" charOffset="49-59"
+            type="drug" text="amphetamine"/>
+    </sentence>
+    <sentence id="DDI-MedLine.d184.s5" text="In female rats, neonatal quinpirole treatment enhanced amphetamine locomotor sensitization compared with quinpirole-free controls sensitized to amphetamine. ">
+        <entity id="DDI-MedLine.d184.s5.e0" charOffset="25-34"
+            type="drug_n" text="quinpirole"/>
+        <entity id="DDI-MedLine.d184.s5.e1" charOffset="55-65"
+            type="drug" text="amphetamine"/>
+        <entity id="DDI-MedLine.d184.s5.e2" charOffset="105-114"
+            type="drug_n" text="quinpirole"/>
+        <entity id="DDI-MedLine.d184.s5.e3" charOffset="144-154"
+            type="drug" text="amphetamine"/>
+        <pair id="DDI-MedLine.d184.s5.p0" e1="DDI-MedLine.d184.s5.e0"
+            e2="DDI-MedLine.d184.s5.e1" ddi="true" type="effect"/>
+        <pair id="DDI-MedLine.d184.s5.p1" e1="DDI-MedLine.d184.s5.e0"
+            e2="DDI-MedLine.d184.s5.e2" ddi="false"/>
+        <pair id="DDI-MedLine.d184.s5.p2" e1="DDI-MedLine.d184.s5.e0"
+            e2="DDI-MedLine.d184.s5.e3" ddi="false"/>
+        <pair id="DDI-MedLine.d184.s5.p3" e1="DDI-MedLine.d184.s5.e1"
+            e2="DDI-MedLine.d184.s5.e2" ddi="false"/>
+        <pair id="DDI-MedLine.d184.s5.p4" e1="DDI-MedLine.d184.s5.e1"
+            e2="DDI-MedLine.d184.s5.e3" ddi="false"/>
+        <pair id="DDI-MedLine.d184.s5.p5" e1="DDI-MedLine.d184.s5.e2"
+            e2="DDI-MedLine.d184.s5.e3" ddi="false"/>
+    </sentence>
+    <sentence id="DDI-MedLine.d184.s6" text="Male rats demonstrated sensitization to amphetamine, although this was muted compared with female rats, and were unaffected by neonatal quinpirole. ">
+        <entity id="DDI-MedLine.d184.s6.e0" charOffset="40-50"
+            type="drug" text="amphetamine"/>
+        <entity id="DDI-MedLine.d184.s6.e1" charOffset="136-145"
+            type="drug_n" text="quinpirole"/>
+        <pair id="DDI-MedLine.d184.s6.p0" e1="DDI-MedLine.d184.s6.e0"
+            e2="DDI-MedLine.d184.s6.e1" ddi="false"/>
+    </sentence>
+    <sentence id="DDI-MedLine.d184.s7" text="For conditioned place preference, subjects were conditioned for 8 consecutive days (P32-39) with amphetamine (1 mg/kg) or saline and a drug-free preference test was conducted at P40. ">
+        <entity id="DDI-MedLine.d184.s7.e0" charOffset="97-107"
+            type="drug" text="amphetamine"/>
+    </sentence>
+    <sentence id="DDI-MedLine.d184.s8" text="Rats treated with neonatal quinpirole enhanced time spent in the amphetamine-paired context compared with quinpirole-free controls conditioned with amphetamine, but only female controls conditioned with amphetamine spent more time in the drug-paired context compared with saline-treated controls. ">
+        <entity id="DDI-MedLine.d184.s8.e0" charOffset="27-36"
+            type="drug_n" text="quinpirole"/>
+        <entity id="DDI-MedLine.d184.s8.e1" charOffset="65-75"
+            type="drug" text="amphetamine"/>
+        <entity id="DDI-MedLine.d184.s8.e2" charOffset="106-115"
+            type="drug_n" text="quinpirole"/>
+        <entity id="DDI-MedLine.d184.s8.e3" charOffset="148-158"
+            type="drug" text="amphetamine"/>
+        <entity id="DDI-MedLine.d184.s8.e4" charOffset="203-213"
+            type="drug" text="amphetamine"/>
+        <pair id="DDI-MedLine.d184.s8.p0" e1="DDI-MedLine.d184.s8.e0"
+            e2="DDI-MedLine.d184.s8.e1" ddi="false"/>
+        <pair id="DDI-MedLine.d184.s8.p1" e1="DDI-MedLine.d184.s8.e0"
+            e2="DDI-MedLine.d184.s8.e2" ddi="false"/>
+        <pair id="DDI-MedLine.d184.s8.p2" e1="DDI-MedLine.d184.s8.e0"
+            e2="DDI-MedLine.d184.s8.e3" ddi="false"/>
+        <pair id="DDI-MedLine.d184.s8.p3" e1="DDI-MedLine.d184.s8.e0"
+            e2="DDI-MedLine.d184.s8.e4" ddi="false"/>
+        <pair id="DDI-MedLine.d184.s8.p4" e1="DDI-MedLine.d184.s8.e1"
+            e2="DDI-MedLine.d184.s8.e2" ddi="false"/>
+        <pair id="DDI-MedLine.d184.s8.p5" e1="DDI-MedLine.d184.s8.e1"
+            e2="DDI-MedLine.d184.s8.e3" ddi="false"/>
+        <pair id="DDI-MedLine.d184.s8.p6" e1="DDI-MedLine.d184.s8.e1"
+            e2="DDI-MedLine.d184.s8.e4" ddi="false"/>
+        <pair id="DDI-MedLine.d184.s8.p7" e1="DDI-MedLine.d184.s8.e2"
+            e2="DDI-MedLine.d184.s8.e3" ddi="false"/>
+        <pair id="DDI-MedLine.d184.s8.p8" e1="DDI-MedLine.d184.s8.e2"
+            e2="DDI-MedLine.d184.s8.e4" ddi="false"/>
+        <pair id="DDI-MedLine.d184.s8.p9" e1="DDI-MedLine.d184.s8.e3"
+            e2="DDI-MedLine.d184.s8.e4" ddi="false"/>
+    </sentence>
+    <sentence id="DDI-MedLine.d184.s9" text="Increased D   -like receptor sensitivity appears to have enhanced the behavioral effects of amphetamine, but these effects were more prevalent in adolescent female rats compared with male rats.">
+        <entity id="DDI-MedLine.d184.s9.e0" charOffset="92-102"
+            type="drug" text="amphetamine"/>
+    </sentence>
+</document>

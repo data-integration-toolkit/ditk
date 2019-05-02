@@ -1,0 +1,4 @@
+There is no jupyter notebook for this project as it requires tf.app.run(). This command needs to run when main() is executed but since
+jupyter notebook runs block by block, it can't call tf.app.run(). Also, tf.app.run() calls sys.exit() explicitly. Hence, it is not possible
+to create a jupyter notenook for this. I have shown the demo through the command prompt. This stackoverflow link explains in details as to
+why tf.app.run() cannot be executed in a notebook - [Link]https://stackoverflow.com/questions/48390664/can-i-change-the-script-bellowtf-app-run-to-work-in-jupyter-notebook-without

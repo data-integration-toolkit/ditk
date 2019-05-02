@@ -1,0 +1,14 @@
+Sample Output
+Entity1 Relation Entity2 -> p [0,1]
+
+if p is close to 1
+Two Entities are related
+
+if p is close to 0
+Two entities are not related
+
+Sample Test Case:
+
+Yash	Country of Origin	India -> p=0.9
+
+Since p is close to 1, two entities are related

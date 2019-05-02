@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="DDI-DrugBank.d38">
+    <sentence id="DDI-DrugBank.d38.s0" text="ZINECARD does not influence the pharmacokinetics of doxorubicin.">
+        <entity id="DDI-DrugBank.d38.s0.e0" charOffset="0-7"
+            type="brand" text="ZINECARD"/>
+        <entity id="DDI-DrugBank.d38.s0.e1" charOffset="52-62"
+            type="drug" text="doxorubicin"/>
+        <pair id="DDI-DrugBank.d38.s0.p0" e1="DDI-DrugBank.d38.s0.e0"
+            e2="DDI-DrugBank.d38.s0.e1" ddi="false"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d38.s1" text="Carcinogenesis, Mutagenesis, Impairment of Fertility No long-term carcinogenicity studies have been carried out with dexrazoxane in animals.">
+        <entity id="DDI-DrugBank.d38.s1.e0" charOffset="117-127"
+            type="drug" text="dexrazoxane"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d38.s2" text="Dexrazoxane was not mutagenic in the Ames test but was found to be clastogenic to human lymphocytes in vitro and to mouse bone marrow erythrocytes in vivo (micronucleus test).">
+        <entity id="DDI-DrugBank.d38.s2.e0" charOffset="0-10"
+            type="drug" text="Dexrazoxane"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d38.s3" text="The possible adverse effects of ZINECARD on the fertility of humans and experimental animals, male or female, have not been adequately studied.">
+        <entity id="DDI-DrugBank.d38.s3.e0" charOffset="32-39"
+            type="brand" text="ZINECARD"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d38.s4" text="Testicular atrophy was seen with dexrazoxane administration at doses as low as 30 mg/kg weekly for 6 weeks in rats (1/3 the human dose on a mg/m 2 basis) and as low as 20 mg/kg weekly for 13 weeks in dogs (approximately equal to the human dose on a mg/m 2 basis).">
+        <entity id="DDI-DrugBank.d38.s4.e0" charOffset="33-43"
+            type="drug" text="dexrazoxane"/>
+    </sentence>
+</document>

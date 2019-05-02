@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="DDI-MedLine.d185">
+    <sentence id="DDI-MedLine.d185.s0" text="Effect of ketoconazole-mediated CYP3A4 inhibition on clinical pharmacokinetics of panobinostat (LBH589), an orally active histone deacetylase inhibitor.&#xd;&#xa;">
+        <entity id="DDI-MedLine.d185.s0.e0" charOffset="10-21"
+            type="drug" text="ketoconazole"/>
+        <entity id="DDI-MedLine.d185.s0.e1" charOffset="82-93"
+            type="drug" text="panobinostat"/>
+        <entity id="DDI-MedLine.d185.s0.e2" charOffset="96-101"
+            type="drug" text="LBH589"/>
+        <entity id="DDI-MedLine.d185.s0.e3" charOffset="122-150"
+            type="group" text="histone deacetylase inhibitor"/>
+        <pair id="DDI-MedLine.d185.s0.p0" e1="DDI-MedLine.d185.s0.e0"
+            e2="DDI-MedLine.d185.s0.e1" ddi="false"/>
+        <pair id="DDI-MedLine.d185.s0.p1" e1="DDI-MedLine.d185.s0.e0"
+            e2="DDI-MedLine.d185.s0.e2" ddi="false"/>
+        <pair id="DDI-MedLine.d185.s0.p2" e1="DDI-MedLine.d185.s0.e0"
+            e2="DDI-MedLine.d185.s0.e3" ddi="false"/>
+        <pair id="DDI-MedLine.d185.s0.p3" e1="DDI-MedLine.d185.s0.e1"
+            e2="DDI-MedLine.d185.s0.e2" ddi="false"/>
+        <pair id="DDI-MedLine.d185.s0.p4" e1="DDI-MedLine.d185.s0.e1"
+            e2="DDI-MedLine.d185.s0.e3" ddi="false"/>
+        <pair id="DDI-MedLine.d185.s0.p5" e1="DDI-MedLine.d185.s0.e2"
+            e2="DDI-MedLine.d185.s0.e3" ddi="false"/>
+    </sentence>
+    <sentence id="DDI-MedLine.d185.s1" text="Panobinostat is partly metabolized by CYP3A4 in vitro. ">
+        <entity id="DDI-MedLine.d185.s1.e0" charOffset="0-11"
+            type="drug" text="Panobinostat"/>
+    </sentence>
+    <sentence id="DDI-MedLine.d185.s2" text="This study evaluated the effect of a potent CYP3A inhibitor, ketoconazole, on the pharmacokinetics and safety of panobinostat.">
+        <entity id="DDI-MedLine.d185.s2.e0" charOffset="61-72"
+            type="drug" text="ketoconazole"/>
+        <entity id="DDI-MedLine.d185.s2.e1" charOffset="113-124"
+            type="drug" text="panobinostat"/>
+        <pair id="DDI-MedLine.d185.s2.p0" e1="DDI-MedLine.d185.s2.e0"
+            e2="DDI-MedLine.d185.s2.e1" ddi="false"/>
+    </sentence>
+    <sentence id="DDI-MedLine.d185.s3" text="Patients received a single panobinostat oral dose on day 1, followed by 4  days wash-out period. ">
+        <entity id="DDI-MedLine.d185.s3.e0" charOffset="27-38"
+            type="drug" text="panobinostat"/>
+    </sentence>
+    <sentence id="DDI-MedLine.d185.s4" text="On days 5-9, ketoconazole was administered. ">
+        <entity id="DDI-MedLine.d185.s4.e0" charOffset="13-24"
+            type="drug" text="ketoconazole"/>
+    </sentence>
+    <sentence id="DDI-MedLine.d185.s5" text="On day 8, a single panobinostat dose was co-administered with ketoconazole. ">
+        <entity id="DDI-MedLine.d185.s5.e0" charOffset="19-30"
+            type="drug" text="panobinostat"/>
+        <entity id="DDI-MedLine.d185.s5.e1" charOffset="62-73"
+            type="drug" text="ketoconazole"/>
+        <pair id="DDI-MedLine.d185.s5.p0" e1="DDI-MedLine.d185.s5.e0"
+            e2="DDI-MedLine.d185.s5.e1" ddi="false"/>
+    </sentence>
+    <sentence id="DDI-MedLine.d185.s6" text="Panobinostat was administered as single agent three times a week on day 15 and onward. ">
+        <entity id="DDI-MedLine.d185.s6.e0" charOffset="0-11"
+            type="drug" text="Panobinostat"/>
+    </sentence>
+    <sentence id="DDI-MedLine.d185.s7" text="In the presence of ketoconazole, there was 1.6- and 1.8-fold increase in C (max) and AUC of panobinostat, respectively. ">
+        <entity id="DDI-MedLine.d185.s7.e0" charOffset="19-30"
+            type="drug" text="ketoconazole"/>
+        <entity id="DDI-MedLine.d185.s7.e1" charOffset="92-103"
+            type="drug" text="panobinostat"/>
+        <pair id="DDI-MedLine.d185.s7.p0" e1="DDI-MedLine.d185.s7.e0"
+            e2="DDI-MedLine.d185.s7.e1" ddi="true" type="mechanism"/>
+    </sentence>
+    <sentence id="DDI-MedLine.d185.s8" text="No substantial change in T (max) or half-life was observed. "/>
+    <sentence id="DDI-MedLine.d185.s9" text="No difference in panobinostat-pharmacokinetics between patients carrying CYP3A5*1/*3 and CYP3A5*3/*3 alleles was observed. ">
+        <entity id="DDI-MedLine.d185.s9.e0" charOffset="17-28"
+            type="drug" text="panobinostat"/>
+    </sentence>
+    <sentence id="DDI-MedLine.d185.s10" text="Most frequently reported adverse events were gastrointestinal related. "/>
+    <sentence id="DDI-MedLine.d185.s11" text="Patients had asymptomatic hypophosphatemia (64%), and urine analysis suggested renal phosphate wasting. "/>
+    <sentence id="DDI-MedLine.d185.s12" text="Co-administration of panobinostat with CYP3A inhibitors is feasible as the observed increase in panobinostat PK parameters was not considered clinically relevant. ">
+        <entity id="DDI-MedLine.d185.s12.e0" charOffset="21-32"
+            type="drug" text="panobinostat"/>
+        <entity id="DDI-MedLine.d185.s12.e1" charOffset="96-107"
+            type="drug" text="panobinostat"/>
+        <pair id="DDI-MedLine.d185.s12.p0" e1="DDI-MedLine.d185.s12.e0"
+            e2="DDI-MedLine.d185.s12.e1" ddi="false"/>
+    </sentence>
+    <sentence id="DDI-MedLine.d185.s13" text="Considering the variability in exposure following enzyme inhibition and the fact that chronic dosing of panobinostat was not studied with CYP3A inhibitors, close monitoring of panobinostat-related adverse events is necessary.">
+        <entity id="DDI-MedLine.d185.s13.e0" charOffset="104-115"
+            type="drug" text="panobinostat"/>
+        <entity id="DDI-MedLine.d185.s13.e1" charOffset="176-187"
+            type="drug" text="panobinostat"/>
+        <pair id="DDI-MedLine.d185.s13.p0" e1="DDI-MedLine.d185.s13.e0"
+            e2="DDI-MedLine.d185.s13.e1" ddi="false"/>
+    </sentence>
+</document>

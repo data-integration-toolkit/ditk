@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="DDI-DrugBank.d780">
+    <sentence id="DDI-DrugBank.d780.s0" text="Anticholinesterases: Concurrent use of procaine hydrochloride and anticholinesterase agents may result in increased systemic toxicity since anticholinesterases inhibit the breakdown of procaine hydrochloride. ">
+        <entity id="DDI-DrugBank.d780.s0.e0" charOffset="0-18"
+            type="group" text="Anticholinesterases"/>
+        <entity id="DDI-DrugBank.d780.s0.e1" charOffset="39-60"
+            type="drug" text="procaine hydrochloride"/>
+        <entity id="DDI-DrugBank.d780.s0.e2" charOffset="66-90"
+            type="group" text="anticholinesterase agents"/>
+        <entity id="DDI-DrugBank.d780.s0.e3" charOffset="140-158"
+            type="group" text="anticholinesterases"/>
+        <entity id="DDI-DrugBank.d780.s0.e4" charOffset="185-206"
+            type="drug" text="procaine hydrochloride"/>
+        <pair id="DDI-DrugBank.d780.s0.p0" e1="DDI-DrugBank.d780.s0.e0"
+            e2="DDI-DrugBank.d780.s0.e1" ddi="false"/>
+        <pair id="DDI-DrugBank.d780.s0.p1" e1="DDI-DrugBank.d780.s0.e0"
+            e2="DDI-DrugBank.d780.s0.e2" ddi="false"/>
+        <pair id="DDI-DrugBank.d780.s0.p2" e1="DDI-DrugBank.d780.s0.e0"
+            e2="DDI-DrugBank.d780.s0.e3" ddi="false"/>
+        <pair id="DDI-DrugBank.d780.s0.p3" e1="DDI-DrugBank.d780.s0.e0"
+            e2="DDI-DrugBank.d780.s0.e4" ddi="false"/>
+        <pair id="DDI-DrugBank.d780.s0.p4" e1="DDI-DrugBank.d780.s0.e1"
+            e2="DDI-DrugBank.d780.s0.e2" ddi="true" type="effect"/>
+        <pair id="DDI-DrugBank.d780.s0.p5" e1="DDI-DrugBank.d780.s0.e1"
+            e2="DDI-DrugBank.d780.s0.e3" ddi="false"/>
+        <pair id="DDI-DrugBank.d780.s0.p6" e1="DDI-DrugBank.d780.s0.e1"
+            e2="DDI-DrugBank.d780.s0.e4" ddi="false"/>
+        <pair id="DDI-DrugBank.d780.s0.p7" e1="DDI-DrugBank.d780.s0.e2"
+            e2="DDI-DrugBank.d780.s0.e3" ddi="false"/>
+        <pair id="DDI-DrugBank.d780.s0.p8" e1="DDI-DrugBank.d780.s0.e2"
+            e2="DDI-DrugBank.d780.s0.e4" ddi="false"/>
+        <pair id="DDI-DrugBank.d780.s0.p9" e1="DDI-DrugBank.d780.s0.e3"
+            e2="DDI-DrugBank.d780.s0.e4" ddi="true" type="mechanism"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d780.s1" text="Antimyasthenics Concurrent use of procaine hydrochloride and antimyasthenics may result in loss of control of symptoms of myasthenia gravis due to antagonism of the effects of antimyasthenics on skeletal muscle. ">
+        <entity id="DDI-DrugBank.d780.s1.e0" charOffset="34-55"
+            type="drug" text="procaine hydrochloride"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d780.s2" text="Temporary dosage adjustment of antimyasthenics may be required. "/>
+    <sentence id="DDI-DrugBank.d780.s3" text="Also antimyasthenics may have anticholinesterase activity. "/>
+    <sentence id="DDI-DrugBank.d780.s4" text="CNS depressant medications: Concurrent use of procaine hydrochloride and CNS depressant medications may result in additive depressant effects. ">
+        <entity id="DDI-DrugBank.d780.s4.e0" charOffset="0-13"
+            type="group" text="CNS depressant"/>
+        <entity id="DDI-DrugBank.d780.s4.e1" charOffset="46-67"
+            type="drug" text="procaine hydrochloride"/>
+        <entity id="DDI-DrugBank.d780.s4.e2" charOffset="73-98"
+            type="group" text="CNS depressant medications"/>
+        <pair id="DDI-DrugBank.d780.s4.p0" e1="DDI-DrugBank.d780.s4.e0"
+            e2="DDI-DrugBank.d780.s4.e1" ddi="false"/>
+        <pair id="DDI-DrugBank.d780.s4.p1" e1="DDI-DrugBank.d780.s4.e0"
+            e2="DDI-DrugBank.d780.s4.e2" ddi="false"/>
+        <pair id="DDI-DrugBank.d780.s4.p2" e1="DDI-DrugBank.d780.s4.e1"
+            e2="DDI-DrugBank.d780.s4.e2" ddi="true" type="effect"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d780.s5" text="Hyaluronidase: Hyaluronidase may increase the diffusion rate of procaine hydrochloride, resulting in a decreased time of onset, but an increase in systemic toxicity. ">
+        <entity id="DDI-DrugBank.d780.s5.e0" charOffset="0-12"
+            type="drug" text="Hyaluronidase"/>
+        <entity id="DDI-DrugBank.d780.s5.e1" charOffset="15-27"
+            type="drug" text="Hyaluronidase"/>
+        <entity id="DDI-DrugBank.d780.s5.e2" charOffset="64-85"
+            type="drug" text="procaine hydrochloride"/>
+        <pair id="DDI-DrugBank.d780.s5.p0" e1="DDI-DrugBank.d780.s5.e0"
+            e2="DDI-DrugBank.d780.s5.e1" ddi="false"/>
+        <pair id="DDI-DrugBank.d780.s5.p1" e1="DDI-DrugBank.d780.s5.e0"
+            e2="DDI-DrugBank.d780.s5.e2" ddi="false"/>
+        <pair id="DDI-DrugBank.d780.s5.p2" e1="DDI-DrugBank.d780.s5.e1"
+            e2="DDI-DrugBank.d780.s5.e2" ddi="true" type="mechanism"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d780.s6" text="Neuromuscular blocking agents (such as suxamethonium chloride): Concurrent use of procaine hydrochloride and neuromuscular blocking agents may result in prolongation or enhancement of the neuromuscular blockade. ">
+        <entity id="DDI-DrugBank.d780.s6.e0" charOffset="0-28"
+            type="group" text="Neuromuscular blocking agents"/>
+        <entity id="DDI-DrugBank.d780.s6.e1" charOffset="39-60"
+            type="drug" text="suxamethonium chloride"/>
+        <entity id="DDI-DrugBank.d780.s6.e2" charOffset="82-103"
+            type="drug" text="procaine hydrochloride"/>
+        <entity id="DDI-DrugBank.d780.s6.e3" charOffset="109-137"
+            type="group" text="neuromuscular blocking agents"/>
+        <pair id="DDI-DrugBank.d780.s6.p0" e1="DDI-DrugBank.d780.s6.e0"
+            e2="DDI-DrugBank.d780.s6.e1" ddi="false"/>
+        <pair id="DDI-DrugBank.d780.s6.p1" e1="DDI-DrugBank.d780.s6.e0"
+            e2="DDI-DrugBank.d780.s6.e2" ddi="false"/>
+        <pair id="DDI-DrugBank.d780.s6.p2" e1="DDI-DrugBank.d780.s6.e0"
+            e2="DDI-DrugBank.d780.s6.e3" ddi="false"/>
+        <pair id="DDI-DrugBank.d780.s6.p3" e1="DDI-DrugBank.d780.s6.e1"
+            e2="DDI-DrugBank.d780.s6.e2" ddi="false"/>
+        <pair id="DDI-DrugBank.d780.s6.p4" e1="DDI-DrugBank.d780.s6.e1"
+            e2="DDI-DrugBank.d780.s6.e3" ddi="false"/>
+        <pair id="DDI-DrugBank.d780.s6.p5" e1="DDI-DrugBank.d780.s6.e2"
+            e2="DDI-DrugBank.d780.s6.e3" ddi="true" type="effect"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d780.s7" text="Sulfonamides: Concurrent use of procaine hydrochloride and sulfonamides may result in a reduction of the antibacterial action of the sulfonamide. ">
+        <entity id="DDI-DrugBank.d780.s7.e0" charOffset="0-11"
+            type="group" text="Sulfonamides"/>
+        <entity id="DDI-DrugBank.d780.s7.e1" charOffset="32-53"
+            type="drug" text="procaine hydrochloride"/>
+        <entity id="DDI-DrugBank.d780.s7.e2" charOffset="59-70"
+            type="group" text="sulfonamides"/>
+        <entity id="DDI-DrugBank.d780.s7.e3" charOffset="133-143"
+            type="group" text="sulfonamide"/>
+        <pair id="DDI-DrugBank.d780.s7.p0" e1="DDI-DrugBank.d780.s7.e0"
+            e2="DDI-DrugBank.d780.s7.e1" ddi="false"/>
+        <pair id="DDI-DrugBank.d780.s7.p1" e1="DDI-DrugBank.d780.s7.e0"
+            e2="DDI-DrugBank.d780.s7.e2" ddi="false"/>
+        <pair id="DDI-DrugBank.d780.s7.p2" e1="DDI-DrugBank.d780.s7.e0"
+            e2="DDI-DrugBank.d780.s7.e3" ddi="false"/>
+        <pair id="DDI-DrugBank.d780.s7.p3" e1="DDI-DrugBank.d780.s7.e1"
+            e2="DDI-DrugBank.d780.s7.e2" ddi="true" type="effect"/>
+        <pair id="DDI-DrugBank.d780.s7.p4" e1="DDI-DrugBank.d780.s7.e1"
+            e2="DDI-DrugBank.d780.s7.e3" ddi="false"/>
+        <pair id="DDI-DrugBank.d780.s7.p5" e1="DDI-DrugBank.d780.s7.e2"
+            e2="DDI-DrugBank.d780.s7.e3" ddi="false"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d780.s8" text="Acetazolamide: Concurrent use of acetazolamide and procaine hydrochloride may extend the plasma half-life of procaine.">
+        <entity id="DDI-DrugBank.d780.s8.e0" charOffset="0-12"
+            type="drug" text="Acetazolamide"/>
+        <entity id="DDI-DrugBank.d780.s8.e1" charOffset="33-45"
+            type="drug" text="acetazolamide"/>
+        <entity id="DDI-DrugBank.d780.s8.e2" charOffset="51-72"
+            type="drug" text="procaine hydrochloride"/>
+        <entity id="DDI-DrugBank.d780.s8.e3" charOffset="109-116"
+            type="drug" text="procaine"/>
+        <pair id="DDI-DrugBank.d780.s8.p0" e1="DDI-DrugBank.d780.s8.e0"
+            e2="DDI-DrugBank.d780.s8.e1" ddi="false"/>
+        <pair id="DDI-DrugBank.d780.s8.p1" e1="DDI-DrugBank.d780.s8.e0"
+            e2="DDI-DrugBank.d780.s8.e2" ddi="false"/>
+        <pair id="DDI-DrugBank.d780.s8.p2" e1="DDI-DrugBank.d780.s8.e0"
+            e2="DDI-DrugBank.d780.s8.e3" ddi="false"/>
+        <pair id="DDI-DrugBank.d780.s8.p3" e1="DDI-DrugBank.d780.s8.e1"
+            e2="DDI-DrugBank.d780.s8.e2" ddi="true" type="mechanism"/>
+        <pair id="DDI-DrugBank.d780.s8.p4" e1="DDI-DrugBank.d780.s8.e1"
+            e2="DDI-DrugBank.d780.s8.e3" ddi="false"/>
+        <pair id="DDI-DrugBank.d780.s8.p5" e1="DDI-DrugBank.d780.s8.e2"
+            e2="DDI-DrugBank.d780.s8.e3" ddi="false"/>
+    </sentence>
+</document>

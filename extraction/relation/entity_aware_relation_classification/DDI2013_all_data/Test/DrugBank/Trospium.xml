@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="DDI-DrugBank.d713">
+    <sentence id="DDI-DrugBank.d713.s0" text="The concomitant use of Sanctura with other anticholinergic agents that produce dry mouth, constipation, and other anticholinergic pharmacological effects may increase the frequency and/or severity of such effects. ">
+        <entity id="DDI-DrugBank.d713.s0.e0" charOffset="23-30"
+            type="brand" text="Sanctura"/>
+        <entity id="DDI-DrugBank.d713.s0.e1" charOffset="43-64"
+            type="group" text="anticholinergic agents"/>
+        <pair id="DDI-DrugBank.d713.s0.p0" e1="DDI-DrugBank.d713.s0.e0"
+            e2="DDI-DrugBank.d713.s0.e1" ddi="true" type="effect"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d713.s1" text="Anticholinergic agents may potentially alter the absorption of some concomitantly administered drugs due to anticholinergic effects on gastrointestinal motility. ">
+        <entity id="DDI-DrugBank.d713.s1.e0" charOffset="0-21"
+            type="group" text="Anticholinergic agents"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d713.s2" text="Drugs Eliminated by Active Tubular Secretion: Although studies to assess drug-drug interactions with Sanctura have not been conducted, Sanctura has the potential for pharmacokinetic interactions with other drugs that are eliminated by active tubular secretion (e.g. digoxin, procainamide, pancuronium, morphine, vancomycin, metformin and tenofovir). ">
+        <entity id="DDI-DrugBank.d713.s2.e0" charOffset="101-108"
+            type="brand" text="Sanctura"/>
+        <entity id="DDI-DrugBank.d713.s2.e1" charOffset="135-142"
+            type="brand" text="Sanctura"/>
+        <entity id="DDI-DrugBank.d713.s2.e2" charOffset="266-272"
+            type="drug" text="digoxin"/>
+        <entity id="DDI-DrugBank.d713.s2.e3" charOffset="275-286"
+            type="drug" text="procainamide"/>
+        <entity id="DDI-DrugBank.d713.s2.e4" charOffset="289-299"
+            type="drug" text="pancuronium"/>
+        <entity id="DDI-DrugBank.d713.s2.e5" charOffset="302-309"
+            type="drug" text="morphine"/>
+        <entity id="DDI-DrugBank.d713.s2.e6" charOffset="312-321"
+            type="drug" text="vancomycin"/>
+        <entity id="DDI-DrugBank.d713.s2.e7" charOffset="324-332"
+            type="drug" text="metformin"/>
+        <entity id="DDI-DrugBank.d713.s2.e8" charOffset="338-346"
+            type="drug" text="tenofovir"/>
+        <pair id="DDI-DrugBank.d713.s2.p0" e1="DDI-DrugBank.d713.s2.e0"
+            e2="DDI-DrugBank.d713.s2.e1" ddi="false"/>
+        <pair id="DDI-DrugBank.d713.s2.p1" e1="DDI-DrugBank.d713.s2.e0"
+            e2="DDI-DrugBank.d713.s2.e2" ddi="false"/>
+        <pair id="DDI-DrugBank.d713.s2.p2" e1="DDI-DrugBank.d713.s2.e0"
+            e2="DDI-DrugBank.d713.s2.e3" ddi="false"/>
+        <pair id="DDI-DrugBank.d713.s2.p3" e1="DDI-DrugBank.d713.s2.e0"
+            e2="DDI-DrugBank.d713.s2.e4" ddi="false"/>
+        <pair id="DDI-DrugBank.d713.s2.p4" e1="DDI-DrugBank.d713.s2.e0"
+            e2="DDI-DrugBank.d713.s2.e5" ddi="false"/>
+        <pair id="DDI-DrugBank.d713.s2.p5" e1="DDI-DrugBank.d713.s2.e0"
+            e2="DDI-DrugBank.d713.s2.e6" ddi="false"/>
+        <pair id="DDI-DrugBank.d713.s2.p6" e1="DDI-DrugBank.d713.s2.e0"
+            e2="DDI-DrugBank.d713.s2.e7" ddi="false"/>
+        <pair id="DDI-DrugBank.d713.s2.p7" e1="DDI-DrugBank.d713.s2.e0"
+            e2="DDI-DrugBank.d713.s2.e8" ddi="false"/>
+        <pair id="DDI-DrugBank.d713.s2.p8" e1="DDI-DrugBank.d713.s2.e1"
+            e2="DDI-DrugBank.d713.s2.e2" ddi="true" type="mechanism"/>
+        <pair id="DDI-DrugBank.d713.s2.p9" e1="DDI-DrugBank.d713.s2.e1"
+            e2="DDI-DrugBank.d713.s2.e3" ddi="true" type="mechanism"/>
+        <pair id="DDI-DrugBank.d713.s2.p10" e1="DDI-DrugBank.d713.s2.e1"
+            e2="DDI-DrugBank.d713.s2.e4" ddi="true" type="mechanism"/>
+        <pair id="DDI-DrugBank.d713.s2.p11" e1="DDI-DrugBank.d713.s2.e1"
+            e2="DDI-DrugBank.d713.s2.e5" ddi="true" type="mechanism"/>
+        <pair id="DDI-DrugBank.d713.s2.p12" e1="DDI-DrugBank.d713.s2.e1"
+            e2="DDI-DrugBank.d713.s2.e6" ddi="true" type="mechanism"/>
+        <pair id="DDI-DrugBank.d713.s2.p13" e1="DDI-DrugBank.d713.s2.e1"
+            e2="DDI-DrugBank.d713.s2.e7" ddi="true" type="mechanism"/>
+        <pair id="DDI-DrugBank.d713.s2.p14" e1="DDI-DrugBank.d713.s2.e1"
+            e2="DDI-DrugBank.d713.s2.e8" ddi="true" type="mechanism"/>
+        <pair id="DDI-DrugBank.d713.s2.p15" e1="DDI-DrugBank.d713.s2.e2"
+            e2="DDI-DrugBank.d713.s2.e3" ddi="false"/>
+        <pair id="DDI-DrugBank.d713.s2.p16" e1="DDI-DrugBank.d713.s2.e2"
+            e2="DDI-DrugBank.d713.s2.e4" ddi="false"/>
+        <pair id="DDI-DrugBank.d713.s2.p17" e1="DDI-DrugBank.d713.s2.e2"
+            e2="DDI-DrugBank.d713.s2.e5" ddi="false"/>
+        <pair id="DDI-DrugBank.d713.s2.p18" e1="DDI-DrugBank.d713.s2.e2"
+            e2="DDI-DrugBank.d713.s2.e6" ddi="false"/>
+        <pair id="DDI-DrugBank.d713.s2.p19" e1="DDI-DrugBank.d713.s2.e2"
+            e2="DDI-DrugBank.d713.s2.e7" ddi="false"/>
+        <pair id="DDI-DrugBank.d713.s2.p20" e1="DDI-DrugBank.d713.s2.e2"
+            e2="DDI-DrugBank.d713.s2.e8" ddi="false"/>
+        <pair id="DDI-DrugBank.d713.s2.p21" e1="DDI-DrugBank.d713.s2.e3"
+            e2="DDI-DrugBank.d713.s2.e4" ddi="false"/>
+        <pair id="DDI-DrugBank.d713.s2.p22" e1="DDI-DrugBank.d713.s2.e3"
+            e2="DDI-DrugBank.d713.s2.e5" ddi="false"/>
+        <pair id="DDI-DrugBank.d713.s2.p23" e1="DDI-DrugBank.d713.s2.e3"
+            e2="DDI-DrugBank.d713.s2.e6" ddi="false"/>
+        <pair id="DDI-DrugBank.d713.s2.p24" e1="DDI-DrugBank.d713.s2.e3"
+            e2="DDI-DrugBank.d713.s2.e7" ddi="false"/>
+        <pair id="DDI-DrugBank.d713.s2.p25" e1="DDI-DrugBank.d713.s2.e3"
+            e2="DDI-DrugBank.d713.s2.e8" ddi="false"/>
+        <pair id="DDI-DrugBank.d713.s2.p26" e1="DDI-DrugBank.d713.s2.e4"
+            e2="DDI-DrugBank.d713.s2.e5" ddi="false"/>
+        <pair id="DDI-DrugBank.d713.s2.p27" e1="DDI-DrugBank.d713.s2.e4"
+            e2="DDI-DrugBank.d713.s2.e6" ddi="false"/>
+        <pair id="DDI-DrugBank.d713.s2.p28" e1="DDI-DrugBank.d713.s2.e4"
+            e2="DDI-DrugBank.d713.s2.e7" ddi="false"/>
+        <pair id="DDI-DrugBank.d713.s2.p29" e1="DDI-DrugBank.d713.s2.e4"
+            e2="DDI-DrugBank.d713.s2.e8" ddi="false"/>
+        <pair id="DDI-DrugBank.d713.s2.p30" e1="DDI-DrugBank.d713.s2.e5"
+            e2="DDI-DrugBank.d713.s2.e6" ddi="false"/>
+        <pair id="DDI-DrugBank.d713.s2.p31" e1="DDI-DrugBank.d713.s2.e5"
+            e2="DDI-DrugBank.d713.s2.e7" ddi="false"/>
+        <pair id="DDI-DrugBank.d713.s2.p32" e1="DDI-DrugBank.d713.s2.e5"
+            e2="DDI-DrugBank.d713.s2.e8" ddi="false"/>
+        <pair id="DDI-DrugBank.d713.s2.p33" e1="DDI-DrugBank.d713.s2.e6"
+            e2="DDI-DrugBank.d713.s2.e7" ddi="false"/>
+        <pair id="DDI-DrugBank.d713.s2.p34" e1="DDI-DrugBank.d713.s2.e6"
+            e2="DDI-DrugBank.d713.s2.e8" ddi="false"/>
+        <pair id="DDI-DrugBank.d713.s2.p35" e1="DDI-DrugBank.d713.s2.e7"
+            e2="DDI-DrugBank.d713.s2.e8" ddi="false"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d713.s3" text="Coadministration of Sanctura with drugs that are eliminated by active renal tubular secretion may increase the serum concentration of Sanctura and/or the coadministered drug due to competition for this elimination pathway. ">
+        <entity id="DDI-DrugBank.d713.s3.e0" charOffset="20-27"
+            type="brand" text="Sanctura"/>
+        <entity id="DDI-DrugBank.d713.s3.e1" charOffset="134-141"
+            type="brand" text="Sanctura"/>
+        <pair id="DDI-DrugBank.d713.s3.p0" e1="DDI-DrugBank.d713.s3.e0"
+            e2="DDI-DrugBank.d713.s3.e1" ddi="false"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d713.s4" text="Careful patient monitoring is recommended in patients receiving such drugs. "/>
+    <sentence id="DDI-DrugBank.d713.s5" text="Drug-Laboratory-Test Interactions Interactions between Sanctura and laboratory tests have not been studied.">
+        <entity id="DDI-DrugBank.d713.s5.e0" charOffset="55-62"
+            type="brand" text="Sanctura"/>
+    </sentence>
+</document>

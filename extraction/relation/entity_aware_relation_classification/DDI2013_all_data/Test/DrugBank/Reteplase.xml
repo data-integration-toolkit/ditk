@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="DDI-DrugBank.d618">
+    <sentence id="DDI-DrugBank.d618.s0" text="The interaction of Retavase    with other cardioactive drugs has not been studied. ">
+        <entity id="DDI-DrugBank.d618.s0.e0" charOffset="19-26"
+            type="brand" text="Retavase"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d618.s1" text="In addition to bleeding associated with heparin and vitamin K antagonists, drugs that alter platelet function (such as aspirin, dipyridamole, and abciximab) may increase the risk of bleeding if administered prior to or after Retavase    therapy.">
+        <entity id="DDI-DrugBank.d618.s1.e0" charOffset="40-46"
+            type="drug" text="heparin"/>
+        <entity id="DDI-DrugBank.d618.s1.e1" charOffset="52-72"
+            type="group" text="vitamin K antagonists"/>
+        <entity id="DDI-DrugBank.d618.s1.e2" charOffset="119-125"
+            type="brand" text="aspirin"/>
+        <entity id="DDI-DrugBank.d618.s1.e3" charOffset="128-139"
+            type="drug" text="dipyridamole"/>
+        <entity id="DDI-DrugBank.d618.s1.e4" charOffset="146-154"
+            type="drug" text="abciximab"/>
+        <entity id="DDI-DrugBank.d618.s1.e5" charOffset="225-232"
+            type="brand" text="Retavase"/>
+        <pair id="DDI-DrugBank.d618.s1.p0" e1="DDI-DrugBank.d618.s1.e0"
+            e2="DDI-DrugBank.d618.s1.e1" ddi="false"/>
+        <pair id="DDI-DrugBank.d618.s1.p1" e1="DDI-DrugBank.d618.s1.e0"
+            e2="DDI-DrugBank.d618.s1.e2" ddi="false"/>
+        <pair id="DDI-DrugBank.d618.s1.p2" e1="DDI-DrugBank.d618.s1.e0"
+            e2="DDI-DrugBank.d618.s1.e3" ddi="false"/>
+        <pair id="DDI-DrugBank.d618.s1.p3" e1="DDI-DrugBank.d618.s1.e0"
+            e2="DDI-DrugBank.d618.s1.e4" ddi="false"/>
+        <pair id="DDI-DrugBank.d618.s1.p4" e1="DDI-DrugBank.d618.s1.e0"
+            e2="DDI-DrugBank.d618.s1.e5" ddi="true" type="effect"/>
+        <pair id="DDI-DrugBank.d618.s1.p5" e1="DDI-DrugBank.d618.s1.e1"
+            e2="DDI-DrugBank.d618.s1.e2" ddi="false"/>
+        <pair id="DDI-DrugBank.d618.s1.p6" e1="DDI-DrugBank.d618.s1.e1"
+            e2="DDI-DrugBank.d618.s1.e3" ddi="false"/>
+        <pair id="DDI-DrugBank.d618.s1.p7" e1="DDI-DrugBank.d618.s1.e1"
+            e2="DDI-DrugBank.d618.s1.e4" ddi="false"/>
+        <pair id="DDI-DrugBank.d618.s1.p8" e1="DDI-DrugBank.d618.s1.e1"
+            e2="DDI-DrugBank.d618.s1.e5" ddi="true" type="effect"/>
+        <pair id="DDI-DrugBank.d618.s1.p9" e1="DDI-DrugBank.d618.s1.e2"
+            e2="DDI-DrugBank.d618.s1.e3" ddi="false"/>
+        <pair id="DDI-DrugBank.d618.s1.p10" e1="DDI-DrugBank.d618.s1.e2"
+            e2="DDI-DrugBank.d618.s1.e4" ddi="false"/>
+        <pair id="DDI-DrugBank.d618.s1.p11" e1="DDI-DrugBank.d618.s1.e2"
+            e2="DDI-DrugBank.d618.s1.e5" ddi="true" type="effect"/>
+        <pair id="DDI-DrugBank.d618.s1.p12" e1="DDI-DrugBank.d618.s1.e3"
+            e2="DDI-DrugBank.d618.s1.e4" ddi="false"/>
+        <pair id="DDI-DrugBank.d618.s1.p13" e1="DDI-DrugBank.d618.s1.e3"
+            e2="DDI-DrugBank.d618.s1.e5" ddi="true" type="effect"/>
+        <pair id="DDI-DrugBank.d618.s1.p14" e1="DDI-DrugBank.d618.s1.e4"
+            e2="DDI-DrugBank.d618.s1.e5" ddi="true" type="effect"/>
+    </sentence>
+</document>

@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="DDI-MedLine.d62">
+    <sentence id="DDI-MedLine.d62.s0" text="Activation of an effector immediate-early gene arc by methamphetamine.&#xd;&#xa;">
+        <entity id="DDI-MedLine.d62.s0.e0" charOffset="54-68"
+            type="drug" text="methamphetamine"/>
+    </sentence>
+    <sentence id="DDI-MedLine.d62.s1" text="As immediate-early genes (IEGs) are thought to play a critical role in mediating stimulus-induced neural plasticity, IEG response induced by methamphetamine (METH) has been characterized to define the changes in gene expression that may underlie its long-lasting behavioral effects. ">
+        <entity id="DDI-MedLine.d62.s1.e0" charOffset="141-155"
+            type="drug" text="methamphetamine"/>
+        <entity id="DDI-MedLine.d62.s1.e1" charOffset="158-161"
+            type="drug" text="METH"/>
+        <pair id="DDI-MedLine.d62.s1.p0" e1="DDI-MedLine.d62.s1.e0"
+            e2="DDI-MedLine.d62.s1.e1" ddi="false"/>
+    </sentence>
+    <sentence id="DDI-MedLine.d62.s2" text="Although activation of several transcription factor IEGs has been described, little is known about effector IEGs. "/>
+    <sentence id="DDI-MedLine.d62.s3" text="Here, we have examined whether METH administration affects expression of an effector IEG arc (activity-regulated, cytoskeleton-associated) that encodes a protein with homology to spectrin. ">
+        <entity id="DDI-MedLine.d62.s3.e0" charOffset="31-34"
+            type="drug" text="METH"/>
+    </sentence>
+    <sentence id="DDI-MedLine.d62.s4" text="Using in situ hybridization, we observed that METH caused a rapid and transient dose-dependent increase in arc mRNA level in the striatum and cortex that was abolished by pretreatment with the specific dopamine D1 receptor antagonist SCH-23390 but not by an atypical neuroleptic clozapine. ">
+        <entity id="DDI-MedLine.d62.s4.e0" charOffset="46-49"
+            type="drug" text="METH"/>
+        <entity id="DDI-MedLine.d62.s4.e1" charOffset="234-242"
+            type="drug_n" text="SCH-23390"/>
+        <entity id="DDI-MedLine.d62.s4.e2" charOffset="258-277"
+            type="group" text="atypical neuroleptic"/>
+        <entity id="DDI-MedLine.d62.s4.e3" charOffset="279-287"
+            type="drug" text="clozapine"/>
+        <pair id="DDI-MedLine.d62.s4.p0" e1="DDI-MedLine.d62.s4.e0"
+            e2="DDI-MedLine.d62.s4.e1" ddi="true" type="effect"/>
+        <pair id="DDI-MedLine.d62.s4.p1" e1="DDI-MedLine.d62.s4.e0"
+            e2="DDI-MedLine.d62.s4.e2" ddi="false"/>
+        <pair id="DDI-MedLine.d62.s4.p2" e1="DDI-MedLine.d62.s4.e0"
+            e2="DDI-MedLine.d62.s4.e3" ddi="false"/>
+        <pair id="DDI-MedLine.d62.s4.p3" e1="DDI-MedLine.d62.s4.e1"
+            e2="DDI-MedLine.d62.s4.e2" ddi="false"/>
+        <pair id="DDI-MedLine.d62.s4.p4" e1="DDI-MedLine.d62.s4.e1"
+            e2="DDI-MedLine.d62.s4.e3" ddi="false"/>
+        <pair id="DDI-MedLine.d62.s4.p5" e1="DDI-MedLine.d62.s4.e2"
+            e2="DDI-MedLine.d62.s4.e3" ddi="false"/>
+    </sentence>
+    <sentence id="DDI-MedLine.d62.s5" text="METH induced arc mRNA in layers IV and VI of the cortex which dopamine receptor are localized to. ">
+        <entity id="DDI-MedLine.d62.s5.e0" charOffset="0-3" type="drug" text="METH"/>
+    </sentence>
+    <sentence id="DDI-MedLine.d62.s6" text="These results suggest that D1 receptors are coupled to activation of arc gene, which may be involved in functional or structural alterations underlying neural plasticity triggered by METH.">
+        <entity id="DDI-MedLine.d62.s6.e0" charOffset="183-186"
+            type="drug" text="METH"/>
+    </sentence>
+</document>

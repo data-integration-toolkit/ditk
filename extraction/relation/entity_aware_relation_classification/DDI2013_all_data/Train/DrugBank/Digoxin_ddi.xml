@@ -1,0 +1,338 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="DDI-DrugBank.d450">
+    <sentence id="DDI-DrugBank.d450.s0" text="Potassium-depleting diuretics are a major contributing factor to digitalis toxicity.">
+        <entity id="DDI-DrugBank.d450.s0.e0" charOffset="0-28"
+            type="group" text="Potassium-depleting diuretics"/>
+        <entity id="DDI-DrugBank.d450.s0.e1" charOffset="65-73"
+            type="group" text="digitalis"/>
+        <pair id="DDI-DrugBank.d450.s0.p0" e1="DDI-DrugBank.d450.s0.e0"
+            e2="DDI-DrugBank.d450.s0.e1" ddi="true" type="effect"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d450.s1" text="Calcium, particularly if administered rapidly by the intravenous route, may produce serious arrhythmias in digitalized patients.">
+        <entity id="DDI-DrugBank.d450.s1.e0" charOffset="0-6"
+            type="drug" text="Calcium"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d450.s2" text="Quinidine, verapamil, amiodarone, propafenone, indomethacin, itraconazole, alprazolam, and spironolactone raise the serum digoxin concentration due to a reduction in clearance and/or in volume of distribution of the drug, with the implication that digitalis intoxication may result.">
+        <entity id="DDI-DrugBank.d450.s2.e0" charOffset="0-8"
+            type="drug" text="Quinidine"/>
+        <entity id="DDI-DrugBank.d450.s2.e1" charOffset="11-19"
+            type="drug" text="verapamil"/>
+        <entity id="DDI-DrugBank.d450.s2.e2" charOffset="22-31"
+            type="drug" text="amiodarone"/>
+        <entity id="DDI-DrugBank.d450.s2.e3" charOffset="34-44"
+            type="drug" text="propafenone"/>
+        <entity id="DDI-DrugBank.d450.s2.e4" charOffset="47-58"
+            type="drug" text="indomethacin"/>
+        <entity id="DDI-DrugBank.d450.s2.e5" charOffset="61-72"
+            type="drug" text="itraconazole"/>
+        <entity id="DDI-DrugBank.d450.s2.e6" charOffset="75-84"
+            type="drug" text="alprazolam"/>
+        <entity id="DDI-DrugBank.d450.s2.e7" charOffset="91-104"
+            type="drug" text="spironolactone"/>
+        <entity id="DDI-DrugBank.d450.s2.e8" charOffset="122-128"
+            type="drug" text="digoxin"/>
+        <entity id="DDI-DrugBank.d450.s2.e9" charOffset="248-256"
+            type="group" text="digitalis"/>
+        <pair id="DDI-DrugBank.d450.s2.p0" e1="DDI-DrugBank.d450.s2.e0"
+            e2="DDI-DrugBank.d450.s2.e1" ddi="false"/>
+        <pair id="DDI-DrugBank.d450.s2.p1" e1="DDI-DrugBank.d450.s2.e0"
+            e2="DDI-DrugBank.d450.s2.e2" ddi="false"/>
+        <pair id="DDI-DrugBank.d450.s2.p2" e1="DDI-DrugBank.d450.s2.e0"
+            e2="DDI-DrugBank.d450.s2.e3" ddi="false"/>
+        <pair id="DDI-DrugBank.d450.s2.p3" e1="DDI-DrugBank.d450.s2.e0"
+            e2="DDI-DrugBank.d450.s2.e4" ddi="false"/>
+        <pair id="DDI-DrugBank.d450.s2.p4" e1="DDI-DrugBank.d450.s2.e0"
+            e2="DDI-DrugBank.d450.s2.e5" ddi="false"/>
+        <pair id="DDI-DrugBank.d450.s2.p5" e1="DDI-DrugBank.d450.s2.e0"
+            e2="DDI-DrugBank.d450.s2.e6" ddi="false"/>
+        <pair id="DDI-DrugBank.d450.s2.p6" e1="DDI-DrugBank.d450.s2.e0"
+            e2="DDI-DrugBank.d450.s2.e7" ddi="false"/>
+        <pair id="DDI-DrugBank.d450.s2.p7" e1="DDI-DrugBank.d450.s2.e0"
+            e2="DDI-DrugBank.d450.s2.e8" ddi="true" type="mechanism"/>
+        <pair id="DDI-DrugBank.d450.s2.p8" e1="DDI-DrugBank.d450.s2.e0"
+            e2="DDI-DrugBank.d450.s2.e9" ddi="false"/>
+        <pair id="DDI-DrugBank.d450.s2.p9" e1="DDI-DrugBank.d450.s2.e1"
+            e2="DDI-DrugBank.d450.s2.e2" ddi="false"/>
+        <pair id="DDI-DrugBank.d450.s2.p10" e1="DDI-DrugBank.d450.s2.e1"
+            e2="DDI-DrugBank.d450.s2.e3" ddi="false"/>
+        <pair id="DDI-DrugBank.d450.s2.p11" e1="DDI-DrugBank.d450.s2.e1"
+            e2="DDI-DrugBank.d450.s2.e4" ddi="false"/>
+        <pair id="DDI-DrugBank.d450.s2.p12" e1="DDI-DrugBank.d450.s2.e1"
+            e2="DDI-DrugBank.d450.s2.e5" ddi="false"/>
+        <pair id="DDI-DrugBank.d450.s2.p13" e1="DDI-DrugBank.d450.s2.e1"
+            e2="DDI-DrugBank.d450.s2.e6" ddi="false"/>
+        <pair id="DDI-DrugBank.d450.s2.p14" e1="DDI-DrugBank.d450.s2.e1"
+            e2="DDI-DrugBank.d450.s2.e7" ddi="false"/>
+        <pair id="DDI-DrugBank.d450.s2.p15" e1="DDI-DrugBank.d450.s2.e1"
+            e2="DDI-DrugBank.d450.s2.e8" ddi="true" type="mechanism"/>
+        <pair id="DDI-DrugBank.d450.s2.p16" e1="DDI-DrugBank.d450.s2.e1"
+            e2="DDI-DrugBank.d450.s2.e9" ddi="false"/>
+        <pair id="DDI-DrugBank.d450.s2.p17" e1="DDI-DrugBank.d450.s2.e2"
+            e2="DDI-DrugBank.d450.s2.e3" ddi="false"/>
+        <pair id="DDI-DrugBank.d450.s2.p18" e1="DDI-DrugBank.d450.s2.e2"
+            e2="DDI-DrugBank.d450.s2.e4" ddi="false"/>
+        <pair id="DDI-DrugBank.d450.s2.p19" e1="DDI-DrugBank.d450.s2.e2"
+            e2="DDI-DrugBank.d450.s2.e5" ddi="false"/>
+        <pair id="DDI-DrugBank.d450.s2.p20" e1="DDI-DrugBank.d450.s2.e2"
+            e2="DDI-DrugBank.d450.s2.e6" ddi="false"/>
+        <pair id="DDI-DrugBank.d450.s2.p21" e1="DDI-DrugBank.d450.s2.e2"
+            e2="DDI-DrugBank.d450.s2.e7" ddi="false"/>
+        <pair id="DDI-DrugBank.d450.s2.p22" e1="DDI-DrugBank.d450.s2.e2"
+            e2="DDI-DrugBank.d450.s2.e8" ddi="true" type="mechanism"/>
+        <pair id="DDI-DrugBank.d450.s2.p23" e1="DDI-DrugBank.d450.s2.e2"
+            e2="DDI-DrugBank.d450.s2.e9" ddi="false"/>
+        <pair id="DDI-DrugBank.d450.s2.p24" e1="DDI-DrugBank.d450.s2.e3"
+            e2="DDI-DrugBank.d450.s2.e4" ddi="false"/>
+        <pair id="DDI-DrugBank.d450.s2.p25" e1="DDI-DrugBank.d450.s2.e3"
+            e2="DDI-DrugBank.d450.s2.e5" ddi="false"/>
+        <pair id="DDI-DrugBank.d450.s2.p26" e1="DDI-DrugBank.d450.s2.e3"
+            e2="DDI-DrugBank.d450.s2.e6" ddi="false"/>
+        <pair id="DDI-DrugBank.d450.s2.p27" e1="DDI-DrugBank.d450.s2.e3"
+            e2="DDI-DrugBank.d450.s2.e7" ddi="false"/>
+        <pair id="DDI-DrugBank.d450.s2.p28" e1="DDI-DrugBank.d450.s2.e3"
+            e2="DDI-DrugBank.d450.s2.e8" ddi="true" type="mechanism"/>
+        <pair id="DDI-DrugBank.d450.s2.p29" e1="DDI-DrugBank.d450.s2.e3"
+            e2="DDI-DrugBank.d450.s2.e9" ddi="false"/>
+        <pair id="DDI-DrugBank.d450.s2.p30" e1="DDI-DrugBank.d450.s2.e4"
+            e2="DDI-DrugBank.d450.s2.e5" ddi="false"/>
+        <pair id="DDI-DrugBank.d450.s2.p31" e1="DDI-DrugBank.d450.s2.e4"
+            e2="DDI-DrugBank.d450.s2.e6" ddi="false"/>
+        <pair id="DDI-DrugBank.d450.s2.p32" e1="DDI-DrugBank.d450.s2.e4"
+            e2="DDI-DrugBank.d450.s2.e7" ddi="false"/>
+        <pair id="DDI-DrugBank.d450.s2.p33" e1="DDI-DrugBank.d450.s2.e4"
+            e2="DDI-DrugBank.d450.s2.e8" ddi="true" type="mechanism"/>
+        <pair id="DDI-DrugBank.d450.s2.p34" e1="DDI-DrugBank.d450.s2.e4"
+            e2="DDI-DrugBank.d450.s2.e9" ddi="false"/>
+        <pair id="DDI-DrugBank.d450.s2.p35" e1="DDI-DrugBank.d450.s2.e5"
+            e2="DDI-DrugBank.d450.s2.e6" ddi="false"/>
+        <pair id="DDI-DrugBank.d450.s2.p36" e1="DDI-DrugBank.d450.s2.e5"
+            e2="DDI-DrugBank.d450.s2.e7" ddi="false"/>
+        <pair id="DDI-DrugBank.d450.s2.p37" e1="DDI-DrugBank.d450.s2.e5"
+            e2="DDI-DrugBank.d450.s2.e8" ddi="true" type="mechanism"/>
+        <pair id="DDI-DrugBank.d450.s2.p38" e1="DDI-DrugBank.d450.s2.e5"
+            e2="DDI-DrugBank.d450.s2.e9" ddi="false"/>
+        <pair id="DDI-DrugBank.d450.s2.p39" e1="DDI-DrugBank.d450.s2.e6"
+            e2="DDI-DrugBank.d450.s2.e7" ddi="false"/>
+        <pair id="DDI-DrugBank.d450.s2.p40" e1="DDI-DrugBank.d450.s2.e6"
+            e2="DDI-DrugBank.d450.s2.e8" ddi="true" type="mechanism"/>
+        <pair id="DDI-DrugBank.d450.s2.p41" e1="DDI-DrugBank.d450.s2.e6"
+            e2="DDI-DrugBank.d450.s2.e9" ddi="false"/>
+        <pair id="DDI-DrugBank.d450.s2.p42" e1="DDI-DrugBank.d450.s2.e7"
+            e2="DDI-DrugBank.d450.s2.e8" ddi="true" type="mechanism"/>
+        <pair id="DDI-DrugBank.d450.s2.p43" e1="DDI-DrugBank.d450.s2.e7"
+            e2="DDI-DrugBank.d450.s2.e9" ddi="false"/>
+        <pair id="DDI-DrugBank.d450.s2.p44" e1="DDI-DrugBank.d450.s2.e8"
+            e2="DDI-DrugBank.d450.s2.e9" ddi="false"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d450.s3" text="Erythromycin and clarithromycin (and possibly other macrolide antibiotics) and tetracycline may increase digoxin absorption in patients who inactivate digoxin by bacterial metabolism in the lower intestine, so that digitalis intoxication may result.">
+        <entity id="DDI-DrugBank.d450.s3.e0" charOffset="0-11"
+            type="drug" text="Erythromycin"/>
+        <entity id="DDI-DrugBank.d450.s3.e1" charOffset="17-30"
+            type="drug" text="clarithromycin"/>
+        <entity id="DDI-DrugBank.d450.s3.e2" charOffset="52-72"
+            type="group" text="macrolide antibiotics"/>
+        <entity id="DDI-DrugBank.d450.s3.e3" charOffset="79-90"
+            type="drug" text="tetracycline"/>
+        <entity id="DDI-DrugBank.d450.s3.e4" charOffset="105-111"
+            type="drug" text="digoxin"/>
+        <entity id="DDI-DrugBank.d450.s3.e5" charOffset="151-157"
+            type="drug" text="digoxin"/>
+        <entity id="DDI-DrugBank.d450.s3.e6" charOffset="215-223"
+            type="group" text="digitalis"/>
+        <pair id="DDI-DrugBank.d450.s3.p0" e1="DDI-DrugBank.d450.s3.e0"
+            e2="DDI-DrugBank.d450.s3.e1" ddi="false"/>
+        <pair id="DDI-DrugBank.d450.s3.p1" e1="DDI-DrugBank.d450.s3.e0"
+            e2="DDI-DrugBank.d450.s3.e2" ddi="false"/>
+        <pair id="DDI-DrugBank.d450.s3.p2" e1="DDI-DrugBank.d450.s3.e0"
+            e2="DDI-DrugBank.d450.s3.e3" ddi="false"/>
+        <pair id="DDI-DrugBank.d450.s3.p3" e1="DDI-DrugBank.d450.s3.e0"
+            e2="DDI-DrugBank.d450.s3.e4" ddi="true" type="mechanism"/>
+        <pair id="DDI-DrugBank.d450.s3.p4" e1="DDI-DrugBank.d450.s3.e0"
+            e2="DDI-DrugBank.d450.s3.e5" ddi="false"/>
+        <pair id="DDI-DrugBank.d450.s3.p5" e1="DDI-DrugBank.d450.s3.e0"
+            e2="DDI-DrugBank.d450.s3.e6" ddi="false"/>
+        <pair id="DDI-DrugBank.d450.s3.p6" e1="DDI-DrugBank.d450.s3.e1"
+            e2="DDI-DrugBank.d450.s3.e2" ddi="false"/>
+        <pair id="DDI-DrugBank.d450.s3.p7" e1="DDI-DrugBank.d450.s3.e1"
+            e2="DDI-DrugBank.d450.s3.e3" ddi="false"/>
+        <pair id="DDI-DrugBank.d450.s3.p8" e1="DDI-DrugBank.d450.s3.e1"
+            e2="DDI-DrugBank.d450.s3.e4" ddi="true" type="mechanism"/>
+        <pair id="DDI-DrugBank.d450.s3.p9" e1="DDI-DrugBank.d450.s3.e1"
+            e2="DDI-DrugBank.d450.s3.e5" ddi="false"/>
+        <pair id="DDI-DrugBank.d450.s3.p10" e1="DDI-DrugBank.d450.s3.e1"
+            e2="DDI-DrugBank.d450.s3.e6" ddi="false"/>
+        <pair id="DDI-DrugBank.d450.s3.p11" e1="DDI-DrugBank.d450.s3.e2"
+            e2="DDI-DrugBank.d450.s3.e3" ddi="false"/>
+        <pair id="DDI-DrugBank.d450.s3.p12" e1="DDI-DrugBank.d450.s3.e2"
+            e2="DDI-DrugBank.d450.s3.e4" ddi="true" type="mechanism"/>
+        <pair id="DDI-DrugBank.d450.s3.p13" e1="DDI-DrugBank.d450.s3.e2"
+            e2="DDI-DrugBank.d450.s3.e5" ddi="false"/>
+        <pair id="DDI-DrugBank.d450.s3.p14" e1="DDI-DrugBank.d450.s3.e2"
+            e2="DDI-DrugBank.d450.s3.e6" ddi="false"/>
+        <pair id="DDI-DrugBank.d450.s3.p15" e1="DDI-DrugBank.d450.s3.e3"
+            e2="DDI-DrugBank.d450.s3.e4" ddi="true" type="mechanism"/>
+        <pair id="DDI-DrugBank.d450.s3.p16" e1="DDI-DrugBank.d450.s3.e3"
+            e2="DDI-DrugBank.d450.s3.e5" ddi="false"/>
+        <pair id="DDI-DrugBank.d450.s3.p17" e1="DDI-DrugBank.d450.s3.e3"
+            e2="DDI-DrugBank.d450.s3.e6" ddi="false"/>
+        <pair id="DDI-DrugBank.d450.s3.p18" e1="DDI-DrugBank.d450.s3.e4"
+            e2="DDI-DrugBank.d450.s3.e5" ddi="false"/>
+        <pair id="DDI-DrugBank.d450.s3.p19" e1="DDI-DrugBank.d450.s3.e4"
+            e2="DDI-DrugBank.d450.s3.e6" ddi="false"/>
+        <pair id="DDI-DrugBank.d450.s3.p20" e1="DDI-DrugBank.d450.s3.e5"
+            e2="DDI-DrugBank.d450.s3.e6" ddi="false"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d450.s4" text="The risk of this interaction may be reduced if digoxin is given as capsules.">
+        <entity id="DDI-DrugBank.d450.s4.e0" charOffset="47-53"
+            type="drug" text="digoxin"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d450.s5" text="Propantheline and diphenoxylate, by decreasing gut motility, may increase digoxin absorption.">
+        <entity id="DDI-DrugBank.d450.s5.e0" charOffset="0-12"
+            type="drug" text="Propantheline"/>
+        <entity id="DDI-DrugBank.d450.s5.e1" charOffset="18-30"
+            type="drug" text="diphenoxylate"/>
+        <entity id="DDI-DrugBank.d450.s5.e2" charOffset="74-80"
+            type="drug" text="digoxin"/>
+        <pair id="DDI-DrugBank.d450.s5.p0" e1="DDI-DrugBank.d450.s5.e0"
+            e2="DDI-DrugBank.d450.s5.e1" ddi="false"/>
+        <pair id="DDI-DrugBank.d450.s5.p1" e1="DDI-DrugBank.d450.s5.e0"
+            e2="DDI-DrugBank.d450.s5.e2" ddi="true" type="mechanism"/>
+        <pair id="DDI-DrugBank.d450.s5.p2" e1="DDI-DrugBank.d450.s5.e1"
+            e2="DDI-DrugBank.d450.s5.e2" ddi="true" type="mechanism"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d450.s6" text="Antacids, kaolin-pectin, sulfasalazine, neomycin, cholestyramine, certain anticancer drugs, and metoclopramide may interfere with intestinal digoxin absorption, resulting in unexpectedly low serum concentrations.">
+        <entity id="DDI-DrugBank.d450.s6.e0" charOffset="0-7"
+            type="group" text="Antacids"/>
+        <entity id="DDI-DrugBank.d450.s6.e1" charOffset="10-15"
+            type="drug" text="kaolin"/>
+        <entity id="DDI-DrugBank.d450.s6.e2" charOffset="25-37"
+            type="drug" text="sulfasalazine"/>
+        <entity id="DDI-DrugBank.d450.s6.e3" charOffset="40-47"
+            type="drug" text="neomycin"/>
+        <entity id="DDI-DrugBank.d450.s6.e4" charOffset="50-63"
+            type="drug" text="cholestyramine"/>
+        <entity id="DDI-DrugBank.d450.s6.e5" charOffset="96-109"
+            type="drug" text="metoclopramide"/>
+        <entity id="DDI-DrugBank.d450.s6.e6" charOffset="141-147"
+            type="drug" text="digoxin"/>
+        <pair id="DDI-DrugBank.d450.s6.p0" e1="DDI-DrugBank.d450.s6.e0"
+            e2="DDI-DrugBank.d450.s6.e1" ddi="false"/>
+        <pair id="DDI-DrugBank.d450.s6.p1" e1="DDI-DrugBank.d450.s6.e0"
+            e2="DDI-DrugBank.d450.s6.e2" ddi="false"/>
+        <pair id="DDI-DrugBank.d450.s6.p2" e1="DDI-DrugBank.d450.s6.e0"
+            e2="DDI-DrugBank.d450.s6.e3" ddi="false"/>
+        <pair id="DDI-DrugBank.d450.s6.p3" e1="DDI-DrugBank.d450.s6.e0"
+            e2="DDI-DrugBank.d450.s6.e4" ddi="false"/>
+        <pair id="DDI-DrugBank.d450.s6.p4" e1="DDI-DrugBank.d450.s6.e0"
+            e2="DDI-DrugBank.d450.s6.e5" ddi="false"/>
+        <pair id="DDI-DrugBank.d450.s6.p5" e1="DDI-DrugBank.d450.s6.e0"
+            e2="DDI-DrugBank.d450.s6.e6" ddi="true" type="mechanism"/>
+        <pair id="DDI-DrugBank.d450.s6.p6" e1="DDI-DrugBank.d450.s6.e1"
+            e2="DDI-DrugBank.d450.s6.e2" ddi="false"/>
+        <pair id="DDI-DrugBank.d450.s6.p7" e1="DDI-DrugBank.d450.s6.e1"
+            e2="DDI-DrugBank.d450.s6.e3" ddi="false"/>
+        <pair id="DDI-DrugBank.d450.s6.p8" e1="DDI-DrugBank.d450.s6.e1"
+            e2="DDI-DrugBank.d450.s6.e4" ddi="false"/>
+        <pair id="DDI-DrugBank.d450.s6.p9" e1="DDI-DrugBank.d450.s6.e1"
+            e2="DDI-DrugBank.d450.s6.e5" ddi="false"/>
+        <pair id="DDI-DrugBank.d450.s6.p10" e1="DDI-DrugBank.d450.s6.e1"
+            e2="DDI-DrugBank.d450.s6.e6" ddi="true" type="mechanism"/>
+        <pair id="DDI-DrugBank.d450.s6.p11" e1="DDI-DrugBank.d450.s6.e2"
+            e2="DDI-DrugBank.d450.s6.e3" ddi="false"/>
+        <pair id="DDI-DrugBank.d450.s6.p12" e1="DDI-DrugBank.d450.s6.e2"
+            e2="DDI-DrugBank.d450.s6.e4" ddi="false"/>
+        <pair id="DDI-DrugBank.d450.s6.p13" e1="DDI-DrugBank.d450.s6.e2"
+            e2="DDI-DrugBank.d450.s6.e5" ddi="false"/>
+        <pair id="DDI-DrugBank.d450.s6.p14" e1="DDI-DrugBank.d450.s6.e2"
+            e2="DDI-DrugBank.d450.s6.e6" ddi="true" type="mechanism"/>
+        <pair id="DDI-DrugBank.d450.s6.p15" e1="DDI-DrugBank.d450.s6.e3"
+            e2="DDI-DrugBank.d450.s6.e4" ddi="false"/>
+        <pair id="DDI-DrugBank.d450.s6.p16" e1="DDI-DrugBank.d450.s6.e3"
+            e2="DDI-DrugBank.d450.s6.e5" ddi="false"/>
+        <pair id="DDI-DrugBank.d450.s6.p17" e1="DDI-DrugBank.d450.s6.e3"
+            e2="DDI-DrugBank.d450.s6.e6" ddi="true" type="mechanism"/>
+        <pair id="DDI-DrugBank.d450.s6.p18" e1="DDI-DrugBank.d450.s6.e4"
+            e2="DDI-DrugBank.d450.s6.e5" ddi="false"/>
+        <pair id="DDI-DrugBank.d450.s6.p19" e1="DDI-DrugBank.d450.s6.e4"
+            e2="DDI-DrugBank.d450.s6.e6" ddi="true" type="mechanism"/>
+        <pair id="DDI-DrugBank.d450.s6.p20" e1="DDI-DrugBank.d450.s6.e5"
+            e2="DDI-DrugBank.d450.s6.e6" ddi="true" type="mechanism"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d450.s7" text="Rifampin may decrease serum digoxin concentration, especially in patients with renal dysfunction, by increasing the non-renal clearance of digoxin.">
+        <entity id="DDI-DrugBank.d450.s7.e0" charOffset="0-7"
+            type="drug" text="Rifampin"/>
+        <entity id="DDI-DrugBank.d450.s7.e1" charOffset="28-34"
+            type="drug" text="digoxin"/>
+        <entity id="DDI-DrugBank.d450.s7.e2" charOffset="139-145"
+            type="drug" text="digoxin"/>
+        <pair id="DDI-DrugBank.d450.s7.p0" e1="DDI-DrugBank.d450.s7.e0"
+            e2="DDI-DrugBank.d450.s7.e1" ddi="true" type="mechanism"/>
+        <pair id="DDI-DrugBank.d450.s7.p1" e1="DDI-DrugBank.d450.s7.e0"
+            e2="DDI-DrugBank.d450.s7.e2" ddi="false"/>
+        <pair id="DDI-DrugBank.d450.s7.p2" e1="DDI-DrugBank.d450.s7.e1"
+            e2="DDI-DrugBank.d450.s7.e2" ddi="false"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d450.s8" text="There have been inconsistent reports regarding the effects of other drugs (e.g., quinine, penicillamine) on serum digoxin concentration.">
+        <entity id="DDI-DrugBank.d450.s8.e0" charOffset="81-87"
+            type="drug" text="quinine"/>
+        <entity id="DDI-DrugBank.d450.s8.e1" charOffset="90-102"
+            type="drug" text="penicillamine"/>
+        <entity id="DDI-DrugBank.d450.s8.e2" charOffset="114-120"
+            type="drug" text="digoxin"/>
+        <pair id="DDI-DrugBank.d450.s8.p0" e1="DDI-DrugBank.d450.s8.e0"
+            e2="DDI-DrugBank.d450.s8.e1" ddi="false"/>
+        <pair id="DDI-DrugBank.d450.s8.p1" e1="DDI-DrugBank.d450.s8.e0"
+            e2="DDI-DrugBank.d450.s8.e2" ddi="false"/>
+        <pair id="DDI-DrugBank.d450.s8.p2" e1="DDI-DrugBank.d450.s8.e1"
+            e2="DDI-DrugBank.d450.s8.e2" ddi="false"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d450.s9" text="Thyroid administration to a digitalized, hypothyroid patient may increase the dose requirement of digoxin.">
+        <entity id="DDI-DrugBank.d450.s9.e0" charOffset="0-6"
+            type="group" text="Thyroid"/>
+        <entity id="DDI-DrugBank.d450.s9.e1" charOffset="98-104"
+            type="drug" text="digoxin"/>
+        <pair id="DDI-DrugBank.d450.s9.p0" e1="DDI-DrugBank.d450.s9.e0"
+            e2="DDI-DrugBank.d450.s9.e1" ddi="true" type="advise"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d450.s10" text="Concomitant use of digoxin and sympathomimetics increases the risk of cardiac arrhythmias.">
+        <entity id="DDI-DrugBank.d450.s10.e0" charOffset="19-25"
+            type="drug" text="digoxin"/>
+        <entity id="DDI-DrugBank.d450.s10.e1" charOffset="31-46"
+            type="group" text="sympathomimetics"/>
+        <pair id="DDI-DrugBank.d450.s10.p0"
+            e1="DDI-DrugBank.d450.s10.e0" e2="DDI-DrugBank.d450.s10.e1"
+            ddi="true" type="effect"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d450.s11" text="Succinylcholine may cause a sudden extrusion of potassium from muscle cells, and may thereby cause arrhythmias in digitalized patients.">
+        <entity id="DDI-DrugBank.d450.s11.e0" charOffset="0-14"
+            type="drug" text="Succinylcholine"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d450.s12" text="Although beta-adrenergic blockers or calcium channel blockers and digoxin may be useful in combination to control atrial fibrillation, their additive effects on AV node conduction can result in advanced or complete heart block.">
+        <entity id="DDI-DrugBank.d450.s12.e0" charOffset="9-32"
+            type="group" text="beta-adrenergic blockers"/>
+        <entity id="DDI-DrugBank.d450.s12.e1" charOffset="37-60"
+            type="group" text="calcium channel blockers"/>
+        <entity id="DDI-DrugBank.d450.s12.e2" charOffset="66-72"
+            type="drug" text="digoxin"/>
+        <pair id="DDI-DrugBank.d450.s12.p0"
+            e1="DDI-DrugBank.d450.s12.e0" e2="DDI-DrugBank.d450.s12.e1" ddi="false"/>
+        <pair id="DDI-DrugBank.d450.s12.p1"
+            e1="DDI-DrugBank.d450.s12.e0" e2="DDI-DrugBank.d450.s12.e2"
+            ddi="true" type="effect"/>
+        <pair id="DDI-DrugBank.d450.s12.p2"
+            e1="DDI-DrugBank.d450.s12.e1" e2="DDI-DrugBank.d450.s12.e2"
+            ddi="true" type="effect"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d450.s13" text="Due to the considerable variability of these interactions, the dosage of digoxin should be individualized when patients receive these medications concurrently.">
+        <entity id="DDI-DrugBank.d450.s13.e0" charOffset="73-79"
+            type="drug" text="digoxin"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d450.s14" text="Furthermore, caution should be exercised when combining digoxin with any drug that may cause a significant deterioration in renal function, since a decline in glomerular filtration or tubular secretion may impair the excretion of digoxin.">
+        <entity id="DDI-DrugBank.d450.s14.e0" charOffset="56-62"
+            type="drug" text="digoxin"/>
+        <entity id="DDI-DrugBank.d450.s14.e1" charOffset="230-236"
+            type="drug" text="digoxin"/>
+        <pair id="DDI-DrugBank.d450.s14.p0"
+            e1="DDI-DrugBank.d450.s14.e0" e2="DDI-DrugBank.d450.s14.e1" ddi="false"/>
+    </sentence>
+</document>

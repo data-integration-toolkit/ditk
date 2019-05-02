@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="DDI-MedLine.d164">
+    <sentence id="DDI-MedLine.d164.s0" text="Lapatinib enhances herceptin-mediated antibody-dependent cellular cytotoxicity by up-regulation of cell surface HER2 expression.&#xd;&#xa;">
+        <entity id="DDI-MedLine.d164.s0.e0" charOffset="0-8" type="drug" text="Lapatinib"/>
+        <entity id="DDI-MedLine.d164.s0.e1" charOffset="19-27"
+            type="brand" text="herceptin"/>
+        <pair id="DDI-MedLine.d164.s0.p0" e1="DDI-MedLine.d164.s0.e0"
+            e2="DDI-MedLine.d164.s0.e1" ddi="true" type="effect"/>
+    </sentence>
+    <sentence id="DDI-MedLine.d164.s1" text="Although it was previously reported that lapatinib combined with Herceptin improved the progression-free survival rate compared with lapatinib alone for patients with Herceptin-refractory HER2-positive metastatic breast cancer, the mechanism is purported to be an antiproliferative effect relating to the synergism of these two agents.">
+        <entity id="DDI-MedLine.d164.s1.e0" charOffset="41-49"
+            type="drug" text="lapatinib"/>
+        <entity id="DDI-MedLine.d164.s1.e1" charOffset="65-73"
+            type="brand" text="Herceptin"/>
+        <entity id="DDI-MedLine.d164.s1.e2" charOffset="133-141"
+            type="drug" text="lapatinib"/>
+        <entity id="DDI-MedLine.d164.s1.e3" charOffset="167-175"
+            type="brand" text="Herceptin"/>
+        <pair id="DDI-MedLine.d164.s1.p0" e1="DDI-MedLine.d164.s1.e0"
+            e2="DDI-MedLine.d164.s1.e1" ddi="true" type="effect"/>
+        <pair id="DDI-MedLine.d164.s1.p1" e1="DDI-MedLine.d164.s1.e0"
+            e2="DDI-MedLine.d164.s1.e2" ddi="false"/>
+        <pair id="DDI-MedLine.d164.s1.p2" e1="DDI-MedLine.d164.s1.e0"
+            e2="DDI-MedLine.d164.s1.e3" ddi="false"/>
+        <pair id="DDI-MedLine.d164.s1.p3" e1="DDI-MedLine.d164.s1.e1"
+            e2="DDI-MedLine.d164.s1.e2" ddi="false"/>
+        <pair id="DDI-MedLine.d164.s1.p4" e1="DDI-MedLine.d164.s1.e1"
+            e2="DDI-MedLine.d164.s1.e3" ddi="false"/>
+        <pair id="DDI-MedLine.d164.s1.p5" e1="DDI-MedLine.d164.s1.e2"
+            e2="DDI-MedLine.d164.s1.e3" ddi="false"/>
+    </sentence>
+    <sentence id="DDI-MedLine.d164.s2" text="We evaluated how lapatinib interacts with Herceptin in HER2-positive breast cancer, with a particular focus on Herceptin-mediated antibody-dependent cellular cytotoxicity (ADCC). ">
+        <entity id="DDI-MedLine.d164.s2.e0" charOffset="17-25"
+            type="drug" text="lapatinib"/>
+        <entity id="DDI-MedLine.d164.s2.e1" charOffset="42-50"
+            type="brand" text="Herceptin"/>
+        <entity id="DDI-MedLine.d164.s2.e2" charOffset="111-119"
+            type="brand" text="Herceptin"/>
+        <pair id="DDI-MedLine.d164.s2.p0" e1="DDI-MedLine.d164.s2.e0"
+            e2="DDI-MedLine.d164.s2.e1" ddi="false"/>
+        <pair id="DDI-MedLine.d164.s2.p1" e1="DDI-MedLine.d164.s2.e0"
+            e2="DDI-MedLine.d164.s2.e2" ddi="false"/>
+        <pair id="DDI-MedLine.d164.s2.p2" e1="DDI-MedLine.d164.s2.e1"
+            e2="DDI-MedLine.d164.s2.e2" ddi="false"/>
+    </sentence>
+    <sentence id="DDI-MedLine.d164.s3" text="In an in vitro assay, lapatinib induced HER2 expression at the cell surface of HER2-positive breast cancer cell lines, leading to the enhancement of Herceptin-mediated ADCC. ">
+        <entity id="DDI-MedLine.d164.s3.e0" charOffset="22-30"
+            type="drug" text="lapatinib"/>
+        <entity id="DDI-MedLine.d164.s3.e1" charOffset="149-157"
+            type="brand" text="Herceptin"/>
+        <pair id="DDI-MedLine.d164.s3.p0" e1="DDI-MedLine.d164.s3.e0"
+            e2="DDI-MedLine.d164.s3.e1" ddi="true" type="effect"/>
+    </sentence>
+    <sentence id="DDI-MedLine.d164.s4" text="Furthermore, we present a case report in which a second Herceptin treatment following lapatinib resulted in the marked shrinkage of multiple metastatic tumors in HER2-positive breast cancer. ">
+        <entity id="DDI-MedLine.d164.s4.e0" charOffset="56-64"
+            type="brand" text="Herceptin"/>
+        <entity id="DDI-MedLine.d164.s4.e1" charOffset="86-94"
+            type="drug" text="lapatinib"/>
+        <pair id="DDI-MedLine.d164.s4.p0" e1="DDI-MedLine.d164.s4.e0"
+            e2="DDI-MedLine.d164.s4.e1" ddi="true" type="effect"/>
+    </sentence>
+    <sentence id="DDI-MedLine.d164.s5" text="Lapatinib may have the potential to convert Herceptin-refractory to Herceptin-sensitive tumors in HER2-positive breast cancer by up-regulation of the cell surface expression of HER2.">
+        <entity id="DDI-MedLine.d164.s5.e0" charOffset="0-8" type="drug" text="Lapatinib"/>
+        <entity id="DDI-MedLine.d164.s5.e1" charOffset="44-52"
+            type="brand" text="Herceptin"/>
+        <entity id="DDI-MedLine.d164.s5.e2" charOffset="68-76"
+            type="brand" text="Herceptin"/>
+        <pair id="DDI-MedLine.d164.s5.p0" e1="DDI-MedLine.d164.s5.e0"
+            e2="DDI-MedLine.d164.s5.e1" ddi="false"/>
+        <pair id="DDI-MedLine.d164.s5.p1" e1="DDI-MedLine.d164.s5.e0"
+            e2="DDI-MedLine.d164.s5.e2" ddi="false"/>
+        <pair id="DDI-MedLine.d164.s5.p2" e1="DDI-MedLine.d164.s5.e1"
+            e2="DDI-MedLine.d164.s5.e2" ddi="false"/>
+    </sentence>
+</document>

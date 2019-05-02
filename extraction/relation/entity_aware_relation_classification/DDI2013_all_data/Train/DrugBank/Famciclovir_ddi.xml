@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="DDI-DrugBank.d112">
+    <sentence id="DDI-DrugBank.d112.s0" text="Concurrent use with probenecid or other drugs significantly eliminated by active renal tubular secretion may result in increased plasma concentrations of penciclovir.">
+        <entity id="DDI-DrugBank.d112.s0.e0" charOffset="20-29"
+            type="drug" text="probenecid"/>
+        <entity id="DDI-DrugBank.d112.s0.e1" charOffset="154-164"
+            type="drug" text="penciclovir"/>
+        <pair id="DDI-DrugBank.d112.s0.p0" e1="DDI-DrugBank.d112.s0.e0"
+            e2="DDI-DrugBank.d112.s0.e1" ddi="true" type="mechanism"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d112.s1" text="The conversion of 6-deoxy penciclovir to penciclovir is catalyzed by aldehyde oxidase.">
+        <entity id="DDI-DrugBank.d112.s1.e0" charOffset="18-36"
+            type="drug_n" text="6-deoxy penciclovir"/>
+        <entity id="DDI-DrugBank.d112.s1.e1" charOffset="41-51"
+            type="drug" text="penciclovir"/>
+        <pair id="DDI-DrugBank.d112.s1.p0" e1="DDI-DrugBank.d112.s1.e0"
+            e2="DDI-DrugBank.d112.s1.e1" ddi="false"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d112.s2" text="Interactions with other drugs metabolized by this enzyme could potentially occur."/>
+</document>

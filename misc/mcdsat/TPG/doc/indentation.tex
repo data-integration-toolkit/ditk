@@ -1,0 +1,71 @@
+\section{Introduction}
+
+In some languages, like Pyhon, the indentation is part of the grammar.
+In previous versions of TPG, this feature was implemented as a preprocessor to create "indent" and "dedent" token when necessary.
+This solution was not very convenient because in such languages indentation also depends on the grammar, not only on the lexer (for instance, there is not indent inside a single expression written on several lines).
+
+We will show here how to add symbols to parse indentation in the grammar, not in the lexer.
+
+\section{Implementation}
+
+We will use the \emph{column} attribute of the tokens and the \emph{@} operator to read the current position.
+This implementation will be different from Python's INDENT and DEDENT tokens.
+Here we will check the indentation at the beginning of a block and inside a block.
+
+\subsection{Starting a new indented block}
+
+The first token of a new block must be more indented than the current block.
+The symbol \emph{NEW\_INDENT} checks that the current column is greater than the previously memorized indentation.
+
+\begin{verbatimtab}[4]
+        NEW_INDENT<i=0>/$t.column$ -> @t check $t.column>i$ ;
+\end{verbatimtab}
+
+\subsection{Checking the indentation of a block}
+
+The following lines should start at the same column than the first line.
+The symbol \emph{INDENT} checks that the current column is equal to the previously memorized indentation.
+
+\begin{verbatimtab}[4]
+        INDENT<i> -> @t check $t.column==i$ ;
+\end{verbatimtab}
+
+\section{Example}
+
+In this example we parse a language where indentation is used to delimit control structures.
+
+\begin{verbatimtab}[4]
+token ident '\w+' ;
+
+NEW_INDENT<i=0>/$t.column$ -> @t check $t.column>i$ ;
+INDENT<i> -> @t check $t.column==i$ ;
+
+START/INSTS -> NEW_INDENT INSTS<NEW_INDENT> ;
+
+INSTS<i>/$self.Prog(INSTS)$ ->  $ INSTS = []
+    (   FUNCTION<i>             $ INSTS.append(FUNCTION)
+    |   COND<i>                 $ INSTS.append(COND)
+    |   EXPR<i>                 $ INSTS.append(EXPR)
+    )+
+;
+
+FUNCTION<i>/$self.Fun(ident, INSTS)$ ->
+    INDENT<i> 'def' ident ':'
+    NEW_INDENT<i> INSTS<NEW_INDENT>
+;
+
+COND<i>/$self.Cond(ident, _then, _else)$ ->
+    INDENT<i> 'if' ident ':'
+    NEW_INDENT<i> INSTS<NEW_INDENT>/_then
+    INDENT<i> 'else' ':'
+    NEW_INDENT<i> INSTS<NEW_INDENT>/_else
+;
+
+EXPR<i>/$self.Ident(ident)$ -> INDENT<i> ident ;
+\end{verbatimtab}
+
+\section{Source code}
+
+Here is the complete source code (\emph{indentation.py}):
+
+\verbatimtabinput[4]{../examples/indentation.pyg}

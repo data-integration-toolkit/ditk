@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="DDI-DrugBank.d765">
+    <sentence id="DDI-DrugBank.d765.s0" text="CYP3A4 Inhibitors: Ketoconazole, an inhibitor of the drug metabolizing enzyme CYP3A4, significantly increased plasma concentrations of tolterodine when coadministered to subjects who were poor metabolizers (see CLINICAL PHARMACOLOGY, Variability in Metabolism and Drug-Drug Interactions). ">
+        <entity id="DDI-DrugBank.d765.s0.e0" charOffset="19-30"
+            type="drug" text="Ketoconazole"/>
+        <entity id="DDI-DrugBank.d765.s0.e1" charOffset="135-145"
+            type="drug" text="tolterodine"/>
+        <pair id="DDI-DrugBank.d765.s0.p0" e1="DDI-DrugBank.d765.s0.e0"
+            e2="DDI-DrugBank.d765.s0.e1" ddi="true" type="mechanism"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d765.s1" text="For patients receiving ketoconazole or other potent CYP3A4 inhibitors such as other azole antifungals (eg, itraconazole, miconazole) or macrolide antibiotics (eg, erythromycin, clarithromycin) or cyclosporine or vinblastine, the recommended dose of DETROL LA is 2 mg daily. ">
+        <entity id="DDI-DrugBank.d765.s1.e0" charOffset="23-34"
+            type="drug" text="ketoconazole"/>
+        <entity id="DDI-DrugBank.d765.s1.e1" charOffset="84-100"
+            type="group" text="azole antifungals"/>
+        <entity id="DDI-DrugBank.d765.s1.e2" charOffset="107-118"
+            type="drug" text="itraconazole"/>
+        <entity id="DDI-DrugBank.d765.s1.e3" charOffset="121-130"
+            type="drug" text="miconazole"/>
+        <entity id="DDI-DrugBank.d765.s1.e4" charOffset="136-156"
+            type="group" text="macrolide antibiotics"/>
+        <entity id="DDI-DrugBank.d765.s1.e5" charOffset="163-174"
+            type="drug" text="erythromycin"/>
+        <entity id="DDI-DrugBank.d765.s1.e6" charOffset="177-190"
+            type="drug" text="clarithromycin"/>
+        <entity id="DDI-DrugBank.d765.s1.e7" charOffset="196-207"
+            type="drug" text="cyclosporine"/>
+        <entity id="DDI-DrugBank.d765.s1.e8" charOffset="212-222"
+            type="drug" text="vinblastine"/>
+        <entity id="DDI-DrugBank.d765.s1.e9" charOffset="249-257"
+            type="brand" text="DETROL LA"/>
+        <pair id="DDI-DrugBank.d765.s1.p0" e1="DDI-DrugBank.d765.s1.e0"
+            e2="DDI-DrugBank.d765.s1.e1" ddi="false"/>
+        <pair id="DDI-DrugBank.d765.s1.p1" e1="DDI-DrugBank.d765.s1.e0"
+            e2="DDI-DrugBank.d765.s1.e2" ddi="false"/>
+        <pair id="DDI-DrugBank.d765.s1.p2" e1="DDI-DrugBank.d765.s1.e0"
+            e2="DDI-DrugBank.d765.s1.e3" ddi="false"/>
+        <pair id="DDI-DrugBank.d765.s1.p3" e1="DDI-DrugBank.d765.s1.e0"
+            e2="DDI-DrugBank.d765.s1.e4" ddi="false"/>
+        <pair id="DDI-DrugBank.d765.s1.p4" e1="DDI-DrugBank.d765.s1.e0"
+            e2="DDI-DrugBank.d765.s1.e5" ddi="false"/>
+        <pair id="DDI-DrugBank.d765.s1.p5" e1="DDI-DrugBank.d765.s1.e0"
+            e2="DDI-DrugBank.d765.s1.e6" ddi="false"/>
+        <pair id="DDI-DrugBank.d765.s1.p6" e1="DDI-DrugBank.d765.s1.e0"
+            e2="DDI-DrugBank.d765.s1.e7" ddi="false"/>
+        <pair id="DDI-DrugBank.d765.s1.p7" e1="DDI-DrugBank.d765.s1.e0"
+            e2="DDI-DrugBank.d765.s1.e8" ddi="false"/>
+        <pair id="DDI-DrugBank.d765.s1.p8" e1="DDI-DrugBank.d765.s1.e0"
+            e2="DDI-DrugBank.d765.s1.e9" ddi="true" type="advise"/>
+        <pair id="DDI-DrugBank.d765.s1.p9" e1="DDI-DrugBank.d765.s1.e1"
+            e2="DDI-DrugBank.d765.s1.e2" ddi="false"/>
+        <pair id="DDI-DrugBank.d765.s1.p10" e1="DDI-DrugBank.d765.s1.e1"
+            e2="DDI-DrugBank.d765.s1.e3" ddi="false"/>
+        <pair id="DDI-DrugBank.d765.s1.p11" e1="DDI-DrugBank.d765.s1.e1"
+            e2="DDI-DrugBank.d765.s1.e4" ddi="false"/>
+        <pair id="DDI-DrugBank.d765.s1.p12" e1="DDI-DrugBank.d765.s1.e1"
+            e2="DDI-DrugBank.d765.s1.e5" ddi="false"/>
+        <pair id="DDI-DrugBank.d765.s1.p13" e1="DDI-DrugBank.d765.s1.e1"
+            e2="DDI-DrugBank.d765.s1.e6" ddi="false"/>
+        <pair id="DDI-DrugBank.d765.s1.p14" e1="DDI-DrugBank.d765.s1.e1"
+            e2="DDI-DrugBank.d765.s1.e7" ddi="false"/>
+        <pair id="DDI-DrugBank.d765.s1.p15" e1="DDI-DrugBank.d765.s1.e1"
+            e2="DDI-DrugBank.d765.s1.e8" ddi="false"/>
+        <pair id="DDI-DrugBank.d765.s1.p16" e1="DDI-DrugBank.d765.s1.e1"
+            e2="DDI-DrugBank.d765.s1.e9" ddi="true" type="advise"/>
+        <pair id="DDI-DrugBank.d765.s1.p17" e1="DDI-DrugBank.d765.s1.e2"
+            e2="DDI-DrugBank.d765.s1.e3" ddi="false"/>
+        <pair id="DDI-DrugBank.d765.s1.p18" e1="DDI-DrugBank.d765.s1.e2"
+            e2="DDI-DrugBank.d765.s1.e4" ddi="false"/>
+        <pair id="DDI-DrugBank.d765.s1.p19" e1="DDI-DrugBank.d765.s1.e2"
+            e2="DDI-DrugBank.d765.s1.e5" ddi="false"/>
+        <pair id="DDI-DrugBank.d765.s1.p20" e1="DDI-DrugBank.d765.s1.e2"
+            e2="DDI-DrugBank.d765.s1.e6" ddi="false"/>
+        <pair id="DDI-DrugBank.d765.s1.p21" e1="DDI-DrugBank.d765.s1.e2"
+            e2="DDI-DrugBank.d765.s1.e7" ddi="false"/>
+        <pair id="DDI-DrugBank.d765.s1.p22" e1="DDI-DrugBank.d765.s1.e2"
+            e2="DDI-DrugBank.d765.s1.e8" ddi="false"/>
+        <pair id="DDI-DrugBank.d765.s1.p23" e1="DDI-DrugBank.d765.s1.e2"
+            e2="DDI-DrugBank.d765.s1.e9" ddi="true" type="advise"/>
+        <pair id="DDI-DrugBank.d765.s1.p24" e1="DDI-DrugBank.d765.s1.e3"
+            e2="DDI-DrugBank.d765.s1.e4" ddi="false"/>
+        <pair id="DDI-DrugBank.d765.s1.p25" e1="DDI-DrugBank.d765.s1.e3"
+            e2="DDI-DrugBank.d765.s1.e5" ddi="false"/>
+        <pair id="DDI-DrugBank.d765.s1.p26" e1="DDI-DrugBank.d765.s1.e3"
+            e2="DDI-DrugBank.d765.s1.e6" ddi="false"/>
+        <pair id="DDI-DrugBank.d765.s1.p27" e1="DDI-DrugBank.d765.s1.e3"
+            e2="DDI-DrugBank.d765.s1.e7" ddi="false"/>
+        <pair id="DDI-DrugBank.d765.s1.p28" e1="DDI-DrugBank.d765.s1.e3"
+            e2="DDI-DrugBank.d765.s1.e8" ddi="false"/>
+        <pair id="DDI-DrugBank.d765.s1.p29" e1="DDI-DrugBank.d765.s1.e3"
+            e2="DDI-DrugBank.d765.s1.e9" ddi="true" type="advise"/>
+        <pair id="DDI-DrugBank.d765.s1.p30" e1="DDI-DrugBank.d765.s1.e4"
+            e2="DDI-DrugBank.d765.s1.e5" ddi="false"/>
+        <pair id="DDI-DrugBank.d765.s1.p31" e1="DDI-DrugBank.d765.s1.e4"
+            e2="DDI-DrugBank.d765.s1.e6" ddi="false"/>
+        <pair id="DDI-DrugBank.d765.s1.p32" e1="DDI-DrugBank.d765.s1.e4"
+            e2="DDI-DrugBank.d765.s1.e7" ddi="false"/>
+        <pair id="DDI-DrugBank.d765.s1.p33" e1="DDI-DrugBank.d765.s1.e4"
+            e2="DDI-DrugBank.d765.s1.e8" ddi="false"/>
+        <pair id="DDI-DrugBank.d765.s1.p34" e1="DDI-DrugBank.d765.s1.e4"
+            e2="DDI-DrugBank.d765.s1.e9" ddi="true" type="advise"/>
+        <pair id="DDI-DrugBank.d765.s1.p35" e1="DDI-DrugBank.d765.s1.e5"
+            e2="DDI-DrugBank.d765.s1.e6" ddi="false"/>
+        <pair id="DDI-DrugBank.d765.s1.p36" e1="DDI-DrugBank.d765.s1.e5"
+            e2="DDI-DrugBank.d765.s1.e7" ddi="false"/>
+        <pair id="DDI-DrugBank.d765.s1.p37" e1="DDI-DrugBank.d765.s1.e5"
+            e2="DDI-DrugBank.d765.s1.e8" ddi="false"/>
+        <pair id="DDI-DrugBank.d765.s1.p38" e1="DDI-DrugBank.d765.s1.e5"
+            e2="DDI-DrugBank.d765.s1.e9" ddi="true" type="advise"/>
+        <pair id="DDI-DrugBank.d765.s1.p39" e1="DDI-DrugBank.d765.s1.e6"
+            e2="DDI-DrugBank.d765.s1.e7" ddi="false"/>
+        <pair id="DDI-DrugBank.d765.s1.p40" e1="DDI-DrugBank.d765.s1.e6"
+            e2="DDI-DrugBank.d765.s1.e8" ddi="false"/>
+        <pair id="DDI-DrugBank.d765.s1.p41" e1="DDI-DrugBank.d765.s1.e6"
+            e2="DDI-DrugBank.d765.s1.e9" ddi="true" type="advise"/>
+        <pair id="DDI-DrugBank.d765.s1.p42" e1="DDI-DrugBank.d765.s1.e7"
+            e2="DDI-DrugBank.d765.s1.e8" ddi="false"/>
+        <pair id="DDI-DrugBank.d765.s1.p43" e1="DDI-DrugBank.d765.s1.e7"
+            e2="DDI-DrugBank.d765.s1.e9" ddi="true" type="advise"/>
+        <pair id="DDI-DrugBank.d765.s1.p44" e1="DDI-DrugBank.d765.s1.e8"
+            e2="DDI-DrugBank.d765.s1.e9" ddi="true" type="advise"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d765.s2" text="Drug-Laboratory-Test Interactions Interactions between tolterodine and laboratory tests have not been studied.">
+        <entity id="DDI-DrugBank.d765.s2.e0" charOffset="55-65"
+            type="drug" text="tolterodine"/>
+    </sentence>
+</document>

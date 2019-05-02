@@ -1,0 +1,409 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="DDI-DrugBank.d548">
+    <sentence id="DDI-DrugBank.d548.s0" text="Potential for Other Drugs to Affect Duloxetine: Both CYP1A2 and CYP2D6 are responsible for duloxetine metabolism.">
+        <entity id="DDI-DrugBank.d548.s0.e0" charOffset="36-45"
+            type="drug" text="Duloxetine"/>
+        <entity id="DDI-DrugBank.d548.s0.e1" charOffset="91-100"
+            type="drug" text="duloxetine"/>
+        <pair id="DDI-DrugBank.d548.s0.p0" e1="DDI-DrugBank.d548.s0.e0"
+            e2="DDI-DrugBank.d548.s0.e1" ddi="false"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d548.s1" text="Inhibitors of CYP1A2: Concomitant use of duloxetine with fluvoxamine, an inhibitor of CYP1A2, results in approximately a 6-fold increase in AUC and about a 2.5-fold increase in Cmax of duloxetine.">
+        <entity id="DDI-DrugBank.d548.s1.e0" charOffset="41-50"
+            type="drug" text="duloxetine"/>
+        <entity id="DDI-DrugBank.d548.s1.e1" charOffset="57-67"
+            type="drug" text="fluvoxamine"/>
+        <entity id="DDI-DrugBank.d548.s1.e2" charOffset="185-194"
+            type="drug" text="duloxetine"/>
+        <pair id="DDI-DrugBank.d548.s1.p0" e1="DDI-DrugBank.d548.s1.e0"
+            e2="DDI-DrugBank.d548.s1.e1" ddi="true" type="mechanism"/>
+        <pair id="DDI-DrugBank.d548.s1.p1" e1="DDI-DrugBank.d548.s1.e0"
+            e2="DDI-DrugBank.d548.s1.e2" ddi="false"/>
+        <pair id="DDI-DrugBank.d548.s1.p2" e1="DDI-DrugBank.d548.s1.e1"
+            e2="DDI-DrugBank.d548.s1.e2" ddi="false"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d548.s2" text="Some quinolone antibiotics would be expected to have similar effects and these combinations should be avoided.">
+        <entity id="DDI-DrugBank.d548.s2.e0" charOffset="5-25"
+            type="group" text="quinolone antibiotics"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d548.s3" text="Inhibitors of CYP2D6: Because CYP2D6 is involved in duloxetine metabolism, concomitant use of duloxetine with potent inhibitors of CYP2D6 may result in higher concentrations of duloxetine.">
+        <entity id="DDI-DrugBank.d548.s3.e0" charOffset="52-61"
+            type="drug" text="duloxetine"/>
+        <entity id="DDI-DrugBank.d548.s3.e1" charOffset="94-103"
+            type="drug" text="duloxetine"/>
+        <entity id="DDI-DrugBank.d548.s3.e2" charOffset="177-186"
+            type="drug" text="duloxetine"/>
+        <pair id="DDI-DrugBank.d548.s3.p0" e1="DDI-DrugBank.d548.s3.e0"
+            e2="DDI-DrugBank.d548.s3.e1" ddi="false"/>
+        <pair id="DDI-DrugBank.d548.s3.p1" e1="DDI-DrugBank.d548.s3.e0"
+            e2="DDI-DrugBank.d548.s3.e2" ddi="false"/>
+        <pair id="DDI-DrugBank.d548.s3.p2" e1="DDI-DrugBank.d548.s3.e1"
+            e2="DDI-DrugBank.d548.s3.e2" ddi="false"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d548.s4" text="Paroxetine (20 mg QD) increased the concentration of duloxetine (40 mg QD) by about 60%, and greater degrees of inhibition are expected with higher doses of paroxetine.">
+        <entity id="DDI-DrugBank.d548.s4.e0" charOffset="0-9"
+            type="drug" text="Paroxetine"/>
+        <entity id="DDI-DrugBank.d548.s4.e1" charOffset="53-62"
+            type="drug" text="duloxetine"/>
+        <entity id="DDI-DrugBank.d548.s4.e2" charOffset="157-166"
+            type="drug" text="paroxetine"/>
+        <pair id="DDI-DrugBank.d548.s4.p0" e1="DDI-DrugBank.d548.s4.e0"
+            e2="DDI-DrugBank.d548.s4.e1" ddi="true" type="mechanism"/>
+        <pair id="DDI-DrugBank.d548.s4.p1" e1="DDI-DrugBank.d548.s4.e0"
+            e2="DDI-DrugBank.d548.s4.e2" ddi="false"/>
+        <pair id="DDI-DrugBank.d548.s4.p2" e1="DDI-DrugBank.d548.s4.e1"
+            e2="DDI-DrugBank.d548.s4.e2" ddi="false"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d548.s5" text="Similar effects would be expected with other potent CYP2D6 inhibitors (e.g., fluoxetine, quinidine).">
+        <entity id="DDI-DrugBank.d548.s5.e0" charOffset="77-86"
+            type="drug" text="fluoxetine"/>
+        <entity id="DDI-DrugBank.d548.s5.e1" charOffset="89-97"
+            type="drug" text="quinidine"/>
+        <pair id="DDI-DrugBank.d548.s5.p0" e1="DDI-DrugBank.d548.s5.e0"
+            e2="DDI-DrugBank.d548.s5.e1" ddi="false"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d548.s6" text="Potential for Duloxetine to Affect Other Drugs: Drugs Metabolized by CYP1A2: In vitro drug interaction studies demonstrate that duloxetine does not induce CYP1A2 activity, and it is unlikely to have a clinically significant effect on the metabolism of CYP1A2 substrates.">
+        <entity id="DDI-DrugBank.d548.s6.e0" charOffset="14-23"
+            type="drug" text="Duloxetine"/>
+        <entity id="DDI-DrugBank.d548.s6.e1" charOffset="128-137"
+            type="drug" text="duloxetine"/>
+        <pair id="DDI-DrugBank.d548.s6.p0" e1="DDI-DrugBank.d548.s6.e0"
+            e2="DDI-DrugBank.d548.s6.e1" ddi="false"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d548.s7" text="Drugs Metabolized by CYP2D6: Duloxetine is a moderate inhibitor of CYP2D6.">
+        <entity id="DDI-DrugBank.d548.s7.e0" charOffset="29-38"
+            type="drug" text="Duloxetine"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d548.s8" text="When duloxetine was administered (at a dose of 60 mg BID) in conjunction with a single 50-mg dose of desipramine, a CYP2D6 substrate, the AUC of desipramine increased 3-fold.">
+        <entity id="DDI-DrugBank.d548.s8.e0" charOffset="5-14"
+            type="drug" text="duloxetine"/>
+        <entity id="DDI-DrugBank.d548.s8.e1" charOffset="101-111"
+            type="drug" text="desipramine"/>
+        <entity id="DDI-DrugBank.d548.s8.e2" charOffset="145-155"
+            type="drug" text="desipramine"/>
+        <pair id="DDI-DrugBank.d548.s8.p0" e1="DDI-DrugBank.d548.s8.e0"
+            e2="DDI-DrugBank.d548.s8.e1" ddi="true" type="mechanism"/>
+        <pair id="DDI-DrugBank.d548.s8.p1" e1="DDI-DrugBank.d548.s8.e0"
+            e2="DDI-DrugBank.d548.s8.e2" ddi="false"/>
+        <pair id="DDI-DrugBank.d548.s8.p2" e1="DDI-DrugBank.d548.s8.e1"
+            e2="DDI-DrugBank.d548.s8.e2" ddi="false"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d548.s9" text="Therefore, co-administration of Duloxetine with other drugs that are extensively metabolized by this isozyme and which have a narrow therapeutic index, including certain antidepressants (tricyclic antidepressants [TCAs], such as nortriptyline, amitriptyline, and imipramine), phenothiazines and Type 1C antiarrhythmics (e.g., propafenone, flecainide), should be approached with caution.">
+        <entity id="DDI-DrugBank.d548.s9.e0" charOffset="32-41"
+            type="drug" text="Duloxetine"/>
+        <entity id="DDI-DrugBank.d548.s9.e1" charOffset="170-184"
+            type="group" text="antidepressants"/>
+        <entity id="DDI-DrugBank.d548.s9.e2" charOffset="187-211"
+            type="group" text="tricyclic antidepressants"/>
+        <entity id="DDI-DrugBank.d548.s9.e3" charOffset="214-217"
+            type="group" text="TCAs"/>
+        <entity id="DDI-DrugBank.d548.s9.e4" charOffset="229-241"
+            type="drug" text="nortriptyline"/>
+        <entity id="DDI-DrugBank.d548.s9.e5" charOffset="244-256"
+            type="drug" text="amitriptyline"/>
+        <entity id="DDI-DrugBank.d548.s9.e6" charOffset="263-272"
+            type="drug" text="imipramine"/>
+        <entity id="DDI-DrugBank.d548.s9.e7" charOffset="276-289"
+            type="group" text="phenothiazines"/>
+        <entity id="DDI-DrugBank.d548.s9.e8" charOffset="295-317"
+            type="group" text="Type 1C antiarrhythmics"/>
+        <entity id="DDI-DrugBank.d548.s9.e9" charOffset="326-336"
+            type="drug" text="propafenone"/>
+        <entity id="DDI-DrugBank.d548.s9.e10" charOffset="339-348"
+            type="drug" text="flecainide"/>
+        <pair id="DDI-DrugBank.d548.s9.p0" e1="DDI-DrugBank.d548.s9.e0"
+            e2="DDI-DrugBank.d548.s9.e1" ddi="true" type="advise"/>
+        <pair id="DDI-DrugBank.d548.s9.p1" e1="DDI-DrugBank.d548.s9.e0"
+            e2="DDI-DrugBank.d548.s9.e2" ddi="true" type="advise"/>
+        <pair id="DDI-DrugBank.d548.s9.p2" e1="DDI-DrugBank.d548.s9.e0"
+            e2="DDI-DrugBank.d548.s9.e3" ddi="true" type="advise"/>
+        <pair id="DDI-DrugBank.d548.s9.p3" e1="DDI-DrugBank.d548.s9.e0"
+            e2="DDI-DrugBank.d548.s9.e4" ddi="true" type="advise"/>
+        <pair id="DDI-DrugBank.d548.s9.p4" e1="DDI-DrugBank.d548.s9.e0"
+            e2="DDI-DrugBank.d548.s9.e5" ddi="true" type="advise"/>
+        <pair id="DDI-DrugBank.d548.s9.p5" e1="DDI-DrugBank.d548.s9.e0"
+            e2="DDI-DrugBank.d548.s9.e6" ddi="true" type="advise"/>
+        <pair id="DDI-DrugBank.d548.s9.p6" e1="DDI-DrugBank.d548.s9.e0"
+            e2="DDI-DrugBank.d548.s9.e7" ddi="true" type="advise"/>
+        <pair id="DDI-DrugBank.d548.s9.p7" e1="DDI-DrugBank.d548.s9.e0"
+            e2="DDI-DrugBank.d548.s9.e8" ddi="true" type="advise"/>
+        <pair id="DDI-DrugBank.d548.s9.p8" e1="DDI-DrugBank.d548.s9.e0"
+            e2="DDI-DrugBank.d548.s9.e9" ddi="true" type="advise"/>
+        <pair id="DDI-DrugBank.d548.s9.p9" e1="DDI-DrugBank.d548.s9.e0"
+            e2="DDI-DrugBank.d548.s9.e10" ddi="true" type="advise"/>
+        <pair id="DDI-DrugBank.d548.s9.p10" e1="DDI-DrugBank.d548.s9.e1"
+            e2="DDI-DrugBank.d548.s9.e2" ddi="false"/>
+        <pair id="DDI-DrugBank.d548.s9.p11" e1="DDI-DrugBank.d548.s9.e1"
+            e2="DDI-DrugBank.d548.s9.e3" ddi="false"/>
+        <pair id="DDI-DrugBank.d548.s9.p12" e1="DDI-DrugBank.d548.s9.e1"
+            e2="DDI-DrugBank.d548.s9.e4" ddi="false"/>
+        <pair id="DDI-DrugBank.d548.s9.p13" e1="DDI-DrugBank.d548.s9.e1"
+            e2="DDI-DrugBank.d548.s9.e5" ddi="false"/>
+        <pair id="DDI-DrugBank.d548.s9.p14" e1="DDI-DrugBank.d548.s9.e1"
+            e2="DDI-DrugBank.d548.s9.e6" ddi="false"/>
+        <pair id="DDI-DrugBank.d548.s9.p15" e1="DDI-DrugBank.d548.s9.e1"
+            e2="DDI-DrugBank.d548.s9.e7" ddi="false"/>
+        <pair id="DDI-DrugBank.d548.s9.p16" e1="DDI-DrugBank.d548.s9.e1"
+            e2="DDI-DrugBank.d548.s9.e8" ddi="false"/>
+        <pair id="DDI-DrugBank.d548.s9.p17" e1="DDI-DrugBank.d548.s9.e1"
+            e2="DDI-DrugBank.d548.s9.e9" ddi="false"/>
+        <pair id="DDI-DrugBank.d548.s9.p18" e1="DDI-DrugBank.d548.s9.e1"
+            e2="DDI-DrugBank.d548.s9.e10" ddi="false"/>
+        <pair id="DDI-DrugBank.d548.s9.p19" e1="DDI-DrugBank.d548.s9.e2"
+            e2="DDI-DrugBank.d548.s9.e3" ddi="false"/>
+        <pair id="DDI-DrugBank.d548.s9.p20" e1="DDI-DrugBank.d548.s9.e2"
+            e2="DDI-DrugBank.d548.s9.e4" ddi="false"/>
+        <pair id="DDI-DrugBank.d548.s9.p21" e1="DDI-DrugBank.d548.s9.e2"
+            e2="DDI-DrugBank.d548.s9.e5" ddi="false"/>
+        <pair id="DDI-DrugBank.d548.s9.p22" e1="DDI-DrugBank.d548.s9.e2"
+            e2="DDI-DrugBank.d548.s9.e6" ddi="false"/>
+        <pair id="DDI-DrugBank.d548.s9.p23" e1="DDI-DrugBank.d548.s9.e2"
+            e2="DDI-DrugBank.d548.s9.e7" ddi="false"/>
+        <pair id="DDI-DrugBank.d548.s9.p24" e1="DDI-DrugBank.d548.s9.e2"
+            e2="DDI-DrugBank.d548.s9.e8" ddi="false"/>
+        <pair id="DDI-DrugBank.d548.s9.p25" e1="DDI-DrugBank.d548.s9.e2"
+            e2="DDI-DrugBank.d548.s9.e9" ddi="false"/>
+        <pair id="DDI-DrugBank.d548.s9.p26" e1="DDI-DrugBank.d548.s9.e2"
+            e2="DDI-DrugBank.d548.s9.e10" ddi="false"/>
+        <pair id="DDI-DrugBank.d548.s9.p27" e1="DDI-DrugBank.d548.s9.e3"
+            e2="DDI-DrugBank.d548.s9.e4" ddi="false"/>
+        <pair id="DDI-DrugBank.d548.s9.p28" e1="DDI-DrugBank.d548.s9.e3"
+            e2="DDI-DrugBank.d548.s9.e5" ddi="false"/>
+        <pair id="DDI-DrugBank.d548.s9.p29" e1="DDI-DrugBank.d548.s9.e3"
+            e2="DDI-DrugBank.d548.s9.e6" ddi="false"/>
+        <pair id="DDI-DrugBank.d548.s9.p30" e1="DDI-DrugBank.d548.s9.e3"
+            e2="DDI-DrugBank.d548.s9.e7" ddi="false"/>
+        <pair id="DDI-DrugBank.d548.s9.p31" e1="DDI-DrugBank.d548.s9.e3"
+            e2="DDI-DrugBank.d548.s9.e8" ddi="false"/>
+        <pair id="DDI-DrugBank.d548.s9.p32" e1="DDI-DrugBank.d548.s9.e3"
+            e2="DDI-DrugBank.d548.s9.e9" ddi="false"/>
+        <pair id="DDI-DrugBank.d548.s9.p33" e1="DDI-DrugBank.d548.s9.e3"
+            e2="DDI-DrugBank.d548.s9.e10" ddi="false"/>
+        <pair id="DDI-DrugBank.d548.s9.p34" e1="DDI-DrugBank.d548.s9.e4"
+            e2="DDI-DrugBank.d548.s9.e5" ddi="false"/>
+        <pair id="DDI-DrugBank.d548.s9.p35" e1="DDI-DrugBank.d548.s9.e4"
+            e2="DDI-DrugBank.d548.s9.e6" ddi="false"/>
+        <pair id="DDI-DrugBank.d548.s9.p36" e1="DDI-DrugBank.d548.s9.e4"
+            e2="DDI-DrugBank.d548.s9.e7" ddi="false"/>
+        <pair id="DDI-DrugBank.d548.s9.p37" e1="DDI-DrugBank.d548.s9.e4"
+            e2="DDI-DrugBank.d548.s9.e8" ddi="false"/>
+        <pair id="DDI-DrugBank.d548.s9.p38" e1="DDI-DrugBank.d548.s9.e4"
+            e2="DDI-DrugBank.d548.s9.e9" ddi="false"/>
+        <pair id="DDI-DrugBank.d548.s9.p39" e1="DDI-DrugBank.d548.s9.e4"
+            e2="DDI-DrugBank.d548.s9.e10" ddi="false"/>
+        <pair id="DDI-DrugBank.d548.s9.p40" e1="DDI-DrugBank.d548.s9.e5"
+            e2="DDI-DrugBank.d548.s9.e6" ddi="false"/>
+        <pair id="DDI-DrugBank.d548.s9.p41" e1="DDI-DrugBank.d548.s9.e5"
+            e2="DDI-DrugBank.d548.s9.e7" ddi="false"/>
+        <pair id="DDI-DrugBank.d548.s9.p42" e1="DDI-DrugBank.d548.s9.e5"
+            e2="DDI-DrugBank.d548.s9.e8" ddi="false"/>
+        <pair id="DDI-DrugBank.d548.s9.p43" e1="DDI-DrugBank.d548.s9.e5"
+            e2="DDI-DrugBank.d548.s9.e9" ddi="false"/>
+        <pair id="DDI-DrugBank.d548.s9.p44" e1="DDI-DrugBank.d548.s9.e5"
+            e2="DDI-DrugBank.d548.s9.e10" ddi="false"/>
+        <pair id="DDI-DrugBank.d548.s9.p45" e1="DDI-DrugBank.d548.s9.e6"
+            e2="DDI-DrugBank.d548.s9.e7" ddi="false"/>
+        <pair id="DDI-DrugBank.d548.s9.p46" e1="DDI-DrugBank.d548.s9.e6"
+            e2="DDI-DrugBank.d548.s9.e8" ddi="false"/>
+        <pair id="DDI-DrugBank.d548.s9.p47" e1="DDI-DrugBank.d548.s9.e6"
+            e2="DDI-DrugBank.d548.s9.e9" ddi="false"/>
+        <pair id="DDI-DrugBank.d548.s9.p48" e1="DDI-DrugBank.d548.s9.e6"
+            e2="DDI-DrugBank.d548.s9.e10" ddi="false"/>
+        <pair id="DDI-DrugBank.d548.s9.p49" e1="DDI-DrugBank.d548.s9.e7"
+            e2="DDI-DrugBank.d548.s9.e8" ddi="false"/>
+        <pair id="DDI-DrugBank.d548.s9.p50" e1="DDI-DrugBank.d548.s9.e7"
+            e2="DDI-DrugBank.d548.s9.e9" ddi="false"/>
+        <pair id="DDI-DrugBank.d548.s9.p51" e1="DDI-DrugBank.d548.s9.e7"
+            e2="DDI-DrugBank.d548.s9.e10" ddi="false"/>
+        <pair id="DDI-DrugBank.d548.s9.p52" e1="DDI-DrugBank.d548.s9.e8"
+            e2="DDI-DrugBank.d548.s9.e9" ddi="false"/>
+        <pair id="DDI-DrugBank.d548.s9.p53" e1="DDI-DrugBank.d548.s9.e8"
+            e2="DDI-DrugBank.d548.s9.e10" ddi="false"/>
+        <pair id="DDI-DrugBank.d548.s9.p54" e1="DDI-DrugBank.d548.s9.e9"
+            e2="DDI-DrugBank.d548.s9.e10" ddi="false"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d548.s10" text="Plasma TCA concentrations may need to be monitored and the dose of the TCA may need to be reduced if a TCA is co-administered with Duloxetine.">
+        <entity id="DDI-DrugBank.d548.s10.e0" charOffset="7-9"
+            type="group" text="TCA"/>
+        <entity id="DDI-DrugBank.d548.s10.e1" charOffset="71-73"
+            type="group" text="TCA"/>
+        <entity id="DDI-DrugBank.d548.s10.e2" charOffset="103-105"
+            type="group" text="TCA"/>
+        <entity id="DDI-DrugBank.d548.s10.e3" charOffset="131-140"
+            type="drug" text="Duloxetine"/>
+        <pair id="DDI-DrugBank.d548.s10.p0"
+            e1="DDI-DrugBank.d548.s10.e0" e2="DDI-DrugBank.d548.s10.e1" ddi="false"/>
+        <pair id="DDI-DrugBank.d548.s10.p1"
+            e1="DDI-DrugBank.d548.s10.e0" e2="DDI-DrugBank.d548.s10.e2" ddi="false"/>
+        <pair id="DDI-DrugBank.d548.s10.p2"
+            e1="DDI-DrugBank.d548.s10.e0" e2="DDI-DrugBank.d548.s10.e3" ddi="false"/>
+        <pair id="DDI-DrugBank.d548.s10.p3"
+            e1="DDI-DrugBank.d548.s10.e1" e2="DDI-DrugBank.d548.s10.e2" ddi="false"/>
+        <pair id="DDI-DrugBank.d548.s10.p4"
+            e1="DDI-DrugBank.d548.s10.e1" e2="DDI-DrugBank.d548.s10.e3" ddi="false"/>
+        <pair id="DDI-DrugBank.d548.s10.p5"
+            e1="DDI-DrugBank.d548.s10.e2" e2="DDI-DrugBank.d548.s10.e3"
+            ddi="true" type="advise"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d548.s11" text="Because of the risk of serious ventricular arrhythmias and sudden death potentially associated with elevated plasma levels of thioridazine, Duloxetine and thioridazine should not be co-administered.">
+        <entity id="DDI-DrugBank.d548.s11.e0" charOffset="126-137"
+            type="drug" text="thioridazine"/>
+        <entity id="DDI-DrugBank.d548.s11.e1" charOffset="140-149"
+            type="drug" text="Duloxetine"/>
+        <entity id="DDI-DrugBank.d548.s11.e2" charOffset="155-166"
+            type="drug" text="thioridazine"/>
+        <pair id="DDI-DrugBank.d548.s11.p0"
+            e1="DDI-DrugBank.d548.s11.e0" e2="DDI-DrugBank.d548.s11.e1" ddi="false"/>
+        <pair id="DDI-DrugBank.d548.s11.p1"
+            e1="DDI-DrugBank.d548.s11.e0" e2="DDI-DrugBank.d548.s11.e2" ddi="false"/>
+        <pair id="DDI-DrugBank.d548.s11.p2"
+            e1="DDI-DrugBank.d548.s11.e1" e2="DDI-DrugBank.d548.s11.e2"
+            ddi="true" type="advise"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d548.s12" text="Drugs Metabolized by CYP3A: Results of in vitro studies demonstrate that duloxetine does not inhibit or induce CYP3A activity.">
+        <entity id="DDI-DrugBank.d548.s12.e0" charOffset="73-82"
+            type="drug" text="duloxetine"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d548.s13" text="Duloxetine May Have a Clinically Important Interaction with the Following Other Drugs: Alcohol: When Duloxetine and ethanol were administered several hours apart so that peak concentrations of each would coincide, Duloxetine did not increase the impairment of mental and motor skills caused by alcohol.">
+        <entity id="DDI-DrugBank.d548.s13.e0" charOffset="0-9"
+            type="drug" text="Duloxetine"/>
+        <entity id="DDI-DrugBank.d548.s13.e1" charOffset="87-93"
+            type="drug" text="Alcohol"/>
+        <entity id="DDI-DrugBank.d548.s13.e2" charOffset="101-110"
+            type="drug" text="Duloxetine"/>
+        <entity id="DDI-DrugBank.d548.s13.e3" charOffset="116-122"
+            type="drug" text="ethanol"/>
+        <entity id="DDI-DrugBank.d548.s13.e4" charOffset="214-223"
+            type="drug" text="Duloxetine"/>
+        <entity id="DDI-DrugBank.d548.s13.e5" charOffset="294-300"
+            type="drug" text="alcohol"/>
+        <pair id="DDI-DrugBank.d548.s13.p0"
+            e1="DDI-DrugBank.d548.s13.e0" e2="DDI-DrugBank.d548.s13.e1" ddi="false"/>
+        <pair id="DDI-DrugBank.d548.s13.p1"
+            e1="DDI-DrugBank.d548.s13.e0" e2="DDI-DrugBank.d548.s13.e2" ddi="false"/>
+        <pair id="DDI-DrugBank.d548.s13.p2"
+            e1="DDI-DrugBank.d548.s13.e0" e2="DDI-DrugBank.d548.s13.e3" ddi="false"/>
+        <pair id="DDI-DrugBank.d548.s13.p3"
+            e1="DDI-DrugBank.d548.s13.e0" e2="DDI-DrugBank.d548.s13.e4" ddi="false"/>
+        <pair id="DDI-DrugBank.d548.s13.p4"
+            e1="DDI-DrugBank.d548.s13.e0" e2="DDI-DrugBank.d548.s13.e5" ddi="false"/>
+        <pair id="DDI-DrugBank.d548.s13.p5"
+            e1="DDI-DrugBank.d548.s13.e1" e2="DDI-DrugBank.d548.s13.e2" ddi="false"/>
+        <pair id="DDI-DrugBank.d548.s13.p6"
+            e1="DDI-DrugBank.d548.s13.e1" e2="DDI-DrugBank.d548.s13.e3" ddi="false"/>
+        <pair id="DDI-DrugBank.d548.s13.p7"
+            e1="DDI-DrugBank.d548.s13.e1" e2="DDI-DrugBank.d548.s13.e4" ddi="false"/>
+        <pair id="DDI-DrugBank.d548.s13.p8"
+            e1="DDI-DrugBank.d548.s13.e1" e2="DDI-DrugBank.d548.s13.e5" ddi="false"/>
+        <pair id="DDI-DrugBank.d548.s13.p9"
+            e1="DDI-DrugBank.d548.s13.e2" e2="DDI-DrugBank.d548.s13.e3" ddi="false"/>
+        <pair id="DDI-DrugBank.d548.s13.p10"
+            e1="DDI-DrugBank.d548.s13.e2" e2="DDI-DrugBank.d548.s13.e4" ddi="false"/>
+        <pair id="DDI-DrugBank.d548.s13.p11"
+            e1="DDI-DrugBank.d548.s13.e2" e2="DDI-DrugBank.d548.s13.e5" ddi="false"/>
+        <pair id="DDI-DrugBank.d548.s13.p12"
+            e1="DDI-DrugBank.d548.s13.e3" e2="DDI-DrugBank.d548.s13.e4" ddi="false"/>
+        <pair id="DDI-DrugBank.d548.s13.p13"
+            e1="DDI-DrugBank.d548.s13.e3" e2="DDI-DrugBank.d548.s13.e5" ddi="false"/>
+        <pair id="DDI-DrugBank.d548.s13.p14"
+            e1="DDI-DrugBank.d548.s13.e4" e2="DDI-DrugBank.d548.s13.e5" ddi="false"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d548.s14" text="In the Duloxetine clinical trials database, three Duloxetine-treated patients had liver injury as manifested by ALT and total bilirubin elevations, with evidence of obstruction.">
+        <entity id="DDI-DrugBank.d548.s14.e0" charOffset="7-16"
+            type="drug" text="Duloxetine"/>
+        <entity id="DDI-DrugBank.d548.s14.e1" charOffset="50-59"
+            type="drug" text="Duloxetine"/>
+        <pair id="DDI-DrugBank.d548.s14.p0"
+            e1="DDI-DrugBank.d548.s14.e0" e2="DDI-DrugBank.d548.s14.e1" ddi="false"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d548.s15" text="Substantial intercurrent ethanol use was present in each of these cases, and this may have contributed to the abnormalities seen.">
+        <entity id="DDI-DrugBank.d548.s15.e0" charOffset="25-31"
+            type="drug" text="ethanol"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d548.s16" text="CNS Acting Drugs: Given the primary CNS effects of Duloxetine, it should be used with caution when it is taken in combination with or substituted for other centrally acting drugs, including those with a similar mechanism of action.">
+        <entity id="DDI-DrugBank.d548.s16.e0" charOffset="51-60"
+            type="drug" text="Duloxetine"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d548.s17" text="Potential for Interaction with Drugs that Affect Gastric Acidity: Duloxetine has an enteric coating that resists dissolution until reaching a segment of the gastrointestinal tract where the pH exceeds 5.5.">
+        <entity id="DDI-DrugBank.d548.s17.e0" charOffset="66-75"
+            type="drug" text="Duloxetine"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d548.s18" text="In extremely acidic conditions, Duloxetine, unprotected by the enteric coating, may undergo hydrolysis to form naphthol.">
+        <entity id="DDI-DrugBank.d548.s18.e0" charOffset="32-41"
+            type="drug" text="Duloxetine"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d548.s19" text="Caution is advised in using Duloxetine in patients with conditions that may slow gastric emptying (e.g., some diabetics).">
+        <entity id="DDI-DrugBank.d548.s19.e0" charOffset="28-37"
+            type="drug" text="Duloxetine"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d548.s20" text="Drugs that raise the gastrointestinal pH may lead to an earlier release of duloxetine.">
+        <entity id="DDI-DrugBank.d548.s20.e0" charOffset="75-84"
+            type="drug" text="duloxetine"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d548.s21" text="However, co-administration of Duloxetine with aluminum- and magnesium-containing antacids (51 mEq) or Duloxetine with famotidine, had no significant effect on the rate or extent of duloxetine absorption after administration of a 40-mg oral dose.">
+        <entity id="DDI-DrugBank.d548.s21.e0" charOffset="30-39"
+            type="drug" text="Duloxetine"/>
+        <entity id="DDI-DrugBank.d548.s21.e1" charOffset="46-53"
+            type="drug" text="aluminum"/>
+        <entity id="DDI-DrugBank.d548.s21.e2" charOffset="60-68"
+            type="drug" text="magnesium"/>
+        <entity id="DDI-DrugBank.d548.s21.e3" charOffset="81-88"
+            type="group" text="antacids"/>
+        <entity id="DDI-DrugBank.d548.s21.e4" charOffset="102-111"
+            type="drug" text="Duloxetine"/>
+        <entity id="DDI-DrugBank.d548.s21.e5" charOffset="118-127"
+            type="drug" text="famotidine"/>
+        <entity id="DDI-DrugBank.d548.s21.e6" charOffset="181-190"
+            type="drug" text="duloxetine"/>
+        <pair id="DDI-DrugBank.d548.s21.p0"
+            e1="DDI-DrugBank.d548.s21.e0" e2="DDI-DrugBank.d548.s21.e1" ddi="false"/>
+        <pair id="DDI-DrugBank.d548.s21.p1"
+            e1="DDI-DrugBank.d548.s21.e0" e2="DDI-DrugBank.d548.s21.e2" ddi="false"/>
+        <pair id="DDI-DrugBank.d548.s21.p2"
+            e1="DDI-DrugBank.d548.s21.e0" e2="DDI-DrugBank.d548.s21.e3" ddi="false"/>
+        <pair id="DDI-DrugBank.d548.s21.p3"
+            e1="DDI-DrugBank.d548.s21.e0" e2="DDI-DrugBank.d548.s21.e4" ddi="false"/>
+        <pair id="DDI-DrugBank.d548.s21.p4"
+            e1="DDI-DrugBank.d548.s21.e0" e2="DDI-DrugBank.d548.s21.e5" ddi="false"/>
+        <pair id="DDI-DrugBank.d548.s21.p5"
+            e1="DDI-DrugBank.d548.s21.e0" e2="DDI-DrugBank.d548.s21.e6" ddi="false"/>
+        <pair id="DDI-DrugBank.d548.s21.p6"
+            e1="DDI-DrugBank.d548.s21.e1" e2="DDI-DrugBank.d548.s21.e2" ddi="false"/>
+        <pair id="DDI-DrugBank.d548.s21.p7"
+            e1="DDI-DrugBank.d548.s21.e1" e2="DDI-DrugBank.d548.s21.e3" ddi="false"/>
+        <pair id="DDI-DrugBank.d548.s21.p8"
+            e1="DDI-DrugBank.d548.s21.e1" e2="DDI-DrugBank.d548.s21.e4" ddi="false"/>
+        <pair id="DDI-DrugBank.d548.s21.p9"
+            e1="DDI-DrugBank.d548.s21.e1" e2="DDI-DrugBank.d548.s21.e5" ddi="false"/>
+        <pair id="DDI-DrugBank.d548.s21.p10"
+            e1="DDI-DrugBank.d548.s21.e1" e2="DDI-DrugBank.d548.s21.e6" ddi="false"/>
+        <pair id="DDI-DrugBank.d548.s21.p11"
+            e1="DDI-DrugBank.d548.s21.e2" e2="DDI-DrugBank.d548.s21.e3" ddi="false"/>
+        <pair id="DDI-DrugBank.d548.s21.p12"
+            e1="DDI-DrugBank.d548.s21.e2" e2="DDI-DrugBank.d548.s21.e4" ddi="false"/>
+        <pair id="DDI-DrugBank.d548.s21.p13"
+            e1="DDI-DrugBank.d548.s21.e2" e2="DDI-DrugBank.d548.s21.e5" ddi="false"/>
+        <pair id="DDI-DrugBank.d548.s21.p14"
+            e1="DDI-DrugBank.d548.s21.e2" e2="DDI-DrugBank.d548.s21.e6" ddi="false"/>
+        <pair id="DDI-DrugBank.d548.s21.p15"
+            e1="DDI-DrugBank.d548.s21.e3" e2="DDI-DrugBank.d548.s21.e4" ddi="false"/>
+        <pair id="DDI-DrugBank.d548.s21.p16"
+            e1="DDI-DrugBank.d548.s21.e3" e2="DDI-DrugBank.d548.s21.e5" ddi="false"/>
+        <pair id="DDI-DrugBank.d548.s21.p17"
+            e1="DDI-DrugBank.d548.s21.e3" e2="DDI-DrugBank.d548.s21.e6" ddi="false"/>
+        <pair id="DDI-DrugBank.d548.s21.p18"
+            e1="DDI-DrugBank.d548.s21.e4" e2="DDI-DrugBank.d548.s21.e5" ddi="false"/>
+        <pair id="DDI-DrugBank.d548.s21.p19"
+            e1="DDI-DrugBank.d548.s21.e4" e2="DDI-DrugBank.d548.s21.e6" ddi="false"/>
+        <pair id="DDI-DrugBank.d548.s21.p20"
+            e1="DDI-DrugBank.d548.s21.e5" e2="DDI-DrugBank.d548.s21.e6" ddi="false"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d548.s22" text="It is unknown whether the concomitant administration of proton pump inhibitors affects duloxetine absorption.">
+        <entity id="DDI-DrugBank.d548.s22.e0" charOffset="56-77"
+            type="group" text="proton pump inhibitors"/>
+        <entity id="DDI-DrugBank.d548.s22.e1" charOffset="87-96"
+            type="drug" text="duloxetine"/>
+        <pair id="DDI-DrugBank.d548.s22.p0"
+            e1="DDI-DrugBank.d548.s22.e0" e2="DDI-DrugBank.d548.s22.e1" ddi="false"/>
+    </sentence>
+</document>

@@ -1,0 +1,236 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="DDI-DrugBank.d202">
+    <sentence id="DDI-DrugBank.d202.s0" text="Steady-state serum concentrations of tricyclic antidepressants are reported to fluctuate significantly when cimetidine is either added or deleted from the drug regimen.">
+        <entity id="DDI-DrugBank.d202.s0.e0" charOffset="37-61"
+            type="group" text="tricyclic antidepressants"/>
+        <entity id="DDI-DrugBank.d202.s0.e1" charOffset="108-117"
+            type="drug" text="cimetidine"/>
+        <pair id="DDI-DrugBank.d202.s0.p0" e1="DDI-DrugBank.d202.s0.e0"
+            e2="DDI-DrugBank.d202.s0.e1" ddi="true" type="mechanism"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d202.s1" text="Serious anticholinergic symptoms (severe dry mouth, urinary retention, blurred vision) have been associated with elevations in the serum levels of tricyclic antidepressants when cimetidine is added to the drug regimen.">
+        <entity id="DDI-DrugBank.d202.s1.e0" charOffset="147-171"
+            type="group" text="tricyclic antidepressants"/>
+        <entity id="DDI-DrugBank.d202.s1.e1" charOffset="178-187"
+            type="drug" text="cimetidine"/>
+        <pair id="DDI-DrugBank.d202.s1.p0" e1="DDI-DrugBank.d202.s1.e0"
+            e2="DDI-DrugBank.d202.s1.e1" ddi="true" type="effect"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d202.s2" text="In addition, higher-than expected steady-state serum concentrations of tricyclic antidepressants have been observed when therapy is initiated in patients already taking cimetidine.">
+        <entity id="DDI-DrugBank.d202.s2.e0" charOffset="71-95"
+            type="group" text="tricyclic antidepressants"/>
+        <entity id="DDI-DrugBank.d202.s2.e1" charOffset="169-178"
+            type="drug" text="cimetidine"/>
+        <pair id="DDI-DrugBank.d202.s2.p0" e1="DDI-DrugBank.d202.s2.e0"
+            e2="DDI-DrugBank.d202.s2.e1" ddi="true" type="mechanism"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d202.s3" text="In well-controlled patients undergoing concurrent therapy with cimetidine, a decrease in the steady-state serum concentrations of tricyclic antidepressants may occur when cime-tidine therapy is discontinued.">
+        <entity id="DDI-DrugBank.d202.s3.e0" charOffset="63-72"
+            type="drug" text="cimetidine"/>
+        <entity id="DDI-DrugBank.d202.s3.e1" charOffset="130-154"
+            type="group" text="tricyclic antidepressants"/>
+        <pair id="DDI-DrugBank.d202.s3.p0" e1="DDI-DrugBank.d202.s3.e0"
+            e2="DDI-DrugBank.d202.s3.e1" ddi="true" type="mechanism"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d202.s4" text="The therapeutic efficacy of tricyclic antidepressants may be compromised in these patients when cimetidine is discontinued.">
+        <entity id="DDI-DrugBank.d202.s4.e0" charOffset="28-52"
+            type="group" text="tricyclic antidepressants"/>
+        <entity id="DDI-DrugBank.d202.s4.e1" charOffset="96-105"
+            type="drug" text="cimetidine"/>
+        <pair id="DDI-DrugBank.d202.s4.p0" e1="DDI-DrugBank.d202.s4.e0"
+            e2="DDI-DrugBank.d202.s4.e1" ddi="true" type="effect"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d202.s5" text="Several of the tricyclic antidepressants have been cited in these reports.">
+        <entity id="DDI-DrugBank.d202.s5.e0" charOffset="15-39"
+            type="group" text="tricyclic antidepressants"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d202.s6" text="There have been greater than 2-fold increases in previously stable plasma levels of other antidepressants, including nortriptyline, when fluoxetine hydrochloride has been administered in combination with these agents.">
+        <entity id="DDI-DrugBank.d202.s6.e0" charOffset="90-104"
+            type="group" text="antidepressants"/>
+        <entity id="DDI-DrugBank.d202.s6.e1" charOffset="117-129"
+            type="drug" text="nortriptyline"/>
+        <entity id="DDI-DrugBank.d202.s6.e2" charOffset="137-160"
+            type="drug" text="fluoxetine hydrochloride"/>
+        <pair id="DDI-DrugBank.d202.s6.p0" e1="DDI-DrugBank.d202.s6.e0"
+            e2="DDI-DrugBank.d202.s6.e1" ddi="false"/>
+        <pair id="DDI-DrugBank.d202.s6.p1" e1="DDI-DrugBank.d202.s6.e0"
+            e2="DDI-DrugBank.d202.s6.e2" ddi="true" type="mechanism"/>
+        <pair id="DDI-DrugBank.d202.s6.p2" e1="DDI-DrugBank.d202.s6.e1"
+            e2="DDI-DrugBank.d202.s6.e2" ddi="true" type="mechanism"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d202.s7" text="Fluoxetine and its active metabolite, norfluoxe-tine, have long half-lives (4 to 16 days for norfluoxetine), that may affect strategies during conversion from one drug to the other.">
+        <entity id="DDI-DrugBank.d202.s7.e0" charOffset="0-9"
+            type="drug" text="Fluoxetine"/>
+        <entity id="DDI-DrugBank.d202.s7.e1" charOffset="93-105"
+            type="drug_n" text="norfluoxetine"/>
+        <pair id="DDI-DrugBank.d202.s7.p0" e1="DDI-DrugBank.d202.s7.e0"
+            e2="DDI-DrugBank.d202.s7.e1" ddi="false"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d202.s8" text="Administration of reserpine during therapy with a tricyclic antidepressant has been shown to produce a  stimulating  effect in some depressed patients.">
+        <entity id="DDI-DrugBank.d202.s8.e0" charOffset="18-26"
+            type="drug" text="reserpine"/>
+        <entity id="DDI-DrugBank.d202.s8.e1" charOffset="50-73"
+            type="group" text="tricyclic antidepressant"/>
+        <pair id="DDI-DrugBank.d202.s8.p0" e1="DDI-DrugBank.d202.s8.e0"
+            e2="DDI-DrugBank.d202.s8.e1" ddi="true" type="effect"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d202.s9" text="Close supervision and careful adjustment of the dosage are required when nortriptyline hydrochloride is used with other anticholinergic drugs or sympathomimetic drugs.">
+        <entity id="DDI-DrugBank.d202.s9.e0" charOffset="73-99"
+            type="drug" text="nortriptyline hydrochloride"/>
+        <entity id="DDI-DrugBank.d202.s9.e1" charOffset="120-140"
+            type="group" text="anticholinergic drugs"/>
+        <entity id="DDI-DrugBank.d202.s9.e2" charOffset="145-165"
+            type="group" text="sympathomimetic drugs"/>
+        <pair id="DDI-DrugBank.d202.s9.p0" e1="DDI-DrugBank.d202.s9.e0"
+            e2="DDI-DrugBank.d202.s9.e1" ddi="true" type="advise"/>
+        <pair id="DDI-DrugBank.d202.s9.p1" e1="DDI-DrugBank.d202.s9.e0"
+            e2="DDI-DrugBank.d202.s9.e2" ddi="true" type="advise"/>
+        <pair id="DDI-DrugBank.d202.s9.p2" e1="DDI-DrugBank.d202.s9.e1"
+            e2="DDI-DrugBank.d202.s9.e2" ddi="false"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d202.s10" text="The patient should be informed that the response to alcohol may be exaggerated.">
+        <entity id="DDI-DrugBank.d202.s10.e0" charOffset="52-58"
+            type="drug" text="alcohol"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d202.s11" text="Drugs Metabolized by P450IID6  A subset (3% to 10%) of the population has reduced activity of certain drug metabolizing enzymes such as the cytochrome P450 isoenzyme P450IID6."/>
+    <sentence id="DDI-DrugBank.d202.s12" text="Such individuals are referred to as  poor metabolizers  of drugs such as debrisoquin, dextromethorphan, and the tricyclic antidepressants.">
+        <entity id="DDI-DrugBank.d202.s12.e0" charOffset="73-83"
+            type="drug" text="debrisoquin"/>
+        <entity id="DDI-DrugBank.d202.s12.e1" charOffset="86-101"
+            type="drug" text="dextromethorphan"/>
+        <entity id="DDI-DrugBank.d202.s12.e2" charOffset="112-136"
+            type="group" text="tricyclic antidepressants"/>
+        <pair id="DDI-DrugBank.d202.s12.p0"
+            e1="DDI-DrugBank.d202.s12.e0" e2="DDI-DrugBank.d202.s12.e1" ddi="false"/>
+        <pair id="DDI-DrugBank.d202.s12.p1"
+            e1="DDI-DrugBank.d202.s12.e0" e2="DDI-DrugBank.d202.s12.e2" ddi="false"/>
+        <pair id="DDI-DrugBank.d202.s12.p2"
+            e1="DDI-DrugBank.d202.s12.e1" e2="DDI-DrugBank.d202.s12.e2" ddi="false"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d202.s13" text="These individuals may have higher than expected plasma concentrations of tricyclic antidepressants when given usual doses.">
+        <entity id="DDI-DrugBank.d202.s13.e0" charOffset="73-97"
+            type="group" text="tricyclic antidepressants"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d202.s14" text="In addition, certain drugs that are metabolized by this isoenzyme, including many antidepressants (tricyclic antidepressants, selective serotonin reuptake inhibitors, and others), may inhibit the activity of this isoenzyme, and thus may make normal metab-olizers resemble poor metabolizers with regard to concomitant therapy with other drugs metabolized by this enzyme system, leading to drug interactions.">
+        <entity id="DDI-DrugBank.d202.s14.e0" charOffset="82-96"
+            type="group" text="antidepressants"/>
+        <entity id="DDI-DrugBank.d202.s14.e1" charOffset="99-123"
+            type="group" text="tricyclic antidepressants"/>
+        <entity id="DDI-DrugBank.d202.s14.e2" charOffset="126-164"
+            type="group" text="selective serotonin reuptake inhibitors"/>
+        <pair id="DDI-DrugBank.d202.s14.p0"
+            e1="DDI-DrugBank.d202.s14.e0" e2="DDI-DrugBank.d202.s14.e1" ddi="false"/>
+        <pair id="DDI-DrugBank.d202.s14.p1"
+            e1="DDI-DrugBank.d202.s14.e0" e2="DDI-DrugBank.d202.s14.e2" ddi="false"/>
+        <pair id="DDI-DrugBank.d202.s14.p2"
+            e1="DDI-DrugBank.d202.s14.e1" e2="DDI-DrugBank.d202.s14.e2" ddi="false"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d202.s15" text="Concomitant use of tricyclic antidepressants with other drugs metabolized by cytochrome P450IID6 may require lower doses than usually prescribed for either the tricyclic antidepressant or the other drug.">
+        <entity id="DDI-DrugBank.d202.s15.e0" charOffset="19-43"
+            type="group" text="tricyclic antidepressants"/>
+        <entity id="DDI-DrugBank.d202.s15.e1" charOffset="160-183"
+            type="group" text="tricyclic antidepressant"/>
+        <pair id="DDI-DrugBank.d202.s15.p0"
+            e1="DDI-DrugBank.d202.s15.e0" e2="DDI-DrugBank.d202.s15.e1" ddi="false"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d202.s16" text="Therefore, co-administration of tricyclic antidepressants with other drugs that are metabolized by this isoenzyme, including other antidepressants, phenothiazines, carbamazepine, and Type 1C antiarrhythmics (eg, propafenone, flecainide, and encainide), or that inhibit this enzyme (eg, quinidine), should be approached with caution.">
+        <entity id="DDI-DrugBank.d202.s16.e0" charOffset="32-56"
+            type="group" text="tricyclic antidepressants"/>
+        <entity id="DDI-DrugBank.d202.s16.e1" charOffset="131-145"
+            type="group" text="antidepressants"/>
+        <entity id="DDI-DrugBank.d202.s16.e2" charOffset="148-161"
+            type="group" text="phenothiazines"/>
+        <entity id="DDI-DrugBank.d202.s16.e3" charOffset="164-176"
+            type="drug" text="carbamazepine"/>
+        <entity id="DDI-DrugBank.d202.s16.e4" charOffset="183-205"
+            type="group" text="Type 1C antiarrhythmics"/>
+        <entity id="DDI-DrugBank.d202.s16.e5" charOffset="212-222"
+            type="drug" text="propafenone"/>
+        <entity id="DDI-DrugBank.d202.s16.e6" charOffset="225-234"
+            type="drug" text="flecainide"/>
+        <entity id="DDI-DrugBank.d202.s16.e7" charOffset="241-249"
+            type="drug" text="encainide"/>
+        <entity id="DDI-DrugBank.d202.s16.e8" charOffset="286-294"
+            type="drug" text="quinidine"/>
+        <pair id="DDI-DrugBank.d202.s16.p0"
+            e1="DDI-DrugBank.d202.s16.e0" e2="DDI-DrugBank.d202.s16.e1"
+            ddi="true" type="advise"/>
+        <pair id="DDI-DrugBank.d202.s16.p1"
+            e1="DDI-DrugBank.d202.s16.e0" e2="DDI-DrugBank.d202.s16.e2"
+            ddi="true" type="advise"/>
+        <pair id="DDI-DrugBank.d202.s16.p2"
+            e1="DDI-DrugBank.d202.s16.e0" e2="DDI-DrugBank.d202.s16.e3"
+            ddi="true" type="advise"/>
+        <pair id="DDI-DrugBank.d202.s16.p3"
+            e1="DDI-DrugBank.d202.s16.e0" e2="DDI-DrugBank.d202.s16.e4"
+            ddi="true" type="advise"/>
+        <pair id="DDI-DrugBank.d202.s16.p4"
+            e1="DDI-DrugBank.d202.s16.e0" e2="DDI-DrugBank.d202.s16.e5"
+            ddi="true" type="advise"/>
+        <pair id="DDI-DrugBank.d202.s16.p5"
+            e1="DDI-DrugBank.d202.s16.e0" e2="DDI-DrugBank.d202.s16.e6"
+            ddi="true" type="advise"/>
+        <pair id="DDI-DrugBank.d202.s16.p6"
+            e1="DDI-DrugBank.d202.s16.e0" e2="DDI-DrugBank.d202.s16.e7"
+            ddi="true" type="advise"/>
+        <pair id="DDI-DrugBank.d202.s16.p7"
+            e1="DDI-DrugBank.d202.s16.e0" e2="DDI-DrugBank.d202.s16.e8"
+            ddi="true" type="advise"/>
+        <pair id="DDI-DrugBank.d202.s16.p8"
+            e1="DDI-DrugBank.d202.s16.e1" e2="DDI-DrugBank.d202.s16.e2" ddi="false"/>
+        <pair id="DDI-DrugBank.d202.s16.p9"
+            e1="DDI-DrugBank.d202.s16.e1" e2="DDI-DrugBank.d202.s16.e3" ddi="false"/>
+        <pair id="DDI-DrugBank.d202.s16.p10"
+            e1="DDI-DrugBank.d202.s16.e1" e2="DDI-DrugBank.d202.s16.e4" ddi="false"/>
+        <pair id="DDI-DrugBank.d202.s16.p11"
+            e1="DDI-DrugBank.d202.s16.e1" e2="DDI-DrugBank.d202.s16.e5" ddi="false"/>
+        <pair id="DDI-DrugBank.d202.s16.p12"
+            e1="DDI-DrugBank.d202.s16.e1" e2="DDI-DrugBank.d202.s16.e6" ddi="false"/>
+        <pair id="DDI-DrugBank.d202.s16.p13"
+            e1="DDI-DrugBank.d202.s16.e1" e2="DDI-DrugBank.d202.s16.e7" ddi="false"/>
+        <pair id="DDI-DrugBank.d202.s16.p14"
+            e1="DDI-DrugBank.d202.s16.e1" e2="DDI-DrugBank.d202.s16.e8" ddi="false"/>
+        <pair id="DDI-DrugBank.d202.s16.p15"
+            e1="DDI-DrugBank.d202.s16.e2" e2="DDI-DrugBank.d202.s16.e3" ddi="false"/>
+        <pair id="DDI-DrugBank.d202.s16.p16"
+            e1="DDI-DrugBank.d202.s16.e2" e2="DDI-DrugBank.d202.s16.e4" ddi="false"/>
+        <pair id="DDI-DrugBank.d202.s16.p17"
+            e1="DDI-DrugBank.d202.s16.e2" e2="DDI-DrugBank.d202.s16.e5" ddi="false"/>
+        <pair id="DDI-DrugBank.d202.s16.p18"
+            e1="DDI-DrugBank.d202.s16.e2" e2="DDI-DrugBank.d202.s16.e6" ddi="false"/>
+        <pair id="DDI-DrugBank.d202.s16.p19"
+            e1="DDI-DrugBank.d202.s16.e2" e2="DDI-DrugBank.d202.s16.e7" ddi="false"/>
+        <pair id="DDI-DrugBank.d202.s16.p20"
+            e1="DDI-DrugBank.d202.s16.e2" e2="DDI-DrugBank.d202.s16.e8" ddi="false"/>
+        <pair id="DDI-DrugBank.d202.s16.p21"
+            e1="DDI-DrugBank.d202.s16.e3" e2="DDI-DrugBank.d202.s16.e4" ddi="false"/>
+        <pair id="DDI-DrugBank.d202.s16.p22"
+            e1="DDI-DrugBank.d202.s16.e3" e2="DDI-DrugBank.d202.s16.e5" ddi="false"/>
+        <pair id="DDI-DrugBank.d202.s16.p23"
+            e1="DDI-DrugBank.d202.s16.e3" e2="DDI-DrugBank.d202.s16.e6" ddi="false"/>
+        <pair id="DDI-DrugBank.d202.s16.p24"
+            e1="DDI-DrugBank.d202.s16.e3" e2="DDI-DrugBank.d202.s16.e7" ddi="false"/>
+        <pair id="DDI-DrugBank.d202.s16.p25"
+            e1="DDI-DrugBank.d202.s16.e3" e2="DDI-DrugBank.d202.s16.e8" ddi="false"/>
+        <pair id="DDI-DrugBank.d202.s16.p26"
+            e1="DDI-DrugBank.d202.s16.e4" e2="DDI-DrugBank.d202.s16.e5" ddi="false"/>
+        <pair id="DDI-DrugBank.d202.s16.p27"
+            e1="DDI-DrugBank.d202.s16.e4" e2="DDI-DrugBank.d202.s16.e6" ddi="false"/>
+        <pair id="DDI-DrugBank.d202.s16.p28"
+            e1="DDI-DrugBank.d202.s16.e4" e2="DDI-DrugBank.d202.s16.e7" ddi="false"/>
+        <pair id="DDI-DrugBank.d202.s16.p29"
+            e1="DDI-DrugBank.d202.s16.e4" e2="DDI-DrugBank.d202.s16.e8" ddi="false"/>
+        <pair id="DDI-DrugBank.d202.s16.p30"
+            e1="DDI-DrugBank.d202.s16.e5" e2="DDI-DrugBank.d202.s16.e6" ddi="false"/>
+        <pair id="DDI-DrugBank.d202.s16.p31"
+            e1="DDI-DrugBank.d202.s16.e5" e2="DDI-DrugBank.d202.s16.e7" ddi="false"/>
+        <pair id="DDI-DrugBank.d202.s16.p32"
+            e1="DDI-DrugBank.d202.s16.e5" e2="DDI-DrugBank.d202.s16.e8" ddi="false"/>
+        <pair id="DDI-DrugBank.d202.s16.p33"
+            e1="DDI-DrugBank.d202.s16.e6" e2="DDI-DrugBank.d202.s16.e7" ddi="false"/>
+        <pair id="DDI-DrugBank.d202.s16.p34"
+            e1="DDI-DrugBank.d202.s16.e6" e2="DDI-DrugBank.d202.s16.e8" ddi="false"/>
+        <pair id="DDI-DrugBank.d202.s16.p35"
+            e1="DDI-DrugBank.d202.s16.e7" e2="DDI-DrugBank.d202.s16.e8" ddi="false"/>
+    </sentence>
+</document>

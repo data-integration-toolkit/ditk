@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="DDI-DrugBank.d721">
+    <sentence id="DDI-DrugBank.d721.s0" text="The bioavailability of SKELID is decreased 80% by calcium, when calcium and SKELID are administered at the same time, and 60% by some aluminum- or magnesium-containing antacids, when administered 1 hour before SKELID. ">
+        <entity id="DDI-DrugBank.d721.s0.e0" charOffset="23-28"
+            type="brand" text="SKELID"/>
+        <entity id="DDI-DrugBank.d721.s0.e1" charOffset="50-56"
+            type="drug" text="calcium"/>
+        <entity id="DDI-DrugBank.d721.s0.e2" charOffset="64-70"
+            type="drug" text="calcium"/>
+        <entity id="DDI-DrugBank.d721.s0.e3" charOffset="76-81"
+            type="brand" text="SKELID"/>
+        <entity id="DDI-DrugBank.d721.s0.e4" charOffset="134-141"
+            type="drug" text="aluminum"/>
+        <entity id="DDI-DrugBank.d721.s0.e5" charOffset="147-155"
+            type="drug" text="magnesium"/>
+        <entity id="DDI-DrugBank.d721.s0.e6" charOffset="168-175"
+            type="drug" text="antacids"/>
+        <entity id="DDI-DrugBank.d721.s0.e7" charOffset="210-215"
+            type="brand" text="SKELID"/>
+        <pair id="DDI-DrugBank.d721.s0.p0" e1="DDI-DrugBank.d721.s0.e0"
+            e2="DDI-DrugBank.d721.s0.e1" ddi="true" type="mechanism"/>
+        <pair id="DDI-DrugBank.d721.s0.p1" e1="DDI-DrugBank.d721.s0.e0"
+            e2="DDI-DrugBank.d721.s0.e2" ddi="false"/>
+        <pair id="DDI-DrugBank.d721.s0.p2" e1="DDI-DrugBank.d721.s0.e0"
+            e2="DDI-DrugBank.d721.s0.e3" ddi="false"/>
+        <pair id="DDI-DrugBank.d721.s0.p3" e1="DDI-DrugBank.d721.s0.e0"
+            e2="DDI-DrugBank.d721.s0.e4" ddi="false"/>
+        <pair id="DDI-DrugBank.d721.s0.p4" e1="DDI-DrugBank.d721.s0.e0"
+            e2="DDI-DrugBank.d721.s0.e5" ddi="false"/>
+        <pair id="DDI-DrugBank.d721.s0.p5" e1="DDI-DrugBank.d721.s0.e0"
+            e2="DDI-DrugBank.d721.s0.e6" ddi="false"/>
+        <pair id="DDI-DrugBank.d721.s0.p6" e1="DDI-DrugBank.d721.s0.e0"
+            e2="DDI-DrugBank.d721.s0.e7" ddi="false"/>
+        <pair id="DDI-DrugBank.d721.s0.p7" e1="DDI-DrugBank.d721.s0.e1"
+            e2="DDI-DrugBank.d721.s0.e2" ddi="false"/>
+        <pair id="DDI-DrugBank.d721.s0.p8" e1="DDI-DrugBank.d721.s0.e1"
+            e2="DDI-DrugBank.d721.s0.e3" ddi="false"/>
+        <pair id="DDI-DrugBank.d721.s0.p9" e1="DDI-DrugBank.d721.s0.e1"
+            e2="DDI-DrugBank.d721.s0.e4" ddi="false"/>
+        <pair id="DDI-DrugBank.d721.s0.p10" e1="DDI-DrugBank.d721.s0.e1"
+            e2="DDI-DrugBank.d721.s0.e5" ddi="false"/>
+        <pair id="DDI-DrugBank.d721.s0.p11" e1="DDI-DrugBank.d721.s0.e1"
+            e2="DDI-DrugBank.d721.s0.e6" ddi="false"/>
+        <pair id="DDI-DrugBank.d721.s0.p12" e1="DDI-DrugBank.d721.s0.e1"
+            e2="DDI-DrugBank.d721.s0.e7" ddi="false"/>
+        <pair id="DDI-DrugBank.d721.s0.p13" e1="DDI-DrugBank.d721.s0.e2"
+            e2="DDI-DrugBank.d721.s0.e3" ddi="false"/>
+        <pair id="DDI-DrugBank.d721.s0.p14" e1="DDI-DrugBank.d721.s0.e2"
+            e2="DDI-DrugBank.d721.s0.e4" ddi="false"/>
+        <pair id="DDI-DrugBank.d721.s0.p15" e1="DDI-DrugBank.d721.s0.e2"
+            e2="DDI-DrugBank.d721.s0.e5" ddi="false"/>
+        <pair id="DDI-DrugBank.d721.s0.p16" e1="DDI-DrugBank.d721.s0.e2"
+            e2="DDI-DrugBank.d721.s0.e6" ddi="false"/>
+        <pair id="DDI-DrugBank.d721.s0.p17" e1="DDI-DrugBank.d721.s0.e2"
+            e2="DDI-DrugBank.d721.s0.e7" ddi="false"/>
+        <pair id="DDI-DrugBank.d721.s0.p18" e1="DDI-DrugBank.d721.s0.e3"
+            e2="DDI-DrugBank.d721.s0.e4" ddi="false"/>
+        <pair id="DDI-DrugBank.d721.s0.p19" e1="DDI-DrugBank.d721.s0.e3"
+            e2="DDI-DrugBank.d721.s0.e5" ddi="false"/>
+        <pair id="DDI-DrugBank.d721.s0.p20" e1="DDI-DrugBank.d721.s0.e3"
+            e2="DDI-DrugBank.d721.s0.e6" ddi="false"/>
+        <pair id="DDI-DrugBank.d721.s0.p21" e1="DDI-DrugBank.d721.s0.e3"
+            e2="DDI-DrugBank.d721.s0.e7" ddi="false"/>
+        <pair id="DDI-DrugBank.d721.s0.p22" e1="DDI-DrugBank.d721.s0.e4"
+            e2="DDI-DrugBank.d721.s0.e5" ddi="false"/>
+        <pair id="DDI-DrugBank.d721.s0.p23" e1="DDI-DrugBank.d721.s0.e4"
+            e2="DDI-DrugBank.d721.s0.e6" ddi="false"/>
+        <pair id="DDI-DrugBank.d721.s0.p24" e1="DDI-DrugBank.d721.s0.e4"
+            e2="DDI-DrugBank.d721.s0.e7" ddi="true" type="mechanism"/>
+        <pair id="DDI-DrugBank.d721.s0.p25" e1="DDI-DrugBank.d721.s0.e5"
+            e2="DDI-DrugBank.d721.s0.e6" ddi="false"/>
+        <pair id="DDI-DrugBank.d721.s0.p26" e1="DDI-DrugBank.d721.s0.e5"
+            e2="DDI-DrugBank.d721.s0.e7" ddi="true" type="mechanism"/>
+        <pair id="DDI-DrugBank.d721.s0.p27" e1="DDI-DrugBank.d721.s0.e6"
+            e2="DDI-DrugBank.d721.s0.e7" ddi="false"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d721.s1" text="Aspirin may decrease bioavailability of SKELID by up to 50% when taken 2 hours after SKELID. ">
+        <entity id="DDI-DrugBank.d721.s1.e0" charOffset="0-6"
+            type="brand" text="Aspirin"/>
+        <entity id="DDI-DrugBank.d721.s1.e1" charOffset="40-45"
+            type="brand" text="SKELID"/>
+        <entity id="DDI-DrugBank.d721.s1.e2" charOffset="85-90"
+            type="brand" text="SKELID"/>
+        <pair id="DDI-DrugBank.d721.s1.p0" e1="DDI-DrugBank.d721.s1.e0"
+            e2="DDI-DrugBank.d721.s1.e1" ddi="true" type="mechanism"/>
+        <pair id="DDI-DrugBank.d721.s1.p1" e1="DDI-DrugBank.d721.s1.e0"
+            e2="DDI-DrugBank.d721.s1.e2" ddi="false"/>
+        <pair id="DDI-DrugBank.d721.s1.p2" e1="DDI-DrugBank.d721.s1.e1"
+            e2="DDI-DrugBank.d721.s1.e2" ddi="false"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d721.s2" text="The bioavailability of SKELID is increased 2-4 fold by indomethacin but is not significantly altered by coadministration of diclofenac. ">
+        <entity id="DDI-DrugBank.d721.s2.e0" charOffset="23-28"
+            type="brand" text="SKELID"/>
+        <entity id="DDI-DrugBank.d721.s2.e1" charOffset="55-66"
+            type="drug" text="indomethacin"/>
+        <entity id="DDI-DrugBank.d721.s2.e2" charOffset="124-133"
+            type="drug" text="diclofenac"/>
+        <pair id="DDI-DrugBank.d721.s2.p0" e1="DDI-DrugBank.d721.s2.e0"
+            e2="DDI-DrugBank.d721.s2.e1" ddi="true" type="mechanism"/>
+        <pair id="DDI-DrugBank.d721.s2.p1" e1="DDI-DrugBank.d721.s2.e0"
+            e2="DDI-DrugBank.d721.s2.e2" ddi="false"/>
+        <pair id="DDI-DrugBank.d721.s2.p2" e1="DDI-DrugBank.d721.s2.e1"
+            e2="DDI-DrugBank.d721.s2.e2" ddi="false"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d721.s3" text="The pharmacokinetic parameters of digoxin are not significantly modified by SKELID coadministration. ">
+        <entity id="DDI-DrugBank.d721.s3.e0" charOffset="34-40"
+            type="drug" text="digoxin"/>
+        <entity id="DDI-DrugBank.d721.s3.e1" charOffset="76-81"
+            type="brand" text="SKELID"/>
+        <pair id="DDI-DrugBank.d721.s3.p0" e1="DDI-DrugBank.d721.s3.e0"
+            e2="DDI-DrugBank.d721.s3.e1" ddi="false"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d721.s4" text="In vitro studies show that tiludronate does not displace warfarin from its binding site on protein.">
+        <entity id="DDI-DrugBank.d721.s4.e0" charOffset="27-37"
+            type="drug" text="tiludronate"/>
+        <entity id="DDI-DrugBank.d721.s4.e1" charOffset="57-64"
+            type="drug" text="warfarin"/>
+        <pair id="DDI-DrugBank.d721.s4.p0" e1="DDI-DrugBank.d721.s4.e0"
+            e2="DDI-DrugBank.d721.s4.e1" ddi="false"/>
+    </sentence>
+</document>

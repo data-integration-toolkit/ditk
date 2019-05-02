@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="DDI-DrugBank.d232">
+    <sentence id="DDI-DrugBank.d232.s0" text="After multiple dosing, interferon beta-1a (AVONEX  30 mcg IM once weekly) reduced TYSABRI  clearance by approximately 30%.">
+        <entity id="DDI-DrugBank.d232.s0.e0" charOffset="23-40"
+            type="drug" text="interferon beta-1a"/>
+        <entity id="DDI-DrugBank.d232.s0.e1" charOffset="43-48"
+            type="brand" text="AVONEX"/>
+        <entity id="DDI-DrugBank.d232.s0.e2" charOffset="82-88"
+            type="brand" text="TYSABRI"/>
+        <pair id="DDI-DrugBank.d232.s0.p0" e1="DDI-DrugBank.d232.s0.e0"
+            e2="DDI-DrugBank.d232.s0.e1" ddi="false"/>
+        <pair id="DDI-DrugBank.d232.s0.p1" e1="DDI-DrugBank.d232.s0.e0"
+            e2="DDI-DrugBank.d232.s0.e2" ddi="true" type="mechanism"/>
+        <pair id="DDI-DrugBank.d232.s0.p2" e1="DDI-DrugBank.d232.s0.e1"
+            e2="DDI-DrugBank.d232.s0.e2" ddi="true" type="mechanism"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d232.s1" text="The similarity of the TYSABRI -associated adverse event profile between Study 1 (without co-administered AVONEX ) and Study 2 (with co-administered AVONEX ) indicates that this alteration in clearance does not necessitate reduction of the TYSABRI  dose to maintain safety, General).">
+        <entity id="DDI-DrugBank.d232.s1.e0" charOffset="22-28"
+            type="brand" text="TYSABRI"/>
+        <entity id="DDI-DrugBank.d232.s1.e1" charOffset="105-110"
+            type="brand" text="AVONEX"/>
+        <entity id="DDI-DrugBank.d232.s1.e2" charOffset="148-153"
+            type="brand" text="AVONEX"/>
+        <entity id="DDI-DrugBank.d232.s1.e3" charOffset="239-245"
+            type="brand" text="TYSABRI"/>
+        <pair id="DDI-DrugBank.d232.s1.p0" e1="DDI-DrugBank.d232.s1.e0"
+            e2="DDI-DrugBank.d232.s1.e1" ddi="false"/>
+        <pair id="DDI-DrugBank.d232.s1.p1" e1="DDI-DrugBank.d232.s1.e0"
+            e2="DDI-DrugBank.d232.s1.e2" ddi="false"/>
+        <pair id="DDI-DrugBank.d232.s1.p2" e1="DDI-DrugBank.d232.s1.e0"
+            e2="DDI-DrugBank.d232.s1.e3" ddi="false"/>
+        <pair id="DDI-DrugBank.d232.s1.p3" e1="DDI-DrugBank.d232.s1.e1"
+            e2="DDI-DrugBank.d232.s1.e2" ddi="false"/>
+        <pair id="DDI-DrugBank.d232.s1.p4" e1="DDI-DrugBank.d232.s1.e1"
+            e2="DDI-DrugBank.d232.s1.e3" ddi="false"/>
+        <pair id="DDI-DrugBank.d232.s1.p5" e1="DDI-DrugBank.d232.s1.e2"
+            e2="DDI-DrugBank.d232.s1.e3" ddi="false"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d232.s2" text="Results of studies in multiple sclerosis patients taking TYSABRI  and concomitant interferon beta-1a (AVONEX  30 mcg IM once weekly) or glatiramer acetate were inconclusive with regard to the need for dose adjustment of the beta-interferon or glatiramer acetate.">
+        <entity id="DDI-DrugBank.d232.s2.e0" charOffset="57-63"
+            type="brand" text="TYSABRI"/>
+        <entity id="DDI-DrugBank.d232.s2.e1" charOffset="82-99"
+            type="drug" text="interferon beta-1a"/>
+        <entity id="DDI-DrugBank.d232.s2.e2" charOffset="102-107"
+            type="brand" text="AVONEX"/>
+        <entity id="DDI-DrugBank.d232.s2.e3" charOffset="136-153"
+            type="drug" text="glatiramer acetate"/>
+        <entity id="DDI-DrugBank.d232.s2.e4" charOffset="224-238"
+            type="drug" text="beta-interferon"/>
+        <entity id="DDI-DrugBank.d232.s2.e5" charOffset="243-260"
+            type="drug" text="glatiramer acetate"/>
+        <pair id="DDI-DrugBank.d232.s2.p0" e1="DDI-DrugBank.d232.s2.e0"
+            e2="DDI-DrugBank.d232.s2.e1" ddi="false"/>
+        <pair id="DDI-DrugBank.d232.s2.p1" e1="DDI-DrugBank.d232.s2.e0"
+            e2="DDI-DrugBank.d232.s2.e2" ddi="false"/>
+        <pair id="DDI-DrugBank.d232.s2.p2" e1="DDI-DrugBank.d232.s2.e0"
+            e2="DDI-DrugBank.d232.s2.e3" ddi="false"/>
+        <pair id="DDI-DrugBank.d232.s2.p3" e1="DDI-DrugBank.d232.s2.e0"
+            e2="DDI-DrugBank.d232.s2.e4" ddi="false"/>
+        <pair id="DDI-DrugBank.d232.s2.p4" e1="DDI-DrugBank.d232.s2.e0"
+            e2="DDI-DrugBank.d232.s2.e5" ddi="false"/>
+        <pair id="DDI-DrugBank.d232.s2.p5" e1="DDI-DrugBank.d232.s2.e1"
+            e2="DDI-DrugBank.d232.s2.e2" ddi="false"/>
+        <pair id="DDI-DrugBank.d232.s2.p6" e1="DDI-DrugBank.d232.s2.e1"
+            e2="DDI-DrugBank.d232.s2.e3" ddi="false"/>
+        <pair id="DDI-DrugBank.d232.s2.p7" e1="DDI-DrugBank.d232.s2.e1"
+            e2="DDI-DrugBank.d232.s2.e4" ddi="false"/>
+        <pair id="DDI-DrugBank.d232.s2.p8" e1="DDI-DrugBank.d232.s2.e1"
+            e2="DDI-DrugBank.d232.s2.e5" ddi="false"/>
+        <pair id="DDI-DrugBank.d232.s2.p9" e1="DDI-DrugBank.d232.s2.e2"
+            e2="DDI-DrugBank.d232.s2.e3" ddi="false"/>
+        <pair id="DDI-DrugBank.d232.s2.p10" e1="DDI-DrugBank.d232.s2.e2"
+            e2="DDI-DrugBank.d232.s2.e4" ddi="false"/>
+        <pair id="DDI-DrugBank.d232.s2.p11" e1="DDI-DrugBank.d232.s2.e2"
+            e2="DDI-DrugBank.d232.s2.e5" ddi="false"/>
+        <pair id="DDI-DrugBank.d232.s2.p12" e1="DDI-DrugBank.d232.s2.e3"
+            e2="DDI-DrugBank.d232.s2.e4" ddi="false"/>
+        <pair id="DDI-DrugBank.d232.s2.p13" e1="DDI-DrugBank.d232.s2.e3"
+            e2="DDI-DrugBank.d232.s2.e5" ddi="false"/>
+        <pair id="DDI-DrugBank.d232.s2.p14" e1="DDI-DrugBank.d232.s2.e4"
+            e2="DDI-DrugBank.d232.s2.e5" ddi="false"/>
+    </sentence>
+</document>

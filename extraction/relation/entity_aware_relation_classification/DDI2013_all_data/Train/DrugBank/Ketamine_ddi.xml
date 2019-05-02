@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="DDI-DrugBank.d518">
+    <sentence id="DDI-DrugBank.d518.s0" text="Prolonged recovery time may occur if barbiturates and/or narcotics are used concurrently with ketamine.">
+        <entity id="DDI-DrugBank.d518.s0.e0" charOffset="37-48"
+            type="group" text="barbiturates"/>
+        <entity id="DDI-DrugBank.d518.s0.e1" charOffset="57-65"
+            type="group" text="narcotics"/>
+        <entity id="DDI-DrugBank.d518.s0.e2" charOffset="94-101"
+            type="drug" text="ketamine"/>
+        <pair id="DDI-DrugBank.d518.s0.p0" e1="DDI-DrugBank.d518.s0.e0"
+            e2="DDI-DrugBank.d518.s0.e1" ddi="false"/>
+        <pair id="DDI-DrugBank.d518.s0.p1" e1="DDI-DrugBank.d518.s0.e0"
+            e2="DDI-DrugBank.d518.s0.e2" ddi="true" type="effect"/>
+        <pair id="DDI-DrugBank.d518.s0.p2" e1="DDI-DrugBank.d518.s0.e1"
+            e2="DDI-DrugBank.d518.s0.e2" ddi="true" type="effect"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d518.s1" text="Ketamine is clinically compatible with the commonly used general and local anesthetic agents when an adequate respiratory exchange is maintained.">
+        <entity id="DDI-DrugBank.d518.s1.e0" charOffset="0-7"
+            type="drug" text="Ketamine"/>
+        <entity id="DDI-DrugBank.d518.s1.e1" charOffset="75-91"
+            type="group" text="anesthetic agents"/>
+        <pair id="DDI-DrugBank.d518.s1.p0" e1="DDI-DrugBank.d518.s1.e0"
+            e2="DDI-DrugBank.d518.s1.e1" ddi="false"/>
+    </sentence>
+</document>

@@ -1,0 +1,8 @@
+I was not able to run the code in Jupyter Notebook. This is because I have to pass the parameters to run the main.py file.
+The code to run is :
+python run_entity_linking.py --training_data DATASET:SUPPLEMENT:TEXTPATH:MENTIONPATH 
+--eval_data DATASET:SUPPLEMENT:TEXTPATH:MENTIONPATH
+--candidates_file ncel:CANDIDATE_FILE --wiki_entity_vocab ENTITY_VOCAB --word_embedding_file WORD_VECTOR 
+--entity_embedding_file ENTITY_VECTOR --log_path PATH_TO_LOG
+
+Thus, it is not possible to run the file in jupyter notebook

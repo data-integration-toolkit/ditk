@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="DDI-DrugBank.d656">
+    <sentence id="DDI-DrugBank.d656.s0" text="FELDENE is highly protein bound, and therefore, might be expected to displace other protein-bound drugs. ">
+        <entity id="DDI-DrugBank.d656.s0.e0" charOffset="0-6"
+            type="brand" text="FELDENE"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d656.s1" text="Although this has not occurred in in vitro studies with coumarin-type anticoagulants, interactions with coumarin-type anticoagulants have been reported with FELDENE since marketing, therefore, physicians should closely monitor patients for a change in dosage requirements when administering FELDENE to patients on coumarin-type anticoagulants and other highly protein-bound drugs. ">
+        <entity id="DDI-DrugBank.d656.s1.e0" charOffset="56-83"
+            type="group" text="coumarin-type anticoagulants"/>
+        <entity id="DDI-DrugBank.d656.s1.e1" charOffset="104-131"
+            type="group" text="coumarin-type anticoagulants"/>
+        <entity id="DDI-DrugBank.d656.s1.e2" charOffset="157-163"
+            type="brand" text="FELDENE"/>
+        <entity id="DDI-DrugBank.d656.s1.e3" charOffset="291-297"
+            type="brand" text="FELDENE"/>
+        <entity id="DDI-DrugBank.d656.s1.e4" charOffset="314-341"
+            type="group" text="coumarin-type anticoagulants"/>
+        <pair id="DDI-DrugBank.d656.s1.p0" e1="DDI-DrugBank.d656.s1.e0"
+            e2="DDI-DrugBank.d656.s1.e1" ddi="false"/>
+        <pair id="DDI-DrugBank.d656.s1.p1" e1="DDI-DrugBank.d656.s1.e0"
+            e2="DDI-DrugBank.d656.s1.e2" ddi="false"/>
+        <pair id="DDI-DrugBank.d656.s1.p2" e1="DDI-DrugBank.d656.s1.e0"
+            e2="DDI-DrugBank.d656.s1.e3" ddi="false"/>
+        <pair id="DDI-DrugBank.d656.s1.p3" e1="DDI-DrugBank.d656.s1.e0"
+            e2="DDI-DrugBank.d656.s1.e4" ddi="false"/>
+        <pair id="DDI-DrugBank.d656.s1.p4" e1="DDI-DrugBank.d656.s1.e1"
+            e2="DDI-DrugBank.d656.s1.e2" ddi="true" type="int"/>
+        <pair id="DDI-DrugBank.d656.s1.p5" e1="DDI-DrugBank.d656.s1.e1"
+            e2="DDI-DrugBank.d656.s1.e3" ddi="false"/>
+        <pair id="DDI-DrugBank.d656.s1.p6" e1="DDI-DrugBank.d656.s1.e1"
+            e2="DDI-DrugBank.d656.s1.e4" ddi="false"/>
+        <pair id="DDI-DrugBank.d656.s1.p7" e1="DDI-DrugBank.d656.s1.e2"
+            e2="DDI-DrugBank.d656.s1.e3" ddi="false"/>
+        <pair id="DDI-DrugBank.d656.s1.p8" e1="DDI-DrugBank.d656.s1.e2"
+            e2="DDI-DrugBank.d656.s1.e4" ddi="false"/>
+        <pair id="DDI-DrugBank.d656.s1.p9" e1="DDI-DrugBank.d656.s1.e3"
+            e2="DDI-DrugBank.d656.s1.e4" ddi="true" type="advise"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d656.s2" text="Plasma levels of piroxicam are depressed to approximately 80% of their normal values when FELDENE is administered in conjunction with aspirin (3900 mg/day), but concomitant administration of antacids has no effect on piroxicam plasma levels . Nonsteroidal anti-inflammatory agents, including FELDENE, have been reported to increase steady state plasma lithium levels. ">
+        <entity id="DDI-DrugBank.d656.s2.e0" charOffset="17-25"
+            type="drug" text="piroxicam"/>
+        <entity id="DDI-DrugBank.d656.s2.e1" charOffset="90-96"
+            type="brand" text="FELDENE"/>
+        <entity id="DDI-DrugBank.d656.s2.e2" charOffset="134-140"
+            type="brand" text="aspirin"/>
+        <entity id="DDI-DrugBank.d656.s2.e3" charOffset="191-198"
+            type="group" text="antacids"/>
+        <entity id="DDI-DrugBank.d656.s2.e4" charOffset="217-225"
+            type="drug" text="piroxicam"/>
+        <entity id="DDI-DrugBank.d656.s2.e5" charOffset="243-279"
+            type="group" text="Nonsteroidal anti-inflammatory agents"/>
+        <entity id="DDI-DrugBank.d656.s2.e6" charOffset="292-298"
+            type="brand" text="FELDENE"/>
+        <entity id="DDI-DrugBank.d656.s2.e7" charOffset="352-358"
+            type="drug" text="lithium"/>
+        <pair id="DDI-DrugBank.d656.s2.p0" e1="DDI-DrugBank.d656.s2.e0"
+            e2="DDI-DrugBank.d656.s2.e1" ddi="false"/>
+        <pair id="DDI-DrugBank.d656.s2.p1" e1="DDI-DrugBank.d656.s2.e0"
+            e2="DDI-DrugBank.d656.s2.e2" ddi="false"/>
+        <pair id="DDI-DrugBank.d656.s2.p2" e1="DDI-DrugBank.d656.s2.e0"
+            e2="DDI-DrugBank.d656.s2.e3" ddi="false"/>
+        <pair id="DDI-DrugBank.d656.s2.p3" e1="DDI-DrugBank.d656.s2.e0"
+            e2="DDI-DrugBank.d656.s2.e4" ddi="false"/>
+        <pair id="DDI-DrugBank.d656.s2.p4" e1="DDI-DrugBank.d656.s2.e0"
+            e2="DDI-DrugBank.d656.s2.e5" ddi="false"/>
+        <pair id="DDI-DrugBank.d656.s2.p5" e1="DDI-DrugBank.d656.s2.e0"
+            e2="DDI-DrugBank.d656.s2.e6" ddi="false"/>
+        <pair id="DDI-DrugBank.d656.s2.p6" e1="DDI-DrugBank.d656.s2.e0"
+            e2="DDI-DrugBank.d656.s2.e7" ddi="false"/>
+        <pair id="DDI-DrugBank.d656.s2.p7" e1="DDI-DrugBank.d656.s2.e1"
+            e2="DDI-DrugBank.d656.s2.e2" ddi="true" type="mechanism"/>
+        <pair id="DDI-DrugBank.d656.s2.p8" e1="DDI-DrugBank.d656.s2.e1"
+            e2="DDI-DrugBank.d656.s2.e3" ddi="false"/>
+        <pair id="DDI-DrugBank.d656.s2.p9" e1="DDI-DrugBank.d656.s2.e1"
+            e2="DDI-DrugBank.d656.s2.e4" ddi="false"/>
+        <pair id="DDI-DrugBank.d656.s2.p10" e1="DDI-DrugBank.d656.s2.e1"
+            e2="DDI-DrugBank.d656.s2.e5" ddi="false"/>
+        <pair id="DDI-DrugBank.d656.s2.p11" e1="DDI-DrugBank.d656.s2.e1"
+            e2="DDI-DrugBank.d656.s2.e6" ddi="false"/>
+        <pair id="DDI-DrugBank.d656.s2.p12" e1="DDI-DrugBank.d656.s2.e1"
+            e2="DDI-DrugBank.d656.s2.e7" ddi="false"/>
+        <pair id="DDI-DrugBank.d656.s2.p13" e1="DDI-DrugBank.d656.s2.e2"
+            e2="DDI-DrugBank.d656.s2.e3" ddi="false"/>
+        <pair id="DDI-DrugBank.d656.s2.p14" e1="DDI-DrugBank.d656.s2.e2"
+            e2="DDI-DrugBank.d656.s2.e4" ddi="false"/>
+        <pair id="DDI-DrugBank.d656.s2.p15" e1="DDI-DrugBank.d656.s2.e2"
+            e2="DDI-DrugBank.d656.s2.e5" ddi="false"/>
+        <pair id="DDI-DrugBank.d656.s2.p16" e1="DDI-DrugBank.d656.s2.e2"
+            e2="DDI-DrugBank.d656.s2.e6" ddi="false"/>
+        <pair id="DDI-DrugBank.d656.s2.p17" e1="DDI-DrugBank.d656.s2.e2"
+            e2="DDI-DrugBank.d656.s2.e7" ddi="false"/>
+        <pair id="DDI-DrugBank.d656.s2.p18" e1="DDI-DrugBank.d656.s2.e3"
+            e2="DDI-DrugBank.d656.s2.e4" ddi="false"/>
+        <pair id="DDI-DrugBank.d656.s2.p19" e1="DDI-DrugBank.d656.s2.e3"
+            e2="DDI-DrugBank.d656.s2.e5" ddi="false"/>
+        <pair id="DDI-DrugBank.d656.s2.p20" e1="DDI-DrugBank.d656.s2.e3"
+            e2="DDI-DrugBank.d656.s2.e6" ddi="false"/>
+        <pair id="DDI-DrugBank.d656.s2.p21" e1="DDI-DrugBank.d656.s2.e3"
+            e2="DDI-DrugBank.d656.s2.e7" ddi="false"/>
+        <pair id="DDI-DrugBank.d656.s2.p22" e1="DDI-DrugBank.d656.s2.e4"
+            e2="DDI-DrugBank.d656.s2.e5" ddi="false"/>
+        <pair id="DDI-DrugBank.d656.s2.p23" e1="DDI-DrugBank.d656.s2.e4"
+            e2="DDI-DrugBank.d656.s2.e6" ddi="false"/>
+        <pair id="DDI-DrugBank.d656.s2.p24" e1="DDI-DrugBank.d656.s2.e4"
+            e2="DDI-DrugBank.d656.s2.e7" ddi="false"/>
+        <pair id="DDI-DrugBank.d656.s2.p25" e1="DDI-DrugBank.d656.s2.e5"
+            e2="DDI-DrugBank.d656.s2.e6" ddi="false"/>
+        <pair id="DDI-DrugBank.d656.s2.p26" e1="DDI-DrugBank.d656.s2.e5"
+            e2="DDI-DrugBank.d656.s2.e7" ddi="true" type="mechanism"/>
+        <pair id="DDI-DrugBank.d656.s2.p27" e1="DDI-DrugBank.d656.s2.e6"
+            e2="DDI-DrugBank.d656.s2.e7" ddi="true" type="mechanism"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d656.s3" text="It is recommended that plasma lithium levels be monitored when initiating, adjusting and discontinuing FELDENE.">
+        <entity id="DDI-DrugBank.d656.s3.e0" charOffset="30-36"
+            type="drug" text="lithium"/>
+        <entity id="DDI-DrugBank.d656.s3.e1" charOffset="103-109"
+            type="brand" text="FELDENE"/>
+        <pair id="DDI-DrugBank.d656.s3.p0" e1="DDI-DrugBank.d656.s3.e0"
+            e2="DDI-DrugBank.d656.s3.e1" ddi="true" type="advise"/>
+    </sentence>
+</document>

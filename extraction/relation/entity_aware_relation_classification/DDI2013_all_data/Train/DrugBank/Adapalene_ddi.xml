@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="DDI-DrugBank.d370">
+    <sentence id="DDI-DrugBank.d370.s0" text="As DIFFERIN Gel has the potential to produce local irritation in some patients, concomitant use of other potentially irritating topical products (medicated or abrasive soaps and cleansers, soaps and cosmetics that have a strong drying effect, and products with high concentrations of alcohol, astringents, spices or lime) should be approached with caution.">
+        <entity id="DDI-DrugBank.d370.s0.e0" charOffset="3-10"
+            type="brand" text="DIFFERIN"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d370.s1" text="Particular caution should be exercised in using preparations containing sulfur, resorcinol, or salicylic acid in combination with DIFFERIN Gel.">
+        <entity id="DDI-DrugBank.d370.s1.e0" charOffset="72-77"
+            type="drug" text="sulfur"/>
+        <entity id="DDI-DrugBank.d370.s1.e1" charOffset="80-89"
+            type="drug" text="resorcinol"/>
+        <entity id="DDI-DrugBank.d370.s1.e2" charOffset="95-108"
+            type="drug" text="salicylic acid"/>
+        <entity id="DDI-DrugBank.d370.s1.e3" charOffset="130-137"
+            type="brand" text="DIFFERIN"/>
+        <pair id="DDI-DrugBank.d370.s1.p0" e1="DDI-DrugBank.d370.s1.e0"
+            e2="DDI-DrugBank.d370.s1.e1" ddi="false"/>
+        <pair id="DDI-DrugBank.d370.s1.p1" e1="DDI-DrugBank.d370.s1.e0"
+            e2="DDI-DrugBank.d370.s1.e2" ddi="false"/>
+        <pair id="DDI-DrugBank.d370.s1.p2" e1="DDI-DrugBank.d370.s1.e0"
+            e2="DDI-DrugBank.d370.s1.e3" ddi="false"/>
+        <pair id="DDI-DrugBank.d370.s1.p3" e1="DDI-DrugBank.d370.s1.e1"
+            e2="DDI-DrugBank.d370.s1.e2" ddi="false"/>
+        <pair id="DDI-DrugBank.d370.s1.p4" e1="DDI-DrugBank.d370.s1.e1"
+            e2="DDI-DrugBank.d370.s1.e3" ddi="false"/>
+        <pair id="DDI-DrugBank.d370.s1.p5" e1="DDI-DrugBank.d370.s1.e2"
+            e2="DDI-DrugBank.d370.s1.e3" ddi="false"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d370.s2" text="If these preparations have been used it is advisable not to start therapy with DIFFERIN Gel until the effects of such preparations in the skin have subsided.">
+        <entity id="DDI-DrugBank.d370.s2.e0" charOffset="79-86"
+            type="brand" text="DIFFERIN"/>
+    </sentence>
+</document>

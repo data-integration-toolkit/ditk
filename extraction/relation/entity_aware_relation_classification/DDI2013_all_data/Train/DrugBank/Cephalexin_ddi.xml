@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="DDI-DrugBank.d303">
+    <sentence id="DDI-DrugBank.d303.s0" text="Metformin: In healthy subjects given single 500 mg doses of cephalexin and metformin, plasma metformin mean cmax and AUC increased by an average of 34% and 24%, respectively, and metformin mean renal clearance decreased by 14%.">
+        <entity id="DDI-DrugBank.d303.s0.e0" charOffset="0-8"
+            type="drug" text="Metformin"/>
+        <entity id="DDI-DrugBank.d303.s0.e1" charOffset="60-69"
+            type="drug" text="cephalexin"/>
+        <entity id="DDI-DrugBank.d303.s0.e2" charOffset="75-83"
+            type="drug" text="metformin"/>
+        <entity id="DDI-DrugBank.d303.s0.e3" charOffset="93-101"
+            type="drug" text="metformin"/>
+        <entity id="DDI-DrugBank.d303.s0.e4" charOffset="179-187"
+            type="drug" text="metformin"/>
+        <pair id="DDI-DrugBank.d303.s0.p0" e1="DDI-DrugBank.d303.s0.e0"
+            e2="DDI-DrugBank.d303.s0.e1" ddi="false"/>
+        <pair id="DDI-DrugBank.d303.s0.p1" e1="DDI-DrugBank.d303.s0.e0"
+            e2="DDI-DrugBank.d303.s0.e2" ddi="false"/>
+        <pair id="DDI-DrugBank.d303.s0.p2" e1="DDI-DrugBank.d303.s0.e0"
+            e2="DDI-DrugBank.d303.s0.e3" ddi="false"/>
+        <pair id="DDI-DrugBank.d303.s0.p3" e1="DDI-DrugBank.d303.s0.e0"
+            e2="DDI-DrugBank.d303.s0.e4" ddi="false"/>
+        <pair id="DDI-DrugBank.d303.s0.p4" e1="DDI-DrugBank.d303.s0.e1"
+            e2="DDI-DrugBank.d303.s0.e2" ddi="true" type="mechanism"/>
+        <pair id="DDI-DrugBank.d303.s0.p5" e1="DDI-DrugBank.d303.s0.e1"
+            e2="DDI-DrugBank.d303.s0.e3" ddi="false"/>
+        <pair id="DDI-DrugBank.d303.s0.p6" e1="DDI-DrugBank.d303.s0.e1"
+            e2="DDI-DrugBank.d303.s0.e4" ddi="false"/>
+        <pair id="DDI-DrugBank.d303.s0.p7" e1="DDI-DrugBank.d303.s0.e2"
+            e2="DDI-DrugBank.d303.s0.e3" ddi="false"/>
+        <pair id="DDI-DrugBank.d303.s0.p8" e1="DDI-DrugBank.d303.s0.e2"
+            e2="DDI-DrugBank.d303.s0.e4" ddi="false"/>
+        <pair id="DDI-DrugBank.d303.s0.p9" e1="DDI-DrugBank.d303.s0.e3"
+            e2="DDI-DrugBank.d303.s0.e4" ddi="false"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d303.s1" text="No information is available about the interaction of cephalexin and metformin following multiple doses of either drug.">
+        <entity id="DDI-DrugBank.d303.s1.e0" charOffset="53-62"
+            type="drug" text="cephalexin"/>
+        <entity id="DDI-DrugBank.d303.s1.e1" charOffset="68-76"
+            type="drug" text="metformin"/>
+        <pair id="DDI-DrugBank.d303.s1.p0" e1="DDI-DrugBank.d303.s1.e0"
+            e2="DDI-DrugBank.d303.s1.e1" ddi="false"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d303.s2" text="Although not observed in this study, adverse effects could potentially arise from co-administration of cephalexin and metformin by inhibition of tubular secretion via organic cationic transporter systems.">
+        <entity id="DDI-DrugBank.d303.s2.e0" charOffset="103-112"
+            type="drug" text="cephalexin"/>
+        <entity id="DDI-DrugBank.d303.s2.e1" charOffset="118-126"
+            type="drug" text="metformin"/>
+        <pair id="DDI-DrugBank.d303.s2.p0" e1="DDI-DrugBank.d303.s2.e0"
+            e2="DDI-DrugBank.d303.s2.e1" ddi="true" type="mechanism"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d303.s3" text="Accordingly, careful patient monitoring and dose adjustment of metformin is recommended in patients concomitantly taking cephalexin and metformin.">
+        <entity id="DDI-DrugBank.d303.s3.e0" charOffset="63-71"
+            type="drug" text="metformin"/>
+        <entity id="DDI-DrugBank.d303.s3.e1" charOffset="121-130"
+            type="drug" text="cephalexin"/>
+        <entity id="DDI-DrugBank.d303.s3.e2" charOffset="136-144"
+            type="drug" text="metformin"/>
+        <pair id="DDI-DrugBank.d303.s3.p0" e1="DDI-DrugBank.d303.s3.e0"
+            e2="DDI-DrugBank.d303.s3.e1" ddi="false"/>
+        <pair id="DDI-DrugBank.d303.s3.p1" e1="DDI-DrugBank.d303.s3.e0"
+            e2="DDI-DrugBank.d303.s3.e2" ddi="false"/>
+        <pair id="DDI-DrugBank.d303.s3.p2" e1="DDI-DrugBank.d303.s3.e1"
+            e2="DDI-DrugBank.d303.s3.e2" ddi="true" type="advise"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d303.s4" text="Probenecid: As with other b-lactams, the renal excretion of cephalexin is inhibited by probenecid.">
+        <entity id="DDI-DrugBank.d303.s4.e0" charOffset="0-9"
+            type="drug" text="Probenecid"/>
+        <entity id="DDI-DrugBank.d303.s4.e1" charOffset="26-34"
+            type="group" text="b-lactams"/>
+        <entity id="DDI-DrugBank.d303.s4.e2" charOffset="60-69"
+            type="drug" text="cephalexin"/>
+        <entity id="DDI-DrugBank.d303.s4.e3" charOffset="87-96"
+            type="drug" text="probenecid"/>
+        <pair id="DDI-DrugBank.d303.s4.p0" e1="DDI-DrugBank.d303.s4.e0"
+            e2="DDI-DrugBank.d303.s4.e1" ddi="false"/>
+        <pair id="DDI-DrugBank.d303.s4.p1" e1="DDI-DrugBank.d303.s4.e0"
+            e2="DDI-DrugBank.d303.s4.e2" ddi="false"/>
+        <pair id="DDI-DrugBank.d303.s4.p2" e1="DDI-DrugBank.d303.s4.e0"
+            e2="DDI-DrugBank.d303.s4.e3" ddi="false"/>
+        <pair id="DDI-DrugBank.d303.s4.p3" e1="DDI-DrugBank.d303.s4.e1"
+            e2="DDI-DrugBank.d303.s4.e2" ddi="false"/>
+        <pair id="DDI-DrugBank.d303.s4.p4" e1="DDI-DrugBank.d303.s4.e1"
+            e2="DDI-DrugBank.d303.s4.e3" ddi="false"/>
+        <pair id="DDI-DrugBank.d303.s4.p5" e1="DDI-DrugBank.d303.s4.e2"
+            e2="DDI-DrugBank.d303.s4.e3" ddi="true" type="mechanism"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d303.s5" text="Drug / Laboratory Test Interactions As a result of administration of Keflex, a false-positive reaction for glucose in the urine may occur.">
+        <entity id="DDI-DrugBank.d303.s5.e0" charOffset="69-74"
+            type="brand" text="Keflex"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d303.s6" text="This has been observed with Benedict s and Fehling s solutions and also with Clinitest  tablets."/>
+</document>

@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="DDI-DrugBank.d308">
+    <sentence id="DDI-DrugBank.d308.s0" text="THE POTENTIATING ACTION OF HYDROXYZINE MUST BE CONSIDERED WHEN THE DRUG IS USED IN CONJUNCTION WITH CENTRAL NERVOUS SYSTEM DEPRESSANTS SUCH AS NARCOTICS, NON-NARCOTIC ANALGESICS AND BARBITURATES.">
+        <entity id="DDI-DrugBank.d308.s0.e0" charOffset="27-37"
+            type="drug" text="HYDROXYZINE"/>
+        <entity id="DDI-DrugBank.d308.s0.e1" charOffset="100-133"
+            type="group" text="CENTRAL NERVOUS SYSTEM DEPRESSANTS"/>
+        <entity id="DDI-DrugBank.d308.s0.e2" charOffset="143-151"
+            type="group" text="NARCOTICS"/>
+        <entity id="DDI-DrugBank.d308.s0.e3" charOffset="154-176"
+            type="group" text="NON-NARCOTIC ANALGESICS"/>
+        <entity id="DDI-DrugBank.d308.s0.e4" charOffset="182-193"
+            type="group" text="BARBITURATES"/>
+        <pair id="DDI-DrugBank.d308.s0.p0" e1="DDI-DrugBank.d308.s0.e0"
+            e2="DDI-DrugBank.d308.s0.e1" ddi="true" type="effect"/>
+        <pair id="DDI-DrugBank.d308.s0.p1" e1="DDI-DrugBank.d308.s0.e0"
+            e2="DDI-DrugBank.d308.s0.e2" ddi="true" type="effect"/>
+        <pair id="DDI-DrugBank.d308.s0.p2" e1="DDI-DrugBank.d308.s0.e0"
+            e2="DDI-DrugBank.d308.s0.e3" ddi="true" type="effect"/>
+        <pair id="DDI-DrugBank.d308.s0.p3" e1="DDI-DrugBank.d308.s0.e0"
+            e2="DDI-DrugBank.d308.s0.e4" ddi="true" type="effect"/>
+        <pair id="DDI-DrugBank.d308.s0.p4" e1="DDI-DrugBank.d308.s0.e1"
+            e2="DDI-DrugBank.d308.s0.e2" ddi="false"/>
+        <pair id="DDI-DrugBank.d308.s0.p5" e1="DDI-DrugBank.d308.s0.e1"
+            e2="DDI-DrugBank.d308.s0.e3" ddi="false"/>
+        <pair id="DDI-DrugBank.d308.s0.p6" e1="DDI-DrugBank.d308.s0.e1"
+            e2="DDI-DrugBank.d308.s0.e4" ddi="false"/>
+        <pair id="DDI-DrugBank.d308.s0.p7" e1="DDI-DrugBank.d308.s0.e2"
+            e2="DDI-DrugBank.d308.s0.e3" ddi="false"/>
+        <pair id="DDI-DrugBank.d308.s0.p8" e1="DDI-DrugBank.d308.s0.e2"
+            e2="DDI-DrugBank.d308.s0.e4" ddi="false"/>
+        <pair id="DDI-DrugBank.d308.s0.p9" e1="DDI-DrugBank.d308.s0.e3"
+            e2="DDI-DrugBank.d308.s0.e4" ddi="false"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d308.s1" text="Therefore when central nervous system depressants are administered concomitantly with hydroxyzine their dosage should be reduced.">
+        <entity id="DDI-DrugBank.d308.s1.e0" charOffset="15-48"
+            type="group" text="central nervous system depressants"/>
+        <entity id="DDI-DrugBank.d308.s1.e1" charOffset="86-96"
+            type="drug" text="hydroxyzine"/>
+        <pair id="DDI-DrugBank.d308.s1.p0" e1="DDI-DrugBank.d308.s1.e0"
+            e2="DDI-DrugBank.d308.s1.e1" ddi="true" type="advise"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d308.s2" text="Since drowsiness may occur with use of this drug, patients should be warned of this possibility and cautioned against driving a car or operating dangerous machinery while taking Atarax.">
+        <entity id="DDI-DrugBank.d308.s2.e0" charOffset="178-183"
+            type="brand" text="Atarax"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d308.s3" text="Patients should be advised against the simultaneous use of other CNS depressant drugs, and cautioned that the effect of alcohol may be increased.">
+        <entity id="DDI-DrugBank.d308.s3.e0" charOffset="65-84"
+            type="group" text="CNS depressant drugs"/>
+        <entity id="DDI-DrugBank.d308.s3.e1" charOffset="120-126"
+            type="drug" text="alcohol"/>
+        <pair id="DDI-DrugBank.d308.s3.p0" e1="DDI-DrugBank.d308.s3.e0"
+            e2="DDI-DrugBank.d308.s3.e1" ddi="false"/>
+    </sentence>
+</document>

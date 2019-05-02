@@ -1,0 +1,20 @@
+
+Requirements
+------------
+If multiple precision (MP) arithmetic required, need to install the GMP library for
+the correct word-size (default is 32 bits). If you install GMP, uncomment the
+-DMP and -lgmp in Makefile and nnf/Makefile.
+
+Installation
+------------
+  1. Uncompress the tar
+  2. (cd nnf ; make)
+  3. make
+
+Execution
+---------
+  ./models [-m] [-w] <file.dnnf>
+
+-w enumerate the models
+-m model counting is done is MP arithmetic
+	

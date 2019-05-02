@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="DDI-DrugBank.d253">
+    <sentence id="DDI-DrugBank.d253.s0" text="Beta-adrenergic blocking agents: concurrent use may blunt the response to arbutamine.">
+        <entity id="DDI-DrugBank.d253.s0.e0" charOffset="0-30"
+            type="group" text="Beta-adrenergic blocking agents"/>
+        <entity id="DDI-DrugBank.d253.s0.e1" charOffset="74-83"
+            type="drug" text="arbutamine"/>
+        <pair id="DDI-DrugBank.d253.s0.p0" e1="DDI-DrugBank.d253.s0.e0"
+            e2="DDI-DrugBank.d253.s0.e1" ddi="false"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d253.s1" text="Beta-adrenergic blocking agents should be withdrawn at least 48 hours before conducting an arbutamine-mediated stress test.">
+        <entity id="DDI-DrugBank.d253.s1.e0" charOffset="0-30"
+            type="group" text="Beta-adrenergic blocking agents"/>
+        <entity id="DDI-DrugBank.d253.s1.e1" charOffset="91-100"
+            type="drug" text="arbutamine"/>
+        <pair id="DDI-DrugBank.d253.s1.p0" e1="DDI-DrugBank.d253.s1.e0"
+            e2="DDI-DrugBank.d253.s1.e1" ddi="true" type="advise"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d253.s2" text="Antiarrhythmic agents, class I (such as flecainide, lidocaine, or quinidine): concurrent use with arbutamine may have a proarrhythmic effect.">
+        <entity id="DDI-DrugBank.d253.s2.e0" charOffset="0-29"
+            type="drug" text="Antiarrhythmic agents, class I"/>
+        <entity id="DDI-DrugBank.d253.s2.e1" charOffset="40-49"
+            type="drug" text="flecainide"/>
+        <entity id="DDI-DrugBank.d253.s2.e2" charOffset="52-60"
+            type="drug" text="lidocaine"/>
+        <entity id="DDI-DrugBank.d253.s2.e3" charOffset="66-74"
+            type="drug" text="quinidine"/>
+        <entity id="DDI-DrugBank.d253.s2.e4" charOffset="98-107"
+            type="drug" text="arbutamine"/>
+        <pair id="DDI-DrugBank.d253.s2.p0" e1="DDI-DrugBank.d253.s2.e0"
+            e2="DDI-DrugBank.d253.s2.e1" ddi="false"/>
+        <pair id="DDI-DrugBank.d253.s2.p1" e1="DDI-DrugBank.d253.s2.e0"
+            e2="DDI-DrugBank.d253.s2.e2" ddi="false"/>
+        <pair id="DDI-DrugBank.d253.s2.p2" e1="DDI-DrugBank.d253.s2.e0"
+            e2="DDI-DrugBank.d253.s2.e3" ddi="false"/>
+        <pair id="DDI-DrugBank.d253.s2.p3" e1="DDI-DrugBank.d253.s2.e0"
+            e2="DDI-DrugBank.d253.s2.e4" ddi="false"/>
+        <pair id="DDI-DrugBank.d253.s2.p4" e1="DDI-DrugBank.d253.s2.e1"
+            e2="DDI-DrugBank.d253.s2.e2" ddi="false"/>
+        <pair id="DDI-DrugBank.d253.s2.p5" e1="DDI-DrugBank.d253.s2.e1"
+            e2="DDI-DrugBank.d253.s2.e3" ddi="false"/>
+        <pair id="DDI-DrugBank.d253.s2.p6" e1="DDI-DrugBank.d253.s2.e1"
+            e2="DDI-DrugBank.d253.s2.e4" ddi="false"/>
+        <pair id="DDI-DrugBank.d253.s2.p7" e1="DDI-DrugBank.d253.s2.e2"
+            e2="DDI-DrugBank.d253.s2.e3" ddi="false"/>
+        <pair id="DDI-DrugBank.d253.s2.p8" e1="DDI-DrugBank.d253.s2.e2"
+            e2="DDI-DrugBank.d253.s2.e4" ddi="false"/>
+        <pair id="DDI-DrugBank.d253.s2.p9" e1="DDI-DrugBank.d253.s2.e3"
+            e2="DDI-DrugBank.d253.s2.e4" ddi="false"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d253.s3" text="Antidepressants (tricyclic), atropine or other anticholinergic agents, or digitalis glycosides: concurrent use with arbutamine may produce additive inotropic and/or chronotropic effects.">
+        <entity id="DDI-DrugBank.d253.s3.e0" charOffset="0-14"
+            type="group" text="Antidepressants"/>
+        <entity id="DDI-DrugBank.d253.s3.e1" charOffset="17-25"
+            type="group" text="tricyclic"/>
+        <entity id="DDI-DrugBank.d253.s3.e2" charOffset="29-36"
+            type="drug" text="atropine"/>
+        <entity id="DDI-DrugBank.d253.s3.e3" charOffset="47-68"
+            type="group" text="anticholinergic agents"/>
+        <entity id="DDI-DrugBank.d253.s3.e4" charOffset="74-93"
+            type="group" text="digitalis glycosides"/>
+        <entity id="DDI-DrugBank.d253.s3.e5" charOffset="116-125"
+            type="drug" text="arbutamine"/>
+        <pair id="DDI-DrugBank.d253.s3.p0" e1="DDI-DrugBank.d253.s3.e0"
+            e2="DDI-DrugBank.d253.s3.e1" ddi="false"/>
+        <pair id="DDI-DrugBank.d253.s3.p1" e1="DDI-DrugBank.d253.s3.e0"
+            e2="DDI-DrugBank.d253.s3.e2" ddi="false"/>
+        <pair id="DDI-DrugBank.d253.s3.p2" e1="DDI-DrugBank.d253.s3.e0"
+            e2="DDI-DrugBank.d253.s3.e3" ddi="false"/>
+        <pair id="DDI-DrugBank.d253.s3.p3" e1="DDI-DrugBank.d253.s3.e0"
+            e2="DDI-DrugBank.d253.s3.e4" ddi="false"/>
+        <pair id="DDI-DrugBank.d253.s3.p4" e1="DDI-DrugBank.d253.s3.e0"
+            e2="DDI-DrugBank.d253.s3.e5" ddi="false"/>
+        <pair id="DDI-DrugBank.d253.s3.p5" e1="DDI-DrugBank.d253.s3.e1"
+            e2="DDI-DrugBank.d253.s3.e2" ddi="false"/>
+        <pair id="DDI-DrugBank.d253.s3.p6" e1="DDI-DrugBank.d253.s3.e1"
+            e2="DDI-DrugBank.d253.s3.e3" ddi="false"/>
+        <pair id="DDI-DrugBank.d253.s3.p7" e1="DDI-DrugBank.d253.s3.e1"
+            e2="DDI-DrugBank.d253.s3.e4" ddi="false"/>
+        <pair id="DDI-DrugBank.d253.s3.p8" e1="DDI-DrugBank.d253.s3.e1"
+            e2="DDI-DrugBank.d253.s3.e5" ddi="false"/>
+        <pair id="DDI-DrugBank.d253.s3.p9" e1="DDI-DrugBank.d253.s3.e2"
+            e2="DDI-DrugBank.d253.s3.e3" ddi="false"/>
+        <pair id="DDI-DrugBank.d253.s3.p10" e1="DDI-DrugBank.d253.s3.e2"
+            e2="DDI-DrugBank.d253.s3.e4" ddi="false"/>
+        <pair id="DDI-DrugBank.d253.s3.p11" e1="DDI-DrugBank.d253.s3.e2"
+            e2="DDI-DrugBank.d253.s3.e5" ddi="false"/>
+        <pair id="DDI-DrugBank.d253.s3.p12" e1="DDI-DrugBank.d253.s3.e3"
+            e2="DDI-DrugBank.d253.s3.e4" ddi="false"/>
+        <pair id="DDI-DrugBank.d253.s3.p13" e1="DDI-DrugBank.d253.s3.e3"
+            e2="DDI-DrugBank.d253.s3.e5" ddi="false"/>
+        <pair id="DDI-DrugBank.d253.s3.p14" e1="DDI-DrugBank.d253.s3.e4"
+            e2="DDI-DrugBank.d253.s3.e5" ddi="false"/>
+    </sentence>
+</document>

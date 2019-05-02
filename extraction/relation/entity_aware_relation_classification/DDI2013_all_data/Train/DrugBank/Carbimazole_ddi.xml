@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="DDI-DrugBank.d213">
+    <sentence id="DDI-DrugBank.d213.s0" text="Iodine or iodine excess may decrease the effect of Carbimazole, and an iodine deficiency can increase the effect of Carbimazole.">
+        <entity id="DDI-DrugBank.d213.s0.e0" charOffset="0-5"
+            type="drug" text="Iodine"/>
+        <entity id="DDI-DrugBank.d213.s0.e1" charOffset="10-15"
+            type="drug" text="iodine"/>
+        <entity id="DDI-DrugBank.d213.s0.e2" charOffset="51-61"
+            type="drug" text="Carbimazole"/>
+        <entity id="DDI-DrugBank.d213.s0.e3" charOffset="71-76"
+            type="drug" text="iodine"/>
+        <entity id="DDI-DrugBank.d213.s0.e4" charOffset="116-126"
+            type="drug" text="Carbimazole"/>
+        <pair id="DDI-DrugBank.d213.s0.p0" e1="DDI-DrugBank.d213.s0.e0"
+            e2="DDI-DrugBank.d213.s0.e1" ddi="false"/>
+        <pair id="DDI-DrugBank.d213.s0.p1" e1="DDI-DrugBank.d213.s0.e0"
+            e2="DDI-DrugBank.d213.s0.e2" ddi="true" type="effect"/>
+        <pair id="DDI-DrugBank.d213.s0.p2" e1="DDI-DrugBank.d213.s0.e0"
+            e2="DDI-DrugBank.d213.s0.e3" ddi="false"/>
+        <pair id="DDI-DrugBank.d213.s0.p3" e1="DDI-DrugBank.d213.s0.e0"
+            e2="DDI-DrugBank.d213.s0.e4" ddi="false"/>
+        <pair id="DDI-DrugBank.d213.s0.p4" e1="DDI-DrugBank.d213.s0.e1"
+            e2="DDI-DrugBank.d213.s0.e2" ddi="false"/>
+        <pair id="DDI-DrugBank.d213.s0.p5" e1="DDI-DrugBank.d213.s0.e1"
+            e2="DDI-DrugBank.d213.s0.e3" ddi="false"/>
+        <pair id="DDI-DrugBank.d213.s0.p6" e1="DDI-DrugBank.d213.s0.e1"
+            e2="DDI-DrugBank.d213.s0.e4" ddi="false"/>
+        <pair id="DDI-DrugBank.d213.s0.p7" e1="DDI-DrugBank.d213.s0.e2"
+            e2="DDI-DrugBank.d213.s0.e3" ddi="false"/>
+        <pair id="DDI-DrugBank.d213.s0.p8" e1="DDI-DrugBank.d213.s0.e2"
+            e2="DDI-DrugBank.d213.s0.e4" ddi="false"/>
+        <pair id="DDI-DrugBank.d213.s0.p9" e1="DDI-DrugBank.d213.s0.e3"
+            e2="DDI-DrugBank.d213.s0.e4" ddi="true" type="effect"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d213.s1" text="Serum concentration of digoxin and digitoxin may increase when patients take antithyroid agents.">
+        <entity id="DDI-DrugBank.d213.s1.e0" charOffset="23-29"
+            type="drug" text="digoxin"/>
+        <entity id="DDI-DrugBank.d213.s1.e1" charOffset="35-43"
+            type="drug" text="digitoxin"/>
+        <entity id="DDI-DrugBank.d213.s1.e2" charOffset="77-94"
+            type="group" text="antithyroid agents"/>
+        <pair id="DDI-DrugBank.d213.s1.p0" e1="DDI-DrugBank.d213.s1.e0"
+            e2="DDI-DrugBank.d213.s1.e1" ddi="false"/>
+        <pair id="DDI-DrugBank.d213.s1.p1" e1="DDI-DrugBank.d213.s1.e0"
+            e2="DDI-DrugBank.d213.s1.e2" ddi="true" type="mechanism"/>
+        <pair id="DDI-DrugBank.d213.s1.p2" e1="DDI-DrugBank.d213.s1.e1"
+            e2="DDI-DrugBank.d213.s1.e2" ddi="true" type="mechanism"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d213.s2" text="A decrease of the dosage may be necessary when patient becomes euthyroid."/>
+    <sentence id="DDI-DrugBank.d213.s3" text="Antithyroid agents may decrease thyroidal uptake of sodium iodide I131, a rebound in uptake may occur up to 5 days after sudden withdrawal of Carbimazole.">
+        <entity id="DDI-DrugBank.d213.s3.e0" charOffset="0-17"
+            type="group" text="Antithyroid agents"/>
+        <entity id="DDI-DrugBank.d213.s3.e1" charOffset="52-69"
+            type="drug" text="sodium iodide I131"/>
+        <entity id="DDI-DrugBank.d213.s3.e2" charOffset="142-152"
+            type="drug" text="Carbimazole"/>
+        <pair id="DDI-DrugBank.d213.s3.p0" e1="DDI-DrugBank.d213.s3.e0"
+            e2="DDI-DrugBank.d213.s3.e1" ddi="true" type="effect"/>
+        <pair id="DDI-DrugBank.d213.s3.p1" e1="DDI-DrugBank.d213.s3.e0"
+            e2="DDI-DrugBank.d213.s3.e2" ddi="false"/>
+        <pair id="DDI-DrugBank.d213.s3.p2" e1="DDI-DrugBank.d213.s3.e1"
+            e2="DDI-DrugBank.d213.s3.e2" ddi="false"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d213.s4" text="Patients response to oral anticoagulants may be affected by his/her thyroid and metabolic status.">
+        <entity id="DDI-DrugBank.d213.s4.e0" charOffset="26-39"
+            type="group" text="anticoagulants"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d213.s5" text="An evaluation of prothrombin time and an adjustment of anticoagulant dosage are recommended">
+        <entity id="DDI-DrugBank.d213.s5.e0" charOffset="55-67"
+            type="group" text="anticoagulant"/>
+    </sentence>
+</document>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="DDI-DrugBank.d273">
+    <sentence id="DDI-DrugBank.d273.s0" text="Drug-Drug Interactions: The pharmacokinetic and pharmacodynamic interactions between UROXATRAL and other alpha-blockers have not been determined.">
+        <entity id="DDI-DrugBank.d273.s0.e0" charOffset="85-93"
+            type="brand" text="UROXATRAL"/>
+        <entity id="DDI-DrugBank.d273.s0.e1" charOffset="105-118"
+            type="group" text="alpha-blockers"/>
+        <pair id="DDI-DrugBank.d273.s0.p0" e1="DDI-DrugBank.d273.s0.e0"
+            e2="DDI-DrugBank.d273.s0.e1" ddi="false"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d273.s1" text="However, interactions may be expected, and UROXATRAL should NOT be used in combination with other alpha-blockers.">
+        <entity id="DDI-DrugBank.d273.s1.e0" charOffset="43-51"
+            type="brand" text="UROXATRAL"/>
+        <entity id="DDI-DrugBank.d273.s1.e1" charOffset="98-111"
+            type="group" text="alpha-blockers"/>
+        <pair id="DDI-DrugBank.d273.s1.p0" e1="DDI-DrugBank.d273.s1.e0"
+            e2="DDI-DrugBank.d273.s1.e1" ddi="true" type="advise"/>
+    </sentence>
+</document>

@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="DDI-MedLine.d107">
+    <sentence id="DDI-MedLine.d107.s0" text="Interaction of the constituents of alcoholic beverages in the promotion of liver damage.&#xd;&#xa;"/>
+    <sentence id="DDI-MedLine.d107.s1" text="Little has been studied of the adverse effects of the exposure of the liver to the interaction of ethanol with its congeners and acetaldehyde, coexisting in the contents of alcoholic beverages. ">
+        <entity id="DDI-MedLine.d107.s1.e0" charOffset="98-104"
+            type="drug" text="ethanol"/>
+        <entity id="DDI-MedLine.d107.s1.e1" charOffset="129-140"
+            type="drug_n" text="acetaldehyde"/>
+        <pair id="DDI-MedLine.d107.s1.p0" e1="DDI-MedLine.d107.s1.e0"
+            e2="DDI-MedLine.d107.s1.e1" ddi="false"/>
+    </sentence>
+    <sentence id="DDI-MedLine.d107.s2" text="Twenty four male Wistar rats were divided into four groups. "/>
+    <sentence id="DDI-MedLine.d107.s3" text="Two groups (SH/DA; SH/FA) were submitted to daily treatment with synthetic hydroalcoholic solutions containing ethanol, methanol, higher alcohols and acetaldehyde in the same proportions as those found in most common distilled and fermented alcoholic beverages; ">
+        <entity id="DDI-MedLine.d107.s3.e0" charOffset="111-117"
+            type="drug" text="ethanol"/>
+        <entity id="DDI-MedLine.d107.s3.e1" charOffset="120-127"
+            type="drug_n" text="methanol"/>
+        <entity id="DDI-MedLine.d107.s3.e2" charOffset="137-144"
+            type="drug_n" text="alcohols"/>
+        <entity id="DDI-MedLine.d107.s3.e3" charOffset="150-161"
+            type="drug_n" text="acetaldehyde"/>
+        <pair id="DDI-MedLine.d107.s3.p0" e1="DDI-MedLine.d107.s3.e0"
+            e2="DDI-MedLine.d107.s3.e1" ddi="false"/>
+        <pair id="DDI-MedLine.d107.s3.p1" e1="DDI-MedLine.d107.s3.e0"
+            e2="DDI-MedLine.d107.s3.e2" ddi="false"/>
+        <pair id="DDI-MedLine.d107.s3.p2" e1="DDI-MedLine.d107.s3.e0"
+            e2="DDI-MedLine.d107.s3.e3" ddi="false"/>
+        <pair id="DDI-MedLine.d107.s3.p3" e1="DDI-MedLine.d107.s3.e1"
+            e2="DDI-MedLine.d107.s3.e2" ddi="false"/>
+        <pair id="DDI-MedLine.d107.s3.p4" e1="DDI-MedLine.d107.s3.e1"
+            e2="DDI-MedLine.d107.s3.e3" ddi="false"/>
+        <pair id="DDI-MedLine.d107.s3.p5" e1="DDI-MedLine.d107.s3.e2"
+            e2="DDI-MedLine.d107.s3.e3" ddi="false"/>
+    </sentence>
+    <sentence id="DDI-MedLine.d107.s4" text="the third group (SH/EA) was treated with a hydroalcoholic solution of ethanol; ">
+        <entity id="DDI-MedLine.d107.s4.e0" charOffset="70-76"
+            type="drug" text="ethanol"/>
+    </sentence>
+    <sentence id="DDI-MedLine.d107.s5" text="the fourth group served as control and received an equivalent volume of an isocaloric solution of dextrose. ">
+        <entity id="DDI-MedLine.d107.s5.e0" charOffset="98-105"
+            type="drug" text="dextrose"/>
+    </sentence>
+    <sentence id="DDI-MedLine.d107.s6" text="All the animals were killed at the end of the 9th week of the experiment. "/>
+    <sentence id="DDI-MedLine.d107.s7" text="The ratio between the liver weight and body weight was found to be lower in the treated animals than in the control group. "/>
+    <sentence id="DDI-MedLine.d107.s8" text="The histology of the liver was altered in the three groups which were submitted to treatment with the hydroalcoholic solutions, with quantitative and qualitative differences between the groups. "/>
+    <sentence id="DDI-MedLine.d107.s9" text="These results suggest that the hepatoxicity of ethanol in alcoholic beverages is enhanced by interaction with its congeners and acetaldehyde; ">
+        <entity id="DDI-MedLine.d107.s9.e0" charOffset="47-53"
+            type="drug" text="ethanol"/>
+        <entity id="DDI-MedLine.d107.s9.e1" charOffset="128-139"
+            type="drug_n" text="acetaldehyde"/>
+        <pair id="DDI-MedLine.d107.s9.p0" e1="DDI-MedLine.d107.s9.e0"
+            e2="DDI-MedLine.d107.s9.e1" ddi="true" type="effect"/>
+    </sentence>
+    <sentence id="DDI-MedLine.d107.s10" text="they also suggest that alcoholic beverages are not equivalent in their potential to cause liver damage."/>
+</document>

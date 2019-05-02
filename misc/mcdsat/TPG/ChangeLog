@@ -1,0 +1,375 @@
+2006-07-23  Christophe Delord <christophe.delord@free.fr>
+
+    * Version 3.1.0:
+        Bug fixes and new features
+
+    * Bug fixes:
+        - Fixed some more typos in the documentation (thanks
+        to Johannes Schöön).
+        - Bug fix (wrong column number for the first token).
+        - Row is renamed as column.
+
+    * New features:
+        - Make string tokens match triple quoted strings.
+        - Add default variable for non specified return values.
+        - Add tips to parse indentation in the documentation
+
+2005-07-08  Christophe Delord <christophe.delord@free.fr>
+
+    * Version 3.0.6:
+        Fixed some typos in the documentation (thanks to Heinz Preisig).
+        Bug fix (wrong error reporting when using the context sensitive
+        lexer (thanks to Tiberius Teng).
+
+2005-03-01  Christophe Delord <christophe.delord@free.fr>
+
+    * Version 3.0.5:
+        Fixed some typos in comments (thanks to Mike O'Connor).
+        Documentation updated (Debian packets by Mike O'Connor
+        and Logilab).
+
+2004-11-20  Christophe Delord <christophe.delord@free.fr>
+
+    * Version 3.0.4:
+        Bug fix
+
+    * Bug fix:
+        - Check regular expressions before building the lexer
+        in order to detect incorrect tokens in a more explicit
+        way (thanks to Laszlo Kalman for reporting the bug).
+        - Check Python code before compiling the parser
+        in order to detect Python syntax errors in a more
+        explicit way too.
+
+2004-04-08  Christophe Delord <christophe.delord@free.fr>
+
+    * Version 3.0.3:
+        Bug fix
+
+    * Bug fix:
+        - Empty sequences are authorized only in the last branch
+        of alternatives (thanks to Laszlo Kalman for reporting
+        the bug).
+
+2004-03-15  Christophe Delord <christophe.delord@free.fr>
+
+    * Version 3.0.2:
+        Bug fix
+
+    * Bug fix:
+        - Word boundaries not added when only the beginning of the
+        token looks like a word. TPG can now handle tokens like
+        'http:' (thanks to Reinhard Gantar for reporting the bug).
+
+2004-01-18  Christophe Delord <christophe.delord@free.fr>
+
+    * Version 3.0.1:
+        Minor bug fixes
+        More unit tests
+
+2003-11-11  Christophe Delord <christophe.delord@free.fr>
+
+    * Version 3.0.0:
+        This is a complete rewrite of TPG 2 in order to simplify
+        the parser and the code generator. The syntax is also
+        incompatible with TPG 2.
+
+    * New features:
+        - The grammar of parsers is the doc string of the class.
+        - Syntax of expressions improved and simplified.
+        - The word_boundary option tells TPG to use or not
+        automatic word boundaries (\b) around identifier like
+        tokens (thanks to Zeph Grunschlag for the remark).
+        - The compilation options of regular expressions can be
+        changed for each parser (thanks to Mark Andrew for the
+        remark).
+        - New lexers have been added (mainly to bypass the limitation
+        of the sre package to 100 named groups).
+        - Adds debugging facilities (thanks to Mark Andrew again).
+
+    * Bug fixes:
+        - I wrote some unit tests and discovered (and fixed) many
+        small bugs.
+
+    * tpg.pyg:
+        This is the source containing the TPG grammar and generator.
+
+    * tpg.py:
+        This is the "compiled" version of tpg.pyg
+
+*********************************************************************
+* Incompatible changes from version 3.0.0
+*********************************************************************
+
+2003-05-25  Christophe Delord <christophe.delord@free.fr>
+
+    * Version 2.1.6-dev:
+        The first code of the .g file is placed before
+        any other code (for __future__ statements).
+        Thanks to Rodrigo B. de Oliveira for the comment.
+        Some bug fixes.
+
+    * codegen.py:
+        Add code before "import tpg.base".
+
+    * parser.g:
+        Parse the first code appart.
+        Make CSL parser inherits from ToyParserCSL instead
+        of ToyParser1 (thanks to Dominic Hillenbrand).
+
+2003-04-20  Christophe Delord <christophe.delord@free.fr>
+
+    * Version 2.1.5:
+        Optionnal indent and deindent tokens (indent option).
+        Global and local (to a single parser) options.
+
+    * base.py:
+        Indent and deindent preprocessor.
+
+    * codegen.py:
+        Distinction between global and local options.
+        Indent and deindent preprocessor code generation.
+
+    * parser.g:
+        Distinction between global and local options.
+        Indent and deindent definition.
+
+2002-10-20  Christophe Delord <christophe.delord@free.fr>
+
+    * Version 2.1.4:
+        HTML documentation uses the free png image format instead
+        of the expensive gif.
+        TPG uses spaces instead of tabs.
+        TPG now generate Python code instead of source code in
+        a string (to check the generated parser as soon as
+        possible).
+
+    * codegen.py:
+        Indentation uses four spaces instead of a tabulation.
+        Bug fix: add a newline on the last line.
+
+    * parser.g:
+        The tpg.translate method translates TPG into Python source.
+        The tpg.compile method compiles TPG into Python code.
+
+2002-08-22  Christophe Delord <christophe.delord@free.fr>
+
+    * Version 2.1.3:
+        Some bug fixes.
+        Added the cut operator (!). ! acts as in Prolog, i.e. when
+        TPG backtracks on a cut, others alternatives are not tried.
+        The main difference with Prolog is that ! immediatly exits
+        i.e. it cuts all the pending alternatives (not only the
+        innermost). This helps TPG to report errors more precisely.
+        Marks are renamed as '@' (was '!' in previous versions)
+        LexicalError and SyntaxError have been renamed LexerError
+        and ParserError to avoid conflicts.
+
+    * base.py:
+        Bug fix: added the *args parameters in ToyParser.__init__
+        Improvment: _Scanner.tokens uses lastgroup to find to
+        matched token instead of an ugly loop.
+        Added the tpg.Error base class for tpg.LexicalError,
+        tpg.SyntaxError and tpg.SemanticError.
+
+    * parser.g:
+        Better error reporting.
+        Added 'Cut' support.
+        Added support for keyword arguments, *args and **kw.
+
+    * codegen.py:
+        Bug fix: quotes are escaped in strings if necessary
+        Added "Cut" support.
+        Improvment: Alternative is now generated as a balanced
+        tree to allow more alternatives.
+        Bug fix: predefined tokens and inline tokens could have
+        the same internal name (and re couldn't compile the lexer).
+        Added support for keyword arguments, *args and **kw.
+
+2002-08-07  Christophe Delord <christophe.delord@free.fr>
+
+    * Version 2.1.2:
+        The context sensitive lexer of TPG 0.1.9 has been
+        reintroduced (CSL option). TPG can produce both
+        type of lexers.
+
+    * base.py:
+        The ToyParserCSL class inherits from ToyParser and
+        is the base class for CSL parsers.
+        ToyParser and ToyParserCSL classes have a 'init' method
+        to provide the user a way to initialize the parser,
+        a 'error' method to stop parsing and raise an error
+        as a SemanticError exception.
+
+    * codegen.py:
+        Parsers, Code, Parser, Rule, Symbol, Sequence,
+        Alternative, MakeAST, AddAST, Check, Rep, Mark
+        and Extraction InlineToken have been updated to
+        generate CSL code.
+        LexRule has been added to generate the code for
+        lexical rules.
+        class Error: code generator for the error keyword.
+        Bug fix: Check.collect was buggy
+
+    * parser.g:
+        PARSERS, OPTIONS, TOKEN and INLINE_TOKEN updated
+        to parse CSL grammars.
+        LEX_RULE added to parse lexical rules.
+        ATOM updated to parse the 'error' statement.
+
+2002-08-05  Christophe Delord <christophe.delord@free.fr>
+
+    * Version 2.1.1:
+        Delivered with a better documentation and tutorial
+
+    * tpg.pdf:
+        First version of the TPG documentation
+
+    * codegen.py:
+        Added 'import sys' to enable -v and -vv options
+        with the tpg script (thanks to John Krumpotick)
+        Completed Slice class for [x:], [:y] and [:]
+        Added Check class (just a shortcut for self.check)
+
+    * parser.g:
+        Uses the 'check' shortcut
+        Changed INDICE to parse [x:], [:y] and [:] slices
+        Changed FACT to parse the 'check' shortcut
+
+2002-07-12  Christophe Delord <christophe.delord@free.fr>
+
+    * Version 2.1:
+        Packaged in a package directory + distutils
+        Any previous version needs to be uninstalled before
+        upgrading
+
+    * codegen.py:
+        Minimalist runtime, cannot generate autonomous parsers
+        TPG needs to be installed and imported
+
+2002-07-10  Christophe Delord <christophe.delord@free.fr>
+
+    * Version 2.0.5
+
+    * tpg_grammar.g: Bug fix in the command line parser
+
+2002-07-07  Christophe Delord <christophe.delord@free.fr>
+
+    * Version 2.0.4
+    
+    * tpg_grammar.g:
+        Bug fix in NB rule
+        Bug fix in object and arg list code generation
+
+    * License: Now licensed with the LGPL
+
+2002-06-24  Christophe Delord <christophe.delord@free.fr>
+
+    * Version 2.0.3
+
+    * tpg_grammar.g: Bug fix in runtime generation
+
+2002-06-23  Christophe Delord <christophe.delord@free.fr>
+
+    * Version 2.0.2
+
+    * tpg_grammar.g:
+        Doc strings updated
+        Add Python code as objects (parameters, return values)
+        Bug fix in the grammar
+
+2002-06-05  Christophe Delord <christophe.delord@free.fr>
+
+    * Version 2.0.1
+
+    * tpg_grammar.g:
+        Minor changes
+        Bug fix (scanner without runtime didn't find _TokenDef class)
+
+2002-05-26  Christophe Delord <christophe.delord@free.fr>
+
+    * Version 2.0: Not compatible with TPG 0.1.9
+
+    * tpg_grammar.g:
+        Complete rewrite of TPG
+        Faster lexical scanner
+        Smaller generated code
+
+2002-04-27  Christophe Delord <christophe.delord@free.fr>
+
+    * Version 0.1.9
+
+    * install-TPG-0.1.9.py: Bug fix in the installation procedure
+
+2002-04-06  Christophe Delord <christophe.delord@free.fr>
+
+    * Version 0.1.8
+
+    * install-TPG-0.1.8.py: TPG is now packaged with Install Maker
+
+2002-03-27  Christophe Delord <christophe.delord@free.fr>
+
+    * Version 0.1.7
+
+    * tp.g:
+        Some code rewriting
+        Bug fix: when an error occurs, an empty file was created
+
+2002-03-13  Christophe Delord <christophe.delord@free.fr>
+
+    * Version 0.1.6
+
+    * tp.g:
+        Bug fix, remove backtracking in some regexp and now use
+        re (sre) instead of pre (thanks to Fredrik Lundh) and
+        speed improvement (thanks to Nick Mathewson)
+
+2002-02-07  Christophe Delord <christophe.delord@free.fr>
+
+    * Version 0.1.5
+
+    * tp.g:
+        Changed command line parsing (do not use TPG anymore)
+
+2002-01-20  Christophe Delord <christophe.delord@free.fr>
+
+    * Version 0.1.4
+
+    * tp.g:
+        Changed unindent function
+        Command line is now parsed by TPG
+
+2002-01-16  Christophe Delord <christophe.delord@free.fr>
+
+    * Version 0.1.3
+
+    * tp.g:
+        Add __all__ definition
+        Changed runtime option behaviour
+        Changed the way to add the runtime (#<> tags)
+        Changed genCode/genRetVal into genLValue and genRValue
+        String built by joining lists instead step by step concatenating
+        Bug fix: begin mark code fixed (missing '=')
+
+2002-01-09  Christophe Delord <christophe.delord@free.fr>
+
+    * Version 0.1.2
+
+    * tp.g:
+        New features:
+            Distinction between lexical and syntactic rules
+            Mark definition and text extraction
+        Bug fix:
+            Code is now delimited by {{ ... }} (otherwise symbol <<code>>
+            was recognised as symbol with <code> as attribute)
+
+2001-12-29  Christophe Delord <christophe.delord@free.fr>
+
+    * Version 0.1.1
+
+    * tp.g: Bug fix
+        'a b' was recognised as if b was a parameter of a
+
+2001-12-23  Christophe Delord <christophe.delord@free.fr>
+
+    * Version 0.1: Initial version

@@ -1,0 +1,45 @@
+\section{Introduction}
+
+TPG (Toy Parser Generator) is a Python\footnote{Python is a wonderful object oriented programming language available at \url{http://www.python.org}} parser generator.
+It is aimed at easy usage rather than performance.
+My inspiration was drawn from two different sources.
+The first was GEN6. GEN6 is a parser generator created at ENSEEIHT\footnote{ENSEEIHT is a french engineer school (\url{http://www.enseeiht.fr}).} where I studied.
+The second was PROLOG\footnote{PROLOG is a programming language using logic. My favorite PROLOG compiler is SWI-PROLOG (\url{http://www.swi-prolog.org}).}, especially DCG\footnote{Definite Clause Grammars.} parsers.
+I wanted a generator with a simple and expressive syntax and the generated parser should work as the user expects. So I decided that TPG should be a recursive descendant parser (a rule is a procedure that calls other procedures) and the grammars are attributed (attributes are the parameters of the procedures).
+This way TPG can be considered as a programming language or more modestly as Python extension.
+
+\section{License}
+
+TPG is available under the GNU Lesser General Public.
+
+\begin{quote}
+Toy Parser Generator: A Python parser generator
+
+Copyright (C) 2002 Christophe Delord
+ 
+This library is free software; you can redistribute it and/or
+modify it under the terms of the GNU Lesser General Public
+License as published by the Free Software Foundation; either
+version 2.1 of the License, or (at your option) any later version.
+
+This library is distributed in the hope that it will be useful,
+but WITHOUT ANY WARRANTY; without even the implied warranty of
+MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the GNU
+Lesser General Public License for more details.
+
+You should have received a copy of the GNU Lesser General Public
+License along with this library; if not, write to the Free Software
+Foundation, Inc., 59 Temple Place, Suite 330, Boston, MA  02111-1307  USA 
+\end{quote}
+
+\section{Structure of the document}
+
+\begin{description}
+\item [Part~\ref{tpg:intro}]
+starts smoothly with a gentle tutorial as an introduction.
+I think this tutorial may be sufficent to start with TPG.
+\item [Part~\ref{tpg:core}]
+is a reference documentation. It will detail TPG as much as possible.
+\item [Part~\ref{tpg:examples}]
+gives the reader some examples to illustrate TPG.
+\end{description}

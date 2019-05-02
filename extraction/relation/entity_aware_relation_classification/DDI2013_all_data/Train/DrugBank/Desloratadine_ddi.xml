@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="DDI-DrugBank.d67">
+    <sentence id="DDI-DrugBank.d67.s0" text="In two controlled crossover clinical pharmacology studies in healthy male (n=12 in each study) a nd female (n=12 in each study) volunteers, desloratadine 7.5 mg (1.5 times the daily dose) once daily was coadministered with erythromycin 500 mg every 8 hours or ketoconazole 200 mg every 12 hours for 10 days.">
+        <entity id="DDI-DrugBank.d67.s0.e0" charOffset="140-152"
+            type="drug" text="desloratadine"/>
+        <entity id="DDI-DrugBank.d67.s0.e1" charOffset="223-234"
+            type="drug" text="erythromycin"/>
+        <entity id="DDI-DrugBank.d67.s0.e2" charOffset="260-271"
+            type="drug" text="ketoconazole"/>
+        <pair id="DDI-DrugBank.d67.s0.p0" e1="DDI-DrugBank.d67.s0.e0"
+            e2="DDI-DrugBank.d67.s0.e1" ddi="false"/>
+        <pair id="DDI-DrugBank.d67.s0.p1" e1="DDI-DrugBank.d67.s0.e0"
+            e2="DDI-DrugBank.d67.s0.e2" ddi="false"/>
+        <pair id="DDI-DrugBank.d67.s0.p2" e1="DDI-DrugBank.d67.s0.e1"
+            e2="DDI-DrugBank.d67.s0.e2" ddi="false"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d67.s1" text="In three separate controlled, parallel group clinical pharmacology studies, desloratadine at the clinical dose of 5 mg has been coadministered with azithromycin 500 mg followed by 250 mg once daily for 4 days (n=18) or with fluoxetine 20 mg once daily for 7 days after a 23 day pretreatment period with fluoxetine (n=18) or with cimetidine 600 mg every 12 hours for 14 days (n=18) under steady state conditions to normal healthy male and female volunteers.">
+        <entity id="DDI-DrugBank.d67.s1.e0" charOffset="76-88"
+            type="drug" text="desloratadine"/>
+        <entity id="DDI-DrugBank.d67.s1.e1" charOffset="148-159"
+            type="drug" text="azithromycin"/>
+        <entity id="DDI-DrugBank.d67.s1.e2" charOffset="224-233"
+            type="drug" text="fluoxetine"/>
+        <entity id="DDI-DrugBank.d67.s1.e3" charOffset="303-312"
+            type="drug" text="fluoxetine"/>
+        <entity id="DDI-DrugBank.d67.s1.e4" charOffset="329-338"
+            type="drug" text="cimetidine"/>
+        <pair id="DDI-DrugBank.d67.s1.p0" e1="DDI-DrugBank.d67.s1.e0"
+            e2="DDI-DrugBank.d67.s1.e1" ddi="false"/>
+        <pair id="DDI-DrugBank.d67.s1.p1" e1="DDI-DrugBank.d67.s1.e0"
+            e2="DDI-DrugBank.d67.s1.e2" ddi="false"/>
+        <pair id="DDI-DrugBank.d67.s1.p2" e1="DDI-DrugBank.d67.s1.e0"
+            e2="DDI-DrugBank.d67.s1.e3" ddi="false"/>
+        <pair id="DDI-DrugBank.d67.s1.p3" e1="DDI-DrugBank.d67.s1.e0"
+            e2="DDI-DrugBank.d67.s1.e4" ddi="false"/>
+        <pair id="DDI-DrugBank.d67.s1.p4" e1="DDI-DrugBank.d67.s1.e1"
+            e2="DDI-DrugBank.d67.s1.e2" ddi="false"/>
+        <pair id="DDI-DrugBank.d67.s1.p5" e1="DDI-DrugBank.d67.s1.e1"
+            e2="DDI-DrugBank.d67.s1.e3" ddi="false"/>
+        <pair id="DDI-DrugBank.d67.s1.p6" e1="DDI-DrugBank.d67.s1.e1"
+            e2="DDI-DrugBank.d67.s1.e4" ddi="false"/>
+        <pair id="DDI-DrugBank.d67.s1.p7" e1="DDI-DrugBank.d67.s1.e2"
+            e2="DDI-DrugBank.d67.s1.e3" ddi="false"/>
+        <pair id="DDI-DrugBank.d67.s1.p8" e1="DDI-DrugBank.d67.s1.e2"
+            e2="DDI-DrugBank.d67.s1.e4" ddi="false"/>
+        <pair id="DDI-DrugBank.d67.s1.p9" e1="DDI-DrugBank.d67.s1.e3"
+            e2="DDI-DrugBank.d67.s1.e4" ddi="false"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d67.s2" text="Although increased plasma concentrations (C max and AUC 0-24 hrs) of desloratadine and 3-hydroxydesloratadine were observed , there were no clinically relevant changes in the safety profile of desloratadine, as assessed by electrocardiographic parameters (including the corrected QT interval), clinical laboratory tests, vital signs, and adverse events.">
+        <entity id="DDI-DrugBank.d67.s2.e0" charOffset="69-81"
+            type="drug" text="desloratadine"/>
+        <entity id="DDI-DrugBank.d67.s2.e1" charOffset="87-108"
+            type="drug_n" text="3-hydroxydesloratadine"/>
+        <entity id="DDI-DrugBank.d67.s2.e2" charOffset="193-205"
+            type="drug" text="desloratadine"/>
+        <pair id="DDI-DrugBank.d67.s2.p0" e1="DDI-DrugBank.d67.s2.e0"
+            e2="DDI-DrugBank.d67.s2.e1" ddi="false"/>
+        <pair id="DDI-DrugBank.d67.s2.p1" e1="DDI-DrugBank.d67.s2.e0"
+            e2="DDI-DrugBank.d67.s2.e2" ddi="false"/>
+        <pair id="DDI-DrugBank.d67.s2.p2" e1="DDI-DrugBank.d67.s2.e1"
+            e2="DDI-DrugBank.d67.s2.e2" ddi="false"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d67.s3" text="Table 1 Changes in Desloratadine and 3-Hydroxydesloratadine Pharmacokinetics in Healthy Male and Female Volunteers">
+        <entity id="DDI-DrugBank.d67.s3.e0" charOffset="19-31"
+            type="drug" text="Desloratadine"/>
+        <entity id="DDI-DrugBank.d67.s3.e1" charOffset="37-58"
+            type="drug_n" text="3-Hydroxydesloratadine"/>
+        <pair id="DDI-DrugBank.d67.s3.p0" e1="DDI-DrugBank.d67.s3.e0"
+            e2="DDI-DrugBank.d67.s3.e1" ddi="false"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d67.s4" text=""/>
+    <sentence id="DDI-DrugBank.d67.s5" text="Desloratadine 3-Hydroxydesloratadine">
+        <entity id="DDI-DrugBank.d67.s5.e0" charOffset="0-12"
+            type="drug" text="Desloratadine"/>
+        <entity id="DDI-DrugBank.d67.s5.e1" charOffset="14-35"
+            type="drug_n" text="3-Hydroxydesloratadine"/>
+        <pair id="DDI-DrugBank.d67.s5.p0" e1="DDI-DrugBank.d67.s5.e0"
+            e2="DDI-DrugBank.d67.s5.e1" ddi="false"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d67.s6" text=""/>
+    <sentence id="DDI-DrugBank.d67.s7" text="C max AUC 0-24 hrs C max AUC 0-24 hrs"/>
+    <sentence id="DDI-DrugBank.d67.s8" text="Erythromycin">
+        <entity id="DDI-DrugBank.d67.s8.e0" charOffset="0-11"
+            type="drug" text="Erythromycin"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d67.s9" text="(500 mg Q8h)"/>
+    <sentence id="DDI-DrugBank.d67.s10" text="+24% +14% +43% +40%"/>
+    <sentence id="DDI-DrugBank.d67.s11" text="Ketoconazole">
+        <entity id="DDI-DrugBank.d67.s11.e0" charOffset="0-11"
+            type="drug" text="Ketoconazole"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d67.s12" text="(200 mg Q12h)"/>
+    <sentence id="DDI-DrugBank.d67.s13" text="+45% +39% +43% +72%"/>
+    <sentence id="DDI-DrugBank.d67.s14" text="Azithromycin">
+        <entity id="DDI-DrugBank.d67.s14.e0" charOffset="0-11"
+            type="drug" text="Azithromycin"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d67.s15" text="(500 mg day 1, 250 mg QD   4 days)"/>
+    <sentence id="DDI-DrugBank.d67.s16" text="+15% +5% +15% +4%"/>
+    <sentence id="DDI-DrugBank.d67.s17" text="Fluoxetine">
+        <entity id="DDI-DrugBank.d67.s17.e0" charOffset="0-9"
+            type="drug" text="Fluoxetine"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d67.s18" text="(20 mg QD)"/>
+    <sentence id="DDI-DrugBank.d67.s19" text="+15% +0% +17% +13%"/>
+    <sentence id="DDI-DrugBank.d67.s20" text="Cimetidine">
+        <entity id="DDI-DrugBank.d67.s20.e0" charOffset="0-9"
+            type="drug" text="Cimetidine"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d67.s21" text="(600 mg Q12h)"/>
+    <sentence id="DDI-DrugBank.d67.s22" text="+12% +19% -11%  -3%"/>
+</document>

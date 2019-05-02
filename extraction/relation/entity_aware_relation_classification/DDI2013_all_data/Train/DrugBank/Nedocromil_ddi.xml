@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="DDI-DrugBank.d61">
+    <sentence id="DDI-DrugBank.d61.s0" text="In clinical studies, Tilade has been co-administered with other anti-asthma medications, including inhaled and oral bronchodilators, and inhaled corticosteroids, with no evidence of increased frequency of adverse events or laboratory abnormalities.">
+        <entity id="DDI-DrugBank.d61.s0.e0" charOffset="21-26"
+            type="brand" text="Tilade"/>
+        <entity id="DDI-DrugBank.d61.s0.e1" charOffset="116-130"
+            type="group" text="bronchodilators"/>
+        <entity id="DDI-DrugBank.d61.s0.e2" charOffset="145-159"
+            type="group" text="corticosteroids"/>
+        <pair id="DDI-DrugBank.d61.s0.p0" e1="DDI-DrugBank.d61.s0.e0"
+            e2="DDI-DrugBank.d61.s0.e1" ddi="false"/>
+        <pair id="DDI-DrugBank.d61.s0.p1" e1="DDI-DrugBank.d61.s0.e0"
+            e2="DDI-DrugBank.d61.s0.e2" ddi="false"/>
+        <pair id="DDI-DrugBank.d61.s0.p2" e1="DDI-DrugBank.d61.s0.e1"
+            e2="DDI-DrugBank.d61.s0.e2" ddi="false"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d61.s1" text="No formal drug-drug interaction studies, however, have been conducted."/>
+</document>

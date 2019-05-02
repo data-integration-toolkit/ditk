@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="DDI-DrugBank.d742">
+    <sentence id="DDI-DrugBank.d742.s0" text="As with other drugs, the potential for interaction by a variety of mechanisms (e.g., pharmacodynamic, pharmacokinetic inhibition or enhancement, etc.) "/>
+    <sentence id="DDI-DrugBank.d742.s1" text="is a possibility. "/>
+    <sentence id="DDI-DrugBank.d742.s2" text="Drugs Affecting Hepatic Metabolism The metabolism and pharmacokinetics of REMERON SolTab    (mirtazapine) Orally Disintegrating Tablets may be affected by the induction or inhibition of drug-metab-olizing enzymes. ">
+        <entity id="DDI-DrugBank.d742.s2.e0" charOffset="74-87"
+            type="brand" text="REMERON SolTab"/>
+        <entity id="DDI-DrugBank.d742.s2.e1" charOffset="93-103"
+            type="drug" text="mirtazapine"/>
+        <pair id="DDI-DrugBank.d742.s2.p0" e1="DDI-DrugBank.d742.s2.e0"
+            e2="DDI-DrugBank.d742.s2.e1" ddi="false"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d742.s3" text="Drugs that are Metabolized by and/or Inhibit Cytochrome P450 Enzymes Many drugs are metabolized by and/or inhibit various cytochrome P450 enzymes, e.g., 2D6, 1A2, 3A4, etc. "/>
+    <sentence id="DDI-DrugBank.d742.s4" text="In vitro studies have shown that mirtazapine is a substrate for several of these enzymes, including 2D6, 1A2, and 3A4. ">
+        <entity id="DDI-DrugBank.d742.s4.e0" charOffset="33-43"
+            type="drug" text="mirtazapine"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d742.s5" text="While in vitro studies have shown that mirtazapine is not a potent inhibitor of any of these enzymes, an indication that mirtazapine is not likely to have a clinically significant inhibitory effect on the metabolism of other drugs that are substrates for these cytochrome P450 enzymes, the concomitant use of REMERON SolTab with most other drugs metabolized by these enzymes has not been formally studied. ">
+        <entity id="DDI-DrugBank.d742.s5.e0" charOffset="39-49"
+            type="drug" text="mirtazapine"/>
+        <entity id="DDI-DrugBank.d742.s5.e1" charOffset="121-131"
+            type="drug" text="mirtazapine"/>
+        <entity id="DDI-DrugBank.d742.s5.e2" charOffset="309-322"
+            type="brand" text="REMERON SolTab"/>
+        <pair id="DDI-DrugBank.d742.s5.p0" e1="DDI-DrugBank.d742.s5.e0"
+            e2="DDI-DrugBank.d742.s5.e1" ddi="false"/>
+        <pair id="DDI-DrugBank.d742.s5.p1" e1="DDI-DrugBank.d742.s5.e0"
+            e2="DDI-DrugBank.d742.s5.e2" ddi="false"/>
+        <pair id="DDI-DrugBank.d742.s5.p2" e1="DDI-DrugBank.d742.s5.e1"
+            e2="DDI-DrugBank.d742.s5.e2" ddi="false"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d742.s6" text="Consequently, it is not possible to make any definitive statements about the risks of coadministration of REMERON SolTab    with such drugs. ">
+        <entity id="DDI-DrugBank.d742.s6.e0" charOffset="106-119"
+            type="brand" text="REMERON SolTab"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d742.s7" text="Alcohol: Concomitant administration of alcohol (equivalent to 60 g) had a minimal effect on plasma levels of mirtazapine (15 mg) in 6 healthy male subjects. ">
+        <entity id="DDI-DrugBank.d742.s7.e0" charOffset="0-6"
+            type="drug" text="Alcohol"/>
+        <entity id="DDI-DrugBank.d742.s7.e1" charOffset="39-45"
+            type="drug" text="alcohol"/>
+        <entity id="DDI-DrugBank.d742.s7.e2" charOffset="109-119"
+            type="drug" text="mirtazapine"/>
+        <pair id="DDI-DrugBank.d742.s7.p0" e1="DDI-DrugBank.d742.s7.e0"
+            e2="DDI-DrugBank.d742.s7.e1" ddi="false"/>
+        <pair id="DDI-DrugBank.d742.s7.p1" e1="DDI-DrugBank.d742.s7.e0"
+            e2="DDI-DrugBank.d742.s7.e2" ddi="false"/>
+        <pair id="DDI-DrugBank.d742.s7.p2" e1="DDI-DrugBank.d742.s7.e1"
+            e2="DDI-DrugBank.d742.s7.e2" ddi="true" type="mechanism"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d742.s8" text="However, the impairment of cognitive and motor skills produced by REMERON    were shown to be additive with those produced by alcohol. ">
+        <entity id="DDI-DrugBank.d742.s8.e0" charOffset="66-72"
+            type="brand" text="REMERON"/>
+        <entity id="DDI-DrugBank.d742.s8.e1" charOffset="126-132"
+            type="drug" text="alcohol"/>
+        <pair id="DDI-DrugBank.d742.s8.p0" e1="DDI-DrugBank.d742.s8.e0"
+            e2="DDI-DrugBank.d742.s8.e1" ddi="true" type="effect"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d742.s9" text="Accordingly, patients should be advised to avoid alcohol while taking REMERON SolTab. Diazepam: Concomitant administration of diazepam (15 mg) had a minimal effect on plasma levels of mirtazapine (15 mg) in 12 healthy subjects. ">
+        <entity id="DDI-DrugBank.d742.s9.e0" charOffset="49-55"
+            type="drug" text="alcohol"/>
+        <entity id="DDI-DrugBank.d742.s9.e1" charOffset="70-83"
+            type="brand" text="REMERON SolTab"/>
+        <entity id="DDI-DrugBank.d742.s9.e2" charOffset="86-93"
+            type="drug" text="Diazepam"/>
+        <entity id="DDI-DrugBank.d742.s9.e3" charOffset="126-133"
+            type="drug" text="diazepam"/>
+        <entity id="DDI-DrugBank.d742.s9.e4" charOffset="184-194"
+            type="drug" text="mirtazapine"/>
+        <pair id="DDI-DrugBank.d742.s9.p0" e1="DDI-DrugBank.d742.s9.e0"
+            e2="DDI-DrugBank.d742.s9.e1" ddi="true" type="advise"/>
+        <pair id="DDI-DrugBank.d742.s9.p1" e1="DDI-DrugBank.d742.s9.e0"
+            e2="DDI-DrugBank.d742.s9.e2" ddi="false"/>
+        <pair id="DDI-DrugBank.d742.s9.p2" e1="DDI-DrugBank.d742.s9.e0"
+            e2="DDI-DrugBank.d742.s9.e3" ddi="false"/>
+        <pair id="DDI-DrugBank.d742.s9.p3" e1="DDI-DrugBank.d742.s9.e0"
+            e2="DDI-DrugBank.d742.s9.e4" ddi="false"/>
+        <pair id="DDI-DrugBank.d742.s9.p4" e1="DDI-DrugBank.d742.s9.e1"
+            e2="DDI-DrugBank.d742.s9.e2" ddi="false"/>
+        <pair id="DDI-DrugBank.d742.s9.p5" e1="DDI-DrugBank.d742.s9.e1"
+            e2="DDI-DrugBank.d742.s9.e3" ddi="false"/>
+        <pair id="DDI-DrugBank.d742.s9.p6" e1="DDI-DrugBank.d742.s9.e1"
+            e2="DDI-DrugBank.d742.s9.e4" ddi="false"/>
+        <pair id="DDI-DrugBank.d742.s9.p7" e1="DDI-DrugBank.d742.s9.e2"
+            e2="DDI-DrugBank.d742.s9.e3" ddi="false"/>
+        <pair id="DDI-DrugBank.d742.s9.p8" e1="DDI-DrugBank.d742.s9.e2"
+            e2="DDI-DrugBank.d742.s9.e4" ddi="false"/>
+        <pair id="DDI-DrugBank.d742.s9.p9" e1="DDI-DrugBank.d742.s9.e3"
+            e2="DDI-DrugBank.d742.s9.e4" ddi="true" type="mechanism"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d742.s10" text="However, the impairment of motor skills produced by REMERON has been shown to be additive with those caused by diazepam. ">
+        <entity id="DDI-DrugBank.d742.s10.e0" charOffset="52-58"
+            type="brand" text="REMERON"/>
+        <entity id="DDI-DrugBank.d742.s10.e1" charOffset="111-118"
+            type="drug" text="diazepam"/>
+        <pair id="DDI-DrugBank.d742.s10.p0"
+            e1="DDI-DrugBank.d742.s10.e0" e2="DDI-DrugBank.d742.s10.e1"
+            ddi="true" type="effect"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d742.s11" text="Accordingly, patients should be advised to avoid diazepam and other similar drugs while taking REMERON SolTab.">
+        <entity id="DDI-DrugBank.d742.s11.e0" charOffset="49-56"
+            type="drug" text="diazepam"/>
+        <entity id="DDI-DrugBank.d742.s11.e1" charOffset="95-108"
+            type="brand" text="REMERON SolTab"/>
+        <pair id="DDI-DrugBank.d742.s11.p0"
+            e1="DDI-DrugBank.d742.s11.e0" e2="DDI-DrugBank.d742.s11.e1"
+            ddi="true" type="advise"/>
+    </sentence>
+</document>

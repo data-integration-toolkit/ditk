@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="DDI-DrugBank.d275">
+    <sentence id="DDI-DrugBank.d275.s0" text="No drug-drug interaction studies in human subjects have been conducted."/>
+    <sentence id="DDI-DrugBank.d275.s1" text="Toxicologic and toxicokinetic studies in rats did not demonstrate any alterations in the clearance or toxicologic profile of either methotrexate or Kineret when the two agents were administered together.">
+        <entity id="DDI-DrugBank.d275.s1.e0" charOffset="132-143"
+            type="drug" text="methotrexate"/>
+        <entity id="DDI-DrugBank.d275.s1.e1" charOffset="148-154"
+            type="brand" text="Kineret"/>
+        <pair id="DDI-DrugBank.d275.s1.p0" e1="DDI-DrugBank.d275.s1.e0"
+            e2="DDI-DrugBank.d275.s1.e1" ddi="false"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d275.s2" text="In a study in which patients with active RA were treated for up to 24 weeks with concurrent Kineret and etanercept therapy, a 7% rate of serious infections was observed, which was higher than that observed with etanercept alone (0%).">
+        <entity id="DDI-DrugBank.d275.s2.e0" charOffset="92-98"
+            type="brand" text="Kineret"/>
+        <entity id="DDI-DrugBank.d275.s2.e1" charOffset="104-113"
+            type="drug" text="etanercept"/>
+        <entity id="DDI-DrugBank.d275.s2.e2" charOffset="211-220"
+            type="drug" text="etanercept"/>
+        <pair id="DDI-DrugBank.d275.s2.p0" e1="DDI-DrugBank.d275.s2.e0"
+            e2="DDI-DrugBank.d275.s2.e1" ddi="true" type="effect"/>
+        <pair id="DDI-DrugBank.d275.s2.p1" e1="DDI-DrugBank.d275.s2.e0"
+            e2="DDI-DrugBank.d275.s2.e2" ddi="false"/>
+        <pair id="DDI-DrugBank.d275.s2.p2" e1="DDI-DrugBank.d275.s2.e1"
+            e2="DDI-DrugBank.d275.s2.e2" ddi="false"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d275.s3" text="Two percent of patients treated concurrently with Kineret and etanercept developed neutropenia (ANC  1 x 109/L).">
+        <entity id="DDI-DrugBank.d275.s3.e0" charOffset="50-56"
+            type="brand" text="Kineret"/>
+        <entity id="DDI-DrugBank.d275.s3.e1" charOffset="62-71"
+            type="drug" text="etanercept"/>
+        <pair id="DDI-DrugBank.d275.s3.p0" e1="DDI-DrugBank.d275.s3.e0"
+            e2="DDI-DrugBank.d275.s3.e1" ddi="true" type="effect"/>
+    </sentence>
+</document>

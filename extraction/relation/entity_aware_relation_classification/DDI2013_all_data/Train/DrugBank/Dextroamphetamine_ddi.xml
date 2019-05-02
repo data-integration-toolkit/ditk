@@ -1,0 +1,454 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="DDI-DrugBank.d236">
+    <sentence id="DDI-DrugBank.d236.s0" text="Acidifying agents: Gastrointestinal acidifying agents (guanethidine, reserpine, glutamic acid HCl, ascorbic acid, fruit juices, etc.) lower absorption of amphetamines.">
+        <entity id="DDI-DrugBank.d236.s0.e0" charOffset="0-16"
+            type="group" text="Acidifying agents"/>
+        <entity id="DDI-DrugBank.d236.s0.e1" charOffset="19-52"
+            type="group" text="Gastrointestinal acidifying agents"/>
+        <entity id="DDI-DrugBank.d236.s0.e2" charOffset="55-66"
+            type="drug" text="guanethidine"/>
+        <entity id="DDI-DrugBank.d236.s0.e3" charOffset="69-77"
+            type="drug" text="reserpine"/>
+        <entity id="DDI-DrugBank.d236.s0.e4" charOffset="80-96"
+            type="drug" text="glutamic acid HCl"/>
+        <entity id="DDI-DrugBank.d236.s0.e5" charOffset="99-111"
+            type="drug" text="ascorbic acid"/>
+        <entity id="DDI-DrugBank.d236.s0.e6" charOffset="154-165"
+            type="group" text="amphetamines"/>
+        <pair id="DDI-DrugBank.d236.s0.p0" e1="DDI-DrugBank.d236.s0.e0"
+            e2="DDI-DrugBank.d236.s0.e1" ddi="false"/>
+        <pair id="DDI-DrugBank.d236.s0.p1" e1="DDI-DrugBank.d236.s0.e0"
+            e2="DDI-DrugBank.d236.s0.e2" ddi="false"/>
+        <pair id="DDI-DrugBank.d236.s0.p2" e1="DDI-DrugBank.d236.s0.e0"
+            e2="DDI-DrugBank.d236.s0.e3" ddi="false"/>
+        <pair id="DDI-DrugBank.d236.s0.p3" e1="DDI-DrugBank.d236.s0.e0"
+            e2="DDI-DrugBank.d236.s0.e4" ddi="false"/>
+        <pair id="DDI-DrugBank.d236.s0.p4" e1="DDI-DrugBank.d236.s0.e0"
+            e2="DDI-DrugBank.d236.s0.e5" ddi="false"/>
+        <pair id="DDI-DrugBank.d236.s0.p5" e1="DDI-DrugBank.d236.s0.e0"
+            e2="DDI-DrugBank.d236.s0.e6" ddi="false"/>
+        <pair id="DDI-DrugBank.d236.s0.p6" e1="DDI-DrugBank.d236.s0.e1"
+            e2="DDI-DrugBank.d236.s0.e2" ddi="false"/>
+        <pair id="DDI-DrugBank.d236.s0.p7" e1="DDI-DrugBank.d236.s0.e1"
+            e2="DDI-DrugBank.d236.s0.e3" ddi="false"/>
+        <pair id="DDI-DrugBank.d236.s0.p8" e1="DDI-DrugBank.d236.s0.e1"
+            e2="DDI-DrugBank.d236.s0.e4" ddi="false"/>
+        <pair id="DDI-DrugBank.d236.s0.p9" e1="DDI-DrugBank.d236.s0.e1"
+            e2="DDI-DrugBank.d236.s0.e5" ddi="false"/>
+        <pair id="DDI-DrugBank.d236.s0.p10" e1="DDI-DrugBank.d236.s0.e1"
+            e2="DDI-DrugBank.d236.s0.e6" ddi="true" type="mechanism"/>
+        <pair id="DDI-DrugBank.d236.s0.p11" e1="DDI-DrugBank.d236.s0.e2"
+            e2="DDI-DrugBank.d236.s0.e3" ddi="false"/>
+        <pair id="DDI-DrugBank.d236.s0.p12" e1="DDI-DrugBank.d236.s0.e2"
+            e2="DDI-DrugBank.d236.s0.e4" ddi="false"/>
+        <pair id="DDI-DrugBank.d236.s0.p13" e1="DDI-DrugBank.d236.s0.e2"
+            e2="DDI-DrugBank.d236.s0.e5" ddi="false"/>
+        <pair id="DDI-DrugBank.d236.s0.p14" e1="DDI-DrugBank.d236.s0.e2"
+            e2="DDI-DrugBank.d236.s0.e6" ddi="true" type="mechanism"/>
+        <pair id="DDI-DrugBank.d236.s0.p15" e1="DDI-DrugBank.d236.s0.e3"
+            e2="DDI-DrugBank.d236.s0.e4" ddi="false"/>
+        <pair id="DDI-DrugBank.d236.s0.p16" e1="DDI-DrugBank.d236.s0.e3"
+            e2="DDI-DrugBank.d236.s0.e5" ddi="false"/>
+        <pair id="DDI-DrugBank.d236.s0.p17" e1="DDI-DrugBank.d236.s0.e3"
+            e2="DDI-DrugBank.d236.s0.e6" ddi="true" type="mechanism"/>
+        <pair id="DDI-DrugBank.d236.s0.p18" e1="DDI-DrugBank.d236.s0.e4"
+            e2="DDI-DrugBank.d236.s0.e5" ddi="false"/>
+        <pair id="DDI-DrugBank.d236.s0.p19" e1="DDI-DrugBank.d236.s0.e4"
+            e2="DDI-DrugBank.d236.s0.e6" ddi="true" type="mechanism"/>
+        <pair id="DDI-DrugBank.d236.s0.p20" e1="DDI-DrugBank.d236.s0.e5"
+            e2="DDI-DrugBank.d236.s0.e6" ddi="true" type="mechanism"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d236.s1" text="Urinary acidifying agents (ammonium chloride, sodium acid phosphate, etc.) increase the concentration of the ionized species of the amphetamine molecule, thereby increasing urinary excretion.">
+        <entity id="DDI-DrugBank.d236.s1.e0" charOffset="0-24"
+            type="group" text="Urinary acidifying agents"/>
+        <entity id="DDI-DrugBank.d236.s1.e1" charOffset="27-43"
+            type="drug" text="ammonium chloride"/>
+        <entity id="DDI-DrugBank.d236.s1.e2" charOffset="46-66"
+            type="drug" text="sodium acid phosphate"/>
+        <entity id="DDI-DrugBank.d236.s1.e3" charOffset="132-142"
+            type="drug" text="amphetamine"/>
+        <pair id="DDI-DrugBank.d236.s1.p0" e1="DDI-DrugBank.d236.s1.e0"
+            e2="DDI-DrugBank.d236.s1.e1" ddi="false"/>
+        <pair id="DDI-DrugBank.d236.s1.p1" e1="DDI-DrugBank.d236.s1.e0"
+            e2="DDI-DrugBank.d236.s1.e2" ddi="false"/>
+        <pair id="DDI-DrugBank.d236.s1.p2" e1="DDI-DrugBank.d236.s1.e0"
+            e2="DDI-DrugBank.d236.s1.e3" ddi="true" type="mechanism"/>
+        <pair id="DDI-DrugBank.d236.s1.p3" e1="DDI-DrugBank.d236.s1.e1"
+            e2="DDI-DrugBank.d236.s1.e2" ddi="false"/>
+        <pair id="DDI-DrugBank.d236.s1.p4" e1="DDI-DrugBank.d236.s1.e1"
+            e2="DDI-DrugBank.d236.s1.e3" ddi="true" type="mechanism"/>
+        <pair id="DDI-DrugBank.d236.s1.p5" e1="DDI-DrugBank.d236.s1.e2"
+            e2="DDI-DrugBank.d236.s1.e3" ddi="true" type="mechanism"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d236.s2" text="Both groups of agents lower blood levels and efficacy of amphetamines.">
+        <entity id="DDI-DrugBank.d236.s2.e0" charOffset="57-68"
+            type="group" text="amphetamines"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d236.s3" text="Adrenergic blockers: Adrenergic blockers are inhibited by amphetamines.">
+        <entity id="DDI-DrugBank.d236.s3.e0" charOffset="0-18"
+            type="group" text="Adrenergic blockers"/>
+        <entity id="DDI-DrugBank.d236.s3.e1" charOffset="21-39"
+            type="group" text="Adrenergic blockers"/>
+        <entity id="DDI-DrugBank.d236.s3.e2" charOffset="58-69"
+            type="group" text="amphetamines"/>
+        <pair id="DDI-DrugBank.d236.s3.p0" e1="DDI-DrugBank.d236.s3.e0"
+            e2="DDI-DrugBank.d236.s3.e1" ddi="false"/>
+        <pair id="DDI-DrugBank.d236.s3.p1" e1="DDI-DrugBank.d236.s3.e0"
+            e2="DDI-DrugBank.d236.s3.e2" ddi="false"/>
+        <pair id="DDI-DrugBank.d236.s3.p2" e1="DDI-DrugBank.d236.s3.e1"
+            e2="DDI-DrugBank.d236.s3.e2" ddi="true" type="effect"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d236.s4" text="Alkalinizing agents: Gastrointestinal alkalinizing agents (sodium bicarbonate, etc.) increase absorption of amphetamines.">
+        <entity id="DDI-DrugBank.d236.s4.e0" charOffset="59-76"
+            type="drug" text="sodium bicarbonate"/>
+        <entity id="DDI-DrugBank.d236.s4.e1" charOffset="108-119"
+            type="drug" text="amphetamines"/>
+        <pair id="DDI-DrugBank.d236.s4.p0" e1="DDI-DrugBank.d236.s4.e0"
+            e2="DDI-DrugBank.d236.s4.e1" ddi="true" type="mechanism"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d236.s5" text="Urinary alkalinizing agents (acetazolamide, some thiazides) increase the concentration of the non-ionized species of the amphetamine molecule, thereby decreasing urinary excretion.">
+        <entity id="DDI-DrugBank.d236.s5.e0" charOffset="29-41"
+            type="drug" text="acetazolamide"/>
+        <entity id="DDI-DrugBank.d236.s5.e1" charOffset="49-57"
+            type="group" text="thiazides"/>
+        <entity id="DDI-DrugBank.d236.s5.e2" charOffset="121-131"
+            type="drug" text="amphetamine"/>
+        <pair id="DDI-DrugBank.d236.s5.p0" e1="DDI-DrugBank.d236.s5.e0"
+            e2="DDI-DrugBank.d236.s5.e1" ddi="false"/>
+        <pair id="DDI-DrugBank.d236.s5.p1" e1="DDI-DrugBank.d236.s5.e0"
+            e2="DDI-DrugBank.d236.s5.e2" ddi="true" type="mechanism"/>
+        <pair id="DDI-DrugBank.d236.s5.p2" e1="DDI-DrugBank.d236.s5.e1"
+            e2="DDI-DrugBank.d236.s5.e2" ddi="true" type="mechanism"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d236.s6" text="Both groups of agents increase blood levels and therefore potentiate the actions of amphetamines.">
+        <entity id="DDI-DrugBank.d236.s6.e0" charOffset="84-95"
+            type="group" text="amphetamines"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d236.s7" text="Antidepressants, tricyclic: Amphetamines may enhance the activity of tricyclic or sympathomimetic agents;">
+        <entity id="DDI-DrugBank.d236.s7.e0" charOffset="0-14"
+            type="group" text="Antidepressants"/>
+        <entity id="DDI-DrugBank.d236.s7.e1" charOffset="17-25"
+            type="group" text="tricyclic"/>
+        <entity id="DDI-DrugBank.d236.s7.e2" charOffset="28-39"
+            type="group" text="Amphetamines"/>
+        <entity id="DDI-DrugBank.d236.s7.e3" charOffset="69-77"
+            type="group" text="tricyclic"/>
+        <entity id="DDI-DrugBank.d236.s7.e4" charOffset="82-103"
+            type="group" text="sympathomimetic agents"/>
+        <pair id="DDI-DrugBank.d236.s7.p0" e1="DDI-DrugBank.d236.s7.e0"
+            e2="DDI-DrugBank.d236.s7.e1" ddi="false"/>
+        <pair id="DDI-DrugBank.d236.s7.p1" e1="DDI-DrugBank.d236.s7.e0"
+            e2="DDI-DrugBank.d236.s7.e2" ddi="false"/>
+        <pair id="DDI-DrugBank.d236.s7.p2" e1="DDI-DrugBank.d236.s7.e0"
+            e2="DDI-DrugBank.d236.s7.e3" ddi="false"/>
+        <pair id="DDI-DrugBank.d236.s7.p3" e1="DDI-DrugBank.d236.s7.e0"
+            e2="DDI-DrugBank.d236.s7.e4" ddi="false"/>
+        <pair id="DDI-DrugBank.d236.s7.p4" e1="DDI-DrugBank.d236.s7.e1"
+            e2="DDI-DrugBank.d236.s7.e2" ddi="false"/>
+        <pair id="DDI-DrugBank.d236.s7.p5" e1="DDI-DrugBank.d236.s7.e1"
+            e2="DDI-DrugBank.d236.s7.e3" ddi="false"/>
+        <pair id="DDI-DrugBank.d236.s7.p6" e1="DDI-DrugBank.d236.s7.e1"
+            e2="DDI-DrugBank.d236.s7.e4" ddi="false"/>
+        <pair id="DDI-DrugBank.d236.s7.p7" e1="DDI-DrugBank.d236.s7.e2"
+            e2="DDI-DrugBank.d236.s7.e3" ddi="true" type="effect"/>
+        <pair id="DDI-DrugBank.d236.s7.p8" e1="DDI-DrugBank.d236.s7.e2"
+            e2="DDI-DrugBank.d236.s7.e4" ddi="true" type="effect"/>
+        <pair id="DDI-DrugBank.d236.s7.p9" e1="DDI-DrugBank.d236.s7.e3"
+            e2="DDI-DrugBank.d236.s7.e4" ddi="false"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d236.s8" text="d-amphetamine with desipramine or protriptyline and possibly other tricyclics cause striking and sustained increases in the concentration of d-amphetamine in the brain;">
+        <entity id="DDI-DrugBank.d236.s8.e0" charOffset="0-12"
+            type="drug" text="d-amphetamine"/>
+        <entity id="DDI-DrugBank.d236.s8.e1" charOffset="19-29"
+            type="drug" text="desipramine"/>
+        <entity id="DDI-DrugBank.d236.s8.e2" charOffset="34-46"
+            type="drug" text="protriptyline"/>
+        <entity id="DDI-DrugBank.d236.s8.e3" charOffset="67-76"
+            type="group" text="tricyclics"/>
+        <entity id="DDI-DrugBank.d236.s8.e4" charOffset="141-153"
+            type="drug" text="d-amphetamine"/>
+        <pair id="DDI-DrugBank.d236.s8.p0" e1="DDI-DrugBank.d236.s8.e0"
+            e2="DDI-DrugBank.d236.s8.e1" ddi="true" type="mechanism"/>
+        <pair id="DDI-DrugBank.d236.s8.p1" e1="DDI-DrugBank.d236.s8.e0"
+            e2="DDI-DrugBank.d236.s8.e2" ddi="true" type="mechanism"/>
+        <pair id="DDI-DrugBank.d236.s8.p2" e1="DDI-DrugBank.d236.s8.e0"
+            e2="DDI-DrugBank.d236.s8.e3" ddi="true" type="mechanism"/>
+        <pair id="DDI-DrugBank.d236.s8.p3" e1="DDI-DrugBank.d236.s8.e0"
+            e2="DDI-DrugBank.d236.s8.e4" ddi="false"/>
+        <pair id="DDI-DrugBank.d236.s8.p4" e1="DDI-DrugBank.d236.s8.e1"
+            e2="DDI-DrugBank.d236.s8.e2" ddi="false"/>
+        <pair id="DDI-DrugBank.d236.s8.p5" e1="DDI-DrugBank.d236.s8.e1"
+            e2="DDI-DrugBank.d236.s8.e3" ddi="false"/>
+        <pair id="DDI-DrugBank.d236.s8.p6" e1="DDI-DrugBank.d236.s8.e1"
+            e2="DDI-DrugBank.d236.s8.e4" ddi="false"/>
+        <pair id="DDI-DrugBank.d236.s8.p7" e1="DDI-DrugBank.d236.s8.e2"
+            e2="DDI-DrugBank.d236.s8.e3" ddi="false"/>
+        <pair id="DDI-DrugBank.d236.s8.p8" e1="DDI-DrugBank.d236.s8.e2"
+            e2="DDI-DrugBank.d236.s8.e4" ddi="false"/>
+        <pair id="DDI-DrugBank.d236.s8.p9" e1="DDI-DrugBank.d236.s8.e3"
+            e2="DDI-DrugBank.d236.s8.e4" ddi="false"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d236.s9" text="cardiovascular effects can be potentiated."/>
+    <sentence id="DDI-DrugBank.d236.s10" text="MAO inhibitors: MAOI antidepressants, as well as a metabolite of furazolidone, slow amphetamine metabolism.">
+        <entity id="DDI-DrugBank.d236.s10.e0" charOffset="0-13"
+            type="group" text="MAO inhibitors"/>
+        <entity id="DDI-DrugBank.d236.s10.e1" charOffset="16-35"
+            type="group" text="MAOI antidepressants"/>
+        <entity id="DDI-DrugBank.d236.s10.e2" charOffset="65-76"
+            type="drug" text="furazolidone"/>
+        <entity id="DDI-DrugBank.d236.s10.e3" charOffset="84-94"
+            type="group" text="amphetamine"/>
+        <pair id="DDI-DrugBank.d236.s10.p0"
+            e1="DDI-DrugBank.d236.s10.e0" e2="DDI-DrugBank.d236.s10.e1" ddi="false"/>
+        <pair id="DDI-DrugBank.d236.s10.p1"
+            e1="DDI-DrugBank.d236.s10.e0" e2="DDI-DrugBank.d236.s10.e2" ddi="false"/>
+        <pair id="DDI-DrugBank.d236.s10.p2"
+            e1="DDI-DrugBank.d236.s10.e0" e2="DDI-DrugBank.d236.s10.e3" ddi="false"/>
+        <pair id="DDI-DrugBank.d236.s10.p3"
+            e1="DDI-DrugBank.d236.s10.e1" e2="DDI-DrugBank.d236.s10.e2" ddi="false"/>
+        <pair id="DDI-DrugBank.d236.s10.p4"
+            e1="DDI-DrugBank.d236.s10.e1" e2="DDI-DrugBank.d236.s10.e3"
+            ddi="true" type="mechanism"/>
+        <pair id="DDI-DrugBank.d236.s10.p5"
+            e1="DDI-DrugBank.d236.s10.e2" e2="DDI-DrugBank.d236.s10.e3"
+            ddi="true" type="mechanism"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d236.s11" text="This slowing potentiates amphetamines, increasing their effect on the release of norepinephrine and other monoamines from adrenergic nerve endings;">
+        <entity id="DDI-DrugBank.d236.s11.e0" charOffset="25-36"
+            type="group" text="amphetamines"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d236.s12" text="this can cause headaches and other signs of hypertensive crisis."/>
+    <sentence id="DDI-DrugBank.d236.s13" text="A variety of neurological toxic effects and malignant hyperpyrexia can occur, sometimes with fatal results."/>
+    <sentence id="DDI-DrugBank.d236.s14" text="Antihistamines: Amphetamines may counteract the sedative effect of antihistamines.">
+        <entity id="DDI-DrugBank.d236.s14.e0" charOffset="0-13"
+            type="group" text="Antihistamines"/>
+        <entity id="DDI-DrugBank.d236.s14.e1" charOffset="16-27"
+            type="group" text="Amphetamines"/>
+        <entity id="DDI-DrugBank.d236.s14.e2" charOffset="67-80"
+            type="group" text="antihistamines"/>
+        <pair id="DDI-DrugBank.d236.s14.p0"
+            e1="DDI-DrugBank.d236.s14.e0" e2="DDI-DrugBank.d236.s14.e1" ddi="false"/>
+        <pair id="DDI-DrugBank.d236.s14.p1"
+            e1="DDI-DrugBank.d236.s14.e0" e2="DDI-DrugBank.d236.s14.e2" ddi="false"/>
+        <pair id="DDI-DrugBank.d236.s14.p2"
+            e1="DDI-DrugBank.d236.s14.e1" e2="DDI-DrugBank.d236.s14.e2"
+            ddi="true" type="effect"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d236.s15" text="Antihypertensives: Amphetamines may antagonize the hypotensive effects of antihypertensives.">
+        <entity id="DDI-DrugBank.d236.s15.e0" charOffset="0-16"
+            type="group" text="Antihypertensives"/>
+        <entity id="DDI-DrugBank.d236.s15.e1" charOffset="19-30"
+            type="group" text="Amphetamines"/>
+        <entity id="DDI-DrugBank.d236.s15.e2" charOffset="74-90"
+            type="group" text="antihypertensives"/>
+        <pair id="DDI-DrugBank.d236.s15.p0"
+            e1="DDI-DrugBank.d236.s15.e0" e2="DDI-DrugBank.d236.s15.e1" ddi="false"/>
+        <pair id="DDI-DrugBank.d236.s15.p1"
+            e1="DDI-DrugBank.d236.s15.e0" e2="DDI-DrugBank.d236.s15.e2" ddi="false"/>
+        <pair id="DDI-DrugBank.d236.s15.p2"
+            e1="DDI-DrugBank.d236.s15.e1" e2="DDI-DrugBank.d236.s15.e2"
+            ddi="true" type="effect"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d236.s16" text="Chlorpromazine: Chlorpromazine blocks dopamine and norepinephrine reuptake, thus inhibiting the central stimulant effects of amphetamines, and can be used to treat amphetamine poisoning.">
+        <entity id="DDI-DrugBank.d236.s16.e0" charOffset="0-13"
+            type="drug" text="Chlorpromazine"/>
+        <entity id="DDI-DrugBank.d236.s16.e1" charOffset="16-29"
+            type="drug" text="Chlorpromazine"/>
+        <entity id="DDI-DrugBank.d236.s16.e2" charOffset="125-136"
+            type="group" text="amphetamines"/>
+        <entity id="DDI-DrugBank.d236.s16.e3" charOffset="164-174"
+            type="group" text="amphetamine"/>
+        <pair id="DDI-DrugBank.d236.s16.p0"
+            e1="DDI-DrugBank.d236.s16.e0" e2="DDI-DrugBank.d236.s16.e1" ddi="false"/>
+        <pair id="DDI-DrugBank.d236.s16.p1"
+            e1="DDI-DrugBank.d236.s16.e0" e2="DDI-DrugBank.d236.s16.e2" ddi="false"/>
+        <pair id="DDI-DrugBank.d236.s16.p2"
+            e1="DDI-DrugBank.d236.s16.e0" e2="DDI-DrugBank.d236.s16.e3" ddi="false"/>
+        <pair id="DDI-DrugBank.d236.s16.p3"
+            e1="DDI-DrugBank.d236.s16.e1" e2="DDI-DrugBank.d236.s16.e2"
+            ddi="true" type="effect"/>
+        <pair id="DDI-DrugBank.d236.s16.p4"
+            e1="DDI-DrugBank.d236.s16.e1" e2="DDI-DrugBank.d236.s16.e3" ddi="false"/>
+        <pair id="DDI-DrugBank.d236.s16.p5"
+            e1="DDI-DrugBank.d236.s16.e2" e2="DDI-DrugBank.d236.s16.e3" ddi="false"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d236.s17" text="Ethosuximide: Amphetamines may delay intestinal absorption of ethosuximide.">
+        <entity id="DDI-DrugBank.d236.s17.e0" charOffset="0-11"
+            type="drug" text="Ethosuximide"/>
+        <entity id="DDI-DrugBank.d236.s17.e1" charOffset="14-25"
+            type="group" text="Amphetamines"/>
+        <entity id="DDI-DrugBank.d236.s17.e2" charOffset="62-73"
+            type="drug" text="ethosuximide"/>
+        <pair id="DDI-DrugBank.d236.s17.p0"
+            e1="DDI-DrugBank.d236.s17.e0" e2="DDI-DrugBank.d236.s17.e1" ddi="false"/>
+        <pair id="DDI-DrugBank.d236.s17.p1"
+            e1="DDI-DrugBank.d236.s17.e0" e2="DDI-DrugBank.d236.s17.e2" ddi="false"/>
+        <pair id="DDI-DrugBank.d236.s17.p2"
+            e1="DDI-DrugBank.d236.s17.e1" e2="DDI-DrugBank.d236.s17.e2"
+            ddi="true" type="mechanism"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d236.s18" text="Haloperidol: Haloperidol blocks dopamine and norepinephrine reuptake, thus inhibiting the central stimulant effects of amphetamines.">
+        <entity id="DDI-DrugBank.d236.s18.e0" charOffset="0-10"
+            type="drug" text="Haloperidol"/>
+        <entity id="DDI-DrugBank.d236.s18.e1" charOffset="13-23"
+            type="drug" text="Haloperidol"/>
+        <entity id="DDI-DrugBank.d236.s18.e2" charOffset="119-130"
+            type="group" text="amphetamines"/>
+        <pair id="DDI-DrugBank.d236.s18.p0"
+            e1="DDI-DrugBank.d236.s18.e0" e2="DDI-DrugBank.d236.s18.e1" ddi="false"/>
+        <pair id="DDI-DrugBank.d236.s18.p1"
+            e1="DDI-DrugBank.d236.s18.e0" e2="DDI-DrugBank.d236.s18.e2" ddi="false"/>
+        <pair id="DDI-DrugBank.d236.s18.p2"
+            e1="DDI-DrugBank.d236.s18.e1" e2="DDI-DrugBank.d236.s18.e2"
+            ddi="true" type="effect"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d236.s19" text="Lithium carbonate: The stimulatory effects of amphetamines may be inhibited by lithium carbonate.">
+        <entity id="DDI-DrugBank.d236.s19.e0" charOffset="0-16"
+            type="drug" text="Lithium carbonate"/>
+        <entity id="DDI-DrugBank.d236.s19.e1" charOffset="46-57"
+            type="group" text="amphetamines"/>
+        <entity id="DDI-DrugBank.d236.s19.e2" charOffset="79-95"
+            type="drug" text="lithium carbonate"/>
+        <pair id="DDI-DrugBank.d236.s19.p0"
+            e1="DDI-DrugBank.d236.s19.e0" e2="DDI-DrugBank.d236.s19.e1" ddi="false"/>
+        <pair id="DDI-DrugBank.d236.s19.p1"
+            e1="DDI-DrugBank.d236.s19.e0" e2="DDI-DrugBank.d236.s19.e2" ddi="false"/>
+        <pair id="DDI-DrugBank.d236.s19.p2"
+            e1="DDI-DrugBank.d236.s19.e1" e2="DDI-DrugBank.d236.s19.e2"
+            ddi="true" type="effect"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d236.s20" text="Meperidine: Amphetamines potentiate the analgesic effect of meperidine.">
+        <entity id="DDI-DrugBank.d236.s20.e0" charOffset="0-9"
+            type="drug" text="Meperidine"/>
+        <entity id="DDI-DrugBank.d236.s20.e1" charOffset="12-23"
+            type="group" text="Amphetamines"/>
+        <entity id="DDI-DrugBank.d236.s20.e2" charOffset="60-69"
+            type="drug" text="meperidine"/>
+        <pair id="DDI-DrugBank.d236.s20.p0"
+            e1="DDI-DrugBank.d236.s20.e0" e2="DDI-DrugBank.d236.s20.e1" ddi="false"/>
+        <pair id="DDI-DrugBank.d236.s20.p1"
+            e1="DDI-DrugBank.d236.s20.e0" e2="DDI-DrugBank.d236.s20.e2" ddi="false"/>
+        <pair id="DDI-DrugBank.d236.s20.p2"
+            e1="DDI-DrugBank.d236.s20.e1" e2="DDI-DrugBank.d236.s20.e2"
+            ddi="true" type="effect"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d236.s21" text="Methenamine therapy: Urinary excretion of amphetamines is increased, and efficacy is reduced, by acidifying agents used in methenamine therapy.">
+        <entity id="DDI-DrugBank.d236.s21.e0" charOffset="0-10"
+            type="drug" text="Methenamine"/>
+        <entity id="DDI-DrugBank.d236.s21.e1" charOffset="42-53"
+            type="group" text="amphetamines"/>
+        <entity id="DDI-DrugBank.d236.s21.e2" charOffset="97-113"
+            type="group" text="acidifying agents"/>
+        <entity id="DDI-DrugBank.d236.s21.e3" charOffset="123-133"
+            type="drug" text="methenamine"/>
+        <pair id="DDI-DrugBank.d236.s21.p0"
+            e1="DDI-DrugBank.d236.s21.e0" e2="DDI-DrugBank.d236.s21.e1" ddi="false"/>
+        <pair id="DDI-DrugBank.d236.s21.p1"
+            e1="DDI-DrugBank.d236.s21.e0" e2="DDI-DrugBank.d236.s21.e2" ddi="false"/>
+        <pair id="DDI-DrugBank.d236.s21.p2"
+            e1="DDI-DrugBank.d236.s21.e0" e2="DDI-DrugBank.d236.s21.e3" ddi="false"/>
+        <pair id="DDI-DrugBank.d236.s21.p3"
+            e1="DDI-DrugBank.d236.s21.e1" e2="DDI-DrugBank.d236.s21.e2"
+            ddi="true" type="mechanism"/>
+        <pair id="DDI-DrugBank.d236.s21.p4"
+            e1="DDI-DrugBank.d236.s21.e1" e2="DDI-DrugBank.d236.s21.e3" ddi="false"/>
+        <pair id="DDI-DrugBank.d236.s21.p5"
+            e1="DDI-DrugBank.d236.s21.e2" e2="DDI-DrugBank.d236.s21.e3" ddi="false"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d236.s22" text="Norepinephrine: Amphetamines enhance the adrenergic effect of norepinephrine.">
+        <entity id="DDI-DrugBank.d236.s22.e0" charOffset="0-13"
+            type="drug" text="Norepinephrine"/>
+        <entity id="DDI-DrugBank.d236.s22.e1" charOffset="16-27"
+            type="group" text="Amphetamines"/>
+        <entity id="DDI-DrugBank.d236.s22.e2" charOffset="62-75"
+            type="drug" text="norepinephrine"/>
+        <pair id="DDI-DrugBank.d236.s22.p0"
+            e1="DDI-DrugBank.d236.s22.e0" e2="DDI-DrugBank.d236.s22.e1" ddi="false"/>
+        <pair id="DDI-DrugBank.d236.s22.p1"
+            e1="DDI-DrugBank.d236.s22.e0" e2="DDI-DrugBank.d236.s22.e2" ddi="false"/>
+        <pair id="DDI-DrugBank.d236.s22.p2"
+            e1="DDI-DrugBank.d236.s22.e1" e2="DDI-DrugBank.d236.s22.e2"
+            ddi="true" type="effect"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d236.s23" text="Phenobarbital: Amphetamines may delay intestinal absorption of phenobarbital;">
+        <entity id="DDI-DrugBank.d236.s23.e0" charOffset="0-12"
+            type="drug" text="Phenobarbital"/>
+        <entity id="DDI-DrugBank.d236.s23.e1" charOffset="15-26"
+            type="group" text="Amphetamines"/>
+        <entity id="DDI-DrugBank.d236.s23.e2" charOffset="63-75"
+            type="drug" text="phenobarbital"/>
+        <pair id="DDI-DrugBank.d236.s23.p0"
+            e1="DDI-DrugBank.d236.s23.e0" e2="DDI-DrugBank.d236.s23.e1" ddi="false"/>
+        <pair id="DDI-DrugBank.d236.s23.p1"
+            e1="DDI-DrugBank.d236.s23.e0" e2="DDI-DrugBank.d236.s23.e2" ddi="false"/>
+        <pair id="DDI-DrugBank.d236.s23.p2"
+            e1="DDI-DrugBank.d236.s23.e1" e2="DDI-DrugBank.d236.s23.e2"
+            ddi="true" type="mechanism"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d236.s24" text="co-administration of phenobarbital may produce a synergistic anticonvulsant action.">
+        <entity id="DDI-DrugBank.d236.s24.e0" charOffset="21-33"
+            type="drug" text="phenobarbital"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d236.s25" text="Phenytoin: Amphetamines may delay intestinal absorption of phenytoin;">
+        <entity id="DDI-DrugBank.d236.s25.e0" charOffset="0-8"
+            type="drug" text="Phenytoin"/>
+        <entity id="DDI-DrugBank.d236.s25.e1" charOffset="11-22"
+            type="group" text="Amphetamines"/>
+        <entity id="DDI-DrugBank.d236.s25.e2" charOffset="59-67"
+            type="drug" text="phenytoin"/>
+        <pair id="DDI-DrugBank.d236.s25.p0"
+            e1="DDI-DrugBank.d236.s25.e0" e2="DDI-DrugBank.d236.s25.e1" ddi="false"/>
+        <pair id="DDI-DrugBank.d236.s25.p1"
+            e1="DDI-DrugBank.d236.s25.e0" e2="DDI-DrugBank.d236.s25.e2" ddi="false"/>
+        <pair id="DDI-DrugBank.d236.s25.p2"
+            e1="DDI-DrugBank.d236.s25.e1" e2="DDI-DrugBank.d236.s25.e2"
+            ddi="true" type="mechanism"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d236.s26" text="co-administration of phenytoin may produce a synergistic anticonvulsant action.">
+        <entity id="DDI-DrugBank.d236.s26.e0" charOffset="21-29"
+            type="drug" text="phenytoin"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d236.s27" text="Propoxyphene: In cases of propoxyphene overdosage, amphetamine CNS stimulation is potentiated and fatal convulsions can occur.">
+        <entity id="DDI-DrugBank.d236.s27.e0" charOffset="0-11"
+            type="drug" text="Propoxyphene"/>
+        <entity id="DDI-DrugBank.d236.s27.e1" charOffset="26-37"
+            type="drug" text="propoxyphene"/>
+        <entity id="DDI-DrugBank.d236.s27.e2" charOffset="51-61"
+            type="group" text="amphetamine"/>
+        <pair id="DDI-DrugBank.d236.s27.p0"
+            e1="DDI-DrugBank.d236.s27.e0" e2="DDI-DrugBank.d236.s27.e1" ddi="false"/>
+        <pair id="DDI-DrugBank.d236.s27.p1"
+            e1="DDI-DrugBank.d236.s27.e0" e2="DDI-DrugBank.d236.s27.e2" ddi="false"/>
+        <pair id="DDI-DrugBank.d236.s27.p2"
+            e1="DDI-DrugBank.d236.s27.e1" e2="DDI-DrugBank.d236.s27.e2"
+            ddi="true" type="effect"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d236.s28" text="Veratrum alkaloids: Amphetamines inhibit the hypotensive effect of veratrum alkaloids.">
+        <entity id="DDI-DrugBank.d236.s28.e0" charOffset="0-17"
+            type="group" text="Veratrum alkaloids"/>
+        <entity id="DDI-DrugBank.d236.s28.e1" charOffset="20-31"
+            type="group" text="Amphetamines"/>
+        <entity id="DDI-DrugBank.d236.s28.e2" charOffset="67-84"
+            type="group" text="veratrum alkaloids"/>
+        <pair id="DDI-DrugBank.d236.s28.p0"
+            e1="DDI-DrugBank.d236.s28.e0" e2="DDI-DrugBank.d236.s28.e1" ddi="false"/>
+        <pair id="DDI-DrugBank.d236.s28.p1"
+            e1="DDI-DrugBank.d236.s28.e0" e2="DDI-DrugBank.d236.s28.e2" ddi="false"/>
+        <pair id="DDI-DrugBank.d236.s28.p2"
+            e1="DDI-DrugBank.d236.s28.e1" e2="DDI-DrugBank.d236.s28.e2"
+            ddi="true" type="effect"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d236.s29" text="Drug/Laboratory Test Interactions: Amphetamines can cause a significant elevation in plasma corticosteroid levels.">
+        <entity id="DDI-DrugBank.d236.s29.e0" charOffset="35-46"
+            type="group" text="Amphetamines"/>
+        <entity id="DDI-DrugBank.d236.s29.e1" charOffset="92-105"
+            type="group" text="corticosteroid"/>
+        <pair id="DDI-DrugBank.d236.s29.p0"
+            e1="DDI-DrugBank.d236.s29.e0" e2="DDI-DrugBank.d236.s29.e1" ddi="true"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d236.s30" text="This increase is greatest in the evening."/>
+    <sentence id="DDI-DrugBank.d236.s31" text="Amphetamines may interfere with urinary steroid determinations.">
+        <entity id="DDI-DrugBank.d236.s31.e0" charOffset="0-11"
+            type="group" text="Amphetamines"/>
+    </sentence>
+</document>

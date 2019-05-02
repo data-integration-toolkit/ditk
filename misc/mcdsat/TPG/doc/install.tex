@@ -1,0 +1,41 @@
+
+\section{Getting TPG}
+
+\subsection{Source code}
+
+TPG is freely available on its web page (\url{http://christophe.delord.free.fr/en/tpg}). It is distributed as a package using \emph{distutils}\footnote{distutils is a Python package used to distribute Python softwares}.
+
+\subsection{Debian package}
+
+TPG is no (yet) included in the official debian packet list but Mike O'Connor has kindly built a tpg packet. Just add the following line to /etc/apt/sources.list:
+deb~http://vireo.org/debian/tpg/~binary/
+
+TPG is also available at Logilab:
+deb~ftp://ftp.logilab.org/pub/debian~unstable/
+
+\section{Requirements}
+
+TPG is a \emph{pure Python} package.
+It may run on \emph{any platform} supported by Python.
+The only requirement of TPG is \emph{Python~2.2} or newer. Python can be downloaded at \url{http://www.python.org}.
+
+\section{TPG for Linux and other Unix like}                 \label{linux_install}
+
+Download \mbox{\emph{TPG-X.Y.Z.tar.gz}}, unpack and run the installation program:
+\begin{quote}
+\begin{verbatim}
+    tar xzf TPG-X.Y.Z.tar.gz
+    cd TPG-X.Y.Z
+    python setup.py install
+\end{verbatim}
+\end{quote}
+You may need to be logged as root to install TPG.
+
+\section{TPG for M\$ Windows}
+
+Download \mbox{\emph{TPG-X.Y.Z.win32.exe}} and run it.
+Since I only use Linux I provide this executable without testing.
+
+\section{TPG for other operating systems}
+
+TPG should run on any system provided that Python is installed. You should be able to install it by running the \mbox{\emph{setup.py}} script (see~\ref{linux_install}).

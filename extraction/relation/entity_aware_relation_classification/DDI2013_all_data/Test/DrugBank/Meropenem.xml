@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="DDI-DrugBank.d762">
+    <sentence id="DDI-DrugBank.d762.s0" text="Probenecid competes with meropenem for active tubular secretion and thus inhibits the renal excretion of meropenem. ">
+        <entity id="DDI-DrugBank.d762.s0.e0" charOffset="0-9"
+            type="drug" text="Probenecid"/>
+        <entity id="DDI-DrugBank.d762.s0.e1" charOffset="25-33"
+            type="drug" text="meropenem"/>
+        <entity id="DDI-DrugBank.d762.s0.e2" charOffset="105-113"
+            type="drug" text="meropenem"/>
+        <pair id="DDI-DrugBank.d762.s0.p0" e1="DDI-DrugBank.d762.s0.e0"
+            e2="DDI-DrugBank.d762.s0.e1" ddi="true" type="mechanism"/>
+        <pair id="DDI-DrugBank.d762.s0.p1" e1="DDI-DrugBank.d762.s0.e0"
+            e2="DDI-DrugBank.d762.s0.e2" ddi="false"/>
+        <pair id="DDI-DrugBank.d762.s0.p2" e1="DDI-DrugBank.d762.s0.e1"
+            e2="DDI-DrugBank.d762.s0.e2" ddi="false"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d762.s1" text="This led to statistically significant increases in the elimination half-life (38%) and in the extent of systemic exposure (56%). "/>
+    <sentence id="DDI-DrugBank.d762.s2" text="Therefore, the coadministration of probenecid with meropenem is not recommended. ">
+        <entity id="DDI-DrugBank.d762.s2.e0" charOffset="35-44"
+            type="drug" text="probenecid"/>
+        <entity id="DDI-DrugBank.d762.s2.e1" charOffset="51-59"
+            type="drug" text="meropenem"/>
+        <pair id="DDI-DrugBank.d762.s2.p0" e1="DDI-DrugBank.d762.s2.e0"
+            e2="DDI-DrugBank.d762.s2.e1" ddi="true" type="advise"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d762.s3" text="There is evidence that meropenem may reduce serum levels of valproic acid to subtherapeutic levels (therapeutic range considered to be 50 to 100    g/mL total valproate).">
+        <entity id="DDI-DrugBank.d762.s3.e0" charOffset="23-31"
+            type="drug" text="meropenem"/>
+        <entity id="DDI-DrugBank.d762.s3.e1" charOffset="60-72"
+            type="drug" text="valproic acid"/>
+        <entity id="DDI-DrugBank.d762.s3.e2" charOffset="159-167"
+            type="drug" text="valproate"/>
+        <pair id="DDI-DrugBank.d762.s3.p0" e1="DDI-DrugBank.d762.s3.e0"
+            e2="DDI-DrugBank.d762.s3.e1" ddi="true" type="mechanism"/>
+        <pair id="DDI-DrugBank.d762.s3.p1" e1="DDI-DrugBank.d762.s3.e0"
+            e2="DDI-DrugBank.d762.s3.e2" ddi="false"/>
+        <pair id="DDI-DrugBank.d762.s3.p2" e1="DDI-DrugBank.d762.s3.e1"
+            e2="DDI-DrugBank.d762.s3.e2" ddi="false"/>
+    </sentence>
+</document>

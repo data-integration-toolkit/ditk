@@ -1,0 +1,21 @@
+include examples/calc.pyg
+include examples/notation.pyg
+include examples/indentation.pyg
+
+include doc/*.tex
+include doc/*.dvi
+include doc/*.pdf
+include doc/*.html
+include doc/*.css
+include doc/*.png
+
+include tpg
+include tpg.pyg
+include tpg_tests.py
+
+include MANIFEST.in
+include THANKS
+include ChangeLog
+include License.txt
+
+global-exclude *~

@@ -1,0 +1,207 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="DDI-MedLine.d83">
+    <sentence id="DDI-MedLine.d83.s0" text="Olanzapine: an updated review of its use in the management of schizophrenia.&#xa;">
+        <entity id="DDI-MedLine.d83.s0.e0" charOffset="0-9" type="drug" text="Olanzapine"/>
+    </sentence>
+    <sentence id="DDI-MedLine.d83.s1" text="Olanzapine, a thienobenzodiazepine derivative, is a second generation (atypical) antipsychotic agent which has proven efficacy against the positive and negative symptoms of schizophrenia. ">
+        <entity id="DDI-MedLine.d83.s1.e0" charOffset="0-9" type="drug" text="Olanzapine"/>
+        <entity id="DDI-MedLine.d83.s1.e1" charOffset="14-44"
+            type="group" text="thienobenzodiazepine derivative"/>
+        <entity id="DDI-MedLine.d83.s1.e2" charOffset="52-99"
+            type="group" text="second generation (atypical) antipsychotic agent"/>
+        <pair id="DDI-MedLine.d83.s1.p0" e1="DDI-MedLine.d83.s1.e0"
+            e2="DDI-MedLine.d83.s1.e1" ddi="false"/>
+        <pair id="DDI-MedLine.d83.s1.p1" e1="DDI-MedLine.d83.s1.e0"
+            e2="DDI-MedLine.d83.s1.e2" ddi="false"/>
+        <pair id="DDI-MedLine.d83.s1.p2" e1="DDI-MedLine.d83.s1.e1"
+            e2="DDI-MedLine.d83.s1.e2" ddi="false"/>
+    </sentence>
+    <sentence id="DDI-MedLine.d83.s2" text="Compared with conventional antipsychotics, it has greater affinity for serotonin 5-HT2A than for dopamine D2 receptors. ">
+        <entity id="DDI-MedLine.d83.s2.e0" charOffset="14-40"
+            type="group" text="conventional antipsychotics"/>
+    </sentence>
+    <sentence id="DDI-MedLine.d83.s3" text="In large, well controlled trials in patients with schizophrenia or related psychoses, olanzapine 5 to 20 mg/day was significantly superior to haloperidol 5 to 20 mg/day in overall improvements in psychopathology rating scales and in the treatment of depressive and negative symptoms, and was comparable in effects on positive psychotic symptoms. ">
+        <entity id="DDI-MedLine.d83.s3.e0" charOffset="86-95"
+            type="drug" text="olanzapine"/>
+        <entity id="DDI-MedLine.d83.s3.e1" charOffset="142-152"
+            type="drug" text="haloperidol"/>
+        <pair id="DDI-MedLine.d83.s3.p0" e1="DDI-MedLine.d83.s3.e0"
+            e2="DDI-MedLine.d83.s3.e1" ddi="false"/>
+    </sentence>
+    <sentence id="DDI-MedLine.d83.s4" text="The 1-year risk of relapse (rehospitalisation) was significantly lower with olanzapine than with haloperidol treatment. ">
+        <entity id="DDI-MedLine.d83.s4.e0" charOffset="76-85"
+            type="drug" text="olanzapine"/>
+        <entity id="DDI-MedLine.d83.s4.e1" charOffset="97-107"
+            type="drug" text="haloperidol"/>
+        <pair id="DDI-MedLine.d83.s4.p0" e1="DDI-MedLine.d83.s4.e0"
+            e2="DDI-MedLine.d83.s4.e1" ddi="false"/>
+    </sentence>
+    <sentence id="DDI-MedLine.d83.s5" text="In the first double-blind comparative study (28-week) of olanzapine and risperidone, olanzapine 10 to 20 mg/day proved to be significantly more effective than risperidone 4 to 12 mg/day in the treatment of negative and depressive symptoms but not on overall psychopathology symptoms. ">
+        <entity id="DDI-MedLine.d83.s5.e0" charOffset="57-66"
+            type="drug" text="olanzapine"/>
+        <entity id="DDI-MedLine.d83.s5.e1" charOffset="72-82"
+            type="drug" text="risperidone"/>
+        <entity id="DDI-MedLine.d83.s5.e2" charOffset="85-94"
+            type="drug" text="olanzapine"/>
+        <entity id="DDI-MedLine.d83.s5.e3" charOffset="159-169"
+            type="drug" text="risperidone"/>
+        <pair id="DDI-MedLine.d83.s5.p0" e1="DDI-MedLine.d83.s5.e0"
+            e2="DDI-MedLine.d83.s5.e1" ddi="false"/>
+        <pair id="DDI-MedLine.d83.s5.p1" e1="DDI-MedLine.d83.s5.e0"
+            e2="DDI-MedLine.d83.s5.e2" ddi="false"/>
+        <pair id="DDI-MedLine.d83.s5.p2" e1="DDI-MedLine.d83.s5.e0"
+            e2="DDI-MedLine.d83.s5.e3" ddi="false"/>
+        <pair id="DDI-MedLine.d83.s5.p3" e1="DDI-MedLine.d83.s5.e1"
+            e2="DDI-MedLine.d83.s5.e2" ddi="false"/>
+        <pair id="DDI-MedLine.d83.s5.p4" e1="DDI-MedLine.d83.s5.e1"
+            e2="DDI-MedLine.d83.s5.e3" ddi="false"/>
+        <pair id="DDI-MedLine.d83.s5.p5" e1="DDI-MedLine.d83.s5.e2"
+            e2="DDI-MedLine.d83.s5.e3" ddi="false"/>
+    </sentence>
+    <sentence id="DDI-MedLine.d83.s6" text="In contrast, preliminary results from an 8-week controlled study suggested risperidone 2 to 6 mg/day was superior to olanzapine 5 to 20 mg/day against positive and anxiety/depressive symptoms (p &lt; 0.05), although consistent with the first study, both agents demonstrated similar efficacy on measures of overall psychopathology. ">
+        <entity id="DDI-MedLine.d83.s6.e0" charOffset="75-85"
+            type="drug" text="risperidone"/>
+        <entity id="DDI-MedLine.d83.s6.e1" charOffset="117-126"
+            type="drug" text="olanzapine"/>
+        <pair id="DDI-MedLine.d83.s6.p0" e1="DDI-MedLine.d83.s6.e0"
+            e2="DDI-MedLine.d83.s6.e1" ddi="false"/>
+    </sentence>
+    <sentence id="DDI-MedLine.d83.s7" text="Improvements in general cognitive function seen with olanzapine treatment in a 1-year controlled study of patients with early-phase schizophrenia, were significantly greater than changes seen with either risperidone or haloperidol. ">
+        <entity id="DDI-MedLine.d83.s7.e0" charOffset="53-62"
+            type="drug" text="olanzapine"/>
+        <entity id="DDI-MedLine.d83.s7.e1" charOffset="204-214"
+            type="drug" text="risperidone"/>
+        <entity id="DDI-MedLine.d83.s7.e2" charOffset="219-229"
+            type="drug" text="haloperidol"/>
+        <pair id="DDI-MedLine.d83.s7.p0" e1="DDI-MedLine.d83.s7.e0"
+            e2="DDI-MedLine.d83.s7.e1" ddi="false"/>
+        <pair id="DDI-MedLine.d83.s7.p1" e1="DDI-MedLine.d83.s7.e0"
+            e2="DDI-MedLine.d83.s7.e2" ddi="false"/>
+        <pair id="DDI-MedLine.d83.s7.p2" e1="DDI-MedLine.d83.s7.e1"
+            e2="DDI-MedLine.d83.s7.e2" ddi="false"/>
+    </sentence>
+    <sentence id="DDI-MedLine.d83.s8" text="However, preliminary results from an 8-week trial showed comparable cognitive enhancing effects of olanzapine and risperidone treatment in patients with schizophrenia or schizoaffective disorder. ">
+        <entity id="DDI-MedLine.d83.s8.e0" charOffset="99-108"
+            type="drug" text="olanzapine"/>
+        <entity id="DDI-MedLine.d83.s8.e1" charOffset="114-124"
+            type="drug" text="risperidone"/>
+        <pair id="DDI-MedLine.d83.s8.p0" e1="DDI-MedLine.d83.s8.e0"
+            e2="DDI-MedLine.d83.s8.e1" ddi="false"/>
+    </sentence>
+    <sentence id="DDI-MedLine.d83.s9" text="Several studies indicate that olanzapine has benefits against symptoms of aggression and agitation, while other studies strongly support the effectiveness of olanzapine in the treatment of depressive symptomatology. ">
+        <entity id="DDI-MedLine.d83.s9.e0" charOffset="30-39"
+            type="drug" text="olanzapine"/>
+        <entity id="DDI-MedLine.d83.s9.e1" charOffset="158-167"
+            type="drug" text="olanzapine"/>
+        <pair id="DDI-MedLine.d83.s9.p0" e1="DDI-MedLine.d83.s9.e0"
+            e2="DDI-MedLine.d83.s9.e1" ddi="false"/>
+    </sentence>
+    <sentence id="DDI-MedLine.d83.s10" text="Olanzapine is associated with significantly fewer extrapyramidal symptoms than haloperidol and risperidone. ">
+        <entity id="DDI-MedLine.d83.s10.e0" charOffset="0-9" type="drug" text="Olanzapine"/>
+        <entity id="DDI-MedLine.d83.s10.e1" charOffset="79-89"
+            type="drug" text="haloperidol"/>
+        <entity id="DDI-MedLine.d83.s10.e2" charOffset="95-105"
+            type="drug" text="risperidone"/>
+        <pair id="DDI-MedLine.d83.s10.p0" e1="DDI-MedLine.d83.s10.e0"
+            e2="DDI-MedLine.d83.s10.e1" ddi="false"/>
+        <pair id="DDI-MedLine.d83.s10.p1" e1="DDI-MedLine.d83.s10.e0"
+            e2="DDI-MedLine.d83.s10.e2" ddi="false"/>
+        <pair id="DDI-MedLine.d83.s10.p2" e1="DDI-MedLine.d83.s10.e1"
+            e2="DDI-MedLine.d83.s10.e2" ddi="false"/>
+    </sentence>
+    <sentence id="DDI-MedLine.d83.s11" text="In addition, olanzapine is not associated with a risk of agranulocytosis as seen with clozapine or clinically significant hyperprolactinaemia as seen with risperidone or prolongation of the QT interval. ">
+        <entity id="DDI-MedLine.d83.s11.e0" charOffset="13-22"
+            type="drug" text="olanzapine"/>
+        <entity id="DDI-MedLine.d83.s11.e1" charOffset="86-94"
+            type="drug" text="clozapine"/>
+        <entity id="DDI-MedLine.d83.s11.e2" charOffset="155-165"
+            type="drug" text="risperidone"/>
+        <pair id="DDI-MedLine.d83.s11.p0" e1="DDI-MedLine.d83.s11.e0"
+            e2="DDI-MedLine.d83.s11.e1" ddi="false"/>
+        <pair id="DDI-MedLine.d83.s11.p1" e1="DDI-MedLine.d83.s11.e0"
+            e2="DDI-MedLine.d83.s11.e2" ddi="false"/>
+        <pair id="DDI-MedLine.d83.s11.p2" e1="DDI-MedLine.d83.s11.e1"
+            e2="DDI-MedLine.d83.s11.e2" ddi="false"/>
+    </sentence>
+    <sentence id="DDI-MedLine.d83.s12" text="The most common adverse effects reported with olanzapine are bodyweight gain, somnolence, dizziness, anticholinergic effects (constipation and dry mouth) and transient asymptomatic liver enzyme elevations. ">
+        <entity id="DDI-MedLine.d83.s12.e0" charOffset="46-55"
+            type="drug" text="olanzapine"/>
+    </sentence>
+    <sentence id="DDI-MedLine.d83.s13" text="In comparison with haloperidol, the adverse events reported significantly more frequently with olanzapine in > or = 3.5% of patients were dry mouth, bodyweight gain and increased appetite and compared with risperidone, only bodyweight gain occurred significantly more frequently with olanzapine. ">
+        <entity id="DDI-MedLine.d83.s13.e0" charOffset="19-29"
+            type="drug" text="haloperidol"/>
+        <entity id="DDI-MedLine.d83.s13.e1" charOffset="95-104"
+            type="drug" text="olanzapine"/>
+        <entity id="DDI-MedLine.d83.s13.e2" charOffset="206-216"
+            type="drug" text="risperidone"/>
+        <entity id="DDI-MedLine.d83.s13.e3" charOffset="284-293"
+            type="drug" text="olanzapine"/>
+        <pair id="DDI-MedLine.d83.s13.p0" e1="DDI-MedLine.d83.s13.e0"
+            e2="DDI-MedLine.d83.s13.e1" ddi="false"/>
+        <pair id="DDI-MedLine.d83.s13.p1" e1="DDI-MedLine.d83.s13.e0"
+            e2="DDI-MedLine.d83.s13.e2" ddi="false"/>
+        <pair id="DDI-MedLine.d83.s13.p2" e1="DDI-MedLine.d83.s13.e0"
+            e2="DDI-MedLine.d83.s13.e3" ddi="false"/>
+        <pair id="DDI-MedLine.d83.s13.p3" e1="DDI-MedLine.d83.s13.e1"
+            e2="DDI-MedLine.d83.s13.e2" ddi="false"/>
+        <pair id="DDI-MedLine.d83.s13.p4" e1="DDI-MedLine.d83.s13.e1"
+            e2="DDI-MedLine.d83.s13.e3" ddi="false"/>
+        <pair id="DDI-MedLine.d83.s13.p5" e1="DDI-MedLine.d83.s13.e2"
+            e2="DDI-MedLine.d83.s13.e3" ddi="false"/>
+    </sentence>
+    <sentence id="DDI-MedLine.d83.s14" text="The high acquisition cost of olanzapine is offset by reductions in other treatment costs (inpatient and/or outpatient services) of schizophrenia. ">
+        <entity id="DDI-MedLine.d83.s14.e0" charOffset="29-38"
+            type="drug" text="olanzapine"/>
+    </sentence>
+    <sentence id="DDI-MedLine.d83.s15" text="Pharmacoeconomic analyses indicate that olanzapine does not significantly increase, and may even decrease, the overall direct treatment costs of schizophrenia, compared with haloperidol. ">
+        <entity id="DDI-MedLine.d83.s15.e0" charOffset="40-49"
+            type="drug" text="olanzapine"/>
+        <entity id="DDI-MedLine.d83.s15.e1" charOffset="174-184"
+            type="drug" text="haloperidol"/>
+        <pair id="DDI-MedLine.d83.s15.p0" e1="DDI-MedLine.d83.s15.e0"
+            e2="DDI-MedLine.d83.s15.e1" ddi="false"/>
+    </sentence>
+    <sentence id="DDI-MedLine.d83.s16" text="Compared with risperidone, olanzapine has also been reported to decrease overall treatment costs, despite the several-fold higher daily acquisition cost of the drug. ">
+        <entity id="DDI-MedLine.d83.s16.e0" charOffset="14-24"
+            type="drug" text="risperidone"/>
+        <entity id="DDI-MedLine.d83.s16.e1" charOffset="27-36"
+            type="drug" text="olanzapine"/>
+        <pair id="DDI-MedLine.d83.s16.p0" e1="DDI-MedLine.d83.s16.e0"
+            e2="DDI-MedLine.d83.s16.e1" ddi="false"/>
+    </sentence>
+    <sentence id="DDI-MedLine.d83.s17" text="Olanzapine treatment improves quality of life in patients with schizophrenia and related psychoses to a greater extent than haloperidol, and to broadly the same extent as risperidone. ">
+        <entity id="DDI-MedLine.d83.s17.e0" charOffset="0-9" type="drug" text="Olanzapine"/>
+        <entity id="DDI-MedLine.d83.s17.e1" charOffset="124-134"
+            type="drug" text="haloperidol"/>
+        <entity id="DDI-MedLine.d83.s17.e2" charOffset="171-181"
+            type="drug" text="risperidone"/>
+        <pair id="DDI-MedLine.d83.s17.p0" e1="DDI-MedLine.d83.s17.e0"
+            e2="DDI-MedLine.d83.s17.e1" ddi="false"/>
+        <pair id="DDI-MedLine.d83.s17.p1" e1="DDI-MedLine.d83.s17.e0"
+            e2="DDI-MedLine.d83.s17.e2" ddi="false"/>
+        <pair id="DDI-MedLine.d83.s17.p2" e1="DDI-MedLine.d83.s17.e1"
+            e2="DDI-MedLine.d83.s17.e2" ddi="false"/>
+    </sentence>
+    <sentence id="DDI-MedLine.d83.s18" text="CONCLUSIONS: Olanzapine demonstrated superior antipsychotic efficacy compared with haloperidol in the treatment of acute phase schizophrenia, and in the treatment of some patients with first-episode or treatment-resistant schizophrenia. ">
+        <entity id="DDI-MedLine.d83.s18.e0" charOffset="13-22"
+            type="drug" text="Olanzapine"/>
+        <entity id="DDI-MedLine.d83.s18.e1" charOffset="83-93"
+            type="drug" text="haloperidol"/>
+        <pair id="DDI-MedLine.d83.s18.p0" e1="DDI-MedLine.d83.s18.e0"
+            e2="DDI-MedLine.d83.s18.e1" ddi="false"/>
+    </sentence>
+    <sentence id="DDI-MedLine.d83.s19" text="The reduced risk of adverse events and therapeutic superiority compared with haloperidol and risperidone in the treatment of negative and depressive symptoms support the choice of olanzapine as a first-line option in the management of schizophrenia in the acute phase and for the maintenance of treatment response.">
+        <entity id="DDI-MedLine.d83.s19.e0" charOffset="77-87"
+            type="drug" text="haloperidol"/>
+        <entity id="DDI-MedLine.d83.s19.e1" charOffset="93-103"
+            type="drug" text="risperidone"/>
+        <entity id="DDI-MedLine.d83.s19.e2" charOffset="180-189"
+            type="drug" text="olanzapine"/>
+        <pair id="DDI-MedLine.d83.s19.p0" e1="DDI-MedLine.d83.s19.e0"
+            e2="DDI-MedLine.d83.s19.e1" ddi="false"/>
+        <pair id="DDI-MedLine.d83.s19.p1" e1="DDI-MedLine.d83.s19.e0"
+            e2="DDI-MedLine.d83.s19.e2" ddi="false"/>
+        <pair id="DDI-MedLine.d83.s19.p2" e1="DDI-MedLine.d83.s19.e1"
+            e2="DDI-MedLine.d83.s19.e2" ddi="false"/>
+    </sentence>
+</document>

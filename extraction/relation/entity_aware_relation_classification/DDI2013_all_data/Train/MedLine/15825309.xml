@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="DDI-MedLine.d49">
+    <sentence id="DDI-MedLine.d49.s0" text="Interaction of clindamycin and gentamicin in vitro.&#xa;">
+        <entity id="DDI-MedLine.d49.s0.e0" charOffset="15-25"
+            type="drug" text="clindamycin"/>
+        <entity id="DDI-MedLine.d49.s0.e1" charOffset="31-40"
+            type="drug" text="gentamicin"/>
+        <pair id="DDI-MedLine.d49.s0.p0" e1="DDI-MedLine.d49.s0.e0"
+            e2="DDI-MedLine.d49.s0.e1" ddi="true" type="int"/>
+    </sentence>
+    <sentence id="DDI-MedLine.d49.s1" text="The minimal inhibitory concentrations of clindamycin and gentamicin alone and in combinations were determined by a microdilution method for 163 aerobic, facultative, and anaerobic clinical isolates. ">
+        <entity id="DDI-MedLine.d49.s1.e0" charOffset="41-51"
+            type="drug" text="clindamycin"/>
+        <entity id="DDI-MedLine.d49.s1.e1" charOffset="57-66"
+            type="drug" text="gentamicin"/>
+        <pair id="DDI-MedLine.d49.s1.p0" e1="DDI-MedLine.d49.s1.e0"
+            e2="DDI-MedLine.d49.s1.e1" ddi="false"/>
+    </sentence>
+    <sentence id="DDI-MedLine.d49.s2" text="All 77 strains of Staphylococcus aureus, Diplococcus pneumoniae, Streptococcus pyogenes, and anaerobic bacteria (except for three strains of Clostridium) were inhibited by 1.6 mug or less of clindamycin per ml. ">
+        <entity id="DDI-MedLine.d49.s2.e0" charOffset="191-201"
+            type="drug" text="clindamycin"/>
+    </sentence>
+    <sentence id="DDI-MedLine.d49.s3" text="Gentamicin did not interfere with the activity of clindamycin within the range of concentrations tested (0.1 to 100 mug/ml); ">
+        <entity id="DDI-MedLine.d49.s3.e0" charOffset="0-9" type="drug" text="Gentamicin"/>
+        <entity id="DDI-MedLine.d49.s3.e1" charOffset="50-60"
+            type="drug" text="clindamycin"/>
+        <pair id="DDI-MedLine.d49.s3.p0" e1="DDI-MedLine.d49.s3.e0"
+            e2="DDI-MedLine.d49.s3.e1" ddi="false"/>
+    </sentence>
+    <sentence id="DDI-MedLine.d49.s4" text="for some strains combinations were synergistic. "/>
+    <sentence id="DDI-MedLine.d49.s5" text="Sixty-two (94%) of 66 strains of Enterobacteriaceae and Pseudomonas aeruginosa were inhibited by 6.2 mug or less of gentamicin per ml. ">
+        <entity id="DDI-MedLine.d49.s5.e0" charOffset="116-125"
+            type="drug" text="gentamicin"/>
+    </sentence>
+    <sentence id="DDI-MedLine.d49.s6" text="Combinations of clindamycin and gentamicin were indifferent for 29 strains and synergistic for 33 strains. ">
+        <entity id="DDI-MedLine.d49.s6.e0" charOffset="16-26"
+            type="drug" text="clindamycin"/>
+        <entity id="DDI-MedLine.d49.s6.e1" charOffset="32-41"
+            type="drug" text="gentamicin"/>
+        <pair id="DDI-MedLine.d49.s6.p0" e1="DDI-MedLine.d49.s6.e0"
+            e2="DDI-MedLine.d49.s6.e1" ddi="true" type="effect"/>
+    </sentence>
+    <sentence id="DDI-MedLine.d49.s7" text="All 20 strains of enterococcus, three strains of Clostridium, three strains of Escherichia coli, and one strain of Proteus rettgeri were resistant to both clindamycin (minimal inhibitory concentration greater than 3.1 mug/ml) and gentamicin (minimal inhibitory concentration greater than 6.2 mug/ml). ">
+        <entity id="DDI-MedLine.d49.s7.e0" charOffset="155-165"
+            type="drug" text="clindamycin"/>
+        <entity id="DDI-MedLine.d49.s7.e1" charOffset="230-239"
+            type="drug" text="gentamicin"/>
+        <pair id="DDI-MedLine.d49.s7.p0" e1="DDI-MedLine.d49.s7.e0"
+            e2="DDI-MedLine.d49.s7.e1" ddi="false"/>
+    </sentence>
+    <sentence id="DDI-MedLine.d49.s8" text="Combinations of clindamycin and gentamicin were indifferent for 16 and synergistic for 11 of the resistant strains. ">
+        <entity id="DDI-MedLine.d49.s8.e0" charOffset="16-26"
+            type="drug" text="clindamycin"/>
+        <entity id="DDI-MedLine.d49.s8.e1" charOffset="32-41"
+            type="drug" text="gentamicin"/>
+        <pair id="DDI-MedLine.d49.s8.p0" e1="DDI-MedLine.d49.s8.e0"
+            e2="DDI-MedLine.d49.s8.e1" ddi="true" type="effect"/>
+    </sentence>
+    <sentence id="DDI-MedLine.d49.s9" text="Except for clindamycin-sensitive isolates, synergy was usually observed only at concentrations of one or both drugs which are not readily obtainable in vivo. ">
+        <entity id="DDI-MedLine.d49.s9.e0" charOffset="11-21"
+            type="drug" text="clindamycin"/>
+    </sentence>
+    <sentence id="DDI-MedLine.d49.s10" text="Antagonism was never observed."/>
+</document>

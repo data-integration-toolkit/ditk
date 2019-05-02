@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="DDI-MedLine.d93">
+    <sentence id="DDI-MedLine.d93.s0" text="Altered responsiveness to alcohol after exposure to organic lead.&#xa;">
+        <entity id="DDI-MedLine.d93.s0.e0" charOffset="26-32"
+            type="drug" text="alcohol"/>
+    </sentence>
+    <sentence id="DDI-MedLine.d93.s1" text="Ethyl alcohol is known to effect the functional integrity of the limbic system, particularly the hippocampus, and to alter behaviors which are thought to be mediated through limbic function. ">
+        <entity id="DDI-MedLine.d93.s1.e0" charOffset="0-12" type="drug" text="Ethyl alcohol"/>
+    </sentence>
+    <sentence id="DDI-MedLine.d93.s2" text="Organometals also compromise the limbic system and result in deficits in learning and memory. "/>
+    <sentence id="DDI-MedLine.d93.s3" text="Since both alcohol and organoleads are present in the environment and seem to influence limbic integration, the interaction of these two compounds was assessed in the present experiment. ">
+        <entity id="DDI-MedLine.d93.s3.e0" charOffset="11-17"
+            type="drug" text="alcohol"/>
+    </sentence>
+    <sentence id="DDI-MedLine.d93.s4" text="Thirty male rats of the Fischer-344 strain were divided into three equal groups and were given injections of trimethyl lead (TML) (8.0 or 17.0 mg/kg/ml SC) or the saline vehicle. ">
+        <entity id="DDI-MedLine.d93.s4.e0" charOffset="109-122"
+            type="drug_n" text="trimethyl lead"/>
+        <entity id="DDI-MedLine.d93.s4.e1" charOffset="125-127"
+            type="drug_n" text="TML"/>
+        <pair id="DDI-MedLine.d93.s4.p0" e1="DDI-MedLine.d93.s4.e0"
+            e2="DDI-MedLine.d93.s4.e1" ddi="false"/>
+    </sentence>
+    <sentence id="DDI-MedLine.d93.s5" text="Fourteen days later, all animals were challenged with a single hypnotic dose of ethanol (3.5 g/kg IP). ">
+        <entity id="DDI-MedLine.d93.s5.e0" charOffset="80-86"
+            type="drug" text="ethanol"/>
+    </sentence>
+    <sentence id="DDI-MedLine.d93.s6" text="The 20% v/v solution of alcohol was prepared in water from a stock solution of 95% ethanol. ">
+        <entity id="DDI-MedLine.d93.s6.e0" charOffset="24-30"
+            type="drug" text="alcohol"/>
+        <entity id="DDI-MedLine.d93.s6.e1" charOffset="83-89"
+            type="drug" text="ethanol"/>
+        <pair id="DDI-MedLine.d93.s6.p0" e1="DDI-MedLine.d93.s6.e0"
+            e2="DDI-MedLine.d93.s6.e1" ddi="false"/>
+    </sentence>
+    <sentence id="DDI-MedLine.d93.s7" text="The latency to loss of the righting reflex and duration of sleep time were recorded while the rats were kept in sound-attenuating chambers. "/>
+    <sentence id="DDI-MedLine.d93.s8" text="The rats treated with the highest dose of TML manifested significantly longer latencies to lose the righting reflex and shorter durations of sleep than did controls. ">
+        <entity id="DDI-MedLine.d93.s8.e0" charOffset="42-44"
+            type="drug_n" text="TML"/>
+    </sentence>
+    <sentence id="DDI-MedLine.d93.s9" text="These results suggest that exposure to environmental lead may alter the biological and behavioral responsiveness of an animal to alcohol.">
+        <entity id="DDI-MedLine.d93.s9.e0" charOffset="53-56"
+            type="drug_n" text="lead"/>
+        <entity id="DDI-MedLine.d93.s9.e1" charOffset="129-135"
+            type="drug" text="alcohol"/>
+        <pair id="DDI-MedLine.d93.s9.p0" e1="DDI-MedLine.d93.s9.e0"
+            e2="DDI-MedLine.d93.s9.e1" ddi="true" type="effect"/>
+    </sentence>
+</document>

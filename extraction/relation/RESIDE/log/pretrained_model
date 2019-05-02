@@ -1,0 +1,148 @@
+2019-05-01 02:05:36,968 - pretrained_model - [INFO] - {'gpu': '0', 'wGate': True, 'lstm_dim': 192, 'pos_dim': 16, 'type_dim': 50, 'alias_dim': 32, 'de_gcn_dim': 16, 'de_layers': 1, 'dropout': 0.8, 'rec_dropout': 0.8, 'lr': 0.001, 'l2': 0.001, 'max_epochs': 2, 'batch_size': 32, 'chunk_size': 1000, 'restore': True, 'only_eval': True, 'opt': 'adam', 'eps': 1e-08, 'name': 'pretrained_model', 'seed': 1234, 'log_dir': './log/', 'config_dir': './config/', 'embed_loc': './glove/glove.6B.50d_word2vec.txt', 'embed_dim': 50}
+2019-05-01 02:20:49,137 - pretrained_model - [INFO] - Document count [train]: 292459, [test]: 96676
+2019-05-01 02:22:07,697 - gensim.models.utils_any2vec - [INFO] - loading projection weights from ./glove/glove.6B.50d_word2vec.txt
+2019-05-01 02:22:41,585 - smart_open.smart_open_lib - [WARNING] - this function is deprecated, use smart_open.open instead
+2019-05-01 02:23:12,459 - smart_open.smart_open_lib - [DEBUG] - {'transport_params': {}, 'ignore_ext': False, 'opener': None, 'closefd': True, 'newline': None, 'errors': None, 'encoding': None, 'buffering': -1, 'mode': 'rb', 'uri': './glove/glove.6B.50d_word2vec.txt'}
+2019-05-01 03:27:05,290 - pretrained_model - [INFO] - {'gpu': '0', 'wGate': True, 'lstm_dim': 192, 'pos_dim': 16, 'type_dim': 50, 'alias_dim': 32, 'de_gcn_dim': 16, 'de_layers': 1, 'dropout': 0.8, 'rec_dropout': 0.8, 'lr': 0.001, 'l2': 0.001, 'max_epochs': 2, 'batch_size': 32, 'chunk_size': 1000, 'restore': True, 'only_eval': True, 'opt': 'adam', 'eps': 1e-08, 'name': 'pretrained_model', 'seed': 1234, 'log_dir': './log/', 'config_dir': './config/', 'embed_loc': './glove/glove.6B.50d_word2vec.txt', 'embed_dim': 50}
+2019-05-01 03:29:30,326 - pretrained_model - [INFO] - Document count [train]: 292459, [test]: 96676
+2019-05-01 03:29:43,508 - gensim.models.utils_any2vec - [INFO] - loading projection weights from ./glove/glove.6B.50d_word2vec.txt
+2019-05-01 03:29:43,585 - smart_open.smart_open_lib - [WARNING] - this function is deprecated, use smart_open.open instead
+2019-05-01 03:29:43,586 - smart_open.smart_open_lib - [DEBUG] - {'transport_params': {}, 'ignore_ext': False, 'opener': None, 'closefd': True, 'newline': None, 'errors': None, 'encoding': None, 'buffering': -1, 'mode': 'rb', 'uri': './glove/glove.6B.50d_word2vec.txt'}
+2019-05-01 03:30:57,917 - gensim.models.utils_any2vec - [INFO] - loaded (400000, 50) matrix from ./glove/glove.6B.50d_word2vec.txt
+2019-05-01 03:31:06,842 - tensorflow - [WARNING] - From /Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/site-packages/tensorflow/python/framework/op_def_library.py:263: colocate_with (from tensorflow.python.framework.ops) is deprecated and will be removed in a future version.
+Instructions for updating:
+Colocations handled automatically by placer.
+2019-05-01 03:31:18,339 - tensorflow - [WARNING] - From /Users/devinaarvind/PycharmProjects/RESIDE-master/RESIDE/reside1.py:564: GRUCell.__init__ (from tensorflow.python.ops.rnn_cell_impl) is deprecated and will be removed in a future version.
+Instructions for updating:
+This class is equivalent as tf.keras.layers.GRUCell, and will be replaced by that in Tensorflow 2.0.
+2019-05-01 03:31:47,001 - tensorflow - [WARNING] - From /Users/devinaarvind/PycharmProjects/RESIDE-master/RESIDE/reside1.py:566: bidirectional_dynamic_rnn (from tensorflow.python.ops.rnn) is deprecated and will be removed in a future version.
+Instructions for updating:
+Please use `keras.layers.Bidirectional(keras.layers.RNN(cell))`, which is equivalent to this API
+2019-05-01 03:31:47,181 - tensorflow - [WARNING] - From /Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/site-packages/tensorflow/python/ops/rnn.py:443: dynamic_rnn (from tensorflow.python.ops.rnn) is deprecated and will be removed in a future version.
+Instructions for updating:
+Please use `keras.layers.RNN(cell)`, which is equivalent to this API
+2019-05-01 03:31:55,607 - tensorflow - [WARNING] - From /Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/site-packages/tensorflow/python/ops/rnn.py:626: to_int32 (from tensorflow.python.ops.math_ops) is deprecated and will be removed in a future version.
+Instructions for updating:
+Use tf.cast instead.
+2019-05-01 03:32:12,136 - tensorflow - [WARNING] - From /Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/site-packages/tensorflow/python/ops/rnn_cell_impl.py:1259: calling dropout (from tensorflow.python.ops.nn_ops) with keep_prob is deprecated and will be removed in a future version.
+Instructions for updating:
+Please use `rate` instead of `keep_prob`. Rate should be set to `rate = 1 - keep_prob`.
+2019-05-01 03:33:08,655 - tensorflow - [WARNING] - From /Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/site-packages/tensorflow/python/training/saver.py:1266: checkpoint_exists (from tensorflow.python.training.checkpoint_management) is deprecated and will be removed in a future version.
+Instructions for updating:
+Use standard file APIs to check for files with this prefix.
+2019-05-01 03:33:09,671 - tensorflow - [INFO] - Restoring parameters from checkpoints/pretrained_model/best_model
+2019-05-01 03:33:12,979 - tensorflow - [INFO] - Restoring parameters from checkpoints/pretrained_model/best_model
+2019-05-01 03:33:20,776 - pretrained_model - [INFO] - Evaluating on Test (32/96676):	96.875	3.6386	pretrained_model
+2019-05-01 03:41:44,610 - pretrained_model - [INFO] - {'gpu': '0', 'wGate': True, 'lstm_dim': 192, 'pos_dim': 16, 'type_dim': 50, 'alias_dim': 32, 'de_gcn_dim': 16, 'de_layers': 1, 'dropout': 0.8, 'rec_dropout': 0.8, 'lr': 0.001, 'l2': 0.001, 'max_epochs': 2, 'batch_size': 32, 'chunk_size': 1000, 'restore': True, 'only_eval': True, 'opt': 'adam', 'eps': 1e-08, 'name': 'pretrained_model', 'seed': 1234, 'log_dir': './log/', 'config_dir': './config/', 'embed_loc': './glove/glove.6B.50d_word2vec.txt', 'embed_dim': 50}
+2019-05-01 03:44:12,802 - pretrained_model - [INFO] - Document count [train]: 292459, [test]: 96676
+2019-05-01 03:44:16,815 - gensim.models.utils_any2vec - [INFO] - loading projection weights from ./glove/glove.6B.50d_word2vec.txt
+2019-05-01 03:44:16,823 - smart_open.smart_open_lib - [WARNING] - this function is deprecated, use smart_open.open instead
+2019-05-01 03:44:16,823 - smart_open.smart_open_lib - [DEBUG] - {'transport_params': {}, 'ignore_ext': False, 'opener': None, 'closefd': True, 'newline': None, 'errors': None, 'encoding': None, 'buffering': -1, 'mode': 'rb', 'uri': './glove/glove.6B.50d_word2vec.txt'}
+2019-05-01 03:45:30,804 - gensim.models.utils_any2vec - [INFO] - loaded (400000, 50) matrix from ./glove/glove.6B.50d_word2vec.txt
+2019-05-01 03:45:37,130 - tensorflow - [WARNING] - From /Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/site-packages/tensorflow/python/framework/op_def_library.py:263: colocate_with (from tensorflow.python.framework.ops) is deprecated and will be removed in a future version.
+Instructions for updating:
+Colocations handled automatically by placer.
+2019-05-01 03:45:37,929 - tensorflow - [WARNING] - From /Users/devinaarvind/PycharmProjects/RESIDE-master/RESIDE/reside1.py:564: GRUCell.__init__ (from tensorflow.python.ops.rnn_cell_impl) is deprecated and will be removed in a future version.
+Instructions for updating:
+This class is equivalent as tf.keras.layers.GRUCell, and will be replaced by that in Tensorflow 2.0.
+2019-05-01 03:45:38,036 - tensorflow - [WARNING] - From /Users/devinaarvind/PycharmProjects/RESIDE-master/RESIDE/reside1.py:566: bidirectional_dynamic_rnn (from tensorflow.python.ops.rnn) is deprecated and will be removed in a future version.
+Instructions for updating:
+Please use `keras.layers.Bidirectional(keras.layers.RNN(cell))`, which is equivalent to this API
+2019-05-01 03:45:38,039 - tensorflow - [WARNING] - From /Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/site-packages/tensorflow/python/ops/rnn.py:443: dynamic_rnn (from tensorflow.python.ops.rnn) is deprecated and will be removed in a future version.
+Instructions for updating:
+Please use `keras.layers.RNN(cell)`, which is equivalent to this API
+2019-05-01 03:45:39,369 - tensorflow - [WARNING] - From /Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/site-packages/tensorflow/python/ops/rnn.py:626: to_int32 (from tensorflow.python.ops.math_ops) is deprecated and will be removed in a future version.
+Instructions for updating:
+Use tf.cast instead.
+2019-05-01 03:45:40,170 - tensorflow - [WARNING] - From /Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/site-packages/tensorflow/python/ops/rnn_cell_impl.py:1259: calling dropout (from tensorflow.python.ops.nn_ops) with keep_prob is deprecated and will be removed in a future version.
+Instructions for updating:
+Please use `rate` instead of `keep_prob`. Rate should be set to `rate = 1 - keep_prob`.
+2019-05-01 03:46:06,842 - tensorflow - [WARNING] - From /Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/site-packages/tensorflow/python/training/saver.py:1266: checkpoint_exists (from tensorflow.python.training.checkpoint_management) is deprecated and will be removed in a future version.
+Instructions for updating:
+Use standard file APIs to check for files with this prefix.
+2019-05-01 03:46:08,205 - tensorflow - [INFO] - Restoring parameters from checkpoints/pretrained_model/best_model
+2019-05-01 03:46:10,448 - tensorflow - [INFO] - Restoring parameters from checkpoints/pretrained_model/best_model
+2019-05-01 03:46:15,505 - pretrained_model - [INFO] - Evaluating on Test (32/96676):	96.875	3.6386	pretrained_model
+2019-05-01 03:46:41,424 - pretrained_model - [INFO] - Evaluating on Test (3232/96676):	97.679	3.6262	pretrained_model
+2019-05-01 03:47:08,041 - pretrained_model - [INFO] - Evaluating on Test (6432/96676):	97.715	3.6243	pretrained_model
+2019-05-01 03:47:34,641 - pretrained_model - [INFO] - Evaluating on Test (9632/96676):	97.737	3.6238	pretrained_model
+2019-05-01 03:48:01,919 - pretrained_model - [INFO] - Evaluating on Test (12832/96676):	97.647	3.6276	pretrained_model
+2019-05-01 03:48:27,915 - pretrained_model - [INFO] - Evaluating on Test (16032/96676):	97.599	3.6293	pretrained_model
+2019-05-01 03:48:54,354 - pretrained_model - [INFO] - Evaluating on Test (19232/96676):	97.608	3.6292	pretrained_model
+2019-05-01 03:49:19,472 - pretrained_model - [INFO] - Evaluating on Test (22432/96676):	97.66	3.6308	pretrained_model
+2019-05-01 03:49:44,503 - pretrained_model - [INFO] - Evaluating on Test (25632/96676):	97.683	3.6317	pretrained_model
+2019-05-01 03:50:07,259 - pretrained_model - [INFO] - Evaluating on Test (28832/96676):	97.666	3.6297	pretrained_model
+2019-05-01 03:50:32,295 - pretrained_model - [INFO] - Evaluating on Test (32032/96676):	97.649	3.6297	pretrained_model
+2019-05-01 03:50:57,573 - pretrained_model - [INFO] - Evaluating on Test (35232/96676):	97.67	3.6286	pretrained_model
+2019-05-01 03:51:24,154 - pretrained_model - [INFO] - Evaluating on Test (38432/96676):	97.666	3.6285	pretrained_model
+2019-05-01 03:51:50,219 - pretrained_model - [INFO] - Evaluating on Test (41632/96676):	97.692	3.6273	pretrained_model
+2019-05-01 03:52:15,281 - pretrained_model - [INFO] - Evaluating on Test (44832/96676):	97.678	3.6275	pretrained_model
+2019-05-01 03:52:38,548 - pretrained_model - [INFO] - Evaluating on Test (48032/96676):	97.697	3.6264	pretrained_model
+2019-05-01 03:53:02,452 - pretrained_model - [INFO] - Evaluating on Test (51232/96676):	97.689	3.6263	pretrained_model
+2019-05-01 03:53:28,666 - pretrained_model - [INFO] - Evaluating on Test (54432/96676):	97.669	3.6274	pretrained_model
+2019-05-01 03:53:53,402 - pretrained_model - [INFO] - Evaluating on Test (57632/96676):	97.671	3.6271	pretrained_model
+2019-05-01 03:54:19,875 - pretrained_model - [INFO] - Evaluating on Test (60832/96676):	97.644	3.6276	pretrained_model
+2019-05-01 03:54:44,864 - pretrained_model - [INFO] - Evaluating on Test (64032/96676):	97.642	3.6275	pretrained_model
+2019-05-01 03:55:09,345 - pretrained_model - [INFO] - Evaluating on Test (67232/96676):	97.638	3.6271	pretrained_model
+2019-05-01 03:55:34,203 - pretrained_model - [INFO] - Evaluating on Test (70432/96676):	97.66	3.6264	pretrained_model
+2019-05-01 03:56:00,539 - pretrained_model - [INFO] - Evaluating on Test (73632/96676):	97.645	3.627	pretrained_model
+2019-05-01 03:56:26,517 - pretrained_model - [INFO] - Evaluating on Test (76832/96676):	97.642	3.6271	pretrained_model
+2019-05-01 03:56:51,461 - pretrained_model - [INFO] - Evaluating on Test (80032/96676):	97.642	3.627	pretrained_model
+2019-05-01 03:57:16,646 - pretrained_model - [INFO] - Evaluating on Test (83232/96676):	97.648	3.6268	pretrained_model
+2019-05-01 03:57:40,626 - pretrained_model - [INFO] - Evaluating on Test (86432/96676):	97.641	3.6271	pretrained_model
+2019-05-01 03:58:05,889 - pretrained_model - [INFO] - Evaluating on Test (89632/96676):	97.648	3.6268	pretrained_model
+2019-05-01 03:58:30,274 - pretrained_model - [INFO] - Evaluating on Test (92832/96676):	97.671	3.6266	pretrained_model
+2019-05-01 03:58:56,496 - pretrained_model - [INFO] - Evaluating on Test (96032/96676):	97.66	3.627	pretrained_model
+2019-05-01 03:59:01,988 - pretrained_model - [INFO] - Test Accuracy: 1.0
+2019-05-01 03:59:07,468 - pretrained_model - [INFO] - Final results: Prec:0.3807395367721222 | Rec:0.5320840431542755 | F1:0.44386546173884805 | Area:0.41551251508509174
+2019-05-01 03:59:11,075 - pretrained_model - [INFO] - Evaluating on Test (32/96676):	96.875	3.6476	pretrained_model
+2019-05-01 03:59:27,524 - pretrained_model - [INFO] - Evaluating on Test (3232/96676):	96.38	3.7164	pretrained_model
+2019-05-01 03:59:44,028 - pretrained_model - [INFO] - Evaluating on Test (6432/96676):	96.673	3.71	pretrained_model
+2019-05-01 04:00:01,659 - pretrained_model - [INFO] - Evaluating on Test (9632/96676):	96.823	3.6993	pretrained_model
+2019-05-01 04:00:18,012 - pretrained_model - [INFO] - Evaluating on Test (12832/96676):	96.735	3.6962	pretrained_model
+2019-05-01 04:00:33,862 - pretrained_model - [INFO] - Evaluating on Test (16032/96676):	96.638	3.6954	pretrained_model
+2019-05-01 04:00:49,233 - pretrained_model - [INFO] - Evaluating on Test (19232/96676):	96.698	3.695	pretrained_model
+2019-05-01 04:01:01,910 - pretrained_model - [INFO] - Test Accuracy: 0.931034505367279
+2019-05-01 04:01:02,688 - pretrained_model - [INFO] - TEST_ONE: P@100: 0.79, P@200: 0.75, P@300: 0.68
+2019-05-01 04:01:02,929 - pretrained_model - [INFO] - Evaluating on Test (32/96676):	96.875	3.624	pretrained_model
+2019-05-01 04:01:29,674 - pretrained_model - [INFO] - Evaluating on Test (3232/96676):	96.689	3.7006	pretrained_model
+2019-05-01 04:01:55,867 - pretrained_model - [INFO] - Evaluating on Test (6432/96676):	96.782	3.6957	pretrained_model
+2019-05-01 04:02:21,869 - pretrained_model - [INFO] - Evaluating on Test (9632/96676):	96.885	3.6829	pretrained_model
+2019-05-01 04:02:47,680 - pretrained_model - [INFO] - Evaluating on Test (12832/96676):	96.813	3.6818	pretrained_model
+2019-05-01 04:03:13,905 - pretrained_model - [INFO] - Evaluating on Test (16032/96676):	96.663	3.6827	pretrained_model
+2019-05-01 04:03:40,121 - pretrained_model - [INFO] - Evaluating on Test (19232/96676):	96.709	3.6831	pretrained_model
+2019-05-01 04:04:01,823 - pretrained_model - [INFO] - Test Accuracy: 0.931034505367279
+2019-05-01 04:04:02,408 - pretrained_model - [INFO] - TEST_TWO: P@100: 0.78, P@200: 0.785, P@300: 0.74
+2019-05-01 04:04:02,691 - pretrained_model - [INFO] - Evaluating on Test (32/96676):	96.875	3.6382	pretrained_model
+2019-05-01 04:04:27,423 - pretrained_model - [INFO] - Evaluating on Test (3232/96676):	97.649	3.6261	pretrained_model
+2019-05-01 04:04:52,347 - pretrained_model - [INFO] - Evaluating on Test (6432/96676):	97.699	3.6242	pretrained_model
+2019-05-01 04:05:17,737 - pretrained_model - [INFO] - Evaluating on Test (9632/96676):	97.716	3.6237	pretrained_model
+2019-05-01 04:05:43,300 - pretrained_model - [INFO] - Evaluating on Test (12832/96676):	97.639	3.6275	pretrained_model
+2019-05-01 04:06:08,500 - pretrained_model - [INFO] - Evaluating on Test (16032/96676):	97.592	3.6293	pretrained_model
+2019-05-01 04:06:33,555 - pretrained_model - [INFO] - Evaluating on Test (19232/96676):	97.603	3.6291	pretrained_model
+2019-05-01 04:06:57,604 - pretrained_model - [INFO] - Evaluating on Test (22432/96676):	97.651	3.6308	pretrained_model
+2019-05-01 04:07:21,626 - pretrained_model - [INFO] - Evaluating on Test (25632/96676):	97.671	3.6317	pretrained_model
+2019-05-01 04:07:44,494 - pretrained_model - [INFO] - Evaluating on Test (28832/96676):	97.652	3.6297	pretrained_model
+2019-05-01 04:08:08,712 - pretrained_model - [INFO] - Evaluating on Test (32032/96676):	97.637	3.6296	pretrained_model
+2019-05-01 04:08:33,381 - pretrained_model - [INFO] - Evaluating on Test (35232/96676):	97.658	3.6286	pretrained_model
+2019-05-01 04:08:59,656 - pretrained_model - [INFO] - Evaluating on Test (38432/96676):	97.656	3.6285	pretrained_model
+2019-05-01 04:09:25,287 - pretrained_model - [INFO] - Evaluating on Test (41632/96676):	97.684	3.6273	pretrained_model
+2019-05-01 04:09:50,195 - pretrained_model - [INFO] - Evaluating on Test (44832/96676):	97.671	3.6275	pretrained_model
+2019-05-01 04:10:13,547 - pretrained_model - [INFO] - Evaluating on Test (48032/96676):	97.691	3.6263	pretrained_model
+2019-05-01 04:10:37,023 - pretrained_model - [INFO] - Evaluating on Test (51232/96676):	97.683	3.6263	pretrained_model
+2019-05-01 04:11:02,607 - pretrained_model - [INFO] - Evaluating on Test (54432/96676):	97.665	3.6273	pretrained_model
+2019-05-01 04:11:26,758 - pretrained_model - [INFO] - Evaluating on Test (57632/96676):	97.67	3.6271	pretrained_model
+2019-05-01 04:11:52,098 - pretrained_model - [INFO] - Evaluating on Test (60832/96676):	97.641	3.6275	pretrained_model
+2019-05-01 04:12:16,662 - pretrained_model - [INFO] - Evaluating on Test (64032/96676):	97.639	3.6275	pretrained_model
+2019-05-01 04:12:40,639 - pretrained_model - [INFO] - Evaluating on Test (67232/96676):	97.635	3.6271	pretrained_model
+2019-05-01 04:13:04,746 - pretrained_model - [INFO] - Evaluating on Test (70432/96676):	97.657	3.6264	pretrained_model
+2019-05-01 04:13:30,573 - pretrained_model - [INFO] - Evaluating on Test (73632/96676):	97.644	3.627	pretrained_model
+2019-05-01 04:13:55,602 - pretrained_model - [INFO] - Evaluating on Test (76832/96676):	97.638	3.6271	pretrained_model
+2019-05-01 04:14:19,685 - pretrained_model - [INFO] - Evaluating on Test (80032/96676):	97.638	3.627	pretrained_model
+2019-05-01 04:14:44,301 - pretrained_model - [INFO] - Evaluating on Test (83232/96676):	97.644	3.6268	pretrained_model
+2019-05-01 04:15:07,826 - pretrained_model - [INFO] - Evaluating on Test (86432/96676):	97.639	3.6271	pretrained_model
+2019-05-01 04:15:32,452 - pretrained_model - [INFO] - Evaluating on Test (89632/96676):	97.646	3.6268	pretrained_model
+2019-05-01 04:15:56,374 - pretrained_model - [INFO] - Evaluating on Test (92832/96676):	97.669	3.6265	pretrained_model
+2019-05-01 04:16:22,154 - pretrained_model - [INFO] - Evaluating on Test (96032/96676):	97.658	3.627	pretrained_model
+2019-05-01 04:16:27,456 - pretrained_model - [INFO] - Test Accuracy: 1.0
+2019-05-01 04:16:30,615 - pretrained_model - [INFO] - TEST_THREE: P@100: 0.81, P@200: 0.75, P@300: 0.7366666666666667

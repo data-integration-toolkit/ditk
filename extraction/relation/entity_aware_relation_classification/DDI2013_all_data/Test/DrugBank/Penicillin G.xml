@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="DDI-DrugBank.d665">
+    <sentence id="DDI-DrugBank.d665.s0" text="Concurrent administration of bacteriostatic antibiotics (e.g., erythromycin, tetracycline) may diminish the bactericidal effects of penicillins by slowing the rate of bacterial growth. ">
+        <entity id="DDI-DrugBank.d665.s0.e0" charOffset="29-54"
+            type="group" text="bacteriostatic antibiotics"/>
+        <entity id="DDI-DrugBank.d665.s0.e1" charOffset="63-74"
+            type="drug" text="erythromycin"/>
+        <entity id="DDI-DrugBank.d665.s0.e2" charOffset="77-88"
+            type="drug" text="tetracycline"/>
+        <entity id="DDI-DrugBank.d665.s0.e3" charOffset="132-142"
+            type="group" text="penicillins"/>
+        <pair id="DDI-DrugBank.d665.s0.p0" e1="DDI-DrugBank.d665.s0.e0"
+            e2="DDI-DrugBank.d665.s0.e1" ddi="false"/>
+        <pair id="DDI-DrugBank.d665.s0.p1" e1="DDI-DrugBank.d665.s0.e0"
+            e2="DDI-DrugBank.d665.s0.e2" ddi="false"/>
+        <pair id="DDI-DrugBank.d665.s0.p2" e1="DDI-DrugBank.d665.s0.e0"
+            e2="DDI-DrugBank.d665.s0.e3" ddi="true" type="effect"/>
+        <pair id="DDI-DrugBank.d665.s0.p3" e1="DDI-DrugBank.d665.s0.e1"
+            e2="DDI-DrugBank.d665.s0.e2" ddi="false"/>
+        <pair id="DDI-DrugBank.d665.s0.p4" e1="DDI-DrugBank.d665.s0.e1"
+            e2="DDI-DrugBank.d665.s0.e3" ddi="true" type="effect"/>
+        <pair id="DDI-DrugBank.d665.s0.p5" e1="DDI-DrugBank.d665.s0.e2"
+            e2="DDI-DrugBank.d665.s0.e3" ddi="true" type="effect"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d665.s1" text="Bactericidal agents work most effectively against the immature cell wall of rapidly proliferating microorganisms. "/>
+    <sentence id="DDI-DrugBank.d665.s2" text="This has been demonstrated in vitro; "/>
+    <sentence id="DDI-DrugBank.d665.s3" text="however, the clinical significance of this interaction is not well documented. "/>
+    <sentence id="DDI-DrugBank.d665.s4" text="There are few clinical situations in which the concurrent use of ''static'' and ''cidal '' antibiotics are indicated. ">
+        <entity id="DDI-DrugBank.d665.s4.e0" charOffset="91-101"
+            type="group" text="antibiotics"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d665.s5" text="However, in selected circumstances in which such therapy is appropriate, using adequate doses of antibacterial agents and beginning penicillin therapy first, should minimize the potential for interaction. ">
+        <entity id="DDI-DrugBank.d665.s5.e0" charOffset="97-109"
+            type="group" text="antibacterial"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d665.s6" text="Penicillin blood levels may be prolonged by concurrent administration of probenecid which blocks the renal tubular secretion of penicillins. ">
+        <entity id="DDI-DrugBank.d665.s6.e0" charOffset="0-9"
+            type="group" text="Penicillin"/>
+        <entity id="DDI-DrugBank.d665.s6.e1" charOffset="73-82"
+            type="drug" text="probenecid"/>
+        <entity id="DDI-DrugBank.d665.s6.e2" charOffset="128-138"
+            type="group" text="penicillins"/>
+        <pair id="DDI-DrugBank.d665.s6.p0" e1="DDI-DrugBank.d665.s6.e0"
+            e2="DDI-DrugBank.d665.s6.e1" ddi="true" type="mechanism"/>
+        <pair id="DDI-DrugBank.d665.s6.p1" e1="DDI-DrugBank.d665.s6.e0"
+            e2="DDI-DrugBank.d665.s6.e2" ddi="false"/>
+        <pair id="DDI-DrugBank.d665.s6.p2" e1="DDI-DrugBank.d665.s6.e1"
+            e2="DDI-DrugBank.d665.s6.e2" ddi="false"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d665.s7" text="Displacement of penicillin from plasma protein binding sites will elevate the level of free penicillin in the serum.">
+        <entity id="DDI-DrugBank.d665.s7.e0" charOffset="16-25"
+            type="group" text="penicillin"/>
+        <entity id="DDI-DrugBank.d665.s7.e1" charOffset="92-101"
+            type="group" text="penicillin"/>
+        <pair id="DDI-DrugBank.d665.s7.p0" e1="DDI-DrugBank.d665.s7.e0"
+            e2="DDI-DrugBank.d665.s7.e1" ddi="false"/>
+    </sentence>
+</document>

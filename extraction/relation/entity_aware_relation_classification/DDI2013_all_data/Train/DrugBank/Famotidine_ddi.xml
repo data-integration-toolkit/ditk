@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="DDI-DrugBank.d203">
+    <sentence id="DDI-DrugBank.d203.s0" text="No drug interactions have been identified."/>
+    <sentence id="DDI-DrugBank.d203.s1" text="Studies with famotidine in man, in animal models, and in vitro have shown no significant interference with the disposition of compounds metabolized by the hepatic microsomal enzymes, e.g., cytochrome P450 system.">
+        <entity id="DDI-DrugBank.d203.s1.e0" charOffset="13-22"
+            type="drug" text="famotidine"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d203.s2" text="Compounds tested in man include warfarin, theophylline, phenytoin, diazepam, aminopyrine and antipyrine.">
+        <entity id="DDI-DrugBank.d203.s2.e0" charOffset="32-39"
+            type="drug" text="warfarin"/>
+        <entity id="DDI-DrugBank.d203.s2.e1" charOffset="42-53"
+            type="drug" text="theophylline"/>
+        <entity id="DDI-DrugBank.d203.s2.e2" charOffset="56-64"
+            type="drug" text="phenytoin"/>
+        <entity id="DDI-DrugBank.d203.s2.e3" charOffset="67-74"
+            type="drug" text="diazepam"/>
+        <entity id="DDI-DrugBank.d203.s2.e4" charOffset="77-87"
+            type="drug" text="aminopyrine"/>
+        <entity id="DDI-DrugBank.d203.s2.e5" charOffset="93-102"
+            type="drug" text="antipyrine"/>
+        <pair id="DDI-DrugBank.d203.s2.p0" e1="DDI-DrugBank.d203.s2.e0"
+            e2="DDI-DrugBank.d203.s2.e1" ddi="false"/>
+        <pair id="DDI-DrugBank.d203.s2.p1" e1="DDI-DrugBank.d203.s2.e0"
+            e2="DDI-DrugBank.d203.s2.e2" ddi="false"/>
+        <pair id="DDI-DrugBank.d203.s2.p2" e1="DDI-DrugBank.d203.s2.e0"
+            e2="DDI-DrugBank.d203.s2.e3" ddi="false"/>
+        <pair id="DDI-DrugBank.d203.s2.p3" e1="DDI-DrugBank.d203.s2.e0"
+            e2="DDI-DrugBank.d203.s2.e4" ddi="false"/>
+        <pair id="DDI-DrugBank.d203.s2.p4" e1="DDI-DrugBank.d203.s2.e0"
+            e2="DDI-DrugBank.d203.s2.e5" ddi="false"/>
+        <pair id="DDI-DrugBank.d203.s2.p5" e1="DDI-DrugBank.d203.s2.e1"
+            e2="DDI-DrugBank.d203.s2.e2" ddi="false"/>
+        <pair id="DDI-DrugBank.d203.s2.p6" e1="DDI-DrugBank.d203.s2.e1"
+            e2="DDI-DrugBank.d203.s2.e3" ddi="false"/>
+        <pair id="DDI-DrugBank.d203.s2.p7" e1="DDI-DrugBank.d203.s2.e1"
+            e2="DDI-DrugBank.d203.s2.e4" ddi="false"/>
+        <pair id="DDI-DrugBank.d203.s2.p8" e1="DDI-DrugBank.d203.s2.e1"
+            e2="DDI-DrugBank.d203.s2.e5" ddi="false"/>
+        <pair id="DDI-DrugBank.d203.s2.p9" e1="DDI-DrugBank.d203.s2.e2"
+            e2="DDI-DrugBank.d203.s2.e3" ddi="false"/>
+        <pair id="DDI-DrugBank.d203.s2.p10" e1="DDI-DrugBank.d203.s2.e2"
+            e2="DDI-DrugBank.d203.s2.e4" ddi="false"/>
+        <pair id="DDI-DrugBank.d203.s2.p11" e1="DDI-DrugBank.d203.s2.e2"
+            e2="DDI-DrugBank.d203.s2.e5" ddi="false"/>
+        <pair id="DDI-DrugBank.d203.s2.p12" e1="DDI-DrugBank.d203.s2.e3"
+            e2="DDI-DrugBank.d203.s2.e4" ddi="false"/>
+        <pair id="DDI-DrugBank.d203.s2.p13" e1="DDI-DrugBank.d203.s2.e3"
+            e2="DDI-DrugBank.d203.s2.e5" ddi="false"/>
+        <pair id="DDI-DrugBank.d203.s2.p14" e1="DDI-DrugBank.d203.s2.e4"
+            e2="DDI-DrugBank.d203.s2.e5" ddi="false"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d203.s3" text="Indocyanine green as an index of hepatic drug extraction has been tested and no significant effects have been found.">
+        <entity id="DDI-DrugBank.d203.s3.e0" charOffset="0-16"
+            type="drug_n" text="Indocyanine green"/>
+    </sentence>
+</document>

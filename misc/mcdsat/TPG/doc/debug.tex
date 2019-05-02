@@ -1,0 +1,47 @@
+\section{Introduction}          \label{debug}
+
+When I need to debug a grammar I often add print statments to visualize the parser activity.
+Now with TPG 3 it is possible to print such information automatically.
+
+\section{Verbose parsers}
+
+Normal parsers inherit from \emph{tpg.Parser}.
+If you need a more verbose parser you can use \emph{tpg.VerboseParser} instead.
+This parser prints information about the current token each time the lexer is called.
+The debugging information has currently two level of details.
+
+\begin{description}
+    \item [Level 0] displays no information.
+    \item [Level 1] displays tokens only when the current token matches the expected token.
+    \item [Level 2] displays tokens if the current token matches or not the expected token.
+\end{description}
+
+The level is defined by the attribute \emph{verbose}. Its default value is 1.
+
+\begin{code}
+\caption{Verbose parser example}                            \label{debug:example}
+\begin{verbatimtab}[4]
+class Test(tpg.VerboseParser):
+    r"""
+
+    START -> 'x' 'y' 'z' ;
+
+    """
+
+    verbose = 2
+\end{verbatimtab}
+\end{code}
+
+The information displayed by verbose parsers has the following format:
+\begin{verbatim}
+[eat counter][stack depth]callers: (line,column) <current token> == <expected token>
+\end{verbatim}
+
+\begin{description}
+    \item [$eat counter$] is the number of calls of the lexer.
+    \item [$stack depth$] is the depth of the Python stack since the axiom.
+    \item [$callers$] is the list of non terminal symbols called before the current symbol.
+    \item [$(line,column)$] is the position of the current token in the input string.
+    \item [$==$] means the current token matches the expected token (level 1 or 2).
+    \item [$!=$] means the current token doesn't match the expected token (level 2).
+\end{description}

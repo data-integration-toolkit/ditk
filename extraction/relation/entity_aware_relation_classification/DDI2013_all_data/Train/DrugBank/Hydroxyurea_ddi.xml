@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="DDI-DrugBank.d16">
+    <sentence id="DDI-DrugBank.d16.s0" text="Prospective studies on the potential for hydroxyurea to interact with other drugs have not been performed.">
+        <entity id="DDI-DrugBank.d16.s0.e0" charOffset="41-51"
+            type="drug" text="hydroxyurea"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d16.s1" text="Concurrent use of hydroxyurea and other myelosuppressive agents or radiation therapy may increase the likelihood of bone marrow depression or other adverse events.">
+        <entity id="DDI-DrugBank.d16.s1.e0" charOffset="18-28"
+            type="drug" text="hydroxyurea"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d16.s2" text="Since hydroxyurea may raise the serum uric acid level, dosage adjustment of uricosuric medication may be necessary">
+        <entity id="DDI-DrugBank.d16.s2.e0" charOffset="6-16"
+            type="drug" text="hydroxyurea"/>
+        <entity id="DDI-DrugBank.d16.s2.e1" charOffset="76-96"
+            type="group" text="uricosuric medication"/>
+        <pair id="DDI-DrugBank.d16.s2.p0" e1="DDI-DrugBank.d16.s2.e0"
+            e2="DDI-DrugBank.d16.s2.e1" ddi="true" type="effect"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d16.s3" text="."/>
+    <sentence id="DDI-DrugBank.d16.s4" text=""/>
+</document>

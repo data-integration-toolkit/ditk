@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="DDI-MedLine.d97">
+    <sentence id="DDI-MedLine.d97.s0" text="[2 epidemics of arsenical encephalopathy in the treatment of trypanosomiasis, Uganda, 1992-1993] Since 1988, the french non-governmental organisation M  decins Sans Fronti  res is running a control program of human african trypanosomiasis in the district of Moyo, North-Uganda. "/>
+    <sentence id="DDI-MedLine.d97.s1" text="Between 1988 and 1993, more than 7,000 patients were diagnosed and treated. "/>
+    <sentence id="DDI-MedLine.d97.s2" text="Since 1988, it has been noted that incidence of melarsoprol reaction had increased systematically between June and October of each year, indicating strong seasonal variation. ">
+        <entity id="DDI-MedLine.d97.s2.e0" charOffset="48-58"
+            type="drug" text="melarsoprol"/>
+    </sentence>
+    <sentence id="DDI-MedLine.d97.s3" text="In 1992 and 1993, two outbreaks of arsenical reactive encephalopathy (ARE) occurred in the sleeping sickness center of Adjumani. "/>
+    <sentence id="DDI-MedLine.d97.s4" text="The incidence of ARE suddenly exceeded 10% of the patients treated by melarsoprol during August 1992 and September 1993. ">
+        <entity id="DDI-MedLine.d97.s4.e0" charOffset="70-80"
+            type="drug" text="melarsoprol"/>
+    </sentence>
+    <sentence id="DDI-MedLine.d97.s5" text="The onset of 80% of those &quot;epidemic&quot;"/>
+    <sentence id="DDI-MedLine.d97.s6" text="cases, occurred between the 5th and the 11th day of treatment. "/>
+    <sentence id="DDI-MedLine.d97.s7" text="Two retrospective studies were conducted in 1992 (75 cases) and in 1993 (51 cases). "/>
+    <sentence id="DDI-MedLine.d97.s8" text="Among the risk factors studied, two appear to increase the risk of ARE: the prescription of thiabendazole to treat strongyloidiasis during the melarsoprol cure and the bad general clinical conditions of patients. ">
+        <entity id="DDI-MedLine.d97.s8.e0" charOffset="92-104"
+            type="drug" text="thiabendazole"/>
+        <entity id="DDI-MedLine.d97.s8.e1" charOffset="143-153"
+            type="drug" text="melarsoprol"/>
+        <pair id="DDI-MedLine.d97.s8.p0" e1="DDI-MedLine.d97.s8.e0"
+            e2="DDI-MedLine.d97.s8.e1" ddi="true" type="effect"/>
+    </sentence>
+    <sentence id="DDI-MedLine.d97.s9" text="These observations suggest that exogenous co-factors could be involved in the occurrence of ARE. "/>
+    <sentence id="DDI-MedLine.d97.s10" text="Recommendations were to avoid administration of diffusible anti-helminthic treatment during the cure, and to improve the general conditions of patients before the cure of melarsoprol.">
+        <entity id="DDI-MedLine.d97.s10.e0" charOffset="59-73"
+            type="group" text="anti-helminthic"/>
+        <entity id="DDI-MedLine.d97.s10.e1" charOffset="171-181"
+            type="drug" text="melarsoprol"/>
+        <pair id="DDI-MedLine.d97.s10.p0" e1="DDI-MedLine.d97.s10.e0"
+            e2="DDI-MedLine.d97.s10.e1" ddi="false"/>
+    </sentence>
+</document>

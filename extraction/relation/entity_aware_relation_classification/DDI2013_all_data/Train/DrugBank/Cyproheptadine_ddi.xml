@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="DDI-DrugBank.d492">
+    <sentence id="DDI-DrugBank.d492.s0" text="MAO inhibitors prolong and intensify the anticholinergic effects of antihistamines.">
+        <entity id="DDI-DrugBank.d492.s0.e0" charOffset="0-13"
+            type="group" text="MAO inhibitors"/>
+        <entity id="DDI-DrugBank.d492.s0.e1" charOffset="68-81"
+            type="group" text="antihistamines"/>
+        <pair id="DDI-DrugBank.d492.s0.p0" e1="DDI-DrugBank.d492.s0.e0"
+            e2="DDI-DrugBank.d492.s0.e1" ddi="true" type="effect"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d492.s1" text="Antihistamines may have additive effects with alcohol and other CNS depressants, e.g., hypnotics, sedatives, tranquilizers, antianxiety agents.">
+        <entity id="DDI-DrugBank.d492.s1.e0" charOffset="0-13"
+            type="group" text="Antihistamines"/>
+        <entity id="DDI-DrugBank.d492.s1.e1" charOffset="46-52"
+            type="drug" text="alcohol"/>
+        <entity id="DDI-DrugBank.d492.s1.e2" charOffset="64-78"
+            type="group" text="CNS depressants"/>
+        <entity id="DDI-DrugBank.d492.s1.e3" charOffset="87-95"
+            type="group" text="hypnotics"/>
+        <entity id="DDI-DrugBank.d492.s1.e4" charOffset="98-106"
+            type="group" text="sedatives"/>
+        <entity id="DDI-DrugBank.d492.s1.e5" charOffset="109-121"
+            type="group" text="tranquilizers"/>
+        <entity id="DDI-DrugBank.d492.s1.e6" charOffset="124-141"
+            type="group" text="antianxiety agents"/>
+        <pair id="DDI-DrugBank.d492.s1.p0" e1="DDI-DrugBank.d492.s1.e0"
+            e2="DDI-DrugBank.d492.s1.e1" ddi="true" type="effect"/>
+        <pair id="DDI-DrugBank.d492.s1.p1" e1="DDI-DrugBank.d492.s1.e0"
+            e2="DDI-DrugBank.d492.s1.e2" ddi="true" type="effect"/>
+        <pair id="DDI-DrugBank.d492.s1.p2" e1="DDI-DrugBank.d492.s1.e0"
+            e2="DDI-DrugBank.d492.s1.e3" ddi="true" type="effect"/>
+        <pair id="DDI-DrugBank.d492.s1.p3" e1="DDI-DrugBank.d492.s1.e0"
+            e2="DDI-DrugBank.d492.s1.e4" ddi="true" type="effect"/>
+        <pair id="DDI-DrugBank.d492.s1.p4" e1="DDI-DrugBank.d492.s1.e0"
+            e2="DDI-DrugBank.d492.s1.e5" ddi="true" type="effect"/>
+        <pair id="DDI-DrugBank.d492.s1.p5" e1="DDI-DrugBank.d492.s1.e0"
+            e2="DDI-DrugBank.d492.s1.e6" ddi="true" type="effect"/>
+        <pair id="DDI-DrugBank.d492.s1.p6" e1="DDI-DrugBank.d492.s1.e1"
+            e2="DDI-DrugBank.d492.s1.e2" ddi="false"/>
+        <pair id="DDI-DrugBank.d492.s1.p7" e1="DDI-DrugBank.d492.s1.e1"
+            e2="DDI-DrugBank.d492.s1.e3" ddi="false"/>
+        <pair id="DDI-DrugBank.d492.s1.p8" e1="DDI-DrugBank.d492.s1.e1"
+            e2="DDI-DrugBank.d492.s1.e4" ddi="false"/>
+        <pair id="DDI-DrugBank.d492.s1.p9" e1="DDI-DrugBank.d492.s1.e1"
+            e2="DDI-DrugBank.d492.s1.e5" ddi="false"/>
+        <pair id="DDI-DrugBank.d492.s1.p10" e1="DDI-DrugBank.d492.s1.e1"
+            e2="DDI-DrugBank.d492.s1.e6" ddi="false"/>
+        <pair id="DDI-DrugBank.d492.s1.p11" e1="DDI-DrugBank.d492.s1.e2"
+            e2="DDI-DrugBank.d492.s1.e3" ddi="false"/>
+        <pair id="DDI-DrugBank.d492.s1.p12" e1="DDI-DrugBank.d492.s1.e2"
+            e2="DDI-DrugBank.d492.s1.e4" ddi="false"/>
+        <pair id="DDI-DrugBank.d492.s1.p13" e1="DDI-DrugBank.d492.s1.e2"
+            e2="DDI-DrugBank.d492.s1.e5" ddi="false"/>
+        <pair id="DDI-DrugBank.d492.s1.p14" e1="DDI-DrugBank.d492.s1.e2"
+            e2="DDI-DrugBank.d492.s1.e6" ddi="false"/>
+        <pair id="DDI-DrugBank.d492.s1.p15" e1="DDI-DrugBank.d492.s1.e3"
+            e2="DDI-DrugBank.d492.s1.e4" ddi="false"/>
+        <pair id="DDI-DrugBank.d492.s1.p16" e1="DDI-DrugBank.d492.s1.e3"
+            e2="DDI-DrugBank.d492.s1.e5" ddi="false"/>
+        <pair id="DDI-DrugBank.d492.s1.p17" e1="DDI-DrugBank.d492.s1.e3"
+            e2="DDI-DrugBank.d492.s1.e6" ddi="false"/>
+        <pair id="DDI-DrugBank.d492.s1.p18" e1="DDI-DrugBank.d492.s1.e4"
+            e2="DDI-DrugBank.d492.s1.e5" ddi="false"/>
+        <pair id="DDI-DrugBank.d492.s1.p19" e1="DDI-DrugBank.d492.s1.e4"
+            e2="DDI-DrugBank.d492.s1.e6" ddi="false"/>
+        <pair id="DDI-DrugBank.d492.s1.p20" e1="DDI-DrugBank.d492.s1.e5"
+            e2="DDI-DrugBank.d492.s1.e6" ddi="false"/>
+    </sentence>
+</document>

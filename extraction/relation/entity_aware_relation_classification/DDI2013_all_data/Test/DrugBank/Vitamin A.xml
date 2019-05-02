@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="DDI-DrugBank.d651">
+    <sentence id="DDI-DrugBank.d651.s0" text="Drug Interactions: Women on oral contraceptives have shown a significant increase in plasma vitamin A levels.">
+        <entity id="DDI-DrugBank.d651.s0.e0" charOffset="33-46"
+            type="group" text="contraceptives"/>
+        <entity id="DDI-DrugBank.d651.s0.e1" charOffset="92-100"
+            type="group" text="vitamin A"/>
+        <pair id="DDI-DrugBank.d651.s0.p0" e1="DDI-DrugBank.d651.s0.e0"
+            e2="DDI-DrugBank.d651.s0.e1" ddi="true" type="mechanism"/>
+    </sentence>
+</document>

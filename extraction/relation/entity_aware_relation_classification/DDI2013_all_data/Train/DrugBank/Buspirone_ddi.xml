@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="DDI-DrugBank.d463">
+    <sentence id="DDI-DrugBank.d463.s0" text="It is recommended that buspirone hydrochloride not be used concomitantly with MAO inhibitors Because the effects of concomitant administration of buspirone HCl with most other psychotropic drugs have not been studied, the concomitant use of buspirone HCl with other CNS-active drugs should be approached with caution.">
+        <entity id="DDI-DrugBank.d463.s0.e0" charOffset="23-45"
+            type="drug" text="buspirone hydrochloride"/>
+        <entity id="DDI-DrugBank.d463.s0.e1" charOffset="78-91"
+            type="group" text="MAO inhibitors"/>
+        <entity id="DDI-DrugBank.d463.s0.e2" charOffset="146-158"
+            type="drug" text="buspirone HCl"/>
+        <entity id="DDI-DrugBank.d463.s0.e3" charOffset="176-193"
+            type="group" text="psychotropic drugs"/>
+        <entity id="DDI-DrugBank.d463.s0.e4" charOffset="241-253"
+            type="drug" text="buspirone HCl"/>
+        <pair id="DDI-DrugBank.d463.s0.p0" e1="DDI-DrugBank.d463.s0.e0"
+            e2="DDI-DrugBank.d463.s0.e1" ddi="true" type="advise"/>
+        <pair id="DDI-DrugBank.d463.s0.p1" e1="DDI-DrugBank.d463.s0.e0"
+            e2="DDI-DrugBank.d463.s0.e2" ddi="false"/>
+        <pair id="DDI-DrugBank.d463.s0.p2" e1="DDI-DrugBank.d463.s0.e0"
+            e2="DDI-DrugBank.d463.s0.e3" ddi="false"/>
+        <pair id="DDI-DrugBank.d463.s0.p3" e1="DDI-DrugBank.d463.s0.e0"
+            e2="DDI-DrugBank.d463.s0.e4" ddi="false"/>
+        <pair id="DDI-DrugBank.d463.s0.p4" e1="DDI-DrugBank.d463.s0.e1"
+            e2="DDI-DrugBank.d463.s0.e2" ddi="false"/>
+        <pair id="DDI-DrugBank.d463.s0.p5" e1="DDI-DrugBank.d463.s0.e1"
+            e2="DDI-DrugBank.d463.s0.e3" ddi="false"/>
+        <pair id="DDI-DrugBank.d463.s0.p6" e1="DDI-DrugBank.d463.s0.e1"
+            e2="DDI-DrugBank.d463.s0.e4" ddi="false"/>
+        <pair id="DDI-DrugBank.d463.s0.p7" e1="DDI-DrugBank.d463.s0.e2"
+            e2="DDI-DrugBank.d463.s0.e3" ddi="false"/>
+        <pair id="DDI-DrugBank.d463.s0.p8" e1="DDI-DrugBank.d463.s0.e2"
+            e2="DDI-DrugBank.d463.s0.e4" ddi="false"/>
+        <pair id="DDI-DrugBank.d463.s0.p9" e1="DDI-DrugBank.d463.s0.e3"
+            e2="DDI-DrugBank.d463.s0.e4" ddi="false"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d463.s1" text="There is one report suggesting that the concomitant use of trazodone hydrochloride (Desyrel) and buspirone HCl may have caused 3- to 6-fold elevations on SGPT (ALT) in a few patients.">
+        <entity id="DDI-DrugBank.d463.s1.e0" charOffset="59-81"
+            type="drug" text="trazodone hydrochloride"/>
+        <entity id="DDI-DrugBank.d463.s1.e1" charOffset="84-90"
+            type="brand" text="Desyrel"/>
+        <entity id="DDI-DrugBank.d463.s1.e2" charOffset="97-109"
+            type="drug" text="buspirone HCl"/>
+        <pair id="DDI-DrugBank.d463.s1.p0" e1="DDI-DrugBank.d463.s1.e0"
+            e2="DDI-DrugBank.d463.s1.e1" ddi="false"/>
+        <pair id="DDI-DrugBank.d463.s1.p1" e1="DDI-DrugBank.d463.s1.e0"
+            e2="DDI-DrugBank.d463.s1.e2" ddi="true" type="effect"/>
+        <pair id="DDI-DrugBank.d463.s1.p2" e1="DDI-DrugBank.d463.s1.e1"
+            e2="DDI-DrugBank.d463.s1.e2" ddi="true" type="effect"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d463.s2" text="In a similar study, attempting to replicate this finding, no interactive effect on hepatic transaminases was identified."/>
+    <sentence id="DDI-DrugBank.d463.s3" text="In a study in normal volunteers, concomitant administration of buspirone HCl and haloperidol resulted in increased serum haloperidol concentrations.">
+        <entity id="DDI-DrugBank.d463.s3.e0" charOffset="63-75"
+            type="drug" text="buspirone HCl"/>
+        <entity id="DDI-DrugBank.d463.s3.e1" charOffset="81-91"
+            type="drug" text="haloperidol"/>
+        <entity id="DDI-DrugBank.d463.s3.e2" charOffset="121-131"
+            type="drug" text="haloperidol"/>
+        <pair id="DDI-DrugBank.d463.s3.p0" e1="DDI-DrugBank.d463.s3.e0"
+            e2="DDI-DrugBank.d463.s3.e1" ddi="true" type="mechanism"/>
+        <pair id="DDI-DrugBank.d463.s3.p1" e1="DDI-DrugBank.d463.s3.e0"
+            e2="DDI-DrugBank.d463.s3.e2" ddi="false"/>
+        <pair id="DDI-DrugBank.d463.s3.p2" e1="DDI-DrugBank.d463.s3.e1"
+            e2="DDI-DrugBank.d463.s3.e2" ddi="false"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d463.s4" text="The clinical significance of this finding is not clear."/>
+    <sentence id="DDI-DrugBank.d463.s5" text="In vitro, buspirone does not displace tightly bound drugs like phenytoin, propranolol, and warfarin from serum proteins.">
+        <entity id="DDI-DrugBank.d463.s5.e0" charOffset="10-18"
+            type="drug" text="buspirone"/>
+        <entity id="DDI-DrugBank.d463.s5.e1" charOffset="63-71"
+            type="drug" text="phenytoin"/>
+        <entity id="DDI-DrugBank.d463.s5.e2" charOffset="74-84"
+            type="drug" text="propranolol"/>
+        <entity id="DDI-DrugBank.d463.s5.e3" charOffset="91-98"
+            type="drug" text="warfarin"/>
+        <pair id="DDI-DrugBank.d463.s5.p0" e1="DDI-DrugBank.d463.s5.e0"
+            e2="DDI-DrugBank.d463.s5.e1" ddi="false"/>
+        <pair id="DDI-DrugBank.d463.s5.p1" e1="DDI-DrugBank.d463.s5.e0"
+            e2="DDI-DrugBank.d463.s5.e2" ddi="false"/>
+        <pair id="DDI-DrugBank.d463.s5.p2" e1="DDI-DrugBank.d463.s5.e0"
+            e2="DDI-DrugBank.d463.s5.e3" ddi="false"/>
+        <pair id="DDI-DrugBank.d463.s5.p3" e1="DDI-DrugBank.d463.s5.e1"
+            e2="DDI-DrugBank.d463.s5.e2" ddi="false"/>
+        <pair id="DDI-DrugBank.d463.s5.p4" e1="DDI-DrugBank.d463.s5.e1"
+            e2="DDI-DrugBank.d463.s5.e3" ddi="false"/>
+        <pair id="DDI-DrugBank.d463.s5.p5" e1="DDI-DrugBank.d463.s5.e2"
+            e2="DDI-DrugBank.d463.s5.e3" ddi="false"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d463.s6" text="However, there has been one report of prolonged prothrombin time when buspirone was added to the regimen of a patient treated with warfarin.">
+        <entity id="DDI-DrugBank.d463.s6.e0" charOffset="70-78"
+            type="drug" text="buspirone"/>
+        <entity id="DDI-DrugBank.d463.s6.e1" charOffset="131-138"
+            type="drug" text="warfarin"/>
+        <pair id="DDI-DrugBank.d463.s6.p0" e1="DDI-DrugBank.d463.s6.e0"
+            e2="DDI-DrugBank.d463.s6.e1" ddi="true" type="effect"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d463.s7" text="The patient was also chronically receiving phenytoin, phenobarbital, digoxin, and levothyroxine sodium.">
+        <entity id="DDI-DrugBank.d463.s7.e0" charOffset="43-51"
+            type="drug" text="phenytoin"/>
+        <entity id="DDI-DrugBank.d463.s7.e1" charOffset="54-66"
+            type="drug" text="phenobarbital"/>
+        <entity id="DDI-DrugBank.d463.s7.e2" charOffset="69-75"
+            type="drug" text="digoxin"/>
+        <entity id="DDI-DrugBank.d463.s7.e3" charOffset="82-101"
+            type="drug" text="levothyroxine sodium"/>
+        <pair id="DDI-DrugBank.d463.s7.p0" e1="DDI-DrugBank.d463.s7.e0"
+            e2="DDI-DrugBank.d463.s7.e1" ddi="false"/>
+        <pair id="DDI-DrugBank.d463.s7.p1" e1="DDI-DrugBank.d463.s7.e0"
+            e2="DDI-DrugBank.d463.s7.e2" ddi="false"/>
+        <pair id="DDI-DrugBank.d463.s7.p2" e1="DDI-DrugBank.d463.s7.e0"
+            e2="DDI-DrugBank.d463.s7.e3" ddi="false"/>
+        <pair id="DDI-DrugBank.d463.s7.p3" e1="DDI-DrugBank.d463.s7.e1"
+            e2="DDI-DrugBank.d463.s7.e2" ddi="false"/>
+        <pair id="DDI-DrugBank.d463.s7.p4" e1="DDI-DrugBank.d463.s7.e1"
+            e2="DDI-DrugBank.d463.s7.e3" ddi="false"/>
+        <pair id="DDI-DrugBank.d463.s7.p5" e1="DDI-DrugBank.d463.s7.e2"
+            e2="DDI-DrugBank.d463.s7.e3" ddi="false"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d463.s8" text="In vitro, buspirone may displace less firmly bound drugs like digoxin.">
+        <entity id="DDI-DrugBank.d463.s8.e0" charOffset="10-18"
+            type="drug" text="buspirone"/>
+        <entity id="DDI-DrugBank.d463.s8.e1" charOffset="62-68"
+            type="drug" text="digoxin"/>
+        <pair id="DDI-DrugBank.d463.s8.p0" e1="DDI-DrugBank.d463.s8.e0"
+            e2="DDI-DrugBank.d463.s8.e1" ddi="true" type="mechanism"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d463.s9" text="The clinical significance of this property is unknown."/>
+</document>

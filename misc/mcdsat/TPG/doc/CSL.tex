@@ -1,0 +1,31 @@
+\section{Introduction}          \label{CSL}
+
+Before the version 2 of TPG, lexers were context sensitive.
+That means that the parser commands the lexer to match some tokens, i.e. different tokens can be matched in a same input string according to the grammar rules being used.
+These lexers were very flexible but slower than context free lexers because TPG backtracking caused tokens to be matched several times.
+
+In TPG 2, the lexer is called before the parser and produces a list of tokens from the input string.
+This list is then given to the parser.
+In this case when TPG backtracks the token list remains unchanged.
+
+Since TPG 2.1.2, context sensitive lexers have been reintroduced in TPG.
+By default lexers are context free but the \emph{CSL} option (see~\ref{grammar:lexer_option}) turns TPG into a context sensitive lexer.
+
+\section{Grammar structure}
+
+CSL grammar have the same structure than non CSL grammars (see~\ref{grammar:struct}) except from the \emph{lexer~=~CSL} option (see~\ref{grammar:lexer_option}).
+
+\section{CSL lexers}
+
+\subsection{Regular expression syntax}
+
+The CSL lexer is based on the \emph{re} module.
+The difference with non CSL lexers is that the given regular expression is compiled as this, without any encapsulation.
+
+\subsection{Token matching}
+
+In CSL parsers, tokens are matched as in non CSL parsers (see~\ref{lexer:token_matching}).
+
+\section{CSL parsers}
+
+There is no difference between CSL and non CSL parsers.

@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="DDI-MedLine.d25">
+    <sentence id="DDI-MedLine.d25.s0" text="Rhabdomyolysis secondary to a drug interaction between simvastatin and clarithromycin.&#xd;&#xa;">
+        <entity id="DDI-MedLine.d25.s0.e0" charOffset="55-65"
+            type="drug" text="simvastatin"/>
+        <entity id="DDI-MedLine.d25.s0.e1" charOffset="71-84"
+            type="drug" text="clarithromycin"/>
+        <pair id="DDI-MedLine.d25.s0.p0" e1="DDI-MedLine.d25.s0.e0"
+            e2="DDI-MedLine.d25.s0.e1" ddi="true" type="effect"/>
+    </sentence>
+    <sentence id="DDI-MedLine.d25.s1" text="OBJECTIVE: To report a case of rhabdomyolysis resulting from concomitant use of clarithromycin and simvastatin. ">
+        <entity id="DDI-MedLine.d25.s1.e0" charOffset="80-93"
+            type="drug" text="clarithromycin"/>
+        <entity id="DDI-MedLine.d25.s1.e1" charOffset="99-109"
+            type="drug" text="simvastatin"/>
+        <pair id="DDI-MedLine.d25.s1.p0" e1="DDI-MedLine.d25.s1.e0"
+            e2="DDI-MedLine.d25.s1.e1" ddi="false"/>
+    </sentence>
+    <sentence id="DDI-MedLine.d25.s2" text="CASE SUMMARY: A 64-year-old African-American man was admitted to the hospital for worsening renal failure, elevated creatine phosphokinase, diffuse muscle pain, and severe muscle weakness. "/>
+    <sentence id="DDI-MedLine.d25.s3" text="About three weeks prior to admission, the patient was started on clarithromycin for sinusitis. ">
+        <entity id="DDI-MedLine.d25.s3.e0" charOffset="65-78"
+            type="drug" text="clarithromycin"/>
+    </sentence>
+    <sentence id="DDI-MedLine.d25.s4" text="The patient had been receiving simvastatin for approximately six months. ">
+        <entity id="DDI-MedLine.d25.s4.e0" charOffset="31-41"
+            type="drug" text="simvastatin"/>
+    </sentence>
+    <sentence id="DDI-MedLine.d25.s5" text="He was treated aggressively with intravenous hydration, sodium bicarbonate, and hemodialysis. ">
+        <entity id="DDI-MedLine.d25.s5.e0" charOffset="56-73"
+            type="drug" text="sodium bicarbonate"/>
+    </sentence>
+    <sentence id="DDI-MedLine.d25.s6" text="A muscle biopsy revealed necrotizing myopathy secondary to a toxin. "/>
+    <sentence id="DDI-MedLine.d25.s7" text="The patient continued to receive intermittent hemodialysis until his death from infectious complications that occurred three months after admission. "/>
+    <sentence id="DDI-MedLine.d25.s8" text="There were several factors that could have increased his risk for developing rhabdomyolysis, including chronic renal failure. "/>
+    <sentence id="DDI-MedLine.d25.s9" text="DISCUSSION: Clarithromycin is a potent inhibitor of CYP3A4, the major enzyme responsible for simvastatin metabolism. ">
+        <entity id="DDI-MedLine.d25.s9.e0" charOffset="12-25"
+            type="drug" text="Clarithromycin"/>
+        <entity id="DDI-MedLine.d25.s9.e1" charOffset="93-103"
+            type="drug" text="simvastatin"/>
+        <pair id="DDI-MedLine.d25.s9.p0" e1="DDI-MedLine.d25.s9.e0"
+            e2="DDI-MedLine.d25.s9.e1" ddi="true" type="mechanism"/>
+    </sentence>
+    <sentence id="DDI-MedLine.d25.s10" text="The concomitant administration of macrolide antibiotics and other hydroxymethylglutaryl coenzyme A (HMG-CoA) reductase inhibitors have resulted in previous reports of rhabdomyolysis. ">
+        <entity id="DDI-MedLine.d25.s10.e0" charOffset="34-54"
+            type="group" text="macrolide antibiotics"/>
+        <entity id="DDI-MedLine.d25.s10.e1" charOffset="66-128"
+            type="group" text="hydroxymethylglutaryl coenzyme A (HMG-CoA) reductase inhibitors"/>
+        <pair id="DDI-MedLine.d25.s10.p0" e1="DDI-MedLine.d25.s10.e0"
+            e2="DDI-MedLine.d25.s10.e1" ddi="true" type="effect"/>
+    </sentence>
+    <sentence id="DDI-MedLine.d25.s11" text="Other factors may increase the risk of this drug interaction, including the administration of other medications that are associated with myopathy, underlying renal insufficiency, and administration of high doses of HMG-CoA reductase inhibitors. ">
+        <entity id="DDI-MedLine.d25.s11.e0" charOffset="215-242"
+            type="group" text="HMG-CoA reductase inhibitors"/>
+    </sentence>
+    <sentence id="DDI-MedLine.d25.s12" text="CONCLUSIONS: Macrolide antibiotics inhibit the metabolism of HMG-CoA reductase inhibitors that are metabolized by CYP3A4 (i.e., atorvastatin, cerivastatin, lovastatin, simvastatin). ">
+        <entity id="DDI-MedLine.d25.s12.e0" charOffset="13-33"
+            type="group" text="Macrolide antibiotics"/>
+        <entity id="DDI-MedLine.d25.s12.e1" charOffset="61-88"
+            type="group" text="HMG-CoA reductase inhibitors"/>
+        <entity id="DDI-MedLine.d25.s12.e2" charOffset="128-139"
+            type="drug" text="atorvastatin"/>
+        <entity id="DDI-MedLine.d25.s12.e3" charOffset="142-153"
+            type="drug" text="cerivastatin"/>
+        <entity id="DDI-MedLine.d25.s12.e4" charOffset="156-165"
+            type="drug" text="lovastatin"/>
+        <entity id="DDI-MedLine.d25.s12.e5" charOffset="168-178"
+            type="drug" text="simvastatin"/>
+        <pair id="DDI-MedLine.d25.s12.p0" e1="DDI-MedLine.d25.s12.e0"
+            e2="DDI-MedLine.d25.s12.e1" ddi="false"/>
+        <pair id="DDI-MedLine.d25.s12.p1" e1="DDI-MedLine.d25.s12.e0"
+            e2="DDI-MedLine.d25.s12.e2" ddi="true" type="mechanism"/>
+        <pair id="DDI-MedLine.d25.s12.p2" e1="DDI-MedLine.d25.s12.e0"
+            e2="DDI-MedLine.d25.s12.e3" ddi="true" type="mechanism"/>
+        <pair id="DDI-MedLine.d25.s12.p3" e1="DDI-MedLine.d25.s12.e0"
+            e2="DDI-MedLine.d25.s12.e4" ddi="true" type="mechanism"/>
+        <pair id="DDI-MedLine.d25.s12.p4" e1="DDI-MedLine.d25.s12.e0"
+            e2="DDI-MedLine.d25.s12.e5" ddi="true" type="mechanism"/>
+        <pair id="DDI-MedLine.d25.s12.p5" e1="DDI-MedLine.d25.s12.e1"
+            e2="DDI-MedLine.d25.s12.e2" ddi="false"/>
+        <pair id="DDI-MedLine.d25.s12.p6" e1="DDI-MedLine.d25.s12.e1"
+            e2="DDI-MedLine.d25.s12.e3" ddi="false"/>
+        <pair id="DDI-MedLine.d25.s12.p7" e1="DDI-MedLine.d25.s12.e1"
+            e2="DDI-MedLine.d25.s12.e4" ddi="false"/>
+        <pair id="DDI-MedLine.d25.s12.p8" e1="DDI-MedLine.d25.s12.e1"
+            e2="DDI-MedLine.d25.s12.e5" ddi="false"/>
+        <pair id="DDI-MedLine.d25.s12.p9" e1="DDI-MedLine.d25.s12.e2"
+            e2="DDI-MedLine.d25.s12.e3" ddi="false"/>
+        <pair id="DDI-MedLine.d25.s12.p10" e1="DDI-MedLine.d25.s12.e2"
+            e2="DDI-MedLine.d25.s12.e4" ddi="false"/>
+        <pair id="DDI-MedLine.d25.s12.p11" e1="DDI-MedLine.d25.s12.e2"
+            e2="DDI-MedLine.d25.s12.e5" ddi="false"/>
+        <pair id="DDI-MedLine.d25.s12.p12" e1="DDI-MedLine.d25.s12.e3"
+            e2="DDI-MedLine.d25.s12.e4" ddi="false"/>
+        <pair id="DDI-MedLine.d25.s12.p13" e1="DDI-MedLine.d25.s12.e3"
+            e2="DDI-MedLine.d25.s12.e5" ddi="false"/>
+        <pair id="DDI-MedLine.d25.s12.p14" e1="DDI-MedLine.d25.s12.e4"
+            e2="DDI-MedLine.d25.s12.e5" ddi="false"/>
+    </sentence>
+    <sentence id="DDI-MedLine.d25.s13" text="This interaction may result in myopathy and rhabdomyolysis, particularly in patients with renal insufficiency or those who are concurrently taking medications associated with myopathy."/>
+</document>

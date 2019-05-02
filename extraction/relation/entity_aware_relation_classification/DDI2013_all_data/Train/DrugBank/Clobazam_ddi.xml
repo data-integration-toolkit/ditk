@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="DDI-DrugBank.d136">
+    <sentence id="DDI-DrugBank.d136.s0" text="Alcohol (increases bioavailability by 50%), cimetidine, and valproates.">
+        <entity id="DDI-DrugBank.d136.s0.e0" charOffset="0-6"
+            type="drug" text="Alcohol"/>
+        <entity id="DDI-DrugBank.d136.s0.e1" charOffset="44-53"
+            type="drug" text="cimetidine"/>
+        <pair id="DDI-DrugBank.d136.s0.p0" e1="DDI-DrugBank.d136.s0.e0"
+            e2="DDI-DrugBank.d136.s0.e1" ddi="false"/>
+    </sentence>
+</document>

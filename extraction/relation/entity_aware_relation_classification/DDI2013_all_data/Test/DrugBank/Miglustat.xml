@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="DDI-DrugBank.d695">
+    <sentence id="DDI-DrugBank.d695.s0" text="While co-administration of ZAVESCA    appeared to increase the clearance of Cerezyme by 70%, these results are not conclusive because of the small number of subjects studied and because patients took variable doses of Cerezyme. ">
+        <entity id="DDI-DrugBank.d695.s0.e0" charOffset="27-33"
+            type="brand" text="ZAVESCA"/>
+        <entity id="DDI-DrugBank.d695.s0.e1" charOffset="76-83"
+            type="brand" text="Cerezyme"/>
+        <entity id="DDI-DrugBank.d695.s0.e2" charOffset="218-225"
+            type="brand" text="Cerezyme"/>
+        <pair id="DDI-DrugBank.d695.s0.p0" e1="DDI-DrugBank.d695.s0.e0"
+            e2="DDI-DrugBank.d695.s0.e1" ddi="true" type="mechanism"/>
+        <pair id="DDI-DrugBank.d695.s0.p1" e1="DDI-DrugBank.d695.s0.e0"
+            e2="DDI-DrugBank.d695.s0.e2" ddi="false"/>
+        <pair id="DDI-DrugBank.d695.s0.p2" e1="DDI-DrugBank.d695.s0.e1"
+            e2="DDI-DrugBank.d695.s0.e2" ddi="false"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d695.s1" text="Combination therapy with Cerezyme    (imiglucerase) and ZAVESCA    is not indicated.">
+        <entity id="DDI-DrugBank.d695.s1.e0" charOffset="25-32"
+            type="brand" text="Cerezyme"/>
+        <entity id="DDI-DrugBank.d695.s1.e1" charOffset="38-49"
+            type="drug" text="imiglucerase"/>
+        <entity id="DDI-DrugBank.d695.s1.e2" charOffset="56-62"
+            type="brand" text="ZAVESCA"/>
+        <pair id="DDI-DrugBank.d695.s1.p0" e1="DDI-DrugBank.d695.s1.e0"
+            e2="DDI-DrugBank.d695.s1.e1" ddi="false"/>
+        <pair id="DDI-DrugBank.d695.s1.p1" e1="DDI-DrugBank.d695.s1.e0"
+            e2="DDI-DrugBank.d695.s1.e2" ddi="true" type="advise"/>
+        <pair id="DDI-DrugBank.d695.s1.p2" e1="DDI-DrugBank.d695.s1.e1"
+            e2="DDI-DrugBank.d695.s1.e2" ddi="true" type="advise"/>
+    </sentence>
+</document>

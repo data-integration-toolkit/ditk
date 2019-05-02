@@ -1,0 +1,167 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="DDI-DrugBank.d628">
+    <sentence id="DDI-DrugBank.d628.s0" text="The induction dose requirements of DIPRIVAN Injectable Emulsion may be reduced in patients with intramuscular or intravenous premedication, particularly with narcotics (eg, morphine, meperidine, and fentanyl, etc.) ">
+        <entity id="DDI-DrugBank.d628.s0.e0" charOffset="35-42"
+            type="brand" text="DIPRIVAN"/>
+        <entity id="DDI-DrugBank.d628.s0.e1" charOffset="158-166"
+            type="group" text="narcotics"/>
+        <entity id="DDI-DrugBank.d628.s0.e2" charOffset="173-180"
+            type="drug" text="morphine"/>
+        <entity id="DDI-DrugBank.d628.s0.e3" charOffset="183-192"
+            type="drug" text="meperidine"/>
+        <entity id="DDI-DrugBank.d628.s0.e4" charOffset="199-206"
+            type="drug" text="fentanyl"/>
+        <pair id="DDI-DrugBank.d628.s0.p0" e1="DDI-DrugBank.d628.s0.e0"
+            e2="DDI-DrugBank.d628.s0.e1" ddi="true" type="effect"/>
+        <pair id="DDI-DrugBank.d628.s0.p1" e1="DDI-DrugBank.d628.s0.e0"
+            e2="DDI-DrugBank.d628.s0.e2" ddi="true" type="effect"/>
+        <pair id="DDI-DrugBank.d628.s0.p2" e1="DDI-DrugBank.d628.s0.e0"
+            e2="DDI-DrugBank.d628.s0.e3" ddi="true" type="effect"/>
+        <pair id="DDI-DrugBank.d628.s0.p3" e1="DDI-DrugBank.d628.s0.e0"
+            e2="DDI-DrugBank.d628.s0.e4" ddi="true" type="effect"/>
+        <pair id="DDI-DrugBank.d628.s0.p4" e1="DDI-DrugBank.d628.s0.e1"
+            e2="DDI-DrugBank.d628.s0.e2" ddi="false"/>
+        <pair id="DDI-DrugBank.d628.s0.p5" e1="DDI-DrugBank.d628.s0.e1"
+            e2="DDI-DrugBank.d628.s0.e3" ddi="false"/>
+        <pair id="DDI-DrugBank.d628.s0.p6" e1="DDI-DrugBank.d628.s0.e1"
+            e2="DDI-DrugBank.d628.s0.e4" ddi="false"/>
+        <pair id="DDI-DrugBank.d628.s0.p7" e1="DDI-DrugBank.d628.s0.e2"
+            e2="DDI-DrugBank.d628.s0.e3" ddi="false"/>
+        <pair id="DDI-DrugBank.d628.s0.p8" e1="DDI-DrugBank.d628.s0.e2"
+            e2="DDI-DrugBank.d628.s0.e4" ddi="false"/>
+        <pair id="DDI-DrugBank.d628.s0.p9" e1="DDI-DrugBank.d628.s0.e3"
+            e2="DDI-DrugBank.d628.s0.e4" ddi="false"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d628.s1" text="and combinations of opioids and sedatives (eg, benzodiazepines, barbiturates, chloral hydrate, droperidol, etc.). ">
+        <entity id="DDI-DrugBank.d628.s1.e0" charOffset="20-26"
+            type="group" text="opioids"/>
+        <entity id="DDI-DrugBank.d628.s1.e1" charOffset="32-40"
+            type="group" text="sedatives"/>
+        <entity id="DDI-DrugBank.d628.s1.e2" charOffset="47-61"
+            type="group" text="benzodiazepines"/>
+        <entity id="DDI-DrugBank.d628.s1.e3" charOffset="64-75"
+            type="group" text="barbiturates"/>
+        <entity id="DDI-DrugBank.d628.s1.e4" charOffset="78-92"
+            type="drug" text="chloral hydrate"/>
+        <entity id="DDI-DrugBank.d628.s1.e5" charOffset="95-104"
+            type="drug" text="droperidol"/>
+        <pair id="DDI-DrugBank.d628.s1.p0" e1="DDI-DrugBank.d628.s1.e0"
+            e2="DDI-DrugBank.d628.s1.e1" ddi="false"/>
+        <pair id="DDI-DrugBank.d628.s1.p1" e1="DDI-DrugBank.d628.s1.e0"
+            e2="DDI-DrugBank.d628.s1.e2" ddi="false"/>
+        <pair id="DDI-DrugBank.d628.s1.p2" e1="DDI-DrugBank.d628.s1.e0"
+            e2="DDI-DrugBank.d628.s1.e3" ddi="false"/>
+        <pair id="DDI-DrugBank.d628.s1.p3" e1="DDI-DrugBank.d628.s1.e0"
+            e2="DDI-DrugBank.d628.s1.e4" ddi="false"/>
+        <pair id="DDI-DrugBank.d628.s1.p4" e1="DDI-DrugBank.d628.s1.e0"
+            e2="DDI-DrugBank.d628.s1.e5" ddi="false"/>
+        <pair id="DDI-DrugBank.d628.s1.p5" e1="DDI-DrugBank.d628.s1.e1"
+            e2="DDI-DrugBank.d628.s1.e2" ddi="false"/>
+        <pair id="DDI-DrugBank.d628.s1.p6" e1="DDI-DrugBank.d628.s1.e1"
+            e2="DDI-DrugBank.d628.s1.e3" ddi="false"/>
+        <pair id="DDI-DrugBank.d628.s1.p7" e1="DDI-DrugBank.d628.s1.e1"
+            e2="DDI-DrugBank.d628.s1.e4" ddi="false"/>
+        <pair id="DDI-DrugBank.d628.s1.p8" e1="DDI-DrugBank.d628.s1.e1"
+            e2="DDI-DrugBank.d628.s1.e5" ddi="false"/>
+        <pair id="DDI-DrugBank.d628.s1.p9" e1="DDI-DrugBank.d628.s1.e2"
+            e2="DDI-DrugBank.d628.s1.e3" ddi="false"/>
+        <pair id="DDI-DrugBank.d628.s1.p10" e1="DDI-DrugBank.d628.s1.e2"
+            e2="DDI-DrugBank.d628.s1.e4" ddi="false"/>
+        <pair id="DDI-DrugBank.d628.s1.p11" e1="DDI-DrugBank.d628.s1.e2"
+            e2="DDI-DrugBank.d628.s1.e5" ddi="false"/>
+        <pair id="DDI-DrugBank.d628.s1.p12" e1="DDI-DrugBank.d628.s1.e3"
+            e2="DDI-DrugBank.d628.s1.e4" ddi="false"/>
+        <pair id="DDI-DrugBank.d628.s1.p13" e1="DDI-DrugBank.d628.s1.e3"
+            e2="DDI-DrugBank.d628.s1.e5" ddi="false"/>
+        <pair id="DDI-DrugBank.d628.s1.p14" e1="DDI-DrugBank.d628.s1.e4"
+            e2="DDI-DrugBank.d628.s1.e5" ddi="false"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d628.s2" text="These agents may increase the anesthetic or sedative effects of DIPRIVAN Injectable Emulsion and may also result in more pronounced decreases in systolic, diastolic, and mean arterial pressures and cardiac output. ">
+        <entity id="DDI-DrugBank.d628.s2.e0" charOffset="64-71"
+            type="brand" text="DIPRIVAN"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d628.s3" text="During maintenance of anesthesia or sedation, the rate of DIPRIVAN Injectable Emulsion administration should be adjusted according to the desired level of anesthesia or sedation and may be reduced in the presence of supplemental analgesic agents (eg, nitrous oxide or opioids). ">
+        <entity id="DDI-DrugBank.d628.s3.e0" charOffset="58-65"
+            type="brand" text="DIPRIVAN"/>
+        <entity id="DDI-DrugBank.d628.s3.e1" charOffset="229-244"
+            type="group" text="analgesic agents"/>
+        <entity id="DDI-DrugBank.d628.s3.e2" charOffset="251-263"
+            type="drug" text="nitrous oxide"/>
+        <entity id="DDI-DrugBank.d628.s3.e3" charOffset="268-274"
+            type="group" text="opioids"/>
+        <pair id="DDI-DrugBank.d628.s3.p0" e1="DDI-DrugBank.d628.s3.e0"
+            e2="DDI-DrugBank.d628.s3.e1" ddi="true" type="advise"/>
+        <pair id="DDI-DrugBank.d628.s3.p1" e1="DDI-DrugBank.d628.s3.e0"
+            e2="DDI-DrugBank.d628.s3.e2" ddi="true" type="advise"/>
+        <pair id="DDI-DrugBank.d628.s3.p2" e1="DDI-DrugBank.d628.s3.e0"
+            e2="DDI-DrugBank.d628.s3.e3" ddi="true" type="advise"/>
+        <pair id="DDI-DrugBank.d628.s3.p3" e1="DDI-DrugBank.d628.s3.e1"
+            e2="DDI-DrugBank.d628.s3.e2" ddi="false"/>
+        <pair id="DDI-DrugBank.d628.s3.p4" e1="DDI-DrugBank.d628.s3.e1"
+            e2="DDI-DrugBank.d628.s3.e3" ddi="false"/>
+        <pair id="DDI-DrugBank.d628.s3.p5" e1="DDI-DrugBank.d628.s3.e2"
+            e2="DDI-DrugBank.d628.s3.e3" ddi="false"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d628.s4" text="The concurrent administration of potent inhalational agents (eg, isoflurane, enflurane, and halothane) during maintenance with DIPRIVAN Injectable Emulsion has not been extensively evaluated. ">
+        <entity id="DDI-DrugBank.d628.s4.e0" charOffset="65-74"
+            type="drug" text="isoflurane"/>
+        <entity id="DDI-DrugBank.d628.s4.e1" charOffset="77-85"
+            type="drug" text="enflurane"/>
+        <entity id="DDI-DrugBank.d628.s4.e2" charOffset="92-100"
+            type="drug" text="halothane"/>
+        <entity id="DDI-DrugBank.d628.s4.e3" charOffset="127-134"
+            type="brand" text="DIPRIVAN"/>
+        <pair id="DDI-DrugBank.d628.s4.p0" e1="DDI-DrugBank.d628.s4.e0"
+            e2="DDI-DrugBank.d628.s4.e1" ddi="false"/>
+        <pair id="DDI-DrugBank.d628.s4.p1" e1="DDI-DrugBank.d628.s4.e0"
+            e2="DDI-DrugBank.d628.s4.e2" ddi="false"/>
+        <pair id="DDI-DrugBank.d628.s4.p2" e1="DDI-DrugBank.d628.s4.e0"
+            e2="DDI-DrugBank.d628.s4.e3" ddi="false"/>
+        <pair id="DDI-DrugBank.d628.s4.p3" e1="DDI-DrugBank.d628.s4.e1"
+            e2="DDI-DrugBank.d628.s4.e2" ddi="false"/>
+        <pair id="DDI-DrugBank.d628.s4.p4" e1="DDI-DrugBank.d628.s4.e1"
+            e2="DDI-DrugBank.d628.s4.e3" ddi="false"/>
+        <pair id="DDI-DrugBank.d628.s4.p5" e1="DDI-DrugBank.d628.s4.e2"
+            e2="DDI-DrugBank.d628.s4.e3" ddi="false"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d628.s5" text="These inhalational agents can also be expected to increase the anesthetic or sedative and cardiorespiratory effects of DIPRIVAN Injectable Emulsion. ">
+        <entity id="DDI-DrugBank.d628.s5.e0" charOffset="119-126"
+            type="brand" text="DIPRIVAN"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d628.s6" text="DIPRIVAN Injectable Emulsion does not cause a clinically significant change in onset, intensity, or duration of action of the commonly used neuromuscular blocking agents (eg, succinylcholine and nondepolarizing muscle relaxants). ">
+        <entity id="DDI-DrugBank.d628.s6.e0" charOffset="0-7"
+            type="brand" text="DIPRIVAN"/>
+        <entity id="DDI-DrugBank.d628.s6.e1" charOffset="140-168"
+            type="group" text="neuromuscular blocking agents"/>
+        <entity id="DDI-DrugBank.d628.s6.e2" charOffset="175-189"
+            type="drug" text="succinylcholine"/>
+        <entity id="DDI-DrugBank.d628.s6.e3" charOffset="195-226"
+            type="group" text="nondepolarizing muscle relaxants"/>
+        <pair id="DDI-DrugBank.d628.s6.p0" e1="DDI-DrugBank.d628.s6.e0"
+            e2="DDI-DrugBank.d628.s6.e1" ddi="false"/>
+        <pair id="DDI-DrugBank.d628.s6.p1" e1="DDI-DrugBank.d628.s6.e0"
+            e2="DDI-DrugBank.d628.s6.e2" ddi="false"/>
+        <pair id="DDI-DrugBank.d628.s6.p2" e1="DDI-DrugBank.d628.s6.e0"
+            e2="DDI-DrugBank.d628.s6.e3" ddi="false"/>
+        <pair id="DDI-DrugBank.d628.s6.p3" e1="DDI-DrugBank.d628.s6.e1"
+            e2="DDI-DrugBank.d628.s6.e2" ddi="false"/>
+        <pair id="DDI-DrugBank.d628.s6.p4" e1="DDI-DrugBank.d628.s6.e1"
+            e2="DDI-DrugBank.d628.s6.e3" ddi="false"/>
+        <pair id="DDI-DrugBank.d628.s6.p5" e1="DDI-DrugBank.d628.s6.e2"
+            e2="DDI-DrugBank.d628.s6.e3" ddi="false"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d628.s7" text="No significant adverse interactions with commonly used premedications or drugs used during anesthesia or sedation (including a range of muscle relaxants, inhalational agents, analgesic agents, and local anesthetic agents) have been observed.">
+        <entity id="DDI-DrugBank.d628.s7.e0" charOffset="136-151"
+            type="group" text="muscle relaxants"/>
+        <entity id="DDI-DrugBank.d628.s7.e1" charOffset="175-190"
+            type="group" text="analgesic agents"/>
+        <entity id="DDI-DrugBank.d628.s7.e2" charOffset="203-219"
+            type="group" text="anesthetic agents"/>
+        <pair id="DDI-DrugBank.d628.s7.p0" e1="DDI-DrugBank.d628.s7.e0"
+            e2="DDI-DrugBank.d628.s7.e1" ddi="false"/>
+        <pair id="DDI-DrugBank.d628.s7.p1" e1="DDI-DrugBank.d628.s7.e0"
+            e2="DDI-DrugBank.d628.s7.e2" ddi="false"/>
+        <pair id="DDI-DrugBank.d628.s7.p2" e1="DDI-DrugBank.d628.s7.e1"
+            e2="DDI-DrugBank.d628.s7.e2" ddi="false"/>
+    </sentence>
+</document>
