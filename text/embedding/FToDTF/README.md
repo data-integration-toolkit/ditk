@@ -58,6 +58,3 @@ Semantic Comparison of Words and Texts for Semantic Textual Similarity.
 - [Auto-generated Documentation](https://dbaumgarten.github.io/FToDTF/)
 - [Architecture Documentation](https://github.com/dbaumgarten/FToDTF/blob/master/docs/architecture/architecture.md)
 
-### Citation
-Piotr Bojanowski, Edouard Grave, Armand Joulin and Tomas Mikolov. Enriching word vectors with Subword Information. Published in Transactions of the Association for Computational Linguistics, Volume 5, July 15th 2016.
-
