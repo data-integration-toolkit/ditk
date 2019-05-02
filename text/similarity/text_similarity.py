@@ -89,6 +89,9 @@ class TextSemanticSimilarity(abc.ABC):
 		y = np.array(predicted_values)
 
 		r, p = pearsonr(x, y)
+		
+		# r - Pearson’s correlation coefficient
+		# p - 2-tailed p-value
 
 
 		evaluation_score = r
