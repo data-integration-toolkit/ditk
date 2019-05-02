@@ -9,7 +9,7 @@ def main(inputFilePath):
     #instantiate a model!
 
     # test params:
-    test_params = {'n_iter':101,'m_report':1000000,'save_checkpoint_models':False}  # note, it m_report > n_iter no evals on dev/test will be done during training [provides slightly faster runtime]
+    test_params = {'n_iter':5001,'m_report':1000000,'save_checkpoint_models':False}  # note, it m_report > n_iter no evals on dev/test will be done during training [provides slightly faster runtime]
     drtrnn = disease_name_recognition_through_rnn(**test_params)
 
     # convert dataset to properformat used by training
@@ -19,14 +19,14 @@ def main(inputFilePath):
     dataset_name = 'unittest'
     file_dict = {'train':{'data':inputFilePath},'dev':{},'test':{}}
 
-    # # test conll2003...good!
-    # dataset_name = 'CoNLL_2003'
-    # # dataset_dir = '/Users/olderhorselover/USC/spring2019/csci_548_diotw/project/groupedProject/conll2003_corpus/smol/'  # smol sample
-    # dataset_dir = '/Users/olderhorselover/USC/spring2019/csci_548_diotw/project/groupedProject/conll2003_corpus/'
-    # raw_data_train_file = dataset_dir + 'train.txt'
-    # raw_data_dev_file = dataset_dir + 'dev.txt'
-    # raw_data_test_file = dataset_dir + 'test.txt'
-    # file_dict = {'train':{'data':raw_data_train_file},'dev':{'data':raw_data_dev_file},'test':{'data':raw_data_test_file}}
+    # test conll2003...good!
+    dataset_name = 'CoNLL_2003'
+    # dataset_dir = '/Users/olderhorselover/USC/spring2019/csci_548_diotw/project/groupedProject/conll2003_corpus/smol/'  # smol sample
+    dataset_dir = '/Users/olderhorselover/USC/spring2019/csci_548_diotw/project/groupedProject/conll2003_corpus/'
+    raw_data_train_file = dataset_dir + 'train.txt'
+    raw_data_dev_file = dataset_dir + 'dev.txt'
+    raw_data_test_file = dataset_dir + 'test.txt'
+    file_dict = {'train':{'data':raw_data_train_file},'dev':{'data':raw_data_dev_file},'test':{'data':raw_data_test_file}}
 
     # # test ontoNotes5.0...good!
     # dataset_name = 'OntoNotes_5p0'
@@ -58,11 +58,12 @@ def main(inputFilePath):
     #data = []  # implementation
     data_train = data['train']  # test passing actual data [empty also works]
     drtrnn.train(data_train)
+    print('DONE TRAIN')
 
     # predict using trained model
     data_test = data['test']
     predictions = drtrnn.predict(data_test)  # test passing actual data [empty also works]
-    print(len(predictions))
+    print('DONE PREDICT')
 
     
     outputPredictionsFile = 'predictions.txt'
