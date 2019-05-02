@@ -1,4 +1,4 @@
-# ClincalRE
+# ClinicalRE
 - Relation extraction from clinical texts using domain invariant convolutional neural network
 - Sunil Kumar Sahu, Ashish Anand, Krishnadev Oruganty, Mahanandeeshwar Gattu: “Relation extraction from clinical texts using domain invariant convolutional neural network.” ACL 2016 (2016): 206.
 
@@ -11,8 +11,8 @@ https://github.com/sunilitggu/relation_extraction_in_clinical_text
 
 ## Input and Output
 - Input and output for Training
-	-Input
-	-Output
+	* Input
+	* Output
 
 ## Evalution
 ### Evaluation Datasets
@@ -35,5 +35,5 @@ https://github.com/sunilitggu/relation_extraction_in_clinical_text
 |F1 Score|71.49%|21.27%|48.54%|
 
 ## Demo
-- [Link to the Jupyter Notebook](#https://github.com/Candelaa/ditk/blob/develop/extraction/relation/ClinicalRE/code/ClinicalRE.ipynb)
-- [Link to the video on Youtube](#https://youtu.be/DO6raNbp0cg)
+- [Link to the Jupyter Notebook](https://github.com/Candelaa/ditk/blob/develop/extraction/relation/ClinicalRE/code/ClinicalRE.ipynb)
+- [Link to the video on Youtube](https://youtu.be/DO6raNbp0cg)
