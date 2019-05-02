@@ -4,8 +4,8 @@
 Shubhanshu Mishra and Jana Diesner. Semi-Supervised Named entity recognition in Noisy Text. Proceedings of Noisy User-generated Text(NUT) at International Conference on Computational Linguistics (COLING), Osaka, Japan, 2016. https://aclweb.org/anthology/W16-3927
 
 ### Input/Output format for Prediction
-Input: Format similar to Ner_test_input.txt present in NoisyNLP/tests
-Output: Word, Actual Tag, Predicted Tag
+- Input: Format similar to Ner_test_input.txt present in NoisyNLP/tests
+- Output: Word, Actual Tag, Predicted Tag
 
 ### Input format for Training
 Word, Actual Tag
