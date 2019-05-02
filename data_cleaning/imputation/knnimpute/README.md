@@ -55,12 +55,34 @@ Results:
 [YouTube Video](https://youtu.be/GXM1Y5ipeeQ)
 
 ## Process for running the code using the main file
-- Install required libraries
+- The code assumes that Python 3, pip and git are installed
+- Install Python 3.6, pip
 ```bash
-pip install -r requirements.txt
+sudo apt-get update
+sudo apt-get install python3.6
+sudo apt install python3-pip
 ```
-
-- Requires Python 3
+- Clone the repository
 ```bash
-python main.py
+git clone https://github.com/data-integration-toolkit/ditk.git -b develop --single-branch
+```
+- Navigate to code directory within the repository
+```bash
+cd ditk/data_cleaning/imputation/knnimpute/
+```
+- Install required packages
+```bash
+pip3 install -r requirements.txt
+```
+- Run the code
+```bash
+python3 main.py
+```
+- Navigate to test directory within the repository
+```bash
+cd test/
+```
+- Run the test cases
+```bash
+python3 sample_test.py
 ```
