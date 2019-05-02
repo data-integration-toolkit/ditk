@@ -314,7 +314,8 @@ class biocppi_extraction(Ner):
         self.trained_model = []
         for i in range(self.num_ensembles):
             model_save_filename = '%s_%s'%(self.saved_model_base,i)    
-            self.load_model(model_save_filename)
+            m = self.load_model(model_save_filename)
+            self.trained_model.append(m)
         print(len(self.trained_model))
 
         return  # None
@@ -586,9 +587,9 @@ class biocppi_extraction(Ner):
                     decay_rate=self.decay_rate,
                     dropout_keep=self.keep_prob)
         m.restore('./'+file)
-        self.trained_model.append(m)
+        # self.trained_model.append(m)
 
-        return
+        return m
 
 
     def unittest_main(self,inputFilePath):
