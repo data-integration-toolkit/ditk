@@ -1,7 +1,7 @@
 import unittest
 import pandas as pd
-from USE_Transformer import USE_Transformer_Similarity
-
+from text.similarity.USE_Transformer.src.USE_Transformer import USE_Transformer_Similarity
+from decimal import Decimal
 class TestTextSimilarityMethods(unittest.TestCase):
 
     def setUp(self):
@@ -23,11 +23,13 @@ class TestTextSimilarityMethods(unittest.TestCase):
     def test_predict_same(self):
         prediction_scores = self.tss.predict(self.data_X, self.data_X)
         for score in prediction_scores:
+            score = Decimal(score).quantize(Decimal('0.00'))
             self.assertTrue(score == 1.0) #Same sentences
 
     def test_predict_dissame(self):
         prediction_scores = self.tss.predict(self.data_X, self.data_Y)
         for score in prediction_scores:
+            score = Decimal(score).quantize(Decimal('0.00'))
             self.assertTrue(score < 1.0)  # Dissame sentences
 
 if __name__ == '__main__':

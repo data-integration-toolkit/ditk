@@ -1,0 +1,24 @@
+﻿How to run the code
+
+If you want to run for only some test cases (ex: 5) on the trained model
+
+(Currently the model trains by default on CoNLL04 dataset)
+
+Step 1: Bring the data into the format required by the model by running read_dataset and data_preprocess in the main.py
+
+Step 2: See the filepath where the above mentioned data is stored in  multihead_joint_entity_relation_extraction.py.
+
+Step 3: In the configs folder in the CoNLL04 folder open the bio_config file in that in the path of the test data update it with the above path and save it
+
+Step 4: Now execute the remaining methods in the main.py and you will obtain your results
+
+
+If you want to run the code for an entire dataset
+
+Step 1: Bring the data into the format required by the model by running read_dataset and data_preprocess in the main.py and divide the obtained data into train, development and test.
+
+Step 2: In the configs folder create a new folder with the name of the dataset and in that create a file with the configurations you want to use.
+
+Step 3: In the multihead_joint_entity_relation_extraction.py in the train and test methods for the config_file  variable update the path to the config file you just created.
+
+Step 4: Now run the remaining commands in the main.py
