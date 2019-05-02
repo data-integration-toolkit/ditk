@@ -53,7 +53,7 @@ Semantic Comparison of Words and Texts for Semantic Textual Similarity.
 ![Image description](https://github.com/KhadijaZavery/ditk/blob/develop/text/embedding/FToDTF/metrics.png)
 
 ### Further Links
-- [Jupyter Notebook]()
+- [Jupyter Notebook](https://github.com/KhadijaZavery/ditk/blob/develop/text/embedding/FToDTF/FastText.ipynb)
 - [Youtube Video](https://youtu.be/c6zsonoLx3o)
 - [Auto-generated Documentation](https://dbaumgarten.github.io/FToDTF/)
 - [Architecture Documentation](https://github.com/dbaumgarten/FToDTF/blob/master/docs/architecture/architecture.md)
