@@ -22,7 +22,7 @@ ___
 - biocppi_ectraction is a tool for named entity recognition
   - The main task is to identify which tokens [words] are part of a named entity. This tool only specifies miscellaneous entities [i.e. no entity 'types' are identified] and the architecture is shown below:
 
-![image](https://drive.google.com/uc?export=view&id=1brDIM4Gs85tJ8Aw6LsjW7MTzyRTu3y3W)
+![image](https://drive.google.com/uc?export=view&id=1WvEa1Bx3-0PO6m9l0llSsfLtIqiDyTb-)
 
 - The diagram shows the flow of the model from input to output. The model generates character level embeddings, and character type embeddings which are then passed through a convolutional neural network with 50 filters. Each filter is then squashed via maxed pooling, which generates 50 features for a given token. These features are then concatenated with pretrained word embeddings of 200 dimensions, as well as 32 more features semantically describing the word type. The 282 feature vector [per token] is then fed to a bidirectional LSTM, which is paired with a fully connected softmax output layer to identify a label for each token! Several tunable hyperparameters are also available to the user.
 
