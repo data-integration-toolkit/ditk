@@ -406,9 +406,6 @@ class biocppi_extraction(Ner):
                     tokenword = pair[0]
                     predLabel = pair[1]
                     trueLabel = extra_data[idx_i][idx_j]
-                    print(tokenword)
-                    print(predLabel)
-                    print(trueLabel)
                     fullLine = [tokenword,trueLabel,predLabel]
                     # print ' '.join(fullLine)
                     outLine = ' '.join(fullLine)+'\n'
@@ -473,19 +470,19 @@ class biocppi_extraction(Ner):
         endIdx = None
         is_entity = False
         for idx in range(len(truths)):
-            if truths[idx]=='B-Dis':
+            if truths[idx]=='B-MISC':
                 is_entity = True
                 startIdx = idx
                 endIdx = idx
                 continue
             if is_entity:
-                if truths[idx]=='B-Dis':  # corner case...B-Dis followed by B-Dis
+                if truths[idx]=='B-MISC':  # corner case...B-Dis followed by B-Dis
                     truth_entities.add(tuple([startIdx,endIdx]))
                     startIdx = idx
                     endIdx = idx
                     #still keep is_entity
                     continue
-                if truths[idx]=='I-Dis':
+                if truths[idx]=='I-MISC':
                     endIdx = idx
                     #still keep is_entity
                     continue
@@ -501,19 +498,19 @@ class biocppi_extraction(Ner):
         endIdx = None
         is_entity = False
         for idx in range(len(preds)):
-            if preds[idx]=='B-Dis':
+            if preds[idx]=='B-MISC':
                 is_entity = True
                 startIdx = idx
                 endIdx = idx
                 continue
             if is_entity:
-                if preds[idx]=='B-Dis':  # corner case...B-Dis followed by B-Dis
+                if preds[idx]=='B-MISC':  # corner case...B-Dis followed by B-Dis
                     pred_entities.add(tuple([startIdx,endIdx]))
                     startIdx = idx
                     endIdx = idx
                     #still keep is_entity
                     continue
-                if preds[idx]=='I-Dis':
+                if preds[idx]=='I-MISC':
                     endIdx = idx
                     #still keep is_entity
                     continue
