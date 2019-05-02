@@ -1,5 +1,4 @@
 import sys
-sys.path.insert(0,'/home/khadutz95/TwitterNER/NoisyNLP')
 import unittest
 import pandas as pd
 from twitterner import TwitterNER
