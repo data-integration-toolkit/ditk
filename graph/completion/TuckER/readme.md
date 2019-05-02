@@ -19,7 +19,7 @@ So it can work for non-linear functions as well.
 We make closed-world assumption. It means that if any triple is incomplete or it has some missing values, we consider it as negative example. 
 
  
-
+![alt text](https://github.com/yashdholakia113/ditk/blob/develop/graph/completion/TuckER/tucker1.png)
 
 where es, eo ∈ R de are the rows of E representing the subject and object entity embedding vectors, wr ∈ R dr the rows of R representing the relation embedding vector, W ∈ R de×dr×de is the core tensor of Tucker decomposition and ×n is the tensor product along the n-th mode. We apply logistic sigmoid to each score φ(es, r, eo) to obtain the predicted probability p = σ(φ(es, r, eo)) of a triple being true. Visualization of the TuckER model architecture can be seen in Figure 1.
 
