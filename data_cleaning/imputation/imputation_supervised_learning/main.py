@@ -31,12 +31,12 @@ def main(filename):
         train_data, labels_train, test_data, labels_test = obj.train(input_data,dataname)
         obj.test(test_data, labels_test, dataname)
         obj.predict(dataname)
-        obj.evaluate(filename)
         
     else:
         obj = Imputation_with_supervised_learning()
         input_data = obj.preprocess(filename, header, missing_values, categorical_values)
-        output_filename = obj.impute(input_data)
+        data, output_filename = obj.impute(input_data)
+        obj.evaluate(filename)
     return output_filename
     
 
