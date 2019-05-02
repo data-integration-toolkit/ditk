@@ -405,10 +405,10 @@ class biocppi_extraction(Ner):
                 for idx_j,pair in enumerate(zip(line, tag)):
                     tokenword = pair[0]
                     predLabel = pair[1]
+                    trueLabel = extra_data[idx_i][idx_j]
                     print(tokenword)
                     print(predLabel)
                     print(trueLabel)
-                    trueLabel = extra_data[idx_i][idx_j]
                     fullLine = [tokenword,trueLabel,predLabel]
                     # print ' '.join(fullLine)
                     outLine = ' '.join(fullLine)+'\n'
