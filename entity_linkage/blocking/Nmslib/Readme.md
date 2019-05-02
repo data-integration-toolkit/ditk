@@ -96,5 +96,5 @@ Here we see that Nmslib’s hnsw implementation performs best in both recall and
 ### Jupyter Notebook
 - See src/NmslibDemo.ipynb
 ### Video
-- tmp
+- https://www.youtube.com/watch?v=ycZ5xbK1BBg&feature=youtu.be
 
