@@ -1,0 +1,93 @@
+#!/usr/bin/env python
+
+import tpg
+
+class CodeParser(tpg.Parser):
+    r"""
+        separator spaces '\s+' ;
+
+        token ident '\w+' ;
+
+        NEW_INDENT<i=0>/$t.column$ -> @t check $t.column>i$ ;
+        INDENT<i> -> @t check $t.column==i$ ;
+
+        START/INSTS -> NEW_INDENT INSTS<NEW_INDENT> ;
+
+        INSTS<i>/$self.Prog(INSTS)$ ->  $ INSTS = []
+            (   FUNCTION<i>             $ INSTS.append(FUNCTION)
+            |   COND<i>                 $ INSTS.append(COND)
+            |   EXPR<i>                 $ INSTS.append(EXPR)
+            )+
+        ;
+
+        FUNCTION<i>/$self.Fun(ident, INSTS)$ ->
+            INDENT<i> 'def' ident ':'
+            NEW_INDENT<i> INSTS<NEW_INDENT>
+        ;
+
+        COND<i>/$self.Cond(ident, _then, _else)$ ->
+            INDENT<i> 'if' ident ':'
+            NEW_INDENT<i> INSTS<NEW_INDENT>/_then
+            INDENT<i> 'else' ':'
+            NEW_INDENT<i> INSTS<NEW_INDENT>/_else
+        ;
+
+        EXPR<i>/$self.Ident(ident)$ -> INDENT<i> ident ;
+
+    """
+
+    class Prog:
+        def __init__(self, insts): self.insts = insts
+        def pp(self, i=0):
+            for inst in self.insts:
+                inst.pp(i)
+
+    class Fun:
+        def __init__(self, name, insts):
+            self.name, self.insts = name, insts
+        def pp(self, i):
+            print " "*i + "function " + self.name
+            self.insts.pp(i+4)
+            print " "*i + "endfunction"
+
+    class Cond:
+        def __init__(self, cond, _then, _else):
+            self.cond, self._then, self._else = cond, _then, _else
+        def pp(self, i):
+            print " "*i + "if " + self.cond
+            self._then.pp(i+4)
+            print " "*i + "else"
+            self._else.pp(i+4)
+            print " "*i + "endif"
+
+    class Ident:
+        def __init__(self, name): self.name = name
+        def pp(self, i): print " "*i + self.name
+
+if __name__ == '__main__':
+
+    prog = """
+
+    def fib:
+        if n_le_1:
+            n
+        else:
+            fib_n_1
+            fib_n_2
+            add
+
+    def fib:
+        def fib_aux:
+            if n_le_1:
+                a
+            else:
+                fib_aux_b_ab_n1
+        fib_aux_0_1_n
+
+    fib_10
+
+    """
+
+    parser = CodeParser()
+
+    parser(prog).pp()

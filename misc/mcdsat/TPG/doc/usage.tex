@@ -1,0 +1,71 @@
+\section{Package content}
+
+TPG is a package which main function is to define a class which particular metaclass converts a doc string into a parser.
+You only need to import TPG and use these five objects:
+
+\begin{description}
+    \item [tpg.Parser:]
+        This is the base class of the parsers you want to define.
+    \item [tpg.Error:]
+        This exception is the base of all TPG exceptions.
+    \item [tpg.LexicalError:]
+        This exception is raised when the lexer fails.
+    \item [tpg.SyntacticError:]
+        This exception is raised when the parser fails.
+    \item [tpg.SemanticError:]
+        This exception is raised by the grammar itself
+        when some semantic properties fail.
+\end{description}
+
+The grammar must be in the doc string of the class (see figure~\ref{usage:embed}).
+
+\begin{code}
+\caption{Grammar embeding example}                          \label{usage:embed}
+\begin{verbatimtab}[4]
+    class Foo(tpg.Parser):
+        r"""
+
+        START/x -> Bar/x ;
+
+        Bar/x -> 'bar'/x ;
+
+        """
+\end{verbatimtab}
+\end{code}
+
+Then you can use the new generated parser. The parser is simply a Python class (see figure~\ref{usage:inst}).
+
+\begin{code}
+\caption{Parser usage example}                              \label{usage:inst}
+\begin{verbatimtab}[4]
+    test = "bar"
+    my_parser = Foo()
+    x = my_parser(test)               # Uses the START symbol
+    print x
+    x = my_parser.parse('Bar', test)  # Uses the Bar symbol
+    print x
+\end{verbatimtab}
+\end{code}
+
+\section{Command line usage}
+
+The \emph{tpg} script reads a Python script and replaces TPG grammars (in doc string) by Python code.
+To produce a Python script (*.py) from a script containing grammars (*.pyg) you can use \emph{tpg} as follow:
+
+\begin{verbatimtab}[4]
+    tpg [-v|-vv] grammar.pyg [-o parser.py]
+\end{verbatimtab}
+
+\emph{tpg} accepts some options on the command line:
+
+\begin{description}
+    \item [-v] turns \emph{tpg} into a verbose mode (it displays parser names).
+    \item [-vv] turns \emph{tpg} into a more verbose mode (it displays parser names and simplified rules).
+    \item [-o file.py] tells \emph{tpg} to generate the parser in \emph{file.py}. The default output file is \emph{grammar.py} if -o option is not provided and \emph{grammar.pyg} is the name of the grammar.
+\end{description}
+
+Notice that .pyg files are valid Python scripts. So you can choose the run .pyg file (slower startup but easier for debugging purpose) or turn them into a .py file (faster startup but needs a "precompilation" stage).
+You can also write .py scripts containing grammars to be used as Python scripts.
+
+In fact I only use the \emph{tpg} script to convert \emph{tpg.pyg} into \emph{tpg.py} because TPG needs obviously to be a pure Python script (it can not translate itself at runtime). Then in most cases it is very convenient to directly write grammars in Python scripts.
+
