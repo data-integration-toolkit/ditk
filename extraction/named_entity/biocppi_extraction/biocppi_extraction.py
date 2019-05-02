@@ -1,17 +1,11 @@
 import abc
 import sys
 import pickle
-from ner_2 import Ner  # <-- PARENT CLASS POINTER: https://github.com/AbelJJohn/csci548sp19projectner/blob/master/ner.py...NOTE had to mod for python2...
-# from temp1 import model_train
+from ner_2 import Ner  # <-- PARENT CLASS
 from train import model_train
-# from data_proc import create_wl, invert_dict
-# from dataset import Dataset
-# import drtrnn_utils as dutil
 import biocppi_utils as butil
 from six.moves import cPickle
 import numpy as np
-
-# from utils import backtrack
 
 from model import BiLSTM
 
@@ -82,107 +76,6 @@ class biocppi_extraction(Ner):
 
 # -------------------------------------END init FOR MY CLASS------------------------------#
 
-# -------------------------------------METHODS FOR MY CLASS------------------------------#
-
-
-    def tokenize(self, dataInstance, mode):
-        """
-        Some data conversions may reqiure special tokenization.
-
-        Args:
-            dataInstance: some format from intermediate step in convert_dataset_[01,02,03,orif]_to_train_format
-
-        Return:
-            tokens: tokenized version of dataInstance
-
-        Raises:
-            None
-        """
-        # TO IMPLEMENT. pseudo code
-        # tokens = ntlk.tokenize(dataInstance)
-        return tokens
-
-
-# read_dataset will read the raw files that the user specified and will:
-# a) convert the data and rewrite in in format used by paper implementation of train() since the authors
-#   implemented a data read into their train() implelemntation
-# b) convert the data to the format used by paper implementation of train() and return this data. then, on
-#   train(), pass this data and skip the paper's portion of reading the dataset
-# EITHER WAY we need to write a conversion helper function to convert the data to the proper format
-
-
-    def convert_dataset_chemdner_to_train_format(self, dataInstance, mode):
-        """
-        Converts a single data instance from read dataset_03 to format required by paper implementation.
-
-        Args:
-            dataInstance: str, a single line from the raw input data for dataset_03
-            mode: if write, convert to proper str format
-
-        Returns:
-            data: data format required by author implementation and based on mode
-
-        Raises:
-            None
-        """
-        # IMPLEMENT convert dataInstance to data
-
-        if mode == 'write':
-            data = str(data)+'\n'
-        return data
-
-    def convert_dataset_ppim_to_train_format(self, dataInstance, mode):
-        """
-        Converts a single data instance from read dataset_orig to format required by paper implementation.
-
-        Args:
-            dataInstance: str, a single line from the raw input data for dataset_orig
-            mode: if write, convert to proper str format
-
-        Returns:
-            data: data format required by author implementation and based on mode
-
-        Raises:
-            None
-        """
-        # IMPLEMENT convert dataInstance to data
-
-        if mode == 'write':
-            data = str(data)+'\n'
-        return data
-
-
-    def convert_author_prediction_to_ditk_ner_prediction(self,predictions):
-        """
-        Converts the predictions made by author implementation of predict() to the agreed upon format
-        used by the ditk.ner group. Helper function in perparing for evaluate()
-
-        Args:
-            predictions: iterable in format that author of paper implemented
-
-        Returns:
-            converted_predictions: [tuple,...], i.e. list of tuples. list  is same length as input predictions but in
-            format agreed upon by team ditk.ner, namely:
-                Each tuple is (start index, span, mention text, mention type)
-                Where:
-                - start index: int, the index of the first character of the mention span. None if not applicable.
-                - span: int, the length of the mention. None if not applicable.
-                - mention text: str, the actual text that was identified as a named entity. Required.
-                - mention type: str, the entity/mention type. None if not applicable.
-
-                NOTE: ordering should not change [important for evalutation. See note in evaluate() about parallel arrays.]
-
-        Raises:
-            None
-        """
-        # IMPLEMENT the proper conversion, pseudo code:
-        # converted_predictions = []
-        # for prediction in predictions:
-        #   converted_item = some splitting and re-arranging
-        #   converted_predictions.append(converted_item)
-        return converted_predictions
-# -----------------------------------END METHODS FOR MY CLASS------------------------------#
-
 
 # ----------------------------IMPLEMENT PARENT CLASS ABASTRACTMETHODS------------------------------#
     def convert_ground_truth(self, data, *args, **kwargs):  # <--- implemented PER class
@@ -252,7 +145,7 @@ class biocppi_extraction(Ner):
             'CHEMDNER':butil.convert_dataset_chemdner_to_train_format,
             'ditk':butil.convert_ditk_to_train_format,
             'unittest':butil.convert_ditk_to_train_format}
-            # 'ppim':self.convert_dataset_ppim_to_train_format,
+            # 'ppim':self.convert_dataset_ppim_to_train_format, NOT YET IMPLEMENTED, but not required
 
         if not (dataset_name in conversionFunctionMapper):
             print("dataset not supported. Please indicate a dataset in {'CoNLL_2003','OntoNotes_5p0','CHEMDNER','ppim'}")
@@ -615,29 +508,3 @@ class biocppi_extraction(Ner):
         print('%s'%str(evaluation_results))
 
         return finalOutputFile  # NOT FULLY IMPLEMENTED
-
-
-# if __name__=='__main__':
-#     finalOutputFileName = main('binary_data/text.txt')
-
-# ----------------------------END IMPLEMENT PARENT CLASS ABASTRACTMETHODS------------------------------#
-
-
-"""
-# Sample workflow:
-file_dict = {
-                "train": {"data" : "/home/sample_train.txt"},
-                "dev": {"data" : "/home/sample_dev.txt"},
-                "test": {"data" : "/home/sample_test.txt"},
-             }
-dataset_name = 'CONLL2003'
-# instatiate the class
-myModel = myClass() 
-# read in a dataset for training
-data = myModel.read_dataset(file_dict, dataset_name)  
-myModel.train(data)  # trains the model and stores model state in object properties or similar
-predictions = myModel.predict(data['test'])  # generate predictions! output format will be same for everyone
-test_labels = myModel.convert_ground_truth(data['test'])  <-- need ground truth labels need to be in same format as predictions!
-P,R,F1 = myModel.evaluate(predictions, test_labels)  # calculate Precision, Recall, F1
-print('Precision: %s, Recall: %s, F1: %s'%(P,R,F1))
-"""
