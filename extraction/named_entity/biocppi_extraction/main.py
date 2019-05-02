@@ -19,8 +19,8 @@ def main(inputFilePath):
     # 1] read_dataset()
 
     # # test unittest...good!
-    # dataset_name = 'unittest'
-    # file_dict = {'train':{'data':inputFilePath},'dev':{},'test':{}}
+    dataset_name = 'unittest'
+    file_dict = {'train':{'data':inputFilePath},'dev':{},'test':{}}
 
     # # test conll2003...good!
     # dataset_name = 'CoNLL_2003'
@@ -40,19 +40,19 @@ def main(inputFilePath):
     # raw_data_test_file = dataset_dir + 'onto.test.ner'
     # file_dict = {'train':{'data':raw_data_train_file},'dev':{'data':raw_data_dev_file},'test':{'data':raw_data_test_file}}
 
-    # test CHEMDNER...good!
-    dataset_name = 'CHEMDNER'
-    dataset_dir = '/home/kcrouch/smol_datasets/chemdner/'  # smol sample
-    # dataset_dir = '/Users/olderhorselover/USC/spring2019/csci_548_diotw/project/groupedProject/chemdner_corpus/'
-    raw_data_train_file = dataset_dir + 'training.abstracts.txt'
-    raw_data_dev_file = dataset_dir + 'development.abstracts.txt'
-    raw_data_test_file = dataset_dir + 'evaluation.abstracts.txt'
-    raw_annot_train_file = dataset_dir + 'training.annotations.txt'
-    raw_annot_dev_file = dataset_dir + 'development.annotations.txt'
-    raw_annot_test_file = dataset_dir + 'evaluation.annotations.txt'
-    file_dict = {'train':{'data':raw_data_train_file,'extra':raw_annot_train_file},
-                'dev':{'data':raw_data_dev_file,'extra':raw_annot_dev_file},
-                'test':{'data':raw_data_test_file,'extra':raw_annot_test_file}}
+    # # test CHEMDNER...good!
+    # dataset_name = 'CHEMDNER'
+    # dataset_dir = '/home/kcrouch/smol_datasets/chemdner/'  # smol sample
+    # # dataset_dir = '/Users/olderhorselover/USC/spring2019/csci_548_diotw/project/groupedProject/chemdner_corpus/'
+    # raw_data_train_file = dataset_dir + 'training.abstracts.txt'
+    # raw_data_dev_file = dataset_dir + 'development.abstracts.txt'
+    # raw_data_test_file = dataset_dir + 'evaluation.abstracts.txt'
+    # raw_annot_train_file = dataset_dir + 'training.annotations.txt'
+    # raw_annot_dev_file = dataset_dir + 'development.annotations.txt'
+    # raw_annot_test_file = dataset_dir + 'evaluation.annotations.txt'
+    # file_dict = {'train':{'data':raw_data_train_file,'extra':raw_annot_train_file},
+    #             'dev':{'data':raw_data_dev_file,'extra':raw_annot_dev_file},
+    #             'test':{'data':raw_data_test_file,'extra':raw_annot_test_file}}
 
     
     data = biocppi.read_dataset(file_dict, dataset_name)  # data read, converted, and written to files in proper location expected by train
