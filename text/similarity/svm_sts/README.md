@@ -32,30 +32,43 @@ Test – Similarity scores (float between 0.0-1.0)
 
 ## Evalution
 
-###Evaluation Datasets
+### Evaluation Datasets
 
-####SemEval 2017 –Task1
+#### SemEval 2017 –Task1
 5215 Sentence pairs with similarity scores.
 STS 2017 will assess the ability of systems to determine the degree of semantic similarity between monolingual and cross-lingual sentences in Arabic, English and Spanish.
 
-####SICK 2014
+#### ICK 2014
 The SICK data set consists of about 10,000 English sentence pairs, generated starting from two existing sets: the 8K ImageFlickr data set and the SemEval 2012 STS MSR-Video Description data set. 
 
-####SemEval 2014 –Task 10
+#### SemEval 2014 –Task 10
 A combination of 1785 sentence pairs with similarity scores from various sources like headlines, tweets and deft news.
 
-###Evaluation Metric
+### Evaluation Metric
 
 Pearson Correlation Co-efficient (0-1)
 
-###Results
+### Results
 
 ![svm_sts_reults](resources/svm_sts_results.png)
 
 
 ## Demo
-- Link to the Jupyter Notebook : https://drive.google.com/file/d/1GjNHq6gacdm5NClbl2EFC5Ve_9HQt2yg/view?usp=sharing
-- Link to the video on Youtube : https://www.youtube.com/watch?v=mWkb76sAt6c
 
 - [Jupyter notebook](https://drive.google.com/file/d/1GjNHq6gacdm5NClbl2EFC5Ve_9HQt2yg/view?usp=sharing)
 - [Demo video](https://www.youtube.com/watch?v=mWkb76sAt6c)
+
+## Notes
+
+Download google’s word embeddings (word2vec). Make sure the GoogleNews-vectors-negative300.bin file you have downloaded is in the same directory as the code (i.e. main.py and svm_semantic_similarity.py.
+Make sure you have installed the nltk library and WordNet; I use WordNet to find synonyms and antonyms.
+>> conda install nltk
+>> nltk.download()
+
+In the pop-up window, select to download the “all” library.
+
+Please be sure to install all libraries included as imports in the top of main.py and svm_semantic_similarity.py
+
+Side note: my main class file name in the jupter notebook is different because I changed it from the upper case name to the lower case name.
+
+Unit test file also reuires path to downloaded vectors file

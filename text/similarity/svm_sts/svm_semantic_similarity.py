@@ -1,5 +1,5 @@
-# import DITKModel_SemanticSimilarity as SemSim
-import text_similarity
+# -*- coding: utf-8 -*-
+# from similariy import text_similarity
 from gensim.models import KeyedVectors
 import argparse
 import pprint
@@ -14,8 +14,10 @@ from sklearn import svm
 from sklearn import linear_model
 from scipy.stats import pearsonr
 import pickle
+import os,sys
+from text_similarity import TextSemanticSimilarity
 
-class svm_semantic_similarity(text_similarity.TextSemanticSimilarity):
+class svm_semantic_similarity(TextSemanticSimilarity):
 	'''
 	A supervised approach that combines the cosine similarities from vectorized sentences synonym and antonym counts
 	
@@ -245,7 +247,7 @@ class svm_semantic_similarity(text_similarity.TextSemanticSimilarity):
 		:param file: Where to save the model - Optional function
 		:return:
 		"""
-		pickle.dump(self.model, open(file, 'wb'))
+		pickle.dump(self.model, open(file, 'wb'),protocol=2)
 		print("Model Saved!")
 		return
 		

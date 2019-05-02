@@ -90,8 +90,6 @@ class TextSemanticSimilarity(abc.ABC):
 
 		r, p = pearsonr(x, y)
 
-		# r - Pearson’s correlation coefficient
-		# p - 2-tailed p-value
 
 		evaluation_score = r
 
