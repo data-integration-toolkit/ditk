@@ -49,6 +49,7 @@ def main(input_path):
 	with open('./tests/sample_output.txt','w+') as output:
 		output.write(str(res))
 
+
 	output.close()
 
 if __name__ == '__main__':

@@ -65,4 +65,4 @@ Pearson Correlation Co-efficient (0-1)
 
 ## Notes:
 1. To train your own model, you need to download GloVe pre-trained word vectors from http://nlp.stanford.edu/data/glove.840B.300d.zip first and unzip it in your folder.
-2. The model was run on GCP. The tests folder contains the saved model which can be loaded for testing
+2. The model was run on GCP. The saved model was too large to upload on github. But the main function will generate the model.
