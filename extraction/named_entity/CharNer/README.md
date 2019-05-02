@@ -31,11 +31,11 @@ the word level.
 ## Input/Output Format (Prediction)
 *   INPUT (File)
     * File is read by .read_dataset() function
-    *Space seperated coloums: <br>
+    *Space seperated coloumns: <br>
     WORD POS_Tag Chunk True_Label(If present else None) 
     
 * OUTPUT (File)
-    * Space seperated coloums:<br>
+    * Space seperated coloumns:<br>
     Word True_Label(If present else None) Predicted_Label
 
 ## Input/Output Format (Training)
@@ -46,7 +46,6 @@ the word level.
 
 ## Benchmark Datasets
 * **CoNLL 2003**
-* **OntoNotes 5.0**
 
 ## Evaluation Metrics
 * Precision
@@ -57,7 +56,6 @@ the word level.
   | Datasets           | Precision           | Recall              | F1                   |
   |--------------------|:-------------------:|:-------------------:|:--------------------:|
   |CoNLL 2003          |  79.4%              | 81.2%               |80.3%                 |
-  |OntoNotes 5.0       |69%                  | 69.8%               |69.3%                 |  
 
 
 ## To Run
@@ -105,7 +103,7 @@ print(predicted_values)
 ```python 
 charNerModel.save_model(checkpoint_dir="../model")
 ```
-7.Load Model using .load_model() . Give path of dir where the model is saved
+7.Load Model using .load_model() . Give path of dir where the model was saved
 ```python 
 model = charNerModel.load_model("../model")
 ```
