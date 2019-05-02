@@ -132,7 +132,7 @@ pytest --runslow tests/
 
 ipython notebook : [Python Notebook](flair_demo.ipynb)
 
-video : [video]()
+video : [https://youtu.be/zLxYPHKdWao](https://youtu.be/zLxYPHKdWao)
 
 
 ## [License](/LICENSE)
