@@ -179,4 +179,11 @@ Jeffrey Pennington, Richard Socher, and Christopher D. Manning. 2014. GloVe: Glo
 CONLL '03 Proceedings of the seventh conference on Natural language learning at HLT-NAACL 2003 - Volume 4
 ``
 
+## Authors
+
+* **Yiran Li** - *Initial work* - [Senior Software developer](https://www.linkedin.com/in/yiran-li-0084b832/)
+
+## License
+
+This project is licensed under the MIT License
 
