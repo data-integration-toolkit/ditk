@@ -27,6 +27,7 @@ https://github.com/text-machine-lab/CliNER
 		Word pos-tag chunk entity-type ...
 	* Output
 		Word true-entity-type predict-entity-type
+		
 	You can check the test folder for more information.
 
 - Input and output for training  
