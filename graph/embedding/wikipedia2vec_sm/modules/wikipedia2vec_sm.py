@@ -1,5 +1,5 @@
 from __future__ import unicode_literals
-#import graph_embedding
+import graph_embedding
 import lmdb
 import logging
 import mwparserfromhell
