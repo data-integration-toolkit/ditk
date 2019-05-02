@@ -137,7 +137,8 @@ Graph showing the time taken to generate Query Rewritings by Minicon comapred wi
 
 Youtube Video Demonstration
 ---------------------------
+[YouTube Video]https://www.youtube.com/watch?v=FHK7U4tUtPo&feature=youtu.be
 
 Jupyter Notebook Link
 ---------------------
-https://github.com/bjainvarsha/ditk/blob/misc/misc/mcdsat/mcdsat.ipynb   
+[Jupyter Notebook]https://github.com/bjainvarsha/ditk/blob/misc/misc/mcdsat/mcdsat.ipynb   
