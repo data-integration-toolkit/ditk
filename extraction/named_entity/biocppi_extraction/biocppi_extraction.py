@@ -250,8 +250,9 @@ class biocppi_extraction(Ner):
         conversionFunctionMapper = {'CoNLL_2003':butil.convert_dataset_conll_to_train_format,
             'OntoNotes_5p0':butil.convert_dataset_ontoNotes_to_train_format,
             'CHEMDNER':butil.convert_dataset_chemdner_to_train_format,
-            'ppim':self.convert_dataset_ppim_to_train_format,
+            'ditk':butil.convert_ditk_to_train_format,
             'unittest':butil.convert_ditk_to_train_format}
+            # 'ppim':self.convert_dataset_ppim_to_train_format,
 
         if not (dataset_name in conversionFunctionMapper):
             print("dataset not supported. Please indicate a dataset in {'CoNLL_2003','OntoNotes_5p0','CHEMDNER','ppim'}")
@@ -548,6 +549,7 @@ class biocppi_extraction(Ner):
         :param file: From where to load the model - Optional function
         :return:
         """
+        print('Model loading is unsupported at the moment. This may result in failure/crash due to tensorflow bug')
         with open(self.vocab_cache,'r') as f:
             word_vocab = pickle.load(f)
 
