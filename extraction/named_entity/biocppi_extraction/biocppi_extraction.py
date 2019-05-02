@@ -362,13 +362,11 @@ class biocppi_extraction(Ner):
         #         self.trained_model.append(model)
         # LEFT OFF HERE....
 
-        predictions = []
-
         if len(data) < 1:  # we were not passed data
             print('file based prediction not available at this time. Expect list of list for input data.')
             return None
 
-        self.trained_model = [1]  # TEMPORARY
+        # self.trained_model = [1]  # TEMPORARY
         if not self.trained_model:
             print('No trained models to work with. Be sure to run train() before running this. Model loading not supported at this time')
             return None
@@ -380,6 +378,46 @@ class biocppi_extraction(Ner):
         print(len(sentence_labels))
         print(sentence_labels[:10])
 
+        predFile = open(self.prediction_filename,'w')
+        predictions = []
+        for ij, sentence in enumerate(sentences):
+            # print >> sys.stderr, "Processing {}/{} {}".format(ij+1,len(pmids),pmid)
+            flattened_len = sum([ len(x) for x in sentence ])
+            proba_cumulative = np.zeros((flattened_len,len(self.labels)))
+
+            for m in models:
+                proba_cumulative += m.predict_proba(sentence,batch_size=20)
+            
+            y_pred = np.argmax(proba_cumulative,axis=1)
+            
+            label_list = [ self.labels[tag_idx] for tag_idx in y_pred ]
+            
+            prediction = []
+            extra_data = []
+            for idx,x in enumerate(sentence):
+                prediction.append(label_list[:len(x)])
+                extra_data.append(sentence_labels[ij][idx])
+                label_list = label_list[len(x):]
+            
+            # print '###' + pmid
+            # print ''
+            for idx_i,(line, tag) in enumerate(zip(sentence, prediction)):
+                for idx_j,pair in enumerate(zip(line, tag)):
+                    tokenword = pair[0]
+                    predLabel = pair[1]
+                    trueLabel = extra_data[idx_i][idx_j]
+                    fullLine = [tokenword,trueLabel,predLabel]
+                    # print ' '.join(fullLine)
+                    outLine = ' '.join(fullLine)+'\n'
+                    predFile.write(outLine)
+                    predictions.append(tuple([None,None,tokenword,predLabel]))
+                    # print ' '.join(pair) + ' ' + extra_data[idx_i][idx_j]  # token truth_label pred_label
+                
+                # print ''
+                predFile.write('\n')
+        predFile.close()
+
+        butil.copy_predictions_to_predictions_with_header(self.prediction_filename)
 
         return predictions
 
