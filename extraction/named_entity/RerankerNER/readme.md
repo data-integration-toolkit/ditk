@@ -29,3 +29,4 @@ https: //github.com/jiesutd/RerankNER
 * [demo.ipynb](./demo.ipynb)
 
 ## YouTube Video
+* https://youtu.be/_h4oBCGTPAk
