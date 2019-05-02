@@ -1,12 +1,18 @@
-from relation_extraction_2 import RelationExtractionModel
+import sys
+import train
+import converter
+sys.path.append('../..')
+from relation_extraction import RelationExtraction
 
-class clinicalRE(RelationExtractionModel):
+class clinicalRE(RelationExtraction):
 	def __init__(self):
-		RelationExtractionModel.__init__(self)
+		pass
 
 	# my own function
 
-	def read_dataset(self, input_file, *args, **kwargs):
+	def read_dataset(self, input_file, converted_file, *args, **kwargs):
+		converter.convert(input_file, converted_file)	
+		print ("Successfully read " + input_file + ".")
 		'''
 		Read train data & test data.
 		Args:
@@ -15,7 +21,6 @@ class clinicalRE(RelationExtractionModel):
 		Returns: 
             (optional):Data from file
 		'''
-		pass
 
 	def data_preprocess(self, input_data, *args, **kwargs):
 		'''
@@ -31,14 +36,10 @@ class clinicalRE(RelationExtractionModel):
 	def tokenize(self, input_data ,ngram_size=None, *args, **kwargs):  
 		pass
 
-	def train(self, train_data, *args, **kwargs): 
-		'''
-		Args:
-			train_data: Formatted data to be trained.	
-        Returns: 
-			None
-		''' 
-		pass
+	def train(self, fileName, label_dict, output_file, *args, **kwargs): 
+		print ("Training Started.")
+		train.train(fileName, label_dict, output_file)
+		print ("Training Completed.")
 
 	def predict(self, test_data, entity_1 = None, entity_2= None,  trained_model = None, *args, **kwargs):
 		'''
@@ -58,4 +59,20 @@ class clinicalRE(RelationExtractionModel):
             metrics: tuple with (p,r,f1). Each element is float.
        
 		'''
- 		pass
+	pass
+
+	def save_model(self, file):
+		"""
+
+		:param file: Where to save the model - Optional function
+		:return:
+		"""
+		pass
+
+	def load_model(self, file):
+		"""
+
+		:param file: From where to load the model - Optional function
+		:return:
+		"""
+		pass
