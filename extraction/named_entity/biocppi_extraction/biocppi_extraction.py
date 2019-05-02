@@ -574,7 +574,7 @@ class biocppi_extraction(Ner):
         """
         with open(self.vocab_cache,'r') as f:
             word_vocab = pickle.load(f)
-        print(word_vocab)
+        
         m = BiLSTM(labels=self.labels,
                     word_vocab=word_vocab,
                     word_embeddings=None,
