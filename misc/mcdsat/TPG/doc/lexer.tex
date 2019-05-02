@@ -1,0 +1,216 @@
+\section{Regular expression syntax}
+
+The lexer is based on the \emph{re}\footnote{\emph{re} is a standard Python module. It handles regular expressions. For further information about \emph{re} you can read \url{http://docs.python.org/lib/module-re.html}} module.
+TPG profits from the power of Python regular expressions.
+This document assumes the reader is familiar with regular expressions.
+
+You can use the syntax of regular expressions as expected by the \emph{re} module except from the grouping by name syntax since it is used by TPG to decide which token is recognized.
+
+Here is a summary\footnote{From the Python documentation : \url{http://docs.python.org/lib/re-syntax.html}} of the regular expression syntax:
+
+\begin{description}
+    \item ["."]
+    (Dot.) In the default mode, this matches any character except a newline. If the \emph{DOTALL} flag has been specified, this matches any character including a newline.
+    \item ["$\hat{~}$"]
+    (Caret.) Matches the start of the string, and in \emph{MULTILINE} mode also matches immediately after each newline.
+    \item ["\$"]
+    Matches the end of the string or just before the newline at the end of the string, and in \emph{MULTILINE} mode also matches before a newline. $foo$ matches both 'foo' and 'foobar', while the regular expression $foo\$$ matches only 'foo'. More interestingly, searching for $foo.\$$ in 'foo1$\backslash$nfoo2$\backslash$n' matches 'foo2' normally, but 'foo1' in \emph{MULTILINE} mode.
+    \item ["*"]
+    Causes the resulting RE to match 0 or more repetitions of the preceding RE, as many repetitions as are possible. $ab*$ will match 'a', 'ab', or 'a' followed by any number of 'b's.
+    \item ["+"]
+    Causes the resulting RE to match 1 or more repetitions of the preceding RE. $ab+$ will match 'a' followed by any non-zero number of 'b's; it will not match just 'a'.
+    \item ["?"]
+    Causes the resulting RE to match 0 or 1 repetitions of the preceding RE. $ab?$ will match either 'a' or 'ab'.
+    \item [*?, +?, ??]
+    The "*", "+", and "?" qualifiers are all greedy; they match as much text as possible. Sometimes this behaviour isn't desired; if the RE $<.*>$ is matched against '$<$H1$>$title$<$/H1$>$', it will match the entire string, and not just '$<$H1$>$'. Adding "?" after the qualifier makes it perform the match in non-greedy or minimal fashion; as few characters as possible will be matched. Using $.*?$ in the previous expression will match only '$<$H1$>$'.
+    \item [$\{$m$\}$]
+    Specifies that exactly m copies of the previous RE should be matched; fewer matches cause the entire RE not to match. For example, $a\{6\}$ will match exactly six "a" characters, but not five.
+    \item [$\{$m,n$\}$]
+    Causes the resulting RE to match from m to n repetitions of the preceding RE, attempting to match as many repetitions as possible. For example, $a\{3,5\}$ will match from 3 to 5 "a" characters. Omitting m specifies a lower bound of zero, and omitting n specifies an infinite upper bound. As an example, $a\{4,\}b$ will match aaaab or a thousand "a" characters followed by a b, but not aaab. The comma may not be omitted or the modifier would be confused with the previously described form.
+    \item [\{m,n\}?]
+    Causes the resulting RE to match from m to n repetitions of the preceding RE, attempting to match as few repetitions as possible. This is the non-greedy version of the previous qualifier. For example, on the 6-character string 'aaaaaa', $a\{3,5\}$ will match 5 "a" characters, while $a\{3,5\}?$ will only match 3 characters.
+    \item ["$\backslash$"]
+    Either escapes special characters (permitting you to match characters like "*", "?", and so forth), or signals a special sequence; special sequences are discussed below.
+    \item [$\lbrack\rbrack$]
+    Used to indicate a set of characters. Characters can be listed individually, or a range of characters can be indicated by giving two characters and separating them by a "-". Special characters are not active inside sets. For example, $[akm\$]$ will match any of the characters "a", "k", "m", or "\$"; $[a-z]$ will match any lowercase letter, and $[a-zA-Z0-9]$ matches any letter or digit. Character classes such as $\backslash$w or $\backslash$S (defined below) are also acceptable inside a range. If you want to include a "$]$" or a "-" inside a set, precede it with a backslash, or place it as the first character. The pattern $[]]$ will match '$]$', for example.
+
+    You can match the characters not within a range by complementing the set. This is indicated by including a "$\hat{~}$" as the first character of the set; "$\hat{~}$" elsewhere will simply match the "$\hat{~}$" character. For example, $[\hat{~}5]$ will match any character except "5", and $[\hat{~}\hat{~}]$ will match any character except "$\hat{~}$". 
+    \item ["$\vert$"]
+    $A|B$, where $A$ and $B$ can be arbitrary REs, creates a regular expression that will match either A or B. An arbitrary number of REs can be separated by the "$\vert$" in this way. This can be used inside groups (see below) as well. As the target string is scanned, REs separated by "$\vert$" are tried from left to right. When one pattern completely matches, that branch is accepted. This means that once A matches, B will not be tested further, even if it would produce a longer overall match. In other words, the "$|$" operator is never greedy. To match a literal "$|$", use $\backslash|$, or enclose it inside a character class, as in $[|]$.
+    \item [(...)]
+    Matches whatever regular expression is inside the parentheses, and indicates the start and end of a group; the contents of a group can be retrieved after a match has been performed, and can be matched later in the string with the $\backslash number$ special sequence, described below. To match the literals "(" or ")", use $\backslash($ or $\backslash)$, or enclose them inside a character class: $[(]$ $[)]$.
+    \item [(?=...)]
+    Matches if ... matches next, but doesn't consume any of the string. This is called a lookahead assertion. For example, $Isaac (?=Asimov)$ will match 'Isaac ' only if it's followed by 'Asimov'.
+    \item [(?!...)]
+    Matches if ... doesn't match next. This is a negative lookahead assertion. For example, $Isaac (?!Asimov)$ will match 'Isaac ' only if it's not followed by 'Asimov'.
+    \item [(?$<$=...)]
+    Matches if the current position in the string is preceded by a match for ... that ends at the current position. This is called a positive lookbehind assertion. $(?<=abc)def$ will find a match in "abcdef", since the lookbehind will back up 3 characters and check if the contained pattern matches. The contained pattern must only match strings of some fixed length, meaning that $abc$ or $a|b$ are allowed, but $a*$ and $a\{3,4\}$ are not.
+    \item [(?$<$!...)]
+    Matches if the current position in the string is not preceded by a match for .... This is called a negative lookbehind assertion. Similar to positive lookbehind assertions, the contained pattern must only match strings of some fixed length. Patterns which start with negative lookbehind assertions may match at the beginning of the string being searched.
+    \item [$\backslash A$]
+    Matches only at the start of the string.
+    \item [$\backslash b$]
+    Matches the empty string, but only at the beginning or end of a word. A word is defined as a sequence of alphanumeric or underscore characters, so the end of a word is indicated by whitespace or a non-alphanumeric, non-underscore character. Note that $\backslash b$ is defined as the boundary between $\backslash w$ and $\backslash W$, so the precise set of characters deemed to be alphanumeric depends on the values of the UNICODE and LOCALE flags. Inside a character range, $\backslash b$ represents the backspace character, for compatibility with Python's string literals.
+    \item [$\backslash B$]
+    Matches the empty string, but only when it is not at the beginning or end of a word. This is just the opposite of $\backslash b$, so is also subject to the settings of LOCALE and UNICODE.
+    \item [$\backslash d$]
+    Matches any decimal digit; this is equivalent to the set $[0-9]$.
+    \item [$\backslash D$]
+    Matches any non-digit character; this is equivalent to the set $[\hat{~}0-9]$.
+    \item [$\backslash s$]
+    Matches any whitespace character; this is equivalent to the set $[~\backslash t\backslash n\backslash r\backslash f\backslash v]$.
+    \item [$\backslash S$]
+    Matches any non-whitespace character; this is equivalent to the set $[\hat{~}~\backslash t\backslash n\backslash r\backslash f\backslash v]$.
+    \item [$\backslash w$]
+    When the LOCALE and UNICODE flags are not specified, matches any alphanumeric character and the underscore; this is equivalent to the set $[a-zA-Z0-9\_]$. With LOCALE, it will match the set $[0-9\_]$ plus whatever characters are defined as alphanumeric for the current locale. If UNICODE is set, this will match the characters $[0-9\_]$ plus whatever is classified as alphanumeric in the Unicode character properties database.
+    \item [$\backslash W$]
+    When the LOCALE and UNICODE flags are not specified, matches any non-alphanumeric character; this is equivalent to the set $[\hat{~}a-zA-Z0-9\_]$. With LOCALE, it will match any character not in the set $[0-9\_]$, and not defined as alphanumeric for the current locale. If UNICODE is set, this will match anything other than $[0-9\_]$ and characters marked as alphanumeric in the Unicode character properties database.
+    \item [$\backslash Z$]
+    Matches only at the end of the string.
+    \item [$\backslash a ~ \backslash f ~ \backslash n ~ \backslash r ~ \backslash t ~ \backslash v ~ \backslash x ~ \backslash\backslash$]
+    Most of the standard escapes supported by Python string literals are also accepted by the regular expression parser.
+    \item [$\backslash 0xyz$, $\backslash xyz$] Octal escapes are included in a limited form: If the first digit is a 0, or if there are three octal digits, it is considered an octal escape. As for string literals, octal escapes are always at most three digits in length. 
+\end{description}
+
+\section{Token definition}                                  \label{lexer:token_def}
+
+\subsection{Predefined tokens}
+
+Tokens can be explicitely defined by the \emph{token} and \emph{separator} keywords.
+
+A token is defined by:
+
+\begin{description}
+    \item [a name] which identifies the token.
+        This name is used by the parser.
+    \item [a regular expression] which describes what to match to recognize the token.
+    \item [an action] which can translate the matched text into a Python object. It can be a function of one argument or a non callable object. If it is not callable, it will be returned for each token otherwise it will be applied to the text of the token and the result will be returned. This action is optional. By default the token text is returned.
+\end{description}
+
+Token definitions must end with a \emph{;} when no action is specified. The dots after the token name are optional.
+
+See figure~\ref{lexer:tokens} for examples.
+
+\begin{code}
+\caption{Token definition examples}                         \label{lexer:tokens}
+\begin{verbatimtab}[4]
+    #     name     reg. exp        action
+    token integer: '\d+'           int;
+    token ident  : '[a-zA-Z]\w*'   ;
+    token bool   : 'True|False'    $ lambda b: b=='True'
+
+    separator spaces  : '\s+';     # white spaces
+    separator comments: '#.*';     # comments
+\end{verbatimtab}
+\end{code}
+
+The order of the declaration of the tokens is important. The first token that is matched is returned. The regular expression has a special treatment. If it describes a keyword, TPG also looks for a word boundary after the keyword. If you try to match the keywords \emph{if} and \emph{ifxyz} TPG will internally search \verb$if\b$ and \verb$ifxyz\b$. This way, \emph{if} won't match \emph{ifxyz} and won't interfere with general identifiers (\verb$\w+$ for example). This behaviour can be disabled since the version 3 of TPG (see~\ref{grammar:word_boundary_option}).
+
+There are two kinds of tokens. Tokens defined by the \emph{token} keyword are parsed by the parser and tokens defined by the \emph{separator} keyword are considered as separators (white spaces or comments for example) and are wiped out by the lexer.
+
+\subsection{Inline tokens}
+
+Tokens can also be defined on the fly. Their definition are then inlined in the grammar rules.
+This feature may be useful for keywords or punctuation signs.
+Inline tokens can not be transformed by an action as predefined tokens.
+They always return the token in a string.
+
+See figure~\ref{lexer:inline_tokens} for examples.
+
+\begin{code}
+\caption{Inline token definition examples}                  \label{lexer:inline_tokens}
+\begin{verbatimtab}[4]
+    IfThenElse ->
+        'if' Cond
+        'then' Statement
+        'else' Statement
+        ;
+\end{verbatimtab}
+\end{code}
+
+Inline tokens have a higher precedence than predefined tokens to avoid conflicts (an inlined \emph{if} won't be matched as a predefined \emph{identifier}).
+
+\section{Token matching}                                    \label{lexer:token_matching}
+
+TPG works in two stages.
+The lexer first splits the input string into a list of tokens and then the parser parses this list.
+The default lexer is lazy in TPG 3. Tokens are generated while parsing.
+This way TPG 3 need less memory when parsing huge files.
+
+\subsection{Splitting the input string}
+
+The lexer split the input string according to the token definitions (see~\ref{lexer:token_def}). When the input string can not be matched a \emph{tpg.LexicalError} exception is raised.
+
+The lexer may loop indefinitely if a token can match an empty string since empty strings are everywhere.
+
+\subsection{Matching tokens in grammar rules}
+
+Tokens are matched as symbols are recognized.
+Predefined tokens have the same syntax than non terminal symbols.
+The token text (or the result of the function associated to the token) can be saved by the infix \emph{/} operator (see figure~\ref{lexer:token_ret_val}).
+
+\begin{code}
+\caption{Token usage examples}                              \label{lexer:token_ret_val}
+\begin{verbatimtab}[4]
+    S -> ident/i;
+\end{verbatimtab}
+\end{code}
+
+Inline tokens have a similar syntax. You just write the regular expression (in a string). Its text can also be saved (see figure~\ref{lexer:inline_token_ret_val}).
+
+\begin{code}
+\caption{Token usage examples}                              \label{lexer:inline_token_ret_val}
+\begin{verbatimtab}[4]
+    S -> '(' '\w+'/i ')';
+\end{verbatimtab}
+\end{code}
+
+%\section{Special tokens}                                    \label{lexer:special_tokens}
+%
+%Their are some special tokens that have been requested by some users but these tokens can not be easily
+%described by TPG using classical token definition (see~\ref{lexer:token_def}).
+%
+%\subsection{Indent and deindent tokens}                     \label{lexer:indent_deindent}
+%
+%TPG is written in Python so is should be easy to handle INDENT and DEDENT tokens as in Python language.
+%These tokens are introduced in the source to be parsed by a preprocessor, before the lexer is activated.
+%Spaces in the beginning the lines are replaced by indent and deindent tokens when needed.
+%These special tokens are characters which ASCII codes are 16 and 17.
+%These characters may not be used in regular text files.
+%
+%\subsubsection{Indent definition}
+%
+%The \emph{indent} option (see~\ref{grammar:options}) has been added to define the indentation.
+%It has two values.
+%The first one is a regular expression describing the indentation, usually spaces and tabulations.
+%The second one is a regular expression describing the lines not to be taken into account, usually comments.
+%This second parameter describes the beginning of the line, i.e. \emph{"\#"} will match lines starting
+%with a \emph{\#}.
+%
+%\begin{code}
+%\caption{Indent and deindent definition example}            \label{lexer:indent_definition}
+%\begin{verbatimtab}[4]
+%    set indent = "\s", "#"
+%\end{verbatimtab}
+%\end{code}
+%
+%\subsubsection{Indent and deindent usage}                   \label{lexer:indent_usage}
+%
+%When the \emph{indent} option is active, \emph{indent} and \emph{deindent} tokens are defined.
+%They can be used as any other token.
+%
+%\begin{code}
+%\caption{Indent and deindent example}            \label{lexer:indent_example}
+%\begin{verbatimtab}[4]
+%parser IndentParser:
+%
+%    set indent = "\s", "#"
+%
+%    BLOCK ->
+%        (   INSTR
+%        |   indent
+%                BLOCK
+%            deindent
+%        )*;
+%\end{verbatimtab}
+%\end{code}

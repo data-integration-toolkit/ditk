@@ -1,0 +1,34 @@
+\section{Introduction}
+
+This chapter presents an extention of the calculator described in the tutorial (see~\ref{tpg:tutorial}).
+This calculator has more functions and a memory.
+
+\section{New functions}
+
+\subsection{Trigonometric and other functions}
+
+This calculator can compute some numerical functions (\emph{sin}, \emph{cos}, \emph{sqrt}, \ldots).
+The \emph{make\_op} function (see figure~\ref{tut:make_op}) has been extended to return these functions.
+Tokens must also be defined to scan function names.
+\emph{funct1} defines the name of unaries functions and \emph{funct2} defines the name of binaries functions.
+Finally the grammar rule of the atoms has been added a branch to parse functions.
+The \emph{Function} non terminal symbol parser unaries and binaries functions.
+
+\subsection{Memories}
+
+The calculator has memories.
+A memory cell is identified by a name.
+For example, if the user types \emph{$pi = 4*atan(1)$}, the memory cell named \emph{pi} will contain the value of \emph{$\pi$} and \emph{$cos(pi)$} will return \emph{$-1$}.
+
+To display the content of the whole memory, the user can type \emph{vars}.
+
+The variables are saved in a dictionnary.
+In fact the parser itself is a dictionnary (the parser inherits from the \emph{dict} class).
+
+The \emph{START} symbol parses a variable creation or a single expression and the \emph{Atom} parses variable names (the \emph{Var} symbol parses a variable name and returns its value).
+
+\section{Source code}
+
+Here is the complete source code (\emph{calc.pyg}):
+
+\verbatimtabinput[4]{../examples/calc.pyg}

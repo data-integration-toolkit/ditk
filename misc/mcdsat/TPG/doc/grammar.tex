@@ -1,0 +1,221 @@
+\section{TPG grammar structure}
+
+TPG grammars are contained in the doc string of the parser class.
+TPG grammars may contain three parts:
+
+\begin{description}
+    \item [Options]
+        are defined at the beginning of the grammar (see~\ref{grammar:options}).
+    \item [Tokens]
+        are introduced by the \emph{token} or \emph{separator} keyword (see~\ref{lexer:token_def}).
+    \item [Rules]
+        are described after tokens (see~\ref{grammar:parser}).
+\end{description}
+
+See figure~\ref{grammar:struct} for a generic TPG grammar.
+
+\begin{code}
+\caption{TPG grammar structure}                             \label{grammar:struct}
+\begin{verbatimtab}[4]
+class Foo(tpg.Parser):
+    r"""
+
+        # Options
+        set lexer = CSL
+
+        # Tokens
+        separator spaces    '\s+'       ;
+        token int           '\d+'   int ;
+
+        # Rules
+        START -> X Y Z ;
+
+    """
+
+foo = Foo()
+result = foo("input string")
+\end{verbatimtab}
+\end{code}
+
+\section{Comments}
+
+Comments in TPG start with \emph{\#} and run until the end of the line.
+
+\begin{verbatimtab}[4]
+    # This is a comment
+\end{verbatimtab}
+
+\section{Options}                                           \label{grammar:options}
+
+Some options can be set at the beginning of TPG grammars.
+The syntax for options is:
+
+\begin{description}
+    \item [set \emph{name} = \emph{$value$}] sets the \emph{name} option to \emph{$value$}.
+\end{description}
+
+\subsection{Lexer option}                                   \label{grammar:lexer_option}
+
+The \emph{lexer} option tells TPG which lexer to use.
+
+\begin{description}
+    \item [set lexer = NamedGroupLexer] is the default lexer.
+        It is context free and uses named groups of the \emph{sre} package (and its limitation of 100 named groups, ie 100 tokens).
+    \item [set lexer = Lexer] is similar to \emph{NamedGroupLexer} but doesn't use named groups.
+        It is slower than \emph{NamedGroupLexer}.
+    \item [set lexer = CacheNamedGroupLexer] is similar to \emph{NamedGroupLexer} except that tokens are first stored in a list.
+        It is faster for heavy backtracking grammars.
+    \item [set lexer = CacheLexer] is similar to \emph{Lexer} except that tokens are first stored in a list.
+        It is faster for heavy backtracking grammar.
+    \item [set lexer = ContextSensitiveLexer] is the context sensitive lexer (see~\ref{tpg:CSL}).
+\end{description}
+
+\subsection{Word bondary option}                            \label{grammar:word_boundary_option}
+
+The \emph{word\_boundary} options tells the lexer to search for word boundaries after identifiers.
+
+\begin{description}
+    \item [set word\_boundary = True] enables the word boundary search. This is the default.
+    \item [set word\_boundary = False] disables the word boundary search.
+\end{description}
+
+\subsection{Regular expression options}
+
+The \emph{sre} module accepts some options to define the behaviour of the compiled regular expressions.
+These options can be changed for each parser.
+
+\begin{description}
+    \item [set lexer\_ignorecase = True] enables the \emph{re.IGNORECASE} option.
+    \item [set lexer\_locale = True] enables the \emph{re.LOCALE} option.
+    \item [set lexer\_multiline = True] enables the \emph{re.MULTILINE} option.
+    \item [set lexer\_dotall = True] enables the \emph{re.DOTALL} option.
+    \item [set lexer\_verbose = True] enables the \emph{re.VERBOSE} option.
+    \item [set lexer\_unicode = True] enables the \emph{re.UNICODE} option.
+\end{description}
+
+\section{Python code}                                       \label{grammar:code}
+
+Python code section are not handled by TPG.
+TPG won't complain about syntax errors in Python code sections, it is Python's job.
+They are copied verbatim to the generated Python parser.
+
+\subsection{Syntax}
+
+Before TPG 3, Python code is enclosed in double curly brackets.
+That means that Python code must not contain to consecutive close brackets.
+You can avoid this by writting \emph{\}~\}} (with a space) instead of \emph{\}\}} (without space).
+This syntaxe is still available but the new syntax may be more readable.
+The new syntax uses \emph{\$} to delimit code sections.
+When several \emph{\$} sections are consecutive they are seen as a single section.
+
+\subsection{Indentation}
+
+Python code can appear in several parts of a grammar.
+Since indentation has a special meaning in Python it is important to know how TPG handles spaces and tabulations at the beginning of the lines.
+
+When TPG encounters some Python code it removes in all non blank lines the spaces and tabulations that are common to every lines.
+TPG considers spaces and tabulations as the same character so it is important to always use the same indentation style.
+Thus it is advised not to mix spaces and tabulations in indentation.
+Then this code will be reindented when generated according to its location (in a class, in a method or in global space).
+
+The figure~\ref{grammar:indent} shows how TPG handles indentation.
+
+\begin{tableau}
+\caption{Code indentation examples}                         \label{grammar:indent}
+\begin{tabular}{| p{3.5cm} | p{3.5cm} | p{3cm} | p{3cm} |}
+\hline
+    Code in grammars (old syntax) & Code in grammars (new syntax) & Generated code & Comment \\
+\hline
+\hline
+
+    \begin{verbatim*}
+{{
+    if 1==2:
+        print "???"
+    else:
+        print "OK"
+}}
+    \end{verbatim*}
+    &
+    \begin{verbatim*}
+
+$  if 1==2:
+$      print "???"
+$  else:
+$      print "OK"
+
+    \end{verbatim*}
+    &
+    \begin{verbatim*}
+
+if 1==2:
+    print "???"
+else:
+    print "OK"
+    \end{verbatim*}
+    &
+    \emph{Correct}: these lines have four spaces in common.  These spaces are removed.
+    \\
+
+\hline
+
+    \begin{verbatim*}
+{{  if 1==2:
+        print "???"
+    else:
+        print "OK"
+}}
+    \end{verbatim*}
+    &
+The new syntax has no trouble in that case.
+    &
+    \begin{verbatim*}
+if 1==2:
+      print "???"
+  else:
+      print "OK"
+    \end{verbatim*}
+    &
+    \emph{WRONG}: it's a bad idea to start a multiline code section on the first line since the common indentation may be different from what you expect.  No error will be raised by TPG but Python won't compile this code.
+    \\
+
+\hline
+
+    \begin{verbatim*}
+{{    print "OK" }}
+    \end{verbatim*}
+    &
+    \begin{verbatim*}
+$       print "OK"
+    \end{verbatim*}
+or
+    \begin{verbatim*}
+$ print "OK" $
+    \end{verbatim*}
+    &
+    \begin{verbatim*}
+print "OK"
+    \end{verbatim*}
+    &
+    \emph{Correct}: indentation does not matter in a one line Python code.
+    \\
+
+\hline
+
+\end{tabular}
+\end{tableau}
+
+\section{TPG parsers}                                       \label{grammar:parser}
+
+TPG parsers are \emph{tpg.Parser} classes.
+The grammar is the doc string of the class.
+
+\subsection{Methods}
+
+As TPG parsers are just Python classes, you can use them as normal classes.
+If you redefine the \emph{\_\_init\_\_} method, don't forget to call \emph{tpg.Parser.\_\_init\_\_}.
+
+\subsection{Rules}
+
+Each rule will be translated into a method of the parser.
+
