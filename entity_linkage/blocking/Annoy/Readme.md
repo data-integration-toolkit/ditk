@@ -57,5 +57,5 @@
 ### Jupyter Notebook
 - See src/AnnoyDemo.ipynb
 ### Video
-- tmp
+- https://www.youtube.com/watch?v=UfcN1u2kPY4&feature=youtu.be
 
