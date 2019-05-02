@@ -297,7 +297,7 @@ class biocppi_extraction(Ner):
                     self.batch_size,self.num_iterations,self.num_it_per_ckpt,self.learning_rate,self.embedding_factor,
                     self.decay_rate,self.keep_prob,self.num_cores,self.seed)  # train the models! plural cuz this code does ensembles
 
-        # self.trained_model = models
+        self.trained_model = models
 
         # if len(self.trained_model) < 1:
         #     print('Warning: No trained models to save.')

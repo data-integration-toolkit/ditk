@@ -138,7 +138,7 @@ def model_train(num_ensembles,datapath,model_name,embeddings_path,optimizer,batc
         trained_models[j].save(save_path)
         print "Saved model {} to {}".format(j,save_path)
         # trained_models.append(mcopy)
-    return  # trained_models
+    return  trained_models
 
 def load_embeddings(fname, vocab, dim=200):
     if not os.path.exists('./scratch'):
