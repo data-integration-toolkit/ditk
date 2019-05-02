@@ -16,12 +16,15 @@ Github URL of the original code: https://github.com/ContextScout/gcn_ner
 
 ## Setup
 (Tested on Python 3, Linux based systems.)
-- Clone the git repository
+- Clone the git repository folder gcn-ner
 - Install the requirements
 	- pip install -r requirements.txt
 - Run the following commands to configure the spacy library
 	- python -m spacy download en
 	- python -m spacy download en_core_web_md
+- To run the code
+	- Execute main.py
+	- Ensure that the data files are in the paths in main.py or else give absolute paths.
 
 ## Input and Output
 - Prediction
