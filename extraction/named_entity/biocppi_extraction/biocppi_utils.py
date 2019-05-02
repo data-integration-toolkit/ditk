@@ -10,6 +10,24 @@ DITK_FILE_HEADER = 'WORD TRUE_LABEL PRED_LABEL\n\n'
 DATA_PATH_BASE = 'corpus_train/'
 
 
+def load_dataset(fname):
+    dataset = []
+    with open(fname,'r') as f:
+        dataset = [ x.split('\n') for x in f.read().split('\n\n') if x ]
+    
+    vocab = []
+    output = []
+    for x in dataset:
+        
+        tokens, labels = zip(*[ z.split(' ') for z in x if z ])
+        for t in tokens:
+            t = t.lower()
+            if t not in vocab:
+                vocab.append(t)
+        
+        output.append((tokens, labels))
+
+
 def write_drtrnn_format_to_file(data,outputFilePath):
     """
     Write the data to output file. Format expected to be in format required by drtrnn.

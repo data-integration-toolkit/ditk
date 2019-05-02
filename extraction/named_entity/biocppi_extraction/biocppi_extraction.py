@@ -350,6 +350,7 @@ class biocppi_extraction(Ner):
             None
         """
 
+        # NOT YET IMPLEMENTED...loading of model...
         # if not self.trained_model:  # if trained_model is None or []
         #     self.trained_model = []
         #     for i in range(self.num_ensembles):
@@ -360,72 +361,20 @@ class biocppi_extraction(Ner):
         #         self.trained_model.append(model)
         # LEFT OFF HERE....
 
-
-        if not (len(data) < 1):  # expect empty iterable. if not, write new testing file based on data
-            butil.write_drtrnn_format_to_file(data,self.data_path_base +'test.txt')  # NOT YET TESTED
-            butil.bio(test_only=True)  # NOT YET IMPLEMENTED....may need to do another round of this.....if JUST data is passed...
-
-
-        test_w = "test_words.txt"
-        test_t = "test_tags.txt"
-
-        testset = Dataset(self.data_path_base+test_w, self.data_path_base+test_t, self.wl, self.tl, self.batch_size, shuffle_samples=False)
-        print "testset", testset.tot
-        test_sampler = testset.sampler()
-
-
-        if self.trained_model==None:
-            # must load one. else use the one already stored
-            print('Loading saved model from file: %s'%self.model_save_filename)
-            try:
-                self.load_model(self.model_save_filename)
-            except:
-                print('Error loading saved model file. No predictions made.')
-                return None
-
-            
-        g = open(self.prediction_filename,"w+")
-                #TEST DATA
         predictions = []
-        for m in range(testset.tot):
-            test_inputs, test_tags = test_sampler.next()        #dev data
-            res = self.trained_model.eval_perplexity(test_inputs[0], test_tags[0])
-            pred = self.trained_model.predict(test_inputs[0])
-            viterbi_max, viterbi_argmax =  self.trained_model.output_decode(test_inputs[0])  
-            first_ind = np.argmax(viterbi_max[-1])
-            viterbi_pred =  backtrack(first_ind, viterbi_argmax)
-            vi_pre = np.array(viterbi_pred)
-            test_true = list(test_tags[0])
-            for k,l,n in zip(vi_pre, test_true, test_inputs[0]):
-                item_predict = [None,None]
-                g.write(self.id2word[n])
-                item_predict.append(self.id2word[n])
-                # print n
-                g.write(" ")
-                if(l == 0):
-                    g.write("O")
-                if(l == 1):
-                    g.write("B-Dis")
-                if(l == 2):
-                    g.write("I-Dis")    
-                g.write(" ")
-                mentionType = ''
-                if(k == 0):
-                    g.write("O")
-                    mentionType = 'O'
-                if(k == 1):
-                    g.write("B-Dis")
-                    mentionType = 'B-Dis'
-                if(k == 2):
-                    g.write("I-Dis")
-                    mentionType = 'I-Dis'
-                item_predict.append(mentionType)
-                predictions.append(tuple(item_predict))
-                g.write('\n')
-            g.write('\n')           
-        g.close()
 
-        butil.copy_predictions_to_predictions_with_header(self.prediction_filename)
+        if len(data) < 1:  # we were not passed data
+            print('file based prediction not available at this time. Expect list of list for input data.')
+            return None
+
+        if not self.trained_model:
+            print('No trained models to work with. Be sure to run train() before running this. Model loading not supported at this time')
+            return None
+
+        butil.write_drtrnn_format_to_file(data,self.data_path_base +'test.txt')
+        dataset = butil.load_dataset(self.data_path_base +'test.txt')
+        print(len(dataset))
+
 
         return predictions
 

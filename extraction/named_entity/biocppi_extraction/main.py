@@ -61,12 +61,13 @@ def main(inputFilePath):
     data_train = data['train']  # test passing actual data [empty also works]
     biocppi.train(data_train)
     print('DONE TRAIN')
-    sys.exit()
 
     # predict using trained model
     data_test = data['test']
     predictions = biocppi.predict(data_test)  # test passing actual data [empty also works]
+    print('DONE PREDICT')
     print(len(predictions))
+    sys.exit()
 
     
     outputPredictionsFile = 'predictions.txt'
