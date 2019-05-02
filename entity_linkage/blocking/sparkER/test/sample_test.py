@@ -29,4 +29,4 @@ class TestBlockingMethods(unittest.TestCase):
 		self.assertIsInstance(reduction_ratio, float)
 
 if __name__ == '__main__':
-        unittest.main()
+	unittest.main()

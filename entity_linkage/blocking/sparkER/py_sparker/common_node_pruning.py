@@ -1,6 +1,6 @@
 import numpy as np
 import math
-from py_sparker.pruning_utils import WeightTypes, PruningUtils
+from entity_linkage.blocking.sparkER.py_sparker.pruning_utils import WeightTypes, PruningUtils
 
 
 def calcChiSquare(CBS, neighbourNumBlocks, currentProfileNumBlocks, totalNumberOfBlocks):

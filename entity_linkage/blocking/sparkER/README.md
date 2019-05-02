@@ -39,5 +39,5 @@ https://github.com/Gaglia88/sparker/tree/master/python
 <img src="./sparker_results.jpg"/> 
 
 ## Demo
-- 
-- 
+- Link to video: https://youtu.be/wJz1Fyx9t_U
+- Link to Jupyter notebook: 

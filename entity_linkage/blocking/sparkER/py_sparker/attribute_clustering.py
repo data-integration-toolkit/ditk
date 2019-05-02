@@ -4,7 +4,7 @@ import random
 import networkx as nx
 from collections import Counter
 import math
-from py_sparker.objects import Profile, KeyValue, KeysCluster
+from entity_linkage.blocking.sparkER.py_sparker.objects import Profile, KeyValue, KeysCluster
 
 
 class Attr(object):

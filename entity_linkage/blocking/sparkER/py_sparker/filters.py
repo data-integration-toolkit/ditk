@@ -1,5 +1,5 @@
-from py_sparker.objects import ProfileBlocks
-from py_sparker.converters import Converters
+from entity_linkage.blocking.sparkER.py_sparker.objects import ProfileBlocks
+from entity_linkage.blocking.sparkER.py_sparker.converters import Converters
 
 
 class BlockPurging(object):

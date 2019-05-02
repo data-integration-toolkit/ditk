@@ -1,6 +1,6 @@
-from py_sparker.objects import Profile, MatchingEntities, KeyValue, BlockClean, BlockDirty, BlockWithComparisonSize, \
+from entity_linkage.blocking.sparkER.py_sparker.objects import Profile, MatchingEntities, KeyValue, BlockClean, BlockDirty, BlockWithComparisonSize, \
     ProfileBlocks
-from py_sparker.blockers import TokenBlocking
+from entity_linkage.blocking.sparkER.py_sparker.blockers import TokenBlocking
 
 
 class Converters(object):

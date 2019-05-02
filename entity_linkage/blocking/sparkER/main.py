@@ -15,7 +15,7 @@ def main(input_file_path):
 	sparker.train(dataframes)
 	predicted_pair_list = sparker.predict(dataframe_list = dataframes)
 	print(predicted_pair_list[0][10])
-	groundtruth = "moviesGround.csv"
+	groundtruth = "dataset-sample/articlesGround.csv"
 	print(sparker.evaluate(groundtruth, dataframes))
 	f = open(output_file_path, "w+b")
 	c = csv.writer(f)

@@ -1,5 +1,5 @@
-from py_sparker.pruning_utils import WeightTypes, ThresholdTypes, ComparisonTypes
-from py_sparker.common_node_pruning import computeStatistics, calcCBS, calcChiSquare, calcWeights, doReset
+from entity_linkage.blocking.sparkER.py_sparker.pruning_utils import WeightTypes, ThresholdTypes, ComparisonTypes
+from entity_linkage.blocking.sparkER.py_sparker.common_node_pruning import computeStatistics, calcCBS, calcChiSquare, calcWeights, doReset
 import math
 
 

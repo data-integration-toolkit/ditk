@@ -1,6 +1,6 @@
 from pyspark.sql import SparkSession
 from pyspark import SparkContext
-from py_sparker.objects import Profile, MatchingEntities, KeyValue
+from entity_linkage.blocking.sparkER.py_sparker.objects import Profile, MatchingEntities, KeyValue
 import json
 
 

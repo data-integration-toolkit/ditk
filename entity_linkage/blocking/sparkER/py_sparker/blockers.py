@@ -1,5 +1,5 @@
 import re
-from py_sparker.objects import Profile, KeyValue, BlockClean, BlockDirty
+from entity_linkage.blocking.sparkER.py_sparker.objects import Profile, KeyValue, BlockClean, BlockDirty
 
 
 class TokenBlocking(object):

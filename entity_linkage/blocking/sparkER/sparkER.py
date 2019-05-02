@@ -1,5 +1,5 @@
 from entity_linkage.blocking.blocking import Blocking
-import py_sparker as sparker
+import entity_linkage.blocking.sparkER.py_sparker as sparker
 import os
 import tempfile
 from pyspark import SparkContext, SparkConf
@@ -167,7 +167,7 @@ def main():
 	sparker.train(dataframes)
 	predicted_pair_list = sparker.predict(dataframe_list = dataframes)
 	print(predicted_pair_list[0][10])
-	groundtruth = "moviesGround.csv"
+	groundtruth = "dataset-sample/articlesGround.csv"
 	print(sparker.evaluate(groundtruth, dataframes))
 
 
