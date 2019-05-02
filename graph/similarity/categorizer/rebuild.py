@@ -16,7 +16,7 @@ GO_BP = 'GO:0008150'
 
 def msg(s):
 	if DEBUG:
-		print s
+		print(s)
 
 
 
@@ -196,7 +196,7 @@ def __loadUniProtAnnotationFile(input_file):
 		cnt += 1
 		if cnt == 100:
 			per = round( float(pos) / float(fsize) * 100.0, 2)
-			print per,'%     ', '\r',
+			print(per,'%     ', '\r',)
 		
 		
 		if not s:
@@ -218,7 +218,7 @@ def __loadUniProtAnnotationFile(input_file):
 
 	f.close()
 
-	print '100.00 %'
+	print('100.00 %')
 
 
 	return box
@@ -263,14 +263,14 @@ def __precalculate2(go_p, index, uniprot_go_map, category):
 		if category in pids or gid == category:
 
 			if 0<go_p[gid]<1:
-				print 'What? ', gid, go_p[gid]
+				print('What? ', gid, go_p[gid])
 				sys.exit(1)
 
 			go_p[gid] = (1.0 + go_p[gid] ) / (1.0 + total )
 
 
 			if go_p[gid]>1:
-				print 'Larger than 1: ', gid, go_p[gid]
+				print('Larger than 1: ', gid, go_p[gid])
 				go_p[gid] = 1.0
 
 
@@ -309,7 +309,7 @@ def __saveSimilarityScores(go_prob, go_index, go_sim_index_file):
 	for g1 in range(len(all_go_terms)):
 
 		per = float(g1+1)/total*100.0
-		print per, '%              ', '\r',
+		print(per, '%              ', '\r',)
 
 		for g2 in range(g1, len(all_go_terms)):
 			g1_term = all_go_terms[g1]
@@ -330,7 +330,7 @@ def __saveSimilarityScores(go_prob, go_index, go_sim_index_file):
 					s = key + '\t' + str( score )
 					f.write(s+'\n')
 
-	print
+	print()
 	# saving...
 	#f=open(go_sim_index_file, 'w')
 	#for key in sim_index.keys():
@@ -371,29 +371,29 @@ def process(uniprot_go_annotation_file, go_file, index_file, go_prob_file, go_si
 
 
 def run(uniprot_annotation_file, go_file):
-	print 'Generating information contents from uniprot data...'
+	print('Generating information contents from uniprot data...')
 
 	index_file = 'go_index.txt'
 	go_prob_file = 'go_prob.txt'
 	go_sim_index_file = 'go_sim.txt'
 
-	print 'Inputs...'
-	print '\tUniprot data = ', uniprot_annotation_file
-	print '\tGO data = ', go_file
-	print
-	print 'Outputs...'
-	print '\tIndex file = ', index_file
-	print '\tInformation contents file = ', go_prob_file
-	print '\tSemantic Similarity file = ', go_sim_index_file
+	print('Inputs...')
+	print('\tUniprot data = ', uniprot_annotation_file)
+	print('\tGO data = ', go_file)
+	print()
+	print('Outputs...')
+	print('\tIndex file = ', index_file)
+	print('\tInformation contents file = ', go_prob_file)
+	print('\tSemantic Similarity file = ', go_sim_index_file)
 
 
 	process(uniprot_annotation_file, go_file, index_file, go_prob_file, go_sim_index_file)
 
-	print 'Done'
+	print('Done')
 
 def display():
 
-	print '''
+	print('''
 -----------------------------
 Indexing tool for Categorizer
 -----------------------------
@@ -411,7 +411,7 @@ Example)
 	to Categorizer or CategorizerGUI folder.
 	Those index files will be automatically loaded by the 
 	CategorizerGUI and Categorizer.
-'''
+''')
 
 
 if __name__ == '__main__':

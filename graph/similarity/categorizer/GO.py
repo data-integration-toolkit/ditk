@@ -398,7 +398,7 @@ class GO():
 		for k in self.go_terms.keys():
 			g = GOTerm()
 			g = self.go_terms[k]
-			print g.toString()
+			print(g.toString())
 
 	def increaseCounter (self, go_id, cnt_id, flyDB_id):
 		g = GOTerm()

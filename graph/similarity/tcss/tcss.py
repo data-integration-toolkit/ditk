@@ -15,15 +15,15 @@ def load_semantic_similarity(ontology_file, gene_file, ontology, code):
     objs = {}
     ontology = ontology.split(",")
     g = GOGraph()
-    print "loading data............."
+    print("loading data.............")
     g._obo_parser(ontology_file)
     g._go_annotations(gene_file, code)
-    print "processing data..........(takes time)"
+    print("processing data..........(takes time)")
     run = {'C':g._cellular_component, 'P':g._biological_process, 'F':g._molecular_function}
     ont = {'C':"Cellular Component", 'P':"Biological Process", 'F':"Molecular Function"}
     for i in ontology:
         i = i.split(":")
-        print "working with %s ontology....."%ont[i[0]]
+        print("working with %s ontology....."%ont[i[0]])
         objs[i[0]] = run[i[0]]()
         objs[i[0]]._species()
         objs[i[0]]._clustering(float(i[1]))

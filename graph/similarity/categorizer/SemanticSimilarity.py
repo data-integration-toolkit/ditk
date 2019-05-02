@@ -204,23 +204,23 @@ if __name__ == '__main__':
     g1 = 'GO:0015807' # parent, G2
     
     s = SEMANTIC_SIMILARITY()
-    print s.getSimilarity(g2, g1)
+    print(s.getSimilarity(g2, g1))
     
     g2 = 'GO:0090514' # child, G10
     g1 = 'GO:0015801' # parent, G3
     
     s = SEMANTIC_SIMILARITY()
-    print s.getSimilarity(g2, g1)
+    print(s.getSimilarity(g2, g1))
   
     g2 = 'GO:0051939' # child, G8
     g1 = 'GO:0043090' # parent, G4
     
     s = SEMANTIC_SIMILARITY()
-    print s.getSimilarity(g2, g1)
+    print(s.getSimilarity(g2, g1))
     
     
     g2 = 'GO:0051939' # child, G8
     g1 = 'GO:0015812' # parent, G4
     
     s = SEMANTIC_SIMILARITY()
-    print s.getSimilarity(g2, g1)        
+    print(s.getSimilarity(g2, g1)        )

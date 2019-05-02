@@ -83,7 +83,7 @@ CACHE = None
 def printf(msg):
 	global DEBUG
 	if DEBUG:
-		print msg
+		print(msg)
 
 
 class JOB(threading.Thread):
@@ -126,7 +126,7 @@ class JOB(threading.Thread):
 				self.proc.start()
 				self.proc.join()
 			except Exception as inst:
-				print 'Error in multiprocess: ', repr(inst)
+				print('Error in multiprocess: ', repr(inst))
 				sys.exit(1)
 
 		self.over = 2
@@ -172,16 +172,16 @@ def loadGOcategoryDefinitionFile(fname):
 				else:
 					if line.find('GO:') == 0:
 						if current_category is None:
-							print 'Line number: ', cnt
-							print 'Category not specified yet: ', s
+							print('Line number: ', cnt)
+							print('Category not specified yet: ', s)
 							sys.exit(1)
 						else:
 							if not line in r[current_category]:
 								r[current_category].append(line)
 
 					else:
-						print 'Line number: ', cnt
-						print 'Unidentified GO ID: ', s
+						print('Line number: ', cnt)
+						print('Unidentified GO ID: ', s)
 						sys.exit(1)
 
 
@@ -189,8 +189,7 @@ def loadGOcategoryDefinitionFile(fname):
 
 
 
-	key = r.keys()
-	key.sort()
+	key = sorted(r.keys())
 
 
 	#printf ('Category # = ' + str(len(key)))
@@ -207,9 +206,9 @@ def loadGOcategoryDefinitionFile(fname):
 	if AUTOMATIC_INDLUSION_OF_CHILD_TERMS_IN_DEFINITION:
 		#printf ('Adding child nodes')
 		r = addChildren(r)
-		print 'Category # = ' + str(len(key))
+		print('Category # = ' + str(len(key)))
 		for k in key:
-			print k + ' -> ' + str(len(r[k])) + ' terms'
+			print(k + ' -> ' + str(len(r[k])) + ' terms')
 	
 
 	
@@ -242,7 +241,7 @@ def checkDuplicates(r):
 	for cat in r.keys():
 		new_r = []
 		for gid in r[cat]:
-			if not dupe.has_key(gid):
+			if not gid in dupe :
 				new_r.append(gid)
 		r[cat] = new_r
 		
@@ -266,7 +265,7 @@ def addChildren(r):
 		new_r [cat] = []
 		
 		for gid in r[cat]:
-			if sem.index.has_key(gid):
+			if gid in sem.index :
 				for child in sem.index[gid][SemanticSimilarity.CHILD]:
 					
 					
@@ -295,7 +294,7 @@ def addChildren(r):
 
 	
 	if CATEGORY_EXPANSION==1:
-		print 'Expanding category definition...'
+		print('Expanding category definition...')
 		xr = addVagueChildNodes(r, dupe)
 		
 		for cat in xr.keys():
@@ -323,7 +322,7 @@ def addChildren(r):
 			for cat2 in r.keys():
 				if cat != cat2:
 					if gid in r[cat2]:
-						print gid + ' in '+ cat+ ' is also in '+ cat2
+						print(gid + ' in '+ cat+ ' is also in '+ cat2)
 	
 	return r
 
@@ -516,7 +515,7 @@ def processMPI(cat_def, gene_list, org_goid_dict, option, cache = {}):
 			tot = len(gene_list)
 			per = float(cur) / float(tot) * 100.0
 			txt = '%.2f %% done' % per
-			print txt, '\r',
+			print(txt, '\r',)
 
 		time.sleep(1)
 
@@ -556,7 +555,7 @@ def processMPIpart(args ):
 
 
 
-		if cache.has_key(gene):
+		if gene in cache :
 			gene_category[gene] = copy.deepcopy( cache[gene] )
 			queue.put( copy.deepcopy( gene_category ))
 
@@ -649,7 +648,7 @@ def process(cat_def, gene_list, org_goid_dict, option, cache = {}):
 	
 	
 
-	print 'Loading GO structure and GOterm similarity scores...'
+	print('Loading GO structure and GOterm similarity scores...')
 	sem_sim = SemanticSimilarity.SEMANTIC_SIMILARITY()
 	
 
@@ -671,7 +670,7 @@ def process(cat_def, gene_list, org_goid_dict, option, cache = {}):
 			return None
 
 
-		print '\r', cnt/total*100,'%               ','\r',
+		print '\r', cnt/total*100,'%               ','\r', 
 
 
 		
@@ -812,11 +811,11 @@ def loadAnnotationFile(annot_file):
 			continue
 
 		# unique id
-		if not gene_goid_dict.has_key(uid):
+		if not uid in gene_goid_dict :
 			gene_goid_dict[ uid ] = []
 
 		# gene name
-		if not gene_goid_dict.has_key(name):
+		if not name in gene_goid_dict :
 			gene_goid_dict[ name ] = []
 
 		if not go_id in gene_goid_dict[uid]:
@@ -858,8 +857,8 @@ def reportStat(category_gene, output):
 
 	f.close()
 
-def reportCategoryGene(category_gene, output):
-	f=open(output,'w')
+def reportCategoryGene(category_gene):
+	#f=open(output,'w')
 
 
 	ccc = category_gene.keys()
@@ -874,13 +873,14 @@ def reportCategoryGene(category_gene, output):
 	# ----------------------------------------------------
 	
 
+	res = []
 	for cat in new_ccc:
 		genes = category_gene[cat]
 
 		s = cat + '\t' + str(len(genes)) + '\t' + ','.join(genes)
-		f.write(s+'\n')
+		res.append(s)
+	return res
 
-	f.close()
 
 def reportGeneCategory(gene_category, output):
 	
@@ -912,7 +912,7 @@ def reportGeneCategory(gene_category, output):
 
 
 
-def report(all_categories, gene_category, output):
+def report(all_categories, gene_category):
 
 
 	category_gene = {}
@@ -928,8 +928,8 @@ def report(all_categories, gene_category, output):
 				
 	
 
-	reportCategoryGene(category_gene, output+'_category.txt')
-	reportGeneCategory(gene_category, output+'_gene.txt')
+	return reportCategoryGene(category_gene)
+	#reportGeneCategory(gene_category, output+'_gene.txt')
 
 
 
@@ -990,21 +990,21 @@ def run(option):
 	cpu = option[OPT_CPU]
 	sim_index = 'go_sim.txt'
 
-	print 'Loading category file: ', def_file
+	print('Loading category file: ', def_file)
 	cat_def = loadGOcategoryDefinitionFile(def_file)
 
-	print 'Loading annotation file: ', annot_file
+	print('Loading annotation file: ', annot_file)
 	org_goid_dict = loadAnnotationFile(annot_file)
 
-	print 'Loading genes: ', input_file
+	print('Loading genes: ', input_file)
 	gene_list = loadGeneList(input_file)
 
 	#print 'Loading caches: ', sim_index
 	#global CACHE
 	#CACHE = loadSimCache(sim_index, gene_list)
 
-	print '-----------------'
-	print 'Categorizing... '
+	print('-----------------')
+	print('Categorizing... ')
 	ct = cat_def.keys()
 	ct.sort()
 	all_categories = ct + [ CATEGORY_NO_ANNOTATION ]
@@ -1030,8 +1030,8 @@ def run(option):
 
 	report(all_categories, gene_category, out)
 	
-	print 
-	print 'Done'
+	print()
+	print('Done')
 
 
 
@@ -1306,19 +1306,19 @@ def processOptions(argv):
 			option[OPT_METHOD_THRESHOLD] = float( value)
 
 		else:
-			print 'Error: ', flag, value
+			print('Error: ', flag, value)
 			sys.exit(1)
 
 
 	keys = option.keys()
 	keys.sort()
 
-	print '---------------'
-	print ' Parameters...'
-	print '---------------'
+	print('---------------')
+	print(' Parameters...')
+	print('---------------')
 	for k in keys:
-		print k, ':', option[k]
-	print '---------------'
+		print(k, ':', option[k])
+	print('---------------')
 
 
 
@@ -1327,7 +1327,7 @@ def processOptions(argv):
 
 
 def displayHelp():
-	print '''
+	print('''
 Categorizer v1.0
 	- categorizes genes/proteins based on GO annotations
 
@@ -1350,10 +1350,10 @@ Categorizer v1.0
 
 	* -m and -s are mutually exclusive!
 
-'''
+''')
 	
 	if MPI:
-		print '''
+		print ('''
 	*optional*
 	-cpu [n]
 		integer n>=1. Uses multiple cores (default = 1)
@@ -1361,13 +1361,13 @@ Categorizer v1.0
 Example:
 		
 	python Categorizer.py -d ./data/example_categories.txt -a ./data/example_gene_association.fb -i ./data/example_genes.txt -m 0.3 -cpu 3
-'''
+''')
 		
 	else:
-		print '''
+		print('''
 Example:
 	Categorizer.exe -d .\\data\\example_categories.txt -a .\\data\\example_gene_association.fb -i .\\data\\example_genes.txt -m 0.3
-'''
+''')
 
 def checkOptions(opt):
 
@@ -1387,9 +1387,8 @@ if __name__ == '__main__':
 
 
 
-	print
-	print '[[ Categozier v1.0]] '
-	print
+	print()
+	print('[[ Categozier v1.0]] ')
 
 	# 초기화 함수
 
@@ -1399,8 +1398,8 @@ if __name__ == '__main__':
 		if checkOptions(opt):
 			run(opt)
 		else:
-			print '*** Error ***'
-			print 'You must specify category file(-d), annotation file(-a), input file(-i), and category method (-m/-s).'
+			print('*** Error ***')
+			print('You must specify category file(-d), annotation file(-a), input file(-i), and category method (-m/-s).')
 	else:
 		displayHelp()
 	#print 'DONE'

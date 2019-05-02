@@ -45,9 +45,9 @@ class SemanticSimilarity(object):
         sem_sim = {}
         if geneA not in self.gene_annotations or geneB not in self.gene_annotations:
             if geneA not in self.gene_annotations:
-                print "%s not found in annotations"%geneA
+                print("%s not found in annotations"%geneA)
             if geneB not in self.gene_annotations:
-                print "%s not found in annotations"%geneB
+                print("%s not found in annotations"%geneB)
             return None, None
             
         for termA in self.gene_annotations[geneA]:
