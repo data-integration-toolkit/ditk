@@ -41,7 +41,7 @@ Same as Prediction
 |Recall|75.81%|76.27%|66.09%|44.93%|
 |F1 Score|79.46%|82.96%|73.17%|57.74%|
 
-[![eval]](/extraction/named_entity/ClinicalNER/image/eval.png)
+![eval](/extraction/named_entity/ClinicalNER/image/eval.png)
 
 ## Demo
 - [Link to the Jupyter Notebook](/extraction/named_entity/ClinicalNER/code/ClinicalNER.ipynb)
