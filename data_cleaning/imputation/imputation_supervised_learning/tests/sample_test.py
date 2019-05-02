@@ -34,7 +34,7 @@ class TestImputationMethods(unittest.TestCase):
 
 
 		result = self.imputation_method.preprocess(self.input_file)
-		preprocess_result = self.imputation_method.impute(result)
+		preprocess_result,out_file = self.imputation_method.impute(result)
 		if isinstance(preprocess_result, np.ndarray):
 			self.assertEquals(preprocess_result.shape[0], total_input_lines)
 			self.assertEquals(preprocess_result.shape[1], len(input_headers))
@@ -42,7 +42,7 @@ class TestImputationMethods(unittest.TestCase):
 			self.assertEquals(preprocess_result.shape[0], total_input_lines)
 			self.assertEquals(preprocess_result.shape[1], input_headers)
 		else:
-			with open(self.output_file, "r") as fin:
+			with open(out_file, "r") as fin:
 				lines = csv.reader(fin)
 				#output_headers = next(lines)
 				total_output_lines = 0

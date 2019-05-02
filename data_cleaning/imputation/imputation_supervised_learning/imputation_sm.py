@@ -211,7 +211,7 @@ class Imputation_with_supervised_learning():
             del data_bin
 
 
-    def impute(self, data_X, trained_model=None, cat_values = False, *args, **kwargs):
+    def impute(self, data_X, cat_values = False, trained_model=None, *args, **kwargs):
         """
         Contains function calls to imputation methods (Random replace, Feature summary, One hot, Random Forest, SVM, Logistic Regression, Factor Analysis, knn). 
         
@@ -235,7 +235,7 @@ class Imputation_with_supervised_learning():
 
             output_file = os.path.join(os.getcwd(),'output.csv')
             np.savetxt(output_file, data_mode, delimiter=",", fmt="%s")
-            return output_file
+            return data_mode,output_file
 
         else:
             x = delete(x, (9), 1)
@@ -291,7 +291,7 @@ class Imputation_with_supervised_learning():
 
             output_file = os.path.join(os.getcwd(),'output.csv')
             np.savetxt(output_file, data_facanal, delimiter=",", fmt="%s")
-            return output_file
+            return data_mode,output_file
 
 
 
@@ -398,12 +398,12 @@ class Imputation_with_supervised_learning():
 
 
 
-    def evaluate(self, *args, **kwargs):
+    def evaluate(self, filename, *args, **kwargs):
         """
         Loads the complete input dataset, imputed table and calculates the performance on the input through rmse.
 
         """
-        filename = "tests/sample_input.csv"
+        
         with open(filename,"r") as f:
             next(f)
             data = []
@@ -415,7 +415,7 @@ class Imputation_with_supervised_learning():
         data = np.asarray(data)
         data = data.astype(np.float)
 
-        with open("tests/sample_output.csv","r") as g:
+        with open("output.csv","r") as g:
             data_imp = []
             for line in g:
                 data_line_imp = line.rstrip().split(',')

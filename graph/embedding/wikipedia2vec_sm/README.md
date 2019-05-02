@@ -29,54 +29,54 @@ The child class file, "wikipedia2vec_sm.py" and the "main.py" file are located i
 wget https://dumps.wikimedia.org/enwiki/latest/enwiki-latest-pages-articles.xml.bz2
 ```
 
-**2. Instantiate the child class** 
+**2. Instantiate the child class** <br/>
 An object is created for the Wikipedia2vec Child class
 ```bash
 obj = Wikipedia2vec()
 ```
 
-**3. Read the dataset** 
+**3. Read the dataset** <br/>
 Reads a dataset in preparation to learn embeddings. Returns data in proper format to learn embeddings. Saves the required file names in chosen_dataset.txt to be used by other methods of the program
 ```bash
 obj.read_dataset(filename)
 ```
-**4. Build Dump Database** 
+**4. Build Dump Database** <br/>
 The build_dump command creates a database that contains Wikipedia pages each of which consists of texts and anchor links in it.
 ```bash
 dump_file = 'enwiki-latest-pages-articles.xml.bz2'
 build_dump(dump_file, 'output.db')
 ```
-**5. Build Build Dictionary** 
+**5. Build Dictionary** <br/>
 The build_dictionary command builds a dictionary of words and entities.
 ```bash
 obj.build_dictionary('output.db', 'output_dic')
 ```
-**6. Build Mention DB** 
+**6. Build Mention DB** <br/>
 The build_mention_db command builds a database that contains the mappings of entity names (mentions) and their possible referent entities.
 ```bash
 obj.build_mention_db('output.db', 'output_dic', 'output_md')
 ```
-**7. Build Link Graph** 
+**7. Build Link Graph** <br/>
 The build_link_graph command generates a sparse matrix representing the link structure between Wikipedia entities.
 ```bash
 obj.build_link_graph('output.db', 'output_dic', 'output_lg')
 ```
-**8. Learn Embeddings** 
+**8. Learn Embeddings** <br/>
 The learn_embeddings command runs the training of the embeddings.
 ```bash
 obj.learn_embeddings('output.db', 'output_dic', 'final_output', link_graph_file='output_lg', mention_db_file='output_md')
 ```
-**9. Save Model** 
+**9. Save Model** <br/>
 The save_model command outputs the model in a text format.
 ```bash
 obj.save_model('final_output', 'final_output_text')
 ```
-**10. Load Model** 
+**10. Load Model** <br/> 
 The load_model command loads a pretrained model to learn the embeddings.
 ```bash
 obj.load_model('final_output_text')
 ```
-**11. Evaluation** 
+**11. Evaluation** <br/>
 Evaluation metric used is Spearman's coefficient using cosine similarity.
 ```bash
 obj.evaluate('final_output_text')
