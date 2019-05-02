@@ -56,7 +56,7 @@ def main(inputFilePath):
     
     data = biocppi.read_dataset(file_dict, dataset_name)  # data read, converted, and written to files in proper location expected by train
     
-    UNCOMMENT for submit!
+    # UNCOMMENT for submit!
     # train model
     #data = []  # implementation
     data_train = data['train']  # test passing actual data [empty also works]
