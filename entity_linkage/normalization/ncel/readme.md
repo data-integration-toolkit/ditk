@@ -47,6 +47,7 @@ F1 score (Micro and Macro)
 
 
 Results: 
+
 Datasets | F1(Micro) | F1(Macro)
 :--- | :---: | :---: 
 CoNLL | 71 | 66
