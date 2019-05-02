@@ -1,4 +1,4 @@
-from Wikipedia2vec import Wikipedia2vec
+from wikipedia2vec_sm import Wikipedia2vec
 
 def main(filename):
 	"""
@@ -26,8 +26,8 @@ def main(filename):
 	pre_trained = True
 	obj = Wikipedia2vec()
 	if pre_trained:
-		obj.read_dataset()
-		output_file = obj.load_model()
+		obj.read_dataset(filename)
+		embeddings, output_file = obj.load_model(filename)
 		obj.evaluate(output_file)
 		
 	else:

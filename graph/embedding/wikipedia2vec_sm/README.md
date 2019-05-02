@@ -104,5 +104,5 @@ obj.evaluate('final_output_text')
 
 ## Demo
 
-* Jupyter Notebook: <https://www.google.com>
-* Youtube video: <https://www.google.com>
+* Jupyter Notebook: https://github.com/samikshm/ditk/blob/develop-py2/graph/embedding/wikipedia2vec_sm/modules/wikipedia2vec.ipynb
+* Youtube video: https://studio.youtube.com/video/4bemSmVCwtM/edit

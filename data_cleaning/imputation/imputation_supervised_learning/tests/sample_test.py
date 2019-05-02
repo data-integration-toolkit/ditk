@@ -2,7 +2,7 @@ import csv
 import unittest
 import pandas as pd
 import numpy as np
-from imputation import Imputation_with_supervised_learning
+from imputation_sm import Imputation_with_supervised_learning
 
 #from data_cleaning.imputation import Imputation
 

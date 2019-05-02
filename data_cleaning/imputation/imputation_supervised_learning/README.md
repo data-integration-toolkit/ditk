@@ -96,4 +96,4 @@ Evaluation Results: RMSE average calculated on evaluation dataset at 20% random 
 ## Demo
 
 * Jupyter Notebook: <https://www.google.com>
-* Youtube video: <https://www.google.com>
+* Youtube video: https://youtu.be/ItH8MOj0R1k

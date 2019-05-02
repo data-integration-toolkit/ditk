@@ -32,7 +32,7 @@ from wikipedia2vec.utils.tokenizer import get_tokenizer, get_default_tokenizer
 from wikipedia2vec.utils.sentence_detector import get_sentence_detector
 
 #Provide path to parent class file
-import graph_embedding
+#import graph_embedding
 
 #class Wikipedia2vec(graph_embedding.Graph_Embedding):
 class Wikipedia2vec():
@@ -44,7 +44,7 @@ class Wikipedia2vec():
 	def __init__(self):
 		pass
 
-	def read_dataset(self, *args, **kwargs):
+	def read_dataset(self, filename, *args, **kwargs):
 		"""
 		Reads a dataset in preparation to learn embeddings. Returns data in proper format to learn embeddings.
 		Downloads the wikipedia dump using wget https://dumps.wikimedia.org/enwiki/latest/enwiki-latest-pages-articles.xml.bz2
@@ -61,12 +61,27 @@ class Wikipedia2vec():
 			None
 		"""
 		#parse files to obtain data_X
-		train = np.genfromtxt("data/Yago/train.txt", delimiter='\t', dtype='str', usecols=np.arange(0,3))
-		valid = np.genfromtxt("data/Yago/valid.txt", delimiter='\t', dtype='str', usecols=np.arange(0,3))
-		test = np.genfromtxt("data/Yago/test.txt", delimiter='\t', dtype='str', usecols=np.arange(0,3))
-		entity2id = np.genfromtxt("data/Yago/entity2id.txt", delimiter='\t', dtype='str', usecols=np.arange(0,2))
-		relation2id = np.genfromtxt("data/Yago/relation2id.txt", delimiter='\t', dtype='str', usecols=np.arange(0,2))
-		file_name = 'yago.txt'
+		if filename.find('yago') != -1:
+			train = np.genfromtxt("data/yago/train.txt", delimiter='\t', dtype='str', usecols=np.arange(0,3))
+			valid = np.genfromtxt("data/yago/valid.txt", delimiter='\t', dtype='str', usecols=np.arange(0,3))
+			test = np.genfromtxt("data/yago/test.txt", delimiter='\t', dtype='str', usecols=np.arange(0,3))
+			entity2id = np.genfromtxt("data/yago/entity2id.txt", delimiter='\t', dtype='str', usecols=np.arange(0,2))
+			relation2id = np.genfromtxt("data/yago/relation2id.txt", delimiter='\t', dtype='str', usecols=np.arange(0,2))
+			file_name = 'yago.txt'
+		elif filename.find('freebase')!= -1:
+			train = np.genfromtxt("data/freebase/train.txt", delimiter='\t', dtype='str', usecols=np.arange(0,3))
+			valid = np.genfromtxt("data/freebase/valid.txt", delimiter='\t', dtype='str', usecols=np.arange(0,3))
+			test = np.genfromtxt("data/freebase/test.txt", delimiter='\t', dtype='str', usecols=np.arange(0,3))
+			entity2id = np.genfromtxt("data/freebase/entity2id.txt", delimiter='\t', dtype='str', usecols=np.arange(0,2))
+			relation2id = np.genfromtxt("data/freebase/relation2id.txt", delimiter='\t', dtype='str', usecols=np.arange(0,2))
+			file_name = 'freebase.txt'
+		elif filename.find('wikidata')!=-1:
+			train = np.genfromtxt("data/wikidata/train.txt", delimiter='\t', dtype='str', usecols=np.arange(0,3))
+			valid = np.genfromtxt("data/wikidata/valid.txt", delimiter='\t', dtype='str', usecols=np.arange(0,3))
+			test = np.genfromtxt("data/wikidata/test.txt", delimiter='\t', dtype='str', usecols=np.arange(0,3))
+			entity2id = np.genfromtxt("data/wikidata/entity2id.txt", delimiter='\t', dtype='str', usecols=np.arange(0,2))
+			relation2id = np.genfromtxt("data/wikidata/relation2id.txt", delimiter='\t', dtype='str', usecols=np.arange(0,2))
+			file_name = 'wikidata.txt'
 		with open('chosen_dataset.txt', 'w') as the_file:
 			the_file.write(file_name)
 		the_file.close()
@@ -234,7 +249,7 @@ class Wikipedia2vec():
 		return output_file
 
 
-	def load_model(self):
+	def load_model(self, filename):
 		check_dict = dict()
 		with io.open('final_output_text',"r+", encoding="utf-8") as f:
 			for line in f:
@@ -243,8 +258,15 @@ class Wikipedia2vec():
 					data_line[0] = data_line[0][7:]
 					check_dict[data_line[0]] = data_line[1]
 		f.close()
+		if filename.find('yago') != -1:
+			file_name = 'data/yago/entity2id.txt'
+		elif filename.find('freebase') != -1:
+			file_name = 'data/freebase/entity2id.txt'
+		elif filename.find('wikidata') != -1:
+			file_name = 'data/wikidata/entity2id.txt'
+			
 		entity2id = set()
-		with io.open('data/Yago/entity2id.txt',"r+", encoding="utf-8") as f:
+		with io.open(file_name,"r+", encoding="utf-8") as f:
 			for line in f:
 				data_line = line.rstrip().split('\t')
 				if data_line[0][0] == '<' and data_line[0][-1] == '>':

@@ -33,7 +33,7 @@ from sklearn.tree import DecisionTreeClassifier
 
 
 
-#class Imputation_with_supervised_learning(imputation_2.Imputation):
+
 class Imputation_with_supervised_learning():
     """ 
     
@@ -47,46 +47,28 @@ class Imputation_with_supervised_learning():
         pass
         
 
-    def preprocess(self, filename, header=False, *args, **kwargs):
+    def preprocess(self, filename, header, missing_values, categorical_values, *args, **kwargs):
         """
         Reads a dataset (complete dataset without missing values) and introduces missingness in the dataset. May also perform one or more of the following - 
         Scaling, masking, converting categorical data into one hot representation etc.
         
-        Uses argparse() to get dataset name, output filename, data masking ratio, seed, prediction column
-        and introduces missing values accordingly
         
-        Parameters
-        ----------
-        :param inputData: 
-            FilePath to the (complete) dataset
-        
-        :param args:
-            args.valid_data: str
-                Name of the processed file split for testing
-            args.mask_ratio: float
-                Percent of data to be randomly masked
-            args.seed: int
-                Seed of the randomizer
-            args.predict_col: str
-                Column used for prediction
-        :param kwargs:
-        
-        Returns
-        -------
-        data_X: csv file
-            Input file after introducing missing values
-        train_data: str
-            Name of the processed file split for training
-        test_data: str
-            Name of the processed file split for testing
-
         """
         
         if header:
             imp_input = np.genfromtxt(filename,delimiter=',', dtype=object, skip_header=1)
         else:
             imp_input = np.genfromtxt(filename,delimiter=',', dtype=object)
-
+        
+        if not missing_values:
+            n_perturbations = int(imp_input.shape[0] * 0.2)
+            rows = np.random.randint(0, imp_input.shape[0], n_perturbations)
+            cols = np.random.randint(0, imp_input.shape[1], n_perturbations)
+            if categorical_values:
+                imp_input[rows, cols] = '?'
+            else:
+                imp_input[rows, cols] = '0'
+        
         return imp_input
         
 
@@ -94,15 +76,6 @@ class Imputation_with_supervised_learning():
     def train(self, input_data, dataname, *args, **kwargs):
         """
         Prepares the train_data by saving perturbed data to disk as csv, stores scaler objects to be used on the test set
-
-        :param train_data: str
-            Name of the processed file split for training
-        :param kwargs:
-
-        Returns
-        -------
-        model_train_data: np.ndarray
-            Features and labels stored in train folder 
 
 
         """
@@ -204,15 +177,6 @@ class Imputation_with_supervised_learning():
         """
         Prepares the test_data by load respective scaler, scale and binarize, scale and binarize
 
-        :param test_data: str
-            Name of the processed file split for testing
-        :param kwargs:
-
-        Returns
-        -------
-        model_test_data: np.ndarray
-            Features and labels stored in test folder
-
         """
 
 
@@ -250,22 +214,7 @@ class Imputation_with_supervised_learning():
     def impute(self, data_X, trained_model=None, cat_values = False, *args, **kwargs):
         """
         Contains function calls to imputation methods (Random replace, Feature summary, One hot, Random Forest, SVM, Logistic Regression, Factor Analysis, knn). 
-
-        Parameters
-        ----------
-        :param trained_model: trained model
-            Set to None as no training is needed for imputation
-        :param data_X: csv file or text file
-            Input file containing table after introducing missing values
-        :param args:
-            args.missing_data_cond: '?'
-                Symbol used to denote missing value
-        :param kwargs:
         
-        Returns
-        -------
-        imputed_values: np.ndarray
-            Contains the imputed tables from all the imputation methods
         """
         x = data_X
         imp = Imputer()
@@ -351,24 +300,6 @@ class Imputation_with_supervised_learning():
         """
         Run prediction using random forest, decision trees and neural networks on non imputed and imputed data. Add missing data perturbation prior to imputation and regularising classifier.
         
-
-        Parameters
-        ----------
-        :param trained_model: name of the trained model
-            Set to None as training and testing are done in this function 
-        :param model_test_data: np.ndarray
-            Test data file 
-        :param prediction: str
-            Column name to run prediction on
-        :param args: 
-            args.model_train_data: np.ndarray
-                Train data file
-        :param kwargs:
-        
-        Returns
-        -------
-        error_rate: float
-            Classifier error rate on imputation method used
         """
         def dumpclean(obj):
             if type(obj) == dict:
@@ -471,21 +402,6 @@ class Imputation_with_supervised_learning():
         """
         Loads the complete input dataset, imputed table and calculates the performance on the input through rmse.
 
-        Parameters
-        ----------
-        :param trained_model: name of the trained model
-            Set to None as no training is done for imputation 
-        :param inputData: 
-            FilePath to the (complete) dataset
-        :param args:
-            :args.imputed_values: np.ndarray
-                Imputed tables from the imputation methods
-        :param kwargs:
-        
-        Returns
-        -------
-        performance_metric: float
-            RMSE calculated
         """
         filename = "tests/sample_input.csv"
         with open(filename,"r") as f:

@@ -1,4 +1,5 @@
-from imputation import Imputation_with_supervised_learning
+from imputation_sm import Imputation_with_supervised_learning
+
 
 def main(filename):
     """
@@ -21,24 +22,25 @@ def main(filename):
         """
     categorical_values = True
     dataname = 'breast_cancer'
+    missing_values = True
+    header = False
     if categorical_values:
         obj = Imputation_with_supervised_learning()
-        input_data = obj.preprocess(filename)
+        input_data = obj.preprocess(filename, header, missing_values, categorical_values)
         output_filename = obj.impute(input_data, dataname, True)
         train_data, labels_train, test_data, labels_test = obj.train(input_data,dataname)
         obj.test(test_data, labels_test, dataname)
         obj.predict(dataname)
         obj.evaluate(filename)
-
         
     else:
         obj = Imputation_with_supervised_learning()
-        filename, input_data = obj.preprocess(True)
+        input_data = obj.preprocess(filename, header, missing_values, categorical_values)
         output_filename = obj.impute(input_data, dataname)
     print output_filename
     
 
 
 if __name__ == '__main__':
-    filename = 'breast_cancer.csv'
+    filename = 'data/datasets/breast_cancer.csv'
     main(filename)
