@@ -308,6 +308,7 @@ class ProjE(GraphEmbedding):
         self.train_loss, self.train_op, self.ent_embeddings, self.rel_embeddings = self.train_ops(argDict, learning_rate=argDict['lr'],
                                      optimizer_str=argDict['optimizer'],
                                      regularizer_weight=argDict['loss_weight'])
+        self.writeOutput(self.ent_embeddings, self.rel_embeddings, argDict)
         return self.train_hrt_input, self.train_hrt_weight, file, self.train_trh_input, self.train_trh_weight, self.train_loss, self.train_op, self.ent_embeddings, self.rel_embeddings
 
     def load_model(self, load_dir):
