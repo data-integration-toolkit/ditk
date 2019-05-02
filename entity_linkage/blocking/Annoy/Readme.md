@@ -1,44 +1,18 @@
 # Non-Metric Space Library (NMSLIB)
-- NMSLIB Citation: 
-@inproceedings{DBLP:conf/sisap/BoytsovN13,
-  author    = {Leonid Boytsov and
-               Bilegsaikhan Naidan},
-  title     = {Engineering Efficient and Effective Non-metric Space Library},
-  booktitle = {Similarity Search and Applications - 6th International Conference,
-               {SISAP} 2013, {A} Coru{\~{n}}a, Spain, October 2-4, 2013, Proceedings},
-  pages     = {280--293},
-  year      = {2013},
-  crossref  = {DBLP:conf/sisap/2013},
-  url       = {https://doi.org/10.1007/978-3-642-41062-8\_28},
-  doi       = {10.1007/978-3-642-41062-8\_28},
-  timestamp = {Thu, 25 May 2017 00:42:36 +0200},
-  biburl    = {https://dblp.org/rec/bib/conf/sisap/BoytsovN13},
-  bibsource = {dblp computer science bibliography, https://dblp.org}
-}
-- HNSW Citation: 
-@article{DBLP:journals/corr/MalkovY16,
-  author    = {Yury A. Malkov and
-               D. A. Yashunin},
-  title     = {Efficient and robust approximate nearest neighbor search using Hierarchical
-               Navigable Small World graphs},
-  journal   = {CoRR},
-  volume    = {abs/1603.09320},
-  year      = {2016},
-  url       = {http://arxiv.org/abs/1603.09320},
-  archivePrefix = {arXiv},
-  eprint    = {1603.09320},
-  timestamp = {Mon, 13 Aug 2018 16:46:53 +0200},
-  biburl    = {https://dblp.org/rec/bib/journals/corr/MalkovY16},
-  bibsource = {dblp computer science bibliography, https://dblp.org}
-}
+- https://github.com/spotify/annoy
 
 ## Original Code
 - tmp
 
 ## Description
-- Non-Metric Space Library (NMSLIB) is an efficient cross-platform similarity search library and a toolkit for evaluation of similarity search methods. The core-library does not have any third-party dependencies.
-- For ditk I have created a wrapper for NMSLIB to easily use their state of the art Hierarchical Navigable World graph (HNSW) implementation. 
-
+- Annoy (Approximate Nearest Neighbors Oh Yeah) is a C++ library with Python bindings to search for points in space that are close to a given query point. It also creates large read-only file-based data structures that are mmapped into memory so that many processes may share the same data.
+- For ditk I have created a wrapper for Annoy to integrate with the ditk pipeline.
+- Can specify vector ids. 
+- Can search by vector id as well as by vector. 
+<p align="center">
+    <img src="figures/Screenshot from 2019-05-01 19-49-18.png"/>
+    <p align="center">Fig. 1 Annoy Details</p>
+</p>
 
 
 ## Functions 
