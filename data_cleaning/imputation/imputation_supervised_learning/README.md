@@ -28,11 +28,11 @@ Missing data imputation can help improve the performance of prediction models in
 ```bash
 obj = Imputation_with_supervised_learning()
 ```
-**2. Read dataset**
+**2. Read dataset** <br/>
+If header is present in input file, header flag is set to True. If the file has missing values, the missing_values flag should be set to True. If the dataset has categorical values, categorical_values flag should be set to True.
 ```bash
 dataname = 'breast_cancer'
-header = False in case of no headers else True
-input_data = obj.preprocess(header)
+input_data = obj.preprocess(filename, header, missing_values, categorical_values)
 ```
 
 **3. Prepare Training data**<br/>
@@ -48,12 +48,12 @@ obj.test(test_data, labels_test, dataname)
 **5. Perform imputation on dataset read in preprocess function**<br/>
 The impute command imputes missing values in the dataset.
 ```bash
-obj.impute(input_data, True)
+obj.impute(input_data)
 ```
 **6. Evaluation**<br/>
 Loads the complete input dataset, imputed table and calculates the performance on the input using RMSE(Root Mean Squared Error).
 ```bash
-obj.evaluate()
+obj.evaluate(filename)
 ```
 **7. Predict labels in case of classification task**<br/>
 The predict command predicts the labels in the test dataset. Classifiers used are Random Forest and Decision Tree. Different hyperparameters are used. The evaluation metric used is test set error rate in this case which is printed as and when the MCAR perturbation ratio and hyperparameters change.
@@ -95,5 +95,5 @@ Evaluation Results: RMSE average calculated on evaluation dataset at 20% random 
 
 ## Demo
 
-* Jupyter Notebook: <https://www.google.com>
+* Jupyter Notebook: https://github.com/samikshm/ditk/blob/develop-py2/data_cleaning/imputation/imputation_supervised_learning/imputation_supervised.ipynb
 * Youtube video: https://youtu.be/ItH8MOj0R1k

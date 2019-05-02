@@ -22,6 +22,8 @@ These three submodels are based on the skip-gram model (Mikolov et al., 2013a,b)
 * Output: Embeddings for entities
 
 ## Approach
+The child class file, "wikipedia2vec_sm.py" and the "main.py" file are located in the "modules" folder. This organisation is required for successfull execution of the code.
+
 **1. Download Wikipedia2vec dump** 
 ```bash
 wget https://dumps.wikimedia.org/enwiki/latest/enwiki-latest-pages-articles.xml.bz2
@@ -36,7 +38,7 @@ obj = Wikipedia2vec()
 **3. Read the dataset** 
 Reads a dataset in preparation to learn embeddings. Returns data in proper format to learn embeddings. Saves the required file names in chosen_dataset.txt to be used by other methods of the program
 ```bash
-obj.read_dataset()
+obj.read_dataset(filename)
 ```
 **4. Build Dump Database** 
 The build_dump command creates a database that contains Wikipedia pages each of which consists of texts and anchor links in it.
