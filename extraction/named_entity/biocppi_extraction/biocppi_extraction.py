@@ -374,9 +374,11 @@ class biocppi_extraction(Ner):
             return None
 
         butil.write_drtrnn_format_to_file(data,self.data_path_base +'test.txt')
-        dataset = butil.load_dataset(self.data_path_base +'test.txt')
-        print(len(dataset))
-        print(dataset[:10])
+        sentences,sentence_labels = butil.load_dataset(self.data_path_base +'test.txt')
+        print(len(sentences))
+        print(sentences[:10])
+        print(len(sentence_labels))
+        print(sentence_labels[:10])
 
 
         return predictions

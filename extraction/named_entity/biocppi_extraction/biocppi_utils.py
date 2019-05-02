@@ -17,6 +17,8 @@ def load_dataset(fname):
     
     vocab = []
     output = []
+    sentences = []
+    sentence_labels = []
     for x in dataset:
         
         tokens, labels = zip(*[ z.split(' ') for z in x if z ])
@@ -25,8 +27,10 @@ def load_dataset(fname):
             if t not in vocab:
                 vocab.append(t)
         
-        output.append((tokens, labels))
-    return output
+        # output.append((tokens, labels))
+        sentences.append(tokens)
+        sentence_labels.append(labels)
+    return sentences,sentence_labels
 
 
 def write_drtrnn_format_to_file(data,outputFilePath):
