@@ -141,8 +141,8 @@ def model_train(num_ensembles,datapath,model_name,embeddings_path,optimizer,batc
     return trained_models
 
 def load_embeddings(fname, vocab, dim=200):
-    # if not os.path.exists('./scratch'):
-    #     os.mkdir('./scratch')
+    if not os.path.exists('./scratch'):
+        os.mkdir('./scratch')
     vocabset = set(vocab)
     cached = './scratch/embeddings_{}.npy'.format(abs(hash(' '.join(vocab))))
     
