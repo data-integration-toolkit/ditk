@@ -1,10 +1,15 @@
-This model assumes we are given all the mentions of named entities and a lexicon that maps each mention to a set of entity candidates in a given reference entity database. 
+Since the method uses twitter data the other common benhmarks for this method are not applicable, primarily becuase the modules has lot of tweet preprocessing functions
 
-The paper uses raw dataset of AIDA-CoNLL, AQUANT, ACE, but does not provide the preprocessing step to convert txt to json.
 
-The input format(json) is:
-(mentioned_entity, offset_pairs, highest_rank_candidate, set of (candidate_entity, label, features)).
+The input format is:
+Text
 
-The output format is same as submitted in the group.
+The output format is list of output indicating entity boundary, entity extracted, normalized entity and metadata
 
-The evaluation metric is also not in F1. They only provides accuracy and I was not able to extract precision and recall.
+The evaluation metric is also precision,recall and F1 score -> same as all members of group
+
+The test cases are:
+
+1. The predict method is giving correct results by checking non empty fields
+2. The evaluate method is giving correct results by checking for precision, recall and F1 score
+

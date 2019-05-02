@@ -8,9 +8,9 @@ Conference on Computational Linguistics (COLING 2018)
 ## Original Code
 https://github.com/halolimat/LNEx 
 
-##Requirements
--Python3
--ElasticSearch on OSM (the details on installation are below)
+## Requirements
+- Python3
+- ElasticSearch on OSM (the details on installation are below)
  * Note ElasticSearch is vital to query the Gazetteer, please make sure the instance is running before testing the code
 
 ## Installing OpenStreetMap Gazetteers
