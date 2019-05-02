@@ -32,7 +32,7 @@ from wikipedia2vec.utils.tokenizer import get_tokenizer, get_default_tokenizer
 from wikipedia2vec.utils.sentence_detector import get_sentence_detector
 
 #Provide path to parent class file
-#import graph_embedding
+import graph_embedding
 
 #class Wikipedia2vec(graph_embedding.Graph_Embedding):
 class Wikipedia2vec():
