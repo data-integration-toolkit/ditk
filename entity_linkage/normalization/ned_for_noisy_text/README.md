@@ -18,6 +18,8 @@
 
 ## Evalution
 - CoNLL 2003
+- AQUAINT (Not available because of charged)
+- ACE2004 (Not available because of charged)
 - F1 (70.2%)
 
 ## Excecution

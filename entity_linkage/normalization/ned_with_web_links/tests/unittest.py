@@ -1,5 +1,5 @@
 import unittest
-from main import EntityNormalization
+from ned_with_web_links import EntityNormalization
 
 
 class TestEntityNormalization(unittest.TestCase):
@@ -7,12 +7,8 @@ class TestEntityNormalization(unittest.TestCase):
     def setUp(self):
         # instantiate the implemented class
         self.entity_normalization = EntityNormalization()
-        self.input_file = 'sample_input.txt'
-        self.model = self.load_model()
-        self.test_list = []
-        with open(self.input_file, "r") as file:
-            for line in file:
-                self.test_list.append(line)
+        self.model, train_set, eval_set, test_set = self.load_model()
+        self.test_list = test_set
 
     def test_predict(self):
         # test if predicts returns at least a list with two elements
@@ -20,7 +16,9 @@ class TestEntityNormalization(unittest.TestCase):
         print results
 
     def load_model(self):
-        return self.entity_normalization.train("/data0/linking/wikipedia/dumps/20150901/")
+        train_set, eval_set, test_set = \
+            self.entity_normalization.read_dataset("/data0/linking/wikipedia/dumps/20150901/", (0.8, 0.1, 0.1))
+        return self.entity_normalization.train(train_set), train_set, eval_set, test_set
 
 
 if __name__ == '__main__':
