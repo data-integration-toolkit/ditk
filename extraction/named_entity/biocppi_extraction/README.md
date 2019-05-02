@@ -11,7 +11,7 @@ ___
 
 ___
 
-https://github.com/bionlproc/biocppi_extraction>
+https://github.com/bionlproc/biocppi_extraction
 
 
 
@@ -27,6 +27,5 @@ ___
 
 - https://docs.google.com/presentation/d/1yNDu5t30yB5mbvlF-j2N3xAHa_O3S5BhaMHfyvFfLjE/edit?usp=sharing
 
-![image](<https://drive.google.com/uc?export=view&id=1brDIM4Gs85tJ8Aw6LsjW7MTzyRTu3y3W>)
+![image](https://drive.google.com/uc?export=view&id=1brDIM4Gs85tJ8Aw6LsjW7MTzyRTu3y3W)
 
-https://drive.google.com/file/d/1brDIM4Gs85tJ8Aw6LsjW7MTzyRTu3y3W/view?usp=sharing
