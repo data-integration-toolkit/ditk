@@ -148,6 +148,19 @@ Then open the run.ipynb to get a sense of general model usage
 This video guide through cloning the project to editing specific model configuration
 [[Youtube Video](https://youtu.be/JtQrqSt24uk)]
 
+### Edit Model Configuration(model.py)
+You can change the number of epochs at Line 311:
+```
+        tf.app.flags.DEFINE_integer(
+            "num_epochs", 1, "Number of training epochs (Default: 100)")
+```
+You can change the different Pooling Type (Max Pooling or Attention Pooling) Line 298:
+```
+        tf.app.flags.DEFINE_string("pooling_type", "max",
+                                   "pooling method, max or att (Default: max)")
+```
+There are more to edit inside model.py at ~950 lines
+
 ### Run unit test
 ```
 cd tests
