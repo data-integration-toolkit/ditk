@@ -9,7 +9,8 @@ Liu, T., Wang, K., Chang, B. and Sui, Z. : A Soft-label Method for Noise-toleran
 2017.
 
 
-## Original Implementation Repository ([Repo](https://github.com/tyliupku/soft-label-RE))
+## Original Implementation Repository 
+([Repo](https://github.com/tyliupku/soft-label-RE))
 
 
 ## Overall Task
@@ -140,8 +141,14 @@ if __name__ == "__main__":
 ```
 You may also find the provided Youtube Video and Jupyter notebook useful.
 
+### Jupyter Notebook
+```
+Jupyter notebook
+```
+Then open the run.ipynb to get a sense of general model usage
 
 ### Youtube Video Guide
+This video guide through cloning the project to editing specific model configuration
 [[Youtube Video](https://youtu.be/Noj5v2ihZBA)]
 
 ### Run unit test
