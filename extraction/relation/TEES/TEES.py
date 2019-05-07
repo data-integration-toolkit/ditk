@@ -1,5 +1,7 @@
 import TEES
 from TEES.Detectors.Preprocessor import Preprocessor
+from TEES import train
+from TEES import classify
 import sys
 import os
 
@@ -8,7 +10,7 @@ class TEES():
     def __init__(self):
         pass
 
-    def read_dataset(self, dataset_name="nyt"):  
+    def read_dataset(self):  
         """
         Reads a dataset to be used for training
          
@@ -22,7 +24,7 @@ class TEES():
         """
         pass
         
-    def data_preprocess(self,input_data, output_file_name="output.xml", *args, **kwargs):
+    def data_preprocess(self, input_data, output_file_path=os.getcwd()+"/output.xml", *args, **kwargs):
         """
          (Optional): For members who do not need preprocessing. example: .pkl files 
          A common function for a set of data cleaning techniques such as lemmatization, count vectorizer and so forth.
@@ -31,14 +33,12 @@ class TEES():
         Returns:
             Formatted data for further use.
         """
-	current_dir = os.getcwd()
         steps = "LOAD,BLLIP_BIO,STANFORD_CONVERT,SPLIT_NAMES,FIND_HEADS,SAVE"
         parseName = "McCC"
         requireEntities = False
         preprocessor = Preprocessor(steps, parseName, requireEntities)
         preprocessor.setArgForAllSteps("debug", False)
-	preprocessor.process(input_data, os.getcwd()+"/"+output_file_name, model=None, logPath="AUTO")
-
+	preprocessor.process(input_data, output_file_path, model=None, logPath="AUTO")
 
     def tokenize(self, input_data ,ngram_size=None, *args, **kwargs):  
         """
@@ -52,7 +52,7 @@ class TEES():
         pass
 
 
-    def train(self, train_file, devel_file, test_file, output):  
+    def train(self, train_file, devel_file, output_model_folder):  
         """
         Trains a model on the given training data
         
@@ -66,8 +66,10 @@ class TEES():
             (Optional) : trained model in applicable formats.
              None: if the model is stored internally.
         """
+        train.train(output_model_folder,inputFiles={"devel":devel_file, "train":train_file, "test":train_file}, models={"devel":"model-devel", "test":"model-test"}, parse="McCC", doFullGrid=False, log="log.txt", deleteOutput=False, debug=False)
+        return output_model_folder + "/model-test"
 
-    def predict(self, encoder="pcnn", selector="ave", dataset_name = "nyt"):   
+    def predict(self, input_file, model_path, output_result_path):   
         """
         Predict on the trained model using test data
         Args:
@@ -80,8 +82,10 @@ class TEES():
                   or 
             relation: [tuple], list of tuples. (Eg - Entity 1, Relation, Entity 2) or in other format 
         """
+        classify.classify(input_file, model_path, output_result_path, omitSteps="PREPROCESS")
+        return output_result_path+"-pred.xml.gz"
 
-    def evaluate(self, encoder="pcnn", selector="ave", dataset_name = "nyt"):
+    def evaluate(self, input_file, model_path, gold_input, output_result_path):
         """
         Evaluates the result based on the benchmark dataset and the evauation metrics  [Precision,Recall,F1, or others...]
          Args:
@@ -90,21 +94,46 @@ class TEES():
         Returns:
             performance metrics: tuple with (p,r,f1) or similar...
         """
+        classify.classify(input_file, model_path, output_result_path, omitSteps="PREPROCESS", goldInput=gold_input)
+        
+        precision = None
+        recall = None 
+        f1_score = None
+        # Analyze log file and retrive evaluation metrices.
+        logFile = output_result_path+"-log.txt"
+        lines = open(logFile, 'r').readlines()
+
+        start_index = 0
+        for i in range(len(lines)-1, -1, -1):
+            if lines[i].split('\t')[1].replace('\n', '') == "Events":
+                start_index = i
+                break
+
+        for i in range(start_index, len(lines)):
+            if "micro" in lines[i]:
+                metrices = lines[i].replace("\n","").split("micro ")[1].split(" ")
+                positive_cases = metrices[0].split(":")[1].split("/")[0]
+                negative_cases = metrices[0].split(":")[1].split("/")[1]
+
+                positives = metrices[1].split(":")[1].split("|")[0]
+                negatives = metrices[1].split(":")[1].split("|")[1]
+                true_positive = positives.split("/")[0]
+                false_positive = positives.split("/")[1]
+                true_negative = negatives.split("/")[0]
+                false_negative = negatives.split("/")[1]
+
+                precision = float(metrices[2].split(":")[1].split("/")[0])
+                recall = float(metrices[2].split(":")[1].split("/")[1])
+                f1_score = float(metrices[2].split(":")[1].split("/")[2])
+                break
+        return precision, recall, f1_score
 
 if __name__ == '__main__':
-    # instatiate the class
     tees = TEES()
-    tees.data_preprocess("custom-data.xml")
-'''
-    print "Reading dataset"
-    dataset_name = "nyt"
-    encoder="pcnn"
-    selector="ave"
-    myModel.read_dataset(dataset_name)
-    print "Training"
-    myModel.train(encoder, selector, dataset_name, epoch=1)
-    print "Predicting"
-    predictions = myModel.predict(encoder, selector, dataset_name)  # generate predictions! output format will be same for everyone
-    print "Evaluating"
-    myModel.evaluate(encoder, selector, dataset_name)
-'''
+    tees.data_preprocess("custom-data.xml", output_file_path=os.getcwd()+"/output.xml")
+    test_model_path = tees.train(os.getcwd()+"/output.xml", os.getcwd()+"/output.xml", os.getcwd()+"/output.xml", os.getcwd()+"/Training_output")
+    #test_model_path = os.getcwd() + "/Training_output" + "/model-test" 
+    result_package = tees.predict(os.getcwd()+"/output.xml", test_model_path, os.getcwd()+"/Classify-Output")
+    precision, recall, f1_score = tees.evaluate(os.getcwd()+"/output.xml", test_model_path, os.getcwd()+"/output.xml", os.getcwd() + "/Classify-Output")
+    print(precision, recall, f1_score)
+
