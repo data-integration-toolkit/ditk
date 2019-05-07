@@ -1,0 +1,448 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="DDI-DrugBank.d438">
+    <sentence id="DDI-DrugBank.d438.s0" text="In vitro studies were conducted to investigate the potential of gabapentin to inhibit the major cytochrome P450 enzymes (CYP1A2, CYP2A6, CYP2C9, CYP2C19, CYP2D6, CYP2E1, and CYP3A4) that mediate drug and xenobiotic metabolism using isoform selective marker substrates and human liver microsomal preparations.">
+        <entity id="DDI-DrugBank.d438.s0.e0" charOffset="64-73"
+            type="drug" text="gabapentin"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d438.s1" text="Only at the highest concentration tested (171"/>
+    <sentence id="DDI-DrugBank.d438.s2" text="g/mL;"/>
+    <sentence id="DDI-DrugBank.d438.s3" text="1 mM) was a slight degree of inhibition (14%-30%) of isoform CYP2A6 observed."/>
+    <sentence id="DDI-DrugBank.d438.s4" text="No inhibition of any of the other isoforms tested was observed at gabapentin concentrations up to 171 mg/mL (approximately 15 times the Cmax at 3600 mg/day).">
+        <entity id="DDI-DrugBank.d438.s4.e0" charOffset="66-75"
+            type="drug" text="gabapentin"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d438.s5" text="Gabapentin is not appreciably metabolized nor does it interfere with the metabolism of commonly coadministered antiepileptic drugs.">
+        <entity id="DDI-DrugBank.d438.s5.e0" charOffset="0-9"
+            type="drug" text="Gabapentin"/>
+        <entity id="DDI-DrugBank.d438.s5.e1" charOffset="111-129"
+            type="group" text="antiepileptic drugs"/>
+        <pair id="DDI-DrugBank.d438.s5.p0" e1="DDI-DrugBank.d438.s5.e0"
+            e2="DDI-DrugBank.d438.s5.e1" ddi="false"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d438.s6" text="The drug interaction data described in this section were obtained from studies involving healthy adults and adult patients with epilepsy."/>
+    <sentence id="DDI-DrugBank.d438.s7" text="Phenytoin: In a single (400 mg) and multiple dose (400 mg TID) study of Neurontin in epileptic patients (N=8) maintained on phenytoin monotherapy for at least 2 months, gabapentin had no effect on the steady-state trough plasma concentrations of phenytoin and phenytoin had no effect on gabapentin pharmacokinetics.">
+        <entity id="DDI-DrugBank.d438.s7.e0" charOffset="0-8"
+            type="drug" text="Phenytoin"/>
+        <entity id="DDI-DrugBank.d438.s7.e1" charOffset="72-80"
+            type="brand" text="Neurontin"/>
+        <entity id="DDI-DrugBank.d438.s7.e2" charOffset="124-132"
+            type="drug" text="phenytoin"/>
+        <entity id="DDI-DrugBank.d438.s7.e3" charOffset="169-178"
+            type="drug" text="gabapentin"/>
+        <entity id="DDI-DrugBank.d438.s7.e4" charOffset="246-254"
+            type="drug" text="phenytoin"/>
+        <entity id="DDI-DrugBank.d438.s7.e5" charOffset="260-268"
+            type="drug" text="phenytoin"/>
+        <entity id="DDI-DrugBank.d438.s7.e6" charOffset="287-296"
+            type="drug" text="gabapentin"/>
+        <pair id="DDI-DrugBank.d438.s7.p0" e1="DDI-DrugBank.d438.s7.e0"
+            e2="DDI-DrugBank.d438.s7.e1" ddi="false"/>
+        <pair id="DDI-DrugBank.d438.s7.p1" e1="DDI-DrugBank.d438.s7.e0"
+            e2="DDI-DrugBank.d438.s7.e2" ddi="false"/>
+        <pair id="DDI-DrugBank.d438.s7.p2" e1="DDI-DrugBank.d438.s7.e0"
+            e2="DDI-DrugBank.d438.s7.e3" ddi="false"/>
+        <pair id="DDI-DrugBank.d438.s7.p3" e1="DDI-DrugBank.d438.s7.e0"
+            e2="DDI-DrugBank.d438.s7.e4" ddi="false"/>
+        <pair id="DDI-DrugBank.d438.s7.p4" e1="DDI-DrugBank.d438.s7.e0"
+            e2="DDI-DrugBank.d438.s7.e5" ddi="false"/>
+        <pair id="DDI-DrugBank.d438.s7.p5" e1="DDI-DrugBank.d438.s7.e0"
+            e2="DDI-DrugBank.d438.s7.e6" ddi="false"/>
+        <pair id="DDI-DrugBank.d438.s7.p6" e1="DDI-DrugBank.d438.s7.e1"
+            e2="DDI-DrugBank.d438.s7.e2" ddi="false"/>
+        <pair id="DDI-DrugBank.d438.s7.p7" e1="DDI-DrugBank.d438.s7.e1"
+            e2="DDI-DrugBank.d438.s7.e3" ddi="false"/>
+        <pair id="DDI-DrugBank.d438.s7.p8" e1="DDI-DrugBank.d438.s7.e1"
+            e2="DDI-DrugBank.d438.s7.e4" ddi="false"/>
+        <pair id="DDI-DrugBank.d438.s7.p9" e1="DDI-DrugBank.d438.s7.e1"
+            e2="DDI-DrugBank.d438.s7.e5" ddi="false"/>
+        <pair id="DDI-DrugBank.d438.s7.p10" e1="DDI-DrugBank.d438.s7.e1"
+            e2="DDI-DrugBank.d438.s7.e6" ddi="false"/>
+        <pair id="DDI-DrugBank.d438.s7.p11" e1="DDI-DrugBank.d438.s7.e2"
+            e2="DDI-DrugBank.d438.s7.e3" ddi="false"/>
+        <pair id="DDI-DrugBank.d438.s7.p12" e1="DDI-DrugBank.d438.s7.e2"
+            e2="DDI-DrugBank.d438.s7.e4" ddi="false"/>
+        <pair id="DDI-DrugBank.d438.s7.p13" e1="DDI-DrugBank.d438.s7.e2"
+            e2="DDI-DrugBank.d438.s7.e5" ddi="false"/>
+        <pair id="DDI-DrugBank.d438.s7.p14" e1="DDI-DrugBank.d438.s7.e2"
+            e2="DDI-DrugBank.d438.s7.e6" ddi="false"/>
+        <pair id="DDI-DrugBank.d438.s7.p15" e1="DDI-DrugBank.d438.s7.e3"
+            e2="DDI-DrugBank.d438.s7.e4" ddi="false"/>
+        <pair id="DDI-DrugBank.d438.s7.p16" e1="DDI-DrugBank.d438.s7.e3"
+            e2="DDI-DrugBank.d438.s7.e5" ddi="false"/>
+        <pair id="DDI-DrugBank.d438.s7.p17" e1="DDI-DrugBank.d438.s7.e3"
+            e2="DDI-DrugBank.d438.s7.e6" ddi="false"/>
+        <pair id="DDI-DrugBank.d438.s7.p18" e1="DDI-DrugBank.d438.s7.e4"
+            e2="DDI-DrugBank.d438.s7.e5" ddi="false"/>
+        <pair id="DDI-DrugBank.d438.s7.p19" e1="DDI-DrugBank.d438.s7.e4"
+            e2="DDI-DrugBank.d438.s7.e6" ddi="false"/>
+        <pair id="DDI-DrugBank.d438.s7.p20" e1="DDI-DrugBank.d438.s7.e5"
+            e2="DDI-DrugBank.d438.s7.e6" ddi="false"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d438.s8" text="Carbamazepine: Steady-state trough plasma carbamazepine and carbamazepine 10, 11 epoxide concentrations were not affected by concomitant gabapentin (400 mg TID;">
+        <entity id="DDI-DrugBank.d438.s8.e0" charOffset="0-12"
+            type="drug" text="Carbamazepine"/>
+        <entity id="DDI-DrugBank.d438.s8.e1" charOffset="42-54"
+            type="drug" text="carbamazepine"/>
+        <entity id="DDI-DrugBank.d438.s8.e2" charOffset="60-87"
+            type="drug_n" text="carbamazepine 10, 11 epoxide"/>
+        <entity id="DDI-DrugBank.d438.s8.e3" charOffset="137-146"
+            type="drug" text="gabapentin"/>
+        <pair id="DDI-DrugBank.d438.s8.p0" e1="DDI-DrugBank.d438.s8.e0"
+            e2="DDI-DrugBank.d438.s8.e1" ddi="false"/>
+        <pair id="DDI-DrugBank.d438.s8.p1" e1="DDI-DrugBank.d438.s8.e0"
+            e2="DDI-DrugBank.d438.s8.e2" ddi="false"/>
+        <pair id="DDI-DrugBank.d438.s8.p2" e1="DDI-DrugBank.d438.s8.e0"
+            e2="DDI-DrugBank.d438.s8.e3" ddi="false"/>
+        <pair id="DDI-DrugBank.d438.s8.p3" e1="DDI-DrugBank.d438.s8.e1"
+            e2="DDI-DrugBank.d438.s8.e2" ddi="false"/>
+        <pair id="DDI-DrugBank.d438.s8.p4" e1="DDI-DrugBank.d438.s8.e1"
+            e2="DDI-DrugBank.d438.s8.e3" ddi="false"/>
+        <pair id="DDI-DrugBank.d438.s8.p5" e1="DDI-DrugBank.d438.s8.e2"
+            e2="DDI-DrugBank.d438.s8.e3" ddi="false"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d438.s9" text="N=12) administration."/>
+    <sentence id="DDI-DrugBank.d438.s10" text="Likewise, gabapentin pharmacokinetics were unaltered by carbamazepine administration.">
+        <entity id="DDI-DrugBank.d438.s10.e0" charOffset="10-19"
+            type="drug" text="gabapentin"/>
+        <entity id="DDI-DrugBank.d438.s10.e1" charOffset="56-68"
+            type="drug" text="carbamazepine"/>
+        <pair id="DDI-DrugBank.d438.s10.p0"
+            e1="DDI-DrugBank.d438.s10.e0" e2="DDI-DrugBank.d438.s10.e1" ddi="false"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d438.s11" text="Valproic Acid: The mean steady-state trough serum valproic acid concentrations prior to and during concomitant gabapentin administration (400 mg TID;">
+        <entity id="DDI-DrugBank.d438.s11.e0" charOffset="0-12"
+            type="drug" text="Valproic Acid"/>
+        <entity id="DDI-DrugBank.d438.s11.e1" charOffset="50-62"
+            type="drug" text="valproic acid"/>
+        <entity id="DDI-DrugBank.d438.s11.e2" charOffset="111-120"
+            type="drug" text="gabapentin"/>
+        <pair id="DDI-DrugBank.d438.s11.p0"
+            e1="DDI-DrugBank.d438.s11.e0" e2="DDI-DrugBank.d438.s11.e1" ddi="false"/>
+        <pair id="DDI-DrugBank.d438.s11.p1"
+            e1="DDI-DrugBank.d438.s11.e0" e2="DDI-DrugBank.d438.s11.e2" ddi="false"/>
+        <pair id="DDI-DrugBank.d438.s11.p2"
+            e1="DDI-DrugBank.d438.s11.e1" e2="DDI-DrugBank.d438.s11.e2" ddi="false"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d438.s12" text="N=17) were not different and neither were gabapentin pharmacokinetic parameters affected by valproic acid.">
+        <entity id="DDI-DrugBank.d438.s12.e0" charOffset="42-51"
+            type="drug" text="gabapentin"/>
+        <entity id="DDI-DrugBank.d438.s12.e1" charOffset="92-104"
+            type="drug" text="valproic acid"/>
+        <pair id="DDI-DrugBank.d438.s12.p0"
+            e1="DDI-DrugBank.d438.s12.e0" e2="DDI-DrugBank.d438.s12.e1" ddi="false"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d438.s13" text="Phenobarbital: Estimates of steady-state pharmacokinetic parameters for phenobarbital or gabapentin (300 mg TID;">
+        <entity id="DDI-DrugBank.d438.s13.e0" charOffset="0-12"
+            type="drug" text="Phenobarbital"/>
+        <entity id="DDI-DrugBank.d438.s13.e1" charOffset="72-84"
+            type="drug" text="phenobarbital"/>
+        <entity id="DDI-DrugBank.d438.s13.e2" charOffset="89-98"
+            type="drug" text="gabapentin"/>
+        <pair id="DDI-DrugBank.d438.s13.p0"
+            e1="DDI-DrugBank.d438.s13.e0" e2="DDI-DrugBank.d438.s13.e1" ddi="false"/>
+        <pair id="DDI-DrugBank.d438.s13.p1"
+            e1="DDI-DrugBank.d438.s13.e0" e2="DDI-DrugBank.d438.s13.e2" ddi="false"/>
+        <pair id="DDI-DrugBank.d438.s13.p2"
+            e1="DDI-DrugBank.d438.s13.e1" e2="DDI-DrugBank.d438.s13.e2" ddi="false"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d438.s14" text="N=12) are identical whether the drugs are administered alone or together."/>
+    <sentence id="DDI-DrugBank.d438.s15" text="Naproxen: Coadministration (N=18) of naproxen sodium capsules (250 mg) with Neurontin (125 mg) appears to increase the amount of gabapentin absorbed by 12% to 15%.">
+        <entity id="DDI-DrugBank.d438.s15.e0" charOffset="0-7"
+            type="drug" text="Naproxen"/>
+        <entity id="DDI-DrugBank.d438.s15.e1" charOffset="37-51"
+            type="drug" text="naproxen sodium"/>
+        <entity id="DDI-DrugBank.d438.s15.e2" charOffset="76-84"
+            type="brand" text="Neurontin"/>
+        <entity id="DDI-DrugBank.d438.s15.e3" charOffset="129-138"
+            type="drug" text="gabapentin"/>
+        <pair id="DDI-DrugBank.d438.s15.p0"
+            e1="DDI-DrugBank.d438.s15.e0" e2="DDI-DrugBank.d438.s15.e1" ddi="false"/>
+        <pair id="DDI-DrugBank.d438.s15.p1"
+            e1="DDI-DrugBank.d438.s15.e0" e2="DDI-DrugBank.d438.s15.e2" ddi="false"/>
+        <pair id="DDI-DrugBank.d438.s15.p2"
+            e1="DDI-DrugBank.d438.s15.e0" e2="DDI-DrugBank.d438.s15.e3" ddi="false"/>
+        <pair id="DDI-DrugBank.d438.s15.p3"
+            e1="DDI-DrugBank.d438.s15.e1" e2="DDI-DrugBank.d438.s15.e2"
+            ddi="true" type="mechanism"/>
+        <pair id="DDI-DrugBank.d438.s15.p4"
+            e1="DDI-DrugBank.d438.s15.e1" e2="DDI-DrugBank.d438.s15.e3" ddi="false"/>
+        <pair id="DDI-DrugBank.d438.s15.p5"
+            e1="DDI-DrugBank.d438.s15.e2" e2="DDI-DrugBank.d438.s15.e3" ddi="false"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d438.s16" text="Gabapentin had no effect on naproxen pharmacokinetic parameters.">
+        <entity id="DDI-DrugBank.d438.s16.e0" charOffset="0-9"
+            type="drug" text="Gabapentin"/>
+        <entity id="DDI-DrugBank.d438.s16.e1" charOffset="28-35"
+            type="drug" text="naproxen"/>
+        <pair id="DDI-DrugBank.d438.s16.p0"
+            e1="DDI-DrugBank.d438.s16.e0" e2="DDI-DrugBank.d438.s16.e1" ddi="false"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d438.s17" text="These doses are lower than the therapeutic doses for both drugs."/>
+    <sentence id="DDI-DrugBank.d438.s18" text="The magnitude of interaction within the recommended dose ranges of either drug is not known."/>
+    <sentence id="DDI-DrugBank.d438.s19" text="Hydrocodone: Coadministration of Neurontin  (125 to 500 mg;">
+        <entity id="DDI-DrugBank.d438.s19.e0" charOffset="0-10"
+            type="drug" text="Hydrocodone"/>
+        <entity id="DDI-DrugBank.d438.s19.e1" charOffset="33-41"
+            type="brand" text="Neurontin"/>
+        <pair id="DDI-DrugBank.d438.s19.p0"
+            e1="DDI-DrugBank.d438.s19.e0" e2="DDI-DrugBank.d438.s19.e1" ddi="false"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d438.s20" text="N=48) decreases hydrocodone (10 mg;">
+        <entity id="DDI-DrugBank.d438.s20.e0" charOffset="16-26"
+            type="drug" text="hydrocodone"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d438.s21" text="N=50) Cmax and AUC values in a dose-dependent manner relative to administration of hydrocodone alone;">
+        <entity id="DDI-DrugBank.d438.s21.e0" charOffset="83-93"
+            type="drug" text="hydrocodone"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d438.s22" text="Cmax and AUC values are 3% to 4% lower, respectively, after administration of 125 mg Neurontin  and 21% to 22% lower, respectively, after administration of 500 mg Neurontin .">
+        <entity id="DDI-DrugBank.d438.s22.e0" charOffset="85-93"
+            type="brand" text="Neurontin"/>
+        <entity id="DDI-DrugBank.d438.s22.e1" charOffset="163-171"
+            type="brand" text="Neurontin"/>
+        <pair id="DDI-DrugBank.d438.s22.p0"
+            e1="DDI-DrugBank.d438.s22.e0" e2="DDI-DrugBank.d438.s22.e1" ddi="false"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d438.s23" text="The mechanism for this interaction is unknown."/>
+    <sentence id="DDI-DrugBank.d438.s24" text="Hydrocodone increases gabapentin AUC values by 14%.">
+        <entity id="DDI-DrugBank.d438.s24.e0" charOffset="0-10"
+            type="drug" text="Hydrocodone"/>
+        <entity id="DDI-DrugBank.d438.s24.e1" charOffset="22-31"
+            type="drug" text="gabapentin"/>
+        <pair id="DDI-DrugBank.d438.s24.p0"
+            e1="DDI-DrugBank.d438.s24.e0" e2="DDI-DrugBank.d438.s24.e1"
+            ddi="true" type="mechanism"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d438.s25" text="The magnitude of interaction at other doses is not known."/>
+    <sentence id="DDI-DrugBank.d438.s26" text="Morphine: A literature article reported that when a 60-mg controlled-release morphine capsule was administered 2 hours prior to a 600-mg Neurontin  capsule (N=12), mean gabapentin AUC increased by 44% compared to gabapentin administered without morphine.">
+        <entity id="DDI-DrugBank.d438.s26.e0" charOffset="0-7"
+            type="drug" text="Morphine"/>
+        <entity id="DDI-DrugBank.d438.s26.e1" charOffset="77-84"
+            type="drug" text="morphine"/>
+        <entity id="DDI-DrugBank.d438.s26.e2" charOffset="137-145"
+            type="brand" text="Neurontin"/>
+        <entity id="DDI-DrugBank.d438.s26.e3" charOffset="169-178"
+            type="drug" text="gabapentin"/>
+        <entity id="DDI-DrugBank.d438.s26.e4" charOffset="213-222"
+            type="drug" text="gabapentin"/>
+        <entity id="DDI-DrugBank.d438.s26.e5" charOffset="245-252"
+            type="drug" text="morphine"/>
+        <pair id="DDI-DrugBank.d438.s26.p0"
+            e1="DDI-DrugBank.d438.s26.e0" e2="DDI-DrugBank.d438.s26.e1" ddi="false"/>
+        <pair id="DDI-DrugBank.d438.s26.p1"
+            e1="DDI-DrugBank.d438.s26.e0" e2="DDI-DrugBank.d438.s26.e2" ddi="false"/>
+        <pair id="DDI-DrugBank.d438.s26.p2"
+            e1="DDI-DrugBank.d438.s26.e0" e2="DDI-DrugBank.d438.s26.e3" ddi="false"/>
+        <pair id="DDI-DrugBank.d438.s26.p3"
+            e1="DDI-DrugBank.d438.s26.e0" e2="DDI-DrugBank.d438.s26.e4" ddi="false"/>
+        <pair id="DDI-DrugBank.d438.s26.p4"
+            e1="DDI-DrugBank.d438.s26.e0" e2="DDI-DrugBank.d438.s26.e5" ddi="false"/>
+        <pair id="DDI-DrugBank.d438.s26.p5"
+            e1="DDI-DrugBank.d438.s26.e1" e2="DDI-DrugBank.d438.s26.e2"
+            ddi="true" type="mechanism"/>
+        <pair id="DDI-DrugBank.d438.s26.p6"
+            e1="DDI-DrugBank.d438.s26.e1" e2="DDI-DrugBank.d438.s26.e3" ddi="false"/>
+        <pair id="DDI-DrugBank.d438.s26.p7"
+            e1="DDI-DrugBank.d438.s26.e1" e2="DDI-DrugBank.d438.s26.e4" ddi="false"/>
+        <pair id="DDI-DrugBank.d438.s26.p8"
+            e1="DDI-DrugBank.d438.s26.e1" e2="DDI-DrugBank.d438.s26.e5" ddi="false"/>
+        <pair id="DDI-DrugBank.d438.s26.p9"
+            e1="DDI-DrugBank.d438.s26.e2" e2="DDI-DrugBank.d438.s26.e3" ddi="false"/>
+        <pair id="DDI-DrugBank.d438.s26.p10"
+            e1="DDI-DrugBank.d438.s26.e2" e2="DDI-DrugBank.d438.s26.e4" ddi="false"/>
+        <pair id="DDI-DrugBank.d438.s26.p11"
+            e1="DDI-DrugBank.d438.s26.e2" e2="DDI-DrugBank.d438.s26.e5" ddi="false"/>
+        <pair id="DDI-DrugBank.d438.s26.p12"
+            e1="DDI-DrugBank.d438.s26.e3" e2="DDI-DrugBank.d438.s26.e4" ddi="false"/>
+        <pair id="DDI-DrugBank.d438.s26.p13"
+            e1="DDI-DrugBank.d438.s26.e3" e2="DDI-DrugBank.d438.s26.e5" ddi="false"/>
+        <pair id="DDI-DrugBank.d438.s26.p14"
+            e1="DDI-DrugBank.d438.s26.e4" e2="DDI-DrugBank.d438.s26.e5" ddi="false"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d438.s27" text="Morphine pharmacokinetic parameter values were not affected by administration of Neurontin  2 hours after morphine.">
+        <entity id="DDI-DrugBank.d438.s27.e0" charOffset="0-7"
+            type="drug" text="Morphine"/>
+        <entity id="DDI-DrugBank.d438.s27.e1" charOffset="81-89"
+            type="brand" text="Neurontin"/>
+        <entity id="DDI-DrugBank.d438.s27.e2" charOffset="106-113"
+            type="drug" text="morphine"/>
+        <pair id="DDI-DrugBank.d438.s27.p0"
+            e1="DDI-DrugBank.d438.s27.e0" e2="DDI-DrugBank.d438.s27.e1" ddi="false"/>
+        <pair id="DDI-DrugBank.d438.s27.p1"
+            e1="DDI-DrugBank.d438.s27.e0" e2="DDI-DrugBank.d438.s27.e2" ddi="false"/>
+        <pair id="DDI-DrugBank.d438.s27.p2"
+            e1="DDI-DrugBank.d438.s27.e1" e2="DDI-DrugBank.d438.s27.e2" ddi="false"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d438.s28" text="The magnitude of interaction at other doses is not known."/>
+    <sentence id="DDI-DrugBank.d438.s29" text="Cimetidine: In the presence of cimetidine at 300 mg QID (N=12) the mean apparent oral clearance of gabapentin fell by 14% and creatinine clearance fell by 10%.">
+        <entity id="DDI-DrugBank.d438.s29.e0" charOffset="0-9"
+            type="drug" text="Cimetidine"/>
+        <entity id="DDI-DrugBank.d438.s29.e1" charOffset="31-40"
+            type="drug" text="cimetidine"/>
+        <entity id="DDI-DrugBank.d438.s29.e2" charOffset="99-108"
+            type="drug" text="gabapentin"/>
+        <pair id="DDI-DrugBank.d438.s29.p0"
+            e1="DDI-DrugBank.d438.s29.e0" e2="DDI-DrugBank.d438.s29.e1" ddi="false"/>
+        <pair id="DDI-DrugBank.d438.s29.p1"
+            e1="DDI-DrugBank.d438.s29.e0" e2="DDI-DrugBank.d438.s29.e2" ddi="false"/>
+        <pair id="DDI-DrugBank.d438.s29.p2"
+            e1="DDI-DrugBank.d438.s29.e1" e2="DDI-DrugBank.d438.s29.e2"
+            ddi="true" type="mechanism"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d438.s30" text="Thus cimetidine appeared to alter the renal excretion of both gabapentin and creatinine, an endogenous marker of renal function.">
+        <entity id="DDI-DrugBank.d438.s30.e0" charOffset="5-14"
+            type="drug" text="cimetidine"/>
+        <entity id="DDI-DrugBank.d438.s30.e1" charOffset="62-71"
+            type="drug" text="gabapentin"/>
+        <pair id="DDI-DrugBank.d438.s30.p0"
+            e1="DDI-DrugBank.d438.s30.e0" e2="DDI-DrugBank.d438.s30.e1"
+            ddi="true" type="mechanism"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d438.s31" text="This small decrease in excretion of gabapentin by cimetidine is not expected to be of clinical importance.">
+        <entity id="DDI-DrugBank.d438.s31.e0" charOffset="36-45"
+            type="drug" text="gabapentin"/>
+        <entity id="DDI-DrugBank.d438.s31.e1" charOffset="50-59"
+            type="drug" text="cimetidine"/>
+        <pair id="DDI-DrugBank.d438.s31.p0"
+            e1="DDI-DrugBank.d438.s31.e0" e2="DDI-DrugBank.d438.s31.e1"
+            ddi="true" type="mechanism"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d438.s32" text="The effect of gabapentin on cimetidine was not evaluated.">
+        <entity id="DDI-DrugBank.d438.s32.e0" charOffset="14-23"
+            type="drug" text="gabapentin"/>
+        <entity id="DDI-DrugBank.d438.s32.e1" charOffset="28-37"
+            type="drug" text="cimetidine"/>
+        <pair id="DDI-DrugBank.d438.s32.p0"
+            e1="DDI-DrugBank.d438.s32.e0" e2="DDI-DrugBank.d438.s32.e1" ddi="false"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d438.s33" text="Oral Contraceptive: Based on AUC and half-life, multiple-dose pharmacokinetic profiles of norethindrone and ethinyl estradiol following administration of tablets containing 2.5 mg of norethindrone acetate and 50 mcg of ethinyl estradiol were similar with and without coadministration of gabapentin (400 mg TID;">
+        <entity id="DDI-DrugBank.d438.s33.e0" charOffset="5-17"
+            type="group" text="Contraceptive"/>
+        <entity id="DDI-DrugBank.d438.s33.e1" charOffset="90-102"
+            type="drug" text="norethindrone"/>
+        <entity id="DDI-DrugBank.d438.s33.e2" charOffset="108-124"
+            type="drug" text="ethinyl estradiol"/>
+        <entity id="DDI-DrugBank.d438.s33.e3" charOffset="183-203"
+            type="drug" text="norethindrone acetate"/>
+        <entity id="DDI-DrugBank.d438.s33.e4" charOffset="219-235"
+            type="drug" text="ethinyl estradiol"/>
+        <entity id="DDI-DrugBank.d438.s33.e5" charOffset="287-296"
+            type="drug" text="gabapentin"/>
+        <pair id="DDI-DrugBank.d438.s33.p0"
+            e1="DDI-DrugBank.d438.s33.e0" e2="DDI-DrugBank.d438.s33.e1" ddi="false"/>
+        <pair id="DDI-DrugBank.d438.s33.p1"
+            e1="DDI-DrugBank.d438.s33.e0" e2="DDI-DrugBank.d438.s33.e2" ddi="false"/>
+        <pair id="DDI-DrugBank.d438.s33.p2"
+            e1="DDI-DrugBank.d438.s33.e0" e2="DDI-DrugBank.d438.s33.e3" ddi="false"/>
+        <pair id="DDI-DrugBank.d438.s33.p3"
+            e1="DDI-DrugBank.d438.s33.e0" e2="DDI-DrugBank.d438.s33.e4" ddi="false"/>
+        <pair id="DDI-DrugBank.d438.s33.p4"
+            e1="DDI-DrugBank.d438.s33.e0" e2="DDI-DrugBank.d438.s33.e5" ddi="false"/>
+        <pair id="DDI-DrugBank.d438.s33.p5"
+            e1="DDI-DrugBank.d438.s33.e1" e2="DDI-DrugBank.d438.s33.e2" ddi="false"/>
+        <pair id="DDI-DrugBank.d438.s33.p6"
+            e1="DDI-DrugBank.d438.s33.e1" e2="DDI-DrugBank.d438.s33.e3" ddi="false"/>
+        <pair id="DDI-DrugBank.d438.s33.p7"
+            e1="DDI-DrugBank.d438.s33.e1" e2="DDI-DrugBank.d438.s33.e4" ddi="false"/>
+        <pair id="DDI-DrugBank.d438.s33.p8"
+            e1="DDI-DrugBank.d438.s33.e1" e2="DDI-DrugBank.d438.s33.e5" ddi="false"/>
+        <pair id="DDI-DrugBank.d438.s33.p9"
+            e1="DDI-DrugBank.d438.s33.e2" e2="DDI-DrugBank.d438.s33.e3" ddi="false"/>
+        <pair id="DDI-DrugBank.d438.s33.p10"
+            e1="DDI-DrugBank.d438.s33.e2" e2="DDI-DrugBank.d438.s33.e4" ddi="false"/>
+        <pair id="DDI-DrugBank.d438.s33.p11"
+            e1="DDI-DrugBank.d438.s33.e2" e2="DDI-DrugBank.d438.s33.e5" ddi="false"/>
+        <pair id="DDI-DrugBank.d438.s33.p12"
+            e1="DDI-DrugBank.d438.s33.e3" e2="DDI-DrugBank.d438.s33.e4" ddi="false"/>
+        <pair id="DDI-DrugBank.d438.s33.p13"
+            e1="DDI-DrugBank.d438.s33.e3" e2="DDI-DrugBank.d438.s33.e5" ddi="false"/>
+        <pair id="DDI-DrugBank.d438.s33.p14"
+            e1="DDI-DrugBank.d438.s33.e4" e2="DDI-DrugBank.d438.s33.e5" ddi="false"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d438.s34" text="N=13)."/>
+    <sentence id="DDI-DrugBank.d438.s35" text="The Cmax of norethindrone was 13% higher when it was coadministered with gabapentin;">
+        <entity id="DDI-DrugBank.d438.s35.e0" charOffset="12-24"
+            type="drug" text="norethindrone"/>
+        <entity id="DDI-DrugBank.d438.s35.e1" charOffset="73-82"
+            type="drug" text="gabapentin"/>
+        <pair id="DDI-DrugBank.d438.s35.p0"
+            e1="DDI-DrugBank.d438.s35.e0" e2="DDI-DrugBank.d438.s35.e1"
+            ddi="true" type="mechanism"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d438.s36" text="this interaction is not expected to be of clinical importance."/>
+    <sentence id="DDI-DrugBank.d438.s37" text="Antacid (Maalox ): Maalox reduced the bioavailability of gabapentin (N=16) by about 20%.">
+        <entity id="DDI-DrugBank.d438.s37.e0" charOffset="0-6"
+            type="group" text="Antacid"/>
+        <entity id="DDI-DrugBank.d438.s37.e1" charOffset="9-14"
+            type="brand" text="Maalox"/>
+        <entity id="DDI-DrugBank.d438.s37.e2" charOffset="19-24"
+            type="brand" text="Maalox"/>
+        <entity id="DDI-DrugBank.d438.s37.e3" charOffset="57-66"
+            type="drug" text="gabapentin"/>
+        <pair id="DDI-DrugBank.d438.s37.p0"
+            e1="DDI-DrugBank.d438.s37.e0" e2="DDI-DrugBank.d438.s37.e1" ddi="false"/>
+        <pair id="DDI-DrugBank.d438.s37.p1"
+            e1="DDI-DrugBank.d438.s37.e0" e2="DDI-DrugBank.d438.s37.e2" ddi="false"/>
+        <pair id="DDI-DrugBank.d438.s37.p2"
+            e1="DDI-DrugBank.d438.s37.e0" e2="DDI-DrugBank.d438.s37.e3" ddi="false"/>
+        <pair id="DDI-DrugBank.d438.s37.p3"
+            e1="DDI-DrugBank.d438.s37.e1" e2="DDI-DrugBank.d438.s37.e2" ddi="false"/>
+        <pair id="DDI-DrugBank.d438.s37.p4"
+            e1="DDI-DrugBank.d438.s37.e1" e2="DDI-DrugBank.d438.s37.e3" ddi="false"/>
+        <pair id="DDI-DrugBank.d438.s37.p5"
+            e1="DDI-DrugBank.d438.s37.e2" e2="DDI-DrugBank.d438.s37.e3"
+            ddi="true" type="mechanism"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d438.s38" text="This decrease in bioavailability was about 5% when gabapentin was administered 2 hours after Maalox.">
+        <entity id="DDI-DrugBank.d438.s38.e0" charOffset="51-60"
+            type="drug" text="gabapentin"/>
+        <entity id="DDI-DrugBank.d438.s38.e1" charOffset="93-98"
+            type="brand" text="Maalox"/>
+        <pair id="DDI-DrugBank.d438.s38.p0"
+            e1="DDI-DrugBank.d438.s38.e0" e2="DDI-DrugBank.d438.s38.e1"
+            ddi="true" type="mechanism"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d438.s39" text="It is recommended that gabapentin be taken at least 2 hours following Maalox administration.">
+        <entity id="DDI-DrugBank.d438.s39.e0" charOffset="23-32"
+            type="drug" text="gabapentin"/>
+        <entity id="DDI-DrugBank.d438.s39.e1" charOffset="70-75"
+            type="brand" text="Maalox"/>
+        <pair id="DDI-DrugBank.d438.s39.p0"
+            e1="DDI-DrugBank.d438.s39.e0" e2="DDI-DrugBank.d438.s39.e1"
+            ddi="true" type="advise"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d438.s40" text="Effect of Probenecid: Probenecid is a blocker of renal tubular secretion.">
+        <entity id="DDI-DrugBank.d438.s40.e0" charOffset="10-19"
+            type="drug" text="Probenecid"/>
+        <entity id="DDI-DrugBank.d438.s40.e1" charOffset="22-31"
+            type="drug" text="Probenecid"/>
+        <pair id="DDI-DrugBank.d438.s40.p0"
+            e1="DDI-DrugBank.d438.s40.e0" e2="DDI-DrugBank.d438.s40.e1" ddi="false"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d438.s41" text="Gabapentin pharmacokinetic parameters without and with probenecid were comparable.">
+        <entity id="DDI-DrugBank.d438.s41.e0" charOffset="0-9"
+            type="drug" text="Gabapentin"/>
+        <entity id="DDI-DrugBank.d438.s41.e1" charOffset="55-64"
+            type="drug" text="probenecid"/>
+        <pair id="DDI-DrugBank.d438.s41.p0"
+            e1="DDI-DrugBank.d438.s41.e0" e2="DDI-DrugBank.d438.s41.e1" ddi="false"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d438.s42" text="This indicates that gabapentin does not undergo renal tubular secretion by the pathway that is blocked by probenecid.">
+        <entity id="DDI-DrugBank.d438.s42.e0" charOffset="20-29"
+            type="drug" text="gabapentin"/>
+        <entity id="DDI-DrugBank.d438.s42.e1" charOffset="106-115"
+            type="drug" text="probenecid"/>
+        <pair id="DDI-DrugBank.d438.s42.p0"
+            e1="DDI-DrugBank.d438.s42.e0" e2="DDI-DrugBank.d438.s42.e1" ddi="false"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d438.s43" text="Drug/Laboratory Tests Interactions Because false positive readings were reported with the Ames N-Multistix SG dipstick test for urinary protein when gabapentin was added to other antiepileptic drugs, the more specific sulfosalicylic acid precipitation procedure is recommended to determine the presence of urine protein">
+        <entity id="DDI-DrugBank.d438.s43.e0" charOffset="149-158"
+            type="drug" text="gabapentin"/>
+        <entity id="DDI-DrugBank.d438.s43.e1" charOffset="179-197"
+            type="group" text="antiepileptic drugs"/>
+        <pair id="DDI-DrugBank.d438.s43.p0"
+            e1="DDI-DrugBank.d438.s43.e0" e2="DDI-DrugBank.d438.s43.e1" ddi="false"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d438.s44" text="."/>
+    <sentence id="DDI-DrugBank.d438.s45" text=""/>
+</document>

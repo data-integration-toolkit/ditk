@@ -1,0 +1,406 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="DDI-DrugBank.d324">
+    <sentence id="DDI-DrugBank.d324.s0" text="As with all drugs, the potential exists for interaction with other drugs by a variety of mechanisms."/>
+    <sentence id="DDI-DrugBank.d324.s1" text="CNS-Active Drugs Ethanol: Sonata 10 mg potentiated the CNS-impairing effects of ethanol 0.75 g/kg on balance testing and reaction time for 1 hour after ethanol administration and on the digit symbol substitution test (DSST), symbol copying test, and the variability component of the divided attention test for 2.5 hours after ethanol administration.">
+        <entity id="DDI-DrugBank.d324.s1.e0" charOffset="17-23"
+            type="drug" text="Ethanol"/>
+        <entity id="DDI-DrugBank.d324.s1.e1" charOffset="26-31"
+            type="brand" text="Sonata"/>
+        <entity id="DDI-DrugBank.d324.s1.e2" charOffset="80-86"
+            type="drug" text="ethanol"/>
+        <entity id="DDI-DrugBank.d324.s1.e3" charOffset="152-158"
+            type="drug" text="ethanol"/>
+        <entity id="DDI-DrugBank.d324.s1.e4" charOffset="326-332"
+            type="drug" text="ethanol"/>
+        <pair id="DDI-DrugBank.d324.s1.p0" e1="DDI-DrugBank.d324.s1.e0"
+            e2="DDI-DrugBank.d324.s1.e1" ddi="false"/>
+        <pair id="DDI-DrugBank.d324.s1.p1" e1="DDI-DrugBank.d324.s1.e0"
+            e2="DDI-DrugBank.d324.s1.e2" ddi="false"/>
+        <pair id="DDI-DrugBank.d324.s1.p2" e1="DDI-DrugBank.d324.s1.e0"
+            e2="DDI-DrugBank.d324.s1.e3" ddi="false"/>
+        <pair id="DDI-DrugBank.d324.s1.p3" e1="DDI-DrugBank.d324.s1.e0"
+            e2="DDI-DrugBank.d324.s1.e4" ddi="false"/>
+        <pair id="DDI-DrugBank.d324.s1.p4" e1="DDI-DrugBank.d324.s1.e1"
+            e2="DDI-DrugBank.d324.s1.e2" ddi="true" type="effect"/>
+        <pair id="DDI-DrugBank.d324.s1.p5" e1="DDI-DrugBank.d324.s1.e1"
+            e2="DDI-DrugBank.d324.s1.e3" ddi="false"/>
+        <pair id="DDI-DrugBank.d324.s1.p6" e1="DDI-DrugBank.d324.s1.e1"
+            e2="DDI-DrugBank.d324.s1.e4" ddi="false"/>
+        <pair id="DDI-DrugBank.d324.s1.p7" e1="DDI-DrugBank.d324.s1.e2"
+            e2="DDI-DrugBank.d324.s1.e3" ddi="false"/>
+        <pair id="DDI-DrugBank.d324.s1.p8" e1="DDI-DrugBank.d324.s1.e2"
+            e2="DDI-DrugBank.d324.s1.e4" ddi="false"/>
+        <pair id="DDI-DrugBank.d324.s1.p9" e1="DDI-DrugBank.d324.s1.e3"
+            e2="DDI-DrugBank.d324.s1.e4" ddi="false"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d324.s2" text="The potentiation resulted from a CNS pharmacodynamic interaction;"/>
+    <sentence id="DDI-DrugBank.d324.s3" text="zaleplon did not affect the pharmacokinetics of ethanol.">
+        <entity id="DDI-DrugBank.d324.s3.e0" charOffset="0-7"
+            type="drug" text="zaleplon"/>
+        <entity id="DDI-DrugBank.d324.s3.e1" charOffset="48-54"
+            type="drug" text="ethanol"/>
+        <pair id="DDI-DrugBank.d324.s3.p0" e1="DDI-DrugBank.d324.s3.e0"
+            e2="DDI-DrugBank.d324.s3.e1" ddi="false"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d324.s4" text="Imipramine: Coadministration of single doses of Sonata 20 mg and imipramine 75 mg produced additive effects on decreased alertness and impaired psychomotor performance for 2 to 4 hours after administration.">
+        <entity id="DDI-DrugBank.d324.s4.e0" charOffset="0-9"
+            type="drug" text="Imipramine"/>
+        <entity id="DDI-DrugBank.d324.s4.e1" charOffset="48-53"
+            type="brand" text="Sonata"/>
+        <entity id="DDI-DrugBank.d324.s4.e2" charOffset="65-74"
+            type="drug" text="imipramine"/>
+        <pair id="DDI-DrugBank.d324.s4.p0" e1="DDI-DrugBank.d324.s4.e0"
+            e2="DDI-DrugBank.d324.s4.e1" ddi="false"/>
+        <pair id="DDI-DrugBank.d324.s4.p1" e1="DDI-DrugBank.d324.s4.e0"
+            e2="DDI-DrugBank.d324.s4.e2" ddi="false"/>
+        <pair id="DDI-DrugBank.d324.s4.p2" e1="DDI-DrugBank.d324.s4.e1"
+            e2="DDI-DrugBank.d324.s4.e2" ddi="true" type="effect"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d324.s5" text="The interaction was pharmacodynamic with no alteration of the pharmacokinetics of either drug."/>
+    <sentence id="DDI-DrugBank.d324.s6" text="Paroxetine: Coadministration of a single dose of Sonata 20 mg and paroxetine 20 mg daily for 7 days did not produce any interaction on psychomotor performance.">
+        <entity id="DDI-DrugBank.d324.s6.e0" charOffset="0-9"
+            type="drug" text="Paroxetine"/>
+        <entity id="DDI-DrugBank.d324.s6.e1" charOffset="49-54"
+            type="brand" text="Sonata"/>
+        <entity id="DDI-DrugBank.d324.s6.e2" charOffset="66-75"
+            type="drug" text="paroxetine"/>
+        <pair id="DDI-DrugBank.d324.s6.p0" e1="DDI-DrugBank.d324.s6.e0"
+            e2="DDI-DrugBank.d324.s6.e1" ddi="false"/>
+        <pair id="DDI-DrugBank.d324.s6.p1" e1="DDI-DrugBank.d324.s6.e0"
+            e2="DDI-DrugBank.d324.s6.e2" ddi="false"/>
+        <pair id="DDI-DrugBank.d324.s6.p2" e1="DDI-DrugBank.d324.s6.e1"
+            e2="DDI-DrugBank.d324.s6.e2" ddi="false"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d324.s7" text="Additionally, paroxetine did not alter the pharmacokinetics of Sonata, reflecting the absence of a role of CYP2D6 in zaleplon s metabolism.">
+        <entity id="DDI-DrugBank.d324.s7.e0" charOffset="14-23"
+            type="drug" text="paroxetine"/>
+        <entity id="DDI-DrugBank.d324.s7.e1" charOffset="63-68"
+            type="brand" text="Sonata"/>
+        <entity id="DDI-DrugBank.d324.s7.e2" charOffset="117-124"
+            type="drug" text="zaleplon"/>
+        <pair id="DDI-DrugBank.d324.s7.p0" e1="DDI-DrugBank.d324.s7.e0"
+            e2="DDI-DrugBank.d324.s7.e1" ddi="false"/>
+        <pair id="DDI-DrugBank.d324.s7.p1" e1="DDI-DrugBank.d324.s7.e0"
+            e2="DDI-DrugBank.d324.s7.e2" ddi="false"/>
+        <pair id="DDI-DrugBank.d324.s7.p2" e1="DDI-DrugBank.d324.s7.e1"
+            e2="DDI-DrugBank.d324.s7.e2" ddi="false"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d324.s8" text="Thioridazine: Coadministration of single doses of Sonata 20 mg and thioridazine 50 mg produced additive effects on decreased alertness and impaired psychomotor performance for 2 to 4 hours after administration.">
+        <entity id="DDI-DrugBank.d324.s8.e0" charOffset="0-11"
+            type="drug" text="Thioridazine"/>
+        <entity id="DDI-DrugBank.d324.s8.e1" charOffset="50-55"
+            type="brand" text="Sonata"/>
+        <entity id="DDI-DrugBank.d324.s8.e2" charOffset="67-78"
+            type="drug" text="thioridazine"/>
+        <pair id="DDI-DrugBank.d324.s8.p0" e1="DDI-DrugBank.d324.s8.e0"
+            e2="DDI-DrugBank.d324.s8.e1" ddi="false"/>
+        <pair id="DDI-DrugBank.d324.s8.p1" e1="DDI-DrugBank.d324.s8.e0"
+            e2="DDI-DrugBank.d324.s8.e2" ddi="false"/>
+        <pair id="DDI-DrugBank.d324.s8.p2" e1="DDI-DrugBank.d324.s8.e1"
+            e2="DDI-DrugBank.d324.s8.e2" ddi="true" type="effect"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d324.s9" text="The interaction was pharmacodynamic with no alteration of the pharmacokinetics of either drug."/>
+    <sentence id="DDI-DrugBank.d324.s10" text="Venlafaxine: Coadministration of a single dose of zaleplon 10 mg and multiple doses of venlafaxine ER (extended release) 150 mg did not result in any significant changes in the pharmacokinetics of either zaleplon or venlafaxine.">
+        <entity id="DDI-DrugBank.d324.s10.e0" charOffset="0-10"
+            type="drug" text="Venlafaxine"/>
+        <entity id="DDI-DrugBank.d324.s10.e1" charOffset="50-57"
+            type="drug" text="zaleplon"/>
+        <entity id="DDI-DrugBank.d324.s10.e2" charOffset="87-97"
+            type="drug" text="venlafaxine"/>
+        <entity id="DDI-DrugBank.d324.s10.e3" charOffset="204-211"
+            type="drug" text="zaleplon"/>
+        <entity id="DDI-DrugBank.d324.s10.e4" charOffset="216-226"
+            type="drug" text="venlafaxine"/>
+        <pair id="DDI-DrugBank.d324.s10.p0"
+            e1="DDI-DrugBank.d324.s10.e0" e2="DDI-DrugBank.d324.s10.e1" ddi="false"/>
+        <pair id="DDI-DrugBank.d324.s10.p1"
+            e1="DDI-DrugBank.d324.s10.e0" e2="DDI-DrugBank.d324.s10.e2" ddi="false"/>
+        <pair id="DDI-DrugBank.d324.s10.p2"
+            e1="DDI-DrugBank.d324.s10.e0" e2="DDI-DrugBank.d324.s10.e3" ddi="false"/>
+        <pair id="DDI-DrugBank.d324.s10.p3"
+            e1="DDI-DrugBank.d324.s10.e0" e2="DDI-DrugBank.d324.s10.e4" ddi="false"/>
+        <pair id="DDI-DrugBank.d324.s10.p4"
+            e1="DDI-DrugBank.d324.s10.e1" e2="DDI-DrugBank.d324.s10.e2" ddi="false"/>
+        <pair id="DDI-DrugBank.d324.s10.p5"
+            e1="DDI-DrugBank.d324.s10.e1" e2="DDI-DrugBank.d324.s10.e3" ddi="false"/>
+        <pair id="DDI-DrugBank.d324.s10.p6"
+            e1="DDI-DrugBank.d324.s10.e1" e2="DDI-DrugBank.d324.s10.e4" ddi="false"/>
+        <pair id="DDI-DrugBank.d324.s10.p7"
+            e1="DDI-DrugBank.d324.s10.e2" e2="DDI-DrugBank.d324.s10.e3" ddi="false"/>
+        <pair id="DDI-DrugBank.d324.s10.p8"
+            e1="DDI-DrugBank.d324.s10.e2" e2="DDI-DrugBank.d324.s10.e4" ddi="false"/>
+        <pair id="DDI-DrugBank.d324.s10.p9"
+            e1="DDI-DrugBank.d324.s10.e3" e2="DDI-DrugBank.d324.s10.e4" ddi="false"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d324.s11" text="In addition, there was no pharmacodynamic interaction as a result of coadministration of zaleplon and venlafaxine ER.">
+        <entity id="DDI-DrugBank.d324.s11.e0" charOffset="89-96"
+            type="drug" text="zaleplon"/>
+        <entity id="DDI-DrugBank.d324.s11.e1" charOffset="102-112"
+            type="drug" text="venlafaxine"/>
+        <pair id="DDI-DrugBank.d324.s11.p0"
+            e1="DDI-DrugBank.d324.s11.e0" e2="DDI-DrugBank.d324.s11.e1" ddi="false"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d324.s12" text="Promethazine: Coadministration of a single dose of zaleplon and promethazine (10 and 25 mg, respectively) resulted in a 15% decrease in maximal plasma concentrations of zaleplon, but no change in the area under the plasma concentration-time curve.">
+        <entity id="DDI-DrugBank.d324.s12.e0" charOffset="0-11"
+            type="drug" text="Promethazine"/>
+        <entity id="DDI-DrugBank.d324.s12.e1" charOffset="51-58"
+            type="drug" text="zaleplon"/>
+        <entity id="DDI-DrugBank.d324.s12.e2" charOffset="64-75"
+            type="drug" text="promethazine"/>
+        <entity id="DDI-DrugBank.d324.s12.e3" charOffset="169-176"
+            type="drug" text="zaleplon"/>
+        <pair id="DDI-DrugBank.d324.s12.p0"
+            e1="DDI-DrugBank.d324.s12.e0" e2="DDI-DrugBank.d324.s12.e1" ddi="false"/>
+        <pair id="DDI-DrugBank.d324.s12.p1"
+            e1="DDI-DrugBank.d324.s12.e0" e2="DDI-DrugBank.d324.s12.e2" ddi="false"/>
+        <pair id="DDI-DrugBank.d324.s12.p2"
+            e1="DDI-DrugBank.d324.s12.e0" e2="DDI-DrugBank.d324.s12.e3" ddi="false"/>
+        <pair id="DDI-DrugBank.d324.s12.p3"
+            e1="DDI-DrugBank.d324.s12.e1" e2="DDI-DrugBank.d324.s12.e2"
+            ddi="true" type="mechanism"/>
+        <pair id="DDI-DrugBank.d324.s12.p4"
+            e1="DDI-DrugBank.d324.s12.e1" e2="DDI-DrugBank.d324.s12.e3" ddi="false"/>
+        <pair id="DDI-DrugBank.d324.s12.p5"
+            e1="DDI-DrugBank.d324.s12.e2" e2="DDI-DrugBank.d324.s12.e3" ddi="false"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d324.s13" text="However, the pharmacodynamics of coadministration of zaleplon and promethazine have not been evaluated.">
+        <entity id="DDI-DrugBank.d324.s13.e0" charOffset="53-60"
+            type="drug" text="zaleplon"/>
+        <entity id="DDI-DrugBank.d324.s13.e1" charOffset="66-77"
+            type="drug" text="promethazine"/>
+        <pair id="DDI-DrugBank.d324.s13.p0"
+            e1="DDI-DrugBank.d324.s13.e0" e2="DDI-DrugBank.d324.s13.e1" ddi="false"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d324.s14" text="Caution should be exercised when these 2 agents are coadministered."/>
+    <sentence id="DDI-DrugBank.d324.s15" text="Drugs That Induce CYP3A4 Rifampin: CYP3A4 is ordinarily a minor metabolizing enzyme of zaleplon.">
+        <entity id="DDI-DrugBank.d324.s15.e0" charOffset="25-32"
+            type="drug" text="Rifampin"/>
+        <entity id="DDI-DrugBank.d324.s15.e1" charOffset="87-94"
+            type="drug" text="zaleplon"/>
+        <pair id="DDI-DrugBank.d324.s15.p0"
+            e1="DDI-DrugBank.d324.s15.e0" e2="DDI-DrugBank.d324.s15.e1" ddi="false"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d324.s16" text="Multiple-dose administration of the potent CYP3A4 inducer rifampin (600 mg every 24 hours, q24h, for 14 days), however, reduced zaleplon Cmax and AUC by approximately 80%.">
+        <entity id="DDI-DrugBank.d324.s16.e0" charOffset="58-65"
+            type="drug" text="rifampin"/>
+        <entity id="DDI-DrugBank.d324.s16.e1" charOffset="128-135"
+            type="drug" text="zaleplon"/>
+        <pair id="DDI-DrugBank.d324.s16.p0"
+            e1="DDI-DrugBank.d324.s16.e0" e2="DDI-DrugBank.d324.s16.e1"
+            ddi="true" type="mechanism"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d324.s17" text="The coadministration of a potent CYP3A4 enzyme inducer, although not posing a safety concern, thus could lead to ineffectiveness of zaleplon.">
+        <entity id="DDI-DrugBank.d324.s17.e0" charOffset="132-139"
+            type="drug" text="zaleplon"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d324.s18" text="An alternative non-CYP3A4 substrate hypnotic agent may be considered in patients taking CYP3A4 inducers such as rifampin, phenytoin, carbamazepine, and phenobarbital.">
+        <entity id="DDI-DrugBank.d324.s18.e0" charOffset="36-49"
+            type="group" text="hypnotic agent"/>
+        <entity id="DDI-DrugBank.d324.s18.e1" charOffset="112-119"
+            type="drug" text="rifampin"/>
+        <entity id="DDI-DrugBank.d324.s18.e2" charOffset="122-130"
+            type="drug" text="phenytoin"/>
+        <entity id="DDI-DrugBank.d324.s18.e3" charOffset="133-145"
+            type="drug" text="carbamazepine"/>
+        <entity id="DDI-DrugBank.d324.s18.e4" charOffset="152-164"
+            type="drug" text="phenobarbital"/>
+        <pair id="DDI-DrugBank.d324.s18.p0"
+            e1="DDI-DrugBank.d324.s18.e0" e2="DDI-DrugBank.d324.s18.e1" ddi="false"/>
+        <pair id="DDI-DrugBank.d324.s18.p1"
+            e1="DDI-DrugBank.d324.s18.e0" e2="DDI-DrugBank.d324.s18.e2" ddi="false"/>
+        <pair id="DDI-DrugBank.d324.s18.p2"
+            e1="DDI-DrugBank.d324.s18.e0" e2="DDI-DrugBank.d324.s18.e3" ddi="false"/>
+        <pair id="DDI-DrugBank.d324.s18.p3"
+            e1="DDI-DrugBank.d324.s18.e0" e2="DDI-DrugBank.d324.s18.e4" ddi="false"/>
+        <pair id="DDI-DrugBank.d324.s18.p4"
+            e1="DDI-DrugBank.d324.s18.e1" e2="DDI-DrugBank.d324.s18.e2" ddi="false"/>
+        <pair id="DDI-DrugBank.d324.s18.p5"
+            e1="DDI-DrugBank.d324.s18.e1" e2="DDI-DrugBank.d324.s18.e3" ddi="false"/>
+        <pair id="DDI-DrugBank.d324.s18.p6"
+            e1="DDI-DrugBank.d324.s18.e1" e2="DDI-DrugBank.d324.s18.e4" ddi="false"/>
+        <pair id="DDI-DrugBank.d324.s18.p7"
+            e1="DDI-DrugBank.d324.s18.e2" e2="DDI-DrugBank.d324.s18.e3" ddi="false"/>
+        <pair id="DDI-DrugBank.d324.s18.p8"
+            e1="DDI-DrugBank.d324.s18.e2" e2="DDI-DrugBank.d324.s18.e4" ddi="false"/>
+        <pair id="DDI-DrugBank.d324.s18.p9"
+            e1="DDI-DrugBank.d324.s18.e3" e2="DDI-DrugBank.d324.s18.e4" ddi="false"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d324.s19" text="Drugs That Inhibit CYP3A4 CYP3A4 is a minor metabolic pathway for the elimination of zaleplon because the sum of desethylzaleplon (formed via CYP3A4 in vitro) and its metabolites, 5-oxo-desethylzaleplon and 5-oxo-desethylzaleplon glucuronide, account for only 9% of the urinary recovery of a zaleplon dose.">
+        <entity id="DDI-DrugBank.d324.s19.e0" charOffset="85-92"
+            type="drug" text="zaleplon"/>
+        <entity id="DDI-DrugBank.d324.s19.e1" charOffset="180-201"
+            type="drug_n" text="5-oxo-desethylzaleplon"/>
+        <entity id="DDI-DrugBank.d324.s19.e2" charOffset="207-240"
+            type="drug_n" text="5-oxo-desethylzaleplon glucuronide"/>
+        <entity id="DDI-DrugBank.d324.s19.e3" charOffset="292-299"
+            type="drug" text="zaleplon"/>
+        <pair id="DDI-DrugBank.d324.s19.p0"
+            e1="DDI-DrugBank.d324.s19.e0" e2="DDI-DrugBank.d324.s19.e1" ddi="false"/>
+        <pair id="DDI-DrugBank.d324.s19.p1"
+            e1="DDI-DrugBank.d324.s19.e0" e2="DDI-DrugBank.d324.s19.e2" ddi="false"/>
+        <pair id="DDI-DrugBank.d324.s19.p2"
+            e1="DDI-DrugBank.d324.s19.e0" e2="DDI-DrugBank.d324.s19.e3" ddi="false"/>
+        <pair id="DDI-DrugBank.d324.s19.p3"
+            e1="DDI-DrugBank.d324.s19.e1" e2="DDI-DrugBank.d324.s19.e2" ddi="false"/>
+        <pair id="DDI-DrugBank.d324.s19.p4"
+            e1="DDI-DrugBank.d324.s19.e1" e2="DDI-DrugBank.d324.s19.e3" ddi="false"/>
+        <pair id="DDI-DrugBank.d324.s19.p5"
+            e1="DDI-DrugBank.d324.s19.e2" e2="DDI-DrugBank.d324.s19.e3" ddi="false"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d324.s20" text="Coadministration of single, oral doses of zaleplon with erythromycin (10 mg and 800 mg, respectively), a strong, selective CYP3A4 inhibitor produced a 34% increase in zaleplons maximal plasma concentrations and a 20% increase in the area under the plasma concentration-time curve.">
+        <entity id="DDI-DrugBank.d324.s20.e0" charOffset="42-49"
+            type="drug" text="zaleplon"/>
+        <entity id="DDI-DrugBank.d324.s20.e1" charOffset="56-67"
+            type="drug" text="erythromycin"/>
+        <entity id="DDI-DrugBank.d324.s20.e2" charOffset="167-174"
+            type="drug" text="zaleplon"/>
+        <pair id="DDI-DrugBank.d324.s20.p0"
+            e1="DDI-DrugBank.d324.s20.e0" e2="DDI-DrugBank.d324.s20.e1"
+            ddi="true" type="mechanism"/>
+        <pair id="DDI-DrugBank.d324.s20.p1"
+            e1="DDI-DrugBank.d324.s20.e0" e2="DDI-DrugBank.d324.s20.e2" ddi="false"/>
+        <pair id="DDI-DrugBank.d324.s20.p2"
+            e1="DDI-DrugBank.d324.s20.e1" e2="DDI-DrugBank.d324.s20.e2" ddi="false"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d324.s21" text="The magnitude of interaction with multiple doses of erythromycin is unknown.">
+        <entity id="DDI-DrugBank.d324.s21.e0" charOffset="52-63"
+            type="drug" text="erythromycin"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d324.s22" text="Other strong selective CYP3A4 inhibitors such as ketoconazole can also be expected to increase the exposure of zaleplon.">
+        <entity id="DDI-DrugBank.d324.s22.e0" charOffset="49-60"
+            type="drug" text="ketoconazole"/>
+        <entity id="DDI-DrugBank.d324.s22.e1" charOffset="111-118"
+            type="drug" text="zaleplon"/>
+        <pair id="DDI-DrugBank.d324.s22.p0"
+            e1="DDI-DrugBank.d324.s22.e0" e2="DDI-DrugBank.d324.s22.e1"
+            ddi="true" type="mechanism"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d324.s23" text="A routine dosage adjustment of zaleplon is not considered necessary.">
+        <entity id="DDI-DrugBank.d324.s23.e0" charOffset="31-38"
+            type="drug" text="zaleplon"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d324.s24" text="Drugs That Inhibit Aldehyde Oxidase The aldehyde oxidase enzyme system is less well studied than the cytochrome P450 enzyme system."/>
+    <sentence id="DDI-DrugBank.d324.s25" text="Diphenhydramine: Diphenhydramine is reported to be a weak inhibitor of aldehyde oxidase in rat liver, but its inhibitory effects in human liver are not known.">
+        <entity id="DDI-DrugBank.d324.s25.e0" charOffset="0-14"
+            type="drug" text="Diphenhydramine"/>
+        <entity id="DDI-DrugBank.d324.s25.e1" charOffset="17-31"
+            type="drug" text="Diphenhydramine"/>
+        <pair id="DDI-DrugBank.d324.s25.p0"
+            e1="DDI-DrugBank.d324.s25.e0" e2="DDI-DrugBank.d324.s25.e1" ddi="false"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d324.s26" text="There is no pharmacokinetic interaction between zaleplon and diphenhydramine following the administration of a single dose (10 mg and 50 mg, respectively) of each drug.">
+        <entity id="DDI-DrugBank.d324.s26.e0" charOffset="48-55"
+            type="drug" text="zaleplon"/>
+        <entity id="DDI-DrugBank.d324.s26.e1" charOffset="61-75"
+            type="drug" text="diphenhydramine"/>
+        <pair id="DDI-DrugBank.d324.s26.p0"
+            e1="DDI-DrugBank.d324.s26.e0" e2="DDI-DrugBank.d324.s26.e1" ddi="false"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d324.s27" text="However, because both of these compounds have CNS effects, an additive pharmacodynamic effect is possible."/>
+    <sentence id="DDI-DrugBank.d324.s28" text="Drugs That Inhibit Both Aldehyde Oxidase and CYP3A4 Cimetidine: Cimetidine inhibits both aldehyde oxidase (in vitro) and CYP3A4 (in vitro and in vivo), the primary and secondary enzymes, respectively, responsible for zaleplon metabolism.">
+        <entity id="DDI-DrugBank.d324.s28.e0" charOffset="52-61"
+            type="drug" text="Cimetidine"/>
+        <entity id="DDI-DrugBank.d324.s28.e1" charOffset="64-73"
+            type="drug" text="Cimetidine"/>
+        <entity id="DDI-DrugBank.d324.s28.e2" charOffset="217-224"
+            type="drug" text="zaleplon"/>
+        <pair id="DDI-DrugBank.d324.s28.p0"
+            e1="DDI-DrugBank.d324.s28.e0" e2="DDI-DrugBank.d324.s28.e1" ddi="false"/>
+        <pair id="DDI-DrugBank.d324.s28.p1"
+            e1="DDI-DrugBank.d324.s28.e0" e2="DDI-DrugBank.d324.s28.e2" ddi="false"/>
+        <pair id="DDI-DrugBank.d324.s28.p2"
+            e1="DDI-DrugBank.d324.s28.e1" e2="DDI-DrugBank.d324.s28.e2"
+            ddi="true" type="mechanism"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d324.s29" text="Concomitant administration of Sonata (10 mg) and cimetidine (800 mg) produced an 85% increase in the mean Cmax and AUC of zaleplon.">
+        <entity id="DDI-DrugBank.d324.s29.e0" charOffset="30-35"
+            type="brand" text="Sonata"/>
+        <entity id="DDI-DrugBank.d324.s29.e1" charOffset="49-58"
+            type="drug" text="cimetidine"/>
+        <entity id="DDI-DrugBank.d324.s29.e2" charOffset="122-129"
+            type="drug" text="zaleplon"/>
+        <pair id="DDI-DrugBank.d324.s29.p0"
+            e1="DDI-DrugBank.d324.s29.e0" e2="DDI-DrugBank.d324.s29.e1"
+            ddi="true" type="mechanism"/>
+        <pair id="DDI-DrugBank.d324.s29.p1"
+            e1="DDI-DrugBank.d324.s29.e0" e2="DDI-DrugBank.d324.s29.e2" ddi="false"/>
+        <pair id="DDI-DrugBank.d324.s29.p2"
+            e1="DDI-DrugBank.d324.s29.e1" e2="DDI-DrugBank.d324.s29.e2" ddi="false"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d324.s30" text="An initial dose of 5 mg should be given to patients who are concomitantly being treated with cimetidine.">
+        <entity id="DDI-DrugBank.d324.s30.e0" charOffset="93-102"
+            type="drug" text="cimetidine"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d324.s31" text="Drugs Highly Bound to Plasma Protein Zaleplon is not highly bound to plasma proteins (fraction bound 60% 15%);">
+        <entity id="DDI-DrugBank.d324.s31.e0" charOffset="37-44"
+            type="drug" text="Zaleplon"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d324.s32" text="therefore, the disposition of zaleplon is not expected to be sensitive to alterations in protein binding.">
+        <entity id="DDI-DrugBank.d324.s32.e0" charOffset="30-37"
+            type="drug" text="zaleplon"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d324.s33" text="In addition, administration of Sonata to a patient taking another drug that is highly protein bound should not cause transient increase in free concentrations of the other drug.">
+        <entity id="DDI-DrugBank.d324.s33.e0" charOffset="31-36"
+            type="brand" text="Sonata"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d324.s34" text="Drugs with a Narrow Therapeutic Index Digoxin: Sonata (10 mg) did not affect the pharmacokinetic or pharmacodynamic profile of digoxin (0.375 mg q24h for 8 days).">
+        <entity id="DDI-DrugBank.d324.s34.e0" charOffset="38-44"
+            type="drug" text="Digoxin"/>
+        <entity id="DDI-DrugBank.d324.s34.e1" charOffset="47-52"
+            type="brand" text="Sonata"/>
+        <entity id="DDI-DrugBank.d324.s34.e2" charOffset="127-133"
+            type="drug" text="digoxin"/>
+        <pair id="DDI-DrugBank.d324.s34.p0"
+            e1="DDI-DrugBank.d324.s34.e0" e2="DDI-DrugBank.d324.s34.e1" ddi="false"/>
+        <pair id="DDI-DrugBank.d324.s34.p1"
+            e1="DDI-DrugBank.d324.s34.e0" e2="DDI-DrugBank.d324.s34.e2" ddi="false"/>
+        <pair id="DDI-DrugBank.d324.s34.p2"
+            e1="DDI-DrugBank.d324.s34.e1" e2="DDI-DrugBank.d324.s34.e2" ddi="false"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d324.s35" text="Warfarin: Multiple oral doses of Sonata (20 mg q24h for 13 days) did not affect the pharmacokinetics of warfarin (R+)- or (S-)-enantiomers or the pharmacodynamics (prothrombin time) following a single 25-mg oral dose of warfarin.">
+        <entity id="DDI-DrugBank.d324.s35.e0" charOffset="0-7"
+            type="drug" text="Warfarin"/>
+        <entity id="DDI-DrugBank.d324.s35.e1" charOffset="33-38"
+            type="brand" text="Sonata"/>
+        <entity id="DDI-DrugBank.d324.s35.e2" charOffset="104-111"
+            type="drug" text="warfarin"/>
+        <entity id="DDI-DrugBank.d324.s35.e3" charOffset="220-227"
+            type="drug" text="warfarin"/>
+        <pair id="DDI-DrugBank.d324.s35.p0"
+            e1="DDI-DrugBank.d324.s35.e0" e2="DDI-DrugBank.d324.s35.e1" ddi="false"/>
+        <pair id="DDI-DrugBank.d324.s35.p1"
+            e1="DDI-DrugBank.d324.s35.e0" e2="DDI-DrugBank.d324.s35.e2" ddi="false"/>
+        <pair id="DDI-DrugBank.d324.s35.p2"
+            e1="DDI-DrugBank.d324.s35.e0" e2="DDI-DrugBank.d324.s35.e3" ddi="false"/>
+        <pair id="DDI-DrugBank.d324.s35.p3"
+            e1="DDI-DrugBank.d324.s35.e1" e2="DDI-DrugBank.d324.s35.e2" ddi="false"/>
+        <pair id="DDI-DrugBank.d324.s35.p4"
+            e1="DDI-DrugBank.d324.s35.e1" e2="DDI-DrugBank.d324.s35.e3" ddi="false"/>
+        <pair id="DDI-DrugBank.d324.s35.p5"
+            e1="DDI-DrugBank.d324.s35.e2" e2="DDI-DrugBank.d324.s35.e3" ddi="false"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d324.s36" text="Drugs That Alter Renal Excretion Ibuprofen: Ibuprofen is known to affect renal function and, consequently, alter the renal excretion of other drugs.">
+        <entity id="DDI-DrugBank.d324.s36.e0" charOffset="33-41"
+            type="drug" text="Ibuprofen"/>
+        <entity id="DDI-DrugBank.d324.s36.e1" charOffset="44-52"
+            type="drug" text="Ibuprofen"/>
+        <pair id="DDI-DrugBank.d324.s36.p0"
+            e1="DDI-DrugBank.d324.s36.e0" e2="DDI-DrugBank.d324.s36.e1" ddi="false"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d324.s37" text="There was no apparent pharmacokinetic interaction between zaleplon and ibuprofen following single dose administration (10 mg and 600 mg, respectively) of each drug.">
+        <entity id="DDI-DrugBank.d324.s37.e0" charOffset="58-65"
+            type="drug" text="zaleplon"/>
+        <entity id="DDI-DrugBank.d324.s37.e1" charOffset="71-79"
+            type="drug" text="ibuprofen"/>
+        <pair id="DDI-DrugBank.d324.s37.p0"
+            e1="DDI-DrugBank.d324.s37.e0" e2="DDI-DrugBank.d324.s37.e1" ddi="false"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d324.s38" text="This was expected because zaleplon is primarily metabolized and renal excretion of unchanged zaleplon accounts for less than 1% of the administered dose.">
+        <entity id="DDI-DrugBank.d324.s38.e0" charOffset="26-33"
+            type="drug" text="zaleplon"/>
+        <entity id="DDI-DrugBank.d324.s38.e1" charOffset="93-100"
+            type="drug" text="zaleplon"/>
+        <pair id="DDI-DrugBank.d324.s38.p0"
+            e1="DDI-DrugBank.d324.s38.e0" e2="DDI-DrugBank.d324.s38.e1" ddi="false"/>
+    </sentence>
+</document>

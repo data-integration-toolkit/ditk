@@ -1,0 +1,298 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="DDI-DrugBank.d345">
+    <sentence id="DDI-DrugBank.d345.s0" text="Since colestipol hydrochloride is an anion exchange resin, it may have a strong affinity for anions other than the bile acids.">
+        <entity id="DDI-DrugBank.d345.s0.e0" charOffset="6-29"
+            type="drug" text="colestipol hydrochloride"/>
+        <entity id="DDI-DrugBank.d345.s0.e1" charOffset="37-56"
+            type="group" text="anion exchange resin"/>
+        <pair id="DDI-DrugBank.d345.s0.p0" e1="DDI-DrugBank.d345.s0.e0"
+            e2="DDI-DrugBank.d345.s0.e1" ddi="false"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d345.s1" text="In vitro studies have indicated that colestipol hydrochloride binds a number of drugs.">
+        <entity id="DDI-DrugBank.d345.s1.e0" charOffset="37-60"
+            type="drug" text="colestipol hydrochloride"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d345.s2" text="Therefore, COLESTlD Tablets may delay or reduce the absorption of concomitant oral medication.">
+        <entity id="DDI-DrugBank.d345.s2.e0" charOffset="11-18"
+            type="brand" text="COLESTlD"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d345.s3" text="The interval between the administration of COLESTID Tablets and any other medication should be as long as possible.">
+        <entity id="DDI-DrugBank.d345.s3.e0" charOffset="43-50"
+            type="brand" text="COLESTID"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d345.s4" text="Patients should take other drugs at least one hour before or four hours after COLESTID Tablets to avoid impeding their absorption.">
+        <entity id="DDI-DrugBank.d345.s4.e0" charOffset="78-85"
+            type="brand" text="COLESTID"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d345.s5" text="Repeated doses of colestipol hydrochloride given prior to a single dose of propranolol in human trials have been reported to decrease propranolol absorption.">
+        <entity id="DDI-DrugBank.d345.s5.e0" charOffset="18-41"
+            type="drug" text="colestipol hydrochloride"/>
+        <entity id="DDI-DrugBank.d345.s5.e1" charOffset="75-85"
+            type="drug" text="propranolol"/>
+        <entity id="DDI-DrugBank.d345.s5.e2" charOffset="134-144"
+            type="drug" text="propranolol"/>
+        <pair id="DDI-DrugBank.d345.s5.p0" e1="DDI-DrugBank.d345.s5.e0"
+            e2="DDI-DrugBank.d345.s5.e1" ddi="true" type="mechanism"/>
+        <pair id="DDI-DrugBank.d345.s5.p1" e1="DDI-DrugBank.d345.s5.e0"
+            e2="DDI-DrugBank.d345.s5.e2" ddi="false"/>
+        <pair id="DDI-DrugBank.d345.s5.p2" e1="DDI-DrugBank.d345.s5.e1"
+            e2="DDI-DrugBank.d345.s5.e2" ddi="false"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d345.s6" text="However, in a follow-up study in normal subjects, single-dose administration of colestipol hydrochloride and propranolol and twice-a-day administration for 5 days of both agents did not affect the extent of propranolol absorption, but had a small yet statistically significant effect on its rate of absorption;">
+        <entity id="DDI-DrugBank.d345.s6.e0" charOffset="80-103"
+            type="drug" text="colestipol hydrochloride"/>
+        <entity id="DDI-DrugBank.d345.s6.e1" charOffset="109-119"
+            type="drug" text="propranolol"/>
+        <entity id="DDI-DrugBank.d345.s6.e2" charOffset="207-217"
+            type="drug" text="propranolol"/>
+        <pair id="DDI-DrugBank.d345.s6.p0" e1="DDI-DrugBank.d345.s6.e0"
+            e2="DDI-DrugBank.d345.s6.e1" ddi="false"/>
+        <pair id="DDI-DrugBank.d345.s6.p1" e1="DDI-DrugBank.d345.s6.e0"
+            e2="DDI-DrugBank.d345.s6.e2" ddi="false"/>
+        <pair id="DDI-DrugBank.d345.s6.p2" e1="DDI-DrugBank.d345.s6.e1"
+            e2="DDI-DrugBank.d345.s6.e2" ddi="false"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d345.s7" text="the time to reach maximum concentration was delayed approximately 30 minutes."/>
+    <sentence id="DDI-DrugBank.d345.s8" text="Effects on the absorption of other beta-blockers have not been determined.">
+        <entity id="DDI-DrugBank.d345.s8.e0" charOffset="35-47"
+            type="group" text="beta-blockers"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d345.s9" text="Therefore, patients on propranolol should be observed when COLESTID Tablets are either added or deleted from a therapeutic regimen.">
+        <entity id="DDI-DrugBank.d345.s9.e0" charOffset="23-33"
+            type="drug" text="propranolol"/>
+        <entity id="DDI-DrugBank.d345.s9.e1" charOffset="59-66"
+            type="brand" text="COLESTID"/>
+        <pair id="DDI-DrugBank.d345.s9.p0" e1="DDI-DrugBank.d345.s9.e0"
+            e2="DDI-DrugBank.d345.s9.e1" ddi="true" type="advise"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d345.s10" text="Studies in humans show that the absorption of chlorothiazide as reflected in urinary excretion is markedly decreased even when administered one hour before colestipol hydrochloride.">
+        <entity id="DDI-DrugBank.d345.s10.e0" charOffset="46-59"
+            type="drug" text="chlorothiazide"/>
+        <entity id="DDI-DrugBank.d345.s10.e1" charOffset="156-179"
+            type="drug" text="colestipol hydrochloride"/>
+        <pair id="DDI-DrugBank.d345.s10.p0"
+            e1="DDI-DrugBank.d345.s10.e0" e2="DDI-DrugBank.d345.s10.e1"
+            ddi="true" type="mechanism"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d345.s11" text="The absorption of tetracycline, furosemide, penicillin G, hydrochlorothiazide, and gemfibrozil was significantly decreased when given simultaneously with colestipol hydrochloride;">
+        <entity id="DDI-DrugBank.d345.s11.e0" charOffset="18-29"
+            type="drug" text="tetracycline"/>
+        <entity id="DDI-DrugBank.d345.s11.e1" charOffset="32-41"
+            type="drug" text="furosemide"/>
+        <entity id="DDI-DrugBank.d345.s11.e2" charOffset="44-55"
+            type="drug" text="penicillin G"/>
+        <entity id="DDI-DrugBank.d345.s11.e3" charOffset="58-76"
+            type="drug" text="hydrochlorothiazide"/>
+        <entity id="DDI-DrugBank.d345.s11.e4" charOffset="83-93"
+            type="drug" text="gemfibrozil"/>
+        <entity id="DDI-DrugBank.d345.s11.e5" charOffset="154-177"
+            type="drug" text="colestipol hydrochloride"/>
+        <pair id="DDI-DrugBank.d345.s11.p0"
+            e1="DDI-DrugBank.d345.s11.e0" e2="DDI-DrugBank.d345.s11.e1" ddi="false"/>
+        <pair id="DDI-DrugBank.d345.s11.p1"
+            e1="DDI-DrugBank.d345.s11.e0" e2="DDI-DrugBank.d345.s11.e2" ddi="false"/>
+        <pair id="DDI-DrugBank.d345.s11.p2"
+            e1="DDI-DrugBank.d345.s11.e0" e2="DDI-DrugBank.d345.s11.e3" ddi="false"/>
+        <pair id="DDI-DrugBank.d345.s11.p3"
+            e1="DDI-DrugBank.d345.s11.e0" e2="DDI-DrugBank.d345.s11.e4" ddi="false"/>
+        <pair id="DDI-DrugBank.d345.s11.p4"
+            e1="DDI-DrugBank.d345.s11.e0" e2="DDI-DrugBank.d345.s11.e5"
+            ddi="true" type="mechanism"/>
+        <pair id="DDI-DrugBank.d345.s11.p5"
+            e1="DDI-DrugBank.d345.s11.e1" e2="DDI-DrugBank.d345.s11.e2" ddi="false"/>
+        <pair id="DDI-DrugBank.d345.s11.p6"
+            e1="DDI-DrugBank.d345.s11.e1" e2="DDI-DrugBank.d345.s11.e3" ddi="false"/>
+        <pair id="DDI-DrugBank.d345.s11.p7"
+            e1="DDI-DrugBank.d345.s11.e1" e2="DDI-DrugBank.d345.s11.e4" ddi="false"/>
+        <pair id="DDI-DrugBank.d345.s11.p8"
+            e1="DDI-DrugBank.d345.s11.e1" e2="DDI-DrugBank.d345.s11.e5"
+            ddi="true" type="mechanism"/>
+        <pair id="DDI-DrugBank.d345.s11.p9"
+            e1="DDI-DrugBank.d345.s11.e2" e2="DDI-DrugBank.d345.s11.e3" ddi="false"/>
+        <pair id="DDI-DrugBank.d345.s11.p10"
+            e1="DDI-DrugBank.d345.s11.e2" e2="DDI-DrugBank.d345.s11.e4" ddi="false"/>
+        <pair id="DDI-DrugBank.d345.s11.p11"
+            e1="DDI-DrugBank.d345.s11.e2" e2="DDI-DrugBank.d345.s11.e5"
+            ddi="true" type="mechanism"/>
+        <pair id="DDI-DrugBank.d345.s11.p12"
+            e1="DDI-DrugBank.d345.s11.e3" e2="DDI-DrugBank.d345.s11.e4" ddi="false"/>
+        <pair id="DDI-DrugBank.d345.s11.p13"
+            e1="DDI-DrugBank.d345.s11.e3" e2="DDI-DrugBank.d345.s11.e5"
+            ddi="true" type="mechanism"/>
+        <pair id="DDI-DrugBank.d345.s11.p14"
+            e1="DDI-DrugBank.d345.s11.e4" e2="DDI-DrugBank.d345.s11.e5"
+            ddi="true" type="mechanism"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d345.s12" text="these drugs were not tested to determine the effect of administration one hour before colestipol hydrochloride.">
+        <entity id="DDI-DrugBank.d345.s12.e0" charOffset="86-109"
+            type="drug" text="colestipol hydrochloride"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d345.s13" text="No depressant effect on blood levels in humans was noted when colestipol hydrochloride was administered with any of the following drugs: aspirin, clindamycin, clofibrate, methyldopa, nicotinic acid (niacin), tolbutamide, phenytoin or warfarin.">
+        <entity id="DDI-DrugBank.d345.s13.e0" charOffset="62-85"
+            type="drug" text="colestipol hydrochloride"/>
+        <entity id="DDI-DrugBank.d345.s13.e1" charOffset="137-143"
+            type="brand" text="aspirin"/>
+        <entity id="DDI-DrugBank.d345.s13.e2" charOffset="146-156"
+            type="brand" text="clindamycin"/>
+        <entity id="DDI-DrugBank.d345.s13.e3" charOffset="159-168"
+            type="drug" text="clofibrate"/>
+        <entity id="DDI-DrugBank.d345.s13.e4" charOffset="171-180"
+            type="drug" text="methyldopa"/>
+        <entity id="DDI-DrugBank.d345.s13.e5" charOffset="183-196"
+            type="drug" text="nicotinic acid"/>
+        <entity id="DDI-DrugBank.d345.s13.e6" charOffset="199-204"
+            type="drug" text="niacin"/>
+        <entity id="DDI-DrugBank.d345.s13.e7" charOffset="208-218"
+            type="drug" text="tolbutamide"/>
+        <entity id="DDI-DrugBank.d345.s13.e8" charOffset="221-229"
+            type="drug" text="phenytoin"/>
+        <entity id="DDI-DrugBank.d345.s13.e9" charOffset="234-241"
+            type="drug" text="warfarin"/>
+        <pair id="DDI-DrugBank.d345.s13.p0"
+            e1="DDI-DrugBank.d345.s13.e0" e2="DDI-DrugBank.d345.s13.e1" ddi="false"/>
+        <pair id="DDI-DrugBank.d345.s13.p1"
+            e1="DDI-DrugBank.d345.s13.e0" e2="DDI-DrugBank.d345.s13.e2" ddi="false"/>
+        <pair id="DDI-DrugBank.d345.s13.p2"
+            e1="DDI-DrugBank.d345.s13.e0" e2="DDI-DrugBank.d345.s13.e3" ddi="false"/>
+        <pair id="DDI-DrugBank.d345.s13.p3"
+            e1="DDI-DrugBank.d345.s13.e0" e2="DDI-DrugBank.d345.s13.e4" ddi="false"/>
+        <pair id="DDI-DrugBank.d345.s13.p4"
+            e1="DDI-DrugBank.d345.s13.e0" e2="DDI-DrugBank.d345.s13.e5" ddi="false"/>
+        <pair id="DDI-DrugBank.d345.s13.p5"
+            e1="DDI-DrugBank.d345.s13.e0" e2="DDI-DrugBank.d345.s13.e6" ddi="false"/>
+        <pair id="DDI-DrugBank.d345.s13.p6"
+            e1="DDI-DrugBank.d345.s13.e0" e2="DDI-DrugBank.d345.s13.e7" ddi="false"/>
+        <pair id="DDI-DrugBank.d345.s13.p7"
+            e1="DDI-DrugBank.d345.s13.e0" e2="DDI-DrugBank.d345.s13.e8" ddi="false"/>
+        <pair id="DDI-DrugBank.d345.s13.p8"
+            e1="DDI-DrugBank.d345.s13.e0" e2="DDI-DrugBank.d345.s13.e9" ddi="false"/>
+        <pair id="DDI-DrugBank.d345.s13.p9"
+            e1="DDI-DrugBank.d345.s13.e1" e2="DDI-DrugBank.d345.s13.e2" ddi="false"/>
+        <pair id="DDI-DrugBank.d345.s13.p10"
+            e1="DDI-DrugBank.d345.s13.e1" e2="DDI-DrugBank.d345.s13.e3" ddi="false"/>
+        <pair id="DDI-DrugBank.d345.s13.p11"
+            e1="DDI-DrugBank.d345.s13.e1" e2="DDI-DrugBank.d345.s13.e4" ddi="false"/>
+        <pair id="DDI-DrugBank.d345.s13.p12"
+            e1="DDI-DrugBank.d345.s13.e1" e2="DDI-DrugBank.d345.s13.e5" ddi="false"/>
+        <pair id="DDI-DrugBank.d345.s13.p13"
+            e1="DDI-DrugBank.d345.s13.e1" e2="DDI-DrugBank.d345.s13.e6" ddi="false"/>
+        <pair id="DDI-DrugBank.d345.s13.p14"
+            e1="DDI-DrugBank.d345.s13.e1" e2="DDI-DrugBank.d345.s13.e7" ddi="false"/>
+        <pair id="DDI-DrugBank.d345.s13.p15"
+            e1="DDI-DrugBank.d345.s13.e1" e2="DDI-DrugBank.d345.s13.e8" ddi="false"/>
+        <pair id="DDI-DrugBank.d345.s13.p16"
+            e1="DDI-DrugBank.d345.s13.e1" e2="DDI-DrugBank.d345.s13.e9" ddi="false"/>
+        <pair id="DDI-DrugBank.d345.s13.p17"
+            e1="DDI-DrugBank.d345.s13.e2" e2="DDI-DrugBank.d345.s13.e3" ddi="false"/>
+        <pair id="DDI-DrugBank.d345.s13.p18"
+            e1="DDI-DrugBank.d345.s13.e2" e2="DDI-DrugBank.d345.s13.e4" ddi="false"/>
+        <pair id="DDI-DrugBank.d345.s13.p19"
+            e1="DDI-DrugBank.d345.s13.e2" e2="DDI-DrugBank.d345.s13.e5" ddi="false"/>
+        <pair id="DDI-DrugBank.d345.s13.p20"
+            e1="DDI-DrugBank.d345.s13.e2" e2="DDI-DrugBank.d345.s13.e6" ddi="false"/>
+        <pair id="DDI-DrugBank.d345.s13.p21"
+            e1="DDI-DrugBank.d345.s13.e2" e2="DDI-DrugBank.d345.s13.e7" ddi="false"/>
+        <pair id="DDI-DrugBank.d345.s13.p22"
+            e1="DDI-DrugBank.d345.s13.e2" e2="DDI-DrugBank.d345.s13.e8" ddi="false"/>
+        <pair id="DDI-DrugBank.d345.s13.p23"
+            e1="DDI-DrugBank.d345.s13.e2" e2="DDI-DrugBank.d345.s13.e9" ddi="false"/>
+        <pair id="DDI-DrugBank.d345.s13.p24"
+            e1="DDI-DrugBank.d345.s13.e3" e2="DDI-DrugBank.d345.s13.e4" ddi="false"/>
+        <pair id="DDI-DrugBank.d345.s13.p25"
+            e1="DDI-DrugBank.d345.s13.e3" e2="DDI-DrugBank.d345.s13.e5" ddi="false"/>
+        <pair id="DDI-DrugBank.d345.s13.p26"
+            e1="DDI-DrugBank.d345.s13.e3" e2="DDI-DrugBank.d345.s13.e6" ddi="false"/>
+        <pair id="DDI-DrugBank.d345.s13.p27"
+            e1="DDI-DrugBank.d345.s13.e3" e2="DDI-DrugBank.d345.s13.e7" ddi="false"/>
+        <pair id="DDI-DrugBank.d345.s13.p28"
+            e1="DDI-DrugBank.d345.s13.e3" e2="DDI-DrugBank.d345.s13.e8" ddi="false"/>
+        <pair id="DDI-DrugBank.d345.s13.p29"
+            e1="DDI-DrugBank.d345.s13.e3" e2="DDI-DrugBank.d345.s13.e9" ddi="false"/>
+        <pair id="DDI-DrugBank.d345.s13.p30"
+            e1="DDI-DrugBank.d345.s13.e4" e2="DDI-DrugBank.d345.s13.e5" ddi="false"/>
+        <pair id="DDI-DrugBank.d345.s13.p31"
+            e1="DDI-DrugBank.d345.s13.e4" e2="DDI-DrugBank.d345.s13.e6" ddi="false"/>
+        <pair id="DDI-DrugBank.d345.s13.p32"
+            e1="DDI-DrugBank.d345.s13.e4" e2="DDI-DrugBank.d345.s13.e7" ddi="false"/>
+        <pair id="DDI-DrugBank.d345.s13.p33"
+            e1="DDI-DrugBank.d345.s13.e4" e2="DDI-DrugBank.d345.s13.e8" ddi="false"/>
+        <pair id="DDI-DrugBank.d345.s13.p34"
+            e1="DDI-DrugBank.d345.s13.e4" e2="DDI-DrugBank.d345.s13.e9" ddi="false"/>
+        <pair id="DDI-DrugBank.d345.s13.p35"
+            e1="DDI-DrugBank.d345.s13.e5" e2="DDI-DrugBank.d345.s13.e6" ddi="false"/>
+        <pair id="DDI-DrugBank.d345.s13.p36"
+            e1="DDI-DrugBank.d345.s13.e5" e2="DDI-DrugBank.d345.s13.e7" ddi="false"/>
+        <pair id="DDI-DrugBank.d345.s13.p37"
+            e1="DDI-DrugBank.d345.s13.e5" e2="DDI-DrugBank.d345.s13.e8" ddi="false"/>
+        <pair id="DDI-DrugBank.d345.s13.p38"
+            e1="DDI-DrugBank.d345.s13.e5" e2="DDI-DrugBank.d345.s13.e9" ddi="false"/>
+        <pair id="DDI-DrugBank.d345.s13.p39"
+            e1="DDI-DrugBank.d345.s13.e6" e2="DDI-DrugBank.d345.s13.e7" ddi="false"/>
+        <pair id="DDI-DrugBank.d345.s13.p40"
+            e1="DDI-DrugBank.d345.s13.e6" e2="DDI-DrugBank.d345.s13.e8" ddi="false"/>
+        <pair id="DDI-DrugBank.d345.s13.p41"
+            e1="DDI-DrugBank.d345.s13.e6" e2="DDI-DrugBank.d345.s13.e9" ddi="false"/>
+        <pair id="DDI-DrugBank.d345.s13.p42"
+            e1="DDI-DrugBank.d345.s13.e7" e2="DDI-DrugBank.d345.s13.e8" ddi="false"/>
+        <pair id="DDI-DrugBank.d345.s13.p43"
+            e1="DDI-DrugBank.d345.s13.e7" e2="DDI-DrugBank.d345.s13.e9" ddi="false"/>
+        <pair id="DDI-DrugBank.d345.s13.p44"
+            e1="DDI-DrugBank.d345.s13.e8" e2="DDI-DrugBank.d345.s13.e9" ddi="false"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d345.s14" text="Particular caution should be observed with digitalis preparations since there are conflicting results for the effect of colestipol hydrochloride on the availability of digoxin and digitoxin.">
+        <entity id="DDI-DrugBank.d345.s14.e0" charOffset="43-64"
+            type="group" text="digitalis preparations"/>
+        <entity id="DDI-DrugBank.d345.s14.e1" charOffset="120-143"
+            type="drug" text="colestipol hydrochloride"/>
+        <entity id="DDI-DrugBank.d345.s14.e2" charOffset="168-174"
+            type="drug" text="digoxin"/>
+        <entity id="DDI-DrugBank.d345.s14.e3" charOffset="180-188"
+            type="drug" text="digitoxin"/>
+        <pair id="DDI-DrugBank.d345.s14.p0"
+            e1="DDI-DrugBank.d345.s14.e0" e2="DDI-DrugBank.d345.s14.e1"
+            ddi="true" type="effect"/>
+        <pair id="DDI-DrugBank.d345.s14.p1"
+            e1="DDI-DrugBank.d345.s14.e0" e2="DDI-DrugBank.d345.s14.e2" ddi="false"/>
+        <pair id="DDI-DrugBank.d345.s14.p2"
+            e1="DDI-DrugBank.d345.s14.e0" e2="DDI-DrugBank.d345.s14.e3" ddi="false"/>
+        <pair id="DDI-DrugBank.d345.s14.p3"
+            e1="DDI-DrugBank.d345.s14.e1" e2="DDI-DrugBank.d345.s14.e2"
+            ddi="true" type="mechanism"/>
+        <pair id="DDI-DrugBank.d345.s14.p4"
+            e1="DDI-DrugBank.d345.s14.e1" e2="DDI-DrugBank.d345.s14.e3"
+            ddi="true" type="mechanism"/>
+        <pair id="DDI-DrugBank.d345.s14.p5"
+            e1="DDI-DrugBank.d345.s14.e2" e2="DDI-DrugBank.d345.s14.e3" ddi="false"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d345.s15" text="The potential for binding of these drugs if given concomitantly is present."/>
+    <sentence id="DDI-DrugBank.d345.s16" text="Discontinuing colestipol hydrochloride could pose a hazard to health if a potentially toxic drug that is significantly bound to the resin has been titrated to a maintenance level while the patient was taking colestipol hydrochloride.">
+        <entity id="DDI-DrugBank.d345.s16.e0" charOffset="14-37"
+            type="drug" text="colestipol hydrochloride"/>
+        <entity id="DDI-DrugBank.d345.s16.e1" charOffset="132-136"
+            type="group" text="resin"/>
+        <entity id="DDI-DrugBank.d345.s16.e2" charOffset="208-231"
+            type="drug" text="colestipol hydrochloride"/>
+        <pair id="DDI-DrugBank.d345.s16.p0"
+            e1="DDI-DrugBank.d345.s16.e0" e2="DDI-DrugBank.d345.s16.e1" ddi="false"/>
+        <pair id="DDI-DrugBank.d345.s16.p1"
+            e1="DDI-DrugBank.d345.s16.e0" e2="DDI-DrugBank.d345.s16.e2" ddi="false"/>
+        <pair id="DDI-DrugBank.d345.s16.p2"
+            e1="DDI-DrugBank.d345.s16.e1" e2="DDI-DrugBank.d345.s16.e2" ddi="false"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d345.s17" text="Bile acid binding resins may also interfere with the absorption of oral phosphate supplements and hydrocortisone.">
+        <entity id="DDI-DrugBank.d345.s17.e0" charOffset="0-23"
+            type="group" text="Bile acid binding resins"/>
+        <entity id="DDI-DrugBank.d345.s17.e1" charOffset="72-80"
+            type="drug" text="phosphate"/>
+        <entity id="DDI-DrugBank.d345.s17.e2" charOffset="98-111"
+            type="drug" text="hydrocortisone"/>
+        <pair id="DDI-DrugBank.d345.s17.p0"
+            e1="DDI-DrugBank.d345.s17.e0" e2="DDI-DrugBank.d345.s17.e1"
+            ddi="true" type="mechanism"/>
+        <pair id="DDI-DrugBank.d345.s17.p1"
+            e1="DDI-DrugBank.d345.s17.e0" e2="DDI-DrugBank.d345.s17.e2"
+            ddi="true" type="mechanism"/>
+        <pair id="DDI-DrugBank.d345.s17.p2"
+            e1="DDI-DrugBank.d345.s17.e1" e2="DDI-DrugBank.d345.s17.e2" ddi="false"/>
+    </sentence>
+</document>

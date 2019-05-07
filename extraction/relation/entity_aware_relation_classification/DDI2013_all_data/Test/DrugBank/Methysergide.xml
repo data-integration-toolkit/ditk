@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="DDI-DrugBank.d696">
+    <sentence id="DDI-DrugBank.d696.s0" text="Methysergide may reverse the analgesic activity of narcotic analgesics. ">
+        <entity id="DDI-DrugBank.d696.s0.e0" charOffset="0-11"
+            type="drug" text="Methysergide"/>
+        <entity id="DDI-DrugBank.d696.s0.e1" charOffset="51-69"
+            type="group" text="narcotic analgesics"/>
+        <pair id="DDI-DrugBank.d696.s0.p0" e1="DDI-DrugBank.d696.s0.e0"
+            e2="DDI-DrugBank.d696.s0.e1" ddi="true" type="effect"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d696.s1" text="Concurrent use with vasoconstrictor agents including ergot alkaloids, sumatriptan, and nicotine (e.g. smoking) may result in enhanced vasoconstriction.">
+        <entity id="DDI-DrugBank.d696.s1.e0" charOffset="20-41"
+            type="group" text="vasoconstrictor agents"/>
+        <entity id="DDI-DrugBank.d696.s1.e1" charOffset="53-67"
+            type="group" text="ergot alkaloids"/>
+        <entity id="DDI-DrugBank.d696.s1.e2" charOffset="70-80"
+            type="drug" text="sumatriptan"/>
+        <entity id="DDI-DrugBank.d696.s1.e3" charOffset="87-94"
+            type="drug" text="nicotine"/>
+        <pair id="DDI-DrugBank.d696.s1.p0" e1="DDI-DrugBank.d696.s1.e0"
+            e2="DDI-DrugBank.d696.s1.e1" ddi="false"/>
+        <pair id="DDI-DrugBank.d696.s1.p1" e1="DDI-DrugBank.d696.s1.e0"
+            e2="DDI-DrugBank.d696.s1.e2" ddi="false"/>
+        <pair id="DDI-DrugBank.d696.s1.p2" e1="DDI-DrugBank.d696.s1.e0"
+            e2="DDI-DrugBank.d696.s1.e3" ddi="false"/>
+        <pair id="DDI-DrugBank.d696.s1.p3" e1="DDI-DrugBank.d696.s1.e1"
+            e2="DDI-DrugBank.d696.s1.e2" ddi="false"/>
+        <pair id="DDI-DrugBank.d696.s1.p4" e1="DDI-DrugBank.d696.s1.e1"
+            e2="DDI-DrugBank.d696.s1.e3" ddi="false"/>
+        <pair id="DDI-DrugBank.d696.s1.p5" e1="DDI-DrugBank.d696.s1.e2"
+            e2="DDI-DrugBank.d696.s1.e3" ddi="false"/>
+    </sentence>
+</document>

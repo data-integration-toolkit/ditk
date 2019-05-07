@@ -54,9 +54,6 @@ class TextEmbedding(abc.ABC):
             'semEval': [
                 'pearson_coeff'
             ]
-             'semEval': [
-                'pearson_coeff'
-            ]
         }
 
     @classmethod

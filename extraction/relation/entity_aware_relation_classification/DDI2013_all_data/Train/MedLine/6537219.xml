@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="DDI-MedLine.d81">
+    <sentence id="DDI-MedLine.d81.s0" text="Hypothermia as an index of the disulfiram-ethanol reaction in the rat.&#xd;&#xa;">
+        <entity id="DDI-MedLine.d81.s0.e0" charOffset="31-40"
+            type="drug" text="disulfiram"/>
+        <entity id="DDI-MedLine.d81.s0.e1" charOffset="42-48"
+            type="drug" text="ethanol"/>
+        <pair id="DDI-MedLine.d81.s0.p0" e1="DDI-MedLine.d81.s0.e0"
+            e2="DDI-MedLine.d81.s0.e1" ddi="false"/>
+    </sentence>
+    <sentence id="DDI-MedLine.d81.s1" text="Decreased core temperature in female rats was investigated as one possible index of the disulfiram-ethanol reaction (DER). ">
+        <entity id="DDI-MedLine.d81.s1.e0" charOffset="88-97"
+            type="drug" text="disulfiram"/>
+        <entity id="DDI-MedLine.d81.s1.e1" charOffset="99-105"
+            type="drug" text="ethanol"/>
+        <pair id="DDI-MedLine.d81.s1.p0" e1="DDI-MedLine.d81.s1.e0"
+            e2="DDI-MedLine.d81.s1.e1" ddi="false"/>
+    </sentence>
+    <sentence id="DDI-MedLine.d81.s2" text="Core temperature was decreased in rats in a dose-dependent manner when ethanol was administered to rats treated with disulfiram 8 hours before the ethanol challenge. ">
+        <entity id="DDI-MedLine.d81.s2.e0" charOffset="71-77"
+            type="drug" text="ethanol"/>
+        <entity id="DDI-MedLine.d81.s2.e1" charOffset="117-126"
+            type="drug" text="disulfiram"/>
+        <entity id="DDI-MedLine.d81.s2.e2" charOffset="147-153"
+            type="drug" text="ethanol"/>
+        <pair id="DDI-MedLine.d81.s2.p0" e1="DDI-MedLine.d81.s2.e0"
+            e2="DDI-MedLine.d81.s2.e1" ddi="true" type="effect"/>
+        <pair id="DDI-MedLine.d81.s2.p1" e1="DDI-MedLine.d81.s2.e0"
+            e2="DDI-MedLine.d81.s2.e2" ddi="false"/>
+        <pair id="DDI-MedLine.d81.s2.p2" e1="DDI-MedLine.d81.s2.e1"
+            e2="DDI-MedLine.d81.s2.e2" ddi="false"/>
+    </sentence>
+    <sentence id="DDI-MedLine.d81.s3" text="The decrease in temperature began within 20 minutes after ethanol administration, reaching a maximal decrease between 60 and 120 minutes post ethanol. ">
+        <entity id="DDI-MedLine.d81.s3.e0" charOffset="58-64"
+            type="drug" text="ethanol"/>
+        <entity id="DDI-MedLine.d81.s3.e1" charOffset="142-148"
+            type="drug" text="ethanol"/>
+        <pair id="DDI-MedLine.d81.s3.p0" e1="DDI-MedLine.d81.s3.e0"
+            e2="DDI-MedLine.d81.s3.e1" ddi="false"/>
+    </sentence>
+    <sentence id="DDI-MedLine.d81.s4" text="The core temperature returned to normal 300 minutes after ethanol. ">
+        <entity id="DDI-MedLine.d81.s4.e0" charOffset="58-64"
+            type="drug" text="ethanol"/>
+    </sentence>
+    <sentence id="DDI-MedLine.d81.s5" text="The blood pressure (carotid cannulation) decreased along with the core temperature. "/>
+    <sentence id="DDI-MedLine.d81.s6" text="Maximal hypotension was found 120 minutes post ethanol, and returned to normal 300 minutes after ethanol. ">
+        <entity id="DDI-MedLine.d81.s6.e0" charOffset="47-53"
+            type="drug" text="ethanol"/>
+        <entity id="DDI-MedLine.d81.s6.e1" charOffset="97-103"
+            type="drug" text="ethanol"/>
+        <pair id="DDI-MedLine.d81.s6.p0" e1="DDI-MedLine.d81.s6.e0"
+            e2="DDI-MedLine.d81.s6.e1" ddi="false"/>
+    </sentence>
+    <sentence id="DDI-MedLine.d81.s7" text="Heart rate increased initially and returned to normal 40 minutes after ethanol challenge.">
+        <entity id="DDI-MedLine.d81.s7.e0" charOffset="71-77"
+            type="drug" text="ethanol"/>
+    </sentence>
+</document>

@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="DDI-MedLine.d119">
+    <sentence id="DDI-MedLine.d119.s0" text="Development and pharmacology of fluvastatin.&#xa;">
+        <entity id="DDI-MedLine.d119.s0.e0" charOffset="32-42"
+            type="drug" text="fluvastatin"/>
+    </sentence>
+    <sentence id="DDI-MedLine.d119.s1" text="Fluvastatin is the first synthetic 3-hydroxy-3-methylglutaryl coenzyme A (HMGCoA) reductase inhibitor to be approved for clinical use, and has been studied extensively in humans since 1986. ">
+        <entity id="DDI-MedLine.d119.s1.e0" charOffset="0-10"
+            type="drug" text="Fluvastatin"/>
+        <entity id="DDI-MedLine.d119.s1.e1" charOffset="25-100"
+            type="group" text="synthetic 3-hydroxy-3-methylglutaryl coenzyme A (HMGCoA) reductase inhibitor"/>
+        <pair id="DDI-MedLine.d119.s1.p0" e1="DDI-MedLine.d119.s1.e0"
+            e2="DDI-MedLine.d119.s1.e1" ddi="false"/>
+    </sentence>
+    <sentence id="DDI-MedLine.d119.s2" text="It is structurally distinct from the other currently available HMGCoA reductase inhibitors (lovastatin, simvastatin, and pravastatin), leading to unique biopharmaceutical properties relative to the other agents of this class. ">
+        <entity id="DDI-MedLine.d119.s2.e0" charOffset="63-89"
+            type="group" text="HMGCoA reductase inhibitors"/>
+        <entity id="DDI-MedLine.d119.s2.e1" charOffset="92-101"
+            type="drug" text="lovastatin"/>
+        <entity id="DDI-MedLine.d119.s2.e2" charOffset="104-114"
+            type="drug" text="simvastatin"/>
+        <entity id="DDI-MedLine.d119.s2.e3" charOffset="121-131"
+            type="drug" text="pravastatin"/>
+        <pair id="DDI-MedLine.d119.s2.p0" e1="DDI-MedLine.d119.s2.e0"
+            e2="DDI-MedLine.d119.s2.e1" ddi="false"/>
+        <pair id="DDI-MedLine.d119.s2.p1" e1="DDI-MedLine.d119.s2.e0"
+            e2="DDI-MedLine.d119.s2.e2" ddi="false"/>
+        <pair id="DDI-MedLine.d119.s2.p2" e1="DDI-MedLine.d119.s2.e0"
+            e2="DDI-MedLine.d119.s2.e3" ddi="false"/>
+        <pair id="DDI-MedLine.d119.s2.p3" e1="DDI-MedLine.d119.s2.e1"
+            e2="DDI-MedLine.d119.s2.e2" ddi="false"/>
+        <pair id="DDI-MedLine.d119.s2.p4" e1="DDI-MedLine.d119.s2.e1"
+            e2="DDI-MedLine.d119.s2.e3" ddi="false"/>
+        <pair id="DDI-MedLine.d119.s2.p5" e1="DDI-MedLine.d119.s2.e2"
+            e2="DDI-MedLine.d119.s2.e3" ddi="false"/>
+    </sentence>
+    <sentence id="DDI-MedLine.d119.s3" text="Absorption of fluvastatin is virtually complete across all species, including man, and is not affected by the presence of food. ">
+        <entity id="DDI-MedLine.d119.s3.e0" charOffset="14-24"
+            type="drug" text="fluvastatin"/>
+    </sentence>
+    <sentence id="DDI-MedLine.d119.s4" text="Systemic exposure is limited, as fluvastatin is subject to first-pass metabolism, and the plasma half-life of the drug is approximately 30 minutes. ">
+        <entity id="DDI-MedLine.d119.s4.e0" charOffset="33-43"
+            type="drug" text="fluvastatin"/>
+    </sentence>
+    <sentence id="DDI-MedLine.d119.s5" text="Some 95% of a single dosage of fluvastatin is excreted via the biliary route, with less than 2% of this being the parent compound. ">
+        <entity id="DDI-MedLine.d119.s5.e0" charOffset="31-41"
+            type="drug" text="fluvastatin"/>
+    </sentence>
+    <sentence id="DDI-MedLine.d119.s6" text="Additionally, there is no evidence of circulating active metabolites or accumulation during chronic dosing. "/>
+    <sentence id="DDI-MedLine.d119.s7" text="Studies of the effect of food on the pharmacokinetics of fluvastatin have demonstrated marked reductions in the rate of bioavailability--from 40% to 60%; ">
+        <entity id="DDI-MedLine.d119.s7.e0" charOffset="57-67"
+            type="drug" text="fluvastatin"/>
+    </sentence>
+    <sentence id="DDI-MedLine.d119.s8" text="however, a comparison of fluvastatin administration with the evening meal or at bedtime has revealed no significant differences in the extent of bioavailability (area under the curve) of these two regimens. ">
+        <entity id="DDI-MedLine.d119.s8.e0" charOffset="25-35"
+            type="drug" text="fluvastatin"/>
+    </sentence>
+    <sentence id="DDI-MedLine.d119.s9" text="Furthermore, no significant difference in pharmacodynamic effect (reduction in low-density lipoprotein cholesterol levels) could be ascertained between mealtime dosing and bedtime dosing. "/>
+    <sentence id="DDI-MedLine.d119.s10" text="The pharmacokinetics of fluvastatin have also been assessed in various demographic groups. ">
+        <entity id="DDI-MedLine.d119.s10.e0" charOffset="24-34"
+            type="drug" text="fluvastatin"/>
+    </sentence>
+    <sentence id="DDI-MedLine.d119.s11" text="Relative to the general population, plasma concentrations of fluvastatin do not vary as a function of either age or gender. ">
+        <entity id="DDI-MedLine.d119.s11.e0" charOffset="61-71"
+            type="drug" text="fluvastatin"/>
+    </sentence>
+    <sentence id="DDI-MedLine.d119.s12" text="In addition, administration to a patient population with hepatic insufficiency resulted in a 2.5-fold increase in both the rate and extent of bioavailability relative to controls. "/>
+    <sentence id="DDI-MedLine.d119.s13" text="Also, although minimal alterations of fluvastatin clearance in patients with renal insufficiency are anticipated due to limited renal excretion (5%), a study in this patient group is currently underway to examine this further. ">
+        <entity id="DDI-MedLine.d119.s13.e0" charOffset="38-48"
+            type="drug" text="fluvastatin"/>
+    </sentence>
+    <sentence id="DDI-MedLine.d119.s14" text="Interaction studies have been performed with fluvastatin and several drugs with which it might be coadministered. ">
+        <entity id="DDI-MedLine.d119.s14.e0" charOffset="45-55"
+            type="drug" text="fluvastatin"/>
+    </sentence>
+    <sentence id="DDI-MedLine.d119.s15" text="Cholestyramine, an anionic-binding resin, has a considerable effect in lowering the rate and extent of fluvastatin bioavailability. ">
+        <entity id="DDI-MedLine.d119.s15.e0" charOffset="0-13"
+            type="drug" text="Cholestyramine"/>
+        <entity id="DDI-MedLine.d119.s15.e1" charOffset="103-113"
+            type="drug" text="fluvastatin"/>
+        <pair id="DDI-MedLine.d119.s15.p0" e1="DDI-MedLine.d119.s15.e0"
+            e2="DDI-MedLine.d119.s15.e1" ddi="true" type="mechanism"/>
+    </sentence>
+    <sentence id="DDI-MedLine.d119.s16" text="Although this effect was noted even when cholestyramine was given 4 hours prior to fluvastatin, this regimen did not result in diminished efficacy. ">
+        <entity id="DDI-MedLine.d119.s16.e0" charOffset="41-54"
+            type="drug" text="cholestyramine"/>
+        <entity id="DDI-MedLine.d119.s16.e1" charOffset="83-93"
+            type="drug" text="fluvastatin"/>
+        <pair id="DDI-MedLine.d119.s16.p0" e1="DDI-MedLine.d119.s16.e0"
+            e2="DDI-MedLine.d119.s16.e1" ddi="true" type="effect"/>
+    </sentence>
+    <sentence id="DDI-MedLine.d119.s17" text="Further, no effects on either warfarin levels or prothrombin times were observed in a study involving concomitant administration of warfarin and fluvastatin. ">
+        <entity id="DDI-MedLine.d119.s17.e0" charOffset="30-37"
+            type="drug" text="warfarin"/>
+        <entity id="DDI-MedLine.d119.s17.e1" charOffset="132-139"
+            type="drug" text="warfarin"/>
+        <entity id="DDI-MedLine.d119.s17.e2" charOffset="145-155"
+            type="drug" text="fluvastatin"/>
+        <pair id="DDI-MedLine.d119.s17.p0" e1="DDI-MedLine.d119.s17.e0"
+            e2="DDI-MedLine.d119.s17.e1" ddi="false"/>
+        <pair id="DDI-MedLine.d119.s17.p1" e1="DDI-MedLine.d119.s17.e0"
+            e2="DDI-MedLine.d119.s17.e2" ddi="false"/>
+        <pair id="DDI-MedLine.d119.s17.p2" e1="DDI-MedLine.d119.s17.e1"
+            e2="DDI-MedLine.d119.s17.e2" ddi="false"/>
+    </sentence>
+    <sentence id="DDI-MedLine.d119.s18" text="Moreover, additional interaction studies with niacin and propranolol have not demonstrated any effect on fluvastatin plasma levels, and administration to a patient population chronically receiving digoxin resulted in no difference in the extent of bioavailability of digoxin relative to control data. ">
+        <entity id="DDI-MedLine.d119.s18.e0" charOffset="46-51"
+            type="drug" text="niacin"/>
+        <entity id="DDI-MedLine.d119.s18.e1" charOffset="57-67"
+            type="drug" text="propranolol"/>
+        <entity id="DDI-MedLine.d119.s18.e2" charOffset="105-115"
+            type="drug" text="fluvastatin"/>
+        <entity id="DDI-MedLine.d119.s18.e3" charOffset="197-203"
+            type="drug" text="digoxin"/>
+        <entity id="DDI-MedLine.d119.s18.e4" charOffset="267-273"
+            type="drug" text="digoxin"/>
+        <pair id="DDI-MedLine.d119.s18.p0" e1="DDI-MedLine.d119.s18.e0"
+            e2="DDI-MedLine.d119.s18.e1" ddi="false"/>
+        <pair id="DDI-MedLine.d119.s18.p1" e1="DDI-MedLine.d119.s18.e0"
+            e2="DDI-MedLine.d119.s18.e2" ddi="false"/>
+        <pair id="DDI-MedLine.d119.s18.p2" e1="DDI-MedLine.d119.s18.e0"
+            e2="DDI-MedLine.d119.s18.e3" ddi="false"/>
+        <pair id="DDI-MedLine.d119.s18.p3" e1="DDI-MedLine.d119.s18.e0"
+            e2="DDI-MedLine.d119.s18.e4" ddi="false"/>
+        <pair id="DDI-MedLine.d119.s18.p4" e1="DDI-MedLine.d119.s18.e1"
+            e2="DDI-MedLine.d119.s18.e2" ddi="false"/>
+        <pair id="DDI-MedLine.d119.s18.p5" e1="DDI-MedLine.d119.s18.e1"
+            e2="DDI-MedLine.d119.s18.e3" ddi="false"/>
+        <pair id="DDI-MedLine.d119.s18.p6" e1="DDI-MedLine.d119.s18.e1"
+            e2="DDI-MedLine.d119.s18.e4" ddi="false"/>
+        <pair id="DDI-MedLine.d119.s18.p7" e1="DDI-MedLine.d119.s18.e2"
+            e2="DDI-MedLine.d119.s18.e3" ddi="false"/>
+        <pair id="DDI-MedLine.d119.s18.p8" e1="DDI-MedLine.d119.s18.e2"
+            e2="DDI-MedLine.d119.s18.e4" ddi="false"/>
+        <pair id="DDI-MedLine.d119.s18.p9" e1="DDI-MedLine.d119.s18.e3"
+            e2="DDI-MedLine.d119.s18.e4" ddi="false"/>
+    </sentence>
+    <sentence id="DDI-MedLine.d119.s19" text="The results generated to date in clinical pharmacokinetic studies with fluvastatin thus support its use in a broad population of hypercholesterolaemic patients.">
+        <entity id="DDI-MedLine.d119.s19.e0" charOffset="71-81"
+            type="drug" text="fluvastatin"/>
+    </sentence>
+</document>

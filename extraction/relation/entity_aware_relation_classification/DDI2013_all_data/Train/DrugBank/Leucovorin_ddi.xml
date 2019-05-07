@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="DDI-DrugBank.d151">
+    <sentence id="DDI-DrugBank.d151.s0" text="Folic acid in large amounts may counteract the antiepileptic effect of phenobarbital, phenytoin and primidone, and increase the frequency of seizures in susceptible pediatric patients.">
+        <entity id="DDI-DrugBank.d151.s0.e0" charOffset="0-9"
+            type="drug" text="Folic acid"/>
+        <entity id="DDI-DrugBank.d151.s0.e1" charOffset="71-83"
+            type="drug" text="phenobarbital"/>
+        <entity id="DDI-DrugBank.d151.s0.e2" charOffset="86-94"
+            type="drug" text="phenytoin"/>
+        <entity id="DDI-DrugBank.d151.s0.e3" charOffset="100-108"
+            type="drug" text="primidone"/>
+        <pair id="DDI-DrugBank.d151.s0.p0" e1="DDI-DrugBank.d151.s0.e0"
+            e2="DDI-DrugBank.d151.s0.e1" ddi="true" type="effect"/>
+        <pair id="DDI-DrugBank.d151.s0.p1" e1="DDI-DrugBank.d151.s0.e0"
+            e2="DDI-DrugBank.d151.s0.e2" ddi="true" type="effect"/>
+        <pair id="DDI-DrugBank.d151.s0.p2" e1="DDI-DrugBank.d151.s0.e0"
+            e2="DDI-DrugBank.d151.s0.e3" ddi="true" type="effect"/>
+        <pair id="DDI-DrugBank.d151.s0.p3" e1="DDI-DrugBank.d151.s0.e1"
+            e2="DDI-DrugBank.d151.s0.e2" ddi="false"/>
+        <pair id="DDI-DrugBank.d151.s0.p4" e1="DDI-DrugBank.d151.s0.e1"
+            e2="DDI-DrugBank.d151.s0.e3" ddi="false"/>
+        <pair id="DDI-DrugBank.d151.s0.p5" e1="DDI-DrugBank.d151.s0.e2"
+            e2="DDI-DrugBank.d151.s0.e3" ddi="false"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d151.s1" text="Preliminary animal and human studies have shown that small quantities of systemically administered leucovorin enter the CSF primarily as 5-methyltetrahydro-folate and, in humans, remain 1 to 3 orders of magnitude lower than the usual methotrexate concentrations following intrathecal administration.">
+        <entity id="DDI-DrugBank.d151.s1.e0" charOffset="99-108"
+            type="drug" text="leucovorin"/>
+        <entity id="DDI-DrugBank.d151.s1.e1" charOffset="234-245"
+            type="drug" text="methotrexate"/>
+        <pair id="DDI-DrugBank.d151.s1.p0" e1="DDI-DrugBank.d151.s1.e0"
+            e2="DDI-DrugBank.d151.s1.e1" ddi="false"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d151.s2" text="However, high doses of leucovorin may reduce the efficacy of intrathecally administered methotrexate.">
+        <entity id="DDI-DrugBank.d151.s2.e0" charOffset="23-32"
+            type="drug" text="leucovorin"/>
+        <entity id="DDI-DrugBank.d151.s2.e1" charOffset="88-99"
+            type="drug" text="methotrexate"/>
+        <pair id="DDI-DrugBank.d151.s2.p0" e1="DDI-DrugBank.d151.s2.e0"
+            e2="DDI-DrugBank.d151.s2.e1" ddi="true" type="effect"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d151.s3" text="Leucovorin may enhance the toxicity of 5-fluorouracil.">
+        <entity id="DDI-DrugBank.d151.s3.e0" charOffset="0-9"
+            type="drug" text="Leucovorin"/>
+        <entity id="DDI-DrugBank.d151.s3.e1" charOffset="39-52"
+            type="drug" text="5-fluorouracil"/>
+        <pair id="DDI-DrugBank.d151.s3.p0" e1="DDI-DrugBank.d151.s3.e0"
+            e2="DDI-DrugBank.d151.s3.e1" ddi="true" type="effect"/>
+    </sentence>
+</document>

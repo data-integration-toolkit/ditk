@@ -1,0 +1,283 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="DDI-DrugBank.d596">
+    <sentence id="DDI-DrugBank.d596.s0" text="Drug-Drug Interactions Effect of Exelon    (rivastigmine tartrate) on the Metabolism of Other Drugs: Rivastigmine is primarily metabolized through hydrolysis by esterases. ">
+        <entity id="DDI-DrugBank.d596.s0.e0" charOffset="33-38"
+            type="brand" text="Exelon"/>
+        <entity id="DDI-DrugBank.d596.s0.e1" charOffset="44-64"
+            type="drug" text="rivastigmine tartrate"/>
+        <entity id="DDI-DrugBank.d596.s0.e2" charOffset="101-112"
+            type="drug" text="Rivastigmine"/>
+        <pair id="DDI-DrugBank.d596.s0.p0" e1="DDI-DrugBank.d596.s0.e0"
+            e2="DDI-DrugBank.d596.s0.e1" ddi="false"/>
+        <pair id="DDI-DrugBank.d596.s0.p1" e1="DDI-DrugBank.d596.s0.e0"
+            e2="DDI-DrugBank.d596.s0.e2" ddi="false"/>
+        <pair id="DDI-DrugBank.d596.s0.p2" e1="DDI-DrugBank.d596.s0.e1"
+            e2="DDI-DrugBank.d596.s0.e2" ddi="false"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d596.s1" text="Minimal metabolism occurs via the major cytochrome P450 isoenzymes. "/>
+    <sentence id="DDI-DrugBank.d596.s2" text="Based on in vitro studies, no pharmacokinetic drug interactions with drugs metabolized by the following isoenzyme systems are expected: CYP1A2, CYP2D6, CYP3A4/5, CYP2E1, CYP2C9, CYP2C8, or CYP2C19. "/>
+    <sentence id="DDI-DrugBank.d596.s3" text="No pharmacokinetic interaction was observed between rivastigmine and digoxin, warfarin, diazepam, or fluoxetine in studies in healthy volunteers. ">
+        <entity id="DDI-DrugBank.d596.s3.e0" charOffset="52-63"
+            type="drug" text="rivastigmine"/>
+        <entity id="DDI-DrugBank.d596.s3.e1" charOffset="69-75"
+            type="drug" text="digoxin"/>
+        <entity id="DDI-DrugBank.d596.s3.e2" charOffset="78-85"
+            type="drug" text="warfarin"/>
+        <entity id="DDI-DrugBank.d596.s3.e3" charOffset="88-95"
+            type="drug" text="diazepam"/>
+        <entity id="DDI-DrugBank.d596.s3.e4" charOffset="101-110"
+            type="drug" text="fluoxetine"/>
+        <pair id="DDI-DrugBank.d596.s3.p0" e1="DDI-DrugBank.d596.s3.e0"
+            e2="DDI-DrugBank.d596.s3.e1" ddi="false"/>
+        <pair id="DDI-DrugBank.d596.s3.p1" e1="DDI-DrugBank.d596.s3.e0"
+            e2="DDI-DrugBank.d596.s3.e2" ddi="false"/>
+        <pair id="DDI-DrugBank.d596.s3.p2" e1="DDI-DrugBank.d596.s3.e0"
+            e2="DDI-DrugBank.d596.s3.e3" ddi="false"/>
+        <pair id="DDI-DrugBank.d596.s3.p3" e1="DDI-DrugBank.d596.s3.e0"
+            e2="DDI-DrugBank.d596.s3.e4" ddi="false"/>
+        <pair id="DDI-DrugBank.d596.s3.p4" e1="DDI-DrugBank.d596.s3.e1"
+            e2="DDI-DrugBank.d596.s3.e2" ddi="false"/>
+        <pair id="DDI-DrugBank.d596.s3.p5" e1="DDI-DrugBank.d596.s3.e1"
+            e2="DDI-DrugBank.d596.s3.e3" ddi="false"/>
+        <pair id="DDI-DrugBank.d596.s3.p6" e1="DDI-DrugBank.d596.s3.e1"
+            e2="DDI-DrugBank.d596.s3.e4" ddi="false"/>
+        <pair id="DDI-DrugBank.d596.s3.p7" e1="DDI-DrugBank.d596.s3.e2"
+            e2="DDI-DrugBank.d596.s3.e3" ddi="false"/>
+        <pair id="DDI-DrugBank.d596.s3.p8" e1="DDI-DrugBank.d596.s3.e2"
+            e2="DDI-DrugBank.d596.s3.e4" ddi="false"/>
+        <pair id="DDI-DrugBank.d596.s3.p9" e1="DDI-DrugBank.d596.s3.e3"
+            e2="DDI-DrugBank.d596.s3.e4" ddi="false"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d596.s4" text="The elevation of prothrombin time induced by warfarin is not affected by administration of Exelon. ">
+        <entity id="DDI-DrugBank.d596.s4.e0" charOffset="45-52"
+            type="drug" text="warfarin"/>
+        <entity id="DDI-DrugBank.d596.s4.e1" charOffset="91-96"
+            type="brand" text="Exelon"/>
+        <pair id="DDI-DrugBank.d596.s4.p0" e1="DDI-DrugBank.d596.s4.e0"
+            e2="DDI-DrugBank.d596.s4.e1" ddi="false"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d596.s5" text="Effect of Other Drugs on the Metabolism of Exelon: Drugs that induce or inhibit CYP450 metabolism are not expected to alter the metabolism of rivastigmine. ">
+        <entity id="DDI-DrugBank.d596.s5.e0" charOffset="43-48"
+            type="brand" text="Exelon"/>
+        <entity id="DDI-DrugBank.d596.s5.e1" charOffset="142-153"
+            type="drug" text="rivastigmine"/>
+        <pair id="DDI-DrugBank.d596.s5.p0" e1="DDI-DrugBank.d596.s5.e0"
+            e2="DDI-DrugBank.d596.s5.e1" ddi="false"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d596.s6" text="Single dose pharmacokinetic studies demonstrated that the metabolism of rivastigmine is not significantly affected by concurrent administration of digoxin, warfarin, diazepam, or fluoxetine. ">
+        <entity id="DDI-DrugBank.d596.s6.e0" charOffset="72-83"
+            type="drug" text="rivastigmine"/>
+        <entity id="DDI-DrugBank.d596.s6.e1" charOffset="147-153"
+            type="drug" text="digoxin"/>
+        <entity id="DDI-DrugBank.d596.s6.e2" charOffset="156-163"
+            type="drug" text="warfarin"/>
+        <entity id="DDI-DrugBank.d596.s6.e3" charOffset="166-173"
+            type="drug" text="diazepam"/>
+        <entity id="DDI-DrugBank.d596.s6.e4" charOffset="179-188"
+            type="drug" text="fluoxetine"/>
+        <pair id="DDI-DrugBank.d596.s6.p0" e1="DDI-DrugBank.d596.s6.e0"
+            e2="DDI-DrugBank.d596.s6.e1" ddi="false"/>
+        <pair id="DDI-DrugBank.d596.s6.p1" e1="DDI-DrugBank.d596.s6.e0"
+            e2="DDI-DrugBank.d596.s6.e2" ddi="false"/>
+        <pair id="DDI-DrugBank.d596.s6.p2" e1="DDI-DrugBank.d596.s6.e0"
+            e2="DDI-DrugBank.d596.s6.e3" ddi="false"/>
+        <pair id="DDI-DrugBank.d596.s6.p3" e1="DDI-DrugBank.d596.s6.e0"
+            e2="DDI-DrugBank.d596.s6.e4" ddi="false"/>
+        <pair id="DDI-DrugBank.d596.s6.p4" e1="DDI-DrugBank.d596.s6.e1"
+            e2="DDI-DrugBank.d596.s6.e2" ddi="false"/>
+        <pair id="DDI-DrugBank.d596.s6.p5" e1="DDI-DrugBank.d596.s6.e1"
+            e2="DDI-DrugBank.d596.s6.e3" ddi="false"/>
+        <pair id="DDI-DrugBank.d596.s6.p6" e1="DDI-DrugBank.d596.s6.e1"
+            e2="DDI-DrugBank.d596.s6.e4" ddi="false"/>
+        <pair id="DDI-DrugBank.d596.s6.p7" e1="DDI-DrugBank.d596.s6.e2"
+            e2="DDI-DrugBank.d596.s6.e3" ddi="false"/>
+        <pair id="DDI-DrugBank.d596.s6.p8" e1="DDI-DrugBank.d596.s6.e2"
+            e2="DDI-DrugBank.d596.s6.e4" ddi="false"/>
+        <pair id="DDI-DrugBank.d596.s6.p9" e1="DDI-DrugBank.d596.s6.e3"
+            e2="DDI-DrugBank.d596.s6.e4" ddi="false"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d596.s7" text="Population PK analysis with a database of 625 patients showed that the pharmacokinetics of rivastigmine were not influenced by commonly prescribed medications such as antacids (n=77), antihypertensives (n=72), calcium channel blockers (n=75), antidiabetics (n=21), nonsteroidal anti-inflammatory drugs (n=79), estrogens (n=70), salicylate analgesics (n=177), antianginals (n=35), and antihistamines (n=15). ">
+        <entity id="DDI-DrugBank.d596.s7.e0" charOffset="91-102"
+            type="drug" text="rivastigmine"/>
+        <entity id="DDI-DrugBank.d596.s7.e1" charOffset="167-174"
+            type="group" text="antacids"/>
+        <entity id="DDI-DrugBank.d596.s7.e2" charOffset="184-200"
+            type="group" text="antihypertensives"/>
+        <entity id="DDI-DrugBank.d596.s7.e3" charOffset="210-233"
+            type="group" text="calcium channel blockers"/>
+        <entity id="DDI-DrugBank.d596.s7.e4" charOffset="243-255"
+            type="group" text="antidiabetics"/>
+        <entity id="DDI-DrugBank.d596.s7.e5" charOffset="265-300"
+            type="group" text="nonsteroidal anti-inflammatory drugs"/>
+        <entity id="DDI-DrugBank.d596.s7.e6" charOffset="310-318"
+            type="group" text="estrogens"/>
+        <entity id="DDI-DrugBank.d596.s7.e7" charOffset="328-348"
+            type="group" text="salicylate analgesics"/>
+        <entity id="DDI-DrugBank.d596.s7.e8" charOffset="359-370"
+            type="group" text="antianginals"/>
+        <entity id="DDI-DrugBank.d596.s7.e9" charOffset="384-397"
+            type="group" text="antihistamines"/>
+        <pair id="DDI-DrugBank.d596.s7.p0" e1="DDI-DrugBank.d596.s7.e0"
+            e2="DDI-DrugBank.d596.s7.e1" ddi="false"/>
+        <pair id="DDI-DrugBank.d596.s7.p1" e1="DDI-DrugBank.d596.s7.e0"
+            e2="DDI-DrugBank.d596.s7.e2" ddi="false"/>
+        <pair id="DDI-DrugBank.d596.s7.p2" e1="DDI-DrugBank.d596.s7.e0"
+            e2="DDI-DrugBank.d596.s7.e3" ddi="false"/>
+        <pair id="DDI-DrugBank.d596.s7.p3" e1="DDI-DrugBank.d596.s7.e0"
+            e2="DDI-DrugBank.d596.s7.e4" ddi="false"/>
+        <pair id="DDI-DrugBank.d596.s7.p4" e1="DDI-DrugBank.d596.s7.e0"
+            e2="DDI-DrugBank.d596.s7.e5" ddi="false"/>
+        <pair id="DDI-DrugBank.d596.s7.p5" e1="DDI-DrugBank.d596.s7.e0"
+            e2="DDI-DrugBank.d596.s7.e6" ddi="false"/>
+        <pair id="DDI-DrugBank.d596.s7.p6" e1="DDI-DrugBank.d596.s7.e0"
+            e2="DDI-DrugBank.d596.s7.e7" ddi="false"/>
+        <pair id="DDI-DrugBank.d596.s7.p7" e1="DDI-DrugBank.d596.s7.e0"
+            e2="DDI-DrugBank.d596.s7.e8" ddi="false"/>
+        <pair id="DDI-DrugBank.d596.s7.p8" e1="DDI-DrugBank.d596.s7.e0"
+            e2="DDI-DrugBank.d596.s7.e9" ddi="false"/>
+        <pair id="DDI-DrugBank.d596.s7.p9" e1="DDI-DrugBank.d596.s7.e1"
+            e2="DDI-DrugBank.d596.s7.e2" ddi="false"/>
+        <pair id="DDI-DrugBank.d596.s7.p10" e1="DDI-DrugBank.d596.s7.e1"
+            e2="DDI-DrugBank.d596.s7.e3" ddi="false"/>
+        <pair id="DDI-DrugBank.d596.s7.p11" e1="DDI-DrugBank.d596.s7.e1"
+            e2="DDI-DrugBank.d596.s7.e4" ddi="false"/>
+        <pair id="DDI-DrugBank.d596.s7.p12" e1="DDI-DrugBank.d596.s7.e1"
+            e2="DDI-DrugBank.d596.s7.e5" ddi="false"/>
+        <pair id="DDI-DrugBank.d596.s7.p13" e1="DDI-DrugBank.d596.s7.e1"
+            e2="DDI-DrugBank.d596.s7.e6" ddi="false"/>
+        <pair id="DDI-DrugBank.d596.s7.p14" e1="DDI-DrugBank.d596.s7.e1"
+            e2="DDI-DrugBank.d596.s7.e7" ddi="false"/>
+        <pair id="DDI-DrugBank.d596.s7.p15" e1="DDI-DrugBank.d596.s7.e1"
+            e2="DDI-DrugBank.d596.s7.e8" ddi="false"/>
+        <pair id="DDI-DrugBank.d596.s7.p16" e1="DDI-DrugBank.d596.s7.e1"
+            e2="DDI-DrugBank.d596.s7.e9" ddi="false"/>
+        <pair id="DDI-DrugBank.d596.s7.p17" e1="DDI-DrugBank.d596.s7.e2"
+            e2="DDI-DrugBank.d596.s7.e3" ddi="false"/>
+        <pair id="DDI-DrugBank.d596.s7.p18" e1="DDI-DrugBank.d596.s7.e2"
+            e2="DDI-DrugBank.d596.s7.e4" ddi="false"/>
+        <pair id="DDI-DrugBank.d596.s7.p19" e1="DDI-DrugBank.d596.s7.e2"
+            e2="DDI-DrugBank.d596.s7.e5" ddi="false"/>
+        <pair id="DDI-DrugBank.d596.s7.p20" e1="DDI-DrugBank.d596.s7.e2"
+            e2="DDI-DrugBank.d596.s7.e6" ddi="false"/>
+        <pair id="DDI-DrugBank.d596.s7.p21" e1="DDI-DrugBank.d596.s7.e2"
+            e2="DDI-DrugBank.d596.s7.e7" ddi="false"/>
+        <pair id="DDI-DrugBank.d596.s7.p22" e1="DDI-DrugBank.d596.s7.e2"
+            e2="DDI-DrugBank.d596.s7.e8" ddi="false"/>
+        <pair id="DDI-DrugBank.d596.s7.p23" e1="DDI-DrugBank.d596.s7.e2"
+            e2="DDI-DrugBank.d596.s7.e9" ddi="false"/>
+        <pair id="DDI-DrugBank.d596.s7.p24" e1="DDI-DrugBank.d596.s7.e3"
+            e2="DDI-DrugBank.d596.s7.e4" ddi="false"/>
+        <pair id="DDI-DrugBank.d596.s7.p25" e1="DDI-DrugBank.d596.s7.e3"
+            e2="DDI-DrugBank.d596.s7.e5" ddi="false"/>
+        <pair id="DDI-DrugBank.d596.s7.p26" e1="DDI-DrugBank.d596.s7.e3"
+            e2="DDI-DrugBank.d596.s7.e6" ddi="false"/>
+        <pair id="DDI-DrugBank.d596.s7.p27" e1="DDI-DrugBank.d596.s7.e3"
+            e2="DDI-DrugBank.d596.s7.e7" ddi="false"/>
+        <pair id="DDI-DrugBank.d596.s7.p28" e1="DDI-DrugBank.d596.s7.e3"
+            e2="DDI-DrugBank.d596.s7.e8" ddi="false"/>
+        <pair id="DDI-DrugBank.d596.s7.p29" e1="DDI-DrugBank.d596.s7.e3"
+            e2="DDI-DrugBank.d596.s7.e9" ddi="false"/>
+        <pair id="DDI-DrugBank.d596.s7.p30" e1="DDI-DrugBank.d596.s7.e4"
+            e2="DDI-DrugBank.d596.s7.e5" ddi="false"/>
+        <pair id="DDI-DrugBank.d596.s7.p31" e1="DDI-DrugBank.d596.s7.e4"
+            e2="DDI-DrugBank.d596.s7.e6" ddi="false"/>
+        <pair id="DDI-DrugBank.d596.s7.p32" e1="DDI-DrugBank.d596.s7.e4"
+            e2="DDI-DrugBank.d596.s7.e7" ddi="false"/>
+        <pair id="DDI-DrugBank.d596.s7.p33" e1="DDI-DrugBank.d596.s7.e4"
+            e2="DDI-DrugBank.d596.s7.e8" ddi="false"/>
+        <pair id="DDI-DrugBank.d596.s7.p34" e1="DDI-DrugBank.d596.s7.e4"
+            e2="DDI-DrugBank.d596.s7.e9" ddi="false"/>
+        <pair id="DDI-DrugBank.d596.s7.p35" e1="DDI-DrugBank.d596.s7.e5"
+            e2="DDI-DrugBank.d596.s7.e6" ddi="false"/>
+        <pair id="DDI-DrugBank.d596.s7.p36" e1="DDI-DrugBank.d596.s7.e5"
+            e2="DDI-DrugBank.d596.s7.e7" ddi="false"/>
+        <pair id="DDI-DrugBank.d596.s7.p37" e1="DDI-DrugBank.d596.s7.e5"
+            e2="DDI-DrugBank.d596.s7.e8" ddi="false"/>
+        <pair id="DDI-DrugBank.d596.s7.p38" e1="DDI-DrugBank.d596.s7.e5"
+            e2="DDI-DrugBank.d596.s7.e9" ddi="false"/>
+        <pair id="DDI-DrugBank.d596.s7.p39" e1="DDI-DrugBank.d596.s7.e6"
+            e2="DDI-DrugBank.d596.s7.e7" ddi="false"/>
+        <pair id="DDI-DrugBank.d596.s7.p40" e1="DDI-DrugBank.d596.s7.e6"
+            e2="DDI-DrugBank.d596.s7.e8" ddi="false"/>
+        <pair id="DDI-DrugBank.d596.s7.p41" e1="DDI-DrugBank.d596.s7.e6"
+            e2="DDI-DrugBank.d596.s7.e9" ddi="false"/>
+        <pair id="DDI-DrugBank.d596.s7.p42" e1="DDI-DrugBank.d596.s7.e7"
+            e2="DDI-DrugBank.d596.s7.e8" ddi="false"/>
+        <pair id="DDI-DrugBank.d596.s7.p43" e1="DDI-DrugBank.d596.s7.e7"
+            e2="DDI-DrugBank.d596.s7.e9" ddi="false"/>
+        <pair id="DDI-DrugBank.d596.s7.p44" e1="DDI-DrugBank.d596.s7.e8"
+            e2="DDI-DrugBank.d596.s7.e9" ddi="false"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d596.s8" text="Use with Anticholinergics: Because of their mechanism of action, cholinesterase inhibitors have the potential to interfere with the activity of anticholinergic medications. ">
+        <entity id="DDI-DrugBank.d596.s8.e0" charOffset="9-24"
+            type="group" text="Anticholinergics"/>
+        <entity id="DDI-DrugBank.d596.s8.e1" charOffset="65-89"
+            type="group" text="cholinesterase inhibitors"/>
+        <entity id="DDI-DrugBank.d596.s8.e2" charOffset="144-170"
+            type="group" text="anticholinergic medications"/>
+        <pair id="DDI-DrugBank.d596.s8.p0" e1="DDI-DrugBank.d596.s8.e0"
+            e2="DDI-DrugBank.d596.s8.e1" ddi="false"/>
+        <pair id="DDI-DrugBank.d596.s8.p1" e1="DDI-DrugBank.d596.s8.e0"
+            e2="DDI-DrugBank.d596.s8.e2" ddi="false"/>
+        <pair id="DDI-DrugBank.d596.s8.p2" e1="DDI-DrugBank.d596.s8.e1"
+            e2="DDI-DrugBank.d596.s8.e2" ddi="true" type="int"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d596.s9" text="Use with Cholinomimetics and Other Cholinesterase Inhibitors: A synergistic effect may be expected when cholinesterase inhibitors are given concurrently with succinylcholine, similar neuromuscular blocking agents or cholinergic agonists such as bethanechol.">
+        <entity id="DDI-DrugBank.d596.s9.e0" charOffset="9-23"
+            type="group" text="Cholinomimetics"/>
+        <entity id="DDI-DrugBank.d596.s9.e1" charOffset="35-59"
+            type="group" text="Cholinesterase Inhibitors"/>
+        <entity id="DDI-DrugBank.d596.s9.e2" charOffset="104-128"
+            type="group" text="cholinesterase inhibitors"/>
+        <entity id="DDI-DrugBank.d596.s9.e3" charOffset="158-172"
+            type="drug" text="succinylcholine"/>
+        <entity id="DDI-DrugBank.d596.s9.e4" charOffset="183-211"
+            type="group" text="neuromuscular blocking agents"/>
+        <entity id="DDI-DrugBank.d596.s9.e5" charOffset="216-235"
+            type="group" text="cholinergic agonists"/>
+        <entity id="DDI-DrugBank.d596.s9.e6" charOffset="245-255"
+            type="drug" text="bethanechol"/>
+        <pair id="DDI-DrugBank.d596.s9.p0" e1="DDI-DrugBank.d596.s9.e0"
+            e2="DDI-DrugBank.d596.s9.e1" ddi="false"/>
+        <pair id="DDI-DrugBank.d596.s9.p1" e1="DDI-DrugBank.d596.s9.e0"
+            e2="DDI-DrugBank.d596.s9.e2" ddi="false"/>
+        <pair id="DDI-DrugBank.d596.s9.p2" e1="DDI-DrugBank.d596.s9.e0"
+            e2="DDI-DrugBank.d596.s9.e3" ddi="false"/>
+        <pair id="DDI-DrugBank.d596.s9.p3" e1="DDI-DrugBank.d596.s9.e0"
+            e2="DDI-DrugBank.d596.s9.e4" ddi="false"/>
+        <pair id="DDI-DrugBank.d596.s9.p4" e1="DDI-DrugBank.d596.s9.e0"
+            e2="DDI-DrugBank.d596.s9.e5" ddi="false"/>
+        <pair id="DDI-DrugBank.d596.s9.p5" e1="DDI-DrugBank.d596.s9.e0"
+            e2="DDI-DrugBank.d596.s9.e6" ddi="false"/>
+        <pair id="DDI-DrugBank.d596.s9.p6" e1="DDI-DrugBank.d596.s9.e1"
+            e2="DDI-DrugBank.d596.s9.e2" ddi="false"/>
+        <pair id="DDI-DrugBank.d596.s9.p7" e1="DDI-DrugBank.d596.s9.e1"
+            e2="DDI-DrugBank.d596.s9.e3" ddi="false"/>
+        <pair id="DDI-DrugBank.d596.s9.p8" e1="DDI-DrugBank.d596.s9.e1"
+            e2="DDI-DrugBank.d596.s9.e4" ddi="false"/>
+        <pair id="DDI-DrugBank.d596.s9.p9" e1="DDI-DrugBank.d596.s9.e1"
+            e2="DDI-DrugBank.d596.s9.e5" ddi="false"/>
+        <pair id="DDI-DrugBank.d596.s9.p10" e1="DDI-DrugBank.d596.s9.e1"
+            e2="DDI-DrugBank.d596.s9.e6" ddi="false"/>
+        <pair id="DDI-DrugBank.d596.s9.p11" e1="DDI-DrugBank.d596.s9.e2"
+            e2="DDI-DrugBank.d596.s9.e3" ddi="true" type="effect"/>
+        <pair id="DDI-DrugBank.d596.s9.p12" e1="DDI-DrugBank.d596.s9.e2"
+            e2="DDI-DrugBank.d596.s9.e4" ddi="true" type="effect"/>
+        <pair id="DDI-DrugBank.d596.s9.p13" e1="DDI-DrugBank.d596.s9.e2"
+            e2="DDI-DrugBank.d596.s9.e5" ddi="true" type="effect"/>
+        <pair id="DDI-DrugBank.d596.s9.p14" e1="DDI-DrugBank.d596.s9.e2"
+            e2="DDI-DrugBank.d596.s9.e6" ddi="true" type="effect"/>
+        <pair id="DDI-DrugBank.d596.s9.p15" e1="DDI-DrugBank.d596.s9.e3"
+            e2="DDI-DrugBank.d596.s9.e4" ddi="false"/>
+        <pair id="DDI-DrugBank.d596.s9.p16" e1="DDI-DrugBank.d596.s9.e3"
+            e2="DDI-DrugBank.d596.s9.e5" ddi="false"/>
+        <pair id="DDI-DrugBank.d596.s9.p17" e1="DDI-DrugBank.d596.s9.e3"
+            e2="DDI-DrugBank.d596.s9.e6" ddi="false"/>
+        <pair id="DDI-DrugBank.d596.s9.p18" e1="DDI-DrugBank.d596.s9.e4"
+            e2="DDI-DrugBank.d596.s9.e5" ddi="false"/>
+        <pair id="DDI-DrugBank.d596.s9.p19" e1="DDI-DrugBank.d596.s9.e4"
+            e2="DDI-DrugBank.d596.s9.e6" ddi="false"/>
+        <pair id="DDI-DrugBank.d596.s9.p20" e1="DDI-DrugBank.d596.s9.e5"
+            e2="DDI-DrugBank.d596.s9.e6" ddi="false"/>
+    </sentence>
+</document>

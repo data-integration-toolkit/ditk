@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="DDI-DrugBank.d519">
+    <sentence id="DDI-DrugBank.d519.s0" text="No formal drug/drug interaction studies with Plenaxis were performed.">
+        <entity id="DDI-DrugBank.d519.s0.e0" charOffset="45-52"
+            type="brand" text="Plenaxis"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d519.s1" text="Cytochrome P-450 is not known to be involved in the metabolism of Plenaxis.">
+        <entity id="DDI-DrugBank.d519.s1.e0" charOffset="66-73"
+            type="brand" text="Plenaxis"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d519.s2" text="Plenaxis is highly bound to plasma proteins (96 to 99%).">
+        <entity id="DDI-DrugBank.d519.s2.e0" charOffset="0-7"
+            type="brand" text="Plenaxis"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d519.s3" text="Laboratory Tests Response to Plenaxis should be monitored by measuring serum total testosterone concentrations just prior to administration on Day 29 and every 8 weeks thereafter.">
+        <entity id="DDI-DrugBank.d519.s3.e0" charOffset="29-36"
+            type="brand" text="Plenaxis"/>
+        <entity id="DDI-DrugBank.d519.s3.e1" charOffset="83-94"
+            type="drug" text="testosterone"/>
+        <pair id="DDI-DrugBank.d519.s3.p0" e1="DDI-DrugBank.d519.s3.e0"
+            e2="DDI-DrugBank.d519.s3.e1" ddi="false"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d519.s4" text="Serum transaminase levels should be obtained before starting treatment with Plenaxis and periodically during treatment.">
+        <entity id="DDI-DrugBank.d519.s4.e0" charOffset="76-83"
+            type="brand" text="Plenaxis"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d519.s5" text="Periodic measurement of serum PSA levels may also be considered."/>
+</document>

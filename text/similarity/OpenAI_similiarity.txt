@@ -1,0 +1,7 @@
+To run base code clone the original github code. The current code only runs the question and answering part of the paper
+on the ROC stories test. I looked into trying to code the header myself but could not accomplish it.
+
+To run the code on the ROC stories test:
+python train.py --dataset rocstories --desc rocstories --submit --analysis --data_dir [path to data here]
+
+This is command prompt.

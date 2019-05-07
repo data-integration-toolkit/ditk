@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="DDI-MedLine.d54">
+    <sentence id="DDI-MedLine.d54.s0" text="Cholinergic role in alcohol's effects on evoked potentials in visual cortex of the albino rat.&#xd;&#xa;">
+        <entity id="DDI-MedLine.d54.s0.e0" charOffset="20-26"
+            type="drug" text="alcohol"/>
+    </sentence>
+    <sentence id="DDI-MedLine.d54.s1" text="Photic evoked potentials were recorded from the visual cortex of chronically implanted albino rats. "/>
+    <sentence id="DDI-MedLine.d54.s2" text="Since photic evoked potential components are representations of neural pathways which are activated during photic stimulation, study of the effects of alcohol on these components may help to trace pathways which are affected by alcohol. ">
+        <entity id="DDI-MedLine.d54.s2.e0" charOffset="151-157"
+            type="drug" text="alcohol"/>
+        <entity id="DDI-MedLine.d54.s2.e1" charOffset="228-234"
+            type="drug" text="alcohol"/>
+        <pair id="DDI-MedLine.d54.s2.p0" e1="DDI-MedLine.d54.s2.e0"
+            e2="DDI-MedLine.d54.s2.e1" ddi="false"/>
+    </sentence>
+    <sentence id="DDI-MedLine.d54.s3" text="In the present study, evoked potentials were recorded at 5, 20, and 40 min following IP injections of saline, ethanol (2.0 g/kg), physostigmine (0.6 mg/kg) or atropine (15.0 mg/kg) on separate days. ">
+        <entity id="DDI-MedLine.d54.s3.e0" charOffset="110-116"
+            type="drug" text="ethanol"/>
+        <entity id="DDI-MedLine.d54.s3.e1" charOffset="130-142"
+            type="drug" text="physostigmine"/>
+        <entity id="DDI-MedLine.d54.s3.e2" charOffset="159-166"
+            type="drug" text="atropine"/>
+        <pair id="DDI-MedLine.d54.s3.p0" e1="DDI-MedLine.d54.s3.e0"
+            e2="DDI-MedLine.d54.s3.e1" ddi="false"/>
+        <pair id="DDI-MedLine.d54.s3.p1" e1="DDI-MedLine.d54.s3.e0"
+            e2="DDI-MedLine.d54.s3.e2" ddi="false"/>
+        <pair id="DDI-MedLine.d54.s3.p2" e1="DDI-MedLine.d54.s3.e1"
+            e2="DDI-MedLine.d54.s3.e2" ddi="false"/>
+    </sentence>
+    <sentence id="DDI-MedLine.d54.s4" text="Ethanol depressed the amplitudes of most evoked potential components in comparison to saline administration. ">
+        <entity id="DDI-MedLine.d54.s4.e0" charOffset="0-6" type="drug" text="Ethanol"/>
+    </sentence>
+    <sentence id="DDI-MedLine.d54.s5" text="Component P2, however, was increased in amplitude. "/>
+    <sentence id="DDI-MedLine.d54.s6" text="Physostigmine briefly reduced the amplitude of most components, including P2. ">
+        <entity id="DDI-MedLine.d54.s6.e0" charOffset="0-12" type="drug" text="Physostigmine"/>
+    </sentence>
+    <sentence id="DDI-MedLine.d54.s7" text="In contrast, atropine increased the amplitudes of components P1 and P2, while decreasing components N1, N2 and N3 for varying durations of time. ">
+        <entity id="DDI-MedLine.d54.s7.e0" charOffset="13-20"
+            type="drug" text="atropine"/>
+    </sentence>
+    <sentence id="DDI-MedLine.d54.s8" text="Physostigmine pretreatment augmented the depressant effect of alcohol on the early components P1 and N1, while attenuating alcohol's influence on components P2 and P3. ">
+        <entity id="DDI-MedLine.d54.s8.e0" charOffset="0-12" type="drug" text="Physostigmine"/>
+        <entity id="DDI-MedLine.d54.s8.e1" charOffset="62-68"
+            type="drug" text="alcohol"/>
+        <entity id="DDI-MedLine.d54.s8.e2" charOffset="123-129"
+            type="drug" text="alcohol"/>
+        <pair id="DDI-MedLine.d54.s8.p0" e1="DDI-MedLine.d54.s8.e0"
+            e2="DDI-MedLine.d54.s8.e1" ddi="true" type="effect"/>
+        <pair id="DDI-MedLine.d54.s8.p1" e1="DDI-MedLine.d54.s8.e0"
+            e2="DDI-MedLine.d54.s8.e2" ddi="true" type="effect"/>
+        <pair id="DDI-MedLine.d54.s8.p2" e1="DDI-MedLine.d54.s8.e1"
+            e2="DDI-MedLine.d54.s8.e2" ddi="false"/>
+    </sentence>
+    <sentence id="DDI-MedLine.d54.s9" text="Pretreatment with atropine likewise further reduced the amplitudes of components P1 and N1, and produced a similar effect on component N3. ">
+        <entity id="DDI-MedLine.d54.s9.e0" charOffset="18-25"
+            type="drug" text="atropine"/>
+    </sentence>
+    <sentence id="DDI-MedLine.d54.s10" text="Atropine, either alone or in combination with alcohol, produced approximately the same degree of enhancement of component P2. ">
+        <entity id="DDI-MedLine.d54.s10.e0" charOffset="0-7" type="drug" text="Atropine"/>
+        <entity id="DDI-MedLine.d54.s10.e1" charOffset="46-52"
+            type="drug" text="alcohol"/>
+        <pair id="DDI-MedLine.d54.s10.p0" e1="DDI-MedLine.d54.s10.e0"
+            e2="DDI-MedLine.d54.s10.e1" ddi="false"/>
+    </sentence>
+    <sentence id="DDI-MedLine.d54.s11" text="In comparison to saline values, all three agents produced reliable increases in peak latency for most of the components, with only N3 showing no effects. "/>
+    <sentence id="DDI-MedLine.d54.s12" text="The amplitude data from this study suggest that ethanol's augmentation of component P2 may result, at least in part, from alterations in cholinergic functions.">
+        <entity id="DDI-MedLine.d54.s12.e0" charOffset="48-54"
+            type="drug" text="ethanol"/>
+    </sentence>
+</document>

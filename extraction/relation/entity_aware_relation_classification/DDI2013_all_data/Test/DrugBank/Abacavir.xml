@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="DDI-DrugBank.d610">
+    <sentence id="DDI-DrugBank.d610.s0" text="Pharmacokinetic properties of abacavir were not altered by the addition of either lamivudine or zidovudine or the combination of lamivudine and zidovudine. ">
+        <entity id="DDI-DrugBank.d610.s0.e0" charOffset="30-37"
+            type="drug" text="abacavir"/>
+        <entity id="DDI-DrugBank.d610.s0.e1" charOffset="82-91"
+            type="drug" text="lamivudine"/>
+        <entity id="DDI-DrugBank.d610.s0.e2" charOffset="96-105"
+            type="drug" text="zidovudine"/>
+        <entity id="DDI-DrugBank.d610.s0.e3" charOffset="129-138"
+            type="drug" text="lamivudine"/>
+        <entity id="DDI-DrugBank.d610.s0.e4" charOffset="144-153"
+            type="drug" text="zidovudine"/>
+        <pair id="DDI-DrugBank.d610.s0.p0" e1="DDI-DrugBank.d610.s0.e0"
+            e2="DDI-DrugBank.d610.s0.e1" ddi="false"/>
+        <pair id="DDI-DrugBank.d610.s0.p1" e1="DDI-DrugBank.d610.s0.e0"
+            e2="DDI-DrugBank.d610.s0.e2" ddi="false"/>
+        <pair id="DDI-DrugBank.d610.s0.p2" e1="DDI-DrugBank.d610.s0.e0"
+            e2="DDI-DrugBank.d610.s0.e3" ddi="false"/>
+        <pair id="DDI-DrugBank.d610.s0.p3" e1="DDI-DrugBank.d610.s0.e0"
+            e2="DDI-DrugBank.d610.s0.e4" ddi="false"/>
+        <pair id="DDI-DrugBank.d610.s0.p4" e1="DDI-DrugBank.d610.s0.e1"
+            e2="DDI-DrugBank.d610.s0.e2" ddi="false"/>
+        <pair id="DDI-DrugBank.d610.s0.p5" e1="DDI-DrugBank.d610.s0.e1"
+            e2="DDI-DrugBank.d610.s0.e3" ddi="false"/>
+        <pair id="DDI-DrugBank.d610.s0.p6" e1="DDI-DrugBank.d610.s0.e1"
+            e2="DDI-DrugBank.d610.s0.e4" ddi="false"/>
+        <pair id="DDI-DrugBank.d610.s0.p7" e1="DDI-DrugBank.d610.s0.e2"
+            e2="DDI-DrugBank.d610.s0.e3" ddi="false"/>
+        <pair id="DDI-DrugBank.d610.s0.p8" e1="DDI-DrugBank.d610.s0.e2"
+            e2="DDI-DrugBank.d610.s0.e4" ddi="false"/>
+        <pair id="DDI-DrugBank.d610.s0.p9" e1="DDI-DrugBank.d610.s0.e3"
+            e2="DDI-DrugBank.d610.s0.e4" ddi="false"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d610.s1" text="No clinically significant changes to lamivudine or zidovudine pharmacokinetics were observed following concomitant administration of abacavir. ">
+        <entity id="DDI-DrugBank.d610.s1.e0" charOffset="37-46"
+            type="drug" text="lamivudine"/>
+        <entity id="DDI-DrugBank.d610.s1.e1" charOffset="51-60"
+            type="drug" text="zidovudine"/>
+        <entity id="DDI-DrugBank.d610.s1.e2" charOffset="133-140"
+            type="drug" text="abacavir"/>
+        <pair id="DDI-DrugBank.d610.s1.p0" e1="DDI-DrugBank.d610.s1.e0"
+            e2="DDI-DrugBank.d610.s1.e1" ddi="false"/>
+        <pair id="DDI-DrugBank.d610.s1.p1" e1="DDI-DrugBank.d610.s1.e0"
+            e2="DDI-DrugBank.d610.s1.e2" ddi="false"/>
+        <pair id="DDI-DrugBank.d610.s1.p2" e1="DDI-DrugBank.d610.s1.e1"
+            e2="DDI-DrugBank.d610.s1.e2" ddi="false"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d610.s2" text="Abacavir has no effect on the pharmacokinetic properties of ethanol. ">
+        <entity id="DDI-DrugBank.d610.s2.e0" charOffset="0-7"
+            type="drug" text="Abacavir"/>
+        <entity id="DDI-DrugBank.d610.s2.e1" charOffset="60-66"
+            type="drug" text="ethanol"/>
+        <pair id="DDI-DrugBank.d610.s2.p0" e1="DDI-DrugBank.d610.s2.e0"
+            e2="DDI-DrugBank.d610.s2.e1" ddi="false"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d610.s3" text="Ethanol decreases the elimination of abacavir causing an increase in overall exposure . The addition of methadone has no clinically significant effect on the pharmacokinetic properties of abacavir. ">
+        <entity id="DDI-DrugBank.d610.s3.e0" charOffset="0-6"
+            type="drug" text="Ethanol"/>
+        <entity id="DDI-DrugBank.d610.s3.e1" charOffset="37-44"
+            type="drug" text="abacavir"/>
+        <entity id="DDI-DrugBank.d610.s3.e2" charOffset="104-112"
+            type="drug" text="methadone"/>
+        <entity id="DDI-DrugBank.d610.s3.e3" charOffset="188-195"
+            type="drug" text="abacavir"/>
+        <pair id="DDI-DrugBank.d610.s3.p0" e1="DDI-DrugBank.d610.s3.e0"
+            e2="DDI-DrugBank.d610.s3.e1" ddi="true" type="mechanism"/>
+        <pair id="DDI-DrugBank.d610.s3.p1" e1="DDI-DrugBank.d610.s3.e0"
+            e2="DDI-DrugBank.d610.s3.e2" ddi="false"/>
+        <pair id="DDI-DrugBank.d610.s3.p2" e1="DDI-DrugBank.d610.s3.e0"
+            e2="DDI-DrugBank.d610.s3.e3" ddi="false"/>
+        <pair id="DDI-DrugBank.d610.s3.p3" e1="DDI-DrugBank.d610.s3.e1"
+            e2="DDI-DrugBank.d610.s3.e2" ddi="false"/>
+        <pair id="DDI-DrugBank.d610.s3.p4" e1="DDI-DrugBank.d610.s3.e1"
+            e2="DDI-DrugBank.d610.s3.e3" ddi="false"/>
+        <pair id="DDI-DrugBank.d610.s3.p5" e1="DDI-DrugBank.d610.s3.e2"
+            e2="DDI-DrugBank.d610.s3.e3" ddi="false"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d610.s4" text="In a study of 11 HIV-infected patients receiving methadone-maintenance therapy (40 mg and 90 mg daily) with 600 mg of ZIAGEN twice daily (twice the currently recommended dose), oral methadone clearance increased 22% (90% CI 6% to 42%). ">
+        <entity id="DDI-DrugBank.d610.s4.e0" charOffset="49-57"
+            type="drug" text="methadone"/>
+        <entity id="DDI-DrugBank.d610.s4.e1" charOffset="118-123"
+            type="brand" text="ZIAGEN"/>
+        <entity id="DDI-DrugBank.d610.s4.e2" charOffset="182-190"
+            type="drug" text="methadone"/>
+        <pair id="DDI-DrugBank.d610.s4.p0" e1="DDI-DrugBank.d610.s4.e0"
+            e2="DDI-DrugBank.d610.s4.e1" ddi="true" type="mechanism"/>
+        <pair id="DDI-DrugBank.d610.s4.p1" e1="DDI-DrugBank.d610.s4.e0"
+            e2="DDI-DrugBank.d610.s4.e2" ddi="false"/>
+        <pair id="DDI-DrugBank.d610.s4.p2" e1="DDI-DrugBank.d610.s4.e1"
+            e2="DDI-DrugBank.d610.s4.e2" ddi="false"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d610.s5" text="This alteration will not result in a methadone dose modification in the majority of patients; ">
+        <entity id="DDI-DrugBank.d610.s5.e0" charOffset="37-45"
+            type="drug" text="methadone"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d610.s6" text="however, an increased methadone dose may be required in a small number of patients.">
+        <entity id="DDI-DrugBank.d610.s6.e0" charOffset="22-30"
+            type="drug" text="methadone"/>
+    </sentence>
+</document>

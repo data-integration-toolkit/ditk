@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="DDI-DrugBank.d359">
+    <sentence id="DDI-DrugBank.d359.s0" text="PEGANONE used in combination with other drugs known to adversely affect the hematopoietic system should be avoided if possible.">
+        <entity id="DDI-DrugBank.d359.s0.e0" charOffset="0-7"
+            type="brand" text="PEGANONE"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d359.s1" text="Considerable caution should be exercised if PEGANONE is administered concurrently with Phenurone (phenacemide) since paranoid symptoms have been reported during therapy with this combination.">
+        <entity id="DDI-DrugBank.d359.s1.e0" charOffset="44-51"
+            type="brand" text="PEGANONE"/>
+        <entity id="DDI-DrugBank.d359.s1.e1" charOffset="87-95"
+            type="brand" text="Phenurone"/>
+        <entity id="DDI-DrugBank.d359.s1.e2" charOffset="98-108"
+            type="drug" text="phenacemide"/>
+        <pair id="DDI-DrugBank.d359.s1.p0" e1="DDI-DrugBank.d359.s1.e0"
+            e2="DDI-DrugBank.d359.s1.e1" ddi="true" type="advise"/>
+        <pair id="DDI-DrugBank.d359.s1.p1" e1="DDI-DrugBank.d359.s1.e0"
+            e2="DDI-DrugBank.d359.s1.e2" ddi="true" type="advise"/>
+        <pair id="DDI-DrugBank.d359.s1.p2" e1="DDI-DrugBank.d359.s1.e1"
+            e2="DDI-DrugBank.d359.s1.e2" ddi="false"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d359.s2" text="A two-way interaction between the hydantoin antiepileptic, phenytoin, and the coumarin anticoagulants has been suggested.">
+        <entity id="DDI-DrugBank.d359.s2.e0" charOffset="34-56"
+            type="group" text="hydantoin antiepileptic"/>
+        <entity id="DDI-DrugBank.d359.s2.e1" charOffset="59-67"
+            type="drug" text="phenytoin"/>
+        <entity id="DDI-DrugBank.d359.s2.e2" charOffset="78-99"
+            type="group" text="coumarin anticoagulant"/>
+        <pair id="DDI-DrugBank.d359.s2.p0" e1="DDI-DrugBank.d359.s2.e0"
+            e2="DDI-DrugBank.d359.s2.e1" ddi="true" type="int"/>
+        <pair id="DDI-DrugBank.d359.s2.p1" e1="DDI-DrugBank.d359.s2.e0"
+            e2="DDI-DrugBank.d359.s2.e2" ddi="true" type="int"/>
+        <pair id="DDI-DrugBank.d359.s2.p2" e1="DDI-DrugBank.d359.s2.e1"
+            e2="DDI-DrugBank.d359.s2.e2" ddi="false"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d359.s3" text="Presumably, phenytoin acts as a stimulator of coumarin metabolism and has been reported to cause decreased serum levels of the coumarin anticoagulants and increased prothrombin-proconvertin concentrations.">
+        <entity id="DDI-DrugBank.d359.s3.e0" charOffset="12-20"
+            type="drug" text="phenytoin"/>
+        <entity id="DDI-DrugBank.d359.s3.e1" charOffset="46-53"
+            type="group" text="coumarin"/>
+        <entity id="DDI-DrugBank.d359.s3.e2" charOffset="127-149"
+            type="group" text="coumarin anticoagulants"/>
+        <pair id="DDI-DrugBank.d359.s3.p0" e1="DDI-DrugBank.d359.s3.e0"
+            e2="DDI-DrugBank.d359.s3.e1" ddi="true" type="mechanism"/>
+        <pair id="DDI-DrugBank.d359.s3.p1" e1="DDI-DrugBank.d359.s3.e0"
+            e2="DDI-DrugBank.d359.s3.e2" ddi="true" type="mechanism"/>
+        <pair id="DDI-DrugBank.d359.s3.p2" e1="DDI-DrugBank.d359.s3.e1"
+            e2="DDI-DrugBank.d359.s3.e2" ddi="false"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d359.s4" text="Conversely, the coumarin anticoagulants have been reported to increase the serum levels and prolong the serum half-life of phenytoin by inhibiting its metabolism.">
+        <entity id="DDI-DrugBank.d359.s4.e0" charOffset="16-38"
+            type="group" text="coumarin anticoagulants"/>
+        <entity id="DDI-DrugBank.d359.s4.e1" charOffset="123-131"
+            type="drug" text="phenytoin"/>
+        <pair id="DDI-DrugBank.d359.s4.p0" e1="DDI-DrugBank.d359.s4.e0"
+            e2="DDI-DrugBank.d359.s4.e1" ddi="true" type="mechanism"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d359.s5" text="Although there is no documentation of such, a similar interaction between ethotoin and the coumarin anticoagulants may occur.">
+        <entity id="DDI-DrugBank.d359.s5.e0" charOffset="74-81"
+            type="drug" text="ethotoin"/>
+        <entity id="DDI-DrugBank.d359.s5.e1" charOffset="91-113"
+            type="group" text="coumarin anticoagulants"/>
+        <pair id="DDI-DrugBank.d359.s5.p0" e1="DDI-DrugBank.d359.s5.e0"
+            e2="DDI-DrugBank.d359.s5.e1" ddi="false"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d359.s6" text="Caution is therefore advised when administering PEGANONE to patients receiving coumarin anticoagulants.">
+        <entity id="DDI-DrugBank.d359.s6.e0" charOffset="48-55"
+            type="brand" text="PEGANONE"/>
+        <entity id="DDI-DrugBank.d359.s6.e1" charOffset="79-101"
+            type="group" text="coumarin anticoagulants"/>
+        <pair id="DDI-DrugBank.d359.s6.p0" e1="DDI-DrugBank.d359.s6.e0"
+            e2="DDI-DrugBank.d359.s6.e1" ddi="true" type="advise"/>
+    </sentence>
+</document>

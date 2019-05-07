@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="DDI-DrugBank.d74">
+    <sentence id="DDI-DrugBank.d74.s0" text="FLUOTHANE augments the action of non-depolarising muscle relaxants and the muscle relaxant effects of aminoglycosides.">
+        <entity id="DDI-DrugBank.d74.s0.e0" charOffset="0-8"
+            type="brand" text="FLUOTHANE"/>
+        <entity id="DDI-DrugBank.d74.s0.e1" charOffset="33-64"
+            type="group" text="non-depolarising muscle relaxant"/>
+        <entity id="DDI-DrugBank.d74.s0.e2" charOffset="102-116"
+            type="group" text="aminoglycosides"/>
+        <pair id="DDI-DrugBank.d74.s0.p0" e1="DDI-DrugBank.d74.s0.e0"
+            e2="DDI-DrugBank.d74.s0.e1" ddi="true" type="effect"/>
+        <pair id="DDI-DrugBank.d74.s0.p1" e1="DDI-DrugBank.d74.s0.e0"
+            e2="DDI-DrugBank.d74.s0.e2" ddi="true" type="effect"/>
+        <pair id="DDI-DrugBank.d74.s0.p2" e1="DDI-DrugBank.d74.s0.e1"
+            e2="DDI-DrugBank.d74.s0.e2" ddi="false"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d74.s1" text="FLUOTHANE may augment the hypotension caused by the ganglionic-blocking effect of tubocurarine.">
+        <entity id="DDI-DrugBank.d74.s1.e0" charOffset="0-8"
+            type="brand" text="FLUOTHANE"/>
+        <entity id="DDI-DrugBank.d74.s1.e1" charOffset="82-93"
+            type="drug" text="tubocurarine"/>
+        <pair id="DDI-DrugBank.d74.s1.p0" e1="DDI-DrugBank.d74.s1.e0"
+            e2="DDI-DrugBank.d74.s1.e1" ddi="true" type="effect"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d74.s2" text="Caution should be exercised during the administration of adrenaline to patients anaesthetised with FLUOTHANE as arrhythmias may be precipitated.">
+        <entity id="DDI-DrugBank.d74.s2.e0" charOffset="57-66"
+            type="drug" text="adrenaline"/>
+        <entity id="DDI-DrugBank.d74.s2.e1" charOffset="99-107"
+            type="brand" text="FLUOTHANE"/>
+        <pair id="DDI-DrugBank.d74.s2.p0" e1="DDI-DrugBank.d74.s2.e0"
+            e2="DDI-DrugBank.d74.s2.e1" ddi="true" type="advise"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d74.s3" text="For this reason the dose of adrenaline should be restricted and an antiarrhythmic agent administered as appropriate.">
+        <entity id="DDI-DrugBank.d74.s3.e0" charOffset="28-37"
+            type="drug" text="adrenaline"/>
+        <entity id="DDI-DrugBank.d74.s3.e1" charOffset="67-86"
+            type="group" text="antiarrhythmic agent"/>
+        <pair id="DDI-DrugBank.d74.s3.p0" e1="DDI-DrugBank.d74.s3.e0"
+            e2="DDI-DrugBank.d74.s3.e1" ddi="false"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d74.s4" text="Caution should also be applied for other sympathomimetics, and for aminophylline and theophylline and tricyclic antidepressants, which may also precipitate arrhythmias.">
+        <entity id="DDI-DrugBank.d74.s4.e0" charOffset="41-56"
+            type="group" text="sympathomimetics"/>
+        <entity id="DDI-DrugBank.d74.s4.e1" charOffset="67-79"
+            type="drug" text="aminophylline"/>
+        <entity id="DDI-DrugBank.d74.s4.e2" charOffset="85-96"
+            type="drug" text="theophylline"/>
+        <entity id="DDI-DrugBank.d74.s4.e3" charOffset="102-126"
+            type="group" text="tricyclic antidepressants"/>
+        <pair id="DDI-DrugBank.d74.s4.p0" e1="DDI-DrugBank.d74.s4.e0"
+            e2="DDI-DrugBank.d74.s4.e1" ddi="false"/>
+        <pair id="DDI-DrugBank.d74.s4.p1" e1="DDI-DrugBank.d74.s4.e0"
+            e2="DDI-DrugBank.d74.s4.e2" ddi="false"/>
+        <pair id="DDI-DrugBank.d74.s4.p2" e1="DDI-DrugBank.d74.s4.e0"
+            e2="DDI-DrugBank.d74.s4.e3" ddi="false"/>
+        <pair id="DDI-DrugBank.d74.s4.p3" e1="DDI-DrugBank.d74.s4.e1"
+            e2="DDI-DrugBank.d74.s4.e2" ddi="false"/>
+        <pair id="DDI-DrugBank.d74.s4.p4" e1="DDI-DrugBank.d74.s4.e1"
+            e2="DDI-DrugBank.d74.s4.e3" ddi="false"/>
+        <pair id="DDI-DrugBank.d74.s4.p5" e1="DDI-DrugBank.d74.s4.e2"
+            e2="DDI-DrugBank.d74.s4.e3" ddi="false"/>
+    </sentence>
+</document>

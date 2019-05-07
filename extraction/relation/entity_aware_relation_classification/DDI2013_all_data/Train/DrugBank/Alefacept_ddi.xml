@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="DDI-DrugBank.d491">
+    <sentence id="DDI-DrugBank.d491.s0" text="No formal interaction studies have been performed."/>
+    <sentence id="DDI-DrugBank.d491.s1" text="The duration of the period following treatment with AMEVIVE  before one should consider starting other immunosuppressive therapy has not been evaluated.">
+        <entity id="DDI-DrugBank.d491.s1.e0" charOffset="52-58"
+            type="brand" text="AMEVIVE"/>
+        <entity id="DDI-DrugBank.d491.s1.e1" charOffset="103-119"
+            type="group" text="immunosuppressive"/>
+        <pair id="DDI-DrugBank.d491.s1.p0" e1="DDI-DrugBank.d491.s1.e0"
+            e2="DDI-DrugBank.d491.s1.e1" ddi="false"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d491.s2" text="Carcinogenesis, Mutagenesis, and Fertility"/>
+    <sentence id="DDI-DrugBank.d491.s3" text="In a chronic toxicity study, cynomolgus monkeys were dosed weekly for 52 weeks with intravenous alefacept at 1 mg/kg/dose or 20 mg/kg/dose.">
+        <entity id="DDI-DrugBank.d491.s3.e0" charOffset="96-104"
+            type="drug" text="alefacept"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d491.s4" text="One animal in the high dose group developed a B-cell lymphoma that was detected after 28 weeks of dosing."/>
+    <sentence id="DDI-DrugBank.d491.s5" text="Additional animals in both dose groups developed B-cell hyperplasia of the spleen and lymph nodes."/>
+    <sentence id="DDI-DrugBank.d491.s6" text="All animals in the study were positive for an endemic primate gammaherpes virus also known as lymphocryptovirus (LCV)."/>
+    <sentence id="DDI-DrugBank.d491.s7" text="Latent LCV infection is generally asymptomatic, but can lead to B-cell lymphomas when animals are immune suppressed."/>
+    <sentence id="DDI-DrugBank.d491.s8" text="In a separate study, baboons given 3 doses of alefacept at 1 mg/kg every 8 weeks were found to have centroblast proliferation in B-cell dependent areas in the germinal centers of the spleen following a 116-day washout period.">
+        <entity id="DDI-DrugBank.d491.s8.e0" charOffset="46-54"
+            type="drug" text="alefacept"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d491.s9" text="The role of AMEVIVE in the development of the lymphoid malignancy and the hyperplasia observed in non-human primates and the relevance to humans is unknown.">
+        <entity id="DDI-DrugBank.d491.s9.e0" charOffset="12-18"
+            type="brand" text="AMEVIVE"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d491.s10" text="Immunodeficiency-associated lymphocyte disorders (plasmacytic hyperplasia, polymorphic proliferation, and B-cell lymphomas) occur in patients who have congenital or acquired immunodeficiencies including those resulting from immunosuppressive therapy.">
+        <entity id="DDI-DrugBank.d491.s10.e0" charOffset="224-240"
+            type="group" text="immunosuppressive"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d491.s11" text="No carcinogenicity or fertility studies were conducted."/>
+    <sentence id="DDI-DrugBank.d491.s12" text="Mutagenicity studies were conducted in vitro and in vivo;"/>
+    <sentence id="DDI-DrugBank.d491.s13" text="no evidence of mutagenicity was observed."/>
+    <sentence id="DDI-DrugBank.d491.s14" text="Pregnancy (Category B)"/>
+    <sentence id="DDI-DrugBank.d491.s15" text="Women of childbearing potential make up a considerable segment of the patient population affected by psoriasis."/>
+    <sentence id="DDI-DrugBank.d491.s16" text="Since the effect of AMEVIVE on pregnancy and fetal development, including immune system development, is not known, health care providers are encouraged to enroll patients currently taking AMEVIVE who become pregnant into the Biogen Pregnancy Registry by calling 1-866-AMEVIVE (1-866-263-8483).">
+        <entity id="DDI-DrugBank.d491.s16.e0" charOffset="20-26"
+            type="brand" text="AMEVIVE"/>
+        <entity id="DDI-DrugBank.d491.s16.e1" charOffset="188-194"
+            type="brand" text="AMEVIVE"/>
+        <entity id="DDI-DrugBank.d491.s16.e2" charOffset="268-274"
+            type="brand" text="AMEVIVE"/>
+        <pair id="DDI-DrugBank.d491.s16.p0"
+            e1="DDI-DrugBank.d491.s16.e0" e2="DDI-DrugBank.d491.s16.e1" ddi="false"/>
+        <pair id="DDI-DrugBank.d491.s16.p1"
+            e1="DDI-DrugBank.d491.s16.e0" e2="DDI-DrugBank.d491.s16.e2" ddi="false"/>
+        <pair id="DDI-DrugBank.d491.s16.p2"
+            e1="DDI-DrugBank.d491.s16.e1" e2="DDI-DrugBank.d491.s16.e2" ddi="false"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d491.s17" text="Reproductive toxicology studies have been performed in cynomolgus monkeys at doses up to 5 mg/kg/week (about 62 times the human dose based on body weight) and have revealed no evidence of impaired fertility or harm to the fetus due to AMEVIVE.">
+        <entity id="DDI-DrugBank.d491.s17.e0" charOffset="235-241"
+            type="brand" text="AMEVIVE"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d491.s18" text="No abortifacient or teratogenic effects were observed in cynomolgus monkeys following intravenous bolus injections of AMEVIVE administered weekly during the period of organogenesis to gestation.">
+        <entity id="DDI-DrugBank.d491.s18.e0" charOffset="118-124"
+            type="brand" text="AMEVIVE"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d491.s19" text="AMEVIVE underwent trans-placental passage and produced in utero exposure in the developing monkeys.">
+        <entity id="DDI-DrugBank.d491.s19.e0" charOffset="0-6"
+            type="brand" text="AMEVIVE"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d491.s20" text="In utero, serum levels of exposure in these monkeys were 23% of maternal serum levels."/>
+    <sentence id="DDI-DrugBank.d491.s21" text="No evidence of fetal toxicity including adverse effects on immune system development was observed in any of these animals."/>
+    <sentence id="DDI-DrugBank.d491.s22" text="Animal reproduction studies, however, are not always predictive of human response and there are no adequate and well-controlled studies in pregnant women."/>
+    <sentence id="DDI-DrugBank.d491.s23" text="Because the risk to the development of the fetal immune system and postnatal immune function in humans is unknown, AMEVIVE  should be used during pregnancy only if clearly needed.">
+        <entity id="DDI-DrugBank.d491.s23.e0" charOffset="115-121"
+            type="brand" text="AMEVIVE"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d491.s24" text="If pregnancy occurs while taking AMEVIVE, continued use of the drug should be assessed.">
+        <entity id="DDI-DrugBank.d491.s24.e0" charOffset="33-39"
+            type="brand" text="AMEVIVE"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d491.s25" text="Nursing Mothers"/>
+    <sentence id="DDI-DrugBank.d491.s26" text="It is not known whether AMEVIVE is excreted in human milk.">
+        <entity id="DDI-DrugBank.d491.s26.e0" charOffset="24-30"
+            type="brand" text="AMEVIVE"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d491.s27" text="Because many drugs are excreted in human milk, and because there exists the potential for serious adverse reactions in nursing infants from AMEVIVE, a decision should be made whether to discontinue nursing while taking the drug or to discontinue the use of the drug, taking into account the importance of the drug to the mother.">
+        <entity id="DDI-DrugBank.d491.s27.e0" charOffset="140-146"
+            type="brand" text="AMEVIVE"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d491.s28" text="Geriatric Use"/>
+    <sentence id="DDI-DrugBank.d491.s29" text="Of the 1357 patients who received AMEVIVE in clinical trials, a total of 100 patients were">
+        <entity id="DDI-DrugBank.d491.s29.e0" charOffset="34-40"
+            type="brand" text="AMEVIVE"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d491.s30" text="65 years of age and 13 patients were"/>
+    <sentence id="DDI-DrugBank.d491.s31" text="75 years of age."/>
+    <sentence id="DDI-DrugBank.d491.s32" text="No differences in safety or efficacy were observed between older and younger patients, but there were not sufficient data to exclude important differences."/>
+    <sentence id="DDI-DrugBank.d491.s33" text="Because the incidence of infections and certain malignancies is higher in the elderly population, in general, caution should be used in treating the elderly."/>
+    <sentence id="DDI-DrugBank.d491.s34" text="Pediatric Use"/>
+    <sentence id="DDI-DrugBank.d491.s35" text="The safety and efficacy of AMEVIVE in pediatric patients have not been studied.">
+        <entity id="DDI-DrugBank.d491.s35.e0" charOffset="27-33"
+            type="brand" text="AMEVIVE"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d491.s36" text="AMEVIVE is not indicated for pediatric patients.">
+        <entity id="DDI-DrugBank.d491.s36.e0" charOffset="0-6"
+            type="brand" text="AMEVIVE"/>
+    </sentence>
+</document>

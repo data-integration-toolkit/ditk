@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="DDI-MedLine.d27">
+    <sentence id="DDI-MedLine.d27.s0" text="[The GABA-ergic system and brain edema] It has been shown in rats with experimental toxic and traumatic edemas that picrotoxin (1 mg/kg) removes the antiedematous action of diazepam, phenazepam, phenibut and amizyl and reduces the action of phentolamine. ">
+        <entity id="DDI-MedLine.d27.s0.e0" charOffset="116-125"
+            type="drug_n" text="picrotoxin"/>
+        <entity id="DDI-MedLine.d27.s0.e1" charOffset="173-180"
+            type="drug" text="diazepam"/>
+        <entity id="DDI-MedLine.d27.s0.e2" charOffset="183-192"
+            type="drug_n" text="phenazepam"/>
+        <entity id="DDI-MedLine.d27.s0.e3" charOffset="195-202"
+            type="drug_n" text="phenibut"/>
+        <entity id="DDI-MedLine.d27.s0.e4" charOffset="208-213"
+            type="drug_n" text="amizyl"/>
+        <entity id="DDI-MedLine.d27.s0.e5" charOffset="241-252"
+            type="drug" text="phentolamine"/>
+        <pair id="DDI-MedLine.d27.s0.p0" e1="DDI-MedLine.d27.s0.e0"
+            e2="DDI-MedLine.d27.s0.e1" ddi="true" type="effect"/>
+        <pair id="DDI-MedLine.d27.s0.p1" e1="DDI-MedLine.d27.s0.e0"
+            e2="DDI-MedLine.d27.s0.e2" ddi="true" type="effect"/>
+        <pair id="DDI-MedLine.d27.s0.p2" e1="DDI-MedLine.d27.s0.e0"
+            e2="DDI-MedLine.d27.s0.e3" ddi="true" type="effect"/>
+        <pair id="DDI-MedLine.d27.s0.p3" e1="DDI-MedLine.d27.s0.e0"
+            e2="DDI-MedLine.d27.s0.e4" ddi="true" type="effect"/>
+        <pair id="DDI-MedLine.d27.s0.p4" e1="DDI-MedLine.d27.s0.e0"
+            e2="DDI-MedLine.d27.s0.e5" ddi="true" type="effect"/>
+        <pair id="DDI-MedLine.d27.s0.p5" e1="DDI-MedLine.d27.s0.e1"
+            e2="DDI-MedLine.d27.s0.e2" ddi="false"/>
+        <pair id="DDI-MedLine.d27.s0.p6" e1="DDI-MedLine.d27.s0.e1"
+            e2="DDI-MedLine.d27.s0.e3" ddi="false"/>
+        <pair id="DDI-MedLine.d27.s0.p7" e1="DDI-MedLine.d27.s0.e1"
+            e2="DDI-MedLine.d27.s0.e4" ddi="false"/>
+        <pair id="DDI-MedLine.d27.s0.p8" e1="DDI-MedLine.d27.s0.e1"
+            e2="DDI-MedLine.d27.s0.e5" ddi="false"/>
+        <pair id="DDI-MedLine.d27.s0.p9" e1="DDI-MedLine.d27.s0.e2"
+            e2="DDI-MedLine.d27.s0.e3" ddi="false"/>
+        <pair id="DDI-MedLine.d27.s0.p10" e1="DDI-MedLine.d27.s0.e2"
+            e2="DDI-MedLine.d27.s0.e4" ddi="false"/>
+        <pair id="DDI-MedLine.d27.s0.p11" e1="DDI-MedLine.d27.s0.e2"
+            e2="DDI-MedLine.d27.s0.e5" ddi="false"/>
+        <pair id="DDI-MedLine.d27.s0.p12" e1="DDI-MedLine.d27.s0.e3"
+            e2="DDI-MedLine.d27.s0.e4" ddi="false"/>
+        <pair id="DDI-MedLine.d27.s0.p13" e1="DDI-MedLine.d27.s0.e3"
+            e2="DDI-MedLine.d27.s0.e5" ddi="false"/>
+        <pair id="DDI-MedLine.d27.s0.p14" e1="DDI-MedLine.d27.s0.e4"
+            e2="DDI-MedLine.d27.s0.e5" ddi="false"/>
+    </sentence>
+    <sentence id="DDI-MedLine.d27.s1" text="When the dose of picrotoxin is minimized to 0.5 mg/kg such an effect is not observed. ">
+        <entity id="DDI-MedLine.d27.s1.e0" charOffset="17-26"
+            type="drug_n" text="picrotoxin"/>
+    </sentence>
+    <sentence id="DDI-MedLine.d27.s2" text="Prolonged daily administration of picrotoxin in a dose of 1 mg/kg results in the development of brain edema. ">
+        <entity id="DDI-MedLine.d27.s2.e0" charOffset="34-43"
+            type="drug_n" text="picrotoxin"/>
+    </sentence>
+    <sentence id="DDI-MedLine.d27.s3" text="It is recommended that GABA-positive drugs be included into a complex of treatment measures for edema."/>
+</document>

@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="DDI-MedLine.d189">
+    <sentence id="DDI-MedLine.d189.s0" text="Effects of CYP inhibitors on precocene I metabolism and toxicity in rat liver slices.&#xd;&#xa;">
+        <entity id="DDI-MedLine.d189.s0.e0" charOffset="29-39"
+            type="drug_n" text="precocene I"/>
+    </sentence>
+    <sentence id="DDI-MedLine.d189.s1" text="We present a comprehensive in vitro approach to assessing metabolism-mediated hepatotoxicity using male Sprague-Dawley rat liver slices incubated with the well characterized hepatotoxicant, precocene I, and inhibitors of cytochrome P450 (CYP) enzymes. ">
+        <entity id="DDI-MedLine.d189.s1.e0" charOffset="190-200"
+            type="drug_n" text="precocene I"/>
+    </sentence>
+    <sentence id="DDI-MedLine.d189.s2" text="This approach combines liquid chromatography mass spectrometry (LC MS) detection methods with multiple toxicity endpoints to enable identification of critical metabolic pathways for hepatotoxicity. "/>
+    <sentence id="DDI-MedLine.d189.s3" text="The incubations were performed in the absence and presence of the non-specific CYP inhibitor, 1-aminobenzotriazole (ABT) and isoform-specific inhibitors. ">
+        <entity id="DDI-MedLine.d189.s3.e0" charOffset="94-113"
+            type="drug_n" text="1-aminobenzotriazole"/>
+        <entity id="DDI-MedLine.d189.s3.e1" charOffset="116-118"
+            type="drug_n" text="ABT"/>
+        <pair id="DDI-MedLine.d189.s3.p0" e1="DDI-MedLine.d189.s3.e0"
+            e2="DDI-MedLine.d189.s3.e1" ddi="false"/>
+    </sentence>
+    <sentence id="DDI-MedLine.d189.s4" text="The metabolite profile of precocene I in rat liver slices shares some features of the in vivo profile, but also had a major difference in that epoxide dihydrodiol hydrolysis products were not observed to a measurable extent. ">
+        <entity id="DDI-MedLine.d189.s4.e0" charOffset="26-36"
+            type="drug_n" text="precocene I"/>
+    </sentence>
+    <sentence id="DDI-MedLine.d189.s5" text="As examples of our liver slice metabolite identification procedure, a minor glutathione adduct and previously unreported 7-O-desmethyl and glucuronidated metabolites of precocene I are reported. ">
+        <entity id="DDI-MedLine.d189.s5.e0" charOffset="169-179"
+            type="drug_n" text="precocene I"/>
+    </sentence>
+    <sentence id="DDI-MedLine.d189.s6" text="Precocene I induced hepatocellular necrosis in a dose- and time-dependent manner. ">
+        <entity id="DDI-MedLine.d189.s6.e0" charOffset="0-10"
+            type="drug_n" text="Precocene I"/>
+    </sentence>
+    <sentence id="DDI-MedLine.d189.s7" text="ABT decreased the toxicity of precocene I, increased exposure to parent compound, and decreased metabolite levels in a dose-dependent manner. ">
+        <entity id="DDI-MedLine.d189.s7.e0" charOffset="0-2"
+            type="drug_n" text="ABT"/>
+        <entity id="DDI-MedLine.d189.s7.e1" charOffset="30-40"
+            type="drug_n" text="precocene I"/>
+        <pair id="DDI-MedLine.d189.s7.p0" e1="DDI-MedLine.d189.s7.e0"
+            e2="DDI-MedLine.d189.s7.e1" ddi="true" type="effect"/>
+    </sentence>
+    <sentence id="DDI-MedLine.d189.s8" text="Of the isoform-specific CYP inhibitors tested for an effect on the precocene I metabolite profile, only tranylcypromine was noticeably effective, indicating a role of CYPs 2A6, 2C9, 2Cl9, and 2E1. ">
+        <entity id="DDI-MedLine.d189.s8.e0" charOffset="67-77"
+            type="drug_n" text="precocene I"/>
+        <entity id="DDI-MedLine.d189.s8.e1" charOffset="104-118"
+            type="drug" text="tranylcypromine"/>
+        <pair id="DDI-MedLine.d189.s8.p0" e1="DDI-MedLine.d189.s8.e0"
+            e2="DDI-MedLine.d189.s8.e1" ddi="false"/>
+    </sentence>
+    <sentence id="DDI-MedLine.d189.s9" text="With respect to toxicity, the order of CYP inhibitor effectiveness was ABT>diethyldithiocarbamate~tranylcypromine>ketoconazole. ">
+        <entity id="DDI-MedLine.d189.s9.e0" charOffset="71-73"
+            type="drug_n" text="ABT"/>
+        <entity id="DDI-MedLine.d189.s9.e1" charOffset="75-96"
+            type="drug_n" text="diethyldithiocarbamate"/>
+        <entity id="DDI-MedLine.d189.s9.e2" charOffset="98-112"
+            type="drug" text="tranylcypromine"/>
+        <entity id="DDI-MedLine.d189.s9.e3" charOffset="114-125"
+            type="drug" text="ketoconazole"/>
+        <pair id="DDI-MedLine.d189.s9.p0" e1="DDI-MedLine.d189.s9.e0"
+            e2="DDI-MedLine.d189.s9.e1" ddi="false"/>
+        <pair id="DDI-MedLine.d189.s9.p1" e1="DDI-MedLine.d189.s9.e0"
+            e2="DDI-MedLine.d189.s9.e2" ddi="false"/>
+        <pair id="DDI-MedLine.d189.s9.p2" e1="DDI-MedLine.d189.s9.e0"
+            e2="DDI-MedLine.d189.s9.e3" ddi="false"/>
+        <pair id="DDI-MedLine.d189.s9.p3" e1="DDI-MedLine.d189.s9.e1"
+            e2="DDI-MedLine.d189.s9.e2" ddi="false"/>
+        <pair id="DDI-MedLine.d189.s9.p4" e1="DDI-MedLine.d189.s9.e1"
+            e2="DDI-MedLine.d189.s9.e3" ddi="false"/>
+        <pair id="DDI-MedLine.d189.s9.p5" e1="DDI-MedLine.d189.s9.e2"
+            e2="DDI-MedLine.d189.s9.e3" ddi="false"/>
+    </sentence>
+    <sentence id="DDI-MedLine.d189.s10" text="Furafylline and sulfaphenazole had no effect, while quinidine appeared to augment precocene I toxicity. ">
+        <entity id="DDI-MedLine.d189.s10.e0" charOffset="0-10"
+            type="drug_n" text="Furafylline"/>
+        <entity id="DDI-MedLine.d189.s10.e1" charOffset="16-29"
+            type="drug_n" text="sulfaphenazole"/>
+        <entity id="DDI-MedLine.d189.s10.e2" charOffset="52-60"
+            type="drug" text="quinidine"/>
+        <entity id="DDI-MedLine.d189.s10.e3" charOffset="82-92"
+            type="drug_n" text="precocene I"/>
+        <pair id="DDI-MedLine.d189.s10.p0" e1="DDI-MedLine.d189.s10.e0"
+            e2="DDI-MedLine.d189.s10.e1" ddi="false"/>
+        <pair id="DDI-MedLine.d189.s10.p1" e1="DDI-MedLine.d189.s10.e0"
+            e2="DDI-MedLine.d189.s10.e2" ddi="false"/>
+        <pair id="DDI-MedLine.d189.s10.p2" e1="DDI-MedLine.d189.s10.e0"
+            e2="DDI-MedLine.d189.s10.e3" ddi="false"/>
+        <pair id="DDI-MedLine.d189.s10.p3" e1="DDI-MedLine.d189.s10.e1"
+            e2="DDI-MedLine.d189.s10.e2" ddi="false"/>
+        <pair id="DDI-MedLine.d189.s10.p4" e1="DDI-MedLine.d189.s10.e1"
+            e2="DDI-MedLine.d189.s10.e3" ddi="false"/>
+        <pair id="DDI-MedLine.d189.s10.p5" e1="DDI-MedLine.d189.s10.e2"
+            e2="DDI-MedLine.d189.s10.e3" ddi="true" type="effect"/>
+    </sentence>
+    <sentence id="DDI-MedLine.d189.s11" text="These results suggest that rat liver slices do not reproduce the reported in vivo biotransformation of precocene I and therefore may not be an appropriate model for precocene I metabolism. ">
+        <entity id="DDI-MedLine.d189.s11.e0" charOffset="103-113"
+            type="drug_n" text="precocene I"/>
+        <entity id="DDI-MedLine.d189.s11.e1" charOffset="165-175"
+            type="drug_n" text="precocene I"/>
+        <pair id="DDI-MedLine.d189.s11.p0" e1="DDI-MedLine.d189.s11.e0"
+            e2="DDI-MedLine.d189.s11.e1" ddi="false"/>
+    </sentence>
+    <sentence id="DDI-MedLine.d189.s12" text="However, these results provide an example of how small molecule manipulation of CYP activity in an in vitro model can be used to confirm metabolism-mediated toxicity."/>
+</document>

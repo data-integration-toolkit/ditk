@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="DDI-DrugBank.d376">
+    <sentence id="DDI-DrugBank.d376.s0" text="May interact with addictive medications, especially central nervous system (CNS) depressants with habituating potential (prolonged concurrent use may increase the risk of habituation), alcohol or CNS depression producing medications (concurrent use may increase the CNS depressant effects of either these medications or ethinamate).">
+        <entity id="DDI-DrugBank.d376.s0.e0" charOffset="52-91"
+            type="group" text="central nervous system (CNS) depressants"/>
+        <entity id="DDI-DrugBank.d376.s0.e1" charOffset="185-191"
+            type="drug" text="alcohol"/>
+        <entity id="DDI-DrugBank.d376.s0.e2" charOffset="320-329"
+            type="drug" text="ethinamate"/>
+        <pair id="DDI-DrugBank.d376.s0.p0" e1="DDI-DrugBank.d376.s0.e0"
+            e2="DDI-DrugBank.d376.s0.e1" ddi="false"/>
+        <pair id="DDI-DrugBank.d376.s0.p1" e1="DDI-DrugBank.d376.s0.e0"
+            e2="DDI-DrugBank.d376.s0.e2" ddi="false"/>
+        <pair id="DDI-DrugBank.d376.s0.p2" e1="DDI-DrugBank.d376.s0.e1"
+            e2="DDI-DrugBank.d376.s0.e2" ddi="false"/>
+    </sentence>
+</document>

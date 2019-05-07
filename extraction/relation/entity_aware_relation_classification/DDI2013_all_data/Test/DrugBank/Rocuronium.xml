@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="DDI-DrugBank.d661">
+    <sentence id="DDI-DrugBank.d661.s0" text="Drug Interactions: The use of ZEMURON    (rocuronium bromide) Injection before succinylcholine, for the purpose of attenuating some of the side effects of succinylcholine, has not been studied. ">
+        <entity id="DDI-DrugBank.d661.s0.e0" charOffset="30-36"
+            type="brand" text="ZEMURON"/>
+        <entity id="DDI-DrugBank.d661.s0.e1" charOffset="42-59"
+            type="drug" text="rocuronium bromide"/>
+        <entity id="DDI-DrugBank.d661.s0.e2" charOffset="79-93"
+            type="drug" text="succinylcholine"/>
+        <entity id="DDI-DrugBank.d661.s0.e3" charOffset="155-169"
+            type="drug" text="succinylcholine"/>
+        <pair id="DDI-DrugBank.d661.s0.p0" e1="DDI-DrugBank.d661.s0.e0"
+            e2="DDI-DrugBank.d661.s0.e1" ddi="false"/>
+        <pair id="DDI-DrugBank.d661.s0.p1" e1="DDI-DrugBank.d661.s0.e0"
+            e2="DDI-DrugBank.d661.s0.e2" ddi="false"/>
+        <pair id="DDI-DrugBank.d661.s0.p2" e1="DDI-DrugBank.d661.s0.e0"
+            e2="DDI-DrugBank.d661.s0.e3" ddi="false"/>
+        <pair id="DDI-DrugBank.d661.s0.p3" e1="DDI-DrugBank.d661.s0.e1"
+            e2="DDI-DrugBank.d661.s0.e2" ddi="false"/>
+        <pair id="DDI-DrugBank.d661.s0.p4" e1="DDI-DrugBank.d661.s0.e1"
+            e2="DDI-DrugBank.d661.s0.e3" ddi="false"/>
+        <pair id="DDI-DrugBank.d661.s0.p5" e1="DDI-DrugBank.d661.s0.e2"
+            e2="DDI-DrugBank.d661.s0.e3" ddi="false"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d661.s1" text="If ZEMURON    is administered following administration of succinylcholine, it should not be given until recovery from succinylcholine has been observed. ">
+        <entity id="DDI-DrugBank.d661.s1.e0" charOffset="3-9"
+            type="brand" text="ZEMURON"/>
+        <entity id="DDI-DrugBank.d661.s1.e1" charOffset="58-72"
+            type="drug" text="succinylcholine"/>
+        <entity id="DDI-DrugBank.d661.s1.e2" charOffset="118-132"
+            type="drug" text="succinylcholine"/>
+        <pair id="DDI-DrugBank.d661.s1.p0" e1="DDI-DrugBank.d661.s1.e0"
+            e2="DDI-DrugBank.d661.s1.e1" ddi="true" type="advise"/>
+        <pair id="DDI-DrugBank.d661.s1.p1" e1="DDI-DrugBank.d661.s1.e0"
+            e2="DDI-DrugBank.d661.s1.e2" ddi="false"/>
+        <pair id="DDI-DrugBank.d661.s1.p2" e1="DDI-DrugBank.d661.s1.e1"
+            e2="DDI-DrugBank.d661.s1.e2" ddi="false"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d661.s2" text="The median duration of action of ZEMURON    0.6 mg/kg administered after a 1 mg/kg dose of succinylcholine when T 1 returned to 75% of control was 36 minutes (range 14-57, n=12) vs. ">
+        <entity id="DDI-DrugBank.d661.s2.e0" charOffset="33-39"
+            type="brand" text="ZEMURON"/>
+        <entity id="DDI-DrugBank.d661.s2.e1" charOffset="91-105"
+            type="drug" text="succinylcholine"/>
+        <pair id="DDI-DrugBank.d661.s2.p0" e1="DDI-DrugBank.d661.s2.e0"
+            e2="DDI-DrugBank.d661.s2.e1" ddi="false"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d661.s3" text="28 minutes (17-51, n=12) without succinylcholine. ">
+        <entity id="DDI-DrugBank.d661.s3.e0" charOffset="33-47"
+            type="drug" text="succinylcholine"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d661.s4" text="There are no controlled studies documenting the use of ZEMURON    before or after other nondepolarizing muscle relaxants. ">
+        <entity id="DDI-DrugBank.d661.s4.e0" charOffset="55-61"
+            type="brand" text="ZEMURON"/>
+        <entity id="DDI-DrugBank.d661.s4.e1" charOffset="88-119"
+            type="group" text="nondepolarizing muscle relaxants"/>
+        <pair id="DDI-DrugBank.d661.s4.p0" e1="DDI-DrugBank.d661.s4.e0"
+            e2="DDI-DrugBank.d661.s4.e1" ddi="false"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d661.s5" text="Interactions have been observed when other nondepolarizing muscle relaxants have been administered in succession. ">
+        <entity id="DDI-DrugBank.d661.s5.e0" charOffset="43-74"
+            type="group" text="nondepolarizing muscle relaxants"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d661.s6" text="Drug/Laboratory Test Interactions:       None known."/>
+</document>

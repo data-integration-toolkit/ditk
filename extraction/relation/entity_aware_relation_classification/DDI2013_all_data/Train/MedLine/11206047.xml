@@ -1,0 +1,377 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="DDI-MedLine.d111">
+    <sentence id="DDI-MedLine.d111.s0" text="Effect of coadministered drugs and ethanol on the binding of therapeutic drugs to human serum in vitro.&#xd;&#xa;">
+        <entity id="DDI-MedLine.d111.s0.e0" charOffset="35-41"
+            type="drug" text="ethanol"/>
+    </sentence>
+    <sentence id="DDI-MedLine.d111.s1" text="The effects of coadministered drugs and ethanol on the binding of therapeutic drugs to human serum in vitro was investigated. ">
+        <entity id="DDI-MedLine.d111.s1.e0" charOffset="40-46"
+            type="drug" text="ethanol"/>
+    </sentence>
+    <sentence id="DDI-MedLine.d111.s2" text="Acetaminophen, lidocaine, phenobarbital, quinidine, theophylline, and valproic acid were added to pooled human serum at therapeutic concentrations. ">
+        <entity id="DDI-MedLine.d111.s2.e0" charOffset="0-12"
+            type="drug" text="Acetaminophen"/>
+        <entity id="DDI-MedLine.d111.s2.e1" charOffset="15-23"
+            type="drug" text="lidocaine"/>
+        <entity id="DDI-MedLine.d111.s2.e2" charOffset="26-38"
+            type="drug" text="phenobarbital"/>
+        <entity id="DDI-MedLine.d111.s2.e3" charOffset="41-49"
+            type="drug" text="quinidine"/>
+        <entity id="DDI-MedLine.d111.s2.e4" charOffset="52-63"
+            type="drug" text="theophylline"/>
+        <entity id="DDI-MedLine.d111.s2.e5" charOffset="70-82"
+            type="drug" text="valproic acid"/>
+        <pair id="DDI-MedLine.d111.s2.p0" e1="DDI-MedLine.d111.s2.e0"
+            e2="DDI-MedLine.d111.s2.e1" ddi="false"/>
+        <pair id="DDI-MedLine.d111.s2.p1" e1="DDI-MedLine.d111.s2.e0"
+            e2="DDI-MedLine.d111.s2.e2" ddi="false"/>
+        <pair id="DDI-MedLine.d111.s2.p2" e1="DDI-MedLine.d111.s2.e0"
+            e2="DDI-MedLine.d111.s2.e3" ddi="false"/>
+        <pair id="DDI-MedLine.d111.s2.p3" e1="DDI-MedLine.d111.s2.e0"
+            e2="DDI-MedLine.d111.s2.e4" ddi="false"/>
+        <pair id="DDI-MedLine.d111.s2.p4" e1="DDI-MedLine.d111.s2.e0"
+            e2="DDI-MedLine.d111.s2.e5" ddi="false"/>
+        <pair id="DDI-MedLine.d111.s2.p5" e1="DDI-MedLine.d111.s2.e1"
+            e2="DDI-MedLine.d111.s2.e2" ddi="false"/>
+        <pair id="DDI-MedLine.d111.s2.p6" e1="DDI-MedLine.d111.s2.e1"
+            e2="DDI-MedLine.d111.s2.e3" ddi="false"/>
+        <pair id="DDI-MedLine.d111.s2.p7" e1="DDI-MedLine.d111.s2.e1"
+            e2="DDI-MedLine.d111.s2.e4" ddi="false"/>
+        <pair id="DDI-MedLine.d111.s2.p8" e1="DDI-MedLine.d111.s2.e1"
+            e2="DDI-MedLine.d111.s2.e5" ddi="false"/>
+        <pair id="DDI-MedLine.d111.s2.p9" e1="DDI-MedLine.d111.s2.e2"
+            e2="DDI-MedLine.d111.s2.e3" ddi="false"/>
+        <pair id="DDI-MedLine.d111.s2.p10" e1="DDI-MedLine.d111.s2.e2"
+            e2="DDI-MedLine.d111.s2.e4" ddi="false"/>
+        <pair id="DDI-MedLine.d111.s2.p11" e1="DDI-MedLine.d111.s2.e2"
+            e2="DDI-MedLine.d111.s2.e5" ddi="false"/>
+        <pair id="DDI-MedLine.d111.s2.p12" e1="DDI-MedLine.d111.s2.e3"
+            e2="DDI-MedLine.d111.s2.e4" ddi="false"/>
+        <pair id="DDI-MedLine.d111.s2.p13" e1="DDI-MedLine.d111.s2.e3"
+            e2="DDI-MedLine.d111.s2.e5" ddi="false"/>
+        <pair id="DDI-MedLine.d111.s2.p14" e1="DDI-MedLine.d111.s2.e4"
+            e2="DDI-MedLine.d111.s2.e5" ddi="false"/>
+    </sentence>
+    <sentence id="DDI-MedLine.d111.s3" text="To each preparation was added one additional drug at three concentrations ranging from therapeutic to toxic. "/>
+    <sentence id="DDI-MedLine.d111.s4" text="The following eight target drug/added drug combinations were studied: acetaminophen/phenobarbital. ">
+        <entity id="DDI-MedLine.d111.s4.e0" charOffset="70-82"
+            type="drug" text="acetaminophen"/>
+        <entity id="DDI-MedLine.d111.s4.e1" charOffset="84-96"
+            type="drug" text="phenobarbital"/>
+        <pair id="DDI-MedLine.d111.s4.p0" e1="DDI-MedLine.d111.s4.e0"
+            e2="DDI-MedLine.d111.s4.e1" ddi="false"/>
+    </sentence>
+    <sentence id="DDI-MedLine.d111.s5" text="acetaminophen/theophylline, lidocaine/quinidine, phenobarbital/acetaminophen, phenobarbital/valproic acid, quinidine/lidocaine, theophylline/acetaminophen, and valproic acid/phenobarbital. ">
+        <entity id="DDI-MedLine.d111.s5.e0" charOffset="0-12"
+            type="drug" text="acetaminophen"/>
+        <entity id="DDI-MedLine.d111.s5.e1" charOffset="14-25"
+            type="drug" text="theophylline"/>
+        <entity id="DDI-MedLine.d111.s5.e2" charOffset="28-36"
+            type="drug" text="lidocaine"/>
+        <entity id="DDI-MedLine.d111.s5.e3" charOffset="38-46"
+            type="drug" text="quinidine"/>
+        <entity id="DDI-MedLine.d111.s5.e4" charOffset="49-61"
+            type="drug" text="phenobarbital"/>
+        <entity id="DDI-MedLine.d111.s5.e5" charOffset="63-75"
+            type="drug" text="acetaminophen"/>
+        <entity id="DDI-MedLine.d111.s5.e6" charOffset="78-90"
+            type="drug" text="phenobarbital"/>
+        <entity id="DDI-MedLine.d111.s5.e7" charOffset="92-104"
+            type="drug" text="valproic acid"/>
+        <entity id="DDI-MedLine.d111.s5.e8" charOffset="107-115"
+            type="drug" text="quinidine"/>
+        <entity id="DDI-MedLine.d111.s5.e9" charOffset="117-125"
+            type="drug" text="lidocaine"/>
+        <entity id="DDI-MedLine.d111.s5.e10" charOffset="128-139"
+            type="drug" text="theophylline"/>
+        <entity id="DDI-MedLine.d111.s5.e11" charOffset="141-153"
+            type="drug" text="acetaminophen"/>
+        <entity id="DDI-MedLine.d111.s5.e12" charOffset="160-172"
+            type="drug" text="valproic acid"/>
+        <entity id="DDI-MedLine.d111.s5.e13" charOffset="174-186"
+            type="drug" text="phenobarbital"/>
+        <pair id="DDI-MedLine.d111.s5.p0" e1="DDI-MedLine.d111.s5.e0"
+            e2="DDI-MedLine.d111.s5.e1" ddi="false"/>
+        <pair id="DDI-MedLine.d111.s5.p1" e1="DDI-MedLine.d111.s5.e0"
+            e2="DDI-MedLine.d111.s5.e2" ddi="false"/>
+        <pair id="DDI-MedLine.d111.s5.p2" e1="DDI-MedLine.d111.s5.e0"
+            e2="DDI-MedLine.d111.s5.e3" ddi="false"/>
+        <pair id="DDI-MedLine.d111.s5.p3" e1="DDI-MedLine.d111.s5.e0"
+            e2="DDI-MedLine.d111.s5.e4" ddi="false"/>
+        <pair id="DDI-MedLine.d111.s5.p4" e1="DDI-MedLine.d111.s5.e0"
+            e2="DDI-MedLine.d111.s5.e5" ddi="false"/>
+        <pair id="DDI-MedLine.d111.s5.p5" e1="DDI-MedLine.d111.s5.e0"
+            e2="DDI-MedLine.d111.s5.e6" ddi="false"/>
+        <pair id="DDI-MedLine.d111.s5.p6" e1="DDI-MedLine.d111.s5.e0"
+            e2="DDI-MedLine.d111.s5.e7" ddi="false"/>
+        <pair id="DDI-MedLine.d111.s5.p7" e1="DDI-MedLine.d111.s5.e0"
+            e2="DDI-MedLine.d111.s5.e8" ddi="false"/>
+        <pair id="DDI-MedLine.d111.s5.p8" e1="DDI-MedLine.d111.s5.e0"
+            e2="DDI-MedLine.d111.s5.e9" ddi="false"/>
+        <pair id="DDI-MedLine.d111.s5.p9" e1="DDI-MedLine.d111.s5.e0"
+            e2="DDI-MedLine.d111.s5.e10" ddi="false"/>
+        <pair id="DDI-MedLine.d111.s5.p10" e1="DDI-MedLine.d111.s5.e0"
+            e2="DDI-MedLine.d111.s5.e11" ddi="false"/>
+        <pair id="DDI-MedLine.d111.s5.p11" e1="DDI-MedLine.d111.s5.e0"
+            e2="DDI-MedLine.d111.s5.e12" ddi="false"/>
+        <pair id="DDI-MedLine.d111.s5.p12" e1="DDI-MedLine.d111.s5.e0"
+            e2="DDI-MedLine.d111.s5.e13" ddi="false"/>
+        <pair id="DDI-MedLine.d111.s5.p13" e1="DDI-MedLine.d111.s5.e1"
+            e2="DDI-MedLine.d111.s5.e2" ddi="false"/>
+        <pair id="DDI-MedLine.d111.s5.p14" e1="DDI-MedLine.d111.s5.e1"
+            e2="DDI-MedLine.d111.s5.e3" ddi="false"/>
+        <pair id="DDI-MedLine.d111.s5.p15" e1="DDI-MedLine.d111.s5.e1"
+            e2="DDI-MedLine.d111.s5.e4" ddi="false"/>
+        <pair id="DDI-MedLine.d111.s5.p16" e1="DDI-MedLine.d111.s5.e1"
+            e2="DDI-MedLine.d111.s5.e5" ddi="false"/>
+        <pair id="DDI-MedLine.d111.s5.p17" e1="DDI-MedLine.d111.s5.e1"
+            e2="DDI-MedLine.d111.s5.e6" ddi="false"/>
+        <pair id="DDI-MedLine.d111.s5.p18" e1="DDI-MedLine.d111.s5.e1"
+            e2="DDI-MedLine.d111.s5.e7" ddi="false"/>
+        <pair id="DDI-MedLine.d111.s5.p19" e1="DDI-MedLine.d111.s5.e1"
+            e2="DDI-MedLine.d111.s5.e8" ddi="false"/>
+        <pair id="DDI-MedLine.d111.s5.p20" e1="DDI-MedLine.d111.s5.e1"
+            e2="DDI-MedLine.d111.s5.e9" ddi="false"/>
+        <pair id="DDI-MedLine.d111.s5.p21" e1="DDI-MedLine.d111.s5.e1"
+            e2="DDI-MedLine.d111.s5.e10" ddi="false"/>
+        <pair id="DDI-MedLine.d111.s5.p22" e1="DDI-MedLine.d111.s5.e1"
+            e2="DDI-MedLine.d111.s5.e11" ddi="false"/>
+        <pair id="DDI-MedLine.d111.s5.p23" e1="DDI-MedLine.d111.s5.e1"
+            e2="DDI-MedLine.d111.s5.e12" ddi="false"/>
+        <pair id="DDI-MedLine.d111.s5.p24" e1="DDI-MedLine.d111.s5.e1"
+            e2="DDI-MedLine.d111.s5.e13" ddi="false"/>
+        <pair id="DDI-MedLine.d111.s5.p25" e1="DDI-MedLine.d111.s5.e2"
+            e2="DDI-MedLine.d111.s5.e3" ddi="false"/>
+        <pair id="DDI-MedLine.d111.s5.p26" e1="DDI-MedLine.d111.s5.e2"
+            e2="DDI-MedLine.d111.s5.e4" ddi="false"/>
+        <pair id="DDI-MedLine.d111.s5.p27" e1="DDI-MedLine.d111.s5.e2"
+            e2="DDI-MedLine.d111.s5.e5" ddi="false"/>
+        <pair id="DDI-MedLine.d111.s5.p28" e1="DDI-MedLine.d111.s5.e2"
+            e2="DDI-MedLine.d111.s5.e6" ddi="false"/>
+        <pair id="DDI-MedLine.d111.s5.p29" e1="DDI-MedLine.d111.s5.e2"
+            e2="DDI-MedLine.d111.s5.e7" ddi="false"/>
+        <pair id="DDI-MedLine.d111.s5.p30" e1="DDI-MedLine.d111.s5.e2"
+            e2="DDI-MedLine.d111.s5.e8" ddi="false"/>
+        <pair id="DDI-MedLine.d111.s5.p31" e1="DDI-MedLine.d111.s5.e2"
+            e2="DDI-MedLine.d111.s5.e9" ddi="false"/>
+        <pair id="DDI-MedLine.d111.s5.p32" e1="DDI-MedLine.d111.s5.e2"
+            e2="DDI-MedLine.d111.s5.e10" ddi="false"/>
+        <pair id="DDI-MedLine.d111.s5.p33" e1="DDI-MedLine.d111.s5.e2"
+            e2="DDI-MedLine.d111.s5.e11" ddi="false"/>
+        <pair id="DDI-MedLine.d111.s5.p34" e1="DDI-MedLine.d111.s5.e2"
+            e2="DDI-MedLine.d111.s5.e12" ddi="false"/>
+        <pair id="DDI-MedLine.d111.s5.p35" e1="DDI-MedLine.d111.s5.e2"
+            e2="DDI-MedLine.d111.s5.e13" ddi="false"/>
+        <pair id="DDI-MedLine.d111.s5.p36" e1="DDI-MedLine.d111.s5.e3"
+            e2="DDI-MedLine.d111.s5.e4" ddi="false"/>
+        <pair id="DDI-MedLine.d111.s5.p37" e1="DDI-MedLine.d111.s5.e3"
+            e2="DDI-MedLine.d111.s5.e5" ddi="false"/>
+        <pair id="DDI-MedLine.d111.s5.p38" e1="DDI-MedLine.d111.s5.e3"
+            e2="DDI-MedLine.d111.s5.e6" ddi="false"/>
+        <pair id="DDI-MedLine.d111.s5.p39" e1="DDI-MedLine.d111.s5.e3"
+            e2="DDI-MedLine.d111.s5.e7" ddi="false"/>
+        <pair id="DDI-MedLine.d111.s5.p40" e1="DDI-MedLine.d111.s5.e3"
+            e2="DDI-MedLine.d111.s5.e8" ddi="false"/>
+        <pair id="DDI-MedLine.d111.s5.p41" e1="DDI-MedLine.d111.s5.e3"
+            e2="DDI-MedLine.d111.s5.e9" ddi="false"/>
+        <pair id="DDI-MedLine.d111.s5.p42" e1="DDI-MedLine.d111.s5.e3"
+            e2="DDI-MedLine.d111.s5.e10" ddi="false"/>
+        <pair id="DDI-MedLine.d111.s5.p43" e1="DDI-MedLine.d111.s5.e3"
+            e2="DDI-MedLine.d111.s5.e11" ddi="false"/>
+        <pair id="DDI-MedLine.d111.s5.p44" e1="DDI-MedLine.d111.s5.e3"
+            e2="DDI-MedLine.d111.s5.e12" ddi="false"/>
+        <pair id="DDI-MedLine.d111.s5.p45" e1="DDI-MedLine.d111.s5.e3"
+            e2="DDI-MedLine.d111.s5.e13" ddi="false"/>
+        <pair id="DDI-MedLine.d111.s5.p46" e1="DDI-MedLine.d111.s5.e4"
+            e2="DDI-MedLine.d111.s5.e5" ddi="false"/>
+        <pair id="DDI-MedLine.d111.s5.p47" e1="DDI-MedLine.d111.s5.e4"
+            e2="DDI-MedLine.d111.s5.e6" ddi="false"/>
+        <pair id="DDI-MedLine.d111.s5.p48" e1="DDI-MedLine.d111.s5.e4"
+            e2="DDI-MedLine.d111.s5.e7" ddi="false"/>
+        <pair id="DDI-MedLine.d111.s5.p49" e1="DDI-MedLine.d111.s5.e4"
+            e2="DDI-MedLine.d111.s5.e8" ddi="false"/>
+        <pair id="DDI-MedLine.d111.s5.p50" e1="DDI-MedLine.d111.s5.e4"
+            e2="DDI-MedLine.d111.s5.e9" ddi="false"/>
+        <pair id="DDI-MedLine.d111.s5.p51" e1="DDI-MedLine.d111.s5.e4"
+            e2="DDI-MedLine.d111.s5.e10" ddi="false"/>
+        <pair id="DDI-MedLine.d111.s5.p52" e1="DDI-MedLine.d111.s5.e4"
+            e2="DDI-MedLine.d111.s5.e11" ddi="false"/>
+        <pair id="DDI-MedLine.d111.s5.p53" e1="DDI-MedLine.d111.s5.e4"
+            e2="DDI-MedLine.d111.s5.e12" ddi="false"/>
+        <pair id="DDI-MedLine.d111.s5.p54" e1="DDI-MedLine.d111.s5.e4"
+            e2="DDI-MedLine.d111.s5.e13" ddi="false"/>
+        <pair id="DDI-MedLine.d111.s5.p55" e1="DDI-MedLine.d111.s5.e5"
+            e2="DDI-MedLine.d111.s5.e6" ddi="false"/>
+        <pair id="DDI-MedLine.d111.s5.p56" e1="DDI-MedLine.d111.s5.e5"
+            e2="DDI-MedLine.d111.s5.e7" ddi="false"/>
+        <pair id="DDI-MedLine.d111.s5.p57" e1="DDI-MedLine.d111.s5.e5"
+            e2="DDI-MedLine.d111.s5.e8" ddi="false"/>
+        <pair id="DDI-MedLine.d111.s5.p58" e1="DDI-MedLine.d111.s5.e5"
+            e2="DDI-MedLine.d111.s5.e9" ddi="false"/>
+        <pair id="DDI-MedLine.d111.s5.p59" e1="DDI-MedLine.d111.s5.e5"
+            e2="DDI-MedLine.d111.s5.e10" ddi="false"/>
+        <pair id="DDI-MedLine.d111.s5.p60" e1="DDI-MedLine.d111.s5.e5"
+            e2="DDI-MedLine.d111.s5.e11" ddi="false"/>
+        <pair id="DDI-MedLine.d111.s5.p61" e1="DDI-MedLine.d111.s5.e5"
+            e2="DDI-MedLine.d111.s5.e12" ddi="false"/>
+        <pair id="DDI-MedLine.d111.s5.p62" e1="DDI-MedLine.d111.s5.e5"
+            e2="DDI-MedLine.d111.s5.e13" ddi="false"/>
+        <pair id="DDI-MedLine.d111.s5.p63" e1="DDI-MedLine.d111.s5.e6"
+            e2="DDI-MedLine.d111.s5.e7" ddi="false"/>
+        <pair id="DDI-MedLine.d111.s5.p64" e1="DDI-MedLine.d111.s5.e6"
+            e2="DDI-MedLine.d111.s5.e8" ddi="false"/>
+        <pair id="DDI-MedLine.d111.s5.p65" e1="DDI-MedLine.d111.s5.e6"
+            e2="DDI-MedLine.d111.s5.e9" ddi="false"/>
+        <pair id="DDI-MedLine.d111.s5.p66" e1="DDI-MedLine.d111.s5.e6"
+            e2="DDI-MedLine.d111.s5.e10" ddi="false"/>
+        <pair id="DDI-MedLine.d111.s5.p67" e1="DDI-MedLine.d111.s5.e6"
+            e2="DDI-MedLine.d111.s5.e11" ddi="false"/>
+        <pair id="DDI-MedLine.d111.s5.p68" e1="DDI-MedLine.d111.s5.e6"
+            e2="DDI-MedLine.d111.s5.e12" ddi="false"/>
+        <pair id="DDI-MedLine.d111.s5.p69" e1="DDI-MedLine.d111.s5.e6"
+            e2="DDI-MedLine.d111.s5.e13" ddi="false"/>
+        <pair id="DDI-MedLine.d111.s5.p70" e1="DDI-MedLine.d111.s5.e7"
+            e2="DDI-MedLine.d111.s5.e8" ddi="false"/>
+        <pair id="DDI-MedLine.d111.s5.p71" e1="DDI-MedLine.d111.s5.e7"
+            e2="DDI-MedLine.d111.s5.e9" ddi="false"/>
+        <pair id="DDI-MedLine.d111.s5.p72" e1="DDI-MedLine.d111.s5.e7"
+            e2="DDI-MedLine.d111.s5.e10" ddi="false"/>
+        <pair id="DDI-MedLine.d111.s5.p73" e1="DDI-MedLine.d111.s5.e7"
+            e2="DDI-MedLine.d111.s5.e11" ddi="false"/>
+        <pair id="DDI-MedLine.d111.s5.p74" e1="DDI-MedLine.d111.s5.e7"
+            e2="DDI-MedLine.d111.s5.e12" ddi="false"/>
+        <pair id="DDI-MedLine.d111.s5.p75" e1="DDI-MedLine.d111.s5.e7"
+            e2="DDI-MedLine.d111.s5.e13" ddi="false"/>
+        <pair id="DDI-MedLine.d111.s5.p76" e1="DDI-MedLine.d111.s5.e8"
+            e2="DDI-MedLine.d111.s5.e9" ddi="false"/>
+        <pair id="DDI-MedLine.d111.s5.p77" e1="DDI-MedLine.d111.s5.e8"
+            e2="DDI-MedLine.d111.s5.e10" ddi="false"/>
+        <pair id="DDI-MedLine.d111.s5.p78" e1="DDI-MedLine.d111.s5.e8"
+            e2="DDI-MedLine.d111.s5.e11" ddi="false"/>
+        <pair id="DDI-MedLine.d111.s5.p79" e1="DDI-MedLine.d111.s5.e8"
+            e2="DDI-MedLine.d111.s5.e12" ddi="false"/>
+        <pair id="DDI-MedLine.d111.s5.p80" e1="DDI-MedLine.d111.s5.e8"
+            e2="DDI-MedLine.d111.s5.e13" ddi="false"/>
+        <pair id="DDI-MedLine.d111.s5.p81" e1="DDI-MedLine.d111.s5.e9"
+            e2="DDI-MedLine.d111.s5.e10" ddi="false"/>
+        <pair id="DDI-MedLine.d111.s5.p82" e1="DDI-MedLine.d111.s5.e9"
+            e2="DDI-MedLine.d111.s5.e11" ddi="false"/>
+        <pair id="DDI-MedLine.d111.s5.p83" e1="DDI-MedLine.d111.s5.e9"
+            e2="DDI-MedLine.d111.s5.e12" ddi="false"/>
+        <pair id="DDI-MedLine.d111.s5.p84" e1="DDI-MedLine.d111.s5.e9"
+            e2="DDI-MedLine.d111.s5.e13" ddi="false"/>
+        <pair id="DDI-MedLine.d111.s5.p85" e1="DDI-MedLine.d111.s5.e10"
+            e2="DDI-MedLine.d111.s5.e11" ddi="false"/>
+        <pair id="DDI-MedLine.d111.s5.p86" e1="DDI-MedLine.d111.s5.e10"
+            e2="DDI-MedLine.d111.s5.e12" ddi="false"/>
+        <pair id="DDI-MedLine.d111.s5.p87" e1="DDI-MedLine.d111.s5.e10"
+            e2="DDI-MedLine.d111.s5.e13" ddi="false"/>
+        <pair id="DDI-MedLine.d111.s5.p88" e1="DDI-MedLine.d111.s5.e11"
+            e2="DDI-MedLine.d111.s5.e12" ddi="false"/>
+        <pair id="DDI-MedLine.d111.s5.p89" e1="DDI-MedLine.d111.s5.e11"
+            e2="DDI-MedLine.d111.s5.e13" ddi="false"/>
+        <pair id="DDI-MedLine.d111.s5.p90" e1="DDI-MedLine.d111.s5.e12"
+            e2="DDI-MedLine.d111.s5.e13" ddi="false"/>
+    </sentence>
+    <sentence id="DDI-MedLine.d111.s6" text="Each serum without the other added drug as well as the serum supplemented with the other drug at the three concentrations was dialyzed against phosphate buffer. "/>
+    <sentence id="DDI-MedLine.d111.s7" text="Similarly dialyzed were phenobarbital, quinidine, and theophylline, both alone at therapeutic concentrations in serum and with ethanol at three different concentrations in serum. ">
+        <entity id="DDI-MedLine.d111.s7.e0" charOffset="24-36"
+            type="drug" text="phenobarbital"/>
+        <entity id="DDI-MedLine.d111.s7.e1" charOffset="39-47"
+            type="drug" text="quinidine"/>
+        <entity id="DDI-MedLine.d111.s7.e2" charOffset="54-65"
+            type="drug" text="theophylline"/>
+        <entity id="DDI-MedLine.d111.s7.e3" charOffset="127-133"
+            type="drug" text="ethanol"/>
+        <pair id="DDI-MedLine.d111.s7.p0" e1="DDI-MedLine.d111.s7.e0"
+            e2="DDI-MedLine.d111.s7.e1" ddi="false"/>
+        <pair id="DDI-MedLine.d111.s7.p1" e1="DDI-MedLine.d111.s7.e0"
+            e2="DDI-MedLine.d111.s7.e2" ddi="false"/>
+        <pair id="DDI-MedLine.d111.s7.p2" e1="DDI-MedLine.d111.s7.e0"
+            e2="DDI-MedLine.d111.s7.e3" ddi="false"/>
+        <pair id="DDI-MedLine.d111.s7.p3" e1="DDI-MedLine.d111.s7.e1"
+            e2="DDI-MedLine.d111.s7.e2" ddi="false"/>
+        <pair id="DDI-MedLine.d111.s7.p4" e1="DDI-MedLine.d111.s7.e1"
+            e2="DDI-MedLine.d111.s7.e3" ddi="false"/>
+        <pair id="DDI-MedLine.d111.s7.p5" e1="DDI-MedLine.d111.s7.e2"
+            e2="DDI-MedLine.d111.s7.e3" ddi="false"/>
+    </sentence>
+    <sentence id="DDI-MedLine.d111.s8" text="The percentage of drug binding in each preparation was calculated. "/>
+    <sentence id="DDI-MedLine.d111.s9" text="Acetaminophen diminished the binding of theophylline to human serum by a net change of 5.7% (percentage increase in free drug fraction [FDF], 11.0%) at 662 micromol/L and by a net change of 7.1% (percentage increase in FDF, 13.7%) at 1324 micromol/L. ">
+        <entity id="DDI-MedLine.d111.s9.e0" charOffset="0-12"
+            type="drug" text="Acetaminophen"/>
+        <entity id="DDI-MedLine.d111.s9.e1" charOffset="40-51"
+            type="drug" text="theophylline"/>
+        <pair id="DDI-MedLine.d111.s9.p0" e1="DDI-MedLine.d111.s9.e0"
+            e2="DDI-MedLine.d111.s9.e1" ddi="true" type="mechanism"/>
+    </sentence>
+    <sentence id="DDI-MedLine.d111.s10" text="Theophylline decreased the binding of acetaminophen by a net change of 6.8% (percentage increase in FDF, 8.8%) at 277.5 micromol/L; ">
+        <entity id="DDI-MedLine.d111.s10.e0" charOffset="0-11"
+            type="drug" text="Theophylline"/>
+        <entity id="DDI-MedLine.d111.s10.e1" charOffset="38-50"
+            type="drug" text="acetaminophen"/>
+        <pair id="DDI-MedLine.d111.s10.p0" e1="DDI-MedLine.d111.s10.e0"
+            e2="DDI-MedLine.d111.s10.e1" ddi="true" type="mechanism"/>
+    </sentence>
+    <sentence id="DDI-MedLine.d111.s11" text="phenobarbital reduced it by a net change of 6.6% (percentage increase in FDF, 8.5%) at 431 micromol/L. ">
+        <entity id="DDI-MedLine.d111.s11.e0" charOffset="0-12"
+            type="drug" text="phenobarbital"/>
+    </sentence>
+    <sentence id="DDI-MedLine.d111.s12" text="Valproic acid diminished binding of phenobarbital by a net change of 9.9% (percentage increase in FDF, 21.2%) at 1732 micromol/L. ">
+        <entity id="DDI-MedLine.d111.s12.e0" charOffset="0-12"
+            type="drug" text="Valproic acid"/>
+        <entity id="DDI-MedLine.d111.s12.e1" charOffset="36-48"
+            type="drug" text="phenobarbital"/>
+        <pair id="DDI-MedLine.d111.s12.p0" e1="DDI-MedLine.d111.s12.e0"
+            e2="DDI-MedLine.d111.s12.e1" ddi="true" type="mechanism"/>
+    </sentence>
+    <sentence id="DDI-MedLine.d111.s13" text="No significant effects were noted with other drug combinations or with the addition of ethanol. ">
+        <entity id="DDI-MedLine.d111.s13.e0" charOffset="87-93"
+            type="drug" text="ethanol"/>
+    </sentence>
+    <sentence id="DDI-MedLine.d111.s14" text="Coingestion of acetaminophen with theophylline, phenobarbital with acetaminophen, and valproic acid with phenobarbital at high to toxic concentrations decreases the binding of the target drug. ">
+        <entity id="DDI-MedLine.d111.s14.e0" charOffset="15-27"
+            type="drug" text="acetaminophen"/>
+        <entity id="DDI-MedLine.d111.s14.e1" charOffset="34-45"
+            type="drug" text="theophylline"/>
+        <entity id="DDI-MedLine.d111.s14.e2" charOffset="48-60"
+            type="drug" text="phenobarbital"/>
+        <entity id="DDI-MedLine.d111.s14.e3" charOffset="67-79"
+            type="drug" text="acetaminophen"/>
+        <entity id="DDI-MedLine.d111.s14.e4" charOffset="86-98"
+            type="drug" text="valproic acid"/>
+        <entity id="DDI-MedLine.d111.s14.e5" charOffset="105-117"
+            type="drug" text="phenobarbital"/>
+        <pair id="DDI-MedLine.d111.s14.p0" e1="DDI-MedLine.d111.s14.e0"
+            e2="DDI-MedLine.d111.s14.e1" ddi="true" type="effect"/>
+        <pair id="DDI-MedLine.d111.s14.p1" e1="DDI-MedLine.d111.s14.e0"
+            e2="DDI-MedLine.d111.s14.e2" ddi="false"/>
+        <pair id="DDI-MedLine.d111.s14.p2" e1="DDI-MedLine.d111.s14.e0"
+            e2="DDI-MedLine.d111.s14.e3" ddi="false"/>
+        <pair id="DDI-MedLine.d111.s14.p3" e1="DDI-MedLine.d111.s14.e0"
+            e2="DDI-MedLine.d111.s14.e4" ddi="false"/>
+        <pair id="DDI-MedLine.d111.s14.p4" e1="DDI-MedLine.d111.s14.e0"
+            e2="DDI-MedLine.d111.s14.e5" ddi="false"/>
+        <pair id="DDI-MedLine.d111.s14.p5" e1="DDI-MedLine.d111.s14.e1"
+            e2="DDI-MedLine.d111.s14.e2" ddi="false"/>
+        <pair id="DDI-MedLine.d111.s14.p6" e1="DDI-MedLine.d111.s14.e1"
+            e2="DDI-MedLine.d111.s14.e3" ddi="false"/>
+        <pair id="DDI-MedLine.d111.s14.p7" e1="DDI-MedLine.d111.s14.e1"
+            e2="DDI-MedLine.d111.s14.e4" ddi="false"/>
+        <pair id="DDI-MedLine.d111.s14.p8" e1="DDI-MedLine.d111.s14.e1"
+            e2="DDI-MedLine.d111.s14.e5" ddi="false"/>
+        <pair id="DDI-MedLine.d111.s14.p9" e1="DDI-MedLine.d111.s14.e2"
+            e2="DDI-MedLine.d111.s14.e3" ddi="true" type="effect"/>
+        <pair id="DDI-MedLine.d111.s14.p10" e1="DDI-MedLine.d111.s14.e2"
+            e2="DDI-MedLine.d111.s14.e4" ddi="false"/>
+        <pair id="DDI-MedLine.d111.s14.p11" e1="DDI-MedLine.d111.s14.e2"
+            e2="DDI-MedLine.d111.s14.e5" ddi="false"/>
+        <pair id="DDI-MedLine.d111.s14.p12" e1="DDI-MedLine.d111.s14.e3"
+            e2="DDI-MedLine.d111.s14.e4" ddi="false"/>
+        <pair id="DDI-MedLine.d111.s14.p13" e1="DDI-MedLine.d111.s14.e3"
+            e2="DDI-MedLine.d111.s14.e5" ddi="false"/>
+        <pair id="DDI-MedLine.d111.s14.p14" e1="DDI-MedLine.d111.s14.e4"
+            e2="DDI-MedLine.d111.s14.e5" ddi="true" type="effect"/>
+    </sentence>
+    <sentence id="DDI-MedLine.d111.s15" text="The resulting increase in free drug concentration may lead to enhanced drug effect in vivo."/>
+</document>

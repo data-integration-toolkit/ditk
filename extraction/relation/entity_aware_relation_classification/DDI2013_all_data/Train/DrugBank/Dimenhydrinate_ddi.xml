@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="DDI-DrugBank.d96">
+    <sentence id="DDI-DrugBank.d96.s0" text="Dimenhydrinate may decrease emetic response to apomorphine.">
+        <entity id="DDI-DrugBank.d96.s0.e0" charOffset="0-13"
+            type="drug" text="Dimenhydrinate"/>
+        <entity id="DDI-DrugBank.d96.s0.e1" charOffset="28-33"
+            type="group" text="emetic"/>
+        <entity id="DDI-DrugBank.d96.s0.e2" charOffset="47-57"
+            type="drug" text="apomorphine"/>
+        <pair id="DDI-DrugBank.d96.s0.p0" e1="DDI-DrugBank.d96.s0.e0"
+            e2="DDI-DrugBank.d96.s0.e1" ddi="false"/>
+        <pair id="DDI-DrugBank.d96.s0.p1" e1="DDI-DrugBank.d96.s0.e0"
+            e2="DDI-DrugBank.d96.s0.e2" ddi="true" type="effect"/>
+        <pair id="DDI-DrugBank.d96.s0.p2" e1="DDI-DrugBank.d96.s0.e1"
+            e2="DDI-DrugBank.d96.s0.e2" ddi="false"/>
+    </sentence>
+</document>

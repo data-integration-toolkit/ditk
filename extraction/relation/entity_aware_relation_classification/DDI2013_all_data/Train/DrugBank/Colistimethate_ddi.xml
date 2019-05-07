@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="DDI-DrugBank.d250">
+    <sentence id="DDI-DrugBank.d250.s0" text="Certain other antibiotics (aminoglycosides and polymyxin) have also been reported to interfere with the nerve transmission at the neuromuscular junction.">
+        <entity id="DDI-DrugBank.d250.s0.e0" charOffset="14-24"
+            type="group" text="antibiotics"/>
+        <entity id="DDI-DrugBank.d250.s0.e1" charOffset="27-41"
+            type="group" text="aminoglycosides"/>
+        <entity id="DDI-DrugBank.d250.s0.e2" charOffset="47-55"
+            type="group" text="polymyxin"/>
+        <pair id="DDI-DrugBank.d250.s0.p0" e1="DDI-DrugBank.d250.s0.e0"
+            e2="DDI-DrugBank.d250.s0.e1" ddi="false"/>
+        <pair id="DDI-DrugBank.d250.s0.p1" e1="DDI-DrugBank.d250.s0.e0"
+            e2="DDI-DrugBank.d250.s0.e2" ddi="false"/>
+        <pair id="DDI-DrugBank.d250.s0.p2" e1="DDI-DrugBank.d250.s0.e1"
+            e2="DDI-DrugBank.d250.s0.e2" ddi="false"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d250.s1" text="Based on this reported activity, they should not be given concomitantly with Coly-Mycin M Parenteral except with the greatest caution.">
+        <entity id="DDI-DrugBank.d250.s1.e0" charOffset="77-88"
+            type="brand" text="Coly-Mycin M"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d250.s2" text="Curariform muscle relaxants (eg, tubocurarine) and other drugs, including ether, succinylcholine, gallamine, decamethonium and sodium citrate, potentiate the neuromuscular blocking effect and should be used with extreme caution in patients being treated with Coly-Mycin M Parenteral.">
+        <entity id="DDI-DrugBank.d250.s2.e0" charOffset="0-26"
+            type="brand" text="Curariform muscle relaxants"/>
+        <entity id="DDI-DrugBank.d250.s2.e1" charOffset="33-44"
+            type="drug" text="tubocurarine"/>
+        <entity id="DDI-DrugBank.d250.s2.e2" charOffset="81-95"
+            type="drug" text="succinylcholine"/>
+        <entity id="DDI-DrugBank.d250.s2.e3" charOffset="98-106"
+            type="drug" text="gallamine"/>
+        <entity id="DDI-DrugBank.d250.s2.e4" charOffset="109-121"
+            type="drug" text="decamethonium"/>
+        <entity id="DDI-DrugBank.d250.s2.e5" charOffset="127-140"
+            type="drug" text="sodium citrate"/>
+        <entity id="DDI-DrugBank.d250.s2.e6" charOffset="259-270"
+            type="brand" text="Coly-Mycin M"/>
+        <pair id="DDI-DrugBank.d250.s2.p0" e1="DDI-DrugBank.d250.s2.e0"
+            e2="DDI-DrugBank.d250.s2.e1" ddi="false"/>
+        <pair id="DDI-DrugBank.d250.s2.p1" e1="DDI-DrugBank.d250.s2.e0"
+            e2="DDI-DrugBank.d250.s2.e2" ddi="false"/>
+        <pair id="DDI-DrugBank.d250.s2.p2" e1="DDI-DrugBank.d250.s2.e0"
+            e2="DDI-DrugBank.d250.s2.e3" ddi="false"/>
+        <pair id="DDI-DrugBank.d250.s2.p3" e1="DDI-DrugBank.d250.s2.e0"
+            e2="DDI-DrugBank.d250.s2.e4" ddi="false"/>
+        <pair id="DDI-DrugBank.d250.s2.p4" e1="DDI-DrugBank.d250.s2.e0"
+            e2="DDI-DrugBank.d250.s2.e5" ddi="false"/>
+        <pair id="DDI-DrugBank.d250.s2.p5" e1="DDI-DrugBank.d250.s2.e0"
+            e2="DDI-DrugBank.d250.s2.e6" ddi="true" type="effect"/>
+        <pair id="DDI-DrugBank.d250.s2.p6" e1="DDI-DrugBank.d250.s2.e1"
+            e2="DDI-DrugBank.d250.s2.e2" ddi="false"/>
+        <pair id="DDI-DrugBank.d250.s2.p7" e1="DDI-DrugBank.d250.s2.e1"
+            e2="DDI-DrugBank.d250.s2.e3" ddi="false"/>
+        <pair id="DDI-DrugBank.d250.s2.p8" e1="DDI-DrugBank.d250.s2.e1"
+            e2="DDI-DrugBank.d250.s2.e4" ddi="false"/>
+        <pair id="DDI-DrugBank.d250.s2.p9" e1="DDI-DrugBank.d250.s2.e1"
+            e2="DDI-DrugBank.d250.s2.e5" ddi="false"/>
+        <pair id="DDI-DrugBank.d250.s2.p10" e1="DDI-DrugBank.d250.s2.e1"
+            e2="DDI-DrugBank.d250.s2.e6" ddi="true" type="effect"/>
+        <pair id="DDI-DrugBank.d250.s2.p11" e1="DDI-DrugBank.d250.s2.e2"
+            e2="DDI-DrugBank.d250.s2.e3" ddi="false"/>
+        <pair id="DDI-DrugBank.d250.s2.p12" e1="DDI-DrugBank.d250.s2.e2"
+            e2="DDI-DrugBank.d250.s2.e4" ddi="false"/>
+        <pair id="DDI-DrugBank.d250.s2.p13" e1="DDI-DrugBank.d250.s2.e2"
+            e2="DDI-DrugBank.d250.s2.e5" ddi="false"/>
+        <pair id="DDI-DrugBank.d250.s2.p14" e1="DDI-DrugBank.d250.s2.e2"
+            e2="DDI-DrugBank.d250.s2.e6" ddi="true" type="effect"/>
+        <pair id="DDI-DrugBank.d250.s2.p15" e1="DDI-DrugBank.d250.s2.e3"
+            e2="DDI-DrugBank.d250.s2.e4" ddi="false"/>
+        <pair id="DDI-DrugBank.d250.s2.p16" e1="DDI-DrugBank.d250.s2.e3"
+            e2="DDI-DrugBank.d250.s2.e5" ddi="false"/>
+        <pair id="DDI-DrugBank.d250.s2.p17" e1="DDI-DrugBank.d250.s2.e3"
+            e2="DDI-DrugBank.d250.s2.e6" ddi="true" type="effect"/>
+        <pair id="DDI-DrugBank.d250.s2.p18" e1="DDI-DrugBank.d250.s2.e4"
+            e2="DDI-DrugBank.d250.s2.e5" ddi="false"/>
+        <pair id="DDI-DrugBank.d250.s2.p19" e1="DDI-DrugBank.d250.s2.e4"
+            e2="DDI-DrugBank.d250.s2.e6" ddi="true" type="effect"/>
+        <pair id="DDI-DrugBank.d250.s2.p20" e1="DDI-DrugBank.d250.s2.e5"
+            e2="DDI-DrugBank.d250.s2.e6" ddi="true" type="effect"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d250.s3" text="Sodium cephalothin may enhance the nephrotoxicity of Coly-Mycin M Parenteral.">
+        <entity id="DDI-DrugBank.d250.s3.e0" charOffset="0-17"
+            type="drug" text="Sodium cephalothin"/>
+        <entity id="DDI-DrugBank.d250.s3.e1" charOffset="53-64"
+            type="brand" text="Coly-Mycin M"/>
+        <pair id="DDI-DrugBank.d250.s3.p0" e1="DDI-DrugBank.d250.s3.e0"
+            e2="DDI-DrugBank.d250.s3.e1" ddi="true" type="effect"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d250.s4" text="The concomitant use of sodium cephalothin and Coly-Mycin M Parenteral should be avoided.">
+        <entity id="DDI-DrugBank.d250.s4.e0" charOffset="23-40"
+            type="drug" text="sodium cephalothin"/>
+        <entity id="DDI-DrugBank.d250.s4.e1" charOffset="46-57"
+            type="brand" text="Coly-Mycin M"/>
+        <pair id="DDI-DrugBank.d250.s4.p0" e1="DDI-DrugBank.d250.s4.e0"
+            e2="DDI-DrugBank.d250.s4.e1" ddi="true" type="advise"/>
+    </sentence>
+</document>

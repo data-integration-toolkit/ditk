@@ -1,0 +1,185 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="DDI-DrugBank.d645">
+    <sentence id="DDI-DrugBank.d645.s0" text="In vitro studies with human liver microsomes showed that terbinafine does not inhibit the metabolism of tolbutamide, ethinylestradiol, ethoxycoumarin, and cyclosporine. ">
+        <entity id="DDI-DrugBank.d645.s0.e0" charOffset="57-67"
+            type="drug" text="terbinafine"/>
+        <entity id="DDI-DrugBank.d645.s0.e1" charOffset="104-114"
+            type="drug" text="tolbutamide"/>
+        <entity id="DDI-DrugBank.d645.s0.e2" charOffset="117-132"
+            type="drug" text="ethinylestradiol"/>
+        <entity id="DDI-DrugBank.d645.s0.e3" charOffset="135-148"
+            type="drug_n" text="ethoxycoumarin"/>
+        <entity id="DDI-DrugBank.d645.s0.e4" charOffset="155-166"
+            type="drug" text="cyclosporine"/>
+        <pair id="DDI-DrugBank.d645.s0.p0" e1="DDI-DrugBank.d645.s0.e0"
+            e2="DDI-DrugBank.d645.s0.e1" ddi="false"/>
+        <pair id="DDI-DrugBank.d645.s0.p1" e1="DDI-DrugBank.d645.s0.e0"
+            e2="DDI-DrugBank.d645.s0.e2" ddi="false"/>
+        <pair id="DDI-DrugBank.d645.s0.p2" e1="DDI-DrugBank.d645.s0.e0"
+            e2="DDI-DrugBank.d645.s0.e3" ddi="false"/>
+        <pair id="DDI-DrugBank.d645.s0.p3" e1="DDI-DrugBank.d645.s0.e0"
+            e2="DDI-DrugBank.d645.s0.e4" ddi="false"/>
+        <pair id="DDI-DrugBank.d645.s0.p4" e1="DDI-DrugBank.d645.s0.e1"
+            e2="DDI-DrugBank.d645.s0.e2" ddi="false"/>
+        <pair id="DDI-DrugBank.d645.s0.p5" e1="DDI-DrugBank.d645.s0.e1"
+            e2="DDI-DrugBank.d645.s0.e3" ddi="false"/>
+        <pair id="DDI-DrugBank.d645.s0.p6" e1="DDI-DrugBank.d645.s0.e1"
+            e2="DDI-DrugBank.d645.s0.e4" ddi="false"/>
+        <pair id="DDI-DrugBank.d645.s0.p7" e1="DDI-DrugBank.d645.s0.e2"
+            e2="DDI-DrugBank.d645.s0.e3" ddi="false"/>
+        <pair id="DDI-DrugBank.d645.s0.p8" e1="DDI-DrugBank.d645.s0.e2"
+            e2="DDI-DrugBank.d645.s0.e4" ddi="false"/>
+        <pair id="DDI-DrugBank.d645.s0.p9" e1="DDI-DrugBank.d645.s0.e3"
+            e2="DDI-DrugBank.d645.s0.e4" ddi="false"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d645.s1" text="In vitro studies have also shown that terbinafine inhibits CYP2D6-mediated metabolism. ">
+        <entity id="DDI-DrugBank.d645.s1.e0" charOffset="38-48"
+            type="drug" text="terbinafine"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d645.s2" text="This may be of clinical relevance for compounds predominantly metabolized by this enzyme, such as tricyclic antidepressants,    -blockers, selective serotonin reuptake inhibitors (SSRIs), and monoamine oxidase inhibitors (MAO-Is) Type B, if they have a narrow therapeutic window. ">
+        <entity id="DDI-DrugBank.d645.s2.e0" charOffset="98-122"
+            type="group" text="tricyclic antidepressants"/>
+        <entity id="DDI-DrugBank.d645.s2.e1" charOffset="139-177"
+            type="group" text="selective serotonin reuptake inhibitors"/>
+        <entity id="DDI-DrugBank.d645.s2.e2" charOffset="180-184"
+            type="group" text="SSRIs"/>
+        <entity id="DDI-DrugBank.d645.s2.e3" charOffset="192-235"
+            type="group" text="monoamine oxidase inhibitors (MAO-Is) Type B"/>
+        <pair id="DDI-DrugBank.d645.s2.p0" e1="DDI-DrugBank.d645.s2.e0"
+            e2="DDI-DrugBank.d645.s2.e1" ddi="false"/>
+        <pair id="DDI-DrugBank.d645.s2.p1" e1="DDI-DrugBank.d645.s2.e0"
+            e2="DDI-DrugBank.d645.s2.e2" ddi="false"/>
+        <pair id="DDI-DrugBank.d645.s2.p2" e1="DDI-DrugBank.d645.s2.e0"
+            e2="DDI-DrugBank.d645.s2.e3" ddi="false"/>
+        <pair id="DDI-DrugBank.d645.s2.p3" e1="DDI-DrugBank.d645.s2.e1"
+            e2="DDI-DrugBank.d645.s2.e2" ddi="false"/>
+        <pair id="DDI-DrugBank.d645.s2.p4" e1="DDI-DrugBank.d645.s2.e1"
+            e2="DDI-DrugBank.d645.s2.e3" ddi="false"/>
+        <pair id="DDI-DrugBank.d645.s2.p5" e1="DDI-DrugBank.d645.s2.e2"
+            e2="DDI-DrugBank.d645.s2.e3" ddi="false"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d645.s3" text="In vivo drug-drug interaction studies conducted in normal volunteer subjects showed that terbinafine does not affect the clearance of antipyrine or digoxin. ">
+        <entity id="DDI-DrugBank.d645.s3.e0" charOffset="89-99"
+            type="drug" text="terbinafine"/>
+        <entity id="DDI-DrugBank.d645.s3.e1" charOffset="134-143"
+            type="drug" text="antipyrine"/>
+        <entity id="DDI-DrugBank.d645.s3.e2" charOffset="148-154"
+            type="drug" text="digoxin"/>
+        <pair id="DDI-DrugBank.d645.s3.p0" e1="DDI-DrugBank.d645.s3.e0"
+            e2="DDI-DrugBank.d645.s3.e1" ddi="false"/>
+        <pair id="DDI-DrugBank.d645.s3.p1" e1="DDI-DrugBank.d645.s3.e0"
+            e2="DDI-DrugBank.d645.s3.e2" ddi="false"/>
+        <pair id="DDI-DrugBank.d645.s3.p2" e1="DDI-DrugBank.d645.s3.e1"
+            e2="DDI-DrugBank.d645.s3.e2" ddi="false"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d645.s4" text="Terbinafine decreases the clearance of caffeine by 19%. ">
+        <entity id="DDI-DrugBank.d645.s4.e0" charOffset="0-10"
+            type="drug" text="Terbinafine"/>
+        <entity id="DDI-DrugBank.d645.s4.e1" charOffset="39-46"
+            type="drug" text="caffeine"/>
+        <pair id="DDI-DrugBank.d645.s4.p0" e1="DDI-DrugBank.d645.s4.e0"
+            e2="DDI-DrugBank.d645.s4.e1" ddi="true" type="mechanism"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d645.s5" text="Terbinafine increases the clearance of cyclosporine by 15%. ">
+        <entity id="DDI-DrugBank.d645.s5.e0" charOffset="0-10"
+            type="drug" text="Terbinafine"/>
+        <entity id="DDI-DrugBank.d645.s5.e1" charOffset="39-50"
+            type="drug" text="cyclosporine"/>
+        <pair id="DDI-DrugBank.d645.s5.p0" e1="DDI-DrugBank.d645.s5.e0"
+            e2="DDI-DrugBank.d645.s5.e1" ddi="true" type="mechanism"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d645.s6" text="There have been spontaneous reports of increase or decrease in prothrombin times in patients concomitantly taking oral terbinafine and warfarin, however, a causal relationship between LAMISIL    Tablets and these changes has not been established. ">
+        <entity id="DDI-DrugBank.d645.s6.e0" charOffset="119-129"
+            type="drug" text="terbinafine"/>
+        <entity id="DDI-DrugBank.d645.s6.e1" charOffset="135-142"
+            type="drug" text="warfarin"/>
+        <entity id="DDI-DrugBank.d645.s6.e2" charOffset="184-190"
+            type="brand" text="LAMISIL"/>
+        <pair id="DDI-DrugBank.d645.s6.p0" e1="DDI-DrugBank.d645.s6.e0"
+            e2="DDI-DrugBank.d645.s6.e1" ddi="true" type="effect"/>
+        <pair id="DDI-DrugBank.d645.s6.p1" e1="DDI-DrugBank.d645.s6.e0"
+            e2="DDI-DrugBank.d645.s6.e2" ddi="false"/>
+        <pair id="DDI-DrugBank.d645.s6.p2" e1="DDI-DrugBank.d645.s6.e1"
+            e2="DDI-DrugBank.d645.s6.e2" ddi="false"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d645.s7" text="Terbinafine clearance is increased 100% by rifampin, a CyP450 enzyme inducer, and decreased 33% by cimetidine, a CyP450 enzyme inhibitor. ">
+        <entity id="DDI-DrugBank.d645.s7.e0" charOffset="0-10"
+            type="drug" text="Terbinafine"/>
+        <entity id="DDI-DrugBank.d645.s7.e1" charOffset="43-50"
+            type="drug" text="rifampin"/>
+        <entity id="DDI-DrugBank.d645.s7.e2" charOffset="99-108"
+            type="drug" text="cimetidine"/>
+        <pair id="DDI-DrugBank.d645.s7.p0" e1="DDI-DrugBank.d645.s7.e0"
+            e2="DDI-DrugBank.d645.s7.e1" ddi="true" type="mechanism"/>
+        <pair id="DDI-DrugBank.d645.s7.p1" e1="DDI-DrugBank.d645.s7.e0"
+            e2="DDI-DrugBank.d645.s7.e2" ddi="true" type="mechanism"/>
+        <pair id="DDI-DrugBank.d645.s7.p2" e1="DDI-DrugBank.d645.s7.e1"
+            e2="DDI-DrugBank.d645.s7.e2" ddi="false"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d645.s8" text="Terbinafine clearance is unaffected by cyclosporine. ">
+        <entity id="DDI-DrugBank.d645.s8.e0" charOffset="0-10"
+            type="drug" text="Terbinafine"/>
+        <entity id="DDI-DrugBank.d645.s8.e1" charOffset="39-50"
+            type="drug" text="cyclosporine"/>
+        <pair id="DDI-DrugBank.d645.s8.p0" e1="DDI-DrugBank.d645.s8.e0"
+            e2="DDI-DrugBank.d645.s8.e1" ddi="false"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d645.s9" text="There is no information available from adequate drug-drug interaction studies with the following classes of drugs: oral contraceptives, hormone replacement therapies, hypoglycemics, theophyllines, phenytoins, thiazide diuretics, beta blockers, and calcium channel blockers.">
+        <entity id="DDI-DrugBank.d645.s9.e0" charOffset="120-133"
+            type="group" text="contraceptives"/>
+        <entity id="DDI-DrugBank.d645.s9.e1" charOffset="167-179"
+            type="group" text="hypoglycemics"/>
+        <entity id="DDI-DrugBank.d645.s9.e2" charOffset="182-194"
+            type="drug" text="theophyllines"/>
+        <entity id="DDI-DrugBank.d645.s9.e3" charOffset="197-206"
+            type="drug" text="phenytoins"/>
+        <entity id="DDI-DrugBank.d645.s9.e4" charOffset="209-226"
+            type="group" text="thiazide diuretics"/>
+        <entity id="DDI-DrugBank.d645.s9.e5" charOffset="229-241"
+            type="group" text="beta blockers"/>
+        <entity id="DDI-DrugBank.d645.s9.e6" charOffset="248-271"
+            type="group" text="calcium channel blockers"/>
+        <pair id="DDI-DrugBank.d645.s9.p0" e1="DDI-DrugBank.d645.s9.e0"
+            e2="DDI-DrugBank.d645.s9.e1" ddi="false"/>
+        <pair id="DDI-DrugBank.d645.s9.p1" e1="DDI-DrugBank.d645.s9.e0"
+            e2="DDI-DrugBank.d645.s9.e2" ddi="false"/>
+        <pair id="DDI-DrugBank.d645.s9.p2" e1="DDI-DrugBank.d645.s9.e0"
+            e2="DDI-DrugBank.d645.s9.e3" ddi="false"/>
+        <pair id="DDI-DrugBank.d645.s9.p3" e1="DDI-DrugBank.d645.s9.e0"
+            e2="DDI-DrugBank.d645.s9.e4" ddi="false"/>
+        <pair id="DDI-DrugBank.d645.s9.p4" e1="DDI-DrugBank.d645.s9.e0"
+            e2="DDI-DrugBank.d645.s9.e5" ddi="false"/>
+        <pair id="DDI-DrugBank.d645.s9.p5" e1="DDI-DrugBank.d645.s9.e0"
+            e2="DDI-DrugBank.d645.s9.e6" ddi="false"/>
+        <pair id="DDI-DrugBank.d645.s9.p6" e1="DDI-DrugBank.d645.s9.e1"
+            e2="DDI-DrugBank.d645.s9.e2" ddi="false"/>
+        <pair id="DDI-DrugBank.d645.s9.p7" e1="DDI-DrugBank.d645.s9.e1"
+            e2="DDI-DrugBank.d645.s9.e3" ddi="false"/>
+        <pair id="DDI-DrugBank.d645.s9.p8" e1="DDI-DrugBank.d645.s9.e1"
+            e2="DDI-DrugBank.d645.s9.e4" ddi="false"/>
+        <pair id="DDI-DrugBank.d645.s9.p9" e1="DDI-DrugBank.d645.s9.e1"
+            e2="DDI-DrugBank.d645.s9.e5" ddi="false"/>
+        <pair id="DDI-DrugBank.d645.s9.p10" e1="DDI-DrugBank.d645.s9.e1"
+            e2="DDI-DrugBank.d645.s9.e6" ddi="false"/>
+        <pair id="DDI-DrugBank.d645.s9.p11" e1="DDI-DrugBank.d645.s9.e2"
+            e2="DDI-DrugBank.d645.s9.e3" ddi="false"/>
+        <pair id="DDI-DrugBank.d645.s9.p12" e1="DDI-DrugBank.d645.s9.e2"
+            e2="DDI-DrugBank.d645.s9.e4" ddi="false"/>
+        <pair id="DDI-DrugBank.d645.s9.p13" e1="DDI-DrugBank.d645.s9.e2"
+            e2="DDI-DrugBank.d645.s9.e5" ddi="false"/>
+        <pair id="DDI-DrugBank.d645.s9.p14" e1="DDI-DrugBank.d645.s9.e2"
+            e2="DDI-DrugBank.d645.s9.e6" ddi="false"/>
+        <pair id="DDI-DrugBank.d645.s9.p15" e1="DDI-DrugBank.d645.s9.e3"
+            e2="DDI-DrugBank.d645.s9.e4" ddi="false"/>
+        <pair id="DDI-DrugBank.d645.s9.p16" e1="DDI-DrugBank.d645.s9.e3"
+            e2="DDI-DrugBank.d645.s9.e5" ddi="false"/>
+        <pair id="DDI-DrugBank.d645.s9.p17" e1="DDI-DrugBank.d645.s9.e3"
+            e2="DDI-DrugBank.d645.s9.e6" ddi="false"/>
+        <pair id="DDI-DrugBank.d645.s9.p18" e1="DDI-DrugBank.d645.s9.e4"
+            e2="DDI-DrugBank.d645.s9.e5" ddi="false"/>
+        <pair id="DDI-DrugBank.d645.s9.p19" e1="DDI-DrugBank.d645.s9.e4"
+            e2="DDI-DrugBank.d645.s9.e6" ddi="false"/>
+        <pair id="DDI-DrugBank.d645.s9.p20" e1="DDI-DrugBank.d645.s9.e5"
+            e2="DDI-DrugBank.d645.s9.e6" ddi="false"/>
+    </sentence>
+</document>

@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="DDI-DrugBank.d154">
+    <sentence id="DDI-DrugBank.d154.s0" text="The coadministration of aspirin decreases the biologic half-life of fenoprofen because of an increase in metabolic clearance that results in a greater amount of hydroxylated fenoprofen in the urine.">
+        <entity id="DDI-DrugBank.d154.s0.e0" charOffset="24-30"
+            type="brand" text="aspirin"/>
+        <entity id="DDI-DrugBank.d154.s0.e1" charOffset="68-77"
+            type="drug" text="fenoprofen"/>
+        <entity id="DDI-DrugBank.d154.s0.e2" charOffset="161-183"
+            type="drug_n" text="hydroxylated fenoprofen"/>
+        <pair id="DDI-DrugBank.d154.s0.p0" e1="DDI-DrugBank.d154.s0.e0"
+            e2="DDI-DrugBank.d154.s0.e1" ddi="true" type="mechanism"/>
+        <pair id="DDI-DrugBank.d154.s0.p1" e1="DDI-DrugBank.d154.s0.e0"
+            e2="DDI-DrugBank.d154.s0.e2" ddi="false"/>
+        <pair id="DDI-DrugBank.d154.s0.p2" e1="DDI-DrugBank.d154.s0.e1"
+            e2="DDI-DrugBank.d154.s0.e2" ddi="false"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d154.s1" text="Although the mechanism of interaction between fenoprofen and aspirin is not totally known, enzyme induction and displacement of fenoprofen from plasma albumin binding sites are possibilities.">
+        <entity id="DDI-DrugBank.d154.s1.e0" charOffset="46-55"
+            type="drug" text="fenoprofen"/>
+        <entity id="DDI-DrugBank.d154.s1.e1" charOffset="61-67"
+            type="brand" text="aspirin"/>
+        <entity id="DDI-DrugBank.d154.s1.e2" charOffset="128-137"
+            type="drug" text="fenoprofen"/>
+        <pair id="DDI-DrugBank.d154.s1.p0" e1="DDI-DrugBank.d154.s1.e0"
+            e2="DDI-DrugBank.d154.s1.e1" ddi="true" type="mechanism"/>
+        <pair id="DDI-DrugBank.d154.s1.p1" e1="DDI-DrugBank.d154.s1.e0"
+            e2="DDI-DrugBank.d154.s1.e2" ddi="false"/>
+        <pair id="DDI-DrugBank.d154.s1.p2" e1="DDI-DrugBank.d154.s1.e1"
+            e2="DDI-DrugBank.d154.s1.e2" ddi="false"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d154.s2" text="Because Nalfon has not been shown to produce any additional effect beyond that obtained with aspirin alone and because aspirin increases the rate of excretion of Nalfon, the concomitant use of Nalfon and salicylates is not recommended.">
+        <entity id="DDI-DrugBank.d154.s2.e0" charOffset="8-13"
+            type="brand" text="Nalfon"/>
+        <entity id="DDI-DrugBank.d154.s2.e1" charOffset="93-99"
+            type="brand" text="aspirin"/>
+        <entity id="DDI-DrugBank.d154.s2.e2" charOffset="119-125"
+            type="brand" text="aspirin"/>
+        <entity id="DDI-DrugBank.d154.s2.e3" charOffset="162-167"
+            type="brand" text="Nalfon"/>
+        <entity id="DDI-DrugBank.d154.s2.e4" charOffset="193-198"
+            type="brand" text="Nalfon"/>
+        <entity id="DDI-DrugBank.d154.s2.e5" charOffset="204-214"
+            type="group" text="salicylates"/>
+        <pair id="DDI-DrugBank.d154.s2.p0" e1="DDI-DrugBank.d154.s2.e0"
+            e2="DDI-DrugBank.d154.s2.e1" ddi="false"/>
+        <pair id="DDI-DrugBank.d154.s2.p1" e1="DDI-DrugBank.d154.s2.e0"
+            e2="DDI-DrugBank.d154.s2.e2" ddi="false"/>
+        <pair id="DDI-DrugBank.d154.s2.p2" e1="DDI-DrugBank.d154.s2.e0"
+            e2="DDI-DrugBank.d154.s2.e3" ddi="false"/>
+        <pair id="DDI-DrugBank.d154.s2.p3" e1="DDI-DrugBank.d154.s2.e0"
+            e2="DDI-DrugBank.d154.s2.e4" ddi="false"/>
+        <pair id="DDI-DrugBank.d154.s2.p4" e1="DDI-DrugBank.d154.s2.e0"
+            e2="DDI-DrugBank.d154.s2.e5" ddi="false"/>
+        <pair id="DDI-DrugBank.d154.s2.p5" e1="DDI-DrugBank.d154.s2.e1"
+            e2="DDI-DrugBank.d154.s2.e2" ddi="false"/>
+        <pair id="DDI-DrugBank.d154.s2.p6" e1="DDI-DrugBank.d154.s2.e1"
+            e2="DDI-DrugBank.d154.s2.e3" ddi="false"/>
+        <pair id="DDI-DrugBank.d154.s2.p7" e1="DDI-DrugBank.d154.s2.e1"
+            e2="DDI-DrugBank.d154.s2.e4" ddi="false"/>
+        <pair id="DDI-DrugBank.d154.s2.p8" e1="DDI-DrugBank.d154.s2.e1"
+            e2="DDI-DrugBank.d154.s2.e5" ddi="false"/>
+        <pair id="DDI-DrugBank.d154.s2.p9" e1="DDI-DrugBank.d154.s2.e2"
+            e2="DDI-DrugBank.d154.s2.e3" ddi="true" type="mechanism"/>
+        <pair id="DDI-DrugBank.d154.s2.p10" e1="DDI-DrugBank.d154.s2.e2"
+            e2="DDI-DrugBank.d154.s2.e4" ddi="false"/>
+        <pair id="DDI-DrugBank.d154.s2.p11" e1="DDI-DrugBank.d154.s2.e2"
+            e2="DDI-DrugBank.d154.s2.e5" ddi="false"/>
+        <pair id="DDI-DrugBank.d154.s2.p12" e1="DDI-DrugBank.d154.s2.e3"
+            e2="DDI-DrugBank.d154.s2.e4" ddi="false"/>
+        <pair id="DDI-DrugBank.d154.s2.p13" e1="DDI-DrugBank.d154.s2.e3"
+            e2="DDI-DrugBank.d154.s2.e5" ddi="false"/>
+        <pair id="DDI-DrugBank.d154.s2.p14" e1="DDI-DrugBank.d154.s2.e4"
+            e2="DDI-DrugBank.d154.s2.e5" ddi="true" type="advise"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d154.s3" text="Chronic administration of phenobarbital, a known enzyme inducer, may be associated with a decrease in the plasma half-life of fenoprofen.">
+        <entity id="DDI-DrugBank.d154.s3.e0" charOffset="26-38"
+            type="drug" text="phenobarbital"/>
+        <entity id="DDI-DrugBank.d154.s3.e1" charOffset="126-135"
+            type="drug" text="fenoprofen"/>
+        <pair id="DDI-DrugBank.d154.s3.p0" e1="DDI-DrugBank.d154.s3.e0"
+            e2="DDI-DrugBank.d154.s3.e1" ddi="true" type="mechanism"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d154.s4" text="When phenobarbital is added to or withdrawn from treatment, dosage adjustment of Nalfon may be required.">
+        <entity id="DDI-DrugBank.d154.s4.e0" charOffset="5-17"
+            type="drug" text="phenobarbital"/>
+        <entity id="DDI-DrugBank.d154.s4.e1" charOffset="81-86"
+            type="brand" text="Nalfon"/>
+        <pair id="DDI-DrugBank.d154.s4.p0" e1="DDI-DrugBank.d154.s4.e0"
+            e2="DDI-DrugBank.d154.s4.e1" ddi="true" type="advise"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d154.s5" text="In vitro studies have shown that fenoprofen, because of its affinity for albumin, may displace from their binding sites other drugs that are also albumin bound, and this may lead to drug interaction.">
+        <entity id="DDI-DrugBank.d154.s5.e0" charOffset="33-42"
+            type="drug" text="fenoprofen"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d154.s6" text="Theoretically, fenoprofen could likewise be displaced.">
+        <entity id="DDI-DrugBank.d154.s6.e0" charOffset="15-24"
+            type="drug" text="fenoprofen"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d154.s7" text="Patients receiving hydantoins, sulfonamides, or sulfonylureas should be observed for increased activity of these drugs and, therefore, signs of toxicity from these drugs.">
+        <entity id="DDI-DrugBank.d154.s7.e0" charOffset="19-28"
+            type="group" text="hydantoins"/>
+        <entity id="DDI-DrugBank.d154.s7.e1" charOffset="31-42"
+            type="group" text="sulfonamides"/>
+        <entity id="DDI-DrugBank.d154.s7.e2" charOffset="48-60"
+            type="group" text="sulfonylureas"/>
+        <pair id="DDI-DrugBank.d154.s7.p0" e1="DDI-DrugBank.d154.s7.e0"
+            e2="DDI-DrugBank.d154.s7.e1" ddi="false"/>
+        <pair id="DDI-DrugBank.d154.s7.p1" e1="DDI-DrugBank.d154.s7.e0"
+            e2="DDI-DrugBank.d154.s7.e2" ddi="false"/>
+        <pair id="DDI-DrugBank.d154.s7.p2" e1="DDI-DrugBank.d154.s7.e1"
+            e2="DDI-DrugBank.d154.s7.e2" ddi="false"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d154.s8" text="In patients receiving coumarin-type anticoagulants, the addition of Nalfon to therapy could prolong the prothrombin time.">
+        <entity id="DDI-DrugBank.d154.s8.e0" charOffset="22-49"
+            type="group" text="coumarin-type anticoagulants"/>
+        <entity id="DDI-DrugBank.d154.s8.e1" charOffset="68-73"
+            type="brand" text="Nalfon"/>
+        <pair id="DDI-DrugBank.d154.s8.p0" e1="DDI-DrugBank.d154.s8.e0"
+            e2="DDI-DrugBank.d154.s8.e1" ddi="true" type="effect"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d154.s9" text="Patients receiving both drugs should be under careful observation."/>
+    <sentence id="DDI-DrugBank.d154.s10" text="Patients treated with Nalfon may be resistant to the effects of loop diuretics.">
+        <entity id="DDI-DrugBank.d154.s10.e0" charOffset="22-27"
+            type="brand" text="Nalfon"/>
+        <entity id="DDI-DrugBank.d154.s10.e1" charOffset="64-77"
+            type="group" text="loop diuretics"/>
+        <pair id="DDI-DrugBank.d154.s10.p0"
+            e1="DDI-DrugBank.d154.s10.e0" e2="DDI-DrugBank.d154.s10.e1"
+            ddi="true" type="effect"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d154.s11" text="In patients receiving Nalfon and a steroid concomitantly, any reduction in steroid dosage should be gradual in order to avoid the possible complications of sudden steroid withdrawal.">
+        <entity id="DDI-DrugBank.d154.s11.e0" charOffset="22-27"
+            type="brand" text="Nalfon"/>
+        <entity id="DDI-DrugBank.d154.s11.e1" charOffset="35-41"
+            type="group" text="steroid"/>
+        <entity id="DDI-DrugBank.d154.s11.e2" charOffset="75-81"
+            type="group" text="steroid"/>
+        <entity id="DDI-DrugBank.d154.s11.e3" charOffset="163-169"
+            type="group" text="steroid"/>
+        <pair id="DDI-DrugBank.d154.s11.p0"
+            e1="DDI-DrugBank.d154.s11.e0" e2="DDI-DrugBank.d154.s11.e1"
+            ddi="true" type="advise"/>
+        <pair id="DDI-DrugBank.d154.s11.p1"
+            e1="DDI-DrugBank.d154.s11.e0" e2="DDI-DrugBank.d154.s11.e2" ddi="false"/>
+        <pair id="DDI-DrugBank.d154.s11.p2"
+            e1="DDI-DrugBank.d154.s11.e0" e2="DDI-DrugBank.d154.s11.e3" ddi="false"/>
+        <pair id="DDI-DrugBank.d154.s11.p3"
+            e1="DDI-DrugBank.d154.s11.e1" e2="DDI-DrugBank.d154.s11.e2" ddi="false"/>
+        <pair id="DDI-DrugBank.d154.s11.p4"
+            e1="DDI-DrugBank.d154.s11.e1" e2="DDI-DrugBank.d154.s11.e3" ddi="false"/>
+        <pair id="DDI-DrugBank.d154.s11.p5"
+            e1="DDI-DrugBank.d154.s11.e2" e2="DDI-DrugBank.d154.s11.e3" ddi="false"/>
+    </sentence>
+</document>

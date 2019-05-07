@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="DDI-DrugBank.d144">
+    <sentence id="DDI-DrugBank.d144.s0" text="Concomitant oral administration of ketoconazole (a known inhibitor of CYP3A4 activity in the liver and in the intestinal mucosa) caused an eight-fold increase of the systemic exposure to oral budesonide.">
+        <entity id="DDI-DrugBank.d144.s0.e0" charOffset="35-46"
+            type="drug" text="ketoconazole"/>
+        <entity id="DDI-DrugBank.d144.s0.e1" charOffset="192-201"
+            type="drug" text="budesonide"/>
+        <pair id="DDI-DrugBank.d144.s0.p0" e1="DDI-DrugBank.d144.s0.e0"
+            e2="DDI-DrugBank.d144.s0.e1" ddi="true" type="mechanism"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d144.s1" text="If treatment with inhibitors of CYP3A4 activity (such as ketoconazole, intraconazole, ritonavir, indinavir, saquinavir, erythromycin, etc.) is indicated, reduction of the budesonide dose should be considered.">
+        <entity id="DDI-DrugBank.d144.s1.e0" charOffset="57-68"
+            type="drug" text="ketoconazole"/>
+        <entity id="DDI-DrugBank.d144.s1.e1" charOffset="71-83"
+            type="drug" text="intraconazole"/>
+        <entity id="DDI-DrugBank.d144.s1.e2" charOffset="86-94"
+            type="drug" text="ritonavir"/>
+        <entity id="DDI-DrugBank.d144.s1.e3" charOffset="97-105"
+            type="drug" text="indinavir"/>
+        <entity id="DDI-DrugBank.d144.s1.e4" charOffset="108-117"
+            type="drug" text="saquinavir"/>
+        <entity id="DDI-DrugBank.d144.s1.e5" charOffset="120-131"
+            type="drug" text="erythromycin"/>
+        <entity id="DDI-DrugBank.d144.s1.e6" charOffset="171-180"
+            type="drug" text="budesonide"/>
+        <pair id="DDI-DrugBank.d144.s1.p0" e1="DDI-DrugBank.d144.s1.e0"
+            e2="DDI-DrugBank.d144.s1.e1" ddi="false"/>
+        <pair id="DDI-DrugBank.d144.s1.p1" e1="DDI-DrugBank.d144.s1.e0"
+            e2="DDI-DrugBank.d144.s1.e2" ddi="false"/>
+        <pair id="DDI-DrugBank.d144.s1.p2" e1="DDI-DrugBank.d144.s1.e0"
+            e2="DDI-DrugBank.d144.s1.e3" ddi="false"/>
+        <pair id="DDI-DrugBank.d144.s1.p3" e1="DDI-DrugBank.d144.s1.e0"
+            e2="DDI-DrugBank.d144.s1.e4" ddi="false"/>
+        <pair id="DDI-DrugBank.d144.s1.p4" e1="DDI-DrugBank.d144.s1.e0"
+            e2="DDI-DrugBank.d144.s1.e5" ddi="false"/>
+        <pair id="DDI-DrugBank.d144.s1.p5" e1="DDI-DrugBank.d144.s1.e0"
+            e2="DDI-DrugBank.d144.s1.e6" ddi="true" type="advise"/>
+        <pair id="DDI-DrugBank.d144.s1.p6" e1="DDI-DrugBank.d144.s1.e1"
+            e2="DDI-DrugBank.d144.s1.e2" ddi="false"/>
+        <pair id="DDI-DrugBank.d144.s1.p7" e1="DDI-DrugBank.d144.s1.e1"
+            e2="DDI-DrugBank.d144.s1.e3" ddi="false"/>
+        <pair id="DDI-DrugBank.d144.s1.p8" e1="DDI-DrugBank.d144.s1.e1"
+            e2="DDI-DrugBank.d144.s1.e4" ddi="false"/>
+        <pair id="DDI-DrugBank.d144.s1.p9" e1="DDI-DrugBank.d144.s1.e1"
+            e2="DDI-DrugBank.d144.s1.e5" ddi="false"/>
+        <pair id="DDI-DrugBank.d144.s1.p10" e1="DDI-DrugBank.d144.s1.e1"
+            e2="DDI-DrugBank.d144.s1.e6" ddi="true" type="advise"/>
+        <pair id="DDI-DrugBank.d144.s1.p11" e1="DDI-DrugBank.d144.s1.e2"
+            e2="DDI-DrugBank.d144.s1.e3" ddi="false"/>
+        <pair id="DDI-DrugBank.d144.s1.p12" e1="DDI-DrugBank.d144.s1.e2"
+            e2="DDI-DrugBank.d144.s1.e4" ddi="false"/>
+        <pair id="DDI-DrugBank.d144.s1.p13" e1="DDI-DrugBank.d144.s1.e2"
+            e2="DDI-DrugBank.d144.s1.e5" ddi="false"/>
+        <pair id="DDI-DrugBank.d144.s1.p14" e1="DDI-DrugBank.d144.s1.e2"
+            e2="DDI-DrugBank.d144.s1.e6" ddi="true" type="advise"/>
+        <pair id="DDI-DrugBank.d144.s1.p15" e1="DDI-DrugBank.d144.s1.e3"
+            e2="DDI-DrugBank.d144.s1.e4" ddi="false"/>
+        <pair id="DDI-DrugBank.d144.s1.p16" e1="DDI-DrugBank.d144.s1.e3"
+            e2="DDI-DrugBank.d144.s1.e5" ddi="false"/>
+        <pair id="DDI-DrugBank.d144.s1.p17" e1="DDI-DrugBank.d144.s1.e3"
+            e2="DDI-DrugBank.d144.s1.e6" ddi="true" type="advise"/>
+        <pair id="DDI-DrugBank.d144.s1.p18" e1="DDI-DrugBank.d144.s1.e4"
+            e2="DDI-DrugBank.d144.s1.e5" ddi="false"/>
+        <pair id="DDI-DrugBank.d144.s1.p19" e1="DDI-DrugBank.d144.s1.e4"
+            e2="DDI-DrugBank.d144.s1.e6" ddi="true" type="advise"/>
+        <pair id="DDI-DrugBank.d144.s1.p20" e1="DDI-DrugBank.d144.s1.e5"
+            e2="DDI-DrugBank.d144.s1.e6" ddi="true" type="advise"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d144.s2" text="After extensive intake of grapefruit juice (which inhibits CYP3A4 activity predominantly in the intestinal mucosa), the systemic exposure for oral budesonide increased about two times.">
+        <entity id="DDI-DrugBank.d144.s2.e0" charOffset="147-156"
+            type="drug" text="budesonide"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d144.s3" text="As with other drugs primarily being metabolized through CYP3A4, ingestion of grapefruit or grapefruit juice should be avoided in connection with budesonide administration.">
+        <entity id="DDI-DrugBank.d144.s3.e0" charOffset="145-154"
+            type="drug" text="budesonide"/>
+    </sentence>
+</document>

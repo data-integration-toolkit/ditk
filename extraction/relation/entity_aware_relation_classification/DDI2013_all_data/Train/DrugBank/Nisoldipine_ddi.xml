@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="DDI-DrugBank.d106">
+    <sentence id="DDI-DrugBank.d106.s0" text="A 30 to 45% increase in AUC and Cmax of nisoldipine was observed with concomitant administration of cimetidine 400 mg twice daily.">
+        <entity id="DDI-DrugBank.d106.s0.e0" charOffset="40-50"
+            type="drug" text="nisoldipine"/>
+        <entity id="DDI-DrugBank.d106.s0.e1" charOffset="100-116"
+            type="drug" text="cimetidine 400 mg"/>
+        <pair id="DDI-DrugBank.d106.s0.p0" e1="DDI-DrugBank.d106.s0.e0"
+            e2="DDI-DrugBank.d106.s0.e1" ddi="true" type="mechanism"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d106.s1" text="Ranitidine 150 mg twice daily did not interact significantly with nisoldipine (AUC was decreased by 15-20 %).">
+        <entity id="DDI-DrugBank.d106.s1.e0" charOffset="0-9"
+            type="drug" text="Ranitidine"/>
+        <entity id="DDI-DrugBank.d106.s1.e1" charOffset="66-76"
+            type="drug" text="nisoldipine"/>
+        <pair id="DDI-DrugBank.d106.s1.p0" e1="DDI-DrugBank.d106.s1.e0"
+            e2="DDI-DrugBank.d106.s1.e1" ddi="false"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d106.s2" text="No pharmacodynamic effects of either histamine H2 receptor antagonist were observed.">
+        <entity id="DDI-DrugBank.d106.s2.e0" charOffset="37-68"
+            type="group" text="histamine H2 receptor antagonist"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d106.s3" text="Coadministration of phenytoin with 40 mg SULAR tablets in epileptic patients lowered the nisoldipine plasma concentrations to undetectable levels.">
+        <entity id="DDI-DrugBank.d106.s3.e0" charOffset="20-28"
+            type="drug" text="phenytoin"/>
+        <entity id="DDI-DrugBank.d106.s3.e1" charOffset="41-45"
+            type="brand" text="SULAR"/>
+        <entity id="DDI-DrugBank.d106.s3.e2" charOffset="89-99"
+            type="drug" text="nisoldipine"/>
+        <pair id="DDI-DrugBank.d106.s3.p0" e1="DDI-DrugBank.d106.s3.e0"
+            e2="DDI-DrugBank.d106.s3.e1" ddi="true" type="mechanism"/>
+        <pair id="DDI-DrugBank.d106.s3.p1" e1="DDI-DrugBank.d106.s3.e0"
+            e2="DDI-DrugBank.d106.s3.e2" ddi="false"/>
+        <pair id="DDI-DrugBank.d106.s3.p2" e1="DDI-DrugBank.d106.s3.e1"
+            e2="DDI-DrugBank.d106.s3.e2" ddi="false"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d106.s4" text="Coadministration of SULAR with phenytoin or any known CYP3A4 inducer should be avoided and alternative antihypertensive therapy should be considered.">
+        <entity id="DDI-DrugBank.d106.s4.e0" charOffset="20-24"
+            type="brand" text="SULAR"/>
+        <entity id="DDI-DrugBank.d106.s4.e1" charOffset="31-39"
+            type="drug" text="phenytoin"/>
+        <entity id="DDI-DrugBank.d106.s4.e2" charOffset="103-118"
+            type="group" text="antihypertensive"/>
+        <pair id="DDI-DrugBank.d106.s4.p0" e1="DDI-DrugBank.d106.s4.e0"
+            e2="DDI-DrugBank.d106.s4.e1" ddi="true" type="advise"/>
+        <pair id="DDI-DrugBank.d106.s4.p1" e1="DDI-DrugBank.d106.s4.e0"
+            e2="DDI-DrugBank.d106.s4.e2" ddi="false"/>
+        <pair id="DDI-DrugBank.d106.s4.p2" e1="DDI-DrugBank.d106.s4.e1"
+            e2="DDI-DrugBank.d106.s4.e2" ddi="false"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d106.s5" text="Pharmacokinetic interactions between nisoldipine and beta-blockers (atenolol, propranolol) were variable and not significant.">
+        <entity id="DDI-DrugBank.d106.s5.e0" charOffset="37-47"
+            type="drug" text="nisoldipine"/>
+        <entity id="DDI-DrugBank.d106.s5.e1" charOffset="53-65"
+            type="group" text="beta-blockers"/>
+        <entity id="DDI-DrugBank.d106.s5.e2" charOffset="68-75"
+            type="drug" text="atenolol"/>
+        <entity id="DDI-DrugBank.d106.s5.e3" charOffset="78-88"
+            type="drug" text="propranolol"/>
+        <pair id="DDI-DrugBank.d106.s5.p0" e1="DDI-DrugBank.d106.s5.e0"
+            e2="DDI-DrugBank.d106.s5.e1" ddi="false"/>
+        <pair id="DDI-DrugBank.d106.s5.p1" e1="DDI-DrugBank.d106.s5.e0"
+            e2="DDI-DrugBank.d106.s5.e2" ddi="false"/>
+        <pair id="DDI-DrugBank.d106.s5.p2" e1="DDI-DrugBank.d106.s5.e0"
+            e2="DDI-DrugBank.d106.s5.e3" ddi="false"/>
+        <pair id="DDI-DrugBank.d106.s5.p3" e1="DDI-DrugBank.d106.s5.e1"
+            e2="DDI-DrugBank.d106.s5.e2" ddi="false"/>
+        <pair id="DDI-DrugBank.d106.s5.p4" e1="DDI-DrugBank.d106.s5.e1"
+            e2="DDI-DrugBank.d106.s5.e3" ddi="false"/>
+        <pair id="DDI-DrugBank.d106.s5.p5" e1="DDI-DrugBank.d106.s5.e2"
+            e2="DDI-DrugBank.d106.s5.e3" ddi="false"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d106.s6" text="Propranolol attenuated the heart rate increase following administration of immediate release nisoldipine.">
+        <entity id="DDI-DrugBank.d106.s6.e0" charOffset="0-10"
+            type="drug" text="Propranolol"/>
+        <entity id="DDI-DrugBank.d106.s6.e1" charOffset="93-103"
+            type="drug" text="nisoldipine"/>
+        <pair id="DDI-DrugBank.d106.s6.p0" e1="DDI-DrugBank.d106.s6.e0"
+            e2="DDI-DrugBank.d106.s6.e1" ddi="true" type="effect"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d106.s7" text="The blood pressure effect of SULAR tended to be greater in patients on atenolol than in patients on no other antihypertensive therapy.">
+        <entity id="DDI-DrugBank.d106.s7.e0" charOffset="29-33"
+            type="brand" text="SULAR"/>
+        <entity id="DDI-DrugBank.d106.s7.e1" charOffset="71-78"
+            type="drug" text="atenolol"/>
+        <entity id="DDI-DrugBank.d106.s7.e2" charOffset="109-124"
+            type="group" text="antihypertensive"/>
+        <pair id="DDI-DrugBank.d106.s7.p0" e1="DDI-DrugBank.d106.s7.e0"
+            e2="DDI-DrugBank.d106.s7.e1" ddi="true" type="effect"/>
+        <pair id="DDI-DrugBank.d106.s7.p1" e1="DDI-DrugBank.d106.s7.e0"
+            e2="DDI-DrugBank.d106.s7.e2" ddi="false"/>
+        <pair id="DDI-DrugBank.d106.s7.p2" e1="DDI-DrugBank.d106.s7.e1"
+            e2="DDI-DrugBank.d106.s7.e2" ddi="false"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d106.s8" text="Quinidine at 648 mg bid decreased the bioavailability (AUC) of nisoldipine by 26%, but not the peak concentration.">
+        <entity id="DDI-DrugBank.d106.s8.e0" charOffset="0-8"
+            type="drug" text="Quinidine"/>
+        <entity id="DDI-DrugBank.d106.s8.e1" charOffset="63-73"
+            type="drug" text="nisoldipine"/>
+        <pair id="DDI-DrugBank.d106.s8.p0" e1="DDI-DrugBank.d106.s8.e0"
+            e2="DDI-DrugBank.d106.s8.e1" ddi="true" type="mechanism"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d106.s9" text="The immediate release, but not the coat-core formulation of nisoldipine increased plasma quinidine concentrations by about 20%.">
+        <entity id="DDI-DrugBank.d106.s9.e0" charOffset="60-70"
+            type="drug" text="nisoldipine"/>
+        <entity id="DDI-DrugBank.d106.s9.e1" charOffset="89-97"
+            type="drug" text="quinidine"/>
+        <pair id="DDI-DrugBank.d106.s9.p0" e1="DDI-DrugBank.d106.s9.e0"
+            e2="DDI-DrugBank.d106.s9.e1" ddi="true" type="mechanism"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d106.s10" text="This interaction was not accompanied by ECG changes and its clinical significance is not known."/>
+    <sentence id="DDI-DrugBank.d106.s11" text="No significant interactions were found between nisoldipine and warfarin or digoxin.">
+        <entity id="DDI-DrugBank.d106.s11.e0" charOffset="47-57"
+            type="drug" text="nisoldipine"/>
+        <entity id="DDI-DrugBank.d106.s11.e1" charOffset="63-70"
+            type="drug" text="warfarin"/>
+        <entity id="DDI-DrugBank.d106.s11.e2" charOffset="75-81"
+            type="drug" text="digoxin"/>
+        <pair id="DDI-DrugBank.d106.s11.p0"
+            e1="DDI-DrugBank.d106.s11.e0" e2="DDI-DrugBank.d106.s11.e1" ddi="false"/>
+        <pair id="DDI-DrugBank.d106.s11.p1"
+            e1="DDI-DrugBank.d106.s11.e0" e2="DDI-DrugBank.d106.s11.e2" ddi="false"/>
+        <pair id="DDI-DrugBank.d106.s11.p2"
+            e1="DDI-DrugBank.d106.s11.e1" e2="DDI-DrugBank.d106.s11.e2" ddi="false"/>
+    </sentence>
+</document>

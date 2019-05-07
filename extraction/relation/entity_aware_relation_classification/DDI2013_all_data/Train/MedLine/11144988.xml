@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="DDI-MedLine.d109">
+    <sentence id="DDI-MedLine.d109.s0" text="Effect of rofecoxib on the pharmacokinetics of digoxin in healthy volunteers.&#xd;&#xa;">
+        <entity id="DDI-MedLine.d109.s0.e0" charOffset="10-18"
+            type="drug" text="rofecoxib"/>
+        <entity id="DDI-MedLine.d109.s0.e1" charOffset="47-53"
+            type="drug" text="digoxin"/>
+        <pair id="DDI-MedLine.d109.s0.p0" e1="DDI-MedLine.d109.s0.e0"
+            e2="DDI-MedLine.d109.s0.e1" ddi="false"/>
+    </sentence>
+    <sentence id="DDI-MedLine.d109.s1" text="The authors examined the effect of the cyclooxygenase-2 (COX-2) inhibitor, rofecoxib, at steady state on the pharmacokinetics of digoxin following a single dose in healthy subjects. ">
+        <entity id="DDI-MedLine.d109.s1.e0" charOffset="75-83"
+            type="drug" text="rofecoxib"/>
+        <entity id="DDI-MedLine.d109.s1.e1" charOffset="129-135"
+            type="drug" text="digoxin"/>
+        <pair id="DDI-MedLine.d109.s1.p0" e1="DDI-MedLine.d109.s1.e0"
+            e2="DDI-MedLine.d109.s1.e1" ddi="false"/>
+    </sentence>
+    <sentence id="DDI-MedLine.d109.s2" text="Each healthy subject (N = 10) received rofecoxib (75 mg once daily) or placebo for 11 days in a double-blind, randomized, balanced, two-period crossover study. ">
+        <entity id="DDI-MedLine.d109.s2.e0" charOffset="39-47"
+            type="drug" text="rofecoxib"/>
+    </sentence>
+    <sentence id="DDI-MedLine.d109.s3" text="A single 0.5 mg oral dose of digoxin elixir was administered on the 7th day of each 11-day period. ">
+        <entity id="DDI-MedLine.d109.s3.e0" charOffset="29-35"
+            type="drug" text="digoxin"/>
+    </sentence>
+    <sentence id="DDI-MedLine.d109.s4" text="Each treatment period was separated by 14 to 21 days. "/>
+    <sentence id="DDI-MedLine.d109.s5" text="Samples for plasma and urine immunoreactive digoxin concentrations were collected through 120 hours following the digoxin dose. ">
+        <entity id="DDI-MedLine.d109.s5.e0" charOffset="44-50"
+            type="drug" text="digoxin"/>
+        <entity id="DDI-MedLine.d109.s5.e1" charOffset="114-120"
+            type="drug" text="digoxin"/>
+        <pair id="DDI-MedLine.d109.s5.p0" e1="DDI-MedLine.d109.s5.e0"
+            e2="DDI-MedLine.d109.s5.e1" ddi="false"/>
+    </sentence>
+    <sentence id="DDI-MedLine.d109.s6" text="No statistically significant differences between treatment groups were observed for any of the calculated digoxin pharmacokinetic parameters. ">
+        <entity id="DDI-MedLine.d109.s6.e0" charOffset="106-112"
+            type="drug" text="digoxin"/>
+    </sentence>
+    <sentence id="DDI-MedLine.d109.s7" text="For digoxin AUC(0-infinity), AUC(0-24), and Cmax, the geometric mean ratios (90% confidence interval) for (rofecoxib + digoxin/placebo + digoxin) were 1.04 (0.94, 1.14), 1.02 (0.94, 1.09), and 1.00 (0.91, 1.10), respectively. ">
+        <entity id="DDI-MedLine.d109.s7.e0" charOffset="4-10"
+            type="drug" text="digoxin"/>
+        <entity id="DDI-MedLine.d109.s7.e1" charOffset="107-115"
+            type="drug" text="rofecoxib"/>
+        <entity id="DDI-MedLine.d109.s7.e2" charOffset="119-125"
+            type="drug" text="digoxin"/>
+        <entity id="DDI-MedLine.d109.s7.e3" charOffset="137-143"
+            type="drug" text="digoxin"/>
+        <pair id="DDI-MedLine.d109.s7.p0" e1="DDI-MedLine.d109.s7.e0"
+            e2="DDI-MedLine.d109.s7.e1" ddi="false"/>
+        <pair id="DDI-MedLine.d109.s7.p1" e1="DDI-MedLine.d109.s7.e0"
+            e2="DDI-MedLine.d109.s7.e2" ddi="false"/>
+        <pair id="DDI-MedLine.d109.s7.p2" e1="DDI-MedLine.d109.s7.e0"
+            e2="DDI-MedLine.d109.s7.e3" ddi="false"/>
+        <pair id="DDI-MedLine.d109.s7.p3" e1="DDI-MedLine.d109.s7.e1"
+            e2="DDI-MedLine.d109.s7.e2" ddi="false"/>
+        <pair id="DDI-MedLine.d109.s7.p4" e1="DDI-MedLine.d109.s7.e1"
+            e2="DDI-MedLine.d109.s7.e3" ddi="false"/>
+        <pair id="DDI-MedLine.d109.s7.p5" e1="DDI-MedLine.d109.s7.e2"
+            e2="DDI-MedLine.d109.s7.e3" ddi="false"/>
+    </sentence>
+    <sentence id="DDI-MedLine.d109.s8" text="The digoxin median tmax was 0.5 hours for both treatments. ">
+        <entity id="DDI-MedLine.d109.s8.e0" charOffset="4-10"
+            type="drug" text="digoxin"/>
+    </sentence>
+    <sentence id="DDI-MedLine.d109.s9" text="The harmonic mean elimination half-life was 45.7 and 43.4 hours for rofecoxib + digoxin and placebo + digoxin treatments, respectively. ">
+        <entity id="DDI-MedLine.d109.s9.e0" charOffset="68-76"
+            type="drug" text="rofecoxib"/>
+        <entity id="DDI-MedLine.d109.s9.e1" charOffset="80-86"
+            type="drug" text="digoxin"/>
+        <entity id="DDI-MedLine.d109.s9.e2" charOffset="102-108"
+            type="drug" text="digoxin"/>
+        <pair id="DDI-MedLine.d109.s9.p0" e1="DDI-MedLine.d109.s9.e0"
+            e2="DDI-MedLine.d109.s9.e1" ddi="false"/>
+        <pair id="DDI-MedLine.d109.s9.p1" e1="DDI-MedLine.d109.s9.e0"
+            e2="DDI-MedLine.d109.s9.e2" ddi="false"/>
+        <pair id="DDI-MedLine.d109.s9.p2" e1="DDI-MedLine.d109.s9.e1"
+            e2="DDI-MedLine.d109.s9.e2" ddi="false"/>
+    </sentence>
+    <sentence id="DDI-MedLine.d109.s10" text="Digoxin is eliminated renally. ">
+        <entity id="DDI-MedLine.d109.s10.e0" charOffset="0-6"
+            type="drug" text="Digoxin"/>
+    </sentence>
+    <sentence id="DDI-MedLine.d109.s11" text="The mean (SD) cumulative urinary excretion of immunoreactive digoxin after concurrent treatment with rofecoxib or placebo was 228.2 (+/- 30.8) and 235.1 (+/- 39.1) micrograms/120 hours, respectively. ">
+        <entity id="DDI-MedLine.d109.s11.e0" charOffset="61-67"
+            type="drug" text="digoxin"/>
+        <entity id="DDI-MedLine.d109.s11.e1" charOffset="101-109"
+            type="drug" text="rofecoxib"/>
+        <pair id="DDI-MedLine.d109.s11.p0" e1="DDI-MedLine.d109.s11.e0"
+            e2="DDI-MedLine.d109.s11.e1" ddi="false"/>
+    </sentence>
+    <sentence id="DDI-MedLine.d109.s12" text="Transient and minor adverse events occurred with similar frequency on placebo and rofecoxib treatments, and no treatment-related pattern was apparent. ">
+        <entity id="DDI-MedLine.d109.s12.e0" charOffset="82-90"
+            type="drug" text="rofecoxib"/>
+    </sentence>
+    <sentence id="DDI-MedLine.d109.s13" text="Rofecoxib did not influence the plasma pharmacokinetics or renal elimination of a single oral dose of digoxin.">
+        <entity id="DDI-MedLine.d109.s13.e0" charOffset="0-8"
+            type="drug" text="Rofecoxib"/>
+        <entity id="DDI-MedLine.d109.s13.e1" charOffset="102-108"
+            type="drug" text="digoxin"/>
+        <pair id="DDI-MedLine.d109.s13.p0" e1="DDI-MedLine.d109.s13.e0"
+            e2="DDI-MedLine.d109.s13.e1" ddi="false"/>
+    </sentence>
+</document>

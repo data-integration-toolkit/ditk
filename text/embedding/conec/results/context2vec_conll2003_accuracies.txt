@@ -1,0 +1,337 @@
+#####################################################################################################
+context enc with a combination of the global and local context matrix (w_local=0.0), seed: 3, it: 20
+#####################################################################################################
+results on training data
+processed 204563 tokens with 23497 phrases; found: 35527 phrases; correct: 11277.
+accuracy:  75.59%; precision:  31.74%; recall:  47.99%; FB1:  38.21
+              LOC: precision:  54.84%; recall:  75.48%; FB1:  63.53  9826
+             MISC: precision:  21.01%; recall:  42.41%; FB1:  28.10  6941
+              ORG: precision:  14.58%; recall:  20.13%; FB1:  16.91  8726
+              PER: precision:  31.47%; recall:  47.85%; FB1:  37.97  10034
+results on testa
+processed 46625 tokens with 5644 phrases; found: 9769 phrases; correct: 2701.
+accuracy:  72.78%; precision:  27.65%; recall:  47.86%; FB1:  35.05
+              LOC: precision:  50.10%; recall:  73.31%; FB1:  59.52  2439
+             MISC: precision:  15.94%; recall:  44.08%; FB1:  23.41  1939
+              ORG: precision:  16.14%; recall:  24.52%; FB1:  19.47  2521
+              PER: precision:  26.59%; recall:  47.22%; FB1:  34.02  2870
+results on testb
+processed 51574 tokens with 5941 phrases; found: 9758 phrases; correct: 3098.
+accuracy:  74.98%; precision:  31.75%; recall:  52.15%; FB1:  39.47
+              LOC: precision:  51.47%; recall:  74.25%; FB1:  60.80  2650
+             MISC: precision:  22.32%; recall:  47.94%; FB1:  30.46  1980
+              ORG: precision:  15.66%; recall:  23.66%; FB1:  18.85  2024
+              PER: precision:  31.41%; recall:  52.93%; FB1:  39.43  3104
+------------------------------------------------------------------------------------------------------
+
+##################################################################################################### 
+context enc with a combination of the global and local context matrix (w_local=0.1), seed: 3, it: 20
+#####################################################################################################
+results on training data
+processed 204563 tokens with 23497 phrases; found: 34755 phrases; correct: 11593.
+accuracy:  76.10%; precision:  33.36%; recall:  49.34%; FB1:  39.80
+              LOC: precision:  55.68%; recall:  76.09%; FB1:  64.30  9758
+             MISC: precision:  20.96%; recall:  41.62%; FB1:  27.88  6827
+              ORG: precision:  17.07%; recall:  22.20%; FB1:  19.30  8218
+              PER: precision:  33.42%; recall:  50.39%; FB1:  40.19  9952
+results on testa
+processed 46625 tokens with 5644 phrases; found: 9314 phrases; correct: 2771.
+accuracy:  73.66%; precision:  29.75%; recall:  49.10%; FB1:  37.05
+              LOC: precision:  51.61%; recall:  74.81%; FB1:  61.08  2416
+             MISC: precision:  16.35%; recall:  43.51%; FB1:  23.77  1865
+              ORG: precision:  18.34%; recall:  26.20%; FB1:  21.58  2372
+              PER: precision:  29.46%; recall:  48.51%; FB1:  36.66  2661
+results on testb
+processed 51574 tokens with 5941 phrases; found: 9438 phrases; correct: 3102.
+accuracy:  75.53%; precision:  32.87%; recall:  52.21%; FB1:  40.34
+              LOC: precision:  53.28%; recall:  75.18%; FB1:  62.36  2592
+             MISC: precision:  22.73%; recall:  46.75%; FB1:  30.59  1896
+              ORG: precision:  16.70%; recall:  23.81%; FB1:  19.63  1910
+              PER: precision:  31.94%; recall:  52.71%; FB1:  39.78  3040
+------------------------------------------------------------------------------------------------------
+
+#####################################################################################################
+context enc with a combination of the global and local context matrix (w_local=0.2), seed: 3, it: 20
+#####################################################################################################
+results on training data
+processed 204563 tokens with 23497 phrases; found: 34269 phrases; correct: 11754.
+accuracy:  76.45%; precision:  34.30%; recall:  50.02%; FB1:  40.70
+              LOC: precision:  56.60%; recall:  76.55%; FB1:  65.08  9657
+             MISC: precision:  20.39%; recall:  39.88%; FB1:  26.98  6725
+              ORG: precision:  19.93%; recall:  25.37%; FB1:  22.32  8043
+              PER: precision:  33.67%; recall:  50.21%; FB1:  40.31  9844
+results on testa
+processed 46625 tokens with 5644 phrases; found: 8825 phrases; correct: 2845.
+accuracy:  75.75%; precision:  32.24%; recall:  50.41%; FB1:  39.33
+              LOC: precision:  52.47%; recall:  75.28%; FB1:  61.84  2392
+             MISC: precision:  16.82%; recall:  43.08%; FB1:  24.20  1795
+              ORG: precision:  23.89%; recall:  30.48%; FB1:  26.79  2118
+              PER: precision:  31.03%; recall:  48.39%; FB1:  37.81  2520
+results on testb
+processed 51574 tokens with 5941 phrases; found: 9165 phrases; correct: 3144.
+accuracy:  76.05%; precision:  34.30%; recall:  52.92%; FB1:  41.63
+              LOC: precision:  54.51%; recall:  75.99%; FB1:  63.48  2561
+             MISC: precision:  22.91%; recall:  44.79%; FB1:  30.31  1803
+              ORG: precision:  19.74%; recall:  27.84%; FB1:  23.10  1890
+              PER: precision:  33.05%; recall:  52.23%; FB1:  40.48  2911
+------------------------------------------------------------------------------------------------------
+
+#####################################################################################################
+context enc with a combination of the global and local context matrix (w_local=0.3), seed: 3, it: 20
+#####################################################################################################
+results on training data
+processed 204563 tokens with 23497 phrases; found: 33739 phrases; correct: 11965.
+accuracy:  76.70%; precision:  35.46%; recall:  50.92%; FB1:  41.81
+              LOC: precision:  57.30%; recall:  76.67%; FB1:  65.58  9553
+             MISC: precision:  20.63%; recall:  39.33%; FB1:  27.06  6554
+              ORG: precision:  20.55%; recall:  26.00%; FB1:  22.96  7995
+              PER: precision:  36.28%; recall:  52.97%; FB1:  43.06  9637
+results on testa
+processed 46625 tokens with 5644 phrases; found: 8482 phrases; correct: 2825.
+accuracy:  76.27%; precision:  33.31%; recall:  50.05%; FB1:  40.00
+              LOC: precision:  53.12%; recall:  75.04%; FB1:  62.21  2355
+             MISC: precision:  17.35%; recall:  41.37%; FB1:  24.45  1671
+              ORG: precision:  24.55%; recall:  29.76%; FB1:  26.91  2012
+              PER: precision:  32.32%; recall:  48.89%; FB1:  38.92  2444
+results on testb
+processed 51574 tokens with 5941 phrases; found: 8906 phrases; correct: 3148.
+accuracy:  76.47%; precision:  35.35%; recall:  52.99%; FB1:  42.41
+              LOC: precision:  55.18%; recall:  75.39%; FB1:  63.72  2510
+             MISC: precision:  22.12%; recall:  41.00%; FB1:  28.73  1709
+              ORG: precision:  20.85%; recall:  28.66%; FB1:  24.14  1842
+              PER: precision:  35.18%; recall:  54.34%; FB1:  42.71  2845
+------------------------------------------------------------------------------------------------------
+
+#####################################################################################################
+context enc with a combination of the global and local context matrix (w_local=0.4), seed: 3, it: 20
+#####################################################################################################
+results on training data
+processed 204563 tokens with 23497 phrases; found: 33272 phrases; correct: 11747.
+accuracy:  76.61%; precision:  35.31%; recall:  49.99%; FB1:  41.39
+              LOC: precision:  57.71%; recall:  76.46%; FB1:  65.78  9459
+             MISC: precision:  19.96%; recall:  36.53%; FB1:  25.82  6292
+              ORG: precision:  20.29%; recall:  25.35%; FB1:  22.54  7894
+              PER: precision:  35.63%; recall:  51.97%; FB1:  42.28  9627
+results on testa
+processed 46625 tokens with 5644 phrases; found: 8174 phrases; correct: 2745.
+accuracy:  76.55%; precision:  33.58%; recall:  48.64%; FB1:  39.73
+              LOC: precision:  53.08%; recall:  74.93%; FB1:  62.14  2353
+             MISC: precision:  16.37%; recall:  35.95%; FB1:  22.50  1539
+              ORG: precision:  25.92%; recall:  29.16%; FB1:  27.45  1867
+              PER: precision:  31.47%; recall:  47.03%; FB1:  37.71  2415
+results on testb
+processed 51574 tokens with 5941 phrases; found: 8626 phrases; correct: 3090.
+accuracy:  76.73%; precision:  35.82%; recall:  52.01%; FB1:  42.42
+              LOC: precision:  56.14%; recall:  75.45%; FB1:  64.38  2469
+             MISC: precision:  21.79%; recall:  38.07%; FB1:  27.71  1611
+              ORG: precision:  20.96%; recall:  27.91%; FB1:  23.94  1784
+              PER: precision:  35.45%; recall:  53.15%; FB1:  42.53  2762
+------------------------------------------------------------------------------------------------------
+
+#####################################################################################################
+context enc with a combination of the global and local context matrix (w_local=0.5), seed: 3, it: 20
+#####################################################################################################
+results on training data
+processed 204563 tokens with 23497 phrases; found: 32884 phrases; correct: 11399.
+accuracy:  76.46%; precision:  34.66%; recall:  48.51%; FB1:  40.44
+              LOC: precision:  57.59%; recall:  75.07%; FB1:  65.18  9307
+             MISC: precision:  19.19%; recall:  33.89%; FB1:  24.50  6071
+              ORG: precision:  19.73%; recall:  24.32%; FB1:  21.79  7791
+              PER: precision:  34.35%; recall:  50.56%; FB1:  40.91  9715
+results on testa
+processed 46625 tokens with 5644 phrases; found: 7912 phrases; correct: 2712.
+accuracy:  76.83%; precision:  34.28%; recall:  48.05%; FB1:  40.01
+              LOC: precision:  53.01%; recall:  75.10%; FB1:  62.15  2362
+             MISC: precision:  15.72%; recall:  31.10%; FB1:  20.88  1387
+              ORG: precision:  25.68%; recall:  27.29%; FB1:  26.46  1764
+              PER: precision:  32.89%; recall:  48.82%; FB1:  39.30  2399
+results on testb
+processed 51574 tokens with 5941 phrases; found: 8382 phrases; correct: 2996.
+accuracy:  76.79%; precision:  35.74%; recall:  50.43%; FB1:  41.83
+              LOC: precision:  55.62%; recall:  75.12%; FB1:  63.92  2481
+             MISC: precision:  19.80%; recall:  32.32%; FB1:  24.56  1505
+              ORG: precision:  20.78%; recall:  26.79%; FB1:  23.40  1728
+              PER: precision:  35.94%; recall:  52.06%; FB1:  42.53  2668
+------------------------------------------------------------------------------------------------------
+
+#####################################################################################################
+context enc with a combination of the global and local context matrix (w_local=0.6), seed: 3, it: 20
+#####################################################################################################
+results on training data
+processed 204563 tokens with 23497 phrases; found: 32524 phrases; correct: 11062.
+accuracy:  76.29%; precision:  34.01%; recall:  47.08%; FB1:  39.49
+              LOC: precision:  56.56%; recall:  73.36%; FB1:  63.87  9261
+             MISC: precision:  17.85%; recall:  30.19%; FB1:  22.44  5815
+              ORG: precision:  19.39%; recall:  23.55%; FB1:  21.26  7676
+              PER: precision:  33.75%; recall:  49.97%; FB1:  40.29  9772
+results on testa
+processed 46625 tokens with 5644 phrases; found: 7708 phrases; correct: 2612.
+accuracy:  76.77%; precision:  33.89%; recall:  46.28%; FB1:  39.13
+              LOC: precision:  50.59%; recall:  72.41%; FB1:  59.56  2386
+             MISC: precision:  14.71%; recall:  27.10%; FB1:  19.07  1292
+              ORG: precision:  25.35%; recall:  25.12%; FB1:  25.23  1645
+              PER: precision:  33.46%; recall:  49.38%; FB1:  39.89  2385
+results on testb
+processed 51574 tokens with 5941 phrases; found: 8150 phrases; correct: 2934.
+accuracy:  77.00%; precision:  36.00%; recall:  49.39%; FB1:  41.64
+              LOC: precision:  53.84%; recall:  72.51%; FB1:  61.80  2474
+             MISC: precision:  15.66%; recall:  23.32%; FB1:  18.74  1373
+              ORG: precision:  20.39%; recall:  25.15%; FB1:  22.52  1653
+              PER: precision:  39.62%; recall:  57.00%; FB1:  46.75  2650
+------------------------------------------------------------------------------------------------------
+
+#####################################################################################################
+context enc with a combination of the global and local context matrix (w_local=0.7), seed: 3, it: 20
+#####################################################################################################
+results on training data
+processed 204563 tokens with 23497 phrases; found: 32318 phrases; correct: 10606.
+accuracy:  75.97%; precision:  32.82%; recall:  45.14%; FB1:  38.00
+              LOC: precision:  54.27%; recall:  71.01%; FB1:  61.52  9342
+             MISC: precision:  15.62%; recall:  25.22%; FB1:  19.29  5550
+              ORG: precision:  18.53%; recall:  22.04%; FB1:  20.13  7519
+              PER: precision:  33.07%; recall:  49.64%; FB1:  39.69  9907
+results on testa
+processed 46625 tokens with 5644 phrases; found: 7751 phrases; correct: 2499.
+accuracy:  76.14%; precision:  32.24%; recall:  44.28%; FB1:  37.31
+              LOC: precision:  44.90%; recall:  68.87%; FB1:  54.36  2557
+             MISC: precision:  14.21%; recall:  23.97%; FB1:  17.84  1182
+              ORG: precision:  26.67%; recall:  25.24%; FB1:  25.94  1571
+              PER: precision:  31.30%; recall:  47.28%; FB1:  37.66  2441
+results on testb
+processed 51574 tokens with 5941 phrases; found: 7986 phrases; correct: 2760.
+accuracy:  76.75%; precision:  34.56%; recall:  46.46%; FB1:  39.64
+              LOC: precision:  50.74%; recall:  69.30%; FB1:  58.58  2509
+             MISC: precision:  13.62%; recall:  18.98%; FB1:  15.86  1285
+              ORG: precision:  20.85%; recall:  24.63%; FB1:  22.58  1583
+              PER: precision:  37.64%; recall:  53.31%; FB1:  44.12  2609
+------------------------------------------------------------------------------------------------------
+
+#####################################################################################################
+context enc with a combination of the global and local context matrix (w_local=0.8), seed: 3, it: 20
+#####################################################################################################
+results on training data
+processed 204563 tokens with 23497 phrases; found: 32191 phrases; correct: 10009.
+accuracy:  75.30%; precision:  31.09%; recall:  42.60%; FB1:  35.95
+              LOC: precision:  50.65%; recall:  67.77%; FB1:  57.97  9554
+             MISC: precision:  14.25%; recall:  21.87%; FB1:  17.26  5276
+              ORG: precision:  17.85%; recall:  21.05%; FB1:  19.32  7451
+              PER: precision:  31.16%; recall:  46.79%; FB1:  37.41  9910
+results on testa
+processed 46625 tokens with 5644 phrases; found: 7833 phrases; correct: 2280.
+accuracy:  75.16%; precision:  29.11%; recall:  40.40%; FB1:  33.84
+              LOC: precision:  39.41%; recall:  63.05%; FB1:  48.50  2667
+             MISC: precision:  11.16%; recall:  17.12%; FB1:  13.51  1075
+              ORG: precision:  25.51%; recall:  24.04%; FB1:  24.75  1564
+              PER: precision:  28.10%; recall:  43.94%; FB1:  34.27  2527
+results on testb
+processed 51574 tokens with 5941 phrases; found: 8019 phrases; correct: 2589.
+accuracy:  76.15%; precision:  32.29%; recall:  43.58%; FB1:  37.09
+              LOC: precision:  45.88%; recall:  65.70%; FB1:  54.03  2631
+             MISC: precision:  10.85%; recall:  14.32%; FB1:  12.34  1217
+              ORG: precision:  18.74%; recall:  21.79%; FB1:  20.15  1558
+              PER: precision:  36.66%; recall:  52.01%; FB1:  43.01  2613
+------------------------------------------------------------------------------------------------------
+
+#####################################################################################################
+context enc with a combination of the global and local context matrix (w_local=0.9), seed: 3, it: 20
+#####################################################################################################
+results on training data
+processed 204563 tokens with 23497 phrases; found: 32691 phrases; correct: 9117.
+accuracy:  74.15%; precision:  27.89%; recall:  38.80%; FB1:  32.45
+              LOC: precision:  45.08%; recall:  63.66%; FB1:  52.78  10083
+             MISC: precision:  11.74%; recall:  17.13%; FB1:  13.93  5017
+              ORG: precision:  16.11%; recall:  18.10%; FB1:  17.05  7102
+              PER: precision:  27.07%; recall:  43.02%; FB1:  33.23  10489
+results on testa
+processed 46625 tokens with 5644 phrases; found: 7982 phrases; correct: 1966.
+accuracy:  73.21%; precision:  24.63%; recall:  34.83%; FB1:  28.86
+              LOC: precision:  33.43%; recall:  57.53%; FB1:  42.28  2869
+             MISC: precision:   8.16%; recall:  11.98%; FB1:   9.71  1029
+              ORG: precision:  20.45%; recall:  19.34%; FB1:  19.88  1570
+              PER: precision:  23.95%; recall:  37.25%; FB1:  29.15  2514
+results on testb
+processed 51574 tokens with 5941 phrases; found: 8233 phrases; correct: 2292.
+accuracy:  74.46%; precision:  27.84%; recall:  38.58%; FB1:  32.34
+              LOC: precision:  38.22%; recall:  59.77%; FB1:  46.62  2873
+             MISC: precision:   9.04%; recall:  11.61%; FB1:  10.16  1184
+              ORG: precision:  18.73%; recall:  20.75%; FB1:  19.69  1484
+              PER: precision:  30.05%; recall:  43.92%; FB1:  35.69  2692
+------------------------------------------------------------------------------------------------------
+
+#####################################################################################################
+context enc with a combination of the global and local context matrix (w_local=1.0), seed: 3, it: 20
+#####################################################################################################
+results on training data
+processed 204563 tokens with 23497 phrases; found: 33261 phrases; correct: 7682.
+accuracy:  72.56%; precision:  23.10%; recall:  32.69%; FB1:  27.07
+              LOC: precision:  39.41%; recall:  58.39%; FB1:  47.06  10579
+             MISC: precision:   9.36%; recall:  13.03%; FB1:  10.90  4785
+              ORG: precision:  11.22%; recall:  12.90%; FB1:  12.00  7263
+              PER: precision:  21.16%; recall:  34.09%; FB1:  26.11  10634
+results on testa
+processed 46625 tokens with 5644 phrases; found: 8583 phrases; correct: 1614.
+accuracy:  70.13%; precision:  18.80%; recall:  28.60%; FB1:  22.69
+              LOC: precision:  26.96%; recall:  51.47%; FB1:  35.38  3183
+             MISC: precision:   5.45%; recall:   8.56%; FB1:   6.66  1101
+              ORG: precision:  13.58%; recall:  14.40%; FB1:  13.98  1760
+              PER: precision:  18.00%; recall:  28.28%; FB1:  22.00  2539
+results on testb
+processed 51574 tokens with 5941 phrases; found: 8840 phrases; correct: 1922.
+accuracy:  71.86%; precision:  21.74%; recall:  32.35%; FB1:  26.01
+              LOC: precision:  31.86%; recall:  53.89%; FB1:  40.05  3107
+             MISC: precision:   7.26%; recall:   9.87%; FB1:   8.37  1253
+              ORG: precision:  11.99%; recall:  14.78%; FB1:  13.24  1651
+              PER: precision:  22.73%; recall:  34.91%; FB1:  27.53  2829
+------------------------------------------------------------------------------------------------------
+
+#####################################################################################################
+context enc with global context matrix only, seed: 3, it: 20
+#####################################################################################################
+results on training data
+processed 204563 tokens with 23497 phrases; found: 35527 phrases; correct: 11277.
+accuracy:  75.59%; precision:  31.74%; recall:  47.99%; FB1:  38.21
+              LOC: precision:  54.84%; recall:  75.48%; FB1:  63.53  9826
+             MISC: precision:  21.01%; recall:  42.41%; FB1:  28.10  6941
+              ORG: precision:  14.58%; recall:  20.13%; FB1:  16.91  8726
+              PER: precision:  31.47%; recall:  47.85%; FB1:  37.97  10034
+results on testa
+processed 46625 tokens with 5644 phrases; found: 10356 phrases; correct: 2640.
+accuracy:  71.95%; precision:  25.49%; recall:  46.78%; FB1:  33.00
+              LOC: precision:  54.99%; recall:  68.81%; FB1:  61.12  2086
+             MISC: precision:  18.71%; recall:  41.65%; FB1:  25.82  1561
+              ORG: precision:  13.22%; recall:  17.77%; FB1:  15.16  2232
+              PER: precision:  20.24%; recall:  56.06%; FB1:  29.74  4477
+results on testb
+processed 51574 tokens with 5941 phrases; found: 10330 phrases; correct: 3044.
+accuracy:  74.12%; precision:  29.47%; recall:  51.24%; FB1:  37.42
+              LOC: precision:  54.30%; recall:  70.06%; FB1:  61.18  2370
+             MISC: precision:  26.81%; recall:  45.88%; FB1:  33.84  1578
+              ORG: precision:  14.95%; recall:  20.67%; FB1:  17.35  1853
+              PER: precision:  23.34%; recall:  57.38%; FB1:  33.18  4529
+------------------------------------------------------------------------------------------------------
+
+#####################################################################################################
+word2vec model, seed: 3, it: 20
+#####################################################################################################
+results on training data
+processed 204563 tokens with 23497 phrases; found: 36401 phrases; correct: 11590.
+accuracy:  78.16%; precision:  31.84%; recall:  49.33%; FB1:  38.70
+              LOC: precision:  53.62%; recall:  76.92%; FB1:  63.19  10242
+             MISC: precision:  22.11%; recall:  41.01%; FB1:  28.73  6377
+              ORG: precision:  19.68%; recall:  29.02%; FB1:  23.46  9319
+              PER: precision:  27.28%; recall:  43.24%; FB1:  33.45  10463
+results on testa
+processed 46625 tokens with 5644 phrases; found: 7073 phrases; correct: 2013.
+accuracy:  77.13%; precision:  28.46%; recall:  35.67%; FB1:  31.66
+              LOC: precision:  53.24%; recall:  71.39%; FB1:  60.99  2235
+             MISC: precision:  20.01%; recall:  39.37%; FB1:  26.54  1379
+              ORG: precision:  21.78%; recall:  22.11%; FB1:  21.94  1685
+              PER: precision:  10.15%; recall:  11.14%; FB1:  10.62  1774
+results on testb
+processed 51574 tokens with 5941 phrases; found: 7995 phrases; correct: 2514.
+accuracy:  78.54%; precision:  31.44%; recall:  42.32%; FB1:  36.08
+              LOC: precision:  54.25%; recall:  69.84%; FB1:  61.07  2365
+             MISC: precision:  25.21%; recall:  41.76%; FB1:  31.44  1527
+              ORG: precision:  19.31%; recall:  27.61%; FB1:  22.73  1916
+              PER: precision:  21.76%; recall:  25.84%; FB1:  23.63  2187
+------------------------------------------------------------------------------------------------------

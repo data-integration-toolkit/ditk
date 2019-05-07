@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="DDI-DrugBank.d470">
+    <sentence id="DDI-DrugBank.d470.s0" text="No formal assessments of pharmacokinetic drug-drug interactions between TRISENOX and other agents have been conducted.">
+        <entity id="DDI-DrugBank.d470.s0.e0" charOffset="72-79"
+            type="brand" text="TRISENOX"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d470.s1" text="Caution is advised when TRISENOX is coadministered with other medications that can prolong the QT interval (e.g. certain antiarrhythmics or thioridazine) or lead to electrolyte abnormalities (such as diuretics or amphotericin B).">
+        <entity id="DDI-DrugBank.d470.s1.e0" charOffset="24-31"
+            type="brand" text="TRISENOX"/>
+        <entity id="DDI-DrugBank.d470.s1.e1" charOffset="121-135"
+            type="group" text="antiarrhythmics"/>
+        <entity id="DDI-DrugBank.d470.s1.e2" charOffset="140-151"
+            type="drug" text="thioridazine"/>
+        <entity id="DDI-DrugBank.d470.s1.e3" charOffset="200-208"
+            type="group" text="diuretics"/>
+        <entity id="DDI-DrugBank.d470.s1.e4" charOffset="213-226"
+            type="drug" text="amphotericin B"/>
+        <pair id="DDI-DrugBank.d470.s1.p0" e1="DDI-DrugBank.d470.s1.e0"
+            e2="DDI-DrugBank.d470.s1.e1" ddi="true" type="advise"/>
+        <pair id="DDI-DrugBank.d470.s1.p1" e1="DDI-DrugBank.d470.s1.e0"
+            e2="DDI-DrugBank.d470.s1.e2" ddi="true" type="advise"/>
+        <pair id="DDI-DrugBank.d470.s1.p2" e1="DDI-DrugBank.d470.s1.e0"
+            e2="DDI-DrugBank.d470.s1.e3" ddi="true" type="advise"/>
+        <pair id="DDI-DrugBank.d470.s1.p3" e1="DDI-DrugBank.d470.s1.e0"
+            e2="DDI-DrugBank.d470.s1.e4" ddi="true" type="advise"/>
+        <pair id="DDI-DrugBank.d470.s1.p4" e1="DDI-DrugBank.d470.s1.e1"
+            e2="DDI-DrugBank.d470.s1.e2" ddi="false"/>
+        <pair id="DDI-DrugBank.d470.s1.p5" e1="DDI-DrugBank.d470.s1.e1"
+            e2="DDI-DrugBank.d470.s1.e3" ddi="false"/>
+        <pair id="DDI-DrugBank.d470.s1.p6" e1="DDI-DrugBank.d470.s1.e1"
+            e2="DDI-DrugBank.d470.s1.e4" ddi="false"/>
+        <pair id="DDI-DrugBank.d470.s1.p7" e1="DDI-DrugBank.d470.s1.e2"
+            e2="DDI-DrugBank.d470.s1.e3" ddi="false"/>
+        <pair id="DDI-DrugBank.d470.s1.p8" e1="DDI-DrugBank.d470.s1.e2"
+            e2="DDI-DrugBank.d470.s1.e4" ddi="false"/>
+        <pair id="DDI-DrugBank.d470.s1.p9" e1="DDI-DrugBank.d470.s1.e3"
+            e2="DDI-DrugBank.d470.s1.e4" ddi="false"/>
+    </sentence>
+</document>

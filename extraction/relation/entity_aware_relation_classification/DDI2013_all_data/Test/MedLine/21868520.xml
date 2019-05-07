@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="DDI-MedLine.d147">
+    <sentence id="DDI-MedLine.d147.s0" text="Interaction of dacarbazine and imexon, in vitro and in vivo, in human A375 melanoma cells.&#xd;&#xa;">
+        <entity id="DDI-MedLine.d147.s0.e0" charOffset="15-25"
+            type="drug" text="dacarbazine"/>
+        <entity id="DDI-MedLine.d147.s0.e1" charOffset="31-36"
+            type="drug_n" text="imexon"/>
+        <pair id="DDI-MedLine.d147.s0.p0" e1="DDI-MedLine.d147.s0.e0"
+            e2="DDI-MedLine.d147.s0.e1" ddi="false"/>
+    </sentence>
+    <sentence id="DDI-MedLine.d147.s1" text="We evaluated mechanisms of interaction between the alkyating agent dacarbazine (DTIC) and the pro-oxidant, imexon, in the human A375 melanoma cell line.">
+        <entity id="DDI-MedLine.d147.s1.e0" charOffset="67-77"
+            type="drug" text="dacarbazine"/>
+        <entity id="DDI-MedLine.d147.s1.e1" charOffset="80-83"
+            type="drug" text="DTIC"/>
+        <entity id="DDI-MedLine.d147.s1.e2" charOffset="107-112"
+            type="drug" text="imexon"/>
+        <pair id="DDI-MedLine.d147.s1.p0" e1="DDI-MedLine.d147.s1.e0"
+            e2="DDI-MedLine.d147.s1.e1" ddi="false"/>
+        <pair id="DDI-MedLine.d147.s1.p1" e1="DDI-MedLine.d147.s1.e0"
+            e2="DDI-MedLine.d147.s1.e2" ddi="false"/>
+        <pair id="DDI-MedLine.d147.s1.p2" e1="DDI-MedLine.d147.s1.e1"
+            e2="DDI-MedLine.d147.s1.e2" ddi="false"/>
+    </sentence>
+    <sentence id="DDI-MedLine.d147.s2" text="The effect of DTIC and imexon, alone and in combination, was evaluated for growth inhibition (MTT), radiolabeled drug uptake, cellular thiol content (HPLC), and DNA strand breaks (Comet assay). ">
+        <entity id="DDI-MedLine.d147.s2.e0" charOffset="14-17"
+            type="drug" text="DTIC"/>
+        <entity id="DDI-MedLine.d147.s2.e1" charOffset="23-28"
+            type="drug" text="imexon"/>
+        <pair id="DDI-MedLine.d147.s2.p0" e1="DDI-MedLine.d147.s2.e0"
+            e2="DDI-MedLine.d147.s2.e1" ddi="false"/>
+    </sentence>
+    <sentence id="DDI-MedLine.d147.s3" text="Pharmacokinetic and antitumor effects were evaluated in mice. "/>
+    <sentence id="DDI-MedLine.d147.s4" text="Growth inhibition in vitro was additive with the two drugs. "/>
+    <sentence id="DDI-MedLine.d147.s5" text="There was no effect on drug uptake or on the number of DNA strand breaks. "/>
+    <sentence id="DDI-MedLine.d147.s6" text="There was a >75% reduction in cellular glutathione and cysteine with imexon but not DTIC. ">
+        <entity id="DDI-MedLine.d147.s6.e0" charOffset="69-74"
+            type="drug" text="imexon"/>
+        <entity id="DDI-MedLine.d147.s6.e1" charOffset="84-87"
+            type="drug" text="DTIC"/>
+        <pair id="DDI-MedLine.d147.s6.p0" e1="DDI-MedLine.d147.s6.e0"
+            e2="DDI-MedLine.d147.s6.e1" ddi="false"/>
+    </sentence>
+    <sentence id="DDI-MedLine.d147.s7" text="Co-administration of the two drugs in mice caused an increase in the area under the curve of both drugs, but the combination was not effective in reducing human A375 melanoma tumors in vivo. "/>
+    <sentence id="DDI-MedLine.d147.s8" text="Imexon and dacarbazine show additive effects in vitro but not in vivo in human A375 melanoma cells.">
+        <entity id="DDI-MedLine.d147.s8.e0" charOffset="0-5" type="drug" text="Imexon"/>
+        <entity id="DDI-MedLine.d147.s8.e1" charOffset="11-21"
+            type="drug" text="dacarbazine"/>
+        <pair id="DDI-MedLine.d147.s8.p0" e1="DDI-MedLine.d147.s8.e0"
+            e2="DDI-MedLine.d147.s8.e1" ddi="true" type="effect"/>
+    </sentence>
+</document>

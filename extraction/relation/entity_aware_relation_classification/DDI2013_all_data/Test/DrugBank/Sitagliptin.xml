@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="DDI-DrugBank.d694">
+    <sentence id="DDI-DrugBank.d694.s0" text="Digoxin: There was a slight increase in the area under the curve (AUC, 11%) and mean peak drug concentration (Cmax, 18%) of digoxin with the co-administration of 100 mg sitagliptin for 10 days. ">
+        <entity id="DDI-DrugBank.d694.s0.e0" charOffset="0-6"
+            type="drug" text="Digoxin"/>
+        <entity id="DDI-DrugBank.d694.s0.e1" charOffset="124-130"
+            type="drug" text="digoxin"/>
+        <entity id="DDI-DrugBank.d694.s0.e2" charOffset="169-179"
+            type="drug" text="sitagliptin"/>
+        <pair id="DDI-DrugBank.d694.s0.p0" e1="DDI-DrugBank.d694.s0.e0"
+            e2="DDI-DrugBank.d694.s0.e1" ddi="false"/>
+        <pair id="DDI-DrugBank.d694.s0.p1" e1="DDI-DrugBank.d694.s0.e0"
+            e2="DDI-DrugBank.d694.s0.e2" ddi="false"/>
+        <pair id="DDI-DrugBank.d694.s0.p2" e1="DDI-DrugBank.d694.s0.e1"
+            e2="DDI-DrugBank.d694.s0.e2" ddi="true" type="mechanism"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d694.s1" text="Patients receiving digoxin should be monitored appropriately. ">
+        <entity id="DDI-DrugBank.d694.s1.e0" charOffset="19-25"
+            type="drug" text="digoxin"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d694.s2" text="No dosage adjustment of digoxin or JANUVIA is recommended.">
+        <entity id="DDI-DrugBank.d694.s2.e0" charOffset="24-30"
+            type="drug" text="digoxin"/>
+        <entity id="DDI-DrugBank.d694.s2.e1" charOffset="35-41"
+            type="brand" text="JANUVIA"/>
+        <pair id="DDI-DrugBank.d694.s2.p0" e1="DDI-DrugBank.d694.s2.e0"
+            e2="DDI-DrugBank.d694.s2.e1" ddi="false"/>
+    </sentence>
+</document>

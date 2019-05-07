@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="DDI-DrugBank.d91">
+    <sentence id="DDI-DrugBank.d91.s0" text="Other medicines - Although certain medicines should not be used together at all, in other cases two different medicines may be used together even if an interaction might occur."/>
+    <sentence id="DDI-DrugBank.d91.s1" text="In these cases, your doctor may want to change the dose, or other precautions may be necessary."/>
+    <sentence id="DDI-DrugBank.d91.s2" text="When you are using idoxuridine, it is especially important that your health care professional know if you are using the following: Eye product containing boric acid.">
+        <entity id="DDI-DrugBank.d91.s2.e0" charOffset="19-29"
+            type="drug" text="idoxuridine"/>
+        <entity id="DDI-DrugBank.d91.s2.e1" charOffset="154-163"
+            type="drug" text="boric acid"/>
+        <pair id="DDI-DrugBank.d91.s2.p0" e1="DDI-DrugBank.d91.s2.e0"
+            e2="DDI-DrugBank.d91.s2.e1" ddi="true" type="advise"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d91.s3" text="Boric acid may interact with the idoxuridine preparation causing a gritty substance to form or may interact with the preservative in the idoxuridine preparation causing a toxic effect in the eye.">
+        <entity id="DDI-DrugBank.d91.s3.e0" charOffset="0-9" type="drug" text="Boric acid"/>
+        <entity id="DDI-DrugBank.d91.s3.e1" charOffset="33-43"
+            type="drug" text="idoxuridine"/>
+        <entity id="DDI-DrugBank.d91.s3.e2" charOffset="137-147"
+            type="drug" text="idoxuridine"/>
+        <pair id="DDI-DrugBank.d91.s3.p0" e1="DDI-DrugBank.d91.s3.e0"
+            e2="DDI-DrugBank.d91.s3.e1" ddi="true" type="mechanism"/>
+        <pair id="DDI-DrugBank.d91.s3.p1" e1="DDI-DrugBank.d91.s3.e0"
+            e2="DDI-DrugBank.d91.s3.e2" ddi="false"/>
+        <pair id="DDI-DrugBank.d91.s3.p2" e1="DDI-DrugBank.d91.s3.e1"
+            e2="DDI-DrugBank.d91.s3.e2" ddi="false"/>
+    </sentence>
+</document>

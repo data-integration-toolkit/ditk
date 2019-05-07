@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="DDI-MedLine.d104">
+    <sentence id="DDI-MedLine.d104.s0" text="The effects of DCG-IV and L-CCG-1 upon phencyclidine (PCP)-induced locomotion and behavioral changes in mice.&#xd;&#xa;">
+        <entity id="DDI-MedLine.d104.s0.e0" charOffset="15-20"
+            type="drug_n" text="DCG-IV"/>
+        <entity id="DDI-MedLine.d104.s0.e1" charOffset="26-32"
+            type="drug_n" text="L-CCG-1"/>
+        <entity id="DDI-MedLine.d104.s0.e2" charOffset="39-51"
+            type="drug_n" text="phencyclidine"/>
+        <entity id="DDI-MedLine.d104.s0.e3" charOffset="54-56"
+            type="drug_n" text="PCP"/>
+        <pair id="DDI-MedLine.d104.s0.p0" e1="DDI-MedLine.d104.s0.e0"
+            e2="DDI-MedLine.d104.s0.e1" ddi="false"/>
+        <pair id="DDI-MedLine.d104.s0.p1" e1="DDI-MedLine.d104.s0.e0"
+            e2="DDI-MedLine.d104.s0.e2" ddi="false"/>
+        <pair id="DDI-MedLine.d104.s0.p2" e1="DDI-MedLine.d104.s0.e0"
+            e2="DDI-MedLine.d104.s0.e3" ddi="false"/>
+        <pair id="DDI-MedLine.d104.s0.p3" e1="DDI-MedLine.d104.s0.e1"
+            e2="DDI-MedLine.d104.s0.e2" ddi="false"/>
+        <pair id="DDI-MedLine.d104.s0.p4" e1="DDI-MedLine.d104.s0.e1"
+            e2="DDI-MedLine.d104.s0.e3" ddi="false"/>
+        <pair id="DDI-MedLine.d104.s0.p5" e1="DDI-MedLine.d104.s0.e2"
+            e2="DDI-MedLine.d104.s0.e3" ddi="false"/>
+    </sentence>
+    <sentence id="DDI-MedLine.d104.s1" text="The behavioral changes of mice induced by acute and repeated i.p. "/>
+    <sentence id="DDI-MedLine.d104.s2" text="injection of phencyclidine (PCP) were observed by measuring locomotor activity and stereotyped behavior. ">
+        <entity id="DDI-MedLine.d104.s2.e0" charOffset="13-25"
+            type="drug_n" text="phencyclidine"/>
+        <entity id="DDI-MedLine.d104.s2.e1" charOffset="28-30"
+            type="drug_n" text="PCP"/>
+        <pair id="DDI-MedLine.d104.s2.p0" e1="DDI-MedLine.d104.s2.e0"
+            e2="DDI-MedLine.d104.s2.e1" ddi="false"/>
+    </sentence>
+    <sentence id="DDI-MedLine.d104.s3" text="Then, the effects of metabotropic glutamate receptor (mGluR) agonists, DCG-IV and L-CCG-1, on the above behavioral changes induced by PCP were found. ">
+        <entity id="DDI-MedLine.d104.s3.e0" charOffset="71-76"
+            type="drug_n" text="DCG-IV"/>
+        <entity id="DDI-MedLine.d104.s3.e1" charOffset="82-88"
+            type="drug_n" text="L-CCG-1"/>
+        <entity id="DDI-MedLine.d104.s3.e2" charOffset="134-136"
+            type="drug_n" text="PCP"/>
+        <pair id="DDI-MedLine.d104.s3.p0" e1="DDI-MedLine.d104.s3.e0"
+            e2="DDI-MedLine.d104.s3.e1" ddi="false"/>
+        <pair id="DDI-MedLine.d104.s3.p1" e1="DDI-MedLine.d104.s3.e0"
+            e2="DDI-MedLine.d104.s3.e2" ddi="false"/>
+        <pair id="DDI-MedLine.d104.s3.p2" e1="DDI-MedLine.d104.s3.e1"
+            e2="DDI-MedLine.d104.s3.e2" ddi="false"/>
+    </sentence>
+    <sentence id="DDI-MedLine.d104.s4" text="The effects of DCG-IV were very strong and completely depressed the PCP-induced hyperlocomotion. ">
+        <entity id="DDI-MedLine.d104.s4.e0" charOffset="15-20"
+            type="drug_n" text="DCG-IV"/>
+        <entity id="DDI-MedLine.d104.s4.e1" charOffset="68-70"
+            type="drug_n" text="PCP"/>
+        <pair id="DDI-MedLine.d104.s4.p0" e1="DDI-MedLine.d104.s4.e0"
+            e2="DDI-MedLine.d104.s4.e1" ddi="true" type="effect"/>
+    </sentence>
+    <sentence id="DDI-MedLine.d104.s5" text="The effects of L-CCG-1 were not so strong. ">
+        <entity id="DDI-MedLine.d104.s5.e0" charOffset="15-21"
+            type="drug_n" text="L-CCG-1"/>
+    </sentence>
+    <sentence id="DDI-MedLine.d104.s6" text="Repeated injection of PCP for 20 days into mice induced lower locomotor activity than that in acutely injected mice. ">
+        <entity id="DDI-MedLine.d104.s6.e0" charOffset="22-24"
+            type="drug_n" text="PCP"/>
+    </sentence>
+    <sentence id="DDI-MedLine.d104.s7" text="These behavioral changes may be related with the negative symptoms of schizophrenia. "/>
+    <sentence id="DDI-MedLine.d104.s8" text="In order to examine some molecular mechanisms of PCP-induced behavioral changes, Northern blot analysis of total RNA from prefrontal cortical tissues of mice treated with PCP, DCG-IV, and L-CCG-1 was carried out.">
+        <entity id="DDI-MedLine.d104.s8.e0" charOffset="49-51"
+            type="drug_n" text="PCP"/>
+        <entity id="DDI-MedLine.d104.s8.e1" charOffset="171-173"
+            type="drug_n" text="PCP"/>
+        <entity id="DDI-MedLine.d104.s8.e2" charOffset="176-181"
+            type="drug_n" text="DCG-IV"/>
+        <entity id="DDI-MedLine.d104.s8.e3" charOffset="188-194"
+            type="drug_n" text="L-CCG-1"/>
+        <pair id="DDI-MedLine.d104.s8.p0" e1="DDI-MedLine.d104.s8.e0"
+            e2="DDI-MedLine.d104.s8.e1" ddi="false"/>
+        <pair id="DDI-MedLine.d104.s8.p1" e1="DDI-MedLine.d104.s8.e0"
+            e2="DDI-MedLine.d104.s8.e2" ddi="false"/>
+        <pair id="DDI-MedLine.d104.s8.p2" e1="DDI-MedLine.d104.s8.e0"
+            e2="DDI-MedLine.d104.s8.e3" ddi="false"/>
+        <pair id="DDI-MedLine.d104.s8.p3" e1="DDI-MedLine.d104.s8.e1"
+            e2="DDI-MedLine.d104.s8.e2" ddi="false"/>
+        <pair id="DDI-MedLine.d104.s8.p4" e1="DDI-MedLine.d104.s8.e1"
+            e2="DDI-MedLine.d104.s8.e3" ddi="false"/>
+        <pair id="DDI-MedLine.d104.s8.p5" e1="DDI-MedLine.d104.s8.e2"
+            e2="DDI-MedLine.d104.s8.e3" ddi="false"/>
+    </sentence>
+</document>

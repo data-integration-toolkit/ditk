@@ -1,0 +1,162 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="DDI-DrugBank.d495">
+    <sentence id="DDI-DrugBank.d495.s0" text="Tablet If a patient receiving clonidine hydrochloride is also taking tricyclic antidepressants, the effect of clonidine may be reduced, thus necessitating an increase in dosage.">
+        <entity id="DDI-DrugBank.d495.s0.e0" charOffset="30-52"
+            type="drug" text="clonidine hydrochloride"/>
+        <entity id="DDI-DrugBank.d495.s0.e1" charOffset="69-93"
+            type="group" text="tricyclic antidepressants"/>
+        <entity id="DDI-DrugBank.d495.s0.e2" charOffset="110-118"
+            type="drug" text="clonidine"/>
+        <pair id="DDI-DrugBank.d495.s0.p0" e1="DDI-DrugBank.d495.s0.e0"
+            e2="DDI-DrugBank.d495.s0.e1" ddi="true" type="effect"/>
+        <pair id="DDI-DrugBank.d495.s0.p1" e1="DDI-DrugBank.d495.s0.e0"
+            e2="DDI-DrugBank.d495.s0.e2" ddi="false"/>
+        <pair id="DDI-DrugBank.d495.s0.p2" e1="DDI-DrugBank.d495.s0.e1"
+            e2="DDI-DrugBank.d495.s0.e2" ddi="false"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d495.s1" text="Clonidine hydrochloride may enhance the CNS-depressive effects of alcohol, barbiturates or other sedatives.">
+        <entity id="DDI-DrugBank.d495.s1.e0" charOffset="0-22"
+            type="drug" text="Clonidine hydrochloride"/>
+        <entity id="DDI-DrugBank.d495.s1.e1" charOffset="66-72"
+            type="drug" text="alcohol"/>
+        <entity id="DDI-DrugBank.d495.s1.e2" charOffset="75-86"
+            type="group" text="barbiturates"/>
+        <entity id="DDI-DrugBank.d495.s1.e3" charOffset="97-105"
+            type="group" text="sedatives"/>
+        <pair id="DDI-DrugBank.d495.s1.p0" e1="DDI-DrugBank.d495.s1.e0"
+            e2="DDI-DrugBank.d495.s1.e1" ddi="true" type="effect"/>
+        <pair id="DDI-DrugBank.d495.s1.p1" e1="DDI-DrugBank.d495.s1.e0"
+            e2="DDI-DrugBank.d495.s1.e2" ddi="true" type="effect"/>
+        <pair id="DDI-DrugBank.d495.s1.p2" e1="DDI-DrugBank.d495.s1.e0"
+            e2="DDI-DrugBank.d495.s1.e3" ddi="true" type="effect"/>
+        <pair id="DDI-DrugBank.d495.s1.p3" e1="DDI-DrugBank.d495.s1.e1"
+            e2="DDI-DrugBank.d495.s1.e2" ddi="false"/>
+        <pair id="DDI-DrugBank.d495.s1.p4" e1="DDI-DrugBank.d495.s1.e1"
+            e2="DDI-DrugBank.d495.s1.e3" ddi="false"/>
+        <pair id="DDI-DrugBank.d495.s1.p5" e1="DDI-DrugBank.d495.s1.e2"
+            e2="DDI-DrugBank.d495.s1.e3" ddi="false"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d495.s2" text="Amitriptyline in combination with clonidine enhances the manifestation of corneal lesions in rats Epidural Injection Clonidine may potentiate the CNS-depressive effect of alcohol, barbiturates or other sedating drugs.">
+        <entity id="DDI-DrugBank.d495.s2.e0" charOffset="0-12"
+            type="drug" text="Amitriptyline"/>
+        <entity id="DDI-DrugBank.d495.s2.e1" charOffset="34-42"
+            type="drug" text="clonidine"/>
+        <entity id="DDI-DrugBank.d495.s2.e2" charOffset="117-125"
+            type="drug" text="Clonidine"/>
+        <entity id="DDI-DrugBank.d495.s2.e3" charOffset="171-177"
+            type="drug" text="alcohol"/>
+        <entity id="DDI-DrugBank.d495.s2.e4" charOffset="180-191"
+            type="group" text="barbiturates"/>
+        <entity id="DDI-DrugBank.d495.s2.e5" charOffset="202-215"
+            type="group" text="sedating drugs"/>
+        <pair id="DDI-DrugBank.d495.s2.p0" e1="DDI-DrugBank.d495.s2.e0"
+            e2="DDI-DrugBank.d495.s2.e1" ddi="true" type="effect"/>
+        <pair id="DDI-DrugBank.d495.s2.p1" e1="DDI-DrugBank.d495.s2.e0"
+            e2="DDI-DrugBank.d495.s2.e2" ddi="false"/>
+        <pair id="DDI-DrugBank.d495.s2.p2" e1="DDI-DrugBank.d495.s2.e0"
+            e2="DDI-DrugBank.d495.s2.e3" ddi="false"/>
+        <pair id="DDI-DrugBank.d495.s2.p3" e1="DDI-DrugBank.d495.s2.e0"
+            e2="DDI-DrugBank.d495.s2.e4" ddi="false"/>
+        <pair id="DDI-DrugBank.d495.s2.p4" e1="DDI-DrugBank.d495.s2.e0"
+            e2="DDI-DrugBank.d495.s2.e5" ddi="false"/>
+        <pair id="DDI-DrugBank.d495.s2.p5" e1="DDI-DrugBank.d495.s2.e1"
+            e2="DDI-DrugBank.d495.s2.e2" ddi="false"/>
+        <pair id="DDI-DrugBank.d495.s2.p6" e1="DDI-DrugBank.d495.s2.e1"
+            e2="DDI-DrugBank.d495.s2.e3" ddi="false"/>
+        <pair id="DDI-DrugBank.d495.s2.p7" e1="DDI-DrugBank.d495.s2.e1"
+            e2="DDI-DrugBank.d495.s2.e4" ddi="false"/>
+        <pair id="DDI-DrugBank.d495.s2.p8" e1="DDI-DrugBank.d495.s2.e1"
+            e2="DDI-DrugBank.d495.s2.e5" ddi="false"/>
+        <pair id="DDI-DrugBank.d495.s2.p9" e1="DDI-DrugBank.d495.s2.e2"
+            e2="DDI-DrugBank.d495.s2.e3" ddi="true" type="effect"/>
+        <pair id="DDI-DrugBank.d495.s2.p10" e1="DDI-DrugBank.d495.s2.e2"
+            e2="DDI-DrugBank.d495.s2.e4" ddi="true" type="effect"/>
+        <pair id="DDI-DrugBank.d495.s2.p11" e1="DDI-DrugBank.d495.s2.e2"
+            e2="DDI-DrugBank.d495.s2.e5" ddi="true" type="effect"/>
+        <pair id="DDI-DrugBank.d495.s2.p12" e1="DDI-DrugBank.d495.s2.e3"
+            e2="DDI-DrugBank.d495.s2.e4" ddi="false"/>
+        <pair id="DDI-DrugBank.d495.s2.p13" e1="DDI-DrugBank.d495.s2.e3"
+            e2="DDI-DrugBank.d495.s2.e5" ddi="false"/>
+        <pair id="DDI-DrugBank.d495.s2.p14" e1="DDI-DrugBank.d495.s2.e4"
+            e2="DDI-DrugBank.d495.s2.e5" ddi="false"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d495.s3" text="Narcotic analgesics may potentiate the hypotensive effects of clonidine.">
+        <entity id="DDI-DrugBank.d495.s3.e0" charOffset="0-18"
+            type="group" text="Narcotic analgesics"/>
+        <entity id="DDI-DrugBank.d495.s3.e1" charOffset="62-70"
+            type="drug" text="clonidine"/>
+        <pair id="DDI-DrugBank.d495.s3.p0" e1="DDI-DrugBank.d495.s3.e0"
+            e2="DDI-DrugBank.d495.s3.e1" ddi="true" type="effect"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d495.s4" text="Tricyclic antidepressants may antagonize the hypotensive effects of clonidine.">
+        <entity id="DDI-DrugBank.d495.s4.e0" charOffset="0-24"
+            type="group" text="Tricyclic antidepressants"/>
+        <entity id="DDI-DrugBank.d495.s4.e1" charOffset="68-76"
+            type="drug" text="clonidine"/>
+        <pair id="DDI-DrugBank.d495.s4.p0" e1="DDI-DrugBank.d495.s4.e0"
+            e2="DDI-DrugBank.d495.s4.e1" ddi="true" type="effect"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d495.s5" text="The effects of tricyclic antidepressants on clonidines analgesic actions are not known.">
+        <entity id="DDI-DrugBank.d495.s5.e0" charOffset="15-39"
+            type="group" text="tricyclic antidepressants"/>
+        <entity id="DDI-DrugBank.d495.s5.e1" charOffset="44-52"
+            type="drug" text="clonidine"/>
+        <pair id="DDI-DrugBank.d495.s5.p0" e1="DDI-DrugBank.d495.s5.e0"
+            e2="DDI-DrugBank.d495.s5.e1" ddi="false"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d495.s6" text="Beta blockers may exacerbate the hypertensive response seen with clonidine withdrawl.">
+        <entity id="DDI-DrugBank.d495.s6.e0" charOffset="0-12"
+            type="group" text="Beta blockers"/>
+        <entity id="DDI-DrugBank.d495.s6.e1" charOffset="65-73"
+            type="drug" text="clonidine"/>
+        <pair id="DDI-DrugBank.d495.s6.p0" e1="DDI-DrugBank.d495.s6.e0"
+            e2="DDI-DrugBank.d495.s6.e1" ddi="true" type="effect"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d495.s7" text="Also, due to the potential for additive effects such as bradycardia and AV block, caution is warranted in patients receiving clonidine with agents known to affect sinus node function or AV nodal conduction (e.g., digitalis, calcium channel blockers, and beta-blockers.)">
+        <entity id="DDI-DrugBank.d495.s7.e0" charOffset="125-133"
+            type="drug" text="clonidine"/>
+        <entity id="DDI-DrugBank.d495.s7.e1" charOffset="213-221"
+            type="group" text="digitalis"/>
+        <entity id="DDI-DrugBank.d495.s7.e2" charOffset="224-247"
+            type="group" text="calcium channel blockers"/>
+        <entity id="DDI-DrugBank.d495.s7.e3" charOffset="254-266"
+            type="group" text="beta-blockers"/>
+        <pair id="DDI-DrugBank.d495.s7.p0" e1="DDI-DrugBank.d495.s7.e0"
+            e2="DDI-DrugBank.d495.s7.e1" ddi="true" type="advise"/>
+        <pair id="DDI-DrugBank.d495.s7.p1" e1="DDI-DrugBank.d495.s7.e0"
+            e2="DDI-DrugBank.d495.s7.e2" ddi="true" type="advise"/>
+        <pair id="DDI-DrugBank.d495.s7.p2" e1="DDI-DrugBank.d495.s7.e0"
+            e2="DDI-DrugBank.d495.s7.e3" ddi="true" type="advise"/>
+        <pair id="DDI-DrugBank.d495.s7.p3" e1="DDI-DrugBank.d495.s7.e1"
+            e2="DDI-DrugBank.d495.s7.e2" ddi="false"/>
+        <pair id="DDI-DrugBank.d495.s7.p4" e1="DDI-DrugBank.d495.s7.e1"
+            e2="DDI-DrugBank.d495.s7.e3" ddi="false"/>
+        <pair id="DDI-DrugBank.d495.s7.p5" e1="DDI-DrugBank.d495.s7.e2"
+            e2="DDI-DrugBank.d495.s7.e3" ddi="false"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d495.s8" text="There is one reported case of a patient with acute delirium associated with the simultaneous use of fluphenazine and oral clonidine.">
+        <entity id="DDI-DrugBank.d495.s8.e0" charOffset="100-111"
+            type="drug" text="fluphenazine"/>
+        <entity id="DDI-DrugBank.d495.s8.e1" charOffset="122-130"
+            type="drug" text="clonidine"/>
+        <pair id="DDI-DrugBank.d495.s8.p0" e1="DDI-DrugBank.d495.s8.e0"
+            e2="DDI-DrugBank.d495.s8.e1" ddi="true" type="effect"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d495.s9" text="Symptoms resolved when clonidine was withdrawn and recurred when the patient was rechallenged with clonidine.">
+        <entity id="DDI-DrugBank.d495.s9.e0" charOffset="23-31"
+            type="drug" text="clonidine"/>
+        <entity id="DDI-DrugBank.d495.s9.e1" charOffset="99-107"
+            type="drug" text="clonidine"/>
+        <pair id="DDI-DrugBank.d495.s9.p0" e1="DDI-DrugBank.d495.s9.e0"
+            e2="DDI-DrugBank.d495.s9.e1" ddi="false"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d495.s10" text="Epidural clonidine may prolong the duration of pharmacologic effects of epidural local anesthetics, including both sensory and motor blockade.">
+        <entity id="DDI-DrugBank.d495.s10.e0" charOffset="9-17"
+            type="drug" text="clonidine"/>
+        <entity id="DDI-DrugBank.d495.s10.e1" charOffset="87-97"
+            type="group" text="anesthetics"/>
+        <pair id="DDI-DrugBank.d495.s10.p0"
+            e1="DDI-DrugBank.d495.s10.e0" e2="DDI-DrugBank.d495.s10.e1"
+            ddi="true" type="effect"/>
+    </sentence>
+</document>

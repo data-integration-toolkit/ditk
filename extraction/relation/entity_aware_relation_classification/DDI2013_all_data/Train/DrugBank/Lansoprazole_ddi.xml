@@ -1,0 +1,265 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="DDI-DrugBank.d431">
+    <sentence id="DDI-DrugBank.d431.s0" text="Lansoprazole is metabolized through the cytochrome P450 system, specifically through the CYP3A and CYP2C19 isozymes.">
+        <entity id="DDI-DrugBank.d431.s0.e0" charOffset="0-11"
+            type="drug" text="Lansoprazole"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d431.s1" text="Studies have shown that lansoprazole does not have clinically significant interactions with other drugs metabolized by the cytochrome P450 system, such as warfarin, antipyrine, indomethacin, ibuprofen, phenytoin, propranolol, prednisone, diazepam, clarithromycin, or terfenadine in healthy subjects.">
+        <entity id="DDI-DrugBank.d431.s1.e0" charOffset="24-35"
+            type="drug" text="lansoprazole"/>
+        <entity id="DDI-DrugBank.d431.s1.e1" charOffset="155-162"
+            type="drug" text="warfarin"/>
+        <entity id="DDI-DrugBank.d431.s1.e2" charOffset="165-174"
+            type="drug" text="antipyrine"/>
+        <entity id="DDI-DrugBank.d431.s1.e3" charOffset="177-188"
+            type="drug" text="indomethacin"/>
+        <entity id="DDI-DrugBank.d431.s1.e4" charOffset="191-199"
+            type="drug" text="ibuprofen"/>
+        <entity id="DDI-DrugBank.d431.s1.e5" charOffset="202-210"
+            type="drug" text="phenytoin"/>
+        <entity id="DDI-DrugBank.d431.s1.e6" charOffset="213-223"
+            type="drug" text="propranolol"/>
+        <entity id="DDI-DrugBank.d431.s1.e7" charOffset="226-235"
+            type="drug" text="prednisone"/>
+        <entity id="DDI-DrugBank.d431.s1.e8" charOffset="238-245"
+            type="drug" text="diazepam"/>
+        <entity id="DDI-DrugBank.d431.s1.e9" charOffset="248-261"
+            type="drug" text="clarithromycin"/>
+        <entity id="DDI-DrugBank.d431.s1.e10" charOffset="267-277"
+            type="drug" text="terfenadine"/>
+        <pair id="DDI-DrugBank.d431.s1.p0" e1="DDI-DrugBank.d431.s1.e0"
+            e2="DDI-DrugBank.d431.s1.e1" ddi="false"/>
+        <pair id="DDI-DrugBank.d431.s1.p1" e1="DDI-DrugBank.d431.s1.e0"
+            e2="DDI-DrugBank.d431.s1.e2" ddi="false"/>
+        <pair id="DDI-DrugBank.d431.s1.p2" e1="DDI-DrugBank.d431.s1.e0"
+            e2="DDI-DrugBank.d431.s1.e3" ddi="false"/>
+        <pair id="DDI-DrugBank.d431.s1.p3" e1="DDI-DrugBank.d431.s1.e0"
+            e2="DDI-DrugBank.d431.s1.e4" ddi="false"/>
+        <pair id="DDI-DrugBank.d431.s1.p4" e1="DDI-DrugBank.d431.s1.e0"
+            e2="DDI-DrugBank.d431.s1.e5" ddi="false"/>
+        <pair id="DDI-DrugBank.d431.s1.p5" e1="DDI-DrugBank.d431.s1.e0"
+            e2="DDI-DrugBank.d431.s1.e6" ddi="false"/>
+        <pair id="DDI-DrugBank.d431.s1.p6" e1="DDI-DrugBank.d431.s1.e0"
+            e2="DDI-DrugBank.d431.s1.e7" ddi="false"/>
+        <pair id="DDI-DrugBank.d431.s1.p7" e1="DDI-DrugBank.d431.s1.e0"
+            e2="DDI-DrugBank.d431.s1.e8" ddi="false"/>
+        <pair id="DDI-DrugBank.d431.s1.p8" e1="DDI-DrugBank.d431.s1.e0"
+            e2="DDI-DrugBank.d431.s1.e9" ddi="false"/>
+        <pair id="DDI-DrugBank.d431.s1.p9" e1="DDI-DrugBank.d431.s1.e0"
+            e2="DDI-DrugBank.d431.s1.e10" ddi="false"/>
+        <pair id="DDI-DrugBank.d431.s1.p10" e1="DDI-DrugBank.d431.s1.e1"
+            e2="DDI-DrugBank.d431.s1.e2" ddi="false"/>
+        <pair id="DDI-DrugBank.d431.s1.p11" e1="DDI-DrugBank.d431.s1.e1"
+            e2="DDI-DrugBank.d431.s1.e3" ddi="false"/>
+        <pair id="DDI-DrugBank.d431.s1.p12" e1="DDI-DrugBank.d431.s1.e1"
+            e2="DDI-DrugBank.d431.s1.e4" ddi="false"/>
+        <pair id="DDI-DrugBank.d431.s1.p13" e1="DDI-DrugBank.d431.s1.e1"
+            e2="DDI-DrugBank.d431.s1.e5" ddi="false"/>
+        <pair id="DDI-DrugBank.d431.s1.p14" e1="DDI-DrugBank.d431.s1.e1"
+            e2="DDI-DrugBank.d431.s1.e6" ddi="false"/>
+        <pair id="DDI-DrugBank.d431.s1.p15" e1="DDI-DrugBank.d431.s1.e1"
+            e2="DDI-DrugBank.d431.s1.e7" ddi="false"/>
+        <pair id="DDI-DrugBank.d431.s1.p16" e1="DDI-DrugBank.d431.s1.e1"
+            e2="DDI-DrugBank.d431.s1.e8" ddi="false"/>
+        <pair id="DDI-DrugBank.d431.s1.p17" e1="DDI-DrugBank.d431.s1.e1"
+            e2="DDI-DrugBank.d431.s1.e9" ddi="false"/>
+        <pair id="DDI-DrugBank.d431.s1.p18" e1="DDI-DrugBank.d431.s1.e1"
+            e2="DDI-DrugBank.d431.s1.e10" ddi="false"/>
+        <pair id="DDI-DrugBank.d431.s1.p19" e1="DDI-DrugBank.d431.s1.e2"
+            e2="DDI-DrugBank.d431.s1.e3" ddi="false"/>
+        <pair id="DDI-DrugBank.d431.s1.p20" e1="DDI-DrugBank.d431.s1.e2"
+            e2="DDI-DrugBank.d431.s1.e4" ddi="false"/>
+        <pair id="DDI-DrugBank.d431.s1.p21" e1="DDI-DrugBank.d431.s1.e2"
+            e2="DDI-DrugBank.d431.s1.e5" ddi="false"/>
+        <pair id="DDI-DrugBank.d431.s1.p22" e1="DDI-DrugBank.d431.s1.e2"
+            e2="DDI-DrugBank.d431.s1.e6" ddi="false"/>
+        <pair id="DDI-DrugBank.d431.s1.p23" e1="DDI-DrugBank.d431.s1.e2"
+            e2="DDI-DrugBank.d431.s1.e7" ddi="false"/>
+        <pair id="DDI-DrugBank.d431.s1.p24" e1="DDI-DrugBank.d431.s1.e2"
+            e2="DDI-DrugBank.d431.s1.e8" ddi="false"/>
+        <pair id="DDI-DrugBank.d431.s1.p25" e1="DDI-DrugBank.d431.s1.e2"
+            e2="DDI-DrugBank.d431.s1.e9" ddi="false"/>
+        <pair id="DDI-DrugBank.d431.s1.p26" e1="DDI-DrugBank.d431.s1.e2"
+            e2="DDI-DrugBank.d431.s1.e10" ddi="false"/>
+        <pair id="DDI-DrugBank.d431.s1.p27" e1="DDI-DrugBank.d431.s1.e3"
+            e2="DDI-DrugBank.d431.s1.e4" ddi="false"/>
+        <pair id="DDI-DrugBank.d431.s1.p28" e1="DDI-DrugBank.d431.s1.e3"
+            e2="DDI-DrugBank.d431.s1.e5" ddi="false"/>
+        <pair id="DDI-DrugBank.d431.s1.p29" e1="DDI-DrugBank.d431.s1.e3"
+            e2="DDI-DrugBank.d431.s1.e6" ddi="false"/>
+        <pair id="DDI-DrugBank.d431.s1.p30" e1="DDI-DrugBank.d431.s1.e3"
+            e2="DDI-DrugBank.d431.s1.e7" ddi="false"/>
+        <pair id="DDI-DrugBank.d431.s1.p31" e1="DDI-DrugBank.d431.s1.e3"
+            e2="DDI-DrugBank.d431.s1.e8" ddi="false"/>
+        <pair id="DDI-DrugBank.d431.s1.p32" e1="DDI-DrugBank.d431.s1.e3"
+            e2="DDI-DrugBank.d431.s1.e9" ddi="false"/>
+        <pair id="DDI-DrugBank.d431.s1.p33" e1="DDI-DrugBank.d431.s1.e3"
+            e2="DDI-DrugBank.d431.s1.e10" ddi="false"/>
+        <pair id="DDI-DrugBank.d431.s1.p34" e1="DDI-DrugBank.d431.s1.e4"
+            e2="DDI-DrugBank.d431.s1.e5" ddi="false"/>
+        <pair id="DDI-DrugBank.d431.s1.p35" e1="DDI-DrugBank.d431.s1.e4"
+            e2="DDI-DrugBank.d431.s1.e6" ddi="false"/>
+        <pair id="DDI-DrugBank.d431.s1.p36" e1="DDI-DrugBank.d431.s1.e4"
+            e2="DDI-DrugBank.d431.s1.e7" ddi="false"/>
+        <pair id="DDI-DrugBank.d431.s1.p37" e1="DDI-DrugBank.d431.s1.e4"
+            e2="DDI-DrugBank.d431.s1.e8" ddi="false"/>
+        <pair id="DDI-DrugBank.d431.s1.p38" e1="DDI-DrugBank.d431.s1.e4"
+            e2="DDI-DrugBank.d431.s1.e9" ddi="false"/>
+        <pair id="DDI-DrugBank.d431.s1.p39" e1="DDI-DrugBank.d431.s1.e4"
+            e2="DDI-DrugBank.d431.s1.e10" ddi="false"/>
+        <pair id="DDI-DrugBank.d431.s1.p40" e1="DDI-DrugBank.d431.s1.e5"
+            e2="DDI-DrugBank.d431.s1.e6" ddi="false"/>
+        <pair id="DDI-DrugBank.d431.s1.p41" e1="DDI-DrugBank.d431.s1.e5"
+            e2="DDI-DrugBank.d431.s1.e7" ddi="false"/>
+        <pair id="DDI-DrugBank.d431.s1.p42" e1="DDI-DrugBank.d431.s1.e5"
+            e2="DDI-DrugBank.d431.s1.e8" ddi="false"/>
+        <pair id="DDI-DrugBank.d431.s1.p43" e1="DDI-DrugBank.d431.s1.e5"
+            e2="DDI-DrugBank.d431.s1.e9" ddi="false"/>
+        <pair id="DDI-DrugBank.d431.s1.p44" e1="DDI-DrugBank.d431.s1.e5"
+            e2="DDI-DrugBank.d431.s1.e10" ddi="false"/>
+        <pair id="DDI-DrugBank.d431.s1.p45" e1="DDI-DrugBank.d431.s1.e6"
+            e2="DDI-DrugBank.d431.s1.e7" ddi="false"/>
+        <pair id="DDI-DrugBank.d431.s1.p46" e1="DDI-DrugBank.d431.s1.e6"
+            e2="DDI-DrugBank.d431.s1.e8" ddi="false"/>
+        <pair id="DDI-DrugBank.d431.s1.p47" e1="DDI-DrugBank.d431.s1.e6"
+            e2="DDI-DrugBank.d431.s1.e9" ddi="false"/>
+        <pair id="DDI-DrugBank.d431.s1.p48" e1="DDI-DrugBank.d431.s1.e6"
+            e2="DDI-DrugBank.d431.s1.e10" ddi="false"/>
+        <pair id="DDI-DrugBank.d431.s1.p49" e1="DDI-DrugBank.d431.s1.e7"
+            e2="DDI-DrugBank.d431.s1.e8" ddi="false"/>
+        <pair id="DDI-DrugBank.d431.s1.p50" e1="DDI-DrugBank.d431.s1.e7"
+            e2="DDI-DrugBank.d431.s1.e9" ddi="false"/>
+        <pair id="DDI-DrugBank.d431.s1.p51" e1="DDI-DrugBank.d431.s1.e7"
+            e2="DDI-DrugBank.d431.s1.e10" ddi="false"/>
+        <pair id="DDI-DrugBank.d431.s1.p52" e1="DDI-DrugBank.d431.s1.e8"
+            e2="DDI-DrugBank.d431.s1.e9" ddi="false"/>
+        <pair id="DDI-DrugBank.d431.s1.p53" e1="DDI-DrugBank.d431.s1.e8"
+            e2="DDI-DrugBank.d431.s1.e10" ddi="false"/>
+        <pair id="DDI-DrugBank.d431.s1.p54" e1="DDI-DrugBank.d431.s1.e9"
+            e2="DDI-DrugBank.d431.s1.e10" ddi="false"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d431.s2" text="These compounds are metabolized through various cytochrome P450 isozymes including CYP1A2, CYP2C9, CYP2C19, CYP2D6, and CYP3A."/>
+    <sentence id="DDI-DrugBank.d431.s3" text="When lansoprazole was administered concomitantly with theophylline (CYP1A2, CYP3A), a minor increase (10%) in the clearance of theophylline was seen.">
+        <entity id="DDI-DrugBank.d431.s3.e0" charOffset="5-16"
+            type="drug" text="lansoprazole"/>
+        <entity id="DDI-DrugBank.d431.s3.e1" charOffset="54-65"
+            type="drug" text="theophylline"/>
+        <entity id="DDI-DrugBank.d431.s3.e2" charOffset="127-138"
+            type="drug" text="theophylline"/>
+        <pair id="DDI-DrugBank.d431.s3.p0" e1="DDI-DrugBank.d431.s3.e0"
+            e2="DDI-DrugBank.d431.s3.e1" ddi="true" type="mechanism"/>
+        <pair id="DDI-DrugBank.d431.s3.p1" e1="DDI-DrugBank.d431.s3.e0"
+            e2="DDI-DrugBank.d431.s3.e2" ddi="false"/>
+        <pair id="DDI-DrugBank.d431.s3.p2" e1="DDI-DrugBank.d431.s3.e1"
+            e2="DDI-DrugBank.d431.s3.e2" ddi="false"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d431.s4" text="Because the small magnitude and the direction of the effect on theophylline clearance, this interaction is unlikely to be clinical concern.">
+        <entity id="DDI-DrugBank.d431.s4.e0" charOffset="63-74"
+            type="drug" text="theophylline"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d431.s5" text="Nonetheless, individual patients may require additional titration of their theophylline dosage when lansoprazole is started or stopped to ensure clinically effective blood levels.">
+        <entity id="DDI-DrugBank.d431.s5.e0" charOffset="75-86"
+            type="drug" text="theophylline"/>
+        <entity id="DDI-DrugBank.d431.s5.e1" charOffset="100-111"
+            type="drug" text="lansoprazole"/>
+        <pair id="DDI-DrugBank.d431.s5.p0" e1="DDI-DrugBank.d431.s5.e0"
+            e2="DDI-DrugBank.d431.s5.e1" ddi="true" type="advise"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d431.s6" text="Lansoprazole has also been shown to have no clinically significant interaction with amoxicillin.">
+        <entity id="DDI-DrugBank.d431.s6.e0" charOffset="0-11"
+            type="drug" text="Lansoprazole"/>
+        <entity id="DDI-DrugBank.d431.s6.e1" charOffset="84-94"
+            type="drug" text="amoxicillin"/>
+        <pair id="DDI-DrugBank.d431.s6.p0" e1="DDI-DrugBank.d431.s6.e0"
+            e2="DDI-DrugBank.d431.s6.e1" ddi="false"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d431.s7" text="In a single-dose crossover study examining lansoprazole 30 mg and omeprazole 20 mg each administered alone and concomitantly with sucralfate 1 gram, absorption of the proton pump inhibitors was delayed and their bioavailability was reduced by 17% and 16%, respectively, when administered concomitantly with sucralfate.">
+        <entity id="DDI-DrugBank.d431.s7.e0" charOffset="43-54"
+            type="drug" text="lansoprazole"/>
+        <entity id="DDI-DrugBank.d431.s7.e1" charOffset="66-75"
+            type="drug" text="omeprazole"/>
+        <entity id="DDI-DrugBank.d431.s7.e2" charOffset="130-139"
+            type="drug" text="sucralfate"/>
+        <entity id="DDI-DrugBank.d431.s7.e3" charOffset="167-188"
+            type="group" text="proton pump inhibitors"/>
+        <entity id="DDI-DrugBank.d431.s7.e4" charOffset="307-316"
+            type="drug" text="sucralfate"/>
+        <pair id="DDI-DrugBank.d431.s7.p0" e1="DDI-DrugBank.d431.s7.e0"
+            e2="DDI-DrugBank.d431.s7.e1" ddi="false"/>
+        <pair id="DDI-DrugBank.d431.s7.p1" e1="DDI-DrugBank.d431.s7.e0"
+            e2="DDI-DrugBank.d431.s7.e2" ddi="false"/>
+        <pair id="DDI-DrugBank.d431.s7.p2" e1="DDI-DrugBank.d431.s7.e0"
+            e2="DDI-DrugBank.d431.s7.e3" ddi="false"/>
+        <pair id="DDI-DrugBank.d431.s7.p3" e1="DDI-DrugBank.d431.s7.e0"
+            e2="DDI-DrugBank.d431.s7.e4" ddi="false"/>
+        <pair id="DDI-DrugBank.d431.s7.p4" e1="DDI-DrugBank.d431.s7.e1"
+            e2="DDI-DrugBank.d431.s7.e2" ddi="false"/>
+        <pair id="DDI-DrugBank.d431.s7.p5" e1="DDI-DrugBank.d431.s7.e1"
+            e2="DDI-DrugBank.d431.s7.e3" ddi="false"/>
+        <pair id="DDI-DrugBank.d431.s7.p6" e1="DDI-DrugBank.d431.s7.e1"
+            e2="DDI-DrugBank.d431.s7.e4" ddi="false"/>
+        <pair id="DDI-DrugBank.d431.s7.p7" e1="DDI-DrugBank.d431.s7.e2"
+            e2="DDI-DrugBank.d431.s7.e3" ddi="false"/>
+        <pair id="DDI-DrugBank.d431.s7.p8" e1="DDI-DrugBank.d431.s7.e2"
+            e2="DDI-DrugBank.d431.s7.e4" ddi="false"/>
+        <pair id="DDI-DrugBank.d431.s7.p9" e1="DDI-DrugBank.d431.s7.e3"
+            e2="DDI-DrugBank.d431.s7.e4" ddi="true" type="mechanism"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d431.s8" text="Therefore, proton pump inhibitors should be taken at least 30 minutes prior to sucralfate.">
+        <entity id="DDI-DrugBank.d431.s8.e0" charOffset="11-32"
+            type="group" text="proton pump inhibitors"/>
+        <entity id="DDI-DrugBank.d431.s8.e1" charOffset="79-88"
+            type="drug" text="sucralfate"/>
+        <pair id="DDI-DrugBank.d431.s8.p0" e1="DDI-DrugBank.d431.s8.e0"
+            e2="DDI-DrugBank.d431.s8.e1" ddi="true" type="advise"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d431.s9" text="In clinical trials, antacids were administered concomitantly with lansoprazole delayed-release capsules;">
+        <entity id="DDI-DrugBank.d431.s9.e0" charOffset="20-27"
+            type="group" text="antacids"/>
+        <entity id="DDI-DrugBank.d431.s9.e1" charOffset="66-77"
+            type="drug" text="lansoprazole"/>
+        <pair id="DDI-DrugBank.d431.s9.p0" e1="DDI-DrugBank.d431.s9.e0"
+            e2="DDI-DrugBank.d431.s9.e1" ddi="false"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d431.s10" text="this did not interfere with its effect."/>
+    <sentence id="DDI-DrugBank.d431.s11" text="Lansoprazole causes a profound and long lasting inhibition of gastric acid secretion;">
+        <entity id="DDI-DrugBank.d431.s11.e0" charOffset="0-11"
+            type="drug" text="Lansoprazole"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d431.s12" text="therefore, it is theoretically possible that lansoprazole may interfere with the absorption of drugs where gastric pH is an important determinant of bioavailability (e.g. ketoconazole, ampicillin esters, iron salts, digoxin).">
+        <entity id="DDI-DrugBank.d431.s12.e0" charOffset="45-56"
+            type="drug" text="lansoprazole"/>
+        <entity id="DDI-DrugBank.d431.s12.e1" charOffset="171-182"
+            type="drug" text="ketoconazole"/>
+        <entity id="DDI-DrugBank.d431.s12.e2" charOffset="185-194"
+            type="drug" text="ampicillin"/>
+        <entity id="DDI-DrugBank.d431.s12.e3" charOffset="204-207"
+            type="drug" text="iron"/>
+        <entity id="DDI-DrugBank.d431.s12.e4" charOffset="216-222"
+            type="drug" text="digoxin"/>
+        <pair id="DDI-DrugBank.d431.s12.p0"
+            e1="DDI-DrugBank.d431.s12.e0" e2="DDI-DrugBank.d431.s12.e1"
+            ddi="true" type="mechanism"/>
+        <pair id="DDI-DrugBank.d431.s12.p1"
+            e1="DDI-DrugBank.d431.s12.e0" e2="DDI-DrugBank.d431.s12.e2"
+            ddi="true" type="mechanism"/>
+        <pair id="DDI-DrugBank.d431.s12.p2"
+            e1="DDI-DrugBank.d431.s12.e0" e2="DDI-DrugBank.d431.s12.e3"
+            ddi="true" type="mechanism"/>
+        <pair id="DDI-DrugBank.d431.s12.p3"
+            e1="DDI-DrugBank.d431.s12.e0" e2="DDI-DrugBank.d431.s12.e4"
+            ddi="true" type="mechanism"/>
+        <pair id="DDI-DrugBank.d431.s12.p4"
+            e1="DDI-DrugBank.d431.s12.e1" e2="DDI-DrugBank.d431.s12.e2" ddi="false"/>
+        <pair id="DDI-DrugBank.d431.s12.p5"
+            e1="DDI-DrugBank.d431.s12.e1" e2="DDI-DrugBank.d431.s12.e3" ddi="false"/>
+        <pair id="DDI-DrugBank.d431.s12.p6"
+            e1="DDI-DrugBank.d431.s12.e1" e2="DDI-DrugBank.d431.s12.e4" ddi="false"/>
+        <pair id="DDI-DrugBank.d431.s12.p7"
+            e1="DDI-DrugBank.d431.s12.e2" e2="DDI-DrugBank.d431.s12.e3" ddi="false"/>
+        <pair id="DDI-DrugBank.d431.s12.p8"
+            e1="DDI-DrugBank.d431.s12.e2" e2="DDI-DrugBank.d431.s12.e4" ddi="false"/>
+        <pair id="DDI-DrugBank.d431.s12.p9"
+            e1="DDI-DrugBank.d431.s12.e3" e2="DDI-DrugBank.d431.s12.e4" ddi="false"/>
+    </sentence>
+</document>

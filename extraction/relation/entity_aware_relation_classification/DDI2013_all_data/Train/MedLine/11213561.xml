@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="DDI-MedLine.d1">
+    <sentence id="DDI-MedLine.d1.s0" text="[Drug treatment of erection disorders in patients with cardiovascular disease]&#xa;Erectile dysfunction is a frequent condition in cardiovascular patients. "/>
+    <sentence id="DDI-MedLine.d1.s1" text="Since the arrival of oral erection-supporting medication, patients want to know how safe sexual activity is in cardiovascular disease in general and during use of erection-supporting medication in particular. ">
+        <entity id="DDI-MedLine.d1.s1.e0" charOffset="26-55"
+            type="group" text="erection-supporting medication"/>
+        <entity id="DDI-MedLine.d1.s1.e1" charOffset="163-192"
+            type="group" text="erection-supporting medication"/>
+        <pair id="DDI-MedLine.d1.s1.p0" e1="DDI-MedLine.d1.s1.e0"
+            e2="DDI-MedLine.d1.s1.e1" ddi="false"/>
+    </sentence>
+    <sentence id="DDI-MedLine.d1.s2" text="Sexual intercourse with a steady partner causes no more cardiovascular risk than normal daily activities such as ironing, 2 kilometers of walking without climbing, paperhanging, playing golf or gardening. "/>
+    <sentence id="DDI-MedLine.d1.s3" text="The relative risk of myocardial infarction during sexual activity is not significantly higher than for healthy persons. "/>
+    <sentence id="DDI-MedLine.d1.s4" text="The incidence of cardiovascular morbidity and mortality is not higher among users of sildenafil. ">
+        <entity id="DDI-MedLine.d1.s4.e0" charOffset="85-94" type="drug" text="sildenafil"/>
+    </sentence>
+    <sentence id="DDI-MedLine.d1.s5" text="Sildenafil is contraindicated in patients using long-acting nitrates or who may need to use short-acting nitrates, because the combination may cause a sharp fall of the blood pressure. ">
+        <entity id="DDI-MedLine.d1.s5.e0" charOffset="0-9" type="drug" text="Sildenafil"/>
+        <entity id="DDI-MedLine.d1.s5.e1" charOffset="48-67"
+            type="group" text="long-acting nitrates"/>
+        <entity id="DDI-MedLine.d1.s5.e2" charOffset="92-112"
+            type="group" text="short-acting nitrates"/>
+        <pair id="DDI-MedLine.d1.s5.p0" e1="DDI-MedLine.d1.s5.e0"
+            e2="DDI-MedLine.d1.s5.e1" ddi="true" type="advise"/>
+        <pair id="DDI-MedLine.d1.s5.p1" e1="DDI-MedLine.d1.s5.e0"
+            e2="DDI-MedLine.d1.s5.e2" ddi="true" type="advise"/>
+        <pair id="DDI-MedLine.d1.s5.p2" e1="DDI-MedLine.d1.s5.e1"
+            e2="DDI-MedLine.d1.s5.e2" ddi="false"/>
+    </sentence>
+    <sentence id="DDI-MedLine.d1.s6" text="No interactions have been observed with beta-receptor blockers, calcium antagonists, thiazide and loop diuretics and ACE inhibitors. ">
+        <entity id="DDI-MedLine.d1.s6.e0" charOffset="40-61"
+            type="group" text="beta-receptor blockers"/>
+        <entity id="DDI-MedLine.d1.s6.e1" charOffset="64-82"
+            type="group" text="calcium antagonists"/>
+        <entity id="DDI-MedLine.d1.s6.e2" charOffset="85-92;103-111"
+            type="group" text="thiazide diuretics"/>
+        <entity id="DDI-MedLine.d1.s6.e3" charOffset="98-111"
+            type="group" text="loop diuretics"/>
+        <entity id="DDI-MedLine.d1.s6.e4" charOffset="117-130"
+            type="group" text="ACE inhibitors"/>
+        <pair id="DDI-MedLine.d1.s6.p0" e1="DDI-MedLine.d1.s6.e0"
+            e2="DDI-MedLine.d1.s6.e1" ddi="false"/>
+        <pair id="DDI-MedLine.d1.s6.p1" e1="DDI-MedLine.d1.s6.e0"
+            e2="DDI-MedLine.d1.s6.e2" ddi="false"/>
+        <pair id="DDI-MedLine.d1.s6.p2" e1="DDI-MedLine.d1.s6.e0"
+            e2="DDI-MedLine.d1.s6.e3" ddi="false"/>
+        <pair id="DDI-MedLine.d1.s6.p3" e1="DDI-MedLine.d1.s6.e0"
+            e2="DDI-MedLine.d1.s6.e4" ddi="false"/>
+        <pair id="DDI-MedLine.d1.s6.p4" e1="DDI-MedLine.d1.s6.e1"
+            e2="DDI-MedLine.d1.s6.e2" ddi="false"/>
+        <pair id="DDI-MedLine.d1.s6.p5" e1="DDI-MedLine.d1.s6.e1"
+            e2="DDI-MedLine.d1.s6.e3" ddi="false"/>
+        <pair id="DDI-MedLine.d1.s6.p6" e1="DDI-MedLine.d1.s6.e1"
+            e2="DDI-MedLine.d1.s6.e4" ddi="false"/>
+        <pair id="DDI-MedLine.d1.s6.p7" e1="DDI-MedLine.d1.s6.e2"
+            e2="DDI-MedLine.d1.s6.e3" ddi="false"/>
+        <pair id="DDI-MedLine.d1.s6.p8" e1="DDI-MedLine.d1.s6.e2"
+            e2="DDI-MedLine.d1.s6.e4" ddi="false"/>
+        <pair id="DDI-MedLine.d1.s6.p9" e1="DDI-MedLine.d1.s6.e3"
+            e2="DDI-MedLine.d1.s6.e4" ddi="false"/>
+    </sentence>
+    <sentence id="DDI-MedLine.d1.s7" text="Before prescribing a symptomatic (pharmaceutical) treatment for patients with an erection disorder, attention should be given tot the sexological, psychological and medical backgrounds of the disorder. "/>
+    <sentence id="DDI-MedLine.d1.s8" text="Secondary prevention of atherosclerotic risk factors is also important: regulation of blood pressure and blood sugar level, hyperlipidaemia and obesity, as well as a change of lifestyle (giving up smoking, adapting of diet and more physical exertion). "/>
+    <sentence id="DDI-MedLine.d1.s9" text="Patients with a very low cardiac capacity should be advised to refrain from treatment of the erection disorder."/>
+</document>

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="DDI-DrugBank.d130">
+    <sentence id="DDI-DrugBank.d130.s0" text="Lincomycin has been shown to have neuromuscular blocking properties that may enhance the action of other neuromuscular blocking agents.">
+        <entity id="DDI-DrugBank.d130.s0.e0" charOffset="0-9"
+            type="drug" text="Lincomycin"/>
+        <entity id="DDI-DrugBank.d130.s0.e1" charOffset="105-133"
+            type="group" text="neuromuscular blocking agents"/>
+        <pair id="DDI-DrugBank.d130.s0.p0" e1="DDI-DrugBank.d130.s0.e0"
+            e2="DDI-DrugBank.d130.s0.e1" ddi="true" type="effect"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d130.s1" text="Therefore, it should be used in caution in patients receiving such agents."/>
+    <sentence id="DDI-DrugBank.d130.s2" text="Antagonism between lincomycin and erythromycin in vitro has been demonstrated.">
+        <entity id="DDI-DrugBank.d130.s2.e0" charOffset="19-28"
+            type="drug" text="lincomycin"/>
+        <entity id="DDI-DrugBank.d130.s2.e1" charOffset="34-45"
+            type="drug" text="erythromycin"/>
+        <pair id="DDI-DrugBank.d130.s2.p0" e1="DDI-DrugBank.d130.s2.e0"
+            e2="DDI-DrugBank.d130.s2.e1" ddi="true" type="effect"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d130.s3" text="Because of possible clinical significance, the two drugs should not be administered concurrently."/>
+</document>

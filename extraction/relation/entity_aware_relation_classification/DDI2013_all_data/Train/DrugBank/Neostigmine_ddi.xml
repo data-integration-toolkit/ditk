@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="DDI-DrugBank.d498">
+    <sentence id="DDI-DrugBank.d498.s0" text="Certain antibiotics, especially neomycin, streptomycin and kanamycin, have a mild but definite nondepolarizing blocking action which may accentuate neuromuscular block.">
+        <entity id="DDI-DrugBank.d498.s0.e0" charOffset="8-18"
+            type="group" text="antibiotics"/>
+        <entity id="DDI-DrugBank.d498.s0.e1" charOffset="32-39"
+            type="drug" text="neomycin"/>
+        <entity id="DDI-DrugBank.d498.s0.e2" charOffset="42-53"
+            type="drug" text="streptomycin"/>
+        <entity id="DDI-DrugBank.d498.s0.e3" charOffset="59-67"
+            type="drug" text="kanamycin"/>
+        <pair id="DDI-DrugBank.d498.s0.p0" e1="DDI-DrugBank.d498.s0.e0"
+            e2="DDI-DrugBank.d498.s0.e1" ddi="false"/>
+        <pair id="DDI-DrugBank.d498.s0.p1" e1="DDI-DrugBank.d498.s0.e0"
+            e2="DDI-DrugBank.d498.s0.e2" ddi="false"/>
+        <pair id="DDI-DrugBank.d498.s0.p2" e1="DDI-DrugBank.d498.s0.e0"
+            e2="DDI-DrugBank.d498.s0.e3" ddi="false"/>
+        <pair id="DDI-DrugBank.d498.s0.p3" e1="DDI-DrugBank.d498.s0.e1"
+            e2="DDI-DrugBank.d498.s0.e2" ddi="false"/>
+        <pair id="DDI-DrugBank.d498.s0.p4" e1="DDI-DrugBank.d498.s0.e1"
+            e2="DDI-DrugBank.d498.s0.e3" ddi="false"/>
+        <pair id="DDI-DrugBank.d498.s0.p5" e1="DDI-DrugBank.d498.s0.e2"
+            e2="DDI-DrugBank.d498.s0.e3" ddi="false"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d498.s1" text="These antibiotics should be used in the myasthenic patient only where definitely indicated, and then careful adjustment should be made of adjunctive anticholinesterase dosage.">
+        <entity id="DDI-DrugBank.d498.s1.e0" charOffset="6-16"
+            type="group" text="antibiotics"/>
+        <entity id="DDI-DrugBank.d498.s1.e1" charOffset="149-166"
+            type="group" text="anticholinesterase"/>
+        <pair id="DDI-DrugBank.d498.s1.p0" e1="DDI-DrugBank.d498.s1.e0"
+            e2="DDI-DrugBank.d498.s1.e1" ddi="true" type="advise"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d498.s2" text="Local and some general anesthetics, antiarrhythmic agents and other drugs that interfere with neuromuscular transmission should be used cautiously, if at all, in patients with myasthenia gravis;">
+        <entity id="DDI-DrugBank.d498.s2.e0" charOffset="23-33"
+            type="group" text="anesthetics"/>
+        <entity id="DDI-DrugBank.d498.s2.e1" charOffset="36-56"
+            type="group" text="antiarrhythmic agents"/>
+        <pair id="DDI-DrugBank.d498.s2.p0" e1="DDI-DrugBank.d498.s2.e0"
+            e2="DDI-DrugBank.d498.s2.e1" ddi="false"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d498.s3" text="the dose of Prostigmin may have to be increased accordingly.">
+        <entity id="DDI-DrugBank.d498.s3.e0" charOffset="12-21"
+            type="brand" text="Prostigmin"/>
+    </sentence>
+</document>

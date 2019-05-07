@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="DDI-DrugBank.d304">
+    <sentence id="DDI-DrugBank.d304.s0" text="May interact with the following: cholestyramine, colestipol (use with thiazide diuretics may prevent the diuretic from working properly;">
+        <entity id="DDI-DrugBank.d304.s0.e0" charOffset="33-46"
+            type="drug" text="cholestyramine"/>
+        <entity id="DDI-DrugBank.d304.s0.e1" charOffset="49-58"
+            type="drug" text="colestipol"/>
+        <entity id="DDI-DrugBank.d304.s0.e2" charOffset="70-87"
+            type="group" text="thiazide diuretics"/>
+        <entity id="DDI-DrugBank.d304.s0.e3" charOffset="105-112"
+            type="group" text="diuretic"/>
+        <pair id="DDI-DrugBank.d304.s0.p0" e1="DDI-DrugBank.d304.s0.e0"
+            e2="DDI-DrugBank.d304.s0.e1" ddi="false"/>
+        <pair id="DDI-DrugBank.d304.s0.p1" e1="DDI-DrugBank.d304.s0.e0"
+            e2="DDI-DrugBank.d304.s0.e2" ddi="true" type="effect"/>
+        <pair id="DDI-DrugBank.d304.s0.p2" e1="DDI-DrugBank.d304.s0.e0"
+            e2="DDI-DrugBank.d304.s0.e3" ddi="false"/>
+        <pair id="DDI-DrugBank.d304.s0.p3" e1="DDI-DrugBank.d304.s0.e1"
+            e2="DDI-DrugBank.d304.s0.e2" ddi="true" type="effect"/>
+        <pair id="DDI-DrugBank.d304.s0.p4" e1="DDI-DrugBank.d304.s0.e1"
+            e2="DDI-DrugBank.d304.s0.e3" ddi="false"/>
+        <pair id="DDI-DrugBank.d304.s0.p5" e1="DDI-DrugBank.d304.s0.e2"
+            e2="DDI-DrugBank.d304.s0.e3" ddi="false"/>
+    </sentence>
+</document>

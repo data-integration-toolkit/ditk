@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="DDI-MedLine.d22">
+    <sentence id="DDI-MedLine.d22.s0" text="Spermine promotes the translocation of phosphatidate phosphohydrolase from the cytosol to the microsomal fraction of rat liver and it enhances the effects of oleate in this respect.">
+        <entity id="DDI-MedLine.d22.s0.e0" charOffset="0-7" type="drug" text="Spermine"/>
+    </sentence>
+    <sentence id="DDI-MedLine.d22.s1" text="Spermine (0.5-2 mM) promoted the translocation of phosphatidate phosphohydrolase from the soluble to the microsomal fraction in a cell-free system derived from rat liver. ">
+        <entity id="DDI-MedLine.d22.s1.e0" charOffset="0-7" type="drug" text="Spermine"/>
+    </sentence>
+    <sentence id="DDI-MedLine.d22.s2" text="By contrast, spermidine (1 mM) and putrescine (1 mM) had no significant effect on the translocation when added alone. ">
+        <entity id="DDI-MedLine.d22.s2.e0" charOffset="13-22"
+            type="drug_n" text="spermidine"/>
+        <entity id="DDI-MedLine.d22.s2.e1" charOffset="35-44"
+            type="drug_n" text="putrescine"/>
+        <pair id="DDI-MedLine.d22.s2.p0" e1="DDI-MedLine.d22.s2.e0"
+            e2="DDI-MedLine.d22.s2.e1" ddi="false"/>
+    </sentence>
+    <sentence id="DDI-MedLine.d22.s3" text="Spermine, and to a lesser extent, spermidine, enhanced the translocating action of oleate and increased its effectiveness in transferring the phosphohydrolase from the soluble to the microsomal fraction. ">
+        <entity id="DDI-MedLine.d22.s3.e0" charOffset="0-7" type="drug" text="Spermine"/>
+        <entity id="DDI-MedLine.d22.s3.e1" charOffset="34-43"
+            type="drug_n" text="spermidine"/>
+        <pair id="DDI-MedLine.d22.s3.p0" e1="DDI-MedLine.d22.s3.e0"
+            e2="DDI-MedLine.d22.s3.e1" ddi="false"/>
+    </sentence>
+    <sentence id="DDI-MedLine.d22.s4" text="It is proposed that the phosphohydrolase becomes metabolically active when it combines with membranes and that polyamines might help to regulate this interaction. "/>
+    <sentence id="DDI-MedLine.d22.s5" text="This could facilitate the action of fatty acids and enable cells to increase their capacity for triacylglycerol synthesis to match an increased availability of fatty acids."/>
+</document>

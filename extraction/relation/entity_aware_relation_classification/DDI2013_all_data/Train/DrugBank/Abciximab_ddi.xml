@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="DDI-DrugBank.d532">
+    <sentence id="DDI-DrugBank.d532.s0" text="Formal drug interaction studies with Abciximab have not been conducted.">
+        <entity id="DDI-DrugBank.d532.s0.e0" charOffset="37-45"
+            type="drug" text="Abciximab"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d532.s1" text="Abciximab has been administered to patients with ischemic heart disease treated concomitantly with a broad range of medications used in the treatment of angina myocardial infarction and hypertension.">
+        <entity id="DDI-DrugBank.d532.s1.e0" charOffset="0-8"
+            type="drug" text="Abciximab"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d532.s2" text="These medications have included heparin, warfarin, beta-adrenergic receptor blockers, calcium channel antagonists, angiotensin converting enzyme inhibitors, intravenous and oral nitrates, ticlopidine, and aspirin.">
+        <entity id="DDI-DrugBank.d532.s2.e0" charOffset="32-38"
+            type="drug" text="heparin"/>
+        <entity id="DDI-DrugBank.d532.s2.e1" charOffset="41-48"
+            type="drug" text="warfarin"/>
+        <entity id="DDI-DrugBank.d532.s2.e2" charOffset="51-83"
+            type="group" text="beta-adrenergic receptor blockers"/>
+        <entity id="DDI-DrugBank.d532.s2.e3" charOffset="86-112"
+            type="group" text="calcium channel antagonists"/>
+        <entity id="DDI-DrugBank.d532.s2.e4" charOffset="115-154"
+            type="group" text="angiotensin converting enzyme inhibitors"/>
+        <entity id="DDI-DrugBank.d532.s2.e5" charOffset="178-185"
+            type="group" text="nitrates"/>
+        <entity id="DDI-DrugBank.d532.s2.e6" charOffset="188-198"
+            type="drug" text="ticlopidine"/>
+        <entity id="DDI-DrugBank.d532.s2.e7" charOffset="205-211"
+            type="brand" text="aspirin"/>
+        <pair id="DDI-DrugBank.d532.s2.p0" e1="DDI-DrugBank.d532.s2.e0"
+            e2="DDI-DrugBank.d532.s2.e1" ddi="false"/>
+        <pair id="DDI-DrugBank.d532.s2.p1" e1="DDI-DrugBank.d532.s2.e0"
+            e2="DDI-DrugBank.d532.s2.e2" ddi="false"/>
+        <pair id="DDI-DrugBank.d532.s2.p2" e1="DDI-DrugBank.d532.s2.e0"
+            e2="DDI-DrugBank.d532.s2.e3" ddi="false"/>
+        <pair id="DDI-DrugBank.d532.s2.p3" e1="DDI-DrugBank.d532.s2.e0"
+            e2="DDI-DrugBank.d532.s2.e4" ddi="false"/>
+        <pair id="DDI-DrugBank.d532.s2.p4" e1="DDI-DrugBank.d532.s2.e0"
+            e2="DDI-DrugBank.d532.s2.e5" ddi="false"/>
+        <pair id="DDI-DrugBank.d532.s2.p5" e1="DDI-DrugBank.d532.s2.e0"
+            e2="DDI-DrugBank.d532.s2.e6" ddi="false"/>
+        <pair id="DDI-DrugBank.d532.s2.p6" e1="DDI-DrugBank.d532.s2.e0"
+            e2="DDI-DrugBank.d532.s2.e7" ddi="false"/>
+        <pair id="DDI-DrugBank.d532.s2.p7" e1="DDI-DrugBank.d532.s2.e1"
+            e2="DDI-DrugBank.d532.s2.e2" ddi="false"/>
+        <pair id="DDI-DrugBank.d532.s2.p8" e1="DDI-DrugBank.d532.s2.e1"
+            e2="DDI-DrugBank.d532.s2.e3" ddi="false"/>
+        <pair id="DDI-DrugBank.d532.s2.p9" e1="DDI-DrugBank.d532.s2.e1"
+            e2="DDI-DrugBank.d532.s2.e4" ddi="false"/>
+        <pair id="DDI-DrugBank.d532.s2.p10" e1="DDI-DrugBank.d532.s2.e1"
+            e2="DDI-DrugBank.d532.s2.e5" ddi="false"/>
+        <pair id="DDI-DrugBank.d532.s2.p11" e1="DDI-DrugBank.d532.s2.e1"
+            e2="DDI-DrugBank.d532.s2.e6" ddi="false"/>
+        <pair id="DDI-DrugBank.d532.s2.p12" e1="DDI-DrugBank.d532.s2.e1"
+            e2="DDI-DrugBank.d532.s2.e7" ddi="false"/>
+        <pair id="DDI-DrugBank.d532.s2.p13" e1="DDI-DrugBank.d532.s2.e2"
+            e2="DDI-DrugBank.d532.s2.e3" ddi="false"/>
+        <pair id="DDI-DrugBank.d532.s2.p14" e1="DDI-DrugBank.d532.s2.e2"
+            e2="DDI-DrugBank.d532.s2.e4" ddi="false"/>
+        <pair id="DDI-DrugBank.d532.s2.p15" e1="DDI-DrugBank.d532.s2.e2"
+            e2="DDI-DrugBank.d532.s2.e5" ddi="false"/>
+        <pair id="DDI-DrugBank.d532.s2.p16" e1="DDI-DrugBank.d532.s2.e2"
+            e2="DDI-DrugBank.d532.s2.e6" ddi="false"/>
+        <pair id="DDI-DrugBank.d532.s2.p17" e1="DDI-DrugBank.d532.s2.e2"
+            e2="DDI-DrugBank.d532.s2.e7" ddi="false"/>
+        <pair id="DDI-DrugBank.d532.s2.p18" e1="DDI-DrugBank.d532.s2.e3"
+            e2="DDI-DrugBank.d532.s2.e4" ddi="false"/>
+        <pair id="DDI-DrugBank.d532.s2.p19" e1="DDI-DrugBank.d532.s2.e3"
+            e2="DDI-DrugBank.d532.s2.e5" ddi="false"/>
+        <pair id="DDI-DrugBank.d532.s2.p20" e1="DDI-DrugBank.d532.s2.e3"
+            e2="DDI-DrugBank.d532.s2.e6" ddi="false"/>
+        <pair id="DDI-DrugBank.d532.s2.p21" e1="DDI-DrugBank.d532.s2.e3"
+            e2="DDI-DrugBank.d532.s2.e7" ddi="false"/>
+        <pair id="DDI-DrugBank.d532.s2.p22" e1="DDI-DrugBank.d532.s2.e4"
+            e2="DDI-DrugBank.d532.s2.e5" ddi="false"/>
+        <pair id="DDI-DrugBank.d532.s2.p23" e1="DDI-DrugBank.d532.s2.e4"
+            e2="DDI-DrugBank.d532.s2.e6" ddi="false"/>
+        <pair id="DDI-DrugBank.d532.s2.p24" e1="DDI-DrugBank.d532.s2.e4"
+            e2="DDI-DrugBank.d532.s2.e7" ddi="false"/>
+        <pair id="DDI-DrugBank.d532.s2.p25" e1="DDI-DrugBank.d532.s2.e5"
+            e2="DDI-DrugBank.d532.s2.e6" ddi="false"/>
+        <pair id="DDI-DrugBank.d532.s2.p26" e1="DDI-DrugBank.d532.s2.e5"
+            e2="DDI-DrugBank.d532.s2.e7" ddi="false"/>
+        <pair id="DDI-DrugBank.d532.s2.p27" e1="DDI-DrugBank.d532.s2.e6"
+            e2="DDI-DrugBank.d532.s2.e7" ddi="false"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d532.s3" text="Heparin, other anticoagulants, thrombolytics, and anti platelet agents are associated with an increase in bleeding.">
+        <entity id="DDI-DrugBank.d532.s3.e0" charOffset="0-6"
+            type="drug" text="Heparin"/>
+        <entity id="DDI-DrugBank.d532.s3.e1" charOffset="15-28"
+            type="group" text="anticoagulants"/>
+        <entity id="DDI-DrugBank.d532.s3.e2" charOffset="31-43"
+            type="group" text="thrombolytics"/>
+        <entity id="DDI-DrugBank.d532.s3.e3" charOffset="50-69"
+            type="group" text="anti platelet agents"/>
+        <pair id="DDI-DrugBank.d532.s3.p0" e1="DDI-DrugBank.d532.s3.e0"
+            e2="DDI-DrugBank.d532.s3.e1" ddi="false"/>
+        <pair id="DDI-DrugBank.d532.s3.p1" e1="DDI-DrugBank.d532.s3.e0"
+            e2="DDI-DrugBank.d532.s3.e2" ddi="false"/>
+        <pair id="DDI-DrugBank.d532.s3.p2" e1="DDI-DrugBank.d532.s3.e0"
+            e2="DDI-DrugBank.d532.s3.e3" ddi="false"/>
+        <pair id="DDI-DrugBank.d532.s3.p3" e1="DDI-DrugBank.d532.s3.e1"
+            e2="DDI-DrugBank.d532.s3.e2" ddi="false"/>
+        <pair id="DDI-DrugBank.d532.s3.p4" e1="DDI-DrugBank.d532.s3.e1"
+            e2="DDI-DrugBank.d532.s3.e3" ddi="false"/>
+        <pair id="DDI-DrugBank.d532.s3.p5" e1="DDI-DrugBank.d532.s3.e2"
+            e2="DDI-DrugBank.d532.s3.e3" ddi="false"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d532.s4" text="Patients with HACA titers may have allergic or hypersensitivity reactions when treated with other diagnostic or therapeutic monoclonal antibodies.">
+        <entity id="DDI-DrugBank.d532.s4.e0" charOffset="98-107;124-144"
+            type="group" text="diagnostic monoclonal antibodies"/>
+        <entity id="DDI-DrugBank.d532.s4.e1" charOffset="112-144"
+            type="group" text="therapeutic monoclonal antibodies"/>
+        <pair id="DDI-DrugBank.d532.s4.p0" e1="DDI-DrugBank.d532.s4.e0"
+            e2="DDI-DrugBank.d532.s4.e1" ddi="false"/>
+    </sentence>
+</document>

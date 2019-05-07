@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="DDI-DrugBank.d461">
+    <sentence id="DDI-DrugBank.d461.s0" text="Additive depressant effect when used with general anesthetics, sedatives, antianxiety drugs, hypnotics, alcohol, and other opiate analgesics.">
+        <entity id="DDI-DrugBank.d461.s0.e0" charOffset="50-60"
+            type="group" text="anesthetics"/>
+        <entity id="DDI-DrugBank.d461.s0.e1" charOffset="63-71"
+            type="group" text="sedatives"/>
+        <entity id="DDI-DrugBank.d461.s0.e2" charOffset="74-90"
+            type="group" text="antianxiety drugs"/>
+        <entity id="DDI-DrugBank.d461.s0.e3" charOffset="93-101"
+            type="group" text="hypnotics"/>
+        <entity id="DDI-DrugBank.d461.s0.e4" charOffset="104-110"
+            type="drug" text="alcohol"/>
+        <entity id="DDI-DrugBank.d461.s0.e5" charOffset="123-139"
+            type="group" text="opiate analgesics"/>
+        <pair id="DDI-DrugBank.d461.s0.p0" e1="DDI-DrugBank.d461.s0.e0"
+            e2="DDI-DrugBank.d461.s0.e1" ddi="false"/>
+        <pair id="DDI-DrugBank.d461.s0.p1" e1="DDI-DrugBank.d461.s0.e0"
+            e2="DDI-DrugBank.d461.s0.e2" ddi="false"/>
+        <pair id="DDI-DrugBank.d461.s0.p2" e1="DDI-DrugBank.d461.s0.e0"
+            e2="DDI-DrugBank.d461.s0.e3" ddi="false"/>
+        <pair id="DDI-DrugBank.d461.s0.p3" e1="DDI-DrugBank.d461.s0.e0"
+            e2="DDI-DrugBank.d461.s0.e4" ddi="false"/>
+        <pair id="DDI-DrugBank.d461.s0.p4" e1="DDI-DrugBank.d461.s0.e0"
+            e2="DDI-DrugBank.d461.s0.e5" ddi="false"/>
+        <pair id="DDI-DrugBank.d461.s0.p5" e1="DDI-DrugBank.d461.s0.e1"
+            e2="DDI-DrugBank.d461.s0.e2" ddi="false"/>
+        <pair id="DDI-DrugBank.d461.s0.p6" e1="DDI-DrugBank.d461.s0.e1"
+            e2="DDI-DrugBank.d461.s0.e3" ddi="false"/>
+        <pair id="DDI-DrugBank.d461.s0.p7" e1="DDI-DrugBank.d461.s0.e1"
+            e2="DDI-DrugBank.d461.s0.e4" ddi="false"/>
+        <pair id="DDI-DrugBank.d461.s0.p8" e1="DDI-DrugBank.d461.s0.e1"
+            e2="DDI-DrugBank.d461.s0.e5" ddi="false"/>
+        <pair id="DDI-DrugBank.d461.s0.p9" e1="DDI-DrugBank.d461.s0.e2"
+            e2="DDI-DrugBank.d461.s0.e3" ddi="false"/>
+        <pair id="DDI-DrugBank.d461.s0.p10" e1="DDI-DrugBank.d461.s0.e2"
+            e2="DDI-DrugBank.d461.s0.e4" ddi="false"/>
+        <pair id="DDI-DrugBank.d461.s0.p11" e1="DDI-DrugBank.d461.s0.e2"
+            e2="DDI-DrugBank.d461.s0.e5" ddi="false"/>
+        <pair id="DDI-DrugBank.d461.s0.p12" e1="DDI-DrugBank.d461.s0.e3"
+            e2="DDI-DrugBank.d461.s0.e4" ddi="false"/>
+        <pair id="DDI-DrugBank.d461.s0.p13" e1="DDI-DrugBank.d461.s0.e3"
+            e2="DDI-DrugBank.d461.s0.e5" ddi="false"/>
+        <pair id="DDI-DrugBank.d461.s0.p14" e1="DDI-DrugBank.d461.s0.e4"
+            e2="DDI-DrugBank.d461.s0.e5" ddi="false"/>
+    </sentence>
+</document>

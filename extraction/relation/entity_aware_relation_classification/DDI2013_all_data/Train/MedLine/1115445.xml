@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="DDI-MedLine.d116">
+    <sentence id="DDI-MedLine.d116.s0" text="Rifampin and warfarin: a drug interaction.&#xd;&#xa;">
+        <entity id="DDI-MedLine.d116.s0.e0" charOffset="0-7" type="drug" text="Rifampin"/>
+        <entity id="DDI-MedLine.d116.s0.e1" charOffset="13-20"
+            type="drug" text="warfarin"/>
+        <pair id="DDI-MedLine.d116.s0.p0" e1="DDI-MedLine.d116.s0.e0"
+            e2="DDI-MedLine.d116.s0.e1" ddi="true" type="int"/>
+    </sentence>
+    <sentence id="DDI-MedLine.d116.s1" text="The drug interaction between warfarin and rifampin is not well known. ">
+        <entity id="DDI-MedLine.d116.s1.e0" charOffset="29-36"
+            type="drug" text="warfarin"/>
+        <entity id="DDI-MedLine.d116.s1.e1" charOffset="42-49"
+            type="drug" text="rifampin"/>
+        <pair id="DDI-MedLine.d116.s1.p0" e1="DDI-MedLine.d116.s1.e0"
+            e2="DDI-MedLine.d116.s1.e1" ddi="true" type="int"/>
+    </sentence>
+    <sentence id="DDI-MedLine.d116.s2" text="Rifampin has been reported to increase the warfarin requirements in human subjects ingesting these agents simultaneously. ">
+        <entity id="DDI-MedLine.d116.s2.e0" charOffset="0-7" type="drug" text="Rifampin"/>
+        <entity id="DDI-MedLine.d116.s2.e1" charOffset="43-50"
+            type="drug" text="warfarin"/>
+        <pair id="DDI-MedLine.d116.s2.p0" e1="DDI-MedLine.d116.s2.e0"
+            e2="DDI-MedLine.d116.s2.e1" ddi="true" type="mechanism"/>
+    </sentence>
+    <sentence id="DDI-MedLine.d116.s3" text="The concomitant administration of rifampin and warfarin resulted in the need for an unusually high maintenance dose of warfarin (20 mg per day) in order to produce a therapeutic effect. ">
+        <entity id="DDI-MedLine.d116.s3.e0" charOffset="34-41"
+            type="drug" text="rifampin"/>
+        <entity id="DDI-MedLine.d116.s3.e1" charOffset="47-54"
+            type="drug" text="warfarin"/>
+        <entity id="DDI-MedLine.d116.s3.e2" charOffset="119-126"
+            type="drug" text="warfarin"/>
+        <pair id="DDI-MedLine.d116.s3.p0" e1="DDI-MedLine.d116.s3.e0"
+            e2="DDI-MedLine.d116.s3.e1" ddi="true" type="mechanism"/>
+        <pair id="DDI-MedLine.d116.s3.p1" e1="DDI-MedLine.d116.s3.e0"
+            e2="DDI-MedLine.d116.s3.e2" ddi="false"/>
+        <pair id="DDI-MedLine.d116.s3.p2" e1="DDI-MedLine.d116.s3.e1"
+            e2="DDI-MedLine.d116.s3.e2" ddi="false"/>
+    </sentence>
+    <sentence id="DDI-MedLine.d116.s4" text="Withdrawal of rifampin decreased the warfarin requirement by 50%. ">
+        <entity id="DDI-MedLine.d116.s4.e0" charOffset="14-21"
+            type="drug" text="rifampin"/>
+        <entity id="DDI-MedLine.d116.s4.e1" charOffset="37-44"
+            type="drug" text="warfarin"/>
+        <pair id="DDI-MedLine.d116.s4.p0" e1="DDI-MedLine.d116.s4.e0"
+            e2="DDI-MedLine.d116.s4.e1" ddi="true" type="mechanism"/>
+    </sentence>
+    <sentence id="DDI-MedLine.d116.s5" text="This effect may be mediated by the ability of rifampin to induce microsomal enzymes and, thus, the catabolism of warfarin. ">
+        <entity id="DDI-MedLine.d116.s5.e0" charOffset="46-53"
+            type="drug" text="rifampin"/>
+        <entity id="DDI-MedLine.d116.s5.e1" charOffset="113-120"
+            type="drug" text="warfarin"/>
+        <pair id="DDI-MedLine.d116.s5.p0" e1="DDI-MedLine.d116.s5.e0"
+            e2="DDI-MedLine.d116.s5.e1" ddi="true" type="mechanism"/>
+    </sentence>
+    <sentence id="DDI-MedLine.d116.s6" text="The effect of rifampin on the warfarin requirement of our patient appeared to be maximal 5 to 7 days after the initiation of rifampin and extended a similar length of time after rifampin withdrawal. ">
+        <entity id="DDI-MedLine.d116.s6.e0" charOffset="14-21"
+            type="drug" text="rifampin"/>
+        <entity id="DDI-MedLine.d116.s6.e1" charOffset="30-37"
+            type="drug" text="warfarin"/>
+        <entity id="DDI-MedLine.d116.s6.e2" charOffset="125-132"
+            type="drug" text="rifampin"/>
+        <entity id="DDI-MedLine.d116.s6.e3" charOffset="178-185"
+            type="drug" text="rifampin"/>
+        <pair id="DDI-MedLine.d116.s6.p0" e1="DDI-MedLine.d116.s6.e0"
+            e2="DDI-MedLine.d116.s6.e1" ddi="true" type="effect"/>
+        <pair id="DDI-MedLine.d116.s6.p1" e1="DDI-MedLine.d116.s6.e0"
+            e2="DDI-MedLine.d116.s6.e2" ddi="false"/>
+        <pair id="DDI-MedLine.d116.s6.p2" e1="DDI-MedLine.d116.s6.e0"
+            e2="DDI-MedLine.d116.s6.e3" ddi="false"/>
+        <pair id="DDI-MedLine.d116.s6.p3" e1="DDI-MedLine.d116.s6.e1"
+            e2="DDI-MedLine.d116.s6.e2" ddi="false"/>
+        <pair id="DDI-MedLine.d116.s6.p4" e1="DDI-MedLine.d116.s6.e1"
+            e2="DDI-MedLine.d116.s6.e3" ddi="false"/>
+        <pair id="DDI-MedLine.d116.s6.p5" e1="DDI-MedLine.d116.s6.e2"
+            e2="DDI-MedLine.d116.s6.e3" ddi="false"/>
+    </sentence>
+    <sentence id="DDI-MedLine.d116.s7" text="This interaction appears to be clinically significant."/>
+</document>

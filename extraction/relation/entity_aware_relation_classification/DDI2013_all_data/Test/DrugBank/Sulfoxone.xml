@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="DDI-DrugBank.d682">
+    <sentence id="DDI-DrugBank.d682.s0" text="Sulfoxone may increase the effects of barbiturates, tolbutamide, and uricosurics. ">
+        <entity id="DDI-DrugBank.d682.s0.e0" charOffset="0-8"
+            type="drug" text="Sulfoxone"/>
+        <entity id="DDI-DrugBank.d682.s0.e1" charOffset="38-49"
+            type="group" text="barbiturates"/>
+        <entity id="DDI-DrugBank.d682.s0.e2" charOffset="52-62"
+            type="drug" text="tolbutamide"/>
+        <entity id="DDI-DrugBank.d682.s0.e3" charOffset="69-79"
+            type="group" text="uricosurics"/>
+        <pair id="DDI-DrugBank.d682.s0.p0" e1="DDI-DrugBank.d682.s0.e0"
+            e2="DDI-DrugBank.d682.s0.e1" ddi="true" type="effect"/>
+        <pair id="DDI-DrugBank.d682.s0.p1" e1="DDI-DrugBank.d682.s0.e0"
+            e2="DDI-DrugBank.d682.s0.e2" ddi="true" type="effect"/>
+        <pair id="DDI-DrugBank.d682.s0.p2" e1="DDI-DrugBank.d682.s0.e0"
+            e2="DDI-DrugBank.d682.s0.e3" ddi="true" type="effect"/>
+        <pair id="DDI-DrugBank.d682.s0.p3" e1="DDI-DrugBank.d682.s0.e1"
+            e2="DDI-DrugBank.d682.s0.e2" ddi="false"/>
+        <pair id="DDI-DrugBank.d682.s0.p4" e1="DDI-DrugBank.d682.s0.e1"
+            e2="DDI-DrugBank.d682.s0.e3" ddi="false"/>
+        <pair id="DDI-DrugBank.d682.s0.p5" e1="DDI-DrugBank.d682.s0.e2"
+            e2="DDI-DrugBank.d682.s0.e3" ddi="false"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d682.s1" text="It may also interact with thiazides (increased thrombocytopenia), cyclosporine (increased nephrotoxicity), sulfonylurea agents (increased hypoglycemic response), warfarin (increased anticoagulant effect), methotrexate (decreased renal excretion of methotrexate), phenytoin (decreased hepatic clearance of phenytoin).">
+        <entity id="DDI-DrugBank.d682.s1.e0" charOffset="26-34"
+            type="group" text="thiazides"/>
+        <entity id="DDI-DrugBank.d682.s1.e1" charOffset="66-77"
+            type="drug" text="cyclosporine"/>
+        <entity id="DDI-DrugBank.d682.s1.e2" charOffset="107-125"
+            type="group" text="sulfonylurea agents"/>
+        <entity id="DDI-DrugBank.d682.s1.e3" charOffset="162-169"
+            type="drug" text="warfarin"/>
+        <entity id="DDI-DrugBank.d682.s1.e4" charOffset="205-216"
+            type="drug" text="methotrexate"/>
+        <entity id="DDI-DrugBank.d682.s1.e5" charOffset="248-259"
+            type="drug" text="methotrexate"/>
+        <entity id="DDI-DrugBank.d682.s1.e6" charOffset="263-271"
+            type="drug" text="phenytoin"/>
+        <entity id="DDI-DrugBank.d682.s1.e7" charOffset="305-313"
+            type="drug" text="phenytoin"/>
+        <pair id="DDI-DrugBank.d682.s1.p0" e1="DDI-DrugBank.d682.s1.e0"
+            e2="DDI-DrugBank.d682.s1.e1" ddi="false"/>
+        <pair id="DDI-DrugBank.d682.s1.p1" e1="DDI-DrugBank.d682.s1.e0"
+            e2="DDI-DrugBank.d682.s1.e2" ddi="false"/>
+        <pair id="DDI-DrugBank.d682.s1.p2" e1="DDI-DrugBank.d682.s1.e0"
+            e2="DDI-DrugBank.d682.s1.e3" ddi="false"/>
+        <pair id="DDI-DrugBank.d682.s1.p3" e1="DDI-DrugBank.d682.s1.e0"
+            e2="DDI-DrugBank.d682.s1.e4" ddi="false"/>
+        <pair id="DDI-DrugBank.d682.s1.p4" e1="DDI-DrugBank.d682.s1.e0"
+            e2="DDI-DrugBank.d682.s1.e5" ddi="false"/>
+        <pair id="DDI-DrugBank.d682.s1.p5" e1="DDI-DrugBank.d682.s1.e0"
+            e2="DDI-DrugBank.d682.s1.e6" ddi="false"/>
+        <pair id="DDI-DrugBank.d682.s1.p6" e1="DDI-DrugBank.d682.s1.e0"
+            e2="DDI-DrugBank.d682.s1.e7" ddi="false"/>
+        <pair id="DDI-DrugBank.d682.s1.p7" e1="DDI-DrugBank.d682.s1.e1"
+            e2="DDI-DrugBank.d682.s1.e2" ddi="false"/>
+        <pair id="DDI-DrugBank.d682.s1.p8" e1="DDI-DrugBank.d682.s1.e1"
+            e2="DDI-DrugBank.d682.s1.e3" ddi="false"/>
+        <pair id="DDI-DrugBank.d682.s1.p9" e1="DDI-DrugBank.d682.s1.e1"
+            e2="DDI-DrugBank.d682.s1.e4" ddi="false"/>
+        <pair id="DDI-DrugBank.d682.s1.p10" e1="DDI-DrugBank.d682.s1.e1"
+            e2="DDI-DrugBank.d682.s1.e5" ddi="false"/>
+        <pair id="DDI-DrugBank.d682.s1.p11" e1="DDI-DrugBank.d682.s1.e1"
+            e2="DDI-DrugBank.d682.s1.e6" ddi="false"/>
+        <pair id="DDI-DrugBank.d682.s1.p12" e1="DDI-DrugBank.d682.s1.e1"
+            e2="DDI-DrugBank.d682.s1.e7" ddi="false"/>
+        <pair id="DDI-DrugBank.d682.s1.p13" e1="DDI-DrugBank.d682.s1.e2"
+            e2="DDI-DrugBank.d682.s1.e3" ddi="false"/>
+        <pair id="DDI-DrugBank.d682.s1.p14" e1="DDI-DrugBank.d682.s1.e2"
+            e2="DDI-DrugBank.d682.s1.e4" ddi="false"/>
+        <pair id="DDI-DrugBank.d682.s1.p15" e1="DDI-DrugBank.d682.s1.e2"
+            e2="DDI-DrugBank.d682.s1.e5" ddi="false"/>
+        <pair id="DDI-DrugBank.d682.s1.p16" e1="DDI-DrugBank.d682.s1.e2"
+            e2="DDI-DrugBank.d682.s1.e6" ddi="false"/>
+        <pair id="DDI-DrugBank.d682.s1.p17" e1="DDI-DrugBank.d682.s1.e2"
+            e2="DDI-DrugBank.d682.s1.e7" ddi="false"/>
+        <pair id="DDI-DrugBank.d682.s1.p18" e1="DDI-DrugBank.d682.s1.e3"
+            e2="DDI-DrugBank.d682.s1.e4" ddi="false"/>
+        <pair id="DDI-DrugBank.d682.s1.p19" e1="DDI-DrugBank.d682.s1.e3"
+            e2="DDI-DrugBank.d682.s1.e5" ddi="false"/>
+        <pair id="DDI-DrugBank.d682.s1.p20" e1="DDI-DrugBank.d682.s1.e3"
+            e2="DDI-DrugBank.d682.s1.e6" ddi="false"/>
+        <pair id="DDI-DrugBank.d682.s1.p21" e1="DDI-DrugBank.d682.s1.e3"
+            e2="DDI-DrugBank.d682.s1.e7" ddi="false"/>
+        <pair id="DDI-DrugBank.d682.s1.p22" e1="DDI-DrugBank.d682.s1.e4"
+            e2="DDI-DrugBank.d682.s1.e5" ddi="false"/>
+        <pair id="DDI-DrugBank.d682.s1.p23" e1="DDI-DrugBank.d682.s1.e4"
+            e2="DDI-DrugBank.d682.s1.e6" ddi="false"/>
+        <pair id="DDI-DrugBank.d682.s1.p24" e1="DDI-DrugBank.d682.s1.e4"
+            e2="DDI-DrugBank.d682.s1.e7" ddi="false"/>
+        <pair id="DDI-DrugBank.d682.s1.p25" e1="DDI-DrugBank.d682.s1.e5"
+            e2="DDI-DrugBank.d682.s1.e6" ddi="false"/>
+        <pair id="DDI-DrugBank.d682.s1.p26" e1="DDI-DrugBank.d682.s1.e5"
+            e2="DDI-DrugBank.d682.s1.e7" ddi="false"/>
+        <pair id="DDI-DrugBank.d682.s1.p27" e1="DDI-DrugBank.d682.s1.e6"
+            e2="DDI-DrugBank.d682.s1.e7" ddi="false"/>
+    </sentence>
+</document>

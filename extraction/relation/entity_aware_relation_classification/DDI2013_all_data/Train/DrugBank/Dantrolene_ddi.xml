@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="DDI-DrugBank.d305">
+    <sentence id="DDI-DrugBank.d305.s0" text="Dantrium is metabolized by the liver, and it is theoretically possible that its metabolism may be enhanced by drugs known to induce hepatic microsomal enzymes.">
+        <entity id="DDI-DrugBank.d305.s0.e0" charOffset="0-7"
+            type="brand" text="Dantrium"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d305.s1" text="However, neither phenobarbital nor diazepam appears to affect Dantrium metabolism.">
+        <entity id="DDI-DrugBank.d305.s1.e0" charOffset="17-29"
+            type="drug" text="phenobarbital"/>
+        <entity id="DDI-DrugBank.d305.s1.e1" charOffset="35-42"
+            type="drug" text="diazepam"/>
+        <entity id="DDI-DrugBank.d305.s1.e2" charOffset="62-69"
+            type="brand" text="Dantrium"/>
+        <pair id="DDI-DrugBank.d305.s1.p0" e1="DDI-DrugBank.d305.s1.e0"
+            e2="DDI-DrugBank.d305.s1.e1" ddi="false"/>
+        <pair id="DDI-DrugBank.d305.s1.p1" e1="DDI-DrugBank.d305.s1.e0"
+            e2="DDI-DrugBank.d305.s1.e2" ddi="false"/>
+        <pair id="DDI-DrugBank.d305.s1.p2" e1="DDI-DrugBank.d305.s1.e1"
+            e2="DDI-DrugBank.d305.s1.e2" ddi="false"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d305.s2" text="Binding to plasma protein is not significantly altered by diazepam, diphenylhydantoin, or phenylbutazone.">
+        <entity id="DDI-DrugBank.d305.s2.e0" charOffset="58-65"
+            type="drug" text="diazepam"/>
+        <entity id="DDI-DrugBank.d305.s2.e1" charOffset="68-84"
+            type="drug" text="diphenylhydantoin"/>
+        <entity id="DDI-DrugBank.d305.s2.e2" charOffset="90-103"
+            type="drug" text="phenylbutazone"/>
+        <pair id="DDI-DrugBank.d305.s2.p0" e1="DDI-DrugBank.d305.s2.e0"
+            e2="DDI-DrugBank.d305.s2.e1" ddi="false"/>
+        <pair id="DDI-DrugBank.d305.s2.p1" e1="DDI-DrugBank.d305.s2.e0"
+            e2="DDI-DrugBank.d305.s2.e2" ddi="false"/>
+        <pair id="DDI-DrugBank.d305.s2.p2" e1="DDI-DrugBank.d305.s2.e1"
+            e2="DDI-DrugBank.d305.s2.e2" ddi="false"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d305.s3" text="Binding to plasma proteins is reduced by warfarin and clotibrate and increased by tolbutamide.">
+        <entity id="DDI-DrugBank.d305.s3.e0" charOffset="41-48"
+            type="drug" text="warfarin"/>
+        <entity id="DDI-DrugBank.d305.s3.e1" charOffset="82-92"
+            type="drug" text="tolbutamide"/>
+        <pair id="DDI-DrugBank.d305.s3.p0" e1="DDI-DrugBank.d305.s3.e0"
+            e2="DDI-DrugBank.d305.s3.e1" ddi="false"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d305.s4" text="Cardiovascular collapse in patients treated simultaneously with varapamil and dantrolene sodium is rare.">
+        <entity id="DDI-DrugBank.d305.s4.e0" charOffset="78-94"
+            type="drug" text="dantrolene sodium"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d305.s5" text="The combination of therapeutic doses of intravenous dantrolene sodium and verapamil in halothane a-chloralose anesthetized swine has resulted in ventricular fibrillation and cardiovascular collapse in association with marked hyperkalemia.">
+        <entity id="DDI-DrugBank.d305.s5.e0" charOffset="52-68"
+            type="drug" text="dantrolene sodium"/>
+        <entity id="DDI-DrugBank.d305.s5.e1" charOffset="74-82"
+            type="drug" text="verapamil"/>
+        <entity id="DDI-DrugBank.d305.s5.e2" charOffset="87-95"
+            type="drug" text="halothane"/>
+        <pair id="DDI-DrugBank.d305.s5.p0" e1="DDI-DrugBank.d305.s5.e0"
+            e2="DDI-DrugBank.d305.s5.e1" ddi="false"/>
+        <pair id="DDI-DrugBank.d305.s5.p1" e1="DDI-DrugBank.d305.s5.e0"
+            e2="DDI-DrugBank.d305.s5.e2" ddi="false"/>
+        <pair id="DDI-DrugBank.d305.s5.p2" e1="DDI-DrugBank.d305.s5.e1"
+            e2="DDI-DrugBank.d305.s5.e2" ddi="false"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d305.s6" text="It is recommended that the combination of intravenous dantrolene sodium and calcium channel blockers, such as verapamil, not be used together during the management of malignant hyperthermia crisis until the relevance of these findings to humans is established.">
+        <entity id="DDI-DrugBank.d305.s6.e0" charOffset="54-70"
+            type="drug" text="dantrolene sodium"/>
+        <entity id="DDI-DrugBank.d305.s6.e1" charOffset="76-99"
+            type="group" text="calcium channel blockers"/>
+        <entity id="DDI-DrugBank.d305.s6.e2" charOffset="110-118"
+            type="drug" text="verapamil"/>
+        <pair id="DDI-DrugBank.d305.s6.p0" e1="DDI-DrugBank.d305.s6.e0"
+            e2="DDI-DrugBank.d305.s6.e1" ddi="true" type="advise"/>
+        <pair id="DDI-DrugBank.d305.s6.p1" e1="DDI-DrugBank.d305.s6.e0"
+            e2="DDI-DrugBank.d305.s6.e2" ddi="true" type="advise"/>
+        <pair id="DDI-DrugBank.d305.s6.p2" e1="DDI-DrugBank.d305.s6.e1"
+            e2="DDI-DrugBank.d305.s6.e2" ddi="false"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d305.s7" text="Administration of dantrolene may potentiate vecuronium-induced neuromuscular block.">
+        <entity id="DDI-DrugBank.d305.s7.e0" charOffset="18-27"
+            type="drug" text="dantrolene"/>
+        <entity id="DDI-DrugBank.d305.s7.e1" charOffset="44-53"
+            type="drug" text="vecuronium"/>
+        <pair id="DDI-DrugBank.d305.s7.p0" e1="DDI-DrugBank.d305.s7.e0"
+            e2="DDI-DrugBank.d305.s7.e1" ddi="true" type="effect"/>
+    </sentence>
+</document>

@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="DDI-DrugBank.d578">
+    <sentence id="DDI-DrugBank.d578.s0" text="The pharmacokinetic interactions listed below are potentially clinically important. "/>
+    <sentence id="DDI-DrugBank.d578.s1" text="Mutual inhibition of metabolism occurs with concurrent use of cyclosporin and methylprednisolone; ">
+        <entity id="DDI-DrugBank.d578.s1.e0" charOffset="62-72"
+            type="drug" text="cyclosporin"/>
+        <entity id="DDI-DrugBank.d578.s1.e1" charOffset="78-95"
+            type="drug" text="methylprednisolone"/>
+        <pair id="DDI-DrugBank.d578.s1.p0" e1="DDI-DrugBank.d578.s1.e0"
+            e2="DDI-DrugBank.d578.s1.e1" ddi="true" type="mechanism"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d578.s2" text="therefore, it is possible that adverse events associated with the individual use of either drug may be more apt to occur. "/>
+    <sentence id="DDI-DrugBank.d578.s3" text="convulsions have been reported with concurrent use of methylprednisolone and cyclosporin. ">
+        <entity id="DDI-DrugBank.d578.s3.e0" charOffset="54-71"
+            type="drug" text="methylprednisolone"/>
+        <entity id="DDI-DrugBank.d578.s3.e1" charOffset="77-87"
+            type="drug" text="cyclosporin"/>
+        <pair id="DDI-DrugBank.d578.s3.p0" e1="DDI-DrugBank.d578.s3.e0"
+            e2="DDI-DrugBank.d578.s3.e1" ddi="true" type="effect"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d578.s4" text="Drugs that induce hepatic enzymes such as phenobarbital, phenytoin, and rifampin may increase the clearance of methylprednisolone and may require increased in methylprednisolone dose to achieve the desired response. ">
+        <entity id="DDI-DrugBank.d578.s4.e0" charOffset="42-54"
+            type="drug" text="phenobarbital"/>
+        <entity id="DDI-DrugBank.d578.s4.e1" charOffset="57-65"
+            type="drug" text="phenytoin"/>
+        <entity id="DDI-DrugBank.d578.s4.e2" charOffset="72-79"
+            type="drug" text="rifampin"/>
+        <entity id="DDI-DrugBank.d578.s4.e3" charOffset="111-128"
+            type="drug" text="methylprednisolone"/>
+        <entity id="DDI-DrugBank.d578.s4.e4" charOffset="159-176"
+            type="drug" text="methylprednisolone"/>
+        <pair id="DDI-DrugBank.d578.s4.p0" e1="DDI-DrugBank.d578.s4.e0"
+            e2="DDI-DrugBank.d578.s4.e1" ddi="false"/>
+        <pair id="DDI-DrugBank.d578.s4.p1" e1="DDI-DrugBank.d578.s4.e0"
+            e2="DDI-DrugBank.d578.s4.e2" ddi="false"/>
+        <pair id="DDI-DrugBank.d578.s4.p2" e1="DDI-DrugBank.d578.s4.e0"
+            e2="DDI-DrugBank.d578.s4.e3" ddi="true" type="mechanism"/>
+        <pair id="DDI-DrugBank.d578.s4.p3" e1="DDI-DrugBank.d578.s4.e0"
+            e2="DDI-DrugBank.d578.s4.e4" ddi="true" type="advise"/>
+        <pair id="DDI-DrugBank.d578.s4.p4" e1="DDI-DrugBank.d578.s4.e1"
+            e2="DDI-DrugBank.d578.s4.e2" ddi="false"/>
+        <pair id="DDI-DrugBank.d578.s4.p5" e1="DDI-DrugBank.d578.s4.e1"
+            e2="DDI-DrugBank.d578.s4.e3" ddi="true" type="mechanism"/>
+        <pair id="DDI-DrugBank.d578.s4.p6" e1="DDI-DrugBank.d578.s4.e1"
+            e2="DDI-DrugBank.d578.s4.e4" ddi="true" type="advise"/>
+        <pair id="DDI-DrugBank.d578.s4.p7" e1="DDI-DrugBank.d578.s4.e2"
+            e2="DDI-DrugBank.d578.s4.e3" ddi="true" type="mechanism"/>
+        <pair id="DDI-DrugBank.d578.s4.p8" e1="DDI-DrugBank.d578.s4.e2"
+            e2="DDI-DrugBank.d578.s4.e4" ddi="true" type="advise"/>
+        <pair id="DDI-DrugBank.d578.s4.p9" e1="DDI-DrugBank.d578.s4.e3"
+            e2="DDI-DrugBank.d578.s4.e4" ddi="false"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d578.s5" text="Drugs such as troleandomycin and ketoconazole may inhibit the metabolism of methylprednisolone and thus decrease its clearance. ">
+        <entity id="DDI-DrugBank.d578.s5.e0" charOffset="14-27"
+            type="drug" text="troleandomycin"/>
+        <entity id="DDI-DrugBank.d578.s5.e1" charOffset="33-44"
+            type="drug" text="ketoconazole"/>
+        <entity id="DDI-DrugBank.d578.s5.e2" charOffset="76-93"
+            type="drug" text="methylprednisolone"/>
+        <pair id="DDI-DrugBank.d578.s5.p0" e1="DDI-DrugBank.d578.s5.e0"
+            e2="DDI-DrugBank.d578.s5.e1" ddi="false"/>
+        <pair id="DDI-DrugBank.d578.s5.p1" e1="DDI-DrugBank.d578.s5.e0"
+            e2="DDI-DrugBank.d578.s5.e2" ddi="true" type="mechanism"/>
+        <pair id="DDI-DrugBank.d578.s5.p2" e1="DDI-DrugBank.d578.s5.e1"
+            e2="DDI-DrugBank.d578.s5.e2" ddi="true" type="mechanism"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d578.s6" text="Therefore, the dose of methylprednisolone should be titrated to avoid steroid toxicity. ">
+        <entity id="DDI-DrugBank.d578.s6.e0" charOffset="23-40"
+            type="drug" text="methylprednisolone"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d578.s7" text="Methylprednisolone may increase the clearance of chronic high dose aspirin. ">
+        <entity id="DDI-DrugBank.d578.s7.e0" charOffset="0-17"
+            type="drug" text="Methylprednisolone"/>
+        <entity id="DDI-DrugBank.d578.s7.e1" charOffset="67-73"
+            type="brand" text="aspirin"/>
+        <pair id="DDI-DrugBank.d578.s7.p0" e1="DDI-DrugBank.d578.s7.e0"
+            e2="DDI-DrugBank.d578.s7.e1" ddi="true" type="mechanism"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d578.s8" text="This could lead to decreased salicylate serum levels or increase the risk of salicylate toxicity when methylprednisolone is withdrawn. ">
+        <entity id="DDI-DrugBank.d578.s8.e0" charOffset="29-38"
+            type="group" text="salicylate"/>
+        <entity id="DDI-DrugBank.d578.s8.e1" charOffset="77-86"
+            type="group" text="salicylate"/>
+        <entity id="DDI-DrugBank.d578.s8.e2" charOffset="102-119"
+            type="drug" text="methylprednisolone"/>
+        <pair id="DDI-DrugBank.d578.s8.p0" e1="DDI-DrugBank.d578.s8.e0"
+            e2="DDI-DrugBank.d578.s8.e1" ddi="false"/>
+        <pair id="DDI-DrugBank.d578.s8.p1" e1="DDI-DrugBank.d578.s8.e0"
+            e2="DDI-DrugBank.d578.s8.e2" ddi="false"/>
+        <pair id="DDI-DrugBank.d578.s8.p2" e1="DDI-DrugBank.d578.s8.e1"
+            e2="DDI-DrugBank.d578.s8.e2" ddi="true" type="effect"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d578.s9" text="Aspirin should be used cautiously in conjunction with corticosteroids in patients suffering from hypoprothrombinemia. ">
+        <entity id="DDI-DrugBank.d578.s9.e0" charOffset="0-6"
+            type="brand" text="Aspirin"/>
+        <entity id="DDI-DrugBank.d578.s9.e1" charOffset="54-68"
+            type="group" text="corticosteroids"/>
+        <pair id="DDI-DrugBank.d578.s9.p0" e1="DDI-DrugBank.d578.s9.e0"
+            e2="DDI-DrugBank.d578.s9.e1" ddi="true" type="advise"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d578.s10" text="The effect of methylprednisolone on oral anticoagulants is variable. ">
+        <entity id="DDI-DrugBank.d578.s10.e0" charOffset="14-31"
+            type="drug" text="methylprednisolone"/>
+        <entity id="DDI-DrugBank.d578.s10.e1" charOffset="41-54"
+            type="group" text="anticoagulants"/>
+        <pair id="DDI-DrugBank.d578.s10.p0"
+            e1="DDI-DrugBank.d578.s10.e0" e2="DDI-DrugBank.d578.s10.e1" ddi="false"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d578.s11" text="There are reports of enhanced as well as diminished effects of anticoagulant when given concurrently with corticosteroids. ">
+        <entity id="DDI-DrugBank.d578.s11.e0" charOffset="63-75"
+            type="group" text="anticoagulant"/>
+        <entity id="DDI-DrugBank.d578.s11.e1" charOffset="106-120"
+            type="group" text="corticosteroids"/>
+        <pair id="DDI-DrugBank.d578.s11.p0"
+            e1="DDI-DrugBank.d578.s11.e0" e2="DDI-DrugBank.d578.s11.e1"
+            ddi="true" type="effect"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d578.s12" text="Therefore, coagulation indices should be monitored to maintain the desired anticoagulant effect."/>
+</document>

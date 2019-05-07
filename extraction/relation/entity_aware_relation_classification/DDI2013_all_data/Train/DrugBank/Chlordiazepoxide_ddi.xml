@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="DDI-DrugBank.d336">
+    <sentence id="DDI-DrugBank.d336.s0" text="Although clinical studies have not established a cause and effect relationship, physicians should be aware that variable effects an blood coagulation have been reported very rarely in patients receiving oral anticoagulants and chlordiazepoxide.">
+        <entity id="DDI-DrugBank.d336.s0.e0" charOffset="208-221"
+            type="group" text="anticoagulants"/>
+        <entity id="DDI-DrugBank.d336.s0.e1" charOffset="227-242"
+            type="drug" text="chlordiazepoxide"/>
+        <pair id="DDI-DrugBank.d336.s0.p0" e1="DDI-DrugBank.d336.s0.e0"
+            e2="DDI-DrugBank.d336.s0.e1" ddi="true" type="effect"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d336.s1" text="The concomitant use of alcohol or other central nervous system depressants may have an additive effect.">
+        <entity id="DDI-DrugBank.d336.s1.e0" charOffset="23-29"
+            type="drug" text="alcohol"/>
+        <entity id="DDI-DrugBank.d336.s1.e1" charOffset="40-73"
+            type="group" text="central nervous system depressants"/>
+        <pair id="DDI-DrugBank.d336.s1.p0" e1="DDI-DrugBank.d336.s1.e0"
+            e2="DDI-DrugBank.d336.s1.e1" ddi="false"/>
+    </sentence>
+</document>

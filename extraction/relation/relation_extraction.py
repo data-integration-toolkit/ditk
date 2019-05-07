@@ -26,8 +26,8 @@ class RelationExtraction(abc.ABC):
 	@abc.abstractmethod
 	def data_preprocess(self,input_data, *args, **kwargs):
 		"""
-         (Optional): For members who do not need preprocessing. example: .pkl files 
-         A common function for a set of data cleaning techniques such as lemmatization, count vectorizer and so forth.
+        (Optional): For members who do not need preprocessing. example: .pkl files 
+        A common function for a set of data cleaning techniques such as lemmatization, count vectorizer and so forth.
 		Args: 
 			input_data: Raw data to tokenize
 		Returns:
@@ -37,7 +37,7 @@ class RelationExtraction(abc.ABC):
 
 
 	@abc.abstractmethod
-	def tokenize(self, input_data ,ngram_size=None, *args, **kwargs):  
+	def tokenize(self, input_data, ngram_size=None, *args, **kwargs):  
 		"""
 		Tokenizes dataset using Stanford Core NLP(Server/API)
 		Args:
@@ -54,42 +54,40 @@ class RelationExtraction(abc.ABC):
 		"""
 		Trains a model on the given training data
         
-         Note: The child file of each member overrides this function to train data 
-         according to their algorithm.
+        Note: The child file of each member overrides this function to train data according to their algorithm.
          
 		Args:
 			train_data: post-processed data to be trained.
 		
         Returns: 
 			(Optional) : trained model in applicable formats.
-		     None: if the model is stored internally. 
+		    None: if the model is stored internally. 
 		"""
 		pass
 
 
 	@abc.abstractmethod
-	def predict(self, test_data, entity_1 = None, entity_2= None,  trained_model = None, *args, **kwargs):   
+	def predict(self, test_data, entity_1=None, entity_2=None,  trained_model=None, *args, **kwargs):   
 		"""
 		Predict on the trained model using test data
 		Args:
-              entity_1, entity_2: for some models, given an entity, give the relation most suitable 
+            entity_1, entity_2: for some models, given an entity, give the relation most suitable 
 			test_data: test the model and predict the result.
-			trained_model: the trained model from the method - def train().
-						  None if store trained model internally.
+			trained_model: the trained model from the method - def train(). None if store trained model internally.
 		Returns:
-              probablities: which relation is more probable given entity1, entity2 
-                  or 
+            probablities: which relation is more probable given entity1, entity2 
+            	or 
 			relation: [tuple], list of tuples. (Eg - Entity 1, Relation, Entity 2) or in other format 
 		"""
 		pass
 
 	@abc.abstractmethod
-	def evaluate(self, input_data, trained_model = None, *args, **kwargs):
+	def evaluate(self, input_data, trained_model=None, *args, **kwargs):
 		"""
 		Evaluates the result based on the benchmark dataset and the evauation metrics  [Precision,Recall,F1, or others...]
-         Args:
-             input_data: benchmark dataset/evaluation data
-             trained_model: trained model or None if stored internally 
+        Args:
+            input_data: benchmark dataset/evaluation data
+            trained_model: trained model or None if stored internally 
 		Returns:
 			performance metrics: tuple with (p,r,f1) or similar...
 		"""
@@ -98,17 +96,15 @@ class RelationExtraction(abc.ABC):
 	@abc.abstractmethod
 	def save_model(self, file):
 		"""
-
-		:param file: Where to save the model - Optional function
-		:return:
+		Args:
+			file: where to save the model - optional function
 		"""
 		pass
 
 	@abc.abstractmethod
 	def load_model(self, file):
 		"""
-
-		:param file: From where to load the model - Optional function
-		:return:
+		Args:
+			file: from where to load the model - optional function
 		"""
 		pass

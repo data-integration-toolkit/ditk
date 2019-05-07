@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="DDI-DrugBank.d174">
+    <sentence id="DDI-DrugBank.d174.s0" text="In vitro studies have shown that, because of its affinity for protein, 6MNA may displace other protein-bound drugs from their binding site.">
+        <entity id="DDI-DrugBank.d174.s0.e0" charOffset="71-74"
+            type="drug_n" text="6MNA"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d174.s1" text="Caution should be exercised when administering nabumetone with warfarin since interactions have been seen with other NSAIDs.">
+        <entity id="DDI-DrugBank.d174.s1.e0" charOffset="47-56"
+            type="drug" text="nabumetone"/>
+        <entity id="DDI-DrugBank.d174.s1.e1" charOffset="63-70"
+            type="drug" text="warfarin"/>
+        <entity id="DDI-DrugBank.d174.s1.e2" charOffset="117-122"
+            type="group" text="NSAIDs"/>
+        <pair id="DDI-DrugBank.d174.s1.p0" e1="DDI-DrugBank.d174.s1.e0"
+            e2="DDI-DrugBank.d174.s1.e1" ddi="true" type="advise"/>
+        <pair id="DDI-DrugBank.d174.s1.p1" e1="DDI-DrugBank.d174.s1.e0"
+            e2="DDI-DrugBank.d174.s1.e2" ddi="false"/>
+        <pair id="DDI-DrugBank.d174.s1.p2" e1="DDI-DrugBank.d174.s1.e1"
+            e2="DDI-DrugBank.d174.s1.e2" ddi="true" type="int"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d174.s2" text="Concomitant administration of an aluminum-containing antacid had no significant effect in the bioavailability of 6MNA.">
+        <entity id="DDI-DrugBank.d174.s2.e0" charOffset="33-40"
+            type="drug" text="aluminum"/>
+        <entity id="DDI-DrugBank.d174.s2.e1" charOffset="53-59"
+            type="group" text="antacid"/>
+        <entity id="DDI-DrugBank.d174.s2.e2" charOffset="113-116"
+            type="drug_n" text="6MNA"/>
+        <pair id="DDI-DrugBank.d174.s2.p0" e1="DDI-DrugBank.d174.s2.e0"
+            e2="DDI-DrugBank.d174.s2.e1" ddi="false"/>
+        <pair id="DDI-DrugBank.d174.s2.p1" e1="DDI-DrugBank.d174.s2.e0"
+            e2="DDI-DrugBank.d174.s2.e2" ddi="false"/>
+        <pair id="DDI-DrugBank.d174.s2.p2" e1="DDI-DrugBank.d174.s2.e1"
+            e2="DDI-DrugBank.d174.s2.e2" ddi="false"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d174.s3" text="When administered with food or milk, there is more rapid absorption;"/>
+    <sentence id="DDI-DrugBank.d174.s4" text="however, the total amount of 6MNA in the plasma is unchanged .">
+        <entity id="DDI-DrugBank.d174.s4.e0" charOffset="29-32"
+            type="drug_n" text="6MNA"/>
+    </sentence>
+</document>

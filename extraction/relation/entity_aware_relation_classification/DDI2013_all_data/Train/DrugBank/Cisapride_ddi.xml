@@ -1,0 +1,375 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="DDI-DrugBank.d237">
+    <sentence id="DDI-DrugBank.d237.s0" text="Cisapride is metabolized mainly via the cytochrome P450 3A4 enzyme.">
+        <entity id="DDI-DrugBank.d237.s0.e0" charOffset="0-8"
+            type="drug" text="Cisapride"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d237.s1" text="In some cases where serious ventricular arrhythmias, QT prolongation, and torsades de pointes have occurred when cisapride was taken in conjunction with one of the cytochrome P450 3A4 inhibitors, elevated blood cisapride levels were noted at the time of the QT prolongation.">
+        <entity id="DDI-DrugBank.d237.s1.e0" charOffset="113-121"
+            type="drug" text="cisapride"/>
+        <entity id="DDI-DrugBank.d237.s1.e1" charOffset="211-219"
+            type="drug" text="cisapride"/>
+        <pair id="DDI-DrugBank.d237.s1.p0" e1="DDI-DrugBank.d237.s1.e0"
+            e2="DDI-DrugBank.d237.s1.e1" ddi="false"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d237.s2" text="Antibiotics: In vitro and/or in vivo data show that clarithromycin, erythromycin, and troleandomycin markedly inhibit the metabolism of cisapride, which can result in an increase in plasma cisapride levels and prolongation of the QT interval on the ECG.">
+        <entity id="DDI-DrugBank.d237.s2.e0" charOffset="0-10"
+            type="group" text="Antibiotics"/>
+        <entity id="DDI-DrugBank.d237.s2.e1" charOffset="52-65"
+            type="drug" text="clarithromycin"/>
+        <entity id="DDI-DrugBank.d237.s2.e2" charOffset="68-79"
+            type="drug" text="erythromycin"/>
+        <entity id="DDI-DrugBank.d237.s2.e3" charOffset="86-99"
+            type="drug" text="troleandomycin"/>
+        <entity id="DDI-DrugBank.d237.s2.e4" charOffset="136-144"
+            type="drug" text="cisapride"/>
+        <entity id="DDI-DrugBank.d237.s2.e5" charOffset="189-197"
+            type="drug" text="cisapride"/>
+        <pair id="DDI-DrugBank.d237.s2.p0" e1="DDI-DrugBank.d237.s2.e0"
+            e2="DDI-DrugBank.d237.s2.e1" ddi="false"/>
+        <pair id="DDI-DrugBank.d237.s2.p1" e1="DDI-DrugBank.d237.s2.e0"
+            e2="DDI-DrugBank.d237.s2.e2" ddi="false"/>
+        <pair id="DDI-DrugBank.d237.s2.p2" e1="DDI-DrugBank.d237.s2.e0"
+            e2="DDI-DrugBank.d237.s2.e3" ddi="false"/>
+        <pair id="DDI-DrugBank.d237.s2.p3" e1="DDI-DrugBank.d237.s2.e0"
+            e2="DDI-DrugBank.d237.s2.e4" ddi="false"/>
+        <pair id="DDI-DrugBank.d237.s2.p4" e1="DDI-DrugBank.d237.s2.e0"
+            e2="DDI-DrugBank.d237.s2.e5" ddi="false"/>
+        <pair id="DDI-DrugBank.d237.s2.p5" e1="DDI-DrugBank.d237.s2.e1"
+            e2="DDI-DrugBank.d237.s2.e2" ddi="false"/>
+        <pair id="DDI-DrugBank.d237.s2.p6" e1="DDI-DrugBank.d237.s2.e1"
+            e2="DDI-DrugBank.d237.s2.e3" ddi="false"/>
+        <pair id="DDI-DrugBank.d237.s2.p7" e1="DDI-DrugBank.d237.s2.e1"
+            e2="DDI-DrugBank.d237.s2.e4" ddi="true" type="mechanism"/>
+        <pair id="DDI-DrugBank.d237.s2.p8" e1="DDI-DrugBank.d237.s2.e1"
+            e2="DDI-DrugBank.d237.s2.e5" ddi="false"/>
+        <pair id="DDI-DrugBank.d237.s2.p9" e1="DDI-DrugBank.d237.s2.e2"
+            e2="DDI-DrugBank.d237.s2.e3" ddi="false"/>
+        <pair id="DDI-DrugBank.d237.s2.p10" e1="DDI-DrugBank.d237.s2.e2"
+            e2="DDI-DrugBank.d237.s2.e4" ddi="true" type="mechanism"/>
+        <pair id="DDI-DrugBank.d237.s2.p11" e1="DDI-DrugBank.d237.s2.e2"
+            e2="DDI-DrugBank.d237.s2.e5" ddi="false"/>
+        <pair id="DDI-DrugBank.d237.s2.p12" e1="DDI-DrugBank.d237.s2.e3"
+            e2="DDI-DrugBank.d237.s2.e4" ddi="true" type="mechanism"/>
+        <pair id="DDI-DrugBank.d237.s2.p13" e1="DDI-DrugBank.d237.s2.e3"
+            e2="DDI-DrugBank.d237.s2.e5" ddi="false"/>
+        <pair id="DDI-DrugBank.d237.s2.p14" e1="DDI-DrugBank.d237.s2.e4"
+            e2="DDI-DrugBank.d237.s2.e5" ddi="false"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d237.s3" text="Anticholinergics: Concurrent administration of certain anticholinergic compounds, such as belladonna alkaloids and dicyclomine, would be expected to compromise the beneficial effects of cisapride.">
+        <entity id="DDI-DrugBank.d237.s3.e0" charOffset="0-15"
+            type="group" text="Anticholinergics"/>
+        <entity id="DDI-DrugBank.d237.s3.e1" charOffset="55-79"
+            type="group" text="anticholinergic compounds"/>
+        <entity id="DDI-DrugBank.d237.s3.e2" charOffset="90-109"
+            type="group" text="belladonna alkaloids"/>
+        <entity id="DDI-DrugBank.d237.s3.e3" charOffset="115-125"
+            type="drug" text="dicyclomine"/>
+        <entity id="DDI-DrugBank.d237.s3.e4" charOffset="186-194"
+            type="drug" text="cisapride"/>
+        <pair id="DDI-DrugBank.d237.s3.p0" e1="DDI-DrugBank.d237.s3.e0"
+            e2="DDI-DrugBank.d237.s3.e1" ddi="false"/>
+        <pair id="DDI-DrugBank.d237.s3.p1" e1="DDI-DrugBank.d237.s3.e0"
+            e2="DDI-DrugBank.d237.s3.e2" ddi="false"/>
+        <pair id="DDI-DrugBank.d237.s3.p2" e1="DDI-DrugBank.d237.s3.e0"
+            e2="DDI-DrugBank.d237.s3.e3" ddi="false"/>
+        <pair id="DDI-DrugBank.d237.s3.p3" e1="DDI-DrugBank.d237.s3.e0"
+            e2="DDI-DrugBank.d237.s3.e4" ddi="false"/>
+        <pair id="DDI-DrugBank.d237.s3.p4" e1="DDI-DrugBank.d237.s3.e1"
+            e2="DDI-DrugBank.d237.s3.e2" ddi="false"/>
+        <pair id="DDI-DrugBank.d237.s3.p5" e1="DDI-DrugBank.d237.s3.e1"
+            e2="DDI-DrugBank.d237.s3.e3" ddi="false"/>
+        <pair id="DDI-DrugBank.d237.s3.p6" e1="DDI-DrugBank.d237.s3.e1"
+            e2="DDI-DrugBank.d237.s3.e4" ddi="true" type="effect"/>
+        <pair id="DDI-DrugBank.d237.s3.p7" e1="DDI-DrugBank.d237.s3.e2"
+            e2="DDI-DrugBank.d237.s3.e3" ddi="false"/>
+        <pair id="DDI-DrugBank.d237.s3.p8" e1="DDI-DrugBank.d237.s3.e2"
+            e2="DDI-DrugBank.d237.s3.e4" ddi="true" type="effect"/>
+        <pair id="DDI-DrugBank.d237.s3.p9" e1="DDI-DrugBank.d237.s3.e3"
+            e2="DDI-DrugBank.d237.s3.e4" ddi="true" type="effect"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d237.s4" text="Anticoagulants (Oral): In patients receiving oral anticoagulants, the coagulation times were increased in some cases.">
+        <entity id="DDI-DrugBank.d237.s4.e0" charOffset="0-13"
+            type="group" text="Anticoagulants"/>
+        <entity id="DDI-DrugBank.d237.s4.e1" charOffset="50-63"
+            type="group" text="anticoagulants"/>
+        <pair id="DDI-DrugBank.d237.s4.p0" e1="DDI-DrugBank.d237.s4.e0"
+            e2="DDI-DrugBank.d237.s4.e1" ddi="false"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d237.s5" text="It is advisable to check coagulation time within the first few days after the start and discontinuation of cisapride therapy, with an appropriate adjustment of the anticoagulant dose, if necessary.">
+        <entity id="DDI-DrugBank.d237.s5.e0" charOffset="107-115"
+            type="drug" text="cisapride"/>
+        <entity id="DDI-DrugBank.d237.s5.e1" charOffset="164-176"
+            type="group" text="anticoagulant"/>
+        <pair id="DDI-DrugBank.d237.s5.p0" e1="DDI-DrugBank.d237.s5.e0"
+            e2="DDI-DrugBank.d237.s5.e1" ddi="true" type="advise"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d237.s6" text="Antidepressants: In vitro data indicate that nefazodone inhibits the metabolism of cisapride, which can result in an increase in plasma cisapride levels and prolongation of the QT interval on the ECG.">
+        <entity id="DDI-DrugBank.d237.s6.e0" charOffset="0-14"
+            type="group" text="Antidepressants"/>
+        <entity id="DDI-DrugBank.d237.s6.e1" charOffset="45-54"
+            type="drug" text="nefazodone"/>
+        <entity id="DDI-DrugBank.d237.s6.e2" charOffset="83-91"
+            type="drug" text="cisapride"/>
+        <entity id="DDI-DrugBank.d237.s6.e3" charOffset="136-144"
+            type="drug" text="cisapride"/>
+        <pair id="DDI-DrugBank.d237.s6.p0" e1="DDI-DrugBank.d237.s6.e0"
+            e2="DDI-DrugBank.d237.s6.e1" ddi="false"/>
+        <pair id="DDI-DrugBank.d237.s6.p1" e1="DDI-DrugBank.d237.s6.e0"
+            e2="DDI-DrugBank.d237.s6.e2" ddi="false"/>
+        <pair id="DDI-DrugBank.d237.s6.p2" e1="DDI-DrugBank.d237.s6.e0"
+            e2="DDI-DrugBank.d237.s6.e3" ddi="false"/>
+        <pair id="DDI-DrugBank.d237.s6.p3" e1="DDI-DrugBank.d237.s6.e1"
+            e2="DDI-DrugBank.d237.s6.e2" ddi="true" type="mechanism"/>
+        <pair id="DDI-DrugBank.d237.s6.p4" e1="DDI-DrugBank.d237.s6.e1"
+            e2="DDI-DrugBank.d237.s6.e3" ddi="false"/>
+        <pair id="DDI-DrugBank.d237.s6.p5" e1="DDI-DrugBank.d237.s6.e2"
+            e2="DDI-DrugBank.d237.s6.e3" ddi="false"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d237.s7" text="Antifungals: In vitro and/or in vivo data indicate that fluconazole, itraconazole, and oral ketoconazole markedly inhibit the metabolism of cisapride, which can result in an increase in plasma cisapride levels and prolongation of the QT interval on the ECG.">
+        <entity id="DDI-DrugBank.d237.s7.e0" charOffset="0-10"
+            type="group" text="Antifungals"/>
+        <entity id="DDI-DrugBank.d237.s7.e1" charOffset="56-66"
+            type="drug" text="fluconazole"/>
+        <entity id="DDI-DrugBank.d237.s7.e2" charOffset="69-80"
+            type="drug" text="itraconazole"/>
+        <entity id="DDI-DrugBank.d237.s7.e3" charOffset="92-103"
+            type="drug" text="ketoconazole"/>
+        <entity id="DDI-DrugBank.d237.s7.e4" charOffset="140-148"
+            type="drug" text="cisapride"/>
+        <entity id="DDI-DrugBank.d237.s7.e5" charOffset="193-201"
+            type="drug" text="cisapride"/>
+        <pair id="DDI-DrugBank.d237.s7.p0" e1="DDI-DrugBank.d237.s7.e0"
+            e2="DDI-DrugBank.d237.s7.e1" ddi="false"/>
+        <pair id="DDI-DrugBank.d237.s7.p1" e1="DDI-DrugBank.d237.s7.e0"
+            e2="DDI-DrugBank.d237.s7.e2" ddi="false"/>
+        <pair id="DDI-DrugBank.d237.s7.p2" e1="DDI-DrugBank.d237.s7.e0"
+            e2="DDI-DrugBank.d237.s7.e3" ddi="false"/>
+        <pair id="DDI-DrugBank.d237.s7.p3" e1="DDI-DrugBank.d237.s7.e0"
+            e2="DDI-DrugBank.d237.s7.e4" ddi="false"/>
+        <pair id="DDI-DrugBank.d237.s7.p4" e1="DDI-DrugBank.d237.s7.e0"
+            e2="DDI-DrugBank.d237.s7.e5" ddi="false"/>
+        <pair id="DDI-DrugBank.d237.s7.p5" e1="DDI-DrugBank.d237.s7.e1"
+            e2="DDI-DrugBank.d237.s7.e2" ddi="false"/>
+        <pair id="DDI-DrugBank.d237.s7.p6" e1="DDI-DrugBank.d237.s7.e1"
+            e2="DDI-DrugBank.d237.s7.e3" ddi="false"/>
+        <pair id="DDI-DrugBank.d237.s7.p7" e1="DDI-DrugBank.d237.s7.e1"
+            e2="DDI-DrugBank.d237.s7.e4" ddi="true" type="mechanism"/>
+        <pair id="DDI-DrugBank.d237.s7.p8" e1="DDI-DrugBank.d237.s7.e1"
+            e2="DDI-DrugBank.d237.s7.e5" ddi="false"/>
+        <pair id="DDI-DrugBank.d237.s7.p9" e1="DDI-DrugBank.d237.s7.e2"
+            e2="DDI-DrugBank.d237.s7.e3" ddi="false"/>
+        <pair id="DDI-DrugBank.d237.s7.p10" e1="DDI-DrugBank.d237.s7.e2"
+            e2="DDI-DrugBank.d237.s7.e4" ddi="true" type="mechanism"/>
+        <pair id="DDI-DrugBank.d237.s7.p11" e1="DDI-DrugBank.d237.s7.e2"
+            e2="DDI-DrugBank.d237.s7.e5" ddi="false"/>
+        <pair id="DDI-DrugBank.d237.s7.p12" e1="DDI-DrugBank.d237.s7.e3"
+            e2="DDI-DrugBank.d237.s7.e4" ddi="true" type="mechanism"/>
+        <pair id="DDI-DrugBank.d237.s7.p13" e1="DDI-DrugBank.d237.s7.e3"
+            e2="DDI-DrugBank.d237.s7.e5" ddi="false"/>
+        <pair id="DDI-DrugBank.d237.s7.p14" e1="DDI-DrugBank.d237.s7.e4"
+            e2="DDI-DrugBank.d237.s7.e5" ddi="false"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d237.s8" text="Human pharmacokinetic data indicate that oral ketoconazole markedly inhibits the metabolism of cisapride, resulting in a mean eight-fold increase in AUC of cisapride.">
+        <entity id="DDI-DrugBank.d237.s8.e0" charOffset="46-57"
+            type="drug" text="ketoconazole"/>
+        <entity id="DDI-DrugBank.d237.s8.e1" charOffset="95-103"
+            type="drug" text="cisapride"/>
+        <entity id="DDI-DrugBank.d237.s8.e2" charOffset="156-164"
+            type="drug" text="cisapride"/>
+        <pair id="DDI-DrugBank.d237.s8.p0" e1="DDI-DrugBank.d237.s8.e0"
+            e2="DDI-DrugBank.d237.s8.e1" ddi="true" type="mechanism"/>
+        <pair id="DDI-DrugBank.d237.s8.p1" e1="DDI-DrugBank.d237.s8.e0"
+            e2="DDI-DrugBank.d237.s8.e2" ddi="false"/>
+        <pair id="DDI-DrugBank.d237.s8.p2" e1="DDI-DrugBank.d237.s8.e1"
+            e2="DDI-DrugBank.d237.s8.e2" ddi="false"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d237.s9" text="A study in 14 normal male and female volunteers suggests that coadministration of cisapride and ketoconazole can result in prolongation of the QT interval on the ECG.">
+        <entity id="DDI-DrugBank.d237.s9.e0" charOffset="82-90"
+            type="drug" text="cisapride"/>
+        <entity id="DDI-DrugBank.d237.s9.e1" charOffset="96-107"
+            type="drug" text="ketoconazole"/>
+        <pair id="DDI-DrugBank.d237.s9.p0" e1="DDI-DrugBank.d237.s9.e0"
+            e2="DDI-DrugBank.d237.s9.e1" ddi="true" type="effect"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d237.s10" text="H2 Receptor Antagonists: Cimetidine coadministration leads to an increased peak plasma concentration and AUC of cisapride, there is no effect on cisapride absorption when it is coadministered with ranitidine.">
+        <entity id="DDI-DrugBank.d237.s10.e0" charOffset="0-22"
+            type="group" text="H2 Receptor Antagonists"/>
+        <entity id="DDI-DrugBank.d237.s10.e1" charOffset="25-34"
+            type="drug" text="Cimetidine"/>
+        <entity id="DDI-DrugBank.d237.s10.e2" charOffset="112-120"
+            type="drug" text="cisapride"/>
+        <entity id="DDI-DrugBank.d237.s10.e3" charOffset="145-153"
+            type="drug" text="cisapride"/>
+        <entity id="DDI-DrugBank.d237.s10.e4" charOffset="197-206"
+            type="drug" text="ranitidine"/>
+        <pair id="DDI-DrugBank.d237.s10.p0"
+            e1="DDI-DrugBank.d237.s10.e0" e2="DDI-DrugBank.d237.s10.e1" ddi="false"/>
+        <pair id="DDI-DrugBank.d237.s10.p1"
+            e1="DDI-DrugBank.d237.s10.e0" e2="DDI-DrugBank.d237.s10.e2" ddi="false"/>
+        <pair id="DDI-DrugBank.d237.s10.p2"
+            e1="DDI-DrugBank.d237.s10.e0" e2="DDI-DrugBank.d237.s10.e3" ddi="false"/>
+        <pair id="DDI-DrugBank.d237.s10.p3"
+            e1="DDI-DrugBank.d237.s10.e0" e2="DDI-DrugBank.d237.s10.e4" ddi="false"/>
+        <pair id="DDI-DrugBank.d237.s10.p4"
+            e1="DDI-DrugBank.d237.s10.e1" e2="DDI-DrugBank.d237.s10.e2"
+            ddi="true" type="mechanism"/>
+        <pair id="DDI-DrugBank.d237.s10.p5"
+            e1="DDI-DrugBank.d237.s10.e1" e2="DDI-DrugBank.d237.s10.e3" ddi="false"/>
+        <pair id="DDI-DrugBank.d237.s10.p6"
+            e1="DDI-DrugBank.d237.s10.e1" e2="DDI-DrugBank.d237.s10.e4" ddi="false"/>
+        <pair id="DDI-DrugBank.d237.s10.p7"
+            e1="DDI-DrugBank.d237.s10.e2" e2="DDI-DrugBank.d237.s10.e3" ddi="false"/>
+        <pair id="DDI-DrugBank.d237.s10.p8"
+            e1="DDI-DrugBank.d237.s10.e2" e2="DDI-DrugBank.d237.s10.e4" ddi="false"/>
+        <pair id="DDI-DrugBank.d237.s10.p9"
+            e1="DDI-DrugBank.d237.s10.e3" e2="DDI-DrugBank.d237.s10.e4" ddi="false"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d237.s11" text="The gastrointestinal absorption of cimetidine and ranitidine is accelerated when they are coadministered with cisapride.">
+        <entity id="DDI-DrugBank.d237.s11.e0" charOffset="35-44"
+            type="drug" text="cimetidine"/>
+        <entity id="DDI-DrugBank.d237.s11.e1" charOffset="50-59"
+            type="drug" text="ranitidine"/>
+        <entity id="DDI-DrugBank.d237.s11.e2" charOffset="110-118"
+            type="drug" text="cisapride"/>
+        <pair id="DDI-DrugBank.d237.s11.p0"
+            e1="DDI-DrugBank.d237.s11.e0" e2="DDI-DrugBank.d237.s11.e1" ddi="false"/>
+        <pair id="DDI-DrugBank.d237.s11.p1"
+            e1="DDI-DrugBank.d237.s11.e0" e2="DDI-DrugBank.d237.s11.e2"
+            ddi="true" type="mechanism"/>
+        <pair id="DDI-DrugBank.d237.s11.p2"
+            e1="DDI-DrugBank.d237.s11.e1" e2="DDI-DrugBank.d237.s11.e2"
+            ddi="true" type="mechanism"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d237.s12" text="Protease Inhibitors: In vitro data indicate that indinavir and ritonavir markedly inhibit the metabolism of cisapride which can result in an increase in plasma cisapride levels and prolongation of the QT interval on the ECG.">
+        <entity id="DDI-DrugBank.d237.s12.e0" charOffset="0-18"
+            type="group" text="Protease Inhibitors"/>
+        <entity id="DDI-DrugBank.d237.s12.e1" charOffset="49-57"
+            type="drug" text="indinavir"/>
+        <entity id="DDI-DrugBank.d237.s12.e2" charOffset="63-71"
+            type="drug" text="ritonavir"/>
+        <entity id="DDI-DrugBank.d237.s12.e3" charOffset="108-116"
+            type="drug" text="cisapride"/>
+        <entity id="DDI-DrugBank.d237.s12.e4" charOffset="160-168"
+            type="drug" text="cisapride"/>
+        <pair id="DDI-DrugBank.d237.s12.p0"
+            e1="DDI-DrugBank.d237.s12.e0" e2="DDI-DrugBank.d237.s12.e1" ddi="false"/>
+        <pair id="DDI-DrugBank.d237.s12.p1"
+            e1="DDI-DrugBank.d237.s12.e0" e2="DDI-DrugBank.d237.s12.e2" ddi="false"/>
+        <pair id="DDI-DrugBank.d237.s12.p2"
+            e1="DDI-DrugBank.d237.s12.e0" e2="DDI-DrugBank.d237.s12.e3" ddi="false"/>
+        <pair id="DDI-DrugBank.d237.s12.p3"
+            e1="DDI-DrugBank.d237.s12.e0" e2="DDI-DrugBank.d237.s12.e4" ddi="false"/>
+        <pair id="DDI-DrugBank.d237.s12.p4"
+            e1="DDI-DrugBank.d237.s12.e1" e2="DDI-DrugBank.d237.s12.e2" ddi="false"/>
+        <pair id="DDI-DrugBank.d237.s12.p5"
+            e1="DDI-DrugBank.d237.s12.e1" e2="DDI-DrugBank.d237.s12.e3"
+            ddi="true" type="mechanism"/>
+        <pair id="DDI-DrugBank.d237.s12.p6"
+            e1="DDI-DrugBank.d237.s12.e1" e2="DDI-DrugBank.d237.s12.e4" ddi="false"/>
+        <pair id="DDI-DrugBank.d237.s12.p7"
+            e1="DDI-DrugBank.d237.s12.e2" e2="DDI-DrugBank.d237.s12.e3"
+            ddi="true" type="mechanism"/>
+        <pair id="DDI-DrugBank.d237.s12.p8"
+            e1="DDI-DrugBank.d237.s12.e2" e2="DDI-DrugBank.d237.s12.e4" ddi="false"/>
+        <pair id="DDI-DrugBank.d237.s12.p9"
+            e1="DDI-DrugBank.d237.s12.e3" e2="DDI-DrugBank.d237.s12.e4" ddi="false"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d237.s13" text="Other: Coadministration of grapefruit juice with cisapride increases the bioavailability of cisapride and concomitant use should be avoided.">
+        <entity id="DDI-DrugBank.d237.s13.e0" charOffset="49-57"
+            type="drug" text="cisapride"/>
+        <entity id="DDI-DrugBank.d237.s13.e1" charOffset="92-100"
+            type="drug" text="cisapride"/>
+        <pair id="DDI-DrugBank.d237.s13.p0"
+            e1="DDI-DrugBank.d237.s13.e0" e2="DDI-DrugBank.d237.s13.e1" ddi="false"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d237.s14" text="Cisapride should not be used concomitantly with other drugs known to prolong the QT interval: certain antiarrhythmics, including those of Class IA (such as quinidine and procainamide) and Class III (such as sotalol);">
+        <entity id="DDI-DrugBank.d237.s14.e0" charOffset="0-8"
+            type="drug" text="Cisapride"/>
+        <entity id="DDI-DrugBank.d237.s14.e1" charOffset="102-116"
+            type="group" text="antiarrhythmics"/>
+        <entity id="DDI-DrugBank.d237.s14.e2" charOffset="156-164"
+            type="drug" text="quinidine"/>
+        <entity id="DDI-DrugBank.d237.s14.e3" charOffset="170-181"
+            type="drug" text="procainamide"/>
+        <entity id="DDI-DrugBank.d237.s14.e4" charOffset="207-213"
+            type="drug" text="sotalol"/>
+        <pair id="DDI-DrugBank.d237.s14.p0"
+            e1="DDI-DrugBank.d237.s14.e0" e2="DDI-DrugBank.d237.s14.e1"
+            ddi="true" type="advise"/>
+        <pair id="DDI-DrugBank.d237.s14.p1"
+            e1="DDI-DrugBank.d237.s14.e0" e2="DDI-DrugBank.d237.s14.e2"
+            ddi="true" type="advise"/>
+        <pair id="DDI-DrugBank.d237.s14.p2"
+            e1="DDI-DrugBank.d237.s14.e0" e2="DDI-DrugBank.d237.s14.e3"
+            ddi="true" type="advise"/>
+        <pair id="DDI-DrugBank.d237.s14.p3"
+            e1="DDI-DrugBank.d237.s14.e0" e2="DDI-DrugBank.d237.s14.e4"
+            ddi="true" type="advise"/>
+        <pair id="DDI-DrugBank.d237.s14.p4"
+            e1="DDI-DrugBank.d237.s14.e1" e2="DDI-DrugBank.d237.s14.e2" ddi="false"/>
+        <pair id="DDI-DrugBank.d237.s14.p5"
+            e1="DDI-DrugBank.d237.s14.e1" e2="DDI-DrugBank.d237.s14.e3" ddi="false"/>
+        <pair id="DDI-DrugBank.d237.s14.p6"
+            e1="DDI-DrugBank.d237.s14.e1" e2="DDI-DrugBank.d237.s14.e4" ddi="false"/>
+        <pair id="DDI-DrugBank.d237.s14.p7"
+            e1="DDI-DrugBank.d237.s14.e2" e2="DDI-DrugBank.d237.s14.e3" ddi="false"/>
+        <pair id="DDI-DrugBank.d237.s14.p8"
+            e1="DDI-DrugBank.d237.s14.e2" e2="DDI-DrugBank.d237.s14.e4" ddi="false"/>
+        <pair id="DDI-DrugBank.d237.s14.p9"
+            e1="DDI-DrugBank.d237.s14.e3" e2="DDI-DrugBank.d237.s14.e4" ddi="false"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d237.s15" text="tricyclic antidepressants (such as amitriptyline);">
+        <entity id="DDI-DrugBank.d237.s15.e0" charOffset="0-24"
+            type="group" text="tricyclic antidepressants"/>
+        <entity id="DDI-DrugBank.d237.s15.e1" charOffset="35-47"
+            type="drug" text="amitriptyline"/>
+        <pair id="DDI-DrugBank.d237.s15.p0"
+            e1="DDI-DrugBank.d237.s15.e0" e2="DDI-DrugBank.d237.s15.e1" ddi="false"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d237.s16" text="certain tetracyclic antidepressants (such as maprotiline);">
+        <entity id="DDI-DrugBank.d237.s16.e0" charOffset="8-34"
+            type="group" text="tetracyclic antidepressants"/>
+        <entity id="DDI-DrugBank.d237.s16.e1" charOffset="45-55"
+            type="drug" text="maprotiline"/>
+        <pair id="DDI-DrugBank.d237.s16.p0"
+            e1="DDI-DrugBank.d237.s16.e0" e2="DDI-DrugBank.d237.s16.e1" ddi="false"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d237.s17" text="certain antipsychotic medications (such as sertindole);">
+        <entity id="DDI-DrugBank.d237.s17.e0" charOffset="8-32"
+            type="group" text="antipsychotic medications"/>
+        <entity id="DDI-DrugBank.d237.s17.e1" charOffset="43-52"
+            type="drug" text="sertindole"/>
+        <pair id="DDI-DrugBank.d237.s17.p0"
+            e1="DDI-DrugBank.d237.s17.e0" e2="DDI-DrugBank.d237.s17.e1" ddi="false"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d237.s18" text="astemizole, bepridil, sparfloxacin, and terodiline.">
+        <entity id="DDI-DrugBank.d237.s18.e0" charOffset="0-9"
+            type="drug" text="astemizole"/>
+        <entity id="DDI-DrugBank.d237.s18.e1" charOffset="12-19"
+            type="drug" text="bepridil"/>
+        <entity id="DDI-DrugBank.d237.s18.e2" charOffset="22-33"
+            type="drug" text="sparfloxacin"/>
+        <entity id="DDI-DrugBank.d237.s18.e3" charOffset="40-49"
+            type="drug" text="terodiline"/>
+        <pair id="DDI-DrugBank.d237.s18.p0"
+            e1="DDI-DrugBank.d237.s18.e0" e2="DDI-DrugBank.d237.s18.e1" ddi="false"/>
+        <pair id="DDI-DrugBank.d237.s18.p1"
+            e1="DDI-DrugBank.d237.s18.e0" e2="DDI-DrugBank.d237.s18.e2" ddi="false"/>
+        <pair id="DDI-DrugBank.d237.s18.p2"
+            e1="DDI-DrugBank.d237.s18.e0" e2="DDI-DrugBank.d237.s18.e3" ddi="false"/>
+        <pair id="DDI-DrugBank.d237.s18.p3"
+            e1="DDI-DrugBank.d237.s18.e1" e2="DDI-DrugBank.d237.s18.e2" ddi="false"/>
+        <pair id="DDI-DrugBank.d237.s18.p4"
+            e1="DDI-DrugBank.d237.s18.e1" e2="DDI-DrugBank.d237.s18.e3" ddi="false"/>
+        <pair id="DDI-DrugBank.d237.s18.p5"
+            e1="DDI-DrugBank.d237.s18.e2" e2="DDI-DrugBank.d237.s18.e3" ddi="false"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d237.s19" text="The preceding lists of drugs are not comprehensive."/>
+    <sentence id="DDI-DrugBank.d237.s20" text="The acceleration of gastric emptying by cisapride could affect the rate of absorption of other drugs.">
+        <entity id="DDI-DrugBank.d237.s20.e0" charOffset="40-48"
+            type="drug" text="cisapride"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d237.s21" text="Patients receiving narrow therapeutic ratio drugs or other drugs that require careful titration should be followed closely;"/>
+    <sentence id="DDI-DrugBank.d237.s22" text="if plasma levels are being monitored, they should be reassessed."/>
+</document>

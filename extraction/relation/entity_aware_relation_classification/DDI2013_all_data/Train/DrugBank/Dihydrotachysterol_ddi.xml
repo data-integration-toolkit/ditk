@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="DDI-DrugBank.d452">
+    <sentence id="DDI-DrugBank.d452.s0" text="Administration of thiazide diuretics to hypoparathyroid patients who are concurrently being treated with dihydrotachysterol may cause hypercalcemia.">
+        <entity id="DDI-DrugBank.d452.s0.e0" charOffset="18-35"
+            type="group" text="thiazide diuretics"/>
+        <entity id="DDI-DrugBank.d452.s0.e1" charOffset="105-122"
+            type="drug" text="dihydrotachysterol"/>
+        <pair id="DDI-DrugBank.d452.s0.p0" e1="DDI-DrugBank.d452.s0.e0"
+            e2="DDI-DrugBank.d452.s0.e1" ddi="true" type="effect"/>
+    </sentence>
+</document>

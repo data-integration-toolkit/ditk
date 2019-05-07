@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="DDI-DrugBank.d363">
+    <sentence id="DDI-DrugBank.d363.s0" text="No clinically significant adverse interactions with commonly used preanesthetic drugs, or drugs used during anesthesia (muscle relaxants, intravenous agents, and local anesthetic agents) were reported in clinical trials.">
+        <entity id="DDI-DrugBank.d363.s0.e0" charOffset="120-135"
+            type="group" text="muscle relaxants"/>
+        <entity id="DDI-DrugBank.d363.s0.e1" charOffset="168-184"
+            type="group" text="anesthetic agents"/>
+        <pair id="DDI-DrugBank.d363.s0.p0" e1="DDI-DrugBank.d363.s0.e0"
+            e2="DDI-DrugBank.d363.s0.e1" ddi="false"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d363.s1" text="The effect of desflurane on the disposition of other drugs has not been determined.">
+        <entity id="DDI-DrugBank.d363.s1.e0" charOffset="14-23"
+            type="drug" text="desflurane"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d363.s2" text="Like isoflurane, desflurane does not predispose to premature ventricular arrhythmias in the presence of exogenously infused epinephrine in swine.">
+        <entity id="DDI-DrugBank.d363.s2.e0" charOffset="5-14"
+            type="drug" text="isoflurane"/>
+        <entity id="DDI-DrugBank.d363.s2.e1" charOffset="17-26"
+            type="drug" text="desflurane"/>
+        <entity id="DDI-DrugBank.d363.s2.e2" charOffset="124-134"
+            type="drug" text="epinephrine"/>
+        <pair id="DDI-DrugBank.d363.s2.p0" e1="DDI-DrugBank.d363.s2.e0"
+            e2="DDI-DrugBank.d363.s2.e1" ddi="false"/>
+        <pair id="DDI-DrugBank.d363.s2.p1" e1="DDI-DrugBank.d363.s2.e0"
+            e2="DDI-DrugBank.d363.s2.e2" ddi="false"/>
+        <pair id="DDI-DrugBank.d363.s2.p2" e1="DDI-DrugBank.d363.s2.e1"
+            e2="DDI-DrugBank.d363.s2.e2" ddi="false"/>
+    </sentence>
+</document>

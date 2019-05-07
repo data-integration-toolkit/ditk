@@ -1,16 +1,18 @@
 import abc
 
+
 class GraphEmbedding(abc.ABC):
 
 	@abc.abstractmethod
 	def read_dataset(self, file_names, *args, **kwargs):  #<--- implemented PER class
 		"""
-		Reads datasets and convert them to proper format for train or test. Returns data in proper format for train, validation and test.
+		Reads datasets and convert them to proper format for train or test. Returns data in proper format for train,
+		validation and test.
 
 		Args:
 			file_names: list-like. List of files representing the dataset to read. Each element is str, representing
 				filename [possibly with filepath]
-                        options: object to store any extra or implementation specific data
+				options: object to store any extra or implementation specific data
 
 		Returns:
 			data: data in proper [arbitrary] format for train, validation and test.
@@ -27,9 +29,10 @@ class GraphEmbedding(abc.ABC):
 		Learns embeddings with data, build model and train the model
 
 		Args:
-			data: iterable of arbitrary format. represents the data instances and features and labels you need to train your model.
-				Note: formal subject to OPEN ITEM mentioned in read_dataset!
-                        options: object to store any extra or implementation specific data
+			data: iterable of arbitrary format. represents the data instances and features and labels you
+			need to train your model.
+			Note: formal subject to OPEN ITEM mentioned in read_dataset!
+			options: object to store any extra or implementation specific data
 		Returns:
 			ret: None. Trained model stored internally to class instance state.
 

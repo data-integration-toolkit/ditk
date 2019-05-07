@@ -1,0 +1,224 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="DDI-DrugBank.d163">
+    <sentence id="DDI-DrugBank.d163.s0" text="Vitamin A: Because of the relationship of Accutane to vitamin A, patients should be advised against taking vitamin supplements containing vitamin A to avoid additive toxic effects">
+        <entity id="DDI-DrugBank.d163.s0.e0" charOffset="0-8"
+            type="group" text="Vitamin A"/>
+        <entity id="DDI-DrugBank.d163.s0.e1" charOffset="42-49"
+            type="brand" text="Accutane"/>
+        <entity id="DDI-DrugBank.d163.s0.e2" charOffset="54-62"
+            type="group" text="vitamin A"/>
+        <entity id="DDI-DrugBank.d163.s0.e3" charOffset="107-125"
+            type="group" text="vitamin supplements"/>
+        <entity id="DDI-DrugBank.d163.s0.e4" charOffset="138-146"
+            type="group" text="vitamin A"/>
+        <pair id="DDI-DrugBank.d163.s0.p0" e1="DDI-DrugBank.d163.s0.e0"
+            e2="DDI-DrugBank.d163.s0.e1" ddi="false"/>
+        <pair id="DDI-DrugBank.d163.s0.p1" e1="DDI-DrugBank.d163.s0.e0"
+            e2="DDI-DrugBank.d163.s0.e2" ddi="false"/>
+        <pair id="DDI-DrugBank.d163.s0.p2" e1="DDI-DrugBank.d163.s0.e0"
+            e2="DDI-DrugBank.d163.s0.e3" ddi="false"/>
+        <pair id="DDI-DrugBank.d163.s0.p3" e1="DDI-DrugBank.d163.s0.e0"
+            e2="DDI-DrugBank.d163.s0.e4" ddi="false"/>
+        <pair id="DDI-DrugBank.d163.s0.p4" e1="DDI-DrugBank.d163.s0.e1"
+            e2="DDI-DrugBank.d163.s0.e2" ddi="true" type="effect"/>
+        <pair id="DDI-DrugBank.d163.s0.p5" e1="DDI-DrugBank.d163.s0.e1"
+            e2="DDI-DrugBank.d163.s0.e3" ddi="false"/>
+        <pair id="DDI-DrugBank.d163.s0.p6" e1="DDI-DrugBank.d163.s0.e1"
+            e2="DDI-DrugBank.d163.s0.e4" ddi="false"/>
+        <pair id="DDI-DrugBank.d163.s0.p7" e1="DDI-DrugBank.d163.s0.e2"
+            e2="DDI-DrugBank.d163.s0.e3" ddi="false"/>
+        <pair id="DDI-DrugBank.d163.s0.p8" e1="DDI-DrugBank.d163.s0.e2"
+            e2="DDI-DrugBank.d163.s0.e4" ddi="false"/>
+        <pair id="DDI-DrugBank.d163.s0.p9" e1="DDI-DrugBank.d163.s0.e3"
+            e2="DDI-DrugBank.d163.s0.e4" ddi="false"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d163.s1" text="."/>
+    <sentence id="DDI-DrugBank.d163.s2" text="Tetracyclines: Concomitant treatment with Accutane and tetracyclines should be avoided because Accutane use has been associated with a number of cases of pseudotumor cerebri (benign intracranial hypertension), some of which involved concomitant use of tetracyclines">
+        <entity id="DDI-DrugBank.d163.s2.e0" charOffset="0-12"
+            type="group" text="Tetracyclines"/>
+        <entity id="DDI-DrugBank.d163.s2.e1" charOffset="42-49"
+            type="brand" text="Accutane"/>
+        <entity id="DDI-DrugBank.d163.s2.e2" charOffset="55-67"
+            type="group" text="tetracyclines"/>
+        <entity id="DDI-DrugBank.d163.s2.e3" charOffset="95-102"
+            type="brand" text="Accutane"/>
+        <entity id="DDI-DrugBank.d163.s2.e4" charOffset="252-264"
+            type="group" text="tetracyclines"/>
+        <pair id="DDI-DrugBank.d163.s2.p0" e1="DDI-DrugBank.d163.s2.e0"
+            e2="DDI-DrugBank.d163.s2.e1" ddi="false"/>
+        <pair id="DDI-DrugBank.d163.s2.p1" e1="DDI-DrugBank.d163.s2.e0"
+            e2="DDI-DrugBank.d163.s2.e2" ddi="false"/>
+        <pair id="DDI-DrugBank.d163.s2.p2" e1="DDI-DrugBank.d163.s2.e0"
+            e2="DDI-DrugBank.d163.s2.e3" ddi="false"/>
+        <pair id="DDI-DrugBank.d163.s2.p3" e1="DDI-DrugBank.d163.s2.e0"
+            e2="DDI-DrugBank.d163.s2.e4" ddi="false"/>
+        <pair id="DDI-DrugBank.d163.s2.p4" e1="DDI-DrugBank.d163.s2.e1"
+            e2="DDI-DrugBank.d163.s2.e2" ddi="true" type="advise"/>
+        <pair id="DDI-DrugBank.d163.s2.p5" e1="DDI-DrugBank.d163.s2.e1"
+            e2="DDI-DrugBank.d163.s2.e3" ddi="false"/>
+        <pair id="DDI-DrugBank.d163.s2.p6" e1="DDI-DrugBank.d163.s2.e1"
+            e2="DDI-DrugBank.d163.s2.e4" ddi="false"/>
+        <pair id="DDI-DrugBank.d163.s2.p7" e1="DDI-DrugBank.d163.s2.e2"
+            e2="DDI-DrugBank.d163.s2.e3" ddi="false"/>
+        <pair id="DDI-DrugBank.d163.s2.p8" e1="DDI-DrugBank.d163.s2.e2"
+            e2="DDI-DrugBank.d163.s2.e4" ddi="false"/>
+        <pair id="DDI-DrugBank.d163.s2.p9" e1="DDI-DrugBank.d163.s2.e3"
+            e2="DDI-DrugBank.d163.s2.e4" ddi="true" type="effect"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d163.s3" text="."/>
+    <sentence id="DDI-DrugBank.d163.s4" text="Micro-dosed Progesterone Preparations: Micro-dosed progesterone preparations (minipills that do not contain an estrogen) may be an inadequate method of contraception during Accutane therapy.">
+        <entity id="DDI-DrugBank.d163.s4.e0" charOffset="12-23"
+            type="drug" text="Progesterone"/>
+        <entity id="DDI-DrugBank.d163.s4.e1" charOffset="51-62"
+            type="drug" text="progesterone"/>
+        <entity id="DDI-DrugBank.d163.s4.e2" charOffset="111-118"
+            type="group" text="estrogen"/>
+        <entity id="DDI-DrugBank.d163.s4.e3" charOffset="173-180"
+            type="brand" text="Accutane"/>
+        <pair id="DDI-DrugBank.d163.s4.p0" e1="DDI-DrugBank.d163.s4.e0"
+            e2="DDI-DrugBank.d163.s4.e1" ddi="false"/>
+        <pair id="DDI-DrugBank.d163.s4.p1" e1="DDI-DrugBank.d163.s4.e0"
+            e2="DDI-DrugBank.d163.s4.e2" ddi="false"/>
+        <pair id="DDI-DrugBank.d163.s4.p2" e1="DDI-DrugBank.d163.s4.e0"
+            e2="DDI-DrugBank.d163.s4.e3" ddi="false"/>
+        <pair id="DDI-DrugBank.d163.s4.p3" e1="DDI-DrugBank.d163.s4.e1"
+            e2="DDI-DrugBank.d163.s4.e2" ddi="false"/>
+        <pair id="DDI-DrugBank.d163.s4.p4" e1="DDI-DrugBank.d163.s4.e1"
+            e2="DDI-DrugBank.d163.s4.e3" ddi="true" type="effect"/>
+        <pair id="DDI-DrugBank.d163.s4.p5" e1="DDI-DrugBank.d163.s4.e2"
+            e2="DDI-DrugBank.d163.s4.e3" ddi="false"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d163.s5" text="Although other hormonal contraceptives are highly effective, there have been reports of pregnancy from women who have used combined oral contraceptives, as well as topical/injectable/implantable/insertable hormonal birth control products.">
+        <entity id="DDI-DrugBank.d163.s5.e0" charOffset="15-37"
+            type="group" text="hormonal contraceptives"/>
+        <entity id="DDI-DrugBank.d163.s5.e1" charOffset="123-150"
+            type="group" text="combined oral contraceptives"/>
+        <pair id="DDI-DrugBank.d163.s5.p0" e1="DDI-DrugBank.d163.s5.e0"
+            e2="DDI-DrugBank.d163.s5.e1" ddi="false"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d163.s6" text="These reports are more frequent for women who use only a single method of contraception."/>
+    <sentence id="DDI-DrugBank.d163.s7" text="It is not known if hormonal contraceptives differ in their effectiveness when used with Accutane.">
+        <entity id="DDI-DrugBank.d163.s7.e0" charOffset="19-41"
+            type="group" text="hormonal contraceptives"/>
+        <entity id="DDI-DrugBank.d163.s7.e1" charOffset="88-95"
+            type="brand" text="Accutane"/>
+        <pair id="DDI-DrugBank.d163.s7.p0" e1="DDI-DrugBank.d163.s7.e0"
+            e2="DDI-DrugBank.d163.s7.e1" ddi="false"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d163.s8" text="Therefore, it is critically important for women of childbearing potential to select and commit to use 2 forms of effective contraception simultaneously, at least 1 of which must be a primary form, unless absolute abstinence is the chosen method, or the patient has undergone a hysterectomy"/>
+    <sentence id="DDI-DrugBank.d163.s9" text="."/>
+    <sentence id="DDI-DrugBank.d163.s10" text="Phenytoin: Accutane has not been shown to alter the pharmacokinetics of phenytoin in a study in seven healthy volunteers.">
+        <entity id="DDI-DrugBank.d163.s10.e0" charOffset="0-8"
+            type="drug" text="Phenytoin"/>
+        <entity id="DDI-DrugBank.d163.s10.e1" charOffset="11-18"
+            type="brand" text="Accutane"/>
+        <entity id="DDI-DrugBank.d163.s10.e2" charOffset="72-80"
+            type="drug" text="phenytoin"/>
+        <pair id="DDI-DrugBank.d163.s10.p0"
+            e1="DDI-DrugBank.d163.s10.e0" e2="DDI-DrugBank.d163.s10.e1" ddi="false"/>
+        <pair id="DDI-DrugBank.d163.s10.p1"
+            e1="DDI-DrugBank.d163.s10.e0" e2="DDI-DrugBank.d163.s10.e2" ddi="false"/>
+        <pair id="DDI-DrugBank.d163.s10.p2"
+            e1="DDI-DrugBank.d163.s10.e1" e2="DDI-DrugBank.d163.s10.e2" ddi="false"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d163.s11" text="These results are consistent with the in vitro finding that neither isotretinoin nor its metabolites induce or inhibit the activity of the CYP 2C9 human hepatic P450 enzyme.">
+        <entity id="DDI-DrugBank.d163.s11.e0" charOffset="68-79"
+            type="drug" text="isotretinoin"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d163.s12" text="Phenytoin is known to cause osteomalacia.">
+        <entity id="DDI-DrugBank.d163.s12.e0" charOffset="0-8"
+            type="drug" text="Phenytoin"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d163.s13" text="No formal clinical studies have been conducted to assess if there is an interactive effect on bone loss between phenytoin and Accutane.">
+        <entity id="DDI-DrugBank.d163.s13.e0" charOffset="112-120"
+            type="drug" text="phenytoin"/>
+        <entity id="DDI-DrugBank.d163.s13.e1" charOffset="126-133"
+            type="brand" text="Accutane"/>
+        <pair id="DDI-DrugBank.d163.s13.p0"
+            e1="DDI-DrugBank.d163.s13.e0" e2="DDI-DrugBank.d163.s13.e1" ddi="false"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d163.s14" text="Therefore, caution should be exercised when using these drugs together"/>
+    <sentence id="DDI-DrugBank.d163.s15" text="."/>
+    <sentence id="DDI-DrugBank.d163.s16" text="Systemic Corticosteroids: Systemic corticosteroids are known to cause osteoporosis.">
+        <entity id="DDI-DrugBank.d163.s16.e0" charOffset="0-23"
+            type="group" text="Systemic Corticosteroids"/>
+        <entity id="DDI-DrugBank.d163.s16.e1" charOffset="26-49"
+            type="group" text="Systemic corticosteroids"/>
+        <pair id="DDI-DrugBank.d163.s16.p0"
+            e1="DDI-DrugBank.d163.s16.e0" e2="DDI-DrugBank.d163.s16.e1" ddi="false"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d163.s17" text="No formal clinical studies have been conducted to assess if there is an interactive effect on bone loss between systemic corticosteroids and Accutane.">
+        <entity id="DDI-DrugBank.d163.s17.e0" charOffset="112-135"
+            type="group" text="systemic corticosteroids"/>
+        <entity id="DDI-DrugBank.d163.s17.e1" charOffset="141-148"
+            type="brand" text="Accutane"/>
+        <pair id="DDI-DrugBank.d163.s17.p0"
+            e1="DDI-DrugBank.d163.s17.e0" e2="DDI-DrugBank.d163.s17.e1" ddi="false"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d163.s18" text="Therefore, caution should be exercised when using these drugs together."/>
+    <sentence id="DDI-DrugBank.d163.s19" text="Prescribers are advised to consult the package insert of medication administered concomitantly with hormonal contraceptives, since some medications may decrease the effectiveness of these birth control products.">
+        <entity id="DDI-DrugBank.d163.s19.e0" charOffset="100-122"
+            type="group" text="hormonal contraceptives"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d163.s20" text="Accutane use is associated with depression in some patients.">
+        <entity id="DDI-DrugBank.d163.s20.e0" charOffset="0-7"
+            type="brand" text="Accutane"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d163.s21" text="Pregnancies have been reported by users of combined hormonal contraceptives who also used some form of St. Johns Wort.">
+        <entity id="DDI-DrugBank.d163.s21.e0" charOffset="43-74"
+            type="group" text="combined hormonal contraceptives"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d163.s22" text="Laboratory Tests Pregnancy Test Female patients of childbearing potential must have negative results from 2 urine or serum pregnancy tests with a sensitivity of at least 25 mIU/mL before receiving the initial Accutane prescription.">
+        <entity id="DDI-DrugBank.d163.s22.e0" charOffset="209-216"
+            type="brand" text="Accutane"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d163.s23" text="The first test is obtained by the prescriber when the decision is made to pursue qualification of the patient for Accutane (a screening test).">
+        <entity id="DDI-DrugBank.d163.s23.e0" charOffset="114-121"
+            type="brand" text="Accutane"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d163.s24" text="The second pregnancy test (a confirmation test) should be done during the first 5 days of the menstrual period immediately preceding the beginning of Accutane therapy.">
+        <entity id="DDI-DrugBank.d163.s24.e0" charOffset="150-157"
+            type="brand" text="Accutane"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d163.s25" text="For patients with amenorrhea, the second test should be done at least 11 days after the last act of unprotected sexual intercourse (without using 2 effective forms of contraception)."/>
+    <sentence id="DDI-DrugBank.d163.s26" text="Each month of therapy, the patient must have a negative result from a urine or serum pregnancy test."/>
+    <sentence id="DDI-DrugBank.d163.s27" text="A pregnancy test must be repeated each month prior to the female patient receiving each prescription"/>
+    <sentence id="DDI-DrugBank.d163.s28" text="."/>
+    <sentence id="DDI-DrugBank.d163.s29" text="Lipids: Pretreatment and follow-up blood lipids should be obtained under fasting conditions."/>
+    <sentence id="DDI-DrugBank.d163.s30" text="After consumption of alcohol, at least 36 hours should elapse before these determinations are made.">
+        <entity id="DDI-DrugBank.d163.s30.e0" charOffset="21-27"
+            type="drug" text="alcohol"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d163.s31" text="It is recommended that these tests be performed at weekly or biweekly intervals until the lipid response to Accutane is established.">
+        <entity id="DDI-DrugBank.d163.s31.e0" charOffset="108-115"
+            type="brand" text="Accutane"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d163.s32" text="The incidence of hypertriglyceridemia is 1 patient in 4 on Accutane therapy">
+        <entity id="DDI-DrugBank.d163.s32.e0" charOffset="59-66"
+            type="brand" text="Accutane"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d163.s33" text="."/>
+    <sentence id="DDI-DrugBank.d163.s34" text="Liver Function Tests: Since elevations of liver enzymes have been observed during clinical trials, and hepatitis has been reported, pretreatment and follow-up liver function tests should be performed at weekly or biweekly intervals until the response to Accutane has been established">
+        <entity id="DDI-DrugBank.d163.s34.e0" charOffset="254-261"
+            type="brand" text="Accutane"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d163.s35" text="."/>
+    <sentence id="DDI-DrugBank.d163.s36" text="Glucose: Some patients receiving Accutane have experienced problems in the control of their blood sugar.">
+        <entity id="DDI-DrugBank.d163.s36.e0" charOffset="33-40"
+            type="brand" text="Accutane"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d163.s37" text="In addition, new cases of diabetes have been diagnosed during Accutane therapy, although no causal relationship has been established">
+        <entity id="DDI-DrugBank.d163.s37.e0" charOffset="62-69"
+            type="brand" text="Accutane"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d163.s38" text="."/>
+    <sentence id="DDI-DrugBank.d163.s39" text="CPK: Some patients undergoing vigorous physical activity while on Accutane therapy have experienced elevated CPK levels;">
+        <entity id="DDI-DrugBank.d163.s39.e0" charOffset="66-73"
+            type="brand" text="Accutane"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d163.s40" text="however, the clinical significance is unknown."/>
+    <sentence id="DDI-DrugBank.d163.s41" text="There have been rare postmarketing reports of rhabdomyolysis, some associated with strenuous physical activity."/>
+    <sentence id="DDI-DrugBank.d163.s42" text="In a clinical trial of 217 pediatric patients (12 to 17 years) with severe recalcitrant nodular acne, transient elevations in CPK were observed in 12% of patients, including those undergoing strenuous physical activity in association with reported musculoskeletal adverse events such as back pain, arthralgia, limb injury, or muscle sprain."/>
+    <sentence id="DDI-DrugBank.d163.s43" text="In these patients, approximately half of the CPK elevations returned to normal within 2 weeks and half returned to normal within 4 weeks."/>
+    <sentence id="DDI-DrugBank.d163.s44" text="No cases of rhabdomyolysis were reported in this trial."/>
+</document>

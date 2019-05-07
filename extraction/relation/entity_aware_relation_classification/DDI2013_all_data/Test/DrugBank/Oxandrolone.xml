@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="DDI-DrugBank.d584">
+    <sentence id="DDI-DrugBank.d584.s0" text="Anticoagulants Anabolic steroids may increase sensitivity to oral anticoagulants. ">
+        <entity id="DDI-DrugBank.d584.s0.e0" charOffset="0-13"
+            type="group" text="Anticoagulants"/>
+        <entity id="DDI-DrugBank.d584.s0.e1" charOffset="15-31"
+            type="group" text="Anabolic steroids"/>
+        <entity id="DDI-DrugBank.d584.s0.e2" charOffset="66-79"
+            type="group" text="anticoagulants"/>
+        <pair id="DDI-DrugBank.d584.s0.p0" e1="DDI-DrugBank.d584.s0.e0"
+            e2="DDI-DrugBank.d584.s0.e1" ddi="false"/>
+        <pair id="DDI-DrugBank.d584.s0.p1" e1="DDI-DrugBank.d584.s0.e0"
+            e2="DDI-DrugBank.d584.s0.e2" ddi="false"/>
+        <pair id="DDI-DrugBank.d584.s0.p2" e1="DDI-DrugBank.d584.s0.e1"
+            e2="DDI-DrugBank.d584.s0.e2" ddi="true" type="effect"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d584.s1" text="Dosage of the anticoagulant may have to be decreased in order to maintain desired prothrombin time. ">
+        <entity id="DDI-DrugBank.d584.s1.e0" charOffset="14-26"
+            type="group" text="anticoagulant"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d584.s2" text="Patients receiving oral anticoagulant therapy require close monitoring, especially when anabolic steroids are started or stopped. ">
+        <entity id="DDI-DrugBank.d584.s2.e0" charOffset="88-104"
+            type="group" text="anabolic steroids"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d584.s3" text="Warfarin: A multidose study of oxandrolone, given as 5 or 10 mg BID in 15 healthy subjects concurrently treated with warfarin, resulted in a mean increase in S-warfarin half-life from 26 to 48 hours and AUC from 4.55 to 12.08 ng*hr/mL: similar increases in R-warfarin half-life and AUC were also detected. ">
+        <entity id="DDI-DrugBank.d584.s3.e0" charOffset="0-7"
+            type="drug" text="Warfarin"/>
+        <entity id="DDI-DrugBank.d584.s3.e1" charOffset="31-41"
+            type="drug" text="oxandrolone"/>
+        <entity id="DDI-DrugBank.d584.s3.e2" charOffset="117-124"
+            type="drug" text="warfarin"/>
+        <entity id="DDI-DrugBank.d584.s3.e3" charOffset="158-167"
+            type="drug" text="S-warfarin"/>
+        <entity id="DDI-DrugBank.d584.s3.e4" charOffset="257-266"
+            type="drug" text="R-warfarin"/>
+        <pair id="DDI-DrugBank.d584.s3.p0" e1="DDI-DrugBank.d584.s3.e0"
+            e2="DDI-DrugBank.d584.s3.e1" ddi="false"/>
+        <pair id="DDI-DrugBank.d584.s3.p1" e1="DDI-DrugBank.d584.s3.e0"
+            e2="DDI-DrugBank.d584.s3.e2" ddi="false"/>
+        <pair id="DDI-DrugBank.d584.s3.p2" e1="DDI-DrugBank.d584.s3.e0"
+            e2="DDI-DrugBank.d584.s3.e3" ddi="false"/>
+        <pair id="DDI-DrugBank.d584.s3.p3" e1="DDI-DrugBank.d584.s3.e0"
+            e2="DDI-DrugBank.d584.s3.e4" ddi="false"/>
+        <pair id="DDI-DrugBank.d584.s3.p4" e1="DDI-DrugBank.d584.s3.e1"
+            e2="DDI-DrugBank.d584.s3.e2" ddi="true" type="mechanism"/>
+        <pair id="DDI-DrugBank.d584.s3.p5" e1="DDI-DrugBank.d584.s3.e1"
+            e2="DDI-DrugBank.d584.s3.e3" ddi="false"/>
+        <pair id="DDI-DrugBank.d584.s3.p6" e1="DDI-DrugBank.d584.s3.e1"
+            e2="DDI-DrugBank.d584.s3.e4" ddi="false"/>
+        <pair id="DDI-DrugBank.d584.s3.p7" e1="DDI-DrugBank.d584.s3.e2"
+            e2="DDI-DrugBank.d584.s3.e3" ddi="false"/>
+        <pair id="DDI-DrugBank.d584.s3.p8" e1="DDI-DrugBank.d584.s3.e2"
+            e2="DDI-DrugBank.d584.s3.e4" ddi="false"/>
+        <pair id="DDI-DrugBank.d584.s3.p9" e1="DDI-DrugBank.d584.s3.e3"
+            e2="DDI-DrugBank.d584.s3.e4" ddi="false"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d584.s4" text="Microscopic hematuria (9/15) and gingival bleeding (1/15) were also observed. "/>
+    <sentence id="DDI-DrugBank.d584.s5" text="A 5.5-fold decrease in the mean warfarin dose from 6.13 mg/day to 1.13 mg/day (approximately 80-85% reduction of warfarin dose), was necessary to maintain a target INR of 1.5. ">
+        <entity id="DDI-DrugBank.d584.s5.e0" charOffset="32-39"
+            type="drug" text="warfarin"/>
+        <entity id="DDI-DrugBank.d584.s5.e1" charOffset="113-120"
+            type="drug" text="warfarin"/>
+        <pair id="DDI-DrugBank.d584.s5.p0" e1="DDI-DrugBank.d584.s5.e0"
+            e2="DDI-DrugBank.d584.s5.e1" ddi="false"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d584.s6" text="When oxandrolone therapy is initiated in a patient already receiving treatment with warfarin, the INR or prothrombin time (PT) should be monitored closely and the dose of warfarin adjusted as necessary until a stable target INR or PT has been achieved. ">
+        <entity id="DDI-DrugBank.d584.s6.e0" charOffset="5-15"
+            type="drug" text="oxandrolone"/>
+        <entity id="DDI-DrugBank.d584.s6.e1" charOffset="84-91"
+            type="drug" text="warfarin"/>
+        <entity id="DDI-DrugBank.d584.s6.e2" charOffset="171-178"
+            type="drug" text="warfarin"/>
+        <pair id="DDI-DrugBank.d584.s6.p0" e1="DDI-DrugBank.d584.s6.e0"
+            e2="DDI-DrugBank.d584.s6.e1" ddi="true" type="advise"/>
+        <pair id="DDI-DrugBank.d584.s6.p1" e1="DDI-DrugBank.d584.s6.e0"
+            e2="DDI-DrugBank.d584.s6.e2" ddi="false"/>
+        <pair id="DDI-DrugBank.d584.s6.p2" e1="DDI-DrugBank.d584.s6.e1"
+            e2="DDI-DrugBank.d584.s6.e2" ddi="false"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d584.s7" text="Furthermore, in patients receiving both drugs, careful monitoring of the INR or PT, and adjustment of the warfarin dosage if indicated are recommended when the oxandrolone dose is changed or discontinued. ">
+        <entity id="DDI-DrugBank.d584.s7.e0" charOffset="106-113"
+            type="drug" text="warfarin"/>
+        <entity id="DDI-DrugBank.d584.s7.e1" charOffset="160-170"
+            type="drug" text="oxandrolone"/>
+        <pair id="DDI-DrugBank.d584.s7.p0" e1="DDI-DrugBank.d584.s7.e0"
+            e2="DDI-DrugBank.d584.s7.e1" ddi="true" type="advise"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d584.s8" text="Patients should be closely monitored for signs and symptoms of occult bleeding. "/>
+    <sentence id="DDI-DrugBank.d584.s9" text="Oral hypoglycemic agents Oxandrolone may inhibit the metabolism of oral hypoglycemic agents. ">
+        <entity id="DDI-DrugBank.d584.s9.e0" charOffset="5-23"
+            type="group" text="hypoglycemic agents"/>
+        <entity id="DDI-DrugBank.d584.s9.e1" charOffset="25-35"
+            type="drug" text="Oxandrolone"/>
+        <entity id="DDI-DrugBank.d584.s9.e2" charOffset="72-90"
+            type="group" text="hypoglycemic agents"/>
+        <pair id="DDI-DrugBank.d584.s9.p0" e1="DDI-DrugBank.d584.s9.e0"
+            e2="DDI-DrugBank.d584.s9.e1" ddi="false"/>
+        <pair id="DDI-DrugBank.d584.s9.p1" e1="DDI-DrugBank.d584.s9.e0"
+            e2="DDI-DrugBank.d584.s9.e2" ddi="false"/>
+        <pair id="DDI-DrugBank.d584.s9.p2" e1="DDI-DrugBank.d584.s9.e1"
+            e2="DDI-DrugBank.d584.s9.e2" ddi="true" type="mechanism"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d584.s10" text="Adrenal steroids or ACTH In patients with edema, concomitant administration with adrenal cortical steroids or ACTH may increase the edema. ">
+        <entity id="DDI-DrugBank.d584.s10.e0" charOffset="0-15"
+            type="group" text="Adrenal steroids"/>
+        <entity id="DDI-DrugBank.d584.s10.e1" charOffset="20-23"
+            type="drug" text="ACTH"/>
+        <entity id="DDI-DrugBank.d584.s10.e2" charOffset="81-105"
+            type="group" text="adrenal cortical steroids"/>
+        <entity id="DDI-DrugBank.d584.s10.e3" charOffset="110-113"
+            type="drug" text="ACTH"/>
+        <pair id="DDI-DrugBank.d584.s10.p0"
+            e1="DDI-DrugBank.d584.s10.e0" e2="DDI-DrugBank.d584.s10.e1" ddi="false"/>
+        <pair id="DDI-DrugBank.d584.s10.p1"
+            e1="DDI-DrugBank.d584.s10.e0" e2="DDI-DrugBank.d584.s10.e2" ddi="false"/>
+        <pair id="DDI-DrugBank.d584.s10.p2"
+            e1="DDI-DrugBank.d584.s10.e0" e2="DDI-DrugBank.d584.s10.e3" ddi="false"/>
+        <pair id="DDI-DrugBank.d584.s10.p3"
+            e1="DDI-DrugBank.d584.s10.e1" e2="DDI-DrugBank.d584.s10.e2" ddi="false"/>
+        <pair id="DDI-DrugBank.d584.s10.p4"
+            e1="DDI-DrugBank.d584.s10.e1" e2="DDI-DrugBank.d584.s10.e3" ddi="false"/>
+        <pair id="DDI-DrugBank.d584.s10.p5"
+            e1="DDI-DrugBank.d584.s10.e2" e2="DDI-DrugBank.d584.s10.e3" ddi="false"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d584.s11" text="Drug/Laboratory test interactions Anabolic steroids may decrease levels of thyroxine-binding globulin, resulting in decreased total T4 serum levels and increased resin uptake of T3 and T4. ">
+        <entity id="DDI-DrugBank.d584.s11.e0" charOffset="34-50"
+            type="drug" text="Anabolic steroids"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d584.s12" text="Free thyroid hormone levels remain unchanged. "/>
+    <sentence id="DDI-DrugBank.d584.s13" text="In addition, a decrease in PBI and radioactive iodine uptake may occur.    "/>
+</document>

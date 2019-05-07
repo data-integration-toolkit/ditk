@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="DDI-DrugBank.d339">
+    <sentence id="DDI-DrugBank.d339.s0" text="Carbamazepine: Elevated carbamazepine levels have been reported in postmarketing experience when SUPRAX is administered concomitantly.">
+        <entity id="DDI-DrugBank.d339.s0.e0" charOffset="0-12"
+            type="drug" text="Carbamazepine"/>
+        <entity id="DDI-DrugBank.d339.s0.e1" charOffset="24-36"
+            type="drug" text="carbamazepine"/>
+        <entity id="DDI-DrugBank.d339.s0.e2" charOffset="97-102"
+            type="brand" text="SUPRAX"/>
+        <pair id="DDI-DrugBank.d339.s0.p0" e1="DDI-DrugBank.d339.s0.e0"
+            e2="DDI-DrugBank.d339.s0.e1" ddi="false"/>
+        <pair id="DDI-DrugBank.d339.s0.p1" e1="DDI-DrugBank.d339.s0.e0"
+            e2="DDI-DrugBank.d339.s0.e2" ddi="false"/>
+        <pair id="DDI-DrugBank.d339.s0.p2" e1="DDI-DrugBank.d339.s0.e1"
+            e2="DDI-DrugBank.d339.s0.e2" ddi="true" type="mechanism"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d339.s1" text="Drug monitoring may be of assistance in detecting alterations in carbamazepine plasma concentrations.">
+        <entity id="DDI-DrugBank.d339.s1.e0" charOffset="65-77"
+            type="drug" text="carbamazepine"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d339.s2" text="Warfarin and Anticoagulants: Increased prothrombin time, with or without clinical bleeding, has been reported when cefixime is administered concomitantly.">
+        <entity id="DDI-DrugBank.d339.s2.e0" charOffset="0-7"
+            type="drug" text="Warfarin"/>
+        <entity id="DDI-DrugBank.d339.s2.e1" charOffset="13-26"
+            type="group" text="Anticoagulants"/>
+        <entity id="DDI-DrugBank.d339.s2.e2" charOffset="115-122"
+            type="drug" text="cefixime"/>
+        <pair id="DDI-DrugBank.d339.s2.p0" e1="DDI-DrugBank.d339.s2.e0"
+            e2="DDI-DrugBank.d339.s2.e1" ddi="false"/>
+        <pair id="DDI-DrugBank.d339.s2.p1" e1="DDI-DrugBank.d339.s2.e0"
+            e2="DDI-DrugBank.d339.s2.e2" ddi="true" type="effect"/>
+        <pair id="DDI-DrugBank.d339.s2.p2" e1="DDI-DrugBank.d339.s2.e1"
+            e2="DDI-DrugBank.d339.s2.e2" ddi="true" type="effect"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d339.s3" text="Drug/Laboratory Test Interactions A false-positive reaction for ketones in the urine may occur with tests using nitroprusside but not with those using nitroferricyanide.">
+        <entity id="DDI-DrugBank.d339.s3.e0" charOffset="112-124"
+            type="drug" text="nitroprusside"/>
+        <entity id="DDI-DrugBank.d339.s3.e1" charOffset="151-167"
+            type="drug" text="nitroferricyanide"/>
+        <pair id="DDI-DrugBank.d339.s3.p0" e1="DDI-DrugBank.d339.s3.e0"
+            e2="DDI-DrugBank.d339.s3.e1" ddi="false"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d339.s4" text="The administration of SUPRAX may result in a false-positive reaction for glucose in the urine using Clinitest **, Benedict s solution, or Fehling s solution.">
+        <entity id="DDI-DrugBank.d339.s4.e0" charOffset="22-27"
+            type="brand" text="SUPRAX"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d339.s5" text="It is recommended that glucose tests based on enzymatic glucose oxidase reactions (such as Clinistix ** or Tes-Tape **) be used."/>
+    <sentence id="DDI-DrugBank.d339.s6" text="A false-positive direct Coombs test has been reported during treatment with other cephalosporin antibiotics;">
+        <entity id="DDI-DrugBank.d339.s6.e0" charOffset="82-106"
+            type="group" text="cephalosporin antibiotics"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d339.s7" text="therefore, it should be recognized that a positive Coombs test may be due to the drug."/>
+</document>

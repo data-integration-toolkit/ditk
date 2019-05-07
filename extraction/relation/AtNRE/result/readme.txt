@@ -1,0 +1,1 @@
+result directory! houses the best predicted pair in pkl. 

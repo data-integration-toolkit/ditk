@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="DDI-DrugBank.d12">
+    <sentence id="DDI-DrugBank.d12.s0" text="Caution should be exercised when anticoagulants are given in conjunction with Atromid-S.">
+        <entity id="DDI-DrugBank.d12.s0.e0" charOffset="33-46"
+            type="group" text="anticoagulants"/>
+        <entity id="DDI-DrugBank.d12.s0.e1" charOffset="78-86"
+            type="brand" text="Atromid-S"/>
+        <pair id="DDI-DrugBank.d12.s0.p0" e1="DDI-DrugBank.d12.s0.e0"
+            e2="DDI-DrugBank.d12.s0.e1" ddi="true" type="advise"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d12.s1" text="Usually, the dosage of the anticoagulant should be reduced by one-half (depending on the individual case) to maintain the prothrombin time at the desired level to prevent bleeding complications.">
+        <entity id="DDI-DrugBank.d12.s1.e0" charOffset="27-39"
+            type="group" text="anticoagulant"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d12.s2" text="Frequent prothrombin determinations are advisable until it has been determined definitely that the prothrombin level has been stabilized."/>
+    <sentence id="DDI-DrugBank.d12.s3" text="Atromid-S may displace acidic drugs such as phenytoin or tolbutamide from their binding sites.">
+        <entity id="DDI-DrugBank.d12.s3.e0" charOffset="0-8"
+            type="brand" text="Atromid-S"/>
+        <entity id="DDI-DrugBank.d12.s3.e1" charOffset="44-52"
+            type="drug" text="phenytoin"/>
+        <entity id="DDI-DrugBank.d12.s3.e2" charOffset="57-67"
+            type="drug" text="tolbutamide"/>
+        <pair id="DDI-DrugBank.d12.s3.p0" e1="DDI-DrugBank.d12.s3.e0"
+            e2="DDI-DrugBank.d12.s3.e1" ddi="true" type="mechanism"/>
+        <pair id="DDI-DrugBank.d12.s3.p1" e1="DDI-DrugBank.d12.s3.e0"
+            e2="DDI-DrugBank.d12.s3.e2" ddi="true" type="mechanism"/>
+        <pair id="DDI-DrugBank.d12.s3.p2" e1="DDI-DrugBank.d12.s3.e1"
+            e2="DDI-DrugBank.d12.s3.e2" ddi="false"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d12.s4" text="Caution should be exercised when treating patients with either of these drugs or other highly protein-bound drugs and Atromid-S.">
+        <entity id="DDI-DrugBank.d12.s4.e0" charOffset="118-126"
+            type="brand" text="Atromid-S"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d12.s5" text="The hypoglycemic effect of tolbutamide has been reported to increase when Atromid-S is given concurrently.">
+        <entity id="DDI-DrugBank.d12.s5.e0" charOffset="27-37"
+            type="drug" text="tolbutamide"/>
+        <entity id="DDI-DrugBank.d12.s5.e1" charOffset="74-82"
+            type="brand" text="Atromid-S"/>
+        <pair id="DDI-DrugBank.d12.s5.p0" e1="DDI-DrugBank.d12.s5.e0"
+            e2="DDI-DrugBank.d12.s5.e1" ddi="true" type="effect"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d12.s6" text="Fulminant rhabdomyolysis has been seen as early as three weeks after initiation of combined therapy with another fibrate and lovastatin but may be seen after several months.">
+        <entity id="DDI-DrugBank.d12.s6.e0" charOffset="113-119"
+            type="group" text="fibrate"/>
+        <entity id="DDI-DrugBank.d12.s6.e1" charOffset="125-134"
+            type="drug" text="lovastatin"/>
+        <pair id="DDI-DrugBank.d12.s6.p0" e1="DDI-DrugBank.d12.s6.e0"
+            e2="DDI-DrugBank.d12.s6.e1" ddi="true" type="effect"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d12.s7" text="For these reasons, it is felt that, in most subjects who have had an unsatisfactory lipid response to either drug alone, the possible benefits of combined therapy with lovastatin and a fibrate do not outweigh the risks of severe myopathy, rhabdomyolysis, and acute renal failure.">
+        <entity id="DDI-DrugBank.d12.s7.e0" charOffset="168-177"
+            type="drug" text="lovastatin"/>
+        <entity id="DDI-DrugBank.d12.s7.e1" charOffset="185-191"
+            type="group" text="fibrate"/>
+        <pair id="DDI-DrugBank.d12.s7.p0" e1="DDI-DrugBank.d12.s7.e0"
+            e2="DDI-DrugBank.d12.s7.e1" ddi="true" type="effect"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d12.s8" text="While it is not known whether this interaction occurs with fibrates other than gemfibrozil, myopathy and rhabdomyolysis have occasionally been associated with the use of fibrates alone, including clofibrate.">
+        <entity id="DDI-DrugBank.d12.s8.e0" charOffset="59-66"
+            type="group" text="fibrates"/>
+        <entity id="DDI-DrugBank.d12.s8.e1" charOffset="79-89"
+            type="drug" text="gemfibrozil"/>
+        <entity id="DDI-DrugBank.d12.s8.e2" charOffset="170-177"
+            type="group" text="fibrates"/>
+        <entity id="DDI-DrugBank.d12.s8.e3" charOffset="196-205"
+            type="drug" text="clofibrate"/>
+        <pair id="DDI-DrugBank.d12.s8.p0" e1="DDI-DrugBank.d12.s8.e0"
+            e2="DDI-DrugBank.d12.s8.e1" ddi="false"/>
+        <pair id="DDI-DrugBank.d12.s8.p1" e1="DDI-DrugBank.d12.s8.e0"
+            e2="DDI-DrugBank.d12.s8.e2" ddi="false"/>
+        <pair id="DDI-DrugBank.d12.s8.p2" e1="DDI-DrugBank.d12.s8.e0"
+            e2="DDI-DrugBank.d12.s8.e3" ddi="false"/>
+        <pair id="DDI-DrugBank.d12.s8.p3" e1="DDI-DrugBank.d12.s8.e1"
+            e2="DDI-DrugBank.d12.s8.e2" ddi="false"/>
+        <pair id="DDI-DrugBank.d12.s8.p4" e1="DDI-DrugBank.d12.s8.e1"
+            e2="DDI-DrugBank.d12.s8.e3" ddi="false"/>
+        <pair id="DDI-DrugBank.d12.s8.p5" e1="DDI-DrugBank.d12.s8.e2"
+            e2="DDI-DrugBank.d12.s8.e3" ddi="false"/>
+    </sentence>
+    <sentence id="DDI-DrugBank.d12.s9" text="Therefore, the combined use of lovastatin with fibrates should generally be avoided.">
+        <entity id="DDI-DrugBank.d12.s9.e0" charOffset="31-40"
+            type="drug" text="lovastatin"/>
+        <entity id="DDI-DrugBank.d12.s9.e1" charOffset="47-54"
+            type="group" text="fibrates"/>
+        <pair id="DDI-DrugBank.d12.s9.p0" e1="DDI-DrugBank.d12.s9.e0"
+            e2="DDI-DrugBank.d12.s9.e1" ddi="true" type="advise"/>
+    </sentence>
+</document>
