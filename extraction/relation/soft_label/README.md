@@ -151,6 +151,19 @@ Then open the run.ipynb to get a sense of general model usage
 This video guide through cloning the project to editing specific model configuration
 [[Youtube Video](https://youtu.be/Noj5v2ihZBA)]
 
+### Edit Model Configuration(model.py)
+You can change the number of epochs at Line 950:
+```
+        tf.app.flags.DEFINE_integer(
+            "num_epochs", 10, "Number of epochs ")
+```
+You can change the Model used (One Model or Attention Model) Line 952:
+```
+        tf.app.flags.DEFINE_string(
+            "one_or_att", 'att', 'at-least-one or selective attention model')
+```
+There are more to edit inside model.py at ~950 lines
+
 ### Run unit test
 ```
 cd tests
