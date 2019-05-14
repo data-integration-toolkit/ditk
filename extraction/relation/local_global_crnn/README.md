@@ -9,7 +9,8 @@ Raj, D., Sahu, S. and Anand, A: Learning local and global contexts using a convo
 relation classification in biomedical text. CoNLL 2017.
 
 
-## Original Implementation Repository ([Repo1](https://github.com/kwonmha/Convolutional-Recurrent-Neural-Networks-for-Relation-Extraction)) ([Repo2](https://github.com/desh2608/crnn-relation-classification))
+## Original Implementation Repository 
+([Repo1](https://github.com/kwonmha/Convolutional-Recurrent-Neural-Networks-for-Relation-Extraction)) ([Repo2](https://github.com/desh2608/crnn-relation-classification))
 
 
 ## Overall Task
@@ -137,9 +138,28 @@ if __name__ == "__main__":
 ```
 You may also find the provided Youtube Video and Jupyter notebook useful.
 
+### Jupyter Notebook
+```
+Jupyter notebook
+```
+Then open the run.ipynb to get a sense of general model usage
 
 ### Youtube Video Guide
+This video guide through cloning the project to editing specific model configuration
 [[Youtube Video](https://youtu.be/JtQrqSt24uk)]
+
+### Edit Model Configuration(model.py)
+You can change the number of epochs at Line 311:
+```
+        tf.app.flags.DEFINE_integer(
+            "num_epochs", 1, "Number of training epochs (Default: 100)")
+```
+You can change the different Pooling Type (Max Pooling or Attention Pooling) Line 298:
+```
+        tf.app.flags.DEFINE_string("pooling_type", "max",
+                                   "pooling method, max or att (Default: max)")
+```
+There are more to edit inside model.py at ~950 lines
 
 ### Run unit test
 ```
